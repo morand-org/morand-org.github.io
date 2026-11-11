@@ -32,11 +32,12 @@ h1 { margin: 0; font: 500 clamp(2rem, 7vw, 3.1rem)/1.08 var(--police-titre); let
 .chapeau { max-width: 34em; margin: 14px auto 0; color: var(--encre-2); font-size: 1.04rem; text-wrap: balance; }
 .volets { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
 .volet { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding: 18px 20px 18px 16px;
-  background: var(--surface); border: 1px solid var(--ligne); border-radius: 22px; box-shadow: var(--ombre);
+  background: var(--surface); border: 1px solid color-mix(in srgb, var(--marque) 26%, var(--ligne)); border-radius: 22px; box-shadow: var(--ombre);
   color: inherit; text-decoration: none; transition: transform 160ms ease, box-shadow 160ms ease; min-height: 44px; }
-.volet:hover { transform: translateY(-1px); box-shadow: 0 2px 4px rgba(18, 18, 17, 0.05), 0 12px 32px rgba(18, 18, 17, 0.09); }
+.volet:hover { transform: translateY(-1px); border-color: color-mix(in srgb, var(--marque) 55%, var(--ligne)); box-shadow: 0 2px 4px rgba(18, 18, 17, 0.05), 0 12px 32px rgba(18, 18, 17, 0.09); }
 .volet:focus-visible { outline: 3px solid var(--marque); outline-offset: 3px; }
-.sceau { width: 88px; height: 88px; border-radius: 50%; background: var(--plaque); }
+/* Les sceaux de l'animation d'ouverture de Wealth Morand : tracés en or, fond transparent, vectoriels. */
+.sceau { display: block; width: 92px; height: 92px; }
 .volet-texte { display: grid; gap: 4px; min-width: 0; }
 .volet-nom { font: 500 1.4rem/1.15 var(--police-titre); }
 .volet-sous { color: var(--encre-2); font-size: 0.93rem; }
@@ -44,7 +45,7 @@ h1 { margin: 0; font: 500 clamp(2rem, 7vw, 3.1rem)/1.08 var(--police-titre); let
 .pied { max-width: 760px; margin: 0 auto; padding: 36px 0 44px; text-align: center; color: var(--discret); font-size: 0.86rem; }
 .pied p { margin: 6px 0; }
 .pied a { color: var(--encre-2); text-underline-offset: 3px; display: inline-block; padding: 12px 4px; }
-@media (min-width: 640px) { .sceau { width: 112px; height: 112px; } .volet { padding: 22px 26px 22px 20px; gap: 24px; } }
+@media (min-width: 640px) { .sceau { width: 118px; height: 118px; } .volet { padding: 22px 26px 22px 20px; gap: 24px; } }
 @media (max-width: 360px) { .sceau { width: 68px; height: 68px; } .volet { gap: 12px; padding: 14px; } .fleche { display: none; } .volet { grid-template-columns: auto 1fr; } }
 /* Téléphone : tout tient dans l'écran, sans défilement. Les tailles suivent la hauteur visible (dvh) ; sur un écran
    très bas, la page redevient défilable plutôt que de couper le contenu. */
@@ -60,7 +61,7 @@ h1 { margin: 0; font: 500 clamp(2rem, 7vw, 3.1rem)/1.08 var(--police-titre); let
   .chapeau { font-size: clamp(0.86rem, 2.05dvh, 1.02rem); margin-top: clamp(6px, 1.4dvh, 14px); line-height: 1.42; }
   .volets { gap: clamp(8px, 1.6dvh, 14px); }
   .volet { padding: clamp(9px, 1.8dvh, 18px) 16px clamp(9px, 1.8dvh, 18px) 12px; gap: 14px; border-radius: 20px; }
-  .sceau { width: clamp(50px, 10.4dvh, 88px); height: clamp(50px, 10.4dvh, 88px); }
+  .sceau { width: clamp(54px, 11dvh, 92px); height: clamp(54px, 11dvh, 92px); }
   .volet-nom { font-size: clamp(1.1rem, 2.85dvh, 1.4rem); }
   .volet-sous { font-size: clamp(0.78rem, 1.85dvh, 0.93rem); line-height: 1.36; }
   .pied { padding: clamp(6px, 1.8dvh, 22px) 0 calc(clamp(4px, 1.2dvh, 16px) + env(safe-area-inset-bottom)); font-size: clamp(0.72rem, 1.6dvh, 0.84rem); }
