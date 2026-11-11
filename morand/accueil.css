@@ -1,77 +1,81 @@
-/* Morand : page couverture. Couleurs et polices de Wealth Morand, hébergées ici (aucune ressource externe). */
+/* Morand : page d'accueil, mise en page de revue. Alignée à gauche, filets fins, chiffres romains, aucun encadré.
+   Polices et sceaux hébergés ici (aucune ressource externe). */
 @font-face { font-family: "Inter"; src: url("inter.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
 @font-face { font-family: "Newsreader"; src: url("newsreader.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
 :root {
-  --fond: #f5f4f0; --surface: #ffffff; --encre: #121211; --encre-2: #45443f; --discret: #67655e;
-  --ligne: #e8e6df; --marque: #b48a4a; --plaque: #fbfaf6;
-  --ombre: 0 1px 2px rgba(18, 18, 17, 0.04), 0 6px 24px rgba(18, 18, 17, 0.06);
+  --papier: #f6f3ec; --encre: #17160f; --encre-2: #55524a; --discret: #6f6b61; --filet: #d9d2c2; --filet-fort: #17160f; --or: #9b7a3e;
   --police: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --police-titre: "Newsreader", ui-serif, "New York", Georgia, serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --fond: #0e0e0d; --surface: #191917; --encre: #f2f1ec; --encre-2: #cfcdc5; --discret: #a9a79f; --ligne: #2a2a27; --marque: #d2aa6a; --plaque: #f4f1e8; color-scheme: dark; }
+  :root { --papier: #12110d; --encre: #efe9dc; --encre-2: #c9c2b2; --discret: #a59e8d; --filet: #2f2c25; --filet-fort: #8f7a52; --or: #c9a35c; color-scheme: dark; }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; min-height: 100vh; background: var(--fond); color: var(--encre); font: 400 1rem/1.5 var(--police);
-  padding: env(safe-area-inset-top) max(16px, env(safe-area-inset-right)) env(safe-area-inset-bottom) max(16px, env(safe-area-inset-left)); }
+body { margin: 0 auto; max-width: 720px; min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column;
+  background: var(--papier); color: var(--encre); font: 400 1rem/1.5 var(--police); -webkit-font-smoothing: antialiased;
+  padding: calc(26px + env(safe-area-inset-top)) max(24px, env(safe-area-inset-right)) calc(20px + env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left)); }
+html { background: var(--papier); }
+a { color: inherit; text-decoration: none; }
 .saut { position: absolute; left: -9999px; }
-.saut:focus { left: 16px; top: 16px; background: var(--surface); padding: 10px 14px; border-radius: 10px; z-index: 2; }
-.tete { max-width: 760px; margin: 0 auto; padding: 28px 0 0; text-align: center; }
-.marque { margin: 0; font: 500 0.95rem/1 var(--police-titre); letter-spacing: 0.42em; text-transform: uppercase; color: var(--marque); }
-/* Rameaux d'olivier de part et d'autre du nom : ils partent à sa hauteur et montent vers l'extérieur. */
-.marque { display: flex; align-items: flex-end; justify-content: center; gap: 10px; }
-.marque span { padding-left: 0.42em; margin-bottom: 3px; }
-.rameau { flex: none; width: 60px; height: 35px; }
-.rameau-g { transform: scaleX(-1); }
-main { max-width: 760px; margin: 0 auto; }
-.intro { text-align: center; padding: 36px 0 28px; }
-.intro::after { content: ""; display: block; width: 56px; height: 1px; margin: 26px auto 0; background: var(--marque); }
-h1 { margin: 0; font: 500 clamp(2rem, 7vw, 3.1rem)/1.08 var(--police-titre); letter-spacing: -0.01em; text-wrap: balance; }
-.chapeau { max-width: 34em; margin: 14px auto 0; color: var(--encre-2); font-size: 1.04rem; text-wrap: balance; }
-.volets { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
-.volet { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding: 18px 20px 18px 16px;
-  background: var(--surface); border: 1px solid color-mix(in srgb, var(--marque) 26%, var(--ligne)); border-radius: 22px; box-shadow: var(--ombre);
-  color: inherit; text-decoration: none; transition: transform 160ms ease, box-shadow 160ms ease; min-height: 44px; }
-.volet:hover { transform: translateY(-1px); border-color: color-mix(in srgb, var(--marque) 55%, var(--ligne)); box-shadow: 0 2px 4px rgba(18, 18, 17, 0.05), 0 12px 32px rgba(18, 18, 17, 0.09); }
-.volet:focus-visible { outline: 3px solid var(--marque); outline-offset: 3px; }
-/* Les sceaux de l'animation d'ouverture de Wealth Morand : tracés en or, fond transparent, vectoriels. */
-.sceau { display: block; width: 92px; height: 92px; }
-.volet-texte { display: grid; gap: 4px; min-width: 0; }
-.volet-nom { font: 500 1.4rem/1.15 var(--police-titre); }
-.volet-sous { color: var(--encre-2); font-size: 0.93rem; }
-.fleche { color: var(--marque); font-size: 1.3rem; }
-.pied { max-width: 760px; margin: 0 auto; padding: 36px 0 44px; text-align: center; color: var(--discret); font-size: 0.86rem; }
-.pied p { margin: 6px 0; }
-.pied a { color: var(--encre-2); text-underline-offset: 3px; display: inline-block; padding: 12px 4px; }
-@media (min-width: 640px) { .sceau { width: 118px; height: 118px; } .volet { padding: 22px 26px 22px 20px; gap: 24px; } }
-@media (max-width: 360px) { .sceau { width: 68px; height: 68px; } .volet { gap: 12px; padding: 14px; } .fleche { display: none; } .volet { grid-template-columns: auto 1fr; } }
-/* Téléphone : tout tient dans l'écran, sans défilement. Les tailles suivent la hauteur visible (dvh) ; sur un écran
-   très bas, la page redevient défilable plutôt que de couper le contenu. */
-@media (max-width: 640px) and (min-height: 521px) {
-  html, body { height: 100%; overflow: hidden; overscroll-behavior: none; }
-  body { min-height: 0; height: 100vh; height: 100dvh; display: flex; flex-direction: column; }
-  .tete { padding-top: clamp(10px, 2.6dvh, 28px); }
-  .rameau { height: clamp(26px, 4.4dvh, 35px); width: auto; }
-  main { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
-  .intro { padding: clamp(6px, 2.4dvh, 28px) 0 clamp(10px, 2.6dvh, 26px); }
-  .intro::after { margin-top: clamp(10px, 2.2dvh, 24px); }
-  h1 { font-size: clamp(1.55rem, min(8vw, 4.7dvh), 2.4rem); }
-  .chapeau { font-size: clamp(0.86rem, 2.05dvh, 1.02rem); margin-top: clamp(6px, 1.4dvh, 14px); line-height: 1.42; }
-  .volets { gap: clamp(8px, 1.6dvh, 14px); }
-  .volet { padding: clamp(9px, 1.8dvh, 18px) 16px clamp(9px, 1.8dvh, 18px) 12px; gap: 14px; border-radius: 20px; }
-  .sceau { width: clamp(54px, 11dvh, 92px); height: clamp(54px, 11dvh, 92px); }
-  .volet-nom { font-size: clamp(1.1rem, 2.85dvh, 1.4rem); }
-  .volet-sous { font-size: clamp(0.78rem, 1.85dvh, 0.93rem); line-height: 1.36; }
-  .pied { padding: clamp(6px, 1.8dvh, 22px) 0 calc(clamp(4px, 1.2dvh, 16px) + env(safe-area-inset-bottom)); font-size: clamp(0.72rem, 1.6dvh, 0.84rem); }
-  .pied p { margin: 2px 0; }
-  .pied a { padding: 10px 4px; }
+.saut:focus { left: 16px; top: 16px; background: var(--papier); padding: 10px 14px; outline: 2px solid var(--or); z-index: 2; }
+
+/* En-tête : le nom et la rubrique, sur un filet. */
+.tete { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--filet-fort); }
+.marque { margin: 0; font: 500 15px/1 var(--police-titre); letter-spacing: 0.32em; text-transform: uppercase; }
+.rubrique { margin: 0; font: 500 10.5px/1 var(--police); letter-spacing: 0.24em; text-transform: uppercase; color: var(--or); }
+
+main { flex: 1 0 auto; }
+h1 { margin: 40px 0 12px; font: 400 clamp(2.4rem, 11vw, 3.6rem)/1.02 var(--police-titre); letter-spacing: -0.015em; }
+h1 em { color: var(--or); }
+.chapeau { margin: 0 0 32px; max-width: 32ch; font-size: 0.86rem; line-height: 1.55; color: var(--encre-2); }
+
+/* Les outils : une liste numérotée, séparée par des filets. */
+.outils { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--filet); }
+.outils a { display: grid; grid-template-columns: 34px 1fr 56px; align-items: center; gap: 12px; padding: 17px 0; border-bottom: 1px solid var(--filet); min-height: 44px; }
+.no { font: italic 400 15px/1 var(--police-titre); color: var(--or); }
+.nom { font: 400 1.6rem/1.05 var(--police-titre); }
+.desc { display: block; margin-top: 6px; font: 400 0.78rem/1.35 var(--police); color: var(--discret); }
+.outils img { width: 56px; height: 56px; display: block; }
+.outils a:hover .nom, .outils a:focus-visible .nom { text-decoration: underline; text-decoration-color: var(--or); text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.outils a:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+
+/* Pied : deux mots, en petites capitales. */
+.pied { display: flex; justify-content: space-between; align-items: center; padding-top: 18px;
+  font: 500 10px/1 var(--police); letter-spacing: 0.2em; text-transform: uppercase; color: var(--discret); }
+.pied a { padding: 14px 0; }
+.pied a:hover { color: var(--encre); }
+
+/* Ordinateur : plus d'air, sceaux plus grands. */
+@media (min-width: 720px) {
+  body { padding-top: 48px; }
+  h1 { margin-top: 72px; }
+  .chapeau { font-size: 1rem; margin-bottom: 44px; }
+  .outils a { grid-template-columns: 48px 1fr 76px; padding: 24px 0; }
+  .outils img { width: 76px; height: 76px; }
+  .nom { font-size: 2rem; }
+  .desc { font-size: 0.86rem; }
 }
-@media (prefers-reduced-motion: reduce) { .volet { transition: none; } .volet:hover { transform: none; } }
+
+/* Téléphone : tout tient dans l'écran, sans défilement ; les tailles suivent la hauteur visible. Sur un écran très bas,
+   la page redevient défilable plutôt que de couper le contenu. */
+@media (max-width: 719px) and (min-height: 521px) {
+  html, body { height: 100%; overflow: hidden; overscroll-behavior: none; }
+  body { height: 100vh; height: 100dvh; min-height: 0; padding-top: calc(clamp(14px, 3.2dvh, 28px) + env(safe-area-inset-top)); }
+  main { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
+  h1 { margin: 0 0 clamp(8px, 1.6dvh, 14px); font-size: clamp(2rem, min(11vw, 6.4dvh), 3rem); }
+  .chapeau { margin-bottom: clamp(16px, 3.6dvh, 32px); font-size: clamp(0.8rem, 1.9dvh, 0.9rem); }
+  .outils a { padding: clamp(10px, 2.1dvh, 18px) 0; grid-template-columns: 30px 1fr clamp(44px, 7.6dvh, 58px); }
+  .outils img { width: clamp(44px, 7.6dvh, 58px); height: clamp(44px, 7.6dvh, 58px); }
+  .nom { font-size: clamp(1.25rem, 3.4dvh, 1.65rem); }
+  .desc { font-size: clamp(0.72rem, 1.75dvh, 0.8rem); }
+  .pied { padding-top: clamp(8px, 2dvh, 18px); }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+
 /* Page « Confidentialité et avertissements » */
-.texte { max-width: 680px; margin: 0 auto; padding: 8px 0 24px; }
-.texte h1 { font-size: clamp(1.8rem, 6vw, 2.4rem); text-align: center; margin: 24px 0 18px; }
-.texte h2 { font: 500 1.3rem/1.2 var(--police-titre); margin: 28px 0 8px; }
-.texte p, .texte li { color: var(--encre-2); }
-.retour { display: inline-block; padding: 12px 0; color: var(--encre-2); }
+.texte { flex: 1 0 auto; max-width: 640px; padding: 8px 0 24px; }
+.texte h1 { font-size: clamp(2rem, 8vw, 2.8rem); margin: 36px 0 18px; }
+.texte h2 { font: 400 1.35rem/1.2 var(--police-titre); margin: 30px 0 8px; padding-top: 14px; border-top: 1px solid var(--filet); }
+.texte p, .texte li { color: var(--encre-2); font-size: 0.95rem; }
