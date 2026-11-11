@@ -1,6 +1,6 @@
 /* Morand, accueil : hors ligne pour la page couverture et la page de confidentialité seulement.
    Les autres sections (/wealth/, /guides/, /map/) ne passent pas par ici ; leurs caches ne sont jamais touchés. */
-const CACHE = "morand-accueil-v4";
+const CACHE = "morand-accueil-v5";
 const FICHIERS = ["/", "/confidentialite/", "/manifest.webmanifest", "/morand/accueil.css", "/morand/accueil.js", "/morand/inter.woff2",
   "/morand/newsreader.woff2", "/morand/sceau-wealth.svg", "/morand/sceau-guide.svg", "/morand/sceau-map.svg", "/morand/icone.svg"];
 const A_MOI = u => u.origin === self.location.origin && (u.pathname === "/" || u.pathname === "/index.html" || u.pathname === "/manifest.webmanifest"
