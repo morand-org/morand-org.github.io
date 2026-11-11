@@ -41,6 +41,26 @@ h1 { margin: 0; font: 500 clamp(2rem, 7vw, 3.1rem)/1.08 var(--police-titre); let
 .pied a { color: var(--encre-2); text-underline-offset: 3px; display: inline-block; padding: 12px 4px; }
 @media (min-width: 640px) { .sceau { width: 112px; height: 112px; } .volet { padding: 22px 26px 22px 20px; gap: 24px; } }
 @media (max-width: 360px) { .sceau { width: 68px; height: 68px; } .volet { gap: 12px; padding: 14px; } .fleche { display: none; } .volet { grid-template-columns: auto 1fr; } }
+/* Téléphone : tout tient dans l'écran, sans défilement. Les tailles suivent la hauteur visible (dvh) ; sur un écran
+   très bas, la page redevient défilable plutôt que de couper le contenu. */
+@media (max-width: 640px) and (min-height: 521px) {
+  html, body { height: 100%; overflow: hidden; overscroll-behavior: none; }
+  body { min-height: 0; height: 100vh; height: 100dvh; display: flex; flex-direction: column; }
+  .tete { padding-top: clamp(10px, 2.6dvh, 28px); }
+  main { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
+  .intro { padding: clamp(6px, 2.4dvh, 28px) 0 clamp(10px, 2.6dvh, 26px); }
+  .intro::after { margin-top: clamp(10px, 2.2dvh, 24px); }
+  h1 { font-size: clamp(1.55rem, min(8vw, 4.7dvh), 2.4rem); }
+  .chapeau { font-size: clamp(0.86rem, 2.05dvh, 1.02rem); margin-top: clamp(6px, 1.4dvh, 14px); line-height: 1.42; }
+  .volets { gap: clamp(8px, 1.6dvh, 14px); }
+  .volet { padding: clamp(9px, 1.8dvh, 18px) 16px clamp(9px, 1.8dvh, 18px) 12px; gap: 14px; border-radius: 20px; }
+  .sceau { width: clamp(50px, 10.4dvh, 88px); height: clamp(50px, 10.4dvh, 88px); }
+  .volet-nom { font-size: clamp(1.1rem, 2.85dvh, 1.4rem); }
+  .volet-sous { font-size: clamp(0.78rem, 1.85dvh, 0.93rem); line-height: 1.36; }
+  .pied { padding: clamp(6px, 1.8dvh, 22px) 0 calc(clamp(4px, 1.2dvh, 16px) + env(safe-area-inset-bottom)); font-size: clamp(0.72rem, 1.6dvh, 0.84rem); }
+  .pied p { margin: 2px 0; }
+  .pied a { padding: 10px 4px; }
+}
 @media (prefers-reduced-motion: reduce) { .volet { transition: none; } .volet:hover { transform: none; } }
 /* Page « Confidentialité et avertissements » */
 .texte { max-width: 680px; margin: 0 auto; padding: 8px 0 24px; }
