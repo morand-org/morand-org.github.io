@@ -48,10 +48,15 @@ h1 em { color: var(--or); }
   font: 500 10px/1 var(--police); letter-spacing: 0.2em; text-transform: uppercase; color: var(--discret); }
 .pied a { padding: 14px 0; }
 .pied a:hover { color: var(--encre); }
-.installer { padding: 14px 0; border: 0; background: none; color: var(--or); font: inherit; letter-spacing: inherit; text-transform: inherit; cursor: pointer; }
-.installer:hover { color: var(--encre); }
+/* « Installer l'app » : sous l'introduction, au-dessus des outils ; seulement là où l'installation est possible. */
+.installer-ligne { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; margin: -22px 0 30px; }
+.installer { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px 0 14px; border: 1px solid var(--or); border-radius: 999px;
+  background: none; color: var(--or); font: 500 10.5px/1 var(--police); letter-spacing: 0.2em; text-transform: uppercase; cursor: pointer; transition: background 0.15s, color 0.15s; }
+.installer svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.installer:hover { background: var(--or); color: var(--papier); }
+.installer-sous { font-size: 0.78rem; color: var(--discret); }
 .installer:focus-visible, .installer-aide button:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; }
-.installer[hidden], .installer-aide[hidden] { display: none; }
+.installer-ligne[hidden], .installer-aide[hidden] { display: none; }
 /* Marche à suivre sur iPhone : une carte posée en bas, sans faire défiler la page. */
 .installer-aide { position: fixed; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 5; max-width: 420px; margin: 0 auto;
   padding: 18px 20px; background: var(--papier); border: 1px solid var(--filet-fort); color: var(--encre); font-size: 0.9rem; line-height: 1.5;
@@ -65,6 +70,7 @@ h1 em { color: var(--or); }
   body { padding-top: 48px; }
   h1 { margin-top: 72px; }
   .chapeau { font-size: 1rem; margin-bottom: 60px; }
+  .installer-ligne { margin: -34px 0 40px; }
   .outils a { grid-template-columns: 48px 1fr 76px; padding: 30px 0; }
   .outils img { width: 76px; height: 76px; }
   .nom { font-size: 2rem; }
@@ -78,6 +84,10 @@ h1 em { color: var(--or); }
   .rubrique { font-size: 11.5px; }
   h1 { margin: clamp(18px, 4vh, 96px) 0 clamp(10px, 1.6vh, 20px); font-size: clamp(3.4rem, min(6.2vw, 9.5vh), 5.4rem); }
   .chapeau { max-width: 44ch; font-size: 1.08rem; margin-bottom: clamp(28px, 6vh, 76px); }
+  /* Grand écran : le bouton à droite de l'introduction, sur la même ligne ; la page ne s'allonge pas. */
+  main { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 32px; align-content: start; }
+  main > h1, main > .outils { grid-column: 1 / -1; }
+  .installer-ligne { grid-column: 2; grid-row: 2; align-self: start; margin: 4px 0 0; flex-direction: column; align-items: flex-end; gap: 8px; }
   .outils a { grid-template-columns: 56px minmax(0, 1.1fr) minmax(0, 1fr) clamp(68px, 9vh, 88px); grid-template-areas: "no nom desc img";
     column-gap: 32px; padding: clamp(14px, 2.7vh, 34px) 0; }
   .no { font-size: 18px; }
@@ -95,6 +105,8 @@ h1 em { color: var(--or); }
   .accueil main { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
   .accueil h1 { margin: 0 0 clamp(8px, 1.6dvh, 14px); font-size: clamp(2rem, min(11vw, 6.4dvh), 3rem); }
   .accueil .chapeau { margin-bottom: clamp(22px, 4.8dvh, 40px); font-size: clamp(0.8rem, 1.9dvh, 0.9rem); }
+  .accueil .installer-ligne { margin: calc(-1 * clamp(22px, 4.8dvh, 40px) + clamp(8px, 1.6dvh, 14px)) 0 clamp(16px, 3.4dvh, 32px); }
+  .accueil .installer-sous { display: none; }
   .accueil .outils a { padding: clamp(12px, 2.7dvh, 22px) 0; grid-template-columns: 30px 1fr clamp(44px, 7.6dvh, 58px); }
   .accueil .outils img { width: clamp(44px, 7.6dvh, 58px); height: clamp(44px, 7.6dvh, 58px); }
   .accueil .nom { font-size: clamp(1.25rem, 3.4dvh, 1.65rem); }
