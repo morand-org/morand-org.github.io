@@ -30,7 +30,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="stylesheet" href="/assets/seo-pages.css?v=99-hero-lieu">
   <link rel="stylesheet" href="/assets/guides-cliniques.css?v=124-aide-memoire">
-  <link rel="stylesheet" href="/assets/guides-morand.css?v=939e916b79">
+  <link rel="stylesheet" href="/assets/guides-morand.css?v=3cd8b99a03">
   <script src="/assets/guides-recherche.js?v=124-aide-memoire" defer></script>
   <script src="/assets/guides-cliniques.js?v=124-aide-memoire" defer></script>
   <script src="/assets/guides-aiguillage.js?v=124-aide-memoire" defer></script>
@@ -39,12 +39,12 @@
 <a class="skip-link" href="#contenu">Aller au contenu</a>
 <header class="gm-tete"><a class="gm-marque" href="/">Morand</a><nav class="gm-onglets" aria-label="Catalogue"><a href="/guides/" aria-current="page">Guides cliniques <span class="guides-onglet-compte">921</span></a><a href="/guides/ressources-communautaires/">Ressources<span class="gm-long"> communautaires</span> <span class="guides-onglet-compte">388</span></a></nav></header>
 <main id="contenu" class="guides-main">
-  <section class="guides-band gm-intro"><img src="/morand/sceau-guide.svg" alt="" width="128" height="128"><h1>Guide Morand<span class="visually-hidden"> : guides de pratique pour la première ligne</span></h1><p class="gm-devise">Prévention · Pertinence · Expérience</p></section>
+  <section class="guides-band gm-intro"><a class="gm-logo" href="/guides/" tabindex="-1" aria-hidden="true"><img src="/morand/sceau-guide.svg" alt="" width="128" height="128"></a><h1><a class="gm-nom" href="/guides/">Guide Morand</a><span class="visually-hidden"> : guides de pratique pour la première ligne</span></h1><p class="gm-devise">Prévention · Pertinence · Expérience</p></section>
   <section class="guides-band guides-search gm-recherche" aria-labelledby="guides-search-title">
     <h2 id="guides-search-title" class="visually-hidden">Quelle ressource cherchez-vous&nbsp;?</h2>
     <form class="search-page-form guides-search-form" role="search" aria-label="Rechercher une ressource clinique" action="/guides/" method="get">
       <label class="visually-hidden" for="guide-search">Sujet, organisme ou mot-clé</label>
-      <input id="guide-search" name="q" type="search" placeholder="Rechercher parmi 921 ressources…" autocomplete="off" aria-controls="guides-catalogue">
+      <input id="guide-search" name="q" type="search" placeholder="Rechercher par mot-clé…" autocomplete="off" aria-controls="guides-catalogue">
       <button type="submit">Rechercher</button>
     </form>
     <details class="gm-filtres"><summary>Filtres</summary><div class="guides-filter-area" hidden>
@@ -81,7 +81,6 @@
   </section>
   <section class="guides-band guides-favoris" aria-labelledby="guides-favoris-titre" hidden>
     <div class="guides-category-heading"><h2 id="guides-favoris-titre">Mes favoris</h2><span class="compte"></span></div>
-    <p class="guides-favoris-note">Vos favoris sont gardés dans ce navigateur seulement : ils ne se synchronisent pas entre votre cellulaire et votre ordinateur.</p>
     <ul class="guides-resource-list"></ul>
   </section>
   <section class="guides-band guides-consultes" aria-label="Consultés récemment" hidden>

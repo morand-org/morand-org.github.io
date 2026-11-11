@@ -103,17 +103,16 @@ function habiller(t, pageGuides) {
   const lead = (t.match(/<section class="guides-band guides-intro">[\s\S]*?(<p class="lead">[\s\S]*?<\/p>)/) || [])[1] || "";
   const sujet = pageGuides ? "guides de pratique pour la première ligne" : "ressources communautaires pour vos patients";
   t = remplacer(t, /<section class="guides-band guides-intro">[\s\S]*?<\/section>/,
-    `<section class="guides-band gm-intro"><img src="/morand/sceau-guide.svg" alt="" width="128" height="128">` +
-    `<h1>Guide Morand<span class="visually-hidden"> : ${sujet}</span></h1>` +
+    // Le sceau et le nom ramènent aux guides (et rechargent la page des guides).
+    `<section class="guides-band gm-intro"><a class="gm-logo" href="/guides/" tabindex="-1" aria-hidden="true"><img src="/morand/sceau-guide.svg" alt="" width="128" height="128"></a>` +
+    `<h1><a class="gm-nom" href="/guides/">Guide Morand</a><span class="visually-hidden"> : ${sujet}</span></h1>` +
     `<p class="gm-devise">Prévention · Pertinence · Expérience</p>${lead.replace('class="lead"', 'class="gm-lead"')}</section>`, "introduction");
   t = remplacer(t, 'class="guides-band guides-band--green guides-search"', 'class="guides-band guides-search gm-recherche"', "bande de recherche");
   t = remplacer(t, '<h2 id="guides-search-title">', '<h2 id="guides-search-title" class="visually-hidden">', "titre de la recherche");
   t = remplacer(t, '<div class="guides-filter-area" hidden>', '<details class="gm-filtres"><summary>Filtres</summary><div class="guides-filter-area" hidden>', "zone des filtres");
   t = remplacer(t, /(<\/div>\s*)(<p class="guides-status")/, "$1</details>\n    $2", "fin des filtres");
-  if (pageGuides) {
-    const n = (onglets.match(/guides-onglet-compte">(\d+)/) || [])[1];
-    if (n) t = remplacer(t, 'placeholder="Sujet, organisme ou mot-clé…"', `placeholder="Rechercher parmi ${n} ressources…"`, "texte du champ");
-  }
+  if (pageGuides) t = remplacer(t, 'placeholder="Sujet, organisme ou mot-clé…"', 'placeholder="Rechercher par mot-clé…"', "texte du champ");
+  t = remplacer(t, /\s*<p class="guides-favoris-note">Vos favoris sont gardés[^<]*<\/p>/, "", "note des favoris");
   t = remplacer(t, '<body class="guides-page"', '<body class="guides-page gm"', "corps de page");
   t = remplacer(t, /(<title>[^<]*?)\s*\|\s*Trouve ta clinique<\/title>/, "$1 | Guide Morand</title>", "titre de la page");
   t = remplacer(t, '<meta name="theme-color" content="#08A0A0">', '<meta name="theme-color" content="#fdfcf8">', "couleur du navigateur");
