@@ -51,6 +51,18 @@ for (const f of ["data.json", "data-etablissements.json", "data-etablissements-c
 let carte = lire("monteregie/index.html");
 carte = carte.replace(/(["'`(])\.\.\//g, "$1./");
 carte = versOrigine(nettoyer(carte));
+/* Dans l'app Morand (accueil installable, portée « / ») : la carte ne désinstalle plus le service worker de l'accueil
+   (le script d'origine retirait tout service worker de portée « / ») ; un bouton ramène à l'accueil de Morand,
+   puisque l'app installée n'a pas de bouton Retour. */
+{
+  const avant = carte;
+  carte = carte.replace(/<script>\s*\/\/ Pas de PWA ici[\s\S]*?<\/script>\s*/, "");
+  if (carte === avant) throw new Error("Map Morand : script de désinstallation introuvable ; vérifier la page d'origine.");
+  const b = carte;
+  carte = carte.replace(/(<div class="header-right">\s*)(<button class="btn-theme")/, '$1<a class="btn-share btn-morand" href="/" title="Accueil Morand" aria-label="Accueil Morand">'
+    + '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 10.5 12 3.5l8.5 7V20a.5.5 0 0 1-.5.5h-5v-6h-6v6H4a.5.5 0 0 1-.5-.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>\n    $2');
+  if (carte === b) throw new Error("Map Morand : en-tête introuvable ; vérifier la page d'origine.");
+}
 // L'adresse canonique reste celle de la carte d'origine : les moteurs de recherche ne la voient pas en double.
 ecrire("map/index.html", carte);
 

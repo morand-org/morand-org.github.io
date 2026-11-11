@@ -39,16 +39,6 @@
 }
 </script>
 <meta name="theme-color" content="#170A72">
-<script>
-// Pas de PWA ici : retire un ancien service worker de portée « / » qui contrôlerait la page.
-if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
-  navigator.serviceWorker.getRegistrations().then(function (liste) {
-    liste.forEach(function (enr) {
-      try { if (new URL(enr.scope).pathname === '/') enr.unregister(); } catch (e) {}
-    });
-  }).catch(function () {});
-}
-</script>
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png">
 <link rel="icon" type="image/png" sizes="48x48" href="./favicon-48.png">
@@ -1744,6 +1734,7 @@ html { scroll-snap-type: y proximity; scroll-padding-top: 76px; }
   </div>
   </div>
   <div class="header-right">
+    <a class="btn-share btn-morand" href="/" title="Accueil Morand" aria-label="Accueil Morand"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 10.5 12 3.5l8.5 7V20a.5.5 0 0 1-.5.5h-5v-6h-6v6H4a.5.5 0 0 1-.5-.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
     <button class="btn-theme" id="btn-theme" title="Basculer le mode sombre"
       aria-label="Basculer le mode sombre" aria-pressed="false">
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">

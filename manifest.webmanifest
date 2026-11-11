@@ -1,7 +1,7 @@
 {
   "name": "Morand",
   "short_name": "Morand",
-  "description": "Les outils du médecin de famille : Wealth Morand, Guide Morand et Map Morand.",
+  "description": "Les outils du médecin de famille, réunis : Wealth Morand, Guide Morand et Map Morand.",
   "lang": "fr-CA",
   "id": "/",
   "start_url": "/",
@@ -10,8 +10,62 @@
   "background_color": "#f5f4f0",
   "theme_color": "#f5f4f0",
   "icons": [
-    { "src": "/morand/icone-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/morand/icone-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/morand/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/morand/icone-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/morand/icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/morand/icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Wealth Morand",
+      "short_name": "Wealth",
+      "description": "Rémunération, impôt et patrimoine",
+      "url": "/wealth/",
+      "icons": [
+        {
+          "src": "/morand/raccourci-wealth.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Guide Morand",
+      "short_name": "Guide",
+      "description": "Guides cliniques et ressources",
+      "url": "/guides/",
+      "icons": [
+        {
+          "src": "/morand/raccourci-guide.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Map Morand",
+      "short_name": "Map",
+      "description": "Cliniques de la Montérégie",
+      "url": "/map/",
+      "icons": [
+        {
+          "src": "/morand/raccourci-map.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
   ]
 }
