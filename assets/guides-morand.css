@@ -134,3 +134,21 @@ body.gm {
 .gm .gm-intro h1 .gm-nom { color: inherit; text-decoration: none; }
 .gm .gm-intro h1 .gm-nom:hover { color: var(--gm-or); }
 .gm .gm-intro h1 .gm-nom:focus-visible { outline: 2px solid var(--gm-or); outline-offset: 4px; border-radius: 4px; }
+
+/* Ordinateur, écran large : le catalogue prend la place offerte (jusqu'à 1 400 px), le texte grandit un peu ;
+   les ressources passent sur trois colonnes, les sujets restent centrés. */
+@media (min-width: 1280px) {
+  body.gm { --gutter: max(40px, calc((100vw - 1400px) / 2)); font-size: 17px; }
+  .gm-tete { max-width: 1400px; padding-left: 40px; padding-right: 40px; }
+  .gm .guides-search-form.search-page-form, .gm .gm-filtres .guides-filter-area { max-width: 920px; }
+  .gm .guides-search-form.search-page-form input[type="search"] { font-size: 1.12rem; min-height: 56px; }
+  .gm .guides-resource-list { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 2.6rem; }
+  .gm .guides-resource h3 { font-size: 1.32rem; }
+  .gm .guides-category-heading h2, .gm :is(.guides-recents, .guides-consultes) summary h2 { font-size: 1.75rem; }
+  .gm .guides-pastilles { max-width: 1400px; margin: 0 auto; }
+  .gm .guides-pastille { font-size: 14px; min-height: 38px; padding: .35rem 1rem; }
+  .gm .guides-status { font-size: 15.5px; }
+}
+@media (min-width: 1700px) {
+  .gm .guides-resource-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
