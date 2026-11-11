@@ -50,16 +50,40 @@ carte = versOrigine(nettoyer(carte));
 // L'adresse canonique reste celle de la carte d'origine : les moteurs de recherche ne la voient pas en double.
 ecrire("map/index.html", carte);
 
+/* Guide Morand : une version pratique, moins officielle. On garde l'en-tête et les couleurs de Trouve ta clinique,
+   mais sans navigation vers le reste de son site (menu, recherche du site, pied de page), sans bouton « Installer
+   l'app » ; sur la page des guides, sans le texte d'introduction (de « Retrouvez… » à « Liens vérifiés… ») ni l'aide
+   sous le champ de recherche. Chaque retrait est vérifié : une page qui change de forme arrête la construction. */
+function retirer(t, motif, nom) {
+  const avant = t.length, apres = t.replace(motif, "");
+  if (apres.length === avant) throw new Error(`Guide Morand : « ${nom} » introuvable ; vérifier la page d'origine.`);
+  return apres;
+}
+function alleger(t, pageGuides) {
+  t = retirer(t, /\s*<nav class="navdesk"[\s\S]*?<\/nav>/, "menu du site");
+  t = retirer(t, /\s*<div class="actions">[\s\S]*?<\/button>\s*<\/div>/, "recherche du site et menu");
+  t = retirer(t, /\s*<footer class="pied-site">[\s\S]*?<\/footer>/, "pied de page du site");
+  t = retirer(t, /\s*<div class="guides-app" id="guides-app"[\s\S]*?<\/p>\s*<\/div>/, "Installer l'app");
+  t = retirer(t, /\s*<script src="\/assets\/guides-installer\.js[^"]*"[^>]*><\/script>/, "script d'installation");
+  t = retirer(t, /\s*<script src="\/assets\/recherche\.js[^"]*"[^>]*><\/script>/, "script de recherche du site");
+  t = retirer(t, /\s*<p class="guides-search-hint">[\s\S]*?<\/p>/, "aide de la recherche");
+  if (pageGuides) t = retirer(t, /\s*<p class="lead">Retrouvez[\s\S]*?<\/p>\s*<p class="guides-avis">[\s\S]*?Liens vérifiés[^<]*<\/p>/, "texte d'introduction");
+  // Les fichiers du catalogue (fiches de la FMPE…) sont copiés ici : on les sert d'ici.
+  return t.replaceAll("https://trouvetaclinique.ca/guides/", "/guides/");
+}
+
 // ---------- Guide Morand : le catalogue de guides (/guides/) ----------
 copier("guides", "guides");
+{ const f = path.join(RACINE, "guides/donnees.json"); fs.writeFileSync(f, fs.readFileSync(f, "utf8").replaceAll("https://trouvetaclinique.ca/guides/", "/guides/")); }
 for (const f of ["guides-aiguillage.js", "guides-cliniques.css", "guides-cliniques.js", "guides-installer.js", "guides-recherche.js",
   "logo-128.webp", "logo-128.png", "og-guides.png", "recherche.js", "seo-pages.css", "theme.js", "polices"])
   if (fs.existsSync(path.join(source, "assets", f))) copier("assets/" + f, "assets/" + f);
 if (fs.existsSync(path.join(source, "favicon-32.png"))) copier("favicon-32.png", "favicon-32.png");
 for (const page of ["guides/index.html", "guides/ressources-communautaires/index.html"]) {
   let t = lire(page);
-  t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)data-url="[^"]*"/, ADRESSE_IA ? `$1data-url="${ADRESSE_IA}"` : "$1data-url=\"\" hidden");
-  ecrire(page, versOrigine(nettoyer(t)));
+  t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)data-url="[^"]*"/, ADRESSE_IA ? `$1data-url="${ADRESSE_IA}"` : "$1data-url=\"\"");
+  if (!ADRESSE_IA) t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)(\s+hidden)?>/, "$1 hidden>");
+  ecrire(page, versOrigine(nettoyer(alleger(t, page.endsWith("guides/index.html")))));
 }
 // Fichiers de texte copiés tels quels (scripts, données) : mêmes motifs effacés.
 const TEXTES = /\.(js|css|json|webmanifest|html)$/;
