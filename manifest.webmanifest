@@ -1,0 +1,17 @@
+{
+  "name": "Morand",
+  "short_name": "Morand",
+  "description": "Les outils du médecin de famille : Wealth Morand, Guide Morand et Map Morand.",
+  "lang": "fr-CA",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f4f0",
+  "theme_color": "#f5f4f0",
+  "icons": [
+    { "src": "/morand/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/morand/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/morand/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

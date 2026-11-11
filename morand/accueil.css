@@ -1,0 +1,50 @@
+/* Morand : page couverture. Couleurs et polices de Wealth Morand, hébergées ici (aucune ressource externe). */
+@font-face { font-family: "Inter"; src: url("inter.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Newsreader"; src: url("newsreader.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
+:root {
+  --fond: #f5f4f0; --surface: #ffffff; --encre: #121211; --encre-2: #45443f; --discret: #67655e;
+  --ligne: #e8e6df; --marque: #b48a4a; --plaque: #fbfaf6;
+  --ombre: 0 1px 2px rgba(18, 18, 17, 0.04), 0 6px 24px rgba(18, 18, 17, 0.06);
+  --police: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --police-titre: "Newsreader", ui-serif, "New York", Georgia, serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --fond: #0e0e0d; --surface: #191917; --encre: #f2f1ec; --encre-2: #cfcdc5; --discret: #a9a79f; --ligne: #2a2a27; --marque: #d2aa6a; --plaque: #f4f1e8; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100vh; background: var(--fond); color: var(--encre); font: 400 1rem/1.5 var(--police);
+  padding: env(safe-area-inset-top) max(16px, env(safe-area-inset-right)) env(safe-area-inset-bottom) max(16px, env(safe-area-inset-left)); }
+.saut { position: absolute; left: -9999px; }
+.saut:focus { left: 16px; top: 16px; background: var(--surface); padding: 10px 14px; border-radius: 10px; z-index: 2; }
+.tete { max-width: 760px; margin: 0 auto; padding: 28px 0 0; text-align: center; }
+.marque { margin: 0; font: 500 0.95rem/1 var(--police-titre); letter-spacing: 0.42em; text-transform: uppercase; color: var(--marque); }
+main { max-width: 760px; margin: 0 auto; }
+.intro { text-align: center; padding: 36px 0 28px; }
+.intro::after { content: ""; display: block; width: 56px; height: 1px; margin: 26px auto 0; background: var(--marque); }
+h1 { margin: 0; font: 500 clamp(2rem, 7vw, 3.1rem)/1.08 var(--police-titre); letter-spacing: -0.01em; text-wrap: balance; }
+.chapeau { max-width: 34em; margin: 14px auto 0; color: var(--encre-2); font-size: 1.04rem; text-wrap: balance; }
+.volets { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.volet { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; padding: 18px 20px 18px 16px;
+  background: var(--surface); border: 1px solid var(--ligne); border-radius: 22px; box-shadow: var(--ombre);
+  color: inherit; text-decoration: none; transition: transform 160ms ease, box-shadow 160ms ease; min-height: 44px; }
+.volet:hover { transform: translateY(-1px); box-shadow: 0 2px 4px rgba(18, 18, 17, 0.05), 0 12px 32px rgba(18, 18, 17, 0.09); }
+.volet:focus-visible { outline: 3px solid var(--marque); outline-offset: 3px; }
+.sceau { width: 88px; height: 88px; border-radius: 50%; background: var(--plaque); }
+.volet-texte { display: grid; gap: 4px; min-width: 0; }
+.volet-nom { font: 500 1.4rem/1.15 var(--police-titre); }
+.volet-sous { color: var(--encre-2); font-size: 0.93rem; }
+.fleche { color: var(--marque); font-size: 1.3rem; }
+.pied { max-width: 760px; margin: 0 auto; padding: 36px 0 44px; text-align: center; color: var(--discret); font-size: 0.86rem; }
+.pied p { margin: 6px 0; }
+.pied a { color: var(--encre-2); text-underline-offset: 3px; display: inline-block; padding: 12px 4px; }
+@media (min-width: 640px) { .sceau { width: 112px; height: 112px; } .volet { padding: 22px 26px 22px 20px; gap: 24px; } }
+@media (max-width: 360px) { .sceau { width: 68px; height: 68px; } .volet { gap: 12px; padding: 14px; } .fleche { display: none; } .volet { grid-template-columns: auto 1fr; } }
+@media (prefers-reduced-motion: reduce) { .volet { transition: none; } .volet:hover { transform: none; } }
+/* Page « Confidentialité et avertissements » */
+.texte { max-width: 680px; margin: 0 auto; padding: 8px 0 24px; }
+.texte h1 { font-size: clamp(1.8rem, 6vw, 2.4rem); text-align: center; margin: 24px 0 18px; }
+.texte h2 { font: 500 1.3rem/1.2 var(--police-titre); margin: 28px 0 8px; }
+.texte p, .texte li { color: var(--encre-2); }
+.retour { display: inline-block; padding: 12px 0; color: var(--encre-2); }

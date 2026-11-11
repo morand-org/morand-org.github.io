@@ -1,0 +1,261 @@
+/* Compléments du catalogue. Le header, le footer, la palette et le cadre
+   proviennent exclusivement de seo-pages.css, comme sur les autres pages. */
+.guides-page .guides-main{padding:0}
+.guides-band{padding:clamp(2.1rem,4vw,4rem) var(--gutter);background:#fff}
+.guides-band--green{background:var(--teal-zone)}
+.guides-intro{padding-top:clamp(2rem,4vw,3.8rem);padding-bottom:clamp(2.2rem,5vw,4.6rem)}
+.guides-intro .eyebrow{font-size:.86rem;letter-spacing:.1em}
+.guides-intro h1{font-size:clamp(2.2rem,4.2vw,4rem);line-height:1.1;max-width:none}
+.guides-intro .lead{font-size:clamp(1.15rem,1vw + .9rem,1.4rem);line-height:1.58;max-width:74ch;margin:0}
+.guides-avis{margin:1rem 0 0;max-width:74ch;font-size:.95rem;line-height:1.55;color:var(--navy);border-left:3px solid var(--teal);padding-left:.8rem}
+.guides-band h2{font-size:clamp(1.8rem,2vw + 1rem,2.65rem);line-height:1.16;margin:0 0 1.2rem;font-weight:700}
+.guides-search-form.search-page-form{max-width:none;gap:.8rem;margin:1.45rem 0 0}
+.guides-search-form.search-page-form input[type="search"]{flex-basis:15rem;min-height:60px;border-color:rgba(6,156,156,.4);font-size:1.12rem;padding-inline:1.4rem}
+.guides-search-form.search-page-form button[type="submit"]{min-height:60px;padding-inline:2rem;font-size:1.08rem}
+.guides-search-hint{font-size:.95rem;margin:.65rem 0 1.75rem;color:var(--navy);opacity:.8}
+.guides-filter-area h3{font-size:1.08rem;margin:0 0 .8rem}
+.guides-filters{display:flex;flex-wrap:wrap;gap:.8rem 1rem;align-items:flex-end}
+.guides-select{display:flex;flex-direction:column;gap:.3rem;flex:1 1 16rem;min-width:0;font-size:.9rem;font-weight:650;color:var(--navy)}
+.guides-select select{min-height:48px;width:100%;padding:.55rem 2.4rem .55rem .9rem;border:1px solid rgba(18,6,114,.3);border-radius:10px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%23120672' stroke-width='2'/%3E%3C/svg%3E") no-repeat right .9rem center;appearance:none;-webkit-appearance:none;color:var(--navy);font:inherit;font-size:1rem;font-weight:500;cursor:pointer}
+.guides-select select:hover{border-color:var(--navy)}
+.guides-filtres-reset{min-height:48px;padding:.55rem 1rem;border:0;background:transparent;color:var(--navy);font:inherit;font-weight:650;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.guides-resultats{border-top:4px solid var(--teal)}
+/* Boîte d'aiguillage IA (affichée seulement quand le service est configuré). */
+.guides-ia-intro{font-size:1.05rem;line-height:1.6;max-width:74ch;margin:0 0 1rem}
+.guides-ia-form{display:flex;flex-wrap:wrap;gap:.8rem;align-items:flex-start}
+.guides-ia-form textarea{flex:1 1 22rem;min-height:60px;padding:.9rem 1.2rem;border:2px solid rgba(18,6,114,.3);border-radius:16px;font:inherit;font-size:1.05rem;color:var(--navy);background:#fff;resize:none;overflow-y:hidden;line-height:1.45;max-height:14rem}
+.guides-ia-form button{min-height:60px;padding:0 1.8rem;border:0;border-radius:999px;background:var(--navy);color:#fff;font:inherit;font-weight:700;font-size:1.02rem;cursor:pointer}
+.guides-ia-form button[disabled]{opacity:.6;cursor:progress}
+.guides-ia-avis{font-size:.9rem;margin:.75rem 0 0;color:var(--navy);opacity:.85;max-width:80ch}
+.guides-ia-resultat:not(:empty){margin-top:1.4rem}
+.guides-ia-compte{font-weight:700;margin:0 0 .4rem}
+.guides-ia-message,.guides-ia-attente,.guides-ia-erreur{margin:0 0 .8rem;padding:.8rem 1rem;border-radius:10px;background:#fff;max-width:80ch}
+.guides-ia-erreur{border-left:4px solid #b3261e}
+.guides-ia .guides-resource-link{height:auto;padding-bottom:.5rem}
+.guides-ia-raison{margin:0 0 1.2rem;padding:0 4.6rem 0 .15rem;font-size:.97rem;line-height:1.55}
+.guides-ia-raison strong{color:var(--teal-texte)}
+.guides-ia-pied{font-size:.88rem;opacity:.75;margin:.8rem 0 0}
+.guides-page .guides-ia-form :is(textarea,button):focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.guides-status{margin:1.25rem 0 0;font-size:.96rem;font-weight:600}
+.guides-category-heading{display:flex;align-items:baseline;gap:.85rem;flex-wrap:wrap;margin:0 0 1rem;padding-bottom:1rem;border-bottom:2px solid var(--navy)}
+.guides-category-heading h2{margin:0}
+.guides-resource-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(1.8rem,4vw,4rem)}
+.guides-resource{min-width:0;border-bottom:1px solid rgba(18,6,114,.18)}
+.guides-resource-link{position:relative;display:block;height:100%;padding:1.25rem 2.2rem 1.4rem .15rem;text-decoration:none;border-radius:4px}
+.guides-resource-source{display:block;font-size:.9rem;font-weight:650;color:var(--navy);opacity:.75;margin-bottom:.4rem}
+.guides-resource h3{font-size:clamp(1.16rem,.5vw + 1rem,1.38rem);line-height:1.35;margin:0 0 .6rem;text-wrap:pretty}
+.guides-resource-arrow{position:absolute;right:.25rem;top:1.2rem;font-size:1.5rem;color:var(--teal-texte);line-height:1}
+.guides-resource-link:hover h3{text-decoration:underline;text-underline-offset:4px}
+.guides-resource-link:hover{background:var(--teal-pale)}
+.guides-band--green .guides-resource-link:hover{background:rgba(255,255,255,.55)}
+.guides-reset{border:0;font:inherit;font-weight:650;cursor:pointer}
+/* Favoris : étoile blanche, jaune une fois ajoutée. Le bouton est à côté du lien, pas dedans. */
+.guides-resource{position:relative}
+.guides-page .guides-resource-link{padding-right:5rem}
+.guides-page .guides-resource-arrow{right:3rem}
+.guides-fav{position:absolute;right:0;top:.85rem;width:44px;height:44px;display:grid;place-items:center;padding:0;border:0;border-radius:50%;background:transparent;cursor:pointer;color:var(--navy)}
+.guides-fav svg{fill:#fff;stroke:currentColor;stroke-width:1.6;stroke-linejoin:round;transition:fill .15s,transform .15s}
+.guides-fav:hover svg{transform:scale(1.12)}
+.guides-fav[aria-pressed="true"]{color:#b07d00}
+.guides-fav[aria-pressed="true"] svg{fill:#FFC61A}
+.guides-favoris{background:#fffbea;border-top:4px solid #FFC61A}
+.guides-favoris-note{margin:-.2rem 0 .6rem;font-size:.92rem;color:var(--navy);opacity:.75}
+.guides-page :is(.guides-select select,.guides-filtres-reset,.guides-resource-link,.guides-reset,.guides-fav):focus-visible{outline:3px solid var(--teal);outline-offset:4px}
+.guides-page [hidden]{display:none!important}
+.guides-page .pied-site{margin-top:0}
+@media(max-width:680px){
+  .guides-intro h1{font-size:clamp(2rem,8.5vw,2.8rem)}
+  .guides-intro .lead{font-size:1.12rem}
+  .guides-resource-list{grid-template-columns:minmax(0,1fr)}
+  .guides-search-form.search-page-form input[type="search"]{flex-basis:100%;min-height:52px}
+  .guides-search-form.search-page-form button[type="submit"]{min-height:48px;width:100%}
+  .guides-select{flex-basis:100%}
+  .guides-ia-form button{width:100%;min-height:52px}
+  .guides-ia-raison{padding-right:.15rem}
+}
+/* Proposer un guide ou une ressource (courriel prérempli). */
+.guides-proposer{border-top:4px solid var(--navy);background:#f5f4fc}
+.guides-proposer h2{font-size:clamp(1.4rem,1vw + 1rem,1.8rem);margin:0 0 .6rem}
+.guides-proposer p{margin:0 0 1.2rem;max-width:70ch;line-height:1.6}
+.guides-proposer-bouton{display:inline-flex;align-items:center;min-height:52px;padding:.7rem 1.6rem;border-radius:999px;background:var(--navy);color:#fff;font-weight:700;text-decoration:none}
+.guides-proposer-bouton:hover{text-decoration:underline;text-underline-offset:3px}
+.guides-page .guides-proposer-bouton:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+/* Question communautaire : renvoi au 211 (le catalogue ne contient pas encore les organismes). */
+.guides-communautaire{margin:1rem 0 0;padding:1rem 1.2rem;border-left:4px solid var(--navy);border-radius:8px;background:#fff;max-width:80ch}
+.guides-communautaire p{margin:0 0 .5rem;line-height:1.6}
+.guides-communautaire p:last-child{margin:0}
+.guides-ia-resultat .guides-communautaire{margin:0 0 1rem}
+/* Cartes d'organismes communautaires : téléphone et adresse sous le lien, détails repliés. */
+.guides-comm-note{margin:-.2rem 0 1rem;max-width:80ch;font-size:.95rem;line-height:1.6}
+.guides-comm-services{display:block;font-size:.95rem;line-height:1.55;color:var(--navy);opacity:.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.guides-resource--comm .guides-resource-link{height:auto;padding-bottom:.6rem}
+.guides-comm-infos{padding:0 1rem 1.2rem .15rem;font-size:.95rem;line-height:1.5}
+.guides-comm-infos p{margin:0 0 .3rem}
+.guides-comm-tel{font-weight:700}
+.guides-comm-tel a,.guides-comm-infos dd a{color:var(--teal-texte);text-decoration:underline;text-underline-offset:3px}
+.guides-comm-adresse{color:var(--navy);opacity:.8}
+.guides-comm-infos details{margin-top:.4rem}
+.guides-comm-infos summary{cursor:pointer;font-weight:650;color:var(--navy);min-height:32px;display:flex;align-items:center}
+.guides-comm-infos dl{margin:.4rem 0 0;display:grid;grid-template-columns:max-content 1fr;gap:.3rem .8rem}
+.guides-comm-infos dt{font-weight:700}
+.guides-comm-infos dd{margin:0}
+.guides-page :is(.guides-comm-infos a,.guides-comm-infos summary,.guides-comm-note a):focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+@media(max-width:680px){.guides-comm-infos dl{grid-template-columns:1fr}.guides-comm-infos dt{margin-top:.3rem}}
+.guides-page a[href^="tel:"]{white-space:nowrap}
+
+/* Sujets repliables : fermés au chargement (sauf les favoris), ouverts par une recherche. */
+.guides-catalogue-titre{margin:0;padding:clamp(1.8rem,3vw,2.6rem) var(--gutter) .6rem;font-size:clamp(1.5rem,1vw + 1.1rem,2rem)}
+.guides-toggle{display:flex;align-items:center;gap:.8rem;width:100%;padding:0;border:0;background:none;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.guides-toggle .compte{flex:none}
+.guides-chevron{margin-left:auto;flex:none;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--navy);position:relative;transition:transform .2s}
+.guides-chevron::before{content:"";position:absolute;left:50%;top:44%;width:.6rem;height:.6rem;border:solid #fff;border-width:0 3px 3px 0;transform:translate(-50%,-50%) rotate(45deg)}
+.guides-toggle[aria-expanded="true"] .guides-chevron{transform:rotate(180deg)}
+.guides-toggle:hover .guides-chevron{background:var(--teal-texte)}
+.guides-category--fermee{padding-top:.85rem;padding-bottom:.85rem}
+.guides-category--fermee .guides-category-heading{margin:0;padding-bottom:0;border-bottom:0}
+.guides-category--fermee h2{font-size:clamp(1.2rem,.6vw + 1rem,1.5rem)}
+.guides-category:not(.guides-category--fermee) + .guides-category--fermee{border-top:1px solid rgba(18,6,114,.12)}
+.guides-page .guides-toggle:focus-visible{outline:3px solid var(--teal);outline-offset:4px;border-radius:6px}
+/* Recherche assistée par IA : mise en valeur. */
+.guides-ia{position:relative;overflow:hidden;background:#170A72;color:#fff;border-top:6px solid #90F1E9;border-radius:20px;box-shadow:0 12px 32px rgba(23,10,114,.28);margin:clamp(1.2rem,3vw,2.2rem) var(--gutter);padding:clamp(1.6rem,3vw,2.6rem) clamp(1.2rem,3vw,2.6rem)}
+.guides-ia > *{position:relative;z-index:1}
+.guides-ia h2{color:#fff;font-size:clamp(1.7rem,2.4vw + 1rem,2.6rem)}
+.guides-ia .guides-ia-raison strong{color:var(--teal-texte)}
+.guides-ia-pastille{display:inline-flex;align-items:center;gap:.4rem;margin:0 0 .8rem;padding:.3rem .8rem;border-radius:999px;background:#90F1E9;color:#170A72;font-size:.85rem;font-weight:700;letter-spacing:.02em}
+.guides-ia-intro{color:#fff}
+.guides-ia-form textarea{border:2px solid #90F1E9;box-shadow:none}
+.guides-ia-form button{background:#90F1E9;color:#170A72;box-shadow:none}
+.guides-ia-form button:hover{background:#fff}
+.guides-ia-avis{color:#fff;opacity:.92}
+.guides-ia-avis strong{color:#fff}
+.guides-ia .guides-ia-resultat:not(:empty){background:#fff;color:var(--navy);border-radius:16px;padding:1.1rem 1.2rem}
+.guides-page .guides-ia-form :is(textarea,button):focus-visible{outline:3px solid #90F1E9;outline-offset:3px}
+.guides-category-heading h2{flex:1 1 auto;min-width:0}
+/* Application « Guides » : bouton d’installation (visible seulement si l’app peut être installée). */
+.guides-app{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1rem;margin:1.2rem 0 0}
+.guides-app[hidden]{display:none}
+.guides-app-bouton{display:inline-flex;align-items:center;gap:.8rem;min-height:60px;padding:.55rem 1.6rem .55rem .6rem;border:2px solid #08A0A0;border-radius:999px;background:#fff;color:#170A72;font:inherit;font-weight:700;font-size:1.15rem;cursor:pointer}
+.guides-app-bouton img{width:40px;height:40px}
+.guides-app-bouton img{border-radius:8px}
+.guides-app-bouton:hover{background:#EFFAF9}
+.guides-page .guides-app-bouton:focus-visible{outline:3px solid #08A0A0;outline-offset:3px}
+.guides-app-aide{flex-basis:100%;margin:.2rem 0 0;padding:.7rem .9rem;border-left:3px solid #08A0A0;background:#EFFAF9;border-radius:8px;font-size:.95rem;color:#170A72;max-width:60ch}
+@media (max-width:640px){.guides-ia{margin-inline:.6rem;padding:1.4rem 1.1rem;border-radius:16px}}
+/* Attente de la réponse de l'IA : pastille ✦ avec anneau qui tourne, étapes qui défilent,
+   points qui rebondissent et barre qui défile. Si l'appareil demande de réduire les
+   mouvements, tout pulse en place (fondu et couleur) sans rien déplacer. */
+.guides-ia .guides-ia-attente{display:flex;align-items:center;gap:1rem;padding:1rem 1.1rem;color:var(--navy);font-weight:650;max-width:none}
+.guides-ia-orbe{position:relative;flex:none;width:3rem;height:3rem;display:grid;place-items:center}
+.guides-ia-anneau{position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 0deg,#08A0A0,#90F1E9,#2B1C8C,#08A0A0);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));mask:radial-gradient(farthest-side,transparent calc(100% - 4px),#000 calc(100% - 3px));animation:guides-ia-tourne 1.2s linear infinite}
+.guides-ia-etoile{font-size:1.35rem;line-height:1;color:#2B1C8C;animation:guides-ia-pulse 1.6s ease-in-out infinite}
+.guides-ia-attente-texte{display:flex;flex-direction:column;gap:.55rem;flex:1;min-width:0}
+.guides-ia-attente-ligne{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}
+.guides-ia-etape{animation:guides-ia-fondu .5s ease}
+.guides-ia-points{display:inline-flex;gap:.3rem;align-self:center}
+.guides-ia-points span{width:.55rem;height:.55rem;border-radius:50%;background:#08A0A0;animation:guides-ia-rebond 1s ease-in-out infinite}
+.guides-ia-points span:nth-child(2){animation-delay:.15s;background:#2B1C8C}
+.guides-ia-points span:nth-child(3){animation-delay:.3s}
+.guides-ia-barre{position:relative;display:block;height:5px;border-radius:999px;background:#E3F7F5;overflow:hidden}
+.guides-ia-barre::after{content:"";position:absolute;top:0;bottom:0;left:0;width:40%;border-radius:999px;background:linear-gradient(90deg,#08A0A0,#90F1E9,#2B1C8C);animation:guides-ia-defile 1.4s ease-in-out infinite}
+@keyframes guides-ia-tourne{to{transform:rotate(360deg)}}
+@keyframes guides-ia-pulse{0%,100%{opacity:.55;transform:scale(.9)}50%{opacity:1;transform:scale(1.12)}}
+@keyframes guides-ia-rebond{0%,80%,100%{transform:translateY(0);opacity:.5}40%{transform:translateY(-9px);opacity:1}}
+@keyframes guides-ia-defile{0%{transform:translateX(-100%)}100%{transform:translateX(250%)}}
+@keyframes guides-ia-fondu{from{opacity:0}to{opacity:1}}
+@keyframes guides-ia-lueur{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){
+  .guides-ia-anneau{animation:guides-ia-lueur 1.4s ease-in-out infinite}
+  .guides-ia-etoile{animation:guides-ia-lueur 1.4s ease-in-out infinite}
+  .guides-ia-points span{animation:guides-ia-lueur 1s ease-in-out infinite}
+  .guides-ia-barre::after{width:100%;animation:guides-ia-lueur 1.4s ease-in-out infinite}
+  .guides-ia-etape{animation:none}
+}
+/* Onglets entre les deux pages du catalogue (guides cliniques, ressources communautaires). */
+.guides-onglets{display:flex;flex-wrap:wrap;gap:.6rem;padding-top:1.2rem;padding-bottom:0}
+.guides-onglets a{display:inline-flex;align-items:center;gap:.55rem;min-height:48px;padding:.55rem 1.2rem;border:2px solid var(--navy);border-radius:999px;color:var(--navy);font-weight:700;text-decoration:none;background:#fff}
+.guides-onglets a:hover{background:var(--teal-pale)}
+.guides-onglets a[aria-current="page"]{background:var(--navy);color:#fff}
+.guides-onglet-compte{display:inline-block;min-width:2.2em;padding:.1rem .5rem;border-radius:999px;background:var(--teal-zone);color:var(--navy);font-size:.85rem;text-align:center}
+.guides-onglets a[aria-current="page"] .guides-onglet-compte{background:#fff}
+.guides-page .guides-onglets a:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+/* Case « hors territoire » et lien vers l'autre page. */
+.guides-cases{display:flex;flex-wrap:wrap;gap:0 1.6rem;flex:1 1 100%}
+.guides-cases .guides-case{flex:0 1 auto}
+.guides-case{display:flex;align-items:center;gap:.55rem;min-height:48px;flex:1 1 100%;font-size:.98rem;font-weight:600;color:var(--navy);cursor:pointer}
+.guides-case input{flex:none;width:22px;height:22px;accent-color:var(--navy);margin:0;cursor:pointer}
+.guides-page .guides-case input:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.guides-autre{margin:.6rem 0 0;font-size:1rem;font-weight:650}
+.guides-autre a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
+.guides-page .guides-autre a:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.guides-page[data-page="communautaire"] .guides-avis a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:680px){
+  .guides-onglets{flex-wrap:nowrap;gap:.5rem}
+  .guides-onglets a{flex:1 1 0;min-width:0;justify-content:center;flex-wrap:wrap;gap:.2rem .4rem;padding:.45rem .6rem;border-radius:16px;font-size:.92rem;line-height:1.2;text-align:center}
+  .guides-onglet-compte{font-size:.78rem}
+}
+/* Récemment ajoutés : section repliée au-dessus du catalogue. */
+.guides-recents{padding-top:1.4rem;padding-bottom:1.4rem;border-top:4px solid var(--teal)}
+.guides-recents summary{display:flex;align-items:baseline;gap:.85rem;cursor:pointer;list-style:none}
+.guides-recents summary::-webkit-details-marker{display:none}
+.guides-recents summary h2{margin:0;font-size:clamp(1.4rem,1.2vw + 1rem,1.9rem)}
+.guides-recents summary .guides-chevron{margin-left:auto;align-self:center}
+.guides-recents details[open] .guides-chevron{transform:rotate(180deg)}
+.guides-page .guides-recents summary:focus-visible{outline:3px solid var(--teal);outline-offset:4px}
+.guides-recents-liste{margin:1rem 0 0;padding-left:1.4rem;display:grid;gap:.55rem;font-size:1.02rem;line-height:1.45}
+.guides-recents-liste a{color:var(--navy);font-weight:650;text-decoration:underline;text-underline-offset:3px}
+.guides-recents-meta{display:block;font-size:.9rem;color:var(--navy);opacity:.75}
+
+/* Plan Guides (20b, 22) : correspondance partielle et actions quand rien ne correspond. */
+.guides-partiel{margin:.6rem 0 0;padding:.55rem .8rem;border-left:4px solid var(--teal);background:rgba(8,160,160,.08);font-size:.96rem}
+.guides-partiel-ia{margin-left:.4rem;padding:.2rem .7rem;border:1.5px solid var(--navy);border-radius:999px;background:#fff;color:var(--navy);font:inherit;font-weight:650;cursor:pointer}
+.guides-partiel-ia:hover{background:var(--navy);color:#fff}
+.guides-partiel-ia:focus-visible,.guides-empty-actions .btn:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.guides-empty-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+/* Plan Guides (24 à 30) : pastilles des sujets, étiquette PDF, résumé, actions des fiches, code QR,
+   consultés récemment, barre de recherche collante et « Haut de page » sur téléphone. */
+.guides-pastilles{display:flex;flex-wrap:wrap;gap:.45rem;padding:.2rem var(--gutter) 1rem}
+.guides-pastille{display:inline-flex;align-items:center;min-height:36px;padding:.3rem .85rem;border:1.5px solid rgba(18,6,114,.25);border-radius:999px;background:#fff;color:var(--navy);font-size:.9rem;font-weight:650;text-decoration:none;white-space:nowrap}
+.guides-pastille:hover{border-color:var(--navy);background:var(--teal-pale)}
+.guides-pdf{display:inline-block;margin-left:.45rem;padding:0 .35rem;border-radius:4px;background:var(--navy);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.04em;vertical-align:1px;opacity:1}
+.guides-resource-desc{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin:-.2rem 0 .2rem;font-size:.95rem;line-height:1.5;color:var(--navy);opacity:.8}
+/* La fiche est une colonne : le lien remplit la hauteur libre de la rangée et les actions
+   restent dessous, dans la fiche (sans cela, elles débordaient sous la fiche suivante). */
+.guides-resource{display:flex;flex-direction:column}
+.guides-resource>.guides-resource-link{height:auto;flex:1 0 auto}
+.guides-resource--comm>.guides-resource-link,.guides-ia .guides-resource>.guides-resource-link{flex:0 0 auto}
+.guides-actions{display:flex;flex-wrap:wrap;gap:.4rem .9rem;align-items:center;padding:0 .15rem .9rem}
+.guides-actions:empty{display:none}
+.guides-action{min-height:36px;padding:.25rem .85rem;border:1.5px solid var(--navy);border-radius:999px;background:#fff;color:var(--navy);font:inherit;font-size:.88rem;font-weight:650;cursor:pointer}
+.guides-action:hover{background:var(--navy);color:#fff}
+.guides-signaler{font-size:.8rem;color:var(--navy);opacity:.6;text-decoration:underline;text-underline-offset:2px}
+.guides-signaler:hover{opacity:1}
+.guides-qr{max-width:min(92vw,360px);padding:1.2rem 1.2rem 1rem;border:0;border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.35);color:var(--navy);text-align:center}
+.guides-qr::backdrop{background:rgba(18,6,114,.55)}
+.guides-qr h2{font-size:1.1rem;line-height:1.35;margin:0 0 .8rem}
+.guides-qr-image svg{width:min(70vw,260px);height:auto}
+.guides-qr-texte{font-size:.9rem;line-height:1.45;margin:.6rem 0 .3rem}
+.guides-qr-lien{font-size:.75rem;word-break:break-all;opacity:.7;margin:0 0 .8rem}
+.guides-qr-fermer{min-height:44px;padding:0 1.4rem;border:0;border-radius:999px;background:var(--navy);color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.guides-consultes{padding-top:1.2rem;padding-bottom:1.2rem;border-top:4px solid var(--teal-pale)}
+.guides-consultes summary{display:flex;align-items:baseline;gap:.85rem;cursor:pointer;list-style:none}
+.guides-consultes summary::-webkit-details-marker{display:none}
+.guides-consultes summary h2{margin:0;font-size:clamp(1.3rem,1vw + 1rem,1.7rem)}
+.guides-consultes summary .guides-chevron{margin-left:auto;align-self:center}
+.guides-consultes details[open] .guides-chevron{transform:rotate(180deg)}
+.guides-haut{position:fixed;right:1rem;bottom:1rem;z-index:30;min-height:48px;padding:0 1.1rem;border:0;border-radius:999px;background:var(--navy);color:#fff;font:inherit;font-weight:700;box-shadow:0 6px 18px rgba(18,6,114,.35);cursor:pointer}
+.guides-page :is(.guides-pastille,.guides-action,.guides-signaler,.guides-qr-fermer,.guides-haut,.guides-consultes summary):focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+@media(max-width:680px){
+  .guides-pastilles{flex-wrap:nowrap;overflow-x:auto;padding-bottom:.8rem;scrollbar-width:thin}
+  .guides-search-form.guides-form-collant{position:fixed;top:0;left:0;right:0;z-index:25;margin:0;padding:.5rem var(--gutter);background:#fff;box-shadow:0 4px 14px rgba(18,6,114,.18)}
+  .guides-search-form.guides-form-collant input[type="search"]{min-height:44px}
+  .guides-search-form.guides-form-collant button[type="submit"]{display:none}
+  .guides-category,.guides-resultats,.guides-favoris,.guides-consultes{scroll-margin-top:4.5rem}
+}
+.guides-acces{display:inline-block;margin-left:.45rem;padding:0 .4rem;border:1px solid #b45309;border-radius:4px;color:#92400e;background:#fffbeb;font-size:.72rem;font-weight:700;vertical-align:1px}
+/* Aide-mémoire d'antibiotiques (3 nov. 2026) : liste sous le titre, hors du lien. */
+.guides-aide-badge{display:inline-block;margin-left:.45rem;padding:0 .4rem;border-radius:4px;background:var(--teal-pale);color:var(--navy);border:1px solid var(--teal-texte);font-size:.72rem;font-weight:700;vertical-align:1px}
+.guides-aide{padding:0 1rem 1.2rem .15rem;color:var(--navy);font-size:.98rem;line-height:1.5}
+.guides-aide ul{margin:-.3rem 0 0;padding-left:1.15rem}
+.guides-aide li{margin:.2rem 0}
+.guides-aide-attention{margin:.5rem 0 0;font-weight:650}
+.guides-aide-pied{margin:.45rem 0 0;font-size:.86rem;opacity:.8}
