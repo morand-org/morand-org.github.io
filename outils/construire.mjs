@@ -8,12 +8,16 @@
 //  - commentaires HTML retirés ; les motifs personnels du fichier donné (un par ligne, hors dépôt) sont effacés.
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 
 const [source, fichierMotifs] = process.argv.slice(2);
 if (!source || !fs.existsSync(path.join(source, "monteregie/index.html"))) {
   console.error("Usage : node outils/construire.mjs <dépôt trouvetaclinique.github.io> [motifs]"); process.exit(2);
 }
 const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+// Version de la feuille de Guide Morand dans son adresse : le service worker des guides garde les fichiers en cache ;
+// une adresse nouvelle à chaque changement fait charger la bonne version tout de suite.
+const VERSION_STYLE = crypto.createHash("sha256").update(fs.readFileSync(path.join(RACINE, "assets/guides-morand.css"))).digest("hex").slice(0, 10);
 const ORIGINE = "https://trouvetaclinique.ca";
 const ADRESSE_IA = "";   // ex. « https://ia.morand.org/ » une fois le service déplacé
 const motifs = fichierMotifs ? fs.readFileSync(fichierMotifs, "utf8").split("\n").map(x => x.trim()).filter(x => x.length >= 4) : [];
@@ -37,7 +41,7 @@ function nettoyer(html) {
   return t;
 }
 // Liens absolus du site d'origine : vers trouvetaclinique.ca, sauf ce qui est copié ici (/guides/, /assets/, accueil).
-const GARDES = /^\/(guides\/|assets\/|favicon-\d+\.png|$)/;
+const GARDES = /^\/(guides\/|assets\/|morand\/|favicon-\d+\.png|$)/;
 const versOrigine = html => html.replace(/(href|src)="(\/[^"]*)"/g, (tout, att, p) => GARDES.test(p) ? tout : `${att}="${ORIGINE}${p}"`);
 
 // ---------- Map Morand : la carte interactive de la Montérégie (/monteregie/) ----------
@@ -75,10 +79,45 @@ function alleger(t, pageGuides) {
     if (t === avant) throw new Error("Guide Morand : « phrase d'introduction des ressources » introuvable ; vérifier la page d'origine.");
   }
   // Retouches de mise en page propres à Guide Morand (espace entre la recherche et « Filtrer »).
-  t = t.replace(/(<link rel="stylesheet" href="\/assets\/guides-cliniques\.css[^"]*">)/, '$1\n  <link rel="stylesheet" href="/assets/guides-morand.css">');
+  t = t.replace(/(<link rel="stylesheet" href="\/assets\/guides-cliniques\.css[^"]*">)/, `$1\n  <link rel="stylesheet" href="/assets/guides-morand.css?v=${VERSION_STYLE}">`);
   if (!t.includes("/assets/guides-morand.css")) throw new Error("Guide Morand : feuille de style des guides introuvable.");
   // Les fichiers du catalogue (fiches de la FMPE…) sont copiés ici : on les sert d'ici.
-  return t.replaceAll("https://trouvetaclinique.ca/guides/", "/guides/");
+  return habiller(t.replaceAll("https://trouvetaclinique.ca/guides/", "/guides/"), pageGuides);
+}
+
+/* Habit de Guide Morand (maquette « Recherche d'abord ») : en-tête Morand avec les deux onglets, sceau du cerf, nom et
+   devise au centre, grand champ de recherche, filtres repliés sous « Filtres ». Les couleurs et les polices sont dans
+   assets/guides-morand.css. La recherche, les filtres et le catalogue gardent le balisage et les scripts d'origine. */
+function remplacer(t, motif, rempl, nom) {
+  const apres = t.replace(motif, rempl);
+  if (apres === t) throw new Error(`Guide Morand : « ${nom} » introuvable ; vérifier la page d'origine.`);
+  return apres;
+}
+function habiller(t, pageGuides) {
+  const nav = t.match(/\s*<nav class="guides-band guides-onglets" aria-label="Catalogue">([\s\S]*?)<\/nav>/);
+  if (!nav) throw new Error("Guide Morand : « onglets » introuvables ; vérifier la page d'origine.");
+  t = t.replace(nav[0], "");
+  const onglets = nav[1].replace("Ressources communautaires", 'Ressources<span class="gm-long"> communautaires</span>');
+  t = remplacer(t, /<header class="site">[\s\S]*?<\/header>/,
+    `<header class="gm-tete"><a class="gm-marque" href="/">Morand</a><nav class="gm-onglets" aria-label="Catalogue">${onglets}</nav></header>`, "en-tête");
+  const lead = (t.match(/<section class="guides-band guides-intro">[\s\S]*?(<p class="lead">[\s\S]*?<\/p>)/) || [])[1] || "";
+  const sujet = pageGuides ? "guides de pratique pour la première ligne" : "ressources communautaires pour vos patients";
+  t = remplacer(t, /<section class="guides-band guides-intro">[\s\S]*?<\/section>/,
+    `<section class="guides-band gm-intro"><img src="/morand/sceau-guide.svg" alt="" width="128" height="128">` +
+    `<h1>Guide Morand<span class="visually-hidden"> : ${sujet}</span></h1>` +
+    `<p class="gm-devise">Prévention · Pertinence · Expérience</p>${lead.replace('class="lead"', 'class="gm-lead"')}</section>`, "introduction");
+  t = remplacer(t, 'class="guides-band guides-band--green guides-search"', 'class="guides-band guides-search gm-recherche"', "bande de recherche");
+  t = remplacer(t, '<h2 id="guides-search-title">', '<h2 id="guides-search-title" class="visually-hidden">', "titre de la recherche");
+  t = remplacer(t, '<div class="guides-filter-area" hidden>', '<details class="gm-filtres"><summary>Filtres</summary><div class="guides-filter-area" hidden>', "zone des filtres");
+  t = remplacer(t, /(<\/div>\s*)(<p class="guides-status")/, "$1</details>\n    $2", "fin des filtres");
+  if (pageGuides) {
+    const n = (onglets.match(/guides-onglet-compte">(\d+)/) || [])[1];
+    if (n) t = remplacer(t, 'placeholder="Sujet, organisme ou mot-clé…"', `placeholder="Rechercher parmi ${n} ressources…"`, "texte du champ");
+  }
+  t = remplacer(t, '<body class="guides-page"', '<body class="guides-page gm"', "corps de page");
+  t = remplacer(t, /(<title>[^<]*?)\s*\|\s*Trouve ta clinique<\/title>/, "$1 | Guide Morand</title>", "titre de la page");
+  t = remplacer(t, '<meta name="theme-color" content="#08A0A0">', '<meta name="theme-color" content="#fdfcf8">', "couleur du navigateur");
+  return t;
 }
 
 // ---------- Guide Morand : le catalogue de guides (/guides/) ----------

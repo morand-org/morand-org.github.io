@@ -1,3 +1,131 @@
-/* Guide Morand : retouches propres à cette copie, chargées après la feuille de Trouve ta clinique. */
-.guides-search .guides-filter-area { margin-top: 2rem; }
-@media (max-width: 640px) { .guides-search .guides-filter-area { margin-top: 1.6rem; } }
+/* Guide Morand : habit de la maquette « Recherche d'abord », chargé après les feuilles de Trouve ta clinique.
+   Les couleurs d'origine passent par des variables : on les remplace par le papier, l'encre et l'or de Morand.
+   Polices hébergées sur ce site (aucune ressource externe). */
+@font-face { font-family: "Inter"; src: url("/morand/inter.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Newsreader"; src: url("/morand/newsreader.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
+
+body.gm {
+  --navy: #17160f; --navy-2: #3a362c; --blue: #9b7a3e; --teal: #9b7a3e; --teal-texte: #7d6230;
+  --teal-zone: #f1ece0; --teal-pale: #f6f3ec; --cream: #f6f3ec; --sky: #f1ece0; --rule: #e2dccd;
+  --ink-60: rgba(23, 22, 15, .62); --mint: #e8dcc0;
+  --gm-papier: #fdfcf8; --gm-beige: #f1ece0; --gm-filet: #e2dccd; --gm-or: #9b7a3e; --gm-discret: #6f6b61; --gm-encre-2: #55524a;
+  --gm-serif: "Newsreader", ui-serif, Georgia, serif;
+  --gutter: max(20px, calc((100vw - 880px) / 2));
+  background: var(--gm-papier); color: var(--navy);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased;
+}
+.gm :is(h1, h2, h3) { font-family: var(--gm-serif); font-weight: 400; letter-spacing: -.005em; color: var(--navy); }
+
+/* En-tête : Morand à gauche (retour à l'accueil), les deux onglets à droite, en petites capitales. */
+.gm-tete { display: flex; justify-content: space-between; align-items: center; gap: 16px; max-width: 1100px; margin: 0 auto;
+  padding: 14px max(20px, env(safe-area-inset-right)) 0 max(20px, env(safe-area-inset-left)); }
+.gm-marque, .gm-onglets a { font: 500 10.5px/1 "Inter", system-ui, sans-serif; letter-spacing: .24em; text-transform: uppercase; text-decoration: none; }
+.gm-marque { color: var(--gm-discret); padding: 14px 0; }
+.gm-marque:hover { color: var(--navy); }
+.gm-onglets { display: flex; gap: 22px; }
+.gm-onglets a { display: inline-block; padding: 14px 0 7px; color: var(--gm-discret); }
+.gm-onglets a:hover { color: var(--navy); }
+.gm-onglets a[aria-current="page"] { color: var(--navy); box-shadow: inset 0 -1.5px 0 var(--gm-or); }
+.gm-onglets .guides-onglet-compte { display: none; }
+.gm :is(.gm-marque, .gm-onglets a):focus-visible { outline: 2px solid var(--gm-or); outline-offset: 3px; }
+
+/* Sceau, nom et devise au centre. */
+.gm .gm-intro { text-align: center; padding-top: clamp(26px, 6vh, 48px); padding-bottom: 0; background: none; }
+.gm-intro img { display: block; width: clamp(96px, 14vw, 128px); height: auto; margin: 0 auto; }
+.gm .gm-intro h1 { margin: 16px 0 0; font-size: clamp(2.1rem, 5vw, 2.6rem); line-height: 1; }
+.gm-devise { margin: 12px 0 0; font: 500 10px/1.4 "Inter", system-ui, sans-serif; letter-spacing: .3em; text-transform: uppercase; color: var(--gm-or); }
+.gm-lead { max-width: 34em; margin: 14px auto 0; font-size: .95rem; color: var(--gm-encre-2); }
+
+/* Recherche : un seul champ arrondi, la loupe à gauche, « Rechercher » discret à droite. */
+.gm .gm-recherche { background: none; padding-top: 28px; padding-bottom: 6px; text-align: center; }
+.gm .guides-search-form.search-page-form { display: flex; flex-wrap: nowrap; align-items: center; gap: 6px; max-width: 760px; margin: 0 auto;
+  padding: 5px 6px 5px 50px; border: 1px solid #d9d2c2; border-radius: 999px; text-align: left;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%239b7a3e' stroke-width='1.8'%3E%3Ccircle cx='6.5' cy='6.5' r='5'/%3E%3Cpath d='M10.3 10.3L15 15'/%3E%3C/svg%3E") no-repeat 22px center / 16px;
+  box-shadow: 0 2px 6px rgba(23, 22, 15, .04), 0 14px 34px rgba(23, 22, 15, .07); }
+.gm .guides-search-form.search-page-form:focus-within { border-color: var(--gm-or); }
+.gm .guides-search-form.search-page-form input[type="search"] { flex: 1 1 auto; min-width: 0; min-height: 50px; padding: 0; border: 0; border-radius: 0;
+  background: transparent; box-shadow: none; outline: none; font-size: 1.05rem; color: var(--navy); }
+.gm .guides-search-form.search-page-form input[type="search"]::placeholder { color: var(--gm-discret); opacity: 1; }
+.gm .guides-search-form.search-page-form button[type="submit"] { flex: none; width: auto; min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px;
+  background: transparent; color: var(--gm-or); box-shadow: none; font: 600 10.5px/1 "Inter", system-ui, sans-serif; letter-spacing: .2em; text-transform: uppercase; }
+.gm .guides-search-form.search-page-form button[type="submit"]:hover { background: var(--gm-beige); }
+.gm .guides-search-form.search-page-form button[type="submit"]:focus-visible { outline: 2px solid var(--gm-or); outline-offset: 2px; }
+/* Sur téléphone, le champ se colle en haut pendant le défilement : bande pleine largeur. */
+.gm .guides-search-form.guides-form-collant { max-width: none; border-width: 0 0 1px; border-radius: 0;
+  padding: 4px var(--gutter) 4px calc(var(--gutter) + 30px); background-position: calc(var(--gutter) + 4px) center; }
+.gm .guides-search-form.guides-form-collant button[type="submit"] { display: none; }
+
+/* Filtres repliés : « Filtres » ouvre les listes (sujet, organisme, type) et les cases. */
+.gm-filtres { margin-top: 16px; }
+.gm-filtres:has(> .guides-filter-area[hidden]) { display: none; }
+.gm-filtres > summary { display: inline-flex; align-items: center; gap: 9px; min-height: 40px; padding: 0 16px; border-radius: 999px;
+  background: var(--gm-beige); color: var(--gm-encre-2); font-size: 13px; cursor: pointer; list-style: none; user-select: none; }
+.gm-filtres > summary::-webkit-details-marker { display: none; }
+.gm-filtres > summary::after { content: ""; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translate(-2px, -2px); transition: transform .15s; }
+.gm-filtres[open] > summary { background: var(--navy); color: var(--gm-papier); }
+.gm-filtres[open] > summary::after { transform: rotate(225deg) translate(-1px, -1px); }
+.gm-filtres > summary:focus-visible { outline: 2px solid var(--gm-or); outline-offset: 3px; }
+.gm .gm-filtres .guides-filter-area { max-width: 760px; margin: 18px auto 0; text-align: left; }
+.gm .gm-filtres .guides-filter-area h3 { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.gm .guides-select span { font-size: 11px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--gm-discret); }
+.gm .guides-select select { border-color: #d9d2c2; color: var(--navy);
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%239b7a3e' stroke-width='1.8'/%3E%3C/svg%3E") no-repeat right .9rem center; }
+.gm .guides-case { font-weight: 400; color: var(--gm-encre-2); }
+.gm input[type="checkbox"] { accent-color: var(--gm-or); }
+.gm .guides-status { margin-top: 22px; text-align: center; font: italic 400 14.5px/1.4 var(--gm-serif); color: var(--gm-discret); }
+
+/* Le reste du catalogue : filets fins, pas de bandes de couleur. */
+.gm .guides-band--green { background: none; }
+.gm .guides-recents { border-top: 1px solid var(--gm-filet); }
+.gm :is(.guides-recents, .guides-consultes) summary h2 { font-size: clamp(1.3rem, 1vw + 1rem, 1.6rem); }
+.gm .guides-recents-liste a { font-weight: 500; text-decoration-color: #c9b48a; }
+.gm .guides-recents-meta { color: var(--gm-or); opacity: 1; font-size: .85rem; }
+.gm .guides-catalogue-titre { padding-top: 40px; text-align: center; font: 500 10.5px/1 "Inter", system-ui, sans-serif; letter-spacing: .24em; text-transform: uppercase; color: var(--gm-discret); }
+.gm .guides-pastilles { justify-content: center; padding-top: 14px; padding-bottom: 22px; }
+.gm .guides-pastille { min-height: 34px; padding: .3rem .85rem; border: 0; background: var(--gm-beige); color: var(--gm-encre-2); font-size: 13px; font-weight: 500; }
+.gm .guides-pastille:hover { background: #e8dfcb; color: var(--navy); }
+.gm .guides-category { border-top: 1px solid var(--gm-filet); }
+.gm .guides-category-heading { border-bottom-width: 1px; }
+.gm .guides-category-heading h2 { font-size: clamp(1.3rem, 1vw + 1rem, 1.6rem); }
+.gm .guides-chevron { width: 2.2rem; height: 2.2rem; background: transparent; border: 1px solid #d9d2c2; }
+.gm .guides-chevron::before { border-color: var(--gm-or); border-width: 0 1.5px 1.5px 0; }
+.gm .guides-toggle:hover .guides-chevron { background: var(--gm-beige); }
+.gm .guides-resource { border-bottom-color: #e7e1d3; }
+.gm .guides-resource-source { color: var(--gm-or); opacity: 1; font-weight: 500; font-size: .84rem; }
+.gm .guides-pdf { background: transparent; border: 1px solid #d6c39d; color: var(--gm-or); font-weight: 600; }
+.gm .guides-resource h3 { font-weight: 400; }
+.gm .guides-resource-desc { color: var(--gm-encre-2); opacity: 1; }
+.gm .guides-fav[aria-pressed="true"] { color: var(--gm-or); }
+.gm .guides-fav[aria-pressed="true"] svg { fill: #c9a35c; }
+.gm .guides-favoris { background: #f8f4ea; border-top: 1px solid var(--gm-filet); }
+.gm .guides-haut { box-shadow: 0 6px 18px rgba(23, 22, 15, .25); }
+
+@media (max-width: 640px) {
+  .gm-tete { gap: 10px; }
+  .gm-onglets { gap: 14px; }
+  .gm-marque, .gm-onglets a { letter-spacing: .16em; }
+  .gm-long { display: none; }
+  .gm .gm-recherche { padding-top: 22px; }
+  .gm .guides-search-form.search-page-form { padding-left: 44px; background-position: 18px center; }
+  .gm .guides-search-form.search-page-form button[type="submit"] { padding: 0 12px; }
+  .gm .guides-pastilles { justify-content: flex-start; }
+}
+
+/* Retouches : fonds transparents, pastilles de nombre, bouton d'effacement du champ, badge « Aide-mémoire ». */
+.gm .guides-main, .gm .guides-band:not(.guides-favoris):not(.guides-ia) { background-color: transparent; }
+.gm .guides-resultats { border-top: 1px solid var(--gm-filet); }
+.gm .compte { background: var(--gm-beige); border-color: transparent; color: var(--gm-encre-2); font-weight: 600; }
+.gm .guides-aide-badge { background: transparent; border: 1px solid #d6c39d; color: var(--gm-or); }
+.gm input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; width: 14px; height: 14px; cursor: pointer;
+  background: no-repeat center / 12px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' stroke='%239b7a3e' stroke-width='1.6'%3E%3Cpath d='M1 1l10 10M11 1L1 11'/%3E%3C/svg%3E"); }
+.gm-marque { padding: 14px 0 7px; }
+@media (max-width: 640px) {
+  .gm .guides-search-form.search-page-form button[type="submit"] { position: absolute; width: 1px; height: 1px; min-height: 0; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .gm .guides-search-form.search-page-form { padding-right: 18px; }
+}
+/* Filets à la largeur du contenu plutôt que de bord à bord. */
+.gm :is(.guides-category, .guides-recents, .guides-resultats, .guides-consultes) { border-top: 0;
+  background: linear-gradient(var(--gm-filet), var(--gm-filet)) no-repeat top center / calc(100% - 2 * var(--gutter)) 1px; }
+.gm .compte { font-family: "Inter", system-ui, sans-serif; }
+.gm .guides-autre a { color: var(--gm-or); font-weight: 500; text-decoration-color: #d6c39d; }
