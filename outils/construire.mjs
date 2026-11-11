@@ -68,6 +68,15 @@ function alleger(t, pageGuides) {
   t = retirer(t, /\s*<script src="\/assets\/recherche\.js[^"]*"[^>]*><\/script>/, "script de recherche du site");
   t = retirer(t, /\s*<p class="guides-search-hint">[\s\S]*?<\/p>/, "aide de la recherche");
   if (pageGuides) t = retirer(t, /\s*<p class="lead">Retrouvez[\s\S]*?<\/p>\s*<p class="guides-avis">[\s\S]*?Liens vérifiés[^<]*<\/p>/, "texte d'introduction");
+  else {
+    // Ressources communautaires : la première phrase seulement, sans la liste des besoins ni le paragraphe des sources.
+    t = retirer(t, /\s*<p class="guides-avis">Organismes de l’agglomération[\s\S]*?Info-Social[\s\S]*?<\/p>/, "sources des ressources communautaires");
+    const avant = t; t = t.replace(/(<p class="lead">Trouvez un organisme communautaire ou une ligne d’aide vers qui diriger un patient) : [^<]*<\/p>/, "$1.</p>");
+    if (t === avant) throw new Error("Guide Morand : « phrase d'introduction des ressources » introuvable ; vérifier la page d'origine.");
+  }
+  // Retouches de mise en page propres à Guide Morand (espace entre la recherche et « Filtrer »).
+  t = t.replace(/(<link rel="stylesheet" href="\/assets\/guides-cliniques\.css[^"]*">)/, '$1\n  <link rel="stylesheet" href="/assets/guides-morand.css">');
+  if (!t.includes("/assets/guides-morand.css")) throw new Error("Guide Morand : feuille de style des guides introuvable.");
   // Les fichiers du catalogue (fiches de la FMPE…) sont copiés ici : on les sert d'ici.
   return t.replaceAll("https://trouvetaclinique.ca/guides/", "/guides/");
 }
