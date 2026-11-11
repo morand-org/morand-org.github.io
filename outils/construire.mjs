@@ -30,6 +30,13 @@ function copier(de, vers) {
   else fs.copyFileSync(a, b);
 }
 function ecrire(vers, texte) { const b = path.join(RACINE, vers); fs.mkdirSync(path.dirname(b), { recursive: true }); fs.writeFileSync(b, texte); }
+// Favicon : le cèdre de Morand, sur toutes les pages (les icônes d'onglet de Trouve ta clinique sont retirées).
+const FAVICON = '<link rel="icon" href="/morand/icone.svg" type="image/svg+xml">\n<link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">';
+function faviconMorand(html, nom) {
+  const avant = html, sans = html.replace(/[ \t]*<link rel="icon"[^>]*>\n?/g, "");
+  if (sans === avant) throw new Error(`${nom} : favicon introuvable ; vérifier la page d'origine.`);
+  return sans.replace(/(<link rel="(?:apple-touch-icon|stylesheet)"[^>]*>)/, `${FAVICON}\n$1`);
+}
 const echapper = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 function nettoyer(html) {
   let t = html
@@ -63,6 +70,7 @@ carte = versOrigine(nettoyer(carte));
     + '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 10.5 12 3.5l8.5 7V20a.5.5 0 0 1-.5.5h-5v-6h-6v6H4a.5.5 0 0 1-.5-.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>\n    $2');
   if (carte === b) throw new Error("Map Morand : en-tête introuvable ; vérifier la page d'origine.");
 }
+carte = faviconMorand(carte, "Map Morand");
 // L'adresse canonique reste celle de la carte d'origine : les moteurs de recherche ne la voient pas en double.
 ecrire("map/index.html", carte);
 
@@ -137,12 +145,13 @@ copier("guides", "guides");
 for (const f of ["guides-aiguillage.js", "guides-cliniques.css", "guides-cliniques.js", "guides-installer.js", "guides-recherche.js",
   "logo-128.webp", "logo-128.png", "og-guides.png", "recherche.js", "seo-pages.css", "theme.js", "polices"])
   if (fs.existsSync(path.join(source, "assets", f))) copier("assets/" + f, "assets/" + f);
-if (fs.existsSync(path.join(source, "favicon-32.png"))) copier("favicon-32.png", "favicon-32.png");
+// /favicon-32.png : le cèdre de Morand (pas l'icône de Trouve ta clinique), pour les navigateurs qui le demandent d'office.
+fs.copyFileSync(path.join(RACINE, "morand/favicon-32.png"), path.join(RACINE, "favicon-32.png"));
 for (const page of ["guides/index.html", "guides/ressources-communautaires/index.html"]) {
   let t = lire(page);
   t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)data-url="[^"]*"/, ADRESSE_IA ? `$1data-url="${ADRESSE_IA}"` : "$1data-url=\"\"");
   if (!ADRESSE_IA) t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)(\s+hidden)?>/, "$1 hidden>");
-  ecrire(page, versOrigine(nettoyer(alleger(t, page.endsWith("guides/index.html")))));
+  ecrire(page, faviconMorand(versOrigine(nettoyer(alleger(t, page.endsWith("guides/index.html")))), "Guide Morand"));
 }
 // Fichiers de texte copiés tels quels (scripts, données) : mêmes motifs effacés.
 const TEXTES = /\.(js|css|json|webmanifest|html)$/;
