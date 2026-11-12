@@ -9,6 +9,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { AJOUTS_GUIDES } from "./guides-ajouts.mjs";
 
 const [source, fichierMotifs] = process.argv.slice(2);
 if (!source || !fs.existsSync(path.join(source, "monteregie/index.html"))) {
@@ -219,6 +220,62 @@ for (const page of ["guides/index.html", "guides/ressources-communautaires/index
   t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)data-url="[^"]*"/, ADRESSE_IA ? `$1data-url="${ADRESSE_IA}"` : "$1data-url=\"\"");
   if (!ADRESSE_IA) t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)(\s+hidden)?>/, "$1 hidden>");
   ecrire(page, faviconMorand(versOrigine(nettoyer(alleger(t, page.endsWith("guides/index.html")))), "Guide Morand"));
+}
+/* Ressources ajoutées par Morand (outils/guides-ajouts.mjs) : la fiche dans la liste de son sujet, après sa voisine,
+   dans guides/donnees.json et en tête de « Récemment ajoutés » ; les nombres (catalogue, sujet, organisme, format) suivent. */
+{
+  const fj = path.join(RACINE, "guides/donnees.json"), fh = path.join(RACINE, "guides/index.html");
+  const donnees = JSON.parse(fs.readFileSync(fj, "utf8"));
+  let t = fs.readFileSync(fh, "utf8");
+  const h = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const plusUn = (motif, nom) => { t = remplacer(t, motif, (_, a, n, b) => `${a}${+n + 1}${b}`, nom); };
+  const MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+  const ajoutes = [];
+  for (const { apres, ...g } of AJOUTS_GUIDES) {
+    if (donnees.some(x => x.url === g.url)) continue;   // déjà dans le catalogue d'origine
+    const i = donnees.findIndex(x => x.url === apres);
+    donnees.splice(i < 0 ? donnees.length : i + 1, 0, g);
+    const abo = g.acces === "abonnement";
+    const li = `<li class="guides-resource" data-tags="${h(g.tags)}" data-id="${h(g.url)}" data-title="${h(g.title)}" data-org="${h(g.org)}" data-desc="${h(g.desc)}" data-category="${h(g.cat)}" data-format="${h(g.format)}"${abo ? ' data-abo="1"' : ""}>
+        <a class="guides-resource-link" href="${h(g.url)}" target="_blank" rel="noopener noreferrer">
+          <span class="guides-resource-source">${h(g.org)}${abo ? ' <span class="guides-acces">Abonnement requis</span>' : ""}${/\.pdf($|[#?])/i.test(g.url) ? ' <span class="guides-pdf">PDF</span>' : ""}</span>
+          <h3>${h(g.title)}</h3>
+          <span class="guides-resource-desc">${h(g.desc)}</span>
+          <span class="guides-resource-arrow" aria-hidden="true">↗</span>
+          <span class="visually-hidden"> (nouvel onglet)</span>
+        </a>
+      </li>`;
+    // Après la fiche voisine ; sinon, à la fin de la liste du sujet.
+    const voisine = new RegExp(`(<li class="guides-resource"[^>]*data-id="${echapper(h(apres || "-"))}"[^>]*>[\\s\\S]*?</li>)`);
+    const sujet = new RegExp(`(<h2 id="guides-category-\\d+">${echapper(h(g.cat))}</h2>[\\s\\S]*?)(</ul>)`);
+    t = voisine.test(t) ? t.replace(voisine, `$1\n${li}`) : remplacer(t, sujet, `$1\n${li}$2`, `sujet ${g.cat}`);
+    plusUn(new RegExp(`(<h2 id="guides-category-\\d+">${echapper(h(g.cat))}</h2><span class="compte">)(\\d+)(<)`), `nombre du sujet ${g.cat}`);
+    plusUn(new RegExp(`(<option value="${echapper(h(g.cat))}">[^<]*\\()(\\d+)(\\))`), `filtre du sujet ${g.cat}`);
+    plusUn(new RegExp(`(<option value="${echapper(h(g.org))}">[^<]*\\()(\\d+)(\\))`), `filtre de l'organisme ${g.org}`);
+    plusUn(new RegExp(`(<select id="guides-filtre-format"[\\s\\S]*?<option value="${echapper(h(g.format))}">[^<]*\\()(\\d+)(\\))`), `filtre du format ${g.format}`);
+    plusUn(/(<span class="guides-onglet-compte">)(\d+)(<\/span><\/a><a href="\/guides\/ressources-communautaires\/")/, "nombre des guides cliniques");
+    plusUn(/("numberOfItems":)(\d+)(})/, "nombre de la collection");
+    plusUn(/(<p class="guides-status" id="guide-status"[^>]*>)(\d+)( ressources)/, "nombre du catalogue");
+    ajoutes.push(g);
+  }
+  // Récemment ajoutés : les nouvelles fiches en tête, la liste garde sa longueur.
+  for (const g of ajoutes.sort((a, b) => a.ajoute.localeCompare(b.ajoute))) {
+    const [a, m, j] = g.ajoute.split("-").map(Number);
+    const item = `<li><a href="${h(g.url)}" target="_blank" rel="noopener noreferrer">${h(g.title)}<span class="visually-hidden"> (nouvel onglet)</span></a> <span class="guides-recents-meta">${h(g.org)} · ajouté le ${j === 1 ? "1er" : j} ${MOIS[m - 1]} ${a}</span></li>`;
+    t = remplacer(t, /(<ol class="guides-recents-liste">\s*)([\s\S]*?)(\s*<\/ol>)/, (_, d, liste, f) => {
+      const items = liste.split(/\n\s*/).filter(Boolean);
+      return d + [item, ...items.slice(0, Math.max(0, items.length - 1))].join("\n        ") + f;
+    }, "Récemment ajoutés");
+  }
+  // Le nombre des guides cliniques, aussi dans l'onglet de la page des ressources communautaires.
+  if (ajoutes.length) {
+    const fr = path.join(RACINE, "guides/ressources-communautaires/index.html");
+    const r = fs.readFileSync(fr, "utf8"), r2 = r.replace(/(<a href="\/guides\/">Guides<span class="gm-long"> cliniques<\/span> <span class="guides-onglet-compte">)(\d+)(<)/, (_, a, n, b) => `${a}${+n + ajoutes.length}${b}`);
+    if (r2 === r) throw new Error("Guide Morand : nombre des guides cliniques introuvable dans les ressources communautaires.");
+    fs.writeFileSync(fr, r2);
+  }
+  fs.writeFileSync(fh, t);
+  fs.writeFileSync(fj, JSON.stringify(donnees, null, 2) + "\n");
 }
 // Fichiers de texte copiés tels quels (scripts, données) : mêmes motifs effacés.
 const TEXTES = /\.(js|css|json|webmanifest|html)$/;

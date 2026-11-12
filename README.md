@@ -22,6 +22,11 @@ La copie est fidèle, sauf : aucune mesure d'audience ; recherche assistée des 
 son adresse sous morand.org n'est pas fixée (`ADRESSE_IA` dans `outils/construire.mjs`) ; liens vers les
 autres pages de Trouve ta clinique dirigés vers le site d'origine ; commentaires HTML retirés.
 
+**Ajouts propres à Guide Morand** : les ressources de `outils/guides-ajouts.mjs` (même forme que
+`guides/donnees.json`) sont ajoutées au catalogue à chaque construction : fiche dans son sujet, après sa
+voisine (`apres`), en tête de « Récemment ajoutés », nombres mis à jour. Une ressource que le catalogue
+d'origine contient déjà (même adresse) n'est pas ajoutée deux fois.
+
 ## Règles
 
 - Aucun script d'une autre entreprise sur tout le site : sous une même adresse, il pourrait lire les
