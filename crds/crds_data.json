@@ -276,6 +276,245 @@
     "Occlusion intestinale",
     "Abcès cutané / mammaire"
    ]
+  },
+  {
+   "id": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "code_barre": "DT9211",
+   "revision": "2021-12",
+   "organisme": "MSSS – Direction de l'accès aux services médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/69d572e351d2650a852583c800481782?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso avant de remplir ce formulaire. Ne pas utiliser ce formulaire pour les services non assurés.",
+    "Le traitement des conditions suivantes n'est pas assuré par la RAMQ : acrochordon, kératose séborrhéique, milia, lentigo solaire, melasma, kyste épidermique non inflammé ou infecté, angiome rubis, angiome stellaire, couperose, etc. Veuillez utiliser les corridors de service de votre région pour référer le patient.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc.",
+    "Obligatoire pour toute demande : diagnostic probable ; site(s) anatomique(s) atteint(s) ; le patient est-il immunosupprimé, enceinte, âgé de moins de 1 an ; durée de la maladie ; nom des traitements tentés et durée ; le patient a-t-il été vu par un dermatologue (si oui, nom, copie des notes et rapport de pathologie).",
+    "L'examen cutané de dépistage n'est pas un motif de consultation en dermatologie. Les conditions dont le traitement est non médicalement requis (ex. : acrochordons, kératoses séborrhéiques ou nævi non suspects ne causant pas de trouble fonctionnel objectivable) ne doivent pas être référées via ce formulaire.",
+    "Algorithmes de traitement des maladies cutanées courantes : www.dermatoqc.org/medecin/algorithmes."
+   ],
+   "alertes_titre": "Référer l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Éruption pan-corporelle aiguë avec atteinte de l'état général",
+    "Éruption pustuleuse, bulleuse ou érosive avec atteinte de l'état général ou atteinte des muqueuses",
+    "Purpura aigu et progressif",
+    "Urticaire aiguë avec angio-œdème"
+   ]
+  },
+  {
+   "id": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "code_barre": "DT9249",
+   "revision": "2019-01",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/3a51b1fbfb655c358525811b00560899?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Prérequis : joindre les rapports de laboratoire et d'imagerie pour toutes les raisons de consultation.",
+    "Communiquer avec l'endocrinologue de garde de votre région pour : diabète de novo, type 1 soupçonné, sans acidose mais avec acétonurie.",
+    "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : GARE, Centre du diabète gestationnel, Centre de diabète, Programme des habitudes de vie, Clinique des nodules thyroïdiens, etc.)."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Acidocétose diabétique",
+    "Apoplexie hypophysaire",
+    "Hypercalcémie avec calcium corrigé > 3,5 mmol/l",
+    "Hypocalcémie très symptomatique ou calcium corrigé < 1,6 mmol/l",
+    "Insuffisance surrénalienne avec instabilité hémodynamique",
+    "Suspicion de phéochromocytome avec instabilité hémodynamique",
+    "Tempête thyroïdienne"
+   ]
+  },
+  {
+   "id": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "code_barre": "DT9252",
+   "revision": "2024-03",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/dc8a55af9ca4cc268525811b005657e1?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso. Favoriser les protocoles de l'Accueil clinique pour les grossesses du premier trimestre.",
+    "Ce formulaire ne s'applique pas pour les grossesses au-delà de 14 semaines.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc.",
+    "Orientés en 1re ligne et non pas au CRDS : visite gynécologique de santé préventive, incluant examen annuel/cytologie cervico-vaginale (PAP test)/dépistage ITSS ; ménopause ; contraception. Les maladies du sein ne sont pas prises en charge par la gynécologie.",
+    "Besoins spéciaux : inscrire l'indice de masse corporelle si > 35, si mobilité réduite, besoin d'interprète, etc."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Grossesse ectopique soupçonnée ou confirmée",
+    "Ménorragie aiguë importante",
+    "Hyperemesis gravidarum avec déshydratation",
+    "Abcès de la glande de Bartholin",
+    "Infection pelvienne aiguë avec ou sans abcès",
+    "Prolapsus génital complet en rétention urinaire",
+    "Avortement avec saignement actif important ou fièvre",
+    "Saignement du 1er trimestre, ou orienter la femme vers les ressources disponibles dans la région : Accueil clinique (utiliser formulaire approprié), clinique du 1er trimestre"
+   ]
+  },
+  {
+   "id": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "code_barre": "DT9264",
+   "revision": "2021-12",
+   "organisme": "MSSS – Direction de l'accès aux services médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/2728ebabad2d1dd28525811b0056a5c8?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso. Favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "À cocher au formulaire : résultats de laboratoire récents (< 2 mois) ; le patient a été avisé de la demande de consultation.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc."
+   ],
+   "alertes_titre": "Considérer diriger l'usager vers l'urgence (utiliser le formulaire de l'Accueil clinique si disponible)",
+   "alertes_urgence": [
+    "Anémie sévère (Hb < 70 g/L)",
+    "Thrombocytopénie sévère < 20 ×10⁹/L ou avec saignement significatif",
+    "Suspicion de leucémie aiguë",
+    "Neutropénie < 1,0 ×10⁹/L et T° ≥ 38,3 °C",
+    "Thrombose aiguë"
+   ]
+  },
+  {
+   "id": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "code_barre": "DT9267",
+   "revision": "2022-04",
+   "organisme": "MSSS – Direction de l'accès aux services médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/8218074d7fe6b2e38525811b005773ca?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso. Favoriser les protocoles de l'Accueil clinique (si disponible) avant de remplir ce formulaire.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc.",
+    "Formulaire en deux étapes : choisir la raison de consultation principale (étape 1), puis la priorité clinique (étape 2) : E réévaluation chez usager stable ; D condition à investiguer ou non contrôlée ; C condition instable (justification nécessaire) ; B condition semi-urgente.",
+    "Les internistes sont habilités à répondre aux raisons de consultation se retrouvant dans les formulaires des autres spécialités médicales selon les champs de pratique qu'ils ont indiqués au CRDS. Vous pouvez utiliser les formulaires des autres spécialités pour référer en médecine interne : dans la section nominative, indiquez « médecine interne ».",
+    "Conditions semi-urgentes de priorité B (< 10 jours) : angine d'effort sévère stable (CCS 3/4), utiliser le formulaire de l'Accueil clinique si disponible ; dyspnée d'effort marquée de novo (NYHA 3/4) ; hyperthyroïdie avec T4 libre > 2X limite supérieure, utiliser le formulaire de l'Accueil clinique si disponible ; diabète de novo type 1 soupçonné sans acidose et sans cétonurie ; perturbation du bilan hépatique avec ALT entre 201 et 500 UI et INR normal ; ictère avec bilirubine > 60 ou > 40 avec dilatation des voies biliaires à l'échographie avec INR normal ; anémie sévère non ferriprive < 85 avec autre cytopénie ; suspicion de lymphome (ex. : magma ganglionnaire significatif de taille > 5 cm ou symptôme B) ; insuffisance rénale chronique avec DFG < 15 ml/min ; nodule ou lésion pulmonaire suspecte sans néoplasie connue > 15 mm, utiliser le formulaire de l'Accueil clinique si disponible ; exacerbation aiguë de MPOC ou asthme avec échec du plan d'action ; polymyalgia rheumatica de novo ou rechute sans symptôme d'artérite temporale ; bradycardie asymptomatique avec FC < 40 bpm ou pauses diurnes > 3 secondes documentées ; syncope avec cardiopathie ; hypercalcémie entre 3,0 et 3,5 mmol/l ou hypocalcémie entre 1,6 et 1,9 peu ou pas symptomatique ; FUO (fièvre d'origine indéterminée depuis > 14 jours et bilan infectieux de base négatif incluant hémocultures) ; hémoptysie persistante, utiliser le formulaire de l'Accueil clinique si disponible ; épanchement pleural nouveau, unilatéral et symptomatique.",
+    "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : Clinique de grossesse à risque élevé (GARE) ou de médecine obstétricale, Centre de diabète, Clinique préopératoire, etc.)."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Thrombose veineuse profonde ou embolie pulmonaire suspectée non traitée (pour la thrombose veineuse : utiliser le formulaire de l'Accueil clinique si disponible)",
+    "Ischémie périphérique aiguë",
+    "HTA sévère symptomatique",
+    "Dyspnée au repos, rapidement progressive (< 1 semaine)",
+    "Syndrome coronarien aigu suspecté ou angine de repos",
+    "Insuffisance cardiaque décompensée",
+    "Fibrillation auriculaire rapide > 110 bpm au repos ou mal tolérée",
+    "Syncope brutale sans prodrome",
+    "Bradycardie symptomatique avec FC < 40 bpm ou pauses diurnes > 3 secondes documentées",
+    "Acidocétose diabétique",
+    "Hépatite aiguë sévère (ALT > 500) : utiliser le formulaire de l'Accueil clinique si disponible",
+    "Anémie sévère (Hb < 70 g/L)",
+    "Thrombocytopénie sévère < 20 ×10⁹/L ou avec saignement significatif",
+    "IRA : baisse du DFGe à moins de 15 ET symptômes urémiques ou atteintes à d'autres organes",
+    "Augmentation de la créatinine > 200 %",
+    "Augmentation de la créatinine > 100 % avec hématurie et protéinurie",
+    "Hémoptysie importante (> 100 ml) ou répétée (20 ml à quelques reprises dans la même journée)",
+    "Artérite temporale avec symptômes (céphalée nouvelle, perte visuelle ou diplopie, douleur au cuir chevelu, claudication de la mâchoire)",
+    "Vasculite ou collagénose avec atteinte d'organe sévère"
+   ]
+  },
+  {
+   "id": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "code_barre": "DT9269",
+   "revision": "2019-01",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/96e3ed5f63529ad18525811b0061eb5c?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso. Favoriser les protocoles de l'Accueil clinique (si disponible) et les corridors de services fonctionnels déjà existants avant de remplir ce formulaire.",
+    "Pour les plaies chroniques non infectées : référer à vos cliniques de soins de plaies.",
+    "Conditions nécessitant une prise en charge < 24 h (utiliser le formulaire d'Accueil clinique si disponible, ou rejoindre le microbiologiste de garde, ou diriger l'usager vers l'urgence) : cellulite nécessitant un traitement IV ou réfractaire au traitement PO ; bursite nécessitant un traitement IV ou réfractaire au traitement PO ; morsure animale ou humaine surinfectée."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Fièvre post retour de voyage, suspicion de malaria ou de maladie respiratoire sévère (MRS)",
+    "Sepsis",
+    "Méningite",
+    "Endocardite",
+    "Arthrite septique",
+    "Ténosynovite infectieuse",
+    "Cellulite rapidement progressive",
+    "Exposition accidentelle à un liquide biologique",
+    "Morsure animale autre que chien et chat",
+    "Infection sévère chez un usager immunosupprimé"
+   ]
+  },
+  {
+   "id": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "code_barre": "DT9487",
+   "revision": "2019-04",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/403e72326f69aa768525811b0062614a?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Échelle de somnolence d'Epworth : http://sommeil-mg.net/spip/questionnaires/Echelle%20D'Epworth.pdf"
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Pneumonie : tableau clinique de pneumonie avec signes de sévérité (désaturation < 90 %, confusion, hypotension, etc.) ou fièvre persistante (> 48 h) sous traitement antibiotique",
+    "MPOC : détérioration grave AVEC somnolence ou désaturation < 90 %",
+    "Hémoptysie importante (100 ml ou +) ou répétée (20 ml à quelques reprises dans la même journée)",
+    "Asthme : exacerbation d'asthme aiguë sévère ou sans réponse à la corticothérapie orale depuis 24 h",
+    "Dyspnée : au repos, rapidement progressive (< 1 semaine)",
+    "Suspicion d'embolie pulmonaire",
+    "Épanchement pleural significatif AVEC fièvre associée ou suspicion d'infection (empyème) ou désaturation < 90 %"
+   ]
+  },
+  {
+   "id": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "code_barre": "DT9300",
+   "revision": "2020-11",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/7610ca52355476638525811b0062bae2?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso. Ne pas utiliser ce formulaire pour un usager dangereux ou non collaborant.",
+    "Étape 1, motif : évaluation diagnostique ; recommandations thérapeutiques ; consultation au guichet d'accès en santé mentale adulte ; accès aux services de nature sociale ou psychologique. Pour une opinion pharmacologique ou autre question brève, il est recommandé d'utiliser la consultation téléphonique (médecin spécialiste répondant en psychiatrie, MSRP, ou à défaut le psychiatre de garde).",
+    "Étape 3 : les cotes de priorité ne sont que pour les demandes de consultation en services spécialisés.",
+    "NE PAS utiliser ce formulaire pour : un usager ayant déjà un suivi actif en psychiatrie (le rediriger vers le psychiatre traitant ou son équipe) ; une expertise médico-légale ou une évaluation de capacité parentale ; un usager sans problématique de santé mentale (le diriger vers les services sociaux généraux de votre établissement).",
+    "Au verso (à remplir) : antécédents psychiatriques ; facteurs de stress actuels ; histoire pharmacologique (molécule, dose maximale, efficacité, effets secondaires) ; démarches psychosociales antérieures et actuelles ; attentes du patient ; problème de dépendances ; situation discutée avec le MSRP ; sécurité (pas de risque immédiat pour lui-même et autrui) ; consentement verbal à l'envoi de la demande au GASM de son RLS ; motivation (si non motivé, travailler sa motivation avant de référer).",
+    "Autres ressources indiquées au formulaire : Info-Social 811 ; centres de crise (www.centredecrise.ca/listecentres) ; ligne d'aide en prévention du suicide 1 866 277-3553 (1 866 APPELLE)."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "État instable avec désorganisation marquée du langage ou du comportement",
+    "Délirium",
+    "Si jugé dangereux pour lui-même ou autrui, diriger l'usager aux urgences ; si non collaborant et jugé dangereux pour lui-même ou autrui : composer le 911"
+   ]
+  },
+  {
+   "id": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "code_barre": "DT9302",
+   "revision": "2022-04",
+   "organisme": "MSSS – Direction de l'accès aux services médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/7e6439952b2eb3b38525811b006301c8?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc."
+   ],
+   "alertes_titre": "Rejoindre le rhumatologue de garde ou diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Arthrite septique",
+    "Arthrite avec fièvre",
+    "Artérite temporale avec symptômes (céphalée nouvelle, perte visuelle ou diplopie, douleur au cuir chevelu, claudication de la mâchoire)",
+    "Vasculite ou collagénose avec atteinte d'organe sévère"
+   ]
   }
  ],
  "problemes": [
@@ -6284,7 +6523,5781 @@
     "autres": []
    },
    "orientation": []
+  },
+  {
+   "id": "derm-keratose-seborrheique-probable-eliminer-lesion-suspecte",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Tumoral",
+   "probleme": "Kératose séborrhéique probable, éliminer lésion suspecte",
+   "synonymes": [
+    "kératose",
+    "grain de beauté"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Kératose séborrhéique probable, éliminer lésion suspecte"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (tumoral) : taille de la lésion la plus suspecte (< 5 mm, 5-10 mm, > 10 mm)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Les kératoses séborrhéiques et les nævi bénins peuvent se modifier au cours de leur évolution normale. Le traitement de ces conditions n'est pas assuré par la RAMQ."
+   ]
+  },
+  {
+   "id": "derm-naevus-atypique-probable-eliminer-melanome",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Tumoral",
+   "probleme": "Naevus atypique probable, éliminer mélanome",
+   "synonymes": [
+    "nævus",
+    "grain de beauté",
+    "mélanome"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Naevus atypique probable, éliminer mélanome"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (tumoral) : taille de la lésion la plus suspecte (< 5 mm, 5-10 mm, > 10 mm)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-melanome-tres-probable",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Tumoral",
+   "probleme": "Mélanome très probable",
+   "synonymes": [
+    "mélanome",
+    "cancer de la peau"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Mélanome très probable"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (tumoral) : taille de la lésion la plus suspecte (< 5 mm, 5-10 mm, > 10 mm)",
+     "Description et évolution détaillées de la lésion"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-tumeur-suspecte-de-cancer-autre-que-melanome-ex-carcino",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Tumoral",
+   "probleme": "Tumeur suspecte de cancer, autre que mélanome (ex. : carcinome basocellulaire ou épidermoïde)",
+   "synonymes": [
+    "carcinome",
+    "basocellulaire",
+    "épidermoïde",
+    "cancer de la peau"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "LENTEMENT évolutive"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "RAPIDEMENT évolutive (< de 8 semaines)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (tumoral) : taille de la lésion la plus suspecte (< 5 mm, 5-10 mm, > 10 mm)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-keratoses-actiniques",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Tumoral",
+   "probleme": "Kératoses actiniques",
+   "synonymes": [
+    "kératose actinique"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Kératoses actiniques"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (tumoral) : taille de la lésion la plus suspecte (< 5 mm, 5-10 mm, > 10 mm)",
+     "Échec à la cryothérapie OU au 5FU topique"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-hemangiome-du-nourrisson-necessitant-un-traitement",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Tumoral",
+   "probleme": "Hémangiome du nourrisson nécessitant un traitement",
+   "synonymes": [
+    "hémangiome",
+    "bébé"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Hémangiome du nourrisson nécessitant un traitement"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (tumoral) : taille de la lésion la plus suspecte (< 5 mm, 5-10 mm, > 10 mm)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Selon l'outil www.ihscoring.com/frca/step-1/."
+   ]
+  },
+  {
+   "id": "derm-tache-de-vin-de-l-enfant-age-de-moins-d-un-an",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Tumoral",
+   "probleme": "Tache de vin de l'enfant âgé de moins d'un an",
+   "synonymes": [
+    "angiome plan",
+    "bébé"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Tache de vin de l'enfant âgé de moins d'un an"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (tumoral) : taille de la lésion la plus suspecte (< 5 mm, 5-10 mm, > 10 mm)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-lesions-erythemato-squameuses-ex-eczema-psoriasis-tinea",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Inflammatoire / infectieux",
+   "probleme": "Lésions érythémato-squameuses (ex. : eczéma, psoriasis, tinea)",
+   "synonymes": [
+    "eczéma",
+    "psoriasis",
+    "dermatite"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Étendues > 30 % de la surface corporelle ou palmo-plantaire sévère"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Limitées < 30 % de la surface corporelle"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (inflammatoire/infectieux) : nombre de lésion(s) (≤ 10, 11-30, > 30) et atteintes incapacitantes (oui/non)",
+     "Échec à au moins 2 traitements topiques, dont un corticostéroïde topique (8 semaines au total)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Note : 1 paume = 1 %."
+   ]
+  },
+  {
+   "id": "derm-lesions-bulleuses-non-infectieuses-sans-atteinte-de-l-e",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Inflammatoire / infectieux",
+   "probleme": "Lésions bulleuses non infectieuses sans atteinte de l'état général",
+   "synonymes": [
+    "pemphigoïde",
+    "bulles"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Lésions bulleuses non infectieuses sans atteinte de l'état général"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (inflammatoire/infectieux) : nombre de lésion(s) (≤ 10, 11-30, > 30) et atteintes incapacitantes (oui/non)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-acne-nodulo-kystique-et-cicatricielle-incapacitante",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Inflammatoire / infectieux",
+   "probleme": "Acné nodulo-kystique et cicatricielle incapacitante",
+   "synonymes": [
+    "acné",
+    "isotrétinoïne"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Acné nodulo-kystique et cicatricielle incapacitante"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (inflammatoire/infectieux) : nombre de lésion(s) (≤ 10, 11-30, > 30) et atteintes incapacitantes (oui/non)",
+     "Moyen de contraception initié chez la femme en âge de procréer",
+     "Échec à 2 traitements topiques et antibiotique PO x 4 à 6 mois"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-autres-lesions-acneiformes-ex-acne-vulgaire-acne-rosace",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Inflammatoire / infectieux",
+   "probleme": "Autres lésions acnéiformes (ex. : acné vulgaire, acné rosacée, folliculite, etc.)",
+   "synonymes": [
+    "acné",
+    "rosacée"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Autres lésions acnéiformes (ex. : acné vulgaire, acné rosacée, folliculite, etc.)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (inflammatoire/infectieux) : nombre de lésion(s) (≤ 10, 11-30, > 30) et atteintes incapacitantes (oui/non)",
+     "Échec au traitement topique et antibiotique PO x 4 à 6 mois"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-hidradenite-suppuree-moderee-a-severe-plus-de-10-nodule",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Inflammatoire / infectieux",
+   "probleme": "Hidradénite suppurée modérée à sévère (plus de 10 nodules, abcès, fistules et cicatrices aux plis)",
+   "synonymes": [
+    "hidrosadénite",
+    "HS"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Hidradénite suppurée modérée à sévère (plus de 10 nodules, abcès, fistules et cicatrices aux plis)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (inflammatoire/infectieux) : nombre de lésion(s) (≤ 10, 11-30, > 30) et atteintes incapacitantes (oui/non)",
+     "Échec au traitement topique et antibiotique PO x 6 mois"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "derm-urticaire-chronique-idiopathique-duree-6-semaines",
+   "formulaire": "AH-757",
+   "specialite": "Dermatologie adulte et pédiatrique",
+   "categorie": "Inflammatoire / infectieux",
+   "probleme": "Urticaire chronique idiopathique (durée > 6 semaines)",
+   "synonymes": [
+    "urticaire",
+    "antihistaminique"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Urticaire chronique idiopathique (durée > 6 semaines)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Obligatoire au formulaire (inflammatoire/infectieux) : nombre de lésion(s) (≤ 10, 11-30, > 30) et atteintes incapacitantes (oui/non)",
+     "Échec 4 X dose antihistaminique de 2e génération ou dose maximale tolérée par le patient (si dose < 4 X, justifier)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Annexe 1 (exemples, doses standard et 4X) : cetirizine 10-40 mg PO/jour (4X = 20 mg PO bid) ; desloratadine 5-20 mg PO/jour (4X = 10 mg PO bid) ; loratadine 10-40 mg PO/jour (4X = 20 mg PO bid) ; rupatadine 10 mg PO/jour (4X = 20 mg PO bid). L'hydroxyzine et la diphenhydramine sont des antihistaminiques de première génération."
+   ]
+  },
+  {
+   "id": "endo-hyperthyroidie-tsh",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Thyroïde",
+   "probleme": "Hyperthyroïdie (TSH ↓)",
+   "synonymes": [
+    "thyroïde",
+    "Graves",
+    "T4"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "T4 libre > 2X limite supérieure"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "T4 libre élevée ≤ 2X limite supérieure"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "T4 libre normale (et T3 normale si dosée)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-nodule-thyroidien",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Thyroïde",
+   "probleme": "Nodule thyroïdien",
+   "synonymes": [
+    "thyroïde",
+    "TI-RADS"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Associé à l'apparition récente de dysphonie ou adénopathie suspecte"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Critères échographiques suspects ou > 4 cm"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Autres nodules solides/mixtes ≥ 1 cm à l'écho"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "TSH"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Critères échographiques suspects : nodule thyroïdien avec microcalcifications, contour irrégulier, hypoéchogénicité marquée ou TI-RADS 4b ou 5 (critères non exhaustifs).",
+    "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : GARE, Centre du diabète gestationnel, Centre de diabète, Programme des habitudes de vie, Clinique des nodules thyroïdiens, etc.)."
+   ]
+  },
+  {
+   "id": "endo-diabete-de-novo-type-1-soupconne-sans-acidose-et-sans-c",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Diabète",
+   "probleme": "Diabète de novo, type 1 soupçonné, sans acidose et sans cétonurie",
+   "synonymes": [
+    "diabète type 1"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Diabète de novo, type 1 soupçonné, sans acidose et sans cétonurie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Avec acétonurie : communiquer avec l'endocrinologue de garde de votre région."
+   ]
+  },
+  {
+   "id": "endo-diabete-traite",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Diabète",
+   "probleme": "Diabète traité",
+   "synonymes": [
+    "diabète",
+    "HbA1c",
+    "hypoglycémie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Avec hypoglycémie nécessitant assistance d'un tiers"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "HbA1c > 12 %"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "HbA1c 9-12 %"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "HbA1c < 9 %"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Pour une référence au Centre du diabète régional, remplir le formulaire spécifique si disponible."
+   ]
+  },
+  {
+   "id": "endo-hirsutisme-sans-virilisation",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Gonades",
+   "probleme": "Hirsutisme sans virilisation",
+   "synonymes": [
+    "pilosité"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Hirsutisme sans virilisation"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-oligo-amenorrhee-ex-syndrome-ovaires-polykystiques",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Gonades",
+   "probleme": "Oligo/aménorrhée (ex. : syndrome ovaires polykystiques)",
+   "synonymes": [
+    "SOPK",
+    "règles"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Oligo/aménorrhée (ex. : syndrome ovaires polykystiques)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-hypogonadisme-chez-l-homme",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Gonades",
+   "probleme": "Hypogonadisme chez l'homme",
+   "synonymes": [
+    "testostérone"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "≤ 50 ans"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "> 50 ans"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "2 dosages (avant 10 h 00) de testostérone abaissée"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-hypogonadisme-desirant-fertilite-homme-et-femme",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Gonades",
+   "probleme": "Hypogonadisme désirant fertilité (homme et femme)",
+   "synonymes": [
+    "fertilité",
+    "infertilité"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Hypogonadisme désirant fertilité (homme et femme)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-gynecomastie-d-apparition-de-moins-de-6-mois",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Gonades",
+   "probleme": "Gynécomastie d'apparition de moins de 6 mois",
+   "synonymes": [
+    "seins homme"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Gynécomastie d'apparition de moins de 6 mois"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-insuffisance-surrenalienne-de-novo-sans-instabilite-hem",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Surrénales",
+   "probleme": "Insuffisance surrénalienne de novo sans instabilité hémodynamique",
+   "synonymes": [
+    "Addison",
+    "cortisol"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Insuffisance surrénalienne de novo sans instabilité hémodynamique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Cortisol de 8 h 00"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-hypercorticisme",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Surrénales",
+   "probleme": "Hypercorticisme",
+   "synonymes": [
+    "Cushing",
+    "cortisol"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Hypercorticisme"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Cortisolurie 24 h (si prise d'oestrogène) ou test de suppression à la dexaméthasone 1 mg"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Test de suppression : prescrire dexaméthasone 1 mg à 23 h et dosage de cortisolémie à 8 h 00 le lendemain (normale < 50 nmol/l)."
+   ]
+  },
+  {
+   "id": "endo-nodule-surrenalien",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Surrénales",
+   "probleme": "Nodule surrénalien",
+   "synonymes": [
+    "incidentalome",
+    "surrénale"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "≥ 4 cm ou suspect à l'imagerie ou catécholamines ou métanéphrines élevées"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "< 4 cm d'allure bénigne à l'imagerie et laboratoires anormaux"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Dosage de catécholamines et métanéphrines sur collecte d'urine de 24 h",
+     "Test de suppression à la dexaméthasone 1 mg à 23 h",
+     "Si hypertension ou hypokaliémie, ajouter dosage du ratio de rénine et d'aldostérone"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-osteoporose",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Phosphocalcique / os",
+   "probleme": "Ostéoporose",
+   "synonymes": [
+    "densitométrie",
+    "os"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Ostéoporose"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : GARE, Centre du diabète gestationnel, Centre de diabète, Programme des habitudes de vie, Clinique des nodules thyroïdiens, etc.)."
+   ]
+  },
+  {
+   "id": "endo-hypercalcemie",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Phosphocalcique / os",
+   "probleme": "Hypercalcémie",
+   "synonymes": [
+    "calcium",
+    "parathyroïde"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Ca < 3 mmol/l"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Ca 3 à 3,5 mmol/l"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Ca total corrigé"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-hypocalcemie",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Phosphocalcique / os",
+   "probleme": "Hypocalcémie",
+   "synonymes": [
+    "calcium"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Ca 1,6 à 1,9 mmol/l peu ou pas symptomatique"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Ca > 1,9 mmol/l"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Ca total corrigé"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-masse-hypophysaire",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Hypophyse",
+   "probleme": "Masse hypophysaire",
+   "synonymes": [
+    "hypophyse",
+    "adénome"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Avec symptôme visuel"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Sans symptôme visuel"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-hyperprolactinemie-dosage-controle-2-fois",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Hypophyse",
+   "probleme": "Hyperprolactinémie (dosage contrôlé 2 fois)",
+   "synonymes": [
+    "prolactine"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Hyperprolactinémie (dosage contrôlé 2 fois)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "endo-diabete-dysthyroidie-ou-autre-endocrinopathie-en-grosse",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Grossesse",
+   "probleme": "Diabète, dysthyroïdie ou autre endocrinopathie en grossesse",
+   "synonymes": [
+    "grossesse",
+    "diabète gestationnel"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Diabète, dysthyroïdie ou autre endocrinopathie en grossesse"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : GARE, Centre du diabète gestationnel, Centre de diabète, Programme des habitudes de vie, Clinique des nodules thyroïdiens, etc.)."
+   ]
+  },
+  {
+   "id": "endo-evaluation-pre-grossesse-chez-patiente-diabetique",
+   "formulaire": "AH-758",
+   "specialite": "Endocrinologie adulte",
+   "categorie": "Grossesse",
+   "probleme": "Évaluation pré-grossesse chez patiente diabétique",
+   "synonymes": [
+    "grossesse",
+    "diabète"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Évaluation pré-grossesse chez patiente diabétique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Joindre les rapports de laboratoire et d'imagerie (pour toutes les raisons de consultation)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-sua-post-menopausiques",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Saignements utérins anormaux (SUA)",
+   "probleme": "SUA post-ménopausiques",
+   "synonymes": [
+    "saignement",
+    "ménopause",
+    "métrorragie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "SUA post-ménopausiques"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-sua-pre-menopausiques",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Saignements utérins anormaux (SUA)",
+   "probleme": "SUA pré-ménopausiques",
+   "synonymes": [
+    "saignement",
+    "ménorragie",
+    "règles abondantes"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Hb < 80"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Hb entre 80 et 120"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Hb > 120"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Hb, ß-HCG"
+    ],
+    "imagerie": [
+     "Rapport d'échographie pelvienne"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-fibromes-10-cm-ou-signes-symptomes-compressifs",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Fibromes",
+   "probleme": "Fibromes > 10 cm ou signes/symptômes compressifs",
+   "synonymes": [
+    "fibrome",
+    "léiomyome"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fibromes > 10 cm ou signes/symptômes compressifs"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'échographie pelvienne"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-fibromes-asymptomatiques-et-hb-normale",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Fibromes",
+   "probleme": "Fibromes asymptomatiques et Hb normale",
+   "synonymes": [
+    "fibrome",
+    "léiomyome"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Fibromes asymptomatiques et Hb normale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'échographie pelvienne"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-masse-annexielle-post-menopausique",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Masse annexielle",
+   "probleme": "Masse annexielle post-ménopausique",
+   "synonymes": [
+    "ovaire",
+    "kyste"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Complexe"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Simple"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Ca-125"
+    ],
+    "imagerie": [
+     "Rapport d'échographie pelvienne"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Description masse annexielle complexe : hétérogène, zone solide, avec septa."
+   ]
+  },
+  {
+   "id": "gyn-masse-annexielle-pre-menopausique-persistante-3-cm",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Masse annexielle",
+   "probleme": "Masse annexielle pré-ménopausique, persistante > 3 cm",
+   "synonymes": [
+    "ovaire",
+    "kyste"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Complexe"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Simple"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "2 rapports d'échographie pelvienne ≥ 2 mois d'intervalle"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Description masse annexielle complexe : hétérogène, zone solide, avec septa."
+   ]
+  },
+  {
+   "id": "gyn-masse-annexielle-avec-ascite-ou-carcinomatose-peritoneal",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Masse annexielle",
+   "probleme": "Masse annexielle avec ascite ou carcinomatose péritonéale",
+   "synonymes": [
+    "ovaire",
+    "cancer"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Masse annexielle avec ascite ou carcinomatose péritonéale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-cytologie-anormale-ou-lesion-du-col-visuellement-suspect",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Néoplasie",
+   "probleme": "Cytologie anormale ou lésion du col visuellement suspecte",
+   "synonymes": [
+    "PAP",
+    "col",
+    "colposcopie",
+    "HPV"
+   ],
+   "priorites": [
+    {
+     "niveau": "HORS",
+     "criteres": [
+      "Référer directement au Centre de colposcopie de votre territoire"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-lesion-vulvaire-ou-vaginale-suspecte",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Néoplasie",
+   "probleme": "Lésion vulvaire ou vaginale suspecte",
+   "synonymes": [
+    "vulve",
+    "vagin"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Lésion vulvaire ou vaginale suspecte"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-neoplasie-de-l-endometre-confirmee",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Néoplasie",
+   "probleme": "Néoplasie de l'endomètre confirmée",
+   "synonymes": [
+    "cancer",
+    "endomètre"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Néoplasie de l'endomètre confirmée"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Rapport de pathologie"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-polypes-de-l-endometre",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Polypes et épaississement de l'endomètre",
+   "probleme": "Polypes de l'endomètre",
+   "synonymes": [
+    "polype"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Post-ménopausiques sans SUA"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Pré-ménopausiques"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-epaississement-de-l-endometre-11-mm-post-menopausique",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Polypes et épaississement de l'endomètre",
+   "probleme": "Épaississement de l'endomètre > 11 mm post ménopausique",
+   "synonymes": [
+    "endomètre"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Épaississement de l'endomètre > 11 mm post ménopausique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport échographie endovaginale"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-polype-du-col-avec-cytologie-normale",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Polypes et épaississement de l'endomètre",
+   "probleme": "Polype du col avec cytologie normale",
+   "synonymes": [
+    "polype",
+    "col"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Polype du col avec cytologie normale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-pathologies-vulvaires-vaginales-benignes",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Vulvo-vaginal",
+   "probleme": "Pathologies vulvaires/vaginales bénignes",
+   "synonymes": [
+    "vulve",
+    "vagin"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Pathologies vulvaires/vaginales bénignes"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-vulvo-vaginites-recidivantes-et-refractaires",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Vulvo-vaginal",
+   "probleme": "Vulvo-vaginites récidivantes et réfractaires",
+   "synonymes": [
+    "vaginite",
+    "candidose"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Vulvo-vaginites récidivantes et réfractaires"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-dyspareunie-ou-vaginisme",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Vulvo-vaginal",
+   "probleme": "Dyspareunie ou vaginisme",
+   "synonymes": [
+    "douleur relations"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Dyspareunie ou vaginisme"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-complications-reliees-aux-bandelettes-urinaires",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Autres",
+   "probleme": "Complications reliées aux bandelettes urinaires",
+   "synonymes": [
+    "bandelette",
+    "TVT"
+   ],
+   "priorites": [
+    {
+     "niveau": "HORS",
+     "criteres": [
+      "Hors CRDS : référer à votre centre désigné en santé pelvienne"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Référer à votre centre désigné en santé pelvienne via le formulaire de demande de consultation (www.msss.gouv.qc.ca/professionnels/soins-et-services/programme-sante-pelvienne/centres-designes/)."
+   ]
+  },
+  {
+   "id": "gyn-contraception-complexe-ligature-tubaire-ou-sterilet",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Autres",
+   "probleme": "Contraception complexe, ligature tubaire ou stérilet",
+   "synonymes": [
+    "contraception",
+    "DIU",
+    "stérilet"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Contraception complexe, ligature tubaire ou stérilet"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-infertilite",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Autres",
+   "probleme": "Infertilité",
+   "synonymes": [
+    "fertilité",
+    "grossesse"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Infertilité"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Définition de l'infertilité : ≥ 1 an AVEC cycles réguliers ET âgée < 35 ans ; ≥ 6 mois AVEC cycles irréguliers OU âgée ≥ 35 ans ; spermogramme anormal ; ≥ 3 avortements spontanés."
+   ]
+  },
+  {
+   "id": "gyn-amenorrhee-secondaire-de-6-mois",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Autres",
+   "probleme": "Aménorrhée secondaire de > 6 mois",
+   "synonymes": [
+    "règles",
+    "aménorrhée"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Aménorrhée secondaire de > 6 mois"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "TSH, PRL, LH, FSH, ß-HCG"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-menopause-complexe",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Autres",
+   "probleme": "Ménopause complexe",
+   "synonymes": [
+    "ménopause"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Ménopause complexe"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Justifier le besoin"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "gyn-prolapsus-genital-symptomatique",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Autres",
+   "probleme": "Prolapsus génital symptomatique",
+   "synonymes": [
+    "descente d'organe",
+    "pessaire",
+    "cystocèle"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Prolapsus génital symptomatique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Prolapsus génital symptomatique : cystocèle, rectocèle, prolapsus utérin ou évaluation de pessaire."
+   ]
+  },
+  {
+   "id": "gyn-endometriose-suspectee-ou-douleur-pelvienne-chronique-6-",
+   "formulaire": "AH-759",
+   "specialite": "Gynécologie adulte",
+   "categorie": "Autres",
+   "probleme": "Endométriose suspectée ou douleur pelvienne chronique (> 6 mois)",
+   "synonymes": [
+    "endométriose",
+    "douleur pelvienne"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Endométriose suspectée ou douleur pelvienne chronique (> 6 mois)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'échographie pelvienne"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-pancytopenie-ou-bicytopenie",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules rouges",
+   "probleme": "Pancytopénie ou bicytopénie",
+   "synonymes": [
+    "cytopénie"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Pancytopénie ou bicytopénie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [],
+   "libelle_formulaire": "Pancytopénie ou bicytopénie (neutros < 1 ×10⁹/L et plaquettes < 75 ×10⁹/L et/ou Hb < 85 g/L)"
+  },
+  {
+   "id": "hemato-anemie-inexpliquee",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules rouges",
+   "probleme": "Anémie inexpliquée",
+   "synonymes": [
+    "anémie",
+    "hémoglobine"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Hb < 85 g/L"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Hb entre 85 g/L et 100 g/L"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Femme : Hb > 100 g/L à 112 g/L ; homme : Hb > 100 g/L à 130 g/L"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Bilan martial, B12, créatinine, TSH"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-anemie-ferriprive-hb-100-g-l-investiguee-qui-ne-repon",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules rouges",
+   "probleme": "Anémie ferriprive Hb < 100 g/L investiguée qui ne répond pas à 6 mois de thérapie orale",
+   "synonymes": [
+    "fer",
+    "ferritine",
+    "anémie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Anémie ferriprive Hb < 100 g/L investiguée qui ne répond pas à 6 mois de thérapie orale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-polyglobulie",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules rouges",
+   "probleme": "Polyglobulie",
+   "synonymes": [
+    "érythrocytose",
+    "hématocrite"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Ht > 0,65 ou Hb > 200 g/L contrôlée"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Ht > 0,10 de + que la normale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-neutropenie",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules blancs",
+   "probleme": "Neutropénie",
+   "synonymes": [
+    "neutrophiles"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "< 0,5 ×10⁹/L (valeur absolue)"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Entre 0,5 et 1 ×10⁹/L (valeur absolue)"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Entre 1,1 et 1,3 ×10⁹/L (contrôlée après 3 mois)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-g-b-20-10-l-avec-myelemie",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules blancs",
+   "probleme": "G.B. > 20 ×10⁹/L avec myélémie",
+   "synonymes": [
+    "leucocytose",
+    "globules blancs"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "G.B. > 20 ×10⁹/L avec myélémie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Myélémie : présence de myélocytes et métamyélocytes au décompte manuel."
+   ]
+  },
+  {
+   "id": "hemato-neutrophilie-inexpliquee-de-plus-de-15-10-l-controlee",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules blancs",
+   "probleme": "Neutrophilie inexpliquée de plus de 15 ×10⁹/L (contrôlée après 3 mois)",
+   "synonymes": [
+    "leucocytose"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Neutrophilie inexpliquée de plus de 15 ×10⁹/L (contrôlée après 3 mois)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-lymphocytose-avec-cytopenie-ou-lymphocytose-marquee",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules blancs",
+   "probleme": "Lymphocytose avec cytopénie ou lymphocytose marquée",
+   "synonymes": [
+    "lymphocytes",
+    "LLC"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Hb < 100 g/L"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Plaquettes < 100 ×10⁹/L ou neutros < 1 ×10⁹/L"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Lymphocytose > 100 ×10⁹/L"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [],
+   "libelle_formulaire": "Lymphocytose avec : Hb < 100 g/L ; plaquettes < 100 ou neutros < 1 ; lymphocytose > 100"
+  },
+  {
+   "id": "hemato-lymphocytose-isolee",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules blancs",
+   "probleme": "Lymphocytose isolée",
+   "synonymes": [
+    "lymphocytes",
+    "LLC"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "De 30 à 100 ×10⁹/L"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "5 à 30 ×10⁹/L"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-eosinophilie-superieure-a-1-5-controlee-apres-6-mois",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Globules blancs",
+   "probleme": "Éosinophilie supérieure à 1.5 contrôlée après 6 mois",
+   "synonymes": [
+    "éosinophiles"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Éosinophilie supérieure à 1.5 contrôlée après 6 mois"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-thrombopenie",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Plaquettes",
+   "probleme": "Thrombopénie",
+   "synonymes": [
+    "thrombocytopénie",
+    "plaquettes"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "20-49 ×10⁹/L"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "50-74 ×10⁹/L"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "75-100 ×10⁹/L contrôlée après 3 mois"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-thrombocytose",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Plaquettes",
+   "probleme": "Thrombocytose",
+   "synonymes": [
+    "plaquettes"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "450-699 ×10⁹/L contrôlée après 3 mois"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "700-999 ×10⁹/L"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "≥ 1000 ×10⁹/L"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-diathese-hemorragique",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Hémostase",
+   "probleme": "Diathèse hémorragique",
+   "synonymes": [
+    "saignement",
+    "coagulation",
+    "von Willebrand"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Avec tests anormaux"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Avec tests normaux"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "INR, PTT, fibrinogène ou temps de thrombine"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-thrombose-recidivante-ou-site-non-usuel",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Hémostase",
+   "probleme": "Thrombose récidivante ou site non usuel",
+   "synonymes": [
+    "thrombose",
+    "TVP",
+    "embolie"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Thrombose récidivante ou site non usuel"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-suspicion-de-thrombophilie",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Hémostase",
+   "probleme": "Suspicion de thrombophilie",
+   "synonymes": [
+    "thrombose",
+    "coagulation"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Suspicion de thrombophilie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-suspicion-de-lymphome-ex-magma-ganglionnaire-signific",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Suspicion de lymphome (ex. : magma ganglionnaire significatif de taille > 5 cm ou symptôme B)",
+   "synonymes": [
+    "lymphome",
+    "ganglion",
+    "adénopathie"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Suspicion de lymphome (ex. : magma ganglionnaire significatif de taille > 5 cm ou symptôme B)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Symptôme B : fièvre inexpliquée, perte de poids de plus de 10 %, sudations nocturnes."
+   ]
+  },
+  {
+   "id": "hemato-ganglions-augmentes-en-nombre-et-en-taille-exerese-ch",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Ganglions augmentés en nombre et en taille (exérèse chirurgicale suggérée si > 2 cm et soutenu > 3 mois)",
+   "synonymes": [
+    "ganglion",
+    "adénopathie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Ganglions augmentés en nombre et en taille (exérèse chirurgicale suggérée si > 2 cm et soutenu > 3 mois)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-splenomegalie-rate-15-cm",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Splénomégalie (rate > 15 cm)",
+   "synonymes": [
+    "rate"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Avec cytopénie"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Sans cytopénie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-lymphome-confirme",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Lymphome confirmé",
+   "synonymes": [
+    "lymphome"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Lymphome confirmé"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Rapport de pathologie"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-pic-monoclonal",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Pic monoclonal",
+   "synonymes": [
+    "MGUS",
+    "myélome",
+    "électrophorèse"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Avec cytopénie (Hb < 100 g/L ou plaquettes < 100 ×10⁹/L ou neutros < 1 ×10⁹/L) ou insuffisance rénale de novo ou hypercalcémie"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "> 15 g/L"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "< 15 g/L sans cytopénie (Hb > 100 g/L et plaquettes > 100 ×10⁹/L et neutros > 1 ×10⁹/L)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-hemoglobinopathie-prouvee",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Autres",
+   "probleme": "Hémoglobinopathie prouvée",
+   "synonymes": [
+    "thalassémie",
+    "drépanocytose"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Hb ≤ 100 g/L"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Hb > 100 g/L"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "hemato-ferritine-augmentee-avec-gene-hfe-mute",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Autres",
+   "probleme": "Ferritine augmentée avec gène HFE muté",
+   "synonymes": [
+    "hémochromatose",
+    "fer",
+    "ferritine"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "≥ 1000 mcg/L"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "< 1000 mcg/L"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "HFE : génotype, si homozygote ou double hétérozygote, associé à la présence d'une hémochromatose héréditaire (H63D, C282Y)."
+   ]
+  },
+  {
+   "id": "hemato-hematologie-obstetricale",
+   "formulaire": "AH-760",
+   "specialite": "Hématologie et néoplasie hématologique adulte",
+   "categorie": "Autres",
+   "probleme": "Hématologie obstétricale",
+   "synonymes": [
+    "grossesse",
+    "GARE"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Hématologie obstétricale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Référer à la clinique GARE. Si non disponible, spécifier le lieu planifié de l'accouchement."
+   ]
+  },
+  {
+   "id": "mi-thrombose-veineuse-ou-embolie-pulmonaire-traitee-duree-de",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Thrombose veineuse ou embolie pulmonaire traitée (durée de traitement, récidive et thrombophilie)",
+   "synonymes": [
+    "TVP",
+    "EP",
+    "anticoagulation"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-maladie-arterielle-vasculaire-carotidienne-claudication-i",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Maladie artérielle vasculaire (carotidienne, claudication intermittente, etc.)",
+   "synonymes": [
+    "MVAS",
+    "claudication",
+    "carotide"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-maladie-arterielle-vasculaire-avec-doppler-si-disponible-",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Maladie artérielle vasculaire avec doppler (si disponible dans votre région)",
+   "synonymes": [
+    "doppler",
+    "claudication"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-condition-de-grossesse-evaluation-pre-grossesse-hta-diabe",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Condition de grossesse (évaluation pré-grossesse, HTA, diabète pré existant ou gestationnel, dysthyroïdie, thrombose veineuse, thrombocytopénie, collagénose)",
+   "synonymes": [
+    "grossesse",
+    "GARE",
+    "prééclampsie"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Référer à la clinique GARE si disponible.",
+    "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : Clinique de grossesse à risque élevé (GARE) ou de médecine obstétricale, Centre de diabète, Clinique préopératoire, etc.)."
+   ]
+  },
+  {
+   "id": "mi-evaluation-preoperatoire-ou-pre-intervention",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Évaluation préopératoire ou pré intervention",
+   "synonymes": [
+    "préop",
+    "chirurgie"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Préciser la date et le type d'intervention"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-decouverte-radiologique-nodule-thyroidien-pulmonaire-surr",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Découverte radiologique (nodule thyroïdien, pulmonaire, surrénalien, adénopathie, etc.)",
+   "synonymes": [
+    "incidentalome",
+    "nodule"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-anomalie-de-laboratoire-vs-crp-ck-ana-transaminase-etc",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Anomalie de laboratoire (VS, CRP, CK, ANA, transaminase, etc.)",
+   "synonymes": [
+    "laboratoire"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Rapport de laboratoire ou préciser les valeurs"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-autres-conditions-ex-perte-de-poids-10-deme-peripherique-",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Médecine interne générale",
+   "probleme": "Autres conditions (ex. : perte de poids > 10 %, œdème périphérique, fatigue, syncope, fièvre d'origine inconnue, urticaire-angioedème, diaphorèse nocturne, etc.)",
+   "synonymes": [
+    "perte de poids",
+    "fatigue",
+    "fièvre"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Préciser dans la section « Impr. diagn. »"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-cardiologie-fa-mcas-dyspnee-insuffisance-cardiaque-arythm",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Cardiologie (FA, MCAS, dyspnée, insuffisance cardiaque, arythmie, palpitations, valvulopathie, etc.)",
+   "synonymes": [
+    "cœur",
+    "FA"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-cardiologie-avec-tapis-roulant-si-disponible-dans-votre-r",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Cardiologie avec tapis roulant (si disponible dans votre région)",
+   "synonymes": [
+    "épreuve d'effort",
+    "tapis roulant"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-endocrinologie-diabete-dyslipidemie-dysthyroidie-hypercal",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Endocrinologie (diabète, dyslipidémie, dysthyroïdie, hypercalcémie, etc.)",
+   "synonymes": [
+    "diabète",
+    "thyroïde",
+    "cholestérol"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : Clinique de grossesse à risque élevé (GARE) ou de médecine obstétricale, Centre de diabète, Clinique préopératoire, etc.)."
+   ]
+  },
+  {
+   "id": "mi-gastroenterologie-et-hepatologie-maladie-inflammatoire-di",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Gastroentérologie et hépatologie (maladie inflammatoire, diarrhée, ascite, douleur abdominale, cirrhose, hémochromatose, etc.)",
+   "synonymes": [
+    "foie",
+    "intestin"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-hematologie-anemie-cytopenie-mgus-etc",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Hématologie (anémie, cytopénie, MGUS, etc.)",
+   "synonymes": [
+    "anémie",
+    "MGUS"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-nephrologie-hta-proteinurie-insuffisance-renale-desordre-",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Néphrologie (HTA, protéinurie, insuffisance rénale, désordre électrolytique, etc.)",
+   "synonymes": [
+    "rein",
+    "HTA"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-neurologie-cephalee-avc-ict-paresthesie-vertige-etc",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Neurologie (céphalée, AVC-ICT, paresthésie, vertige, etc.)",
+   "synonymes": [
+    "AVC",
+    "céphalée"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-pneumologie-dyspnee-toux-mpoc-apnee-du-sommeil-etc",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Pneumologie (dyspnée, toux, MPOC, apnée du sommeil, etc.)",
+   "synonymes": [
+    "poumon",
+    "MPOC",
+    "apnée"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "mi-rhumatologie-arthrite-inflammatoire-raynaud-vasculite-pmr",
+   "formulaire": "AH-761",
+   "specialite": "Médecine interne adulte",
+   "categorie": "Champs de pratique (autres spécialités)",
+   "probleme": "Rhumatologie (arthrite inflammatoire, Raynaud, vasculite, PMR, ostéoporose, fibromyalgie, etc.)",
+   "synonymes": [
+    "arthrite",
+    "PMR",
+    "Raynaud"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du diagnostic ou du traitement chez usager stable"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition(s) à investiguer ou non contrôlée(s)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition(s) instable(s) (prérequis : justification nécessaire dans la section « impr. diagn. »)"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Condition(s) semi-urgente(s) (voir la liste des consignes du formulaire)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-gestion-d-infections-urinaires-recidivantes",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Usager non en infection aiguë",
+   "probleme": "Gestion d'infections urinaires récidivantes",
+   "synonymes": [
+    "cystite",
+    "infection urinaire"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Gestion d'infections urinaires récidivantes"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Résultats de cultures d'urine positives et traitements associés"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-gestion-d-infections-recidivantes-a-germes-multi-re",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Usager non en infection aiguë",
+   "probleme": "Gestion d'infections récidivantes à germes multi-résistants (ex. : SARM, ERV, etc.)",
+   "synonymes": [
+    "SARM",
+    "ERV",
+    "résistance"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Gestion d'infections récidivantes à germes multi-résistants (ex. : SARM, ERV, etc.)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-gestion-d-infection-dans-un-contexte-de-multiples-a",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Usager non en infection aiguë",
+   "probleme": "Gestion d'infection dans un contexte de multiples allergies aux antibiotiques",
+   "synonymes": [
+    "allergie",
+    "antibiotique"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Gestion d'infection dans un contexte de multiples allergies aux antibiotiques"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-gestion-d-infections-a-c-difficile-recurrentes",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Usager non en infection aiguë",
+   "probleme": "Gestion d'infections à C. difficile récurrentes",
+   "synonymes": [
+    "C. difficile",
+    "diarrhée"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Gestion d'infections à C. difficile récurrentes"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-vih",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Sérologie positive",
+   "probleme": "VIH",
+   "synonymes": [
+    "VIH",
+    "sida"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Nouvellement diagnostiqué (prérequis : résultat VIH)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Usager connu (prérequis : justifier la raison de consultation et prescrire décompte de CD4 et charge virale)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Résultat VIH (nouvellement diagnostiqué)",
+     "Décompte de CD4 et charge virale, et justifier la raison de consultation (usager connu)"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-hepatite-b-chronique",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Sérologie positive",
+   "probleme": "Hépatite B chronique",
+   "synonymes": [
+    "VHB",
+    "hépatite"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Hépatite B chronique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Justifier et résultat de sérologie"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-hepatite-c",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Sérologie positive",
+   "probleme": "Hépatite C",
+   "synonymes": [
+    "VHC",
+    "hépatite"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Hépatite C"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Justifier et résultat de sérologie"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-syphilis",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Sérologie positive",
+   "probleme": "Syphilis",
+   "synonymes": [
+    "ITSS",
+    "syphilis"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Syphilis"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Résultat de sérologie"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-autres-serologies-ex-toxo",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Sérologie positive",
+   "probleme": "Autres sérologies (ex. : toxo)",
+   "synonymes": [
+    "toxoplasmose",
+    "sérologie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Autres sérologies (ex. : toxo)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Résultat de sérologie"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-herpes-simplex-recidivant",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Autres",
+   "probleme": "Herpes simplex récidivant",
+   "synonymes": [
+    "herpès",
+    "HSV"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Herpes simplex récidivant"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-parasitose-intestinale-confirmee",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Autres",
+   "probleme": "Parasitose intestinale confirmée",
+   "synonymes": [
+    "parasite",
+    "giardia"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Parasitose intestinale confirmée"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Résultat de recherche de parasites"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-infection-non-severe-du-pied-diabetique",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Autres",
+   "probleme": "Infection non sévère du pied diabétique",
+   "synonymes": [
+    "pied diabétique",
+    "plaie",
+    "ulcère"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Infection non sévère du pied diabétique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Pour les plaies chroniques non infectées : référer à vos cliniques de soins de plaies."
+   ]
+  },
+  {
+   "id": "infectio-possibilite-de-maladie-tropicale-sans-atteinte-de-l",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Autres",
+   "probleme": "Possibilité de maladie tropicale sans atteinte de l'état général (excluant la malaria)",
+   "synonymes": [
+    "voyage",
+    "tropical"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Possibilité de maladie tropicale sans atteinte de l'état général (excluant la malaria)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-tb-latente-suspectee-non-active-et-non-contagieuse",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Autres",
+   "probleme": "TB latente suspectée (non active et non contagieuse)",
+   "synonymes": [
+    "tuberculose",
+    "TCT",
+    "IGRA",
+    "Mantoux"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Avec agent immunosuppresseur en cours ou à venir"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Contexte de dépistage"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "infectio-fuo-fievre-d-origine-indeterminee-depuis-14-jours-e",
+   "formulaire": "AH-762",
+   "specialite": "Microbiologie-infectiologie adulte",
+   "categorie": "Autres",
+   "probleme": "FUO (fièvre d'origine indéterminée depuis > 14 jours et bilan infectieux de base négatif incluant hémocultures)",
+   "synonymes": [
+    "fièvre",
+    "FOI"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "FUO (fièvre d'origine indéterminée depuis > 14 jours et bilan infectieux de base négatif incluant hémocultures)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Résultats de laboratoire"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-hemoptysie-persistante",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Hémoptysie persistante",
+   "synonymes": [
+    "crachat de sang",
+    "cancer du poumon"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Hémoptysie persistante"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Utiliser le formulaire d'Accueil clinique si disponible."
+   ]
+  },
+  {
+   "id": "pneumo-nodule-ou-lesion-suspecte-sans-neoplasie-connue",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Nodule ou lésion suspecte sans néoplasie connue",
+   "synonymes": [
+    "nodule pulmonaire",
+    "cancer du poumon",
+    "masse"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "> 15 mm"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "8-15 mm"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport TDM"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Utiliser le formulaire d'Accueil clinique si disponible."
+   ]
+  },
+  {
+   "id": "pneumo-epanchement-pleural-nouveau-unilateral-et-symptomatiq",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Épanchement pleural nouveau, unilatéral et symptomatique",
+   "synonymes": [
+    "épanchement",
+    "plèvre"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Épanchement pleural nouveau, unilatéral et symptomatique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Utiliser le formulaire d'Accueil clinique si disponible."
+   ]
+  },
+  {
+   "id": "pneumo-micronodule-8-mm-evolutif-a-la-tdm-de-suivi",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Micronodule < 8 mm évolutif à la TDM de suivi",
+   "synonymes": [
+    "nodule pulmonaire"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Micronodule < 8 mm évolutif à la TDM de suivi"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-adenopathie-mediastinale-ou-hilaire-1-cm",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Suspicion de néoplasie",
+   "probleme": "Adénopathie médiastinale ou hilaire > 1 cm",
+   "synonymes": [
+    "ganglion",
+    "médiastin"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Adénopathie médiastinale ou hilaire > 1 cm"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-exacerbation-aigue-avec-echec-du-plan-d-action-cortic",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "MPOC / asthme",
+   "probleme": "Exacerbation aiguë avec échec du plan d'action (corticothérapie orale ou antibiothérapie)",
+   "synonymes": [
+    "MPOC",
+    "asthme",
+    "exacerbation"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "MPOC"
+     ]
+    },
+    {
+     "niveau": "B",
+     "criteres": [
+      "Asthme"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Détailler traitement"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-mpoc-asthme-suspecte-ou-reponse-inadequate-au-traitem",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "MPOC / asthme",
+   "probleme": "MPOC/asthme suspecté ou réponse inadéquate au traitement de base",
+   "synonymes": [
+    "MPOC",
+    "asthme",
+    "spirométrie"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "MPOC"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Asthme"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [
+     "Spirométrie si disponible"
+    ],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-readaptation-respiratoire",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "MPOC / asthme",
+   "probleme": "Réadaptation respiratoire",
+   "synonymes": [
+    "MPOC",
+    "réadaptation pulmonaire"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réadaptation respiratoire"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-infiltrat-persistant-ou-lentement-resolutif-1-mois-a-",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Infection respiratoire / toux",
+   "probleme": "Infiltrat persistant ou lentement résolutif (> 1 mois) à la radiographie pulmonaire malgré traitement",
+   "synonymes": [
+    "pneumonie",
+    "infiltrat"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Infiltrat persistant ou lentement résolutif (> 1 mois) à la radiographie pulmonaire malgré traitement"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-bronchiectasies-symptomatiques",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Infection respiratoire / toux",
+   "probleme": "Bronchiectasies symptomatiques",
+   "synonymes": [
+    "bronchiectasie"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Bronchiectasies symptomatiques"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-toux-chronique-8-semaines-avec-radiographie-pulmonair",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Infection respiratoire / toux",
+   "probleme": "Toux chronique (> 8 semaines) avec radiographie pulmonaire normale",
+   "synonymes": [
+    "toux"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Toux chronique (> 8 semaines) avec radiographie pulmonaire normale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-apnee-obstructive-du-sommeil-suspectee-ou-traitee-et-",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Apnée",
+   "probleme": "Apnée obstructive du sommeil suspectée ou traitée ET hypersomnolence diurne sévère OU Epworth ≥ 15 OU index de désaturation (IDO) ≥ 30/h",
+   "synonymes": [
+    "apnée du sommeil",
+    "SAOS",
+    "CPAP",
+    "Epworth"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "AVEC métier à risque (prérequis : justifier)"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "SANS métier à risque"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Justifier (métier à risque)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-apnee-du-sommeil-suspectee-ou-reevaluation-de-traitem",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Apnée",
+   "probleme": "Apnée du sommeil suspectée ou réévaluation de traitement",
+   "synonymes": [
+    "apnée du sommeil",
+    "SAOS",
+    "CPAP"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Apnée du sommeil suspectée ou réévaluation de traitement"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-dyspnee-d-effort-inexpliquee-non-cardiaque-sans-anemi",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Autres",
+   "probleme": "Dyspnée d'effort inexpliquée (non cardiaque, sans anémie avec radiographie pulmonaire normale)",
+   "synonymes": [
+    "essoufflement",
+    "dyspnée"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Dyspnée d'effort inexpliquée (non cardiaque, sans anémie avec radiographie pulmonaire normale)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Justifier dans la section renseignements cliniques"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "pneumo-maladies-pulmonaires-interstitielles-ex-fibrose",
+   "formulaire": "AH-763",
+   "specialite": "Pneumologie adulte",
+   "categorie": "Autres",
+   "probleme": "Maladies pulmonaires interstitielles (ex. : fibrose)",
+   "synonymes": [
+    "fibrose pulmonaire",
+    "interstitielle"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Maladies pulmonaires interstitielles (ex. : fibrose)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport TDM"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "psy-depression-recurrente-ou-refractaire-aux-traitements-a-d",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Dépression récurrente ou réfractaire aux traitements à dose optimale",
+   "synonymes": [
+    "dépression",
+    "antidépresseur"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Bilan de base, TSH"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Histoire pharmacologique"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "psy-trouble-anxieux-refractaire-aux-traitements-a-dose-optim",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Trouble anxieux réfractaire aux traitements à dose optimale",
+   "synonymes": [
+    "anxiété",
+    "TAG",
+    "panique"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Bilan de base, TSH"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Histoire pharmacologique"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "psy-trouble-de-personnalite-refractaire-a-une-approche-psych",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Trouble de personnalité, réfractaire à une approche psychologique d'un intervenant de première ligne",
+   "synonymes": [
+    "personnalité",
+    "borderline"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "psy-troubles-de-comportement-ou-de-l-humeur-associes-a-des-t",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Troubles de comportement ou de l'humeur associés à des troubles cognitifs",
+   "synonymes": [
+    "démence",
+    "SCPD",
+    "cognitif"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [
+     "MOCA ou Folstein (si Folstein normal, 27 ou plus, MOCA obligatoire)"
+    ],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "MOCA : formulaire disponible à www.mocatest.org."
+   ]
+  },
+  {
+   "id": "psy-premier-episode-psychotique-ou-de-manie-psychotique",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Premier épisode psychotique ou de manie psychotique",
+   "synonymes": [
+    "psychose",
+    "manie",
+    "schizophrénie"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Si possible, dosage de cannabis, cocaïne et amphétamines"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "psy-psychose-ou-manie",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Psychose ou manie",
+   "synonymes": [
+    "psychose",
+    "bipolaire",
+    "manie"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Bilan de base, TSH"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Histoire pharmacologique"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "psy-tdah-chez-l-adulte-refractaire-ou-atypique",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "TDAH chez l'adulte réfractaire ou atypique",
+   "synonymes": [
+    "TDAH",
+    "attention"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Questionnaire de dépistage CADDRA"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "CADDRA : formulaires disponibles à www.caddra.ca."
+   ]
+  },
+  {
+   "id": "psy-toxicomanie-en-comorbidite-avec-un-trouble-psychiatrique",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Toxicomanie en comorbidité avec un trouble psychiatrique (préciser la ou les substances)",
+   "synonymes": [
+    "dépendance",
+    "alcool",
+    "drogue",
+    "toxicomanie"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "psy-autre-preciser",
+   "formulaire": "AH-764",
+   "specialite": "Psychiatrie adulte (et guichet d'accès en santé mentale adulte)",
+   "categorie": "Tableau clinique",
+   "probleme": "Autre (préciser)",
+   "synonymes": [
+    "santé mentale"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Trouble grave, instable, avec désorganisation légère et risque de dégradation si traitement retardé"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Rupture fonctionnelle, ne répond pas au traitement ou aux interventions standards"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Fonctionnement stable mais détresse significative, ne répond pas à un traitement ou une intervention standard"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition chronique à optimiser"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-suspicion-d-arthrite-microcristalline-goutte-recidiv",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Arthropathie inflammatoire (excluant arthrose)",
+   "probleme": "Suspicion d'arthrite microcristalline : goutte récidivante malgré traitement standard ou goutte tophacée",
+   "synonymes": [
+    "goutte",
+    "acide urique"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Suspicion d'arthrite microcristalline : goutte récidivante malgré traitement standard ou goutte tophacée"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, CRP, créatinine, acide urique"
+    ],
+    "imagerie": [
+     "RX"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-suspicion-d-arthrite-microcristalline-arthrite-avec-",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Arthropathie inflammatoire (excluant arthrose)",
+   "probleme": "Suspicion d'arthrite microcristalline : arthrite avec suspicion de pseudogoutte ou hydroxyapatite",
+   "synonymes": [
+    "pseudogoutte",
+    "CPPD"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Suspicion d'arthrite microcristalline : arthrite avec suspicion de pseudogoutte ou hydroxyapatite"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, CRP, créatinine, acide urique"
+    ],
+    "imagerie": [
+     "RX"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-suspicion-de-polyarthrite-chronique-4-semaines",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Arthropathie inflammatoire (excluant arthrose)",
+   "probleme": "Suspicion de polyarthrite chronique ≥ 4 semaines",
+   "synonymes": [
+    "polyarthrite rhumatoïde",
+    "PAR",
+    "synovite",
+    "arthrite"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Avec synovites claires ; Facteur rhumatoïde ou anti-CCP ou CRP ≥ 15 ou antécédent de psoriasis ou érosion radiologique : positif"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Avec synovites claires : négatif"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Avec doute de synovites ; Facteur rhumatoïde ou anti-CCP ou CRP ≥ 15 ou antécédent de psoriasis ou érosion radiologique : positif"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Avec doute de synovites : négatif"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, CRP, créatinine, ALT, facteur rhumatoïde, anti-CCP"
+    ],
+    "imagerie": [
+     "RX"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-spondylite-ou-sacroiliite",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Arthropathie inflammatoire (excluant arthrose)",
+   "probleme": "Spondylite ou sacroiliite",
+   "synonymes": [
+    "spondylarthrite",
+    "sacro-iliite",
+    "lombalgie inflammatoire"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Antécédent d'uvéite ou de psoriasis ou de maladie inflammatoire intestinale ou d'ITSS récente ou d'une sacro-iliite à l'imagerie : positif"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Négatif"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "HLA-B27"
+    ],
+    "imagerie": [
+     "RX des sacro-iliaques"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Lombalgie inflammatoire évoluant depuis plus de 3 mois avec début des symptômes < 45 ans, raideur matinale > 1 h, amélioration avec AINS ou activité physique."
+   ]
+  },
+  {
+   "id": "rhumato-polymyalgia-rheumatica-sans-symptome-d-arterite-temp",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Collagénose ou vasculite",
+   "probleme": "Polymyalgia rheumatica sans symptôme d'artérite temporale ≥ 50 ans",
+   "synonymes": [
+    "PMR",
+    "pseudopolyarthrite rhizomélique"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Polymyalgia rheumatica sans symptôme d'artérite temporale ≥ 50 ans"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, VS, CRP"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Polymyalgia rheumatica : douleurs des ceintures scapulaires ou pelviennes débutant après 50 ans avec raideur matinale > 1 h, ↑ VS ou ↑ CRP."
+   ]
+  },
+  {
+   "id": "rhumato-myopathie-inflammatoire-avec-au-moins-2-valeurs-de-c",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Collagénose ou vasculite",
+   "probleme": "Myopathie inflammatoire, avec au moins 2 valeurs de CK ≥ à 1,5 fois la normale",
+   "synonymes": [
+    "myosite",
+    "CK"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Myopathie inflammatoire, avec au moins 2 valeurs de CK ≥ à 1,5 fois la normale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "CK, ANA"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-vasculite-autre-que-l-arterite-temporale-sans-attein",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Collagénose ou vasculite",
+   "probleme": "Vasculite autre que l'artérite temporale sans atteinte sévère d'organe",
+   "synonymes": [
+    "vasculite"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "De novo"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Connue et stable"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, CRP, créatinine, analyse d'urine"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Consulter les alertes cliniques."
+   ]
+  },
+  {
+   "id": "rhumato-collagenose-sans-atteinte-severe-d-organe-de-novo-ou",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Collagénose ou vasculite",
+   "probleme": "Collagénose sans atteinte sévère d'organe de novo ou connue",
+   "synonymes": [
+    "lupus",
+    "Sjögren",
+    "sclérodermie",
+    "ANA"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "ANA ≥ 1/160"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "ANA < 1/160"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, CRP, créatinine, analyse d'urine"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Consulter les alertes cliniques."
+   ]
+  },
+  {
+   "id": "rhumato-phenomene-de-raynaud-isole",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Collagénose ou vasculite",
+   "probleme": "Phénomène de Raynaud isolé",
+   "synonymes": [
+    "Raynaud"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "ANA ≥ 1/160"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "ANA < 1/160"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-osteoporose-secondaire-ou-echec-therapeutique",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Maladie osseuse",
+   "probleme": "Ostéoporose secondaire ou échec thérapeutique",
+   "synonymes": [
+    "ostéoporose",
+    "densitométrie"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Ostéoporose secondaire ou échec thérapeutique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "25(OH) vitamine D"
+    ],
+    "imagerie": [],
+    "examens": [
+     "DMO"
+    ],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Ostéoporose avec échec thérapeutique : nouvelle fracture malgré traitement ≥ 12 mois ; diminution significative de la DMO malgré un traitement approprié."
+   ]
+  },
+  {
+   "id": "rhumato-maladie-de-paget",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Maladie osseuse",
+   "probleme": "Maladie de Paget",
+   "synonymes": [
+    "Paget"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Maladie de Paget"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Phosphatase alcaline"
+    ],
+    "imagerie": [
+     "RX, scintigraphie osseuse"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-fibromyalgie-avec-problematique-diagnostique-et-non-",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Autres",
+   "probleme": "Fibromyalgie avec problématique diagnostique et non thérapeutique",
+   "synonymes": [
+    "fibromyalgie",
+    "douleur diffuse"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Fibromyalgie avec problématique diagnostique et non thérapeutique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, CRP, CK, TSH"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Justifier"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "rhumato-arthrose-invalidante-non-axiale-avec-echec-au-traite",
+   "formulaire": "AH-765",
+   "specialite": "Rhumatologie adulte",
+   "categorie": "Autres",
+   "probleme": "Arthrose invalidante non-axiale avec échec au traitement",
+   "synonymes": [
+    "arthrose"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Arthrose invalidante non-axiale avec échec au traitement"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "RX"
+    ],
+    "examens": [],
+    "autres": [
+     "Justifier"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
   }
  ],
- "a_venir": "16 formulaires APSS restent à transcrire et à vérifier."
+ "a_venir": "7 formulaires APSS restent à transcrire et à vérifier."
 }
