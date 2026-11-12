@@ -152,3 +152,31 @@ body.gm {
 @media (min-width: 1700px) {
   .gm .guides-resource-list { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
+
+/* En-tête plus présent, comme celui de l'accueil de Morand : « MORAND » en capitales à empattements, les onglets plus
+   grands, un filet dessous. */
+.gm-tete { padding-top: 20px; padding-bottom: 0; }
+.gm-tete::after { content: none; }
+.gm .gm-tete { position: relative; }
+.gm-marque { font: 500 15px/1 var(--gm-serif); letter-spacing: 0.32em; color: var(--navy); padding: 14px 0 12px; }
+.gm-onglets a { font-size: 11.5px; letter-spacing: 0.2em; padding: 14px 0 12px; }
+.gm-tete { border-bottom: 1px solid var(--navy); margin-left: max(20px, env(safe-area-inset-left)); margin-right: max(20px, env(safe-area-inset-right)); padding-left: 0; padding-right: 0; max-width: 1060px; }
+.gm-onglets a[aria-current="page"] { box-shadow: inset 0 -2px 0 var(--gm-or); }
+@media (min-width: 720px) {
+  .gm-tete { padding-top: 30px; margin-left: auto; margin-right: auto; width: calc(100% - 80px); }
+  .gm-marque { font-size: 17px; }
+  .gm-onglets { gap: 30px; }
+  .gm-onglets a { font-size: 12.5px; }
+}
+@media (min-width: 1280px) {
+  .gm-tete { max-width: 1400px; width: calc(100% - 2 * var(--gutter)); }
+  .gm-marque { font-size: 19px; }
+  .gm-onglets { gap: 36px; }
+  .gm-onglets a { font-size: 13.5px; }
+}
+@media (max-width: 640px) {
+  .gm-marque { font-size: 14px; letter-spacing: 0.26em; }
+  .gm-onglets { gap: 14px; }
+  .gm-onglets a { font-size: 10.5px; letter-spacing: 0.14em; }
+}
+@media (max-width: 360px) { .gm-marque { font-size: 13px; letter-spacing: 0.2em; } .gm-onglets { gap: 10px; } .gm-onglets a { font-size: 9.5px; letter-spacing: 0.1em; white-space: nowrap; } }
