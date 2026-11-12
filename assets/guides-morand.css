@@ -207,4 +207,6 @@ body.gm {
 .gm-sous a:hover:not([aria-current]) { color: var(--navy); }
 .gm-sous a:focus-visible { outline: 2px solid var(--gm-or); outline-offset: 2px; }
 .gm-sous .guides-onglet-compte { display: none; }
+/* Dans un lien en flex, l'espace au début de « cliniques » (ou « communautaires ») est retirée : on la garde. */
+.gm-sous .gm-long { white-space: pre; }
 @media (max-width: 400px) { .gm-sous a { padding: 0 11px; font-size: 10px; letter-spacing: .1em; } }
