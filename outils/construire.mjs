@@ -72,6 +72,41 @@ carte = versOrigine(nettoyer(carte));
   if (carte === b) throw new Error("Map Morand : en-tête introuvable ; vérifier la page d'origine.");
 }
 carte = faviconMorand(carte, "Map Morand");
+/* Habit de Morand : sceau et nom dans l'en-tête, palette du site à la place de celle de Santé Québec (régions Est, Centre,
+   Ouest en or, cèdre et bronze ; textes en encre ; mode sombre en encre chaude), feuille assets/map-morand.css. */
+{
+  const b = carte;
+  carte = carte.replace(/<span class="logo-img" role="img" aria-label="[^"]*"><\/span>\s*<div class="logo-text">\s*<span class="brand-org">[^<]*<\/span>\s*<strong>[^<]*<\/strong>/,
+    '<img class="mm-sceau" src="/morand/sceau-map.svg" alt="" width="46" height="46">\n  <div class="logo-text">\n    <span class="brand-org">Morand</span>\n    <strong>Map Morand</strong>');
+  if (carte === b) throw new Error("Map Morand : logo de l'en-tête introuvable ; vérifier la page d'origine.");
+  const COULEURS = {
+    "#170a72": "#5e4a2c", "#08a0a0": "#5b7353", "#0080d7": "#8b6921", "#90f1e9": "#e2cf9f", "#7ee6df": "#e2cf9f", "#17a9a8": "#5b7353",
+    "#0f2240": "#17160f", "#1a3558": "#3a362c", "#067a7a": "#4a6044", "#087c7c": "#4a6044", "#082f70": "#4a3a22", "#0065a9": "#7d6230", "#0075c4": "#7d6230", "#2b6caa": "#7d6230",
+    "#a8dcf4": "#eadcb8", "#b8b1df": "#d8ccb8", "#a7dfdc": "#cfd8c8", "#a9d8db": "#cfd8c8", "#ebfbfa": "#f4f1ea", "#eff8fa": "#f6f3ec", "#d7e8ed": "#e6e0d3", "#bfd7df": "#d9d2c2", "#f7fcfd": "#fdfcf8",
+    "#dbeafe": "#f1ece0", "#111629": "#12110d", "#171e34": "#1a1914", "#202943": "#23211b", "#0f1526": "#12110d", "#1a2239": "#1a1914", "#18233a": "#1a1914", "#34435c": "#3a362c",
+  };
+  // Les autres bleus, sarcelles et gris bleutés deviennent des teintes chaudes (même clarté, teinte or, moins saturée).
+  const chaud = (r, g, b) => {
+    const R = r / 255, G = g / 255, B = b / 255, mx = Math.max(R, G, B), mn = Math.min(R, G, B), l = (mx + mn) / 2, d = mx - mn;
+    if (d < 0.02) return null;
+    const sat = d / (1 - Math.abs(2 * l - 1));
+    let h = mx === R ? ((G - B) / d) % 6 : mx === G ? (B - R) / d + 2 : (R - G) / d + 4; h *= 60; if (h < 0) h += 360;
+    if (h < 165 || h > 275) return null;
+    const s2 = Math.min(sat * 0.5, 0.45), c = (1 - Math.abs(2 * l - 1)) * s2, hh = 38 / 60, x = c * (1 - Math.abs((hh % 2) - 1)), m = l - c / 2;
+    return [c + m, x + m, m].map(v => Math.round(v * 255));
+  };
+  const hex = v => "#" + v.map(n => n.toString(16).padStart(2, "0")).join("");
+  carte = carte.replace(/#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b(?![0-9a-fA-F])/g, h => {
+    if (COULEURS[h.toLowerCase()]) return COULEURS[h.toLowerCase()];
+    const t = h.length === 4 ? h.slice(1).split("").map(c => c + c).join("") : h.slice(1);
+    const v = chaud(parseInt(t.slice(0, 2), 16), parseInt(t.slice(2, 4), 16), parseInt(t.slice(4, 6), 16));
+    return v ? hex(v) : h;
+  }).replace(/rgba\(23,\s*10,\s*114,/g, "rgba(94,74,44,").replace(/rgba\(15,\s*34,\s*64,/g, "rgba(23,22,15,").replace(/rgba\(21,\s*31,\s*51,/g, "rgba(26,25,20,")
+    .replace(/rgba?\((\d+),\s*(\d+),\s*(\d+)/g, (tout, r, g, b) => { const v = chaud(+r, +g, +b); return v ? tout.replace(`${r},`, `${v[0]},`).replace(/,\s*\d+,\s*\d+$/, `,${v[1]},${v[2]}`) : tout; });
+  carte = carte.replace(/<meta name="theme-color" content="[^"]*">/, '<meta name="theme-color" content="#f6f3ec">');
+  carte = carte.replace(/<title>[^<]*<\/title>/, "<title>Map Morand : cliniques de la Montérégie</title>");
+  carte = carte.replace("</body>", `<link rel="stylesheet" href="/assets/map-morand.css?v=${empreinte("assets/map-morand.css")}">\n</body>`);
+}
 // L'adresse canonique reste celle de la carte d'origine : les moteurs de recherche ne la voient pas en double.
 ecrire("map/index.html", carte);
 

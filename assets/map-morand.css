@@ -1,0 +1,24 @@
+/* Map Morand : habit de Morand sur la carte (en-tête clair, sceau, polices du site). Les couleurs de la carte
+   (régions, marqueurs, panneaux) sont remplacées dans la page par outils/construire.mjs (palette or, cèdre, bronze). */
+@font-face { font-family: "Inter"; src: url("/morand/inter.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Newsreader"; src: url("/morand/newsreader.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
+:root { --sq-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; --cream: #f6f3ec; }
+body { font-family: var(--sq-font); }
+
+/* En-tête : papier, filet d'encre, sceau de la carte, « MORAND » et « Map Morand ». */
+header, :root[data-region] header { background: #f6f3ec !important; box-shadow: none !important; border-bottom: 1px solid #17160f !important; }
+header::after, :root[data-region] header::after { display: none !important; }
+.mm-sceau { width: 46px; height: 46px; display: block; flex-shrink: 0; }
+.logo-text { color: #17160f !important; }
+.logo-text .brand-org { font: 500 11px/1 "Newsreader", Georgia, serif !important; letter-spacing: .32em !important; color: #9b7a3e !important; text-transform: uppercase; }
+.logo-text strong { font: 400 1.45rem/1.1 "Newsreader", Georgia, serif !important; letter-spacing: -.005em; color: #17160f !important; }
+.btn-share, .btn-theme, .btn-info { border-color: #d9d2c2 !important; color: #17160f !important; background: transparent !important; }
+.btn-share:hover, .btn-theme:hover, .btn-info:hover, .btn-info[aria-expanded="true"] { border-color: #9b7a3e !important; background: #f1ece0 !important; }
+
+/* Mode sombre : même habit, en encre chaude. */
+:root[data-theme="sombre"] header { background: #12110d !important; border-bottom-color: #8f7a52 !important; }
+:root[data-theme="sombre"] .logo-text strong { color: #efe9dc !important; }
+:root[data-theme="sombre"] .logo-text .brand-org { color: #c9a35c !important; }
+:root[data-theme="sombre"] .btn-share, :root[data-theme="sombre"] .btn-theme, :root[data-theme="sombre"] .btn-info { border-color: #3a362c !important; color: #efe9dc !important; }
+:root[data-theme="sombre"] .btn-share:hover, :root[data-theme="sombre"] .btn-theme:hover, :root[data-theme="sombre"] .btn-info:hover { background: #23211b !important; border-color: #c9a35c !important; }
+@media (max-width: 480px) { .mm-sceau { width: 38px; height: 38px; } .logo-text strong { font-size: 1.2rem !important; } .logo-text .brand-org { font-size: 9.5px !important; } }
