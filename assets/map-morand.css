@@ -44,3 +44,11 @@ header { padding-left: 26px !important; gap: 26px !important; }
 @media (max-width: 360px) { header { gap: 8px !important; padding-left: 10px !important; } .mo-outils { gap: 8px; } .mo-outils a { font-size: 9px; letter-spacing: .06em; } .header-right { gap: 4px !important; } }
 /* Mode sombre : l'onglet actif (Cliniques / Établissements) en or, pour qu'il se distingue du fond. */
 :root[data-theme="sombre"] .care-mode-btn[aria-selected="true"] { background: #c9a35c !important; color: #12110d !important; }
+/* En-tête comme les autres pages : MORAND à gauche, les outils à droite, sans les boutons partager, mode nuit et info. */
+header .header-right { display: none !important; }
+.mo-outils { margin-left: auto; padding-right: 26px; }
+@media (max-width: 760px) { .mo-outils { padding-right: 14px; } }
+@media (max-width: 360px) { .mo-outils { padding-right: 10px; } }
+/* Sans les boutons, « MORAND » tient aussi sur téléphone, comme dans le Guide. */
+@media (max-width: 760px) { .mo-marque { width: auto; height: auto; padding: 14px 0 12px; background: none; border-radius: 0; font-size: 14px; letter-spacing: .26em; } }
+@media (max-width: 360px) { .mo-marque { font-size: 13px; letter-spacing: .2em; } }
