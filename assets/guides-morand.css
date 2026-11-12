@@ -182,3 +182,20 @@ body.gm {
 @media (max-width: 360px) { .gm-marque { font-size: 13px; letter-spacing: 0.2em; } .gm-onglets { gap: 10px; } .gm-onglets a { font-size: 9.5px; letter-spacing: 0.1em; white-space: nowrap; } }
 /* Trois onglets (avec CRDS) : « cliniques » et « communautaires » s'effacent sur téléphone. */
 @media (max-width: 640px) { .gm-long { display: none; } }
+/* Fiches de CRDS Morand dans les résultats de recherche des guides. */
+.gm .gm-crds { padding-top: 18px; padding-bottom: 6px; background: none; }
+.gm .gm-crds h2 { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.gm-crds-mention { font: 500 10px/1 "Inter", system-ui, sans-serif; letter-spacing: .2em; text-transform: uppercase; color: var(--gm-or); }
+.gm-crds-liste { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 8px; }
+.gm-crds-liste a { display: grid; grid-template-columns: 44px 1fr; grid-template-areas: "prio titre" "prio sous"; column-gap: 12px; align-items: center; min-height: 56px;
+  padding: 10px 14px; border: 1px solid var(--gm-filet); border-radius: 14px; background: #fff; color: var(--navy); text-decoration: none; }
+.gm-crds-liste a:hover { border-color: var(--gm-or); }
+.gm-crds-liste a:focus-visible { outline: 2px solid var(--gm-or); outline-offset: 2px; }
+.gm-crds-prio { grid-area: prio; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: var(--gm-beige); color: #7d6230; font: 400 1.05rem/1 var(--gm-serif); }
+.gm-crds-prio[data-niveau="A"], .gm-crds-prio[data-niveau="B"] { background: #f8ebe4; color: #a2401f; }
+.gm-crds-prio[data-niveau="AC"] { background: var(--gm-or); color: #fff; font-size: .9rem; }
+.gm-crds-titre { grid-area: titre; font: 400 1.02rem/1.25 var(--gm-serif); }
+.gm-crds-sous { grid-area: sous; margin-top: 2px; font: 500 10px/1.3 "Inter", system-ui, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--gm-discret); }
+.gm-crds-tout { display: inline-block; margin-top: 10px; padding: 10px 0; font: 600 .86rem/1.3 "Inter", system-ui, sans-serif; color: #7d6230; }
+@media (min-width: 760px) { .gm-crds-liste { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1280px) { .gm-crds-liste { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

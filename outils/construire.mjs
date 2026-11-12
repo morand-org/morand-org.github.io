@@ -18,6 +18,7 @@ const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..
 // Version de la feuille de Guide Morand dans son adresse : le service worker des guides garde les fichiers en cache ;
 // une adresse nouvelle à chaque changement fait charger la bonne version tout de suite.
 const VERSION_STYLE = crypto.createHash("sha256").update(fs.readFileSync(path.join(RACINE, "assets/guides-morand.css"))).digest("hex").slice(0, 10);
+const empreinte = f => crypto.createHash("sha256").update(fs.readFileSync(path.join(RACINE, f))).digest("hex").slice(0, 10);
 const ORIGINE = "https://trouvetaclinique.ca";
 const ADRESSE_IA = "";   // ex. « https://ia.morand.org/ » une fois le service déplacé
 const motifs = fichierMotifs ? fs.readFileSync(fichierMotifs, "utf8").split("\n").map(x => x.trim()).filter(x => x.length >= 4) : [];
@@ -135,6 +136,14 @@ function habiller(t, pageGuides) {
   t = remplacer(t, /(<\/div>\s*)(<p class="guides-status")/, "$1</details>\n    $2", "fin des filtres");
   if (pageGuides) t = remplacer(t, 'placeholder="Sujet, organisme ou mot-clé…"', 'placeholder="Rechercher par mot-clé…"', "texte du champ");
   t = remplacer(t, /\s*<p class="guides-favoris-note">Vos favoris sont gardés[^<]*<\/p>/, "", "note des favoris");
+  // Guides cliniques : les fiches de CRDS Morand qui correspondent à la recherche, avant les résultats des guides.
+  if (pageGuides) {
+    t = remplacer(t, '<section class="guides-band guides-resultats"',
+      '<section class="guides-band gm-crds" id="gm-crds" aria-labelledby="gm-crds-titre" hidden>' +
+      '<div class="guides-category-heading"><h2 id="gm-crds-titre">CRDS Morand <span class="gm-crds-mention">priorité et prérequis</span></h2><span class="compte"></span></div>' +
+      '<ul class="gm-crds-liste"></ul><a class="gm-crds-tout" href="/crds/" hidden></a></section>\n  <section class="guides-band guides-resultats"', "résultats CRDS");
+    t = remplacer(t, /(<script src="\/assets\/guides-recherche\.js[^"]*"[^>]*><\/script>)/, `$1\n<script src="/assets/guides-crds.js?v=${empreinte("assets/guides-crds.js")}" defer></script>`, "script CRDS");
+  }
   t = remplacer(t, '<body class="guides-page"', '<body class="guides-page gm"', "corps de page");
   t = remplacer(t, /(<title>[^<]*?)\s*\|\s*Trouve ta clinique<\/title>/, "$1 | Guide Morand</title>", "titre de la page");
   t = remplacer(t, '<meta name="theme-color" content="#08A0A0">', '<meta name="theme-color" content="#fdfcf8">', "couleur du navigateur");

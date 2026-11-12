@@ -75,7 +75,7 @@
     }
     const so = Object.entries(p.prerequis_souhaitables).flatMap(([t, l]) => l.map(x => [t, x]));
     if (so.length) {
-      const s2 = el("div", "cr-bloc cr-souhaitables"); s2.appendChild(el("h4", null, "Souhaitable, de préférence"));
+      const s2 = el("div", "cr-bloc cr-souhaitables"); s2.appendChild(el("h4", null, "Souhaitable"));
       const l = el("ul"); so.forEach(([t, x]) => { const li = el("li"); if (TYPES[t]) li.appendChild(el("span", "cr-type", TYPES[t])); li.appendChild(document.createTextNode(x)); l.appendChild(li); });
       s2.appendChild(l); c.appendChild(s2);
     }
@@ -138,7 +138,7 @@
 
   function rendre() {
     if (!D) return;
-    const mots = sansAccents(q.value.trim()).split(/[^a-z0-9<>≤≥]+/).filter(Boolean);
+    const mots = sansAccents(q.value.trim()).split(/[^a-z0-9]+/).filter(Boolean);
     zone.textContent = ""; urgence.textContent = ""; urgence.hidden = true;
     if (!mots.length) {
       specialites(); if (D.accueil_clinique) panneauAccueil(); vide.hidden = true;
