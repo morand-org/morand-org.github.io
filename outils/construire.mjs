@@ -48,7 +48,7 @@ function nettoyer(html) {
   return t;
 }
 // Liens absolus du site d'origine : vers trouvetaclinique.ca, sauf ce qui est copié ici (/guides/, /assets/, accueil).
-const GARDES = /^\/(guides\/|assets\/|morand\/|favicon-\d+\.png|$)/;
+const GARDES = /^\/(guides\/|assets\/|morand\/|crds\/|favicon-\d+\.png|$)/;
 const versOrigine = html => html.replace(/(href|src)="(\/[^"]*)"/g, (tout, att, p) => GARDES.test(p) ? tout : `${att}="${ORIGINE}${p}"`);
 
 // ---------- Map Morand : la carte interactive de la Montérégie (/monteregie/) ----------
@@ -117,7 +117,9 @@ function habiller(t, pageGuides) {
   const nav = t.match(/\s*<nav class="guides-band guides-onglets" aria-label="Catalogue">([\s\S]*?)<\/nav>/);
   if (!nav) throw new Error("Guide Morand : « onglets » introuvables ; vérifier la page d'origine.");
   t = t.replace(nav[0], "");
-  const onglets = nav[1].replace("Ressources communautaires", 'Ressources<span class="gm-long"> communautaires</span>');
+  // Trois onglets : Guides cliniques, Ressources communautaires et CRDS Morand (page à part, /crds/).
+  const onglets = nav[1].replace("Ressources communautaires", 'Ressources<span class="gm-long"> communautaires</span>')
+    .replace(/Guides cliniques(\s*<span class="guides-onglet-compte">)/, 'Guides<span class="gm-long"> cliniques</span>$1') + '<a href="/crds/">CRDS</a>';
   t = remplacer(t, /<header class="site">[\s\S]*?<\/header>/,
     `<header class="gm-tete"><a class="gm-marque" href="/">Morand</a><nav class="gm-onglets" aria-label="Catalogue">${onglets}</nav></header>`, "en-tête");
   const lead = (t.match(/<section class="guides-band guides-intro">[\s\S]*?(<p class="lead">[\s\S]*?<\/p>)/) || [])[1] || "";

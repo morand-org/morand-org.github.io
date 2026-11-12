@@ -88,11 +88,12 @@ h1 em { color: var(--or); }
   main > .outils { grid-column: 1 / -1; }
   /* Le bouton centré sur la dernière ligne du titre (« pour la pratique. »), aligné à droite sur le filet. */
   .installer-ligne { grid-column: 2; grid-row: 1; align-self: end; margin: 0 0 calc(var(--marge-titre) + (var(--taille-titre) * 1.04 - 44px) / 2); }
-  .outils a { grid-template-columns: 64px minmax(0, 1fr) clamp(96px, 13vh, 132px); column-gap: 32px; padding: clamp(10px, 2vh, 28px) 0; }
+  /* Quatre outils : sceaux et rangées réglés sur la hauteur, pour que tout tienne sans défiler. */
+  .outils a { grid-template-columns: 64px minmax(0, 1fr) clamp(72px, 9vh, 124px); column-gap: 32px; padding: clamp(8px, 1.4vh, 24px) 0; }
   .no { font-size: 20px; }
-  .nom { font-size: clamp(2.2rem, 4.6vh, 2.8rem); }
+  .nom { font-size: clamp(2rem, 3.9vh, 2.6rem); }
   .desc { margin-top: 10px; font-size: 1.02rem; }
-  .outils img { width: clamp(96px, 13vh, 132px); height: clamp(96px, 13vh, 132px); }
+  .outils img { width: clamp(72px, 9vh, 124px); height: clamp(72px, 9vh, 124px); }
   .pied { padding-top: clamp(8px, 1.8vh, 28px); font-size: 11px; }
 }
 

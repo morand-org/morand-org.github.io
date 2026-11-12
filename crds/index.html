@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>CRDS Morand : critères et prérequis des demandes au CRDS</title>
+<meta name="description" content="Trouvez en un instant la priorité, les critères et les prérequis des formulaires de l'APSS pour diriger une demande au CRDS.">
+<meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
+<link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
+<link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/crds/crds.css">
+</head>
+<body>
+<a class="saut" href="#cr-q">Aller à la recherche</a>
+<header class="cr-tete">
+  <a class="cr-marque" href="/">Morand</a>
+  <nav class="cr-onglets" aria-label="Guide Morand">
+    <a href="/guides/">Guides<span class="cr-long"> cliniques</span></a>
+    <a href="/guides/ressources-communautaires/">Ressources<span class="cr-long"> communautaires</span></a>
+    <a href="/crds/" aria-current="page">CRDS</a>
+  </nav>
+</header>
+<main>
+  <section class="cr-intro">
+    <a class="cr-logo" href="/crds/" tabindex="-1" aria-hidden="true"><img src="/morand/sceau-crds.svg" alt="" width="128" height="128"></a>
+    <h1><a class="cr-nom" href="/crds/">CRDS Morand</a><span class="cache"> : critères et prérequis des demandes au CRDS</span></h1>
+    <p class="cr-devise">Triage · Accès · Spécialité</p>
+    <p class="cr-lead">La priorité, les critères et les prérequis de chaque raison de consultation des formulaires de l'APSS.</p>
+  </section>
+
+  <div class="cr-recherche" role="search">
+    <label for="cr-q" class="cache">Chercher une spécialité ou un problème</label>
+    <svg class="cr-loupe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+    <input id="cr-q" type="search" placeholder="Spécialité ou problème : cardiologie, FA, syncope…" autocomplete="off" spellcheck="false" enterkeyhint="search">
+    <kbd class="cr-raccourci" id="cr-raccourci" hidden></kbd>
+  </div>
+  <p class="cr-etat" id="cr-etat" aria-live="polite"></p>
+
+  <div class="cr-urgence" id="cr-urgence" hidden></div>
+  <div class="cr-resultats" id="cr-resultats"></div>
+  <p class="cr-vide" id="cr-vide" hidden>Aucune raison de consultation ne correspond. Essayez un autre mot, ou le nom de la spécialité.</p>
+
+  <section class="cr-sources" aria-labelledby="cr-sources-titre">
+    <h2 id="cr-sources-titre">Sources et limites</h2>
+    <div id="cr-formulaires"></div>
+    <details class="cr-region">
+      <summary>Consignes du CRDS de la Montérégie</summary>
+      <ul id="cr-consignes"></ul>
+      <p class="cr-petit">Source : <a id="cr-region-source" href="https://www.crdsmonteregie.com/medecins-omnipraticiens/" rel="noopener">CRDS de la Montérégie, page Médecins omnipraticiens</a>.</p>
+    </details>
+    <p class="cr-petit" id="cr-a-venir"></p>
+    <p class="cr-petit">Outil d'aide à la recherche : il ne remplace ni le formulaire officiel ni votre jugement clinique. Les mots de recherche (FA, IC, DRS…) aident à trouver ; seuls les libellés des formulaires font foi.</p>
+  </section>
+</main>
+<footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
+<script src="/crds/crds.js"></script>
+</body>
+</html>

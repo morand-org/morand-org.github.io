@@ -1,7 +1,7 @@
 {
   "name": "Morand",
   "short_name": "Morand",
-  "description": "Les outils du médecin de famille, réunis : Wealth Morand, Guide Morand et Map Morand.",
+  "description": "Les outils du médecin de famille, réunis : Wealth Morand, Guide Morand, Map Morand et CRDS Morand.",
   "lang": "fr-CA",
   "id": "/",
   "start_url": "/",
@@ -70,6 +70,19 @@
       "icons": [
         {
           "src": "/morand/raccourci-map.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "CRDS Morand",
+      "short_name": "CRDS",
+      "description": "Critères et prérequis des demandes au CRDS",
+      "url": "/crds/",
+      "icons": [
+        {
+          "src": "/morand/raccourci-crds.png",
           "sizes": "192x192",
           "type": "image/png"
         }

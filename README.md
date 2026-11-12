@@ -9,6 +9,7 @@ Site statique des outils du médecin de famille, servi par GitHub Pages à www.m
 | `/wealth/` | Wealth Morand | dépôt `wealth` de la même organisation (GitHub Pages de projet) |
 | `/guides/` | Guide Morand : catalogue de guides cliniques | copie construite depuis Trouve ta clinique |
 | `/map/` | Map Morand : carte interactive de la Montérégie | copie construite depuis Trouve ta clinique |
+| `/crds/` | CRDS Morand : priorité, critères et prérequis des formulaires de l'APSS (`crds/crds_data.json`, recherche instantanée) | écrit ici ; chaque formulaire transcrit est vérifié contre le PDF du MSSS |
 
 ## Mettre à jour la carte et les guides
 

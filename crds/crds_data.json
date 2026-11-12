@@ -1,0 +1,716 @@
+{
+ "schema": {
+  "version": 1,
+  "description": "Un problème = une raison de consultation d'un formulaire APSS, avec sa priorité (A à E), ses critères, ses prérequis obligatoires et souhaitables, et la source exacte. Les « synonymes » servent seulement à la recherche : ce ne sont pas des libellés officiels.",
+  "champs_probleme": [
+   "id",
+   "formulaire",
+   "specialite",
+   "categorie",
+   "probleme",
+   "libelle_formulaire (facultatif)",
+   "synonymes",
+   "priorites[{niveau, criteres}]",
+   "prerequis_obligatoires{laboratoires, imagerie, examens, autres}",
+   "prerequis_souhaitables{…}",
+   "orientation",
+   "exclusions_urgence (facultatif)"
+  ]
+ },
+ "echelle_priorite": {
+  "A": "≤ 3 jours",
+  "B": "≤ 10 jours",
+  "C": "≤ 28 jours",
+  "D": "≤ 3 mois",
+  "E": "≤ 12 mois"
+ },
+ "region": {
+  "nom": "Montérégie",
+  "source": "https://www.crdsmonteregie.com/medecins-omnipraticiens/",
+  "consignes": [
+   "Une seule raison de consultation par demande ; ajouter l'information utile dans « Renseignements cliniques ».",
+   "Justifier cliniquement tout changement de priorité.",
+   "Les demandes « Autre » sont révisées par le médecin répondant de la spécialité.",
+   "Indiquer si les prérequis sont demandés ou faits, et s'ils sont disponibles dans le DSQ.",
+   "L'accueil clinique demeure le lieu de référence prioritaire pour les conditions qu'il couvre.",
+   "Depuis le 31 mars 2024, seules les demandes transmises par le DMÉ ou SAFIR Web sont acceptées (Québec.ca)."
+  ]
+ },
+ "formulaires": [
+  {
+   "id": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "code_barre": "DT9282",
+   "revision": "2018-06",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et à la gestion des effectifs médicaux",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/36e747f5dc7d0d6585256e1a006ba727/0973ed3d3eb5f9df8525831c004edbbb?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Utiliser ce formulaire seulement pour une nouvelle consultation ; sinon, l'usager s'adresse au secrétariat de son cardiologue."
+   ],
+   "alertes_urgence": [
+    "Syndrome coronarien aigu suspecté, angine de repos",
+    "Insuffisance cardiaque décompensée",
+    "Fibrillation auriculaire rapide ≥ 110 bpm au repos ou mal tolérée",
+    "Syncope brutale (sans prodrome)",
+    "Bradycardie symptomatique avec FC < 40 bpm ou pauses diurnes > 3 secondes documentées"
+   ]
+  }
+ ],
+ "a_venir": "Les 25 autres formulaires APSS (AH-745 à AH-772) sont à transcrire et à vérifier un par un.",
+ "problemes": [
+  {
+   "id": "cardio-angine-severe",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "DRS / angine",
+   "probleme": "Angine d'effort sévère (CCS 3/4) stable",
+   "synonymes": [
+    "angine",
+    "douleur thoracique",
+    "DRS",
+    "CCS"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Angine d'effort sévère (CCS 3/4) stable"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Utiliser le formulaire d'Accueil clinique si disponible et selon l'état de l'usager."
+   ]
+  },
+  {
+   "id": "cardio-drs-atypique-fr",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "DRS / angine",
+   "probleme": "DRS atypique avec facteurs de risque",
+   "synonymes": [
+    "douleur rétrosternale",
+    "douleur thoracique",
+    "DRS"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "DRS atypique avec facteurs de risque"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Utiliser le formulaire d'Accueil clinique si disponible et selon l'état de l'usager."
+   ]
+  },
+  {
+   "id": "cardio-drs-typique",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "DRS / angine",
+   "probleme": "DRS typique évoluant depuis > 1 mois ou angine d'effort (CCS ≤ 2/4) stable",
+   "synonymes": [
+    "douleur rétrosternale",
+    "angine",
+    "DRS",
+    "CCS"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "DRS typique évoluant depuis > 1 mois ou angine d'effort (CCS ≤ 2/4) stable"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Utiliser le formulaire d'Accueil clinique si disponible et selon l'état de l'usager."
+   ]
+  },
+  {
+   "id": "cardio-drs-atypique-sans-fr",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "DRS / angine",
+   "probleme": "DRS atypique sans facteur de risque",
+   "synonymes": [
+    "douleur rétrosternale",
+    "douleur thoracique",
+    "DRS"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "DRS atypique sans facteur de risque"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-post-im-moins-1an",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "MCAS",
+   "probleme": "Suivi post infarctus de moins d'un an",
+   "synonymes": [
+    "infarctus",
+    "IM",
+    "IDM",
+    "coronarien",
+    "MCAS"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Suivi post infarctus de moins d'un an"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-post-im-plus-1an",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "MCAS",
+   "probleme": "Suivi post infarctus de plus d'un an",
+   "synonymes": [
+    "infarctus",
+    "IM",
+    "IDM",
+    "coronarien",
+    "MCAS"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Suivi post infarctus de plus d'un an"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-mcas-stable",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "MCAS",
+   "probleme": "MCAS sans événement récent",
+   "synonymes": [
+    "maladie coronarienne",
+    "coronarien",
+    "MCAS"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "MCAS sans événement récent"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-dyspnee-novo-marquee",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Dyspnée / insuffisance cardiaque",
+   "probleme": "Dyspnée d'effort de novo marquée (NYHA = 3/4) ou connue avec détérioration récente",
+   "synonymes": [
+    "dyspnée",
+    "essoufflement",
+    "NYHA",
+    "insuffisance cardiaque",
+    "IC"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Dyspnée d'effort de novo marquée (NYHA = 3/4) ou connue avec détérioration récente"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-dysfonction-vg",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Dyspnée / insuffisance cardiaque",
+   "probleme": "Dysfonction ventriculaire de novo (fraction éjection < 50 % si connue)",
+   "synonymes": [
+    "FEVG",
+    "fraction d'éjection",
+    "insuffisance cardiaque",
+    "IC"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Dysfonction ventriculaire de novo (fraction éjection < 50 % si connue)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-dyspnee-inexpliquee",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Dyspnée / insuffisance cardiaque",
+   "probleme": "Dyspnée d'effort inexpliquée",
+   "synonymes": [
+    "dyspnée",
+    "essoufflement"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Dyspnée d'effort inexpliquée"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-suivi-ic",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Dyspnée / insuffisance cardiaque",
+   "probleme": "Suivi d'insuffisance cardiaque",
+   "synonymes": [
+    "insuffisance cardiaque",
+    "IC"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Suivi d'insuffisance cardiaque"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-bradycardie",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Troubles du rythme",
+   "probleme": "Bradycardie asymptomatique avec FC < 40 bpm ou pauses diurnes > 3 secondes documentées",
+   "synonymes": [
+    "bradycardie",
+    "pause",
+    "arythmie"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Bradycardie asymptomatique avec FC < 40 bpm ou pauses diurnes > 3 secondes documentées"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-fa-de-novo",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Troubles du rythme",
+   "probleme": "Fibrillation auriculaire de novo, FC < 110 bpm au repos",
+   "libelle_formulaire": "FA de novo FC < 110 bpm au repos",
+   "synonymes": [
+    "FA",
+    "fibrillation auriculaire",
+    "arythmie",
+    "anticoagulation"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "FA de novo",
+      "FC < 110 bpm au repos"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Débuter l'anticoagulothérapie si indiqué"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Utiliser le formulaire d'Accueil clinique si disponible et selon l'état de l'usager."
+   ],
+   "exclusions_urgence": [
+    "Fibrillation auriculaire rapide ≥ 110 bpm au repos ou mal tolérée : diriger l'usager à l'urgence."
+   ]
+  },
+  {
+   "id": "cardio-tsv",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Troubles du rythme",
+   "probleme": "TSV ou suspicion de TSV",
+   "synonymes": [
+    "tachycardie supraventriculaire",
+    "TSV",
+    "palpitations",
+    "arythmie"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "TSV ou suspicion de TSV"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-palpitations",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Troubles du rythme",
+   "probleme": "Palpitations d'allure bénigne",
+   "synonymes": [
+    "palpitations",
+    "arythmie"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Palpitations d'allure bénigne"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [
+     "Holter"
+    ],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-syncope-cardiopathie",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Syncope",
+   "probleme": "Syncope avec cardiopathie",
+   "synonymes": [
+    "syncope",
+    "perte de conscience"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Syncope avec cardiopathie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-syncope-sans",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Syncope",
+   "probleme": "Syncope sans cardiopathie",
+   "synonymes": [
+    "syncope",
+    "perte de conscience"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Syncope sans cardiopathie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-valvulopathie-severe",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Valvulopathie",
+   "probleme": "Valvulopathie aortique ou mitrale sévère",
+   "synonymes": [
+    "sténose aortique",
+    "insuffisance mitrale",
+    "valve",
+    "valvulopathie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Valvulopathie aortique ou mitrale sévère"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "cardio-souffle",
+   "formulaire": "AH-749",
+   "specialite": "Cardiologie adulte",
+   "categorie": "Valvulopathie",
+   "probleme": "Souffle cardiaque non investigué ou pathologie valvulaire non sévère",
+   "synonymes": [
+    "souffle",
+    "valve",
+    "valvulopathie"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Souffle cardiaque non investigué ou pathologie valvulaire non sévère"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  }
+ ]
+}

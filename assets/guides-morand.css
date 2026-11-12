@@ -180,3 +180,5 @@ body.gm {
   .gm-onglets a { font-size: 10.5px; letter-spacing: 0.14em; }
 }
 @media (max-width: 360px) { .gm-marque { font-size: 13px; letter-spacing: 0.2em; } .gm-onglets { gap: 10px; } .gm-onglets a { font-size: 9.5px; letter-spacing: 0.1em; white-space: nowrap; } }
+/* Trois onglets (avec CRDS) : « cliniques » et « communautaires » s'effacent sur téléphone. */
+@media (max-width: 640px) { .gm-long { display: none; } }
