@@ -118,3 +118,17 @@ h1 em { color: var(--or); }
 .texte h1 { font-size: clamp(2rem, 8vw, 2.8rem); margin: 36px 0 18px; }
 .texte h2 { font: 400 1.35rem/1.2 var(--police-titre); margin: 30px 0 8px; padding-top: 14px; border-top: 1px solid var(--filet); }
 .texte p, .texte li { color: var(--encre-2); font-size: 0.95rem; }
+
+/* Écran d'ouverture (une fois par session) : le papier couvre la page, le sceau au centre. Sécurité : le voile
+   s'efface seul après 3,5 s si le script ne l'a pas fait. */
+html.avec-ouverture body::after { content: ""; position: fixed; inset: 0; z-index: 90; background: var(--papier); animation: ouv-voile .4s ease 3.5s forwards; }
+@keyframes ouv-voile { to { opacity: 0; visibility: hidden; } }
+.ouverture { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; background: var(--papier); transition: opacity .4s ease; }
+.ouverture.sort { opacity: 0; }
+.ouv-sceau { position: relative; width: min(56vw, 240px); aspect-ratio: 1; opacity: 0; }
+.ouverture.joue .ouv-sceau { animation: ouv-sceau .35s cubic-bezier(.2, .7, .2, 1) forwards; }
+@keyframes ouv-sceau { from { opacity: 0; transform: scale(.92); } to { opacity: 1; transform: none; } }
+.ouv-sceau img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.ouv-sceau img[hidden] { display: none; }
+@media (min-width: 1000px) { .ouv-sceau { width: 280px; } }
+@media (prefers-reduced-motion: reduce) { .ouverture.joue .ouv-sceau { animation: none; opacity: 1; } }
