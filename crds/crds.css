@@ -182,3 +182,18 @@ main { flex: 1 0 auto; }
 .cr-alerte[open] > summary::after { content: "–"; }
 .cr-alerte[open] > summary { margin-bottom: 6px; }
 .cr-alerte > summary:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; border-radius: 4px; }
+/* Accueil clinique : pastille sur les raisons concernées, cartes AC, panneau sous les spécialités. */
+.cr-ac-pastille { display: inline-block; margin: 8px 0 0; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--or); color: var(--or-texte);
+  font: 600 10px/1.3 var(--sans); letter-spacing: 0.1em; text-transform: uppercase; }
+.cr-carte-ac { border-color: var(--or); background: color-mix(in srgb, var(--beige) 55%, var(--carte)); }
+.cr-prio-ac { background: var(--or); }
+.cr-prio-ac b, .cr-prio-ac span { color: var(--papier); }
+.cr-ac-texte { margin: 0; font-size: 0.92rem; color: var(--encre-2); }
+.cr-ac-panneau { grid-column: 1 / -1; margin-top: 26px; padding: 20px 22px; border: 1px solid var(--or); border-radius: 18px; background: var(--carte); }
+.cr-ac-panneau h2 { margin: 0 0 8px; font: 400 1.4rem/1.2 var(--serif); }
+.cr-ac-panneau h3 { margin: 16px 0 8px; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--discret); }
+.cr-ac-puces { display: flex; flex-wrap: wrap; gap: 8px; }
+.cr-ac-puce { min-height: 40px; padding: 8px 14px; border: 1px solid var(--filet); border-radius: 999px; background: var(--papier); color: var(--encre); font: 500 0.88rem/1.3 var(--sans); cursor: pointer; text-align: left; }
+.cr-ac-puce:hover { border-color: var(--or); }
+.cr-ac-puce:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+.cr-ac-liste { margin: 0; padding-left: 1.1em; font-size: 0.92rem; color: var(--encre-2); }

@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { ACCUEIL_CLINIQUE } from "./accueil-clinique.mjs";
 const ICI = path.dirname(fileURLToPath(import.meta.url)), RACINE = path.resolve(ICI, "../..");
 const fichiers = fs.readdirSync(path.join(ICI, "formulaires")).filter(f => /^AH-\d{3}\.mjs$/.test(f)).sort();
 const formulaires = [], problemes = [];
@@ -26,6 +27,7 @@ const data = {
     "L'accueil clinique demeure le lieu de référence prioritaire pour les conditions qu'il couvre.",
     "Les formulaires AH-702 en gastroentérologie sont acheminés directement en endoscopie.",
     "Depuis le 31 mars 2024, seules les demandes transmises par le DMÉ ou SAFIR Web sont acceptées (Québec.ca)."] },
+  accueil_clinique: ACCUEIL_CLINIQUE,
   formulaires, problemes,
   a_venir: formulaires.length < 26 ? `${26 - formulaires.length} formulaires APSS restent à transcrire et à vérifier.` : "",
 };

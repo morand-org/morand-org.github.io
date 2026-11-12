@@ -53,6 +53,8 @@
     const tete = el("div", "cr-carte-tete"), gauche = el("div");
     const sur = el("p", "cr-sur"); surligner(sur, `${p.specialite} · ${p.categorie}`, mots); gauche.appendChild(sur);
     const h = el("h3"); surligner(h, p.probleme, mots); gauche.appendChild(h);
+    if ([...(p.orientation || []), ...(p.exclusions_urgence || [])].some(x => /accueil clinique/i.test(x)))
+      gauche.appendChild(el("p", "cr-ac-pastille", "Accueil clinique d'abord, si disponible"));
     tete.appendChild(gauche);
     // Une ou plusieurs priorités : la pastille donne la plus urgente (ou l'étendue, « B–D »), les critères donnent chaque variante.
     const niv = p.priorites.map(x => x.niveau), haut = [...niv].sort()[0], bas = [...niv].sort().slice(-1)[0];
@@ -121,12 +123,46 @@
     zone.appendChild(g);
   }
 
+  // Accueil clinique : une carte par problème ciblé par le MSSS qui correspond à la recherche.
+  function carteAccueil(c, mots) {
+    const A = D.accueil_clinique, k = el("article", "cr-carte cr-carte-ac");
+    const tete = el("div", "cr-carte-tete"), g = el("div");
+    g.appendChild(el("p", "cr-sur", "Accueil clinique · problème ciblé par le MSSS"));
+    const h = el("h3"); surligner(h, c.nom, mots); g.appendChild(h); tete.appendChild(g);
+    const b = el("div", "cr-prio cr-prio-ac"); b.append(el("b", null, "AC"), el("span", null, "24 à 72 h")); b.setAttribute("aria-label", "Accueil clinique, prise en charge en 24 à 72 heures");
+    tete.appendChild(b); k.appendChild(tete);
+    k.appendChild(el("p", "cr-ac-texte", "Diriger vers l'accueil clinique de votre territoire si le protocole y est offert, avant le CRDS. Le professionnel demandeur assure le suivi."));
+    const l = el("p", "cr-ac-texte"); l.textContent = "Montérégie : " + A.monteregie.map(x => x.installations.join(", ")).join(" ; ") + ".";
+    k.appendChild(l);
+    const src = el("p", "cr-source"); const a = el("a", null, "Orientations du MSSS (2022), annexe B"); a.href = A.source.url; a.rel = "noopener";
+    src.append(document.createTextNode("Protocoles locaux non publics : vérifiez l'offre de votre installation · "), a); k.appendChild(src);
+    return k;
+  }
+  function panneauAccueil() {
+    const A = D.accueil_clinique, s = el("section", "cr-ac-panneau"); s.setAttribute("aria-labelledby", "cr-ac-titre");
+    const h = el("h2", null, "Accueil clinique"); h.id = "cr-ac-titre"; s.appendChild(h);
+    s.appendChild(el("p", "cr-ac-texte", A.definition));
+    s.appendChild(el("h3", null, "Les sept problèmes ciblés par le MSSS"));
+    const g = el("div", "cr-ac-puces");
+    A.conditions.forEach(c => { const b = el("button", "cr-ac-puce", c.nom); b.type = "button"; b.addEventListener("click", () => { q.value = c.syn[0]; rendre(); q.focus(); }); g.appendChild(b); });
+    s.appendChild(g);
+    s.appendChild(el("h3", null, "En Montérégie, les installations visées"));
+    const ul = el("ul", "cr-ac-liste"); A.monteregie.forEach(x => ul.appendChild(el("li", null, `${x.cisss} : ${x.installations.join(", ")}`))); s.appendChild(ul);
+    const d = el("details", "cr-region"); d.appendChild(el("summary", null, "Règles du référencement"));
+    const u2 = el("ul"); A.regles.forEach(x => u2.appendChild(el("li", null, x))); d.appendChild(u2); s.appendChild(d);
+    const p = el("p", "cr-petit"); p.append(document.createTextNode(A.limites + " Source : "));
+    const a = el("a", null, A.source.titre); a.href = A.source.url; a.rel = "noopener"; p.append(a, document.createTextNode(", consultée le " + A.source.consulte_le + "."));
+    A.portails.forEach(x => { const b2 = el("a", null, x.nom); b2.href = x.url; b2.rel = "noopener"; p.append(document.createTextNode(" Portail : "), b2, document.createTextNode(".")); });
+    s.appendChild(p);
+    zone.appendChild(s);
+  }
+
   function rendre() {
     if (!D) return;
     const mots = sansAccents(q.value.trim()).split(/[^a-z0-9<>≤≥]+/).filter(Boolean);
     zone.textContent = ""; urgence.textContent = ""; urgence.hidden = true;
     if (!mots.length) {
-      specialites(); vide.hidden = true;
+      specialites(); if (D.accueil_clinique) panneauAccueil(); vide.hidden = true;
       etat.textContent = `${D.formulaires.length} spécialité${D.formulaires.length > 1 ? "s" : ""} · ${index.length} raisons de consultation`;
       return;
     }
@@ -145,10 +181,15 @@
       urgence.appendChild(a);
     });
     urgence.hidden = !urgence.childElementCount;
+    const ac = D.accueil_clinique ? D.accueil_clinique.conditions.filter(c => {
+      const w = sansAccents(`${c.nom} ${c.syn.join(" ")}`).split(/[^a-z0-9]+/).filter(Boolean);
+      return mots.every(m => w.some(x => m.length <= 2 ? x === m : x.startsWith(m)));
+    }) : [];
+    ac.forEach(c => zone.appendChild(carteAccueil(c, mots)));
     liste.forEach(e => zone.appendChild(carte(e.p, mots)));
-    vide.hidden = liste.length > 0;
+    vide.hidden = liste.length + ac.length > 0;
     const n = liste.length;
-    etat.textContent = `${n} raison${n > 1 ? "s" : ""} de consultation`;
+    etat.textContent = `${n} raison${n > 1 ? "s" : ""} de consultation${ac.length ? ` · ${ac.length} à l'accueil clinique` : ""}`;
   }
 
   function sources() {
@@ -157,6 +198,7 @@
       const p = el("p", "cr-form"); const a = el("a", null, `${f.id} (${f.code_barre}), ${f.specialite}`); a.href = f.url; a.rel = "noopener";
       p.append(a, document.createTextNode(`, révision ${f.revision}, ${f.organisme}. Vérifié le ${f.verifie_le}. ${f.statut}`)); z.appendChild(p);
     });
+    $("cr-formulaires-titre").textContent = `Les ${D.formulaires.length} formulaires transcrits (numéro, révision, statut)`;
     D.region.consignes.forEach(x => $("cr-consignes").appendChild(el("li", null, x)));
     $("cr-a-venir").textContent = D.a_venir; $("cr-a-venir").hidden = !D.a_venir;
   }
