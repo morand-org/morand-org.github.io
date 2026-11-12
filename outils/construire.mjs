@@ -136,12 +136,13 @@ function habiller(t, pageGuides) {
   t = remplacer(t, /(<\/div>\s*)(<p class="guides-status")/, "$1</details>\n    $2", "fin des filtres");
   if (pageGuides) t = remplacer(t, 'placeholder="Sujet, organisme ou mot-clé…"', 'placeholder="Rechercher par mot-clé…"', "texte du champ");
   t = remplacer(t, /\s*<p class="guides-favoris-note">Vos favoris sont gardés[^<]*<\/p>/, "", "note des favoris");
-  // Guides cliniques : les fiches de CRDS Morand qui correspondent à la recherche, avant les résultats des guides.
+  // Guides cliniques : les fiches de CRDS Morand qui correspondent à la recherche, après les résultats des guides.
   if (pageGuides) {
-    t = remplacer(t, '<section class="guides-band guides-resultats"',
-      '<section class="guides-band gm-crds" id="gm-crds" aria-labelledby="gm-crds-titre" hidden>' +
+    // Après les résultats des guides (« Résultats les plus pertinents »).
+    t = remplacer(t, /(<section class="guides-band guides-resultats"[\s\S]*?<\/section>)/,
+      '$1\n  <section class="guides-band gm-crds" id="gm-crds" aria-labelledby="gm-crds-titre" hidden>' +
       '<div class="guides-category-heading"><h2 id="gm-crds-titre">CRDS Morand <span class="gm-crds-mention">priorité et prérequis</span></h2><span class="compte"></span></div>' +
-      '<ul class="gm-crds-liste"></ul><a class="gm-crds-tout" href="/crds/" hidden></a></section>\n  <section class="guides-band guides-resultats"', "résultats CRDS");
+      '<ul class="gm-crds-liste"></ul><a class="gm-crds-tout" href="/crds/" hidden></a></section>', "résultats CRDS");
     t = remplacer(t, /(<script src="\/assets\/guides-recherche\.js[^"]*"[^>]*><\/script>)/, `$1\n<script src="/assets/guides-crds.js?v=${empreinte("assets/guides-crds.js")}" defer></script>`, "script CRDS");
   }
   t = remplacer(t, '<body class="guides-page"', '<body class="guides-page gm"', "corps de page");
