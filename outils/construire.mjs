@@ -76,7 +76,7 @@ carte = versOrigine(nettoyer(carte));
 }
 carte = faviconMorand(carte, "Map Morand");
 /* Habit de Morand : sceau et nom dans l'en-tête, palette du site à la place de celle de Santé Québec (régions Est, Centre,
-   Ouest en or clair, cèdre et or profond ; textes en encre ; mode sombre en encre chaude), feuille assets/map-morand.css. */
+   Ouest en or, sapin et bordeaux, palette A retenue ; interface en encre et papier ; mode sombre en encre chaude), feuille assets/map-morand.css. */
 {
   const b = carte;
   // L'élément #brand-home reste (le script de la carte s'y accroche), caché ; la navigation commune prend sa place.
@@ -93,7 +93,7 @@ carte = faviconMorand(carte, "Map Morand");
     B: { est: "#27467a", estPale: "#c4d0e4", estFonce: "#1e3961", centre: "#1d6b54", centrePale: "#bfdccf", centreFonce: "#165843", ouest: "#8c2f3f", ouestPale: "#e7c4c9" },
     C: { est: "#b87a1e", estPale: "#efd6a8", estFonce: "#94621a", centre: "#5a7034", centrePale: "#d5ddc0", centreFonce: "#475a29", ouest: "#3c5670", ouestPale: "#c9d4de" },
   };
-  const P = PALETTES[process.env.MAP_PALETTE || "A"];
+  const P = PALETTES[process.env.MAP_PALETTE || "A"];   // A : retenue pour le site
   const REGIONS = { "#0080d7": P.est, "#a8dcf4": P.estPale, "#0075c4": P.estFonce, "#08a0a0": P.centre, "#a7dfdc": P.centrePale, "#067a7a": P.centreFonce,
     "#170a72": P.ouest, "#b8b1df": P.ouestPale };
   carte = carte.replace(/'(#[0-9a-fA-F]{6})'/g, (tout, h) => REGIONS[h.toLowerCase()] ? `'${REGIONS[h.toLowerCase()]}'` : tout);
