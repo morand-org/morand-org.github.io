@@ -152,3 +152,25 @@ main { flex: 1 0 auto; }
 }
 @media (hover: none) { .cr-raccourci { display: none; } }
 .i-petit { width: 16px; height: 16px; flex: none; }
+
+/* Plusieurs priorités pour une même raison : une ligne par variante, avec sa lettre et son délai. */
+.cr-variantes li { display: grid; grid-template-columns: 26px 1fr auto; gap: 10px; align-items: baseline; padding: 4px 0; border-top: 1px solid var(--filet); }
+.cr-variantes li:first-child { border-top: 0; }
+.cr-mini { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: var(--beige); font: 400 1rem/1 var(--serif); color: var(--or-texte); }
+.cr-mini[data-niveau="A"], .cr-mini[data-niveau="B"] { background: var(--alerte-fond); color: var(--alerte); }
+.cr-delai { font: 500 10.5px/1.2 var(--sans); color: var(--discret); white-space: nowrap; }
+/* Sans recherche : les spécialités, en tuiles. */
+.cr-specs { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.cr-spec { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; min-height: 64px; padding: 12px 16px; text-align: left; cursor: pointer;
+  border: 1px solid var(--filet); border-radius: 14px; background: var(--carte); color: var(--encre); font: inherit; }
+.cr-spec:hover { border-color: var(--or); }
+.cr-spec:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+.cr-spec-nom { font: 400 1.08rem/1.2 var(--serif); }
+.cr-spec-sous { font: 500 10px/1.2 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--discret); }
+.cr-consignes-f { margin-top: 8px; font-size: 0.88rem; }
+.cr-consignes-f summary { cursor: pointer; font-weight: 600; min-height: 32px; display: flex; align-items: center; }
+.cr-consignes-f ul { columns: 1; }
+/* Sans prérequis : encadré neutre, pas d'alerte. */
+.cr-prerequis.cr-sans { background: var(--beige); border-color: var(--filet); }
+.cr-prerequis.cr-sans h4 { color: var(--discret); }
+.cr-prerequis.cr-sans .i-alerte { stroke: var(--discret); }

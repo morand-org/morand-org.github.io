@@ -1,0 +1,35 @@
+// AH-754 DT9287 (rév. 2024-02) : Consultation en urologie adulte et enfant. Transcrit du PDF statique du MSSS.
+import { formulaire } from "../outils.mjs";
+import { meta } from "../sources.mjs";
+export default formulaire(meta("AH-754", "uro", "Urologie adulte et enfant", {
+  consignes: ["Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc.",
+    "Si l'état de l'usager ne correspond pas à la priorité clinique établie ou s'il s'agit d'une situation imprécise, communiquer avec l'urologue de garde de votre région."],
+  alertes_titre: "Diriger l'usager à l'urgence",
+  alertes_urgence: ["Hématurie macroscopique active (non infectieuse)", "Colique néphrétique non soulagée par la médication", "Hyperthermie d'origine urinaire",
+    "Suspicion de torsion testiculaire", "Rétention urinaire aiguë", "Fracture du pénis ou priapisme"],
+}), [
+  ["Lithiase", "Calcul urétéral", "C", { pre: ["L:Prescrire A/C urine, créatinine", "I:RX abdominale, uroscan"], syn: ["pierre", "colique néphrétique", "lithiase"] }],
+  ["Lithiase", "Calcul rénal ou vésical asymptomatique", "D", { pre: ["I:Rapport d'IM", "L:Prescrire A/C urine, créatinine", "I:Uroscan"], syn: ["pierre", "lithiase"] }],
+  ["Infection", "Infection urinaire chez l'homme", "D", { pre: ["I:Prescrire écho rénale et pelvienne", "L:A/C urine"], syn: ["cystite", "infection urinaire"] }],
+  ["Infection", "Infections urinaires basses récidivantes documentées chez la femme (+ de 4 par année)", "E", { pre: ["L:A/C urine"], syn: ["cystite", "infection urinaire"] }],
+  ["Dysfonction sexuelle", "Dysfonction érectile avec échec au traitement médical", "E", { pre: ["L:Prescrire testostérone, glycémie, lipides, HbA1c"], syn: ["impuissance", "érection"] }],
+  ["Dysfonction sexuelle", "Maladie de La Peyronie", "E", { syn: ["pénis", "courbure"] }],
+  ["Dysfonction sexuelle", "Hémospermie récidivante avec examen prostatique non suspect de malignité", "E", { pre: ["L:Prescrire A/C urine, APS si > 40 ans"], syn: ["sang dans le sperme"] }],
+  ["Hématurie", "Hématurie macroscopique intermittente avec culture négative", "C", { pre: ["L:Prescrire A/C urine, créatinine", "I:Pyéloscan"], syn: ["sang dans l'urine"] }],
+  ["Hématurie", "Hématurie microscopique ≥ 2-5 GR/champ", "D", { pre: ["L:Prescrire A/C urine", "I:Écho abdominale pelvienne"],
+    ori: ["Définition de l'hématurie microscopique significative : présence de plus de 2 GR/champ lors de 2 analyses par microscope après une certaine période sans exercice, sans menstruation, sans activité sexuelle et sans exploration instrumentale des voies urinaires (Association canadienne d'urologie, 2008 ; American Urological Association, 2012)."],
+    syn: ["sang dans l'urine"] }],
+  ["Suspicion de malignité", "Examen prostatique suspect (TR)", "C", { pre: ["L:Prescrire APS"], syn: ["prostate", "cancer", "toucher rectal"] }],
+  ["Suspicion de malignité", "APS élevé recontrôlé après 6 semaines", "C", { pre: ["L:APS x 2, A/C urine négative"], syn: ["PSA", "prostate", "cancer"] }],
+  ["Suspicion de malignité", "Masse vésicale", "C", { pre: ["I:Rapport d'IM"], syn: ["vessie", "cancer"] }],
+  ["Suspicion de malignité", "Masse rénale solide ou kyste rénal complexe", "C", { pre: ["L:Créatinine", "I:Rapport d'IM et prescrire pyéloscan (si non réalisé)"], syn: ["rein", "cancer", "Bosniak"] }],
+  ["Suspicion de malignité", "Masse scrotale suspecte de néoplasie", "B", { pre: ["I:Écho testiculaire"], syn: ["testicule", "cancer"] }],
+  ["Autres", "Complications reliées aux bandelettes urinaires", [["HORS", "Hors CRDS : référer à votre centre désigné en santé pelvienne"]],
+    { ori: ["Référer à votre centre désigné en santé pelvienne via le formulaire de demande de consultation (www.msss.gouv.qc.ca/professionnels/soins-et-services/programme-sante-pelvienne/centres-designes/)."], syn: ["bandelette", "TVT", "incontinence"] }],
+  ["Autres", "Masse scrotale bénigne : hydrocèle, varicocèle, spermatocèle", "E", { pre: ["I:Écho testiculaire"], syn: ["testicule", "scrotum"] }],
+  ["Autres", "Hydronéphrose obstructive ou symptomatique", "C", { pre: ["I:Rapport d'IM", "L:Prescrire créatinine, A/C urine"], syn: ["rein"] }],
+  ["Autres", "Symptômes du bas appareil urinaire chez ♀ et ♂ (incontinence, vessie hyperactive, HBP avec échec de traitement)", "E", { pre: ["L:A/C urine et APS (si ♂)"], syn: ["HBP", "prostate", "incontinence", "SBAU"] }],
+  ["Autres", "Syndrome de douleur pelvienne chronique/orchialgie (incluant prostatite chronique, cystalgie)", "E", { pre: ["L:ITSS négatives, A/C urine"], syn: ["prostatite", "douleur testiculaire"] }],
+  ["Autres", "Balanite récidivante/phimosis/vasectomie", "E", { syn: ["prépuce", "vasectomie", "circoncision"] }],
+]);

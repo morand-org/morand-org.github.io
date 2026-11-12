@@ -52,14 +52,23 @@
     const sur = el("p", "cr-sur"); surligner(sur, `${p.specialite} · ${p.categorie}`, mots); gauche.appendChild(sur);
     const h = el("h3"); surligner(h, p.probleme, mots); gauche.appendChild(h);
     tete.appendChild(gauche);
-    const prio = p.priorites[0], b = el("div", "cr-prio"); b.dataset.niveau = prio.niveau;
-    b.setAttribute("aria-label", `Priorité ${prio.niveau}, ${D.echelle_priorite[prio.niveau]}`);
-    b.append(el("b", null, prio.niveau), el("span", null, D.echelle_priorite[prio.niveau]));
+    // Une ou plusieurs priorités : la pastille donne la plus urgente (ou l'étendue, « B–D »), les critères donnent chaque variante.
+    const niv = p.priorites.map(x => x.niveau), haut = [...niv].sort()[0], bas = [...niv].sort().slice(-1)[0];
+    const b = el("div", "cr-prio"); b.dataset.niveau = haut;
+    b.setAttribute("aria-label", haut === "HORS" ? "Hors CRDS" : haut === bas ? `Priorité ${haut}, ${D.echelle_priorite[haut]}` : `Priorités ${haut} à ${bas} selon les critères`);
+    b.append(el("b", null, haut === "HORS" ? "—" : haut === bas ? haut : `${haut}–${bas}`), el("span", null, haut === bas ? D.echelle_priorite[haut] : "selon critères"));
     tete.appendChild(b); c.appendChild(tete);
 
-    const crit = el("div", "cr-bloc"); crit.appendChild(el("h4", null, "Critères cliniques"));
-    const ul = el("ul", "cr-criteres"); prio.criteres.forEach(x => { const li = el("li"); surligner(li, x, mots); ul.appendChild(li); }); crit.appendChild(ul);
-    c.appendChild(crit);
+    const crit = el("div", "cr-bloc"); crit.appendChild(el("h4", null, p.priorites.length > 1 ? "Priorité selon les critères" : "Critères cliniques"));
+    const ul = el("ul", p.priorites.length > 1 ? "cr-variantes" : "cr-criteres");
+    p.priorites.forEach(v => v.criteres.forEach(x => {
+      const li = el("li");
+      if (p.priorites.length > 1) { const n = el("span", "cr-mini", v.niveau); n.dataset.niveau = v.niveau; n.title = D.echelle_priorite[v.niveau]; li.appendChild(n); }
+      const t = el("span"); surligner(t, x, mots); li.appendChild(t);
+      if (p.priorites.length > 1) li.appendChild(el("span", "cr-delai", D.echelle_priorite[v.niveau]));
+      ul.appendChild(li);
+    }));
+    crit.appendChild(ul); c.appendChild(crit);
 
     // Prérequis obligatoires : toujours affichés, même vides, pour qu'on sache qu'il n'y en a pas.
     const ob = Object.entries(p.prerequis_obligatoires).flatMap(([t, l]) => l.map(x => [t, x]));
@@ -97,32 +106,46 @@
     return c;
   }
 
+  // Sans recherche : la liste des spécialités (un toucher filtre la spécialité).
+  function specialites() {
+    const g = el("div", "cr-specs");
+    D.formulaires.forEach(f => {
+      const n = index.filter(e => e.p.formulaire === f.id).length;
+      const bt = el("button", "cr-spec"); bt.type = "button";
+      bt.append(el("span", "cr-spec-nom", f.specialite), el("span", "cr-spec-sous", `${f.id} · ${n} raison${n > 1 ? "s" : ""}`));
+      bt.addEventListener("click", () => { q.value = f.specialite; rendre(); q.focus(); });
+      g.appendChild(bt);
+    });
+    zone.appendChild(g);
+  }
+
   function rendre() {
     if (!D) return;
     const mots = sansAccents(q.value.trim()).split(/[^a-z0-9<>≤≥]+/).filter(Boolean);
-    let liste = index;
-    if (mots.length) liste = index.filter(e => correspond(e, mots)).sort((a, b) => score(b, mots) - score(a, mots));
-    zone.textContent = ""; urgence.textContent = "";
-    // Alertes « diriger à l'urgence » des spécialités affichées.
+    zone.textContent = ""; urgence.textContent = ""; urgence.hidden = true;
+    if (!mots.length) {
+      specialites(); vide.hidden = true;
+      etat.textContent = `${D.formulaires.length} spécialité${D.formulaires.length > 1 ? "s" : ""} · ${index.length} raisons de consultation`;
+      return;
+    }
+    const liste = index.filter(e => correspond(e, mots)).sort((a, b) => score(b, mots) - score(a, mots) || a.rang - b.rang);
+    // Alertes cliniques du formulaire (urgence, spécialiste de garde) quand les résultats viennent d'une ou deux spécialités.
     const specs = [...new Set(liste.map(e => e.p.formulaire))];
-    specs.forEach(id => {
-      const f = D.formulaires.find(x => x.id === id); if (!f || !f.alertes_urgence) return;
-      const a = el("section", "cr-alerte"); a.setAttribute("aria-label", `Diriger à l'urgence, ${f.specialite}`);
-      const h = el("h2"); const ic = icone("i-alerte i-petit", ALERTE);
-      h.append(ic, document.createTextNode(`Diriger à l'urgence · ${f.specialite}`)); a.appendChild(h);
+    if (specs.length <= 2) specs.forEach(id => {
+      const f = D.formulaires.find(x => x.id === id); if (!f || !f.alertes_urgence || !f.alertes_urgence.length) return;
+      const titre = `${f.alertes_titre || "Diriger l'usager à l'urgence"} · ${f.specialite}`;
+      const a = el("section", "cr-alerte"); a.setAttribute("aria-label", titre);
+      const h = el("h2"); h.append(icone("i-alerte i-petit", ALERTE), document.createTextNode(titre)); a.appendChild(h);
       const ul = el("ul"); f.alertes_urgence.forEach(x => ul.appendChild(el("li", null, x))); a.appendChild(ul);
+      if (f.consignes && f.consignes.length) { const d = el("details", "cr-consignes-f"); d.appendChild(el("summary", null, "Consignes du formulaire"));
+        const u2 = el("ul"); f.consignes.forEach(x => u2.appendChild(el("li", null, x))); d.appendChild(u2); a.appendChild(d); }
       urgence.appendChild(a);
     });
-    urgence.hidden = !specs.length;
-    // Sans recherche : groupé par catégorie ; avec recherche : par pertinence.
-    let cat = null;
-    liste.forEach(e => {
-      if (!mots.length && e.p.categorie !== cat) { cat = e.p.categorie; const g = el("h2", "cr-groupe", cat); g.appendChild(el("small", null, e.p.specialite)); zone.appendChild(g); }
-      zone.appendChild(carte(e.p, mots));
-    });
+    urgence.hidden = !urgence.childElementCount;
+    liste.forEach(e => zone.appendChild(carte(e.p, mots)));
     vide.hidden = liste.length > 0;
     const n = liste.length;
-    etat.textContent = mots.length ? `${n} raison${n > 1 ? "s" : ""} de consultation` : `${n} raisons de consultation · ${D.formulaires.length} formulaire${D.formulaires.length > 1 ? "s" : ""} vérifié${D.formulaires.length > 1 ? "s" : ""}`;
+    etat.textContent = `${n} raison${n > 1 ? "s" : ""} de consultation`;
   }
 
   function sources() {
@@ -137,11 +160,11 @@
 
   fetch("/crds/crds_data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d;
-    index = d.problemes.map(p => {
+    index = d.problemes.map((p, rang) => {
       const texte = [p.probleme, p.libelle_formulaire || "", p.specialite, p.categorie, p.formulaire, ...p.synonymes, ...p.priorites.flatMap(x => x.criteres),
         ...Object.values(p.prerequis_obligatoires).flat(), ...Object.values(p.prerequis_souhaitables).flat()].join(" ");
       const plat = sansAccents(texte);
-      return { p, plat, mots: plat.split(/[^a-z0-9]+/).filter(Boolean) };
+      return { p, rang, plat, mots: plat.split(/[^a-z0-9]+/).filter(Boolean) };
     });
     sources(); rendre();
     const depart = new URLSearchParams(location.search).get("q"); if (depart) { q.value = depart; rendre(); }
