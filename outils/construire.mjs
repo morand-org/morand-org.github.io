@@ -84,30 +84,44 @@ carte = faviconMorand(carte, "Map Morand");
     `<div class="brand" id="brand-home" hidden></div>\n  <a class="mo-marque" href="/">Morand</a>\n  <nav class="mo-outils" aria-label="Outils Morand">${navMorand("map")}</nav>`);
   if (carte === b) throw new Error("Map Morand : marque de l'en-tête introuvable ; vérifier la page d'origine.");
   carte = carte.replace(/<a class="btn-share btn-morand"[\s\S]*?<\/a>\s*/, "");
-  const COULEURS = {
-    "#170a72": "#8b6921", "#08a0a0": "#5b7353", "#0080d7": "#c79a3a", "#90f1e9": "#ecd38f", "#7ee6df": "#ecd38f", "#17a9a8": "#5b7353",
-    "#0f2240": "#17160f", "#1a3558": "#3a362c", "#067a7a": "#4a6044", "#087c7c": "#4a6044", "#082f70": "#6e5418", "#0065a9": "#8b6921", "#0075c4": "#9b7a2c", "#2b6caa": "#8b6921",
-    "#a8dcf4": "#f3e4b8", "#b8b1df": "#e3cd92", "#a7dfdc": "#cfd8c8", "#a9d8db": "#cfd8c8", "#ebfbfa": "#f4f1ea", "#eff8fa": "#f6f3ec", "#d7e8ed": "#e6e0d3", "#bfd7df": "#d9d2c2", "#f7fcfd": "#fdfcf8",
-    "#dbeafe": "#f1ece0", "#111629": "#12110d", "#171e34": "#1a1914", "#202943": "#23211b", "#0f1526": "#12110d", "#1a2239": "#1a1914", "#18233a": "#1a1914", "#34435c": "#3a362c",
+  /* Deux familles de couleurs : les RÉGIONS (couleurs entre apostrophes dans le script de la carte : marqueurs, territoires,
+     légende, filtres) et l'INTERFACE (feuilles de style : en-têtes, onglets, cartes, champs). L'interface prend l'encre, le
+     papier et l'or de Morand ; les bleus et sarcelles restants deviennent des gris chauds neutres (pas un voile doré).
+     Trois palettes de régions : MAP_PALETTE=A (encre, or et sapin), B (joaillerie), C (cartographie ancienne). */
+  const PALETTES = {
+    A: { est: "#b8892f", estPale: "#ecd9a6", estFonce: "#8f6a1f", centre: "#2f5d50", centrePale: "#bcd2c8", centreFonce: "#244a40", ouest: "#7a2e3a", ouestPale: "#e4c5c9" },
+    B: { est: "#27467a", estPale: "#c4d0e4", estFonce: "#1e3961", centre: "#1d6b54", centrePale: "#bfdccf", centreFonce: "#165843", ouest: "#8c2f3f", ouestPale: "#e7c4c9" },
+    C: { est: "#b87a1e", estPale: "#efd6a8", estFonce: "#94621a", centre: "#5a7034", centrePale: "#d5ddc0", centreFonce: "#475a29", ouest: "#3c5670", ouestPale: "#c9d4de" },
   };
-  // Les autres bleus, sarcelles et gris bleutés deviennent des teintes chaudes (même clarté, teinte or, moins saturée).
-  const chaud = (r, g, b) => {
+  const P = PALETTES[process.env.MAP_PALETTE || "A"];
+  const REGIONS = { "#0080d7": P.est, "#a8dcf4": P.estPale, "#0075c4": P.estFonce, "#08a0a0": P.centre, "#a7dfdc": P.centrePale, "#067a7a": P.centreFonce,
+    "#170a72": P.ouest, "#b8b1df": P.ouestPale };
+  carte = carte.replace(/'(#[0-9a-fA-F]{6})'/g, (tout, h) => REGIONS[h.toLowerCase()] ? `'${REGIONS[h.toLowerCase()]}'` : tout);
+  const INTERFACE = {
+    "#170a72": "#17160f", "#08a0a0": "#9b7a3e", "#0080d7": "#8b6921", "#90f1e9": "#e7d3a1", "#7ee6df": "#e7d3a1", "#17a9a8": "#9b7a3e",
+    "#0f2240": "#17160f", "#1a3558": "#3a362c", "#067a7a": "#7d6230", "#087c7c": "#7d6230", "#082f70": "#2b2820", "#0065a9": "#7d6230", "#0075c4": "#7d6230", "#271a86": "#2b2820", "#291a89": "#2b2820",
+    "#111629": "#12110d", "#171e34": "#1a1914", "#202943": "#23211b", "#0f1526": "#12110d", "#1a2239": "#1a1914", "#18233a": "#1a1914", "#34435c": "#3a362c", "#141b30": "#161510", "#141b2d": "#161510",
+  };
+  // Autres bleus et sarcelles : gris chauds, même clarté, à peine teintés.
+  const neutre = (r, g, b) => {
     const R = r / 255, G = g / 255, B = b / 255, mx = Math.max(R, G, B), mn = Math.min(R, G, B), l = (mx + mn) / 2, d = mx - mn;
     if (d < 0.02) return null;
-    const sat = d / (1 - Math.abs(2 * l - 1));
     let h = mx === R ? ((G - B) / d) % 6 : mx === G ? (B - R) / d + 2 : (R - G) / d + 4; h *= 60; if (h < 0) h += 360;
     if (h < 165 || h > 275) return null;
-    const s2 = Math.min(sat * 0.75, 0.62), c = (1 - Math.abs(2 * l - 1)) * s2, hh = 41 / 60, x = c * (1 - Math.abs((hh % 2) - 1)), m = l - c / 2;
+    const c = (1 - Math.abs(2 * l - 1)) * 0.07, hh = 40 / 60, x = c * (1 - Math.abs((hh % 2) - 1)), m = l - c / 2;
     return [c + m, x + m, m].map(v => Math.round(v * 255));
   };
   const hex = v => "#" + v.map(n => n.toString(16).padStart(2, "0")).join("");
   carte = carte.replace(/#[0-9a-fA-F]{6}\b|#[0-9a-fA-F]{3}\b(?![0-9a-fA-F])/g, h => {
-    if (COULEURS[h.toLowerCase()]) return COULEURS[h.toLowerCase()];
+    const k = h.toLowerCase();
+    if (Object.values(P).includes(k)) return h;   // déjà une couleur de région
+    if (INTERFACE[k]) return INTERFACE[k];
     const t = h.length === 4 ? h.slice(1).split("").map(c => c + c).join("") : h.slice(1);
-    const v = chaud(parseInt(t.slice(0, 2), 16), parseInt(t.slice(2, 4), 16), parseInt(t.slice(4, 6), 16));
+    const v = neutre(parseInt(t.slice(0, 2), 16), parseInt(t.slice(2, 4), 16), parseInt(t.slice(4, 6), 16));
     return v ? hex(v) : h;
-  }).replace(/rgba\(23,\s*10,\s*114,/g, "rgba(139,105,33,").replace(/rgba\(15,\s*34,\s*64,/g, "rgba(23,22,15,").replace(/rgba\(21,\s*31,\s*51,/g, "rgba(26,25,20,")
-    .replace(/rgba?\((\d+),\s*(\d+),\s*(\d+)/g, (tout, r, g, b) => { const v = chaud(+r, +g, +b); return v ? tout.replace(`${r},`, `${v[0]},`).replace(/,\s*\d+,\s*\d+$/, `,${v[1]},${v[2]}`) : tout; });
+  }).replace(/rgba\(23,\s*10,\s*114,/g, "rgba(23,22,15,").replace(/rgba\(15,\s*34,\s*64,/g, "rgba(23,22,15,").replace(/rgba\(21,\s*31,\s*51,/g, "rgba(26,25,20,")
+    .replace(/rgba\(144,\s*241,\s*233,/g, "rgba(201,163,92,").replace(/rgba\(8,\s*160,\s*160,/g, "rgba(155,122,62,")
+    .replace(/rgba?\((\d+),\s*(\d+),\s*(\d+)/g, (tout, r, g, b) => { const v = neutre(+r, +g, +b); return v ? tout.replace(/\(\d+,\s*\d+,\s*\d+/, `(${v[0]},${v[1]},${v[2]}`) : tout; });
   carte = carte.replace(/<meta name="theme-color" content="[^"]*">/, '<meta name="theme-color" content="#f6f3ec">');
   carte = carte.replace(/<title>[^<]*<\/title>/, "<title>Map Morand : cliniques de la Montérégie</title>");
   carte = carte.replace("</body>", `<link rel="stylesheet" href="/assets/map-morand.css?v=${empreinte("assets/map-morand.css")}">\n</body>`);
