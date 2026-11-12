@@ -515,6 +515,187 @@
     "Artérite temporale avec symptômes (céphalée nouvelle, perte visuelle ou diplopie, douleur au cuir chevelu, claudication de la mâchoire)",
     "Vasculite ou collagénose avec atteinte d'organe sévère"
    ]
+  },
+  {
+   "id": "AH-766",
+   "specialite": "Physiatrie adulte (médecine physique et réadaptation)",
+   "code_barre": "DT9327",
+   "revision": "2022-05",
+   "organisme": "MSSS – Direction de l'accès aux services médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/87b466105375a570852582e900683932?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir le formulaire.",
+    "Ne remplir qu'une seule section par formulaire.",
+    "Infiltration vertébrale sous fluoroscopie, échographie diagnostique et/ou infiltration échoguidée, EMG : si le service n'était pas offert dans sa région, il y aura orientation de la consultation directement vers la région la plus rapprochée où un physiatre ayant l'expertise pourrait le rencontrer.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Syndrome de la queue de cheval",
+    "Pied tombant de moins de 48 h",
+    "Myélopathie rapidement progressive",
+    "Arthrite septique",
+    "Incapacité fonctionnelle complète aiguë (incapacité totale de se mobiliser et d'assurer ses activités de la vie quotidienne)"
+   ]
+  },
+  {
+   "id": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "code_barre": "DT9330",
+   "revision": "2022-04",
+   "organisme": "MSSS – Direction de l'accès aux services médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/cdb49260bccc95dc852582e90068aec5?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso. Favoriser les protocoles de l'accueil clinique (si disponibles) avant de remplir le formulaire.",
+    "Si connu en chirurgie vasculaire, favoriser une référence nominative auprès de son chirurgien.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc.",
+    "Priorité A, communiquer avec le chirurgien vasculaire de garde de votre région : suspicion d'ischémie récente (< 14 jours) sans déficit moteur ou sensitif ; sténose carotidienne documentée > 50 % avec AIT (ICT) ou amaurose fugace ou AVC récent < de 14 jours ; anévrisme de l'aorte abdominale > 70 mm.",
+    "Échelle CEAP : C1 télangiectasies ou veines réticulaires ; C2 varices ; C3 œdème ; C4 dermite de stase ou hyperpigmentation ; C5 ulcère veineux cicatrisé ; C6 ulcère veineux.",
+    "Information sur la chirurgie vasculaire et endovasculaire : www.acvq.quebec."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Suspicion d'ischémie aiguë avec déficit moteur ou sensitif du membre supérieur, inférieur",
+    "Ischémie mésentérique aiguë",
+    "Tout anévrisme douloureux ou rompu (aortique, viscéral ou des membres)",
+    "Suspicion d'une infection vasculaire (artère native ou prothèse vasculaire)",
+    "Hémorragie aiguë ou menace d'hémorragie, externe ou interne d'origine vasculaire (traumatisme vasculaire, hémorragie d'un accès vasculaire pour hémodialyse, dissection aortique aiguë, hématome expansif, etc.)",
+    "Gangrène humide ou suspicion d'infection nécrosante du pied",
+    "Abcès plantaire avec sepsis chez un usager avec insuffisance artérielle connue ou suspectée",
+    "Suspicion d'un AIT/AVC avec parésie unilatérale ou trouble de la parole persistant, fluctuant ou transitoire depuis < 48 h, ou référer à l'Accueil clinique si disponible et selon l'état de l'usager"
+   ]
+  },
+  {
+   "id": "AH-768",
+   "specialite": "Oncologie médicale / hémato-oncologie adulte",
+   "code_barre": "DT9421",
+   "revision": "2019-01",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/3aca76b6ffe2b7ed852583c80052129c?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Les usagers présentant un diagnostic ou une suspicion de néoplasie primaire provenant d'un système spécifique peuvent être dirigés vers la spécialité concernée, selon les pratiques locales courantes.",
+    "Les lymphomes et les cancers hématologiques doivent être référés via le formulaire « Consultation en hémato-oncologie/hématologie adulte »."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Symptômes de compression médullaire",
+    "Hypercalcémie maligne Ca corrigé > 3 mmol/L",
+    "Neutropénie fébrile (T° ≥ 38,3 °C et neutrophiles < 1,0 ×10⁹/L)",
+    "Symptômes neurologiques rapidement progressifs d'une lésion primaire ou métastatique",
+    "Syndrome de la veine cave supérieure"
+   ]
+  },
+  {
+   "id": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "code_barre": "DT9423",
+   "revision": "2024-03",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/3d21a5cf2ba5b63c852583c80052d7fd?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc.",
+    "Communiquer avec le plasticien de garde de votre région pour : lacération refermée non compliquée avec atteinte tendineuse ou du nerf digital sans compromis vasculaire ; lacération main et doigt avec perte de substance > 1 cm² des tissus mous ou exposition des structures.",
+    "Les cicatrices vicieuses autres qu'au visage et les cas d'esthétique ne sont pas couverts par la RAMQ et devront être dirigés vers des milieux de chirurgie esthétique et non au CRDS.",
+    "Plaies complexes et chroniques : référer à la clinique de plaie de votre région et non au CRDS."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Fracture déplacée ou ouverte ou immobilisation impossible (carpe, métacarpe, phalange)",
+    "Compromis vasculaire digital",
+    "Arthrite septique ou ténosynovite infectieuse",
+    "Luxation non réductible",
+    "Amputation digitale",
+    "Lacérations avec perte de substances très étendue des tissus mous (ex. : dégantement d'un doigt ou dos de la main) ou plaie très contaminée",
+    "Fracture du visage (os malaire, nez, mandibule, orbite)",
+    "Brûlure aiguë répondant aux critères d'un centre d'expertise",
+    "Syndrome du compartiment",
+    "Lacération complexe difficile à refermer"
+   ]
+  },
+  {
+   "id": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "code_barre": "DT9425",
+   "revision": "2024-08",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/795255348791d8dd852583c8005c79b7?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et favoriser les protocoles de l'Accueil clinique (si disponibles) avant de remplir ce formulaire.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc.",
+    "Anaphylaxie de cause identifiée : se référer aux autres sections du formulaire.",
+    "Allergie à un vaccin : remplir le formulaire « Déclaration de manifestations cliniques après une vaccination » et l'acheminer à la Direction de la santé publique. Ne pas référer au CRDS.",
+    "Urticaire aiguë : se référer au tableau au verso du formulaire. Urticaire aiguë < 24 h, subaiguë 24 h – 6 semaines, chronique > 6 semaines. Débuter un antihistaminique (jusqu'à 4x la dose), par exemple : adulte, cétirizine 20 mg ID à BID + hydroxyzine 25 à 50 HS ; enfant (5 à 17 ans), cétirizine 5 à 20 mg ID. La corticothérapie systémique n'est pas un traitement de 1re intention de l'urticaire. S'il y a réponse au traitement, le conserver 3-6 mois et sevrer lentement ; sinon, indication de référence.",
+    "Déficit immunitaire suspecté : information à allerg.qc.ca."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Anaphylaxie aiguë",
+    "Exacerbation d'asthme aiguë sévère ou sans réponse à la corticothérapie orale depuis 24 h"
+   ]
+  },
+  {
+   "id": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "code_barre": "DT9427",
+   "revision": "2019-01",
+   "organisme": "MSSS – Direction du soutien à l'organisation clinique et de la gestion des effectifs médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/0513ac023e7f6a5f852583c8005d6795?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Consulter les alertes cliniques au verso et continuer d'utiliser les corridors de consultation déjà existants : Accueil clinique, cliniques ambulatoires spécialisées de 3e ligne, cliniques de mémoire, hôpitaux de jour, équipes ambulatoires de gériatrie et psychogériatrie, services externes gériatriques, cliniques de la douleur, cliniques de chute, équipe SCPD, etc.",
+    "Ce formulaire s'adresse à une clientèle de 65 ans et plus (principalement âgée de 75 ans et plus). Échelle C à E.",
+    "Tout usager devra être accompagné d'un proche aidant (nom, lien et no de téléphone obligatoires).",
+    "À joindre : ATCD, médication, investigation, autre(s) consultation(s) ; MMSE ou MOCA ; milieu de vie de l'usager ; intervenant principal au CLSC.",
+    "SCPD : symptômes comportementaux et psychologiques de la démence. MAD : maintien à domicile.",
+    "Maltraitance : « Il y a maltraitance quand un geste singulier ou répétitif, ou une absence d'action appropriée se produit dans une relation où il devrait y avoir de la confiance, et que cela cause du tort ou de la détresse chez une personne aînée. » (Ministère de la Famille, 2012). Ligne Aide Abus Aînés (AAA) : 1 888 485-ABUS."
+   ],
+   "alertes_titre": "Diriger l'usager vers l'urgence",
+   "alertes_urgence": [
+    "Délirium ou altération de l'état d'éveil",
+    "Personne âgée présentant une dangerosité immédiate et significative affectant sa sécurité ou celle de son entourage",
+    "Chute avec séjour prolongé au sol ou incapacité significative à se déplacer"
+   ]
+  },
+  {
+   "id": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "code_barre": "DT9429",
+   "revision": "2022-05",
+   "organisme": "MSSS – Direction de l'accès aux services médicaux spécialisés",
+   "url": "http://msssa4.msss.gouv.qc.ca/intra/formres.nsf/924ec80ebd8a511b85256e1a006ba718/15bbefe807d6d296852582e9006938ec?OpenDocument",
+   "verifie_le": "2026-11-12",
+   "statut": "Dernière version publique trouvée, actualité non confirmée : la version du DMÉ ou de SAFIR peut être plus récente.",
+   "consignes": [
+    "Pour les alertes cliniques et les priorités A et B (voir verso), communiquer avec le spécialiste.",
+    "Aviser l'usager d'apporter une copie CD-ROM des imageries pour le rendez-vous.",
+    "Cocher la raison de consultation et compléter la section Impression diagnostique et renseignements cliniques obligatoires. Joindre les autres rapports d'investigation pertinents si disponibles.",
+    "Échelle B à E : pour les consultations de priorité A (≤ 3 jrs), ne pas les transmettre au CRDS ; utiliser les corridors suivants : spécialiste de garde, accueil clinique, etc."
+   ],
+   "alertes_titre": "Alertes cliniques et raisons de consultation de priorité A ou B : communiquer avec le neurochirurgien de garde",
+   "alertes_urgence": [
+    "Hémorragie intracrânienne",
+    "Syndrome d'hypertension intracrânienne avec ou sans altération de l'état de conscience",
+    "Apparition soudaine ou rapidement progressive d'un déficit neurologique (localisation cérébrale, médullaire ou queue de cheval ou radiculopathie aiguë avec déficit moteur significatif)",
+    "Myélopathie aiguë ou subaiguë (compression médullaire) avec évolution rapide des symptômes",
+    "Sténose carotidienne symptomatique",
+    "Traumatisme cranio-cérébral (TCC) ou spino-médullaire aigu modéré et sévère",
+    "Fracture du crâne ou du rachis",
+    "Tumeurs cérébrales intraparenchymateuses : métastases, gliomes ou autres",
+    "Tumeurs du rachis intra-durales ou extra-durales (primaires ou métastatiques)"
+   ]
   }
  ],
  "problemes": [
@@ -9824,8 +10005,7 @@
    "categorie": "Champs de pratique (autres spécialités)",
    "probleme": "Cardiologie (FA, MCAS, dyspnée, insuffisance cardiaque, arythmie, palpitations, valvulopathie, etc.)",
    "synonymes": [
-    "cœur",
-    "FA"
+    "cœur"
    ],
    "priorites": [
     {
@@ -12297,7 +12477,2870 @@
     "autres": []
    },
    "orientation": []
+  },
+  {
+   "id": "physiatrie-consultation-pour-atteinte-locomotrice-membre-sup",
+   "formulaire": "AH-766",
+   "specialite": "Physiatrie adulte (médecine physique et réadaptation)",
+   "categorie": "1. Atteinte locomotrice",
+   "probleme": "Consultation pour atteinte locomotrice (membre supérieur, membre inférieur, rachis)",
+   "synonymes": [
+    "lombalgie",
+    "cervicalgie",
+    "épaule",
+    "genou",
+    "douleur musculosquelettique",
+    "infiltration"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition présente depuis moins de 1 an"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition connue depuis un an ou plus"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Cocher le site : épaule, coude, poignet/main ; hanche, genou, cheville/pied ; cervicalgie/cervicobrachialgie, dorsal, lombalgie/lombosciatalgie. Case possible : opinion pour infiltration."
+   ]
+  },
+  {
+   "id": "physiatrie-consultation-pour-systeme-nerveux-peripherique-mo",
+   "formulaire": "AH-766",
+   "specialite": "Physiatrie adulte (médecine physique et réadaptation)",
+   "categorie": "2. Système nerveux périphérique",
+   "probleme": "Consultation pour système nerveux périphérique (mononévrite)",
+   "synonymes": [
+    "EMG",
+    "neuropathie",
+    "canal carpien",
+    "mononévrite"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition présente depuis plus de 4 semaines et moins de 6 mois"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition présente depuis 6 mois et plus mais moins de 1 an"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition présente depuis 1 an ou plus"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Indiquer le site anatomique dans la section impression diagnostique"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Cocher la case si demande d'EMG (et une des trois cases de durée)."
+   ]
+  },
+  {
+   "id": "physiatrie-infiltration-vertebrale-sous-fluoroscopie-douleur",
+   "formulaire": "AH-766",
+   "specialite": "Physiatrie adulte (médecine physique et réadaptation)",
+   "categorie": "3. Infiltration vertébrale sous fluoroscopie",
+   "probleme": "Infiltration vertébrale sous fluoroscopie : douleur radiculaire",
+   "synonymes": [
+    "infiltration",
+    "épidurale",
+    "sciatalgie",
+    "radiculopathie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Condition présente depuis plus de 4 semaines et moins de 6 mois"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition présente depuis 6 mois et plus mais moins de 1 an"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition présente depuis 1 an ou plus"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "CT scan ou IRM"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "physiatrie-infiltration-vertebrale-sous-fluoroscopie-douleur-2",
+   "formulaire": "AH-766",
+   "specialite": "Physiatrie adulte (médecine physique et réadaptation)",
+   "categorie": "3. Infiltration vertébrale sous fluoroscopie",
+   "probleme": "Infiltration vertébrale sous fluoroscopie : douleur vertébrale",
+   "synonymes": [
+    "infiltration",
+    "facettes",
+    "lombalgie"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition présente depuis plus de 4 semaines et moins de 1 an"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Condition présente depuis 1 an ou plus"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rx"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "physiatrie-atteinte-des-tissus-mous-membre-superieur-membre-",
+   "formulaire": "AH-766",
+   "specialite": "Physiatrie adulte (médecine physique et réadaptation)",
+   "categorie": "4. Échographie diagnostique et/ou infiltration échoguidée",
+   "probleme": "Atteinte des tissus mous membre supérieur, membre inférieur (échographie diagnostique et/ou infiltration échoguidée)",
+   "synonymes": [
+    "échographie",
+    "infiltration",
+    "tendinite"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Condition présente depuis plus de 4 semaines et moins de 1 an"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Présente depuis 1 an ou plus"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Radiographie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "vasc-mvas-chronique-avec-gangrene-humide-ou-douleur-de-repos",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Insuffisance artérielle périphérique",
+   "probleme": "MVAS chronique avec gangrène humide ou douleur de repos ou plaie de novo (< 2 semaines)",
+   "synonymes": [
+    "ischémie",
+    "MVAS",
+    "artérite",
+    "plaie"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "MVAS chronique avec gangrène humide ou douleur de repos ou plaie de novo (< 2 semaines)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "vasc-mvas-chronique-avec-gangrene-seche-ou-plaie-chronique-2",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Insuffisance artérielle périphérique",
+   "probleme": "MVAS chronique avec gangrène sèche ou plaie chronique (> 2 semaines)",
+   "synonymes": [
+    "ischémie",
+    "MVAS",
+    "plaie"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "MVAS chronique avec gangrène sèche ou plaie chronique (> 2 semaines)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "vasc-claudication-intermittente",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Insuffisance artérielle périphérique",
+   "probleme": "Claudication intermittente",
+   "synonymes": [
+    "claudication",
+    "MVAS"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Sévère et incapacitante"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Stable"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "vasc-ict-avc-ou-amaurose-fugace-avec-stenose-carotidienne-de",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Sténose carotidienne",
+   "probleme": "ICT, AVC ou amaurose fugace avec sténose carotidienne de plus de 50 % dont les derniers symptômes remontent à plus de 14 jours et moins de 4 mois",
+   "synonymes": [
+    "carotide",
+    "AIT",
+    "AVC"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "ICT, AVC ou amaurose fugace avec sténose carotidienne de plus de 50 % dont les derniers symptômes remontent à plus de 14 jours et moins de 4 mois"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Consulter les alertes cliniques."
+   ]
+  },
+  {
+   "id": "vasc-stenose-carotidienne-asymptomatique-severe-70",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Sténose carotidienne",
+   "probleme": "Sténose carotidienne asymptomatique sévère + 70 %",
+   "synonymes": [
+    "carotide"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Sténose carotidienne asymptomatique sévère + 70 %"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "vasc-ulcere-veineux-avec-echec-au-traitement-medical-ou-reci",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Insuffisance veineuse",
+   "probleme": "Ulcère veineux avec échec au traitement médical ou récidive (CEAP ≥ 4/6)",
+   "synonymes": [
+    "ulcère",
+    "plaie",
+    "veine"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Ulcère veineux avec échec au traitement médical ou récidive (CEAP ≥ 4/6)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Référer de façon prioritaire en clinique de plaie si disponible et non au CRDS."
+   ]
+  },
+  {
+   "id": "vasc-varices-avec-reflux-severe-de-la-saphene-interne-ou-ext",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Insuffisance veineuse",
+   "probleme": "Varices avec reflux sévère de la saphène interne ou externe ou antérieur accessoire au Doppler",
+   "synonymes": [
+    "varices",
+    "veine"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Varices avec reflux sévère de la saphène interne ou externe ou antérieur accessoire au Doppler"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport de Doppler"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Il n'y a aucune indication de chirurgie lorsqu'il n'y a pas de reflux de la saphène interne ou externe ou antérieur accessoire au Doppler, sauf exception."
+   ]
+  },
+  {
+   "id": "vasc-anevrisme-de-l-aorte-abdominale",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Anévrisme asymptomatique",
+   "probleme": "Anévrisme de l'aorte abdominale",
+   "synonymes": [
+    "AAA",
+    "aorte",
+    "anévrisme"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Progression rapide peu importe le diamètre (≥ 10 mm / année)"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "50-70 mm"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "45-49 mm"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "31-44 mm"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité.",
+    "Le médecin de famille devrait assurer le suivi d'un anévrisme de l'aorte abdominale pour un diamètre < 45 mm par une échographie annuelle (Choisir avec soin).",
+    "Consulter les alertes cliniques (> 70 mm : chirurgien vasculaire de garde)."
+   ]
+  },
+  {
+   "id": "vasc-anevrisme-de-l-aorte-thoracique-descendante",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Anévrisme asymptomatique",
+   "probleme": "Anévrisme de l'aorte thoracique descendante",
+   "synonymes": [
+    "aorte",
+    "anévrisme"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "≥ 60 mm"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "< 60 mm"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport TDM ou ETT"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité.",
+    "Anévrisme de l'aorte thoracique ascendante : référer directement en chirurgie cardiaque et non au CRDS."
+   ]
+  },
+  {
+   "id": "vasc-anevrisme-de-l-artere-iliaque",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Anévrisme asymptomatique",
+   "probleme": "Anévrisme de l'artère iliaque",
+   "synonymes": [
+    "anévrisme"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "≥ 30 mm"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "< 30 mm"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité."
+   ]
+  },
+  {
+   "id": "vasc-anevrisme-de-l-artere-poplitee",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Anévrisme asymptomatique",
+   "probleme": "Anévrisme de l'artère poplitée",
+   "synonymes": [
+    "anévrisme"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "≥ 20 mm"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "< 20 mm"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité."
+   ]
+  },
+  {
+   "id": "vasc-anevrisme-visceral-arteres-renales-splenique-mesenteriq",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Anévrisme asymptomatique",
+   "probleme": "Anévrisme viscéral (artères rénales, splénique, mésentériques)",
+   "synonymes": [
+    "anévrisme",
+    "splénique",
+    "rénale"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "≥ 20 mm"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "< 20 mm"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité."
+   ]
+  },
+  {
+   "id": "vasc-anevrisme-visceral-chez-femme-enceinte-ou-en-age-de-pro",
+   "formulaire": "AH-767",
+   "specialite": "Chirurgie vasculaire et endovasculaire adulte",
+   "categorie": "Anévrisme asymptomatique",
+   "probleme": "Anévrisme viscéral chez femme enceinte ou en âge de procréer (peu importe le diamètre)",
+   "synonymes": [
+    "anévrisme",
+    "grossesse"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Anévrisme viscéral chez femme enceinte ou en âge de procréer (peu importe le diamètre)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "onco-neoplasie-de-novo",
+   "formulaire": "AH-768",
+   "specialite": "Oncologie médicale / hémato-oncologie adulte",
+   "categorie": "Oncologie",
+   "probleme": "Néoplasie de novo",
+   "synonymes": [
+    "cancer",
+    "tumeur"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Néoplasie de novo"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport(s) d'imagerie médicale (obligatoire)"
+    ],
+    "examens": [],
+    "autres": [
+     "Rapport de pathologie (s'il y a lieu)",
+     "Préciser le site du primaire (si connu) et les métastase(s) si connue(s)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "onco-suspicion-de-nouvelles-metastases-chez-un-usager-avec-u",
+   "formulaire": "AH-768",
+   "specialite": "Oncologie médicale / hémato-oncologie adulte",
+   "categorie": "Oncologie",
+   "probleme": "Suspicion de nouvelles métastases chez un usager avec une histoire de néoplasie antérieure sans suivi actif en oncologie",
+   "synonymes": [
+    "cancer",
+    "métastase",
+    "récidive"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Suspicion de nouvelles métastases chez un usager avec une histoire de néoplasie antérieure sans suivi actif en oncologie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport(s) d'imagerie médicale (obligatoire)"
+    ],
+    "examens": [],
+    "autres": [
+     "Rapport de pathologie (s'il y a lieu)",
+     "Préciser le site primaire et le lieu du suivi antérieur pour le cancer"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "onco-situation-clinique-suspecte-de-neoplasie-ou-de-metastas",
+   "formulaire": "AH-768",
+   "specialite": "Oncologie médicale / hémato-oncologie adulte",
+   "categorie": "Oncologie",
+   "probleme": "Situation clinique suspecte de néoplasie ou de métastases sans site primaire identifié",
+   "synonymes": [
+    "cancer",
+    "métastase",
+    "primaire inconnu"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Situation clinique suspecte de néoplasie ou de métastases sans site primaire identifié"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport(s) d'imagerie médicale (obligatoire)"
+    ],
+    "examens": [],
+    "autres": [
+     "Rapport de pathologie (s'il y a lieu)",
+     "Spécifier"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "onco-reevaluation-du-traitement-en-l-absence-de-suivi-actif-",
+   "formulaire": "AH-768",
+   "specialite": "Oncologie médicale / hémato-oncologie adulte",
+   "categorie": "Oncologie",
+   "probleme": "Réévaluation du traitement en l'absence de suivi actif en oncologie (ex. : hormonothérapie)",
+   "synonymes": [
+    "hormonothérapie",
+    "cancer du sein"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réévaluation du traitement en l'absence de suivi actif en oncologie (ex. : hormonothérapie)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-tunnel-carpien-qui-ne-repond-pas-au-traitement-medic",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Tunnel carpien qui ne répond pas au traitement médical après 2 mois (orthèse et infiltration)",
+   "synonymes": [
+    "canal carpien",
+    "main"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Tunnel carpien qui ne répond pas au traitement médical après 2 mois (orthèse et infiltration)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Orthèse : information sur la prescription au site de la RAMQ (programme des appareils suppléant à une déficience physique)."
+   ]
+  },
+  {
+   "id": "plastie-doigt-gachette",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Doigt gâchette",
+   "synonymes": [
+    "doigt à ressaut",
+    "main"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Avec blocage permanent"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Sans blocage ou blocage intermittent réductible"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-kyste-arthro-synovial",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Kyste arthro-synovial",
+   "synonymes": [
+    "ganglion",
+    "kyste synovial",
+    "poignet"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Kyste arthro-synovial"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-maladie-de-dupuytren",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Maladie de Dupuytren",
+   "synonymes": [
+    "Dupuytren",
+    "main"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Avec perte d'extension"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Sans perte d'extension"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-tendinite-de-quervain-avec-echec-au-traitement-medic",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Tendinite De Quervain avec échec au traitement médical après 2 mois (orthèse et infiltration)",
+   "synonymes": [
+    "De Quervain",
+    "poignet"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Tendinite De Quervain avec échec au traitement médical après 2 mois (orthèse et infiltration)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Orthèse : information sur la prescription au site de la RAMQ (programme des appareils suppléant à une déficience physique)."
+   ]
+  },
+  {
+   "id": "plastie-rhizarthrose-invalidante-avec-echec-au-traitement-me",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Rhizarthrose invalidante avec échec au traitement médical (orthèse et infiltration)",
+   "synonymes": [
+    "arthrose du pouce",
+    "rhizarthrose"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Rhizarthrose invalidante avec échec au traitement médical (orthèse et infiltration)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "RX main"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Orthèse : information sur la prescription au site de la RAMQ (programme des appareils suppléant à une déficience physique)."
+   ]
+  },
+  {
+   "id": "plastie-fracture-aigue-et-non-deplacee-de-la-main",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Fracture aiguë et non déplacée de la main",
+   "synonymes": [
+    "fracture",
+    "métacarpe",
+    "phalange"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Fracture aiguë et non déplacée de la main"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "RX"
+    ],
+    "examens": [],
+    "autres": [
+     "Immobilisation adéquate"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Voir les alertes cliniques."
+   ]
+  },
+  {
+   "id": "plastie-doigt-en-maillet-mallet-finger",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Doigt en Maillet (Mallet finger)",
+   "synonymes": [
+    "mallet",
+    "doigt"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Doigt en Maillet (Mallet finger)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "RX"
+    ],
+    "examens": [],
+    "autres": [
+     "Immobilisation adéquate"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-luxation-reduite-des-doigts",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Main et doigts",
+   "probleme": "Luxation réduite des doigts",
+   "synonymes": [
+    "luxation",
+    "doigt"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Luxation réduite des doigts"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "RX post réduction"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Voir les alertes cliniques."
+   ]
+  },
+  {
+   "id": "plastie-masse-benigne-ex-lipome-kyste-sebace-etc-causant-des",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Cutané / tissu mou",
+   "probleme": "Masse bénigne (ex. : lipome, kyste sébacé, etc.) causant des symptômes d'ordre fonctionnel objectivable",
+   "synonymes": [
+    "lipome",
+    "kyste"
+   ],
+   "priorites": [
+    {
+     "niveau": "HORS",
+     "criteres": [
+      "Service non couvert par la RAMQ"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Service non couvert par la RAMQ. Veuillez utiliser les corridors de service de votre région pour référer le patient."
+   ]
+  },
+  {
+   "id": "plastie-masse-5-cm-a-la-tete-ou-au-cou-avec-atteintes-foncti",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Cutané / tissu mou",
+   "probleme": "Masse > 5 cm à la tête ou au cou avec atteintes fonctionnelles dont la bénignité a été démontrée par imagerie médicale",
+   "synonymes": [
+    "lipome",
+    "masse"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Masse > 5 cm à la tête ou au cou avec atteintes fonctionnelles dont la bénignité a été démontrée par imagerie médicale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "L'exérèse de certaines lésions ou masses bénignes n'est pas toujours un service assuré par la RAMQ (ex. : acrochordon, lipome et kératose séborrhéique, etc.) et pourrait être aux frais de l'usager. Merci de l'en aviser."
+   ]
+  },
+  {
+   "id": "plastie-lesion-cutanee-maligne-avec-pathologie-confirmee-ex-",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Cutané / tissu mou",
+   "probleme": "Lésion cutanée maligne avec pathologie confirmée (ex. : basocellulaire, spinocellulaire, mélanome, etc.)",
+   "synonymes": [
+    "cancer de la peau",
+    "carcinome",
+    "mélanome"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Lésion cutanée maligne avec pathologie confirmée (ex. : basocellulaire, spinocellulaire, mélanome, etc.)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Rapport de pathologie"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-lesion-cutanee-benigne",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Cutané / tissu mou",
+   "probleme": "Lésion cutanée bénigne",
+   "synonymes": [
+    "grain de beauté",
+    "nævus"
+   ],
+   "priorites": [
+    {
+     "niveau": "HORS",
+     "criteres": [
+      "Service non couvert par la RAMQ"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Service non couvert par la RAMQ. Veuillez utiliser les corridors de service de votre région pour référer le patient."
+   ]
+  },
+  {
+   "id": "plastie-cicatrice-vicieuse-du-visage",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Cutané / tissu mou",
+   "probleme": "Cicatrice vicieuse du visage",
+   "synonymes": [
+    "cicatrice"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Cicatrice vicieuse du visage"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-reduction-mammaire",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Sein",
+   "probleme": "Réduction mammaire",
+   "synonymes": [
+    "sein",
+    "hypertrophie mammaire"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Réduction mammaire"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-asymetrie-mammaire",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Sein",
+   "probleme": "Asymétrie mammaire",
+   "synonymes": [
+    "sein"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Asymétrie mammaire"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-reconstruction-mammaire-post-neoplasie",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Sein",
+   "probleme": "Reconstruction mammaire post néoplasie",
+   "synonymes": [
+    "sein",
+    "mastectomie"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Reconstruction mammaire post néoplasie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-gynecomastie",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Sein",
+   "probleme": "Gynécomastie",
+   "synonymes": [
+    "seins homme"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Gynécomastie"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "Bilan endocrinien"
+    ],
+    "imagerie": [
+     "Imagerie médicale"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-fracture-immobilisee-non-deplacee-du-carpe-incluant-",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Autres",
+   "probleme": "Fracture immobilisée non déplacée du carpe incluant scaphoïde",
+   "synonymes": [
+    "scaphoïde",
+    "poignet",
+    "fracture"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Fracture immobilisée non déplacée du carpe incluant scaphoïde"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "RX du poignet incluant vue du scaphoïde"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Voir les alertes cliniques."
+   ]
+  },
+  {
+   "id": "plastie-plaies-complexes-et-chroniques",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Autres",
+   "probleme": "Plaies complexes et chroniques",
+   "synonymes": [
+    "plaie",
+    "ulcère"
+   ],
+   "priorites": [
+    {
+     "niveau": "HORS",
+     "criteres": [
+      "Référer à la clinique de plaie de votre région et non au CRDS"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "plastie-brulures-qui-ne-repondent-pas-aux-criteres-des-centr",
+   "formulaire": "AH-769",
+   "specialite": "Chirurgie plastique adulte",
+   "categorie": "Autres",
+   "probleme": "Brûlures qui ne répondent pas aux critères des centres d'expertise",
+   "synonymes": [
+    "brûlure"
+   ],
+   "priorites": [
+    {
+     "niveau": "B",
+     "criteres": [
+      "Brûlures qui ne répondent pas aux critères des centres d'expertise"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Critères de référence aux centres d'expertise pour grands brûlés : document de l'INESSS (VBG_criteres_transfert_vers_centre_expertise.pdf)."
+   ]
+  },
+  {
+   "id": "allergie-rhinite-sinusite-a-repetition-evaluation-et-opinion",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Respiratoire",
+   "probleme": "Rhinite/sinusite à répétition : évaluation et opinion thérapeutique",
+   "synonymes": [
+    "rhinite allergique",
+    "sinusite"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Rhinite/sinusite à répétition : évaluation et opinion thérapeutique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Contrôle de l'environnement + corticostéroïdes intranasaux ≥ 6 semaines + antihistaminiques à dose recommandée"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "allergie-asthme",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Respiratoire",
+   "probleme": "Asthme",
+   "synonymes": [
+    "asthme",
+    "désensibilisation",
+    "tests cutanés"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Évaluation et opinion thérapeutique"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Dépistage d'allergie"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Évaluation pour désensibilisation"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "allergie-allergies-alimentaires-specifier-l-aliment-s-suspec",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Alimentaire",
+   "probleme": "Allergies alimentaires (spécifier l'aliment(s) suspecté(s))",
+   "synonymes": [
+    "arachide",
+    "allergie alimentaire",
+    "EpiPen"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Âge < 2 ans, ≥ 2 aliments"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Âge < 2 ans, 1 seul aliment"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Âge ≥ 2 ans"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Prescrire l'auto-injecteur d'épinéphrine"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Période réfractaire possible de 6 semaines pour la validité des tests (faux négatif) post réaction anaphylactique."
+   ]
+  },
+  {
+   "id": "allergie-anaphylaxie-de-cause-inexpliquee",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Anaphylaxie",
+   "probleme": "Anaphylaxie de cause inexpliquée",
+   "synonymes": [
+    "anaphylaxie",
+    "EpiPen"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "≥ 2 épisodes dans la dernière année"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "1er épisode"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Prescrire l'auto-injecteur d'épinéphrine",
+     "Spécifier les systèmes atteints"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Critères diagnostiques d'anaphylaxie : ≥ 2 systèmes atteints (cutané incluant angioedème, respiratoire, gastrointestinal, cardiovasculaire).",
+    "Période réfractaire possible de 6 semaines pour la validité des tests (faux négatif) post réaction anaphylactique."
+   ]
+  },
+  {
+   "id": "allergie-allergies-aux-insectes-avec-reactions-systemiques",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Anaphylaxie",
+   "probleme": "Allergies aux insectes avec réactions systémiques",
+   "synonymes": [
+    "guêpe",
+    "abeille",
+    "hyménoptère",
+    "venin"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Allergies aux insectes avec réactions systémiques"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Prescrire l'auto-injecteur d'épinéphrine"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Période réfractaire possible de 6 semaines pour la validité des tests (faux négatif) post réaction anaphylactique."
+   ]
+  },
+  {
+   "id": "allergie-urticaire-chronique-6-semaines-avec-ou-sans-angioed",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Urticaire / angioedème",
+   "probleme": "Urticaire chronique > 6 semaines (avec ou sans angioedème) non contrôlée avec 4 fois la dose d'antihistaminique de 2e génération",
+   "synonymes": [
+    "urticaire"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Urticaire chronique > 6 semaines (avec ou sans angioedème) non contrôlée avec 4 fois la dose d'antihistaminique de 2e génération"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "allergie-angioedeme-isole-malgre-l-arret-de-l-ieca-2-episode",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Urticaire / angioedème",
+   "probleme": "Angioedème isolé malgré l'arrêt de l'IECA ≥ 2 épisodes",
+   "synonymes": [
+    "angioedème",
+    "IECA"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Angioedème isolé malgré l'arrêt de l'IECA ≥ 2 épisodes"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "allergie-deficit-immunologique-suspecte",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Immunodéficience",
+   "probleme": "Déficit immunologique suspecté",
+   "synonymes": [
+    "immunodéficience",
+    "infections à répétition"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Si IgG anormal"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Si IgG normal"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [
+     "FSC, IgG, IgA, IgM"
+    ],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "allergie-allergie-medicamenteuse",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Médicament",
+   "probleme": "Allergie médicamenteuse",
+   "synonymes": [
+    "pénicilline",
+    "allergie aux antibiotiques",
+    "AH-707"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Pénicilline"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Autre médicament"
+     ]
+    },
+    {
+     "niveau": "C",
+     "criteres": [
+      "Médication essentielle sans alternative ET besoin de prescrire dans un court délai (préciser)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Spécifier le(s) médicament(s) et la réaction dans la section renseignements cliniques"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Prérequis : spécifier le(s) médicament(s) et la réaction dans la section renseignements cliniques. En cas d'une nouvelle réaction médicamenteuse, remplir le formulaire AH-707 (Déclaration d'une nouvelle réaction d'allergie médicamenteuse)."
+   ]
+  },
+  {
+   "id": "allergie-allergie-a-un-vaccin",
+   "formulaire": "AH-770",
+   "specialite": "Immuno-allergie adulte et pédiatrique",
+   "categorie": "Vaccin",
+   "probleme": "Allergie à un vaccin",
+   "synonymes": [
+    "vaccin",
+    "MCI",
+    "ESSI"
+   ],
+   "priorites": [
+    {
+     "niveau": "HORS",
+     "criteres": [
+      "Ne pas référer au CRDS : déclaration à la Direction de la santé publique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Remplir le formulaire « Déclaration de manifestations cliniques après une vaccination » (www.msss.gouv.qc.ca/professionnels/vaccination/mci/declarer-une-mci/) et l'acheminer à la Direction de la santé publique."
+   ]
+  },
+  {
+   "id": "geriatrie-trouble-neurocognitif-majeur-atypique",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Trouble neurocognitif",
+   "probleme": "Trouble neurocognitif majeur atypique",
+   "synonymes": [
+    "démence",
+    "Alzheimer",
+    "mémoire"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Trouble neurocognitif majeur atypique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Imagerie cérébrale 6 mois et moins"
+    ],
+    "examens": [
+     "MOCA ou MMSE"
+    ],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "geriatrie-trouble-neurocognitif-majeur-typique-preciser-la-p",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Trouble neurocognitif",
+   "probleme": "Trouble neurocognitif majeur typique : préciser la problématique à évaluer",
+   "synonymes": [
+    "démence",
+    "Alzheimer",
+    "mémoire"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Trouble neurocognitif majeur typique : préciser la problématique à évaluer"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [
+     "MOCA ou MMSE"
+    ],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [
+     "Imagerie cérébrale"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "geriatrie-trouble-du-comportement-scpd-sans-antecedent-de-ma",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Trouble neurocognitif",
+   "probleme": "« Trouble du comportement » SCPD sans antécédent de maladies psychiatriques (réfractaire aux interventions de l'équipe SCPD de première ligne si disponible)",
+   "synonymes": [
+    "SCPD",
+    "démence",
+    "agitation",
+    "maintien à domicile"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "MAD potentiellement compromis à court terme"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "MAD non compromis à court terme"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Imagerie cérébrale 6 mois et moins"
+    ],
+    "examens": [
+     "MOCA ou MMSE"
+    ],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "geriatrie-chutes-recurrentes-non-syncopales-inexpliquees",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Trouble neurocognitif",
+   "probleme": "Chutes récurrentes non syncopales inexpliquées",
+   "synonymes": [
+    "chute"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Chutes récurrentes non syncopales inexpliquées"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Rapport d'évaluation en physiothérapie"
+    ]
+   },
+   "orientation": []
+  },
+  {
+   "id": "geriatrie-maltraitance-situation-d-abus-negligence-etc",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Autres",
+   "probleme": "Maltraitance : situation d'abus, négligence, etc.",
+   "synonymes": [
+    "abus",
+    "négligence",
+    "maltraitance"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Maltraitance : situation d'abus, négligence, etc."
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie cérébrale ou à prescrire si non réalisé"
+    ],
+    "examens": [],
+    "autres": [
+     "Rapport d'évaluation psychosociale",
+     "Nom et téléphone du travailleur social à inscrire dans renseignements cliniques"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "geriatrie-perte-de-poids-inexpliquee-chez-usager-75-ans-apre",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Autres",
+   "probleme": "Perte de poids inexpliquée chez usager > 75 ans après investigation appropriée",
+   "synonymes": [
+    "perte de poids",
+    "dénutrition"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Perte de poids inexpliquée chez usager > 75 ans après investigation appropriée"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Rapports pertinents"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "geriatrie-polypharmacie-potentiellement-nefaste-deprescripti",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Autres",
+   "probleme": "Polypharmacie potentiellement néfaste/Déprescription",
+   "synonymes": [
+    "polypharmacie",
+    "déprescription",
+    "médicaments"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Polypharmacie potentiellement néfaste/Déprescription"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Profil pharmacologique à jour (indiquer si plus d'une pharmacie)"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "geriatrie-trouble-de-la-marche-et-de-l-equilibre",
+   "formulaire": "AH-771",
+   "specialite": "Gériatrie (consultation dirigée au médecin gériatre)",
+   "categorie": "Autres",
+   "probleme": "Trouble de la marche et de l'équilibre",
+   "synonymes": [
+    "marche",
+    "équilibre",
+    "chute"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Trouble de la marche et de l'équilibre"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie cérébrale"
+    ],
+    "examens": [],
+    "autres": [
+     "Rapport d'évaluation en physiothérapie"
+    ]
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-myelopathie-compressive-avec-symptomes-8-semaines",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Rachis cervico-dorsal",
+   "probleme": "Myélopathie compressive avec symptômes > 8 semaines",
+   "synonymes": [
+    "myélopathie",
+    "sténose cervicale"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Myélopathie compressive avec symptômes > 8 semaines"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM < 12 mois et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-radiculopathie-douloureuse-ou-sensitivo-motrice-ex",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Rachis cervico-dorsal",
+   "probleme": "Radiculopathie douloureuse ou sensitivo-motrice (ex. : hernie discale cervicale)",
+   "synonymes": [
+    "hernie cervicale",
+    "cervicobrachialgie"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Avec symptômes sévères et limitation fonctionnelle (AVD/AVQ) > 8 semaines"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Avec symptômes modérés chroniques > 8 semaines"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM < 12 mois et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-cervicalgie-dorsalgie-avec-instabilite-anatomique-",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Rachis cervico-dorsal",
+   "probleme": "Cervicalgie/dorsalgie avec instabilité anatomique, démontrée à l'imagerie, sans atteinte médullaire ou radiculaire",
+   "synonymes": [
+    "cervicalgie",
+    "instabilité"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Cervicalgie/dorsalgie avec instabilité anatomique, démontrée à l'imagerie, sans atteinte médullaire ou radiculaire"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie et autres rapports d'investigation si disponible"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-radiculopathie-douloureuse-ou-sensitivo-motrice-ou",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Rachis lombo-sacré",
+   "probleme": "Radiculopathie douloureuse ou sensitivo-motrice ou claudication neurogénique",
+   "synonymes": [
+    "sciatalgie",
+    "hernie discale",
+    "sténose spinale",
+    "claudication neurogénique"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Avec symptômes sévères et limitation fonctionnelle (AVD/AVQ) > 8 semaines"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Avec symptômes modérés chroniques > 8 semaines"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM < 12 mois et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": [
+     "Échec physiothérapie x 8 semaines et médication"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-lombalgie-isolee-sans-atteinte-radiculaire-avec-an",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Rachis lombo-sacré",
+   "probleme": "Lombalgie isolée sans atteinte radiculaire avec anomalie structurelle (scoliose, spondylolyse, spondylolisthésis, sténose spinale, sténose foraminale)",
+   "synonymes": [
+    "lombalgie",
+    "spondylolisthésis",
+    "scoliose"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Lombalgie isolée sans atteinte radiculaire avec anomalie structurelle (scoliose, spondylolyse, spondylolisthésis, sténose spinale, sténose foraminale)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM < 12 mois et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-neuropathie-compressive-ex-tunnel-carpien-ou-canal",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Nerfs périphériques",
+   "probleme": "Neuropathie compressive (ex. : tunnel carpien ou canal cubital)",
+   "synonymes": [
+    "canal carpien",
+    "cubital"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Avec atteinte motrice"
+     ]
+    },
+    {
+     "niveau": "E",
+     "criteres": [
+      "Sans atteinte motrice"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [
+     "EMG < 1 an et autres rapports d'investigation"
+    ],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-tumeur-d-un-nerf-peripherique",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Nerfs périphériques",
+   "probleme": "Tumeur d'un nerf périphérique",
+   "synonymes": [
+    "schwannome",
+    "neurofibrome"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Tumeur d'un nerf périphérique"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "IRM ou échographie < 12 mois"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-tumeurs-intracraniennes-extracerebrales-meningiome",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Tumeur",
+   "probleme": "Tumeurs intracrâniennes extracérébrales : méningiome, neurinome, schwannome, tumeur hypophysaire, base ou voûte du crâne",
+   "synonymes": [
+    "méningiome",
+    "hypophyse",
+    "tumeur cérébrale"
+   ],
+   "priorites": [
+    {
+     "niveau": "C",
+     "criteres": [
+      "Avec symptôme neurologique progressif"
+     ]
+    },
+    {
+     "niveau": "D",
+     "criteres": [
+      "Sans symptôme neurologique progressif"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM ou TDM et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-anevrisme-cerebral-malformation-arterio-veineuse-f",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Vasculaire",
+   "probleme": "Anévrisme cérébral, malformation artério-veineuse, fistule durale, angiome caverneux (sans hémorragie)",
+   "synonymes": [
+    "anévrisme",
+    "MAV"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Anévrisme cérébral, malformation artério-veineuse, fistule durale, angiome caverneux (sans hémorragie)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM ou TDM et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-stenose-carotidienne-asymptomatique-70",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Vasculaire",
+   "probleme": "Sténose carotidienne asymptomatique (≥ 70 %)",
+   "synonymes": [
+    "carotide"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Sténose carotidienne asymptomatique (≥ 70 %)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-nevralgie-cranio-faciale-ex-trijumeau-refractaire-",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Fonctionnel",
+   "probleme": "Névralgie cranio-faciale (ex. : trijumeau) réfractaire au traitement médical",
+   "synonymes": [
+    "trijumeau"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Névralgie cranio-faciale (ex. : trijumeau) réfractaire au traitement médical"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-neuromodulation-pour-syndrome-douloureux-chronique",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Fonctionnel",
+   "probleme": "Neuromodulation pour syndrome douloureux chronique ou pour spasticité",
+   "synonymes": [
+    "neurostimulation",
+    "spasticité",
+    "douleur chronique"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Neuromodulation pour syndrome douloureux chronique ou pour spasticité"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": [
+     "Rapports d'investigation"
+    ]
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-hydrocephalie-chronique-ou-a-pression-normale",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Crânien divers",
+   "probleme": "Hydrocéphalie chronique ou à pression normale",
+   "synonymes": [
+    "hydrocéphalie",
+    "HPN"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Hydrocéphalie chronique ou à pression normale"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'imagerie et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-kyste-intracranien-ex-arachnoidien-glande-pineale",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Crânien divers",
+   "probleme": "Kyste intracrânien (ex. : arachnoïdien, glande pinéale)",
+   "synonymes": [
+    "kyste arachnoïdien"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Kyste intracrânien (ex. : arachnoïdien, glande pinéale)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM ou TDM et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-lesion-osseuse-cranienne-d-aspect-benin-ex-kyste-m",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Crânien divers",
+   "probleme": "Lésion osseuse crânienne d'aspect bénin (ex. : kyste, malformation osseuse)",
+   "synonymes": [
+    "crâne"
+   ],
+   "priorites": [
+    {
+     "niveau": "E",
+     "criteres": [
+      "Lésion osseuse crânienne d'aspect bénin (ex. : kyste, malformation osseuse)"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [
+     "Rapport d'IRM ou TDM et autres rapports d'investigation"
+    ],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": []
+  },
+  {
+   "id": "neurochir-malformation-de-chiari-type-1-symptomatique-ou-ave",
+   "formulaire": "AH-772",
+   "specialite": "Neurochirurgie adulte",
+   "categorie": "Crânien divers",
+   "probleme": "Malformation de Chiari type 1 : symptomatique ou avec syrinx",
+   "synonymes": [
+    "Chiari",
+    "syrinx"
+   ],
+   "priorites": [
+    {
+     "niveau": "D",
+     "criteres": [
+      "Malformation de Chiari type 1 : symptomatique ou avec syrinx"
+     ]
+    }
+   ],
+   "prerequis_obligatoires": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "prerequis_souhaitables": {
+    "laboratoires": [],
+    "imagerie": [],
+    "examens": [],
+    "autres": []
+   },
+   "orientation": [
+    "Symptômes associés à la malformation de Chiari type 1 : céphalée occipito-cervicale à l'effort, trouble de déglutition, apnée du sommeil. La présence d'au moins un de ces symptômes est requise."
+   ]
   }
  ],
- "a_venir": "7 formulaires APSS restent à transcrire et à vérifier."
+ "a_venir": ""
 }

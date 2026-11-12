@@ -41,8 +41,10 @@
     return mots.every(m => entree.mots.some(w => m.length <= 2 ? w === m : w.startsWith(m)) || (m.length > 3 && entree.plat.includes(m)));
   }
   function score(entree, mots) {
-    const titre = sansAccents(entree.p.probleme + " " + entree.p.specialite);
-    return mots.reduce((s, m) => s + (titre.includes(m) ? 3 : 0) + (sansAccents(entree.p.synonymes.join(" ")).includes(m) ? 1 : 0), 0);
+    const titre = sansAccents(`${entree.p.probleme} ${entree.p.libelle_formulaire || ""} ${entree.p.specialite}`);
+    // Un synonyme identique au mot cherché (FA, AAA, TDAH) compte autant que le titre.
+    const syn = entree.p.synonymes.map(sansAccents);
+    return mots.reduce((s, m) => s + (titre.includes(m) ? 3 : 0) + (syn.includes(m) ? 3 : syn.some(x => x.includes(m)) ? 1 : 0), 0);
   }
 
   function carte(p, mots) {
@@ -134,8 +136,9 @@
     if (specs.length <= 2) specs.forEach(id => {
       const f = D.formulaires.find(x => x.id === id); if (!f || !f.alertes_urgence || !f.alertes_urgence.length) return;
       const titre = `${f.alertes_titre || "Diriger l'usager à l'urgence"} · ${f.specialite}`;
-      const a = el("section", "cr-alerte"); a.setAttribute("aria-label", titre);
-      const h = el("h2"); h.append(icone("i-alerte i-petit", ALERTE), document.createTextNode(titre)); a.appendChild(h);
+      // Repliable : ouverte sur grand écran, fermée sur téléphone pour laisser voir les résultats (le titre reste visible).
+      const a = el("details", "cr-alerte"); a.open = matchMedia("(min-width: 760px)").matches;
+      const h = el("summary"); h.append(icone("i-alerte i-petit", ALERTE), document.createTextNode(titre)); a.appendChild(h);
       const ul = el("ul"); f.alertes_urgence.forEach(x => ul.appendChild(el("li", null, x))); a.appendChild(ul);
       if (f.consignes && f.consignes.length) { const d = el("details", "cr-consignes-f"); d.appendChild(el("summary", null, "Consignes du formulaire"));
         const u2 = el("ul"); f.consignes.forEach(x => u2.appendChild(el("li", null, x))); d.appendChild(u2); a.appendChild(d); }
@@ -155,7 +158,7 @@
       p.append(a, document.createTextNode(`, révision ${f.revision}, ${f.organisme}. Vérifié le ${f.verifie_le}. ${f.statut}`)); z.appendChild(p);
     });
     D.region.consignes.forEach(x => $("cr-consignes").appendChild(el("li", null, x)));
-    $("cr-a-venir").textContent = D.a_venir;
+    $("cr-a-venir").textContent = D.a_venir; $("cr-a-venir").hidden = !D.a_venir;
   }
 
   fetch("/crds/crds_data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {

@@ -30,7 +30,7 @@ export default formulaire(meta("AH-761", "mi", "Médecine interne adulte", {
   R(MIG, "Découverte radiologique (nodule thyroïdien, pulmonaire, surrénalien, adénopathie, etc.)", ["incidentalome", "nodule"], { pre: ["I:Rapport d'imagerie"] }),
   R(MIG, "Anomalie de laboratoire (VS, CRP, CK, ANA, transaminase, etc.)", ["laboratoire"], { pre: ["L:Rapport de laboratoire ou préciser les valeurs"] }),
   R(MIG, "Autres conditions (ex. : perte de poids > 10 %, œdème périphérique, fatigue, syncope, fièvre d'origine inconnue, urticaire-angioedème, diaphorèse nocturne, etc.)", ["perte de poids", "fatigue", "fièvre"], { pre: ["Préciser dans la section « Impr. diagn. »"] }),
-  R(AUT, "Cardiologie (FA, MCAS, dyspnée, insuffisance cardiaque, arythmie, palpitations, valvulopathie, etc.)", ["cœur", "FA"]),
+  R(AUT, "Cardiologie (FA, MCAS, dyspnée, insuffisance cardiaque, arythmie, palpitations, valvulopathie, etc.)", ["cœur"]),
   R(AUT, "Cardiologie avec tapis roulant (si disponible dans votre région)", ["épreuve d'effort", "tapis roulant"]),
   R(AUT, "Endocrinologie (diabète, dyslipidémie, dysthyroïdie, hypercalcémie, etc.)", ["diabète", "thyroïde", "cholestérol"], { ori: [CLIN] }),
   R(AUT, "Gastroentérologie et hépatologie (maladie inflammatoire, diarrhée, ascite, douleur abdominale, cirrhose, hémochromatose, etc.)", ["foie", "intestin"]),
