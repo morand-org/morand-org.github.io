@@ -23,18 +23,8 @@
   });
 
   // Surligne les mots cherchés dans un texte, sans HTML.
-  function surligner(parent, texte, mots) {
-    if (!mots.length) { parent.appendChild(document.createTextNode(texte)); return; }
-    const plat = sansAccents(texte), marques = new Array(texte.length).fill(false);
-    mots.forEach(m => { let i = plat.indexOf(m); while (i >= 0) { for (let k = i; k < i + m.length; k++) marques[k] = true; i = plat.indexOf(m, i + m.length); } });
-    let i = 0;
-    while (i < texte.length) {
-      let j = i; while (j < texte.length && marques[j] === marques[i]) j++;
-      const morceau = texte.slice(i, j);
-      parent.appendChild(marques[i] ? el("mark", null, morceau) : document.createTextNode(morceau));
-      i = j;
-    }
-  }
+  // Le texte des fiches est affiché tel quel, sans surlignage des mots cherchés.
+  function surligner(parent, texte) { parent.appendChild(document.createTextNode(texte)); }
 
   // Chaque mot cherché doit commencer un mot de la fiche ; deux lettres ou moins (FA, IC), être un mot entier.
   function correspond(entree, mots) {
@@ -74,31 +64,20 @@
     }));
     crit.appendChild(ul); c.appendChild(crit);
 
-    // Prérequis obligatoires : toujours affichés, même vides, pour qu'on sache qu'il n'y en a pas.
+    // Prérequis obligatoires en rouge ; sans prérequis : « Aucun prérequis » en vert ; souhaitables en jaune.
     const ob = Object.entries(p.prerequis_obligatoires).flatMap(([t, l]) => l.map(x => [t, x]));
-    const pre = el("div", "cr-bloc cr-prerequis"); const h4 = el("h4"); h4.append(icone("i-alerte i-petit", ALERTE), document.createTextNode("Prérequis obligatoires")); pre.appendChild(h4);
-    if (!ob.length) { pre.classList.add("cr-sans"); pre.appendChild(el("p", "cr-aucun", "Aucun prérequis inscrit au formulaire pour cette raison.")); }
+    if (!ob.length) { const a = el("p", "cr-aucun-pre"); a.append(icone("i-ok i-petit", OK), document.createTextNode("Aucun prérequis")); c.appendChild(a); }
     else {
+      const pre = el("div", "cr-bloc cr-prerequis"); const h4 = el("h4"); h4.append(icone("i-alerte i-petit", ALERTE), document.createTextNode("Prérequis obligatoires")); pre.appendChild(h4);
       const l = el("ul");
-      ob.forEach(([t, x], i) => {
-        const li = el("li"), lab = el("label"), cb = el("input"), co = el("span", "cr-coche"), tx = el("span", "cr-texte");
-        cb.type = "checkbox"; cb.id = `${p.id}-pre-${i}`; lab.htmlFor = cb.id;
-        co.append(icone("i-alerte", ALERTE), icone("i-ok", OK));
-        if (TYPES[t]) tx.appendChild(el("span", "cr-type", TYPES[t]));
-        surligner(tx, x, mots);
-        lab.append(cb, co, tx); li.appendChild(lab); l.appendChild(li);
-        cb.addEventListener("change", () => { cb.setAttribute("aria-label", cb.checked ? "Fait" : "À faire"); });
-      });
-      pre.appendChild(l);
-      pre.appendChild(el("p", "cr-aucun", "Cochez ce qui est fait ou demandé : l'alerte reste tant qu'un prérequis manque."));
+      ob.forEach(([t, x]) => { const li = el("li"); if (TYPES[t]) li.appendChild(el("span", "cr-type", TYPES[t])); li.appendChild(document.createTextNode(x)); l.appendChild(li); });
+      pre.appendChild(l); c.appendChild(pre);
     }
-    c.appendChild(pre);
-
     const so = Object.entries(p.prerequis_souhaitables).flatMap(([t, l]) => l.map(x => [t, x]));
     if (so.length) {
-      const s = el("div", "cr-bloc"); s.appendChild(el("h4", null, "Souhaitable"));
-      const l = el("ul", "cr-souhaitable"); so.forEach(([t, x]) => { const li = el("li"); if (TYPES[t]) li.appendChild(el("span", "cr-type", TYPES[t])); surligner(li, x, mots); l.appendChild(li); });
-      s.appendChild(l); c.appendChild(s);
+      const s2 = el("div", "cr-bloc cr-souhaitables"); s2.appendChild(el("h4", null, "Souhaitable, de préférence"));
+      const l = el("ul"); so.forEach(([t, x]) => { const li = el("li"); if (TYPES[t]) li.appendChild(el("span", "cr-type", TYPES[t])); li.appendChild(document.createTextNode(x)); l.appendChild(li); });
+      s2.appendChild(l); c.appendChild(s2);
     }
     const notes = [...(p.orientation || []), ...(p.exclusions_urgence || [])];
     if (notes.length) { const o = el("div", "cr-orientation"); notes.forEach(n => o.appendChild(el("p", null, n))); c.appendChild(o); }

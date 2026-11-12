@@ -205,3 +205,16 @@ main { flex: 1 0 auto; }
 .cr-sources[open] > summary::after { content: "–"; }
 .cr-sources[open] > summary { margin-bottom: 10px; }
 .cr-sources > summary:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; border-radius: 4px; }
+/* Prérequis : liste rouge simple (plus de cases à cocher) ; aucun prérequis en vert ; souhaitables en jaune. */
+.cr-prerequis ul { list-style: none; margin: 0; padding: 0; }
+.cr-prerequis li { position: relative; padding-left: 16px; margin: 4px 0; font-weight: 600; font-size: 0.94rem; }
+.cr-prerequis li::before { content: ""; position: absolute; left: 2px; top: 0.6em; width: 6px; height: 6px; border-radius: 50%; background: var(--alerte); }
+.cr-aucun-pre { display: flex; align-items: center; gap: 7px; margin: 0; font: 600 0.88rem/1.3 var(--sans); color: var(--ok); }
+.cr-aucun-pre .i-ok { width: 16px; height: 16px; }
+:root { --jaune: #8a6d00; --jaune-fond: #fbf3d4; --jaune-filet: #e9d892; }
+@media (prefers-color-scheme: dark) { :root { --jaune: #e6c75a; --jaune-fond: #2a2412; --jaune-filet: #5a4c1c; } }
+.cr-souhaitables { border: 1px solid var(--jaune-filet); background: var(--jaune-fond); border-radius: 12px; padding: 12px 14px; }
+.cr-souhaitables h4 { color: var(--jaune); }
+.cr-souhaitables ul { list-style: none; margin: 0; padding: 0; }
+.cr-souhaitables li { position: relative; padding-left: 16px; margin: 4px 0; font-size: 0.94rem; }
+.cr-souhaitables li::before { content: ""; position: absolute; left: 2px; top: 0.6em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--jaune); box-sizing: border-box; }
