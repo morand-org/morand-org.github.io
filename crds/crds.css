@@ -197,3 +197,11 @@ main { flex: 1 0 auto; }
 .cr-ac-puce:hover { border-color: var(--or); }
 .cr-ac-puce:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
 .cr-ac-liste { margin: 0; padding-left: 1.1em; font-size: 0.92rem; color: var(--encre-2); }
+/* « Sources et limites » : repliée par défaut, le titre sert de bouton. */
+.cr-sources > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; }
+.cr-sources > summary::-webkit-details-marker { display: none; }
+.cr-sources > summary h2 { margin: 0; }
+.cr-sources > summary::after { content: "+"; font: 400 1.4rem/1 var(--sans); color: var(--or-texte); }
+.cr-sources[open] > summary::after { content: "–"; }
+.cr-sources[open] > summary { margin-bottom: 10px; }
+.cr-sources > summary:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; border-radius: 4px; }
