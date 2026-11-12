@@ -27,6 +27,15 @@ autres pages de Trouve ta clinique dirigés vers le site d'origine ; commentaire
 voisine (`apres`), en tête de « Récemment ajoutés », nombres mis à jour. Une ressource que le catalogue
 d'origine contient déjà (même adresse) n'est pas ajoutée deux fois.
 
+## Référencement
+
+- `robots.txt` permet tout et annonce `sitemap.xml`. Le plan du site se refait avec
+  `node outils/plan-du-site.mjs ../wealth` (date du dernier commit de chaque page). La carte (`/map/`) n'y
+  est pas : son adresse canonique reste celle de Trouve ta clinique.
+- Chaque page référencée a son adresse canonique sous `https://www.morand.org`, une description, un
+  aperçu de partage 1200 × 630 (`morand/og-*.png`, `/wealth/og-wealth.png`) et des données structurées.
+  Pour le Guide, `seoGuide()` de `outils/construire.mjs` les pose à chaque construction.
+
 ## Règles
 
 - Aucun script d'une autre entreprise sur tout le site : sous une même adresse, il pourrait lire les

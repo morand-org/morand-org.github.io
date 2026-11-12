@@ -207,6 +207,24 @@ function habiller(t, pageGuides) {
   return t;
 }
 
+/* Référencement de Guide Morand : adresse canonique absolue sous www.morand.org, aperçu de partage de Morand
+   (morand/og-guide.png), et la page rattachée au site Morand dans les données structurées (plus à Trouve ta clinique). */
+const MORAND = "https://www.morand.org";
+function seoGuide(t, chemin) {
+  const u = MORAND + chemin, image = `${MORAND}/morand/og-guide.png`;
+  t = remplacer(t, /<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="${u}">`, "adresse canonique");
+  t = remplacer(t, /(<meta property="og:site_name" content=")[^"]*/, "$1Guide Morand", "nom du site (og)");
+  t = remplacer(t, /(<meta property="og:url" content=")[^"]*/, `$1${u}`, "adresse (og)");
+  const titre = (t.match(/<title>([^<]*)<\/title>/) || [])[1];
+  if (titre) t = remplacer(t, /(<meta property="og:title" content=")[^"]*/, `$1${titre}`, "titre (og)");
+  t = remplacer(t, /(<meta property="og:image" content=")[^"]*/, `$1${image}`, "image (og)");
+  t = remplacer(t, /(<meta property="og:image:alt" content=")[^"]*/, "$1Guide Morand : guides de pratique et ressources communautaires", "texte de l'image (og)");
+  t = remplacer(t, /(<meta name="twitter:image" content=")[^"]*/, `$1${image}`, "image (twitter)");
+  t = remplacer(t, /("@type":"CollectionPage",[^<]*?"url":")[^"]*(")/, `$1${u}$2`, "adresse (données structurées)");
+  t = remplacer(t, /"isPartOf":\{"@type":"WebSite","name":"[^"]*","url":"[^"]*"\}/, `"isPartOf":{"@type":"WebSite","@id":"${MORAND}/#site","name":"Morand","url":"${MORAND}/"}`, "site (données structurées)");
+  return t;
+}
+
 // ---------- Guide Morand : le catalogue de guides (/guides/) ----------
 copier("guides", "guides");
 { const f = path.join(RACINE, "guides/donnees.json"); fs.writeFileSync(f, fs.readFileSync(f, "utf8").replaceAll("https://trouvetaclinique.ca/guides/", "/guides/")); }
@@ -219,7 +237,7 @@ for (const page of ["guides/index.html", "guides/ressources-communautaires/index
   let t = lire(page);
   t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)data-url="[^"]*"/, ADRESSE_IA ? `$1data-url="${ADRESSE_IA}"` : "$1data-url=\"\"");
   if (!ADRESSE_IA) t = t.replace(/(<section class="guides-band guides-ia"[^>]*?)(\s+hidden)?>/, "$1 hidden>");
-  ecrire(page, faviconMorand(versOrigine(nettoyer(alleger(t, page.endsWith("guides/index.html")))), "Guide Morand"));
+  ecrire(page, seoGuide(faviconMorand(versOrigine(nettoyer(alleger(t, page.endsWith("guides/index.html")))), "Guide Morand"), "/" + page.replace(/index\.html$/, "")));
 }
 /* Ressources ajoutées par Morand (outils/guides-ajouts.mjs) : la fiche dans la liste de son sujet, après sa voisine,
    dans guides/donnees.json et en tête de « Récemment ajoutés » ; les nombres (catalogue, sujet, organisme, format) suivent. */
