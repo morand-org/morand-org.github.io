@@ -199,3 +199,12 @@ body.gm {
 .gm-crds-tout { display: inline-block; margin-top: 10px; padding: 10px 0; font: 600 .86rem/1.3 "Inter", system-ui, sans-serif; color: #7d6230; }
 @media (min-width: 760px) { .gm-crds-liste { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1280px) { .gm-crds-liste { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+/* Navigation commune : les deux catalogues du Guide, sous l'introduction. */
+.gm-sous { display: inline-flex; gap: 4px; margin: 18px auto 0; padding: 4px; border: 1px solid var(--gm-filet); border-radius: 999px; background: #fff; }
+.gm-sous a { display: inline-flex; align-items: center; min-height: 38px; padding: 0 16px; border-radius: 999px; text-decoration: none; color: var(--gm-discret);
+  font: 500 11px/1 "Inter", system-ui, sans-serif; letter-spacing: .14em; text-transform: uppercase; white-space: nowrap; }
+.gm-sous a[aria-current="page"] { background: var(--navy); color: #fdfcf8; }
+.gm-sous a:hover:not([aria-current]) { color: var(--navy); }
+.gm-sous a:focus-visible { outline: 2px solid var(--gm-or); outline-offset: 2px; }
+.gm-sous .guides-onglet-compte { display: none; }
+@media (max-width: 400px) { .gm-sous a { padding: 0 11px; font-size: 10px; letter-spacing: .1em; } }
