@@ -11,7 +11,50 @@
     d.forEach(x => { const p = document.createElementNS(NS, "path"); p.setAttribute("d", x); s.appendChild(p); }); return s; };
   const ALERTE = ["M12 3.5 2.8 19.5h18.4z", "M12 10v4.2", "M12 17.2v.1"], OK = ["M5 12.5l4.5 4.5L19 7.5"];
   const TYPES = { laboratoires: "Labo", imagerie: "Imagerie", examens: "Examen", autres: "" };
-  let D = null, index = [], indexPB = [], minuterie = 0;
+  let D = null, index = [], indexPB = [], minuterie = 0, memoire = 0;
+  /* Onglets (CRDS, Accueil clinique, Favoris), favoris et recherches récentes : gardés sur cet appareil seulement
+     (localStorage) ; sans stockage, la page marche pareil, sans mémoire. */
+  const vues = $("cr-vues"), zoneRecents = $("cr-recents");
+  const lire = (cle, defaut) => { try { const v = JSON.parse(localStorage.getItem(cle)); return Array.isArray(v) ? v : defaut; } catch (e) { return defaut; } };
+  const ecrire = (cle, v) => { try { localStorage.setItem(cle, JSON.stringify(v)); } catch (e) { /* stockage indisponible */ } };
+  const CLE_FAVORIS = "morand.crds.favoris", CLE_RECENTS = "morand.crds.recents";
+  let favoris = lire(CLE_FAVORIS, []), recents = lire(CLE_RECENTS, []), vue = "crds";
+  const ETOILE = ["M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"];
+  // L'étoile d'une fiche : pleine si la fiche est dans les favoris.
+  function boutonFavori(id, nom) {
+    const b = el("button", "cr-fav"); b.type = "button"; b.appendChild(icone("i-etoile", ETOILE));
+    const maj = () => { const oui = favoris.includes(id); b.setAttribute("aria-pressed", oui ? "true" : "false"); b.setAttribute("aria-label", `${oui ? "Retirer des favoris" : "Ajouter aux favoris"} : ${nom}`); };
+    b.addEventListener("click", () => {
+      favoris = favoris.includes(id) ? favoris.filter(x => x !== id) : [...favoris, id]; ecrire(CLE_FAVORIS, favoris); maj(); onglets();
+      if (vue === "favoris" && !q.value.trim()) rendre();
+    });
+    maj(); return b;
+  }
+  function onglets() {
+    if (!vues || !D) return;
+    vues.textContent = "";
+    const n = favoris.filter(id => index.some(e => e.p.id === id) || indexPB.some(e => e.p.id === id)).length;
+    [["crds", "CRDS"], ["accueil", "Accueil clinique"], ["favoris", n ? `Favoris (${n})` : "Favoris"]].forEach(([v, t]) => {
+      const b = el("button", "cr-vue", t); b.type = "button"; b.setAttribute("role", "tab"); b.setAttribute("aria-selected", v === vue ? "true" : "false"); b.dataset.v = v;
+      b.addEventListener("click", () => { vue = v; q.value = ""; onglets(); rendre(); });
+      vues.appendChild(b);
+    });
+    vues.hidden = false;
+  }
+  // Recherches récentes : proposées sous le champ quand il est vide.
+  function retenir(texte) {
+    const t = texte.trim(); if (t.length < 2) return;
+    recents = [t, ...recents.filter(x => sansAccents(x) !== sansAccents(t))].slice(0, 6); ecrire(CLE_RECENTS, recents);
+  }
+  function montrerRecents(oui) {
+    if (!zoneRecents) return;
+    zoneRecents.textContent = ""; zoneRecents.hidden = !(oui && recents.length);
+    if (zoneRecents.hidden) return;
+    zoneRecents.appendChild(el("span", "cr-recents-titre", "Récentes"));
+    recents.forEach(t => { const b = el("button", "cr-recent", t); b.type = "button"; b.addEventListener("click", () => { q.value = t; rendre(); q.focus(); }); zoneRecents.appendChild(b); });
+    const x = el("button", "cr-recent cr-recent-effacer", "Effacer"); x.type = "button"; x.addEventListener("click", () => { recents = []; ecrire(CLE_RECENTS, recents); montrerRecents(true); });
+    zoneRecents.appendChild(x);
+  }
   const motsDe = t => sansAccents(t).split(/[^a-z0-9]+/).filter(Boolean);
 
   // Raccourci affiché selon l'appareil : ⌘K sur Mac et iPad avec clavier, Ctrl K ailleurs.
@@ -52,7 +95,7 @@
     const b = el("div", "cr-prio"); b.dataset.niveau = haut;
     b.setAttribute("aria-label", haut === "HORS" ? "Hors CRDS" : haut === bas ? `Priorité ${haut}, ${D.echelle_priorite[haut]}` : `Priorités ${haut} à ${bas} selon les critères`);
     b.append(el("b", null, haut === "HORS" ? "—" : haut === bas ? haut : `${haut}–${bas}`), el("span", null, haut === bas ? D.echelle_priorite[haut] : "selon critères"));
-    tete.appendChild(b); c.appendChild(tete);
+    tete.append(boutonFavori(p.id, p.probleme), b); c.appendChild(tete);
 
     const crit = el("div", "cr-bloc"); crit.appendChild(el("h4", null, p.priorites.length > 1 ? "Priorité selon les critères" : "Critères cliniques"));
     const ul = el("ul", p.priorites.length > 1 ? "cr-variantes" : "cr-criteres");
@@ -132,7 +175,7 @@
     const tete = el("div", "cr-carte-tete"), g = el("div");
     g.append(el("p", "cr-sur", `Accueil clinique · ${PB.installation} · ${p.specialite}`), el("h3", null, p.nom)); tete.appendChild(g);
     const b = el("div", "cr-prio cr-prio-ac"); b.append(el("b", null, "AC"), el("span", null, "24 à 72 h")); b.setAttribute("aria-label", "Accueil clinique, prise en charge en 24 à 72 heures");
-    tete.appendChild(b); k.appendChild(tete);
+    tete.append(boutonFavori(p.id, p.nom), b); k.appendChild(tete);
     if (p.delai) k.appendChild(el("p", "cr-ac-texte", p.delai));
     k.appendChild(bloc(p.indication.length > 1 ? "Indications" : "Indication", p.indication));
 
@@ -204,9 +247,23 @@
     if (!D) return;
     const mots = sansAccents(q.value.trim()).split(/[^a-z0-9]+/).filter(Boolean);
     zone.textContent = ""; urgence.textContent = ""; urgence.hidden = true;
+    clearTimeout(memoire);
+    if (vues) vues.querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", !mots.length && b.dataset.v === vue ? "true" : "false"));
+    montrerRecents(!mots.length);
     if (!mots.length) {
-      specialites(); if (D.accueil_clinique) panneauAccueil(); vide.hidden = true;
-      etat.textContent = `${D.formulaires.length} spécialité${D.formulaires.length > 1 ? "s" : ""} · ${index.length} raisons de consultation`;
+      vide.hidden = true;
+      const PB = D.accueil_clinique && D.accueil_clinique.pierre_boucher;
+      if (vue === "accueil" && D.accueil_clinique) {
+        panneauAccueil(); etat.textContent = PB ? `${PB.protocoles.length} protocoles · ${PB.installation}` : "Accueil clinique";
+      } else if (vue === "favoris") {
+        const f = favoris.map(id => { const a = indexPB.find(e => e.p.id === id), b = index.find(e => e.p.id === id); return a ? cartePB(a.p) : b ? carte(b.p, []) : null; }).filter(Boolean);
+        f.forEach(k => zone.appendChild(k));
+        if (!f.length) zone.appendChild(el("p", "cr-vide cr-vide-favoris", "Aucun favori pour l'instant. Touchez l'étoile d'une fiche pour la garder ici, sur cet appareil."));
+        etat.textContent = `${f.length} favori${f.length > 1 ? "s" : ""}`;
+      } else {
+        specialites();
+        etat.textContent = `${D.formulaires.length} spécialité${D.formulaires.length > 1 ? "s" : ""} · ${index.length} raisons de consultation`;
+      }
       return;
     }
     const resultats = index.filter(e => correspond(e, mots)).sort((a, b) => score(b, mots) - score(a, mots) || a.rang - b.rang);
@@ -237,6 +294,8 @@
     vide.hidden = resultats.length + nAc > 0;
     const n = resultats.length;
     etat.textContent = `${n} raison${n > 1 ? "s" : ""} de consultation${nAc ? ` · ${nAc} à l'accueil clinique` : ""}`;
+    // Une recherche qui a trouvé quelque chose et sur laquelle on s'arrête : retenue dans les récentes.
+    if (n + nAc > 0) { const t = q.value; memoire = setTimeout(() => { if (q.value === t) retenir(t); }, 1500); }
   }
 
   function sources() {
@@ -260,8 +319,10 @@
     });
     const PB = d.accueil_clinique && d.accueil_clinique.pierre_boucher;
     indexPB = PB ? PB.protocoles.map(p => ({ p, w: motsDe(`${p.nom} ${p.syn.join(" ")} ${p.specialite} accueil clinique ${PB.installation}`) })) : [];
-    sources(); rendre();
-    const depart = new URLSearchParams(location.search).get("q"); if (depart) { q.value = depart; rendre(); }
+    const params = new URLSearchParams(location.search), depart = params.get("q");
+    if (["accueil", "favoris"].includes(params.get("vue"))) vue = params.get("vue");
+    sources(); onglets(); rendre();
+    if (depart) { q.value = depart; rendre(); }
   }).catch(() => { etat.textContent = "Les données n'ont pas pu être chargées. Vérifiez la connexion, puis rechargez la page."; });
 
   q.addEventListener("input", () => { clearTimeout(minuterie); minuterie = setTimeout(rendre, 40); });

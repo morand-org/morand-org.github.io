@@ -253,3 +253,28 @@ main { flex: 1 0 auto; }
   .cr-onglets a { font-size: 9.5px; letter-spacing: 0.1em; }
 }
 @media (max-width: 350px) { .cr-marque { font-size: 12px; letter-spacing: 0.14em; } .cr-onglets { gap: 8px; } .cr-onglets a { font-size: 9px; letter-spacing: 0.06em; } }
+/* Onglets de la page (CRDS, Accueil clinique, Favoris) : une pastille à trois choix, sous le champ. */
+.cr-vues { display: flex; width: max-content; max-width: 100%; gap: 4px; margin: 18px auto 0; padding: 4px; border: 1px solid var(--filet); border-radius: 999px; background: var(--carte); }
+.cr-vues[hidden], .cr-recents[hidden] { display: none; }
+.cr-vue { min-height: 40px; padding: 0 16px; border: 0; border-radius: 999px; background: none; color: var(--discret); cursor: pointer; white-space: nowrap;
+  font: 600 10.5px/1 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; }
+.cr-vue:hover { color: var(--encre); }
+.cr-vue[aria-selected="true"] { background: var(--encre); color: var(--papier); }
+.cr-vue:focus-visible, .cr-recent:focus-visible, .cr-fav:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+@media (max-width: 400px) { .cr-vue { padding: 0 11px; font-size: 10px; letter-spacing: 0.1em; } }
+/* Recherches récentes : de petites pastilles sous le champ, quand il est vide. */
+.cr-recents { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px 8px; max-width: 760px; margin: 12px auto 0; }
+.cr-recents-titre { font: 500 10px/1 var(--sans); letter-spacing: 0.18em; text-transform: uppercase; color: var(--discret); margin-right: 2px; }
+.cr-recent { min-height: 32px; padding: 0 12px; border: 1px solid var(--filet); border-radius: 999px; background: none; color: var(--encre-2); font: 500 0.82rem/1 var(--sans); cursor: pointer; }
+.cr-recent:hover { border-color: var(--or); }
+.cr-recent-effacer { border-color: transparent; color: var(--discret); text-decoration: underline; text-underline-offset: 3px; padding: 0 6px; }
+@media (pointer: coarse) { .cr-recent { min-height: 40px; } }
+/* Étoile des favoris, à gauche de la priorité. */
+.cr-carte-tete { grid-template-columns: 1fr auto auto; }
+.cr-fav { align-self: start; width: 40px; height: 40px; margin: -4px -6px 0 0; padding: 0; border: 0; border-radius: 50%; background: none; cursor: pointer; display: grid; place-items: center; }
+.i-etoile { width: 21px; height: 21px; fill: none; stroke: var(--discret); stroke-width: 1.6; stroke-linejoin: round; }
+.cr-fav:hover .i-etoile { stroke: var(--or); }
+.cr-fav[aria-pressed="true"] .i-etoile { fill: var(--or); stroke: var(--or); }
+@media (pointer: coarse) { .cr-fav { width: 44px; height: 44px; margin: -6px -8px 0 0; } }
+.cr-vide-favoris { grid-column: 1 / -1; }
+.cr-ac-panneau { margin-top: 0; }
