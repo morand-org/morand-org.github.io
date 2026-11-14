@@ -173,7 +173,7 @@
     k.appendChild(t);
 
     const src = el("p", "cr-source");
-    src.append(document.createTextNode(`Portail de l'accueil clinique, page mise à jour le ${p.mise_a_jour} · ordonnance ${p.ordonnance.numero}, ${p.ordonnance.version} · relevé le ${PB.releve_le} · `),
+    src.append(document.createTextNode(`Portail de l'accueil clinique, page mise à jour le ${p.mise_a_jour} · ordonnance ${p.ordonnance.numero}, ${p.ordonnance.version} · relevé le ${PB.releve_le} · © CSSS Pierre-Boucher · `),
       lienPortail("Protocole", p.page), document.createTextNode(" · "), lienPortail("Ordonnance", p.ordonnance.url), document.createTextNode(" (connexion requise)"));
     k.appendChild(src);
     return k;
@@ -188,14 +188,8 @@
     const c = el("div", "cr-ac-coord");
     [["Infirmière", A.coordonnees.telephone], ["Télécopieur", A.coordonnees.telecopieur], ["Heures", A.heures.join(" · ")]].forEach(([n, v]) => { const p = el("p"); p.append(el("span", "cr-type", n), document.createTextNode(v)); c.appendChild(p); });
     s.appendChild(c);
-    // Sous les coordonnées, tout est replié : un titre par sujet.
+    // Sous les coordonnées : la marche à suivre, repliée.
     const r = repli("Comment référer"); r.appendChild(liste(null, A.comment_referer)); s.appendChild(r);
-    const ci = repli("Contre-indications pour toutes les conditions"); ci.append(liste(null, A.contre_indications_toutes), el("p", "cr-petit", A.ecart_contre_indications)); s.appendChild(ci);
-    const qui = repli("Clientèle visée et provenance"); qui.append(liste(null, [...A.clientele, ...A.provenance]), liste("cr-petit", A.notes)); s.appendChild(qui);
-    const pa = repli("Pour le patient : où se présenter"); pa.append(el("p", "cr-petit", A.coordonnees.adresse), liste(null, A.patient)); s.appendChild(pa);
-    const so = repli("Source et avis"), av = el("p", "cr-petit");
-    av.append(document.createTextNode(`${PB.avis} Relevé le ${PB.releve_le}. ${PB.droits} `), lienPortail("Portail de l'accueil clinique", PB.portail), document.createTextNode("."));
-    so.appendChild(av); s.appendChild(so);
   }
 
   function panneauAccueil() {
@@ -203,20 +197,6 @@
     const h = el("h2", null, "Accueil clinique"); h.id = "cr-ac-titre"; s.appendChild(h);
     s.appendChild(el("p", "cr-ac-texte", A.definition));
     if (A.pierre_boucher) panneauPB(s);
-    // Le cadre du MSSS : replié lui aussi, avec les autres installations de la Montérégie.
-    const m = repli("Le cadre du MSSS et les autres installations");
-    m.appendChild(el("h3", null, "Les sept problèmes ciblés par le MSSS"));
-    const g = el("div", "cr-ac-puces");
-    A.conditions.forEach(c => { const b = el("button", "cr-ac-puce", c.nom); b.type = "button"; b.addEventListener("click", () => { q.value = c.syn[0]; rendre(); q.focus(); }); g.appendChild(b); });
-    m.appendChild(g);
-    m.appendChild(el("h3", null, "En Montérégie, les installations visées"));
-    const ul = el("ul", "cr-ac-liste"); A.monteregie.forEach(x => ul.appendChild(el("li", null, `${x.cisss} : ${x.installations.join(", ")}`))); m.appendChild(ul);
-    m.appendChild(el("h3", null, "Règles du référencement"));
-    const u2 = el("ul", "cr-ac-liste"); A.regles.forEach(x => u2.appendChild(el("li", null, x))); m.appendChild(u2);
-    const p = el("p", "cr-petit"); p.append(document.createTextNode(A.limites + " Source : "));
-    const a = el("a", null, A.source.titre); a.href = A.source.url; a.rel = "noopener"; p.append(a, document.createTextNode(", consultée le " + A.source.consulte_le + "."));
-    A.portails.forEach(x => { const b2 = el("a", null, x.nom); b2.href = x.url; b2.rel = "noopener"; p.append(document.createTextNode(" Portail : "), b2, document.createTextNode(".")); });
-    m.appendChild(p); s.appendChild(m);
     zone.appendChild(s);
   }
 
@@ -268,9 +248,6 @@
     $("cr-formulaires-titre").textContent = `Les ${D.formulaires.length} formulaires transcrits (numéro, révision, statut)`;
     D.region.consignes.forEach(x => $("cr-consignes").appendChild(el("li", null, x)));
     $("cr-a-venir").textContent = D.a_venir; $("cr-a-venir").hidden = !D.a_venir;
-    const PB = D.accueil_clinique && D.accueil_clinique.pierre_boucher, z2 = $("cr-pb-source");
-    if (PB && z2) { z2.append(document.createTextNode(`${PB.installation} (${PB.cisss}) : ${PB.protocoles.length} protocoles et leurs ordonnances préétablies, relevés le ${PB.releve_le}. ${PB.avis} ${PB.droits} `),
-      lienPortail("Portail de l'accueil clinique", PB.portail), document.createTextNode(".")); $("cr-pb").hidden = false; }
   }
 
   fetch("/crds/crds_data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
