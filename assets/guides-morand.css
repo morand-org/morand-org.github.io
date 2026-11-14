@@ -210,3 +210,6 @@ body.gm {
 /* Dans un lien en flex, l'espace au début de « cliniques » (ou « communautaires ») est retirée : on la garde. */
 .gm-sous .gm-long { white-space: pre; }
 @media (max-width: 400px) { .gm-sous a { padding: 0 11px; font-size: 10px; letter-spacing: .1em; } }
+/* Cinq outils dans l'en-tête : sur téléphone, les onglets se serrent pour tenir sur une ligne. */
+@media (max-width: 480px) { .gm-tete { gap: 10px; } .gm-onglets { gap: 11px; } .gm-marque { letter-spacing: .18em; } .gm-onglets a { font-size: 9.5px; letter-spacing: .1em; } }
+@media (max-width: 350px) { .gm-marque { font-size: 9.5px; letter-spacing: .12em; } .gm-onglets { gap: 8px; } .gm-onglets a { font-size: 9px; letter-spacing: .06em; } }

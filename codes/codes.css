@@ -1,0 +1,37 @@
+/* Codes Morand : mêmes papier, encre et or que CRDS Morand (crds.css) ; ici, les groupes et les rangées de codes. */
+.co-groupes { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 900px; margin: 16px auto 0; }
+.co-groupe { min-height: 40px; padding: 8px 14px; border: 1px solid var(--filet); border-radius: 999px; background: var(--carte); color: var(--encre-2);
+  font: 500 0.86rem/1.3 var(--sans); cursor: pointer; }
+.co-groupe:hover { border-color: var(--or); }
+.co-groupe[aria-pressed="true"] { background: var(--encre); color: var(--papier); border-color: var(--encre); }
+.co-groupe:focus-visible, .co-tous:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+@media (pointer: coarse) { .co-groupe { min-height: 44px; } }
+
+.co-liste { display: grid; gap: 14px; max-width: 900px; margin: 18px auto 0; }
+.co-carte { background: var(--carte); border: 1px solid var(--filet); border-radius: 16px; padding: 6px 20px 8px; }
+.co-carte-tete { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 0 8px; }
+.co-carte-tete h2 { margin: 0; font: 400 1.18rem/1.25 var(--serif); }
+.co-compte { font: 500 10px/1.3 var(--sans); letter-spacing: 0.16em; text-transform: uppercase; color: var(--discret); white-space: nowrap; }
+.co-rangee { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; align-items: baseline; padding: 11px 0; border-top: 1px solid var(--filet); }
+.co-titre { margin: 0; font-size: 0.97rem; overflow-wrap: anywhere; }
+.co-sous { margin: 2px 0 0; font-size: 0.82rem; color: var(--discret); overflow-wrap: anywhere; }
+.co-droite { text-align: right; }
+.co-valeur { margin: 0; font: 600 0.97rem/1.3 var(--sans); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.co-valeur-sous { margin: 2px 0 0; font-size: 0.8rem; color: var(--discret); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.co-non .co-valeur { color: var(--discret); font-weight: 500; }
+.co-vuln { grid-template-columns: 2.4em minmax(0, 1fr); }
+.co-code { margin: 0; font: 400 1.25rem/1.2 var(--serif); color: var(--or-texte); font-variant-numeric: tabular-nums; }
+.co-vuln.co-non .co-titre { color: var(--discret); }
+.co-avis { margin: 0; text-align: center; font-size: 0.9rem; color: var(--discret); }
+.co-tous { justify-self: center; min-height: 44px; padding: 0 20px; border: 1px solid var(--or); border-radius: 999px; background: none; color: var(--or-texte);
+  font: 600 0.9rem/1 var(--sans); cursor: pointer; }
+.cr-sources .cr-petit { margin: 8px 0; }
+@media (max-width: 560px) {
+  /* Sur téléphone : les groupes sur une seule ligne, qui défile, pour laisser voir les résultats. */
+  .co-groupes { justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: calc(-1 * max(20px, env(safe-area-inset-right))); padding: 2px max(20px, env(safe-area-inset-right)) 2px 2px; }
+  .co-groupes::-webkit-scrollbar { display: none; }
+  .co-groupe { flex: none; white-space: nowrap; }
+  .co-carte { padding: 4px 16px 6px; }
+  .co-rangee:not(.co-vuln) { grid-template-columns: minmax(0, 1fr); }
+  .co-droite { display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; text-align: left; }
+}

@@ -245,3 +245,11 @@ main { flex: 1 0 auto; }
 .cr-ac-panneau > .cr-region > summary:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; border-radius: 4px; }
 .cr-ac-panneau > .cr-region[open] { padding-bottom: 10px; }
 .cr-ac-panneau > .cr-region > h3:first-of-type { margin-top: 4px; }
+/* Cinq outils dans l'en-tête : sur téléphone, les onglets se serrent pour tenir sur une ligne. */
+@media (max-width: 480px) {
+  .cr-tete { gap: 10px; }
+  .cr-marque { font-size: 13px; letter-spacing: 0.2em; }
+  .cr-onglets { gap: 11px; }
+  .cr-onglets a { font-size: 9.5px; letter-spacing: 0.1em; }
+}
+@media (max-width: 350px) { .cr-marque { font-size: 12px; letter-spacing: 0.14em; } .cr-onglets { gap: 8px; } .cr-onglets a { font-size: 9px; letter-spacing: 0.06em; } }

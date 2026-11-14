@@ -20,7 +20,7 @@ const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..
 // une adresse nouvelle à chaque changement fait charger la bonne version tout de suite.
 const VERSION_STYLE = crypto.createHash("sha256").update(fs.readFileSync(path.join(RACINE, "assets/guides-morand.css"))).digest("hex").slice(0, 10);
 // Navigation commune des outils de Morand ; « actif » : wealth, guide, map ou crds.
-const navMorand = actif => [["wealth", "/wealth/", "Wealth"], ["guide", "/guides/", "Guide"], ["map", "/map/", "Map"], ["crds", "/crds/", "CRDS"]]
+const navMorand = actif => [["wealth", "/wealth/", "Wealth"], ["guide", "/guides/", "Guide"], ["map", "/map/", "Map"], ["crds", "/crds/", "CRDS"], ["codes", "/codes/", "Codes"]]
   .map(([k, u, n]) => `<a href="${u}"${k === actif ? ' aria-current="page"' : ""}>${n}</a>`).join("");
 const empreinte = f => crypto.createHash("sha256").update(fs.readFileSync(path.join(RACINE, f))).digest("hex").slice(0, 10);
 const ORIGINE = "https://trouvetaclinique.ca";
@@ -53,7 +53,7 @@ function nettoyer(html) {
   return t;
 }
 // Liens absolus du site d'origine : vers trouvetaclinique.ca, sauf ce qui est copié ici (/guides/, /assets/, accueil).
-const GARDES = /^\/(guides\/|assets\/|morand\/|crds\/|wealth\/|map\/|favicon-\d+\.png|$)/;
+const GARDES = /^\/(guides\/|assets\/|morand\/|crds\/|codes\/|wealth\/|map\/|favicon-\d+\.png|$)/;
 const versOrigine = html => html.replace(/(href|src)="(\/[^"]*)"/g, (tout, att, p) => GARDES.test(p) ? tout : `${att}="${ORIGINE}${p}"`);
 
 // ---------- Map Morand : la carte interactive de la Montérégie (/monteregie/) ----------
