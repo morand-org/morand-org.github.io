@@ -235,3 +235,13 @@ main { flex: 1 0 auto; }
 .cr-ac-coord p { margin: 0; }
 .cr-ac-panneau ul.cr-petit { padding-left: 1.2em; }
 .cr-carte-ac { overflow-wrap: anywhere; }
+/* Panneau de l'accueil clinique : sous les coordonnées, des titres repliés, séparés d'un filet, avec « + » et « – ». */
+.cr-ac-panneau > .cr-region { margin: 0; border-top: 1px solid var(--filet); }
+.cr-ac-coord + .cr-region { margin-top: 14px; }
+.cr-ac-panneau > .cr-region > summary { list-style: none; justify-content: space-between; gap: 12px; }
+.cr-ac-panneau > .cr-region > summary::-webkit-details-marker { display: none; }
+.cr-ac-panneau > .cr-region > summary::after { content: "+"; font: 400 1.3rem/1 var(--sans); color: var(--or-texte); }
+.cr-ac-panneau > .cr-region[open] > summary::after { content: "–"; }
+.cr-ac-panneau > .cr-region > summary:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; border-radius: 4px; }
+.cr-ac-panneau > .cr-region[open] { padding-bottom: 10px; }
+.cr-ac-panneau > .cr-region > h3:first-of-type { margin-top: 4px; }
