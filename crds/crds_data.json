@@ -1089,8 +1089,6 @@
        "Prélèvements : FSC, RNI, PTT, créatinine, β-hCG si femme en âge de procréer ; D-Dimères thrombose si score de Wells 0 ou 1 ; Si score de Wells ≥ 2 : Si l’usager n’a pas pris une première dose d’anticoagulant, administrer tel que prescrit (OPE-5503111 ) ; Remplir une demande de consultation en médecine interne pour un doppler veineux* ; *Si doppler se fait plus de 12 h après l’évaluation médicale, aviser l’usager de prendre la 2e dose d’anticoagulant tel que prescrit ou dans 24 h si tinzaparine"
       ],
       "algorithme_portail": [
-       "Score de Wells ≥ 1 → S’assurer que l’usager a pris une première dose d'anticoagulant → Médecine interne",
-       "Score de Wells = 0 → D-Dimères thrombose positif (voir légende) → Médecine interne ; D-Dimères thrombose négatif → Retour de l’usager au médecin requérant avec résultats des examens et labos",
        "Accueil clinique: Médecine Interne — Consultation en médecine interne et Doppler * ; Doppler négatif → Retour de l’usager au médecin requérant avec résultats des examens et labos ; Doppler positif → Suivi par la médecine interne en MDJ",
        "* Si Doppler se fait plus de 12 heures après l'évaluation médicale, aviser l'usager de prendre la deuxième dose de rivaroxaban (Xarelto) ou d'apixaban (Éliquis) tel que prescrit.",
        "Pour les scores de Wells de 1 ou 2, un doppler sera fait selon l'évaluation de la médecine interne."
@@ -1108,8 +1106,8 @@
        "Contre-indications à recevoir un anticoagulant : Usager déjà sous anticoagulants oraux, héparine IV, héparine de bas poids moléculaire, saignement actif, coagulopathie, hémorragie intracrânienne ou intraoculaire, chirurgie intracrânienne ou intraoculaire récente, plaquettes < 50 x 10 9/L, ponction lombaire ou procédure péridurale dans les dernières 24 h."
       ],
       "ecarts": [
-       "« S’assurer que l’usager a pris une première dose d'anticoagulant » est une vérification faite par l'infirmière à l'arrivée : la première dose doit donc être prescrite et prise avant la visite (ordonnance pour la pharmacie : « première dose STAT »).",
-       "Thrombophlébite profonde (TPP) : seuils tronqués sur le site (« D-Dimères thrombose si score de Wells < 3> », « Usager < 50> », « Plaquettes < 50>9/L ») ; l’ordonnance indique « D-Dimères thrombose si score de Wells 0 ou 1 » et « plaquettes < 50 x 10 9/L ». Le site dit « Score de Wells ≥ 1 » ; l’ordonnance dit « Si score de Wells ≥ 2 ». « Immobilisation récente (≤ 3 jours) » sur le site vs « > 3 jours » dans l’ordonnance."
+       "Les valeurs de l'ordonnance OPE-00108 sont les bonnes (vérifié le 14 novembre 2026) : score de Wells ≥ 2 et immobilisation récente > 3 jours. Le portail affiche « Score de Wells ≥ 1 » et « Immobilisation récente (≤ 3 jours) » : les deux étapes du portail qui reposent sur ce seuil ne sont pas reproduites.",
+       "« S’assurer que l’usager a pris une première dose d'anticoagulant » est une vérification faite par l'infirmière à l'arrivée : la première dose doit donc être prescrite et prise avant la visite (ordonnance pour la pharmacie : « première dose STAT »)."
       ],
       "lignes_omises": 2
      },
