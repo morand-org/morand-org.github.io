@@ -1,7 +1,7 @@
 /* Accueil clinique : ce qui est public et vérifiable. Source principale : MSSS, « Orientations ministérielles –
    Organisation et implantation d'un service d'accueil clinique » (révision mai 2022, publication 22-905-02W),
-   consultée le 12 novembre 2026. Les protocoles locaux de la Montérégie ne sont pas publics (portails réservés
-   aux médecins) : ils ne sont pas reproduits ici. */
+   consultée le 12 novembre 2026. Les protocoles locaux sont sur des portails réservés aux médecins : seuls ceux
+   de l'Hôpital Pierre-Boucher sont relevés (accueil-pierre-boucher.mjs, fabriqué par importer-accueil-pb.mjs). */
 const MSSS = "https://publications.msss.gouv.qc.ca/msss/fichiers/2022/22-905-02W.pdf";
 export const ACCUEIL_CLINIQUE = {
   source: { titre: "MSSS, Orientations ministérielles – Organisation et implantation d'un service d'accueil clinique (révision mai 2022)", url: MSSS, consulte_le: "2026-11-12" },
@@ -29,5 +29,5 @@ export const ACCUEIL_CLINIQUE = {
     { cisss: "CISSS de la Montérégie-Ouest", installations: ["Hôpital du Suroît", "Centre hospitalier Anna-Laberge"] },
   ],
   portails: [{ nom: "Accueil clinique, territoire Pierre-Boucher (portail réservé aux médecins inscrits)", url: "https://pierre-boucher.accueilclinique.com/" }],
-  limites: "Les protocoles, formulaires et coordonnées de chaque accueil clinique de la Montérégie ne sont pas publics : vérifiez l'offre de l'installation de votre territoire. Les sept problèmes sont ceux que le MSSS a ciblés en 2022 ; une installation peut en offrir d'autres, ou ne pas tous les offrir.",
+  limites: "Seuls les protocoles de l'Hôpital Pierre-Boucher sont relevés ici. Pour les autres installations de la Montérégie, les protocoles, formulaires et coordonnées sont sur leur portail réservé aux médecins : vérifiez l'offre de l'installation de votre territoire. Les sept problèmes sont ceux que le MSSS a ciblés en 2022 ; une installation peut en offrir d'autres, ou ne pas tous les offrir.",
 };

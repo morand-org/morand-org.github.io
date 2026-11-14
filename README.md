@@ -27,6 +27,21 @@ autres pages de Trouve ta clinique dirigés vers le site d'origine ; commentaire
 voisine (`apres`), en tête de « Récemment ajoutés », nombres mis à jour. Une ressource que le catalogue
 d'origine contient déjà (même adresse) n'est pas ajoutée deux fois.
 
+## Accueil clinique de l'Hôpital Pierre-Boucher (CRDS Morand)
+
+Les 14 protocoles et les modalités d'accès viennent d'un relevé du portail de l'accueil clinique, fait par un
+médecin connecté. Le relevé (JSON) reste hors du dépôt ; il contient aussi des fiches de services de 2015 qui ne
+sont pas publiées.
+
+```
+node outils/crds/importer-accueil-pb.mjs <relevé.json>   # fabrique outils/crds/accueil-pierre-boucher.mjs
+node outils/crds/construire-crds.mjs                      # refait crds/crds_data.json
+```
+
+Chaque ligne publiée est une ligne du relevé, choisie par son rang et recopiée telle quelle. Le portail coupe le
+texte après le signe « < » : ces lignes ne sont jamais publiées, et la version de l'ordonnance les remplace quand
+elle existe. Quand le portail et l'ordonnance diffèrent, les deux versions sont affichées et nommées.
+
 ## Référencement
 
 - `robots.txt` permet tout et annonce `sitemap.xml`. Le plan du site se refait avec

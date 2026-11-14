@@ -218,3 +218,20 @@ main { flex: 1 0 auto; }
 .cr-souhaitables ul { list-style: none; margin: 0; padding: 0; }
 .cr-souhaitables li { position: relative; padding-left: 16px; margin: 4px 0; font-size: 0.94rem; }
 .cr-souhaitables li::before { content: ""; position: absolute; left: 2px; top: 0.6em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--jaune); box-sizing: border-box; }
+/* Accueil clinique de Pierre-Boucher : contre-indications, « pour référer », protocole replié, coordonnées. */
+.cr-ci h4 { display: flex; align-items: center; gap: 7px; color: var(--alerte); }
+.cr-ci-sous { margin: 10px 0 4px; font: 600 10.5px/1.3 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--discret); }
+.cr-ci-gen li { font-size: 0.86rem; color: var(--encre-2); }
+.cr-carte-ac .cr-criteres li { position: relative; padding-left: 14px; }
+.cr-carte-ac .cr-criteres li::before { position: absolute; left: 0; margin: 0; }
+.cr-referer { border-top: 1px dashed var(--filet); padding-top: 10px; }
+.cr-protocole { margin: 0; border-top: 1px solid var(--filet); }
+.cr-protocole > summary { color: var(--or-texte); }
+.cr-protocole h4 { margin: 12px 0 4px; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--discret); }
+.cr-protocole ul { margin: 0 0 6px; padding-left: 1.1em; font-size: 0.88rem; color: var(--encre-2); }
+.cr-protocole li { margin: 4px 0; }
+.cr-protocole .cr-petit { margin: 4px 0 8px; }
+.cr-ac-coord { display: grid; gap: 4px; margin: 14px 0 4px; font-size: 0.94rem; }
+.cr-ac-coord p { margin: 0; }
+.cr-ac-panneau ul.cr-petit { padding-left: 1.2em; }
+.cr-carte-ac { overflow-wrap: anywhere; }

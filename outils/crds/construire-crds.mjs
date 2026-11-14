@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { ACCUEIL_CLINIQUE } from "./accueil-clinique.mjs";
+import { ACCUEIL_PIERRE_BOUCHER } from "./accueil-pierre-boucher.mjs";
 const ICI = path.dirname(fileURLToPath(import.meta.url)), RACINE = path.resolve(ICI, "../..");
 const fichiers = fs.readdirSync(path.join(ICI, "formulaires")).filter(f => /^AH-\d{3}\.mjs$/.test(f)).sort();
 const formulaires = [], problemes = [];
@@ -27,9 +28,10 @@ const data = {
     "L'accueil clinique demeure le lieu de référence prioritaire pour les conditions qu'il couvre.",
     "Les formulaires AH-702 en gastroentérologie sont acheminés directement en endoscopie.",
     "Depuis le 31 mars 2024, seules les demandes transmises par le DMÉ ou SAFIR Web sont acceptées (Québec.ca)."] },
-  accueil_clinique: ACCUEIL_CLINIQUE,
+  // Protocoles locaux relevés : Hôpital Pierre-Boucher (outils/crds/importer-accueil-pb.mjs).
+  accueil_clinique: { ...ACCUEIL_CLINIQUE, pierre_boucher: ACCUEIL_PIERRE_BOUCHER },
   formulaires, problemes,
   a_venir: formulaires.length < 26 ? `${26 - formulaires.length} formulaires APSS restent à transcrire et à vérifier.` : "",
 };
 fs.writeFileSync(path.join(RACINE, "crds/crds_data.json"), JSON.stringify(data, null, 1) + "\n");
-console.log(`${formulaires.length} formulaires, ${problemes.length} raisons de consultation.`);
+console.log(`${formulaires.length} formulaires, ${problemes.length} raisons de consultation, ${ACCUEIL_PIERRE_BOUCHER.protocoles.length} protocoles d'accueil clinique (Pierre-Boucher).`);
