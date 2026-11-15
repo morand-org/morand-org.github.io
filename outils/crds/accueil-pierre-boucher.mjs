@@ -968,7 +968,7 @@ export const ACCUEIL_PIERRE_BOUCHER = {
      "Contre-indications à recevoir un anticoagulant : Usager déjà sous anticoagulants oraux, héparine IV, héparine de bas poids moléculaire, saignement actif, coagulopathie, hémorragie intracrânienne ou intraoculaire, chirurgie intracrânienne ou intraoculaire récente, plaquettes < 50 x 10 9/L, ponction lombaire ou procédure péridurale dans les dernières 24 h."
     ],
     "ecarts": [
-     "Les valeurs de l'ordonnance OPE-00108 sont les bonnes (vérifié le 14 novembre 2026) : score de Wells ≥ 2 et immobilisation récente > 3 jours. Le portail affiche « Score de Wells ≥ 1 » et « Immobilisation récente (≤ 3 jours) » : les deux étapes du portail qui reposent sur ce seuil, et sa phrase sur les scores de Wells de 1 ou 2, ne sont pas reproduites.",
+     "Les valeurs de l'ordonnance OPE-00108 sont les bonnes (vérifié le 14 novembre 2026) : score de Wells ≥ 2 et immobilisation récente > 3 jours. Le portail affiche « Score de Wells ≥ 1 » et « Immobilisation récente (≤ 3 jours) » : les deux étapes du portail qui reposent sur ce seuil ne sont pas reproduites.",
      "« S’assurer que l’usager a pris une première dose d'anticoagulant » est une vérification faite par l'infirmière à l'arrivée : la première dose doit donc être prescrite et prise avant la visite (ordonnance pour la pharmacie : « première dose STAT »)."
     ],
     "lignes_omises": 2
