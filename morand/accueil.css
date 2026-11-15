@@ -108,8 +108,9 @@ h1 em { color: var(--or); }
   .rubrique { font-size: 11.5px; }
   main { --taille-titre: clamp(2.4rem, min(4.2vw, 6.2vh), 3.9rem); --marge-titre: clamp(14px, 3vh, 40px); }
   h1 { margin: clamp(8px, 2.6vh, 56px) 0 var(--marge-titre); font-size: var(--taille-titre); }
-  main { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 32px; align-content: start; }
-  main > h1 { grid-column: 1; grid-row: 1; }
+  /* La grille ne sert qu'à l'accueil : les pages de texte (confidentialité) restent en une colonne. */
+  main:not(.texte) { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 32px; align-content: start; }
+  main:not(.texte) > h1 { grid-column: 1; grid-row: 1; }
   main > .outils, main > .rg, main > .rg-etat, main > .rg-res { grid-column: 1 / -1; }
   .rg { margin: 0 0 clamp(14px, 2.6vh, 28px); max-width: 760px; }
   .rg-etat { margin: -6px 0 16px; }

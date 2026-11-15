@@ -52,6 +52,10 @@ async function pages(nav) {
     verifier(`${u} à ${largeur} px : la page s'ouvre`, statut === 200, statut);
     verifier(`${u} à ${largeur} px : aucune erreur de script`, erreurs.length === 0, erreurs);
     verifier(`${u} à ${largeur} px : pas de défilement horizontal`, !(await deborde(p)));
+    // Pages de texte : une seule colonne, le titre au-dessus des paragraphes (pas côte à côte).
+    if (u === "/confidentialite/") verifier(`${u} à ${largeur} px : une seule colonne de texte`, await p.evaluate(() => {
+      const h = document.querySelector("main h1").getBoundingClientRect(), t = document.querySelector("main p").getBoundingClientRect();
+      return t.top >= h.bottom && t.width > 250; }));
     await ctx.close();
   }
 }
