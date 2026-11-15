@@ -34,7 +34,7 @@
       else {
         const niv = e.p.priorites.map(x => x.niveau).sort(), h = niv[0], bas = niv[niv.length - 1];
         b.textContent = h === "HORS" ? "—" : h === bas ? h : `${h}–${bas}`; b.dataset.niveau = h;
-        t.textContent = e.p.probleme; s.textContent = `${e.p.specialite} · ${e.p.formulaire}`;
+        t.textContent = e.p.titre || e.p.probleme; s.textContent = `${e.p.specialite} · ${e.p.formulaire}`;
         a.href = `/crds/?q=${encodeURIComponent(e.p.probleme)}`;
       }
       a.append(b, t, s); li.appendChild(a); liste.appendChild(li);

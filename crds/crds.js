@@ -75,19 +75,29 @@
     return mots.every(m => entree.mots.some(w => m.length <= 2 ? w === m : w.startsWith(m)) || (m.length > 3 && entree.plat.includes(m)));
   }
   function score(entree, mots) {
-    const titre = sansAccents(`${entree.p.probleme} ${entree.p.libelle_formulaire || ""} ${entree.p.specialite}`);
+    const titre = sansAccents(`${entree.p.titre || ""} ${entree.p.probleme} ${entree.p.libelle_formulaire || ""} ${entree.p.specialite}`);
     // Un synonyme identique au mot cherché (FA, AAA, TDAH) compte autant que le titre.
     const syn = entree.p.synonymes.map(sansAccents);
     return mots.reduce((s, m) => s + (titre.includes(m) ? 3 : 0) + (syn.includes(m) ? 3 : syn.some(x => x.includes(m)) ? 1 : 0), 0);
   }
 
-  // « groupe » : la carte suit l'en-tête de sa spécialité (nom, formulaire, révision), qui n'est donc pas répété.
-  function carte(p, mots, groupe) {
+  // Surtitre : la spécialité, une seule fois ; la catégorie seulement si elle ajoute quelque chose (pas « Ophtalmologie »
+  // sous « Ophtalmologie adulte et enfant », pas « Autres ») ; le formulaire, en lien.
+  function surtitre(p, f) {
+    const s = sansAccents(p.specialite), k = sansAccents(p.categorie || "");
+    const cat = k && k !== "autres" && !s.split(/[^a-z]+/).includes(k.split(/[^a-z]+/)[0]) ? ` · ${p.categorie}` : "";
+    const sur = el("p", "cr-sur", `${p.specialite}${cat} · `);
+    const a = el("a", null, f.id); a.href = f.url; a.rel = "noopener"; a.title = `Formulaire du MSSS, révision ${f.revision}`; sur.appendChild(a);
+    return sur;
+  }
+  function carte(p, mots) {
     const f = D.formulaires.find(x => x.id === p.formulaire);
     const c = el("article", "cr-carte"); c.id = p.id;
     const tete = el("div", "cr-carte-tete"), gauche = el("div");
-    if (!groupe) gauche.appendChild(el("p", "cr-sur", p.specialite));
-    const h = el("h3"); surligner(h, p.probleme, mots); gauche.appendChild(h);
+    gauche.appendChild(surtitre(p, f));
+    // Titre : le problème seul ; le libellé complet du formulaire est dans les critères.
+    const titre = p.titre || p.probleme;
+    const h = el("h3"); surligner(h, titre, mots); gauche.appendChild(h);
     if ([...(p.orientation || []), ...(p.exclusions_urgence || [])].some(x => /accueil clinique/i.test(x)))
       gauche.appendChild(el("p", "cr-ac-pastille", "Accueil clinique d'abord, si disponible"));
     tete.appendChild(gauche);
@@ -96,10 +106,14 @@
     const b = el("div", "cr-prio"); b.dataset.niveau = haut;
     b.setAttribute("aria-label", haut === "HORS" ? "Hors CRDS" : haut === bas ? `Priorité ${haut}, ${D.echelle_priorite[haut]}` : `Priorités ${haut} à ${bas} selon les critères`);
     b.append(el("b", null, haut === "HORS" ? "—" : haut === bas ? haut : `${haut}–${bas}`), el("span", null, haut === bas ? D.echelle_priorite[haut] : "selon critères"));
-    tete.append(boutonFavori(p.id, p.probleme), b); c.appendChild(tete);
+    tete.append(boutonFavori(p.id, titre), b); c.appendChild(tete);
 
     const crit = el("div", "cr-bloc"); crit.appendChild(el("h4", null, p.priorites.length > 1 ? "Priorité selon les critères" : "Critères cliniques"));
     const ul = el("ul", p.priorites.length > 1 ? "cr-variantes" : "cr-criteres");
+    // Titre raccourci : le libellé complet en tête des critères, s'il n'y est pas déjà.
+    if (titre !== p.probleme && !p.priorites.some(v => v.criteres.includes(p.probleme))) {
+      const li = el("li", "cr-raison"); surligner(li, p.probleme, mots); ul.appendChild(li);
+    }
     p.priorites.forEach(v => v.criteres.forEach(x => {
       const li = el("li");
       if (p.priorites.length > 1) { const n = el("span", "cr-mini", v.niveau); n.dataset.niveau = v.niveau; n.title = D.echelle_priorite[v.niveau]; li.appendChild(n); }
@@ -128,18 +142,7 @@
     if (notes.length) { const o = el("div", "cr-orientation"); notes.forEach(n => o.appendChild(el("p", null, n))); c.appendChild(o); }
 
     if (p.libelle_formulaire) c.appendChild(el("p", "cr-source", `Au formulaire : « ${p.libelle_formulaire} »`));
-    if (!groupe) c.appendChild(sourceFormulaire(f));
     return c;
-  }
-  // « AH-745 · rév. 2018-06 · Formulaire du MSSS » : une fois par spécialité.
-  function sourceFormulaire(f, cls) {
-    const src = el("p", cls || "cr-source"); src.appendChild(document.createTextNode(`${f.id} · rév. ${f.revision} · `));
-    const a = el("a", null, "Formulaire du MSSS"); a.href = f.url; a.rel = "noopener"; src.appendChild(a); return src;
-  }
-  function enteteSpecialite(f, n) {
-    const h = el("div", "cr-groupe"); h.appendChild(el("h2", null, f.specialite));
-    h.appendChild(sourceFormulaire(f, "cr-groupe-source")); if (n) h.lastChild.prepend(document.createTextNode(`${n} raison${n > 1 ? "s" : ""} · `));
-    return h;
   }
 
   // Sans recherche : la liste des spécialités (un toucher filtre la spécialité).
@@ -298,12 +301,7 @@
     const acRestant = ac.filter(c => !pb.some(p => p.msss && c.nom.startsWith(p.msss)));
     pb.forEach(p => zone.appendChild(cartePB(p)));
     acRestant.forEach(c => zone.appendChild(carteAccueil(c, mots)));
-    const ordre = [...new Set(resultats.map(e => e.p.formulaire))];
-    ordre.forEach(id => {
-      const f = D.formulaires.find(x => x.id === id), l = resultats.filter(e => e.p.formulaire === id);
-      zone.appendChild(enteteSpecialite(f, ordre.length > 1 ? l.length : 0));
-      l.forEach(e => zone.appendChild(carte(e.p, mots, true)));
-    });
+    resultats.forEach(e => zone.appendChild(carte(e.p, mots)));
     const nAc = pb.length + acRestant.length;
     vide.hidden = resultats.length + nAc > 0;
     const n = resultats.length;
@@ -320,7 +318,7 @@
   fetch("/crds/crds_data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d;
     index = d.problemes.map((p, rang) => {
-      const texte = [p.probleme, p.libelle_formulaire || "", p.specialite, p.categorie, p.formulaire, ...p.synonymes, ...p.priorites.flatMap(x => x.criteres),
+      const texte = [p.titre || "", p.probleme, p.libelle_formulaire || "", p.specialite, p.categorie, p.formulaire, ...p.synonymes, ...p.priorites.flatMap(x => x.criteres),
         ...Object.values(p.prerequis_obligatoires).flat(), ...Object.values(p.prerequis_souhaitables).flat()].join(" ");
       const plat = sansAccents(texte);
       return { p, rang, plat, mots: plat.split(/[^a-z0-9]+/).filter(Boolean) };

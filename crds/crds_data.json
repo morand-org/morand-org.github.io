@@ -8,6 +8,7 @@
    "specialite",
    "categorie",
    "probleme",
+   "titre (le problème seul, affiché)",
    "libelle_formulaire (facultatif)",
    "synonymes",
    "priorites[{niveau, criteres}]",
@@ -1942,7 +1943,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Zona ophtalmique"
   },
   {
    "id": "ophtalmo-conjonctivite-refractaire-au-traitement-depuis-plus",
@@ -1979,7 +1981,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Conjonctivite"
   },
   {
    "id": "ophtalmo-usager-traite-pour-glaucome-chronique",
@@ -2012,7 +2015,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Glaucome chronique"
   },
   {
    "id": "ophtalmo-retinopathie-diabetique-documentee",
@@ -2047,7 +2051,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rétinopathie diabétique"
   },
   {
    "id": "ophtalmo-prise-de-hydroxychloroquine-plaquenil",
@@ -2082,7 +2087,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Prise de Hydroxychloroquine (Plaquenil)"
   },
   {
    "id": "ophtalmo-larmoiement-chronique-chez-l-adulte",
@@ -2113,7 +2119,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Larmoiement"
   },
   {
    "id": "ophtalmo-cataracte-documentee-et-symptomatique",
@@ -2146,7 +2153,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Cataracte"
   },
   {
    "id": "ophtalmo-lesions-palpebrales",
@@ -2183,7 +2191,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lésions palpébrales"
   },
   {
    "id": "ophtalmo-chalazion-significatif-persistant",
@@ -2216,7 +2225,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Chalazion"
   },
   {
    "id": "ophtalmo-strabisme-chez-l-enfant-de-8-mois-a-6-ans",
@@ -2251,7 +2261,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Strabisme"
   },
   {
    "id": "ophtalmo-dacryostenose-persistante",
@@ -2287,7 +2298,8 @@
    },
    "orientation": [
     "Si plus jeune que 12 mois : aucune indication de référer."
-   ]
+   ],
+   "titre": "Dacryosténose"
   },
   {
    "id": "orl-surdite",
@@ -2327,7 +2339,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Surdité"
   },
   {
    "id": "orl-otites-a-repetition-ou-sereuse-persistante-depuis-3-mois",
@@ -2356,7 +2369,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Otites"
   },
   {
    "id": "orl-acouphene-incommodant-depuis-plus-de-6-mois",
@@ -2390,7 +2404,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Acouphène"
   },
   {
    "id": "orl-vertiges",
@@ -2427,7 +2442,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Vertiges"
   },
   {
    "id": "orl-paralysie-faciale-peripherique-unilaterale",
@@ -2463,7 +2479,8 @@
    },
    "orientation": [
     "Légende du formulaire : pour les usagers de 16 ans ou plus présentant une paralysie faciale idiopathique depuis moins de 72 heures et sans contre-indication au traitement, une corticothérapie orale est fortement recommandée. Un traitement de 50 mg de prednisone po die pour 10 jours constitue une thérapie valable. La prescription concomitante d'antiviraux demeure à la discrétion du clinicien ; la prescription d'antiviraux sans corticothérapie est déconseillée. Il est aussi recommandé de prescrire un lubrifiant oculaire de même que des larmes artificielles ainsi qu'une protection oculaire nocturne au besoin (American Academy of Otolaryngology Head and Neck Surgery)."
-   ]
+   ],
+   "titre": "Paralysie faciale périphérique unilatérale"
   },
   {
    "id": "orl-epistaxis-recidivante-et-chronique",
@@ -2494,7 +2511,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Épistaxis"
   },
   {
    "id": "orl-fracture-nasale-deplacee",
@@ -2528,7 +2546,8 @@
    "orientation": [
     "Si hématome septal : diriger l'usager vers l'urgence.",
     "RX nasal non recommandé."
-   ]
+   ],
+   "titre": "Fracture nasale déplacée"
   },
   {
    "id": "orl-rhinosinusites-chroniques-ou-sinusites-a-repetition-de-3",
@@ -2559,7 +2578,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rhinosinusites"
   },
   {
    "id": "orl-rhinite-chronique-obstruction-nasale-chronique-deviation",
@@ -2591,7 +2611,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rhinite / obstruction nasale / déviation septale"
   },
   {
    "id": "orl-hypertrophie-adeno-amygdalienne",
@@ -2630,7 +2651,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hypertrophie adéno-amygdalienne"
   },
   {
    "id": "orl-amygdalites-a-repetition",
@@ -2661,7 +2683,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Amygdalites"
   },
   {
    "id": "orl-nodule-thyroidien",
@@ -2696,7 +2719,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Nodule thyroïdien"
   },
   {
    "id": "orl-changement-de-la-voix",
@@ -2734,7 +2758,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Changement de la voix"
   },
   {
    "id": "orl-masse-cervicale",
@@ -2773,7 +2798,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Masse cervicale"
   },
   {
    "id": "orl-lesion-buccale",
@@ -2811,7 +2837,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lésion buccale"
   },
   {
    "id": "orl-lesion-cutanee-de-la-tete-ou-du-cou-suspecte-de-neoplasi",
@@ -2844,7 +2871,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lésion cutanée de la tête ou du cou"
   },
   {
    "id": "cardio-angine-d-effort-severe-ccs-3-4-stable",
@@ -2879,7 +2907,8 @@
    },
    "orientation": [
     "Utiliser le formulaire d'Accueil clinique si disponible et selon l'état de l'usager."
-   ]
+   ],
+   "titre": "Angine d'effort"
   },
   {
    "id": "cardio-drs-atypique-avec-facteurs-de-risque",
@@ -2913,7 +2942,8 @@
    },
    "orientation": [
     "Utiliser le formulaire d'Accueil clinique si disponible et selon l'état de l'usager."
-   ]
+   ],
+   "titre": "DRS atypique"
   },
   {
    "id": "cardio-drs-typique-evoluant-depuis-1-mois-ou-angine-d-effort",
@@ -2947,7 +2977,8 @@
    },
    "orientation": [
     "Utiliser le formulaire d'Accueil clinique si disponible et selon l'état de l'usager."
-   ]
+   ],
+   "titre": "DRS typique ou angine d'effort"
   },
   {
    "id": "cardio-drs-atypique-sans-facteur-de-risque",
@@ -2979,7 +3010,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "DRS atypique"
   },
   {
    "id": "cardio-suivi-post-infarctus-de-moins-d-un-an",
@@ -3013,7 +3045,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suivi post-infarctus"
   },
   {
    "id": "cardio-suivi-post-infarctus-de-plus-d-un-an",
@@ -3047,7 +3080,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suivi post-infarctus"
   },
   {
    "id": "cardio-mcas-sans-evenement-recent",
@@ -3079,7 +3113,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "MCAS"
   },
   {
    "id": "cardio-dyspnee-d-effort-de-novo-marquee-nyha-3-4-ou-connue-a",
@@ -3112,7 +3147,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Dyspnée d'effort"
   },
   {
    "id": "cardio-dysfonction-ventriculaire-de-novo-fraction-ejection-5",
@@ -3145,7 +3181,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Dysfonction ventriculaire"
   },
   {
    "id": "cardio-dyspnee-d-effort-inexpliquee",
@@ -3176,7 +3213,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Dyspnée d'effort"
   },
   {
    "id": "cardio-suivi-d-insuffisance-cardiaque",
@@ -3207,7 +3245,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suivi d'insuffisance cardiaque"
   },
   {
    "id": "cardio-bradycardie-asymptomatique-avec-fc-40-bpm-ou-pauses-d",
@@ -3239,7 +3278,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Bradycardie"
   },
   {
    "id": "cardio-fibrillation-auriculaire-de-novo-fc-110-bpm-au-repos",
@@ -3280,7 +3320,8 @@
    "libelle_formulaire": "FA de novo FC < 110 bpm au repos",
    "exclusions_urgence": [
     "Fibrillation auriculaire rapide ≥ 110 bpm au repos ou mal tolérée : diriger l'usager à l'urgence."
-   ]
+   ],
+   "titre": "Fibrillation auriculaire"
   },
   {
    "id": "cardio-tsv-ou-suspicion-de-tsv",
@@ -3313,7 +3354,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "TSV"
   },
   {
    "id": "cardio-palpitations-d-allure-benigne",
@@ -3346,7 +3388,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Palpitations d'allure bénigne"
   },
   {
    "id": "cardio-syncope-avec-cardiopathie",
@@ -3377,7 +3420,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Syncope"
   },
   {
    "id": "cardio-syncope-sans-cardiopathie",
@@ -3408,7 +3452,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Syncope"
   },
   {
    "id": "cardio-valvulopathie-aortique-ou-mitrale-severe",
@@ -3441,7 +3486,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Valvulopathie aortique ou mitrale"
   },
   {
    "id": "cardio-souffle-cardiaque-non-investigue-ou-pathologie-valvul",
@@ -3473,7 +3519,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Souffle cardiaque"
   },
   {
    "id": "gastro-dysphagie-sophagienne",
@@ -3522,7 +3569,8 @@
    },
    "orientation": [
     "Blocage d'aliments principalement solides immédiatement suite à la déglutition. Ne s'applique pas pour : globus pharyngé (« boule constante dans la gorge ») ; dysphagie oro-pharyngée ; plénitude post-prandiale (sensation de blocage épigastrique)."
-   ]
+   ],
+   "titre": "Dysphagie œsophagienne"
   },
   {
    "id": "gastro-rgo-severe-et-avec-symptomes-residuels-significatifs-",
@@ -3559,7 +3607,8 @@
    },
    "orientation": [
     "Une réponse partielle ou une rechute à l'arrêt des IPP ne constituent pas des échecs au traitement."
-   ]
+   ],
+   "titre": "RGO"
   },
   {
    "id": "gastro-depistage-du-barrett-homme-50-ans-avec-ces-3-criteres",
@@ -3593,7 +3642,8 @@
    },
    "orientation": [
     "Pourrait être vu directement en endoscopie."
-   ]
+   ],
+   "titre": "Dépistage du Barrett"
   },
   {
    "id": "gastro-dyspepsie-sans-rgo-refractaire-ou-persistante-apres-8",
@@ -3647,7 +3697,8 @@
    "orientation": [
     "Une réponse partielle ou une rechute à l'arrêt des IPP ne constituent pas des échecs au traitement.",
     "Durant l'attente, des thérapies de deuxième ligne peuvent être tentées (tricyclique, prokinétique)."
-   ]
+   ],
+   "titre": "Dyspepsie"
   },
   {
    "id": "gastro-perte-de-plus-de-10-du-poids-causee-par-des-symptomes",
@@ -3695,7 +3746,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Perte de poids"
   },
   {
    "id": "gastro-hematemese-ou-melena",
@@ -3736,7 +3788,8 @@
    "orientation": [
     "Utilisez les protocoles d'accueil clinique si disponibles.",
     "Pourrait être vu directement en endoscopie."
-   ]
+   ],
+   "titre": "Hématémèse ou méléna"
   },
   {
    "id": "gastro-anti-transglutaminase-positif-non-connu-c-liaque",
@@ -3771,7 +3824,8 @@
    },
    "orientation": [
     "Pourrait être vu directement en endoscopie."
-   ]
+   ],
+   "titre": "Anti-transglutaminase positif"
   },
   {
    "id": "gastro-douleur-abdominale-chronique",
@@ -3806,7 +3860,8 @@
    },
    "orientation": [
     "Envisager le conseil numérique."
-   ]
+   ],
+   "titre": "Douleur abdominale"
   },
   {
    "id": "gastro-diarrhee-chronique-sans-anomalie-aux-prerequis-chez-u",
@@ -3841,7 +3896,8 @@
    },
    "orientation": [
     "Si > 50 ans ou calprotectine haute : formulaire AH-702 en endoscopie."
-   ]
+   ],
+   "titre": "Diarrhée"
   },
   {
    "id": "gastro-alt-entre-201-500-ui-avec-atteinte-des-fonctions-hepa",
@@ -3876,7 +3932,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Élévation des ALT"
   },
   {
    "id": "gastro-alt-entre-201-500-sans-atteinte-des-fonctions-hepatiq",
@@ -3911,7 +3968,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Élévation des ALT"
   },
   {
    "id": "gastro-alt-entre-91-200-bilirubine-et-inr-normaux",
@@ -3948,7 +4006,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Élévation des ALT"
   },
   {
    "id": "gastro-alt-entre-40-90-persistant-suivi-de-plus-de-6-mois-av",
@@ -3985,7 +4044,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Élévation des ALT"
   },
   {
    "id": "gastro-steatose-hepatique-et-risque-de-fibrose-cirrhose",
@@ -4024,7 +4084,8 @@
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée.",
     "Calculateurs (annexe 2 du formulaire) : NAFLD fibrosis score, mdcalc.com ; score FIB-4, cregg.org."
-   ]
+   ],
+   "titre": "Stéatose hépatique"
   },
   {
    "id": "gastro-cirrhose-confirmee-par-imagerie-avec-bilirubine-total",
@@ -4056,7 +4117,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Cirrhose"
   },
   {
    "id": "gastro-cirrhose-confirmee-par-imagerie-inr-albumine-et-bilir",
@@ -4090,7 +4152,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Cirrhose"
   },
   {
    "id": "gastro-hbsag-positif-avec-alt-90-ui",
@@ -4122,7 +4185,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "HbsAg positif"
   },
   {
    "id": "gastro-antihcv-positif-avec-alt-200-ui",
@@ -4154,7 +4218,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "AntiHCV positif"
   },
   {
    "id": "gastro-ictere-avec-bilirubine-totale-60-ou-40-avec-dilatatio",
@@ -4188,7 +4253,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Ictère"
   },
   {
    "id": "gastro-anomalie-a-l-imagerie-non-suspecte-au-pancreas-ou-au-",
@@ -4221,7 +4287,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Anomalie au pancréas ou au foie à l'imagerie"
   },
   {
    "id": "gastro-kyste-pancreatique-de-type-tipmt-des-canaux-secondair",
@@ -4262,7 +4329,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Kyste pancréatique de type TIPMT des canaux secondaires"
   },
   {
    "id": "gastro-haute-suspicion-de-cancer-digestif-basee-sur-l-imager",
@@ -4296,7 +4364,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Haute suspicion de cancer digestif à l'imagerie"
   },
   {
    "id": "nephro-ira-significative",
@@ -4336,7 +4405,8 @@
    },
    "orientation": [
     "Avant de référer pour une IRA, vous devez avoir 2 valeurs de créatinine sur une période entre 2 et 7 jours."
-   ]
+   ],
+   "titre": "IRA"
   },
   {
    "id": "nephro-irc-dfge-entre-15-45-ml-min-stable",
@@ -4373,7 +4443,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "IRC"
   },
   {
    "id": "nephro-irc-dfge-15-ml-min",
@@ -4410,7 +4481,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "IRC"
   },
   {
    "id": "nephro-irc-dfge-entre-46-60-ml-min",
@@ -4449,7 +4521,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "IRC"
   },
   {
    "id": "nephro-proteinurie",
@@ -4504,7 +4577,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Protéinurie"
   },
   {
    "id": "nephro-hta-refractaire-malgre-3-medicaments-et-plus-incluant",
@@ -4540,7 +4614,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "HTA"
   },
   {
    "id": "nephro-troubles-electrolytiques-et-ou-acidose-metabolique-co",
@@ -4576,7 +4651,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Troubles électrolytiques ou acidose métabolique"
   },
   {
    "id": "nephro-polykystose",
@@ -4613,7 +4689,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Polykystose"
   },
   {
    "id": "nephro-evaluation-metabolique-pour-lithiases-renales-2-episo",
@@ -4652,7 +4729,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Lithiases rénales : évaluation métabolique"
   },
   {
    "id": "nephro-maladies-genetiques-renales",
@@ -4687,7 +4765,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Maladies génétiques rénales"
   },
   {
    "id": "nephro-anomalie-de-l-anatomie-renale-avec-baisse-du-tfge-90-",
@@ -4724,7 +4803,8 @@
    },
    "orientation": [
     "Dans le cas d'un TFGE > 90 ml/min, envisagez une consultation au Conseil Numérique selon évolution."
-   ]
+   ],
+   "titre": "Anomalie de l'anatomie rénale"
   },
   {
    "id": "nephro-hematurie-isolee-apres-investigation-urologique-negat",
@@ -4762,7 +4842,8 @@
    },
    "orientation": [
     "L'utilisation du conseil numérique est fortement recommandée."
-   ]
+   ],
+   "titre": "Hématurie"
   },
   {
    "id": "neuro-symptomes-neurologiques-focaux-transitoires-suggestifs",
@@ -4795,7 +4876,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Symptômes neurologiques transitoires suggestifs d'AIT"
   },
   {
    "id": "neuro-symptomes-neurologiques-focaux-transitoires-excluant-u",
@@ -4828,7 +4910,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Symptômes neurologiques focaux transitoires"
   },
   {
    "id": "neuro-trouble-neurocognitif-majeur-tnc",
@@ -4870,7 +4953,8 @@
    },
    "orientation": [
     "Seront vus en neuro les usagers avec symptômes atypiques ou progression rapide ou moins de 65 ans, avec une justification dans la section « Impr. diagn. »."
-   ]
+   ],
+   "titre": "Trouble neurocognitif majeur (TNC)"
   },
   {
    "id": "neuro-tunnel-carpien-avec-impact-fonctionnel-important-au-tr",
@@ -4913,7 +4997,8 @@
    },
    "orientation": [
     "Outil de l'INESSS sur l'EMG : www.inesss.qc.ca (INESSS_EMG_Outil.pdf)."
-   ]
+   ],
+   "titre": "Tunnel carpien"
   },
   {
    "id": "neuro-polyneuropathie-autre-que-secondaire-au-diabete",
@@ -4948,7 +5033,8 @@
    "orientation": [
     "Si diabète, justifier pourquoi l'examen est nécessaire : atypie ?",
     "Outil de l'INESSS sur l'EMG : www.inesss.qc.ca (INESSS_EMG_Outil.pdf)."
-   ]
+   ],
+   "titre": "Polyneuropathie"
   },
   {
    "id": "neuro-radiculopathie-avec-atteinte-motrice-et-ou-sensitive-s",
@@ -4989,7 +5075,8 @@
    },
    "orientation": [
     "Outil de l'INESSS sur l'EMG : www.inesss.qc.ca (INESSS_EMG_Outil.pdf)."
-   ]
+   ],
+   "titre": "Radiculopathie"
   },
   {
    "id": "neuro-suspicion-de-sla-myasthenie-grave-ou-myopathie",
@@ -5028,7 +5115,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "SLA, myasthénie grave ou myopathie"
   },
   {
    "id": "neuro-mononevrite-isolee-cubitale-spe-autres",
@@ -5067,7 +5155,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Mononévrite"
   },
   {
    "id": "neuro-suspicion-de-parkinsonisme",
@@ -5104,7 +5193,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suspicion de parkinsonisme"
   },
   {
    "id": "neuro-tremblement",
@@ -5141,7 +5231,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Tremblement"
   },
   {
    "id": "neuro-autres-troubles-mouvements",
@@ -5172,7 +5263,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Autres troubles mouvements"
   },
   {
    "id": "neuro-convulsion-de-novo",
@@ -5205,7 +5297,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Convulsion"
   },
   {
    "id": "neuro-epilepsie-connue-sans-neurologue-traitant",
@@ -5249,7 +5342,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Épilepsie"
   },
   {
    "id": "neuro-suspicion-clinique-de-sep-excluant-trouvaille-fortuite",
@@ -5283,7 +5377,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suspicion clinique de SEP"
   },
   {
    "id": "neuro-sep-diagnostic-confirme-sans-neurologue-traitant",
@@ -5326,7 +5421,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "SEP"
   },
   {
    "id": "neuro-migraine-avec-echec-au-traitement-abortif-triptan-et-2",
@@ -5361,7 +5457,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Migraine"
   },
   {
    "id": "neuro-suspicion-cephalee-de-horton-cluster",
@@ -5396,7 +5493,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Céphalée de Horton"
   },
   {
    "id": "neuro-nevralgie-du-trijumeau",
@@ -5432,7 +5530,8 @@
      "Tentative tx à la Carbamazépine"
     ]
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Névralgie du trijumeau"
   },
   {
    "id": "neuro-autre-type-de-cephalee-primaire",
@@ -5465,7 +5564,8 @@
    },
    "orientation": [
     "Conseil numérique recommandé."
-   ]
+   ],
+   "titre": "Autre type de céphalée primaire"
   },
   {
    "id": "neuro-anomalies-a-l-imagerie-fortuite-d-interpretation-doute",
@@ -5499,7 +5599,8 @@
    },
    "orientation": [
     "Conseil numérique recommandé."
-   ]
+   ],
+   "titre": "Anomalies fortuites à l'imagerie"
   },
   {
    "id": "ortho-rupture-complete-de-la-coiffe-des-rotateurs-aigue-prou",
@@ -5533,7 +5634,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rupture complète de la coiffe des rotateurs"
   },
   {
    "id": "ortho-maladie-de-la-coiffe-des-rotateurs-bursite-tendinite-a",
@@ -5570,7 +5672,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maladie de la coiffe des rotateurs"
   },
   {
    "id": "ortho-luxation-recidivante-epaule-avec-physiotherapie-debute",
@@ -5604,7 +5707,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Luxation de l'épaule"
   },
   {
    "id": "ortho-arthrose-invalidante-epaule",
@@ -5640,7 +5744,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Arthrose de l'épaule"
   },
   {
    "id": "ortho-rupture-complete-du-tendon-biceps-distal",
@@ -5672,7 +5777,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rupture complète du tendon biceps distal"
   },
   {
    "id": "ortho-epicondylite-et-epitrochleite",
@@ -5708,7 +5814,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Épicondylite et épitrochléite"
   },
   {
    "id": "ortho-rupture-complete-du-tendon-rotulien-ou-quadriceps",
@@ -5742,7 +5849,8 @@
     "autres": []
    },
    "orientation": [],
-   "libelle_formulaire": "Rupture complète du tendon : rotulien, quadriceps"
+   "libelle_formulaire": "Rupture complète du tendon : rotulien, quadriceps",
+   "titre": "Rupture complète du tendon rotulien ou quadriceps"
   },
   {
    "id": "ortho-rupture-ligament-croise-avec-physiotherapie-initiee",
@@ -5777,7 +5885,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rupture ligament croisé"
   },
   {
    "id": "ortho-dechirure-meniscale-aigue-ou-traumatique-usager-60-ans",
@@ -5811,7 +5920,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Déchirure méniscale"
   },
   {
    "id": "ortho-arthrose-invalidante-du-genou",
@@ -5847,7 +5957,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Arthrose du genou"
   },
   {
    "id": "ortho-rupture-complete-du-tendon-d-achille",
@@ -5879,7 +5990,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rupture complète du tendon d'Achille"
   },
   {
    "id": "ortho-entorse-severe-persistante-cheville-symptomes-plus-de-",
@@ -5913,7 +6025,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Entorse de la cheville"
   },
   {
    "id": "ortho-arthrose-invalidante-cheville",
@@ -5949,7 +6062,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Arthrose de la cheville"
   },
   {
    "id": "ortho-hallux-valgus-ou-orteils-marteau-symptomatiques",
@@ -5984,7 +6098,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hallux valgus ou orteils marteau"
   },
   {
    "id": "ortho-fracture-aigue-mineure-non-deplacee-immobilisee-ou-sub",
@@ -6019,7 +6134,8 @@
    },
    "orientation": [
     "Pour des fractures non immobilisées, vous êtes encouragé à ne pas diriger les usagers à l'urgence mais d'utiliser plutôt les corridors de services disponibles dans votre région."
-   ]
+   ],
+   "titre": "Fracture mineure ou subluxation"
   },
   {
    "id": "ortho-neoplasie-musculo-squelettique",
@@ -6053,7 +6169,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Néoplasie musculo-squelettique"
   },
   {
    "id": "ortho-entorse-severe-persistante-poignet-symptomes-plus-de-2",
@@ -6087,7 +6204,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Entorse du poignet"
   },
   {
    "id": "ortho-arthrose-invalidante-hanche",
@@ -6123,7 +6241,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Arthrose de la hanche"
   },
   {
    "id": "ortho-syndrome-du-tunnel-carpien-ou-tunnel-cubital-confirme-",
@@ -6158,7 +6277,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Tunnel carpien ou tunnel cubital"
   },
   {
    "id": "uro-calcul-ureteral",
@@ -6195,7 +6315,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Calcul urétéral"
   },
   {
    "id": "uro-calcul-renal-ou-vesical-asymptomatique",
@@ -6232,7 +6353,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Calcul rénal ou vésical"
   },
   {
    "id": "uro-infection-urinaire-chez-l-homme",
@@ -6268,7 +6390,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infection urinaire chez l'homme"
   },
   {
    "id": "uro-infections-urinaires-basses-recidivantes-documentees-che",
@@ -6302,7 +6425,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infections urinaires basses chez la femme"
   },
   {
    "id": "uro-dysfonction-erectile-avec-echec-au-traitement-medical",
@@ -6336,7 +6460,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Dysfonction érectile"
   },
   {
    "id": "uro-maladie-de-la-peyronie",
@@ -6368,7 +6493,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maladie de La Peyronie"
   },
   {
    "id": "uro-hemospermie-recidivante-avec-examen-prostatique-non-susp",
@@ -6401,7 +6527,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hémospermie"
   },
   {
    "id": "uro-hematurie-macroscopique-intermittente-avec-culture-negat",
@@ -6436,7 +6563,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hématurie macroscopique"
   },
   {
    "id": "uro-hematurie-microscopique-2-5-gr-champ",
@@ -6473,7 +6601,8 @@
    },
    "orientation": [
     "Définition de l'hématurie microscopique significative : présence de plus de 2 GR/champ lors de 2 analyses par microscope après une certaine période sans exercice, sans menstruation, sans activité sexuelle et sans exploration instrumentale des voies urinaires (Association canadienne d'urologie, 2008 ; American Urological Association, 2012)."
-   ]
+   ],
+   "titre": "Hématurie microscopique"
   },
   {
    "id": "uro-examen-prostatique-suspect-tr",
@@ -6508,7 +6637,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Examen prostatique suspect (TR)"
   },
   {
    "id": "uro-aps-eleve-recontrole-apres-6-semaines",
@@ -6543,7 +6673,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "APS élevé"
   },
   {
    "id": "uro-masse-vesicale",
@@ -6577,7 +6708,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Masse vésicale"
   },
   {
    "id": "uro-masse-renale-solide-ou-kyste-renal-complexe",
@@ -6614,7 +6746,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Masse rénale ou kyste rénal complexe"
   },
   {
    "id": "uro-masse-scrotale-suspecte-de-neoplasie",
@@ -6648,7 +6781,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Masse scrotale suspecte"
   },
   {
    "id": "uro-complications-reliees-aux-bandelettes-urinaires",
@@ -6683,7 +6817,8 @@
    },
    "orientation": [
     "Référer à votre centre désigné en santé pelvienne via le formulaire de demande de consultation (www.msss.gouv.qc.ca/professionnels/soins-et-services/programme-sante-pelvienne/centres-designes/)."
-   ]
+   ],
+   "titre": "Complications reliées aux bandelettes urinaires"
   },
   {
    "id": "uro-masse-scrotale-benigne-hydrocele-varicocele-spermatocele",
@@ -6717,7 +6852,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Masse scrotale bénigne"
   },
   {
    "id": "uro-hydronephrose-obstructive-ou-symptomatique",
@@ -6752,7 +6888,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hydronéphrose obstructive"
   },
   {
    "id": "uro-symptomes-du-bas-appareil-urinaire-chez-et-incontinence-",
@@ -6788,7 +6925,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Symptômes du bas appareil urinaire"
   },
   {
    "id": "uro-syndrome-de-douleur-pelvienne-chronique-orchialgie-inclu",
@@ -6822,7 +6960,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Syndrome de douleur pelvienne / orchialgie"
   },
   {
    "id": "uro-balanite-recidivante-phimosis-vasectomie",
@@ -6855,7 +6994,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Balanite / phimosis / vasectomie"
   },
   {
    "id": "pedia-irritabilite-troubles-d-alimentation",
@@ -6902,7 +7042,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Irritabilité – Troubles d'alimentation"
   },
   {
    "id": "pedia-retard-de-croissance-statural-et-ou-ponderal",
@@ -6943,7 +7084,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Retard de croissance"
   },
   {
    "id": "pedia-douleur-abdominale-chronique-diarrhee-chronique-consti",
@@ -6978,7 +7120,8 @@
      "Calendrier des symptômes"
     ]
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Douleur abdominale / diarrhée / constipation"
   },
   {
    "id": "pedia-infections-a-repetition-respiratoires-urinaires-et-aut",
@@ -7011,7 +7154,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infections à répétition"
   },
   {
    "id": "pedia-cephalee",
@@ -7059,7 +7203,8 @@
      "Calendrier des symptômes"
     ]
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Céphalée"
   },
   {
    "id": "pedia-toux-chronique-asthme",
@@ -7101,7 +7246,8 @@
      "Calendrier des symptômes"
     ]
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Toux / asthme"
   },
   {
    "id": "pedia-souffle-cardiaque-enfant-stable",
@@ -7148,7 +7294,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Souffle cardiaque"
   },
   {
    "id": "pedia-retard-de-developpement-chez-un-enfant-0-5-ans",
@@ -7189,7 +7336,8 @@
    },
    "orientation": [
     "Référer au préalable au dépistage AGIR TÔT du CISSS ou CIUSSS."
-   ]
+   ],
+   "titre": "Retard de développement"
   },
   {
    "id": "pedia-evaluation-trouble-scolaire-tdah",
@@ -7226,7 +7374,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Évaluation trouble scolaire – TDAH"
   },
   {
    "id": "pedia-troubles-de-comportement",
@@ -7261,7 +7410,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Troubles de comportement"
   },
   {
    "id": "pedia-anomalie-du-crane-plagiocephalie",
@@ -7295,7 +7445,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Anomalie du crâne/plagiocéphalie"
   },
   {
    "id": "pedia-problemes-cutanes",
@@ -7331,7 +7482,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Problèmes cutanés"
   },
   {
    "id": "pedia-enuresie",
@@ -7364,7 +7516,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Énurésie"
   },
   {
    "id": "pedia-phimosis",
@@ -7397,7 +7550,8 @@
     ],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Phimosis"
   },
   {
    "id": "chirgen-colique-biliaire-un-ou-plusieurs-episodes",
@@ -7432,7 +7586,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Colique biliaire"
   },
   {
    "id": "chirgen-diverticulite-avec-recidives-frequentes-prouvees-au-",
@@ -7465,7 +7620,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Diverticulite"
   },
   {
    "id": "chirgen-pathologies-anorectales-douleur-saignement-prurit",
@@ -7510,7 +7666,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Pathologies anorectales"
   },
   {
    "id": "chirgen-saignement-anorectal",
@@ -7548,7 +7705,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Saignement anorectal"
   },
   {
    "id": "chirgen-haute-suspicion-de-cancer-colorectal-rsosi-fit-posit",
@@ -7584,7 +7742,8 @@
     "autres": []
    },
    "orientation": [],
-   "libelle_formulaire": "Haute suspicion de cancer colorectal basée sur l'imagerie, RSOSi positif (FIT positif), diarrhées chronique/constipation chronique, rectorragie, anémie ferriprive non gynécologique, suspicion de MII, suivi de diverticulite"
+   "libelle_formulaire": "Haute suspicion de cancer colorectal basée sur l'imagerie, RSOSi positif (FIT positif), diarrhées chronique/constipation chronique, rectorragie, anémie ferriprive non gynécologique, suspicion de MII, suivi de diverticulite",
+   "titre": "Haute suspicion de cancer colorectal"
   },
   {
    "id": "chirgen-hernie-ombilicale-epigastrique-symptomatique",
@@ -7616,7 +7775,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hernie ombilicale/épigastrique"
   },
   {
    "id": "chirgen-hernie-inguinale-symptomatique",
@@ -7648,7 +7808,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hernie inguinale"
   },
   {
    "id": "chirgen-hernie-femorale-symptomatique-ou-asymptomatique",
@@ -7680,7 +7841,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hernie fémorale"
   },
   {
    "id": "chirgen-hernie-incisionnelle-symptomatique",
@@ -7712,7 +7874,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hernie incisionnelle"
   },
   {
    "id": "chirgen-sinus-pilonidal-symptomatique",
@@ -7743,7 +7906,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Sinus pilonidal"
   },
   {
    "id": "chirgen-kyste-sebace-tumeur-benigne-avec-interference-foncti",
@@ -7778,7 +7942,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Kyste sébacé / tumeur bénigne"
   },
   {
    "id": "chirgen-ongle-incarne",
@@ -7809,7 +7974,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Ongle incarné"
   },
   {
    "id": "chirgen-masse-mammaire-anomalies-radiologiques-ecoulement-sa",
@@ -7846,7 +8012,8 @@
    "orientation": [
     "Référer aux services de référence pour le sein : Centre de référence d'investigation désigné (CRID), guichet d'investigation et de référence du cancer du sein, clinique du sein ou Accueil clinique.",
     "Il est recommandé de référer en moins de 10 jours au guichet d'investigation et de référence du cancer du sein : < 30 ans avec un nodule de 2 cm ou qui augmente de volume ; ≥ 30 ans avec un nodule mammaire douloureux ou non ; > 50 ans avec un écoulement, une rétraction ou tout autre changement suspect du sein ; changements cutanés suspects au niveau du sein ; > 30 ans avec une masse axillaire de cause indéterminée (Direction générale de cancérologie, avril 2017)."
-   ]
+   ],
+   "titre": "Masse mammaire ou changement suspect du sein"
   },
   {
    "id": "chirgen-investigation-revelant-un-carcinome",
@@ -7880,7 +8047,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Investigation révélant un carcinome"
   },
   {
    "id": "chirgen-investigation-revelant-une-anomalie-autre",
@@ -7913,7 +8081,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Investigation révélant une anomalie autre"
   },
   {
    "id": "derm-keratose-seborrheique-probable-eliminer-lesion-suspecte",
@@ -7949,7 +8118,8 @@
    },
    "orientation": [
     "Les kératoses séborrhéiques et les nævi bénins peuvent se modifier au cours de leur évolution normale. Le traitement de ces conditions n'est pas assuré par la RAMQ."
-   ]
+   ],
+   "titre": "Kératose séborrhéique probable"
   },
   {
    "id": "derm-naevus-atypique-probable-eliminer-melanome",
@@ -7984,7 +8154,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Naevus atypique probable"
   },
   {
    "id": "derm-melanome-tres-probable",
@@ -8019,7 +8190,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Mélanome très probable"
   },
   {
    "id": "derm-tumeur-suspecte-de-cancer-autre-que-melanome-ex-carcino",
@@ -8061,7 +8233,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Tumeur suspecte de cancer, autre que mélanome"
   },
   {
    "id": "derm-keratoses-actiniques",
@@ -8095,7 +8268,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Kératoses actiniques"
   },
   {
    "id": "derm-hemangiome-du-nourrisson-necessitant-un-traitement",
@@ -8131,7 +8305,8 @@
    },
    "orientation": [
     "Selon l'outil www.ihscoring.com/frca/step-1/."
-   ]
+   ],
+   "titre": "Hémangiome du nourrisson"
   },
   {
    "id": "derm-tache-de-vin-de-l-enfant-age-de-moins-d-un-an",
@@ -8165,7 +8340,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Tache de vin"
   },
   {
    "id": "derm-lesions-erythemato-squameuses-ex-eczema-psoriasis-tinea",
@@ -8209,7 +8385,8 @@
    },
    "orientation": [
     "Note : 1 paume = 1 %."
-   ]
+   ],
+   "titre": "Lésions érythémato-squameuses"
   },
   {
    "id": "derm-lesions-bulleuses-non-infectieuses-sans-atteinte-de-l-e",
@@ -8243,7 +8420,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lésions bulleuses"
   },
   {
    "id": "derm-acne-nodulo-kystique-et-cicatricielle-incapacitante",
@@ -8279,7 +8457,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Acné nodulo-kystique"
   },
   {
    "id": "derm-autres-lesions-acneiformes-ex-acne-vulgaire-acne-rosace",
@@ -8314,7 +8493,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Autres lésions acnéiformes"
   },
   {
    "id": "derm-hidradenite-suppuree-moderee-a-severe-plus-de-10-nodule",
@@ -8349,7 +8529,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hidradénite suppurée"
   },
   {
    "id": "derm-urticaire-chronique-idiopathique-duree-6-semaines",
@@ -8386,7 +8567,8 @@
    },
    "orientation": [
     "Annexe 1 (exemples, doses standard et 4X) : cetirizine 10-40 mg PO/jour (4X = 20 mg PO bid) ; desloratadine 5-20 mg PO/jour (4X = 10 mg PO bid) ; loratadine 10-40 mg PO/jour (4X = 20 mg PO bid) ; rupatadine 10 mg PO/jour (4X = 20 mg PO bid). L'hydroxyzine et la diphenhydramine sont des antihistaminiques de première génération."
-   ]
+   ],
+   "titre": "Urticaire"
   },
   {
    "id": "endo-hyperthyroidie-tsh",
@@ -8433,7 +8615,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hyperthyroïdie"
   },
   {
    "id": "endo-nodule-thyroidien",
@@ -8484,7 +8667,8 @@
    "orientation": [
     "Critères échographiques suspects : nodule thyroïdien avec microcalcifications, contour irrégulier, hypoéchogénicité marquée ou TI-RADS 4b ou 5 (critères non exhaustifs).",
     "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : GARE, Centre du diabète gestationnel, Centre de diabète, Programme des habitudes de vie, Clinique des nodules thyroïdiens, etc.)."
-   ]
+   ],
+   "titre": "Nodule thyroïdien"
   },
   {
    "id": "endo-diabete-de-novo-type-1-soupconne-sans-acidose-et-sans-c",
@@ -8519,7 +8703,8 @@
    },
    "orientation": [
     "Avec acétonurie : communiquer avec l'endocrinologue de garde de votre région."
-   ]
+   ],
+   "titre": "Diabète, type 1 soupçonné"
   },
   {
    "id": "endo-diabete-traite",
@@ -8574,7 +8759,8 @@
    },
    "orientation": [
     "Pour une référence au Centre du diabète régional, remplir le formulaire spécifique si disponible."
-   ]
+   ],
+   "titre": "Diabète traité"
   },
   {
    "id": "endo-hirsutisme-sans-virilisation",
@@ -8607,7 +8793,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hirsutisme"
   },
   {
    "id": "endo-oligo-amenorrhee-ex-syndrome-ovaires-polykystiques",
@@ -8641,7 +8828,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Oligo/aménorrhée"
   },
   {
    "id": "endo-hypogonadisme-chez-l-homme",
@@ -8682,7 +8870,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hypogonadisme chez l'homme"
   },
   {
    "id": "endo-hypogonadisme-desirant-fertilite-homme-et-femme",
@@ -8716,7 +8905,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hypogonadisme désirant fertilité"
   },
   {
    "id": "endo-gynecomastie-d-apparition-de-moins-de-6-mois",
@@ -8749,7 +8939,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Gynécomastie"
   },
   {
    "id": "endo-insuffisance-surrenalienne-de-novo-sans-instabilite-hem",
@@ -8785,7 +8976,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Insuffisance surrénalienne"
   },
   {
    "id": "endo-hypercorticisme",
@@ -8823,7 +9015,8 @@
    },
    "orientation": [
     "Test de suppression : prescrire dexaméthasone 1 mg à 23 h et dosage de cortisolémie à 8 h 00 le lendemain (normale < 50 nmol/l)."
-   ]
+   ],
+   "titre": "Hypercorticisme"
   },
   {
    "id": "endo-nodule-surrenalien",
@@ -8867,7 +9060,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Nodule surrénalien"
   },
   {
    "id": "endo-osteoporose",
@@ -8903,7 +9097,8 @@
    },
    "orientation": [
     "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : GARE, Centre du diabète gestationnel, Centre de diabète, Programme des habitudes de vie, Clinique des nodules thyroïdiens, etc.)."
-   ]
+   ],
+   "titre": "Ostéoporose"
   },
   {
    "id": "endo-hypercalcemie",
@@ -8945,7 +9140,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hypercalcémie"
   },
   {
    "id": "endo-hypocalcemie",
@@ -8986,7 +9182,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hypocalcémie"
   },
   {
    "id": "endo-masse-hypophysaire",
@@ -9026,7 +9223,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Masse hypophysaire"
   },
   {
    "id": "endo-hyperprolactinemie-dosage-controle-2-fois",
@@ -9059,7 +9257,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hyperprolactinémie"
   },
   {
    "id": "endo-diabete-dysthyroidie-ou-autre-endocrinopathie-en-grosse",
@@ -9095,7 +9294,8 @@
    },
    "orientation": [
     "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : GARE, Centre du diabète gestationnel, Centre de diabète, Programme des habitudes de vie, Clinique des nodules thyroïdiens, etc.)."
-   ]
+   ],
+   "titre": "Endocrinopathie en grossesse"
   },
   {
    "id": "endo-evaluation-pre-grossesse-chez-patiente-diabetique",
@@ -9129,7 +9329,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Évaluation pré-grossesse chez patiente diabétique"
   },
   {
    "id": "gyn-sua-post-menopausiques",
@@ -9162,7 +9363,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "SUA post-ménopausiques"
   },
   {
    "id": "gyn-sua-pre-menopausiques",
@@ -9211,7 +9413,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "SUA pré-ménopausiques"
   },
   {
    "id": "gyn-fibromes-10-cm-ou-signes-symptomes-compressifs",
@@ -9245,7 +9448,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Fibromes"
   },
   {
    "id": "gyn-fibromes-asymptomatiques-et-hb-normale",
@@ -9279,7 +9483,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Fibromes"
   },
   {
    "id": "gyn-masse-annexielle-post-menopausique",
@@ -9323,7 +9528,8 @@
    },
    "orientation": [
     "Description masse annexielle complexe : hétérogène, zone solide, avec septa."
-   ]
+   ],
+   "titre": "Masse annexielle post-ménopausique"
   },
   {
    "id": "gyn-masse-annexielle-pre-menopausique-persistante-3-cm",
@@ -9365,7 +9571,8 @@
    },
    "orientation": [
     "Description masse annexielle complexe : hétérogène, zone solide, avec septa."
-   ]
+   ],
+   "titre": "Masse annexielle pré-ménopausique"
   },
   {
    "id": "gyn-masse-annexielle-avec-ascite-ou-carcinomatose-peritoneal",
@@ -9399,7 +9606,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Masse annexielle"
   },
   {
    "id": "gyn-cytologie-anormale-ou-lesion-du-col-visuellement-suspect",
@@ -9433,7 +9641,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Cytologie anormale ou lésion du col"
   },
   {
    "id": "gyn-lesion-vulvaire-ou-vaginale-suspecte",
@@ -9465,7 +9674,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lésion vulvaire ou vaginale"
   },
   {
    "id": "gyn-neoplasie-de-l-endometre-confirmee",
@@ -9499,7 +9709,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Néoplasie de l'endomètre"
   },
   {
    "id": "gyn-polypes-de-l-endometre",
@@ -9536,7 +9747,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Polypes de l'endomètre"
   },
   {
    "id": "gyn-epaississement-de-l-endometre-11-mm-post-menopausique",
@@ -9569,7 +9781,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Épaississement de l'endomètre"
   },
   {
    "id": "gyn-polype-du-col-avec-cytologie-normale",
@@ -9601,7 +9814,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Polype du col"
   },
   {
    "id": "gyn-pathologies-vulvaires-vaginales-benignes",
@@ -9633,7 +9847,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Pathologies vulvaires/vaginales bénignes"
   },
   {
    "id": "gyn-vulvo-vaginites-recidivantes-et-refractaires",
@@ -9665,7 +9880,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Vulvo-vaginites"
   },
   {
    "id": "gyn-dyspareunie-ou-vaginisme",
@@ -9696,7 +9912,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Dyspareunie ou vaginisme"
   },
   {
    "id": "gyn-complications-reliees-aux-bandelettes-urinaires",
@@ -9730,7 +9947,8 @@
    },
    "orientation": [
     "Référer à votre centre désigné en santé pelvienne via le formulaire de demande de consultation (www.msss.gouv.qc.ca/professionnels/soins-et-services/programme-sante-pelvienne/centres-designes/)."
-   ]
+   ],
+   "titre": "Complications reliées aux bandelettes urinaires"
   },
   {
    "id": "gyn-contraception-complexe-ligature-tubaire-ou-sterilet",
@@ -9763,7 +9981,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Contraception complexe, ligature tubaire ou stérilet"
   },
   {
    "id": "gyn-infertilite",
@@ -9797,7 +10016,8 @@
    },
    "orientation": [
     "Définition de l'infertilité : ≥ 1 an AVEC cycles réguliers ET âgée < 35 ans ; ≥ 6 mois AVEC cycles irréguliers OU âgée ≥ 35 ans ; spermogramme anormal ; ≥ 3 avortements spontanés."
-   ]
+   ],
+   "titre": "Infertilité"
   },
   {
    "id": "gyn-amenorrhee-secondaire-de-6-mois",
@@ -9831,7 +10051,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Aménorrhée secondaire"
   },
   {
    "id": "gyn-menopause-complexe",
@@ -9864,7 +10085,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Ménopause complexe"
   },
   {
    "id": "gyn-prolapsus-genital-symptomatique",
@@ -9899,7 +10121,8 @@
    },
    "orientation": [
     "Prolapsus génital symptomatique : cystocèle, rectocèle, prolapsus utérin ou évaluation de pessaire."
-   ]
+   ],
+   "titre": "Prolapsus génital"
   },
   {
    "id": "gyn-endometriose-suspectee-ou-douleur-pelvienne-chronique-6-",
@@ -9933,7 +10156,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Endométriose ou douleur pelvienne chronique"
   },
   {
    "id": "hemato-pancytopenie-ou-bicytopenie",
@@ -9965,7 +10189,8 @@
     "autres": []
    },
    "orientation": [],
-   "libelle_formulaire": "Pancytopénie ou bicytopénie (neutros < 1 ×10⁹/L et plaquettes < 75 ×10⁹/L et/ou Hb < 85 g/L)"
+   "libelle_formulaire": "Pancytopénie ou bicytopénie (neutros < 1 ×10⁹/L et plaquettes < 75 ×10⁹/L et/ou Hb < 85 g/L)",
+   "titre": "Pancytopénie ou bicytopénie"
   },
   {
    "id": "hemato-anemie-inexpliquee",
@@ -10011,7 +10236,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Anémie"
   },
   {
    "id": "hemato-anemie-ferriprive-hb-100-g-l-investiguee-qui-ne-repon",
@@ -10044,7 +10270,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Anémie ferriprive"
   },
   {
    "id": "hemato-polyglobulie",
@@ -10082,7 +10309,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Polyglobulie"
   },
   {
    "id": "hemato-neutropenie",
@@ -10125,7 +10353,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Neutropénie"
   },
   {
    "id": "hemato-g-b-20-10-l-avec-myelemie",
@@ -10159,7 +10388,8 @@
    },
    "orientation": [
     "Myélémie : présence de myélocytes et métamyélocytes au décompte manuel."
-   ]
+   ],
+   "titre": "G.B. > 20 ×10⁹/L avec myélémie"
   },
   {
    "id": "hemato-neutrophilie-inexpliquee-de-plus-de-15-10-l-controlee",
@@ -10190,7 +10420,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Neutrophilie"
   },
   {
    "id": "hemato-lymphocytose-avec-cytopenie-ou-lymphocytose-marquee",
@@ -10235,7 +10466,8 @@
     "autres": []
    },
    "orientation": [],
-   "libelle_formulaire": "Lymphocytose avec : Hb < 100 g/L ; plaquettes < 100 ou neutros < 1 ; lymphocytose > 100"
+   "libelle_formulaire": "Lymphocytose avec : Hb < 100 g/L ; plaquettes < 100 ou neutros < 1 ; lymphocytose > 100",
+   "titre": "Lymphocytose"
   },
   {
    "id": "hemato-lymphocytose-isolee",
@@ -10273,7 +10505,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lymphocytose"
   },
   {
    "id": "hemato-eosinophilie-superieure-a-1-5-controlee-apres-6-mois",
@@ -10304,7 +10537,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Éosinophilie"
   },
   {
    "id": "hemato-thrombopenie",
@@ -10348,7 +10582,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Thrombopénie"
   },
   {
    "id": "hemato-thrombocytose",
@@ -10391,7 +10626,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Thrombocytose"
   },
   {
    "id": "hemato-diathese-hemorragique",
@@ -10432,7 +10668,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Diathèse hémorragique"
   },
   {
    "id": "hemato-thrombose-recidivante-ou-site-non-usuel",
@@ -10465,7 +10702,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Thrombose"
   },
   {
    "id": "hemato-suspicion-de-thrombophilie",
@@ -10497,7 +10735,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suspicion de thrombophilie"
   },
   {
    "id": "hemato-suspicion-de-lymphome-ex-magma-ganglionnaire-signific",
@@ -10532,7 +10771,8 @@
    },
    "orientation": [
     "Symptôme B : fièvre inexpliquée, perte de poids de plus de 10 %, sudations nocturnes."
-   ]
+   ],
+   "titre": "Suspicion de lymphome"
   },
   {
    "id": "hemato-ganglions-augmentes-en-nombre-et-en-taille-exerese-ch",
@@ -10564,7 +10804,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Ganglions augmentés"
   },
   {
    "id": "hemato-splenomegalie-rate-15-cm",
@@ -10601,7 +10842,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Splénomégalie"
   },
   {
    "id": "hemato-lymphome-confirme",
@@ -10634,7 +10876,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lymphome"
   },
   {
    "id": "hemato-pic-monoclonal",
@@ -10679,7 +10922,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Pic monoclonal"
   },
   {
    "id": "hemato-hemoglobinopathie-prouvee",
@@ -10717,7 +10961,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hémoglobinopathie prouvée"
   },
   {
    "id": "hemato-ferritine-augmentee-avec-gene-hfe-mute",
@@ -10758,7 +11003,8 @@
    },
    "orientation": [
     "HFE : génotype, si homozygote ou double hétérozygote, associé à la présence d'une hémochromatose héréditaire (H63D, C282Y)."
-   ]
+   ],
+   "titre": "Ferritine augmentée"
   },
   {
    "id": "hemato-hematologie-obstetricale",
@@ -10792,7 +11038,8 @@
    },
    "orientation": [
     "Référer à la clinique GARE. Si non disponible, spécifier le lieu planifié de l'accouchement."
-   ]
+   ],
+   "titre": "Hématologie obstétricale"
   },
   {
    "id": "mi-thrombose-veineuse-ou-embolie-pulmonaire-traitee-duree-de",
@@ -10843,7 +11090,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Thrombose veineuse ou embolie pulmonaire"
   },
   {
    "id": "mi-maladie-arterielle-vasculaire-carotidienne-claudication-i",
@@ -10894,7 +11142,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maladie artérielle vasculaire"
   },
   {
    "id": "mi-maladie-arterielle-vasculaire-avec-doppler-si-disponible-",
@@ -10944,7 +11193,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maladie artérielle vasculaire avec doppler"
   },
   {
    "id": "mi-condition-de-grossesse-evaluation-pre-grossesse-hta-diabe",
@@ -10998,7 +11248,8 @@
    "orientation": [
     "Référer à la clinique GARE si disponible.",
     "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : Clinique de grossesse à risque élevé (GARE) ou de médecine obstétricale, Centre de diabète, Clinique préopératoire, etc.)."
-   ]
+   ],
+   "titre": "Condition de grossesse"
   },
   {
    "id": "mi-evaluation-preoperatoire-ou-pre-intervention",
@@ -11050,7 +11301,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Évaluation préopératoire"
   },
   {
    "id": "mi-decouverte-radiologique-nodule-thyroidien-pulmonaire-surr",
@@ -11102,7 +11354,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Découverte radiologique"
   },
   {
    "id": "mi-anomalie-de-laboratoire-vs-crp-ck-ana-transaminase-etc",
@@ -11153,7 +11406,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Anomalie de laboratoire"
   },
   {
    "id": "mi-autres-conditions-ex-perte-de-poids-10-deme-peripherique-",
@@ -11206,7 +11460,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Autres conditions"
   },
   {
    "id": "mi-cardiologie-fa-mcas-dyspnee-insuffisance-cardiaque-arythm",
@@ -11255,7 +11510,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Cardiologie"
   },
   {
    "id": "mi-cardiologie-avec-tapis-roulant-si-disponible-dans-votre-r",
@@ -11305,7 +11561,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Cardiologie avec tapis roulant"
   },
   {
    "id": "mi-endocrinologie-diabete-dyslipidemie-dysthyroidie-hypercal",
@@ -11358,7 +11615,8 @@
    },
    "orientation": [
     "Référer à la clinique spécialisée appropriée si disponible dans votre région (ex. : Clinique de grossesse à risque élevé (GARE) ou de médecine obstétricale, Centre de diabète, Clinique préopératoire, etc.)."
-   ]
+   ],
+   "titre": "Endocrinologie"
   },
   {
    "id": "mi-gastroenterologie-et-hepatologie-maladie-inflammatoire-di",
@@ -11408,7 +11666,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Gastroentérologie et hépatologie"
   },
   {
    "id": "mi-hematologie-anemie-cytopenie-mgus-etc",
@@ -11458,7 +11717,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hématologie"
   },
   {
    "id": "mi-nephrologie-hta-proteinurie-insuffisance-renale-desordre-",
@@ -11508,7 +11768,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Néphrologie"
   },
   {
    "id": "mi-neurologie-cephalee-avc-ict-paresthesie-vertige-etc",
@@ -11558,7 +11819,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Neurologie"
   },
   {
    "id": "mi-pneumologie-dyspnee-toux-mpoc-apnee-du-sommeil-etc",
@@ -11609,7 +11871,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Pneumologie"
   },
   {
    "id": "mi-rhumatologie-arthrite-inflammatoire-raynaud-vasculite-pmr",
@@ -11660,7 +11923,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rhumatologie"
   },
   {
    "id": "infectio-gestion-d-infections-urinaires-recidivantes",
@@ -11694,7 +11958,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Gestion d'infections urinaires"
   },
   {
    "id": "infectio-gestion-d-infections-recidivantes-a-germes-multi-re",
@@ -11727,7 +11992,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infections à germes multi-résistants"
   },
   {
    "id": "infectio-gestion-d-infection-dans-un-contexte-de-multiples-a",
@@ -11759,7 +12025,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infection et allergies multiples aux antibiotiques"
   },
   {
    "id": "infectio-gestion-d-infections-a-c-difficile-recurrentes",
@@ -11791,7 +12058,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infections à C. difficile récurrentes"
   },
   {
    "id": "infectio-vih",
@@ -11832,7 +12100,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "VIH"
   },
   {
    "id": "infectio-hepatite-b-chronique",
@@ -11866,7 +12135,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hépatite B"
   },
   {
    "id": "infectio-hepatite-c",
@@ -11900,7 +12170,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hépatite C"
   },
   {
    "id": "infectio-syphilis",
@@ -11934,7 +12205,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Syphilis"
   },
   {
    "id": "infectio-autres-serologies-ex-toxo",
@@ -11968,7 +12240,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Autres sérologies"
   },
   {
    "id": "infectio-herpes-simplex-recidivant",
@@ -12000,7 +12273,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Herpes simplex"
   },
   {
    "id": "infectio-parasitose-intestinale-confirmee",
@@ -12034,7 +12308,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Parasitose intestinale"
   },
   {
    "id": "infectio-infection-non-severe-du-pied-diabetique",
@@ -12069,7 +12344,8 @@
    },
    "orientation": [
     "Pour les plaies chroniques non infectées : référer à vos cliniques de soins de plaies."
-   ]
+   ],
+   "titre": "Infection du pied diabétique"
   },
   {
    "id": "infectio-possibilite-de-maladie-tropicale-sans-atteinte-de-l",
@@ -12101,7 +12377,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Possibilité de maladie tropicale"
   },
   {
    "id": "infectio-tb-latente-suspectee-non-active-et-non-contagieuse",
@@ -12141,7 +12418,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "TB latente"
   },
   {
    "id": "infectio-fuo-fievre-d-origine-indeterminee-depuis-14-jours-e",
@@ -12175,7 +12453,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "FUO (fièvre d'origine indéterminée)"
   },
   {
    "id": "pneumo-hemoptysie-persistante",
@@ -12209,7 +12488,8 @@
    },
    "orientation": [
     "Utiliser le formulaire d'Accueil clinique si disponible."
-   ]
+   ],
+   "titre": "Hémoptysie"
   },
   {
    "id": "pneumo-nodule-ou-lesion-suspecte-sans-neoplasie-connue",
@@ -12252,7 +12532,8 @@
    },
    "orientation": [
     "Utiliser le formulaire d'Accueil clinique si disponible."
-   ]
+   ],
+   "titre": "Nodule ou lésion suspecte"
   },
   {
    "id": "pneumo-epanchement-pleural-nouveau-unilateral-et-symptomatiq",
@@ -12286,7 +12567,8 @@
    },
    "orientation": [
     "Utiliser le formulaire d'Accueil clinique si disponible."
-   ]
+   ],
+   "titre": "Épanchement pleural"
   },
   {
    "id": "pneumo-micronodule-8-mm-evolutif-a-la-tdm-de-suivi",
@@ -12317,7 +12599,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Micronodule"
   },
   {
    "id": "pneumo-adenopathie-mediastinale-ou-hilaire-1-cm",
@@ -12349,7 +12632,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Adénopathie médiastinale ou hilaire"
   },
   {
    "id": "pneumo-exacerbation-aigue-avec-echec-du-plan-d-action-cortic",
@@ -12390,7 +12674,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Exacerbation aiguë"
   },
   {
    "id": "pneumo-mpoc-asthme-suspecte-ou-reponse-inadequate-au-traitem",
@@ -12431,7 +12716,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "MPOC/asthme"
   },
   {
    "id": "pneumo-readaptation-respiratoire",
@@ -12463,7 +12749,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Réadaptation respiratoire"
   },
   {
    "id": "pneumo-infiltrat-persistant-ou-lentement-resolutif-1-mois-a-",
@@ -12495,7 +12782,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infiltrat à la radiographie pulmonaire"
   },
   {
    "id": "pneumo-bronchiectasies-symptomatiques",
@@ -12526,7 +12814,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Bronchiectasies"
   },
   {
    "id": "pneumo-toux-chronique-8-semaines-avec-radiographie-pulmonair",
@@ -12557,7 +12846,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Toux chronique"
   },
   {
    "id": "pneumo-apnee-obstructive-du-sommeil-suspectee-ou-traitee-et-",
@@ -12599,7 +12889,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Apnée obstructive du sommeil"
   },
   {
    "id": "pneumo-apnee-du-sommeil-suspectee-ou-reevaluation-de-traitem",
@@ -12632,7 +12923,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Apnée du sommeil"
   },
   {
    "id": "pneumo-dyspnee-d-effort-inexpliquee-non-cardiaque-sans-anemi",
@@ -12666,7 +12958,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Dyspnée d'effort"
   },
   {
    "id": "pneumo-maladies-pulmonaires-interstitielles-ex-fibrose",
@@ -12700,7 +12993,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maladies pulmonaires interstitielles"
   },
   {
    "id": "psy-depression-recurrente-ou-refractaire-aux-traitements-a-d",
@@ -12754,7 +13048,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Dépression"
   },
   {
    "id": "psy-trouble-anxieux-refractaire-aux-traitements-a-dose-optim",
@@ -12809,7 +13104,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Trouble anxieux"
   },
   {
    "id": "psy-trouble-de-personnalite-refractaire-a-une-approche-psych",
@@ -12859,7 +13155,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Trouble de personnalité"
   },
   {
    "id": "psy-troubles-de-comportement-ou-de-l-humeur-associes-a-des-t",
@@ -12914,7 +13211,8 @@
    },
    "orientation": [
     "MOCA : formulaire disponible à www.mocatest.org."
-   ]
+   ],
+   "titre": "Troubles de comportement ou de l'humeur associés à des troubles cognitifs"
   },
   {
    "id": "psy-premier-episode-psychotique-ou-de-manie-psychotique",
@@ -12967,7 +13265,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Premier épisode psychotique ou de manie"
   },
   {
    "id": "psy-psychose-ou-manie",
@@ -13022,7 +13321,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Psychose ou manie"
   },
   {
    "id": "psy-tdah-chez-l-adulte-refractaire-ou-atypique",
@@ -13076,7 +13376,8 @@
    },
    "orientation": [
     "CADDRA : formulaires disponibles à www.caddra.ca."
-   ]
+   ],
+   "titre": "TDAH chez l'adulte"
   },
   {
    "id": "psy-toxicomanie-en-comorbidite-avec-un-trouble-psychiatrique",
@@ -13128,7 +13429,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Toxicomanie en comorbidité"
   },
   {
    "id": "psy-autre-preciser",
@@ -13177,7 +13479,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Autre"
   },
   {
    "id": "rhumato-suspicion-d-arthrite-microcristalline-goutte-recidiv",
@@ -13213,7 +13516,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Goutte"
   },
   {
    "id": "rhumato-suspicion-d-arthrite-microcristalline-arthrite-avec-",
@@ -13249,7 +13553,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Pseudogoutte ou hydroxyapatite"
   },
   {
    "id": "rhumato-suspicion-de-polyarthrite-chronique-4-semaines",
@@ -13305,7 +13610,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suspicion de polyarthrite"
   },
   {
    "id": "rhumato-spondylite-ou-sacroiliite",
@@ -13350,7 +13656,8 @@
    },
    "orientation": [
     "Lombalgie inflammatoire évoluant depuis plus de 3 mois avec début des symptômes < 45 ans, raideur matinale > 1 h, amélioration avec AINS ou activité physique."
-   ]
+   ],
+   "titre": "Spondylite ou sacroiliite"
   },
   {
    "id": "rhumato-polymyalgia-rheumatica-sans-symptome-d-arterite-temp",
@@ -13386,7 +13693,8 @@
    },
    "orientation": [
     "Polymyalgia rheumatica : douleurs des ceintures scapulaires ou pelviennes débutant après 50 ans avec raideur matinale > 1 h, ↑ VS ou ↑ CRP."
-   ]
+   ],
+   "titre": "Polymyalgia rheumatica"
   },
   {
    "id": "rhumato-myopathie-inflammatoire-avec-au-moins-2-valeurs-de-c",
@@ -13420,7 +13728,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Myopathie inflammatoire"
   },
   {
    "id": "rhumato-vasculite-autre-que-l-arterite-temporale-sans-attein",
@@ -13461,7 +13770,8 @@
    },
    "orientation": [
     "Consulter les alertes cliniques."
-   ]
+   ],
+   "titre": "Vasculite autre que l'artérite temporale"
   },
   {
    "id": "rhumato-collagenose-sans-atteinte-severe-d-organe-de-novo-ou",
@@ -13505,7 +13815,8 @@
    },
    "orientation": [
     "Consulter les alertes cliniques."
-   ]
+   ],
+   "titre": "Collagénose"
   },
   {
    "id": "rhumato-phenomene-de-raynaud-isole",
@@ -13542,7 +13853,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Phénomène de Raynaud"
   },
   {
    "id": "rhumato-osteoporose-secondaire-ou-echec-therapeutique",
@@ -13580,7 +13892,8 @@
    },
    "orientation": [
     "Ostéoporose avec échec thérapeutique : nouvelle fracture malgré traitement ≥ 12 mois ; diminution significative de la DMO malgré un traitement approprié."
-   ]
+   ],
+   "titre": "Ostéoporose secondaire ou échec thérapeutique"
   },
   {
    "id": "rhumato-maladie-de-paget",
@@ -13615,7 +13928,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maladie de Paget"
   },
   {
    "id": "rhumato-fibromyalgie-avec-problematique-diagnostique-et-non-",
@@ -13651,7 +13965,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Fibromyalgie"
   },
   {
    "id": "rhumato-arthrose-invalidante-non-axiale-avec-echec-au-traite",
@@ -13686,7 +14001,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Arthrose"
   },
   {
    "id": "physiatrie-consultation-pour-atteinte-locomotrice-membre-sup",
@@ -13730,7 +14046,8 @@
    },
    "orientation": [
     "Cocher le site : épaule, coude, poignet/main ; hanche, genou, cheville/pied ; cervicalgie/cervicobrachialgie, dorsal, lombalgie/lombosciatalgie. Case possible : opinion pour infiltration."
-   ]
+   ],
+   "titre": "Atteinte locomotrice"
   },
   {
    "id": "physiatrie-consultation-pour-systeme-nerveux-peripherique-mo",
@@ -13780,7 +14097,8 @@
    },
    "orientation": [
     "Cocher la case si demande d'EMG (et une des trois cases de durée)."
-   ]
+   ],
+   "titre": "Système nerveux périphérique"
   },
   {
    "id": "physiatrie-infiltration-vertebrale-sous-fluoroscopie-douleur",
@@ -13828,7 +14146,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infiltration vertébrale sous fluoroscopie : douleur radiculaire"
   },
   {
    "id": "physiatrie-infiltration-vertebrale-sous-fluoroscopie-douleur-2",
@@ -13869,7 +14188,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Infiltration vertébrale sous fluoroscopie : douleur vertébrale"
   },
   {
    "id": "physiatrie-atteinte-des-tissus-mous-membre-superieur-membre-",
@@ -13910,7 +14230,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Atteinte des tissus mous"
   },
   {
    "id": "vasc-mvas-chronique-avec-gangrene-humide-ou-douleur-de-repos",
@@ -13944,7 +14265,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "MVAS"
   },
   {
    "id": "vasc-mvas-chronique-avec-gangrene-seche-ou-plaie-chronique-2",
@@ -13977,7 +14299,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "MVAS"
   },
   {
    "id": "vasc-claudication-intermittente",
@@ -14015,7 +14338,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Claudication intermittente"
   },
   {
    "id": "vasc-ict-avc-ou-amaurose-fugace-avec-stenose-carotidienne-de",
@@ -14052,7 +14376,8 @@
    },
    "orientation": [
     "Consulter les alertes cliniques."
-   ]
+   ],
+   "titre": "ICT, AVC ou amaurose fugace"
   },
   {
    "id": "vasc-stenose-carotidienne-asymptomatique-severe-70",
@@ -14085,7 +14410,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Sténose carotidienne"
   },
   {
    "id": "vasc-ulcere-veineux-avec-echec-au-traitement-medical-ou-reci",
@@ -14120,7 +14446,8 @@
    },
    "orientation": [
     "Référer de façon prioritaire en clinique de plaie si disponible et non au CRDS."
-   ]
+   ],
+   "titre": "Ulcère veineux"
   },
   {
    "id": "vasc-varices-avec-reflux-severe-de-la-saphene-interne-ou-ext",
@@ -14156,7 +14483,8 @@
    },
    "orientation": [
     "Il n'y a aucune indication de chirurgie lorsqu'il n'y a pas de reflux de la saphène interne ou externe ou antérieur accessoire au Doppler, sauf exception."
-   ]
+   ],
+   "titre": "Varices"
   },
   {
    "id": "vasc-anevrisme-de-l-aorte-abdominale",
@@ -14213,7 +14541,8 @@
     "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité.",
     "Le médecin de famille devrait assurer le suivi d'un anévrisme de l'aorte abdominale pour un diamètre < 45 mm par une échographie annuelle (Choisir avec soin).",
     "Consulter les alertes cliniques (> 70 mm : chirurgien vasculaire de garde)."
-   ]
+   ],
+   "titre": "Anévrisme de l'aorte abdominale"
   },
   {
    "id": "vasc-anevrisme-de-l-aorte-thoracique-descendante",
@@ -14256,7 +14585,8 @@
    "orientation": [
     "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité.",
     "Anévrisme de l'aorte thoracique ascendante : référer directement en chirurgie cardiaque et non au CRDS."
-   ]
+   ],
+   "titre": "Anévrisme de l'aorte thoracique descendante"
   },
   {
    "id": "vasc-anevrisme-de-l-artere-iliaque",
@@ -14297,7 +14627,8 @@
    },
    "orientation": [
     "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité."
-   ]
+   ],
+   "titre": "Anévrisme de l'artère iliaque"
   },
   {
    "id": "vasc-anevrisme-de-l-artere-poplitee",
@@ -14338,7 +14669,8 @@
    },
    "orientation": [
     "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité."
-   ]
+   ],
+   "titre": "Anévrisme de l'artère poplitée"
   },
   {
    "id": "vasc-anevrisme-visceral-arteres-renales-splenique-mesenteriq",
@@ -14381,7 +14713,8 @@
    },
    "orientation": [
     "Considérer seulement la mesure de diamètre prise en AP ou latérale. Le thrombus à l'intérieur de l'anévrisme n'influence pas l'échelle de priorité."
-   ]
+   ],
+   "titre": "Anévrisme viscéral"
   },
   {
    "id": "vasc-anevrisme-visceral-chez-femme-enceinte-ou-en-age-de-pro",
@@ -14415,7 +14748,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Anévrisme viscéral"
   },
   {
    "id": "onco-neoplasie-de-novo",
@@ -14452,7 +14786,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Néoplasie de novo"
   },
   {
    "id": "onco-suspicion-de-nouvelles-metastases-chez-un-usager-avec-u",
@@ -14490,7 +14825,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Suspicion de nouvelles métastases"
   },
   {
    "id": "onco-situation-clinique-suspecte-de-neoplasie-ou-de-metastas",
@@ -14528,7 +14864,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Situation clinique suspecte de néoplasie"
   },
   {
    "id": "onco-reevaluation-du-traitement-en-l-absence-de-suivi-actif-",
@@ -14560,7 +14897,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Réévaluation du traitement"
   },
   {
    "id": "plastie-tunnel-carpien-qui-ne-repond-pas-au-traitement-medic",
@@ -14594,7 +14932,8 @@
    },
    "orientation": [
     "Orthèse : information sur la prescription au site de la RAMQ (programme des appareils suppléant à une déficience physique)."
-   ]
+   ],
+   "titre": "Tunnel carpien"
   },
   {
    "id": "plastie-doigt-gachette",
@@ -14632,7 +14971,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Doigt gâchette"
   },
   {
    "id": "plastie-kyste-arthro-synovial",
@@ -14665,7 +15005,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Kyste arthro-synovial"
   },
   {
    "id": "plastie-maladie-de-dupuytren",
@@ -14703,7 +15044,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maladie de Dupuytren"
   },
   {
    "id": "plastie-tendinite-de-quervain-avec-echec-au-traitement-medic",
@@ -14737,7 +15079,8 @@
    },
    "orientation": [
     "Orthèse : information sur la prescription au site de la RAMQ (programme des appareils suppléant à une déficience physique)."
-   ]
+   ],
+   "titre": "Tendinite De Quervain"
   },
   {
    "id": "plastie-rhizarthrose-invalidante-avec-echec-au-traitement-me",
@@ -14773,7 +15116,8 @@
    },
    "orientation": [
     "Orthèse : information sur la prescription au site de la RAMQ (programme des appareils suppléant à une déficience physique)."
-   ]
+   ],
+   "titre": "Rhizarthrose"
   },
   {
    "id": "plastie-fracture-aigue-et-non-deplacee-de-la-main",
@@ -14812,7 +15156,8 @@
    },
    "orientation": [
     "Voir les alertes cliniques."
-   ]
+   ],
+   "titre": "Fracture de la main"
   },
   {
    "id": "plastie-doigt-en-maillet-mallet-finger",
@@ -14848,7 +15193,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Doigt en Maillet"
   },
   {
    "id": "plastie-luxation-reduite-des-doigts",
@@ -14884,7 +15230,8 @@
    },
    "orientation": [
     "Voir les alertes cliniques."
-   ]
+   ],
+   "titre": "Luxation réduite des doigts"
   },
   {
    "id": "plastie-masse-benigne-ex-lipome-kyste-sebace-etc-causant-des",
@@ -14918,7 +15265,8 @@
    },
    "orientation": [
     "Service non couvert par la RAMQ. Veuillez utiliser les corridors de service de votre région pour référer le patient."
-   ]
+   ],
+   "titre": "Masse bénigne"
   },
   {
    "id": "plastie-masse-5-cm-a-la-tete-ou-au-cou-avec-atteintes-foncti",
@@ -14954,7 +15302,8 @@
    },
    "orientation": [
     "L'exérèse de certaines lésions ou masses bénignes n'est pas toujours un service assuré par la RAMQ (ex. : acrochordon, lipome et kératose séborrhéique, etc.) et pourrait être aux frais de l'usager. Merci de l'en aviser."
-   ]
+   ],
+   "titre": "Masse de la tête ou du cou"
   },
   {
    "id": "plastie-lesion-cutanee-maligne-avec-pathologie-confirmee-ex-",
@@ -14989,7 +15338,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lésion cutanée maligne"
   },
   {
    "id": "plastie-lesion-cutanee-benigne",
@@ -15023,7 +15373,8 @@
    },
    "orientation": [
     "Service non couvert par la RAMQ. Veuillez utiliser les corridors de service de votre région pour référer le patient."
-   ]
+   ],
+   "titre": "Lésion cutanée bénigne"
   },
   {
    "id": "plastie-cicatrice-vicieuse-du-visage",
@@ -15054,7 +15405,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Cicatrice vicieuse du visage"
   },
   {
    "id": "plastie-reduction-mammaire",
@@ -15086,7 +15438,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Réduction mammaire"
   },
   {
    "id": "plastie-asymetrie-mammaire",
@@ -15117,7 +15470,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Asymétrie mammaire"
   },
   {
    "id": "plastie-reconstruction-mammaire-post-neoplasie",
@@ -15149,7 +15503,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Reconstruction mammaire"
   },
   {
    "id": "plastie-gynecomastie",
@@ -15184,7 +15539,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Gynécomastie"
   },
   {
    "id": "plastie-fracture-immobilisee-non-deplacee-du-carpe-incluant-",
@@ -15221,7 +15577,8 @@
    },
    "orientation": [
     "Voir les alertes cliniques."
-   ]
+   ],
+   "titre": "Fracture du carpe"
   },
   {
    "id": "plastie-plaies-complexes-et-chroniques",
@@ -15253,7 +15610,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Plaies complexes et chroniques"
   },
   {
    "id": "plastie-brulures-qui-ne-repondent-pas-aux-criteres-des-centr",
@@ -15286,7 +15644,8 @@
    },
    "orientation": [
     "Critères de référence aux centres d'expertise pour grands brûlés : document de l'INESSS (VBG_criteres_transfert_vers_centre_expertise.pdf)."
-   ]
+   ],
+   "titre": "Brûlures"
   },
   {
    "id": "allergie-rhinite-sinusite-a-repetition-evaluation-et-opinion",
@@ -15320,7 +15679,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Rhinite/sinusite"
   },
   {
    "id": "allergie-asthme",
@@ -15365,7 +15725,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Asthme"
   },
   {
    "id": "allergie-allergies-alimentaires-specifier-l-aliment-s-suspec",
@@ -15414,7 +15775,8 @@
    },
    "orientation": [
     "Période réfractaire possible de 6 semaines pour la validité des tests (faux négatif) post réaction anaphylactique."
-   ]
+   ],
+   "titre": "Allergies alimentaires"
   },
   {
    "id": "allergie-anaphylaxie-de-cause-inexpliquee",
@@ -15458,7 +15820,8 @@
    "orientation": [
     "Critères diagnostiques d'anaphylaxie : ≥ 2 systèmes atteints (cutané incluant angioedème, respiratoire, gastrointestinal, cardiovasculaire).",
     "Période réfractaire possible de 6 semaines pour la validité des tests (faux négatif) post réaction anaphylactique."
-   ]
+   ],
+   "titre": "Anaphylaxie de cause inexpliquée"
   },
   {
    "id": "allergie-allergies-aux-insectes-avec-reactions-systemiques",
@@ -15496,7 +15859,8 @@
    },
    "orientation": [
     "Période réfractaire possible de 6 semaines pour la validité des tests (faux négatif) post réaction anaphylactique."
-   ]
+   ],
+   "titre": "Allergies aux insectes"
   },
   {
    "id": "allergie-urticaire-chronique-6-semaines-avec-ou-sans-angioed",
@@ -15527,7 +15891,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Urticaire chronique"
   },
   {
    "id": "allergie-angioedeme-isole-malgre-l-arret-de-l-ieca-2-episode",
@@ -15559,7 +15924,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Angioedème"
   },
   {
    "id": "allergie-deficit-immunologique-suspecte",
@@ -15599,7 +15965,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Déficit immunologique"
   },
   {
    "id": "allergie-allergie-medicamenteuse",
@@ -15648,7 +16015,8 @@
    },
    "orientation": [
     "Prérequis : spécifier le(s) médicament(s) et la réaction dans la section renseignements cliniques. En cas d'une nouvelle réaction médicamenteuse, remplir le formulaire AH-707 (Déclaration d'une nouvelle réaction d'allergie médicamenteuse)."
-   ]
+   ],
+   "titre": "Allergie médicamenteuse"
   },
   {
    "id": "allergie-allergie-a-un-vaccin",
@@ -15683,7 +16051,8 @@
    },
    "orientation": [
     "Remplir le formulaire « Déclaration de manifestations cliniques après une vaccination » (www.msss.gouv.qc.ca/professionnels/vaccination/mci/declarer-une-mci/) et l'acheminer à la Direction de la santé publique."
-   ]
+   ],
+   "titre": "Allergie à un vaccin"
   },
   {
    "id": "geriatrie-trouble-neurocognitif-majeur-atypique",
@@ -15720,7 +16089,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Trouble neurocognitif majeur atypique"
   },
   {
    "id": "geriatrie-trouble-neurocognitif-majeur-typique-preciser-la-p",
@@ -15757,7 +16127,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Trouble neurocognitif majeur typique"
   },
   {
    "id": "geriatrie-trouble-du-comportement-scpd-sans-antecedent-de-ma",
@@ -15801,7 +16172,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "« Trouble du comportement » SCPD"
   },
   {
    "id": "geriatrie-chutes-recurrentes-non-syncopales-inexpliquees",
@@ -15834,7 +16206,8 @@
      "Rapport d'évaluation en physiothérapie"
     ]
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Chutes récurrentes"
   },
   {
    "id": "geriatrie-maltraitance-situation-d-abus-negligence-etc",
@@ -15872,7 +16245,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Maltraitance : situation d'abus, négligence, etc."
   },
   {
    "id": "geriatrie-perte-de-poids-inexpliquee-chez-usager-75-ans-apre",
@@ -15906,7 +16280,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Perte de poids"
   },
   {
    "id": "geriatrie-polypharmacie-potentiellement-nefaste-deprescripti",
@@ -15941,7 +16316,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Polypharmacie potentiellement néfaste/Déprescription"
   },
   {
    "id": "geriatrie-trouble-de-la-marche-et-de-l-equilibre",
@@ -15978,7 +16354,8 @@
      "Rapport d'évaluation en physiothérapie"
     ]
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Trouble de la marche et de l'équilibre"
   },
   {
    "id": "neurochir-myelopathie-compressive-avec-symptomes-8-semaines",
@@ -16012,7 +16389,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Myélopathie compressive"
   },
   {
    "id": "neurochir-radiculopathie-douloureuse-ou-sensitivo-motrice-ex",
@@ -16052,7 +16430,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Radiculopathie"
   },
   {
    "id": "neurochir-cervicalgie-dorsalgie-avec-instabilite-anatomique-",
@@ -16086,7 +16465,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Cervicalgie/dorsalgie"
   },
   {
    "id": "neurochir-radiculopathie-douloureuse-ou-sensitivo-motrice-ou",
@@ -16130,7 +16510,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Radiculopathie ou claudication neurogénique"
   },
   {
    "id": "neurochir-lombalgie-isolee-sans-atteinte-radiculaire-avec-an",
@@ -16165,7 +16546,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lombalgie"
   },
   {
    "id": "neurochir-neuropathie-compressive-ex-tunnel-carpien-ou-canal",
@@ -16205,7 +16587,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Neuropathie compressive"
   },
   {
    "id": "neurochir-tumeur-d-un-nerf-peripherique",
@@ -16239,7 +16622,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Tumeur d'un nerf périphérique"
   },
   {
    "id": "neurochir-tumeurs-intracraniennes-extracerebrales-meningiome",
@@ -16280,7 +16664,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Tumeur intracrânienne extracérébrale"
   },
   {
    "id": "neurochir-anevrisme-cerebral-malformation-arterio-veineuse-f",
@@ -16314,7 +16699,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Anévrisme cérébral, malformation artério-veineuse, fistule durale, angiome caverneux"
   },
   {
    "id": "neurochir-stenose-carotidienne-asymptomatique-70",
@@ -16347,7 +16733,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Sténose carotidienne"
   },
   {
    "id": "neurochir-nevralgie-cranio-faciale-ex-trijumeau-refractaire-",
@@ -16380,7 +16767,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Névralgie cranio-faciale"
   },
   {
    "id": "neurochir-neuromodulation-pour-syndrome-douloureux-chronique",
@@ -16415,7 +16803,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Neuromodulation"
   },
   {
    "id": "neurochir-hydrocephalie-chronique-ou-a-pression-normale",
@@ -16449,7 +16838,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Hydrocéphalie"
   },
   {
    "id": "neurochir-kyste-intracranien-ex-arachnoidien-glande-pineale",
@@ -16482,7 +16872,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Kyste intracrânien"
   },
   {
    "id": "neurochir-lesion-osseuse-cranienne-d-aspect-benin-ex-kyste-m",
@@ -16515,7 +16906,8 @@
     "examens": [],
     "autres": []
    },
-   "orientation": []
+   "orientation": [],
+   "titre": "Lésion osseuse crânienne"
   },
   {
    "id": "neurochir-malformation-de-chiari-type-1-symptomatique-ou-ave",
@@ -16549,7 +16941,8 @@
    },
    "orientation": [
     "Symptômes associés à la malformation de Chiari type 1 : céphalée occipito-cervicale à l'effort, trouble de déglutition, apnée du sommeil. La présence d'au moins un de ces symptômes est requise."
-   ]
+   ],
+   "titre": "Malformation de Chiari type 1"
   }
  ],
  "a_venir": ""

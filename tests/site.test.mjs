@@ -148,15 +148,19 @@ async function crds(nav) {
   verifier("CRDS : les favoris survivent au rechargement", e.onglets.includes("Favoris (1)"), e.onglets);
   await p.goto(BASE + "/crds/?q=cardiologie"); await p.waitForTimeout(700); e = await etat();
   verifier("CRDS : un lien avec ?q= lance la recherche", e.cartes > 3, e.etat);
-  // Allégé : un seul titre de spécialité, en tête de ses fiches ; ni surtitre ni pied répétés sur chaque fiche.
-  const groupes = () => p.evaluate(() => ({ entetes: [...document.querySelectorAll(".cr-groupe h2")].map(h => h.textContent),
-    sur: document.querySelectorAll(".cr-carte:not(.cr-carte-ac) .cr-sur").length, pieds: [...document.querySelectorAll(".cr-carte:not(.cr-carte-ac) .cr-source")].filter(x => /Formulaire du MSSS/.test(x.textContent)).length,
-    sources: [...document.querySelectorAll(".cr-groupe-source")].map(x => x.textContent) }));
+  // Chaque fiche : la spécialité une seule fois en surtitre (sans la catégorie qui la répète), le formulaire en lien.
   await p.fill("#cr-q", "Ophtalmologie adulte et enfant"); await p.waitForTimeout(300);
-  let g = await groupes();
-  verifier("CRDS : une spécialité, un seul titre avec son formulaire ; rien de répété sur les fiches", g.entetes.join() === "Ophtalmologie adulte et enfant" && g.sur === 0 && g.pieds === 0 && /^AH-745 · rév\. .+ · Formulaire du MSSS$/.test(g.sources[0]), g);
-  await p.fill("#cr-q", "douleur"); await p.waitForTimeout(300); g = await groupes();
-  verifier("CRDS : plusieurs spécialités, une en-tête chacune, avec son nombre de raisons", g.entetes.length > 1 && new Set(g.entetes).size === g.entetes.length && g.sur === 0 && g.pieds === 0 && g.sources.every(x => /^\d+ raisons? · AH-\d+/.test(x)), g);
+  const sur = await p.evaluate(() => [...document.querySelectorAll(".cr-carte:not(.cr-carte-ac) .cr-sur")].map(x => x.textContent));
+  verifier("CRDS : chaque fiche porte sa spécialité une seule fois, avec son formulaire", sur.length === D.problemes.filter(x => x.formulaire === "AH-745").length
+    && sur.every(t => t.startsWith("Ophtalmologie adulte et enfant") && !/· Ophtalmologie ·/.test(t) && t.endsWith("AH-745")) && !(await p.locator(".cr-groupe").count()), sur.slice(0, 3));
+  // Titres : le problème seul ; le libellé complet du formulaire dans les critères.
+  const fiche = async q => { await p.fill("#cr-q", q); await p.waitForTimeout(300);
+    return p.evaluate(() => { const c = document.querySelector(".cr-carte:not(.cr-carte-ac)"); return { titre: c.querySelector("h3").textContent, criteres: [...c.querySelectorAll(".cr-bloc li")].map(l => l.textContent) }; }); };
+  let fi = await fiche("Otites à répétition");
+  verifier("CRDS : « Otites » en titre ; « depuis + 3 mois » seulement dans les critères", fi.titre === "Otites" && fi.criteres.some(x => x.includes("Otites à répétition ou séreuse persistante (depuis + 3 mois)")), fi);
+  fi = await fiche("conjonctivite");
+  verifier("CRDS : plusieurs priorités, le libellé complet en tête des critères", fi.titre === "Conjonctivite" && fi.criteres[0] === "Conjonctivite réfractaire au traitement depuis plus de 2 semaines", fi);
+  verifier("CRDS : chaque titre court reprend le début ou les mots du libellé complet", D.problemes.every(x => x.titre && x.titre.length <= x.probleme.length), D.problemes.filter(x => !x.titre || x.titre.length > x.probleme.length).map(x => x.id));
   // Fiche de l'accueil clinique : notes techniques retirées ; contre-indications générales et sources repliées.
   await p.fill("#cr-q", "Thrombophlébite profonde (TPP)"); await p.waitForTimeout(300);
   const f = await p.evaluate(() => { const c = document.querySelector(".cr-carte-ac"); const t = c.textContent;

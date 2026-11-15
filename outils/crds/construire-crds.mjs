@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { ACCUEIL_CLINIQUE } from "./accueil-clinique.mjs";
 import { ACCUEIL_PIERRE_BOUCHER } from "./accueil-pierre-boucher.mjs";
+import { TITRES_COURTS } from "./titres-courts.mjs";
 const ICI = path.dirname(fileURLToPath(import.meta.url)), RACINE = path.resolve(ICI, "../..");
 const fichiers = fs.readdirSync(path.join(ICI, "formulaires")).filter(f => /^AH-\d{3}\.mjs$/.test(f)).sort();
 const formulaires = [], problemes = [];
@@ -14,10 +15,13 @@ for (const f of fichiers) {
 }
 const ids = new Set();
 for (const p of problemes) { if (ids.has(p.id)) throw new Error(`Identifiant en double : ${p.id}`); ids.add(p.id); }
+for (const id of Object.keys(TITRES_COURTS)) if (!ids.has(id)) throw new Error(`Titre court sans raison de consultation : ${id}`);
+// Le titre affiché : le problème seul ; le libellé complet reste dans « probleme ».
+for (const p of problemes) p.titre = TITRES_COURTS[p.id] || p.probleme;
 const data = {
   schema: { version: 2,
     description: "Un problème = une raison de consultation d'un formulaire APSS, avec sa ou ses priorités (A à E) et leurs critères, ses prérequis obligatoires et souhaitables, ses orientations, et la source exacte. Les « synonymes » servent seulement à la recherche : ce ne sont pas des libellés officiels.",
-    champs_probleme: ["id", "formulaire", "specialite", "categorie", "probleme", "libelle_formulaire (facultatif)", "synonymes", "priorites[{niveau, criteres}]",
+    champs_probleme: ["id", "formulaire", "specialite", "categorie", "probleme", "titre (le problème seul, affiché)", "libelle_formulaire (facultatif)", "synonymes", "priorites[{niveau, criteres}]",
       "prerequis_obligatoires{laboratoires, imagerie, examens, autres}", "prerequis_souhaitables{…}", "orientation", "exclusions_urgence (facultatif)"] },
   echelle_priorite: { A: "≤ 3 jours", B: "≤ 10 jours", C: "≤ 28 jours", D: "≤ 3 mois", E: "≤ 12 mois", HORS: "hors CRDS" },
   region: { nom: "Montérégie", source: "https://www.crdsmonteregie.com/medecins-omnipraticiens/", consignes: [

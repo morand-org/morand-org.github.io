@@ -21,7 +21,7 @@
       { nom: "Accueil clinique", sceau: "/morand/sceau-crds.svg", tout: t => u("/crds/", t),
         items: pb.protocoles.map(p => ({ t: p.nom, s: `${pb.installation} · ${p.specialite}`, u: u("/crds/", p.nom), w: mots(`${p.nom} ${p.syn.join(" ")} ${p.specialite} accueil clinique`) })) },
       { nom: "CRDS", sceau: "/morand/sceau-crds.svg", tout: t => u("/crds/", t),
-        items: c.problemes.map(p => ({ t: p.probleme, s: `${p.specialite} · priorité ${[...new Set(p.priorites.map(v => v.niveau))].sort().join(", ")}`, u: u("/crds/", p.probleme), w: mots(`${p.probleme} ${p.specialite} ${p.synonymes.join(" ")}`) })) },
+        items: c.problemes.map(p => ({ t: p.titre || p.probleme, s: `${p.specialite} · priorité ${[...new Set(p.priorites.map(v => v.niveau))].sort().join(", ")}`, u: u("/crds/", p.probleme), w: mots(`${p.probleme} ${p.specialite} ${p.synonymes.join(" ")}`) })) },
       { nom: "Codes", sceau: "/morand/sceau-codes.svg", tout: t => u("/codes/", t),
         items: [...k.actes.map(a => ({ t: a.n, s: [noms[a.g], a.c.join(", ")].filter(Boolean).join(" · "), u: u("/codes/", a.c[0] || a.n), codes: a.c, w: mots(`${a.n} ${a.c.join(" ")} ${a.k || ""}`) })),
           ...k.vulnerabilite.map(v => ({ t: `Code de vulnérabilité ${v.code}`, s: v.libelle, u: `/codes/?g=vulnerabilite&q=${encodeURIComponent(v.code)}`, w: mots(`${v.code} ${v.libelle} ${v.m} vulnerabilite`) }))] },
