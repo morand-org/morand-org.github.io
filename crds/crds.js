@@ -85,7 +85,11 @@
     const f = D.formulaires.find(x => x.id === p.formulaire);
     const c = el("article", "cr-carte"); c.id = p.id;
     const tete = el("div", "cr-carte-tete"), gauche = el("div");
-    const sur = el("p", "cr-sur"); surligner(sur, `${p.specialite} · ${p.categorie}`, mots); gauche.appendChild(sur);
+    // « Spécialité · catégorie », sans répéter : la catégorie est omise si tous ses mots sont déjà dans la spécialité
+    // (« Ophtalmologie adulte et enfant », pas « Ophtalmologie adulte et enfant · Ophtalmologie »).
+    const motsSpec = new Set(sansAccents(p.specialite).split(/[^a-z0-9]+/).filter(Boolean)), motsCat = sansAccents(p.categorie || "").split(/[^a-z0-9]+/).filter(Boolean);
+    const double = !motsCat.length || motsCat.every(w => motsSpec.has(w));
+    const sur = el("p", "cr-sur"); surligner(sur, double ? p.specialite : `${p.specialite} · ${p.categorie}`, mots); gauche.appendChild(sur);
     // Titre : le problème seul ; le libellé complet du formulaire est dans les critères.
     const titre = p.titre || p.probleme;
     const h = el("h3"); surligner(h, titre, mots); gauche.appendChild(h);

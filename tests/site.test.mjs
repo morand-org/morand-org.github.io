@@ -151,6 +151,9 @@ async function crds(nav) {
   // Chaque fiche : « spécialité · catégorie » en surtitre et le formulaire en bas (comme le 14 novembre).
   await p.fill("#cr-q", "ORL adulte et enfant"); await p.waitForTimeout(300);
   const sur = await p.evaluate(() => [...document.querySelectorAll(".cr-carte:not(.cr-carte-ac)")].map(c => ({ sur: c.querySelector(".cr-sur").textContent, pied: c.querySelector(".cr-source").textContent })));
+  await p.fill("#cr-q", "Ophtalmologie adulte et enfant"); await p.waitForTimeout(300);
+  const oph = await p.evaluate(() => [...document.querySelectorAll(".cr-carte:not(.cr-carte-ac) .cr-sur")].map(x => x.textContent));
+  verifier("CRDS : la catégorie qui répète la spécialité n'est pas écrite en double", oph.length > 0 && !oph.some(t => /· Ophtalmologie$/.test(t)) && oph.includes("Ophtalmologie adulte et enfant"), [...new Set(oph)]);
   verifier("CRDS : chaque fiche porte « spécialité · catégorie » et son formulaire en bas", sur.length > 0 && sur.every(o => /^ORL adulte et enfant · \S/.test(o.sur) && /^AH-748 · rév\. .+Formulaire du MSSS$/.test(o.pied)) && !(await p.locator(".cr-groupe").count()), sur.slice(0, 2));
   // Titres : le problème seul ; le libellé complet du formulaire dans les critères.
   const fiche = async q => { await p.fill("#cr-q", q); await p.waitForTimeout(300);
