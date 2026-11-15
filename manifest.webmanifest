@@ -1,7 +1,7 @@
 {
   "name": "Morand",
   "short_name": "Morand",
-  "description": "Les outils du médecin de famille, réunis : Wealth Morand, Guide Morand, Map Morand et CRDS Morand.",
+  "description": "Les outils du médecin de famille, réunis : Wealth, Guide, Map, CRDS et Codes Morand.",
   "lang": "fr-CA",
   "id": "/",
   "start_url": "/",
@@ -83,6 +83,19 @@
       "icons": [
         {
           "src": "/morand/raccourci-crds.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Codes Morand",
+      "short_name": "Codes",
+      "description": "Codes d'actes, CNESST et vulnérabilité",
+      "url": "/codes/",
+      "icons": [
+        {
+          "src": "/morand/raccourci-codes.png",
           "sizes": "192x192",
           "type": "image/png"
         }

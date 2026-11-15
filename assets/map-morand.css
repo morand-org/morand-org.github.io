@@ -36,7 +36,7 @@ header { padding-left: 26px !important; gap: 26px !important; }
 :root[data-theme="sombre"] .mo-outils a[aria-current="page"] { box-shadow: inset 0 -2px 0 #c9a35c; }
 @media (max-width: 760px) {
   header { padding-left: 14px !important; gap: 12px !important; }
-  /* Sur téléphone, « Morand » devient le cèdre (retour à l'accueil), pour laisser la place aux quatre outils. */
+  /* Sur téléphone, « Morand » devient le cèdre (retour à l'accueil), pour laisser la place aux cinq outils. */
   .mo-marque { width: 28px; height: 28px; padding: 0; font-size: 0; letter-spacing: 0; flex-shrink: 0; background: url("/morand/icone.svg") center/contain no-repeat; border-radius: 7px; }
   .mo-outils { gap: 14px; }
   .mo-outils a { font-size: 10.5px; letter-spacing: .12em; }
@@ -52,3 +52,6 @@ header .header-right { display: none !important; }
 /* Sans les boutons, « MORAND » tient aussi sur téléphone, comme dans le Guide. */
 @media (max-width: 760px) { .mo-marque { width: auto; height: auto; padding: 14px 0 12px; background: none; border-radius: 0; font-size: 14px; letter-spacing: .26em; } }
 @media (max-width: 360px) { .mo-marque { font-size: 13px; letter-spacing: .2em; } }
+/* Cinq outils dans l'en-tête : sur téléphone, les onglets se serrent pour tenir sur une ligne. */
+@media (max-width: 480px) { .mo-outils { gap: 11px; } .mo-outils a { font-size: 9.5px; letter-spacing: .1em; } }
+@media (max-width: 360px) { .mo-outils { gap: 7px; } .mo-outils a { font-size: 8.5px; letter-spacing: .04em; } }

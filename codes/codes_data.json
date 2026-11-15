@@ -1,0 +1,2011 @@
+{
+ "source": "Manuel des médecins omnipraticiens (28 octobre 2026) et Brochure no 1 (5 novembre 2026)",
+ "groupes": [
+  [
+   "base",
+   "Base du mixte"
+  ],
+  [
+   "visites",
+   "Visites"
+  ],
+  [
+   "temps",
+   "Interventions et psychothérapie"
+  ],
+  [
+   "techniques",
+   "Actes techniques"
+  ],
+  [
+   "formulaires",
+   "Formulaires et suppléments"
+  ],
+  [
+   "non",
+   "Non facturables à part"
+  ]
+ ],
+ "frequents": [
+  "42094",
+  "42096",
+  "15803",
+  "15823",
+  "15765",
+  "15773",
+  "15819",
+  "15801",
+  "15821",
+  "09926"
+ ],
+ "actes": [
+  {
+   "g": "base",
+   "n": "Forfait horaire, première heure complète",
+   "c": [
+    "42094"
+   ],
+   "t": 59.68,
+   "p": 100,
+   "k": "heure presence"
+  },
+  {
+   "g": "base",
+   "n": "Forfait horaire, chaque période complète de 15 minutes de plus",
+   "c": [
+    "42095"
+   ],
+   "t": 14.92,
+   "p": 100,
+   "k": "heure quart"
+  },
+  {
+   "g": "base",
+   "n": "Intervention de supervision, par période complète de 15 minutes",
+   "c": [
+    "42096",
+    "42097",
+    "42098"
+   ],
+   "t": 24.87,
+   "p": 62.15,
+   "k": "resident externe enseignement superviseur apprenant",
+   "note": "Au plus 3,5 h l'avant-midi (42096) et le soir (42098), 5 h l'après-midi (42097) ; un seul acte quel que soit le nombre d'apprenants."
+  },
+  {
+   "g": "base",
+   "n": "Activité académique, par période complète de 15 minutes",
+   "c": [
+    "42099"
+   ],
+   "t": 24.87,
+   "p": 62.15,
+   "k": "enseignement formation"
+  },
+  {
+   "g": "base",
+   "n": "Demi-per diem du médecin enseignant (liste 1)",
+   "c": [
+    "19911",
+    "19912",
+    "19914",
+    "19915",
+    "19917",
+    "19918",
+    "19920",
+    "19921"
+   ],
+   "t": [
+    41.45,
+    49.85
+   ],
+   "d": [
+    "par résident",
+    "par externe"
+   ],
+   "p": 100,
+   "k": "ep 42 resident externe forfait de formation",
+   "note": "EP 42 ; liste 2 : 65,20 $ et 73,55 $."
+  },
+  {
+   "g": "visites",
+   "n": "Suivi, patient non vulnérable de moins de 80 ans",
+   "c": [
+    "15803",
+    "15804"
+   ],
+   "t": [
+    32.25,
+    36.95
+   ],
+   "p": 63.58,
+   "k": "visite rendez-vous"
+  },
+  {
+   "g": "visites",
+   "n": "Suivi, patient vulnérable de moins de 80 ans",
+   "c": [
+    "15823",
+    "15824"
+   ],
+   "t": [
+    40.5,
+    45.2
+   ],
+   "p": 63.58,
+   "k": "visite rendez-vous"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle mineure, non vulnérable",
+   "c": [
+    "15765",
+    "15766"
+   ],
+   "t": [
+    15.3,
+    17.7
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle complexe, non vulnérable",
+   "c": [
+    "15773",
+    "15774"
+   ],
+   "t": [
+    30.65,
+    35.4
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv"
+  },
+  {
+   "g": "visites",
+   "n": "Visite périodique, patient vulnérable de moins de 80 ans",
+   "c": [
+    "15819",
+    "15820"
+   ],
+   "t": [
+    72.65,
+    84.8
+   ],
+   "p": 63.58,
+   "k": "examen annuel bilan"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle complexe, vulnérable",
+   "c": [
+    "15775",
+    "15776"
+   ],
+   "t": [
+    38.85,
+    43.65
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle mineure, vulnérable",
+   "c": [
+    "15767",
+    "15768"
+   ],
+   "t": [
+    23.55,
+    25.9
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge, patient non vulnérable de moins de 80 ans",
+   "c": [
+    "15801",
+    "15802"
+   ],
+   "t": [
+    64.5,
+    74.75
+   ],
+   "p": 63.58,
+   "k": "inscription nouveau patient pec"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge, patient vulnérable de moins de 80 ans",
+   "c": [
+    "15821",
+    "15822"
+   ],
+   "t": [
+    72.65,
+    82.9
+   ],
+   "p": 63.58,
+   "k": "inscription nouveau patient pec"
+  },
+  {
+   "g": "visites",
+   "n": "Suivi, patient vulnérable de 80 ans ou plus",
+   "c": [
+    "15837",
+    "15838"
+   ],
+   "t": [
+    46.3,
+    51.95
+   ],
+   "p": 63.58,
+   "k": "visite age"
+  },
+  {
+   "g": "visites",
+   "n": "Suivi, patient non vulnérable de 80 ans ou plus",
+   "c": [
+    "15817",
+    "15818"
+   ],
+   "t": [
+    38.15,
+    43.8
+   ],
+   "p": 63.58,
+   "k": "visite age"
+  },
+  {
+   "g": "visites",
+   "n": "Visite périodique pédiatrique",
+   "c": [
+    "15813",
+    "15814"
+   ],
+   "t": [
+    50.3,
+    57
+   ],
+   "p": 63.58,
+   "k": "enfant bebe"
+  },
+  {
+   "g": "visites",
+   "n": "Suivi de grossesse",
+   "c": [
+    "15811",
+    "15812"
+   ],
+   "t": [
+    37.75,
+    42.85
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte prenatal"
+  },
+  {
+   "g": "visites",
+   "n": "Visite périodique, patient vulnérable de 80 ans ou plus",
+   "c": [
+    "15839",
+    "15840"
+   ],
+   "t": [
+    84.8,
+    97.3
+   ],
+   "p": 63.58,
+   "k": "examen annuel age"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge, patient vulnérable de 80 ans ou plus",
+   "c": [
+    "15835",
+    "15836"
+   ],
+   "t": [
+    84.8,
+    97.3
+   ],
+   "p": 63.58,
+   "k": "inscription pec age"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge, patient non vulnérable de 80 ans ou plus",
+   "c": [
+    "15815",
+    "15816"
+   ],
+   "t": [
+    76.55,
+    89.15
+   ],
+   "p": 63.58,
+   "k": "inscription pec age"
+  },
+  {
+   "g": "visites",
+   "n": "Visite périodique pédiatrique, patient vulnérable",
+   "c": [
+    "15833",
+    "15834"
+   ],
+   "t": [
+    58.55,
+    65.2
+   ],
+   "p": 63.58,
+   "k": "enfant"
+  },
+  {
+   "g": "visites",
+   "n": "Suivi de grossesse, patiente vulnérable",
+   "c": [
+    "15831",
+    "15832"
+   ],
+   "t": [
+    45.95,
+    51.1
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge de grossesse au 1er trimestre, sans référence",
+   "c": [
+    "15805",
+    "15806"
+   ],
+   "t": [
+    99.9,
+    113.65
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge de grossesse au 1er trimestre, avec référence",
+   "c": [
+    "15807",
+    "15808"
+   ],
+   "t": [
+    64.5,
+    73.55
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge de grossesse après le 1er trimestre",
+   "c": [
+    "15809",
+    "15810"
+   ],
+   "t": [
+    64.5,
+    73.55
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge de grossesse au 1er trimestre, sans référence, patiente vulnérable",
+   "c": [
+    "15825",
+    "15826"
+   ],
+   "t": [
+    108.05,
+    121.85
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge de grossesse au 1er trimestre, avec référence, patiente vulnérable",
+   "c": [
+    "15827",
+    "15828"
+   ],
+   "t": [
+    72.65,
+    81.75
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "visites",
+   "n": "Prise en charge de grossesse après le 1er trimestre, patiente vulnérable",
+   "c": [
+    "15829",
+    "15830"
+   ],
+   "t": [
+    72.65,
+    81.75
+   ],
+   "p": 63.58,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle mineure, non vulnérable de 80 ans ou plus",
+   "c": [
+    "15769",
+    "15770"
+   ],
+   "t": [
+    18.25,
+    21.05
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv age"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle complexe, non vulnérable de 80 ans ou plus",
+   "c": [
+    "15777",
+    "15778"
+   ],
+   "t": [
+    36.45,
+    42.15
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv age"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle mineure, vulnérable de 80 ans ou plus",
+   "c": [
+    "15771",
+    "15772"
+   ],
+   "t": [
+    26.45,
+    29.3
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv age"
+  },
+  {
+   "g": "visites",
+   "n": "Visite ponctuelle complexe, vulnérable de 80 ans ou plus",
+   "c": [
+    "15779",
+    "15780"
+   ],
+   "t": [
+    44.65,
+    50.35
+   ],
+   "p": 63.58,
+   "k": "sans rendez-vous srv age"
+  },
+  {
+   "g": "visites",
+   "n": "Suivi conjoint en santé mentale",
+   "c": [
+    "08848"
+   ],
+   "t": 55.05,
+   "p": 63.58,
+   "k": "psychiatrie"
+  },
+  {
+   "g": "visites",
+   "n": "Évaluation psychiatrique en vue d'un suivi conjoint en santé mentale",
+   "c": [
+    "08819"
+   ],
+   "t": 74.75,
+   "p": 63.58,
+   "k": "psychiatrie"
+  },
+  {
+   "g": "visites",
+   "n": "Évaluation d'un problème mineur pour donner une opinion",
+   "c": [
+    "15789"
+   ],
+   "t": 40.6,
+   "p": 63.58,
+   "k": "opinion consultation"
+  },
+  {
+   "g": "visites",
+   "n": "Évaluation d'un problème complexe pour donner une opinion",
+   "c": [
+    "15790"
+   ],
+   "t": 63,
+   "p": 63.58,
+   "k": "opinion consultation"
+  },
+  {
+   "g": "visites",
+   "n": "Visite à domicile, patient non vulnérable en perte sévère d'autonomie",
+   "c": [
+    "15781",
+    "15782"
+   ],
+   "t": [
+    133.25,
+    102.55
+   ],
+   "d": [
+    "premier patient",
+    "patient additionnel"
+   ],
+   "p": 63.58,
+   "k": "domicile"
+  },
+  {
+   "g": "visites",
+   "n": "Visite à domicile, patient vulnérable en perte sévère d'autonomie",
+   "c": [
+    "15783",
+    "15784"
+   ],
+   "t": [
+    143.85,
+    113.15
+   ],
+   "d": [
+    "premier patient",
+    "patient additionnel"
+   ],
+   "p": 63.58,
+   "k": "domicile"
+  },
+  {
+   "g": "temps",
+   "n": "Intervention clinique individuelle, première période de 30 minutes",
+   "c": [
+    "08857"
+   ],
+   "t": 49.75,
+   "p": 62.15,
+   "k": "counseling therapie"
+  },
+  {
+   "g": "temps",
+   "n": "Intervention clinique individuelle, période de 15 minutes de plus",
+   "c": [
+    "08859"
+   ],
+   "t": 24.87,
+   "p": 62.15,
+   "k": "counseling therapie"
+  },
+  {
+   "g": "temps",
+   "n": "Psychothérapie individuelle, première période de 30 minutes",
+   "c": [
+    "15785"
+   ],
+   "t": 49.75,
+   "p": 62.15,
+   "k": "sante mentale"
+  },
+  {
+   "g": "temps",
+   "n": "Psychothérapie individuelle, période de 15 minutes de plus",
+   "c": [
+    "15786"
+   ],
+   "t": 24.87,
+   "p": 62.15,
+   "k": "sante mentale"
+  },
+  {
+   "g": "temps",
+   "n": "Intervention clinique collective, première période de 30 minutes",
+   "c": [
+    "08866"
+   ],
+   "t": 49.75,
+   "p": 62.15,
+   "k": "groupe"
+  },
+  {
+   "g": "temps",
+   "n": "Intervention clinique collective, période de 15 minutes de plus",
+   "c": [
+    "08868"
+   ],
+   "t": 24.87,
+   "p": 62.15,
+   "k": "groupe"
+  },
+  {
+   "g": "temps",
+   "n": "Aide médicale à mourir, par période de 15 minutes",
+   "c": [
+    "15880",
+    "15881"
+   ],
+   "t": 43.6,
+   "p": 62.15,
+   "k": "amm fin de vie"
+  },
+  {
+   "g": "techniques",
+   "n": "Infiltration d'une bourse séreuse ou d'une articulation, aspiration comprise (au plus 3)",
+   "c": [
+    "00431"
+   ],
+   "t": 16.5,
+   "p": 63.58,
+   "k": "injection cortisone genou epaule"
+  },
+  {
+   "g": "techniques",
+   "n": "Infiltration d'une capsule, d'une gaine, d'un tendon, d'un ligament ou d'un fascia",
+   "c": [
+    "00430"
+   ],
+   "t": 16.65,
+   "p": 63.58,
+   "k": "injection cortisone tendinite"
+  },
+  {
+   "g": "techniques",
+   "n": "Insertion de stérilet, examen compris",
+   "c": [
+    "00205"
+   ],
+   "t": 55.95,
+   "p": 63.58,
+   "k": "diu contraception gynecologie"
+  },
+  {
+   "g": "techniques",
+   "n": "Extraction de stérilet, acte compliqué",
+   "c": [
+    "20025"
+   ],
+   "t": 58.75,
+   "p": 63.58,
+   "k": "diu contraception gynecologie retrait"
+  },
+  {
+   "g": "techniques",
+   "n": "Implant contraceptif sous-cutané",
+   "c": [
+    "06980",
+    "06981"
+   ],
+   "t": [
+    109.05,
+    139.6
+   ],
+   "d": [
+    "un implant",
+    "plus d'un"
+   ],
+   "p": 63.58,
+   "k": "contraception nexplanon"
+  },
+  {
+   "g": "techniques",
+   "n": "Exérèse d'implant contraceptif",
+   "c": [
+    "06982",
+    "06983"
+   ],
+   "t": [
+    125.4,
+    169.8
+   ],
+   "d": [
+    "un implant",
+    "plus d'un"
+   ],
+   "p": 63.58,
+   "k": "contraception retrait"
+  },
+  {
+   "g": "techniques",
+   "n": "Cryochirurgie, lésion précancéreuse : tronc, bras, jambes",
+   "c": [
+    "01240",
+    "01241"
+   ],
+   "t": [
+    26.95,
+    46.3
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "keratose actinique azote",
+   "note": "Biopsies comprises ; au plus 4 lésions payées."
+  },
+  {
+   "g": "techniques",
+   "n": "Cryochirurgie, lésion précancéreuse : face, cuir chevelu, oreilles, cou, mains, pieds, organes génitaux",
+   "c": [
+    "01238",
+    "01239"
+   ],
+   "t": [
+    41.45,
+    63.7
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "keratose actinique azote",
+   "note": "Biopsies comprises ; au plus 4 lésions payées."
+  },
+  {
+   "g": "techniques",
+   "n": "Cryochirurgie, lésion précancéreuse : paupière, nez, lèvres, muqueuses",
+   "c": [
+    "01236",
+    "01237"
+   ],
+   "t": [
+    54,
+    86.45
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "keratose actinique azote",
+   "note": "Biopsies comprises ; au plus 4 lésions payées."
+  },
+  {
+   "g": "techniques",
+   "n": "Cryochirurgie, lésion cancéreuse : tronc, bras, jambes",
+   "c": [
+    "01246",
+    "01247"
+   ],
+   "t": [
+    54,
+    68.05
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "cancer peau azote"
+  },
+  {
+   "g": "techniques",
+   "n": "Cryochirurgie, lésion cancéreuse : face, cuir chevelu, oreilles, cou, mains, pieds, organes génitaux",
+   "c": [
+    "01244",
+    "01245"
+   ],
+   "t": [
+    71.1,
+    98.95
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "cancer peau azote"
+  },
+  {
+   "g": "techniques",
+   "n": "Cryochirurgie, lésion cancéreuse : paupières, nez, lèvres, muqueuses",
+   "c": [
+    "01242",
+    "01243"
+   ],
+   "t": [
+    92.55,
+    135.75
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "cancer peau azote"
+  },
+  {
+   "g": "techniques",
+   "n": "Excision, lésion précancéreuse : tronc, bras, jambes",
+   "c": [
+    "01184",
+    "01185"
+   ],
+   "t": [
+    30,
+    50.85
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "exerese peau",
+   "note": "Biopsies comprises ; au plus 4 lésions payées."
+  },
+  {
+   "g": "techniques",
+   "n": "Excision, lésion précancéreuse : face, cuir chevelu, oreilles, cou, mains, pieds, organes génitaux",
+   "c": [
+    "01182",
+    "01183"
+   ],
+   "t": [
+    46.15,
+    70.75
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "exerese peau"
+  },
+  {
+   "g": "techniques",
+   "n": "Excision, lésion précancéreuse : paupière, nez, lèvres, muqueuses",
+   "c": [
+    "01180",
+    "01181"
+   ],
+   "t": [
+    60.05,
+    100
+   ],
+   "d": [
+    "1 cm ou moins",
+    "plus de 1 cm"
+   ],
+   "p": 63.58,
+   "k": "exerese peau"
+  },
+  {
+   "g": "techniques",
+   "n": "Réparation d'une lacération simple, face et cou (moins de 1 cm)",
+   "c": [
+    "01320"
+   ],
+   "t": 27.5,
+   "p": 63.58,
+   "k": "suture plaie points",
+   "note": "10,45 $ par cm de plus, au plus 236,50 $."
+  },
+  {
+   "g": "techniques",
+   "n": "Réparation d'une lacération simple, autres sites (moins de 1 cm)",
+   "c": [
+    "01323"
+   ],
+   "t": 17.75,
+   "p": 63.58,
+   "k": "suture plaie points",
+   "note": "4,60 $ par cm de plus, au plus 141,95 $."
+  },
+  {
+   "g": "techniques",
+   "n": "Onycectomie simple, doigt ou orteil",
+   "c": [
+    "01215"
+   ],
+   "t": 19.15,
+   "p": 63.58,
+   "k": "ongle incarne"
+  },
+  {
+   "g": "techniques",
+   "n": "Onycectomie radicale, exérèse de la matrice",
+   "c": [
+    "01216"
+   ],
+   "t": 52.2,
+   "p": 63.58,
+   "k": "ongle incarne"
+  },
+  {
+   "g": "techniques",
+   "n": "Excision chirurgicale d'une verrue non faciale, la première",
+   "c": [
+    "01222"
+   ],
+   "t": 16.65,
+   "p": 63.58,
+   "k": "verrue",
+   "note": "4,05 $ par verrue de plus, au plus 16 de plus."
+  },
+  {
+   "g": "techniques",
+   "n": "Excision chirurgicale d'une verrue faciale, la première",
+   "c": [
+    "01223"
+   ],
+   "t": 29.4,
+   "p": 63.58,
+   "k": "verrue",
+   "note": "9,80 $ par verrue de plus, au plus 10 de plus."
+  },
+  {
+   "g": "techniques",
+   "n": "Électrocoagulation, première lésion",
+   "c": [
+    "01300"
+   ],
+   "t": 7.3,
+   "p": 63.58,
+   "k": "cauterisation",
+   "note": "2,05 $ par lésion de plus, au plus 19,60 $ par séance."
+  },
+  {
+   "g": "techniques",
+   "n": "Exérèse d'un corps étranger, simple",
+   "c": [
+    "01196"
+   ],
+   "t": 26.25,
+   "p": 63.58,
+   "k": "echarde"
+  },
+  {
+   "g": "techniques",
+   "n": "Incision et drainage d'un abcès sus-fascial",
+   "c": [
+    "01005"
+   ],
+   "t": 17,
+   "p": 63.58,
+   "k": "abces",
+   "note": "Unique ou multiple ; 24,65 $ en cabinet."
+  },
+  {
+   "g": "techniques",
+   "n": "Excision chirurgicale, fermeture simple, 3 cm ou moins : face, oreilles, paupières, nez, lèvres, muqueuses",
+   "c": [
+    "01164"
+   ],
+   "t": 18.55,
+   "p": 63.58,
+   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese"
+  },
+  {
+   "g": "techniques",
+   "n": "Excision chirurgicale, fermeture simple, 3 cm ou moins : cuir chevelu, cou, mains, pieds, organes génitaux",
+   "c": [
+    "01165"
+   ],
+   "t": 15.35,
+   "p": 63.58,
+   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese"
+  },
+  {
+   "g": "techniques",
+   "n": "Excision chirurgicale, fermeture simple, 3 cm ou moins : tronc, bras, jambes",
+   "c": [
+    "01166"
+   ],
+   "t": 12.2,
+   "p": 63.58,
+   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese"
+  },
+  {
+   "g": "formulaires",
+   "n": "Forfait de prise en charge et de suivi de la clientèle en GMF",
+   "c": [
+    "08875"
+   ],
+   "t": 9.35,
+   "p": 100,
+   "k": "gmf forfait inscrit annuel",
+   "note": "Une fois par année civile, à la première visite de l'année d'un patient inscrit ; médecin membre d'un GMF, GMF-U compris (EP 33, annexe V)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Patient sans médecin de famille : supplément, non vulnérable",
+   "c": [
+    "19957"
+   ],
+   "t": 19.55,
+   "p": 100,
+   "k": "inscription nouveau patient orphelin prise en charge guichet gamf",
+   "note": "Au premier examen ou à la première visite de la prise en charge, guichet d'accès ou non (EP 40, par. 4.12)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Patient sans médecin de famille : supplément, vulnérable, hors guichet",
+   "c": [
+    "19958"
+   ],
+   "t": 60.15,
+   "p": 100,
+   "k": "inscription nouveau patient orphelin prise en charge",
+   "note": "Au premier examen ou à la première visite de la prise en charge (EP 40, par. 4.12)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Patient sans médecin de famille : supplément, vulnérable, du guichet",
+   "c": [
+    "19959"
+   ],
+   "t": 128.9,
+   "p": 100,
+   "k": "inscription nouveau patient orphelin prise en charge guichet gamf transfert bloc",
+   "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 4.12 ; lettre d'entente no 304)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Patient sans médecin de famille : supplément, très vulnérable, du guichet",
+   "c": [
+    "19960"
+   ],
+   "t": 257.8,
+   "p": 100,
+   "k": "inscription nouveau patient orphelin prise en charge guichet gamf transfert bloc",
+   "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 13.01 ; lettre d'entente no 304)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Forfait de responsabilité, patient vulnérable inscrit",
+   "c": [
+    "15169",
+    "15170"
+   ],
+   "t": 8.25,
+   "p": 100,
+   "k": "vulnerable supplement",
+   "note": "Avec l'intervention de supervision, ou avec une intervention clinique ou une psychothérapie (annexe II à l'annexe XXIII)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Supplément à l'examen périodique d'un enfant de 0 à 5 ans",
+   "c": [
+    "08877"
+   ],
+   "t": 13.35,
+   "p": 100,
+   "k": "enfant pediatrique",
+   "note": "Avec l'intervention de supervision, ou avec une intervention clinique."
+  },
+  {
+   "g": "formulaires",
+   "n": "Supplément à l'examen de suivi de grossesse",
+   "c": [
+    "15145"
+   ],
+   "t": 8.95,
+   "p": 100,
+   "k": "obstetrique enceinte",
+   "note": "Avec l'intervention de supervision, ou avec une intervention clinique."
+  },
+  {
+   "g": "formulaires",
+   "n": "Supplément au premier examen de grossesse au 1er trimestre",
+   "c": [
+    "15159"
+   ],
+   "t": 35.6,
+   "p": 100,
+   "k": "obstetrique enceinte"
+  },
+  {
+   "g": "formulaires",
+   "n": "Supplément pour un interprète, patient inscrit",
+   "c": [
+    "15188"
+   ],
+   "t": 27.25,
+   "p": 63.58,
+   "k": "langue traduction"
+  },
+  {
+   "g": "formulaires",
+   "n": "Communication avec un médecin spécialiste (500 inscrits ou plus)",
+   "c": [
+    "15841",
+    "15842",
+    "15843"
+   ],
+   "t": 22,
+   "p": 63.58,
+   "k": "telephone discussion"
+  },
+  {
+   "g": "formulaires",
+   "n": "Communication avec un autre professionnel de la santé (500 inscrits ou plus)",
+   "c": [
+    "15844",
+    "15845",
+    "15846"
+   ],
+   "t": 15.75,
+   "p": 63.58,
+   "k": "telephone pharmacien"
+  },
+  {
+   "g": "formulaires",
+   "n": "Communication par conseil numérique (eConsult)",
+   "c": [
+    "15894"
+   ],
+   "t": 22,
+   "p": 63.58,
+   "k": "econsult specialiste"
+  },
+  {
+   "g": "formulaires",
+   "n": "Interruption volontaire de grossesse par médicament : évaluation globale",
+   "c": [
+    "15314"
+   ],
+   "t": 104.6,
+   "p": 63.58,
+   "k": "ivg avortement"
+  },
+  {
+   "g": "formulaires",
+   "n": "Échographie requise pour une IVG par médicament",
+   "c": [
+    "15316"
+   ],
+   "t": 13.1,
+   "p": 63.58,
+   "k": "ivg echographie"
+  },
+  {
+   "g": "formulaires",
+   "n": "Enfant présumé victime de mauvais traitements : évaluation et rapport",
+   "c": [
+    "09070"
+   ],
+   "t": 116.1,
+   "p": 63.58,
+   "k": "dpj maltraitance",
+   "note": "09073 : 46,25 $ par demi-heure de plus (moins de 14 ans)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Demande anticipée d'aide médicale à mourir : formulaire et démarches",
+   "c": [
+    "15879"
+   ],
+   "t": 261.5,
+   "p": 63.58,
+   "k": "amm"
+  },
+  {
+   "g": "formulaires",
+   "n": "Retrait d'une demande anticipée d'aide médicale à mourir",
+   "c": [
+    "15899"
+   ],
+   "t": 52.3,
+   "p": 63.58,
+   "k": "amm"
+  },
+  {
+   "g": "formulaires",
+   "n": "Coroner, sans déplacement",
+   "c": [
+    "09054"
+   ],
+   "t": 61.65,
+   "p": 63.58,
+   "k": "deces"
+  },
+  {
+   "g": "formulaires",
+   "n": "Constatation de décès, sans déplacement",
+   "c": [
+    "00013"
+   ],
+   "t": 23.35,
+   "p": 100,
+   "k": "deces mort constat"
+  },
+  {
+   "g": "formulaires",
+   "n": "Constatation de décès aux fins de transplantation (2e constat), sans déplacement",
+   "c": [
+    "00016"
+   ],
+   "t": 23.35,
+   "p": 100,
+   "k": "deces don organes"
+  },
+  {
+   "g": "formulaires",
+   "n": "Bulletin de décès (formulaire SP-3)",
+   "c": [
+    "15265"
+   ],
+   "t": 19.8,
+   "p": 100,
+   "k": "deces formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "Évaluation à distance d'un décès en CHSLD, hors centre désigné",
+   "c": [
+    "15889"
+   ],
+   "t": 25,
+   "p": 100,
+   "k": "deces chsld"
+  },
+  {
+   "g": "formulaires",
+   "n": "Évaluation à distance d'un décès à domicile (soins à domicile du CLSC)",
+   "c": [
+    "15890"
+   ],
+   "t": 25,
+   "p": 100,
+   "k": "deces domicile palliatif"
+  },
+  {
+   "g": "formulaires",
+   "n": "Réanimation cardio-respiratoire, premier quart d'heure",
+   "c": [
+    "00828"
+   ],
+   "t": 113.2,
+   "p": 100,
+   "k": "rcr arret cardiaque code bleu"
+  },
+  {
+   "g": "formulaires",
+   "n": "Réanimation cardio-respiratoire, chaque quart d'heure de plus",
+   "c": [
+    "00829"
+   ],
+   "t": 28.25,
+   "p": 100,
+   "k": "rcr arret cardiaque code bleu"
+  },
+  {
+   "g": "formulaires",
+   "n": "Forfait de congé en établissement d'un patient admis",
+   "c": [
+    "15158"
+   ],
+   "t": 35.55,
+   "p": 100,
+   "k": "hospitalisation sortie conge",
+   "note": "Au transfert d'un patient admis (EP – Médecine de famille, par. 9.00 C)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Perte d'autonomie : examen d'évaluation médicale",
+   "c": [
+    "09100"
+   ],
+   "t": 163.5,
+   "p": 63.58,
+   "k": "autonomie chsld ressource",
+   "note": "Pas dans l'annexe II : au mixte, la part des services médicaux."
+  },
+  {
+   "g": "formulaires",
+   "n": "Perte d'autonomie : supplément si l'examen est fait à domicile",
+   "c": [
+    "09063"
+   ],
+   "t": 28.15,
+   "p": 100,
+   "k": "autonomie domicile"
+  },
+  {
+   "g": "formulaires",
+   "n": "Perte d'autonomie : rédaction du formulaire",
+   "c": [
+    "09101"
+   ],
+   "t": 35.95,
+   "p": 100,
+   "k": "autonomie formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "Sécurité du revenu : rapport médical",
+   "c": [
+    "09800"
+   ],
+   "t": 20,
+   "p": 100,
+   "k": "aide sociale contraintes emploi formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "Sécurité du revenu : information médicale complémentaire, verbale",
+   "c": [
+    "09801"
+   ],
+   "t": 20,
+   "p": 100,
+   "k": "aide sociale"
+  },
+  {
+   "g": "formulaires",
+   "n": "Curateur public : évaluation médicale (rapport du directeur général)",
+   "c": [
+    "09825"
+   ],
+   "t": 26.15,
+   "p": 100,
+   "k": "inaptitude regime protection"
+  },
+  {
+   "g": "formulaires",
+   "n": "Curateur public : réévaluation médicale",
+   "c": [
+    "09826"
+   ],
+   "t": 26.15,
+   "p": 100,
+   "k": "inaptitude regime protection"
+  },
+  {
+   "g": "formulaires",
+   "n": "Dépistage du cancer du sein : rapport de confirmation diagnostique (AH-509)",
+   "c": [
+    "09817"
+   ],
+   "t": 29.65,
+   "p": 100,
+   "k": "pqdcs mammographie",
+   "note": "Protocole d'accord du programme de dépistage du cancer du sein (Brochure no 1)."
+  },
+  {
+   "g": "formulaires",
+   "n": "Prise en charge temporaire d'une cliente enceinte, sans devenir son médecin de famille",
+   "c": [
+    "15189",
+    "19074"
+   ],
+   "t": [
+    8.95,
+    9.35
+   ],
+   "d": [
+    "15189",
+    "19074 en plus, membre d'un GMF"
+   ],
+   "p": 100,
+   "k": "grossesse obstetrique temporaire",
+   "note": "Médecin qui a des privilèges en obstétrique ; 11,85 $ en cabinet. 19074 : patiente inscrite auprès d'un autre médecin du même GMF (EP 40, par. 7.03). Payé à 100 % au mixte, aussi pendant l'intervention de supervision."
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : attestation médicale",
+   "c": [
+    "09926"
+   ],
+   "t": 27.57,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : rapport sommaire de prise en charge",
+   "c": [
+    "09927"
+   ],
+   "t": 26.96,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : rapport d'évolution",
+   "c": [
+    "09928"
+   ],
+   "t": 26.96,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : rapport final",
+   "c": [
+    "09930"
+   ],
+   "t": 31.86,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : information médicale complémentaire écrite",
+   "c": [
+    "09929"
+   ],
+   "t": 128.67,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : rapport complémentaire",
+   "c": [
+    "09909"
+   ],
+   "t": 159.31,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bilan médical",
+   "c": [
+    "09907"
+   ],
+   "t": 165.43,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : opinion avant consolidation : lien d'emploi",
+   "c": [
+    "09908"
+   ],
+   "t": 140.93,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : mesures de réadaptation avant consolidation",
+   "c": [
+    "09922"
+   ],
+   "t": 61.27,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : assignation temporaire d'un travail",
+   "c": [
+    "09971"
+   ],
+   "t": 102.94,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : retrait préventif de la travailleuse enceinte ou qui allaite",
+   "c": [
+    "09970"
+   ],
+   "t": 85.78,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : rapport d'évaluation médicale, examen compris",
+   "c": [
+    "09944"
+   ],
+   "t": 520.81,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : iVAC : évaluation médicale",
+   "c": [
+    "15795"
+   ],
+   "t": 27.57,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : iVAC : rapport médical",
+   "c": [
+    "15796"
+   ],
+   "t": 26.96,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : iVAC : rapport final",
+   "c": [
+    "15797"
+   ],
+   "t": 31.86,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : rapport de consultation motivé, à la demande du médecin qui a charge",
+   "c": [
+    "09910"
+   ],
+   "t": 183.82,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bilan médical : considération pour complexité, niveau 1",
+   "c": [
+    "09914"
+   ],
+   "t": 36.96,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bilan médical : considération pour complexité, niveau 2",
+   "c": [
+    "09915"
+   ],
+   "t": 73.53,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bilan médical : considération pour complexité, niveau 3",
+   "c": [
+    "09916"
+   ],
+   "t": 110.29,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : supplément en neurologie, neurochirurgie ou toxicologie (rapport d'évaluation médicale)",
+   "c": [
+    "09901"
+   ],
+   "t": 140.93,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : médecin désigné : examen et rapport d'évaluation médicale",
+   "c": [
+    "09978"
+   ],
+   "t": 1003.44,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : supplément en neurologie, neurochirurgie ou toxicologie (médecin désigné)",
+   "c": [
+    "09902"
+   ],
+   "t": 140.93,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : médecin désigné, en urgence (un à cinq jours) : examen et rapport d'évaluation médicale",
+   "c": [
+    "09946"
+   ],
+   "t": 1223.37,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : supplément en neurologie, neurochirurgie ou toxicologie (évaluation en urgence)",
+   "c": [
+    "09980"
+   ],
+   "t": 140.93,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : supplément : avis rendu en cabinet privé",
+   "c": [
+    "09977"
+   ],
+   "t": 122.54,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : évaluation médicale : considération pour complexité, niveau 1",
+   "c": [
+    "09947"
+   ],
+   "t": 116.42,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : évaluation médicale : considération pour complexité, niveau 2",
+   "c": [
+    "09948"
+   ],
+   "t": 177.69,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : évaluation médicale : considération pour complexité, niveau 3",
+   "c": [
+    "09949"
+   ],
+   "t": 208.32,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bureau d'évaluation médicale : avis au vu du dossier",
+   "c": [
+    "09938"
+   ],
+   "t": 549.83,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bureau d'évaluation médicale : avis après examen du travailleur",
+   "c": [
+    "09939"
+   ],
+   "t": 1003.44,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bureau d'évaluation médicale : participation à l'avis commun",
+   "c": [
+    "09936"
+   ],
+   "t": 804.13,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : bureau d'évaluation médicale : rédaction de l'avis commun (en plus)",
+   "c": [
+    "09937"
+   ],
+   "t": 103.09,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : supplément : tests audiologiques en cabinet privé",
+   "c": [
+    "09919"
+   ],
+   "t": 104.16,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : certificat en cas d'exposition à un contaminant",
+   "c": [
+    "09973"
+   ],
+   "t": 85.78,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : étude de dossier et rapport à la Commission, par médecin",
+   "c": [
+    "09942"
+   ],
+   "t": 549.83,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : étude de dossier : considération pour complexité, niveau 1",
+   "c": [
+    "09911"
+   ],
+   "t": 73.53,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : étude de dossier : considération pour complexité, niveau 2",
+   "c": [
+    "09912"
+   ],
+   "t": 104.16,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : étude de dossier : considération pour complexité, niveau 3",
+   "c": [
+    "09913"
+   ],
+   "t": 134.8,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : certificat médical du plongeur professionnel",
+   "c": [
+    "09954"
+   ],
+   "t": 134.8,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : avis supplémentaire à la Commission",
+   "c": [
+    "09924"
+   ],
+   "t": 158.08,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : avis supplémentaire : plus de 15 pages de nouveaux documents, ou relecture du dossier",
+   "c": [
+    "09925"
+   ],
+   "t": 295.53,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "formulaires",
+   "n": "CNESST : considération de très grande complexité",
+   "c": [
+    "09931"
+   ],
+   "t": 336.99,
+   "p": 100,
+   "k": "cnesst travail accident ivac formulaire"
+  },
+  {
+   "g": "non",
+   "n": "Cryothérapie d'une lésion (verrue, lésion bénigne)",
+   "c": [],
+   "t": null,
+   "p": 0,
+   "k": "azote verrue",
+   "note": "Comprise dans la visite (annexe I du préambule général)."
+  },
+  {
+   "g": "non",
+   "n": "Chimiothérapie d'une lésion cutanée",
+   "c": [],
+   "t": null,
+   "p": 0,
+   "k": "verrue",
+   "note": "Comprise dans la visite (annexe I du préambule général)."
+  },
+  {
+   "g": "non",
+   "n": "Extraction simple de stérilet",
+   "c": [],
+   "t": null,
+   "p": 0,
+   "k": "diu",
+   "note": "Comprise dans la visite ; l'extraction compliquée se facture (20025)."
+  },
+  {
+   "g": "non",
+   "n": "Insertion de pessaire",
+   "c": [],
+   "t": null,
+   "p": 0,
+   "k": "gynecologie",
+   "note": "Comprise dans la visite (annexe I du préambule général)."
+  },
+  {
+   "g": "non",
+   "n": "Exérèse de cérumen, nettoyage de l'oreille",
+   "c": [],
+   "t": null,
+   "p": 0,
+   "k": "oreille lavage",
+   "note": "Comprise dans la visite (annexe I du préambule général)."
+  },
+  {
+   "g": "non",
+   "n": "Injection sous-cutanée, intramusculaire ou intraveineuse",
+   "c": [],
+   "t": null,
+   "p": 0,
+   "k": "vaccin piqure",
+   "note": "Comprise dans la visite, sauf injection prévue au tarif."
+  },
+  {
+   "g": "non",
+   "n": "Manœuvre d'Epley",
+   "c": [],
+   "t": null,
+   "p": 0,
+   "k": "vertige",
+   "note": "Comprise dans la visite (annexe I du préambule général)."
+  },
+  {
+   "g": "non",
+   "n": "Problème musculosquelettique : prise en charge, suivi, opinion",
+   "c": [
+    "08775",
+    "08776",
+    "08777"
+   ],
+   "t": null,
+   "p": 0,
+   "k": "msk",
+   "note": "Payés au mixte en CLSC seulement : pas en GMF-U (Brochure no 1, annexe XXIII, section B-2)."
+  }
+ ],
+ "vulnerabilite": [
+  {
+   "code": "01",
+   "libelle": "Problèmes de santé mentale chroniques et récidivants (DSM-V) : troubles d'anxiété généralisée, troubles du comportement alimentaire (anorexie, boulimie)",
+   "m": "anxiété tag anorexie boulimie santé mentale"
+  },
+  {
+   "code": "02",
+   "libelle": "Maladies pulmonaires obstructives chroniques (MPOC), asthme de modéré à sévère (patient présentant un VEMS inférieur à 70 % de la valeur prédite), pneumopathies professionnelles",
+   "m": "mpoc asthme poumon"
+  },
+  {
+   "code": "03",
+   "libelle": "Maladie cardiaque artériosclérotique (MCAS), insuffisance cardiaque, hypertension sévère (grade 3)",
+   "m": "coeur cœur mcas insuffisance cardiaque hta hypertension"
+  },
+  {
+   "code": "04",
+   "libelle": "Cancer associé à un traitement passé, présent ou projeté en chimiothérapie systémique ou radiothérapie ou en phase palliative",
+   "m": "cancer oncologie chimiothérapie radiothérapie palliatif"
+  },
+  {
+   "code": "05",
+   "libelle": "Diabète avec hémoglobine A1C à 6,5 ou plus au moment du diagnostic, excluant le diabète de grossesse",
+   "m": "diabète hba1c"
+  },
+  {
+   "code": "06",
+   "libelle": "Toxicomanie ou alcoolisme en cours de sevrage ou ayant donné lieu à une cure de désintoxication de drogues dures ou d'alcool au cours des cinq dernières années, toxicomanie sous traitement de méthadone ou de buprénorphine",
+   "m": "alcool drogue dépendance méthadone buprénorphine suboxone"
+  },
+  {
+   "code": "07",
+   "libelle": "VIH/SIDA, hépatite C",
+   "m": "vih sida hépatite vhc"
+  },
+  {
+   "code": "08",
+   "libelle": "Maladies dégénératives du système nerveux, démence avec MMSE de 26 et moins, blessés médullaires avec séquelles permanentes entraînant une invalidité et traumatismes crâniens avec séquelles permanentes entraînant une invalidité",
+   "m": "démence alzheimer parkinson sclérose snc tcc"
+  },
+  {
+   "code": "09",
+   "libelle": "Maladies inflammatoires chroniques : polyarthrite rhumatoïde, psoriasis avec atteinte autre que cutanée, lupus, sclérodermie et autres collagénoses, colite ulcéreuse, maladie de Crohn",
+   "m": "polyarthrite psoriasis lupus crohn colite mii"
+  },
+  {
+   "code": "10",
+   "libelle": "Troubles dépressifs majeurs aigus, premier épisode, ou troubles anxieux aigus, premier épisode",
+   "note": "Valable 24 mois, renouvelable ; annulé au terme sauf action du médecin.",
+   "m": "dépression anxiété premier épisode"
+  },
+  {
+   "code": "11",
+   "libelle": "Troubles dépressifs majeurs récidivants",
+   "m": "dépression récidivante"
+  },
+  {
+   "code": "12",
+   "libelle": "Insuffisance rénale chronique avec une clairance de la créatinine inférieure à 30 ml par minute, insuffisance hépatique",
+   "m": "irc rein rénale foie hépatique"
+  },
+  {
+   "code": "13",
+   "libelle": "Maladies thrombogènes nécessitant une anticoagulation à vie, fibrillation auriculaire avec CHADS à 2 et plus",
+   "m": "fa fibrillation anticoagulation thrombose"
+  },
+  {
+   "code": "14",
+   "libelle": "Fibrillation auriculaire nécessitant une anticoagulothérapie à vie et suivi par RIN",
+   "note": "Fermé le 30 juin 2019 : la fibrillation auriculaire relève du code 13 (CHADS à 2 et plus).",
+   "ferme": true,
+   "m": "fa fibrillation"
+  },
+  {
+   "code": "15",
+   "libelle": "Troubles de déficit de l'attention avec ou sans hyperactivité, pour les patients âgés de moins de 18 ans",
+   "note": "Retiré automatiquement par la RAMQ aux 18 ans.",
+   "m": "tdah tda enfant"
+  },
+  {
+   "code": "16",
+   "libelle": "Déficience intellectuelle pour les patients présentant des troubles importants d'expression et de compréhension",
+   "m": "déficience intellectuelle"
+  },
+  {
+   "code": "17",
+   "libelle": "Déficience auditive lorsque la communication avec le patient se fait de façon gestuelle ou par écrit, et déficience visuelle nécessitant la présence d'un accompagnateur lors de la rencontre du patient avec le médecin",
+   "m": "surdité aveugle vision audition"
+  },
+  {
+   "code": "18",
+   "libelle": "Douleur chronique qui persiste depuis plus de six mois, liée à une condition chronique et provoquant une incapacité fonctionnelle ou nécessitant la prise continue d'une médication sur ordonnance lui permettant d'être fonctionnel",
+   "m": "douleur chronique"
+  },
+  {
+   "code": "19",
+   "libelle": "Accident vasculaire cérébral entraînant des troubles graves de mobilité, de comportement, d'expression ou de compréhension",
+   "m": "avc"
+  },
+  {
+   "code": "20",
+   "libelle": "Problèmes de santé (DSM-IV) : troubles psychotiques, troubles bipolaires, troubles envahissants du développement (troubles du spectre de l'autisme, Asperger)",
+   "m": "psychose schizophrénie bipolaire autisme tsa asperger santé mentale"
+  }
+ ],
+ "notes": {
+  "repertoire": "Tarifs : Manuel des médecins omnipraticiens (28 octobre 2026) et Brochure no 1 (5 novembre 2026), colonne « En CLSC ou en GMF-U en établissement », avant la majoration selon le territoire. Au mixte en GMF-U : 63,58 % des services médicaux, 62,15 % des services sur base de temps, 100 % des suppléments et des formulaires, en plus du forfait horaire. Les actes chirurgicaux sont publiés en dollars entiers. Ordre : du plus fréquent au plus rare ; la recherche porte sur tous les actes.",
+  "cnesst": "42 formulaires de la CNESST et de l'IVAC : annexe XIII de l'Entente, en vigueur depuis le 1er avril 2025 (manuel de la RAMQ consulté le 25 octobre 2026). Payés à 100 % du tarif dans tous les modes : à l'acte, au mixte (annexe XXIII, par. 2.11) et au taux horaire, à l'acte pour ces services sans facturer d'heures pour ce temps.",
+  "vulnerabilite": "Un patient inscrit est vulnérable s'il a au moins une de ces catégories ; il peut en avoir plusieurs. Forfait annuel (EP 40, par. 6.01) : 62,50 $ en cabinet, 47,00 $ en établissement pour une catégorie ; 150 % pour deux ; 200 % pour trois ou plus. Ajouter, modifier ou annuler un code se fait lors d'une visite ; l'inscription peut être modifiée dans les 90 jours suivant la visite (infolettre 171). Libellés : Guide de gestion « Révision des codes de vulnérabilité » de la FMOQ (2017), d'après l'infolettre 171 de la RAMQ du 15 septembre 2017. Modifications faites depuis à l'EP 40 : source manquante, non vérifiées ici. Vérifiez le libellé en vigueur avant d'inscrire un code."
+ }
+}

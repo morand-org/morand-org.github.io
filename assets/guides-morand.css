@@ -32,7 +32,7 @@ body.gm {
 /* Sceau, nom et devise au centre. */
 .gm .gm-intro { text-align: center; padding-top: clamp(26px, 6vh, 48px); padding-bottom: 0; background: none; }
 .gm-intro img { display: block; width: clamp(96px, 14vw, 128px); height: auto; margin: 0 auto; }
-.gm .gm-intro h1 { margin: 16px 0 0; font-size: clamp(2.1rem, 5vw, 2.6rem); line-height: 1; }
+.gm .gm-intro h1 { margin: 16px 0 0; max-width: none; font-size: clamp(2.1rem, 5vw, 2.6rem); line-height: 1; }
 .gm-devise { margin: 12px 0 0; font: 500 10px/1.4 "Inter", system-ui, sans-serif; letter-spacing: .3em; text-transform: uppercase; color: var(--gm-or); }
 .gm-lead { max-width: 34em; margin: 14px auto 0; font-size: .95rem; color: var(--gm-encre-2); }
 
@@ -210,3 +210,26 @@ body.gm {
 /* Dans un lien en flex, l'espace au début de « cliniques » (ou « communautaires ») est retirée : on la garde. */
 .gm-sous .gm-long { white-space: pre; }
 @media (max-width: 400px) { .gm-sous a { padding: 0 11px; font-size: 10px; letter-spacing: .1em; } }
+/* Cinq outils dans l'en-tête : sur téléphone, les onglets se serrent pour tenir sur une ligne. */
+@media (max-width: 480px) { .gm-tete { gap: 10px; } .gm-onglets { gap: 11px; } .gm-marque { letter-spacing: .18em; } .gm-onglets a { font-size: 9.5px; letter-spacing: .1em; } }
+@media (max-width: 350px) { .gm-marque { font-size: 9.5px; letter-spacing: .12em; } .gm-onglets { gap: 8px; } .gm-onglets a { font-size: 9px; letter-spacing: .06em; } }
+/* Mode sombre : le Guide suit le réglage de l'appareil, comme l'accueil et CRDS Morand. « --navy » est l'encre de la
+   page : claire sur fond sombre ; les boutons pleins (fond d'encre) prennent donc un texte sombre. */
+@media (prefers-color-scheme: dark) {
+  html:has(body.gm) { background: #12110d; color-scheme: dark; }
+  body.gm {
+    --navy: #efe9dc; --navy-2: #c9c2b2; --blue: #c9a35c; --teal: #c9a35c; --teal-texte: #d4b06a;
+    --teal-zone: #23211b; --teal-pale: #1a1914; --cream: #1a1914; --sky: #23211b; --rule: #2f2c25;
+    --ink-60: rgba(239, 233, 220, .66); --mint: #3a3324; --white: #1a1914; --shadow: 0 16px 42px rgba(0, 0, 0, .5);
+    --warning: #e6c75a; --warning-bg: #2a2412; --success: #8fbf86;
+    --gm-papier: #12110d; --gm-beige: #23211b; --gm-filet: #2f2c25; --gm-or: #c9a35c; --gm-discret: #a59e8d; --gm-encre-2: #c9c2b2;
+    color-scheme: dark;
+  }
+  .gm :is(.guides-proposer-bouton, .guides-qr-fermer, .guides-haut, .guides-ia-form button, .skip-link, .btn, .button.primary,
+    .gm-sous a[aria-current="page"], .guides-onglets a[aria-current="page"], .guides-action:hover, .guides-partiel-ia:hover, .gm-crds-prio[data-niveau="AC"]) { color: #12110d; }
+  .gm .guides-search-form.search-page-form, .gm .gm-filtres select, .gm .guides-select select, .gm-crds a, .gm-sous { background-color: #1a1914; }
+  .gm .guides-favoris { background: #1a1914; }
+  .gm .guides-pdf { border-color: #5a4c1c; }
+  .gm-crds-prio { color: #d4b06a; }
+  .gm-crds-prio[data-niveau="A"], .gm-crds-prio[data-niveau="B"] { background: #2a1b14; color: #e38a69; }
+}

@@ -1,10 +1,10 @@
 /* Morand, accueil : hors ligne pour la page couverture et la page de confidentialité seulement.
-   CRDS Morand (/crds/) aussi. Les autres sections (/wealth/, /guides/, /map/) ne passent pas par ici ; leurs caches ne sont jamais touchés. */
-const CACHE = "morand-accueil-v20";
+   CRDS Morand (/crds/) et Codes Morand (/codes/) aussi. Les autres sections (/wealth/, /guides/, /map/) ne passent pas par ici ; leurs caches ne sont jamais touchés. */
+const CACHE = "morand-accueil-v21";
 const FICHIERS = ["/", "/confidentialite/", "/manifest.webmanifest", "/morand/accueil.css", "/morand/accueil.js", "/morand/demarrage.js", "/morand/ouverture-cadre.svg", "/morand/ouverture-lion.svg", "/morand/ouverture-balance.svg", "/morand/ouverture-cerf.svg", "/morand/ouverture-boussole.svg", "/morand/ouverture-chouette.svg", "/morand/ouverture-cedre.svg", "/morand/inter.woff2",
-  "/morand/newsreader.woff2", "/morand/sceau-wealth.svg", "/morand/sceau-guide.svg", "/morand/sceau-map.svg", "/morand/sceau-crds.svg", "/crds/", "/crds/crds.css", "/crds/crds.js", "/crds/crds_data.json", "/morand/icone.svg", "/morand/favicon-32.png", "/morand/apple-touch-icon.png", "/morand/raccourci-wealth.png", "/morand/raccourci-guide.png", "/morand/raccourci-map.png", "/morand/raccourci-crds.png"];
+  "/morand/newsreader.woff2", "/morand/sceau-wealth.svg", "/morand/sceau-guide.svg", "/morand/sceau-map.svg", "/morand/sceau-crds.svg", "/morand/sceau-codes.svg", "/morand/recherche.js", "/codes/", "/codes/codes.css", "/codes/codes.js", "/codes/codes_data.json", "/crds/", "/crds/crds.css", "/crds/crds.js", "/crds/crds_data.json", "/morand/icone.svg", "/morand/favicon-32.png", "/morand/apple-touch-icon.png", "/morand/raccourci-wealth.png", "/morand/raccourci-guide.png", "/morand/raccourci-map.png", "/morand/raccourci-crds.png", "/morand/raccourci-codes.png"];
 const A_MOI = u => u.origin === self.location.origin && (u.pathname === "/" || u.pathname === "/index.html" || u.pathname === "/manifest.webmanifest"
-  || u.pathname.startsWith("/morand/") || u.pathname.startsWith("/confidentialite/") || u.pathname.startsWith("/crds/"));
+  || u.pathname.startsWith("/morand/") || u.pathname.startsWith("/confidentialite/") || u.pathname.startsWith("/crds/") || u.pathname.startsWith("/codes/"));
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FICHIERS)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys().then(cles => Promise.all(cles.filter(k => k.startsWith("morand-accueil-") && k !== CACHE).map(k => caches.delete(k))))

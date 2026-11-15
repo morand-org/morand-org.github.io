@@ -6,21 +6,21 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Morand : les outils du médecin de famille</title>
-<meta name="description" content="Wealth Morand, Guide Morand, Map Morand et CRDS Morand : rémunération et finances, guides cliniques, carte des cliniques de la Montérégie, critères des demandes au CRDS. Gratuits, sans compte.">
+<meta name="description" content="Wealth, Guide, Map, CRDS et Codes Morand : rémunération et finances, guides cliniques, carte des cliniques de la Montérégie, critères des demandes au CRDS, codes de facturation. Gratuits, sans compte.">
 <link rel="canonical" href="https://www.morand.org/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta property="og:locale" content="fr_CA">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Morand">
 <meta property="og:title" content="Morand : les outils du médecin de famille">
-<meta property="og:description" content="Rémunération et finances, guides cliniques, carte des cliniques de la Montérégie et critères des demandes au CRDS. Gratuits, sans compte.">
+<meta property="og:description" content="Rémunération et finances, guides cliniques, carte des cliniques de la Montérégie, critères des demandes au CRDS et codes de facturation. Gratuits, sans compte.">
 <meta property="og:url" content="https://www.morand.org/">
 <meta property="og:image" content="https://www.morand.org/morand/og-morand.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Morand, médecine familiale">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.morand.org/#site","name":"Morand","url":"https://www.morand.org/","inLanguage":"fr-CA"},{"@type":"WebPage","@id":"https://www.morand.org/#page","url":"https://www.morand.org/","name":"Morand : les outils du médecin de famille","isPartOf":{"@id":"https://www.morand.org/#site"},"inLanguage":"fr-CA","hasPart":[{"@type":"WebApplication","name":"Wealth Morand","url":"https://www.morand.org/wealth/"},{"@type":"CollectionPage","name":"Guide Morand","url":"https://www.morand.org/guides/"},{"@type":"WebPage","name":"Map Morand","url":"https://www.morand.org/map/"},{"@type":"WebPage","name":"CRDS Morand","url":"https://www.morand.org/crds/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.morand.org/#site","name":"Morand","url":"https://www.morand.org/","inLanguage":"fr-CA"},{"@type":"WebPage","@id":"https://www.morand.org/#page","url":"https://www.morand.org/","name":"Morand : les outils du médecin de famille","isPartOf":{"@id":"https://www.morand.org/#site"},"inLanguage":"fr-CA","hasPart":[{"@type":"WebApplication","name":"Wealth Morand","url":"https://www.morand.org/wealth/"},{"@type":"CollectionPage","name":"Guide Morand","url":"https://www.morand.org/guides/"},{"@type":"WebPage","name":"Map Morand","url":"https://www.morand.org/map/"},{"@type":"WebPage","name":"CRDS Morand","url":"https://www.morand.org/crds/"},{"@type":"WebPage","name":"Codes Morand","url":"https://www.morand.org/codes/"}]}]}</script>
 <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -38,13 +38,21 @@
   <p class="rubrique">Médecine familiale</p>
 </header>
 <main>
-  <h1>Quatre outils<br>pour la <em>pratique</em>.</h1>
+  <h1>Cinq outils<br>pour la <em>pratique</em>.</h1>
   <p class="installer-ligne" id="installer-ligne" hidden><button type="button" class="installer" id="installer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></svg>Installer l'app</button></p>
+  <div class="rg" role="search">
+    <label for="rg-q" class="rg-cache">Chercher dans tous les outils de Morand</label>
+    <svg class="rg-loupe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+    <input id="rg-q" type="search" placeholder="Chercher partout : TVP, 15804, diabète…" autocomplete="off" spellcheck="false" enterkeyhint="search">
+  </div>
+  <p class="rg-etat" id="rg-etat" role="status" aria-live="polite" hidden></p>
+  <div class="rg-res" id="rg-res" hidden></div>
   <ol class="outils" id="outils">
     <li><a href="/wealth/"><span class="no">I</span><span class="nom">Wealth <span class="nom-m">Morand</span></span><span class="desc">Rémunération, impôt et patrimoine</span><img src="/morand/sceau-wealth.svg" alt="" width="56" height="56"></a></li>
     <li><a href="/guides/"><span class="no">II</span><span class="nom">Guide <span class="nom-m">Morand</span></span><span class="desc">Guides cliniques et ressources</span><img src="/morand/sceau-guide.svg" alt="" width="56" height="56"></a></li>
     <li><a href="/map/"><span class="no">III</span><span class="nom">Map <span class="nom-m">Morand</span></span><span class="desc">Cliniques de la Montérégie</span><img src="/morand/sceau-map.svg" alt="" width="56" height="56"></a></li>
     <li><a href="/crds/"><span class="no">IV</span><span class="nom">CRDS <span class="nom-m">Morand</span></span><span class="desc">Critères et prérequis des demandes au CRDS</span><img src="/morand/sceau-crds.svg" alt="" width="56" height="56"></a></li>
+    <li><a href="/codes/"><span class="no">V</span><span class="nom">Codes <span class="nom-m">Morand</span></span><span class="desc">Codes d'actes, CNESST et vulnérabilité</span><img src="/morand/sceau-codes.svg" alt="" width="56" height="56"></a></li>
   </ol>
 </main>
 <footer class="pied">
@@ -54,9 +62,10 @@
 <div class="installer-aide" id="installer-aide" role="dialog" aria-labelledby="installer-titre" hidden>
   <p class="installer-titre" id="installer-titre">Installer Morand</p>
   <p id="installer-etapes">Dans Safari, touchez <strong>Partager</strong>, puis <strong>Sur l'écran d'accueil</strong>.</p>
-  <p>Une seule app ouvre Wealth Morand, Guide Morand et Map Morand.</p>
+  <p>Une seule app ouvre les cinq outils de Morand.</p>
   <button type="button" id="installer-fermer">Fermer</button>
 </div>
 <script src="/morand/accueil.js"></script>
+<script src="/morand/recherche.js" defer></script>
 </body>
 </html>
