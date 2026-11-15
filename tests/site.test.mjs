@@ -100,6 +100,14 @@ async function accueil(nav) {
     const r = await p.evaluate(() => ({ outils: [...document.querySelectorAll("#outils a")].map(a => a.getAttribute("href")), bas: document.querySelector(".pied").getBoundingClientRect().bottom, titre: document.querySelector("h1").textContent }));
     verifier(`accueil ${largeur}×${hauteur} : cinq outils`, r.outils.join() === "/wealth/,/guides/,/map/,/crds/,/codes/", r.outils);
     verifier(`accueil ${largeur}×${hauteur} : tout tient dans l'écran`, r.bas <= hauteur + 1, Math.round(r.bas));
+    // La barre de recherche : un bouton « Chercher » dans le champ, et l'exemple tient en entier à côté du bouton.
+    const b = await p.evaluate(() => { const i = document.getElementById("rg-q"), bt = document.querySelector(".rg-bouton"), ri = i.getBoundingClientRect(), rb = bt.getBoundingClientRect();
+      const cs = getComputedStyle(i), ps = getComputedStyle(i, "::placeholder"), c = document.createElement("canvas").getContext("2d"); c.font = `${ps.fontWeight} ${ps.fontSize} Inter`;
+      return { texte: bt.textContent, dedans: rb.left > ri.left && rb.right <= ri.right && rb.top >= ri.top && rb.bottom <= ri.bottom, haut: rb.height,
+        place: i.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight), exemple: Math.ceil(c.measureText(i.placeholder).width), titre: document.querySelector("h1").getBoundingClientRect().top, tete: document.querySelector(".tete").getBoundingClientRect().bottom }; });
+    verifier(`accueil ${largeur}×${hauteur} : bouton « Chercher » dans le champ`, b.texte === "Chercher" && b.dedans && b.haut >= 34, b);
+    verifier(`accueil ${largeur}×${hauteur} : l'exemple de recherche n'est pas coupé`, b.exemple <= b.place, b);
+    verifier(`accueil ${largeur}×${hauteur} : le titre ne passe pas sous l'en-tête`, b.titre >= b.tete, b);
     await ctx.close();
   }
   const { ctx, p, erreurs } = await ouvrir(nav, "/");
@@ -112,6 +120,12 @@ async function accueil(nav) {
   verifier("recherche de l'accueil : un code d'acte mène à Codes Morand", code.groupes.join() === "Codes" && code.liens[0] === "/codes/?q=15804", code);
   const rien = await chercher("zzzzq");
   verifier("recherche de l'accueil : aucun résultat, c'est dit", rien.groupes.length === 0 && rien.etat.startsWith("Aucun résultat"), rien.etat);
+  // Le bouton « Chercher » lance la recherche ; champ vide, il place le curseur dans le champ.
+  await p.fill("#rg-q", "syncope"); await p.click(".rg-bouton"); await p.waitForTimeout(900);
+  const bouton = await p.evaluate(() => ({ groupes: document.querySelectorAll(".rg-groupe").length, url: location.pathname + location.search }));
+  verifier("recherche de l'accueil : le bouton « Chercher » lance la recherche, sans quitter la page", bouton.groupes > 0 && bouton.url === "/", bouton);
+  await p.fill("#rg-q", ""); await p.waitForTimeout(250); await p.click(".rg-bouton");
+  verifier("recherche de l'accueil : bouton sur un champ vide, le curseur va dans le champ", await p.evaluate(() => document.activeElement.id === "rg-q"));
   const vide = await chercher("");
   verifier("recherche de l'accueil : champ vidé, les outils reviennent", vide.outils && vide.groupes.length === 0);
   verifier("recherche de l'accueil : aucune erreur", erreurs.length === 0, erreurs);

@@ -58,6 +58,18 @@
   const lancer = () => charger().then(rendre).catch(() => { index = null; etat.textContent = "La recherche n'a pas pu charger ses données. Vérifiez la connexion."; etat.hidden = false; });
   q.addEventListener("focus", () => { charger().catch(() => { index = null; }); }, { once: true });
   q.addEventListener("input", () => { clearTimeout(minuterie); if (!q.value.trim()) return fermer(); minuterie = setTimeout(lancer, 60); });
+  // Le bouton « Chercher » (ou Entrée) : lance la recherche tout de suite ; sur téléphone, range le clavier pour montrer
+  // les résultats. Champ vide : le curseur va dans le champ.
+  const form = document.getElementById("rg"), telephone = matchMedia("(max-width: 719px)");
+  if (form) form.addEventListener("submit", e => {
+    e.preventDefault(); clearTimeout(minuterie);
+    if (!q.value.trim()) { q.focus(); return; }
+    lancer(); if (telephone.matches) q.blur();
+  });
+  // Sur téléphone, l'exemple est plus court, pour laisser la place au bouton.
+  const etroit = matchMedia("(max-width: 384px)"), long = q.placeholder, court = q.dataset.court || long, tresCourt = q.dataset.tresCourt || court;
+  const exemple = () => { q.placeholder = etroit.matches ? tresCourt : telephone.matches ? court : long; };
+  exemple(); telephone.addEventListener("change", exemple); etroit.addEventListener("change", exemple);
   addEventListener("keydown", e => {
     if (e.key === "Escape" && document.activeElement === q && q.value) { q.value = ""; fermer(); }
     if (e.key === "/" && document.activeElement !== q && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) { e.preventDefault(); q.focus(); }

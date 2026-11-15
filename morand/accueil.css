@@ -45,12 +45,26 @@ h1 em { color: var(--or); }
 /* Recherche dans tous les outils : sous le titre. Les résultats prennent la place de la liste des outils. */
 .rg { position: relative; margin: -14px 0 26px; }
 .rg-cache { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-.rg input { width: 100%; min-height: 50px; padding: 0 18px 0 46px; border: 1px solid var(--filet); border-radius: 999px; background: var(--champ); color: var(--encre);
-  font: 400 1rem/1 var(--police); -webkit-appearance: none; appearance: none; }
+/* Carte flottante, avec un bouton « Chercher » à droite. */
+.rg { --rg-haut: 54px; --rg-coin: 14px; --rg-marge: 5px; }
+.rg input { width: 100%; min-height: var(--rg-haut); padding: 0 98px 0 42px; border: 1px solid transparent; border-radius: var(--rg-coin); background: var(--champ); color: var(--encre);
+  font: 400 16px/1.2 var(--police); -webkit-appearance: none; appearance: none; text-overflow: ellipsis;
+  box-shadow: 0 1px 2px rgba(23, 22, 15, 0.06), 0 10px 28px rgba(23, 22, 15, 0.09); }
 .rg input::placeholder { color: var(--discret); opacity: 1; }
-.rg input:focus { outline: none; border-color: var(--or); box-shadow: 0 0 0 3px color-mix(in srgb, var(--or) 20%, transparent); }
+/* Téléphone : l'exemple un peu plus petit, pour tenir à côté du bouton (le champ garde 16 px : pas de zoom sur iPhone). */
+@media (max-width: 719px) { .rg input::placeholder { font-size: 15px; } }
+@media (max-width: 359px) { .rg input { padding-left: 39px; } .rg-loupe { left: 12px; } }
+.rg input:focus { outline: none; border-color: var(--or); box-shadow: 0 0 0 3px color-mix(in srgb, var(--or) 18%, transparent), 0 10px 28px rgba(23, 22, 15, 0.09); }
 .rg input::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
-.rg-loupe { position: absolute; left: 17px; top: 50%; width: 19px; height: 19px; transform: translateY(-50%); fill: none; stroke: var(--or); stroke-width: 2; stroke-linecap: round; pointer-events: none; }
+.rg-loupe { position: absolute; left: 14px; top: 50%; width: 20px; height: 20px; transform: translateY(-50%); fill: none; stroke: var(--or); stroke-width: 2; stroke-linecap: round; pointer-events: none; }
+.rg-bouton { position: absolute; top: var(--rg-marge); right: var(--rg-marge); bottom: var(--rg-marge); padding: 0 14px; border: 0; border-radius: calc(var(--rg-coin) - var(--rg-marge));
+  background: var(--encre); color: var(--papier); font: 600 14px/1 var(--police); letter-spacing: 0.01em; cursor: pointer; transition: background 0.15s; }
+@media (hover: hover) { .rg-bouton:hover { background: var(--or); } }
+.rg-bouton:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+@media (prefers-color-scheme: dark) {
+  .rg input { border-color: var(--filet); box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35); }
+  .rg input:focus { box-shadow: 0 0 0 3px color-mix(in srgb, var(--or) 25%, transparent), 0 10px 28px rgba(0, 0, 0, 0.35); }
+}
 .rg-etat { margin: -12px 0 16px; font: 500 10px/1.4 var(--police); letter-spacing: 0.2em; text-transform: uppercase; color: var(--discret); }
 .rg-res { margin: 0 0 18px; }
 .rg-groupe { margin: 0 0 18px; }
@@ -113,7 +127,7 @@ h1 em { color: var(--or); }
   main:not(.texte) { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 32px; align-content: start; }
   main:not(.texte) > h1 { grid-column: 1; grid-row: 1; }
   main > .outils, main > .rg, main > .rg-etat, main > .rg-res { grid-column: 1 / -1; }
-  .rg { margin: 0 0 clamp(14px, 2.6vh, 28px); max-width: 760px; }
+  .rg { margin: 0 0 clamp(14px, 2.6vh, 28px); max-width: 1000px; --rg-haut: clamp(54px, 7.4vh, 70px); --rg-coin: 18px; --rg-marge: 7px; }
   .rg-etat { margin: -6px 0 16px; }
   .rg-res { columns: 2; column-gap: 48px; }
   .rg-groupe { break-inside: avoid; }
@@ -125,7 +139,9 @@ h1 em { color: var(--or); }
   .nom { font-size: clamp(1.75rem, 3.6vh, 2.55rem); }
   .desc { margin-top: clamp(3px, 0.8vh, 10px); font-size: clamp(0.95rem, 1.85vh, 1.1rem); }
   .outils img { width: clamp(52px, 8.1vh, 114px); height: clamp(52px, 8.1vh, 114px); }
-  .rg input { min-height: clamp(48px, 6.2vh, 58px); font-size: 1.02rem; }
+  .rg input { padding: 0 150px 0 60px; font-size: clamp(1.02rem, 2.1vh, 1.18rem); }
+  .rg-loupe { left: 22px; width: clamp(22px, 2.8vh, 26px); height: clamp(22px, 2.8vh, 26px); }
+  .rg-bouton { padding: 0 28px; font-size: clamp(0.95rem, 1.8vh, 1.02rem); }
   .pied { padding-top: clamp(8px, 1.8vh, 28px); font-size: 11px; }
 }
 
@@ -139,7 +155,7 @@ h1 em { color: var(--or); }
   .accueil .installer-ligne { margin: calc(-1 * clamp(12px, 2.6dvh, 24px) + clamp(6px, 1.2dvh, 12px)) 0 clamp(10px, 2dvh, 18px); }
   .accueil .installer { min-height: 40px; }
   .accueil .rg { margin: 0 0 clamp(10px, 2.2dvh, 20px); }
-  .accueil .rg input { min-height: clamp(44px, 6dvh, 50px); }
+  .accueil .rg { --rg-haut: clamp(46px, 6.4dvh, 54px); }
   .accueil .rg-etat { margin: -4px 0 14px; }
   .accueil .outils a { padding: clamp(7px, 1.55dvh, 15px) 0; grid-template-columns: 30px 1fr clamp(42px, 6.9dvh, 62px); }
   .accueil .outils img { width: clamp(42px, 6.9dvh, 62px); height: clamp(42px, 6.9dvh, 62px); }
@@ -147,6 +163,8 @@ h1 em { color: var(--or); }
   .accueil .desc { margin-top: clamp(2px, 0.6dvh, 6px); font-size: clamp(0.7rem, 1.6dvh, 0.78rem); }
   .accueil .pied { padding-top: clamp(6px, 1.5dvh, 16px); }
   .accueil .pied a { padding: clamp(8px, 1.5dvh, 14px) 0; }
+  /* Écran bas (iPhone SE) : un peu moins d'air, pour que le titre ne remonte pas sous l'en-tête. */
+  @media (max-height: 600px) { .accueil .installer { min-height: 36px; } .accueil .outils a { padding: 5px 0; } }
   /* Pendant une recherche : la page redevient une page ordinaire, qui défile. */
   html.accueil.cherche, .accueil.cherche body { height: auto; overflow: visible; }
   .accueil.cherche body { min-height: 100dvh; }
