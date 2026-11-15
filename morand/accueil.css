@@ -121,8 +121,8 @@ h1 em { color: var(--or); }
   .marque { font-size: 17px; }
   .rubrique { font-size: 11.5px; }
   /* Équilibré : environ 10 % plus grand que la première version, dans les mêmes proportions. */
-  main { --taille-titre: clamp(2.4rem, min(4.6vw, 6.6vh), 4.3rem); --marge-titre: clamp(14px, 3vh, 40px); }
-  h1 { margin: clamp(8px, 2.6vh, 56px) 0 var(--marge-titre); font-size: var(--taille-titre); }
+  main { --taille-titre: clamp(2.4rem, min(4.6vw, 6.6vh), 4.3rem); --marge-titre: clamp(14px, 3vh, 40px); --haut-titre: clamp(8px, 2.6vh, 56px); }
+  h1 { margin: var(--haut-titre) 0 var(--marge-titre); font-size: var(--taille-titre); }
   /* La grille ne sert qu'à l'accueil : les pages de texte (confidentialité) restent en une colonne. */
   main:not(.texte) { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 32px; align-content: start; }
   main:not(.texte) > h1 { grid-column: 1; grid-row: 1; }
@@ -131,8 +131,8 @@ h1 em { color: var(--or); }
   .rg-etat { margin: -6px 0 16px; }
   .rg-res { columns: 2; column-gap: 48px; }
   .rg-groupe { break-inside: avoid; }
-  /* Le bouton centré sur la dernière ligne du titre (« pour la pratique. »), aligné à droite sur le filet. */
-  .installer-ligne { grid-column: 2; grid-row: 1; align-self: end; margin: 0 0 calc(var(--marge-titre) + (var(--taille-titre) * 1.04 - 44px) / 2); }
+  /* Le bouton centré sur la première ligne du titre (« Cinq outils »), aligné à droite sur le filet et la rubrique. */
+  .installer-ligne { grid-column: 2; grid-row: 1; align-self: start; margin: calc(var(--haut-titre) + (var(--taille-titre) * 1.04 - 44px) / 2) 0 0; }
   /* Cinq outils : sceaux et rangées réglés sur la hauteur, pour que tout tienne sans défiler. */
   .outils a { grid-template-columns: 64px minmax(0, 1fr) clamp(52px, 8.1vh, 114px); column-gap: 32px; padding: clamp(4px, 1.15vh, 18px) 0; }
   .no { font-size: 22px; }

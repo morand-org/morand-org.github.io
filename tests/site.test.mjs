@@ -108,6 +108,14 @@ async function accueil(nav) {
     verifier(`accueil ${largeur}×${hauteur} : bouton « Chercher » dans le champ`, b.texte === "Chercher" && b.dedans && b.haut >= 34, b);
     verifier(`accueil ${largeur}×${hauteur} : l'exemple de recherche n'est pas coupé`, b.exemple <= b.place, b);
     verifier(`accueil ${largeur}×${hauteur} : le titre ne passe pas sous l'en-tête`, b.titre >= b.tete, b);
+    // Ordinateur : « Installer l'app » centré sur la première ligne du titre, aligné à droite sur le filet de l'en-tête.
+    if (largeur >= 1000) {
+      const i = await p.evaluate(() => { document.getElementById("installer-ligne").hidden = false;
+        const bt = document.getElementById("installer").getBoundingClientRect(), h1 = document.querySelector("h1"), rg = document.createRange();
+        rg.setStart(h1.firstChild, 0); rg.setEnd(h1.firstChild, h1.firstChild.length); const l1 = rg.getBoundingClientRect(), f = document.querySelector(".tete").getBoundingClientRect();
+        return { ecart: Math.abs((bt.top + bt.bottom) / 2 - (l1.top + l1.bottom) / 2), droite: Math.abs(bt.right - f.right), bas: document.querySelector(".pied").getBoundingClientRect().bottom }; });
+      verifier(`accueil ${largeur}×${hauteur} : « Installer l'app » centré sur « Cinq outils », aligné à droite`, i.ecart <= 2 && i.droite <= 1 && i.bas <= hauteur + 1, i);
+    }
     await ctx.close();
   }
   const { ctx, p, erreurs } = await ouvrir(nav, "/");
