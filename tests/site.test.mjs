@@ -148,6 +148,24 @@ async function crds(nav) {
   verifier("CRDS : les favoris survivent au rechargement", e.onglets.includes("Favoris (1)"), e.onglets);
   await p.goto(BASE + "/crds/?q=cardiologie"); await p.waitForTimeout(700); e = await etat();
   verifier("CRDS : un lien avec ?q= lance la recherche", e.cartes > 3, e.etat);
+  // Allégé : un seul titre de spécialité, en tête de ses fiches ; ni surtitre ni pied répétés sur chaque fiche.
+  const groupes = () => p.evaluate(() => ({ entetes: [...document.querySelectorAll(".cr-groupe h2")].map(h => h.textContent),
+    sur: document.querySelectorAll(".cr-carte:not(.cr-carte-ac) .cr-sur").length, pieds: [...document.querySelectorAll(".cr-carte:not(.cr-carte-ac) .cr-source")].filter(x => /Formulaire du MSSS/.test(x.textContent)).length,
+    sources: [...document.querySelectorAll(".cr-groupe-source")].map(x => x.textContent) }));
+  await p.fill("#cr-q", "Ophtalmologie adulte et enfant"); await p.waitForTimeout(300);
+  let g = await groupes();
+  verifier("CRDS : une spécialité, un seul titre avec son formulaire ; rien de répété sur les fiches", g.entetes.join() === "Ophtalmologie adulte et enfant" && g.sur === 0 && g.pieds === 0 && /^AH-745 · rév\. .+ · Formulaire du MSSS$/.test(g.sources[0]), g);
+  await p.fill("#cr-q", "douleur"); await p.waitForTimeout(300); g = await groupes();
+  verifier("CRDS : plusieurs spécialités, une en-tête chacune, avec son nombre de raisons", g.entetes.length > 1 && new Set(g.entetes).size === g.entetes.length && g.sur === 0 && g.pieds === 0 && g.sources.every(x => /^\d+ raisons? · AH-\d+/.test(x)), g);
+  // Fiche de l'accueil clinique : notes techniques retirées ; contre-indications générales et sources repliées.
+  await p.fill("#cr-q", "Thrombophlébite profonde (TPP)"); await p.waitForTimeout(300);
+  const f = await p.evaluate(() => { const c = document.querySelector(".cr-carte-ac"); const t = c.textContent;
+    return { ecarts: /Écarts relevés/.test(t), omises: /coupées? après le signe/.test(t), gen: !!c.querySelector("details.cr-ci-repli:not([open]) .cr-ci-gen"),
+      src: !!c.querySelector("details.cr-sources-ac:not([open]) .cr-source"), srcVisible: [...c.querySelectorAll(".cr-source")].some(x => x.checkVisibility()) }; });
+  verifier("Accueil clinique : ni « Écarts relevés » ni lignes omises ; générales et sources repliées", !f.ecarts && !f.omises && f.gen && f.src && !f.srcVisible, f);
+  await p.fill("#cr-q", ""); await p.click('.cr-vue[data-v="accueil"]'); await p.waitForTimeout(200);
+  verifier("Accueil clinique : la définition tient en une ligne", (await p.textContent(".cr-ac-panneau > .cr-ac-texte")) === "Prise en charge en 24 à 72 h, selon un protocole.");
+  verifier("CRDS : plus de phrase sous le titre ; « Sources et limites » sans la liste des 26 formulaires", await p.evaluate(() => !document.querySelector(".cr-intro .cr-lead") && !document.getElementById("cr-formulaires") && /DMÉ ou de SAFIR/.test(document.querySelector(".cr-sources").textContent)));
   verifier("CRDS : aucune erreur", erreurs.length === 0, erreurs);
   await ctx.close();
   // Données : rien de coupé hors des notes d'écarts, aucun nom retiré, des sources partout.
@@ -226,6 +244,7 @@ async function guide(nav) {
   verifier("Guide : « SDRC » trouve l'article ajouté du Médecin du Québec", titres.some(t => /à l’aide docteur/.test(t)), titres);
   await p.fill('input[type="search"]', "TVP"); await p.waitForTimeout(900);
   verifier("Guide : les fiches du CRDS suivent les résultats des guides", (await p.locator("#gm-crds li").count()) > 0);
+  verifier("Guide : les pastilles de sujets ne s'affichent plus (la liste des sujets suffit)", await p.evaluate(() => { const n = document.querySelector(".guides-pastilles"); return !n || getComputedStyle(n).display === "none"; }));
   verifier("Guide : aucune erreur", erreurs.length === 0, erreurs);
   await ctx.close();
   const d = JSON.parse(lire("guides/donnees.json")), page = lire("guides/index.html");

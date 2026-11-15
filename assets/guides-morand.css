@@ -83,6 +83,9 @@ body.gm {
 .gm .guides-recents-meta { color: var(--gm-or); opacity: 1; font-size: .85rem; }
 .gm .guides-catalogue-titre { padding-top: 40px; text-align: center; font: 500 10.5px/1 "Inter", system-ui, sans-serif; letter-spacing: .24em; text-transform: uppercase; color: var(--gm-discret); }
 .gm .guides-pastilles { justify-content: center; padding-top: 14px; padding-bottom: 22px; }
+/* Allégé : les pastilles de sujets doublaient la liste des sujets juste en dessous. Le titre reste pour les lecteurs d'écran. */
+.gm .guides-pastilles { display: none; }
+.gm .guides-catalogue-titre { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .gm .guides-pastille { min-height: 34px; padding: .3rem .85rem; border: 0; background: var(--gm-beige); color: var(--gm-encre-2); font-size: 13px; font-weight: 500; }
 .gm .guides-pastille:hover { background: #e8dfcb; color: var(--navy); }
 .gm .guides-category { border-top: 1px solid var(--gm-filet); }

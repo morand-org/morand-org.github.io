@@ -67,6 +67,12 @@ main { flex: 1 0 auto; }
 /* Résultats : des cartes épurées, en grille sur grand écran. */
 .cr-resultats { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 18px; }
 .cr-groupe { grid-column: 1 / -1; margin: 18px 0 0; padding-bottom: 8px; border-bottom: 1px solid var(--filet); font: 400 1.3rem/1.2 var(--serif); }
+.cr-groupe h2 { margin: 0; font: inherit; }
+.cr-groupe-source { margin: 6px 0 0; font: 500 10.5px/1.4 var(--sans); letter-spacing: 0.06em; color: var(--discret); }
+.cr-groupe-source a { color: var(--or-texte); text-underline-offset: 2px; }
+.cr-ci-repli, .cr-sources-ac { margin: 4px 0 0; }
+.cr-ci-repli > summary, .cr-sources-ac > summary { min-height: 40px; font: 600 0.8rem/1.3 var(--sans); color: var(--discret); }
+.cr-sources-ac { margin-top: auto; }
 .cr-groupe small { font: 500 10px/1 var(--sans); letter-spacing: 0.2em; text-transform: uppercase; color: var(--or-texte); margin-left: 10px; }
 .cr-carte { background: var(--carte); border: 1px solid var(--filet); border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 12px; }
 .cr-carte-tete { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: start; }

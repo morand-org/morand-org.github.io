@@ -81,11 +81,12 @@
     return mots.reduce((s, m) => s + (titre.includes(m) ? 3 : 0) + (syn.includes(m) ? 3 : syn.some(x => x.includes(m)) ? 1 : 0), 0);
   }
 
-  function carte(p, mots) {
+  // « groupe » : la carte suit l'en-tête de sa spécialité (nom, formulaire, révision), qui n'est donc pas répété.
+  function carte(p, mots, groupe) {
     const f = D.formulaires.find(x => x.id === p.formulaire);
     const c = el("article", "cr-carte"); c.id = p.id;
     const tete = el("div", "cr-carte-tete"), gauche = el("div");
-    const sur = el("p", "cr-sur"); surligner(sur, `${p.specialite} · ${p.categorie}`, mots); gauche.appendChild(sur);
+    if (!groupe) gauche.appendChild(el("p", "cr-sur", p.specialite));
     const h = el("h3"); surligner(h, p.probleme, mots); gauche.appendChild(h);
     if ([...(p.orientation || []), ...(p.exclusions_urgence || [])].some(x => /accueil clinique/i.test(x)))
       gauche.appendChild(el("p", "cr-ac-pastille", "Accueil clinique d'abord, si disponible"));
@@ -126,11 +127,19 @@
     const notes = [...(p.orientation || []), ...(p.exclusions_urgence || [])];
     if (notes.length) { const o = el("div", "cr-orientation"); notes.forEach(n => o.appendChild(el("p", null, n))); c.appendChild(o); }
 
-    const src = el("p", "cr-source");
-    src.append(document.createTextNode(`${f.id} · rév. ${f.revision}${p.libelle_formulaire ? ` · au formulaire : « ${p.libelle_formulaire} »` : ""} · `));
-    const a = el("a", null, "Formulaire du MSSS"); a.href = f.url; a.rel = "noopener"; src.appendChild(a);
-    c.appendChild(src);
+    if (p.libelle_formulaire) c.appendChild(el("p", "cr-source", `Au formulaire : « ${p.libelle_formulaire} »`));
+    if (!groupe) c.appendChild(sourceFormulaire(f));
     return c;
+  }
+  // « AH-745 · rév. 2018-06 · Formulaire du MSSS » : une fois par spécialité.
+  function sourceFormulaire(f, cls) {
+    const src = el("p", cls || "cr-source"); src.appendChild(document.createTextNode(`${f.id} · rév. ${f.revision} · `));
+    const a = el("a", null, "Formulaire du MSSS"); a.href = f.url; a.rel = "noopener"; src.appendChild(a); return src;
+  }
+  function enteteSpecialite(f, n) {
+    const h = el("div", "cr-groupe"); h.appendChild(el("h2", null, f.specialite));
+    h.appendChild(sourceFormulaire(f, "cr-groupe-source")); if (n) h.lastChild.prepend(document.createTextNode(`${n} raison${n > 1 ? "s" : ""} · `));
+    return h;
   }
 
   // Sans recherche : la liste des spécialités (un toucher filtre la spécialité).
@@ -191,8 +200,10 @@
 
     const c = el("div", "cr-bloc cr-ci"), hc = el("h4"); hc.append(icone("i-alerte i-petit", ALERTE), document.createTextNode("Contre-indications : diriger à l'urgence"));
     c.append(hc, liste("cr-criteres", ci.specifiques));
-    c.append(el("p", "cr-ci-sous", `Générales, selon ${ci.generales_selon}`), liste("cr-criteres cr-ci-gen", ci.generales));
-    if (ci.selon_ordonnance) c.append(el("p", "cr-ci-sous", `Selon l'ordonnance ${p.ordonnance.numero.split(" ")[0]}`), liste("cr-criteres cr-ci-gen", ci.selon_ordonnance));
+    const gen = repli("Contre-indications générales : signes vitaux, glycémie", "cr-region cr-ci-repli");
+    gen.appendChild(liste("cr-criteres cr-ci-gen", ci.generales));
+    if (ci.selon_ordonnance) gen.append(el("p", "cr-ci-sous", `Selon l'ordonnance ${p.ordonnance.numero.split(" ")[0]}`), liste("cr-criteres cr-ci-gen", ci.selon_ordonnance));
+    c.appendChild(gen);
     k.appendChild(c);
     const notes = [...p.urgence, ...p.a_noter];
     if (notes.length) { const o = el("div", "cr-orientation"); notes.forEach(n => o.appendChild(el("p", null, n))); k.appendChild(o); }
@@ -207,18 +218,16 @@
     const t = repli("Tout le protocole", "cr-region cr-protocole");
     const section = (titre, lignes, note) => { if (!lignes.length && !note) return; t.appendChild(el("h4", null, titre)); if (lignes.length) t.appendChild(liste(null, lignes)); if (note) t.appendChild(el("p", "cr-petit", note)); };
     section(`Ce que fait l'accueil clinique, selon l'ordonnance ${p.ordonnance.numero.split(" ")[0]}`, d.algorithme_ordonnance, d.algorithme_note);
-    section("Ce que fait l'accueil clinique, selon le portail", d.algorithme_portail,
-      d.algorithme_portail.length && d.lignes_omises ? `${d.lignes_omises} ligne${d.lignes_omises > 1 ? "s" : ""} du portail, coupée${d.lignes_omises > 1 ? "s" : ""} après le signe « < », ${d.lignes_omises > 1 ? "ne sont pas reproduites" : "n'est pas reproduite"} : cette liste est incomplète.` : "");
+    section("Ce que fait l'accueil clinique, selon le portail", d.algorithme_portail);
     section("Scores à remplir sur l'ordonnance", d.scores);
     section("Ordonnance pour la pharmacie communautaire", d.pharmacie);
     section("Annexes", d.annexes);
-    section("Écarts relevés entre le portail et l'ordonnance", d.ecarts);
     k.appendChild(t);
 
-    const src = el("p", "cr-source");
+    const so = repli("Sources", "cr-region cr-sources-ac"), src = el("p", "cr-source");
     src.append(document.createTextNode(`Portail de l'accueil clinique, page mise à jour le ${p.mise_a_jour} · ordonnance ${p.ordonnance.numero}, ${p.ordonnance.version} · relevé le ${PB.releve_le} · © CSSS Pierre-Boucher · `),
       lienPortail("Protocole", p.page), document.createTextNode(" · "), lienPortail("Ordonnance", p.ordonnance.url), document.createTextNode(" (connexion requise)"));
-    k.appendChild(src);
+    so.appendChild(src); k.appendChild(so);
     return k;
   }
   // Panneau : les protocoles de Pierre-Boucher et la marche à suivre pour référer.
@@ -238,7 +247,7 @@
   function panneauAccueil() {
     const A = D.accueil_clinique, s = el("section", "cr-ac-panneau"); s.setAttribute("aria-labelledby", "cr-ac-titre");
     const h = el("h2", null, "Accueil clinique"); h.id = "cr-ac-titre"; s.appendChild(h);
-    s.appendChild(el("p", "cr-ac-texte", A.definition));
+    s.appendChild(el("p", "cr-ac-texte", "Prise en charge en 24 à 72 h, selon un protocole."));
     if (A.pierre_boucher) panneauPB(s);
     zone.appendChild(s);
   }
@@ -289,7 +298,12 @@
     const acRestant = ac.filter(c => !pb.some(p => p.msss && c.nom.startsWith(p.msss)));
     pb.forEach(p => zone.appendChild(cartePB(p)));
     acRestant.forEach(c => zone.appendChild(carteAccueil(c, mots)));
-    resultats.forEach(e => zone.appendChild(carte(e.p, mots)));
+    const ordre = [...new Set(resultats.map(e => e.p.formulaire))];
+    ordre.forEach(id => {
+      const f = D.formulaires.find(x => x.id === id), l = resultats.filter(e => e.p.formulaire === id);
+      zone.appendChild(enteteSpecialite(f, ordre.length > 1 ? l.length : 0));
+      l.forEach(e => zone.appendChild(carte(e.p, mots, true)));
+    });
     const nAc = pb.length + acRestant.length;
     vide.hidden = resultats.length + nAc > 0;
     const n = resultats.length;
@@ -299,12 +313,6 @@
   }
 
   function sources() {
-    const z = $("cr-formulaires");
-    D.formulaires.forEach(f => {
-      const p = el("p", "cr-form"); const a = el("a", null, `${f.id} (${f.code_barre}), ${f.specialite}`); a.href = f.url; a.rel = "noopener";
-      p.append(a, document.createTextNode(`, révision ${f.revision}, ${f.organisme}. Vérifié le ${f.verifie_le}. ${f.statut}`)); z.appendChild(p);
-    });
-    $("cr-formulaires-titre").textContent = `Les ${D.formulaires.length} formulaires transcrits (numéro, révision, statut)`;
     D.region.consignes.forEach(x => $("cr-consignes").appendChild(el("li", null, x)));
     $("cr-a-venir").textContent = D.a_venir; $("cr-a-venir").hidden = !D.a_venir;
   }
