@@ -62,8 +62,11 @@ node outils/construire-codes.mjs ../wealth
 
 Le texte est recopié sans reformulation. La construction s'arrête si un tarif en établissement du manuel diffère de
 celui de Wealth. Les forfaits et suppléments de la Brochure no 1 prennent leur montant en cabinet dans le moteur de
-Wealth (`MONTANTS_LIEU`). Un tarif en cabinet introuvable reste « à confirmer ». Les réglages de la page (lieu, mode,
-palier) restent dans le stockage de l'appareil (`morand.codes.reglages`).
+Wealth (`MONTANTS_LIEU`). Un tarif en cabinet introuvable reste « à confirmer ». Les réglages de la page (mode : à
+l'acte, en cabinet ; mixte ou horaire, en établissement ; palier de 500 inscrits) restent dans le stockage de l'appareil
+(`morand.codes.reglages`). Au taux horaire, `h` vaut le montant payé en plus des heures (EP 40 : forfait de
+responsabilité et suppléments d'examen ; forfaits payés dans tous les modes ; CNESST), « compris » pour les visites et
+les interventions, ou null (à confirmer) : mêmes règles que le moteur de Wealth.
 
 Wealth n'affiche plus ces codes : son en-tête mène ici. L'affichage (montants, part au mixte, « Compris », code 14
 fermé, source et limite des codes de vulnérabilité) se vérifie donc dans le scénario `codes` de `tests/site.test.mjs`.

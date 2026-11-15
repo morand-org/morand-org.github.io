@@ -117,6 +117,10 @@
    "cab": [
     55.35,
     66.45
+   ],
+   "h": [
+    41.45,
+    49.85
    ]
   },
   {
@@ -136,6 +140,7 @@
     42.85,
     49.15
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107847"
@@ -171,6 +176,7 @@
     53.5,
     59.8
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107847"
@@ -206,6 +212,7 @@
     20.4,
     23.55
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107848"
@@ -233,6 +240,7 @@
     40.8,
     47.05
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15780"
@@ -257,6 +265,7 @@
     96.35,
     112.4
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107846"
@@ -285,6 +294,7 @@
     51.4,
     57.65
    ],
+   "h": "compris",
    "m": {
     "ancre": "268351"
    }
@@ -306,6 +316,7 @@
     31,
     34.15
    ],
+   "h": "compris",
    "m": {
     "ancre": "268348"
    }
@@ -327,6 +338,7 @@
     85.75,
     99.4
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107845"
@@ -359,6 +371,7 @@
     96.35,
     110
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107845"
@@ -391,6 +404,7 @@
     61.3,
     68.85
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107847"
@@ -426,6 +440,7 @@
     50.65,
     58.25
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107847"
@@ -461,6 +476,7 @@
     66.9,
     75.85
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107856"
@@ -492,6 +508,7 @@
     50.2,
     57
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107855"
@@ -520,6 +537,7 @@
     112.4,
     129.15
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107846"
@@ -548,6 +566,7 @@
     112.4,
     129.15
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107845"
@@ -580,6 +599,7 @@
     101.8,
     118.5
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107845"
@@ -612,6 +632,7 @@
     77.55,
     86.45
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107856"
@@ -643,6 +664,7 @@
     60.8,
     67.6
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107855"
@@ -671,6 +693,7 @@
     132.8,
     151.15
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15807",
@@ -704,6 +727,7 @@
     85.75,
     97.75
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15805",
@@ -737,6 +761,7 @@
     85.75,
     97.75
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15805",
@@ -770,6 +795,7 @@
     143.4,
     161.75
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15805",
@@ -803,6 +829,7 @@
     96.35,
     108.4
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15805",
@@ -836,6 +863,7 @@
     96.35,
     108.4
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15805",
@@ -869,6 +897,7 @@
     24.25,
     28.05
    ],
+   "h": "compris",
    "m": {
     "ancre": "268356"
    }
@@ -890,6 +919,7 @@
     48.5,
     56.05
    ],
+   "h": "compris",
    "m": {
     "ancre": "268362"
    }
@@ -911,6 +941,7 @@
     34.9,
     38.65
    ],
+   "h": "compris",
    "m": {
     "sec": [
      "107848"
@@ -938,6 +969,7 @@
     59.1,
     66.65
    ],
+   "h": "compris",
    "m": {
     "lies": [
      "15773"
@@ -955,6 +987,7 @@
    "p": 63.58,
    "k": "psychiatrie",
    "cab": null,
+   "h": "compris",
    "m": {
     "sec": [
      "107851"
@@ -972,6 +1005,7 @@
    "p": 63.58,
    "k": "psychiatrie",
    "cab": 99.4,
+   "h": "compris",
    "m": {
     "sec": [
      "107850"
@@ -989,6 +1023,7 @@
    "p": 63.58,
    "k": "opinion consultation",
    "cab": 40.6,
+   "h": "compris",
    "m": {
     "sec": [
      "107852"
@@ -1006,6 +1041,7 @@
    "p": 63.58,
    "k": "opinion consultation",
    "cab": 63,
+   "h": "compris",
    "m": {
     "sec": [
      "107853"
@@ -1034,6 +1070,7 @@
     133.25,
     102.55
    ],
+   "h": "compris",
    "m": {
     "lib": {
      "15781": "Premier patient",
@@ -1077,6 +1114,7 @@
     143.85,
     113.15
    ],
+   "h": "compris",
    "m": {
     "lib": {
      "15783": "Premier patient",
@@ -1109,6 +1147,7 @@
    "p": 62.15,
    "k": "counseling therapie",
    "cab": 59.7,
+   "h": "compris",
    "m": {
     "lib": {
      "08857": "Intervention clinique individuelle première période de trente (30) minutes"
@@ -1137,6 +1176,7 @@
    "p": 62.15,
    "k": "counseling therapie",
    "cab": 29.85,
+   "h": "compris",
    "m": {
     "lib": {
      "08859": "Intervention clinique individuelle, période supplémentaire de quinze (15) minutes"
@@ -1160,6 +1200,7 @@
    "p": 62.15,
    "k": "sante mentale",
    "cab": 59.7,
+   "h": "compris",
    "m": {
     "lib": {
      "15785": "première période de trente (30) minutes"
@@ -1177,6 +1218,7 @@
    "p": 62.15,
    "k": "sante mentale",
    "cab": 29.85,
+   "h": "compris",
    "m": {
     "lib": {
      "15786": "période supplémentaire de quinze (15) minutes"
@@ -1194,6 +1236,7 @@
    "p": 62.15,
    "k": "groupe",
    "cab": 59.7,
+   "h": "compris",
    "m": {
     "lib": {
      "08866": "Intervention clinique collective, première période de trente (30) minutes"
@@ -1222,6 +1265,7 @@
    "p": 62.15,
    "k": "groupe",
    "cab": 29.85,
+   "h": "compris",
    "m": {
     "lib": {
      "08868": "Intervention clinique collective, période supplémentaire de quinze (15) minutes"
@@ -1246,6 +1290,7 @@
    "p": 62.15,
    "k": "amm fin de vie",
    "cab": 43.6,
+   "h": null,
    "m": {
     "lib": {
      "15880": "forfait pour la première période de quinze (15) minutes",
@@ -1269,6 +1314,7 @@
    "p": 63.58,
    "k": "injection cortisone genou epaule",
    "cab": 16.5,
+   "h": null,
    "m": {
     "lib": {
      "00431": "bourse séreuse ou articulation ou les deux incluant aspiration préliminaire (maximum trois (3))"
@@ -1286,6 +1332,7 @@
    "p": 63.58,
    "k": "injection cortisone tendinite",
    "cab": 16.65,
+   "h": null,
    "m": {
     "lib": {
      "00430": "capsules, gaines, tendons, ligaments ou fascia"
@@ -1303,6 +1350,7 @@
    "p": 63.58,
    "k": "diu contraception gynecologie",
    "cab": 55.95,
+   "h": null,
    "m": {
     "lib": {
      "00205": "Insertion de stérilet incluant l'examen, la visite ou la consultation effectué antérieurement ou concurremment à cet égard (P.A.D.T. 1.4)"
@@ -1320,6 +1368,7 @@
    "p": 63.58,
    "k": "diu contraception gynecologie retrait",
    "cab": 58.75,
+   "h": null,
    "m": {
     "lib": {
      "20025": "Extraction de stérilet, acte compliqué (P.G. 2.4.7.7 A) (P.A.D.T. 1.4)"
@@ -1348,6 +1397,7 @@
     109.05,
     139.6
    ],
+   "h": null,
    "m": {
     "lib": {
      "06980": "un seul implant",
@@ -1377,6 +1427,7 @@
     125.4,
     169.8
    ],
+   "h": null,
    "m": {
     "lib": {
      "06982": "Exérèse d'un implant contraceptif sous-cutané",
@@ -1407,6 +1458,7 @@
     26.95,
     46.3
    ],
+   "h": null,
    "m": {
     "lib": {
      "01240": "diamètre de un (1) cm ou moins",
@@ -1437,6 +1489,7 @@
     41.45,
     63.7
    ],
+   "h": null,
    "m": {
     "lib": {
      "01238": "diamètre de un (1) cm ou moins",
@@ -1467,6 +1520,7 @@
     54,
     86.45
    ],
+   "h": null,
    "m": {
     "lib": {
      "01236": "diamètre de un (1) cm ou moins",
@@ -1496,6 +1550,7 @@
     54,
     68.05
    ],
+   "h": null,
    "m": {
     "lib": {
      "01246": "diamètre de un (1) cm ou moins (P.C. 13)",
@@ -1525,6 +1580,7 @@
     71.1,
     98.95
    ],
+   "h": null,
    "m": {
     "lib": {
      "01244": "diamètre de un (1) cm ou moins (P.C. 13)",
@@ -1554,6 +1610,7 @@
     92.55,
     135.75
    ],
+   "h": null,
    "m": {
     "lib": {
      "01242": "diamètre de un (1) cm ou moins (P.C. 13)",
@@ -1584,6 +1641,7 @@
     30,
     50.85
    ],
+   "h": null,
    "m": {
     "lib": {
      "01184": "diamètre de un (1) cm ou moins",
@@ -1616,6 +1674,7 @@
     46.15,
     70.75
    ],
+   "h": null,
    "m": {
     "lib": {
      "01182": "diamètre de un (1) cm ou moins",
@@ -1645,6 +1704,7 @@
     60.05,
     100
    ],
+   "h": null,
    "m": {
     "lib": {
      "01180": "diamètre de un (1) cm ou moins",
@@ -1664,6 +1724,7 @@
    "k": "suture plaie points",
    "note": "10,45 $ par cm de plus, au plus 236,50 $.",
    "cab": 27.5,
+   "h": null,
    "m": {
     "lib": {
      "01320": "moins de un (1) cm (P.C. 13)"
@@ -1688,6 +1749,7 @@
    "k": "suture plaie points",
    "note": "4,60 $ par cm de plus, au plus 141,95 $.",
    "cab": 17.75,
+   "h": null,
    "m": {
     "lib": {
      "01323": "moins de un (1) cm (P.C. 13)"
@@ -1711,6 +1773,7 @@
    "p": 63.58,
    "k": "ongle incarne",
    "cab": 19.15,
+   "h": null,
    "m": {
     "lib": {
      "01215": "simple (P.C. 13)"
@@ -1728,6 +1791,7 @@
    "p": 63.58,
    "k": "ongle incarne",
    "cab": 52.2,
+   "h": null,
    "m": {
     "lib": {
      "01216": "radicale : exérèse de la matrice unguéale et amputation partielle de la phalange distale, si nécessaire (P.C. 13)"
@@ -1746,6 +1810,7 @@
    "k": "verrue",
    "note": "4,05 $ par verrue de plus, au plus 16 de plus.",
    "cab": 16.65,
+   "h": null,
    "m": {
     "lib": {
      "01222": "première (P.G. 2.4.7.7 A) (P.C. 13)"
@@ -1771,6 +1836,7 @@
    "k": "verrue",
    "note": "9,80 $ par verrue de plus, au plus 10 de plus.",
    "cab": 29.4,
+   "h": null,
    "m": {
     "lib": {
      "01223": "première (P.G. 2.4.7.7 A) (P.C. 13)"
@@ -1796,6 +1862,7 @@
    "k": "cauterisation",
    "note": "2,05 $ par lésion de plus, au plus 19,60 $ par séance.",
    "cab": 7.3,
+   "h": null,
    "m": {
     "lib": {
      "01300": "première lésion (P.G. 2.4.7.7 B)"
@@ -1813,6 +1880,7 @@
    "p": 63.58,
    "k": "echarde",
    "cab": 26.25,
+   "h": null,
    "m": {
     "lib": {
      "01196": "simple (P.G. 2.4.7.7 A) (P.C. 13)"
@@ -1831,6 +1899,7 @@
    "k": "abces",
    "note": "Unique ou multiple ; 24,65 $ en cabinet.",
    "cab": 17,
+   "h": null,
    "m": {
     "lib": {
      "01005": "sus-fascial ou sus-aponévrotique; unique ou multiple (P.C. 13)"
@@ -1848,6 +1917,7 @@
    "p": 63.58,
    "k": "kyste grain de beaute naevus lipome tumeur benigne exerese",
    "cab": 18.55,
+   "h": null,
    "m": {
     "lib": {
      "01164": "diamètre de trois (3) cm ou moins (P.C. 13)"
@@ -1865,6 +1935,7 @@
    "p": 63.58,
    "k": "kyste grain de beaute naevus lipome tumeur benigne exerese",
    "cab": 15.35,
+   "h": null,
    "m": {
     "lib": {
      "01165": "diamètre de trois (3) cm ou moins (P.C. 13)"
@@ -1882,6 +1953,7 @@
    "p": 63.58,
    "k": "kyste grain de beaute naevus lipome tumeur benigne exerese",
    "cab": 12.2,
+   "h": null,
    "m": {
     "lib": {
      "01166": "diamètre de trois (3) cm ou moins"
@@ -1899,7 +1971,8 @@
    "p": 100,
    "k": "gmf forfait inscrit annuel",
    "note": "Une fois par année civile, à la première visite de l'année d'un patient inscrit ; médecin membre d'un GMF, GMF-U compris (EP 33, annexe V).",
-   "cab": 9.35
+   "cab": 9.35,
+   "h": 9.35
   },
   {
    "g": "formulaires",
@@ -1911,7 +1984,8 @@
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge guichet gamf",
    "note": "Au premier examen ou à la première visite de la prise en charge, guichet d'accès ou non (EP 40, par. 4.12).",
-   "cab": 23.55
+   "cab": 23.55,
+   "h": 19.55
   },
   {
    "g": "formulaires",
@@ -1923,7 +1997,8 @@
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge",
    "note": "Au premier examen ou à la première visite de la prise en charge (EP 40, par. 4.12).",
-   "cab": 72.5
+   "cab": 72.5,
+   "h": 60.15
   },
   {
    "g": "formulaires",
@@ -1935,7 +2010,8 @@
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge guichet gamf transfert bloc",
    "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 4.12 ; lettre d'entente no 304).",
-   "cab": 155.35
+   "cab": 155.35,
+   "h": 128.9
   },
   {
    "g": "formulaires",
@@ -1947,7 +2023,8 @@
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge guichet gamf transfert bloc",
    "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 13.01 ; lettre d'entente no 304).",
-   "cab": 310.65
+   "cab": 310.65,
+   "h": 257.8
   },
   {
    "g": "formulaires",
@@ -1961,6 +2038,7 @@
    "k": "vulnerable supplement",
    "note": "Avec l'intervention de supervision, ou avec une intervention clinique ou une psychothérapie (annexe II à l'annexe XXIII).",
    "cab": 10.6,
+   "h": 8.25,
    "m": {
     "lies": [
      "08877",
@@ -1985,6 +2063,7 @@
    "k": "enfant pediatrique",
    "note": "Avec l'intervention de supervision, ou avec une intervention clinique.",
    "cab": 17.05,
+   "h": 13.35,
    "m": {
     "lib": {
      "08877": "supplément de responsabilité à l'examen périodique du patient âgé de 0 à 5 ans en cabinet (voir le paragraphe 8.01, de l’EP – Médecine de famille, prise en charge et suivi de la clientèle)"
@@ -2014,6 +2093,7 @@
    "k": "obstetrique enceinte",
    "note": "Avec l'intervention de supervision, ou avec une intervention clinique.",
    "cab": 11.4,
+   "h": 8.95,
    "m": {
     "lib": {
      "15145": "supplément de responsabilité pour suivi de grossesse (voir le paragraphe 7.02 B) de l’EP – Médecine de famille, prise en charge et suivi de la clientèle)"
@@ -2042,6 +2122,7 @@
    "p": 100,
    "k": "obstetrique enceinte",
    "cab": 47.4,
+   "h": 35.6,
    "m": {
     "lib": {
      "15159": "supplément à l'examen de prise en charge d'une grossesse lorsque fait au cours du premier trimestre de grossesse en cabinet (voir le paragraphe 7.02 A) de l'E.P. Médecine de famille, prise en charge et suivi de la clientèle) en CLSC et en GMF-U en établissement (1)"
@@ -2070,6 +2151,7 @@
    "p": 63.58,
    "k": "langue traduction",
    "cab": 27.25,
+   "h": null,
    "m": {
     "lib": {
      "15188": "supplément pour la communication par l'intermédiaire d'un interprète, cabinet, domicile, établissement pour un patient inscrit"
@@ -2089,6 +2171,7 @@
    "p": 63.58,
    "k": "telephone discussion",
    "cab": 29.3,
+   "h": null,
    "m": {
     "avis": [
      "Utiliser le code de facturation 15841.",
@@ -2109,6 +2192,7 @@
    "p": 63.58,
    "k": "telephone pharmacien",
    "cab": 20.9,
+   "h": null,
    "m": {
     "avis": [
      "Utiliser le code de facturation 15844.",
@@ -2127,6 +2211,7 @@
    "p": 63.58,
    "k": "econsult specialiste",
    "cab": 29.3,
+   "h": null,
    "m": {
     "lib": {
      "15894": "Communication par conseil numérique (eConsult)"
@@ -2147,6 +2232,7 @@
    "p": 63.58,
    "k": "ivg avortement",
    "cab": null,
+   "h": null,
    "m": {
     "lib": {
      "15314": "établissement"
@@ -2164,6 +2250,7 @@
    "p": 63.58,
    "k": "ivg echographie",
    "cab": null,
+   "h": null,
    "m": {
     "lib": {
      "15316": "établissement"
@@ -2182,6 +2269,7 @@
    "k": "dpj maltraitance",
    "note": "09073 : 46,25 $ par demi-heure de plus (moins de 14 ans).",
    "cab": 116.1,
+   "h": null,
    "m": {
     "lib": {
      "09070": "Prise en charge d'un enfant présumément victime de mauvais traitements, évaluation médicale et rapport (P.G. 2.2.9 A)"
@@ -2205,6 +2293,7 @@
    "p": 63.58,
    "k": "amm",
    "cab": 261.5,
+   "h": null,
    "m": {
     "lib": {
      "15879": "-Formulaire et démarches afférentes – Demande anticipée d'aide médicale à mourir"
@@ -2222,6 +2311,7 @@
    "p": 63.58,
    "k": "amm",
    "cab": 52.3,
+   "h": null,
    "m": {
     "lib": {
      "15899": "-Formulaire et démarches afférentes – Demande de retrait d'une demande anticipée d'aide médicale à mourir"
@@ -2239,6 +2329,7 @@
    "p": 63.58,
    "k": "deces",
    "cab": 61.65,
+   "h": null,
    "m": {
     "lib": {
      "09054": "sans déplacement (P.G. 2.2.9 A)"
@@ -2256,6 +2347,7 @@
    "p": 100,
    "k": "deces mort constat",
    "cab": 23.35,
+   "h": null,
    "m": {
     "lib": {
      "00013": "sans déplacement (P.G. 2.2.9 A)"
@@ -2283,6 +2375,7 @@
    "p": 100,
    "k": "deces don organes",
    "cab": 23.35,
+   "h": null,
    "m": {
     "lib": {
      "00016": "sans déplacement (P.G. 2.2.9 A)"
@@ -2310,6 +2403,7 @@
    "p": 100,
    "k": "deces formulaire",
    "cab": 19.8,
+   "h": null,
    "m": {
     "lib": {
      "15265": "rédaction du bulletin de décès (formulaire SP-3) (P.G. 2.2.9 A)"
@@ -2340,6 +2434,7 @@
    "p": 100,
    "k": "deces chsld",
    "cab": 25,
+   "h": null,
    "m": {
     "lib": {
      "15889": "évaluation à distance du décès hors d'un centre désigné d'un patient hébergé en CHSLD (P.G. 2.2.9 A)"
@@ -2360,6 +2455,7 @@
    "p": 100,
    "k": "deces domicile palliatif",
    "cab": 25,
+   "h": null,
    "m": {
     "lib": {
      "15890": "évaluation à distance du décès hors d'un centre désigné d'un patient décédé à domicile et inscrit au programme de soins à domicile du CLSC"
@@ -2377,6 +2473,7 @@
    "p": 100,
    "k": "rcr arret cardiaque code bleu",
    "cab": 113.2,
+   "h": null,
    "m": {
     "lib": {
      "00828": "premier quart d'heure (P.G. 2.4.7.3 C)"
@@ -2403,6 +2500,7 @@
    "p": 100,
    "k": "rcr arret cardiaque code bleu",
    "cab": 28.25,
+   "h": null,
    "m": {
     "lib": {
      "00829": "chaque quart d'heure supplémentaire (P.G. 2.4.7.3 C)"
@@ -2427,6 +2525,7 @@
    "k": "hospitalisation sortie conge",
    "note": "Au transfert d'un patient admis (EP – Médecine de famille, par. 9.00 C).",
    "cab": 35.55,
+   "h": null,
    "m": {
     "lib": {
      "15158": "Forfait de congé en établissement d'un patient admis (voir le paragraphe 9.00 C) de l'EP – Médecine de famille, prise en charge et suivi de la clientèle)"
@@ -2456,6 +2555,7 @@
    "k": "autonomie chsld ressource",
    "note": "Pas dans l'annexe II : au mixte, la part des services médicaux.",
    "cab": 163.5,
+   "h": null,
    "m": {
     "lib": {
      "09100": "examen d'évaluation médicale d'un patient en perte d'autonomie en vue d'allocation de ressources et en vue de la rédaction du formulaire approprié"
@@ -2473,6 +2573,7 @@
    "p": 100,
    "k": "autonomie domicile",
    "cab": 28.15,
+   "h": null,
    "m": {
     "lib": {
      "09063": "supplément lorsqu'effectué à domicile"
@@ -2490,6 +2591,7 @@
    "p": 100,
    "k": "autonomie formulaire",
    "cab": 35.95,
+   "h": null,
    "m": {
     "lib": {
      "09101": "rédaction du formulaire"
@@ -2507,6 +2609,7 @@
    "p": 100,
    "k": "aide sociale contraintes emploi formulaire",
    "cab": 20,
+   "h": null,
    "m": {
     "lib": {
      "09800": "Pour remplir le formulaire intitulé « Rapport médical » prescrit par le Ministre"
@@ -2534,6 +2637,7 @@
    "p": 100,
    "k": "aide sociale",
    "cab": 20,
+   "h": null,
    "m": {
     "lib": {
      "09801": "pour l'information fournie"
@@ -2551,6 +2655,7 @@
    "p": 100,
    "k": "inaptitude regime protection",
    "cab": 26.15,
+   "h": null,
    "m": {
     "lib": {
      "09825": "- Remplir le formulaire intitulé « rapport du directeur-général - évaluation médicale » ou son équivalent"
@@ -2578,6 +2683,7 @@
    "p": 100,
    "k": "inaptitude regime protection",
    "cab": 26.15,
+   "h": null,
    "m": {
     "lib": {
      "09826": "- Remplir le formulaire intitulé « réévaluation médicale » ou son équivalent"
@@ -2606,6 +2712,7 @@
    "k": "pqdcs mammographie",
    "note": "Protocole d'accord du programme de dépistage du cancer du sein (Brochure no 1).",
    "cab": null,
+   "h": null,
    "m": {
     "lies": [
      "09800",
@@ -2638,6 +2745,7 @@
    "k": "grossesse obstetrique temporaire",
    "note": "Médecin qui a des privilèges en obstétrique ; 11,85 $ en cabinet. 19074 : patiente inscrite auprès d'un autre médecin du même GMF (EP 40, par. 7.03). Payé à 100 % au mixte, aussi pendant l'intervention de supervision.",
    "cab": null,
+   "h": null,
    "m": {
     "lies": [
      "08877",
@@ -2661,6 +2769,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 27.57,
+   "h": 27.57,
    "m": {
     "lib": {
      "09926": "rédaction et remise sans délai au travailleur du formulaire d'attestation médicale prescrit par la Commission"
@@ -2678,6 +2787,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 26.96,
+   "h": 26.96,
    "m": {
     "lib": {
      "09927": "rédaction et expédition à la Commission, dans les six (6) jours du premier examen, du formulaire de prise en charge prescrit par la Commission"
@@ -2695,6 +2805,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 26.96,
+   "h": 26.96,
    "m": {
     "lib": {
      "09928": "rédaction et expédition immédiate à la Commission du formulaire d'évolution prescrit par la Commission"
@@ -2715,6 +2826,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 31.86,
+   "h": 31.86,
    "m": {
     "lib": {
      "09930": "rédaction et expédition à la Commission, dès que la lésion professionnelle du travailleur est consolidée, du formulaire de rapport final prescrit par la Commission"
@@ -2732,6 +2844,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 128.67,
+   "h": 128.67,
    "m": {
     "lib": {
      "09929": "rédaction et expédition à la Commission, dans les dix (10) jours de la réception de la demande, du formulaire d'information médicale complémentaire écrite prescrit par la Commission"
@@ -2749,6 +2862,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 159.31,
+   "h": 159.31,
    "m": {
     "lib": {
      "09909": "rédaction du formulaire prescrit par la Commission et expédition à celle-ci, dans les trente (30) jours de la réception du rapport du professionnel de la santé"
@@ -2766,6 +2880,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 165.43,
+   "h": 165.43,
    "m": {
     "lib": {
      "09907": "pour l'information verbale fournie"
@@ -2783,6 +2898,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 140.93,
+   "h": 140.93,
    "m": {
     "lib": {
      "09908": "pour l'opinion professionnelle obtenue du médecin"
@@ -2800,6 +2916,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 61.27,
+   "h": 61.27,
    "m": {
     "ancre": "283877"
    }
@@ -2814,6 +2931,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 102.94,
+   "h": 102.94,
    "m": {
     "lib": {
      "09971": "rédaction complète de la partie du formulaire où il est demandé au médecin de se prononcer sur le travail préalablement proposé par l'employeur, remise de la copie au travailleur et expédition sans délai du formulaire d'assignation temporaire prévu par la Commission ou identique à celui-ci"
@@ -2831,6 +2949,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 85.78,
+   "h": 85.78,
    "m": {
     "lib": {
      "09970": "rédaction, remise de la copie à la travailleuse et expédition sans délai du certificat prescrit par la Commission visant l'affectation ou le retrait préventif de la travailleuse enceinte ou qui allaite"
@@ -2851,6 +2970,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 520.81,
+   "h": 520.81,
    "m": {
     "lib": {
      "09944": "examen du travailleur, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
@@ -2868,6 +2988,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 27.57,
+   "h": 27.57,
    "m": {
     "lib": {
      "15795": "pour la rédaction et remise sans délai à la victime, du formulaire d'évaluation médicale prescrit par la Commission"
@@ -2895,6 +3016,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 26.96,
+   "h": 26.96,
    "m": {
     "lib": {
      "15796": "pour la rédaction et expédition immédiate à la Commission, du formulaire de rapport médical prescrit par la Commission"
@@ -2912,6 +3034,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 31.86,
+   "h": 31.86,
    "m": {
     "lib": {
      "15797": "pour la rédaction et expédition à la Commission, dès que la blessure de la victime ou du sauveteur est consolidée, du formulaire de rapport final prescrit par la Commission"
@@ -2939,6 +3062,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 183.82,
+   "h": 183.82,
    "m": {
     "lib": {
      "09910": "rédaction du rapport de consultation motivé et expédition au médecin qui a charge du travailleur"
@@ -2956,6 +3080,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 36.96,
+   "h": 36.96,
    "m": {
     "ancre": "283857"
    }
@@ -2970,6 +3095,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 73.53,
+   "h": 73.53,
    "m": {
     "ancre": "283864"
    }
@@ -2984,6 +3110,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 110.29,
+   "h": 110.29,
    "m": {
     "ancre": "283888"
    }
@@ -2998,6 +3125,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 140.93,
+   "h": 140.93,
    "m": {
     "lib": {
      "09901": "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'Entente"
@@ -3025,6 +3153,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 1003.44,
+   "h": 1003.44,
    "m": {
     "lib": {
      "09978": "examen du travailleur, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
@@ -3042,6 +3171,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 140.93,
+   "h": 140.93,
    "m": {
     "lib": {
      "09902": "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'entente"
@@ -3059,6 +3189,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 1223.37,
+   "h": 1223.37,
    "m": {
     "lib": {
      "09946": "examen du travailleur dans un délai d'un à cinq jours consécutifs suivant la demande de la Commission, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
@@ -3076,6 +3207,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 140.93,
+   "h": 140.93,
    "m": {
     "lib": {
      "09980": "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'entente"
@@ -3103,6 +3235,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 122.54,
+   "h": 122.54,
    "m": {
     "lib": {
      "09977": "supplément lorsque le médecin rend son avis en cabinet privé"
@@ -3120,6 +3253,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 116.42,
+   "h": 116.42,
    "m": {
     "ancre": "283975"
    }
@@ -3134,6 +3268,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 177.69,
+   "h": 177.69,
    "m": {
     "ancre": "283954"
    }
@@ -3148,6 +3283,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 208.32,
+   "h": 208.32,
    "m": {
     "ancre": "283981"
    }
@@ -3162,6 +3298,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 549.83,
+   "h": 549.83,
    "m": {
     "lib": {
      "09938": "avis donné au vu du dossier"
@@ -3179,6 +3316,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 1003.44,
+   "h": 1003.44,
    "m": {
     "lib": {
      "09939": "avis donné après examen du travailleur"
@@ -3196,6 +3334,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 804.13,
+   "h": 804.13,
    "m": {
     "lib": {
      "09936": "le médecin qui participe à la préparation de l'avis commun"
@@ -3213,6 +3352,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 103.09,
+   "h": 103.09,
    "m": {
     "lib": {
      "09937": "le médecin qui rédige l'avis commun reçoit des honoraires additionnels de"
@@ -3230,6 +3370,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 104.16,
+   "h": 104.16,
    "m": {
     "lib": {
      "09919": "supplément pour la production des tests audiologiques en cabinet privé"
@@ -3247,6 +3388,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 85.78,
+   "h": 85.78,
    "m": {
     "lib": {
      "09973": "Il s'agit du formulaire qui atteste des signes d'altération de la santé du travailleur exposé à un contaminant ou une matière dangereuse et visant son affectation ou son retrait préventif, en vertu de la Loi sur la santé et la sécurité du travail."
@@ -3264,6 +3406,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 549.83,
+   "h": 549.83,
    "m": {
     "lib": {
      "09942": "étude de dossier, rédaction et expédition sans délai à la Commission d'un rapport, pour chaque médecin"
@@ -3281,6 +3424,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 73.53,
+   "h": 73.53,
    "m": {
     "ancre": "284098"
    }
@@ -3295,6 +3439,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 104.16,
+   "h": 104.16,
    "m": {
     "ancre": "284099"
    }
@@ -3309,6 +3454,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 134.8,
+   "h": 134.8,
    "m": {
     "ancre": "284122"
    }
@@ -3323,6 +3469,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 134.8,
+   "h": 134.8,
    "m": {
     "lib": {
      "09954": "rédaction et remise sans délai au travailleur du certificat médical du plongeur professionnel"
@@ -3340,6 +3487,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 158.08,
+   "h": 158.08,
    "m": {
     "lib": {
      "09924": "examen du dossier, rédaction et expédition sans délai à la Commission de l'avis supplémentaire requis"
@@ -3357,6 +3505,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 295.53,
+   "h": 295.53,
    "m": {
     "lib": {
      "09925": "examen du dossier, rédaction et expédition sans délai à la Commission de l'avis supplémentaire requis"
@@ -3374,6 +3523,7 @@
    "p": 100,
    "k": "cnesst travail accident ivac formulaire",
    "cab": 336.99,
+   "h": 336.99,
    "m": {
     "ancre": "284140"
    }

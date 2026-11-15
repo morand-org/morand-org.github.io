@@ -48,7 +48,7 @@
     <a class="cr-logo" href="/codes/" tabindex="-1" aria-hidden="true"><img src="/morand/sceau-codes.svg" alt="" width="128" height="128"></a>
     <h1><a class="cr-nom" href="/codes/">Codes Morand</a><span class="cache"> : codes de facturation du médecin de famille</span></h1>
     <p class="cr-devise">Actes · Tarifs · Règles</p>
-    <p class="cr-lead">Codes d'actes, CNESST et vulnérabilité. Touchez un code pour ses règles.</p>
+    <p class="cr-lead">Codes d'actes, CNESST et codes de vulnérabilité. Touchez un code pour ses règles.</p>
   </section>
 
   <div class="cr-recherche" role="search">
@@ -56,6 +56,10 @@
     <svg class="cr-loupe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
     <input id="co-q" type="search" placeholder="Code ou mot : suivi, stérilet, 15804, diabète…" autocomplete="off" spellcheck="false" enterkeyhint="search">
     <kbd class="cr-raccourci" id="co-raccourci" hidden></kbd>
+  </div>
+  <div class="cr-vues co-vues" id="co-vues" role="tablist" aria-label="Sections">
+    <button type="button" class="cr-vue" role="tab" data-vue="actes" aria-selected="true">Actes</button>
+    <button type="button" class="cr-vue" role="tab" data-vue="vulnerabilite" aria-selected="false">Codes de vulnérabilité</button>
   </div>
   <div class="co-reglages" id="co-reglages" aria-label="Prix affichés selon votre pratique"></div>
   <div class="co-groupes" id="co-groupes" role="group" aria-label="Groupes de codes"></div>

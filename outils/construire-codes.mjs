@@ -43,6 +43,19 @@ function cabinet(code, etab) {
   if (LIEU_UNIQUE.has(code) || Calc.CNESST.some(x => x.code === code)) return etab;
   return null;
 }
+/* Au taux horaire (annexe XIV ; établissement seulement) : les heures paient les visites et les interventions ; en plus
+   des heures, le forfait de responsabilité et les suppléments d'examen (EP 40, par. 6.02 B, 8.01, 7.02 A et B), les
+   forfaits et suppléments payés dans tous les modes (forfait GMF, suppléments d'inscription, demi-per diem) et les
+   formulaires de la CNESST (annexe XIII). Tout le reste : à confirmer (null). Mêmes règles que le moteur de Wealth. */
+const HORAIRE_EN_PLUS = new Set(["15169", "15170", "08877", "15145", "15159", "08875", "19957", "19958", "19959", "19960",
+  "19911", "19912", "19914", "19915", "19917", "19918", "19920", "19921"]);
+const HORAIRE_COMPRIS = new Set(["08857", "08859", "15785", "15786", "08866", "08868"]);
+function horaire(a) {
+  if (a.t == null || a.mixteSeul) return undefined;
+  if (a.c.every(c => HORAIRE_EN_PLUS.has(c) || Calc.CNESST.some(x => x.code === c))) return a.t;
+  if (a.g === "visites" || a.c.every(c => HORAIRE_COMPRIS.has(c))) return "compris";
+  return null;
+}
 const sections = {};
 for (const a of actes) {
   if (a.t == null) continue;
@@ -56,6 +69,7 @@ for (const a of actes) {
     a.cab = cab.includes(null) ? null : Array.isArray(a.t) ? cab : cab[0];
     if (!Array.isArray(a.t) && a.cab != null && a.c.length > 1 && cab.some(x => !egal(x, cab[0]))) a.cab = null;
   }
+  const h = horaire(a); if (h !== undefined) a.h = h;
   // Détail du manuel : libellés, avis et règles recopiés, éléments de contexte, codes liés, lien vers la section.
   const m = { lib: {}, avis: [], sec: [], ctx: [], lies: [], ancre: null };
   for (const c of a.c) {

@@ -198,9 +198,9 @@ async function codes(nav) {
   e = await chercher("FA"); verifier("Codes : « FA » trouve la fibrillation auriculaire, pas « forfait »", e.titres.length > 0 && e.titres.some(t => /Fibrillation auriculaire/.test(t)) && !e.titres.some(t => /^Forfait/.test(t)), e.titres);
   e = await chercher("cnesst"); verifier("Codes : les formulaires de la CNESST", e.titres.length === D.actes.filter(a => /^CNESST/.test(a.n)).length, e.etat);
   e = await chercher("zzzzq"); verifier("Codes : aucun résultat, c'est dit", e.titres.length === 0 && (await p.locator(".cr-vide").count()) === 1);
-  await p.fill("#co-q", ""); await p.click('[data-v="vulnerabilite"]'); await p.waitForTimeout(200); e = await etat();
+  await p.fill("#co-q", ""); await p.click('.co-vues [data-vue="vulnerabilite"]'); await p.waitForTimeout(200); e = await etat();
   verifier("Codes : les codes de vulnérabilité", e.titres.length === D.vulnerabilite.length, e.etat);
-  await p.click('[data-v="tous"]'); await p.waitForTimeout(200); e = await etat();
+  await p.click('.co-vues [data-vue="actes"]'); await p.click('[data-v="tous"]'); await p.waitForTimeout(200); e = await etat();
   verifier("Codes : tous les actes, par groupe", e.titres.length === D.actes.length && e.cartes.length === D.groupes.length, e.etat);
   verifier("Codes : montants en dollars, deux décimales", (await p.locator(".co-valeur").first().textContent()).match(/^\d[\d\s]*,\d{2}(\s\/\s[\d\s]+,\d{2})?\s\$$/) !== null, await p.locator(".co-valeur").first().textContent());
   await p.goto(BASE + "/codes/?q=pessaire"); await p.waitForTimeout(600); e = await etat();
@@ -210,38 +210,45 @@ async function codes(nav) {
     valeur: ((r.querySelector(".co-valeur") || {}).textContent || "").replace(/\s/g, " "), detail: ((r.querySelector(".co-valeur-sous") || {}).textContent || "").replace(/\s/g, " "),
     code: (r.querySelector(".co-code") || {}).textContent || "", grise: r.classList.contains("co-non") })));
   await p.goto(BASE + "/codes/"); await p.waitForTimeout(600);
-  // Réglages (lieu, mode, palier) : un seul prix ; au départ, établissement, mixte, moins de 500.
+  // Réglages (mode, palier) : un seul prix ; au départ, mixte, moins de 500. À l'acte : colonne « En cabinet » du manuel.
   const regler = async (...t) => { for (const x of t) await p.click(`.co-segment button:text-is("${x}")`); await p.waitForTimeout(150); };
   await chercher("15804"); let r = await rangees();
-  verifier("Codes : 15804 cherché, son code et son palier (500 et plus), au mixte en établissement : 23,49 $", r.length === 1 && r[0].valeur === "23,49 $" && r[0].sous.startsWith("15804"), r);
+  verifier("Codes : 15804 cherché, son code et son palier (500 et plus), au mixte : 23,49 $", r.length === 1 && r[0].valeur === "23,49 $" && r[0].sous.startsWith("15804"), r);
   await chercher("15803"); r = await rangees();
   verifier("Codes : 15803, moins de 500, au mixte : 20,50 $", r[0].valeur === "20,50 $" && r[0].sous.startsWith("15803"), r);
+  verifier("Codes : plus de choix cabinet / établissement ; trois modes", (await p.locator(".co-segment button").allTextContents()).join() === "À l'acte,Mixte,Horaire,Moins de 500,500 et plus");
   await regler("À l'acte"); r = await rangees();
-  verifier("Codes : à l'acte en établissement, 15803 : 32,25 $", r[0].valeur === "32,25 $", r);
-  await regler("Cabinet"); r = await rangees();
-  const mixteGris = await p.locator('.co-segment button:text-is("Mixte")').isDisabled();
-  verifier("Codes : en cabinet, 15803 : 42,85 $ (colonne « En cabinet » du manuel) ; le mixte n'est pas offert", r[0].valeur === "42,85 $" && mixteGris, { r, mixteGris });
-  await regler("500 et plus"); await chercher("suivi, patient non vulnérable de moins"); r = await rangees();
-  verifier("Codes : 500 et plus en cabinet, sans chercher de code : 15804 à 49,15 $", r[0].valeur === "49,15 $" && r[0].sous.startsWith("15804"), r);
+  verifier("Codes : à l'acte, 15803 : 42,85 $ (colonne « En cabinet » du manuel)", r[0].valeur === "42,85 $", r);
+  await regler("Horaire"); r = await rangees();
+  verifier("Codes : au taux horaire, une visite est « Compris dans l'heure »", r[0].valeur === "Compris dans l'heure" && r[0].grise, r);
+  await chercher("15169"); r = await rangees();
+  verifier("Codes : au taux horaire, le forfait de responsabilité se paie en plus : 8,25 $", r[0].valeur === "8,25 $", r);
+  await chercher("09926"); r = await rangees();
+  verifier("Codes : au taux horaire, un formulaire de la CNESST se paie : 27,57 $", r[0].valeur === "27,57 $", r);
+  await chercher("01240"); r = await rangees();
+  verifier("Codes : au taux horaire, un acte sans règle confirmée : « À confirmer »", r[0].valeur === "À confirmer" && r[0].grise, r);
+  await regler("À l'acte", "500 et plus"); await chercher("suivi, patient non vulnérable de moins"); r = await rangees();
+  verifier("Codes : 500 et plus à l'acte, sans chercher de code : 15804 à 49,15 $", r[0].valeur === "49,15 $" && r[0].sous.startsWith("15804"), r);
   await chercher("42094"); r = await rangees();
-  verifier("Codes : la base du mixte, en cabinet : « Mixte seulement », en gris", r[0].valeur === "Mixte seulement" && r[0].grise, r);
+  verifier("Codes : la base du mixte, à l'acte : « Mixte seulement », en gris", r[0].valeur === "Mixte seulement" && r[0].grise, r);
   await chercher("08848"); r = await rangees();
   verifier("Codes : un tarif en cabinet introuvable au manuel : « À confirmer », pas un montant deviné", r[0].valeur === "À confirmer" && r[0].grise, r);
   await p.reload(); await p.waitForTimeout(700);
   const garde = await p.evaluate(() => [...document.querySelectorAll('.co-segment button[aria-pressed="true"]')].map(b => b.textContent).join());
-  verifier("Codes : les réglages restent sur l'appareil", garde === "Cabinet,À l'acte,500 et plus", garde);
+  verifier("Codes : les réglages restent sur l'appareil", garde === "À l'acte,500 et plus", garde);
   await chercher("08875"); r = await rangees();
-  verifier("Codes : le forfait GMF (08875), 9,35 $ en cabinet comme en établissement", r.length === 1 && r[0].titre.startsWith("Forfait de prise en charge et de suivi de la clientèle en GMF") && r[0].valeur === "9,35 $", r);
+  verifier("Codes : le forfait GMF (08875), 9,35 $", r.length === 1 && r[0].titre.startsWith("Forfait de prise en charge et de suivi de la clientèle en GMF") && r[0].valeur === "9,35 $", r);
   // Détail : tous les prix, élément de contexte, codes liés, règles du manuel repliées, lien vers le manuel.
   await chercher("15803"); await p.click(".co-ligne"); await p.waitForTimeout(200);
   const det = await p.evaluate(() => { const d = document.querySelector(".co-detail:not([hidden])"); return d && { texte: d.textContent, lies: [...d.querySelectorAll("button.co-lie")].map(b => b.textContent),
     regles: !!d.querySelector("details.co-manuel:not([open])"), lien: (d.querySelector(".co-source a") || {}).href || "" }; });
-  verifier("Codes : le détail de 15803 donne les prix des deux lieux et des deux paliers, au mixte aussi", det && det.texte.includes("Cabinet, à l'acte : 42,85 $ (moins de 500) · 49,15 $ (500 et plus)")
-    && det.texte.includes("Établissement, à l'acte : 32,25 $ (moins de 500) · 36,95 $ (500 et plus)") && det.texte.includes("Établissement, au mixte (63,58 %) : 20,50 $ (moins de 500) · 23,49 $ (500 et plus)"), det && det.texte.slice(0, 300));
+  verifier("Codes : le détail de 15803 donne l'acte en cabinet et en établissement, le mixte et l'horaire", det && det.texte.includes("À l'acte, en cabinet : 42,85 $ (moins de 500) · 49,15 $ (500 et plus)")
+    && det.texte.includes("À l'acte, en établissement : 32,25 $ (moins de 500) · 36,95 $ (500 et plus)") && det.texte.includes("Mixte (63,58 % du tarif en établissement) : 20,50 $ (moins de 500) · 23,49 $ (500 et plus)")
+    && det.texte.includes("Horaire : compris dans l'heure"), det && det.texte.slice(0, 400));
   verifier("Codes : le détail recopie l'élément de contexte du manuel et lie la section du manuel", det.texte.includes("Médecin appartenant au même groupe que le médecin traitant") && det.regles && /manuel-remuneration-acte#\d+$/.test(det.lien), det.lien);
   await p.click('button.co-lie:text-is("15823")'); await p.waitForTimeout(250); r = await rangees();
   verifier("Codes : un code lié se touche et s'affiche", (await p.inputValue("#co-q")) === "15823" && r.length === 1 && r[0].sous.startsWith("15823") && det.lies.includes("15823"), r);
-  await regler("Établissement", "Mixte", "Moins de 500"); await p.fill("#co-q", ""); await p.waitForTimeout(200);
+  await regler("Mixte", "Moins de 500"); await p.fill("#co-q", ""); await p.waitForTimeout(200);
   e = await chercher("cryochirurgie"); verifier("Codes : « cryochirurgie » trouve 6 actes", e.titres.length === 6, e.titres);
   e = await chercher("STERILET"); verifier("Codes : « STERILET » trouve les actes du stérilet, sans accents ni majuscules ; le curseur reste dans le champ",
     e.titres.length === 3 && e.titres.every(t => /stérilet/i.test(t)) && await p.evaluate(() => document.activeElement.id === "co-q"), e.titres);
@@ -257,7 +264,7 @@ async function codes(nav) {
   verifier("Codes : le répertoire s'ouvre sur le forfait horaire ; chaque acte payé a un montant", r.length === D.actes.length && r[0].titre.startsWith("Forfait horaire") && r.filter(x => !x.grise).every(x => /\d,\d{2}( \/ [\d ]+,\d{2})? \$$/.test(x.valeur) || x.valeur === "— $"), r.find(x => !x.grise && !/\$$/.test(x.valeur)));
   // Codes de vulnérabilité : 20 catégories, la 14 fermée ; la source et sa limite sont dites.
   await p.setViewportSize({ width: 320, height: 700 });
-  await p.click('[data-v="vulnerabilite"]'); await p.waitForTimeout(200); r = await rangees(); e = await etat();
+  await p.click('.co-vues [data-vue="vulnerabilite"]'); await p.waitForTimeout(200); r = await rangees(); e = await etat();
   verifier("Vulnérabilité : 20 codes de 01 à 20, le 14 fermé et grisé, c'est dit", r.length === 20 && r[0].code === "01" && r[19].code === "20" && r.filter(x => x.grise).map(x => x.code).join() === "14"
     && e.etat === "20 catégories, dont 1 fermée" && r[13].titre.includes("Fermé le 30 juin 2019"), { etat: e.etat, grises: r.filter(x => x.grise).map(x => x.code) });
   const note = await p.textContent("#co-note-vulnerabilite");
@@ -268,7 +275,7 @@ async function codes(nav) {
   verifier("Vulnérabilité : « FA » trouve seulement les codes 13 et 14", r.map(x => x.code).join() === "13,14", r.map(x => x.code));
   await p.fill("#co-q", "zzzzq"); await p.waitForTimeout(250);
   verifier("Vulnérabilité : aucun résultat, c'est dit ; rien ne déborde à 320 px", (await p.locator(".cr-vide").count()) === 1 && await p.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth));
-  await p.fill("#co-q", ""); await p.click('[data-v="tous"]'); await p.waitForTimeout(200);
+  await p.fill("#co-q", ""); await p.click('.co-vues [data-vue="actes"]'); await p.click('[data-v="tous"]'); await p.waitForTimeout(200);
   verifier("Codes : tous les actes à 320 px, rien ne déborde", await p.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth));
   verifier("Codes : aucune erreur", erreurs.length === 0, erreurs);
   await ctx.close();
