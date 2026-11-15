@@ -81,20 +81,11 @@
     return mots.reduce((s, m) => s + (titre.includes(m) ? 3 : 0) + (syn.includes(m) ? 3 : syn.some(x => x.includes(m)) ? 1 : 0), 0);
   }
 
-  // Surtitre : la spécialité, une seule fois ; la catégorie seulement si elle ajoute quelque chose (pas « Ophtalmologie »
-  // sous « Ophtalmologie adulte et enfant », pas « Autres ») ; le formulaire, en lien.
-  function surtitre(p, f) {
-    const s = sansAccents(p.specialite), k = sansAccents(p.categorie || "");
-    const cat = k && k !== "autres" && !s.split(/[^a-z]+/).includes(k.split(/[^a-z]+/)[0]) ? ` · ${p.categorie}` : "";
-    const sur = el("p", "cr-sur", `${p.specialite}${cat} · `);
-    const a = el("a", null, f.id); a.href = f.url; a.rel = "noopener"; a.title = `Formulaire du MSSS, révision ${f.revision}`; sur.appendChild(a);
-    return sur;
-  }
   function carte(p, mots) {
     const f = D.formulaires.find(x => x.id === p.formulaire);
     const c = el("article", "cr-carte"); c.id = p.id;
     const tete = el("div", "cr-carte-tete"), gauche = el("div");
-    gauche.appendChild(surtitre(p, f));
+    const sur = el("p", "cr-sur"); surligner(sur, `${p.specialite} · ${p.categorie}`, mots); gauche.appendChild(sur);
     // Titre : le problème seul ; le libellé complet du formulaire est dans les critères.
     const titre = p.titre || p.probleme;
     const h = el("h3"); surligner(h, titre, mots); gauche.appendChild(h);
@@ -141,7 +132,10 @@
     const notes = [...(p.orientation || []), ...(p.exclusions_urgence || [])];
     if (notes.length) { const o = el("div", "cr-orientation"); notes.forEach(n => o.appendChild(el("p", null, n))); c.appendChild(o); }
 
-    if (p.libelle_formulaire) c.appendChild(el("p", "cr-source", `Au formulaire : « ${p.libelle_formulaire} »`));
+    const src = el("p", "cr-source");
+    src.append(document.createTextNode(`${f.id} · rév. ${f.revision}${p.libelle_formulaire ? ` · au formulaire : « ${p.libelle_formulaire} »` : ""} · `));
+    const a = el("a", null, "Formulaire du MSSS"); a.href = f.url; a.rel = "noopener"; src.appendChild(a);
+    c.appendChild(src);
     return c;
   }
 

@@ -67,8 +67,6 @@ main { flex: 1 0 auto; }
 /* Résultats : des cartes épurées, en grille sur grand écran. */
 .cr-resultats { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 18px; }
 .cr-groupe { grid-column: 1 / -1; margin: 18px 0 0; padding-bottom: 8px; border-bottom: 1px solid var(--filet); font: 400 1.3rem/1.2 var(--serif); }
-.cr-sur a { color: var(--or-texte); text-decoration: none; }
-.cr-sur a:hover { text-decoration: underline; text-underline-offset: 2px; }
 .cr-variantes .cr-raison, .cr-criteres .cr-raison { color: var(--encre-2); }
 .cr-variantes .cr-raison { display: block; padding: 0 0 6px; }
 .cr-ci-repli, .cr-sources-ac { margin: 4px 0 0; }

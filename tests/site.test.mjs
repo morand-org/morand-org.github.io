@@ -148,11 +148,10 @@ async function crds(nav) {
   verifier("CRDS : les favoris survivent au rechargement", e.onglets.includes("Favoris (1)"), e.onglets);
   await p.goto(BASE + "/crds/?q=cardiologie"); await p.waitForTimeout(700); e = await etat();
   verifier("CRDS : un lien avec ?q= lance la recherche", e.cartes > 3, e.etat);
-  // Chaque fiche : la spécialité une seule fois en surtitre (sans la catégorie qui la répète), le formulaire en lien.
-  await p.fill("#cr-q", "Ophtalmologie adulte et enfant"); await p.waitForTimeout(300);
-  const sur = await p.evaluate(() => [...document.querySelectorAll(".cr-carte:not(.cr-carte-ac) .cr-sur")].map(x => x.textContent));
-  verifier("CRDS : chaque fiche porte sa spécialité une seule fois, avec son formulaire", sur.length === D.problemes.filter(x => x.formulaire === "AH-745").length
-    && sur.every(t => t.startsWith("Ophtalmologie adulte et enfant") && !/· Ophtalmologie ·/.test(t) && t.endsWith("AH-745")) && !(await p.locator(".cr-groupe").count()), sur.slice(0, 3));
+  // Chaque fiche : « spécialité · catégorie » en surtitre et le formulaire en bas (comme le 14 novembre).
+  await p.fill("#cr-q", "ORL adulte et enfant"); await p.waitForTimeout(300);
+  const sur = await p.evaluate(() => [...document.querySelectorAll(".cr-carte:not(.cr-carte-ac)")].map(c => ({ sur: c.querySelector(".cr-sur").textContent, pied: c.querySelector(".cr-source").textContent })));
+  verifier("CRDS : chaque fiche porte « spécialité · catégorie » et son formulaire en bas", sur.length > 0 && sur.every(o => /^ORL adulte et enfant · \S/.test(o.sur) && /^AH-748 · rév\. .+Formulaire du MSSS$/.test(o.pied)) && !(await p.locator(".cr-groupe").count()), sur.slice(0, 2));
   // Titres : le problème seul ; le libellé complet du formulaire dans les critères.
   const fiche = async q => { await p.fill("#cr-q", q); await p.waitForTimeout(300);
     return p.evaluate(() => { const c = document.querySelector(".cr-carte:not(.cr-carte-ac)"); return { titre: c.querySelector("h3").textContent, criteres: [...c.querySelectorAll(".cr-bloc li")].map(l => l.textContent) }; }); };
