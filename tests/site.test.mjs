@@ -173,6 +173,43 @@ async function codes(nav) {
   verifier("Codes : montants en dollars, deux décimales", (await p.locator(".co-valeur").first().textContent()).match(/^\d[\d\s]*,\d{2}(\s\/\s[\d\s]+,\d{2})?\s\$$/) !== null, await p.locator(".co-valeur").first().textContent());
   await p.goto(BASE + "/codes/?q=pessaire"); await p.waitForTimeout(600); e = await etat();
   verifier("Codes : un lien avec ?q= lance la recherche", e.titres.length === 1 && /pessaire/i.test(e.titres[0]), e);
+  // Exactitude : les vérifications qui étaient dans les tests de Wealth, quand le répertoire y était affiché.
+  const rangees = () => p.evaluate(() => [...document.querySelectorAll(".co-rangee")].map(r => ({ titre: r.querySelector(".co-titre").textContent, sous: (r.querySelector(".co-sous") || {}).textContent || "",
+    valeur: ((r.querySelector(".co-valeur") || {}).textContent || "").replace(/\s/g, " "), detail: ((r.querySelector(".co-valeur-sous") || {}).textContent || "").replace(/\s/g, " "),
+    code: (r.querySelector(".co-code") || {}).textContent || "", grise: r.classList.contains("co-non") })));
+  await p.goto(BASE + "/codes/"); await p.waitForTimeout(600);
+  await chercher("15804"); let r = await rangees();
+  verifier("Codes : 15804, 32,25 / 36,95 $ selon le palier ; au mixte 20,50 / 23,49 $", r.length === 1 && r[0].valeur === "32,25 / 36,95 $" && r[0].detail === "au mixte 20,50 / 23,49 $" && r[0].sous.includes("15803, 15804"), r);
+  await chercher("08875"); r = await rangees();
+  verifier("Codes : le forfait GMF (08875), 9,35 $, payé à 100 %", r.length === 1 && r[0].titre.startsWith("Forfait de prise en charge et de suivi de la clientèle en GMF") && r[0].valeur === "9,35 $" && r[0].detail === "payé à 100 %", r);
+  e = await chercher("cryochirurgie"); verifier("Codes : « cryochirurgie » trouve 6 actes", e.titres.length === 6, e.titres);
+  e = await chercher("STERILET"); verifier("Codes : « STERILET » trouve les actes du stérilet, sans accents ni majuscules ; le curseur reste dans le champ",
+    e.titres.length === 3 && e.titres.every(t => /stérilet/i.test(t)) && await p.evaluate(() => document.activeElement.id === "co-q"), e.titres);
+  await p.fill("#co-q", ""); await p.click('[data-v="formulaires"]'); await p.waitForTimeout(200); r = await rangees();
+  const nCnesst = D.actes.filter(a => /^CNESST/.test(a.n)).length;
+  verifier("Codes : « Formulaires et suppléments » commence par le forfait GMF ; les 42 formulaires de la CNESST à la fin",
+    nCnesst === 42 && r[0].titre.startsWith("Forfait de prise en charge") && r.slice(-42).every(x => x.titre.startsWith("CNESST")) && !r.slice(0, -42).some(x => x.titre.startsWith("CNESST")), { n: r.length, premier: r[0].titre });
+  await p.fill("#co-q", "19914"); await p.waitForTimeout(250); e = await etat();
+  verifier("Codes : 19914 cherché dans « Formulaires » mène au demi-per diem, avec un avis", (await p.locator(".co-avis").textContent()).includes("autres groupes") && e.titres.some(t => t.startsWith("Demi-per diem")), e.titres);
+  await p.fill("#co-q", ""); await p.click('[data-v="non"]'); await p.waitForTimeout(200); r = await rangees();
+  verifier("Codes : les actes non facturables à part sont marqués « Compris », en gris", r.length === D.actes.filter(a => !a.p).length && r.length > 0 && r.every(x => x.valeur === "Compris" && x.grise), r.length);
+  await p.click('[data-v="tous"]'); await p.waitForTimeout(200); r = await rangees();
+  verifier("Codes : le répertoire s'ouvre sur le forfait horaire ; chaque acte payé a un montant", r.length === D.actes.length && r[0].titre.startsWith("Forfait horaire") && r.filter(x => !x.grise).every(x => /\d,\d{2}( \/ [\d ]+,\d{2})? \$$/.test(x.valeur) || x.valeur === "— $"), r.find(x => !x.grise && !/\$$/.test(x.valeur)));
+  // Codes de vulnérabilité : 20 catégories, la 14 fermée ; la source et sa limite sont dites.
+  await p.setViewportSize({ width: 320, height: 700 });
+  await p.click('[data-v="vulnerabilite"]'); await p.waitForTimeout(200); r = await rangees(); e = await etat();
+  verifier("Vulnérabilité : 20 codes de 01 à 20, le 14 fermé et grisé, c'est dit", r.length === 20 && r[0].code === "01" && r[19].code === "20" && r.filter(x => x.grise).map(x => x.code).join() === "14"
+    && e.etat === "20 catégories, dont 1 fermée" && r[13].titre.includes("Fermé le 30 juin 2019"), { etat: e.etat, grises: r.filter(x => x.grise).map(x => x.code) });
+  const note = await p.textContent("#co-note-vulnerabilite");
+  verifier("Vulnérabilité : source et limite indiquées", /FMOQ \(2017\)/.test(note) && /infolettre 171/.test(note) && /source manquante/.test(note), note);
+  await p.fill("#co-q", "diabete"); await p.waitForTimeout(250); r = await rangees();
+  verifier("Vulnérabilité : « diabete » sans accent trouve le code 05", r.map(x => x.code).join() === "05", r.map(x => x.code));
+  await p.fill("#co-q", "FA"); await p.waitForTimeout(250); r = await rangees();
+  verifier("Vulnérabilité : « FA » trouve seulement les codes 13 et 14", r.map(x => x.code).join() === "13,14", r.map(x => x.code));
+  await p.fill("#co-q", "zzzzq"); await p.waitForTimeout(250);
+  verifier("Vulnérabilité : aucun résultat, c'est dit ; rien ne déborde à 320 px", (await p.locator(".cr-vide").count()) === 1 && await p.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth));
+  await p.fill("#co-q", ""); await p.click('[data-v="tous"]'); await p.waitForTimeout(200);
+  verifier("Codes : tous les actes à 320 px, rien ne déborde", await p.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth));
   verifier("Codes : aucune erreur", erreurs.length === 0, erreurs);
   await ctx.close();
 }

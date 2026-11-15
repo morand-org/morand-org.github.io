@@ -53,7 +53,8 @@
       const l = trouverVuln(mots);
       if (l.length) zone.appendChild(carte("Codes de vulnérabilité", "de 01 à 20", l.map(rangeeVuln)));
       else zone.appendChild(el("p", "cr-vide", "Aucune catégorie ne correspond."));
-      etat.textContent = `${nb(l.length)} catégorie${l.length > 1 ? "s" : ""}`; return;
+      const fermees = l.filter(v => v.ferme).length;
+      etat.textContent = `${nb(l.length)} catégorie${l.length > 1 ? "s" : ""}${fermees ? `, dont ${nb(fermees)} fermée${fermees > 1 ? "s" : ""}` : ""}`; return;
     }
     const large = groupe === "tous" || groupe === "frequents";
     const frequents = groupe === "frequents" && !recherche;

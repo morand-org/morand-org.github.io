@@ -52,6 +52,9 @@ Les codes viennent du dépôt de Wealth Morand, qui reste la source et vérifie 
 node outils/construire-codes.mjs ../wealth    # refait codes/codes_data.json
 ```
 
+Wealth n'affiche plus ces codes : son en-tête mène ici. L'affichage (montants, part au mixte, « Compris », code 14
+fermé, source et limite des codes de vulnérabilité) se vérifie donc dans le scénario `codes` de `tests/site.test.mjs`.
+
 ## Recherche de l'accueil
 
 `morand/recherche.js` cherche dans les données déjà publiées des outils (`guides/donnees.json`,
