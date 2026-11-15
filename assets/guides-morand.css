@@ -236,3 +236,5 @@ body.gm {
   .gm-crds-prio { color: var(--gm-or-texte); }
   .gm-crds-prio[data-niveau="A"], .gm-crds-prio[data-niveau="B"] { background: #2a1b14; color: #e38a69; }
 }
+/* Le texte prend toute la largeur de son encadré (pas de colonne étroite à côté d'un grand vide). */
+.gm .guides-proposer p { max-width: none; }
