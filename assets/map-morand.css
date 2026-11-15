@@ -10,17 +10,17 @@ header, :root[data-region] header { background: #f6f3ec !important; box-shadow: 
 header::after, :root[data-region] header::after { display: none !important; }
 .mm-sceau { width: 46px; height: 46px; display: block; flex-shrink: 0; }
 .logo-text { color: #17160f !important; }
-.logo-text .brand-org { font: 500 11px/1 "Newsreader", Georgia, serif !important; letter-spacing: .32em !important; color: #9b7a3e !important; text-transform: uppercase; }
+.logo-text .brand-org { font: 500 11px/1 "Newsreader", Georgia, serif !important; letter-spacing: .32em !important; color: #8a6b2a !important; text-transform: uppercase; }
 .logo-text strong { font: 400 1.45rem/1.1 "Newsreader", Georgia, serif !important; letter-spacing: -.005em; color: #17160f !important; }
 .btn-share, .btn-theme, .btn-info { border-color: #d9d2c2 !important; color: #17160f !important; background: transparent !important; }
-.btn-share:hover, .btn-theme:hover, .btn-info:hover, .btn-info[aria-expanded="true"] { border-color: #9b7a3e !important; background: #f1ece0 !important; }
+.btn-share:hover, .btn-theme:hover, .btn-info:hover, .btn-info[aria-expanded="true"] { border-color: #8a6b2a !important; background: #f6edd5 !important; }
 
 /* Mode sombre : même habit, en encre chaude. */
 :root[data-theme="sombre"] header { background: #12110d !important; border-bottom-color: #8f7a52 !important; }
 :root[data-theme="sombre"] .logo-text strong { color: #efe9dc !important; }
-:root[data-theme="sombre"] .logo-text .brand-org { color: #c9a35c !important; }
+:root[data-theme="sombre"] .logo-text .brand-org { color: #e3cc94 !important; }
 :root[data-theme="sombre"] .btn-share, :root[data-theme="sombre"] .btn-theme, :root[data-theme="sombre"] .btn-info { border-color: #3a362c !important; color: #efe9dc !important; }
-:root[data-theme="sombre"] .btn-share:hover, :root[data-theme="sombre"] .btn-theme:hover, :root[data-theme="sombre"] .btn-info:hover { background: #23211b !important; border-color: #c9a35c !important; }
+:root[data-theme="sombre"] .btn-share:hover, :root[data-theme="sombre"] .btn-theme:hover, :root[data-theme="sombre"] .btn-info:hover { background: #23211b !important; border-color: #e3cc94 !important; }
 @media (max-width: 480px) { .mm-sceau { width: 38px; height: 38px; } .logo-text strong { font-size: 1.2rem !important; } .logo-text .brand-org { font-size: 9.5px !important; } }
 
 /* Navigation commune de Morand dans l'en-tête de la carte (Wealth, Guide, Map, CRDS). */
@@ -29,11 +29,11 @@ header { padding-left: 26px !important; gap: 26px !important; }
 .mo-outils { display: flex; gap: 28px; align-self: stretch; align-items: center; }
 .mo-outils a { font: 500 12px/1 var(--sq-font); letter-spacing: .2em; text-transform: uppercase; color: #6f6b61; text-decoration: none; padding: 14px 0 11px; white-space: nowrap; }
 .mo-outils a:hover { color: #17160f; }
-.mo-outils a[aria-current="page"] { color: #17160f; box-shadow: inset 0 -2px 0 #9b7a3e; }
-.mo-marque:focus-visible, .mo-outils a:focus-visible { outline: 2px solid #9b7a3e; outline-offset: 3px; }
+.mo-outils a[aria-current="page"] { color: #17160f; box-shadow: inset 0 -2px 0 #d9be7c; }
+.mo-marque:focus-visible, .mo-outils a:focus-visible { outline: 2px solid #d9be7c; outline-offset: 3px; }
 :root[data-theme="sombre"] .mo-marque, :root[data-theme="sombre"] .mo-outils a[aria-current="page"] { color: #efe9dc; }
 :root[data-theme="sombre"] .mo-outils a { color: #a59e8d; }
-:root[data-theme="sombre"] .mo-outils a[aria-current="page"] { box-shadow: inset 0 -2px 0 #c9a35c; }
+:root[data-theme="sombre"] .mo-outils a[aria-current="page"] { box-shadow: inset 0 -2px 0 #d9be7c; }
 @media (max-width: 760px) {
   header { padding-left: 14px !important; gap: 12px !important; }
   /* Sur téléphone, « Morand » devient le cèdre (retour à l'accueil), pour laisser la place aux cinq outils. */
@@ -43,7 +43,7 @@ header { padding-left: 26px !important; gap: 26px !important; }
 }
 @media (max-width: 360px) { header { gap: 8px !important; padding-left: 10px !important; } .mo-outils { gap: 8px; } .mo-outils a { font-size: 9px; letter-spacing: .06em; } .header-right { gap: 4px !important; } }
 /* Mode sombre : l'onglet actif (Cliniques / Établissements) en or, pour qu'il se distingue du fond. */
-:root[data-theme="sombre"] .care-mode-btn[aria-selected="true"] { background: #c9a35c !important; color: #12110d !important; }
+:root[data-theme="sombre"] .care-mode-btn[aria-selected="true"] { background: #d9be7c !important; color: #17160f !important; }
 /* En-tête comme les autres pages : MORAND à gauche, les outils à droite, sans les boutons partager, mode nuit et info. */
 header .header-right { display: none !important; }
 .mo-outils { margin-left: auto; padding-right: 26px; }

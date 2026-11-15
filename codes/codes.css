@@ -40,7 +40,7 @@
 .co-reglages { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px; max-width: 900px; margin: 14px auto 0; }
 .co-segment { display: inline-flex; padding: 3px; border: 1px solid var(--filet); border-radius: 999px; background: var(--carte); }
 .co-segment button { min-height: 36px; padding: 0 14px; border: 0; border-radius: 999px; background: none; color: var(--encre-2); font: 500 0.84rem/1 var(--sans); cursor: pointer; white-space: nowrap; }
-.co-segment button[aria-pressed="true"] { background: var(--or-texte); color: var(--papier); }
+.co-segment button[aria-pressed="true"] { background: var(--or); color: #17160f; }
 .co-segment button:disabled { color: var(--discret); opacity: .55; cursor: not-allowed; }
 .co-segment button:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
 @media (pointer: coarse) { .co-segment button { min-height: 44px; } }

@@ -3,15 +3,16 @@
 @font-face { font-family: "Inter"; src: url("/morand/inter.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
 @font-face { font-family: "Newsreader"; src: url("/morand/newsreader.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
 :root {
-  --papier: #fdfcf8; --carte: #ffffff; --beige: #f1ece0; --encre: #17160f; --encre-2: #55524a; --discret: #6f6b61; --filet: #e2dccd;
-  --or: #9b7a3e; --or-texte: #7d6230; --alerte: #a2401f; --alerte-fond: #f8ebe4; --ok: #3f6b3a;
+  --papier: #fdfcf8; --carte: #ffffff; --beige: #f6edd5; --encre: #17160f; --encre-2: #55524a; --discret: #6f6b61; --filet: #e2dccd;
+  /* Champagne : --or pour les traits et les pastilles, --or-texte (plus foncé) pour le texte. */
+  --or: #d9be7c; --or-texte: #8a6b2a; --alerte: #a2401f; --alerte-fond: #f8ebe4; --ok: #3f6b3a;
   --serif: "Newsreader", ui-serif, "New York", Georgia, serif; --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --largeur: 1060px;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root { --papier: #12110d; --carte: #1a1914; --beige: #23211b; --encre: #efe9dc; --encre-2: #c9c2b2; --discret: #a59e8d; --filet: #2f2c25;
-    --or: #c9a35c; --or-texte: #d4b06a; --alerte: #e38a69; --alerte-fond: #2a1b14; --ok: #8fbf86; color-scheme: dark; }
+    --or: #d9be7c; --or-texte: #e3cc94; --alerte: #e38a69; --alerte-fond: #2a1b14; --ok: #8fbf86; color-scheme: dark; }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; background: var(--papier); }
@@ -39,8 +40,8 @@ main { flex: 1 0 auto; }
 .cr-logo img { display: block; width: clamp(96px, 14vw, 128px); height: auto; }
 .cr-intro h1 { margin: 16px 0 0; font: 400 clamp(2.1rem, 5vw, 2.6rem)/1 var(--serif); letter-spacing: -0.005em; }
 .cr-nom { text-decoration: none; }
-.cr-nom:hover { color: var(--or); }
-.cr-devise { margin: 12px 0 0; font: 500 10px/1.4 var(--sans); letter-spacing: 0.3em; text-transform: uppercase; color: var(--or); }
+.cr-nom:hover { color: var(--or-texte); }
+.cr-devise { margin: 12px 0 0; font: 500 10px/1.4 var(--sans); letter-spacing: 0.3em; text-transform: uppercase; color: var(--or-texte); }
 .cr-lead { max-width: 560px; margin: 14px auto 0; font: 400 1.02rem/1.5 var(--serif); color: var(--encre-2); }
 
 /* Recherche : un grand champ au centre, raccourci ⌘K / Ctrl K. */
@@ -192,7 +193,7 @@ main { flex: 1 0 auto; }
   font: 600 10px/1.3 var(--sans); letter-spacing: 0.1em; text-transform: uppercase; }
 .cr-carte-ac { border-color: var(--or); background: color-mix(in srgb, var(--beige) 55%, var(--carte)); }
 .cr-prio-ac { background: var(--or); }
-.cr-prio-ac b, .cr-prio-ac span { color: var(--papier); }
+.cr-prio-ac b, .cr-prio-ac span { color: #17160f; }
 .cr-ac-texte { margin: 0; font-size: 0.92rem; color: var(--encre-2); }
 .cr-ac-panneau { grid-column: 1 / -1; margin-top: 26px; padding: 20px 22px; border: 1px solid var(--or); border-radius: 18px; background: var(--carte); }
 .cr-ac-panneau h2 { margin: 0 0 8px; font: 400 1.4rem/1.2 var(--serif); }
