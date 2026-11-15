@@ -120,6 +120,10 @@ async function crds(nav) {
   const { ctx, p, erreurs } = await ouvrir(nav, "/crds/");
   const etat = () => p.evaluate(() => ({ etat: document.getElementById("cr-etat").textContent, tuiles: document.querySelectorAll(".cr-spec").length, panneau: document.querySelectorAll(".cr-ac-panneau").length,
     cartes: document.querySelectorAll(".cr-carte").length, ac: [...document.querySelectorAll(".cr-carte-ac h3")].map(h => h.textContent), onglets: [...document.querySelectorAll(".cr-vue")].map(b => b.textContent + (b.getAttribute("aria-selected") === "true" ? "*" : "")) }));
+  // TPP : les seuils de l'ordonnance (Wells ≥ 2) ; la phrase du portail sur les scores de 1 ou 2 n'est pas reprise.
+  const tpp = JSON.stringify(PB.protocoles.find(x => x.id === "pb-tpp") || null);
+  verifier("Accueil clinique, TPP : la phrase du portail « scores de Wells de 1 ou 2 » n'est pas affichée ; les seuils de l'ordonnance, oui",
+    tpp !== "null" && !/Wells de 1 ou 2, un doppler/.test(tpp) && /Wells ≥ 2/.test(tpp), tpp.slice(0, 200));
   let e = await etat();
   verifier("CRDS : au départ, les spécialités", e.tuiles === D.formulaires.length && e.panneau === 0 && e.onglets.join() === "CRDS*,Accueil clinique,Favoris", e);
   await p.click('.cr-vue[data-v="accueil"]'); await p.waitForTimeout(200); e = await etat();

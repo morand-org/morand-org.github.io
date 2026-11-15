@@ -66,9 +66,9 @@ const CHOIX = [
   { i: 10, id: "pb-map", syn: ["MAP", "claudication", "MVAS", "artériopathie", "blue toe", "ischémie"],
     indication: [0, 1, 2], ciGen: [0, 1], ciSpec: [2, 3], prerequis: [], urgence: [0, 1] },
   { i: 11, id: "pb-tpp", msss: "Suspicion de thrombophlébite profonde", syn: ["TVP", "TPP", "thrombose", "phlébite", "mollet", "thrombophlébite"],
-    indication: [0], ciGen: [0, 1], ciSpec: suite(2, 7), prerequis: [0, 1, 2], urgence: [0], annexes: [2], portailSans: [1, 2],
+    indication: [0], ciGen: [0, 1], ciSpec: suite(2, 7), prerequis: [0, 1, 2], urgence: [0], annexes: [2], portailSans: [1, 2, 6],
     // Seuils confirmés le 14 novembre 2026 : ceux de l'ordonnance (Wells ≥ 2, immobilisation > 3 jours) ; le portail se trompe.
-    ecartsTexte: p => ["Les valeurs de l'ordonnance OPE-00108 sont les bonnes (vérifié le 14 novembre 2026) : score de Wells ≥ 2 et immobilisation récente > 3 jours. Le portail affiche « Score de Wells ≥ 1 » et « Immobilisation récente (≤ 3 jours) » : les deux étapes du portail qui reposent sur ce seuil ne sont pas reproduites.",
+    ecartsTexte: p => ["Les valeurs de l'ordonnance OPE-00108 sont les bonnes (vérifié le 14 novembre 2026) : score de Wells ≥ 2 et immobilisation récente > 3 jours. Le portail affiche « Score de Wells ≥ 1 » et « Immobilisation récente (≤ 3 jours) » : les deux étapes du portail qui reposent sur ce seuil, et sa phrase sur les scores de Wells de 1 ou 2, ne sont pas reproduites.",
       `« ${net(p.prerequis[2])} » est une vérification faite par l'infirmière à l'arrivée : la première dose doit donc être prescrite et prise avant la visite (ordonnance pour la pharmacie : « première dose STAT »).`] },
   { i: 12, id: "pb-cellulite", msss: "Cellulite", syn: ["cellulite", "infection de la peau", "érysipèle", "antibiotique IV"],
     indication: [0], ciGen: [0, 1], ciSpec: [2, 3, 4], prerequis: [0], urgence: [0] },
@@ -80,7 +80,7 @@ const page = p => p.sources.find(s => /page du protocole/.test(s.titre)) || p.so
 const protocoles = CHOIX.map(c => {
   const p = R.protocoles[c.i], nom = p.nom;
   const ens = p.ensuite, ains = p.a_inscrire_sur_la_demande;
-  for (const i of c.portailSans || []) if (deOrdonnance(ens[i]) || !/Score de Wells/.test(ens[i])) throw new Error(`${nom} : la ligne ${i} à écarter n'est pas celle attendue`);
+  for (const i of c.portailSans || []) if (deOrdonnance(ens[i]) || !/scores? de Wells/i.test(ens[i])) throw new Error(`${nom} : la ligne ${i} à écarter n'est pas celle attendue`);
   const omises = ens.filter(x => !deOrdonnance(x) && TRONQUE.test(x)).length;
   const notesRedigees = typeof c.ecartsTexte === "function" ? c.ecartsTexte(p) : c.ecartsTexte || [];
   for (const t of notesRedigees) for (const [, cite] of t.matchAll(/« ([^»]+) »/g)) if (!brut.replace(/\\"/g, '"').includes(cite)) throw new Error(`${nom} : citation absente du relevé : ${cite}`);
