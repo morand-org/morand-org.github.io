@@ -10,6 +10,7 @@ Site statique des outils du médecin de famille, servi par GitHub Pages à www.m
 | `/guides/` | Guide Morand : catalogue de guides cliniques | copie construite depuis Trouve ta clinique |
 | `/map/` | Map Morand : carte interactive de la Montérégie | copie construite depuis Trouve ta clinique |
 | `/crds/` | CRDS Morand : priorité, critères et prérequis des formulaires de l'APSS (`crds/crds_data.json`, recherche instantanée) | écrit ici : un fichier par formulaire dans `outils/crds/formulaires/` (transcrit et vérifié contre le PDF du MSSS), assemblé par `node outils/crds/construire-crds.mjs` |
+| `/codes/` | Codes Morand : codes d'actes, CNESST, codes de vulnérabilité | `outils/construire-codes.mjs`, depuis le dépôt de Wealth |
 
 ## Mettre à jour la carte et les guides
 
@@ -41,6 +42,33 @@ node outils/crds/construire-crds.mjs                      # refait crds/crds_dat
 Chaque ligne publiée est une ligne du relevé, choisie par son rang et recopiée telle quelle. Le portail coupe le
 texte après le signe « < » : ces lignes ne sont jamais publiées, et la version de l'ordonnance les remplace quand
 elle existe. Quand le portail et l'ordonnance diffèrent, les deux versions sont affichées et nommées.
+
+## Codes Morand
+
+Les codes viennent du dépôt de Wealth Morand, qui reste la source et vérifie leurs montants dans ses tests
+(`js/repertoire.js`, `js/calc.js` pour la CNESST, `js/catalogues.js` pour les codes de vulnérabilité) :
+
+```
+node outils/construire-codes.mjs ../wealth    # refait codes/codes_data.json
+```
+
+## Recherche de l'accueil
+
+`morand/recherche.js` cherche dans les données déjà publiées des outils (`guides/donnees.json`,
+`crds/crds_data.json`, `codes/codes_data.json`, `map/data.json`), chargées au premier usage du champ. Rien n'est
+transmis. Dans CRDS Morand, les favoris et les recherches récentes restent dans le stockage de l'appareil
+(`morand.crds.favoris`, `morand.crds.recents`).
+
+## Tests
+
+```
+node tests/site.test.mjs                      # tout (Chromium, par Playwright)
+SCENARIOS=crds,codes node tests/site.test.mjs
+```
+
+Le test sert le dépôt lui-même et bloque les autres sites. Scénarios : `pages`, `navigation`, `motsColles`,
+`accueil`, `crds`, `codes`, `guide`, `sombre`, `fichiers`. À lancer avant chaque publication ; une correction
+ajoute la vérification qui aurait échoué avant.
 
 ## Référencement
 

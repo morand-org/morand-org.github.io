@@ -19,6 +19,7 @@ const PAGES = [
   ["/guides/", RACINE, "guides/index.html"],
   ["/guides/ressources-communautaires/", RACINE, "guides/ressources-communautaires/index.html"],
   ["/crds/", RACINE, "crds/crds_data.json"],
+  ["/codes/", RACINE, "codes/codes_data.json"],
   ["/confidentialite/", RACINE, "confidentialite/index.html"],
 ];
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

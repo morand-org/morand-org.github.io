@@ -23,7 +23,7 @@
       { nom: "CRDS", sceau: "/morand/sceau-crds.svg", tout: t => u("/crds/", t),
         items: c.problemes.map(p => ({ t: p.probleme, s: `${p.specialite} · priorité ${[...new Set(p.priorites.map(v => v.niveau))].sort().join(", ")}`, u: u("/crds/", p.probleme), w: mots(`${p.probleme} ${p.specialite} ${p.synonymes.join(" ")}`) })) },
       { nom: "Codes", sceau: "/morand/sceau-codes.svg", tout: t => u("/codes/", t),
-        items: [...k.actes.map(a => ({ t: a.n, s: [noms[a.g], a.c.join(", ")].filter(Boolean).join(" · "), u: u("/codes/", a.c[0] || a.n), w: mots(`${a.n} ${a.c.join(" ")} ${a.k || ""}`) })),
+        items: [...k.actes.map(a => ({ t: a.n, s: [noms[a.g], a.c.join(", ")].filter(Boolean).join(" · "), u: u("/codes/", a.c[0] || a.n), codes: a.c, w: mots(`${a.n} ${a.c.join(" ")} ${a.k || ""}`) })),
           ...k.vulnerabilite.map(v => ({ t: `Code de vulnérabilité ${v.code}`, s: v.libelle, u: `/codes/?g=vulnerabilite&q=${encodeURIComponent(v.code)}`, w: mots(`${v.code} ${v.libelle} ${v.m} vulnerabilite`) }))] },
       { nom: "Guides cliniques", sceau: "/morand/sceau-guide.svg", tout: t => u("/guides/", t), items: g.filter(x => x.format).map(guide) },
       { nom: "Ressources communautaires", sceau: "/morand/sceau-guide.svg", tout: t => u("/guides/ressources-communautaires/", t), items: g.filter(x => !x.format).map(guide) },
@@ -45,7 +45,8 @@
       const s = el("section", "rg-groupe"), h = el("h2"), im = el("img"); im.src = g.sceau; im.alt = ""; im.width = im.height = 22;
       h.append(im, document.createTextNode(g.nom), el("span", null, String(r.length))); s.appendChild(h);
       const ul = el("ul");
-      r.slice(0, 3).forEach(x => { const li = el("li"), a = el("a"); a.href = x.u; if (x.dehors) { a.target = "_blank"; a.rel = "noopener noreferrer"; }
+      r.slice(0, 3).forEach(x => { const li = el("li"), a = el("a"), t = q.value.trim();
+        a.href = x.codes && x.codes.includes(t) ? u("/codes/", t) : x.u;   // le code tapé, s'il est un des codes de l'acte if (x.dehors) { a.target = "_blank"; a.rel = "noopener noreferrer"; }
         a.append(el("span", "rg-t", x.t), el("span", "rg-s", x.s)); li.appendChild(a); ul.appendChild(li); });
       s.appendChild(ul);
       if (r.length > 3) { const a = el("a", "rg-tout", `Voir les ${r.length} résultats`); a.href = g.tout(q.value.trim()); s.appendChild(a); }
