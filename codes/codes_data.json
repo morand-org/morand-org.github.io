@@ -47,7 +47,9 @@
    ],
    "t": 59.68,
    "p": 100,
-   "k": "heure presence"
+   "k": "heure presence",
+   "mixteSeul": true,
+   "cab": null
   },
   {
    "g": "base",
@@ -57,7 +59,9 @@
    ],
    "t": 14.92,
    "p": 100,
-   "k": "heure quart"
+   "k": "heure quart",
+   "mixteSeul": true,
+   "cab": null
   },
   {
    "g": "base",
@@ -70,7 +74,9 @@
    "t": 24.87,
    "p": 62.15,
    "k": "resident externe enseignement superviseur apprenant",
-   "note": "Au plus 3,5 h l'avant-midi (42096) et le soir (42098), 5 h l'après-midi (42097) ; un seul acte quel que soit le nombre d'apprenants."
+   "note": "Au plus 3,5 h l'avant-midi (42096) et le soir (42098), 5 h l'après-midi (42097) ; un seul acte quel que soit le nombre d'apprenants.",
+   "mixteSeul": true,
+   "cab": null
   },
   {
    "g": "base",
@@ -80,7 +86,9 @@
    ],
    "t": 24.87,
    "p": 62.15,
-   "k": "enseignement formation"
+   "k": "enseignement formation",
+   "mixteSeul": true,
+   "cab": null
   },
   {
    "g": "base",
@@ -105,7 +113,11 @@
    ],
    "p": 100,
    "k": "ep 42 resident externe forfait de formation",
-   "note": "EP 42 ; liste 2 : 65,20 $ et 73,55 $."
+   "note": "EP 42 ; liste 2 : 65,20 $ et 73,55 $.",
+   "cab": [
+    55.35,
+    66.45
+   ]
   },
   {
    "g": "visites",
@@ -119,7 +131,28 @@
     36.95
    ],
    "p": 63.58,
-   "k": "visite rendez-vous"
+   "k": "visite rendez-vous",
+   "cab": [
+    42.85,
+    49.15
+   ],
+   "m": {
+    "sec": [
+     "107847"
+    ],
+    "ctx": [
+     "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+    ],
+    "lies": [
+     "15817",
+     "15818",
+     "15823",
+     "15824",
+     "15837",
+     "15838"
+    ],
+    "ancre": "268093"
+   }
   },
   {
    "g": "visites",
@@ -133,7 +166,28 @@
     45.2
    ],
    "p": 63.58,
-   "k": "visite rendez-vous"
+   "k": "visite rendez-vous",
+   "cab": [
+    53.5,
+    59.8
+   ],
+   "m": {
+    "sec": [
+     "107847"
+    ],
+    "ctx": [
+     "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+    ],
+    "lies": [
+     "15803",
+     "15804",
+     "15817",
+     "15818",
+     "15837",
+     "15838"
+    ],
+    "ancre": "268165"
+   }
   },
   {
    "g": "visites",
@@ -147,7 +201,20 @@
     17.7
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv"
+   "k": "sans rendez-vous srv",
+   "cab": [
+    20.4,
+    23.55
+   ],
+   "m": {
+    "sec": [
+     "107848"
+    ],
+    "lies": [
+     "15772"
+    ],
+    "ancre": "268336"
+   }
   },
   {
    "g": "visites",
@@ -161,7 +228,17 @@
     35.4
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv"
+   "k": "sans rendez-vous srv",
+   "cab": [
+    40.8,
+    47.05
+   ],
+   "m": {
+    "lies": [
+     "15780"
+    ],
+    "ancre": "268338"
+   }
   },
   {
    "g": "visites",
@@ -175,7 +252,21 @@
     84.8
    ],
    "p": 63.58,
-   "k": "examen annuel bilan"
+   "k": "examen annuel bilan",
+   "cab": [
+    96.35,
+    112.4
+   ],
+   "m": {
+    "sec": [
+     "107846"
+    ],
+    "lies": [
+     "15839",
+     "15840"
+    ],
+    "ancre": "268183"
+   }
   },
   {
    "g": "visites",
@@ -189,7 +280,14 @@
     43.65
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv"
+   "k": "sans rendez-vous srv",
+   "cab": [
+    51.4,
+    57.65
+   ],
+   "m": {
+    "ancre": "268351"
+   }
   },
   {
    "g": "visites",
@@ -203,7 +301,14 @@
     25.9
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv"
+   "k": "sans rendez-vous srv",
+   "cab": [
+    31,
+    34.15
+   ],
+   "m": {
+    "ancre": "268348"
+   }
   },
   {
    "g": "visites",
@@ -217,7 +322,25 @@
     74.75
    ],
    "p": 63.58,
-   "k": "inscription nouveau patient pec"
+   "k": "inscription nouveau patient pec",
+   "cab": [
+    85.75,
+    99.4
+   ],
+   "m": {
+    "sec": [
+     "107845"
+    ],
+    "lies": [
+     "15815",
+     "15816",
+     "15821",
+     "15822",
+     "15835",
+     "15836"
+    ],
+    "ancre": "266743"
+   }
   },
   {
    "g": "visites",
@@ -231,7 +354,25 @@
     82.9
    ],
    "p": 63.58,
-   "k": "inscription nouveau patient pec"
+   "k": "inscription nouveau patient pec",
+   "cab": [
+    96.35,
+    110
+   ],
+   "m": {
+    "sec": [
+     "107845"
+    ],
+    "lies": [
+     "15801",
+     "15802",
+     "15815",
+     "15816",
+     "15835",
+     "15836"
+    ],
+    "ancre": "268162"
+   }
   },
   {
    "g": "visites",
@@ -245,7 +386,28 @@
     51.95
    ],
    "p": 63.58,
-   "k": "visite age"
+   "k": "visite age",
+   "cab": [
+    61.3,
+    68.85
+   ],
+   "m": {
+    "sec": [
+     "107847"
+    ],
+    "ctx": [
+     "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+    ],
+    "lies": [
+     "15803",
+     "15804",
+     "15817",
+     "15818",
+     "15823",
+     "15824"
+    ],
+    "ancre": "268333"
+   }
   },
   {
    "g": "visites",
@@ -259,7 +421,28 @@
     43.8
    ],
    "p": 63.58,
-   "k": "visite age"
+   "k": "visite age",
+   "cab": [
+    50.65,
+    58.25
+   ],
+   "m": {
+    "sec": [
+     "107847"
+    ],
+    "ctx": [
+     "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+    ],
+    "lies": [
+     "15803",
+     "15804",
+     "15823",
+     "15824",
+     "15837",
+     "15838"
+    ],
+    "ancre": "268325"
+   }
   },
   {
    "g": "visites",
@@ -273,7 +456,24 @@
     57
    ],
    "p": 63.58,
-   "k": "enfant bebe"
+   "k": "enfant bebe",
+   "cab": [
+    66.9,
+    75.85
+   ],
+   "m": {
+    "sec": [
+     "107856"
+    ],
+    "ctx": [
+     "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+    ],
+    "lies": [
+     "15833",
+     "15834"
+    ],
+    "ancre": "268155"
+   }
   },
   {
    "g": "visites",
@@ -287,7 +487,21 @@
     42.85
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte prenatal"
+   "k": "obstetrique enceinte prenatal",
+   "cab": [
+    50.2,
+    57
+   ],
+   "m": {
+    "sec": [
+     "107855"
+    ],
+    "lies": [
+     "15831",
+     "15832"
+    ],
+    "ancre": "268149"
+   }
   },
   {
    "g": "visites",
@@ -301,7 +515,21 @@
     97.3
    ],
    "p": 63.58,
-   "k": "examen annuel age"
+   "k": "examen annuel age",
+   "cab": [
+    112.4,
+    129.15
+   ],
+   "m": {
+    "sec": [
+     "107846"
+    ],
+    "lies": [
+     "15819",
+     "15820"
+    ],
+    "ancre": "268330"
+   }
   },
   {
    "g": "visites",
@@ -315,7 +543,25 @@
     97.3
    ],
    "p": 63.58,
-   "k": "inscription pec age"
+   "k": "inscription pec age",
+   "cab": [
+    112.4,
+    129.15
+   ],
+   "m": {
+    "sec": [
+     "107845"
+    ],
+    "lies": [
+     "15801",
+     "15802",
+     "15815",
+     "15816",
+     "15821",
+     "15822"
+    ],
+    "ancre": "268328"
+   }
   },
   {
    "g": "visites",
@@ -329,7 +575,25 @@
     89.15
    ],
    "p": 63.58,
-   "k": "inscription pec age"
+   "k": "inscription pec age",
+   "cab": [
+    101.8,
+    118.5
+   ],
+   "m": {
+    "sec": [
+     "107845"
+    ],
+    "lies": [
+     "15801",
+     "15802",
+     "15821",
+     "15822",
+     "15835",
+     "15836"
+    ],
+    "ancre": "266744"
+   }
   },
   {
    "g": "visites",
@@ -343,7 +607,24 @@
     65.2
    ],
    "p": 63.58,
-   "k": "enfant"
+   "k": "enfant",
+   "cab": [
+    77.55,
+    86.45
+   ],
+   "m": {
+    "sec": [
+     "107856"
+    ],
+    "ctx": [
+     "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+    ],
+    "lies": [
+     "15813",
+     "15814"
+    ],
+    "ancre": "268321"
+   }
   },
   {
    "g": "visites",
@@ -357,7 +638,21 @@
     51.1
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": [
+    60.8,
+    67.6
+   ],
+   "m": {
+    "sec": [
+     "107855"
+    ],
+    "lies": [
+     "15811",
+     "15812"
+    ],
+    "ancre": "268298"
+   }
   },
   {
    "g": "visites",
@@ -371,7 +666,26 @@
     113.65
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": [
+    132.8,
+    151.15
+   ],
+   "m": {
+    "lies": [
+     "15807",
+     "15808",
+     "15809",
+     "15810",
+     "15825",
+     "15826",
+     "15827",
+     "15828",
+     "15829",
+     "15830"
+    ],
+    "ancre": "266943"
+   }
   },
   {
    "g": "visites",
@@ -385,7 +699,26 @@
     73.55
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": [
+    85.75,
+    97.75
+   ],
+   "m": {
+    "lies": [
+     "15805",
+     "15806",
+     "15809",
+     "15810",
+     "15825",
+     "15826",
+     "15827",
+     "15828",
+     "15829",
+     "15830"
+    ],
+    "ancre": "268132"
+   }
   },
   {
    "g": "visites",
@@ -399,7 +732,26 @@
     73.55
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": [
+    85.75,
+    97.75
+   ],
+   "m": {
+    "lies": [
+     "15805",
+     "15806",
+     "15807",
+     "15808",
+     "15825",
+     "15826",
+     "15827",
+     "15828",
+     "15829",
+     "15830"
+    ],
+    "ancre": "268159"
+   }
   },
   {
    "g": "visites",
@@ -413,7 +765,26 @@
     121.85
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": [
+    143.4,
+    161.75
+   ],
+   "m": {
+    "lies": [
+     "15805",
+     "15806",
+     "15807",
+     "15808",
+     "15809",
+     "15810",
+     "15827",
+     "15828",
+     "15829",
+     "15830"
+    ],
+    "ancre": "268185"
+   }
   },
   {
    "g": "visites",
@@ -427,7 +798,26 @@
     81.75
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": [
+    96.35,
+    108.4
+   ],
+   "m": {
+    "lies": [
+     "15805",
+     "15806",
+     "15807",
+     "15808",
+     "15809",
+     "15810",
+     "15825",
+     "15826",
+     "15829",
+     "15830"
+    ],
+    "ancre": "268186"
+   }
   },
   {
    "g": "visites",
@@ -441,7 +831,26 @@
     81.75
    ],
    "p": 63.58,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": [
+    96.35,
+    108.4
+   ],
+   "m": {
+    "lies": [
+     "15805",
+     "15806",
+     "15807",
+     "15808",
+     "15809",
+     "15810",
+     "15825",
+     "15826",
+     "15827",
+     "15828"
+    ],
+    "ancre": "268296"
+   }
   },
   {
    "g": "visites",
@@ -455,7 +864,14 @@
     21.05
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv age"
+   "k": "sans rendez-vous srv age",
+   "cab": [
+    24.25,
+    28.05
+   ],
+   "m": {
+    "ancre": "268356"
+   }
   },
   {
    "g": "visites",
@@ -469,7 +885,14 @@
     42.15
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv age"
+   "k": "sans rendez-vous srv age",
+   "cab": [
+    48.5,
+    56.05
+   ],
+   "m": {
+    "ancre": "268362"
+   }
   },
   {
    "g": "visites",
@@ -483,7 +906,20 @@
     29.3
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv age"
+   "k": "sans rendez-vous srv age",
+   "cab": [
+    34.9,
+    38.65
+   ],
+   "m": {
+    "sec": [
+     "107848"
+    ],
+    "lies": [
+     "15765"
+    ],
+    "ancre": "268413"
+   }
   },
   {
    "g": "visites",
@@ -497,7 +933,17 @@
     50.35
    ],
    "p": 63.58,
-   "k": "sans rendez-vous srv age"
+   "k": "sans rendez-vous srv age",
+   "cab": [
+    59.1,
+    66.65
+   ],
+   "m": {
+    "lies": [
+     "15773"
+    ],
+    "ancre": "268459"
+   }
   },
   {
    "g": "visites",
@@ -507,7 +953,14 @@
    ],
    "t": 55.05,
    "p": 63.58,
-   "k": "psychiatrie"
+   "k": "psychiatrie",
+   "cab": null,
+   "m": {
+    "sec": [
+     "107851"
+    ],
+    "ancre": "268468"
+   }
   },
   {
    "g": "visites",
@@ -517,7 +970,14 @@
    ],
    "t": 74.75,
    "p": 63.58,
-   "k": "psychiatrie"
+   "k": "psychiatrie",
+   "cab": 99.4,
+   "m": {
+    "sec": [
+     "107850"
+    ],
+    "ancre": "266745"
+   }
   },
   {
    "g": "visites",
@@ -527,7 +987,14 @@
    ],
    "t": 40.6,
    "p": 63.58,
-   "k": "opinion consultation"
+   "k": "opinion consultation",
+   "cab": 40.6,
+   "m": {
+    "sec": [
+     "107852"
+    ],
+    "ancre": "268522"
+   }
   },
   {
    "g": "visites",
@@ -537,7 +1004,14 @@
    ],
    "t": 63,
    "p": 63.58,
-   "k": "opinion consultation"
+   "k": "opinion consultation",
+   "cab": 63,
+   "m": {
+    "sec": [
+     "107853"
+    ],
+    "ancre": "268523"
+   }
   },
   {
    "g": "visites",
@@ -555,7 +1029,32 @@
     "patient additionnel"
    ],
    "p": 63.58,
-   "k": "domicile"
+   "k": "domicile",
+   "cab": [
+    133.25,
+    102.55
+   ],
+   "m": {
+    "lib": {
+     "15781": "Premier patient",
+     "15782": "Patient additionnel en perte sévère d'autonomie"
+    },
+    "avis": [
+     "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code postal ou le numéro du lieu habituel de pratique.",
+     "Les codes de facturation 15781, 15782, 15783 et 15784 pour la visite à domicile doivent être utilisés seulement pour le premier, le deuxième ou le troisième patient vu sous un même toit. Le cas échéant, pour préciser qu'il s'agit d'un déplacement subséquent et se prévaloir à nouveau de la visite à domicile pour le patient en perte sévère d'autonomie ou en soins palliatifs au cours d'une même journée, utiliser l'élément de contexte Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile. À partir du quatrième patient, la visite à domicile se facture selon la nomenclature habituelle en cabinet, en CLSC ou en GMF-U en établissement avec l'élément de contexte Visite rendue au domicile du patient.",
+     "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code de localité ou le numéro du lieu habituel de pratique."
+    ],
+    "ctx": [
+     "Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784)",
+     "Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile",
+     "Visite rendue au domicile du patient"
+    ],
+    "lies": [
+     "15783",
+     "15784"
+    ],
+    "ancre": "166417"
+   }
   },
   {
    "g": "visites",
@@ -573,7 +1072,32 @@
     "patient additionnel"
    ],
    "p": 63.58,
-   "k": "domicile"
+   "k": "domicile",
+   "cab": [
+    143.85,
+    113.15
+   ],
+   "m": {
+    "lib": {
+     "15783": "Premier patient",
+     "15784": "Patient additionnel en perte sévère d'autonomie"
+    },
+    "avis": [
+     "Les codes de facturation 15781, 15782, 15783 et 15784 pour la visite à domicile doivent être utilisés seulement pour le premier, le deuxième ou le troisième patient vu sous un même toit. Le cas échéant, pour préciser qu'il s'agit d'un déplacement subséquent et se prévaloir à nouveau de la visite à domicile pour le patient en perte sévère d'autonomie ou en soins palliatifs au cours d'une même journée, utiliser l'élément de contexte Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile. À partir du quatrième patient, la visite à domicile se facture selon la nomenclature habituelle en cabinet, en CLSC ou en GMF-U en établissement avec l'élément de contexte Visite rendue au domicile du patient.",
+     "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code postal ou le numéro du lieu habituel de pratique.",
+     "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code de localité ou le numéro du lieu habituel de pratique."
+    ],
+    "ctx": [
+     "Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile",
+     "Visite rendue au domicile du patient",
+     "Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784)"
+    ],
+    "lies": [
+     "15781",
+     "15782"
+    ],
+    "ancre": "166420"
+   }
   },
   {
    "g": "temps",
@@ -583,7 +1107,25 @@
    ],
    "t": 49.75,
    "p": 62.15,
-   "k": "counseling therapie"
+   "k": "counseling therapie",
+   "cab": 59.7,
+   "m": {
+    "lib": {
+     "08857": "Intervention clinique individuelle première période de trente (30) minutes"
+    },
+    "avis": [
+     "Pour la première période de 30 minutes, utiliser le code de facturation 08857 ou 08858 et inscrire l'heure de début et l'heure de fin de la première période de l'intervention."
+    ],
+    "lies": [
+     "08841",
+     "08844",
+     "08858",
+     "08860",
+     "08866",
+     "08869"
+    ],
+    "ancre": "266768"
+   }
   },
   {
    "g": "temps",
@@ -593,7 +1135,20 @@
    ],
    "t": 24.87,
    "p": 62.15,
-   "k": "counseling therapie"
+   "k": "counseling therapie",
+   "cab": 29.85,
+   "m": {
+    "lib": {
+     "08859": "Intervention clinique individuelle, période supplémentaire de quinze (15) minutes"
+    },
+    "avis": [
+     "Pour la période supplémentaire suivant les 30 premières minutes, utiliser le code de facturation 08859 ou 08860 et inscrire l'heure de début et l'heure de fin de la période supplémentaire d'intervention. La durée des 30 premières minutes ne doit pas être incluse dans la période supplémentaire. Il faut distinguer l’heure de début et l'heure de fin pour chacun des services afin que leurs périodes ne se chevauchent pas."
+    ],
+    "lies": [
+     "08860"
+    ],
+    "ancre": "269253"
+   }
   },
   {
    "g": "temps",
@@ -603,7 +1158,14 @@
    ],
    "t": 49.75,
    "p": 62.15,
-   "k": "sante mentale"
+   "k": "sante mentale",
+   "cab": 59.7,
+   "m": {
+    "lib": {
+     "15785": "première période de trente (30) minutes"
+    },
+    "ancre": "268531"
+   }
   },
   {
    "g": "temps",
@@ -613,7 +1175,14 @@
    ],
    "t": 24.87,
    "p": 62.15,
-   "k": "sante mentale"
+   "k": "sante mentale",
+   "cab": 29.85,
+   "m": {
+    "lib": {
+     "15786": "période supplémentaire de quinze (15) minutes"
+    },
+    "ancre": "268532"
+   }
   },
   {
    "g": "temps",
@@ -623,7 +1192,25 @@
    ],
    "t": 49.75,
    "p": 62.15,
-   "k": "groupe"
+   "k": "groupe",
+   "cab": 59.7,
+   "m": {
+    "lib": {
+     "08866": "Intervention clinique collective, première période de trente (30) minutes"
+    },
+    "avis": [
+     "Pour la première période de 30 minutes, utiliser le code de facturation 08866 ou 08867 et inscrire : - le numéro d'assurance maladie de chaque personne; - l'heure de début et l'heure de fin de la première période de l'intervention."
+    ],
+    "lies": [
+     "08841",
+     "08844",
+     "08857",
+     "08860",
+     "08867",
+     "08869"
+    ],
+    "ancre": "269283"
+   }
   },
   {
    "g": "temps",
@@ -633,7 +1220,20 @@
    ],
    "t": 24.87,
    "p": 62.15,
-   "k": "groupe"
+   "k": "groupe",
+   "cab": 29.85,
+   "m": {
+    "lib": {
+     "08868": "Intervention clinique collective, période supplémentaire de quinze (15) minutes"
+    },
+    "avis": [
+     "Pour la période supplémentaire suivant les 30 premières minutes, utiliser le code de facturation 08868 et 08869, inscrire l'heure de début et l'heure de fin de la période supplémentaire d'intervention. La durée des 30 premières minutes ne doit pas être incluse dans la période supplémentaire. Il faut distinguer l’heure de début et l'heure de fin pour chacun des services afin que leurs périodes ne se chevauchent pas."
+    ],
+    "lies": [
+     "08869"
+    ],
+    "ancre": "269285"
+   }
   },
   {
    "g": "temps",
@@ -644,7 +1244,20 @@
    ],
    "t": 43.6,
    "p": 62.15,
-   "k": "amm fin de vie"
+   "k": "amm fin de vie",
+   "cab": 43.6,
+   "m": {
+    "lib": {
+     "15880": "forfait pour la première période de quinze (15) minutes",
+     "15881": "forfait par période de quinze (15) minutes supplémentaires"
+    },
+    "avis": [
+     "Pour la facturation de l'intervention clinique d'aide médicale à mourir (codes de facturation 15880 et 15881), utiliser l'un des éléments de contexte suivants : - Évaluation et administration de l'aide médicale à mourir contemporaine ; - Demande anticipée d'aide médicale à mourir ; - Évaluation et administration de l'aide médicale à mourir qui découle d'une demande anticipée ; - Retrait d'une demande anticipée d'aide médicale à mourir.",
+     "Pour la facturation de l'intervention clinique d'aide médicale à mourir (codes de facturation 15880 et 15881), utiliser l'un des éléments de contexte suivants pour indiquer le type de mentorat : - Évaluation et administration de l'aide médicale à mourir contemporaine ; - Demande anticipée d'aide médicale à mourir ; - Évaluation et administration de l'aide médicale à mourir qui découle d'une demande anticipée.",
+     "Pour la première période de 15 minutes, utiliser le code de facturation 15880 et inscrire l'heure de début du service. Pour les minutes supplémentaires suivant la première période de 15 minutes, utiliser le code de facturation 15881 et inscrire l'heure de début de la période supplémentaire et la durée d'intervention supplémentaire. La durée de la première période de 15 minutes ne doit pas être incluse dans la durée supplémentaire. Il faut distinguer l'heure de début de chacun des services pour que leurs périodes ne se chevauchent pas."
+    ],
+    "ancre": "167902"
+   }
   },
   {
    "g": "techniques",
@@ -654,7 +1267,14 @@
    ],
    "t": 16.5,
    "p": 63.58,
-   "k": "injection cortisone genou epaule"
+   "k": "injection cortisone genou epaule",
+   "cab": 16.5,
+   "m": {
+    "lib": {
+     "00431": "bourse séreuse ou articulation ou les deux incluant aspiration préliminaire (maximum trois (3))"
+    },
+    "ancre": "169517"
+   }
   },
   {
    "g": "techniques",
@@ -664,7 +1284,14 @@
    ],
    "t": 16.65,
    "p": 63.58,
-   "k": "injection cortisone tendinite"
+   "k": "injection cortisone tendinite",
+   "cab": 16.65,
+   "m": {
+    "lib": {
+     "00430": "capsules, gaines, tendons, ligaments ou fascia"
+    },
+    "ancre": "169500"
+   }
   },
   {
    "g": "techniques",
@@ -674,7 +1301,14 @@
    ],
    "t": 55.95,
    "p": 63.58,
-   "k": "diu contraception gynecologie"
+   "k": "diu contraception gynecologie",
+   "cab": 55.95,
+   "m": {
+    "lib": {
+     "00205": "Insertion de stérilet incluant l'examen, la visite ou la consultation effectué antérieurement ou concurremment à cet égard (P.A.D.T. 1.4)"
+    },
+    "ancre": "182452"
+   }
   },
   {
    "g": "techniques",
@@ -684,7 +1318,14 @@
    ],
    "t": 58.75,
    "p": 63.58,
-   "k": "diu contraception gynecologie retrait"
+   "k": "diu contraception gynecologie retrait",
+   "cab": 58.75,
+   "m": {
+    "lib": {
+     "20025": "Extraction de stérilet, acte compliqué (P.G. 2.4.7.7 A) (P.A.D.T. 1.4)"
+    },
+    "ancre": "182449"
+   }
   },
   {
    "g": "techniques",
@@ -702,7 +1343,18 @@
     "plus d'un"
    ],
    "p": 63.58,
-   "k": "contraception nexplanon"
+   "k": "contraception nexplanon",
+   "cab": [
+    109.05,
+    139.6
+   ],
+   "m": {
+    "lib": {
+     "06980": "un seul implant",
+     "06981": "plus d'un implant à la même séance"
+    },
+    "ancre": "173739"
+   }
   },
   {
    "g": "techniques",
@@ -720,7 +1372,18 @@
     "plus d'un"
    ],
    "p": 63.58,
-   "k": "contraception retrait"
+   "k": "contraception retrait",
+   "cab": [
+    125.4,
+    169.8
+   ],
+   "m": {
+    "lib": {
+     "06982": "Exérèse d'un implant contraceptif sous-cutané",
+     "06983": "Exérèse de plus d'un implant à la même séance"
+    },
+    "ancre": "173736"
+   }
   },
   {
    "g": "techniques",
@@ -739,7 +1402,18 @@
    ],
    "p": 63.58,
    "k": "keratose actinique azote",
-   "note": "Biopsies comprises ; au plus 4 lésions payées."
+   "note": "Biopsies comprises ; au plus 4 lésions payées.",
+   "cab": [
+    26.95,
+    46.3
+   ],
+   "m": {
+    "lib": {
+     "01240": "diamètre de un (1) cm ou moins",
+     "01241": "diamètre de plus de un (1) cm"
+    },
+    "ancre": "170478"
+   }
   },
   {
    "g": "techniques",
@@ -758,7 +1432,18 @@
    ],
    "p": 63.58,
    "k": "keratose actinique azote",
-   "note": "Biopsies comprises ; au plus 4 lésions payées."
+   "note": "Biopsies comprises ; au plus 4 lésions payées.",
+   "cab": [
+    41.45,
+    63.7
+   ],
+   "m": {
+    "lib": {
+     "01238": "diamètre de un (1) cm ou moins",
+     "01239": "diamètre de plus de un (1) cm"
+    },
+    "ancre": "170488"
+   }
   },
   {
    "g": "techniques",
@@ -777,7 +1462,18 @@
    ],
    "p": 63.58,
    "k": "keratose actinique azote",
-   "note": "Biopsies comprises ; au plus 4 lésions payées."
+   "note": "Biopsies comprises ; au plus 4 lésions payées.",
+   "cab": [
+    54,
+    86.45
+   ],
+   "m": {
+    "lib": {
+     "01236": "diamètre de un (1) cm ou moins",
+     "01237": "diamètre de plus de un (1) cm"
+    },
+    "ancre": "170490"
+   }
   },
   {
    "g": "techniques",
@@ -795,7 +1491,18 @@
     "plus de 1 cm"
    ],
    "p": 63.58,
-   "k": "cancer peau azote"
+   "k": "cancer peau azote",
+   "cab": [
+    54,
+    68.05
+   ],
+   "m": {
+    "lib": {
+     "01246": "diamètre de un (1) cm ou moins (P.C. 13)",
+     "01247": "diamètre de plus de un (1) cm (P.C. 13)"
+    },
+    "ancre": "170480"
+   }
   },
   {
    "g": "techniques",
@@ -813,7 +1520,18 @@
     "plus de 1 cm"
    ],
    "p": 63.58,
-   "k": "cancer peau azote"
+   "k": "cancer peau azote",
+   "cab": [
+    71.1,
+    98.95
+   ],
+   "m": {
+    "lib": {
+     "01244": "diamètre de un (1) cm ou moins (P.C. 13)",
+     "01245": "diamètre de plus de un (1) cm (P.C. 13)"
+    },
+    "ancre": "170495"
+   }
   },
   {
    "g": "techniques",
@@ -831,7 +1549,18 @@
     "plus de 1 cm"
    ],
    "p": 63.58,
-   "k": "cancer peau azote"
+   "k": "cancer peau azote",
+   "cab": [
+    92.55,
+    135.75
+   ],
+   "m": {
+    "lib": {
+     "01242": "diamètre de un (1) cm ou moins (P.C. 13)",
+     "01243": "diamètre de plus de un (1) cm (P.C. 13)"
+    },
+    "ancre": "170497"
+   }
   },
   {
    "g": "techniques",
@@ -850,7 +1579,21 @@
    ],
    "p": 63.58,
    "k": "exerese peau",
-   "note": "Biopsies comprises ; au plus 4 lésions payées."
+   "note": "Biopsies comprises ; au plus 4 lésions payées.",
+   "cab": [
+    30,
+    50.85
+   ],
+   "m": {
+    "lib": {
+     "01184": "diamètre de un (1) cm ou moins",
+     "01185": "diamètre de plus de un (1) cm"
+    },
+    "avis": [
+     "Voir l'avis sous le code de facturation 01185."
+    ],
+    "ancre": "170470"
+   }
   },
   {
    "g": "techniques",
@@ -868,7 +1611,18 @@
     "plus de 1 cm"
    ],
    "p": 63.58,
-   "k": "exerese peau"
+   "k": "exerese peau",
+   "cab": [
+    46.15,
+    70.75
+   ],
+   "m": {
+    "lib": {
+     "01182": "diamètre de un (1) cm ou moins",
+     "01183": "diamètre de plus de un (1) cm"
+    },
+    "ancre": "170468"
+   }
   },
   {
    "g": "techniques",
@@ -886,7 +1640,18 @@
     "plus de 1 cm"
    ],
    "p": 63.58,
-   "k": "exerese peau"
+   "k": "exerese peau",
+   "cab": [
+    60.05,
+    100
+   ],
+   "m": {
+    "lib": {
+     "01180": "diamètre de un (1) cm ou moins",
+     "01181": "diamètre de plus de un (1) cm"
+    },
+    "ancre": "170446"
+   }
   },
   {
    "g": "techniques",
@@ -897,7 +1662,20 @@
    "t": 27.5,
    "p": 63.58,
    "k": "suture plaie points",
-   "note": "10,45 $ par cm de plus, au plus 236,50 $."
+   "note": "10,45 $ par cm de plus, au plus 236,50 $.",
+   "cab": 27.5,
+   "m": {
+    "lib": {
+     "01320": "moins de un (1) cm (P.C. 13)"
+    },
+    "avis": [
+     "Pour les codes de facturation 01320 et 01323, indiquer la longueur de la réparation."
+    ],
+    "lies": [
+     "01323"
+    ],
+    "ancre": "170587"
+   }
   },
   {
    "g": "techniques",
@@ -908,7 +1686,20 @@
    "t": 17.75,
    "p": 63.58,
    "k": "suture plaie points",
-   "note": "4,60 $ par cm de plus, au plus 141,95 $."
+   "note": "4,60 $ par cm de plus, au plus 141,95 $.",
+   "cab": 17.75,
+   "m": {
+    "lib": {
+     "01323": "moins de un (1) cm (P.C. 13)"
+    },
+    "avis": [
+     "Pour les codes de facturation 01320 et 01323, indiquer la longueur de la réparation."
+    ],
+    "lies": [
+     "01320"
+    ],
+    "ancre": "170588"
+   }
   },
   {
    "g": "techniques",
@@ -918,7 +1709,14 @@
    ],
    "t": 19.15,
    "p": 63.58,
-   "k": "ongle incarne"
+   "k": "ongle incarne",
+   "cab": 19.15,
+   "m": {
+    "lib": {
+     "01215": "simple (P.C. 13)"
+    },
+    "ancre": "170515"
+   }
   },
   {
    "g": "techniques",
@@ -928,7 +1726,14 @@
    ],
    "t": 52.2,
    "p": 63.58,
-   "k": "ongle incarne"
+   "k": "ongle incarne",
+   "cab": 52.2,
+   "m": {
+    "lib": {
+     "01216": "radicale : exérèse de la matrice unguéale et amputation partielle de la phalange distale, si nécessaire (P.C. 13)"
+    },
+    "ancre": "170514"
+   }
   },
   {
    "g": "techniques",
@@ -939,7 +1744,21 @@
    "t": 16.65,
    "p": 63.58,
    "k": "verrue",
-   "note": "4,05 $ par verrue de plus, au plus 16 de plus."
+   "note": "4,05 $ par verrue de plus, au plus 16 de plus.",
+   "cab": 16.65,
+   "m": {
+    "lib": {
+     "01222": "première (P.G. 2.4.7.7 A) (P.C. 13)"
+    },
+    "avis": [
+     "Pour les codes de facturation 01222, 01223 et 01225, inscrire le nombre d'excisions."
+    ],
+    "lies": [
+     "01223",
+     "01225"
+    ],
+    "ancre": "170550"
+   }
   },
   {
    "g": "techniques",
@@ -950,7 +1769,21 @@
    "t": 29.4,
    "p": 63.58,
    "k": "verrue",
-   "note": "9,80 $ par verrue de plus, au plus 10 de plus."
+   "note": "9,80 $ par verrue de plus, au plus 10 de plus.",
+   "cab": 29.4,
+   "m": {
+    "lib": {
+     "01223": "première (P.G. 2.4.7.7 A) (P.C. 13)"
+    },
+    "avis": [
+     "Pour les codes de facturation 01222, 01223 et 01225, inscrire le nombre d'excisions."
+    ],
+    "lies": [
+     "01222",
+     "01225"
+    ],
+    "ancre": "170549"
+   }
   },
   {
    "g": "techniques",
@@ -961,7 +1794,14 @@
    "t": 7.3,
    "p": 63.58,
    "k": "cauterisation",
-   "note": "2,05 $ par lésion de plus, au plus 19,60 $ par séance."
+   "note": "2,05 $ par lésion de plus, au plus 19,60 $ par séance.",
+   "cab": 7.3,
+   "m": {
+    "lib": {
+     "01300": "première lésion (P.G. 2.4.7.7 B)"
+    },
+    "ancre": "170574"
+   }
   },
   {
    "g": "techniques",
@@ -971,7 +1811,14 @@
    ],
    "t": 26.25,
    "p": 63.58,
-   "k": "echarde"
+   "k": "echarde",
+   "cab": 26.25,
+   "m": {
+    "lib": {
+     "01196": "simple (P.G. 2.4.7.7 A) (P.C. 13)"
+    },
+    "ancre": "170476"
+   }
   },
   {
    "g": "techniques",
@@ -982,7 +1829,14 @@
    "t": 17,
    "p": 63.58,
    "k": "abces",
-   "note": "Unique ou multiple ; 24,65 $ en cabinet."
+   "note": "Unique ou multiple ; 24,65 $ en cabinet.",
+   "cab": 17,
+   "m": {
+    "lib": {
+     "01005": "sus-fascial ou sus-aponévrotique; unique ou multiple (P.C. 13)"
+    },
+    "ancre": "170285"
+   }
   },
   {
    "g": "techniques",
@@ -992,7 +1846,14 @@
    ],
    "t": 18.55,
    "p": 63.58,
-   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese"
+   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese",
+   "cab": 18.55,
+   "m": {
+    "lib": {
+     "01164": "diamètre de trois (3) cm ou moins (P.C. 13)"
+    },
+    "ancre": "170371"
+   }
   },
   {
    "g": "techniques",
@@ -1002,7 +1863,14 @@
    ],
    "t": 15.35,
    "p": 63.58,
-   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese"
+   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese",
+   "cab": 15.35,
+   "m": {
+    "lib": {
+     "01165": "diamètre de trois (3) cm ou moins (P.C. 13)"
+    },
+    "ancre": "170389"
+   }
   },
   {
    "g": "techniques",
@@ -1012,7 +1880,14 @@
    ],
    "t": 12.2,
    "p": 63.58,
-   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese"
+   "k": "kyste grain de beaute naevus lipome tumeur benigne exerese",
+   "cab": 12.2,
+   "m": {
+    "lib": {
+     "01166": "diamètre de trois (3) cm ou moins"
+    },
+    "ancre": "170400"
+   }
   },
   {
    "g": "formulaires",
@@ -1023,7 +1898,8 @@
    "t": 9.35,
    "p": 100,
    "k": "gmf forfait inscrit annuel",
-   "note": "Une fois par année civile, à la première visite de l'année d'un patient inscrit ; médecin membre d'un GMF, GMF-U compris (EP 33, annexe V)."
+   "note": "Une fois par année civile, à la première visite de l'année d'un patient inscrit ; médecin membre d'un GMF, GMF-U compris (EP 33, annexe V).",
+   "cab": 9.35
   },
   {
    "g": "formulaires",
@@ -1034,7 +1910,8 @@
    "t": 19.55,
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge guichet gamf",
-   "note": "Au premier examen ou à la première visite de la prise en charge, guichet d'accès ou non (EP 40, par. 4.12)."
+   "note": "Au premier examen ou à la première visite de la prise en charge, guichet d'accès ou non (EP 40, par. 4.12).",
+   "cab": 23.55
   },
   {
    "g": "formulaires",
@@ -1045,7 +1922,8 @@
    "t": 60.15,
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge",
-   "note": "Au premier examen ou à la première visite de la prise en charge (EP 40, par. 4.12)."
+   "note": "Au premier examen ou à la première visite de la prise en charge (EP 40, par. 4.12).",
+   "cab": 72.5
   },
   {
    "g": "formulaires",
@@ -1056,7 +1934,8 @@
    "t": 128.9,
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge guichet gamf transfert bloc",
-   "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 4.12 ; lettre d'entente no 304)."
+   "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 4.12 ; lettre d'entente no 304).",
+   "cab": 155.35
   },
   {
    "g": "formulaires",
@@ -1067,7 +1946,8 @@
    "t": 257.8,
    "p": 100,
    "k": "inscription nouveau patient orphelin prise en charge guichet gamf transfert bloc",
-   "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 13.01 ; lettre d'entente no 304)."
+   "note": "Patient attribué par le guichet d'accès ou par un transfert en bloc (EP 40, par. 13.01 ; lettre d'entente no 304).",
+   "cab": 310.65
   },
   {
    "g": "formulaires",
@@ -1079,7 +1959,20 @@
    "t": 8.25,
    "p": 100,
    "k": "vulnerable supplement",
-   "note": "Avec l'intervention de supervision, ou avec une intervention clinique ou une psychothérapie (annexe II à l'annexe XXIII)."
+   "note": "Avec l'intervention de supervision, ou avec une intervention clinique ou une psychothérapie (annexe II à l'annexe XXIII).",
+   "cab": 10.6,
+   "m": {
+    "lies": [
+     "08877",
+     "15144",
+     "15145",
+     "15158",
+     "15159",
+     "15171",
+     "15189",
+     "19074"
+    ]
+   }
   },
   {
    "g": "formulaires",
@@ -1090,7 +1983,25 @@
    "t": 13.35,
    "p": 100,
    "k": "enfant pediatrique",
-   "note": "Avec l'intervention de supervision, ou avec une intervention clinique."
+   "note": "Avec l'intervention de supervision, ou avec une intervention clinique.",
+   "cab": 17.05,
+   "m": {
+    "lib": {
+     "08877": "supplément de responsabilité à l'examen périodique du patient âgé de 0 à 5 ans en cabinet (voir le paragraphe 8.01, de l’EP – Médecine de famille, prise en charge et suivi de la clientèle)"
+    },
+    "lies": [
+     "15144",
+     "15145",
+     "15158",
+     "15159",
+     "15169",
+     "15170",
+     "15171",
+     "15189",
+     "19074"
+    ],
+    "ancre": "268679"
+   }
   },
   {
    "g": "formulaires",
@@ -1101,7 +2012,25 @@
    "t": 8.95,
    "p": 100,
    "k": "obstetrique enceinte",
-   "note": "Avec l'intervention de supervision, ou avec une intervention clinique."
+   "note": "Avec l'intervention de supervision, ou avec une intervention clinique.",
+   "cab": 11.4,
+   "m": {
+    "lib": {
+     "15145": "supplément de responsabilité pour suivi de grossesse (voir le paragraphe 7.02 B) de l’EP – Médecine de famille, prise en charge et suivi de la clientèle)"
+    },
+    "lies": [
+     "08877",
+     "15144",
+     "15158",
+     "15159",
+     "15169",
+     "15170",
+     "15171",
+     "15189",
+     "19074"
+    ],
+    "ancre": "266734"
+   }
   },
   {
    "g": "formulaires",
@@ -1111,7 +2040,25 @@
    ],
    "t": 35.6,
    "p": 100,
-   "k": "obstetrique enceinte"
+   "k": "obstetrique enceinte",
+   "cab": 47.4,
+   "m": {
+    "lib": {
+     "15159": "supplément à l'examen de prise en charge d'une grossesse lorsque fait au cours du premier trimestre de grossesse en cabinet (voir le paragraphe 7.02 A) de l'E.P. Médecine de famille, prise en charge et suivi de la clientèle) en CLSC et en GMF-U en établissement (1)"
+    },
+    "lies": [
+     "08877",
+     "15144",
+     "15145",
+     "15158",
+     "15169",
+     "15170",
+     "15171",
+     "15189",
+     "19074"
+    ],
+    "ancre": "268783"
+   }
   },
   {
    "g": "formulaires",
@@ -1121,7 +2068,14 @@
    ],
    "t": 27.25,
    "p": 63.58,
-   "k": "langue traduction"
+   "k": "langue traduction",
+   "cab": 27.25,
+   "m": {
+    "lib": {
+     "15188": "supplément pour la communication par l'intermédiaire d'un interprète, cabinet, domicile, établissement pour un patient inscrit"
+    },
+    "ancre": "268015"
+   }
   },
   {
    "g": "formulaires",
@@ -1133,7 +2087,15 @@
    ],
    "t": 22,
    "p": 63.58,
-   "k": "telephone discussion"
+   "k": "telephone discussion",
+   "cab": 29.3,
+   "m": {
+    "avis": [
+     "Utiliser le code de facturation 15841.",
+     "Pour les codes de facturation 15841, 15842 et 15843, indiquer le numéro de professionnel (1XXXXX ou 6XXXXX) du médecin avec qui la communication a été faite ou son prénom, son nom et sa profession."
+    ],
+    "ancre": "268530"
+   }
   },
   {
    "g": "formulaires",
@@ -1145,7 +2107,15 @@
    ],
    "t": 15.75,
    "p": 63.58,
-   "k": "telephone pharmacien"
+   "k": "telephone pharmacien",
+   "cab": 20.9,
+   "m": {
+    "avis": [
+     "Utiliser le code de facturation 15844.",
+     "Pour les codes de facturation 15844, 15845 et 15846, indiquer le numéro du professionnel avec qui la communication a été faite ou son prénom, son nom et sa profession. Pour les infirmières autres que les IPSPL, les inhalothérapeutes, les diététiciennes et les diététiciens, indiquer le type de profession Autres."
+    ],
+    "ancre": "268954"
+   }
   },
   {
    "g": "formulaires",
@@ -1155,7 +2125,17 @@
    ],
    "t": 22,
    "p": 63.58,
-   "k": "econsult specialiste"
+   "k": "econsult specialiste",
+   "cab": 29.3,
+   "m": {
+    "lib": {
+     "15894": "Communication par conseil numérique (eConsult)"
+    },
+    "avis": [
+     "Pour la communication par conseil numérique (eConsult) avec un médecin spécialiste (à l'exception d'un spécialiste en médecine familiale), inscrire : - le code de facturation 15894 (sans égard au nombre de patients inscrits); - l'heure de début et l'heure de fin."
+    ],
+    "ancre": "231213"
+   }
   },
   {
    "g": "formulaires",
@@ -1165,7 +2145,14 @@
    ],
    "t": 104.6,
    "p": 63.58,
-   "k": "ivg avortement"
+   "k": "ivg avortement",
+   "cab": null,
+   "m": {
+    "lib": {
+     "15314": "établissement"
+    },
+    "ancre": "190690"
+   }
   },
   {
    "g": "formulaires",
@@ -1175,7 +2162,14 @@
    ],
    "t": 13.1,
    "p": 63.58,
-   "k": "ivg echographie"
+   "k": "ivg echographie",
+   "cab": null,
+   "m": {
+    "lib": {
+     "15316": "établissement"
+    },
+    "ancre": "168064"
+   }
   },
   {
    "g": "formulaires",
@@ -1186,7 +2180,20 @@
    "t": 116.1,
    "p": 63.58,
    "k": "dpj maltraitance",
-   "note": "09073 : 46,25 $ par demi-heure de plus (moins de 14 ans)."
+   "note": "09073 : 46,25 $ par demi-heure de plus (moins de 14 ans).",
+   "cab": 116.1,
+   "m": {
+    "lib": {
+     "09070": "Prise en charge d'un enfant présumément victime de mauvais traitements, évaluation médicale et rapport (P.G. 2.2.9 A)"
+    },
+    "avis": [
+     "Pour les 60 premières minutes, utiliser le code de facturation 09070 et inscrire l'heure de début du service. Pour les demi-heures additionnelles suivant les 60 premières minutes, utiliser le code de facturation 09073 et inscrire l'heure de début de la période additionnelle etla durée additionnelle de la séance. La durée des 60 premières minutes ne doit pas être incluse dans la période additionnelle. Il faut distinguer l’heure de début pour chacun des services afin que leurs périodes ne se chevauchent pas."
+    ],
+    "lies": [
+     "09073"
+    ],
+    "ancre": "167510"
+   }
   },
   {
    "g": "formulaires",
@@ -1196,7 +2203,14 @@
    ],
    "t": 261.5,
    "p": 63.58,
-   "k": "amm"
+   "k": "amm",
+   "cab": 261.5,
+   "m": {
+    "lib": {
+     "15879": "-Formulaire et démarches afférentes – Demande anticipée d'aide médicale à mourir"
+    },
+    "ancre": "284946"
+   }
   },
   {
    "g": "formulaires",
@@ -1206,7 +2220,14 @@
    ],
    "t": 52.3,
    "p": 63.58,
-   "k": "amm"
+   "k": "amm",
+   "cab": 52.3,
+   "m": {
+    "lib": {
+     "15899": "-Formulaire et démarches afférentes – Demande de retrait d'une demande anticipée d'aide médicale à mourir"
+    },
+    "ancre": "284976"
+   }
   },
   {
    "g": "formulaires",
@@ -1216,7 +2237,14 @@
    ],
    "t": 61.65,
    "p": 63.58,
-   "k": "deces"
+   "k": "deces",
+   "cab": 61.65,
+   "m": {
+    "lib": {
+     "09054": "sans déplacement (P.G. 2.2.9 A)"
+    },
+    "ancre": "167499"
+   }
   },
   {
    "g": "formulaires",
@@ -1226,7 +2254,24 @@
    ],
    "t": 23.35,
    "p": 100,
-   "k": "deces mort constat"
+   "k": "deces mort constat",
+   "cab": 23.35,
+   "m": {
+    "lib": {
+     "00013": "sans déplacement (P.G. 2.2.9 A)"
+    },
+    "sec": [
+     "187588"
+    ],
+    "lies": [
+     "00014",
+     "00016",
+     "00018",
+     "15234",
+     "15266"
+    ],
+    "ancre": "261128"
+   }
   },
   {
    "g": "formulaires",
@@ -1236,7 +2281,24 @@
    ],
    "t": 23.35,
    "p": 100,
-   "k": "deces don organes"
+   "k": "deces don organes",
+   "cab": 23.35,
+   "m": {
+    "lib": {
+     "00016": "sans déplacement (P.G. 2.2.9 A)"
+    },
+    "sec": [
+     "187588"
+    ],
+    "lies": [
+     "00013",
+     "00014",
+     "00018",
+     "15234",
+     "15266"
+    ],
+    "ancre": "261133"
+   }
   },
   {
    "g": "formulaires",
@@ -1246,7 +2308,27 @@
    ],
    "t": 19.8,
    "p": 100,
-   "k": "deces formulaire"
+   "k": "deces formulaire",
+   "cab": 19.8,
+   "m": {
+    "lib": {
+     "15265": "rédaction du bulletin de décès (formulaire SP-3) (P.G. 2.2.9 A)"
+    },
+    "sec": [
+     "187587"
+    ],
+    "lies": [
+     "09800",
+     "09817",
+     "09825",
+     "09826",
+     "09901",
+     "09980",
+     "15795",
+     "15797"
+    ],
+    "ancre": "261117"
+   }
   },
   {
    "g": "formulaires",
@@ -1256,7 +2338,17 @@
    ],
    "t": 25,
    "p": 100,
-   "k": "deces chsld"
+   "k": "deces chsld",
+   "cab": 25,
+   "m": {
+    "lib": {
+     "15889": "évaluation à distance du décès hors d'un centre désigné d'un patient hébergé en CHSLD (P.G. 2.2.9 A)"
+    },
+    "sec": [
+     "187588"
+    ],
+    "ancre": "261131"
+   }
   },
   {
    "g": "formulaires",
@@ -1266,7 +2358,14 @@
    ],
    "t": 25,
    "p": 100,
-   "k": "deces domicile palliatif"
+   "k": "deces domicile palliatif",
+   "cab": 25,
+   "m": {
+    "lib": {
+     "15890": "évaluation à distance du décès hors d'un centre désigné d'un patient décédé à domicile et inscrit au programme de soins à domicile du CLSC"
+    },
+    "ancre": "261132"
+   }
   },
   {
    "g": "formulaires",
@@ -1276,7 +2375,23 @@
    ],
    "t": 113.2,
    "p": 100,
-   "k": "rcr arret cardiaque code bleu"
+   "k": "rcr arret cardiaque code bleu",
+   "cab": 113.2,
+   "m": {
+    "lib": {
+     "00828": "premier quart d'heure (P.G. 2.4.7.3 C)"
+    },
+    "avis": [
+     "Les CHSP désignés sont : - Institut universitaire en santé mentale de Québec (00888) – CIUSSS de la Capitale-Nationale; - Hôpital de soins psychiatriques de l'Est-de-Montréal (00878) – CIUSSS de l'Est-de-l'Île-de-Montréal; - Hôpital en santé mentale Pierre-Janet (00828) CISSS de l'Outaouais. Annuellement, l'établissement responsable doit transmettre au comité paritaire le nom des médecins qui exercent régulièrement dans l'unité ou le programme de gérontopsychiatrie.",
+     "Pour le premier quart d’heure, utiliser le code de facturation 00828 et inscrire l'heure de début du service. Pour le temps additionnel suivant le premier quart d’heure, utiliser le code de facturation 00829 et inscrire l'heure de début la période supplémentaire et la durée supplémentaire. La durée du premier quart d’heure ne doit pas être incluse dans la durée supplémentaire. Il faut distinguer l’heure de début pour chacun des services afin que leurs périodes ne se chevauchent pas."
+    ],
+    "lies": [
+     "00829",
+     "00878",
+     "00888"
+    ],
+    "ancre": "168909"
+   }
   },
   {
    "g": "formulaires",
@@ -1286,7 +2401,20 @@
    ],
    "t": 28.25,
    "p": 100,
-   "k": "rcr arret cardiaque code bleu"
+   "k": "rcr arret cardiaque code bleu",
+   "cab": 28.25,
+   "m": {
+    "lib": {
+     "00829": "chaque quart d'heure supplémentaire (P.G. 2.4.7.3 C)"
+    },
+    "avis": [
+     "Pour le premier quart d’heure, utiliser le code de facturation 00828 et inscrire l'heure de début du service. Pour le temps additionnel suivant le premier quart d’heure, utiliser le code de facturation 00829 et inscrire l'heure de début la période supplémentaire et la durée supplémentaire. La durée du premier quart d’heure ne doit pas être incluse dans la durée supplémentaire. Il faut distinguer l’heure de début pour chacun des services afin que leurs périodes ne se chevauchent pas."
+    ],
+    "lies": [
+     "00828"
+    ],
+    "ancre": "168910"
+   }
   },
   {
    "g": "formulaires",
@@ -1297,7 +2425,25 @@
    "t": 35.55,
    "p": 100,
    "k": "hospitalisation sortie conge",
-   "note": "Au transfert d'un patient admis (EP – Médecine de famille, par. 9.00 C)."
+   "note": "Au transfert d'un patient admis (EP – Médecine de famille, par. 9.00 C).",
+   "cab": 35.55,
+   "m": {
+    "lib": {
+     "15158": "Forfait de congé en établissement d'un patient admis (voir le paragraphe 9.00 C) de l'EP – Médecine de famille, prise en charge et suivi de la clientèle)"
+    },
+    "lies": [
+     "08877",
+     "15144",
+     "15145",
+     "15159",
+     "15169",
+     "15170",
+     "15171",
+     "15189",
+     "19074"
+    ],
+    "ancre": "268912"
+   }
   },
   {
    "g": "formulaires",
@@ -1308,7 +2454,14 @@
    "t": 163.5,
    "p": 63.58,
    "k": "autonomie chsld ressource",
-   "note": "Pas dans l'annexe II : au mixte, la part des services médicaux."
+   "note": "Pas dans l'annexe II : au mixte, la part des services médicaux.",
+   "cab": 163.5,
+   "m": {
+    "lib": {
+     "09100": "examen d'évaluation médicale d'un patient en perte d'autonomie en vue d'allocation de ressources et en vue de la rédaction du formulaire approprié"
+    },
+    "ancre": "272242"
+   }
   },
   {
    "g": "formulaires",
@@ -1318,7 +2471,14 @@
    ],
    "t": 28.15,
    "p": 100,
-   "k": "autonomie domicile"
+   "k": "autonomie domicile",
+   "cab": 28.15,
+   "m": {
+    "lib": {
+     "09063": "supplément lorsqu'effectué à domicile"
+    },
+    "ancre": "167507"
+   }
   },
   {
    "g": "formulaires",
@@ -1328,7 +2488,14 @@
    ],
    "t": 35.95,
    "p": 100,
-   "k": "autonomie formulaire"
+   "k": "autonomie formulaire",
+   "cab": 35.95,
+   "m": {
+    "lib": {
+     "09101": "rédaction du formulaire"
+    },
+    "ancre": "167488"
+   }
   },
   {
    "g": "formulaires",
@@ -1338,7 +2505,24 @@
    ],
    "t": 20,
    "p": 100,
-   "k": "aide sociale contraintes emploi formulaire"
+   "k": "aide sociale contraintes emploi formulaire",
+   "cab": 20,
+   "m": {
+    "lib": {
+     "09800": "Pour remplir le formulaire intitulé « Rapport médical » prescrit par le Ministre"
+    },
+    "lies": [
+     "09817",
+     "09825",
+     "09826",
+     "09901",
+     "09980",
+     "15265",
+     "15795",
+     "15797"
+    ],
+    "ancre": "89718"
+   }
   },
   {
    "g": "formulaires",
@@ -1348,7 +2532,14 @@
    ],
    "t": 20,
    "p": 100,
-   "k": "aide sociale"
+   "k": "aide sociale",
+   "cab": 20,
+   "m": {
+    "lib": {
+     "09801": "pour l'information fournie"
+    },
+    "ancre": "89715"
+   }
   },
   {
    "g": "formulaires",
@@ -1358,7 +2549,24 @@
    ],
    "t": 26.15,
    "p": 100,
-   "k": "inaptitude regime protection"
+   "k": "inaptitude regime protection",
+   "cab": 26.15,
+   "m": {
+    "lib": {
+     "09825": "- Remplir le formulaire intitulé « rapport du directeur-général - évaluation médicale » ou son équivalent"
+    },
+    "lies": [
+     "09800",
+     "09817",
+     "09826",
+     "09901",
+     "09980",
+     "15265",
+     "15795",
+     "15797"
+    ],
+    "ancre": "168112"
+   }
   },
   {
    "g": "formulaires",
@@ -1368,7 +2576,24 @@
    ],
    "t": 26.15,
    "p": 100,
-   "k": "inaptitude regime protection"
+   "k": "inaptitude regime protection",
+   "cab": 26.15,
+   "m": {
+    "lib": {
+     "09826": "- Remplir le formulaire intitulé « réévaluation médicale » ou son équivalent"
+    },
+    "lies": [
+     "09800",
+     "09817",
+     "09825",
+     "09901",
+     "09980",
+     "15265",
+     "15795",
+     "15797"
+    ],
+    "ancre": "168113"
+   }
   },
   {
    "g": "formulaires",
@@ -1379,7 +2604,20 @@
    "t": 29.65,
    "p": 100,
    "k": "pqdcs mammographie",
-   "note": "Protocole d'accord du programme de dépistage du cancer du sein (Brochure no 1)."
+   "note": "Protocole d'accord du programme de dépistage du cancer du sein (Brochure no 1).",
+   "cab": null,
+   "m": {
+    "lies": [
+     "09800",
+     "09825",
+     "09826",
+     "09901",
+     "09980",
+     "15265",
+     "15795",
+     "15797"
+    ]
+   }
   },
   {
    "g": "formulaires",
@@ -1398,7 +2636,20 @@
    ],
    "p": 100,
    "k": "grossesse obstetrique temporaire",
-   "note": "Médecin qui a des privilèges en obstétrique ; 11,85 $ en cabinet. 19074 : patiente inscrite auprès d'un autre médecin du même GMF (EP 40, par. 7.03). Payé à 100 % au mixte, aussi pendant l'intervention de supervision."
+   "note": "Médecin qui a des privilèges en obstétrique ; 11,85 $ en cabinet. 19074 : patiente inscrite auprès d'un autre médecin du même GMF (EP 40, par. 7.03). Payé à 100 % au mixte, aussi pendant l'intervention de supervision.",
+   "cab": null,
+   "m": {
+    "lies": [
+     "08877",
+     "15144",
+     "15145",
+     "15158",
+     "15159",
+     "15169",
+     "15170",
+     "15171"
+    ]
+   }
   },
   {
    "g": "formulaires",
@@ -1408,7 +2659,14 @@
    ],
    "t": 27.57,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 27.57,
+   "m": {
+    "lib": {
+     "09926": "rédaction et remise sans délai au travailleur du formulaire d'attestation médicale prescrit par la Commission"
+    },
+    "ancre": "283813"
+   }
   },
   {
    "g": "formulaires",
@@ -1418,7 +2676,14 @@
    ],
    "t": 26.96,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 26.96,
+   "m": {
+    "lib": {
+     "09927": "rédaction et expédition à la Commission, dans les six (6) jours du premier examen, du formulaire de prise en charge prescrit par la Commission"
+    },
+    "ancre": "283816"
+   }
   },
   {
    "g": "formulaires",
@@ -1428,7 +2693,17 @@
    ],
    "t": 26.96,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 26.96,
+   "m": {
+    "lib": {
+     "09928": "rédaction et expédition immédiate à la Commission du formulaire d'évolution prescrit par la Commission"
+    },
+    "avis": [
+     "Si vous utilisez le code de facturation 09928 plus d'une fois par jour pour 2 évènements différents, utilisez une facture par évènement."
+    ],
+    "ancre": "283819"
+   }
   },
   {
    "g": "formulaires",
@@ -1438,7 +2713,14 @@
    ],
    "t": 31.86,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 31.86,
+   "m": {
+    "lib": {
+     "09930": "rédaction et expédition à la Commission, dès que la lésion professionnelle du travailleur est consolidée, du formulaire de rapport final prescrit par la Commission"
+    },
+    "ancre": "283829"
+   }
   },
   {
    "g": "formulaires",
@@ -1448,7 +2730,14 @@
    ],
    "t": 128.67,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 128.67,
+   "m": {
+    "lib": {
+     "09929": "rédaction et expédition à la Commission, dans les dix (10) jours de la réception de la demande, du formulaire d'information médicale complémentaire écrite prescrit par la Commission"
+    },
+    "ancre": "283826"
+   }
   },
   {
    "g": "formulaires",
@@ -1458,7 +2747,14 @@
    ],
    "t": 159.31,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 159.31,
+   "m": {
+    "lib": {
+     "09909": "rédaction du formulaire prescrit par la Commission et expédition à celle-ci, dans les trente (30) jours de la réception du rapport du professionnel de la santé"
+    },
+    "ancre": "283899"
+   }
   },
   {
    "g": "formulaires",
@@ -1468,7 +2764,14 @@
    ],
    "t": 165.43,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 165.43,
+   "m": {
+    "lib": {
+     "09907": "pour l'information verbale fournie"
+    },
+    "ancre": "283852"
+   }
   },
   {
    "g": "formulaires",
@@ -1478,7 +2781,14 @@
    ],
    "t": 140.93,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 140.93,
+   "m": {
+    "lib": {
+     "09908": "pour l'opinion professionnelle obtenue du médecin"
+    },
+    "ancre": "283873"
+   }
   },
   {
    "g": "formulaires",
@@ -1488,7 +2798,11 @@
    ],
    "t": 61.27,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 61.27,
+   "m": {
+    "ancre": "283877"
+   }
   },
   {
    "g": "formulaires",
@@ -1498,7 +2812,14 @@
    ],
    "t": 102.94,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 102.94,
+   "m": {
+    "lib": {
+     "09971": "rédaction complète de la partie du formulaire où il est demandé au médecin de se prononcer sur le travail préalablement proposé par l'employeur, remise de la copie au travailleur et expédition sans délai du formulaire d'assignation temporaire prévu par la Commission ou identique à celui-ci"
+    },
+    "ancre": "284110"
+   }
   },
   {
    "g": "formulaires",
@@ -1508,7 +2829,17 @@
    ],
    "t": 85.78,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 85.78,
+   "m": {
+    "lib": {
+     "09970": "rédaction, remise de la copie à la travailleuse et expédition sans délai du certificat prescrit par la Commission visant l'affectation ou le retrait préventif de la travailleuse enceinte ou qui allaite"
+    },
+    "avis": [
+     "La prise en charge de grossesse et la rédaction, remise de la copie à la travailleuse et expédition sans délai du certificat prescrit par la Commission visant l'affectation ou le retrait préventif de la travailleuse enceinte ou qui allaite (code de facturation 09970) doivent être facturées sur une facture distincte."
+    ],
+    "ancre": "284030"
+   }
   },
   {
    "g": "formulaires",
@@ -1518,7 +2849,14 @@
    ],
    "t": 520.81,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 520.81,
+   "m": {
+    "lib": {
+     "09944": "examen du travailleur, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
+    },
+    "ancre": "283907"
+   }
   },
   {
    "g": "formulaires",
@@ -1528,7 +2866,24 @@
    ],
    "t": 27.57,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 27.57,
+   "m": {
+    "lib": {
+     "15795": "pour la rédaction et remise sans délai à la victime, du formulaire d'évaluation médicale prescrit par la Commission"
+    },
+    "lies": [
+     "09800",
+     "09817",
+     "09825",
+     "09826",
+     "09901",
+     "09980",
+     "15265",
+     "15797"
+    ],
+    "ancre": "284160"
+   }
   },
   {
    "g": "formulaires",
@@ -1538,7 +2893,14 @@
    ],
    "t": 26.96,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 26.96,
+   "m": {
+    "lib": {
+     "15796": "pour la rédaction et expédition immédiate à la Commission, du formulaire de rapport médical prescrit par la Commission"
+    },
+    "ancre": "284164"
+   }
   },
   {
    "g": "formulaires",
@@ -1548,7 +2910,24 @@
    ],
    "t": 31.86,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 31.86,
+   "m": {
+    "lib": {
+     "15797": "pour la rédaction et expédition à la Commission, dès que la blessure de la victime ou du sauveteur est consolidée, du formulaire de rapport final prescrit par la Commission"
+    },
+    "lies": [
+     "09800",
+     "09817",
+     "09825",
+     "09826",
+     "09901",
+     "09980",
+     "15265",
+     "15795"
+    ],
+    "ancre": "284188"
+   }
   },
   {
    "g": "formulaires",
@@ -1558,7 +2937,14 @@
    ],
    "t": 183.82,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 183.82,
+   "m": {
+    "lib": {
+     "09910": "rédaction du rapport de consultation motivé et expédition au médecin qui a charge du travailleur"
+    },
+    "ancre": "283883"
+   }
   },
   {
    "g": "formulaires",
@@ -1568,7 +2954,11 @@
    ],
    "t": 36.96,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 36.96,
+   "m": {
+    "ancre": "283857"
+   }
   },
   {
    "g": "formulaires",
@@ -1578,7 +2968,11 @@
    ],
    "t": 73.53,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 73.53,
+   "m": {
+    "ancre": "283864"
+   }
   },
   {
    "g": "formulaires",
@@ -1588,7 +2982,11 @@
    ],
    "t": 110.29,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 110.29,
+   "m": {
+    "ancre": "283888"
+   }
   },
   {
    "g": "formulaires",
@@ -1598,7 +2996,24 @@
    ],
    "t": 140.93,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 140.93,
+   "m": {
+    "lib": {
+     "09901": "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'Entente"
+    },
+    "lies": [
+     "09800",
+     "09817",
+     "09825",
+     "09826",
+     "09980",
+     "15265",
+     "15795",
+     "15797"
+    ],
+    "ancre": "283930"
+   }
   },
   {
    "g": "formulaires",
@@ -1608,7 +3023,14 @@
    ],
    "t": 1003.44,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 1003.44,
+   "m": {
+    "lib": {
+     "09978": "examen du travailleur, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
+    },
+    "ancre": "283933"
+   }
   },
   {
    "g": "formulaires",
@@ -1618,7 +3040,14 @@
    ],
    "t": 140.93,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 140.93,
+   "m": {
+    "lib": {
+     "09902": "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'entente"
+    },
+    "ancre": "283919"
+   }
   },
   {
    "g": "formulaires",
@@ -1628,7 +3057,14 @@
    ],
    "t": 1223.37,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 1223.37,
+   "m": {
+    "lib": {
+     "09946": "examen du travailleur dans un délai d'un à cinq jours consécutifs suivant la demande de la Commission, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
+    },
+    "ancre": "283922"
+   }
   },
   {
    "g": "formulaires",
@@ -1638,7 +3074,24 @@
    ],
    "t": 140.93,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 140.93,
+   "m": {
+    "lib": {
+     "09980": "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'entente"
+    },
+    "lies": [
+     "09800",
+     "09817",
+     "09825",
+     "09826",
+     "09901",
+     "15265",
+     "15795",
+     "15797"
+    ],
+    "ancre": "283945"
+   }
   },
   {
    "g": "formulaires",
@@ -1648,7 +3101,14 @@
    ],
    "t": 122.54,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 122.54,
+   "m": {
+    "lib": {
+     "09977": "supplément lorsque le médecin rend son avis en cabinet privé"
+    },
+    "ancre": "283969"
+   }
   },
   {
    "g": "formulaires",
@@ -1658,7 +3118,11 @@
    ],
    "t": 116.42,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 116.42,
+   "m": {
+    "ancre": "283975"
+   }
   },
   {
    "g": "formulaires",
@@ -1668,7 +3132,11 @@
    ],
    "t": 177.69,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 177.69,
+   "m": {
+    "ancre": "283954"
+   }
   },
   {
    "g": "formulaires",
@@ -1678,7 +3146,11 @@
    ],
    "t": 208.32,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 208.32,
+   "m": {
+    "ancre": "283981"
+   }
   },
   {
    "g": "formulaires",
@@ -1688,7 +3160,14 @@
    ],
    "t": 549.83,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 549.83,
+   "m": {
+    "lib": {
+     "09938": "avis donné au vu du dossier"
+    },
+    "ancre": "283985"
+   }
   },
   {
    "g": "formulaires",
@@ -1698,7 +3177,14 @@
    ],
    "t": 1003.44,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 1003.44,
+   "m": {
+    "lib": {
+     "09939": "avis donné après examen du travailleur"
+    },
+    "ancre": "283989"
+   }
   },
   {
    "g": "formulaires",
@@ -1708,7 +3194,14 @@
    ],
    "t": 804.13,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 804.13,
+   "m": {
+    "lib": {
+     "09936": "le médecin qui participe à la préparation de l'avis commun"
+    },
+    "ancre": "283998"
+   }
   },
   {
    "g": "formulaires",
@@ -1718,7 +3211,14 @@
    ],
    "t": 103.09,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 103.09,
+   "m": {
+    "lib": {
+     "09937": "le médecin qui rédige l'avis commun reçoit des honoraires additionnels de"
+    },
+    "ancre": "284002"
+   }
   },
   {
    "g": "formulaires",
@@ -1728,7 +3228,14 @@
    ],
    "t": 104.16,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 104.16,
+   "m": {
+    "lib": {
+     "09919": "supplément pour la production des tests audiologiques en cabinet privé"
+    },
+    "ancre": "284006"
+   }
   },
   {
    "g": "formulaires",
@@ -1738,7 +3245,14 @@
    ],
    "t": 85.78,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 85.78,
+   "m": {
+    "lib": {
+     "09973": "Il s'agit du formulaire qui atteste des signes d'altération de la santé du travailleur exposé à un contaminant ou une matière dangereuse et visant son affectation ou son retrait préventif, en vertu de la Loi sur la santé et la sécurité du travail."
+    },
+    "ancre": "286147"
+   }
   },
   {
    "g": "formulaires",
@@ -1748,7 +3262,14 @@
    ],
    "t": 549.83,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 549.83,
+   "m": {
+    "lib": {
+     "09942": "étude de dossier, rédaction et expédition sans délai à la Commission d'un rapport, pour chaque médecin"
+    },
+    "ancre": "284109"
+   }
   },
   {
    "g": "formulaires",
@@ -1758,7 +3279,11 @@
    ],
    "t": 73.53,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 73.53,
+   "m": {
+    "ancre": "284098"
+   }
   },
   {
    "g": "formulaires",
@@ -1768,7 +3293,11 @@
    ],
    "t": 104.16,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 104.16,
+   "m": {
+    "ancre": "284099"
+   }
   },
   {
    "g": "formulaires",
@@ -1778,7 +3307,11 @@
    ],
    "t": 134.8,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 134.8,
+   "m": {
+    "ancre": "284122"
+   }
   },
   {
    "g": "formulaires",
@@ -1788,7 +3321,14 @@
    ],
    "t": 134.8,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 134.8,
+   "m": {
+    "lib": {
+     "09954": "rédaction et remise sans délai au travailleur du certificat médical du plongeur professionnel"
+    },
+    "ancre": "284125"
+   }
   },
   {
    "g": "formulaires",
@@ -1798,7 +3338,14 @@
    ],
    "t": 158.08,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 158.08,
+   "m": {
+    "lib": {
+     "09924": "examen du dossier, rédaction et expédition sans délai à la Commission de l'avis supplémentaire requis"
+    },
+    "ancre": "284132"
+   }
   },
   {
    "g": "formulaires",
@@ -1808,7 +3355,14 @@
    ],
    "t": 295.53,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 295.53,
+   "m": {
+    "lib": {
+     "09925": "examen du dossier, rédaction et expédition sans délai à la Commission de l'avis supplémentaire requis"
+    },
+    "ancre": "284136"
+   }
   },
   {
    "g": "formulaires",
@@ -1818,7 +3372,11 @@
    ],
    "t": 336.99,
    "p": 100,
-   "k": "cnesst travail accident ivac formulaire"
+   "k": "cnesst travail accident ivac formulaire",
+   "cab": 336.99,
+   "m": {
+    "ancre": "284140"
+   }
   },
   {
    "g": "non",
@@ -2003,8 +3561,151 @@
    "m": "psychose schizophrénie bipolaire autisme tsa asperger santé mentale"
   }
  ],
+ "manuel": {
+  "titre": "Manuel des médecins omnipraticiens — Rémunération à l'acte (RAMQ)",
+  "url": "https://www.ramq.gouv.qc.ca/fr/professionnels/medecin-omnipraticien-omnipraticienne/manuels-guides/manuel-remuneration-acte",
+  "consulte": "2026-10-25",
+  "sections": {
+   "107845": {
+    "titre": "1) Visite de prise en charge",
+    "texte": [
+     "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+     "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+     "Le médecin consigne ses notes au dossier.",
+     "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+     "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+     "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+    ],
+    "avis": []
+   },
+   "107846": {
+    "titre": "2) Visite périodique d'un patient vulnérable",
+    "texte": [
+     "La visite périodique d'un patient vulnérable inscrit est une visite d'un patient vulnérable déjà inscrit auprès du médecin et dont le médecin assure le suivi longitudinal. Elle vise à évaluer l'évolution du patient et à mettre à jour le plan de traitement.",
+     "Elle comprend l'évaluation du patient, une actualisation du plan de traitement et, lorsque requis, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+     "Le médecin consigne ses notes au dossier.",
+     "Cette visite peut être réclamée une seule fois par année civile. Elle ne peut pas être réclamée durant la même année civile par le médecin qui a été rémunéré pour la visite de prise en charge sur rendez-vous pour le même patient. Elle ne peut pas non plus être réclamée, durant la même année civile, par le médecin qui a auparavant été rémunéré pour l'examen complet majeur, pour la visite de prise en charge de grossesse, pour l'examen de prise en charge de grossesse, ou pour le supplément à l'examen de prise en charge de grossesse durant le premier trimestre.",
+     "Le tarif est modulé selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+    ],
+    "avis": [
+     "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+    ]
+   },
+   "107847": {
+    "titre": "3) Visite de suivi d'un patient inscrit",
+    "texte": [
+     "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+     "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+     "Le médecin consigne ses notes au dossier.",
+     "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+     "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+    ],
+    "avis": [
+     "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+     "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+    ]
+   },
+   "107848": {
+    "titre": "4) Visite ponctuelle mineure",
+    "texte": [
+     "La visite ponctuelle mineure consiste en l'évaluation d'un patient, inscrit ou non auprès du médecin, pour un problème concernant un seul système ou une seule partie du corps.",
+     "Elle comprend le questionnaire, l'examen pertinent lorsque requis, de même que l'établissement d'un diagnostic et les recommandations au patient ou ses proches. Le médecin consigne ses notes au dossier.",
+     "Elle peut être réclamée plus d'une fois par jour auprès du même patient lorsqu'un contact subséquent est requis avec le patient pour effectuer un nouveau questionnaire ou examen ou pour initier un traitement, pour évaluer un traitement en cours, pour observer l'évolution d'un maladie ou pour évaluer la réponse à un traitement.",
+     "Le tarif est modulé selon que le patient est vulnérable ou non, que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+    ],
+    "avis": [
+     "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel le patient est inscrit ou par un médecin du même groupe de pratique."
+    ]
+   },
+   "107850": {
+    "titre": "6) Visite d'évaluation psychiatrique",
+    "texte": [
+     "La visite d'évaluation psychiatrique est réalisée à la demande d'un médecin. La demande vise alors à obtenir l'opinion de son collègue ou sa participation au suivi en santé mentale, en raison de la complexité ou de la gravité du cas.",
+     "En plus de l'examen psychiatrique du patient, l'évaluation inclut, au besoin, la révision du dossier, l'examen physique, le plan de traitement ou d'investigation, les ordonnances, les recommandations et les échanges courants avec le patient, ses proches ou le personnel qui l'accompagne.",
+     "Un médecin qui procède à une visite d'évaluation psychiatrique produit un rapport écrit de son évaluation, de ses recommandations et, le cas échéant, du traitement qu'il recommande ou qu'il initie.",
+     "Le médecin qui revoit le patient dans le cadre du suivi conjoint qui découle de sa visite d'évaluation psychiatrique ne peut alors réclamer la visite d'évaluation psychiatrique.",
+     "Cette visite ne peut être réclamée par le médecin traitant."
+    ],
+    "avis": []
+   },
+   "107851": {
+    "titre": "7) Visite de suivi psychiatrique",
+    "texte": [
+     "La visite de suivi psychiatrique est une visite auprès du médecin qui assure un suivi conjoint en santé mentale d'un patient inscrit auprès d'un autre médecin ou qui assure un suivi en santé mentale auprès d'un patient non inscrit. Cette visite se fait généralement à la suite d'une visite d'évaluation psychiatrique à la demande du médecin traitant.",
+     "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Le médecin consigne ses notes au dossier.",
+     "Cette visite ne peut être réclamée par le médecin traitant."
+    ],
+    "avis": []
+   },
+   "107852": {
+    "titre": "8) Visite d'évaluation d'un problème mineur pour donner une opinion",
+    "texte": [
+     "La visite d'évaluation d'un problème mineur pour donner une opinion est réalisée à la demande d'un médecin, d'un dentiste, d'un optométriste ou d'une sage-femme. La demande vise alors à obtenir l'opinion du médecin en raison de la complexité ou de la gravité du cas ou de l'expertise du médecin dont l'opinion est recherchée.",
+     "L'évaluation doit correspondre aux exigences de la visite ponctuelle mineure. Elle inclut de plus, au besoin, la révision du dossier, le plan de traitement ou d'investigation, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches.",
+     "Le médecin produit un rapport écrit de son évaluation, de ses recommandations et, le cas échéant, des investigations et traitement qu'il recommande ou qu'il initie."
+    ],
+    "avis": []
+   },
+   "107853": {
+    "titre": "9) Visite d'évaluation d'un problème complexe pour donner une opinion",
+    "texte": [
+     "La visite d'évaluation d'un problème complexe pour donner une opinion est réalisée à la demande d'un médecin, d'un dentiste, d'un optométriste ou d'une sage-femme. La demande vise alors à obtenir l'opinion du médecin en raison de la complexité ou de la gravité du cas.",
+     "L'évaluation inclut l'examen physique ou mental décrit à la visite ponctuelle complexe. Elle inclut de plus, au besoin, la révision du dossier, le plan de traitement ou d'investigation, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches.",
+     "Le médecin produit un rapport écrit de son évaluation, de ses recommandations et, le cas échéant, des investigations et traitement qu'il recommande ou qu'il initie."
+    ],
+    "avis": []
+   },
+   "107855": {
+    "titre": "11) Visite de suivi de grossesse",
+    "texte": [
+     "La visite de suivi de grossesse consiste en l'évaluation d'une patiente enceinte dans le cadre d'un suivi prénatal.",
+     "Cette visite comporte le questionnaire et l'examen pertinent de même que les investigations requises par l'état de la patiente. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+     "Le médecin consigne ses notes au dossier.",
+     "Les tarifs sont modulés selon que la patiente est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+    ],
+    "avis": [
+     "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel la patiente est inscrite ou par un médecin du même groupe de pratique."
+    ]
+   },
+   "107856": {
+    "titre": "12) Visite périodique pédiatrique",
+    "texte": [
+     "La visite périodique pédiatrique est une visite sur rendez-vous d'un patient âgé de 0 à 63 mois par le médecin auprès duquel il est inscrit et qui en assure le suivi longitudinal. Elle vise le dépistage des problèmes de développement et l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+     "L'évaluation doit répondre aux conditions décrites à la visite de suivi d'un patient inscrit. De plus, le médecin doit évaluer les éléments pertinents de l'abécédaire de suivi et consigner les éléments pertinents au dossier.",
+     "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+     "La rémunération spécifique accordée pour la visite périodique pédiatrique est sujet à un maximum du nombre de services. Pour un même patient, sont comptabilisées à cette fin la visite de prise en charge (lors de l'inscription), la visite périodique d'un patient vulnérable, la visite périodique pédiatrique, l'intervention clinique pour la clientèle pédiatrique, de même que les visites rémunérées sous un autre mode et donnant droit à un supplément de responsabilité à l'examen périodique d'un enfant âgé de 0 à 5 ans. Le nombre maximal de ces services qui peut être réclamé est :",
+     "- Entre 0 et 21 mois : huit (8) visites - Entre 22 et 63 mois : une (1) visite par année civile",
+     "Le tarif est modulé selon que le patient est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+    ],
+    "avis": [
+     "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus en raison d'un congé de maternité ou d'adoption ou pour une invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+     "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+    ]
+   },
+   "187587": {
+    "titre": "2.4.1.1 Rédaction du bulletin de décès",
+    "texte": [
+     "Le médecin qui complète le bulletin de décès en y indiquant les informations prévues au formulaire, telles les causes du décès, s'il y a eu autopsie, si des radio-isotopes étaient présents dans le cadre du décès, s'il s'agissait d'une grossesse ou d'une complication de grossesse, s'il y a des signes de violence et s'il y a présence d'une maladie à déclaration obligatoire, peut se prévaloir du tarif du bulletin de décès.",
+     "Lorsque le décès a été constaté, sur place ou à distance, le médecin qui complète le bulletin de décès peut se prévaloir de la rémunération prévue pour ce service. Si c'est le médecin qui a constaté à distance le décès qui complète le bulletin de décès, il peut se prévaloir de la rémunération prévue dans la mesure où il transmet une copie du bulletin de décès au directeur funéraire.",
+     "Aucun examen ou visite ne peut être réclamé aux fins de la rédaction du bulletin de décès, mis à part l'examen externe d'un cadavre à la demande du coroner, l'autopsie ou la constatation de décès, selon le cas."
+    ],
+    "avis": []
+   },
+   "187588": {
+    "titre": "2.4.1 Constatation de décès",
+    "texte": [
+     "Le médecin reçoit la rémunération prévue au tarif pour la constatation d'un décès. Ce service inclut l'examen requis pour constater le décès, la consignation des observations pertinentes au dossier du patient, ainsi que le fait d'indiquer le lieu, la date et l'heure du décès constaté au formulaire prescrit.",
+     "Dispositions spécifiques à la constatation de décès à distance",
+     "Dans un centre accrédité par le ministère de la Santé et des Services sociaux, le médecin qui procède à distance à l'évaluation clinique d'un patient décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le centre. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le technicien ambulancier et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+     "Dans un CHSLD, le médecin qui procède à distance à l'évaluation d'un patient hébergé décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CHSLD. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CHSLD et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+     "En CLSC, le médecin exerçant dans le cadre du programme de soins à domicile qui procède à distance à l'évaluation d'un patient décédé inscrit au programme de soins à domicile du CLSC peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CLSC. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CLSC et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès."
+    ],
+    "avis": []
+   }
+  }
+ },
  "notes": {
-  "repertoire": "Tarifs : Manuel des médecins omnipraticiens (28 octobre 2026) et Brochure no 1 (5 novembre 2026), colonne « En CLSC ou en GMF-U en établissement », avant la majoration selon le territoire. Au mixte en GMF-U : 63,58 % des services médicaux, 62,15 % des services sur base de temps, 100 % des suppléments et des formulaires, en plus du forfait horaire. Les actes chirurgicaux sont publiés en dollars entiers. Ordre : du plus fréquent au plus rare ; la recherche porte sur tous les actes.",
+  "repertoire": "Tarifs : Manuel des médecins omnipraticiens (28 octobre 2026) et Brochure no 1 (5 novembre 2026), avant la majoration selon le territoire. Colonnes « En cabinet » et « En CLSC ou en GMF-U en établissement » du manuel (Manuel des médecins omnipraticiens — Rémunération à l'acte (RAMQ), consulté le 25 octobre 2026) ; les forfaits et suppléments de la Brochure no 1, selon le lieu. Un tarif en cabinet introuvable est marqué « à confirmer ». Le détail de chaque code recopie les avis et les règles du manuel, sans les reformuler ; seul le manuel en vigueur fait foi. Au mixte en GMF-U : 63,58 % des services médicaux, 62,15 % des services sur base de temps, 100 % des suppléments et des formulaires, en plus du forfait horaire. Les actes chirurgicaux sont publiés en dollars entiers. Ordre : du plus fréquent au plus rare ; la recherche porte sur tous les actes.",
   "cnesst": "42 formulaires de la CNESST et de l'IVAC : annexe XIII de l'Entente, en vigueur depuis le 1er avril 2025 (manuel de la RAMQ consulté le 25 octobre 2026). Payés à 100 % du tarif dans tous les modes : à l'acte, au mixte (annexe XXIII, par. 2.11) et au taux horaire, à l'acte pour ces services sans facturer d'heures pour ce temps.",
   "vulnerabilite": "Un patient inscrit est vulnérable s'il a au moins une de ces catégories ; il peut en avoir plusieurs. Forfait annuel (EP 40, par. 6.01) : 62,50 $ en cabinet, 47,00 $ en établissement pour une catégorie ; 150 % pour deux ; 200 % pour trois ou plus. Ajouter, modifier ou annuler un code se fait lors d'une visite ; l'inscription peut être modifiée dans les 90 jours suivant la visite (infolettre 171). Libellés : Guide de gestion « Révision des codes de vulnérabilité » de la FMOQ (2017), d'après l'infolettre 171 de la RAMQ du 15 septembre 2017. Modifications faites depuis à l'EP 40 : source manquante, non vérifiées ici. Vérifiez le libellé en vigueur avant d'inscrire un code."
  }

@@ -1,0 +1,4039 @@
+{
+ "source": {
+  "titre": "Manuel des médecins omnipraticiens — Rémunération à l'acte (RAMQ)",
+  "url": "https://www.ramq.gouv.qc.ca/fr/professionnels/medecin-omnipraticien-omnipraticienne/manuels-guides/manuel-remuneration-acte",
+  "consulte": "2026-10-25"
+ },
+ "codes": {
+  "00013": {
+   "tarif": {
+    "ancre": "261128",
+    "libelle": [
+     "sans déplacement (P.G. 2.2.9 A)"
+    ],
+    "unique": 23.35
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2.4.1 Constatation de décès",
+     "ancre": "187588",
+     "texte": [
+      "Le médecin reçoit la rémunération prévue au tarif pour la constatation d'un décès. Ce service inclut l'examen requis pour constater le décès, la consignation des observations pertinentes au dossier du patient, ainsi que le fait d'indiquer le lieu, la date et l'heure du décès constaté au formulaire prescrit.",
+      "Dispositions spécifiques à la constatation de décès à distance",
+      "Dans un centre accrédité par le ministère de la Santé et des Services sociaux, le médecin qui procède à distance à l'évaluation clinique d'un patient décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le centre. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le technicien ambulancier et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+      "Dans un CHSLD, le médecin qui procède à distance à l'évaluation d'un patient hébergé décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CHSLD. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CHSLD et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+      "En CLSC, le médecin exerçant dans le cadre du programme de soins à domicile qui procède à distance à l'évaluation d'un patient décédé inscrit au programme de soins à domicile du CLSC peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CLSC. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CLSC et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "00014",
+    "00016",
+    "00018",
+    "15234",
+    "15266"
+   ]
+  },
+  "00016": {
+   "tarif": {
+    "ancre": "261133",
+    "libelle": [
+     "sans déplacement (P.G. 2.2.9 A)"
+    ],
+    "unique": 23.35
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2.4.1 Constatation de décès",
+     "ancre": "187588",
+     "texte": [
+      "Le médecin reçoit la rémunération prévue au tarif pour la constatation d'un décès. Ce service inclut l'examen requis pour constater le décès, la consignation des observations pertinentes au dossier du patient, ainsi que le fait d'indiquer le lieu, la date et l'heure du décès constaté au formulaire prescrit.",
+      "Dispositions spécifiques à la constatation de décès à distance",
+      "Dans un centre accrédité par le ministère de la Santé et des Services sociaux, le médecin qui procède à distance à l'évaluation clinique d'un patient décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le centre. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le technicien ambulancier et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+      "Dans un CHSLD, le médecin qui procède à distance à l'évaluation d'un patient hébergé décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CHSLD. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CHSLD et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+      "En CLSC, le médecin exerçant dans le cadre du programme de soins à domicile qui procède à distance à l'évaluation d'un patient décédé inscrit au programme de soins à domicile du CLSC peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CLSC. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CLSC et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "00013",
+    "00014",
+    "00018",
+    "15234",
+    "15266"
+   ]
+  },
+  "00205": {
+   "tarif": {
+    "ancre": "182452",
+    "libelle": [
+     "Insertion de stérilet incluant l'examen, la visite ou la consultation effectué antérieurement ou concurremment à cet égard (P.A.D.T. 1.4)"
+    ],
+    "unique": 55.95
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "00430": {
+   "tarif": {
+    "ancre": "169500",
+    "libelle": [
+     "capsules, gaines, tendons, ligaments ou fascia"
+    ],
+    "unique": 16.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "00431": {
+   "tarif": {
+    "ancre": "169517",
+    "libelle": [
+     "bourse séreuse ou articulation ou les deux incluant aspiration préliminaire (maximum trois (3))"
+    ],
+    "unique": 16.5
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "00828": {
+   "tarif": {
+    "ancre": "168909",
+    "libelle": [
+     "premier quart d'heure (P.G. 2.4.7.3 C)"
+    ],
+    "unique": 113.2
+   },
+   "avis": [
+    "Les CHSP désignés sont : - Institut universitaire en santé mentale de Québec (00888) – CIUSSS de la Capitale-Nationale; - Hôpital de soins psychiatriques de l'Est-de-Montréal (00878) – CIUSSS de l'Est-de-l'Île-de-Montréal; - Hôpital en santé mentale Pierre-Janet (00828) CISSS de l'Outaouais. Annuellement, l'établissement responsable doit transmettre au comité paritaire le nom des médecins qui exercent régulièrement dans l'unité ou le programme de gérontopsychiatrie.",
+    "Pour le premier quart d’heure, utiliser le code de facturation 00828 et inscrire l'heure de début du service. Pour le temps additionnel suivant le premier quart d’heure, utiliser le code de facturation 00829 et inscrire l'heure de début la période supplémentaire et la durée supplémentaire. La durée du premier quart d’heure ne doit pas être incluse dans la durée supplémentaire. Il faut distinguer l’heure de début pour chacun des services afin que leurs périodes ne se chevauchent pas."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "00829",
+    "00878",
+    "00888"
+   ]
+  },
+  "00829": {
+   "tarif": {
+    "ancre": "168910",
+    "libelle": [
+     "chaque quart d'heure supplémentaire (P.G. 2.4.7.3 C)"
+    ],
+    "unique": 28.25
+   },
+   "avis": [
+    "Pour le premier quart d’heure, utiliser le code de facturation 00828 et inscrire l'heure de début du service. Pour le temps additionnel suivant le premier quart d’heure, utiliser le code de facturation 00829 et inscrire l'heure de début la période supplémentaire et la durée supplémentaire. La durée du premier quart d’heure ne doit pas être incluse dans la durée supplémentaire. Il faut distinguer l’heure de début pour chacun des services afin que leurs périodes ne se chevauchent pas."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "00828"
+   ]
+  },
+  "01005": {
+   "tarif": {
+    "ancre": "170285",
+    "libelle": [
+     "sus-fascial ou sus-aponévrotique; unique ou multiple (P.C. 13)"
+    ],
+    "unique": 17.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01164": {
+   "tarif": {
+    "ancre": "170371",
+    "libelle": [
+     "diamètre de trois (3) cm ou moins (P.C. 13)"
+    ],
+    "unique": 18.55
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01165": {
+   "tarif": {
+    "ancre": "170389",
+    "libelle": [
+     "diamètre de trois (3) cm ou moins (P.C. 13)"
+    ],
+    "unique": 15.35
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01166": {
+   "tarif": {
+    "ancre": "170400",
+    "libelle": [
+     "diamètre de trois (3) cm ou moins"
+    ],
+    "unique": 12.2
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01180": {
+   "tarif": {
+    "ancre": "170446",
+    "libelle": [
+     "diamètre de un (1) cm ou moins"
+    ],
+    "unique": 60.05
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01181": {
+   "tarif": {
+    "ancre": "170447",
+    "libelle": [
+     "diamètre de plus de un (1) cm"
+    ],
+    "unique": 100.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01182": {
+   "tarif": {
+    "ancre": "170468",
+    "libelle": [
+     "diamètre de un (1) cm ou moins"
+    ],
+    "unique": 46.15
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01183": {
+   "tarif": {
+    "ancre": "170449",
+    "libelle": [
+     "diamètre de plus de un (1) cm"
+    ],
+    "unique": 70.75
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01184": {
+   "tarif": {
+    "ancre": "170470",
+    "libelle": [
+     "diamètre de un (1) cm ou moins"
+    ],
+    "unique": 30.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01185": {
+   "tarif": {
+    "ancre": "170451",
+    "libelle": [
+     "diamètre de plus de un (1) cm"
+    ],
+    "unique": 50.85
+   },
+   "avis": [
+    "Voir l'avis sous le code de facturation 01185."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01196": {
+   "tarif": {
+    "ancre": "170476",
+    "libelle": [
+     "simple (P.G. 2.4.7.7 A) (P.C. 13)"
+    ],
+    "unique": 26.25
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01215": {
+   "tarif": {
+    "ancre": "170515",
+    "libelle": [
+     "simple (P.C. 13)"
+    ],
+    "unique": 19.15
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01216": {
+   "tarif": {
+    "ancre": "170514",
+    "libelle": [
+     "radicale : exérèse de la matrice unguéale et amputation partielle de la phalange distale, si nécessaire (P.C. 13)"
+    ],
+    "unique": 52.2
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01222": {
+   "tarif": {
+    "ancre": "170550",
+    "libelle": [
+     "première (P.G. 2.4.7.7 A) (P.C. 13)"
+    ],
+    "unique": 16.65
+   },
+   "avis": [
+    "Pour les codes de facturation 01222, 01223 et 01225, inscrire le nombre d'excisions."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "01223",
+    "01225"
+   ]
+  },
+  "01223": {
+   "tarif": {
+    "ancre": "170549",
+    "libelle": [
+     "première (P.G. 2.4.7.7 A) (P.C. 13)"
+    ],
+    "unique": 29.4
+   },
+   "avis": [
+    "Pour les codes de facturation 01222, 01223 et 01225, inscrire le nombre d'excisions."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "01222",
+    "01225"
+   ]
+  },
+  "01236": {
+   "tarif": {
+    "ancre": "170490",
+    "libelle": [
+     "diamètre de un (1) cm ou moins"
+    ],
+    "unique": 54.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01237": {
+   "tarif": {
+    "ancre": "170489",
+    "libelle": [
+     "diamètre de plus de un (1) cm"
+    ],
+    "unique": 86.45
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01238": {
+   "tarif": {
+    "ancre": "170488",
+    "libelle": [
+     "diamètre de un (1) cm ou moins"
+    ],
+    "unique": 41.45
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01239": {
+   "tarif": {
+    "ancre": "170479",
+    "libelle": [
+     "diamètre de plus de un (1) cm"
+    ],
+    "unique": 63.7
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01240": {
+   "tarif": {
+    "ancre": "170478",
+    "libelle": [
+     "diamètre de un (1) cm ou moins"
+    ],
+    "unique": 26.95
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01241": {
+   "tarif": {
+    "ancre": "170487",
+    "libelle": [
+     "diamètre de plus de un (1) cm"
+    ],
+    "unique": 46.3
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01242": {
+   "tarif": {
+    "ancre": "170497",
+    "libelle": [
+     "diamètre de un (1) cm ou moins (P.C. 13)"
+    ],
+    "unique": 92.55
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01243": {
+   "tarif": {
+    "ancre": "170496",
+    "libelle": [
+     "diamètre de plus de un (1) cm (P.C. 13)"
+    ],
+    "unique": 135.75
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01244": {
+   "tarif": {
+    "ancre": "170495",
+    "libelle": [
+     "diamètre de un (1) cm ou moins (P.C. 13)"
+    ],
+    "unique": 71.1
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01245": {
+   "tarif": {
+    "ancre": "170494",
+    "libelle": [
+     "diamètre de plus de un (1) cm (P.C. 13)"
+    ],
+    "unique": 98.95
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01246": {
+   "tarif": {
+    "ancre": "170480",
+    "libelle": [
+     "diamètre de un (1) cm ou moins (P.C. 13)"
+    ],
+    "unique": 54.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01247": {
+   "tarif": {
+    "ancre": "170493",
+    "libelle": [
+     "diamètre de plus de un (1) cm (P.C. 13)"
+    ],
+    "unique": 68.05
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01300": {
+   "tarif": {
+    "ancre": "170574",
+    "libelle": [
+     "première lésion (P.G. 2.4.7.7 B)"
+    ],
+    "unique": 7.3
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "01320": {
+   "tarif": {
+    "ancre": "170587",
+    "libelle": [
+     "moins de un (1) cm (P.C. 13)"
+    ],
+    "unique": 27.5
+   },
+   "avis": [
+    "Pour les codes de facturation 01320 et 01323, indiquer la longueur de la réparation."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "01323"
+   ]
+  },
+  "01323": {
+   "tarif": {
+    "ancre": "170588",
+    "libelle": [
+     "moins de un (1) cm (P.C. 13)"
+    ],
+    "unique": 17.75
+   },
+   "avis": [
+    "Pour les codes de facturation 01320 et 01323, indiquer la longueur de la réparation."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "01320"
+   ]
+  },
+  "06980": {
+   "tarif": {
+    "ancre": "173739",
+    "libelle": [
+     "un seul implant"
+    ],
+    "unique": 109.05
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "06981": {
+   "tarif": {
+    "ancre": "173738",
+    "libelle": [
+     "plus d'un implant à la même séance"
+    ],
+    "unique": 139.6
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "06982": {
+   "tarif": {
+    "ancre": "173736",
+    "libelle": [
+     "Exérèse d'un implant contraceptif sous-cutané"
+    ],
+    "unique": 125.4
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "06983": {
+   "tarif": {
+    "ancre": "173734",
+    "libelle": [
+     "Exérèse de plus d'un implant à la même séance"
+    ],
+    "unique": 169.8
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "08775": {
+   "tarif": {
+    "ancre": "166443",
+    "libelle": [
+     "En cabinet",
+     "En CLSC"
+    ],
+    "cabinet": 99.4,
+    "etablissement": 74.75
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "17) Visite de prise en charge d'un problème musculo-squelettique",
+     "ancre": "127986",
+     "texte": [
+      "La visite de prise en charge d'un problème musculo-squelettique s'effectue sur rendez-vous et vise l'évaluation d'un patient souffrant d'un problème musculo-squelettique nécessitant une évaluation par un médecin détenant une expertise en la matière ou la participation d'un tel médecin dans son suivi longitudinal, ou à l'évaluation par un tel médecin d'un patient souffrant de symptômes persistants d'une commotion cérébrale.",
+      "Elle comprend l'examen du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Le médecin consigne ses notes au dossier.",
+      "Le médecin peut se prévaloir de cette visite une seule fois pour un même patient. Toutefois, il ne peut se prévaloir de cette visite s'il s'est prévalu, pour le même patient, de la visite d'évaluation d'un problème musculo-squelettique pour donner une opinion."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "08776": {
+   "tarif": {
+    "ancre": "268763",
+    "libelle": [
+     "En cabinet",
+     "En CLSC"
+    ],
+    "cabinet": 49.15,
+    "etablissement": 36.95
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "18) Visite de suivi d'un problème musculo-squelettique",
+     "ancre": "127990",
+     "texte": [
+      "La visite de suivi d'un problème musculo-squelettique s'effectue sur rendez-vous et vise l'évaluation ou le traitement d'un patient souffrant d'un problème musculo-squelettique nécessitant une évaluation ou un suivi longitudinal. Elle ne s'applique pas et ne peut être facturée lors du suivi d'un patient souffrant de symptômes persistants d'une commotion cérébrale, à moins que le patient souffre aussi d'un problème musculo-squelettique nécessitant une évaluation ou un suivi longitudinal.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Le médecin consigne ses notes au dossier."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "08777": {
+   "tarif": {
+    "ancre": "268961",
+    "libelle": [
+     "En cabinet",
+     "En CLSC"
+    ],
+    "cabinet": 99.4,
+    "etablissement": 74.75
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "19) Visite d'évaluation d'un problème musculo-squelettique pour donner une opinion",
+     "ancre": "127993",
+     "texte": [
+      "La visite d'évaluation d'un problème musculo-squelettique pour donner une opinion est réalisée à la demande d'un médecin. La demande vise alors à obtenir l'opinion du médecin en raison de son expertise, de la complexité ou de la gravité du problème musculo-squelettique du patient ou de symptômes persistants d'une commotion cérébrale.",
+      "L'évaluation inclut l'examen physique. Elle inclut de plus, au besoin, la révision du dossier, le plan de traitement ou d'investigation, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches.",
+      "Le médecin produit un rapport écrit de son évaluation, de ses recommandations et, le cas échéant, des investigations et traitement qu'il recommande ou qu'il initie.",
+      "2.2.6 B Intervention clinique",
+      "L'intervention clinique est, en termes de contenu clinique, équivalente à un examen, à une visite ou à une consultation mais elle est d'une durée plus longue pour des raisons diverses que ce soit, par exemple, à cause de l'importance du conseil, du soutien ou de l'information à transmettre au patient et, selon le cas, à ses proches, ou encore parce que la communication avec le patient doit se faire par l'intermédiaire d'un interprète ou d'un accompagnateur.",
+      "L'intervention clinique est, selon le cas, individuelle ou collective. Elle est collective si elle est dispensée à plus d'une (1) personne. Le tarif de l'intervention clinique collective est modulé selon qu'elle soit utilisée ou non pour soigner un groupe de personnes souffrant toutes de problèmes de santé mentale ou d'une condition de vulnérabilité décrite à l'Entente particulière relative aux services de médecine de famille, de prise en charge et de suivi de la clientèle. La modulation du tarif du premier type d'intervention clinique collective tient compte du temps de préparation qui doit être consacré à l'intervention clinique collective et qui n'est pas inclus dans le temps rémunéré.",
+      "Pour donner ouverture à la rémunération prévue pour l'intervention clinique, la séance ne doit pas durer moins de vingt-cinq (25) minutes. Une ou des périodes supplémentaires de quinze (15) minutes peuvent être facturées à la condition que la première période de la séance ne soit pas inférieure à trente (30) minutes. L'ultime période supplémentaire doit avoir une durée minimale de huit (8) minutes, sans quoi elle ne peut donner lieu à aucune rémunération. Lorsqu'une période supplémentaire dont la durée est de moins de quinze (15) minutes est rémunérée et qu'elle est suivie d'une nouvelle intervention clinique auprès d'un autre patient, cette dernière ne peut débuter moins de quinze (15) minutes complètes après le début de l'ultime période supplémentaire en cause. La durée d'une intervention clinique ne dépasse généralement pas quatre-vingt-dix (90) minutes. Le médecin ne peut facturer plus de cent-quatre-vingt (180) minutes d'interventions cliniques dans une journée sous réserve des dispositions suivantes.",
+      "N'est pas comptabilisée aux fins de la durée quotidienne maximale prévue ci-dessus, la durée d'une intervention clinique effectuée :"
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "08819": {
+   "tarif": {
+    "ancre": "266745",
+    "libelle": [
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 99.4,
+    "etablissement": 74.75
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "6) Visite d'évaluation psychiatrique",
+     "ancre": "107850",
+     "texte": [
+      "La visite d'évaluation psychiatrique est réalisée à la demande d'un médecin. La demande vise alors à obtenir l'opinion de son collègue ou sa participation au suivi en santé mentale, en raison de la complexité ou de la gravité du cas.",
+      "En plus de l'examen psychiatrique du patient, l'évaluation inclut, au besoin, la révision du dossier, l'examen physique, le plan de traitement ou d'investigation, les ordonnances, les recommandations et les échanges courants avec le patient, ses proches ou le personnel qui l'accompagne.",
+      "Un médecin qui procède à une visite d'évaluation psychiatrique produit un rapport écrit de son évaluation, de ses recommandations et, le cas échéant, du traitement qu'il recommande ou qu'il initie.",
+      "Le médecin qui revoit le patient dans le cadre du suivi conjoint qui découle de sa visite d'évaluation psychiatrique ne peut alors réclamer la visite d'évaluation psychiatrique.",
+      "Cette visite ne peut être réclamée par le médecin traitant."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "08848": {
+   "tarif": {
+    "ancre": "268468",
+    "libelle": [
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ]
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "7) Visite de suivi psychiatrique",
+     "ancre": "107851",
+     "texte": [
+      "La visite de suivi psychiatrique est une visite auprès du médecin qui assure un suivi conjoint en santé mentale d'un patient inscrit auprès d'un autre médecin ou qui assure un suivi en santé mentale auprès d'un patient non inscrit. Cette visite se fait généralement à la suite d'une visite d'évaluation psychiatrique à la demande du médecin traitant.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Le médecin consigne ses notes au dossier.",
+      "Cette visite ne peut être réclamée par le médecin traitant."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "08857": {
+   "tarif": {
+    "ancre": "266768",
+    "libelle": [
+     "Intervention clinique individuelle première période de trente (30) minutes",
+     "En cabinet ou à domicile dans le cadre des activités du médecin en cabinet",
+     "En CLSC et en GMF-U en établissement ou à domicile dans le cadre des activités du médecin en CLSC ou en GMF-U (P.G. 2.2.9 A)"
+    ],
+    "cabinet": 59.7,
+    "etablissement": 49.75
+   },
+   "avis": [
+    "Pour la première période de 30 minutes, utiliser le code de facturation 08857 ou 08858 et inscrire l'heure de début et l'heure de fin de la première période de l'intervention."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08841",
+    "08844",
+    "08858",
+    "08860",
+    "08866",
+    "08869"
+   ]
+  },
+  "08859": {
+   "tarif": {
+    "ancre": "269253",
+    "libelle": [
+     "Intervention clinique individuelle, période supplémentaire de quinze (15) minutes",
+     "En cabinet ou à domicile dans le cadre des activités du médecin en cabinet",
+     "En CLSC et en GMF-U en établissement ou à domicile dans le cadre des activités du médecin en CLSC ou en GMF-U (P.G. 2.2.9 A)"
+    ],
+    "cabinet": 29.85,
+    "etablissement": 24.87
+   },
+   "avis": [
+    "Pour la période supplémentaire suivant les 30 premières minutes, utiliser le code de facturation 08859 ou 08860 et inscrire l'heure de début et l'heure de fin de la période supplémentaire d'intervention. La durée des 30 premières minutes ne doit pas être incluse dans la période supplémentaire. Il faut distinguer l’heure de début et l'heure de fin pour chacun des services afin que leurs périodes ne se chevauchent pas."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08860"
+   ]
+  },
+  "08866": {
+   "tarif": {
+    "ancre": "269283",
+    "libelle": [
+     "Intervention clinique collective, première période de trente (30) minutes"
+    ],
+    "cabinet": 59.7,
+    "etablissement": 49.75
+   },
+   "avis": [
+    "Pour la première période de 30 minutes, utiliser le code de facturation 08866 ou 08867 et inscrire : - le numéro d'assurance maladie de chaque personne; - l'heure de début et l'heure de fin de la première période de l'intervention."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08841",
+    "08844",
+    "08857",
+    "08860",
+    "08867",
+    "08869"
+   ]
+  },
+  "08868": {
+   "tarif": {
+    "ancre": "269285",
+    "libelle": [
+     "Intervention clinique collective, période supplémentaire de quinze (15) minutes"
+    ],
+    "cabinet": 29.85,
+    "etablissement": 24.87
+   },
+   "avis": [
+    "Pour la période supplémentaire suivant les 30 premières minutes, utiliser le code de facturation 08868 et 08869, inscrire l'heure de début et l'heure de fin de la période supplémentaire d'intervention. La durée des 30 premières minutes ne doit pas être incluse dans la période supplémentaire. Il faut distinguer l’heure de début et l'heure de fin pour chacun des services afin que leurs périodes ne se chevauchent pas."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08869"
+   ]
+  },
+  "08875": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "08877": {
+   "tarif": {
+    "ancre": "268679",
+    "libelle": [
+     "supplément de responsabilité à l'examen périodique du patient âgé de 0 à 5 ans en cabinet (voir le paragraphe 8.01, de l’EP – Médecine de famille, prise en charge et suivi de la clientèle)",
+     "en CLSC et en GMF-U en établissement"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15144",
+    "15145",
+    "15158",
+    "15159",
+    "15169",
+    "15170",
+    "15171",
+    "15189",
+    "19074"
+   ]
+  },
+  "09054": {
+   "tarif": {
+    "ancre": "167499",
+    "libelle": [
+     "sans déplacement (P.G. 2.2.9 A)"
+    ],
+    "unique": 61.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09063": {
+   "tarif": {
+    "ancre": "167507",
+    "libelle": [
+     "supplément lorsqu'effectué à domicile"
+    ],
+    "unique": 28.15
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09070": {
+   "tarif": {
+    "ancre": "167510",
+    "libelle": [
+     "Prise en charge d'un enfant présumément victime de mauvais traitements, évaluation médicale et rapport (P.G. 2.2.9 A)"
+    ],
+    "unique": 116.1
+   },
+   "avis": [
+    "Pour les 60 premières minutes, utiliser le code de facturation 09070 et inscrire l'heure de début du service. Pour les demi-heures additionnelles suivant les 60 premières minutes, utiliser le code de facturation 09073 et inscrire l'heure de début de la période additionnelle etla durée additionnelle de la séance. La durée des 60 premières minutes ne doit pas être incluse dans la période additionnelle. Il faut distinguer l’heure de début pour chacun des services afin que leurs périodes ne se chevauchent pas."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09073"
+   ]
+  },
+  "09100": {
+   "tarif": {
+    "ancre": "272242",
+    "libelle": [
+     "examen d'évaluation médicale d'un patient en perte d'autonomie en vue d'allocation de ressources et en vue de la rédaction du formulaire approprié"
+    ],
+    "unique": 163.5
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09101": {
+   "tarif": {
+    "ancre": "167488",
+    "libelle": [
+     "rédaction du formulaire"
+    ],
+    "unique": 35.95
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09800": {
+   "tarif": {
+    "ancre": "89718",
+    "libelle": [
+     "Pour remplir le formulaire intitulé « Rapport médical » prescrit par le Ministre"
+    ],
+    "unique": 20.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09817",
+    "09825",
+    "09826",
+    "09901",
+    "09980",
+    "15265",
+    "15795",
+    "15797"
+   ]
+  },
+  "09801": {
+   "tarif": {
+    "ancre": "89715",
+    "libelle": [
+     "pour l'information fournie"
+    ],
+    "unique": 20.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09817": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09825",
+    "09826",
+    "09901",
+    "09980",
+    "15265",
+    "15795",
+    "15797"
+   ]
+  },
+  "09825": {
+   "tarif": {
+    "ancre": "168112",
+    "libelle": [
+     "- Remplir le formulaire intitulé « rapport du directeur-général - évaluation médicale » ou son équivalent"
+    ],
+    "unique": 26.15
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09817",
+    "09826",
+    "09901",
+    "09980",
+    "15265",
+    "15795",
+    "15797"
+   ]
+  },
+  "09826": {
+   "tarif": {
+    "ancre": "168113",
+    "libelle": [
+     "- Remplir le formulaire intitulé « réévaluation médicale » ou son équivalent"
+    ],
+    "unique": 26.15
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09817",
+    "09825",
+    "09901",
+    "09980",
+    "15265",
+    "15795",
+    "15797"
+   ]
+  },
+  "09901": {
+   "tarif": {
+    "ancre": "283930",
+    "libelle": [
+     "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'Entente"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09817",
+    "09825",
+    "09826",
+    "09980",
+    "15265",
+    "15795",
+    "15797"
+   ]
+  },
+  "09902": {
+   "tarif": {
+    "ancre": "283919",
+    "libelle": [
+     "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'entente"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09907": {
+   "tarif": {
+    "ancre": "283852",
+    "libelle": [
+     "pour l'information verbale fournie"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09908": {
+   "tarif": {
+    "ancre": "283873",
+    "libelle": [
+     "pour l'opinion professionnelle obtenue du médecin"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09909": {
+   "tarif": {
+    "ancre": "283899",
+    "libelle": [
+     "rédaction du formulaire prescrit par la Commission et expédition à celle-ci, dans les trente (30) jours de la réception du rapport du professionnel de la santé"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09910": {
+   "tarif": {
+    "ancre": "283883",
+    "libelle": [
+     "rédaction du rapport de consultation motivé et expédition au médecin qui a charge du travailleur"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09911": {
+   "tarif": {
+    "ancre": "284098",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09912": {
+   "tarif": {
+    "ancre": "284099",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09913": {
+   "tarif": {
+    "ancre": "284122",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09914": {
+   "tarif": {
+    "ancre": "283857",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09915": {
+   "tarif": {
+    "ancre": "283864",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09916": {
+   "tarif": {
+    "ancre": "283888",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09919": {
+   "tarif": {
+    "ancre": "284006",
+    "libelle": [
+     "supplément pour la production des tests audiologiques en cabinet privé"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09922": {
+   "tarif": {
+    "ancre": "283877",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09924": {
+   "tarif": {
+    "ancre": "284132",
+    "libelle": [
+     "examen du dossier, rédaction et expédition sans délai à la Commission de l'avis supplémentaire requis"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09925": {
+   "tarif": {
+    "ancre": "284136",
+    "libelle": [
+     "examen du dossier, rédaction et expédition sans délai à la Commission de l'avis supplémentaire requis"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09926": {
+   "tarif": {
+    "ancre": "283813",
+    "libelle": [
+     "rédaction et remise sans délai au travailleur du formulaire d'attestation médicale prescrit par la Commission"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09927": {
+   "tarif": {
+    "ancre": "283816",
+    "libelle": [
+     "rédaction et expédition à la Commission, dans les six (6) jours du premier examen, du formulaire de prise en charge prescrit par la Commission"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09928": {
+   "tarif": {
+    "ancre": "283819",
+    "libelle": [
+     "rédaction et expédition immédiate à la Commission du formulaire d'évolution prescrit par la Commission"
+    ]
+   },
+   "avis": [
+    "Si vous utilisez le code de facturation 09928 plus d'une fois par jour pour 2 évènements différents, utilisez une facture par évènement."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09929": {
+   "tarif": {
+    "ancre": "283826",
+    "libelle": [
+     "rédaction et expédition à la Commission, dans les dix (10) jours de la réception de la demande, du formulaire d'information médicale complémentaire écrite prescrit par la Commission"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09930": {
+   "tarif": {
+    "ancre": "283829",
+    "libelle": [
+     "rédaction et expédition à la Commission, dès que la lésion professionnelle du travailleur est consolidée, du formulaire de rapport final prescrit par la Commission"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09931": {
+   "tarif": {
+    "ancre": "284140",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09936": {
+   "tarif": {
+    "ancre": "283998",
+    "libelle": [
+     "le médecin qui participe à la préparation de l'avis commun"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09937": {
+   "tarif": {
+    "ancre": "284002",
+    "libelle": [
+     "le médecin qui rédige l'avis commun reçoit des honoraires additionnels de"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09938": {
+   "tarif": {
+    "ancre": "283985",
+    "libelle": [
+     "avis donné au vu du dossier"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09939": {
+   "tarif": {
+    "ancre": "283989",
+    "libelle": [
+     "avis donné après examen du travailleur"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09942": {
+   "tarif": {
+    "ancre": "284109",
+    "libelle": [
+     "étude de dossier, rédaction et expédition sans délai à la Commission d'un rapport, pour chaque médecin"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09944": {
+   "tarif": {
+    "ancre": "283907",
+    "libelle": [
+     "examen du travailleur, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09946": {
+   "tarif": {
+    "ancre": "283922",
+    "libelle": [
+     "examen du travailleur dans un délai d'un à cinq jours consécutifs suivant la demande de la Commission, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09947": {
+   "tarif": {
+    "ancre": "283975",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09948": {
+   "tarif": {
+    "ancre": "283954",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09949": {
+   "tarif": {
+    "ancre": "283981",
+    "libelle": [
+     ""
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09954": {
+   "tarif": {
+    "ancre": "284125",
+    "libelle": [
+     "rédaction et remise sans délai au travailleur du certificat médical du plongeur professionnel"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09970": {
+   "tarif": {
+    "ancre": "284030",
+    "libelle": [
+     "rédaction, remise de la copie à la travailleuse et expédition sans délai du certificat prescrit par la Commission visant l'affectation ou le retrait préventif de la travailleuse enceinte ou qui allaite"
+    ]
+   },
+   "avis": [
+    "La prise en charge de grossesse et la rédaction, remise de la copie à la travailleuse et expédition sans délai du certificat prescrit par la Commission visant l'affectation ou le retrait préventif de la travailleuse enceinte ou qui allaite (code de facturation 09970) doivent être facturées sur une facture distincte."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09971": {
+   "tarif": {
+    "ancre": "284110",
+    "libelle": [
+     "rédaction complète de la partie du formulaire où il est demandé au médecin de se prononcer sur le travail préalablement proposé par l'employeur, remise de la copie au travailleur et expédition sans délai du formulaire d'assignation temporaire prévu par la Commission ou identique à celui-ci"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09973": {
+   "tarif": {
+    "ancre": "286147",
+    "libelle": [
+     "Il s'agit du formulaire qui atteste des signes d'altération de la santé du travailleur exposé à un contaminant ou une matière dangereuse et visant son affectation ou son retrait préventif, en vertu de la Loi sur la santé et la sécurité du travail."
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09977": {
+   "tarif": {
+    "ancre": "283969",
+    "libelle": [
+     "supplément lorsque le médecin rend son avis en cabinet privé"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09978": {
+   "tarif": {
+    "ancre": "283933",
+    "libelle": [
+     "examen du travailleur, rédaction et expédition sans délai à la Commission du rapport d'évaluation médicale prescrit"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "09980": {
+   "tarif": {
+    "ancre": "283945",
+    "libelle": [
+     "supplément en neurologie et neurochirurgie, ou supplément en toxicologie pour les médecins désignés par les parties à l'entente"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09817",
+    "09825",
+    "09826",
+    "09901",
+    "15265",
+    "15795",
+    "15797"
+   ]
+  },
+  "15145": {
+   "tarif": {
+    "ancre": "266734",
+    "libelle": [
+     "supplément de responsabilité pour suivi de grossesse (voir le paragraphe 7.02 B) de l’EP – Médecine de famille, prise en charge et suivi de la clientèle)",
+     "en CLSC et en GMF-U en établissement"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08877",
+    "15144",
+    "15158",
+    "15159",
+    "15169",
+    "15170",
+    "15171",
+    "15189",
+    "19074"
+   ]
+  },
+  "15158": {
+   "tarif": {
+    "ancre": "268912",
+    "libelle": [
+     "Forfait de congé en établissement d'un patient admis (voir le paragraphe 9.00 C) de l'EP – Médecine de famille, prise en charge et suivi de la clientèle)"
+    ],
+    "unique": 35.55
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08877",
+    "15144",
+    "15145",
+    "15159",
+    "15169",
+    "15170",
+    "15171",
+    "15189",
+    "19074"
+   ]
+  },
+  "15159": {
+   "tarif": {
+    "ancre": "268783",
+    "libelle": [
+     "supplément à l'examen de prise en charge d'une grossesse lorsque fait au cours du premier trimestre de grossesse en cabinet (voir le paragraphe 7.02 A) de l'E.P. Médecine de famille, prise en charge et suivi de la clientèle) en CLSC et en GMF-U en établissement (1)"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08877",
+    "15144",
+    "15145",
+    "15158",
+    "15169",
+    "15170",
+    "15171",
+    "15189",
+    "19074"
+   ]
+  },
+  "15169": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08877",
+    "15144",
+    "15145",
+    "15158",
+    "15159",
+    "15170",
+    "15171",
+    "15189",
+    "19074"
+   ]
+  },
+  "15170": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08877",
+    "15144",
+    "15145",
+    "15158",
+    "15159",
+    "15169",
+    "15171",
+    "15189",
+    "19074"
+   ]
+  },
+  "15188": {
+   "tarif": {
+    "ancre": "268015",
+    "libelle": [
+     "supplément pour la communication par l'intermédiaire d'un interprète, cabinet, domicile, établissement pour un patient inscrit"
+    ],
+    "unique": 27.25
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15189": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08877",
+    "15144",
+    "15145",
+    "15158",
+    "15159",
+    "15169",
+    "15170",
+    "15171",
+    "19074"
+   ]
+  },
+  "15265": {
+   "tarif": {
+    "ancre": "261117",
+    "libelle": [
+     "rédaction du bulletin de décès (formulaire SP-3) (P.G. 2.2.9 A)"
+    ],
+    "unique": 19.8
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2.4.1.1 Rédaction du bulletin de décès",
+     "ancre": "187587",
+     "texte": [
+      "Le médecin qui complète le bulletin de décès en y indiquant les informations prévues au formulaire, telles les causes du décès, s'il y a eu autopsie, si des radio-isotopes étaient présents dans le cadre du décès, s'il s'agissait d'une grossesse ou d'une complication de grossesse, s'il y a des signes de violence et s'il y a présence d'une maladie à déclaration obligatoire, peut se prévaloir du tarif du bulletin de décès.",
+      "Lorsque le décès a été constaté, sur place ou à distance, le médecin qui complète le bulletin de décès peut se prévaloir de la rémunération prévue pour ce service. Si c'est le médecin qui a constaté à distance le décès qui complète le bulletin de décès, il peut se prévaloir de la rémunération prévue dans la mesure où il transmet une copie du bulletin de décès au directeur funéraire.",
+      "Aucun examen ou visite ne peut être réclamé aux fins de la rédaction du bulletin de décès, mis à part l'examen externe d'un cadavre à la demande du coroner, l'autopsie ou la constatation de décès, selon le cas."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09817",
+    "09825",
+    "09826",
+    "09901",
+    "09980",
+    "15795",
+    "15797"
+   ]
+  },
+  "15314": {
+   "tarif": {
+    "ancre": "190690",
+    "libelle": [
+     "établissement"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15316": {
+   "tarif": {
+    "ancre": "168064",
+    "libelle": [
+     "établissement"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15765": {
+   "tarif": {
+    "ancre": "268336",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 20.4,
+    "etablissement": 15.3
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "4) Visite ponctuelle mineure",
+     "ancre": "107848",
+     "texte": [
+      "La visite ponctuelle mineure consiste en l'évaluation d'un patient, inscrit ou non auprès du médecin, pour un problème concernant un seul système ou une seule partie du corps.",
+      "Elle comprend le questionnaire, l'examen pertinent lorsque requis, de même que l'établissement d'un diagnostic et les recommandations au patient ou ses proches. Le médecin consigne ses notes au dossier.",
+      "Elle peut être réclamée plus d'une fois par jour auprès du même patient lorsqu'un contact subséquent est requis avec le patient pour effectuer un nouveau questionnaire ou examen ou pour initier un traitement, pour évaluer un traitement en cours, pour observer l'évolution d'un maladie ou pour évaluer la réponse à un traitement.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel le patient est inscrit ou par un médecin du même groupe de pratique."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15772"
+   ]
+  },
+  "15766": {
+   "tarif": {
+    "ancre": "268337",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 23.55,
+    "etablissement": 17.7
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15767": {
+   "tarif": {
+    "ancre": "268348",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 31.0,
+    "etablissement": 23.55
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15768": {
+   "tarif": {
+    "ancre": "268349",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 34.15,
+    "etablissement": 25.9
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15769": {
+   "tarif": {
+    "ancre": "268356",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 24.25,
+    "etablissement": 18.25
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15770": {
+   "tarif": {
+    "ancre": "268360",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 28.05,
+    "etablissement": 21.05
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15771": {
+   "tarif": {
+    "ancre": "268413",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 34.9,
+    "etablissement": 26.45
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15772": {
+   "tarif": {
+    "ancre": "268415",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 38.65,
+    "etablissement": 29.3
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "4) Visite ponctuelle mineure",
+     "ancre": "107848",
+     "texte": [
+      "La visite ponctuelle mineure consiste en l'évaluation d'un patient, inscrit ou non auprès du médecin, pour un problème concernant un seul système ou une seule partie du corps.",
+      "Elle comprend le questionnaire, l'examen pertinent lorsque requis, de même que l'établissement d'un diagnostic et les recommandations au patient ou ses proches. Le médecin consigne ses notes au dossier.",
+      "Elle peut être réclamée plus d'une fois par jour auprès du même patient lorsqu'un contact subséquent est requis avec le patient pour effectuer un nouveau questionnaire ou examen ou pour initier un traitement, pour évaluer un traitement en cours, pour observer l'évolution d'un maladie ou pour évaluer la réponse à un traitement.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel le patient est inscrit ou par un médecin du même groupe de pratique."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15765"
+   ]
+  },
+  "15773": {
+   "tarif": {
+    "ancre": "268338",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 40.8,
+    "etablissement": 30.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15780"
+   ]
+  },
+  "15774": {
+   "tarif": {
+    "ancre": "268339",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 47.05,
+    "etablissement": 35.4
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15775": {
+   "tarif": {
+    "ancre": "268351",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 51.4,
+    "etablissement": 38.85
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15776": {
+   "tarif": {
+    "ancre": "268354",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 57.65,
+    "etablissement": 43.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15777": {
+   "tarif": {
+    "ancre": "268362",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 48.5,
+    "etablissement": 36.45
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15778": {
+   "tarif": {
+    "ancre": "268368",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 56.05,
+    "etablissement": 42.15
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15779": {
+   "tarif": {
+    "ancre": "268459",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 59.1,
+    "etablissement": 44.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15780": {
+   "tarif": {
+    "ancre": "268461",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 66.65,
+    "etablissement": 50.35
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15773"
+   ]
+  },
+  "15781": {
+   "tarif": {
+    "ancre": "166417",
+    "libelle": [
+     "Premier patient"
+    ],
+    "unique": 133.25
+   },
+   "avis": [
+    "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code postal ou le numéro du lieu habituel de pratique.",
+    "Les codes de facturation 15781, 15782, 15783 et 15784 pour la visite à domicile doivent être utilisés seulement pour le premier, le deuxième ou le troisième patient vu sous un même toit. Le cas échéant, pour préciser qu'il s'agit d'un déplacement subséquent et se prévaloir à nouveau de la visite à domicile pour le patient en perte sévère d'autonomie ou en soins palliatifs au cours d'une même journée, utiliser l'élément de contexte Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile. À partir du quatrième patient, la visite à domicile se facture selon la nomenclature habituelle en cabinet, en CLSC ou en GMF-U en établissement avec l'élément de contexte Visite rendue au domicile du patient.",
+    "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code de localité ou le numéro du lieu habituel de pratique."
+   ],
+   "sections": [],
+   "contexte": [
+    "Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784)",
+    "Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile",
+    "Visite rendue au domicile du patient"
+   ],
+   "lies": [
+    "15782",
+    "15783",
+    "15784"
+   ]
+  },
+  "15782": {
+   "tarif": {
+    "ancre": "166418",
+    "libelle": [
+     "Patient additionnel en perte sévère d'autonomie"
+    ],
+    "unique": 102.55
+   },
+   "avis": [
+    "Les codes de facturation 15781, 15782, 15783 et 15784 pour la visite à domicile doivent être utilisés seulement pour le premier, le deuxième ou le troisième patient vu sous un même toit. Le cas échéant, pour préciser qu'il s'agit d'un déplacement subséquent et se prévaloir à nouveau de la visite à domicile pour le patient en perte sévère d'autonomie ou en soins palliatifs au cours d'une même journée, utiliser l'élément de contexte Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile. À partir du quatrième patient, la visite à domicile se facture selon la nomenclature habituelle en cabinet, en CLSC ou en GMF-U en établissement avec l'élément de contexte Visite rendue au domicile du patient."
+   ],
+   "sections": [],
+   "contexte": [
+    "Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile",
+    "Visite rendue au domicile du patient"
+   ],
+   "lies": [
+    "15781",
+    "15783",
+    "15784"
+   ]
+  },
+  "15783": {
+   "tarif": {
+    "ancre": "166420",
+    "libelle": [
+     "Premier patient"
+    ],
+    "unique": 143.85
+   },
+   "avis": [
+    "Les codes de facturation 15781, 15782, 15783 et 15784 pour la visite à domicile doivent être utilisés seulement pour le premier, le deuxième ou le troisième patient vu sous un même toit. Le cas échéant, pour préciser qu'il s'agit d'un déplacement subséquent et se prévaloir à nouveau de la visite à domicile pour le patient en perte sévère d'autonomie ou en soins palliatifs au cours d'une même journée, utiliser l'élément de contexte Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile. À partir du quatrième patient, la visite à domicile se facture selon la nomenclature habituelle en cabinet, en CLSC ou en GMF-U en établissement avec l'élément de contexte Visite rendue au domicile du patient."
+   ],
+   "sections": [],
+   "contexte": [
+    "Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile",
+    "Visite rendue au domicile du patient"
+   ],
+   "lies": [
+    "15781",
+    "15782",
+    "15784"
+   ]
+  },
+  "15784": {
+   "tarif": {
+    "ancre": "166423",
+    "libelle": [
+     "Patient additionnel en perte sévère d'autonomie"
+    ],
+    "unique": 113.15
+   },
+   "avis": [
+    "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code postal ou le numéro du lieu habituel de pratique.",
+    "Les codes de facturation 15781, 15782, 15783 et 15784 pour la visite à domicile doivent être utilisés seulement pour le premier, le deuxième ou le troisième patient vu sous un même toit. Le cas échéant, pour préciser qu'il s'agit d'un déplacement subséquent et se prévaloir à nouveau de la visite à domicile pour le patient en perte sévère d'autonomie ou en soins palliatifs au cours d'une même journée, utiliser l'élément de contexte Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile. À partir du quatrième patient, la visite à domicile se facture selon la nomenclature habituelle en cabinet, en CLSC ou en GMF-U en établissement avec l'élément de contexte Visite rendue au domicile du patient.",
+    "Pour la visite à domicile en lien avec les activités du médecin en cabinet, en CLSC ou en GMF-U : - utiliser l'élément de contexte Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784) ; - inscrire le numéro de cabinet, le code de localité ou le numéro du lieu habituel de pratique."
+   ],
+   "sections": [],
+   "contexte": [
+    "Visite rendue au domicile du patient, excepté pour les visites dont le patient est en perte sévère d'autonomie et dont le libellé en fait déjà mention (codes de facturation 15781 à 15784)",
+    "Déplacement au domicile suivant – Patient en perte sévère d'autonomie ou en soins palliatif à partir du deuxième domicile",
+    "Visite rendue au domicile du patient"
+   ],
+   "lies": [
+    "15781",
+    "15782",
+    "15783"
+   ]
+  },
+  "15785": {
+   "tarif": {
+    "ancre": "268531",
+    "libelle": [
+     "première période de trente (30) minutes",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 59.7,
+    "etablissement": 49.75
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15786": {
+   "tarif": {
+    "ancre": "268532",
+    "libelle": [
+     "période supplémentaire de quinze (15) minutes",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 29.85,
+    "etablissement": 24.87
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15789": {
+   "tarif": {
+    "ancre": "268522",
+    "libelle": [
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 40.6,
+    "etablissement": 40.6
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "8) Visite d'évaluation d'un problème mineur pour donner une opinion",
+     "ancre": "107852",
+     "texte": [
+      "La visite d'évaluation d'un problème mineur pour donner une opinion est réalisée à la demande d'un médecin, d'un dentiste, d'un optométriste ou d'une sage-femme. La demande vise alors à obtenir l'opinion du médecin en raison de la complexité ou de la gravité du cas ou de l'expertise du médecin dont l'opinion est recherchée.",
+      "L'évaluation doit correspondre aux exigences de la visite ponctuelle mineure. Elle inclut de plus, au besoin, la révision du dossier, le plan de traitement ou d'investigation, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches.",
+      "Le médecin produit un rapport écrit de son évaluation, de ses recommandations et, le cas échéant, des investigations et traitement qu'il recommande ou qu'il initie."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "15790": {
+   "tarif": {
+    "ancre": "268523",
+    "libelle": [
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 63.0,
+    "etablissement": 63.0
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "9) Visite d'évaluation d'un problème complexe pour donner une opinion",
+     "ancre": "107853",
+     "texte": [
+      "La visite d'évaluation d'un problème complexe pour donner une opinion est réalisée à la demande d'un médecin, d'un dentiste, d'un optométriste ou d'une sage-femme. La demande vise alors à obtenir l'opinion du médecin en raison de la complexité ou de la gravité du cas.",
+      "L'évaluation inclut l'examen physique ou mental décrit à la visite ponctuelle complexe. Elle inclut de plus, au besoin, la révision du dossier, le plan de traitement ou d'investigation, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches.",
+      "Le médecin produit un rapport écrit de son évaluation, de ses recommandations et, le cas échéant, des investigations et traitement qu'il recommande ou qu'il initie."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "15795": {
+   "tarif": {
+    "ancre": "284160",
+    "libelle": [
+     "pour la rédaction et remise sans délai à la victime, du formulaire d'évaluation médicale prescrit par la Commission"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09817",
+    "09825",
+    "09826",
+    "09901",
+    "09980",
+    "15265",
+    "15797"
+   ]
+  },
+  "15796": {
+   "tarif": {
+    "ancre": "284164",
+    "libelle": [
+     "pour la rédaction et expédition immédiate à la Commission, du formulaire de rapport médical prescrit par la Commission"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15797": {
+   "tarif": {
+    "ancre": "284188",
+    "libelle": [
+     "pour la rédaction et expédition à la Commission, dès que la blessure de la victime ou du sauveteur est consolidée, du formulaire de rapport final prescrit par la Commission"
+    ]
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "09800",
+    "09817",
+    "09825",
+    "09826",
+    "09901",
+    "09980",
+    "15265",
+    "15795"
+   ]
+  },
+  "15801": {
+   "tarif": {
+    "ancre": "266743",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 85.75,
+    "etablissement": 64.5
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15802",
+    "15815",
+    "15816",
+    "15821",
+    "15822",
+    "15835",
+    "15836"
+   ]
+  },
+  "15802": {
+   "tarif": {
+    "ancre": "268081",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 99.4,
+    "etablissement": 74.75
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15801",
+    "15815",
+    "15816",
+    "15821",
+    "15822",
+    "15835",
+    "15836"
+   ]
+  },
+  "15803": {
+   "tarif": {
+    "ancre": "268093",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 42.85,
+    "etablissement": 32.25
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15804",
+    "15817",
+    "15818",
+    "15823",
+    "15824",
+    "15837",
+    "15838"
+   ]
+  },
+  "15804": {
+   "tarif": {
+    "ancre": "268098",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 49.15,
+    "etablissement": 36.95
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15803",
+    "15817",
+    "15818",
+    "15823",
+    "15824",
+    "15837",
+    "15838"
+   ]
+  },
+  "15805": {
+   "tarif": {
+    "ancre": "266943",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 132.8,
+    "etablissement": 99.9
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15806": {
+   "tarif": {
+    "ancre": "268123",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 151.15,
+    "etablissement": 113.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15807": {
+   "tarif": {
+    "ancre": "268132",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 85.75,
+    "etablissement": 64.5
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15808": {
+   "tarif": {
+    "ancre": "268142",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 97.75,
+    "etablissement": 73.55
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15809": {
+   "tarif": {
+    "ancre": "268159",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 85.75,
+    "etablissement": 64.5
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15810": {
+   "tarif": {
+    "ancre": "268160",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 97.75,
+    "etablissement": 73.55
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15811": {
+   "tarif": {
+    "ancre": "268149",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 50.2,
+    "etablissement": 37.75
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "11) Visite de suivi de grossesse",
+     "ancre": "107855",
+     "texte": [
+      "La visite de suivi de grossesse consiste en l'évaluation d'une patiente enceinte dans le cadre d'un suivi prénatal.",
+      "Cette visite comporte le questionnaire et l'examen pertinent de même que les investigations requises par l'état de la patiente. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Les tarifs sont modulés selon que la patiente est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel la patiente est inscrite ou par un médecin du même groupe de pratique."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15812",
+    "15831",
+    "15832"
+   ]
+  },
+  "15812": {
+   "tarif": {
+    "ancre": "268150",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 57.0,
+    "etablissement": 42.85
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "11) Visite de suivi de grossesse",
+     "ancre": "107855",
+     "texte": [
+      "La visite de suivi de grossesse consiste en l'évaluation d'une patiente enceinte dans le cadre d'un suivi prénatal.",
+      "Cette visite comporte le questionnaire et l'examen pertinent de même que les investigations requises par l'état de la patiente. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Les tarifs sont modulés selon que la patiente est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel la patiente est inscrite ou par un médecin du même groupe de pratique."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15811",
+    "15831",
+    "15832"
+   ]
+  },
+  "15813": {
+   "tarif": {
+    "ancre": "268155",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 66.9,
+    "etablissement": 50.3
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "12) Visite périodique pédiatrique",
+     "ancre": "107856",
+     "texte": [
+      "La visite périodique pédiatrique est une visite sur rendez-vous d'un patient âgé de 0 à 63 mois par le médecin auprès duquel il est inscrit et qui en assure le suivi longitudinal. Elle vise le dépistage des problèmes de développement et l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "L'évaluation doit répondre aux conditions décrites à la visite de suivi d'un patient inscrit. De plus, le médecin doit évaluer les éléments pertinents de l'abécédaire de suivi et consigner les éléments pertinents au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "La rémunération spécifique accordée pour la visite périodique pédiatrique est sujet à un maximum du nombre de services. Pour un même patient, sont comptabilisées à cette fin la visite de prise en charge (lors de l'inscription), la visite périodique d'un patient vulnérable, la visite périodique pédiatrique, l'intervention clinique pour la clientèle pédiatrique, de même que les visites rémunérées sous un autre mode et donnant droit à un supplément de responsabilité à l'examen périodique d'un enfant âgé de 0 à 5 ans. Le nombre maximal de ces services qui peut être réclamé est :",
+      "- Entre 0 et 21 mois : huit (8) visites - Entre 22 et 63 mois : une (1) visite par année civile",
+      "Le tarif est modulé selon que le patient est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus en raison d'un congé de maternité ou d'adoption ou pour une invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15814",
+    "15833",
+    "15834"
+   ]
+  },
+  "15814": {
+   "tarif": {
+    "ancre": "268161",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 75.85,
+    "etablissement": 57.0
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "12) Visite périodique pédiatrique",
+     "ancre": "107856",
+     "texte": [
+      "La visite périodique pédiatrique est une visite sur rendez-vous d'un patient âgé de 0 à 63 mois par le médecin auprès duquel il est inscrit et qui en assure le suivi longitudinal. Elle vise le dépistage des problèmes de développement et l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "L'évaluation doit répondre aux conditions décrites à la visite de suivi d'un patient inscrit. De plus, le médecin doit évaluer les éléments pertinents de l'abécédaire de suivi et consigner les éléments pertinents au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "La rémunération spécifique accordée pour la visite périodique pédiatrique est sujet à un maximum du nombre de services. Pour un même patient, sont comptabilisées à cette fin la visite de prise en charge (lors de l'inscription), la visite périodique d'un patient vulnérable, la visite périodique pédiatrique, l'intervention clinique pour la clientèle pédiatrique, de même que les visites rémunérées sous un autre mode et donnant droit à un supplément de responsabilité à l'examen périodique d'un enfant âgé de 0 à 5 ans. Le nombre maximal de ces services qui peut être réclamé est :",
+      "- Entre 0 et 21 mois : huit (8) visites - Entre 22 et 63 mois : une (1) visite par année civile",
+      "Le tarif est modulé selon que le patient est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus en raison d'un congé de maternité ou d'adoption ou pour une invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15813",
+    "15833",
+    "15834"
+   ]
+  },
+  "15815": {
+   "tarif": {
+    "ancre": "266744",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 101.8,
+    "etablissement": 76.55
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15801",
+    "15802",
+    "15816",
+    "15821",
+    "15822",
+    "15835",
+    "15836"
+   ]
+  },
+  "15816": {
+   "tarif": {
+    "ancre": "268324",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 118.5,
+    "etablissement": 89.15
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15801",
+    "15802",
+    "15815",
+    "15821",
+    "15822",
+    "15835",
+    "15836"
+   ]
+  },
+  "15817": {
+   "tarif": {
+    "ancre": "268325",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 50.65,
+    "etablissement": 38.15
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15803",
+    "15804",
+    "15818",
+    "15823",
+    "15824",
+    "15837",
+    "15838"
+   ]
+  },
+  "15818": {
+   "tarif": {
+    "ancre": "268326",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 58.25,
+    "etablissement": 43.8
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15803",
+    "15804",
+    "15817",
+    "15823",
+    "15824",
+    "15837",
+    "15838"
+   ]
+  },
+  "15819": {
+   "tarif": {
+    "ancre": "268183",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 96.35,
+    "etablissement": 72.65
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2) Visite périodique d'un patient vulnérable",
+     "ancre": "107846",
+     "texte": [
+      "La visite périodique d'un patient vulnérable inscrit est une visite d'un patient vulnérable déjà inscrit auprès du médecin et dont le médecin assure le suivi longitudinal. Elle vise à évaluer l'évolution du patient et à mettre à jour le plan de traitement.",
+      "Elle comprend l'évaluation du patient, une actualisation du plan de traitement et, lorsque requis, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée une seule fois par année civile. Elle ne peut pas être réclamée durant la même année civile par le médecin qui a été rémunéré pour la visite de prise en charge sur rendez-vous pour le même patient. Elle ne peut pas non plus être réclamée, durant la même année civile, par le médecin qui a auparavant été rémunéré pour l'examen complet majeur, pour la visite de prise en charge de grossesse, pour l'examen de prise en charge de grossesse, ou pour le supplément à l'examen de prise en charge de grossesse durant le premier trimestre.",
+      "Le tarif est modulé selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15820",
+    "15839",
+    "15840"
+   ]
+  },
+  "15820": {
+   "tarif": {
+    "ancre": "268164",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 112.4,
+    "etablissement": 84.8
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2) Visite périodique d'un patient vulnérable",
+     "ancre": "107846",
+     "texte": [
+      "La visite périodique d'un patient vulnérable inscrit est une visite d'un patient vulnérable déjà inscrit auprès du médecin et dont le médecin assure le suivi longitudinal. Elle vise à évaluer l'évolution du patient et à mettre à jour le plan de traitement.",
+      "Elle comprend l'évaluation du patient, une actualisation du plan de traitement et, lorsque requis, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée une seule fois par année civile. Elle ne peut pas être réclamée durant la même année civile par le médecin qui a été rémunéré pour la visite de prise en charge sur rendez-vous pour le même patient. Elle ne peut pas non plus être réclamée, durant la même année civile, par le médecin qui a auparavant été rémunéré pour l'examen complet majeur, pour la visite de prise en charge de grossesse, pour l'examen de prise en charge de grossesse, ou pour le supplément à l'examen de prise en charge de grossesse durant le premier trimestre.",
+      "Le tarif est modulé selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15819",
+    "15839",
+    "15840"
+   ]
+  },
+  "15821": {
+   "tarif": {
+    "ancre": "268162",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 96.35,
+    "etablissement": 72.65
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15801",
+    "15802",
+    "15815",
+    "15816",
+    "15822",
+    "15835",
+    "15836"
+   ]
+  },
+  "15822": {
+   "tarif": {
+    "ancre": "268163",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 110.0,
+    "etablissement": 82.9
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15801",
+    "15802",
+    "15815",
+    "15816",
+    "15821",
+    "15835",
+    "15836"
+   ]
+  },
+  "15823": {
+   "tarif": {
+    "ancre": "268165",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 53.5,
+    "etablissement": 40.5
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15803",
+    "15804",
+    "15817",
+    "15818",
+    "15824",
+    "15837",
+    "15838"
+   ]
+  },
+  "15824": {
+   "tarif": {
+    "ancre": "268184",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 59.8,
+    "etablissement": 45.2
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15803",
+    "15804",
+    "15817",
+    "15818",
+    "15823",
+    "15837",
+    "15838"
+   ]
+  },
+  "15825": {
+   "tarif": {
+    "ancre": "268185",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 143.4,
+    "etablissement": 108.05
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15826",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15826": {
+   "tarif": {
+    "ancre": "268166",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 161.75,
+    "etablissement": 121.85
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15827",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15827": {
+   "tarif": {
+    "ancre": "268186",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 96.35,
+    "etablissement": 72.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15828",
+    "15829",
+    "15830"
+   ]
+  },
+  "15828": {
+   "tarif": {
+    "ancre": "268295",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 108.4,
+    "etablissement": 81.75
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15829",
+    "15830"
+   ]
+  },
+  "15829": {
+   "tarif": {
+    "ancre": "268296",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 96.35,
+    "etablissement": 72.65
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15830"
+   ]
+  },
+  "15830": {
+   "tarif": {
+    "ancre": "268297",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 108.4,
+    "etablissement": 81.75
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15805",
+    "15806",
+    "15807",
+    "15808",
+    "15809",
+    "15810",
+    "15825",
+    "15826",
+    "15827",
+    "15828",
+    "15829"
+   ]
+  },
+  "15831": {
+   "tarif": {
+    "ancre": "268298",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 60.8,
+    "etablissement": 45.95
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "11) Visite de suivi de grossesse",
+     "ancre": "107855",
+     "texte": [
+      "La visite de suivi de grossesse consiste en l'évaluation d'une patiente enceinte dans le cadre d'un suivi prénatal.",
+      "Cette visite comporte le questionnaire et l'examen pertinent de même que les investigations requises par l'état de la patiente. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Les tarifs sont modulés selon que la patiente est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel la patiente est inscrite ou par un médecin du même groupe de pratique."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15811",
+    "15812",
+    "15832"
+   ]
+  },
+  "15832": {
+   "tarif": {
+    "ancre": "268320",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 67.6,
+    "etablissement": 51.1
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "11) Visite de suivi de grossesse",
+     "ancre": "107855",
+     "texte": [
+      "La visite de suivi de grossesse consiste en l'évaluation d'une patiente enceinte dans le cadre d'un suivi prénatal.",
+      "Cette visite comporte le questionnaire et l'examen pertinent de même que les investigations requises par l'état de la patiente. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Les tarifs sont modulés selon que la patiente est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Le tarif pour le patient vulnérable peut être facturé par le médecin auprès duquel la patiente est inscrite ou par un médecin du même groupe de pratique."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15811",
+    "15812",
+    "15831"
+   ]
+  },
+  "15833": {
+   "tarif": {
+    "ancre": "268321",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 77.55,
+    "etablissement": 58.55
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "12) Visite périodique pédiatrique",
+     "ancre": "107856",
+     "texte": [
+      "La visite périodique pédiatrique est une visite sur rendez-vous d'un patient âgé de 0 à 63 mois par le médecin auprès duquel il est inscrit et qui en assure le suivi longitudinal. Elle vise le dépistage des problèmes de développement et l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "L'évaluation doit répondre aux conditions décrites à la visite de suivi d'un patient inscrit. De plus, le médecin doit évaluer les éléments pertinents de l'abécédaire de suivi et consigner les éléments pertinents au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "La rémunération spécifique accordée pour la visite périodique pédiatrique est sujet à un maximum du nombre de services. Pour un même patient, sont comptabilisées à cette fin la visite de prise en charge (lors de l'inscription), la visite périodique d'un patient vulnérable, la visite périodique pédiatrique, l'intervention clinique pour la clientèle pédiatrique, de même que les visites rémunérées sous un autre mode et donnant droit à un supplément de responsabilité à l'examen périodique d'un enfant âgé de 0 à 5 ans. Le nombre maximal de ces services qui peut être réclamé est :",
+      "- Entre 0 et 21 mois : huit (8) visites - Entre 22 et 63 mois : une (1) visite par année civile",
+      "Le tarif est modulé selon que le patient est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus en raison d'un congé de maternité ou d'adoption ou pour une invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15813",
+    "15814",
+    "15834"
+   ]
+  },
+  "15834": {
+   "tarif": {
+    "ancre": "268322",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 86.45,
+    "etablissement": 65.2
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "12) Visite périodique pédiatrique",
+     "ancre": "107856",
+     "texte": [
+      "La visite périodique pédiatrique est une visite sur rendez-vous d'un patient âgé de 0 à 63 mois par le médecin auprès duquel il est inscrit et qui en assure le suivi longitudinal. Elle vise le dépistage des problèmes de développement et l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "L'évaluation doit répondre aux conditions décrites à la visite de suivi d'un patient inscrit. De plus, le médecin doit évaluer les éléments pertinents de l'abécédaire de suivi et consigner les éléments pertinents au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "La rémunération spécifique accordée pour la visite périodique pédiatrique est sujet à un maximum du nombre de services. Pour un même patient, sont comptabilisées à cette fin la visite de prise en charge (lors de l'inscription), la visite périodique d'un patient vulnérable, la visite périodique pédiatrique, l'intervention clinique pour la clientèle pédiatrique, de même que les visites rémunérées sous un autre mode et donnant droit à un supplément de responsabilité à l'examen périodique d'un enfant âgé de 0 à 5 ans. Le nombre maximal de ces services qui peut être réclamé est :",
+      "- Entre 0 et 21 mois : huit (8) visites - Entre 22 et 63 mois : une (1) visite par année civile",
+      "Le tarif est modulé selon que le patient est vulnérable ou non et que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus en raison d'un congé de maternité ou d'adoption ou pour une invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15813",
+    "15814",
+    "15833"
+   ]
+  },
+  "15835": {
+   "tarif": {
+    "ancre": "268328",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 112.4,
+    "etablissement": 84.8
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15801",
+    "15802",
+    "15815",
+    "15816",
+    "15821",
+    "15822",
+    "15836"
+   ]
+  },
+  "15836": {
+   "tarif": {
+    "ancre": "268329",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 129.15,
+    "etablissement": 97.3
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "1) Visite de prise en charge",
+     "ancre": "107845",
+     "texte": [
+      "La visite de prise en charge vise l'évaluation d'un patient nouvellement inscrit auprès du médecin qui assurera un suivi longitudinal.",
+      "Elle comprend l'évaluation du patient, un plan de traitement ou d'investigation, les ordonnances, et, lorsque requis, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite est réclamée uniquement lors de l'inscription initiale du patient auprès du médecin ou lors de la première visite sur rendez-vous ou en accès adapté à la suite de l'inscription d'un patient dans le cadre d'une consultation sans rendez-vous par le même médecin.",
+      "Malgré ce qui précède, lorsqu'une infirmière praticienne spécialisée en soins de première ligne (IPSPL) ou une candidate infirmière praticienne spécialisée en soins de première ligne (CIPSPL) procède, avec le consentement du médecin collaborateur et au nom de celui-ci, à l'inscription d'un patient non vulnérable lors de la visite ou de la consultation qu'elle a effectuée, le médecin peut, lors de la première visite sur rendez-vous ou en accès adapté effectuée par ce dernier, réclamer la visite de prise en charge.",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15801",
+    "15802",
+    "15815",
+    "15816",
+    "15821",
+    "15822",
+    "15835"
+   ]
+  },
+  "15837": {
+   "tarif": {
+    "ancre": "268333",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 61.3,
+    "etablissement": 46.3
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15803",
+    "15804",
+    "15817",
+    "15818",
+    "15823",
+    "15824",
+    "15838"
+   ]
+  },
+  "15838": {
+   "tarif": {
+    "ancre": "268334",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 68.85,
+    "etablissement": 51.95
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "3) Visite de suivi d'un patient inscrit",
+     "ancre": "107847",
+     "texte": [
+      "La visite de suivi d'un patient inscrit auprès du médecin qui l'a inscrit et qui en assure le suivi longitudinal vise l'évaluation du patient dans le cadre d'un suivi ou pour un problème ponctuel.",
+      "Elle comprend le contact avec le patient et, lorsque requis, l'examen, l'élaboration d'un plan d'investigation ou de traitement, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée par un médecin du groupe autre que le médecin traitant selon les dispositions du paragraphe 2.2.6 A b) i).",
+      "Le tarif est modulé selon que le patient est vulnérable ou non, selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Lorsque le médecin traitant interrompt ses activités pour une période de 13 semaines consécutives ou plus, pour cause de congé de maternité ou d'adoption, ou pour invalidité totale, tout médecin du même groupe de pratique peut se prévaloir de cette visite. Utiliser l'élément de contexte Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus.",
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [
+    "Médecin appartenant au même groupe que le médecin traitant qui est absent pour une période consécutive de 13 semaines ou plus"
+   ],
+   "lies": [
+    "15803",
+    "15804",
+    "15817",
+    "15818",
+    "15823",
+    "15824",
+    "15837"
+   ]
+  },
+  "15839": {
+   "tarif": {
+    "ancre": "268330",
+    "libelle": [
+     "Clientèle inscrite de moins de 500 patients",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 112.4,
+    "etablissement": 84.8
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2) Visite périodique d'un patient vulnérable",
+     "ancre": "107846",
+     "texte": [
+      "La visite périodique d'un patient vulnérable inscrit est une visite d'un patient vulnérable déjà inscrit auprès du médecin et dont le médecin assure le suivi longitudinal. Elle vise à évaluer l'évolution du patient et à mettre à jour le plan de traitement.",
+      "Elle comprend l'évaluation du patient, une actualisation du plan de traitement et, lorsque requis, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée une seule fois par année civile. Elle ne peut pas être réclamée durant la même année civile par le médecin qui a été rémunéré pour la visite de prise en charge sur rendez-vous pour le même patient. Elle ne peut pas non plus être réclamée, durant la même année civile, par le médecin qui a auparavant été rémunéré pour l'examen complet majeur, pour la visite de prise en charge de grossesse, pour l'examen de prise en charge de grossesse, ou pour le supplément à l'examen de prise en charge de grossesse durant le premier trimestre.",
+      "Le tarif est modulé selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15819",
+    "15820",
+    "15840"
+   ]
+  },
+  "15840": {
+   "tarif": {
+    "ancre": "268332",
+    "libelle": [
+     "Clientèle inscrite de 500 patients ou plus",
+     "En cabinet ou à domicile en lien avec les activités du médecin en cabinet",
+     "En CLSC ou en GMF-U en établissement ou à domicile en lien avec les activités du médecin en CLSC ou en GMF-U"
+    ],
+    "cabinet": 129.15,
+    "etablissement": 97.3
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2) Visite périodique d'un patient vulnérable",
+     "ancre": "107846",
+     "texte": [
+      "La visite périodique d'un patient vulnérable inscrit est une visite d'un patient vulnérable déjà inscrit auprès du médecin et dont le médecin assure le suivi longitudinal. Elle vise à évaluer l'évolution du patient et à mettre à jour le plan de traitement.",
+      "Elle comprend l'évaluation du patient, une actualisation du plan de traitement et, lorsque requis, les ordonnances, les recommandations et les échanges courants avec le patient et ses proches. Cette visite inclut la vérification quant à l'usage du tabac, le counseling approprié de même que les autres actes préventifs pertinents.",
+      "Le médecin consigne ses notes au dossier.",
+      "Cette visite peut être réclamée une seule fois par année civile. Elle ne peut pas être réclamée durant la même année civile par le médecin qui a été rémunéré pour la visite de prise en charge sur rendez-vous pour le même patient. Elle ne peut pas non plus être réclamée, durant la même année civile, par le médecin qui a auparavant été rémunéré pour l'examen complet majeur, pour la visite de prise en charge de grossesse, pour l'examen de prise en charge de grossesse, ou pour le supplément à l'examen de prise en charge de grossesse durant le premier trimestre.",
+      "Le tarif est modulé selon que le médecin atteint ou non le seuil d'inscription de 500 patients ou plus et selon que le patient a moins de 80 ans ou 80 ans ou plus."
+     ],
+     "avis": [
+      "Pour la supervision de résidents en GMF-U, inscrire le numéro attribué par la RAMQ (5-XXXXX) du résident qui a vu le patient ou son prénom, son nom et sa profession."
+     ]
+    }
+   ],
+   "contexte": [],
+   "lies": [
+    "15819",
+    "15820",
+    "15839"
+   ]
+  },
+  "15841": {
+   "tarif": {
+    "ancre": "268530",
+    "libelle": [
+     "Clientèle inscrite de 500 à moins de 1 000 patients",
+     "En cabinet",
+     "En CLSC ou en GMF-U en établissement"
+    ],
+    "cabinet": 29.3,
+    "etablissement": 22.0
+   },
+   "avis": [
+    "Utiliser le code de facturation 15841.",
+    "Pour les codes de facturation 15841, 15842 et 15843, indiquer le numéro de professionnel (1XXXXX ou 6XXXXX) du médecin avec qui la communication a été faite ou son prénom, son nom et sa profession."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15842",
+    "15843"
+   ]
+  },
+  "15842": {
+   "tarif": {
+    "ancre": "268967",
+    "libelle": [
+     "Clientèle inscrite de 1 000 à moins de 1 500 patients",
+     "En cabinet",
+     "En CLSC ou en GMF-U en établissement"
+    ],
+    "cabinet": 29.3,
+    "etablissement": 22.0
+   },
+   "avis": [
+    "Pour les codes de facturation 15841, 15842 et 15843, indiquer le numéro de professionnel (1XXXXX ou 6XXXXX) du médecin avec qui la communication a été faite ou son prénom, son nom et sa profession."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15841",
+    "15843"
+   ]
+  },
+  "15843": {
+   "tarif": {
+    "ancre": "268952",
+    "libelle": [
+     "Clientèle inscrite de 1 500 patients ou plus",
+     "En cabinet",
+     "En CLSC ou en GMF-U en établissement"
+    ],
+    "cabinet": 29.3,
+    "etablissement": 22.0
+   },
+   "avis": [
+    "Pour les codes de facturation 15841, 15842 et 15843, indiquer le numéro de professionnel (1XXXXX ou 6XXXXX) du médecin avec qui la communication a été faite ou son prénom, son nom et sa profession."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15841",
+    "15842"
+   ]
+  },
+  "15844": {
+   "tarif": {
+    "ancre": "268954",
+    "libelle": [
+     "Clientèle inscrite de 500 à moins de 1 000 patients",
+     "En cabinet",
+     "En CLSC ou en GMF-U en établissement"
+    ],
+    "cabinet": 20.9,
+    "etablissement": 15.75
+   },
+   "avis": [
+    "Utiliser le code de facturation 15844.",
+    "Pour les codes de facturation 15844, 15845 et 15846, indiquer le numéro du professionnel avec qui la communication a été faite ou son prénom, son nom et sa profession. Pour les infirmières autres que les IPSPL, les inhalothérapeutes, les diététiciennes et les diététiciens, indiquer le type de profession Autres."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15845",
+    "15846"
+   ]
+  },
+  "15845": {
+   "tarif": {
+    "ancre": "268955",
+    "libelle": [
+     "Clientèle inscrite de 1 000 à moins de 1 500 patients",
+     "En cabinet",
+     "En CLSC ou en GMF-U en établissement"
+    ],
+    "cabinet": 20.9,
+    "etablissement": 15.75
+   },
+   "avis": [
+    "Pour les codes de facturation 15844, 15845 et 15846, indiquer le numéro du professionnel avec qui la communication a été faite ou son prénom, son nom et sa profession. Pour les infirmières autres que les IPSPL, les inhalothérapeutes, les diététiciennes et les diététiciens, indiquer le type de profession Autres."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15844",
+    "15846"
+   ]
+  },
+  "15846": {
+   "tarif": {
+    "ancre": "268969",
+    "libelle": [
+     "Clientèle inscrite de 1 500 patients ou plus",
+     "En cabinet",
+     "En CLSC ou en GMF-U en établissement"
+    ],
+    "cabinet": 20.9,
+    "etablissement": 15.75
+   },
+   "avis": [
+    "Pour les codes de facturation 15844, 15845 et 15846, indiquer le numéro du professionnel avec qui la communication a été faite ou son prénom, son nom et sa profession. Pour les infirmières autres que les IPSPL, les inhalothérapeutes, les diététiciennes et les diététiciens, indiquer le type de profession Autres."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15844",
+    "15845"
+   ]
+  },
+  "15879": {
+   "tarif": {
+    "ancre": "284946",
+    "libelle": [
+     "-Formulaire et démarches afférentes – Demande anticipée d'aide médicale à mourir"
+    ],
+    "unique": 261.5
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15880": {
+   "tarif": {
+    "ancre": "167902",
+    "libelle": [
+     "forfait pour la première période de quinze (15) minutes"
+    ],
+    "unique": 43.6
+   },
+   "avis": [
+    "Pour la facturation de l'intervention clinique d'aide médicale à mourir (codes de facturation 15880 et 15881), utiliser l'un des éléments de contexte suivants : - Évaluation et administration de l'aide médicale à mourir contemporaine ; - Demande anticipée d'aide médicale à mourir ; - Évaluation et administration de l'aide médicale à mourir qui découle d'une demande anticipée ; - Retrait d'une demande anticipée d'aide médicale à mourir.",
+    "Pour la facturation de l'intervention clinique d'aide médicale à mourir (codes de facturation 15880 et 15881), utiliser l'un des éléments de contexte suivants pour indiquer le type de mentorat : - Évaluation et administration de l'aide médicale à mourir contemporaine ; - Demande anticipée d'aide médicale à mourir ; - Évaluation et administration de l'aide médicale à mourir qui découle d'une demande anticipée.",
+    "Pour la première période de 15 minutes, utiliser le code de facturation 15880 et inscrire l'heure de début du service. Pour les minutes supplémentaires suivant la première période de 15 minutes, utiliser le code de facturation 15881 et inscrire l'heure de début de la période supplémentaire et la durée d'intervention supplémentaire. La durée de la première période de 15 minutes ne doit pas être incluse dans la durée supplémentaire. Il faut distinguer l'heure de début de chacun des services pour que leurs périodes ne se chevauchent pas."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15881"
+   ]
+  },
+  "15881": {
+   "tarif": {
+    "ancre": "167903",
+    "libelle": [
+     "forfait par période de quinze (15) minutes supplémentaires"
+    ],
+    "unique": 43.6
+   },
+   "avis": [
+    "Pour la facturation de l'intervention clinique d'aide médicale à mourir (codes de facturation 15880 et 15881), utiliser l'un des éléments de contexte suivants : - Évaluation et administration de l'aide médicale à mourir contemporaine ; - Demande anticipée d'aide médicale à mourir ; - Évaluation et administration de l'aide médicale à mourir qui découle d'une demande anticipée ; - Retrait d'une demande anticipée d'aide médicale à mourir.",
+    "Pour la facturation de l'intervention clinique d'aide médicale à mourir (codes de facturation 15880 et 15881), utiliser l'un des éléments de contexte suivants pour indiquer le type de mentorat : - Évaluation et administration de l'aide médicale à mourir contemporaine ; - Demande anticipée d'aide médicale à mourir ; - Évaluation et administration de l'aide médicale à mourir qui découle d'une demande anticipée.",
+    "Pour la première période de 15 minutes, utiliser le code de facturation 15880 et inscrire l'heure de début du service. Pour les minutes supplémentaires suivant la première période de 15 minutes, utiliser le code de facturation 15881 et inscrire l'heure de début de la période supplémentaire et la durée d'intervention supplémentaire. La durée de la première période de 15 minutes ne doit pas être incluse dans la durée supplémentaire. Il faut distinguer l'heure de début de chacun des services pour que leurs périodes ne se chevauchent pas."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "15880"
+   ]
+  },
+  "15889": {
+   "tarif": {
+    "ancre": "261131",
+    "libelle": [
+     "évaluation à distance du décès hors d'un centre désigné d'un patient hébergé en CHSLD (P.G. 2.2.9 A)"
+    ],
+    "unique": 25.0
+   },
+   "avis": [],
+   "sections": [
+    {
+     "titre": "2.4.1 Constatation de décès",
+     "ancre": "187588",
+     "texte": [
+      "Le médecin reçoit la rémunération prévue au tarif pour la constatation d'un décès. Ce service inclut l'examen requis pour constater le décès, la consignation des observations pertinentes au dossier du patient, ainsi que le fait d'indiquer le lieu, la date et l'heure du décès constaté au formulaire prescrit.",
+      "Dispositions spécifiques à la constatation de décès à distance",
+      "Dans un centre accrédité par le ministère de la Santé et des Services sociaux, le médecin qui procède à distance à l'évaluation clinique d'un patient décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le centre. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le technicien ambulancier et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+      "Dans un CHSLD, le médecin qui procède à distance à l'évaluation d'un patient hébergé décédé peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CHSLD. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CHSLD et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès.",
+      "En CLSC, le médecin exerçant dans le cadre du programme de soins à domicile qui procède à distance à l'évaluation d'un patient décédé inscrit au programme de soins à domicile du CLSC peut se prévaloir de la rémunération prévue pour la constatation de décès à distance. Il doit alors, s'il dresse également le constat de décès, autoriser le transport de la dépouille vers un salon mortuaire ou la morgue du coroner, et transmettre le constat de décès au directeur funéraire ou au bureau du coroner, selon le cas. Dans le cas où il ne dresse pas le constat de décès, il doit diriger le patient vers un service d'urgence. Dans tous les cas, il doit faire une note au dossier conservé par le CLSC. La décision du médecin de dresser ou non le constat de décès doit résulter de ses échanges avec le personnel infirmier du CLSC et, le cas échéant, avec les membres de la famille du défunt. Dans le cas où l'évaluation du décès à distance n'a pas donné lieu au constat du décès, un second médecin peut se prévaloir de la rémunération prévue au tarif pour la constatation du décès."
+     ],
+     "avis": []
+    }
+   ],
+   "contexte": [],
+   "lies": []
+  },
+  "15890": {
+   "tarif": {
+    "ancre": "261132",
+    "libelle": [
+     "évaluation à distance du décès hors d'un centre désigné d'un patient décédé à domicile et inscrit au programme de soins à domicile du CLSC"
+    ],
+    "unique": 25.0
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15894": {
+   "tarif": {
+    "ancre": "231213",
+    "libelle": [
+     "Communication par conseil numérique (eConsult)"
+    ],
+    "cabinet": 29.3,
+    "etablissement": 22.0
+   },
+   "avis": [
+    "Pour la communication par conseil numérique (eConsult) avec un médecin spécialiste (à l'exception d'un spécialiste en médecine familiale), inscrire : - le code de facturation 15894 (sans égard au nombre de patients inscrits); - l'heure de début et l'heure de fin."
+   ],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "15899": {
+   "tarif": {
+    "ancre": "284976",
+    "libelle": [
+     "-Formulaire et démarches afférentes – Demande de retrait d'une demande anticipée d'aide médicale à mourir"
+    ],
+    "unique": 52.3
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19074": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": [
+    "08877",
+    "15144",
+    "15145",
+    "15158",
+    "15159",
+    "15169",
+    "15170",
+    "15171",
+    "15189"
+   ]
+  },
+  "19911": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19912": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19914": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19915": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19917": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19918": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19920": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19921": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19957": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19958": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19959": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "19960": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "20025": {
+   "tarif": {
+    "ancre": "182449",
+    "libelle": [
+     "Extraction de stérilet, acte compliqué (P.G. 2.4.7.7 A) (P.A.D.T. 1.4)"
+    ],
+    "unique": 58.75
+   },
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "42094": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "42095": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "42096": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "42097": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "42098": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  },
+  "42099": {
+   "tarif": null,
+   "avis": [],
+   "sections": [],
+   "contexte": [],
+   "lies": []
+  }
+ }
+}

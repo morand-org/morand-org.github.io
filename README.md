@@ -52,6 +52,19 @@ Les codes viennent du dépôt de Wealth Morand, qui reste la source et vérifie 
 node outils/construire-codes.mjs ../wealth    # refait codes/codes_data.json
 ```
 
+Les tarifs en cabinet et le détail de chaque code (avis, règles, éléments de contexte, codes liés, lien vers la
+section) viennent du Manuel des médecins omnipraticiens de la RAMQ (rémunération à l'acte), enregistré en .mht :
+
+```
+python3 outils/codes/extraire-manuel.py <manuel.mht> <date de consultation AAAA-MM-JJ>   # refait outils/codes/manuel-ramq.json
+node outils/construire-codes.mjs ../wealth
+```
+
+Le texte est recopié sans reformulation. La construction s'arrête si un tarif en établissement du manuel diffère de
+celui de Wealth. Les forfaits et suppléments de la Brochure no 1 prennent leur montant en cabinet dans le moteur de
+Wealth (`MONTANTS_LIEU`). Un tarif en cabinet introuvable reste « à confirmer ». Les réglages de la page (lieu, mode,
+palier) restent dans le stockage de l'appareil (`morand.codes.reglages`).
+
 Wealth n'affiche plus ces codes : son en-tête mène ici. L'affichage (montants, part au mixte, « Compris », code 14
 fermé, source et limite des codes de vulnérabilité) se vérifie donc dans le scénario `codes` de `tests/site.test.mjs`.
 

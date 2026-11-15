@@ -9,6 +9,33 @@
   const nb = n => n.toLocaleString("fr-CA");
   const dollars = v => v.toLocaleString("fr-CA", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   let D = null, actes = [], vuln = [], groupe = "frequents", minuterie = 0;
+  const ouverts = new Set();   // actes dont le détail est déplié
+
+  /* Réglages : lieu, mode et palier d'inscription choisissent le prix affiché. Gardés sur cet appareil seulement.
+     Le mixte n'existe qu'en établissement (CLSC, GMF-U) : en cabinet, le mode est à l'acte. */
+  const CLE = "morand.codes.reglages", DEFAUT = { lieu: "etab", mode: "mixte", palier: 0 };
+  let R = { ...DEFAUT };
+  try { R = { ...DEFAUT, ...JSON.parse(localStorage.getItem(CLE) || "{}") }; } catch (e) { /* stockage indisponible */ }
+  const garder = () => { try { localStorage.setItem(CLE, JSON.stringify(R)); } catch (e) { /* stockage indisponible */ } };
+  const modeEffectif = () => R.lieu === "cab" ? "acte" : R.mode;
+  const reglages = $("co-reglages");
+  const CHOIX = [["lieu", "Lieu", [["cab", "Cabinet"], ["etab", "Établissement"]]], ["mode", "Mode", [["acte", "À l'acte"], ["mixte", "Mixte"]]],
+    ["palier", "Inscrits", [[0, "Moins de 500"], [1, "500 et plus"]]]];
+  function rendreReglages() {
+    reglages.textContent = "";
+    for (const [cle, nom, opts] of CHOIX) {
+      const g = el("div", "co-segment"); g.setAttribute("role", "group"); g.setAttribute("aria-label", nom);
+      for (const [v, t] of opts) {
+        const b = el("button", null, t); b.type = "button"; b.dataset.cle = cle;
+        const actif = cle === "mode" ? modeEffectif() === v : R[cle] === v;
+        b.setAttribute("aria-pressed", actif ? "true" : "false");
+        if (cle === "mode" && v === "mixte" && R.lieu === "cab") { b.disabled = true; b.title = "Le mixte n'existe qu'en établissement (CLSC, GMF-U)"; }
+        b.addEventListener("click", () => { R[cle] = v; garder(); rendreReglages(); rendre(); });
+        g.appendChild(b);
+      }
+      reglages.appendChild(g);
+    }
+  }
 
   const mac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent);
   $("co-raccourci").textContent = mac ? "⌘K" : "Ctrl K"; $("co-raccourci").hidden = false;
@@ -18,17 +45,94 @@
     if (e.key === "Escape" && document.activeElement === q && q.value) { q.value = ""; rendre(); }
   });
 
-  // Un montant, ou deux (deux paliers ou deux cas), à la part payée donnée.
-  const deux = (t, f) => Array.isArray(t) ? `${f(t[0])} / ${f(t[1])}` : f(t);
-  const montant = (t, pct) => t == null ? "—" : deux(t, v => dollars(v * pct / 100)) + " $";
+  // Palier : celui des réglages, sauf si l'on cherche un des deux codes (15804 : 500 inscrits et plus).
+  function palierDe(a) {
+    const m = (q.value.match(/\b\d{5}\b/) || [])[0];
+    return m && Array.isArray(a.t) && !a.d && a.c.length === 2 && a.c.includes(m) ? a.c.indexOf(m) : R.palier;
+  }
+  // Le prix selon les réglages : un seul montant ; deux seulement pour deux cas différents (« par résident / par externe »).
+  const montant = v => dollars(v) + " $";
+  function prix(a) {
+    if (a.t == null || !a.p) return { v: "Compris", sous: a.c.length ? "hors GMF-U" : "dans la visite", gris: true };
+    const mode = modeEffectif();
+    if (a.mixteSeul && (R.lieu === "cab" || mode === "acte")) return { v: "Mixte seulement", sous: "en établissement", gris: true };
+    const base = R.lieu === "cab" ? a.cab : a.t;
+    if (base == null) return { v: "À confirmer", sous: "en cabinet", gris: true };
+    const pct = mode === "mixte" ? a.p : 100, f = x => x * pct / 100;
+    if (Array.isArray(base) && a.d) return { v: `${dollars(f(base[0]))} / ${montant(f(base[1]))}`, sous: a.d.join(" / ") };
+    return { v: montant(f(Array.isArray(base) ? base[palierDe(a)] : base)), sous: "" };
+  }
+  // Codes affichés : celui du palier choisi quand les deux codes sont les deux paliers (15803 / 15804).
+  const codesAffiches = a => Array.isArray(a.t) && !a.d && a.c.length === 2 ? [a.c[palierDe(a)]] : a.c;
+
   function rangeeActe(a, avecGroupe) {
-    const paliers = Array.isArray(a.t) ? (a.d ? a.d.join(" / ") : "moins de 500 / 500 inscrits et plus") : "";
-    const sous = [avecGroupe ? D.noms[a.g] : "", a.c.length ? a.c.join(", ") : "", paliers, a.note || ""].filter(Boolean).join(" · ");
-    const r = el("div", "co-rangee" + (a.p ? "" : " co-non")), g = el("div", "co-texte"), d = el("div", "co-droite");
-    g.append(el("p", "co-titre", a.n), el("p", "co-sous", sous));
-    if (!a.p) d.append(el("p", "co-valeur", "Compris"), el("p", "co-valeur-sous", a.c.length ? "hors GMF-U" : "dans la visite"));
-    else d.append(el("p", "co-valeur", montant(a.t, 100)), el("p", "co-valeur-sous", a.t == null ? "à confirmer" : a.p === 100 ? "payé à 100 %" : `au mixte ${montant(a.t, a.p)}`));
-    r.append(g, d); return r;
+    const r = el("div", "co-rangee co-acte"), p = prix(a), id = a.c.join("-") || a.n;
+    if (p.gris) r.classList.add("co-non");
+    const tete = el("button", "co-ligne"); tete.type = "button"; tete.setAttribute("aria-expanded", ouverts.has(id) ? "true" : "false");
+    const g = el("span", "co-texte"), d = el("span", "co-droite");
+    g.append(el("span", "co-titre", a.n), el("span", "co-sous", [codesAffiches(a).join(", "), avecGroupe ? D.noms[a.g] : ""].filter(Boolean).join(" · ")));
+    d.appendChild(el("span", "co-valeur", p.v)); if (p.sous) d.appendChild(el("span", "co-valeur-sous", p.sous));
+    tete.append(g, d, el("span", "co-chevron"));
+    r.appendChild(tete);
+    const det = el("div", "co-detail"); det.hidden = !ouverts.has(id);
+    tete.addEventListener("click", () => {
+      const ouvrir = det.hidden; det.hidden = !ouvrir; tete.setAttribute("aria-expanded", ouvrir ? "true" : "false");
+      if (ouvrir) { ouverts.add(id); if (!det.childElementCount) detail(a, det); } else ouverts.delete(id);
+    });
+    if (!det.hidden) detail(a, det);
+    r.appendChild(det); return r;
+  }
+
+  /* Le détail : tous les prix, la note, puis le manuel de la RAMQ recopié (libellé, avis, règles, éléments de contexte),
+     les codes liés et le lien vers la section du manuel. */
+  function detail(a, z) {
+    const bloc = (titre, cls) => { const b = el("div", "co-bloc" + (cls ? " " + cls : "")); if (titre) b.appendChild(el("h4", null, titre)); z.appendChild(b); return b; };
+    if (a.t != null && a.p) {
+      const b = bloc("Tous les prix"), ul = el("ul", "co-prix");
+      const deux = Array.isArray(a.t), etiq = deux ? (a.d || ["moins de 500", "500 et plus"]) : null;
+      const ligne = (nom, base, pct) => {
+        if (base == null) return ul.appendChild(el("li", null, `${nom} : à confirmer`));
+        const f = x => montant(x * pct / 100);
+        ul.appendChild(el("li", null, `${nom} : ${deux ? base.map((x, i) => `${f(x)} (${etiq[i]})`).join(" · ") : f(base)}`));
+      };
+      if (!a.mixteSeul) { ligne("Cabinet, à l'acte", a.cab, 100); ligne("Établissement, à l'acte", a.t, 100); }
+      if (a.p < 100 || a.mixteSeul) ligne(`Établissement, au mixte${a.p < 100 ? ` (${String(a.p).replace(".", ",")} %)` : ""}`, a.t, a.p);
+      else ul.appendChild(el("li", null, "Au mixte : payé à 100 %"));
+      b.appendChild(ul);
+    }
+    if (a.note) bloc().appendChild(el("p", null, a.note));
+    const m = a.m || {};
+    // L'essentiel d'abord : l'élément de contexte, les avis propres au code, les codes liés.
+    if (m.ctx) { const b = bloc("Élément de contexte à inscrire"), ul = el("ul"); m.ctx.forEach(t => ul.appendChild(el("li", null, t))); b.appendChild(ul); }
+    if (m.avis) { const b = bloc("Avis du manuel", "co-avis-ramq"); m.avis.forEach(t => b.appendChild(el("p", null, t))); }
+    if (m.lies) {
+      const b = bloc("Codes liés"), l = el("div", "co-lies");
+      m.lies.forEach(c => {
+        const connu = actes.some(x => x.c.includes(c));
+        if (!connu) return l.appendChild(el("span", "co-lie co-lie-inconnu", c));
+        const bt = el("button", "co-lie", c); bt.type = "button";
+        bt.addEventListener("click", () => { q.value = c; groupe = "tous"; rendre(); q.focus(); });
+        l.appendChild(bt);
+      });
+      b.appendChild(l);
+    }
+    // Puis le texte du manuel, replié : le libellé exact et les règles de la section.
+    if (m.lib || m.sec) {
+      const r = el("details", "co-bloc co-manuel"); r.appendChild(el("summary", null, "Règles du manuel"));
+      if (m.lib) for (const [c, t] of Object.entries(m.lib)) { const p = el("p"); p.append(el("b", null, c + " "), document.createTextNode(t)); r.appendChild(p); }
+      for (const an of m.sec || []) {
+        const sc = D.manuel.sections[an]; if (!sc) continue;
+        if (sc.titre) r.appendChild(el("h4", null, sc.titre));
+        sc.texte.forEach(t => r.appendChild(el("p", null, t)));
+        sc.avis.forEach(t => { const p = el("p", "co-avis-ramq"); p.append(el("b", null, "Avis : "), document.createTextNode(t)); r.appendChild(p); });
+        const lien = el("a", "co-lien", "Section du manuel"); lien.href = `${D.manuel.url}#${an}`; lien.rel = "noopener"; r.appendChild(lien);
+      }
+      z.appendChild(r);
+    }
+    const src = el("p", "co-source");
+    if (m.ancre) { const a2 = el("a", null, "Voir dans le manuel de la RAMQ"); a2.href = `${D.manuel.url}#${m.ancre}`; a2.rel = "noopener"; src.append(a2, document.createTextNode(" · ")); }
+    src.appendChild(document.createTextNode(m.ancre || m.avis || m.sec ? `Manuel consulté le ${D.manuel.consulte_texte}` : "Rien de plus au manuel pour ce code : source manquante."));
+    z.appendChild(src);
   }
   function rangeeVuln(v) {
     const r = el("div", "co-rangee co-vuln" + (v.ferme ? " co-non" : "")), g = el("div", "co-texte");
@@ -78,6 +182,8 @@
 
   fetch("/codes/codes_data.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d; D.noms = Object.fromEntries(d.groupes);
+    D.manuel.consulte_texte = new Date(D.manuel.consulte + "T12:00").toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric" });
+    rendreReglages();
     actes = d.actes.map(a => { const texte = sansAccents([a.n, a.c.join(" "), a.k || "", D.noms[a.g], a.note || ""].join(" ")); return { ...a, texte, mots: texte.split(/[^a-z0-9]+/).filter(Boolean) }; });
     vuln = d.vulnerabilite.map(v => ({ ...v, mots: sansAccents(`${v.code} ${v.libelle} ${v.m} vulnerabilite`).split(/[^a-z0-9]+/).filter(Boolean) }));
     [["frequents", "Les plus fréquents"], ["tous", "Tous les actes"], ...d.groupes, ["vulnerabilite", "Codes de vulnérabilité"]].forEach(([v, t]) => {
