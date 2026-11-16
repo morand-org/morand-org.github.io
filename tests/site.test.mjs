@@ -169,7 +169,7 @@ async function accueil(nav) {
     const son = () => o.p.evaluate(() => { const a = document.querySelector(".merci-audio"), b = document.querySelector(".merci-son");
       return { duree: Math.round(a.duration), pret: a.readyState, joue: !a.paused, bouton: !b.hidden, classe: b.className, etiquette: b.getAttribute("aria-label") }; });
     const s0 = await son();
-    verifier(`remerciements ${largeur} px : la musique se charge (2 min 26 s) et joue, ou le bouton invite à la lancer`, s0.duree === 146 && s0.pret >= 1 && s0.bouton && (s0.joue || s0.classe.includes("invite")), s0);
+    verifier(`remerciements ${largeur} px : la musique se charge (2 min 57 s) et joue, ou le bouton invite à la lancer`, s0.duree === 177 && s0.pret >= 1 && s0.bouton && (s0.joue || s0.classe.includes("invite")), s0);
     if (!s0.joue) await o.p.click(".merci-son");
     await o.p.waitForTimeout(400); const s1 = await son();
     await o.p.click(".merci-son"); await o.p.waitForTimeout(300); const s2 = await son();
