@@ -14,6 +14,29 @@
 .merci-poussiere { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
 .merci-poussiere span { position: absolute; border-radius: 50%; background: var(--or); opacity: 0; animation: merci-scintille ease-in-out infinite; }
 
+/* Pluie de poussière d'étoiles : par-dessus la page, sans bloquer les clics ; elle s'installe en fondu. */
+.merci-pluie { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 5; pointer-events: none; animation: merci-pluie 2.4s ease-out 0.4s both; }
+@keyframes merci-pluie { from { opacity: 0; } to { opacity: 1; } }
+
+/* Musique : un bouton rond et doré, en bas à droite, pour couper ou relancer. S'il faut un toucher pour que le son
+   parte (iPhone), il pulse doucement pour l'inviter. */
+.merci-son { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 6;
+  display: grid; place-items: center; width: 46px; height: 46px; padding: 0; border: 1px solid var(--or); border-radius: 50%;
+  background: color-mix(in srgb, var(--papier) 86%, transparent); color: var(--or); cursor: pointer; -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  box-shadow: 0 4px 16px rgba(23, 22, 15, 0.14); transition: background 0.15s, color 0.15s; }
+.merci-son[hidden] { display: none; }
+.merci-son:hover { background: var(--or); color: var(--papier); }
+.merci-son:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; }
+.merci-son svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.merci-son svg path:first-child { fill: currentColor; fill-opacity: 0.18; }
+.merci-son .on, .merci-son.joue .off { display: none; }
+.merci-son.joue .on { display: block; }
+.merci-son.invite { animation: merci-invite 1.8s ease-in-out infinite; }
+@keyframes merci-invite { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--or) 45%, transparent), 0 4px 16px rgba(23, 22, 15, 0.14); }
+  50% { box-shadow: 0 0 0 10px color-mix(in srgb, var(--or) 0%, transparent), 0 4px 16px rgba(23, 22, 15, 0.14); } }
+/* Le pied de page reste lisible au-dessus du bouton, en bas de la page. */
+.merci .pied { padding-bottom: 62px; }
+
 /* Titres : la plaque. */
 .merci-sur { margin: 0 0 6px; font: 500 10.5px/1.3 var(--police); letter-spacing: 0.28em; text-transform: uppercase; color: var(--or); }
 .merci h1 { margin: 0 0 14px; font: 400 clamp(2.3rem, 10vw, 3.4rem)/1.02 var(--police-titre); letter-spacing: -0.015em; }
@@ -37,7 +60,6 @@
 .merci-discours p { margin: 0 0 1.05em; font: 400 1.08rem/1.65 var(--police-titre); color: var(--encre-2); hyphens: auto; -webkit-hyphens: auto; }
 .merci-discours p:first-child { font-size: 1.22rem; line-height: 1.55; color: var(--encre); }
 .merci-discours p:first-child::first-letter { float: left; margin: 0.06em 0.12em 0 0; font: 400 3.4em/0.8 var(--police-titre); color: var(--or); }
-.merci-discours strong { font-weight: 500; font-style: italic; color: var(--or); }
 
 /* L'ode : en italique, centrée. */
 .merci-ode { margin: 0; }
@@ -76,5 +98,6 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .merci .m-1, .merci .m-2, .merci .m-3, .merci .m-4, .merci .m-5, .merci .m-6 { animation: none; }
-  .merci-eclat, .merci-poussiere { display: none; }
+  .merci-eclat, .merci-poussiere, .merci-pluie { display: none; }
+  .merci-son.invite { animation: none; }
 }

@@ -11,7 +11,7 @@ const { chromium } = createRequire(import.meta.url)("playwright");
 
 const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".mjs": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml",
-  ".png": "image/png", ".webp": "image/webp", ".woff2": "font/woff2", ".webmanifest": "application/manifest+json", ".xml": "application/xml", ".txt": "text/plain; charset=utf-8" };
+  ".png": "image/png", ".webp": "image/webp", ".woff2": "font/woff2", ".webmanifest": "application/manifest+json", ".xml": "application/xml", ".txt": "text/plain; charset=utf-8", ".mp3": "audio/mpeg" };
 const serveur = http.createServer((req, res) => {
   let p = decodeURIComponent(new URL(req.url, "http://x").pathname); if (p.endsWith("/")) p += "index.html";
   const f = path.join(RACINE, p);
@@ -151,6 +151,19 @@ async function accueil(nav) {
       return { titre: document.querySelector("h1").textContent, portrait: img.complete && img.naturalWidth > 0, visible: getComputedStyle(document.querySelector(".merci-plaque")).opacity }; });
     verifier(`accueil ${largeur} px : un clic sur « MMXXVI » ouvre les remerciements, portrait chargé`, m.titre === "Dr Philippe Morand" && m.portrait, m);
     verifier(`remerciements ${largeur} px : tout le texte finit par apparaître`, +m.visible === 1, m.visible);
+    const pluie = await o.p.evaluate(() => { const c = document.querySelector(".merci-pluie"), d = c.getContext("2d").getImageData(0, 0, c.width, c.height).data;
+      let n = 0; for (let i = 3; i < d.length; i += 4) if (d[i] > 20) n++;
+      const r = c.getBoundingClientRect(); return { points: n, plein: r.width === innerWidth || r.width === document.documentElement.clientWidth, clics: getComputedStyle(c).pointerEvents }; });
+    verifier(`remerciements ${largeur} px : la pluie d'étoiles dorées tombe sur toute la page, sans bloquer les clics`, pluie.points > 50 && pluie.plein && pluie.clics === "none", pluie);
+    // Musique : le fichier se charge ; elle joue déjà, ou le bouton invite à la lancer ; le bouton la coupe et la relance.
+    const son = () => o.p.evaluate(() => { const a = document.querySelector(".merci-audio"), b = document.querySelector(".merci-son");
+      return { duree: Math.round(a.duration), pret: a.readyState, joue: !a.paused, bouton: !b.hidden, classe: b.className, etiquette: b.getAttribute("aria-label") }; });
+    const s0 = await son();
+    verifier(`remerciements ${largeur} px : la musique se charge (2 min 26 s) et joue, ou le bouton invite à la lancer`, s0.duree === 146 && s0.pret >= 1 && s0.bouton && (s0.joue || s0.classe.includes("invite")), s0);
+    if (!s0.joue) await o.p.click(".merci-son");
+    await o.p.waitForTimeout(400); const s1 = await son();
+    await o.p.click(".merci-son"); await o.p.waitForTimeout(300); const s2 = await son();
+    verifier(`remerciements ${largeur} px : le bouton doré coupe la musique`, s1.joue && s1.etiquette === "Couper la musique" && !s2.joue && s2.etiquette === "Jouer la musique", { s1, s2 });
     verifier(`remerciements ${largeur} px : aucune erreur`, o.erreurs.length === 0, o.erreurs);
     await o.ctx.close();
   }
