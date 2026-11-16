@@ -144,7 +144,7 @@ async function accueil(nav) {
     const a = await o.p.evaluate(() => { const e = document.querySelector(".pied-annee"), cs = getComputedStyle(e), r = e.getBoundingClientRect();
       return { texte: e.textContent, lien: !!e.closest("a"), curseur: cs.cursor, couleur: cs.color, voisin: getComputedStyle(document.querySelector(".pied")).color, haut: r.height }; });
     verifier(`accueil ${largeur} px : « MMXXVI » discret (pas un lien, même couleur que le pied)`, a.texte === "MMXXVI" && !a.lien && a.couleur === a.voisin, a);
-    verifier(`accueil ${largeur} px : curseur doré sur « MMXXVI », pas la main`, a.curseur.includes("curseur-or.svg") && !a.curseur.includes("pointer"), a.curseur);
+    verifier(`accueil ${largeur} px : curseur en étoile dorée sur « MMXXVI », pas la main`, a.curseur.includes("curseur-etoile.svg") && !a.curseur.includes("pointer"), a.curseur);
     verifier(`accueil ${largeur} px : « MMXXVI » assez grand pour le doigt`, a.haut >= 38, a.haut);
     await o.p.click(".pied-annee"); await o.p.waitForURL("**/merci/"); await o.p.waitForTimeout(3400);
     const m = await o.p.evaluate(() => { const img = document.querySelector(".merci-portrait");

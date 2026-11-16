@@ -86,8 +86,9 @@ h1 em { color: var(--or); }
   font: 500 10px/1 var(--police); letter-spacing: 0.2em; text-transform: uppercase; color: var(--discret); }
 .pied a { padding: 14px 0; }
 .pied a:hover { color: var(--encre); }
-/* « MMXXVI » : rien ne change à l'œil ; seul le curseur devient doré au survol. Zone de toucher agrandie sans rien déplacer. */
-.pied-annee { padding: 14px 0 14px 18px; margin-left: -18px; cursor: url("curseur-or.svg") 4 3, url("curseur-or.png") 4 3, default; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+/* « MMXXVI » : rien ne change à l'œil ; seul le curseur devient une étoile dorée au survol (point actif au centre).
+   Zone de toucher agrandie sans rien déplacer. */
+.pied-annee { padding: 14px 0 14px 18px; margin-left: -18px; cursor: url("curseur-etoile.svg") 16 16, url("curseur-etoile.png") 16 16, default; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
 /* « Installer l'app » : sous le titre, au-dessus des outils (à droite du titre sur grand écran) ; seulement là où
    l'installation est possible. */
 .installer-ligne { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; margin: -18px 0 30px; }
