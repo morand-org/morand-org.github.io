@@ -66,3 +66,10 @@ if ("serviceWorker" in navigator) addEventListener("load", () => { navigator.ser
     setTimeout(montrer, 200);
   });
 })();
+
+/* Clin d'œil : un clic sur « MMXXVI », au pied de l'accueil, ouvre la page de remerciements. Rien ne l'annonce,
+   sauf le curseur, doré au survol (voir accueil.css). Pas un lien : son adresse ne s'affiche pas au survol. */
+(() => {
+  const annee = document.querySelector(".pied-annee");
+  if (annee) annee.addEventListener("click", () => { location.href = "/merci/"; });
+})();

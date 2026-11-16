@@ -27,7 +27,7 @@ function verifier(nom, condition, detail) {
   else { echecs++; console.error(`ÉCHEC : ${nom}${detail !== undefined ? ` (${typeof detail === "string" ? detail : JSON.stringify(detail)})` : ""}`); }
 }
 const lire = f => fs.readFileSync(path.join(RACINE, f), "utf8");
-const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/"];
+const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/"];
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
@@ -138,6 +138,22 @@ async function accueil(nav) {
   verifier("recherche de l'accueil : champ vidé, les outils reviennent", vide.outils && vide.groupes.length === 0);
   verifier("recherche de l'accueil : aucune erreur", erreurs.length === 0, erreurs);
   await ctx.close();
+  // Clin d'œil : « MMXXVI », au pied, n'est pas un lien ; au survol, seul le curseur change (doré) ; un clic ouvre les remerciements.
+  for (const [largeur, hauteur] of [[390, 844], [1280, 720]]) {
+    const o = await ouvrir(nav, "/", { largeur, hauteur });
+    const a = await o.p.evaluate(() => { const e = document.querySelector(".pied-annee"), cs = getComputedStyle(e), r = e.getBoundingClientRect();
+      return { texte: e.textContent, lien: !!e.closest("a"), curseur: cs.cursor, couleur: cs.color, voisin: getComputedStyle(document.querySelector(".pied")).color, haut: r.height }; });
+    verifier(`accueil ${largeur} px : « MMXXVI » discret (pas un lien, même couleur que le pied)`, a.texte === "MMXXVI" && !a.lien && a.couleur === a.voisin, a);
+    verifier(`accueil ${largeur} px : curseur doré sur « MMXXVI », pas la main`, a.curseur.includes("curseur-or.svg") && !a.curseur.includes("pointer"), a.curseur);
+    verifier(`accueil ${largeur} px : « MMXXVI » assez grand pour le doigt`, a.haut >= 38, a.haut);
+    await o.p.click(".pied-annee"); await o.p.waitForURL("**/merci/"); await o.p.waitForTimeout(3400);
+    const m = await o.p.evaluate(() => { const img = document.querySelector(".merci-portrait");
+      return { titre: document.querySelector("h1").textContent, portrait: img.complete && img.naturalWidth > 0, visible: getComputedStyle(document.querySelector(".merci-plaque")).opacity }; });
+    verifier(`accueil ${largeur} px : un clic sur « MMXXVI » ouvre les remerciements, portrait chargé`, m.titre === "Dr Philippe Morand" && m.portrait, m);
+    verifier(`remerciements ${largeur} px : tout le texte finit par apparaître`, +m.visible === 1, m.visible);
+    verifier(`remerciements ${largeur} px : aucune erreur`, o.erreurs.length === 0, o.erreurs);
+    await o.ctx.close();
+  }
 }
 
 /* 5. CRDS : recherche, onglets, accueil clinique de Pierre-Boucher, favoris et recherches récentes. */
@@ -321,8 +337,9 @@ async function guide(nav) {
 
 /* 8. Mode sombre : les textes restent lisibles (contraste d'au moins 3 pour 1) sur chaque page. */
 async function sombre(nav) {
-  for (const u of ["/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/"]) {
+  for (const u of ["/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/", "/merci/"]) {
     const { ctx, p } = await ouvrir(nav, u, { sombre: true });
+    if (u === "/merci/") await p.waitForTimeout(2600);   // les entrées en fondu
     const r = await p.evaluate(() => { const lum = c => { const m = c.match(/[\d.]+/g).map(Number), f = v => { v /= 255; return v <= .03928 ? v / 12.92 : ((v + .055) / 1.055) ** 2.4; }; return .2126 * f(m[0]) + .7152 * f(m[1]) + .0722 * f(m[2]); };
       const fond = e => { while (e) { const m = getComputedStyle(e).backgroundColor.match(/[\d.]+/g); if (m && (m.length < 4 || +m[3] > .5)) return getComputedStyle(e).backgroundColor; e = e.parentElement; } return "rgb(255,255,255)"; };
       const faibles = [];
@@ -348,7 +365,7 @@ function fichiers() {
   }
   verifier("map/index.html : adresse canonique laissée à Trouve ta clinique", lire("map/index.html").includes('<link rel="canonical" href="https://trouvetaclinique.ca/monteregie/">'));
   // Pages écrites pour Morand : politique de sécurité stricte, donc ni style en ligne ni script en ligne.
-  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html"]) {
+  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html", "merci/index.html"]) {
     const h = lire(f);
     verifier(`${f} : politique de sécurité du contenu présente`, /Content-Security-Policy" content="default-src 'self'/.test(h));
     verifier(`${f} : aucun attribut style, aucun script en ligne`, !/\sstyle="/.test(h) && !/<script(?![^>]*\bsrc=)(?![^>]*ld\+json)[^>]*>/.test(h));
@@ -361,6 +378,7 @@ function fichiers() {
   verifier("service worker : chaque fichier à garder existe", absents.length === 0, absents);
   const plan = [...lire("sitemap.xml").matchAll(/<loc>https:\/\/www\.morand\.org(\/[^<]*)<\/loc>/g)].map(m => m[1]);
   verifier("plan du site : accueil, Guide, ressources, CRDS, Codes, confidentialité et Wealth", ["/", "/wealth/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/"].every(u => plan.includes(u)) && !plan.includes("/map/"), plan);
+  verifier("remerciements : page cachée (non indexée, absente du plan du site)", lire("merci/index.html").includes('<meta name="robots" content="noindex,nofollow">') && !plan.includes("/merci/"));
   verifier("robots.txt : annonce le plan du site", lire("robots.txt").includes("Sitemap: https://www.morand.org/sitemap.xml"));
   const m = JSON.parse(lire("manifest.webmanifest"));
   verifier("manifeste : un raccourci par outil, icônes présentes", m.shortcuts.map(s => s.url).join() === "/wealth/,/guides/,/map/,/crds/,/codes/" && m.shortcuts.every(s => fs.existsSync(path.join(RACINE, s.icons[0].src))), m.shortcuts.map(s => s.url));
