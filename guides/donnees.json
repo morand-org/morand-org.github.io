@@ -2695,6 +2695,28 @@
     "format": "guide"
   },
   {
+    "title": "Colonne cervicale : clairance après un traumatisme (NEXUS et règle canadienne)",
+    "org": "CISSS des Laurentides",
+    "cat": "Urgence et traumatologie",
+    "tags": "colonne cervicale rachis cervical clairance retrait du collet cervical immobilisation cervicale règle canadienne de la colonne cervicale Canadian C-Spine Rule CCR NEXUS radiographie tomodensitométrie traumatisme cervical cou procédure de traumatologie",
+    "url": "https://www.santelaurentides.gouv.qc.ca/fileadmin/internet/cisss_laurentides/Espace_medecins/Traumatologie/PROC_5.1.17_Procedure_de_clairance_de_la_colonne_cervicale.pdf",
+    "desc": "Procédure de traumatologie 5.1.17 (adoptée le 2025-01-20, 3 pages) pour retirer l’immobilisation cervicale de façon sécuritaire. En annexe : les critères NEXUS et la règle canadienne de la colonne cervicale (Canadian C-Spine Rule), en anglais.",
+    "verifie": "2026-11-16",
+    "ajoute": "2026-11-16",
+    "format": "algorithme"
+  },
+  {
+    "title": "Collet cervical : critères d’installation ou de retrait (algorithme en français, règle canadienne)",
+    "org": "CISSS de Lanaudière",
+    "cat": "Urgence et traumatologie",
+    "tags": "colonne cervicale rachis cervical collet cervical retrait installation immobilisation cervicale règle canadienne de la colonne cervicale Canadian C-Spine Rule facteurs à haut risque mécanisme dangereux rotation 45 degrés ordonnance collective infirmière urgence traumatisme cervical cou",
+    "url": "https://www.cisss-lanaudiere.gouv.qc.ca/fileadmin/internet/cisss_lanaudiere/Professionnels/Ordonnances_collectives_Soins_infirmiers/Ordonnances_collectives_Soins_infirmiers_Sud/Urgence/OC_CISSS_38_retrait_collet_cervical.pdf",
+    "desc": "Ordonnance collective OC CISSSL 38 pour les infirmières à l’urgence (16 ans et plus, traumatisme de moins de 48 heures, Glasgow à 15). Annexe 1 : algorithme en français basé sur la règle canadienne de la colonne cervicale. Période de validité indiquée : jusqu’en avril 2025.",
+    "verifie": "2026-11-16",
+    "ajoute": "2026-11-16",
+    "format": "algorithme"
+  },
+  {
     "title": "Traumatisme crânien pédiatrique (2 ans et moins)",
     "org": "CHU Sainte-Justine",
     "cat": "Urgence et traumatologie",
@@ -18149,6 +18171,17 @@
     "ajoute": "2026-09-29"
   },
   {
+    "title": "Genou, cheville et pied : critères de radiographie après un traumatisme (règles d’Ottawa)",
+    "org": "CIUSSS de la Capitale-Nationale",
+    "cat": "Urgence et traumatologie",
+    "tags": "règles d’Ottawa règle d’Ottawa Ottawa knee rule Ottawa ankle rules Ottawa foot genou cheville pied radiographie fracture traumatisme membre inférieur entorse mise en charge quatre pas rotule tête du péroné flexion 90 degrés malléole os naviculaire base du 5e métatarse protocole médical infirmier GMF ordonnance collective adulte",
+    "url": "https://www.ciusss-capitalenationale.gouv.qc.ca/sites/d8/files/docs/ProfSante/OrdonnancesCollectives/GMF/GMF-PR~1.pdf",
+    "desc": "Protocole médical pour les infirmières en GMF (GMF-PRO-OSTEO-01, révisé le 2025-07-25, 3 pages) : critères pour demander une radiographie du genou, de la cheville ou du pied chez l’adulte (18 ans et plus) après un traumatisme de moins de 7 jours. Le document cite la règle du genou d’Ottawa dans ses sources.",
+    "verifie": "2026-11-16",
+    "ajoute": "2026-11-16",
+    "format": "outil"
+  },
+  {
     "title": "Fractures chez l’enfant : prise en charge et suivi",
     "org": "CHU Sainte-Justine",
     "cat": "Urgence et traumatologie",
@@ -19237,6 +19270,39 @@
     "format": "guide",
     "verifie": "2026-10-31",
     "ajoute": "2026-10-31"
+  },
+  {
+    "title": "Commotion cérébrale : SCAT6, évaluation dans le sport (13 ans et plus, version française)",
+    "org": "AQMSE",
+    "cat": "Urgence et traumatologie",
+    "tags": "commotion cérébrale TCCL traumatisme craniocérébral léger SCAT6 SCAT 6 SCAT5 SCAT-5 SCAT Sport Concussion Assessment Tool outil d’évaluation des commotions cérébrales dans le sport médecine sportive médecine du sport retrait du jeu athlète adolescent adulte AQMSE Association québécoise des médecins du sport et de l’exercice Concussion in Sport Group",
+    "url": "https://cdn.aqmse.org/files/2024/10/17133729/scat6-juin-23.pdf",
+    "desc": "Version française du SCAT6 (9 pages), pour les professionnels de la santé : évaluation en phase aiguë, idéalement dans les 72 heures et jusqu’à 7 jours après la blessure. Au-delà de 7 jours, le document renvoie au SCOAT6 ; pour les 12 ans et moins, au Child SCAT6.",
+    "verifie": "2026-11-16",
+    "ajoute": "2026-11-16",
+    "format": "outil"
+  },
+  {
+    "title": "Commotion cérébrale : SCOAT6, évaluation en cabinet (13 ans et plus, version française)",
+    "org": "CHU Sainte-Justine",
+    "cat": "Urgence et traumatologie",
+    "tags": "commotion cérébrale TCCL traumatisme craniocérébral léger SCOAT6 SCOAT 6 SCOAT Sport Concussion Office Assessment Tool outil d’évaluation des commotions cérébrales en cabinet suivi subaigu médecine sportive médecine du sport athlète adolescent adulte CHU Sainte-Justine Centre de recherche Azrieli Concussion in Sport Group",
+    "url": "https://recherche.chusj.org/getattachment/Communications/Nouvelles/2024/Commotions-cerebrales-nbsp;-decouvrez-les-plus-re/SCOAT6_adolescents-adultes.pdf.aspx",
+    "desc": "Version française du SCOAT6 (15 pages), traduite et adaptée au contexte québécois avec une équipe du CHU Sainte-Justine. Évaluation en cabinet, en général à partir de 72 heures après la blessure, avec le SCAT6 s’il a été fait ; pour les professionnels de la santé.",
+    "verifie": "2026-11-16",
+    "ajoute": "2026-11-16",
+    "format": "outil"
+  },
+  {
+    "title": "Commotions cérébrales dans le sport : lignes directrices canadiennes (2e édition, 2024)",
+    "org": "Parachute",
+    "cat": "Urgence et traumatologie",
+    "tags": "commotion cérébrale TCCL traumatisme craniocérébral léger lignes directrices canadiennes sport médecine sportive médecine du sport retour au sport retour à l’école examen médical sur place prévention athlète Parachute Agence de la santé publique du Canada",
+    "url": "https://parachute.ca/wp-content/uploads/2019/06/Concussion-Guideline-2024-F.pdf",
+    "desc": "Lignes directrices de Parachute (mars 2024, 29 pages, financées par l’Agence de la santé publique du Canada) : prévention, identification des blessures à la tête, examen médical sur place et au bureau, gestion, soins interdisciplinaires et retour au sport.",
+    "verifie": "2026-11-16",
+    "ajoute": "2026-11-16",
+    "format": "guide"
   },
   {
     "title": "Prurit : démarche chez l’adulte (PABP)",

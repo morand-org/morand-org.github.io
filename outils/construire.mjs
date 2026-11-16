@@ -269,7 +269,16 @@ for (const page of ["guides/index.html", "guides/ressources-communautaires/index
     t = voisine.test(t) ? t.replace(voisine, `$1\n${li}`) : remplacer(t, sujet, `$1\n${li}$2`, `sujet ${g.cat}`);
     plusUn(new RegExp(`(<h2 id="guides-category-\\d+">${echapper(h(g.cat))}</h2><span class="compte">)(\\d+)(<)`), `nombre du sujet ${g.cat}`);
     plusUn(new RegExp(`(<option value="${echapper(h(g.cat))}">[^<]*\\()(\\d+)(\\))`), `filtre du sujet ${g.cat}`);
-    plusUn(new RegExp(`(<option value="${echapper(h(g.org))}">[^<]*\\()(\\d+)(\\))`), `filtre de l'organisme ${g.org}`);
+    // Organisme : +1 s'il est déjà au filtre ; sinon, nouvelle option à sa place dans l'ordre alphabétique.
+    const optionOrg = new RegExp(`(<option value="${echapper(h(g.org))}">[^<]*\\()(\\d+)(\\))`);
+    if (optionOrg.test(t)) plusUn(optionOrg, `filtre de l'organisme ${g.org}`);
+    else t = remplacer(t, /(<select id="guides-filtre-organisme"[^>]*><option value="">[^<]*<\/option>)([\s\S]*?)(<\/select>)/, (_, d, options, f) => {
+      const liste = options.match(/<option value="[^"]*">[^<]*<\/option>/g) || [];
+      const nom = o => o.match(/value="([^"]*)"/)[1];
+      const i = liste.findIndex(o => nom(o).localeCompare(h(g.org), "fr", { sensitivity: "base" }) > 0);
+      liste.splice(i < 0 ? liste.length : i, 0, `<option value="${h(g.org)}">${h(g.org)} (1)</option>`);
+      return d + liste.join("") + f;
+    }, "filtre des organismes");
     plusUn(new RegExp(`(<select id="guides-filtre-format"[\\s\\S]*?<option value="${echapper(h(g.format))}">[^<]*\\()(\\d+)(\\))`), `filtre du format ${g.format}`);
     plusUn(/(<span class="guides-onglet-compte">)(\d+)(<\/span><\/a><a href="\/guides\/ressources-communautaires\/")/, "nombre des guides cliniques");
     plusUn(/("numberOfItems":)(\d+)(})/, "nombre de la collection");
