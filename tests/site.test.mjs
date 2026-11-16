@@ -31,8 +31,8 @@ const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
-async function ouvrir(nav, chemin, { largeur = 390, hauteur = 844, sombre = false, stockage = null } = {}) {
-  const ctx = await nav.newContext({ viewport: { width: largeur, height: hauteur }, serviceWorkers: "block", colorScheme: sombre ? "dark" : "light" });
+async function ouvrir(nav, chemin, { largeur = 390, hauteur = 844, sombre = false, stockage = null, userAgent } = {}) {
+  const ctx = await nav.newContext({ viewport: { width: largeur, height: hauteur }, serviceWorkers: "block", colorScheme: sombre ? "dark" : "light", ...(userAgent ? { userAgent, isMobile: true, hasTouch: true } : {}) });
   await ctx.addInitScript(s => { try { sessionStorage.setItem("morand.ouverture", "1"); if (s) for (const [k, v] of Object.entries(s)) localStorage.setItem(k, v); } catch (e) { /* stockage indisponible */ } }, stockage);
   await ctx.route("**/*", r => r.request().url().startsWith(BASE) ? r.continue() : r.abort());
   const p = await ctx.newPage(), erreurs = [];
@@ -138,6 +138,16 @@ async function accueil(nav) {
   verifier("recherche de l'accueil : champ vidé, les outils reviennent", vide.outils && vide.groupes.length === 0);
   verifier("recherche de l'accueil : aucune erreur", erreurs.length === 0, erreurs);
   await ctx.close();
+  // Safari sur iPhone : « Installer l'app » est affiché (plus haut) ; le pied (« Confidentialité », « MMXXVI ») reste dans l'écran, sans défilement.
+  // Hauteurs visibles de Safari, barre d'adresse déployée : iPhone SE (1re gén.), SE (2e et 3e gén.), 13 mini, 15.
+  const IPHONE = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1";
+  for (const [largeur, hauteur] of [[320, 568], [375, 553], [375, 629], [393, 659]]) {
+    const o = await ouvrir(nav, "/", { largeur, hauteur, userAgent: IPHONE });
+    const r = await o.p.evaluate(() => { const pied = document.querySelector(".pied").getBoundingClientRect(), liste = document.getElementById("outils").getBoundingClientRect();
+      return { installer: !document.getElementById("installer-ligne").hidden, piedBas: Math.round(pied.bottom), piedHaut: Math.round(pied.top), listeBas: Math.round(liste.bottom), defile: document.documentElement.scrollHeight - innerHeight }; });
+    verifier(`accueil, Safari sur iPhone ${largeur}×${hauteur} : « Installer l'app » affiché, pied entier dans l'écran, rien ne chevauche, pas de défilement`, r.installer && r.piedBas <= hauteur && r.listeBas <= r.piedHaut + 1 && r.defile <= 1, r);
+    await o.ctx.close();
+  }
   // Clin d'œil : « MMXXVI », au pied, n'est pas un lien ; au survol, seul le curseur change (doré) ; un clic ouvre les remerciements.
   for (const [largeur, hauteur] of [[390, 844], [1280, 720]]) {
     const o = await ouvrir(nav, "/", { largeur, hauteur });
@@ -391,6 +401,12 @@ function fichiers() {
   verifier("service worker : chaque fichier à garder existe", absents.length === 0, absents);
   const plan = [...lire("sitemap.xml").matchAll(/<loc>https:\/\/www\.morand\.org(\/[^<]*)<\/loc>/g)].map(m => m[1]);
   verifier("plan du site : accueil, Guide, ressources, CRDS, Codes, confidentialité et Wealth", ["/", "/wealth/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/"].every(u => plan.includes(u)) && !plan.includes("/map/"), plan);
+  // Jusqu'aux bords (viewport-fit=cover) seulement dans l'app installée : dans Safari (iOS 26), la barre d'adresse flottante couvrirait le pied.
+  for (const f of ["index.html", "merci/index.html"]) {
+    const h = lire(f);
+    verifier(`${f} : pas de « viewport-fit=cover » dans le navigateur ; ajouté par plein-ecran.js dans l'app installée`, !h.includes("viewport-fit=cover") && h.indexOf('<script src="/morand/plein-ecran.js"></script>') > h.indexOf('name="viewport"'));
+  }
+  verifier("plein-ecran.js : n'ajoute « cover » qu'en mode app installée", /display-mode: standalone/.test(lire("morand/plein-ecran.js")) && /viewport-fit=cover/.test(lire("morand/plein-ecran.js")));
   verifier("remerciements : page cachée (non indexée, absente du plan du site)", lire("merci/index.html").includes('<meta name="robots" content="noindex,nofollow">') && !plan.includes("/merci/"));
   verifier("robots.txt : annonce le plan du site", lire("robots.txt").includes("Sitemap: https://www.morand.org/sitemap.xml"));
   const m = JSON.parse(lire("manifest.webmanifest"));

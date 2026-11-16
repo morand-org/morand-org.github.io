@@ -151,26 +151,25 @@ h1 em { color: var(--or); }
 /* Téléphone, page d'accueil seulement : tout tient dans l'écran, sans défilement ; les tailles suivent la hauteur visible. Sur un écran très bas,
    la page redevient défilable plutôt que de couper le contenu. */
 @media (max-width: 719px) and (min-height: 521px) {
-  html.accueil, .accueil body { height: 100%; overflow: hidden; overscroll-behavior: none; }
-  .accueil body { height: 100vh; height: 100dvh; min-height: 0; padding-top: calc(clamp(14px, 3.2dvh, 28px) + env(safe-area-inset-top)); }
-  .accueil main { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
-  .accueil h1 { margin: 0 0 clamp(12px, 2.6dvh, 24px); font-size: clamp(1.6rem, min(8.4vw, 4.6dvh), 2.3rem); }
-  .accueil .installer-ligne { margin: calc(-1 * clamp(12px, 2.6dvh, 24px) + clamp(6px, 1.2dvh, 12px)) 0 clamp(10px, 2dvh, 18px); }
+  /* Calée sur la hauteur visible quand la barre d'adresse est déployée (svh) : la page ne défile pas et le pied reste au-dessus
+     de la barre. Rien n'est verrouillé : si le contenu dépasse (petit écran, grand texte), la page défile au lieu de cacher le pied. */
+  .accueil body { min-height: 100vh; min-height: 100svh; padding-top: calc(clamp(14px, 3.2svh, 28px) + env(safe-area-inset-top)); }
+  .accueil main { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: center; }
+  .accueil h1 { margin: 0 0 clamp(12px, 2.6svh, 24px); font-size: clamp(1.6rem, min(8.4vw, 4.6svh), 2.3rem); }
+  .accueil .installer-ligne { margin: calc(-1 * clamp(12px, 2.6svh, 24px) + clamp(6px, 1.2svh, 12px)) 0 clamp(10px, 2svh, 18px); }
   .accueil .installer { min-height: 40px; }
-  .accueil .rg { margin: 0 0 clamp(10px, 2.2dvh, 20px); }
-  .accueil .rg { --rg-haut: clamp(46px, 6.4dvh, 54px); }
+  .accueil .rg { margin: 0 0 clamp(10px, 2.2svh, 20px); }
+  .accueil .rg { --rg-haut: clamp(46px, 6.4svh, 54px); }
   .accueil .rg-etat { margin: -4px 0 14px; }
-  .accueil .outils a { padding: clamp(7px, 1.55dvh, 15px) 0; grid-template-columns: 30px 1fr clamp(42px, 6.9dvh, 62px); }
-  .accueil .outils img { width: clamp(42px, 6.9dvh, 62px); height: clamp(42px, 6.9dvh, 62px); }
-  .accueil .nom { font-size: clamp(1.12rem, 2.9dvh, 1.5rem); }
-  .accueil .desc { margin-top: clamp(2px, 0.6dvh, 6px); font-size: clamp(0.7rem, 1.6dvh, 0.78rem); }
-  .accueil .pied { padding-top: clamp(6px, 1.5dvh, 16px); }
-  .accueil .pied a { padding: clamp(8px, 1.5dvh, 14px) 0; }
+  .accueil .outils a { padding: clamp(7px, 1.55svh, 15px) 0; grid-template-columns: 30px 1fr clamp(42px, 6.9svh, 62px); }
+  .accueil .outils img { width: clamp(42px, 6.9svh, 62px); height: clamp(42px, 6.9svh, 62px); }
+  .accueil .nom { font-size: clamp(1.12rem, 2.9svh, 1.5rem); }
+  .accueil .desc { margin-top: clamp(2px, 0.6svh, 6px); font-size: clamp(0.7rem, 1.6svh, 0.78rem); }
+  .accueil .pied { padding-top: clamp(6px, 1.5svh, 16px); }
+  .accueil .pied a { padding: clamp(8px, 1.5svh, 14px) 0; }
   /* Écran bas (iPhone SE) : un peu moins d'air, pour que le titre ne remonte pas sous l'en-tête. */
-  @media (max-height: 600px) { .accueil .installer { min-height: 36px; } .accueil .outils a { padding: 5px 0; } }
+  @media (max-height: 600px) { .accueil .installer { min-height: 36px; } .accueil .installer-ligne { margin-bottom: 8px; } .accueil .rg { margin-bottom: 8px; } .accueil .outils a { padding: 4px 0; } }
   /* Pendant une recherche : la page redevient une page ordinaire, qui défile. */
-  html.accueil.cherche, .accueil.cherche body { height: auto; overflow: visible; }
-  .accueil.cherche body { min-height: 100dvh; }
   .accueil.cherche main { justify-content: flex-start; padding-top: 14px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
