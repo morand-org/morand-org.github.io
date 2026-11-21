@@ -43,7 +43,8 @@
       ctl = q.long ? `<textarea class="lo-texte-libre" id="c-${q.id}" data-q="${q.id}" aria-labelledby="${lid}" rows="2"></textarea>`
         : `<input type="text" class="lo-texte-libre" id="c-${q.id}" data-q="${q.id}" aria-labelledby="${lid}">`;
     }
-    return `<div class="lo-q${large ? " lo-q-large" : ""}" data-qid="${q.id}"><div class="lo-q-texte"><span class="lo-q-libelle" id="${lid}">${esc(q.libelle)}</span>${q.aide ? `<span class="lo-q-aide">${esc(q.aide)}</span>` : ""}</div>${ctl}</div>`;
+    const calcul = q.effets.length > 0 || q.id === "sexe" || q.id === "age";
+    return `<div class="lo-q${large ? " lo-q-large" : ""}${calcul ? " lo-q-calcul" : ""}" data-qid="${q.id}"><div class="lo-q-texte"><span class="lo-q-libelle" id="${lid}">${esc(q.libelle)}${calcul ? '<span class="cache"> (compte dans le calcul)</span>' : ""}</span>${q.aide ? `<span class="lo-q-aide">${esc(q.aide)}</span>` : ""}</div>${ctl}</div>`;
   }
   function construire() {
     form.innerHTML = d.sections.map(s => `<section class="lo-section" id="s-${s.id}" aria-labelledby="h-${s.id}"><h2 id="h-${s.id}">${esc(s.titre)}</h2>${s.blocs.map((b, i) => {
@@ -52,7 +53,7 @@
       return `<div class="lo-bloc" data-bloc="${b.ref}">${b.titre || bouton ? `<div class="lo-bloc-tete">${b.titre ? `<h3>${esc(b.titre)}</h3>` : "<span></span>"}${bouton}</div>` : ""}${b.aide ? `<p class="lo-bloc-aide">${esc(b.aide)}</p>` : ""}${b.questions.map(controle).join("")}</div>`;
     }).join("")}</section>`).join("");
     $("#lo-nav").innerHTML = d.sections.map(s => `<a href="#s-${s.id}" data-nav="${s.id}">${esc(s.titre)}<span class="lo-compte"></span></a>`).join("")
-      + `<a href="#resultats">Résultats</a><a href="#sources">Sources</a>`;
+      + `<a href="#resultats">Résultats</a><a href="#sources">Sources</a><button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>`;
   }
   function majBoutons(id) {
     const v = rep[id];
@@ -244,7 +245,9 @@
   addEventListener("resize", () => { if (dernier) barre(dernier); });
 
   /* ---------- Nouveau patient ---------- */
-  $("#lo-nouveau").addEventListener("click", () => {
+  $("#lo-nav").addEventListener("click", e => {
+    if (e.target.closest('a[href="#sources"]')) { $("#sources").open = true; return; }
+    if (!e.target.closest("#lo-nouveau")) return;
     if (Object.keys(rep).length && !confirm("Effacer toutes les réponses et commencer un nouveau patient ?")) return;
     rep = {}; ouverts.clear(); tous = false;
     construire(); maj(); choisir(onglets[0]);

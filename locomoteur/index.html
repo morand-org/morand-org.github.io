@@ -16,41 +16,51 @@
 <link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
 <link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/crds/crds.css">
 <link rel="stylesheet" href="/locomoteur/locomoteur.css">
 </head>
-<body class="lo-accueil">
-<header class="lo-tete">
-  <a class="lo-marque" href="/">Morand</a>
-  <p class="lo-rubrique">Prototype caché</p>
+<body>
+<header class="cr-tete">
+  <a class="cr-marque" href="/">Morand</a>
+  <nav class="cr-onglets" aria-label="Outils Morand">
+    <a href="/wealth/">Wealth</a>
+    <a href="/guides/">Guide</a>
+    <a href="/map/">Map</a>
+    <a href="/crds/">CRDS</a>
+    <a href="/codes/">Codes</a>
+    <a href="/locomoteur/" aria-current="page">MSK</a>
+  </nav>
 </header>
-
-<main class="lo-cadre">
-  <section class="lo-sceau-bloc">
-    <img class="sceau" src="/locomoteur/sceau-msk.webp" width="480" height="480" alt="Sceau de MSK Morand : un genou gravé, « Évaluation · Diagnostic · Conduite », 2026">
-    <h1>MSK Morand</h1>
-    <p class="lo-devise">Évaluation · Diagnostic · Conduite</p>
-    <p class="lo-lead">Pendant la visite, on coche l'anamnèse et l'examen ; la page propose un diagnostic différentiel, signale les drapeaux rouges, suggère une conduite et rédige la note à coller au dossier.</p>
+<main>
+  <section class="cr-intro">
+    <a class="cr-logo" href="/locomoteur/" tabindex="-1" aria-hidden="true"><img class="lo-sceau" src="/locomoteur/sceau-msk.webp" alt="" width="480" height="480"></a>
+    <h1><a class="cr-nom" href="/locomoteur/">MSK Morand</a></h1>
+    <p class="cr-devise">Évaluation · Diagnostic · Conduite</p>
+    <p class="cr-lead">Pendant la visite, on coche l'anamnèse et l'examen ; la page propose un diagnostic différentiel, signale les drapeaux rouges, suggère une conduite et rédige la note à coller au dossier.</p>
   </section>
 
   <p class="lo-avis"><strong>Prototype : les poids du calcul sont provisoires et ne sont pas encore validés.</strong>
     Rien n'est transmis ni conservé : les réponses restent dans la page et s'effacent à sa fermeture.</p>
 
   <h2 class="lo-regions-titre">Choisir la région</h2>
-  <ol class="lo-regions">
-    <li><span class="lo-region" aria-disabled="true"><b>Cervical</b><small>À venir</small></span></li>
-    <li><span class="lo-region" aria-disabled="true"><b>Épaule</b><small>À venir</small></span></li>
-    <li><span class="lo-region" aria-disabled="true"><b>Coude</b><small>À venir</small></span></li>
-    <li><span class="lo-region" aria-disabled="true"><b>Poignet et main</b><small>À venir</small></span></li>
-    <li><span class="lo-region" aria-disabled="true"><b>Lombaire</b><small>À venir</small></span></li>
-    <li><span class="lo-region" aria-disabled="true"><b>Hanche</b><small>À venir</small></span></li>
-    <li><a class="lo-region" href="/locomoteur/genou/"><b>Genou</b><small>16 diagnostics · prêt à essayer</small></a></li>
-    <li><span class="lo-region" aria-disabled="true"><b>Cheville</b><small>À venir</small></span></li>
-    <li><span class="lo-region" aria-disabled="true"><b>Pied</b><small>À venir</small></span></li>
+  <ol class="lo-regions cr-specs">
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Cervical</span><span class="cr-spec-sous">À venir</span></span></li>
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Épaule</span><span class="cr-spec-sous">À venir</span></span></li>
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Coude</span><span class="cr-spec-sous">À venir</span></span></li>
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Poignet et main</span><span class="cr-spec-sous">À venir</span></span></li>
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Lombaire</span><span class="cr-spec-sous">À venir</span></span></li>
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Hanche</span><span class="cr-spec-sous">À venir</span></span></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/genou/"><span class="cr-spec-nom">Genou</span><span class="cr-spec-sous">16 diagnostics · prêt à essayer</span></a></li>
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Cheville</span><span class="cr-spec-sous">À venir</span></span></li>
+    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">Pied</span><span class="cr-spec-sous">À venir</span></span></li>
   </ol>
-</main>
 
-<footer class="lo-pied">
-  <p>MSK Morand · prototype · aide à la décision, ne remplace pas le jugement clinique · <a href="/confidentialite/">Confidentialité</a></p>
-</footer>
+  <details class="cr-sources">
+    <summary><h2>Sources et limites</h2></summary>
+    <p class="cr-petit">Outil d'aide à la décision : il ne remplace pas le jugement clinique. Les probabilités viennent de rapports de vraisemblance, en grande partie provisoires ; chaque page de région montre le statut et la source de chaque poids.</p>
+    <p class="cr-petit">Les fiches ouvertes depuis les diagnostics sont rédigées de mémoire et restent à valider.</p>
+  </details>
+</main>
+<footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
 </body>
 </html>

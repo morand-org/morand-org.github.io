@@ -99,12 +99,14 @@
     /* ---------- Questions ---------- */
     sections: [
       { id: "identification", titre: "Identification", note: "id", blocs: [{ questions: [
-        C.visite(), C.sexe(), C.age(), C.cote("Genou atteint", "Droit", "Gauche"), C.accompagne(), C.refere(), C.dominance("Dominance podale"),
+        C.visite(), C.sexe(), C.age(), C.cote("Genou atteint", "Droit", "Gauche"), C.accompagne(), C.refere(),
         C.travail({ physique: { arthrose: 1.2, menisque: 1.2 }, ajouts: [o("genoux", "Travail à genoux (plancher, toiture, plomberie…)", { bprep: 3, menisque: 1.3, arthrose: 1.2 }, { n: "travail à genoux" })] }),
         C.travailPrecision(),
-        C.sport({ aucun: { lca: .5, rotule: .7, tendino: .5, bit: .4, sfp: .8, collat: .7 }, ajouts: [
-          o("course", "Course à pied ou vélo", { bit: 2.5, sfp: 1.5, tendino: 1.2 }, { n: "course à pied ou vélo" }),
-          o("pivot", "Sport de pivot ou de saut (soccer, basketball, ski, volleyball, badminton…)", { lca: 2, menisque: 1.4, rotule: 1.5, tendino: 2, apo: 1.5, collat: 1.5 }, { n: "sport de pivot ou de saut" })] }),
+        C.sport({ aucun: { lca: .5, rotule: .7, tendino: .5, bit: .4, sfp: .8, collat: .7 }, marche: { arthrose: 1.1, poie: 1.2 },
+          course: { bit: 2.5, sfp: 1.5, tendino: 1.2 }, velo: { bit: 1.8, sfp: 1.3 },
+          pivot: { lca: 2, menisque: 1.4, rotule: 1.5, tendino: 2, apo: 1.5, collat: 1.5 }, raquette: { menisque: 1.3, lca: 1.3, tendino: 1.3 },
+          contact: { collat: 2, lca: 1.6, lcp: 2, menisque: 1.3 }, glisse: { lca: 2, collat: 2 }, danse: { rotule: 1.6, sfp: 1.4, hoffa: 1.5, tendino: 1.4, apo: 1.3 },
+          muscu: { tendino: 1.3, sfp: 1.2 }, natation: { collat: 1.5, sfp: 1.1 } }),
         C.sportPrecision(), C.administratif(),
       ] }] },
 

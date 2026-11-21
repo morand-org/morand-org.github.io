@@ -231,7 +231,7 @@
     if (q.type === "multi") {
       const ops = v.map(x => q.options.find(o2 => o2.v === x)).filter(Boolean);
       if (ops.some(op => op.exclusif)) return q.aucun || `${court} : aucun`;
-      const t = et(ops.map(op => (op.n || op.l.toLowerCase())));
+      const noms = ops.map(op => (op.n || op.l.toLowerCase())), t = q.joint ? noms.join(q.joint) : et(noms);
       return q.gabarit ? q.gabarit.replace("{v}", t) : `${court} : ${t}`;
     }
     if (q.type === "oui_non") {
