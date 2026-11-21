@@ -27,7 +27,7 @@ function verifier(nom, condition, detail) {
   else { echecs++; console.error(`ÉCHEC : ${nom}${detail !== undefined ? ` (${typeof detail === "string" ? detail : JSON.stringify(detail)})` : ""}`); }
 }
 const lire = f => fs.readFileSync(path.join(RACINE, f), "utf8");
-const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/"];
+const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/genou/"];
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
@@ -358,9 +358,53 @@ async function guide(nav) {
   verifier("Guide : aucun doublon d'adresse dans le catalogue", new Set(d.map(x => x.url)).size === d.length);
 }
 
+/* 7 bis. Locomoteur (prototype caché) : un cas complet de genou, du questionnaire à la note.
+   Fille de 15 ans, douleur antérieure graduelle, pire aux escaliers et assise : le syndrome fémoro-patellaire passe en tête. */
+async function locomoteur(nav) {
+  for (const largeur of [390, 1280]) {
+    const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur, hauteur: largeur > 1000 ? 900 : 844 });
+    await ctx.grantPermissions(["clipboard-read", "clipboard-write"]);
+    const clic = async (q, v) => (await p.locator(`select[data-q="${q}"]`).count()) ? p.selectOption(`select[data-q="${q}"]`, v) : p.click(`button[data-q="${q}"][data-v="${v}"]`);
+    await clic("sexe", "F"); await p.fill("#c-age", "15"); await clic("cote", "G");
+    verifier(`Locomoteur ${largeur} px : avec l'âge et le sexe seulement, les probabilités de départ sont annoncées`, /départ \(femme, 15 ans\)/.test(await p.textContent("#lo-res-etat")));
+    verifier(`Locomoteur ${largeur} px : adolescente, la hanche est à examiner`, (await p.textContent("#lo-alertes")).includes("Examiner la hanche"));
+    await clic("duree", "s6_12"); await clic("apparition", "graduel"); await p.click('button[data-q="localisation"][data-m="anterieure"]');
+    await clic("escaliers", "oui"); await clic("assis", "oui"); await clic("derobade", "non"); await clic("enflure", "non"); await clic("fievre", "non");
+    verifier(`Locomoteur ${largeur} px : le mécanisme ne s'affiche qu'après un traumatisme`, await p.locator('[data-qid="mecanisme"]').isHidden());
+    await clic("ex_epanchement", "aucun"); await clic("ex_facettes", "oui"); await clic("lachman", "non"); await clic("ex_accroupi", "oui"); await clic("hanche_ri", "normale");
+    await p.waitForTimeout(150);
+    const r = await p.evaluate(() => ({ tete: document.querySelector("#lo-dx .lo-dx-nom").textContent, cat: document.querySelector("#lo-dx .lo-dx-cat").textContent,
+      n: document.querySelectorAll("#lo-dx .lo-dx-item").length, note: document.querySelector("#lo-note").value }));
+    verifier(`Locomoteur ${largeur} px : syndrome fémoro-patellaire en tête, très probable`, r.tete === "Syndrome fémoro-patellaire" && r.cat === "Très probable", r);
+    verifier(`Locomoteur ${largeur} px : la note reprend l'identification, l'histoire, l'examen, l'impression et la conduite`,
+      r.note.startsWith("DOULEUR AU GENOU (GENOU GAUCHE)\nFemme de 15 ans") && /\nHISTOIRE\n/.test(r.note) && /\nEXAMEN\n/.test(r.note)
+      && r.note.includes("Hypothèse principale : syndrome fémoro-patellaire (très probable).") && /\nCONDUITE\n- /.test(r.note) && !/%/.test(r.note), r.note.slice(0, 200));
+    // Une réponse « ? » ne compte pas ; un second clic efface la réponse.
+    const avant = await p.textContent("#lo-res-etat");
+    await clic("marche", "?"); await p.waitForTimeout(80);
+    verifier(`Locomoteur ${largeur} px : « ? » ne compte pas`, (await p.textContent("#lo-res-etat")) === avant, [avant, await p.textContent("#lo-res-etat")]);
+    // Traumatisme : la règle d'Ottawa apparaît et demande la radiographie au premier critère.
+    await clic("apparition", "subit_trauma"); await clic("ott_perone", "oui"); await p.waitForTimeout(80);
+    verifier(`Locomoteur ${largeur} px : règle d'Ottawa positive, radiographie indiquée`, (await p.textContent("#lo-alertes")).includes("Radiographie du genou indiquée"));
+    // Copier la note, puis la consigne OpenEvidence.
+    await p.click("#t-note"); await p.click("#lo-copier"); await p.waitForTimeout(150);
+    verifier(`Locomoteur ${largeur} px : la note est copiée`, (await p.evaluate(() => navigator.clipboard.readText())).startsWith("DOULEUR AU GENOU"));
+    await p.selectOption("#lo-src-dx", "lca"); await p.click("#lo-consigne"); await p.waitForTimeout(150);
+    const c = await p.evaluate(() => navigator.clipboard.readText());
+    verifier(`Locomoteur ${largeur} px : la consigne OpenEvidence du LCA reprend chaque poids avec sa clé`, c.includes("Diagnostic à valider : Rupture du ligament croisé antérieur") && c.includes("lachman>lca | Lachman | Se 85") && c.includes("PMID ou DOI"));
+    verifier(`Locomoteur ${largeur} px : le tableau des sources montre les poids du diagnostic choisi`, (await p.locator("#lo-table tbody tr").count()) > 20);
+    // Nouveau patient : tout s'efface.
+    p.once("dialog", dlg => dlg.accept()); await p.click("#lo-nouveau"); await p.waitForTimeout(100);
+    verifier(`Locomoteur ${largeur} px : « Nouveau patient » efface tout`, (await p.locator('#lo-form button[aria-pressed="true"]').count()) === 0 && (await p.inputValue("#c-age")) === "");
+    verifier(`Locomoteur ${largeur} px : rien n'est conservé dans l'appareil`, await p.evaluate(() => localStorage.length === 0 || !Object.keys(localStorage).some(k => k.includes("locomoteur"))));
+    verifier(`Locomoteur ${largeur} px : aucune erreur`, erreurs.length === 0, erreurs);
+    await ctx.close();
+  }
+}
+
 /* 8. Mode sombre : les textes restent lisibles (contraste d'au moins 3 pour 1) sur chaque page. */
 async function sombre(nav) {
-  for (const u of ["/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/", "/merci/"]) {
+  for (const u of ["/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/genou/"]) {
     const { ctx, p } = await ouvrir(nav, u, { sombre: true });
     if (u === "/merci/") await p.waitForTimeout(2600);   // les entrées en fondu
     const r = await p.evaluate(() => { const lum = c => { const m = c.match(/[\d.]+/g).map(Number), f = v => { v /= 255; return v <= .03928 ? v / 12.92 : ((v + .055) / 1.055) ** 2.4; }; return .2126 * f(m[0]) + .7152 * f(m[1]) + .0722 * f(m[2]); };
@@ -388,7 +432,7 @@ function fichiers() {
   }
   verifier("map/index.html : adresse canonique laissée à Trouve ta clinique", lire("map/index.html").includes('<link rel="canonical" href="https://trouvetaclinique.ca/monteregie/">'));
   // Pages écrites pour Morand : politique de sécurité stricte, donc ni style en ligne ni script en ligne.
-  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html", "merci/index.html"]) {
+  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html", "merci/index.html", "locomoteur/genou/index.html"]) {
     const h = lire(f);
     verifier(`${f} : politique de sécurité du contenu présente`, /Content-Security-Policy" content="default-src 'self'/.test(h));
     verifier(`${f} : aucun attribut style, aucun script en ligne`, !/\sstyle="/.test(h) && !/<script(?![^>]*\bsrc=)(?![^>]*ld\+json)[^>]*>/.test(h));
@@ -408,13 +452,15 @@ function fichiers() {
   }
   verifier("plein-ecran.js : n'ajoute « cover » qu'en mode app installée", /display-mode: standalone/.test(lire("morand/plein-ecran.js")) && /viewport-fit=cover/.test(lire("morand/plein-ecran.js")));
   verifier("remerciements : page cachée (non indexée, absente du plan du site)", lire("merci/index.html").includes('<meta name="robots" content="noindex,nofollow">') && !plan.includes("/merci/"));
+  verifier("Locomoteur (prototype) : page cachée (non indexée, absente du plan du site et de l'accueil)", lire("locomoteur/genou/index.html").includes('<meta name="robots" content="noindex,nofollow">')
+    && !plan.some(u => u.startsWith("/locomoteur/")) && !lire("index.html").includes("/locomoteur/"));
   verifier("robots.txt : annonce le plan du site", lire("robots.txt").includes("Sitemap: https://www.morand.org/sitemap.xml"));
   const m = JSON.parse(lire("manifest.webmanifest"));
   verifier("manifeste : un raccourci par outil, icônes présentes", m.shortcuts.map(s => s.url).join() === "/wealth/,/guides/,/map/,/crds/,/codes/" && m.shortcuts.every(s => fs.existsSync(path.join(RACINE, s.icons[0].src))), m.shortcuts.map(s => s.url));
   verifier("dépôt : CNAME et .nojekyll", lire("CNAME").trim() === "www.morand.org" && fs.existsSync(path.join(RACINE, ".nojekyll")));
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, sombre };
+const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {

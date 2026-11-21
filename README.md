@@ -71,6 +71,27 @@ les interventions, ou null (à confirmer) : mêmes règles que le moteur de Weal
 Wealth n'affiche plus ces codes : son en-tête mène ici. L'affichage (montants, part au mixte, « Compris », code 14
 fermé, source et limite des codes de vulnérabilité) se vérifie donc dans le scénario `codes` de `tests/site.test.mjs`.
 
+## Locomoteur Morand (prototype caché)
+
+`/locomoteur/genou/` : aide à la décision pour la douleur au genou (12 ans et plus). Le clinicien coche l'anamnèse et
+l'examen pendant la visite ; la page calcule le diagnostic différentiel, affiche les alertes (Ottawa, drapeaux rouges), la
+conduite, et rédige une note en texte brut à coller au dossier. Rien n'est transmis ni conservé. Page non indexée, absente
+du plan du site et de l'accueil.
+
+- `locomoteur/moteur.js` : moteur commun à toutes les articulations (probabilité de départ selon l'âge exact et le sexe,
+  rapports de vraisemblance, groupes de tests qui se recoupent, concurrence entre diagnostics, règles, note, consignes).
+- `locomoteur/genou/donnees-genou.js` : questions, diagnostics, poids, règles et conduite du genou. Une autre articulation
+  = un autre fichier de données et une page `locomoteur/<articulation>/index.html`.
+- `locomoteur/interface.js`, `locomoteur/locomoteur.css` : l'interface.
+
+**Aucun poids n'est validé.** Chaque poids a un statut : `provisoire` (estimation clinique), `a_verifier` (valeur publiée
+citée de mémoire, avec une piste), `verifie` (confirmé dans l'article), `valide` (approuvé par le clinicien). Pour valider un
+diagnostic : section « Sources et validation » de la page, « Copier la consigne OpenEvidence », la coller dans Claude in
+Chrome avec OpenEvidence ouvert ; le tableau rendu garde la clé de chaque poids (`question>diagnostic`), ce qui permet de
+reporter chaque chiffre dans le fichier de données après vérification dans l'article.
+
+Le scénario `locomoteur` de `tests/site.test.mjs` vérifie un cas complet (adolescente, syndrome fémoro-patellaire).
+
 ## Recherche de l'accueil
 
 `morand/recherche.js` cherche dans les données déjà publiées des outils (`guides/donnees.json`,
