@@ -6,6 +6,8 @@
   const { o, m, ouiNon, choix, multi, nombre, texte, caseQ } = window.Locomoteur.outils;
   const DEPUIS = { lt7: "depuis moins de 7 jours", s1_6: "depuis 1 à 6 semaines", s6_12: "depuis 6 semaines à 3 mois", gt3m: "depuis plus de 3 mois" };
 
+  // Remplace les effets d'options d'une liste à cocher : { option: [effets complets { dx, rvp, rvn | se, sp, statut, piste }] }.
+  const surcharger = (rv, q) => { if (!rv) return q; for (const [opt, liste] of Object.entries(rv)) { q.effets = q.effets.filter(e => !(e.opt === opt && liste.some(x => x.dx === e.dx))).concat(liste.map(e => ({ g: "atcd-rhumato", ...e, opt }))); } return q; };
   const C = {
     /* Identification */
     visite: () => choix("visite", "Visite", [o("initiale", "Première visite", {}, { n: "" }), o("suivi", "Suivi", {}, { n: "" })], { info: "En suivi, la note titre « Évolution depuis la dernière visite » et la raison de consultation commence par « Suivi »." }),
@@ -54,7 +56,7 @@
     nil: () => caseQ("atcd_nil", "Aucun antécédent (Nil)", { n: "Nil" }),
     /* « autres » : { cristaux: id du diagnostic goutte/chondrocalcinose, septique: id de l'arthrite septique } ; sans eux,
        goutte et pseudogoutte comptent pour « dx ». PAR connue → arthrite septique : Margaretten et coll., 2007 (JAMA). */
-    atcdRhumato: (dx = "arthrite", forts = 4, moyens = 2.5, autres = {}) => multi("atcd_rhumato", "ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique", [
+    atcdRhumato: (dx = "arthrite", forts = 4, moyens = 2.5, autres = {}) => surcharger(autres.rv, multi("atcd_rhumato", "ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique", [
       m("aucun", "Aucun", {}, { exclusif: true }),
       m("uveite", "Uvéite", { [dx]: { rvp: moyens, rvn: 1 } }), m("psoriasis", "Psoriasis", { [dx]: { rvp: moyens, rvn: 1 } }),
       m("synovite", "Synovite", { [dx]: { rvp: 3, rvn: 1 } }), m("mii", "MII", { [dx]: { rvp: moyens, rvn: 1 } }),
@@ -64,7 +66,7 @@
         piste: "Margaretten et coll., 2007, JAMA (examen clinique rationnel) : PAR connue, RV+ 2,5, RV− 0,45" } } : {}) }),
       m("spa", "Spondylarthrite", { [dx]: { rvp: 3, rvn: 1 } }),
       m("infection", "Infection récente (urinaire, génitale, digestive)", { [dx]: { rvp: moyens, rvn: 1 } }),
-    ], { court: "ATCD", g: "atcd-rhumato", aucun: "Pas d'ATCD d'uvéite / psoriasis / synovite / MII", gabarit: "ATCD de {v}" }),
+    ], { court: "ATCD", g: "atcd-rhumato", aucun: "Pas d'ATCD d'uvéite / psoriasis / synovite / MII", gabarit: "ATCD de {v}" })),
     atcdFamiliaux: (effets) => ouiNon("atcd_familiaux", "ATCD familial de maladie rhumatologique", { oui: "ATCD familial de maladie rhumatologique",
       non: "Pas d'ATCD familial de maladie rhumatologique", effets }),
     rx: () => texte("rx", "Rx (médicaments)", { gabarit: "Rx : {v}" }),
@@ -112,8 +114,8 @@
 
     /* Drapeaux rouges (négatifs regroupés en fin d'HMA) */
     fievre: (effets) => ouiNon("fievre", "Fièvre ou frissons", { oui: "fièvre ou frissons", nie: "fièvre", drapeau: true, effets }),
-    symptGeneraux: () => ouiNon("sympt_generaux", "Perte de poids, sueurs nocturnes ou fatigue inexpliquées", { oui: "atteinte de l'état général", nie: "atteinte de l'état général", drapeau: true }),
-    cancer: () => ouiNon("atcd_cancer", "Antécédent de cancer", { oui: "ATCD de cancer", nie: "ATCD de cancer", drapeau: true }),
+    symptGeneraux: (effets) => ouiNon("sympt_generaux", "Perte de poids, sueurs nocturnes ou fatigue inexpliquées", { oui: "atteinte de l'état général", nie: "atteinte de l'état général", drapeau: true, effets }),
+    cancer: (effets) => ouiNon("atcd_cancer", "Antécédent de cancer", { oui: "ATCD de cancer", nie: "ATCD de cancer", drapeau: true, effets }),
     /* « septique » : id de l'arthrite septique, si la région la calcule (diabète : Margaretten et coll., 2007). */
     risqueInfection: (ajouts = [], septique = null) => multi("risque_infection", "Facteurs de risque d'infection", [m("aucun", "Aucun", {}, { exclusif: true }),
       m("immuno", "Immunosuppression ou diabète", septique ? { [septique]: { rvp: 2.7, rvn: 1, statut: "verifie", piste: "Margaretten et coll., 2007, JAMA : diabète, Se 12 %, Sp 96 %, RV+ 2,7" } } : {}, { n: "immunosuppression ou diabète" }),
