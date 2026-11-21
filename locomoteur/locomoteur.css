@@ -220,7 +220,7 @@ button, select, input, textarea { font: inherit; color: inherit; }
 .lo-fiche-stats dd span { color: var(--discret); }
 
 /* Accueil de l'outil : sceau, nom, régions */
-.sceau { display: block; width: clamp(112px, 16vw, 150px); height: auto; margin: 0 auto; overflow: visible; }
+.sceau { display: block; width: clamp(128px, 18vw, 168px); height: auto; margin: 0 auto; border-radius: 50%; }
 .s-trait { fill: none; stroke: var(--or); stroke-linecap: round; stroke-linejoin: round; }
 .s-fond { fill: var(--papier); }
 .s-titre { font: 500 15px var(--serif); letter-spacing: 0.2em; fill: var(--or-texte); }
