@@ -20,8 +20,12 @@
     dominance: (libelle = "Dominance podale") => choix("lateralite", libelle, [o("D", "Droitier"), o("G", "Gaucher"), o("A", "Ambidextre")],
       { info: "Pour la note seulement : aucune donnée ne la relie au diagnostic." }),
     // travail({ physique: {…}, ajouts: [o(…)] }) ; la précision écrite remplace l'option dans la note.
+    /* Options fixes (la question est commune à toutes les plaintes d'une consultation) : chaque région donne ses RV par option. */
     travail: (rv = {}) => choix("travail", "Occupation", [o("etudes", "Études", rv.etudes, { n: "étudiant{e}" }), o("bureau", "Travail de bureau ou sédentaire", rv.bureau, { n: "travail de bureau" }),
-      o("physique", "Travail physique", rv.physique, { n: "travail physique" }), ...(rv.ajouts || []), o("retraite", "Retraite ou sans emploi", rv.retraite, { n: "retraité{e}" })],
+      o("physique", "Travail physique (charges, manutention)", rv.physique, { n: "travail physique" }), o("genoux", "Travail à genoux (plancher, toiture, plomberie…)", rv.genoux, { n: "travail à genoux" }),
+      o("debout", "Debout toute la journée (commerce, usine, soins)", rv.debout, { n: "travail debout" }),
+      o("manuel", "Gestes répétitifs des mains ou bras au-dessus des épaules", rv.manuel, { n: "travail manuel répétitif" }),
+      o("retraite", "Retraite ou sans emploi", rv.retraite, { n: "retraité{e}" })],
       { court: "Occupation", precision: "travail_precision" }),
     travailPrecision: () => texte("travail_precision", "Occupation : précisions (métier, tâches physiques)", { court: "Occupation", precise: true }),
     /* Activités physiques : plusieurs choix possibles. Les sports qui pointent vers le même diagnostic ne comptent qu'une
@@ -40,6 +44,10 @@
       aide: "Plusieurs choix possibles", info: "Le type de sport oriente : pivot et saut (ligaments, ménisques, tendon rotulien), course et vélo (bandelette, fémoro-patellaire), contact (ligaments collatéraux). Si plusieurs sports pointent vers le même diagnostic, un seul compte. Les précisions (niveau, position, volume) vont dans le champ suivant." }),
     sportPrecision: () => texte("sport_precision", "Sports et loisirs : précisions (activité, niveau, position, volume)", { court: "Sports et loisirs", precise: true,
       aide: "Ex. « soccer AA, milieu de terrain, 3 entraînements/semaine ». Le premier élément sert aussi à l'impression." }),
+    /* Habitudes de vie (communes à la consultation). */
+    hdv: () => [choix("tabac", "Tabac", [o("non", "Non-fumeur", {}, { n: "non-fumeur{e}" }), o("actuel", "Fumeur", {}, { n: "tabagisme actif" }), o("ancien", "Ancien fumeur", {}, { n: "ancien{ne} fumeur{e}" })],
+        { court: "Tabac" }),
+      texte("alcool_drogues", "Alcool, cannabis ou autres drogues", { court: "ROH et drogues" })],
     administratif: () => texte("administratif", "Contexte (CNESST, SAAQ, arrêt de travail, attentes)", { court: "Contexte" }),
 
     /* Antécédents : « Nil », dépistage rhumatologique écrit en phrases. */
@@ -229,6 +237,15 @@
   C.mesuresAideMemoire = (cle, titre = "Bloc commun (aide-mémoire, Québec)") => {
     const A = (window.Locomoteur.aideMemoire || {})[cle];
     return A && A.commun.length ? [{ titre, items: A.commun.filter(t => !/^†/.test(t)).map(t => ({ t })) }] : [];
+  };
+  /* Questions communes à toutes les plaintes d'une consultation (même réponse pour chaque région) et section où elles
+     s'affichent. Les investigations et le plan sont communs en entier ; les autres questions sont propres à chaque plainte. */
+  C.PARTAGES = {
+    identification: ["visite", "sexe", "age", "accompagne", "refere", "lateralite", "administratif"],
+    hdv: ["travail", "travail_precision", "sport", "sport_precision", "tabac", "alcool_drogues"],
+    atcd: ["atcd_nil", "atcd_msk", "atcd_medicaux", "obesite", "diabete", "osteoporose", "fluoro_cortico", "rx", "atcd_autres", "atcd_familiaux", "atcd_rhumato"],
+    drapeaux: ["fievre", "sympt_generaux", "atcd_cancer"],
+    fonctionnel: ["posture", "arches", "demarche", "talons_pointes", "trendelenburg", "squat_bi", "duck_walk", "squat_uni", "appui_uni", "saut_bi", "saut_uni", "pointe_uni"],
   };
   window.Locomoteur.commun = C;
 })();

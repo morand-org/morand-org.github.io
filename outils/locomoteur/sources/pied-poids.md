@@ -13,7 +13,7 @@ Repères publiés : 3,83/1 000 p-a en médecine générale, pic à 45–64 ans ;
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
 | `cote>fasciite` | Pied atteint | — | — | Les deux 1,3 | provisoire | — |
-| `travail>fasciite` | Occupation | — | — | Travail physique 1,3 ; Debout toute la journée (commerce, usine, soins) 1,5 | provisoire | — |
+| `travail>fasciite` | Occupation | — | — | Travail physique (charges, manutention) 1,3 ; Debout toute la journée (commerce, usine, soins) 1,5 | provisoire | — |
 | `sport.marche>fasciite` | Activités physiques : Marche ou randonnée | — | — | 1,3 / 1 | provisoire | — |
 | `sport.course>fasciite` | Activités physiques : Course à pied | — | — | 1,8 / 1 | provisoire | — |
 | `obesite>fasciite` | Obésité (IMC 30 ou plus) | — | — | 1,8 / 0,8 | provisoire | — |
@@ -157,7 +157,7 @@ Repères publiés : 13–36 % des adultes (donnée faible) (A, C).
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
 | `cote>metatarsalgie` | Pied atteint | — | — | Les deux 1,5 | provisoire | — |
-| `travail>metatarsalgie` | Occupation | — | — | Travail physique 1,2 ; Debout toute la journée (commerce, usine, soins) 1,3 | provisoire | — |
+| `travail>metatarsalgie` | Occupation | — | — | Travail physique (charges, manutention) 1,2 ; Debout toute la journée (commerce, usine, soins) 1,3 | provisoire | — |
 | `sport.marche>metatarsalgie` | Activités physiques : Marche ou randonnée | — | — | 1,1 / 1 | provisoire | — |
 | `duree>metatarsalgie` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; Plus de 3 mois 2 | provisoire | — |
 | `apparition>metatarsalgie` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,3 ; Graduel 2 ; Insidieux 2 | provisoire | — |

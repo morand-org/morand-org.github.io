@@ -362,7 +362,7 @@ Repères publiés : 3,3–10 % (données faibles) ; environ 10 % chez le sujet �
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
 | `cote>tibpost` | Cheville atteinte | — | — | Les deux 1,3 | provisoire | — |
-| `travail>tibpost` | Occupation | — | — | Travail physique 1,1 | provisoire | — |
+| `travail>tibpost` | Occupation | — | — | Travail physique (charges, manutention) 1,1 | provisoire | — |
 | `sport.marche>tibpost` | Activités physiques : Marche ou randonnée | — | — | 1,2 / 1 | provisoire | — |
 | `obesite>tibpost` | Obésité (IMC 30 ou plus) | — | — | 2 / 0,8 | provisoire | — |
 | `duree>tibpost` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; Plus de 3 mois 2 | provisoire | — |
@@ -396,7 +396,7 @@ Repères publiés : Symptomatique chez 3,4 % après 50 ans, souvent post-traumat
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
 | `cote>arthrose` | Cheville atteinte | — | — | Les deux 1,2 | provisoire | — |
-| `travail>arthrose` | Occupation | — | — | Travail physique 1,1 | provisoire | — |
+| `travail>arthrose` | Occupation | — | — | Travail physique (charges, manutention) 1,1 | provisoire | — |
 | `sport.marche>arthrose` | Activités physiques : Marche ou randonnée | — | — | 1,1 / 1 | provisoire | — |
 | `atcd_entorses>arthrose` | Entorses antérieures de cette cheville | — | — | 1,8 / 0,9 | provisoire | — |
 | `obesite>arthrose` | Obésité (IMC 30 ou plus) | — | — | 1,3 / 0,9 | provisoire | — |

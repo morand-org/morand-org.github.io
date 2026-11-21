@@ -23,7 +23,7 @@
 <script src="/locomoteur/genou/donnees-genou.js" defer></script>
 <script src="/locomoteur/interface.js" defer></script>
 </head>
-<body class="lo-outil" data-articulation="genou">
+<body class="lo-outil" data-articulation="genou" data-regions="genou,cheville,pied">
 <a class="saut" href="#lo-form">Aller au questionnaire</a>
 <header class="cr-tete">
   <a class="cr-marque" href="/">Morand</a>
@@ -48,7 +48,7 @@
     <a class="cr-vue" href="/locomoteur/genou/" aria-current="page">Genou</a>
   </nav>
   <p class="lo-avis"><strong>Prototype : une partie des poids est vérifiée dans la littérature (document OpenEvidence), le reste demeure provisoire.</strong>
-    Rien n'est transmis ni conservé : les réponses restent dans la page et s'effacent à sa fermeture. Une réponse laissée vide, « N/A » ou « Équivoque » ne compte pas.</p>
+    Rien n'est transmis. Les réponses restent dans la page ; « Patients » les sauvegarde dans ce navigateur seulement, sans chiffrement : inscrire des initiales ou un numéro, jamais le nom. Une réponse laissée vide, « N/A » ou « Équivoque » ne compte pas.</p>
 
   <nav class="lo-nav" id="lo-nav" aria-label="Sections du questionnaire"></nav>
   <p class="lo-legende">Trait doré : la réponse compte dans le calcul des probabilités.</p>
@@ -67,9 +67,7 @@
         <button type="button" class="cr-vue" role="tab" id="t-note" aria-controls="p-note" aria-selected="false" tabindex="-1">Note</button>
       </div>
       <div class="lo-panneau" id="p-dx" role="tabpanel" aria-labelledby="t-dx">
-        <div id="lo-alertes"></div>
-        <ol class="lo-dx" id="lo-dx"></ol>
-        <button type="button" class="lo-lien" id="lo-tous" hidden></button>
+        <div id="lo-dx-regions"></div>
       </div>
       <div class="lo-panneau" id="p-conduite" role="tabpanel" aria-labelledby="t-conduite" hidden>
         <div id="lo-conduite"></div>
@@ -93,6 +91,7 @@
       <p><strong>Statut des poids.</strong> <em>Provisoire</em> : estimation clinique, en attente de données. <em>À vérifier</em> : valeur publiée citée de mémoire. <em>Vérifié</em> : chiffre tiré d'une étude identifiée (auteur, année, PMID). <em>Validé</em> : approuvé par le clinicien. Les règles de décision (Ottawa) et les drapeaux rouges sont hors du calcul : ils s'affichent comme alertes.</p>
       <p><strong>Limites.</strong> Le calcul suppose que les réponses sont indépendantes, ce qui surestime parfois les probabilités ; les études portent surtout sur des adultes, souvent en orthopédie ; les fréquences de départ restent des estimations guidées par les fréquences publiées (affichées comme repères dans le tableau), car aucune étude ne donne la probabilité de chaque diagnostic selon l'âge et le sexe chez les patients qui consultent. L'outil aide à raisonner : il ne remplace pas le jugement clinique.</p>
     </div>
+    <p id="lo-src-conduite"></p>
     <p class="lo-stats" id="lo-stats"></p>
     <div class="lo-src-outils">
       <label for="lo-src-dx">Diagnostic</label>
@@ -109,6 +108,20 @@
   </details>
 </main>
 <footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
+
+<dialog class="lo-fiche lo-patients" id="lo-patients" aria-labelledby="lo-patients-titre">
+  <button type="button" class="lo-fiche-fermer" aria-label="Fermer la liste des patients">Fermer</button>
+  <div class="lo-fiche-corps">
+    <h2 id="lo-patients-titre">Patients</h2>
+    <p class="lo-discret">Sauvegardés dans ce navigateur seulement, sans chiffrement ni transmission. Inscrire des initiales ou un numéro de dossier, jamais le nom. <span id="lo-patients-compte"></span>.</p>
+    <form class="lo-patients-form" id="lo-patients-form" novalidate>
+      <label for="lo-etiquette">Identifiant de la consultation en cours</label>
+      <span class="lo-patients-ligne"><input type="text" id="lo-etiquette" maxlength="24" autocomplete="off" placeholder="Ex. AB-1234"><button type="submit" class="lo-bouton">Sauvegarder</button></span>
+    </form>
+    <ul class="lo-patients-liste" id="lo-patients-liste"></ul>
+    <button type="button" class="lo-lien" id="lo-patients-effacer">Effacer tous les patients</button>
+  </div>
+</dialog>
 
 <dialog class="lo-fiche" id="lo-fiche" aria-label="Fiche">
   <button type="button" class="lo-fiche-fermer" aria-label="Fermer la fiche">Fermer</button>

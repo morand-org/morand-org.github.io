@@ -219,9 +219,9 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 @media (min-width: 760px) { .lo-nav { flex-wrap: wrap; overflow: visible; } }
 
 /* Bouton « i » (pâle) et panneau d'information sous la question */
-.lo-q-tete { display: flex; align-items: baseline; gap: 8px; }
-.lo-info { flex: none; display: inline-grid; place-items: center; width: 20px; height: 20px; padding: 0; border: 1px solid var(--filet); border-radius: 50%; background: transparent;
-  color: var(--discret); font: italic 600 0.74rem/1 var(--serif); cursor: pointer; opacity: .75; }
+.lo-q-tete { display: flex; align-items: center; gap: 8px; }
+.lo-info { flex: none; position: relative; display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; padding: 0; border: 1px solid var(--filet);
+  border-radius: 50%; background: transparent; color: var(--discret); font: 700 11px/1 var(--sans); font-style: normal; text-align: center; cursor: pointer; opacity: .75; }
 .lo-info:hover, .lo-info[aria-expanded="true"] { opacity: 1; border-color: var(--or); color: var(--or-texte); }
 .lo-info:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
 .lo-info-panneau { flex: 1 1 100%; margin: 4px 0 2px; padding: 10px 12px; border-left: 2px solid var(--or); border-radius: 0 10px 10px 0; background: color-mix(in srgb, var(--beige) 60%, var(--carte));
@@ -236,3 +236,49 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .lo-q-large .lo-info-panneau { order: 3; }
 .lo-src { display: block; margin-top: 1px; font-size: 0.74rem; color: var(--discret); }
 .lo-c-mesures { margin-top: 16px; }
+
+/* Consultation à plusieurs plaintes : choix des régions, plainte et examen de région dépliables, résultats par plainte. */
+.lo-plaintes { margin: 6px 0 12px; }
+.lo-plaintes .lo-puce:disabled { opacity: .45; cursor: default; border-style: dashed; }
+.lo-plaintes .lo-puce[aria-busy="true"] { opacity: .7; }
+details.lo-section > summary, .lo-ex-region > summary { display: flex; align-items: center; justify-content: space-between; gap: 10px; list-style: none; cursor: pointer; }
+details.lo-section > summary::-webkit-details-marker, .lo-ex-region > summary::-webkit-details-marker { display: none; }
+details.lo-section > summary::after, .lo-ex-region > summary::after { content: ""; flex: none; width: 9px; height: 9px; margin-right: 4px; border-right: 2px solid var(--discret);
+  border-bottom: 2px solid var(--discret); transform: rotate(45deg) translateY(-3px); transition: transform .15s; }
+details[open].lo-section > summary::after, .lo-ex-region[open] > summary::after { transform: rotate(-135deg) translateY(-1px); }
+details.lo-section > summary h2 { margin: 0 0 4px; }
+.lo-plainte { border-left: 3px solid var(--or); }
+.lo-ex-region { margin: 10px 0 4px; padding-top: 6px; border-top: 1px solid var(--filet); }
+.lo-ex-region > summary { padding: 8px 0; }
+.lo-ex-region > summary h3 { margin: 0; font: 400 1.1rem/1.2 var(--serif); color: var(--encre); }
+.lo-dx-region + .lo-dx-region { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--filet); }
+.lo-c-plainte { margin-top: 18px; font-size: 0.8rem; color: var(--or-texte); }
+.lo-c-plainte:first-child { margin-top: 4px; }
+.lo-tous { display: block; }
+/* Patients sauvegardés */
+.lo-patients-form { display: grid; gap: 6px; margin: 12px 0; }
+.lo-patients-form label { font-size: 0.86rem; font-weight: 600; }
+.lo-patients-ligne { display: flex; flex-wrap: wrap; gap: 8px; }
+.lo-patients-ligne input { flex: 1 1 160px; min-width: 0; min-height: 40px; padding: 8px 12px; border: 1px solid var(--filet); border-radius: 10px; background: var(--papier); color: var(--encre); font: inherit; }
+.lo-patients-ligne input:focus-visible { outline: 2px solid var(--or); outline-offset: 1px; }
+.lo-patients-liste { margin: 0; padding: 0; list-style: none; }
+.lo-patients-liste li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; padding: 8px 0; border-top: 1px solid var(--filet); font-size: 0.9rem; }
+.lo-patients-actions { display: flex; gap: 14px; }
+.lo-patients-actions .lo-lien { margin: 0; padding: 4px 0; }
+.lo-nouveau + .lo-nouveau { margin-left: 0; }
+.lo-nouveau.lo-secondaire { background: var(--carte); color: var(--encre); }
+.lo-nouveau.lo-secondaire:hover { background: var(--beige); border-color: var(--encre); color: var(--encre); }
+/* Examen : parties dépliables */
+.lo-bloc-depliable > summary { display: flex; align-items: center; gap: 10px; padding: 12px 0 6px; list-style: none; cursor: pointer; }
+.lo-bloc-depliable > summary::-webkit-details-marker { display: none; }
+.lo-bloc-depliable > summary h3 { margin: 0; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--discret); }
+.lo-bloc-depliable > summary::after { content: ""; margin-left: auto; width: 8px; height: 8px; border-right: 2px solid var(--discret); border-bottom: 2px solid var(--discret);
+  transform: rotate(45deg) translateY(-2px); transition: transform .15s; }
+.lo-bloc-depliable[open] > summary::after { transform: rotate(-135deg); }
+.lo-bloc-depliable > summary:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+.lo-bloc-outils { margin-top: 0; }
+/* Résultats : groupes et éléments clés */
+.lo-dx-groupe { margin: 12px 0 2px; font: 600 0.68rem/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--or-texte); }
+.lo-dx-groupe:first-child { margin-top: 2px; }
+.lo-dx-cles { display: flex; flex-wrap: wrap; gap: 2px 10px; margin-top: 4px; font-size: 0.78rem; color: var(--encre-2); }
+.lo-dx-cles [data-sens="bas"] { color: var(--discret); }
