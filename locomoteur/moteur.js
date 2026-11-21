@@ -76,6 +76,7 @@
       for (const k of g.couvre) if (!d.parQ[k] && !d.questions.some(q => q.effets.some(e => e.g === k))) throw new Error(`Grappe ${g.id} : « ${k} » n'est ni une question ni un groupe`);
       g.statut = g.statut || "provisoire"; g.cle = `grappe:${g.id}>${g.dx}`; g.grappe = true;
     }
+    if (d.residuel) { if (d.parDx[d.residuel.id]) throw new Error(`Reste en double : ${d.residuel.id}`); d.residuel.residuel = true; }
     for (const [id, en] of Object.entries(d.anglais || {})) { if (!d.parDx[id]) throw new Error(`Nom anglais pour un diagnostic inconnu : ${id}`); d.parDx[id].en = en; }
     for (const [id, c] of Object.entries(d.conduites || {})) { if (!d.parDx[id]) throw new Error(`Conduite pour un diagnostic inconnu : ${id}`); d.parDx[id].conduite = c; }
     // « infos » : textes du bouton « i » (pourquoi, comment, positif si, vidéo), tenus à part des questions.
@@ -211,7 +212,16 @@
       return { id, x: z.x, p: pr, bas: Math.min(pr, ...vals), haut: Math.max(pr, ...vals), categorie: categorie(pr), seul: sigm(z.lo + z.somme),
         explique: centre.par[id] ? d.parDx[centre.par[id]] : null, depart: depart.p[id], p0: z.p0, fs: z.fs, comptes: z.comptes,
         provisoires: z.comptes.filter(c => c.e.statut === "provisoire").length };
-    }).sort((a, b) => b.p - a.p);
+    });
+    /* Reste : « douleur non spécifique », probabilité qu'aucun diagnostic de la liste ne soit en cause, soit le produit des
+       (1 − p). Il monte quand les éléments spécifiques sont absents ou négatifs. Affiché après 6 réponses qui comptent. */
+    const comptees = Object.keys(rep).filter(k => d.parQ[k] && d.parQ[k].effets.length).length;
+    if (d.residuel && comptees >= 6) {
+      const reste = s => d.diagnostics.reduce((t, x) => t * (1 - s.p[x.id]), 1), pr = reste(centre), vals = extremes.map(reste);
+      diagnostics.push({ id: d.residuel.id, x: d.residuel, p: pr, bas: Math.min(pr, ...vals), haut: Math.max(pr, ...vals), categorie: categorie(pr), seul: pr,
+        explique: null, depart: reste(depart), p0: null, fs: 1, comptes: [], provisoires: 0, residuel: true });
+    }
+    diagnostics.sort((a, b) => b.p - a.p);
     const alertes = [];
     for (const regle of d.regles || []) {
       const a = regle(L, rep);
@@ -410,7 +420,7 @@
     for (const x of ro) imp.push(`- ${maj(x)} à R/O`);
     // Envisagés puis écartés : probabilité de départ d'au moins 5 %, moins de 5 % après l'anamnèse et l'examen (assez de réponses).
     if (res.saisies >= 15) {
-      const ecartes = diagnostics.filter(x => x.depart >= 0.05 && x.p < 0.05).map(x => x.x.n);
+      const ecartes = diagnostics.filter(x => !x.residuel && x.depart >= 0.05 && x.p < 0.05).map(x => x.x.n);
       if (ecartes.length) imp.push(`- Pas d'évidence ${/^[aeiouyéèêàâîïôûœh]/i.test(ecartes[0]) ? "d'" : "de "}${ecartes.length < 2 ? ecartes[0] : `${ecartes.slice(0, -1).join(", ")} ni ${ecartes[ecartes.length - 1]}`}`);
     }
     for (const x of lignes(rep.impression_precisions || "")) imp.push(`- ${maj(x)}`);

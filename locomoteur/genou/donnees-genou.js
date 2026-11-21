@@ -409,6 +409,13 @@
       { id: "insuff", nom: "Fracture sous-chondrale d'insuffisance", n: "fracture sous-chondrale d'insuffisance", base: [[12, .0005], [45, .002], [60, .012], [75, .03], [90, .04]],
         sexe: { F: 1.6, M: .65 }, fiches: ["50plus-67", "50plus-70"], repere: "3,29 % des IRM du genou ; âge moyen 65 ans ; surtout chez la femme (C186–187)" },
     ],
+    /* Reste calculé : aucun diagnostic précis (voir le moteur). Pas d'entité « gonalgie non spécifique » dans le document. */
+    residuel: { id: "nonspec", nom: "Douleur non spécifique (aucun diagnostic précis)", n: "gonalgie non spécifique",
+      explication: "Probabilité qu'aucun des diagnostics de la liste ne soit en cause : elle monte quand les éléments spécifiques sont absents ou négatifs. Penser aussi à une douleur référée (hanche, lombaire).",
+      conduite: [
+        { t: "Rassurer : pas de lésion précise retrouvée ; réévaluer si la douleur persiste ou change" },
+        { t: "Mesures générales : dosage de la charge, exercices de renforcement de la hanche et du genou, analgésie de base en cure courte", src: "Collins et coll., 2018, BJSM" },
+        { t: "Revoir dans 4–6 sem ; examiner la hanche et la colonne lombaire (douleur référée) ; imagerie seulement si la douleur persiste ou si un drapeau rouge apparaît" }] },
     /* Diagnostics qui coexistent souvent : ils ne se font pas concurrence (les autres, oui ; voir le moteur). Provisoire. */
     compatibles: [["lca", "menisque"], ["lca", "collat"], ["menisque", "collat"], ["lca", "lcp"], ["lcp", "collat"], ["arthrose", "menisque"], ["arthrose", "baker"], ["menisque", "baker"],
       ["arthrose", "poie"], ["arthrose", "arthrite"], ["arthrite", "baker"], ["sfp", "bit"], ["rotule", "sfp"], ["sfp", "hoffa"], ["tendino", "hoffa"], ["arthrose", "insuff"],

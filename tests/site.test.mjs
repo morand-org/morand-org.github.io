@@ -365,9 +365,21 @@ async function locomoteur(nav) {
     const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/", { largeur: 390 });
     const r = await p.evaluate(() => ({ titre: document.querySelector("h1").textContent, liens: [...document.querySelectorAll("a.lo-region")].map(a => a.getAttribute("href")),
       regions: document.querySelectorAll(".lo-region").length }));
-    verifier("MSK Morand : l'accueil liste 9 régions, le genou est ouvert", r.titre === "MSK Morand" && r.regions === 9 && r.liens.join() === "/locomoteur/genou/", r);
+    verifier("MSK Morand : l'accueil liste 9 régions, dont le genou", r.titre === "MSK Morand" && r.regions === 9 && r.liens.includes("/locomoteur/genou/"), r);
     verifier("MSK Morand : accueil sans erreur", erreurs.length === 0, erreurs);
     await ctx.close();
+    // Chaque région ouverte : la page se charge sans erreur, calcule, rédige la note et ne déborde pas à 390 px.
+    for (const lien of r.liens.filter(l => l !== "/locomoteur/genou/")) {
+      const { ctx: c2, p: p2, erreurs: e2 } = await ouvrir(nav, lien, { largeur: 390 });
+      const clic = async (q, v) => (await p2.locator(`select[data-q="${q}"]`).count()) ? p2.selectOption(`select[data-q="${q}"]`, v) : p2.click(`button[data-q="${q}"][data-v="${v}"]`);
+      await clic("sexe", "M"); await p2.fill("#c-age", "40"); await clic("apparition", "graduel"); await clic("duree", "gt3m");
+      for (const b of await p2.locator("button[data-normal]").all()) { if (await b.isVisible()) await b.click(); }
+      await p2.waitForTimeout(150);
+      const x = await p2.evaluate(() => ({ dx: document.querySelectorAll("#lo-dx .lo-dx-item").length, note: document.querySelector("#lo-note").value,
+        deborde: document.documentElement.scrollWidth > innerWidth + 1, conduite: document.querySelector("#lo-conduite").textContent.length }));
+      verifier(`MSK ${lien} : diagnostics, conduite et note sans erreur ni débordement`, x.dx >= 5 && x.note.startsWith("IDENTIFICATION :") && x.conduite > 50 && !x.deborde && e2.length === 0, { ...x, note: x.note.slice(0, 80), e2 });
+      await c2.close();
+    }
   }
   for (const largeur of [390, 1280]) {
     const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur, hauteur: largeur > 1000 ? 900 : 844 });

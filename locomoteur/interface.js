@@ -197,10 +197,11 @@
         <span class="lo-jauge" aria-hidden="true"><span class="lo-jauge-plage"></span><span class="lo-jauge-val"></span></span>
         <span class="lo-dx-ligne lo-dx-sous"><span class="lo-dx-cat">${x.categorie[1]}</span><span>fourchette ${pct(x.bas)} à ${pct(x.haut)}</span></span></summary>
       <div class="lo-pourquoi">
-        <p>Départ (${esc(departTexte(res))}) : ${pctExact(x.depart)}.</p>
+        ${x.residuel ? `<p>${esc(x.x.explication || "Probabilité qu'aucun des diagnostics de la liste ne soit en cause : elle monte quand les éléments spécifiques sont absents ou négatifs.")}</p>`
+          : `<p>Départ (${esc(departTexte(res))}) : ${pctExact(x.depart)}.</p>`}
         ${x.explique ? `<p>Pris seul : ${pct(x.seul)}. ${esc(x.explique.nom)}, plus probable, explique déjà une partie de ces éléments.</p>` : ""}
         ${x.comptes.length ? `<ul>${x.comptes.slice(0, 10).map(c => `<li><span class="lo-fleche" data-sens="${c.l > 0 ? "haut" : "bas"}">${c.l > 0 ? "↑" : "↓"} ×${nb(c.rv)}</span><span>${esc(c.libelle)}</span><span class="lo-statut" data-statut="${c.e.statut}">${LO.STATUTS[c.e.statut]}</span></li>`).join("")}</ul>`
-          : "<p>Aucune réponse ne change encore ce diagnostic.</p>"}
+          : x.residuel ? "" : "<p>Aucune réponse ne change encore ce diagnostic.</p>"}
         ${(x.x.fiches || []).length ? `<p class="lo-fiches">${x.x.fiches.map(id => `<button type="button" class="lo-lien" data-fiche="${esc(id)}">Fiche ${id.startsWith("athlete") ? "athlète" : "50 ans et plus"}</button>`).join("")}</p>` : ""}
         ${x.comptes.length > 10 ? `<p class="lo-discret">Et ${x.comptes.length - 10} autre${x.comptes.length - 10 > 1 ? "s" : ""} élément${x.comptes.length - 10 > 1 ? "s" : ""} de moindre poids.</p>` : ""}
       </div></details></li>`).join("");
@@ -343,5 +344,6 @@
   $("#lo-consigne").addEventListener("click", e => copier(consigne(choixDx.value), e.currentTarget, "Questions copiées"));
 
   $("#lo-version").textContent = d.version;
+  if (d.sourcesConduite) $(".lo-sources-texte").insertAdjacentHTML("beforeend", `<p><strong>Conduite.</strong> Aide-mémoire de première ligne (Québec) du document OpenEvidence, à adapter au jugement clinique et aux corridors de services locaux. ${esc(d.sourcesConduite)}</p>`);
   construire(); statistiques(); tableau(); maj();
 })();
