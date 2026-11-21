@@ -16,7 +16,7 @@ const REGIONS = [
   { id: "hanche", nom: "Hanche", douleur: "Douleur à la hanche ou à l'aine", lead: "Douleur à la hanche, à l'aine ou à la fesse." },
   { id: "genou", nom: "Genou", douleur: "Douleur au genou", lead: "Douleur au genou." },
   { id: "cheville", nom: "Cheville", douleur: "Douleur à la cheville ou à la jambe", lead: "Douleur à la cheville ou à la jambe." },
-  { id: "pied", nom: "Pied", douleur: "Douleur au pied", lead: "Douleur au pied." },
+  { id: "pied", nom: "Pied", douleur: "Douleur au pied", lead: "Douleur au pied.", aides: ["cheville"] },
 ];
 // Nombre de diagnostics de chaque région prête (chargement des données dans Node).
 globalThis.window = globalThis;
@@ -25,7 +25,7 @@ for (const r of REGIONS) {
   const am = `locomoteur/${r.id}/aide-memoire-${r.id}.js`, dn = `locomoteur/${r.id}/donnees-${r.id}.js`;
   r.pret = fs.existsSync(path.join(RACINE, dn));
   if (!r.pret) continue;
-  if (fs.existsSync(path.join(RACINE, am))) new Function(lire(am))();
+  for (const a of [r.id, ...(r.aides || [])]) { const f = `locomoteur/${a}/aide-memoire-${a}.js`; if (fs.existsSync(path.join(RACINE, f))) new Function(lire(f))(); }
   new Function(lire(dn))();
   r.nb = window.Locomoteur.donnees[r.id].diagnostics.length;
 }
@@ -37,7 +37,7 @@ for (const r of REGIONS.filter(x => x.pret && x.id !== "genou")) {
     .replace("<title>Genou | MSK Morand (prototype)</title>", `<title>${r.nom} | MSK Morand (prototype)</title>`)
     .replace("pour la douleur au genou : anamnèse", `pour la ${minu.replace(/^douleur /, "douleur ")} : anamnèse`)
     .replace('<script src="/locomoteur/genou/donnees-genou.js" defer></script>',
-      `<script src="/locomoteur/${r.id}/aide-memoire-${r.id}.js" defer></script>\n<script src="/locomoteur/${r.id}/donnees-${r.id}.js" defer></script>`)
+      [r.id, ...(r.aides || [])].map(a => `<script src="/locomoteur/${a}/aide-memoire-${a}.js" defer></script>\n`).join("") + `<script src="/locomoteur/${r.id}/donnees-${r.id}.js" defer></script>`)
     .replace('data-articulation="genou"', `data-articulation="${r.id}"`)
     .replace('<span class="cache"> : douleur au genou</span>', `<span class="cache"> : ${minu}</span>`)
     .replace("<p class=\"cr-lead\">Douleur au genou. Cochez", `<p class="cr-lead">${r.lead} Cochez`)
