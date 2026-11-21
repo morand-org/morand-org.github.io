@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>MSK Morand (prototype)</title>
-<!-- Prototype caché : absent du plan du site et de l'accueil, non indexé. Nom et sceau temporaires. -->
+<!-- Prototype caché : absent du plan du site et de l'accueil, non indexé. -->
 <meta name="robots" content="noindex,nofollow">
 <meta name="description" content="Prototype d'aide à la décision pour les consultations musculosquelettiques : anamnèse et examen guidés, diagnostic différentiel, alertes, conduite et note pour le dossier.">
 <meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
@@ -26,18 +26,9 @@
 
 <main class="lo-cadre">
   <section class="lo-sceau-bloc">
-    <svg class="sceau" viewBox="0 0 200 200" role="img" aria-label="Sceau de MSK Morand">
-      <defs><path id="sceau-haut" d="M28 100 A72 72 0 0 1 172 100"/><path id="sceau-bas" d="M22 100 A78 78 0 0 0 178 100"/></defs>
-      <circle class="s-trait" cx="100" cy="100" r="96" stroke-width="1.8"/><circle class="s-trait" cx="100" cy="100" r="91" stroke-width=".7"/>
-      <circle class="s-trait" cx="100" cy="100" r="62" stroke-width=".7"/>
-      <text class="s-titre"><textPath href="#sceau-haut" startOffset="50%" text-anchor="middle">MSK ✦ MORAND</textPath></text>
-      <text class="s-devise"><textPath href="#sceau-bas" startOffset="50%" text-anchor="middle">ANAMNÈSE · EXAMEN · CONDUITE</textPath></text>
-      <text class="s-an" x="31" y="103" text-anchor="middle">20</text><text class="s-an" x="169" y="103" text-anchor="middle">26</text>
-      <g class="s-trait" stroke-width="1.6"><circle cx="100" cy="102" r="47"/><rect x="62" y="66" width="76" height="76"/>
-        <circle cx="100" cy="72" r="6.5"/><path d="M100 78.5 V117 M62 88 H138 M100 88 L66 70 M100 88 L134 70 M100 117 L86 141 M100 117 L114 141 M100 117 L74 136 M100 117 L126 136"/></g>
-    </svg>
+    <img class="sceau" src="/locomoteur/sceau-msk.webp" width="480" height="480" alt="Sceau de MSK Morand : un genou gravé, « Évaluation · Diagnostic · Conduite », 2026">
     <h1>MSK Morand</h1>
-    <p class="lo-devise">Anamnèse · Examen · Conduite</p>
+    <p class="lo-devise">Évaluation · Diagnostic · Conduite</p>
     <p class="lo-lead">Pendant la visite, on coche l'anamnèse et l'examen ; la page propose un diagnostic différentiel, signale les drapeaux rouges, suggère une conduite et rédige la note à coller au dossier.</p>
   </section>
 
@@ -59,7 +50,7 @@
 </main>
 
 <footer class="lo-pied">
-  <p>MSK Morand · prototype · nom et sceau temporaires · aide à la décision, ne remplace pas le jugement clinique · <a href="/confidentialite/">Confidentialité</a></p>
+  <p>MSK Morand · prototype · aide à la décision, ne remplace pas le jugement clinique · <a href="/confidentialite/">Confidentialité</a></p>
 </footer>
 </body>
 </html>
