@@ -23,8 +23,20 @@
       o("physique", "Travail physique", rv.physique, { n: "travail physique" }), ...(rv.ajouts || []), o("retraite", "Retraite ou sans emploi", rv.retraite, { n: "retraité" })],
       { court: "Occupation", precision: "travail_precision" }),
     travailPrecision: () => texte("travail_precision", "Occupation : précisions (métier, tâches physiques)", { court: "Occupation", precise: true }),
-    sport: (rv = {}) => choix("sport", "Activité physique", [o("aucun", "Peu ou pas de sport", rv.aucun, { n: "peu ou pas de sport" }), ...(rv.ajouts || []),
-      o("autre", "Autre activité", rv.autre, { n: "autre activité" })], { court: "Sports et loisirs", precision: "sport_precision" }),
+    /* Activités physiques : plusieurs choix possibles. Les sports qui pointent vers le même diagnostic ne comptent qu'une
+       fois (groupe « sport ») ; « Peu ou pas de sport » exclut les autres. rv : { activité: { diagnostic: RV } }. */
+    sport: (rv = {}) => multi("sport", "Activités physiques", [
+      ["aucun", "Peu ou pas de sport", "peu ou pas de sport"], ["marche", "Marche ou randonnée", "marche ou randonnée"], ["course", "Course à pied", "course à pied"],
+      ["velo", "Vélo", "vélo"], ["pivot", "Sports de pivot ou de saut (soccer, basketball, volleyball, handball…)", "sport de pivot ou de saut"],
+      ["raquette", "Sports de raquette (tennis, badminton, pickleball, squash)", "sport de raquette"],
+      ["contact", "Sports de contact ou de collision (hockey, football, rugby, combat)", "sport de contact"],
+      ["lancer", "Sports de lancer (baseball, softball, water-polo)", "sport de lancer"], ["glisse", "Ski ou planche", "ski ou planche"],
+      ["danse", "Danse, gymnastique ou cheerleading", "danse ou gymnastique"], ["muscu", "Musculation, haltérophilie ou CrossFit", "musculation"],
+      ["natation", "Natation", "natation"], ["escalade", "Escalade", "escalade"], ["golf", "Golf", "golf"], ["yoga", "Yoga ou Pilates", "yoga ou Pilates"],
+      ["autre", "Autre activité", "autre activité"],
+    ].map(([v, l, n]) => m(v, l, Object.fromEntries(Object.entries(rv[v] || {}).map(([dx, x]) => [dx, { rvp: x, rvn: 1 }])), { n, exclusif: v === "aucun" })),
+    { court: "Sports et loisirs", precision: "sport_precision", g: "sport", joint: " ; ", aucun: "Sports et loisirs : peu ou pas de sport",
+      aide: "Plusieurs choix possibles. Les précisions (niveau, position, volume) vont dans le champ suivant." }),
     sportPrecision: () => texte("sport_precision", "Sports et loisirs : précisions (activité, niveau, position, volume)", { court: "Sports et loisirs", precise: true,
       aide: "Ex. « soccer AA, milieu de terrain, 3 entraînements/semaine ». Le premier élément sert aussi à l'impression." }),
     administratif: () => texte("administratif", "Contexte (CNESST, SAAQ, arrêt de travail, attentes)", { court: "Contexte" }),

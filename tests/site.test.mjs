@@ -379,6 +379,13 @@ async function locomoteur(nav) {
     await clic("duree", "s6_12"); await clic("apparition", "graduel"); await p.click('button[data-q="localisation"][data-m="anterieure"]');
     await clic("escaliers", "oui"); await clic("assis", "oui"); await clic("derobade", "non"); await clic("enflure", "non"); await clic("fievre", "non");
     verifier(`Genou ${largeur} px : le mécanisme ne s'affiche qu'après un traumatisme`, await p.locator('[data-qid="mecanisme"]').isHidden());
+    verifier(`Genou ${largeur} px : en-tête, intro et pied de page des outils Morand`, await p.evaluate(() => !!document.querySelector(".cr-tete .cr-onglets a[aria-current='page'][href='/locomoteur/']")
+      && !!document.querySelector(".cr-intro .cr-nom") && document.querySelector(".cr-pied").textContent.includes("MMXXVI")));
+    verifier(`Genou ${largeur} px : les questions du calcul ont un trait doré, les autres non`, await p.evaluate(() =>
+      document.querySelector('[data-qid="lachman"]').classList.contains("lo-q-calcul") && !document.querySelector('[data-qid="ex_oedeme"]').classList.contains("lo-q-calcul")));
+    await p.click('button[data-q="sport"][data-m="danse"]'); await p.click('button[data-q="sport"][data-m="pivot"]');
+    verifier(`Genou ${largeur} px : plusieurs activités physiques à la fois`, (await p.locator('button[data-q="sport"][aria-pressed="true"]').count()) === 2);
+    verifier(`Genou ${largeur} px : pas de dominance au genou`, (await p.locator('[data-qid="lateralite"]').count()) === 0);
     // « Tout normal » remplit un bloc d'un clic (palpation), sans les points facultatifs.
     await p.click('[data-bloc="examen-3"] button[data-normal]');
     verifier(`Genou ${largeur} px : « Tout normal » remplit la palpation, sauf les points facultatifs`,
@@ -409,6 +416,8 @@ async function locomoteur(nav) {
     // Copier la note, puis la consigne de validation.
     await p.click("#t-note"); await p.click("#lo-copier"); await p.waitForTimeout(150);
     verifier(`Genou ${largeur} px : la note est copiée`, (await p.evaluate(() => navigator.clipboard.readText())).startsWith("IDENTIFICATION :"));
+    await p.click('#lo-nav a[href="#sources"]'); await p.waitForTimeout(100);
+    verifier(`Genou ${largeur} px : « Sources » ouvre « Sources et limites »`, await p.evaluate(() => document.getElementById("sources").open));
     await p.selectOption("#lo-src-dx", "lca"); await p.click("#lo-consigne"); await p.waitForTimeout(150);
     const c = await p.evaluate(() => navigator.clipboard.readText());
     verifier(`Genou ${largeur} px : la consigne de validation du LCA reprend chaque poids avec sa clé`, c.includes("Diagnostic à valider : Rupture du LCA") && c.includes("lachman>lca | Lachman") && c.includes("Se 81") && c.includes("PMID ou DOI"));
