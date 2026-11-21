@@ -344,5 +344,6 @@
   $("#lo-consigne").addEventListener("click", e => copier(consigne(choixDx.value), e.currentTarget, "Questions copiées"));
 
   $("#lo-version").textContent = d.version;
+  if (d.sourcesConduite) $(".lo-sources-texte").insertAdjacentHTML("beforeend", `<p><strong>Conduite.</strong> Aide-mémoire de première ligne (Québec) du document OpenEvidence, à adapter au jugement clinique et aux corridors de services locaux. ${esc(d.sourcesConduite)}</p>`);
   construire(); statistiques(); tableau(); maj();
 })();

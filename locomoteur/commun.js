@@ -113,7 +113,8 @@
       info: "Le risque d'arthrite septique augmente avec une prothèse, une chirurgie ou une infiltration récente, le diabète, l'immunosuppression, une PAR connue et l'âge de plus de 80 ans (Margaretten et coll., 2007)." }),
 
     /* Examen : fonctionnel (membre inférieur et bas du dos), en tête d'EXAMEN PHYSIQUE. */
-    fonctionnel: (rv = {}) => ({ titre: "Fonctionnel", tete: true, toutNormal: true, questions: [
+    /* opts.garder : identifiants des questions à garder (toutes par défaut) ; opts.ajouts : questions propres à la région. */
+    fonctionnel: (rv = {}, opts = {}) => ({ titre: "Fonctionnel", tete: true, toutNormal: true, questions: [
       choix("posture", "Posture", [o("normale", "Normale", {}, { n: "posture normale" }), o("valgus", "Genu valgum", rv.valgum, { n: "genu valgum" }),
         o("varus", "Genu varum", rv.varum, { n: "genu varum" }), o("flexum", "Flexum", rv.flexum, { n: "flexum" }), o("recurvatum", "Recurvatum", rv.recurvatum, { n: "recurvatum" })], { ligneEx: "posture" }),
       choix("arches", "Arches plantaires", [o("normales", "Normales", {}, { n: "arches plantaires normales" }), o("plat", "Affaissées", rv.plat, { n: "arches plantaires affaissées" }),
@@ -132,8 +133,9 @@
       choix("appui_uni", "Appui unipodal", [o("normal", "Normal", {}, { n: "appui unipodal{cote} normal" }), o("anormal", "Instable ou douloureux", rv.appui_uni, { n: "appui unipodal{cote} instable ou douloureux" })],
         { horsNormal: true, ligneEx: "saut" }),
       choix("saut_bi", "Saut bipodal", [o("normal", "Normal et indolore", rv.saut_normal, { n: "saut bipodal normal et indolore" }), o("douleur", "Douloureux", rv.saut_douleur, { n: "saut bipodal douloureux" })], { ligneEx: "saut" }),
-      choix("saut_uni", "Saut unipodal", [o("normal", "Normal", {}, { n: "saut unipodal{cote} normal" }), o("douleur", "Douloureux", rv.saut_uni, { n: "saut unipodal{cote} douloureux" })], { horsNormal: true, ligneEx: "saut" }),
-    ] }),
+      choix("saut_uni", "Saut unipodal", [o("normal", "Normal", {}, { n: "saut unipodal{cote} normal" }), o("douleur", "Douloureux", rv.saut_uni, { n: "saut unipodal{cote} douloureux" }),
+        ...(rv.saut_impossible ? [o("impossible", "Impossible", rv.saut_impossible, { n: "saut unipodal{cote} impossible" })] : [])], { horsNormal: true, ligneEx: "saut", effets: rv.sautEffets }),
+    ].filter(q => !opts.garder || opts.garder.includes(q.id)).concat(opts.ajouts || []) }),
     // Ligament : normal et indolore / douleur sans laxité / laxité.
     lig: (id, libelle, court, effets, extra = {}) => choix(id, libelle, [o("normal", "Normal et indolore", {}, { n: "{court} normal et indolore" }),
       o("douleur", "Douleur sans laxité", extra.douleur || {}, { n: "{court} douloureux sans laxité" }), o("laxite", "Laxité", extra.laxite || {}, { n: "{court} avec laxité" }),
@@ -209,6 +211,24 @@
       { t: "Acétaminophène 15 mg/kg q4–6h (max 75 mg/kg/j) si AINS contre-indiqué", si: enfant },
       { t: "AINS : éviter si DFGe < 30, cirrhose, grossesse ≥ 20 sem, anticoagulation, maladie cardiovasculaire ou fragilité (oraux) ; prudence ≥ 65 ans (IPP ou coxib si risque digestif)" }],
     charge: { t: "Dosage de la charge : activité permise si la douleur reste ≤ 3/10 et ne persiste pas après l'effort (chez l'adolescent, viser ≤ 2/10)", src: "Silbernagel et coll., 2007 (modèle de monitorage de la douleur)" },
+  };
+  /* Aide-mémoire de première ligne (Québec), fichier locomoteur/<région>/aide-memoire-<région>.js produit depuis le document
+     OpenEvidence. liens : { diagnostic: numéro de fiche, [numéros] ou « clé:numéro » (ex. « main:7 ») }. */
+  const fiche = (cle, ref) => {
+    const [c, n] = String(ref).includes(":") ? String(ref).split(":") : [cle, String(ref)];
+    const A = (window.Locomoteur.aideMemoire || {})[c], f = A && A.fiches[n];
+    if (!f) throw new Error(`Fiche introuvable dans l'aide-mémoire : ${c} ${n}`);
+    return { f, A };
+  };
+  C.aideMemoire = (cle, liens) => Object.fromEntries(Object.entries(liens).map(([dx, refs]) => [dx, [].concat(refs).flatMap(ref => {
+    const { f, A } = fiche(cle, ref), src = f.src || `Aide-mémoire de première ligne (Québec), document OpenEvidence${A.sources ? " ; " + A.sources.replace(/^Sources principales : /, "") : ""}`;
+    return f.items.map(t => ({ t: f.principes ? `${t} (principes généraux, sans recommandation spécifique)` : t, src }));
+  })]));
+  C.ficheAideMemoire = (cle, ref) => fiche(cle, ref).f;
+  // Bloc commun de l'aide-mémoire → mesures générales (sans la ligne « † »).
+  C.mesuresAideMemoire = (cle, titre = "Bloc commun (aide-mémoire, Québec)") => {
+    const A = (window.Locomoteur.aideMemoire || {})[cle];
+    return A && A.commun.length ? [{ titre, items: A.commun.filter(t => !/^†/.test(t)).map(t => ({ t })) }] : [];
   };
   window.Locomoteur.commun = C;
 })();

@@ -6,7 +6,7 @@ import path from "node:path";
 const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../..");
 const region = process.argv[2] || "genou";
 globalThis.window = globalThis;
-for (const f of ["locomoteur/moteur.js", "locomoteur/commun.js", `locomoteur/${region}/donnees-${region}.js`]) new Function(fs.readFileSync(path.join(RACINE, f), "utf8"))();
+for (const f of ["locomoteur/moteur.js", "locomoteur/commun.js", `locomoteur/${region}/aide-memoire-${region}.js`, `locomoteur/${region}/donnees-${region}.js`]) if (fs.existsSync(path.join(RACINE, f))) new Function(fs.readFileSync(path.join(RACINE, f), "utf8"))();
 const d = globalThis.Locomoteur.donnees[region], LO = globalThis.Locomoteur;
 const nb = x => (x === undefined || x === null ? "—" : Number(x).toLocaleString("fr-CA", { maximumFractionDigits: 2 }));
 const pc = x => (x === undefined ? "—" : `${Math.round(x * 100)} %`);
