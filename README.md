@@ -91,10 +91,14 @@ absentes du plan du site et de l'accueil. Seul le genou est ouvert ; les autres 
   `node outils/locomoteur/importer-fiches.mjs <fiches/> <fiches50/>`. Contenu rédigé de mémoire, à valider.
 
 **Poids.** Chaque poids a un statut : `provisoire` (estimation clinique), `a_verifier` (valeur publiée citée de mémoire,
-avec une piste), `verifie` (confirmé dans l'article : Lachman, tiroir antérieur, pop, dérobements, enflure et mécanisme
-en pivot pour le LCA, rapport du 21 novembre 2026), `valide` (approuvé par le clinicien). Pour valider un diagnostic :
-section « Sources et validation » de la page, « Copier la consigne », la coller dans Claude in Chrome ; le tableau rendu
-garde la clé de chaque poids (`question>diagnostic`).
+avec une piste), `verifie` (chiffre tiré d'une étude identifiée, avec sa source), `valide` (approuvé par le clinicien).
+Les données viennent du document OpenEvidence du 21 novembre 2026, conservé tel quel dans
+`outils/locomoteur/sources/2026-11-21-openevidence/` (parties A à H, avec leurs références). Les **grappes** (`grappes` du
+fichier de données : Décary, Wagemakers, critères de l'ACR, règle NICE…) remplacent le RV des éléments qu'elles couvrent.
+`node outils/locomoteur/lister-sources.mjs <région>` refait `outils/locomoteur/sources/<région>-poids.md` (chaque poids,
+chaque grappe, chaque recommandation de conduite, avec sa source). Conduite : aide-mémoire de première ligne (Québec) du
+même document ; mesures générales communes (analgésie adulte et enfant, AINS, dosage de la charge) dans `commun.js`.
+Les questions pour OpenEvidence (bouton de la section « Sources et limites ») sont en anglais, à coller à la main.
 
 Le scénario `locomoteur` de `tests/site.test.mjs` vérifie l'accueil de l'outil et un cas complet de genou.
 

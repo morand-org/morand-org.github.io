@@ -48,7 +48,7 @@
       ctl = q.long ? `<textarea class="lo-texte-libre" id="c-${dom}" data-q="${q.id}" aria-labelledby="${lid}" rows="2"></textarea>`
         : `<input type="text" class="lo-texte-libre" id="c-${dom}" data-q="${q.id}" aria-labelledby="${lid}">`;
     }
-    const calcul = q.effets.length > 0 || q.id === "sexe" || q.id === "age";
+    const calcul = q.effets.length > 0 || q.id === "sexe" || q.id === "age" || grappesDe(q).length > 0;
     const info = q.info || q.video || calcul ? `<button type="button" class="lo-info" data-info="${dom}" aria-expanded="false" aria-controls="i-${dom}" title="Information">i<span class="cache"> : information sur ${esc(q.libelle)}</span></button>` : "";
     return `<div class="lo-q${large ? " lo-q-large" : ""}${calcul ? " lo-q-calcul" : ""}" data-qid="${dom}"><div class="lo-q-texte"><span class="lo-q-tete"><span class="lo-q-libelle" id="${lid}">${esc(q.libelle)}${calcul ? '<span class="cache"> (compte dans le calcul)</span>' : ""}</span>${info}</span>${q.aide ? `<span class="lo-q-aide">${esc(q.aide)}</span>` : ""}</div>${ctl}<div class="lo-info-panneau" id="i-${dom}" hidden></div></div>`;
   }
@@ -59,6 +59,7 @@
     if (q.type === "multi") return (q.options.find(o => o.v === v) || {}).l || v;
     return (q.options.find(o => o.v === v) || {}).l || v;
   }
+  const grappesDe = q => (d.grappes || []).filter(g => g.couvre.includes(q.id) || q.effets.some(e => e.g && g.couvre.includes(e.g)));
   function infoHtml(q0) {
     const q = q0.type === "miroir" ? { ...d.parQ[q0.cible], info: q0.info || d.parQ[q0.cible].info } : q0;
     const morceaux = [];
@@ -86,6 +87,8 @@
       const sources = [...new Set(q.effets.filter(e => e.piste).map(e => e.piste))];
       if (sources.length) morceaux.push(`<p class="lo-info-source">Sources : ${sources.map(esc).join(" · ")}</p>`);
     }
+    const grappes = grappesDe(q);
+    if (grappes.length) morceaux.push(`<p class="lo-info-titre">Fait partie d'une combinaison validée</p><ul>${grappes.map(g => `<li>${esc(g.nom)} : ${g.rv > 1 ? "↑" : "↓"} ${esc(nomDx(g.dx))} ×${nb(g.rv)}${g.statut === "verifie" || g.statut === "valide" ? " (vérifié)" : ""}${g.piste ? ` <span class="lo-info-source">${esc(g.piste)}</span>` : ""}</li>`).join("")}</ul>`);
     if (q.video) morceaux.push(`<p><a href="https://www.youtube.com/results?search_query=${encodeURIComponent(`Physiotutors ${q.video}`)}" target="_blank" rel="noopener">Vidéo Physiotutors : ${esc(q.video)}</a></p>`);
     return morceaux.join("") || "<p>Pour la note seulement.</p>";
   }
@@ -181,7 +184,7 @@
   }
   const liens = l => (l && l.length ? `<p class="lo-liens">${l.map(x => `<a href="${esc(x.u)}">${esc(x.t)}</a>`).join("")}</p>` : "");
   function diagnostics(res) {
-    const seulsDepart = !Object.keys(res.rep).some(k => d.parQ[k] && d.parQ[k].effets.length);   // rien encore qui compte, à part l'âge et le sexe
+    const seulsDepart = res.diagnostics.every(x => !x.comptes.length);   // rien encore qui compte, à part l'âge et le sexe
     const tete = res.diagnostics[0];
     $("#lo-res-etat").textContent = !res.saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(res)}). Remplissez l'anamnèse et l'examen.`
@@ -306,7 +309,7 @@
   });
 
   /* ---------- Sources et validation ---------- */
-  const tousPoids = d.questions.flatMap(q => q.effets);
+  const tousPoids = [...d.questions.flatMap(q => q.effets), ...(d.grappes || [])];
   function statistiques() {
     const n = { provisoire: 0, a_verifier: 0, verifie: 0, valide: 0 };
     for (const e of tousPoids) n[e.statut]++;
@@ -314,11 +317,11 @@
     $("#lo-stats").textContent = `${tousPoids.length} poids : ${n.valide} validé${n.valide > 1 ? "s" : ""}, ${n.verifie} vérifié${n.verifie > 1 ? "s" : ""} (${articles.size} source${articles.size > 1 ? "s" : ""}), ${n.a_verifier} à vérifier, ${n.provisoire} provisoires. Fréquences de départ : provisoires.`;
   }
   const elementDe = LO.elementDe;
-  const poidsDe = id => tousPoids.filter(e => e.dx === id);
+  const poidsDe = id => tousPoids.filter(e => e.dx === id && !e.grappe);
   function tableau() {
     const id = $("#lo-src-dx").value, x = d.parDx[id], lignes = [];
     lignes.push(`<tr class="lo-depart"><td>Probabilité de départ : ${x.base.map(([a, pr]) => `${a} ans ${pctExact(pr)}`).join(", ")}${x.sexe ? ` ; ${Object.entries(x.sexe).map(([s, f]) => `${s === "F" ? "femme" : "homme"} ×${nb(f)}`).join(", ")}` : ""}</td>
-      <td colspan="4"></td><td><span class="lo-statut" data-statut="provisoire">Provisoire</span></td><td></td></tr>`);
+      <td colspan="4"></td><td><span class="lo-statut" data-statut="provisoire">Provisoire</span></td><td>${esc(x.repere || "")}</td></tr>`);
     for (const e of poidsDe(id)) {
       const statut = `<span class="lo-statut" data-statut="${e.statut}">${LO.STATUTS[e.statut]}</span>`, piste = esc(e.piste || "");
       if (e.rv) for (const [v, rv] of Object.entries(e.rv)) lignes.push(`<tr><td>${esc(elementDe(e, v))}</td><td>—</td><td>—</td><td colspan="2">RV ${nb(rv)}</td><td>${statut}</td><td>${piste}</td></tr>`);
@@ -326,6 +329,10 @@
         const [rp, rn] = LO.rvPosNeg(e);
         lignes.push(`<tr><td>${esc(elementDe(e))}</td><td>${e.se !== undefined ? pctExact(e.se) : "—"}</td><td>${e.sp !== undefined ? pctExact(e.sp) : "—"}</td><td>${nb(rp)}</td><td>${nb(rn)}</td><td>${statut}</td><td>${piste}</td></tr>`);
       }
+    }
+    for (const g of (d.grappes || []).filter(g => g.dx === id)) {
+      const statut = `<span class="lo-statut" data-statut="${g.statut}">${LO.STATUTS[g.statut]}</span>`;
+      lignes.push(`<tr class="lo-grappe"><td>Combinaison : ${esc(g.nom)}</td><td>${g.se !== undefined ? pctExact(g.se) : "—"}</td><td>${g.sp !== undefined ? pctExact(g.sp) : "—"}</td><td>${g.rv > 1 ? nb(g.rv) : "—"}</td><td>${g.rv < 1 ? nb(g.rv) : "—"}</td><td>${statut}</td><td>${esc(g.piste || "")}</td></tr>`);
     }
     $("#lo-table tbody").innerHTML = lignes.join("");
   }

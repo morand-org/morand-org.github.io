@@ -13,16 +13,19 @@ const pc = x => (x === undefined ? "—" : `${Math.round(x * 100)} %`);
 const lignes = [`# ${d.titre} : poids et sources`, "", `Produit par \`node outils/locomoteur/lister-sources.mjs ${region}\` (${d.version}). Ne pas modifier à la main.`, ""];
 const n = { provisoire: 0, a_verifier: 0, verifie: 0, valide: 0 };
 for (const q of d.questions) for (const e of q.effets) n[e.statut]++;
+for (const g of d.grappes || []) n[g.statut]++;
 lignes.push(`Poids : ${Object.values(n).reduce((a, b) => a + b, 0)} (validés ${n.valide}, vérifiés ${n.verifie}, à vérifier ${n.a_verifier}, provisoires ${n.provisoire}).`, "");
 for (const x of d.diagnostics) {
   lignes.push(`## ${x.nom}`, "", `Probabilité de départ (provisoire) : ${x.base.map(([a, p]) => `${a} ans ${pc(p)}`).join(", ")}${x.sexe ? ` ; ${Object.entries(x.sexe).map(([s, f]) => `${s === "F" ? "femme" : "homme"} ×${nb(f)}`).join(", ")}` : ""}.`, "");
+  if (x.repere) lignes.push(`Repères publiés : ${x.repere}.`, "");
   lignes.push("| clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |", "|---|---|---|---|---|---|---|");
   for (const q of d.questions) for (const e of q.effets) {
     if (e.dx !== x.id) continue;
-    const el = LO.elementDe(e);
+    const el = e.rv ? q.libelle : LO.elementDe(e);
     const rv = e.rv ? Object.entries(e.rv).map(([v, r]) => `${LO.libelleOption(q, v)} ${nb(r)}`).join(" ; ") : (([p, m]) => `${nb(p)} / ${nb(m)}`)(LO.rvPosNeg(e));
     lignes.push(`| \`${e.cle}\` | ${el} | ${pc(e.se)} | ${pc(e.sp)} | ${rv} | ${e.statut} | ${e.piste || "—"} |`);
   }
+  for (const g of (d.grappes || []).filter(g => g.dx === x.id)) lignes.push(`| \`${g.cle}\` | Combinaison : ${g.nom} | ${pc(g.se)} | ${pc(g.sp)} | ${g.rv > 1 ? `${nb(g.rv)} / —` : `— / ${nb(g.rv)}`} | ${g.statut} | ${g.piste || "—"} |`);
   const cond = (x.conduite || []).map(c => (typeof c === "string" ? { t: c } : c));
   if (cond.length) { lignes.push("", "Conduite :"); for (const c of cond) lignes.push(`- ${c.t}${c.src ? ` — *${c.src}*` : ""}`); }
   lignes.push("");

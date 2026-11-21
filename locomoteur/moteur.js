@@ -69,6 +69,13 @@
       }
     }
     for (const q of d.questions) if (q.type === "miroir" && !d.parQ[q.cible]) throw new Error(`Miroir sans cible : ${q.id} → ${q.cible}`);
+    /* Grappes : combinaison validée d'éléments (ex. Décary : pivot + pop pour le LCA). Quand elle s'applique, son RV
+       remplace celui des éléments qu'elle couvre (questions ou groupes « g »), pour ne pas les compter deux fois. */
+    for (const g of d.grappes || []) {
+      if (!d.parDx[g.dx]) throw new Error(`Diagnostic inconnu dans la grappe ${g.id}`);
+      for (const k of g.couvre) if (!d.parQ[k] && !d.questions.some(q => q.effets.some(e => e.g === k))) throw new Error(`Grappe ${g.id} : « ${k} » n'est ni une question ni un groupe`);
+      g.statut = g.statut || "provisoire"; g.cle = `grappe:${g.id}>${g.dx}`; g.grappe = true;
+    }
     for (const [id, en] of Object.entries(d.anglais || {})) { if (!d.parDx[id]) throw new Error(`Nom anglais pour un diagnostic inconnu : ${id}`); d.parDx[id].en = en; }
     for (const [id, c] of Object.entries(d.conduites || {})) { if (!d.parDx[id]) throw new Error(`Conduite pour un diagnostic inconnu : ${id}`); d.parDx[id].conduite = c; }
     // « infos » : textes du bouton « i » (pourquoi, comment, positif si, vidéo), tenus à part des questions.
@@ -105,13 +112,13 @@
     if (e.rv) return e.rv[r] === undefined ? null : e.rv[r];
     const pos = e.pos || ["oui"], neg = e.neg || ["non"];
     if (pos.includes(r)) return e.se !== undefined ? e.se / Math.max(0.01, 1 - e.sp) : (e.rvp === undefined ? null : e.rvp);
-    if (neg.includes(r)) return e.se !== undefined ? (1 - e.se) / e.sp : (e.rvn === undefined ? null : e.rvn);
+    if (neg.includes(r)) return e.se !== undefined ? Math.max(0.01, 1 - e.se) / e.sp : (e.rvn === undefined ? null : e.rvn);
     return null;
   }
   // RV+ et RV− d'un poids, pour le tableau des sources.
   function rvPosNeg(e) {
     if (e.rv) return null;
-    if (e.se !== undefined) return [e.se / Math.max(0.01, 1 - e.sp), (1 - e.se) / e.sp];
+    if (e.se !== undefined) return [e.se / Math.max(0.01, 1 - e.sp), Math.max(0.01, 1 - e.se) / e.sp];   // Se ou Sp de 100 % : plafonnées à 99 %
     return [e.rvp, e.rvn];
   }
   const etiquettes = q => q.labels || q.bloc.labels || ["Oui", "Non"];
@@ -182,6 +189,16 @@
     for (const z of etats) {
       z.comptes = [];
       for (const gr of z.groupes.values()) { if (gr.pos) z.comptes.push(gr.pos); if (gr.neg) z.comptes.push(gr.neg); }
+      // Grappes actives, de la plus forte à la plus faible ; une grappe dont un élément est déjà pris par une autre est ignorée.
+      const actives = (d.grappes || []).filter(g => g.dx === z.x.id && g.si(L)).sort((a, b) => Math.abs(Math.log(b.rv)) - Math.abs(Math.log(a.rv)));
+      const pris = new Set();
+      for (const g of actives) {
+        if (g.couvre.some(k => pris.has(k))) continue;
+        const couverts = c => c.q && (g.couvre.includes(c.q.id) || (c.e.g && g.couvre.includes(c.e.g)));
+        z.comptes = z.comptes.filter(c => !couverts(c));
+        z.comptes.push({ e: g, q: null, r: null, rv: g.rv, l: Math.log(g.rv), libelle: g.nom, grappe: true });
+        for (const k of g.couvre) pris.add(k);
+      }
       z.somme = z.comptes.reduce((s, c) => s + c.l, 0);
       z.comptes.sort((a, b) => Math.abs(b.l) - Math.abs(a.l));
     }
