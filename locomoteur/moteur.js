@@ -32,7 +32,7 @@
   const est = (rvp, rvn, piste, extra) => ({ rvp, rvn, piste, statut: "a_verifier", ...extra });
   const o = (v, l, rv, extra) => ({ v, l, rv: rv || {}, ...extra });       // option d'un choix : RV par diagnostic
   const m = (v, l, e, extra) => ({ v, l, e: e || {}, ...extra });          // option d'une liste à cocher : effets oui / non
-  const binaires = (effets, g) => Object.entries(effets || {}).map(([dx, e]) => ({ g, ...e, dx }));
+  const binaires = (effets, g) => (Array.isArray(effets) ? effets.map(e => ({ g, ...e })) : Object.entries(effets || {}).map(([dx, e]) => ({ g, ...e, dx })));
   function ouiNon(id, libelle, opts = {}) { const { effets, g, ...reste } = opts; return { id, type: "oui_non", libelle, ...reste, effets: binaires(effets, g) }; }
   function choix(id, libelle, options, opts = {}) {
     const { effets, g, ...reste } = opts, parDx = {};
@@ -47,6 +47,7 @@
   }
   const nombre = (id, libelle, opts = {}) => ({ id, type: "nombre", libelle, effets: [], ...opts });
   const texte = (id, libelle, opts = {}) => ({ id, type: "texte", libelle, effets: [], ...opts });
+  const caseQ = (id, libelle, opts = {}) => ({ id, type: "case", libelle, effets: [], ...opts });   // case à cocher (plan)
 
   /* Prépare un fichier de données : index, clés des poids, statut par défaut. Arrête tout si un diagnostic est inconnu. */
   function definir(d) {
@@ -199,79 +200,200 @@
     return { rep, L, vus, diagnostics, alertes, conduite, saisies: Object.keys(rep).length };
   }
 
-  /* ---------- Note pour le dossier (texte brut, à coller dans le DMÉ) ---------- */
+  /* ---------- Note pour le dossier (texte brut, à coller dans le DMÉ) ----------
+     Format des notes de clinique locomotrice : IDENTIFICATION, RAISON DE CONSULTATION, ANTÉCÉDENTS, HMA (ou ÉVOLUTION
+     DEPUIS LA DERNIÈRE VISITE), EXAMEN PHYSIQUE (fonctionnel, puis le module de la région : côté atteint, une puce par
+     ligne, chaque élément suivi de son résultat), INVESTIGATIONS, IMPRESSION DIAGNOSTIQUE, PLAN. Titres en majuscules,
+     puces « - », style télégraphique ; une section vide disparaît, sauf EXAMEN PHYSIQUE.
+     Section du fichier de données : note = id, atcd, hma, examen, inv ou plan. Bloc d'examen : tete (fonctionnel, une
+     ligne « Clé : valeur » par élément), ligne (préfixe de la puce ; false = sans préfixe), adjacent (dépistage adjacent),
+     fin (côté controlatéral). Élément : court (nom), genre (m, f, mp, fp), oui et non (phrases), nie (nom pour « Pas de »),
+     gabarit (« {v}/10 au repos »), option n (« {court} normal et indolore », « limitée{deg} avec douleur »). */
   const maj = s => (s ? s[0].toUpperCase() + s.slice(1) : s);
-  const liste = a => a.join(", ");
-  function rediger(d, res) {
-    const { rep, L, diagnostics, alertes } = res, lignes = [];
-    const val = id => rep[id];
-    // Identification
-    const sexe = L.sexe === "F" ? "Femme" : L.sexe === "M" ? "Homme" : "Patient";
-    const cote = { D: "genou droit", G: "genou gauche", B: "deux genoux" }[val("cote")];
-    const titre = `${d.noteTitre}${cote ? ` (${cote})` : ""}`;
-    lignes.push(titre.toUpperCase());
-    const id = [L.age !== null ? `${sexe} de ${L.age} ans` : sexe];
-    const lat = val("lateralite"), fem = L.sexe === "F";
-    const morceaux = [];
-    for (const q of d.sections[0].blocs.flatMap(b => b.questions)) {
-      if (["sexe", "age", "cote"].includes(q.id) || !(q.id in rep)) continue;
-      if (q.id === "lateralite") morceaux.push({ D: fem ? "droitière" : "droitier", G: fem ? "gauchère" : "gaucher", A: "ambidextre" }[lat]);
-      else if (q.type === "oui_non") { if (rep[q.id] === "oui") morceaux.push(q.court || q.libelle.toLowerCase()); }
-      else morceaux.push(fragment(q, rep[q.id]));
+  const minu = s => (s && /^[A-ZÀ-Ý][a-zà-ÿ]/.test(s) ? s[0].toLowerCase() + s.slice(1) : s);
+  const VOCAB = {
+    palp: { pos: ["douloureux", "douloureuse", "douloureux", "douloureuses"], neg: ["indolore", "indolore", "indolores", "indolores"] },
+    test: { pos: ["positif", "positive", "positifs", "positives"], neg: ["négatif", "négative", "négatifs", "négatives"] },
+    rrom: { pos: ["douloureux", "douloureuse", "douloureux", "douloureuses"], neg: ["indolore", "indolore", "indolores", "indolores"] },
+    pres: { pos: ["présent", "présente", "présents", "présentes"], neg: ["absent", "absente", "absents", "absentes"] },
+    oui: { pos: ["oui", "oui", "oui", "oui"], neg: ["non", "non", "non", "non"] },
+  };
+  const GENRE = { m: 0, f: 1, mp: 2, fp: 3 };
+  const et = a => (a.length < 2 ? a.join("") : `${a.slice(0, -1).join(", ")} et ${a[a.length - 1]}`);
+  const pasDe = a => (a.length ? `${/^[aeiouyéèêàâîïôûœh]/i.test(a[0]) ? "Pas d'" : "Pas de "}${a.length < 2 ? a[0] : `${a.slice(0, -1).join(", ")} ni ${a[a.length - 1]}`}` : "");
+  const lignes = v => String(v).split(/\r?\n/).map(x => x.trim().replace(/^[-•]\s*/, "")).filter(Boolean);
+  // Texte d'un élément répondu (sans majuscule initiale ; null si l'élément ne s'écrit pas seul).
+  function element(q, v, rep, d) {
+    const court = q.court || q.libelle.toLowerCase();
+    if (q.type === "case") return v === "oui" ? (q.n || q.libelle) : null;
+    if (q.type === "nombre") return q.gabarit ? q.gabarit.replace("{v}", v) : `${court} ${v}${q.unite ? (/^[/°]/.test(q.unite) ? "" : " ") + q.unite : ""}`;
+    if (q.type === "texte") return q.gabarit ? q.gabarit.replace("{v}", String(v).trim()) : String(v).trim();
+    if (q.type === "multi") {
+      const ops = v.map(x => q.options.find(o2 => o2.v === x)).filter(Boolean);
+      if (ops.some(op => op.exclusif)) return q.aucun || `${court} : aucun`;
+      const t = et(ops.map(op => (op.n || op.l.toLowerCase())));
+      return q.gabarit ? q.gabarit.replace("{v}", t) : `${court} : ${t}`;
     }
-    lignes.push(`${id[0]}${morceaux.length ? ", " + morceaux.join(", ") : ""}.`);
-    // Sections
-    for (const s of d.sections.slice(1)) {
-      const paras = [];
-      for (const b of s.blocs) {
-        const qs = b.questions.filter(q => q.id in rep);
-        if (!qs.length) continue;
-        const frags = [], pos = [], neg = [];
-        for (const q of qs) {
-          const v = rep[q.id];
-          if (q.type === "oui_non") {
-            if (q.n) frags.push(v === "oui" ? q.n[0] : q.n[1]);
-            else (v === "oui" ? pos : neg).push(q.court || q.libelle.toLowerCase());
-          } else if (q.type === "multi") {
-            const ops = v.map(x => q.options.find(o2 => o2.v === x)).filter(Boolean);
-            frags.push(`${q.court || q.libelle} : ${liste(ops.map(op => (op.n || op.l).toLowerCase()))}`);
-          } else frags.push(fragment(q, v));
-        }
-        const n = b.note || {};
-        if (pos.length) frags.push(`${n.pos || "rapporte"} : ${liste(pos)}`);
-        if (neg.length) frags.push(`${n.neg || "nie"} : ${liste(neg)}`);
-        if (n.titre) paras.push(`${n.titre} : ${frags.join(" ; ")}.`);
-        else paras.push(frags.map(f => maj(f) + ".").join(" "));
-      }
-      if (paras.length) { lignes.push("", s.noteTitre || s.titre.toUpperCase()); lignes.push(...paras); }
+    if (q.type === "oui_non") {
+      if (v === "oui" && q.oui) return q.oui;
+      if (v === "non" && q.non) return q.non;
+      const res = q.res || q.bloc.res;
+      if (res && VOCAB[res]) return `${court} ${VOCAB[res][v === "oui" ? "pos" : "neg"][GENRE[q.genre || "m"]]}`;
+      return null;
     }
-    // Impression
-    const retenus = diagnostics.filter(x => x.p >= 0.1);
-    lignes.push("", "IMPRESSION");
-    if (retenus.length && retenus[0].p >= 0.2) {
-      lignes.push(`Hypothèse principale : ${retenus[0].x.n} (${retenus[0].categorie[1].toLowerCase()}).`);
-      const autres = retenus.slice(1, 5);
-      if (autres.length) lignes.push(`Diagnostic différentiel : ${liste(autres.map(x => `${x.x.n} (${x.categorie[1].toLowerCase()})`))}.`);
-    } else lignes.push("Aucune hypothèse ne se détache avec les éléments saisis.");
-    const graves = alertes.filter(a => a.niveau !== "info");
-    if (graves.length) lignes.push(`À considérer : ${liste(graves.map(a => a.titre.toLowerCase()))}.`);
-    // Conduite
-    const plan = [];
-    for (const a of graves) for (const c of a.conduite || []) plan.push(c);
-    const principal = res.conduite.filter(c => c.dx.p >= 0.5);
-    for (const c of (principal.length ? principal : res.conduite.slice(0, 1))) for (const t of c.items) plan.push(t);
-    for (const a of alertes.filter(x => x.niveau === "info" && x.dansNote)) plan.push(a.dansNote);
-    if (plan.length) { lignes.push("", "CONDUITE"); for (const t of [...new Set(plan)]) lignes.push(`- ${t}`); }
-    return lignes.join("\n");
-  }
-  function fragment(q, v) {
-    if (q.type === "nombre") return `${q.court || q.libelle} : ${v}${q.unite ? (q.unite.startsWith("/") || q.unite === "°" ? "" : " ") + q.unite : ""}`;
-    if (q.type === "texte") return `${q.court || q.libelle} : ${String(v).trim()}`;
     const op = q.options.find(x => x.v === v);
-    if (op && op.n) return op.n;
-    return `${q.court || q.libelle} : ${(op ? op.l : v).toLowerCase()}`;
+    if (!op) return null;
+    let t = op.n !== undefined ? op.n : `${court} : ${op.l.toLowerCase()}`;
+    const dq = q.degres && d.parQ[q.degres], dv = dq && rep[q.degres];
+    t = t.replace("{court}", court).replace("{deg}", dv ? " " + (dq.gabarit || "à ~{v}°").replace("{v}", dv) : "");
+    return t;
   }
+  function rediger(d, res) {
+    const { rep, L, diagnostics, alertes } = res, out = [], fem = L.sexe === "F";
+    const sections = cle => d.sections.filter(s => s.note === cle);
+    const repondues = b => b.questions.filter(q => q.id in rep);
+    const el = q => element(q, rep[q.id], rep, d);
+    const cq = d.parQ.cote, co = cq && rep.cote ? cq.options.find(x => x.v === rep.cote) : null, abr = co ? ` ${co.abr}` : "";
+    const suivi = rep.visite === "suivi";
+    const titre = (t, contenu) => { if (contenu.length) out.push(...(out.length ? [""] : []), `${t} :`, ...contenu); };
 
+    // IDENTIFICATION
+    const id = [], mineur = L.age !== null && L.age < 18;
+    const qui = L.sexe === "F" ? (mineur ? "Fille" : "Femme") : L.sexe === "M" ? (mineur ? "Garçon" : "Homme") : "Patient";
+    id.push(`- ${qui}${L.age !== null ? ` de ${L.age} ans` : ""}${rep.accompagne ? `, rencontré${fem ? "e" : ""} avec ${String(rep.accompagne).trim()}` : ""}`);
+    for (const s of sections("id")) for (const b of s.blocs) for (const q of repondues(b)) {
+      if (["visite", "sexe", "age", "cote", "accompagne"].includes(q.id) || q.precise) continue;
+      const v = rep[q.id];
+      if (q.id === "lateralite") { id.push(`- ${q.libelle} : ${{ D: fem ? "droitière" : "droitier", G: fem ? "gauchère" : "gaucher", A: "ambidextre" }[v]}`); continue; }
+      if (q.precision && rep[q.precision]) { id.push(`- ${q.court || q.libelle} : ${String(rep[q.precision]).trim()}`); continue; }
+      if (q.type === "oui_non") { if (v === "oui") id.push(`- ${maj(q.oui || q.court || q.libelle)}`); continue; }
+      const t = el(q); if (t) id.push(`- ${q.type === "texte" && !q.gabarit ? `${q.court || q.libelle} : ${t}` : maj(t)}`);
+    }
+    for (const q of d.questions.filter(x => x.precise && x.id in rep && x.section.note === "id")) {
+      const parent = d.questions.find(x => x.precision === q.id);
+      if (!parent || !(parent.id in rep)) id.push(`- ${q.court || q.libelle} : ${String(rep[q.id]).trim()}`);
+    }
+    titre("IDENTIFICATION", id);
+
+    // RAISON DE CONSULTATION
+    const duree = d.parQ.duree && rep.duree ? (d.parQ.duree.options.find(o2 => o2.v === rep.duree) || {}).depuis : null;
+    const rc = `${d.rc}${abr}${L.trauma() ? " post-traumatique" : ""}${rep.depuis ? ` depuis ${String(rep.depuis).trim()}` : duree ? ` ${duree}` : ""}`;
+    titre("RAISON DE CONSULTATION", [suivi ? `Suivi – ${minu(rc)}` : rc]);
+
+    // ANTÉCÉDENTS
+    const atcd = [], nie = [];
+    const muet = q => q.type === "oui_non" && rep[q.id] === "non" && q.non === "";
+    for (const s of sections("atcd")) for (const b of s.blocs) for (const q of repondues(b)) {
+      const v = rep[q.id];
+      if (muet(q)) continue;
+      if (q.type === "oui_non" && v === "non" && !q.non) { nie.push(q.nie || q.court || q.libelle.toLowerCase()); continue; }
+      if (q.type === "texte") { for (const x of lignes(v)) atcd.push(`- ${q.gabarit ? q.gabarit.replace("{v}", x) : maj(x)}`); continue; }
+      const t = el(q) || (v === "oui" ? (q.court || q.libelle) : null); if (t) atcd.push(`- ${maj(t)}`);
+    }
+    if (nie.length) atcd.push(`- ${pasDe(nie.map(x => `ATCD de ${x}`))}`);
+    titre("ANTÉCÉDENTS", atcd);
+
+    // HMA (ou évolution) : une puce par bloc, éléments liés ensemble ; négatifs pertinents à la fin.
+    const hma = [], negLocal = [], negDrapeaux = [];
+    for (const s of sections("hma")) for (const b of s.blocs) {
+      const morceaux = [], agg = [], aggNon = [], negIci = [];
+      for (const q of repondues(b)) {
+        const v = rep[q.id];
+        if (q.type === "oui_non" && v === "non" && q.aggNie) { aggNon.push(q.aggNie); continue; }
+        if (muet(q) || (q.masqueSi && rep[q.masqueSi])) continue;
+        if (q.type === "oui_non" && v === "non" && !q.non) { (b.negInline ? negIci : q.drapeau || b.drapeaux ? negDrapeaux : negLocal).push(q.nie || q.court || q.libelle.toLowerCase()); continue; }
+        if (q.type === "oui_non" && v === "oui" && q.agg) { if (!agg.length) morceaux.push("{agg}"); agg.push(q.agg); continue; }
+        if (q.type === "oui_non" && v === "oui" && !q.oui) { morceaux.push(q.court || q.libelle.toLowerCase()); continue; }
+        if (q.type === "texte" && b.texteSepare) { for (const x of lignes(v)) hma.push(`- ${maj(x)}`); continue; }
+        const t = el(q); if (t) morceaux.push(minu(t));
+      }
+      if (agg.length) morceaux[morceaux.indexOf("{agg}")] = `augmentée par ${et(agg)}`;
+      if (negIci.length) morceaux.push(minu(pasDe(negIci)));
+      if (morceaux.length) hma.push(`- ${maj(morceaux.join(b.sep || ", "))}`);
+      if (aggNon.length) hma.push(`- Pas de douleur ${aggNon.length < 2 ? aggNon[0] : `${aggNon.slice(0, -1).join(", ")} ni ${aggNon[aggNon.length - 1]}`}`);
+    }
+    if (negLocal.length) hma.push(`- ${pasDe(negLocal)}`);
+    if (negDrapeaux.length) hma.push(`- ${pasDe(negDrapeaux)}`);
+    titre(suivi ? "ÉVOLUTION DEPUIS LA DERNIÈRE VISITE" : "HMA", hma);
+
+    // EXAMEN PHYSIQUE (toujours présent)
+    const tete = [], module = [], adjacent = [], fin = [];
+    for (const s of sections("examen")) for (const b of s.blocs) {
+      const qs = repondues(b); if (!qs.length) continue;
+      if (b.tete) { for (const q of qs) { const t = el(q); if (t) tete.push(`- ${q.court || q.libelle} : ${t}`); } continue; }
+      const items = qs.filter(q => !q.precise && !q.lie && !muet(q) && !(q.masqueSi && rep[q.masqueSi])).map(q => el(q)).filter(Boolean);
+      if (b.adjacent) { if (items.length) adjacent.push(`${b.adjacent}${b.sansCote ? "" : abr}, ${items.join(", ")}`); continue; }
+      if (b.sep) { module.push(`- ${b.titre} : ${items.join(b.sep)}`); continue; }
+      if (b.fusion && qs.length === b.questions.length && qs.every(q => rep[q.id] === rep[qs[0].id])) {
+        const q0 = qs[0], t = element({ ...q0, court: b.fusion }, rep[q0.id], rep, d);
+        module.push(`- ${b.titre} : ${t}`); continue;
+      }
+      if (b.fin) {
+        for (const q of qs.filter(x => !x.precise)) {
+          const prec = q.precision && rep[q.precision] ? String(rep[q.precision]).trim() : null;
+          fin.push(`- ${q.court || q.libelle} : ${prec || minu(el(q) || "")}`);
+        }
+        continue;
+      }
+      if (!items.length) continue;
+      const prefixe = b.ligne === false ? "" : `${b.ligne || b.titre} : `;
+      module.push(`- ${prefixe}${prefixe ? items.join(" ; ") : maj(items.join(" ; "))}`);
+    }
+    const ex = [...tete];
+    if (module.length || adjacent.length || fin.length) {
+      ex.push(...(tete.length ? [""] : []), `${(d.partieExamen || d.partie).toUpperCase()} :`);
+      if (co) ex.push(`Côté atteint : ${co.cote}`);
+      ex.push(...module);
+      if (adjacent.length) ex.push(`- Dépistage adjacent : ${adjacent.join(" ; ")}`);
+      ex.push(...fin);
+    }
+    out.push(...(out.length ? [""] : []), "EXAMEN PHYSIQUE :", ...ex);
+
+    // EDU (échographie au cabinet), puis INVESTIGATIONS (déjà faites)
+    const edu = [], inv = [];
+    for (const s of sections("inv")) for (const b of s.blocs) for (const q of repondues(b)) for (const x of lignes(rep[q.id])) (q.edu ? edu : inv).push(`- ${maj(x)}`);
+    titre("EDU", edu);
+    titre("INVESTIGATIONS", inv);
+
+    // IMPRESSION DIAGNOSTIQUE
+    const imp = [];
+    const chron = { lt7: "aiguë", s1_6: "aiguë", s6_12: "subaiguë", gt3m: "chronique" }[rep.duree];
+    const contexte = [rep.apparition ? (L.trauma() ? "post-traumatique" : "non traumatique") : null, chron,
+      rep.sport && d.parQ.sport ? (rep.sport_precision ? String(rep.sport_precision).split(/[,;]/)[0].trim() : null) : null,
+      rep.evolution ? { mieux: "évolution favorable", stable: "évolution stable", pire: "en aggravation" }[rep.evolution] : null].filter(Boolean);
+    const ordre = ["aiguë", "subaiguë", "chronique", "post-traumatique", "non traumatique"];
+    contexte.sort((a, b) => (ordre.includes(a) ? ordre.indexOf(a) : 9) - (ordre.includes(b) ? ordre.indexOf(b) : 9));
+    imp.push(`1- ${d.rc}${abr}${contexte.length ? " " + contexte.join(", ") : ""}`);
+    const QUAL = { tres: "très prob", probable: "prob", possible: "moins prob" };
+    const retenus = diagnostics.filter(x => QUAL[x.categorie[2]]).slice(0, 4);
+    if (retenus.length) imp.push(`- ${retenus.map((x, i) => `${i ? x.x.n : maj(x.x.n)} ${QUAL[x.categorie[2]]}`).join(" > ")}`);
+    const ro = [...new Set(alertes.filter(a => a.niveau !== "info" && a.ro).map(a => a.ro))];
+    for (const x of ro) imp.push(`- ${maj(x)} à R/O`);
+    // Envisagés puis écartés : probabilité de départ d'au moins 5 %, moins de 5 % après l'anamnèse et l'examen (assez de réponses).
+    if (res.saisies >= 15) {
+      const ecartes = diagnostics.filter(x => x.depart >= 0.05 && x.p < 0.05).map(x => x.x.n);
+      if (ecartes.length) imp.push(`- Pas d'évidence ${/^[aeiouyéèêàâîïôûœh]/i.test(ecartes[0]) ? "d'" : "de "}${ecartes.length < 2 ? ecartes[0] : `${ecartes.slice(0, -1).join(", ")} ni ${ecartes[ecartes.length - 1]}`}`);
+    }
+    for (const x of lignes(rep.impression_precisions || "")) imp.push(`- ${maj(x)}`);
+    titre("IMPRESSION DIAGNOSTIQUE", imp);
+
+    // PLAN : cases cochées, dans l'ordre habituel.
+    const plan = [];
+    for (const s of sections("plan")) for (const b of s.blocs) for (const q of repondues(b)) {
+      if (q.id === "impression_precisions") continue;
+      if (q.type === "texte" && !q.gabarit) { for (const x of lignes(rep[q.id])) plan.push(`- ${maj(x)}`); continue; }
+      const t = el(q); if (t) plan.push(`- ${maj(t)}`);
+    }
+    titre("PLAN", plan);
+    return out.join("\n");
+  }
+  // Valeur « normale » d'un élément, pour le bouton « Tout normal ».
+  function normalDe(q) {
+    if (q.normal !== undefined) return q.normal;
+    if (q.type === "oui_non") return "non";
+    if (q.type === "choix") { const op = q.options.find(x => x.normal) || q.options[0]; return op.v; }
+    return null;
+  }
 
   /* ---------- Validation : consigne pour Claude in Chrome avec OpenEvidence, tirée des poids du fichier ---------- */
   const nbFr = x => (x === undefined || x === null ? "—" : Number(x).toLocaleString("fr-CA", { maximumFractionDigits: 2 }));
@@ -313,7 +435,7 @@ Ensuite :
   }
 
   racine.Locomoteur = Object.assign(racine.Locomoteur || {}, {
-    outils: { p, lit, est, o, m, ouiNon, choix, multi, nombre, texte },
-    definir, calculer, rediger, consigne, elementDe, visibles, rvPosNeg, rvDe, libelleOption, STATUTS, CATEGORIES,
+    outils: { p, lit, est, o, m, ouiNon, choix, multi, nombre, texte, caseQ },
+    definir, calculer, rediger, normalDe, consigne, elementDe, visibles, rvPosNeg, rvDe, libelleOption, STATUTS, CATEGORIES,
   });
 })(typeof window !== "undefined" ? window : globalThis);

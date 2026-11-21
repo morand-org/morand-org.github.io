@@ -29,6 +29,9 @@
       if (court) ctl = segments(q, q.options.map(o => [o.v, o.l]));
       else ctl = `<select class="lo-select" id="c-${q.id}" data-q="${q.id}" aria-labelledby="${lid}"><option value="">—</option>${q.options.map(o =>
         `<option value="${esc(o.v)}">${esc(o.l)}</option>`).join("")}<option value="?">Ne sait pas</option></select>`;
+    } else if (q.type === "case") {
+      ctl = `<button type="button" class="lo-puce lo-case" data-q="${q.id}" data-v="oui" aria-pressed="false" aria-labelledby="${lid}">${esc(q.n || q.libelle)}</button>`;
+      return `<div class="lo-q lo-q-case" data-qid="${q.id}"><span class="cache" id="${lid}">${esc(q.libelle)}</span>${ctl}</div>`;
     } else if (q.type === "multi") {
       large = true;
       ctl = `<div class="lo-puces" role="group" aria-labelledby="${lid}">${q.options.map(o =>
@@ -45,7 +48,8 @@
   function construire() {
     form.innerHTML = d.sections.map(s => `<section class="lo-section" id="s-${s.id}" aria-labelledby="h-${s.id}"><h2 id="h-${s.id}">${esc(s.titre)}</h2>${s.blocs.map((b, i) => {
       b.ref = `${s.id}-${i}`;
-      return `<div class="lo-bloc" data-bloc="${b.ref}">${b.titre ? `<h3>${esc(b.titre)}</h3>` : ""}${b.aide ? `<p class="lo-bloc-aide">${esc(b.aide)}</p>` : ""}${b.questions.map(controle).join("")}</div>`;
+      const bouton = b.toutNormal ? `<button type="button" class="lo-normal" data-normal="${b.ref}">${esc(typeof b.toutNormal === "string" ? b.toutNormal : "Tout normal")}</button>` : "";
+      return `<div class="lo-bloc" data-bloc="${b.ref}">${b.titre || bouton ? `<div class="lo-bloc-tete">${b.titre ? `<h3>${esc(b.titre)}</h3>` : "<span></span>"}${bouton}</div>` : ""}${b.aide ? `<p class="lo-bloc-aide">${esc(b.aide)}</p>` : ""}${b.questions.map(controle).join("")}</div>`;
     }).join("")}</section>`).join("");
     $("#lo-nav").innerHTML = d.sections.map(s => `<a href="#s-${s.id}" data-nav="${s.id}">${esc(s.titre)}<span class="lo-compte"></span></a>`).join("")
       + `<a href="#resultats">Résultats</a><a href="#sources">Sources</a>`;
@@ -58,6 +62,17 @@
     }
   }
   form.addEventListener("click", e => {
+    const tout = e.target.closest("button[data-normal]");
+    if (tout) {
+      const vus = LO.visibles(d, rep), bloc = d.sections.flatMap(s => s.blocs).find(x => x.ref === tout.dataset.normal);
+      for (const q of bloc.questions) {
+        if (!vus.has(q.id) || q.id in rep || q.horsNormal) continue;
+        const v = LO.normalDe(q); if (v === null) continue;
+        rep[q.id] = v; majBoutons(q.id);
+        const sel = form.querySelector(`select[data-q="${q.id}"]`); if (sel) sel.value = v;
+      }
+      planifier(); return;
+    }
     const b = e.target.closest("button[data-q]");
     if (!b) return;
     const id = b.dataset.q, q = d.parQ[id];
@@ -131,6 +146,7 @@
         ${x.explique ? `<p>Pris seul : ${pct(x.seul)}. ${esc(x.explique.nom)}, plus probable, explique déjà une partie de ces éléments.</p>` : ""}
         ${x.comptes.length ? `<ul>${x.comptes.slice(0, 10).map(c => `<li><span class="lo-fleche" data-sens="${c.l > 0 ? "haut" : "bas"}">${c.l > 0 ? "↑" : "↓"} ×${nb(c.rv)}</span><span>${esc(c.libelle)}</span><span class="lo-statut" data-statut="${c.e.statut}">${LO.STATUTS[c.e.statut]}</span></li>`).join("")}</ul>`
           : "<p>Aucune réponse ne change encore ce diagnostic.</p>"}
+        ${(x.x.fiches || []).length ? `<p class="lo-fiches">${x.x.fiches.map(id => `<button type="button" class="lo-lien" data-fiche="${esc(id)}">Fiche ${id.startsWith("athlete") ? "athlète" : "50 ans et plus"}</button>`).join("")}</p>` : ""}
         ${x.comptes.length > 10 ? `<p class="lo-discret">Et ${x.comptes.length - 10} autre${x.comptes.length - 10 > 1 ? "s" : ""} élément${x.comptes.length - 10 > 1 ? "s" : ""} de moindre poids.</p>` : ""}
       </div></details></li>`).join("");
     for (const li of ol.children) {
@@ -146,12 +162,45 @@
   function conduite(res) {
     const graves = res.alertes.filter(a => a.niveau !== "info" && a.conduite);
     let h = graves.length ? `<h3 class="lo-c-titre">Alertes</h3>${alertesHtml(graves, true)}` : "";
+    const dejaPlan = String(rep.plan_ajouts || "").split(/\r?\n/).map(x => x.trim());
+    const ligne = t => `<li><span>${esc(t)}</span><button type="button" class="lo-plus" data-plan="${esc(t)}"${dejaPlan.includes(t.replace(/\.$/, "")) ? " disabled" : ""}>+ Plan</button></li>`;
     if (res.conduite.length) h += res.conduite.map(c => `<section class="lo-c-dx"><h3>${esc(c.dx.x.nom)} <span class="lo-dx-cat" data-cat="${c.dx.categorie[2]}">${c.dx.categorie[1]}</span></h3>
-      <ul>${c.items.map(t => `<li>${esc(t)}</li>`).join("")}</ul>${liens(c.liens)}</section>`).join("");
+      <ul>${c.items.map(ligne).join("")}</ul>${liens(c.liens)}</section>`).join("");
     else h += `<p class="lo-vide">Aucune hypothèse n'est encore assez probable pour proposer une conduite.</p>`;
     h += `<p class="lo-discret">Conduite indicative, tirée des lignes directrices courantes (Ottawa, Choisir avec soin, NICE, CRDS) ; à valider.</p>`;
     $("#lo-conduite").innerHTML = h;
   }
+
+  $("#lo-conduite").addEventListener("click", e => {
+    const b = e.target.closest("button[data-plan]");
+    if (!b) return;
+    const t = b.dataset.plan.replace(/\.$/, ""), actuel = String(rep.plan_ajouts || "").trim();
+    rep.plan_ajouts = actuel ? `${actuel}\n${t}` : t;
+    const zone = form.querySelector('[data-q="plan_ajouts"]'); if (zone) zone.value = rep.plan_ajouts;
+    b.disabled = true; planifier();
+  });
+
+  /* ---------- Fiches MSK : chargées au premier usage ---------- */
+  let fiches = null;
+  const chargerFiches = () => (fiches ? Promise.resolve(fiches) : fetch("/locomoteur/fiches.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(j => (fiches = j.fiches)));
+  const dialogue = document.getElementById("lo-fiche");
+  const SECTIONS_FICHE = [["clinique", "Clinique"], ["examen", "Examen"], ["imagerie", "Imagerie"], ["traitement", "Traitement"], ["redflags", "Drapeaux rouges"],
+    ["ddx", "Diagnostic différentiel"], ["rhumato", "Volet rhumatologique"], ["facteurs", "Facteurs de risque"], ["pearls", "À retenir"]];
+  function ouvrirFiche(id) {
+    chargerFiches().then(F => {
+      const f = F[id]; if (!f || !dialogue) return;
+      const item = x => (Array.isArray(x) ? x.filter(Boolean).join(" : ") : x);   // texte déjà nettoyé à l'importation (gras et italique seulement)
+      dialogue.querySelector(".lo-fiche-corps").innerHTML = `<p class="lo-sur">${f.serie === "athlete" ? "Fiche athlète" : "Fiche 50 ans et plus"} · n° ${f.no}</p>
+        <h2>${f.titre}</h2><p class="lo-fiche-accroche">${f.accroche}</p>
+        ${f.stats.length ? `<dl class="lo-fiche-stats">${f.stats.map(x => `<div><dt>${x.v}</dt><dd>${x.l}${x.s ? ` <span>${x.s}</span>` : ""}</dd></div>`).join("")}</dl>` : ""}
+        ${f.info ? `<section><h3>${f.info.titre}</h3><ul>${f.info.items.map(x => `<li>${item(x)}</li>`).join("")}</ul>${f.info.note ? `<p class="lo-discret">${f.info.note}</p>` : ""}</section>` : ""}
+        ${SECTIONS_FICHE.filter(([k]) => f[k] && f[k].length).map(([k, t]) => `<section><h3>${t}</h3><ul>${f[k].map(x => `<li>${item(x)}</li>`).join("")}</ul></section>`).join("")}
+        <p class="lo-discret">Contenu rédigé de mémoire, à valider.</p>`;
+      if (dialogue.showModal) dialogue.showModal(); else dialogue.setAttribute("open", "");
+    }).catch(() => { /* fiches indisponibles hors ligne : rien à montrer */ });
+  }
+  if (dialogue) dialogue.addEventListener("click", e => { if (e.target === dialogue || e.target.closest(".lo-fiche-fermer")) dialogue.close ? dialogue.close() : dialogue.removeAttribute("open"); });
+  $("#lo-dx").addEventListener("click", e => { const b = e.target.closest("button[data-fiche]"); if (b) ouvrirFiche(b.dataset.fiche); });
 
   /* ---------- Onglets ---------- */
   const onglets = [...document.querySelectorAll('.lo-onglets [role="tab"]')];

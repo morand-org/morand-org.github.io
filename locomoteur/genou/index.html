@@ -6,7 +6,7 @@
 <script src="/morand/plein-ecran.js"></script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Genou | Locomoteur Morand (prototype)</title>
+<title>Genou | MSK Morand (prototype)</title>
 <!-- Prototype caché : absent du plan du site et de l'accueil, non indexé. Rien n'est transmis ni conservé. -->
 <meta name="robots" content="noindex,nofollow">
 <meta name="description" content="Prototype d'aide à la décision pour la douleur au genou : anamnèse et examen guidés, diagnostic différentiel, alertes, conduite et note pour le dossier.">
@@ -18,6 +18,7 @@
 <link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/locomoteur/locomoteur.css">
 <script src="/locomoteur/moteur.js" defer></script>
+<script src="/locomoteur/commun.js" defer></script>
 <script src="/locomoteur/genou/donnees-genou.js" defer></script>
 <script src="/locomoteur/interface.js" defer></script>
 </head>
@@ -25,13 +26,13 @@
 <a class="saut" href="#lo-form">Aller au questionnaire</a>
 <header class="lo-tete">
   <a class="lo-marque" href="/">Morand</a>
-  <p class="lo-rubrique">Locomoteur <span aria-hidden="true">·</span> Genou</p>
+  <p class="lo-rubrique"><a href="/locomoteur/">MSK</a> <span aria-hidden="true">·</span> Genou</p>
   <button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>
 </header>
 
 <div class="lo-cadre">
   <section class="lo-intro">
-    <p class="lo-sur">Prototype · aide à la décision</p>
+    <p class="lo-sur"><a href="/locomoteur/">MSK Morand</a> · prototype</p>
     <h1>Douleur au genou</h1>
     <p class="lo-avis"><strong>Les poids du calcul sont provisoires et ne sont pas validés : ne pas s'en servir pour décider.</strong>
       Rien n'est transmis ni conservé : les réponses restent dans cette page et s'effacent à sa fermeture.
@@ -95,13 +96,18 @@
   </section>
 </div>
 
+<dialog class="lo-fiche" id="lo-fiche" aria-label="Fiche">
+  <button type="button" class="lo-fiche-fermer" aria-label="Fermer la fiche">Fermer</button>
+  <div class="lo-fiche-corps"></div>
+</dialog>
+
 <div class="lo-barre" id="lo-barre" hidden>
   <p class="lo-barre-texte" id="lo-barre-texte"></p>
   <a class="lo-bouton" href="#resultats">Résultats</a>
 </div>
 
 <footer class="lo-pied">
-  <p>Locomoteur Morand · <span id="lo-version"></span> · aide à la décision, ne remplace pas le jugement clinique · <a href="/confidentialite/">Confidentialité</a></p>
+  <p>MSK Morand · <span id="lo-version"></span> · aide à la décision, ne remplace pas le jugement clinique · <a href="/confidentialite/">Confidentialité</a></p>
 </footer>
 </body>
 </html>

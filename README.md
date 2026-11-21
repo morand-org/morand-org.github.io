@@ -71,26 +71,33 @@ les interventions, ou null (à confirmer) : mêmes règles que le moteur de Weal
 Wealth n'affiche plus ces codes : son en-tête mène ici. L'affichage (montants, part au mixte, « Compris », code 14
 fermé, source et limite des codes de vulnérabilité) se vérifie donc dans le scénario `codes` de `tests/site.test.mjs`.
 
-## Locomoteur Morand (prototype caché)
+## MSK Morand (prototype caché)
 
-`/locomoteur/genou/` : aide à la décision pour la douleur au genou (12 ans et plus). Le clinicien coche l'anamnèse et
-l'examen pendant la visite ; la page calcule le diagnostic différentiel, affiche les alertes (Ottawa, drapeaux rouges), la
-conduite, et rédige une note en texte brut à coller au dossier. Rien n'est transmis ni conservé. Page non indexée, absente
-du plan du site et de l'accueil.
+`/locomoteur/` : aide à la décision pour les consultations musculosquelettiques (12 ans et plus). Nom (« MSK Morand ») et
+sceau temporaires. Pendant la visite, le clinicien coche l'anamnèse et l'examen ; la page calcule le diagnostic
+différentiel, affiche les alertes (Ottawa, drapeaux rouges), propose une conduite, ouvre la fiche de chaque diagnostic et
+rédige la note au format des notes de clinique locomotrice (IDENTIFICATION, RAISON DE CONSULTATION, ANTÉCÉDENTS, HMA,
+EXAMEN PHYSIQUE, EDU, INVESTIGATIONS, IMPRESSION DIAGNOSTIQUE, PLAN). Rien n'est transmis ni conservé. Pages non indexées,
+absentes du plan du site et de l'accueil. Seul le genou est ouvert ; les autres régions suivront.
 
-- `locomoteur/moteur.js` : moteur commun à toutes les articulations (probabilité de départ selon l'âge exact et le sexe,
-  rapports de vraisemblance, groupes de tests qui se recoupent, concurrence entre diagnostics, règles, note, consignes).
-- `locomoteur/genou/donnees-genou.js` : questions, diagnostics, poids, règles et conduite du genou. Une autre articulation
-  = un autre fichier de données et une page `locomoteur/<articulation>/index.html`.
-- `locomoteur/interface.js`, `locomoteur/locomoteur.css` : l'interface.
+- `locomoteur/moteur.js` : moteur commun (probabilité de départ selon l'âge exact et le sexe, rapports de vraisemblance,
+  groupes de tests qui se recoupent, concurrence entre diagnostics, règles, note, consignes de validation).
+- `locomoteur/commun.js` : questions et blocs communs (identification, antécédents, HMA, drapeaux rouges, fonctionnel,
+  ligaments et amplitudes, investigations, plan).
+- `locomoteur/genou/donnees-genou.js` : région de référence. Une autre région = un fichier de données et une page
+  `locomoteur/<région>/index.html`. Brouillons à reprendre au même format : `outils/locomoteur/brouillons/`.
+- `locomoteur/interface.js`, `locomoteur/locomoteur.css` : l'interface (bouton « Tout normal » par bloc, « + Plan »).
+- `locomoteur/fiches.json` : fiches MSK (série athlète, 70 ; série 50 ans et plus, 90), texte seulement, refait par
+  `node outils/locomoteur/importer-fiches.mjs <fiches/> <fiches50/>`. Contenu rédigé de mémoire, à valider.
+- `outils/locomoteur/sceaux.mjs` : les 5 sceaux temporaires (Vitruve, genou, colonne, héron, marteau).
 
-**Aucun poids n'est validé.** Chaque poids a un statut : `provisoire` (estimation clinique), `a_verifier` (valeur publiée
-citée de mémoire, avec une piste), `verifie` (confirmé dans l'article), `valide` (approuvé par le clinicien). Pour valider un
-diagnostic : section « Sources et validation » de la page, « Copier la consigne OpenEvidence », la coller dans Claude in
-Chrome avec OpenEvidence ouvert ; le tableau rendu garde la clé de chaque poids (`question>diagnostic`), ce qui permet de
-reporter chaque chiffre dans le fichier de données après vérification dans l'article.
+**Poids.** Chaque poids a un statut : `provisoire` (estimation clinique), `a_verifier` (valeur publiée citée de mémoire,
+avec une piste), `verifie` (confirmé dans l'article : Lachman, tiroir antérieur, pop, dérobements, enflure et mécanisme
+en pivot pour le LCA, rapport du 21 novembre 2026), `valide` (approuvé par le clinicien). Pour valider un diagnostic :
+section « Sources et validation » de la page, « Copier la consigne », la coller dans Claude in Chrome ; le tableau rendu
+garde la clé de chaque poids (`question>diagnostic`).
 
-Le scénario `locomoteur` de `tests/site.test.mjs` vérifie un cas complet (adolescente, syndrome fémoro-patellaire).
+Le scénario `locomoteur` de `tests/site.test.mjs` vérifie l'accueil de l'outil et un cas complet de genou.
 
 ## Recherche de l'accueil
 
