@@ -227,7 +227,7 @@
     const court = q.court || q.libelle.toLowerCase();
     if (q.type === "case") return v === "oui" ? (q.n || q.libelle) : null;
     if (q.type === "nombre") return q.gabarit ? q.gabarit.replace("{v}", v) : `${court} ${v}${q.unite ? (/^[/°]/.test(q.unite) ? "" : " ") + q.unite : ""}`;
-    if (q.type === "texte") return q.gabarit ? q.gabarit.replace("{v}", String(v).trim()) : String(v).trim();
+    if (q.type === "texte") return q.gabarit ? q.gabarit.replace("{v}", minu(String(v).trim())) : String(v).trim();
     if (q.type === "multi") {
       const ops = v.map(x => q.options.find(o2 => o2.v === x)).filter(Boolean);
       if (ops.some(op => op.exclusif)) return q.aucun || `${court} : aucun`;
@@ -245,7 +245,9 @@
     if (!op) return null;
     let t = op.n !== undefined ? op.n : `${court} : ${op.l.toLowerCase()}`;
     const dq = q.degres && d.parQ[q.degres], dv = dq && rep[q.degres];
-    t = t.replace("{court}", court).replace("{deg}", dv ? " " + (dq.gabarit || "à ~{v}°").replace("{v}", dv) : "");
+    const cq = d.parQ.cote, co = cq && rep.cote ? cq.options.find(x => x.v === rep.cote) : null;
+    t = t.replace("{court}", court).replace("{deg}", dv ? " " + (dq.gabarit || "à ~{v}°").replace("{v}", dv) : "")
+      .replace("{cote}", co && co.abr !== "bilat" ? ` ${co.abr}` : "").replace("{e}", rep.sexe === "F" ? "e" : "");
     return t;
   }
   function rediger(d, res) {
@@ -257,21 +259,23 @@
     const suivi = rep.visite === "suivi";
     const titre = (t, contenu) => { if (contenu.length) out.push(...(out.length ? [""] : []), `${t} :`, ...contenu); };
 
-    // IDENTIFICATION
+    // IDENTIFICATION : « Femme de 23 ans, artiste peintre, rencontrée avec sa mère » sur une seule ligne, puis le reste.
     const id = [], mineur = L.age !== null && L.age < 18;
     const qui = L.sexe === "F" ? (mineur ? "Fille" : "Femme") : L.sexe === "M" ? (mineur ? "Garçon" : "Homme") : "Patient";
-    id.push(`- ${qui}${L.age !== null ? ` de ${L.age} ans` : ""}${rep.accompagne ? `, rencontré${fem ? "e" : ""} avec ${String(rep.accompagne).trim()}` : ""}`);
+    const tq = d.parQ.travail, top = tq && rep.travail ? tq.options.find(o2 => o2.v === rep.travail) : null;
+    const occupation = rep.travail_precision ? minu(String(rep.travail_precision).trim()) : top && top.n ? top.n.replace("{e}", fem ? "e" : "") : null;
+    id.push(`- ${[`${qui}${L.age !== null ? ` de ${L.age} ans` : ""}`, occupation, rep.accompagne ? `rencontré${fem ? "e" : ""} avec ${minu(String(rep.accompagne).trim())}` : null].filter(Boolean).join(", ")}`);
     for (const s of sections("id")) for (const b of s.blocs) for (const q of repondues(b)) {
-      if (["visite", "sexe", "age", "cote", "accompagne"].includes(q.id) || q.precise) continue;
+      if (["visite", "sexe", "age", "cote", "accompagne", "travail", "travail_precision"].includes(q.id) || q.precise) continue;
       const v = rep[q.id];
       if (q.id === "lateralite") { id.push(`- ${q.libelle} : ${{ D: fem ? "droitière" : "droitier", G: fem ? "gauchère" : "gaucher", A: "ambidextre" }[v]}`); continue; }
-      if (q.precision && rep[q.precision]) { id.push(`- ${q.court || q.libelle} : ${String(rep[q.precision]).trim()}`); continue; }
+      if (q.precision && rep[q.precision]) { id.push(`- ${q.court || q.libelle} : ${minu(String(rep[q.precision]).trim())}`); continue; }
       if (q.type === "oui_non") { if (v === "oui") id.push(`- ${maj(q.oui || q.court || q.libelle)}`); continue; }
-      const t = el(q); if (t) id.push(`- ${q.type === "texte" && !q.gabarit ? `${q.court || q.libelle} : ${t}` : maj(t)}`);
+      const t = el(q); if (t) id.push(`- ${q.type === "texte" && !q.gabarit ? `${q.court || q.libelle} : ${minu(t)}` : maj(t)}`);
     }
-    for (const q of d.questions.filter(x => x.precise && x.id in rep && x.section.note === "id")) {
+    for (const q of d.questions.filter(x => x.precise && x.id in rep && x.section.note === "id" && x.id !== "travail_precision")) {
       const parent = d.questions.find(x => x.precision === q.id);
-      if (!parent || !(parent.id in rep)) id.push(`- ${q.court || q.libelle} : ${String(rep[q.id]).trim()}`);
+      if (!parent || !(parent.id in rep)) id.push(`- ${q.court || q.libelle} : ${minu(String(rep[q.id]).trim())}`);
     }
     titre("IDENTIFICATION", id);
 
@@ -287,7 +291,7 @@
       const v = rep[q.id];
       if (muet(q)) continue;
       if (q.type === "oui_non" && v === "non" && !q.non) { nie.push(q.nie || q.court || q.libelle.toLowerCase()); continue; }
-      if (q.type === "texte") { for (const x of lignes(v)) atcd.push(`- ${q.gabarit ? q.gabarit.replace("{v}", x) : maj(x)}`); continue; }
+      if (q.type === "texte") { for (const x of lignes(v)) atcd.push(`- ${q.gabarit ? q.gabarit.replace("{v}", minu(x)) : maj(x)}`); continue; }
       const t = el(q) || (v === "oui" ? (q.court || q.libelle) : null); if (t) atcd.push(`- ${maj(t)}`);
     }
     if (nie.length) atcd.push(`- ${pasDe(nie.map(x => `ATCD de ${x}`))}`);
@@ -305,7 +309,8 @@
         if (q.type === "oui_non" && v === "oui" && q.agg) { if (!agg.length) morceaux.push("{agg}"); agg.push(q.agg); continue; }
         if (q.type === "oui_non" && v === "oui" && !q.oui) { morceaux.push(q.court || q.libelle.toLowerCase()); continue; }
         if (q.type === "texte" && b.texteSepare) { for (const x of lignes(v)) hma.push(`- ${maj(x)}`); continue; }
-        const t = el(q); if (t) morceaux.push(minu(t));
+        const t = el(q); if (!t) continue;
+        if (q.colle && morceaux.length) morceaux[morceaux.length - 1] += ` ${minu(t)}`; else morceaux.push(minu(t));
       }
       if (agg.length) morceaux[morceaux.indexOf("{agg}")] = `augmentée par ${et(agg)}`;
       if (negIci.length) morceaux.push(minu(pasDe(negIci)));
@@ -320,7 +325,12 @@
     const tete = [], module = [], adjacent = [], fin = [];
     for (const s of sections("examen")) for (const b of s.blocs) {
       const qs = repondues(b); if (!qs.length) continue;
-      if (b.tete) { for (const q of qs) { const t = el(q); if (t) tete.push(`- ${q.court || q.libelle} : ${t}`); } continue; }
+      if (b.tete) {
+        const groupes = [];
+        for (const q of qs) { const t = el(q); if (!t) continue; const g = groupes.find(x => x.cle === (q.ligneEx || q.id)); if (g) g.items.push(t); else groupes.push({ cle: q.ligneEx || q.id, items: [t] }); }
+        for (const g of groupes) tete.push(`- ${maj(g.items.join(" ; "))}`);
+        continue;
+      }
       const items = qs.filter(q => !q.precise && !q.lie && !muet(q) && !(q.masqueSi && rep[q.masqueSi])).map(q => el(q)).filter(Boolean);
       if (b.adjacent) { if (items.length) adjacent.push(`${b.adjacent}${b.sansCote ? "" : abr}, ${items.join(", ")}`); continue; }
       if (b.sep) { module.push(`- ${b.titre} : ${items.join(b.sep)}`); continue; }
@@ -359,7 +369,8 @@
     const imp = [];
     const chron = { lt7: "aiguë", s1_6: "aiguë", s6_12: "subaiguë", gt3m: "chronique" }[rep.duree];
     const contexte = [rep.apparition ? (L.trauma() ? "post-traumatique" : "non traumatique") : null, chron,
-      rep.sport && d.parQ.sport ? (rep.sport_precision ? String(rep.sport_precision).split(/[,;]/)[0].trim() : null) : null,
+      rep.sport_precision ? minu(String(rep.sport_precision).split(/[,;]/)[0].trim())
+        : Array.isArray(rep.sport) && d.parQ.sport && !rep.sport.includes("aucun") ? rep.sport.map(x => (d.parQ.sport.options.find(o2 => o2.v === x) || {}).n).filter(Boolean).join(", ") : null,
       rep.evolution ? { mieux: "évolution favorable", stable: "évolution stable", pire: "en aggravation" }[rep.evolution] : null].filter(Boolean);
     const ordre = ["aiguë", "subaiguë", "chronique", "post-traumatique", "non traumatique"];
     contexte.sort((a, b) => (ordre.includes(a) ? ordre.indexOf(a) : 9) - (ordre.includes(b) ? ordre.indexOf(b) : 9));
