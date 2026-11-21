@@ -121,7 +121,8 @@
       info: "Le risque d'arthrite septique augmente avec une prothèse, une chirurgie ou une infiltration récente, le diabète, l'immunosuppression, une PAR connue et l'âge de plus de 80 ans (Margaretten et coll., 2007)." }),
 
     /* Examen : fonctionnel (membre inférieur et bas du dos), en tête d'EXAMEN PHYSIQUE. */
-    /* opts.garder : identifiants des questions à garder (toutes par défaut) ; opts.ajouts : questions propres à la région. */
+    /* opts.garder : identifiants des questions à garder (toutes par défaut) ; opts.ajouts : questions propres à la région ;
+       opts.effets : { question: [effets complets, ex. { dx, rv, statut, piste }] } pour des poids vérifiés. */
     fonctionnel: (rv = {}, opts = {}) => ({ titre: "Fonctionnel", tete: true, toutNormal: true, questions: [
       choix("posture", "Posture", [o("normale", "Normale", {}, { n: "posture normale" }), o("valgus", "Genu valgum", rv.valgum, { n: "genu valgum" }),
         o("varus", "Genu varum", rv.varum, { n: "genu varum" }), o("flexum", "Flexum", rv.flexum, { n: "flexum" }), o("recurvatum", "Recurvatum", rv.recurvatum, { n: "recurvatum" })], { ligneEx: "posture" }),
@@ -143,7 +144,8 @@
       choix("saut_bi", "Saut bipodal", [o("normal", "Normal et indolore", rv.saut_normal, { n: "saut bipodal normal et indolore" }), o("douleur", "Douloureux", rv.saut_douleur, { n: "saut bipodal douloureux" })], { ligneEx: "saut" }),
       choix("saut_uni", "Saut unipodal", [o("normal", "Normal", {}, { n: "saut unipodal{cote} normal" }), o("douleur", "Douloureux", rv.saut_uni, { n: "saut unipodal{cote} douloureux" }),
         ...(rv.saut_impossible ? [o("impossible", "Impossible", rv.saut_impossible, { n: "saut unipodal{cote} impossible" })] : [])], { horsNormal: true, ligneEx: "saut", effets: rv.sautEffets }),
-    ].filter(q => !opts.garder || opts.garder.includes(q.id)).concat(opts.ajouts || []) }),
+    ].filter(q => !opts.garder || opts.garder.includes(q.id)).concat(opts.ajouts || [])
+      .map(q => { if (opts.effets && opts.effets[q.id]) q.effets.push(...opts.effets[q.id].map(e => ({ statut: "provisoire", ...e }))); return q; }) }),
     // Ligament : normal et indolore / douleur sans laxité / laxité.
     lig: (id, libelle, court, effets, extra = {}) => choix(id, libelle, [o("normal", "Normal et indolore", {}, { n: "{court} normal et indolore" }),
       o("douleur", "Douleur sans laxité", extra.douleur || {}, { n: "{court} douloureux sans laxité" }), o("laxite", "Laxité", extra.laxite || {}, { n: "{court} avec laxité" }),
