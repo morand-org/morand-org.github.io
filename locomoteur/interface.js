@@ -130,7 +130,7 @@
   }
   const liens = l => (l && l.length ? `<p class="lo-liens">${l.map(x => `<a href="${esc(x.u)}">${esc(x.t)}</a>`).join("")}</p>` : "");
   function diagnostics(res) {
-    const seulsDepart = Object.keys(res.rep).every(k => ["sexe", "age", "cote", "lateralite"].includes(k));
+    const seulsDepart = !Object.keys(res.rep).some(k => d.parQ[k] && d.parQ[k].effets.length);   // rien encore qui compte, à part l'âge et le sexe
     const tete = res.diagnostics[0];
     $("#lo-res-etat").textContent = !res.saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(res)}). Remplissez l'anamnèse et l'examen.`
