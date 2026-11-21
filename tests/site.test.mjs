@@ -27,7 +27,7 @@ function verifier(nom, condition, detail) {
   else { echecs++; console.error(`ÉCHEC : ${nom}${detail !== undefined ? ` (${typeof detail === "string" ? detail : JSON.stringify(detail)})` : ""}`); }
 }
 const lire = f => fs.readFileSync(path.join(RACINE, f), "utf8");
-const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/"];
+const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/"];
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
@@ -358,9 +358,73 @@ async function guide(nav) {
   verifier("Guide : aucun doublon d'adresse dans le catalogue", new Set(d.map(x => x.url)).size === d.length);
 }
 
+/* 7 bis. MSK Morand (prototype caché) : l'accueil de l'outil, puis un cas complet de genou, du questionnaire à la note.
+   Fille de 15 ans, douleur antérieure graduelle, pire aux escaliers et assise : le syndrome fémoro-patellaire passe en tête. */
+async function locomoteur(nav) {
+  {
+    const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/", { largeur: 390 });
+    const r = await p.evaluate(() => ({ titre: document.querySelector("h1").textContent, liens: [...document.querySelectorAll("a.lo-region")].map(a => a.getAttribute("href")),
+      regions: document.querySelectorAll(".lo-region").length }));
+    verifier("MSK Morand : l'accueil liste 9 régions, le genou est ouvert", r.titre === "MSK Morand" && r.regions === 9 && r.liens.join() === "/locomoteur/genou/", r);
+    verifier("MSK Morand : accueil sans erreur", erreurs.length === 0, erreurs);
+    await ctx.close();
+  }
+  for (const largeur of [390, 1280]) {
+    const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur, hauteur: largeur > 1000 ? 900 : 844 });
+    await ctx.grantPermissions(["clipboard-read", "clipboard-write"]);
+    const clic = async (q, v) => (await p.locator(`select[data-q="${q}"]`).count()) ? p.selectOption(`select[data-q="${q}"]`, v) : p.click(`button[data-q="${q}"][data-v="${v}"]`);
+    await clic("sexe", "F"); await p.fill("#c-age", "15"); await clic("cote", "G"); await p.fill("#c-accompagne", "sa mère");
+    verifier(`Genou ${largeur} px : avec l'âge et le sexe seulement, les probabilités de départ sont annoncées`, /départ \(femme, 15 ans\)/.test(await p.textContent("#lo-res-etat")));
+    verifier(`Genou ${largeur} px : adolescente, la hanche est à examiner`, (await p.textContent("#lo-alertes")).includes("Examiner la hanche"));
+    await clic("duree", "s6_12"); await clic("apparition", "graduel"); await p.click('button[data-q="localisation"][data-m="anterieure"]');
+    await clic("escaliers", "oui"); await clic("assis", "oui"); await clic("derobade", "non"); await clic("enflure", "non"); await clic("fievre", "non");
+    verifier(`Genou ${largeur} px : le mécanisme ne s'affiche qu'après un traumatisme`, await p.locator('[data-qid="mecanisme"]').isHidden());
+    // « Tout normal » remplit un bloc d'un clic (palpation), sans les points facultatifs.
+    await p.click('[data-bloc="examen-3"] button[data-normal]');
+    verifier(`Genou ${largeur} px : « Tout normal » remplit la palpation, sauf les points facultatifs`,
+      (await p.getAttribute('button[data-q="p_rotule"][data-v="non"]', "aria-pressed")) === "true" && (await p.getAttribute('button[data-q="p_facettes"][data-v="non"]', "aria-pressed")) === "false");
+    await clic("p_facettes", "oui"); await clic("flot", "negatif"); await clic("lachman", "normal"); await clic("squat_bi", "ant"); await clic("hanche_ri", "normale");
+    await p.click('button[data-q="plan_enseignement"]');
+    await p.waitForTimeout(150);
+    const r = await p.evaluate(() => ({ tete: document.querySelector("#lo-dx .lo-dx-nom").textContent, cat: document.querySelector("#lo-dx .lo-dx-cat").textContent,
+      note: document.querySelector("#lo-note").value }));
+    verifier(`Genou ${largeur} px : syndrome fémoro-patellaire en tête, très probable`, r.tete === "Syndrome fémoro-patellaire" && r.cat === "Très probable", r.tete);
+    verifier(`Genou ${largeur} px : la note suit le format clinique (identification, HMA, examen, impression, plan)`,
+      r.note.startsWith("IDENTIFICATION :\n- Fille de 15 ans, rencontrée avec sa mère") && r.note.includes("\nRAISON DE CONSULTATION :\nDouleur au genou G")
+      && /\nHMA :\n/.test(r.note) && r.note.includes("\nGENOU :\nCôté atteint : gauche\n") && r.note.includes("- Palpation : rotule indolore ; facettes rotuliennes douloureuses")
+      && r.note.includes("- LCA : Lachman normal et indolore") && r.note.includes("1- Douleur au genou G subaiguë, non traumatique")
+      && r.note.includes("- Syndrome fémoro-patellaire très prob") && r.note.includes("\nPLAN :\n- Enseignement et conseils") && !/%/.test(r.note), r.note.slice(0, 400));
+    // Une réponse « ? » ne compte pas ; un second clic efface la réponse.
+    const avant = await p.textContent("#lo-res-etat");
+    await clic("marche", "?"); await p.waitForTimeout(80);
+    verifier(`Genou ${largeur} px : « ? » ne compte pas`, (await p.textContent("#lo-res-etat")) === avant, [avant, await p.textContent("#lo-res-etat")]);
+    // Traumatisme récent : la règle d'Ottawa demande la radiographie au premier critère.
+    await clic("apparition", "subit_trauma"); await clic("duree", "lt7"); await clic("p_perone", "oui"); await p.waitForTimeout(80);
+    verifier(`Genou ${largeur} px : règle d'Ottawa positive, radiographie indiquée`, (await p.textContent("#lo-alertes")).includes("Radiographie du genou indiquée"));
+    // La fiche du diagnostic s'ouvre ; une suggestion de conduite s'ajoute au plan.
+    await p.click("#lo-dx .lo-dx-item summary"); const fiche = p.locator("#lo-dx button[data-fiche]").first();
+    if (await fiche.count()) { await fiche.click(); await p.waitForTimeout(300); verifier(`Genou ${largeur} px : la fiche s'ouvre`, (await p.textContent("#lo-fiche h2")).length > 5); await p.click(".lo-fiche-fermer"); }
+    await p.click("#t-conduite"); await p.locator(".lo-plus").first().click(); await p.waitForTimeout(100);
+    verifier(`Genou ${largeur} px : « + Plan » ajoute la suggestion au plan`, (await p.inputValue('[data-q="plan_ajouts"]')).length > 10);
+    // Copier la note, puis la consigne de validation.
+    await p.click("#t-note"); await p.click("#lo-copier"); await p.waitForTimeout(150);
+    verifier(`Genou ${largeur} px : la note est copiée`, (await p.evaluate(() => navigator.clipboard.readText())).startsWith("IDENTIFICATION :"));
+    await p.selectOption("#lo-src-dx", "lca"); await p.click("#lo-consigne"); await p.waitForTimeout(150);
+    const c = await p.evaluate(() => navigator.clipboard.readText());
+    verifier(`Genou ${largeur} px : la consigne de validation du LCA reprend chaque poids avec sa clé`, c.includes("Diagnostic à valider : Rupture du LCA") && c.includes("lachman>lca | Lachman") && c.includes("Se 81") && c.includes("PMID ou DOI"));
+    verifier(`Genou ${largeur} px : le tableau des sources montre les poids du diagnostic choisi`, (await p.locator("#lo-table tbody tr").count()) > 20);
+    // Nouveau patient : tout s'efface.
+    p.once("dialog", dlg => dlg.accept()); await p.click("#lo-nouveau"); await p.waitForTimeout(100);
+    verifier(`Genou ${largeur} px : « Nouveau patient » efface tout`, (await p.locator('#lo-form button[aria-pressed="true"]').count()) === 0 && (await p.inputValue("#c-age")) === "");
+    verifier(`Genou ${largeur} px : rien n'est conservé dans l'appareil`, await p.evaluate(() => localStorage.length === 0 || !Object.keys(localStorage).some(k => k.includes("locomoteur"))));
+    verifier(`Genou ${largeur} px : aucune erreur`, erreurs.length === 0, erreurs);
+    await ctx.close();
+  }
+}
+
 /* 8. Mode sombre : les textes restent lisibles (contraste d'au moins 3 pour 1) sur chaque page. */
 async function sombre(nav) {
-  for (const u of ["/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/", "/merci/"]) {
+  for (const u of ["/", "/guides/", "/guides/ressources-communautaires/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/"]) {
     const { ctx, p } = await ouvrir(nav, u, { sombre: true });
     if (u === "/merci/") await p.waitForTimeout(2600);   // les entrées en fondu
     const r = await p.evaluate(() => { const lum = c => { const m = c.match(/[\d.]+/g).map(Number), f = v => { v /= 255; return v <= .03928 ? v / 12.92 : ((v + .055) / 1.055) ** 2.4; }; return .2126 * f(m[0]) + .7152 * f(m[1]) + .0722 * f(m[2]); };
@@ -388,7 +452,7 @@ function fichiers() {
   }
   verifier("map/index.html : adresse canonique laissée à Trouve ta clinique", lire("map/index.html").includes('<link rel="canonical" href="https://trouvetaclinique.ca/monteregie/">'));
   // Pages écrites pour Morand : politique de sécurité stricte, donc ni style en ligne ni script en ligne.
-  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html", "merci/index.html"]) {
+  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html", "merci/index.html", "locomoteur/index.html", "locomoteur/genou/index.html"]) {
     const h = lire(f);
     verifier(`${f} : politique de sécurité du contenu présente`, /Content-Security-Policy" content="default-src 'self'/.test(h));
     verifier(`${f} : aucun attribut style, aucun script en ligne`, !/\sstyle="/.test(h) && !/<script(?![^>]*\bsrc=)(?![^>]*ld\+json)[^>]*>/.test(h));
@@ -408,13 +472,15 @@ function fichiers() {
   }
   verifier("plein-ecran.js : n'ajoute « cover » qu'en mode app installée", /display-mode: standalone/.test(lire("morand/plein-ecran.js")) && /viewport-fit=cover/.test(lire("morand/plein-ecran.js")));
   verifier("remerciements : page cachée (non indexée, absente du plan du site)", lire("merci/index.html").includes('<meta name="robots" content="noindex,nofollow">') && !plan.includes("/merci/"));
+  verifier("MSK Morand (prototype) : pages cachées (non indexées, absentes du plan du site et de l'accueil)", ["locomoteur/index.html", "locomoteur/genou/index.html"].every(f => lire(f).includes('<meta name="robots" content="noindex,nofollow">'))
+    && !plan.some(u => u.startsWith("/locomoteur/")) && !lire("index.html").includes("/locomoteur/"));
   verifier("robots.txt : annonce le plan du site", lire("robots.txt").includes("Sitemap: https://www.morand.org/sitemap.xml"));
   const m = JSON.parse(lire("manifest.webmanifest"));
   verifier("manifeste : un raccourci par outil, icônes présentes", m.shortcuts.map(s => s.url).join() === "/wealth/,/guides/,/map/,/crds/,/codes/" && m.shortcuts.every(s => fs.existsSync(path.join(RACINE, s.icons[0].src))), m.shortcuts.map(s => s.url));
   verifier("dépôt : CNAME et .nojekyll", lire("CNAME").trim() === "www.morand.org" && fs.existsSync(path.join(RACINE, ".nojekyll")));
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, sombre };
+const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {

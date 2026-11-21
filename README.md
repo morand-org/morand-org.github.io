@@ -71,6 +71,34 @@ les interventions, ou null (à confirmer) : mêmes règles que le moteur de Weal
 Wealth n'affiche plus ces codes : son en-tête mène ici. L'affichage (montants, part au mixte, « Compris », code 14
 fermé, source et limite des codes de vulnérabilité) se vérifie donc dans le scénario `codes` de `tests/site.test.mjs`.
 
+## MSK Morand (prototype caché)
+
+`/locomoteur/` : aide à la décision pour les consultations musculosquelettiques (12 ans et plus). Nom (« MSK Morand ») et
+sceau temporaires. Pendant la visite, le clinicien coche l'anamnèse et l'examen ; la page calcule le diagnostic
+différentiel, affiche les alertes (Ottawa, drapeaux rouges), propose une conduite, ouvre la fiche de chaque diagnostic et
+rédige la note au format des notes de clinique locomotrice (IDENTIFICATION, RAISON DE CONSULTATION, ANTÉCÉDENTS, HMA,
+EXAMEN PHYSIQUE, EDU, INVESTIGATIONS, IMPRESSION DIAGNOSTIQUE, PLAN). Rien n'est transmis ni conservé. Pages non indexées,
+absentes du plan du site et de l'accueil. Seul le genou est ouvert ; les autres régions suivront.
+
+- `locomoteur/moteur.js` : moteur commun (probabilité de départ selon l'âge exact et le sexe, rapports de vraisemblance,
+  groupes de tests qui se recoupent, concurrence entre diagnostics, règles, note, consignes de validation).
+- `locomoteur/commun.js` : questions et blocs communs (identification, antécédents, HMA, drapeaux rouges, fonctionnel,
+  ligaments et amplitudes, investigations, plan).
+- `locomoteur/genou/donnees-genou.js` : région de référence. Une autre région = un fichier de données et une page
+  `locomoteur/<région>/index.html`. Brouillons à reprendre au même format : `outils/locomoteur/brouillons/`.
+- `locomoteur/interface.js`, `locomoteur/locomoteur.css` : l'interface (bouton « Tout normal » par bloc, « + Plan »).
+- `locomoteur/fiches.json` : fiches MSK (série athlète, 70 ; série 50 ans et plus, 90), texte seulement, refait par
+  `node outils/locomoteur/importer-fiches.mjs <fiches/> <fiches50/>`. Contenu rédigé de mémoire, à valider.
+- `outils/locomoteur/sceaux.mjs` : les 5 sceaux temporaires (Vitruve, genou, colonne, héron, marteau).
+
+**Poids.** Chaque poids a un statut : `provisoire` (estimation clinique), `a_verifier` (valeur publiée citée de mémoire,
+avec une piste), `verifie` (confirmé dans l'article : Lachman, tiroir antérieur, pop, dérobements, enflure et mécanisme
+en pivot pour le LCA, rapport du 21 novembre 2026), `valide` (approuvé par le clinicien). Pour valider un diagnostic :
+section « Sources et validation » de la page, « Copier la consigne », la coller dans Claude in Chrome ; le tableau rendu
+garde la clé de chaque poids (`question>diagnostic`).
+
+Le scénario `locomoteur` de `tests/site.test.mjs` vérifie l'accueil de l'outil et un cas complet de genou.
+
 ## Recherche de l'accueil
 
 `morand/recherche.js` cherche dans les données déjà publiées des outils (`guides/donnees.json`,
