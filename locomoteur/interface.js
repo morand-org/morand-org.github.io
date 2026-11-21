@@ -16,35 +16,81 @@
 
   /* ---------- Questionnaire ---------- */
   const etiquettes = q => q.labels || q.bloc.labels || ["Oui", "Non"];
-  function segments(q, opts) {
-    return `<div class="lo-seg" role="group" aria-labelledby="l-${q.id}">${opts.map(([v, l]) =>
-      `<button type="button" data-q="${q.id}" data-v="${esc(v)}" aria-pressed="false">${esc(l)}</button>`).join("")}<button type="button" class="lo-inconnu" data-q="${q.id}" data-v="?" aria-pressed="false" title="Ne sait pas ou indéterminé : non compté" aria-label="Ne sait pas">?</button></div>`;
+  // Boutons de réponse : choix, « Équivoque » pour les tests (aucun effet sur le calcul), puis N/A (non évalué, non compté).
+  const equivoque = q => q.equivoque || (q.type === "oui_non" && (q.res || q.bloc.res) === "test");
+  function segments(q, opts, lid) {
+    const extra = equivoque(q) && q.type === "oui_non" ? [["equivoque", "Équivoque"]] : [];
+    return `<div class="lo-seg" role="group" aria-labelledby="${lid}">${[...opts, ...extra].map(([v, l]) =>
+      `<button type="button" data-q="${q.id}" data-v="${esc(v)}" aria-pressed="false">${esc(l)}</button>`).join("")}<button type="button" class="lo-inconnu" data-q="${q.id}" data-v="?" aria-pressed="false" title="Non évalué ou ne sait pas : non compté">N/A</button></div>`;
   }
-  function controle(q) {
-    const lid = `l-${q.id}`;
+  /* Une question, ou un miroir : le miroir montre le contrôle de sa cible (même clé de réponse) sous son propre libellé. */
+  function controle(q0) {
+    const q = q0.type === "miroir" ? { ...d.parQ[q0.cible], libelle: q0.libelle, aide: q0.aide, info: q0.info || d.parQ[q0.cible].info, dom: q0.id } : q0;
+    const dom = q.dom || q.id, lid = `l-${dom}`;
     let ctl = "", large = false;
-    if (q.type === "oui_non") { const [a, b] = etiquettes(q); ctl = segments(q, [["oui", a], ["non", b]]); }
+    if (q.type === "oui_non") { const [a, b] = etiquettes(q); ctl = segments(q, [["oui", a], ["non", b]], lid); }
     else if (q.type === "choix") {
       const court = q.options.length <= 4 && q.options.every(o => o.l.length <= 36) && q.options.reduce((n, o) => n + o.l.length, 0) <= 72;
-      if (court) ctl = segments(q, q.options.map(o => [o.v, o.l]));
-      else ctl = `<select class="lo-select" id="c-${q.id}" data-q="${q.id}" aria-labelledby="${lid}"><option value="">—</option>${q.options.map(o =>
-        `<option value="${esc(o.v)}">${esc(o.l)}</option>`).join("")}<option value="?">Ne sait pas</option></select>`;
+      if (court) ctl = segments(q, q.options.map(o => [o.v, o.l]), lid);
+      else ctl = `<select class="lo-select" id="c-${dom}" data-q="${q.id}" aria-labelledby="${lid}"><option value="">—</option>${q.options.map(o =>
+        `<option value="${esc(o.v)}">${esc(o.l)}</option>`).join("")}<option value="?">N/A</option></select>`;
     } else if (q.type === "case") {
       ctl = `<button type="button" class="lo-puce lo-case" data-q="${q.id}" data-v="oui" aria-pressed="false" aria-labelledby="${lid}">${esc(q.n || q.libelle)}</button>`;
-      return `<div class="lo-q lo-q-case" data-qid="${q.id}"><span class="cache" id="${lid}">${esc(q.libelle)}</span>${ctl}</div>`;
+      return `<div class="lo-q lo-q-case" data-qid="${dom}"><span class="cache" id="${lid}">${esc(q.libelle)}</span>${ctl}</div>`;
     } else if (q.type === "multi") {
       large = true;
       ctl = `<div class="lo-puces" role="group" aria-labelledby="${lid}">${q.options.map(o =>
         `<button type="button" class="lo-puce" data-q="${q.id}" data-m="${esc(o.v)}" aria-pressed="false">${esc(o.l)}</button>`).join("")}</div>`;
     } else if (q.type === "nombre") {
-      ctl = `<span class="lo-nombre"><input type="number" inputmode="numeric" id="c-${q.id}" data-q="${q.id}" aria-labelledby="${lid}"${q.min !== undefined ? ` min="${q.min}"` : ""}${q.max !== undefined ? ` max="${q.max}"` : ""} step="1">${q.unite ? `<span class="lo-unite">${esc(q.unite)}</span>` : ""}</span>`;
+      ctl = `<span class="lo-nombre"><input type="number" inputmode="numeric" id="c-${dom}" data-q="${q.id}" aria-labelledby="${lid}"${q.min !== undefined ? ` min="${q.min}"` : ""}${q.max !== undefined ? ` max="${q.max}"` : ""} step="1">${q.unite ? `<span class="lo-unite">${esc(q.unite)}</span>` : ""}</span>`;
     } else {
       large = true;
-      ctl = q.long ? `<textarea class="lo-texte-libre" id="c-${q.id}" data-q="${q.id}" aria-labelledby="${lid}" rows="2"></textarea>`
-        : `<input type="text" class="lo-texte-libre" id="c-${q.id}" data-q="${q.id}" aria-labelledby="${lid}">`;
+      ctl = q.long ? `<textarea class="lo-texte-libre" id="c-${dom}" data-q="${q.id}" aria-labelledby="${lid}" rows="2"></textarea>`
+        : `<input type="text" class="lo-texte-libre" id="c-${dom}" data-q="${q.id}" aria-labelledby="${lid}">`;
     }
-    const calcul = q.effets.length > 0 || q.id === "sexe" || q.id === "age";
-    return `<div class="lo-q${large ? " lo-q-large" : ""}${calcul ? " lo-q-calcul" : ""}" data-qid="${q.id}"><div class="lo-q-texte"><span class="lo-q-libelle" id="${lid}">${esc(q.libelle)}${calcul ? '<span class="cache"> (compte dans le calcul)</span>' : ""}</span>${q.aide ? `<span class="lo-q-aide">${esc(q.aide)}</span>` : ""}</div>${ctl}</div>`;
+    const calcul = q.effets.length > 0 || q.id === "sexe" || q.id === "age" || grappesDe(q).length > 0;
+    const info = q.info || q.video || calcul ? `<button type="button" class="lo-info" data-info="${dom}" aria-expanded="false" aria-controls="i-${dom}" title="Information">i<span class="cache"> : information sur ${esc(q.libelle)}</span></button>` : "";
+    return `<div class="lo-q${large ? " lo-q-large" : ""}${calcul ? " lo-q-calcul" : ""}" data-qid="${dom}"><div class="lo-q-texte"><span class="lo-q-tete"><span class="lo-q-libelle" id="${lid}">${esc(q.libelle)}${calcul ? '<span class="cache"> (compte dans le calcul)</span>' : ""}</span>${info}</span>${q.aide ? `<span class="lo-q-aide">${esc(q.aide)}</span>` : ""}</div>${ctl}<div class="lo-info-panneau" id="i-${dom}" hidden></div></div>`;
+  }
+  /* Panneau « i » : pourquoi on le demande, comment faire le test, ce que la réponse change dans le calcul, vidéo. */
+  const nomDx = id => d.parDx[id].n;
+  function libelleValeur(q, v) {
+    if (q.type === "oui_non") return LO.libelleOption(q, v);
+    if (q.type === "multi") return (q.options.find(o => o.v === v) || {}).l || v;
+    return (q.options.find(o => o.v === v) || {}).l || v;
+  }
+  const grappesDe = q => (d.grappes || []).filter(g => g.couvre.includes(q.id) || q.effets.some(e => e.g && g.couvre.includes(e.g)));
+  function infoHtml(q0) {
+    const q = q0.type === "miroir" ? { ...d.parQ[q0.cible], info: q0.info || d.parQ[q0.cible].info } : q0;
+    const morceaux = [];
+    if (q.info) morceaux.push(`<p>${esc(q.info)}</p>`);
+    if (q.positif) morceaux.push(`<p><strong>Positif si :</strong> ${esc(q.positif)}</p>`);
+    if (q.id === "sexe" || q.id === "age") morceaux.push("<p>Fixe la probabilité de départ de chaque diagnostic (fréquence selon l'âge exact et le sexe), avant toute autre réponse.</p>");
+    // Effet sur le calcul, tiré des poids : par réponse, les diagnostics qui montent ou descendent le plus.
+    const parValeur = new Map();
+    const ajoute = (v, dx, rv, e) => { if (!(rv > 0) || Math.abs(Math.log(rv)) < 0.05) return; if (!parValeur.has(v)) parValeur.set(v, []); parValeur.get(v).push({ dx, rv, e }); };
+    for (const e of q.effets) {
+      if (e.rv) for (const [v, rv] of Object.entries(e.rv)) ajoute(v, e.dx, rv, e);
+      else {
+        const [rp, rn] = LO.rvPosNeg(e), pos = e.pos || ["oui"], neg = e.neg || ["non"];
+        const vp = q.type === "multi" ? e.opt : pos[0], vn = q.type === "multi" ? null : neg[0];
+        if (rp !== undefined && rp !== null) ajoute(vp, e.dx, rp, e);
+        if (vn && rn !== undefined && rn !== null) ajoute(vn, e.dx, rn, e);
+      }
+    }
+    if (parValeur.size) {
+      const lignes = [...parValeur.entries()].map(([v, l]) => {
+        l.sort((a, b) => Math.abs(Math.log(b.rv)) - Math.abs(Math.log(a.rv)));
+        return `<li><b>${esc(libelleValeur(q, v))}</b> : ${l.slice(0, 5).map(x => `${x.rv > 1 ? "↑" : "↓"} ${esc(nomDx(x.dx))} ×${nb(x.rv)}${x.e.statut === "verifie" || x.e.statut === "valide" ? " (vérifié)" : ""}`).join(" ; ")}</li>`;
+      });
+      morceaux.push(`<p class="lo-info-titre">Effet sur le calcul</p><ul>${lignes.join("")}</ul>`);
+      const sources = [...new Set(q.effets.filter(e => e.piste).map(e => e.piste))];
+      if (sources.length) morceaux.push(`<p class="lo-info-source">Sources : ${sources.map(esc).join(" · ")}</p>`);
+    }
+    const grappes = grappesDe(q);
+    if (grappes.length) morceaux.push(`<p class="lo-info-titre">Fait partie d'une combinaison validée</p><ul>${grappes.map(g => `<li>${esc(g.nom)} : ${g.rv > 1 ? "↑" : "↓"} ${esc(nomDx(g.dx))} ×${nb(g.rv)}${g.statut === "verifie" || g.statut === "valide" ? " (vérifié)" : ""}${g.piste ? ` <span class="lo-info-source">${esc(g.piste)}</span>` : ""}</li>`).join("")}</ul>`);
+    if (q.video) morceaux.push(`<p><a href="https://www.youtube.com/results?search_query=${encodeURIComponent(`Physiotutors ${q.video}`)}" target="_blank" rel="noopener">Vidéo Physiotutors : ${esc(q.video)}</a></p>`);
+    return morceaux.join("") || "<p>Pour la note seulement.</p>";
   }
   function construire() {
     form.innerHTML = d.sections.map(s => `<section class="lo-section" id="s-${s.id}" aria-labelledby="h-${s.id}"><h2 id="h-${s.id}">${esc(s.titre)}</h2>${s.blocs.map((b, i) => {
@@ -63,6 +109,13 @@
     }
   }
   form.addEventListener("click", e => {
+    const bi = e.target.closest("button[data-info]");
+    if (bi) {
+      const panneau = document.getElementById(`i-${bi.dataset.info}`), q = d.parQ[bi.dataset.info], ouvrir = panneau.hidden;
+      if (ouvrir) panneau.innerHTML = infoHtml(q);
+      panneau.hidden = !ouvrir; bi.setAttribute("aria-expanded", ouvrir ? "true" : "false");
+      return;
+    }
     const tout = e.target.closest("button[data-normal]");
     if (tout) {
       const vus = LO.visibles(d, rep), bloc = d.sections.flatMap(s => s.blocs).find(x => x.ref === tout.dataset.normal);
@@ -92,6 +145,7 @@
     if (!el || el.tagName === "BUTTON") return;
     const v = el.value.trim();
     if (v === "") delete rep[el.dataset.q]; else rep[el.dataset.q] = v;
+    for (const autre of form.querySelectorAll(`[data-q="${el.dataset.q}"]:not(button)`)) if (autre !== el) autre.value = el.value;
     planifier();
   };
   form.addEventListener("input", saisie);
@@ -130,7 +184,7 @@
   }
   const liens = l => (l && l.length ? `<p class="lo-liens">${l.map(x => `<a href="${esc(x.u)}">${esc(x.t)}</a>`).join("")}</p>` : "");
   function diagnostics(res) {
-    const seulsDepart = !Object.keys(res.rep).some(k => d.parQ[k] && d.parQ[k].effets.length);   // rien encore qui compte, à part l'âge et le sexe
+    const seulsDepart = res.diagnostics.every(x => !x.comptes.length);   // rien encore qui compte, à part l'âge et le sexe
     const tete = res.diagnostics[0];
     $("#lo-res-etat").textContent = !res.saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(res)}). Remplissez l'anamnèse et l'examen.`
@@ -164,14 +218,14 @@
     const graves = res.alertes.filter(a => a.niveau !== "info" && a.conduite);
     let h = graves.length ? `<h3 class="lo-c-titre">Alertes</h3>${alertesHtml(graves, true)}` : "";
     const dejaPlan = String(rep.plan_ajouts || "").split(/\r?\n/).map(x => x.trim());
-    const ligne = t => `<li><span>${esc(t)}</span><button type="button" class="lo-plus" data-plan="${esc(t)}"${dejaPlan.includes(t.replace(/\.$/, "")) ? " disabled" : ""}>+ Plan</button></li>`;
+    const ligne = c => `<li><span>${esc(c.t)}${c.src ? `<span class="lo-src">${esc(c.src)}</span>` : ""}</span><button type="button" class="lo-plus" data-plan="${esc(c.t)}"${dejaPlan.includes(c.t.replace(/\.$/, "")) ? " disabled" : ""}>+ Plan</button></li>`;
     if (res.conduite.length) h += res.conduite.map(c => `<section class="lo-c-dx"><h3>${esc(c.dx.x.nom)} <span class="lo-dx-cat" data-cat="${c.dx.categorie[2]}">${c.dx.categorie[1]}</span></h3>
       <ul>${c.items.map(ligne).join("")}</ul>${liens(c.liens)}</section>`).join("");
-    else h += `<p class="lo-vide">Aucune hypothèse n'est encore assez probable pour proposer une conduite.</p>`;
-    h += `<p class="lo-discret">Conduite indicative, tirée des lignes directrices courantes (Ottawa, Choisir avec soin, NICE, CRDS) ; à valider.</p>`;
+    else h += `<p class="lo-vide">Aucune hypothèse n'est encore assez probable pour proposer une conduite propre à un diagnostic.</p>`;
+    if (res.mesures.length) h += `<h3 class="lo-c-titre lo-c-mesures">Mesures générales</h3>` + res.mesures.map(g => `<section class="lo-c-dx"><h3>${esc(g.titre)}</h3><ul>${g.items.map(ligne).join("")}</ul></section>`).join("");
+    h += `<p class="lo-discret">Conduite indicative, à adapter au patient. La source de chaque recommandation est indiquée en petit ; « + Plan » n'ajoute que l'action.</p>`;
     $("#lo-conduite").innerHTML = h;
   }
-
   $("#lo-conduite").addEventListener("click", e => {
     const b = e.target.closest("button[data-plan]");
     if (!b) return;
@@ -255,18 +309,19 @@
   });
 
   /* ---------- Sources et validation ---------- */
-  const tousPoids = d.questions.flatMap(q => q.effets);
+  const tousPoids = [...d.questions.flatMap(q => q.effets), ...(d.grappes || [])];
   function statistiques() {
     const n = { provisoire: 0, a_verifier: 0, verifie: 0, valide: 0 };
     for (const e of tousPoids) n[e.statut]++;
-    $("#lo-stats").textContent = `${tousPoids.length} poids : ${n.valide} validé${n.valide > 1 ? "s" : ""}, ${n.verifie} vérifié${n.verifie > 1 ? "s" : ""}, ${n.a_verifier} à vérifier (littérature), ${n.provisoire} provisoires. Probabilités de départ et multiplicateurs du sexe : provisoires.`;
+    const articles = new Set(tousPoids.filter(e => e.statut === "verifie" || e.statut === "valide").flatMap(e => (e.piste || "").split(/ ; | · /)).map(x => x.trim()).filter(Boolean));
+    $("#lo-stats").textContent = `${tousPoids.length} poids : ${n.valide} validé${n.valide > 1 ? "s" : ""}, ${n.verifie} vérifié${n.verifie > 1 ? "s" : ""} (${articles.size} source${articles.size > 1 ? "s" : ""}), ${n.a_verifier} à vérifier, ${n.provisoire} provisoires. Fréquences de départ : provisoires.`;
   }
   const elementDe = LO.elementDe;
-  const poidsDe = id => tousPoids.filter(e => e.dx === id);
+  const poidsDe = id => tousPoids.filter(e => e.dx === id && !e.grappe);
   function tableau() {
     const id = $("#lo-src-dx").value, x = d.parDx[id], lignes = [];
     lignes.push(`<tr class="lo-depart"><td>Probabilité de départ : ${x.base.map(([a, pr]) => `${a} ans ${pctExact(pr)}`).join(", ")}${x.sexe ? ` ; ${Object.entries(x.sexe).map(([s, f]) => `${s === "F" ? "femme" : "homme"} ×${nb(f)}`).join(", ")}` : ""}</td>
-      <td colspan="4"></td><td><span class="lo-statut" data-statut="provisoire">Provisoire</span></td><td></td></tr>`);
+      <td colspan="4"></td><td><span class="lo-statut" data-statut="provisoire">Provisoire</span></td><td>${esc(x.repere || "")}</td></tr>`);
     for (const e of poidsDe(id)) {
       const statut = `<span class="lo-statut" data-statut="${e.statut}">${LO.STATUTS[e.statut]}</span>`, piste = esc(e.piste || "");
       if (e.rv) for (const [v, rv] of Object.entries(e.rv)) lignes.push(`<tr><td>${esc(elementDe(e, v))}</td><td>—</td><td>—</td><td colspan="2">RV ${nb(rv)}</td><td>${statut}</td><td>${piste}</td></tr>`);
@@ -275,13 +330,17 @@
         lignes.push(`<tr><td>${esc(elementDe(e))}</td><td>${e.se !== undefined ? pctExact(e.se) : "—"}</td><td>${e.sp !== undefined ? pctExact(e.sp) : "—"}</td><td>${nb(rp)}</td><td>${nb(rn)}</td><td>${statut}</td><td>${piste}</td></tr>`);
       }
     }
+    for (const g of (d.grappes || []).filter(g => g.dx === id)) {
+      const statut = `<span class="lo-statut" data-statut="${g.statut}">${LO.STATUTS[g.statut]}</span>`;
+      lignes.push(`<tr class="lo-grappe"><td>Combinaison : ${esc(g.nom)}</td><td>${g.se !== undefined ? pctExact(g.se) : "—"}</td><td>${g.sp !== undefined ? pctExact(g.sp) : "—"}</td><td>${g.rv > 1 ? nb(g.rv) : "—"}</td><td>${g.rv < 1 ? nb(g.rv) : "—"}</td><td>${statut}</td><td>${esc(g.piste || "")}</td></tr>`);
+    }
     $("#lo-table tbody").innerHTML = lignes.join("");
   }
   const consigne = id => LO.consigne(d, id);
   const choixDx = $("#lo-src-dx");
   choixDx.innerHTML = d.diagnostics.map(x => `<option value="${x.id}">${esc(x.nom)} (${poidsDe(x.id).length} poids)</option>`).join("");
   choixDx.addEventListener("change", tableau);
-  $("#lo-consigne").addEventListener("click", e => copier(consigne(choixDx.value), e.currentTarget, "Consigne copiée"));
+  $("#lo-consigne").addEventListener("click", e => copier(consigne(choixDx.value), e.currentTarget, "Questions copiées"));
 
   $("#lo-version").textContent = d.version;
   construire(); statistiques(); tableau(); maj();

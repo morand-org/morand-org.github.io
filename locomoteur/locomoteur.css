@@ -217,3 +217,22 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .cr-vue[aria-current="page"] { background: var(--encre); color: var(--papier); }
 .lo-regions-nav { display: flex; }
 @media (min-width: 760px) { .lo-nav { flex-wrap: wrap; overflow: visible; } }
+
+/* Bouton « i » (pâle) et panneau d'information sous la question */
+.lo-q-tete { display: flex; align-items: baseline; gap: 8px; }
+.lo-info { flex: none; display: inline-grid; place-items: center; width: 20px; height: 20px; padding: 0; border: 1px solid var(--filet); border-radius: 50%; background: transparent;
+  color: var(--discret); font: italic 600 0.74rem/1 var(--serif); cursor: pointer; opacity: .75; }
+.lo-info:hover, .lo-info[aria-expanded="true"] { opacity: 1; border-color: var(--or); color: var(--or-texte); }
+.lo-info:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+.lo-info-panneau { flex: 1 1 100%; margin: 4px 0 2px; padding: 10px 12px; border-left: 2px solid var(--or); border-radius: 0 10px 10px 0; background: color-mix(in srgb, var(--beige) 60%, var(--carte));
+  font-size: 0.84rem; color: var(--encre-2); }
+.lo-info-panneau p { margin: 0 0 6px; }
+.lo-info-panneau p:last-child { margin-bottom: 0; }
+.lo-info-panneau ul { margin: 0 0 6px; padding-left: 1.1em; }
+.lo-info-panneau strong, .lo-info-panneau b { color: var(--encre); }
+.lo-info-titre { font: 600 10px/1.4 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--discret); }
+.lo-info-source { font-size: 0.76rem; color: var(--discret); }
+.lo-info-panneau a { color: var(--or-texte); font-weight: 600; text-underline-offset: 2px; }
+.lo-q-large .lo-info-panneau { order: 3; }
+.lo-src { display: block; margin-top: 1px; font-size: 0.74rem; color: var(--discret); }
+.lo-c-mesures { margin-top: 16px; }

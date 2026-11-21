@@ -8,16 +8,17 @@
 
   const C = {
     /* Identification */
-    visite: () => choix("visite", "Visite", [o("initiale", "Première visite", {}, { n: "" }), o("suivi", "Suivi", {}, { n: "" })], { aide: "Suivi : la note titre « Évolution depuis la dernière visite »." }),
-    sexe: () => choix("sexe", "Sexe", [o("F", "Femme"), o("M", "Homme")], { aide: "Change la probabilité de départ de chaque diagnostic." }),
-    age: () => nombre("age", "Âge", { unite: "ans", min: 12, max: 110, aide: "Âge exact : la probabilité de départ suit l'âge." }),
+    visite: () => choix("visite", "Visite", [o("initiale", "Première visite", {}, { n: "" }), o("suivi", "Suivi", {}, { n: "" })], { info: "En suivi, la note titre « Évolution depuis la dernière visite » et la raison de consultation commence par « Suivi »." }),
+    sexe: () => choix("sexe", "Sexe", [o("F", "Femme"), o("M", "Homme")], { info: "La fréquence de plusieurs atteintes diffère selon le sexe (ex. syndrome fémoro-patellaire et instabilité rotulienne plus fréquents chez les filles et les femmes)." }),
+    age: () => nombre("age", "Âge", { unite: "ans", min: 12, max: 110, aide: "Âge exact", info: "Les causes changent beaucoup avec l'âge (apophysites chez l'adolescent, atteintes ligamentaires chez le jeune sportif, arthrose après 45 ans) : la probabilité de départ suit l'âge exact." }),
     // cote("Genou atteint", "Droit", "Gauche")
-    cote: (libelle, d, g) => choix("cote", libelle, [o("D", d, {}, { abr: "D", cote: d.toLowerCase() }), o("G", g, {}, { abr: "G", cote: g.toLowerCase() }),
-      o("B", "Les deux", {}, { abr: "bilat", cote: "bilatéral" })]),
+    cote: (libelle, d, g, bilateral = {}, deux = null) => choix("cote", libelle, [o("D", d, {}, { abr: "D", cote: d.toLowerCase() }), o("G", g, {}, { abr: "G", cote: g.toLowerCase() }),
+      o("B", "Les deux", bilateral, { abr: "bilat", cote: "bilatéral", rc: deux })],
+      { info: "Une atteinte des deux côtés oriente vers une cause de surcharge, dégénérative ou systémique (fémoro-patellaire, arthrose, arthrite inflammatoire, apophysite) plutôt que vers une blessure." }),
     accompagne: () => texte("accompagne", "Accompagné de", { aide: "Facultatif, par exemple « sa mère »." }),
     refere: () => texte("refere", "Référé par (professionnel, question posée)", { gabarit: "Référé par {v}", aide: "Ex. « thérapeute sportive pour précision diagnostique ; écho? »." }),
     dominance: (libelle = "Dominance podale") => choix("lateralite", libelle, [o("D", "Droitier"), o("G", "Gaucher"), o("A", "Ambidextre")],
-      { aide: "Pour la note seulement : aucune donnée ne la relie au diagnostic." }),
+      { info: "Pour la note seulement : aucune donnée ne la relie au diagnostic." }),
     // travail({ physique: {…}, ajouts: [o(…)] }) ; la précision écrite remplace l'option dans la note.
     travail: (rv = {}) => choix("travail", "Occupation", [o("etudes", "Études", rv.etudes, { n: "étudiant{e}" }), o("bureau", "Travail de bureau ou sédentaire", rv.bureau, { n: "travail de bureau" }),
       o("physique", "Travail physique", rv.physique, { n: "travail physique" }), ...(rv.ajouts || []), o("retraite", "Retraite ou sans emploi", rv.retraite, { n: "retraité{e}" })],
@@ -36,19 +37,24 @@
       ["autre", "Autre activité", "autre activité"],
     ].map(([v, l, n]) => m(v, l, Object.fromEntries(Object.entries(rv[v] || {}).map(([dx, x]) => [dx, { rvp: x, rvn: 1 }])), { n, exclusif: v === "aucun" })),
     { court: "Sports et loisirs", precision: "sport_precision", g: "sport", joint: " ; ", aucun: "Sports et loisirs : peu ou pas de sport",
-      aide: "Plusieurs choix possibles. Les précisions (niveau, position, volume) vont dans le champ suivant." }),
+      aide: "Plusieurs choix possibles", info: "Le type de sport oriente : pivot et saut (ligaments, ménisques, tendon rotulien), course et vélo (bandelette, fémoro-patellaire), contact (ligaments collatéraux). Si plusieurs sports pointent vers le même diagnostic, un seul compte. Les précisions (niveau, position, volume) vont dans le champ suivant." }),
     sportPrecision: () => texte("sport_precision", "Sports et loisirs : précisions (activité, niveau, position, volume)", { court: "Sports et loisirs", precise: true,
       aide: "Ex. « soccer AA, milieu de terrain, 3 entraînements/semaine ». Le premier élément sert aussi à l'impression." }),
     administratif: () => texte("administratif", "Contexte (CNESST, SAAQ, arrêt de travail, attentes)", { court: "Contexte" }),
 
     /* Antécédents : « Nil », dépistage rhumatologique écrit en phrases. */
     nil: () => caseQ("atcd_nil", "Aucun antécédent (Nil)", { n: "Nil" }),
-    atcdRhumato: (dx = "arthrite", forts = 4, moyens = 2.5) => multi("atcd_rhumato", "ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique", [
+    /* « autres » : { cristaux: id du diagnostic goutte/chondrocalcinose, septique: id de l'arthrite septique } ; sans eux,
+       goutte et pseudogoutte comptent pour « dx ». PAR connue → arthrite septique : Margaretten et coll., 2007 (JAMA). */
+    atcdRhumato: (dx = "arthrite", forts = 4, moyens = 2.5, autres = {}) => multi("atcd_rhumato", "ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique", [
       m("aucun", "Aucun", {}, { exclusif: true }),
       m("uveite", "Uvéite", { [dx]: { rvp: moyens, rvn: 1 } }), m("psoriasis", "Psoriasis", { [dx]: { rvp: moyens, rvn: 1 } }),
       m("synovite", "Synovite", { [dx]: { rvp: 3, rvn: 1 } }), m("mii", "MII", { [dx]: { rvp: moyens, rvn: 1 } }),
-      m("goutte", "Goutte", { [dx]: { rvp: forts, rvn: 1 } }), m("pseudogoutte", "Pseudogoutte", { [dx]: { rvp: forts, rvn: 1 } }),
-      m("par", "Polyarthrite rhumatoïde", { [dx]: { rvp: forts, rvn: 1 } }), m("spa", "Spondylarthrite", { [dx]: { rvp: 3, rvn: 1 } }),
+      m("goutte", "Goutte", { [autres.cristaux || dx]: { rvp: autres.cristaux ? 6 : forts, rvn: 1, g: "atcd-cristaux" } }),
+      m("pseudogoutte", "Pseudogoutte", { [autres.cristaux || dx]: { rvp: autres.cristaux ? 6 : forts, rvn: 1, g: "atcd-cristaux" } }),
+      m("par", "Polyarthrite rhumatoïde", { [dx]: { rvp: forts, rvn: 1 }, ...(autres.septique ? { [autres.septique]: { se: .68, sp: .73, statut: "verifie", g: "septique-atcd",
+        piste: "Margaretten et coll., 2007, JAMA (examen clinique rationnel) : PAR connue, RV+ 2,5, RV− 0,45" } } : {}) }),
+      m("spa", "Spondylarthrite", { [dx]: { rvp: 3, rvn: 1 } }),
       m("infection", "Infection récente (urinaire, génitale, digestive)", { [dx]: { rvp: moyens, rvn: 1 } }),
     ], { court: "ATCD", g: "atcd-rhumato", aucun: "Pas d'ATCD d'uvéite / psoriasis / synovite / MII", gabarit: "ATCD de {v}" }),
     atcdFamiliaux: (effets) => ouiNon("atcd_familiaux", "ATCD familial de maladie rhumatologique", { oui: "ATCD familial de maladie rhumatologique",
@@ -61,10 +67,10 @@
     /* HMA */
     rappel: () => texte("rappel", "Rappel de la dernière visite (date, diagnostic, traitement)", { si: L => L.v("visite") === "suivi" }),
     premier: (effets) => ouiNon("premier", "Premier épisode", { oui: "premier épisode", non: "épisodes antérieurs semblables", effets }),
-    depuis: () => texte("depuis", "Début : date ou durée (ex. « le 2 novembre 2026 »)", { gabarit: "débuté {v}", aide: "Repris dans la raison de consultation." }),
+    depuis: () => texte("depuis", "Début : date ou durée (ex. « le 2 novembre 2026 »)", { gabarit: "débuté {v}", info: "Repris dans la raison de consultation et la HMA." }),
     contexte: () => texte("contexte", "Contexte du début (activité, geste)", { colle: true, aide: "Ex. « au soccer, pivot sur pied fixe sans contact » : s'écrit à la suite de la date." }),
     duree: (rv = {}) => choix("duree", "Depuis combien de temps", ["lt7", "s1_6", "s6_12", "gt3m"].map((v, i) => o(v, ["Moins de 7 jours", "1 à 6 semaines", "6 semaines à 3 mois", "Plus de 3 mois"][i], rv[v],
-      { n: "", depuis: DEPUIS[v] })), { aide: "Sert au calcul et à l'impression (aiguë, subaiguë, chronique)." }),
+      { n: "", depuis: DEPUIS[v] })), { info: "Une atteinte de moins de 7 jours oriente vers une blessure (ligament, ménisque, fracture) ; au-delà de 3 mois, vers l'arthrose, les tendinopathies et le fémoro-patellaire. Sert aussi à l'impression (aiguë, subaiguë, chronique) et à la règle d'Ottawa (traumatisme de moins de 7 jours)." }),
     apparition: (rv = {}) => choix("apparition", "Mode d'apparition", [o("subit_trauma", "Subit, avec un traumatisme", rv.subit_trauma, { n: "" }),
       o("subit", "Subit, sans traumatisme", rv.subit, { n: "début subit sans traumatisme" }), o("graduel", "Graduel", rv.graduel, { n: "début graduel" }),
       o("insidieux", "Insidieux", rv.insidieux, { n: "début insidieux" })],
@@ -75,7 +81,7 @@
       o("sourde", "Sourde, profonde", rv.sourde, { n: "sourde et profonde" }), o("aigue", "Aiguë, en coup de poignard", rv.aigue, { n: "aiguë, en coup de poignard" }),
       o("brulure", "Brûlure", rv.brulure, { n: "sous forme de brûlure" }), o("choc", "Choc électrique", rv.choc, { n: "en choc électrique" }),
       o("pulsatile", "Lancinante, pulsatile", rv.pulsatile, { n: "lancinante" }), o("autre", "Autre", {}, { n: "" })],
-      { aide: "Brûlure ou choc électrique : penser à une origine nerveuse." }),
+      { info: "Une brûlure ou un choc électrique évoquent une origine nerveuse (radiculopathie, nerf périphérique) plutôt qu'articulaire." }),
     intensites: () => [nombre("int_repos", "Intensité au repos (0 à 10)", { gabarit: "{v}/10 au repos", min: 0, max: 10, unite: "/10" }),
       nombre("int_activite", "Intensité à l'activité (0 à 10)", { gabarit: "{v}/10 à l'activité", min: 0, max: 10, unite: "/10" })],
     attenuants: () => texte("attenuants", "Diminuée par", { gabarit: "diminuée par {v}" }),
@@ -83,14 +89,14 @@
       o("soir", "Pire en fin de journée ou après l'activité", rv.soir, { n: "pire en fin de journée et après l'activité" }), o("constante", "Constante", rv.constante, { n: "douleur constante" })]),
     nocturne: (effets) => ouiNon("nocturne", "Douleur la nuit", { oui: "douleur nocturne", nie: "douleur nocturne", drapeau: true, effets }),
     reveils: (effets) => ouiNon("reveils", "Réveils en deuxième partie de nuit", { oui: "réveils en deuxième partie de nuit", nie: "réveil nocturne", effets }),
-    raideur: (rv = {}) => choix("raideur", "Raideur matinale", [o("aucune", "Aucune", rv.aucune, { n: "pas de raideur matinale" }),
-      o("moins30", "Moins de 30 minutes", rv.moins30, { n: "raideur matinale de moins de 30 min" }), o("plus30", "30 minutes ou plus", rv.plus30, { n: "raideur matinale de 30 min ou plus" })]),
-    traitements: () => [multi("traitements", "Traitements tentés", [m("aucun", "Aucun", {}, { exclusif: true }), m("repos", "Repos", {}, { n: "repos" }), m("glace", "Glace ou chaleur", {}, { n: "glace" }),
-      m("ains", "AINS ou analgésiques", {}, { n: "AINS" }), m("physio", "Physiothérapie", {}, { n: "physiothérapie" }), m("chiro", "Chiropraticien ou ostéopathe", {}, { n: "chiropraticien" }),
-      m("orthese", "Orthèse, attelle ou taping", {}, { n: "orthèse" }), m("infiltration", "Infiltration", {}, { n: "infiltration" })],
-      { aucun: "aucun traitement tenté", gabarit: "{v}" }),
-      choix("traitements_effet", "Effet des traitements", [o("bon", "Bon", {}, { n: "avec bon effet" }), o("partiel", "Partiel", {}, { n: "avec effet partiel" }),
-        o("temporaire", "Temporaire", {}, { n: "avec soulagement temporaire" }), o("nul", "Aucun", {}, { n: "sans effet" })])],
+    raideur: (rv = {}, effets) => choix("raideur", "Raideur matinale", [o("aucune", "Aucune", rv.aucune, { n: "pas de raideur matinale" }),
+      o("moins30", "Moins de 30 minutes", rv.moins30, { n: "raideur matinale de moins de 30 min" }), o("plus30", "30 minutes ou plus", rv.plus30, { n: "raideur matinale de 30 min ou plus" })], { effets }),
+    // Chaque traitement tenté a son propre effet : « Physiothérapie sans effet, glace avec effet partiel ».
+    traitements: () => [["repos", "Repos ou arrêt de l'activité", "repos"], ["glace", "Glace ou chaleur", "glace"], ["ains", "AINS ou analgésiques", "AINS"],
+      ["physio", "Physiothérapie", "physiothérapie"], ["chiro", "Chiropraticien ou ostéopathe", "chiropraticien"], ["orthese", "Orthèse, attelle ou taping", "orthèse"],
+      ["infiltration", "Infiltration", "infiltration"]].map(([v, l, n]) => choix(`tt_${v}`, l, [o("bon", "Bon effet", {}, { n: `${n} avec bon effet` }),
+        o("partiel", "Effet partiel", {}, { n: `${n} avec effet partiel` }), o("temporaire", "Temporaire", {}, { n: `${n} avec soulagement temporaire` }),
+        o("nul", "Sans effet", {}, { n: `${n} sans effet` })])).concat([texte("tt_autres", "Autres traitements et leur effet")]),
     limitations: () => [ouiNon("impact_travail", "Limité au travail, à l'école ou dans la vie courante", { oui: "limité au travail ou dans la vie courante", non: "travail et vie courante possibles" }),
       ouiNon("arret_sport", "Arrêt ou réduction du sport", { oui: "arrêt ou réduction du sport", non: "poursuit le sport" }),
       texte("limitations", "Limitations, échéances sportives")],
@@ -100,13 +106,16 @@
     fievre: (effets) => ouiNon("fievre", "Fièvre ou frissons", { oui: "fièvre ou frissons", nie: "fièvre", drapeau: true, effets }),
     symptGeneraux: () => ouiNon("sympt_generaux", "Perte de poids, sueurs nocturnes ou fatigue inexpliquées", { oui: "atteinte de l'état général", nie: "atteinte de l'état général", drapeau: true }),
     cancer: () => ouiNon("atcd_cancer", "Antécédent de cancer", { oui: "ATCD de cancer", nie: "ATCD de cancer", drapeau: true }),
-    risqueInfection: (ajouts = []) => multi("risque_infection", "Facteurs de risque d'infection", [m("aucun", "Aucun", {}, { exclusif: true }), m("immuno", "Immunosuppression ou diabète", {}, { n: "immunosuppression ou diabète" }),
-      ...ajouts, m("udi", "Drogues injectables", {}, { n: "drogues injectables" })], { aucun: "", gabarit: "facteur de risque d'infection : {v}" }),
+    /* « septique » : id de l'arthrite septique, si la région la calcule (diabète : Margaretten et coll., 2007). */
+    risqueInfection: (ajouts = [], septique = null) => multi("risque_infection", "Facteurs de risque d'infection", [m("aucun", "Aucun", {}, { exclusif: true }),
+      m("immuno", "Immunosuppression ou diabète", septique ? { [septique]: { rvp: 2.7, rvn: 1, statut: "verifie", piste: "Margaretten et coll., 2007, JAMA : diabète, Se 12 %, Sp 96 %, RV+ 2,7" } } : {}, { n: "immunosuppression ou diabète" }),
+      ...ajouts, m("udi", "Drogues injectables", septique ? { [septique]: { rvp: 3, rvn: 1 } } : {}, { n: "drogues injectables" })], { aucun: "", gabarit: "facteur de risque d'infection : {v}",
+      info: "Le risque d'arthrite septique augmente avec une prothèse, une chirurgie ou une infiltration récente, le diabète, l'immunosuppression, une PAR connue et l'âge de plus de 80 ans (Margaretten et coll., 2007)." }),
 
     /* Examen : fonctionnel (membre inférieur et bas du dos), en tête d'EXAMEN PHYSIQUE. */
     fonctionnel: (rv = {}) => ({ titre: "Fonctionnel", tete: true, toutNormal: true, questions: [
       choix("posture", "Posture", [o("normale", "Normale", {}, { n: "posture normale" }), o("valgus", "Genu valgum", rv.valgum, { n: "genu valgum" }),
-        o("varus", "Genu varum", rv.varum, { n: "genu varum" }), o("recurvatum", "Recurvatum", rv.recurvatum, { n: "recurvatum" })], { ligneEx: "posture" }),
+        o("varus", "Genu varum", rv.varum, { n: "genu varum" }), o("flexum", "Flexum", rv.flexum, { n: "flexum" }), o("recurvatum", "Recurvatum", rv.recurvatum, { n: "recurvatum" })], { ligneEx: "posture" }),
       choix("arches", "Arches plantaires", [o("normales", "Normales", {}, { n: "arches plantaires normales" }), o("plat", "Affaissées", rv.plat, { n: "arches plantaires affaissées" }),
         o("creux", "Creuses", rv.creux, { n: "pieds creux" })], { ligneEx: "posture" }),
       choix("demarche", "Démarche", [o("normale", "Normale", rv.demarche_normale, { n: "démarche normale" }), o("boiterie", "Boiterie antalgique", rv.boiterie, { n: "boiterie antalgique" }),
@@ -117,7 +126,7 @@
       choix("squat_bi", "Squat bipodal", [o("normal", "Normal et indolore", rv.squat_normal, { n: "squat bipodal normal et indolore" }), o("ant", "Douleur antérieure", rv.squat_ant, { n: "squat bipodal avec douleur antérieure" }),
         o("med", "Douleur médiale", rv.squat_med, { n: "squat bipodal avec douleur médiale" }), o("lat", "Douleur latérale", rv.squat_lat, { n: "squat bipodal avec douleur latérale" }),
         o("limite", "Limité", rv.squat_limite, { n: "squat bipodal limité" })], { effets: rv.squatEffets, ligneEx: "squat" }),
-      choix("duck_walk", "Duck walk", [o("negatif", "Négatif", rv.duck_neg, { n: "duck walk négatif" }), o("positif", "Douloureux ou impossible", rv.duck_pos, { n: "duck walk douloureux" })], { horsNormal: true, ligneEx: "squat" }),
+      choix("duck_walk", "Duck walk", [o("negatif", "Négatif", rv.duck_neg, { n: "duck walk négatif" }), o("positif", "Douloureux ou impossible", rv.duck_pos, { n: "duck walk douloureux" })], { effets: rv.duckEffets, horsNormal: true, ligneEx: "squat" }),
       choix("squat_uni", "Squat unipodal", [o("normal", "Normal et indolore", rv.uni_normal, { n: "squat unipodal{cote} normal et indolore" }),
         o("valgus", "Valgus dynamique", rv.uni_valgus, { n: "squat unipodal{cote} avec valgus dynamique" }), o("douleur", "Douloureux", rv.uni_douleur, { n: "squat unipodal{cote} douloureux" })], { ligneEx: "squat" }),
       choix("appui_uni", "Appui unipodal", [o("normal", "Normal", {}, { n: "appui unipodal{cote} normal" }), o("anormal", "Instable ou douloureux", rv.appui_uni, { n: "appui unipodal{cote} instable ou douloureux" })],
@@ -127,14 +136,15 @@
     ] }),
     // Ligament : normal et indolore / douleur sans laxité / laxité.
     lig: (id, libelle, court, effets, extra = {}) => choix(id, libelle, [o("normal", "Normal et indolore", {}, { n: "{court} normal et indolore" }),
-      o("douleur", "Douleur sans laxité", extra.douleur || {}, { n: "{court} douloureux sans laxité" }), o("laxite", "Laxité", extra.laxite || {}, { n: "{court} avec laxité" })],
-      { court, effets, aide: extra.aide }),
+      o("douleur", "Douleur sans laxité", extra.douleur || {}, { n: "{court} douloureux sans laxité" }), o("laxite", "Laxité", extra.laxite || {}, { n: "{court} avec laxité" }),
+      o("equivoque", "Équivoque", {}, { n: "{court} équivoque" })],
+      { court, effets, equivoque: true, aide: extra.aide, info: extra.info, positif: extra.positif, video: extra.video }),
     // Amplitude (AROM ou PROM) : complète et indolore / fin douloureuse / limitée (degrés facultatifs).
-    amplitude: (id, libelle, court, rv = {}, deficit = false) => choix(id, libelle, [o("complete", "Complète et indolore", rv.complete, { n: `${court} complète et indolore` }),
+    amplitude: (id, libelle, court, rv = {}, deficit = false, effets) => choix(id, libelle, [o("complete", "Complète et indolore", rv.complete, { n: `${court} complète et indolore` }),
       o("fin", "Complète, fin douloureuse", rv.fin, { n: `${court} complète, douloureuse en fin de mouvement` }),
       o("lim_douleur", deficit ? "Déficit avec douleur" : "Limitée avec douleur", rv.lim_douleur, { n: deficit ? `${court} incomplète{deg} avec douleur` : `${court} limitée{deg} avec douleur` }),
       o("lim_raideur", deficit ? "Déficit par raideur" : "Limitée par raideur", rv.lim_raideur, { n: deficit ? `${court} incomplète{deg}, raideur` : `${court} limitée{deg}, raideur` }),
-      ...(rv.blocage ? [o("blocage", "Blocage mécanique", rv.blocage, { n: `blocage mécanique de l'${court}{deg}` })] : [])], { court, degres: `${id}_deg` }),
+      ...(rv.blocage ? [o("blocage", "Blocage mécanique", rv.blocage, { n: `blocage mécanique de l'${court}{deg}` })] : [])], { court, degres: `${id}_deg`, effets }),
     degres: (id, libelle, deficit = false) => nombre(`${id}_deg`, libelle, { unite: "°", min: 0, max: 180, lie: true, gabarit: deficit ? "(déficit ~{v}°)" : "à ~{v}°",
       si: L => L.dans(id, ["lim_douleur", "lim_raideur", "blocage"]) }),
     controlateral: () => [choix("controlateral", "Côté controlatéral", [o("normal", "Normal", {}, { n: "normal" }), o("anormal", "Anormal", {}, { n: "anormal" })],
@@ -177,12 +187,28 @@
     septique: (articulation, chaleurs, enflures) => L => {
       const inflam = chaleurs.some(id => L.oui(id)), epanch = enflures.some(([id, vals]) => vals.includes(L.v(id)));
       const risque = ["immuno", "prothese", "infiltration", "udi"].some(x => L.a("risque_infection", x));
-      if (L.oui("fievre") && (inflam || epanch)) return { niveau: "urgence", titre: "Arthrite septique à éliminer", ro: "arthrite septique", texte: `Fièvre avec ${articulation} enflé ou chaud.`,
-        conduite: ["Ponction articulaire urgente (numération, Gram, culture, cristaux) ; diriger à l'urgence."] };
-      if (inflam && epanch) return { niveau: risque ? "urgence" : "rapide", titre: "Arthrite septique ou microcristalline à éliminer", ro: "arthrite septique", texte: `Articulation enflée et chaude${risque ? ", avec un facteur de risque d'infection" : ""}.`,
-        conduite: ["Ponction articulaire le jour même (numération, Gram, culture, cristaux)."] };
+      const conduite = [
+        { t: "Ponction avant tout antibiotique (décompte, Gram, culture, cristaux) et hémocultures ; les cristaux n'excluent pas l'infection", src: "Margaretten et coll., 2007, JAMA ; Swisher et coll., 2025, AFP" },
+        { t: "Leucocytes > 50 000/µL : RV ≈ 8 ; > 100 000/µL : RV ≈ 28 ; mais 30–50 % des arthrites septiques sont sous 50 000 et le Gram n'est positif qu'une fois sur 5", src: "Margaretten et coll., 2007, JAMA" },
+        { t: "Ne jamais infiltrer de corticoïde tant que l'infection n'est pas exclue", src: "Gardner et coll., 2025, NEJM" }];
+      if (L.oui("fievre") && (inflam || epanch)) return { niveau: "urgence", titre: "Arthrite septique à éliminer", ro: "arthrite septique", texte: `Fièvre avec ${articulation} enflé ou chaud. La fièvre manque chez près de la moitié des arthrites septiques.`,
+        conduite: [{ t: "Transfert le jour même (urgence) : drainage articulaire et antibiotiques IV" }, ...conduite] };
+      if (inflam && epanch) return { niveau: risque ? "urgence" : "rapide", titre: "Arthrite septique ou microcristalline à éliminer", ro: "arthrite septique", texte: `Articulation enflée et chaude${risque ? ", avec un facteur de risque d'infection" : ""}. L'absence de fièvre n'exclut pas l'infection (fièvre chez 57 %).`,
+        conduite: [{ t: "Ponction articulaire le jour même" }, ...conduite] };
       return null;
     },
+  };
+  /* Mesures générales communes (aide-mémoire de première ligne, Québec : document OpenEvidence du 21 novembre 2026, parties F et H). */
+  const adulte = L => L.age === null || L.age >= 18, enfant = L => L.age !== null && L.age < 18;
+  C.mesures = {
+    analgesie: [
+      { t: "Acétaminophène 650–1000 mg q6h PRN (max 4 g/j ; 3 g/j si usage prolongé ou fragilité)", si: adulte },
+      { t: "AINS en cure courte : ibuprofène 400 mg q6–8h PRN (max 2400 mg/j sur ordonnance) ou naproxène 250–500 mg BID (max 1000 mg/j)", si: adulte, src: "Kermond et coll., 2002, Ann Emerg Med (PMID 12192353) ; FitzGerald, 2025, Ann Intern Med" },
+      { t: "Diclofénac topique (gel 1,16 % 2–4 g TID–QID ou 2,32 % BID) sur une articulation superficielle", si: adulte, src: "Bannuru et coll., 2019, OARSI (PMID 31278997)" },
+      { t: "Ibuprofène 10 mg/kg q6–8h (max 400 mg/dose et 40 mg/kg/j), premier choix ; l'ajout d'acétaminophène ou d'un opioïde n'améliore pas le soulagement", si: enfant, src: "Kermond et coll., 2002, Ann Emerg Med (PMID 12192353)" },
+      { t: "Acétaminophène 15 mg/kg q4–6h (max 75 mg/kg/j) si AINS contre-indiqué", si: enfant },
+      { t: "AINS : éviter si DFGe < 30, cirrhose, grossesse ≥ 20 sem, anticoagulation, maladie cardiovasculaire ou fragilité (oraux) ; prudence ≥ 65 ans (IPP ou coxib si risque digestif)" }],
+    charge: { t: "Dosage de la charge : activité permise si la douleur reste ≤ 3/10 et ne persiste pas après l'effort (chez l'adolescent, viser ≤ 2/10)", src: "Silbernagel et coll., 2007 (modèle de monitorage de la douleur)" },
   };
   window.Locomoteur.commun = C;
 })();

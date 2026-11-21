@@ -401,10 +401,10 @@ async function locomoteur(nav) {
       && /\nHMA :\n/.test(r.note) && r.note.includes("\nGENOU :\nCôté atteint : gauche\n") && r.note.includes("- Palpation : rotule indolore ; facettes rotuliennes douloureuses")
       && r.note.includes("- LCA : Lachman normal et indolore") && r.note.includes("1- Douleur au genou G subaiguë, non traumatique")
       && r.note.includes("- Syndrome fémoro-patellaire très prob") && r.note.includes("\nPLAN :\n- Enseignement et conseils") && !/%/.test(r.note), r.note.slice(0, 400));
-    // Une réponse « ? » ne compte pas ; un second clic efface la réponse.
+    // Une réponse « N/A » ne compte pas ; un second clic efface la réponse.
     const avant = await p.textContent("#lo-res-etat");
     await clic("marche", "?"); await p.waitForTimeout(80);
-    verifier(`Genou ${largeur} px : « ? » ne compte pas`, (await p.textContent("#lo-res-etat")) === avant, [avant, await p.textContent("#lo-res-etat")]);
+    verifier(`Genou ${largeur} px : « N/A » ne compte pas`, (await p.textContent("#lo-res-etat")) === avant, [avant, await p.textContent("#lo-res-etat")]);
     // Traumatisme récent : la règle d'Ottawa demande la radiographie au premier critère.
     await clic("apparition", "subit_trauma"); await clic("duree", "lt7"); await clic("p_perone", "oui"); await p.waitForTimeout(80);
     verifier(`Genou ${largeur} px : règle d'Ottawa positive, radiographie indiquée`, (await p.textContent("#lo-alertes")).includes("Radiographie du genou indiquée"));
@@ -420,8 +420,14 @@ async function locomoteur(nav) {
     verifier(`Genou ${largeur} px : « Sources » ouvre « Sources et limites »`, await p.evaluate(() => document.getElementById("sources").open));
     await p.selectOption("#lo-src-dx", "lca"); await p.click("#lo-consigne"); await p.waitForTimeout(150);
     const c = await p.evaluate(() => navigator.clipboard.readText());
-    verifier(`Genou ${largeur} px : la consigne de validation du LCA reprend chaque poids avec sa clé`, c.includes("Diagnostic à valider : Rupture du LCA") && c.includes("lachman>lca | Lachman") && c.includes("Se 81") && c.includes("PMID ou DOI"));
-    verifier(`Genou ${largeur} px : le tableau des sources montre les poids du diagnostic choisi`, (await p.locator("#lo-table tbody tr").count()) > 20);
+    verifier(`Genou ${largeur} px : les questions pour OpenEvidence du LCA sont en anglais et nomment les tests`, c.includes("anterior cruciate ligament tear") && c.includes("Lachman"), c.slice(0, 300));
+    verifier(`Genou ${largeur} px : le tableau des sources montre les poids et les combinaisons du diagnostic choisi`, (await p.locator("#lo-table tbody tr").count()) > 20
+      && (await p.textContent("#lo-table")).includes("Combinaison : Décary") && (await p.textContent("#lo-table")).includes("Sokal"));
+    // Bouton « i » : pourquoi, effet sur le calcul, source et vidéo ; « Équivoque » ne compte pas.
+    await p.click('button[data-info="lachman"]'); await p.waitForTimeout(80);
+    const info = await p.textContent("#i-lachman");
+    verifier(`Genou ${largeur} px : le « i » du Lachman donne l'effet sur le calcul, la source et la vidéo`, info.includes("Effet sur le calcul") && info.includes("Sokal") && info.includes("Physiotutors"), info.slice(0, 200));
+    verifier(`Genou ${largeur} px : les tests ont une réponse « Équivoque »`, (await p.locator('button[data-q="lachman"][data-v="equivoque"]').count()) === 1);
     // Nouveau patient : tout s'efface.
     p.once("dialog", dlg => dlg.accept()); await p.click("#lo-nouveau"); await p.waitForTimeout(100);
     verifier(`Genou ${largeur} px : « Nouveau patient » efface tout`, (await p.locator('#lo-form button[aria-pressed="true"]').count()) === 0 && (await p.inputValue("#c-age")) === "");

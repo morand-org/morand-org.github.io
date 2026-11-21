@@ -48,6 +48,8 @@
   const nombre = (id, libelle, opts = {}) => ({ id, type: "nombre", libelle, effets: [], ...opts });
   const texte = (id, libelle, opts = {}) => ({ id, type: "texte", libelle, effets: [], ...opts });
   const caseQ = (id, libelle, opts = {}) => ({ id, type: "case", libelle, effets: [], ...opts });   // case à cocher (plan)
+  // Miroir : reprend la réponse d'une autre question (ex. palpation de la tête du péroné dans la règle d'Ottawa) ; répondre ici répond là-bas.
+  const miroir = (id, cible, libelle, opts = {}) => ({ id, type: "miroir", cible, libelle, effets: [], ...opts });
 
   /* Prépare un fichier de données : index, clés des poids, statut par défaut. Arrête tout si un diagnostic est inconnu. */
   function definir(d) {
@@ -66,6 +68,18 @@
         e.statut = e.statut || "provisoire"; e.cle = `${q.id}${e.opt ? "." + e.opt : ""}>${e.dx}`; e.q = q;
       }
     }
+    for (const q of d.questions) if (q.type === "miroir" && !d.parQ[q.cible]) throw new Error(`Miroir sans cible : ${q.id} → ${q.cible}`);
+    /* Grappes : combinaison validée d'éléments (ex. Décary : pivot + pop pour le LCA). Quand elle s'applique, son RV
+       remplace celui des éléments qu'elle couvre (questions ou groupes « g »), pour ne pas les compter deux fois. */
+    for (const g of d.grappes || []) {
+      if (!d.parDx[g.dx]) throw new Error(`Diagnostic inconnu dans la grappe ${g.id}`);
+      for (const k of g.couvre) if (!d.parQ[k] && !d.questions.some(q => q.effets.some(e => e.g === k))) throw new Error(`Grappe ${g.id} : « ${k} » n'est ni une question ni un groupe`);
+      g.statut = g.statut || "provisoire"; g.cle = `grappe:${g.id}>${g.dx}`; g.grappe = true;
+    }
+    for (const [id, en] of Object.entries(d.anglais || {})) { if (!d.parDx[id]) throw new Error(`Nom anglais pour un diagnostic inconnu : ${id}`); d.parDx[id].en = en; }
+    for (const [id, c] of Object.entries(d.conduites || {})) { if (!d.parDx[id]) throw new Error(`Conduite pour un diagnostic inconnu : ${id}`); d.parDx[id].conduite = c; }
+    // « infos » : textes du bouton « i » (pourquoi, comment, positif si, vidéo), tenus à part des questions.
+    for (const [id, x] of Object.entries(d.infos || {})) { if (!d.parQ[id]) throw new Error(`Info pour une question inconnue : ${id}`); Object.assign(d.parQ[id], x); }
     (racine.Locomoteur.donnees = racine.Locomoteur.donnees || {})[d.id] = d;
     return d;
   }
@@ -98,13 +112,13 @@
     if (e.rv) return e.rv[r] === undefined ? null : e.rv[r];
     const pos = e.pos || ["oui"], neg = e.neg || ["non"];
     if (pos.includes(r)) return e.se !== undefined ? e.se / Math.max(0.01, 1 - e.sp) : (e.rvp === undefined ? null : e.rvp);
-    if (neg.includes(r)) return e.se !== undefined ? (1 - e.se) / e.sp : (e.rvn === undefined ? null : e.rvn);
+    if (neg.includes(r)) return e.se !== undefined ? Math.max(0.01, 1 - e.se) / e.sp : (e.rvn === undefined ? null : e.rvn);
     return null;
   }
   // RV+ et RV− d'un poids, pour le tableau des sources.
   function rvPosNeg(e) {
     if (e.rv) return null;
-    if (e.se !== undefined) return [e.se / Math.max(0.01, 1 - e.sp), (1 - e.se) / e.sp];
+    if (e.se !== undefined) return [e.se / Math.max(0.01, 1 - e.sp), Math.max(0.01, 1 - e.se) / e.sp];   // Se ou Sp de 100 % : plafonnées à 99 %
     return [e.rvp, e.rvn];
   }
   const etiquettes = q => q.labels || q.bloc.labels || ["Oui", "Non"];
@@ -175,6 +189,16 @@
     for (const z of etats) {
       z.comptes = [];
       for (const gr of z.groupes.values()) { if (gr.pos) z.comptes.push(gr.pos); if (gr.neg) z.comptes.push(gr.neg); }
+      // Grappes actives, de la plus forte à la plus faible ; une grappe dont un élément est déjà pris par une autre est ignorée.
+      const actives = (d.grappes || []).filter(g => g.dx === z.x.id && g.si(L)).sort((a, b) => Math.abs(Math.log(b.rv)) - Math.abs(Math.log(a.rv)));
+      const pris = new Set();
+      for (const g of actives) {
+        if (g.couvre.some(k => pris.has(k))) continue;
+        const couverts = c => c.q && (g.couvre.includes(c.q.id) || (c.e.g && g.couvre.includes(c.e.g)));
+        z.comptes = z.comptes.filter(c => !couverts(c));
+        z.comptes.push({ e: g, q: null, r: null, rv: g.rv, l: Math.log(g.rv), libelle: g.nom, grappe: true });
+        for (const k of g.couvre) pris.add(k);
+      }
       z.somme = z.comptes.reduce((s, c) => s + c.l, 0);
       z.comptes.sort((a, b) => Math.abs(b.l) - Math.abs(a.l));
     }
@@ -194,10 +218,13 @@
       if (a) for (const x of [].concat(a)) alertes.push(x);
     }
     alertes.sort((a, b) => NIVEAUX[a.niveau] - NIVEAUX[b.niveau]);
+    // Conduite : éléments { t: action, src: source } ; les mesures générales dépendent du contexte (blessure récente, surcharge, tous).
+    const item = c => (typeof c === "string" ? { t: c } : c);
+    const garder = c => typeof c === "string" || !c.si || c.si(L);
     const conduite = diagnostics.filter((x, i) => x.p >= 0.25 || (i === 0 && x.p >= 0.1)).map(x => ({
-      dx: x, items: (x.x.conduite || []).filter(c => typeof c === "string" || !c.si || c.si(L)).map(c => (typeof c === "string" ? c : c.t)),
-      liens: x.x.liens || [] }));
-    return { rep, L, vus, diagnostics, alertes, conduite, saisies: Object.keys(rep).length };
+      dx: x, items: (x.x.conduite || []).filter(garder).map(item), liens: x.x.liens || [] }));
+    const mesures = (d.mesures || []).filter(g => !g.si || g.si(L)).map(g => ({ titre: g.titre, items: g.items.filter(garder).map(item) }));
+    return { rep, L, vus, diagnostics, alertes, conduite, mesures, saisies: Object.keys(rep).length };
   }
 
   /* ---------- Note pour le dossier (texte brut, à coller dans le DMÉ) ----------
@@ -235,6 +262,7 @@
       return q.gabarit ? q.gabarit.replace("{v}", t) : `${court} : ${t}`;
     }
     if (q.type === "oui_non") {
+      if (v === "equivoque") return `${court} équivoque`;
       if (v === "oui" && q.oui) return q.oui;
       if (v === "non" && q.non) return q.non;
       const res = q.res || q.bloc.res;
@@ -281,7 +309,7 @@
 
     // RAISON DE CONSULTATION
     const duree = d.parQ.duree && rep.duree ? (d.parQ.duree.options.find(o2 => o2.v === rep.duree) || {}).depuis : null;
-    const rc = `${d.rc}${abr}${L.trauma() ? " post-traumatique" : ""}${rep.depuis ? ` depuis ${String(rep.depuis).trim()}` : duree ? ` ${duree}` : ""}`;
+    const rc = `${co && co.rc ? co.rc : d.rc + abr}${L.trauma() ? " post-traumatique" : ""}${rep.depuis ? ` depuis ${String(rep.depuis).trim()}` : duree ? ` ${duree}` : ""}`;
     titre("RAISON DE CONSULTATION", [suivi ? `Suivi – ${minu(rc)}` : rc]);
 
     // ANTÉCÉDENTS
@@ -374,7 +402,7 @@
       rep.evolution ? { mieux: "évolution favorable", stable: "évolution stable", pire: "en aggravation" }[rep.evolution] : null].filter(Boolean);
     const ordre = ["aiguë", "subaiguë", "chronique", "post-traumatique", "non traumatique"];
     contexte.sort((a, b) => (ordre.includes(a) ? ordre.indexOf(a) : 9) - (ordre.includes(b) ? ordre.indexOf(b) : 9));
-    imp.push(`1- ${d.rc}${abr}${contexte.length ? " " + contexte.join(", ") : ""}`);
+    imp.push(`1- ${co && co.rc ? co.rc : d.rc + abr}${contexte.length ? " " + contexte.join(", ") : ""}`);
     const QUAL = { tres: "très prob", probable: "prob", possible: "moins prob" };
     const retenus = diagnostics.filter(x => QUAL[x.categorie[2]]).slice(0, 4);
     if (retenus.length) imp.push(`- ${retenus.map((x, i) => `${i ? x.x.n : maj(x.x.n)} ${QUAL[x.categorie[2]]}`).join(" > ")}`);
@@ -416,37 +444,26 @@
     if (q.type === "choix") return `${q.libelle} (positif : ${(e.pos || []).map(x => libelleOption(q, x).toLowerCase()).join(", ")})`;
     return q.libelle;
   }
+  /* Questions à poser à OpenEvidence pour un diagnostic (en anglais : OpenEvidence y répond mieux). Le clinicien les pose
+     lui-même ; il rapporte les réponses avec leurs références, conservées dans outils/locomoteur/sources/. */
   function consigne(d, id) {
-    const x = d.parDx[id], items = [];
-    for (const e of d.questions.flatMap(q => q.effets).filter(e2 => e2.dx === id)) {
-      const info = `${STATUTS[e.statut].toLowerCase()}${e.piste ? `, piste : ${e.piste}` : ""}`;
-      if (e.rv) for (const [v, rv] of Object.entries(e.rv)) items.push(`${e.cle}=${v} | ${elementDe(e, v)} | RV ${nbFr(rv)} (${info})`);
-      else if (e.se !== undefined) items.push(`${e.cle} | ${elementDe(e)} | Se ${pc(e.se)}, Sp ${pc(e.sp)} (${info})`);
-      else items.push(`${e.cle} | ${elementDe(e)} | RV+ ${nbFr(e.rvp)}, RV− ${nbFr(e.rvn)} (${info})`);
+    const x = d.parDx[id], nom = x.en || x.nom, region = d.en || d.partie;
+    const vus = new Set(), elements = [];
+    for (const q of d.questions) for (const e of q.effets) {
+      if (e.dx !== id || vus.has(q.id)) continue;
+      const fort = e.se !== undefined || (e.rv ? Object.values(e.rv).some(v => Math.abs(Math.log(v)) >= 0.3) : [e.rvp, e.rvn].some(v => v > 0 && Math.abs(Math.log(v)) >= 0.3));
+      if (!fort) continue;
+      vus.add(q.id); elements.push(q.video || (q.type === "multi" && e.opt ? `${q.libelle} : ${q.options.find(o2 => o2.v === e.opt).l}` : q.libelle));
     }
-    return `Contexte : je valide les poids d'un outil d'aide à la décision pour la ${d.titre.toLowerCase()} en première ligne (patients de ${d.ages}). Diagnostic à valider : ${x.nom}.
-Fais la recherche dans OpenEvidence (onglet ouvert). Pose tes questions à OpenEvidence en anglais ; rédige ta réponse en français.
+    return `1. For ${nom}, give the diagnostic accuracy of each of these history and examination findings: ${elements.join("; ")}. For each: sensitivity, specificity, LR+ and LR− with 95% CI, number of studies and patients, reference standard, setting (primary care, sports medicine or orthopedics), and source (first author, year, PMID). Prefer meta-analyses; otherwise the best primary-care or sports-medicine study. Write "no data" when none exists.
 
-Règles :
-- Pour chaque élément ci-dessous, trouve la meilleure donnée publiée de sensibilité et de spécificité (ou de rapports de vraisemblance) pour ${x.nom}. Préfère les méta-analyses, puis les études en soins primaires ou en médecine du sport, puis les autres.
-- Chaque chiffre vient d'un article précis : auteur, année, revue, PMID ou DOI. Ouvre la référence (PubMed) pour confirmer le chiffre et recopie-le tel quel, avec son intervalle de confiance.
-- Sans donnée publiée, écris « aucune donnée ». N'estime rien.
-- Garde la colonne « clé » telle quelle : elle sert à remettre le chiffre au bon endroit dans l'outil.
+2. Which validated combinations of history and physical examination findings (clusters or clinical prediction rules) diagnose or rule out ${nom}? For each: items, threshold, sensitivity, specificity, LR+, LR−, how it was validated, and source (first author, year, PMID).
 
-Éléments à vérifier (clé | élément | valeur actuelle dans l'outil) :
-${items.join("\n")}
-
-Rends un seul tableau, colonnes séparées par « | » :
-clé | élément | sensibilité | spécificité | RV+ | RV− | IC 95 % | population (âge, contexte) | référence standard | auteur année revue | PMID ou DOI | type d'étude | remarque
-
-Ensuite :
-1. Les combinaisons validées pour ${x.nom} (grappes de signes, règles de décision) : éléments, seuil, sensibilité, spécificité, RV, population et source. Précise si l'âge ou le sexe fait partie de la combinaison.
-2. Les éléments d'anamnèse ou d'examen utiles pour ${x.nom} qui manquent à ma liste, avec leurs chiffres et leurs sources.
-3. La fréquence de ${x.nom} chez les patients qui consultent pour une ${d.titre.toLowerCase()}, par groupe d'âge (12-17, 18-39, 40-59, 60 et plus) et par sexe, avec les sources.`;
+3. Among patients ${d.ages || "12 years and older"} consulting in primary care or sports medicine for ${region} pain, what proportion has ${nom}? Give results by age group (12–17, 18–39, 40–59, 60+) and by sex if available, with sources (first author, year, PMID).`;
   }
 
   racine.Locomoteur = Object.assign(racine.Locomoteur || {}, {
-    outils: { p, lit, est, o, m, ouiNon, choix, multi, nombre, texte, caseQ },
+    outils: { p, lit, est, o, m, ouiNon, choix, multi, nombre, texte, caseQ, miroir },
     definir, calculer, rediger, normalDe, consigne, elementDe, visibles, rvPosNeg, rvDe, libelleOption, STATUTS, CATEGORIES,
   });
 })(typeof window !== "undefined" ? window : globalThis);
