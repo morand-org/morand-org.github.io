@@ -30,6 +30,9 @@ for (const r of REGIONS) {
   r.nb = window.Locomoteur.donnees[r.id].diagnostics.length;
 }
 
+const prets = REGIONS.filter(x => x.pret).map(x => x.id).join(",");
+const avecRegions = h => h.replace(/<body class="lo-outil" data-articulation="([a-z]+)"( data-regions="[^"]*")?>/, `<body class="lo-outil" data-articulation="$1" data-regions="${prets}">`);
+fs.writeFileSync(path.join(RACINE, "locomoteur/genou/index.html"), avecRegions(lire("locomoteur/genou/index.html")));
 const modele = lire("locomoteur/genou/index.html");
 for (const r of REGIONS.filter(x => x.pret && x.id !== "genou")) {
   const minu = r.douleur[0].toLowerCase() + r.douleur.slice(1);
@@ -38,7 +41,7 @@ for (const r of REGIONS.filter(x => x.pret && x.id !== "genou")) {
     .replace("pour la douleur au genou : anamnèse", `pour la ${minu.replace(/^douleur /, "douleur ")} : anamnèse`)
     .replace('<script src="/locomoteur/genou/donnees-genou.js" defer></script>',
       [r.id, ...(r.aides || [])].map(a => `<script src="/locomoteur/${a}/aide-memoire-${a}.js" defer></script>\n`).join("") + `<script src="/locomoteur/${r.id}/donnees-${r.id}.js" defer></script>`)
-    .replace('data-articulation="genou"', `data-articulation="${r.id}"`)
+    .replace('data-articulation="genou"', `data-articulation="${r.id}"`).replace('<script src="/locomoteur/genou/aide-memoire-genou.js" defer></script>\n', "")
     .replace('<span class="cache"> : douleur au genou</span>', `<span class="cache"> : ${minu}</span>`)
     .replace("<p class=\"cr-lead\">Douleur au genou. Cochez", `<p class="cr-lead">${r.lead} Cochez`)
     .replace('<a class="cr-vue" href="/locomoteur/genou/" aria-current="page">Genou</a>', `<a class="cr-vue" href="/locomoteur/${r.id}/" aria-current="page">${r.nom}</a>`);

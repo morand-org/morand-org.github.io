@@ -372,10 +372,12 @@ async function locomoteur(nav) {
     for (const lien of r.liens.filter(l => l !== "/locomoteur/genou/")) {
       const { ctx: c2, p: p2, erreurs: e2 } = await ouvrir(nav, lien, { largeur: 390 });
       const clic = async (q, v) => (await p2.locator(`select[data-q="${q}"]`).count()) ? p2.selectOption(`select[data-q="${q}"]`, v) : p2.click(`button[data-q="${q}"][data-v="${v}"]`);
-      await clic("sexe", "M"); await p2.fill("#c-age", "40"); await clic("apparition", "graduel"); await clic("duree", "gt3m");
+      const reg = lien.split("/")[2]; await p2.waitForSelector('[data-q="sexe"]');
+      await clic("sexe", "M"); await p2.fill("#c-age", "40"); await clic(`${reg}:apparition`, "graduel"); await clic(`${reg}:duree`, "gt3m");
+      for (const s of await p2.locator(".lo-bloc-depliable:not([open]) > summary").all()) { if (await s.isVisible()) await s.click(); }
       for (const b of await p2.locator("button[data-normal]").all()) { if (await b.isVisible()) await b.click(); }
       await p2.waitForTimeout(150);
-      const x = await p2.evaluate(() => ({ dx: document.querySelectorAll("#lo-dx .lo-dx-item").length, note: document.querySelector("#lo-note").value,
+      const x = await p2.evaluate(() => ({ dx: document.querySelectorAll(".lo-dx .lo-dx-item").length, note: document.querySelector("#lo-note").value,
         deborde: document.documentElement.scrollWidth > innerWidth + 1, conduite: document.querySelector("#lo-conduite").textContent.length }));
       verifier(`MSK ${lien} : diagnostics, conduite et note sans erreur ni débordement`, x.dx >= 5 && x.note.startsWith("IDENTIFICATION :") && x.conduite > 50 && !x.deborde && e2.length === 0, { ...x, note: x.note.slice(0, 80), e2 });
       await c2.close();
@@ -384,30 +386,41 @@ async function locomoteur(nav) {
   for (const largeur of [390, 1280]) {
     const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur, hauteur: largeur > 1000 ? 900 : 844 });
     await ctx.grantPermissions(["clipboard-read", "clipboard-write"]);
-    const clic = async (q, v) => (await p.locator(`select[data-q="${q}"]`).count()) ? p.selectOption(`select[data-q="${q}"]`, v) : p.click(`button[data-q="${q}"][data-v="${v}"]`);
+    // Clé d'une réponse : commune (« age ») ou propre à la plainte (« genou:cote »).
+    const k = async q => ((await p.locator(`[data-q="genou:${q}"]`).count()) ? `genou:${q}` : q);
+    // Ouvre au besoin la partie dépliable qui contient la question, puis répond.
+    const clic = async (q, v) => {
+      const c = await k(q);
+      await p.evaluate(c2 => { for (const d of document.querySelectorAll(`[data-q="${c2}"]`)) { const x = d.closest("details"); if (x && !x.open) x.open = true; } }, c);
+      return (await p.locator(`select[data-q="${c}"]`).count()) ? p.selectOption(`select[data-q="${c}"]`, v) : p.click(`button[data-q="${c}"][data-v="${v}"]`);
+    };
+    await p.waitForSelector('[data-q="sexe"]');
     await clic("sexe", "F"); await p.fill("#c-age", "15"); await clic("cote", "G"); await p.fill("#c-accompagne", "sa mère");
     verifier(`Genou ${largeur} px : avec l'âge et le sexe seulement, les probabilités de départ sont annoncées`, /départ \(femme, 15 ans\)/.test(await p.textContent("#lo-res-etat")));
-    verifier(`Genou ${largeur} px : adolescente, la hanche est à examiner`, (await p.textContent("#lo-alertes")).includes("Examiner la hanche"));
-    await clic("duree", "s6_12"); await clic("apparition", "graduel"); await p.click('button[data-q="localisation"][data-m="anterieure"]');
+    verifier(`Genou ${largeur} px : adolescente, la hanche est à examiner`, (await p.textContent(".lo-alertes")).includes("Examiner la hanche"));
+    await clic("duree", "s6_12"); await clic("apparition", "graduel"); await p.click('button[data-q="genou:localisation"][data-m="anterieure"]');
     await clic("escaliers", "oui"); await clic("assis", "oui"); await clic("derobade", "non"); await clic("enflure", "non"); await clic("fievre", "non");
-    verifier(`Genou ${largeur} px : le mécanisme ne s'affiche qu'après un traumatisme`, await p.locator('[data-qid="mecanisme"]').isHidden());
+    verifier(`Genou ${largeur} px : le mécanisme ne s'affiche qu'après un traumatisme`, await p.locator('[data-qid="genou-mecanisme"]').isHidden());
     verifier(`Genou ${largeur} px : en-tête, intro et pied de page des outils Morand`, await p.evaluate(() => !!document.querySelector(".cr-tete .cr-onglets a[aria-current='page'][href='/locomoteur/']")
       && !!document.querySelector(".cr-intro .cr-nom") && document.querySelector(".cr-pied").textContent.includes("MMXXVI")));
     verifier(`Genou ${largeur} px : les questions du calcul ont un trait doré, les autres non`, await p.evaluate(() =>
-      document.querySelector('[data-qid="lachman"]').classList.contains("lo-q-calcul") && !document.querySelector('[data-qid="ex_oedeme"]').classList.contains("lo-q-calcul")));
+      document.querySelector('[data-qid="genou-lachman"]').classList.contains("lo-q-calcul") && !document.querySelector('[data-qid="genou-ex_oedeme"]').classList.contains("lo-q-calcul")));
     await p.click('button[data-q="sport"][data-m="danse"]'); await p.click('button[data-q="sport"][data-m="pivot"]');
     verifier(`Genou ${largeur} px : plusieurs activités physiques à la fois`, (await p.locator('button[data-q="sport"][aria-pressed="true"]').count()) === 2);
     verifier(`Genou ${largeur} px : pas de dominance au genou`, (await p.locator('[data-qid="lateralite"]').count()) === 0);
-    // « Tout normal » remplit un bloc d'un clic (palpation), sans les points facultatifs.
-    await p.click('[data-bloc="examen-3"] button[data-normal]');
+    // Examen : chaque partie se déplie ; « Tout normal » remplit la palpation, sauf les points facultatifs.
+    verifier(`Genou ${largeur} px : les parties de l'examen sont fermées tant qu'on n'y a pas répondu`, !(await p.locator('[data-bloc="genou-examen-3"]').evaluate(e => e.open)));
+    await p.click('[data-bloc="genou-examen-3"] > summary'); await p.click('[data-bloc="genou-examen-3"] button[data-normal]');
     verifier(`Genou ${largeur} px : « Tout normal » remplit la palpation, sauf les points facultatifs`,
-      (await p.getAttribute('button[data-q="p_rotule"][data-v="non"]', "aria-pressed")) === "true" && (await p.getAttribute('button[data-q="p_facettes"][data-v="non"]', "aria-pressed")) === "false");
-    await clic("p_facettes", "oui"); await clic("flot", "negatif"); await clic("lachman", "normal"); await clic("squat_bi", "ant"); await clic("hanche_ri", "normale");
+      (await p.getAttribute('button[data-q="genou:p_rotule"][data-v="non"]', "aria-pressed")) === "true" && (await p.getAttribute('button[data-q="genou:p_facettes"][data-v="non"]', "aria-pressed")) === "false");
+    await clic("p_facettes", "oui");
+    await clic("flot", "negatif"); await clic("lachman", "normal"); await clic("squat_bi", "ant"); await clic("hanche_ri", "normale");
     await p.click('button[data-q="plan_enseignement"]');
     await p.waitForTimeout(150);
-    const r = await p.evaluate(() => ({ tete: document.querySelector("#lo-dx .lo-dx-nom").textContent, cat: document.querySelector("#lo-dx .lo-dx-cat").textContent,
-      note: document.querySelector("#lo-note").value }));
-    verifier(`Genou ${largeur} px : syndrome fémoro-patellaire en tête, très probable`, r.tete === "Syndrome fémoro-patellaire" && r.cat === "Très probable", r.tete);
+    const r = await p.evaluate(() => ({ tete: document.querySelector(".lo-dx .lo-dx-nom").textContent, cat: document.querySelector(".lo-dx .lo-dx-cat").textContent,
+      groupe: document.querySelector(".lo-dx-groupe").textContent, cles: !!document.querySelector(".lo-dx-cles"), note: document.querySelector("#lo-note").value }));
+    verifier(`Genou ${largeur} px : syndrome fémoro-patellaire en tête, très probable, à considérer en premier, avec ses éléments clés`,
+      r.tete === "Syndrome fémoro-patellaire" && r.cat === "Très probable" && r.groupe === "À considérer en premier" && r.cles, r);
     verifier(`Genou ${largeur} px : la note suit le format clinique (identification, HMA, examen, impression, plan)`,
       r.note.startsWith("IDENTIFICATION :\n- Fille de 15 ans, rencontrée avec sa mère") && r.note.includes("\nRAISON DE CONSULTATION :\nDouleur au genou G")
       && /\nHMA :\n/.test(r.note) && r.note.includes("\nGENOU :\nCôté atteint : gauche\n") && r.note.includes("- Palpation : rotule indolore ; facettes rotuliennes douloureuses")
@@ -419,31 +432,44 @@ async function locomoteur(nav) {
     verifier(`Genou ${largeur} px : « N/A » ne compte pas`, (await p.textContent("#lo-res-etat")) === avant, [avant, await p.textContent("#lo-res-etat")]);
     // Traumatisme récent : la règle d'Ottawa demande la radiographie au premier critère.
     await clic("apparition", "subit_trauma"); await clic("duree", "lt7"); await clic("p_perone", "oui"); await p.waitForTimeout(80);
-    verifier(`Genou ${largeur} px : règle d'Ottawa positive, radiographie indiquée`, (await p.textContent("#lo-alertes")).includes("Radiographie du genou indiquée"));
+    verifier(`Genou ${largeur} px : règle d'Ottawa positive, radiographie indiquée`, (await p.textContent(".lo-alertes")).includes("Radiographie du genou indiquée"));
     // La fiche du diagnostic s'ouvre ; une suggestion de conduite s'ajoute au plan.
-    await p.click("#lo-dx .lo-dx-item summary"); const fiche = p.locator("#lo-dx button[data-fiche]").first();
-    if (await fiche.count()) { await fiche.click(); await p.waitForTimeout(300); verifier(`Genou ${largeur} px : la fiche s'ouvre`, (await p.textContent("#lo-fiche h2")).length > 5); await p.click(".lo-fiche-fermer"); }
+    await p.click(".lo-dx .lo-dx-item summary"); const fiche = p.locator(".lo-dx button[data-fiche]").first();
+    if (await fiche.count()) { await fiche.click(); await p.waitForTimeout(300); verifier(`Genou ${largeur} px : la fiche s'ouvre`, (await p.textContent("#lo-fiche h2")).length > 5); await p.click("#lo-fiche .lo-fiche-fermer"); }
     await p.click("#t-conduite"); await p.locator(".lo-plus").first().click(); await p.waitForTimeout(100);
     verifier(`Genou ${largeur} px : « + Plan » ajoute la suggestion au plan`, (await p.inputValue('[data-q="plan_ajouts"]')).length > 10);
-    // Copier la note, puis la consigne de validation.
+    // Copier la note, puis les questions pour OpenEvidence.
     await p.click("#t-note"); await p.click("#lo-copier"); await p.waitForTimeout(150);
     verifier(`Genou ${largeur} px : la note est copiée`, (await p.evaluate(() => navigator.clipboard.readText())).startsWith("IDENTIFICATION :"));
     await p.click('#lo-nav a[href="#sources"]'); await p.waitForTimeout(100);
     verifier(`Genou ${largeur} px : « Sources » ouvre « Sources et limites »`, await p.evaluate(() => document.getElementById("sources").open));
-    await p.selectOption("#lo-src-dx", "lca"); await p.click("#lo-consigne"); await p.waitForTimeout(150);
+    await p.selectOption("#lo-src-dx", "genou|lca"); await p.click("#lo-consigne"); await p.waitForTimeout(150);
     const c = await p.evaluate(() => navigator.clipboard.readText());
     verifier(`Genou ${largeur} px : les questions pour OpenEvidence du LCA sont en anglais et nomment les tests`, c.includes("anterior cruciate ligament tear") && c.includes("Lachman"), c.slice(0, 300));
     verifier(`Genou ${largeur} px : le tableau des sources montre les poids et les combinaisons du diagnostic choisi`, (await p.locator("#lo-table tbody tr").count()) > 20
       && (await p.textContent("#lo-table")).includes("Combinaison : Décary") && (await p.textContent("#lo-table")).includes("Sokal"));
     // Bouton « i » : pourquoi, effet sur le calcul, source et vidéo ; « Équivoque » ne compte pas.
-    await p.click('button[data-info="lachman"]'); await p.waitForTimeout(80);
-    const info = await p.textContent("#i-lachman");
+    await p.click('button[data-info="genou|lachman"]'); await p.waitForTimeout(80);
+    const info = await p.textContent("#i-genou-lachman");
     verifier(`Genou ${largeur} px : le « i » du Lachman donne l'effet sur le calcul, la source et la vidéo`, info.includes("Effet sur le calcul") && info.includes("Sokal") && info.includes("Physiotutors"), info.slice(0, 200));
-    verifier(`Genou ${largeur} px : les tests ont une réponse « Équivoque »`, (await p.locator('button[data-q="lachman"][data-v="equivoque"]').count()) === 1);
-    // Nouveau patient : tout s'efface.
+    verifier(`Genou ${largeur} px : les tests ont une réponse « Équivoque »`, (await p.locator('button[data-q="genou:lachman"][data-v="equivoque"]').count()) === 1);
+    // Deuxième plainte : la cheville s'ajoute, avec son anamnèse, son examen, son DDx et une 2ᵉ impression dans la note.
+    await p.click('button[data-region="cheville"]'); await p.waitForSelector('[data-q="cheville:cote"]');
+    await p.click('button[data-q="cheville:cote"][data-v="D"]'); await p.click('button[data-q="cheville:apparition"][data-v="graduel"]'); await p.waitForTimeout(150);
+    const m = await p.evaluate(() => ({ regions: [...document.querySelectorAll(".lo-dx-region")].map(x => x.dataset.region), note: document.querySelector("#lo-note").value,
+      age: document.querySelector("#c-age").value }));
+    verifier(`Genou ${largeur} px : une 2ᵉ plainte (cheville) garde l'identification et ajoute son DDx et sa 2ᵉ impression`, m.regions.join() === "genou,cheville" && m.age === "15"
+      && m.note.includes("2- Douleur à la cheville D") && m.note.includes("GENOU G :") && m.note.includes("CHEVILLE D :"), { ...m, note: m.note.slice(-400) });
+    // Sauvegarde : identifiant sans nom, liste, puis réouverture.
+    await p.click("#lo-patients-ouvrir"); await p.fill("#lo-etiquette", "AB-1"); await p.click('#lo-patients-form button[type="submit"]'); await p.waitForTimeout(100);
+    verifier(`Genou ${largeur} px : le patient est sauvegardé dans ce navigateur`, (await p.textContent("#lo-patients-liste")).includes("AB-1"));
+    await p.click("#lo-patients .lo-fiche-fermer");
     p.once("dialog", dlg => dlg.accept()); await p.click("#lo-nouveau"); await p.waitForTimeout(100);
-    verifier(`Genou ${largeur} px : « Nouveau patient » efface tout`, (await p.locator('#lo-form button[aria-pressed="true"]').count()) === 0 && (await p.inputValue("#c-age")) === "");
-    verifier(`Genou ${largeur} px : rien n'est conservé dans l'appareil`, await p.evaluate(() => localStorage.length === 0 || !Object.keys(localStorage).some(k => k.includes("locomoteur"))));
+    verifier(`Genou ${largeur} px : « Nouveau patient » efface tout`, (await p.locator('#lo-form button[data-q][aria-pressed="true"]').count()) === 0 && (await p.inputValue("#c-age")) === "");
+    await p.click("#lo-patients-ouvrir"); await p.click('#lo-patients-liste button[data-ouvrir]'); await p.waitForSelector('[data-q="cheville:cote"]'); await p.waitForTimeout(150);
+    verifier(`Genou ${largeur} px : le patient sauvegardé se rouvre avec ses deux plaintes`, (await p.inputValue("#c-age")) === "15"
+      && (await p.getAttribute('button[data-q="cheville:cote"][data-v="D"]', "aria-pressed")) === "true");
+    await p.evaluate(() => localStorage.clear());
     verifier(`Genou ${largeur} px : aucune erreur`, erreurs.length === 0, erreurs);
     await ctx.close();
   }

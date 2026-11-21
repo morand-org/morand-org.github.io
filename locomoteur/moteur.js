@@ -285,17 +285,20 @@
     const dq = q.degres && d.parQ[q.degres], dv = dq && rep[q.degres];
     const cq = d.parQ.cote, co = cq && rep.cote ? cq.options.find(x => x.v === rep.cote) : null;
     t = t.replace("{court}", court).replace("{deg}", dv ? " " + (dq.gabarit || "à ~{v}°").replace("{v}", dv) : "")
-      .replace("{cote}", co && co.abr !== "bilat" ? ` ${co.abr}` : "").replace("{e}", rep.sexe === "F" ? "e" : "");
+      .replace("{cote}", co && co.abr !== "bilat" ? ` ${co.abr}` : "").replace(/{e}/g, rep.sexe === "F" ? "e" : "").replace(/{ne}/g, rep.sexe === "F" ? "ne" : "");
     return t;
   }
-  function rediger(d, res) {
-    const { rep, L, diagnostics, alertes } = res, out = [], fem = L.sexe === "F";
+  /* Sections de la note d'une région, avant assemblage : la note d'une consultation à plusieurs plaintes réunit celles de
+     chaque région (identification, antécédents et plan communs ; HMA, examen et impression par plainte). */
+  function sectionsNote(d, res) {
+    const { rep, L, diagnostics, alertes } = res, S = {}, fem = L.sexe === "F";
     const sections = cle => d.sections.filter(s => s.note === cle);
     const repondues = b => b.questions.filter(q => q.id in rep);
     const el = q => element(q, rep[q.id], rep, d);
     const cq = d.parQ.cote, co = cq && rep.cote ? cq.options.find(x => x.v === rep.cote) : null, abr = co ? ` ${co.abr}` : "";
     const suivi = rep.visite === "suivi";
-    const titre = (t, contenu) => { if (contenu.length) out.push(...(out.length ? [""] : []), `${t} :`, ...contenu); };
+    const titre = (t, contenu) => { S[t] = contenu; };
+    S.suivi = suivi;
 
     // IDENTIFICATION : « Femme de 23 ans, artiste peintre, rencontrée avec sa mère » sur une seule ligne, puis le reste.
     const id = [], mineur = L.age !== null && L.age < 18;
@@ -357,7 +360,7 @@
     }
     if (negLocal.length) hma.push(`- ${pasDe(negLocal)}`);
     if (negDrapeaux.length) hma.push(`- ${pasDe(negDrapeaux)}`);
-    titre(suivi ? "ÉVOLUTION DEPUIS LA DERNIÈRE VISITE" : "HMA", hma);
+    S.HMA = hma;
 
     // EXAMEN PHYSIQUE (toujours présent)
     const tete = [], module = [], adjacent = [], fin = [];
@@ -387,15 +390,15 @@
       const prefixe = b.ligne === false ? "" : `${b.ligne || b.titre} : `;
       module.push(`- ${prefixe}${prefixe ? items.join(" ; ") : maj(items.join(" ; "))}`);
     }
-    const ex = [...tete];
+    const ex = [];
     if (module.length || adjacent.length || fin.length) {
-      ex.push(...(tete.length ? [""] : []), `${(d.partieExamen || d.partie).toUpperCase()} :`);
+      ex.push(`${(d.partieExamen || d.partie).toUpperCase()} :`);
       if (co) ex.push(`Côté atteint : ${co.cote}`);
       ex.push(...module);
       if (adjacent.length) ex.push(`- Dépistage adjacent : ${adjacent.join(" ; ")}`);
       ex.push(...fin);
     }
-    out.push(...(out.length ? [""] : []), "EXAMEN PHYSIQUE :", ...ex);
+    S.tete = tete; S.module = ex; S.etiquette = `${(d.partieExamen || d.partie).toUpperCase()}${abr}`;
 
     // EDU (échographie au cabinet), puis INVESTIGATIONS (déjà faites)
     const edu = [], inv = [];
@@ -423,7 +426,7 @@
       const ecartes = diagnostics.filter(x => !x.residuel && x.depart >= 0.05 && x.p < 0.05).map(x => x.x.n);
       if (ecartes.length) imp.push(`- Pas d'évidence ${/^[aeiouyéèêàâîïôûœh]/i.test(ecartes[0]) ? "d'" : "de "}${ecartes.length < 2 ? ecartes[0] : `${ecartes.slice(0, -1).join(", ")} ni ${ecartes[ecartes.length - 1]}`}`);
     }
-    for (const x of lignes(rep.impression_precisions || "")) imp.push(`- ${maj(x)}`);
+    S.precisions = lignes(rep.impression_precisions || "").map(x => `- ${maj(x)}`);
     titre("IMPRESSION DIAGNOSTIQUE", imp);
 
     // PLAN : cases cochées, dans l'ordre habituel.
@@ -434,7 +437,31 @@
       const t = el(q); if (t) plan.push(`- ${maj(t)}`);
     }
     titre("PLAN", plan);
+    return S;
+  }
+  const HMA = S => (S.suivi ? "ÉVOLUTION DEPUIS LA DERNIÈRE VISITE" : "HMA");
+  function assembler(S) {
+    const out = [], titre = (t, contenu) => { if (contenu && contenu.length) out.push(...(out.length ? [""] : []), `${t} :`, ...contenu); };
+    for (const t of ["IDENTIFICATION", "RAISON DE CONSULTATION", "ANTÉCÉDENTS"]) titre(t, S[t]);
+    titre(HMA(S), S.HMA);
+    out.push(...(out.length ? [""] : []), "EXAMEN PHYSIQUE :", ...S.tete, ...(S.tete.length && S.module.length ? [""] : []), ...S.module);
+    for (const t of ["EDU", "INVESTIGATIONS"]) titre(t, S[t]);
+    titre("IMPRESSION DIAGNOSTIQUE", [...S["IMPRESSION DIAGNOSTIQUE"], ...S.precisions]);
+    titre("PLAN", S.PLAN);
     return out.join("\n");
+  }
+  function rediger(d, res) { return assembler(sectionsNote(d, res)); }
+  /* Plusieurs plaintes : liste [{ d, res }] dans l'ordre des plaintes. Les sections communes viennent de la première ; les
+     lignes en double (antécédents, examen fonctionnel) ne s'écrivent qu'une fois. */
+  function redigerPlusieurs(liste) {
+    if (liste.length === 1) return rediger(liste[0].d, liste[0].res);
+    const T = liste.map(({ d, res }) => sectionsNote(d, res)), S0 = T[0];
+    const union = cle => [...new Set(T.flatMap(S => S[cle] || []))];
+    const hma = T.flatMap(S => (S.HMA.length ? [`${S.etiquette} :`, ...S.HMA] : []));
+    const S = { ...S0, "RAISON DE CONSULTATION": T.flatMap(S => S["RAISON DE CONSULTATION"] || []), "ANTÉCÉDENTS": union("ANTÉCÉDENTS"),
+      HMA: hma, tete: union("tete"), module: T.flatMap((S, i) => [...(i && S.module.length ? [""] : []), ...S.module]),
+      "IMPRESSION DIAGNOSTIQUE": T.flatMap((S, i) => (S["IMPRESSION DIAGNOSTIQUE"] || []).map((l, j) => (j === 0 ? l.replace(/^1- /, `${i + 1}- `) : l))) };
+    return assembler(S);
   }
   // Valeur « normale » d'un élément, pour le bouton « Tout normal ».
   function normalDe(q) {
@@ -474,6 +501,6 @@
 
   racine.Locomoteur = Object.assign(racine.Locomoteur || {}, {
     outils: { p, lit, est, o, m, ouiNon, choix, multi, nombre, texte, caseQ, miroir },
-    definir, calculer, rediger, normalDe, consigne, elementDe, visibles, rvPosNeg, rvDe, libelleOption, STATUTS, CATEGORIES,
+    definir, calculer, rediger, redigerPlusieurs, normalDe, consigne, elementDe, visibles, rvPosNeg, rvDe, libelleOption, STATUTS, CATEGORIES,
   });
 })(typeof window !== "undefined" ? window : globalThis);

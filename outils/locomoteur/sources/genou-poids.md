@@ -73,7 +73,7 @@ Repères publiés : Symptomatique chez 12,1 % après 60 ans (environ 20 % après
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
 | `cote>arthrose` | Genou atteint | — | — | Les deux 1,5 | provisoire | — |
-| `travail>arthrose` | Occupation | — | — | Travail physique 1,2 ; Travail à genoux (plancher, toiture, plomberie…) 1,2 | provisoire | — |
+| `travail>arthrose` | Occupation | — | — | Travail physique (charges, manutention) 1,2 ; Travail à genoux (plancher, toiture, plomberie…) 1,2 | provisoire | — |
 | `sport.marche>arthrose` | Activités physiques : Marche ou randonnée | — | — | 1,1 / 1 | provisoire | — |
 | `atcd_genou>arthrose` | Blessure ou chirurgie antérieure à ce genou | — | — | 1,8 / 0,85 | provisoire | — |
 | `obesite>arthrose` | Obésité (IMC 30 ou plus) | — | — | 1,6 / 0,85 | provisoire | — |
@@ -137,7 +137,7 @@ Repères publiés : 61–79/100 000/an ; 9 % des gonalgies de l'adulte en premi�
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
 | `cote>menisque` | Genou atteint | — | — | Les deux 0,5 | provisoire | — |
-| `travail>menisque` | Occupation | — | — | Travail physique 1,2 ; Travail à genoux (plancher, toiture, plomberie…) 1,3 | provisoire | — |
+| `travail>menisque` | Occupation | — | — | Travail physique (charges, manutention) 1,2 ; Travail à genoux (plancher, toiture, plomberie…) 1,3 | provisoire | — |
 | `sport.pivot>menisque` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,4 / 1 | provisoire | — |
 | `sport.raquette>menisque` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 1,3 / 1 | provisoire | — |
 | `sport.contact>menisque` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,3 / 1 | provisoire | — |
