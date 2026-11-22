@@ -422,6 +422,33 @@
         : "<p class=\"lo-discret\">Aucun élément du questionnaire ne les départage nettement.</p>"}
     </details>`;
   }
+  /* Questions les plus utiles maintenant (point 6) : on simule chaque réponse possible des questions visibles sans réponse
+     (12 au plus, celles qui pèsent sur les 4 premiers diagnostics) et on retient les 3 qui déplaceraient le plus une
+     probabilité. Un clic mène à la question. */
+  function utiles(r, res) {
+    const L = res.diagnostics.filter(x => !x.residuel).slice(0, 4), d = D(r);
+    if (!L.length || !L[0].comptes.length) return "";
+    const cands = d.questions.filter(q => !CONTEXTE.has(q.id) && (q.type === "oui_non" || q.type === "choix") && res.vus.has(q.id) && res.rep[q.id] === undefined)
+      .map(q => [Math.max(...L.map(x => forceDe(q, x.id))), q]).filter(([f]) => f >= Math.log(2)).sort((a, b) => b[0] - a[0]).slice(0, 12).map(([, q]) => q);
+    const notes = [];
+    for (const q of cands) {
+      const vals = (q.type === "oui_non" ? ["oui", "non"] : q.options.map(o => o.v)).slice(0, 5);
+      const sims = vals.map(v => ({ v, r2: LO.calculer(d, { ...res.rep, [q.id]: v }) }));
+      let meilleur = null;
+      for (const x of L) {
+        const ps = sims.map(z => ({ v: z.v, p: pDe(z.r2, x.id) })), haut = ps.reduce((a, b) => (b.p > a.p ? b : a)), bas = ps.reduce((a, b) => (b.p < a.p ? b : a));
+        const ecart = haut.p - bas.p;
+        if (!meilleur || ecart > meilleur.ecart) meilleur = { x, haut, bas, ecart };
+      }
+      if (meilleur && meilleur.ecart >= 0.15) notes.push({ q, ...meilleur });
+    }
+    notes.sort((a, b) => b.ecart - a.ecart);
+    if (!notes.length) return "";
+    const val = (q, v) => (q.type === "oui_non" ? (v === "oui" ? "positif" : "négatif") : LO.libelleOption(q, v).toLowerCase());
+    const dom = q => (rendus.find(z => z.r === r && z.q.id === q.id) || {}).dom;
+    return `<div class="lo-utiles"><p class="lo-utiles-titre">Questions les plus utiles maintenant</p><ol>${notes.slice(0, 3).map(n => `<li><button type="button" class="lo-lien" data-aller="${esc(dom(n.q) || "")}">${esc(n.q.libelle)}</button>
+      <span class="lo-discret">${esc(n.x.x.nom)} : ${pct(n.haut.p)} si ${esc(val(n.q, n.haut.v))}, ${pct(n.bas.p)} si ${esc(val(n.q, n.bas.v))}</span></li>`).join("")}</ol></div>`;
+  }
   function itemDx(r, res, x, avecCles) {
     const verifies = x.comptes.filter(c => c.e.statut === "verifie" || c.e.statut === "valide").length;
     return `<li class="lo-dx-item" data-cat="${x.categorie[2]}" data-dx="${x.id}"><details${ouverts.has(`${r}|${x.id}`) ? " open" : ""}>
@@ -475,7 +502,7 @@
     $("#lo-res-etat").textContent = !saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(r0)}). Remplissez l'anamnèse et l'examen.`
         : regs.map(r => `${plusieurs ? `${plainteTitre(r)} : ` : `${saisies} réponse${saisies > 1 ? "s" : ""} · `}${derniers[r].diagnostics[0].categorie[1].toLowerCase()} : ${derniers[r].diagnostics[0].x.nom.toLowerCase()}`).join(" · ");
-    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${fiabilite(derniers[r])}${projetees(r, derniers[r])}${dxHtml(r, derniers[r])}${comparerHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
+    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${fiabilite(derniers[r])}${projetees(r, derniers[r])}${utiles(r, derniers[r])}${dxHtml(r, derniers[r])}${comparerHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
     for (const ol of zone.querySelectorAll("ol.lo-dx")) for (const li of ol.children) {
       const r = ol.dataset.region, x = derniers[r].diagnostics.find(y => y.id === li.dataset.dx);
       li.style.setProperty("--val", x.p.toFixed(4)); li.style.setProperty("--bas", x.bas.toFixed(4)); li.style.setProperty("--haut", x.haut.toFixed(4));
@@ -488,6 +515,12 @@
     comparaisons.set(r, [a, b]); resultats(actives());
   });
   $("#lo-dx-regions").addEventListener("click", e => {
+    const va = e.target.closest("button[data-aller]");
+    if (va && va.dataset.aller) {
+      const q = form.querySelector(`[data-qid="${va.dataset.aller}"]`);
+      if (q) { let x = q.closest("details"); while (x) { x.open = true; x = x.parentElement.closest("details"); } q.scrollIntoView({ block: "center" }); const b = q.querySelector("button, select, input"); if (b) b.focus({ preventScroll: true }); }
+      return;
+    }
     const aj = e.target.closest("button[data-ajouter]");
     if (aj) { const puce = form.querySelector(`.lo-puce[data-region="${aj.dataset.ajouter}"]`); if (puce) { puce.click(); puce.scrollIntoView({ block: "center" }); } return; }
     const t = e.target.closest("button[data-tous]");
