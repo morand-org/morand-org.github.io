@@ -42,7 +42,7 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
    10. ✅ (PR #14) **8. Comparateur de deux diagnostics.** Côte à côte, avec les éléments qui les départagent le mieux.
    11. ✅ (PR #15) **6. « Prochaine question la plus utile ».** Les 3 questions non répondues qui changeraient le plus le classement, avec l'effet attendu si positif ou négatif.
    12. ✅ (PR #16) **15. Mode rapide.** Une dizaine de questions discriminantes par région ; passage au mode complet d'un clic.
-   13. **11. Conduite en six blocs.** Investigations, Traitement, À éviter, Suivi, Consignes de reconsultation, Référence, avec la conduite conditionnelle (« si échec à 6 semaines… »).
+   13. ✅ (PR #17) **11. Conduite en six blocs.** Investigations, Traitement, À éviter, Suivi, Consignes de reconsultation, Référence, avec la conduite conditionnelle (« si échec à 6 semaines… »).
 4. **19. Atlas de la douleur** (avant-dernier) : schéma du corps cliquable pour choisir la région et la localisation.
 5. **14. Importateur de note sans IA** (dernier). Le principe :
    - dictionnaires pour les négations, le côté, la durée et les tests positifs ou négatifs ;

@@ -152,11 +152,60 @@
     return items;
   }
   const section = (id, titre, corps, sous = "") => `<section class="lo-section" id="s-${id}" aria-labelledby="h-${id}"><h2 id="h-${id}">${esc(titre)}${sous}</h2>${corps}</section>`;
+  /* Atlas de la douleur (point 19) : silhouette de face et de dos ; une zone touchée ajoute la plainte et fixe le côté
+     (les deux côtés touchés : « Les deux »). Face : droite du patient à gauche de l'écran ; dos : l'inverse. */
+  const COTES = { D: "droit", G: "gauche" };
+  function atlasSvg() {
+    const corps = (cx, dos) => {
+      const m = s => (dos ? -s : s); // côté droit du patient : à gauche de face, à droite de dos
+      const membre = pts => `<polyline class="lo-atlas-contour" points="${pts}"/><polyline class="lo-atlas-membre" points="${pts}"/>`;
+      const bras = c => membre(`${cx + c * 30},58 ${cx + c * 41},110 ${cx + c * 47},150`), jambe = c => membre(`${cx + c * 13},148 ${cx + c * 14},205 ${cx + c * 13},254`);
+      return `<g class="lo-atlas-corps">${bras(-1)}${bras(1)}${jambe(-1)}${jambe(1)}
+        <path class="lo-atlas-tronc" d="M${cx - 31},52 Q${cx},45 ${cx + 31},52 L${cx + 27},106 Q${cx + 24},134 ${cx + 27},154 L${cx - 27},154 Q${cx - 24},134 ${cx - 27},106 Z"/>
+        <rect class="lo-atlas-tronc" x="${cx - 6}" y="36" width="12" height="14" rx="4"/><ellipse class="lo-atlas-tronc" cx="${cx}" cy="23" rx="13" ry="16"/>
+        <circle class="lo-atlas-tronc" cx="${cx - 48}" cy="160" r="7"/><circle class="lo-atlas-tronc" cx="${cx + 48}" cy="160" r="7"/>
+        <ellipse class="lo-atlas-tronc" cx="${cx + m(-1) * 15}" cy="265" rx="10" ry="5"/><ellipse class="lo-atlas-tronc" cx="${cx + m(1) * 15}" cy="265" rx="10" ry="5"/></g>`;
+    };
+    const zone = (r, cote, x, y, rayon, nom) => prets.has(r)
+      ? `<circle class="lo-zone" data-zone="${r}" data-cote="${cote}" cx="${x}" cy="${y}" r="${rayon}" tabindex="0" role="button" aria-label="${esc(nom)}"><title>${esc(nom)}</title></circle>` : "";
+    const paires = (cx, dos) => {
+      const c = cote => (cote === "D" ? (dos ? 1 : -1) : (dos ? -1 : 1));
+      const z = [];
+      for (const cote of ["D", "G"]) {
+        const k = c(cote), cn = COTES[cote];
+        z.push(zone("epaule", cote, cx + k * 32, 60, 11, `Épaule ${cn}e`.replace("droite", "droite").replace("gauchee", "gauche")));
+        if (!dos) {
+          z.push(zone("coude", cote, cx + k * 41, 110, 9, `Coude ${cn}`), zone("poignet", cote, cx + k * 47, 154, 11, `Poignet ou main ${cn}${cote === "D" ? "" : ""}`),
+            zone("hanche", cote, cx + k * 16, 146, 11, `Hanche ou aine ${cn}e`.replace("gauchee", "gauche")), zone("genou", cote, cx + k * 14, 205, 11, `Genou ${cn}`),
+            zone("cheville", cote, cx + k * 13, 250, 9, `Cheville ${cn}e`.replace("gauchee", "gauche")), zone("pied", cote, cx + k * 15, 268, 9, `Pied ${cn}`));
+        } else z.push(zone("hanche", cote, cx + k * 15, 150, 11, `Fesse ${cn}e`.replace("gauchee", "gauche")));
+      }
+      z.push(zone("cervical", "", cx, 44, 9, "Cou"));
+      if (dos) z.push(zone("lombaire", "", cx, 92, 12, "Dos (dorsal)"), zone("lombaire", "", cx, 128, 13, "Bas du dos"));
+      return z.join("");
+    };
+    return `<figure class="lo-atlas"><svg viewBox="0 0 360 290" role="group" aria-label="Atlas de la douleur : toucher la zone douloureuse">
+      ${corps(95, false)}${corps(265, true)}${paires(95, false)}${paires(265, true)}
+      <text class="lo-atlas-cote" x="30" y="282">D</text><text class="lo-atlas-cote" x="152" y="282">G</text><text class="lo-atlas-cote" x="200" y="282">G</text><text class="lo-atlas-cote" x="322" y="282">D</text>
+      <text class="lo-atlas-vue" x="95" y="288">Face</text><text class="lo-atlas-vue" x="265" y="288">Dos</text></svg>
+      <figcaption>Touchez la zone douloureuse : la plainte s'ajoute avec son côté. Les deux côtés : « Les deux ».</figcaption></figure>`;
+  }
+  function atlasActif() {
+    for (const z of form.querySelectorAll(".lo-zone")) {
+      const r = z.dataset.zone, co = lire(`${r}:cote`), actif = etat.regions.includes(r) && (!z.dataset.cote || !co || co === "?" || co === "B" || co === z.dataset.cote);
+      z.classList.toggle("lo-zone-active", actif);
+    }
+  }
+  function zoneTouchee(z) {
+    const r = z.dataset.zone, cote = z.dataset.cote, k = `${r}:cote`;
+    if (cote) { const avant = lire(k); ecrire(k, !avant || avant === "?" || avant === cote ? cote : "B"); }
+    if (!etat.regions.includes(r)) basculerRegion(r); else { construire(); maj(); const s2 = document.getElementById(`s-p-${r}`); if (s2) s2.scrollIntoView({ block: "start" }); }
+  }
   function sectionPlaintes() {
     const puces = ORDRE.map(r => prets.has(r)
       ? `<button type="button" class="lo-puce" data-region="${r}" aria-pressed="${etat.regions.includes(r) ? "true" : "false"}">${esc(NOMS[r])}</button>`
       : `<button type="button" class="lo-puce" disabled title="À venir">${esc(NOMS[r])}</button>`).join("");
-    return section("plaintes", "Plaintes", `<p class="lo-bloc-aide">Une ou plusieurs régions : chaque plainte a son anamnèse, son examen et son diagnostic différentiel ; l'identification, les antécédents et le plan sont communs.</p><div class="lo-puces lo-plaintes" role="group" aria-label="Régions de la plainte">${puces}</div>`);
+    return section("plaintes", "Plaintes", `<p class="lo-bloc-aide">Une ou plusieurs régions : chaque plainte a son anamnèse, son examen et son diagnostic différentiel ; l'identification, les antécédents et le plan sont communs.</p>${atlasSvg()}<div class="lo-puces lo-plaintes" role="group" aria-label="Régions de la plainte">${puces}</div>`);
   }
   function construire() {
     rendus = []; blocs.clear(); cles.clear();
@@ -209,7 +258,9 @@
       } else if (el.value !== (v === undefined ? "" : String(v))) el.value = v === undefined ? "" : v;
     }
   }
+  form.addEventListener("keydown", e => { const zo = e.target.closest && e.target.closest(".lo-zone"); if (zo && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); zoneTouchee(zo); } });
   form.addEventListener("click", e => {
+    const zo = e.target.closest(".lo-zone"); if (zo) { zoneTouchee(zo); return; }
     const pr = e.target.closest("button[data-region]");
     if (pr) { basculerRegion(pr.dataset.region); return; }
     const bi = e.target.closest("button[data-info]");
@@ -323,7 +374,7 @@
     }
     // Mode rapide : une section dont toutes les questions sont cachées disparaît aussi.
     for (const sec of form.querySelectorAll(".lo-section")) if (sec.querySelector(".lo-q")) sec.hidden = rapide && !sec.querySelector(".lo-q:not([hidden])");
-    resultats(regs); conduite(regs);
+    atlasActif(); resultats(regs); conduite(regs);
     $("#lo-note").value = regs.length ? LO.redigerPlusieurs(regs.map(r => ({ d: D(r), res: derniers[r] }))) : "";
     barre(regs);
   }
