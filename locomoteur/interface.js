@@ -348,6 +348,23 @@
     const m = manques(r, res, x);
     return m.length ? `<span class="lo-dx-manque">Non évalué : ${esc(m.join(", "))}</span>` : "";
   };
+  /* Douleur projetée (point 10) : proposer d'ajouter la plainte voisine quand le calcul ou l'examen l'évoque. */
+  const pDe = (res, id) => (res.diagnostics.find(x => x.id === id) || { p: 0 }).p;
+  const PROJETEES = {
+    genou: [["hanche", res => res.rep.douleur_hanche === "oui" || res.rep.hanche_ri === "limitee" || res.rep.fadir === "oui"], ["lombaire", res => res.rep.lombaire_mob === "douleur"]],
+    hanche: [["lombaire", res => pDe(res, "lombaire") >= 0.15 || res.rep.lombaire_mob === "douleur"], ["genou", res => res.rep.genou_mob === "douleur"]],
+    lombaire: [["hanche", res => res.rep.hanche_mob === "douleur"]],
+    epaule: [["cervical", res => pDe(res, "cervical") >= 0.15 || res.rep.cou_mob === "douleur" || res.rep.spurling === "oui"]],
+    coude: [["cervical", res => pDe(res, "cervical") >= 0.15 || res.rep.cou_mob === "douleur"], ["epaule", res => res.rep.epaule_mob === "douleur"]],
+    poignet: [["cervical", res => pDe(res, "cervical") >= 0.15 || res.rep.cou_mob === "douleur"], ["coude", res => res.rep.coude_mob === "douleur"]],
+    cervical: [["epaule", res => res.rep.epaule_mob === "douleur"]],
+    cheville: [["genou", res => res.rep.genou_mob === "douleur"], ["lombaire", res => res.rep.deficit_l5s1 === "oui"]],
+    pied: [["cheville", res => res.rep.cheville_mob === "douleur"]],
+  };
+  function projetees(r, res) {
+    const vers = (PROJETEES[r] || []).filter(([v, si]) => prets.has(v) && !etat.regions.includes(v) && si(res)).map(([v]) => v);
+    return vers.length ? `<p class="lo-projetee">Douleur possiblement projetée : ${vers.map(v => `<button type="button" class="lo-lien" data-ajouter="${v}">ajouter la plainte « ${esc(NOMS[v])} »</button>`).join(" ou ")}.</p>` : "";
+  }
   function itemDx(r, res, x, avecCles) {
     const verifies = x.comptes.filter(c => c.e.statut === "verifie" || c.e.statut === "valide").length;
     return `<li class="lo-dx-item" data-cat="${x.categorie[2]}" data-dx="${x.id}"><details${ouverts.has(`${r}|${x.id}`) ? " open" : ""}>
@@ -387,7 +404,7 @@
     $("#lo-res-etat").textContent = !saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(r0)}). Remplissez l'anamnèse et l'examen.`
         : regs.map(r => `${plusieurs ? `${plainteTitre(r)} : ` : `${saisies} réponse${saisies > 1 ? "s" : ""} · `}${derniers[r].diagnostics[0].categorie[1].toLowerCase()} : ${derniers[r].diagnostics[0].x.nom.toLowerCase()}`).join(" · ");
-    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${fiabilite(derniers[r])}${dxHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
+    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${fiabilite(derniers[r])}${projetees(r, derniers[r])}${dxHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
     for (const ol of zone.querySelectorAll("ol.lo-dx")) for (const li of ol.children) {
       const r = ol.dataset.region, x = derniers[r].diagnostics.find(y => y.id === li.dataset.dx);
       li.style.setProperty("--val", x.p.toFixed(4)); li.style.setProperty("--bas", x.bas.toFixed(4)); li.style.setProperty("--haut", x.haut.toFixed(4));
@@ -395,6 +412,8 @@
     }
   }
   $("#lo-dx-regions").addEventListener("click", e => {
+    const aj = e.target.closest("button[data-ajouter]");
+    if (aj) { const puce = form.querySelector(`.lo-puce[data-region="${aj.dataset.ajouter}"]`); if (puce) { puce.click(); puce.scrollIntoView({ block: "center" }); } return; }
     const t = e.target.closest("button[data-tous]");
     if (t) { const r = t.dataset.tous; if (tousR.has(r)) tousR.delete(r); else tousR.add(r); resultats(actives()); return; }
     const f = e.target.closest("button[data-fiche]"); if (f) ouvrirFiche(f.dataset.fiche);
