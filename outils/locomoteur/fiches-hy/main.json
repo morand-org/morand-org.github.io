@@ -1,0 +1,2338 @@
+[
+ {
+  "no": "M1",
+  "page": 1,
+  "tags": "DOIGTS · IPD ET IPP · DÉGÉNÉRATIF",
+  "titre": "ARTHROSE DIGITALE (NODULES D'HEBERDEN ET DE BOUCHARD)",
+  "epidemiologie": {
+   "texte": "radiographique 41,4 %, symptomatique 12,4 % ; risque à vie de forme symptomatique 47 % (femmes) et 25 % (hommes) ; pic autour de la ménopause ; forme érosive 2,8 % après 55 ans.",
+   "refs": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "presentation": {
+   "texte": "nodules osseux durs, IPD plus que IPP, douleur et raideur ; forme érosive : poussées avec gonflement mou, rougeur, parfois ankylose.",
+   "refs": [
+    5,
+    6
+   ]
+  },
+  "examen": {
+   "texte": "critères ACR 1990 (élargissement dur, moins de 3 MCP enflées) : Se 94 %, Sp 87 % ; aucun test unique validé.",
+   "refs": [
+    7
+   ]
+  },
+  "physiopathologie": {
+   "texte": "perte cartilagineuse, ostéophytes et synovite (94 % à l'échographie).",
+   "refs": [
+    8,
+    9
+   ]
+  },
+  "ddx": {
+   "texte": "arthrite psoriasique, PR (IPD épargnées), goutte.",
+   "refs": [
+    9,
+    10
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; radiographie si atypie ou forme érosive (érosions centrales « en aile de mouette »).",
+   "refs": [
+    7,
+    9
+   ]
+  },
+  "traitement": {
+   "texte": "éducation, exercices, orthèses, AINS topique ; AINS oral bref ; hydroxychloroquine inefficace (HERO) ; poussée inflammatoire : prednisolone 10 mg 6 semaines (HOPE : −16,5 mm de douleur, effet perdu au sevrage).",
+   "refs": [
+    8,
+    11,
+    12,
+    13
+   ]
+  },
+  "pronostic": {
+   "texte": "progression radiographique 96 % en 9 ans ; symptômes par poussées ; forme érosive plus invalidante.",
+   "refs": [
+    4,
+    14,
+    15
+   ]
+  },
+  "refs": [
+   {
+    "n": 1,
+    "texte": "J ) 2022",
+    "url": "https://doi.org/10.1002/art.42076"
+   },
+   {
+    "n": 2,
+    "texte": "J ) 2017",
+    "url": "https://doi.org/10.1002/art.40097"
+   },
+   {
+    "n": 3,
+    "texte": "Plotz B et al. Current Rheumatology Reports 2021",
+    "url": "https://doi.org/10.1007/s11926-021-01025-7"
+   },
+   {
+    "n": 4,
+    "texte": "Kwok WY et al. Annals of the Rheumatic Diseases 2011",
+    "url": "https://doi.org/10.1136/ard.2010.143016"
+   },
+   {
+    "n": 5,
+    "texte": "Nature Reviews Rheumatology 2018",
+    "url": "https://doi.org/10.1038/s41584-018-0095-4"
+   },
+   {
+    "n": 6,
+    "texte": "Silva-Díaz M et al. Scientific Reports 2024",
+    "url": "https://doi.org/10.1038/s41598-024-55374-1"
+   },
+   {
+    "n": 7,
+    "texte": "Altman R et al. Arthritis and Rheumatism 1990",
+    "url": "https://doi.org/10.1002/art.1780331101"
+   },
+   {
+    "n": 8,
+    "texte": "Kingsbury SR et al. Annals of Internal Medicine 2018",
+    "url": "https://doi.org/10.7326/M17-1430"
+   },
+   {
+    "n": 9,
+    "texte": "Nature Reviews Rheumatology 2022",
+    "url": "https://doi.org/10.1038/s41584-018-0095-4"
+   },
+   {
+    "n": 10,
+    "texte": "Ritchlin CT et al. The New England Journal of… 2017",
+    "url": "https://doi.org/10.1056/NEJMra1505557"
+   },
+   {
+    "n": 11,
+    "texte": "Nature Reviews Rheumatology 2018",
+    "url": "https://doi.org/10.1038/s41584-018-0095-4"
+   },
+   {
+    "n": 12,
+    "texte": "J ) 2020",
+    "url": "https://doi.org/10.1002/art.41142"
+   },
+   {
+    "n": 13,
+    "texte": "Kroon FPB et al. Lancet (London, England) 2019",
+    "url": "https://doi.org/10.1016/S0140-6736(19)32489-4"
+   },
+   {
+    "n": 14,
+    "texte": "Haugen IK et al. Annals of the Rheumatic Diseases 2011",
+    "url": "https://doi.org/10.1136/ard.2010.143016"
+   },
+   {
+    "n": 15,
+    "texte": "Losina E et al. Annals of Internal Medicine 2018",
+    "url": "https://doi.org/10.7326/M18-0035"
+   }
+  ],
+  "planche": "m1.webp"
+ },
+ {
+  "no": "M2",
+  "page": 2,
+  "tags": "BASE DU POUCE · TRAPÉZO-MÉTACARPIENNE · DÉGÉNÉRATIF",
+  "titre": "RHIZARTHROSE",
+  "epidemiologie": {
+   "texte": "radiographique 6–7 % à 50 ans, 33–39 % à 80 ans ; symptomatique après 50 ans chez 8 % des hommes et 25 % des femmes.",
+   "refs": [
+    16,
+    17
+   ]
+  },
+  "presentation": {
+   "texte": "douleur à la pince, à la torsion et à la préhension ; puis saillie dorso-radiale et hyperextension de la MCP.",
+   "refs": [
+    17
+   ]
+  },
+  "examen": {
+   "texte": "grind test spécifique mais peu sensible (Se 30 %, Sp 97 %) ; tests d'adduction et d'extension (Se 94 %, Sp 93–95 %) ; petites études monocentriques.",
+   "refs": [
+    18,
+    19,
+    20
+   ]
+  },
+  "physiopathologie": {
+   "texte": "laxité ligamentaire, subluxation dorso-radiale de la base du métacarpien, puis dégénérescence.",
+   "refs": [
+    17
+   ]
+  },
+  "ddx": {
+   "texte": "De Quervain, tendinite du fléchisseur radial du carpe, syndrome de Wartenberg, intersection.",
+   "refs": [
+    18
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie ; sévérité mal corrélée aux symptômes.",
+   "refs": [
+    18,
+    21
+   ]
+  },
+  "traitement": {
+   "texte": "éducation, exercices, AINS topique ; orthèse sans bénéfice ajouté à l'autogestion dans un essai pragmatique (n = 349) ; infiltration non supérieure au salin à 24 semaines ; trapézectomie simple aussi efficace que les variantes.",
+   "refs": [
+    22,
+    17,
+    23,
+    24
+   ]
+  },
+  "pronostic": {
+   "texte": "le traitement non chirurgical soulage sans freiner la progression ; récupération longue après trapézectomie.",
+   "refs": [
+    17,
+    25
+   ]
+  },
+  "refs": [
+   {
+    "n": 16,
+    "texte": "van der Oest MJW et al. Osteoarthritis and Cartilage 2021",
+    "url": "https://doi.org/10.1016/j.joca.2021.03.004"
+   },
+   {
+    "n": 17,
+    "texte": "Currie KB et al. JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.8481"
+   },
+   {
+    "n": 18,
+    "texte": "Choa RM et al. The Journal of Hand Surgery,… 2014",
+    "url": "https://doi.org/10.1177/1753193413508714"
+   },
+   {
+    "n": 19,
+    "texte": "Gelberman RH et al. The Journal of Hand Surgery 2015",
+    "url": "https://doi.org/10.1016/j.jhsa.2015.04.012"
+   },
+   {
+    "n": 20,
+    "texte": "He Y et al. Annals of Medicine 2025",
+    "url": "https://doi.org/10.1080/07853890.2025.2524086"
+   },
+   {
+    "n": 21,
+    "texte": "Bence Baljer et al. Cochrane Database of… 2026",
+    "url": "https://doi.org/10.1002/14651858.cd004631.pub6"
+   },
+   {
+    "n": 22,
+    "texte": "Adams J et al. Rheumatology (Oxford, England) 2021",
+    "url": "https://doi.org/10.1093/rheumatology/keaa726"
+   },
+   {
+    "n": 23,
+    "texte": "Meenagh GK et al. Annals of the Rheumatic Diseases 2004",
+    "url": "https://doi.org/10.1136/ard.2003.015438"
+   },
+   {
+    "n": 24,
+    "texte": "Gangopadhyay S et al. The Journal of Hand Surgery,… 2025",
+    "url": "https://doi.org/10.1177/1753193413508714"
+   },
+   {
+    "n": 25,
+    "texte": "Johnson NA et al. The Bone & Joint Journal 2026",
+    "url": "https://doi.org/10.1302/0301-620X.108B1.BJJ-2025-0483.R1"
+   }
+  ],
+  "planche": "m2.webp"
+ },
+ {
+  "no": "M3",
+  "page": 3,
+  "tags": "POULIE A1 · TÉNOSYNOVITE STÉNOSANTE · DIABÈTE",
+  "titre": "DOIGT À RESSAUT",
+  "epidemiologie": {
+   "texte": "2–3 % ; diabète (25–42 % à vie dans le type 1) ; femmes de 50–60 ans ; pouce, majeur, annulaire.",
+   "refs": [
+    26,
+    27,
+    28
+   ]
+  },
+  "presentation": {
+   "texte": "accrochage, puis blocage douloureux.",
+   "refs": [
+    29
+   ]
+  },
+  "examen": {
+   "texte": "nodule sensible à la poulie A1, ressaut à la fermeture du poing ; aucun test validé.",
+   "refs": [
+    17
+   ]
+  },
+  "physiopathologie": {
+   "texte": "disproportion entre le tendon et la poulie A1 (tendinose, métaplasie fibrocartilagineuse).",
+   "refs": [
+    30,
+    27
+   ]
+  },
+  "ddx": {
+   "texte": "Dupuytren, infection, arthrite, tendinite des extenseurs.",
+   "refs": [
+    17
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; HbA1c si diabète possible.",
+   "refs": [
+    31
+   ]
+  },
+  "traitement": {
+   "texte": "attelle ou infiltration, équivalentes jusqu'à 52 semaines ; infiltration : succès 57 %, récidive 22 %, échec chez 78 % des diabétiques insulinotraités ; libération : résolution 94 % contre 62 %.",
+   "refs": [
+    32,
+    17,
+    33
+   ]
+  },
+  "pronostic": {
+   "texte": "résolution spontanée 20–29 % ; 20 % opérés en 3 ans après infiltration.",
+   "refs": [
+    26,
+    28
+   ]
+  },
+  "refs": [
+   {
+    "n": 26,
+    "texte": "Sun C et al. The Journal of the American… 2026",
+    "url": "https://doi.org/10.5435/JAAOS-D-26-00223"
+   },
+   {
+    "n": 27,
+    "texte": "Braffett BH et al. Diabetes Care 2025",
+    "url": "https://doi.org/10.2337/dci25-0012"
+   },
+   {
+    "n": 28,
+    "texte": "Cyriac Peters‐Veluthamaningal et al. Cochrane Database of… 2009",
+    "url": "https://doi.org/10.1002/14651858.cd005617.pub2"
+   },
+   {
+    "n": 29,
+    "texte": "Mabel Qi He Leow et al. Cochrane Database of… 2021",
+    "url": "https://doi.org/10.1002/14651858.cd005617.pub2"
+   },
+   {
+    "n": 17,
+    "texte": "Currie KB et al. JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.8481"
+   },
+   {
+    "n": 30,
+    "texte": "Scientific Reports 2026; 1038/s41598-026-60343-x",
+    "url": "https://doi.org/10.1038/s41598-026-60343-x"
+   },
+   {
+    "n": 31,
+    "texte": "Rydberg M et al. Diabetes Care 2022",
+    "url": "https://doi.org/10.2337/dc22-0829"
+   },
+   {
+    "n": 32,
+    "texte": "Atthakomol P et al. Clinical Orthopaedics and… 2023",
+    "url": "https://doi.org/10.1097/CORR.0000000000002662"
+   },
+   {
+    "n": 33,
+    "texte": "Chang CJ et al. Orthopedics 2018",
+    "url": "https://doi.org/10.3928/01477447-20170727-02"
+   }
+  ],
+  "planche": "m3.webp"
+ },
+ {
+  "no": "M4",
+  "page": 4,
+  "tags": "DOIGTS · FRACTURE · ROTATION À RECHERCHER",
+  "titre": "FRACTURES DES PHALANGES (PROXIMALE ET MOYENNE)",
+  "epidemiologie": {
+   "texte": "12,5 par 10 000 par an ; hommes de 15–40 ans ; phalange proximale du 5ᵉ doigt surtout.",
+   "refs": [
+    34,
+    35,
+    36
+   ]
+  },
+  "presentation": {
+   "texte": "coup direct ou charge axiale ; œdème, ecchymose, déformation.",
+   "refs": [
+    37
+   ]
+  },
+  "examen": {
+   "texte": "rotation jugée poing fermé (chevauchement, doigts pointant vers le scaphoïde, ongles) ; 5° de rotation déplacent la pulpe de 0,3–0,5 cm ; aucune donnée de performance.",
+   "refs": [
+    37,
+    38,
+    39
+   ]
+  },
+  "physiopathologie": {
+   "texte": "traction des intrinsèques créant une angulation à sommet palmaire.",
+   "refs": [
+    40
+   ]
+  },
+  "ddx": {
+   "texte": "luxation de l'IPP, avulsion de la plaque palmaire, lésion de la bandelette centrale, maillet.",
+   "refs": [
+    37
+   ]
+  },
+  "investigations": {
+   "texte": "face, profil, oblique ; contrôle à 7–10 jours si réduite.",
+   "refs": [
+    37
+   ]
+  },
+  "traitement": {
+   "texte": "extra-articulaire, moins de 10°, sans rotation : syndactylie 3–4 semaines ; référence si articulaire, spiroïde, oblique, rotation ou ouverte.",
+   "refs": [
+    37
+   ]
+  },
+  "pronostic": {
+   "texte": "consolidation en 4–6 semaines ; raideur si immobilisation de plus de 3 semaines ; pas de perte fonctionnelle notable à 1 an.",
+   "refs": [
+    37,
+    36,
+    41
+   ]
+  },
+  "refs": [
+   {
+    "n": 34,
+    "texte": "Karl JW et al. Journal of Orthopaedic Trauma 2015",
+    "url": "https://doi.org/10.1097/BOT.0000000000000312"
+   },
+   {
+    "n": 35,
+    "texte": "Feehan LM et al. The Journal of Hand Surgery 2006",
+    "url": "https://doi.org/10.1016/j.jhsa.2006.06.006"
+   },
+   {
+    "n": 36,
+    "texte": "Alfort H et al. PloS One 2023",
+    "url": "https://doi.org/10.1371/journal.pone.0288506"
+   },
+   {
+    "n": 37,
+    "texte": "Childress MA et al. American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 38,
+    "texte": "Chen F et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9378-7"
+   },
+   {
+    "n": 39,
+    "texte": "Bansal R et al. The Journal of Hand Surgery,… 2007",
+    "url": "https://doi.org/10.1016/j.jhsb.2006.09.011"
+   },
+   {
+    "n": 40,
+    "texte": "Heifner JJ et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934231185219"
+   },
+   {
+    "n": 41,
+    "texte": "Richter M The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934221143690"
+   }
+  ],
+  "planche": "m4.webp"
+ },
+ {
+  "no": "M5",
+  "page": 5,
+  "tags": "IPP · TRAUMATISME · RÉCUPÉRATION LENTE",
+  "titre": "ENTORSE OU LUXATION DE L'IPP",
+  "epidemiologie": {
+   "texte": "luxation la plus fréquente de la main (sports de ballon) ; dorsale bien plus que palmaire.",
+   "refs": [
+    42,
+    43
+   ]
+  },
+  "presentation": {
+   "texte": "« doigt coincé », gonflement fusiforme.",
+   "refs": [
+    37
+   ]
+  },
+  "examen": {
+   "texte": "stabilité après réduction ; laxité latérale de plus de 20° en extension = rupture complète ; test d'Elson, sans validation in vivo.",
+   "refs": [
+    43
+   ]
+  },
+  "physiopathologie": {
+   "texte": "dorsale : rupture de la plaque palmaire ; palmaire : rupture de la bandelette centrale.",
+   "refs": [
+    43
+   ]
+  },
+  "ddx": {
+   "texte": "fracture-luxation, avulsion de la plaque palmaire, boutonnière, lésion collatérale (liste usuelle, sans source spécifique).",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "profil vrai ; fragment palmaire < 30 % stable, > 50 % instable.",
+   "refs": [
+    43
+   ]
+  },
+  "traitement": {
+   "texte": "dorsale : réduction, syndactylie 3–6 semaines ou attelle bloquant l'extension 2–3 semaines, mouvement dès 1 semaine ; palmaire : attelle en extension 4–6 semaines.",
+   "refs": [
+    44,
+    37
+   ]
+  },
+  "pronostic": {
+   "texte": "gonflement résolu chez 63 % seulement à 1 an ; amplitude encore réduite chez 47 % de ceux-ci.",
+   "refs": [
+    45
+   ]
+  },
+  "refs": [
+   {
+    "n": 42,
+    "texte": "Rettig AC The American Journal of… 2004",
+    "url": "https://doi.org/10.1177/0363546503261422"
+   },
+   {
+    "n": 43,
+    "texte": "Kolovich GP et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934231183259"
+   },
+   {
+    "n": 37,
+    "texte": "Childress MA et al. American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 44,
+    "texte": "Grandizio LC et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9379-6"
+   },
+   {
+    "n": 45,
+    "texte": "2024;49(11):1138 e1-1138 e6",
+    "url": "https://doi.org/10.1016/j.jhsa.2023.01.025"
+   }
+  ],
+  "planche": "m5.webp"
+ },
+ {
+  "no": "M6",
+  "page": 6,
+  "tags": "MAIN · FRACTURE · COUP DE POING",
+  "titre": "FRACTURES DES MÉTACARPIENS (BOXEUR, MORSURE)",
+  "epidemiologie": {
+   "texte": "un tiers des fractures de la main ; col du 5ᵉ ≈ 20 %, hommes 5 fois plus ; pic à 10–29 ans.",
+   "refs": [
+    46,
+    47,
+    48,
+    49
+   ]
+  },
+  "presentation": {
+   "texte": "coup de poing, œdème dorsal, perte du relief de la jointure.",
+   "refs": [
+    47
+   ]
+  },
+  "examen": {
+   "texte": "rotation (5° au col = 1,5 cm de chevauchement) ; toute plaie en regard d'une MCP = morsure.",
+   "refs": [
+    47
+   ]
+  },
+  "physiopathologie": {
+   "texte": "comminution palmaire et traction des intrinsèques, angulation à sommet dorsal.",
+   "refs": [
+    47
+   ]
+  },
+  "ddx": {
+   "texte": "morsure : articulation perforée dans 62–67 %.",
+   "refs": [
+    50
+   ],
+   "titre": "DIAGNOSTIC DIFFÉRENTIEL (LÉSION ASSOCIÉE)"
+  },
+  "investigations": {
+   "texte": "face, oblique, profil.",
+   "refs": [
+    47
+   ]
+  },
+  "traitement": {
+   "texte": "col du 5ᵉ : syndactylie équivalente au plâtre et non inférieure jusqu'à 70° ; tolérance : index et majeur < 15°, annulaire 20–40°, auriculaire jusqu'à 60° ; morsure : exploration, pas de fermeture, amoxicilline-clavulanate.",
+   "refs": [
+    47,
+    51,
+    52,
+    53,
+    54
+   ]
+  },
+  "pronostic": {
+   "texte": "fonction récupérée en 3–4 semaines ; morsure : amputations seulement si présentation après 8 jours.",
+   "refs": [
+    55,
+    56
+   ]
+  },
+  "refs": [
+   {
+    "n": 46,
+    "texte": "Rudolf W Poolman et al. Cochrane Database of… 2005",
+    "url": "https://doi.org/10.1002/14651858.cd003210.pub3"
+   },
+   {
+    "n": 47,
+    "texte": "Lambi AG et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934231184119"
+   },
+   {
+    "n": 48,
+    "texte": "Zawam SH et al. European Journal of Trauma… 2024",
+    "url": "https://doi.org/10.1007/s00068-023-02417-3"
+   },
+   {
+    "n": 49,
+    "texte": "de Jonge JJ et al. Injury 1994",
+    "url": "https://doi.org/10.1016/0020-1383(94)90127-9"
+   },
+   {
+    "n": 50,
+    "texte": "Shewring DJ et al. The Journal of Hand Surgery,… 2015",
+    "url": "https://doi.org/10.1177/1753193415576249"
+   },
+   {
+    "n": 51,
+    "texte": "Stevens DL et al. Clinical Infectious Diseases 2014",
+    "url": "https://doi.org/10.1093/cid/ciu296"
+   },
+   {
+    "n": 52,
+    "texte": "van Aaken J et al. Archives of Orthopaedic and… 2016",
+    "url": "https://doi.org/10.1007/s00402-015-2361-0"
+   },
+   {
+    "n": 53,
+    "texte": "Pellatt R et al. Annals of Emergency Medicine 2019",
+    "url": "https://doi.org/10.1016/j.annemergmed.2019.01.032"
+   },
+   {
+    "n": 54,
+    "texte": "Singer AJ et al. The New England Journal of… 2008",
+    "url": "https://doi.org/10.1056/NEJMra0707253"
+   },
+   {
+    "n": 55,
+    "texte": "Giddins G et al. The Journal of Hand Surgery,… 2026",
+    "url": "https://doi.org/10.1177/17531934261421874"
+   },
+   {
+    "n": 56,
+    "texte": "Smith HR et al. European Journal of Trauma… 2016",
+    "url": "https://doi.org/10.1007/s00068-016-0701-6"
+   }
+  ],
+  "planche": "m6.webp"
+ },
+ {
+  "no": "M7",
+  "page": 7,
+  "tags": "PAUME · FIBROMATOSE · RÉCIDIVANTE",
+  "titre": "MALADIE DE DUPUYTREN",
+  "epidemiologie": {
+   "texte": "12 %, 21 % et 29 % à 55, 65 et 75 ans ; hommes 4 pour 1 avant 54 ans ; héritabilité ≈ 80 % ; diabète, alcool, tabac, travail manuel.",
+   "refs": [
+    57,
+    58,
+    59,
+    60
+   ]
+  },
+  "presentation": {
+   "texte": "dépressions cutanées et nodules, puis cordes de l'annulaire et de l'auriculaire ; bilatérale dans la moitié des cas.",
+   "refs": [
+    58
+   ]
+  },
+  "examen": {
+   "texte": "test de la table (signe fonctionnel, sans donnée de performance) ; diathèse : récidive 71 % contre 23 %.",
+   "refs": [
+    58,
+    61
+   ]
+  },
+  "physiopathologie": {
+   "texte": "prolifération de myofibroblastes dans le fascia palmaire, formant des cordes rétractiles.",
+   "refs": [
+    62,
+    63
+   ]
+  },
+  "ddx": {
+   "texte": "doigt à ressaut, nodule de gaine, camptodactylie, contracture post-traumatique (liste usuelle, sans source spécifique).",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "clinique.",
+   "refs": [
+    64
+   ]
+  },
+  "traitement": {
+   "texte": "observation des nodules ; référence si MCP ≥ 30° ou toute contracture de l'IPP ; collagénase non équivalente à la fasciectomie (DISC : réintervention 14,6 % contre 3,4 %) ; succès à 2 ans : chirurgie 78 %, aiguille 50 %, collagénase 65 % (DETECT).",
+   "refs": [
+    65,
+    66,
+    67
+   ]
+  },
+  "pronostic": {
+   "texte": "nodule évoluant vers la rétraction chez 20 % en 7 ans ; récidive 10 % (fasciectomie), 33 % (aiguille), 41 % (collagénase).",
+   "refs": [
+    68,
+    69
+   ]
+  },
+  "refs": [
+   {
+    "n": 57,
+    "texte": "Lanting R et al. Plastic and Reconstructive… 2014",
+    "url": "https://doi.org/10.1097/01.prs.0000438455.37604.0f"
+   },
+   {
+    "n": 58,
+    "texte": "Rooth A et al. The Journal of Hand Surgery,… 2026",
+    "url": "https://doi.org/10.1177/17531934261463402"
+   },
+   {
+    "n": 59,
+    "texte": "Riesmeijer SA et al. Nature Communications 2024",
+    "url": "https://doi.org/10.1038/s41467-023-44451-0"
+   },
+   {
+    "n": 60,
+    "texte": "Alser OH et al. Plastic and Reconstructive… 2020",
+    "url": "https://doi.org/10.1097/PRS.0000000000007146"
+   },
+   {
+    "n": 61,
+    "texte": "Karpinski M et al. The Journal of Hand Surgery,… 2020",
+    "url": "https://doi.org/10.1177/1753193420903624"
+   },
+   {
+    "n": 62,
+    "texte": "Rubin G et al. PloS One 2026",
+    "url": "https://doi.org/10.1371/journal.pone.0359330"
+   },
+   {
+    "n": 63,
+    "texte": "Ball C et al. BMC Musculoskeletal Disorders 2016",
+    "url": "https://doi.org/10.1186/s12891-016-1200-y"
+   },
+   {
+    "n": 64,
+    "texte": "Pujalte GGA et al. American Family Physician 2024",
+    "url": null
+   },
+   {
+    "n": 65,
+    "texte": "Trojian TH et al. American Family Physician 2007",
+    "url": null
+   },
+   {
+    "n": 66,
+    "texte": "Dias J et al. The New England Journal of… 2024",
+    "url": "https://doi.org/10.1056/NEJMoa2312631"
+   },
+   {
+    "n": 67,
+    "texte": "Räisänen MP et al. Annals of Internal Medicine 2024",
+    "url": "https://doi.org/10.7326/M23-1485"
+   },
+   {
+    "n": 68,
+    "texte": "Nanchahal J et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/1753193420903624"
+   },
+   {
+    "n": 69,
+    "texte": "van den Berge BA et al. The Journal of Hand Surgery,… 2025",
+    "url": "https://doi.org/10.1177/1753193420903624"
+   }
+  ],
+  "planche": "m7.webp"
+ },
+ {
+  "no": "M8",
+  "page": 8,
+  "tags": "MAIN · ENFANT · FRACTURES PHYSAIRES",
+  "titre": "FRACTURES DE LA MAIN DE L'ENFANT",
+  "epidemiologie": {
+   "texte": "748 par 100 000 enfants par an, pic à 12–15 ans, 1 % opérées ; phalanges 78,7 % ; fractures physaires : 86 % Salter-Harris II.",
+   "refs": [
+    70,
+    71,
+    72
+   ]
+  },
+  "presentation": {
+   "texte": "« extra-octave » (base de la phalange proximale du 5ᵉ, en abduction) ; Seymour : fracture physaire distale avec lit unguéal incarcéré = fracture ouverte.",
+   "refs": [
+    73,
+    74
+   ]
+  },
+  "examen": {
+   "texte": "cascade des doigts (rotation, déviation) ; aucune donnée de performance.",
+   "refs": [
+    75
+   ]
+  },
+  "physiopathologie": {
+   "texte": "remodelage selon l'âge, la proximité de la physe et le plan ; la rotation ne se remodèle pas.",
+   "refs": [
+    76,
+    77
+   ]
+  },
+  "ddx": {
+   "texte": "fracture du col phalangien (instable, peu de remodelage), fracture juxta-épiphysaire (brochage 42,9 % contre 10,8 %).",
+   "refs": [
+    78,
+    79
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies ; pas de contrôle si moins de 10° sans réduction.",
+   "refs": [
+    80
+   ]
+  },
+  "traitement": {
+   "texte": "syndactylie non inférieure à l'attelle ; arrêt à 3 semaines si consolidée cliniquement ; Seymour : antibiotique en 24 heures (infection 6,9 % contre 76,5 %), débridement en 48 heures.",
+   "refs": [
+    81,
+    82,
+    83,
+    84
+   ]
+  },
+  "pronostic": {
+   "texte": "excellent ; cal vicieux rotatoire 0,93 %.",
+   "refs": [
+    85
+   ]
+  },
+  "refs": [
+   {
+    "n": 70,
+    "texte": "Raja A et al. Injury 2026",
+    "url": "https://doi.org/10.1016/j.injury.2026.113678"
+   },
+   {
+    "n": 71,
+    "texte": "Arneitz C et al. European Journal of Pediatrics 2023",
+    "url": "https://doi.org/10.1007/s00431-023-04915-3"
+   },
+   {
+    "n": 72,
+    "texte": "de Haas L et al. The Journal of Hand Surgery,… 2025",
+    "url": "https://doi.org/10.1177/17531934241258862"
+   },
+   {
+    "n": 73,
+    "texte": "Jennifer Scott et al. Pediatrics in Review 2022",
+    "url": null
+   },
+   {
+    "n": 74,
+    "texte": "Jones C et al. Pediatrics in Review 2017",
+    "url": "https://doi.org/10.1542/pir.2015-0160"
+   },
+   {
+    "n": 75,
+    "texte": "Abzug JM et al. The Journal of the American… 2016",
+    "url": "https://doi.org/10.5435/JAAOS-D-16-00199"
+   },
+   {
+    "n": 76,
+    "texte": "Al-Qattan MM et al. The Journal of Hand Surgery,… 2013",
+    "url": "https://doi.org/10.5435/JAAOS-D-16-00199"
+   },
+   {
+    "n": 77,
+    "texte": "Wilkins KE Injury 2005",
+    "url": "https://doi.org/10.1016/j.injury.2004.12.007"
+   },
+   {
+    "n": 78,
+    "texte": "Stash BD et al. Plastic and Reconstructive… 2022",
+    "url": "https://doi.org/10.1097/PRS.0000000000008868"
+   },
+   {
+    "n": 79,
+    "texte": "Al-Qattan MM et al. Injury 2015",
+    "url": "https://doi.org/10.1177/1753193413480311"
+   },
+   {
+    "n": 80,
+    "texte": "Vonlanthen J et al. Journal of Pediatric Orthopedics 2019",
+    "url": "https://doi.org/10.1097/BPO.0000000000001335"
+   },
+   {
+    "n": 81,
+    "texte": "2022;47(12):1223 e1-1223 e20",
+    "url": "https://doi.org/10.1016/j.jhsa.2021.08.022"
+   },
+   {
+    "n": 82,
+    "texte": "Rask DMG et al. Pediatric Emergency Care 2021",
+    "url": "https://doi.org/10.1097/PEC.0000000000002009"
+   },
+   {
+    "n": 83,
+    "texte": "Weber DM et al. The Journal of Hand Surgery,… 2019",
+    "url": "https://doi.org/10.5435/JAAOS-D-16-00199"
+   },
+   {
+    "n": 84,
+    "texte": "Kilty R et al. Journal of Pediatric Orthopedics 2024",
+    "url": "https://doi.org/10.1097/BPO.0000000000001335"
+   },
+   {
+    "n": 85,
+    "texte": "Schutz J et al. The Journal of the American… 2024",
+    "url": "https://doi.org/10.5435/JAAOS-D-16-00199"
+   }
+  ],
+  "planche": "m8.webp"
+ },
+ {
+  "no": "M9",
+  "page": 9,
+  "tags": "MAIN · MICROCRISTALLIN · MALADIE ANCIENNE",
+  "titre": "GOUTTE DE LA MAIN",
+  "epidemiologie": {
+   "texte": "3,8 % en Colombie-Britannique ; hommes 2–4 pour 1 ; membres supérieurs atteints chez 36,4 % des patients avec tophus, contre 7,3 %.",
+   "refs": [
+    86,
+    87,
+    88
+   ]
+  },
+  "presentation": {
+   "texte": "douleur maximale en 24 heures, articulation rouge et chaude ; tophus pulpaires et articulaires.",
+   "refs": [
+    89,
+    87
+   ]
+  },
+  "examen": {
+   "texte": "tophus chez environ 15 %.",
+   "refs": [
+    90
+   ]
+  },
+  "physiopathologie": {
+   "texte": "cristaux d'urate au-delà de 400 µmol/L, activant NLRP3 et l'IL-1.",
+   "refs": [
+    91,
+    90
+   ]
+  },
+  "ddx": {
+   "texte": "arthrite septique, chondrocalcinose, PR, arthrite psoriasique.",
+   "refs": [
+    92,
+    91
+   ]
+  },
+  "investigations": {
+   "texte": "cristaux dans le liquide (Sp 100 %) ; échographie, double contour (Se 74 %, Sp 88 %) ; TDM double énergie (Se 55 % avant 6 semaines) ; urate parfois normal en crise.",
+   "refs": [
+    90,
+    93,
+    94,
+    87
+   ]
+  },
+  "traitement": {
+   "texte": "crise : colchicine à faible dose, AINS ou corticoïde ; allopurinol ≤ 100 mg/j titré vers moins de 360 µmol/L si tophus, dommages ou ≥ 2 crises par an, avec prophylaxie 3–6 mois.",
+   "refs": [
+    95,
+    96
+   ]
+  },
+  "pronostic": {
+   "texte": "crise non traitée : 7–14 jours ; récidive dans l'année 69 %.",
+   "refs": [
+    87,
+    91
+   ]
+  },
+  "refs": [
+   {
+    "n": 86,
+    "texte": "Nature Reviews Rheumatology 2020",
+    "url": "https://doi.org/10.1038/s41584-020-0441-1"
+   },
+   {
+    "n": 87,
+    "texte": "Dalbeth N et al. Lancet (London, England) 2021",
+    "url": "https://doi.org/10.1016/S0140-6736(21)00569-9"
+   },
+   {
+    "n": 88,
+    "texte": "Oh YJ et al. Scientific Reports 2021",
+    "url": "https://doi.org/10.1038/s41598-021-84980-6"
+   },
+   {
+    "n": 89,
+    "texte": "Dalbeth N et al. Lancet (London, England) 2016",
+    "url": "https://doi.org/10.1016/S0140-6736(21)00569-9"
+   },
+   {
+    "n": 90,
+    "texte": "Mikuls TR The New England Journal of… 2022",
+    "url": "https://doi.org/10.1056/NEJMcp2203385"
+   },
+   {
+    "n": 91,
+    "texte": "FitzGerald JD Annals of Internal Medicine 2025",
+    "url": "https://doi.org/10.7326/ANNALS-24-03951"
+   },
+   {
+    "n": 92,
+    "texte": "Richette P et al. Lancet (London, England) 2010",
+    "url": "https://doi.org/10.1016/S0140-6736(09)60883-7"
+   },
+   {
+    "n": 93,
+    "texte": "Gamala M et al. Rheumatology (Oxford, England) 2019",
+    "url": "https://doi.org/10.1093/rheumatology/kez180"
+   },
+   {
+    "n": 94,
+    "texte": "Newberry SJ et al. Annals of Internal Medicine 2017",
+    "url": "https://doi.org/10.7326/ANNALS-24-03951"
+   },
+   {
+    "n": 95,
+    "texte": "FitzGerald JD et al. Arthritis Care & Research 2020",
+    "url": "https://doi.org/10.7326/ANNALS-24-03951"
+   },
+   {
+    "n": 96,
+    "texte": "J ) 2020",
+    "url": "https://doi.org/10.1002/art.41247"
+   }
+  ],
+  "planche": "m9.webp"
+ },
+ {
+  "no": "M10",
+  "page": 10,
+  "tags": "MCP DU POUCE · ENTORSE · LÉSION DE STENER",
+  "titre": "POUCE DU SKIEUR (LIGAMENT COLLATÉRAL ULNAIRE)",
+  "epidemiologie": {
+   "texte": "environ 50 par 100 000 visites à l'urgence ; 10 fois plus fréquent que la lésion du collatéral radial.",
+   "refs": [
+    97,
+    98
+   ]
+  },
+  "presentation": {
+   "texte": "déviation radiale forcée du pouce, douleur ulnaire de la MCP.",
+   "refs": [
+    99
+   ]
+  },
+  "examen": {
+   "texte": "valgus en extension et à 30° de flexion : plus de 30°, plus de 15° d'écart avec le côté sain ou absence d'arrêt = rupture complète ; 34 % des sujets normaux ont ≥ 10° d'asymétrie ; examen Se 97 %, Sp 85 %.",
+   "refs": [
+    100,
+    101,
+    102
+   ]
+  },
+  "physiopathologie": {
+   "texte": "l'aponévrose de l'adducteur s'interpose entre les bouts du ligament (Stener, 64–87 % des ruptures distales complètes).",
+   "refs": [
+    99
+   ]
+  },
+  "ddx": {
+   "texte": "avulsion osseuse, collatéral radial, plaque palmaire, Bennett (liste usuelle, sans source spécifique).",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "radiographie avant le test de stress ; échographie (Se 95 %, Sp 94 %) ou IRM (Se 93 %, Sp 98 %) pour la lésion de Stener.",
+   "refs": [
+    103,
+    99
+   ]
+  },
+  "traitement": {
+   "texte": "arrêt franc : plâtre ou attelle 4–6 semaines ; rupture complète : chirurgie habituelle (87 % sans douleur) ; décision partagée en 2 semaines (BSSH).",
+   "refs": [
+    103,
+    104,
+    97
+   ]
+  },
+  "pronostic": {
+   "texte": "usage sans restriction vers 12 semaines.",
+   "refs": [
+    105
+   ]
+  },
+  "refs": [
+   {
+    "n": 97,
+    "texte": "Dean B et al. The Journal of Hand Surgery,… 2024",
+    "url": "https://doi.org/10.1177/17531934241274612"
+   },
+   {
+    "n": 98,
+    "texte": "Orbenes N et al. Archives of Orthopaedic and… 2025",
+    "url": "https://doi.org/10.1007/s00402-025-05923-8"
+   },
+   {
+    "n": 99,
+    "texte": "Qamhawi Z et al. The Journal of Hand Surgery,… 2021",
+    "url": "https://doi.org/10.1177/1753193421993015"
+   },
+   {
+    "n": 100,
+    "texte": "Avery DM et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9381-z"
+   },
+   {
+    "n": 101,
+    "texte": "Malik AK et al. The Journal of Hand Surgery,… 2009",
+    "url": "https://doi.org/10.1177/1753193421993015"
+   },
+   {
+    "n": 102,
+    "texte": "Rashidi A et al. European Radiology 2021",
+    "url": "https://doi.org/10.1007/s00330-020-07666-z"
+   },
+   {
+    "n": 103,
+    "texte": "Pulos N et al. Current Reviews in… 2023",
+    "url": "https://doi.org/10.1007/s12178-022-09812-0"
+   },
+   {
+    "n": 104,
+    "texte": "Legerstee IWF et al. The Journal of Hand Surgery,… 2024",
+    "url": "https://doi.org/10.1177/1753193421993015"
+   },
+   {
+    "n": 105,
+    "texte": "Z ) 1995",
+    "url": "https://doi.org/10.2165/00007256-199519010-00006"
+   }
+  ],
+  "planche": "m10.webp"
+ },
+ {
+  "no": "M11",
+  "page": 11,
+  "tags": "MCP ET IPP · SYNOVITE INFLAMMATOIRE · RÉFÉRENCE RAPIDE",
+  "titre": "POLYARTHRITE RHUMATOÏDE (MAIN)",
+  "renvoi": {
+   "texte": "Voir la fiche P11. Particularités : MCP et IPP atteintes chez environ 65 %, IPD épargnées ; anti-CCP Se 57 %, Sp 96 % au début ; un tiers de séronégatifs ; critères ACR/EULAR 2010 (Se 82 %, Sp 61 %) faits pour classer, non pour diagnostiquer ; méthotrexate 7,5–10 mg par semaine, monté à 20–25 mg avec acide folique ; contrôle serré : rémission 65 % contre 16 %.",
+   "refs": [
+    106,
+    107,
+    108,
+    109,
+    110
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 106,
+    "texte": "Smolen JS et al. JAMA 2026",
+    "url": "https://doi.org/10.1001/jama.2026.15455"
+   },
+   {
+    "n": 107,
+    "texte": "Whiting PF et al. Annals of Internal Medicine 2010",
+    "url": "https://doi.org/10.7326/0003-4819-152-7-201004060-00010"
+   },
+   {
+    "n": 108,
+    "texte": "Sparks JA Annals of Internal Medicine 2019",
+    "url": "https://doi.org/10.7326/AITC201901010"
+   },
+   {
+    "n": 109,
+    "texte": "Radner H et al. Annals of the Rheumatic Diseases 2014",
+    "url": "https://doi.org/10.1136/annrheumdis-2013-203284"
+   },
+   {
+    "n": 110,
+    "texte": "Faison MN et al. JAMA 2024",
+    "url": "https://doi.org/10.1001/jama.2023.26504"
+   }
+  ],
+  "planche": "m11.webp"
+ },
+ {
+  "no": "M12",
+  "page": 12,
+  "tags": "IPD · TENDON EXTENSEUR TERMINAL · ATTELLE CONTINUE",
+  "titre": "DOIGT EN MAILLET",
+  "epidemiologie": {
+   "texte": "9,9 par 100 000 par an ; un tiers osseux ; 3 doigts ulnaires, main dominante.",
+   "refs": [
+    111,
+    112
+   ]
+  },
+  "presentation": {
+   "texte": "IPD en flexion, sans extension active, après charge axiale ou flexion forcée.",
+   "refs": [
+    113
+   ]
+  },
+  "examen": {
+   "texte": "extension passive conservée (sinon référer) ; aucune donnée de performance.",
+   "refs": [
+    113
+   ]
+  },
+  "physiopathologie": {
+   "texte": "rupture du tendon terminal ou avulsion de son insertion ; report de force sur l'IPP (col de cygne).",
+   "refs": [
+    114
+   ]
+  },
+  "ddx": {
+   "texte": "jersey finger, fracture ou luxation de l'IPD, Seymour chez l'enfant.",
+   "refs": [
+    115,
+    116
+   ]
+  },
+  "investigations": {
+   "texte": "3 incidences (taille du fragment, subluxation palmaire) ; contrôle si gros fragment.",
+   "refs": [
+    37,
+    117
+   ]
+  },
+  "traitement": {
+   "texte": "attelle continue 6–8 semaines (osseux) ou 8–12 semaines (tendineux) ; attelle thermoformée : 0 % d'échec contre 23,8 % ; chirurgie si subluxation palmaire.",
+   "refs": [
+    113,
+    118,
+    119
+   ]
+  },
+  "pronostic": {
+   "texte": "efficace même commencée après 4 semaines (15/19 contre 17/21) ; léger défaut d'extension sans retentissement.",
+   "refs": [
+    116,
+    120
+   ]
+  },
+  "refs": [
+   {
+    "n": 111,
+    "texte": "Trickett RW et al. The Journal of Hand Surgery,… 2021",
+    "url": "https://doi.org/10.1177/1753193421992986"
+   },
+   {
+    "n": 112,
+    "texte": "Wada T et al. The Journal of Hand Surgery,… 2015",
+    "url": "https://doi.org/10.1177/1753193414554772"
+   },
+   {
+    "n": 113,
+    "texte": "Hilgefort J et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 114,
+    "texte": "Wang WC et al. BMC Musculoskeletal Disorders 2021",
+    "url": "https://doi.org/10.1186/s12891-021-04163-2"
+   },
+   {
+    "n": 115,
+    "texte": "Wang T et al. Scientific Reports 2017",
+    "url": "https://doi.org/10.1038/s41598-017-10959-x"
+   },
+   {
+    "n": 116,
+    "texte": "Li J et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934231184132"
+   },
+   {
+    "n": 37,
+    "texte": "Childress MA et al. American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 117,
+    "texte": "Thillemann JK et al. The Journal of Hand Surgery,… 2020",
+    "url": "https://doi.org/10.1177/1753193420917567"
+   },
+   {
+    "n": 118,
+    "texte": "Ertem H et al. BMC Musculoskeletal Disorders 2026",
+    "url": "https://doi.org/10.1186/s12891-026-09787-w"
+   },
+   {
+    "n": 119,
+    "texte": "O'Brien LJ et al. Archives of Physical Medicine… 2011",
+    "url": "https://doi.org/10.1016/j.apmr.2010.10.035"
+   },
+   {
+    "n": 120,
+    "texte": "Garberman SF et al. The Journal of Hand Surgery 1994",
+    "url": "https://doi.org/10.1016/0363-5023(94)90200-3"
+   }
+  ],
+  "planche": "m12.webp"
+ },
+ {
+  "no": "M13",
+  "page": 13,
+  "tags": "DOIGT « EN SAUCISSE » · INFLAMMATOIRE · MARQUEUR DE SÉVÉRITÉ",
+  "titre": "DACTYLITE (PSORIASIQUE OU JUVÉNILE)",
+  "epidemiologie": {
+   "texte": "48 % des arthrites psoriasiques au cours de l'évolution (pieds 65 %, mains 24 %) ; forme juvénile : filles de 1–4 ans, FAN positifs, risque d'uvéite.",
+   "refs": [
+    121,
+    10,
+    122
+   ]
+  },
+  "presentation": {
+   "texte": "gonflement diffus et asymétrique de tout le doigt.",
+   "refs": [
+    10
+   ]
+  },
+  "examen": {
+   "texte": "gonflement dépassant les limites articulaires ; absente chez 96 PR consécutives.",
+   "refs": [
+    123,
+    124
+   ]
+  },
+  "physiopathologie": {
+   "texte": "ténosynovite des fléchisseurs avec synovite, enthésite et ostéite.",
+   "refs": [
+    125,
+    126
+   ]
+  },
+  "ddx": {
+   "texte": "ténosynovite infectieuse, goutte, sarcoïdose, drépanocytose (6 mois–5 ans), tuberculose.",
+   "refs": [
+    124,
+    127,
+    128,
+    129
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie ; échographie ou IRM ; urate et CRP selon le contexte.",
+   "refs": [
+    123,
+    129
+   ]
+  },
+  "traitement": {
+   "texte": "AINS, infiltration locale (recommandations conditionnelles GRAPPA) ; biologiques en recommandation forte.",
+   "refs": [
+    130
+   ]
+  },
+  "pronostic": {
+   "texte": "progression radiographique 50 % contre 38 % des doigts ; résolution complète sous traitement moderne chez la plupart.",
+   "refs": [
+    121,
+    126
+   ]
+  },
+  "refs": [
+   {
+    "n": 121,
+    "texte": "Brockbank JE et al. Annals of the Rheumatic Diseases 2005",
+    "url": "https://doi.org/10.1136/ard.2003.018184"
+   },
+   {
+    "n": 10,
+    "texte": "Ritchlin CT et al. The New England Journal of… 2017",
+    "url": "https://doi.org/10.1056/NEJMra1505557"
+   },
+   {
+    "n": 122,
+    "texte": "Sandborg CI et al. The New England Journal of… 2025",
+    "url": "https://doi.org/10.1056/NEJMra2402073"
+   },
+   {
+    "n": 123,
+    "texte": "Kaeley GS et al. Seminars in Arthritis and… 2018",
+    "url": "https://doi.org/10.1016/j.semarthrit.2018.02.002"
+   },
+   {
+    "n": 124,
+    "texte": "Rothschild BM et al. Seminars in Arthritis and… 1998",
+    "url": "https://doi.org/10.1016/s0049-0172(98)80027-9"
+   },
+   {
+    "n": 125,
+    "texte": "Veale DJ et al. Lancet (London, England) 2018",
+    "url": "https://doi.org/10.1016/S0140-6736(18)30830-4"
+   },
+   {
+    "n": 126,
+    "texte": "Nature Reviews Rheumatology 2019",
+    "url": "https://doi.org/10.1038/s41584-018-0147-9"
+   },
+   {
+    "n": 127,
+    "texte": "J ) 2020",
+    "url": "https://doi.org/10.1002/art.41212"
+   },
+   {
+    "n": 128,
+    "texte": "De La Hoz Polo M et al. Pediatric Radiology 2024",
+    "url": "https://doi.org/10.1007/s00247-024-05913-9"
+   },
+   {
+    "n": 129,
+    "texte": "Ritz N et al. European Journal of Clinical… 2011",
+    "url": "https://doi.org/10.1007/s10096-011-1239-5"
+   },
+   {
+    "n": 130,
+    "texte": "Nature Reviews Rheumatology 2022",
+    "url": "https://doi.org/10.1038/s41584-018-0147-9"
+   }
+  ],
+  "planche": "m13.webp"
+ },
+ {
+  "no": "M14",
+  "page": 14,
+  "tags": "POULIES A2 ET A4 · ESCALADE · PRISE ARQUÉE",
+  "titre": "LÉSION DE POULIE DU GRIMPEUR",
+  "epidemiologie": {
+   "texte": "blessure la plus fréquente en escalade (20 %) ; annulaire et majeur.",
+   "refs": [
+    44,
+    131
+   ]
+  },
+  "presentation": {
+   "texte": "« pop » en prise arquée, douleur palmaire en regard de A2 ou A4.",
+   "refs": [
+    44
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité de la poulie ; corde d'arc clinique seulement si ruptures multiples.",
+   "refs": [
+    44
+   ]
+  },
+  "physiopathologie": {
+   "texte": "la prise arquée charge A2 36 fois plus que la prise ouverte.",
+   "refs": [
+    131
+   ]
+  },
+  "ddx": {
+   "texte": "ténosynovite, déchirure d'un lombrical, lésion collatérale ; adolescent : fracture de fatigue épiphysaire.",
+   "refs": [
+    132,
+    133
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie, puis échographie dynamique (distance tendon-os > 1 mm : Se 98 %, Sp 100 % ; > 2 mm sur 7–15 % des poulies saines).",
+   "refs": [
+    134,
+    135
+   ]
+  },
+  "traitement": {
+   "texte": "grades I–III : repos, anneau de protection, reprise progressive ; grade IV : reconstruction.",
+   "refs": [
+    44
+   ]
+  },
+  "pronostic": {
+   "texte": "retour complet rarement avant 2–3 mois ; fracture épiphysaire : arrêt 6–8 semaines, 91 % de retour.",
+   "refs": [
+    136,
+    137,
+    138
+   ]
+  },
+  "refs": [
+   {
+    "n": 44,
+    "texte": "Grandizio LC et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9379-6"
+   },
+   {
+    "n": 131,
+    "texte": "Bouyer M et al. The Journal of Hand Surgery,… 2016",
+    "url": "https://doi.org/10.1177/1753193415623914"
+   },
+   {
+    "n": 132,
+    "texte": "Skeletal Radiology 2026; 1007/s00256-026-05230-2",
+    "url": "https://doi.org/10.1007/s00256-026-05230-2"
+   },
+   {
+    "n": 133,
+    "texte": "Schöffl V et al. The American Journal of… 2022",
+    "url": "https://doi.org/10.1177/03635465211056956"
+   },
+   {
+    "n": 134,
+    "texte": "Klauser A et al. Radiology 2002",
+    "url": "https://doi.org/10.1148/radiol.2223010752"
+   },
+   {
+    "n": 135,
+    "texte": "Santana DC et al. The Journal of Hand Surgery 2026",
+    "url": "https://doi.org/10.1016/j.jhsa.2025.12.018"
+   },
+   {
+    "n": 136,
+    "texte": "Schöffl VR et al. The Journal of Hand Surgery 2006",
+    "url": "https://doi.org/10.1016/j.jhsa.2006.02.011"
+   },
+   {
+    "n": 137,
+    "texte": "Z ) 2022",
+    "url": "https://doi.org/10.1007/s40279-021-01511-z"
+   },
+   {
+    "n": 138,
+    "texte": "Jaini A et al. PM & R 2026",
+    "url": "https://doi.org/10.1002/pmrj.70068"
+   }
+  ],
+  "planche": "m14.webp"
+ },
+ {
+  "no": "M15",
+  "page": 15,
+  "tags": "IPD · AVULSION TENDINEUSE · RÉFÉRENCE URGENTE",
+  "titre": "JERSEY FINGER (AVULSION DU FLÉCHISSEUR PROFOND)",
+  "epidemiologie": {
+   "texte": "annulaire dans 75 % ; sports de contact.",
+   "refs": [
+    42,
+    113
+   ]
+  },
+  "presentation": {
+   "texte": "« pop », poing incomplet, parfois masse dans la paume.",
+   "refs": [
+    113
+   ]
+  },
+  "examen": {
+   "texte": "aucune flexion active de l'IPD, IPP et MCP maintenues en extension.",
+   "refs": [
+    113
+   ]
+  },
+  "physiopathologie": {
+   "texte": "extension forcée de l'IPD en flexion active ; la rétraction rompt les vincula.",
+   "refs": [
+    139
+   ]
+  },
+  "ddx": {
+   "texte": "maillet (déficit inverse), fracture de l'IPD, doigt à ressaut.",
+   "refs": [
+    139
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie (fragment) ; échographie ou IRM pour localiser le moignon.",
+   "refs": [
+    139,
+    113
+   ]
+  },
+  "traitement": {
+   "texte": "attelle en légère flexion, référence urgente ; type I (paume) réparé en 7–10 jours, type II jusqu'à 6–8 semaines.",
+   "refs": [
+    113,
+    139,
+    42
+   ]
+  },
+  "pronostic": {
+   "texte": "perte de 10–15° d'extension de l'IPD, préhension presque normale ; sport à 8–12 semaines.",
+   "refs": [
+    140,
+    141
+   ]
+  },
+  "refs": [
+   {
+    "n": 42,
+    "texte": "Rettig AC The American Journal of… 2004",
+    "url": "https://doi.org/10.1177/0363546503261422"
+   },
+   {
+    "n": 113,
+    "texte": "Hilgefort J et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 139,
+    "texte": "Bachoura A et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9395-6"
+   },
+   {
+    "n": 140,
+    "texte": "Drummey et al. Ilyas, MD, MBA, FACS Journal of Medical Insight (JOMI)",
+    "url": null
+   },
+   {
+    "n": 141,
+    "texte": "Halát G et al. Archives of Orthopaedic and… 2017",
+    "url": "https://doi.org/10.1007/s00402-016-2619-1"
+   }
+  ],
+  "planche": "m15.webp"
+ },
+ {
+  "no": "M16",
+  "page": 16,
+  "tags": "DOIGT · MASSE BÉNIGNE · ARTHROSE DE L'IPD",
+  "titre": "KYSTE SYNOVIAL OU MUCOÏDE",
+  "epidemiologie": {
+   "texte": "mucoïde : 40–70 ans, femmes 2 pour 1 ; arthrose de l'IPD dans 75–87 %.",
+   "refs": [
+    142,
+    143,
+    144
+   ]
+  },
+  "presentation": {
+   "texte": "nodule dorsal entre l'IPD et le repli unguéal, gouttière de l'ongle ; kyste de gaine : « petit pois » ferme palmaire.",
+   "refs": [
+    143,
+    145
+   ]
+  },
+  "examen": {
+   "texte": "transillumination.",
+   "refs": [
+    146
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fuite articulaire liée aux ostéophytes (communication avec l'IPD ≈ 90 %).",
+   "refs": [
+    147,
+    148
+   ]
+  },
+  "ddx": {
+   "texte": "nodule d'Heberden, tophus, tumeur à cellules géantes, tumeur glomique.",
+   "refs": [
+    145,
+    148
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie ; échographie si doute.",
+   "refs": [
+    146
+   ]
+  },
+  "traitement": {
+   "texte": "observation ; ponction-infiltration : résolution 60 % ; chirurgie avec exérèse des ostéophytes : guérison 95 % ; arthrite septique décrite, risque non chiffré.",
+   "refs": [
+    149,
+    150,
+    151
+   ]
+  },
+  "pronostic": {
+   "texte": "bénin ; l'arthrose sous-jacente progresse.",
+   "refs": [
+    152,
+    153
+   ]
+  },
+  "refs": [
+   {
+    "n": 142,
+    "texte": "Calder JD et al. Foot & Ankle International 2003",
+    "url": "https://doi.org/10.1177/107110070302400607"
+   },
+   {
+    "n": 143,
+    "texte": "Dermatologic Surgery : Official Publication for American Society for Dermatologic Surgery [Et Al ] 2008",
+    "url": "https://doi.org/10.1111/j.1524-4725.2007.34070.x"
+   },
+   {
+    "n": 144,
+    "texte": "Brown RE et al. Plastic and Reconstructive… 1991",
+    "url": "https://doi.org/10.1097/00006534-199104000-00017"
+   },
+   {
+    "n": 145,
+    "texte": "Jang Y et al. Journal of Clinical Ultrasound 2020",
+    "url": "https://doi.org/10.1002/jcu.22793"
+   },
+   {
+    "n": 146,
+    "texte": "Zoller SD et al. The Journal of the American… 2023",
+    "url": "https://doi.org/10.5435/JAAOS-D-22-00105"
+   },
+   {
+    "n": 147,
+    "texte": "David de Berker et al. Archives of Dermatology 2001",
+    "url": null
+   },
+   {
+    "n": 148,
+    "texte": "Patel RA et al. Rheumatology International 2022",
+    "url": "https://doi.org/10.1007/s00296-021-05082-0"
+   },
+   {
+    "n": 149,
+    "texte": "Rizzo M et al. The Journal of Hand Surgery 2003",
+    "url": "https://doi.org/10.1053/jhsu.2003.50088"
+   },
+   {
+    "n": 150,
+    "texte": "Jabbour S et al. International Journal of… 2017",
+    "url": "https://doi.org/10.1111/ijd.13583"
+   },
+   {
+    "n": 151,
+    "texte": "Johnson SM et al. The Journal of Hand Surgery,… 2014",
+    "url": "https://doi.org/10.1177/1753193413508540"
+   },
+   {
+    "n": 152,
+    "texte": "The Lancet Oncology 2007",
+    "url": "https://doi.org/10.1016/S1470-2045(07)70035-9"
+   },
+   {
+    "n": 153,
+    "texte": "Lee HJ et al. The Journal of Hand Surgery,… 2014",
+    "url": "https://doi.org/10.1177/1753193413478549"
+   }
+  ],
+  "planche": "m16.webp"
+ },
+ {
+  "no": "M17",
+  "page": 17,
+  "tags": "BASE DU 1ᵉʳ MÉTACARPIEN · FRACTURE ARTICULAIRE INSTABLE",
+  "titre": "FRACTURE DE BENNETT",
+  "epidemiologie": {
+   "texte": "environ 2 % des fractures de la main ; hommes, âge moyen 33 ans.",
+   "refs": [
+    154,
+    155
+   ]
+  },
+  "presentation": {
+   "texte": "charge axiale sur pouce fléchi ; base enflée, pouce raccourci en adduction.",
+   "refs": [
+    47,
+    156
+   ]
+  },
+  "examen": {
+   "texte": "signes ni sensibles ni spécifiques.",
+   "refs": [
+    156
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fragment ulno-palmaire retenu par le ligament oblique ; le long abducteur tire la diaphyse en proximal, dorsal et radial.",
+   "refs": [
+    47,
+    157
+   ]
+  },
+  "ddx": {
+   "texte": "fracture extra-articulaire de la base, Rolando (comminutive), luxation trapézo-métacarpienne.",
+   "refs": [
+    47,
+    158
+   ]
+  },
+  "investigations": {
+   "texte": "incidence de Robert, profil, oblique ; TDM.",
+   "refs": [
+    157,
+    159
+   ]
+  },
+  "traitement": {
+   "texte": "le plâtre ne maintient pas la réduction ; réduction fermée et brochage ; abord ouvert si fragment > 25 % ou marche non réductible sous 2 mm.",
+   "refs": [
+    116,
+    156
+   ]
+  },
+  "pronostic": {
+   "texte": "arthrose cumulée ≈ 33 % ; à 11,5 ans, DASH 3,0 et satisfaction 94 %.",
+   "refs": [
+    155,
+    160
+   ]
+  },
+  "refs": [
+   {
+    "n": 154,
+    "texte": "Yin Y et al. BMC Musculoskeletal Disorders 2021",
+    "url": "https://doi.org/10.1186/s12891-020-03867-1"
+   },
+   {
+    "n": 155,
+    "texte": "Middleton SD et al. The Bone & Joint Journal 2015",
+    "url": "https://doi.org/10.1302/0301-620X.97B7.35493"
+   },
+   {
+    "n": 47,
+    "texte": "Lambi AG et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934231184119"
+   },
+   {
+    "n": 156,
+    "texte": "Liverneaux PA et al. The Journal of Hand Surgery,… 2015",
+    "url": "https://doi.org/10.1177/17531934231184119"
+   },
+   {
+    "n": 157,
+    "texte": "Soong M et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9380-0"
+   },
+   {
+    "n": 158,
+    "texte": "Yang BW et al. The Journal of Hand Surgery 2026",
+    "url": "https://doi.org/10.1177/17531934231184119"
+   },
+   {
+    "n": 159,
+    "texte": "Van Royen K et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934231184119"
+   },
+   {
+    "n": 116,
+    "texte": "Li J et al. The Journal of Hand Surgery,… 2023",
+    "url": "https://doi.org/10.1177/17531934231184119"
+   },
+   {
+    "n": 160,
+    "texte": "Boeckstyns MEH The Journal of Hand Surgery,… 2020",
+    "url": "https://doi.org/10.1177/1753193420928820"
+   }
+  ],
+  "planche": "m17.webp"
+ },
+ {
+  "no": "M18",
+  "page": 18,
+  "tags": "APPAREIL EXTENSEUR · IPP OU MCP · DÉFORMATION RETARDÉE",
+  "titre": "BANDELETTE CENTRALE (BOUTONNIÈRE) OU SAGITTALE",
+  "epidemiologie": {
+   "texte": "« doigt coincé » sous-reconnu (basketball, volleyball) ; bandelette sagittale : majeur dans 74 %.",
+   "refs": [
+    44,
+    161
+   ]
+  },
+  "presentation": {
+   "texte": "douleur dorsale de l'IPP ; déformation souvent 1–2 semaines plus tard.",
+   "refs": [
+    42,
+    162
+   ]
+  },
+  "examen": {
+   "texte": "test d'Elson, sans étude clinique de performance, faux négatif possible au début ; pseudo-boutonnière : IPD souple ; bandelette sagittale : subluxation du tendon à la flexion de la MCP.",
+   "refs": [
+    44,
+    163,
+    164
+   ]
+  },
+  "physiopathologie": {
+   "texte": "rupture de la bandelette centrale et du ligament triangulaire ; bandelettes latérales passant sous l'axe de l'IPP.",
+   "refs": [
+    44
+   ]
+  },
+  "ddx": {
+   "texte": "pseudo-boutonnière, fracture ou luxation de l'IPP, lésion collatérale.",
+   "refs": [
+    44
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie (avulsion dorsale) ; échographie si doute.",
+   "refs": [
+    44,
+    165
+   ]
+  },
+  "traitement": {
+   "texte": "attelle de l'IPP en extension 4–6 semaines, IPD libre ; bandelette sagittale : attelle, succès 95 % en aigu et 67 % en chronique.",
+   "refs": [
+    44,
+    161
+   ]
+  },
+  "pronostic": {
+   "texte": "meilleur si traité avant 6 semaines.",
+   "refs": [
+    166
+   ]
+  },
+  "refs": [
+   {
+    "n": 44,
+    "texte": "Grandizio LC et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9379-6"
+   },
+   {
+    "n": 161,
+    "texte": "Peelman J et al. The Journal of Hand Surgery,… 2015",
+    "url": "https://doi.org/10.1177/1753193414530591"
+   },
+   {
+    "n": 42,
+    "texte": "Rettig AC The American Journal of… 2004",
+    "url": "https://doi.org/10.1177/0363546503261422"
+   },
+   {
+    "n": 162,
+    "texte": "Pillukat T et al. Der Unfallchirurg 2021",
+    "url": "https://doi.org/10.1007/s00113-021-00984-x"
+   },
+   {
+    "n": 163,
+    "texte": "Houston T et al. Journal of Hand Surgery… 2021",
+    "url": "https://doi.org/10.1016/j.jhsg.2021.08.004"
+   },
+   {
+    "n": 164,
+    "texte": "Rayan GM et al. The Journal of Hand Surgery 1994",
+    "url": "https://doi.org/10.1016/0363-5023(94)90261-5"
+   },
+   {
+    "n": 165,
+    "texte": "Westerheide E et al. The Journal of Hand Surgery 2003",
+    "url": "https://doi.org/10.1016/s0363-5023(03)00427-1"
+   },
+   {
+    "n": 166,
+    "texte": "Tong Y et al. Journal of Hand Therapy 2025",
+    "url": "https://doi.org/10.1016/j.jht.2025.02.013"
+   }
+  ],
+  "planche": "m18.webp"
+ },
+ {
+  "no": "M19",
+  "page": 19,
+  "tags": "PHALANGE DISTALE · ÉCRASEMENT · LIT UNGUÉAL",
+  "titre": "FRACTURE DE LA HOUPPE",
+  "epidemiologie": {
+   "texte": "phalange distale = 43 % des fractures phalangiennes.",
+   "refs": [
+    167
+   ]
+  },
+  "presentation": {
+   "texte": "extrémité écrasée, hématome sous-unguéal.",
+   "refs": [
+    113
+   ]
+  },
+  "examen": {
+   "texte": "flexion et extension actives de l'IPD ; hématome > 50 % : lacération du lit dans 60 %, fracture dans environ 95 %.",
+   "refs": [
+    37,
+    168
+   ]
+  },
+  "physiopathologie": {
+   "texte": "écrasement ; l'atteinte du lit unguéal adhérent en fait une fracture ouverte.",
+   "refs": [
+    169
+   ]
+  },
+  "ddx": {
+   "texte": "maillet, jersey finger, Seymour.",
+   "refs": [
+    169,
+    170
+   ]
+  },
+  "investigations": {
+   "texte": "3 incidences.",
+   "refs": [
+    113
+   ]
+  },
+  "traitement": {
+   "texte": "attelle 3–4 semaines ; trépanation si hématome douloureux et ongle intact, résultat égal à la réparation du lit ; antibioprophylaxie sans bénéfice démontré.",
+   "refs": [
+    113,
+    171,
+    172
+   ]
+  },
+  "pronostic": {
+   "texte": "4–6 semaines ; hyperesthésie chronique possible ; intolérance au froid chez 38 % après fracture de la main.",
+   "refs": [
+    37,
+    173
+   ]
+  },
+  "refs": [
+   {
+    "n": 167,
+    "texte": "Kremer L et al. European Journal of Trauma… 2022",
+    "url": "https://doi.org/10.1007/s00068-020-01397-y"
+   },
+   {
+    "n": 113,
+    "texte": "Hilgefort J et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 37,
+    "texte": "Childress MA et al. American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 168,
+    "texte": "Seiler M et al. The Journal of Hand Surgery,… 2021",
+    "url": "https://doi.org/10.1177/1753193420965390"
+   },
+   {
+    "n": 169,
+    "texte": "Black et al. Pediatrics in Review 2015",
+    "url": null
+   },
+   {
+    "n": 170,
+    "texte": "Lafreniere AS et al. Canadian Family Physician… 2023",
+    "url": "https://doi.org/10.46747/cfp.6909609"
+   },
+   {
+    "n": 171,
+    "texte": "Metcalfe D et al. The Journal of Hand Surgery,… 2016",
+    "url": "https://doi.org/10.1177/1753193415601055"
+   },
+   {
+    "n": 172,
+    "texte": "Roser SE et al. The Journal of Hand Surgery 1999",
+    "url": "https://doi.org/10.1053/jhsu.1999.1166"
+   },
+   {
+    "n": 173,
+    "texte": "Nijhuis TH et al. The Journal of Hand Surgery,… 2010",
+    "url": "https://doi.org/10.1177/1753193409343050"
+   }
+  ],
+  "planche": "m19.webp"
+ },
+ {
+  "no": "M20",
+  "page": 20,
+  "tags": "GAINE DES FLÉCHISSEURS · INFECTION · URGENCE",
+  "titre": "TÉNOSYNOVITE INFECTIEUSE DES FLÉCHISSEURS",
+  "epidemiologie": {
+   "texte": "après plaie palmaire pénétrante ; âge médian 48 ans ; S. aureus 43,4 %.",
+   "refs": [
+    174,
+    175
+   ]
+  },
+  "presentation": {
+   "texte": "signes de Kanavel : gonflement fusiforme, flexion antalgique, douleur à l'extension passive, sensibilité de la gaine.",
+   "refs": [
+    176
+   ]
+  },
+  "examen": {
+   "texte": "performance non établie ; ≥ 3 signes chez 62 % des enfants ; gonflement fusiforme chez 87 % des adultes.",
+   "refs": [
+    174,
+    177,
+    178
+   ]
+  },
+  "physiopathologie": {
+   "texte": "inoculation d'une gaine close ; hyperpression, ischémie et nécrose tendineuse.",
+   "refs": [
+    175
+   ]
+  },
+  "ddx": {
+   "texte": "panaris, cellulite, arthrite septique, goutte, dactylite.",
+   "refs": [
+    178,
+    179
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; CRP Se 76 %, leucocytes Se 39 % ; radiographie (corps étranger).",
+   "refs": [
+    179,
+    180
+   ]
+  },
+  "traitement": {
+   "texte": "antibiotiques IV et chirurgie urgente ; lavage par cathéter : amplitude excellente 71 % contre 26 % (ouvert).",
+   "refs": [
+    181,
+    176
+   ]
+  },
+  "pronostic": {
+   "texte": "amputation 11,4 % ; chaque jour de délai : RC 1,13 ; diabète : RC 3,19.",
+   "refs": [
+    174
+   ]
+  },
+  "refs": [
+   {
+    "n": 174,
+    "texte": "Idarrha F et al. Injury 2026",
+    "url": "https://doi.org/10.1016/j.injury.2026.113631"
+   },
+   {
+    "n": 175,
+    "texte": "Mehta P et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1016/j.ajem.2023.12.023"
+   },
+   {
+    "n": 176,
+    "texte": "Giladi AM et al. The Journal of Hand Surgery,… 2015",
+    "url": "https://doi.org/10.1177/1753193415570248"
+   },
+   {
+    "n": 177,
+    "texte": "2017;42(5):388 e1-388 e5",
+    "url": "https://doi.org/10.1016/j.jhsa.2017.02.007"
+   },
+   {
+    "n": 178,
+    "texte": "Bolton LE et al. Infection 2019",
+    "url": "https://doi.org/10.1007/s15010-018-1236-z"
+   },
+   {
+    "n": 179,
+    "texte": "Bishop GB et al. The Journal of Hand Surgery 2013",
+    "url": "https://doi.org/10.1016/j.jhsa.2013.08.094"
+   },
+   {
+    "n": 180,
+    "texte": "McLuckey MN et al. Pediatric Radiology 2026",
+    "url": "https://doi.org/10.1007/s00247-026-06564-8"
+   },
+   {
+    "n": 181,
+    "texte": "Hyatt BT et al. The Orthopedic Clinics of… 2017",
+    "url": "https://doi.org/10.1016/j.ocl.2016.12.010"
+   }
+  ],
+  "planche": "m20.webp"
+ },
+ {
+  "no": "M21",
+  "page": 21,
+  "tags": "MAIN · DIAGNOSTIC D'EXCLUSION",
+  "titre": "DOULEUR NON SPÉCIFIQUE DE LA MAIN",
+  "epidemiologie": {
+   "texte": "12–32 % de la population ; 30,8 % sur 1 mois après 50 ans ; en première ligne : arthrose 16,9 %, ténosynovite 15,8 %, canal carpien 12,4 %, non spécifique 11,7 %.",
+   "refs": [
+    182,
+    183,
+    184
+   ]
+  },
+  "presentation": {
+   "texte": "douleur sans lésion identifiable ; facteurs physiques, ergonomiques et psychosociaux.",
+   "refs": [
+    185,
+    186
+   ]
+  },
+  "examen": {
+   "texte": "exclure canal carpien (Durkan Se 64 %, Sp 83 %), rhizarthrose et De Quervain.",
+   "refs": [
+    17
+   ]
+  },
+  "physiopathologie": {
+   "texte": "aucune lésion identifiable, par définition.",
+   "refs": [
+    185
+   ]
+  },
+  "ddx": {
+   "texte": "arthrose, ténosynovite, canal carpien, PR.",
+   "refs": [
+    184
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie si arthrose, arthrite ou traumatisme suspectés.",
+   "refs": [
+    187
+   ]
+  },
+  "traitement": {
+   "texte": "exercices, ergonomie ; preuves faibles.",
+   "refs": [
+    188,
+    189
+   ]
+  },
+  "pronostic": {
+   "texte": "guérison complète chez 23 % à 3 mois et 42 % à 12 mois.",
+   "refs": [
+    184
+   ]
+  },
+  "refs": [
+   {
+    "n": 182,
+    "texte": "Ding H et al. Arthritis Care & Research 2011",
+    "url": "https://doi.org/10.1002/acr.20437"
+   },
+   {
+    "n": 183,
+    "texte": "Dziedzic K et al. Rheumatology (Oxford, England) 2007",
+    "url": "https://doi.org/10.1093/rheumatology/kem005"
+   },
+   {
+    "n": 184,
+    "texte": "Spies- Dorgelo MN et al. Arthritis and Rheumatism 2008",
+    "url": "https://doi.org/10.1002/art.24019"
+   },
+   {
+    "n": 185,
+    "texte": "Poonam Mehta et al. Cochrane Database of… 2026",
+    "url": "https://doi.org/10.1002/14651858.cd014644.pub2"
+   },
+   {
+    "n": 186,
+    "texte": "Best Practice & Research Clinical Rheumatology 2003",
+    "url": "https://doi.org/10.1016/s1521-6942(02)00100-6"
+   },
+   {
+    "n": 17,
+    "texte": "Currie KB et al. JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.8481"
+   },
+   {
+    "n": 187,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the American… 2024",
+    "url": "https://doi.org/10.1016/j.jacr.2024.02.016"
+   },
+   {
+    "n": 188,
+    "texte": "van Tulder M et al. Lancet (London, England) 2007",
+    "url": "https://doi.org/10.1016/S0140-6736(07)60820-4"
+   },
+   {
+    "n": 189,
+    "texte": "Best Practice & Research Clinical Rheumatology 2007",
+    "url": "https://doi.org/10.1016/s1521-6942(02)00100-6"
+   }
+  ],
+  "planche": "m21.webp"
+ }
+]

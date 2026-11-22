@@ -15,6 +15,7 @@ export const TERMES = [
   [/([Dd])ouleur facettaire( cervicale| lombaire| thoracique)?/g, (m, d, r) => `${d === "D" ? "S" : "s"}yndrome facettaire${(r || "").replace("cervicale", "cervical")}`],
   [/[Ss]yndrome facettaire cervicale/g, m => m.slice(0, -1)],
   [/([Ff])ractures? de fatigue/g, m => m.replace("fatigue", "stress")],
+  [/d'insuffisance ou de fatigue/g, "d'insuffisance ou de stress"],
   [/défilé thoraco-brachial/g, "défilé thoracique"],
   [/\bOmarthrose\b/g, "Arthrose gléno-humérale"],
   [/(?<![\w"'_])omarthrose(?![\w"'_:])/g, "arthrose gléno-humérale"],

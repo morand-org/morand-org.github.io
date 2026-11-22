@@ -1,0 +1,2793 @@
+[
+ {
+  "no": "H1",
+  "page": 1,
+  "tags": "HANCHE · DOULEUR DE L'AINE · DÉGÉNÉRATIF",
+  "titre": "COXARTHROSE",
+  "epidemiologie": {
+   "texte": "symptomatique chez 9,2 % après 45 ans ; risque à vie ≈ 25 % ; âge, sexe féminin, dysplasie, obésité, morphologie en came.",
+   "refs": [
+    190,
+    191,
+    192,
+    193
+   ]
+  },
+  "presentation": {
+   "texte": "douleur de l'aine aggravée dans les escaliers ; raideur matinale brève.",
+   "refs": [
+    194
+   ]
+  },
+  "examen": {
+   "texte": "adduction diminuée (Se 80 %, Sp 81 %, RV+ 4,2), rotation interne diminuée (RV+ 3,2) ; âge > 60 ans : RV− 0,11.",
+   "refs": [
+    194
+   ]
+  },
+  "physiopathologie": {
+   "texte": "dégradation du cartilage, remodelage osseux, ostéophytes, inflammation synoviale.",
+   "refs": [
+    192
+   ]
+  },
+  "ddx": {
+   "texte": "arthrite inflammatoire, septique ou microcristalline ; grand trochanter ; rachis lombaire.",
+   "refs": [
+    192,
+    194
+   ]
+  },
+  "investigations": {
+   "texte": "clinique si ≥ 45 ans, douleur à l'activité et raideur ≤ 30 minutes ; radiographie si atypie ou chirurgie envisagée ; un cliché normal n'exclut pas.",
+   "refs": [
+    194,
+    195,
+    192
+   ]
+  },
+  "traitement": {
+   "texte": "éducation, exercice, perte de poids ; infiltration guidée : douleur améliorée à 2 semaines et 2 mois, fonction jusqu'à 4 mois, aucun effet à 6 mois (HIT).",
+   "refs": [
+    196,
+    197
+   ]
+  },
+  "pronostic": {
+   "texte": "survie des prothèses modernes 92,8 % à 25 ans.",
+   "refs": [
+    198
+   ]
+  },
+  "refs": [
+   {
+    "n": 190,
+    "texte": "Lawrence RC et al. Arthritis and Rheumatism 2008",
+    "url": "https://doi.org/10.1002/art.23176"
+   },
+   {
+    "n": 191,
+    "texte": "Murphy LB et al. Osteoarthritis and Cartilage 2010",
+    "url": "https://doi.org/10.1016/j.joca.2010.08.005"
+   },
+   {
+    "n": 192,
+    "texte": "Katz JN et al. JAMA 2021",
+    "url": "https://doi.org/10.1001/jama.2020.22171"
+   },
+   {
+    "n": 193,
+    "texte": "Casartelli NC et al. Osteoarthritis and Cartilage 2021",
+    "url": "https://doi.org/10.1016/j.joca.2021.06.007"
+   },
+   {
+    "n": 194,
+    "texte": "Metcalfe D et al. JAMA 2019",
+    "url": "https://doi.org/10.1001/jama.2019.19413"
+   },
+   {
+    "n": 195,
+    "texte": "King LK et al. Arthritis Care & Research 2025",
+    "url": "https://doi.org/10.1002/acr.25464"
+   },
+   {
+    "n": 196,
+    "texte": "Slomski A JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.8170"
+   },
+   {
+    "n": 197,
+    "texte": "BMJ (Clinical Research Ed ) 2022",
+    "url": "https://doi.org/10.1136/bmj-2021-068446"
+   },
+   {
+    "n": 198,
+    "texte": "Pentland V et al. Lancet (London, England) 2026",
+    "url": "https://doi.org/10.1016/S0140-6736(25)02305-0"
+   }
+  ],
+  "planche": "h1.webp"
+ },
+ {
+  "no": "H2",
+  "page": 2,
+  "tags": "HANCHE LATÉRALE · TENDINOPATHIE GLUTÉALE · FEMME DE 40–60 ANS",
+  "titre": "SYNDROME DOULOUREUX DU GRAND TROCHANTER",
+  "epidemiologie": {
+   "texte": "17,6 % à 50–79 ans (femmes 23,5 %, hommes 8,5 %).",
+   "refs": [
+    199
+   ]
+  },
+  "presentation": {
+   "texte": "douleur latérale en décubitus latéral, dans les escaliers, debout.",
+   "refs": [
+    200,
+    201
+   ]
+  },
+  "examen": {
+   "texte": "palpation du trochanter Se 80 % (négative : exclut) ; douleur en 30 secondes d'appui unipodal Sp 100 % ; FABER avec douleur latérale Se 83 %, Sp 90 % contre coxarthrose.",
+   "refs": [
+    202,
+    203
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression des tendons moyen et petit fessiers en adduction de hanche.",
+   "refs": [
+    203
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie ou sténose lombaire, coxarthrose, conflit, fracture de fatigue.",
+   "refs": [
+    204
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; anomalies tendineuses fréquentes à l'IRM sans symptômes.",
+   "refs": [
+    205,
+    206
+   ]
+  },
+  "traitement": {
+   "texte": "éducation et exercice : succès 77 % contre 58 % (infiltration) et 29 % (attente) à 8 semaines ; 78 %, 57 % et 52 % à 1 an (LEAP).",
+   "refs": [
+    207
+   ]
+  },
+  "pronostic": {
+   "texte": "symptômes persistant jusqu'à 5 ans chez 29 %.",
+   "refs": [
+    208
+   ]
+  },
+  "refs": [
+   {
+    "n": 199,
+    "texte": "Segal NA et al. Archives of Physical Medicine… 2007",
+    "url": "https://doi.org/10.1016/j.apmr.2007.04.014"
+   },
+   {
+    "n": 200,
+    "texte": "Furia JP et al. The American Journal of… 2009",
+    "url": "https://doi.org/10.1177/0363546509333014"
+   },
+   {
+    "n": 201,
+    "texte": "Chamberlain R American Family Physician 2021",
+    "url": null
+   },
+   {
+    "n": 202,
+    "texte": "Grimaldi A et al. British Journal of Sports… 2017",
+    "url": "https://doi.org/10.1136/bjsports-2016-096175"
+   },
+   {
+    "n": 203,
+    "texte": "Z ) 2015",
+    "url": "https://doi.org/10.1007/s40279-015-0336-5"
+   },
+   {
+    "n": 204,
+    "texte": "Drummond J et al. Archives of Orthopaedic and… 2016",
+    "url": "https://doi.org/10.1007/s00402-016-2511-z"
+   },
+   {
+    "n": 205,
+    "texte": "Rossignol-Aveline A et al. Pain Research & Management 2026",
+    "url": "https://doi.org/10.1155/prm/7141807"
+   },
+   {
+    "n": 206,
+    "texte": "Grimaldi A et al. Archives of Orthopaedic and… 2025",
+    "url": "https://doi.org/10.1136/bjsports-2016-096175"
+   },
+   {
+    "n": 207,
+    "texte": "BMJ (Clinical Research Ed ) 2018",
+    "url": "https://doi.org/10.1136/bmj.k1662"
+   },
+   {
+    "n": 208,
+    "texte": "Patricio Cordeiro TT et al. Scientific Reports 2024",
+    "url": "https://doi.org/10.1038/s41598-024-53283-x"
+   }
+  ],
+  "planche": "h2.webp"
+ },
+ {
+  "no": "H3",
+  "page": 3,
+  "tags": "AINE MÉDIALE · SPORTIF · CLASSIFICATION DE DOHA",
+  "titre": "PUBALGIE DES ADDUCTEURS",
+  "epidemiologie": {
+   "texte": "football professionnel : 63 % des blessures hanche-aine ; environ 21 % des joueurs par saison ; antécédent de blessure, faiblesse des adducteurs.",
+   "refs": [
+    209,
+    210,
+    211
+   ]
+  },
+  "presentation": {
+   "texte": "sensibilité des adducteurs et douleur à l'adduction résistée (définition de Doha).",
+   "refs": [
+    212,
+    213
+   ]
+  },
+  "examen": {
+   "texte": "palpation : valeur prédictive négative 91–96 % ; squeeze test Se 85,4 %, peu spécifique.",
+   "refs": [
+    214,
+    215
+   ]
+  },
+  "physiopathologie": {
+   "texte": "mal documentée ; faiblesse des adducteurs associée à l'apparition.",
+   "refs": [
+    216
+   ]
+  },
+  "ddx": {
+   "texte": "formes ilio-psoas, inguinale, pubienne, hanche ; entités multiples dans 44 %.",
+   "refs": [
+    217
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; IRM si doute ou sans amélioration.",
+   "refs": [
+    214,
+    218
+   ]
+  },
+  "traitement": {
+   "texte": "renforcement actif : retour sans douleur chez 23 athlètes contre 4 (Hölmich) ; multimodal contre exercice : 12,8 contre 17,3 semaines.",
+   "refs": [
+    219,
+    220
+   ]
+  },
+  "pronostic": {
+   "texte": "absence médiane de 10 jours (forme aiguë) ; récidive 15 %.",
+   "refs": [
+    210,
+    221
+   ]
+  },
+  "refs": [
+   {
+    "n": 209,
+    "texte": "Werner J et al. British Journal of Sports… 2019",
+    "url": "https://doi.org/10.1136/bjsports-2017-097796"
+   },
+   {
+    "n": 210,
+    "texte": "Mosler AB et al. British Journal of Sports… 2018",
+    "url": "https://doi.org/10.1136/bjsports-2016-097277"
+   },
+   {
+    "n": 211,
+    "texte": "Farrell SG et al. The American Journal of… 2023",
+    "url": "https://doi.org/10.1177/03635465221140923"
+   },
+   {
+    "n": 212,
+    "texte": "Weir A et al. British Journal of Sports… 2015",
+    "url": "https://doi.org/10.1136/bjsports-2015-094869"
+   },
+   {
+    "n": 213,
+    "texte": "Serner A et al. Scientific Reports 2022",
+    "url": "https://doi.org/10.1038/s41598-022-13847-1"
+   },
+   {
+    "n": 214,
+    "texte": "Serner A et al. British Journal of Sports… 2016",
+    "url": "https://doi.org/10.1038/s41598-022-13847-1"
+   },
+   {
+    "n": 215,
+    "texte": "Falvey ÉC et al. British Journal of Sports… 2016",
+    "url": "https://doi.org/10.1136/bjsports-2015-094912"
+   },
+   {
+    "n": 216,
+    "texte": "Z ) 2016",
+    "url": "https://doi.org/10.1007/s40279-016-0523-z"
+   },
+   {
+    "n": 217,
+    "texte": "Taylor R et al. Clinical Journal of Sport… 2018",
+    "url": "https://doi.org/10.1097/JSM.0000000000000469"
+   },
+   {
+    "n": 218,
+    "texte": "Maloy W et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 219,
+    "texte": "Hölmich P et al. Lancet (London, England) 1999",
+    "url": "https://doi.org/10.1016/S0140-6736(98)03340-6"
+   },
+   {
+    "n": 220,
+    "texte": "Z ) 2017",
+    "url": "https://doi.org/10.1007/s40279-017-0742-y"
+   },
+   {
+    "n": 221,
+    "texte": "Werner J et al. British Journal of Sports… 2009",
+    "url": "https://doi.org/10.1136/bjsports-2017-097796"
+   }
+  ],
+  "planche": "h3.webp"
+ },
+ {
+  "no": "H4",
+  "page": 4,
+  "tags": "CUISSE POSTÉRIEURE · LÉSION MUSCULAIRE · SPRINT",
+  "titre": "LÉSION AIGUË DES ISCHIO-JAMBIERS",
+  "epidemiologie": {
+   "texte": "24 % des blessures du football professionnel ; biceps fémoral 57–87 % ; récidive 12–31 %.",
+   "refs": [
+    222,
+    223
+   ]
+  },
+  "presentation": {
+   "texte": "sprint ou étirement ; le mécanisme d'étirement récupère plus lentement (43 contre 23 jours).",
+   "refs": [
+    224
+   ]
+  },
+  "examen": {
+   "texte": "déficit d'élévation passive de la jambe tendue, prédictif du retour ; l'IRM n'ajoute que 2,8 % à la prédiction.",
+   "refs": [
+    225,
+    226
+   ]
+  },
+  "physiopathologie": {
+   "texte": "surcharge excentrique en fin de phase oscillante.",
+   "refs": [
+    227
+   ]
+  },
+  "ddx": {
+   "texte": "avulsion tendineuse proximale, avulsion ischiatique de l'adolescent, syndrome fessier profond.",
+   "refs": [
+    228,
+    229,
+    230
+   ]
+  },
+  "investigations": {
+   "texte": "IRM non systématique ; radiographie si squelette immature ; atteinte intratendineuse : retour plus long.",
+   "refs": [
+    226,
+    228,
+    231
+   ]
+  },
+  "traitement": {
+   "texte": "protocole d'allongement : 28 contre 51 jours ; PRP sans effet contre placebo ; chirurgie si avulsion de 3 tendons, ou de 2 avec rétraction > 2 cm.",
+   "refs": [
+    224,
+    228,
+    232
+   ]
+  },
+  "pronostic": {
+   "texte": "grades IRM 0 à 3 : 8, 17, 22 et 73 jours.",
+   "refs": [
+    233
+   ]
+  },
+  "refs": [
+   {
+    "n": 222,
+    "texte": "Ekstrand J et al. British Journal of Sports… 2023",
+    "url": "https://doi.org/10.1136/bjsports-2021-105407"
+   },
+   {
+    "n": 223,
+    "texte": "Allahabadi S et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/03635465231164931"
+   },
+   {
+    "n": 224,
+    "texte": "Askling CM et al. British Journal of Sports… 2013",
+    "url": "https://doi.org/10.1136/bjsports-2013-092165"
+   },
+   {
+    "n": 225,
+    "texte": "Moen MH et al. British Journal of Sports… 2014",
+    "url": "https://doi.org/10.1136/bjsports-2013-092165"
+   },
+   {
+    "n": 226,
+    "texte": "Wangensteen A et al. British Journal of Sports… 2015",
+    "url": "https://doi.org/10.1136/bjsports-2013-092165"
+   },
+   {
+    "n": 227,
+    "texte": "Yagiz G et al. PloS One 2024",
+    "url": "https://doi.org/10.1371/journal.pone.0298146"
+   },
+   {
+    "n": 228,
+    "texte": "Sheean AJ et al. Arthroscopy 2021",
+    "url": "https://doi.org/10.1016/j.arthro.2020.12.201"
+   },
+   {
+    "n": 229,
+    "texte": "Schiller J et al. The Journal of the American… 2017",
+    "url": "https://doi.org/10.5435/JAAOS-D-15-00328"
+   },
+   {
+    "n": 230,
+    "texte": "Park JW et al. The Bone & Joint Journal 2020",
+    "url": "https://doi.org/10.1302/0301-620X.102B5.BJJ-2019-1212.R1"
+   },
+   {
+    "n": 231,
+    "texte": "Pollock N et al. British Journal of Sports… 2016",
+    "url": "https://doi.org/10.1136/bjsports-2013-092165"
+   },
+   {
+    "n": 232,
+    "texte": "Le ADK et al. Current Reviews in… 2018",
+    "url": "https://doi.org/10.1007/s12178-018-9527-7"
+   },
+   {
+    "n": 233,
+    "texte": "Z ) 2015",
+    "url": "https://doi.org/10.1007/s40279-014-0243-1"
+   }
+  ],
+  "planche": "h4.webp"
+ },
+ {
+  "no": "H5",
+  "page": 5,
+  "tags": "HANCHE · FRACTURE DE FRAGILITÉ · URGENCE",
+  "titre": "FRACTURE DE L'EXTRÉMITÉ SUPÉRIEURE DU FÉMUR",
+  "epidemiologie": {
+   "texte": "Canada : 147 par 100 000 après 40 ans, 1156 par 100 000 à 85–89 ans ; mortalité à 1 an 21,5 % (femmes) et 32,3 % (hommes).",
+   "refs": [
+    234,
+    235
+   ]
+  },
+  "presentation": {
+   "texte": "chute, douleur de l'aine, appui impossible ; membre raccourci en rotation externe.",
+   "refs": [
+    236,
+    237
+   ]
+  },
+  "examen": {
+   "texte": "fracture occulte : roulement du membre Se 96 %, élévation de la jambe tendue Se 91 %, Sp < 35 % ; percussion patello-pubienne RV− 0,05.",
+   "refs": [
+    238,
+    239
+   ]
+  },
+  "physiopathologie": {
+   "texte": "chute de faible énergie sur os ostéoporotique.",
+   "refs": [
+    240
+   ]
+  },
+  "ddx": {
+   "texte": "fracture des branches pubiennes, de l'acétabulum, du grand trochanter ; contusion.",
+   "refs": [
+    241
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie ; si négative avec suspicion clinique, 39 % de fractures chirurgicales (44 % après 80 ans) : IRM, ou TDM si IRM indisponible en 24 heures.",
+   "refs": [
+    242,
+    243
+   ]
+  },
+  "traitement": {
+   "texte": "chirurgie en 48 heures ; HIP ATTACK (6 contre 24 heures) : mortalité 9 % contre 10 %, moins de délirium ; bloc nerveux : délirium RR 0,67.",
+   "refs": [
+    244,
+    245,
+    246
+   ]
+  },
+  "pronostic": {
+   "texte": "40–60 % retrouvent leur mobilité ; 10–20 % institutionnalisés.",
+   "refs": [
+    247
+   ]
+  },
+  "refs": [
+   {
+    "n": 234,
+    "texte": "Gates M et al. Systematic Reviews 2019",
+    "url": "https://doi.org/10.1186/s13643-019-1094-5"
+   },
+   {
+    "n": 235,
+    "texte": "Brown JP et al. BMC Musculoskeletal Disorders 2021",
+    "url": "https://doi.org/10.1186/s12891-021-03960-z"
+   },
+   {
+    "n": 236,
+    "texte": "Schroeder JD et al. American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 237,
+    "texte": "Carriero FP et al. Annals of Internal Medicine 2011",
+    "url": "https://doi.org/10.7326/0003-4819-155-11-201112060-01006"
+   },
+   {
+    "n": 238,
+    "texte": "Maksoud A et al. Injury 2026",
+    "url": "https://doi.org/10.1016/j.injury.2026.113656"
+   },
+   {
+    "n": 239,
+    "texte": "Rahman LA et al. BMC Musculoskeletal Disorders 2013",
+    "url": "https://doi.org/10.1186/1471-2474-14-257"
+   },
+   {
+    "n": 240,
+    "texte": "Sharon R Lewis et al. Cochrane Database of… 2022",
+    "url": "https://doi.org/10.1002/14651858.cd013405.pub2"
+   },
+   {
+    "n": 241,
+    "texte": "Zuckerman JD The New England Journal of… 1996",
+    "url": "https://doi.org/10.1056/NEJM199606063342307"
+   },
+   {
+    "n": 242,
+    "texte": "Haj-Mirzaian A et al. Radiology 2020",
+    "url": "https://doi.org/10.1148/radiol.2020192167"
+   },
+   {
+    "n": 243,
+    "texte": "Fragility Hip Fracture Karen Hertz, Julie… Chapter 19",
+    "url": null
+   },
+   {
+    "n": 244,
+    "texte": "HIP ATTACK Investigators Lancet (London, England) 2020",
+    "url": "https://doi.org/10.1016/S0140-6736(20)30058-1"
+   },
+   {
+    "n": 245,
+    "texte": "Bhandari M et al. The New England Journal of… 2017",
+    "url": "https://doi.org/10.1056/NEJMcp1611090"
+   },
+   {
+    "n": 246,
+    "texte": "Liu YT et al. JAMA 2025",
+    "url": "https://doi.org/10.1001/jama.2025.0999"
+   },
+   {
+    "n": 247,
+    "texte": "Dyer SM et al. BMC Geriatrics 2016",
+    "url": "https://doi.org/10.1186/s12877-016-0332-0"
+   }
+  ],
+  "planche": "h5.webp"
+ },
+ {
+  "no": "H6–7",
+  "page": 6,
+  "tags": "HANCHE · ADULTE JEUNE ACTIF · NE PAS TRAITER L'IMAGE",
+  "titre": "CONFLIT FÉMORO-ACÉTABULAIRE ET LÉSION DU LABRUM",
+  "epidemiologie": {
+   "texte": "came chez 23 % de la population asymptomatique et 55 % des athlètes ; lésion du labrum à l'imagerie chez 54 % des asymptomatiques.",
+   "refs": [
+    248,
+    249
+   ]
+  },
+  "presentation": {
+   "texte": "douleur de l'aine liée au mouvement ou à la position ; claquement, blocage.",
+   "refs": [
+    250
+   ]
+  },
+  "examen": {
+   "texte": "flexion-adduction-rotation interne : Se 94–99 %, Sp 5 % (dépistage seulement) ; rotation interne limitée Sp 94 %.",
+   "refs": [
+    251,
+    252
+   ]
+  },
+  "physiopathologie": {
+   "texte": "butée de la came ou de la pince en flexion-rotation interne, lésant labrum et cartilage.",
+   "refs": [
+    253
+   ]
+  },
+  "ddx": {
+   "texte": "douleurs des adducteurs, de l'ilio-psoas, du pubis ; dysplasie.",
+   "refs": [
+    253,
+    254
+   ]
+  },
+  "investigations": {
+   "texte": "bassin de face et profil ; IRM ou arthro-IRM ; triade symptômes, signes et imagerie (Warwick).",
+   "refs": [
+    255,
+    250
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie d'abord ; arthroscopie : +6,8 points iHOT-33 à 12 mois (UK FASHIoN), +10 points à 8 mois (FAIT).",
+   "refs": [
+    256,
+    253,
+    257
+   ]
+  },
+  "pronostic": {
+   "texte": "came : risque de coxarthrose RC 1,9–2,5.",
+   "refs": [
+    193,
+    258
+   ]
+  },
+  "refs": [
+   {
+    "n": 248,
+    "texte": "Frank JM et al. Arthroscopy 2015",
+    "url": "https://doi.org/10.1016/j.arthro.2014.11.042"
+   },
+   {
+    "n": 249,
+    "texte": "Heerey JJ et al. British Journal of Sports… 2018",
+    "url": "https://doi.org/10.1136/bjsports-2017-098264"
+   },
+   {
+    "n": 250,
+    "texte": "Pasculli RM et al. Current Reviews in… 2023",
+    "url": "https://doi.org/10.1007/s12178-023-09863-x"
+   },
+   {
+    "n": 251,
+    "texte": "Reiman MP et al. British Journal of Sports… 2015",
+    "url": "https://doi.org/10.1136/bjsports-2014-094302"
+   },
+   {
+    "n": 252,
+    "texte": "Pålsson A et al. Knee Surgery, Sports… 2020",
+    "url": "https://doi.org/10.1007/s00167-020-06005-5"
+   },
+   {
+    "n": 253,
+    "texte": "Nature Reviews Rheumatology 2026",
+    "url": "https://doi.org/10.1038/s41584-025-01328-4"
+   },
+   {
+    "n": 254,
+    "texte": "Mascarenhas VV et al. The American Journal of… 2018",
+    "url": "https://doi.org/10.1177/0363546518800825"
+   },
+   {
+    "n": 255,
+    "texte": "Griffin DR et al. British Journal of Sports… 2016",
+    "url": "https://doi.org/10.1136/bjsports-2016-096743"
+   },
+   {
+    "n": 256,
+    "texte": "Griffin DR et al. Lancet (London, England) 2018",
+    "url": "https://doi.org/10.1136/bjsports-2016-096743"
+   },
+   {
+    "n": 257,
+    "texte": "BMJ (Clinical Research Ed ) 2019",
+    "url": "https://doi.org/10.1136/bmj.l185"
+   },
+   {
+    "n": 193,
+    "texte": "Casartelli NC et al. Osteoarthritis and Cartilage 2021",
+    "url": "https://doi.org/10.1016/j.joca.2021.06.007"
+   },
+   {
+    "n": 258,
+    "texte": "Tang J et al. British Journal of Sports… 2026",
+    "url": "https://doi.org/10.1136/bjsports-2016-096743"
+   }
+  ],
+  "planche": "h6-7.webp"
+ },
+ {
+  "no": "H8",
+  "page": 7,
+  "tags": "HANCHE · ENFANT DE 3–8 ANS · EXCLURE L'INFECTION",
+  "titre": "SYNOVITE AIGUË TRANSITOIRE",
+  "epidemiologie": {
+   "texte": "garçons 2,8 pour 1 ; risque cumulé 3 % ; 80–85 % des boiteries non traumatiques.",
+   "refs": [
+    259,
+    260,
+    261
+   ]
+  },
+  "presentation": {
+   "texte": "boiterie après infection virale, fébricule, bilan presque normal.",
+   "refs": [
+    262
+   ]
+  },
+  "examen": {
+   "texte": "critères de Kocher (fièvre ≥ 38,5 °C, refus d'appui, VS ≥ 40, leucocytes > 12 000) : de 0 à 4 critères, < 0,2 %, 3 %, 40 %, 93 % et 99,6 % d'arthrite septique ; ni refus d'appui ni CRP > 20 mg/L : moins de 1 %.",
+   "refs": [
+    263,
+    264
+   ]
+  },
+  "physiopathologie": {
+   "texte": "réaction immune probable à une infection virale, avec épanchement.",
+   "refs": [
+    265
+   ]
+  },
+  "ddx": {
+   "texte": "arthrite septique, ostéomyélite, Perthes, épiphysiolyse, arthrite juvénile.",
+   "refs": [
+    266,
+    267
+   ]
+  },
+  "investigations": {
+   "texte": "échographie (épanchement, sans distinguer le pus) ; radiographies.",
+   "refs": [
+    180
+   ]
+  },
+  "traitement": {
+   "texte": "ibuprofène : 2 contre 4,5 jours de symptômes.",
+   "refs": [
+    268
+   ]
+  },
+  "pronostic": {
+   "texte": "résolution en 7–10 jours ; récidive jusqu'à 26 % ; Perthes rare ensuite.",
+   "refs": [
+    262,
+    266,
+    269
+   ]
+  },
+  "refs": [
+   {
+    "n": 259,
+    "texte": "QingSong T et al. BMC Infectious Diseases 2024",
+    "url": "https://doi.org/10.1186/s12879-024-10341-z"
+   },
+   {
+    "n": 260,
+    "texte": "Vijlbrief AS et al. The British Journal of… 1992",
+    "url": null
+   },
+   {
+    "n": 261,
+    "texte": "Morancie NA et al. American Family Physician 2023",
+    "url": null
+   },
+   {
+    "n": 262,
+    "texte": "Herman et al. Pediatrics in Review 2015",
+    "url": null
+   },
+   {
+    "n": 263,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 1999",
+    "url": "https://doi.org/10.2106/00004623-199912000-00002"
+   },
+   {
+    "n": 264,
+    "texte": "Woods CR et al. Journal of the Pediatric… 2024",
+    "url": "https://doi.org/10.1093/jpids/piad089"
+   },
+   {
+    "n": 265,
+    "texte": "Pargas-Colina CD The Orthopedic Clinics of… 2024",
+    "url": "https://doi.org/10.1016/j.ocl.2024.04.004"
+   },
+   {
+    "n": 266,
+    "texte": "Feng H et al. BMC Musculoskeletal Disorders 2026",
+    "url": "https://doi.org/10.1186/s12891-025-09474-2"
+   },
+   {
+    "n": 267,
+    "texte": "Wang Y et al. BMC Musculoskeletal Disorders 2025",
+    "url": "https://doi.org/10.1186/s12891-025-09211-9"
+   },
+   {
+    "n": 180,
+    "texte": "McLuckey MN et al. Pediatric Radiology 2026",
+    "url": "https://doi.org/10.1007/s00247-026-06564-8"
+   },
+   {
+    "n": 268,
+    "texte": "Kermond S et al. Annals of Emergency Medicine 2002",
+    "url": "https://doi.org/10.1067/mem.2002.126171"
+   },
+   {
+    "n": 269,
+    "texte": "Mukamel M et al. Clinical Pediatrics 1985",
+    "url": "https://doi.org/10.1177/000992288502401105"
+   }
+  ],
+  "planche": "h8.webp"
+ },
+ {
+  "no": "H9",
+  "page": 8,
+  "tags": "HANCHE · RESSAUT INTERNE OU EXTERNE · DANSEUR",
+  "titre": "ILIO-PSOAS / HANCHE À RESSAUT",
+  "epidemiologie": {
+   "texte": "ressaut indolore 5–10 % ; symptomatique jusqu'à 58 % des danseurs de ballet d'élite.",
+   "refs": [
+    270,
+    271
+   ]
+  },
+  "presentation": {
+   "texte": "ressaut antérieur (interne) ou latéral (externe, le plus fréquent).",
+   "refs": [
+    272
+   ]
+  },
+  "examen": {
+   "texte": "interne : ressaut de la flexion-abduction-rotation externe vers l'extension ; externe : test d'Ober ; performance non établie.",
+   "refs": [
+    273,
+    274
+   ]
+  },
+  "physiopathologie": {
+   "texte": "interne : le tendon du psoas claque quand l'iliaque médial se libère ; externe : bandelette ilio-tibiale sur le grand trochanter.",
+   "refs": [
+    275
+   ]
+  },
+  "ddx": {
+   "texte": "lésion du labrum, corps libre, grand trochanter.",
+   "refs": [
+    276,
+    277
+   ]
+  },
+  "investigations": {
+   "texte": "échographie dynamique.",
+   "refs": [
+    275
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie ≥ 3 mois (19/30 améliorés) ; infiltration de la bourse (29/40 soulagés) ; libération arthroscopique : récidive 5,1 % contre 21,7 % (ouverte).",
+   "refs": [
+    272,
+    274,
+    278
+   ]
+  },
+  "pronostic": {
+   "texte": "non documenté.",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 270,
+    "texte": "Sugrañes J et al. JBJS Reviews 2023",
+    "url": "https://doi.org/10.2106/JBJS.RVW.23.00005"
+   },
+   {
+    "n": 271,
+    "texte": "Chen KK et al. Current Reviews in… 2024",
+    "url": "https://doi.org/10.1007/s12178-024-09914-x"
+   },
+   {
+    "n": 272,
+    "texte": "Anderson SA et al. The American Journal of… 2008",
+    "url": "https://doi.org/10.1177/0363546508322130"
+   },
+   {
+    "n": 273,
+    "texte": "Gouveia K et al. The American Journal of… 2021",
+    "url": "https://doi.org/10.1177/0363546520922551"
+   },
+   {
+    "n": 274,
+    "texte": "Benzon HT et al. Regional Anesthesia and Pain… 2025",
+    "url": "https://doi.org/10.1136/rapm-2024-105656"
+   },
+   {
+    "n": 275,
+    "texte": "Caldwell AS et al. Pediatric Radiology 2023",
+    "url": "https://doi.org/10.1007/s00247-023-05700-y"
+   },
+   {
+    "n": 276,
+    "texte": "Flanum ME et al. The American Journal of… 2007",
+    "url": "https://doi.org/10.1177/0363546508322130"
+   },
+   {
+    "n": 277,
+    "texte": "Bateman EA et al. Muscle & Nerve 2025",
+    "url": "https://doi.org/10.1136/rapm-2024-105656"
+   },
+   {
+    "n": 278,
+    "texte": "Longstaffe R et al. Clinical Journal of Sport… 2021",
+    "url": "https://doi.org/10.1097/JSM.0000000000000784"
+   }
+  ],
+  "planche": "h9.webp"
+ },
+ {
+  "no": "H10",
+  "page": 9,
+  "tags": "FESSE · COMPRESSION SCIATIQUE NON DISCALE",
+  "titre": "SYNDROME DU PIRIFORME / FESSIER PROFOND",
+  "epidemiologie": {
+   "texte": "6–8 % des sciatiques.",
+   "refs": [
+    279
+   ]
+  },
+  "presentation": {
+   "texte": "douleur fessière après 30 minutes assis ; sensibilité de l'échancrure sciatique.",
+   "refs": [
+    280,
+    281
+   ]
+  },
+  "examen": {
+   "texte": "test actif du piriforme Se 78 %, Sp 80 % ; étirement assis Se 52 %, Sp 90 % ; les deux combinés Se 91 %, Sp 80 % ; Lasègue Se 15 %.",
+   "refs": [
+    282
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression du nerf sciatique dans l'espace fessier profond.",
+   "refs": [
+    281
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie lombaire, sacro-iliaque, coxarthrose, conflit ischio-fémoral, ischio-jambiers proximaux.",
+   "refs": [
+    230,
+    283
+   ]
+  },
+  "investigations": {
+   "texte": "IRM du rachis et du bassin pour exclure ; infiltration diagnostique.",
+   "refs": [
+    281,
+    284
+   ]
+  },
+  "traitement": {
+   "texte": "étirements, physiothérapie ; infiltration d'anesthésique et de corticoïde ; décompression endoscopique si réfractaire (83–93 %).",
+   "refs": [
+    285,
+    286
+   ]
+  },
+  "pronostic": {
+   "texte": "amélioration ≥ 50 % chez environ 79 % après infiltration et physiothérapie (série non contrôlée).",
+   "refs": [
+    287
+   ]
+  },
+  "refs": [
+   {
+    "n": 279,
+    "texte": "Kirschner JS et al. Muscle & Nerve 2009",
+    "url": "https://doi.org/10.1002/mus.21318"
+   },
+   {
+    "n": 280,
+    "texte": "Ropper AH et al. The New England Journal of… 2015",
+    "url": "https://doi.org/10.1056/NEJMra1410151"
+   },
+   {
+    "n": 281,
+    "texte": "Kizaki K et al. Knee Surgery, Sports… 2020",
+    "url": "https://doi.org/10.1007/s00167-020-05966-x"
+   },
+   {
+    "n": 282,
+    "texte": "Martin HD et al. Knee Surgery, Sports… 2014",
+    "url": "https://doi.org/10.1007/s00167-020-05966-x"
+   },
+   {
+    "n": 230,
+    "texte": "Park JW et al. The Bone & Joint Journal 2020",
+    "url": "https://doi.org/10.1302/0301-620X.102B5.BJJ-2019-1212.R1"
+   },
+   {
+    "n": 283,
+    "texte": "Zibis AH et al. European Spine Journal 2018",
+    "url": "https://doi.org/10.1007/s00586-018-5486-3"
+   },
+   {
+    "n": 284,
+    "texte": "Hernando MF et al. Skeletal Radiology 2015",
+    "url": "https://doi.org/10.1007/s00256-015-2124-6"
+   },
+   {
+    "n": 285,
+    "texte": "Hilal FM et al. Pain Physician 2022",
+    "url": null
+   },
+   {
+    "n": 286,
+    "texte": "Sun G et al. BMC Musculoskeletal Disorders 2023",
+    "url": "https://doi.org/10.1186/s12891-023-06863-3"
+   },
+   {
+    "n": 287,
+    "texte": "Fishman LM et al. Muscle & Nerve 2017",
+    "url": "https://doi.org/10.1002/mus.25504"
+   }
+  ],
+  "planche": "h10.webp"
+ },
+ {
+  "no": "H11",
+  "page": 10,
+  "tags": "CUISSE ANTÉRO-LATÉRALE · NERF CUTANÉ LATÉRAL · SENSITIF PUR",
+  "titre": "MÉRALGIE PARESTHÉSIQUE",
+  "epidemiologie": {
+   "texte": "4,3 par 10 000 p-a ; diabète (7 fois), obésité ; grossesse RC 12.",
+   "refs": [
+    288,
+    289
+   ]
+  },
+  "presentation": {
+   "texte": "douleur ou engourdissement antéro-latéral de la cuisse, sans atteinte motrice ni réflexe.",
+   "refs": [
+    290
+   ]
+  },
+  "examen": {
+   "texte": "test de compression pelvienne Se 95 %, Sp 93 % (une étude, n = 45).",
+   "refs": [
+    291
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression du nerf au ligament inguinal.",
+   "refs": [
+    292
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie L2–L3 ; cause iatrogène (chirurgie de hanche, décubitus ventral).",
+   "refs": [
+    291,
+    293
+   ]
+  },
+  "investigations": {
+   "texte": "clinique, avec ou sans bloc ; échographie (Se 87 %, Sp 90 %).",
+   "refs": [
+    294,
+    295
+   ]
+  },
+  "traitement": {
+   "texte": "vêtements amples, perte de poids ; infiltration non supérieure au salin ; chirurgie : décompression 88 %, neurectomie 94 %.",
+   "refs": [
+    296,
+    297
+   ]
+  },
+  "pronostic": {
+   "texte": "amélioration spontanée 69 % (étude de 1938) ; 91 % résolus sous traitement conservateur.",
+   "refs": [
+    296,
+    298
+   ]
+  },
+  "refs": [
+   {
+    "n": 288,
+    "texte": "van Slobbe AM et al. Journal of Neurology 2004",
+    "url": "https://doi.org/10.1007/s00415-004-0310-x"
+   },
+   {
+    "n": 289,
+    "texte": "Parisi TJ et al. Neurology 2011",
+    "url": "https://doi.org/10.1212/WNL.0b013e318233b356"
+   },
+   {
+    "n": 290,
+    "texte": "Finerty JT et al. Neurosurgical Review 2025",
+    "url": "https://doi.org/10.1007/s10143-025-03411-6"
+   },
+   {
+    "n": 291,
+    "texte": "Nouraei SA et al. Neurosurgery 2007",
+    "url": "https://doi.org/10.1227/01.NEU.0000255392.69914.F7"
+   },
+   {
+    "n": 292,
+    "texte": "Grossman MG et al. The Journal of the American… 2001",
+    "url": "https://doi.org/10.5435/00124635-200109000-00007"
+   },
+   {
+    "n": 293,
+    "texte": "Onat SS et al. Pain Physician 2016",
+    "url": null
+   },
+   {
+    "n": 294,
+    "texte": "Scholz C et al. Deutsches Arzteblatt… 2023",
+    "url": "https://doi.org/10.3238/arztebl.m2023.0170"
+   },
+   {
+    "n": 295,
+    "texte": "Ahmed MS et al. Pain and Therapy 2025",
+    "url": "https://doi.org/10.1007/s40122-024-00693-4"
+   },
+   {
+    "n": 296,
+    "texte": "Nofal Khalil et al. Cochrane Database of… 2012",
+    "url": "https://doi.org/10.1002/14651858.cd004159.pub3"
+   },
+   {
+    "n": 297,
+    "texte": "Kloosterziel ME et al. Muscle & Nerve 2020",
+    "url": "https://doi.org/10.1002/mus.26877"
+   },
+   {
+    "n": 298,
+    "texte": "Bromley K et al. BJA Education 2025",
+    "url": "https://doi.org/10.1016/j.bjae.2025.04.006"
+   }
+  ],
+  "planche": "h11.webp"
+ },
+ {
+  "no": "H12",
+  "page": 11,
+  "tags": "SYMPHYSE · STRESS OSSEUX · SPORTIF",
+  "titre": "OSTÉITE PUBIENNE",
+  "epidemiologie": {
+   "texte": "0,5–8 % des athlètes ; jusqu'à 18 % des footballeurs.",
+   "refs": [
+    271
+   ]
+  },
+  "presentation": {
+   "texte": "douleur de la symphyse et de l'os adjacent à l'effort.",
+   "refs": [
+    299
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité de la symphyse ; son absence est le meilleur signe d'exclusion.",
+   "refs": [
+    300
+   ]
+  },
+  "physiopathologie": {
+   "texte": "réaction de stress osseux par surcharge de la symphyse.",
+   "refs": [
+    299
+   ]
+  },
+  "ddx": {
+   "texte": "hernie, élongation des adducteurs, fracture de fatigue, spondylarthrite, ostéomyélite (fièvre 74 %, délai de 29 jours).",
+   "refs": [
+    301,
+    302
+   ]
+  },
+  "investigations": {
+   "texte": "IRM seulement sans amélioration ; œdème pubien chez 48 % des athlètes asymptomatiques.",
+   "refs": [
+    303
+   ]
+  },
+  "traitement": {
+   "texte": "réadaptation active : 42 athlètes sur 44 de retour en 4 mois.",
+   "refs": [
+    304
+   ]
+  },
+  "pronostic": {
+   "texte": "retour à 3, 7 et 10 semaines selon le stade ; récidive jusqu'à 25 %.",
+   "refs": [
+    305,
+    271
+   ]
+  },
+  "refs": [
+   {
+    "n": 271,
+    "texte": "Chen KK et al. Current Reviews in… 2024",
+    "url": "https://doi.org/10.1007/s12178-024-09914-x"
+   },
+   {
+    "n": 299,
+    "texte": "Z ) 2011",
+    "url": "https://doi.org/10.2165/11586820-000000000-00000"
+   },
+   {
+    "n": 300,
+    "texte": "González-de-la-Flor Á Pain and Therapy 2024",
+    "url": "https://doi.org/10.1007/s40122-024-00604-7"
+   },
+   {
+    "n": 301,
+    "texte": "Hechtman KS et al. Sports Health 2010",
+    "url": "https://doi.org/10.1177/1941738110366203"
+   },
+   {
+    "n": 302,
+    "texte": "Septic Arthritis of Axial Joints Werner Zimmerli Chapter 10",
+    "url": null
+   },
+   {
+    "n": 303,
+    "texte": "Paajanen H et al. Skeletal Radiology 2011",
+    "url": "https://doi.org/10.1007/s00256-010-0980-7"
+   },
+   {
+    "n": 304,
+    "texte": "Schöberl M et al. Knee Surgery, Sports… 2017",
+    "url": "https://doi.org/10.1007/s00167-017-4423-z"
+   },
+   {
+    "n": 305,
+    "texte": "Henning PT Sports Health 2014",
+    "url": "https://doi.org/10.1177/1941738114523381"
+   }
+  ],
+  "planche": "h12.webp"
+ },
+ {
+  "no": "H13",
+  "page": 12,
+  "tags": "CANAL INGUINAL · SPORTIF · SANS HERNIE PALPABLE",
+  "titre": "PUBALGIE PARIÉTALE",
+  "epidemiologie": {
+   "texte": "fréquence non retrouvée.",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "douleur du canal inguinal, pire aux abdominaux résistés, à la toux, au Valsalva.",
+   "refs": [
+    213
+   ]
+  },
+  "examen": {
+   "texte": "redressement assis résisté ; redressement croisé Se 100 %.",
+   "refs": [
+    306,
+    307
+   ]
+  },
+  "physiopathologie": {
+   "texte": "déficience de la paroi postérieure du canal ou lésion de l'aponévrose commune droit de l'abdomen–adducteurs.",
+   "refs": [
+    308,
+    309
+   ]
+  },
+  "ddx": {
+   "texte": "tendinopathie des adducteurs, ostéite pubienne, hanche, hernie vraie, compression nerveuse.",
+   "refs": [
+    310,
+    311
+   ]
+  },
+  "investigations": {
+   "texte": "échographie dynamique (opérateur-dépendante) ; IRM dédiée Se 68 %, Sp 100 %.",
+   "refs": [
+    306,
+    310
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie ; réparation laparoscopique : retour à 3 mois 90 % contre 27 %.",
+   "refs": [
+    308
+   ]
+  },
+  "pronostic": {
+   "texte": "retour environ 4 semaines après chirurgie.",
+   "refs": [
+    311
+   ]
+  },
+  "refs": [
+   {
+    "n": 213,
+    "texte": "Serner A et al. Scientific Reports 2022",
+    "url": "https://doi.org/10.1038/s41598-022-13847-1"
+   },
+   {
+    "n": 306,
+    "texte": "Mlynarek RA et al. Current Reviews in… 2018",
+    "url": "https://doi.org/10.1007/s12178-018-9455-6"
+   },
+   {
+    "n": 307,
+    "texte": "Kurowicki J et al. The American Journal of… 2020",
+    "url": "https://doi.org/10.1177/0363546520926029"
+   },
+   {
+    "n": 308,
+    "texte": "Paajanen H et al. Surgery 2011",
+    "url": "https://doi.org/10.1016/j.surg.2011.02.016"
+   },
+   {
+    "n": 309,
+    "texte": "Rotman JA et al. Abdominal Radiology (New York) 2020",
+    "url": "https://doi.org/10.1007/s00261-019-02353-0"
+   },
+   {
+    "n": 310,
+    "texte": "Sheen AJ et al. Hernia 2026",
+    "url": "https://doi.org/10.1007/s10029-026-03680-0"
+   },
+   {
+    "n": 311,
+    "texte": "Forlizzi JM et al. The American Journal of… 2023",
+    "url": "https://doi.org/10.1177/0363546520926029"
+   }
+  ],
+  "planche": "h13.webp"
+ },
+ {
+  "no": "H14",
+  "page": 13,
+  "tags": "BASSIN · ADOLESCENT · SPRINT OU TIR",
+  "titre": "AVULSION APOPHYSAIRE DU BASSIN",
+  "epidemiologie": {
+   "texte": "garçons (76–79 %), 14–15 ans ; épine iliaque antéro- inférieure 33 %, antéro-supérieure 28–31 %, ischion 19– 30 %.",
+   "refs": [
+    312,
+    313,
+    314
+   ]
+  },
+  "presentation": {
+   "texte": "douleur brutale au sprint ou au tir.",
+   "refs": [
+    313,
+    314
+   ]
+  },
+  "examen": {
+   "texte": "aucun test validé.",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "contraction brutale sur une apophyse cartilagineuse plus faible que le tendon.",
+   "refs": [
+    315,
+    312
+   ]
+  },
+  "ddx": {
+   "texte": "élongation, apophysite ; cal exubérant simulant une tumeur.",
+   "refs": [
+    229
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies ; IRM ou échographie si apophyse non ossifiée.",
+   "refs": [
+    315
+   ]
+  },
+  "traitement": {
+   "texte": "conservateur dans 97 % ; déplacement > 15 mm : excellent résultat 84 % (chirurgie) contre 50 % ; aucun seuil validé.",
+   "refs": [
+    316,
+    314,
+    312
+   ]
+  },
+  "pronostic": {
+   "texte": "retour au sport en 3,1 mois ; pseudarthrose surtout ischiatique.",
+   "refs": [
+    316,
+    314
+   ]
+  },
+  "refs": [
+   {
+    "n": 312,
+    "texte": "Eberbach H et al. BMC Musculoskeletal Disorders 2017",
+    "url": "https://doi.org/10.1186/s12891-017-1527-z"
+   },
+   {
+    "n": 313,
+    "texte": "Ferraro SL et al. Journal of Pediatric Orthopedics 2023",
+    "url": "https://doi.org/10.1097/BPO.0000000000002355"
+   },
+   {
+    "n": 314,
+    "texte": "Schuett DJ et al. Journal of Pediatric Orthopedics 2015",
+    "url": "https://doi.org/10.1097/BPO.0000000000000328"
+   },
+   {
+    "n": 315,
+    "texte": "Cerezal A et al. Pediatric Radiology 2025",
+    "url": "https://doi.org/10.1007/s00247-024-05991-9"
+   },
+   {
+    "n": 229,
+    "texte": "Schiller J et al. The Journal of the American… 2017",
+    "url": "https://doi.org/10.5435/JAAOS-D-15-00328"
+   },
+   {
+    "n": 316,
+    "texte": "Molina LL et al. Journal of Pediatric Orthopedics 2026",
+    "url": "https://doi.org/10.1097/BPO.0000000000003305"
+   }
+  ],
+  "planche": "h14.webp"
+ },
+ {
+  "no": "H15",
+  "page": 14,
+  "tags": "ISCHION · COUREUR · DOULEUR ASSISE",
+  "titre": "TENDINOPATHIE PROXIMALE DES ISCHIO-JAMBIERS",
+  "epidemiologie": {
+   "texte": "coureurs, sports de fentes et de tirs ; incidence non retrouvée.",
+   "refs": [
+    317,
+    318
+   ]
+  },
+  "presentation": {
+   "texte": "douleur fessière basse, pire assis, à la course et en fente.",
+   "refs": [
+    318,
+    319
+   ]
+  },
+  "examen": {
+   "texte": "tests de Puranen-Orava et du genou fléchi : fiabilité 0,82– 0,88 ; force presque normale.",
+   "refs": [
+    320,
+    321
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression à l'ischion (flexion profonde, position assise) et surcharge en traction.",
+   "refs": [
+    318
+   ]
+  },
+  "ddx": {
+   "texte": "bursite ischiatique, piriforme, radiculopathie, fracture de fatigue, avulsion de l'adolescent.",
+   "refs": [
+    322
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; IRM si doute.",
+   "refs": [
+    317,
+    323
+   ]
+  },
+  "traitement": {
+   "texte": "mise en charge progressive ; ondes de choc : 16/20 de retour contre 0/20 (2011), mais égales à la physiothérapie à 52 semaines (2025, n = 100) ; infiltration : moins de 38 % soulagés à 6 mois.",
+   "refs": [
+    319,
+    318,
+    321,
+    324
+   ]
+  },
+  "pronostic": {
+   "texte": "jusqu'à 20 % symptomatiques après 6 mois.",
+   "refs": [
+    317
+   ]
+  },
+  "refs": [
+   {
+    "n": 317,
+    "texte": "Lefèvre N et al. The American Journal of… 2026",
+    "url": "https://doi.org/10.1177/03635465261453077"
+   },
+   {
+    "n": 318,
+    "texte": "Rich A et al. The American Journal of… 2025",
+    "url": "https://doi.org/10.1177/03635465251391134"
+   },
+   {
+    "n": 319,
+    "texte": "Cacchio A et al. The American Journal of… 2011",
+    "url": "https://doi.org/10.1177/0363546510379324"
+   },
+   {
+    "n": 320,
+    "texte": "Cacchio A et al. British Journal of Sports… 2012",
+    "url": "https://doi.org/10.1177/0363546510379324"
+   },
+   {
+    "n": 321,
+    "texte": "Degen RM Current Reviews in… 2019",
+    "url": "https://doi.org/10.1007/s12178-019-09541-x"
+   },
+   {
+    "n": 322,
+    "texte": "Ahmad CS et al. The American Journal of… 2013",
+    "url": "https://doi.org/10.1177/0363546510379324"
+   },
+   {
+    "n": 323,
+    "texte": "Sherry M Sports Health 2012",
+    "url": "https://doi.org/10.1177/1941738111430197"
+   },
+   {
+    "n": 324,
+    "texte": "Nature Reviews Disease Primers 2021",
+    "url": "https://doi.org/10.1038/s41572-020-00234-1"
+   }
+  ],
+  "planche": "h15.webp"
+ },
+ {
+  "no": "H16",
+  "page": 15,
+  "tags": "HANCHE · NOURRISSON · DÉPISTAGE CLINIQUE",
+  "titre": "DYSPLASIE DÉVELOPPEMENTALE DE LA HANCHE",
+  "epidemiologie": {
+   "texte": "instabilité clinique chez 1–2 % des nouveau-nés ; fille RC 7,0, siège 4,1, histoire familiale 4,1, emmaillotement 6,7.",
+   "refs": [
+    325,
+    326
+   ]
+  },
+  "presentation": {
+   "texte": "silencieuse la première année ; puis abduction limitée, inégalité, boiterie.",
+   "refs": [
+    325,
+    327
+   ]
+  },
+  "examen": {
+   "texte": "Barlow et Ortolani : Se 46 %, Sp 99 %, RV+ 52 ; abduction limitée Se 13 %, Sp 97 % ; clic isolé non significatif.",
+   "refs": [
+    328
+   ]
+  },
+  "physiopathologie": {
+   "texte": "laxité capsulaire et contrainte intra-utérine ; la tête instable ne modèle pas l'acétabulum.",
+   "refs": [
+    329,
+    325
+   ]
+  },
+  "ddx": {
+   "texte": "clic bénin, luxation tératologique, arthrite septique du nourrisson.",
+   "refs": [
+    328,
+    330
+   ]
+  },
+  "investigations": {
+   "texte": "AAP : échographie de 6 semaines à 4–6 mois, radiographie après 4 mois ; Groupe d'étude canadien : examens sériés, sans dépistage par imagerie.",
+   "refs": [
+    331,
+    325
+   ]
+  },
+  "traitement": {
+   "texte": "harnais de Pavlik : environ 90 % de succès avant 3 mois ; ostéonécrose ≈ 1 %.",
+   "refs": [
+    328,
+    332
+   ]
+  },
+  "pronostic": {
+   "texte": "60–80 % des anomalies cliniques néonatales se résolvent ; première cause de coxarthrose de la femme de moins de 40 ans.",
+   "refs": [
+    325
+   ]
+  },
+  "refs": [
+   {
+    "n": 325,
+    "texte": "Shaw BA et al. Pediatrics 2016",
+    "url": "https://doi.org/10.1542/peds.2016-3107"
+   },
+   {
+    "n": 326,
+    "texte": "Chen X et al. Orthopaedics & Traumatology,… 2024",
+    "url": "https://doi.org/10.1016/j.otsr.2024.103836"
+   },
+   {
+    "n": 327,
+    "texte": "Yang S et al. Pediatrics 2019",
+    "url": "https://doi.org/10.1542/peds.2018-1147"
+   },
+   {
+    "n": 328,
+    "texte": "Singh A et al. JAMA 2024",
+    "url": "https://doi.org/10.1001/jama.2024.2404"
+   },
+   {
+    "n": 329,
+    "texte": "Expert Panel on Pediatric Imaging: et al. Journal of the American… 2019",
+    "url": "https://doi.org/10.1016/j.jacr.2019.02.014"
+   },
+   {
+    "n": 330,
+    "texte": "Lin K et al. BMC Musculoskeletal Disorders 2025",
+    "url": "https://doi.org/10.1186/s12891-025-09159-w"
+   },
+   {
+    "n": 331,
+    "texte": "Patel H CMAJ 2001",
+    "url": null
+   },
+   {
+    "n": 332,
+    "texte": "Kerry Dwan et al. Cochrane Database of… 2022",
+    "url": "https://doi.org/10.1002/14651858.cd012717.pub2"
+   }
+  ],
+  "planche": "h16.webp"
+ },
+ {
+  "no": "H17",
+  "page": 16,
+  "tags": "HANCHE · ADOLESCENT OBÈSE · URGENCE ORTHOPÉDIQUE",
+  "titre": "ÉPIPHYSIOLYSE FÉMORALE SUPÉRIEURE",
+  "epidemiologie": {
+   "texte": "environ 10,8 par 100 000 ; 8–16 ans ; obésité sévère (risque × 5,9 à 17) ; atteinte controlatérale 15–21 %.",
+   "refs": [
+    333,
+    334,
+    335,
+    336
+   ]
+  },
+  "presentation": {
+   "texte": "douleur de hanche, d'aine, de cuisse ou de genou avec boiterie ; genou comme motif dans 23 % (délai de 15 contre 6 semaines).",
+   "refs": [
+    337,
+    333
+   ]
+  },
+  "examen": {
+   "texte": "rotation interne limitée ; rotation externe obligatoire en flexion, non spécifique ; stable = appui possible.",
+   "refs": [
+    338,
+    339,
+    333
+   ]
+  },
+  "physiopathologie": {
+   "texte": "cisaillement sur une physe fragilisée pendant la poussée de croissance.",
+   "refs": [
+    340,
+    334
+   ]
+  },
+  "ddx": {
+   "texte": "Perthes, arthrite septique, fracture de fatigue du col, pathologie du genou.",
+   "refs": [
+    333
+   ]
+  },
+  "investigations": {
+   "texte": "bassin de face et grenouille des deux hanches ; ligne de Klein Se 39–40 %, modifiée 79–87 % ; signe du S Se 89 %, Sp 95 %.",
+   "refs": [
+    341,
+    342,
+    343,
+    344
+   ]
+  },
+  "traitement": {
+   "texte": "décharge et référence urgente ; vissage in situ ; forme instable en 24 heures (ostéonécrose 7 % contre 20 %).",
+   "refs": [
+    333
+   ]
+  },
+  "pronostic": {
+   "texte": "ostéonécrose 0–3 % (stable), environ 24 % (instable) ; 88 % des glissements controlatéraux en 18 mois.",
+   "refs": [
+    333,
+    345
+   ]
+  },
+  "refs": [
+   {
+    "n": 333,
+    "texte": "Webb CW et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 334,
+    "texte": "Perry DC et al. Pediatrics 2018",
+    "url": "https://doi.org/10.1542/peds.2018-1067"
+   },
+   {
+    "n": 335,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2024",
+    "url": "https://doi.org/10.2106/JBJS.23.00779"
+   },
+   {
+    "n": 336,
+    "texte": "Herngren B et al. BMC Musculoskeletal Disorders 2017",
+    "url": "https://doi.org/10.1186/s12891-017-1665-3"
+   },
+   {
+    "n": 337,
+    "texte": "Kocher MS et al. Pediatrics 2004",
+    "url": "https://doi.org/10.1542/peds.113.4.e322"
+   },
+   {
+    "n": 338,
+    "texte": "Hampl SE et al. Pediatrics 2023",
+    "url": "https://doi.org/10.1542/peds.2022-060640"
+   },
+   {
+    "n": 339,
+    "texte": "Karkenny AJ et al. Pediatrics in Review 2018",
+    "url": "https://doi.org/10.1542/pir.2017-0197"
+   },
+   {
+    "n": 340,
+    "texte": "Sattar JM Alshryda et al. Cochrane Database of… 2013",
+    "url": "https://doi.org/10.1002/14651858.cd010397"
+   },
+   {
+    "n": 341,
+    "texte": "Common Childhood Orthopaedic Conditions et al. Julia Judd Chapter 23",
+    "url": null
+   },
+   {
+    "n": 342,
+    "texte": "Pinkowsky GJ et al. The Journal of Pediatrics 2013",
+    "url": "https://doi.org/10.2106/JBJS.23.00779"
+   },
+   {
+    "n": 343,
+    "texte": "Green DW et al. Journal of Pediatric Orthopedics 2009",
+    "url": "https://doi.org/10.1016/j.jpeds.2012.10.007"
+   },
+   {
+    "n": 344,
+    "texte": "Rebich EJ et al. The Journal of Emergency… 2018",
+    "url": "https://doi.org/10.2106/JBJS.23.00779"
+   },
+   {
+    "n": 345,
+    "texte": "Longo UG et al. BMC Musculoskeletal Disorders 2021",
+    "url": "https://doi.org/10.1186/s12891-021-04435-x"
+   }
+  ],
+  "planche": "h17.webp"
+ },
+ {
+  "no": "H18",
+  "page": 17,
+  "tags": "TÊTE FÉMORALE · ENFANT DE 4–8 ANS · NÉCROSE IDIOPATHIQUE",
+  "titre": "MALADIE DE LEGG-CALVÉ-PERTHES",
+  "epidemiologie": {
+   "texte": "5–10 par 100 000 ; garçons 3–5 pour 1 ; bilatérale 10–24 %.",
+   "refs": [
+    346,
+    339
+   ]
+  },
+  "presentation": {
+   "texte": "boiterie sur des semaines, avec ou sans douleur, parfois au genou.",
+   "refs": [
+    339
+   ]
+  },
+  "examen": {
+   "texte": "abduction et rotation interne limitées ; amyotrophie de la cuisse.",
+   "refs": [
+    339
+   ]
+  },
+  "physiopathologie": {
+   "texte": "interruption idiopathique de la vascularisation de l'épiphyse ; nécrose, revascularisation, réossification.",
+   "refs": [
+    347
+   ]
+  },
+  "ddx": {
+   "texte": "synovite transitoire, arthrite septique, épiphysiolyse, ostéonécrose secondaire, dysplasie squelettique.",
+   "refs": [
+    262,
+    339
+   ]
+  },
+  "investigations": {
+   "texte": "bassin de face et grenouille ; IRM précoce.",
+   "refs": [
+    339
+   ]
+  },
+  "traitement": {
+   "texte": "avant 8 ans : symptomatique, amplitude, limiter l'impact ; après 8 ans avec pilier latéral B : ostéotomie supérieure.",
+   "refs": [
+    348,
+    339
+   ]
+  },
+  "pronostic": {
+   "texte": "début avant 6 ans : 80 % de bons résultats ; prothèse chez 19 % à 48 ans.",
+   "refs": [
+    349,
+    350
+   ]
+  },
+  "refs": [
+   {
+    "n": 346,
+    "texte": "Braun S et al. Archives of Orthopaedic and… 2025",
+    "url": "https://doi.org/10.1007/s00402-025-05801-3"
+   },
+   {
+    "n": 339,
+    "texte": "Karkenny AJ et al. Pediatrics in Review 2018",
+    "url": "https://doi.org/10.1542/pir.2017-0197"
+   },
+   {
+    "n": 347,
+    "texte": "Gilbert SR et al. The Journal of the American… 2025",
+    "url": "https://doi.org/10.5435/JAAOS-D-24-01469"
+   },
+   {
+    "n": 262,
+    "texte": "Herman et al. Pediatrics in Review 2015",
+    "url": null
+   },
+   {
+    "n": 348,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2004",
+    "url": "https://doi.org/10.5435/JAAOS-D-24-01469"
+   },
+   {
+    "n": 349,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2007",
+    "url": "https://doi.org/10.5435/JAAOS-D-24-01469"
+   },
+   {
+    "n": 350,
+    "texte": "Wensaas A et al. The Bone & Joint Journal 2025",
+    "url": "https://doi.org/10.1302/0301-620X.107B6.BJJ-2024-1310.R1"
+   }
+  ],
+  "planche": "h18.webp"
+ },
+ {
+  "no": "H19",
+  "page": 18,
+  "tags": "COL FÉMORAL · COUREUSE · SITE À HAUT RISQUE",
+  "titre": "FRACTURE DE FATIGUE DU COL FÉMORAL",
+  "epidemiologie": {
+   "texte": "moins de 5 % des fractures de fatigue ; 85 % de femmes et 96 % de coureurs dans une série civile.",
+   "refs": [
+    351
+   ]
+  },
+  "presentation": {
+   "texte": "douleur insidieuse de l'aine à l'effort ; manquée 3 fois sur 4 à la première évaluation.",
+   "refs": [
+    352
+   ]
+  },
+  "examen": {
+   "texte": "douleur en rotation interne ou en flexion ; saut unipodal (performance non établie à la hanche).",
+   "refs": [
+    352,
+    277
+   ]
+  },
+  "physiopathologie": {
+   "texte": "charge répétée dépassant le remodelage ; cortex supéro- latéral en tension, inféro-médial en compression.",
+   "refs": [
+    351
+   ]
+  },
+  "ddx": {
+   "texte": "conflit, lésion du labrum, élongation des adducteurs, fracture de la branche pubienne.",
+   "refs": [
+    277,
+    353
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies souvent normales ; IRM ; rechercher un déficit énergétique.",
+   "refs": [
+    352,
+    354
+   ]
+  },
+  "traitement": {
+   "texte": "décharge en attendant l'imagerie ; compression < 50 % : non chirurgical ; tension ou ≥ 50 % : vissage.",
+   "refs": [
+    355,
+    236,
+    352
+   ]
+  },
+  "pronostic": {
+   "texte": "déplacement : complications jusqu'à 50 %, ostéonécrose ≈ 30 %.",
+   "refs": [
+    356,
+    357
+   ]
+  },
+  "refs": [
+   {
+    "n": 351,
+    "texte": "Ramey LN et al. The American Journal of… 2016",
+    "url": "https://doi.org/10.1177/0363546516648319"
+   },
+   {
+    "n": 352,
+    "texte": "Provencher MT et al. The American Journal of… 2004",
+    "url": "https://doi.org/10.1177/0363546503262195"
+   },
+   {
+    "n": 277,
+    "texte": "Bateman EA et al. Muscle & Nerve 2025",
+    "url": "https://doi.org/10.1002/mus.28106"
+   },
+   {
+    "n": 353,
+    "texte": "Nature Reviews Disease Primers 2022",
+    "url": "https://doi.org/10.1038/s41572-022-00352-y"
+   },
+   {
+    "n": 354,
+    "texte": "Z ) 2023",
+    "url": "https://doi.org/10.1007/s40279-022-01802-z"
+   },
+   {
+    "n": 355,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2022",
+    "url": "https://doi.org/10.2106/JBJS.21.00896"
+   },
+   {
+    "n": 236,
+    "texte": "Schroeder JD et al. American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 356,
+    "texte": "Anderson K et al. The American Journal of… 2001",
+    "url": "https://doi.org/10.1177/03635465010290042501"
+   },
+   {
+    "n": 357,
+    "texte": "Diwanji SR et al. The American Journal of… 2007",
+    "url": "https://doi.org/10.1177/03635465010290042501"
+   }
+  ],
+  "planche": "h19.webp"
+ },
+ {
+  "no": "H20",
+  "page": 19,
+  "tags": "TÊTE FÉMORALE · ADULTE DE 20–50 ANS · CORTICOÏDES, ALCOOL",
+  "titre": "OSTÉONÉCROSE DE LA TÊTE FÉMORALE",
+  "epidemiologie": {
+   "texte": "8–12 % des arthroplasties ; corticoïdes > 20 mg/j en moyenne ; alcool > 400 mL par semaine (RR 9,8) ; bilatérale dans 59 % ou plus.",
+   "refs": [
+    358,
+    359,
+    360,
+    361
+   ]
+  },
+  "presentation": {
+   "texte": "silencieuse au début ; douleur de l'aine quand l'effondrement commence.",
+   "refs": [
+    359
+   ]
+  },
+  "examen": {
+   "texte": "aucun signe validé.",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "ischémie, mort des ostéocytes, fracture sous-chondrale, puis effondrement.",
+   "refs": [
+    362
+   ]
+  },
+  "ddx": {
+   "texte": "ostéoporose transitoire, fracture sous-chondrale d'insuffisance, coxarthrose, douleur lombaire projetée.",
+   "refs": [
+    363,
+    364
+   ]
+  },
+  "investigations": {
+   "texte": "IRM des deux hanches (Se 93 %, Sp 91 %).",
+   "refs": [
+    363
+   ]
+  },
+  "traitement": {
+   "texte": "avant l'effondrement : forage (succès ≈ 78 % au stade I, 60 % au II) ; zolédronate sans effet ; après : arthroplastie.",
+   "refs": [
+    365,
+    366
+   ]
+  },
+  "pronostic": {
+   "texte": "59 % des hanches asymptomatiques progressent ; 85 % des symptomatiques s'effondrent.",
+   "refs": [
+    360,
+    367
+   ]
+  },
+  "refs": [
+   {
+    "n": 358,
+    "texte": "Shah KN et al. Current Reviews in… 2015",
+    "url": "https://doi.org/10.1007/s12178-015-9277-8"
+   },
+   {
+    "n": 359,
+    "texte": "Vezirhüyük M et al. BMC Musculoskeletal Disorders 2025",
+    "url": "https://doi.org/10.1186/s12891-025-08398-1"
+   },
+   {
+    "n": 360,
+    "texte": "Nazal MR et al. BMC Musculoskeletal Disorders 2019",
+    "url": "https://doi.org/10.1186/s12891-019-2853-0"
+   },
+   {
+    "n": 361,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 1999",
+    "url": "https://doi.org/10.2106/00004623-199902000-00007"
+   },
+   {
+    "n": 362,
+    "texte": "Kizilkaya V et al. BMC Musculoskeletal Disorders 2026",
+    "url": "https://doi.org/10.1186/s12891-019-2853-0"
+   },
+   {
+    "n": 363,
+    "texte": "Ha AS et al. Journal of the American… 2022",
+    "url": "https://doi.org/10.1016/j.jacr.2022.09.009"
+   },
+   {
+    "n": 364,
+    "texte": "European Spine Journal : Official Publication of the European Spine Society et al. 2026; 1007/s00586-026-10287-7",
+    "url": "https://doi.org/10.1007/s00586-026-10287-7"
+   },
+   {
+    "n": 365,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2015",
+    "url": "https://doi.org/10.2106/00004623-199902000-00007"
+   },
+   {
+    "n": 366,
+    "texte": "Dubé MD et al. Archives of Orthopaedic and… 2024",
+    "url": "https://doi.org/10.1007/s00402-024-05732-5"
+   },
+   {
+    "n": 367,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2010",
+    "url": "https://doi.org/10.2106/00004623-199902000-00007"
+   }
+  ],
+  "planche": "h20.webp"
+ },
+ {
+  "no": "H21",
+  "page": 20,
+  "tags": "HANCHE · ENFANT DE MOINS DE 4 ANS · URGENCE",
+  "titre": "ARTHRITE SEPTIQUE DE LA HANCHE (ENFANT)",
+  "epidemiologie": {
+   "texte": "4–5 par 100 000 enfants par an ; Kingella kingae avant 4 ans, S. aureus après.",
+   "refs": [
+    368,
+    369,
+    370
+   ]
+  },
+  "presentation": {
+   "texte": "fièvre, refus d'appui, hanche en flexion-abduction- rotation externe ; tableau atténué avec Kingella.",
+   "refs": [
+    261,
+    371
+   ]
+  },
+  "examen": {
+   "texte": "Kocher modifié (5 critères avec CRP > 20 mg/L) : de 16,9 % à 97,5 % ; validation externe décevante (59 % pour 4 critères sur 4).",
+   "refs": [
+    372,
+    180
+   ]
+  },
+  "physiopathologie": {
+   "texte": "ensemencement hématogène ; l'hyperpression menace la vascularisation de la tête.",
+   "refs": [
+    373
+   ]
+  },
+  "ddx": {
+   "texte": "synovite transitoire, ostéomyélite, abcès du psoas, arthrite juvénile, Lyme.",
+   "refs": [
+    261,
+    374
+   ]
+  },
+  "investigations": {
+   "texte": "hémocultures ; CRP > 20 mg/L (Se 86 %, Sp 92 %) ; échographie Se 81 % ; ponction avec PCR Kingella ; IRM (ostéomyélite adjacente 43–68 %).",
+   "refs": [
+    264,
+    368,
+    375,
+    376,
+    377
+   ]
+  },
+  "traitement": {
+   "texte": "drainage et céfazoline ; 10 jours d'antibiotiques aussi efficaces que 30.",
+   "refs": [
+    368,
+    378
+   ]
+  },
+  "pronostic": {
+   "texte": "délai de plus de 4 jours : complications 50 % contre 3 %.",
+   "refs": [
+    379
+   ]
+  },
+  "refs": [
+   {
+    "n": 368,
+    "texte": "Jobi-Odeneye AO American Family Physician 2024",
+    "url": null
+   },
+   {
+    "n": 369,
+    "texte": "Thomas M et al. Scientific Reports 2021",
+    "url": "https://doi.org/10.1038/s41598-021-82553-1"
+   },
+   {
+    "n": 370,
+    "texte": "The Journal of Pediatrics 2018;194 e1",
+    "url": "https://doi.org/10.1016/j.jpeds.2017.11.025"
+   },
+   {
+    "n": 261,
+    "texte": "Morancie NA et al. American Family Physician 2023",
+    "url": null
+   },
+   {
+    "n": 371,
+    "texte": "Yagupsky P Journal of Paediatrics and… 2021",
+    "url": "https://doi.org/10.1111/jpc.15654"
+   },
+   {
+    "n": 372,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2004",
+    "url": "https://doi.org/10.1016/j.jpeds.2017.11.025"
+   },
+   {
+    "n": 180,
+    "texte": "McLuckey MN et al. Pediatric Radiology 2026",
+    "url": "https://doi.org/10.1007/s00247-026-06564-8"
+   },
+   {
+    "n": 373,
+    "texte": "Native Joint Arthritis in Children Pablo Yagupsky Chapter 8",
+    "url": null
+   },
+   {
+    "n": 374,
+    "texte": "Marin JR et al. Pediatrics 2024",
+    "url": "https://doi.org/10.1542/peds.2024-066855"
+   },
+   {
+    "n": 264,
+    "texte": "Woods CR et al. Journal of the Pediatric… 2024",
+    "url": "https://doi.org/10.1093/jpids/piad089"
+   },
+   {
+    "n": 375,
+    "texte": "Oyeniran SJ et al. Journal of Clinical Microbiology 2025",
+    "url": "https://doi.org/10.1128/jcm.00986-25"
+   },
+   {
+    "n": 376,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2026",
+    "url": "https://doi.org/10.1016/j.jpeds.2017.11.025"
+   },
+   {
+    "n": 377,
+    "texte": "AJR American Journal of… 2015",
+    "url": "https://doi.org/10.2214/AJR.14.12891"
+   },
+   {
+    "n": 378,
+    "texte": "Peltola H et al. Clinical Infectious Diseases 2009",
+    "url": "https://doi.org/10.1086/597582"
+   },
+   {
+    "n": 379,
+    "texte": "Nielsen E et al. Journal of Pediatric Orthopedics 2024",
+    "url": "https://doi.org/10.1097/BPO.0000000000002791"
+   }
+  ],
+  "planche": "h21.webp"
+ },
+ {
+  "no": "H22",
+  "page": 21,
+  "tags": "BASSIN · TRACTION APOPHYSAIRE · ADOLESCENT COUREUR",
+  "titre": "APOPHYSITE DE LA CRÊTE ILIAQUE",
+  "renvoi": {
+   "texte": "Voir la fiche L23.",
+   "refs": []
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [],
+  "planche": "h22.webp"
+ },
+ {
+  "no": "H23",
+  "page": 22,
+  "tags": "QUADRICEPS, CRÊTE ILIAQUE · SPORT DE CONTACT",
+  "titre": "CONTUSION DE LA CUISSE OU DE LA CRÊTE ILIAQUE",
+  "epidemiologie": {
+   "texte": "sports de contact ; incidence non retrouvée.",
+   "refs": [
+    380
+   ]
+  },
+  "presentation": {
+   "texte": "coup direct, masse sensible, flexion du genou limitée.",
+   "refs": [
+    381
+   ]
+  },
+  "examen": {
+   "texte": "flexion du genou à 12–24 heures : > 90° légère, 45–90° modérée, < 45° sévère.",
+   "refs": [
+    381
+   ]
+  },
+  "physiopathologie": {
+   "texte": "muscle écrasé contre le fémur ; hémorragie intramusculaire pouvant s'ossifier.",
+   "refs": [
+    380,
+    356
+   ]
+  },
+  "ddx": {
+   "texte": "syndrome de loge (parfois retardé de 2–10 jours) ; avulsion apophysaire chez l'adolescent.",
+   "refs": [
+    382,
+    383,
+    384
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie de la crête chez l'adolescent.",
+   "refs": [
+    384
+   ]
+  },
+  "traitement": {
+   "texte": "genou à 120° de flexion 24 heures (activité complète en 3,5 jours) ; AINS 48–72 heures au plus ; crête : glace, compression, béquilles, rembourrage.",
+   "refs": [
+    385,
+    386,
+    387
+   ]
+  },
+  "pronostic": {
+   "texte": "13, 19 et 21 jours selon la gravité ; myosite ossifiante 9 % ; crête : 5 jours perdus.",
+   "refs": [
+    381,
+    388
+   ]
+  },
+  "refs": [
+   {
+    "n": 380,
+    "texte": "Bonsell S et al. The American Journal of… 2001",
+    "url": "https://doi.org/10.1177/03635465010290062501"
+   },
+   {
+    "n": 381,
+    "texte": "Ryan JB et al. The American Journal of… 1991",
+    "url": "https://doi.org/10.1177/036354659101900316"
+   },
+   {
+    "n": 356,
+    "texte": "Anderson K et al. The American Journal of… 2001",
+    "url": "https://doi.org/10.1177/03635465010290042501"
+   },
+   {
+    "n": 382,
+    "texte": "2009;32(8):orthosupersite com/view 1936",
+    "url": "https://doi.org/10.3928/01477447-20090624-09"
+   },
+   {
+    "n": 383,
+    "texte": "Mithöfer K et al. Journal of Orthopaedic Trauma 2002",
+    "url": "https://doi.org/10.1097/00005131-200207000-00014"
+   },
+   {
+    "n": 384,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 1983",
+    "url": null
+   },
+   {
+    "n": 385,
+    "texte": "Aronen JG et al. Clinical Journal of Sport… 2006",
+    "url": "https://doi.org/10.1097/01.jsm.0000244605.34283.94"
+   },
+   {
+    "n": 386,
+    "texte": "Trojian TH Clinics in Sports Medicine 2013",
+    "url": "https://doi.org/10.1016/j.csm.2012.12.009"
+   },
+   {
+    "n": 387,
+    "texte": "Hall M et al. Clinics in Sports Medicine 2013",
+    "url": "https://doi.org/10.1016/j.csm.2012.12.010"
+   },
+   {
+    "n": 388,
+    "texte": "Feeley BT et al. The American Journal of… 2008",
+    "url": "https://doi.org/10.1177/03635465010290042501"
+   }
+  ],
+  "planche": "h23.webp"
+ },
+ {
+  "no": "H24",
+  "page": 23,
+  "tags": "ANNEAU PELVIEN · SUJET ÂGÉ · ATTEINTE POSTÉRIEURE FRÉQUENTE",
+  "titre": "FRACTURE DE FRAGILITÉ DU BASSIN OU DU SACRUM",
+  "renvoi": {
+   "texte": "Voir la fiche L16 pour le sacrum. Particularités : 224 par 100 000 après 60 ans ; femmes 84 %, âge médian 83 ans ; mortalité à 1 an 17 % ; atteinte postérieure chez 54–80 % quand les branches pubiennes sont fracturées ; environ 30 % perdent leur autonomie ; type II : aucune différence avec la chirurgie (essai pilote) ; nouvelle fracture en 2 ans chez 21 %.",
+   "refs": [
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 389,
+    "texte": "Kułakowski M et al. Scientific Reports 2022",
+    "url": "https://doi.org/10.1038/s41598-022-24525-7"
+   },
+   {
+    "n": 390,
+    "texte": "Osche DB et al. Journal of Clinical Medicine 2025",
+    "url": "https://doi.org/10.3390/jcm14092935"
+   },
+   {
+    "n": 391,
+    "texte": "Yamamoto N et al. Injury 2025",
+    "url": "https://doi.org/10.1016/j.injury.2025.112618"
+   },
+   {
+    "n": 392,
+    "texte": "Rommens PM et al. Journal of Clinical Medicine 2020",
+    "url": "https://doi.org/10.3390/jcm9082498"
+   },
+   {
+    "n": 393,
+    "texte": "Studer P et al. Swiss Medical Weekly 2013",
+    "url": "https://doi.org/10.4414/smw.2013.13859"
+   },
+   {
+    "n": 394,
+    "texte": "Hutchings L et al. Current Osteoporosis Reports 2022",
+    "url": "https://doi.org/10.1007/s11914-022-00760-9"
+   },
+   {
+    "n": 395,
+    "texte": "Thiesen DM et al. Scientific Reports 2023",
+    "url": "https://doi.org/10.1038/s41598-023-43249-w"
+   }
+  ],
+  "planche": "h24.webp"
+ },
+ {
+  "no": "H25",
+  "page": 24,
+  "tags": "HANCHE OU RACHIS · SYNDROME HANCHE-RACHIS",
+  "titre": "DOULEUR PROJETÉE D'ORIGINE LOMBAIRE",
+  "renvoi": {
+   "texte": "Voir les fiches L1, L6 et L8. Particularités : boiterie (× 7), douleur de l'aine (× 7) et rotation interne limitée (× 14) orientent vers la hanche ; les deux atteintes coexistent dans 12,5–17,5 % ; infiltration intra-articulaire diagnostique Se 94 %, Sp 95 % ; lombalgie améliorée après arthroplastie dans environ 63 %.",
+   "refs": [
+    396,
+    397,
+    398,
+    399
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 396,
+    "texte": "Chang CC et al. BMC Musculoskeletal Disorders 2026",
+    "url": "https://doi.org/10.1186/s12891-025-09479-x"
+   },
+   {
+    "n": 397,
+    "texte": "Brown MD et al. Clinical Orthopaedics and… 2004",
+    "url": "https://doi.org/10.1097/00003086-200402000-00044"
+   },
+   {
+    "n": 398,
+    "texte": "Maldonado DR et al. Orthopedics 2020",
+    "url": "https://doi.org/10.3928/01477447-20191223-05"
+   },
+   {
+    "n": 399,
+    "texte": "Mirghaderi P et al. European Spine Journal 2026",
+    "url": "https://doi.org/10.1007/s00586-025-09409-4"
+   }
+  ],
+  "planche": "h25.webp"
+ },
+ {
+  "no": "H26",
+  "page": 25,
+  "tags": "CEINTURES · INFLAMMATOIRE · SUJET DE PLUS DE 50 ANS",
+  "titre": "PSEUDOPOLYARTHRITE RHIZOMÉLIQUE",
+  "renvoi": {
+   "texte": "Voir la fiche C12.",
+   "refs": []
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [],
+  "planche": "h26.webp"
+ },
+ {
+  "no": "H27",
+  "page": 26,
+  "tags": "HANCHE · MICROCRISTALLIN · SUJET ÂGÉ",
+  "titre": "CHONDROCALCINOSE DE LA HANCHE",
+  "renvoi": {
+   "texte": "Voir la fiche P13. Particularités : la hanche est le troisième site de chondrocalcinose ; dépôts radiographiques sur 72 % des hanches en maladie confirmée ; arthropathie destructrice ≈ 2 % des cas, surtout chez la femme après 60 ans.",
+   "refs": [
+    400,
+    401
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 400,
+    "texte": "Di Matteo A et al. Arthritis Care & Research 2019",
+    "url": "https://doi.org/10.1002/acr.23814"
+   },
+   {
+    "n": 401,
+    "texte": "Lomax A et al. Foot & Ankle International 2015",
+    "url": "https://doi.org/10.1177/1071100714560399"
+   }
+  ],
+  "planche": "h27.webp"
+ },
+ {
+  "no": "H28",
+  "page": 27,
+  "tags": "CUISSE · COUREUR · SITE À RISQUE FAIBLE À MODÉRÉ",
+  "titre": "FRACTURE DE FATIGUE DE LA DIAPHYSE FÉMORALE",
+  "epidemiologie": {
+   "texte": "7–21 % des fractures de fatigue de l'athlète ; 8,1 % chez les recrues.",
+   "refs": [
+    402,
+    403,
+    404
+   ]
+  },
+  "presentation": {
+   "texte": "douleur vague de l'aine, de la cuisse ou du genou à la course.",
+   "refs": [
+    354
+   ]
+  },
+  "examen": {
+   "texte": "test du levier, performance inconnue.",
+   "refs": [
+    354,
+    404
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fatigue du cortex médial à la jonction des tiers proximal et moyen.",
+   "refs": [
+    405
+   ]
+  },
+  "ddx": {
+   "texte": "élongation, fracture du col, fracture atypique sous bisphosphonate, tumeur.",
+   "refs": [
+    277,
+    353
+   ]
+  },
+  "investigations": {
+   "texte": "jusqu'à 85 % manquées sur les clichés initiaux ; IRM.",
+   "refs": [
+    406
+   ]
+  },
+  "traitement": {
+   "texte": "appui partiel 1–4 semaines, course vers 6 semaines, sport vers 12 semaines.",
+   "refs": [
+    405
+   ]
+  },
+  "pronostic": {
+   "texte": "retour selon le grade IRM : 42, 70, 84 et 99 jours.",
+   "refs": [
+    407
+   ]
+  },
+  "refs": [
+   {
+    "n": 402,
+    "texte": "Spiro AJ et al. Military Medicine 2026",
+    "url": "https://doi.org/10.1093/milmed/usag264"
+   },
+   {
+    "n": 403,
+    "texte": "Schroeder JD et al. American Family Physician 2024",
+    "url": null
+   },
+   {
+    "n": 404,
+    "texte": "Johnson AW et al. The American Journal of… 1994",
+    "url": "https://doi.org/10.1177/036354659402200216"
+   },
+   {
+    "n": 354,
+    "texte": "Z ) 2023",
+    "url": "https://doi.org/10.1007/s40279-022-01802-z"
+   },
+   {
+    "n": 405,
+    "texte": "Boden BP et al. The American Journal of… 2001",
+    "url": "https://doi.org/10.1177/036354659402200216"
+   },
+   {
+    "n": 277,
+    "texte": "Bateman EA et al. Muscle & Nerve 2025",
+    "url": "https://doi.org/10.1002/mus.28106"
+   },
+   {
+    "n": 353,
+    "texte": "Nature Reviews Disease Primers 2022",
+    "url": "https://doi.org/10.1038/s41572-022-00352-y"
+   },
+   {
+    "n": 406,
+    "texte": "Wright AA et al. The American Journal of… 2016",
+    "url": "https://doi.org/10.1177/036354659402200216"
+   },
+   {
+    "n": 407,
+    "texte": "Hoenig T et al. The American Journal of… 2022",
+    "url": "https://doi.org/10.1177/036354659402200216"
+   }
+  ],
+  "planche": "h28.webp"
+ }
+]

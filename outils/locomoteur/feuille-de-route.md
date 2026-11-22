@@ -13,16 +13,16 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
   - section MSK dans la page Confidentialité ;
   - alerte persistante dans la barre du téléphone ;
   - fourchette décrite comme une analyse de sensibilité.
-- 26 fiches high yield du rachis cervical, avec bibliothèque et liens depuis les résultats.
+- 190 fiches high yield (blocs 1 à 8), avec bibliothèques et liens depuis les résultats.
 
 ## Ordre de travail
 
-1. **Fiches high yield de toutes les régions.** Le clinicien envoie tous les PDF. Pour chacun :
-   - extraire avec `fiches-hy/extraire.py` ;
-   - ajouter la région et ses liens dans `REGIONS` de `fiches-hy.mjs` ;
-   - lancer `node outils/locomoteur/fiches-hy.mjs`.
-
-   Les numéros de fiche suivent les fiches de l'aide-mémoire (C1 = fiche 1 du cervical).
+1. **Fiches high yield de toutes les régions.** Faites le 22 novembre 2026 pour les blocs 1 à 8 : cervical, dorsal, lombaire, épaule, coude, poignet, main, hanche. Cela fait 190 fiches, dont 14 renvois.
+   - Reste à faire : genou, cheville et pied, à l'arrivée de leurs PDF.
+   - Pour un nouveau bloc :
+     - `python3 -I outils/locomoteur/fiches-hy/extraire.py <pdf> outils/locomoteur/fiches-hy/<série>.json locomoteur/<région>/fiches/img` ;
+     - ajouter la série et ses liens dans `REGIONS` de `fiches-hy.mjs` ;
+     - lancer `node outils/locomoteur/fiches-hy.mjs`.
 2. **Point 23.** Les prompts sont prêts dans `delegation/prompts-chatgpt-23.md`. À l'arrivée des fichiers JSON de ChatGPT, intégrer :
    - les fiches d'exercices imprimables ;
    - l'encadré « Retour au sport » ;
@@ -55,7 +55,7 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 
 ## En attente du clinicien
 
-- Les PDF des fiches high yield des autres régions.
+- Les PDF des fiches high yield du genou, de la cheville et du pied.
 - Les fichiers JSON de ChatGPT du point 23.
 - Les réponses d'OpenEvidence, par code (ex. `CERV-P12`), pour remplacer les poids provisoires.
 

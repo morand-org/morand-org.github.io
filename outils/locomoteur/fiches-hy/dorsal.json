@@ -1,0 +1,2418 @@
+[
+ {
+  "no": "D1",
+  "page": 1,
+  "tags": "RACHIS DORSAL · DOULEUR AXIALE · MÉCANIQUE",
+  "titre": "DORSALGIE NON SPÉCIFIQUE",
+  "epidemiologie": {
+   "texte": "prévalence annuelle 15 % ; femmes et adolescents ; coexiste presque toujours avec cervicalgie ou lombalgie.",
+   "refs": [
+    199,
+    200,
+    201
+   ]
+  },
+  "presentation": {
+   "texte": "douleur médio-dorsale liée aux postures prolongées, à la conduite, à la charge physique.",
+   "refs": [
+    200,
+    202
+   ]
+  },
+  "examen": {
+   "texte": "recherche de drapeaux rouges, peu performants isolément ; après 55 ans : âge ≥ 75, traumatisme, ostéoporose, douleur ≥ 7/10.",
+   "refs": [
+    203,
+    204
+   ]
+  },
+  "physiopathologie": {
+   "texte": "facettes, articulations costo-vertébrales, disques, muscles ; source rarement identifiable.",
+   "refs": [
+    205
+   ]
+  },
+  "ddx": {
+   "texte": "fracture ostéoporotique, métastase (68–80 % des métastases rachidiennes sont thoraciques), infection, spondylarthrite, douleur viscérale.",
+   "refs": [
+    206,
+    207
+   ]
+  },
+  "investigations": {
+   "texte": "aucune si aiguë non compliquée ; après 6 semaines d'échec, ou tôt si > 65 ans, ostéoporose, corticoïdes.",
+   "refs": [
+    206
+   ]
+  },
+  "traitement": {
+   "texte": "extrapolé des guides cervicaux et lombaires ; manipulation à bénéfice bref.",
+   "refs": [
+    208,
+    209
+   ]
+  },
+  "pronostic": {
+   "texte": "80 % s'améliorent en 1 mois ; 20 % persistent.",
+   "refs": [
+    210
+   ]
+  },
+  "refs": [
+   {
+    "n": 199,
+    "texte": "Begum R et al. PloS One 2025",
+    "url": "https://doi.org/10.1371/journal.pone.0316827"
+   },
+   {
+    "n": 200,
+    "texte": "Briggs AM et al. BMC Musculoskeletal Disorders 2009",
+    "url": "https://doi.org/10.1186/1471-2474-10-77"
+   },
+   {
+    "n": 201,
+    "texte": "Niemeläinen R et al. Spine 2006",
+    "url": "https://doi.org/10.1097/01.brs.0000226022.05420.1f"
+   },
+   {
+    "n": 202,
+    "texte": "Roquelaure Y et al. Arthritis Care & Research 2014",
+    "url": "https://doi.org/10.1002/acr.22323"
+   },
+   {
+    "n": 203,
+    "texte": "Maselli F et al. Disability and Rehabilitation 2022",
+    "url": "https://doi.org/10.1080/09638288.2020.1804626"
+   },
+   {
+    "n": 204,
+    "texte": "Enthoven WT et al. Physical Therapy 2016",
+    "url": "https://doi.org/10.2522/ptj.20140525"
+   },
+   {
+    "n": 205,
+    "texte": "Takatalo J et al. BMC Musculoskeletal Disorders 2020",
+    "url": "https://doi.org/10.1186/s12891-020-03551-4"
+   },
+   {
+    "n": 206,
+    "texte": "Shah VN et al. Journal of the American… 2024",
+    "url": "https://doi.org/10.1016/j.jacr.2024.08.016"
+   },
+   {
+    "n": 207,
+    "texte": "Costa F et al. Neurosurgical Review 2024",
+    "url": "https://doi.org/10.1007/s10143-024-03095-4"
+   },
+   {
+    "n": 208,
+    "texte": "Risetti M et al. BMC Musculoskeletal Disorders 2023",
+    "url": "https://doi.org/10.1186/s12891-023-06505-8"
+   },
+   {
+    "n": 209,
+    "texte": "Southerst D et al. Journal of Manipulative and… 2015",
+    "url": "https://doi.org/10.1016/j.jmpt.2015.06.001"
+   },
+   {
+    "n": 210,
+    "texte": "Knecht C et al. BMC Musculoskeletal Disorders 2020",
+    "url": "https://doi.org/10.1186/s12891-020-03534-5"
+   }
+  ],
+  "planche": "d1.webp"
+ },
+ {
+  "no": "D2",
+  "page": 2,
+  "tags": "PAROI THORACIQUE ANTÉRIEURE · DOULEUR REPRODUCTIBLE · BÉNIN",
+  "titre": "COSTOCHONDRITE / DOULEUR PARIÉTALE DE L'ADULTE",
+  "epidemiologie": {
+   "texte": "20–50 % des douleurs thoraciques de première ligne sont pariétales ; pic à 40–50 ans.",
+   "refs": [
+    211
+   ]
+  },
+  "presentation": {
+   "texte": "douleur vive, localisée, aggravée par l'inspiration profonde, la toux et les étirements.",
+   "refs": [
+    211
+   ]
+  },
+  "examen": {
+   "texte": "douleur reproduite à la palpation des jonctions 2 à 5, sans tuméfaction ; ≥ 2 critères sur 4 (tension musculaire localisée, douleur en coup d'aiguille, reproduction, absence de toux) : probabilité 77 %.",
+   "refs": [
+    211,
+    212
+   ]
+  },
+  "physiopathologie": {
+   "texte": "inflammation autolimitée des jonctions chondro- costales, de cause inconnue.",
+   "refs": [
+    213
+   ]
+  },
+  "ddx": {
+   "texte": "syndrome coronarien (3–6 % des adultes avec sensibilité pariétale), Tietze, côte glissante, zona, spondylarthrite.",
+   "refs": [
+    214,
+    211
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; ECG ± radiographie si > 35 ans, facteurs de risque ou symptômes cardio-pulmonaires.",
+   "refs": [
+    214
+   ]
+  },
+  "traitement": {
+   "texte": "chaleur, AINS oral ou topique ; physiothérapie ou infiltration si rebelle.",
+   "refs": [
+    211
+   ]
+  },
+  "pronostic": {
+   "texte": "résolution en semaines le plus souvent, mais formes de plus de 6 mois décrites.",
+   "refs": [
+    211,
+    215
+   ]
+  },
+  "refs": [
+   {
+    "n": 211,
+    "texte": "Mott T et al. American Family Physician 2021",
+    "url": null
+   },
+   {
+    "n": 212,
+    "texte": "McConaghy JR et al. American Family Physician 2020",
+    "url": null
+   },
+   {
+    "n": 213,
+    "texte": "Waggoner R et al. Pediatrics in Review 2024",
+    "url": "https://doi.org/10.1542/pir.2023-006141"
+   },
+   {
+    "n": 214,
+    "texte": "Proulx AM et al. American Family Physician 2009",
+    "url": null
+   },
+   {
+    "n": 215,
+    "texte": "Expert Panel on Thoracic Imaging et al. Journal of the American… 2021",
+    "url": "https://doi.org/10.1016/j.jacr.2021.08.004"
+   }
+  ],
+  "planche": "d2.webp"
+ },
+ {
+  "no": "D3",
+  "page": 3,
+  "tags": "RACHIS DORSAL ET LOMBAIRE · FRACTURE DE FRAGILITÉ · SUJET ÂGÉ",
+  "titre": "FRACTURE VERTÉBRALE OSTÉOPOROTIQUE (FICHE DE RÉFÉRENCE)",
+  "epidemiologie": {
+   "texte": "déformation vertébrale chez 23 % des femmes et 21 % des hommes ≥ 50 ans au Canada ; deux tiers non reconnues.",
+   "refs": [
+    216,
+    217
+   ]
+  },
+  "presentation": {
+   "texte": "douleur aiguë après un geste banal, aggravée par les changements de position ; perte de taille, cyphose.",
+   "refs": [
+    218,
+    217
+   ]
+  },
+  "examen": {
+   "texte": "incapacité à s'allonger à plat (Se 81 %, Sp 93 %) ; percussion à poing fermé sensible, de spécificité variable ; distance occiput-mur > 0.",
+   "refs": [
+    219,
+    220,
+    221
+   ]
+  },
+  "physiopathologie": {
+   "texte": "faillite de l'os trabéculaire sous charge axiale, surtout médio-thoracique et à la charnière thoraco-lombaire.",
+   "refs": [
+    222
+   ]
+  },
+  "ddx": {
+   "texte": "fracture pathologique (métastase, myélome), infection, Scheuermann.",
+   "refs": [
+    218,
+    223
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies face et profil ; TDM ou IRM si négatives ; bilan des causes secondaires.",
+   "refs": [
+    218
+   ]
+  },
+  "traitement": {
+   "texte": "analgésie, réadaptation dès 2 semaines, corset ≤ 8 semaines, traitement anti-ostéoporotique ; vertébroplastie sans bénéfice net contre simulacre.",
+   "refs": [
+    218,
+    224
+   ]
+  },
+  "pronostic": {
+   "texte": "60 % soulagés en 3 mois, 40 % encore douloureux à 1 an ; risque de nouvelle fracture vertébrale multiplié par 4–5.",
+   "refs": [
+    225,
+    226
+   ]
+  },
+  "refs": [
+   {
+    "n": 216,
+    "texte": "Jenna C Gibbs et al. Cochrane Database of… 2019",
+    "url": "https://doi.org/10.1002/14651858.cd008618.pub3"
+   },
+   {
+    "n": 217,
+    "texte": "Morin SN et al. JAMA 2025",
+    "url": "https://doi.org/10.1001/jama.2025.6003"
+   },
+   {
+    "n": 218,
+    "texte": "Creech-Organ J et al. American Family Physician 2026",
+    "url": null
+   },
+   {
+    "n": 219,
+    "texte": "Langdon J et al. Annals of the Royal College… 2010",
+    "url": "https://doi.org/10.1308/003588410X12518836440162"
+   },
+   {
+    "n": 220,
+    "texte": "Yamamoto N et al. Clinical Orthopaedics and… 2026",
+    "url": "https://doi.org/10.1097/CORR.0000000000004071"
+   },
+   {
+    "n": 221,
+    "texte": "Green AD et al. JAMA 2004",
+    "url": "https://doi.org/10.1001/jama.292.23.2890"
+   },
+   {
+    "n": 222,
+    "texte": "Ensrud KE et al. The New England Journal of… 2011",
+    "url": "https://doi.org/10.1056/NEJMcp1009697"
+   },
+   {
+    "n": 223,
+    "texte": "Wáng YXJ et al. Skeletal Radiology 2024",
+    "url": "https://doi.org/10.1007/s00256-024-04678-4"
+   },
+   {
+    "n": 224,
+    "texte": "Rachelle Buchbinder et al. Cochrane Database of… 2018",
+    "url": "https://doi.org/10.1002/14651858.cd006349.pub4"
+   },
+   {
+    "n": 225,
+    "texte": "AJNR American Journal of… 2012",
+    "url": "https://doi.org/10.3174/ajnr.A2817"
+   },
+   {
+    "n": 226,
+    "texte": "Christopher M Williams et al. Cochrane Database of… 2023",
+    "url": "https://doi.org/10.1002/14651858.cd008643.pub3"
+   }
+  ],
+  "planche": "d3.webp"
+ },
+ {
+  "no": "D4",
+  "page": 4,
+  "tags": "RACHIS DORSAL · DÉFORMATION · SUJET ÂGÉ",
+  "titre": "HYPERCYPHOSE LIÉE À L'ÂGE",
+  "epidemiologie": {
+   "texte": "20–40 % des aînés ; femmes surtout.",
+   "refs": [
+    227,
+    228
+   ]
+  },
+  "presentation": {
+   "texte": "marche ralentie, difficulté dans les escaliers, équilibre précaire.",
+   "refs": [
+    228,
+    229
+   ]
+  },
+  "examen": {
+   "texte": "distance occiput-mur ; chaque écart-type de cyphose double le risque de chute.",
+   "refs": [
+    230
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fractures, dégénérescence discale et faiblesse des extenseurs ; un tiers seulement ont des fractures.",
+   "refs": [
+    227,
+    231
+   ]
+  },
+  "ddx": {
+   "texte": "fractures ostéoporotiques, hyperostose vertébrale, séquelle de Scheuermann, spondylarthrite ankylosante.",
+   "refs": [
+    228
+   ]
+  },
+  "investigations": {
+   "texte": "profil debout (Cobb ≥ 50°) ; densité osseuse.",
+   "refs": [
+    232,
+    233
+   ]
+  },
+  "traitement": {
+   "texte": "renforcement des extenseurs et rééducation posturale (−3° en 6 mois) ; corset en deuxième ligne.",
+   "refs": [
+    234,
+    235
+   ]
+  },
+  "pronostic": {
+   "texte": "chutes plus fréquentes ; surmortalité chez les femmes fracturées.",
+   "refs": [
+    236,
+    237
+   ]
+  },
+  "refs": [
+   {
+    "n": 227,
+    "texte": "Ailon T et al. Neurosurgery 2015",
+    "url": "https://doi.org/10.1227/NEU.0000000000000944"
+   },
+   {
+    "n": 228,
+    "texte": "Katzman WB et al. BMC Musculoskeletal Disorders 2017",
+    "url": "https://doi.org/10.1186/s12891-017-1862-0"
+   },
+   {
+    "n": 229,
+    "texte": "Katzman WB et al. Journal of the American… 2011",
+    "url": "https://doi.org/10.1186/s12891-017-1862-0"
+   },
+   {
+    "n": 230,
+    "texte": "McDaniels-Davidson C et al. Osteoporosis International 2018",
+    "url": "https://doi.org/10.1007/s00198-017-4253-3"
+   },
+   {
+    "n": 231,
+    "texte": "Woods GN et al. Journal of Bone and Mineral… 2020",
+    "url": "https://doi.org/10.1002/jbmr.4123"
+   },
+   {
+    "n": 232,
+    "texte": "Koelé MC et al. Frontiers in Endocrinology 2020",
+    "url": "https://doi.org/10.3389/fendo.2020.00005"
+   },
+   {
+    "n": 233,
+    "texte": "Journal of Bone and Mineral Metabolism 2026; 1007/s00774-026-01774-4",
+    "url": "https://doi.org/10.1002/jbmr.4123"
+   },
+   {
+    "n": 234,
+    "texte": "Katzman WB et al. Osteoporosis International 2017",
+    "url": "https://doi.org/10.1186/s12891-017-1862-0"
+   },
+   {
+    "n": 235,
+    "texte": "Jenkins HJ et al. Musculoskeletal Science &… 2021",
+    "url": "https://doi.org/10.1016/j.msksp.2021.102438"
+   },
+   {
+    "n": 236,
+    "texte": "Koelé MC et al. Osteoporosis International 2022",
+    "url": "https://doi.org/10.3389/fendo.2020.00005"
+   },
+   {
+    "n": 237,
+    "texte": "Kado DM et al. Annals of Internal Medicine 2009",
+    "url": "https://doi.org/10.7326/0003-4819-150-10-200905190-00005"
+   }
+  ],
+  "planche": "d4.webp"
+ },
+ {
+  "no": "D5",
+  "page": 5,
+  "tags": "PAROI THORACIQUE LATÉRALE · LÉSION MUSCULAIRE · SPORT DE LANCER",
+  "titre": "ÉLONGATION DES INTERCOSTAUX OU DES OBLIQUES",
+  "epidemiologie": {
+   "texte": "5 % des blessures au baseball professionnel ; récidive 12– 30 %.",
+   "refs": [
+    238,
+    239
+   ]
+  },
+  "presentation": {
+   "texte": "douleur latérale vive et soudaine au lancer ou à l'élan, du côté opposé au bras dominant.",
+   "refs": [
+    238,
+    240
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité focale à l'insertion de l'oblique interne sur les dernières côtes ; douleur à l'inclinaison latérale résistée.",
+   "refs": [
+    241
+   ]
+  },
+  "physiopathologie": {
+   "texte": "surcharge excentrique de l'oblique interne.",
+   "refs": [
+    241,
+    242
+   ]
+  },
+  "ddx": {
+   "texte": "fracture de fatigue de côte, fracture du cartilage costal.",
+   "refs": [
+    241,
+    238
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; IRM chez l'athlète d'élite pour le pronostic.",
+   "refs": [
+    243
+   ]
+  },
+  "traitement": {
+   "texte": "repos relatif, rééducation graduée, correction technique.",
+   "refs": [
+    241
+   ]
+  },
+  "pronostic": {
+   "texte": "2–10 semaines ; retour moyen en 27–39 jours.",
+   "refs": [
+    242,
+    238,
+    243
+   ]
+  },
+  "refs": [
+   {
+    "n": 238,
+    "texte": "Conte SA et al. The American Journal of… 2012",
+    "url": "https://doi.org/10.1177/0363546511433030"
+   },
+   {
+    "n": 239,
+    "texte": "Nealon AR et al. Clinical Journal of Sport… 2018",
+    "url": "https://doi.org/10.1097/JSM.0000000000000450"
+   },
+   {
+    "n": 240,
+    "texte": "Nealon AR et al. Journal of Science and… 2017",
+    "url": "https://doi.org/10.1097/JSM.0000000000000450"
+   },
+   {
+    "n": 241,
+    "texte": "Pardiwala DN et al. Sports Health 2018",
+    "url": "https://doi.org/10.1177/1941738117732318"
+   },
+   {
+    "n": 242,
+    "texte": "Stevens KJ et al. The American Journal of… 2010",
+    "url": "https://doi.org/10.1177/0363546509350105"
+   },
+   {
+    "n": 243,
+    "texte": "Nealon AR et al. Journal of Science and… 2019",
+    "url": "https://doi.org/10.1097/JSM.0000000000000450"
+   }
+  ],
+  "planche": "d5.webp"
+ },
+ {
+  "no": "D6",
+  "page": 6,
+  "tags": "RACHIS · DÉFORMATION · CROISSANCE",
+  "titre": "SCOLIOSE IDIOPATHIQUE DE L'ADOLESCENT",
+  "epidemiologie": {
+   "texte": "1–3 % des 10–16 ans ; filles 10 fois plus à risque de progression.",
+   "refs": [
+    244
+   ]
+  },
+  "presentation": {
+   "texte": "asymétrie indolore ; douleur importante, signes neurologiques, début avant 10 ans ou progression rapide = atypie.",
+   "refs": [
+    245
+   ]
+  },
+  "examen": {
+   "texte": "test d'Adams (Se 84 %, Sp 95 %) ; scoliomètre, seuil 5–7°.",
+   "refs": [
+    244,
+    246
+   ]
+  },
+  "physiopathologie": {
+   "texte": "déformation tridimensionnelle multifactorielle progressant pendant la poussée de croissance.",
+   "refs": [
+    247,
+    248
+   ]
+  },
+  "ddx": {
+   "texte": "scoliose neuromusculaire ou congénitale, anomalie du névraxe, inégalité des membres.",
+   "refs": [
+    245,
+    249
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie debout (Cobb, Risser) ; IRM si atypie.",
+   "refs": [
+    244,
+    245
+   ]
+  },
+  "traitement": {
+   "texte": "observation ; corset si 20–40° chez l'immature (succès 72 % contre 48 % dans BrAIST) ; chirurgie vers 45–50°.",
+   "refs": [
+    250,
+    251,
+    252
+   ]
+  },
+  "pronostic": {
+   "texte": "à Risser 0–1, une courbure de 20° progresse dans 22 % ; au-delà de 40° à maturité, progression à l'âge adulte.",
+   "refs": [
+    248,
+    246
+   ]
+  },
+  "refs": [
+   {
+    "n": 244,
+    "texte": "US Preventive Services Task Force et al. JAMA 2018",
+    "url": "https://doi.org/10.1001/jama.2017.19342"
+   },
+   {
+    "n": 245,
+    "texte": "Hresko MT The New England Journal of… 2013",
+    "url": "https://doi.org/10.1056/NEJMcp1209063"
+   },
+   {
+    "n": 246,
+    "texte": "Dunn J et al. JAMA 2018",
+    "url": "https://doi.org/10.1001/jama.2017.11669"
+   },
+   {
+    "n": 247,
+    "texte": "Ohrt-Nissen S et al. European Spine Journal 2025",
+    "url": "https://doi.org/10.1007/s00586-024-08640-9"
+   },
+   {
+    "n": 248,
+    "texte": "Phillips WA Pediatrics in Review 2021",
+    "url": "https://doi.org/10.1542/pir.2019-0007"
+   },
+   {
+    "n": 249,
+    "texte": "Nature Reviews Disease Primers 2015",
+    "url": "https://doi.org/10.1038/nrdp.2015.30"
+   },
+   {
+    "n": 250,
+    "texte": "Addai D et al. Child's Nervous System 2020",
+    "url": "https://doi.org/10.1007/s00381-020-04608-4"
+   },
+   {
+    "n": 251,
+    "texte": "Jinnah AH et al. Current Reviews in… 2025",
+    "url": "https://doi.org/10.1007/s12178-024-09939-2"
+   },
+   {
+    "n": 252,
+    "texte": "Lau AYC et al. Trials 2026",
+    "url": "https://doi.org/10.1186/s13063-026-09787-0"
+   }
+  ],
+  "planche": "d6.webp"
+ },
+ {
+  "no": "D7",
+  "page": 7,
+  "tags": "RACHIS DORSAL · CYPHOSE RIGIDE · ADOLESCENT",
+  "titre": "MALADIE DE SCHEUERMANN",
+  "epidemiologie": {
+   "texte": "0,4–10 % ; diagnostic à 10–12 ans ; garçons surtout.",
+   "refs": [
+    253,
+    254
+   ]
+  },
+  "presentation": {
+   "texte": "dorsalgie et « mauvaise posture » de l'adolescent.",
+   "refs": [
+    255
+   ]
+  },
+  "examen": {
+   "texte": "cyphose rigide ne se corrigeant pas en extension ; ischio- jambiers rétractés ; examen neurologique normal.",
+   "refs": [
+    254,
+    256
+   ]
+  },
+  "physiopathologie": {
+   "texte": "trouble du cartilage de croissance des plateaux menant à la cunéiformisation antérieure.",
+   "refs": [
+    257
+   ]
+  },
+  "ddx": {
+   "texte": "cyphose posturale (souple), cyphose congénitale, spondylarthrite, infection ou tumeur.",
+   "refs": [
+    254
+   ]
+  },
+  "investigations": {
+   "texte": "profil debout : ≥ 5° sur ≥ 3 vertèbres contiguës, cyphose > 45° ; nodules de Schmorl.",
+   "refs": [
+    258,
+    254
+   ]
+  },
+  "traitement": {
+   "texte": "< 50° symptomatique ; 50–75° corset si immature ; > 75° avis chirurgical ; sport permis.",
+   "refs": [
+    256
+   ]
+  },
+  "pronostic": {
+   "texte": "dorsalgies plus fréquentes à long terme sans incapacité accrue ; atteinte respiratoire seulement au-delà de 100°.",
+   "refs": [
+    259,
+    260
+   ]
+  },
+  "refs": [
+   {
+    "n": 253,
+    "texte": "Sardar ZM et al. The Journal of the American… 2019",
+    "url": "https://doi.org/10.5435/JAAOS-D-17-00748"
+   },
+   {
+    "n": 254,
+    "texte": "O'Donnell JM et al. Current Reviews in… 2023",
+    "url": "https://doi.org/10.1007/s12178-023-09861-z"
+   },
+   {
+    "n": 255,
+    "texte": "Lowe TG et al. Spine 2007",
+    "url": "https://doi.org/10.1097/BRS.0b013e3181354501"
+   },
+   {
+    "n": 256,
+    "texte": "Putukian M et al. Medicine and Science in… 2026",
+    "url": "https://doi.org/10.1249/MSS.0000000000003863"
+   },
+   {
+    "n": 257,
+    "texte": "Palazzo C et al. Joint Bone Spine 2014",
+    "url": "https://doi.org/10.1016/j.jbspin.2013.11.012"
+   },
+   {
+    "n": 258,
+    "texte": "Chatterjee S et al. Child's Nervous System 2023",
+    "url": "https://doi.org/10.1007/s00381-023-06142-5"
+   },
+   {
+    "n": 259,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 1993",
+    "url": "https://doi.org/10.5435/JAAOS-D-17-00748"
+   },
+   {
+    "n": 260,
+    "texte": "Ristolainen L et al. European Spine Journal 2012",
+    "url": "https://doi.org/10.1007/s00586-011-2075-0"
+   }
+  ],
+  "planche": "d7.webp"
+ },
+ {
+  "no": "D8",
+  "page": 8,
+  "tags": "RACHIS DORSAL · OSSIFICATION LIGAMENTAIRE · MÉTABOLIQUE",
+  "titre": "HYPEROSTOSE VERTÉBRALE (DISH)",
+  "epidemiologie": {
+   "texte": "2,9–42 % selon la méthode ; hommes âgés ; syndrome métabolique.",
+   "refs": [
+    261,
+    262
+   ]
+  },
+  "presentation": {
+   "texte": "souvent asymptomatique ; raideur, dorsalgie, dysphagie (17–28 %).",
+   "refs": [
+    263,
+    264
+   ]
+  },
+  "examen": {
+   "texte": "rachis raide ; après une chute, la sensibilité est au mauvais niveau dans 57 %.",
+   "refs": [
+    265
+   ]
+  },
+  "physiopathologie": {
+   "texte": "ossification des enthèses et du ligament longitudinal antérieur.",
+   "refs": [
+    266
+   ]
+  },
+  "ddx": {
+   "texte": "spondylarthrite ankylosante (sacro-iliite, sujet jeune), spondylose.",
+   "refs": [
+    261
+   ]
+  },
+  "investigations": {
+   "texte": "coulées osseuses sur ≥ 4 vertèbres à disques préservés ; après traumatisme mineur, TDM du rachis complet.",
+   "refs": [
+    267,
+    265
+   ]
+  },
+  "traitement": {
+   "texte": "aucun traitement de fond ; prise en charge du risque cardiométabolique.",
+   "refs": [
+    268,
+    269
+   ]
+  },
+  "pronostic": {
+   "texte": "fractures après simple chute (51 %), diagnostic retardé dans 40 %, aggravation neurologique dans 30 %.",
+   "refs": [
+    270
+   ]
+  },
+  "refs": [
+   {
+    "n": 261,
+    "texte": "Takahashi T et al. Scientific Reports 2023",
+    "url": "https://doi.org/10.1038/s41598-023-28946-w"
+   },
+   {
+    "n": 262,
+    "texte": "Auðunsson AB et al. Scandinavian Journal of… 2021",
+    "url": "https://doi.org/10.1080/03009742.2020.1846779"
+   },
+   {
+    "n": 263,
+    "texte": "Le HV et al. The Journal of the American… 2021",
+    "url": "https://doi.org/10.5435/JAAOS-D-20-01344"
+   },
+   {
+    "n": 264,
+    "texte": "Abdel-Aziz M et al. Acta Oto-Laryngologica 2017",
+    "url": "https://doi.org/10.1080/00016489.2016.1272136"
+   },
+   {
+    "n": 265,
+    "texte": "Dan Lantsman C et al. Spine 2020",
+    "url": "https://doi.org/10.1097/BRS.0000000000003536"
+   },
+   {
+    "n": 266,
+    "texte": "Best Practice & Research Clinical Rheumatology 2020",
+    "url": "https://doi.org/10.1016/j.berh.2020.101527"
+   },
+   {
+    "n": 267,
+    "texte": "Kuwae U et al. The Journal of International… 2023",
+    "url": "https://doi.org/10.1177/03000605231194517"
+   },
+   {
+    "n": 268,
+    "texte": "Sethi A et al. Nature Communications 2023",
+    "url": "https://doi.org/10.1038/s41467-023-38279-x"
+   },
+   {
+    "n": 269,
+    "texte": "Glick K et al. Arthritis Research & Therapy 2020",
+    "url": "https://doi.org/10.1186/s13075-020-02278-w"
+   },
+   {
+    "n": 270,
+    "texte": "Okada E et al. Journal of Orthopaedic Science 2019",
+    "url": "https://doi.org/10.1016/j.jos.2018.12.017"
+   }
+  ],
+  "planche": "d8.webp"
+ },
+ {
+  "no": "D9",
+  "page": 9,
+  "tags": "RACHIS DORSAL · DOULEUR AXIALE · ARTICULAIRE POSTÉRIEURE",
+  "titre": "DOULEUR ZYGAPOPHYSAIRE THORACIQUE / ARTHROSE COSTO-VERTÉBRALE",
+  "epidemiologie": {
+   "texte": "34–48 % des dorsalgies chroniques selon les blocs contrôlés.",
+   "refs": [
+    271
+   ]
+  },
+  "presentation": {
+   "texte": "douleur paravertébrale aggravée par la station debout prolongée, l'extension et la rotation.",
+   "refs": [
+    272
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité paraspinale, douleur en extension-rotation ; aucun test fiable.",
+   "refs": [
+    206,
+    273
+   ]
+  },
+  "physiopathologie": {
+   "texte": "dégénérescence d'articulations synoviales innervées par les branches médiales.",
+   "refs": [
+    274
+   ]
+  },
+  "ddx": {
+   "texte": "fracture vertébrale, hernie thoracique, zona, métastase, douleur viscérale.",
+   "refs": [
+    206,
+    272
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie seulement si drapeau rouge ; blocs diagnostiques spécialisés.",
+   "refs": [
+    206,
+    275
+   ]
+  },
+  "traitement": {
+   "texte": "analgésie, physiothérapie ; blocs ou radiofréquence en deuxième ligne.",
+   "refs": [
+    272,
+    276
+   ]
+  },
+  "pronostic": {
+   "texte": "données limitées ; chaque bloc soulage 14–16 semaines.",
+   "refs": [
+    277
+   ]
+  },
+  "refs": [
+   {
+    "n": 271,
+    "texte": "Manchikanti L et al. Pain Physician 2026",
+    "url": null
+   },
+   {
+    "n": 272,
+    "texte": "van Kleef M et al. Pain Practice 2010",
+    "url": "https://doi.org/10.1111/j.1533-2500.2010.00376.x"
+   },
+   {
+    "n": 206,
+    "texte": "Shah VN et al. Journal of the American… 2024",
+    "url": "https://doi.org/10.1016/j.jacr.2024.08.016"
+   },
+   {
+    "n": 273,
+    "texte": "Wood et al. Stojanovic Chapter 26",
+    "url": null
+   },
+   {
+    "n": 274,
+    "texte": "Yoo YM et al. The Korean Journal of Pain 2024",
+    "url": "https://doi.org/10.3344/kjp.23228"
+   },
+   {
+    "n": 275,
+    "texte": "Neurology Clinical Practice 2014",
+    "url": "https://doi.org/10.1212/CPJ.0000000000000044"
+   },
+   {
+    "n": 276,
+    "texte": "Manchikanti L et al. Pain Physician 2023",
+    "url": null
+   },
+   {
+    "n": 277,
+    "texte": "Kaye AD et al. Current Pain and Headache… 2025",
+    "url": "https://doi.org/10.1007/s11916-025-01369-0"
+   }
+  ],
+  "planche": "d9.webp"
+ },
+ {
+  "no": "D10",
+  "page": 10,
+  "tags": "PAROI THORACIQUE · TRAUMATISME · RISQUE RESPIRATOIRE",
+  "titre": "FRACTURE OU CONTUSION DE CÔTE",
+  "epidemiologie": {
+   "texte": "10 % des traumatisés ; après 65 ans, mortalité doublée et pneumonie dans 31 %.",
+   "refs": [
+    278,
+    279
+   ]
+  },
+  "presentation": {
+   "texte": "douleur pleurétique après chute ou choc, dyspnée.",
+   "refs": [
+    280
+   ]
+  },
+  "examen": {
+   "texte": "douleur exquise, crépitation, volet, murmure diminué.",
+   "refs": [
+    281
+   ]
+  },
+  "physiopathologie": {
+   "texte": "la douleur empêche la respiration profonde et la toux, d'où atélectasie et pneumonie.",
+   "refs": [
+    279
+   ]
+  },
+  "ddx": {
+   "texte": "contusion, séparation chondro-costale, pneumothorax, fracture pathologique.",
+   "refs": [
+    279
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie pulmonaire ; TDM si fractures multiples ou sujet âgé ; référence si ≥ 65 ans ou ≥ 3 côtes.",
+   "refs": [
+    282,
+    283
+   ]
+  },
+  "traitement": {
+   "texte": "analgésie multimodale, spirométrie incitative, mobilisation ; blocs régionaux au besoin.",
+   "refs": [
+    284
+   ]
+  },
+  "pronostic": {
+   "texte": "guérison en 6–8 semaines ; douleur prolongée chez 59 % à 2 mois.",
+   "refs": [
+    284,
+    285
+   ]
+  },
+  "refs": [
+   {
+    "n": 278,
+    "texte": "Kaushik Mukherjee et al. Schubl, MD, Gail Tominaga,… 2022",
+    "url": null
+   },
+   {
+    "n": 279,
+    "texte": "Best Practices Guidelines: Management of C… (American College o)",
+    "url": null
+   },
+   {
+    "n": 280,
+    "texte": "Van Vledder MG et al. European Journal of Trauma… 2019",
+    "url": "https://doi.org/10.1007/s00068-018-0969-9"
+   },
+   {
+    "n": 281,
+    "texte": "Heyart B et al. Scientific Reports 2025",
+    "url": "https://doi.org/10.1038/s41598-025-92622-4"
+   },
+   {
+    "n": 282,
+    "texte": "Velez DR et al. The Journal of Surgical Research 2026",
+    "url": "https://doi.org/10.1016/j.jss.2026.03.025"
+   },
+   {
+    "n": 283,
+    "texte": "Navarro SM et al. European Journal of Trauma… 2024",
+    "url": "https://doi.org/10.1007/s00068-024-02519-6"
+   },
+   {
+    "n": 284,
+    "texte": "Baiu I et al. JAMA 2019",
+    "url": "https://doi.org/10.1001/jama.2019.2313"
+   },
+   {
+    "n": 285,
+    "texte": "Fabricant L et al. American Journal of Surgery 2013",
+    "url": "https://doi.org/10.1016/j.amjsurg.2012.12.007"
+   }
+  ],
+  "planche": "d10.webp"
+ },
+ {
+  "no": "D11",
+  "page": 11,
+  "tags": "RACHIS DORSAL · DOULEUR MÉCANIQUE · ARTICULATION COSTALE",
+  "titre": "DYSFONCTION COSTO-VERTÉBRALE",
+  "epidemiologie": {
+   "texte": "aucune donnée populationnelle ; rapports de cas.",
+   "refs": [
+    286
+   ]
+  },
+  "presentation": {
+   "texte": "douleur paravertébrale ou périscapulaire, parfois en ceinture, à la respiration et à la rotation.",
+   "refs": [
+    287,
+    288
+   ]
+  },
+  "examen": {
+   "texte": "pression sur l'articulation costo-transversaire reproduisant la douleur ; mobilité costale limitée.",
+   "refs": [
+    287,
+    289
+   ]
+  },
+  "physiopathologie": {
+   "texte": "hypomobilité ou irritation des articulations costo- vertébrales (hypothèse).",
+   "refs": [
+    290
+   ]
+  },
+  "ddx": {
+   "texte": "douleur facettaire, fracture de fatigue de côte, zona, douleur viscérale, métastase.",
+   "refs": [
+    272,
+    291
+   ]
+  },
+  "investigations": {
+   "texte": "aucune de routine.",
+   "refs": [
+    289
+   ]
+  },
+  "traitement": {
+   "texte": "mobilisation et exercices ; infiltration costo-transversaire échoguidée (70 % satisfaits).",
+   "refs": [
+    287,
+    289
+   ]
+  },
+  "pronostic": {
+   "texte": "non établi dans la littérature retrouvée.",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 286,
+    "texte": "Benhamou CL et al. Clinical Rheumatology 1988",
+    "url": "https://doi.org/10.1007/BF02204458"
+   },
+   {
+    "n": 287,
+    "texte": "Fruth SJ Physical Therapy 2006",
+    "url": null
+   },
+   {
+    "n": 288,
+    "texte": "Kelley JL et al. The Journal of Orthopaedic… 2006",
+    "url": "https://doi.org/10.2519/jospt.2006.2248"
+   },
+   {
+    "n": 289,
+    "texte": "Yoon KB et al. The Korean Journal of Pain 2016",
+    "url": "https://doi.org/10.3344/kjp.2016.29.3.197"
+   },
+   {
+    "n": 290,
+    "texte": "Germanovich A et al. Pain Physician 2016",
+    "url": null
+   },
+   {
+    "n": 272,
+    "texte": "van Kleef M et al. Pain Practice 2010",
+    "url": "https://doi.org/10.1111/j.1533-2500.2010.00376.x"
+   },
+   {
+    "n": 291,
+    "texte": "Z ) 2017",
+    "url": "https://doi.org/10.1007/s40279-016-0613-y"
+   }
+  ],
+  "planche": "d11.webp"
+ },
+ {
+  "no": "D12",
+  "page": 12,
+  "tags": "PAROI THORACIQUE · LÉSION DE STRESS OSSEUX · SPORT D'ENDURANCE",
+  "titre": "FRACTURE DE FATIGUE DE CÔTE (RAMEUR) OU DU STERNUM",
+  "epidemiologie": {
+   "texte": "8–16 % des rameurs d'élite ; sternum : rare.",
+   "refs": [
+    292,
+    293
+   ]
+  },
+  "presentation": {
+   "texte": "douleur costale vague devenant focale, à la respiration profonde et au retournement au lit.",
+   "refs": [
+    291
+   ]
+  },
+  "examen": {
+   "texte": "douleur exquise latérale, compression costale douloureuse.",
+   "refs": [
+    291,
+    294
+   ]
+  },
+  "physiopathologie": {
+   "texte": "forces opposées du dentelé antérieur et de l'oblique externe dépassant le remodelage osseux ; déficit énergétique relatif.",
+   "refs": [
+    294,
+    292
+   ]
+  },
+  "ddx": {
+   "texte": "élongation intercostale, costochondrite, tumeur osseuse.",
+   "refs": [
+    291
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie souvent négative ; IRM ; côtes 4 à 8 antéro- latérales.",
+   "refs": [
+    295,
+    296,
+    292
+   ]
+  },
+  "traitement": {
+   "texte": "arrêt de l'aviron 1–2 semaines, entraînement croisé, reprise graduelle ; corriger apports et vitamine D.",
+   "refs": [
+    292,
+    291
+   ]
+  },
+  "pronostic": {
+   "texte": "4–6 semaines perdues, davantage chez l'élite ; sternum 8– 16 semaines.",
+   "refs": [
+    297,
+    296,
+    298
+   ]
+  },
+  "refs": [
+   {
+    "n": 292,
+    "texte": "Z ) 2011",
+    "url": "https://doi.org/10.2165/11593170-000000000-00000"
+   },
+   {
+    "n": 293,
+    "texte": "Baker JC et al. Skeletal Radiology 2016",
+    "url": "https://doi.org/10.1007/s00256-016-2357-z"
+   },
+   {
+    "n": 291,
+    "texte": "Z ) 2017",
+    "url": "https://doi.org/10.1007/s40279-016-0613-y"
+   },
+   {
+    "n": 294,
+    "texte": "Boden BP et al. The American Journal of… 2001",
+    "url": "https://doi.org/10.1177/03635465010290010201"
+   },
+   {
+    "n": 295,
+    "texte": "Hosea TM et al. Sports Health 2012",
+    "url": "https://doi.org/10.1177/1941738112442484"
+   },
+   {
+    "n": 296,
+    "texte": "Harris R et al. British Journal of Sports… 2020",
+    "url": "https://doi.org/10.1136/bjsports-2019-101584"
+   },
+   {
+    "n": 297,
+    "texte": "D'Ailly PN et al. The Journal of Sports… 2016",
+    "url": null
+   },
+   {
+    "n": 298,
+    "texte": "Z ) 2018",
+    "url": "https://doi.org/10.1007/s40279-018-0990-5"
+   }
+  ],
+  "planche": "d12.webp"
+ },
+ {
+  "no": "D13",
+  "page": 13,
+  "tags": "CHARNIÈRE THORACO-LOMBAIRE · FRACTURE · HAUTE ÉNERGIE",
+  "titre": "FRACTURE TRAUMATIQUE THORACO-LOMBAIRE",
+  "epidemiologie": {
+   "texte": "charnière T11–L2 dans 54 % ; hommes 4 pour 1 ; lésions associées jusqu'à 50 %.",
+   "refs": [
+    299,
+    300
+   ]
+  },
+  "presentation": {
+   "texte": "collision ou chute de hauteur ; rechercher symptômes neurologiques.",
+   "refs": [
+    301
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité médiane, marche d'escalier ; l'examen seul ne peut exclure une fracture.",
+   "refs": [
+    302,
+    303
+   ]
+  },
+  "physiopathologie": {
+   "texte": "faillite des colonnes antérieure et moyenne sous charge axiale à la jonction rigide-mobile.",
+   "refs": [
+    300
+   ]
+  },
+  "ddx": {
+   "texte": "fracture ostéoporotique ou pathologique, lésion en flexion-distraction.",
+   "refs": [
+    218,
+    301
+   ]
+  },
+  "investigations": {
+   "texte": "TDM (Se 94–100 %, contre 49–82 % pour la radiographie) ; IRM si déficit.",
+   "refs": [
+    304,
+    302
+   ]
+  },
+  "traitement": {
+   "texte": "fracture stable sans déficit : mobilisation précoce, corset facultatif ; chirurgie si déficit ou instabilité.",
+   "refs": [
+    305,
+    306,
+    301
+   ]
+  },
+  "pronostic": {
+   "texte": "échec du traitement non chirurgical dans 9 %.",
+   "refs": [
+    307
+   ]
+  },
+  "refs": [
+   {
+    "n": 299,
+    "texte": "Azizi A et al. Neurosurgical Review 2024",
+    "url": "https://doi.org/10.1007/s10143-024-02553-3"
+   },
+   {
+    "n": 300,
+    "texte": "Minawaer Abudou et al. Cochrane Database of… 2013",
+    "url": "https://doi.org/10.1002/14651858.cd005079.pub3"
+   },
+   {
+    "n": 301,
+    "texte": "Wood KB et al. The Spine Journal 2014",
+    "url": "https://doi.org/10.1016/j.spinee.2012.10.041"
+   },
+   {
+    "n": 302,
+    "texte": "Yelamarthy PKK et al. European Spine Journal 2020",
+    "url": "https://doi.org/10.1007/s00586-019-06112-z"
+   },
+   {
+    "n": 303,
+    "texte": "VandenBerg J et al. The Journal of Emergency… 2019",
+    "url": "https://doi.org/10.1016/j.jemermed.2018.10.032"
+   },
+   {
+    "n": 218,
+    "texte": "Creech-Organ J et al. American Family Physician 2026",
+    "url": null
+   },
+   {
+    "n": 304,
+    "texte": "Hassankhani A et al. Journal of the American… 2025",
+    "url": "https://doi.org/10.1016/j.jacr.2025.02.013"
+   },
+   {
+    "n": 305,
+    "texte": "Hoh DJ et al. Neurosurgery 2019",
+    "url": "https://doi.org/10.1093/neuros/nyy369"
+   },
+   {
+    "n": 306,
+    "texte": "Wallace N et al. JBJS Reviews 2019",
+    "url": "https://doi.org/10.2106/JBJS.RVW.19.00006"
+   },
+   {
+    "n": 307,
+    "texte": "European Spine Journal : Official Publication of the European Spine Society et al. 2026; 1007/s00586-026-10402-8",
+    "url": "https://doi.org/10.1007/s00586-019-06112-z"
+   }
+  ],
+  "planche": "d13.webp"
+ },
+ {
+  "no": "D14",
+  "page": 14,
+  "tags": "PAROI THORACIQUE ANTÉRIEURE · INFLAMMATOIRE · ENTHÉSITE",
+  "titre": "ATTEINTE PARIÉTALE ANTÉRIEURE DE LA SPONDYLARTHRITE AXIALE",
+  "epidemiologie": {
+   "texte": "30–60 % des spondylarthrites axiales ; inaugurale dans 4– 6 %.",
+   "refs": [
+    215
+   ]
+  },
+  "presentation": {
+   "texte": "douleur thoracique haute aiguë, à la respiration, nocturne ; poussées de 5 semaines, récidivantes.",
+   "refs": [
+    308
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité ou tuméfaction sterno-claviculaire, manubrio- sternale ou chondro-sternale, mal corrélée à l'IRM.",
+   "refs": [
+    309
+   ]
+  },
+  "physiopathologie": {
+   "texte": "enthésite et synovite des articulations de la paroi.",
+   "refs": [
+    310
+   ]
+  },
+  "ddx": {
+   "texte": "costochondrite, Tietze, SAPHO, infection ou néoplasie.",
+   "refs": [
+    211,
+    311
+   ]
+  },
+  "investigations": {
+   "texte": "CRP, HLA-B27, imagerie sacro-iliaque ; IRM de la paroi.",
+   "refs": [
+    309,
+    215
+   ]
+  },
+  "traitement": {
+   "texte": "AINS (efficaces dans 49 %) ; anti-TNF (80 %).",
+   "refs": [
+    308
+   ]
+  },
+  "pronostic": {
+   "texte": "nouvelles lésions échographiques chez 53 % en 5 ans.",
+   "refs": [
+    312
+   ]
+  },
+  "refs": [
+   {
+    "n": 215,
+    "texte": "Expert Panel on Thoracic Imaging et al. Journal of the American… 2021",
+    "url": "https://doi.org/10.1016/j.jacr.2021.08.004"
+   },
+   {
+    "n": 308,
+    "texte": "Elhai M et al. Joint Bone Spine 2012",
+    "url": "https://doi.org/10.1016/j.jbspin.2011.10.003"
+   },
+   {
+    "n": 309,
+    "texte": "Weber U et al. Arthritis Research & Therapy 2012",
+    "url": "https://doi.org/10.1186/ar3551"
+   },
+   {
+    "n": 310,
+    "texte": "Verhoeven F et al. The Journal of Rheumatology 2015",
+    "url": "https://doi.org/10.3899/jrheum.140409"
+   },
+   {
+    "n": 211,
+    "texte": "Mott T et al. American Family Physician 2021",
+    "url": null
+   },
+   {
+    "n": 311,
+    "texte": "Jurik AG Rheumatology International 1992",
+    "url": "https://doi.org/10.1007/BF00246870"
+   },
+   {
+    "n": 312,
+    "texte": "Verhoeven F et al. Joint Bone Spine 2020",
+    "url": "https://doi.org/10.3899/jrheum.140409"
+   }
+  ],
+  "planche": "d14.webp"
+ },
+ {
+  "no": "D15",
+  "page": 15,
+  "tags": "PAROI THORACIQUE ANTÉRIEURE · TUMÉFACTION CHONDRO-COSTALE ·",
+  "titre": "SYNDROME DE TIETZE",
+  "epidemiologie": {
+   "texte": "rare, surtout chez l'adulte ; incidence non chiffrée.",
+   "refs": [
+    313
+   ]
+  },
+  "presentation": {
+   "texte": "douleur unilatérale d'une seule jonction (2ᵉ ou 3ᵉ), souvent après infection ou traumatisme.",
+   "refs": [
+    211,
+    314
+   ]
+  },
+  "examen": {
+   "texte": "tuméfaction visible non suppurée, absente dans la costochondrite.",
+   "refs": [
+    211,
+    213
+   ]
+  },
+  "physiopathologie": {
+   "texte": "inconnue ; hypervascularisation et dégénérescence du cartilage.",
+   "refs": [
+    315
+   ]
+  },
+  "ddx": {
+   "texte": "costochondrite, arthrite de spondylarthrite ou SAPHO, infection ou tumeur du cartilage, coronaropathie.",
+   "refs": [
+    316,
+    211,
+    214
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; ECG si > 35 ans ou risque ; imagerie si masse à exclure.",
+   "refs": [
+    214,
+    317
+   ]
+  },
+  "traitement": {
+   "texte": "AINS, repos ; infiltration si réfractaire.",
+   "refs": [
+    211,
+    318
+   ]
+  },
+  "pronostic": {
+   "texte": "autolimité, durée non chiffrée.",
+   "refs": [
+    211
+   ]
+  },
+  "refs": [
+   {
+    "n": 313,
+    "texte": "Mukamel M et al. The Journal of Pediatrics 1997",
+    "url": "https://doi.org/10.1016/s0022-3476(97)70114-8"
+   },
+   {
+    "n": 211,
+    "texte": "Mott T et al. American Family Physician 2021",
+    "url": null
+   },
+   {
+    "n": 314,
+    "texte": "Barbut G et al. Pediatrics in Review 2020",
+    "url": "https://doi.org/10.1542/pir.2019-0058"
+   },
+   {
+    "n": 213,
+    "texte": "Waggoner R et al. Pediatrics in Review 2024",
+    "url": "https://doi.org/10.1542/pir.2019-0058"
+   },
+   {
+    "n": 315,
+    "texte": "Cameron HU et al. Journal of Clinical Pathology 1974",
+    "url": "https://doi.org/10.1136/jcp.27.12.960"
+   },
+   {
+    "n": 316,
+    "texte": "Jurik AG et al. Skeletal Radiology 1987",
+    "url": "https://doi.org/10.1007/BF00351265"
+   },
+   {
+    "n": 214,
+    "texte": "Proulx AM et al. American Family Physician 2009",
+    "url": null
+   },
+   {
+    "n": 317,
+    "texte": "Edelstein G et al. Journal of Computer Assisted… 1984",
+    "url": "https://doi.org/10.1097/00004728-198402000-00004"
+   },
+   {
+    "n": 318,
+    "texte": "Cho JY et al. American Journal of Physical… 2019",
+    "url": "https://doi.org/10.1097/PHM.0000000000001072"
+   }
+  ],
+  "planche": "d15.webp"
+ },
+ {
+  "no": "D16",
+  "page": 16,
+  "tags": "REBORD COSTAL INFÉRIEUR · HYPERMOBILITÉ COSTALE · SUJET JEUNE",
+  "titre": "SYNDROME DE LA CÔTE GLISSANTE",
+  "epidemiologie": {
+   "texte": "sportifs jeunes, 70 % de femmes ; retard diagnostique de 15 mois.",
+   "refs": [
+    319
+   ]
+  },
+  "presentation": {
+   "texte": "douleur unilatérale basithoracique ou abdominale haute avec ressaut, à la flexion et à la torsion.",
+   "refs": [
+    319,
+    320
+   ]
+  },
+  "examen": {
+   "texte": "manœuvre du crochet (Se 70 %) ; côtes 8 à 10.",
+   "refs": [
+    321,
+    319
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fausses côtes hypermobiles glissant sous la côte sus- jacente et irritant le nerf intercostal.",
+   "refs": [
+    322
+   ]
+  },
+  "ddx": {
+   "texte": "costochondrite, pathologie biliaire ou digestive, radiculopathie thoracique.",
+   "refs": [
+    320
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; échographie dynamique (Se 89 %, Sp 100 %).",
+   "refs": [
+    323
+   ]
+  },
+  "traitement": {
+   "texte": "modification d'activité, AINS ; bloc intercostal ; chirurgie si échec.",
+   "refs": [
+    319,
+    324,
+    325
+   ]
+  },
+  "pronostic": {
+   "texte": "après chirurgie chez l'enfant, 72 % guéris à 4,5 ans.",
+   "refs": [
+    326
+   ]
+  },
+  "refs": [
+   {
+    "n": 319,
+    "texte": "Foley CM et al. Clinical Journal of Sport… 2019",
+    "url": "https://doi.org/10.1097/JSM.0000000000000506"
+   },
+   {
+    "n": 320,
+    "texte": "Niedenfuehr J et al. The Journal of International… 2026",
+    "url": "https://doi.org/10.1177/03000605261500652"
+   },
+   {
+    "n": 321,
+    "texte": "Vijay CS et al. Pediatrics in Review 2020",
+    "url": "https://doi.org/10.1542/pir.2018-0176"
+   },
+   {
+    "n": 322,
+    "texte": "McMahon LE Seminars in Pediatric Surgery 2018",
+    "url": "https://doi.org/10.1053/j.sempedsurg.2018.05.009"
+   },
+   {
+    "n": 323,
+    "texte": "Van Tassel D et al. Skeletal Radiology 2019",
+    "url": "https://doi.org/10.1007/s00256-018-3133-z"
+   },
+   {
+    "n": 324,
+    "texte": "Gress K et al. Psychopharmacology Bulletin 2020",
+    "url": null
+   },
+   {
+    "n": 325,
+    "texte": "Caldwell AS et al. Pediatric Radiology 2023",
+    "url": "https://doi.org/10.1542/pir.2018-0176"
+   },
+   {
+    "n": 326,
+    "texte": "Fraser JA et al. Journal of Pediatric Surgery 2021",
+    "url": "https://doi.org/10.1016/j.jpedsurg.2021.01.034"
+   }
+  ],
+  "planche": "d16.webp"
+ },
+ {
+  "no": "D17",
+  "page": 17,
+  "tags": "RACHIS DORSAL · COMPRESSION RADICULAIRE OU MÉDULLAIRE · RARE",
+  "titre": "HERNIE DISCALE THORACIQUE SYMPTOMATIQUE",
+  "epidemiologie": {
+   "texte": "0,15–4 % des chirurgies discales ; hernie visible chez 37 % des asymptomatiques.",
+   "refs": [
+    327,
+    328
+   ]
+  },
+  "presentation": {
+   "texte": "douleur en ceinture ; myélopathie insidieuse ; peut mimer une douleur cardiaque ou digestive.",
+   "refs": [
+    329,
+    327
+   ]
+  },
+  "examen": {
+   "texte": "déficit moteur 20 %, sensitif 26 %, trouble de la marche 18 %, vésical 17 %.",
+   "refs": [
+    330
+   ]
+  },
+  "physiopathologie": {
+   "texte": "disque dégénéré, souvent calcifié, comprimant un canal étroit.",
+   "refs": [
+    331,
+    330
+   ]
+  },
+  "ddx": {
+   "texte": "zona, métastase, spondylodiscite, démyélinisation, douleur viscérale.",
+   "refs": [
+    327,
+    332
+   ]
+  },
+  "investigations": {
+   "texte": "IRM (± TDM si calcifiée), corrélée à la clinique.",
+   "refs": [
+    333,
+    328
+   ]
+  },
+  "traitement": {
+   "texte": "conservateur si douleur axiale ou radiculaire ; décompression si myélopathie.",
+   "refs": [
+    334,
+    331
+   ]
+  },
+  "pronostic": {
+   "texte": "27 % finissent opérés ; résorption possible.",
+   "refs": [
+    335,
+    336
+   ]
+  },
+  "refs": [
+   {
+    "n": 327,
+    "texte": "Yuan L et al. European Spine Journal 2021",
+    "url": "https://doi.org/10.1007/s00586-020-06688-x"
+   },
+   {
+    "n": 328,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 1995",
+    "url": "https://doi.org/10.2106/00004623-199511000-00001"
+   },
+   {
+    "n": 329,
+    "texte": "Nature Reviews Disease Primers 2026",
+    "url": "https://doi.org/10.1038/s41572-025-00681-8"
+   },
+   {
+    "n": 330,
+    "texte": "European Spine Journal : Official Publication of the European Spine Society et al. 2026; 1007/s00586-026-09797-1",
+    "url": "https://doi.org/10.1007/s00586-020-06688-x"
+   },
+   {
+    "n": 331,
+    "texte": "Nakajima H et al. European Spine Journal 2021",
+    "url": "https://doi.org/10.1007/s00586-026-09797-1"
+   },
+   {
+    "n": 332,
+    "texte": "Khan U et al. Current Pain and Headache… 2021",
+    "url": "https://doi.org/10.1007/s11916-021-00944-5"
+   },
+   {
+    "n": 333,
+    "texte": "Komp M et al. European Spine Journal 2023",
+    "url": "https://doi.org/10.1007/s00586-026-09797-1"
+   },
+   {
+    "n": 334,
+    "texte": "Dietze DD et al. Neurosurgery Clinics of North… 1993",
+    "url": null
+   },
+   {
+    "n": 335,
+    "texte": "Brown CW et al. Spine 1992",
+    "url": "https://doi.org/10.1097/00007632-199206001-00006"
+   },
+   {
+    "n": 336,
+    "texte": "Wood KB et al. Spine 1997",
+    "url": "https://doi.org/10.1097/00007632-199703010-00011"
+   }
+  ],
+  "planche": "d17.webp"
+ },
+ {
+  "no": "D18",
+  "page": 18,
+  "tags": "RACHIS DORSAL · INFECTION · URGENCE",
+  "titre": "SPONDYLODISCITE THORACIQUE",
+  "renvoi": {
+   "texte": "Voir la fiche C18. Particularités : la tuberculose prédilectionne le rachis thoracique ; une IRM négative exclut l'infection ; mortalité à 1 an de 9,5–18 % et rechute de 13 % en 2 ans.",
+   "refs": [
+    337,
+    143,
+    338,
+    339
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 337,
+    "texte": "Christopher J Palestro, Charito Love Chapter 26",
+    "url": null
+   },
+   {
+    "n": 143,
+    "texte": "Lazzeri E et al. European Journal of Nuclear… 2019",
+    "url": "https://doi.org/10.1007/s00259-019-04393-6"
+   },
+   {
+    "n": 338,
+    "texte": "Lindvig SO et al. Annals of Medicine 2026",
+    "url": "https://doi.org/10.1080/07853890.2026.2738249"
+   },
+   {
+    "n": 339,
+    "texte": "Geisler Crone C et al. International Journal of… 2021",
+    "url": "https://doi.org/10.1016/j.ijid.2021.05.078"
+   }
+  ],
+  "planche": "d18.webp"
+ },
+ {
+  "no": "D19",
+  "page": 19,
+  "tags": "RACHIS DORSAL · NÉOPLASIQUE · URGENCE",
+  "titre": "MÉTASTASE VERTÉBRALE / MYÉLOME / COMPRESSION MÉDULLAIRE",
+  "epidemiologie": {
+   "texte": "jusqu'à 40 % des cancéreux ; compression chez 10–20 % d'entre eux ; thoracique dans 60–70 % ; révélatrice dans 20 %.",
+   "refs": [
+    340,
+    341
+   ]
+  },
+  "presentation": {
+   "texte": "dorsalgie précédant le déficit de 2–3 mois, pire couché et la nuit ; douleur en ceinture.",
+   "refs": [
+    342
+   ]
+  },
+  "examen": {
+   "texte": "douleur à la percussion, faiblesse (35–75 %), niveau sensitif ; sphincters atteints tardivement.",
+   "refs": [
+    141,
+    342
+   ]
+  },
+  "physiopathologie": {
+   "texte": "extension épidurale d'une métastase vertébrale, congestion veineuse puis ischémie.",
+   "refs": [
+    343
+   ]
+  },
+  "ddx": {
+   "texte": "spondylodiscite, abcès épidural, atteinte leptoméningée.",
+   "refs": [
+    341,
+    344
+   ]
+  },
+  "investigations": {
+   "texte": "IRM du rachis complet en moins de 24 heures ; électrophorèse, immunofixation, chaînes légères, FSC, calcium, créatinine.",
+   "refs": [
+    345,
+    346,
+    347
+   ]
+  },
+  "traitement": {
+   "texte": "dexaméthasone sans délai, puis radiothérapie ± chirurgie.",
+   "refs": [
+    348,
+    349
+   ]
+  },
+  "pronostic": {
+   "texte": "la marche avant traitement est le meilleur prédicteur ; survie médiane 15,6 mois si ambulant, contre 5,8.",
+   "refs": [
+    342
+   ]
+  },
+  "refs": [
+   {
+    "n": 340,
+    "texte": "Reena George et al. Cochrane Database of… 2015",
+    "url": "https://doi.org/10.1002/14651858.cd006716.pub3"
+   },
+   {
+    "n": 341,
+    "texte": "The Lancet Neurology 2010",
+    "url": "https://doi.org/10.1016/S1474-4422(10)70220-9"
+   },
+   {
+    "n": 342,
+    "texte": "The Lancet Neurology 2008",
+    "url": "https://doi.org/10.1016/S1474-4422(10)70220-9"
+   },
+   {
+    "n": 141,
+    "texte": "Ropper AE et al. The New England Journal of… 2017",
+    "url": "https://doi.org/10.1056/NEJMra1516539"
+   },
+   {
+    "n": 343,
+    "texte": "Pipola V et al. Supportive Care in Cancer 2018",
+    "url": "https://doi.org/10.1007/s00520-018-4176-3"
+   },
+   {
+    "n": 344,
+    "texte": "Central Nervous System Cancers National Comprehensive Cancer… 2026",
+    "url": null
+   },
+   {
+    "n": 345,
+    "texte": "The Lancet Oncology 2022",
+    "url": "https://doi.org/10.1016/S1470-2045(22)00092-4"
+   },
+   {
+    "n": 346,
+    "texte": "Liu Y et al. JAMA Internal Medicine 2025",
+    "url": "https://doi.org/10.1001/jamainternmed.2024.8124"
+   },
+   {
+    "n": 347,
+    "texte": "Cowan AJ et al. JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.0003"
+   },
+   {
+    "n": 348,
+    "texte": "Managing Complications of Cancer Lesley Charman, Rachael… Chapter 13",
+    "url": null
+   },
+   {
+    "n": 349,
+    "texte": "Patchell RA et al. Lancet (London, England) 2005",
+    "url": "https://doi.org/10.1016/S0140-6736(05)66954-1"
+   }
+  ],
+  "planche": "d19.webp"
+ },
+ {
+  "no": "D20",
+  "page": 20,
+  "tags": "PAROI THORACIQUE · NEUROPATHIQUE · DERMATOME",
+  "titre": "NÉVRALGIE INTERCOSTALE / ZONA",
+  "epidemiologie": {
+   "texte": "risque à vie de 24–30 % ; névralgie post-zostérienne après 5,8 % des zonas.",
+   "refs": [
+    350,
+    351
+   ]
+  },
+  "presentation": {
+   "texte": "douleur en hémiceinture précédant l'éruption de quelques jours.",
+   "refs": [
+    352
+   ]
+  },
+  "examen": {
+   "texte": "vésicules unilatérales d'un dermatome, sans franchir la ligne médiane.",
+   "refs": [
+    211
+   ]
+  },
+  "physiopathologie": {
+   "texte": "réactivation du virus latent dans le ganglion rachidien par déclin de l'immunité cellulaire.",
+   "refs": [
+    353
+   ]
+  },
+  "ddx": {
+   "texte": "avant l'éruption : ischémie cardiaque, pathologie biliaire, radiculopathie thoracique, élongation intercostale.",
+   "refs": [
+    354
+   ]
+  },
+  "investigations": {
+   "texte": "aucune.",
+   "refs": [
+    355
+   ]
+  },
+  "traitement": {
+   "texte": "antiviral dans les 72 heures ; névralgie : gabapentinoïde, tricyclique ou IRSN, lidocaïne topique ; vaccin recombinant dès 50 ans.",
+   "refs": [
+    356,
+    357
+   ]
+  },
+  "pronostic": {
+   "texte": "douleur persistante chez 20 % à 3 mois ; vaccin efficace à 97 %, encore 82 % à 11 ans.",
+   "refs": [
+    358,
+    359
+   ]
+  },
+  "refs": [
+   {
+    "n": 350,
+    "texte": "Bricout H et al. BMC Public Health 2015",
+    "url": "https://doi.org/10.1186/s12889-015-1753-y"
+   },
+   {
+    "n": 351,
+    "texte": "Forbes HJ et al. Neurology 2016",
+    "url": "https://doi.org/10.1212/WNL.0000000000002808"
+   },
+   {
+    "n": 352,
+    "texte": "Xin Jiang et al. Cochrane Database of… 2023",
+    "url": "https://doi.org/10.1002/14651858.cd005582.pub5"
+   },
+   {
+    "n": 211,
+    "texte": "Mott T et al. American Family Physician 2021",
+    "url": null
+   },
+   {
+    "n": 353,
+    "texte": "Cohen JI The New England Journal of… 2013",
+    "url": "https://doi.org/10.1056/NEJMcp1302674"
+   },
+   {
+    "n": 354,
+    "texte": "Gulati M et al. Journal of the American… 2021",
+    "url": "https://doi.org/10.1016/j.jacc.2021.07.053"
+   },
+   {
+    "n": 355,
+    "texte": "Nature Reviews Disease Primers 2026",
+    "url": "https://doi.org/10.1038/s41572-026-00735-5"
+   },
+   {
+    "n": 356,
+    "texte": "Schmader K Annals of Internal Medicine 2018",
+    "url": "https://doi.org/10.7326/AITC201808070"
+   },
+   {
+    "n": 357,
+    "texte": "Jones K et al. American Family Physician 2026",
+    "url": null
+   },
+   {
+    "n": 358,
+    "texte": "Johnson RW et al. The New England Journal of… 2014",
+    "url": "https://doi.org/10.1056/NEJMcp1403062"
+   },
+   {
+    "n": 359,
+    "texte": "Strezova A et al. EClinicalMedicine 2025",
+    "url": "https://doi.org/10.1016/j.eclinm.2025.103241"
+   }
+  ],
+  "planche": "d20.webp"
+ },
+ {
+  "no": "D21",
+  "page": 21,
+  "tags": "PAROI THORACIQUE · ENFANT · BÉNIN",
+  "titre": "DOULEUR THORACIQUE PARIÉTALE DE L'ENFANT ET DE L'ADOLESCENT",
+  "epidemiologie": {
+   "texte": "cause cardiaque dans moins de 1 à 2,5 % ; musculosquelettique et idiopathique, 35 % chacune.",
+   "refs": [
+    360,
+    361
+   ]
+  },
+  "presentation": {
+   "texte": "précordialgie bénigne : douleur soudaine, punctiforme, au repos, à l'inspiration, durant 30 secondes à 3 minutes.",
+   "refs": [
+    314
+   ]
+  },
+  "examen": {
+   "texte": "douleur reproduite à la palpation = origine pariétale ; examen normal dans la précordialgie bénigne.",
+   "refs": [
+    360,
+    213
+   ]
+  },
+  "physiopathologie": {
+   "texte": "mal comprise ; ni cardiaque ni péricardique.",
+   "refs": [
+    314
+   ]
+  },
+  "ddx": {
+   "texte": "costochondrite, côte glissante, asthme, péricardite ou myocardite, arythmie.",
+   "refs": [
+    213,
+    314,
+    362
+   ]
+  },
+  "investigations": {
+   "texte": "ECG seulement si drapeau rouge (effort, syncope, palpitations, histoire familiale) : cause cardiaque dans 13,5 % avec, 0,3 % sans.",
+   "refs": [
+    314,
+    362
+   ]
+  },
+  "traitement": {
+   "texte": "réassurance ; AINS si origine pariétale.",
+   "refs": [
+    314
+   ]
+  },
+  "pronostic": {
+   "texte": "bénin ; résolution en semaines à mois.",
+   "refs": [
+    213
+   ]
+  },
+  "refs": [
+   {
+    "n": 360,
+    "texte": "Expert Panel on Pediatric Imaging et al. Journal of the American… 2026",
+    "url": "https://doi.org/10.1016/j.jacr.2026.01.022"
+   },
+   {
+    "n": 361,
+    "texte": "Alsabri M et al. PloS One 2024",
+    "url": "https://doi.org/10.1371/journal.pone.0294461"
+   },
+   {
+    "n": 314,
+    "texte": "Barbut G et al. Pediatrics in Review 2020",
+    "url": "https://doi.org/10.1542/pir.2019-0058"
+   },
+   {
+    "n": 213,
+    "texte": "Waggoner R et al. Pediatrics in Review 2024",
+    "url": "https://doi.org/10.1542/pir.2019-0058"
+   },
+   {
+    "n": 362,
+    "texte": "Vasic K et al. BMC Pediatrics 2026",
+    "url": "https://doi.org/10.1186/s12887-026-06945-w"
+   }
+  ],
+  "planche": "d21.webp"
+ },
+ {
+  "no": "D22",
+  "page": 22,
+  "tags": "RÉGION INTERSCAPULAIRE · DOULEUR MUSCULAIRE · POSTURALE",
+  "titre": "SYNDROME MYOFASCIAL INTERSCAPULAIRE",
+  "epidemiologie": {
+   "texte": "douleur myofasciale chez 30 % des consultants pour douleur musculosquelettique.",
+   "refs": [
+    363
+   ]
+  },
+  "presentation": {
+   "texte": "douleur locale et projetée, déclencheurs posturaux.",
+   "refs": [
+    364
+   ]
+  },
+  "examen": {
+   "texte": "bande tendue et point exquis reproduisant la douleur ; fiabilité faible.",
+   "refs": [
+    364,
+    365
+   ]
+  },
+  "physiopathologie": {
+   "texte": "hypothèse de crise énergétique locale ; parfois secondaire à une douleur viscérale.",
+   "refs": [
+    366,
+    364
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie C7, compression du nerf dorsal de la scapula, douleur viscérale, tumeur de Pancoast.",
+   "refs": [
+    367,
+    368,
+    369,
+    370
+   ]
+  },
+  "investigations": {
+   "texte": "aucune sans drapeau rouge.",
+   "refs": [
+    27
+   ]
+  },
+  "traitement": {
+   "texte": "exercices, étirements, compression ischémique ; puncture sèche ou injection.",
+   "refs": [
+    18,
+    371
+   ]
+  },
+  "pronostic": {
+   "texte": "non documenté ; les points actifs nombreux accompagnent une douleur plus longue.",
+   "refs": [
+    372
+   ]
+  },
+  "refs": [
+   {
+    "n": 363,
+    "texte": "Shipton B et al. American Family Physician 2023",
+    "url": null
+   },
+   {
+    "n": 364,
+    "texte": "Affaitati G et al. Journal of Neural… 2020",
+    "url": "https://doi.org/10.1007/s00702-019-02107-8"
+   },
+   {
+    "n": 365,
+    "texte": "Ribeiro DC et al. BMC Musculoskeletal Disorders 2018",
+    "url": "https://doi.org/10.1186/s12891-018-2157-9"
+   },
+   {
+    "n": 366,
+    "texte": "Aki Y et al. PloS One 2025",
+    "url": "https://doi.org/10.1371/journal.pone.0335268"
+   },
+   {
+    "n": 367,
+    "texte": "Kuijper B et al. European Journal of Neurology 2009",
+    "url": "https://doi.org/10.1111/j.1468-1331.2008.02365.x"
+   },
+   {
+    "n": 368,
+    "texte": "Sultan HE et al. Archives of Physical Medicine… 2013",
+    "url": "https://doi.org/10.1016/j.apmr.2012.11.040"
+   },
+   {
+    "n": 369,
+    "texte": "Nature Reviews Disease Primers 2020",
+    "url": "https://doi.org/10.1038/s41572-019-0135-7"
+   },
+   {
+    "n": 370,
+    "texte": "Haas R et al. JAMA Internal Medicine 2026",
+    "url": "https://doi.org/10.1001/jamainternmed.2026.3135"
+   },
+   {
+    "n": 27,
+    "texte": "Theodore N The New England Journal of… 2020",
+    "url": "https://doi.org/10.1056/NEJMra2003558"
+   },
+   {
+    "n": 18,
+    "texte": "Cagnie B et al. American Journal of Physical… 2015",
+    "url": "https://doi.org/10.1097/PHM.0000000000000266"
+   },
+   {
+    "n": 371,
+    "texte": "Liu L et al. Archives of Physical Medicine… 2015",
+    "url": "https://doi.org/10.1016/j.apmr.2014.12.015"
+   },
+   {
+    "n": 372,
+    "texte": "Pain Medicine (Malden et al. ) 2019",
+    "url": "https://doi.org/10.1093/pm/pnz020"
+   }
+  ],
+  "planche": "d22.webp"
+ },
+ {
+  "no": "D23",
+  "page": 23,
+  "tags": "ARTICULATION STERNO-CLAVICULAIRE · TRAUMATISME · ANTÉRIEURE OU",
+  "titre": "ENTORSE OU LUXATION STERNO-CLAVICULAIRE",
+  "epidemiologie": {
+   "texte": "1–3 % des lésions de la ceinture scapulaire ; antérieure dans 73–95 %.",
+   "refs": [
+    373,
+    374
+   ]
+  },
+  "presentation": {
+   "texte": "antérieure : force indirecte sur l'épaule ; postérieure : choc direct ; dyspnée, dysphagie, voix rauque = alerte.",
+   "refs": [
+    375,
+    376
+   ]
+  },
+  "examen": {
+   "texte": "saillie médiale de la clavicule (antérieure) ou dépression parasternale (postérieure).",
+   "refs": [
+    377
+   ]
+  },
+  "physiopathologie": {
+   "texte": "stabilité purement ligamentaire ; avant la fusion de la physe médiale (22–25 ans), fracture physaire plutôt que luxation.",
+   "refs": [
+    374,
+    378
+   ]
+  },
+  "ddx": {
+   "texte": "fracture physaire, fracture de la clavicule, arthrose, SAPHO.",
+   "refs": [
+    379,
+    377,
+    311
+   ]
+  },
+  "investigations": {
+   "texte": "TDM, ± angio-TDM.",
+   "refs": [
+    380
+   ]
+  },
+  "traitement": {
+   "texte": "entorse : écharpe 2–3 semaines ; luxation antérieure : traitement fermé ; postérieure : réduction au bloc en urgence.",
+   "refs": [
+    298,
+    375
+   ]
+  },
+  "pronostic": {
+   "texte": "postérieure : compression médiastinale dans 30 %, mortalité 3–4 % ; fonction complète chez 92 % après traitement fermé.",
+   "refs": [
+    376,
+    298
+   ]
+  },
+  "refs": [
+   {
+    "n": 373,
+    "texte": "Kapoor U et al. The American Journal of… 2026",
+    "url": "https://doi.org/10.1177/03635465251407324"
+   },
+   {
+    "n": 374,
+    "texte": "Somberg O et al. European Journal of Trauma… 2026",
+    "url": "https://doi.org/10.1007/s00068-026-03194-5"
+   },
+   {
+    "n": 375,
+    "texte": "Simon LM et al. American Family Physician 2023",
+    "url": null
+   },
+   {
+    "n": 376,
+    "texte": "Damschen J et al. The American Journal of… 2023",
+    "url": "https://doi.org/10.1177/03635465221131900"
+   },
+   {
+    "n": 377,
+    "texte": "Martetschläger F et al. The American Journal of… 2014",
+    "url": "https://doi.org/10.1177/0363546513498990"
+   },
+   {
+    "n": 378,
+    "texte": "Tepolt F et al. The American Journal of… 2014",
+    "url": "https://doi.org/10.1177/0363546513498990"
+   },
+   {
+    "n": 379,
+    "texte": "Kim WG et al. Pediatric Radiology 2023",
+    "url": "https://doi.org/10.1007/s00247-023-05617-6"
+   },
+   {
+    "n": 311,
+    "texte": "Jurik AG Rheumatology International 1992",
+    "url": "https://doi.org/10.1007/BF00246870"
+   },
+   {
+    "n": 380,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2026",
+    "url": "https://doi.org/10.2106/JBJS.25.01025"
+   },
+   {
+    "n": 298,
+    "texte": "Z ) 2018",
+    "url": "https://doi.org/10.1007/s40279-018-0990-5"
+   }
+  ],
+  "planche": "d23.webp"
+ }
+]
