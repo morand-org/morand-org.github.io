@@ -33,11 +33,11 @@
 
   const INFOS = {
     mecanisme: { info: "Inversion : entorse latérale. Éversion ou rotation externe du pied : syndesmose (RV+ 3,47 ; Baltes 2022) et ligament deltoïde. Poussée ou départ explosif : tendon d'Achille ou mollet." },
-    disproportion: { info: "Une douleur disproportionnée par rapport à la blessure oriente vers une entorse de la syndesmose (RV+ 3,05 ; Sp 79 % ; Sman 2015). Avec des paresthésies, penser au syndrome des loges." },
+    disproportion: { info: "Une douleur disproportionnée par rapport à la blessure oriente vers une entorse de la syndesmose (RV+ 3,05 ; Sp 79 % ; Sman 2015). Avec des paresthésies, penser au syndrome compartimental." },
     coup_baton: { info: "La sensation d'un coup de bâton ou d'un pop derrière la cheville évoque une rupture du tendon d'Achille ; au mollet, une lésion du jumeau interne (tennis leg)." },
     derobade: { info: "Des entorses à répétition ou une sensation que la cheville cède : instabilité chronique (environ 40 % après une première entorse)." },
-    localisation: { aide: "Plusieurs choix possibles", info: "Douleur du tendon d'Achille 2 à 6 cm au-dessus de l'insertion : tendinopathie corporéale (Se 84 %, Sp 73 %, RV+ 3,1 ; absente, RV− 0,22). À l'insertion : tendinopathie d'insertion ou bursite (chez l'enfant, Sever). Bord interne du tibia, diffus : périostite ; point précis : fracture de fatigue. Une fois un siège coché, les sièges non cochés comptent comme absents." },
-    effort_loge: { info: "Douleur ou tension qui revient après un temps d'effort fixe et cède en quelques minutes au repos, parfois avec engourdissements : syndrome de loge chronique d'effort (27–34 % des douleurs de jambe d'effort chez le sportif)." },
+    localisation: { aide: "Plusieurs choix possibles", info: "Douleur du tendon d'Achille 2 à 6 cm au-dessus de l'insertion : tendinopathie corporéale (Se 84 %, Sp 73 %, RV+ 3,1 ; absente, RV− 0,22). À l'insertion : tendinopathie d'insertion ou bursite (chez l'enfant, Sever). Bord interne du tibia, diffus : périostite ; point précis : fracture de stress. Une fois un siège coché, les sièges non cochés comptent comme absents." },
+    effort_loge: { info: "Douleur ou tension qui revient après un temps d'effort fixe et cède en quelques minutes au repos, parfois avec engourdissements : syndrome compartimental chronique d'effort (27–34 % des douleurs de jambe d'effort chez le sportif)." },
     ex_oedeme_lat: { info: "Dans les 2 premiers jours, un gonflement latéral est présent dans toutes les ruptures ligamentaires latérales (Se 100 %, n = 43 ; Baltes 2024) : son absence rend la rupture peu probable." },
     ex_ecchymose: { info: "Hématome : présent chez 43 % des ruptures ligamentaires latérales à l'examen aigu, 91 % à l'examen différé (J4–J7) ; Sp 85 % (Baltes 2024)." },
     trop_orteils: { info: "Vu de derrière, plus d'orteils visibles du côté atteint : avant-pied en abduction (dysfonction du tibial postérieur). Négatif dans 20–35 % des cas.", video: "Too many toes sign" },
@@ -55,11 +55,15 @@
     matles: { info: "Sur le ventre, genoux fléchis à 90° : le pied atteint tombe en dorsiflexion. Rupture : Se 88 %, Sp 85 %.", positif: "pied en neutre ou en dorsiflexion du côté atteint", video: "Matles test" },
     royal_london: { info: "Douleur du tendon à la palpation en légère flexion plantaire qui disparaît en dorsiflexion. Tendinopathie achilléenne : Se 54 %, Sp 86 % (RV+ 3,84).", positif: "douleur qui diminue nettement en dorsiflexion", video: "Royal London Hospital test" },
     arc_sign: { info: "Le renflement du tendon bouge avec la flexion-extension de la cheville (tendinopathie intratendineuse). Se 42 %, Sp 88 %.", positif: "épaississement qui se déplace avec le tendon", video: "Arc sign Achilles" },
-    saut_uni: { info: "Saut unipodal impossible : Se 89 % pour la syndesmose (possible, RV− 0,37). Douleur au saut : fracture de fatigue du tibia (Se 100 %, Sp 45 %)." },
+    saut_uni: { info: "Saut unipodal impossible : Se 89 % pour la syndesmose (possible, RV− 0,37). Douleur au saut : fracture de stress du tibia (Se 100 %, Sp 45 %)." },
     pointe_uni: { info: "Montée sur pointe unipodale impossible ou sans inversion du talon : dysfonction du tibial postérieur ; faible ou impossible après un traumatisme : rupture du tendon d'Achille.", video: "Single leg heel raise test" },
     tinel_tarsien: { info: "Percussion du nerf tibial derrière la malléole interne.", positif: "paresthésies plantaires reproduites", video: "Tinel sign tarsal tunnel" },
     ott_4pas: { info: "Critère d'Ottawa : incapable de faire 4 pas (2 transferts de poids sur chaque pied) immédiatement après la blessure et à l'examen. Règles complètes : Se 99,4 %, Sp 35,3 %, RV− 0,08 ; valides dès 5 ans." },
   };
+
+  /* Les règles d'Ottawa ont été mesurées chez des blessés récents, souvent enflés ou ecchymotiques : quand elles
+     s'appliquent, la durée, l'œdème et l'ecchymose ne comptent plus à part pour la fracture (pas de double compte). */
+  const OTT_POP = ["ott_4pas", "p_mall_lat", "p_mall_med", "p_5mt", "p_navic", "duree", "oedeme_rapide", "ex_oedeme_lat", "ex_ecchymose"];
 
   window.Locomoteur.definir({
     id: "cheville", partie: "cheville", en: "ankle", rc: "Douleur à la cheville",
@@ -82,9 +86,9 @@
         repere: "164–179/100 000 p-a chez l'adulte ; 3ᵉ fracture après 65 ans (A, C)" },
       { id: "periostite", nom: "Périostite tibiale (syndrome de stress tibial médial)", n: "périostite tibiale", base: [[12, .02], [16, .06], [22, .06], [35, .03], [50, .01], [70, .003]], sexe: { F: 1.5, M: .75 },
         repere: "13–17 % des blessures de course ; 13,6–20 % des coureurs (A, C)" },
-      { id: "ff_tibia", nom: "Fracture de fatigue du tibia ou de la fibula", n: "fracture de fatigue tibiale", base: [[12, .01], [18, .025], [25, .02], [40, .01], [60, .004]], sexe: { F: 1.5, M: .75 },
-        repere: "Tibia : 49 % des fractures de fatigue de l'athlète (A, C)" },
-      { id: "loge", nom: "Syndrome de loge chronique d'effort", n: "syndrome de loge chronique d'effort", base: [[12, .005], [18, .02], [30, .02], [45, .01], [60, .003]],
+      { id: "ff_tibia", nom: "Fracture de stress du tibia ou de la fibula", n: "fracture de stress tibiale", base: [[12, .01], [18, .025], [25, .02], [40, .01], [60, .004]], sexe: { F: 1.5, M: .75 },
+        repere: "Tibia : 49 % des fractures de stress de l'athlète (A, C)" },
+      { id: "loge", nom: "Syndrome compartimental chronique d'effort", n: "syndrome compartimental chronique d'effort", base: [[12, .005], [18, .02], [30, .02], [45, .01], [60, .003]],
         repere: "27–34 % des douleurs de jambe d'effort en séries sportives (A, C)" },
       { id: "mollet", nom: "Lésion musculaire du mollet (tennis leg)", n: "lésion musculaire du mollet", base: [[12, .003], [25, .01], [40, .03], [55, .03], [70, .015]], sexe: { M: 1.3, F: .75 },
         repere: "13 % des lésions musculaires au football professionnel ; 15 % des blessures du coureur amateur (C)" },
@@ -120,9 +124,9 @@
       ["periostite", "ff_tibia"], ["syndesmose", "fracture"], ["instab", "entorse_lat"]],
 
     grappes: [
-      { id: "ottawa_neg", dx: "fracture", nom: "Règles d'Ottawa négatives", rv: .08, couvre: ["ott_4pas", "p_mall_lat", "p_mall_med", "p_5mt", "p_navic"], statut: "verifie",
+      { id: "ottawa_neg", dx: "fracture", nom: "Règles d'Ottawa négatives", rv: .08, couvre: OTT_POP, statut: "verifie",
         piste: `${BACHMANN} : Se 99,4 %, Sp 35,3 %, RV− 0,08`, si: L => ["ott_4pas", "p_mall_lat", "p_mall_med", "p_5mt", "p_navic"].every(id => L.non(id)) },
-      { id: "ottawa_pos", dx: "fracture", nom: "Règles d'Ottawa positives (au moins un critère)", rv: 1.54, se: .994, sp: .353, couvre: ["ott_4pas", "p_mall_lat", "p_mall_med", "p_5mt", "p_navic"], statut: "verifie",
+      { id: "ottawa_pos", dx: "fracture", nom: "Règles d'Ottawa positives (au moins un critère)", rv: 1.54, se: .994, sp: .353, couvre: OTT_POP, statut: "verifie",
         piste: `${BACHMANN} : RV+ 1,54 (calculé) ; ne confirme pas`, si: L => ["ott_4pas", "p_mall_lat", "p_mall_med", "p_5mt", "p_navic"].some(id => L.oui(id)) },
     ],
 
@@ -369,7 +373,7 @@
         ? { niveau: "urgence", titre: "Déformation ou atteinte vasculaire", ro: "fracture-luxation", texte: "Pied froid ou pâle, pouls diminués ou déformation visible.",
           conduite: [{ t: "Urgence : réalignement, immobilisation, radiographies ; évaluation vasculaire" }] } : null,
       L => (L.trauma() && L.oui("disproportion") && (L.oui("paresthesies") || L.oui("sensibilite_dim")))
-        ? { niveau: "urgence", titre: "Syndrome des loges aigu à éliminer", ro: "syndrome des loges", texte: "Douleur disproportionnée après un traumatisme, avec engourdissements ou sensibilité diminuée.",
+        ? { niveau: "urgence", titre: "Syndrome compartimental aigu à éliminer", ro: "syndrome compartimental", texte: "Douleur disproportionnée après un traumatisme, avec engourdissements ou sensibilité diminuée.",
           conduite: [{ t: "Urgence : mesure des pressions et avis orthopédique immédiat ; retirer plâtre ou bandage serré" }] } : null,
       L => L.oui("mollet_tvp") ? { niveau: "rapide", titre: "Thrombose veineuse profonde à éliminer", ro: "TVP", texte: "Mollet enflé, chaud ou douloureux. Différence de diamètre des mollets : RV+ 1,8 ; le signe de Homans n'a pas de valeur.",
         conduite: [{ t: "Score de Wells, D-dimères ou écho-doppler selon la probabilité" }], liens: [{ t: "CRDS : thrombophlébite profonde", u: "/crds/?q=TVP" }] } : null,

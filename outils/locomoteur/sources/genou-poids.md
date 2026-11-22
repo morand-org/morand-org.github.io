@@ -506,7 +506,7 @@ Conduite :
 - Diagnostic clinique (sensibilité environ 5 cm sous l'interligne médial, douleur aux escaliers) ; chercher une gonarthrose associée
 - Physiothérapie, diclofénac topique, perte de poids — *Babaei-Ghazani et coll., 2024 (PMID 37752656)*
 - Infiltration (triamcinolone 20 mg avec lidocaïne) à effet surtout bref, plus précise sous échographie — *Babaei-Ghazani et coll., 2024*
-- Suivi dans 6–8 sem ; échec : rechercher une fracture de fatigue du tibia proximal ou une lésion méniscale
+- Suivi dans 6–8 sem ; échec : rechercher une fracture de stress du tibia proximal ou une lésion méniscale
 
 ## Maladie d'Osgood-Schlatter
 
@@ -822,7 +822,7 @@ Conduite :
 - Échographie si doute ; presque toujours secondaire à une atteinte intra-articulaire (arthrose, ménisque)
 - Rupture : tableau indiscernable d'une thrombose veineuse → écho-doppler (un kyste n'exclut pas une thrombose ; répéter à 5–7 j si négatif) — *Langsfeld et coll., 1997 (PMID 9129621) ; Chopard et coll., 2020, JAMA*
 - Traiter la cause ; infiltration intra-articulaire de corticoïde (réduit le kyste à 4 sem) ; ponction échoguidée si symptomatique (récidive d'environ 13 %)
-- Suivi dans 6 sem ; mollet tendu et très douloureux (syndrome de loge, surtout sous anticoagulant) : urgence — *Frush et coll., 2015, Sports Health*
+- Suivi dans 6 sem ; mollet tendu et très douloureux (syndrome compartimental, surtout sous anticoagulant) : urgence — *Frush et coll., 2015, Sports Health*
 
 ## Fracture sous-chondrale d'insuffisance
 

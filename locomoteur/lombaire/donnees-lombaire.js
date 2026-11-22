@@ -1,6 +1,6 @@
 /* Locomoteur Morand, rachis lombaire et sacro-iliaques (prototype 0.5, novembre 2026) : questions, diagnostics, poids, règles, conduite.
    Données : document OpenEvidence du 21 novembre 2026 (outils/locomoteur/sources/2026-11-21-openevidence/), parties A à H.
-   « Lombalgie commune » tient lieu de douleur non spécifique : pas de reste calculé dans cette région.
+   « Lombalgie non spécifique » tient lieu de douleur non spécifique : pas de reste calculé dans cette région.
    Même format que le genou : p() provisoire, est() à vérifier, ver()/verRv() vérifié avec sa source. */
 (function () {
   "use strict";
@@ -69,17 +69,17 @@
     sourcesConduite: (window.Locomoteur.aideMemoire.lombaire || {}).sources,
 
     diagnostics: [
-      { id: "commune", nom: "Lombalgie commune (non spécifique)", n: "lombalgie commune", base: [[12, .5], [30, .55], [50, .5], [70, .35], [85, .3]],
+      { id: "commune", nom: "Lombalgie non spécifique (mécanique)", n: "lombalgie non spécifique", base: [[12, .5], [30, .55], [50, .5], [70, .35], [85, .3]],
         repere: "Plus de 85 % des lombalgies en soins primaires ; 18 % des adolescents ; plus de 80 % sans diagnostic à 1 an chez l'enfant (A, C)" },
       { id: "musculaire", nom: "Contracture ou lésion musculaire lombaire", n: "contracture lombaire", base: [[12, .08], [18, .12], [30, .08], [50, .04], [70, .02]],
         repere: "Spasme 31 % et lésion musculaire paralombaire 19 % des atteintes lombaires NCAA (A, C)" },
       { id: "discogenique", nom: "Discopathie dégénérative ou douleur discogénique", n: "douleur discogénique", base: [[12, .02], [25, .06], [40, .08], [60, .07], [80, .05]],
         repere: "Dégénérescence asymptomatique 37 % à 20 ans, 96 % à 80 ans (A)" },
-      { id: "facettaire", nom: "Douleur zygapophysaire (facettaire)", n: "douleur facettaire", base: [[12, .01], [30, .04], [50, .1], [70, .12], [85, .12]],
+      { id: "facettaire", nom: "Syndrome facettaire lombaire", n: "syndrome facettaire", base: [[12, .01], [30, .04], [50, .1], [70, .12], [85, .12]],
         repere: "16–45 % des lombalgies chroniques (centres spécialisés) ; arthrose facettaire au scanner sans lien avec la douleur (A, C)" },
       { id: "grossesse", nom: "Lombalgie ou douleur pelvienne de la grossesse", n: "lombalgie de grossesse", base: [[12, .001], [20, .004], [30, .006], [40, .003], [50, .0003]], sexe: { F: 1, M: .001 },
         repere: "Lombalgie chez 50–70 % des grossesses ; ceinture pelvienne 10–65 % (A)" },
-      { id: "stenose", nom: "Canal lombaire étroit", n: "canal lombaire étroit", base: [[12, .0005], [40, .01], [55, .06], [70, .18], [85, .22]],
+      { id: "stenose", nom: "Sténose spinale lombaire", n: "sténose spinale lombaire", base: [[12, .0005], [40, .01], [55, .06], [70, .18], [85, .22]],
         repere: "11 % de la population générale, 25 % en soins primaires (âge moyen 69 ans) (A, C)" },
       { id: "si", nom: "Douleur sacro-iliaque", n: "douleur sacro-iliaque", base: [[12, .01], [25, .05], [45, .07], [65, .05], [85, .04]], sexe: { F: 1.3, M: .8 },
         repere: "15–30 % des lombalgies chroniques non radiculaires (A)" },

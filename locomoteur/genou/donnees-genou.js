@@ -119,7 +119,7 @@
       { t: "Diagnostic clinique (sensibilité environ 5 cm sous l'interligne médial, douleur aux escaliers) ; chercher une gonarthrose associée" },
       { t: "Physiothérapie, diclofénac topique, perte de poids", src: "Babaei-Ghazani et coll., 2024 (PMID 37752656)" },
       { t: "Infiltration (triamcinolone 20 mg avec lidocaïne) à effet surtout bref, plus précise sous échographie", src: "Babaei-Ghazani et coll., 2024" },
-      { t: "Suivi dans 6–8 sem ; échec : rechercher une fracture de fatigue du tibia proximal ou une lésion méniscale" }],
+      { t: "Suivi dans 6–8 sem ; échec : rechercher une fracture de stress du tibia proximal ou une lésion méniscale" }],
     osgood: [
       { t: "Diagnostic clinique ; radiographie de profil si atteinte unilatérale atypique, douleur nocturne ou trauma aigu", src: LINTNER },
       { t: "Activité permise si la douleur reste légère et cède au repos ; glace, étirements et renforcement ; pas d'immobilisation ni d'infiltration", src: `${LINTNER} ; Ladenhauf et coll., 2020 (PMID 31714260)` },
@@ -169,7 +169,7 @@
       { t: "Échographie si doute ; presque toujours secondaire à une atteinte intra-articulaire (arthrose, ménisque)" },
       { t: "Rupture : tableau indiscernable d'une thrombose veineuse → écho-doppler (un kyste n'exclut pas une thrombose ; répéter à 5–7 j si négatif)", src: "Langsfeld et coll., 1997 (PMID 9129621) ; Chopard et coll., 2020, JAMA" },
       { t: "Traiter la cause ; infiltration intra-articulaire de corticoïde (réduit le kyste à 4 sem) ; ponction échoguidée si symptomatique (récidive d'environ 13 %)" },
-      { t: "Suivi dans 6 sem ; mollet tendu et très douloureux (syndrome de loge, surtout sous anticoagulant) : urgence", src: "Frush et coll., 2015, Sports Health" }],
+      { t: "Suivi dans 6 sem ; mollet tendu et très douloureux (syndrome compartimental, surtout sous anticoagulant) : urgence", src: "Frush et coll., 2015, Sports Health" }],
     insuff: [
       { t: "Radiographies en charge souvent normales au début → IRM (tôt si douleur disproportionnée, au plus tard après 6 sem) ; souvent associée à une lésion de la racine méniscale médiale", src: "Choi et coll., 2021, Am J Sports Med" },
       { t: "Appui protégé avec béquilles environ 6 sem, analgésie de base, optimisation du calcium et de la vitamine D ; bilan d'ostéoporose", src: "Choi et coll., 2021" },
@@ -788,7 +788,7 @@
       C.regles.tumeur("Radiographie du genou, fémur distal et tibia proximal compris."),
       L => L.oui("mollet") ? { niveau: "rapide", titre: "Thrombose veineuse profonde à éliminer", ro: "TVP", texte: "Mollet enflé, chaud ou douloureux. Un kyste poplité rompu donne un tableau indiscernable, et la présence d'un kyste n'exclut pas une thrombose.",
         conduite: [{ t: "Score de Wells, D-dimères ou écho-doppler selon la probabilité ; répéter le doppler à 5–7 j s'il est négatif", src: "Langsfeld et coll., 1997 ; Chopard et coll., 2020, JAMA" },
-          { t: "Mollet tendu et très douloureux (syndrome de loge, surtout sous anticoagulant) : urgence", src: "Frush et coll., 2015, Sports Health" }], liens: [{ t: "CRDS : accueil clinique, thrombophlébite profonde", u: "/crds/?q=TVP" }] } : null,
+          { t: "Mollet tendu et très douloureux (syndrome compartimental, surtout sous anticoagulant) : urgence", src: "Frush et coll., 2015, Sports Health" }], liens: [{ t: "CRDS : accueil clinique, thrombophlébite profonde", u: "/crds/?q=TVP" }] } : null,
       L => (L.oui("pkb") || L.oui("reflexe_rot") || L.oui("deficit_l3l4") || L.v("irradiation") === "radiculaire" || L.dans("type_douleur", ["brulure", "choc"]) || (L.oui("douleur_dos") && L.v("lombaire_mob") === "douleur"))
         ? { niveau: "considerer", titre: "Origine lombaire (radiculopathie L3–L4) à considérer", ro: "radiculopathie L3–L4", texte: "Douleur de type nerveux, irradiation radiculaire ou signes neurologiques.",
           conduite: ["Examen neurologique et lombaire complet."] } : null,
