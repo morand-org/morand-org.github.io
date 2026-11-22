@@ -47,8 +47,9 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 
 /* Questionnaire : des cartes comme celles du CRDS. */
 .lo-form { display: grid; gap: 14px; min-width: 0; }
-.lo-legende { display: flex; align-items: center; gap: 10px; margin: 12px 0 0; padding: 0 2px; font-size: 0.84rem; color: var(--discret); }
-.lo-legende::before { content: ""; flex: none; width: 3px; height: 18px; border-radius: 2px; background: var(--or); }
+.lo-legende { display: flex; align-items: flex-start; gap: 10px; margin: 12px 0 0; padding: 0 2px; font-size: 0.84rem; line-height: 1.65; color: var(--discret); }
+.lo-legende::before { content: ""; flex: none; align-self: stretch; width: 3px; min-height: 18px; margin: 4px 0; border-radius: 2px; background: var(--or); }
+.lo-legende strong { color: var(--encre-2); font-weight: 600; }
 .lo-section { min-width: 0; padding: 18px 20px 6px; border: 1px solid var(--filet); border-radius: 16px; background: var(--carte); }
 .lo-section h2 { margin: 0 0 4px; font: 400 1.3rem/1.2 var(--serif); }
 .lo-bloc { padding: 4px 0 8px; }
