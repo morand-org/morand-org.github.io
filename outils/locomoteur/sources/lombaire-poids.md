@@ -4,7 +4,7 @@ Produit par `node outils/locomoteur/lister-sources.mjs lombaire` (Prototype 0.5 
 
 Poids : 219 (validés 0, vérifiés 43, à vérifier 4, provisoires 172).
 
-## Lombalgie commune (non spécifique)
+## Lombalgie non spécifique (mécanique)
 
 Probabilité de départ (provisoire) : 12 ans 50 %, 30 ans 55 %, 50 ans 50 %, 70 ans 35 %, 85 ans 30 %.
 
@@ -92,7 +92,7 @@ Conduite :
 - Traitement : comme la forme chronique de la fiche 1. — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Chou et al., « Diagnostic Imaging for Low Back Pain », Annals of Internal Medicine, 2011 ; Qaseem et al., lignes directrices de l'American College of Physicians, Annals of Internal Medicine, 2017 ; Deyo et Mirza, « Herniated Lumbar Intervertebral Disk », New England Journal of Medicine, 2016 ; Katz et al., « Lumbar Spinal Stenosis », JAMA, 2022 ; Ramiro et al., recommandations ASAS-EULAR, Annals of the Rheumatic Diseases, 2023.*
 - Suivi : 6–8 sem. — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Chou et al., « Diagnostic Imaging for Low Back Pain », Annals of Internal Medicine, 2011 ; Qaseem et al., lignes directrices de l'American College of Physicians, Annals of Internal Medicine, 2017 ; Deyo et Mirza, « Herniated Lumbar Intervertebral Disk », New England Journal of Medicine, 2016 ; Katz et al., « Lumbar Spinal Stenosis », JAMA, 2022 ; Ramiro et al., recommandations ASAS-EULAR, Annals of the Rheumatic Diseases, 2023.*
 
-## Douleur zygapophysaire (facettaire)
+## Syndrome facettaire lombaire
 
 Probabilité de départ (provisoire) : 12 ans 1 %, 30 ans 4 %, 50 ans 10 %, 70 ans 12 %, 85 ans 12 %.
 
@@ -138,7 +138,7 @@ Conduite :
 - Suivi : aux visites prénatales. — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Chou et al., « Diagnostic Imaging for Low Back Pain », Annals of Internal Medicine, 2011 ; Qaseem et al., lignes directrices de l'American College of Physicians, Annals of Internal Medicine, 2017 ; Deyo et Mirza, « Herniated Lumbar Intervertebral Disk », New England Journal of Medicine, 2016 ; Katz et al., « Lumbar Spinal Stenosis », JAMA, 2022 ; Ramiro et al., recommandations ASAS-EULAR, Annals of the Rheumatic Diseases, 2023.*
 - Retour / référence : déficit neurologique, contractions, saignement, fièvre. — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Chou et al., « Diagnostic Imaging for Low Back Pain », Annals of Internal Medicine, 2011 ; Qaseem et al., lignes directrices de l'American College of Physicians, Annals of Internal Medicine, 2017 ; Deyo et Mirza, « Herniated Lumbar Intervertebral Disk », New England Journal of Medicine, 2016 ; Katz et al., « Lumbar Spinal Stenosis », JAMA, 2022 ; Ramiro et al., recommandations ASAS-EULAR, Annals of the Rheumatic Diseases, 2023.*
 
-## Canal lombaire étroit
+## Sténose spinale lombaire
 
 Probabilité de départ (provisoire) : 12 ans 0 %, 40 ans 1 %, 55 ans 6 %, 70 ans 18 %, 85 ans 22 %.
 

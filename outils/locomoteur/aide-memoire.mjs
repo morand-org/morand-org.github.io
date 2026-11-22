@@ -5,6 +5,7 @@
    Les fichiers de données relient leurs diagnostics aux fiches par leur numéro (C.aideMemoire). */
 import fs from "node:fs";
 import path from "node:path";
+import { quebeciser } from "./termes-quebec.mjs";
 const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../..");
 const DOS = path.join(RACINE, "outils/locomoteur/sources/2026-11-21-openevidence");
 const H = fs.readFileSync(path.join(DOS, "H-aide-memoire-quebec.md"), "utf8").split("\n");
@@ -81,9 +82,9 @@ for (const [dossier, cles] of Object.entries(fichiers)) {
   fs.mkdirSync(path.join(RACINE, "locomoteur", dossier), { recursive: true });
   fs.writeFileSync(path.join(RACINE, "locomoteur", dossier, `aide-memoire-${dossier}.js`), `/* Produit par node outils/locomoteur/aide-memoire.mjs. Ne pas modifier à la main.
    Aide-mémoire de première ligne (Québec) du document OpenEvidence du 21 novembre 2026 (parties F et H), archivé dans
-   outils/locomoteur/sources/2026-11-21-openevidence/. « principes » : conduite fondée sur les principes généraux (†). */
+   outils/locomoteur/sources/2026-11-21-openevidence/. « principes » : conduite fondée sur les principes généraux (†). Termes de l'usage québécois (termes-quebec.mjs). */
 (function () { const A = ((window.Locomoteur = window.Locomoteur || {}).aideMemoire = window.Locomoteur.aideMemoire || {});
-  Object.assign(A, ${JSON.stringify(contenu)});
+  Object.assign(A, ${quebeciser(JSON.stringify(contenu))});
 })();
 `);
 }

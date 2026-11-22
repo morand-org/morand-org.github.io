@@ -240,16 +240,16 @@ Repères publiés : 13–17 % des blessures de course ; 13,6–20 % des coureurs
 | `p_tibia_focal>periostite` | Point osseux précis du tibia ou de la fibula | — | — | 1,3 / 0,9 | provisoire | — |
 
 Conduite :
-- Investigation : clinique : sensibilité diffuse du bord postéro-médial du tibia sur > 5 cm. Sensibilité focale, œdème ou saut unipodal douloureux → suspecter une fracture de fatigue (radiographie, puis IRM). — *David et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Millar et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Marques et coll., 2025, Gait & Posture (PMID 40633262)*
+- Investigation : clinique : sensibilité diffuse du bord postéro-médial du tibia sur > 5 cm. Sensibilité focale, œdème ou saut unipodal douloureux → suspecter une fracture de stress (radiographie, puis IRM). — *David et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Millar et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Marques et coll., 2025, Gait & Posture (PMID 40633262)*
 - Traitement : repos relatif des activités douloureuses (≥ 7–10 j), entraînement croisé, renforcement du mollet et de la hanche, reprise graduelle après 5 j sans douleur au quotidien. Aucun traitement n'a fait ses preuves ; ondes de choc prometteuses dans les formes chroniques ; orthèses plantaires si hyperpronation (prévention). — *David et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Millar et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Marques et coll., 2025, Gait & Posture (PMID 40633262)*
 - Suivi : 4–6 sem ; retour moyen en 6 sem environ. — *David et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Millar et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Marques et coll., 2025, Gait & Posture (PMID 40633262)*
 - Retour / référence : douleur focale ou nocturne → imagerie ; échec → médecine du sport. — *David et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Millar et coll., 2026, Current Reviews in Musculoskeletal Medicine ; Marques et coll., 2025, Gait & Posture (PMID 40633262)*
 
-## Fracture de fatigue du tibia ou de la fibula
+## Fracture de stress du tibia ou de la fibula
 
 Probabilité de départ (provisoire) : 12 ans 1 %, 18 ans 3 %, 25 ans 2 %, 40 ans 1 %, 60 ans 0 % ; femme ×1,5, homme ×0,75.
 
-Repères publiés : Tibia : 49 % des fractures de fatigue de l'athlète (A, C).
+Repères publiés : Tibia : 49 % des fractures de stress de l'athlète (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
@@ -275,7 +275,7 @@ Conduite :
 - Suivi : 2–3 sem, puis aux 4 sem ; récidive chez environ 1 patient sur 5. — *Schroeder et coll., 2024, American Family Physician ; Burrus et coll., 2015, American Journal of Sports Medicine ; George et coll., 2024, Sports Medicine*
 - Retour / référence : site à haut risque, trait complet ou échec → médecine du sport ou orthopédie. — *Schroeder et coll., 2024, American Family Physician ; Burrus et coll., 2015, American Journal of Sports Medicine ; George et coll., 2024, Sports Medicine*
 
-## Syndrome de loge chronique d'effort
+## Syndrome compartimental chronique d'effort
 
 Probabilité de départ (provisoire) : 12 ans 1 %, 18 ans 2 %, 30 ans 2 %, 45 ans 1 %, 60 ans 0 %.
 
@@ -296,7 +296,7 @@ Repères publiés : 27–34 % des douleurs de jambe d'effort en séries sportive
 | `paresthesies>loge` | Engourdissements ou brûlure à la plante du pied | — | — | 2 / 0,9 | provisoire | — |
 
 Conduite :
-- Investigation : douleur et tension d'une loge apparaissant à un effort reproductible et cédant en quelques minutes ; examen normal au repos. Confirmation par pressions intracompartimentales (critères de Pedowitz : ≥ 15 mmHg au repos, ≥ 30 à 1 min, ≥ 20 à 5 min ; validité débattue). Exclure un piège de l'artère poplitée (pouls diminués en dorsiflexion passive ou flexion plantaire active, indice de pression à l'effort) et une fracture de fatigue. — *Vogels et coll., 2022, Sports Medicine ; Vogels et coll., 2026, British Medical Bulletin (PMID 42478572) ; Edwards et coll., 2005, American Journal of Sports Medicine ; Stahel et coll., 2026, Journal of Trauma and Acute Care Surgery (PMID 42704783) ; Aurelia et coll., , Chapter 73.*
+- Investigation : douleur et tension d'une loge apparaissant à un effort reproductible et cédant en quelques minutes ; examen normal au repos. Confirmation par pressions intracompartimentales (critères de Pedowitz : ≥ 15 mmHg au repos, ≥ 30 à 1 min, ≥ 20 à 5 min ; validité débattue). Exclure un piège de l'artère poplitée (pouls diminués en dorsiflexion passive ou flexion plantaire active, indice de pression à l'effort) et une fracture de stress. — *Vogels et coll., 2022, Sports Medicine ; Vogels et coll., 2026, British Medical Bulletin (PMID 42478572) ; Edwards et coll., 2005, American Journal of Sports Medicine ; Stahel et coll., 2026, Journal of Trauma and Acute Care Surgery (PMID 42704783) ; Aurelia et coll., , Chapter 73.*
 - Traitement : rééducation de la foulée (attaque par l'avant-pied, cadence élevée, 6 sem ; petite série non contrôlée), réduction de la charge. — *Vogels et coll., 2022, Sports Medicine ; Vogels et coll., 2026, British Medical Bulletin (PMID 42478572) ; Edwards et coll., 2005, American Journal of Sports Medicine ; Stahel et coll., 2026, Journal of Trauma and Acute Care Surgery (PMID 42704783) ; Aurelia et coll., , Chapter 73.*
 - Suivi : 6–8 sem. — *Vogels et coll., 2022, Sports Medicine ; Vogels et coll., 2026, British Medical Bulletin (PMID 42478572) ; Edwards et coll., 2005, American Journal of Sports Medicine ; Stahel et coll., 2026, Journal of Trauma and Acute Care Surgery (PMID 42704783) ; Aurelia et coll., , Chapter 73.*
 - Retour / référence : médecine du sport pour la mesure des pressions ; fasciotomie si échec (satisfaction d'environ 85 %, retour au niveau antérieur inconstant). Douleur persistante au repos avec loge tendue → urgence. — *Vogels et coll., 2022, Sports Medicine ; Vogels et coll., 2026, British Medical Bulletin (PMID 42478572) ; Edwards et coll., 2005, American Journal of Sports Medicine ; Stahel et coll., 2026, Journal of Trauma and Acute Care Surgery (PMID 42704783) ; Aurelia et coll., , Chapter 73.*
@@ -673,7 +673,7 @@ Conduite :
 Bloc commun (aide-mémoire, Québec) :
 - Analgésie de base (adulte) : acétaminophène 650–1000 mg q6h PRN (max 4 g/j ; 3 g/j si usage prolongé ou fragilité) ; ibuprofène 400 mg q6–8h PRN (max 2400 mg/j sur ordonnance) ou naproxène 250–500 mg BID (max 1000 mg/j) ; diclofénac topique (gel 1,16 % 2–4 g TID–QID ou 2,32 % BID). Dans les lésions aiguës des tissus mous, AINS et acétaminophène soulagent de façon équivalente. Pas d'opioïdes pour une entorse.
 - Analgésie de base (enfant) : ibuprofène 10 mg/kg q6–8h dès 6 mois (max 400 mg/dose et 40 mg/kg/j), premier choix ; l'ajout d'acétaminophène ou d'un opioïde n'améliore pas le soulagement des blessures musculosquelettiques ; acétaminophène 15 mg/kg q4–6h (max 75 mg/kg/j) si AINS contre-indiqué.
-- AINS — précautions : éviter si DFGe < 30, cirrhose, grossesse ≥ 20 sem, anticoagulation ; éviter les AINS oraux en cas de maladie cardiovasculaire ou de fragilité ; prudence ≥ 65 ans (IPP ou coxib si risque digestif) ; limiter dans les fractures de fatigue.
+- AINS — précautions : éviter si DFGe < 30, cirrhose, grossesse ≥ 20 sem, anticoagulation ; éviter les AINS oraux en cas de maladie cardiovasculaire ou de fragilité ; prudence ≥ 65 ans (IPP ou coxib si risque digestif) ; limiter dans les fractures de stress.
 - Règles d'Ottawa (cheville et médio-pied) :
 - Thromboprophylaxie sous immobilisation du membre inférieur (adulte) : calculer le score TRiP(cast). Score < 7 : pas d'anticoagulant (risque à 3 mois < 1 % dans l'essai CASTING). Score ≥ 7 : héparine de bas poids moléculaire pendant l'immobilisation — énoxaparine 40 mg SC DIE (30 mg DIE si ClCr < 30 mL/min) ou daltéparine 5000 unités SC DIE. Le bénéfice chez les patients à score élevé reste incertain (2,7 % d'événements malgré le traitement dans CASTING ; aucun bénéfice de l'héparine systématique dans POT-CAST). Rupture du tendon d'Achille et fracture diaphysaire du tibia ou de la fibula comptent comme traumatismes à haut risque. Position de Thrombose Canada à vérifier.
 - Infiltrations de corticoïde : jamais dans un tendon porteur (Achille, tibial postérieur) ; jamais avant d'avoir exclu une infection ; aviser les diabétiques d'une hausse transitoire de la glycémie.

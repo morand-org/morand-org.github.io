@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/morand/plein-ecran.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Cervical | MSK Morand (prototype)</title>
+<!-- Prototype caché : absent du plan du site et de l'accueil, non indexé. Rien n'est transmis ni conservé. -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Prototype d'aide à la décision pour la douleur cervicale : anamnèse et examen guidés, diagnostic différentiel, alertes, conduite et note pour le dossier.">
+<meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
+<link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
+<link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/crds/crds.css">
+<link rel="stylesheet" href="/locomoteur/locomoteur.css">
+<script src="/locomoteur/moteur.js" defer></script>
+<script src="/locomoteur/commun.js" defer></script>
+<script src="/locomoteur/cervical/aide-memoire-cervical.js" defer></script>
+<script src="/locomoteur/cervical/donnees-cervical.js" defer></script>
+<script src="/locomoteur/interface.js" defer></script>
+</head>
+<body class="lo-outil" data-articulation="cervical" data-regions="cervical,epaule,lombaire,hanche,genou,cheville,pied">
+<a class="saut" href="#lo-form">Aller au questionnaire</a>
+<header class="cr-tete">
+  <a class="cr-marque" href="/">Morand</a>
+  <nav class="cr-onglets" aria-label="Outils Morand">
+    <a href="/wealth/">Wealth</a>
+    <a href="/guides/">Guide</a>
+    <a href="/map/">Map</a>
+    <a href="/crds/">CRDS</a>
+    <a href="/codes/">Codes</a>
+    <a href="/locomoteur/" aria-current="page">MSK</a>
+  </nav>
+</header>
+<main>
+  <section class="cr-intro">
+    <a class="cr-logo" href="/locomoteur/" tabindex="-1" aria-hidden="true"><img class="lo-sceau" src="/locomoteur/sceau-msk.webp" alt="" width="480" height="480"></a>
+    <h1><a class="cr-nom" href="/locomoteur/">MSK Morand</a><span class="cache"> : douleur cervicale</span></h1>
+    <p class="cr-devise">Évaluation · Diagnostic · Conduite</p>
+    <p class="cr-lead">Douleur cervicale ou cervico-brachiale. Cochez l'anamnèse et l'examen : le diagnostic différentiel, la conduite et la note se mettent à jour à mesure.</p>
+  </section>
+  <nav class="cr-vues lo-regions-nav" aria-label="Régions">
+    <a class="cr-vue" href="/locomoteur/">Toutes les régions</a>
+    <a class="cr-vue" href="/locomoteur/cervical/" aria-current="page">Cervical</a>
+  </nav>
+  <p class="lo-avis"><strong>Prototype : une partie des poids est vérifiée dans la littérature (document OpenEvidence), le reste demeure provisoire.</strong>
+    Rien n'est transmis. Les réponses restent dans la page ; « Patients » les sauvegarde dans ce navigateur seulement, sans chiffrement, sous une étiquette neutre (jamais de nom, d'initiales ni de numéro de dossier). Une réponse laissée vide, « N/A » ou « Équivoque » ne compte pas.</p>
+
+  <nav class="lo-nav" id="lo-nav" aria-label="Sections du questionnaire"></nav>
+  <p class="lo-legende">Trait doré : la réponse compte dans le calcul des probabilités.</p>
+
+  <div class="lo-grille">
+    <form class="lo-form" id="lo-form" autocomplete="off" novalidate></form>
+
+    <aside class="lo-resultats" id="resultats" aria-labelledby="lo-res-titre">
+      <div class="lo-res-tete">
+        <h2 id="lo-res-titre">Résultats</h2>
+        <p class="lo-res-etat" id="lo-res-etat" aria-live="polite"></p>
+      </div>
+      <div class="lo-onglets cr-vues" role="tablist" aria-label="Résultats">
+        <button type="button" class="cr-vue" role="tab" id="t-dx" aria-controls="p-dx" aria-selected="true">Diagnostics</button>
+        <button type="button" class="cr-vue" role="tab" id="t-conduite" aria-controls="p-conduite" aria-selected="false" tabindex="-1">Conduite</button>
+        <button type="button" class="cr-vue" role="tab" id="t-note" aria-controls="p-note" aria-selected="false" tabindex="-1">Note</button>
+      </div>
+      <div class="lo-panneau" id="p-dx" role="tabpanel" aria-labelledby="t-dx">
+        <div id="lo-dx-regions"></div>
+      </div>
+      <div class="lo-panneau" id="p-conduite" role="tabpanel" aria-labelledby="t-conduite" hidden>
+        <div id="lo-conduite"></div>
+      </div>
+      <div class="lo-panneau" id="p-note" role="tabpanel" aria-labelledby="t-note" hidden>
+        <label class="cache" for="lo-note">Note pour le dossier</label>
+        <textarea class="lo-note" id="lo-note" readonly spellcheck="false"></textarea>
+        <div class="lo-note-actions">
+          <button type="button" class="lo-bouton" id="lo-copier">Copier la note</button>
+          <p class="lo-discret">Texte brut, prêt à coller dans le dossier. À relire et à compléter.</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <details class="cr-sources" id="sources">
+    <summary><h2>Sources et limites</h2></summary>
+    <div class="lo-sources-texte">
+      <p><strong>D'où viennent les chiffres.</strong> Le 21 novembre 2026, le clinicien a réuni dans un document les réponses d'OpenEvidence pour toutes les régions : fréquence des diagnostics selon l'âge et la population, sensibilité, spécificité et RV des questions d'anamnèse, de l'examen de base, des tests spéciaux et des combinaisons validées, et fiches de conduite de première ligne (Québec), soit près de 1 450 références numérotées (plusieurs reviennent d'une partie à l'autre). Les poids marqués « vérifié » en viennent, avec leur source. Le clinicien pose à OpenEvidence, un assistant de recherche médicale qui cite ses références, des questions standardisées (bouton ci-dessous) : sensibilité, spécificité et rapports de vraisemblance de chaque élément d'anamnèse et d'examen, combinaisons validées, fréquence de chaque diagnostic selon l'âge et le sexe. On retient en priorité les méta-analyses, puis les études en première ligne ou en médecine du sport, et l'on note pour chaque chiffre la source (premier auteur, année, PMID), le nombre d'études et de patients, la population et la référence standard (IRM, arthroscopie…). Les réponses complètes sont conservées telles quelles dans le dépôt du site (outils/locomoteur/sources), avec chaque source. Chaque poids sans source garde le statut « provisoire ».</p>
+      <p><strong>Calcul.</strong> Pour chaque diagnostic, on part d'une probabilité selon l'âge exact et le sexe, puis chaque réponse la fait monter ou descendre selon son rapport de vraisemblance (RV). Quand la sensibilité (Se) et la spécificité (Sp) sont connues : RV+ = Se / (1 − Sp) et RV− = (1 − Se) / Sp. Les tests qui se recoupent forment un groupe : seul le plus fort en faveur et le plus fort en défaveur comptent. Quand une combinaison validée est réunie (ex. Décary : traumatisme en pivot et pop pour le LCA ; critères de l'ACR pour l'arthrose), son RV remplace celui des éléments qui la composent. Une sensibilité ou une spécificité de 100 % est plafonnée à 99 %. Deux diagnostics qui coexistent rarement se disputent les mêmes éléments : le plus probable les « explique ». La fourchette n'est pas un intervalle de confiance : c'est une analyse de sensibilité, qui refait le calcul avec des poids 30 % plus faibles ou plus forts et une fréquence de départ 1,5 fois plus basse ou plus haute. Une fourchette large signale un résultat fragile. Une réponse « Équivoque » ou « N/A » ne compte pas.</p>
+      <p><strong>Statut des poids.</strong> <em>Provisoire</em> : estimation clinique, en attente de données. <em>À vérifier</em> : valeur publiée citée de mémoire. <em>Vérifié</em> : chiffre tiré d'une étude identifiée (auteur, année, PMID). <em>Validé</em> : approuvé par le clinicien. Les règles de décision (Ottawa) et les drapeaux rouges sont hors du calcul : ils s'affichent comme alertes.</p>
+      <p><strong>Limites.</strong> Le calcul suppose que les réponses sont indépendantes, ce qui surestime parfois les probabilités ; les études portent surtout sur des adultes, souvent en orthopédie ; les fréquences de départ restent des estimations guidées par les fréquences publiées (affichées comme repères dans le tableau), car aucune étude ne donne la probabilité de chaque diagnostic selon l'âge et le sexe chez les patients qui consultent. L'outil aide à raisonner : il ne remplace pas le jugement clinique.</p>
+    </div>
+    <p id="lo-src-conduite"></p>
+    <p class="lo-stats" id="lo-stats"></p>
+    <div class="lo-src-outils">
+      <label for="lo-src-dx">Diagnostic</label>
+      <select class="lo-select" id="lo-src-dx"></select>
+      <button type="button" class="lo-bouton" id="lo-consigne">Copier les questions pour OpenEvidence</button>
+    </div>
+    <div class="lo-table-cadre">
+      <table class="lo-table" id="lo-table">
+        <thead><tr><th scope="col">Élément</th><th scope="col">Se</th><th scope="col">Sp</th><th scope="col">RV+</th><th scope="col">RV−</th><th scope="col">Statut</th><th scope="col">Piste ou source</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="cr-petit">MSK Morand · <span id="lo-version"></span>. Outil d'aide à la décision : il ne remplace pas le jugement clinique. Les fiches sont rédigées de mémoire et restent à valider.</p>
+  </details>
+</main>
+<footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
+
+<dialog class="lo-fiche lo-patients" id="lo-patients" aria-labelledby="lo-patients-titre">
+  <button type="button" class="lo-fiche-fermer" aria-label="Fermer la liste des patients">Fermer</button>
+  <div class="lo-fiche-corps">
+    <h2 id="lo-patients-titre">Patients</h2>
+    <p class="lo-discret">Sauvegardés dans ce navigateur seulement, sans chiffrement ni transmission. Choisir une étiquette neutre, comme l'heure ou la salle : jamais de nom, d'initiales ni de numéro de dossier, qui permettraient de reconnaître le patient sur un poste partagé. <span id="lo-patients-compte"></span>.</p>
+    <form class="lo-patients-form" id="lo-patients-form" novalidate>
+      <label for="lo-etiquette">Identifiant de la consultation en cours</label>
+      <span class="lo-patients-ligne"><input type="text" id="lo-etiquette" maxlength="24" autocomplete="off" placeholder="Ex. genou 14 h 20"><button type="submit" class="lo-bouton">Sauvegarder</button></span>
+    </form>
+    <ul class="lo-patients-liste" id="lo-patients-liste"></ul>
+    <button type="button" class="lo-lien" id="lo-patients-effacer">Effacer tous les patients</button>
+  </div>
+</dialog>
+
+<dialog class="lo-fiche" id="lo-fiche" aria-label="Fiche">
+  <button type="button" class="lo-fiche-fermer" aria-label="Fermer la fiche">Fermer</button>
+  <div class="lo-fiche-corps"></div>
+</dialog>
+
+<div class="lo-barre" id="lo-barre" hidden>
+  <p class="lo-barre-texte" id="lo-barre-texte"></p>
+  <a class="lo-bouton" href="#resultats">Résultats</a>
+</div>
+</body>
+</html>

@@ -76,7 +76,7 @@
         repere: "29 % des nouveaux cas en médecine générale ; 65–85 % selon le contexte (A, C)" },
       { id: "myalgie", nom: "Myalgie ou douleur non spécifique", n: "douleur d'épaule non spécifique", base: [[12, .25], [20, .2], [35, .15], [50, .1], [70, .06]],
         repere: "17 % des diagnostics ; le plus fréquent avant 40 ans ; 24 % chez l'adolescent (cervico-scapulaire) (A, C)" },
-      { id: "capsulite", nom: "Capsulite rétractile", n: "capsulite rétractile", base: [[12, .001], [35, .02], [45, .08], [55, .1], [65, .06], [80, .03]], sexe: { F: 1.4, M: .7 },
+      { id: "capsulite", nom: "Capsulite adhésive", n: "capsulite adhésive", base: [[12, .001], [35, .02], [45, .08], [55, .1], [65, .06], [80, .03]], sexe: { F: 1.4, M: .7 },
         repere: "2,4/1 000/an ; prévalence 2–5 % (10–35 % chez le diabétique) ; surtout entre 40 et 70 ans (A, C)" },
       { id: "ac_entorse", nom: "Entorse ou disjonction acromio-claviculaire", n: "entorse acromio-claviculaire", base: [[12, .04], [18, .08], [30, .06], [50, .03], [70, .02]], sexe: { M: 2, F: .5 },
         repere: "11 % des traumatismes aigus ; 25,6 % des lésions d'épaule NCAA, 41,2 % en sport de collision (A, C)" },
@@ -94,7 +94,7 @@
         repere: "23,9/100 000 ; 60,3/100 000 avant 18 ans ; 20,3 % des lésions d'épaule du sportif (A, C)" },
       { id: "ac_arthrose", nom: "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule", n: "arthropathie acromio-claviculaire", base: [[12, .002], [25, .01], [45, .04], [65, .04], [80, .03]],
         repere: "4 % des patients adressés ; ostéolyse : 6,5 % des IRM à 13–19 ans, liée au développé-couché (A, C)" },
-      { id: "ppr", grave: true, nom: "Pseudopolyarthrite rhizomélique", n: "pseudopolyarthrite rhizomélique", base: [[12, .0001], [50, .003], [65, .012], [80, .018]], sexe: { F: 1.5, M: .7 },
+      { id: "ppr", grave: true, nom: "Polymyalgia rheumatica", n: "polymyalgia rheumatica", base: [[12, .0001], [50, .003], [65, .012], [80, .018]], sexe: { F: 1.5, M: .7 },
         repere: "Risque sur la vie 2,4 % (femmes), 1,7 % (hommes) (A)" },
       { id: "biceps", nom: "Tendinopathie ou rupture du long biceps", n: "atteinte du long biceps", base: [[12, .005], [30, .02], [50, .03], [70, .02]], repere: "Données hospitalières seules, sous-estimées (A)" },
       { id: "cervical", nom: "Douleur projetée d'origine cervicale", n: "douleur projetée cervicale", base: [[12, .01], [30, .04], [50, .06], [70, .05]], repere: "Rang attribué par jugement clinique (A)" },
@@ -296,12 +296,17 @@
       L => ((L.trauma() && (L.oui("deformation") || (L.v("mecanisme") === "armé" && L.oui("deboitement")))) || (L.trauma() && L.age >= 60 && L.v("mecanisme") === "chute_main"))
         ? { niveau: "rapide", titre: "Luxation ou fracture à éliminer", ro: "luxation ou fracture de l'épaule", texte: "Traumatisme avec déformation, sensation de luxation, ou chute sur la main chez un sujet de 60 ans et plus.",
           conduite: [{ t: "Radiographies de l'épaule (face, profil de scapula, axillaire) avant toute réduction ; examen du nerf axillaire et des pouls" }, ...items(L.age >= 60 ? 7 : 11)] } : null,
-      L => (L.trauma() && L.oui("abd90_trauma") && L.age !== null && L.age >= 40)
-        ? { niveau: "rapide", titre: "Rupture traumatique de la coiffe à éliminer", ro: "rupture traumatique de la coiffe", texte: "Abduction au-delà de 90° impossible après un traumatisme (RV+ 2,9) : les meilleurs résultats sont obtenus avec une réparation dans les 3 semaines.",
-          conduite: items(5) } : null,
+      L => {
+        // Faiblesse franche après un traumatisme, dès 40 ans : la réparation précoce donne les meilleurs résultats.
+        const signes = [L.oui("abd90_trauma") && "abduction au-delà de 90° impossible (RV+ 2,9)", L.oui("drop_arm") && "drop-arm positif", L.oui("er_lag") && "lag en rotation externe",
+          L.v("jobe") === "faiblesse" && "faiblesse au Jobe", L.v("rrom_re") === "faiblesse" && "faiblesse en rotation externe"].filter(Boolean);
+        return L.trauma() && signes.length && L.age !== null && L.age >= 40
+          ? { niveau: "rapide", titre: "Rupture traumatique de la coiffe à éliminer", ro: "rupture traumatique de la coiffe",
+            texte: `Après un traumatisme : ${signes.join(", ")}. Les meilleurs résultats sont obtenus avec une réparation dans les 3 semaines.`, conduite: items(5) } : null;
+      },
       L => ((L.oui("raideur_ceintures") || L.a("localisation", "deux_epaules")) && L.age !== null && L.age >= 50)
-        ? { niveau: L.oui("symptomes_acg") ? "urgence" : "rapide", titre: L.oui("symptomes_acg") ? "Artérite à cellules géantes à éliminer" : "Pseudopolyarthrite rhizomélique à considérer",
-          ro: L.oui("symptomes_acg") ? "artérite à cellules géantes" : "pseudopolyarthrite rhizomélique", texte: "50 ans et plus, douleur et raideur des ceintures. Claudication de la mâchoire : RV+ 4,9 pour l'artérite à cellules géantes.",
+        ? { niveau: L.oui("symptomes_acg") ? "urgence" : "rapide", titre: L.oui("symptomes_acg") ? "Artérite à cellules géantes à éliminer" : "Polymyalgia rheumatica à considérer",
+          ro: L.oui("symptomes_acg") ? "artérite à cellules géantes" : "polymyalgia rheumatica", texte: "50 ans et plus, douleur et raideur des ceintures. Claudication de la mâchoire : RV+ 4,9 pour l'artérite à cellules géantes.",
           conduite: [...(L.oui("symptomes_acg") ? [{ t: "Céphalée, claudication de la mâchoire ou trouble visuel : prednisone et évaluation le jour même (risque de cécité)" }] : []), ...items(13)] } : null,
       L => L.oui("thorax") ? { niveau: "urgence", titre: "Douleur projetée d'origine thoracique ou abdominale à éliminer", ro: "douleur projetée viscérale", texte: "Douleur d'épaule avec douleur thoracique, dyspnée ou douleur à l'effort : syndrome coronarien, embolie, atteinte pleurale ou sous-diaphragmatique.",
         conduite: [{ t: "Évaluation médicale le jour même (ECG selon le tableau)" }] } : null,

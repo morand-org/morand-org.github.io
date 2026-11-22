@@ -68,7 +68,7 @@ Conduite :
 - Traitement : analgésie de base, exercices, ergonomie. (principes généraux, sans recommandation spécifique) — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Haas et al., « Management of Shoulder Pain in Primary Care », JAMA Internal Medicine, 2026 ; Simon et al., « Acute Shoulder Injuries in Adults », American Family Physician, 2023 ; lignes directrices AAOS sur les fractures de la clavicule, 2022 ; Van Gastel et al., Acta Orthopaedica, 2026 ; Lowry et al., BMC Primary Care, 2023 (Québec).*
 - Suivi : 4–6 sem. (principes généraux, sans recommandation spécifique) — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Haas et al., « Management of Shoulder Pain in Primary Care », JAMA Internal Medicine, 2026 ; Simon et al., « Acute Shoulder Injuries in Adults », American Family Physician, 2023 ; lignes directrices AAOS sur les fractures de la clavicule, 2022 ; Van Gastel et al., Acta Orthopaedica, 2026 ; Lowry et al., BMC Primary Care, 2023 (Québec).*
 
-## Capsulite rétractile
+## Capsulite adhésive
 
 Probabilité de départ (provisoire) : 12 ans 0 %, 35 ans 2 %, 45 ans 8 %, 55 ans 10 %, 65 ans 6 %, 80 ans 3 % ; femme ×1,4, homme ×0,7.
 
@@ -367,7 +367,7 @@ Conduite :
 - Suivi : 6–8 sem. — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Haas et al., « Management of Shoulder Pain in Primary Care », JAMA Internal Medicine, 2026 ; Simon et al., « Acute Shoulder Injuries in Adults », American Family Physician, 2023 ; lignes directrices AAOS sur les fractures de la clavicule, 2022 ; Van Gastel et al., Acta Orthopaedica, 2026 ; Lowry et al., BMC Primary Care, 2023 (Québec).*
 - Retour / référence : échec après 4–6 mois → orthopédie. — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Haas et al., « Management of Shoulder Pain in Primary Care », JAMA Internal Medicine, 2026 ; Simon et al., « Acute Shoulder Injuries in Adults », American Family Physician, 2023 ; lignes directrices AAOS sur les fractures de la clavicule, 2022 ; Van Gastel et al., Acta Orthopaedica, 2026 ; Lowry et al., BMC Primary Care, 2023 (Québec).*
 
-## Pseudopolyarthrite rhizomélique
+## Polymyalgia rheumatica
 
 Probabilité de départ (provisoire) : 12 ans 0 %, 50 ans 0 %, 65 ans 1 %, 80 ans 2 % ; femme ×1,5, homme ×0,7.
 

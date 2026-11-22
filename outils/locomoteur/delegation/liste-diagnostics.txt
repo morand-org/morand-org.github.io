@@ -1,0 +1,132 @@
+
+genou :
+genou-sfp = Syndrome fémoro-patellaire
+genou-arthrose = Arthrose du genou
+genou-menisque = Déchirure méniscale
+genou-lca = Rupture du LCA
+genou-lcp = Entorse du LCP
+genou-collat = Entorse d'un ligament collatéral (LLI, LLE)
+genou-rotule = Instabilité ou luxation de la rotule
+genou-tendino = Tendinopathie rotulienne ou quadricipitale
+genou-hoffa = Syndrome du coussinet adipeux (Hoffa)
+genou-bit = Syndrome de la bandelette ilio-tibiale
+genou-bprep = Bursite prépatellaire
+genou-poie = Tendinobursite de la patte d'oie
+genou-osgood = Maladie d'Osgood-Schlatter
+genou-slj = Maladie de Sinding-Larsen-Johansson
+genou-contusion = Contusion ou entorse légère, sans lésion structurelle
+genou-plica = Syndrome de la plica
+genou-ocd = Ostéochondrite disséquante
+genou-discoide = Ménisque discoïde
+genou-cristaux = Goutte ou chondrocalcinose (arthrite microcristalline)
+genou-arthrite = Arthrite inflammatoire (PAR, spondylarthrite, psoriasique)
+genou-septique = Arthrite septique
+genou-baker = Kyste poplité (de Baker)
+genou-insuff = Fracture sous-chondrale d'insuffisance
+
+cheville :
+cheville-entorse_lat = Entorse latérale de la cheville
+cheville-instab = Instabilité chronique de la cheville
+cheville-achille = Tendinopathie d'Achille corporéale
+cheville-insertion = Tendinopathie d'insertion, Haglund ou bursite rétro-calcanéenne
+cheville-rupture_achille = Rupture du tendon d'Achille
+cheville-fracture = Fracture de la cheville ou du médio-pied
+cheville-periostite = Périostite tibiale (syndrome de stress tibial médial)
+cheville-ff_tibia = Fracture de fatigue du tibia ou de la fibula
+cheville-loge = Syndrome de loge chronique d'effort
+cheville-mollet = Lésion musculaire du mollet (tennis leg)
+cheville-sever = Maladie de Sever (apophysite calcanéenne)
+cheville-tibpost = Dysfonction du tibial postérieur
+cheville-arthrose = Arthrose de la cheville
+cheville-syndesmose = Entorse de la syndesmose (entorse haute)
+cheville-deltoide = Entorse médiale (ligament deltoïde) ou fracture de Maisonneuve
+cheville-fibulaires = Tendinopathie, déchirure ou luxation des fibulaires
+cheville-conflit = Conflit antérieur ou postérieur de la cheville
+cheville-lot = Lésion ostéochondrale du talus
+cheville-tarsien = Syndrome du tunnel tarsien
+cheville-cristaux = Goutte ou arthrite à pyrophosphate de la cheville
+cheville-insuff = Fracture d'insuffisance (tibia distal, fibula, calcanéus)
+
+pied :
+pied-fasciite = Fasciite plantaire (talalgie plantaire)
+pied-hallux_valgus = Hallux valgus
+pied-orteils = Déformation des orteils latéraux ou bunionette
+pied-arthrose_mp = Arthrose du médio-pied
+pied-hallux_rigidus = Hallux rigidus
+pied-metatarsalgie = Métatarsalgie ou lésion de la plaque plantaire
+pied-goutte = Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)
+pied-fracture = Fracture du pied (métatarsiens, base du 5ᵉ, orteils)
+pied-morton = Névrome de Morton
+pied-ff_mt = Fracture de fatigue métatarsienne (ou d'insuffisance)
+pied-ff_navic = Fracture de fatigue du naviculaire
+pied-ff_calc = Fracture de fatigue du calcanéus
+pied-lisfranc = Lésion de Lisfranc (entorse ou fracture du médio-pied)
+pied-turf_toe = Turf toe (entorse de la plaque plantaire de l'hallux)
+pied-sesamoide = Sésamoïdite ou fracture du sésamoïde
+pied-charcot = Pied de Charcot (neuro-ostéoarthropathie)
+pied-synostose = Synostose (coalition) du tarse
+pied-os_navic = Os naviculaire accessoire douloureux
+pied-freiberg = Maladie de Freiberg
+pied-iselin = Maladie d'Iselin (apophysite de la base du 5ᵉ métatarsien)
+pied-sever = Maladie de Sever (apophysite calcanéenne)
+pied-contusion = Contusion ou écrasement du pied
+
+hanche :
+hanche-coxarthrose = Coxarthrose
+hanche-sdgt = Syndrome douloureux du grand trochanter (tendinopathie glutéale)
+hanche-adducteurs = Pubalgie des adducteurs
+hanche-ij_aigu = Lésion aiguë des ischio-jambiers
+hanche-fracture = Fracture de l'extrémité supérieure du fémur
+hanche-cfa = Conflit fémoro-acétabulaire ou lésion du labrum
+hanche-psoas = Ilio-psoas ou hanche à ressaut
+hanche-piriforme = Syndrome du piriforme (fessier profond)
+hanche-meralgie = Méralgie paresthésique
+hanche-osteite = Ostéite pubienne (douleur pubienne de l'athlète)
+hanche-parietale = Pubalgie pariétale (douleur inguinale de l'athlète)
+hanche-avulsion = Avulsion apophysaire du bassin (adolescent)
+hanche-ij_tendino = Tendinopathie proximale des ischio-jambiers
+hanche-epiphysiolyse = Épiphysiolyse fémorale supérieure
+hanche-ff_col = Fracture de fatigue du col ou de la diaphyse fémorale
+hanche-osteonecrose = Ostéonécrose de la tête fémorale
+hanche-apophysite = Apophysite de la crête iliaque
+hanche-contusion = Contusion de la cuisse ou de la crête iliaque
+hanche-bassin = Fracture de fragilité du bassin ou du sacrum
+hanche-lombaire = Douleur projetée d'origine lombaire
+hanche-ppr = Pseudopolyarthrite rhizomélique
+
+lombaire :
+lombaire-commune = Lombalgie commune (non spécifique)
+lombaire-musculaire = Contracture ou lésion musculaire lombaire
+lombaire-discogenique = Discopathie dégénérative ou douleur discogénique
+lombaire-facettaire = Douleur zygapophysaire (facettaire)
+lombaire-grossesse = Lombalgie ou douleur pelvienne de la grossesse
+lombaire-stenose = Canal lombaire étroit
+lombaire-si = Douleur sacro-iliaque
+lombaire-hernie = Hernie discale avec radiculopathie (sciatique, cruralgie)
+lombaire-spondylolisthesis = Spondylolisthésis dégénératif
+lombaire-fracture_osteo = Fracture vertébrale ostéoporotique (ou d'insuffisance du sacrum)
+lombaire-spondylolyse = Spondylolyse ou spondylolisthésis isthmique
+lombaire-scoliose = Scoliose dégénérative de l'adulte
+lombaire-spa = Spondyloarthrite axiale
+lombaire-cancer = Cancer ou métastase rachidienne
+lombaire-infection = Spondylodiscite ou abcès épidural
+lombaire-queue = Syndrome de la queue de cheval
+
+epaule :
+epaule-sous_acro = Douleur sous-acromiale (tendinopathie de la coiffe)
+epaule-myalgie = Myalgie ou douleur non spécifique
+epaule-capsulite = Capsulite rétractile
+epaule-ac_entorse = Entorse ou disjonction acromio-claviculaire
+epaule-rupture = Rupture transfixiante de la coiffe
+epaule-dyskinesie = Dyskinésie scapulaire
+epaule-fracture_hp = Fracture de l'humérus proximal
+epaule-clavicule = Fracture de la clavicule
+epaule-omarthrose = Arthrose gléno-humérale
+epaule-calcifiante = Tendinopathie calcifiante
+epaule-instab_ant = Luxation ou instabilité antérieure
+epaule-ac_arthrose = Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule
+epaule-ppr = Pseudopolyarthrite rhizomélique
+epaule-biceps = Tendinopathie ou rupture du long biceps
+epaule-cervical = Douleur projetée d'origine cervicale
+epaule-slap = Lésion SLAP (labrum supérieur)
+epaule-instab_post = Instabilité postérieure ou multidirectionnelle
