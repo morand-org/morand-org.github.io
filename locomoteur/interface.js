@@ -267,6 +267,13 @@
   }
 
   /* ---------- Calcul et affichage ---------- */
+  // Pastille d'avancement « 6/14 » : vide (rien de répondu), partiel ou complet.
+  function avancement(el, n, total) {
+    if (!el) return;
+    el.textContent = total ? `${n}/${total}` : "";
+    el.dataset.etat = !total ? "" : n === 0 ? "vide" : n >= total ? "complet" : "partiel";
+    el.title = total ? `${n} réponse${n > 1 ? "s" : ""} sur ${total} question${total > 1 ? "s" : ""}` : "";
+  }
   function planifier() { cancelAnimationFrame(attente); attente = requestAnimationFrame(maj); }
   function maj() {
     const regs = actives();
@@ -275,12 +282,19 @@
     for (const [ref, items] of blocs) {
       const el = form.querySelector(`[data-bloc="${ref}"]`); if (el) el.hidden = !items.some(({ r, q }) => derniers[r].vus.has(q.id));
       const c = form.querySelector(`[data-compte="${ref}"]`);
-      if (c) { const n = new Set(items.filter(({ q }) => q.type !== "miroir").map(({ r, q }) => cleDe(r, q)).filter(k => lire(k) !== undefined)).size; c.textContent = n ? String(n) : ""; }
+      if (c) {
+        // Avancement : réponses / questions visibles (sans les champs libres ni les recopies).
+        const cles = [...new Set(items.filter(({ r, q }) => q.type !== "miroir" && q.type !== "texte" && derniers[r].vus.has(q.id)).map(({ r, q }) => cleDe(r, q)))];
+        avancement(c, cles.filter(k => lire(k) !== undefined).length, cles.length);
+      }
     }
     for (const a of document.querySelectorAll("#lo-nav [data-nav]")) {
       const sec = document.getElementById(`s-${a.dataset.nav}`); if (!sec) continue;
-      const n = [...new Set([...sec.querySelectorAll("[data-q]")].map(el => el.dataset.q))].filter(k => lire(k) !== undefined).length;
-      $(".lo-compte", a).textContent = n ? String(n) : "";
+      const cles = [...new Set([...sec.querySelectorAll("[data-q]:not(.lo-texte-libre):not(textarea)")].filter(el => !el.closest("[hidden]")).map(el => el.dataset.q))];
+      // Navigation : nombre de réponses ; pastille pointillée « 0 » pour une section encore vide.
+      const n = cles.filter(k => lire(k) !== undefined).length, el = $(".lo-compte", a);
+      el.textContent = cles.length ? String(n) : ""; el.dataset.etat = !cles.length ? "" : n ? "partiel" : "vide";
+      el.title = cles.length ? `${n} réponse${n > 1 ? "s" : ""}` : "";
     }
     resultats(regs); conduite(regs);
     $("#lo-note").value = regs.length ? LO.redigerPlusieurs(regs.map(r => ({ d: D(r), res: derniers[r] }))) : "";
@@ -308,12 +322,75 @@
   // Fiche high yield liée au diagnostic (locomoteur/fiches-hy.js), et bibliothèque de la région.
   const hyLien = (r, id) => { const f = ((LO.fichesHY || {})[r] || {})[id]; return f ? `<p class="lo-fiches"><a class="lo-lien" href="${esc(f.u)}">Fiche high yield ${esc(f.no)}</a></p>` : ""; };
   const hyBiblio = r => ((LO.fichesHY || {})[r] ? `<p class="lo-discret lo-hy-biblio"><a href="/locomoteur/${r}/fiches/">Fiches high yield : ${esc(NOMS[r].toLowerCase())}</a></p>` : "");
+  /* Éléments clés non évalués (point 3) : pour les 3 premiers diagnostics, les questions visibles et sans réponse qui
+     pèseraient le plus (RV de 3 ou plus, ou de 1/3 ou moins). Non évalué n'est jamais un négatif. */
+  const CONTEXTE = new Set(["visite", "sexe", "age", "cote", "duree", "apparition", "mecanisme", "premier", "lateralite"]);
+  const forceDe = (q, dx) => Math.max(0, ...q.effets.filter(e => e.dx === dx).flatMap(e => (e.rv ? Object.values(e.rv) : LO.rvPosNeg(e)).map(v => Math.abs(Math.log(v)))));
+  function manques(r, res, x) {
+    if (x.residuel) return [];
+    return D(r).questions.filter(q => !CONTEXTE.has(q.id) && q.type !== "texte" && q.type !== "miroir" && res.vus.has(q.id) && res.rep[q.id] === undefined)
+      .map(q => [forceDe(q, x.id), q]).filter(([f]) => f >= Math.log(3)).sort((a, b) => b[0] - a[0])
+      .map(([, q]) => (q.court && q.libelle.length > 40 ? q.court : q.libelle)).filter((t, i, l) => l.indexOf(t) === i).slice(0, 3);
+  }
+  /* Fiabilité du classement (point 2) : éléments qui comptent pour le diagnostic de tête, part vérifiée, largeur de la
+     fourchette. */
+  function fiabilite(res) {
+    const t = res.diagnostics.find(x => !x.residuel) || res.diagnostics[0];
+    if (!t || !t.comptes.length) return "";
+    const n = t.comptes.length, v = t.comptes.filter(c => c.e.statut === "verifie" || c.e.statut === "valide").length, l = t.haut - t.bas;
+    const niveau = n < 3 || l > 0.45 ? "faible" : n >= 6 && v / n >= 0.25 && l <= 0.25 ? "bonne" : "moyenne";
+    const raisons = [`${n} élément${n > 1 ? "s" : ""} qui compte${n > 1 ? "nt" : ""} pour le diagnostic de tête`, v ? `${v} vérifié${v > 1 ? "s" : ""} dans la littérature` : "aucun vérifié",
+      `fourchette de ${pct(t.bas)} à ${pct(t.haut)}`];
+    return `<p class="lo-fiabilite" data-niveau="${niveau}"><strong>Fiabilité du classement : ${niveau}</strong> (${raisons.join(" ; ")}).${niveau === "faible" ? " Compléter l'examen avant de conclure." : ""}</p>`;
+  }
+  const manquesHtml = (r, res, x) => {
+    if (!res.diagnostics.filter(y => !y.residuel).slice(0, 3).some(y => y.id === x.id)) return "";
+    const m = manques(r, res, x);
+    return m.length ? `<span class="lo-dx-manque">Non évalué : ${esc(m.join(", "))}</span>` : "";
+  };
+  /* Douleur projetée (point 10) : proposer d'ajouter la plainte voisine quand le calcul ou l'examen l'évoque. */
+  const pDe = (res, id) => (res.diagnostics.find(x => x.id === id) || { p: 0 }).p;
+  const PROJETEES = {
+    genou: [["hanche", res => res.rep.douleur_hanche === "oui" || res.rep.hanche_ri === "limitee" || res.rep.fadir === "oui"], ["lombaire", res => res.rep.lombaire_mob === "douleur"]],
+    hanche: [["lombaire", res => pDe(res, "lombaire") >= 0.15 || res.rep.lombaire_mob === "douleur"], ["genou", res => res.rep.genou_mob === "douleur"]],
+    lombaire: [["hanche", res => res.rep.hanche_mob === "douleur"]],
+    epaule: [["cervical", res => pDe(res, "cervical") >= 0.15 || res.rep.cou_mob === "douleur" || res.rep.spurling === "oui"]],
+    coude: [["cervical", res => pDe(res, "cervical") >= 0.15 || res.rep.cou_mob === "douleur"], ["epaule", res => res.rep.epaule_mob === "douleur"]],
+    poignet: [["cervical", res => pDe(res, "cervical") >= 0.15 || res.rep.cou_mob === "douleur"], ["coude", res => res.rep.coude_mob === "douleur"]],
+    cervical: [["epaule", res => res.rep.epaule_mob === "douleur"]],
+    cheville: [["genou", res => res.rep.genou_mob === "douleur"], ["lombaire", res => res.rep.deficit_l5s1 === "oui"]],
+    pied: [["cheville", res => res.rep.cheville_mob === "douleur"]],
+  };
+  function projetees(r, res) {
+    const vers = (PROJETEES[r] || []).filter(([v, si]) => prets.has(v) && !etat.regions.includes(v) && si(res)).map(([v]) => v);
+    return vers.length ? `<p class="lo-projetee">Douleur possiblement projetée : ${vers.map(v => `<button type="button" class="lo-lien" data-ajouter="${v}">ajouter la plainte « ${esc(NOMS[v])} »</button>`).join(" ou ")}.</p>` : "";
+  }
+  /* Ce qui ferait changer d'avis (point 7) : on simule les réponses manquantes les plus fortes (10 questions au plus) et on
+     retient celle qui ferait le plus tomber le diagnostic de tête et celle qui ferait passer le 2ᵉ en tête. */
+  function changerAvis(r, res) {
+    const L = res.diagnostics.filter(x => !x.residuel), d = D(r);
+    if (L.length < 2 || !L[0].comptes.length) return "";
+    const [t, s2] = L;
+    const cands = d.questions.filter(q => !CONTEXTE.has(q.id) && (q.type === "oui_non" || q.type === "choix") && res.vus.has(q.id) && res.rep[q.id] === undefined)
+      .map(q => [Math.max(forceDe(q, t.id), forceDe(q, s2.id)), q]).filter(([f]) => f >= Math.log(2)).sort((a, b) => b[0] - a[0]).slice(0, 10).map(([, q]) => q);
+    let baisse = null, hausse = null;
+    for (const q of cands) for (const v of (q.type === "oui_non" ? ["oui", "non"] : q.options.map(o => o.v)).slice(0, 5)) {
+      const r2 = LO.calculer(d, { ...res.rep, [q.id]: v }), pt = pDe(r2, t.id), p2 = pDe(r2, s2.id);
+      if (!baisse || pt < baisse.p) baisse = { q, v, p: pt };
+      if (p2 > pt && (!hausse || p2 - pt > hausse.ecart)) hausse = { q, v, p: p2, ecart: p2 - pt };
+    }
+    const lib = (q, v) => `${q.court && q.libelle.length > 40 ? q.court : q.libelle} : ${LO.libelleOption(q, v).toLowerCase()}`;
+    const lignes = [];
+    if (baisse && t.p - baisse.p >= 0.15) lignes.push(`<li><strong>${esc(t.x.nom)}</strong> descendrait à ${pct(baisse.p)} si ${esc(lib(baisse.q, baisse.v))}.</li>`);
+    if (hausse) lignes.push(`<li><strong>${esc(s2.x.nom)}</strong> passerait en tête (${pct(hausse.p)}) si ${esc(lib(hausse.q, hausse.v))}.</li>`);
+    return lignes.length ? `<div class="lo-changer"><p class="lo-changer-titre">Ce qui ferait changer d'avis</p><ul>${lignes.join("")}</ul></div>` : "";
+  }
   function itemDx(r, res, x, avecCles) {
     const verifies = x.comptes.filter(c => c.e.statut === "verifie" || c.e.statut === "valide").length;
     return `<li class="lo-dx-item" data-cat="${x.categorie[2]}" data-dx="${x.id}"><details${ouverts.has(`${r}|${x.id}`) ? " open" : ""}>
       <summary><span class="lo-dx-ligne"><span class="lo-dx-nom">${esc(x.x.nom)}</span><span class="lo-dx-pct">${pct(x.p)}</span></span>
         <span class="lo-jauge" aria-hidden="true"><span class="lo-jauge-plage"></span><span class="lo-jauge-val"></span></span>
-        <span class="lo-dx-ligne lo-dx-sous"><span class="lo-dx-cat">${x.categorie[1]}</span><span title="Analyse de sensibilité : poids 30 % plus faibles ou plus forts, fréquence de départ 1,5 fois plus basse ou plus haute">si les poids varient : ${pct(x.bas)} à ${pct(x.haut)}</span></span>${avecCles ? cles3(x) : ""}</summary>
+        <span class="lo-dx-ligne lo-dx-sous"><span class="lo-dx-cat">${x.categorie[1]}</span><span title="Analyse de sensibilité : poids 30 % plus faibles ou plus forts, fréquence de départ 1,5 fois plus basse ou plus haute">si les poids varient : ${pct(x.bas)} à ${pct(x.haut)}</span></span>${avecCles ? cles3(x) : ""}${manquesHtml(r, res, x)}</summary>
       <div class="lo-pourquoi">
         ${x.comptes.length ? `<p class="lo-discret">Éléments qui comptent : ${x.comptes.length}, dont ${verifies} vérifié${verifies > 1 ? "s" : ""} dans la littérature ; les autres poids sont provisoires.</p>` : ""}
         ${x.residuel ? `<p>${esc(x.x.explication || "Probabilité qu'aucun des diagnostics de la liste ne soit en cause.")}</p>` : `<p>Départ (${esc(departTexte(res))}) : ${pctExact(x.depart)}.</p>`}
@@ -331,7 +408,12 @@
     const montres = new Set([...premiers, ...garder].map(x => x.id));
     const graves = L.filter(x => x.x.grave && !montres.has(x.id) && x.p >= 0.01);
     const groupe = (titre, liste, cles) => (liste.length ? `<h4 class="lo-dx-groupe">${titre}</h4><ol class="lo-dx" data-region="${r}">${liste.map((x, i) => itemDx(r, res, x, cles && i === 0)).join("")}</ol>` : "");
-    return groupe("À considérer en premier", premiers, true) + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
+    // Diagnostics probables qui peuvent coexister (« compatibles » des données) : l'un n'exclut pas l'autre.
+    const comp = new Set((D(r).compatibles || []).flatMap(([a, b]) => [`${a}|${b}`, `${b}|${a}`]));
+    const cands = L.filter(x => !x.residuel && x.p >= 0.2).slice(0, 6), paires = [];
+    cands.forEach((a, i) => cands.slice(i + 1).forEach(b => { if (comp.has(`${a.id}|${b.id}`)) paires.push(`${a.x.n} et ${b.x.n}`); }));
+    const coexist = paires.length ? `<p class="lo-coexist"><strong>Peuvent coexister</strong> : ${esc(paires.slice(0, 3).join(" ; "))}. L'un n'exclut pas l'autre.</p>` : "";
+    return groupe("À considérer en premier", premiers, true) + coexist + changerAvis(r, res) + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
       + (L.length > montres.size + graves.length || tousR.has(r) ? `<button type="button" class="lo-lien lo-tous" data-tous="${r}">${tousR.has(r) ? "Afficher moins" : `Afficher les ${L.length} diagnostics`}</button>` : "");
   }
   function resultats(regs) {
@@ -342,7 +424,7 @@
     $("#lo-res-etat").textContent = !saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(r0)}). Remplissez l'anamnèse et l'examen.`
         : regs.map(r => `${plusieurs ? `${plainteTitre(r)} : ` : `${saisies} réponse${saisies > 1 ? "s" : ""} · `}${derniers[r].diagnostics[0].categorie[1].toLowerCase()} : ${derniers[r].diagnostics[0].x.nom.toLowerCase()}`).join(" · ");
-    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${dxHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
+    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${fiabilite(derniers[r])}${projetees(r, derniers[r])}${dxHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
     for (const ol of zone.querySelectorAll("ol.lo-dx")) for (const li of ol.children) {
       const r = ol.dataset.region, x = derniers[r].diagnostics.find(y => y.id === li.dataset.dx);
       li.style.setProperty("--val", x.p.toFixed(4)); li.style.setProperty("--bas", x.bas.toFixed(4)); li.style.setProperty("--haut", x.haut.toFixed(4));
@@ -350,6 +432,8 @@
     }
   }
   $("#lo-dx-regions").addEventListener("click", e => {
+    const aj = e.target.closest("button[data-ajouter]");
+    if (aj) { const puce = form.querySelector(`.lo-puce[data-region="${aj.dataset.ajouter}"]`); if (puce) { puce.click(); puce.scrollIntoView({ block: "center" }); } return; }
     const t = e.target.closest("button[data-tous]");
     if (t) { const r = t.dataset.tous; if (tousR.has(r)) tousR.delete(r); else tousR.add(r); resultats(actives()); return; }
     const f = e.target.closest("button[data-fiche]"); if (f) ouvrirFiche(f.dataset.fiche);
