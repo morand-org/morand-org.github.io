@@ -561,7 +561,22 @@ async function fichesHY(nav) {
   await ctx.close();
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, sombre };
+/* MSK Morand : atlas de la douleur (zone touchée → plainte et côté). */
+async function atlas(nav) {
+  const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur: 390 });
+  const cote = async r => p.evaluate(r2 => document.querySelector(`[data-q="${r2}:cote"][aria-pressed="true"]`)?.textContent, r);
+  await p.click('.lo-zone[data-zone="genou"][data-cote="G"]'); await p.waitForTimeout(200);
+  const g = await cote("genou");
+  await p.click('.lo-zone[data-zone="genou"][data-cote="D"]'); await p.waitForTimeout(200);
+  const deux = await cote("genou");
+  await p.click('.lo-zone[data-zone="epaule"][data-cote="D"] >> nth=0'); await p.waitForSelector('[data-q="epaule:cote"]');
+  const plaintes = await p.evaluate(() => [...document.querySelectorAll(".lo-puce[aria-pressed=true]")].map(b => b.dataset.region));
+  verifier("Atlas : genou gauche, puis les deux ; l'épaule droite ajoute la plainte avec son côté",
+    g === "Gauche" && deux === "Les deux" && plaintes.includes("epaule") && (await cote("epaule")) === "Droite" && !erreurs.length && !(await deborde(p)), { g, deux, plaintes, erreurs });
+  await ctx.close();
+}
+
+const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {
