@@ -12,6 +12,7 @@ Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou l
 |---|---|---|---|---|
 | Cervicalgie ou douleur cervico-brachiale | 3 | 17 | 13 | 12 |
 | Douleur à l'épaule | 3 | 17 | 7 | 21 |
+| Douleur au coude | 4 | 17 | 4 | 28 |
 | Lombalgie, avec ou sans irradiation | 3 | 16 | 4 | 3 |
 | Douleur à la hanche ou à l'aine | 3 | 21 | 9 | 18 |
 | Douleur au genou | 3 | 23 | 3 | 22 |
@@ -205,6 +206,124 @@ EPAU-P25. « Où est la douleur : Irradie sous le coude » — current LR+ 6, LR
 EPAU-P26. « Douleur reproduite par les mouvements du cou » — current LR+ 6, LR− 0.3
 EPAU-P27. « Engourdissements ou picotements dans le bras ou la main » — current LR+ 5, LR− 0.4
 EPAU-P28. « Déficit de force, de sensibilité ou de réflexe C5–C6 » — current LR+ 5, LR− 0.8
+
+Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
+```
+
+## Douleur au coude (COUD)
+
+### COUD 1. Fréquences de départ (17 éléments)
+
+```text
+Among patients 12 years and older consulting in primary care or sports medicine for elbow pain, what proportion has each of the following diagnoses? Our current estimates of the proportion by age are given; confirm or correct them.
+
+COUD-F1. lateral epicondylitis (lateral elbow tendinopathy) — current estimate: 12 y 6%, 25 y 20%, 45 y 35%, 60 y 25%, 80 y 12%
+COUD-F2. medial epicondylitis — current estimate: 12 y 2%, 25 y 5%, 45 y 8%, 70 y 4%
+COUD-F3. little league elbow (medial epicondyle apophysitis) — current estimate: 12 y 6%, 14 y 5%, 17 y 1%, 20 y 0.1%; men ×1.5, women ×0.7
+COUD-F4. elbow fracture (radial head or neck, olecranon, distal humerus, medial epicondyle) — current estimate: 12 y 4%, 30 y 3%, 65 y 4%, 85 y 6%
+COUD-F5. elbow dislocation — current estimate: 12 y 2%, 18 y 2%, 40 y 0.6%, 70 y 0.3%
+COUD-F6. cubital tunnel syndrome (ulnar neuropathy at the elbow) — current estimate: 12 y 0.5%, 30 y 4%, 50 y 7%, 70 y 6%; men ×1.4, women ×0.75
+COUD-F7. aseptic olecranon bursitis — current estimate: 12 y 1%, 40 y 6%, 70 y 7%; men ×2, women ×0.6
+COUD-F8. septic olecranon bursitis — current estimate: 12 y 0.3%, 40 y 3%, 70 y 3%; men ×2, women ×0.6
+COUD-F9. elbow osteoarthritis — current estimate: 12 y 0.1%, 40 y 2%, 60 y 5%, 80 y 8%; men ×1.5, women ×0.7
+COUD-F10. ulnar collateral ligament injury of the elbow — current estimate: 12 y 0.2%, 14 y 0.6%, 16 y 2%, 22 y 3%, 35 y 0.5%, 50 y 0.1%
+COUD-F11. distal biceps tendon rupture — current estimate: 12 y 0.02%, 30 y 0.4%, 45 y 1%, 65 y 0.6%; men ×10, women ×0.1
+COUD-F12. osteochondritis dissecans of the capitellum — current estimate: 12 y 2%, 15 y 1%, 18 y 0.4%, 25 y 0.05%
+COUD-F13. posteromedial impingement or olecranon stress fracture — current estimate: 12 y 0.5%, 18 y 1%, 30 y 0.6%, 50 y 0.2%
+COUD-F14. distal triceps tendinopathy or rupture — current estimate: 12 y 0.2%, 30 y 0.8%, 50 y 0.8%, 70 y 0.5%; men ×2, women ×0.6
+COUD-F15. radial tunnel syndrome — current estimate: 12 y 0.2%, 30 y 1%, 50 y 1%, 70 y 0.5%
+COUD-F16. inflammatory or crystal arthritis of the elbow — current estimate: 12 y 0.2%, 40 y 0.8%, 65 y 2%, 85 y 3%
+COUD-F17. cervical radiculopathy referred to the elbow — current estimate: 12 y 0.5%, 35 y 2%, 55 y 4%, 75 y 3%
+
+Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
+```
+
+### COUD 2. Poids à vérifier et combinaisons (4 éléments)
+
+```text
+For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for elbow pain; the French wording is kept in quotes.
+
+Target diagnosis: lateral epicondylitis (lateral elbow tendinopathy)
+COUD-P1. « Blocage ou accrochage du coude » — current LR+ 0.4, LR− 1.05
+COUD-P2. « Cozen test (Extension résistée du poignet (Cozen)) » — current LR+ 2.5, LR− 0.12
+COUD-P3. « Maudsley test (Extension résistée du 3ᵉ doigt (Maudsley)) » — current LR+ 2, LR− 0.4
+
+Target diagnosis: radial tunnel syndrome
+COUD-P4. « Douleur 3 à 5 cm sous l'épicondyle latéral (arcade de Frohse) » — current LR+ 5, LR− 0.3
+
+Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
+```
+
+### COUD 3. Poids provisoires forts (1 sur 2) (25 éléments)
+
+```text
+For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for elbow pain; the French wording is kept in quotes.
+
+Target diagnosis: lateral epicondylitis (lateral elbow tendinopathy)
+COUD-P5. « Où est la douleur : Latérale, à l'épicondyle » — current LR+ 5, LR− 0.1
+COUD-P6. « Épicondyle latéral douloureux » — current LR+ 5, LR− 0.1
+
+Target diagnosis: medial epicondylitis
+COUD-P7. « Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.15
+COUD-P8. « Épicondyle médial douloureux » — current LR+ 5, LR− 0.1
+
+Target diagnosis: little league elbow (medial epicondyle apophysitis)
+COUD-P9. « Activités physiques : Sports de lancer (baseball, softball, water-polo) » — current LR+ 5, LR− 1
+COUD-P10. « Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.1
+COUD-P11. « Épicondyle médial douloureux » — current LR+ 6, LR− 0.1
+
+Target diagnosis: elbow dislocation
+COUD-P12. « Déformation visible ou coude « sorti de place » » — current LR+ 15, LR− 0.2
+COUD-P13. « Déformation ou perte des repères (triangle olécrânien) » — current LR+ 15, LR− 0.2
+COUD-P14. « Elbow extension test » — current LR+ 1.5, LR− 0.1
+
+Target diagnosis: aseptic olecranon bursitis
+COUD-P15. « Enflure derrière le coude (« balle » sur l'olécrâne) » — current LR+ 15, LR− 0.2
+COUD-P16. « Tuméfaction de la bourse olécrânienne » — current LR+ 20, LR− 0.1
+
+Target diagnosis: septic olecranon bursitis
+COUD-P17. « Enflure derrière le coude (« balle » sur l'olécrâne) » — current LR+ 15, LR− 0.2
+COUD-P18. « Tuméfaction de la bourse olécrânienne » — current LR+ 20, LR− 0.1
+
+Target diagnosis: ulnar collateral ligament injury of the elbow
+COUD-P19. « Activités physiques : Sports de lancer (baseball, softball, water-polo) » — current LR+ 5, LR− 1
+COUD-P20. « Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.2
+
+Target diagnosis: distal biceps tendon rupture
+COUD-P21. « Claquement (« pop ») au moment de la blessure » — current LR+ 5, LR− 0.3
+COUD-P22. « Où est la douleur : Antérieure, au pli du coude » — current LR+ 6, LR− 0.2
+COUD-P23. « Ecchymose antécubitale » — current LR+ 6, LR− 0.5
+
+Target diagnosis: osteochondritis dissecans of the capitellum
+COUD-P24. « Blocage ou accrochage du coude » — current LR+ 5, LR− 0.5
+
+Target diagnosis: posteromedial impingement or olecranon stress fracture
+COUD-P25. « Où est la douleur : Postérieure, à l'olécrâne » — current LR+ 5, LR− 0.3
+
+Target diagnosis: distal triceps tendinopathy or rupture
+COUD-P26. « Où est la douleur : Postérieure, à l'olécrâne » — current LR+ 5, LR− 0.3
+COUD-P27. « Extension active du coude contre la gravité impossible » — current LR+ 10, LR− 0.3
+
+Target diagnosis: radial tunnel syndrome
+COUD-P28. « Où est la douleur : Latérale, 3 à 5 cm sous l'épicondyle (avant-bras) » — current LR+ 5, LR− 0.3
+
+Target diagnosis: inflammatory or crystal arthritis of the elbow
+COUD-P29. « Autres articulations enflées ou douloureuses » — current LR+ 5, LR− 0.6
+
+Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
+```
+
+### COUD 4. Poids provisoires forts (2 sur 2) (3 éléments)
+
+```text
+For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for elbow pain; the French wording is kept in quotes.
+
+Target diagnosis: inflammatory or crystal arthritis of the elbow
+COUD-P30. « Tophus » — current LR+ 8, LR− 0.9
+
+Target diagnosis: cervical radiculopathy referred to the elbow
+COUD-P31. « Douleur aggravée par les mouvements du cou » — current LR+ 5, LR− 0.5
+COUD-P32. « Spurling ou mouvements du cou reproduisant la douleur » — current LR+ 5, LR− 0.4
 
 Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
 ```
