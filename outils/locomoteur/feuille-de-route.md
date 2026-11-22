@@ -37,11 +37,11 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
    5. ✅ (PR #13) **2. Indicateur de fiabilité par région.** Faible, moyenne ou bonne, selon les éléments discriminants répondus, la part de poids vérifiés et la largeur de la fourchette.
    6. ✅ (PR #13) **10. Douleur projetée d'une région à l'autre.** Proposer d'ajouter la plainte voisine : hanche quand le genou est douloureux, cou quand c'est l'épaule ou le coude, dos quand c'est la hanche.
    7. ✅ (PR #13) **7. « Qu'est-ce qui me ferait changer d'avis ? »** Pour le diagnostic de tête, ce qui le ferait tomber ; pour le 2ᵉ, ce qui le ferait passer premier.
-   8. **1. Bandeau « Sécurité » en tête des résultats.** Alertes de toutes les plaintes, en rouge (urgence), orange (rapide) et jaune (à considérer), visibles aussi sur ordinateur. Les drapeaux rouges vérifiés et absents s'écrivent dans la note.
-   9. **5. Contexte de consultation.** Bureau, urgence ou clinique sportive, qui ajuste les fréquences de départ.
-   10. **8. Comparateur de deux diagnostics.** Côte à côte, avec les éléments qui les départagent le mieux.
-   11. **6. « Prochaine question la plus utile ».** Les 3 questions non répondues qui changeraient le plus le classement, avec l'effet attendu si positif ou négatif.
-   12. **15. Mode rapide.** Une dizaine de questions discriminantes par région ; passage au mode complet d'un clic.
+   8. ✅ (PR #14) **1. Bandeau « Sécurité » en tête des résultats.** Alertes de toutes les plaintes, en rouge (urgence), orange (rapide) et jaune (à considérer), visibles aussi sur ordinateur. Les drapeaux rouges vérifiés et absents s'écrivent dans la note.
+   9. ✅ (PR #14) **5. Contexte de consultation.** Bureau, urgence ou clinique sportive, qui ajuste les fréquences de départ.
+   10. ✅ (PR #14) **8. Comparateur de deux diagnostics.** Côte à côte, avec les éléments qui les départagent le mieux.
+   11. ✅ (PR #15) **6. « Prochaine question la plus utile ».** Les 3 questions non répondues qui changeraient le plus le classement, avec l'effet attendu si positif ou négatif.
+   12. ✅ (PR #16) **15. Mode rapide.** Une dizaine de questions discriminantes par région ; passage au mode complet d'un clic.
    13. **11. Conduite en six blocs.** Investigations, Traitement, À éviter, Suivi, Consignes de reconsultation, Référence, avec la conduite conditionnelle (« si échec à 6 semaines… »).
 4. **19. Atlas de la douleur** (avant-dernier) : schéma du corps cliquable pour choisir la région et la localisation.
 5. **14. Importateur de note sans IA** (dernier). Le principe :
