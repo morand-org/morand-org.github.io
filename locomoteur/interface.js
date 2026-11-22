@@ -193,7 +193,7 @@
     const liens = [["plaintes", "Plaintes"], ...(regs.length ? [["identification", "Identification"], ["hdv", "Habitudes"], ["antecedents", "Antécédents"], ...regs.map(r => [`p-${r}`, NOMS[r]]),
       ["drapeaux", "Drapeaux rouges"], ["examen", "Examen"], ["investigations", "Investigations"], ["plan", "Impression et plan"]] : [])];
     $("#lo-nav").innerHTML = liens.map(([id, t]) => `<a href="#s-${id}" data-nav="${id}">${esc(t)}<span class="lo-compte"></span></a>`).join("")
-      + `<a href="#resultats">Résultats</a><a href="#sources">Sources</a><button type="button" class="lo-nouveau lo-secondaire" id="lo-patients-ouvrir">Patients</button><button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>`;
+      + `<a href="#resultats">Résultats</a><a href="#sources">Sources</a><button type="button" class="lo-nouveau lo-secondaire" id="lo-rapide" aria-pressed="${rapide ? "true" : "false"}" title="Mode rapide : seulement les questions les plus discriminantes ; les réponses données restent visibles">Mode rapide</button><button type="button" class="lo-nouveau lo-secondaire" id="lo-patients-ouvrir">Patients</button><button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>`;
     remplir();
   }
   // Remet dans les contrôles les réponses en mémoire (après une reconstruction ou l'ouverture d'un patient).
@@ -274,13 +274,38 @@
     el.dataset.etat = !total ? "" : n === 0 ? "vide" : n >= total ? "complet" : "partiel";
     el.title = total ? `${n} réponse${n > 1 ? "s" : ""} sur ${total} question${total > 1 ? "s" : ""}` : "";
   }
+  /* Mode rapide (point 15) : seulement l'essentiel. Sexe, âge, milieu et contexte, tous les drapeaux rouges, jusqu'à 14
+     questions discriminantes par région (la plus forte de chaque diagnostic, du plus fréquent au moins fréquent), l'investigation et le plan ;
+     une question déjà répondue reste toujours visible. */
+  let rapide = false;
+  try { rapide = localStorage.getItem("msk-morand-rapide") === "1"; } catch (e) { /* stockage indisponible */ }
+  const FIXES = new Set(["sexe", "age", "milieu", "cote", "duree", "apparition", "mecanisme"]), cacheEss = new Map();
+  function essentiels(r) {
+    if (cacheEss.has(r)) return cacheEss.get(r);
+    const d = D(r), poids = Object.fromEntries(d.diagnostics.map(x => [x.id, Math.max(0.02, x.base.reduce((a, [, p]) => a + p, 0) / x.base.length) + (x.grave ? 0.02 : 0)]));
+    // À tour de rôle, du diagnostic le plus fréquent au moins fréquent : sa question la plus forte (RV ≥ 3 ou ≤ 1/3).
+    const cands = d.questions.filter(q => !CONTEXTE.has(q.id) && q.type !== "texte" && q.type !== "miroir" && q.section.id !== "drapeaux" && q.effets.length);
+    const dxTri = d.diagnostics.slice().sort((a, b) => poids[b.id] - poids[a.id]), choisis = new Set();
+    for (let tour = 0; tour < 3 && choisis.size < 14; tour++) for (const x of dxTri) {
+      if (choisis.size >= 14) break;
+      const best = cands.filter(q => !choisis.has(q.id)).map(q => [forceDe(q, x.id), q.id]).sort((a, b) => b[0] - a[0])[0];
+      if (best && best[0] >= Math.log(3)) choisis.add(best[1]);
+    }
+    const ens = new Set([...FIXES, ...choisis, ...d.questions.filter(q => q.section.id === "drapeaux").map(q => q.id)]);
+    cacheEss.set(r, ens); return ens;
+  }
+  function visible(r, q, regs) {
+    if (!derniers[r].vus.has(q.id)) return false;
+    if (!rapide || q.section.note === "inv" || q.section.note === "plan" || lire(cleDe(r, q)) !== undefined) return true;
+    return partagee(q) ? regs.some(x => essentiels(x).has(q.id)) : essentiels(r).has(q.id);
+  }
   function planifier() { cancelAnimationFrame(attente); attente = requestAnimationFrame(maj); }
   function maj() {
     const regs = actives();
     derniers = Object.fromEntries(regs.map(r => [r, LO.calculer(D(r), repDe(r))]));
-    for (const { r, q, dom } of rendus) { const el = form.querySelector(`[data-qid="${dom}"]`); if (el) el.hidden = !derniers[r].vus.has(q.id); }
+    for (const { r, q, dom } of rendus) { const el = form.querySelector(`[data-qid="${dom}"]`); if (el) el.hidden = !visible(r, q, regs); }
     for (const [ref, items] of blocs) {
-      const el = form.querySelector(`[data-bloc="${ref}"]`); if (el) el.hidden = !items.some(({ r, q }) => derniers[r].vus.has(q.id));
+      const el = form.querySelector(`[data-bloc="${ref}"]`); if (el) el.hidden = !items.some(({ r, q }) => visible(r, q, regs));
       const c = form.querySelector(`[data-compte="${ref}"]`);
       if (c) {
         // Avancement : réponses / questions visibles (sans les champs libres ni les recopies).
@@ -296,6 +321,8 @@
       el.textContent = cles.length ? String(n) : ""; el.dataset.etat = !cles.length ? "" : n ? "partiel" : "vide";
       el.title = cles.length ? `${n} réponse${n > 1 ? "s" : ""}` : "";
     }
+    // Mode rapide : une section dont toutes les questions sont cachées disparaît aussi.
+    for (const sec of form.querySelectorAll(".lo-section")) if (sec.querySelector(".lo-q")) sec.hidden = rapide && !sec.querySelector(".lo-q:not([hidden])");
     resultats(regs); conduite(regs);
     $("#lo-note").value = regs.length ? LO.redigerPlusieurs(regs.map(r => ({ d: D(r), res: derniers[r] }))) : "";
     barre(regs);
@@ -665,6 +692,12 @@
   $("#lo-nav").addEventListener("click", e => {
     if (e.target.closest('a[href="#sources"]')) { $("#sources").open = true; return; }
     if (e.target.closest("#lo-patients-ouvrir")) { ouvrirP(); return; }
+    const br = e.target.closest("#lo-rapide");
+    if (br) {
+      rapide = !rapide; br.setAttribute("aria-pressed", rapide ? "true" : "false");
+      try { localStorage.setItem("msk-morand-rapide", rapide ? "1" : "0"); } catch (err) { /* stockage indisponible */ }
+      maj(); return;
+    }
     if (!e.target.closest("#lo-nouveau")) return;
     if (!vide() && !confirm("Effacer toutes les réponses et commencer un nouveau patient ? (Les patients sauvegardés restent.)")) return;
     etat = { regions: etat.regions.slice(0, 1), commun: {}, par: {} }; ouverts.clear(); tousR.clear();
