@@ -1,0 +1,2689 @@
+[
+ {
+  "no": "C1",
+  "tags": "RACHIS CERVICAL · DOULEUR AXIALE · MÉCANIQUE",
+  "titre": "CERVICALGIE NON SPÉCIFIQUE",
+  "epidemiologie": {
+   "texte": "environ 20 % des adultes par an, pic à 45–54 ans ; femmes plus touchées.",
+   "refs": [
+    1,
+    2
+   ]
+  },
+  "presentation": {
+   "texte": "douleur de la ligne nucale à la scapula, souvent unilatérale, avec raideur, sans cause reconnaissable.",
+   "refs": [
+    1,
+    3
+   ]
+  },
+  "examen": {
+   "texte": "aucun test discriminant ; l'examen sert à exclure drapeaux rouges, radiculopathie et myélopathie.",
+   "refs": [
+    4,
+    5
+   ]
+  },
+  "physiopathologie": {
+   "texte": "source non identifiable (disques, facettes, muscles) ; sensibilisation centrale si chronique.",
+   "refs": [
+    6,
+    7
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie, myélopathie, fracture, infection, cancer, maladie inflammatoire.",
+   "refs": [
+    1,
+    5
+   ]
+  },
+  "investigations": {
+   "texte": "aucune imagerie sans drapeau rouge ; anomalies IRM fréquentes chez l'asymptomatique.",
+   "refs": [
+    3,
+    8
+   ]
+  },
+  "traitement": {
+   "texte": "éducation, exercices d'amplitude, soins multimodaux, pas de collet ; après 3 mois, renforcement supervisé ou AINS.",
+   "refs": [
+    9
+   ]
+  },
+  "pronostic": {
+   "texte": "environ 53 % améliorés à 3 mois ; 37 % résolus à 1 an ; récidives 50–85 % en 1–5 ans.",
+   "refs": [
+    10,
+    2,
+    1
+   ]
+  },
+  "refs": [
+   {
+    "n": 1,
+    "texte": "Junior V Fandim et al. Cochrane Database of… 2025",
+    "url": "https://doi.org/10.1002/14651858.cd014428.pub2"
+   },
+   {
+    "n": 2,
+    "texte": "Côté P et al. Pain 2004",
+    "url": "https://doi.org/10.1016/j.pain.2004.09.004"
+   },
+   {
+    "n": 3,
+    "texte": "Nejin Chacko et al. Cochrane Database of… 2025",
+    "url": "https://doi.org/10.1002/14651858.cd011225.pub2"
+   },
+   {
+    "n": 4,
+    "texte": "Guzman J et al. Spine 2008",
+    "url": "https://doi.org/10.1097/BRS.0b013e3181644641"
+   },
+   {
+    "n": 5,
+    "texte": "Childress MA et al. American Family Physician 2020",
+    "url": null
+   },
+   {
+    "n": 6,
+    "texte": "Anita Gross et al. Cochrane Database of… 2012",
+    "url": "https://doi.org/10.1002/14651858.cd005106.pub4"
+   },
+   {
+    "n": 7,
+    "texte": "Liang Chen et al. Cochrane Database of… 2026",
+    "url": "https://doi.org/10.1002/14651858.cd016383"
+   },
+   {
+    "n": 8,
+    "texte": "Cohen SP Mayo Clinic Proceedings 2015",
+    "url": "https://doi.org/10.1016/j.mayocp.2014.09.008"
+   },
+   {
+    "n": 9,
+    "texte": "Côté P et al. European Spine Journal 2016",
+    "url": "https://doi.org/10.1007/s00586-016-4467-7"
+   },
+   {
+    "n": 10,
+    "texte": "Anita R Gross et al. Cochrane Database of… 2026",
+    "url": "https://doi.org/10.1002/14651858.cd008626.pub4"
+   }
+  ]
+ },
+ {
+  "no": "C2",
+  "tags": "RACHIS CERVICAL · DOULEUR MUSCULAIRE · SURCHARGE POSTURALE",
+  "titre": "SYNDROME MYOFASCIAL DU TRAPÈZE SUPÉRIEUR",
+  "epidemiologie": {
+   "texte": "surtout 27–50 ans ; prévalence très variable faute d'étalon diagnostique.",
+   "refs": [
+    11,
+    12
+   ]
+  },
+  "presentation": {
+   "texte": "douleur cervico-scapulaire locale, parfois projetée vers la tête ; facteurs posturaux et de surcharge.",
+   "refs": [
+    12,
+    13
+   ]
+  },
+  "examen": {
+   "texte": "bande tendue, point exquis, douleur reconnue par le patient (≥ 2 sur 3) ; accord interobservateur modeste (κ 0,45).",
+   "refs": [
+    14,
+    15
+   ]
+  },
+  "physiopathologie": {
+   "texte": "hypothèse d'une contraction soutenue des sarcomères avec ischémie locale et sensibilisation.",
+   "refs": [
+    11,
+    13
+   ]
+  },
+  "ddx": {
+   "texte": "fibromyalgie, douleur neuropathique, atteinte articulaire, sensibilisation centrale.",
+   "refs": [
+    16
+   ]
+  },
+  "investigations": {
+   "texte": "diagnostic clinique.",
+   "refs": [
+    16
+   ]
+  },
+  "traitement": {
+   "texte": "exercices et physiothérapie, compression ischémique ; puncture sèche ou injection du point gâchette en deuxième ligne.",
+   "refs": [
+    17,
+    18,
+    19
+   ]
+  },
+  "pronostic": {
+   "texte": "histoire naturelle inconnue ; gains maintenus 1 à 6 mois dans les essais.",
+   "refs": [
+    20
+   ]
+  },
+  "refs": [
+   {
+    "n": 11,
+    "texte": "Nahomi Kuroda M et al. PloS One 2023",
+    "url": "https://doi.org/10.1371/journal.pone.0283337"
+   },
+   {
+    "n": 12,
+    "texte": "Akamatsu FE et al. BioMed Research International 2015",
+    "url": "https://doi.org/10.1155/2015/623287"
+   },
+   {
+    "n": 13,
+    "texte": "Tsai P et al. Scientific Reports 2024",
+    "url": "https://doi.org/10.1038/s41598-024-57733-4"
+   },
+   {
+    "n": 14,
+    "texte": "Duarte FCK et al. Current Rheumatology Reports 2021",
+    "url": "https://doi.org/10.1007/s11926-021-01024-8"
+   },
+   {
+    "n": 15,
+    "texte": "Rathbone ATL et al. The Clinical Journal of Pain 2017",
+    "url": "https://doi.org/10.1097/AJP.0000000000000459"
+   },
+   {
+    "n": 16,
+    "texte": "Steen JP et al. Muscle & Nerve 2025",
+    "url": "https://doi.org/10.1002/mus.28377"
+   },
+   {
+    "n": 17,
+    "texte": "Hiroki T et al. PloS One 2026",
+    "url": "https://doi.org/10.1371/journal.pone.0350882"
+   },
+   {
+    "n": 18,
+    "texte": "Cagnie B et al. American Journal of Physical… 2015",
+    "url": "https://doi.org/10.1097/PHM.0000000000000266"
+   },
+   {
+    "n": 19,
+    "texte": "Pain Medicine (Malden et al. ) 2022",
+    "url": "https://doi.org/10.1093/pm/pnab188"
+   },
+   {
+    "n": 20,
+    "texte": "Cerezo-Téllez E et al. Pain 2016",
+    "url": "https://doi.org/10.1097/j.pain.0000000000000591"
+   }
+  ]
+ },
+ {
+  "no": "C3",
+  "tags": "RACHIS CERVICAL · DOULEUR AXIALE · ARTICULAIRE POSTÉRIEURE",
+  "titre": "DOULEUR ZYGAPOPHYSAIRE CERVICALE",
+  "epidemiologie": {
+   "texte": "source principale de 25–67 % des cervicalgies chroniques ; environ 60 % après coup du lapin.",
+   "refs": [
+    21
+   ]
+  },
+  "presentation": {
+   "texte": "douleur unilatérale sans irradiation au bras ; C2–3 vers la tête, C5–6 vers l'épaule et le haut de la scapula.",
+   "refs": [
+    22,
+    21
+   ]
+  },
+  "examen": {
+   "texte": "extension-rotation douloureuse (Se 83 %, Sp 59 %) ; avec palpation segmentaire, Sp 81–83 %.",
+   "refs": [
+    23
+   ]
+  },
+  "physiopathologie": {
+   "texte": "nociception des articulations synoviales innervées par les branches médiales, par dégénérescence ou traumatisme.",
+   "refs": [
+    24
+   ]
+  },
+  "ddx": {
+   "texte": "douleur discale, radiculopathie, syndrome myofascial, sténose.",
+   "refs": [
+    21,
+    22
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie non contributive ; confirmation par blocs des branches médiales (36–55 % de faux positifs si bloc unique).",
+   "refs": [
+    24,
+    21
+   ]
+  },
+  "traitement": {
+   "texte": "exercices et activité graduée ; radiofréquence si échec ; pas d'infiltration intra-articulaire.",
+   "refs": [
+    24
+   ]
+  },
+  "pronostic": {
+   "texte": "après radiofréquence, 54 % ont ≥ 50 % de soulagement à 17 mois ; un essai contre simulacre est négatif à 6 mois.",
+   "refs": [
+    25,
+    26
+   ]
+  },
+  "refs": [
+   {
+    "n": 21,
+    "texte": "Hurley RW et al. Regional Anesthesia and Pain… 2022",
+    "url": "https://doi.org/10.1136/rapm-2021-103031"
+   },
+   {
+    "n": 22,
+    "texte": "van Eerd M et al. Pain Practice 2010",
+    "url": "https://doi.org/10.1111/j.1533-2500.2009.00346.x"
+   },
+   {
+    "n": 23,
+    "texte": "Lemeunier N et al. European Spine Journal 2017",
+    "url": "https://doi.org/10.1007/s00586-017-5153-0"
+   },
+   {
+    "n": 24,
+    "texte": "Hellinga MD et al. Pain Practice 2025",
+    "url": "https://doi.org/10.1111/papr.70005"
+   },
+   {
+    "n": 25,
+    "texte": "Pain Medicine (Malden et al. ) 2020",
+    "url": "https://doi.org/10.1093/pm/pnz358"
+   },
+   {
+    "n": 26,
+    "texte": "van Eerd M et al. Spine 2021",
+    "url": "https://doi.org/10.1111/j.1533-2500.2009.00346.x"
+   }
+  ]
+ },
+ {
+  "no": "C4",
+  "tags": "RACHIS CERVICAL · DOULEUR AXIALE · DÉGÉNÉRATIF",
+  "titre": "CERVICARTHROSE / DISCOPATHIE DÉGÉNÉRATIVE",
+  "epidemiologie": {
+   "texte": "dégénérescence discale à l'IRM chez 80–90 % à 50 ans ; forme clinique surtout chez l'homme de 40–60 ans ; C5– 6 le plus atteint.",
+   "refs": [
+    27,
+    28
+   ]
+  },
+  "presentation": {
+   "texte": "cervicalgie mécanique irradiant parfois aux épaules ou à la tête ; radiculopathie ou myélopathie possibles.",
+   "refs": [
+    27
+   ]
+  },
+  "examen": {
+   "texte": "pas de test spécifique ; rechercher signes radiculaires (réflexes bicipital et tricipital) et myélopathiques.",
+   "refs": [
+    27
+   ]
+  },
+  "physiopathologie": {
+   "texte": "déshydratation discale, perte de hauteur, ostéophytes, hypertrophie facettaire.",
+   "refs": [
+    27,
+    29
+   ]
+  },
+  "ddx": {
+   "texte": "myélopathie, cancer ou abcès (fièvre, douleur nocturne), douleur facettaire, pseudopolyarthrite rhizomélique.",
+   "refs": [
+    27
+   ]
+  },
+  "investigations": {
+   "texte": "pas d'imagerie sans signe neurologique ni drapeau rouge.",
+   "refs": [
+    27
+   ]
+  },
+  "traitement": {
+   "texte": "temps, analgésiques, physiothérapie ; chirurgie peu utile pour la douleur axiale.",
+   "refs": [
+    27
+   ]
+  },
+  "pronostic": {
+   "texte": "progression à l'IRM chez 95 % en 20 ans, sans corrélation avec les symptômes.",
+   "refs": [
+    30
+   ]
+  },
+  "refs": [
+   {
+    "n": 27,
+    "texte": "Theodore N The New England Journal of… 2020",
+    "url": "https://doi.org/10.1056/NEJMra2003558"
+   },
+   {
+    "n": 28,
+    "texte": "Tao Y et al. European Spine Journal 2021",
+    "url": "https://doi.org/10.1007/s00586-020-06615-0"
+   },
+   {
+    "n": 29,
+    "texte": "Mesregah MK et al. European Spine Journal 2022",
+    "url": "https://doi.org/10.1007/s00586-022-07336-2"
+   },
+   {
+    "n": 30,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2018",
+    "url": "https://doi.org/10.2106/JBJS.17.01347"
+   }
+  ]
+ },
+ {
+  "no": "C5",
+  "tags": "RACHIS CERVICAL · POST-TRAUMATIQUE · TISSUS MOUS",
+  "titre": "ENTORSE CERVICALE (COUP DU LAPIN)",
+  "epidemiologie": {
+   "texte": "70 cas par 100 000 par an au Québec.",
+   "refs": [
+    31
+   ]
+  },
+  "presentation": {
+   "texte": "après collision : cervicalgie, raideur, céphalée, étourdissements, détresse.",
+   "refs": [
+    32
+   ]
+  },
+  "examen": {
+   "texte": "grades du Québec : II = sensibilité et amplitude réduite, III = signes neurologiques, IV = fracture ou luxation.",
+   "refs": [
+    32,
+    33
+   ]
+  },
+  "physiopathologie": {
+   "texte": "lésion des tissus mous par accélération-décélération ; facettes en cause dans 60 % des formes chroniques.",
+   "refs": [
+    34,
+    21
+   ]
+  },
+  "ddx": {
+   "texte": "fracture, radiculopathie, douleur facettaire, atteinte temporo-mandibulaire.",
+   "refs": [
+    32,
+    35
+   ]
+  },
+  "investigations": {
+   "texte": "règle canadienne C-spine ; imagerie seulement si risque de fracture.",
+   "refs": [
+    4
+   ]
+  },
+  "traitement": {
+   "texte": "rester actif, exercices, soins multimodaux ; collet et arrêt de travail sans bénéfice.",
+   "refs": [
+    9,
+    36
+   ]
+  },
+  "pronostic": {
+   "texte": "environ 50 % guérissent, surtout en 3 mois ; 25 % gardent une incapacité modérée à sévère ; douleur initiale > 5,5/10 et catastrophisation défavorables.",
+   "refs": [
+    37,
+    38,
+    39
+   ]
+  },
+  "refs": [
+   {
+    "n": 31,
+    "texte": "Arianne P Verhagen et al. Cochrane Database of… 2007",
+    "url": "https://doi.org/10.1002/14651858.cd003338.pub3"
+   },
+   {
+    "n": 32,
+    "texte": "Callan B et al. PloS One 2023",
+    "url": "https://doi.org/10.1371/journal.pone.0282640"
+   },
+   {
+    "n": 33,
+    "texte": "Hartling L et al. Spine 2001",
+    "url": "https://doi.org/10.1097/00007632-200101010-00008"
+   },
+   {
+    "n": 34,
+    "texte": "Koren L et al. European Journal of Trauma… 2015",
+    "url": "https://doi.org/10.1007/s00068-014-0419-2"
+   },
+   {
+    "n": 21,
+    "texte": "Hurley RW et al. Regional Anesthesia and Pain… 2022",
+    "url": "https://doi.org/10.1136/rapm-2021-103031"
+   },
+   {
+    "n": 35,
+    "texte": "Lee YH et al. Journal of Oral Rehabilitation 2019",
+    "url": "https://doi.org/10.1111/joor.12845"
+   },
+   {
+    "n": 4,
+    "texte": "Guzman J et al. Spine 2008",
+    "url": "https://doi.org/10.1097/BRS.0b013e3181644641"
+   },
+   {
+    "n": 9,
+    "texte": "Côté P et al. European Spine Journal 2016",
+    "url": "https://doi.org/10.1007/s00586-016-4467-7"
+   },
+   {
+    "n": 36,
+    "texte": "Treatments for Acute Pain",
+    "url": null
+   },
+   {
+    "n": 37,
+    "texte": "Ritchie C et al. Pain 2013",
+    "url": "https://doi.org/10.1016/j.pain.2013.07.001"
+   },
+   {
+    "n": 38,
+    "texte": "Griffin AR et al. BMC Musculoskeletal Disorders 2022",
+    "url": "https://doi.org/10.1186/s12891-022-05242-8"
+   },
+   {
+    "n": 39,
+    "texte": "Walton DM et al. The Journal of Orthopaedic… 2013",
+    "url": "https://doi.org/10.2519/jospt.2013.4507"
+   }
+  ]
+ },
+ {
+  "no": "C6",
+  "tags": "RACHIS CERVICAL · CÉPHALÉE SECONDAIRE · SEGMENTS C1–C3",
+  "titre": "CÉPHALÉE CERVICOGÉNIQUE",
+  "epidemiologie": {
+   "texte": "3,9 % en population ; jusqu'à 53 % après coup du lapin.",
+   "refs": [
+    40,
+    41
+   ]
+  },
+  "presentation": {
+   "texte": "céphalée unilatérale non pulsatile, de la nuque vers le front, déclenchée par les mouvements ou postures du cou.",
+   "refs": [
+    41
+   ]
+  },
+  "examen": {
+   "texte": "test de flexion-rotation cervicale (Se 83 %, Sp 83 %) ; mobilisation C1–C2 douloureuse.",
+   "refs": [
+    42,
+    43
+   ]
+  },
+  "physiopathologie": {
+   "texte": "convergence des afférences C1–C3 et trigéminales dans le noyau trigémino-cervical.",
+   "refs": [
+    44
+   ]
+  },
+  "ddx": {
+   "texte": "migraine (77 % ont une cervicalgie), céphalée de tension, névralgie occipitale.",
+   "refs": [
+    45,
+    42,
+    46
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie non contributive ; seuls les blocs diagnostiques confirment.",
+   "refs": [
+    47
+   ]
+  },
+  "traitement": {
+   "texte": "exercices cervicaux à faible charge et thérapie manuelle (NNT 6) ; radiofréquence en cas sélectionnés.",
+   "refs": [
+    48,
+    49,
+    50
+   ]
+  },
+  "pronostic": {
+   "texte": "bénéfice maintenu à 12 mois ; histoire naturelle non décrite.",
+   "refs": [
+    48
+   ]
+  },
+  "refs": [
+   {
+    "n": 40,
+    "texte": "Robinson CL et al. Cephalalgia 2025",
+    "url": "https://doi.org/10.1177/03331024251322446"
+   },
+   {
+    "n": 41,
+    "texte": "The Lancet Neurology 2009",
+    "url": "https://doi.org/10.1016/S1474-4422(09)70209-1"
+   },
+   {
+    "n": 42,
+    "texte": "Demont A et al. Musculoskeletal Science &… 2022",
+    "url": "https://doi.org/10.1016/j.msksp.2022.102640"
+   },
+   {
+    "n": 43,
+    "texte": "Anarte-Lazo E et al. BMC Musculoskeletal Disorders 2021",
+    "url": "https://doi.org/10.1186/s12891-021-04595-w"
+   },
+   {
+    "n": 44,
+    "texte": "Nambi G et al. PloS One 2024",
+    "url": "https://doi.org/10.1371/journal.pone.0300737"
+   },
+   {
+    "n": 45,
+    "texte": "Nowaczewska M et al. The Journal of Headache and Pain 2026",
+    "url": "https://doi.org/10.1186/s10194-026-02401-3"
+   },
+   {
+    "n": 46,
+    "texte": "Barmherzig R et al. Current Neurology and… 2019",
+    "url": "https://doi.org/10.1007/s11910-019-0937-8"
+   },
+   {
+    "n": 47,
+    "texte": "Antonaci F et al. Cephalalgia 2021",
+    "url": "https://doi.org/10.1177/0333102420944878"
+   },
+   {
+    "n": 48,
+    "texte": "Jull G et al. Spine 2002",
+    "url": "https://doi.org/10.1097/00007632-200209010-00004"
+   },
+   {
+    "n": 49,
+    "texte": "Anita Gross et al. Cochrane Database of… 2015",
+    "url": "https://doi.org/10.1002/14651858.cd004250.pub5"
+   },
+   {
+    "n": 50,
+    "texte": "Suer M et al. Pain Physician 2022",
+    "url": null
+   }
+  ]
+ },
+ {
+  "no": "C7",
+  "tags": "RACHIS CERVICAL · TRAUMATISME SPORTIF · TISSUS MOUS",
+  "titre": "CONTRACTURE, ÉLONGATION OU CONTUSION CERVICALE DU SPORTIF",
+  "epidemiologie": {
+   "texte": "7 blessures cervicales par 100 000 expositions chez l'athlète universitaire ; 79–86 % par contact.",
+   "refs": [
+    51,
+    52
+   ]
+  },
+  "presentation": {
+   "texte": "douleur paravertébrale après contact, sans symptôme sensitif ni moteur.",
+   "refs": [
+    53
+   ]
+  },
+  "examen": {
+   "texte": "pas de sensibilité osseuse médiane, amplitude complète, Spurling et compression axiale indolores, force normale.",
+   "refs": [
+    53
+   ]
+  },
+  "physiopathologie": {
+   "texte": "entorse ligamentaire ou élongation des muscles de soutien.",
+   "refs": [
+    54
+   ]
+  },
+  "ddx": {
+   "texte": "fracture ou instabilité, stinger, neurapraxie médullaire, hernie discale.",
+   "refs": [
+    54,
+    55
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie si douleur persistante, amplitude réduite ou déficit ; clichés dynamiques si instabilité suspectée.",
+   "refs": [
+    56,
+    54
+   ]
+  },
+  "traitement": {
+   "texte": "repos relatif ; retour au jeu sans douleur, avec amplitude et force complètes.",
+   "refs": [
+    57
+   ]
+  },
+  "pronostic": {
+   "texte": "64 % de retour en 24 heures ; 2,8 % absents plus de 21 jours.",
+   "refs": [
+    58
+   ]
+  },
+  "refs": [
+   {
+    "n": 51,
+    "texte": "Deckey DG et al. Spine 2020",
+    "url": "https://doi.org/10.1097/BRS.0000000000003220"
+   },
+   {
+    "n": 52,
+    "texte": "Lee KM et al. Journal of Athletic Training 2019",
+    "url": "https://doi.org/10.4085/1062-6050-229-18"
+   },
+   {
+    "n": 53,
+    "texte": "Greg Canty et al. Pediatrics in Review 2015",
+    "url": null
+   },
+   {
+    "n": 54,
+    "texte": "Huang P et al. Sports Health 2016",
+    "url": "https://doi.org/10.1177/1941738115610753"
+   },
+   {
+    "n": 55,
+    "texte": "Fryhofer GW et al. Clinics in Sports Medicine 2021",
+    "url": "https://doi.org/10.1016/j.csm.2021.04.002"
+   },
+   {
+    "n": 56,
+    "texte": "Kuris et al. Daniels Chapter 110",
+    "url": null
+   },
+   {
+    "n": 57,
+    "texte": "Fiani B et al. Reviews in the Neurosciences 2021",
+    "url": "https://doi.org/10.1515/revneuro-2020-0080"
+   },
+   {
+    "n": 58,
+    "texte": "Chung AS et al. Spine 2019",
+    "url": "https://doi.org/10.1097/BRS.0000000000003008"
+   }
+  ]
+ },
+ {
+  "no": "C8",
+  "tags": "RACHIS CERVICAL · RADICULOPATHIE · COMPRESSION FORAMINALE",
+  "titre": "NÉVRALGIE CERVICO-BRACHIALE / HERNIE DISCALE CERVICALE",
+  "epidemiologie": {
+   "texte": "83 par 100 000 par an, pic à 50–54 ans ; C7 puis C6 ; spondylose 68 %, hernie 22 %.",
+   "refs": [
+    59
+   ]
+  },
+  "presentation": {
+   "texte": "douleur du bras supérieure à celle du cou, paresthésies, soulagement main dans la poche ou bras en abduction.",
+   "refs": [
+    60,
+    61
+   ]
+  },
+  "examen": {
+   "texte": "Spurling spécifique (84–100 %) mais de sensibilité variable ; tests neurodynamiques tous négatifs pour exclure (Se 97 %) ; réflexe tricipital diminué.",
+   "refs": [
+    62,
+    63
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression et inflammation radiculaires par hernie molle ou sténose foraminale ostéophytique.",
+   "refs": [
+    64,
+    65
+   ]
+  },
+  "ddx": {
+   "texte": "canal carpien, neuropathie ulnaire, pathologie de l'épaule, myélopathie.",
+   "refs": [
+    61
+   ]
+  },
+  "investigations": {
+   "texte": "IRM si persistance ou déficit progressif, toujours corrélée à la clinique ; EMG si neuropathie périphérique possible.",
+   "refs": [
+    64,
+    63
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie ou collet bref ; chirurgie si douleur invalidante après 6–12 semaines, déficit progressif ou myélopathie.",
+   "refs": [
+    36,
+    66
+   ]
+  },
+  "pronostic": {
+   "texte": "amélioration surtout en 4–6 mois ; 83 % guéris à 24–36 mois ; récidive 32 %.",
+   "refs": [
+    67,
+    59
+   ]
+  },
+  "refs": [
+   {
+    "n": 59,
+    "texte": "Radhakrishnan K et al. Brain 1994",
+    "url": "https://doi.org/10.1093/brain/117.2.325"
+   },
+   {
+    "n": 60,
+    "texte": "Sleijser-Koehorst MLS et al. Physiotherapy 2021",
+    "url": "https://doi.org/10.1016/j.physio.2020.07.007"
+   },
+   {
+    "n": 61,
+    "texte": "Iyer S et al. Current Reviews in… 2016",
+    "url": "https://doi.org/10.1007/s12178-016-9349-4"
+   },
+   {
+    "n": 62,
+    "texte": "Thoomes EJ et al. BMC Musculoskeletal Disorders 2026",
+    "url": "https://doi.org/10.1186/s12891-026-09551-0"
+   },
+   {
+    "n": 63,
+    "texte": "Childress MA et al. American Family Physician 2016",
+    "url": null
+   },
+   {
+    "n": 64,
+    "texte": "Eldaya RW et al. Journal of the American… 2025",
+    "url": "https://doi.org/10.1016/j.jacr.2025.02.035"
+   },
+   {
+    "n": 65,
+    "texte": "Núñez de Arenas-Arroyo S et al. Clinical Rehabilitation 2025",
+    "url": "https://doi.org/10.1177/02692155251365193"
+   },
+   {
+    "n": 36,
+    "texte": "Treatments for Acute Pain",
+    "url": null
+   },
+   {
+    "n": 66,
+    "texte": "Carette S et al. The New England Journal of… 2005",
+    "url": "https://doi.org/10.1056/NEJMcp043887"
+   },
+   {
+    "n": 67,
+    "texte": "Wong JJ et al. The Spine Journal 2014",
+    "url": "https://doi.org/10.1016/j.spinee.2014.02.032"
+   }
+  ]
+ },
+ {
+  "no": "C9",
+  "tags": "RACHIS CERVICAL · TRAUMATISME SPORTIF · NEURAPRAXIE C5–C6",
+  "titre": "STINGER / BURNER",
+  "epidemiologie": {
+   "texte": "49–65 % des joueurs de football universitaire en carrière ; récidive jusqu'à 87 %.",
+   "refs": [
+    68
+   ]
+  },
+  "presentation": {
+   "texte": "brûlure ou picotements unilatéraux du bras après traction ou compression, sans cervicalgie, durant minutes à heures.",
+   "refs": [
+    69,
+    68
+   ]
+  },
+  "examen": {
+   "texte": "faiblesse du deltoïde, du biceps et de la coiffe dans un tiers des cas ; amplitude cervicale complète et Spurling négatif exigés pour le retour.",
+   "refs": [
+    68,
+    70
+   ]
+  },
+  "physiopathologie": {
+   "texte": "neurapraxie transitoire des racines C5–C6 ou du tronc supérieur.",
+   "refs": [
+    69
+   ]
+  },
+  "ddx": {
+   "texte": "neurapraxie médullaire (symptômes bilatéraux), fracture, hernie discale.",
+   "refs": [
+    54
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie si symptômes > 24 heures, deuxième épisode de la saison ou symptômes bilatéraux ; EMG si persistance.",
+   "refs": [
+    71,
+    70
+   ]
+  },
+  "traitement": {
+   "texte": "retrait ; retour le jour même si résolution en moins de 5 minutes avec force et amplitude normales.",
+   "refs": [
+    69
+   ]
+  },
+  "pronostic": {
+   "texte": "85 % ne manquent aucune séance ; plus de 3 épisodes = contre-indication relative.",
+   "refs": [
+    70,
+    54
+   ]
+  },
+  "refs": [
+   {
+    "n": 68,
+    "texte": "Lamplot JD et al. Sports Health 2024",
+    "url": "https://doi.org/10.1177/19417381231223413"
+   },
+   {
+    "n": 69,
+    "texte": "Usman S American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 70,
+    "texte": "Bowles DR et al. Current Reviews in… 2020",
+    "url": "https://doi.org/10.1007/s12178-020-09665-5"
+   },
+   {
+    "n": 54,
+    "texte": "Huang P et al. Sports Health 2016",
+    "url": "https://doi.org/10.1177/1941738115610753"
+   },
+   {
+    "n": 71,
+    "texte": "Dutton RA et al. Muscle & Nerve 2024",
+    "url": "https://doi.org/10.1002/mus.28057"
+   }
+  ]
+ },
+ {
+  "no": "C10",
+  "tags": "RACHIS CERVICAL · ATTITUDE VICIEUSE AIGUË · ADULTE ET ENFANT",
+  "titre": "TORTICOLIS AIGU ACQUIS",
+  "epidemiologie": {
+   "texte": "forme mécanique banale chez l'adulte ; chez l'enfant, infection et traumatisme dominent.",
+   "refs": [
+    72,
+    73
+   ]
+  },
+  "presentation": {
+   "texte": "inclinaison douloureuse d'apparition rapide ; chez l'enfant, infection ORL, chirurgie ou traumatisme récents.",
+   "refs": [
+    72,
+    74
+   ]
+  },
+  "examen": {
+   "texte": "chez l'enfant, attitude en « cock-robin » ; rechercher fièvre, signes neurologiques, diplopie, atteinte des voies aériennes.",
+   "refs": [
+    74,
+    73
+   ]
+  },
+  "physiopathologie": {
+   "texte": "irritation mécanique des muscles et articulations cervicales avec spasme tonique.",
+   "refs": [
+    72
+   ]
+  },
+  "ddx": {
+   "texte": "dystonie médicamenteuse, dystonie cervicale, subluxation atlanto-axoïdienne, abcès rétropharyngé, tumeur de la fosse postérieure.",
+   "refs": [
+    72,
+    73
+   ]
+  },
+  "investigations": {
+   "texte": "aucune si tableau typique ; chez l'enfant, TDM dynamique si non résolu.",
+   "refs": [
+    75
+   ]
+  },
+  "traitement": {
+   "texte": "analgésiques, myorelaxant ; neurochirurgie si non résolu vers 4 semaines chez l'enfant.",
+   "refs": [
+    72,
+    75
+   ]
+  },
+  "pronostic": {
+   "texte": "résolution en jours à semaines dans la majorité.",
+   "refs": [
+    76
+   ]
+  },
+  "refs": [
+   {
+    "n": 72,
+    "texte": "Dressler D et al. Journal of Neural… 2024",
+    "url": "https://doi.org/10.1007/s00702-023-02736-0"
+   },
+   {
+    "n": 73,
+    "texte": "Appenteng R et al. Pediatrics in Review 2025",
+    "url": "https://doi.org/10.1542/pir.2023-006088"
+   },
+   {
+    "n": 74,
+    "texte": "K P D et al. Neurology 2022",
+    "url": "https://doi.org/10.1212/WNL.0000000000200023"
+   },
+   {
+    "n": 75,
+    "texte": "Ben Zvi I et al. European Journal of Pediatrics 2022",
+    "url": "https://doi.org/10.1007/s00431-021-04316-4"
+   },
+   {
+    "n": 76,
+    "texte": "Tomczak KK et al. Journal of Child Neurology 2013",
+    "url": "https://doi.org/10.1177/0883073812469294"
+   }
+  ]
+ },
+ {
+  "no": "C11",
+  "tags": "RACHIS CERVICAL · NOURRISSON · FIBROSE DU STERNO-CLÉIDO-",
+  "titre": "TORTICOLIS MUSCULAIRE CONGÉNITAL",
+  "epidemiologie": {
+   "texte": "3,9–16 % des nourrissons ; dysplasie de la hanche associée dans 2–29 %.",
+   "refs": [
+    77,
+    78
+   ]
+  },
+  "presentation": {
+   "texte": "remarqué à 2–4 semaines ; accouchement difficile ; allaitement difficile d'un côté.",
+   "refs": [
+    75,
+    79
+   ]
+  },
+  "examen": {
+   "texte": "tête inclinée du côté atteint, menton tourné à l'opposé, parfois masse musculaire ; asymétrie crânio-faciale jusqu'à 90 %.",
+   "refs": [
+    77
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fibrose du sterno-cléido-mastoïdien après lésion intra- utérine.",
+   "refs": [
+    77
+   ]
+  },
+  "ddx": {
+   "texte": "plagiocéphalie positionnelle, anomalie vertébrale, cause oculaire, tumeur, syndrome de Sandifer.",
+   "refs": [
+    75,
+    74
+   ]
+  },
+  "investigations": {
+   "texte": "aucune si typique ; échographie au besoin, y compris des hanches.",
+   "refs": [
+    80,
+    78
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie précoce (étirements, positionnement) ; toxine botulinique ou chirurgie si échec.",
+   "refs": [
+    77,
+    81
+   ]
+  },
+  "pronostic": {
+   "texte": "débutée avant 1 mois, amplitude normale chez 98 % en 1,5 mois ; après 6 mois, 9–10 mois de traitement.",
+   "refs": [
+    77
+   ]
+  },
+  "refs": [
+   {
+    "n": 77,
+    "texte": "Sargent B et al. Pediatrics 2019",
+    "url": "https://doi.org/10.1542/peds.2019-0582"
+   },
+   {
+    "n": 78,
+    "texte": "Common Childhood Orthopaedic Conditions et al. Julia Judd Chapter 23",
+    "url": null
+   },
+   {
+    "n": 75,
+    "texte": "Ben Zvi I et al. European Journal of Pediatrics 2022",
+    "url": "https://doi.org/10.1007/s00431-021-04316-4"
+   },
+   {
+    "n": 79,
+    "texte": "Demharter NS et al. Pediatrics in Review 2026",
+    "url": "https://doi.org/10.1542/pir.2025-006799"
+   },
+   {
+    "n": 74,
+    "texte": "K P D et al. Neurology 2022",
+    "url": "https://doi.org/10.1212/WNL.0000000000200023"
+   },
+   {
+    "n": 80,
+    "texte": "Haque S et al. Radiographics 2012",
+    "url": "https://doi.org/10.1148/rg.322105143"
+   },
+   {
+    "n": 81,
+    "texte": "Daly GE et al. The Cleft Palate-Craniofacial… 2026",
+    "url": "https://doi.org/10.1177/10556656241295567"
+   }
+  ]
+ },
+ {
+  "no": "C12",
+  "tags": "CEINTURES · INFLAMMATOIRE · SUJET DE PLUS DE 50 ANS",
+  "titre": "PSEUDOPOLYARTHRITE RHIZOMÉLIQUE",
+  "epidemiologie": {
+   "texte": "après 50 ans, 75 % de femmes ; artérite à cellules géantes associée dans 16–21 %.",
+   "refs": [
+    82,
+    83
+   ]
+  },
+  "presentation": {
+   "texte": "douleur et raideur bilatérales des épaules, du cou et de la ceinture pelvienne, pires le matin ; signes généraux dans plus de 50 %.",
+   "refs": [
+    82,
+    84
+   ]
+  },
+  "examen": {
+   "texte": "raideur matinale > 45 minutes, limitation douloureuse des épaules et des hanches, sans autre atteinte articulaire.",
+   "refs": [
+    85
+   ]
+  },
+  "physiopathologie": {
+   "texte": "inflammation des bourses et des synoviales médiée par l'IL-6.",
+   "refs": [
+    86
+   ]
+  },
+  "ddx": {
+   "texte": "polyarthrite rhumatoïde, artérite à cellules géantes, cancer, infection, hypothyroïdie ; un tiers des diagnostics provisoires sont révisés.",
+   "refs": [
+    82,
+    84
+   ]
+  },
+  "investigations": {
+   "texte": "VS, CRP, FR, anti-CCP, électrophorèse des protéines, TSH.",
+   "refs": [
+    82
+   ]
+  },
+  "traitement": {
+   "texte": "référence spécialisée ; prednisone 15–25 mg/j, 10 mg à 4–8 semaines, puis −1 mg par mois.",
+   "refs": [
+    87,
+    88
+   ]
+  },
+  "pronostic": {
+   "texte": "réponse en quelques jours ; rechute jusqu'à 43 % ; 50 % encore traités à 2 ans.",
+   "refs": [
+    88,
+    82,
+    89
+   ]
+  },
+  "refs": [
+   {
+    "n": 82,
+    "texte": "Dejaco C et al. The New England Journal of… 2026",
+    "url": "https://doi.org/10.1056/NEJMcp2506817"
+   },
+   {
+    "n": 83,
+    "texte": "Buttgereit F et al. JAMA 2016",
+    "url": "https://doi.org/10.1001/jama.2016.5444"
+   },
+   {
+    "n": 84,
+    "texte": "Matteson EL et al. Annals of Internal Medicine 2017",
+    "url": "https://doi.org/10.7326/AITC201705020"
+   },
+   {
+    "n": 85,
+    "texte": "Dasgupta B et al. Arthritis and Rheumatism 2012",
+    "url": "https://doi.org/10.1002/art.34356"
+   },
+   {
+    "n": 86,
+    "texte": "Choy EH et al. Annals of the Rheumatic Diseases 2025",
+    "url": "https://doi.org/10.1016/j.ard.2025.09.005"
+   },
+   {
+    "n": 87,
+    "texte": "Mukhtyar CB et al. Annals of the Rheumatic Diseases 2026",
+    "url": "https://doi.org/10.1016/j.ard.2026.06.009"
+   },
+   {
+    "n": 88,
+    "texte": "Espígol-Frigolé G et al. Lancet (London, England) 2023",
+    "url": "https://doi.org/10.1016/S0140-6736(23)01310-7"
+   },
+   {
+    "n": 89,
+    "texte": "The Lancet Rheumatology 2026",
+    "url": "https://doi.org/10.1016/S2665-9913(26)00072-X"
+   }
+  ]
+ },
+ {
+  "no": "C13",
+  "tags": "RACHIS CERVICAL · COMPRESSION MÉDULLAIRE · DÉGÉNÉRATIF",
+  "titre": "MYÉLOPATHIE CERVICARTHROSIQUE",
+  "epidemiologie": {
+   "texte": "environ 2,3 % des adultes ; fin de la cinquantaine ; retard diagnostique de 1–2 ans.",
+   "refs": [
+    90,
+    91,
+    92
+   ]
+  },
+  "presentation": {
+   "texte": "maladresse des mains, démarche instable, paresthésies, troubles mictionnels ; symptômes persistants plutôt que fluctuants.",
+   "refs": [
+    91
+   ]
+  },
+  "examen": {
+   "texte": "Hoffmann (Se 59–67 %, Sp 81 %), Babinski ou clonus (Sp 100 %), marche en tandem ; 21 % des cas confirmés sans signe.",
+   "refs": [
+    91,
+    93,
+    94
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression statique et dynamique entraînant ischémie et apoptose médullaires.",
+   "refs": [
+    95,
+    96
+   ]
+  },
+  "ddx": {
+   "texte": "SLA, sclérose en plaques, canal carpien, carence en B12, hydrocéphalie à pression normale.",
+   "refs": [
+    97,
+    91
+   ]
+  },
+  "investigations": {
+   "texte": "IRM ; score mJOA (léger 15–17, modéré 12–14, sévère ≤ 11).",
+   "refs": [
+    98,
+    97
+   ]
+  },
+  "traitement": {
+   "texte": "chirurgie si modérée ou sévère ; forme légère : chirurgie ou réadaptation supervisée.",
+   "refs": [
+    97
+   ]
+  },
+  "pronostic": {
+   "texte": "20–62 % se détériorent en 3–6 ans sans chirurgie ; meilleurs résultats si opérée tôt.",
+   "refs": [
+    99,
+    100
+   ]
+  },
+  "refs": [
+   {
+    "n": 90,
+    "texte": "Burn LA et al. Muscle & Nerve 2026",
+    "url": "https://doi.org/10.1002/mus.70068"
+   },
+   {
+    "n": 91,
+    "texte": "Kane SF et al. American Family Physician 2020",
+    "url": null
+   },
+   {
+    "n": 92,
+    "texte": "Pope DH et al. Spine 2020",
+    "url": "https://doi.org/10.1097/BRS.0000000000003305"
+   },
+   {
+    "n": 93,
+    "texte": "Soufi K et al. Scientific Reports 2025",
+    "url": "https://doi.org/10.1038/s41598-025-20928-4"
+   },
+   {
+    "n": 94,
+    "texte": "Rhee JM et al. Spine 2009",
+    "url": "https://doi.org/10.1097/BRS.0b013e31819c944b"
+   },
+   {
+    "n": 95,
+    "texte": "Umeria R et al. PloS One 2022",
+    "url": "https://doi.org/10.1371/journal.pone.0268220"
+   },
+   {
+    "n": 96,
+    "texte": "Karadimas SK et al. Spine 2013",
+    "url": "https://doi.org/10.1097/BRS.0b013e3182a7f2c3"
+   },
+   {
+    "n": 97,
+    "texte": "Nature Reviews Neurology 2020",
+    "url": "https://doi.org/10.1038/s41582-019-0303-0"
+   },
+   {
+    "n": 98,
+    "texte": "Scheuren PS et al. European Journal of Neurology 2025",
+    "url": "https://doi.org/10.1111/ene.70001"
+   },
+   {
+    "n": 99,
+    "texte": "Fehlings MG et al. Spine 2013",
+    "url": "https://doi.org/10.1097/BRS.0b013e3182a7f4de"
+   },
+   {
+    "n": 100,
+    "texte": "Munro CF et al. PloS One 2023",
+    "url": "https://doi.org/10.1371/journal.pone.0281856"
+   }
+  ]
+ },
+ {
+  "no": "C14",
+  "tags": "RACHIS CERVICAL · INFLAMMATOIRE · INSTABILITÉ C1–C2",
+  "titre": "ATTEINTE CERVICALE DE LA POLYARTHRITE RHUMATOÏDE",
+  "epidemiologie": {
+   "texte": "subluxation radiographique dans 43–86 % des séries anciennes, 4,6 % à 12 ans dans une cohorte récente.",
+   "refs": [
+    101,
+    102
+   ]
+  },
+  "presentation": {
+   "texte": "cervicalgie, douleur occipitale, sensation de tête qui tombe en flexion, signe de Lhermitte.",
+   "refs": [
+    101,
+    103,
+    104
+   ]
+  },
+  "examen": {
+   "texte": "hyperréflexie, Babinski ; test de Sharp-Purser (Sp 96 %) ; signes parfois absents malgré l'instabilité.",
+   "refs": [
+    105,
+    106,
+    107
+   ]
+  },
+  "physiopathologie": {
+   "texte": "pannus synovial C1–C2 érodant l'odontoïde et détruisant les ligaments transverse et alaires.",
+   "refs": [
+    107,
+    108
+   ]
+  },
+  "ddx": {
+   "texte": "fracture de l'odontoïde, syndrome de la dent couronnée.",
+   "refs": [
+    108,
+    109
+   ]
+  },
+  "investigations": {
+   "texte": "profil neutre et en flexion ; intervalle atlanto-dental antérieur > 5 mm = instabilité ; postérieur ≤ 14 mm → IRM.",
+   "refs": [
+    110,
+    108,
+    111
+   ]
+  },
+  "traitement": {
+   "texte": "contrôle précoce de la maladie ; arthrodèse si myélopathie ou instabilité sévère.",
+   "refs": [
+    112,
+    110
+   ]
+  },
+  "pronostic": {
+   "texte": "progression radiologique 80 %, neurologique 36 % ; myélopathie non opérée : 76 % s'aggravent.",
+   "refs": [
+    101,
+    110
+   ]
+  },
+  "refs": [
+   {
+    "n": 101,
+    "texte": "Shlobin NA et al. Neurosurgical Review 2021",
+    "url": "https://doi.org/10.1007/s10143-020-01412-1"
+   },
+   {
+    "n": 102,
+    "texte": "Le Quellec A et al. Rheumatology (Oxford, England) 2023",
+    "url": "https://doi.org/10.1093/rheumatology/keac672"
+   },
+   {
+    "n": 103,
+    "texte": "Wolfs JF et al. Arthritis and Rheumatism 2009",
+    "url": "https://doi.org/10.1002/art.25011"
+   },
+   {
+    "n": 104,
+    "texte": "Di Muzio C et al. Scientific Reports 2023",
+    "url": "https://doi.org/10.1038/s41598-023-46069-0"
+   },
+   {
+    "n": 105,
+    "texte": "Drosos AA et al. Current Rheumatology Reports 2020",
+    "url": "https://doi.org/10.1007/s11926-020-00894-8"
+   },
+   {
+    "n": 106,
+    "texte": "Uitvlugt G et al. Arthritis and Rheumatism 1988",
+    "url": "https://doi.org/10.1002/art.25011"
+   },
+   {
+    "n": 107,
+    "texte": "Oláh C et al. Rheumatology International 2020",
+    "url": "https://doi.org/10.1007/s11926-020-00894-8"
+   },
+   {
+    "n": 108,
+    "texte": "Kim HJ et al. Current Rheumatology Reports 2015",
+    "url": "https://doi.org/10.1007/s11926-014-0486-8"
+   },
+   {
+    "n": 109,
+    "texte": "Cooper R et al. JAMA 2019",
+    "url": "https://doi.org/10.1001/jama.2019.1772"
+   },
+   {
+    "n": 110,
+    "texte": "Siempis T et al. Rheumatology International 2023",
+    "url": "https://doi.org/10.1007/s00296-022-05239-5"
+   },
+   {
+    "n": 111,
+    "texte": "Kim DH et al. The Journal of the American… 2005",
+    "url": "https://doi.org/10.5435/00124635-200511000-00006"
+   },
+   {
+    "n": 112,
+    "texte": "Kanda Y et al. Scientific Reports 2024",
+    "url": "https://doi.org/10.1038/s41598-024-78429-9"
+   }
+  ]
+ },
+ {
+  "no": "C15",
+  "tags": "RACHIS CERVICAL · FRACTURE · SUJET ÂGÉ",
+  "titre": "FRACTURE DE L'ODONTOÏDE / FRACTURE CERVICALE DE FRAGILITÉ",
+  "epidemiologie": {
+   "texte": "fracture cervicale la plus fréquente après 65 ans ; type II dans 75–80 % ; chute de faible énergie dans 81 %.",
+   "refs": [
+    113,
+    114
+   ]
+  },
+  "presentation": {
+   "texte": "cervicalgie après une chute de sa hauteur ; déficit neurologique dans 13 % seulement.",
+   "refs": [
+    114
+   ]
+  },
+  "examen": {
+   "texte": "aucun signe fiable ; un âge ≥ 65 ans impose l'imagerie selon la règle canadienne.",
+   "refs": [
+    115
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fracture d'insuffisance sur os ostéoporotique, à vascularisation précaire.",
+   "refs": [
+    116
+   ]
+  },
+  "ddx": {
+   "texte": "syndrome de la dent couronnée, érosion rhumatoïde de l'odontoïde.",
+   "refs": [
+    109,
+    108
+   ]
+  },
+  "investigations": {
+   "texte": "TDM d'emblée.",
+   "refs": [
+    117
+   ]
+  },
+  "traitement": {
+   "texte": "collet ≥ 12 semaines ou fixation C1–C2 ; chirurgie non supérieure après 75 ans dans un essai ; santé osseuse.",
+   "refs": [
+    116,
+    118,
+    119
+   ]
+  },
+  "pronostic": {
+   "texte": "consolidation 74 % avec chirurgie contre 40 % sans ; mortalité à 1 an de 24–37 %.",
+   "refs": [
+    113,
+    120
+   ]
+  },
+  "refs": [
+   {
+    "n": 113,
+    "texte": "Journal of Neurosurgery Spine 2024",
+    "url": "https://doi.org/10.3171/2023.6.SPINE22920"
+   },
+   {
+    "n": 114,
+    "texte": "Bajada S et al. The Bone & Joint Journal 2017",
+    "url": "https://doi.org/10.1302/0301-620X.99B1.37989"
+   },
+   {
+    "n": 115,
+    "texte": "Bruno T Saragiotto et al. Cochrane Database of… 2018",
+    "url": "https://doi.org/10.1002/14651858.cd012989"
+   },
+   {
+    "n": 116,
+    "texte": "Wagner A et al. PloS One 2025",
+    "url": "https://doi.org/10.1371/journal.pone.0337999"
+   },
+   {
+    "n": 109,
+    "texte": "Cooper R et al. JAMA 2019",
+    "url": "https://doi.org/10.1001/jama.2019.1772"
+   },
+   {
+    "n": 108,
+    "texte": "Kim HJ et al. Current Rheumatology Reports 2015",
+    "url": "https://doi.org/10.1007/s11926-014-0486-8"
+   },
+   {
+    "n": 117,
+    "texte": "Asadollahi S et al. Radiology 2026",
+    "url": "https://doi.org/10.1148/radiol.243834"
+   },
+   {
+    "n": 118,
+    "texte": "Singh A et al. Neurosurgery 2026",
+    "url": "https://doi.org/10.1227/neu.0000000000004114"
+   },
+   {
+    "n": 119,
+    "texte": "Iyer S et al. Neurosurgery 2018",
+    "url": "https://doi.org/10.1093/neuros/nyx546"
+   },
+   {
+    "n": 120,
+    "texte": "Venkatesan M et al. The Bone & Joint Journal 2014",
+    "url": "https://doi.org/10.1302/0301-620X.96B1.32024"
+   }
+  ]
+ },
+ {
+  "no": "C16",
+  "tags": "COU ET MEMBRE SUPÉRIEUR · COMPRESSION NEUROVASCULAIRE ·",
+  "titre": "SYNDROME DU DÉFILÉ THORACO-BRACHIAL",
+  "epidemiologie": {
+   "texte": "1–3 par 100 000 ; neurogène 90–95 %, veineux 5 %, artériel ≤ 1 % ; femme jeune, bras dominant.",
+   "refs": [
+    121,
+    122,
+    123,
+    124
+   ]
+  },
+  "presentation": {
+   "texte": "douleur, paresthésies et faiblesse du cou à la main, sans territoire unique, pires bras levés ; forme veineuse : œdème, cyanose.",
+   "refs": [
+    125,
+    126
+   ]
+  },
+  "examen": {
+   "texte": "test du bras levé (symptômes en 20–30 secondes), sensibilité sus-claviculaire ; manœuvre d'Adson sans valeur.",
+   "refs": [
+    126,
+    124,
+    125
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression dans le défilé interscalénique, costo- claviculaire ou sous-pectoral.",
+   "refs": [
+    122,
+    127
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie cervicale, plexopathie, canal carpien, tunnel cubital.",
+   "refs": [
+    127,
+    128
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie (côte cervicale), EMG pour exclure ; Doppler ou phlébographie si forme vasculaire.",
+   "refs": [
+    127,
+    124,
+    129
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie posturale ; décompression si échec ; forme veineuse : thrombolyse, puis résection de la première côte.",
+   "refs": [
+    71,
+    128,
+    129
+   ]
+  },
+  "pronostic": {
+   "texte": "physiothérapie efficace chez 27–59 % ; chirurgie bénéfique chez 56–90 % après échec.",
+   "refs": [
+    130
+   ]
+  },
+  "refs": [
+   {
+    "n": 121,
+    "texte": "Panther EJ et al. Journal of Shoulder and Elbow… 2022",
+    "url": "https://doi.org/10.1016/j.jse.2022.06.026"
+   },
+   {
+    "n": 122,
+    "texte": "Beaumont HOH et al. PloS One 2026",
+    "url": "https://doi.org/10.1371/journal.pone.0352667"
+   },
+   {
+    "n": 123,
+    "texte": "Guzzo JL et al. Journal of Vascular Surgery 2010",
+    "url": "https://doi.org/10.1016/j.jvs.2010.04.050"
+   },
+   {
+    "n": 124,
+    "texte": "Davidson EJ et al. Muscle & Nerve 2024",
+    "url": "https://doi.org/10.1002/mus.28246"
+   },
+   {
+    "n": 125,
+    "texte": "Sanders RJ et al. Journal of Vascular Surgery 2007",
+    "url": "https://doi.org/10.1016/j.jvs.2010.04.050"
+   },
+   {
+    "n": 126,
+    "texte": "Ohman JW et al. Current Reviews in… 2020",
+    "url": "https://doi.org/10.1007/s12178-020-09643-x"
+   },
+   {
+    "n": 127,
+    "texte": "Nito T et al. BMC Musculoskeletal Disorders 2025",
+    "url": "https://doi.org/10.1186/s12891-025-09048-2"
+   },
+   {
+    "n": 128,
+    "texte": "Attaar N et al. The American Surgeon 2025",
+    "url": "https://doi.org/10.1177/00031348251358432"
+   },
+   {
+    "n": 129,
+    "texte": "Schropp L et al. PloS One 2023",
+    "url": "https://doi.org/10.1371/journal.pone.0279708"
+   },
+   {
+    "n": 71,
+    "texte": "Dutton RA et al. Muscle & Nerve 2024",
+    "url": "https://doi.org/10.1002/mus.28057"
+   },
+   {
+    "n": 130,
+    "texte": "Dengler NF et al. Deutsches Arzteblatt… 2022",
+    "url": "https://doi.org/10.3238/arztebl.m2022.0296"
+   }
+  ]
+ },
+ {
+  "no": "C17",
+  "tags": "RACHIS CERVICAL · TRAUMATISME SPORTIF · BLOC DE CONDUCTION",
+  "titre": "NEURAPRAXIE MÉDULLAIRE TRANSITOIRE DU SPORTIF",
+  "epidemiologie": {
+   "texte": "environ 7 par 10 000 joueurs de football ; hommes jeunes.",
+   "refs": [
+    131,
+    132
+   ]
+  },
+  "presentation": {
+   "texte": "paresthésies brûlantes et faiblesse bilatérales ou des quatre membres après hyperextension, hyperflexion ou charge axiale ; résolution en 10–15 minutes, parfois 48 heures.",
+   "refs": [
+    133
+   ]
+  },
+  "examen": {
+   "texte": "atteinte de plus d'un membre, contrairement au stinger ; amplitude cervicale indolore ensuite.",
+   "refs": [
+    134,
+    133
+   ]
+  },
+  "physiopathologie": {
+   "texte": "bloc de conduction bref par pincement de la moelle dans un canal étroit.",
+   "refs": [
+    131
+   ]
+  },
+  "ddx": {
+   "texte": "stinger, syndrome centromédullaire, fracture ou instabilité.",
+   "refs": [
+    134,
+    135,
+    133
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies et IRM après tout épisode ; rapport de Torg inutile en dépistage.",
+   "refs": [
+    132,
+    54
+   ]
+  },
+  "traitement": {
+   "texte": "arrêt du sport ; contre-indication absolue si instabilité, anomalie médullaire, symptômes > 36 heures ou récidives.",
+   "refs": [
+    133
+   ]
+  },
+  "pronostic": {
+   "texte": "aucune séquelle dans la série de Torg ; récidive 56 % après le retour.",
+   "refs": [
+    132
+   ]
+  },
+  "refs": [
+   {
+    "n": 131,
+    "texte": "Banerjee R et al. The American Journal of… 2004",
+    "url": "https://doi.org/10.1177/0363546504265605"
+   },
+   {
+    "n": 132,
+    "texte": "Torg JS et al. Journal of Neurosurgery 1997",
+    "url": "https://doi.org/10.3171/jns.1997.87.6.0843"
+   },
+   {
+    "n": 133,
+    "texte": "Torg JS Sports Health 2009",
+    "url": "https://doi.org/10.1177/1941738109343161"
+   },
+   {
+    "n": 134,
+    "texte": "Farag JI et al. Muscle & Nerve 2025",
+    "url": "https://doi.org/10.1002/mus.28298"
+   },
+   {
+    "n": 135,
+    "texte": "Finnoff JT et al. The American Journal of… 2004",
+    "url": "https://doi.org/10.1177/0363546503258865"
+   },
+   {
+    "n": 54,
+    "texte": "Huang P et al. Sports Health 2016",
+    "url": "https://doi.org/10.1177/1941738115610753"
+   }
+  ]
+ },
+ {
+  "no": "C18",
+  "tags": "RACHIS · INFECTION · URGENCE",
+  "titre": "SPONDYLODISCITE / ABCÈS ÉPIDURAL (FICHE DE RÉFÉRENCE)",
+  "epidemiologie": {
+   "texte": "2,2–5,8 par 100 000 par an ; cervicale dans 12–13 %, alors compliquée d'abcès épidural dans 90 %.",
+   "refs": [
+    136,
+    137,
+    138
+   ]
+  },
+  "presentation": {
+   "texte": "douleur rachidienne tenace (> 80 %), fièvre inconstante (24–62 %), triade classique < 20 % ; diabète, bactériémie, drogues IV.",
+   "refs": [
+    139,
+    140
+   ]
+  },
+  "examen": {
+   "texte": "douleur focale ; déficit neurologique chez 20–47 % au diagnostic.",
+   "refs": [
+    139
+   ]
+  },
+  "physiopathologie": {
+   "texte": "ensemencement hématogène du plateau et du disque, S. aureus > 50 % ; compression et thrombophlébite septique.",
+   "refs": [
+    139,
+    141
+   ]
+  },
+  "ddx": {
+   "texte": "dent couronnée, abcès rétropharyngé, méningite, tuberculose.",
+   "refs": [
+    109,
+    142
+   ]
+  },
+  "investigations": {
+   "texte": "VS ou CRP (Se 94–100 %), hémocultures (positives 58 %), IRM avec gadolinium.",
+   "refs": [
+    143,
+    142,
+    139
+   ]
+  },
+  "traitement": {
+   "texte": "avis chirurgical et infectiologique urgents ; antibiotiques 6 semaines.",
+   "refs": [
+    139,
+    144
+   ]
+  },
+  "pronostic": {
+   "texte": "séquelle permanente après un tiers des abcès ; mortalité à 30 jours 12 % (cervical).",
+   "refs": [
+    145,
+    146
+   ]
+  },
+  "refs": [
+   {
+    "n": 136,
+    "texte": "Son HJ et al. PloS One 2023",
+    "url": "https://doi.org/10.1371/journal.pone.0287846"
+   },
+   {
+    "n": 137,
+    "texte": "Matsuo T et al. Clinical Infectious Diseases 2026",
+    "url": "https://doi.org/10.1093/cid/ciag048"
+   },
+   {
+    "n": 138,
+    "texte": "Hadjipavlou AG et al. Spine 2000",
+    "url": "https://doi.org/10.1097/00007632-200007010-00010"
+   },
+   {
+    "n": 139,
+    "texte": "Tande AJ et al. The New England Journal of… 2026",
+    "url": "https://doi.org/10.1056/NEJMra2412728"
+   },
+   {
+    "n": 140,
+    "texte": "Budiman L et al. Emergency Medicine Australasia 2026",
+    "url": "https://doi.org/10.1111/1742-6723.70204"
+   },
+   {
+    "n": 141,
+    "texte": "Ropper AE et al. The New England Journal of… 2017",
+    "url": "https://doi.org/10.1056/NEJMra1516539"
+   },
+   {
+    "n": 109,
+    "texte": "Cooper R et al. JAMA 2019",
+    "url": "https://doi.org/10.1001/jama.2019.1772"
+   },
+   {
+    "n": 142,
+    "texte": "Zimmerli W The New England Journal of… 2010",
+    "url": "https://doi.org/10.1056/NEJMra1516539"
+   },
+   {
+    "n": 143,
+    "texte": "Lazzeri E et al. European Journal of Nuclear… 2019",
+    "url": "https://doi.org/10.1007/s00259-019-04393-6"
+   },
+   {
+    "n": 144,
+    "texte": "Berbari EF et al. Clinical Infectious Diseases 2015",
+    "url": "https://doi.org/10.1093/cid/civ482"
+   },
+   {
+    "n": 145,
+    "texte": "Durant EJ et al. The Western Journal of… 2025",
+    "url": "https://doi.org/10.5811/westjem.24985"
+   },
+   {
+    "n": 146,
+    "texte": "Stangenberg M et al. International Journal of… 2020",
+    "url": "https://doi.org/10.1016/j.ijid.2020.07.028"
+   }
+  ]
+ },
+ {
+  "no": "C19",
+  "tags": "RÉGION OCCIPITALE · NÉVRALGIE · NERFS C2–C3",
+  "titre": "NÉVRALGIE OCCIPITALE (ARNOLD)",
+  "epidemiologie": {
+   "texte": "3,2 par 100 000 ; 73 % de femmes ; migraine associée dans 46 %.",
+   "refs": [
+    147,
+    148
+   ]
+  },
+  "presentation": {
+   "texte": "paroxysmes lancinants de quelques secondes à minutes, de la région sous-occipitale au vertex, unilatéraux.",
+   "refs": [
+    46
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité sur le trajet du nerf, Tinel occipital (environ 75 %), allodynie du cuir chevelu.",
+   "refs": [
+    46,
+    149
+   ]
+  },
+  "physiopathologie": {
+   "texte": "irritation ou compression des nerfs occipitaux dans leur trajet musculaire.",
+   "refs": [
+    147,
+    150
+   ]
+  },
+  "ddx": {
+   "texte": "céphalée cervicogénique, migraine, lésion C1–C2, subluxation rhumatoïde.",
+   "refs": [
+    46,
+    149,
+    151,
+    103
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; soulagement par bloc anesthésique (critère ICHD-3) ; imagerie si atypie.",
+   "refs": [
+    46,
+    152
+   ]
+  },
+  "traitement": {
+   "texte": "AINS, tricycliques, anticonvulsivants ; bloc du grand nerf occipital ; radiofréquence pulsée.",
+   "refs": [
+    153,
+    46,
+    151
+   ]
+  },
+  "pronostic": {
+   "texte": "tendance chronique ; 15–36 % soulagés plusieurs mois après un bloc.",
+   "refs": [
+    46
+   ]
+  },
+  "refs": [
+   {
+    "n": 147,
+    "texte": "Yun JM et al. BMC Complementary Medicine… 2020",
+    "url": "https://doi.org/10.1186/s12906-020-02955-y"
+   },
+   {
+    "n": 148,
+    "texte": "Melchior AG et al. Cephalalgia 2025",
+    "url": "https://doi.org/10.1177/03331024251317595"
+   },
+   {
+    "n": 46,
+    "texte": "Barmherzig R et al. Current Neurology and… 2019",
+    "url": "https://doi.org/10.1007/s11910-019-0937-8"
+   },
+   {
+    "n": 149,
+    "texte": "Mathew PG et al. Current Pain and Headache… 2025",
+    "url": "https://doi.org/10.1007/s11916-025-01419-7"
+   },
+   {
+    "n": 150,
+    "texte": "Katta-Charles SD NeuroRehabilitation 2020",
+    "url": "https://doi.org/10.3233/NRE-208004"
+   },
+   {
+    "n": 151,
+    "texte": "Fabry A et al. Neuroradiology 2024",
+    "url": "https://doi.org/10.1007/s00234-023-03273-z"
+   },
+   {
+    "n": 103,
+    "texte": "Wolfs JF et al. Arthritis and Rheumatism 2009",
+    "url": "https://doi.org/10.1002/art.25011"
+   },
+   {
+    "n": 152,
+    "texte": "Kissoon NR et al. Cephalalgia 2019",
+    "url": "https://doi.org/10.1177/0333102418769953"
+   },
+   {
+    "n": 153,
+    "texte": "Lučić A et al. Scientific Reports 2025",
+    "url": "https://doi.org/10.1038/s41598-025-01246-1"
+   }
+  ]
+ },
+ {
+  "no": "C20",
+  "tags": "RACHIS CERVICAL HAUT · ENFANT · POST-INFECTIEUX OU TRAUMATIQUE",
+  "titre": "SUBLUXATION ROTATOIRE ATLANTO-AXOÏDIENNE / SYNDROME DE GRISEL",
+  "epidemiologie": {
+   "texte": "enfants de moins de 12 ans ; après pharyngite ou otite (35 %), chirurgie ORL (20 %), traumatisme mineur (20 %).",
+   "refs": [
+    154,
+    155
+   ]
+  },
+  "presentation": {
+   "texte": "torticolis douloureux aigu ; retard diagnostique moyen de 11 jours.",
+   "refs": [
+    155
+   ]
+  },
+  "examen": {
+   "texte": "attitude en « cock-robin » ; sterno-cléido-mastoïdien saillant du côté du menton.",
+   "refs": [
+    156,
+    74
+   ]
+  },
+  "physiopathologie": {
+   "texte": "laxité ligamentaire C1–C2 de l'enfant et inflammation propagée par les veines pharyngo-vertébrales.",
+   "refs": [
+    156,
+    157
+   ]
+  },
+  "ddx": {
+   "texte": "abcès rétropharyngé, méningite, tumeur de la fosse postérieure, dystonie.",
+   "refs": [
+    158,
+    159,
+    74
+   ]
+  },
+  "investigations": {
+   "texte": "TDM dynamique en trois positions.",
+   "refs": [
+    156,
+    160
+   ]
+  },
+  "traitement": {
+   "texte": "collet et AINS, antibiotiques si Grisel ; traction si échec ; chirurgie si déficit ou durée > 3 mois.",
+   "refs": [
+    156
+   ]
+  },
+  "pronostic": {
+   "texte": "succès conservateur moindre après 1 mois de délai ; 30 % d'arthrodèses dans une série.",
+   "refs": [
+    156,
+    155
+   ]
+  },
+  "refs": [
+   {
+    "n": 154,
+    "texte": "Cai G et al. PloS One 2026",
+    "url": "https://doi.org/10.1371/journal.pone.0359198"
+   },
+   {
+    "n": 155,
+    "texte": "Subach BR et al. Spine 1998",
+    "url": "https://doi.org/10.1097/00007632-199810150-00006"
+   },
+   {
+    "n": 156,
+    "texte": "Spinnato P et al. European Journal of Pediatrics 2021",
+    "url": "https://doi.org/10.1007/s00431-020-03836-9"
+   },
+   {
+    "n": 74,
+    "texte": "K P D et al. Neurology 2022",
+    "url": "https://doi.org/10.1212/WNL.0000000000200023"
+   },
+   {
+    "n": 157,
+    "texte": "Sreedharan S et al. The Cleft Palate-Craniofacial… 2026",
+    "url": "https://doi.org/10.1177/10556656251360593"
+   },
+   {
+    "n": 158,
+    "texte": "Tam I et al. Clinical Pediatrics 2019",
+    "url": "https://doi.org/10.1177/0009922819859865"
+   },
+   {
+    "n": 159,
+    "texte": "Bonnet C et al. Movement Disorders 2010",
+    "url": "https://doi.org/10.1002/mds.22944"
+   },
+   {
+    "n": 160,
+    "texte": "JB & JS Open Access 2026 Jul-Sep;11(3) 00081",
+    "url": "https://doi.org/10.2106/JBJS.OA.26.00081"
+   }
+  ]
+ },
+ {
+  "no": "C21",
+  "tags": "RACHIS CERVICAL · TRAUMATISME · RÈGLE DE DÉCISION",
+  "titre": "TRAUMATISME CERVICAL DE L'ADULTE — RÈGLE CANADIENNE C-SPINE",
+  "epidemiologie": {
+   "texte": "lésion cliniquement importante chez 2 % des traumatisés alertes et stables.",
+   "refs": [
+    161
+   ]
+  },
+  "presentation": {
+   "texte": "haut risque : âge ≥ 65 ans, mécanisme dangereux, paresthésies des membres.",
+   "refs": [
+    161
+   ]
+  },
+  "examen": {
+   "texte": "si un facteur de faible risque est présent, une rotation active de 45° des deux côtés dispense d'imagerie.",
+   "refs": [
+    161,
+    115
+   ]
+  },
+  "physiopathologie": {
+   "texte": "sans objet (règle de décision).",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "entorse cervicale si la règle est négative (fiche C5).",
+   "refs": [
+    4
+   ]
+  },
+  "investigations": {
+   "texte": "TDM si la règle l'exige. PRONOSTIC (PERFORMANCE) Se 99,4 %, Sp 45 % ; non applicable avant 16 ans, si Glasgow < 15 ou maladie vertébrale connue.",
+   "refs": [
+    117,
+    161,
+    162
+   ]
+  },
+  "traitement": {
+   "texte": "collet et transfert si règle positive.",
+   "refs": [
+    117
+   ]
+  },
+  "pronostic": "",
+  "refs": [
+   {
+    "n": 161,
+    "texte": "Stiell IG et al. The New England Journal of… 2003",
+    "url": "https://doi.org/10.1056/NEJMoa031375"
+   },
+   {
+    "n": 115,
+    "texte": "Bruno T Saragiotto et al. Cochrane Database of… 2018",
+    "url": "https://doi.org/10.1002/14651858.cd012989"
+   },
+   {
+    "n": 4,
+    "texte": "Guzman J et al. Spine 2008",
+    "url": "https://doi.org/10.1097/BRS.0b013e3181644641"
+   },
+   {
+    "n": 117,
+    "texte": "Asadollahi S et al. Radiology 2026",
+    "url": "https://doi.org/10.1148/radiol.243834"
+   },
+   {
+    "n": 162,
+    "texte": "Gesu E et al. Internal and Emergency Medicine 2021",
+    "url": "https://doi.org/10.1007/s11739-021-02838-1"
+   }
+  ]
+ },
+ {
+  "no": "C22",
+  "tags": "RACHIS CERVICAL · TRAUMATISME PÉDIATRIQUE · RÈGLE DE DÉCISION",
+  "titre": "TRAUMATISME CERVICAL DE L'ENFANT — RÈGLE PECARN",
+  "epidemiologie": {
+   "texte": "1–2 % des traumatismes pédiatriques ; avant 8 ans, 74– 78 % des lésions entre l'occiput et C2.",
+   "refs": [
+    163,
+    164
+   ]
+  },
+  "presentation": {
+   "texte": "haut risque (TDM) : Glasgow 3–8, anomalie des voies aériennes, de la respiration ou de la circulation, déficit focal.",
+   "refs": [
+    165
+   ]
+  },
+  "examen": {
+   "texte": "risque non négligeable (radiographies) : douleur cervicale, état mental altéré, sensibilité médiane postérieure, traumatisme important de la tête ou du tronc.",
+   "refs": [
+    165
+   ]
+  },
+  "physiopathologie": {
+   "texte": "grosse tête, ligaments laxes et facettes horizontales placent le pivot en C1–C2.",
+   "refs": [
+    166,
+    167
+   ]
+  },
+  "ddx": {
+   "texte": "variantes normales (synchondroses), lésion médullaire sans anomalie radiographique, maltraitance.",
+   "refs": [
+    166,
+    168
+   ]
+  },
+  "investigations": {
+   "texte": "selon l'algorithme ; IRM si lésion médullaire suspectée. PRONOSTIC (PERFORMANCE) Se 94,3 %, valeur prédictive négative 99,9 %.",
+   "refs": [
+    165,
+    169
+   ]
+  },
+  "traitement": {
+   "texte": "immobilisation, transfert pédiatrique ; plus de 80 % traités sans chirurgie.",
+   "refs": [
+    166
+   ]
+  },
+  "pronostic": "",
+  "refs": [
+   {
+    "n": 163,
+    "texte": "Emma Tavender et al. Cochrane Database of… 2024",
+    "url": "https://doi.org/10.1002/14651858.cd011686.pub3"
+   },
+   {
+    "n": 164,
+    "texte": "Leonard JR et al. Pediatrics 2014",
+    "url": "https://doi.org/10.1542/peds.2013-3505"
+   },
+   {
+    "n": 165,
+    "texte": "The Lancet Child & Adolescent Health 2024",
+    "url": "https://doi.org/10.1016/S2352-4642(24)00104-4"
+   },
+   {
+    "n": 166,
+    "texte": "Jarvers JS et al. European Spine Journal 2023",
+    "url": "https://doi.org/10.1007/s00586-023-07532-8"
+   },
+   {
+    "n": 167,
+    "texte": "Kadom N et al. Journal of the American… 2019",
+    "url": "https://doi.org/10.1016/j.jacr.2019.02.003"
+   },
+   {
+    "n": 168,
+    "texte": "McAllister AS et al. Radiographics 2019",
+    "url": "https://doi.org/10.1148/rg.2019180100"
+   },
+   {
+    "n": 169,
+    "texte": "Correia MC et al. International Orthopaedics 2026",
+    "url": "https://doi.org/10.1007/s00264-025-06727-6"
+   }
+  ]
+ },
+ {
+  "no": "C23",
+  "tags": "RACHIS CERVICAL · ENFANT · OCULAIRE, NEUROLOGIQUE, PAROXYSTIQUE",
+  "titre": "TORTICOLIS NON MUSCULAIRE DE L'ENFANT",
+  "epidemiologie": {
+   "texte": "18 % des torticolis référés ; 20 % des tumeurs de la fosse postérieure se présentent ainsi.",
+   "refs": [
+    170,
+    79
+   ]
+  },
+  "presentation": {
+   "texte": "oculaire : indolore et précoce ; tumeur : inclinaison persistante avec signes neurologiques ; paroxystique bénin : accès dès 2–8 mois, côté alternant ; Sandifer : lié aux repas.",
+   "refs": [
+    75,
+    79,
+    171,
+    159
+   ]
+  },
+  "examen": {
+   "texte": "nerfs crâniens, ataxie, nystagmus ; examen normal entre les accès paroxystiques.",
+   "refs": [
+    79,
+    172
+   ]
+  },
+  "physiopathologie": {
+   "texte": "posture compensatrice (vision binoculaire, reflux) ou compression nerveuse ; équivalent migraineux.",
+   "refs": [
+    75,
+    173,
+    159
+   ]
+  },
+  "ddx": {
+   "texte": "torticolis musculaire congénital, Klippel-Feil, subluxation atlanto-axoïdienne, dystonie médicamenteuse.",
+   "refs": [
+    159,
+    76
+   ]
+  },
+  "investigations": {
+   "texte": "ophtalmologie ; imagerie en milieu hospitalier si tumeur suspectée ; vidéo parentale.",
+   "refs": [
+    75,
+    174
+   ]
+  },
+  "traitement": {
+   "texte": "selon la cause ; réassurance (paroxystique), traitement du reflux (Sandifer).",
+   "refs": [
+    175,
+    173
+   ]
+  },
+  "pronostic": {
+   "texte": "paroxystique : sans séquelle, 63 % développent un autre syndrome migraineux.",
+   "refs": [
+    176,
+    177
+   ]
+  },
+  "refs": [
+   {
+    "n": 170,
+    "texte": "Ballock RT et al. Journal of Pediatric Orthopedics 1996",
+    "url": "https://doi.org/10.1097/00004694-199607000-00016"
+   },
+   {
+    "n": 79,
+    "texte": "Demharter NS et al. Pediatrics in Review 2026",
+    "url": "https://doi.org/10.1542/pir.2025-006799"
+   },
+   {
+    "n": 75,
+    "texte": "Ben Zvi I et al. European Journal of Pediatrics 2022",
+    "url": "https://doi.org/10.1007/s00431-021-04316-4"
+   },
+   {
+    "n": 171,
+    "texte": "Yaghini O et al. Pediatrics 2016",
+    "url": "https://doi.org/10.1542/peds.2015-0868"
+   },
+   {
+    "n": 159,
+    "texte": "Bonnet C et al. Movement Disorders 2010",
+    "url": "https://doi.org/10.1002/mds.22944"
+   },
+   {
+    "n": 172,
+    "texte": "Rothner AD et al. Headache 2016",
+    "url": "https://doi.org/10.1111/head.12750"
+   },
+   {
+    "n": 173,
+    "texte": "Kato D et al. Pediatric Surgery International 2024",
+    "url": "https://doi.org/10.1007/s00383-024-05683-3"
+   },
+   {
+    "n": 76,
+    "texte": "Tomczak KK et al. Journal of Child Neurology 2013",
+    "url": "https://doi.org/10.1177/0883073812469294"
+   },
+   {
+    "n": 174,
+    "texte": "Nature Reviews Neurology 2021",
+    "url": "https://doi.org/10.1038/s41582-021-00497-6"
+   },
+   {
+    "n": 175,
+    "texte": "Fernández-Alvarez E European Journal of Neurology 2010",
+    "url": "https://doi.org/10.1007/s00431-021-04316-4"
+   },
+   {
+    "n": 176,
+    "texte": "Danielsson A et al. Developmental Medicine and… 2018",
+    "url": "https://doi.org/10.1111/dmcn.13939"
+   },
+   {
+    "n": 177,
+    "texte": "Greene KA et al. Pediatric Research 2021",
+    "url": "https://doi.org/10.1038/s41390-020-01309-1"
+   }
+  ]
+ },
+ {
+  "no": "C24",
+  "tags": "RACHIS CERVICAL · INFLAMMATOIRE · ENFANT",
+  "titre": "ARTHRITE JUVÉNILE IDIOPATHIQUE (ATTEINTE CERVICALE)",
+  "epidemiologie": {
+   "texte": "atteinte cervicale chez 3,7–35 % ; forme polyarticulaire surtout ; silencieuse dans la moitié des cas.",
+   "refs": [
+    178,
+    179,
+    180
+   ]
+  },
+  "presentation": {
+   "texte": "douleur et raideur crânio-cervicales, rarement torticolis ; parfois inaugurale.",
+   "refs": [
+    178,
+    181
+   ]
+  },
+  "examen": {
+   "texte": "amplitude cervicale réduite et douloureuse.",
+   "refs": [
+    181
+   ]
+  },
+  "physiopathologie": {
+   "texte": "synovite C0–C2 menant à subluxation, ankylose facettaire et trouble de croissance.",
+   "refs": [
+    178
+   ]
+  },
+  "ddx": {
+   "texte": "syndrome de Grisel, torticolis traumatique ou infectieux.",
+   "refs": [
+    182,
+    183
+   ]
+  },
+  "investigations": {
+   "texte": "VS, CRP ; radiographies (intervalle atlanto-dental > 3 mm) ; IRM pour la synovite.",
+   "refs": [
+    184,
+    178
+   ]
+  },
+  "traitement": {
+   "texte": "rhumatologie pédiatrique ; méthotrexate et anti-TNF précoces.",
+   "refs": [
+    181
+   ]
+  },
+  "pronostic": {
+   "texte": "rémission sous biologique précoce ; sans traitement, ankylose et instabilité.",
+   "refs": [
+    181,
+    178
+   ]
+  },
+  "refs": [
+   {
+    "n": 178,
+    "texte": "Salem KM et al. European Spine Journal 2016",
+    "url": "https://doi.org/10.1007/s00586-014-3648-5"
+   },
+   {
+    "n": 179,
+    "texte": "Warrier KC European Spine Journal 2016",
+    "url": "https://doi.org/10.1007/s00586-015-4362-7"
+   },
+   {
+    "n": 180,
+    "texte": "Elhai M et al. Rheumatology (Oxford, England) 2013",
+    "url": "https://doi.org/10.1093/rheumatology/kes054"
+   },
+   {
+    "n": 181,
+    "texte": "Sarısoy D et al. European Journal of Pediatrics 2026",
+    "url": "https://doi.org/10.1007/s00431-026-07537-7"
+   },
+   {
+    "n": 182,
+    "texte": "Seaman SC et al. Child's Nervous System 2020",
+    "url": "https://doi.org/10.1007/s00381-019-04469-6"
+   },
+   {
+    "n": 183,
+    "texte": "Heck VJ et al. International Journal of… 2025",
+    "url": "https://doi.org/10.1016/j.ijporl.2025.112656"
+   },
+   {
+    "n": 184,
+    "texte": "Kotecki M et al. Journal of Clinical Medicine 2021",
+    "url": "https://doi.org/10.3390/jcm10245798"
+   }
+  ]
+ },
+ {
+  "no": "C25",
+  "tags": "RACHIS CERVICAL · STÉNOSE CANALAIRE · OSSIFICATION LIGAMENTAIRE",
+  "titre": "OSSIFICATION DU LIGAMENT LONGITUDINAL POSTÉRIEUR",
+  "epidemiologie": {
+   "texte": "1,9–4,3 % au Japon, 0,1–1,7 % en Occident ; hommes, après 50 ans ; 18 % des myélopathies dégénératives.",
+   "refs": [
+    185,
+    186,
+    187,
+    188
+   ]
+  },
+  "presentation": {
+   "texte": "de l'asymptomatique à la tétraparésie ; lésion médullaire possible après traumatisme mineur.",
+   "refs": [
+    189,
+    190
+   ]
+  },
+  "examen": {
+   "texte": "signes de myélopathie, tétraparésie spastique.",
+   "refs": [
+    189
+   ]
+  },
+  "physiopathologie": {
+   "texte": "ossification endochondrale du ligament rétrécissant le canal par l'avant.",
+   "refs": [
+    191,
+    192
+   ]
+  },
+  "ddx": {
+   "texte": "hyperostose vertébrale, spondylose, spondylarthrite ankylosante.",
+   "refs": [
+    189
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie ; TDM et IRM pour la compression.",
+   "refs": [
+    185
+   ]
+  },
+  "traitement": {
+   "texte": "surveillance sans myélopathie ; décompression si symptômes neurologiques.",
+   "refs": [
+    186
+   ]
+  },
+  "pronostic": {
+   "texte": "17 % développent une myélopathie en 17 ans ; risque de lésion médullaire multiplié par 4,8.",
+   "refs": [
+    193,
+    194
+   ]
+  },
+  "refs": [
+   {
+    "n": 185,
+    "texte": "Matsunaga S et al. Spine 2012",
+    "url": "https://doi.org/10.1097/BRS.0b013e318241ad33"
+   },
+   {
+    "n": 186,
+    "texte": "Le HV et al. The Journal of the American… 2022",
+    "url": "https://doi.org/10.5435/JAAOS-D-22-00049"
+   },
+   {
+    "n": 187,
+    "texte": "Nakagawa K et al. Neurology 2016",
+    "url": "https://doi.org/10.1212/WNL.0000000000003237"
+   },
+   {
+    "n": 188,
+    "texte": "Liao X et al. Spine 2020",
+    "url": "https://doi.org/10.1097/BRS.0000000000003526"
+   },
+   {
+    "n": 189,
+    "texte": "Trojan DA et al. The American Journal of Medicine 1992",
+    "url": "https://doi.org/10.1016/0002-9343(92)90080-u"
+   },
+   {
+    "n": 190,
+    "texte": "Okuwaki S et al. Scientific Reports 2023",
+    "url": "https://doi.org/10.1038/s41598-023-29877-2"
+   },
+   {
+    "n": 191,
+    "texte": "Baucher G et al. Neurosurgical Review 2022",
+    "url": "https://doi.org/10.1007/s10143-021-01698-9"
+   },
+   {
+    "n": 192,
+    "texte": "Matsunaga S et al. Journal of Neurosurgery 2002",
+    "url": "https://doi.org/10.1097/BRS.0b013e318241ad33"
+   },
+   {
+    "n": 193,
+    "texte": "Matsunaga S et al. Journal of Neurosurgery 2004",
+    "url": "https://doi.org/10.1097/BRS.0b013e318241ad33"
+   },
+   {
+    "n": 194,
+    "texte": "Wu JC et al. Journal of Neurotrauma 2012",
+    "url": "https://doi.org/10.1089/neu.2011.2095"
+   }
+  ]
+ },
+ {
+  "no": "C26",
+  "tags": "RACHIS CERVICAL HAUT · MICROCRISTALLIN · SUJET ÂGÉ",
+  "titre": "SYNDROME DE LA DENT COURONNÉE",
+  "epidemiologie": {
+   "texte": "âge moyen 73 ans ; 5 % des arthrites aiguës à pyrophosphate.",
+   "refs": [
+    195
+   ]
+  },
+  "presentation": {
+   "texte": "cervicalgie aiguë (97 %), raideur (98 %), fièvre (80 %), CRP élevée (91 %).",
+   "refs": [
+    195,
+    196
+   ]
+  },
+  "examen": {
+   "texte": "douleur à la rotation ; signes méningés parfois positifs ; douleur temporale possible.",
+   "refs": [
+    196,
+    197
+   ]
+  },
+  "physiopathologie": {
+   "texte": "cristaux de pyrophosphate dans le ligament transverse de l'atlas.",
+   "refs": [
+    109,
+    198
+   ]
+  },
+  "ddx": {
+   "texte": "méningite (erreur la plus fréquente), artérite à cellules géantes, spondylodiscite, abcès rétropharyngé.",
+   "refs": [
+    195,
+    197,
+    109
+   ]
+  },
+  "investigations": {
+   "texte": "TDM C1–C2 (détection 97 %) ; calcifications fréquentes sans symptôme, donc exclure l'infection.",
+   "refs": [
+    195,
+    109
+   ]
+  },
+  "traitement": {
+   "texte": "AINS en cure courte (97 % améliorés) ; sinon colchicine ou corticoïde oral.",
+   "refs": [
+    195,
+    109
+   ]
+  },
+  "pronostic": {
+   "texte": "amélioration en jours à semaines.",
+   "refs": [
+    198
+   ]
+  },
+  "refs": [
+   {
+    "n": 195,
+    "texte": "Hamdan O et al. Rheumatology International 2025",
+    "url": "https://doi.org/10.1007/s00296-025-05884-6"
+   },
+   {
+    "n": 196,
+    "texte": "Oka A et al. The Journal of Emergency… 2015",
+    "url": "https://doi.org/10.1016/j.jemermed.2015.02.005"
+   },
+   {
+    "n": 197,
+    "texte": "Aouba A et al. Rheumatology (Oxford, England) 2004",
+    "url": "https://doi.org/10.1093/rheumatology/keh370"
+   },
+   {
+    "n": 109,
+    "texte": "Cooper R et al. JAMA 2019",
+    "url": "https://doi.org/10.1001/jama.2019.1772"
+   },
+   {
+    "n": 198,
+    "texte": "Wu DW et al. Arthritis and Rheumatism 2005",
+    "url": "https://doi.org/10.1002/art.20915"
+   }
+  ]
+ }
+]
