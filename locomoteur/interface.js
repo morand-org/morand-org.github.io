@@ -554,6 +554,36 @@
     if (t) { const r = t.dataset.tous; if (tousR.has(r)) tousR.delete(r); else tousR.add(r); resultats(actives()); return; }
     const f = e.target.closest("button[data-fiche]"); if (f) ouvrirFiche(f.dataset.fiche);
   });
+  /* Conduite en six blocs (point 11) : Investigations, Traitement, À éviter, Suivi, Consignes de reconsultation, Référence.
+     Le bloc vient du préfixe de l'aide-mémoire (« Investigation : », « Traitement : », « Suivi : », « Retour / référence : »)
+     ou, à défaut, des premiers mots. « À éviter » réunit les clauses « pas de… », « éviter… », « déconseillé » des autres
+     blocs ; dans « Retour / référence », une clause avec « → » ou un service va en Référence, le reste en Consignes. */
+  const BLOCS_C = [["inv", "Investigations"], ["trt", "Traitement"], ["eviter", "À éviter"], ["suivi", "Suivi"], ["consignes", "Consignes de reconsultation"], ["ref", "Référence"]];
+  const EVITER = /^(pas d[e'’]|ne (pas|jamais)|éviter|jamais|aucune? |sans )|déconseill|à éviter|contre-indiqu/i;
+  const SERVICE = /→|orthopéd|chirurg|rhumato|physiatr|neurochir|référ|urgence|spécialiste|EMG|plastique/i;
+  // Clauses séparées par « ; », sauf à l'intérieur de parenthèses.
+  function clauses(t) {
+    const l = []; let prof = 0, cour = "";
+    for (const ch of t) { if (ch === "(") prof++; if (ch === ")") prof = Math.max(0, prof - 1); if (ch === ";" && !prof) { l.push(cour); cour = ""; } else cour += ch; }
+    return [...l, cour];
+  }
+  function blocsConduite(items) {
+    const B = Object.fromEntries(BLOCS_C.map(([k]) => [k, []]));
+    const ajoute = (k, t, src) => { t = t.trim().replace(/^[;,.\s]+|[;,\s]+$/g, ""); if (t) B[k].push({ t: t.charAt(0).toUpperCase() + t.slice(1), src }); };
+    for (const c of items) {
+      const brut = (typeof c === "string" ? c : c.t).trim(), src = c.src, m = brut.match(/^([^:]{2,40}?) : (.*)$/);
+      const pre = m ? m[1].toLowerCase() : "", texte = m ? m[2] : brut;
+      let k = /^investigation/.test(pre) ? "inv" : /^traitement/.test(pre) ? "trt" : /^suivi/.test(pre) ? "suivi" : /retour|référence|consignes/.test(pre) ? "retour" : null;
+      if (!k) k = /^(diagnostic clinique|radiograph|irm|échograph|tdm|ponction|bilan|vs|crp|imagerie|emg|pas d'imagerie)/i.test(brut) ? "inv"
+        : /^(suivi|réévalu)/i.test(brut) ? "suivi" : /^(revoir si|reconsulter|consignes)/i.test(brut) ? "retour" : /^(référence|référer|orthopédie|chirurgie)/i.test(brut) ? "ref" : "trt";
+      for (const cl of clauses(m ? texte : brut)) {
+        if (EVITER.test(cl) && k !== "retour") ajoute("eviter", cl, src);
+        else if (k === "retour") ajoute(SERVICE.test(cl) ? "ref" : "consignes", cl, src);
+        else ajoute(k, cl, src);
+      }
+    }
+    return BLOCS_C.map(([k, titre]) => [titre, B[k]]).filter(([, l]) => l.length);
+  }
   function conduite(regs) {
     const plusieurs = regs.length > 1, dejaPlan = String(etat.commun.plan_ajouts || "").split(/\r?\n/).map(x => x.trim());
     const ligne = c => `<li><span>${esc(c.t)}${c.src ? `<span class="lo-src">${esc(c.src)}</span>` : ""}</span><button type="button" class="lo-plus" data-plan="${esc(c.t)}"${dejaPlan.includes(c.t.replace(/\.$/, "")) ? " disabled" : ""}>+ Plan</button></li>`;
@@ -563,7 +593,7 @@
       if (plusieurs) h += `<h3 class="lo-c-titre lo-c-plainte">${esc(plainteTitre(r))}</h3>`;
       if (graves.length) h += `<h3 class="lo-c-titre">Alertes</h3>${alertesHtml(graves, true)}`;
       if (res.conduite.length) h += res.conduite.map(c => `<section class="lo-c-dx"><h3>${esc(c.dx.x.nom)} <span class="lo-dx-cat" data-cat="${c.dx.categorie[2]}">${c.dx.categorie[1]}</span></h3>
-        <ul>${c.items.map(ligne).join("")}</ul>${liens(c.liens)}</section>`).join("");
+        ${blocsConduite(c.items).map(([titre, l]) => `<h4 class="lo-c-bloc">${esc(titre)}</h4><ul>${l.map(ligne).join("")}</ul>`).join("")}${liens(c.liens)}</section>`).join("");
       else h += `<p class="lo-vide">Aucune hypothèse n'est encore assez probable pour proposer une conduite propre à un diagnostic.</p>`;
     }
     // Mesures générales : une seule fois par titre, même avec plusieurs plaintes.
