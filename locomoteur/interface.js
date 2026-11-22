@@ -365,6 +365,26 @@
     const vers = (PROJETEES[r] || []).filter(([v, si]) => prets.has(v) && !etat.regions.includes(v) && si(res)).map(([v]) => v);
     return vers.length ? `<p class="lo-projetee">Douleur possiblement projetée : ${vers.map(v => `<button type="button" class="lo-lien" data-ajouter="${v}">ajouter la plainte « ${esc(NOMS[v])} »</button>`).join(" ou ")}.</p>` : "";
   }
+  /* Ce qui ferait changer d'avis (point 7) : on simule les réponses manquantes les plus fortes (10 questions au plus) et on
+     retient celle qui ferait le plus tomber le diagnostic de tête et celle qui ferait passer le 2ᵉ en tête. */
+  function changerAvis(r, res) {
+    const L = res.diagnostics.filter(x => !x.residuel), d = D(r);
+    if (L.length < 2 || !L[0].comptes.length) return "";
+    const [t, s2] = L;
+    const cands = d.questions.filter(q => !CONTEXTE.has(q.id) && (q.type === "oui_non" || q.type === "choix") && res.vus.has(q.id) && res.rep[q.id] === undefined)
+      .map(q => [Math.max(forceDe(q, t.id), forceDe(q, s2.id)), q]).filter(([f]) => f >= Math.log(2)).sort((a, b) => b[0] - a[0]).slice(0, 10).map(([, q]) => q);
+    let baisse = null, hausse = null;
+    for (const q of cands) for (const v of (q.type === "oui_non" ? ["oui", "non"] : q.options.map(o => o.v)).slice(0, 5)) {
+      const r2 = LO.calculer(d, { ...res.rep, [q.id]: v }), pt = pDe(r2, t.id), p2 = pDe(r2, s2.id);
+      if (!baisse || pt < baisse.p) baisse = { q, v, p: pt };
+      if (p2 > pt && (!hausse || p2 - pt > hausse.ecart)) hausse = { q, v, p: p2, ecart: p2 - pt };
+    }
+    const lib = (q, v) => `${q.court && q.libelle.length > 40 ? q.court : q.libelle} : ${LO.libelleOption(q, v).toLowerCase()}`;
+    const lignes = [];
+    if (baisse && t.p - baisse.p >= 0.15) lignes.push(`<li><strong>${esc(t.x.nom)}</strong> descendrait à ${pct(baisse.p)} si ${esc(lib(baisse.q, baisse.v))}.</li>`);
+    if (hausse) lignes.push(`<li><strong>${esc(s2.x.nom)}</strong> passerait en tête (${pct(hausse.p)}) si ${esc(lib(hausse.q, hausse.v))}.</li>`);
+    return lignes.length ? `<div class="lo-changer"><p class="lo-changer-titre">Ce qui ferait changer d'avis</p><ul>${lignes.join("")}</ul></div>` : "";
+  }
   function itemDx(r, res, x, avecCles) {
     const verifies = x.comptes.filter(c => c.e.statut === "verifie" || c.e.statut === "valide").length;
     return `<li class="lo-dx-item" data-cat="${x.categorie[2]}" data-dx="${x.id}"><details${ouverts.has(`${r}|${x.id}`) ? " open" : ""}>
@@ -393,7 +413,7 @@
     const cands = L.filter(x => !x.residuel && x.p >= 0.2).slice(0, 6), paires = [];
     cands.forEach((a, i) => cands.slice(i + 1).forEach(b => { if (comp.has(`${a.id}|${b.id}`)) paires.push(`${a.x.n} et ${b.x.n}`); }));
     const coexist = paires.length ? `<p class="lo-coexist"><strong>Peuvent coexister</strong> : ${esc(paires.slice(0, 3).join(" ; "))}. L'un n'exclut pas l'autre.</p>` : "";
-    return groupe("À considérer en premier", premiers, true) + coexist + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
+    return groupe("À considérer en premier", premiers, true) + coexist + changerAvis(r, res) + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
       + (L.length > montres.size + graves.length || tousR.has(r) ? `<button type="button" class="lo-lien lo-tous" data-tous="${r}">${tousR.has(r) ? "Afficher moins" : `Afficher les ${L.length} diagnostics`}</button>` : "");
   }
   function resultats(regs) {
