@@ -331,7 +331,12 @@
     const montres = new Set([...premiers, ...garder].map(x => x.id));
     const graves = L.filter(x => x.x.grave && !montres.has(x.id) && x.p >= 0.01);
     const groupe = (titre, liste, cles) => (liste.length ? `<h4 class="lo-dx-groupe">${titre}</h4><ol class="lo-dx" data-region="${r}">${liste.map((x, i) => itemDx(r, res, x, cles && i === 0)).join("")}</ol>` : "");
-    return groupe("À considérer en premier", premiers, true) + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
+    // Diagnostics probables qui peuvent coexister (« compatibles » des données) : l'un n'exclut pas l'autre.
+    const comp = new Set((D(r).compatibles || []).flatMap(([a, b]) => [`${a}|${b}`, `${b}|${a}`]));
+    const cands = L.filter(x => !x.residuel && x.p >= 0.2).slice(0, 6), paires = [];
+    cands.forEach((a, i) => cands.slice(i + 1).forEach(b => { if (comp.has(`${a.id}|${b.id}`)) paires.push(`${a.x.n} et ${b.x.n}`); }));
+    const coexist = paires.length ? `<p class="lo-coexist"><strong>Peuvent coexister</strong> : ${esc(paires.slice(0, 3).join(" ; "))}. L'un n'exclut pas l'autre.</p>` : "";
+    return groupe("À considérer en premier", premiers, true) + coexist + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
       + (L.length > montres.size + graves.length || tousR.has(r) ? `<button type="button" class="lo-lien lo-tous" data-tous="${r}">${tousR.has(r) ? "Afficher moins" : `Afficher les ${L.length} diagnostics`}</button>` : "");
   }
   function resultats(regs) {

@@ -142,6 +142,8 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .lo-fleche { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .lo-fleche[data-sens="haut"] { color: var(--ok); }
 .lo-fleche[data-sens="bas"] { color: var(--alerte); }
+.lo-coexist { margin: 8px 0 4px; padding: 8px 12px; border-left: 3px solid var(--or); border-radius: 0 10px 10px 0; background: var(--beige); font-size: 0.86rem; line-height: 1.45; color: var(--encre-2); }
+.lo-coexist strong { color: var(--encre); }
 .lo-statut { padding: 0 7px; border-radius: 999px; background: var(--beige); color: var(--discret); font: 600 10px/1.6 var(--sans); letter-spacing: 0.04em; white-space: nowrap; }
 .lo-statut[data-statut="a_verifier"] { background: var(--or-fond); color: var(--or-texte); }
 .lo-statut[data-statut="verifie"], .lo-statut[data-statut="valide"] { color: var(--ok); }
