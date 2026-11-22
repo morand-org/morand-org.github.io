@@ -308,6 +308,7 @@ details.lo-section > summary h2 { margin: 0 0 4px; }
 .lo-nouveau + .lo-nouveau { margin-left: 0; }
 .lo-nouveau.lo-secondaire { background: var(--carte); color: var(--encre); }
 .lo-nouveau.lo-secondaire:hover { background: var(--beige); border-color: var(--encre); color: var(--encre); }
+.lo-nouveau.lo-secondaire[aria-pressed="true"] { background: var(--or-fond); border-color: var(--or); color: var(--or-texte); }
 /* Examen : parties dépliables */
 .lo-bloc-depliable > summary { display: flex; align-items: center; gap: 10px; padding: 12px 0 6px; list-style: none; cursor: pointer; }
 .lo-bloc-depliable > summary::-webkit-details-marker { display: none; }
