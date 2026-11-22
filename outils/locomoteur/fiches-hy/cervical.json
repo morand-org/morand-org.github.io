@@ -1,6 +1,7 @@
 [
  {
   "no": "C1",
+  "page": 1,
   "tags": "RACHIS CERVICAL · DOULEUR AXIALE · MÉCANIQUE",
   "titre": "CERVICALGIE NON SPÉCIFIQUE",
   "epidemiologie": {
@@ -110,10 +111,12 @@
     "texte": "Anita R Gross et al. Cochrane Database of… 2026",
     "url": "https://doi.org/10.1002/14651858.cd008626.pub4"
    }
-  ]
+  ],
+  "planche": "c1.webp"
  },
  {
   "no": "C2",
+  "page": 2,
   "tags": "RACHIS CERVICAL · DOULEUR MUSCULAIRE · SURCHARGE POSTURALE",
   "titre": "SYNDROME MYOFASCIAL DU TRAPÈZE SUPÉRIEUR",
   "epidemiologie": {
@@ -221,10 +224,12 @@
     "texte": "Cerezo-Téllez E et al. Pain 2016",
     "url": "https://doi.org/10.1097/j.pain.0000000000000591"
    }
-  ]
+  ],
+  "planche": "c2.webp"
  },
  {
   "no": "C3",
+  "page": 3,
   "tags": "RACHIS CERVICAL · DOULEUR AXIALE · ARTICULAIRE POSTÉRIEURE",
   "titre": "DOULEUR ZYGAPOPHYSAIRE CERVICALE",
   "epidemiologie": {
@@ -310,10 +315,12 @@
     "texte": "van Eerd M et al. Spine 2021",
     "url": "https://doi.org/10.1111/j.1533-2500.2009.00346.x"
    }
-  ]
+  ],
+  "planche": "c3.webp"
  },
  {
   "no": "C4",
+  "page": 4,
   "tags": "RACHIS CERVICAL · DOULEUR AXIALE · DÉGÉNÉRATIF",
   "titre": "CERVICARTHROSE / DISCOPATHIE DÉGÉNÉRATIVE",
   "epidemiologie": {
@@ -387,10 +394,12 @@
     "texte": "The Journal of Bone and Joint Surgery American Volume 2018",
     "url": "https://doi.org/10.2106/JBJS.17.01347"
    }
-  ]
+  ],
+  "planche": "c4.webp"
  },
  {
   "no": "C5",
+  "page": 5,
   "tags": "RACHIS CERVICAL · POST-TRAUMATIQUE · TISSUS MOUS",
   "titre": "ENTORSE CERVICALE (COUP DU LAPIN)",
   "epidemiologie": {
@@ -508,10 +517,12 @@
     "texte": "Walton DM et al. The Journal of Orthopaedic… 2013",
     "url": "https://doi.org/10.2519/jospt.2013.4507"
    }
-  ]
+  ],
+  "planche": "c5.webp"
  },
  {
   "no": "C6",
+  "page": 6,
   "tags": "RACHIS CERVICAL · CÉPHALÉE SECONDAIRE · SEGMENTS C1–C3",
   "titre": "CÉPHALÉE CERVICOGÉNIQUE",
   "epidemiologie": {
@@ -624,10 +635,12 @@
     "texte": "Suer M et al. Pain Physician 2022",
     "url": null
    }
-  ]
+  ],
+  "planche": "c6.webp"
  },
  {
   "no": "C7",
+  "page": 7,
   "tags": "RACHIS CERVICAL · TRAUMATISME SPORTIF · TISSUS MOUS",
   "titre": "CONTRACTURE, ÉLONGATION OU CONTUSION CERVICALE DU SPORTIF",
   "epidemiologie": {
@@ -722,10 +735,12 @@
     "texte": "Chung AS et al. Spine 2019",
     "url": "https://doi.org/10.1097/BRS.0000000000003008"
    }
-  ]
+  ],
+  "planche": "c7.webp"
  },
  {
   "no": "C8",
+  "page": 8,
   "tags": "RACHIS CERVICAL · RADICULOPATHIE · COMPRESSION FORAMINALE",
   "titre": "NÉVRALGIE CERVICO-BRACHIALE / HERNIE DISCALE CERVICALE",
   "epidemiologie": {
@@ -833,10 +848,12 @@
     "texte": "Wong JJ et al. The Spine Journal 2014",
     "url": "https://doi.org/10.1016/j.spinee.2014.02.032"
    }
-  ]
+  ],
+  "planche": "c8.webp"
  },
  {
   "no": "C9",
+  "page": 9,
   "tags": "RACHIS CERVICAL · TRAUMATISME SPORTIF · NEURAPRAXIE C5–C6",
   "titre": "STINGER / BURNER",
   "epidemiologie": {
@@ -917,10 +934,12 @@
     "texte": "Dutton RA et al. Muscle & Nerve 2024",
     "url": "https://doi.org/10.1002/mus.28057"
    }
-  ]
+  ],
+  "planche": "c9.webp"
  },
  {
   "no": "C10",
+  "page": 10,
   "tags": "RACHIS CERVICAL · ATTITUDE VICIEUSE AIGUË · ADULTE ET ENFANT",
   "titre": "TORTICOLIS AIGU ACQUIS",
   "epidemiologie": {
@@ -1002,10 +1021,12 @@
     "texte": "Tomczak KK et al. Journal of Child Neurology 2013",
     "url": "https://doi.org/10.1177/0883073812469294"
    }
-  ]
+  ],
+  "planche": "c10.webp"
  },
  {
   "no": "C11",
+  "page": 11,
   "tags": "RACHIS CERVICAL · NOURRISSON · FIBROSE DU STERNO-CLÉIDO-",
   "titre": "TORTICOLIS MUSCULAIRE CONGÉNITAL",
   "epidemiologie": {
@@ -1097,10 +1118,12 @@
     "texte": "Daly GE et al. The Cleft Palate-Craniofacial… 2026",
     "url": "https://doi.org/10.1177/10556656241295567"
    }
-  ]
+  ],
+  "planche": "c11.webp"
  },
  {
   "no": "C12",
+  "page": 12,
   "tags": "CEINTURES · INFLAMMATOIRE · SUJET DE PLUS DE 50 ANS",
   "titre": "PSEUDOPOLYARTHRITE RHIZOMÉLIQUE",
   "epidemiologie": {
@@ -1198,10 +1221,12 @@
     "texte": "The Lancet Rheumatology 2026",
     "url": "https://doi.org/10.1016/S2665-9913(26)00072-X"
    }
-  ]
+  ],
+  "planche": "c12.webp"
  },
  {
   "no": "C13",
+  "page": 13,
   "tags": "RACHIS CERVICAL · COMPRESSION MÉDULLAIRE · DÉGÉNÉRATIF",
   "titre": "MYÉLOPATHIE CERVICARTHROSIQUE",
   "epidemiologie": {
@@ -1316,10 +1341,12 @@
     "texte": "Munro CF et al. PloS One 2023",
     "url": "https://doi.org/10.1371/journal.pone.0281856"
    }
-  ]
+  ],
+  "planche": "c13.webp"
  },
  {
   "no": "C14",
+  "page": 14,
   "tags": "RACHIS CERVICAL · INFLAMMATOIRE · INSTABILITÉ C1–C2",
   "titre": "ATTEINTE CERVICALE DE LA POLYARTHRITE RHUMATOÏDE",
   "epidemiologie": {
@@ -1442,10 +1469,12 @@
     "texte": "Kanda Y et al. Scientific Reports 2024",
     "url": "https://doi.org/10.1038/s41598-024-78429-9"
    }
-  ]
+  ],
+  "planche": "c14.webp"
  },
  {
   "no": "C15",
+  "page": 15,
   "tags": "RACHIS CERVICAL · FRACTURE · SUJET ÂGÉ",
   "titre": "FRACTURE DE L'ODONTOÏDE / FRACTURE CERVICALE DE FRAGILITÉ",
   "epidemiologie": {
@@ -1552,10 +1581,12 @@
     "texte": "Venkatesan M et al. The Bone & Joint Journal 2014",
     "url": "https://doi.org/10.1302/0301-620X.96B1.32024"
    }
-  ]
+  ],
+  "planche": "c15.webp"
  },
  {
   "no": "C16",
+  "page": 16,
   "tags": "COU ET MEMBRE SUPÉRIEUR · COMPRESSION NEUROVASCULAIRE ·",
   "titre": "SYNDROME DU DÉFILÉ THORACO-BRACHIAL",
   "epidemiologie": {
@@ -1674,10 +1705,12 @@
     "texte": "Dengler NF et al. Deutsches Arzteblatt… 2022",
     "url": "https://doi.org/10.3238/arztebl.m2022.0296"
    }
-  ]
+  ],
+  "planche": "c16.webp"
  },
  {
   "no": "C17",
+  "page": 17,
   "tags": "RACHIS CERVICAL · TRAUMATISME SPORTIF · BLOC DE CONDUCTION",
   "titre": "NEURAPRAXIE MÉDULLAIRE TRANSITOIRE DU SPORTIF",
   "epidemiologie": {
@@ -1764,10 +1797,12 @@
     "texte": "Huang P et al. Sports Health 2016",
     "url": "https://doi.org/10.1177/1941738115610753"
    }
-  ]
+  ],
+  "planche": "c17.webp"
  },
  {
   "no": "C18",
+  "page": 18,
   "tags": "RACHIS · INFECTION · URGENCE",
   "titre": "SPONDYLODISCITE / ABCÈS ÉPIDURAL (FICHE DE RÉFÉRENCE)",
   "epidemiologie": {
@@ -1888,10 +1923,12 @@
     "texte": "Stangenberg M et al. International Journal of… 2020",
     "url": "https://doi.org/10.1016/j.ijid.2020.07.028"
    }
-  ]
+  ],
+  "planche": "c18.webp"
  },
  {
   "no": "C19",
+  "page": 19,
   "tags": "RÉGION OCCIPITALE · NÉVRALGIE · NERFS C2–C3",
   "titre": "NÉVRALGIE OCCIPITALE (ARNOLD)",
   "epidemiologie": {
@@ -1997,10 +2034,12 @@
     "texte": "Lučić A et al. Scientific Reports 2025",
     "url": "https://doi.org/10.1038/s41598-025-01246-1"
    }
-  ]
+  ],
+  "planche": "c19.webp"
  },
  {
   "no": "C20",
+  "page": 20,
   "tags": "RACHIS CERVICAL HAUT · ENFANT · POST-INFECTIEUX OU TRAUMATIQUE",
   "titre": "SUBLUXATION ROTATOIRE ATLANTO-AXOÏDIENNE / SYNDROME DE GRISEL",
   "epidemiologie": {
@@ -2099,10 +2138,12 @@
     "texte": "JB & JS Open Access 2026 Jul-Sep;11(3) 00081",
     "url": "https://doi.org/10.2106/JBJS.OA.26.00081"
    }
-  ]
+  ],
+  "planche": "c20.webp"
  },
  {
   "no": "C21",
+  "page": 21,
   "tags": "RACHIS CERVICAL · TRAUMATISME · RÈGLE DE DÉCISION",
   "titre": "TRAUMATISME CERVICAL DE L'ADULTE — RÈGLE CANADIENNE C-SPINE",
   "epidemiologie": {
@@ -2135,11 +2176,9 @@
    ]
   },
   "investigations": {
-   "texte": "TDM si la règle l'exige. PRONOSTIC (PERFORMANCE) Se 99,4 %, Sp 45 % ; non applicable avant 16 ans, si Glasgow < 15 ou maladie vertébrale connue.",
+   "texte": "TDM si la règle l'exige.",
    "refs": [
-    117,
-    161,
-    162
+    117
    ]
   },
   "traitement": {
@@ -2148,7 +2187,14 @@
     117
    ]
   },
-  "pronostic": "",
+  "pronostic": {
+   "texte": "Se 99,4 %, Sp 45 % ; non applicable avant 16 ans, si Glasgow < 15 ou maladie vertébrale connue.",
+   "refs": [
+    161,
+    162
+   ],
+   "titre": "PRONOSTIC (PERFORMANCE)"
+  },
   "refs": [
    {
     "n": 161,
@@ -2175,10 +2221,12 @@
     "texte": "Gesu E et al. Internal and Emergency Medicine 2021",
     "url": "https://doi.org/10.1007/s11739-021-02838-1"
    }
-  ]
+  ],
+  "planche": "c21.webp"
  },
  {
   "no": "C22",
+  "page": 22,
   "tags": "RACHIS CERVICAL · TRAUMATISME PÉDIATRIQUE · RÈGLE DE DÉCISION",
   "titre": "TRAUMATISME CERVICAL DE L'ENFANT — RÈGLE PECARN",
   "epidemiologie": {
@@ -2215,7 +2263,7 @@
    ]
   },
   "investigations": {
-   "texte": "selon l'algorithme ; IRM si lésion médullaire suspectée. PRONOSTIC (PERFORMANCE) Se 94,3 %, valeur prédictive négative 99,9 %.",
+   "texte": "selon l'algorithme ; IRM si lésion médullaire suspectée.",
    "refs": [
     165,
     169
@@ -2227,7 +2275,13 @@
     166
    ]
   },
-  "pronostic": "",
+  "pronostic": {
+   "texte": "Se 94,3 %, valeur prédictive négative 99,9 %.",
+   "refs": [
+    165
+   ],
+   "titre": "PRONOSTIC (PERFORMANCE)"
+  },
   "refs": [
    {
     "n": 163,
@@ -2264,10 +2318,12 @@
     "texte": "Correia MC et al. International Orthopaedics 2026",
     "url": "https://doi.org/10.1007/s00264-025-06727-6"
    }
-  ]
+  ],
+  "planche": "c22.webp"
  },
  {
   "no": "C23",
+  "page": 23,
   "tags": "RACHIS CERVICAL · ENFANT · OCULAIRE, NEUROLOGIQUE, PAROXYSTIQUE",
   "titre": "TORTICOLIS NON MUSCULAIRE DE L'ENFANT",
   "epidemiologie": {
@@ -2390,10 +2446,12 @@
     "texte": "Greene KA et al. Pediatric Research 2021",
     "url": "https://doi.org/10.1038/s41390-020-01309-1"
    }
-  ]
+  ],
+  "planche": "c23.webp"
  },
  {
   "no": "C24",
+  "page": 24,
   "tags": "RACHIS CERVICAL · INFLAMMATOIRE · ENFANT",
   "titre": "ARTHRITE JUVÉNILE IDIOPATHIQUE (ATTEINTE CERVICALE)",
   "epidemiologie": {
@@ -2486,10 +2544,12 @@
     "texte": "Kotecki M et al. Journal of Clinical Medicine 2021",
     "url": "https://doi.org/10.3390/jcm10245798"
    }
-  ]
+  ],
+  "planche": "c24.webp"
  },
  {
   "no": "C25",
+  "page": 25,
   "tags": "RACHIS CERVICAL · STÉNOSE CANALAIRE · OSSIFICATION LIGAMENTAIRE",
   "titre": "OSSIFICATION DU LIGAMENT LONGITUDINAL POSTÉRIEUR",
   "epidemiologie": {
@@ -2597,10 +2657,12 @@
     "texte": "Wu JC et al. Journal of Neurotrauma 2012",
     "url": "https://doi.org/10.1089/neu.2011.2095"
    }
-  ]
+  ],
+  "planche": "c25.webp"
  },
  {
   "no": "C26",
+  "page": 26,
   "tags": "RACHIS CERVICAL HAUT · MICROCRISTALLIN · SUJET ÂGÉ",
   "titre": "SYNDROME DE LA DENT COURONNÉE",
   "epidemiologie": {
@@ -2684,6 +2746,7 @@
     "texte": "Wu DW et al. Arthritis and Rheumatism 2005",
     "url": "https://doi.org/10.1002/art.20915"
    }
-  ]
+  ],
+  "planche": "c26.webp"
  }
 ]

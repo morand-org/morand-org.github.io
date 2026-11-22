@@ -1,0 +1,2381 @@
+[
+ {
+  "no": "Co1",
+  "page": 1,
+  "tags": "COUDE · DOULEUR LATÉRALE · TENDINOSE DE SURCHARGE",
+  "titre": "ÉPICONDYLITE LATÉRALE",
+  "epidemiologie": {
+   "texte": "3,4 par 1000 p-a, pic à 40–49 ans ; prévalence 1–3 % ; le tennis n'explique que 5 % des cas ; tabac (RC 3,4), travail répétitif et en force (RC 5,6).",
+   "refs": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "presentation": {
+   "texte": "douleur latérale progressive, sans traumatisme, à la préhension et à l'extension du poignet.",
+   "refs": [
+    2,
+    5
+   ]
+  },
+  "examen": {
+   "texte": "Cozen (Se 91 %), Maudsley (Se 70 %) ; force de préhension réduite de 5–10 % coude étendu (Se 78–83 %, Sp 80–90 %). Âge ≤ 30 ans, début aigu, blocage ou épanchement orientent ailleurs.",
+   "refs": [
+    6,
+    7,
+    8
+   ]
+  },
+  "physiopathologie": {
+   "texte": "tendinose angiofibroblastique de l'origine du court extenseur radial du carpe, sans inflammation vraie.",
+   "refs": [
+    2,
+    9
+   ]
+  },
+  "ddx": {
+   "texte": "tunnel radial, arthrose radio-capitellaire, instabilité postéro-latérale, plica, radiculopathie cervicale.",
+   "refs": [
+    2,
+    10
+   ]
+  },
+  "investigations": {
+   "texte": "clinique ; la radiographie change la conduite dans 0,7 % ; tendinose à l'imagerie chez 37 % des asymptomatiques.",
+   "refs": [
+    2,
+    6
+   ]
+  },
+  "traitement": {
+   "texte": "éducation, exercices ; corticoïde : succès 92 % à 6 semaines mais récidive 54 % contre 12 % à 1 an ; PRP équivalent au placebo.",
+   "refs": [
+    11,
+    12,
+    13
+   ]
+  },
+  "pronostic": {
+   "texte": "89 % améliorés à 1 an sans traitement ; récidive 8,5 % en 2 ans.",
+   "refs": [
+    3,
+    14
+   ]
+  },
+  "refs": [
+   {
+    "n": 1,
+    "texte": "Teemu V Karjalainen et al. Cochrane Database of… 2021",
+    "url": "https://doi.org/10.1002/14651858.cd010951.pub2"
+   },
+   {
+    "n": 2,
+    "texte": "Wolf JM The New England Journal of… 2023",
+    "url": "https://doi.org/10.1056/NEJMcp2216734"
+   },
+   {
+    "n": 3,
+    "texte": "Milla Pompilio da Silva et al. Cochrane Database of… 2018",
+    "url": "https://doi.org/10.1002/14651858.cd013041"
+   },
+   {
+    "n": 4,
+    "texte": "Shiri R et al. American Journal of Epidemiology 2006",
+    "url": "https://doi.org/10.1093/aje/kwj325"
+   },
+   {
+    "n": 5,
+    "texte": "Jason A Wallis et al. Cochrane Database of… 2024",
+    "url": "https://doi.org/10.1002/14651858.cd013042.pub2"
+   },
+   {
+    "n": 6,
+    "texte": "Goldman et al. American Family Physician 2026",
+    "url": null
+   },
+   {
+    "n": 7,
+    "texte": "Karanasios S et al. Journal of Hand Therapy 2022",
+    "url": "https://doi.org/10.1016/j.jht.2021.02.002"
+   },
+   {
+    "n": 8,
+    "texte": "Zwerus EL et al. Journal of Shoulder and Elbow… 2026",
+    "url": "https://doi.org/10.1016/j.jse.2025.10.006"
+   },
+   {
+    "n": 9,
+    "texte": "Teemu V Karjalainen et al. Cochrane Database of… 2022",
+    "url": "https://doi.org/10.1002/14651858.cd010951.pub2"
+   },
+   {
+    "n": 10,
+    "texte": "Blonna D et al. The American Journal of… 2025",
+    "url": "https://doi.org/10.1177/03635465251319545"
+   },
+   {
+    "n": 11,
+    "texte": "Smidt N et al. Lancet (London, England) 2002",
+    "url": "https://doi.org/10.1016/S0140-6736(02)07811-X"
+   },
+   {
+    "n": 12,
+    "texte": "Coombes BK et al. JAMA 2013",
+    "url": "https://doi.org/10.1001/jama.2013.129"
+   },
+   {
+    "n": 13,
+    "texte": "Antunes Júnior CR et al. The American Journal of… 2026",
+    "url": "https://doi.org/10.1177/03635465251319545"
+   },
+   {
+    "n": 14,
+    "texte": "Ikonen J et al. Clinical Orthopaedics and… 2022",
+    "url": "https://doi.org/10.1097/CORR.0000000000002058"
+   }
+  ],
+  "planche": "co1.webp"
+ },
+ {
+  "no": "Co2",
+  "page": 2,
+  "tags": "COUDE · DOULEUR MÉDIALE · TENDINOSE DES FLÉCHISSEURS-PRONATEURS",
+  "titre": "ÉPICONDYLITE MÉDIALE",
+  "epidemiologie": {
+   "texte": "prévalence 0,4–0,6 % ; 10–20 % des épicondylites ; pic à 45–54 ans ; plus de 90 % sans lien avec le sport.",
+   "refs": [
+    4,
+    15,
+    16
+   ]
+  },
+  "presentation": {
+   "texte": "douleur médiale à la préhension, à la flexion du poignet et à la pronation ; chez le lanceur, à l'armé tardif.",
+   "refs": [
+    17
+   ]
+  },
+  "examen": {
+   "texte": "douleur à la flexion-pronation résistée, sensibilité juste distale à l'épicondyle (aucune Se/Sp publiée) ; névrite ulnaire associée dans 20 %, jusqu'à 60 % chez le lanceur.",
+   "refs": [
+    18,
+    19,
+    20
+   ]
+  },
+  "physiopathologie": {
+   "texte": "microdéchirures mal réparées de l'origine des fléchisseurs- pronateurs.",
+   "refs": [
+    21
+   ]
+  },
+  "ddx": {
+   "texte": "tunnel cubital, lésion du LCU, triceps médial à ressaut, apophysite du jeune lanceur.",
+   "refs": [
+    22,
+    23
+   ]
+  },
+  "investigations": {
+   "texte": "clinique.",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "non chirurgical efficace dans 88–96 % ; corticoïde utile à 6 semaines, sans effet à 3 mois ni à 1 an ; chirurgie après 6–12 mois.",
+   "refs": [
+    21,
+    24
+   ]
+  },
+  "pronostic": {
+   "texte": "histoire naturelle non étudiée ; moins bons résultats chirurgicaux si névrite ulnaire.",
+   "refs": [
+    24,
+    22
+   ]
+  },
+  "refs": [
+   {
+    "n": 4,
+    "texte": "Shiri R et al. American Journal of Epidemiology 2006",
+    "url": "https://doi.org/10.1093/aje/kwj325"
+   },
+   {
+    "n": 15,
+    "texte": "Walker-Bone K et al. Rheumatology (Oxford, England) 2012",
+    "url": "https://doi.org/10.1093/rheumatology/ker228"
+   },
+   {
+    "n": 16,
+    "texte": "Ernesto Joubran et al. Scientific Reports 2026",
+    "url": null
+   },
+   {
+    "n": 17,
+    "texte": "Amin NH et al. The Journal of the American… 2015",
+    "url": "https://doi.org/10.5435/JAAOS-D-14-00145"
+   },
+   {
+    "n": 18,
+    "texte": "Creighton A et al. Current Reviews in… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09787-y"
+   },
+   {
+    "n": 19,
+    "texte": "Bowers RL et al. Current Reviews in… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09787-y"
+   },
+   {
+    "n": 20,
+    "texte": "Chen AL et al. The American Journal of… 2003",
+    "url": "https://doi.org/10.1177/03635465030310032601"
+   },
+   {
+    "n": 21,
+    "texte": "Arevalo A et al. The American Journal of… 2023",
+    "url": "https://doi.org/10.1177/03635465221095565"
+   },
+   {
+    "n": 22,
+    "texte": "Taylor SA et al. Sports Health 2012",
+    "url": "https://doi.org/10.1177/1941738112454651"
+   },
+   {
+    "n": 23,
+    "texte": "Prabhakar G et al. Orthopedics 2023",
+    "url": "https://doi.org/10.3928/01477447-20220719-06"
+   },
+   {
+    "n": 24,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 1997",
+    "url": "https://doi.org/10.5435/JAAOS-D-14-00145"
+   }
+  ],
+  "planche": "co2.webp"
+ },
+ {
+  "no": "Co3",
+  "page": 3,
+  "tags": "COUDE · ENFANT D'ÂGE PRÉSCOLAIRE · SUBLUXATION DE LA TÊTE RADIALE",
+  "titre": "PRONATION DOULOUREUSE",
+  "epidemiologie": {
+   "texte": "âge médian 2,1 ans, 85 % entre 1 et 3 ans, 59 % de filles, bras gauche 60 % ; 7,8 % des enfants avant 3 ans.",
+   "refs": [
+    25,
+    26
+   ]
+  },
+  "presentation": {
+   "texte": "traction sur le bras étendu (65,9 %), mais chute ou torsion possibles ; bras immobile en légère flexion- pronation, sans enflure.",
+   "refs": [
+    27,
+    28
+   ]
+  },
+  "examen": {
+   "texte": "douleur à la supination, mobilité passive presque normale.",
+   "refs": [
+    29
+   ]
+  },
+  "physiopathologie": {
+   "texte": "le ligament annulaire glisse sur la tête radiale et s'interpose dans l'articulation radio-capitellaire.",
+   "refs": [
+    27
+   ]
+  },
+  "ddx": {
+   "texte": "fracture occulte (0,3 % des cas radiographiés) ; radiographie si mécanisme atypique, enfant plus âgé ou 2 échecs.",
+   "refs": [
+    25,
+    29,
+    28
+   ]
+  },
+  "investigations": {
+   "texte": "aucune si tableau typique.",
+   "refs": [
+    29
+   ]
+  },
+  "traitement": {
+   "texte": "hyperpronation (échec au premier essai 9,2 % contre 26,4 % ; NNT 6) ; après 2 échecs, attelle et référence.",
+   "refs": [
+    27,
+    30
+   ]
+  },
+  "pronostic": {
+   "texte": "aucune séquelle ; récidive rapportée par 46 % des parents.",
+   "refs": [
+    26,
+    29
+   ]
+  },
+  "refs": [
+   {
+    "n": 25,
+    "texte": "Bechtel AAP Grand Rounds 2021",
+    "url": null
+   },
+   {
+    "n": 26,
+    "texte": "Kimura M et al. Acta Paediatrica (Oslo, Norway 2018",
+    "url": "https://doi.org/10.1111/apa.14422"
+   },
+   {
+    "n": 27,
+    "texte": "Marjolein Krul et al. Cochrane Database of… 2017",
+    "url": "https://doi.org/10.1002/14651858.cd007759.pub4"
+   },
+   {
+    "n": 28,
+    "texte": "Wong K et al. The Journal of Emergency… 2016",
+    "url": "https://doi.org/10.1016/j.jemermed.2016.07.081"
+   },
+   {
+    "n": 29,
+    "texte": "Colucci P et al. Pediatric Radiology 2026",
+    "url": "https://doi.org/10.1007/s00247-025-06472-3"
+   },
+   {
+    "n": 30,
+    "texte": "Yamanaka S et al. Canadian Family Physician… 2018",
+    "url": null
+   }
+  ],
+  "planche": "co3.webp"
+ },
+ {
+  "no": "Co4",
+  "page": 4,
+  "tags": "ÉPICONDYLE MÉDIAL · APOPHYSITE DE TRACTION · 9–13 ANS",
+  "titre": "COUDE DU LANCEUR JUVÉNILE",
+  "epidemiologie": {
+   "texte": "lanceurs de 11–12 ans ; 28 % des lanceurs de 9–14 ans ont une douleur du coude par saison.",
+   "refs": [
+    31,
+    32
+   ]
+  },
+  "presentation": {
+   "texte": "douleur médiale insidieuse, perte de vitesse et de précision, hausse récente du volume.",
+   "refs": [
+    31
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité de l'épicondyle médial, douleur au valgus et à la flexion résistée du poignet.",
+   "refs": [
+    31
+   ]
+  },
+  "physiopathologie": {
+   "texte": "traction en valgus répétée sur une apophyse plus faible que les muscles qui s'y insèrent.",
+   "refs": [
+    33
+   ]
+  },
+  "ddx": {
+   "texte": "avulsion de l'épicondyle médial, lésion du LCU.",
+   "refs": [
+    34,
+    35
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies comparatives (physe élargie, fragmentation).",
+   "refs": [
+    33,
+    31
+   ]
+  },
+  "traitement": {
+   "texte": "arrêt des lancers 4–6 semaines, physiothérapie, reprise graduée ; séparation > 3 mm : 6–12 semaines ou chirurgie ; limites de lancers.",
+   "refs": [
+    33,
+    31,
+    36
+   ]
+  },
+  "pronostic": {
+   "texte": "compétition à 8–12 semaines ; récidive 13–57 %.",
+   "refs": [
+    33,
+    37
+   ]
+  },
+  "refs": [
+   {
+    "n": 31,
+    "texte": "Lintner LJ et al. American Family Physician 2023",
+    "url": null
+   },
+   {
+    "n": 32,
+    "texte": "Saito A et al. The American Journal of… 2023",
+    "url": "https://doi.org/10.1177/03635465231202028"
+   },
+   {
+    "n": 33,
+    "texte": "Watkins RA et al. Current Reviews in… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09784-1"
+   },
+   {
+    "n": 34,
+    "texte": "Putukian M et al. Medicine and Science in… 2026",
+    "url": "https://doi.org/10.1249/MSS.0000000000003863"
+   },
+   {
+    "n": 35,
+    "texte": "Jones C et al. Pediatrics in Review 2017",
+    "url": "https://doi.org/10.1542/pir.2015-0160"
+   },
+   {
+    "n": 36,
+    "texte": "Brown T et al. Clinical Pediatrics 2019",
+    "url": "https://doi.org/10.1177/0009922818810879"
+   },
+   {
+    "n": 37,
+    "texte": "Sim D et al. Pediatrics in Review 2024",
+    "url": "https://doi.org/10.1542/pir.2022-005872"
+   }
+  ],
+  "planche": "co4.webp"
+ },
+ {
+  "no": "Co5",
+  "page": 5,
+  "tags": "COUDE · ENFANT DE 5–7 ANS · RISQUE NEUROVASCULAIRE",
+  "titre": "FRACTURE SUPRACONDYLIENNE DE L'HUMÉRUS",
+  "epidemiologie": {
+   "texte": "environ 60 % des fractures du coude de l'enfant ; 60–177 par 100 000.",
+   "refs": [
+    38,
+    39,
+    40
+   ]
+  },
+  "presentation": {
+   "texte": "chute sur la main, coude en hyperextension (96–98 % en extension).",
+   "refs": [
+    38,
+    40
+   ]
+  },
+  "examen": {
+   "texte": "pouls et perfusion ; signe du « OK » ; paralysie nerveuse 11,3 % (19,3 % au type III) ; lésion vasculaire 5–31 % des fractures déplacées.",
+   "refs": [
+    39,
+    41,
+    42
+   ]
+  },
+  "physiopathologie": {
+   "texte": "le fragment proximal contusionne le nerf médian et étire le nerf interosseux antérieur.",
+   "refs": [
+    43
+   ]
+  },
+  "ddx": {
+   "texte": "condyle latéral, fracture occulte, Monteggia (manqué jusqu'à 50 %).",
+   "refs": [
+    44,
+    45
+   ]
+  },
+  "investigations": {
+   "texte": "face et profil vrai ; ligne humérale antérieure anormale dans 94 % ; coussinet postérieur isolé : fracture occulte dans 44,6 % (méta-analyse).",
+   "refs": [
+    44,
+    46
+   ]
+  },
+  "traitement": {
+   "texte": "Gartland I : plâtre ; déplacée : réduction et brochage, type III en 12–18 heures ; urgence si perfusion diminuée.",
+   "refs": [
+    47,
+    48
+   ]
+  },
+  "pronostic": {
+   "texte": "consolidation en 4,5 semaines ; paralysie de l'interosseux antérieur toujours résolue (49 jours) ; cubitus varus non remodelé.",
+   "refs": [
+    49,
+    50,
+    51
+   ]
+  },
+  "refs": [
+   {
+    "n": 38,
+    "texte": "Schädlich IS et al. European Journal of Neurology 2024",
+    "url": "https://doi.org/10.1111/ene.16459"
+   },
+   {
+    "n": 39,
+    "texte": "Ben A Marson et al. Cochrane Database of… 2022",
+    "url": "https://doi.org/10.1002/14651858.cd013609.pub2"
+   },
+   {
+    "n": 40,
+    "texte": "Joyce KM et al. The Journal of Hand Surgery,… 2024",
+    "url": "https://doi.org/10.1177/17531934231201925"
+   },
+   {
+    "n": 41,
+    "texte": "Babal JC et al. Journal of Pediatric Orthopedics 2010",
+    "url": "https://doi.org/10.1097/BPO.0b013e3181d213a6"
+   },
+   {
+    "n": 42,
+    "texte": "Norrell KN et al. Journal of Pediatric Orthopedics 2022",
+    "url": "https://doi.org/10.1097/BPO.0000000000002186"
+   },
+   {
+    "n": 43,
+    "texte": "Vincelet Y et al. Orthopaedics & Traumatology,… 2013",
+    "url": "https://doi.org/10.1016/j.otsr.2013.04.002"
+   },
+   {
+    "n": 44,
+    "texte": "Kappelhof B et al. JBJS Reviews 2022",
+    "url": "https://doi.org/10.2106/JBJS.RVW.22.00114"
+   },
+   {
+    "n": 45,
+    "texte": "Chakladar S et al. Journal of Pediatric Orthopedics 2026",
+    "url": "https://doi.org/10.1097/BPO.0000000000002186"
+   },
+   {
+    "n": 46,
+    "texte": "Rogers LF et al. Radiology 1978",
+    "url": "https://doi.org/10.1148/128.1.145"
+   },
+   {
+    "n": 47,
+    "texte": "Davis MD FACS et al. Della Rocca MD PhD FACS,… 2015",
+    "url": null
+   },
+   {
+    "n": 48,
+    "texte": "Howard A et al. The Journal of the American… 2012",
+    "url": "https://doi.org/10.1177/17531934231201925"
+   },
+   {
+    "n": 49,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2014",
+    "url": "https://doi.org/10.1177/17531934231201925"
+   },
+   {
+    "n": 50,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 1986",
+    "url": "https://doi.org/10.1177/17531934231201925"
+   },
+   {
+    "n": 51,
+    "texte": "Shi Q et al. BMC Pediatrics 2022",
+    "url": "https://doi.org/10.1186/s12887-022-03578-7"
+   }
+  ],
+  "planche": "co5.webp"
+ },
+ {
+  "no": "Co6",
+  "page": 6,
+  "tags": "COUDE · CHUTE SUR LA MAIN · CLASSIFICATION DE MASON",
+  "titre": "FRACTURE DE LA TÊTE OU DU COL RADIAL (ADULTE)",
+  "epidemiologie": {
+   "texte": "fracture du coude la plus fréquente de l'adulte ; 28–39 par 100 000 ; âge moyen 47 ans ; Mason I 64–73 %.",
+   "refs": [
+    52,
+    53
+   ]
+  },
+  "presentation": {
+   "texte": "douleur latérale aggravée par la rotation.",
+   "refs": [
+    52,
+    53
+   ]
+  },
+  "examen": {
+   "texte": "extension complète impossible (Se 96,8 %, Sp 48,5 % ; Se 88 % dans une autre étude) ; blocage en prono- supination ; stabilité collatérale.",
+   "refs": [
+    54,
+    55,
+    56
+   ]
+  },
+  "physiopathologie": {
+   "texte": "charge axiale écrasant la tête radiale contre le capitulum.",
+   "refs": [
+    57
+   ]
+  },
+  "ddx": {
+   "texte": "11–39 % (coronoïde, luxation), triade terrible, lésion d'Essex-Lopresti.",
+   "refs": [
+    53,
+    58,
+    59,
+    60
+   ],
+   "titre": "DIAGNOSTIC DIFFÉRENTIEL (LÉSIONS ASSOCIÉES)"
+  },
+  "investigations": {
+   "texte": "face, profil, incidence radio-capitellaire ; TDM si Mason III.",
+   "refs": [
+    61,
+    53
+   ]
+  },
+  "traitement": {
+   "texte": "Mason I : mobilisation précoce ; Mason II : succès non chirurgical 95,1 % ; Mason III : arthroplastie supérieure à l'ostéosynthèse.",
+   "refs": [
+    62,
+    63,
+    64
+   ]
+  },
+  "pronostic": {
+   "texte": "à 10 ans (Mason I–II) : raideur 14 %, douleur résiduelle 24 %.",
+   "refs": [
+    65
+   ]
+  },
+  "refs": [
+   {
+    "n": 52,
+    "texte": "Thanit Foocharoen et al. Cochrane Database of… 2014",
+    "url": "https://doi.org/10.1002/14651858.cd009949.pub2"
+   },
+   {
+    "n": 53,
+    "texte": "Kodde IF et al. BMC Musculoskeletal Disorders 2015",
+    "url": "https://doi.org/10.1186/s12891-015-0603-5"
+   },
+   {
+    "n": 54,
+    "texte": "BMJ (Clinical Research Ed ) 2008",
+    "url": "https://doi.org/10.1136/bmj.a2428"
+   },
+   {
+    "n": 55,
+    "texte": "Jie KE et al. Annals of Emergency Medicine 2014",
+    "url": "https://doi.org/10.1016/j.annemergmed.2014.01.022"
+   },
+   {
+    "n": 56,
+    "texte": "Patel DS et al. American Family Physician 2021",
+    "url": null
+   },
+   {
+    "n": 57,
+    "texte": "Harbrecht A et al. Archives of Orthopaedic and… 2021",
+    "url": "https://doi.org/10.1007/s00402-021-03895-z"
+   },
+   {
+    "n": 58,
+    "texte": "van Riet RP et al. Clinical Orthopaedics and… 2005",
+    "url": "https://doi.org/10.1097/01.blo.0000180606.30981.78"
+   },
+   {
+    "n": 59,
+    "texte": "Grassmann JP et al. The Bone & Joint Journal 2014",
+    "url": "https://doi.org/10.1302/0301-620X.96B10.33334"
+   },
+   {
+    "n": 60,
+    "texte": "Fahs A et al. The Journal of the American… 2024",
+    "url": "https://doi.org/10.5435/JAAOS-D-24-00310"
+   },
+   {
+    "n": 61,
+    "texte": "Egenolf P et al. Archives of Orthopaedic and… 2024",
+    "url": "https://doi.org/10.1007/s00402-024-05293-7"
+   },
+   {
+    "n": 62,
+    "texte": "Mulders MAM et al. Journal of Shoulder and Elbow… 2021",
+    "url": "https://doi.org/10.1016/j.jse.2021.02.025"
+   },
+   {
+    "n": 63,
+    "texte": "Lanzerath F et al. Journal of Shoulder and Elbow… 2021",
+    "url": "https://doi.org/10.1016/j.jse.2020.10.011"
+   },
+   {
+    "n": 64,
+    "texte": "Yu Gao et al. Cochrane Database of… 2013",
+    "url": "https://doi.org/10.1002/14651858.cd008987.pub2"
+   },
+   {
+    "n": 65,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2014",
+    "url": "https://doi.org/10.5435/JAAOS-D-24-00310"
+   }
+  ],
+  "planche": "co6.webp"
+ },
+ {
+  "no": "Co7",
+  "page": 7,
+  "tags": "COUDE MÉDIAL · NEUROPATHIE CANALAIRE · NERF ULNAIRE",
+  "titre": "TUNNEL CUBITAL / NÉVRITE ULNAIRE",
+  "epidemiologie": {
+   "texte": "25–30 par 100 000 p-a ; tabac, diabète, obésité, canal carpien associé.",
+   "refs": [
+    66,
+    67,
+    68
+   ]
+  },
+  "presentation": {
+   "texte": "paresthésies des 4ᵉ et 5ᵉ doigts, nocturnes et en flexion ; puis maladresse et faiblesse.",
+   "refs": [
+    69
+   ]
+  },
+  "examen": {
+   "texte": "Tinel peu utile (Se 62 %, Sp 53 %) ; rotation interne de l'épaule avec flexion du coude (Se 87 %, Sp 98 %) ; Froment (Se 79 %).",
+   "refs": [
+    70,
+    71,
+    72
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression et traction du nerf, maximales en flexion : ischémie, démyélinisation, puis perte axonale.",
+   "refs": [
+    69,
+    73
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie C8–T1, plexopathie inférieure, canal de Guyon, maladie du motoneurone.",
+   "refs": [
+    69,
+    74,
+    75
+   ]
+  },
+  "investigations": {
+   "texte": "EMG pour confirmer et grader ; conduction normale chez 76 % des cas typiques ; échographie (ratio côté à côté ≥ 1,22 : Se 93 %, Sp 98 %).",
+   "refs": [
+    76,
+    66,
+    77
+   ]
+  },
+  "traitement": {
+   "texte": "éducation (89,5 % améliorés à 6 mois) ; l'attelle de nuit n'ajoutait rien dans l'essai randomisé ; décompression simple équivalente à la transposition.",
+   "refs": [
+    76,
+    66
+   ]
+  },
+  "pronostic": {
+   "texte": "la moitié s'améliore en 1 an sans traitement ; 22 % s'aggravent à 14 mois.",
+   "refs": [
+    78,
+    79
+   ]
+  },
+  "refs": [
+   {
+    "n": 66,
+    "texte": "Pietro Caliandro et al. Cochrane Database of… 2025",
+    "url": "https://doi.org/10.1002/14651858.cd006839.pub5"
+   },
+   {
+    "n": 67,
+    "texte": "Osei DA et al. Neurosurgery 2017",
+    "url": "https://doi.org/10.1093/neuros/nyw061"
+   },
+   {
+    "n": 68,
+    "texte": "Lucey M et al. The Journal of Hand Surgery,… 2026",
+    "url": "https://doi.org/10.1177/17531934261426700"
+   },
+   {
+    "n": 69,
+    "texte": "Dy CJ et al. Current Reviews in… 2016",
+    "url": "https://doi.org/10.1007/s12178-016-9327-x"
+   },
+   {
+    "n": 70,
+    "texte": "Beekman R et al. Journal of Neurology,… 2009",
+    "url": "https://doi.org/10.1136/jnnp.2009.180844"
+   },
+   {
+    "n": 71,
+    "texte": "Ochi K et al. Journal of Shoulder and Elbow… 2012",
+    "url": "https://doi.org/10.1016/j.jse.2011.10.015"
+   },
+   {
+    "n": 72,
+    "texte": "Kittipongphat N et al. The Journal of Hand Surgery,… 2025",
+    "url": "https://doi.org/10.1177/17531934261426700"
+   },
+   {
+    "n": 73,
+    "texte": "Spies CK et al. Archives of Orthopaedic and… 2024",
+    "url": "https://doi.org/10.1007/s00402-024-05694-8"
+   },
+   {
+    "n": 74,
+    "texte": "Vijayan J et al. Neurology 2014",
+    "url": "https://doi.org/10.1212/WNL.0000000000000191"
+   },
+   {
+    "n": 75,
+    "texte": "Dutton RA et al. Muscle & Nerve 2024",
+    "url": "https://doi.org/10.1002/mus.28057"
+   },
+   {
+    "n": 76,
+    "texte": "Svernlöv B et al. The Journal of Hand Surgery,… 2009",
+    "url": "https://doi.org/10.1177/17531934261426700"
+   },
+   {
+    "n": 77,
+    "texte": "Mamarabadi M et al. Muscle & Nerve 2021",
+    "url": "https://doi.org/10.1002/mus.27178"
+   },
+   {
+    "n": 78,
+    "texte": "Padua L et al. Clinical Neurophysiology 2002",
+    "url": "https://doi.org/10.1016/s1388-2457(02)00295-x"
+   },
+   {
+    "n": 79,
+    "texte": "Beekman R et al. Neurology 2004",
+    "url": "https://doi.org/10.1136/jnnp.2009.180844"
+   }
+  ],
+  "planche": "co7.webp"
+ },
+ {
+  "no": "Co8",
+  "page": 8,
+  "tags": "COUDE POSTÉRIEUR · BOURSE SOUS-CUTANÉE · ASEPTIQUE OU SEPTIQUE",
+  "titre": "BURSITE OLÉCRANIENNE",
+  "epidemiologie": {
+   "texte": "environ 10 par 100 000 par an ; hommes d'âge moyen ; forme septique : S. aureus 80 %.",
+   "refs": [
+    80,
+    81,
+    82
+   ]
+  },
+  "presentation": {
+   "texte": "tuméfaction fluctuante après appui, mobilité conservée ; septique : douleur, érythème, plaie.",
+   "refs": [
+    6,
+    83
+   ]
+  },
+  "examen": {
+   "texte": "septique contre aseptique : sensibilité 88 % contre 36 %, érythème 83 % contre 27 %, fièvre 38 % contre 0 % ; douleur à tout mouvement : arthrite.",
+   "refs": [
+    84,
+    83
+   ]
+  },
+  "physiopathologie": {
+   "texte": "microtraumatismes de la bourse ; infection par brèche cutanée.",
+   "refs": [
+    80,
+    85
+   ]
+  },
+  "ddx": {
+   "texte": "arthrite septique, goutte, nodule rhumatoïde, cellulite, rupture du triceps.",
+   "refs": [
+    80,
+    86
+   ]
+  },
+  "investigations": {
+   "texte": "ponction si infection suspectée ; aucun seuil leucocytaire validé (septique : 350 à 392 500/mm³).",
+   "refs": [
+    6,
+    87
+   ]
+  },
+  "traitement": {
+   "texte": "compression et AINS (résolution 83 % à 4 semaines, contre 65 % après ponction) ; le corticoïde ajoute des complications ; septique : antibiotiques, plus d'échecs si moins de 14 jours.",
+   "refs": [
+    88,
+    81,
+    89
+   ]
+  },
+  "pronostic": {
+   "texte": "aseptique : souvent autolimitée ; septique : plus de 5 semaines.",
+   "refs": [
+    85,
+    87
+   ]
+  },
+  "refs": [
+   {
+    "n": 80,
+    "texte": "Esmaeilnejad-Ganji SM et al. Rheumatology International 2019",
+    "url": "https://doi.org/10.1007/s00296-019-04414-5"
+   },
+   {
+    "n": 81,
+    "texte": "Charret L et al. The Journal of Antimicrobial… 2021",
+    "url": "https://doi.org/10.1093/jac/dkab265"
+   },
+   {
+    "n": 82,
+    "texte": "Lormeau C et al. Joint Bone Spine 2019",
+    "url": "https://doi.org/10.1016/j.jbspin.2018.10.006"
+   },
+   {
+    "n": 6,
+    "texte": "Goldman et al. American Family Physician 2026",
+    "url": null
+   },
+   {
+    "n": 83,
+    "texte": "Reilly D et al. Journal of Shoulder and Elbow… 2016",
+    "url": "https://doi.org/10.1016/j.jse.2015.08.032"
+   },
+   {
+    "n": 84,
+    "texte": "Ho G et al. Annals of Internal Medicine 1978",
+    "url": "https://doi.org/10.7326/0003-4819-89-1-21"
+   },
+   {
+    "n": 85,
+    "texte": "Nchinda NN et al. The Journal of Hand Surgery 2021",
+    "url": "https://doi.org/10.1016/j.jhsa.2021.02.006"
+   },
+   {
+    "n": 86,
+    "texte": "Walker CM et al. Clinics in Sports Medicine 2020",
+    "url": "https://doi.org/10.1016/j.csm.2020.03.003"
+   },
+   {
+    "n": 87,
+    "texte": "Raddatz DA et al. The Journal of Rheumatology 1987",
+    "url": null
+   },
+   {
+    "n": 88,
+    "texte": "Kim JY et al. Clinical Orthopaedics and… 2016",
+    "url": "https://doi.org/10.1007/s11999-015-4579-0"
+   },
+   {
+    "n": 89,
+    "texte": "Sayegh ET et al. Archives of Orthopaedic and… 2014",
+    "url": "https://doi.org/10.1007/s00402-014-2088-3"
+   }
+  ],
+  "planche": "co8.webp"
+ },
+ {
+  "no": "Co9",
+  "page": 9,
+  "tags": "COUDE · RAIDEUR EN FIN D'AMPLITUDE · TRAVAILLEUR MANUEL",
+  "titre": "ARTHROSE DU COUDE",
+  "epidemiologie": {
+   "texte": "radiographique 25,2 % après 50 ans, symptomatique 0,9 % ; traumatisme antérieur (RC 9,3).",
+   "refs": [
+    90,
+    91
+   ]
+  },
+  "presentation": {
+   "texte": "douleur en fin de flexion ou d'extension, blocages, paresthésies ulnaires.",
+   "refs": [
+    92,
+    93
+   ]
+  },
+  "examen": {
+   "texte": "perte de l'extension terminale, crépitation.",
+   "refs": [
+    94
+   ]
+  },
+  "physiopathologie": {
+   "texte": "ostéophytes, corps libres et rétraction capsulaire créent un conflit aux extrêmes.",
+   "refs": [
+    92,
+    93
+   ]
+  },
+  "ddx": {
+   "texte": "polyarthrite rhumatoïde, arthrite microcristalline, corps libres, tunnel cubital.",
+   "refs": [
+    93,
+    95
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies ; TDM avant chirurgie.",
+   "refs": [
+    94
+   ]
+  },
+  "traitement": {
+   "texte": "modification des activités, AINS, physiothérapie, infiltration ; débridement arthroscopique (+23° d'arc).",
+   "refs": [
+    94,
+    96
+   ]
+  },
+  "pronostic": {
+   "texte": "favorable dans 22 coudes sur 26 d'une série.",
+   "refs": [
+    97
+   ]
+  },
+  "refs": [
+   {
+    "n": 90,
+    "texte": "Nakayama K et al. Journal of Shoulder and Elbow… 2022",
+    "url": "https://doi.org/10.1016/j.jse.2021.07.015"
+   },
+   {
+    "n": 91,
+    "texte": "Oya N et al. Journal of Shoulder and Elbow… 2018",
+    "url": "https://doi.org/10.1016/j.jse.2018.02.049"
+   },
+   {
+    "n": 92,
+    "texte": "So SP et al. The American Journal of… 2023",
+    "url": "https://doi.org/10.1177/03635465231171542"
+   },
+   {
+    "n": 93,
+    "texte": "Poonit K et al. BMC Musculoskeletal Disorders 2018",
+    "url": "https://doi.org/10.1186/s12891-018-2318-x"
+   },
+   {
+    "n": 94,
+    "texte": "DeBernardis D et al. The Journal of the American… 2026",
+    "url": "https://doi.org/10.5435/JAAOS-D-25-01638"
+   },
+   {
+    "n": 95,
+    "texte": "Spahn G et al. Archives of Orthopaedic and… 2017",
+    "url": "https://doi.org/10.1007/s00402-017-2654-6"
+   },
+   {
+    "n": 96,
+    "texte": "Sochacki KR et al. Arthroscopy 2017",
+    "url": "https://doi.org/10.1016/j.arthro.2017.08.247"
+   },
+   {
+    "n": 97,
+    "texte": "Doherty M et al. Annals of the Rheumatic Diseases 1989",
+    "url": "https://doi.org/10.1136/ard.48.9.743"
+   }
+  ],
+  "planche": "co9.webp"
+ },
+ {
+  "no": "Co10",
+  "page": 10,
+  "tags": "COUDE POSTÉRIEUR · MÉCANISME EXTENSEUR · SUJET ÂGÉ",
+  "titre": "FRACTURE DE L'OLÉCRÂNE",
+  "epidemiologie": {
+   "texte": "12 par 100 000 ; 10 % des fractures du coude ; 65 % de femmes, âge médian 66 ans.",
+   "refs": [
+    98,
+    99,
+    100
+   ]
+  },
+  "presentation": {
+   "texte": "chute directe sur le coude ou avulsion par le triceps.",
+   "refs": [
+    98
+   ]
+  },
+  "examen": {
+   "texte": "extension active contre gravité ; le test d'extension complète a manqué 2 fractures de l'olécrâne.",
+   "refs": [
+    54
+   ]
+  },
+  "physiopathologie": {
+   "texte": "choc direct ou traction du triceps.",
+   "refs": [
+    98
+   ]
+  },
+  "ddx": {
+   "texte": "fracture-luxation transolécranienne, rupture du triceps.",
+   "refs": [
+    101,
+    102
+   ]
+  },
+  "investigations": {
+   "texte": "face et profil vrai.",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "après 75 ans (SOFIE), fonction semblable avec ou sans chirurgie ; chirurgie : complications × 3,2, réinterventions × 4,9.",
+   "refs": [
+    103,
+    104
+   ]
+  },
+  "pronostic": {
+   "texte": "sans chirurgie, pseudarthrose fréquente (22 sur 28) mais rarement opérée.",
+   "refs": [
+    105
+   ]
+  },
+  "refs": [
+   {
+    "n": 98,
+    "texte": "Hosam E Matar et al. Cochrane Database of… 2014",
+    "url": "https://doi.org/10.1002/14651858.cd010144.pub2"
+   },
+   {
+    "n": 99,
+    "texte": "Hamoodi Z et al. JBJS Reviews 2023",
+    "url": "https://doi.org/10.2106/JBJS.RVW.22.00150"
+   },
+   {
+    "n": 100,
+    "texte": "Brüggemann A et al. European Journal of Trauma… 2022",
+    "url": "https://doi.org/10.1007/s00068-021-01765-2"
+   },
+   {
+    "n": 54,
+    "texte": "BMJ (Clinical Research Ed ) 2008",
+    "url": "https://doi.org/10.1136/bmj.a2428"
+   },
+   {
+    "n": 101,
+    "texte": "Burnier M et al. Current Reviews in… 2019",
+    "url": "https://doi.org/10.1007/s12178-019-09530-0"
+   },
+   {
+    "n": 102,
+    "texte": "Hsu SH et al. The American Journal of… 2012",
+    "url": "https://doi.org/10.1177/0363546511428869"
+   },
+   {
+    "n": 103,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2025",
+    "url": "https://doi.org/10.2106/JBJS.24.00655"
+   },
+   {
+    "n": 104,
+    "texte": "Lima JPC et al. Archives of Orthopaedic and… 2026",
+    "url": "https://doi.org/10.1007/s00402-026-06553-4"
+   },
+   {
+    "n": 105,
+    "texte": "Gallucci GL et al. The Bone & Joint Journal 2014",
+    "url": "https://doi.org/10.1302/0301-620X.96B4.33339"
+   }
+  ],
+  "planche": "co10.webp"
+ },
+ {
+  "no": "Co11",
+  "page": 11,
+  "tags": "COUDE · CONDYLE LATÉRAL, COL RADIAL, ÉPICONDYLE MÉDIAL",
+  "titre": "AUTRES FRACTURES DU COUDE DE L'ENFANT",
+  "epidemiologie": {
+   "texte": "condyle latéral 10–20 % ; col radial 5–10 % (7–12 ans) ; épicondyle médial 10–20 % (10–12 ans, luxation associée 24–60 %).",
+   "refs": [
+    106,
+    107,
+    108,
+    109
+   ]
+  },
+  "presentation": {
+   "texte": "chute sur la main ; avulsion en valgus pour l'épicondyle médial.",
+   "refs": [
+    110,
+    106,
+    111
+   ]
+  },
+  "examen": {
+   "texte": "aucun signe validé ; condyle latéral manqué dans 60 % en première ligne ; nerf ulnaire atteint dans 10–16 % (épicondyle médial).",
+   "refs": [
+    107,
+    112
+   ]
+  },
+  "physiopathologie": {
+   "texte": "condyle latéral : fracture articulaire Salter-Harris IV déplacée par les extenseurs.",
+   "refs": [
+    113,
+    114
+   ]
+  },
+  "ddx": {
+   "texte": "fragment incarcéré (un quart des luxations), Monteggia.",
+   "refs": [
+    115,
+    45
+   ]
+  },
+  "investigations": {
+   "texte": "face, profil, oblique interne, clichés comparatifs.",
+   "refs": [
+    33
+   ]
+  },
+  "traitement": {
+   "texte": "condyle latéral ≤ 2 mm : plâtre et contrôle (déplacement secondaire 8,5–26,8 %) ; col radial < 30° : plâtre ; épicondyle médial : chirurgie non supérieure (SCIENCE).",
+   "refs": [
+    113,
+    116,
+    117,
+    109
+   ]
+  },
+  "pronostic": {
+   "texte": "condyle latéral consolidé en 6,4 semaines ; épicondyle médial plâtré : pseudarthrose radiologique 68,6 % sans perte fonctionnelle.",
+   "refs": [
+    118,
+    112
+   ]
+  },
+  "refs": [
+   {
+    "n": 106,
+    "texte": "Stelmach W et al. Scientific Reports 2023",
+    "url": "https://doi.org/10.1038/s41598-023-37063-7"
+   },
+   {
+    "n": 107,
+    "texte": "Vasaruchapong S et al. PloS One 2024",
+    "url": "https://doi.org/10.1371/journal.pone.0300014"
+   },
+   {
+    "n": 108,
+    "texte": "Nicholson LT et al. The Journal of the American… 2019",
+    "url": "https://doi.org/10.5435/JAAOS-D-18-00204"
+   },
+   {
+    "n": 109,
+    "texte": "Perry DC et al. Lancet (London, England) 2026",
+    "url": "https://doi.org/10.1016/S0140-6736(25)02098-7"
+   },
+   {
+    "n": 110,
+    "texte": "Abzug JM et al. The Journal of the American… 2020",
+    "url": "https://doi.org/10.5435/JAAOS-D-18-00204"
+   },
+   {
+    "n": 111,
+    "texte": "Stöckell M et al. BMC Musculoskeletal Disorders 2025",
+    "url": "https://doi.org/10.1186/s12891-025-08830-6"
+   },
+   {
+    "n": 112,
+    "texte": "Grahn P et al. JAMA Network Open 2025",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2025.8479"
+   },
+   {
+    "n": 113,
+    "texte": "James V et al. Pediatric Emergency Care 2021",
+    "url": "https://doi.org/10.1097/PEC.0000000000002032"
+   },
+   {
+    "n": 114,
+    "texte": "Su F et al. BMC Musculoskeletal Disorders 2025",
+    "url": "https://doi.org/10.1186/s12891-025-09247-x"
+   },
+   {
+    "n": 115,
+    "texte": "Humayou Ahmed et al. Langenbeck's Archives of Surgery 2026",
+    "url": null
+   },
+   {
+    "n": 45,
+    "texte": "Chakladar S et al. Journal of Pediatric Orthopedics 2026",
+    "url": "https://doi.org/10.1097/BPO.0000000000003196"
+   },
+   {
+    "n": 33,
+    "texte": "Watkins RA et al. Current Reviews in… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09784-1"
+   },
+   {
+    "n": 116,
+    "texte": "Radomisli TE et al. Clinical Orthopaedics and… 1998",
+    "url": "https://doi.org/10.1097/00003086-199808000-00005"
+   },
+   {
+    "n": 117,
+    "texte": "Pressmar J et al. European Journal of Trauma… 2021",
+    "url": "https://doi.org/10.1007/s00068-020-01349-6"
+   },
+   {
+    "n": 118,
+    "texte": "Tan SHS et al. Archives of Orthopaedic and… 2018",
+    "url": "https://doi.org/10.1007/s00402-018-2920-2"
+   }
+  ],
+  "planche": "co11.webp"
+ },
+ {
+  "no": "Co12",
+  "page": 12,
+  "tags": "COUDE · TRAUMATISME · SIMPLE OU COMPLEXE",
+  "titre": "LUXATION DU COUDE",
+  "epidemiologie": {
+   "texte": "5,2 par 100 000 ; pic à 10–19 ans ; 44,5 % sportives ; jusqu'à 75 % simples.",
+   "refs": [
+    119,
+    120
+   ]
+  },
+  "presentation": {
+   "texte": "hyperextension, valgus et charge axiale ; déformation postéro-latérale.",
+   "refs": [
+    121,
+    122
+   ]
+  },
+  "examen": {
+   "texte": "pouls radial (son absence est le seul prédicteur de lésion artérielle).",
+   "refs": [
+    123
+   ]
+  },
+  "physiopathologie": {
+   "texte": "rupture séquentielle des tissus mous, de latéral en médial.",
+   "refs": [
+    121
+   ]
+  },
+  "ddx": {
+   "texte": "triade terrible ; lésion artérielle 0,3–1,7 % ; chez l'enfant, épicondyle médial incarcéré 5–18 %.",
+   "refs": [
+    60,
+    124,
+    125
+   ],
+   "titre": "DIAGNOSTIC DIFFÉRENTIEL (LÉSIONS ASSOCIÉES)"
+  },
+  "investigations": {
+   "texte": "radiographies avant et après réduction.",
+   "refs": [
+    122
+   ]
+  },
+  "traitement": {
+   "texte": "réduction, puis mobilisation précoce (FuncSiE : retour au travail en 10 jours contre 18, aucune reluxation).",
+   "refs": [
+    126
+   ]
+  },
+  "pronostic": {
+   "texte": "2,3 % opérés plus tard ; raideur subjective 56 %, douleur résiduelle 62 %.",
+   "refs": [
+    121,
+    127
+   ]
+  },
+  "refs": [
+   {
+    "n": 119,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2012",
+    "url": "https://doi.org/10.2106/JBJS.J.01663"
+   },
+   {
+    "n": 120,
+    "texte": "Geyer S et al. Archives of Orthopaedic and… 2023",
+    "url": "https://doi.org/10.1007/s00402-022-04383-8"
+   },
+   {
+    "n": 121,
+    "texte": "Breulmann FL et al. BMC Musculoskeletal Disorders 2024",
+    "url": "https://doi.org/10.1186/s12891-024-07260-0"
+   },
+   {
+    "n": 122,
+    "texte": "Mühlenfeld N et al. European Journal of Trauma… 2022",
+    "url": "https://doi.org/10.1007/s00068-020-01512-z"
+   },
+   {
+    "n": 123,
+    "texte": "Endean ED et al. Journal of Vascular Surgery 1992",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Fahs A et al. The Journal of the American… 2024",
+    "url": "https://doi.org/10.2106/JBJS.J.01663"
+   },
+   {
+    "n": 124,
+    "texte": "Ayel JE et al. Orthopaedics & Traumatology,… 2009",
+    "url": "https://doi.org/10.1016/j.otsr.2009.04.013"
+   },
+   {
+    "n": 125,
+    "texte": "Chauvin NA et al. Pediatric Radiology 2019",
+    "url": "https://doi.org/10.1007/s00247-019-04454-w"
+   },
+   {
+    "n": 126,
+    "texte": "Iordens GI et al. British Journal of Sports… 2017",
+    "url": "https://doi.org/10.1136/bjsports-2015-094704"
+   },
+   {
+    "n": 127,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2011",
+    "url": "https://doi.org/10.2106/JBJS.J.01663"
+   }
+  ],
+  "planche": "co12.webp"
+ },
+ {
+  "no": "Co13",
+  "page": 13,
+  "tags": "COUDE MÉDIAL · LANCEUR · SURCHARGE EN VALGUS",
+  "titre": "LÉSION DU LIGAMENT COLLATÉRAL ULNAIRE",
+  "epidemiologie": {
+   "texte": "15–25 % des joueurs de baseball ; ruptures partielles 57,9 % chez l'adolescent.",
+   "refs": [
+    128,
+    129
+   ]
+  },
+  "presentation": {
+   "texte": "douleur médiale à l'armé tardif, perte de vitesse et de contrôle.",
+   "refs": [
+    129,
+    130
+   ]
+  },
+  "examen": {
+   "texte": "valgus dynamique (Se 98 %, Sp 75 %) ; manœuvre de traite (Se 77 %, Sp 85 %).",
+   "refs": [
+    131
+   ]
+  },
+  "physiopathologie": {
+   "texte": "couple en valgus répété dépassant la résistance du ligament.",
+   "refs": [
+    129
+   ]
+  },
+  "ddx": {
+   "texte": "névrite ulnaire, lésion des fléchisseurs-pronateurs, fracture de fatigue de l'olécrâne.",
+   "refs": [
+    132,
+    133
+   ]
+  },
+  "investigations": {
+   "texte": "arthro-IRM (Se 81–100 %) ; échographie en stress (Se 96 %, Sp 81 %).",
+   "refs": [
+    132
+   ]
+  },
+  "traitement": {
+   "texte": "réadaptation : retour au sport 79,7 % (rupture proximale 89,7 %, distale 41,2 %) ; PRP sans effet ; reconstruction : 85,7 % à 12 mois.",
+   "refs": [
+    134,
+    135,
+    136
+   ]
+  },
+  "pronostic": {
+   "texte": "après reconstruction, révision 6 %.",
+   "refs": [
+    137
+   ]
+  },
+  "refs": [
+   {
+    "n": 128,
+    "texte": "Hanna AJ et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/03635465241230049"
+   },
+   {
+    "n": 129,
+    "texte": "Goodrich E et al. The American Journal of… 2022",
+    "url": "https://doi.org/10.1177/03635465221094326"
+   },
+   {
+    "n": 130,
+    "texte": "Zaremski JL Sports Health 2022",
+    "url": "https://doi.org/10.1177/19417381221098622"
+   },
+   {
+    "n": 131,
+    "texte": "Sciascia AD et al. The American Journal of… 2026",
+    "url": "https://doi.org/10.1177/03635465261439107"
+   },
+   {
+    "n": 132,
+    "texte": "Campbell RE et al. The American Journal of… 2020",
+    "url": "https://doi.org/10.1177/0363546520937302"
+   },
+   {
+    "n": 133,
+    "texte": "Herring SA et al. Medicine and Science in… 2024",
+    "url": "https://doi.org/10.1249/MSS.0000000000003324"
+   },
+   {
+    "n": 134,
+    "texte": "Gopinatth V et al. The American Journal of… 2023",
+    "url": "https://doi.org/10.1177/03635465221150507"
+   },
+   {
+    "n": 135,
+    "texte": "Ryan PM et al. Current Reviews in… 2026",
+    "url": "https://doi.org/10.1007/s12178-026-10042-x"
+   },
+   {
+    "n": 136,
+    "texte": "Anderson MJJ et al. The American Journal of… 2022",
+    "url": "https://doi.org/10.1177/03635465211016839"
+   },
+   {
+    "n": 137,
+    "texte": "Davey MS et al. Journal of ISAKOS 2021",
+    "url": "https://doi.org/10.1136/jisakos-2021-000614"
+   }
+  ],
+  "planche": "co13.webp"
+ },
+ {
+  "no": "Co14",
+  "page": 14,
+  "tags": "COUDE ANTÉRIEUR · HOMME DE 40–50 ANS · CHARGE EXCENTRIQUE",
+  "titre": "RUPTURE DISTALE DU BICEPS",
+  "epidemiologie": {
+   "texte": "1,2–5,4 par 100 000 ; 95 % d'hommes ; tabac (risque × 7,5).",
+   "refs": [
+    138,
+    139
+   ]
+  },
+  "presentation": {
+   "texte": "« pop » en charge sur coude fléchi, ecchymose retardée, supination faible.",
+   "refs": [
+    138,
+    102
+   ]
+  },
+  "examen": {
+   "texte": "crochet et intervalle du pli bicipital tous deux positifs : Se 94 %, Sp 100 % en aigu, Se 71 % en chronique.",
+   "refs": [
+    140
+   ]
+  },
+  "physiopathologie": {
+   "texte": "avulsion de la tubérosité radiale sur un tendon dégénéré et peu vascularisé.",
+   "refs": [
+    141,
+    142
+   ]
+  },
+  "ddx": {
+   "texte": "rupture partielle, tendinopathie distale, bursite bicipito- radiale.",
+   "refs": [
+    140,
+    143
+   ]
+  },
+  "investigations": {
+   "texte": "aucune si les deux tests sont positifs ; l'IRM manque 41 % des ruptures partielles.",
+   "refs": [
+    140
+   ]
+  },
+  "traitement": {
+   "texte": "référence rapide (réparation en 2–4 semaines) ; chirurgie : +26 % en flexion, +28 % en supination ; complications 25 %.",
+   "refs": [
+    140,
+    144,
+    145
+   ]
+  },
+  "pronostic": {
+   "texte": "sans chirurgie, perte de 21–55 % en supination ; re- rupture 1–2 %.",
+   "refs": [
+    146,
+    142
+   ]
+  },
+  "refs": [
+   {
+    "n": 138,
+    "texte": "Kelly MP et al. The American Journal of… 2015",
+    "url": "https://doi.org/10.1177/0363546515587738"
+   },
+   {
+    "n": 139,
+    "texte": "Safran MR et al. Clinical Orthopaedics and… 2002",
+    "url": null
+   },
+   {
+    "n": 102,
+    "texte": "Hsu SH et al. The American Journal of… 2012",
+    "url": "https://doi.org/10.1177/0363546511428869"
+   },
+   {
+    "n": 140,
+    "texte": "Zwerus EL et al. The American Journal of… 2022",
+    "url": "https://doi.org/10.1177/0363546511428869"
+   },
+   {
+    "n": 141,
+    "texte": "Boufadel P et al. The American Journal of… 2025",
+    "url": "https://doi.org/10.1177/0363546511428869"
+   },
+   {
+    "n": 142,
+    "texte": "Vandenberghe M et al. Current Reviews in… 2016",
+    "url": "https://doi.org/10.1007/s12178-016-9330-2"
+   },
+   {
+    "n": 143,
+    "texte": "Caekebeke P et al. Journal of Shoulder and Elbow… 2022",
+    "url": "https://doi.org/10.1016/j.jse.2021.10.012"
+   },
+   {
+    "n": 144,
+    "texte": "Looney AM et al. Journal of Shoulder and Elbow… 2022",
+    "url": "https://doi.org/10.1016/j.jse.2021.10.012"
+   },
+   {
+    "n": 145,
+    "texte": "Amarasooriya M et al. The American Journal of… 2020",
+    "url": "https://doi.org/10.1177/0363546511428869"
+   },
+   {
+    "n": 146,
+    "texte": "Simpson ER et al. The American Journal of… 2025",
+    "url": "https://doi.org/10.1177/0363546511428869"
+   }
+  ],
+  "planche": "co14.webp"
+ },
+ {
+  "no": "Co15",
+  "page": 15,
+  "tags": "COUDE LATÉRAL · ADOLESCENT LANCEUR OU GYMNASTE",
+  "titre": "OSTÉOCHONDRITE DISSÉQUANTE DU CAPITULUM",
+  "epidemiologie": {
+   "texte": "10–16 ans ; 1–4 % des jeunes joueurs de baseball ; gymnastes.",
+   "refs": [
+    33,
+    147
+   ]
+  },
+  "presentation": {
+   "texte": "douleur latérale insidieuse, raideur, accrochages.",
+   "refs": [
+    33,
+    148
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité radio-capitellaire, flessum de 15–30°.",
+   "refs": [
+    148
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression et cisaillement répétés d'un capitulum à vascularisation terminale.",
+   "refs": [
+    33,
+    149
+   ]
+  },
+  "ddx": {
+   "texte": "pseudo-défect du capitulum, ossification irrégulière avant 10 ans, corps libres.",
+   "refs": [
+    150
+   ]
+  },
+  "investigations": {
+   "texte": "face à 45° de flexion (les clichés standards en manquent la moitié) ; IRM pour la stabilité.",
+   "refs": [
+    151,
+    148
+   ]
+  },
+  "traitement": {
+   "texte": "lésion stable à physe ouverte : guérison 90,5 % au stade 1, 52,9 % au stade 2 ; chirurgie : sport à 6 mois.",
+   "refs": [
+    33,
+    152
+   ]
+  },
+  "pronostic": {
+   "texte": "retour au même niveau sans chirurgie 70,4 %, en 191 jours.",
+   "refs": [
+    153
+   ]
+  },
+  "refs": [
+   {
+    "n": 33,
+    "texte": "Watkins RA et al. Current Reviews in… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09784-1"
+   },
+   {
+    "n": 147,
+    "texte": "Bonazza NA et al. The American Journal of… 2022",
+    "url": "https://doi.org/10.1177/03635465211000776"
+   },
+   {
+    "n": 148,
+    "texte": "Baker CL et al. The American Journal of… 2010",
+    "url": "https://doi.org/10.1177/0363546509354969"
+   },
+   {
+    "n": 149,
+    "texte": "Clark VC et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/0363546509354969"
+   },
+   {
+    "n": 150,
+    "texte": "Nguyen JC et al. Pediatric Radiology 2025",
+    "url": "https://doi.org/10.1007/s00247-025-06259-6"
+   },
+   {
+    "n": 151,
+    "texte": "Logli AL et al. Current Reviews in… 2019",
+    "url": "https://doi.org/10.1007/s12178-019-09528-8"
+   },
+   {
+    "n": 152,
+    "texte": "Zheng ET et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/0363546509354969"
+   },
+   {
+    "n": 153,
+    "texte": "Sakata J et al. The American Journal of… 2021",
+    "url": "https://doi.org/10.1177/0363546509354969"
+   }
+  ],
+  "planche": "co15.webp"
+ },
+ {
+  "no": "Co16",
+  "page": 16,
+  "tags": "COUDE · FRACTURE ARTICULAIRE · FEMME ÂGÉE",
+  "titre": "FRACTURE DE L'HUMÉRUS DISTAL DE L'ADULTE",
+  "epidemiologie": {
+   "texte": "5,7 par 100 000 ; hommes de 12–19 ans et femmes de 60 ans ou plus ; 75 % après une chute de sa hauteur.",
+   "refs": [
+    154,
+    155
+   ]
+  },
+  "presentation": {
+   "texte": "coude tuméfié, impotence après une chute.",
+   "refs": [
+    154
+   ]
+  },
+  "examen": {
+   "texte": "nerf ulnaire ; paralysie préopératoire 3,8 %.",
+   "refs": [
+    155,
+    156
+   ]
+  },
+  "physiopathologie": {
+   "texte": "os ostéoporotique soumis à une chute de faible énergie.",
+   "refs": [
+    155
+   ]
+  },
+  "ddx": {
+   "texte": "fracture de l'olécrâne, fracture-luxation (liste usuelle, sans source spécifique).",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "radiographies ; TDM avec reconstruction 3D.",
+   "refs": [
+    156
+   ]
+  },
+  "traitement": {
+   "texte": "orthopédie le jour même ; après 65 ans, arthroplastie et ostéosynthèse sans différence cliniquement importante.",
+   "refs": [
+    157,
+    158
+   ]
+  },
+  "pronostic": {
+   "texte": "neuropathie ulnaire 16–29 % ; ossification hétérotopique 42 %.",
+   "refs": [
+    159,
+    160,
+    161
+   ]
+  },
+  "refs": [
+   {
+    "n": 154,
+    "texte": "Paula Harding et al. Cochrane Database of… 2011",
+    "url": "https://doi.org/10.1002/14651858.cd008130.pub2"
+   },
+   {
+    "n": 155,
+    "texte": "Yan Wang et al. Cochrane Database of… 2013",
+    "url": "https://doi.org/10.1002/14651858.cd009890.pub2"
+   },
+   {
+    "n": 156,
+    "texte": "Bégué T Orthopaedics & Traumatology,… 2014",
+    "url": "https://doi.org/10.1016/j.otsr.2013.11.002"
+   },
+   {
+    "n": 157,
+    "texte": "McKee MD et al. Journal of Shoulder and Elbow… 2009",
+    "url": "https://doi.org/10.1016/j.jse.2008.06.005"
+   },
+   {
+    "n": 158,
+    "texte": "Boutros M et al. The Journal of the American… 2026",
+    "url": "https://doi.org/10.5435/JAAOS-D-25-01406"
+   },
+   {
+    "n": 159,
+    "texte": "Douglas K et al. Orthopedics 2012",
+    "url": "https://doi.org/10.3928/01477447-20120525-18"
+   },
+   {
+    "n": 160,
+    "texte": "Vazquez O et al. Journal of Orthopaedic Trauma 2010",
+    "url": "https://doi.org/10.1097/BOT.0b013e3181e3e273"
+   },
+   {
+    "n": 161,
+    "texte": "2023;48(11):1171 e1-1171 e5",
+    "url": "https://doi.org/10.1016/j.jhsa.2023.02.001"
+   }
+  ],
+  "planche": "co16.webp"
+ },
+ {
+  "no": "Co17",
+  "page": 17,
+  "tags": "COUDE POSTÉRIEUR · LANCEUR · SURCHARGE EN VALGUS-EXTENSION",
+  "titre": "FRACTURE DE FATIGUE DE L'OLÉCRÂNE / CONFLIT POSTÉRIEUR",
+  "epidemiologie": {
+   "texte": "lanceurs ; ostéophytes postérieurs chez 18 % des lanceurs à l'IRM.",
+   "refs": [
+    162,
+    163
+   ]
+  },
+  "presentation": {
+   "texte": "douleur postéro-médiale au lâcher, perte d'extension, blocages.",
+   "refs": [
+    164
+   ]
+  },
+  "examen": {
+   "texte": "douleur à l'extension terminale forcée ; tester le LCU.",
+   "refs": [
+    164
+   ]
+  },
+  "physiopathologie": {
+   "texte": "l'olécrâne se coince dans la fosse postéro-médiale, davantage si le LCU est insuffisant.",
+   "refs": [
+    19
+   ]
+  },
+  "ddx": {
+   "texte": "insuffisance du LCU, corps libres, névrite ulnaire.",
+   "refs": [
+    164,
+    19
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies souvent normales ; IRM ou TDM.",
+   "refs": [
+    165,
+    162
+   ]
+  },
+  "traitement": {
+   "texte": "arrêt des lancers ≥ 6 semaines ; vis si réfractaire (94 % de retour) ; débridement du conflit.",
+   "refs": [
+    166,
+    167
+   ]
+  },
+  "pronostic": {
+   "texte": "41 % de réinterventions dans une série professionnelle.",
+   "refs": [
+    165
+   ]
+  },
+  "refs": [
+   {
+    "n": 162,
+    "texte": "Erickson BJ et al. The American Journal of… 2019",
+    "url": "https://doi.org/10.1177/0363546519844479"
+   },
+   {
+    "n": 163,
+    "texte": "Chalmers PN et al. The American Journal of… 2026",
+    "url": "https://doi.org/10.1177/03635465261424876"
+   },
+   {
+    "n": 164,
+    "texte": "Byram IR et al. The American Journal of… 2013",
+    "url": "https://doi.org/10.1177/0363546513482106"
+   },
+   {
+    "n": 19,
+    "texte": "Bowers RL et al. Current Reviews in… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09789-w"
+   },
+   {
+    "n": 165,
+    "texte": "Cain EL et al. The American Journal of… 2003",
+    "url": "https://doi.org/10.1177/0363546513482106"
+   },
+   {
+    "n": 166,
+    "texte": "Paci JM et al. The American Journal of… 2013",
+    "url": "https://doi.org/10.1177/0363546513482106"
+   },
+   {
+    "n": 167,
+    "texte": "Koh JL et al. Knee Surgery, Sports… 2018",
+    "url": "https://doi.org/10.1007/s00167-017-4563-1"
+   }
+  ],
+  "planche": "co17.webp"
+ },
+ {
+  "no": "Co18",
+  "page": 18,
+  "tags": "COUDE POSTÉRIEUR · RARE · HOMME D'ÂGE MOYEN",
+  "titre": "TENDINOPATHIE OU RUPTURE DU TRICEPS",
+  "epidemiologie": {
+   "texte": "moins de 1 % des ruptures tendineuses ; hommes 15 pour 1 ; stéroïdes anabolisants, infiltration locale, insuffisance rénale.",
+   "refs": [
+    168,
+    169,
+    170
+   ]
+  },
+  "presentation": {
+   "texte": "chute sur la main ou développé-couché ; douleur postérieure, extension faible.",
+   "refs": [
+    171
+   ]
+  },
+  "examen": {
+   "texte": "défaut palpable ; faiblesse contre gravité, bras au-dessus de la tête ; l'extension active peut persister.",
+   "refs": [
+    22,
+    102
+   ]
+  },
+  "physiopathologie": {
+   "texte": "avulsion de l'insertion olécranienne d'un tendon dégénéré.",
+   "refs": [
+    168,
+    171
+   ]
+  },
+  "ddx": {
+   "texte": "fracture de l'olécrâne, bursite, conflit postéro-médial.",
+   "refs": [
+    102
+   ]
+  },
+  "investigations": {
+   "texte": "profil : écaille osseuse dans 59–64 % ; IRM ou échographie.",
+   "refs": [
+    168,
+    172
+   ]
+  },
+  "traitement": {
+   "texte": "rupture complète : réparation en 3 semaines ; partielle < 50 % : attelle à 30° 4–6 semaines ; pas d'infiltration.",
+   "refs": [
+    22,
+    170,
+    173
+   ]
+  },
+  "pronostic": {
+   "texte": "activité libre 6 mois après réparation.",
+   "refs": [
+    171
+   ]
+  },
+  "refs": [
+   {
+    "n": 168,
+    "texte": "Mirzayan R et al. The American Journal of… 2018",
+    "url": "https://doi.org/10.1177/0363546518757426"
+   },
+   {
+    "n": 169,
+    "texte": "Kanayama G et al. The American Journal of… 2015",
+    "url": "https://doi.org/10.1177/0363546515602010"
+   },
+   {
+    "n": 170,
+    "texte": "Mair SD et al. The American Journal of… 2004",
+    "url": "https://doi.org/10.1177/0095399703258707"
+   },
+   {
+    "n": 171,
+    "texte": "Tom JA et al. Clinical Journal of Sport… 2014",
+    "url": "https://doi.org/10.1097/JSM.0000000000000010"
+   },
+   {
+    "n": 22,
+    "texte": "Taylor SA et al. Sports Health 2012",
+    "url": "https://doi.org/10.1177/1941738112454651"
+   },
+   {
+    "n": 102,
+    "texte": "Hsu SH et al. The American Journal of… 2012",
+    "url": "https://doi.org/10.1177/0095399703258707"
+   },
+   {
+    "n": 172,
+    "texte": "Chen KC et al. Journal of the American… 2024",
+    "url": "https://doi.org/10.1016/j.jacr.2024.08.012"
+   },
+   {
+    "n": 173,
+    "texte": "Foulk DM et al. Sports Health 2011",
+    "url": "https://doi.org/10.1177/1941738111398613"
+   }
+  ],
+  "planche": "co18.webp"
+ },
+ {
+  "no": "Co19",
+  "page": 19,
+  "tags": "AVANT-BRAS PROXIMAL · DOULEUR SANS DÉFICIT · NERF INTEROSSEUX",
+  "titre": "SYNDROME DU TUNNEL RADIAL",
+  "epidemiologie": {
+   "texte": "9 par 100 000 par an ; âge moyen 52 ans ; port de charges (RC 9,0).",
+   "refs": [
+    174,
+    175
+   ]
+  },
+  "presentation": {
+   "texte": "douleur profonde 3–5 cm sous l'épicondyle latéral, sans déficit moteur ni sensitif.",
+   "refs": [
+    176
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité sur l'arcade de Frohse ; douleur à la supination résistée ou à l'extension résistée du 3ᵉ doigt.",
+   "refs": [
+    177,
+    75
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression dynamique intermittente du nerf interosseux postérieur.",
+   "refs": [
+    102,
+    177
+   ]
+  },
+  "ddx": {
+   "texte": "épicondylite latérale, paralysie du nerf interosseux postérieur, radiculopathie C6–C7.",
+   "refs": [
+    176,
+    75
+   ]
+  },
+  "investigations": {
+   "texte": "EMG normal, utile pour exclure.",
+   "refs": [
+    176
+   ]
+  },
+  "traitement": {
+   "texte": "conservateur jusqu'à 1 an ; infiltration (57 % améliorés à 1 an) ; chirurgie (succès 67–92 %).",
+   "refs": [
+    178,
+    176
+   ]
+  },
+  "pronostic": {
+   "texte": "histoire naturelle inconnue.",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 174,
+    "texte": "van Rijn RM et al. Rheumatology (Oxford, England) 2009",
+    "url": "https://doi.org/10.1093/rheumatology/kep013"
+   },
+   {
+    "n": 175,
+    "texte": "2023;48(11):1172 e1-1172 e7",
+    "url": "https://doi.org/10.1016/j.jhsa.2023.03.007"
+   },
+   {
+    "n": 176,
+    "texte": "Węgiel A et al. Neurosurgical Review 2023",
+    "url": "https://doi.org/10.1007/s10143-023-01944-2"
+   },
+   {
+    "n": 177,
+    "texte": "Tang JB The Journal of Hand Surgery,… 2020",
+    "url": "https://doi.org/10.1177/1753193420953990"
+   },
+   {
+    "n": 75,
+    "texte": "Dutton RA et al. Muscle & Nerve 2024",
+    "url": "https://doi.org/10.1002/mus.28057"
+   },
+   {
+    "n": 102,
+    "texte": "Hsu SH et al. The American Journal of… 2012",
+    "url": "https://doi.org/10.1177/0363546511428869"
+   },
+   {
+    "n": 178,
+    "texte": "Levina Y et al. Current Reviews in… 2021",
+    "url": "https://doi.org/10.1007/s12178-021-09703-w"
+   }
+  ],
+  "planche": "co19.webp"
+ },
+ {
+  "no": "Co20",
+  "page": 20,
+  "tags": "COUDE · MONOARTHRITE · PONCTION",
+  "titre": "ARTHRITE INFLAMMATOIRE, MICROCRISTALLINE OU SEPTIQUE DU COUDE",
+  "epidemiologie": {
+   "texte": "coude atteint chez 20–65 % des polyarthrites rhumatoïdes ; 9 % des arthrites septiques monoarticulaires.",
+   "refs": [
+    179,
+    180
+   ]
+  },
+  "presentation": {
+   "texte": "goutte : pic en 24 heures ; septique : articulation chaude aiguë, fièvre inconstante.",
+   "refs": [
+    181,
+    182
+   ]
+  },
+  "examen": {
+   "texte": "douleur à tous les mouvements, contrairement à la bursite.",
+   "refs": [
+    84
+   ]
+  },
+  "physiopathologie": {
+   "texte": "synovite auto-immune, cristaux, ou ensemencement bactérien hématogène.",
+   "refs": [
+    183,
+    182
+   ]
+  },
+  "ddx": {
+   "texte": "arthrite septique, goutte, chondrocalcinose, bursite septique.",
+   "refs": [
+    182,
+    184
+   ]
+  },
+  "investigations": {
+   "texte": "ponction : > 50 000 leucocytes (RV+ 4,7), seuil sensible à 51 % seulement ; Gram Se 22 % ; les cristaux n'excluent pas l'infection.",
+   "refs": [
+    185,
+    182,
+    186
+   ]
+  },
+  "traitement": {
+   "texte": "septique : drainage et antibiotiques urgents ; crise microcristalline : voir P13.",
+   "refs": [
+    187
+   ]
+  },
+  "pronostic": {
+   "texte": "septique : séquelle articulaire 23–33 %.",
+   "refs": [
+    188
+   ]
+  },
+  "refs": [
+   {
+    "n": 179,
+    "texte": "Sanchez-Sotelo J Current Reviews in… 2016",
+    "url": "https://doi.org/10.1007/s12178-016-9328-9"
+   },
+   {
+    "n": 180,
+    "texte": "Rausch V et al. BMC Musculoskeletal Disorders 2020",
+    "url": "https://doi.org/10.1186/s12891-020-3046-6"
+   },
+   {
+    "n": 181,
+    "texte": "Earwood JS et al. American Family Physician 2021",
+    "url": null
+   },
+   {
+    "n": 182,
+    "texte": "FitzGerald JD Annals of Internal Medicine 2025",
+    "url": "https://doi.org/10.7326/ANNALS-24-03951"
+   },
+   {
+    "n": 84,
+    "texte": "Ho G et al. Annals of Internal Medicine 1978",
+    "url": "https://doi.org/10.7326/0003-4819-89-1-21"
+   },
+   {
+    "n": 183,
+    "texte": "Gravallese EM et al. The New England Journal of… 2023",
+    "url": "https://doi.org/10.1056/NEJMra2103726"
+   },
+   {
+    "n": 184,
+    "texte": "Dalbeth N et al. Lancet (London, England) 2021",
+    "url": "https://doi.org/10.1016/S0140-6736(21)00569-9"
+   },
+   {
+    "n": 185,
+    "texte": "Swisher J et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 186,
+    "texte": "Alexandersson H et al. Scientific Reports 2026",
+    "url": "https://doi.org/10.1038/s41598-026-75208-6"
+   },
+   {
+    "n": 187,
+    "texte": "Jobi-Odeneye AO American Family Physician 2024",
+    "url": null
+   },
+   {
+    "n": 188,
+    "texte": "Domagała A et al. European Journal of Clinical… 2025",
+    "url": "https://doi.org/10.1007/s10096-025-05066-z"
+   }
+  ],
+  "planche": "co20.webp"
+ },
+ {
+  "no": "Co21",
+  "page": 21,
+  "tags": "COUDE · TRAUMATISME MINEUR · EXCLURE LA FRACTURE",
+  "titre": "DOULEUR NON SPÉCIFIQUE OU CONTUSION DU COUDE",
+  "epidemiologie": {
+   "texte": "11 % des adultes ont eu une douleur du coude dans la semaine.",
+   "refs": [
+    15
+   ]
+  },
+  "presentation": {
+   "texte": "coup direct ou chute, douleur locale, ecchymose.",
+   "refs": [
+    189
+   ]
+  },
+  "examen": {
+   "texte": "extension complète possible : fracture peu probable (Se 96,8 %) ; sinon 50 % de fractures ; avant 3 ans, Se 73 %.",
+   "refs": [
+    54,
+    190
+   ]
+  },
+  "physiopathologie": {
+   "texte": "sans objet.",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "fracture occulte de la tête radiale ou de l'olécrâne, bursite traumatique.",
+   "refs": [
+    189,
+    191
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie si extension incomplète ; fracture occulte au TDM dans 12,8 % si radiographie normale.",
+   "refs": [
+    191
+   ]
+  },
+  "traitement": {
+   "texte": "analgésie, écharpe brève.",
+   "refs": [
+    192
+   ]
+  },
+  "pronostic": {
+   "texte": "réévaluer à 7–10 jours ; douleurs indifférenciées : 34 % guéries à 12 mois.",
+   "refs": [
+    54,
+    193
+   ]
+  },
+  "refs": [
+   {
+    "n": 15,
+    "texte": "Walker-Bone K et al. Rheumatology (Oxford, England) 2012",
+    "url": "https://doi.org/10.1093/rheumatology/ker228"
+   },
+   {
+    "n": 189,
+    "texte": "Gould SJ et al. Sports Health 2014",
+    "url": "https://doi.org/10.1177/1941738114529701"
+   },
+   {
+    "n": 54,
+    "texte": "BMJ (Clinical Research Ed ) 2008",
+    "url": "https://doi.org/10.1136/bmj.a2428"
+   },
+   {
+    "n": 190,
+    "texte": "Dubrovsky AS et al. The American Journal of… 2015",
+    "url": "https://doi.org/10.1016/j.ajem.2014.11.028"
+   },
+   {
+    "n": 191,
+    "texte": "Acar K et al. The Journal of Emergency… 2016",
+    "url": "https://doi.org/10.1016/j.jemermed.2015.03.009"
+   },
+   {
+    "n": 192,
+    "texte": "Hegmann KT et al. Journal of Occupational and… 2013",
+    "url": "https://doi.org/10.1097/JOM.0b013e3182a0d7ec"
+   },
+   {
+    "n": 193,
+    "texte": "Bot SD et al. Annals of the Rheumatic Diseases 2005",
+    "url": "https://doi.org/10.1136/ard.2004.030320"
+   }
+  ],
+  "planche": "co21.webp"
+ }
+]

@@ -545,6 +545,16 @@ async function fichesHY(nav) {
     verifier(`fiches ${largeur} : fiche C8 (8 encadrés, planche, appels reliés aux références)`, f.cases === 8 && f.img > 0 && f.appels.length > 0 && f.appels.every(h => f.refs.includes(h)) && !(await deborde(p)), f);
     await ctx.close();
   }
+  {
+    // Deux séries dans une région (poignet et main) et renvoi d'une fiche à l'autre (M11 → P11).
+    const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/poignet/fiches/", { largeur: 390 });
+    const r = await p.evaluate(() => ({ cartes: document.querySelectorAll(".hy-carte").length, series: document.querySelectorAll(".hy-serie").length }));
+    verifier("fiches : bibliothèque du poignet et de la main (45 fiches, 2 séries)", r.cartes === 45 && r.series === 2 && !erreurs.length && !(await deborde(p)), { ...r, erreurs });
+    await p.click(".hy-carte:has-text('M11')"); await p.waitForLoadState("load");
+    const renvoi = await p.evaluate(() => [...document.querySelectorAll(".hy-renvoi a")].map(a => a.getAttribute("href")));
+    verifier("fiches : le renvoi M11 mène à la fiche P11", renvoi.some(h => /\/locomoteur\/poignet\/fiches\/p11-/.test(h)), renvoi);
+    await ctx.close();
+  }
   const { ctx, p } = await ouvrir(nav, "/locomoteur/cervical/");
   const lien = await p.evaluate(() => (window.Locomoteur.fichesHY.cervical || {}).radiculopathie);
   verifier("fiches : le calcul cervical connaît la fiche de la radiculopathie", !!lien && /\/locomoteur\/cervical\/fiches\/c8-/.test(lien.u), lien);

@@ -1,0 +1,2375 @@
+[
+ {
+  "no": "L1",
+  "page": 1,
+  "tags": "RACHIS LOMBAIRE · DOULEUR AXIALE · NON SPÉCIFIQUE",
+  "titre": "LOMBALGIE COMMUNE",
+  "epidemiologie": {
+   "texte": "prévalence ponctuelle 12 % ; 90 % sans cause spécifique ; pathologie grave environ 1 %.",
+   "refs": [
+    381,
+    382
+   ]
+  },
+  "presentation": {
+   "texte": "douleur entre le rebord costal et les plis fessiers ; détresse, catastrophisation et faibles attentes prédisent la chronicité.",
+   "refs": [
+    381
+   ]
+  },
+  "examen": {
+   "texte": "exclure radiculopathie et drapeaux rouges ; outil STarT Back (incapacité persistante 22 % si faible risque, 80 % si haut risque).",
+   "refs": [
+    383,
+    384
+   ]
+  },
+  "physiopathologie": {
+   "texte": "interaction biopsychosociale sans lésion unique.",
+   "refs": [
+    381
+   ]
+  },
+  "ddx": {
+   "texte": "hanche, organes pelviens, anévrisme aortique, hernie, sténose, fracture, tumeur, infection, spondylarthrite.",
+   "refs": [
+    381
+   ]
+  },
+  "investigations": {
+   "texte": "aucune imagerie de routine.",
+   "refs": [
+    382
+   ]
+  },
+  "traitement": {
+   "texte": "forme chronique : exercice, thérapie cognitivo- comportementale ou soins multidisciplinaires, puis AINS et duloxétine.",
+   "refs": [
+    382,
+    385
+   ]
+  },
+  "pronostic": {
+   "texte": "douleur moyenne de 56 à 26 sur 100 en 6 semaines ; guérison à 12 mois 72 % (aiguë) et 42 % (chronique) ; récidive 33 %.",
+   "refs": [
+    386,
+    382,
+    387
+   ]
+  },
+  "refs": [
+   {
+    "n": 381,
+    "texte": "Chiarotto A et al. The New England Journal of… 2022",
+    "url": "https://doi.org/10.1056/NEJMcp2032396"
+   },
+   {
+    "n": 382,
+    "texte": "Cashin AG et al. JAMA 2026",
+    "url": "https://doi.org/10.1001/jama.2026.9631"
+   },
+   {
+    "n": 383,
+    "texte": "Simone PS Scaff et al. Cochrane Database of… 2024",
+    "url": "https://doi.org/10.1002/14651858.cd014146"
+   },
+   {
+    "n": 384,
+    "texte": "Archives of Physical Medicine and Rehabilitation 2018;99(8) e2",
+    "url": "https://doi.org/10.1016/j.apmr.2018.02.016"
+   },
+   {
+    "n": 385,
+    "texte": "Wenger HC et al. JAMA 2017",
+    "url": "https://doi.org/10.1001/jama.2017.9386"
+   },
+   {
+    "n": 386,
+    "texte": "Wallwork SB et al. CMAJ 2024",
+    "url": "https://doi.org/10.1503/cmaj.230542"
+   },
+   {
+    "n": 387,
+    "texte": "Hartvigsen J et al. Lancet (London, England) 2018",
+    "url": "https://doi.org/10.1016/S0140-6736(18)30480-X"
+   }
+  ],
+  "planche": "l1.webp"
+ },
+ {
+  "no": "L2",
+  "page": 2,
+  "tags": "RACHIS LOMBAIRE · LÉSION MUSCULAIRE · SPORT",
+  "titre": "CONTRACTURE OU LÉSION MUSCULAIRE LOMBAIRE DU SPORTIF",
+  "epidemiologie": {
+   "texte": "plus de 30 % des athlètes en carrière ; origine musculaire dans la moitié des blessures lombaires universitaires.",
+   "refs": [
+    388,
+    389
+   ]
+  },
+  "presentation": {
+   "texte": "début aigu en charge, douleur paraspinale sans irradiation sous le genou.",
+   "refs": [
+    54
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité ou spasme paraspinal, examen neurologique normal ; chez l'adolescent, douleur en extension avec sensibilité médiane = spondylolyse à exclure.",
+   "refs": [
+    390
+   ]
+  },
+  "physiopathologie": {
+   "texte": "rupture à la jonction myotendineuse en contraction excentrique.",
+   "refs": [
+    391
+   ]
+  },
+  "ddx": {
+   "texte": "spondylolyse, hernie discale, atteinte sacro-iliaque, fracture de fatigue.",
+   "refs": [
+    390,
+    392
+   ]
+  },
+  "investigations": {
+   "texte": "seulement si persistance ou signes neurologiques.",
+   "refs": [
+    54
+   ]
+  },
+  "traitement": {
+   "texte": "repos relatif, AINS brefs, reprise guidée par la douleur ; retour sans douleur avec amplitude et force complètes.",
+   "refs": [
+    54,
+    57
+   ]
+  },
+  "pronostic": {
+   "texte": "arrêt médian de 5 jours ; résolution en 6 semaines.",
+   "refs": [
+    389,
+    393
+   ]
+  },
+  "refs": [
+   {
+    "n": 388,
+    "texte": "O'Connor SB et al. Current Reviews in… 2023",
+    "url": "https://doi.org/10.1007/s12178-023-09829-z"
+   },
+   {
+    "n": 389,
+    "texte": "Rao N et al. The American Journal of… 2025",
+    "url": "https://doi.org/10.1177/03635465241292759"
+   },
+   {
+    "n": 54,
+    "texte": "Huang P et al. Sports Health 2016",
+    "url": "https://doi.org/10.1177/1941738115610753"
+   },
+   {
+    "n": 390,
+    "texte": "Earwood JS et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 391,
+    "texte": "Kirkendall DT et al. Clinical Orthopaedics and… 2002",
+    "url": "https://doi.org/10.1097/00003086-200210001-00010"
+   },
+   {
+    "n": 392,
+    "texte": "Schneider K et al. Southern Medical Journal 2026",
+    "url": "https://doi.org/10.14423/SMJ.0000000000002036"
+   },
+   {
+    "n": 57,
+    "texte": "Fiani B et al. Reviews in the Neurosciences 2021",
+    "url": "https://doi.org/10.1515/revneuro-2020-0080"
+   },
+   {
+    "n": 393,
+    "texte": "Eck JC et al. Clinics in Sports Medicine 2004",
+    "url": "https://doi.org/10.1016/j.csm.2004.03.002"
+   }
+  ],
+  "planche": "l2.webp"
+ },
+ {
+  "no": "L3",
+  "page": 3,
+  "tags": "RACHIS LOMBAIRE · DOULEUR AXIALE · DÉGÉNÉRATIF",
+  "titre": "DISCOPATHIE DÉGÉNÉRATIVE / DOULEUR DISCOGÉNIQUE",
+  "epidemiologie": {
+   "texte": "dégénérescence à l'IRM chez 37 % des asymptomatiques à 20 ans et 96 % à 80 ans ; douleur discogénique dans 26– 39 % des lombalgies chroniques.",
+   "refs": [
+    394,
+    395
+   ]
+  },
+  "presentation": {
+   "texte": "douleur médiane, intolérance à la position assise et à la flexion.",
+   "refs": [
+    396
+   ]
+  },
+  "examen": {
+   "texte": "centralisation de la douleur aux mouvements répétés (Sp 94 %, Se 40 %).",
+   "refs": [
+    397
+   ]
+  },
+  "physiopathologie": {
+   "texte": "perte d'eau et de protéoglycanes, remodelage des plateaux (Modic 1 inflammatoire).",
+   "refs": [
+    398,
+    399
+   ]
+  },
+  "ddx": {
+   "texte": "douleur facettaire, sacro-iliaque, spondylarthrite.",
+   "refs": [
+    400,
+    401
+   ]
+  },
+  "investigations": {
+   "texte": "pas d'imagerie sans drapeau rouge ; anomalies à interpréter cliniquement.",
+   "refs": [
+    382,
+    394
+   ]
+  },
+  "traitement": {
+   "texte": "celui de la lombalgie chronique ; pas d'antibiotiques pour les lésions Modic 1.",
+   "refs": [
+    382,
+    401
+   ]
+  },
+  "pronostic": {
+   "texte": "celui de la lombalgie chronique (42 % guéris à 12 mois).",
+   "refs": [
+    382
+   ]
+  },
+  "refs": [
+   {
+    "n": 394,
+    "texte": "AJNR American Journal of… 2015",
+    "url": "https://doi.org/10.3174/ajnr.A4173"
+   },
+   {
+    "n": 395,
+    "texte": "Manchikanti L et al. Pain Physician 2018",
+    "url": null
+   },
+   {
+    "n": 396,
+    "texte": "Cohen SP et al. Regional Anesthesia and Pain… 2020",
+    "url": "https://doi.org/10.1136/rapm-2019-101243"
+   },
+   {
+    "n": 397,
+    "texte": "Laslett M et al. The Spine Journal 2005",
+    "url": "https://doi.org/10.1016/j.spinee.2004.11.007"
+   },
+   {
+    "n": 398,
+    "texte": "Diebo BG et al. Lancet (London, England) 2019",
+    "url": "https://doi.org/10.1016/S0140-6736(19)31125-0"
+   },
+   {
+    "n": 399,
+    "texte": "Sayed D et al. Journal of Pain Research 2022",
+    "url": "https://doi.org/10.2147/JPR.S378544"
+   },
+   {
+    "n": 400,
+    "texte": "Han CS et al. EClinicalMedicine 2023",
+    "url": "https://doi.org/10.1016/j.eclinm.2023.101960"
+   },
+   {
+    "n": 401,
+    "texte": "Faiella E et al. European Journal of Radiology 2026",
+    "url": "https://doi.org/10.1016/j.ejrad.2026.113252"
+   },
+   {
+    "n": 382,
+    "texte": "Cashin AG et al. JAMA 2026",
+    "url": "https://doi.org/10.1016/j.ejrad.2026.113252"
+   }
+  ],
+  "planche": "l3.webp"
+ },
+ {
+  "no": "L4",
+  "page": 4,
+  "tags": "RACHIS LOMBAIRE · DOULEUR AXIALE · ARTICULAIRE POSTÉRIEURE",
+  "titre": "DOULEUR ZYGAPOPHYSAIRE LOMBAIRE",
+  "epidemiologie": {
+   "texte": "16–45 % des lombalgies chroniques selon les blocs contrôlés ; sujet âgé.",
+   "refs": [
+    271,
+    396
+   ]
+  },
+  "presentation": {
+   "texte": "douleur paramédiane soulagée en flexion, pire en extension-rotation, irradiant à la fesse ou à la cuisse.",
+   "refs": [
+    396,
+    402
+   ]
+  },
+  "examen": {
+   "texte": "aucun signe clinique fiable.",
+   "refs": [
+    402,
+    396
+   ]
+  },
+  "physiopathologie": {
+   "texte": "arthrose d'articulations synoviales innervées par les branches médiales, souvent secondaire à la discopathie.",
+   "refs": [
+    403
+   ]
+  },
+  "ddx": {
+   "texte": "douleur discogénique, sacro-iliaque, spondylolisthésis, sténose.",
+   "refs": [
+    400,
+    396
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie mal corrélée ; double bloc seulement si radiofréquence envisagée.",
+   "refs": [
+    404,
+    403
+   ]
+  },
+  "traitement": {
+   "texte": "celui de la lombalgie chronique ; radiofréquence sans bénéfice cliniquement important dans les essais MINT.",
+   "refs": [
+    405,
+    406
+   ]
+  },
+  "pronostic": {
+   "texte": "celui de la lombalgie chronique.",
+   "refs": [
+    407
+   ]
+  },
+  "refs": [
+   {
+    "n": 271,
+    "texte": "Manchikanti L et al. Pain Physician 2026",
+    "url": null
+   },
+   {
+    "n": 396,
+    "texte": "Cohen SP et al. Regional Anesthesia and Pain… 2020",
+    "url": "https://doi.org/10.1136/rapm-2019-101243"
+   },
+   {
+    "n": 402,
+    "texte": "Journal of Neurosurgery Spine 2014",
+    "url": "https://doi.org/10.3171/2014.4.SPINE14281"
+   },
+   {
+    "n": 403,
+    "texte": "Knezevic NN et al. Lancet (London, England) 2021",
+    "url": "https://doi.org/10.1016/S0140-6736(21)00733-9"
+   },
+   {
+    "n": 400,
+    "texte": "Han CS et al. EClinicalMedicine 2023",
+    "url": "https://doi.org/10.1016/j.eclinm.2023.101960"
+   },
+   {
+    "n": 404,
+    "texte": "Sayed D et al. Journal of Pain Research 2022",
+    "url": "https://doi.org/10.3171/2014.4.SPINE14281"
+   },
+   {
+    "n": 405,
+    "texte": "Juch JNS et al. JAMA 2017",
+    "url": "https://doi.org/10.1001/jama.2017.7918"
+   },
+   {
+    "n": 406,
+    "texte": "Truong KMTL et al. BMJ Open 2026",
+    "url": "https://doi.org/10.1136/bmjopen-2025-105106"
+   },
+   {
+    "n": 407,
+    "texte": "Maharty DC et al. American Family Physician 2024",
+    "url": null
+   }
+  ],
+  "planche": "l4.webp"
+ },
+ {
+  "no": "L5",
+  "page": 5,
+  "tags": "CEINTURE PELVIENNE · GROSSESSE · MÉCANIQUE",
+  "titre": "LOMBALGIE ET DOULEUR PELVIENNE DE LA GROSSESSE",
+  "epidemiologie": {
+   "texte": "environ 50 % des grossesses ; 20 % nécessitent des soins.",
+   "refs": [
+    408
+   ]
+  },
+  "presentation": {
+   "texte": "douleur entre la crête iliaque postérieure et le pli fessier, ± symphyse ; intolérance à la marche et à la station debout.",
+   "refs": [
+    409
+   ]
+  },
+  "examen": {
+   "texte": "test de provocation pelvienne postérieure (Se 81 %, Sp 80 %) ; élévation active de la jambe tendue (Se 87 %, Sp 94 %).",
+   "refs": [
+    410,
+    411
+   ]
+  },
+  "physiopathologie": {
+   "texte": "multifactorielle ; transfert de charge altéré à travers les sacro-iliaques.",
+   "refs": [
+    412
+   ]
+  },
+  "ddx": {
+   "texte": "hernie discale, pathologie de la hanche, cause urogynécologique, maladie inflammatoire.",
+   "refs": [
+    410,
+    413
+   ]
+  },
+  "investigations": {
+   "texte": "clinique.",
+   "refs": [
+    413
+   ]
+  },
+  "traitement": {
+   "texte": "exercices, ceinture pelvienne, acupuncture ; acétaminophène ; pas d'AINS.",
+   "refs": [
+    414,
+    415
+   ]
+  },
+  "pronostic": {
+   "texte": "résolution en 3 mois post-partum dans la majorité ; 8,5 % encore atteintes à 2 ans.",
+   "refs": [
+    416,
+    417
+   ]
+  },
+  "refs": [
+   {
+    "n": 408,
+    "texte": "Gutke A et al. Journal of Women's Health (2002) 2018",
+    "url": "https://doi.org/10.1089/jwh.2017.6342"
+   },
+   {
+    "n": 409,
+    "texte": "Gunvor Hilde et al. Cochrane Database of… 2016",
+    "url": "https://doi.org/10.1002/14651858.cd012441"
+   },
+   {
+    "n": 410,
+    "texte": "Rejano- Campo M et al. Health and Quality of Life… 2017",
+    "url": "https://doi.org/10.1186/s12955-017-0605-0"
+   },
+   {
+    "n": 411,
+    "texte": "Mens JM et al. Spine 2001",
+    "url": "https://doi.org/10.1097/00007632-200105150-00015"
+   },
+   {
+    "n": 412,
+    "texte": "Fagevik Olsén M et al. BMC Musculoskeletal Disorders 2021",
+    "url": "https://doi.org/10.1186/s12891-021-04103-0"
+   },
+   {
+    "n": 413,
+    "texte": "Gausel AM et al. European Spine Journal 2016",
+    "url": "https://doi.org/10.1007/s00586-015-3959-1"
+   },
+   {
+    "n": 414,
+    "texte": "Gutke A et al. Acta Obstetricia Et… 2015",
+    "url": "https://doi.org/10.1089/jwh.2017.6342"
+   },
+   {
+    "n": 415,
+    "texte": "Leung CJ et al. Current Reviews in… 2025",
+    "url": "https://doi.org/10.1007/s12178-025-09991-6"
+   },
+   {
+    "n": 416,
+    "texte": "Ekdahl AS et al. BMC Pregnancy and Childbirth 2026",
+    "url": "https://doi.org/10.1186/s12884-026-09617-w"
+   },
+   {
+    "n": 417,
+    "texte": "Wuytack F et al. Midwifery 2018",
+    "url": "https://doi.org/10.1016/j.midw.2018.07.012"
+   }
+  ],
+  "planche": "l5.webp"
+ },
+ {
+  "no": "L6",
+  "page": 6,
+  "tags": "RACHIS LOMBAIRE · CLAUDICATION NEUROGÈNE · DÉGÉNÉRATIF",
+  "titre": "CANAL LOMBAIRE ÉTROIT",
+  "epidemiologie": {
+   "texte": "syndrome clinique chez 11 % des adultes ; sténose radiologique chez 20 % après 60 ans, asymptomatique dans plus de 80 %.",
+   "refs": [
+    418
+   ]
+  },
+  "presentation": {
+   "texte": "absence de douleur assis (RV 7,4), soulagement penché en avant (RV 6,4), douleur bilatérale des fesses ou des jambes (RV 6,3).",
+   "refs": [
+    419
+   ]
+  },
+  "examen": {
+   "texte": "démarche à base élargie (RV 13), Romberg anormal (RV 4,2).",
+   "refs": [
+    419
+   ]
+  },
+  "physiopathologie": {
+   "texte": "bombement discal, hypertrophie des facettes et du ligament jaune ; rétrécissement accru en extension.",
+   "refs": [
+    418
+   ]
+  },
+  "ddx": {
+   "texte": "claudication vasculaire, coxarthrose, syndrome du grand trochanter, neuropathie.",
+   "refs": [
+    418
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie (spondylolisthésis) ; IRM si infiltration ou chirurgie envisagée.",
+   "refs": [
+    418
+   ]
+  },
+  "traitement": {
+   "texte": "exercice, AINS ; péridurales sans bénéfice durable ; chirurgie si symptômes importants persistants.",
+   "refs": [
+    418,
+    420
+   ]
+  },
+  "pronostic": {
+   "texte": "sans chirurgie à 3 ans : un tiers s'améliore, la moitié reste stable, 10–20 % s'aggravent.",
+   "refs": [
+    418
+   ]
+  },
+  "refs": [
+   {
+    "n": 418,
+    "texte": "Katz JN et al. JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.5921"
+   },
+   {
+    "n": 419,
+    "texte": "Suri P et al. JAMA 2010",
+    "url": "https://doi.org/10.1001/jama.2010.1833"
+   },
+   {
+    "n": 420,
+    "texte": "Weinstein JN et al. Spine 2010",
+    "url": "https://doi.org/10.1097/BRS.0b013e3181e0f04d"
+   }
+  ],
+  "planche": "l6.webp"
+ },
+ {
+  "no": "L7",
+  "page": 7,
+  "tags": "JONCTION LOMBO-PELVIENNE · DOULEUR FESSIÈRE · ARTICULAIRE",
+  "titre": "DOULEUR SACRO-ILIAQUE",
+  "epidemiologie": {
+   "texte": "15–30 % des lombalgies mécaniques ; femmes, grossesse, arthrodèse lombaire antérieure.",
+   "refs": [
+    421,
+    422,
+    404
+   ]
+  },
+  "presentation": {
+   "texte": "douleur unilatérale sous l'épine iliaque postéro- supérieure, pire au lever d'une chaise.",
+   "refs": [
+    422,
+    423
+   ]
+  },
+  "examen": {
+   "texte": "≥ 3 tests de provocation positifs sur 5 (Se 91 %, Sp 78 %) ; surtout utile pour exclure.",
+   "refs": [
+    424,
+    425
+   ]
+  },
+  "physiopathologie": {
+   "texte": "douleur de l'articulation ou de ses ligaments dorsaux par transfert de charge altéré, arthrose ou spondylarthropathie.",
+   "refs": [
+    422
+   ]
+  },
+  "ddx": {
+   "texte": "radiculopathie, douleur facettaire, hanche, spondylarthrite, piriforme.",
+   "refs": [
+    422
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie pour exclure ; bloc anesthésique guidé pour confirmer.",
+   "refs": [
+    422
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie, AINS, ceinture ; infiltration ou radiofréquence en deuxième ligne.",
+   "refs": [
+    422,
+    421
+   ]
+  },
+  "pronostic": {
+   "texte": "variable ; amélioration modeste sous traitement conservateur dans les essais.",
+   "refs": [
+    426
+   ]
+  },
+  "refs": [
+   {
+    "n": 421,
+    "texte": "Szadek K et al. Pain Practice 2024",
+    "url": "https://doi.org/10.1111/papr.13338"
+   },
+   {
+    "n": 422,
+    "texte": "Newman DP et al. American Family Physician 2022",
+    "url": null
+   },
+   {
+    "n": 404,
+    "texte": "Sayed D et al. Journal of Pain Research 2022",
+    "url": "https://doi.org/10.2147/JPR.S386879"
+   },
+   {
+    "n": 423,
+    "texte": "Bateman EA et al. Muscle & Nerve 2025",
+    "url": "https://doi.org/10.1002/mus.28106"
+   },
+   {
+    "n": 424,
+    "texte": "Pain Medicine (Malden et al. ) 2025",
+    "url": "https://doi.org/10.1093/pm/pnaf129"
+   },
+   {
+    "n": 425,
+    "texte": "Saueressig T et al. The Journal of Orthopaedic… 2021",
+    "url": "https://doi.org/10.2519/jospt.2021.10469"
+   },
+   {
+    "n": 426,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2019",
+    "url": "https://doi.org/10.2519/jospt.2021.10469"
+   }
+  ],
+  "planche": "l7.webp"
+ },
+ {
+  "no": "L8",
+  "page": 8,
+  "tags": "RACHIS LOMBAIRE · RADICULOPATHIE · DISCALE",
+  "titre": "HERNIE DISCALE AVEC SCIATIQUE OU CRURALGIE",
+  "epidemiologie": {
+   "texte": "incidence annuelle de la sciatique 1–5 % ; L4–5 et L5–S1 dans ≥ 95 % ; 30–50 ans.",
+   "refs": [
+    427,
+    428,
+    429
+   ]
+  },
+  "presentation": {
+   "texte": "douleur de jambe supérieure à la lombalgie, dermatomale sous le genou, pire assis ; racines L2–L3 : cuisse antérieure.",
+   "refs": [
+    428,
+    390
+   ]
+  },
+  "examen": {
+   "texte": "Lasègue sensible (92 %) mais peu spécifique ; Lasègue croisé spécifique (90 %) ; réflexe achilléen diminué (RV 7,1).",
+   "refs": [
+    382,
+    430
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression et inflammation chimique de la racine par le nucleus.",
+   "refs": [
+    428
+   ]
+  },
+  "ddx": {
+   "texte": "sténose, kyste synovial, tumeur ou abcès, zona, douleur sacro-iliaque.",
+   "refs": [
+    428,
+    431
+   ]
+  },
+  "investigations": {
+   "texte": "IRM si persistance à 4–6 semaines chez un candidat à l'infiltration ou à la chirurgie ; urgente si déficit sévère.",
+   "refs": [
+    428
+   ]
+  },
+  "traitement": {
+   "texte": "corticoïdes et péridurale à bénéfice bref ; chirurgie : récupération plus rapide, résultat semblable à 1 an.",
+   "refs": [
+    432,
+    433
+   ]
+  },
+  "pronostic": {
+   "texte": "trois quarts résolus à 3 mois ; résorption dans 63–67 % ; récidive 25 %.",
+   "refs": [
+    434,
+    435,
+    428
+   ]
+  },
+  "refs": [
+   {
+    "n": 427,
+    "texte": "Fritz JM et al. Annals of Internal Medicine 2021",
+    "url": "https://doi.org/10.7326/M20-4187"
+   },
+   {
+    "n": 428,
+    "texte": "Deyo RA et al. The New England Journal of… 2016",
+    "url": "https://doi.org/10.1056/NEJMcp1512658"
+   },
+   {
+    "n": 429,
+    "texte": "Hincapié CA et al. European Spine Journal 2025",
+    "url": "https://doi.org/10.1007/s00586-024-08528-8"
+   },
+   {
+    "n": 390,
+    "texte": "Earwood JS et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 382,
+    "texte": "Cashin AG et al. JAMA 2026",
+    "url": "https://doi.org/10.1001/jama.2026.9631"
+   },
+   {
+    "n": 430,
+    "texte": "Suri P et al. Spine 2011",
+    "url": "https://doi.org/10.1097/BRS.0b013e3181c953cc"
+   },
+   {
+    "n": 431,
+    "texte": "Jorgensen SP et al. Muscle & Nerve 2025",
+    "url": "https://doi.org/10.1002/mus.28279"
+   },
+   {
+    "n": 432,
+    "texte": "Pain Medicine (Malden et al. ) 2026",
+    "url": "https://doi.org/10.1093/pm/pnag131"
+   },
+   {
+    "n": 433,
+    "texte": "Peul WC et al. The New England Journal of… 2007",
+    "url": "https://doi.org/10.1056/NEJMoa064039"
+   },
+   {
+    "n": 434,
+    "texte": "Ropper AH et al. The New England Journal of… 2015",
+    "url": "https://doi.org/10.1056/NEJMra1410151"
+   },
+   {
+    "n": 435,
+    "texte": "Zhong M et al. Pain Physician 2017",
+    "url": null
+   }
+  ],
+  "planche": "l8.webp"
+ },
+ {
+  "no": "L9",
+  "page": 9,
+  "tags": "RACHIS LOMBAIRE · INSTABILITÉ SEGMENTAIRE · DÉGÉNÉRATIF",
+  "titre": "SPONDYLOLISTHÉSIS DÉGÉNÉRATIF",
+  "epidemiologie": {
+   "texte": "8,4 % des femmes et 2,7 % des hommes ; L4–5 ; après 50 ans.",
+   "refs": [
+    436,
+    437
+   ]
+  },
+  "presentation": {
+   "texte": "de l'asymptomatique à la lombalgie avec radiculalgie ou claudication neurogène.",
+   "refs": [
+    438
+   ]
+  },
+  "examen": {
+   "texte": "aucun signe validé ; examen de sténose ou de radiculopathie.",
+   "refs": [
+    438
+   ]
+  },
+  "physiopathologie": {
+   "texte": "dessiccation discale, surcharge et arthropathie facettaires, glissement à arc postérieur intact.",
+   "refs": [
+    439
+   ]
+  },
+  "ddx": {
+   "texte": "spondylolisthésis isthmique, sténose sans glissement, hernie.",
+   "refs": [
+    437,
+    440
+   ]
+  },
+  "investigations": {
+   "texte": "profil debout ; IRM si geste envisagé.",
+   "refs": [
+    418
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie, AINS, péridurale ; en chirurgie, décompression seule non inférieure à décompression avec arthrodèse.",
+   "refs": [
+    441,
+    442
+   ]
+  },
+  "pronostic": {
+   "texte": "glissement progressant chez 12–34 %, sans corrélation aux symptômes ; 76 % restent bien à 10 ans sans déficit initial.",
+   "refs": [
+    443,
+    444
+   ]
+  },
+  "refs": [
+   {
+    "n": 436,
+    "texte": "Jacobsen S et al. Spine 2007",
+    "url": "https://doi.org/10.1097/01.brs.0000250979.12398.96"
+   },
+   {
+    "n": 437,
+    "texte": "Botros M et al. Journal of Clinical Neuroscience 2026",
+    "url": "https://doi.org/10.1016/j.jocn.2026.112255"
+   },
+   {
+    "n": 438,
+    "texte": "Ahmed W et al. European Spine Journal 2024",
+    "url": "https://doi.org/10.1007/s00586-024-08198-6"
+   },
+   {
+    "n": 439,
+    "texte": "Rangwalla K et al. European Spine Journal 2024",
+    "url": "https://doi.org/10.1007/s00586-024-08198-6"
+   },
+   {
+    "n": 440,
+    "texte": "Schulte TL et al. European Spine Journal 2016",
+    "url": "https://doi.org/10.1007/s00586-015-4177-6"
+   },
+   {
+    "n": 418,
+    "texte": "Katz JN et al. JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.5921"
+   },
+   {
+    "n": 441,
+    "texte": "Bydon M et al. Neurosurgery Clinics of North… 2019",
+    "url": "https://doi.org/10.1016/j.nec.2019.02.003"
+   },
+   {
+    "n": 442,
+    "texte": "Austevoll IM et al. The New England Journal of… 2021",
+    "url": "https://doi.org/10.1056/NEJMoa2100990"
+   },
+   {
+    "n": 443,
+    "texte": "Atalay B et al. World Neurosurgery 2023",
+    "url": "https://doi.org/10.1016/j.wneu.2023.05.112"
+   },
+   {
+    "n": 444,
+    "texte": "Samuel AM et al. Current Reviews in… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9442-3"
+   }
+  ],
+  "planche": "l9.webp"
+ },
+ {
+  "no": "L10",
+  "page": 10,
+  "tags": "RACHIS LOMBAIRE · FRACTURE DE FRAGILITÉ · SUJET ÂGÉ",
+  "titre": "FRACTURE VERTÉBRALE OSTÉOPOROTIQUE (LOMBAIRE)",
+  "renvoi": {
+   "texte": "Voir la fiche D3. Particularité : une distance côtes-bassin ≤ 2 travers de doigt évoque une fracture lombaire occulte (RV+ 3,8).",
+   "refs": [
+    221
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 221,
+    "texte": "Green AD et al. JAMA 2004",
+    "url": "https://doi.org/10.1001/jama.292.23.2890"
+   }
+  ],
+  "planche": "l10.webp"
+ },
+ {
+  "no": "L11",
+  "page": 11,
+  "tags": "RACHIS LOMBAIRE · FRACTURE DE FATIGUE DE L'ISTHME · ADOLESCENT",
+  "titre": "SPONDYLOLYSE / SPONDYLOLISTHÉSIS ISTHMIQUE",
+  "epidemiologie": {
+   "texte": "3–6 % de la population ; jusqu'à 47 % des jeunes sportifs lombalgiques ; L5 dans 85–95 %.",
+   "refs": [
+    54,
+    445
+   ]
+  },
+  "presentation": {
+   "texte": "lombalgie progressive à l'activité, pire en extension ; gymnastique, plongeon, haltérophilie.",
+   "refs": [
+    446,
+    54
+   ]
+  },
+  "examen": {
+   "texte": "douleur en extension (Se 81 %) ; hyperextension unipodale ni sensible ni spécifique ; ischio-jambiers rétractés.",
+   "refs": [
+    446,
+    447,
+    448
+   ]
+  },
+  "physiopathologie": {
+   "texte": "lésion de stress de l'isthme, de l'œdème à la fracture puis à la pseudarthrose.",
+   "refs": [
+    449
+   ]
+  },
+  "ddx": {
+   "texte": "lésion musculaire, hernie, atteinte sacro-iliaque, tumeur ou infection.",
+   "refs": [
+    390,
+    392
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies ; IRM si négatives (Se 97,7 %).",
+   "refs": [
+    448,
+    445
+   ]
+  },
+  "traitement": {
+   "texte": "arrêt des activités douloureuses, gainage ; corset controversé ; chirurgie si grade ≥ 2 ou signes neurologiques.",
+   "refs": [
+    256
+   ]
+  },
+  "pronostic": {
+   "texte": "consolidation 94–100 % aux stades précoces, 0–50 % au stade terminal ; retour au sport en 3,7 mois.",
+   "refs": [
+    446,
+    450
+   ]
+  },
+  "refs": [
+   {
+    "n": 54,
+    "texte": "Huang P et al. Sports Health 2016",
+    "url": "https://doi.org/10.1177/1941738115610753"
+   },
+   {
+    "n": 445,
+    "texte": "Kriz PK et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/03635465241264804"
+   },
+   {
+    "n": 446,
+    "texte": "Linton AA et al. Current Reviews in… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09760-9"
+   },
+   {
+    "n": 447,
+    "texte": "Masci L et al. British Journal of Sports… 2006",
+    "url": "https://doi.org/10.1136/bjsm.2006.030023"
+   },
+   {
+    "n": 448,
+    "texte": "Lintner LJ et al. American Family Physician 2023",
+    "url": null
+   },
+   {
+    "n": 449,
+    "texte": "Kriz PK et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/03635465241264804"
+   },
+   {
+    "n": 390,
+    "texte": "Earwood JS et al. American Family Physician 2025",
+    "url": null
+   },
+   {
+    "n": 392,
+    "texte": "Schneider K et al. Southern Medical Journal 2026",
+    "url": "https://doi.org/10.14423/SMJ.0000000000002036"
+   },
+   {
+    "n": 256,
+    "texte": "Putukian M et al. Medicine and Science in… 2026",
+    "url": "https://doi.org/10.1249/MSS.0000000000003863"
+   },
+   {
+    "n": 450,
+    "texte": "Kuroshima K et al. Spine 2024",
+    "url": "https://doi.org/10.1097/BRS.0000000000004849"
+   }
+  ],
+  "planche": "l11.webp"
+ },
+ {
+  "no": "L12",
+  "page": 12,
+  "tags": "RACHIS LOMBAIRE · DÉFORMATION · DÉGÉNÉRATIF",
+  "titre": "SCOLIOSE DÉGÉNÉRATIVE DE L'ADULTE",
+  "epidemiologie": {
+   "texte": "environ 6 % après 50 ans, davantage dans certaines séries.",
+   "refs": [
+    398,
+    451
+   ]
+  },
+  "presentation": {
+   "texte": "lombalgie axiale, déformation progressive ; radiculalgie ou claudication dans les formes sévères.",
+   "refs": [
+    451
+   ]
+  },
+  "examen": {
+   "texte": "déséquilibre coronal ou sagittal, signes de sténose.",
+   "refs": [
+    451
+   ]
+  },
+  "physiopathologie": {
+   "texte": "dégénérescence discale et facettaire asymétrique, charge asymétrique, listhésis latéral.",
+   "refs": [
+    398
+   ]
+  },
+  "ddx": {
+   "texte": "scoliose idiopathique vieillie, fracture ostéoporotique, sténose.",
+   "refs": [
+    398,
+    452
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie debout (Cobb ≥ 10°) ; IRM si geste envisagé.",
+   "refs": [
+    451,
+    418
+   ]
+  },
+  "traitement": {
+   "texte": "physiothérapie, AINS, infiltrations (preuves faibles) ; chirurgie si échec, au prix de complications fréquentes.",
+   "refs": [
+    398,
+    453,
+    454
+   ]
+  },
+  "pronostic": {
+   "texte": "progression d'environ 1,6° par an.",
+   "refs": [
+    455
+   ]
+  },
+  "refs": [
+   {
+    "n": 398,
+    "texte": "Diebo BG et al. Lancet (London, England) 2019",
+    "url": "https://doi.org/10.1016/S0140-6736(19)31125-0"
+   },
+   {
+    "n": 451,
+    "texte": "McAviney J et al. European Spine Journal 2020",
+    "url": "https://doi.org/10.1007/s00586-020-06453-0"
+   },
+   {
+    "n": 452,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2016",
+    "url": "https://doi.org/10.2106/JBJS.15.00710"
+   },
+   {
+    "n": 418,
+    "texte": "Katz JN et al. JAMA 2022",
+    "url": "https://doi.org/10.1001/jama.2022.5921"
+   },
+   {
+    "n": 453,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2019",
+    "url": "https://doi.org/10.2106/JBJS.15.00710"
+   },
+   {
+    "n": 454,
+    "texte": "Smith JS et al. JAMA Surgery 2025",
+    "url": "https://doi.org/10.1001/jamasurg.2025.0496"
+   },
+   {
+    "n": 455,
+    "texte": "Marty-Poumarat C et al. Spine 2007",
+    "url": "https://doi.org/10.1097/01.brs.0000263328.89135.a6"
+   }
+  ],
+  "planche": "l12.webp"
+ },
+ {
+  "no": "L13",
+  "page": 13,
+  "tags": "RACHIS LOMBAIRE ET SACRO-ILIAQUES · INFLAMMATOIRE · ADULTE JEUNE",
+  "titre": "SPONDYLARTHRITE AXIALE",
+  "epidemiologie": {
+   "texte": "0,9–1,4 % des adultes ; environ 5 % des lombalgies chroniques de première ligne ; retard diagnostique moyen de 6,7 ans.",
+   "refs": [
+    1,
+    2,
+    3
+   ]
+  },
+  "presentation": {
+   "texte": "lombalgie progressive avant 45 ans, raideur matinale ≥ 30 minutes, amélioration à l'exercice, douleur nocturne et fessière à bascule ; uvéite, psoriasis, maladie inflammatoire intestinale.",
+   "refs": [
+    4,
+    5
+   ]
+  },
+  "examen": {
+   "texte": "souvent normal au début ; mobilité rachidienne peu discriminante (Se 68–79 %, Sp 36–45 %) ; enthésites, arthrite périphérique.",
+   "refs": [
+    4,
+    3
+   ]
+  },
+  "physiopathologie": {
+   "texte": "HLA-B27, dysbiose et stress enthésique menant à l'inflammation des sacro-iliaques et des enthèses rachidiennes.",
+   "refs": [
+    4
+   ]
+  },
+  "ddx": {
+   "texte": "lombalgie mécanique, hyperostose vertébrale, ostéite condensante de l'ilion, fibromyalgie.",
+   "refs": [
+    4,
+    3
+   ]
+  },
+  "investigations": {
+   "texte": "CRP (Se 35 %, Sp 91 %), HLA-B27 (Se 50 %, Sp 90 %), radiographie des sacro-iliaques (Se 66 %, Sp 68 %) ; IRM (Se 78 %, Sp 88 %).",
+   "refs": [
+    4
+   ]
+  },
+  "traitement": {
+   "texte": "rhumatologie ; exercice, arrêt du tabac, AINS à dose maximale, deuxième AINS si échec ; biologique ou inhibiteur de JAK après échec de 2 AINS.",
+   "refs": [
+    4,
+    3,
+    6
+   ]
+  },
+  "pronostic": {
+   "texte": "moins de 25 % contrôlés par AINS seuls ; environ 75 % finissent sous biologique ou inhibiteur de JAK.",
+   "refs": [
+    4
+   ]
+  },
+  "refs": [
+   {
+    "n": 1,
+    "texte": "Zhao SS et al. Rheumatology (Oxford, England) 2021",
+    "url": "https://doi.org/10.1093/rheumatology/keaa807"
+   },
+   {
+    "n": 2,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the American… 2021",
+    "url": "https://doi.org/10.1016/j.jacr.2021.08.003"
+   },
+   {
+    "n": 3,
+    "texte": "Navarro-Compán V et al. Lancet (London, England) 2025",
+    "url": "https://doi.org/10.1016/S0140-6736(24)02263-3"
+   },
+   {
+    "n": 4,
+    "texte": "Bittar M et al. JAMA 2025",
+    "url": "https://doi.org/10.1001/jama.2024.20917"
+   },
+   {
+    "n": 5,
+    "texte": "Magrey MN et al. Mayo Clinic Proceedings 2020",
+    "url": "https://doi.org/10.1016/j.mayocp.2020.02.007"
+   },
+   {
+    "n": 6,
+    "texte": "Ramiro S et al. Annals of the Rheumatic Diseases 2023",
+    "url": "https://doi.org/10.1136/ard-2022-223296"
+   }
+  ],
+  "planche": "l13.webp"
+ },
+ {
+  "no": "L14",
+  "page": 14,
+  "tags": "RACHIS LOMBAIRE · SURCHARGE DES ÉLÉMENTS POSTÉRIEURS · CROISSANCE",
+  "titre": "LOMBALGIE D'HYPERLORDOSE DE L'ADOLESCENT",
+  "epidemiologie": {
+   "texte": "deuxième cause de lombalgie de l'adolescent sportif après la spondylolyse ; aucune prévalence propre.",
+   "refs": [
+    7
+   ]
+  },
+  "presentation": {
+   "texte": "douleur en extension, parfois en rotation, pendant la poussée de croissance.",
+   "refs": [
+    7
+   ]
+  },
+  "examen": {
+   "texte": "hyperlordose, ischio-jambiers rétractés, sensibilité paramédiane lombaire basse ; l'hyperextension unipodale n'exclut pas une spondylolyse (Se 50–73 %, Sp 17–32 %).",
+   "refs": [
+    8,
+    9,
+    7,
+    10
+   ]
+  },
+  "physiopathologie": {
+   "texte": "rétraction du fascia thoraco-lombaire et des fléchisseurs de hanche pendant la croissance, surchargeant facettes, capsules et ligaments.",
+   "refs": [
+    7,
+    10
+   ]
+  },
+  "ddx": {
+   "texte": "spondylolyse, hernie discale, fracture de l'anneau apophysaire, Scheuermann atypique, fracture de fatigue du sacrum.",
+   "refs": [
+    7,
+    10,
+    11
+   ]
+  },
+  "investigations": {
+   "texte": "imagerie normale, servant à exclure la spondylolyse ; les radiographies manquent jusqu'à 52 % des lyses ; IRM si suspicion persistante.",
+   "refs": [
+    12,
+    7,
+    13
+   ]
+  },
+  "traitement": {
+   "texte": "activité sans douleur, éviter l'extension, renforcement abdominal, étirements ; corset anti-lordose bref en deuxième ligne (aucun essai).",
+   "refs": [
+    7
+   ]
+  },
+  "pronostic": {
+   "texte": "non documenté pour cette entité.",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 7,
+    "texte": "Purcell L et al. Sports Health 2009",
+    "url": "https://doi.org/10.1177/1941738109334212"
+   },
+   {
+    "n": 8,
+    "texte": "Masci L et al. British Journal of Sports… 2006",
+    "url": "https://doi.org/10.1136/bjsm.2006.030023"
+   },
+   {
+    "n": 9,
+    "texte": "Lintner LJ et al. American Family Physician 2023",
+    "url": null
+   },
+   {
+    "n": 10,
+    "texte": "MacDonald J et al. JAMA Pediatrics 2017",
+    "url": "https://doi.org/10.1001/jamapediatrics.2016.3334"
+   },
+   {
+    "n": 11,
+    "texte": "Hiranaka Y et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/03635465241251848"
+   },
+   {
+    "n": 12,
+    "texte": "Kriz PK et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1177/03635465241264804"
+   },
+   {
+    "n": 13,
+    "texte": "West AM et al. Clinical Pediatrics 2019",
+    "url": "https://doi.org/10.1177/0009922819832643"
+   }
+  ],
+  "planche": "l14.webp"
+ },
+ {
+  "no": "L15",
+  "page": 15,
+  "tags": "CHARNIÈRE LOMBO-SACRÉE · NÉO-ARTICULATION L5–SACRUM · ADULTE",
+  "titre": "ANOMALIE TRANSITIONNELLE / SYNDROME DE BERTOLOTTI",
+  "epidemiologie": {
+   "texte": "vertèbre transitionnelle chez 4–36 % (moyenne 12,3 %) ; types cliniquement pertinents (II–IV) 10,6 % ; à évoquer avant 30 ans.",
+   "refs": [
+    14,
+    15,
+    16
+   ]
+  },
+  "presentation": {
+   "texte": "lombalgie paramédiane chronique et douleur fessière, parfois radiculalgie ; 41 mois de symptômes avant le diagnostic.",
+   "refs": [
+    17,
+    18,
+    19
+   ]
+  },
+  "examen": {
+   "texte": "aucun signe validé.",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "apophyse transverse de L5 élargie, articulée ou fusionnée à l'aile sacrée ; compression extraforaminale de L5 et dégénérescence du niveau sus-jacent.",
+   "refs": [
+    14,
+    20,
+    21
+   ]
+  },
+  "ddx": {
+   "texte": "douleur facettaire, douleur sacro-iliaque, hernie L4–5, autre radiculopathie.",
+   "refs": [
+    17,
+    22,
+    23,
+    24
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie de face (incidence de Ferguson préférée) ; TDM pour la classification de Castellvi ; confirmation par infiltration anesthésique de la néo-articulation.",
+   "refs": [
+    14,
+    17,
+    18,
+    25
+   ]
+  },
+  "traitement": {
+   "texte": "analgésie, physiothérapie ; infiltration ou radiofréquence ; résection ou arthrodèse si échec (preuves faibles).",
+   "refs": [
+    19,
+    26,
+    27
+   ]
+  },
+  "pronostic": {
+   "texte": "amélioration durable chez 78 % après arthrodèse contre 28 % après résection (27 patients) ; évolution sans chirurgie non documentée.",
+   "refs": [
+    16,
+    28
+   ]
+  },
+  "refs": [
+   {
+    "n": 14,
+    "texte": "Kanematsu R et al. European Spine Journal 2020",
+    "url": "https://doi.org/10.1007/s00586-020-06460-1"
+   },
+   {
+    "n": 15,
+    "texte": "Paik NC et al. Spine 2013",
+    "url": "https://doi.org/10.1097/BRS.0b013e31828b7195"
+   },
+   {
+    "n": 16,
+    "texte": "McGrath K et al. The Spine Journal 2021",
+    "url": "https://doi.org/10.1016/j.spinee.2021.02.023"
+   },
+   {
+    "n": 17,
+    "texte": "Ju CI et al. Pain Physician 2017",
+    "url": null
+   },
+   {
+    "n": 18,
+    "texte": "Journal of Neurosurgery Spine 2014",
+    "url": "https://doi.org/10.3171/2013.11.SPINE13132"
+   },
+   {
+    "n": 19,
+    "texte": "Zhu W et al. International Journal of… 2023",
+    "url": "https://doi.org/10.1097/JS9.0000000000000541"
+   },
+   {
+    "n": 20,
+    "texte": "Hanhivaara J et al. Spine 2022",
+    "url": "https://doi.org/10.1097/BRS.0000000000004244"
+   },
+   {
+    "n": 21,
+    "texte": "Becker L et al. PloS One 2022",
+    "url": "https://doi.org/10.1371/journal.pone.0274581"
+   },
+   {
+    "n": 22,
+    "texte": "Ugokwe KT et al. Neurosurgery 2008",
+    "url": "https://doi.org/10.1227/01.neu.0000326034.77585.88"
+   },
+   {
+    "n": 23,
+    "texte": "Illeez OG et al. European Spine Journal 2018",
+    "url": "https://doi.org/10.1007/s00586-016-4879-4"
+   },
+   {
+    "n": 24,
+    "texte": "Fidan F et al. European Spine Journal 2022",
+    "url": "https://doi.org/10.1007/s00586-016-4879-4"
+   },
+   {
+    "n": 25,
+    "texte": "Vinha A et al. European Spine Journal 2022",
+    "url": "https://doi.org/10.1007/s00586-016-4879-4"
+   },
+   {
+    "n": 26,
+    "texte": "Becker L et al. Scientific Reports 2024",
+    "url": "https://doi.org/10.1371/journal.pone.0274581"
+   },
+   {
+    "n": 27,
+    "texte": "Chitneni A et al. Pain Physician 2024",
+    "url": null
+   },
+   {
+    "n": 28,
+    "texte": "Mikula AL et al. World Neurosurgery 2022",
+    "url": "https://doi.org/10.1016/j.wneu.2022.06.042"
+   }
+  ],
+  "planche": "l15.webp"
+ },
+ {
+  "no": "L16",
+  "page": 16,
+  "tags": "SACRUM · FRACTURE DE FRAGILITÉ OU DE STRESS · SUJET ÂGÉ ET COUREUR",
+  "titre": "FRACTURE D'INSUFFISANCE OU DE FATIGUE DU SACRUM",
+  "epidemiologie": {
+   "texte": "femmes de 60–75 ans ; 1,8 % des femmes de plus de 55 ans lombalgiques ; radiothérapie pelvienne, corticoïdes. Coureurs, souvent avec triade de l'athlète féminine.",
+   "refs": [
+    29,
+    30,
+    31,
+    32
+   ]
+  },
+  "presentation": {
+   "texte": "douleur lombaire basse, fessière ou inguinale sans traumatisme notable, marche difficile ; chez le sportif, douleur à l'impact.",
+   "refs": [
+    33,
+    34
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité sacrée ; examen parfois normal.",
+   "refs": [
+    30,
+    33
+   ]
+  },
+  "physiopathologie": {
+   "texte": "charge normale sur l'os trabéculaire ostéoporotique de l'aile sacrée, ou charge répétée sur os normal aggravée par un déficit énergétique.",
+   "refs": [
+    35,
+    34,
+    32
+   ]
+  },
+  "ddx": {
+   "texte": "canal lombaire étroit, fracture vertébrale, métastase, atteinte sacro-iliaque ; spondylolyse chez le sportif.",
+   "refs": [
+    31,
+    36,
+    37,
+    11
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie positive dans 20–38 % seulement ; IRM après radiographies négatives.",
+   "refs": [
+    30,
+    37
+   ]
+  },
+  "traitement": {
+   "texte": "mobilisation précoce, analgésie, traitement de l'ostéoporose ; sacroplastie si échec (données non randomisées). Sportif : arrêt de l'impact ≥ 6 semaines, calcium, vitamine D.",
+   "refs": [
+    38,
+    36,
+    39,
+    32
+   ]
+  },
+  "pronostic": {
+   "texte": "consolidation en 6–15 mois ; mortalité à 1 an de 15 %. Sportif : retour en 7,4 semaines en moyenne.",
+   "refs": [
+    36,
+    31,
+    40
+   ]
+  },
+  "refs": [
+   {
+    "n": 29,
+    "texte": "Rickert MM et al. JBJS Reviews 2022",
+    "url": "https://doi.org/10.2106/JBJS.RVW.22.00005"
+   },
+   {
+    "n": 30,
+    "texte": "Urits I et al. Current Pain and Headache… 2020",
+    "url": "https://doi.org/10.1007/s11916-020-0848-z"
+   },
+   {
+    "n": 31,
+    "texte": "Schwetje D et al. Scientific Reports 2020",
+    "url": "https://doi.org/10.1038/s41598-020-75384-z"
+   },
+   {
+    "n": 32,
+    "texte": "Vajapey S et al. Sports Health 2019",
+    "url": "https://doi.org/10.1177/1941738119854763"
+   },
+   {
+    "n": 33,
+    "texte": "Andresen JR et al. BMC Musculoskeletal Disorders 2022",
+    "url": "https://doi.org/10.1186/s12891-022-06039-5"
+   },
+   {
+    "n": 34,
+    "texte": "Shankar DS et al. Sports Health 2024",
+    "url": "https://doi.org/10.1177/19417381231190580"
+   },
+   {
+    "n": 35,
+    "texte": "Wagner D et al. Archives of Orthopaedic and… 2018",
+    "url": "https://doi.org/10.1007/s00402-018-2938-5"
+   },
+   {
+    "n": 36,
+    "texte": "Sarigul B et al. European Spine Journal 2024",
+    "url": "https://doi.org/10.1007/s00586-023-08027-2"
+   },
+   {
+    "n": 37,
+    "texte": "Morrison WB et al. Journal of the American… 2024",
+    "url": "https://doi.org/10.1007/s00586-023-08027-2"
+   },
+   {
+    "n": 11,
+    "texte": "Hiranaka Y et al. The American Journal of… 2024",
+    "url": "https://doi.org/10.1007/s00586-023-08027-2"
+   },
+   {
+    "n": 38,
+    "texte": "Singh M",
+    "url": "https://doi.org/10.3390/jcm13041101"
+   },
+   {
+    "n": 39,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2025",
+    "url": "https://doi.org/10.2106/JBJS.25.00482"
+   },
+   {
+    "n": 40,
+    "texte": "Beit Ner E et al. European Spine Journal 2022",
+    "url": "https://doi.org/10.1007/s00586-021-07043-4"
+   }
+  ],
+  "planche": "l16.webp"
+ },
+ {
+  "no": "L17",
+  "page": 18,
+  "tags": "RACHIS LOMBAIRE · FRACTURE STABLE · MARQUEUR DE LÉSION ASSOCIÉE",
+  "titre": "FRACTURE DES APOPHYSES TRANSVERSES LOMBAIRES",
+  "epidemiologie": {
+   "texte": "7,3 % des traumatismes abdominaux fermés à la TDM ; L3 surtout.",
+   "refs": [
+    41
+   ]
+  },
+  "presentation": {
+   "texte": "douleur paraspinale ou du flanc après collision, coup direct ou chute sur le dos, sans déficit.",
+   "refs": [
+    42,
+    43
+   ]
+  },
+  "examen": {
+   "texte": "aucun signe propre ; l'examen cible l'abdomen et le bassin.",
+   "refs": [
+    44
+   ]
+  },
+  "physiopathologie": {
+   "texte": "fracture mécaniquement stable, témoin d'une force importante.",
+   "refs": [
+    43,
+    44
+   ]
+  },
+  "ddx": {
+   "texte": "organe abdominal dans 48–51 % ; fracture du bassin, surtout si L5 ; rate 13 %, foie 10 %, rein 9 %.",
+   "refs": [
+    41,
+    45,
+    44,
+    46,
+    47
+   ],
+   "titre": "DIAGNOSTIC DIFFÉRENTIEL (LÉSIONS ASSOCIÉES)"
+  },
+  "investigations": {
+   "texte": "TDM ; la radiographie en manque 61 %.",
+   "refs": [
+    41,
+    48
+   ]
+  },
+  "traitement": {
+   "texte": "analgésie, mobilisation précoce ; ni corset ni consultation rachidienne pour la fracture isolée.",
+   "refs": [
+    49,
+    50
+   ]
+  },
+  "pronostic": {
+   "texte": "douleur persistante chez 1,1 % à 6 mois ; retour au jeu en 3–4 semaines.",
+   "refs": [
+    50,
+    49
+   ]
+  },
+  "refs": [
+   {
+    "n": 41,
+    "texte": "Patten RM et al. Radiology 2000",
+    "url": "https://doi.org/10.1148/radiology.215.3.r00jn27831"
+   },
+   {
+    "n": 42,
+    "texte": "Nagasawa DT et al. World Neurosurgery 2017",
+    "url": "https://doi.org/10.1016/j.wneu.2017.01.032"
+   },
+   {
+    "n": 43,
+    "texte": "Gültekin GD et al. World Neurosurgery 2019",
+    "url": "https://doi.org/10.1016/j.wneu.2018.11.147"
+   },
+   {
+    "n": 44,
+    "texte": "Miller CD et al. Injury 2000",
+    "url": "https://doi.org/10.1016/s0020-1383(00)00111-x"
+   },
+   {
+    "n": 45,
+    "texte": "Lombardo G et al. European Journal of Trauma… 2017",
+    "url": "https://doi.org/10.1007/s00068-016-0745-7"
+   },
+   {
+    "n": 46,
+    "texte": "Philipp LR et al. World Neurosurgery 2018",
+    "url": "https://doi.org/10.1016/j.wneu.2018.11.147"
+   },
+   {
+    "n": 47,
+    "texte": "Xia T et al. The Journal of Trauma and… 2013",
+    "url": "https://doi.org/10.1097/TA.0b013e318282745d"
+   },
+   {
+    "n": 48,
+    "texte": "Arena JD et al. World Neurosurgery 2021",
+    "url": "https://doi.org/10.1016/j.wneu.2018.11.147"
+   },
+   {
+    "n": 49,
+    "texte": "Z ) 2026",
+    "url": "https://doi.org/10.1007/s40279-026-02471-y"
+   },
+   {
+    "n": 50,
+    "texte": "Boulter JH et al. World Neurosurgery 2016",
+    "url": "https://doi.org/10.1016/j.wneu.2018.11.147"
+   }
+  ],
+  "planche": "l17.webp"
+ },
+ {
+  "no": "L18",
+  "page": 19,
+  "tags": "RACHIS LOMBAIRE · NÉOPLASIQUE · DRAPEAU ROUGE",
+  "titre": "CANCER / MÉTASTASE (LOMBAIRE)",
+  "renvoi": {
+   "texte": "Voir la fiche D19. Particularités : 0,7 % des lombalgies de première ligne ; l'antécédent de cancer est le seul drapeau rouge fort (RV+ 14,7, probabilité d'environ 9 %) ; perte de poids, absence d'amélioration à 1 mois et âge > 50 ans ont un RV+ de 2,7–3,0 ; l'IRM est préférée, la radiographie exigeant environ 50 % de perte osseuse.",
+   "refs": [
+    51,
+    52
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 51,
+    "texte": "Chou R et al. Annals of Internal Medicine 2007",
+    "url": "https://doi.org/10.7326/0003-4819-147-7-200710020-00006"
+   },
+   {
+    "n": 52,
+    "texte": "Expert Panel on Neurological Imaging et al. Journal of the American… 2021",
+    "url": "https://doi.org/10.1016/j.jacr.2021.08.002"
+   }
+  ],
+  "planche": "l18.webp"
+ },
+ {
+  "no": "L19",
+  "page": 20,
+  "tags": "RACHIS LOMBAIRE · INFECTION · URGENCE",
+  "titre": "SPONDYLODISCITE / ABCÈS ÉPIDURAL (LOMBAIRE)",
+  "renvoi": {
+   "texte": "Voir la fiche C18. Particularités : localisation lombaire dans 45–65 % ; dans la cohorte de la Mayo Clinic, fièvre chez 53 % seulement, extension épidurale chez 43 %, S. aureus 49 % ; 6 semaines d'antibiotiques non inférieures à 12.",
+   "refs": [
+    53,
+    54,
+    55
+   ]
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [
+   {
+    "n": 53,
+    "texte": "Lazzeri E et al. European Journal of Nuclear… 2019",
+    "url": "https://doi.org/10.1007/s00259-019-04393-6"
+   },
+   {
+    "n": 54,
+    "texte": "Matsuo T et al. Clinical Infectious Diseases 2026",
+    "url": "https://doi.org/10.1093/cid/ciag048"
+   },
+   {
+    "n": 55,
+    "texte": "Nature Reviews Disease Primers 2026",
+    "url": "https://doi.org/10.1038/s41572-026-00707-9"
+   }
+  ],
+  "planche": "l19.webp"
+ },
+ {
+  "no": "L20",
+  "page": 21,
+  "tags": "RACINES LOMBO-SACRÉES · COMPRESSION · URGENCE CHIRURGICALE",
+  "titre": "SYNDROME DE LA QUEUE DE CHEVAL",
+  "epidemiologie": {
+   "texte": "2,7 par 100 000 par an, surtout femmes de 30–49 ans ; 0,08 % des lombalgies de première ligne ; 19 % des cas suspectés confirmés ; hernie discale en tête.",
+   "refs": [
+    56,
+    57,
+    58
+   ]
+  },
+  "presentation": {
+   "texte": "anesthésie en selle, dysfonction vésicale, intestinale ou sexuelle, sciatique uni- ou bilatérale, faiblesse.",
+   "refs": [
+    59
+   ]
+  },
+  "examen": {
+   "texte": "hypoesthésie périanale (Se 82 %) ; tonus anal sans valeur ; résidu post-mictionnel ≥ 200 mL (Se 94 %, Sp 67 %), mais normal dans la moitié des formes incomplètes d'une série médico-légale.",
+   "refs": [
+    60,
+    61,
+    62,
+    63
+   ]
+  },
+  "physiopathologie": {
+   "texte": "compression des racines sous le cône avec congestion veineuse et ischémie.",
+   "refs": [
+    64
+   ]
+  },
+  "ddx": {
+   "texte": "syndrome du cône, tableau à IRM négative (81 % des références), abcès épidural, compression métastatique, rétention liée à la douleur ou aux médicaments.",
+   "refs": [
+    65,
+    66,
+    67,
+    68,
+    69
+   ]
+  },
+  "investigations": {
+   "texte": "IRM urgente pour tout drapeau rouge ; résidu et toucher rectal en appoint seulement.",
+   "refs": [
+    59,
+    70
+   ]
+  },
+  "traitement": {
+   "texte": "décompression urgente ; avant 48 heures mieux qu'après, sans avantage constant de moins de 24 heures.",
+   "refs": [
+    71,
+    72
+   ]
+  },
+  "pronostic": {
+   "texte": "dysfonction vésicale 24,6 % si opéré avant 48 heures contre 50,3 % après ; retour au travail 32,8 %.",
+   "refs": [
+    59,
+    73
+   ]
+  },
+  "refs": [
+   {
+    "n": 56,
+    "texte": "Woodfield J et al. Neuroepidemiology 2022",
+    "url": "https://doi.org/10.1159/000527727"
+   },
+   {
+    "n": 57,
+    "texte": "Journal of Neurosurgery Spine 2020",
+    "url": "https://doi.org/10.3171/2019.12.SPINE19839"
+   },
+   {
+    "n": 58,
+    "texte": "Mustafa MA et al. PloS One 2023",
+    "url": "https://doi.org/10.1371/journal.pone.0285006"
+   },
+   {
+    "n": 59,
+    "texte": "Kumar V et al. European Spine Journal 2022",
+    "url": "https://doi.org/10.1007/s00586-021-07001-0"
+   },
+   {
+    "n": 60,
+    "texte": "Venkatesan M et al. Spine 2019",
+    "url": "https://doi.org/10.1097/BRS.0000000000003152"
+   },
+   {
+    "n": 61,
+    "texte": "Curtis Lopez C et al. British Journal of Neurosurgery 2024",
+    "url": "https://doi.org/10.3171/2019.12.SPINE19839"
+   },
+   {
+    "n": 62,
+    "texte": "Katzouraki G et al. The Bone & Joint Journal 2020",
+    "url": "https://doi.org/10.1302/0301-620X.102B6.BJJ-2020-0195.R1"
+   },
+   {
+    "n": 63,
+    "texte": "Todd N et al. International Orthopaedics 2022",
+    "url": "https://doi.org/10.1007/s00264-022-05341-0"
+   },
+   {
+    "n": 64,
+    "texte": "Spector LR et al. The Journal of the American… 2008",
+    "url": "https://doi.org/10.5435/00124635-200808000-00006"
+   },
+   {
+    "n": 65,
+    "texte": "Tande AJ et al. The New England Journal of… 2026",
+    "url": "https://doi.org/10.1056/NEJMra2412728"
+   },
+   {
+    "n": 66,
+    "texte": "Crausaz L et al. Neurology 2025",
+    "url": "https://doi.org/10.1212/WNL.0000000000213712"
+   },
+   {
+    "n": 67,
+    "texte": "Hoeritzauer I et al. Neurology 2021",
+    "url": "https://doi.org/10.1212/WNL.0000000000011154"
+   },
+   {
+    "n": 68,
+    "texte": "Central Nervous System Cancers National Comprehensive Cancer… 2026",
+    "url": null
+   },
+   {
+    "n": 69,
+    "texte": "Kalidindi KKV et al. European Spine Journal 2020",
+    "url": "https://doi.org/10.1007/s00586-019-06277-7"
+   },
+   {
+    "n": 70,
+    "texte": "Hennessy O et al. European Spine Journal 2025",
+    "url": "https://doi.org/10.1007/s00586-025-08732-0"
+   },
+   {
+    "n": 71,
+    "texte": "Ahn UM et al. Spine 2000",
+    "url": "https://doi.org/10.1097/00007632-200006150-00010"
+   },
+   {
+    "n": 72,
+    "texte": "Najjar E et al. The Spine Journal 2026",
+    "url": "https://doi.org/10.1016/j.spinee.2026.04.013"
+   },
+   {
+    "n": 73,
+    "texte": "Planty-Bonjour A et al. Spine 2022",
+    "url": "https://doi.org/10.1097/BRS.0000000000004170"
+   }
+  ],
+  "planche": "l20.webp"
+ },
+ {
+  "no": "L21",
+  "page": 22,
+  "tags": "RACHIS LOMBAIRE · ENFANT · LE PLUS SOUVENT NON SPÉCIFIQUE",
+  "titre": "LOMBALGIE DE L'ENFANT ET DE L'ADOLESCENT",
+  "epidemiologie": {
+   "texte": "1 % à 7 ans, 6 % à 10 ans, 18 % à 14–16 ans ; aucun diagnostic chez plus de 80 % ; cause grave dans moins de 1 %.",
+   "refs": [
+    10,
+    74
+   ]
+  },
+  "presentation": {
+   "texte": "drapeaux rouges : âge < 5 ans, durée > 4 semaines, douleur nocturne, fièvre, perte de poids, raideur matinale, trouble de la marche, signes neurologiques ou sphinctériens.",
+   "refs": [
+    75,
+    76
+   ]
+  },
+  "examen": {
+   "texte": "courbure anormale, examen neurologique ; avec la radiographie, l'examen donne un diagnostic dans 9–22 %.",
+   "refs": [
+    75
+   ]
+  },
+  "physiopathologie": {
+   "texte": "aucune lésion identifiable dans environ 80 % des cas.",
+   "refs": [
+    10
+   ]
+  },
+  "ddx": {
+   "texte": "spondylolyse, hernie discale, Scheuermann, infection ou tumeur, spondylarthropathie.",
+   "refs": [
+    76
+   ]
+  },
+  "investigations": {
+   "texte": "radiographies debout face et profil, sans obliques ; IRM ensuite, ou d'emblée si infection ou tumeur suspectée.",
+   "refs": [
+    75,
+    10
+   ]
+  },
+  "traitement": {
+   "texte": "repos relatif, exercices, physiothérapie, AINS brefs.",
+   "refs": [
+    76
+   ]
+  },
+  "pronostic": {
+   "texte": "prédit la lombalgie adulte (rapport de cotes jusqu'à 4) ; trajectoire persistante chez environ 30 %.",
+   "refs": [
+    77,
+    78
+   ]
+  },
+  "refs": [
+   {
+    "n": 10,
+    "texte": "MacDonald J et al. JAMA Pediatrics 2017",
+    "url": "https://doi.org/10.1001/jamapediatrics.2016.3334"
+   },
+   {
+    "n": 74,
+    "texte": "Wirth B et al. BMC Pediatrics 2024",
+    "url": "https://doi.org/10.1186/s12887-024-05194-z"
+   },
+   {
+    "n": 75,
+    "texte": "Dahmoush H et al. Journal of the American… 2025",
+    "url": "https://doi.org/10.1016/j.jacr.2025.02.037"
+   },
+   {
+    "n": 76,
+    "texte": "Achar S et al. American Family Physician 2020",
+    "url": null
+   },
+   {
+    "n": 77,
+    "texte": "Hestbaek L et al. Spine 2006",
+    "url": "https://doi.org/10.1097/01.brs.0000199958.04073.d9"
+   },
+   {
+    "n": 78,
+    "texte": "Coenen P et al. Arthritis Care & Research 2017",
+    "url": "https://doi.org/10.1002/acr.22949"
+   }
+  ],
+  "planche": "l21.webp"
+ },
+ {
+  "no": "L22",
+  "page": 23,
+  "tags": "RACHIS · DÉFORMATION · ADOLESCENT",
+  "titre": "SCOLIOSE ET MALADIE DE SCHEUERMANN THORACO-LOMBAIRE",
+  "renvoi": {
+   "texte": "Voir les fiches D6 et D7.",
+   "refs": []
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [],
+  "planche": "l22.webp"
+ },
+ {
+  "no": "L23",
+  "page": 24,
+  "tags": "BASSIN · TRACTION APOPHYSAIRE · ADOLESCENT COUREUR",
+  "titre": "APOPHYSITE DE LA CRÊTE ILIAQUE",
+  "epidemiologie": {
+   "texte": "adolescents coureurs de demi-fond et de fond ; aucune prévalence.",
+   "refs": [
+    79,
+    80
+   ]
+  },
+  "presentation": {
+   "texte": "douleur progressive de la crête iliaque à l'activité, sans traumatisme.",
+   "refs": [
+    81
+   ]
+  },
+  "examen": {
+   "texte": "sensibilité de la crête ; douleur à l'abduction résistée de la hanche en décubitus latéral.",
+   "refs": [
+    82
+   ]
+  },
+  "physiopathologie": {
+   "texte": "traction répétée des muscles sur l'apophyse non fusionnée.",
+   "refs": [
+    81,
+    83
+   ]
+  },
+  "ddx": {
+   "texte": "avulsion de la crête ou de l'épine iliaque antéro- supérieure, contusion, élongation abdominale, fracture de fatigue du col fémoral, épiphysiolyse.",
+   "refs": [
+    82
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie (élargissement apophysaire ou normale) ; IRM au besoin.",
+   "refs": [
+    81,
+    82
+   ]
+  },
+  "traitement": {
+   "texte": "repos ≥ 4 semaines, puis étirements et renforcement ; l'infiltration n'aide pas ; un sprint trop précoce expose à l'avulsion.",
+   "refs": [
+    82
+   ]
+  },
+  "pronostic": {
+   "texte": "résolution en 4–6 semaines dans une série de 21 cas.",
+   "refs": [
+    80,
+    82
+   ]
+  },
+  "refs": [
+   {
+    "n": 79,
+    "texte": "Peck DM American Family Physician 1995",
+    "url": null
+   },
+   {
+    "n": 80,
+    "texte": "Clancy WG et al. The American Journal of… 1976",
+    "url": "https://doi.org/10.1177/036354657600400504"
+   },
+   {
+    "n": 81,
+    "texte": "Cerezal A et al. Pediatric Radiology 2025",
+    "url": "https://doi.org/10.1007/s00247-024-05991-9"
+   },
+   {
+    "n": 82,
+    "texte": "Frush TJ et al. Sports Health 2009",
+    "url": "https://doi.org/10.1177/1941738109334214"
+   },
+   {
+    "n": 83,
+    "texte": "Putukian M et al. Medicine and Science in… 2026",
+    "url": "https://doi.org/10.1249/MSS.0000000000003863"
+   }
+  ],
+  "planche": "l23.webp"
+ },
+ {
+  "no": "L24",
+  "page": 25,
+  "tags": "RACHIS LOMBAIRE · AVULSION DU LISTEL MARGINAL · ADOLESCENT",
+  "titre": "FRACTURE DE L'ANNEAU APOPHYSAIRE",
+  "epidemiologie": {
+   "texte": "28 % des hernies discales de l'adolescent, contre 5–6 % chez l'adulte.",
+   "refs": [
+    84,
+    85
+   ]
+  },
+  "presentation": {
+   "texte": "lombalgie avec sciatique, aggravée au Valsalva ; haltérophilie, gymnastique.",
+   "refs": [
+    86,
+    87
+   ]
+  },
+  "examen": {
+   "texte": "signes de radiculopathie, sans signe propre.",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "avulsion, avec le disque, de l'anneau apophysaire non fusionné sous charge.",
+   "refs": [
+    85,
+    86
+   ]
+  },
+  "ddx": {
+   "texte": "hernie simple, disque ou ligament calcifié, ostéophyte.",
+   "refs": [
+    86,
+    88
+   ]
+  },
+  "investigations": {
+   "texte": "radiographie de profil souvent négative ; TDM pour le fragment, IRM pour la racine.",
+   "refs": [
+    86,
+    89
+   ]
+  },
+  "traitement": {
+   "texte": "conservateur comme une hernie ; chirurgie si déficit significatif, gros fragment ou symptômes persistants.",
+   "refs": [
+    86
+   ]
+  },
+  "pronostic": {
+   "texte": "bons résultats à 13,8 ans avec ou sans chirurgie ; plus de lombalgie chronique si gros fragment.",
+   "refs": [
+    84,
+    87
+   ]
+  },
+  "refs": [
+   {
+    "n": 84,
+    "texte": "Chang CH et al. Spine 2008",
+    "url": "https://doi.org/10.1097/BRS.0b013e31817d1d12"
+   },
+   {
+    "n": 85,
+    "texte": "Xie S et al. European Spine Journal 2026",
+    "url": "https://doi.org/10.1007/s00586-025-09618-x"
+   },
+   {
+    "n": 86,
+    "texte": "Lamb M et al. Pediatrics in Review 2020",
+    "url": "https://doi.org/10.1542/pir.2019-0051"
+   },
+   {
+    "n": 87,
+    "texte": "The Journal of Bone and Joint Surgery American Volume 2012",
+    "url": "https://doi.org/10.2106/JBJS.K.00343"
+   },
+   {
+    "n": 88,
+    "texte": "Dietemann JL et al. Neuroradiology 1988",
+    "url": "https://doi.org/10.1007/BF00328185"
+   },
+   {
+    "n": 89,
+    "texte": "Asazuma T et al. Acta Neurochirurgica 2003",
+    "url": "https://doi.org/10.1007/s00701-003-0044-z"
+   }
+  ],
+  "planche": "l24.webp"
+ }
+]
