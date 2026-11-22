@@ -1,0 +1,913 @@
+[
+ {
+  "region": "Genou",
+  "age": 24,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur antérieure du genou droit depuis 4 mois, d'apparition progressive.",
+   "Augmentation récente du volume de course et des entraînements en escaliers.",
+   "Douleur surtout lors de la descente des escaliers, des squats et après une position assise prolongée.",
+   "Aucun traumatisme précis, blocage vrai ou épisode de dérobement.",
+   "Absence de fièvre, de rougeur ou de gonflement important."
+  ],
+  "examen": [
+   "Marche normale, sans boiterie.",
+   "Absence d'épanchement et d'érythème.",
+   "Douleur à la compression patellofémorale.",
+   "Squat unipodal : douleur antérieure avec valgus dynamique du genou.",
+   "Amplitude articulaire complète.",
+   "Lachman et tiroirs antérieur et postérieur négatifs.",
+   "McMurray négatif."
+  ],
+  "diagnostic_de_reference": "Syndrome douloureux fémoropatellaire",
+  "differentiels_acceptables": [
+   "Tendinopathie patellaire",
+   "Plica synoviale symptomatique",
+   "Chondropathie patellaire"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Présentation typique d'une douleur fémoropatellaire liée à une augmentation de charge, avec douleur aux activités sollicitant l'articulation patellofémorale et absence de signes d'atteinte ligamentaire ou méniscale."
+ },
+ {
+  "region": "Genou",
+  "age": 68,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur du genou gauche depuis 2 ans, progressivement aggravée.",
+   "Douleur prédominant à la face médiale, majorée à la marche et en station debout prolongée.",
+   "Raideur matinale durant environ 10 minutes.",
+   "Soulagement partiel au repos.",
+   "Aucun traumatisme récent, fièvre ou symptôme constitutionnel."
+  ],
+  "examen": [
+   "Genu varum bilatéral, plus marqué à gauche.",
+   "Crépitements lors de la flexion-extension.",
+   "Douleur à la palpation de l'interligne médial.",
+   "Amplitude de 5 à 115 degrés à gauche.",
+   "Absence d'épanchement important.",
+   "McMurray provoquant une douleur médiale sans clic franc.",
+   "Lachman négatif."
+  ],
+  "diagnostic_de_reference": "Gonarthrose à prédominance fémorotibiale médiale",
+  "differentiels_acceptables": [
+   "Lésion dégénérative du ménisque médial",
+   "Ostéonécrose sous-chondrale du genou",
+   "Arthropathie à cristaux"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Âge, évolution chronique, douleur mécanique, courte raideur matinale, déformation en varus et crépitements orientent vers une atteinte dégénérative."
+ },
+ {
+  "region": "Genou",
+  "age": 32,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur aiguë du genou droit apparue il y a 3 heures pendant un match de soccer.",
+   "Pivot sur le pied fixé au sol avec sensation de craquement.",
+   "Gonflement rapide dans les 2 heures suivant le traumatisme.",
+   "Sensation d'instabilité à la marche.",
+   "Difficulté à poursuivre l'activité."
+  ],
+  "examen": [
+   "Épanchement articulaire important.",
+   "Marche avec boiterie.",
+   "Lachman positif avec arrêt mou et translation antérieure augmentée.",
+   "Tiroir antérieur augmenté.",
+   "Tiroir postérieur négatif.",
+   "Douleur diffuse à la palpation, sans douleur osseuse focale de la tête fibulaire.",
+   "Amplitude limitée par l'épanchement."
+  ],
+  "diagnostic_de_reference": "Rupture du ligament croisé antérieur",
+  "differentiels_acceptables": [
+   "Lésion méniscale associée",
+   "Luxation patellaire spontanément réduite",
+   "Fracture ostéochondrale"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Mécanisme de pivot, craquement, hémarthrose précoce et Lachman positif constituent un tableau fortement évocateur d'une rupture du ligament croisé antérieur."
+ },
+ {
+  "region": "Genou",
+  "age": 74,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur intense du genou droit apparue brutalement depuis 36 heures.",
+   "Aucun traumatisme identifié.",
+   "Douleur présente au repos et la nuit, aggravée par tout mouvement.",
+   "Gonflement rapide du genou.",
+   "Fièvre mesurée à domicile à 38,5 °C et frissons.",
+   "Antécédent de prothèse totale de hanche, sans chirurgie du genou."
+  ],
+  "examen": [
+   "Température de 38,3 °C.",
+   "Genou chaud, rouge et très augmenté de volume.",
+   "Douleur marquée à la mobilisation passive, même de faible amplitude.",
+   "Amplitude articulaire fortement limitée.",
+   "Incapacité à prendre appui.",
+   "Épanchement important à la palpation."
+  ],
+  "diagnostic_de_reference": "Arthrite septique du genou",
+  "differentiels_acceptables": [
+   "Arthrite microcristalline aiguë",
+   "Hémarthrose spontanée",
+   "Bursite septique prépatellaire"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Monoarthrite aiguë fébrile avec chaleur, épanchement et douleur importante à la mobilisation passive. Une arthrite septique doit être exclue en urgence par ponction articulaire et prélèvements appropriés."
+ },
+ {
+  "region": "Genou",
+  "age": 16,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur progressive à la face antérieure du genou gauche depuis 6 semaines.",
+   "Douleur localisée sous la rotule, majorée lors des sauts et des accélérations.",
+   "Entraînement de basketball 5 fois par semaine.",
+   "Aucun traumatisme unique.",
+   "Absence de douleur nocturne, de fièvre ou de symptômes généraux."
+  ],
+  "examen": [
+   "Douleur focale à la palpation de la tubérosité tibiale antérieure.",
+   "Légère proéminence de la tubérosité tibiale antérieure.",
+   "Douleur à l'extension résistée du genou.",
+   "Douleur lors d'un squat et d'un saut unipodal.",
+   "Amplitude articulaire complète.",
+   "Absence d'épanchement."
+  ],
+  "diagnostic_de_reference": "Maladie d'Osgood-Schlatter",
+  "differentiels_acceptables": [
+   "Tendinopathie patellaire",
+   "Syndrome douloureux fémoropatellaire",
+   "Fracture de fatigue de la tubérosité tibiale"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Adolescent sportif en période de croissance présentant une douleur mécanique focale à la tubérosité tibiale antérieure, reproduite par la mise en tension du mécanisme extenseur."
+ },
+ {
+  "region": "Cheville",
+  "age": 27,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur latérale de la cheville droite depuis 2 jours.",
+   "Inversion du pied lors d'une réception de saut au volleyball.",
+   "Gonflement apparu rapidement autour de la malléole latérale.",
+   "Capacité de faire quelques pas immédiatement après le traumatisme, mais marche difficile depuis.",
+   "Aucun antécédent d'entorse importante."
+  ],
+  "examen": [
+   "Œdème et ecchymose en regard du ligament talofibulaire antérieur.",
+   "Douleur à la palpation du ligament talofibulaire antérieur.",
+   "Absence de douleur à la palpation des 6 cm distaux des malléoles.",
+   "Absence de douleur à la base du 5e métatarsien et au naviculaire.",
+   "Tiroir antérieur légèrement douloureux, sans laxité évidente.",
+   "Test d'inclinaison talienne sans laxité significative."
+  ],
+  "diagnostic_de_reference": "Entorse latérale de la cheville, prédominant sur le ligament talofibulaire antérieur",
+  "differentiels_acceptables": [
+   "Entorse du ligament calcanéofibulaire",
+   "Contusion des tissus mous",
+   "Lésion ostéochondrale du talus"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Mécanisme d'inversion, douleur localisée au ligament talofibulaire antérieur et absence de critères cliniques de fracture selon les règles d'Ottawa."
+ },
+ {
+  "region": "Cheville",
+  "age": 42,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur postérieure de la cheville gauche apparue brutalement pendant une partie de tennis.",
+   "Sensation d'avoir reçu un coup derrière le talon alors que personne ne se trouvait à proximité.",
+   "Difficulté immédiate à pousser sur le pied.",
+   "Marche possible avec le pied à plat, mais montée des escaliers difficile.",
+   "Aucun antécédent de traumatisme récent."
+  ],
+  "examen": [
+   "Dépression palpable à environ 4 cm au-dessus de l'insertion calcanéenne du tendon d'Achille.",
+   "Test de Thompson positif, sans flexion plantaire lors de la compression du mollet.",
+   "Test de Matles anormal.",
+   "Flexion plantaire active diminuée.",
+   "Incapacité à réaliser une élévation unipodale du talon.",
+   "Neurovascularisation distale conservée."
+  ],
+  "diagnostic_de_reference": "Rupture complète du tendon d'Achille",
+  "differentiels_acceptables": [
+   "Rupture partielle du tendon d'Achille",
+   "Lésion du muscle soléaire",
+   "Lésion de la jonction myotendineuse du gastrocnémien"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Début brutal avec sensation de coup postérieur, perte de poussée, défect palpable et test de Thompson positif. Une prise en charge rapide est nécessaire."
+ },
+ {
+  "region": "Cheville",
+  "age": 61,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur médiale de la cheville droite depuis 8 mois.",
+   "Installation progressive sans traumatisme.",
+   "Douleur et fatigue à la marche prolongée, particulièrement en fin de journée.",
+   "Difficulté croissante à marcher sur la pointe du pied droit.",
+   "Antécédent d'obésité et de diabète de type 2."
+  ],
+  "examen": [
+   "Affaissement de l'arche longitudinale médiale droite en charge.",
+   "Signe du too many toes positif à l'inspection postérieure.",
+   "Douleur et épaississement le long du tendon tibial postérieur, derrière la malléole médiale.",
+   "Élévation unipodale du talon impossible à droite.",
+   "Valgus de l'arrière-pied en charge.",
+   "Mobilité de la cheville relativement conservée."
+  ],
+  "diagnostic_de_reference": "Dysfonction du tendon tibial postérieur avec pied plat acquis de l'adulte",
+  "differentiels_acceptables": [
+   "Pied plat flexible symptomatique",
+   "Arthrose sous-talienne",
+   "Coalition tarsienne"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur médiale chronique, affaissement de l'arche, valgus de l'arrière-pied et incapacité à réaliser une élévation unipodale du talon orientent vers une atteinte du tendon tibial postérieur."
+ },
+ {
+  "region": "Cheville",
+  "age": 19,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur profonde de la cheville droite depuis 5 mois.",
+   "Début après une entorse en inversion survenue lors d'un match de basketball.",
+   "Douleur persistante à la course et aux changements de direction.",
+   "Épisodes occasionnels de gonflement après le sport.",
+   "Sensation intermittente d'accrochage, sans blocage complet."
+  ],
+  "examen": [
+   "Absence d'œdème au repos.",
+   "Douleur profonde à la palpation de l'interligne antérieur de la cheville.",
+   "Compression tibiofibulaire distale indolore.",
+   "Squeeze test négatif.",
+   "Mobilisation passive en dorsiflexion provoquant une douleur profonde.",
+   "Tiroir antérieur sans laxité significative."
+  ],
+  "diagnostic_de_reference": "Lésion ostéochondrale du dôme talien",
+  "differentiels_acceptables": [
+   "Conflit antérieur de cheville",
+   "Synovite post-traumatique",
+   "Instabilité chronique latérale de cheville"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur profonde persistante après entorse, gonflement à l'effort et sensation d'accrochage. Une lésion ostéochondrale est à rechercher par imagerie."
+ },
+ {
+  "region": "Cheville",
+  "age": 79,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur aiguë de la cheville gauche depuis 18 heures.",
+   "Apparition spontanée, sans traumatisme.",
+   "Douleur intense au repos et à la mobilisation.",
+   "Gonflement progressif et rougeur locale.",
+   "Antécédent de goutte avec atteinte du premier orteil.",
+   "Absence de fièvre rapportée."
+  ],
+  "examen": [
+   "Cheville chaude et œdématiée.",
+   "Érythème périarticulaire.",
+   "Douleur importante à la mobilisation passive.",
+   "Amplitude articulaire fortement diminuée.",
+   "Douleur à la palpation de l'interligne tibiotalien.",
+   "Température de 37,4 °C."
+  ],
+  "diagnostic_de_reference": "Arthrite microcristalline aiguë de la cheville",
+  "differentiels_acceptables": [
+   "Arthrite septique",
+   "Arthrite à pyrophosphate de calcium",
+   "Cellulite périarticulaire"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Le tableau est compatible avec une crise microcristalline, mais une arthrite septique ne peut être exclue cliniquement, même en l'absence de fièvre. Une évaluation urgente et une ponction articulaire sont indiquées."
+ },
+ {
+  "region": "Cheville",
+  "age": 35,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur antérieure de la cheville droite depuis 6 mois.",
+   "Début progressif après une augmentation de la course en terrain incliné.",
+   "Douleur surtout en dorsiflexion profonde, lors des squats et en descente.",
+   "Pas de sensation d'instabilité.",
+   "Aucun traumatisme récent."
+  ],
+  "examen": [
+   "Douleur à la palpation de l'interligne antérieur.",
+   "Dorsiflexion limitée par rapport au côté opposé.",
+   "Test de fente au mur reproduisant la douleur antérieure.",
+   "Squeeze test négatif.",
+   "Tiroir antérieur négatif.",
+   "Absence d'œdème."
+  ],
+  "diagnostic_de_reference": "Conflit antérieur de cheville",
+  "differentiels_acceptables": [
+   "Synovite antérieure de cheville",
+   "Lésion ostéochondrale du talus",
+   "Arthrose tibiotalienne débutante"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur antérieure mécanique reproduite en dorsiflexion avec limitation de mobilité, sans signe d'instabilité ligamentaire."
+ },
+ {
+  "region": "Pied",
+  "age": 46,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur plantaire du talon droit depuis 3 mois.",
+   "Début progressif, sans traumatisme.",
+   "Douleur maximale aux premiers pas le matin et après une période assise prolongée.",
+   "Amélioration partielle après quelques minutes de marche, puis réapparition après une longue période debout.",
+   "Augmentation récente du temps passé debout au travail."
+  ],
+  "examen": [
+   "Douleur à la palpation de l'insertion médiale de l'aponévrose plantaire sur le calcanéum.",
+   "Dorsiflexion passive du gros orteil reproduisant la douleur plantaire.",
+   "Test de Windlass positif.",
+   "Compression latérale du calcanéum non douloureuse.",
+   "Sensibilité et force distales conservées."
+  ],
+  "diagnostic_de_reference": "Fasciopathie plantaire",
+  "differentiels_acceptables": [
+   "Syndrome du coussinet graisseux du talon",
+   "Fracture de stress du calcanéum",
+   "Syndrome du tunnel tarsien"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur typique aux premiers pas, sensibilité à l'insertion médiale de l'aponévrose et reproduction par le test de Windlass."
+ },
+ {
+  "region": "Pied",
+  "age": 58,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur à la base du gros orteil gauche depuis 4 ans.",
+   "Progression lente, sans traumatisme.",
+   "Douleur majorée lors de la propulsion, de la course et du port de chaussures rigides.",
+   "Raideur croissante du gros orteil.",
+   "Absence de rougeur aiguë ou de crise inflammatoire récente."
+  ],
+  "examen": [
+   "Dorsiflexion métatarsophalangienne du premier rayon limitée à environ 20 degrés.",
+   "Douleur à la mobilisation passive en dorsiflexion.",
+   "Crépitements à la mobilisation.",
+   "Sensibilité dorsale à la palpation de l'articulation métatarsophalangienne.",
+   "Absence d'érythème ou d'œdème aigu."
+  ],
+  "diagnostic_de_reference": "Hallux rigidus",
+  "differentiels_acceptables": [
+   "Arthrose métatarsophalangienne du premier rayon",
+   "Arthrite microcristalline chronique",
+   "Sésamoïdite"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Raideur progressive et limitation douloureuse de la dorsiflexion métatarsophalangienne avec crépitements, compatibles avec une atteinte dégénérative."
+ },
+ {
+  "region": "Pied",
+  "age": 29,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur à l'avant-pied droit depuis 7 semaines.",
+   "Début progressif après avoir augmenté le kilométrage de course.",
+   "Douleur localisée entre les troisième et quatrième orteils, irradiant vers les orteils.",
+   "Sensation intermittente de marcher sur un pli de chaussette ou un petit caillou.",
+   "Aggravation dans les chaussures étroites et lors de la course."
+  ],
+  "examen": [
+   "Douleur à la compression de l'avant-pied.",
+   "Mulder test positif avec reproduction de la douleur et clic palpable au troisième espace interdigital.",
+   "Sensibilité à la palpation de l'espace entre les troisième et quatrième têtes métatarsiennes.",
+   "Absence de douleur focale sur les diaphyses métatarsiennes.",
+   "Mobilité des orteils conservée."
+  ],
+  "diagnostic_de_reference": "Névrome interdigital de Morton",
+  "differentiels_acceptables": [
+   "Bursite interdigitale",
+   "Métatarsalgie mécanique",
+   "Fracture de stress métatarsienne"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur neuropathique de l'avant-pied, aggravée par les chaussures étroites, avec reproduction et clic au test de Mulder."
+ },
+ {
+  "region": "Pied",
+  "age": 67,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur et gonflement du médio-pied droit depuis 5 jours.",
+   "Début sans traumatisme reconnu.",
+   "Douleur à la marche et lors de la mise en charge.",
+   "Diabète de type 2 depuis 18 ans avec neuropathie périphérique connue.",
+   "La patiente rapporte peu de douleur malgré un gonflement important.",
+   "Absence de fièvre ou de frissons."
+  ],
+  "examen": [
+   "Pied droit nettement plus chaud que le pied gauche.",
+   "Œdème diffus du médio-pied.",
+   "Érythème dorsal du pied diminuant partiellement à l'élévation.",
+   "Sensibilité protectrice diminuée au monofilament.",
+   "Pouls pédieux et tibial postérieur palpables.",
+   "Absence de plaie ou d'écoulement.",
+   "Déformation de l'arche médiale par rapport au côté opposé."
+  ],
+  "diagnostic_de_reference": "Neuroarthropathie de Charcot aiguë",
+  "differentiels_acceptables": [
+   "Cellulite du pied",
+   "Arthrite septique",
+   "Fracture de stress du médio-pied"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Pied chaud, œdématié et peu douloureux chez une personne diabétique avec neuropathie. Une neuroarthropathie de Charcot doit être reconnue rapidement et la mise en charge protégée en attendant l'évaluation spécialisée."
+ },
+ {
+  "region": "Pied",
+  "age": 21,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur dorsale du médio-pied gauche depuis 3 semaines.",
+   "Augmentation récente du volume de course, avec entraînements quotidiens.",
+   "Douleur initialement présente seulement à la course, maintenant présente à la marche.",
+   "Aucun traumatisme unique.",
+   "Absence de paresthésie ou de douleur nocturne."
+  ],
+  "examen": [
+   "Douleur focale à la palpation de la base du deuxième métatarsien.",
+   "Œdème discret du médio-pied.",
+   "Saut unipodal reproduisant la douleur.",
+   "Compression transversale de l'avant-pied peu douloureuse.",
+   "Mobilité des articulations métatarsophalangiennes conservée.",
+   "Marche légèrement antalgique."
+  ],
+  "diagnostic_de_reference": "Fracture de stress du deuxième métatarsien",
+  "differentiels_acceptables": [
+   "Réaction de stress osseux du deuxième métatarsien",
+   "Lésion de Lisfranc",
+   "Tendinopathie des extenseurs"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Augmentation de charge, progression de la douleur à la mise en charge et douleur osseuse focale avec saut unipodal douloureux."
+ },
+ {
+  "region": "Pied",
+  "age": 39,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur du médio-pied droit depuis 2 jours.",
+   "Chute d'environ un mètre avec réception sur le pied en flexion plantaire.",
+   "Gonflement et ecchymose apparus rapidement.",
+   "Douleur importante à la marche et à la propulsion.",
+   "Aucun antécédent de douleur au pied."
+  ],
+  "examen": [
+   "Œdème du médio-pied.",
+   "Ecchymose plantaire au niveau du médio-pied.",
+   "Douleur à la palpation des articulations tarsométatarsiennes.",
+   "Douleur à la compression du médio-pied.",
+   "Mise en charge difficile.",
+   "Mobilité et sensibilité des orteils conservées."
+  ],
+  "diagnostic_de_reference": "Lésion de Lisfranc",
+  "differentiels_acceptables": [
+   "Fracture de la base du deuxième métatarsien",
+   "Entorse du médio-pied",
+   "Fracture naviculaire"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Traumatisme axial sur pied en flexion plantaire, ecchymose plantaire et douleur tarsométatarsienne. Une lésion de Lisfranc doit être recherchée rapidement par imagerie adaptée."
+ },
+ {
+  "region": "Hanche ou aine",
+  "age": 14,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur de l'aine droite depuis 3 semaines, progressivement aggravée.",
+   "Début sans traumatisme précis, dans un contexte de croissance rapide.",
+   "Boiterie progressive et douleur à la marche.",
+   "Douleur parfois ressentie à la face antérieure de la cuisse et au genou droit.",
+   "Surpoids connu.",
+   "Absence de fièvre ou de symptômes infectieux."
+  ],
+  "examen": [
+   "Boiterie avec diminution de l'appui à droite.",
+   "Rotation interne de la hanche droite diminuée.",
+   "Flexion passive de la hanche provoquant une rotation externe involontaire.",
+   "Douleur à la mobilisation passive en rotation interne.",
+   "Test de Trendelenburg légèrement positif à droite.",
+   "Examen du genou sans anomalie significative."
+  ],
+  "diagnostic_de_reference": "Épiphysiolyse fémorale supérieure",
+  "differentiels_acceptables": [
+   "Apophysite de traction",
+   "Arthrite septique de hanche",
+   "Maladie de Legg-Calvé-Perthes"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Adolescent avec douleur inguinale ou référée au genou, boiterie et perte de rotation interne avec rotation externe lors de la flexion. L'épiphysiolyse est une urgence orthopédique nécessitant absence d'appui et évaluation immédiate."
+ },
+ {
+  "region": "Hanche ou aine",
+  "age": 72,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur inguinale gauche depuis 18 mois.",
+   "Installation progressive sans traumatisme.",
+   "Douleur lors de la marche, de la montée des escaliers et de l'enfilage des bas.",
+   "Raideur matinale de 15 minutes.",
+   "Diminution progressive de la distance de marche.",
+   "Aucun symptôme constitutionnel."
+  ],
+  "examen": [
+   "Marche avec légère boiterie d'esquive à gauche.",
+   "Rotation interne de hanche limitée et douloureuse.",
+   "Flexion de hanche diminuée.",
+   "FADIR reproduisant la douleur inguinale.",
+   "FABER limité avec douleur inguinale.",
+   "Force des abducteurs légèrement diminuée."
+  ],
+  "diagnostic_de_reference": "Coxarthrose",
+  "differentiels_acceptables": [
+   "Syndrome douloureux du grand trochanter",
+   "Conflit fémoro-acétabulaire",
+   "Pathologie lombaire avec douleur référée"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur mécanique inguinale chronique, raideur et limitation de la rotation interne chez une personne âgée, compatibles avec une atteinte dégénérative de la hanche."
+ },
+ {
+  "region": "Hanche ou aine",
+  "age": 31,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur profonde à l'aine droite depuis 4 mois.",
+   "Début progressif après une période d'entraînement intensif en flexion de hanche.",
+   "Douleur lors des squats profonds, des pivots et de la position assise prolongée.",
+   "Sensation occasionnelle de pincement, sans blocage vrai.",
+   "Aucun traumatisme aigu."
+  ],
+  "examen": [
+   "Amplitude globale de hanche conservée.",
+   "FADIR positif avec reproduction de la douleur inguinale.",
+   "FABER légèrement douloureux, sans limitation majeure.",
+   "Log roll négatif.",
+   "Force des fléchisseurs et abducteurs conservée.",
+   "Test de résistance des adducteurs peu douloureux."
+  ],
+  "diagnostic_de_reference": "Conflit fémoro-acétabulaire symptomatique",
+  "differentiels_acceptables": [
+   "Lésion du labrum acétabulaire",
+   "Tendinopathie des fléchisseurs de hanche",
+   "Lésion des adducteurs"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur inguinale mécanique chez un adulte jeune, provoquée par la flexion et la rotation interne de hanche. Un FADIR positif n'est pas spécifique et doit être interprété avec le contexte clinique."
+ },
+ {
+  "region": "Hanche ou aine",
+  "age": 83,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur aiguë de la hanche droite depuis une chute de sa hauteur il y a 6 heures.",
+   "Chute sur le côté droit en se levant de son fauteuil.",
+   "Incapacité de se relever et de prendre appui depuis la chute.",
+   "Douleur inguinale et latérale de hanche.",
+   "Ostéoporose connue.",
+   "Aucun traumatisme crânien rapporté."
+  ],
+  "examen": [
+   "Membre inférieur droit en rotation externe et légèrement raccourci.",
+   "Douleur importante à la mobilisation passive de la hanche.",
+   "Incapacité à effectuer une élévation active de la jambe tendue.",
+   "Douleur à la palpation de la région inguinale et du grand trochanter.",
+   "Sensibilité distale et pouls périphériques conservés."
+  ],
+  "diagnostic_de_reference": "Fracture proximale du fémur",
+  "differentiels_acceptables": [
+   "Fracture du col fémoral",
+   "Fracture intertrochantérienne",
+   "Fracture du bassin"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Traumatisme à faible énergie chez une personne âgée ostéoporotique, incapacité d'appui et membre raccourci en rotation externe. Évaluation urgente et imagerie requises."
+ },
+ {
+  "region": "Hanche ou aine",
+  "age": 26,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur latérale de la hanche gauche depuis 5 mois.",
+   "Début progressif après une augmentation du volume de course.",
+   "Douleur en position couchée sur le côté gauche et lors de la marche prolongée.",
+   "Douleur lors de la montée des escaliers.",
+   "Absence de douleur inguinale ou de paresthésie."
+  ],
+  "examen": [
+   "Douleur à la palpation du grand trochanter.",
+   "Test de Trendelenburg positif à gauche.",
+   "Résistance à l'abduction reproduisant la douleur latérale.",
+   "Single-leg stance reproduisant la douleur en moins de 30 secondes.",
+   "FADIR négatif.",
+   "Rotation interne et externe de hanche conservées."
+  ],
+  "diagnostic_de_reference": "Syndrome douloureux du grand trochanter",
+  "differentiels_acceptables": [
+   "Tendinopathie du moyen fessier",
+   "Bursite trochantérienne",
+   "Douleur référée lombaire"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur latérale, sensibilité trochantérienne et douleur lors de la mise en tension ou de la contraction des abducteurs. Le syndrome douloureux du grand trochanter regroupe fréquemment des atteintes tendineuses et bursales."
+ },
+ {
+  "region": "Lombaire",
+  "age": 38,
+  "sexe": "M",
+  "anamnese": [
+   "Lombalgie depuis 10 jours après avoir soulevé une boîte lourde en flexion.",
+   "Douleur localisée à la région lombaire basse, sans irradiation sous le genou.",
+   "Aggravation en flexion, lors du passage assis-debout et au soulèvement de charges.",
+   "Amélioration en position couchée.",
+   "Absence de fièvre, de perte de poids ou de symptômes urinaires.",
+   "Aucun antécédent de cancer."
+  ],
+  "examen": [
+   "Marche normale.",
+   "Douleur à la palpation des muscles paravertébraux lombaires.",
+   "Flexion lombaire limitée par la douleur.",
+   "Extension lombaire légèrement douloureuse.",
+   "Élévation de la jambe tendue négative bilatéralement.",
+   "Force, sensibilité et réflexes des membres inférieurs normaux.",
+   "Marche sur les talons et sur les pointes conservée."
+  ],
+  "diagnostic_de_reference": "Lombalgie mécanique aiguë non spécifique",
+  "differentiels_acceptables": [
+   "Élongation musculaire lombaire",
+   "Entorse ligamentaire lombaire",
+   "Douleur discogénique sans radiculopathie"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Début mécanique après soulèvement, douleur axiale sans irradiation radiculaire et examen neurologique normal. Aucun signe d'alarme rapporté."
+ },
+ {
+  "region": "Lombaire",
+  "age": 49,
+  "sexe": "F",
+  "anamnese": [
+   "Lombalgie depuis 6 semaines avec irradiation à la face postérieure de la cuisse, du mollet et jusqu'au bord latéral du pied droit.",
+   "Début après avoir déplacé un meuble.",
+   "Douleur aggravée par la toux, l'éternuement et la position assise prolongée.",
+   "Paresthésies intermittentes du bord latéral du pied.",
+   "Absence de rétention urinaire, d'incontinence ou d'anesthésie en selle."
+  ],
+  "examen": [
+   "Élévation de la jambe tendue positive à droite à 35 degrés, reproduisant la douleur sous le genou.",
+   "Lasègue croisé négatif.",
+   "Diminution de la sensibilité au bord latéral du pied droit.",
+   "Réflexe achilléen diminué à droite.",
+   "Flexion plantaire droite légèrement diminuée.",
+   "Marche sur les talons conservée."
+  ],
+  "diagnostic_de_reference": "Radiculopathie S1 droite probablement liée à une hernie discale L5-S1",
+  "differentiels_acceptables": [
+   "Radiculopathie L5",
+   "Sténose foraminale lombaire",
+   "Neuropathie tibiale"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Irradiation sous le genou, paresthésies latérales du pied, réflexe achilléen diminué et faiblesse de flexion plantaire orientent vers une atteinte radiculaire S1."
+ },
+ {
+  "region": "Lombaire",
+  "age": 56,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur lombaire progressive depuis 2 mois, sans traumatisme.",
+   "Douleur constante, peu influencée par les changements de position.",
+   "Douleur nocturne qui réveille le patient.",
+   "Perte de poids involontaire de 7 kg en 3 mois.",
+   "Antécédent de cancer de la prostate traité il y a 4 ans.",
+   "Fatigue inhabituelle."
+  ],
+  "examen": [
+   "Douleur à la percussion des apophyses épineuses lombaires.",
+   "Mobilité lombaire limitée dans plusieurs directions.",
+   "Force et sensibilité des membres inférieurs conservées.",
+   "Réflexes ostéotendineux symétriques.",
+   "Marche autonome.",
+   "Absence de douleur reproduite spécifiquement par la palpation musculaire."
+  ],
+  "diagnostic_de_reference": "Métastase vertébrale lombaire",
+  "differentiels_acceptables": [
+   "Fracture vertébrale pathologique",
+   "Myélome multiple",
+   "Infection vertébrale"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Antécédent de cancer, douleur progressive non mécanique, douleur nocturne et perte pondérale. Une atteinte néoplasique vertébrale doit être recherchée rapidement."
+ },
+ {
+  "region": "Lombaire",
+  "age": 44,
+  "sexe": "F",
+  "anamnese": [
+   "Lombalgie aiguë depuis 24 heures, avec aggravation rapide.",
+   "Douleur irradiant aux deux jambes.",
+   "Depuis ce matin, difficulté à initier la miction et sensation de vidange incomplète.",
+   "Engourdissement récent de la région périnéale.",
+   "Diminution de la sensibilité lors de l'essuyage après la toilette.",
+   "Aucun traumatisme majeur."
+  ],
+  "examen": [
+   "Marche prudente avec douleur lombaire.",
+   "Sensibilité diminuée dans la région périnéale à l'examen.",
+   "Force de dorsiflexion et de flexion plantaire diminuée bilatéralement.",
+   "Réflexes achilléens diminués bilatéralement.",
+   "Élévation de la jambe tendue reproduisant une douleur bilatérale.",
+   "Sensibilité des membres inférieurs diminuée de façon non strictement dermatomérique."
+  ],
+  "diagnostic_de_reference": "Syndrome de la queue de cheval",
+  "differentiels_acceptables": [
+   "Compression médullaire ou radiculaire multiple",
+   "Hernie discale lombaire centrale volumineuse",
+   "Abcès épidural spinal"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Troubles urinaires récents, anesthésie en selle et symptômes neurologiques bilatéraux constituent une urgence neurochirurgicale nécessitant une évaluation immédiate et une IRM urgente."
+ },
+ {
+  "region": "Lombaire",
+  "age": 33,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur lombaire basse depuis 9 mois.",
+   "Début progressif sans traumatisme.",
+   "Raideur matinale durant environ 60 minutes.",
+   "Douleur qui s'améliore avec l'activité physique et s'aggrave après le repos.",
+   "Réveils nocturnes en deuxième partie de nuit avec amélioration au lever.",
+   "Antécédent personnel d'épisodes de douleur au talon."
+  ],
+  "examen": [
+   "Flexion lombaire diminuée.",
+   "Test de Schober modifié montrant une expansion lombaire réduite.",
+   "Douleur à la palpation des articulations sacro-iliaques.",
+   "Test de FABER reproduisant une douleur postérieure du bassin.",
+   "Mobilité des hanches conservée.",
+   "Examen neurologique des membres inférieurs normal."
+  ],
+  "diagnostic_de_reference": "Spondyloarthrite axiale",
+  "differentiels_acceptables": [
+   "Sacro-iliite inflammatoire",
+   "Lombalgie mécanique chronique",
+   "Syndrome douloureux myofascial"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Lombalgie chronique débutant avant 40 ans, raideur prolongée, amélioration à l'activité, douleur nocturne et antécédent compatible d'enthésite."
+ },
+ {
+  "region": "Épaule",
+  "age": 52,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur latérale de l'épaule droite depuis 4 mois.",
+   "Début progressif sans traumatisme.",
+   "Douleur lors de l'élévation du bras, de l'habillage et du sommeil sur le côté droit.",
+   "Douleur majorée entre 70 et 120 degrés d'élévation.",
+   "Absence de paresthésie ou de douleur cervicale."
+  ],
+  "examen": [
+   "Arc douloureux entre environ 70 et 120 degrés d'abduction.",
+   "Neer positif.",
+   "Hawkins-Kennedy positif.",
+   "Jobe douloureux avec force globalement conservée.",
+   "Rotation externe résistée légèrement douloureuse.",
+   "Amplitude passive presque complète.",
+   "Test de Spurling négatif."
+  ],
+  "diagnostic_de_reference": "Syndrome douloureux sous-acromial lié à une tendinopathie de la coiffe des rotateurs",
+  "differentiels_acceptables": [
+   "Bursite sous-acromiale",
+   "Tendinopathie du supra-épineux",
+   "Déchirure partielle de la coiffe des rotateurs"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur latérale à l'élévation, arc douloureux et tests de provocation sous-acromiale positifs avec amplitude passive préservée. Les tests isolés ne permettent pas de distinguer précisément une atteinte tendineuse d'une bursite."
+ },
+ {
+  "region": "Épaule",
+  "age": 67,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur aiguë de l'épaule gauche depuis 2 jours.",
+   "Début lors du soulèvement d'un objet lourd au-dessus de la tête.",
+   "Sensation de déchirure suivie d'une perte de force immédiate.",
+   "Difficulté à lever le bras et à effectuer les activités au-dessus de l'épaule.",
+   "Aucun antécédent de limitation importante de l'épaule."
+  ],
+  "examen": [
+   "Élévation active limitée à 45 degrés.",
+   "Élévation passive possible jusqu'à 160 degrés.",
+   "Drop arm test positif.",
+   "Jobe positif avec faiblesse marquée.",
+   "Rotation externe résistée faible.",
+   "Signe du lag en rotation externe positif.",
+   "Sensibilité deltoïdienne conservée."
+  ],
+  "diagnostic_de_reference": "Rupture transfixiante aiguë de la coiffe des rotateurs",
+  "differentiels_acceptables": [
+   "Rupture du supra-épineux",
+   "Rupture combinée du supra-épineux et de l'infra-épineux",
+   "Neuropathie du nerf suprascapulaire"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Perte fonctionnelle aiguë après effort, déficit majeur d'élévation active malgré une mobilité passive préservée, drop arm positif et faiblesse en rotation externe. Une rupture importante de la coiffe doit être évaluée rapidement."
+ },
+ {
+  "region": "Épaule",
+  "age": 59,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur et raideur de l'épaule droite depuis 7 mois.",
+   "Début progressif sans traumatisme.",
+   "Douleur nocturne et difficulté à attacher son soutien-gorge ou à atteindre une tablette.",
+   "Diabète de type 2.",
+   "Aucune irradiation sous le coude ni paresthésie."
+  ],
+  "examen": [
+   "Limitation de l'amplitude active et passive dans plusieurs directions.",
+   "Rotation externe passive nettement diminuée.",
+   "Abduction passive limitée à environ 90 degrés.",
+   "Rotation interne limitée.",
+   "Force isométrique relativement conservée dans l'amplitude disponible.",
+   "Neer et Hawkins-Kennedy difficiles à interpréter en raison de la limitation globale."
+  ],
+  "diagnostic_de_reference": "Capsulite adhésive de l'épaule",
+  "differentiels_acceptables": [
+   "Arthrose glénohumérale",
+   "Tendinopathie de la coiffe avec raideur secondaire",
+   "Arthrite glénohumérale"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Perte progressive et globale des amplitudes actives et passives, particulièrement en rotation externe, dans un contexte de diabète."
+ },
+ {
+  "region": "Épaule",
+  "age": 23,
+  "sexe": "M",
+  "anamnese": [
+   "Douleur antérieure de l'épaule droite depuis 6 semaines.",
+   "Début après une augmentation du volume de développé couché et de tractions.",
+   "Douleur lors des mouvements au-dessus de la tête et des exercices de poussée.",
+   "Sensation occasionnelle de clic antérieur sans véritable instabilité.",
+   "Absence de traumatisme aigu ou de paresthésie."
+  ],
+  "examen": [
+   "Douleur à la palpation de la gouttière bicipitale.",
+   "Speed test positif.",
+   "Yergason positif avec douleur antérieure.",
+   "O'Brien reproduisant une douleur antérieure, sans clic profond franc.",
+   "Force de la coiffe conservée.",
+   "Test d'appréhension antérieure négatif.",
+   "Mobilité passive complète."
+  ],
+  "diagnostic_de_reference": "Tendinopathie de la longue portion du biceps",
+  "differentiels_acceptables": [
+   "Lésion du labrum supérieur",
+   "Tendinopathie du sous-scapulaire",
+   "Syndrome douloureux sous-acromial"
+  ],
+  "drapeau_rouge": false,
+  "justification": "Douleur antérieure liée à la charge, sensibilité de la gouttière bicipitale et tests de provocation du biceps positifs. Les tests cliniques ne permettent pas à eux seuls de confirmer une lésion labrale."
+ },
+ {
+  "region": "Épaule",
+  "age": 71,
+  "sexe": "F",
+  "anamnese": [
+   "Douleur de l'épaule gauche depuis 3 semaines.",
+   "Début progressif, sans traumatisme.",
+   "Douleur intense au repos et la nuit, sans amélioration significative par le changement de position.",
+   "Fatigue inhabituelle et perte d'appétit.",
+   "Perte de poids involontaire de 5 kg en 2 mois.",
+   "Antécédent de tabagisme important."
+  ],
+  "examen": [
+   "Amplitude active légèrement limitée par la douleur.",
+   "Amplitude passive presque complète.",
+   "Force de la coiffe globalement conservée.",
+   "Absence d'arc douloureux reproductible.",
+   "Douleur non reproduite de façon constante par les tests de Neer et Hawkins-Kennedy.",
+   "Sensibilité et force distales normales."
+  ],
+  "diagnostic_de_reference": "Néoplasie apicale pulmonaire avec douleur référée à l'épaule",
+  "differentiels_acceptables": [
+   "Métastase osseuse de l'épaule ou de la ceinture scapulaire",
+   "Néoplasie pleurale ou thoracique",
+   "Pathologie cervicale référée"
+  ],
+  "drapeau_rouge": true,
+  "justification": "Douleur persistante non mécanique, symptômes constitutionnels, perte pondérale et tabagisme. Une cause néoplasique thoracique doit être recherchée rapidement."
+ }
+]
