@@ -416,7 +416,21 @@
     return groupe("À considérer en premier", premiers, true) + coexist + changerAvis(r, res) + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
       + (L.length > montres.size + graves.length || tousR.has(r) ? `<button type="button" class="lo-lien lo-tous" data-tous="${r}">${tousR.has(r) ? "Afficher moins" : `Afficher les ${L.length} diagnostics`}</button>` : "");
   }
+  /* Bandeau « Sécurité » (point 1) : alertes de toutes les plaintes, en rouge (urgence), orange (rapide) et jaune (à
+     considérer), au-dessus des onglets ; le détail et la conduite restent sous « Diagnostics ». */
+  function securite(regs) {
+    const el = $("#lo-securite"); if (!el) return;
+    const vues = new Set(), items = [], ordre = { urgence: 0, rapide: 1, considerer: 2 };
+    for (const r of regs) for (const a of derniers[r].alertes) {
+      if (!(a.niveau in ordre) || vues.has(a.niveau + a.titre)) continue;
+      vues.add(a.niveau + a.titre); items.push({ ...a, r });
+    }
+    items.sort((a, b) => ordre[a.niveau] - ordre[b.niveau]);
+    el.hidden = !items.length;
+    el.innerHTML = items.length ? `<p class="lo-securite-titre">Sécurité</p><ul>${items.map(a => `<li data-niveau="${a.niveau}"><span class="lo-niveau">${NIVEAU[a.niveau]}</span><span>${esc(a.titre)}${regs.length > 1 ? ` <span class="lo-securite-region">· ${esc(NOMS[a.r])}</span>` : ""}</span></li>`).join("")}</ul>` : "";
+  }
   function resultats(regs) {
+    securite(regs);
     const zone = $("#lo-dx-regions"), plusieurs = regs.length > 1;
     if (!regs.length) { zone.innerHTML = ""; $("#lo-res-etat").textContent = "Choisissez la région de la plainte."; return; }
     const r0 = derniers[regs[0]], saisies = compteSaisies();
