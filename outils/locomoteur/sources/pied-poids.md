@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs pied` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 294 (validés 0, vérifiés 4, à vérifier 4, provisoires 286).
+Poids : 306 (validés 0, vérifiés 4, à vérifier 4, provisoires 298).
 
 ## Fasciite plantaire (talalgie plantaire)
 
@@ -12,6 +12,7 @@ Repères publiés : 3,83/1 000 p-a en médecine générale, pic à 45–64 ans ;
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fasciite` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>fasciite` | Pied atteint | — | — | Les deux 1,3 | provisoire | — |
 | `travail>fasciite` | Occupation | — | — | Travail physique (charges, manutention) 1,3 ; Debout toute la journée (commerce, usine, soins) 1,5 | provisoire | — |
 | `sport.marche>fasciite` | Activités physiques : Marche ou randonnée | — | — | 1,3 / 1 | provisoire | — |
@@ -102,6 +103,7 @@ Repères publiés : 12 % après 50 ans dans une cohorte, 5 % dans une autre (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>arthrose_mp` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>arthrose_mp` | Pied atteint | — | — | Les deux 1,5 | provisoire | — |
 | `obesite>arthrose_mp` | Obésité (IMC 30 ou plus) | — | — | 1,3 / 0,9 | provisoire | — |
 | `duree>arthrose_mp` | Depuis combien de temps | — | — | Moins de 7 jours 0,2 ; Plus de 3 mois 3 | provisoire | — |
@@ -230,6 +232,7 @@ Repères publiés : Métatarsiens 67–75/100 000/an, dont 5ᵉ 59,6–68 % ; or
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fracture` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>fracture` | Pied atteint | — | — | Les deux 0,1 | provisoire | — |
 | `sport.pivot>fracture` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,3 / 1 | provisoire | — |
 | `duree>fracture` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 1 ; 6 semaines à 3 mois 0,3 ; Plus de 3 mois 0,05 | provisoire | — |
@@ -302,6 +305,7 @@ Repères publiés : 37,9 % des fractures de stress NCAA ; insuffisance 3,1/1 000
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ff_mt` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>ff_mt` | Pied atteint | — | — | Les deux 0,4 | provisoire | — |
 | `sport.aucun>ff_mt` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.course>ff_mt` | Activités physiques : Course à pied | — | — | 2,5 / 1 | provisoire | — |
@@ -338,6 +342,7 @@ Repères publiés : 26 des 180 fractures de stress chez le sportif (C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ff_navic` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>ff_navic` | Pied atteint | — | — | Les deux 0,4 | provisoire | — |
 | `sport.aucun>ff_navic` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.course>ff_navic` | Activités physiques : Course à pied | — | — | 2 / 1 | provisoire | — |
@@ -365,6 +370,7 @@ Repères publiés : 2,6 % des fractures de stress du sportif (C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ff_calc` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `sport.aucun>ff_calc` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.course>ff_calc` | Activités physiques : Course à pied | — | — | 2 / 1 | provisoire | — |
 | `osteoporose>ff_calc` | Ostéoporose ou fracture de fragilité | — | — | 2 / 0,9 | provisoire | — |
@@ -391,6 +397,7 @@ Repères publiés : 9,2–14/100 000 p-a ; entorse du médio-pied : 2ᵉ rang ch
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>lisfranc` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>lisfranc` | Pied atteint | — | — | Les deux 0,1 | provisoire | — |
 | `sport.aucun>lisfranc` | Activités physiques : Peu ou pas de sport | — | — | 0,6 / 1 | provisoire | — |
 | `sport.pivot>lisfranc` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 2 / 1 | provisoire | — |
@@ -422,6 +429,7 @@ Repères publiés : 0,040–0,062/1 000 expositions au football (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>turf_toe` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>turf_toe` | Pied atteint | — | — | Les deux 0,1 | provisoire | — |
 | `sport.aucun>turf_toe` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.pivot>turf_toe` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 2,5 / 1 | provisoire | — |
@@ -476,6 +484,7 @@ Repères publiés : 0,56–0,79 % des diabétiques (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>charcot` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>charcot` | Pied atteint | — | — | Les deux 0,8 | provisoire | — |
 | `diabete>charcot` | Diabète ou neuropathie périphérique | — | — | 30 / 0,05 | provisoire | — |
 | `obesite>charcot` | Obésité (IMC 30 ou plus) | — | — | 1,3 / 0,95 | provisoire | — |
@@ -574,6 +583,7 @@ Repères publiés : Pas d'incidence (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>iselin` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.pivot>iselin` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
 | `duree>iselin` | Depuis combien de temps | — | — | Moins de 7 jours 0,5 | provisoire | — |
 | `apparition>iselin` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,5 ; Graduel 2 | provisoire | — |
@@ -595,6 +605,7 @@ Repères publiés : 10,7 % des diagnostics de surmenage chez l'enfant (C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>sever` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>sever` | Pied atteint | — | — | Les deux 1,8 | provisoire | — |
 | `sport.pivot>sever` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
 | `duree>sever` | Depuis combien de temps | — | — | Moins de 7 jours 0,5 | provisoire | — |
@@ -621,6 +632,7 @@ Repères publiés : 1ᵉʳ rang des blessures du pied chez le sportif (NCAA) (C)
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>contusion` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>contusion` | Pied atteint | — | — | Les deux 0,1 | provisoire | — |
 | `sport.contact>contusion` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,5 / 1 | provisoire | — |
 | `duree>contusion` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 0,8 ; 6 semaines à 3 mois 0,3 ; Plus de 3 mois 0,05 | provisoire | — |

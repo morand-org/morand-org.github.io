@@ -154,6 +154,24 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .lo-changer-titre { margin: 0 0 4px; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--or-texte); }
 .lo-changer ul { margin: 0; padding-left: 1.1em; }
 .lo-changer strong { color: var(--encre); font-weight: 600; }
+.lo-securite { position: sticky; top: 0; z-index: 2; margin: 10px 0 12px; padding: 8px 10px 10px; border: 1px solid var(--filet); border-radius: 14px; background: var(--carte); box-shadow: 0 4px 14px rgba(23, 22, 15, 0.08); }
+.lo-securite-titre { margin: 0 0 6px; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--discret); }
+.lo-securite ul { display: grid; gap: 5px; margin: 0; padding: 0; list-style: none; }
+.lo-securite li { display: flex; flex-wrap: wrap; gap: 2px 8px; align-items: baseline; padding: 5px 10px; border-left: 4px solid var(--or); border-radius: 0 10px 10px 0; background: var(--or-fond); font-size: 0.86rem; line-height: 1.35; }
+.lo-securite li[data-niveau="urgence"] { border-color: var(--alerte); background: var(--alerte-fond); }
+.lo-securite li[data-niveau="urgence"] .lo-niveau { color: var(--alerte); }
+.lo-securite li[data-niveau="rapide"] { border-color: var(--orange); background: var(--orange-fond); }
+.lo-securite li[data-niveau="rapide"] .lo-niveau { color: var(--orange); }
+.lo-securite li[data-niveau="considerer"] .lo-niveau { color: var(--or-texte); }
+.lo-securite-region { color: var(--discret); font-size: 0.8rem; }
+.lo-comparer { margin: 14px 0 6px; padding: 8px 12px; border: 1px solid var(--filet); border-radius: 12px; background: var(--carte); }
+.lo-comparer > summary { cursor: pointer; font: 600 0.84rem/1.4 var(--sans); color: var(--or-texte); }
+.lo-comparer-choix { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin: 10px 0; font-size: 0.84rem; color: var(--discret); }
+.lo-comparer-choix select { flex: 1 1 200px; min-width: 0; min-height: 38px; padding: 4px 8px; border: 1px solid var(--filet); border-radius: 10px; background: var(--papier); }
+.lo-comparer-titre { margin: 0 0 4px; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--discret); }
+.lo-comparer-liste { margin: 0; padding: 0; list-style: none; }
+.lo-comparer-liste li { display: grid; gap: 2px; padding: 7px 0; border-top: 1px dashed var(--filet); font-size: 0.86rem; }
+.lo-comparer-fx { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 0.8rem; color: var(--encre-2); }
 .lo-coexist { margin: 8px 0 4px; padding: 8px 12px; border-left: 3px solid var(--or); border-radius: 0 10px 10px 0; background: var(--beige); font-size: 0.86rem; line-height: 1.45; color: var(--encre-2); }
 .lo-coexist strong { color: var(--encre); }
 .lo-statut { padding: 0 7px; border-radius: 999px; background: var(--beige); color: var(--discret); font: 600 10px/1.6 var(--sans); letter-spacing: 0.04em; white-space: nowrap; }

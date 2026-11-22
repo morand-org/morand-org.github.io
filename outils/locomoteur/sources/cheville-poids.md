@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs cheville` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 349 (validés 0, vérifiés 18, à vérifier 4, provisoires 327).
+Poids : 363 (validés 0, vérifiés 18, à vérifier 4, provisoires 341).
 
 ## Entorse latérale de la cheville
 
@@ -12,6 +12,7 @@ Repères publiés : Pic de 7,2/1 000 p-a à 15–19 ans, la moitié seulement co
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>entorse_lat` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>entorse_lat` | Cheville atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.aucun>entorse_lat` | Activités physiques : Peu ou pas de sport | — | — | 0,6 / 1 | provisoire | — |
 | `sport.pivot>entorse_lat` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,8 / 1 | provisoire | — |
@@ -57,6 +58,7 @@ Repères publiés : 40 % après une première entorse (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>instab` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>instab` | Cheville atteinte | — | — | Les deux 0,4 | provisoire | — |
 | `sport.aucun>instab` | Activités physiques : Peu ou pas de sport | — | — | 0,7 / 1 | provisoire | — |
 | `sport.pivot>instab` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
@@ -86,6 +88,7 @@ Repères publiés : 1,85–2,35/1 000 p-a ; 7–9 % des coureurs par an (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>achille` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>achille` | Cheville atteinte | — | — | Les deux 1,5 | provisoire | — |
 | `sport.aucun>achille` | Activités physiques : Peu ou pas de sport | — | — | 0,8 / 1 | provisoire | — |
 | `sport.course>achille` | Activités physiques : Course à pied | — | — | 2 / 1 | provisoire | — |
@@ -123,6 +126,7 @@ Repères publiés : Environ un tiers des douleurs achilléennes (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>insertion` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>insertion` | Cheville atteinte | — | — | Les deux 1,4 | provisoire | — |
 | `sport.course>insertion` | Activités physiques : Course à pied | — | — | 1,5 / 1 | provisoire | — |
 | `obesite>insertion` | Obésité (IMC 30 ou plus) | — | — | 1,5 / 0,9 | provisoire | — |
@@ -153,6 +157,7 @@ Repères publiés : 15,7/100 000 p-a ; 42,6 chez les hommes de 30–49 ans ; 68 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>rupture_achille` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>rupture_achille` | Cheville atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.pivot>rupture_achille` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.raquette>rupture_achille` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 2 / 1 | provisoire | — |
@@ -188,6 +193,7 @@ Repères publiés : 164–179/100 000 p-a chez l'adulte ; 3ᵉ fracture après 6
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fracture` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>fracture` | Cheville atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.glisse>fracture` | Activités physiques : Ski ou planche | — | — | 1,3 / 1 | provisoire | — |
 | `duree>fracture` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 0,8 ; 6 semaines à 3 mois 0,3 ; Plus de 3 mois 0,05 | provisoire | — |
@@ -222,6 +228,7 @@ Repères publiés : 13–17 % des blessures de course ; 13,6–20 % des coureurs
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>periostite` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>periostite` | Cheville atteinte | — | — | Les deux 2 | provisoire | — |
 | `sport.aucun>periostite` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.course>periostite` | Activités physiques : Course à pied | — | — | 2,5 / 1 | provisoire | — |
@@ -253,6 +260,7 @@ Repères publiés : Tibia : 49 % des fractures de stress de l'athlète (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ff_tibia` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>ff_tibia` | Cheville atteinte | — | — | Les deux 1,2 | provisoire | — |
 | `sport.aucun>ff_tibia` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.course>ff_tibia` | Activités physiques : Course à pied | — | — | 2,5 / 1 | provisoire | — |
@@ -283,6 +291,7 @@ Repères publiés : 27–34 % des douleurs de jambe d'effort en séries sportive
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>loge` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>loge` | Cheville atteinte | — | — | Les deux 2,5 | provisoire | — |
 | `sport.aucun>loge` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.course>loge` | Activités physiques : Course à pied | — | — | 1,5 / 1 | provisoire | — |
@@ -337,6 +346,7 @@ Repères publiés : 3,7/1 000 enfants de 6–17 ans (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>sever` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>sever` | Cheville atteinte | — | — | Les deux 1,8 | provisoire | — |
 | `sport.pivot>sever` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
 | `duree>sever` | Depuis combien de temps | — | — | Moins de 7 jours 0,5 | provisoire | — |
@@ -395,6 +405,7 @@ Repères publiés : Symptomatique chez 3,4 % après 50 ans, souvent post-traumat
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>arthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>arthrose` | Cheville atteinte | — | — | Les deux 1,2 | provisoire | — |
 | `travail>arthrose` | Occupation | — | — | Travail physique (charges, manutention) 1,1 | provisoire | — |
 | `sport.marche>arthrose` | Activités physiques : Marche ou randonnée | — | — | 1,1 / 1 | provisoire | — |
@@ -432,6 +443,7 @@ Repères publiés : 1–11 % des entorses, jusqu'à 25 % chez l'athlète ; 24 % 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>syndesmose` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>syndesmose` | Cheville atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.aucun>syndesmose` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.pivot>syndesmose` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
@@ -469,6 +481,7 @@ Repères publiés : 0,77/10 000 expositions chez l'athlète ; pas d'autre donné
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>deltoide` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>deltoide` | Cheville atteinte | — | — | Les deux 0,2 | provisoire | — |
 | `sport.contact>deltoide` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,5 / 1 | provisoire | — |
 | `duree>deltoide` | Depuis combien de temps | — | — | Moins de 7 jours 2,5 ; Plus de 3 mois 0,1 | provisoire | — |
@@ -526,6 +539,7 @@ Repères publiés : Conflit antéro-latéral dans environ 30 % des instabilités
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>conflit` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>conflit` | Cheville atteinte | — | — | Les deux 0,5 | provisoire | — |
 | `sport.pivot>conflit` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,3 / 1 | provisoire | — |
 | `sport.danse>conflit` | Activités physiques : Danse, gymnastique ou cheerleading | — | — | 2 / 1 | provisoire | — |

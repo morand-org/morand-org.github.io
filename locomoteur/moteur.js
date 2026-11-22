@@ -51,6 +51,28 @@
   // Miroir : reprend la réponse d'une autre question (ex. palpation de la tête du péroné dans la règle d'Ottawa) ; répondre ici répond là-bas.
   const miroir = (id, cible, libelle, opts = {}) => ({ id, type: "miroir", cible, libelle, effets: [], ...opts });
 
+  /* Milieu de consultation (point 5 de l'audit) : ajuste la fréquence de départ, pour toutes les régions. À l'urgence,
+     plus de traumatismes et d'atteintes graves, moins d'atteintes dégénératives ; en clinique de médecine du sport, plus de
+     lésions sportives. Multiplicateurs provisoires, appliqués par famille de diagnostics (identifiants). */
+  const TRAUMA = /fracture|fx_|luxation|rupture|lisfranc|perilunaire|scaphoide|avulsion|contusion|entorse|^lca$|^lcp$|collat|syndesmose|deltoide|hamatum|jersey|maillet|^ff_/;
+  const DEGEN = /arthrose|stenose|spondylolisthesis|discogenique|dupuytren|scoliose|myelopathie|ressaut|canal_carpien|kienbock|^ppr$/;
+  const SPORT = /tendino|^sfp$|menisque|instab|apophys|osgood|^slj$|sever|lanceur|adducteurs|^ij_|stinger|poulie|periostite|loge|slap|epi_lat|epi_med|^lcu$|^cfa$|osteite|parietale|psoas|^bit$|achille|insertion|fasciite|gymnaste|conflit|musculaire|dyskinesie|calcifiante|sous_acro|spondylolyse|turf_toe|iselin/;
+  function milieu(d) {
+    const urgence = {}, sport = {};
+    for (const x of d.diagnostics) {
+      const t = TRAUMA.test(x.id), g = !!x.grave, dg = DEGEN.test(x.id), sp = SPORT.test(x.id) && !t;
+      let u = 1, s = 1;
+      if (t) { u *= 2; s *= 1.2; }
+      if (g && !t) { u *= 2; s *= 0.6; }
+      if (dg) { u *= 0.6; s *= 0.6; }
+      if (sp) { u *= 0.8; s *= 1.5; }
+      if (u !== 1) urgence[x.id] = +u.toFixed(2);
+      if (s !== 1) sport[x.id] = +s.toFixed(2);
+    }
+    return choix("milieu", "Milieu de consultation", [o("bureau", "Bureau ou GMF", {}, { n: "" }), o("urgence", "Urgence", urgence, { n: "" }), o("sport", "Clinique de médecine du sport", sport, { n: "" })],
+      { info: "Ajuste la fréquence de départ : à l'urgence, traumatismes et atteintes graves deux fois plus fréquents, atteintes dégénératives moins fréquentes ; en clinique de médecine du sport, lésions sportives plus fréquentes. Multiplicateurs provisoires. Au bureau, aucun ajustement." });
+  }
+
   /* Prépare un fichier de données : index, clés des poids, statut par défaut. Arrête tout si un diagnostic est inconnu. */
   function definir(d) {
     d.parDx = Object.fromEntries(d.diagnostics.map(x => [x.id, x]));
@@ -58,6 +80,11 @@
     for (const [a, b] of d.compatibles || []) {
       if (!d.parDx[a] || !d.parDx[b]) throw new Error(`Diagnostic inconnu dans « compatibles » : ${a}, ${b}`);
       d.compat.add(`${a}|${b}`); d.compat.add(`${b}|${a}`);
+    }
+    const ident = d.sections.find(s => s.id === "identification");
+    if (ident && !ident.blocs.some(b => b.questions.some(q => q.id === "milieu"))) {
+      const qs = ident.blocs[0].questions, i = qs.findIndex(q => q.id === "age");
+      qs.splice(i + 1, 0, milieu(d));
     }
     d.questions = []; d.parQ = {};
     for (const s of d.sections) for (const b of s.blocs) for (const q of b.questions) {

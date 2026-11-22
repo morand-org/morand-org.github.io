@@ -23,20 +23,20 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
      - `python3 -I outils/locomoteur/fiches-hy/extraire.py <pdf> outils/locomoteur/fiches-hy/<série>.json locomoteur/<région>/fiches/img` ;
      - ajouter la série et ses liens dans `REGIONS` de `fiches-hy.mjs` ;
      - lancer `node outils/locomoteur/fiches-hy.mjs`.
-2. **Point 23.** Les prompts sont prêts dans `delegation/prompts-chatgpt-23.md`. À l'arrivée des fichiers JSON de ChatGPT, intégrer :
+2. **Point 23.** (en attente des fichiers de ChatGPT) Les prompts sont prêts dans `delegation/prompts-chatgpt-23.md`. À l'arrivée des fichiers JSON de ChatGPT, intégrer :
    - les fiches d'exercices imprimables ;
    - l'encadré « Retour au sport » ;
    - la bibliothèque d'infiltrations.
 
    Ensuite, vérifier les références et ajouter à la liste OpenEvidence les doses et les chiffres à confirmer.
 3. Puis, du plus simple au plus long :
-   1. **17. Repère « Pondéré ».** Légende du trait doré (questions qui comptent dans le calcul) et du statut des poids (vérifié ou provisoire).
-   2. **9. Diagnostics qui peuvent coexister.** Quand deux diagnostics probables sont compatibles (`compatibles` des données), le dire (ex. « arthrose et déchirure méniscale : souvent associées »).
-   3. **16. Indicateur d'avancement.** Par section (« Examen : 6 sur 14 ») et sections importantes encore vides.
-   4. **3. Éléments clés non évalués.** Pour les 3 premiers diagnostics, les tests décisifs qui n'ont pas été faits (« Lachman non évalué »). Non évalué n'est jamais un négatif.
-   5. **2. Indicateur de fiabilité par région.** Faible, moyenne ou bonne, selon les éléments discriminants répondus, la part de poids vérifiés et la largeur de la fourchette.
-   6. **10. Douleur projetée d'une région à l'autre.** Proposer d'ajouter la plainte voisine : hanche quand le genou est douloureux, cou quand c'est l'épaule ou le coude, dos quand c'est la hanche.
-   7. **7. « Qu'est-ce qui me ferait changer d'avis ? »** Pour le diagnostic de tête, ce qui le ferait tomber ; pour le 2ᵉ, ce qui le ferait passer premier.
+   1. ✅ (PR #13) **17. Repère « Pondéré ».** Légende du trait doré (questions qui comptent dans le calcul) et du statut des poids (vérifié ou provisoire).
+   2. ✅ (PR #13) **9. Diagnostics qui peuvent coexister.** Quand deux diagnostics probables sont compatibles (`compatibles` des données), le dire (ex. « arthrose et déchirure méniscale : souvent associées »).
+   3. ✅ (PR #13) **16. Indicateur d'avancement.** Par section (« Examen : 6 sur 14 ») et sections importantes encore vides.
+   4. ✅ (PR #13) **3. Éléments clés non évalués.** Pour les 3 premiers diagnostics, les tests décisifs qui n'ont pas été faits (« Lachman non évalué »). Non évalué n'est jamais un négatif.
+   5. ✅ (PR #13) **2. Indicateur de fiabilité par région.** Faible, moyenne ou bonne, selon les éléments discriminants répondus, la part de poids vérifiés et la largeur de la fourchette.
+   6. ✅ (PR #13) **10. Douleur projetée d'une région à l'autre.** Proposer d'ajouter la plainte voisine : hanche quand le genou est douloureux, cou quand c'est l'épaule ou le coude, dos quand c'est la hanche.
+   7. ✅ (PR #13) **7. « Qu'est-ce qui me ferait changer d'avis ? »** Pour le diagnostic de tête, ce qui le ferait tomber ; pour le 2ᵉ, ce qui le ferait passer premier.
    8. **1. Bandeau « Sécurité » en tête des résultats.** Alertes de toutes les plaintes, en rouge (urgence), orange (rapide) et jaune (à considérer), visibles aussi sur ordinateur. Les drapeaux rouges vérifiés et absents s'écrivent dans la note.
    9. **5. Contexte de consultation.** Bureau, urgence ou clinique sportive, qui ajuste les fréquences de départ.
    10. **8. Comparateur de deux diagnostics.** Côte à côte, avec les éléments qui les départagent le mieux.

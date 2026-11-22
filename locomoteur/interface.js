@@ -385,6 +385,43 @@
     if (hausse) lignes.push(`<li><strong>${esc(s2.x.nom)}</strong> passerait en tête (${pct(hausse.p)}) si ${esc(lib(hausse.q, hausse.v))}.</li>`);
     return lignes.length ? `<div class="lo-changer"><p class="lo-changer-titre">Ce qui ferait changer d'avis</p><ul>${lignes.join("")}</ul></div>` : "";
   }
+  /* Comparateur (point 8) : deux diagnostics côte à côte, avec les éléments qui les départagent le mieux
+     (écart des rapports de vraisemblance), l'effet sur chacun et la réponse actuelle. */
+  const comparaisons = new Map();
+  function departageurs(d, a, b) {
+    const parQ = new Map();
+    for (const q of d.questions) {
+      if (CONTEXTE.has(q.id) || q.type === "texte" || q.type === "miroir") continue;
+      const constats = new Map(), ajoute = (v, dx, rv) => { const c = constats.get(v) || { a: 1, b: 1 }; if (dx === a) c.a *= rv; if (dx === b) c.b *= rv; constats.set(v, c); };
+      for (const e of q.effets) {
+        if (e.dx !== a && e.dx !== b) continue;
+        if (e.rv) { for (const [v, rv] of Object.entries(e.rv)) ajoute(v, e.dx, rv); continue; }
+        const [p, n] = LO.rvPosNeg(e);
+        if (q.type === "multi") ajoute(e.opt, e.dx, p); else { ajoute("oui", e.dx, p); ajoute("non", e.dx, n); }
+      }
+      for (const [v, c] of constats) {
+        const ecart = Math.abs(Math.log(c.a) - Math.log(c.b));
+        if (ecart >= Math.log(2) && (!parQ.has(q.id) || parQ.get(q.id).ecart < ecart)) parQ.set(q.id, { q, v, ...c, ecart });
+      }
+    }
+    return [...parQ.values()].sort((x, y) => y.ecart - x.ecart).slice(0, 6);
+  }
+  function comparerHtml(r, res) {
+    const L = res.diagnostics.filter(x => !x.residuel);
+    if (L.length < 2) return "";
+    const [a, b] = comparaisons.get(r) || [L[0].id, L[1].id], d = D(r), X = id => d.parDx[id];
+    const options = sel => L.map(x => `<option value="${x.id}"${x.id === sel ? " selected" : ""}>${esc(x.x.nom)} (${pct(x.p)})</option>`).join("");
+    const fx = rv => `<span class="lo-fleche" data-sens="${rv > 1 ? "haut" : rv < 1 ? "bas" : ""}">${rv > 1 ? "↑" : rv < 1 ? "↓" : "="} ×${nb(rv)}</span>`;
+    const rep = q => { const v = res.rep[q.id]; return v === undefined ? "non évalué" : Array.isArray(v) ? v.map(x => LO.libelleOption(q, x)).join(", ") : LO.libelleOption(q, v); };
+    const court = id => X(id).nom.replace(/\s*\(.*$/, "");
+    const lignes = departageurs(d, a, b).map(t => `<li><span class="lo-comparer-el">${esc(t.q.court && t.q.libelle.length > 40 ? t.q.court : t.q.libelle)} : ${esc(t.q.type === "oui_non" ? (t.v === "oui" ? "positif ou présent" : "négatif ou absent") : LO.libelleOption(t.q, t.v).toLowerCase())}</span>
+      <span class="lo-comparer-fx"><span>${esc(court(a))} ${fx(t.a)}</span><span>${esc(court(b))} ${fx(t.b)}</span><span class="lo-discret">réponse : ${esc(rep(t.q).toLowerCase())}</span></span></li>`).join("");
+    return `<details class="lo-comparer"${comparaisons.has(r) ? " open" : ""}><summary>Comparer deux diagnostics</summary>
+      <div class="lo-comparer-choix"><select data-comparer="${r}" data-rang="0" aria-label="Premier diagnostic">${options(a)}</select><span aria-hidden="true">contre</span><select data-comparer="${r}" data-rang="1" aria-label="Second diagnostic">${options(b)}</select></div>
+      ${a === b ? "<p class=\"lo-discret\">Choisissez deux diagnostics différents.</p>" : lignes ? `<p class="lo-comparer-titre">Éléments qui les départagent le mieux</p><ul class="lo-comparer-liste">${lignes}</ul>`
+        : "<p class=\"lo-discret\">Aucun élément du questionnaire ne les départage nettement.</p>"}
+    </details>`;
+  }
   function itemDx(r, res, x, avecCles) {
     const verifies = x.comptes.filter(c => c.e.statut === "verifie" || c.e.statut === "valide").length;
     return `<li class="lo-dx-item" data-cat="${x.categorie[2]}" data-dx="${x.id}"><details${ouverts.has(`${r}|${x.id}`) ? " open" : ""}>
@@ -416,7 +453,21 @@
     return groupe("À considérer en premier", premiers, true) + coexist + changerAvis(r, res) + groupe(premiers.length ? "À garder en tête" : "Hypothèses", garder, !premiers.length) + groupe("À ne pas manquer", graves, false)
       + (L.length > montres.size + graves.length || tousR.has(r) ? `<button type="button" class="lo-lien lo-tous" data-tous="${r}">${tousR.has(r) ? "Afficher moins" : `Afficher les ${L.length} diagnostics`}</button>` : "");
   }
+  /* Bandeau « Sécurité » (point 1) : alertes de toutes les plaintes, en rouge (urgence), orange (rapide) et jaune (à
+     considérer), au-dessus des onglets ; le détail et la conduite restent sous « Diagnostics ». */
+  function securite(regs) {
+    const el = $("#lo-securite"); if (!el) return;
+    const vues = new Set(), items = [], ordre = { urgence: 0, rapide: 1, considerer: 2 };
+    for (const r of regs) for (const a of derniers[r].alertes) {
+      if (!(a.niveau in ordre) || vues.has(a.niveau + a.titre)) continue;
+      vues.add(a.niveau + a.titre); items.push({ ...a, r });
+    }
+    items.sort((a, b) => ordre[a.niveau] - ordre[b.niveau]);
+    el.hidden = !items.length;
+    el.innerHTML = items.length ? `<p class="lo-securite-titre">Sécurité</p><ul>${items.map(a => `<li data-niveau="${a.niveau}"><span class="lo-niveau">${NIVEAU[a.niveau]}</span><span>${esc(a.titre)}${regs.length > 1 ? ` <span class="lo-securite-region">· ${esc(NOMS[a.r])}</span>` : ""}</span></li>`).join("")}</ul>` : "";
+  }
   function resultats(regs) {
+    securite(regs);
     const zone = $("#lo-dx-regions"), plusieurs = regs.length > 1;
     if (!regs.length) { zone.innerHTML = ""; $("#lo-res-etat").textContent = "Choisissez la région de la plainte."; return; }
     const r0 = derniers[regs[0]], saisies = compteSaisies();
@@ -424,13 +475,18 @@
     $("#lo-res-etat").textContent = !saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(r0)}). Remplissez l'anamnèse et l'examen.`
         : regs.map(r => `${plusieurs ? `${plainteTitre(r)} : ` : `${saisies} réponse${saisies > 1 ? "s" : ""} · `}${derniers[r].diagnostics[0].categorie[1].toLowerCase()} : ${derniers[r].diagnostics[0].x.nom.toLowerCase()}`).join(" · ");
-    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${fiabilite(derniers[r])}${projetees(r, derniers[r])}${dxHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
+    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${fiabilite(derniers[r])}${projetees(r, derniers[r])}${dxHtml(r, derniers[r])}${comparerHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
     for (const ol of zone.querySelectorAll("ol.lo-dx")) for (const li of ol.children) {
       const r = ol.dataset.region, x = derniers[r].diagnostics.find(y => y.id === li.dataset.dx);
       li.style.setProperty("--val", x.p.toFixed(4)); li.style.setProperty("--bas", x.bas.toFixed(4)); li.style.setProperty("--haut", x.haut.toFixed(4));
       li.querySelector("details").addEventListener("toggle", ev => { if (ev.target.open) ouverts.add(`${r}|${x.id}`); else ouverts.delete(`${r}|${x.id}`); });
     }
   }
+  $("#lo-dx-regions").addEventListener("change", e => {
+    const s = e.target.closest("select[data-comparer]"); if (!s) return;
+    const r = s.dataset.comparer, z = s.closest(".lo-comparer"), [a, b] = [...z.querySelectorAll("select")].map(x => x.value);
+    comparaisons.set(r, [a, b]); resultats(actives());
+  });
   $("#lo-dx-regions").addEventListener("click", e => {
     const aj = e.target.closest("button[data-ajouter]");
     if (aj) { const puce = form.querySelector(`.lo-puce[data-region="${aj.dataset.ajouter}"]`); if (puce) { puce.click(); puce.scrollIntoView({ block: "center" }); } return; }

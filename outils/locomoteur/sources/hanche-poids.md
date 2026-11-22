@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs hanche` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 289 (validés 0, vérifiés 25, à vérifier 8, provisoires 256).
+Poids : 306 (validés 0, vérifiés 25, à vérifier 8, provisoires 273).
 
 ## Coxarthrose
 
@@ -12,6 +12,7 @@ Repères publiés : Symptomatique 9,2 % après 45 ans ; 6,2 % après 60 ans ; 8 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>coxarthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>coxarthrose` | Hanche atteinte | — | — | Les deux 1,3 | provisoire | — |
 | `travail>coxarthrose` | Occupation | — | — | Travail physique (charges, manutention) 1,3 | provisoire | — |
 | `atcd_fam_arthrose>coxarthrose` | ATCD familial d'arthrose | 34 % | 84 % | 2,12 / 0,79 | verifie | Metcalfe et coll., 2019, JAMA (examen clinique rationnel, coxarthrose) : RV+ 2,1 (1,2–3,6) |
@@ -106,6 +107,7 @@ Repères publiés : Hanche et aine : 11 % des blessures sportives ; adducteurs 6
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>adducteurs` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>adducteurs` | Hanche atteinte | — | — | Les deux 0,5 | provisoire | — |
 | `sport.aucun>adducteurs` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.pivot>adducteurs` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 2,5 / 1 | provisoire | — |
@@ -138,6 +140,7 @@ Repères publiés : 19–24 % des blessures en football professionnel ; 37 % des
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ij_aigu` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>ij_aigu` | Hanche atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.aucun>ij_aigu` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.course>ij_aigu` | Activités physiques : Course à pied | — | — | 1,5 / 1 | provisoire | — |
@@ -168,6 +171,7 @@ Repères publiés : 681/100 000 après 55 ans (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fracture` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>fracture` | Hanche atteinte | — | — | Les deux 0,05 | provisoire | — |
 | `osteoporose>fracture` | Ostéoporose ou fracture de fragilité | — | — | 2 / 0,9 | provisoire | — |
 | `duree>fracture` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 0,8 ; 6 semaines à 3 mois 0,3 ; Plus de 3 mois 0,05 | provisoire | — |
@@ -192,6 +196,7 @@ Repères publiés : 17 % des consultants pour douleur de hanche ; labrum : 22–
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>cfa` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>cfa` | Hanche atteinte | — | — | Les deux 0,6 | provisoire | — |
 | `sport.aucun>cfa` | Activités physiques : Peu ou pas de sport | — | — | 0,6 / 1 | provisoire | — |
 | `sport.pivot>cfa` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
@@ -226,6 +231,7 @@ Repères publiés : 12–36 % des douleurs inguinales du sportif (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>psoas` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.aucun>psoas` | Activités physiques : Peu ou pas de sport | — | — | 0,5 / 1 | provisoire | — |
 | `sport.course>psoas` | Activités physiques : Course à pied | — | — | 1,3 / 1 | provisoire | — |
 | `sport.pivot>psoas` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
@@ -308,6 +314,7 @@ Repères publiés : 0,5–8 % des athlètes ; 9 % des lésions hanche-aine du sp
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>osteite` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>osteite` | Hanche atteinte | — | — | Les deux 1,5 | provisoire | — |
 | `sport.aucun>osteite` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.pivot>osteite` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 2 / 1 | provisoire | — |
@@ -334,6 +341,7 @@ Repères publiés : 2–5 % des blessures sportives ; 7 % chez le sportif (A, C)
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>parietale` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.aucun>parietale` | Activités physiques : Peu ou pas de sport | — | — | 0,3 / 1 | provisoire | — |
 | `sport.pivot>parietale` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 2,5 / 1 | provisoire | — |
 | `sport.contact>parietale` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 2 / 1 | provisoire | — |
@@ -358,6 +366,7 @@ Repères publiés : 56 % des lésions apophysaires du membre inférieur en acad�
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>avulsion` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>avulsion` | Hanche atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.aucun>avulsion` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.pivot>avulsion` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,8 / 1 | provisoire | — |
@@ -387,6 +396,7 @@ Repères publiés : Pas d'incidence ; coureurs (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ij_tendino` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.course>ij_tendino` | Activités physiques : Course à pied | — | — | 2 / 1 | provisoire | — |
 | `duree>ij_tendino` | Depuis combien de temps | — | — | Moins de 7 jours 0,2 ; Plus de 3 mois 2 | provisoire | — |
 | `apparition>ij_tendino` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,3 ; Graduel 2,5 | provisoire | — |
@@ -412,6 +422,7 @@ Repères publiés : Environ 10,8/100 000 enfants (4,8 dans une autre série) (A,
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>epiphysiolyse` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>epiphysiolyse` | Hanche atteinte | — | — | Les deux 1,2 | provisoire | — |
 | `apparition>epiphysiolyse` | Mode d'apparition | — | — | Subit, avec un traumatisme 1,5 ; Subit, sans traumatisme 2 ; Graduel 1,5 | provisoire | — |
 | `appui_impossible>epiphysiolyse` | Incapable de mettre du poids sur la jambe | — | — | 3 / 0,8 | provisoire | — |
@@ -433,6 +444,7 @@ Repères publiés : Moins de 5 % des fractures de stress ; diaphyse : 14,3 % des
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ff_col` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>ff_col` | Hanche atteinte | — | — | Les deux 0,4 | provisoire | — |
 | `sport.aucun>ff_col` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.course>ff_col` | Activités physiques : Course à pied | — | — | 2,5 / 1 | provisoire | — |
@@ -462,6 +474,7 @@ Repères publiés : 2,5/100 000 p-a ; 2ᵉ pic féminin vers 70 ans (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>osteonecrose` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>osteonecrose` | Hanche atteinte | — | — | Les deux 1,5 | provisoire | — |
 | `fluoro_cortico>osteonecrose` | Fluoroquinolone ou corticoïde récents | — | — | 5 / 0,8 | a_verifier | Fukushima et coll., 2013 (PMID 23450014) : corticoïdes, rapport de cotes 31,5 (facteur de risque, pas un RV) |
 | `duree>osteonecrose` | Depuis combien de temps | — | — | Moins de 7 jours 0,5 | provisoire | — |
@@ -487,6 +500,7 @@ Repères publiés : 5,5 % des diagnostics de surmenage chez l'enfant (C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>apophysite` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.course>apophysite` | Activités physiques : Course à pied | — | — | 1,5 / 1 | provisoire | — |
 | `apparition>apophysite` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,4 ; Graduel 3 | provisoire | — |
 | `localisation.crete>apophysite` | Où est la douleur : Crête iliaque ou épine antérieure du bassin | — | — | 5 / 0,3 | provisoire | — |
@@ -507,6 +521,7 @@ Repères publiés : 18,2 % des blessures hanche-cuisse du sportif (C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>contusion` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>contusion` | Hanche atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.contact>contusion` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 2,5 / 1 | provisoire | — |
 | `sport.glisse>contusion` | Activités physiques : Ski ou planche | — | — | 1,3 / 1 | provisoire | — |
@@ -530,6 +545,7 @@ Repères publiés : Jusqu'à 9,35/1 000 chez les femmes de 90 ans et plus (C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>bassin` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>bassin` | Hanche atteinte | — | — | Les deux 0,5 | provisoire | — |
 | `osteoporose>bassin` | Ostéoporose ou fracture de fragilité | — | — | 3 / 0,8 | provisoire | — |
 | `duree>bassin` | Depuis combien de temps | — | — | Moins de 7 jours 2 | provisoire | — |
@@ -586,6 +602,7 @@ Repères publiés : Sujet âgé (C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ppr` | Milieu de consultation | — | — | Urgence 1,2 ; Clinique de médecine du sport 0,36 | provisoire | — |
 | `cote>ppr` | Hanche atteinte | — | — | Les deux 5 | provisoire | — |
 | `atcd_rhumato.uveite>ppr` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Uvéite | — | — | 1 / 1 | provisoire | — |
 | `atcd_rhumato.psoriasis>ppr` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Psoriasis | — | — | 1 / 1 | provisoire | — |

@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs genou` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 484 (validés 0, vérifiés 45, à vérifier 3, provisoires 436).
+Poids : 496 (validés 0, vérifiés 45, à vérifier 3, provisoires 448).
 
 ## Syndrome fémoro-patellaire
 
@@ -12,6 +12,7 @@ Repères publiés : 28,9 % des adolescents par an ; 25–40 % des gonalgies avan
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>sfp` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>sfp` | Genou atteint | — | — | Les deux 1,8 | provisoire | — |
 | `sport.aucun>sfp` | Activités physiques : Peu ou pas de sport | — | — | 0,8 / 1 | provisoire | — |
 | `sport.course>sfp` | Activités physiques : Course à pied | — | — | 1,5 / 1 | provisoire | — |
@@ -72,6 +73,7 @@ Repères publiés : Symptomatique chez 12,1 % après 60 ans (environ 20 % après
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>arthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>arthrose` | Genou atteint | — | — | Les deux 1,5 | provisoire | — |
 | `travail>arthrose` | Occupation | — | — | Travail physique (charges, manutention) 1,2 ; Travail à genoux (plancher, toiture, plomberie…) 1,2 | provisoire | — |
 | `sport.marche>arthrose` | Activités physiques : Marche ou randonnée | — | — | 1,1 / 1 | provisoire | — |
@@ -136,6 +138,7 @@ Repères publiés : 61–79/100 000/an ; 9 % des gonalgies de l'adulte en premi�
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>menisque` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>menisque` | Genou atteint | — | — | Les deux 0,5 | provisoire | — |
 | `travail>menisque` | Occupation | — | — | Travail physique (charges, manutention) 1,2 ; Travail à genoux (plancher, toiture, plomberie…) 1,3 | provisoire | — |
 | `sport.pivot>menisque` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,4 / 1 | provisoire | — |
@@ -196,6 +199,7 @@ Repères publiés : 68,6/100 000 p-a ; pic de 228 chez les filles de 14–18 ans
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>lca` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>lca` | Genou atteint | — | — | Les deux 0,3 | provisoire | — |
 | `sport.aucun>lca` | Activités physiques : Peu ou pas de sport | — | — | 0,5 / 1 | provisoire | — |
 | `sport.pivot>lca` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 2 / 1 | provisoire | — |
@@ -251,6 +255,7 @@ Repères publiés : Isolée : 1,8/100 000 ; 2,4–4,7 % des blessures du genou c
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>lcp` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>lcp` | Genou atteint | — | — | Les deux 0,3 | provisoire | — |
 | `sport.contact>lcp` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 2 / 1 | provisoire | — |
 | `duree>lcp` | Depuis combien de temps | — | — | Moins de 7 jours 2 | provisoire | — |
@@ -276,6 +281,7 @@ Repères publiés : LLI : 27–34 % des lésions du genou en sport professionnel
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>collat` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>collat` | Genou atteint | — | — | Les deux 0,3 | provisoire | — |
 | `sport.aucun>collat` | Activités physiques : Peu ou pas de sport | — | — | 0,7 / 1 | provisoire | — |
 | `sport.pivot>collat` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
@@ -362,6 +368,7 @@ Repères publiés : 14 % des athlètes d'élite, environ 45 % au volley ; 1,6/1 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>tendino` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>tendino` | Genou atteint | — | — | Les deux 1,4 | provisoire | — |
 | `sport.aucun>tendino` | Activités physiques : Peu ou pas de sport | — | — | 0,5 / 1 | provisoire | — |
 | `sport.course>tendino` | Activités physiques : Course à pied | — | — | 1,2 / 1 | provisoire | — |
@@ -436,6 +443,7 @@ Repères publiés : 5–14 % des blessures de course ; 4,7 % chez l'enfant (A258
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>bit` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>bit` | Genou atteint | — | — | Les deux 1,2 | provisoire | — |
 | `sport.aucun>bit` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.course>bit` | Activités physiques : Course à pied | — | — | 2,5 / 1 | provisoire | — |
@@ -516,6 +524,7 @@ Repères publiés : Environ 10 % à 12–15 ans (9,8 %) ; risque doublé par le 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>osgood` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>osgood` | Genou atteint | — | — | Les deux 1,6 | provisoire | — |
 | `sport.pivot>osgood` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.danse>osgood` | Activités physiques : Danse, gymnastique ou cheerleading | — | — | 1,3 / 1 | provisoire | — |
@@ -548,6 +557,7 @@ Repères publiés : 3ᵉ rang chez l'enfant ; pas d'incidence spécifique (A268�
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>slj` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>slj` | Genou atteint | — | — | Les deux 1,6 | provisoire | — |
 | `sport.pivot>slj` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.danse>slj` | Activités physiques : Danse, gymnastique ou cheerleading | — | — | 1,3 / 1 | provisoire | — |
@@ -580,6 +590,7 @@ Repères publiés : Entorse et contusion : 42 % des gonalgies aiguës de l'adult
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>contusion` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>contusion` | Genou atteint | — | — | Les deux 0,3 | provisoire | — |
 | `sport.pivot>contusion` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,2 / 1 | provisoire | — |
 | `sport.contact>contusion` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,5 / 1 | provisoire | — |
@@ -772,6 +783,7 @@ Repères publiés : 0,3 % des gonalgies de l'adulte ; plus fréquente après 80 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>septique` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>septique` | Genou atteint | — | — | Les deux 0,2 | provisoire | — |
 | `atcd_rhumato.par>septique` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Polyarthrite rhumatoïde | 68 % | 73 % | 2,52 / 0,44 | verifie | Margaretten et coll., 2007, JAMA (examen clinique rationnel) : PAR connue, RV+ 2,5, RV− 0,45 |
 | `duree>septique` | Depuis combien de temps | — | — | Moins de 7 jours 2,5 ; 6 semaines à 3 mois 0,2 ; Plus de 3 mois 0,1 | provisoire | — |

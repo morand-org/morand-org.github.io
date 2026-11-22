@@ -245,7 +245,7 @@
   /* Questions communes à toutes les plaintes d'une consultation (même réponse pour chaque région) et section où elles
      s'affichent. Les investigations et le plan sont communs en entier ; les autres questions sont propres à chaque plainte. */
   C.PARTAGES = {
-    identification: ["visite", "sexe", "age", "accompagne", "refere", "lateralite", "administratif"],
+    identification: ["visite", "sexe", "age", "milieu", "accompagne", "refere", "lateralite", "administratif"],
     hdv: ["travail", "travail_precision", "sport", "sport_precision", "tabac", "alcool_drogues"],
     atcd: ["atcd_nil", "atcd_msk", "atcd_medicaux", "obesite", "diabete", "osteoporose", "fluoro_cortico", "rx", "atcd_autres", "atcd_familiaux", "atcd_rhumato"],
     drapeaux: ["fievre", "sympt_generaux", "atcd_cancer"],
