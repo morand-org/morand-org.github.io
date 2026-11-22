@@ -13,6 +13,7 @@ Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou l
 | Cervicalgie ou douleur cervico-brachiale | 3 | 17 | 13 | 12 |
 | Douleur à l'épaule | 3 | 17 | 7 | 21 |
 | Douleur au coude | 4 | 17 | 4 | 28 |
+| Douleur au poignet ou à la main | 4 | 29 | 7 | 35 |
 | Lombalgie, avec ou sans irradiation | 3 | 16 | 4 | 3 |
 | Douleur à la hanche ou à l'aine | 3 | 21 | 9 | 18 |
 | Douleur au genou | 3 | 23 | 3 | 22 |
@@ -324,6 +325,166 @@ COUD-P30. « Tophus » — current LR+ 8, LR− 0.9
 Target diagnosis: cervical radiculopathy referred to the elbow
 COUD-P31. « Douleur aggravée par les mouvements du cou » — current LR+ 5, LR− 0.5
 COUD-P32. « Spurling ou mouvements du cou reproduisant la douleur » — current LR+ 5, LR− 0.4
+
+Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
+```
+
+## Douleur au poignet ou à la main (POIG)
+
+### POIG 1. Fréquences de départ (29 éléments)
+
+```text
+Among patients 12 years and older consulting in primary care or sports medicine for wrist or hand pain, what proportion has each of the following diagnoses? Our current estimates of the proportion by age are given; confirm or correct them.
+
+POIG-F1. carpal tunnel syndrome — current estimate: 12 y 1%, 30 y 8%, 50 y 15%, 70 y 12%; women ×1.5, men ×0.6
+POIG-F2. distal radius fracture (including buckle fracture) — current estimate: 12 y 6%, 18 y 3%, 40 y 2%, 65 y 5%, 85 y 7%; women ×1.3, men ×0.8
+POIG-F3. scaphoid fracture — current estimate: 12 y 1%, 18 y 3%, 30 y 2%, 60 y 0.8%; men ×1.5, women ×0.6
+POIG-F4. perilunate dislocation — current estimate: 12 y 0.03%, 25 y 0.1%, 50 y 0.05%; men ×2, women ×0.5
+POIG-F5. ganglion cyst — current estimate: 12 y 4%, 30 y 5%, 50 y 4%, 70 y 3%; women ×1.5, men ×0.7
+POIG-F6. De Quervain tenosynovitis — current estimate: 12 y 1%, 30 y 5%, 50 y 6%, 70 y 3%; women ×2, men ×0.4
+POIG-F7. other wrist tenosynovitis (extensor carpi ulnaris, intersection syndrome) — current estimate: 12 y 2%, 30 y 4%, 50 y 4%, 70 y 3%
+POIG-F8. wrist osteoarthritis (SLAC, SNAC, STT) — current estimate: 12 y 0.05%, 40 y 0.5%, 60 y 2%, 80 y 2%; men ×1.5, women ×0.7
+POIG-F9. triangular fibrocartilage complex tear or distal radioulnar instability — current estimate: 12 y 1%, 25 y 3%, 50 y 3%, 70 y 2%
+POIG-F10. scapholunate ligament injury — current estimate: 12 y 0.3%, 25 y 0.8%, 50 y 0.8%, 70 y 0.5%; men ×1.5, women ×0.7
+POIG-F11. gymnast wrist (distal radial physeal stress injury) — current estimate: 12 y 2%, 15 y 2%, 18 y 0.2%, 22 y 0.02%
+POIG-F12. hook of hamate fracture — current estimate: 12 y 0.1%, 25 y 0.2%, 50 y 0.1%; men ×2, women ×0.5
+POIG-F13. Kienböck disease — current estimate: 12 y 0.05%, 30 y 0.2%, 50 y 0.1%; men ×1.5, women ×0.7
+POIG-F14. ulnar neuropathy at Guyon canal — current estimate: 12 y 0.1%, 30 y 0.3%, 60 y 0.3%
+POIG-F15. hand osteoarthritis (Heberden and Bouchard nodes) — current estimate: 12 y 0.05%, 40 y 3%, 55 y 12%, 70 y 20%, 85 y 22%; women ×1.4, men ×0.7
+POIG-F16. thumb carpometacarpal osteoarthritis — current estimate: 12 y 0.05%, 40 y 2%, 55 y 8%, 70 y 10%; women ×1.6, men ×0.6
+POIG-F17. trigger finger — current estimate: 12 y 0.3%, 40 y 3%, 60 y 5%, 80 y 3%; women ×1.5, men ×0.7
+POIG-F18. hand fracture (metacarpal, phalanx, Bennett) — current estimate: 12 y 6%, 20 y 7%, 35 y 4%, 65 y 3%; men ×1.6, women ×0.6
+POIG-F19. finger PIP sprain or dislocation (including boutonnière) — current estimate: 12 y 4%, 20 y 4%, 40 y 2%, 70 y 1%; men ×1.3, women ×0.8
+POIG-F20. Dupuytren disease — current estimate: 12 y 0.01%, 40 y 0.5%, 55 y 3%, 70 y 5%; men ×2, women ×0.5
+POIG-F21. thumb ulnar collateral ligament injury (skier's thumb) — current estimate: 12 y 1%, 25 y 2%, 50 y 0.8%, 70 y 0.4%
+POIG-F22. mallet finger — current estimate: 12 y 0.5%, 30 y 0.8%, 60 y 1%, 80 y 0.8%
+POIG-F23. jersey finger (flexor digitorum profundus avulsion) — current estimate: 12 y 0.1%, 20 y 0.2%, 40 y 0.1%; men ×2, women ×0.5
+POIG-F24. climber's pulley injury — current estimate: 12 y 0.1%, 25 y 0.3%, 45 y 0.1%
+POIG-F25. pyogenic flexor tenosynovitis — current estimate: 12 y 0.05%, 40 y 0.1%, 70 y 0.1%
+POIG-F26. rheumatoid arthritis of the wrist and hand — current estimate: 12 y 0.1%, 30 y 0.6%, 50 y 1%, 70 y 1%; women ×2.2, men ×0.45
+POIG-F27. gout or calcium pyrophosphate arthritis of the wrist or hand — current estimate: 12 y 0.05%, 40 y 0.4%, 65 y 1%, 85 y 2%
+POIG-F28. psoriatic arthritis (dactylitis) — current estimate: 12 y 0.05%, 30 y 0.2%, 50 y 0.3%, 70 y 0.2%
+POIG-F29. cervical radiculopathy referred to the hand — current estimate: 12 y 0.3%, 35 y 2%, 55 y 3%, 75 y 2%
+
+Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
+```
+
+### POIG 2. Poids à vérifier et combinaisons (7 éléments)
+
+```text
+For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for wrist or hand pain; the French wording is kept in quotes.
+
+Target diagnosis: distal radius fracture (including buckle fracture)
+POIG-P1. « Ecchymose » — current LR+ 5, LR− 0.8
+POIG-P2. « Dorsiflexion du poignet douloureuse » — current LR+ 1.5, LR− 0.1
+
+Target diagnosis: scaphoid fracture
+POIG-P3. « Prono-supination résistée douloureuse » — current LR+ 10, LR− 0.2
+
+Target diagnosis: De Quervain tenosynovitis
+POIG-P4. « Finkelstein test » — current LR+ 5, LR− 0.3
+
+Target diagnosis: triangular fibrocartilage complex tear or distal radioulnar instability
+POIG-P5. « Ulnar fovea sign » — current LR+ 3, LR− 0.15
+
+Target diagnosis: hand osteoarthritis (Heberden and Bouchard nodes)
+POIG-P6. « Nodules d'Heberden ou de Bouchard (élargissement osseux) » — current LR+ 8, LR− 0.2
+
+Target diagnosis: pyogenic flexor tenosynovitis
+POIG-P7. « Signes de Kanavel (enflure fusiforme, doigt fléchi, douleur à l'extension passive, gaine sensible) » — current LR+ 10, LR− 0.3
+
+Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
+```
+
+### POIG 3. Poids provisoires forts (1 sur 2) (25 éléments)
+
+```text
+For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for wrist or hand pain; the French wording is kept in quotes.
+
+Target diagnosis: distal radius fracture (including buckle fracture)
+POIG-P8. « Déformation du poignet (en dos de fourchette) ou du doigt » — current LR+ 8, LR− 0.5
+POIG-P9. « Radius distal douloureux » — current LR+ 4, LR− 0.1
+
+Target diagnosis: ganglion cyst
+POIG-P10. « Bosse ou masse visible » — current LR+ 12, LR− 0.2
+POIG-P11. « Masse ferme, lisse, qui transillumine » — current LR+ 20, LR− 0.3
+
+Target diagnosis: De Quervain tenosynovitis
+POIG-P12. « Où est la douleur : Côté du pouce du poignet (styloïde radiale, tabatière) » — current LR+ 5, LR− 0.2
+POIG-P13. « Premier compartiment (styloïde radiale) douloureux ou épaissi » — current LR+ 5, LR− 0.1
+
+Target diagnosis: triangular fibrocartilage complex tear or distal radioulnar instability
+POIG-P14. « Où est la douleur : Côté de l'auriculaire du poignet » — current LR+ 6, LR− 0.2
+
+Target diagnosis: hook of hamate fracture
+POIG-P15. « Activités physiques : Golf » — current LR+ 5, LR− 1
+POIG-P16. « Hamulus de l'hamatum douloureux (éminence hypothénar) » — current LR+ 8, LR− 0.2
+
+Target diagnosis: ulnar neuropathy at Guyon canal
+POIG-P17. « Engourdissements de l'auriculaire et de l'annulaire » — current LR+ 5, LR− 0.3
+
+Target diagnosis: hand osteoarthritis (Heberden and Bouchard nodes)
+POIG-P18. « Où est la douleur : Doigts (articulations interphalangiennes ou métacarpo-phalangiennes) » — current LR+ 5, LR− 0.2
+
+Target diagnosis: thumb carpometacarpal osteoarthritis
+POIG-P19. « Où est la douleur : Base du pouce » — current LR+ 6, LR− 0.2
+POIG-P20. « Trapézo-métacarpienne douloureuse » — current LR+ 4, LR− 0.2
+
+Target diagnosis: trigger finger
+POIG-P21. « Doigt qui accroche ou reste bloqué en flexion » — current LR+ 15, LR− 0.2
+POIG-P22. « Nodule douloureux à la poulie A1 (base du doigt, côté paume) » — current LR+ 8, LR− 0.2
+
+Target diagnosis: hand fracture (metacarpal, phalanx, Bennett)
+POIG-P23. « Doigts qui se croisent en flexion (mal rotation) » — current LR+ 15, LR− 0.7
+POIG-P24. « Métacarpien ou phalange douloureux (os) » — current LR+ 4, LR− 0.1
+
+Target diagnosis: finger PIP sprain or dislocation (including boutonnière)
+POIG-P25. « Extension active faible de l'IPP (test d'Elson) » — current LR+ 5, LR− 0.7
+
+Target diagnosis: Dupuytren disease
+POIG-P26. « Où est la douleur : Paume ou base des doigts » — current LR+ 6, LR− 0.3
+POIG-P27. « Nodule ou corde palmaire (test de la table positif) » — current LR+ 30, LR− 0.1
+
+Target diagnosis: mallet finger
+POIG-P28. « Bout du doigt tombant (extension active de l'IPD impossible) » — current LR+ 40, LR− 0.1
+
+Target diagnosis: jersey finger (flexor digitorum profundus avulsion)
+POIG-P29. « Flexion active de l'IPD impossible (fléchisseur profond) » — current LR+ 40, LR− 0.1
+
+Target diagnosis: climber's pulley injury
+POIG-P30. « Activités physiques : Escalade » — current LR+ 20, LR− 1
+POIG-P31. « Claquement (« pop ») à la base d'un doigt » — current LR+ 8, LR− 0.3
+
+Target diagnosis: pyogenic flexor tenosynovitis
+POIG-P32. « Plaie au-dessus d'une jointure après un coup de poing, ou morsure » — current LR+ 5, LR− 0.9
+
+Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
+```
+
+### POIG 4. Poids provisoires forts (2 sur 2) (10 éléments)
+
+```text
+For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for wrist or hand pain; the French wording is kept in quotes.
+
+Target diagnosis: pyogenic flexor tenosynovitis
+POIG-P33. « Coupure, piqûre ou plaie récente du doigt ou de la main » — current LR+ 6, LR− 0.5
+POIG-P34. « Gaine du fléchisseur douloureuse sur toute sa longueur » — current LR+ 5, LR− 0.3
+
+Target diagnosis: rheumatoid arthritis of the wrist and hand
+POIG-P35. « Synovite (articulations gonflées et molles : MCP, IPP, poignet) » — current LR+ 6, LR− 0.2
+
+Target diagnosis: gout or calcium pyrophosphate arthritis of the wrist or hand
+POIG-P36. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Goutte » — current LR+ 6, LR− 1
+POIG-P37. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Pseudogoutte » — current LR+ 6, LR− 1
+POIG-P38. « Rougeur ou chaleur » — current LR+ 5, LR− 0.3
+POIG-P39. « Tophus » — current LR+ 15, LR− 0.8
+
+Target diagnosis: psoriatic arthritis (dactylitis)
+POIG-P40. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Psoriasis » — current LR+ 8, LR− 0.9
+
+Target diagnosis: cervical radiculopathy referred to the hand
+POIG-P41. « Douleur ou engourdissement aggravés par les mouvements du cou » — current LR+ 6, LR− 0.5
+POIG-P42. « Spurling ou mouvements du cou reproduisant les symptômes » — current LR+ 5, LR− 0.4
 
 Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
 ```
