@@ -310,7 +310,7 @@
     return `<li class="lo-dx-item" data-cat="${x.categorie[2]}" data-dx="${x.id}"><details${ouverts.has(`${r}|${x.id}`) ? " open" : ""}>
       <summary><span class="lo-dx-ligne"><span class="lo-dx-nom">${esc(x.x.nom)}</span><span class="lo-dx-pct">${pct(x.p)}</span></span>
         <span class="lo-jauge" aria-hidden="true"><span class="lo-jauge-plage"></span><span class="lo-jauge-val"></span></span>
-        <span class="lo-dx-ligne lo-dx-sous"><span class="lo-dx-cat">${x.categorie[1]}</span><span>fourchette ${pct(x.bas)} à ${pct(x.haut)}</span></span>${avecCles ? cles3(x) : ""}</summary>
+        <span class="lo-dx-ligne lo-dx-sous"><span class="lo-dx-cat">${x.categorie[1]}</span><span title="Analyse de sensibilité : poids 30 % plus faibles ou plus forts, fréquence de départ 1,5 fois plus basse ou plus haute">si les poids varient : ${pct(x.bas)} à ${pct(x.haut)}</span></span>${avecCles ? cles3(x) : ""}</summary>
       <div class="lo-pourquoi">
         ${x.comptes.length ? `<p class="lo-discret">Éléments qui comptent : ${x.comptes.length}, dont ${verifies} vérifié${verifies > 1 ? "s" : ""} dans la littérature ; les autres poids sont provisoires.</p>` : ""}
         ${x.residuel ? `<p>${esc(x.x.explication || "Probabilité qu'aucun des diagnostics de la liste ne soit en cause.")}</p>` : `<p>Départ (${esc(departTexte(res))}) : ${pctExact(x.depart)}.</p>`}
@@ -433,9 +433,13 @@
   if ("IntersectionObserver" in window) new IntersectionObserver(es => { resultatsVus = es[0].isIntersecting; barre(actives()); }).observe($("#resultats"));
   function barre(regs) {
     const b = $("#lo-barre"), saisies = Object.values(etat.par).reduce((n, o) => n + Object.keys(o).length, 0);
-    const montrer = !!(derniers && regs.length && saisies > 2 && !resultatsVus && matchMedia("(max-width: 1099px)").matches);
+    // Une alerte urgente ou rapide reste affichée dans la barre, avant l'hypothèse principale, jusqu'aux résultats.
+    const alerte = derniers && regs.map(r => (derniers[r].alertes || []).find(a => a.niveau === "urgence" || a.niveau === "rapide")).find(Boolean);
+    const montrer = !!(derniers && regs.length && (saisies > 2 || alerte) && !resultatsVus && matchMedia("(max-width: 1099px)").matches);
     b.hidden = !montrer;
-    if (montrer) $("#lo-barre-texte").textContent = regs.map(r => { const t = derniers[r].diagnostics[0]; return `${regs.length > 1 ? `${NOMS[r]} : ` : ""}${t.x.nom} · ${t.categorie[1].toLowerCase()}`; }).join(" | ");
+    b.classList.toggle("lo-barre-alerte", !!alerte);
+    if (montrer) $("#lo-barre-texte").textContent = alerte ? `⚠ ${alerte.titre}`
+      : regs.map(r => { const t = derniers[r].diagnostics[0]; return `${regs.length > 1 ? `${NOMS[r]} : ` : ""}${t.x.nom} · ${t.categorie[1].toLowerCase()}`; }).join(" | ");
   }
   addEventListener("resize", () => barre(actives()));
 
