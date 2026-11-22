@@ -533,7 +533,25 @@ function fichiers() {
   verifier("dépôt : CNAME et .nojekyll", lire("CNAME").trim() === "www.morand.org" && fs.existsSync(path.join(RACINE, ".nojekyll")));
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, sombre };
+/* MSK Morand : fiches high yield (bibliothèque, fiche, lien depuis le calcul). */
+async function fichesHY(nav) {
+  for (const largeur of [390, 1280]) {
+    const { ctx, p, erreurs, statut } = await ouvrir(nav, "/locomoteur/cervical/fiches/", { largeur });
+    const n = await p.locator(".hy-carte").count();
+    verifier(`fiches ${largeur} : bibliothèque cervicale (26 fiches, sans erreur ni débordement)`, statut === 200 && n === 26 && !erreurs.length && !(await deborde(p)), { statut, n, erreurs });
+    await p.click(".hy-carte >> nth=7"); await p.waitForLoadState("load");
+    const f = await p.evaluate(() => ({ cases: document.querySelectorAll(".hy-case").length, appels: [...document.querySelectorAll(".hy-appel a")].map(a => a.getAttribute("href")),
+      refs: [...document.querySelectorAll(".hy-refs li")].map(li => `#${li.id}`), img: document.querySelector(".hy-planche img").naturalWidth, titre: document.querySelector(".hy-titre").textContent }));
+    verifier(`fiches ${largeur} : fiche C8 (8 encadrés, planche, appels reliés aux références)`, f.cases === 8 && f.img > 0 && f.appels.length > 0 && f.appels.every(h => f.refs.includes(h)) && !(await deborde(p)), f);
+    await ctx.close();
+  }
+  const { ctx, p } = await ouvrir(nav, "/locomoteur/cervical/");
+  const lien = await p.evaluate(() => (window.Locomoteur.fichesHY.cervical || {}).radiculopathie);
+  verifier("fiches : le calcul cervical connaît la fiche de la radiculopathie", !!lien && /\/locomoteur\/cervical\/fiches\/c8-/.test(lien.u), lien);
+  await ctx.close();
+}
+
+const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {

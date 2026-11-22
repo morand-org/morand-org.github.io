@@ -305,6 +305,9 @@
     const pour = x.comptes.filter(c => c.l > 0).slice(0, 3), contre = x.comptes.filter(c => c.l < 0).slice(0, 2);
     return pour.length || contre.length ? `<span class="lo-dx-cles">${[...pour.map(c => `<span data-sens="haut">↑ ${esc(c.libelle)}</span>`), ...contre.map(c => `<span data-sens="bas">↓ ${esc(c.libelle)}</span>`)].join("")}</span>` : "";
   };
+  // Fiche high yield liée au diagnostic (locomoteur/fiches-hy.js), et bibliothèque de la région.
+  const hyLien = (r, id) => { const f = ((LO.fichesHY || {})[r] || {})[id]; return f ? `<p class="lo-fiches"><a class="lo-lien" href="${esc(f.u)}">Fiche high yield ${esc(f.no)}</a></p>` : ""; };
+  const hyBiblio = r => ((LO.fichesHY || {})[r] ? `<p class="lo-discret lo-hy-biblio"><a href="/locomoteur/${r}/fiches/">Fiches high yield : ${esc(NOMS[r].toLowerCase())}</a></p>` : "");
   function itemDx(r, res, x, avecCles) {
     const verifies = x.comptes.filter(c => c.e.statut === "verifie" || c.e.statut === "valide").length;
     return `<li class="lo-dx-item" data-cat="${x.categorie[2]}" data-dx="${x.id}"><details${ouverts.has(`${r}|${x.id}`) ? " open" : ""}>
@@ -317,6 +320,7 @@
         ${x.explique ? `<p>Pris seul : ${pct(x.seul)}. ${esc(x.explique.nom)}, plus probable, explique déjà une partie de ces éléments.</p>` : ""}
         ${x.comptes.length ? `<ul>${x.comptes.slice(0, 10).map(c => `<li><span class="lo-fleche" data-sens="${c.l > 0 ? "haut" : "bas"}">${c.l > 0 ? "↑" : "↓"} ×${nb(c.rv)}</span><span>${esc(c.libelle)}</span><span class="lo-statut" data-statut="${c.e.statut}">${LO.STATUTS[c.e.statut]}</span></li>`).join("")}</ul>`
           : x.residuel ? "" : "<p>Aucune réponse ne change encore ce diagnostic.</p>"}
+        ${hyLien(r, x.id)}
         ${(x.x.fiches || []).length ? `<p class="lo-fiches">${x.x.fiches.map(id => `<button type="button" class="lo-lien" data-fiche="${esc(id)}">Fiche ${id.startsWith("athlete") ? "athlète" : "50 ans et plus"}</button>`).join("")}</p>` : ""}
         ${x.comptes.length > 10 ? `<p class="lo-discret">Et ${x.comptes.length - 10} autre${x.comptes.length - 10 > 1 ? "s" : ""} élément${x.comptes.length - 10 > 1 ? "s" : ""} de moindre poids.</p>` : ""}
       </div></details></li>`;
@@ -338,7 +342,7 @@
     $("#lo-res-etat").textContent = !saisies ? "Commencez par l'âge et le sexe."
       : seulsDepart ? `Probabilités de départ (${departTexte(r0)}). Remplissez l'anamnèse et l'examen.`
         : regs.map(r => `${plusieurs ? `${plainteTitre(r)} : ` : `${saisies} réponse${saisies > 1 ? "s" : ""} · `}${derniers[r].diagnostics[0].categorie[1].toLowerCase()} : ${derniers[r].diagnostics[0].x.nom.toLowerCase()}`).join(" · ");
-    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${dxHtml(r, derniers[r])}</section>`).join("");
+    zone.innerHTML = regs.map(r => `<section class="lo-dx-region" data-region="${r}">${plusieurs ? `<h3 class="lo-c-titre">${esc(plainteTitre(r))}</h3>` : ""}<div class="lo-alertes">${alertesHtml(derniers[r].alertes, true)}</div>${dxHtml(r, derniers[r])}${hyBiblio(r)}</section>`).join("");
     for (const ol of zone.querySelectorAll("ol.lo-dx")) for (const li of ol.children) {
       const r = ol.dataset.region, x = derniers[r].diagnostics.find(y => y.id === li.dataset.dx);
       li.style.setProperty("--val", x.p.toFixed(4)); li.style.setProperty("--bas", x.bas.toFixed(4)); li.style.setProperty("--haut", x.haut.toFixed(4));
