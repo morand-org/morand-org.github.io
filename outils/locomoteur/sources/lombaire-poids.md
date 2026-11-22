@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs lombaire` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 219 (validés 0, vérifiés 43, à vérifier 4, provisoires 172).
+Poids : 229 (validés 0, vérifiés 43, à vérifier 4, provisoires 182).
 
 ## Lombalgie non spécifique (mécanique)
 
@@ -41,6 +41,7 @@ Repères publiés : Spasme 31 % et lésion musculaire paralombaire 19 % des atte
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>musculaire` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>musculaire` | Côté de la douleur ou de l'irradiation | — | — | Les deux 0,8 | provisoire | — |
 | `travail>musculaire` | Occupation | — | — | Travail physique (charges, manutention) 1,3 | provisoire | — |
 | `sport.aucun>musculaire` | Activités physiques : Peu ou pas de sport | — | — | 0,6 / 1 | provisoire | — |
@@ -73,6 +74,7 @@ Repères publiés : Dégénérescence asymptomatique 37 % à 20 ans, 96 % à 80 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>discogenique` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `duree>discogenique` | Depuis combien de temps | — | — | 6 semaines à 3 mois 1,3 ; Plus de 3 mois 1,8 | provisoire | — |
 | `apparition>discogenique` | Mode d'apparition | — | — | Graduel 1,3 | provisoire | — |
 | `localisation.centrale>discogenique` | Où est la douleur : Lombaire centrale | — | — | 2 / 0,7 | provisoire | — |
@@ -146,6 +148,7 @@ Repères publiés : 11 % de la population générale, 25 % en soins primaires (�
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>stenose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>stenose` | Côté de la douleur ou de l'irradiation | — | — | Les deux 2,5 | provisoire | — |
 | `obesite>stenose` | Obésité (IMC 30 ou plus) | — | — | 1,3 / 0,95 | provisoire | — |
 | `duree>stenose` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; Plus de 3 mois 2,5 | provisoire | — |
@@ -255,6 +258,7 @@ Repères publiés : 8,4 % des femmes, 2,7 % des hommes (A, C).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>spondylolisthesis` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `duree>spondylolisthesis` | Depuis combien de temps | — | — | Moins de 7 jours 0,4 ; Plus de 3 mois 2 | provisoire | — |
 | `apparition>spondylolisthesis` | Mode d'apparition | — | — | Insidieux 1,5 | provisoire | — |
 | `extension>spondylolisthesis` | Pire en extension ou debout cambré | — | — | 1,8 / 0,8 | provisoire | — |
@@ -275,6 +279,7 @@ Repères publiés : 4 % des lombalgies en soins primaires ; seules 20,7 % sont r
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fracture_osteo` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `fluoro_cortico>fracture_osteo` | Fluoroquinolone ou corticoïde récents | — | — | 5 / 0,9 | a_verifier | Williams et coll., 2023, Cochrane (fracture vertébrale) : corticoïdes prolongés, RV+ 3,97–48,5 selon les études |
 | `osteoporose>fracture_osteo` | Ostéoporose ou fracture de fragilité | — | — | 3,13 / — | verifie | Williams et coll., 2023, Cochrane (fracture vertébrale) : antécédent d'ostéoporose, RV+ 3,13 |
 | `duree>fracture_osteo` | Depuis combien de temps | — | — | Moins de 7 jours 2 ; 1 à 6 semaines 1,3 | provisoire | — |
@@ -306,6 +311,7 @@ Repères publiés : 47 % des adolescents sportifs lombalgiques (41,7 %) ; 5 % de
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>spondylolyse` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.aucun>spondylolyse` | Activités physiques : Peu ou pas de sport | — | — | 0,4 / 1 | provisoire | — |
 | `sport.pivot>spondylolyse` | Activités physiques : Sports de pivot ou de saut (soccer, basketball, volleyball, handball…) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.raquette>spondylolyse` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 1,3 / 1 | provisoire | — |
@@ -336,6 +342,7 @@ Repères publiés : 38 % à 40–90 ans (poolé) (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>scoliose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `duree>scoliose` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; Plus de 3 mois 2,5 | provisoire | — |
 | `apparition>scoliose` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,2 ; Insidieux 2 | provisoire | — |
 | `localisation.thoracique>scoliose` | Où est la douleur : Monte vers le dos (thoracique) | — | — | 1,3 / 0,95 | provisoire | — |
@@ -400,6 +407,7 @@ Repères publiés : 0,7 % des lombalgies en soins primaires (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>cancer` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `duree>cancer` | Depuis combien de temps | — | — | 6 semaines à 3 mois 1,5 | provisoire | — |
 | `apparition>cancer` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,5 ; Insidieux 1,2 | provisoire | — |
 | `pas_mieux_1mois>cancer` | Pas d'amélioration après 1 mois de traitement | 50 % | 81 % | 2,63 / 0,62 | verifie | Chou et coll., 2007, Ann Intern Med : RV+ 3,0 |
@@ -423,6 +431,7 @@ Repères publiés : 0,01 % des lombalgies en soins primaires (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>infection` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `fluoro_cortico>infection` | Fluoroquinolone ou corticoïde récents | — | — | 2 / 0,95 | provisoire | — |
 | `duree>infection` | Depuis combien de temps | — | — | Moins de 7 jours 1,3 | provisoire | — |
 | `apparition>infection` | Mode d'apparition | — | — | Subit, sans traumatisme 1,5 ; Insidieux 1,3 | provisoire | — |
@@ -448,6 +457,7 @@ Repères publiés : 0,04–0,08 % des lombalgies en soins primaires (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>queue` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>queue` | Côté de la douleur ou de l'irradiation | — | — | Les deux 3 | provisoire | — |
 | `localisation.deux_jambes>queue` | Où est la douleur : Les deux fesses ou les deux jambes | — | — | 3 / 0,9 | provisoire | — |
 | `faiblesse>queue` | Faiblesse d'une jambe ou pied qui accroche | — | — | 2 / 0,95 | provisoire | — |

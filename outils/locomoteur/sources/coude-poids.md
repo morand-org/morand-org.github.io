@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs coude` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 253 (validés 0, vérifiés 15, à vérifier 4, provisoires 234).
+Poids : 263 (validés 0, vérifiés 15, à vérifier 4, provisoires 244).
 
 ## Épicondylite latérale (tennis elbow)
 
@@ -12,6 +12,7 @@ Repères publiés : 3,4/1 000 personnes-années, pic de 9/1 000 à 40–49 ans ;
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>epi_lat` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `travail>epi_lat` | Occupation | — | — | Travail de bureau ou sédentaire 1,3 ; Travail physique (charges, manutention) 1,3 ; Gestes répétitifs des mains ou bras au-dessus des épaules 1,8 | provisoire | — |
 | `sport.raquette>epi_lat` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 2 / 1 | provisoire | — |
 | `sport.escalade>epi_lat` | Activités physiques : Escalade | — | — | 1,3 / 1 | provisoire | — |
@@ -45,6 +46,7 @@ Repères publiés : Prévalence 0,4 % ; 10–20 % des épicondylites (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>epi_med` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `travail>epi_med` | Occupation | — | — | Travail physique (charges, manutention) 1,3 ; Gestes répétitifs des mains ou bras au-dessus des épaules 1,8 | provisoire | — |
 | `sport.raquette>epi_med` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 1,3 / 1 | provisoire | — |
 | `sport.lancer>epi_med` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 1,5 / 1 | provisoire | — |
@@ -77,6 +79,7 @@ Repères publiés : Anomalie de l'épicondyle médial chez 40–58 % des jeunes 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>lanceur` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>lanceur` | Coude atteint | — | — | Les deux 0,3 | provisoire | — |
 | `sport.lancer>lanceur` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 5 / 1 | provisoire | — |
 | `premier>lanceur` | Premier épisode | — | — | 1,2 / 0,9 | provisoire | — |
@@ -104,6 +107,7 @@ Repères publiés : Tête et col radial 28–39/100 000/an (adulte) ; olécrâne
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fracture` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>fracture` | Coude atteint | — | — | Les deux 0,1 | provisoire | — |
 | `sport.contact>fracture` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,3 / 1 | provisoire | — |
 | `osteoporose>fracture` | Ostéoporose ou fracture de fragilité | — | — | 2 / 0,9 | provisoire | — |
@@ -153,6 +157,7 @@ Repères publiés : 5,2/100 000, pic à 10–19 ans (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>luxation` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>luxation` | Coude atteint | — | — | Les deux 0,05 | provisoire | — |
 | `sport.contact>luxation` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,5 / 1 | provisoire | — |
 | `duree>luxation` | Depuis combien de temps | — | — | Moins de 7 jours 2 ; 1 à 6 semaines 0,5 ; 6 semaines à 3 mois 0,1 ; Plus de 3 mois 0,03 | provisoire | — |
@@ -240,6 +245,7 @@ Repères publiés : Environ un tiers des bursites olécrâniennes (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>bursite_septique` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `diabete>bursite_septique` | Diabète | — | — | 1,5 / 0,95 | provisoire | — |
 | `duree>bursite_septique` | Depuis combien de temps | — | — | Moins de 7 jours 2,5 ; Plus de 3 mois 0,2 | provisoire | — |
 | `apparition>bursite_septique` | Mode d'apparition | — | — | Subit, sans traumatisme 3 | provisoire | — |
@@ -273,6 +279,7 @@ Repères publiés : Radiographique 25,2 % à 50–89 ans, symptomatique 0,9 % ; 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>arthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>arthrose` | Coude atteint | — | — | Les deux 1,5 | provisoire | — |
 | `travail>arthrose` | Occupation | — | — | Gestes répétitifs des mains ou bras au-dessus des épaules 2 | provisoire | — |
 | `atcd_fracture_coude>arthrose` | Fracture ou luxation antérieure de ce coude | — | — | 4 / 0,7 | provisoire | — |
@@ -302,6 +309,7 @@ Repères publiés : 0,95–1,4/10 000 expositions au baseball universitaire ; 31
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>lcu` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>lcu` | Coude atteint | — | — | Les deux 0,2 | provisoire | — |
 | `sport.lancer>lcu` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 5 / 1 | provisoire | — |
 | `duree>lcu` | Depuis combien de temps | — | — | Moins de 7 jours 1,3 | provisoire | — |
@@ -331,6 +339,7 @@ Repères publiés : 1,2–2,55/100 000 ; 92–96 % d'hommes, âge moyen 46 ans (
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>biceps` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>biceps` | Coude atteint | — | — | Les deux 0,1 | provisoire | — |
 | `travail>biceps` | Occupation | — | — | Gestes répétitifs des mains ou bras au-dessus des épaules 1,5 | provisoire | — |
 | `sport.muscu>biceps` | Activités physiques : Musculation, haltérophilie ou CrossFit | — | — | 2 / 1 | provisoire | — |
@@ -386,6 +395,7 @@ Repères publiés : Lésion de l'olécrâne la plus rapportée chez le sportif ;
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>conflit_post` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.lancer>conflit_post` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 4 / 1 | provisoire | — |
 | `duree>conflit_post` | Depuis combien de temps | — | — | 6 semaines à 3 mois 1,5 | provisoire | — |
 | `apparition>conflit_post` | Mode d'apparition | — | — | Graduel 2 | provisoire | — |

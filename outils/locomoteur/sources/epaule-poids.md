@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs epaule` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 253 (validés 0, vérifiés 31, à vérifier 7, provisoires 215).
+Poids : 265 (validés 0, vérifiés 31, à vérifier 7, provisoires 227).
 
 ## Douleur sous-acromiale (tendinopathie de la coiffe)
 
@@ -12,6 +12,7 @@ Repères publiés : 29 % des nouveaux cas en médecine générale ; 65–85 % se
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>sous_acro` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `travail>sous_acro` | Occupation | — | — | Travail physique (charges, manutention) 1,3 ; Gestes répétitifs des mains ou bras au-dessus des épaules 1,5 | provisoire | — |
 | `sport.raquette>sous_acro` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.lancer>sous_acro` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 1,5 / 1 | provisoire | — |
@@ -108,6 +109,7 @@ Repères publiés : 11 % des traumatismes aigus ; 25,6 % des lésions d'épaule 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ac_entorse` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>ac_entorse` | Épaule atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.aucun>ac_entorse` | Activités physiques : Peu ou pas de sport | — | — | 0,6 / 1 | provisoire | — |
 | `sport.velo>ac_entorse` | Activités physiques : Vélo | — | — | 1,3 / 1 | provisoire | — |
@@ -136,6 +138,7 @@ Repères publiés : Environ 30 % après 70 ans, la moitié asymptomatique ; 10,7
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>rupture` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>rupture` | Épaule atteinte | — | — | Les deux 0,8 | provisoire | — |
 | `travail>rupture` | Occupation | — | — | Travail physique (charges, manutention) 1,3 ; Gestes répétitifs des mains ou bras au-dessus des épaules 1,3 | provisoire | — |
 | `duree>rupture` | Depuis combien de temps | — | — | Moins de 7 jours 1,5 ; 6 semaines à 3 mois 1,2 ; Plus de 3 mois 1,5 | provisoire | — |
@@ -178,6 +181,7 @@ Repères publiés : 61 % des sportifs d'armé ; 46–53 % des asymptomatiques (A
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>dyskinesie` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.aucun>dyskinesie` | Activités physiques : Peu ou pas de sport | — | — | 0,6 / 1 | provisoire | — |
 | `sport.raquette>dyskinesie` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.lancer>dyskinesie` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 2,5 / 1 | provisoire | — |
@@ -200,6 +204,7 @@ Repères publiés : 60/100 000 ; 253/100 000 après 65 ans ; 31,4/100 000/an che
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fracture_hp` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>fracture_hp` | Épaule atteinte | — | — | Les deux 0,05 | provisoire | — |
 | `sport.contact>fracture_hp` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,2 / 1 | provisoire | — |
 | `osteoporose>fracture_hp` | Ostéoporose ou fracture de fragilité | — | — | 2,5 / 0,85 | provisoire | — |
@@ -252,6 +257,7 @@ Repères publiés : 2–5 % des douleurs d'épaule ; 17,4–20,3 % radiographiqu
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>omarthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>omarthrose` | Épaule atteinte | — | — | Les deux 1,3 | provisoire | — |
 | `atcd_luxation>omarthrose` | Luxation antérieure de cette épaule | — | — | 1,5 / 0,97 | provisoire | — |
 | `duree>omarthrose` | Depuis combien de temps | — | — | Moins de 7 jours 0,2 ; Plus de 3 mois 2,5 | provisoire | — |
@@ -280,6 +286,7 @@ Repères publiés : Calcifications dans 42,5 % des douleurs sous-acromiales ; 12
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>calcifiante` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `travail>calcifiante` | Occupation | — | — | Gestes répétitifs des mains ou bras au-dessus des épaules 1,2 | provisoire | — |
 | `duree>calcifiante` | Depuis combien de temps | — | — | Moins de 7 jours 2 ; 1 à 6 semaines 1,3 | provisoire | — |
 | `apparition>calcifiante` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,3 ; Subit, sans traumatisme 5 | provisoire | — |
@@ -307,6 +314,7 @@ Repères publiés : 23,9/100 000 ; 60,3/100 000 avant 18 ans ; 20,3 % des lésio
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>instab_ant` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>instab_ant` | Épaule atteinte | — | — | Les deux 0,3 | provisoire | — |
 | `sport.aucun>instab_ant` | Activités physiques : Peu ou pas de sport | — | — | 0,6 / 1 | provisoire | — |
 | `sport.contact>instab_ant` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 2,5 / 1 | provisoire | — |
@@ -341,6 +349,7 @@ Repères publiés : 4 % des patients adressés ; ostéolyse : 6,5 % des IRM à 1
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ac_arthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `travail>ac_arthrose` | Occupation | — | — | Travail physique (charges, manutention) 1,3 ; Gestes répétitifs des mains ou bras au-dessus des épaules 1,3 | provisoire | — |
 | `sport.muscu>ac_arthrose` | Activités physiques : Musculation, haltérophilie ou CrossFit | — | — | 2 / 1 | provisoire | — |
 | `duree>ac_arthrose` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; Plus de 3 mois 2 | provisoire | — |
@@ -375,6 +384,7 @@ Repères publiés : Risque sur la vie 2,4 % (femmes), 1,7 % (hommes) (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ppr` | Milieu de consultation | — | — | Urgence 1,2 ; Clinique de médecine du sport 0,36 | provisoire | — |
 | `cote>ppr` | Épaule atteinte | — | — | Les deux 6 | provisoire | — |
 | `atcd_rhumato.uveite>ppr` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Uvéite | — | — | 1 / 1 | provisoire | — |
 | `atcd_rhumato.psoriasis>ppr` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Psoriasis | — | — | 1 / 1 | provisoire | — |
@@ -468,6 +478,7 @@ Repères publiés : 6–26 % des arthroscopies d'épaule ; 2,5 % chez le sportif
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>slap` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>slap` | Épaule atteinte | — | — | Les deux 0,3 | provisoire | — |
 | `sport.aucun>slap` | Activités physiques : Peu ou pas de sport | — | — | 0,5 / 1 | provisoire | — |
 | `sport.raquette>slap` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 1,5 / 1 | provisoire | — |
@@ -497,6 +508,7 @@ Repères publiés : Postérieure 4,0 %, multidirectionnelle 1,8 % chez le sporti
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>instab_post` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>instab_post` | Épaule atteinte | — | — | Les deux 1,5 | provisoire | — |
 | `sport.lancer>instab_post` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.natation>instab_post` | Activités physiques : Natation | — | — | 2 / 1 | provisoire | — |

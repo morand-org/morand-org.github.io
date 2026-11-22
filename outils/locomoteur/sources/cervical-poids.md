@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs cervical` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 169 (validés 0, vérifiés 13, à vérifier 13, provisoires 143).
+Poids : 178 (validés 0, vérifiés 13, à vérifier 13, provisoires 152).
 
 ## Cervicalgie non spécifique (mécanique, posturale)
 
@@ -92,6 +92,7 @@ Repères publiés : Dégénérescence discale radiographique 54 % (98 % à 60–
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>arthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>arthrose` | Côté de la douleur ou de l'irradiation | — | — | Les deux 1,5 | provisoire | — |
 | `duree>arthrose` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; Plus de 3 mois 2,5 | provisoire | — |
 | `apparition>arthrose` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,2 ; Insidieux 3 | provisoire | — |
@@ -115,6 +116,7 @@ Repères publiés : Plus de 300/100 000 ; 38 % encore douloureux à 12 mois (A, 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>entorse` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `sport.contact>entorse` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.glisse>entorse` | Activités physiques : Ski ou planche | — | — | 1,3 / 1 | provisoire | — |
 | `duree>entorse` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 1,3 ; 6 semaines à 3 mois 1,2 | provisoire | — |
@@ -156,6 +158,7 @@ Repères publiés : 63 % des lésions cervicales des sportifs du secondaire (A, 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>musculaire` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.contact>musculaire` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 2 / 1 | provisoire | — |
 | `duree>musculaire` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; Plus de 3 mois 0,2 | provisoire | — |
 | `apparition>musculaire` | Mode d'apparition | — | — | Subit, avec un traumatisme 3 | provisoire | — |
@@ -218,6 +221,7 @@ Repères publiés : Prévalence de carrière 49–65 % au football universitaire
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>stinger` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `cote>stinger` | Côté de la douleur ou de l'irradiation | — | — | Les deux 0,2 | provisoire | — |
 | `sport.contact>stinger` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 4 / 1 | provisoire | — |
 | `duree>stinger` | Depuis combien de temps | — | — | Moins de 7 jours 4 ; 6 semaines à 3 mois 0,3 ; Plus de 3 mois 0,1 | provisoire | — |
@@ -267,6 +271,7 @@ Repères publiés : 34–113/100 000/an après 50 ans (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ppr` | Milieu de consultation | — | — | Urgence 1,2 ; Clinique de médecine du sport 0,36 | provisoire | — |
 | `cote>ppr` | Côté de la douleur ou de l'irradiation | — | — | Les deux 6 | provisoire | — |
 | `duree>ppr` | Depuis combien de temps | — | — | Moins de 7 jours 0,7 ; 1 à 6 semaines 1,5 | provisoire | — |
 | `apparition>ppr` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,2 ; Insidieux 2 | provisoire | — |
@@ -292,6 +297,7 @@ Repères publiés : Au moins 605/million, probablement sous-diagnostiquée ; 18,
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>myelopathie` | Milieu de consultation | — | — | Urgence 1,2 ; Clinique de médecine du sport 0,36 | provisoire | — |
 | `cote>myelopathie` | Côté de la douleur ou de l'irradiation | — | — | Les deux 2,5 | provisoire | — |
 | `duree>myelopathie` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; Plus de 3 mois 2,5 | provisoire | — |
 | `apparition>myelopathie` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,3 ; Insidieux 3 | provisoire | — |
@@ -319,6 +325,7 @@ Repères publiés : Atteinte cervicale chez 25–88 % des PAR ; atlanto-axoïdie
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>par` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `atcd_rhumato.uveite>par` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Uvéite | — | — | 1 / 1 | provisoire | — |
 | `atcd_rhumato.psoriasis>par` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Psoriasis | — | — | 1 / 1 | provisoire | — |
 | `atcd_rhumato.synovite>par` | ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Synovite | — | — | 3 / 1 | provisoire | — |
@@ -345,6 +352,7 @@ Repères publiés : C2 : 8,2/100 000 ; 81 % par chute de faible énergie après 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fracture` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `sport.contact>fracture` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,3 / 1 | provisoire | — |
 | `sport.glisse>fracture` | Activités physiques : Ski ou planche | — | — | 1,5 / 1 | provisoire | — |
 | `osteoporose>fracture` | Ostéoporose ou fracture de fragilité | — | — | 2,5 / 0,9 | provisoire | — |
@@ -398,6 +406,7 @@ Repères publiés : 11–12 % des ostéomyélites vertébrales (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>infection` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `apparition>infection` | Mode d'apparition | — | — | Subit, sans traumatisme 1,5 | provisoire | — |
 | `moment>infection` | Horaire | — | — | Constante 2 | provisoire | — |
 | `nocturne>infection` | Douleur la nuit | — | — | 2 / 0,8 | provisoire | — |

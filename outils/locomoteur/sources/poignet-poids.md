@@ -2,7 +2,7 @@
 
 Produit par `node outils/locomoteur/lister-sources.mjs poignet` (Prototype 0.5 · novembre 2026). Ne pas modifier à la main.
 
-Poids : 353 (validés 0, vérifiés 22, à vérifier 7, provisoires 324).
+Poids : 371 (validés 0, vérifiés 22, à vérifier 7, provisoires 342).
 
 ## Syndrome du canal carpien
 
@@ -12,6 +12,7 @@ Repères publiés : 88 (hommes) et 193 (femmes)/100 000/an en médecine généra
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>canal_carpien` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>canal_carpien` | Main atteinte | — | — | Les deux 1,4 | provisoire | — |
 | `travail>canal_carpien` | Occupation | — | — | Travail de bureau ou sédentaire 1,3 ; Gestes répétitifs des mains ou bras au-dessus des épaules 1,5 | provisoire | — |
 | `sport.velo>canal_carpien` | Activités physiques : Vélo | — | — | 1,2 / 1 | provisoire | — |
@@ -51,6 +52,7 @@ Repères publiés : 162/100 000 : 302 avant 18 ans, 254 après 65 ans (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fx_radius` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>fx_radius` | Main atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.glisse>fx_radius` | Activités physiques : Ski ou planche | — | — | 1,5 / 1 | provisoire | — |
 | `osteoporose>fx_radius` | Ostéoporose ou fracture de fragilité | — | — | 2 / 0,9 | provisoire | — |
@@ -87,6 +89,7 @@ Repères publiés : 22/100 000 ; 60–90 % des fractures du carpe ; 16–25 % de
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>scaphoide` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>scaphoide` | Main atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.glisse>scaphoide` | Activités physiques : Ski ou planche | — | — | 1,5 / 1 | provisoire | — |
 | `duree>scaphoide` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 1,2 | provisoire | — |
@@ -118,6 +121,7 @@ Repères publiés : Pas de donnée retrouvée ; à ne pas manquer (†).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>perilunaire` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>perilunaire` | Main atteinte | — | — | Les deux 0,05 | provisoire | — |
 | `duree>perilunaire` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 0,5 ; Plus de 3 mois 0,02 | provisoire | — |
 | `apparition>perilunaire` | Mode d'apparition | — | — | Subit, avec un traumatisme 8 | provisoire | — |
@@ -217,6 +221,7 @@ Repères publiés : Prévalence 1,0–1,7 % (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>arthrose_poignet` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `travail>arthrose_poignet` | Occupation | — | — | Gestes répétitifs des mains ou bras au-dessus des épaules 1,5 | provisoire | — |
 | `duree>arthrose_poignet` | Depuis combien de temps | — | — | Moins de 7 jours 0,2 ; Plus de 3 mois 3 | provisoire | — |
 | `apparition>arthrose_poignet` | Mode d'apparition | — | — | Insidieux 3 | provisoire | — |
@@ -291,6 +296,7 @@ Repères publiés : Douleur du poignet chez 46–79 % des gymnastes (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>gymnaste` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.danse>gymnaste` | Activités physiques : Danse, gymnastique ou cheerleading | — | — | 1,5 / 1 | provisoire | — |
 | `duree>gymnaste` | Depuis combien de temps | — | — | 1 à 6 semaines 1,3 ; 6 semaines à 3 mois 1,5 | provisoire | — |
 | `apparition>gymnaste` | Mode d'apparition | — | — | Graduel 2,5 | provisoire | — |
@@ -311,6 +317,7 @@ Repères publiés : 2–4 % des fractures du carpe ; golf, raquette, bâton (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>hamatum` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>hamatum` | Main atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.raquette>hamatum` | Activités physiques : Sports de raquette (tennis, badminton, pickleball, squash) | — | — | 3 / 1 | provisoire | — |
 | `sport.golf>hamatum` | Activités physiques : Golf | — | — | 5 / 1 | provisoire | — |
@@ -334,6 +341,7 @@ Repères publiés : 0,17 % (symptomatique) des patients imagés (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>kienbock` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `travail>kienbock` | Occupation | — | — | Gestes répétitifs des mains ou bras au-dessus des épaules 1,5 | provisoire | — |
 | `duree>kienbock` | Depuis combien de temps | — | — | Moins de 7 jours 0,3 ; 6 semaines à 3 mois 1,5 ; Plus de 3 mois 2 | provisoire | — |
 | `apparition>kienbock` | Mode d'apparition | — | — | Graduel 1,5 ; Insidieux 1,5 | provisoire | — |
@@ -377,6 +385,7 @@ Repères publiés : Symptomatique 12,4 %, radiographique 41,4 % (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>arthrose_digitale` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>arthrose_digitale` | Main atteinte | — | — | Les deux 3 | provisoire | — |
 | `duree>arthrose_digitale` | Depuis combien de temps | — | — | Moins de 7 jours 0,2 ; Plus de 3 mois 3 | provisoire | — |
 | `apparition>arthrose_digitale` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,1 ; Insidieux 3 | provisoire | — |
@@ -405,6 +414,7 @@ Repères publiés : Douloureuse chez 2,5 % des hommes et 4,6 % des femmes de 25�
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>rhizarthrose` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>rhizarthrose` | Main atteinte | — | — | Les deux 1,5 | provisoire | — |
 | `travail>rhizarthrose` | Occupation | — | — | Gestes répétitifs des mains ou bras au-dessus des épaules 1,3 | provisoire | — |
 | `duree>rhizarthrose` | Depuis combien de temps | — | — | Moins de 7 jours 0,2 ; Plus de 3 mois 3 | provisoire | — |
@@ -431,6 +441,7 @@ Repères publiés : Prévalence environ 2 % ; 5,8–20 % chez le diabétique (A)
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>ressaut` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `travail>ressaut` | Occupation | — | — | Gestes répétitifs des mains ou bras au-dessus des épaules 1,3 | provisoire | — |
 | `sport.escalade>ressaut` | Activités physiques : Escalade | — | — | 1,3 / 1 | provisoire | — |
 | `diabete>ressaut` | Diabète | — | — | 3 / 0,9 | provisoire | — |
@@ -457,6 +468,7 @@ Repères publiés : Phalanges 125/100 000, métacarpiens 84/100 000 (5ᵉ rayon 
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>fx_main` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>fx_main` | Main atteinte | — | — | Les deux 0,05 | provisoire | — |
 | `travail>fx_main` | Occupation | — | — | Travail physique (charges, manutention) 1,2 | provisoire | — |
 | `sport.contact>fx_main` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,5 / 1 | provisoire | — |
@@ -500,6 +512,7 @@ Repères publiés : Entorses : 12,3 % des lésions main-poignet aux urgences (A)
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>entorse_doigt` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>entorse_doigt` | Main atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.contact>entorse_doigt` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 2 / 1 | provisoire | — |
 | `sport.lancer>entorse_doigt` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 1,5 / 1 | provisoire | — |
@@ -530,6 +543,7 @@ Repères publiés : 12 %, 21 % et 29 % à 55, 65 et 75 ans ; souvent indolore (A
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>dupuytren` | Milieu de consultation | — | — | Urgence 0,6 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `diabete>dupuytren` | Diabète | — | — | 2 / 0,95 | provisoire | — |
 | `duree>dupuytren` | Depuis combien de temps | — | — | Moins de 7 jours 0,1 ; Plus de 3 mois 3 | provisoire | — |
 | `apparition>dupuytren` | Mode d'apparition | — | — | Subit, avec un traumatisme 0,05 ; Insidieux 3 | provisoire | — |
@@ -576,6 +590,7 @@ Repères publiés : Environ 10/100 000 ; lésion tendineuse fermée la plus fré
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>maillet` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>maillet` | Main atteinte | — | — | Les deux 0,1 | provisoire | — |
 | `sport.contact>maillet` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 1,5 / 1 | provisoire | — |
 | `sport.lancer>maillet` | Activités physiques : Sports de lancer (baseball, softball, water-polo) | — | — | 1,5 / 1 | provisoire | — |
@@ -599,6 +614,7 @@ Repères publiés : 4 % des lésions tendineuses traumatiques aiguës (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>jersey` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 1,2 | provisoire | — |
 | `cote>jersey` | Main atteinte | — | — | Les deux 0,05 | provisoire | — |
 | `sport.contact>jersey` | Activités physiques : Sports de contact ou de collision (hockey, football, rugby, combat) | — | — | 3 / 1 | provisoire | — |
 | `duree>jersey` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; Plus de 3 mois 0,1 | provisoire | — |
@@ -622,6 +638,7 @@ Repères publiés : 20 % des blessures chez 600 grimpeurs (A).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>poulie` | Milieu de consultation | — | — | Urgence 0,8 ; Clinique de médecine du sport 1,5 | provisoire | — |
 | `sport.escalade>poulie` | Activités physiques : Escalade | — | — | 20 / 1 | provisoire | — |
 | `duree>poulie` | Depuis combien de temps | — | — | Moins de 7 jours 2,5 | provisoire | — |
 | `apparition>poulie` | Mode d'apparition | — | — | Subit, avec un traumatisme 5 | provisoire | — |
@@ -646,6 +663,7 @@ Repères publiés : Pas de donnée retrouvée ; à ne pas manquer (†).
 
 | clé | élément | Se | Sp | RV+ / RV− ou RV | statut | source |
 |---|---|---|---|---|---|---|
+| `milieu>teno_infectieuse` | Milieu de consultation | — | — | Urgence 2 ; Clinique de médecine du sport 0,6 | provisoire | — |
 | `cote>teno_infectieuse` | Main atteinte | — | — | Les deux 0,05 | provisoire | — |
 | `diabete>teno_infectieuse` | Diabète | — | — | 1,5 / 0,97 | provisoire | — |
 | `duree>teno_infectieuse` | Depuis combien de temps | — | — | Moins de 7 jours 3 ; 1 à 6 semaines 0,5 ; 6 semaines à 3 mois 0,1 ; Plus de 3 mois 0,02 | provisoire | — |
