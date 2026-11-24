@@ -77,6 +77,7 @@ def flashcards():
         paquet = json.load(open(os.path.join(R, p["fichier"].lstrip("/")), encoding="utf8"))
         region = p["cle"].replace("msk-", "")
         for c in paquet["cartes"]:
+            if c.get("origine"): continue   # cartes ajoutées par l'audit : tirées des fiches et du 21 novembre, déjà dans hy et oe21
             d = c["donnee"]
             chiffres = [[k, v] for k, v in [("RV+", d.get("lr_positif") if d.get("lr_positif") is not None else d.get("lr_positif_texte")),
                 ("RV−", d.get("lr_negatif") if d.get("lr_negatif") is not None else d.get("lr_negatif_texte")), ("Se", d.get("sensibilite")), ("Sp", d.get("specificite")),

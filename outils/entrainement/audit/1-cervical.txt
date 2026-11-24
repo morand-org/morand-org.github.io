@@ -1,0 +1,229 @@
+# Audit du quiz, rachis cervical (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+@ msk-cervical CERV
+= C1 1
+= C2 2
+= C3 3
+= C4 4
+= C5 5
+= C6 6
+= C7 7
+= C8 8
+= C9 9
+= C10 10
+= C12 13
+= C13 14
+= C14 15
+= C15 16
+= C16 11
+= C18 17
+= C19 12
+= C21 16
+
+## 1 Cervicalgie non spécifique
+001-01 2 L
+001-02 3 M | e: Abduction soutenue ou répétée du bras au travail
+001-03 3 L
+001-04 3 D | e: Âge plus avancé (par année)
+001-05 1 L
++ C1 epi 1 L ↑ demo | Sexe féminin
++ C1 epi 2 L ↑ demo | Âge de 45 à 54 ans
++ C1 pre 2 L ↑ anam | Raideur du cou sans cause reconnaissable
+
+## 2 Syndrome myofascial
+002-01 2 L | def: Point gâchette actif : nodule sensible dans une bande musculaire tendue, dont la pression reproduit la douleur habituelle du patient.
+002-02 3 M
+002-03 3 D | def: Point gâchette latent : nodule sensible dans une bande musculaire tendue, qui ne reproduit pas la douleur habituelle du patient.
+002-04 2 L
+002-05 4 D | def: Réponse contractile locale (« twitch ») : brève contraction visible de la bande musculaire quand on pince ou pique le point gâchette.
++ C2 epi 3 L ↑ demo | Âge de 27 à 50 ans
++ C2 pre 2 L ↑ risq | Posture soutenue ou surcharge du cou et des épaules
+
+## 3 Syndrome facettaire
+003-01 2 L
+003-02 3 M
+003-03 3 M
+003-04 2 M
+003-05 4 D
+003-06 0 - | r: Mesure à l'algomètre (appareil qui mesure le seuil de douleur à la pression) : outil de recherche, absent du bureau.
+003-07 3 M
++ C3 pre 2 M ↑ anam | Douleur unilatérale du cou, sans irradiation au bras
+
+## 4 Arthrose cervicale
+004-01 2 M
+004-02 1 L | e: Âge plus avancé
+004-03 0 - | r: Donnée de cohorte (IRM répétées sur 20 ans), sans usage au bureau ; le message (l'IRM corrèle mal avec les symptômes) est déjà dans la carte du bombement discal.
+004-04 0 - | r: Énoncé ambigu : la progression d'une sténose foraminale est une conséquence de l'arthrose, pas un indice pour la reconnaître.
+004-05 3 M
+004-06 2 L
++ C4 epi 2 L ↑ demo | Homme de 40 à 60 ans
+
+## 5 Entorse cervicale (whiplash)
+005-01 1 L
+005-02 2 M
+005-03 3 M | e: Évolution vers la chronicité : douleur initiale > 5,5 sur 10
+005-04 4 D | e: Évolution vers la chronicité : NDI initial > 14,5 sur 50 | def: NDI (Neck Disability Index) : questionnaire d'incapacité liée au cou, noté sur 50.
+005-05 4 D | e: Évolution vers la chronicité : âge ≥ 35 ans, NDI ≥ 40 % et hyperéveil | def: Hyperéveil : signes de stress post-traumatique (sursauts, insomnie, hypervigilance).
+005-06 4 D | e: Évolution vers la chronicité : âge < 35 ans et NDI ≤ 32 %
+005-07 3 D
++ C5 pre 3 M ↑ anam | Étourdissements et céphalée après une collision
+
+## 6 Céphalée cervicogénique
+006-01 3 M | def: Test de flexion-rotation : cou en flexion complète, on tourne passivement la tête de chaque côté ; il est positif si la rotation est nettement réduite d'un côté (atteinte C1–C2).
+006-02 3 M
+006-03 4 D
+006-04 4 D
+006-05 4 M
+006-06 4 D
+006-07 2 L
+006-08 3 M
++ C6 pre 1 L ↑ anam | Céphalée déclenchée par les mouvements ou les postures du cou
++ C6 pre 2 M ↓ anam | Céphalée pulsatile
++ C6 pre 2 L ↑ anam | Céphalée unilatérale qui part de la nuque vers le front
+
+## 7 Contracture ou élongation du sportif
+007-01 0 - | r: Énoncé tautologique : la lésion musculaire est le diagnostic lui-même.
+007-02 4 L
+007-03 4 L | e: Blessure en compétition plutôt qu'à l'entraînement
+007-04 2 L
+007-05 1 M
+007-06 2 M
+
+## 8 Radiculopathie cervicale
+008-01 2 M | def: Test neurodynamique A (ULTT A) : mise en tension du nerf médian (épaule abaissée et en abduction, coude et poignet en extension) qui reproduit les symptômes du bras.
+008-02 2 M
+008-03 1 L | def: Test de Spurling : extension, inclinaison et rotation du cou vers le côté atteint, avec une pression axiale ; positif s'il reproduit la douleur du bras.
+008-04 2 L
+008-05 2 L | def: Signe d'abduction de l'épaule (Bakody) : le patient pose la main sur sa tête ; le soulagement de la douleur du bras évoque une radiculopathie.
+008-06 2 L
+008-07 3 D
+008-08 2 D
+008-09 2 M
++ C8 pre 1 L ↑ anam | Douleur du bras plus forte que celle du cou
++ C8 epi 3 L ↑ demo | Âge de 50 à 54 ans
+
+## 9 Stinger ou burner
+009-01 4 L
+009-02 4 L
+009-03 4 M
+009-04 2 L
+009-05 1 M
+009-06 0 - | r: Mesure d'IRM de recherche (espace disponible pour la moelle, en millimètres), sans usage en première ligne.
+009-07 0 - | r: Mesure d'IRM de recherche (espace disponible pour la moelle, en millimètres), sans usage en première ligne.
+009-08 4 D | def: Ratio de Torg : diamètre du canal cervical divisé par celui du corps vertébral, sur la radiographie de profil ; sous 0,8, le canal est étroit.
++ C9 pre 3 M ↑ anam | Absence de douleur au cou
+
+## 10 Torticolis aigu acquis de l'adulte
+010-01 0 - | r: Énoncé tautologique : le torticolis mécanique bénin est le diagnostic lui-même.
+010-02 2 L | e: Dystonie aiguë : antidopaminergique récent (ex. : métoclopramide, halopéridol)
+010-03 3 L
+010-04 3 L
+010-05 3 M
+010-06 3 M | def: Syndrome de Grisel : subluxation C1–C2 non traumatique après une infection ORL ou une chirurgie de la gorge, surtout chez l'enfant.
+
+## 11 Syndrome du défilé thoracique
+011-01 2 L
+011-02 3 L
+011-03 3 D
+011-04 3 D | def: Test de Roos (EAST) : bras en chandelier, le patient ouvre et ferme les mains pendant 3 minutes.
+011-05 4 D
+011-06 3 D | def: Manœuvre d'Adson : on palpe le pouls radial, bras en extension, tête tournée vers le côté atteint, en inspiration profonde.
+011-07 4 M
+011-08 3 M
++ C16 pre 2 L ↑ anam | Symptômes aggravés bras levés
++ C16 epi 3 M ↑ demo | Atteinte du bras dominant
+
+## 12 Névralgie occipitale (Arnold)
+012-01 2 L
+012-02 2 M
+012-03 3 L | e: Signe de Tinel occipital
+012-04 3 D
+012-05 3 L
+012-06 3 L
++ C19 epi 3 M ↑ risq | Antécédent de migraine
+
+## 13 Polymyalgia rheumatica
+013-01 1 L
+013-02 2 M | def: Critères EULAR/ACR 2012 : raideur matinale > 45 minutes, douleur ou limitation des hanches, facteur rhumatoïde et anti-CCP négatifs, aucune autre atteinte articulaire ; un score de 4 ou plus sur 6 classe la maladie.
+013-03 1 M
+013-04 2 D
+013-05 2 D
+013-06 3 M
+013-07 0 - | r: Signe d'IRM de recherche (bursite interépineuse), étudié chez 25 patients, sans usage au bureau.
+013-08 2 M
++ C12 epi 1 L ↑ demo | Sexe féminin
++ C12 epi 1 L ↑ demo | Âge de plus de 50 ans
++ C12 pre 1 L ↑ anam | Douleur et raideur des deux épaules et du bassin, pires le matin
++ C12 exa 1 L ↑ anam | Raideur matinale de plus de 45 minutes
++ C12 pre 2 M ↑ anam | Fatigue, perte de poids ou fébricule
+
+## 14 Myélopathie cervicale dégénérative
+014-01 1 L
+014-02 1 L | def: Signe de Hoffmann : la pichenette sur l'ongle du majeur provoque une flexion du pouce et de l'index.
+014-03 3 M | def: Signe du supinateur inversé : la percussion du tendon brachioradial donne une flexion des doigts au lieu d'une flexion du coude.
+014-04 1 L
+014-05 2 L | def: Signe de Lhermitte : décharge électrique le long du dos ou des membres à la flexion du cou.
+014-06 2 M
+014-07 2 D
+014-08 1 D
+014-09 3 D
+014-10 3 M
++ C13 pre 1 L ↑ anam | Maladresse des mains
++ C13 pre 1 L ↑ anam | Démarche instable
++ C13 pre 2 M ↑ anam | Troubles mictionnels
++ C13 pre 3 D ↓ evol | Symptômes qui fluctuent d'un jour à l'autre
++ C13 epi 2 L ↑ demo | Âge de plus de 55 ans
+
+## 15 Instabilité C1–C2 de la polyarthrite rhumatoïde
+015-01 3 M
+015-02 3 M
+015-03 3 L
+015-04 3 M
+015-05 3 M | def: Test de Sharp-Purser : patient assis, tête fléchie, une main sur le front et le pouce sur l'épineuse de C2 ; un ressaut à la poussée vers l'arrière évoque une instabilité C1–C2.
+015-06 3 D
+015-07 0 - | r: Énoncé trop vague (« maladie récente ») pour juger le sens.
+015-08 0 - | r: Énoncé obscur (traitement biologique sans lésion cervicale au départ) ; notion de suivi rhumatologique.
++ C14 pre 3 M ↑ anam | Sensation que la tête tombe vers l'avant en flexion
+
+## 16 Fracture cervicale (odontoïde, fragilité)
+016-01 1 L | def: Règle canadienne (Canadian C-spine rule) : décide de l'imagerie du cou chez l'adulte alerte et stable après un traumatisme.
+016-02 1 D
+016-03 1 M
+016-04 1 L
+016-05 1 M
+016-06 2 D
+016-07 2 M
+016-08 0 - | r: Énoncé tautologique : la fracture de l'odontoïde est le diagnostic lui-même.
+016-09 2 D | def: Critères NEXUS : pas de sensibilité médiane postérieure, pas d'intoxication, vigilance normale, pas de déficit focal, pas de lésion distrayante.
+016-10 2 D
+016-11 2 M
++ C15 epi 1 L ↑ anam | Chute de sa hauteur chez une personne de plus de 65 ans
++ C15 pre 1 D ↔ exam | Absence de déficit neurologique
++ C21 pre 1 L ↑ anam | Mécanisme dangereux
+
+## 17 Spondylodiscite ou abcès épidural
+017-01 1 L
+017-02 1 M | e: Aucun facteur de risque (drogues IV, diabète, immunosuppression, geste rachidien récent)
+017-03 1 L
+017-04 1 D | e: Absence de la triade douleur, fièvre et déficit
+017-05 1 D
+017-06 2 M
+017-07 2 M
+017-08 2 D
+017-09 2 D
+017-10 3 M
+017-11 1 L
++ C18 pre 2 L ↑ risq | Diabète
++ C18 pre 1 L ↑ anam | Douleur rachidienne tenace
+
+## Diagnostics des fiches sans carte jusqu'ici
++ C17 pre 2 L ↑ anam | Brûlure et faiblesse des quatre membres après un choc au cou (hyperextension, hyperflexion ou charge axiale) | def: Neurapraxie médullaire transitoire : commotion de la moelle cervicale chez le sportif, avec des symptômes des deux côtés qui disparaissent en minutes ou en heures.
++ C17 epi 4 L ↑ demo | Homme jeune joueur de football
++ C20 epi 2 L ↑ anam | Enfant de moins de 12 ans, après une pharyngite ou une otite | def: Syndrome de Grisel : subluxation C1–C2 non traumatique après une infection ORL ou une chirurgie de la gorge, surtout chez l'enfant.
++ C20 epi 2 L ↑ anam | Chirurgie ORL récente chez l'enfant
++ C11 pre 2 L ↑ anam | Accouchement difficile
++ C11 pre 2 L ↑ anam | Allaitement difficile d'un seul côté
++ C11 pre 2 L ↑ evol | Inclinaison de la tête remarquée vers 2 à 4 semaines de vie
++ C23 pre 2 M ↑ anam | Inclinaison persistante de la tête avec des signes neurologiques
++ C26 pre 3 M ↑ anam | Cervicalgie aiguë fébrile chez une personne âgée | def: Syndrome de la dent couronnée : dépôts de cristaux autour de l'odontoïde, qui donnent une cervicalgie aiguë fébrile chez la personne âgée et imitent une méningite.

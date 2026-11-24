@@ -3,6 +3,7 @@
 #
 #   python3 -I outils/entrainement/convertir-base.py base.txt
 #   (base.txt : texte du DOCX, extrait par pandoc -t plain ou par extraire-docx.py)
+#   Ensuite : node outils/entrainement/appliquer-audit.mjs (pertinence, niveau, retraits, nouvelles cartes).
 #
 # Règles (plan de la phase 1, section 3) :
 #   - une carte par flèche (↑ augmente, ↔ neutre, ↓ diminue) : une puce à deux flèches donne deux cartes ;
@@ -204,7 +205,7 @@ for li in range(9):
             }
             dec = DECISIONS.get(carte["id"])
             if dec and dec["statut"] == "validee": carte.update(statut="validee", valide_le=dec["date"])
-            elif dec: carte.update(statut="experimentale", signalement=dec.get("note", "Signalée"))
+            elif dec and dec["statut"] == "signalee": carte.update(statut="experimentale", signalement=dec.get("note", "Signalée"))
             cartes.append(carte)
     paquet = {"domaine": "MSK", "region": region, "cle": f"msk-{cle}", "lot": lot, "version": "2026-11-24",
               "source": "Base de données pour FlashCards Morand MSK (lot %d), références incluses" % lot,

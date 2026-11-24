@@ -9,9 +9,11 @@
    "domaine": "MSK",
    "region": "Rachis cervical",
    "fichier": "/entrainement/banque/msk-cervical.json",
-   "cartes": 129,
+   "cartes": 171,
    "experimentales": 4,
-   "diagnostics": 17
+   "diagnostics": 22,
+   "retirees": 11,
+   "jouables": 156
   },
   {
    "cle": "msk-lombaire",
