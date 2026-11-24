@@ -53,9 +53,11 @@
    "domaine": "MSK",
    "region": "Poignet et main",
    "fichier": "/entrainement/banque/msk-poignet.json",
-   "cartes": 242,
+   "cartes": 291,
    "experimentales": 3,
-   "diagnostics": 29
+   "diagnostics": 38,
+   "retirees": 25,
+   "jouables": 265
   },
   {
    "cle": "msk-hanche",
