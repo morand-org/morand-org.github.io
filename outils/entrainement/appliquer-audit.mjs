@@ -4,6 +4,7 @@
    À relancer après convertir-base.py ou appliquer-decisions.mjs. Lit outils/entrainement/audit/<région>.txt :
 
      @ msk-cervical CERV                  paquet de la banque, préfixe des nouvelles cartes
+     & Rachis lombaire et dorsal          (facultatif) nouveau nom de la région, pour toutes ses cartes
      = C1 1                               source C1 (ou oe21:<rang>) = diagnostic 1 de la banque (sinon : nommé d'après la source)
      001-04 3 D | e: Âge plus avancé      carte MSK-001-04 : pertinence, niveau, puis champs facultatifs
      009-06 0 - | r: Mesure d'IRM de recherche…
@@ -60,6 +61,7 @@ for (const f of fs.readdirSync(dossier).filter(x => x.endsWith(".txt")).sort()) 
     if (!l || l.startsWith("#") || l.startsWith("@ ")) continue;
     const ou = `${f}:${no + 1}`;
     if (l.startsWith("= ")) { const [, code, dx] = l.split(/\s+/); fiches.set(code, dx === "-" ? null : +dx); continue; }
+    if (l.startsWith("& ")) { const nom = l.slice(2).trim(); paquet.region = entree.region = nom; for (const c of paquet.cartes) c.region = nom; continue; }
     if (l.startsWith("+ ")) {
       const [avant, enonce, ...reste] = l.slice(2).split("|").map(s => s.trim());
       const [src, rub, p, niv, fl, ty] = avant.split(/\s+/), opt = champs(reste);
