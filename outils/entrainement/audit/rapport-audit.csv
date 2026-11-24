@@ -1087,3 +1087,233 @@ Poignet et main;Retirée;;Maladie de Kienböck;IRM externe évocatrice;↔ Neutr
 Poignet et main;Retirée;;Neuropathie ulnaire au canal de Guyon;Syndrome du canal carpien associé;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (association fréquente, présentée comme neutre), sans sens diagnostique clair.;MSK-078-05
 Poignet et main;Retirée;;Neuropathie ulnaire au canal de Guyon;Latence motrice distale standard normale;↔ Neutre;Anamnèse;Base des flashcards;;;Notion technique d'électromyographie, sans usage au bureau.;MSK-078-06
 Poignet et main;Retirée;;Poignet du gymnaste;Anomalies radiographiques chez le gymnaste;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (fréquence très variable selon les séries), sans sens diagnostique.;MSK-077-06
+Hanche et bassin;1 Essentielle;Léger;Arthrite septique de la hanche (enfant);Fièvre et refus d'appui chez l'enfant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H21 (présentation clinique));;;;MSK-HANC-H21-01
+Hanche et bassin;1 Essentielle;Léger;Avulsion apophysaire du bassin;Claquement soudain suivi d'une douleur localisée;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-109-03
+Hanche et bassin;1 Essentielle;Léger;Contusion de la cuisse ou de la crête iliaque;Coup direct sur la cuisse, masse sensible;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H23 (présentation clinique));;;;MSK-HANC-H23-01
+Hanche et bassin;1 Essentielle;Léger;Coxarthrose;Rotation interne diminuée;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-099-07
+Hanche et bassin;1 Essentielle;Léger;Coxarthrose;Âge ≤ 60 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-099-10
+Hanche et bassin;1 Essentielle;Léger;Coxarthrose;Douleur de l'aine aggravée dans les escaliers;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H1 (présentation clinique));;;;MSK-HANC-H01-01
+Hanche et bassin;1 Essentielle;Modéré;Coxarthrose;Douleur à l'aine en abduction ou adduction passive;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-099-03
+Hanche et bassin;1 Essentielle;Modéré;Coxarthrose;Adduction passive diminuée;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-099-05
+Hanche et bassin;1 Essentielle;Modéré;Coxarthrose;Adduction passive normale;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-099-06
+Hanche et bassin;1 Essentielle;Difficile;Coxarthrose;Âge > 60 ans;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-099-11
+Hanche et bassin;1 Essentielle;Difficile;Coxarthrose;Arthrose radiographique isolée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-099-16
+Hanche et bassin;1 Essentielle;Léger;Douleur de l'aine liée aux adducteurs;Adduction résistée, squeeze ou étirement passif douloureux;↑ Augmente;Anamnèse;Base des flashcards;Adduction résistée, squeeze long levier ou étirement passif douloureux;;;MSK-101-02
+Hanche et bassin;1 Essentielle;Modéré;Douleur projetée d'origine lombaire;Douleur à l'aine;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-113-01
+Hanche et bassin;1 Essentielle;Léger;Dysplasie développementale de la hanche;Fille;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée H16 (épidémiologie));;;;MSK-HANC-H16-01
+Hanche et bassin;1 Essentielle;Léger;Dysplasie développementale de la hanche;Présentation du siège à la naissance;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée H16 (épidémiologie));;;;MSK-HANC-H16-02
+Hanche et bassin;1 Essentielle;Léger;Dysplasie développementale de la hanche;Antécédent familial de dysplasie de la hanche;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée H16 (épidémiologie));;;;MSK-HANC-H16-03
+Hanche et bassin;1 Essentielle;Modéré;Dysplasie développementale de la hanche;Barlow ou Ortolani positif;↑ Augmente;Tests spécifiques;Nouvelle (Fiche résumée H16 (examen physique));;"Barlow et Ortolani : manœuvres du nouveau-né ; Barlow luxe une hanche instable (poussée vers l'arrière), Ortolani la réduit (abduction avec un ressaut).";;MSK-HANC-H16-05
+Hanche et bassin;1 Essentielle;Léger;Épiphysiolyse fémorale supérieure;Obésité sévère;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-115-01
+Hanche et bassin;1 Essentielle;Léger;Épiphysiolyse fémorale supérieure;Enfant de 8 à 16 ans qui boite;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée H17 (épidémiologie));;;;MSK-HANC-H17-01
+Hanche et bassin;1 Essentielle;Modéré;Épiphysiolyse fémorale supérieure;Rotation externe obligatoire en flexion (Drehmann);↑ Augmente;Examen physique;Base des flashcards;;Signe de Drehmann : la hanche part en rotation externe quand on la fléchit.;;MSK-115-07
+Hanche et bassin;1 Essentielle;Modéré;Épiphysiolyse fémorale supérieure;Rotation interne de la hanche limitée chez l'adolescent;↑ Augmente;Examen physique;Nouvelle (Fiche résumée H17 (examen physique));;;;MSK-HANC-H17-02
+Hanche et bassin;1 Essentielle;Difficile;Épiphysiolyse fémorale supérieure;Douleur du genou comme plainte principale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-115-06
+Hanche et bassin;1 Essentielle;Léger;Fracture de fragilité du bassin ou du sacrum;Femme d'environ 80 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-118-01
+Hanche et bassin;1 Essentielle;Difficile;Fracture de fragilité du bassin ou du sacrum;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-118-06
+Hanche et bassin;1 Essentielle;Léger;Fracture de la hanche;Chute sur le côté;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-114-06
+Hanche et bassin;1 Essentielle;Léger;Fracture de la hanche;Densité osseuse basse de la hanche;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-114-08
+Hanche et bassin;1 Essentielle;Léger;Fracture de la hanche;Antécédent de fracture;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-114-09
+Hanche et bassin;1 Essentielle;Léger;Fracture de la hanche;Membre raccourci en rotation externe après une chute;↑ Augmente;Examen physique;Nouvelle (Fiche résumée H5 (présentation clinique));;;;MSK-HANC-H05-01
+Hanche et bassin;1 Essentielle;Léger;Fracture de la hanche;Appui impossible après une chute, chez une personne âgée;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H5 (présentation clinique));;;;MSK-HANC-H05-02
+Hanche et bassin;1 Essentielle;Modéré;Fracture de la hanche;Roulement du membre (log roll) et élévation de la jambe tendue indolores;↓ Diminue;Anamnèse;Base des flashcards;Log roll et élévation jambe tendue indolores;;;MSK-114-04
+Hanche et bassin;1 Essentielle;Difficile;Fracture de la hanche;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-114-10
+Hanche et bassin;1 Essentielle;Modéré;Fracture de stress du col ou de la diaphyse fémorale;Douleur insidieuse de l'aine à l'effort, chez une coureuse;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H19 (présentation clinique));;;;MSK-HANC-H19-02
+Hanche et bassin;1 Essentielle;Difficile;Fracture de stress du col ou de la diaphyse fémorale;Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-116-08
+Hanche et bassin;1 Essentielle;Léger;Lésion aiguë des ischio-jambiers;Antécédent de lésion des ischio-jambiers;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-102-01
+Hanche et bassin;1 Essentielle;Léger;Lésion aiguë des ischio-jambiers;Début brutal au sprint, après l'échauffement;↑ Augmente;Évolution temporelle;Base des flashcards;Début brutal après l'échauffement;;;MSK-102-05
+Hanche et bassin;1 Essentielle;Léger;Lésion aiguë des ischio-jambiers;Douleur à l'arrière de la cuisse pendant un sprint ou un étirement;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H4 (présentation clinique));;;;MSK-HANC-H04-01
+Hanche et bassin;1 Essentielle;Léger;Maladie de Legg-Calvé-Perthes;Boiterie depuis des semaines, avec ou sans douleur, parfois au genou;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H18 (présentation clinique));;Maladie de Legg-Calvé-Perthes : nécrose de la tête fémorale chez l'enfant.;;MSK-HANC-H18-02
+Hanche et bassin;1 Essentielle;Léger;Méralgie paresthésique;Grossesse;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-106-05
+Hanche et bassin;1 Essentielle;Léger;Méralgie paresthésique;Engourdissement ou brûlure de la face antéro-latérale de la cuisse, sans faiblesse;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H11 (présentation clinique));;;;MSK-HANC-H11-01
+Hanche et bassin;1 Essentielle;Modéré;Méralgie paresthésique;Déficit moteur ou réflexe anormal;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-106-08
+Hanche et bassin;1 Essentielle;Léger;Ostéite pubienne (douleur liée au pubis);Sensibilité de la symphyse pubienne et de l'os voisin;↑ Augmente;Examen physique;Base des flashcards;Sensibilité de la symphyse et de l'os adjacent;;;MSK-107-01
+Hanche et bassin;1 Essentielle;Léger;Ostéonécrose de la tête fémorale;Corticoïdes : dose cumulée de plus de 2 g d'équivalent prednisone;↑ Augmente;Anamnèse;Base des flashcards;Corticoïdes, dose cumulée > 2 g d'équivalent prednisone;;;MSK-117-01
+Hanche et bassin;1 Essentielle;Léger;Ostéonécrose de la tête fémorale;Alcool;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-117-05
+Hanche et bassin;1 Essentielle;Difficile;Ostéonécrose de la tête fémorale;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-117-12
+Hanche et bassin;1 Essentielle;Léger;Polymyalgia rheumatica (hanche);Raideur matinale de plus de 45 minutes;↑ Augmente;Anamnèse;Base des flashcards;Raideur matinale > 45 min;;;MSK-119-03
+Hanche et bassin;1 Essentielle;Léger;Polymyalgia rheumatica (hanche);Atteinte de la ceinture pelvienne;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-119-04
+Hanche et bassin;1 Essentielle;Léger;Polymyalgia rheumatica (hanche);Âge < 50 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-119-10
+Hanche et bassin;1 Essentielle;Modéré;Polymyalgia rheumatica (hanche);VS et CRP toutes deux normales;↓ Diminue;Laboratoire;Base des flashcards;;;;MSK-119-11
+Hanche et bassin;1 Essentielle;Léger;Syndrome douloureux du grand trochanter;Grand trochanter douloureux à la palpation;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-100-04
+Hanche et bassin;1 Essentielle;Léger;Syndrome douloureux du grand trochanter;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-100-11
+Hanche et bassin;1 Essentielle;Léger;Syndrome douloureux du grand trochanter;Douleur latérale de la hanche, couché sur le côté;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H2 (présentation clinique));;;;MSK-HANC-H02-01
+Hanche et bassin;1 Essentielle;Modéré;Syndrome douloureux du grand trochanter;Grand trochanter indolore à la palpation;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-100-03
+Hanche et bassin;1 Essentielle;Léger;Synovite aiguë transitoire;Boiterie après une infection virale, avec fébricule;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H8 (présentation clinique));;;;MSK-HANC-H08-01
+Hanche et bassin;2 Importante;Modéré;Arthrite septique de la hanche (enfant);Critères de Kocher modifiés réunis;↑ Augmente;Tests spécifiques;Nouvelle (Fiche résumée H21 (examen physique));;Critères de Kocher modifiés : fièvre ≥ 38,5 °C, refus d'appui, VS ≥ 40 mm/h, leucocytes > 12 000/mm³ et CRP > 20 mg/L.;;MSK-HANC-H21-02
+Hanche et bassin;2 Importante;Léger;Avulsion apophysaire du bassin;Garçon de 14 à 17 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-109-01
+Hanche et bassin;2 Importante;Léger;Avulsion apophysaire du bassin;Sprint ou tir;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-109-02
+Hanche et bassin;2 Importante;Modéré;Avulsion apophysaire du bassin;Début progressif sans traumatisme;↓ Diminue;Évolution temporelle;Base des flashcards;;;;MSK-109-08
+Hanche et bassin;2 Importante;Modéré;Conflit fémoro-acétabulaire ou lésion du labrum;FADIR négatif;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-103-02
+Hanche et bassin;2 Importante;Modéré;Conflit fémoro-acétabulaire ou lésion du labrum;Rotation interne passive limitée en position neutre;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-103-03
+Hanche et bassin;2 Importante;Difficile;Conflit fémoro-acétabulaire ou lésion du labrum;FADIR positif;↔ Neutre;Anamnèse;Base des flashcards;FADIR positif;"FADIR : flexion, adduction et rotation interne de la hanche ; positif s'il reproduit la douleur de l'aine.";;MSK-103-01
+Hanche et bassin;2 Importante;Difficile;Conflit fémoro-acétabulaire ou lésion du labrum;Douleur à l'aine;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-103-06
+Hanche et bassin;2 Importante;Difficile;Conflit fémoro-acétabulaire ou lésion du labrum;Morphologie en came à l'imagerie;↔ Neutre;Imagerie;Base des flashcards;;Morphologie en came : bosse osseuse à la jonction tête-col du fémur, qui accroche le rebord du cotyle en flexion.;;MSK-103-07
+Hanche et bassin;2 Importante;Difficile;Conflit fémoro-acétabulaire ou lésion du labrum;Lésion du labrum à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-103-08
+Hanche et bassin;2 Importante;Modéré;Contusion de la cuisse ou de la crête iliaque;Adolescent avec douleur marquée à la contraction résistée;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-112-03
+Hanche et bassin;2 Importante;Léger;Coxarthrose;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée H1 (épidémiologie));;;;MSK-HANC-H01-02
+Hanche et bassin;2 Importante;Léger;Coxarthrose;Obésité;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée H1 (épidémiologie));;;;MSK-HANC-H01-03
+Hanche et bassin;2 Importante;Modéré;Coxarthrose;Accroupissement provoquant une douleur postérieure;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-099-01
+Hanche et bassin;2 Importante;Modéré;Coxarthrose;Rotation interne normale;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-099-08
+Hanche et bassin;2 Importante;Modéré;Coxarthrose;Douleur maximale à la face médiale de la cuisse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-099-09
+Hanche et bassin;2 Importante;Modéré;Coxarthrose;Au moins 4 signes sur 5 (âge > 60 ans, douleur > 3 mois, pas d'aggravation assis, sensibilité de l'aine, rotation externe diminuée);↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-099-14
+Hanche et bassin;2 Importante;Modéré;Coxarthrose;Un seul de ces 5 signes ou aucun (âge > 60 ans, douleur > 3 mois, pas d'aggravation assis, sensibilité de l'aine, rotation externe diminuée);↓ Diminue;Facteurs démographiques;Base des flashcards;Au moins 4 signes sur 5 (âge > 60 ans, douleur > 3 mois, pas d'aggravation assis, sensibilité de l'aine, rotation externe diminuée) (1 signe ou moins);;;MSK-099-15
+Hanche et bassin;2 Importante;Difficile;Coxarthrose;Pas de douleur à l'aine en abduction ou en adduction passive;↔ Neutre;Examen physique;Base des flashcards;Douleur à l'aine en abduction ou adduction passive : absente;;;MSK-099-04
+Hanche et bassin;2 Importante;Difficile;Coxarthrose;Douleur à la marche, raideur matinale < 60 min, boiterie;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-099-12
+Hanche et bassin;2 Importante;Léger;Douleur de l'aine liée aux adducteurs;Antécédent de blessure de l'aine;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-101-04
+Hanche et bassin;2 Importante;Modéré;Douleur de l'aine liée aux adducteurs;Adducteurs indolores à la palpation;↓ Diminue;Examen physique;Base des flashcards;Adducteurs indolores à la palpation (lésion aiguë);;;MSK-101-01
+Hanche et bassin;2 Importante;Modéré;Douleur projetée d'origine lombaire;Douleur sous le genou;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-113-02
+Hanche et bassin;2 Importante;Modéré;Douleur projetée d'origine lombaire;Étirement fémoral positif;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-113-05
+Hanche et bassin;2 Importante;Modéré;Douleur projetée d'origine lombaire;Lasègue croisé;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-113-08
+Hanche et bassin;2 Importante;Difficile;Douleur projetée d'origine lombaire;Lasègue positif;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-113-07
+Hanche et bassin;2 Importante;Léger;Dysplasie développementale de la hanche;Emmaillotement serré des jambes;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée H16 (épidémiologie));;;;MSK-HANC-H16-04
+Hanche et bassin;2 Importante;Difficile;Dysplasie développementale de la hanche;Clic isolé de la hanche du nouveau-né;↔ Neutre;Examen physique;Nouvelle (Fiche résumée H16 (examen physique));;;;MSK-HANC-H16-06
+Hanche et bassin;2 Importante;Léger;Épiphysiolyse fémorale supérieure;Épiphysiolyse controlatérale connue;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-115-11
+Hanche et bassin;2 Importante;Modéré;Épiphysiolyse fémorale supérieure;IMC au-dessus du 95e percentile;↑ Augmente;Anamnèse;Base des flashcards;IMC > 95ᵉ percentile;;;MSK-115-03
+Hanche et bassin;2 Importante;Modéré;Épiphysiolyse fémorale supérieure;IMC sous le 95e percentile;↓ Diminue;Anamnèse;Base des flashcards;IMC > 95ᵉ percentile : absent;;;MSK-115-04
+Hanche et bassin;2 Importante;Modéré;Épiphysiolyse fémorale supérieure;Endocrinopathie;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-115-05
+Hanche et bassin;2 Importante;Difficile;Épiphysiolyse fémorale supérieure;Simple surpoids;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-115-02
+Hanche et bassin;2 Importante;Léger;Fracture de fragilité du bassin ou du sacrum;Radiothérapie pelvienne;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-118-03
+Hanche et bassin;2 Importante;Léger;Fracture de fragilité du bassin ou du sacrum;Corticothérapie chronique ou polyarthrite rhumatoïde;↑ Augmente;Réponse aux traitements;Base des flashcards;Corticothérapie chronique, polyarthrite rhumatoïde;;;MSK-118-04
+Hanche et bassin;2 Importante;Modéré;Fracture de fragilité du bassin ou du sacrum;Fracture d'une branche pubienne déjà visible;↑ Augmente;Anamnèse;Base des flashcards;Fracture d'une branche pubienne;;;MSK-118-08
+Hanche et bassin;2 Importante;Difficile;Fracture de fragilité du bassin ou du sacrum;Absence de traumatisme;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-118-02
+Hanche et bassin;2 Importante;Difficile;Fracture de fragilité du bassin ou du sacrum;TDM normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-118-07
+Hanche et bassin;2 Importante;Modéré;Fracture de la hanche;Percussion patello-pubienne anormale;↑ Augmente;Anamnèse;Base des flashcards;;"Percussion patello-pubienne : stéthoscope sur la symphyse pubienne, on percute la rotule ; un son atténué du côté atteint évoque une fracture.";;MSK-114-01
+Hanche et bassin;2 Importante;Modéré;Fracture de la hanche;Percussion patello-pubienne normale;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-114-02
+Hanche et bassin;2 Importante;Modéré;Fracture de la hanche;Chute en arrière;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-114-07
+Hanche et bassin;2 Importante;Difficile;Fracture de la hanche;Roulement du membre et élévation de la jambe tendue douloureux;↔ Neutre;Anamnèse;Base des flashcards;Log roll et élévation jambe tendue douloureux;;;MSK-114-05
+Hanche et bassin;2 Importante;Difficile;Fracture de la hanche;TDM normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-114-11
+Hanche et bassin;2 Importante;Léger;Fracture de stress du col ou de la diaphyse fémorale;Radiographie initiale positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-116-09
+Hanche et bassin;2 Importante;Léger;Fracture de stress du col ou de la diaphyse fémorale;Femme qui court;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée H19 (épidémiologie));;;;MSK-HANC-H19-01
+Hanche et bassin;2 Importante;Modéré;Fracture de stress du col ou de la diaphyse fémorale;Douleur de l'aine en fin d'amplitude de la hanche, chez un coureur;↑ Augmente;Examen physique;Base des flashcards;(incertain) Douleur de l'aine en fin d'amplitude de hanche;;;MSK-116-07
+Hanche et bassin;2 Importante;Modéré;Lésion aiguë des ischio-jambiers;Début insidieux;↓ Diminue;Évolution temporelle;Base des flashcards;;;;MSK-102-06
+Hanche et bassin;2 Importante;Difficile;Lésion aiguë des ischio-jambiers;Sensibilité et douleur à la contraction résistée;↔ Neutre;Examen physique;Base des flashcards;Sensibilité, douleur à la contraction résistée;;;MSK-102-07
+Hanche et bassin;2 Importante;Difficile;Lésion aiguë des ischio-jambiers;IRM normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-102-08
+Hanche et bassin;2 Importante;Léger;Maladie de Legg-Calvé-Perthes;Garçon;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée H18 (épidémiologie));;;;MSK-HANC-H18-01
+Hanche et bassin;2 Importante;Léger;Méralgie paresthésique;Diabète;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-106-01
+Hanche et bassin;2 Importante;Léger;Méralgie paresthésique;IMC élevé;↑ Augmente;Anamnèse;Base des flashcards;IMC;;;MSK-106-03
+Hanche et bassin;2 Importante;Modéré;Ostéite pubienne (douleur liée au pubis);Symphyse pubienne indolore à la palpation;↓ Diminue;Examen physique;Nouvelle (Fiche résumée H12 (examen physique));;;;MSK-HANC-H12-01
+Hanche et bassin;2 Importante;Léger;Ostéonécrose de la tête fémorale;Tabagisme;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-117-06
+Hanche et bassin;2 Importante;Léger;Ostéonécrose de la tête fémorale;Drépanocytose ou VIH;↑ Augmente;Anamnèse;Base des flashcards;Drépanocytose, VIH;;;MSK-117-08
+Hanche et bassin;2 Importante;Léger;Ostéonécrose de la tête fémorale;Ostéonécrose controlatérale connue;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-117-09
+Hanche et bassin;2 Importante;Difficile;Ostéonécrose de la tête fémorale;Examen clinique normal;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-117-11
+Hanche et bassin;2 Importante;Léger;Polymyalgia rheumatica (hanche);Douleur ou limitation de la hanche;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-119-01
+Hanche et bassin;2 Importante;Difficile;Polymyalgia rheumatica (hanche);VS < 40 mm/h;↔ Neutre;Laboratoire;Base des flashcards;;;;MSK-119-12
+Hanche et bassin;2 Importante;Difficile;Polymyalgia rheumatica (hanche);Réponse rapide aux corticoïdes;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-119-13
+Hanche et bassin;2 Importante;Léger;Pubalgie pariétale (douleur liée au canal inguinal);Douleur du canal inguinal sans hernie palpable, aggravée par la toux ou la contraction abdominale;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-108-02
+Hanche et bassin;2 Importante;Léger;Syndrome douloureux du grand trochanter;Femme de 50 à 79 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée H2 (épidémiologie));;;;MSK-HANC-H02-02
+Hanche et bassin;2 Importante;Modéré;Syndrome douloureux du grand trochanter;Douleur latérale de la hanche en 30 secondes d'appui sur une jambe;↑ Augmente;Anamnèse;Base des flashcards;Douleur latérale à l'appui monopodal de 30 s;;;MSK-100-01
+Hanche et bassin;2 Importante;Modéré;Syndrome douloureux du grand trochanter;Abduction résistée douloureuse;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-100-07
+Hanche et bassin;2 Importante;Modéré;Syndrome douloureux du grand trochanter;FABER qui reproduit la douleur latérale;↑ Augmente;Anamnèse;Base des flashcards;FABER reproduisant la douleur latérale;;;MSK-100-08
+Hanche et bassin;2 Importante;Modéré;Syndrome douloureux du grand trochanter;Difficulté à mettre chaussures et chaussettes;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-100-10
+Hanche et bassin;2 Importante;Difficile;Syndrome douloureux du grand trochanter;Anomalie des tendons glutéaux à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-100-13
+Hanche et bassin;2 Importante;Léger;Syndrome du piriforme (fessier profond);Douleur fessière, sensibilité de la grande échancrure, aggravation en position assise;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-105-07
+Hanche et bassin;2 Importante;Modéré;Syndrome du piriforme (fessier profond);Déficit moteur ou sensitif vrai;↓ Diminue;Imagerie;Base des flashcards;Déficit moteur ou sensitif vrai, EMG paraspinal anormal;;;MSK-105-08
+Hanche et bassin;2 Importante;Léger;Tendinopathie proximale des ischio-jambiers;Douleur fessière basse en position assise, avec sensibilité de l'ischion, chez un coureur;↑ Augmente;Examen physique;Base des flashcards;Douleur en position assise, sensibilité de la tubérosité ischiatique, coureur;;;MSK-110-02
+Hanche et bassin;3 Complémentaire;Modéré;Apophysite de la crête iliaque;Douleur progressive sur 2 à 8 semaines, sensibilité de la crête, abduction résistée douloureuse;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-111-02
+Hanche et bassin;3 Complémentaire;Modéré;Apophysite de la crête iliaque;Début aigu avec perte de fonction musculaire;↓ Diminue;Évolution temporelle;Base des flashcards;;;;MSK-111-06
+Hanche et bassin;3 Complémentaire;Difficile;Apophysite de la crête iliaque;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-111-03
+Hanche et bassin;3 Complémentaire;Modéré;Avulsion apophysaire du bassin;Échographie positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-109-06
+Hanche et bassin;3 Complémentaire;Modéré;Avulsion apophysaire du bassin;Échographie négative;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-109-07
+Hanche et bassin;3 Complémentaire;Léger;Conflit fémoro-acétabulaire ou lésion du labrum;Sportif de sexe masculin;↑ Augmente;Facteurs de risque;Base des flashcards;Sportif, sexe masculin;;;MSK-103-10
+Hanche et bassin;3 Complémentaire;Difficile;Conflit fémoro-acétabulaire ou lésion du labrum;Rotation interne passive normale en position neutre;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-103-04
+Hanche et bassin;3 Complémentaire;Difficile;Conflit fémoro-acétabulaire ou lésion du labrum;FABER, squat ou scour test positif;↔ Neutre;Tests spécifiques;Base des flashcards;FABER, squat, scour test;;;MSK-103-05
+Hanche et bassin;3 Complémentaire;Modéré;Contusion de la cuisse ou de la crête iliaque;Douleur et tuméfaction qui persistent au-delà de 10 à 14 jours;↑ Augmente;Anamnèse;Base des flashcards;Myosite ossifiante, douleur et tuméfaction persistant au-delà de 10 à 14 jours;Myosite ossifiante : ossification dans un muscle après une contusion importante.;;MSK-112-02
+Hanche et bassin;3 Complémentaire;Léger;Coxarthrose;Antécédent familial d'arthrose;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-099-13
+Hanche et bassin;3 Complémentaire;Difficile;Coxarthrose;Accroupissement indolore;↔ Neutre;Anamnèse;Base des flashcards;Accroupissement provoquant une douleur postérieure : indolore;;;MSK-099-02
+Hanche et bassin;3 Complémentaire;Léger;Douleur de l'aine liée aux adducteurs;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-101-09
+Hanche et bassin;3 Complémentaire;Léger;Douleur de l'aine liée aux adducteurs;Joueur de soccer;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée H3 (épidémiologie));;;;MSK-HANC-H03-01
+Hanche et bassin;3 Complémentaire;Modéré;Douleur de l'aine liée aux adducteurs;Défaut palpable dans les adducteurs;↑ Augmente;Anamnèse;Base des flashcards;Défaut palpable;;;MSK-101-03
+Hanche et bassin;3 Complémentaire;Modéré;Douleur de l'aine liée aux adducteurs;Adducteurs cliniquement faibles;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-101-05
+Hanche et bassin;3 Complémentaire;Difficile;Douleur de l'aine liée aux adducteurs;Souplesse des adducteurs, âge;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-101-07
+Hanche et bassin;3 Complémentaire;Difficile;Douleur de l'aine liée aux adducteurs;Squeeze test à 90°;↔ Neutre;Tests spécifiques;Base des flashcards;;"Squeeze test : genoux fléchis, le patient serre un poing ou un ballon entre ses genoux ; positif s'il donne une douleur à l'aine.";;MSK-101-08
+Hanche et bassin;3 Complémentaire;Modéré;Douleur projetée d'origine lombaire;Lever de chaise monopodal déficitaire;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-113-06
+Hanche et bassin;3 Complémentaire;Modéré;Douleur projetée d'origine lombaire;Soulagement par infiltration intra-articulaire de la hanche;↓ Diminue;Réponse aux traitements;Base des flashcards;;;;MSK-113-09
+Hanche et bassin;3 Complémentaire;Difficile;Douleur projetée d'origine lombaire;Douleur fessière, lombalgie, signe du caddie;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-113-03
+Hanche et bassin;3 Complémentaire;Difficile;Douleur projetée d'origine lombaire;Topographie de la douleur, prise seule;↔ Neutre;Anamnèse;Base des flashcards;Topographie seule;;;MSK-113-04
+Hanche et bassin;3 Complémentaire;Difficile;Douleur projetée d'origine lombaire;Coxarthrose associée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-113-10
+Hanche et bassin;3 Complémentaire;Modéré;Épiphysiolyse fémorale supérieure;Signe en S sur le profil en grenouille;↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-115-09
+Hanche et bassin;3 Complémentaire;Modéré;Épiphysiolyse fémorale supérieure;Signe en S sur le profil en grenouille : absent;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-115-10
+Hanche et bassin;3 Complémentaire;Difficile;Épiphysiolyse fémorale supérieure;Ligne de Klein normale de face;↔ Neutre;Anamnèse;Base des flashcards;;"Ligne de Klein : ligne tracée le long du bord supérieur du col fémoral, sur la radiographie de face ; normalement, elle coupe la tête fémorale.";;MSK-115-08
+Hanche et bassin;3 Complémentaire;Difficile;Fracture de fragilité du bassin ou du sacrum;Siège de la douleur (fesse, bas du dos ou aine);↔ Neutre;Anamnèse;Base des flashcards;Siège de la douleur;;;MSK-118-05
+Hanche et bassin;3 Complémentaire;Difficile;Fracture de la hanche;FRAX hanche > 3 %;↔ Neutre;Anamnèse;Base des flashcards;;FRAX : calculateur du risque de fracture ostéoporotique à 10 ans.;;MSK-114-12
+Hanche et bassin;3 Complémentaire;Léger;Fracture de stress du col ou de la diaphyse fémorale;Recrue militaire de sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;Sexe féminin chez la recrue;;;MSK-116-01
+Hanche et bassin;3 Complémentaire;Modéré;Fracture de stress du col ou de la diaphyse fémorale;IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-116-10
+Hanche et bassin;3 Complémentaire;Modéré;Fracture de stress du col ou de la diaphyse fémorale;Douleur vague de la cuisse ou du genou à la course;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée H28 (présentation clinique));;;;MSK-HANC-H28-01
+Hanche et bassin;3 Complémentaire;Difficile;Fracture de stress du col ou de la diaphyse fémorale;Trouble menstruel isolé;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-116-04
+Hanche et bassin;3 Complémentaire;Difficile;Fracture de stress du col ou de la diaphyse fémorale;IMC;↔ Neutre;Anamnèse;Base des flashcards;IMC;;;MSK-116-05
+Hanche et bassin;3 Complémentaire;Difficile;Fracture de stress du col ou de la diaphyse fémorale;Test du levier (fulcrum test) positif;↔ Neutre;Tests spécifiques;Base des flashcards;Fulcrum test;"Test du levier : patient assis, l'avant-bras de l'examinateur sert d'appui sous la cuisse et on pousse le genou vers le bas ; positif s'il réveille la douleur.";;MSK-116-06
+Hanche et bassin;3 Complémentaire;Difficile;Ilio-psoas ou hanche à ressaut;Ressaut de hanche isolé, sans douleur;↔ Neutre;Anamnèse;Base des flashcards;Ressaut isolé;;;MSK-104-01
+Hanche et bassin;3 Complémentaire;Difficile;Ilio-psoas ou hanche à ressaut;Flexion de hanche résistée assis;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-104-04
+Hanche et bassin;3 Complémentaire;Difficile;Ilio-psoas ou hanche à ressaut;Sensibilité de l'ilio-psoas à la palpation;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-104-05
+Hanche et bassin;3 Complémentaire;Difficile;Ilio-psoas ou hanche à ressaut;Test de Thomas ou ressaut provoqué;↔ Neutre;Tests spécifiques;Base des flashcards;Test de Thomas, ressaut provoqué;;;MSK-104-06
+Hanche et bassin;3 Complémentaire;Modéré;Lésion aiguë des ischio-jambiers;Âge plus avancé, ou antécédent de rupture du LCA ou de lésion du mollet;↑ Augmente;Facteurs démographiques;Base des flashcards;"Âge ; antécédent de rupture du LCA ou de lésion du mollet";;;MSK-102-02
+Hanche et bassin;3 Complémentaire;Léger;Méralgie paresthésique;Chirurgie du rachis en décubitus ventral;↑ Augmente;Réponse aux traitements;Base des flashcards;;;;MSK-106-09
+Hanche et bassin;3 Complémentaire;Modéré;Méralgie paresthésique;Test de compression pelvienne;↑ Augmente;Tests spécifiques;Base des flashcards;;"Test de compression pelvienne : couché sur le côté sain, on comprime le bassin vers la table pendant 45 secondes ; positif si les symptômes diminuent.";;MSK-106-06
+Hanche et bassin;3 Complémentaire;Modéré;Méralgie paresthésique;Test de compression pelvienne : négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-106-07
+Hanche et bassin;3 Complémentaire;Modéré;Ostéite pubienne (douleur liée au pubis);Tests des adducteurs positifs;↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-107-05
+Hanche et bassin;3 Complémentaire;Modéré;Ostéonécrose de la tête fémorale;Lupus traité par prednisone ≥ 20 mg/j pendant plus d'un mois;↑ Augmente;Évolution temporelle;Base des flashcards;Prednisone ≥ 20 mg/j plus d'un mois dans le lupus;;;MSK-117-02
+Hanche et bassin;3 Complémentaire;Modéré;Ostéonécrose de la tête fémorale;Hanche controlatérale normale à l'IRM;↓ Diminue;Imagerie;Base des flashcards;;;;MSK-117-10
+Hanche et bassin;3 Complémentaire;Modéré;Ostéonécrose de la tête fémorale;IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-117-13
+Hanche et bassin;3 Complémentaire;Modéré;Ostéonécrose de la tête fémorale;IRM négative;↓ Diminue;Imagerie;Base des flashcards;;;;MSK-117-14
+Hanche et bassin;3 Complémentaire;Difficile;Ostéonécrose de la tête fémorale;Bolus de méthylprednisolone;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-117-03
+Hanche et bassin;3 Complémentaire;Difficile;Ostéonécrose de la tête fémorale;Corticoïdes à faible dose (moyenne < 7,5 mg/j);↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-117-04
+Hanche et bassin;3 Complémentaire;Modéré;Polymyalgia rheumatica (hanche);Bursite trochantérienne à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-119-05
+Hanche et bassin;3 Complémentaire;Modéré;Polymyalgia rheumatica (hanche);Synovite de hanche à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-119-07
+Hanche et bassin;3 Complémentaire;Difficile;Polymyalgia rheumatica (hanche);Bursite trochantérienne bilatérale à l'échographie;↔ Neutre;Anamnèse;Base des flashcards;Bursite trochantérienne à l'échographie : bilatérale;;;MSK-119-06
+Hanche et bassin;3 Complémentaire;Léger;Pubalgie pariétale (douleur liée au canal inguinal);Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-108-01
+Hanche et bassin;3 Complémentaire;Modéré;Pubalgie pariétale (douleur liée au canal inguinal);Redressement assis croisé (cross-body sit-up) négatif;↓ Diminue;Anamnèse;Base des flashcards;Cross-body sit-up négatif;;;MSK-108-05
+Hanche et bassin;3 Complémentaire;Modéré;Pubalgie pariétale (douleur liée au canal inguinal);Hernie inguinale vraie;↓ Diminue;Anamnèse;Base des flashcards;Vraie hernie;;;MSK-108-08
+Hanche et bassin;3 Complémentaire;Difficile;Pubalgie pariétale (douleur liée au canal inguinal);Redressement assis croisé positif;↔ Neutre;Anamnèse;Base des flashcards;Cross-body sit-up positif;;;MSK-108-06
+Hanche et bassin;3 Complémentaire;Modéré;Syndrome douloureux du grand trochanter;Dérotation externe résistée douloureuse;↑ Augmente;Examen physique;Base des flashcards;;Dérotation externe résistée : hanche fléchie à 90° et en rotation externe, on résiste au retour vers la position neutre.;;MSK-100-05
+Hanche et bassin;3 Complémentaire;Difficile;Syndrome douloureux du grand trochanter;Pas de douleur latérale en 30 secondes d'appui sur une jambe;↔ Neutre;Anamnèse;Base des flashcards;Douleur latérale à l'appui monopodal de 30 s : absente;;;MSK-100-02
+Hanche et bassin;3 Complémentaire;Difficile;Syndrome douloureux du grand trochanter;Dérotation externe résistée indolore;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-100-06
+Hanche et bassin;3 Complémentaire;Difficile;Syndrome douloureux du grand trochanter;Test d'Ober positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test d'Ober;"Test d'Ober : couché sur le côté, on laisse tomber en adduction la jambe du dessus ; elle reste en l'air si la bandelette ilio-tibiale est tendue.";;MSK-100-09
+Hanche et bassin;3 Complémentaire;Difficile;Syndrome douloureux du grand trochanter;Obésité ou âge;↔ Neutre;Facteurs de risque;Base des flashcards;Obésité, âge;;;MSK-100-12
+Hanche et bassin;3 Complémentaire;Difficile;Syndrome douloureux du grand trochanter;Absence de bursite à l'échographie;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-100-14
+Hanche et bassin;3 Complémentaire;Modéré;Syndrome du piriforme (fessier profond);Test actif du piriforme;↑ Augmente;Tests spécifiques;Base des flashcards;;"Test actif du piriforme : couché sur le côté sain, le patient pousse le talon contre la table et soulève le genou contre résistance ; positif s'il donne une douleur fessière.";;MSK-105-01
+Hanche et bassin;3 Complémentaire;Modéré;Syndrome du piriforme (fessier profond);Test actif du piriforme et étirement assis tous deux négatifs;↓ Diminue;Tests spécifiques;Base des flashcards;Les deux tests négatifs;;;MSK-105-02
+Hanche et bassin;3 Complémentaire;Modéré;Syndrome du piriforme (fessier profond);Test actif du piriforme et étirement assis tous deux positifs;↑ Augmente;Tests spécifiques;Base des flashcards;Les deux tests positifs;;;MSK-105-03
+Hanche et bassin;3 Complémentaire;Difficile;Syndrome du piriforme (fessier profond);Lasègue négatif;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-105-04
+Hanche et bassin;3 Complémentaire;Léger;Synovite aiguë transitoire;Garçon;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée H8 (épidémiologie));;;;MSK-HANC-H08-02
+Hanche et bassin;3 Complémentaire;Difficile;Tendinopathie proximale des ischio-jambiers;Hypersignal intratendineux à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-110-03
+Hanche et bassin;3 Complémentaire;Difficile;Tendinopathie proximale des ischio-jambiers;Anomalie proximale à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-110-05
+Hanche et bassin;4 Pointue (médecine du sport);Léger;Apophysite de la crête iliaque;Coureur adolescent de demi-fond ou de fond;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-111-01
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Apophysite de la crête iliaque;IRM, hypersignal et élargissement de la physe;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-111-05
+Hanche et bassin;4 Pointue (médecine du sport);Difficile;Apophysite de la crête iliaque;Discontinuité de l'apophyse iliaque antérieure à la radiographie;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-111-04
+Hanche et bassin;4 Pointue (médecine du sport);Difficile;Avulsion apophysaire du bassin;Siège ischiatique;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-109-04
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Conflit fémoro-acétabulaire ou lésion du labrum;Défaut cartilagineux à l'IRM;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-103-09
+Hanche et bassin;4 Pointue (médecine du sport);Difficile;Douleur de l'aine liée aux adducteurs;Ratio adduction/abduction < 80 %;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-101-06
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Fracture de stress du col ou de la diaphyse fémorale;Score de risque élevé de la triade de l'athlète féminine;↑ Augmente;Tests spécifiques;Base des flashcards;Score de risque de la triade;Triade de l'athlète féminine : apport énergétique insuffisant, troubles menstruels et densité osseuse basse.;;MSK-116-02
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Fracture de stress du col ou de la diaphyse fémorale;Densité osseuse basse, exercice ≥ 12 h par semaine et 3–4 autres facteurs;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-116-03
+Hanche et bassin;4 Pointue (médecine du sport);Léger;Ilio-psoas ou hanche à ressaut;Danseuse ou danseur de ballet;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée H9 (épidémiologie));;;;MSK-HANC-H09-01
+Hanche et bassin;4 Pointue (médecine du sport);Difficile;Ilio-psoas ou hanche à ressaut;IRM positive;↔ Neutre;Imagerie;Base des flashcards;IRM;;;MSK-104-07
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Lésion aiguë des ischio-jambiers;Test du retrait de la chaussure positif;↑ Augmente;Tests spécifiques;Base des flashcards;(incertain) Test du retrait de la chaussure;"Test du retrait de la chaussure : debout, le patient retire sa chaussure en poussant avec l'autre pied (flexion active du genou) ; positif s'il donne une douleur à l'arrière de la cuisse.";;MSK-102-09
+Hanche et bassin;4 Pointue (médecine du sport);Difficile;Lésion aiguë des ischio-jambiers;Force excentrique (Nordic) basse;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-102-03
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Méralgie paresthésique;Surface du nerf de plus de 5 mm² à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;Surface du nerf > 5 mm² à l'échographie;;;MSK-106-10
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Ostéite pubienne (douleur liée au pubis);Œdème osseux pubien de grade 3 à l'IRM;↑ Augmente;Examen physique;Base des flashcards;Œdème de grade 3;;;MSK-107-03
+Hanche et bassin;4 Pointue (médecine du sport);Difficile;Ostéite pubienne (douleur liée au pubis);Œdème osseux pubien à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-107-02
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Polymyalgia rheumatica (hanche);Bursite ischio-glutéale à l'IRM;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-119-09
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Pubalgie pariétale (douleur liée au canal inguinal);Déficit bilatéral de la paroi postérieure à l'échographie dynamique;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-108-03
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Pubalgie pariétale (douleur liée au canal inguinal);Lésion du droit de l'abdomen à l'IRM;↑ Augmente;Imagerie;Base des flashcards;IRM, lésion du droit de l'abdomen;;;MSK-108-07
+Hanche et bassin;4 Pointue (médecine du sport);Difficile;Syndrome du piriforme (fessier profond);Tests de Freiberg et de Pace;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-105-06
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Tendinopathie proximale des ischio-jambiers;Tests de Puranen-Orava et du genou fléchi positifs;↑ Augmente;Tests spécifiques;Base des flashcards;(incertain) Tests de Puranen-Orava et bent-knee stretch;;;MSK-110-01
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Tendinopathie proximale des ischio-jambiers;Tendon élargi, œdème péritendineux ou ischiatique à l'IRM;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-110-04
+Hanche et bassin;4 Pointue (médecine du sport);Modéré;Tendinopathie proximale des ischio-jambiers;Échographie positive;↑ Augmente;Anamnèse;Base des flashcards;Échographie positive;;;MSK-110-06
+Hanche et bassin;Retirée;;Avulsion apophysaire du bassin;Diagnostic initial de lésion musculaire;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (erreur diagnostique fréquente), sans sens diagnostique.;MSK-109-05
+Hanche et bassin;Retirée;;Contusion de la cuisse ou de la crête iliaque;Myosite ossifiante;↑ Augmente;Anamnèse;Base des flashcards;;;Énoncé ambigu : la myosite ossifiante est une complication de la contusion, pas un indice.;MSK-112-01
+Hanche et bassin;Retirée;;Fracture de fragilité du bassin ou du sacrum;Signe de Honda à la scintigraphie;↔ Neutre;Tests spécifiques;Base des flashcards;;;Signe de scintigraphie, imagerie de deuxième ligne.;MSK-118-09
+Hanche et bassin;Retirée;;Fracture de la hanche;Percussion patello-pubienne;↔ Neutre;Anamnèse;Base des flashcards;;;Doublon de la percussion patello-pubienne (autre étude), source de confusion.;MSK-114-03
+Hanche et bassin;Retirée;;Ilio-psoas ou hanche à ressaut;HEC test positif;↑ Augmente;Tests spécifiques;Base des flashcards;;;Test récent tiré d'une seule étude (n = 44), non décrit dans la source.;MSK-104-02
+Hanche et bassin;Retirée;;Ilio-psoas ou hanche à ressaut;HEC test négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;Test récent tiré d'une seule étude (n = 44), non décrit dans la source.;MSK-104-03
+Hanche et bassin;Retirée;;Lésion aiguë des ischio-jambiers;Faisceaux courts du biceps fémoral;↔ Neutre;Anamnèse;Base des flashcards;;;Mesure d'échographie de recherche (longueur des faisceaux musculaires), non reproduite.;MSK-102-04
+Hanche et bassin;Retirée;;Méralgie paresthésique;: 2 % des cas à Taïwan.;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé tronqué (« : 2 % des cas à Taïwan »), illisible.;MSK-106-02
+Hanche et bassin;Retirée;;Méralgie paresthésique;IMC (sexe);↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (« sexe »), carte expérimentale.;MSK-106-04
+Hanche et bassin;Retirée;;Méralgie paresthésique;Potentiel sensitif non obtenu;↔ Neutre;Anamnèse;Base des flashcards;;;Notion technique d'électromyographie, sans usage au bureau.;MSK-106-11
+Hanche et bassin;Retirée;;Ostéite pubienne (douleur liée au pubis);Signe de la fente secondaire;↔ Neutre;Tests spécifiques;Base des flashcards;;;Signe d'imagerie de spécialiste, retrouvé aussi chez des sportifs sans douleur.;MSK-107-04
+Hanche et bassin;Retirée;;Ostéite pubienne (douleur liée au pubis);Anomalies IRM chez le jeune footballeur;↔ Neutre;Imagerie;Base des flashcards;;;Donnée descriptive (anomalies d'IRM sans valeur prédictive chez le jeune footballeur).;MSK-107-06
+Hanche et bassin;Retirée;;Ostéonécrose de la tête fémorale;Tabagisme (obésité);↔ Neutre;Facteurs de risque;Base des flashcards;;;Énoncé confus (obésité), carte expérimentale.;MSK-117-07
+Hanche et bassin;Retirée;;Polymyalgia rheumatica (hanche);Après ajout de l'échographie;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé obscur (« après ajout de l'échographie »).;MSK-119-02
+Hanche et bassin;Retirée;;Polymyalgia rheumatica (hanche);Fréquence de la bursite trochantérienne;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (fréquence très variable selon les séries).;MSK-119-08
+Hanche et bassin;Retirée;;Pubalgie pariétale (douleur liée au canal inguinal);Bombement du canal inguinal à l'échographie chez le jeune footballeur;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (bombement fréquent, non prédictif).;MSK-108-04
+Hanche et bassin;Retirée;;Syndrome du piriforme (fessier profond);(incertain) Test FAIR électrophysiologique;↑ Augmente;Tests spécifiques;Base des flashcards;;;Test électrophysiologique non reproduit (biais d'incorporation), sans usage au bureau.;MSK-105-05
