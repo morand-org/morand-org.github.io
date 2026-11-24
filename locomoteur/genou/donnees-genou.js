@@ -382,6 +382,7 @@
     { code: "GENO-P25", cle: "baker|ex_tumefaction.poplitee>baker", rvp: 6.3, rvn: 0.3, statut: "verifie", piste: "Tang et coll., 2026 (Front Med, méta-analyse, PMID 41939773) : examen physique, Se 74 %, Sp 88 %" },
   ];
   window.Locomoteur.definir({
+    frequencesRevues: { date: "2026-11-24", source: "outils/locomoteur/sources/openevidence-reponses/2026-11-24-genou-hanche-lombaire.md", verdict: "Aucune courbe confirmée ; rapports femmes-hommes et quelques fréquences corrigés là où des données publiées les contredisent" },
     revues: REVUES_OE,
     id: "genou", partie: "genou", en: "knee", rc: "Douleur au genou",
     titre: "Douleur au genou", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,

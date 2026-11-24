@@ -166,7 +166,7 @@
       <image class="lo-atlas-fond" href="/locomoteur/atlas-corps.webp" x="0" y="0" width="1264" height="848"/>${zones}
       <text class="lo-atlas-cote" x="190" y="840">D</text><text class="lo-atlas-cote" x="585" y="840">G</text><text class="lo-atlas-cote" x="690" y="840">G</text><text class="lo-atlas-cote" x="1065" y="840">D</text>
       <text class="lo-atlas-vue" x="120" y="60">Face</text><text class="lo-atlas-vue" x="1150" y="60">Dos</text></svg>
-      <figcaption>Touchez une ou plusieurs zones douloureuses : chaque plainte s'ajoute avec son côté, et sa section s'ouvre plus bas. Les deux côtés : « Les deux ».</figcaption></figure>`;
+      <figcaption>Touchez une ou plusieurs zones douloureuses : chaque plainte s'ajoute avec son côté, et sa section s'ouvre plus bas. Touchez de nouveau pour décocher.</figcaption></figure>`;
   }
   function atlasActif() {
     for (const z of form.querySelectorAll(".lo-zone")) {
@@ -175,11 +175,18 @@
     }
   }
   // Zone touchée : la plainte s'ajoute (ou son côté change) sans faire défiler la page, pour en choisir plusieurs à la suite.
+  /* Un second clic décoche : zone sans côté (cou, dos) ou seul côté coché → la plainte est retirée ; « Les deux » → il ne
+     reste que l'autre côté. Sinon : le côté s'ajoute (gauche + droite = « Les deux »). */
   function zoneTouchee(z) {
     const r = z.dataset.zone, cote = z.dataset.cote, k = `${r}:cote`, focus = document.activeElement === z;
-    if (cote) { const avant = lire(k); ecrire(k, !avant || avant === "?" || avant === cote ? cote : "B"); }
-    if (!etat.regions.includes(r)) basculerRegion(r, focus ? z : null);
-    else { construire(); maj(); garderFocus(focus ? z : null); }
+    if (!etat.regions.includes(r)) {
+      if (cote) ecrire(k, cote);
+      basculerRegion(r, focus ? z : null); return;
+    }
+    const avant = lire(k), autre = cote === "D" ? "G" : "D";
+    if (!cote || avant === cote) { basculerRegion(r, focus ? z : null, { depuisSchema: true }); return; }
+    ecrire(k, avant === "B" ? autre : !avant || avant === "?" ? cote : "B");
+    construire(); maj(); garderFocus(focus ? z : null);
   }
   // Après reconstruction du formulaire, le focus clavier revient sur la même zone ou la même puce, sans défilement.
   function garderFocus(el) {
@@ -287,12 +294,13 @@
   form.addEventListener("change", saisie);
   form.addEventListener("submit", e => e.preventDefault());
   form.addEventListener("toggle", e => { const b = e.target.closest && e.target.closest(".lo-bloc-depliable"); if (b === e.target) { if (b.open) blocsOuverts.add(b.dataset.bloc); else blocsOuverts.delete(b.dataset.bloc); } }, true);
-  function basculerRegion(r, focus = null) {
+  function basculerRegion(r, focus = null, { depuisSchema = false } = {}) {
     if (etat.regions.includes(r)) {
-      if (etat.regions.length === 1) return;
-      if (Object.keys(etat.par[r] || {}).length && !confirm(`Retirer la plainte « ${NOMS[r]} » et ses réponses ?`)) return;
+      // Depuis le schéma, la dernière plainte peut être retirée aussi (le formulaire revient à « aucune plainte »).
+      if (etat.regions.length === 1 && !depuisSchema) return;
+      if (Object.keys(etat.par[r] || {}).some(x => x !== "cote") && !confirm(`Retirer la plainte « ${NOMS[r]} » et ses réponses ?`)) return;
       etat.regions = etat.regions.filter(x => x !== r); delete etat.par[r];
-      construire(); maj(); sources(); return;
+      construire(); maj(); sources(); garderFocus(focus); return;
     }
     etat.regions.push(r);
     const puce = form.querySelector(`button[data-region="${r}"]`); if (puce) puce.setAttribute("aria-busy", "true");
@@ -854,7 +862,7 @@
     const tous = actives().flatMap(r => [...D(r).questions.flatMap(q => q.effets), ...(D(r).grappes || [])]), n = { provisoire: 0, a_verifier: 0, verifie: 0, valide: 0 };
     for (const e of tous) n[e.statut]++;
     const articles = new Set(tous.filter(e => e.statut === "verifie" || e.statut === "valide").flatMap(e => (e.piste || "").split(/ ; | · /)).map(x => x.trim()).filter(Boolean));
-    $("#lo-stats").textContent = `${actives().map(r => NOMS[r]).join(", ")} : ${tous.length} poids : ${n.valide} validé${n.valide > 1 ? "s" : ""}, ${n.verifie} vérifié${n.verifie > 1 ? "s" : ""} (${articles.size} source${articles.size > 1 ? "s" : ""}), ${n.a_verifier} à vérifier, ${n.provisoire} provisoires. Fréquences de départ : provisoires.`;
+    $("#lo-stats").textContent = `${actives().map(r => NOMS[r]).join(", ")} : ${tous.length} poids : ${n.valide} validé${n.valide > 1 ? "s" : ""}, ${n.verifie} vérifié${n.verifie > 1 ? "s" : ""} (${articles.size} source${articles.size > 1 ? "s" : ""}), ${n.a_verifier} à vérifier, ${n.provisoire} provisoires. Fréquences de départ : provisoires${actives().some(r => D(r).frequencesRevues) ? " (revues par OpenEvidence le 24 novembre 2026 : aucune courbe confirmée ; corrigées là où des données publiées les contredisent)" : ""}.`;
   }
   function tableau() {
     if (!choixDx.value) { $("#lo-table tbody").innerHTML = ""; return; }

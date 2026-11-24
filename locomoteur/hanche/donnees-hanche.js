@@ -92,6 +92,7 @@
     { code: "HANC-P27", cle: "ppr|raideur_epaules>ppr", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
   ];
   window.Locomoteur.definir({
+    frequencesRevues: { date: "2026-11-24", source: "outils/locomoteur/sources/openevidence-reponses/2026-11-24-genou-hanche-lombaire.md", verdict: "Aucune courbe confirmée ; rapports femmes-hommes et quelques fréquences corrigés là où des données publiées les contredisent" },
     revues: REVUES_OE,
     id: "hanche", partie: "hanche", en: "hip and groin", rc: "Douleur à la hanche",
     titre: "Douleur à la hanche ou à l'aine", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
@@ -100,7 +101,7 @@
     diagnostics: [
       { id: "coxarthrose", nom: "Coxarthrose", n: "coxarthrose", base: [[12, .002], [30, .02], [45, .12], [60, .3], [75, .4], [90, .45]],
         repere: "Symptomatique 9,2 % après 45 ans ; 6,2 % après 60 ans ; 8 % à 35–70 ans (A, C)" },
-      { id: "sdgt", nom: "Syndrome douloureux du grand trochanter (tendinopathie glutéale)", n: "syndrome douloureux du grand trochanter", base: [[12, .005], [25, .03], [40, .12], [55, .2], [70, .2], [85, .15]],
+      { id: "sdgt", nom: "Syndrome douloureux du grand trochanter (tendinopathie glutéale)", n: "syndrome douloureux du grand trochanter", base: [[12, .005], [25, .03], [40, .12], [55, .2], [70, .2], [85, .15]], sexe: { F: 1.6, M: .4 }, repere: "Environ 4 femmes pour 1 homme ; pas d'effet de l'âge entre 50 et 79 ans (OpenEvidence, 24 nov. 2026)",
         sexe: { F: 2.2, M: .45 }, repere: "1,8–5,6/1 000/an ; 10–20 % des douleurs de hanche en médecine générale ; 17,6 % à 50–79 ans, femmes 23,5 % (A, C)" },
       { id: "adducteurs", nom: "Pubalgie des adducteurs", n: "pubalgie des adducteurs", base: [[12, .03], [18, .08], [25, .07], [40, .03], [60, .01]], sexe: { M: 1.8, F: .55 },
         repere: "Hanche et aine : 11 % des blessures sportives ; adducteurs 63–68 % des lésions hanche-aine du sportif (A, C)" },
@@ -108,9 +109,9 @@
         repere: "19–24 % des blessures en football professionnel ; 37 % des lésions musculaires du sportif (A, C)" },
       { id: "fracture", grave: true, nom: "Fracture de la hanche (col ou massif trochantérien)", n: "fracture de la hanche", base: [[12, .003], [40, .003], [60, .01], [75, .05], [90, .1]], sexe: { F: 1.5, M: .7 },
         repere: "681/100 000 après 55 ans (A, C)" },
-      { id: "cfa", nom: "Conflit fémoro-acétabulaire ou lésion du labrum", n: "conflit fémoro-acétabulaire", base: [[12, .008], [15, .03], [18, .07], [30, .08], [45, .04], [60, .01]],
+      { id: "cfa", nom: "Conflit fémoro-acétabulaire ou lésion du labrum", n: "conflit fémoro-acétabulaire", base: [[12, .008], [15, .05], [18, .1], [30, .12], [45, .08], [60, .02]], repere: "17 % des consultants confirmés en médecine familiale néerlandaise (38 % en cohorte populationnelle) : fréquence relevée de 15 à 45 ans (OpenEvidence, 24 nov. 2026)",
         repere: "17 % des consultants pour douleur de hanche ; labrum : 22–55 % des hanches douloureuses mais 38–69 % des asymptomatiques (A)" },
-      { id: "psoas", nom: "Ilio-psoas ou hanche à ressaut", n: "atteinte de l'ilio-psoas", base: [[12, .02], [20, .04], [35, .03], [60, .01]], repere: "12–36 % des douleurs inguinales du sportif (A)" },
+      { id: "psoas", nom: "Ilio-psoas ou hanche à ressaut", n: "atteinte de l'ilio-psoas", base: [[12, .02], [20, .04], [35, .03], [60, .01]], sexe: { F: 1.5, M: .55 }, repere: "12–36 % des douleurs inguinales du sportif (A) · Prédominance féminine en clinique du sport (17 % des diagnostics chez la femme contre 6 % chez l'homme) (OpenEvidence, 24 nov. 2026)" },
       { id: "piriforme", nom: "Syndrome du piriforme (fessier profond)", n: "syndrome fessier profond", base: [[12, .003], [30, .02], [50, .03], [70, .02]], sexe: { F: 1.3, M: .8 }, repere: "6–8 % des sciatiques (A)" },
       { id: "meralgie", nom: "Méralgie paresthésique", n: "méralgie paresthésique", base: [[12, .002], [30, .01], [50, .02], [70, .01]], repere: "32,6/100 000 p-a (A)" },
       { id: "osteite", nom: "Ostéite pubienne (douleur pubienne de l'athlète)", n: "ostéite pubienne", base: [[12, .005], [18, .02], [30, .015], [45, .005]], sexe: { M: 2, F: .5 }, repere: "0,5–8 % des athlètes ; 9 % des lésions hanche-aine du sportif (A, C)" },

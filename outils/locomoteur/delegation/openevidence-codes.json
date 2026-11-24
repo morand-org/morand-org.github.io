@@ -3,493 +3,575 @@
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "radiculopathie|bras_cou>radiculopathie",
-  "texte": "« Douleur du bras plus forte que celle du cou » — current LR+ 3, LR− 0.7"
+  "texte": "« Douleur du bras plus forte que celle du cou » — current LR+ 3, LR− 0.7",
+  "revu": true
  },
  "CERV-P2": {
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "radiculopathie|rotation60>radiculopathie",
-  "texte": "« Rotation vers le côté atteint de moins de 60° » — current LR+ 1.8, LR− 0.23"
+  "texte": "« Rotation vers le côté atteint de moins de 60° » — current LR+ 1.8, LR− 0.23",
+  "revu": true
  },
  "CERV-P3": {
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "radiculopathie|hypoesthesie>radiculopathie",
-  "texte": "« Hypoesthésie dans un dermatome » — current LR+ 1.5, LR− 0.9"
+  "texte": "« Hypoesthésie dans un dermatome » — current Se 44%, Sp 72%, LR+ 1.5, LR− 0.9",
+  "revu": true
  },
  "CERV-P4": {
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "radiculopathie|spurling>radiculopathie",
-  "texte": "« Spurling test » — current LR+ 4, LR− 0.5"
+  "texte": "« Spurling test » — current Se 50%, Sp 86%, LR+ 4, LR− 0.5",
+  "revu": true
  },
  "CERV-P5": {
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "radiculopathie|ultt>radiculopathie",
-  "texte": "« Upper limb tension test median nerve (ULTT A (nerf médian)) » — current LR+ 1.3, LR− 0.12"
+  "texte": "« Upper limb tension test median nerve (ULTT A (nerf médian)) » — current Se 70%, Sp 71%, LR+ 1.3, LR− 0.12",
+  "revu": true
  },
  "CERV-P6": {
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "radiculopathie|distraction>radiculopathie",
-  "texte": "« Cervical distraction test » — current LR+ 4.4, LR− 0.6"
+  "texte": "« Cervical distraction test » — current LR+ 4.4, LR− 0.6",
+  "revu": true
  },
  "CERV-P7": {
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "grappe|wainner3",
-  "texte": "Cluster « Wainner : 3 sur 4 » — current LR+ 6.1 (Wainner et coll., 2003, Spine (PMID 12544957 ; EMG, n = 82) : Se 39 %, Sp 94 %, RV+ 6,1 (non vérifiable dans l'extrait))"
+  "texte": "Cluster « Wainner : 3 sur 4 » — current LR+ 6.1 (Wainner et coll., 2003 (Spine, PMID 12544957), EMG, n = 82 : 3 sur 4, Se 39 %, Sp 94 %, RV+ 6,1 ; 4 sur 4 : RV+ 30,3 ; pas de validation externe)",
+  "revu": true
  },
  "CERV-P8": {
   "region": "cervical",
   "dx": "myelopathie",
   "cle": "myelopathie|maladresse>myelopathie",
-  "texte": "« Maladresse des mains (boutons, écriture) » — current Se 58%, Sp 92%, LR+ 7.25, LR− 0.46"
+  "texte": "« Maladresse des mains (boutons, écriture) » — current Se 58%, Sp 92%, LR+ 7.25, LR− 0.46",
+  "revu": true
  },
  "CERV-P9": {
   "region": "cervical",
   "dx": "myelopathie",
   "cle": "myelopathie|marche_myelo>myelopathie",
-  "texte": "« Trouble de la marche ou de l'équilibre » — current Se 58%, Sp 92%, LR+ 7.25, LR− 0.46"
+  "texte": "« Trouble de la marche ou de l'équilibre » — current Se 58%, Sp 92%, LR+ 7.25, LR− 0.46",
+  "revu": true
  },
  "CERV-P10": {
   "region": "cervical",
   "dx": "myelopathie",
   "cle": "myelopathie|sphincters>myelopathie",
-  "texte": "« Trouble urinaire ou fécal nouveau » — current Se 41%, Sp 91%, LR+ 4.56, LR− 0.65"
+  "texte": "« Trouble urinaire ou fécal nouveau » — current Se 41%, Sp 91%, LR+ 4.56, LR− 0.65",
+  "revu": true
  },
  "CERV-P11": {
   "region": "cervical",
   "dx": "myelopathie",
   "cle": "myelopathie|tandem>myelopathie",
-  "texte": "« Marche en tandem anormale » — current Se 87%, Sp 53%, LR+ 1.85, LR− 0.25"
+  "texte": "« Marche en tandem anormale » — current Se 87%, Sp 53%, LR+ 1.85, LR− 0.25",
+  "revu": true
  },
  "CERV-P12": {
   "region": "cervical",
   "dx": "defile",
   "cle": "defile|bras_leve_agg>defile",
-  "texte": "« Pire bras levés au-dessus de la tête » — current LR+ 3, LR− 0.2"
+  "texte": "« Pire bras levés au-dessus de la tête » — current LR+ 3, LR− 0.2",
+  "revu": true
  },
  "CERV-P13": {
   "region": "cervical",
   "dx": "defile",
   "cle": "defile|paresthesies>defile",
-  "texte": "« Engourdissements ou picotements dans le bras ou la main » — current LR+ 2, LR− 0.2"
+  "texte": "« Engourdissements ou picotements dans le bras ou la main » — current LR+ 2, LR− 0.2",
+  "revu": true
  },
  "CERV-P14": {
   "region": "cervical",
   "dx": "cervicogenique",
   "cle": "cervicogenique|localisation.tete>cervicogenique",
-  "texte": "« Où est la douleur : Tête (occiput, céphalée) » — current LR+ 5, LR− 0.3"
+  "texte": "« Où est la douleur : Tête (occiput, céphalée) » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "CERV-P15": {
   "region": "cervical",
   "dx": "radiculopathie",
   "cle": "radiculopathie|localisation.bras>radiculopathie",
-  "texte": "« Où est la douleur : Bras, sous le coude, trajet radiculaire » — current LR+ 6, LR− 0.2"
+  "texte": "« Où est la douleur : Bras, sous le coude, trajet radiculaire » — current LR+ 6, LR− 0.2",
+  "revu": true
  },
  "CERV-P16": {
   "region": "cervical",
   "dx": "stinger",
   "cle": "stinger|brulure_transitoire>stinger",
-  "texte": "« Brûlure ou engourdissement d'un bras après un contact, quelques minutes » — current LR+ 10, LR− 0.3"
+  "texte": "« Brûlure ou engourdissement d'un bras après un contact, quelques minutes » — current LR+ 10, LR− 0.3",
+  "revu": true
  },
  "CERV-P17": {
   "region": "cervical",
   "dx": "torticolis",
   "cle": "torticolis|torticolis_vu>torticolis",
-  "texte": "« Attitude vicieuse (tête inclinée et tournée) » — current LR+ 8, LR− 0.3"
+  "texte": "« Attitude vicieuse (tête inclinée et tournée) » — current LR+ 8, LR− 0.3",
+  "revu": true
  },
  "CERV-P18": {
   "region": "cervical",
   "dx": "torticolis",
   "cle": "torticolis|arom_rotation|complete",
-  "texte": "Rotation active = « Complète et indolore » — current LR 0.2"
+  "texte": "Rotation active = « Complète et indolore » — current LR 0.2",
+  "revu": true
  },
  "CERV-P19": {
   "region": "cervical",
   "dx": "ppr",
   "cle": "ppr|localisation.epaules_hanches>ppr",
-  "texte": "« Où est la douleur : Aux deux épaules et aux hanches, avec raideur » — current LR+ 10, LR− 0.3"
+  "texte": "« Où est la douleur : Aux deux épaules et aux hanches, avec raideur » — current LR+ 10, LR− 0.3",
+  "revu": true
  },
  "CERV-P20": {
   "region": "cervical",
   "dx": "ppr",
   "cle": "ppr|raideur|plus30",
-  "texte": "Raideur matinale = « 30 minutes ou plus » — current LR 5"
+  "texte": "Raideur matinale = « 30 minutes ou plus » — current LR 5",
+  "revu": true
  },
  "CERV-P21": {
   "region": "cervical",
   "dx": "ppr",
   "cle": "ppr|raideur_ceintures>ppr",
-  "texte": "« Raideur matinale des épaules et des hanches » — current LR+ 10, LR− 0.2"
+  "texte": "« Raideur matinale des épaules et des hanches » — current LR+ 10, LR− 0.2",
+  "revu": true
  },
  "CERV-P22": {
   "region": "cervical",
   "dx": "myelopathie",
   "cle": "myelopathie|babinski>myelopathie",
-  "texte": "« Babinski » — current LR+ 5, LR− 0.9"
+  "texte": "« Babinski » — current LR+ 5, LR− 0.9",
+  "revu": true
  },
  "CERV-P23": {
   "region": "cervical",
   "dx": "par",
   "cle": "par|atcd_rhumato.par>par",
-  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Polyarthrite rhumatoïde » — current LR+ 50, LR− 0.1"
+  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Polyarthrite rhumatoïde » — current LR+ 50, LR− 0.1",
+  "revu": true
  },
  "CERV-P24": {
   "region": "cervical",
   "dx": "infection",
   "cle": "infection|risque_infection.udi>infection",
-  "texte": "« Facteurs de risque d'infection : Drogues injectables » — current LR+ 5, LR− 1"
+  "texte": "« Facteurs de risque d'infection : Drogues injectables » — current LR+ 5, LR− 1",
+  "revu": true
  },
  "CERV-P25": {
   "region": "cervical",
   "dx": "arnold",
   "cle": "arnold|p_occipital>arnold",
-  "texte": "« Nerf grand occipital douloureux » — current LR+ 6, LR− 0.3"
+  "texte": "« Nerf grand occipital douloureux » — current LR+ 6, LR− 0.3",
+  "revu": true
  },
  "EPAU-P1": {
   "region": "epaule",
   "dx": "sous_acro",
   "cle": "sous_acro|neer>sous_acro",
-  "texte": "« Neer test » — current LR+ 1.3, LR− 0.8"
+  "texte": "« Neer test » — current Se 73%, Sp 52%, LR+ 1.3, LR− 0.8",
+  "revu": true
  },
  "EPAU-P2": {
   "region": "epaule",
   "dx": "sous_acro",
   "cle": "grappe|park_conflit",
-  "texte": "Cluster « Park : Hawkins + arc douloureux + rotation externe résistée » — current LR+ 10.6 (Park et coll., 2005, J Bone Joint Surg Am (PMID 15995110) : probabilité post-test 95 % ; RV+ ≈ 10,6 non vérifiable dans l'extrait)"
+  "texte": "Cluster « Park : Hawkins + arc douloureux + rotation externe résistée » — current LR+ 10.6 (Park et coll., 2005, J Bone Joint Surg Am (PMID 15995110) : probabilité post-test 95 % ; RV+ ≈ 10,6 non vérifiable dans l'extrait)",
+  "revu": true
  },
  "EPAU-P3": {
   "region": "epaule",
   "dx": "capsulite",
   "cle": "capsulite|diabete>capsulite",
-  "texte": "« Diabète ou neuropathie périphérique » — current LR+ 2.5, LR− 0.85"
+  "texte": "« Diabète ou neuropathie périphérique » — current LR+ 2.5, LR− 0.85",
+  "revu": true
  },
  "EPAU-P4": {
   "region": "epaule",
   "dx": "rupture",
   "cle": "grappe|park_rupture",
-  "texte": "Cluster « Park : arc douloureux + drop-arm + faiblesse en rotation externe » — current LR+ 15.6 (Park et coll., 2005, J Bone Joint Surg Am (PMID 15995110) : probabilité post-test 91 % ; RV+ ≈ 15,6 non vérifiable dans l'extrait)"
+  "texte": "Cluster « Park : arc douloureux + drop-arm + faiblesse en rotation externe » — current LR+ 15.6 (Park et coll., 2005, J Bone Joint Surg Am (PMID 15995110) : probabilité post-test 91 % ; RV+ ≈ 15,6 non vérifiable dans l'extrait)",
+  "revu": true
  },
  "EPAU-P5": {
   "region": "epaule",
   "dx": "dyskinesie",
   "cle": "dyskinesie|dyskinesie_vue>dyskinesie",
-  "texte": "« Scapula décollée ou dyskinésie visible » — current LR+ 3, LR− 0.6"
+  "texte": "« Scapula décollée ou dyskinésie visible » — current LR+ 3, LR− 0.6",
+  "revu": true
  },
  "EPAU-P6": {
   "region": "epaule",
   "dx": "ac_arthrose",
   "cle": "ac_arthrose|localisation.sous_coude>ac_arthrose",
-  "texte": "« Où est la douleur : Irradie sous le coude » — current LR+ 0.3, LR− 1.05"
+  "texte": "« Où est la douleur : Irradie sous le coude » — current LR+ 0.3, LR− 1.05",
+  "revu": true
  },
  "EPAU-P7": {
   "region": "epaule",
   "dx": "ac_arthrose",
   "cle": "ac_arthrose|p_ac>ac_arthrose",
-  "texte": "« Acromio-claviculaire » — current LR+ 1.6, LR− 0.1"
+  "texte": "« Acromio-claviculaire » — current LR+ 1.6, LR− 0.1",
+  "revu": true
  },
  "EPAU-P8": {
   "region": "epaule",
   "dx": "capsulite",
   "cle": "capsulite|raideur_prog>capsulite",
-  "texte": "« Perte progressive de mouvement (difficulté à s'habiller, à attacher le soutien-gorge) » — current LR+ 6, LR− 0.2"
+  "texte": "« Perte progressive de mouvement (difficulté à s'habiller, à attacher le soutien-gorge) » — current LR+ 6, LR− 0.2",
+  "revu": true
  },
  "EPAU-P9": {
   "region": "epaule",
   "dx": "capsulite",
   "cle": "capsulite|arom_elev|complete",
-  "texte": "Élévation active (flexion) = « Complète et indolore » — current LR 0.2"
+  "texte": "Élévation active (flexion) = « Complète et indolore » — current LR 0.2",
+  "revu": true
  },
  "EPAU-P10": {
   "region": "epaule",
   "dx": "capsulite",
   "cle": "capsulite|arom_re|complete",
-  "texte": "Rotation externe active = « Complète et indolore » — current LR 0.2"
+  "texte": "Rotation externe active = « Complète et indolore » — current LR 0.2",
+  "revu": true
  },
  "EPAU-P11": {
   "region": "epaule",
   "dx": "capsulite",
   "cle": "capsulite|prom_re|complete",
-  "texte": "Rotation externe passive = « Complète et indolore » — current LR 0.05"
+  "texte": "Rotation externe passive = « Complète et indolore » — current LR 0.05",
+  "revu": true
  },
  "EPAU-P12": {
   "region": "epaule",
   "dx": "capsulite",
   "cle": "capsulite|prom_re|lim_douleur",
-  "texte": "Rotation externe passive = « Limitée avec douleur » — current LR 6"
+  "texte": "Rotation externe passive = « Limitée avec douleur » — current LR 6",
+  "revu": true
  },
  "EPAU-P13": {
   "region": "epaule",
   "dx": "capsulite",
   "cle": "capsulite|prom_re|lim_raideur",
-  "texte": "Rotation externe passive = « Limitée par raideur » — current LR 8"
+  "texte": "Rotation externe passive = « Limitée par raideur » — current LR 8",
+  "revu": true
  },
  "EPAU-P14": {
   "region": "epaule",
   "dx": "ac_entorse",
   "cle": "ac_entorse|marche_ac>ac_entorse",
-  "texte": "« Marche d'escalier acromio-claviculaire » — current LR+ 8, LR− 0.6"
+  "texte": "« Marche d'escalier acromio-claviculaire » — current LR+ 8, LR− 0.6",
+  "revu": true
  },
  "EPAU-P15": {
   "region": "epaule",
   "dx": "ac_entorse",
   "cle": "ac_entorse|p_ac>ac_entorse",
-  "texte": "« Acromio-claviculaire » — current LR+ 3, LR− 0.2"
+  "texte": "« Acromio-claviculaire » — current LR+ 3, LR− 0.2",
+  "revu": true
  },
  "EPAU-P16": {
   "region": "epaule",
   "dx": "clavicule",
   "cle": "clavicule|p_clavicule>clavicule",
-  "texte": "« Clavicule » — current LR+ 6, LR− 0.1"
+  "texte": "« Clavicule » — current LR+ 6, LR− 0.1",
+  "revu": true
  },
  "EPAU-P17": {
   "region": "epaule",
   "dx": "instab_ant",
   "cle": "instab_ant|atcd_luxation>instab_ant",
-  "texte": "« Luxation antérieure de cette épaule » — current LR+ 8, LR− 0.4"
+  "texte": "« Luxation antérieure de cette épaule » — current LR+ 8, LR− 0.4",
+  "revu": true
  },
  "EPAU-P18": {
   "region": "epaule",
   "dx": "instab_ant",
   "cle": "instab_ant|deboitement>instab_ant",
-  "texte": "« Sensation que l'épaule sort de place » — current LR+ 6, LR− 0.3"
+  "texte": "« Sensation que l'épaule sort de place » — current LR+ 6, LR− 0.3",
+  "revu": true
  },
  "EPAU-P19": {
   "region": "epaule",
   "dx": "instab_ant",
   "cle": "instab_ant|deformation>instab_ant",
-  "texte": "« Déformation visible ou épaule « carrée » » — current LR+ 6, LR− 0.9"
+  "texte": "« Déformation visible ou épaule « carrée » » — current LR+ 6, LR− 0.9",
+  "revu": true
  },
  "EPAU-P20": {
   "region": "epaule",
   "dx": "ac_arthrose",
   "cle": "ac_arthrose|localisation.sommet>ac_arthrose",
-  "texte": "« Où est la douleur : Sommet de l'épaule (acromio-claviculaire) » — current LR+ 5, LR− 0.3"
+  "texte": "« Où est la douleur : Sommet de l'épaule (acromio-claviculaire) » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "EPAU-P21": {
   "region": "epaule",
   "dx": "ppr",
   "cle": "ppr|localisation.deux_epaules>ppr",
-  "texte": "« Où est la douleur : Aux deux épaules et aux hanches, avec raideur » — current LR+ 10, LR− 0.3"
+  "texte": "« Où est la douleur : Aux deux épaules et aux hanches, avec raideur » — current LR+ 10, LR− 0.3",
+  "revu": true
  },
  "EPAU-P22": {
   "region": "epaule",
   "dx": "ppr",
   "cle": "ppr|raideur|plus30",
-  "texte": "Raideur matinale = « 30 minutes ou plus » — current LR 5"
+  "texte": "Raideur matinale = « 30 minutes ou plus » — current LR 5",
+  "revu": true
  },
  "EPAU-P23": {
   "region": "epaule",
   "dx": "ppr",
   "cle": "ppr|raideur_ceintures>ppr",
-  "texte": "« Raideur matinale des épaules et des hanches » — current LR+ 10, LR− 0.2"
+  "texte": "« Raideur matinale des épaules et des hanches » — current LR+ 10, LR− 0.2",
+  "revu": true
  },
  "EPAU-P24": {
   "region": "epaule",
   "dx": "biceps",
   "cle": "biceps|popeye>biceps",
-  "texte": "« Boule au milieu du bras (déformation de Popeye) » — current LR+ 15, LR− 0.9"
+  "texte": "« Boule au milieu du bras (déformation de Popeye) » — current LR+ 15, LR− 0.9",
+  "revu": true
  },
  "EPAU-P25": {
   "region": "epaule",
   "dx": "cervical",
   "cle": "cervical|localisation.sous_coude>cervical",
-  "texte": "« Où est la douleur : Irradie sous le coude » — current LR+ 6, LR− 0.4"
+  "texte": "« Où est la douleur : Irradie sous le coude » — current LR+ 6, LR− 0.4",
+  "revu": true
  },
  "EPAU-P26": {
   "region": "epaule",
   "dx": "cervical",
   "cle": "cervical|cou_aggrave>cervical",
-  "texte": "« Douleur reproduite par les mouvements du cou » — current LR+ 6, LR− 0.3"
+  "texte": "« Douleur reproduite par les mouvements du cou » — current LR+ 6, LR− 0.3",
+  "revu": true
  },
  "EPAU-P27": {
   "region": "epaule",
   "dx": "cervical",
   "cle": "cervical|paresthesies>cervical",
-  "texte": "« Engourdissements ou picotements dans le bras ou la main » — current LR+ 5, LR− 0.4"
+  "texte": "« Engourdissements ou picotements dans le bras ou la main » — current LR+ 5, LR− 0.4",
+  "revu": true
  },
  "EPAU-P28": {
   "region": "epaule",
   "dx": "cervical",
   "cle": "cervical|deficit_c5c6>cervical",
-  "texte": "« Déficit de force, de sensibilité ou de réflexe C5–C6 » — current LR+ 5, LR− 0.8"
+  "texte": "« Déficit de force, de sensibilité ou de réflexe C5–C6 » — current LR+ 5, LR− 0.8",
+  "revu": true
  },
  "COUD-P1": {
   "region": "coude",
   "dx": "epi_lat",
   "cle": "epi_lat|blocage_coude>epi_lat",
-  "texte": "« Blocage ou accrochage du coude » — current LR+ 0.4, LR− 1.05"
+  "texte": "« Blocage ou accrochage du coude » — current LR+ 0.4, LR− 1.05",
+  "revu": true
  },
  "COUD-P2": {
   "region": "coude",
   "dx": "epi_lat",
   "cle": "epi_lat|cozen>epi_lat",
-  "texte": "« Cozen test (Extension résistée du poignet (Cozen)) » — current LR+ 2.5, LR− 0.12"
+  "texte": "« Cozen test (Extension résistée du poignet (Cozen)) » — current LR+ 2.5, LR− 0.12",
+  "revu": true
  },
  "COUD-P3": {
   "region": "coude",
   "dx": "epi_lat",
   "cle": "epi_lat|maudsley>epi_lat",
-  "texte": "« Maudsley test (Extension résistée du 3ᵉ doigt (Maudsley)) » — current LR+ 2, LR− 0.4"
+  "texte": "« Maudsley test (Extension résistée du 3ᵉ doigt (Maudsley)) » — current LR+ 2, LR− 0.4",
+  "revu": true
  },
  "COUD-P4": {
   "region": "coude",
   "dx": "tunnel_radial",
   "cle": "tunnel_radial|p_radial_distal>tunnel_radial",
-  "texte": "« Douleur 3 à 5 cm sous l'épicondyle latéral (arcade de Frohse) » — current LR+ 5, LR− 0.3"
+  "texte": "« Douleur 3 à 5 cm sous l'épicondyle latéral (arcade de Frohse) » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "COUD-P5": {
   "region": "coude",
   "dx": "epi_lat",
   "cle": "epi_lat|localisation.laterale>epi_lat",
-  "texte": "« Où est la douleur : Latérale, à l'épicondyle » — current LR+ 5, LR− 0.1"
+  "texte": "« Où est la douleur : Latérale, à l'épicondyle » — current LR+ 5, LR− 0.1",
+  "revu": true
  },
  "COUD-P6": {
   "region": "coude",
   "dx": "epi_lat",
   "cle": "epi_lat|p_epi_lat>epi_lat",
-  "texte": "« Épicondyle latéral douloureux » — current LR+ 5, LR− 0.1"
+  "texte": "« Épicondyle latéral douloureux » — current LR+ 5, LR− 0.1",
+  "revu": true
  },
  "COUD-P7": {
   "region": "coude",
   "dx": "epi_med",
   "cle": "epi_med|localisation.mediale>epi_med",
-  "texte": "« Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.15"
+  "texte": "« Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.15",
+  "revu": true
  },
  "COUD-P8": {
   "region": "coude",
   "dx": "epi_med",
   "cle": "epi_med|p_epi_med>epi_med",
-  "texte": "« Épicondyle médial douloureux » — current LR+ 5, LR− 0.1"
+  "texte": "« Épicondyle médial douloureux » — current LR+ 5, LR− 0.1",
+  "revu": true
  },
  "COUD-P9": {
   "region": "coude",
   "dx": "lanceur",
   "cle": "lanceur|sport.lancer>lanceur",
-  "texte": "« Activités physiques : Sports de lancer (baseball, softball, water-polo) » — current LR+ 5, LR− 1"
+  "texte": "« Activités physiques : Sports de lancer (baseball, softball, water-polo) » — current LR+ 5, LR− 1",
+  "revu": true
  },
  "COUD-P10": {
   "region": "coude",
   "dx": "lanceur",
   "cle": "lanceur|localisation.mediale>lanceur",
-  "texte": "« Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.1"
+  "texte": "« Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.1",
+  "revu": true
  },
  "COUD-P11": {
   "region": "coude",
   "dx": "lanceur",
   "cle": "lanceur|p_epi_med>lanceur",
-  "texte": "« Épicondyle médial douloureux » — current LR+ 6, LR− 0.1"
+  "texte": "« Épicondyle médial douloureux » — current LR+ 6, LR− 0.1",
+  "revu": true
  },
  "COUD-P12": {
   "region": "coude",
   "dx": "luxation",
   "cle": "luxation|deformation_vue>luxation",
-  "texte": "« Déformation visible ou coude « sorti de place » » — current LR+ 15, LR− 0.2"
+  "texte": "« Déformation visible ou coude « sorti de place » » — current LR+ 15, LR− 0.2",
+  "revu": true
  },
  "COUD-P13": {
   "region": "coude",
   "dx": "luxation",
   "cle": "luxation|ex_deformation>luxation",
-  "texte": "« Déformation ou perte des repères (triangle olécrânien) » — current LR+ 15, LR− 0.2"
+  "texte": "« Déformation ou perte des repères (triangle olécrânien) » — current LR+ 15, LR− 0.2",
+  "revu": true
  },
  "COUD-P14": {
   "region": "coude",
   "dx": "luxation",
   "cle": "luxation|ext_test>luxation",
-  "texte": "« Elbow extension test » — current LR+ 1.5, LR− 0.1"
+  "texte": "« Elbow extension test » — current LR+ 1.5, LR− 0.1",
+  "revu": true
  },
  "COUD-P15": {
   "region": "coude",
   "dx": "bursite",
   "cle": "bursite|enflure_post>bursite",
-  "texte": "« Enflure derrière le coude (« balle » sur l'olécrâne) » — current LR+ 15, LR− 0.2"
+  "texte": "« Enflure derrière le coude (« balle » sur l'olécrâne) » — current LR+ 15, LR− 0.2",
+  "revu": true
  },
  "COUD-P16": {
   "region": "coude",
   "dx": "bursite",
   "cle": "bursite|ex_bourse>bursite",
-  "texte": "« Tuméfaction de la bourse olécrânienne » — current LR+ 20, LR− 0.1"
+  "texte": "« Tuméfaction de la bourse olécrânienne » — current LR+ 20, LR− 0.1",
+  "revu": true
  },
  "COUD-P17": {
   "region": "coude",
   "dx": "bursite_septique",
   "cle": "bursite_septique|enflure_post>bursite_septique",
-  "texte": "« Enflure derrière le coude (« balle » sur l'olécrâne) » — current LR+ 15, LR− 0.2"
+  "texte": "« Enflure derrière le coude (« balle » sur l'olécrâne) » — current LR+ 15, LR− 0.2",
+  "revu": true
  },
  "COUD-P18": {
   "region": "coude",
   "dx": "bursite_septique",
   "cle": "bursite_septique|ex_bourse>bursite_septique",
-  "texte": "« Tuméfaction de la bourse olécrânienne » — current LR+ 20, LR− 0.1"
+  "texte": "« Tuméfaction de la bourse olécrânienne » — current LR+ 20, LR− 0.1",
+  "revu": true
  },
  "COUD-P19": {
   "region": "coude",
   "dx": "lcu",
   "cle": "lcu|sport.lancer>lcu",
-  "texte": "« Activités physiques : Sports de lancer (baseball, softball, water-polo) » — current LR+ 5, LR− 1"
+  "texte": "« Activités physiques : Sports de lancer (baseball, softball, water-polo) » — current LR+ 5, LR− 1",
+  "revu": true
  },
  "COUD-P20": {
   "region": "coude",
   "dx": "lcu",
   "cle": "lcu|localisation.mediale>lcu",
-  "texte": "« Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.2"
+  "texte": "« Où est la douleur : Médiale, à l'épicondyle médial » — current LR+ 5, LR− 0.2",
+  "revu": true
  },
  "COUD-P21": {
   "region": "coude",
   "dx": "biceps",
   "cle": "biceps|pop>biceps",
-  "texte": "« Claquement (« pop ») au moment de la blessure » — current LR+ 5, LR− 0.3"
+  "texte": "« Claquement (« pop ») au moment de la blessure » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "COUD-P22": {
   "region": "coude",
   "dx": "biceps",
   "cle": "biceps|localisation.anterieure>biceps",
-  "texte": "« Où est la douleur : Antérieure, au pli du coude » — current LR+ 6, LR− 0.2"
+  "texte": "« Où est la douleur : Antérieure, au pli du coude » — current LR+ 6, LR− 0.2",
+  "revu": true
  },
  "COUD-P23": {
   "region": "coude",
   "dx": "biceps",
   "cle": "biceps|ex_ecchymose_ant>biceps",
-  "texte": "« Ecchymose antécubitale » — current LR+ 6, LR− 0.5"
+  "texte": "« Ecchymose antécubitale » — current LR+ 6, LR− 0.5",
+  "revu": true
  },
  "COUD-P24": {
   "region": "coude",
   "dx": "ocd",
   "cle": "ocd|blocage_coude>ocd",
-  "texte": "« Blocage ou accrochage du coude » — current LR+ 5, LR− 0.5"
+  "texte": "« Blocage ou accrochage du coude » — current LR+ 5, LR− 0.5",
+  "revu": true
  },
  "COUD-P25": {
   "region": "coude",
   "dx": "conflit_post",
   "cle": "conflit_post|localisation.posterieure>conflit_post",
-  "texte": "« Où est la douleur : Postérieure, à l'olécrâne » — current LR+ 5, LR− 0.3"
+  "texte": "« Où est la douleur : Postérieure, à l'olécrâne » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "COUD-P26": {
   "region": "coude",
   "dx": "triceps",
   "cle": "triceps|localisation.posterieure>triceps",
-  "texte": "« Où est la douleur : Postérieure, à l'olécrâne » — current LR+ 5, LR− 0.3"
+  "texte": "« Où est la douleur : Postérieure, à l'olécrâne » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "COUD-P27": {
   "region": "coude",
   "dx": "triceps",
   "cle": "triceps|extension_contre_gravite>triceps",
-  "texte": "« Extension active du coude contre la gravité impossible » — current LR+ 10, LR− 0.3"
+  "texte": "« Extension active du coude contre la gravité impossible » — current LR+ 10, LR− 0.3",
+  "revu": true
  },
  "COUD-P28": {
   "region": "coude",
   "dx": "tunnel_radial",
   "cle": "tunnel_radial|localisation.lat_distale>tunnel_radial",
-  "texte": "« Où est la douleur : Latérale, 3 à 5 cm sous l'épicondyle (avant-bras) » — current LR+ 5, LR− 0.3"
+  "texte": "« Où est la douleur : Latérale, 3 à 5 cm sous l'épicondyle (avant-bras) » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "COUD-P29": {
   "region": "coude",
   "dx": "arthrite",
   "cle": "arthrite|autres_articulations>arthrite",
-  "texte": "« Autres articulations enflées ou douloureuses » — current LR+ 5, LR− 0.6"
+  "texte": "« Autres articulations enflées ou douloureuses » — current LR+ 5, LR− 0.6",
+  "revu": true
  },
  "COUD-P30": {
   "region": "coude",
@@ -513,253 +595,295 @@
   "region": "poignet",
   "dx": "fx_radius",
   "cle": "fx_radius|ex_ecchymose>fx_radius",
-  "texte": "« Ecchymose » — current LR+ 5, LR− 0.8"
+  "texte": "« Ecchymose » — current LR+ 5, LR− 0.8",
+  "revu": true
  },
  "POIG-P2": {
   "region": "poignet",
   "dx": "fx_radius",
   "cle": "fx_radius|dorsiflexion_douleur>fx_radius",
-  "texte": "« Dorsiflexion du poignet douloureuse » — current LR+ 1.5, LR− 0.1"
+  "texte": "« Dorsiflexion du poignet douloureuse » — current LR+ 1.5, LR− 0.1",
+  "revu": true
  },
  "POIG-P3": {
   "region": "poignet",
   "dx": "scaphoide",
   "cle": "scaphoide|pronosup_res>scaphoide",
-  "texte": "« Prono-supination résistée douloureuse » — current LR+ 10, LR− 0.2"
+  "texte": "« Prono-supination résistée douloureuse » — current LR+ 10, LR− 0.2",
+  "revu": true
  },
  "POIG-P4": {
   "region": "poignet",
   "dx": "dequervain",
   "cle": "dequervain|finkelstein>dequervain",
-  "texte": "« Finkelstein test » — current LR+ 5, LR− 0.3"
+  "texte": "« Finkelstein test » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "POIG-P5": {
   "region": "poignet",
   "dx": "tfcc",
   "cle": "tfcc|fovea>tfcc",
-  "texte": "« Ulnar fovea sign » — current LR+ 3, LR− 0.15"
+  "texte": "« Ulnar fovea sign » — current LR+ 3, LR− 0.15",
+  "revu": true
  },
  "POIG-P6": {
   "region": "poignet",
   "dx": "arthrose_digitale",
   "cle": "arthrose_digitale|ex_nodules>arthrose_digitale",
-  "texte": "« Nodules d'Heberden ou de Bouchard (élargissement osseux) » — current LR+ 8, LR− 0.2"
+  "texte": "« Nodules d'Heberden ou de Bouchard (élargissement osseux) » — current LR+ 8, LR− 0.2",
+  "revu": true
  },
  "POIG-P7": {
   "region": "poignet",
   "dx": "teno_infectieuse",
   "cle": "teno_infectieuse|kanavel>teno_infectieuse",
-  "texte": "« Signes de Kanavel (enflure fusiforme, doigt fléchi, douleur à l'extension passive, gaine sensible) » — current LR+ 10, LR− 0.3"
+  "texte": "« Signes de Kanavel (enflure fusiforme, doigt fléchi, douleur à l'extension passive, gaine sensible) » — current LR+ 10, LR− 0.3",
+  "revu": true
  },
  "POIG-P8": {
   "region": "poignet",
   "dx": "fx_radius",
   "cle": "fx_radius|ex_deformation>fx_radius",
-  "texte": "« Déformation du poignet (en dos de fourchette) ou du doigt » — current LR+ 8, LR− 0.5"
+  "texte": "« Déformation du poignet (en dos de fourchette) ou du doigt » — current LR+ 8, LR− 0.5",
+  "revu": true
  },
  "POIG-P9": {
   "region": "poignet",
   "dx": "fx_radius",
   "cle": "fx_radius|p_radius_distal>fx_radius",
-  "texte": "« Radius distal douloureux » — current LR+ 4, LR− 0.1"
+  "texte": "« Radius distal douloureux » — current LR+ 4, LR− 0.1",
+  "revu": true
  },
  "POIG-P10": {
   "region": "poignet",
   "dx": "kyste",
   "cle": "kyste|masse>kyste",
-  "texte": "« Bosse ou masse visible » — current LR+ 12, LR− 0.2"
+  "texte": "« Bosse ou masse visible » — current LR+ 12, LR− 0.2",
+  "revu": true
  },
  "POIG-P11": {
   "region": "poignet",
   "dx": "kyste",
   "cle": "kyste|ex_kyste>kyste",
-  "texte": "« Masse ferme, lisse, qui transillumine » — current LR+ 20, LR− 0.3"
+  "texte": "« Masse ferme, lisse, qui transillumine » — current LR+ 20, LR− 0.3",
+  "revu": true
  },
  "POIG-P12": {
   "region": "poignet",
   "dx": "dequervain",
   "cle": "dequervain|localisation.radiale>dequervain",
-  "texte": "« Où est la douleur : Côté du pouce du poignet (styloïde radiale, tabatière) » — current LR+ 5, LR− 0.2"
+  "texte": "« Où est la douleur : Côté du pouce du poignet (styloïde radiale, tabatière) » — current LR+ 5, LR− 0.2",
+  "revu": true
  },
  "POIG-P13": {
   "region": "poignet",
   "dx": "dequervain",
   "cle": "dequervain|p_styloide_radiale>dequervain",
-  "texte": "« Premier compartiment (styloïde radiale) douloureux ou épaissi » — current LR+ 5, LR− 0.1"
+  "texte": "« Premier compartiment (styloïde radiale) douloureux ou épaissi » — current LR+ 5, LR− 0.1",
+  "revu": true
  },
  "POIG-P14": {
   "region": "poignet",
   "dx": "tfcc",
   "cle": "tfcc|localisation.ulnaire>tfcc",
-  "texte": "« Où est la douleur : Côté de l'auriculaire du poignet » — current LR+ 6, LR− 0.2"
+  "texte": "« Où est la douleur : Côté de l'auriculaire du poignet » — current LR+ 6, LR− 0.2",
+  "revu": true
  },
  "POIG-P15": {
   "region": "poignet",
   "dx": "hamatum",
   "cle": "hamatum|sport.golf>hamatum",
-  "texte": "« Activités physiques : Golf » — current LR+ 5, LR− 1"
+  "texte": "« Activités physiques : Golf » — current LR+ 5, LR− 1",
+  "revu": true
  },
  "POIG-P16": {
   "region": "poignet",
   "dx": "hamatum",
   "cle": "hamatum|p_hamatum>hamatum",
-  "texte": "« Hamulus de l'hamatum douloureux (éminence hypothénar) » — current LR+ 8, LR− 0.2"
+  "texte": "« Hamulus de l'hamatum douloureux (éminence hypothénar) » — current LR+ 8, LR− 0.2",
+  "revu": true
  },
  "POIG-P17": {
   "region": "poignet",
   "dx": "guyon",
   "cle": "guyon|paresthesies_ulnaires>guyon",
-  "texte": "« Engourdissements de l'auriculaire et de l'annulaire » — current LR+ 5, LR− 0.3"
+  "texte": "« Engourdissements de l'auriculaire et de l'annulaire » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "POIG-P18": {
   "region": "poignet",
   "dx": "arthrose_digitale",
   "cle": "arthrose_digitale|localisation.doigts>arthrose_digitale",
-  "texte": "« Où est la douleur : Doigts (articulations interphalangiennes ou métacarpo-phalangiennes) » — current LR+ 5, LR− 0.2"
+  "texte": "« Où est la douleur : Doigts (articulations interphalangiennes ou métacarpo-phalangiennes) » — current LR+ 5, LR− 0.2",
+  "revu": true
  },
  "POIG-P19": {
   "region": "poignet",
   "dx": "rhizarthrose",
   "cle": "rhizarthrose|localisation.base_pouce>rhizarthrose",
-  "texte": "« Où est la douleur : Base du pouce » — current LR+ 6, LR− 0.2"
+  "texte": "« Où est la douleur : Base du pouce » — current LR+ 6, LR− 0.2",
+  "revu": true
  },
  "POIG-P20": {
   "region": "poignet",
   "dx": "rhizarthrose",
   "cle": "rhizarthrose|p_base_pouce>rhizarthrose",
-  "texte": "« Trapézo-métacarpienne douloureuse » — current LR+ 4, LR− 0.2"
+  "texte": "« Trapézo-métacarpienne douloureuse » — current Se 94%, Sp 81%, LR+ 4, LR− 0.2",
+  "revu": true
  },
  "POIG-P21": {
   "region": "poignet",
   "dx": "ressaut",
   "cle": "ressaut|accrochage_doigt>ressaut",
-  "texte": "« Doigt qui accroche ou reste bloqué en flexion » — current LR+ 15, LR− 0.2"
+  "texte": "« Doigt qui accroche ou reste bloqué en flexion » — current LR+ 15, LR− 0.2",
+  "revu": true
  },
  "POIG-P22": {
   "region": "poignet",
   "dx": "ressaut",
   "cle": "ressaut|p_poulie_a1>ressaut",
-  "texte": "« Nodule douloureux à la poulie A1 (base du doigt, côté paume) » — current LR+ 8, LR− 0.2"
+  "texte": "« Nodule douloureux à la poulie A1 (base du doigt, côté paume) » — current LR+ 8, LR− 0.2",
+  "revu": true
  },
  "POIG-P23": {
   "region": "poignet",
   "dx": "fx_main",
   "cle": "fx_main|ex_rotation>fx_main",
-  "texte": "« Doigts qui se croisent en flexion (mal rotation) » — current LR+ 15, LR− 0.7"
+  "texte": "« Doigts qui se croisent en flexion (mal rotation) » — current LR+ 15, LR− 0.7",
+  "revu": true
  },
  "POIG-P24": {
   "region": "poignet",
   "dx": "fx_main",
   "cle": "fx_main|p_os_main>fx_main",
-  "texte": "« Métacarpien ou phalange douloureux (os) » — current LR+ 4, LR− 0.1"
+  "texte": "« Métacarpien ou phalange douloureux (os) » — current LR+ 4, LR− 0.1",
+  "revu": true
  },
  "POIG-P25": {
   "region": "poignet",
   "dx": "entorse_doigt",
   "cle": "entorse_doigt|ex_boutonniere>entorse_doigt",
-  "texte": "« Extension active faible de l'IPP (test d'Elson) » — current LR+ 5, LR− 0.7"
+  "texte": "« Extension active faible de l'IPP (test d'Elson) » — current LR+ 5, LR− 0.7",
+  "revu": true
  },
  "POIG-P26": {
   "region": "poignet",
   "dx": "dupuytren",
   "cle": "dupuytren|localisation.paume>dupuytren",
-  "texte": "« Où est la douleur : Paume ou base des doigts » — current LR+ 6, LR− 0.3"
+  "texte": "« Où est la douleur : Paume ou base des doigts » — current LR+ 6, LR− 0.3",
+  "revu": true
  },
  "POIG-P27": {
   "region": "poignet",
   "dx": "dupuytren",
   "cle": "dupuytren|ex_corde>dupuytren",
-  "texte": "« Nodule ou corde palmaire (test de la table positif) » — current LR+ 30, LR− 0.1"
+  "texte": "« Nodule ou corde palmaire (test de la table positif) » — current LR+ 30, LR− 0.1",
+  "revu": true
  },
  "POIG-P28": {
   "region": "poignet",
   "dx": "maillet",
   "cle": "maillet|ex_maillet>maillet",
-  "texte": "« Bout du doigt tombant (extension active de l'IPD impossible) » — current LR+ 40, LR− 0.1"
+  "texte": "« Bout du doigt tombant (extension active de l'IPD impossible) » — current LR+ 40, LR− 0.1",
+  "revu": true
  },
  "POIG-P29": {
   "region": "poignet",
   "dx": "jersey",
   "cle": "jersey|ex_jersey>jersey",
-  "texte": "« Flexion active de l'IPD impossible (fléchisseur profond) » — current LR+ 40, LR− 0.1"
+  "texte": "« Flexion active de l'IPD impossible (fléchisseur profond) » — current LR+ 40, LR− 0.1",
+  "revu": true
  },
  "POIG-P30": {
   "region": "poignet",
   "dx": "poulie",
   "cle": "poulie|sport.escalade>poulie",
-  "texte": "« Activités physiques : Escalade » — current LR+ 20, LR− 1"
+  "texte": "« Activités physiques : Escalade » — current LR+ 20, LR− 1",
+  "revu": true
  },
  "POIG-P31": {
   "region": "poignet",
   "dx": "poulie",
   "cle": "poulie|pop_doigt>poulie",
-  "texte": "« Claquement (« pop ») à la base d'un doigt » — current LR+ 8, LR− 0.3"
+  "texte": "« Claquement (« pop ») à la base d'un doigt » — current LR+ 8, LR− 0.3",
+  "revu": true
  },
  "POIG-P32": {
   "region": "poignet",
   "dx": "teno_infectieuse",
   "cle": "teno_infectieuse|morsure>teno_infectieuse",
-  "texte": "« Plaie au-dessus d'une jointure après un coup de poing, ou morsure » — current LR+ 5, LR− 0.9"
+  "texte": "« Plaie au-dessus d'une jointure après un coup de poing, ou morsure » — current LR+ 5, LR− 0.9",
+  "revu": true
  },
  "POIG-P33": {
   "region": "poignet",
   "dx": "teno_infectieuse",
   "cle": "teno_infectieuse|plaie_doigt>teno_infectieuse",
-  "texte": "« Coupure, piqûre ou plaie récente du doigt ou de la main » — current LR+ 6, LR− 0.5"
+  "texte": "« Coupure, piqûre ou plaie récente du doigt ou de la main » — current LR+ 6, LR− 0.5",
+  "revu": true
  },
  "POIG-P34": {
   "region": "poignet",
   "dx": "teno_infectieuse",
   "cle": "teno_infectieuse|p_gaine>teno_infectieuse",
-  "texte": "« Gaine du fléchisseur douloureuse sur toute sa longueur » — current LR+ 5, LR− 0.3"
+  "texte": "« Gaine du fléchisseur douloureuse sur toute sa longueur » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "POIG-P35": {
   "region": "poignet",
   "dx": "par",
   "cle": "par|ex_synovite>par",
-  "texte": "« Synovite (articulations gonflées et molles : MCP, IPP, poignet) » — current LR+ 6, LR− 0.2"
+  "texte": "« Synovite (articulations gonflées et molles : MCP, IPP, poignet) » — current Se 81%, Sp 46%, LR+ 6, LR− 0.2",
+  "revu": true
  },
  "POIG-P36": {
   "region": "poignet",
   "dx": "cristaux",
   "cle": "cristaux|atcd_rhumato.goutte>cristaux",
-  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Goutte » — current LR+ 6, LR− 1"
+  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Goutte » — current LR+ 6, LR− 1",
+  "revu": true
  },
  "POIG-P37": {
   "region": "poignet",
   "dx": "cristaux",
   "cle": "cristaux|atcd_rhumato.pseudogoutte>cristaux",
-  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Pseudogoutte » — current LR+ 6, LR− 1"
+  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Pseudogoutte » — current LR+ 6, LR− 1",
+  "revu": true
  },
  "POIG-P38": {
   "region": "poignet",
   "dx": "cristaux",
   "cle": "cristaux|rougeur_chaleur>cristaux",
-  "texte": "« Rougeur ou chaleur » — current LR+ 5, LR− 0.3"
+  "texte": "« Rougeur ou chaleur » — current LR+ 5, LR− 0.3",
+  "revu": true
  },
  "POIG-P39": {
   "region": "poignet",
   "dx": "cristaux",
   "cle": "cristaux|ex_tophus>cristaux",
-  "texte": "« Tophus » — current LR+ 15, LR− 0.8"
+  "texte": "« Tophus » — current LR+ 15, LR− 0.8",
+  "revu": true
  },
  "POIG-P40": {
   "region": "poignet",
   "dx": "psoriasique",
   "cle": "psoriasique|atcd_rhumato.psoriasis>psoriasique",
-  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Psoriasis » — current LR+ 8, LR− 0.9"
+  "texte": "« ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Psoriasis » — current Se 90%, Sp 95%, LR+ 8, LR− 0.9",
+  "revu": true
  },
  "POIG-P41": {
   "region": "poignet",
   "dx": "cervical",
   "cle": "cervical|cou_agg>cervical",
-  "texte": "« Douleur ou engourdissement aggravés par les mouvements du cou » — current LR+ 6, LR− 0.5"
+  "texte": "« Douleur ou engourdissement aggravés par les mouvements du cou » — current LR+ 6, LR− 0.5",
+  "revu": true
  },
  "POIG-P42": {
   "region": "poignet",
   "dx": "cervical",
   "cle": "cervical|spurling_main>cervical",
-  "texte": "« Spurling ou mouvements du cou reproduisant les symptômes » — current LR+ 5, LR− 0.4"
+  "texte": "« Spurling ou mouvements du cou reproduisant les symptômes » — current LR+ 5, LR− 0.4",
+  "revu": true
  },
  "LOMB-P1": {
   "region": "lombaire",

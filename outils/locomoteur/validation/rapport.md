@@ -22,21 +22,21 @@ Produit par `node outils/locomoteur/validation/valider.mjs`. Vignettes : vignett
 | 10 | cheville | Arthrite microcristalline aiguë de la cheville (cristaux) | 1 | 96 % | cristaux 96 %, arthrose 5 %, nonspec 4 % | détecté (alerte) | rapide : Arthrite septique ou microcristalline à éliminer |
 | 11 | cheville | Conflit antérieur de cheville (conflit) | 1 | 78 % | conflit 78 %, nonspec 18 %, arthrose 7 % | — | — |
 | 12 | pied | Fasciopathie plantaire (fasciite) | 1 | 100 % | fasciite 100 %, sever 0 %, nonspec 0 % | — | — |
-| 13 | pied | Hallux rigidus (hallux_rigidus) | 1 | 98 % | hallux_rigidus 98 %, hallux_valgus 53 %, sesamoide 2 % | — | — |
-| 14 | pied | Névrome interdigital de Morton (morton) | 1 | 96 % | morton 96 %, metatarsalgie 8 %, nonspec 4 % | — | — |
+| 13 | pied | Hallux rigidus (hallux_rigidus) | 1 | 98 % | hallux_rigidus 98 %, hallux_valgus 61 %, sesamoide 2 % | — | — |
+| 14 | pied | Névrome interdigital de Morton (morton) | 1 | 94 % | morton 94 %, metatarsalgie 8 %, nonspec 5 % | — | — |
 | 15 | pied | Neuroarthropathie de Charcot aiguë (charcot) | 1 | 100 % | charcot 100 %, fracture 9 %, goutte 1 % | détecté (alerte) | urgence : Pied de Charcot ou infection du pied diabétique à éliminer ; rapide : Arthrite septique ou microcristalline à éliminer |
 | 16 | pied | Fracture de stress du deuxième métatarsien (ff_mt) | 1 | 75 % | ff_mt 75 %, nonspec 21 %, ff_navic 10 % | — | — |
 | 17 | pied | Lésion de Lisfranc (lisfranc) | 1 | 100 % | lisfranc 100 %, fracture 82 %, contusion 1 % | détecté (alerte) | rapide : Lésion de Lisfranc à éliminer ; rapide : Fracture du calcanéus à éliminer ; info : Règles d'Ottawa du pied à compléter |
-| 18 | hanche | Épiphysiolyse fémorale supérieure (epiphysiolyse) | 1 | 92 % | epiphysiolyse 92 %, nonspec 8 %, cfa 5 % | détecté (alerte) | urgence : Épiphysiolyse fémorale supérieure à éliminer ; considerer : Origine lombaire à considérer |
+| 18 | hanche | Épiphysiolyse fémorale supérieure (epiphysiolyse) | 1 | 92 % | epiphysiolyse 92 %, nonspec 7 %, cfa 7 % | détecté (alerte) | urgence : Épiphysiolyse fémorale supérieure à éliminer ; considerer : Origine lombaire à considérer |
 | 19 | hanche | Coxarthrose (coxarthrose) | 1 | 100 % | coxarthrose 100 %, sdgt 17 %, lombaire 6 % | — | — |
-| 20 | hanche | Conflit fémoro-acétabulaire symptomatique (cfa) | 1 | 75 % | cfa 75 %, nonspec 17 %, psoas 17 % | — | — |
+| 20 | hanche | Conflit fémoro-acétabulaire symptomatique (cfa) | 1 | 83 % | cfa 83 %, nonspec 13 %, psoas 10 % | — | — |
 | 21 | hanche | Fracture proximale du fémur (fracture) | 1 | 100 % | fracture 100 %, bassin 94 %, contusion 0 % | détecté (alerte) | urgence : Fracture de la hanche à éliminer |
 | 22 | hanche | Syndrome douloureux du grand trochanter (sdgt) | 1 | 100 % | sdgt 100 %, coxarthrose 1 %, lombaire 1 % | — | — |
 | 23 | lombaire | Lombalgie mécanique aiguë non spécifique (commune) | 2 | 28 % | musculaire 90 %, commune 28 %, discogenique 11 % | — | — |
 | 24 | lombaire | Radiculopathie S1 droite probablement liée à une hernie discale L5-S1 (hernie) | 1 | 100 % | hernie 100 %, discogenique 15 %, stenose 2 % | — | — |
 | 25 | lombaire | Métastase vertébrale lombaire (cancer) | 1 | 61 % | cancer 61 %, commune 21 %, facettaire 7 % | détecté (alerte) | rapide : Néoplasie rachidienne à éliminer ; rapide : Tumeur ou atteinte systémique à éliminer |
 | 26 | lombaire | Syndrome de la queue de cheval (queue) | 2 | 63 % | hernie 87 %, queue 63 %, commune 13 % | détecté (alerte) | urgence : Syndrome de la queue de cheval à éliminer ; rapide : Déficit moteur radiculaire |
-| 27 | lombaire | Spondyloarthrite axiale (spa) | 1 | 88 % | spa 88 %, si 16 %, commune 10 % | — | — |
+| 27 | lombaire | Spondyloarthrite axiale (spa) | 1 | 90 % | spa 90 %, si 16 %, commune 8 % | — | — |
 | 28 | epaule | Syndrome douloureux sous-acromial lié à une tendinopathie de la coiffe des rotateurs (sous_acro) | 1 | 100 % | sous_acro 100 %, calcifiante 31 %, rupture 6 % | — | — |
 | 29 | epaule | Rupture transfixiante aiguë de la coiffe des rotateurs (rupture) | 1 | 100 % | rupture 100 %, sous_acro 63 %, fracture_hp 10 % | détecté (alerte) | rapide : Rupture traumatique de la coiffe à éliminer |
 | 30 | epaule | Capsulite adhésive de l'épaule (capsulite) | 1 | 100 % | capsulite 100 %, omarthrose 6 %, sous_acro 0 % | — | — |
