@@ -1,0 +1,4097 @@
+[
+ {
+  "no": "Ch1",
+  "page": 1,
+  "tags": "CHEVILLE · DOULEUR LATÉRALE AIGUË · TRAUMATISME EN INVERSION",
+  "titre": "ENTORSE LATÉRALE DE LA CHEVILLE",
+  "epidemiologie": {
+   "texte": "2,15 par 1000 p-a aux urgences américaines, pic à 15– 19 ans (7,2 par 1000 p-a); 49,3 % au sport; femmes 13,6 contre hommes 6,94 par 1000 expositions; environ 50 % ne consultent pas; entorse antérieure : RR 1,29–6,06.",
+   "refs": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "presentation": {
+   "texte": "Traumatisme en inversion, pied en flexion plantaire; douleur, œdème et ecchymose latéraux; œdème latéral : Se 100 % en phase aiguë.",
+   "refs": [
+    5,
+    6
+   ]
+  },
+  "examen": {
+   "texte": "Examen différé à 4–5 jours (œdème, ecchymose, douleur au ligament talo-fibulaire antérieur, tiroir antérieur) : Se 96 %, Sp 84 %, contre 71 % et 33 % avant 48 h; tiroir antérieur : Se 54 %, Sp 87 %, RV+ 3,97, RV− 0,54; douleur à la syndesmose, test de compression positif : entorse haute.",
+   "refs": [
+    7,
+    8,
+    9
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Ligament talo-fibulaire antérieur atteint dans jusqu'à 85 % des cas, calcanéo-fibulaire 50–75 %, talo- fibulaire postérieur < 10 %; lésions associées à l'IRM dans 92 %.",
+   "refs": [
+    5,
+    3
+   ]
+  },
+  "ddx": {
+   "texte": "Entorse de la syndesmose (1–18 % des entorses); fracture des malléoles, de la base du 5e métatarsien, du naviculaire ou du talus; lésion ostéochondrale; lésion des fibulaires; entorse du deltoïde ou du médio-pied.",
+   "refs": [
+    5,
+    8,
+    3
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie seulement si règles d'Ottawa positives : Se 99,4 %, Sp 35,3 %; RV− 0,08, probabilité de fracture < 1,4 % si négatives; radiographies réduites de 30–40 %; IRM si douleur persistante.",
+   "refs": [
+    10,
+    11,
+    8
+   ]
+  },
+  "traitement": {
+   "texte": "Traitement fonctionnel plutôt qu'immobilisation : retour au sport 4,6 jours et au travail 7,1 jours plus tôt; exercices : récidive RC 0,59; orthèse : RC 0,40; AINS équivalents à l'acétaminophène; RICE : preuves insuffisantes; chirurgie primaire : 10 essais sur 11 sans avantage.",
+   "refs": [
+    12,
+    3,
+    13,
+    14,
+    15
+   ]
+  },
+  "pronostic": {
+   "texte": "Athlètes du secondaire : 95 % de retour en 10 jours; douleur à 1 an 5–33 %; récidive 3–34 %; récupération complète en 3 ans 36–85 %; instabilité chronique 40 % à 1 an après une première entorse.",
+   "refs": [
+    3,
+    16,
+    17
+   ]
+  },
+  "refs": [
+   {
+    "n": 1,
+    "texte": "Waterman BR et al. JBJS 2010",
+    "url": null
+   },
+   {
+    "n": 2,
+    "texte": "Doherty C et al. Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 3,
+    "texte": "Martin RL et al. JOSPT 2021",
+    "url": null
+   },
+   {
+    "n": 4,
+    "texte": "Wikstrom EA et al. J Athl Train 2021",
+    "url": null
+   },
+   {
+    "n": 5,
+    "texte": "Roemer FW et al. Am J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 6,
+    "texte": "Baltes TPA et al. KSSTA 2024",
+    "url": null
+   },
+   {
+    "n": 7,
+    "texte": "Schurz AP et al. PloS One 2023",
+    "url": null
+   },
+   {
+    "n": 8,
+    "texte": "Wu V et al. Am Fam Physician 2025",
+    "url": null
+   },
+   {
+    "n": 9,
+    "texte": "Netterström-Wedin F et al. Sports Health 2022",
+    "url": null
+   },
+   {
+    "n": 10,
+    "texte": "Beckenkamp PR et al. Br J Sports Med 2017",
+    "url": null
+   },
+   {
+    "n": 11,
+    "texte": "Bachmann LM et al. BMJ (Clinical Resea… 2003",
+    "url": null
+   },
+   {
+    "n": 12,
+    "texte": "Kerkhoffs GM et al. Arch Orthop Trauma… 2001",
+    "url": null
+   },
+   {
+    "n": 13,
+    "texte": "Peter Jones et al. Cochrane 2020",
+    "url": null
+   },
+   {
+    "n": 14,
+    "texte": "van den Bekerom MP et al. J Athl Train 2012",
+    "url": null
+   },
+   {
+    "n": 15,
+    "texte": "Zwipp H Deutsches Arzteblat… 2023",
+    "url": null
+   },
+   {
+    "n": 16,
+    "texte": "van Rijn RM et al. The American Journa… 2008",
+    "url": null
+   },
+   {
+    "n": 17,
+    "texte": "Doherty C et al. Am J Sports Med 2016",
+    "url": null
+   }
+  ],
+  "planche": "ch1.webp"
+ },
+ {
+  "no": "Ch2",
+  "page": 2,
+  "tags": "CHEVILLE · DÉROBEMENTS RÉCIDIVANTS · SÉQUELLE D'ENTORSE LATÉRALE",
+  "titre": "INSTABILITÉ CHRONIQUE DE LA CHEVILLE",
+  "epidemiologie": {
+   "texte": "40 % à 1 an après une première entorse (28 sur 70); 34,4 % à 24 mois (n = 474); prévalence 20 % chez les athlètes adolescents, 23,4 % au secondaire et au collégial; obésité : RC 1,42 (hommes) et 2,75 (femmes).",
+   "refs": [
+    17,
+    18,
+    3
+   ]
+  },
+  "presentation": {
+   "texte": "Entorse significative remontant à ≥ 12 mois; ≥ 2 dérobements en 6 mois, entorses récidivantes ou sensation d'instabilité; questionnaire CAIT ≤ 24; seuil ≤ 25 : Se 96,6 %, Sp 86,8 %, RV+ 7,3.",
+   "refs": [
+    19,
+    20,
+    21
+   ]
+  },
+  "examen": {
+   "texte": "Tiroir antérieur : Se 50 %, Sp 100 %; tiroir antérolatéral : Se 47 %, Sp 99 %; tiroir antérolatéral inversé : Se 87–92 %, Sp 88–91 %; bascule talienne : Se 49 %, Sp 78–88 %; laxité peu corrélée aux symptômes (r = 0,18); douleur persistante : chercher une lésion associée.",
+   "refs": [
+    7,
+    9,
+    22,
+    23,
+    24
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Instabilité mécanique (laxité ligamentaire) et fonctionnelle (déficits de proprioception, de contrôle postural et de force); seulement 56,5 % des chevilles correspondent à ce modèle; instabilité perçue seule dans 42,6 %.",
+   "refs": [
+    25,
+    26
+   ]
+  },
+  "ddx": {
+   "texte": "Instabilité sous-talienne (10–25 % des instabilités chroniques); déchirure ou subluxation des fibulaires; lésion ostéochondrale du talus; conflit antérolatéral; syndrome du sinus du tarse; coalition tarsienne.",
+   "refs": [
+    27,
+    24,
+    28,
+    29
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographies en stress positives si tiroir ≥ 10 mm ou bascule ≥ 9° : Se 50 % et 36 %, Sp 100 %; ligament talo-fibulaire antérieur : échographie Se 98,7 %, Sp 94,0 %; IRM Se 86,3 %, Sp 86,8 %, utile pour les lésions associées.",
+   "refs": [
+    30,
+    25,
+    31
+   ]
+  },
+  "traitement": {
+   "texte": "Physiothérapie multimodale supervisée 4 semaines : CAIT +10 points (IC 95 % 3–16); équilibre seul : +5; seuil cliniquement important : 3; orthèse : récidive RC 0,40; Broström : retour au sport antérieur 83 % en environ 12 semaines; révision 0–8 %.",
+   "refs": [
+    32,
+    3,
+    33,
+    34
+   ]
+  },
+  "pronostic": {
+   "texte": "Lésion cartilagineuse ou ostéochondrale chez 32,2 % (IC 95 % 22,7–41,7); lésion ligamentaire à l'origine de 13 % des arthroses terminales, latence moyenne 34,3 ans; après Broström à 8,7 ans : instabilité récidivante 16 %, 26 % sans retour au sport; risque absolu d'arthrose non établi.",
+   "refs": [
+    35,
+    36,
+    34
+   ]
+  },
+  "refs": [
+   {
+    "n": 17,
+    "texte": "Doherty C et al. Am J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 18,
+    "texte": "Chen R et al. Academic Radiology 2026",
+    "url": null
+   },
+   {
+    "n": 3,
+    "texte": "Martin RL et al. JOSPT 2021",
+    "url": null
+   },
+   {
+    "n": 19,
+    "texte": "Thompson C et al. Sports Med 2018",
+    "url": null
+   },
+   {
+    "n": 20,
+    "texte": "Song Y et al. BioMed Research Int… 2021",
+    "url": null
+   },
+   {
+    "n": 21,
+    "texte": "Wright CJ et al. Arch Phys Med Rehabil 2014",
+    "url": null
+   },
+   {
+    "n": 7,
+    "texte": "Schurz AP et al. PloS One 2023",
+    "url": null
+   },
+   {
+    "n": 9,
+    "texte": "Netterström-Wedin F et al. Sports Health 2022",
+    "url": null
+   },
+   {
+    "n": 22,
+    "texte": "Li Q et al. KSSTA 2020",
+    "url": null
+   },
+   {
+    "n": 23,
+    "texte": "Hirai D et al. Foot Ankle Int 2009",
+    "url": null
+   },
+   {
+    "n": 24,
+    "texte": "Urits I et al. Current Pain and He… 2020",
+    "url": null
+   },
+   {
+    "n": 25,
+    "texte": "Kaminski TW et al. J Athl Train 2013",
+    "url": null
+   },
+   {
+    "n": 26,
+    "texte": "Hiller CE et al. J Athl Train 2011",
+    "url": null
+   },
+   {
+    "n": 27,
+    "texte": "Yamaguchi R et al. Foot Ankle Int 2018",
+    "url": null
+   },
+   {
+    "n": 28,
+    "texte": "Strauss JE et al. Foot Ankle Int 2007",
+    "url": null
+   },
+   {
+    "n": 29,
+    "texte": "Ferkel RD et al. Foot Ankle Int 2010",
+    "url": null
+   },
+   {
+    "n": 30,
+    "texte": "Aicale R et al. Foot Ankle Int 2020",
+    "url": null
+   },
+   {
+    "n": 31,
+    "texte": "Cao M et al. Acta Radiologica (S… 1987",
+    "url": null
+   },
+   {
+    "n": 32,
+    "texte": "Tsikopoulos K et al. Clin Orthop Relat Res 2018",
+    "url": null
+   },
+   {
+    "n": 33,
+    "texte": "Li Y et al. Am J Sports Med 2024",
+    "url": null
+   },
+   {
+    "n": 34,
+    "texte": "Comfort SM et al. Foot Ankle Int 2023",
+    "url": null
+   },
+   {
+    "n": 35,
+    "texte": "Wijnhoud EJ et al. Am J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 36,
+    "texte": "Valderrabano V et al. Am J Sports Med 2006",
+    "url": null
+   }
+  ],
+  "planche": "ch2.webp"
+ },
+ {
+  "no": "Ch3",
+  "page": 3,
+  "tags": "CHEVILLE · DOULEUR POSTÉRIEURE À 2–6 CM DE L'INSERTION · TENDINOPATHIE DE",
+  "titre": "TENDINOPATHIE D'ACHILLE CORPORÉALE",
+  "epidemiologie": {
+   "texte": "1,85 par 1000 patients en médecine générale, 2,35 par 1000 chez les 21–60 ans; sport en cause dans 35 %; âge médian 43,4 ans; coureurs récréatifs : 4,2 % par an; fluoroquinolones : RC 3,95 (IC 95 % 3,11–5,01).",
+   "refs": [
+    37,
+    38,
+    39,
+    40
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur d'apparition graduelle 2–6 cm au-dessus de l'insertion; raideur matinale, douleur au début de l'activité, atténuée à l'échauffement, aggravée par l'effort prolongé; épaississement fusiforme palpable.",
+   "refs": [
+    41,
+    42,
+    43
+   ]
+  },
+  "examen": {
+   "texte": "Palpation : Se 64 %, Sp 81 %, RV+ 3,15, RV− 0,48; signe de l'arc : Se 42 %, Sp 88 %; test du Royal London Hospital : Se 54 %, Sp 86 %, RV+ 3,84; début brutal : chercher une rupture.",
+   "refs": [
+    44,
+    45
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Réponse de guérison inadéquate à une surcharge répétée en traction; collagène désorganisé, collagène de type III, néovascularisation, sans infiltrat inflammatoire classique; continuum réactif, puis dégénératif.",
+   "refs": [
+    41,
+    46,
+    43
+   ]
+  },
+  "ddx": {
+   "texte": "Déchirure partielle, conflit postérieur, tendinopathie du plantaire, paratendinopathie, neuropathie surale, tendinopathie du tibial postérieur ou des fléchisseurs, soléaire accessoire; maladie inflammatoire systémique.",
+   "refs": [
+    45,
+    41
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; échographie si doute, évolution atypique ou avant une intervention; anomalies chez environ 25 % des tendons asymptomatiques; épaisseur normale chez 27 % des patients.",
+   "refs": [
+    47,
+    48
+   ]
+  },
+  "traitement": {
+   "texte": "Exercices en charge ≥ 12 semaines, excentriques ou résistance lourde et lente : +21 points VISA-A; infiltration de corticostéroïde : +17,7 points à 6 mois, mais −8,6 à 26 semaines dans un essai à haut volume; PRP équivalent au placebo; chirurgie : satisfaction 69–100 %.",
+   "refs": [
+    41,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54
+   ]
+  },
+  "pronostic": {
+   "texte": "Gain maximal vers 12 semaines; à 8 ans : 29 % opérés, 94 % asymptomatiques ou peu symptomatiques, atteinte controlatérale 41 %; symptômes persistants chez 19 % à 10 ans; rupture ultérieure 4,0 % dans une base de données américaine.",
+   "refs": [
+    49,
+    55,
+    56,
+    57
+   ]
+  },
+  "refs": [
+   {
+    "n": 37,
+    "texte": "de Jonge S et al. Br J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 38,
+    "texte": "Rebecca S Kearney et al. Cochrane 2015",
+    "url": null
+   },
+   {
+    "n": 39,
+    "texte": "Moreno MJ et al. PloS One 2026",
+    "url": null
+   },
+   {
+    "n": 40,
+    "texte": "Alves C et al. European Journal of… 2019",
+    "url": null
+   },
+   {
+    "n": 41,
+    "texte": "Martin RL et al. JOSPT 2018",
+    "url": null
+   },
+   {
+    "n": 42,
+    "texte": "Cooper MT JAMA 2023",
+    "url": null
+   },
+   {
+    "n": 43,
+    "texte": "Millar NL et al. Nature Reviews 2021",
+    "url": null
+   },
+   {
+    "n": 44,
+    "texte": "Reiman M et al. J Athl Train 2014",
+    "url": null
+   },
+   {
+    "n": 45,
+    "texte": "Malliaras P et al. Br J Sports Med 2025",
+    "url": null
+   },
+   {
+    "n": 46,
+    "texte": "Li HY et al. BioMed Research Int… 2016",
+    "url": null
+   },
+   {
+    "n": 47,
+    "texte": "Traweger A et al. Nature Reviews 2025",
+    "url": null
+   },
+   {
+    "n": 48,
+    "texte": "Sleeswijk Visser TSO et al. Scand J Med Sci Sports 2024",
+    "url": null
+   },
+   {
+    "n": 49,
+    "texte": "Murphy M et al. Sports Med 2018",
+    "url": null
+   },
+   {
+    "n": 50,
+    "texte": "Beyer R et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 51,
+    "texte": "Johannsen F et al. JAMA Network Open 2022",
+    "url": null
+   },
+   {
+    "n": 52,
+    "texte": "Malliaras P et al. BMJ (Clinical Resea… 2026",
+    "url": null
+   },
+   {
+    "n": 53,
+    "texte": "Kearney RS et al. JAMA 2021",
+    "url": null
+   },
+   {
+    "n": 54,
+    "texte": "Baltes TPA et al. KSSTA 2017",
+    "url": null
+   },
+   {
+    "n": 55,
+    "texte": "Paavola M et al. Am J Sports Med 2000",
+    "url": null
+   },
+   {
+    "n": 56,
+    "texte": "Lagas IF et al. Journal of Sports S… 2022",
+    "url": null
+   },
+   {
+    "n": 57,
+    "texte": "Yasui Y et al. BioMed Research Int… 2017",
+    "url": null
+   }
+  ],
+  "planche": "ch3.webp"
+ },
+ {
+  "no": "Ch4",
+  "page": 4,
+  "tags": "CHEVILLE · DOULEUR POSTÉRIEURE DU TALON · COMPRESSION DU TENDON À L'INSERTION",
+  "titre": "TENDINOPATHIE D'INSERTION D'ACHILLE, MALADIE DE HAGLUND OU BURSITE RÉTRO-CALCANÉENNE",
+  "epidemiologie": {
+   "texte": "20–25 % des tendinopathies d'Achille; âge moyen 53 ans dans les essais; bursite rétro-calcanéenne plus fréquente chez les femmes de 40–60 ans avec Haglund; calcifications : diabète RC 2,95, hypercholestérolémie RC 2,27, hypothyroïdie RC 3,32.",
+   "refs": [
+    58,
+    59,
+    60,
+    61
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur dans les 2 premiers cm de l'insertion, à la palpation et à la mise en charge; raideur matinale; saillie postéro-supérieure irritée par le contrefort de la chaussure; bursite : douleur en avant du tendon, aggravée en dorsiflexion.",
+   "refs": [
+    47,
+    62,
+    63,
+    64
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité et épaississement à l'insertion, dorsiflexion limitée; test de compression à deux doigts (bursite) : aucune Se/Sp publiée; atteinte bilatérale : chercher une maladie inflammatoire; spondyloarthrite axiale débutante : enthésite 55,8 %, achilléenne dans 38,5 % de celles-ci.",
+   "refs": [
+    62,
+    60,
+    65,
+    66,
+    67
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Compression et cisaillement du tendon contre le calcanéus en dorsiflexion; enthésopathie, calcifications intratendineuses, bursite souvent associée; Haglund coexistant dans environ 60 %, mais sa taille n'est pas associée à la tendinopathie.",
+   "refs": [
+    47,
+    68,
+    69,
+    70
+   ]
+  },
+  "ddx": {
+   "texte": "Déchirure partielle, conflit postérieur, bursite superficielle, fracture de stress du calcanéus, maladie de Sever, douleur sous-talienne; enthésite de spondyloarthrite.",
+   "refs": [
+    45,
+    71
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie latérale : éperon postérieur 56,8 % contre 5 % des témoins, calcification intratendineuse 78,4 % contre 12,5 %; angle de Fowler-Philip > 75° : faux négatifs 94,6 %; échographie si doute.",
+   "refs": [
+    72,
+    47
+   ]
+  },
+  "traitement": {
+   "texte": "Exercices excentriques sans dorsiflexion : 67 % satisfaits, contre 32 % en amplitude complète; réadaptation à faible compression (talonnettes) : 12,9 points VISA-A de plus à 12 semaines; ondes de choc équivalentes au placebo; infiltration de corticostéroïde dans la bourse : 62,9 % de réponse, rupture 1,8 %; chirurgie : complications 4,1–15,5 %.",
+   "refs": [
+    59,
+    73,
+    74,
+    75,
+    76,
+    77
+   ]
+  },
+  "pronostic": {
+   "texte": "Échec du traitement conservateur 10–40 % selon les séries; récidive 17–35 % à 24 semaines; après chirurgie : retour aux activités en 6,4–7,2 mois, jusqu'à 12 mois pour la pleine fonction.",
+   "refs": [
+    78,
+    79,
+    80,
+    81,
+    82
+   ]
+  },
+  "refs": [
+   {
+    "n": 58,
+    "texte": "Maffulli N et al. British Medical Bul… 2026",
+    "url": null
+   },
+   {
+    "n": 59,
+    "texte": "Jonsson P et al. Br J Sports Med 2008",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Morancie NA et al. Am Fam Physician 2025",
+    "url": null
+   },
+   {
+    "n": 61,
+    "texte": "Giai Via A et al. Clin J Sport Med 2022",
+    "url": null
+   },
+   {
+    "n": 47,
+    "texte": "Traweger A et al. Nature Reviews 2025",
+    "url": null
+   },
+   {
+    "n": 62,
+    "texte": "Ko VM et al. BMC Musculoskelet D… 2023",
+    "url": null
+   },
+   {
+    "n": 63,
+    "texte": "Irwin TA Foot Ankle Int 2010",
+    "url": null
+   },
+   {
+    "n": 64,
+    "texte": "Heckman DS et al. Am J Sports Med 2009",
+    "url": null
+   },
+   {
+    "n": 65,
+    "texte": "Lohrer H et al. Arch Orthop Trauma… 2014",
+    "url": null
+   },
+   {
+    "n": 66,
+    "texte": "Schepsis AA et al. Am J Sports Med 2002",
+    "url": null
+   },
+   {
+    "n": 67,
+    "texte": "Nadon V et al. Clinical and Experi… 2019",
+    "url": null
+   },
+   {
+    "n": 68,
+    "texte": "Elkaïm M OTSR 2026",
+    "url": null
+   },
+   {
+    "n": 69,
+    "texte": "Michael D Johnson, Richard G 2012",
+    "url": null
+   },
+   {
+    "n": 70,
+    "texte": "Lee W et al. Foot Ankle Int 2023",
+    "url": null
+   },
+   {
+    "n": 45,
+    "texte": "Malliaras P et al. Br J Sports Med 2025",
+    "url": null
+   },
+   {
+    "n": 71,
+    "texte": "López-Medina C et al. Arthritis Research… 2023",
+    "url": null
+   },
+   {
+    "n": 72,
+    "texte": "Lu CC et al. Foot Ankle Int 2007",
+    "url": null
+   },
+   {
+    "n": 73,
+    "texte": "Fahlström M et al. KSSTA 2003",
+    "url": null
+   },
+   {
+    "n": 74,
+    "texte": "Pringels L et al. Br J Sports Med 2025",
+    "url": null
+   },
+   {
+    "n": 75,
+    "texte": "Korakakis V et al. JOSPT 2026",
+    "url": null
+   },
+   {
+    "n": 76,
+    "texte": "Boone SL et al. Skeletal Radiol 2021",
+    "url": null
+   },
+   {
+    "n": 77,
+    "texte": "Alessio-Mazzola M et al. KSSTA 2021",
+    "url": null
+   },
+   {
+    "n": 78,
+    "texte": "Egger AC et al. Curr Rev Musculoske… 2017",
+    "url": null
+   },
+   {
+    "n": 79,
+    "texte": "Hall S et al. Foot Ankle Int 2024",
+    "url": null
+   },
+   {
+    "n": 80,
+    "texte": "Mansur NSB et al. JBJS 2021",
+    "url": null
+   },
+   {
+    "n": 81,
+    "texte": "Saxena A et al. J Foot Ankle Surg 2021",
+    "url": null
+   },
+   {
+    "n": 82,
+    "texte": "Tay AYW et al. Foot Ankle Int 2023",
+    "url": null
+   }
+  ],
+  "planche": "ch4.webp"
+ },
+ {
+  "no": "Ch5",
+  "page": 5,
+  "tags": "JAMBE · DOULEUR TIBIALE POSTÉRO-MÉDIALE À L'EFFORT · COUREURS ET RECRUES",
+  "titre": "PÉRIOSTITE TIBIALE (SYNDROME DE STRESS TIBIAL MÉDIAL)",
+  "epidemiologie": {
+   "texte": "Incidence 4–35 % chez les athlètes et les militaires; recrues navales : femmes 53 % contre hommes 28 % (RR 2,03); sexe féminin : RC 2,35; antécédent de périostite : RR 3,74; chute naviculaire > 10 mm : RR 1,99; IMC plus élevé.",
+   "refs": [
+    83,
+    84,
+    85,
+    86,
+    87
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur sourde à l'effort le long du bord postéro- médial du tibia, aux tiers moyen et distal dans 91 %; début graduel; peut persister des heures ou des jours après l'effort.",
+   "refs": [
+    84,
+    88
+   ]
+  },
+  "examen": {
+   "texte": "Douleur à la palpation sur ≥ 5 cm consécutifs du bord postéro-médial; diagnostic clinique fiable : κ 0,89 (IC 95 % 0,74–1,00); aucune Se/Sp contre un étalon de référence repérée; douleur focale, au repos ou nocturne : fracture de stress; paresthésies ou pouls diminués : autre cause.",
+   "refs": [
+    89,
+    90,
+    88,
+    91
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Réaction de stress osseux plutôt que périostite : biopsies sans inflammation, densité osseuse tibiale réduite puis normalisée à la guérison; cortex 15 % plus poreux; traction du fascia crural proposée; lien avec la fracture de stress non résolu.",
+   "refs": [
+    83,
+    92,
+    84,
+    93,
+    94
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture de stress du tibia, syndrome compartimental chronique d'effort, tendinopathie du tibial postérieur, compression nerveuse, piégeage de l'artère poplitée; sur 150 athlètes : syndrome compartimental 33 %, fracture de stress 25 %, périostite 13 %.",
+   "refs": [
+    93,
+    88,
+    95
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie habituellement normale, sert à exclure une fracture de stress; IRM : Se 88 %, Sp 100 % pour les lésions de stress tibiales, mais anomalies chez 43 % des coureurs asymptomatiques et œdème dans seulement 44 % des jambes symptomatiques.",
+   "refs": [
+    89,
+    96,
+    97,
+    98
+   ]
+  },
+  "traitement": {
+   "texte": "Repos relatif, entraînement croisé, reprise progressive de la course; aucun traitement démontré efficace (bas de compression, étirements, renforcement, orthèse de jambe); ondes de choc : 59,7 contre 91,6 jours (étude non randomisée); fasciotomie : retour complet au sport 41 %; semelles absorbantes en prévention : RR 1,02.",
+   "refs": [
+    99,
+    100,
+    101,
+    89,
+    102
+   ]
+  },
+  "pronostic": {
+   "texte": "Récupération : 91,6 jours avec course progressive seule; médiane 70 jours chez les coureurs récréatifs; 58 jours chez les recrues, plus longue si IMC élevé.",
+   "refs": [
+    100,
+    103,
+    92
+   ]
+  },
+  "refs": [
+   {
+    "n": 83,
+    "texte": "Moen MH et al. Sports Med 2009",
+    "url": null
+   },
+   {
+    "n": 84,
+    "texte": "Yates B et al. Am J Sports Med 2004",
+    "url": null
+   },
+   {
+    "n": 85,
+    "texte": "Reinking MF et al. Sports Health 2017",
+    "url": null
+   },
+   {
+    "n": 86,
+    "texte": "Newman P et al. Open Access Journal… 2013",
+    "url": null
+   },
+   {
+    "n": 87,
+    "texte": "Hamstra-Wright KL et al. Br J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 88,
+    "texte": "Millar AN et al. Curr Rev Musculoske… 2026",
+    "url": null
+   },
+   {
+    "n": 89,
+    "texte": "Burrus MT et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 90,
+    "texte": "Winters M et al. Br J Sports Med 2018",
+    "url": null
+   },
+   {
+    "n": 91,
+    "texte": "Mautner KR et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 92,
+    "texte": "Moen MH et al. Scand J Med Sci Sports 2012",
+    "url": null
+   },
+   {
+    "n": 93,
+    "texte": "Brewer RB et al. Sports Health 2012",
+    "url": null
+   },
+   {
+    "n": 94,
+    "texte": "de Oliveira LN et al. BioMed Research Int… 2024",
+    "url": null
+   },
+   {
+    "n": 95,
+    "texte": "Edwards PH et al. Am J Sports Med 2005",
+    "url": null
+   },
+   {
+    "n": 96,
+    "texte": "Gaeta M et al. Radiology 2005",
+    "url": null
+   },
+   {
+    "n": 97,
+    "texte": "Bergman AG et al. AJR 2004",
+    "url": null
+   },
+   {
+    "n": 98,
+    "texte": "Moen MH et al. Scand J Med Sci Sports 2014",
+    "url": null
+   },
+   {
+    "n": 99,
+    "texte": "Gallo RA et al. Sports Health 2012",
+    "url": null
+   },
+   {
+    "n": 100,
+    "texte": "Moen MH et al. Br J Sports Med 2012",
+    "url": null
+   },
+   {
+    "n": 101,
+    "texte": "Winters M et al. Sports Med 2013",
+    "url": null
+   },
+   {
+    "n": 102,
+    "texte": "Simon S Yeung et al. Cochrane 2011",
+    "url": null
+   },
+   {
+    "n": 103,
+    "texte": "Mulvad B et al. PloS One 2018",
+    "url": null
+   }
+  ],
+  "planche": "ch5.webp"
+ },
+ {
+  "no": "Ch6",
+  "page": 6,
+  "tags": "JAMBE · DOULEUR D'EFFORT PRÉVISIBLE CÉDANT AU REPOS · JEUNES COUREURS ET",
+  "titre": "SYNDROME COMPARTIMENTAL CHRONIQUE D'EFFORT",
+  "epidemiologie": {
+   "texte": "14–33 % des douleurs de jambe à l'effort chez l'athlète; âge moyen 26,6 ans; bilatéral 63–88 %; loge antérieure 51 %, latérale 33 %, postérieure profonde 13 %; militaires : 0,49 par 1000 p-a; délai diagnostique 22–28 mois.",
+   "refs": [
+    104,
+    95,
+    105,
+    106,
+    107,
+    108,
+    89
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur et tension débutant au même moment de chaque effort, en moyenne après 11 minutes; cède en quelques minutes au repos; engourdissement dans le territoire du nerf fibulaire superficiel 36,8 %; activité cessée ou évitée.",
+   "refs": [
+    106,
+    109,
+    110
+   ]
+  },
+  "examen": {
+   "texte": "Normal au repos; hernie musculaire 45,9 % contre 12,9 % sans syndrome, seul signe discriminant; douleur au repos ou sensibilité tibiale : périostite, fracture de stress; pouls diminués en flexion plantaire active : piégeage de l'artère poplitée.",
+   "refs": [
+    109,
+    111,
+    112,
+    95,
+    113
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Mécanisme non établi; volume musculaire accru jusqu'à 20 % à l'effort dans un fascia peu extensible, d'où hausse de pression; ischémie non démontrée : perfusion semblable aux témoins en SPECT et en IRM.",
+   "refs": [
+    89,
+    114
+   ]
+  },
+  "ddx": {
+   "texte": "Périostite tibiale, fracture de stress, compression nerveuse, piégeage de l'artère poplitée, claudication vasculaire, thrombose veineuse profonde.",
+   "refs": [
+    115,
+    93
+   ]
+  },
+  "investigations": {
+   "texte": "Pression intracompartimentale, critères de Pedowitz (≥ 15 mm Hg au repos, ≥ 30 à 1 minute, ≥ 20 à 5 minutes) : Se 97 %, Sp 10 %; mesure pendant l'effort (105 mm Hg) : Se 63 %, Sp 95 %, RV+ 12,5; IRM d'effort : Se 96 %, Sp 87 %.",
+   "refs": [
+    112,
+    116,
+    109,
+    117
+   ]
+  },
+  "traitement": {
+   "texte": "Rééducation de la course (attaque avant-pied) : 10 sur 10 sans fasciotomie à 1 an, sans groupe témoin; toxine botulinique : 94 % sans douleur (n = 16); fasciotomie : satisfaction 85 %, retour au niveau antérieur 69 %; loges antérieure et latérale 80–100 %, postérieure environ 50 %.",
+   "refs": [
+    118,
+    114,
+    119,
+    89
+   ]
+  },
+  "pronostic": {
+   "texte": "Sans chirurgie : symptômes persistants chez 12 sur 12 à 50 mois; après fasciotomie : récidive 7 %, réintervention 5 %, complications 8 %; retour au sport en 11–23 semaines; militaires : récidive 44,7 %, 27,7 % sans retour à la pleine activité.Note : la ligne « Références » avec DOI et la renumérotation à partir de ne sont pas reproduites; les numéros entre crochets renvoient à la liste de références générée automatiquement sous la réponse. Deux chiffres reposent sur des citations secondaires et sont à vérifier à la source : l'examen différé (Se 96 %, Sp 84 %) et le taux de rupture de 4,0 %.",
+   "refs": [
+    120,
+    119,
+    121,
+    89,
+    122,
+    17
+   ]
+  },
+  "refs": [
+   {
+    "n": 104,
+    "texte": "Peck E et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 95,
+    "texte": "Edwards PH et al. Am J Sports Med 2005",
+    "url": null
+   },
+   {
+    "n": 105,
+    "texte": "Campano D et al. Arthroscopy 2016",
+    "url": null
+   },
+   {
+    "n": 106,
+    "texte": "Davis DE et al. Foot Ankle Int 2013",
+    "url": null
+   },
+   {
+    "n": 107,
+    "texte": "Lindorsson S et al. Scand J Med Sci Sports 2022",
+    "url": null
+   },
+   {
+    "n": 108,
+    "texte": "Waterman BR et al. Am J Sports Med 2013",
+    "url": null
+   },
+   {
+    "n": 89,
+    "texte": "Burrus MT et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 109,
+    "texte": "Roscoe D et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 110,
+    "texte": "Vogels S et al. Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 111,
+    "texte": "Scully WF et al. Foot Ankle Int 2019",
+    "url": null
+   },
+   {
+    "n": 112,
+    "texte": "Pedowitz RA et al. Am J Sports Med 1990",
+    "url": null
+   },
+   {
+    "n": 113,
+    "texte": "Miller TL et al. JAAOS 2021",
+    "url": null
+   },
+   {
+    "n": 114,
+    "texte": "Isner-Horobeti ME et al. Am J Sports Med 2013",
+    "url": null
+   },
+   {
+    "n": 115,
+    "texte": "Broadhurst PK et al. Muscle & Nerve 2020",
+    "url": null
+   },
+   {
+    "n": 93,
+    "texte": "Brewer RB et al. Sports Health 2012",
+    "url": null
+   },
+   {
+    "n": 116,
+    "texte": "Pasic N et al. Arthroscopy 2015",
+    "url": null
+   },
+   {
+    "n": 117,
+    "texte": "Ringler MD et al. Skeletal Radiol 2013",
+    "url": null
+   },
+   {
+    "n": 118,
+    "texte": "Diebal AR et al. [ ] [ ] [ ]",
+    "url": null
+   }
+  ],
+  "planche": "ch6.webp"
+ },
+ {
+  "no": "Ch7",
+  "page": 7,
+  "tags": "JAMBE · DOULEUR AIGUË DU MOLLET MÉDIAL · SPORTIFS RÉCRÉATIFS D'ÂGE MOYEN",
+  "titre": "LÉSION MUSCULAIRE DU MOLLET (TENNIS LEG)",
+  "epidemiologie": {
+   "texte": "Série IRM de 58 cas : 45 hommes, âge moyen 46,7 ans; NFL : 12,6 % des lésions musculaires du membre inférieur; antécédent récent (≤ 8 semaines) : RC 13,3; antécédent ancien : RC 4,4; âge : RC 1,6; aucune incidence populationnelle repérée.",
+   "refs": [
+    123,
+    124,
+    125
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur postéro-médiale brutale, « claquement » ou « coup de pierre », cheville en dorsiflexion et genou étendu; soléaire : début souvent graduel, 45,9 % sans événement identifiable.",
+   "refs": [
+    126,
+    127,
+    128
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité, œdème, ecchymose, défaut palpable à la jonction myotendineuse du gastrocnémien médial; exclure la rupture d'Achille : Thompson Se 96 %, Sp 93 %, RV+ 13,71, RV− 0,04; aggravation après amélioration initiale : TVP.",
+   "refs": [
+    129,
+    130,
+    44,
+    131
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Échographie de 141 cas : rupture du gastrocnémien médial 66,7 %, collection sans rupture 21,3 %, plantaire 1,4 %, soléaire 0,7 %; à l'IRM, soléaire atteint dans 36,1–46,2 %; l'échographie sous-détecte le soléaire.",
+   "refs": [
+    132,
+    123,
+    133,
+    134
+   ]
+  },
+  "ddx": {
+   "texte": "TVP isolée chez 9,9 % des patients adressés pour tennis leg; rupture d'Achille; kyste de Baker rompu; syndrome compartimental; piégeage de l'artère poplitée.",
+   "refs": [
+    132,
+    135,
+    136
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique si tableau typique (avis d'experts); échographie en première ligne si doute, pour exclure TVP ou rupture; IRM supérieure pour le soléaire; D- dimères élevés par le traumatisme musculaire.",
+   "refs": [
+    129,
+    127,
+    136,
+    134,
+    131
+   ]
+  },
+  "traitement": {
+   "texte": "Aucun essai randomisé propre au mollet repéré; repos relatif, glace, compression, AINS, mise en charge et renforcement progressifs, sans immobilisation prolongée; réadaptation au jour 2 plutôt qu'au jour 9 : retour environ 3 semaines plus tôt (cuisse et mollet confondus); chirurgie rare; PRP : preuves limitées.",
+   "refs": [
+    129,
+    127,
+    137,
+    138,
+    139
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au jeu selon le grade IRM : 8, 17, 25 et 48 jours (grades 0 à 3); NFL : médiane 14 jours; non-élite : 44,9 % sans retour au niveau antérieur; récidives : 35 sur 184 lésions, 91,4 % au soléaire; risque accru 15 semaines.",
+   "refs": [
+    140,
+    124,
+    129,
+    128,
+    141,
+    125
+   ]
+  },
+  "refs": [
+   {
+    "n": 123,
+    "texte": "Dai M et al. Injury 2021",
+    "url": null
+   },
+   {
+    "n": 124,
+    "texte": "Herzog MM et al. Am J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 125,
+    "texte": "Orchard JW et al. Br J Sports Med 2020",
+    "url": null
+   },
+   {
+    "n": 126,
+    "texte": "Pedret C et al. Scand J Med Sci Sports 2020",
+    "url": null
+   },
+   {
+    "n": 127,
+    "texte": "Pedret C et al. Curr Rev Musculoske… 2026",
+    "url": null
+   },
+   {
+    "n": 128,
+    "texte": "Green B et al. Scand J Med Sci Sports 2020",
+    "url": null
+   },
+   {
+    "n": 129,
+    "texte": "Kilic KK et al. BMC Musculoskelet D… 2024",
+    "url": null
+   },
+   {
+    "n": 130,
+    "texte": "Maffulli N Am J Sports Med 1998",
+    "url": null
+   },
+   {
+    "n": 44,
+    "texte": "Reiman M et al. J Athl Train 2014",
+    "url": null
+   },
+   {
+    "n": 131,
+    "texte": "Goodacre S Ann Intern Med 2008",
+    "url": null
+   },
+   {
+    "n": 132,
+    "texte": "Delgado GJ et al. Radiology 2002",
+    "url": null
+   },
+   {
+    "n": 133,
+    "texte": "Koulouris G et al. Skeletal Radiol 2007",
+    "url": null
+   },
+   {
+    "n": 134,
+    "texte": "Sergot L et al. Acta Radiologica (S… 1987",
+    "url": null
+   },
+   {
+    "n": 135,
+    "texte": "Langsfeld M et al. Journal of Vascular… 1997",
+    "url": null
+   },
+   {
+    "n": 136,
+    "texte": "Bright JM et al. Sports Health 2017",
+    "url": null
+   },
+   {
+    "n": 137,
+    "texte": "Kjær M et al. Scand J Med Sci Sports 2025",
+    "url": null
+   },
+   {
+    "n": 138,
+    "texte": "Hauer TM et al. JAAOS 2026",
+    "url": null
+   },
+   {
+    "n": 139,
+    "texte": "Meek WM et al. JBJS Reviews 2022",
+    "url": null
+   },
+   {
+    "n": 140,
+    "texte": "Prakash A et al. Br J Sports Med 2018",
+    "url": null
+   },
+   {
+    "n": 141,
+    "texte": "Green B et al. Am J Sports Med 2020",
+    "url": null
+   }
+  ],
+  "planche": "ch7.webp"
+ },
+ {
+  "no": "Ch8",
+  "page": 8,
+  "tags": "CHEVILLE · DOULEUR POSTÉRIEURE DU TALON · ENFANTS SPORTIFS EN CROISSANCE",
+  "titre": "MALADIE DE SEVER (APOPHYSITE CALCANÉENNE)",
+  "epidemiologie": {
+   "texte": "Âge moyen 10,8 ans, apophysite la plus précoce et la plus fréquente; garçons 71,4 %, bilatérale 43,2 % (1362 cas); 0,35 % des patients pédiatriques d'un hôpital; poids et niveau d'activité non associés; dorsiflexion limitée : données contradictoires.",
+   "refs": [
+    142,
+    143,
+    144,
+    145,
+    146
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur postérieure du talon graduelle, pendant ou après la course et les sauts, soulagée au repos; boiterie possible; délai avant consultation 12,7 semaines en moyenne.",
+   "refs": [
+    60,
+    147,
+    144
+   ]
+  },
+  "examen": {
+   "texte": "Appui monopodal sur le talon : Se 100 %, Sp 100 %; compression médio-latérale du calcanéus : Se 97 %, Sp 100 %; palpation : Se 80 %; une seule étude (30 cas, 15 témoins); apophyse déjà fusionnée : revoir le diagnostic.",
+   "refs": [
+    148,
+    149
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Lésion de surcharge de l'apophyse calcanéenne à l'insertion d'Achille; théorie du mollet court par croissance rapide probablement fausse; fusion vers 14 ans (filles) et 16 ans (garçons).",
+   "refs": [
+    150,
+    151
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture de stress, kyste osseux, fibrome non ossifiant, coalition tarsienne, ostéomyélite, bursite rétro-calcanéenne, tendinopathie d'Achille, tumeur.",
+   "refs": [
+    149,
+    152,
+    144
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie anormale dans 5,1 % (98 enfants : kystes, fractures de stress) contre 1 patient sur 61 dans une autre série; fragmentation de l'apophyse chez environ 50 % des témoins; imagerie si atypique, sévère ou > 8 semaines.",
+   "refs": [
+    152,
+    153,
+    148,
+    154
+   ]
+  },
+  "traitement": {
+   "texte": "Revue Cochrane : orthèses plantaires contre talonnettes, aucune différence de douleur à 4 semaines (0,00; IC 95 % −0,44 à 0,44); attente, talonnette ou physiothérapie excentrique : équivalentes à 3 mois; coque talonnière rigide : cote de douleur réduite de 80 % contre coin talonnier; changement de chaussures : sans bénéfice.",
+   "refs": [
+    151,
+    155,
+    156,
+    157
+   ]
+  },
+  "pronostic": {
+   "texte": "Durée médiane 3 semaines en population générale (étendue 1–45); plus de 2 ans dans certaines cohortes de consultants; résolution à la fusion de l'apophyse; fracture-avulsion de l'apophyse : cas rapporté.",
+   "refs": [
+    142,
+    60,
+    158
+   ]
+  },
+  "refs": [
+   {
+    "n": 142,
+    "texte": "Wedderkopp N et al. Sports Med 2026",
+    "url": null
+   },
+   {
+    "n": 143,
+    "texte": "Fares MY et al. JAPMA 2023",
+    "url": null
+   },
+   {
+    "n": 144,
+    "texte": "Ceylan HH et al. BMC Musculoskelet D… 2018",
+    "url": null
+   },
+   {
+    "n": 145,
+    "texte": "Scharfbillig RW et al. JAPMA 2011",
+    "url": null
+   },
+   {
+    "n": 146,
+    "texte": "Nieto-Gil P et al. BMJ Open 2023",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Morancie NA et al. Am Fam Physician 2025",
+    "url": null
+   },
+   {
+    "n": 147,
+    "texte": "Yun L et al. Pediatr Rev 2024",
+    "url": null
+   },
+   {
+    "n": 148,
+    "texte": "Perhamre S et al. JAPMA 2013",
+    "url": null
+   },
+   {
+    "n": 149,
+    "texte": "Frush TJ et al. Sports Health 2009",
+    "url": null
+   },
+   {
+    "n": 150,
+    "texte": "Rodríguez-Sanz D et al. BMC Pediatrics 2018",
+    "url": null
+   },
+   {
+    "n": 151,
+    "texte": "Cylie M Williams et al. Cochrane 2026",
+    "url": null
+   },
+   {
+    "n": 152,
+    "texte": "Rachel JN et al. J Pediatr Orthop 2011",
+    "url": null
+   },
+   {
+    "n": 153,
+    "texte": "Kose O Skeletal Radiol 2010",
+    "url": null
+   },
+   {
+    "n": 154,
+    "texte": "Lintner LJ et al. Am Fam Physician 2023",
+    "url": null
+   },
+   {
+    "n": 155,
+    "texte": "Wiegerinck JI et al. J Pediatr Orthop 2016",
+    "url": null
+   },
+   {
+    "n": 156,
+    "texte": "Perhamre S et al. Scand J Med Sci Sports 2011",
+    "url": null
+   },
+   {
+    "n": 157,
+    "texte": "James AM et al. Br J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 158,
+    "texte": "Lee KT et al. Foot Ankle Int 2010",
+    "url": null
+   }
+  ],
+  "planche": "ch8.webp"
+ },
+ {
+  "no": "Ch9",
+  "page": 9,
+  "tags": "CHEVILLE · DOULEUR MÉDIALE ET PIED PLAT ACQUIS · FEMMES DE 40–60 ANS",
+  "titre": "DYSFONCTION DU TENDON TIBIAL POSTÉRIEUR",
+  "epidemiologie": {
+   "texte": "3,3 % des femmes de plus de 40 ans (stades I–II), toutes non diagnostiquées; typiquement femmes obèses de 40–60 ans; 67 ruptures : obésité (p = 0,005), hypertension (p = 0,025), aucun RC rapporté; après entorse : 2,7 % en 2 ans, sexe féminin RC 1,58.",
+   "refs": [
+    159,
+    160,
+    161,
+    162
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur médiale graduelle sous la malléole médiale, debout et à la marche; propulsion faible, pied qui s'affaisse; douleur latérale (sinus du tarse) tardive par conflit; début insidieux dans 60 %.",
+   "refs": [
+    163,
+    164,
+    165
+   ]
+  },
+  "examen": {
+   "texte": "Montée sur la pointe d'un pied (normale : 5–10 répétitions) : aucune Se/Sp publiée, fiabilité κ 0,74; signe des « trop d'orteils » : négatif dans 20–35 % de 21 cas opérés; pied plat rigide du jeune adulte : coalition tarsienne.",
+   "refs": [
+    160,
+    166,
+    167,
+    168
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Tendinose dégénérative sans inflammation; défaillance du ligament calcanéo-naviculaire plantaire; stades : I ténosynovite sans déformation; II valgus souple; III déformation rigide; IV bascule du talus en valgus.",
+   "refs": [
+    169,
+    170,
+    171,
+    172
+   ]
+  },
+  "ddx": {
+   "texte": "Coalition tarsienne, arthrite inflammatoire, pied de Charcot, lésion de Lisfranc, arthrose tarso- métatarsienne, périostite tibiale, syndrome du tunnel tarsien.",
+   "refs": [
+    168,
+    163,
+    172,
+    88,
+    162
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographies en charge pour la déformation; échographie : Se 80 %, Sp 90 % pour la tendinopathie (référence IRM); IRM : Se jusqu'à 95 %, Sp jusqu'à 100 % pour les déchirures, sans changer la conduite.",
+   "refs": [
+    172,
+    173,
+    174,
+    175,
+    176
+   ]
+  },
+  "traitement": {
+   "texte": "Orthèse et exercices : succès 83 %, chirurgie 11 % (47 patients, stades I–II); orthèse pied-cheville : 69,7 % sans orthèse ni chirurgie à 8,6 ans; infiltration de corticostéroïde déconseillée (risque de rupture), aucun essai; reconstruction du stade II : 97 % soulagés, aucun essai contre traitement conservateur.",
+   "refs": [
+    165,
+    177,
+    178,
+    179,
+    180
+   ]
+  },
+  "pronostic": {
+   "texte": "Progression non inévitable; aucune progression au stade III en 8,6 ans dans une série, 16 % dans une autre; récidive nécessitant de nouveau l'orthèse 35,7 %; tardivement : arthrose sous-talienne, valgus de la cheville.",
+   "refs": [
+    181,
+    177,
+    182,
+    164
+   ]
+  },
+  "refs": [
+   {
+    "n": 159,
+    "texte": "Kohls-Gatzoulis J et al. Foot Ankle Surg 2009",
+    "url": null
+   },
+   {
+    "n": 160,
+    "texte": "Deu RS et al. Am Fam Physician 2022",
+    "url": null
+   },
+   {
+    "n": 161,
+    "texte": "Holmes GB et al. Foot & Ankle 1992",
+    "url": null
+   },
+   {
+    "n": 162,
+    "texte": "Foster KS et al. J Knee Surg 2022",
+    "url": null
+   },
+   {
+    "n": 163,
+    "texte": "Pinney SJ et al. Foot Ankle Int 2006",
+    "url": null
+   },
+   {
+    "n": 164,
+    "texte": "DeOrio JK et al. Foot Ankle Int 2011",
+    "url": null
+   },
+   {
+    "n": 165,
+    "texte": "Alvarez RG et al. Foot Ankle Int 2006",
+    "url": null
+   },
+   {
+    "n": 166,
+    "texte": "Ross MH et al. JOSPT 2021",
+    "url": null
+   },
+   {
+    "n": 167,
+    "texte": "Hintermann B et al. Foot Ankle Int 1996",
+    "url": null
+   },
+   {
+    "n": 168,
+    "texte": "Kulik SA et al. Foot Ankle Int 1996",
+    "url": null
+   },
+   {
+    "n": 169,
+    "texte": "Kulig K et al. Foot Ankle Int 2009",
+    "url": null
+   },
+   {
+    "n": 170,
+    "texte": "Piraino JA et al. J Foot Ankle Surg 2020",
+    "url": null
+   },
+   {
+    "n": 171,
+    "texte": "Silva MG et al. Foot Ankle Int 2015",
+    "url": null
+   },
+   {
+    "n": 172,
+    "texte": "Gluck GS et al. Am J Sports Med 2010",
+    "url": null
+   },
+   {
+    "n": 88,
+    "texte": "Millar AN et al. Curr Rev Musculoske… 2026",
+    "url": null
+   },
+   {
+    "n": 173,
+    "texte": "Premkumar A et al. AJR 2002",
+    "url": null
+   },
+   {
+    "n": 174,
+    "texte": "Rehman M et al. Eur Radiol 2024",
+    "url": null
+   },
+   {
+    "n": 175,
+    "texte": "Rosenberg ZS et al. Radiology 1988",
+    "url": null
+   },
+   {
+    "n": 176,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": null
+   },
+   {
+    "n": 177,
+    "texte": "Lin JL et al. Foot Ankle Int 2008",
+    "url": null
+   },
+   {
+    "n": 178,
+    "texte": "Bernasconi A et al. Foot Ankle Int 2018",
+    "url": null
+   },
+   {
+    "n": 179,
+    "texte": "Wilcox J et al. Am Fam Physician 2026",
+    "url": null
+   },
+   {
+    "n": 180,
+    "texte": "Myerson MS et al. Foot Ankle Int 2004",
+    "url": null
+   },
+   {
+    "n": 181,
+    "texte": "Myerson MS et al. Foot Ankle Int 2020",
+    "url": null
+   },
+   {
+    "n": 182,
+    "texte": "Krause F et al. Foot Ankle Int 2008",
+    "url": null
+   }
+  ],
+  "planche": "ch9.webp"
+ },
+ {
+  "no": "Ch10",
+  "page": 10,
+  "tags": "CHEVILLE · DOULEUR MÉCANIQUE ET RAIDEUR · SÉQUELLE POST-TRAUMATIQUE",
+  "titre": "ARTHROSE DE LA CHEVILLE",
+  "epidemiologie": {
+   "texte": "Post-traumatique dans 78 % (406 chevilles au stade terminal), primaire 9 %; arthrose radiographique symptomatique chez 3,4 % des ≥ 50 ans; après entorse : rapport de risque 1,46; après fracture opérée : arthrose avancée 36,3 % à 17,9 ans.",
+   "refs": [
+    183,
+    184,
+    185,
+    186
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur mécanique diffuse insidieuse, œdème en fin de journée, raideur après le repos; patients plus jeunes que pour le genou ou la hanche; incapacité comparable à l'arthrose terminale de la hanche.",
+   "refs": [
+    187,
+    188,
+    189
+   ]
+  },
+  "examen": {
+   "texte": "Aucun critère clinique validé, aucune Se/Sp publiée; dorsiflexion réduite, sensibilité de l'interligne, crépitements, déformation; sans traumatisme antérieur : chercher une hémochromatose; arthrite inflammatoire nouvelle : spondyloarthrite ou goutte.",
+   "refs": [
+    190,
+    187,
+    191,
+    192
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Cartilage mince (1–2 mm) mais résistant; surface articulaire d'environ le tiers de celle du genou ou de la hanche; incongruence, instabilité et défaut d'axe après fracture ou entorses.",
+   "refs": [
+    193,
+    194
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrite microcristalline, inflammatoire ou septique; hémochromatose; arthrose sous-talienne ou adjacente (43 % à l'IRM); lésion ostéochondrale du talus, conflit, tendinopathies.",
+   "refs": [
+    192,
+    195,
+    188
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies en charge (face, mortaise, profil); classifications radiographiques peu reproductibles (κ 0,18–0,24); TDM ou IRM seulement pour le bilan préopératoire.",
+   "refs": [
+    188,
+    196
+   ]
+  },
+  "traitement": {
+   "texte": "Éducation, exercices, perte de poids : aucun essai d'efficacité; infiltration de corticostéroïde : séries de cas, effet d'environ 3 mois; PRP équivalent au placebo; acide hyaluronique : sans bénéfice cliniquement pertinent; stade terminal : prothèse et arthrodèse, fonction semblable à 52 semaines.",
+   "refs": [
+    190,
+    197,
+    188,
+    198,
+    199,
+    195
+   ]
+  },
+  "pronostic": {
+   "texte": "En 4 ans : progression radiographique 4 %, aggravation des symptômes 35 %; prothèse : survie 89 % à 10 ans, révision 17 % contre 7 % pour l'arthrodèse à 5,5 ans; pseudarthrose symptomatique d'arthrodèse 7,1 %.",
+   "refs": [
+    200,
+    201,
+    202,
+    195
+   ]
+  },
+  "refs": [
+   {
+    "n": 183,
+    "texte": "Valderrabano V et al. Clin Orthop Relat Res 2009",
+    "url": null
+   },
+   {
+    "n": 184,
+    "texte": "Murray C et al. PloS One 2018",
+    "url": null
+   },
+   {
+    "n": 185,
+    "texte": "Lee S et al. Journal of Science… 2022",
+    "url": null
+   },
+   {
+    "n": 186,
+    "texte": "Lübbeke A et al. International Ortho… 2012",
+    "url": null
+   },
+   {
+    "n": 187,
+    "texte": "Ewalefo SO et al. Curr Rev Musculoske… 2018",
+    "url": null
+   },
+   {
+    "n": 188,
+    "texte": "Shibuya N et al. J Foot Ankle Surg 2020",
+    "url": null
+   },
+   {
+    "n": 189,
+    "texte": "Glazebrook M et al. JBJS 2008",
+    "url": null
+   },
+   {
+    "n": 190,
+    "texte": "Paterson KL et al. Drugs & Aging 2019",
+    "url": null
+   },
+   {
+    "n": 191,
+    "texte": "Al-Mahrouqi MM et al. JOSPT 2020",
+    "url": null
+   },
+   {
+    "n": 192,
+    "texte": "Kiely PDW et al. Rheumatology 2021",
+    "url": null
+   },
+   {
+    "n": 193,
+    "texte": "Labib SA et al. Foot Ankle Int 2013",
+    "url": null
+   },
+   {
+    "n": 194,
+    "texte": "Herrera-Pérez M et al. Journal of Clinical… 2021",
+    "url": null
+   },
+   {
+    "n": 195,
+    "texte": "Goldberg AJ et al. Ann Intern Med 2022",
+    "url": null
+   },
+   {
+    "n": 196,
+    "texte": "Claessen FM et al. KSSTA 2016",
+    "url": null
+   },
+   {
+    "n": 197,
+    "texte": "Vannabouathong C et al. Foot Ankle Int 2018",
+    "url": null
+   },
+   {
+    "n": 198,
+    "texte": "Paget LDA et al. JAMA 2021",
+    "url": null
+   },
+   {
+    "n": 199,
+    "texte": "Paget LDA et al. Clin Orthop Relat Res 2023",
+    "url": null
+   },
+   {
+    "n": 200,
+    "texte": "Jaleel A et al. Arthritis Rheum 2021",
+    "url": null
+   },
+   {
+    "n": 201,
+    "texte": "Zaidi R et al. The Bone & Joint Jo… 2013",
+    "url": null
+   },
+   {
+    "n": 202,
+    "texte": "Daniels TR et al. JBJS 2014",
+    "url": null
+   }
+  ],
+  "planche": "ch10.webp"
+ },
+ {
+  "no": "Ch11",
+  "page": 11,
+  "tags": "CHEVILLE · DOULEUR ANTÉROLATÉRALE AU-DESSUS DE L'INTERLIGNE · ROTATION",
+  "titre": "ENTORSE DE LA SYNDESMOSE (ENTORSE HAUTE)",
+  "epidemiologie": {
+   "texte": "6,7 % des entorses chez des cadets (4,8 par 1000 p-a); 24,6 % au football universitaire américain; 1,00 par 10 000 expositions (NCAA), 60,4 % par contact; hommes : RR 1,77; matchs : risque environ 14 fois celui des entraînements.",
+   "refs": [
+    203,
+    204,
+    205
+   ]
+  },
+  "presentation": {
+   "texte": "Dorsiflexion forcée avec rotation externe du pied; douleur antérolatérale au-dessus de l'interligne, à la dorsiflexion et à la propulsion; douleur disproportionnée : Sp 79 %, RV+ 3,05; incapacité de sautiller : Se 89 %, RV− 0,37.",
+   "refs": [
+    205,
+    206,
+    207
+   ]
+  },
+  "examen": {
+   "texte": "Palpation de la syndesmose : Se 92 %, RV− 0,28; rotation externe en dorsiflexion : Se 71 %, Sp 78 %; test de compression (squeeze) : Sp 85–88 %, RV+ 2,15; aucun test ne distingue stable et instable; palper la fibula proximale (Maisonneuve).",
+   "refs": [
+    207,
+    208,
+    206
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Ligament tibio-fibulaire antéro-inférieur atteint en premier, puis ligament interosseux et tibio-fibulaire postéro-inférieur; grades I (stable) à III (diastasis); lésion du deltoïde associée : instabilité 11 fois plus probable.",
+   "refs": [
+    209,
+    210,
+    211,
+    212
+   ]
+  },
+  "ddx": {
+   "texte": "Entorse latérale (syndesmose atteinte à l'IRM dans 17,8 % des entorses latérales); fracture de Maisonneuve; fracture Weber B ou C; avulsions (Tillaux-Chaput); lésion du deltoïde.",
+   "refs": [
+    213,
+    206,
+    214,
+    215,
+    212
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies : espace clair tibio-fibulaire ≥ 6 mm ou espace clair médial > 4 mm anormaux; radiographie : Se 52,8 %, Sp 98,4 %; IRM : Se 92,9 %, Sp 86,5 %; jambe complète si fibula proximale sensible; clichés en stress peu fiables.",
+   "refs": [
+    206,
+    216,
+    217
+   ]
+  },
+  "traitement": {
+   "texte": "Stable : botte de marche, puis réadaptation par critères, aucun essai randomisé; retour en 45 jours (stable, botte) contre 64 jours (instable, opéré); diastasis : fixation; bouton de suture contre vis (données de fractures) : retrait du matériel 6,0 % contre 22,4 %, malréduction 0,8 % contre 11,5 %.",
+   "refs": [
+    216,
+    218,
+    212,
+    215,
+    219
+   ]
+  },
+  "pronostic": {
+   "texte": "Récupération médiane 62 jours contre 15 pour l'entorse latérale; retour au sport en 46,3 jours en moyenne, 93,8 % au niveau antérieur; récidive 9,8 %; ossification hétérotopique 50 % (11 athlètes sur 22); à ≥ 18 ans : nouvelle blessure 42 %.",
+   "refs": [
+    220,
+    211,
+    205,
+    221,
+    222
+   ]
+  },
+  "refs": [
+   {
+    "n": 203,
+    "texte": "Waterman BR et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 204,
+    "texte": "Hunt KJ et al. Clin J Sport Med 2013",
+    "url": null
+   },
+   {
+    "n": 205,
+    "texte": "Mauntel TC et al. Am J Sports Med 2017",
+    "url": null
+   },
+   {
+    "n": 206,
+    "texte": "Rammelt S et al. Eur J Trauma Emerg… 2015",
+    "url": null
+   },
+   {
+    "n": 207,
+    "texte": "Sman AD et al. Br J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 208,
+    "texte": "Netterström-Wedin F et al. Physical Therapy in… 2021",
+    "url": null
+   },
+   {
+    "n": 209,
+    "texte": "Ergün T et al. Arch Orthop Trauma… 2023",
+    "url": null
+   },
+   {
+    "n": 210,
+    "texte": "Williams BT et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 211,
+    "texte": "Vancolen SY et al. Sports Health 2019",
+    "url": null
+   },
+   {
+    "n": 212,
+    "texte": "Calder JD et al. Arthroscopy 2016",
+    "url": null
+   },
+   {
+    "n": 213,
+    "texte": "de César PC et al. Foot Ankle Int 2011",
+    "url": null
+   },
+   {
+    "n": 214,
+    "texte": "Tucker S et al. Curr Rev Musculoske… 2025",
+    "url": null
+   },
+   {
+    "n": 215,
+    "texte": "D'Hooghe P et al. Foot Ankle Int 2017",
+    "url": null
+   },
+   {
+    "n": 216,
+    "texte": "Williams GN et al. Am J Sports Med 2007",
+    "url": null
+   },
+   {
+    "n": 217,
+    "texte": "Chun DI et al. Journal of Clinical… 2019",
+    "url": null
+   },
+   {
+    "n": 218,
+    "texte": "Williams GN et al. Sports Health 2010",
+    "url": null
+   },
+   {
+    "n": 219,
+    "texte": "Shimozono Y et al. Am J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 220,
+    "texte": "Sman AD et al. Medicine and Scienc… 2014",
+    "url": null
+   },
+   {
+    "n": 221,
+    "texte": "Taylor DC et al. Am J Sports Med 1992",
+    "url": null
+   },
+   {
+    "n": 222,
+    "texte": "Nussbaum ED et al. Am J Sports Med 2024",
+    "url": null
+   }
+  ],
+  "planche": "ch11.webp"
+ },
+ {
+  "no": "Ch12",
+  "page": 12,
+  "tags": "CHEVILLE · DOULEUR MÉDIALE AIGUË · TRAUMATISME EN ÉVERSION OU ROTATION",
+  "titre": "ENTORSE MÉDIALE ISOLÉE (LIGAMENT DELTOÏDE)",
+  "epidemiologie": {
+   "texte": "5,1 % des entorses chez des cadets, 3,5 par 1000 p-a; hommes : taux 3,37 fois plus élevé; NCAA : 0,79 par 10 000 expositions, 49,7 % par contact; 3–4 % des lésions ligamentaires de la cheville.",
+   "refs": [
+    203,
+    223,
+    224
+   ]
+  },
+  "presentation": {
+   "texte": "Éversion ou rotation externe de l'arrière-pied; douleur antéromédiale, ecchymose et sensibilité le long du deltoïde, instabilité à l'appui; forme chronique : dérobement médial en descente ou dans les escaliers.",
+   "refs": [
+    225,
+    224
+   ]
+  },
+  "examen": {
+   "texte": "Aucune Se/Sp pour l'entorse isolée; données de fractures Weber B : sensibilité médiale Se 76 %, Sp 59 %, RV+ 2,74–3,25; ecchymose ou œdème : RV+ 1,41– 1,65; fibula proximale sensible : Maisonneuve; montée sur la pointe impossible : tibial postérieur.",
+   "refs": [
+    226,
+    227,
+    228,
+    224
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Couche superficielle (frein à l'éversion) et couche profonde, principal frein à la rotation externe du talus; fibres profondes intra-articulaires, cicatrisation possiblement moins bonne; 1 mm de translation latérale du talus : contact tibio-talien réduit de 42 %.",
+   "refs": [
+    224,
+    229,
+    230,
+    231
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture de la malléole médiale ou fracture fibulaire avec équivalent bimalléolaire; fracture de Maisonneuve; lésion de la syndesmose; lésion du ligament calcanéo-naviculaire plantaire ou du tibial postérieur.",
+   "refs": [
+    232,
+    228,
+    212,
+    224
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies : espace clair médial > 4–5 mm anormal; jambe complète si fibula proximale sensible; données de fractures : cliché en stress gravitaire Se 71–100 %, Sp 72–88 %; échographie Se 100 %, Sp 89–100 %; IRM Se 57–85 %.",
+   "refs": [
+    233,
+    206,
+    234
+   ]
+  },
+  "traitement": {
+   "texte": "Aucun essai comparatif pour l'entorse isolée; avis d'experts : orthèse souple (grade I), orthèse rigide ou botte de marche jusqu'à 6 semaines (grades II–III), physiothérapie précoce; chirurgie si instabilité persistante après 3–6 mois; réparation du deltoïde lors d'une fracture : fonction équivalente.",
+   "refs": [
+    235,
+    224,
+    236,
+    237
+   ]
+  },
+  "pronostic": {
+   "texte": "Arrêt médian 8,0 jours, > 21 jours chez 8,9 %; NCAA : 39,5 % de retour en moins de 24 h; récidive 8,2 %; instabilité médiale chronique et valgus progressif redoutés (avis d'experts).",
+   "refs": [
+    203,
+    223,
+    224
+   ]
+  },
+  "refs": [
+   {
+    "n": 203,
+    "texte": "Waterman BR et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 223,
+    "texte": "Kopec TJ et al. J Athl Train 2017",
+    "url": null
+   },
+   {
+    "n": 224,
+    "texte": "Lötscher P et al. Eur J Trauma Emerg… 2015",
+    "url": null
+   },
+   {
+    "n": 225,
+    "texte": "Herring SA et al. Medicine and Scienc… 2024",
+    "url": null
+   },
+   {
+    "n": 226,
+    "texte": "Stenquist DS et al. Injury 2020",
+    "url": null
+   },
+   {
+    "n": 227,
+    "texte": "Nortunen S et al. The Bone & Joint Jo… 2015",
+    "url": null
+   },
+   {
+    "n": 228,
+    "texte": "Lock TR et al. Ann Emerg Med 1987",
+    "url": null
+   },
+   {
+    "n": 229,
+    "texte": "Takao M et al. BMC Musculoskelet D… 2020",
+    "url": null
+   },
+   {
+    "n": 230,
+    "texte": "Dalmau-Pastor M et al. KSSTA 2024",
+    "url": null
+   },
+   {
+    "n": 231,
+    "texte": "Brady AW et al. Am J Sports Med 2025",
+    "url": null
+   },
+   {
+    "n": 232,
+    "texte": "Lee S et al. JAAOS 2019",
+    "url": null
+   },
+   {
+    "n": 212,
+    "texte": "Calder JD et al. Arthroscopy 2016",
+    "url": null
+   },
+   {
+    "n": 233,
+    "texte": "Tong J et al. Acta Radiologica (S… 1987",
+    "url": null
+   },
+   {
+    "n": 206,
+    "texte": "Rammelt S et al. Eur J Trauma Emerg… 2015",
+    "url": null
+   },
+   {
+    "n": 234,
+    "texte": "de Krom MA et al. Injury 2022",
+    "url": null
+   },
+   {
+    "n": 235,
+    "texte": "Eric Bluman et al. Journal of Medical…",
+    "url": null
+   },
+   {
+    "n": 236,
+    "texte": "D'Andrea G et al. J Foot Ankle Surg 2025",
+    "url": null
+   },
+   {
+    "n": 237,
+    "texte": "James M et al. Canadian Journal of… 2022",
+    "url": null
+   }
+  ],
+  "planche": "ch12.webp"
+ },
+ {
+  "no": "Ch13",
+  "page": 13,
+  "tags": "CHEVILLE · DOULEUR RÉTRO-MALLÉOLAIRE LATÉRALE · SÉQUELLE D'ENTORSE OU",
+  "titre": "TENDINOPATHIE, DÉCHIRURE OU LUXATION DES FIBULAIRES",
+  "epidemiologie": {
+   "texte": "Incidence des déchirures inconnue; déchirure du court fibulaire sur 11–37,5 % des cadavres; anomalie à l'IRM chez 35 % des asymptomatiques; luxation : 0,3–0,5 % des traumatismes de la cheville, 92 % au sport; 60 % des atteintes diagnostiquées à la première visite.",
+   "refs": [
+    238,
+    239,
+    240,
+    241,
+    242,
+    243
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur et œdème derrière la fibula, faiblesse en éversion; luxation : ressaut douloureux, dérobement sur terrain inégal; forme aiguë : ecchymose et sensibilité rétro-malléolaires, force habituellement normale.",
+   "refs": [
+    244,
+    245,
+    243
+   ]
+  },
+  "examen": {
+   "texte": "Éversion contrariée, compression du sillon fibulaire, subluxation provoquée (éversion contre résistance) : aucune Se/Sp publiée; un test négatif n'exclut pas l'instabilité; tiroir antérieur positif : instabilité ligamentaire; arrière-pied en varus : facteur favorisant.",
+   "refs": [
+    160,
+    246,
+    247,
+    243
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Usure mécanique : le long fibulaire écrase le court contre le bord postérieur de la fibula, sans inflammation; luxation : rupture du rétinaculum supérieur par contraction réflexe en dorsiflexion forcée; sillon plat ou convexe chez 78 % des déchirures.",
+   "refs": [
+    239,
+    248,
+    249
+   ]
+  },
+  "ddx": {
+   "texte": "Entorse ou instabilité latérale (pathologie des fibulaires chez 92,7 % des instabilités chroniques opérées); subluxation intra-gaine; os peroneum douloureux; fracture de la base du 5e métatarsien.",
+   "refs": [
+    250,
+    251,
+    243
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : avulsion en écaille de la malléole latérale, pathognomonique de la luxation aiguë; échographie dynamique : Se 100 %, Sp 85 % pour les déchirures; IRM : Se 83 %, Sp 75 %; subluxation : échographie Se 100 %, IRM 66 %.",
+   "refs": [
+    243,
+    252,
+    249,
+    253
+   ]
+  },
+  "traitement": {
+   "texte": "Physiothérapie, orthèse : aucun taux de succès publié; infiltration de corticostéroïde échoguidée dans la gaine : soulagement > 12 semaines 36,8 %, chirurgie ensuite 25 %; luxation aiguë : récidive jusqu'à 50 % sans chirurgie, < 1,5 % après; réparation des déchirures : retour au sport 83,1 %.",
+   "refs": [
+    254,
+    247,
+    255,
+    244
+   ]
+  },
+  "pronostic": {
+   "texte": "Histoire naturelle non étudiée; après réparation du rétinaculum : retour au sport en médiane 5 mois, 90 % au niveau antérieur; après réparation tendineuse : douleur persistante 25,4 %, révision 1,5 %; complications globales 38,7 % (336 patients).",
+   "refs": [
+    238,
+    256,
+    244,
+    257
+   ]
+  },
+  "refs": [
+   {
+    "n": 238,
+    "texte": "Demetracopoulos CA et al. Foot Ankle Int 2014",
+    "url": null
+   },
+   {
+    "n": 239,
+    "texte": "Sobel M et al. Foot & Ankle 1991",
+    "url": null
+   },
+   {
+    "n": 240,
+    "texte": "Miura K et al. Journal of Orthopae… 2004",
+    "url": null
+   },
+   {
+    "n": 241,
+    "texte": "O'Neil JT et al. Foot Ankle Int 2016",
+    "url": null
+   },
+   {
+    "n": 242,
+    "texte": "Lootsma J et al. Arch Orthop Trauma… 2023",
+    "url": null
+   },
+   {
+    "n": 243,
+    "texte": "Heckman DS et al. Am J Sports Med 2009",
+    "url": null
+   },
+   {
+    "n": 244,
+    "texte": "Steginsky B et al. Foot Ankle Int 2016",
+    "url": null
+   },
+   {
+    "n": 245,
+    "texte": "Smyth NA et al. Am J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 160,
+    "texte": "Deu RS et al. Am Fam Physician 2022",
+    "url": null
+   },
+   {
+    "n": 246,
+    "texte": "Ogawa BK et al. Foot Ankle Int 2007",
+    "url": null
+   },
+   {
+    "n": 247,
+    "texte": "Espinosa N et al. Eur J Trauma Emerg… 2015",
+    "url": null
+   },
+   {
+    "n": 248,
+    "texte": "Clarke HD et al. Foot Ankle Int 1998",
+    "url": null
+   },
+   {
+    "n": 249,
+    "texte": "Lamm BM et al. J Foot Ankle Surg 2004",
+    "url": null
+   },
+   {
+    "n": 250,
+    "texte": "Clair BL et al. J Foot Ankle Surg 2022",
+    "url": null
+   },
+   {
+    "n": 251,
+    "texte": "Draghi F et al. Journal of Ultrasou… 2018",
+    "url": null
+   },
+   {
+    "n": 252,
+    "texte": "Grant TH et al. JBJS 2005",
+    "url": null
+   },
+   {
+    "n": 253,
+    "texte": "Melville DM et al. Journal of Clinical… 2024",
+    "url": null
+   },
+   {
+    "n": 254,
+    "texte": "Fram BR et al. Foot Ankle Int 2019",
+    "url": null
+   },
+   {
+    "n": 255,
+    "texte": "van Dijk PA et al. KSSTA 2016",
+    "url": null
+   },
+   {
+    "n": 256,
+    "texte": "Deng E et al. KSSTA 2019",
+    "url": null
+   },
+   {
+    "n": 257,
+    "texte": "Mercer NP et al. J Foot Ankle Surg 2021",
+    "url": null
+   }
+  ],
+  "planche": "ch13.webp"
+ },
+ {
+  "no": "Ch14",
+  "page": 14,
+  "tags": "CHEVILLE · DOULEUR EN FIN D'AMPLITUDE · SOCCER ET DANSE",
+  "titre": "CONFLIT ANTÉRIEUR OU POSTÉRIEUR DE LA CHEVILLE",
+  "epidemiologie": {
+   "texte": "Soccer professionnel : 0,03 par 1000 heures, 62 % postérieur, 38 % antérieur; ostéophytes antérieurs chez jusqu'à 60 % des joueurs professionnels; os trigone : prévalence 10,3 % (IC 95 % 7–14,1); douleur antérolatérale persistante après 20–40 % des entorses en inversion.",
+   "refs": [
+    258,
+    259,
+    260,
+    29
+   ]
+  },
+  "presentation": {
+   "texte": "Antérolatéral : entorse, puis douleur chronique de la gouttière antérolatérale; antérieur osseux : douleur en dorsiflexion et à l'accroupissement, raideur; postérieur : douleur profonde en flexion plantaire (propulsion, demi-pointe, tir, descente).",
+   "refs": [
+    261,
+    262,
+    263
+   ]
+  },
+  "examen": {
+   "texte": "Examen clinique du conflit antérolatéral : Se 94 %, Sp 75 % (22 patients); flexion plantaire forcée (postérieur) : aucune Se/Sp publiée, test négatif jugé rassurant par les experts; douleur à la mobilisation de l'hallux : long fléchisseur de l'hallux.",
+   "refs": [
+    264,
+    245,
+    265,
+    263,
+    266
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Antérolatéral : synovite cicatricielle et lésion « méniscoïde » après hémorragie; antérieur : ostéophytes par microtraumatismes et impacts du ballon, tissus mous pincés; postérieur : os trigone coincé entre tibia et calcanéus.",
+   "refs": [
+    267,
+    259,
+    261,
+    268
+   ]
+  },
+  "ddx": {
+   "texte": "Antérieur : lésion ostéochondrale, pathologie des fibulaires, fracture de stress, arthrose, instabilité, syndrome du sinus du tarse, coalition tarsienne; postérieur : ténosynovite du long fléchisseur de l'hallux, atteinte sous-talienne, fracture.",
+   "refs": [
+    267,
+    29,
+    269
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie de profil : 40 % des ostéophytes tibiaux; avec incidence oblique antéromédiale : 85 %; IRM (conflit antérolatéral) : Se 39–42 %, Sp 50–85 % dans les études anciennes, Se 75–83 % selon l'ACR; échographie : Se 77 %, Sp 57 %.",
+   "refs": [
+    270,
+    264,
+    271,
+    176,
+    272
+   ]
+  },
+  "traitement": {
+   "texte": "Postérieur : traitement conservateur efficace chez environ 60 %; infiltration de corticostéroïde (tissus mous) : soulagement complet 74 %, 46 % encore à 2 ans; arthroscopie antérieure : succès 81,0 %, complications 4,0 %; postérieur : endoscopie contre chirurgie ouverte, complications 7,7 % contre 13,6 %.",
+   "refs": [
+    273,
+    274,
+    275,
+    276,
+    265
+   ]
+  },
+  "pronostic": {
+   "texte": "Histoire naturelle non étudiée; soccer : absence médiane 10 jours (antérieur) contre 6 (postérieur), récidive 31 % contre 9 %; retour au sport après chirurgie > 80 %, 10,5 semaines en moyenne; ostéophytes récidivant chez 84 % à 5 ans, sans perte fonctionnelle.",
+   "refs": [
+    258,
+    277,
+    278
+   ]
+  },
+  "refs": [
+   {
+    "n": 258,
+    "texte": "D'Hooghe P et al. KSSTA 2022",
+    "url": null
+   },
+   {
+    "n": 259,
+    "texte": "Tol JL et al. Am J Sports Med 2002",
+    "url": null
+   },
+   {
+    "n": 260,
+    "texte": "Ráfare AL et al. Surgical and Radiol… 2024",
+    "url": null
+   },
+   {
+    "n": 29,
+    "texte": "Ferkel RD et al. Foot Ankle Int 2010",
+    "url": null
+   },
+   {
+    "n": 261,
+    "texte": "Murawski CD et al. Am J Sports Med 2010",
+    "url": null
+   },
+   {
+    "n": 262,
+    "texte": "Berberian WS et al. Foot Ankle Int 2001",
+    "url": null
+   },
+   {
+    "n": 263,
+    "texte": "Giannini S et al. Foot Ankle Int 2013",
+    "url": null
+   },
+   {
+    "n": 264,
+    "texte": "Liu SH et al. Am J Sports Med 1997",
+    "url": null
+   },
+   {
+    "n": 245,
+    "texte": "Smyth NA et al. Am J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 265,
+    "texte": "Zwiers R et al. Am J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 266,
+    "texte": "Calder JD et al. Am J Sports Med 2010",
+    "url": null
+   },
+   {
+    "n": 267,
+    "texte": "Zbojniewicz AM Pediatr Radiol 2019",
+    "url": null
+   },
+   {
+    "n": 268,
+    "texte": "Georgiannos D et al. Am J Sports Med 2017",
+    "url": null
+   },
+   {
+    "n": 269,
+    "texte": "Maquirriain J JAAOS 2005",
+    "url": null
+   },
+   {
+    "n": 270,
+    "texte": "Tol JL et al. Foot Ankle Int 2004",
+    "url": null
+   },
+   {
+    "n": 271,
+    "texte": "Farooki S et al. Radiology 1998",
+    "url": null
+   },
+   {
+    "n": 176,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": null
+   },
+   {
+    "n": 272,
+    "texte": "Cochet H et al. AJR 2010",
+    "url": null
+   },
+   {
+    "n": 273,
+    "texte": "Hedrick MR et al. Foot Ankle Int 1994",
+    "url": null
+   },
+   {
+    "n": 274,
+    "texte": "Cengiz B et al. JAPMA 2023",
+    "url": null
+   },
+   {
+    "n": 275,
+    "texte": "Grice J et al. Foot Ankle Int 2017",
+    "url": null
+   },
+   {
+    "n": 276,
+    "texte": "Gianakos AL et al. Am J Sports Med 2021",
+    "url": null
+   },
+   {
+    "n": 277,
+    "texte": "Hamberger MA et al. BMC Musculoskelet D… 2025",
+    "url": null
+   },
+   {
+    "n": 278,
+    "texte": "Walsh SJ et al. Am J Sports Med 2014",
+    "url": null
+   }
+  ],
+  "planche": "ch14.webp"
+ },
+ {
+  "no": "Ch15",
+  "page": 15,
+  "tags": "CHEVILLE · PARESTHÉSIES PLANTAIRES · COMPRESSION DU NERF TIBIAL",
+  "titre": "SYNDROME DU TUNNEL TARSIEN",
+  "epidemiologie": {
+   "texte": "Incidence inconnue; 56 % de femmes, 14–80 ans (164 patients); cause identifiée dans 60–80 % des cas; série chirurgicale : varices 18,9 %, kyste ou masse 11,3 %, idiopathique 66 %.",
+   "refs": [
+    279,
+    280,
+    281
+   ]
+  },
+  "presentation": {
+   "texte": "Brûlures, picotements ou engourdissement plantaires, pires à l'activité et en fin de journée, souvent nocturnes, soulagés au repos; irradiation possible au mollet; coussinet du talon habituellement épargné.",
+   "refs": [
+    279,
+    282,
+    281,
+    283
+   ]
+  },
+  "examen": {
+   "texte": "Tinel rétro-malléolaire : Se médiane 78,5 % (étendue 1–100 %), Sp non rapportée; dorsiflexion-éversion : positif dans 36 pieds opérés sur 44, 0 sur 100 témoins; symptômes bilatéraux en chaussette : polyneuropathie; lombalgie : radiculopathie S1.",
+   "refs": [
+    284,
+    285,
+    280,
+    286
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Nerf tibial fixé dans un tunnel ostéo-fibreux sous le rétinaculum des fléchisseurs; une petite masse ou une traction suffit; pression du tunnel accrue en éversion et en inversion.",
+   "refs": [
+    287,
+    288
+   ]
+  },
+  "ddx": {
+   "texte": "Fasciite plantaire, radiculopathie S1, polyneuropathie, névrome de Morton, arthrite inflammatoire; neuropathie de Baxter (nerf calcanéen inférieur).",
+   "refs": [
+    279,
+    289,
+    290
+   ]
+  },
+  "investigations": {
+   "texte": "Études de conduction nerveuse après exclusion d'une polyneuropathie (niveau C); Se : conduction sensitive 84 %, motrice 57 %, Sp non rapportée; un test négatif n'exclut pas; IRM anormale dans 88 % des pieds symptomatiques; échographie normale chez environ le tiers.",
+   "refs": [
+    291,
+    284,
+    281,
+    287,
+    290
+   ]
+  },
+  "traitement": {
+   "texte": "Orthèse plantaire, modification des activités, AINS, médicaments de la douleur neuropathique pendant 3–6 mois, aucun essai randomisé; infiltration de corticostéroïde : aucun essai, 6 patients sur 9 soulagés; décompression : bons résultats 44–91 % selon les séries, meilleurs si lésion occupant l'espace.",
+   "refs": [
+    280,
+    281,
+    292,
+    293,
+    279,
+    294
+   ]
+  },
+  "pronostic": {
+   "texte": "Histoire naturelle non étudiée; après décompression : retour au sport 59–65 %; échec ou récidive 10–20 %; résultats moindres si symptômes > 12 mois ou diabète (RR 1,79 de douleur résiduelle).",
+   "refs": [
+    279,
+    281,
+    295,
+    282
+   ]
+  },
+  "refs": [
+   {
+    "n": 279,
+    "texte": "Cimino WR Foot & Ankle 1990",
+    "url": null
+   },
+   {
+    "n": 280,
+    "texte": "Lau JT et al. Foot Ankle Int 1999",
+    "url": null
+   },
+   {
+    "n": 281,
+    "texte": "Rungprai C et al. Foot Ankle Int 2024",
+    "url": null
+   },
+   {
+    "n": 282,
+    "texte": "Sammarco GJ et al. Foot Ankle Int 2003",
+    "url": null
+   },
+   {
+    "n": 283,
+    "texte": "Farag JI et al. Muscle & Nerve 2025",
+    "url": null
+   },
+   {
+    "n": 284,
+    "texte": "Boers N et al. JBJS Reviews 2026",
+    "url": null
+   },
+   {
+    "n": 285,
+    "texte": "Kinoshita M et al. JBJS 2001",
+    "url": null
+   },
+   {
+    "n": 286,
+    "texte": "Chimutengwende-Gordon M et al. Foot Ankle Int 2010",
+    "url": null
+   },
+   {
+    "n": 287,
+    "texte": "Frey C et al. Foot & Ankle 1993",
+    "url": null
+   },
+   {
+    "n": 288,
+    "texte": "Trepman E et al. Foot Ankle Int 1999",
+    "url": null
+   },
+   {
+    "n": 289,
+    "texte": "Yammine K et al. Surgical and Radiol… 2022",
+    "url": null
+   },
+   {
+    "n": 290,
+    "texte": "Swanson TL et al. Curr Rev Musculoske… 2026",
+    "url": null
+   },
+   {
+    "n": 291,
+    "texte": "Patel AT et al. Muscle & Nerve 2005",
+    "url": null
+   },
+   {
+    "n": 292,
+    "texte": "Urits I et al. Pain and Therapy 2020",
+    "url": null
+   },
+   {
+    "n": 293,
+    "texte": "Pfeiffer WH et al. JBJS 1994",
+    "url": null
+   },
+   {
+    "n": 294,
+    "texte": "Lalevée M et al. J Foot Ankle Surg 2022",
+    "url": null
+   },
+   {
+    "n": 295,
+    "texte": "Novotny DA et al. Foot Ankle Int 1996",
+    "url": null
+   }
+  ],
+  "planche": "ch15.webp"
+ },
+ {
+  "no": "Ch16",
+  "page": 16,
+  "tags": "CHEVILLE · DOULEUR POSTÉRIEURE BRUTALE À LA PROPULSION · HOMMES DE 30–49 ANS",
+  "titre": "RUPTURE DU TENDON D'ACHILLE",
+  "epidemiologie": {
+   "texte": "15,7 par 100 000 p-a, 3,18 hommes pour 1 femme, pic à 30–49 ans, environ 68 % au sport; Ontario : 29,3 par 100 000 p-a, âge médian 44 ans; fluoroquinolones : RC 2,52; avec corticostéroïdes : RC 6,64; corticostéroïdes oraux ≥ 10 mg/jour : RC 4,05.",
+   "refs": [
+    296,
+    297,
+    40,
+    298,
+    299
+   ]
+  },
+  "presentation": {
+   "texte": "Claquement ou sensation de coup de pied au mollet à la propulsion; douleur s'atténuant en quelques heures; faiblesse en flexion plantaire, boiterie, montée sur la pointe impossible.",
+   "refs": [
+    300,
+    301
+   ]
+  },
+  "examen": {
+   "texte": "Compression du mollet (Thompson) : Se 96 %, Sp 93 %, RV+ 13,71, RV− 0,04; Matles : Se 88 %, Sp 85 %; défaut palpable : Se 73 %, Sp 89 %; ≥ 2 signes positifs dans toutes les ruptures confirmées; erreur médicale initiale 1–3 % (cohorte récente).",
+   "refs": [
+    130,
+    44,
+    302
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Rupture à 5–8 cm de l'insertion à l'IRM; douleur d'Achille préalable chez 23,3 %; poussée avec genou en extension ou dorsiflexion brusque; fluoroquinolones et corticostéroïdes : atteinte des ténocytes et du collagène.",
+   "refs": [
+    303,
+    304,
+    64,
+    66
+   ]
+  },
+  "ddx": {
+   "texte": "Lésion du gastrocnémien médial (tennis leg), TVP, entorse de la cheville (erreur la plus fréquente); rupture partielle, avulsion calcanéenne, kyste de Baker rompu.",
+   "refs": [
+    132,
+    305,
+    300,
+    306
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; imagerie de routine jugée inappropriée; l'IRM retarde la chirurgie (12,4 contre 5,6 jours); échographie si doute : Se 94,8 %, Sp 98,7 %; imagerie si examen équivoque, présentation tardive ou suspicion d'avulsion.",
+   "refs": [
+    307,
+    308,
+    305,
+    300
+   ]
+  },
+  "traitement": {
+   "texte": "Chirurgie contre traitement non opératoire : nouvelle rupture 2,3 % contre 3,9 %, complications 4,9 % contre 1,6 %; essai randomisé : fonction identique à 12 mois, nouvelle rupture 0,6 % contre 6,2 %; botte de marche avec appui précoce équivalente au plâtre; PRP équivalent au placebo.",
+   "refs": [
+    309,
+    310,
+    311,
+    312
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport 80 %, environ 4 sur 10 au niveau antérieur à 1 an; force de flexion plantaire réduite de 12–18 % à 14 ans; thromboembolie veineuse symptomatique 3,6 % à 90 jours.",
+   "refs": [
+    313,
+    314,
+    315,
+    316
+   ]
+  },
+  "refs": [
+   {
+    "n": 296,
+    "texte": "Kotsifaki R et al. Sports Med 2026",
+    "url": null
+   },
+   {
+    "n": 297,
+    "texte": "Sheth U et al. The Bone & Joint Jo… 2017",
+    "url": null
+   },
+   {
+    "n": 40,
+    "texte": "Alves C et al. European Journal of… 2019",
+    "url": null
+   },
+   {
+    "n": 298,
+    "texte": "Persson R et al. British Journal of… 2019",
+    "url": null
+   },
+   {
+    "n": 299,
+    "texte": "Spoendlin J et al. Annals of Medicine 2015",
+    "url": null
+   },
+   {
+    "n": 300,
+    "texte": "Gross CE et al. Foot Ankle Int 2016",
+    "url": null
+   },
+   {
+    "n": 301,
+    "texte": "Chiodo CP et al. Foot Ankle Int 2006",
+    "url": null
+   },
+   {
+    "n": 130,
+    "texte": "Maffulli N Am J Sports Med 1998",
+    "url": null
+   },
+   {
+    "n": 44,
+    "texte": "Reiman M et al. J Athl Train 2014",
+    "url": null
+   },
+   {
+    "n": 302,
+    "texte": "Nilsson N et al. BMC Musculoskelet D… 2026",
+    "url": null
+   },
+   {
+    "n": 303,
+    "texte": "Park YH et al. Am J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 304,
+    "texte": "Briggs-Price S et al. PloS One 2024",
+    "url": null
+   },
+   {
+    "n": 64,
+    "texte": "Heckman DS et al. Am J Sports Med 2009",
+    "url": null
+   },
+   {
+    "n": 66,
+    "texte": "Schepsis AA et al. Am J Sports Med 2002",
+    "url": null
+   },
+   {
+    "n": 132,
+    "texte": "Delgado GJ et al. Radiology 2002",
+    "url": null
+   },
+   {
+    "n": 305,
+    "texte": "Aminlari A et al. The Journal of Emer… 2021",
+    "url": null
+   },
+   {
+    "n": 306,
+    "texte": "Godoy IRB et al. Skeletal Radiol 2026",
+    "url": null
+   },
+   {
+    "n": 307,
+    "texte": "Naldo J et al. J Foot Ankle Surg 2021",
+    "url": null
+   },
+   {
+    "n": 308,
+    "texte": "Garras DN et al. Clin Orthop Relat Res 2012",
+    "url": null
+   },
+   {
+    "n": 309,
+    "texte": "Ochen Y et al. BMJ (Clinical Resea… 2019",
+    "url": null
+   },
+   {
+    "n": 310,
+    "texte": "Myhrvold SB et al. NEJM 2022",
+    "url": null
+   },
+   {
+    "n": 311,
+    "texte": "Costa ML et al. Lancet 2020",
+    "url": null
+   },
+   {
+    "n": 312,
+    "texte": "Keene DJ et al. BMJ (Clinical Resea… 2019",
+    "url": null
+   },
+   {
+    "n": 313,
+    "texte": "Zellers JA et al. Br J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 314,
+    "texte": "Barfod KW et al. NEJM 2022",
+    "url": null
+   },
+   {
+    "n": 315,
+    "texte": "Heikkinen J et al. JBJS 2017",
+    "url": null
+   },
+   {
+    "n": 316,
+    "texte": "Oliver WM et al. Injury 2022",
+    "url": null
+   }
+  ],
+  "planche": "ch16.webp"
+ },
+ {
+  "no": "Ch17",
+  "page": 17,
+  "tags": "CHEVILLE · TRAUMATISME AIGU AVEC DOULEUR OSSEUSE · TORSION OU CHUTE",
+  "titre": "FRACTURE DE LA CHEVILLE OU DU MÉDIO-PIED (RÈGLES D'OTTAWA)",
+  "epidemiologie": {
+   "texte": "164 par 100 000 p-a (hommes 154, femmes 203); chez la femme : de 83 (30–39 ans) à 319 (60–69 ans); fracture dans moins de 15 % des traumatismes de la cheville; type B : environ deux tiers.",
+   "refs": [
+    317,
+    318,
+    319,
+    11
+   ]
+  },
+  "presentation": {
+   "texte": "Torsion ou chute de faible énergie; base du 5e métatarsien : avulsion en inversion (zone 1).",
+   "refs": [
+    320,
+    321,
+    322
+   ]
+  },
+  "examen": {
+   "texte": "Règles d'Ottawa : radiographie si sensibilité osseuse postérieure ou distale d'une malléole (6 cm distaux), de la base du 5e métatarsien ou du naviculaire, ou 4 pas impossibles immédiatement et à l'examen; diapason : Se 75–100 %, Sp 18–95 %; palper toute la fibula.",
+   "refs": [
+    323,
+    8,
+    324,
+    325
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Stabilité selon l'intégrité du deltoïde profond et l'alignement du talus sous le tibia; Weber A 9 %, B 58 %, C 33 % (séries opérées); lésion de la syndesmose dans jusqu'à 13 %.",
+   "refs": [
+    320,
+    326,
+    186,
+    327
+   ]
+  },
+  "ddx": {
+   "texte": "Entorse; lésion de Lisfranc (environ 20 % manquées au départ); fracture de Maisonneuve; fracture occulte de la malléole latérale à la TDM (5 sur 21); apophyse non fusionnée du 5e métatarsien chez l'adolescent.",
+   "refs": [
+    322,
+    325,
+    328,
+    329
+   ]
+  },
+  "investigations": {
+   "texte": "Ottawa : Se 99,4 %, Sp 35,3 %, RV− 0,08, probabilité de fracture < 1,4 % si négatives, radiographies réduites de 30–40 %; enfants > 5 ans : Se 98,5 %; moins fiables si démence ou neuropathie; espace clair médial ≥ 6 mm : instable.",
+   "refs": [
+    10,
+    11,
+    330,
+    8,
+    331
+   ]
+  },
+  "traitement": {
+   "texte": "Weber B stable : orthèse 3 semaines non inférieure au plâtre 6 semaines; > 60 ans, instable : plâtre moulé équivalent à la chirurgie, infection ou plaie 1 % contre 10 %, cal vicieux 15 % contre 3 %; appui à 2 semaines après chirurgie non inférieur; thromboprophylaxie sans bénéfice.",
+   "refs": [
+    332,
+    333,
+    334,
+    335
+   ]
+  },
+  "pronostic": {
+   "texte": "Consolidation en environ 6 semaines; fonction 78,3 sur 100 à 6 mois, 86,6 à 24 mois; retour au travail médian 54–69 jours après chirurgie; arthrose avancée 36,3 % à 17,9 ans; infection postopératoire 1,44 %, diabète compliqué RC 2,30.",
+   "refs": [
+    320,
+    336,
+    337,
+    186,
+    338
+   ]
+  },
+  "refs": [
+   {
+    "n": 317,
+    "texte": "Gundtoft PH et al. Acta Orthopaedica 2025",
+    "url": null
+   },
+   {
+    "n": 318,
+    "texte": "Juto H et al. BMC Musculoskelet D… 2018",
+    "url": null
+   },
+   {
+    "n": 319,
+    "texte": "Jia CQ et al. European Journal of… 2025",
+    "url": null
+   },
+   {
+    "n": 11,
+    "texte": "Bachmann LM et al. BMJ (Clinical Resea… 2003",
+    "url": null
+   },
+   {
+    "n": 320,
+    "texte": "Sharon R Lewis et al. Cochrane 2024",
+    "url": null
+   },
+   {
+    "n": 321,
+    "texte": "Anne Neubert et al. Cochrane 2021",
+    "url": null
+   },
+   {
+    "n": 322,
+    "texte": "Silver S et al. Am Fam Physician 2024",
+    "url": null
+   },
+   {
+    "n": 323,
+    "texte": "Moseley M et al. Pediatr Rev 2022",
+    "url": null
+   },
+   {
+    "n": 8,
+    "texte": "Wu V et al. Am Fam Physician 2025",
+    "url": null
+   },
+   {
+    "n": 324,
+    "texte": "Mugunthan K et al. BMJ Open 2014",
+    "url": null
+   },
+   {
+    "n": 325,
+    "texte": "Taweel NR et al. The Journal of Emer… 2013",
+    "url": null
+   },
+   {
+    "n": 326,
+    "texte": "van Leeuwen CAT et al. Eur J Trauma Emerg… 2022",
+    "url": null
+   },
+   {
+    "n": 186,
+    "texte": "Lübbeke A et al. International Ortho… 2012",
+    "url": null
+   },
+   {
+    "n": 327,
+    "texte": "Kim GB et al. Foot Ankle Int 2021",
+    "url": null
+   },
+   {
+    "n": 328,
+    "texte": "Wang X et al. PloS One 2013",
+    "url": null
+   },
+   {
+    "n": 329,
+    "texte": "Burge AJ et al. Sports Health 2012",
+    "url": null
+   },
+   {
+    "n": 10,
+    "texte": "Beckenkamp PR et al. Br J Sports Med 2017",
+    "url": null
+   },
+   {
+    "n": 330,
+    "texte": "Dowling S et al. Acad Emerg Med 2009",
+    "url": null
+   },
+   {
+    "n": 331,
+    "texte": "Zonneveld I et al. Eur J Trauma Emerg… 2024",
+    "url": null
+   },
+   {
+    "n": 332,
+    "texte": "Kortekangas T et al. BMJ (Clinical Resea… 2019",
+    "url": null
+   },
+   {
+    "n": 333,
+    "texte": "Willett K et al. JAMA 2016",
+    "url": null
+   },
+   {
+    "n": 334,
+    "texte": "Bretherton CP et al. Lancet 2024",
+    "url": null
+   },
+   {
+    "n": 335,
+    "texte": "van Adrichem RA et al. NEJM 2017",
+    "url": null
+   },
+   {
+    "n": 336,
+    "texte": "Beckenkamp PR et al. JOSPT 2014",
+    "url": null
+   },
+   {
+    "n": 337,
+    "texte": "Obremskey WT et al. Journal of Orthopae… 2026",
+    "url": null
+   },
+   {
+    "n": 338,
+    "texte": "SooHoo NF et al. JBJS 2009",
+    "url": null
+   }
+  ],
+  "planche": "ch17.webp"
+ },
+ {
+  "no": "Ch18",
+  "page": 18,
+  "tags": "JAMBE · DOULEUR OSSEUSE FOCALE À L'EFFORT · COUREURS ET RECRUES MILITAIRES",
+  "titre": "FRACTURE DE STRESS DU TIBIA OU DE LA FIBULA",
+  "epidemiologie": {
+   "texte": "Athlètes : ≤ 5 % par an; recrues : 5–10 % en 2–3 mois; tibia : 46–49 % des fractures de stress; femmes : RC 2,31; antécédent de fracture de stress : RC 4,99; cortex antérieur : 5–15 % des fractures tibiales.",
+   "refs": [
+    339,
+    340,
+    341,
+    342,
+    343
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur focale graduelle à l'effort, 4–6 semaines après un changement d'entraînement; ne s'atténue pas à l'échauffement; douleur au repos ou nocturne si lésion avancée.",
+   "refs": [
+    339
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité osseuse focale (65,9 % des cas), bande sensible ≤ 10 cm; saut monopodal : Se 100 %, Sp 45 %; diapason : Se 35–92 %, Sp 19–83 %; ultrason thérapeutique : Se 64 %, Sp 63 %; sensibilité diffuse ≥ 5 cm : périostite.",
+   "refs": [
+    344,
+    345,
+    339,
+    346,
+    89
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Microdommages par charges répétées dépassant le remodelage; postéro-médiale : côté compression, guérit au repos; cortex antérieur : côté tension, peu vascularisé, retard de consolidation; déficit énergétique et hypo-œstrogénie.",
+   "refs": [
+    347,
+    348,
+    349,
+    350,
+    351
+   ]
+  },
+  "ddx": {
+   "texte": "Périostite tibiale, syndrome compartimental chronique d'effort, tendinopathie du tibial postérieur; tumeur (ostéome ostéoïde), ostéomyélite.",
+   "refs": [
+    89,
+    88,
+    339,
+    352
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie d'abord : Se 12–56 %, Sp 88–96 %, Se 30–70 % après 10–14 jours; IRM si négative : Se 68–99 %; l'IRM remplace la scintigraphie; 25(OH)D pour tous, ostéodensitométrie si déficit énergétique ou fracture à haut risque.",
+   "refs": [
+    353,
+    347,
+    354,
+    355
+   ]
+  },
+  "traitement": {
+   "texte": "Repos relatif (douleur ≤ 3/10); orthèse pneumatique : retour 33 jours plus tôt, essais hétérogènes; ultrasons pulsés sans bénéfice; calcium et vitamine D : 20 % moins de fractures chez des recrues féminines; risédronate inefficace en prévention; cortex antérieur : enclouage, retour 100 % en 19,7 semaines.",
+   "refs": [
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport : tibia postéro-médial 44 jours, fibula 56 jours; selon le grade IRM : 41,7 jours (grade 1) à 98,5 jours (grade 4); cortex antérieur, repos seul : 40 % de retour complet; récidive : environ 1 athlète sur 5.",
+   "refs": [
+    363,
+    364,
+    343,
+    365
+   ]
+  },
+  "refs": [
+   {
+    "n": 339,
+    "texte": "Hoenig T et al. Nature Reviews 2022",
+    "url": null
+   },
+   {
+    "n": 340,
+    "texte": "Bennell KL et al. Am J Sports Med 1996",
+    "url": null
+   },
+   {
+    "n": 341,
+    "texte": "Boden BP et al. Am J Sports Med 2001",
+    "url": null
+   },
+   {
+    "n": 342,
+    "texte": "Wright AA et al. Br J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 343,
+    "texte": "Chaudhry ZS et al. Am J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 344,
+    "texte": "Nussbaum ED et al. Sports Health 2021",
+    "url": null
+   },
+   {
+    "n": 345,
+    "texte": "Milgrom C et al. Journal of Science… 2021",
+    "url": null
+   },
+   {
+    "n": 346,
+    "texte": "Schneiders AG et al. JOSPT 2012",
+    "url": null
+   },
+   {
+    "n": 89,
+    "texte": "Burrus MT et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 347,
+    "texte": "Morrison WB et al. Journal of the Amer… 2024",
+    "url": null
+   },
+   {
+    "n": 348,
+    "texte": "O'Leary TJ et al. Current Osteoporosi… 2021",
+    "url": null
+   },
+   {
+    "n": 349,
+    "texte": "Varner KE et al. Am J Sports Med 2005",
+    "url": null
+   },
+   {
+    "n": 350,
+    "texte": "Zbeda RM et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 351,
+    "texte": "Mallinson RJ et al. Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 88,
+    "texte": "Millar AN et al. Curr Rev Musculoske… 2026",
+    "url": null
+   },
+   {
+    "n": 352,
+    "texte": "Nye NS et al. Sports Health 2016",
+    "url": null
+   },
+   {
+    "n": 353,
+    "texte": "Wright AA et al. Am J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 354,
+    "texte": "Nye NS et al. Sports Health 2026",
+    "url": null
+   },
+   {
+    "n": 355,
+    "texte": "Williams NI et al. Sports Med 2026",
+    "url": null
+   },
+   {
+    "n": 356,
+    "texte": "Schroeder JD et al. Am Fam Physician 2024",
+    "url": null
+   },
+   {
+    "n": 357,
+    "texte": "Keith Rome et al. Cochrane 2005",
+    "url": null
+   },
+   {
+    "n": 358,
+    "texte": "Henry KC Searle et al. Cochrane 2023",
+    "url": null
+   },
+   {
+    "n": 359,
+    "texte": "Gan TY et al. Clin J Sport Med 2014",
+    "url": null
+   },
+   {
+    "n": 360,
+    "texte": "Lappe J et al. Journal of Bone and… 2008",
+    "url": null
+   },
+   {
+    "n": 361,
+    "texte": "Milgrom C et al. Bone 2004",
+    "url": null
+   },
+   {
+    "n": 362,
+    "texte": "Randall ZD et al. Arch Orthop Trauma… 2025",
+    "url": null
+   },
+   {
+    "n": 363,
+    "texte": "Hoenig T et al. Br J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 364,
+    "texte": "Hoenig T et al. Am J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 365,
+    "texte": "Popp KL et al. Am J Sports Med 2021",
+    "url": null
+   }
+  ],
+  "planche": "ch18.webp"
+ },
+ {
+  "no": "Ch19",
+  "page": 19,
+  "tags": "JAMBE · FRACTURE FIBULAIRE PROXIMALE ET DOULEUR DE CHEVILLE · TRAUMATISME EN",
+  "titre": "FRACTURE DE MAISONNEUVE",
+  "epidemiologie": {
+   "texte": "0,7–1,6 % des fractures de cheville opérées (données d'assurance américaines), 3,5 % dans une série; âge moyen 48–51 ans, 67 % d'hommes; proportion manquée au départ non chiffrée; cas manqués malgré radiographies de la cheville.",
+   "refs": [
+    366,
+    367,
+    368,
+    325
+   ]
+  },
+  "presentation": {
+   "texte": "Torsion violente en rotation externe, souvent au sport; douleur de cheville marquée, peu de douleur à la fibula proximale; parfois douleur médiale seule.",
+   "refs": [
+    325,
+    369,
+    228
+   ]
+  },
+  "examen": {
+   "texte": "Palper toute la fibula dans tout traumatisme de la cheville pour la sensibilité fibulaire proximale; les règles d'Ottawa n'évaluent pas la fibula proximale.",
+   "refs": [
+    325,
+    367
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Rupture du ligament tibio-fibulaire antérieur constante; rupture du deltoïde 39–50 %; fracture de la malléole médiale 24–37 %; structures médiales intactes 13–18 %; fracture de la malléole postérieure 74–80 %.",
+   "refs": [
+    367,
+    368
+   ]
+  },
+  "ddx": {
+   "texte": "Entorse de la syndesmose sans fracture; fracture Weber B ou C isolée; entorse médiale; « double Maisonneuve » (fractures fibulaires distale et proximale); instabilité tibio-fibulaire proximale.",
+   "refs": [
+    370,
+    371
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies de la jambe complète (face et profil) plus 3 incidences de la cheville; fracture fibulaire invisible de face dans 25 %; TDM recommandée : malléole postérieure visible seulement à la TDM dans 5 %.",
+   "refs": [
+    367,
+    368
+   ]
+  },
+  "traitement": {
+   "texte": "Orientation en orthopédie; fixation de la syndesmose (1–2 vis) sans fixation de la fibula proximale : 89 % de bons ou excellents résultats (83 patients); traitement non opératoire chez 16 % dans une série; malréduction de la syndesmose 32 % (toutes causes).",
+   "refs": [
+    372,
+    368,
+    373
+   ]
+  },
+  "pronostic": {
+   "texte": "À 21 ans : 92 % de bons ou excellents résultats, arthrose radiographique 49 % sans corrélation avec la douleur; 86 % de résultats satisfaisants à 25 mois.",
+   "refs": [
+    374,
+    369
+   ]
+  },
+  "refs": [
+   {
+    "n": 366,
+    "texte": "Vanderkarr MF et al. BMC Musculoskelet D… 2022",
+    "url": null
+   },
+   {
+    "n": 367,
+    "texte": "Bartoníček J et al. Arch Orthop Trauma… 2019",
+    "url": null
+   },
+   {
+    "n": 368,
+    "texte": "Tuček M et al. Eur J Trauma Emerg… 2024",
+    "url": null
+   },
+   {
+    "n": 325,
+    "texte": "Taweel NR et al. The Journal of Emer… 2013",
+    "url": null
+   },
+   {
+    "n": 369,
+    "texte": "Sproule JA et al. Injury 2004",
+    "url": null
+   },
+   {
+    "n": 228,
+    "texte": "Lock TR et al. Ann Emerg Med 1987",
+    "url": null
+   },
+   {
+    "n": 370,
+    "texte": "Kašper Š et al. Eur J Trauma Emerg… 2022",
+    "url": null
+   },
+   {
+    "n": 371,
+    "texte": "Hirschmann MT et al. KSSTA 2008",
+    "url": null
+   },
+   {
+    "n": 372,
+    "texte": "Stufkens SA et al. J Foot Ankle Surg 2011",
+    "url": null
+   },
+   {
+    "n": 373,
+    "texte": "Andersen MR et al. Journal of Orthopae… 2019",
+    "url": null
+   },
+   {
+    "n": 374,
+    "texte": "Lambers KT et al. JBJS 2013",
+    "url": null
+   }
+  ],
+  "planche": "ch19.webp"
+ },
+ {
+  "no": "Ch20",
+  "page": 20,
+  "tags": "CHEVILLE · DOULEUR PROFONDE PERSISTANTE · SÉQUELLE D'ENTORSE OU DE FRACTURE",
+  "titre": "LÉSION OSTÉOCHONDRALE DU TALUS",
+  "epidemiologie": {
+   "texte": "Lésion chondrale ou ostéochondrale dans 14 % des entorses aiguës d'athlètes à l'IRM et 45 % des fractures de cheville; médiale 62 %, latérale 34 %; âge moyen 43 ans; jusqu'à 38 % des lésions médiales sans traumatisme.",
+   "refs": [
+    375,
+    376,
+    377,
+    378
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur profonde à l'appui ou après, œdème, raideur; blocage moins fréquent; douleur persistante après une entorse qui « aurait dû guérir »; délai diagnostique de 4 mois à 2 ans.",
+   "refs": [
+    379,
+    380,
+    381
+   ]
+  },
+  "examen": {
+   "texte": "Aucun test validé; sensibilité de l'interligne antérieur, cheville en flexion plantaire, sans valeur localisatrice; évaluer laxité et alignement; anamnèse, examen et radiographie inférieurs à la TDM et à l'IRM.",
+   "refs": [
+    382,
+    379,
+    383,
+    378
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Impaction ou cisaillement aigus, ou microtraumatismes (instabilité chronique); latérales : inversion-dorsiflexion, superficielles; médiales : inversion-flexion plantaire, profondes; liquide synovial sous pression dans l'os sous-chondral : kystes et douleur.",
+   "refs": [
+    384,
+    385,
+    386
+   ]
+  },
+  "ddx": {
+   "texte": "Conflit des tissus mous ou osseux, lésion de la syndesmose, coalition tarsienne, instabilité, arthrose, fracture aiguë ou de stress.",
+   "refs": [
+    379
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : 30 % des lésions visibles à l'IRM manquées; IRM : Se 96 %, Sp 96 %; TDM : Se 81 %, Sp 99 %; IRM si douleur persistante après entorse; TDM pour mesurer la lésion.",
+   "refs": [
+    387,
+    176,
+    384,
+    379
+   ]
+  },
+  "traitement": {
+   "texte": "Non opératoire 3–6 mois : succès 45 % (IC 95 % 40– 50); microfractures : succès 85 %; lésion < 150 mm² : succès 89,5 %; ≥ 150 mm² : échec 80 %; autogreffe ostéochondrale : 87,4 % de bons résultats, morbidité du site donneur 3,6 %.",
+   "refs": [
+    388,
+    384,
+    389,
+    390,
+    391
+   ]
+  },
+  "pronostic": {
+   "texte": "Sans chirurgie : progression de l'arthrose 9 %; après microfractures : retour au sport 86,8 % en 4,5 mois, 53 % au niveau antérieur à 6,4 ans; survie sans révision 82 % à 10 ans; dégénérescence progressive 28 % à ≥ 8 ans.",
+   "refs": [
+    388,
+    392,
+    393,
+    394,
+    395
+   ]
+  },
+  "refs": [
+   {
+    "n": 375,
+    "texte": "Baltes TPA et al. Am J Sports Med 2025",
+    "url": null
+   },
+   {
+    "n": 376,
+    "texte": "Martijn HA et al. KSSTA 2021",
+    "url": null
+   },
+   {
+    "n": 377,
+    "texte": "Raikin SM et al. Foot Ankle Int 2007",
+    "url": null
+   },
+   {
+    "n": 378,
+    "texte": "Kraeutler MJ et al. Foot Ankle Int 2017",
+    "url": null
+   },
+   {
+    "n": 379,
+    "texte": "Wodicka R et al. Foot Ankle Int 2016",
+    "url": null
+   },
+   {
+    "n": 380,
+    "texte": "van Bergen CJA et al. Foot Ankle Int 2018",
+    "url": null
+   },
+   {
+    "n": 381,
+    "texte": "Ferkel RD et al. Am J Sports Med 2008",
+    "url": null
+   },
+   {
+    "n": 382,
+    "texte": "Barbier O OTSR 2023",
+    "url": null
+   },
+   {
+    "n": 383,
+    "texte": "O'Loughlin PF et al. Am J Sports Med 2010",
+    "url": null
+   },
+   {
+    "n": 384,
+    "texte": "McGahan PJ et al. Foot Ankle Int 2010",
+    "url": null
+   },
+   {
+    "n": 385,
+    "texte": "David Loveday et al. Cochrane 2010",
+    "url": null
+   },
+   {
+    "n": 386,
+    "texte": "Carlson MJ et al. Am J Sports Med 2020",
+    "url": null
+   },
+   {
+    "n": 387,
+    "texte": "Hepple S et al. Foot Ankle Int 1999",
+    "url": null
+   },
+   {
+    "n": 176,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": null
+   },
+   {
+    "n": 388,
+    "texte": "Buck TMF et al. KSSTA 2023",
+    "url": null
+   },
+   {
+    "n": 389,
+    "texte": "Zengerink M et al. KSSTA 2010",
+    "url": null
+   },
+   {
+    "n": 390,
+    "texte": "Walley KC et al. Foot Ankle Int 2018",
+    "url": null
+   },
+   {
+    "n": 391,
+    "texte": "Shimozono Y et al. KSSTA 2018",
+    "url": null
+   },
+   {
+    "n": 392,
+    "texte": "Hurley ET et al. KSSTA 2019",
+    "url": null
+   },
+   {
+    "n": 393,
+    "texte": "Lambers KTA et al. KSSTA 2021",
+    "url": null
+   },
+   {
+    "n": 394,
+    "texte": "Rikken QGH et al. JBJS 2024",
+    "url": null
+   },
+   {
+    "n": 395,
+    "texte": "Rikken QGH et al. KSSTA 2021",
+    "url": null
+   }
+  ],
+  "planche": "ch20.webp"
+ },
+ {
+  "no": "Ch21",
+  "page": 21,
+  "tags": "CHEVILLE · MONOARTHRITE AIGUË · ARTHRITE MICROCRISTALLINE",
+  "titre": "GOUTTE OU ARTHRITE À PYROPHOSPHATE DE LA CHEVILLE",
+  "epidemiologie": {
+   "texte": "Goutte : 3,8 % en Colombie-Britannique, aucune donnée propre au Québec repérée; 2–4 hommes pour 1 femme; cheville 15 %, médio-pied 20 %, première MTP 66 %; obésité RR 2,24, diurétiques RR 2,39; chondrocalcinose : 7–13,7 % vers 60 ans, environ 50 % après 80 ans.",
+   "refs": [
+    396,
+    397,
+    398,
+    399,
+    400
+   ]
+  },
+  "presentation": {
+   "texte": "Goutte : douleur maximale en moins de 24 h, souvent nocturne, érythème, sensibilité extrême; pyrophosphate : sujets âgés (souvent > 70 ans), fièvre fréquente, crises de plusieurs semaines.",
+   "refs": [
+    397,
+    400,
+    401
+   ]
+  },
+  "examen": {
+   "texte": "Règle de Janssens : ≤ 4 points exclut la goutte (valeur prédictive négative 97 %); ≥ 8 : goutte chez plus de 80 %; entre 4 et 8 : ponction; arthrite septique : fièvre Se 57 % seulement, aucun signe discriminant.",
+   "refs": [
+    402,
+    403,
+    404,
+    405
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Cristaux d'urate monosodique au-delà de la saturation (environ 6,8 mg/dL); activation de l'inflammasome NLRP3, libération d'IL-1β, afflux de neutrophiles; pyrophosphate : même voie; vieillissement, hyperparathyroïdie, hémochromatose, hypomagnésémie.",
+   "refs": [
+    406,
+    397,
+    400
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrite septique : environ 18 % des monoarthrites aiguës à l'urgence; cristaux et infection coexistent dans 1,5 % des liquides; cellulite; pied de Charcot (pris pour une cellulite dans près du tiers des cas); arthrite psoriasique ou réactionnelle.",
+   "refs": [
+    405,
+    407,
+    408,
+    409,
+    397
+   ]
+  },
+  "investigations": {
+   "texte": "Ponction si infection possible : cristaux d'urate Sp 100 %; leucocytes synoviaux > 50 000 : RV+ 7,7; < 25 000 : RV 0,32; uricémie normale en crise chez jusqu'à 42 %; double contour à l'échographie : Se 74 %, Sp 88 %; chondrocalcinose radiographique : Se 47 %, Sp 95 %.",
+   "refs": [
+    410,
+    405,
+    411,
+    412,
+    413
+   ]
+  },
+  "traitement": {
+   "texte": "Goutte : colchicine à faible dose, AINS ou corticostéroïde, sans hiérarchie; colchicine 1,8 mg aussi efficace que 4,8 mg, diarrhée 23 % contre 77 %; allopurinol si ≥ 2 crises par an ou tophus, cible < 360 µmol/L; pyrophosphate : colchicine équivalente à la prednisone.",
+   "refs": [
+    414,
+    415,
+    416,
+    417
+   ]
+  },
+  "pronostic": {
+   "texte": "Goutte non traitée : résolution en 7–14 jours; récidive 60 % à 1 an, 78 % à 2 ans (cohorte historique); uricémie < 360 µmol/L : environ 5 % de crises à 1 an contre 10–15 %; pyrophosphate : crise jusqu'à 3–4 semaines, récidive 11,4 par 100 p-a.",
+   "refs": [
+    397,
+    418,
+    415,
+    400
+   ]
+  },
+  "refs": [
+   {
+    "n": 396,
+    "texte": "Rai SK et al. Arthritis Rheum 2017",
+    "url": null
+   },
+   {
+    "n": 397,
+    "texte": "Dalbeth N et al. Lancet 2021",
+    "url": null
+   },
+   {
+    "n": 398,
+    "texte": "Rome K et al. Arthritis Care Res 2012",
+    "url": null
+   },
+   {
+    "n": 399,
+    "texte": "Evans PL et al. Arthritis Research… 2018",
+    "url": null
+   },
+   {
+    "n": 400,
+    "texte": "Pascart T et al. The Lancet 2024",
+    "url": null
+   },
+   {
+    "n": 401,
+    "texte": "Rosenthal AK et al. NEJM 2016",
+    "url": null
+   },
+   {
+    "n": 402,
+    "texte": "Lafforgue A et al. Rheumatology Intern… 2023",
+    "url": null
+   },
+   {
+    "n": 403,
+    "texte": "Janssens HJ et al. Archives of Interna… 2010",
+    "url": null
+   },
+   {
+    "n": 404,
+    "texte": "Dalbeth N et al. Nature Reviews 2019",
+    "url": null
+   },
+   {
+    "n": 405,
+    "texte": "Margaretten ME et al. JAMA 2007",
+    "url": null
+   },
+   {
+    "n": 406,
+    "texte": "McCormick N et al. JAMA 2024",
+    "url": null
+   },
+   {
+    "n": 407,
+    "texte": "Ian T Ferguson, Christoph…",
+    "url": null
+   },
+   {
+    "n": 408,
+    "texte": "FitzGerald JD Ann Intern Med 2025",
+    "url": null
+   },
+   {
+    "n": 409,
+    "texte": "Dubský M et al. Drugs & Aging 2025",
+    "url": null
+   },
+   {
+    "n": 410,
+    "texte": "Mikuls TR NEJM 2022",
+    "url": null
+   },
+   {
+    "n": 411,
+    "texte": "Kumar M et al. Drugs & Aging 2021",
+    "url": null
+   },
+   {
+    "n": 412,
+    "texte": "Newberry SJ et al. Ann Intern Med 2017",
+    "url": null
+   },
+   {
+    "n": 413,
+    "texte": "Cipolletta E et al. Osteoarthritis Cart… 2021",
+    "url": null
+   },
+   {
+    "n": 414,
+    "texte": "FitzGerald JD et al. Arthritis Care Res 2020",
+    "url": null
+   },
+   {
+    "n": 415,
+    "texte": "Shekelle PG et al. Ann Intern Med 2017",
+    "url": null
+   },
+   {
+    "n": 416,
+    "texte": "FitzGerald JD et al. Arthritis & Rheumat… 2020",
+    "url": null
+   },
+   {
+    "n": 417,
+    "texte": "Pascart T et al. The Lancet 2023",
+    "url": null
+   },
+   {
+    "n": 418,
+    "texte": "Wilson JF Ann Intern Med 2010",
+    "url": null
+   }
+  ],
+  "planche": "ch21.webp"
+ },
+ {
+  "no": "Ch22",
+  "page": 22,
+  "tags": "CHEVILLE · DOULEUR À L'APPUI SANS TRAUMATISME · OSTÉOPOROSE, POLYARTHRITE OU",
+  "titre": "FRACTURE D'INSUFFISANCE (TIBIA DISTAL, FIBULA, CALCANÉUS)",
+  "epidemiologie": {
+   "texte": "Incidence inconnue; 25 fractures tibiales ou fibulaires : 21 femmes, âge moyen 66 ans, polyarthrite rhumatoïde 13, corticostéroïdes 13; ostéoporose chez 83 %; IRM du pied en rhumatologie : 7,5 %; calcanéus du diabétique : avulsions d'insuffisance chez des insulinotraités avec neuropathie.",
+   "refs": [
+    419,
+    420,
+    421,
+    422,
+    423
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur à la mise en charge sans traumatisme ou après traumatisme minime; signes inflammatoires locaux 16 sur 25; diagnostic évoqué à la première visite dans 5 cas sur 25, délai médian 21 jours; prise pour une cellulite ou une thrombophlébite.",
+   "refs": [
+    420,
+    424
+   ]
+  },
+  "examen": {
+   "texte": "Aucune Se/Sp publiée; sensibilité osseuse focale, œdème, chaleur locale; compression médio-latérale du calcanéus : évocatrice, non validée dans cette indication; neuropathie : douleur atténuée.",
+   "refs": [
+    420,
+    60,
+    425
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Contrainte normale sur os anormal; corticostéroïdes : apoptose des ostéoblastes et des ostéocytes; polyarthrite : activation ostéoclastique par RANKL; diabète : neuropathie et résorption osseuse, événement de type Charcot.",
+   "refs": [
+    347,
+    426,
+    427,
+    428,
+    429
+   ]
+  },
+  "ddx": {
+   "texte": "Cellulite, thrombose veineuse profonde; poussée d'arthrite inflammatoire; pied de Charcot; métastase ou fracture pathologique; ostéomalacie; calcanéus : fasciite plantaire, tendinopathie d'Achille; goutte : aucune donnée comparative repérée.",
+   "refs": [
+    424,
+    430,
+    429,
+    431,
+    432,
+    433
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie d'abord, peu sensible au début : 25 % des fractures d'insuffisance du pied détectées; IRM ensuite; fractures simultanées 26 %; ostéodensitométrie et 25(OH)D; calcium, phosphate et phosphatase alcaline si ostéomalacie suspectée.",
+   "refs": [
+    422,
+    347,
+    421,
+    434,
+    432
+   ]
+  },
+  "traitement": {
+   "texte": "Appui protégé environ 8 semaines (botte de marche, béquilles); 19 sur 25 traités sans chirurgie; évaluer le risque (FRAX) et traiter l'ostéoporose selon les seuils canadiens, bisphosphonate en première ligne; tériparatide : aucun essai pour ces sites, sans effet significatif sur la consolidation en méta-analyse.",
+   "refs": [
+    435,
+    420,
+    436,
+    437
+   ]
+  },
+  "pronostic": {
+   "texte": "Consolidation en environ 8 semaines (calcanéus); récupération complète dans la plupart des cas; nouvelle fracture après fracture de fragilité : 7,58 % à 1 an, 11,58 % à 2 ans; après fracture de cheville : environ 5 % à 1 an.",
+   "refs": [
+    435,
+    420,
+    438,
+    439
+   ]
+  },
+  "refs": [
+   {
+    "n": 419,
+    "texte": "Acevedo C et al. Nature Biomedical E… 2018",
+    "url": null
+   },
+   {
+    "n": 420,
+    "texte": "Alonso-Bartolomé P et al. Arthritis Rheum 1999",
+    "url": null
+   },
+   {
+    "n": 421,
+    "texte": "Peris P Rheumatology Intern… 2002",
+    "url": null
+   },
+   {
+    "n": 422,
+    "texte": "Buehring B et al. J Rheumatol 2023",
+    "url": null
+   },
+   {
+    "n": 423,
+    "texte": "Kathol MH et al. Radiology 1991",
+    "url": null
+   },
+   {
+    "n": 424,
+    "texte": "Straaton KV et al. Arthritis Rheum 1991",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Morancie NA et al. Am Fam Physician 2025",
+    "url": null
+   },
+   {
+    "n": 425,
+    "texte": "Kvist AV et al. Diabetes Care 2023",
+    "url": null
+   },
+   {
+    "n": 347,
+    "texte": "Morrison WB et al. Journal of the Amer… 2024",
+    "url": null
+   },
+   {
+    "n": 426,
+    "texte": "Rauner M et al. Nature Reviews 2026",
+    "url": null
+   },
+   {
+    "n": 427,
+    "texte": "Laskou F et al. Current Rheumatolog… 2026",
+    "url": null
+   },
+   {
+    "n": 428,
+    "texte": "Athans W et al. Foot Ankle Int 2008",
+    "url": null
+   },
+   {
+    "n": 429,
+    "texte": "Greenhagen RM et al. J Foot Ankle Surg 2012",
+    "url": null
+   },
+   {
+    "n": 430,
+    "texte": "Ha YJ et al. Arthritis Rheum 2013",
+    "url": null
+   },
+   {
+    "n": 431,
+    "texte": "Krestan C et al. European Journal of… 2009",
+    "url": null
+   },
+   {
+    "n": 432,
+    "texte": "Yozamp N et al. NEJM 2020",
+    "url": null
+   },
+   {
+    "n": 433,
+    "texte": "Mayer SW et al. Sports Health 2014",
+    "url": null
+   },
+   {
+    "n": 434,
+    "texte": "Black DM et al. NEJM 2016",
+    "url": null
+   },
+   {
+    "n": 435,
+    "texte": "Ito K et al. Clin Orthop Relat Res 2004",
+    "url": null
+   },
+   {
+    "n": 436,
+    "texte": "Garg D et al. Canadian Family Phy… 2026",
+    "url": null
+   },
+   {
+    "n": 437,
+    "texte": "Shi Z et al. PloS One 2016",
+    "url": null
+   },
+   {
+    "n": 438,
+    "texte": "Wong RMY et al. Osteoporosis Intern… 2022",
+    "url": null
+   },
+   {
+    "n": 439,
+    "texte": "Cosman F et al. Journal of Bone and… 2024",
+    "url": null
+   }
+  ],
+  "planche": "ch22.webp"
+ }
+]

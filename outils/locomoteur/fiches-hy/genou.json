@@ -1,0 +1,4315 @@
+[
+ {
+  "no": "G1",
+  "page": 1,
+  "tags": "GENOU · DOULEUR ANTÉRIEURE · SURCHARGE CHEZ L'ADOLESCENT ET LE JEUNE ADULTE",
+  "titre": "SYNDROME FÉMORO-PATELLAIRE",
+  "epidemiologie": {
+   "texte": "Prévalence annuelle 22,7 % (population générale), 28,9 % (adolescents); 11–17 % des consultations pour gonalgie; femmes 2,23 fois plus à risque; faiblesse du quadriceps prédictive chez les recrues, aucun RC publié; âge, IMC et angle Q non associés.",
+   "refs": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur antérieure isolée, péri- ou rétro-rotulienne, sans traumatisme, à l'accroupissement et à la descente de marche; âge < 40 ans typique.",
+   "refs": [
+    3,
+    6,
+    7
+   ]
+  },
+  "examen": {
+   "texte": "Douleur à l'accroupissement Se 91 %, Sp 50 %; bascule rotulienne RV+ 5,4, RV− 0,6; combinaisons de Décary (Québec) RV+ 8,7, RV− 0,12; Clarke Se 39 %, Sp 67 %, à abandonner; compression rotulienne seule : aucune Se/Sp fiable; diagnostic d'exclusion.",
+   "refs": [
+    3,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Multifactorielle; faiblesse du quadriceps; cinématique d'atterrissage (abduction de hanche < 10° : RC 1,86 chez les femmes); anomalies structurelles à l'IRM non associées au syndrome.",
+   "refs": [
+    5,
+    11,
+    12
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrose fémoro-patellaire, fracture, ostéochondrite disséquante; chondromalacie; instabilité rotulienne; tendinopathie rotulienne, Hoffa, Osgood-Schlatter, plica (fiches G8, G9, G13, G16).",
+   "refs": [
+    13,
+    9,
+    14
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie et échographie non requises au départ; IRM habituellement normale; radiographie si échec du traitement conservateur.",
+   "refs": [
+    3,
+    15,
+    13
+   ]
+  },
+  "traitement": {
+   "texte": "Éducation et gestion de la charge (10–14 ans : succès 86 % à 12 semaines); exercices hanche + genou : −1,5/10 de douleur vs genou seul; orthèses plantaires préfabriquées : NNT 4 à 6 semaines; inefficaces : taping ajouté, orthèse de genou, AINS à 3 mois, acide hyaluronique, arthroscopie.",
+   "refs": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ]
+  },
+  "pronostic": {
+   "texte": "Évolution défavorable chez 55 % à 3 mois, 40 % à 12 mois, 57 % à 5–8 ans (suivi de 19 % seulement); symptômes > 2 mois et score AKPS < 70 prédisent l'échec; arthrose fémoro-patellaire radiographique chez ~25 % des cas persistants.",
+   "refs": [
+    24,
+    25,
+    26
+   ]
+  },
+  "refs": [
+   {
+    "n": 1,
+    "texte": "Smith BE et al. PloS One 2018",
+    "url": null
+   },
+   {
+    "n": 2,
+    "texte": "Crossley KM et al. Br J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 3,
+    "texte": "Duong V et al. JAMA 2023",
+    "url": null
+   },
+   {
+    "n": 4,
+    "texte": "Boling M et al. Scand J Med Sci Sports 2010",
+    "url": null
+   },
+   {
+    "n": 5,
+    "texte": "Neal BS et al. Br J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 6,
+    "texte": "McClinton SM et al. Curr Rev Musculoske… 2020",
+    "url": null
+   },
+   {
+    "n": 7,
+    "texte": "Kasitinon D et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 8,
+    "texte": "Décary S et al. Arch Phys Med Rehabil 2018",
+    "url": null
+   },
+   {
+    "n": 9,
+    "texte": "Doberstein ST et al. Journal of Athletic… 2008",
+    "url": null
+   },
+   {
+    "n": 10,
+    "texte": "American Family Physician 2020. 2020",
+    "url": null
+   },
+   {
+    "n": 11,
+    "texte": "Boling MC et al. Clin J Sport Med 2021",
+    "url": null
+   },
+   {
+    "n": 12,
+    "texte": "van der Heijden RA et al. Am J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 13,
+    "texte": "Gaitonde DY et al. Am Fam Physician 2019",
+    "url": null
+   },
+   {
+    "n": 14,
+    "texte": "Conchie H et al. The Knee 2016",
+    "url": null
+   },
+   {
+    "n": 15,
+    "texte": "Putukian M et al. Medicine and Scienc… 2026",
+    "url": null
+   },
+   {
+    "n": 16,
+    "texte": "Rathleff MS et al. Am J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 17,
+    "texte": "Nascimento LR et al. JOSPT 2018",
+    "url": null
+   },
+   {
+    "n": 18,
+    "texte": "Collins N et al. BMJ (Clinical Resea… 2008",
+    "url": null
+   },
+   {
+    "n": 19,
+    "texte": "Souto LR et al. Br J Sports Med 2024",
+    "url": null
+   },
+   {
+    "n": 20,
+    "texte": "Toby O Smith et al. Cochrane 2015",
+    "url": null
+   },
+   {
+    "n": 21,
+    "texte": "Edith M Heintjes et al. Cochrane 2004",
+    "url": null
+   },
+   {
+    "n": 22,
+    "texte": "Katz NB et al. Curr Rev Musculoske… 2024",
+    "url": null
+   },
+   {
+    "n": 23,
+    "texte": "Kettunen JA et al. BMC Medicine 2007",
+    "url": null
+   },
+   {
+    "n": 24,
+    "texte": "Collins NJ et al. Br J Sports Med 2013",
+    "url": null
+   },
+   {
+    "n": 25,
+    "texte": "Lankhorst NE et al. Br J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 26,
+    "texte": "Collins NJ et al. Arthritis Care Res 2019",
+    "url": null
+   }
+  ],
+  "planche": "g1.webp"
+ },
+ {
+  "no": "G2",
+  "page": 2,
+  "tags": "GENOU · DOULEUR MÉCANIQUE CHRONIQUE · ADULTE DE 45 ANS ET PLUS",
+  "titre": "ARTHROSE DU GENOU",
+  "epidemiologie": {
+   "texte": "Prévalence 22,9 % à ≥ 40 ans; incidence 203 par 10 000 p-a; ratio F:H 1,69; risque à vie d'arthrose symptomatique 44,7 %; obésité RC 2,66, blessure antérieure RC 2,83, sexe féminin RC 1,68; travail physique exigeant RC 1,52.",
+   "refs": [
+    27,
+    28,
+    29,
+    30
+   ]
+  },
+  "presentation": {
+   "texte": "Critères NICE : ≥ 45 ans, douleur à l'activité, raideur matinale absente ou ≤ 30 min (Se 84 %, Sp 85 %, une étude); douleur à l'activité Se 95 %, Sp 19 %; raideur < 30 min Se 88 %, Sp 52 %.",
+   "refs": [
+    31,
+    3
+   ]
+  },
+  "examen": {
+   "texte": "Crépitements Se 89 %, Sp 58–60 %, RV+ 2,1; hypertrophie osseuse Se 55 %, Sp 95 %, RV+ 11; amplitude réduite Se 17 %, Sp 96 %; raideur prolongée, douleur au repos ou nocturne, genou rouge et enflé orientent ailleurs.",
+   "refs": [
+    3,
+    32
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Atteinte de toute l'articulation : cartilage, ostéophytes, lésions de moelle osseuse, ménisque, synovite; surcharge mécanique (obésité, blessure).",
+   "refs": [
+    33,
+    34,
+    35,
+    29
+   ]
+  },
+  "ddx": {
+   "texte": "Chondrocalcinose; déchirure méniscale dégénérative, souvent fortuite; goutte, arthrite inflammatoire, arthrite septique, fracture sous-chondrale d'insuffisance, tendinobursite de la patte d'oie (fiches G20 à G23, G12).",
+   "refs": [
+    3,
+    34
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique si présentation typique à ≥ 45 ans; radiographie si atypique, évolution rapide ou avant référence en arthroplastie; 15–76 % des genoux douloureux ont une arthrose radiographique; IRM rarement indiquée : ≥ 1 anomalie chez 89 % des > 50 ans à radiographie normale.",
+   "refs": [
+    3,
+    36,
+    37,
+    33
+   ]
+  },
+  "traitement": {
+   "texte": "Exercices : succès 653 vs 400 par 1000; perte de poids ≥ 5–10 %; AINS topiques (NNT 9,8) puis oraux; infiltration de corticostéroïde : bénéfice 1–6 semaines, nul à 26; négligeables ou inefficaces : acétaminophène, opioïdes, acide hyaluronique, PRP, glucosamine, arthroscopie; prothèse totale : NNT 5,7.",
+   "refs": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ]
+  },
+  "pronostic": {
+   "texte": "Progression radiographique 2,8 % par an; 85,7 % stables sur 8 ans; prothèse en 6 ans : 0,2 % (KL 0) à 32,9 % (KL 4); risque à vie de prothèse 30 % après le diagnostic; après prothèse : douleur persistante 12,6 % à 12 mois, survie de l'implant 82,3 % à 25 ans.",
+   "refs": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    55
+   ]
+  },
+  "refs": [
+   {
+    "n": 27,
+    "texte": "Cui A et al. EClinicalMedicine 2020",
+    "url": null
+   },
+   {
+    "n": 28,
+    "texte": "Murphy L et al. Arthritis Rheum 2008",
+    "url": null
+   },
+   {
+    "n": 29,
+    "texte": "Silverwood V et al. Osteoarthritis Cart… 2015",
+    "url": null
+   },
+   {
+    "n": 30,
+    "texte": "Wang X et al. Arthritis Care Res 2020",
+    "url": null
+   },
+   {
+    "n": 31,
+    "texte": "King LK et al. Arthritis Care Res 2025",
+    "url": null
+   },
+   {
+    "n": 3,
+    "texte": "Duong V et al. JAMA 2023",
+    "url": null
+   },
+   {
+    "n": 32,
+    "texte": "Katz JN et al. JAMA 2021",
+    "url": null
+   },
+   {
+    "n": 33,
+    "texte": "Guermazi A et al. BMJ (Clinical Resea… 2012",
+    "url": null
+   },
+   {
+    "n": 34,
+    "texte": "Englund M et al. NEJM 2008",
+    "url": null
+   },
+   {
+    "n": 35,
+    "texte": "McAlindon TE et al. JAMA 2017",
+    "url": null
+   },
+   {
+    "n": 36,
+    "texte": "Bedson J et al. BMC Musculoskelet D… 2008",
+    "url": null
+   },
+   {
+    "n": 37,
+    "texte": "Sharma L NEJM 2021",
+    "url": null
+   },
+   {
+    "n": 38,
+    "texte": "Belinda J Lawford et al. Cochrane 2024",
+    "url": null
+   },
+   {
+    "n": 39,
+    "texte": "Chu IJH et al. Obesity Reviews 2018",
+    "url": null
+   },
+   {
+    "n": 40,
+    "texte": "Sheena Derry et al. Cochrane 2016",
+    "url": null
+   },
+   {
+    "n": 41,
+    "texte": "da Costa BR et al. Lancet 2017",
+    "url": null
+   },
+   {
+    "n": 42,
+    "texte": "Peter Jüni et al. Cochrane 2015",
+    "url": null
+   },
+   {
+    "n": 43,
+    "texte": "Machado GC et al. BMJ (Clinical Resea… 2015",
+    "url": null
+   },
+   {
+    "n": 44,
+    "texte": "Bruno R da Costa et al. Cochrane 2014",
+    "url": null
+   },
+   {
+    "n": 45,
+    "texte": "Pereira TV et al. BMJ (Clinical Resea… 2022",
+    "url": null
+   },
+   {
+    "n": 46,
+    "texte": "Bennell KL et al. JAMA 2021",
+    "url": null
+   },
+   {
+    "n": 47,
+    "texte": "Wandel S et al. BMJ (Clinical Resea… 2010",
+    "url": null
+   },
+   {
+    "n": 48,
+    "texte": "Denise O'Connor et al. Cochrane 2022",
+    "url": null
+   },
+   {
+    "n": 49,
+    "texte": "Skou ST et al. NEJM 2015",
+    "url": null
+   },
+   {
+    "n": 50,
+    "texte": "Leyland KM et al. Arthritis Rheum 2012",
+    "url": null
+   },
+   {
+    "n": 51,
+    "texte": "Collins JE et al. Arthritis Care Res 2021",
+    "url": null
+   },
+   {
+    "n": 52,
+    "texte": "Tang S et al. Nature Reviews 2025",
+    "url": null
+   },
+   {
+    "n": 53,
+    "texte": "Burn E et al. Osteoarthritis Cart… 2019",
+    "url": null
+   },
+   {
+    "n": 54,
+    "texte": "Cheng HY et al. BMJ Open 2025",
+    "url": null
+   },
+   {
+    "n": 55,
+    "texte": "Evans JT et al. Lancet 2019",
+    "url": null
+   }
+  ],
+  "planche": "g2.webp"
+ },
+ {
+  "no": "G3",
+  "page": 3,
+  "tags": "GENOU · DOULEUR À L'INTERLIGNE · TORSION CHEZ LE JEUNE, DÉGÉNÉRESCENCE APRÈS 40",
+  "titre": "DÉCHIRURE MÉNISCALE (SANS BLOCAGE)",
+  "epidemiologie": {
+   "texte": "79 Par 100 000 par an (H 98, F 60); déchirure à l'IRM chez 19 % (F 50–59 ans) à 56 % (H 70–90 ans), 61 % sans symptômes; âge > 60 ans RC 2,32, sexe masculin RC 2,98, travail à genoux ou accroupi RC 2,69, soccer RC 3,58.",
+   "refs": [
+    56,
+    34,
+    3
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur à l'interligne après torsion ou d'apparition progressive; clic, accrochage : Se 32–69 %, Sp 45–74 %; 52 % des jeunes rapportent accrochage ou blocage sans genou réellement bloqué.",
+   "refs": [
+    3,
+    57
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité de l'interligne Se 83 %, Sp 83 %; McMurray Se 61 %, Sp 84 %; examen combiné RV+ 2,7, RV− 0,4; Thessaly à 20° RV+ 5,6, RV− 0,28, mais précision de chaque test 53–54 % en première ligne; déficit d'extension (blocage vrai) : référence chirurgicale.",
+   "refs": [
+    3,
+    58,
+    59,
+    48
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Traumatique par torsion chez le jeune sportif; dégénérative ensuite : atteinte méniscale dans 82 % des genoux arthrosiques contre 25 % sans arthrose; seule la zone périphérique vascularisée (10–30 % externe) est réparable.",
+   "refs": [
+    3,
+    34
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrose (fiche G2); rupture du LCA, avec lésion méniscale associée dans 55 %; lésion du LLI profond pouvant mimer une déchirure méniscale; plica, kyste poplité, fracture sous-chondrale d'insuffisance (fiches G16, G18, G23).",
+   "refs": [
+    34,
+    60,
+    61
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie en charge d'abord à ≥ 40 ans : 48 % des IRM pré-référence n'influencent pas la décision; IRM non indiquée d'emblée pour lésion dégénérative; IRM si blocage ou échec du traitement : ménisque médial Se 91 %, Sp 88 %; latéral Se 79 %, Sp 94 %.",
+   "refs": [
+    62,
+    63,
+    3,
+    58,
+    64
+   ]
+  },
+  "traitement": {
+   "texte": "Physiothérapie (exercices 12 semaines) d'abord; méniscectomie partielle équivalente à la chirurgie placebo et à la physiothérapie à ≥ 45 ans comme à 18–45 ans (IKDC 78 vs 78); 19–41 % passent à la chirurgie; réparation : échec 14,8 %; infiltration : aucun essai contre placebo repéré.",
+   "refs": [
+    65,
+    66,
+    67,
+    68,
+    69
+   ]
+  },
+  "pronostic": {
+   "texte": "9 Sur 10 améliorés à 2 ans (lésion dégénérative); histoire naturelle sans traitement non étudiée; arthrose : RC 6,3 après lésion méniscale, progression RR 1,25 après arthroscopie; retour au sport 7–9 semaines après méniscectomie, 5,6 mois après réparation.",
+   "refs": [
+    70,
+    71,
+    48,
+    72
+   ]
+  },
+  "refs": [
+   {
+    "n": 56,
+    "texte": "Peat G et al. Arthritis Research… 2014",
+    "url": null
+   },
+   {
+    "n": 34,
+    "texte": "Englund M et al. NEJM 2008",
+    "url": null
+   },
+   {
+    "n": 3,
+    "texte": "Duong V et al. JAMA 2023",
+    "url": null
+   },
+   {
+    "n": 57,
+    "texte": "Thorlund JB et al. Ann Intern Med 2025",
+    "url": null
+   },
+   {
+    "n": 58,
+    "texte": "Pendergraph B et al. Am Fam Physician 2026",
+    "url": null
+   },
+   {
+    "n": 59,
+    "texte": "Blyth M et al. Health Technology A… 2015",
+    "url": null
+   },
+   {
+    "n": 48,
+    "texte": "Denise O'Connor et al. Cochrane 2022",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Olsson O et al. Osteoarthritis Cart… 2016",
+    "url": null
+   },
+   {
+    "n": 61,
+    "texte": "Jarrett DY et al. Pediatr Radiol 2021",
+    "url": null
+   },
+   {
+    "n": 62,
+    "texte": "Adelani MA et al. JAAOS 2016",
+    "url": null
+   },
+   {
+    "n": 63,
+    "texte": "Beaufils P et al. KSSTA 2017",
+    "url": null
+   },
+   {
+    "n": 64,
+    "texte": "Nguyen JC et al. Radiology 2026",
+    "url": null
+   },
+   {
+    "n": 65,
+    "texte": "Kise NJ et al. BMJ (Clinical Resea… 2016",
+    "url": null
+   },
+   {
+    "n": 66,
+    "texte": "Sihvonen R et al. NEJM 2013",
+    "url": null
+   },
+   {
+    "n": 67,
+    "texte": "van de Graaf VA et al. JAMA 2018",
+    "url": null
+   },
+   {
+    "n": 68,
+    "texte": "van der Graaff SJA et al. Br J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 69,
+    "texte": "Schweizer C et al. Am J Sports Med 2024",
+    "url": null
+   },
+   {
+    "n": 70,
+    "texte": "Berg B et al. JOSPT 2021",
+    "url": null
+   },
+   {
+    "n": 71,
+    "texte": "Poulsen E et al. Br J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 72,
+    "texte": "Lee YS et al. Clin J Sport Med 2019",
+    "url": null
+   }
+  ],
+  "planche": "g3.webp"
+ },
+ {
+  "no": "G4",
+  "page": 4,
+  "tags": "GENOU · HÉMARTHROSE ET INSTABILITÉ · PIVOT SANS CONTACT CHEZ LE JEUNE SPORTIF",
+  "titre": "RUPTURE DU LIGAMENT CROISÉ ANTÉRIEUR",
+  "epidemiologie": {
+   "texte": "68,6 Par 100 000 p-a; pic H 19–25 ans (241), F 14–18 ans (228); athlètes féminines RR 1,5 (IC 95 % 1,2– 1,9); sans contact dans 55 % (adultes) et 68 % (adolescents); soccer, basketball, handball, ski.",
+   "refs": [
+    73,
+    74,
+    75,
+    76,
+    77
+   ]
+  },
+  "presentation": {
+   "texte": "Torsion en pivot avec « pop » : RV+ 9,8; hémarthrose en ~2 heures; LCA rompu dans 52 % des hémarthroses traumatiques.",
+   "refs": [
+    78,
+    79,
+    60
+   ]
+  },
+  "examen": {
+   "texte": "Lachman Se 81 %, Sp 85 %, RV+ 5,7, RV− 0,24; tiroir antérieur Se 83 %, Sp 85 %; ressaut (pivot shift) Se 55 %, Sp 94 %, RV+ 10,7; signe du levier Se 83 %, Sp 91 %; en première ligne, levier Se 61 % contre Lachman 99 %.",
+   "refs": [
+    80,
+    81
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Décélération, pivot ou réception de saut sans contact direct; contusions osseuses dans 80–99 %; lésion méniscale dans 55 %; rupture isolée dans 12 % seulement.",
+   "refs": [
+    75,
+    77,
+    82,
+    60
+   ]
+  },
+  "ddx": {
+   "texte": "Luxation de la rotule, première cause d'hémarthrose à ≤ 16 ans; fracture; déchirure méniscale; entorse d'un collatéral (rupture complète associée 5–24 %); lésion du LCP (fiche G5).",
+   "refs": [
+    60,
+    83,
+    84
+   ]
+  },
+  "investigations": {
+   "texte": "Règle d'Ottawa pour la radiographie : Se 98,5 %, Sp 48,6 %, RV− 0,05 pour fracture; fracture de Segond : LCA rompu dans 75–100 %; IRM Se 87 %, Sp 93 %, utile pour les lésions associées.",
+   "refs": [
+    85,
+    86,
+    87
+   ]
+  },
+  "traitement": {
+   "texte": "Réadaptation d'abord ou reconstruction précoce : KOOS4 équivalent à 2, 5 et 11 ans; 39–52 % du groupe réadaptation finalement opérés; instabilité non aiguë : chirurgie +7,9 points KOOS4; prévention neuromusculaire RR 0,46; orthèse fonctionnelle postopératoire sans bénéfice.",
+   "refs": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport 81 %, au niveau antérieur 65 %, en compétition 55 %; attendre 9 mois : réblessure −51 % par mois (une cohorte), non confirmé en méta- analyse; < 25 ans : rupture du greffon 10 %, LCA controlatéral 11 %; arthrose RC 4,2, ~38–40 % à 15 ans, opéré ou non.",
+   "refs": [
+    95,
+    96,
+    97,
+    98,
+    71,
+    99
+   ]
+  },
+  "refs": [
+   {
+    "n": 73,
+    "texte": "Sanders TL et al. Am J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 74,
+    "texte": "Montalvo AM et al. Br J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 75,
+    "texte": "Chia L et al. Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 76,
+    "texte": "Medicine and Science in Sports and Exercise 2018 2018",
+    "url": null
+   },
+   {
+    "n": 77,
+    "texte": "D'Ambrosi R et al. KSSTA 2026",
+    "url": null
+   },
+   {
+    "n": 78,
+    "texte": "Décary S et al. PloS One 2018",
+    "url": null
+   },
+   {
+    "n": 79,
+    "texte": "Dubé MO et al. JAMA 2026",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Olsson O et al. Osteoarthritis Cart… 2016",
+    "url": null
+   },
+   {
+    "n": 80,
+    "texte": "Sokal PA et al. KSSTA 2022",
+    "url": null
+   },
+   {
+    "n": 81,
+    "texte": "Bucher C et al. Orthopaedics & Trau… 2022",
+    "url": null
+   },
+   {
+    "n": 82,
+    "texte": "Moran J et al. Am J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 83,
+    "texte": "Askenberger M et al. Am J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 84,
+    "texte": "Spindler KP et al. NEJM 2008",
+    "url": null
+   },
+   {
+    "n": 85,
+    "texte": "Bachmann LM et al. Ann Intern Med 2004",
+    "url": null
+   },
+   {
+    "n": 86,
+    "texte": "Arneja SS et al. Sports Health 2010",
+    "url": null
+   },
+   {
+    "n": 87,
+    "texte": "Phelan N et al. KSSTA 2016",
+    "url": null
+   },
+   {
+    "n": 88,
+    "texte": "Betensky RA NEJM Evidence 2023",
+    "url": null
+   },
+   {
+    "n": 89,
+    "texte": "Frobell RB et al. BMJ (Clinical Resea… 2013",
+    "url": null
+   },
+   {
+    "n": 90,
+    "texte": "Frobell RB et al. NEJM 2010",
+    "url": null
+   },
+   {
+    "n": 91,
+    "texte": "Lohmander LS et al. NEJM Evidence 2023",
+    "url": null
+   },
+   {
+    "n": 92,
+    "texte": "Beard DJ et al. Lancet 2022",
+    "url": null
+   },
+   {
+    "n": 93,
+    "texte": "Watson SL et al. Am J Sports Med 2026",
+    "url": null
+   },
+   {
+    "n": 94,
+    "texte": "The American Academy of Orthopaedic Surgeons Board of Directors American Academy of… 2022",
+    "url": null
+   },
+   {
+    "n": 95,
+    "texte": "Ardern CL et al. Br J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 96,
+    "texte": "Grindem H et al. Br J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 97,
+    "texte": "Khan ZA et al. Journal of ISAKOS 2026",
+    "url": null
+   },
+   {
+    "n": 98,
+    "texte": "Wiggins AJ et al. Am J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 71,
+    "texte": "Poulsen E et al. Br J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 99,
+    "texte": "Liukkonen R et al. The Bone & Joint Jo… 2023",
+    "url": null
+   }
+  ],
+  "planche": "g4.webp"
+ },
+ {
+  "no": "G5",
+  "page": 5,
+  "tags": "GENOU · TIROIR POSTÉRIEUR · CHOC ANTÉRIEUR SUR GENOU FLÉCHI (TABLEAU DE BORD,",
+  "titre": "ENTORSE DU LIGAMENT CROISÉ POSTÉRIEUR",
+  "epidemiologie": {
+   "texte": "Rupture complète isolée 1,8 par 100 000 par an (IC 95 % 1,3–2,3); hommes 73–97 %; accident de la route 57 % en centre de traumatologie; lésions associées : LCA 46 %, LLI 31 %, coin postéro-latéral 62 %.",
+   "refs": [
+    100,
+    101
+   ]
+  },
+  "presentation": {
+   "texte": "Choc sur le tibia proximal genou fléchi, chute sur genou fléchi pied en flexion plantaire, ou hyperextension; passe facilement inaperçue, erreur diagnostique 30–40 %; peu de dérobements rapportés.",
+   "refs": [
+    102,
+    103,
+    104,
+    105
+   ]
+  },
+  "examen": {
+   "texte": "Tiroir postérieur Se 90 %, Sp 99 % (lésions chroniques, chirurgiens), Se 70 % pour le grade 1; avalement postérieur Se 46–100 %, Sp 100 %; test actif du quadriceps Se 53–98 %, Sp 96–100 %; examen combiné RV+ 21, RV− 0,05; laxité en varus ou valgus : lésion combinée.",
+   "refs": [
+    106,
+    101,
+    107
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Principal frein à la translation postérieure du tibia; grade 1 ≤ 5 mm, grade 2 5–10 mm, grade 3 > 10 mm; guérit en continuité, mais allongé.",
+   "refs": [
+    108,
+    109,
+    101
+   ]
+  },
+  "ddx": {
+   "texte": "Lésion combinée du coin postéro-latéral ou postéro- médial; rupture du LCA (faux tiroir antérieur par réduction de l'avalement); avulsion osseuse tibiale; lésion multiligamentaire, dont 79 % touchent le LCP.",
+   "refs": [
+    101,
+    109,
+    103
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie pour avulsion osseuse; IRM en aigu Se 100 %, Sp 97–100 %; en chronique, précision aussi basse que 57 %; radiographie en stress à genoux : < 8 mm partielle, 8–12 mm complète isolée, > 12 mm combinée.",
+   "refs": [
+    103,
+    101,
+    106
+   ]
+  },
+  "traitement": {
+   "texte": "Grades 1–2 isolés : physiothérapie axée sur le quadriceps; orthèse dynamique 4 mois : avalement 7,1 → 2,3 mm, continuité à l'IRM 95 %; chirurgie si lésion combinée ou instabilité persistante; reconstruction : laxité résiduelle 3,4 vs 5,5 mm, un seul essai randomisé.",
+   "refs": [
+    105,
+    102,
+    101,
+    110
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport en 4–6 semaines (grade 1), 6–8 (grade 2), 8–12 (grade 3); retour au sport 64–77 %, au même niveau chez la moitié; arthrose radiographique 23 % à 7 ans, 41 % à 14 ans, modérée ou sévère 11 %; arthrose symptomatique HR 6,2 à 12 ans.",
+   "refs": [
+    111,
+    110,
+    102,
+    101,
+    100
+   ]
+  },
+  "refs": [
+   {
+    "n": 100,
+    "texte": "Sanders TL et al. KSSTA 2017",
+    "url": null
+   },
+   {
+    "n": 101,
+    "texte": "LaPrade CM et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 102,
+    "texte": "Wind WM et al. Am J Sports Med 2004",
+    "url": null
+   },
+   {
+    "n": 103,
+    "texte": "Badri A et al. Curr Rev Musculoske… 2018",
+    "url": null
+   },
+   {
+    "n": 104,
+    "texte": "Hai D et al. BMC Musculoskelet D… 2026",
+    "url": null
+   },
+   {
+    "n": 105,
+    "texte": "Kew ME et al. Curr Rev Musculoske… 2022",
+    "url": null
+   },
+   {
+    "n": 106,
+    "texte": "Chetan Gohal et al. Horner, Jihad Aboua…",
+    "url": null
+   },
+   {
+    "n": 107,
+    "texte": "Solomon DH et al. JAMA 2001",
+    "url": null
+   },
+   {
+    "n": 108,
+    "texte": "Sayum Filho J et al. PloS One 2025",
+    "url": null
+   },
+   {
+    "n": 109,
+    "texte": "Johnson P et al. Curr Rev Musculoske… 2018",
+    "url": null
+   },
+   {
+    "n": 110,
+    "texte": "Schroven W et al. KSSTA 2022",
+    "url": null
+   },
+   {
+    "n": 111,
+    "texte": "Jadidi S et al. Curr Rev Musculoske… 2024",
+    "url": null
+   }
+  ],
+  "planche": "g5.webp"
+ },
+ {
+  "no": "G6",
+  "page": 6,
+  "tags": "GENOU · DOULEUR MÉDIALE OU LATÉRALE · STRESS EN VALGUS (LLI) OU EN VARUS (LLE)",
+  "titre": "ENTORSE D'UN LIGAMENT COLLATÉRAL (LLI, LLE)",
+  "epidemiologie": {
+   "texte": "LLI : structure du genou la plus souvent lésée; 7,3 par 1000 p-a chez de jeunes athlètes; hommes RR 2,87; lutte, judo, hockey, rugby; grade 1 73 %, grade 2 23 %, grade 3 4 %; LLE isolé rare, incidence non établie.",
+   "refs": [
+    112,
+    113,
+    114
+   ]
+  },
+  "presentation": {
+   "texte": "LLI : force externe sur la jambe (RV+ 2,0) ou torsion; ~70 % par contact au soccer professionnel; LLE : varus avec hyperextension, souvent lésion combinée.",
+   "refs": [
+    115,
+    116,
+    117
+   ]
+  },
+  "examen": {
+   "texte": "Stress en valgus à 30° : douleur Se 78 %, Sp 67 %; laxité Se 91 %, Sp 49 %; anamnèse + douleur + laxité RV+ 6,4; laxité à 0° ou grade 3 : autre ligament lésé dans 78 %, dont LCA 95 %; stress en varus : aucune Se/Sp repérée; chercher un pied tombant.",
+   "refs": [
+    118,
+    115,
+    119,
+    120
+   ]
+  },
+  "physiopathologie": {
+   "texte": "LLI superficiel : frein principal au valgus; LLI profond : frein à la rotation externe entre 0 et 30°; fort potentiel de guérison spontanée; LLE : stabilisateur principal en varus.",
+   "refs": [
+    121,
+    122,
+    123
+   ]
+  },
+  "ddx": {
+   "texte": "Rupture du LCA (LLI lésé à l'IRM dans 41 %); déchirure méniscale; lésion du coin postéro-latéral; fracture physaire fémorale distale chez l'enfant; Pellegrini-Stieda si douleur médiale chronique.",
+   "refs": [
+    124,
+    61,
+    125,
+    126
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique pour grades 1–2 isolés; radiographie selon Ottawa (Se 98,5 %, Sp 48,6 %) ou Pittsburgh (Se 99 %, Sp 60 %); IRM si grade 3 ou lésion associée : LLI Se 90 %, Sp 72 %; LLE Se 80 %, Sp 81 %; stress en varus : > 4 mm = coin postéro-latéral.",
+   "refs": [
+    85,
+    127,
+    128,
+    129
+   ]
+  },
+  "traitement": {
+   "texte": "Grades 1–2 et la plupart des grades 3 isolés : orthèse articulée, béquilles au début, physiothérapie; LLI grade 3 : stabilité bonne à excellente 85 % sans chirurgie contre 94 % opéré, fonction équivalente, réadaptation plus rapide; laxité résiduelle 70 %; coin postéro-latéral de haut grade : reconstruction.",
+   "refs": [
+    111,
+    126,
+    130
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au jeu médian 13,5 jours (grade 1), 29 jours (grades 2–3); 23 jours au soccer professionnel; fonction normale chez 92 % à 10 ans après lésion partielle; LLE grade 3 isolé non opéré : 2 semaines perdues en moyenne (5 joueurs); paralysie fibulaire complète : récupération 12 %.",
+   "refs": [
+    113,
+    116,
+    126,
+    131,
+    120
+   ]
+  },
+  "refs": [
+   {
+    "n": 112,
+    "texte": "Laprade RF et al. Am J Sports Med 2010",
+    "url": null
+   },
+   {
+    "n": 113,
+    "texte": "Roach CJ et al. Am J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 114,
+    "texte": "Gnesutta A et al. Skeletal Radiol 2024",
+    "url": null
+   },
+   {
+    "n": 115,
+    "texte": "Kastelein M et al. The American Journa… 2008",
+    "url": null
+   },
+   {
+    "n": 116,
+    "texte": "Lundblad M et al. Br J Sports Med 2013",
+    "url": null
+   },
+   {
+    "n": 117,
+    "texte": "Moran J et al. Am J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 118,
+    "texte": "Domiziano Tarantino et al. Chapter 137.",
+    "url": null
+   },
+   {
+    "n": 119,
+    "texte": "Elkin JL et al. Curr Rev Musculoske… 2019",
+    "url": null
+   },
+   {
+    "n": 120,
+    "texte": "Kahan JB et al. Am J Sports Med 2020",
+    "url": null
+   },
+   {
+    "n": 121,
+    "texte": "Shatrov J et al. Am J Sports Med 2024",
+    "url": null
+   },
+   {
+    "n": 122,
+    "texte": "Runer A et al. KSSTA 2026",
+    "url": null
+   },
+   {
+    "n": 123,
+    "texte": "Grawe B et al. JAAOS 2018",
+    "url": null
+   },
+   {
+    "n": 124,
+    "texte": "Cristiani R et al. Arthroscopy 2024",
+    "url": null
+   },
+   {
+    "n": 61,
+    "texte": "Jarrett DY et al. Pediatr Radiol 2021",
+    "url": null
+   },
+   {
+    "n": 125,
+    "texte": "Covey DC JBJS 2001",
+    "url": null
+   },
+   {
+    "n": 126,
+    "texte": "Marchant MH et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 85,
+    "texte": "Bachmann LM et al. Ann Intern Med 2004",
+    "url": null
+   },
+   {
+    "n": 127,
+    "texte": "Seaberg DC et al. Ann Emerg Med 1998",
+    "url": null
+   },
+   {
+    "n": 128,
+    "texte": "Sanchez-Munoz E et al. Am J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 129,
+    "texte": "Dean RS et al. Curr Rev Musculoske… 2020",
+    "url": null
+   },
+   {
+    "n": 111,
+    "texte": "Jadidi S et al. Curr Rev Musculoske… 2024",
+    "url": null
+   },
+   {
+    "n": 130,
+    "texte": "Zielinski KP et al. Am J Sports Med 2025",
+    "url": null
+   },
+   {
+    "n": 131,
+    "texte": "Bushnell BD et al. Am J Sports Med 2010",
+    "url": null
+   }
+  ],
+  "planche": "g6.webp"
+ },
+ {
+  "no": "G7",
+  "page": 7,
+  "tags": "GENOU · HÉMARTHROSE ET DÉROBEMENT ROTULIEN · TORSION EN VALGUS CHEZ",
+  "titre": "INSTABILITÉ OU LUXATION DE LA ROTULE",
+  "epidemiologie": {
+   "texte": "Première luxation 23,2 par 100 000 p-a; pic à 14–18 ans : 147,7; femmes 54,4 %; 55–72 % au sport; facteurs de récidive : dysplasie de la trochlée RC 4,15, TT-TG élevée RC 2,87, physes ouvertes RC 2,72, rotule haute RC 2,38.",
+   "refs": [
+    132,
+    133,
+    134,
+    135
+   ]
+  },
+  "presentation": {
+   "texte": "Torsion en flexion-valgus sans contact dans 74–93 %; réduction spontanée habituelle, taux précis non publié; 15 % encore luxés à l'arrivée (une série); hémarthrose chez 72 conscrits sur 72; 27 % des enfants ignorent s'être luxés.",
+   "refs": [
+    136,
+    137,
+    138,
+    139,
+    83
+   ]
+  },
+  "examen": {
+   "texte": "Appréhension latérale classique Se 39 %, Sp non publiée; appréhension en mouvement Se 100 %, Sp 88,4 % (patients opérés, référence sous anesthésie); signe du J et glissement rotulien : aucune Se/Sp publiée; vérifier l'élévation de la jambe tendue (appareil extenseur).",
+   "refs": [
+    140,
+    141,
+    142,
+    143
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Ligament fémoro-patellaire médial (LFPM) lésé dans 92–99 %; fracture ostéochondrale 17–18 % en population, jusqu'à 43 % en séries d'IRM; terrain anatomique : dysplasie de la trochlée, rotule haute, TT-TG augmentée.",
+   "refs": [
+    132,
+    133,
+    144,
+    145,
+    146,
+    147
+   ]
+  },
+  "ddx": {
+   "texte": "Rupture du LCA (52 % des hémarthroses traumatiques contre 17 % pour la luxation; fiche G4); à ≤ 16 ans, la luxation domine (39–43 %); fracture ostéochondrale isolée; avulsion des épines tibiales; fracture en manchon de la rotule; rupture de l'appareil extenseur.",
+   "refs": [
+    60,
+    148,
+    143,
+    149
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie (face en charge, profil à 30°, vue axiale) : Se 8 % pour les lésions ostéochondrales; chez l'enfant, fracture ostéochondrale vue à la radiographie 10 %, à l'IRM 77 %; IRM si hémarthrose, fragment ou corps libre suspecté, ou enfant.",
+   "refs": [
+    147,
+    111,
+    150,
+    151
+   ]
+  },
+  "traitement": {
+   "texte": "Premier épisode : physiothérapie; orthèse restrictive sans avantage sur manchon de néoprène; chirurgie : récidive RR 0,55 à 2–9 ans (certitude très faible), RR 0,93 à ≥ 10 ans; opérer si fragment ≥ 5 mm ou récidive; reconstruction du LFPM : récidive 1,9 %, retour au sport 92,8 %.",
+   "refs": [
+    152,
+    153,
+    154,
+    155,
+    156
+   ]
+  },
+  "pronostic": {
+   "texte": "Récidive 33,6 % à 6,3 ans; 54 % à 15–20 ans si squelette immature; 8–14 % sans facteur de risque, 70–79 % avec trois; retour au sport sans chirurgie 45 % à 12 semaines, 69 % à 24; arthrose fémoro- patellaire ~49 % à 25 ans contre 8 % (témoins).",
+   "refs": [
+    135,
+    157,
+    158,
+    159
+   ]
+  },
+  "refs": [
+   {
+    "n": 132,
+    "texte": "Sanders TL et al. Sports Health 2018",
+    "url": null
+   },
+   {
+    "n": 133,
+    "texte": "Isacsson A et al. International Ortho… 2023",
+    "url": null
+   },
+   {
+    "n": 134,
+    "texte": "Rund JM et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 135,
+    "texte": "Huntington LS et al. Am J Sports Med 2020",
+    "url": null
+   },
+   {
+    "n": 136,
+    "texte": "Meyers AB et al. Pediatr Radiol 2016",
+    "url": null
+   },
+   {
+    "n": 137,
+    "texte": "Sillanpää P et al. Medicine and Scienc… 2008",
+    "url": null
+   },
+   {
+    "n": 138,
+    "texte": "Duthon VB Orthopaedics & Trau… 2015",
+    "url": null
+   },
+   {
+    "n": 139,
+    "texte": "Saragaglia D et al. International Ortho… 2020",
+    "url": null
+   },
+   {
+    "n": 83,
+    "texte": "Askenberger M et al. Am J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 140,
+    "texte": "Ahmad CS et al. Am J Sports Med 2009",
+    "url": null
+   },
+   {
+    "n": 141,
+    "texte": "Best MJ et al. Am J Sports Med 2020",
+    "url": null
+   },
+   {
+    "n": 142,
+    "texte": "Lubowitz JH et al. Am J Sports Med 2008",
+    "url": null
+   },
+   {
+    "n": 143,
+    "texte": "MacDonald J et al. JAMA Pediatrics 2021",
+    "url": null
+   },
+   {
+    "n": 144,
+    "texte": "Danielsen O et al. KSSTA 2023",
+    "url": null
+   },
+   {
+    "n": 145,
+    "texte": "Migliorini F et al. Arthroscopy 2022",
+    "url": null
+   },
+   {
+    "n": 146,
+    "texte": "Askenberger M et al. Am J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 147,
+    "texte": "Qiu RY et al. KSSTA 2023",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Olsson O et al. Osteoarthritis Cart… 2016",
+    "url": null
+   },
+   {
+    "n": 148,
+    "texte": "Matelic TM et al. Am J Sports Med 1995",
+    "url": null
+   },
+   {
+    "n": 149,
+    "texte": "Devana SK et al. Am J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 111,
+    "texte": "Jadidi S et al. Curr Rev Musculoske… 2024",
+    "url": null
+   },
+   {
+    "n": 150,
+    "texte": "Baker H et al. J Knee Surg 2022",
+    "url": null
+   },
+   {
+    "n": 151,
+    "texte": "Reed JM et al. Am J Sports Med 2026",
+    "url": null
+   },
+   {
+    "n": 152,
+    "texte": "Toby O Smith et al. Cochrane 2023",
+    "url": null
+   },
+   {
+    "n": 153,
+    "texte": "Johnson DS et al. The Knee 2019",
+    "url": null
+   },
+   {
+    "n": 154,
+    "texte": "Popkin CA et al. Curr Rev Musculoske… 2018",
+    "url": null
+   },
+   {
+    "n": 155,
+    "texte": "Honkonen EE et al. Am J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 156,
+    "texte": "Platt BN et al. Am J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 157,
+    "texte": "Atkin DM et al. Am J Sports Med 2000",
+    "url": null
+   },
+   {
+    "n": 158,
+    "texte": "Sanders TL et al. KSSTA 2018",
+    "url": null
+   },
+   {
+    "n": 159,
+    "texte": "Sanders TL et al. Am J Sports Med 2017",
+    "url": null
+   }
+  ],
+  "planche": "g7.webp"
+ },
+ {
+  "no": "G8",
+  "page": 8,
+  "tags": "GENOU · DOULEUR AU PÔLE INFÉRIEUR DE LA ROTULE · SAUTS RÉPÉTÉS CHEZ LE SPORTIF",
+  "titre": "TENDINOPATHIE ROTULIENNE OU QUADRICIPITALE",
+  "epidemiologie": {
+   "texte": "Athlètes d'élite 14,2 %; volleyball 44,6 %, basketball 31,9 %; non-élite 8,5 % (H 10,2 %, F 6,4 %); > 20 h d'entraînement par semaine RC 8,94; blessure antérieure du genou RC 2,10; quadricipitale : 1 cas sur 87 « genoux du sauteur », prévalence non établie.",
+   "refs": [
+    160,
+    161,
+    162
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur localisée au pôle inférieur de la rotule, proportionnelle à la charge, atténuée à l'échauffement, pire le lendemain; symptômes depuis 19–32 mois en moyenne; quadricipitale : douleur sus- rotulienne à la flexion profonde.",
+   "refs": [
+    160,
+    161,
+    163,
+    164
+   ]
+  },
+  "examen": {
+   "texte": "Palpation : valeur prédictive positive 68 % si symptomatique, 36–38 % en dépistage; accroupissement unipodal sur plan incliné RV+ 4,2; trois tests négatifs RV− 0,3; épanchement ou douleur diffuse orientent ailleurs; quadricipitale : aucune Se/Sp publiée.",
+   "refs": [
+    163,
+    165,
+    166
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Tendinose dégénérative sans cellules inflammatoires : collagène désorganisé, néovascularisation, dégénérescence mucoïde; réponse de guérison inadéquate à la surcharge répétée.",
+   "refs": [
+    167,
+    168,
+    169
+   ]
+  },
+  "ddx": {
+   "texte": "Syndrome fémoro-patellaire, coussinet de Hoffa, plica, Osgood-Schlatter, Sinding-Larsen-Johansson (fiches G1, G9, G16, G13, G14); déchirure partielle du tendon rotulien.",
+   "refs": [
+    163,
+    170,
+    171
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; échographie Se 87 %, Sp 82 %; Doppler Se 70 %, Sp 94 %; IRM Se 57 %, Sp 82 %; anomalies échographiques dans 36–37 % des tendons d'athlètes universitaires, la plupart asymptomatiques; elles prédisent une douleur future (RR 6,07, valeur prédictive positive 27 %).",
+   "refs": [
+    172,
+    173,
+    174
+   ]
+  },
+  "traitement": {
+   "texte": "Mise en charge progressive du tendon : VISA-P +28 contre +18 (excentrique) à 24 semaines; infiltration de corticostéroïde : gain à 12 semaines perdu à 6 mois, déconseillée; PRP équivalent au salin; ondes de choc équivalentes au placebo; chirurgie équivalente à l'excentrique; ~10 % opérés.",
+   "refs": [
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181
+   ]
+  },
+  "pronostic": {
+   "texte": "5 Ans après exercices : 76 % rétablis, 71 % de retour au sport voulu, 9 % d'arrêt; retour au sport 27–43 % à 24 semaines; volleyball d'élite : 19 % de retraites à 11 ans; ancienne cohorte : 53 % (9 sur 17); incidence de rupture non établie.",
+   "refs": [
+    182,
+    175,
+    183,
+    184
+   ]
+  },
+  "refs": [
+   {
+    "n": 160,
+    "texte": "Lian OB et al. Am J Sports Med 2005",
+    "url": null
+   },
+   {
+    "n": 161,
+    "texte": "Zwerver J et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 162,
+    "texte": "Morton S et al. Clin J Sport Med 2017",
+    "url": null
+   },
+   {
+    "n": 163,
+    "texte": "Rio E et al. Scand J Med Sci Sports 2016",
+    "url": null
+   },
+   {
+    "n": 164,
+    "texte": "Meredith TJ et al. Curr Rev Musculoske… 2025",
+    "url": null
+   },
+   {
+    "n": 165,
+    "texte": "Cook JL et al. Br J Sports Med 2001",
+    "url": null
+   },
+   {
+    "n": 166,
+    "texte": "Mendonça Lde M et al. JOSPT 2016",
+    "url": null
+   },
+   {
+    "n": 167,
+    "texte": "Michael Dan et al. Cochrane 2019",
+    "url": null
+   },
+   {
+    "n": 168,
+    "texte": "Clarke AW et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 169,
+    "texte": "Bruni DF et al. Clin Orthop Relat Res 2023",
+    "url": null
+   },
+   {
+    "n": 170,
+    "texte": "Millar NL et al. Nature Reviews 2021",
+    "url": null
+   },
+   {
+    "n": 171,
+    "texte": "Kuwabara A et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 172,
+    "texte": "Cushman DM et al. Clin J Sport Med 2025",
+    "url": null
+   },
+   {
+    "n": 173,
+    "texte": "Warden SJ et al. Am J Sports Med 2007",
+    "url": null
+   },
+   {
+    "n": 174,
+    "texte": "Cushman DM et al. Clin J Sport Med 2024",
+    "url": null
+   },
+   {
+    "n": 175,
+    "texte": "Breda SJ et al. Br J Sports Med 2021",
+    "url": null
+   },
+   {
+    "n": 176,
+    "texte": "Kongsgaard M et al. Scand J Med Sci Sports 2009",
+    "url": null
+   },
+   {
+    "n": 177,
+    "texte": "Bahr R et al. JBJS 2006",
+    "url": null
+   },
+   {
+    "n": 178,
+    "texte": "Everhart JS et al. Arthroscopy 2017",
+    "url": null
+   },
+   {
+    "n": 179,
+    "texte": "Scott A et al. Am J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 180,
+    "texte": "Zwerver J et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 181,
+    "texte": "Jolly A et al. KSSTA 2026",
+    "url": null
+   },
+   {
+    "n": 182,
+    "texte": "Visnes H et al. Am J Sports Med 2024",
+    "url": null
+   },
+   {
+    "n": 183,
+    "texte": "Kettunen JA et al. Am J Sports Med 2002",
+    "url": null
+   },
+   {
+    "n": 184,
+    "texte": "Deng J et al. Am J Sports Med 2025",
+    "url": null
+   }
+  ],
+  "planche": "g8.webp"
+ },
+ {
+  "no": "G9",
+  "page": 9,
+  "tags": "GENOU · DOULEUR INFRA-ROTULIENNE · HYPEREXTENSION OU ROTULE HAUTE",
+  "titre": "SYNDROME DU COUSSINET ADIPEUX (HOFFA)",
+  "epidemiologie": {
+   "texte": "Incidence non établie; œdème supéro-latéral du coussinet à l'IRM dans 13,4 % des genoux (cohorte à risque d'arthrose); rotule haute RC 8,9 (IC 95 % 4,7– 16,9); déplacement latéral de la rotule RC 2,3.",
+   "refs": [
+    185
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur antérieure infra-rotulienne, en brûlure ou sourde; aggravée par accroupissement, escaliers, sauts, course; pincement à l'hyperextension passive.",
+   "refs": [
+    186,
+    187
+   ]
+  },
+  "examen": {
+   "texte": "Test de Hoffa (pression para-tendineuse, douleur dans les 10 derniers degrés d'extension) : aucune Se/Sp publiée; validité douteuse : douleur expérimentale du coussinet non modifiée par les manœuvres (11 volontaires).",
+   "refs": [
+    188,
+    171,
+    189
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Microtraumatismes répétés, puis inflammation, hypertrophie et fibrose; tissu richement innervé (fibres à substance P); forme supéro-latérale : conflit entre condyle fémoral latéral et tendon rotulien.",
+   "refs": [
+    190,
+    186,
+    191
+   ]
+  },
+  "ddx": {
+   "texte": "Tendinopathie rotulienne (signal anormal du coussinet chez 78 % de ces athlètes; fiche G8); syndrome fémoro-patellaire, plica médiale (fiches G1, G16); fibrose postopératoire; masse (kyste, ostéochondrome).",
+   "refs": [
+    171,
+    186,
+    191
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique d'abord; IRM examen de référence, mais œdème non spécifique : conflit clinique chez 17 sur 34 avec œdème, œdème chez 38 sur 43 sans conflit clinique; échographie : aucun critère validé.",
+   "refs": [
+    188,
+    192,
+    193
+   ]
+  },
+  "traitement": {
+   "texte": "Physiothérapie, taping de décharge, éviter l'hyperextension : aucun essai randomisé; infiltration de corticostéroïde : aucune donnée dans le conflit, essai négatif dans l'arthrose; résection arthroscopique : Lysholm +54 à 68 mois, 30 sur 34 de retour au niveau antérieur (série); preuves de faible qualité.",
+   "refs": [
+    186,
+    194,
+    195,
+    196
+   ]
+  },
+  "pronostic": {
+   "texte": "Histoire naturelle non étudiée; après arthroscopie, symptômes prolongés prédisent un gain moindre (r = −0,58); œdème supéro-latéral associé à une perte de cartilage rotulien à 24 mois (RC 2,11).",
+   "refs": [
+    197,
+    195
+   ]
+  },
+  "refs": [
+   {
+    "n": 185,
+    "texte": "Widjajahakim R et al. Radiology 2017",
+    "url": null
+   },
+   {
+    "n": 186,
+    "texte": "Dragoo JL et al. Sports Med 2012",
+    "url": null
+   },
+   {
+    "n": 187,
+    "texte": "Hannon J et al. Sports Health 2016",
+    "url": null
+   },
+   {
+    "n": 188,
+    "texte": "Verrier J et al. PM & R 2026",
+    "url": null
+   },
+   {
+    "n": 171,
+    "texte": "Kuwabara A et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 189,
+    "texte": "Bennell K et al. Journal of Orthopae… 2004",
+    "url": null
+   },
+   {
+    "n": 190,
+    "texte": "Campagna R et al. Radiology 2012",
+    "url": null
+   },
+   {
+    "n": 191,
+    "texte": "Eymard F et al. Joint Bone Spine 2016",
+    "url": null
+   },
+   {
+    "n": 192,
+    "texte": "De Smet AA et al. AJR 2012",
+    "url": null
+   },
+   {
+    "n": 193,
+    "texte": "Mikkilineni H et al. The Knee 2018",
+    "url": null
+   },
+   {
+    "n": 194,
+    "texte": "Zhang Y et al. JAMA Network Open 2026",
+    "url": null
+   },
+   {
+    "n": 195,
+    "texte": "Kumar D et al. Arthroscopy 2007",
+    "url": null
+   },
+   {
+    "n": 196,
+    "texte": "Rooney A et al. Orthopaedics & Trau… 2015",
+    "url": null
+   },
+   {
+    "n": 197,
+    "texte": "Haj-Mirzaian A et al. Eur Radiol 2018",
+    "url": null
+   }
+  ],
+  "planche": "g9.webp"
+ },
+ {
+  "no": "G10",
+  "page": 10,
+  "tags": "GENOU · DOULEUR LATÉRALE · SURCHARGE CHEZ LE COUREUR ET LE CYCLISTE",
+  "titre": "SYNDROME DE LA BANDELETTE ILIO-TIBIALE",
+  "epidemiologie": {
+   "texte": "5–14 % Des blessures de course, 2ᵉ en fréquence; cyclistes : 15 % des blessures de surcharge du genou; recrues militaires 6,2 % en 26 semaines; répartition selon le sexe contradictoire.",
+   "refs": [
+    198,
+    199,
+    200,
+    201,
+    202,
+    203
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur latérale 2–3 cm au-dessus de l'interligne, insidieuse après hausse du kilométrage ou course en descente; conflit maximal vers 30° de flexion; sprint moins provocateur.",
+   "refs": [
+    203,
+    204,
+    205
+   ]
+  },
+  "examen": {
+   "texte": "Test de compression de Noble : aucune Se/Sp publiée; test d'Ober non valide (section de la bandelette : adduction modifiée de < 1° sur cadavres); sensibilité de l'interligne oriente vers le ménisque latéral.",
+   "refs": [
+    203,
+    206
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Compression d'un tissu adipeux richement innervé sous la bandelette à 30°, plutôt que friction; aucune bourse chez 15 cadavres; faiblesse des abducteurs de hanche : rôle causal non démontré.",
+   "refs": [
+    203,
+    207
+   ]
+  },
+  "ddx": {
+   "texte": "Syndrome fémoro-patellaire, déchirure du ménisque latéral, plica latérale (fiches G1, G3, G16); fracture de stress du fémur distal; tendinopathie fessière; radiculopathie lombaire.",
+   "refs": [
+    203
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; IRM normale n'exclut pas le diagnostic; épaisseur de la bandelette > 2,29 mm : Se 76,7 %, Sp 79,1 %; échographie dynamique réservée aux cas réfractaires.",
+   "refs": [
+    208,
+    209,
+    210
+   ]
+  },
+  "traitement": {
+   "texte": "Modification de l'activité, AINS, renforcement des abducteurs de hanche : succès 94 % (48 patients); infiltration de corticostéroïde : douleur à la course réduite à 14 jours (18 coureurs); ondes de choc équivalentes à la thérapie manuelle; chirurgie : 84 % de bons résultats, retour au sport en 7 semaines à 3 mois (séries).",
+   "refs": [
+    208,
+    211,
+    212,
+    213,
+    214,
+    215
+   ]
+  },
+  "pronostic": {
+   "texte": "92 % (22 Sur 24) sans douleur et de retour à la course à 6 semaines, sans récidive à 6 mois; réadaptation 8 ± 5 jours chez des recrues; ~4 % (9 sur 221) opérés; récidive à long terme non étudiée.",
+   "refs": [
+    201,
+    216,
+    217
+   ]
+  },
+  "refs": [
+   {
+    "n": 198,
+    "texte": "van der Worp MP et al. Sports Med 2012",
+    "url": null
+   },
+   {
+    "n": 199,
+    "texte": "Taunton JE et al. Br J Sports Med 2002",
+    "url": null
+   },
+   {
+    "n": 200,
+    "texte": "Agridag Ucpinar B et al. Acta Radiologica (S… 1987",
+    "url": null
+   },
+   {
+    "n": 201,
+    "texte": "Sharma J et al. BMC Musculoskelet D… 2015",
+    "url": null
+   },
+   {
+    "n": 202,
+    "texte": "Foch E et al. Gait & Posture 2023",
+    "url": null
+   },
+   {
+    "n": 203,
+    "texte": "Hutchinson LA et al. Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 204,
+    "texte": "Fredericson M et al. Sports Med 2005",
+    "url": null
+   },
+   {
+    "n": 205,
+    "texte": "Orchard JW et al. Am J Sports Med 1996",
+    "url": null
+   },
+   {
+    "n": 206,
+    "texte": "Willett GM et al. Am J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 207,
+    "texte": "Fairclough J et al. Journal of Anatomy 2006",
+    "url": null
+   },
+   {
+    "n": 208,
+    "texte": "Hariri S et al. Am J Sports Med 2009",
+    "url": null
+   },
+   {
+    "n": 209,
+    "texte": "Park J et al. The Korean Journal… 2021",
+    "url": null
+   },
+   {
+    "n": 210,
+    "texte": "Bateman EA et al. Muscle & Nerve 2025",
+    "url": null
+   },
+   {
+    "n": 211,
+    "texte": "Gunter P et al. Br J Sports Med 2004",
+    "url": null
+   },
+   {
+    "n": 212,
+    "texte": "Liao CD et al. BMC Musculoskelet D… 2018",
+    "url": null
+   },
+   {
+    "n": 213,
+    "texte": "Drogset JO et al. Scand J Med Sci Sports 1999",
+    "url": null
+   },
+   {
+    "n": 214,
+    "texte": "Martens M et al. Am J Sports Med 1989",
+    "url": null
+   },
+   {
+    "n": 215,
+    "texte": "Michels F et al. KSSTA 2009",
+    "url": null
+   },
+   {
+    "n": 216,
+    "texte": "Noble CA Br J Sports Med 1979",
+    "url": null
+   },
+   {
+    "n": 217,
+    "texte": "Fredericson M et al. Clin J Sport Med 2000",
+    "url": null
+   }
+  ],
+  "planche": "g10.webp"
+ },
+ {
+  "no": "G11",
+  "page": 11,
+  "tags": "GENOU · TUMÉFACTION DEVANT LA ROTULE · TRAVAIL À GENOUX OU CHOC DIRECT",
+  "titre": "BURSITE PRÉPATELLAIRE NON INFECTÉE",
+  "epidemiologie": {
+   "texte": "Bursites prépatellaire et olécrânienne : ≥ 10 par 100 000 par an, hommes 80 %, 40–60 ans, deux tiers non septiques; prévalence au travail 0,6 % (H), 0,2 % (F), construction 2,3 %; poseurs de tapis : bourse épaissie 49 % contre 7 % (peintres).",
+   "refs": [
+    218,
+    219,
+    220
+   ]
+  },
+  "presentation": {
+   "texte": "Tuméfaction fluctuante devant la rotule, plus enflée que douloureuse en chronique; agenouillement répété ou choc direct; amplitude parfois réduite.",
+   "refs": [
+    221,
+    171
+   ]
+  },
+  "examen": {
+   "texte": "Orientent vers une bursite septique : fièvre > 37,8 °C, lésion cutanée, écart de température cutanée > 2,2 °C (Se 100 %, Sp 94 %, une étude); fièvre présente dans 31 % seulement des bursites septiques rotuliennes; épanchement articulaire oriente ailleurs.",
+   "refs": [
+    218,
+    171,
+    222
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Microtraumatismes chroniques surtout; traumatisme aigu ou hémorragie, goutte, polyarthrite rhumatoïde; peau amincie (corticostéroïdes, âge) favorise.",
+   "refs": [
+    221,
+    171
+   ]
+  },
+  "ddx": {
+   "texte": "Bursite septique (S. Aureus ~80 %); bursite goutteuse; cellulite; épanchement articulaire; lésion de Morel-Lavallée.",
+   "refs": [
+    221,
+    171,
+    223
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique si froide et indolore; ponction si infection ou cristaux suspectés : septique si leucocytes > 3000/ µL, neutrophiles > 50 %, glucose liquide/sérum < 50 %; décompte < 2000 dans 12,5 % des bursites septiques sévères; l'imagerie ne distingue pas septique et aseptique.",
+   "refs": [
+    218,
+    221,
+    224,
+    225
+   ]
+  },
+  "traitement": {
+   "texte": "Protection, glace, compression, AINS, éviter l'agenouillement; infiltration de corticostéroïde : aucune preuve de qualité; au coude, 3 infections et 5 atrophies cutanées sur 25; compression + AINS 83 % résolus à 4 semaines contre 85 % (ponction + corticostéroïde, coude); bursectomie si réfractaire : récidive 6,3 %.",
+   "refs": [
+    218,
+    221,
+    226,
+    227,
+    223
+   ]
+  },
+  "pronostic": {
+   "texte": "Résolution lente, 3 semaines à 3 mois; récidive 2 sur 7 sans chirurgie en cohorte.",
+   "refs": [
+    228,
+    171,
+    223
+   ]
+  },
+  "refs": [
+   {
+    "n": 218,
+    "texte": "Baumbach SF et al. Arch Orthop Trauma… 2014",
+    "url": null
+   },
+   {
+    "n": 219,
+    "texte": "Le Manac'h AP et al. Occupational Medici… 2012",
+    "url": null
+   },
+   {
+    "n": 220,
+    "texte": "Kivimäki J Scandinavian Journa… 1992",
+    "url": null
+   },
+   {
+    "n": 221,
+    "texte": "Khodaee M Am Fam Physician 2017",
+    "url": null
+   },
+   {
+    "n": 171,
+    "texte": "Kuwabara A et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 222,
+    "texte": "Lieber SB et al. Infection 2017",
+    "url": null
+   },
+   {
+    "n": 223,
+    "texte": "Brown OS et al. Arch Orthop Trauma… 2022",
+    "url": null
+   },
+   {
+    "n": 224,
+    "texte": "García-Porrúa C et al. J Rheumatol 1999",
+    "url": null
+   },
+   {
+    "n": 225,
+    "texte": "McLuckey MN et al. Pediatr Radiol 2026",
+    "url": null
+   },
+   {
+    "n": 226,
+    "texte": "Weinstein PS et al. Ann Rheum Dis 1984",
+    "url": null
+   },
+   {
+    "n": 227,
+    "texte": "Kim JY et al. Clin Orthop Relat Res 2016",
+    "url": null
+   },
+   {
+    "n": 228,
+    "texte": "Sayegh ET et al. Arch Orthop Trauma… 2014",
+    "url": null
+   }
+  ],
+  "planche": "g11.webp"
+ },
+ {
+  "no": "G12",
+  "page": 12,
+  "tags": "GENOU · DOULEUR TIBIALE MÉDIALE PROXIMALE · FEMME D'ÂGE MÛR AVEC ARTHROSE OU",
+  "titre": "TENDINOBURSITE DE LA PATTE D'OIE",
+  "epidemiologie": {
+   "texte": "0,34 % En population (12 686 adultes); bursite à l'IRM 7,5 % vers 72 ans (F 12,5 %, H 1,7 %); arthrose symptomatique 20–43 % à l'échographie; diabète de type 2 : 29–36 %; obésité non associée significativement.",
+   "refs": [
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur médiale proximale du tibia, aux escaliers et au lever d'une chaise; tuméfaction parfois; imite une déchirure du ménisque médial.",
+   "refs": [
+    236,
+    237
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité ~3 cm sous l'interligne antéro-médial : aucune Se/Sp publiée; l'échographie confirme rarement le diagnostic clinique (2 sur 26; 3 sur 37); sensibilité de l'interligne oriente vers le ménisque (Se 83 %, Sp 83 %).",
+   "refs": [
+    58,
+    238,
+    239,
+    3
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Friction répétée ou traumatisme direct; associée à arthrose, diabète, valgus; lésion exacte inconnue et débattue; tendinopathies plus fréquentes dans le diabète en général (RC 3,67).",
+   "refs": [
+    237,
+    240
+   ]
+  },
+  "ddx": {
+   "texte": "Déchirure du ménisque médial, entorse du LLI, arthrose médiale, fracture sous-chondrale d'insuffisance (fiches G3, G6, G2, G23); fracture du plateau tibial; douleur référée de la hanche ou du rachis; tendinopathie du semi-membraneux.",
+   "refs": [
+    58,
+    241,
+    242,
+    243
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; échographie ou IRM si doute : liquide sous les tendons, évite une arthroscopie inutile; bursite à l'IRM dans 2,5 % des genoux symptomatiques; infiltration à l'aveugle dans la bourse : 4 sur 22 contre toutes sous échographie.",
+   "refs": [
+    236,
+    237
+   ]
+  },
+  "traitement": {
+   "texte": "AINS, physiothérapie : aucun essai randomisé repéré; infiltration de corticostéroïde : 8 sur 17 améliorés, 8 inchangés (non contrôlée); supérieure à 1 semaine, dépassée à 8 semaines par ozone et prolothérapie; PRP : 84,8 % soulagés, sans groupe témoin.",
+   "refs": [
+    239,
+    244,
+    245,
+    246
+   ]
+  },
+  "pronostic": {
+   "texte": "Histoire naturelle et récidive non étudiées; guérison rapportée de 10 jours à 36 mois; sensibilité de la patte d'oie associée à la prothèse du genou dans l'arthrose (RC 1,54).",
+   "refs": [
+    247,
+    244
+   ]
+  },
+  "refs": [
+   {
+    "n": 229,
+    "texte": "Uysal F et al. Clin Rheumatol 2015",
+    "url": null
+   },
+   {
+    "n": 230,
+    "texte": "Abicalaf CARP et al. Sci Rep 2021",
+    "url": null
+   },
+   {
+    "n": 231,
+    "texte": "Kim IJ et al. BMC Musculoskelet D… 2016",
+    "url": null
+   },
+   {
+    "n": 232,
+    "texte": "Cohen SE et al. J Rheumatol 1997",
+    "url": null
+   },
+   {
+    "n": 233,
+    "texte": "Unlu Z et al. J Rheumatol 2003",
+    "url": null
+   },
+   {
+    "n": 234,
+    "texte": "Alvarez-Nemegyei J et al. J Rheumatol 2011",
+    "url": null
+   },
+   {
+    "n": 235,
+    "texte": "Franceschi F et al. International Journ… 2014",
+    "url": null
+   },
+   {
+    "n": 236,
+    "texte": "Rennie WJ et al. Skeletal Radiol 2005",
+    "url": null
+   },
+   {
+    "n": 237,
+    "texte": "Lee JH et al. Journal of Clinical… 2019",
+    "url": null
+   },
+   {
+    "n": 58,
+    "texte": "Pendergraph B et al. Am Fam Physician 2026",
+    "url": null
+   },
+   {
+    "n": 238,
+    "texte": "Uson J et al. Scandinavian Journa… 2000",
+    "url": null
+   },
+   {
+    "n": 239,
+    "texte": "Yoon HS et al. Journal of Korean M… 2005",
+    "url": null
+   },
+   {
+    "n": 3,
+    "texte": "Duong V et al. JAMA 2023",
+    "url": null
+   },
+   {
+    "n": 240,
+    "texte": "Ranger TA et al. Br J Sports Med 2016",
+    "url": null
+   },
+   {
+    "n": 241,
+    "texte": "Gupte C et al. Journal of the Roya… 2013",
+    "url": null
+   },
+   {
+    "n": 242,
+    "texte": "Lonner JH JAMA 2003",
+    "url": null
+   },
+   {
+    "n": 243,
+    "texte": "Bylund WE et al. Sports Health 2010",
+    "url": null
+   },
+   {
+    "n": 244,
+    "texte": "Saggini R et al. Journal of Alternat… 2015",
+    "url": null
+   },
+   {
+    "n": 245,
+    "texte": "Babaei-Ghazani A et al. American Journal of… 2024",
+    "url": null
+   },
+   {
+    "n": 246,
+    "texte": "Hunter CW et al. Journal of Pain Res… 2022",
+    "url": null
+   },
+   {
+    "n": 247,
+    "texte": "Xiong T et al. Clin Rheumatol 2023",
+    "url": null
+   }
+  ],
+  "planche": "g12.webp"
+ },
+ {
+  "no": "G13",
+  "page": 13,
+  "tags": "GENOU · DOULEUR À LA TUBÉROSITÉ TIBIALE · ADOLESCENT SPORTIF EN POUSSÉE DE",
+  "titre": "MALADIE D'OSGOOD-SCHLATTER",
+  "epidemiologie": {
+   "texte": "Prévalence 9,8 % à 12–15 ans (garçons 11,0 %, filles 8,3 %); médecine générale : 3,8 par 1000 p-a, pic à 12 ans (garçons), 11 ans (filles); sport RR 1,98; droit fémoral raccourci RC 7,15; bilatérale 20–30 %.",
+   "refs": [
+    248,
+    249,
+    250,
+    251,
+    252
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur insidieuse à la tubérosité tibiale, à la course, aux sauts, à l'agenouillement et à l'accroupissement; douleur depuis 21 mois en moyenne dans une cohorte de 10–14 ans.",
+   "refs": [
+    251,
+    253
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité ponctuelle, tubérosité proéminente, douleur à l'extension résistée : aucune Se/Sp publiée; accroupissement unipodal : manœuvre la plus provocatrice; début aigu avec impotence oriente vers une fracture-avulsion.",
+   "refs": [
+    251,
+    254,
+    255,
+    143
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Apophysite de traction : microavulsions répétées du noyau d'ossification secondaire par le tendon rotulien; stade apophysaire (11–14 ans); risque maximal à ± 6 mois du pic de croissance.",
+   "refs": [
+    256,
+    257,
+    258
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture-avulsion de la tubérosité (627 contre 43 par 100 000 p-a avec et sans Osgood-Schlatter); Sinding- Larsen-Johansson, tendinopathie rotulienne, syndrome fémoro-patellaire (fiches G14, G8, G1); épiphysiolyse fémorale supérieure; ostéomyélite, tumeur.",
+   "refs": [
+    254,
+    259,
+    260
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie de profil si atypique ou réfractaire; fragmentation aussi présente chez des enfants asymptomatiques; Doppler positif à l'échographie 77 % contre 30 % (témoins); 19,5 % dirigés en imagerie en médecine générale, contrairement au guide néerlandais.",
+   "refs": [
+    58,
+    250,
+    255,
+    261,
+    262
+   ]
+  },
+  "traitement": {
+   "texte": "Gestion de la charge par paliers et renforcement : succès 80 % à 12 semaines, 90 % à 12 mois (cohorte sans témoins); sangle sous-rotulienne, étirements : aucun essai; dextrose équivalent au salin (31,8 % contre 23,8 %); corticostéroïde évité; excision de l'ossicule : 87 % sans restriction à 10 ans.",
+   "refs": [
+    251,
+    253,
+    263,
+    264,
+    265,
+    266
+   ]
+  },
+  "pronostic": {
+   "texte": "Durée moyenne 19,1 mois; 50 % sans symptômes à 16 mois, 75 % à 25 mois; retour au sport 16 % à 12 semaines, 69 % à 12 mois; douleur persistante 60,5 % à 3,75 ans; 28,3 % changent de sport.",
+   "refs": [
+    267,
+    253,
+    268
+   ]
+  },
+  "refs": [
+   {
+    "n": 248,
+    "texte": "de Lucena GL et al. Am J Sports Med 2011",
+    "url": null
+   },
+   {
+    "n": 249,
+    "texte": "Haines M et al. Clin J Sport Med 2022",
+    "url": null
+   },
+   {
+    "n": 250,
+    "texte": "van Leeuwen GJ et al. Br J Gen Pract 2022",
+    "url": null
+   },
+   {
+    "n": 251,
+    "texte": "Kuwabara A et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 252,
+    "texte": "Brown T et al. Clin Pediatr 2019",
+    "url": null
+   },
+   {
+    "n": 253,
+    "texte": "Rathleff MS et al. Orthop J Sports Med 2020",
+    "url": null
+   },
+   {
+    "n": 254,
+    "texte": "Yun L et al. Pediatr Rev 2024",
+    "url": null
+   },
+   {
+    "n": 255,
+    "texte": "Holden S et al. Scand J Med Sci Sports 2024",
+    "url": null
+   },
+   {
+    "n": 143,
+    "texte": "MacDonald J et al. JAMA Pediatrics 2021",
+    "url": null
+   },
+   {
+    "n": 256,
+    "texte": "Frush TJ et al. Sports Health 2009",
+    "url": null
+   },
+   {
+    "n": 257,
+    "texte": "Takei S et al. KSSTA 2023",
+    "url": null
+   },
+   {
+    "n": 258,
+    "texte": "Green DW et al. Am J Sports Med 2020",
+    "url": null
+   },
+   {
+    "n": 259,
+    "texte": "Milner JD et al. J Pediatr Orthop 2024",
+    "url": null
+   },
+   {
+    "n": 260,
+    "texte": "Pan T et al. Arch Orthop Trauma… 2022",
+    "url": null
+   },
+   {
+    "n": 58,
+    "texte": "Pendergraph B et al. Am Fam Physician 2026",
+    "url": null
+   },
+   {
+    "n": 261,
+    "texte": "Lintner LJ et al. Am Fam Physician 2023",
+    "url": null
+   },
+   {
+    "n": 262,
+    "texte": "West EY et al. Pediatr Radiol 2019",
+    "url": null
+   },
+   {
+    "n": 263,
+    "texte": "Davis J et al. Curr Rev Musculoske… 2023",
+    "url": null
+   },
+   {
+    "n": 264,
+    "texte": "Hansen R et al. Scand J Med Sci Sports 2023",
+    "url": null
+   },
+   {
+    "n": 265,
+    "texte": "Nakase J et al. Arch Orthop Trauma… 2020",
+    "url": null
+   },
+   {
+    "n": 266,
+    "texte": "Pihlajamäki HK et al. JBJS 2009",
+    "url": null
+   },
+   {
+    "n": 267,
+    "texte": "Gaulrapp H et al. International Ortho… 2022",
+    "url": null
+   },
+   {
+    "n": 268,
+    "texte": "Guldhammer C et al. Orthop J Sports Med 2019",
+    "url": null
+   }
+  ],
+  "planche": "g13.webp"
+ },
+ {
+  "no": "G14",
+  "page": 14,
+  "tags": "GENOU · DOULEUR AU PÔLE INFÉRIEUR DE LA ROTULE · ENFANT SPORTIF DE 10 À 14 ANS",
+  "titre": "MALADIE DE SINDING-LARSEN-JOHANSSON",
+  "epidemiologie": {
+   "texte": "Âge moyen au diagnostic 11,7 ans; 2ᵉ apophysite du membre inférieur après Sever; signes à l'IRM chez 0,8 % (16 sur 1910) vers 13,5 ans; répartition selon le sexe contradictoire; prévalence chez les athlètes non établie.",
+   "refs": [
+    269,
+    270,
+    271,
+    252
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur insidieuse au pôle inférieur de la rotule, liée à la charge; traumatisme aigu rapporté dans 24 % seulement.",
+   "refs": [
+    261,
+    149
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité du pôle inférieur : aucune Se/Sp publiée; élévation de la jambe tendue conservée 98 %, épanchement 3 %, appui possible 88 %; fracture en manchon : 38 %, 81 % et 0 %.",
+   "refs": [
+    261,
+    149
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Apophysite de traction chronique du pôle inférieur de la rotule; calcification à l'origine partiellement avulsée du tendon rotulien.",
+   "refs": [
+    262,
+    272
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture en manchon de la rotule (traumatisme aigu 100 %); tendinopathie rotulienne, Osgood-Schlatter (fiches G8, G13); rotule bipartite (1,1 % à l'IRM); fragmentation du pôle inférieur, souvent variante normale.",
+   "refs": [
+    269,
+    254,
+    252,
+    149,
+    273
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie normale ou spicules et fragmentation; échographie : tendon épaissi, calcification, fragmentation; radiographie si traumatisme aigu, épanchement ou élévation de la jambe tendue impossible.",
+   "refs": [
+    274,
+    149,
+    251
+   ]
+  },
+  "traitement": {
+   "texte": "Repos relatif et gestion de la charge, comme pour Osgood-Schlatter; aucun essai randomisé; infiltration : aucune donnée; chirurgie : rapports de cas seulement, chez l'adulte.",
+   "refs": [
+    271,
+    261,
+    275,
+    276
+   ]
+  },
+  "pronostic": {
+   "texte": "Spontanément résolutive (série de 8 patients); amélioration en 2–8 mois; guérison en 3–6 mois ou 12–24 mois selon les sources.",
+   "refs": [
+    261,
+    271,
+    272,
+    251
+   ]
+  },
+  "refs": [
+   {
+    "n": 269,
+    "texte": "Kemmeren LAM et al. Am J Sports Med 2024",
+    "url": null
+   },
+   {
+    "n": 270,
+    "texte": "Wedderkopp N et al. Sports Med 2026",
+    "url": null
+   },
+   {
+    "n": 271,
+    "texte": "Wilczyński B et al. PeerJ 2024",
+    "url": null
+   },
+   {
+    "n": 252,
+    "texte": "Brown T et al. Clin Pediatr 2019",
+    "url": null
+   },
+   {
+    "n": 261,
+    "texte": "Lintner LJ et al. Am Fam Physician 2023",
+    "url": null
+   },
+   {
+    "n": 149,
+    "texte": "Devana SK et al. Am J Sports Med 2022",
+    "url": null
+   },
+   {
+    "n": 262,
+    "texte": "West EY et al. Pediatr Radiol 2019",
+    "url": null
+   },
+   {
+    "n": 272,
+    "texte": "Medlar RC et al. JBJS 1978",
+    "url": null
+   },
+   {
+    "n": 254,
+    "texte": "Yun L et al. Pediatr Rev 2024",
+    "url": null
+   },
+   {
+    "n": 273,
+    "texte": "Kan JH et al. Pediatr Radiol 2015",
+    "url": null
+   },
+   {
+    "n": 274,
+    "texte": "De Flaviis L et al. Skeletal Radiol 1989",
+    "url": null
+   },
+   {
+    "n": 251,
+    "texte": "Kuwabara A et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 275,
+    "texte": "Alhamzah HA et al. Medicine 2025",
+    "url": null
+   },
+   {
+    "n": 276,
+    "texte": "Dolores-Rodriguez A et al. Clin J Sport Med 2026",
+    "url": null
+   }
+  ],
+  "planche": "g14.webp"
+ },
+ {
+  "no": "G15",
+  "page": 15,
+  "tags": "GENOU · DOULEUR POST-TRAUMATIQUE AVEC EXAMEN RASSURANT · CHOC DIRECT OU",
+  "titre": "CONTUSION OU ENTORSE LÉGÈRE, SANS LÉSION STRUCTURELLE",
+  "epidemiologie": {
+   "texte": "Traumatismes du genou : 5,3 par 1000 p-a en médecine générale, 6 par 1000 à l'urgence; fracture 1,2 % en première ligne, 6–11 % à l'urgence; entorses et élongations : 42 % des gonalgies aiguës; IRM positive chez 39 % seulement (18–45 ans).",
+   "refs": [
+    277,
+    278,
+    279,
+    280
+   ]
+  },
+  "presentation": {
+   "texte": "Choc direct ou torsion, appui conservé; « pop » avec gonflement immédiat : valeur prédictive positive 65 % pour une lésion à l'IRM; traumatisme sportif RC 4,6.",
+   "refs": [
+    280
+   ]
+  },
+  "examen": {
+   "texte": "Gonflement rapporté + ballottement : RV+ 3,6 pour un épanchement; épanchement à l'IRM : lésion interne dans 74 %; hémarthrose : LCA 52 %, ménisque 41 %; 9–14 ans : lésion sérieuse jusqu'à 70 %; examen composite du LCA RV− 0,04.",
+   "refs": [
+    60,
+    143,
+    281,
+    107
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Contusion des tissus mous ou de l'os, étirement ligamentaire sans rupture; contusion osseuse : guérison médiane à l'IRM 42,1 semaines; résolution complète 88–100 % en 5–16 mois.",
+   "refs": [
+    282,
+    283
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture; en médecine générale, déchirure méniscale 35 % et lésion du LLI 26 % des traumatismes; rupture du LCA, luxation de la rotule (fiches G3, G6, G4, G7).",
+   "refs": [
+    115,
+    60,
+    284
+   ]
+  },
+  "investigations": {
+   "texte": "Ottawa (≥ 55 ans, sensibilité isolée de la rotule ou de la tête de la fibula, flexion < 90°, 4 pas impossibles) : Se 98,5 %, Sp 48,6 %, RV− 0,05; enfants Se 99 %, Sp 46 %; Pittsburgh Se 99 %, Sp 60 %; IRM en première ligne : sans gain fonctionnel, plus coûteuse.",
+   "refs": [
+    85,
+    127,
+    285,
+    286,
+    287,
+    288
+   ]
+  },
+  "traitement": {
+   "texte": "AINS topiques : NNT 1,8 (diclofénac gel) à 3,9 (ibuprofène gel), première ligne; AINS oraux équivalents à l'acétaminophène (retour à la fonction RR 0,99); glace : soulage, sans effet sur la fonction ni le délai; mobilisation précoce : aucun essai propre au genou.",
+   "refs": [
+    289,
+    290,
+    291,
+    292,
+    293,
+    294
+   ]
+  },
+  "pronostic": {
+   "texte": "À 1 an, 83 % guéris ou très améliorés, 17 % avec plaintes persistantes; gain surtout dans les 3 premiers mois; âge > 40 ans RC 8,0 pour la persistance; examen et IRM non prédictifs.",
+   "refs": [
+    295,
+    296
+   ]
+  },
+  "refs": [
+   {
+    "n": 277,
+    "texte": "Swart NM et al. BMC Musculoskelet D… 2014",
+    "url": null
+   },
+   {
+    "n": 278,
+    "texte": "Ferry T et al. KSSTA 2014",
+    "url": null
+   },
+   {
+    "n": 279,
+    "texte": "Jackson JL et al. Ann Intern Med 2003",
+    "url": null
+   },
+   {
+    "n": 280,
+    "texte": "van Oudenaarde K et al. Br J Gen Pract 2017",
+    "url": null
+   },
+   {
+    "n": 60,
+    "texte": "Olsson O et al. Osteoarthritis Cart… 2016",
+    "url": null
+   },
+   {
+    "n": 143,
+    "texte": "MacDonald J et al. JAMA Pediatrics 2021",
+    "url": null
+   },
+   {
+    "n": 281,
+    "texte": "Kastelein M et al. Arch Phys Med Rehabil 2009",
+    "url": null
+   },
+   {
+    "n": 107,
+    "texte": "Solomon DH et al. JAMA 2001",
+    "url": null
+   },
+   {
+    "n": 282,
+    "texte": "Boks SS et al. AJR 2007",
+    "url": null
+   },
+   {
+    "n": 283,
+    "texte": "Nagelli CV et al. Sports Med 2017",
+    "url": null
+   },
+   {
+    "n": 115,
+    "texte": "Kastelein M et al. The American Journa… 2008",
+    "url": null
+   },
+   {
+    "n": 284,
+    "texte": "Wagemakers HP et al. Clin J Sport Med 2008",
+    "url": null
+   },
+   {
+    "n": 85,
+    "texte": "Bachmann LM et al. Ann Intern Med 2004",
+    "url": null
+   },
+   {
+    "n": 127,
+    "texte": "Seaberg DC et al. Ann Emerg Med 1998",
+    "url": null
+   },
+   {
+    "n": 285,
+    "texte": "Vijayasankar D et al. Emerg Med J 2009",
+    "url": null
+   },
+   {
+    "n": 286,
+    "texte": "Jesse M Pines, Fernanda Bel…",
+    "url": null
+   },
+   {
+    "n": 287,
+    "texte": "Swart NM et al. Br J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 288,
+    "texte": "van Oudenaarde K et al. Radiology 2018",
+    "url": null
+   },
+   {
+    "n": 289,
+    "texte": "Sheena Derry et al. Cochrane 2015",
+    "url": null
+   },
+   {
+    "n": 290,
+    "texte": "Qaseem A et al. Ann Intern Med 2020",
+    "url": null
+   },
+   {
+    "n": 291,
+    "texte": "Peter Jones et al. Cochrane 2020",
+    "url": null
+   },
+   {
+    "n": 292,
+    "texte": "Hubbard TJ et al. Journal of Athletic… 2004",
+    "url": null
+   },
+   {
+    "n": 293,
+    "texte": "Hewett Brumberg EK et al. Circulation 2024",
+    "url": null
+   },
+   {
+    "n": 294,
+    "texte": "Bleakley CM et al. BMJ (Clinical Resea… 2010",
+    "url": null
+   },
+   {
+    "n": 295,
+    "texte": "Wagemakers HP et al. Br J Gen Pract 2012",
+    "url": null
+   },
+   {
+    "n": 296,
+    "texte": "Wagemakers HP et al. Br J Gen Pract 2010",
+    "url": null
+   }
+  ],
+  "planche": "g15.webp"
+ },
+ {
+  "no": "G16",
+  "page": 16,
+  "tags": "GENOU · DOULEUR ANTÉRO-MÉDIALE AVEC RESSAUT · JEUNE ADULTE ACTIF, APRÈS CHOC",
+  "titre": "SYNDROME DE LA PLICA",
+  "epidemiologie": {
+   "texte": "Plica médiale présente dans 18,5–95 % des genoux, 79,9 % à l'arthroscopie (3889 genoux); symptomatique ~1 sur 10; plica pathologique isolée : 4 % des arthroscopies diagnostiques; âge moyen 25 ans, sexes égaux, traumatisme déclencheur 57 %.",
+   "refs": [
+    297,
+    298,
+    299,
+    300,
+    301
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur antéro-médiale, craquement, ressaut, accrochage, pseudo-blocage, parfois épanchement; conflit sur le condyle médial entre 30 et 60° de flexion.",
+   "refs": [
+    297,
+    302,
+    303
+   ]
+  },
+  "examen": {
+   "texte": "Test MPP (pression sur la plica : douleur en extension, soulagée à 90°) : Se 89,5 %, Sp 88,7 %; regroupé Se 90 %, Sp 89 %; témoins sélectionnés, validité probablement surestimée; tests de Hughston et du « stutter » : aucune Se/Sp publiée.",
+   "refs": [
+    304,
+    305,
+    171,
+    306
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Vestige des cloisons synoviales embryonnaires; traumatisme ou surcharge, puis inflammation, fibrose et perte d'élasticité; frottement sur le condyle médial avec lésion cartilagineuse; types C et D de Sakakibara plus symptomatiques.",
+   "refs": [
+    301,
+    303,
+    307,
+    171
+   ]
+  },
+  "ddx": {
+   "texte": "Déchirure du ménisque médial, syndrome fémoro- patellaire, ostéochondrite disséquante (fiches G3, G1, G19); lésion cartilagineuse; conflit du coussinet de Hoffa et synovite localisée, faux positifs du MPP (fiche G9).",
+   "refs": [
+    297,
+    308,
+    304
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie normale, pour exclure une lésion osseuse; IRM Se 77 %, Sp 58 % : confirme mal, sert à exclure autre chose; échographie dynamique Se 90 %, Sp 83 % (une étude).",
+   "refs": [
+    305,
+    171,
+    309
+   ]
+  },
+  "traitement": {
+   "texte": "Physiothérapie : bon résultat 40 % à 87 % selon les séries, échec 64,9 % en centre tertiaire; infiltration intra-plicale de corticostéroïde : 73 % soulagés (30 patients, non contrôlée); résection arthroscopique : 64 % sans symptômes, 26 % améliorés, 10 % d'échecs; aucun essai randomisé.",
+   "refs": [
+    301,
+    310,
+    311,
+    306,
+    312
+   ]
+  },
+  "pronostic": {
+   "texte": "Histoire naturelle non étudiée; meilleur si jeune, symptômes brefs, sans chondromalacie; complications chirurgicales 6,5 %; retour au sport semblable avec ou sans chirurgie.",
+   "refs": [
+    300,
+    301,
+    306
+   ]
+  },
+  "refs": [
+   {
+    "n": 297,
+    "texte": "Dupont JY Clinics in Sports M… 1997",
+    "url": null
+   },
+   {
+    "n": 298,
+    "texte": "Nakayama A et al. Arthroscopy 2011",
+    "url": null
+   },
+   {
+    "n": 299,
+    "texte": "Zheng G et al. BMC Musculoskelet D… 2026",
+    "url": null
+   },
+   {
+    "n": 300,
+    "texte": "Dorchak JD et al. Am J Sports Med 1991",
+    "url": null
+   },
+   {
+    "n": 301,
+    "texte": "Schindler OS KSSTA 2014",
+    "url": null
+   },
+   {
+    "n": 302,
+    "texte": "Griffith CJ et al. Curr Rev Musculoske… 2008",
+    "url": null
+   },
+   {
+    "n": 303,
+    "texte": "Marín Fermín T et al. Surgical and Radiol… 2022",
+    "url": null
+   },
+   {
+    "n": 304,
+    "texte": "Kim SJ et al. Arthroscopy 2007",
+    "url": null
+   },
+   {
+    "n": 305,
+    "texte": "Stubbings N et al. The Knee 2014",
+    "url": null
+   },
+   {
+    "n": 171,
+    "texte": "Kuwabara A et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 306,
+    "texte": "Blanke F et al. Arch Orthop Trauma… 2021",
+    "url": null
+   },
+   {
+    "n": 307,
+    "texte": "Hufeland M et al. Arch Orthop Trauma… 2019",
+    "url": null
+   },
+   {
+    "n": 308,
+    "texte": "Vasiliadis AV et al. Surgical and Radiol… 2024",
+    "url": null
+   },
+   {
+    "n": 309,
+    "texte": "Paczesny L et al. Radiology 2009",
+    "url": null
+   },
+   {
+    "n": 310,
+    "texte": "Amatuzzi MM et al. Am J Sports Med 1990",
+    "url": null
+   },
+   {
+    "n": 311,
+    "texte": "Camanho GL Clinics (Sao Paulo,… 2010",
+    "url": null
+   },
+   {
+    "n": 312,
+    "texte": "Rovere GD et al. Am J Sports Med 1985",
+    "url": null
+   }
+  ],
+  "planche": "g16.webp"
+ },
+ {
+  "no": "G17",
+  "page": 17,
+  "tags": "GENOU · RESSAUT OU BLOCAGE LATÉRAL · ENFANT, SOUVENT SANS TRAUMATISME",
+  "titre": "MÉNISQUE DISCOÏDE",
+  "epidemiologie": {
+   "texte": "Latéral 0,4–17 %; Asie 10–15 %, Occident 3–5 %; médial 0,06–0,3 %; genou controlatéral atteint 79–97 % chez les opérés, mais bilatéral symptomatique 17 %; âge moyen ~12 ans.",
+   "refs": [
+    313,
+    314,
+    315,
+    316,
+    317,
+    318
+   ]
+  },
+  "presentation": {
+   "texte": "Blocage 33 %, ressaut 30 %, claquement 26 %, gonflement 19 %, raideur 18 %; aucun traumatisme connu 30 %; genou à ressaut du jeune enfant : variante de Wrisberg; perte de l'extension terminale.",
+   "refs": [
+    315,
+    319,
+    320,
+    321
+   ]
+  },
+  "examen": {
+   "texte": "Aucune Se/Sp publiée; McMurray ou Apley positif 6 %, épanchement 5 %, clic palpable 3 % : examen peu sensible.",
+   "refs": [
+    315
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Collagène moins abondant et désorganisé, réseau circonférentiel perdu; instabilité périphérique 28–49 %; déchirure dans 63–80 % des genoux opérés.",
+   "refs": [
+    322,
+    318,
+    315,
+    323
+   ]
+  },
+  "ddx": {
+   "texte": "Déchirure d'un ménisque latéral non discoïde (fiche G3); ostéochondrite disséquante du condyle latéral, avec discoïde sous-jacent dans 70–89,5 % (fiche G19).",
+   "refs": [
+    324
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : interligne latéral > 6 mm Se 81 %, Sp 86,6 % (formes complètes seulement), normale n'exclut rien; IRM : ratio ménisque/tibia ≥ 20 % ou couverture ≥ 75 % : Se 95 %, Sp 97 %; Se 73 % si ménisque déchiré.",
+   "refs": [
+    319,
+    325,
+    323,
+    326
+   ]
+  },
+  "traitement": {
+   "texte": "Asymptomatique : observation; traitement non opératoire des cas symptomatiques : échec 39 %; saucérisation avec ou sans réparation : réopération 7,3 % contre 8,9 %; méniscectomie totale à éviter : arthrose radiographique 10 sur 11 à 20 ans; infiltration : aucune donnée.",
+   "refs": [
+    314,
+    318,
+    143,
+    327,
+    328
+   ]
+  },
+  "pronostic": {
+   "texte": "94 % Bons ou excellents à 10 ans; changements dégénératifs 23 % (saucérisation) contre 88 % (méniscectomie subtotale); réopération 13–17 %; chirurgie controlatérale ~17 %; ostéochondrite postopératoire 7,8 %; retour au sport > 4 mois après réparation.",
+   "refs": [
+    329,
+    314,
+    318,
+    323,
+    330,
+    315
+   ]
+  },
+  "refs": [
+   {
+    "n": 313,
+    "texte": "Qin C et al. BMC Musculoskelet D… 2025",
+    "url": null
+   },
+   {
+    "n": 314,
+    "texte": "Tapasvi S et al. Journal of ISAKOS 2021",
+    "url": null
+   },
+   {
+    "n": 315,
+    "texte": "Sheasley JA et al. Am J Sports Med 2024",
+    "url": null
+   },
+   {
+    "n": 316,
+    "texte": "Ahn JH et al. Arthroscopy 2010",
+    "url": null
+   },
+   {
+    "n": 317,
+    "texte": "Bae JH et al. Arthroscopy 2012",
+    "url": null
+   },
+   {
+    "n": 318,
+    "texte": "Logan CA et al. J Pediatr Orthop 2021",
+    "url": null
+   },
+   {
+    "n": 319,
+    "texte": "Amaral JZ et al. European Journal of… 2025",
+    "url": null
+   },
+   {
+    "n": 320,
+    "texte": "Kelly BT et al. Current Opinion in… 2002",
+    "url": null
+   },
+   {
+    "n": 321,
+    "texte": "Beck JJ et al. Arthroscopy 2025",
+    "url": null
+   },
+   {
+    "n": 322,
+    "texte": "Silverstein RS et al. Am J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 323,
+    "texte": "Campbell AL et al. Curr Rev Musculoske… 2023",
+    "url": null
+   },
+   {
+    "n": 324,
+    "texte": "Nguyen JC et al. Pediatr Radiol 2025",
+    "url": null
+   },
+   {
+    "n": 325,
+    "texte": "Song JG et al. The Knee 2015",
+    "url": null
+   },
+   {
+    "n": 326,
+    "texte": "Samoto N et al. Magnetic Resonance… 2002",
+    "url": null
+   },
+   {
+    "n": 143,
+    "texte": "MacDonald J et al. JAMA Pediatrics 2021",
+    "url": null
+   },
+   {
+    "n": 327,
+    "texte": "Hartman H et al. Arthroscopy 2026",
+    "url": null
+   },
+   {
+    "n": 328,
+    "texte": "Räber DA et al. JBJS 1998",
+    "url": null
+   },
+   {
+    "n": 329,
+    "texte": "Hashimoto Y et al. J Pediatr Orthop 2020",
+    "url": null
+   },
+   {
+    "n": 330,
+    "texte": "Ahn JH et al. Arthroscopy 2015",
+    "url": null
+   }
+  ],
+  "planche": "g17.webp"
+ },
+ {
+  "no": "G18",
+  "page": 18,
+  "tags": "GENOU · TUMÉFACTION POPLITÉE · ADULTE AVEC ARTHROSE OU LÉSION MÉNISCALE,",
+  "titre": "KYSTE POPLITÉ (DE BAKER)",
+  "epidemiologie": {
+   "texte": "Adultes 4,7–37 % selon la population; 33 % avec arthrose douloureuse contre 9,1 % sans arthrose; lésion intra-articulaire jusqu'à 94 %, déchirure méniscale 41–83 %; enfants 2,4 % à l'échographie; pics à 4–7 et 35–70 ans.",
+   "refs": [
+    331,
+    332,
+    333,
+    334,
+    335
+   ]
+  },
+  "presentation": {
+   "texte": "Tuméfaction poplitée 76 %, douleur postérieure sourde 32 %; tableau de pseudo-thrombophlébite 13 %; rupture dans 7 % des kystes associés à l'arthrose.",
+   "refs": [
+    336,
+    332,
+    337
+   ]
+  },
+  "examen": {
+   "texte": "Examen Se 74 %, Sp 88 %, RV+ 6,3, RV− 0,30; signe de Foucher (ferme en extension, mou en flexion) : aucune Se/Sp publiée; masse pulsatile ou inchangée selon la position oriente vers anévrisme ou tumeur.",
+   "refs": [
+    332,
+    338,
+    339
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Liquide entre semi-membraneux et gastrocnémien médial; épanchement, déchirure méniscale et arthropathie dégénérative indépendamment associés (probabilité 0,38 si les trois); chez l'enfant, habituellement sans lésion intra-articulaire.",
+   "refs": [
+    340,
+    341,
+    342
+   ]
+  },
+  "ddx": {
+   "texte": "Thrombose veineuse profonde (coexistante chez 7 des 95 porteurs de kyste); anévrisme poplité; kyste méniscal, liposarcome myxoïde; chez l'enfant, arthrite juvénile (kyste dans 61 % des arthrites du genou).",
+   "refs": [
+    343,
+    344,
+    345,
+    342
+   ]
+  },
+  "investigations": {
+   "texte": "Échographie d'abord : Se et Sp 100 % contre l'IRM; Doppler veineux si thrombose suspectée, même avec kyste (5 des 14 thromboses confirmées avaient un kyste); IRM si aspect atypique ou pour la lésion sous-jacente.",
+   "refs": [
+    346,
+    347,
+    339,
+    342
+   ]
+  },
+  "traitement": {
+   "texte": "Asymptomatique : rien; traiter la cause articulaire; infiltration intra-articulaire de corticostéroïde : kyste réduit à 4 semaines; ponction + corticostéroïde sous échographie : récidive 12,7–19 %; excision ouverte seule : récidive 42–63 %; arthroscopie avec résection de la paroi : récidive 1,2 % contre 7,5 %.",
+   "refs": [
+    346,
+    332,
+    348,
+    349,
+    350,
+    351
+   ]
+  },
+  "pronostic": {
+   "texte": "Enfant : régression ou disparition 85 % (17 sur 20) à 53 mois; adulte : persistance ou récidive si la lésion articulaire demeure, surtout chondropathie de grade III–IV; kyste associé à la progression de l'arthrose (RC ≈ 3).",
+   "refs": [
+    352,
+    332,
+    353,
+    354
+   ]
+  },
+  "refs": [
+   {
+    "n": 331,
+    "texte": "Ak O et al. BMC Musculoskelet D… 2026",
+    "url": null
+   },
+   {
+    "n": 332,
+    "texte": "Frush TJ et al. Sports Health 2015",
+    "url": null
+   },
+   {
+    "n": 333,
+    "texte": "Hill CL et al. J Rheumatol 2001",
+    "url": null
+   },
+   {
+    "n": 334,
+    "texte": "Cao Y et al. Arthritis Research… 2014",
+    "url": null
+   },
+   {
+    "n": 335,
+    "texte": "Seil R et al. Arch Orthop Trauma… 1999",
+    "url": null
+   },
+   {
+    "n": 336,
+    "texte": "Fam AG et al. J Rheumatol 1982",
+    "url": null
+   },
+   {
+    "n": 337,
+    "texte": "Su C et al. BMC Musculoskelet D… 2020",
+    "url": null
+   },
+   {
+    "n": 338,
+    "texte": "Tang L et al. Frontiers in Medicine 2026",
+    "url": null
+   },
+   {
+    "n": 339,
+    "texte": "Beals RK et al. Clin Orthop Relat Res 1980",
+    "url": null
+   },
+   {
+    "n": 340,
+    "texte": "Miller TT et al. Radiology 1996",
+    "url": null
+   },
+   {
+    "n": 341,
+    "texte": "Rodriguez V et al. Haemophilia 2002",
+    "url": null
+   },
+   {
+    "n": 342,
+    "texte": "Ward EE et al. AJR 2001",
+    "url": null
+   },
+   {
+    "n": 343,
+    "texte": "Szer IS et al. J Rheumatol 1992",
+    "url": null
+   },
+   {
+    "n": 344,
+    "texte": "Langsfeld M et al. Journal of Vascular… 1997",
+    "url": null
+   },
+   {
+    "n": 345,
+    "texte": "Dhiraj Joshi et al. Cochrane 2019",
+    "url": null
+   },
+   {
+    "n": 346,
+    "texte": "Handy JR Arthritis Rheum 2001",
+    "url": null
+   },
+   {
+    "n": 347,
+    "texte": "Simpson FG et al. Lancet 1980",
+    "url": null
+   },
+   {
+    "n": 348,
+    "texte": "Acebes JC et al. Journal of Clinical… 2006",
+    "url": null
+   },
+   {
+    "n": 349,
+    "texte": "Köroğlu M et al. European Journal of… 2012",
+    "url": null
+   },
+   {
+    "n": 350,
+    "texte": "Smith MK et al. Sports Health 2015",
+    "url": null
+   },
+   {
+    "n": 351,
+    "texte": "Li H et al. Arch Orthop Trauma… 2021",
+    "url": null
+   },
+   {
+    "n": 352,
+    "texte": "Nelson AE Current Rheumatolog… 2020",
+    "url": null
+   },
+   {
+    "n": 353,
+    "texte": "Malinowski K et al. International Ortho… 2023",
+    "url": null
+   },
+   {
+    "n": 354,
+    "texte": "Akagi R et al. J Pediatr Orthop 2013",
+    "url": null
+   }
+  ],
+  "planche": "g18.webp"
+ },
+ {
+  "no": "G19",
+  "page": 19,
+  "tags": "GENOU · DOULEUR VAGUE À L'EFFORT, PARFOIS BLOCAGE · ADOLESCENT SPORTIF",
+  "titre": "OSTÉOCHONDRITE DISSÉQUANTE DU GENOU",
+  "epidemiologie": {
+   "texte": "9,5 Par 100 000 à 6–19 ans (garçons 15,4, filles 3,3); 12–19 ans RC 3,3; sexe masculin RC 3,8; condyle médial 63,6 %, latéral 32,5 %; bilatérale 29 % si les deux genoux sont radiographiés; obésité modérée RC 1,8.",
+   "refs": [
+    355,
+    356,
+    357
+   ]
+  },
+  "presentation": {
+   "texte": "Lésion stable : douleur vague, mal localisée, à l'activité; délai diagnostique ~13 mois; lésion instable : épanchement, blocage, accrochage.",
+   "refs": [
+    358,
+    359,
+    251
+   ]
+  },
+  "examen": {
+   "texte": "Test de Wilson positif dans 25 % seulement des cas confirmés (32 patients), Sp non publiée; épanchement ou blocage : lésion instable, aucune Se/Sp publiée.",
+   "refs": [
+    358,
+    360
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Cause inconnue, multifactorielle; microtraumatismes répétés, ischémie focale, trouble de l'ossification enchondrale; os sous-chondral encore viable dans les lésions juvéniles stables.",
+   "refs": [
+    361,
+    362,
+    363
+   ]
+  },
+  "ddx": {
+   "texte": "Variante normale d'ossification (22,2 % des enfants à l'IRM; condyle postérieur, sans œdème); fracture ostéochondrale aiguë; ménisque discoïde (fiche G17); fracture sous-chondrale d'insuffisance après 50 ans (fiche G23).",
+   "refs": [
+    324,
+    364,
+    365,
+    15,
+    366
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : face, profil, axiale et incidence de l'échancrure; IRM pour la stabilité : Se 93 %, Sp 68 % (juvénile); Se 92 %, Sp 85 % (ensemble); critères adultes appliqués au juvénile : Sp 11 %.",
+   "refs": [
+    367,
+    368,
+    369
+   ]
+  },
+  "traitement": {
+   "texte": "Lésion stable, physes ouvertes : restriction d'activité 3–6 mois, guérison 61,4 % (40,3–87,5 %); squelette mature 30–40 %; forage : 68,1 % guéris à 36 semaines; fixation des lésions instables : consolidation 88 %; excision du fragment à éviter : arthrose RR 1,89.",
+   "refs": [
+    370,
+    362,
+    371,
+    372,
+    373
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport 84,7–100 % en 3,7–8,1 mois sans chirurgie, 100 % en 2,8–8,5 mois après chirurgie; arthrose à 20 ans : 39 % après excision, 25 % après préservation; prothèse à 30 ans : 32 % contre 11 %; IMC > 25 : HR 3,3.",
+   "refs": [
+    374,
+    375
+   ]
+  },
+  "refs": [
+   {
+    "n": 355,
+    "texte": "Kessler JI et al. Am J Sports Med 2014",
+    "url": null
+   },
+   {
+    "n": 356,
+    "texte": "Kessler JI et al. J Pediatr Orthop 2018",
+    "url": null
+   },
+   {
+    "n": 357,
+    "texte": "Cooper T et al. J Pediatr Orthop 2015",
+    "url": null
+   },
+   {
+    "n": 358,
+    "texte": "Kocher MS et al. Am J Sports Med 2006",
+    "url": null
+   },
+   {
+    "n": 359,
+    "texte": "Wall EJ et al. Am J Sports Med 2017",
+    "url": null
+   },
+   {
+    "n": 251,
+    "texte": "Kuwabara A et al. Curr Rev Musculoske… 2021",
+    "url": null
+   },
+   {
+    "n": 360,
+    "texte": "Conrad JM et al. Am J Sports Med 2003",
+    "url": null
+   },
+   {
+    "n": 361,
+    "texte": "Chau MM et al. JBJS 2021",
+    "url": null
+   },
+   {
+    "n": 362,
+    "texte": "Rosenberg SI et al. Curr Rev Musculoske… 2026",
+    "url": null
+   },
+   {
+    "n": 363,
+    "texte": "Krause M et al. Am J Sports Med 2015",
+    "url": null
+   },
+   {
+    "n": 324,
+    "texte": "Nguyen JC et al. Pediatr Radiol 2025",
+    "url": null
+   },
+   {
+    "n": 364,
+    "texte": "Jans LB et al. Radiology 2011",
+    "url": null
+   },
+   {
+    "n": 365,
+    "texte": "Jans LB et al. Eur Radiol 2011",
+    "url": null
+   },
+   {
+    "n": 15,
+    "texte": "Putukian M et al. Medicine and Scienc… 2026",
+    "url": null
+   },
+   {
+    "n": 366,
+    "texte": "Delsmann MM et al. Sci Rep 2024",
+    "url": null
+   },
+   {
+    "n": 367,
+    "texte": "Winthrop Z et al. Curr Rev Musculoske… 2015",
+    "url": null
+   },
+   {
+    "n": 368,
+    "texte": "Kijowski R et al. Radiology 2008",
+    "url": null
+   },
+   {
+    "n": 369,
+    "texte": "Hu H et al. AJR 2019",
+    "url": null
+   },
+   {
+    "n": 370,
+    "texte": "Husen M et al. Am J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 371,
+    "texte": "Heyworth BE et al. Am J Sports Med 2023",
+    "url": null
+   },
+   {
+    "n": 372,
+    "texte": "Tan SHS et al. J Knee Surg 2026",
+    "url": null
+   },
+   {
+    "n": 373,
+    "texte": "Tan SHS et al. KSSTA 2021",
+    "url": null
+   },
+   {
+    "n": 374,
+    "texte": "Muchintala R et al. Am J Sports Med 2025",
+    "url": null
+   },
+   {
+    "n": 375,
+    "texte": "Sanders TL et al. Am J Sports Med 2017",
+    "url": null
+   }
+  ],
+  "planche": "g19.webp"
+ },
+ {
+  "no": "G20",
+  "page": 20,
+  "tags": "GENOU · MONOARTHRITE AIGUË · MICROCRISTAUX : HOMME D'ÂGE MÛR (GOUTTE),",
+  "titre": "GOUTTE OU CHONDROCALCINOSE DU GENOU",
+  "epidemiologie": {
+   "texte": "Goutte 3,8 % (Colombie-Britannique), 11,8 % à 70–79 ans; H:F 2:1 à 4:1; diurétiques de l'anse HR 2,31, thiazidiques HR 1,44; chondrocalcinose du genou 7,0 %, 44 % après 84 ans; hyperparathyroïdie RC 3,35– 4,87.",
+   "refs": [
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur maximale en < 24 h, rougeur, habituellement monoarticulaire; genou : siège le plus fréquent de la crise à pyrophosphate (48 % dans un essai); uricémie normale en crise dans 11–49 %; fréquence du genou à la première crise de goutte : aucune donnée.",
+   "refs": [
+    377,
+    383,
+    384,
+    380
+   ]
+  },
+  "examen": {
+   "texte": "Règle de Janssens (sans ponction) : ≥ 8 points, valeur prédictive positive 87 %; ≤ 4, valeur prédictive négative 95 %; entre les deux, goutte ~30 % : ponctionner; tableau parfois indiscernable de l'arthrite septique.",
+   "refs": [
+    385,
+    386,
+    387
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Réaction inflammatoire aux cristaux d'urate monosodique ou de pyrophosphate de calcium; chondrocalcinose dans 20 % des genoux méniscectomisés contre 4 %; avant 60 ans, chercher hyperparathyroïdie, hémochromatose, hypomagnésémie.",
+   "refs": [
+    380,
+    388,
+    387
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrite septique : coexistence dans 1,5–5 % des liquides à cristaux (fiche G22); poussée d'arthrose, arthrite inflammatoire (fiches G2, G21); cellulite.",
+   "refs": [
+    389,
+    390,
+    387
+   ]
+  },
+  "investigations": {
+   "texte": "Ponction : microscopie Se 69 %, Sp 97 % (urate); Se 82 %, Sp 78 % (pyrophosphate); leucocytes 25 000–50 000/mm³; uricémie à répéter 2–4 semaines après; chondrocalcinose : échographie Se 85 %, Sp 87 %; radiographie Se 47 %, Sp 95 %.",
+   "refs": [
+    377,
+    391,
+    392,
+    393
+   ]
+  },
+  "traitement": {
+   "texte": "Goutte : AINS, colchicine ou corticostéroïde oral; prednisolone équivalente au naproxène; colchicine 1,8 mg : 37,8 % de répondeurs contre 15,5 % (placebo); infiltration : une étude non contrôlée; allopurinol, cible < 360 µmol/L : atteinte 95 % contre 30 %; pyrophosphate : colchicine équivalente à la prednisone.",
+   "refs": [
+    383,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399
+   ]
+  },
+  "pronostic": {
+   "texte": "Crise de goutte : 7–14 jours sans traitement; récidive 60 % à 1 an, 78 % à 2 ans; tophus après ~11 ans; crise à pyrophosphate : semaines à mois, récidive 11,4 par 100 p-a; chondrocalcinose : arthrose incidente RC 1,75.",
+   "refs": [
+    400,
+    388,
+    377,
+    401,
+    402,
+    380
+   ]
+  },
+  "refs": [
+   {
+    "n": 376,
+    "texte": "Dehlin M et al. Nature Reviews 2020",
+    "url": null
+   },
+   {
+    "n": 377,
+    "texte": "Dalbeth N et al. Lancet 2021",
+    "url": null
+   },
+   {
+    "n": 378,
+    "texte": "McAdams DeMarco MA et al. Arthritis Rheum 2012",
+    "url": null
+   },
+   {
+    "n": 379,
+    "texte": "Neame RL et al. Ann Rheum Dis 2003",
+    "url": null
+   },
+   {
+    "n": 380,
+    "texte": "Rosenthal AK et al. NEJM 2016",
+    "url": null
+   },
+   {
+    "n": 381,
+    "texte": "Rho YH et al. Rheumatology 2012",
+    "url": null
+   },
+   {
+    "n": 382,
+    "texte": "Kleiber Balderrama C et al. Arthritis Care Res 2017",
+    "url": null
+   },
+   {
+    "n": 383,
+    "texte": "Pascart T et al. The Lancet 2023",
+    "url": null
+   },
+   {
+    "n": 384,
+    "texte": "Zhang L et al. Sci Rep 2026",
+    "url": null
+   },
+   {
+    "n": 385,
+    "texte": "Kienhorst LB et al. Rheumatology 2015",
+    "url": null
+   },
+   {
+    "n": 386,
+    "texte": "Dalbeth N et al. Nature Reviews 2019",
+    "url": null
+   },
+   {
+    "n": 387,
+    "texte": "FitzGerald JD Ann Intern Med 2025",
+    "url": null
+   },
+   {
+    "n": 388,
+    "texte": "Pascart T et al. The Lancet 2024",
+    "url": null
+   },
+   {
+    "n": 389,
+    "texte": "Ian T Ferguson, Christoph…",
+    "url": null
+   },
+   {
+    "n": 390,
+    "texte": "Papanicolas LE et al. J Rheumatol 2012",
+    "url": null
+   },
+   {
+    "n": 391,
+    "texte": "Gordon C et al. Ann Rheum Dis 1989",
+    "url": null
+   },
+   {
+    "n": 392,
+    "texte": "Maki DG Ann Intern Med 2015",
+    "url": null
+   },
+   {
+    "n": 393,
+    "texte": "Cipolletta E et al. Osteoarthritis Cart… 2021",
+    "url": null
+   },
+   {
+    "n": 394,
+    "texte": "Terkeltaub RA et al. Arthritis Rheum 2010",
+    "url": null
+   },
+   {
+    "n": 395,
+    "texte": "Janssens HJ et al. Lancet 2008",
+    "url": null
+   },
+   {
+    "n": 396,
+    "texte": "Mihir D Wechalekar et al. Cochrane 2013",
+    "url": null
+   },
+   {
+    "n": 397,
+    "texte": "FitzGerald JD et al. Arthritis Care Res 2020",
+    "url": null
+   },
+   {
+    "n": 398,
+    "texte": "FitzGerald JD et al. Arthritis & Rheumat… 2020",
+    "url": null
+   },
+   {
+    "n": 399,
+    "texte": "Doherty M et al. Lancet 2018",
+    "url": null
+   },
+   {
+    "n": 400,
+    "texte": "Wilson JF Ann Intern Med 2010",
+    "url": null
+   },
+   {
+    "n": 401,
+    "texte": "Rott KT et al. JAMA 2003",
+    "url": null
+   },
+   {
+    "n": 402,
+    "texte": "Wu Y et al. Ann Rheum Dis 2025",
+    "url": null
+   }
+  ],
+  "planche": "g20.webp"
+ },
+ {
+  "no": "G21",
+  "page": 21,
+  "tags": "GENOU · SYNOVITE AVEC RAIDEUR MATINALE PROLONGÉE · MALADIE AUTO-IMMUNE",
+  "titre": "ARTHRITE INFLAMMATOIRE (POLYARTHRITE RHUMATOÏDE, SPONDYLOARTHRITE, ARTHRITE PSORIASIQUE)",
+  "epidemiologie": {
+   "texte": "Polyarthrite rhumatoïde (PR) 0,56 %, ratio F:H 2,45, genou atteint ~50 %; arthrite psoriasique 0,10–0,25 % des adultes, 19,7 % des personnes avec psoriasis; spondyloarthrite axiale 0,3–1,4 %; fréquence du genou hors PR : aucune donnée.",
+   "refs": [
+    403,
+    404,
+    405,
+    406,
+    407,
+    408
+   ]
+  },
+  "presentation": {
+   "texte": "Raideur matinale ≥ 60 min : Se ≈ 60 %, Sp ≈ 60 % pour la PR; psoriasis précède l'arthrite de ~10 ans; arthrite réactionnelle : oligoarthrite asymétrique des membres inférieurs, dactylite ~40 %; lombalgie inflammatoire Se 83 %, Sp 52 %.",
+   "refs": [
+    409,
+    410,
+    411,
+    412
+   ]
+  },
+  "examen": {
+   "texte": "Épanchement, chaleur : aucune Se/Sp publiée; compression des MCP Se 53 %, Sp 82 %, RV+ 3,0; des MTP Se 54 %, Sp 74 %; dactylite RC 12,0, atteinte unguéale RC 3,5 pour l'arthrite psoriasique; monoarthrite aiguë chaude : exclure l'infection (fiche G22).",
+   "refs": [
+    413,
+    414,
+    415,
+    416
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Synovite auto-immune dans la PR; HLA-B27 présent dans 70–90 % des spondyloarthrites axiales; arthrite réactionnelle post-infectieuse.",
+   "refs": [
+    417,
+    410,
+    407
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrose (liquide < 2000 leucocytes/µL), goutte et chondrocalcinose pseudo-rhumatoïde, arthrite septique (fiches G2, G20, G22); arthrite indifférenciée : résolution sans traitement de fond 71 %, PR 9,8 % à 2 ans.",
+   "refs": [
+    418,
+    416,
+    419,
+    380
+   ]
+  },
+  "investigations": {
+   "texte": "Ponction : > 2000 leucocytes/µL = inflammatoire; anti-CCP Se 67 %, Sp 95 %, RV+ 12,5; facteur rhumatoïde Se 69 %, Sp 85 %, RV+ 4,9; HLA-B27 Se 50 %, Sp 90 %; CRP normale jusqu'à 60 % (spondyloarthrite); radiographie : érosions 4,4 % au départ.",
+   "refs": [
+    418,
+    420,
+    421,
+    422
+   ]
+  },
+  "traitement": {
+   "texte": "Rhumatologue en ≤ 6 semaines; hexacétonide de triamcinolone intra-articulaire 20 mg : rechute 30 % à 6 mois (32 % avec 40 mg); méthotrexate : rémission ~40 % à 6 mois, ~80 % en rémission ou faible activité après ajout d'un agent ciblé; spondyloarthrite : AINS, puis biologique.",
+   "refs": [
+    423,
+    424,
+    408,
+    421,
+    425
+   ]
+  },
+  "pronostic": {
+   "texte": "PR : érosions > 70 % à 2 ans (cohortes anciennes), 44,6 % sous stratégie structurée; arthrite réactionnelle : rémission en 6–12 mois, chronique 15–20 %; arthrite psoriasique vue après > 6 mois : érosions RC 4,25.",
+   "refs": [
+    426,
+    427,
+    410,
+    428
+   ]
+  },
+  "refs": [
+   {
+    "n": 403,
+    "texte": "Almutairi KB et al. J Rheumatol 2021",
+    "url": null
+   },
+   {
+    "n": 404,
+    "texte": "GBD 2021 Rheumatoid Arthritis Collaborators The Lancet 2021",
+    "url": null
+   },
+   {
+    "n": 405,
+    "texte": "FitzGerald O et al. Nature Reviews 2021",
+    "url": null
+   },
+   {
+    "n": 406,
+    "texte": "Alinaghi F et al. Journal of the Amer… 2019",
+    "url": null
+   },
+   {
+    "n": 407,
+    "texte": "Navarro-Compán V et al. Lancet 2025",
+    "url": null
+   },
+   {
+    "n": 408,
+    "texte": "Smolen JS et al. JAMA 2026",
+    "url": null
+   },
+   {
+    "n": 409,
+    "texte": "Ritchlin CT et al. NEJM 2017",
+    "url": null
+   },
+   {
+    "n": 410,
+    "texte": "Taniguchi Y et al. Rheumatology Intern… 2021",
+    "url": null
+   },
+   {
+    "n": 411,
+    "texte": "van Nies JA et al. Arthritis Research… 2015",
+    "url": null
+   },
+   {
+    "n": 412,
+    "texte": "Özgöçmen S et al. Rheumatology Intern… 2026",
+    "url": null
+   },
+   {
+    "n": 413,
+    "texte": "Lee J et al. JAMA Internal Medicine 2026",
+    "url": null
+   },
+   {
+    "n": 414,
+    "texte": "van den Bosch WB et al. Ann Rheum Dis 2015",
+    "url": null
+   },
+   {
+    "n": 415,
+    "texte": "Geng Y et al. Frontiers in Immuno… 2022",
+    "url": null
+   },
+   {
+    "n": 416,
+    "texte": "Earwood JS et al. Am Fam Physician 2021",
+    "url": null
+   },
+   {
+    "n": 417,
+    "texte": "Gravallese EM et al. NEJM 2023",
+    "url": null
+   },
+   {
+    "n": 418,
+    "texte": "Baker DG et al. NEJM 1993",
+    "url": null
+   },
+   {
+    "n": 419,
+    "texte": "Brinkmann GH et al. J Rheumatol 2017",
+    "url": null
+   },
+   {
+    "n": 380,
+    "texte": "Rosenthal AK et al. NEJM 2016",
+    "url": null
+   },
+   {
+    "n": 420,
+    "texte": "Nishimura K et al. Ann Intern Med 2007",
+    "url": null
+   },
+   {
+    "n": 421,
+    "texte": "Bittar M et al. JAMA 2025",
+    "url": null
+   },
+   {
+    "n": 422,
+    "texte": "Ulijn E et al. Arthritis Care Res 2024",
+    "url": null
+   },
+   {
+    "n": 423,
+    "texte": "Burmester GR et al. Lancet 2017",
+    "url": null
+   },
+   {
+    "n": 424,
+    "texte": "Niemantsverdriet E et al. The Lancet",
+    "url": null
+   }
+  ],
+  "planche": "g21.webp"
+ },
+ {
+  "no": "G22",
+  "page": 22,
+  "tags": "GENOU · MONOARTHRITE AIGUË, FÉBRILE UNE FOIS SUR DEUX · INFECTION BACTÉRIENNE",
+  "titre": "ARTHRITE SEPTIQUE DU GENOU",
+  "epidemiologie": {
+   "texte": "4–10 Par 100 000 par an, 73,4 après 90 ans; genou 50,1 % des cas; chirurgie articulaire récente RV+ 6,9, âge > 80 ans 3,5, prothèse 3,1, infection cutanée 2,8, diabète 2,7, PR 2,5.",
+   "refs": [
+    429,
+    430,
+    431,
+    432
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur articulaire Se 85 %, gonflement Se 78 %, fièvre Se 57 %, sueurs 27 %, frissons 19 %.",
+   "refs": [
+    432
+   ]
+  },
+  "examen": {
+   "texte": "Aucune manœuvre validée pour distinguer des autres monoarthrites; fièvre RV+ 1,13, RV− 0,88; frissons RV+ 2,2; anamnèse et examen ne permettent ni de confirmer ni d'exclure.",
+   "refs": [
+    432,
+    389
+   ]
+  },
+  "physiopathologie": {
+   "texte": "S. Aureus 50–60 %, streptocoques 16–17 %, bacilles à Gram négatif 5–15 %; lésions du cartilage si traitement non commencé en 24–48 h.",
+   "refs": [
+    433,
+    416
+   ]
+  },
+  "ddx": {
+   "texte": "Goutte, chondrocalcinose : cristaux présents dans 24 % des arthrites septiques d'une cohorte (fiche G20); arthrite inflammatoire (fiche G21); bursite prépatellaire septique (fiche G11).",
+   "refs": [
+    389,
+    387
+   ]
+  },
+  "investigations": {
+   "texte": "Ponction avant antibiotiques : leucocytes < 25 000/ µL RV 0,32; > 50 000 RV+ 7,7; > 100 000 RV+ 28; neutrophiles ≥ 90 % RV+ 3,4; Gram Se 29–37 %, Sp 99 %; culture positive 50–90 %; hémocultures 24 %; CRP et VS non discriminantes; imagerie non diagnostique.",
+   "refs": [
+    434,
+    432,
+    435,
+    436,
+    437,
+    429,
+    416
+   ]
+  },
+  "traitement": {
+   "texte": "Urgence : lavage arthroscopique, réintervention 50 % contre 71 % (ouvert); lavage < 48 h : moins de réopérations; ponctions répétées : guérison complète 69 % contre 53 % (non significatif); antibiotiques 2 semaines non inférieurs à 4, essai surtout main et poignet; corticostéroïdes : aucun essai chez l'adulte.",
+   "refs": [
+    438,
+    439,
+    440,
+    441
+   ]
+  },
+  "pronostic": {
+   "texte": "Mortalité à 90 jours 7,05 %, 22,7 % après 79 ans; 11,4 % à 12 mois; échec du drainage chirurgical 26 %; mauvais résultat fonctionnel 24–33 %; prothèse du genou 8,76 % à 15 ans.",
+   "refs": [
+    442,
+    443,
+    416,
+    444
+   ]
+  },
+  "refs": [
+   {
+    "n": 429,
+    "texte": "Mathews CJ et al. Lancet 2010",
+    "url": null
+   },
+   {
+    "n": 430,
+    "texte": "Kennedy N et al. J Rheumatol 2015",
+    "url": null
+   },
+   {
+    "n": 431,
+    "texte": "Huang YC et al. Rheumatology 2020",
+    "url": null
+   },
+   {
+    "n": 432,
+    "texte": "Margaretten ME et al. JAMA 2007",
+    "url": null
+   },
+   {
+    "n": 389,
+    "texte": "Ian T Ferguson, Christoph…",
+    "url": null
+   },
+   {
+    "n": 433,
+    "texte": "Florian B Imhoff, David E",
+    "url": null
+   },
+   {
+    "n": 416,
+    "texte": "Earwood JS et al. Am Fam Physician 2021",
+    "url": null
+   },
+   {
+    "n": 387,
+    "texte": "FitzGerald JD Ann Intern Med 2025",
+    "url": null
+   },
+   {
+    "n": 434,
+    "texte": "Carpenter CR et al. Acad Emerg Med 2011",
+    "url": null
+   },
+   {
+    "n": 435,
+    "texte": "Cunningham G et al. International Ortho… 2014",
+    "url": null
+   },
+   {
+    "n": 436,
+    "texte": "Alexandersson H et al. Sci Rep 2026",
+    "url": null
+   },
+   {
+    "n": 437,
+    "texte": "Foster ZJ et al. Am Fam Physician 2023",
+    "url": null
+   },
+   {
+    "n": 438,
+    "texte": "Johns BP et al. JBJS 2017",
+    "url": null
+   },
+   {
+    "n": 439,
+    "texte": "Bozca MA et al. International Ortho… 2026",
+    "url": null
+   },
+   {
+    "n": 440,
+    "texte": "Ravindran V et al. Rheumatology 2009",
+    "url": null
+   },
+   {
+    "n": 441,
+    "texte": "Gjika E et al. Ann Rheum Dis 2019",
+    "url": null
+   },
+   {
+    "n": 442,
+    "texte": "Couderc M et al. Rheumatology 2026",
+    "url": null
+   },
+   {
+    "n": 443,
+    "texte": "Walinga AB et al. Arch Orthop Trauma… 2023",
+    "url": null
+   },
+   {
+    "n": 444,
+    "texte": "Abram SGF et al. The Lancet 2020",
+    "url": null
+   }
+  ],
+  "planche": "g22.webp"
+ },
+ {
+  "no": "G23",
+  "page": 23,
+  "tags": "GENOU · DOULEUR MÉDIALE SOUDAINE SANS TRAUMATISME · FEMME DE PLUS DE 55 ANS,",
+  "titre": "FRACTURE SOUS-CHONDRALE D'INSUFFISANCE",
+  "epidemiologie": {
+   "texte": "Âge moyen 65 ans, femmes 71 %; compartiment médial 89 %, fémur 69 %, tibia 55 %; 3,29 % des adultes d'âge moyen avec gonalgie et déchirure méniscale soupçonnée; après arthroscopie 0,2–1,5 %.",
+   "refs": [
+    445,
+    446,
+    447
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur médiale ou antéro-médiale soudaine, pire la nuit et à la mise en charge.",
+   "refs": [
+    446,
+    448
+   ]
+  },
+  "examen": {
+   "texte": "Aucune Se/Sp publiée pour un signe physique; l'examen ne distingue pas d'une poussée d'arthrose ou d'une déchirure méniscale.",
+   "refs": [
+    448
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Fracture d'insuffisance de l'os sous-chondral, nécrose secondaire (ancienne « ostéonécrose spontanée »); racine ou déchirure radiaire du ménisque médial 74 %, extrusion moyenne 3,6 mm; perte de la tension circonférentielle; densité osseuse : données contradictoires.",
+   "refs": [
+    449,
+    450,
+    451,
+    452,
+    447
+   ]
+  },
+  "ddx": {
+   "texte": "Poussée d'arthrose, déchirure méniscale (fiches G2, G3); ostéonécrose secondaire (20–55 ans, corticostéroïdes dans 90 %); syndrome d'œdème médullaire transitoire; ostéochondrite disséquante (fiche G19).",
+   "refs": [
+    366,
+    448,
+    453,
+    454
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie souvent normale au début; IRM si radiographie normale : bande sous-chondrale en hyposignal, œdème disproportionné; lésion irréversible si hyposignal > 4 mm d'épaisseur (Se 100 %, Sp 74–82 %) ou > 14 mm de long (Se 88–89 %, Sp 87–93 %), non confirmé ailleurs.",
+   "refs": [
+    453,
+    455,
+    456,
+    457
+   ]
+  },
+  "traitement": {
+   "texte": "Décharge avec béquilles ~6 semaines : aucune prothèse sur 40 à 6 ans; succès ~80 % au stade précoce; ibandronate équivalent au placebo; orthèse de décharge, vitamine D : aucune donnée; éviter la méniscectomie (prothèse 54 % après fracture post- arthroscopie); prothèse si effondrement.",
+   "refs": [
+    458,
+    459,
+    460,
+    461,
+    462
+   ]
+  },
+  "pronostic": {
+   "texte": "Prothèse 30 % à 3 ans, 37 % si suivi > 5 ans; score SIFK : 8,8 %, 40,4 % et 78,9 % selon le risque; varus ≥ 5° : 50,0 % contre 5,7 %; résolution en 4,8 mois dans les cas précoces; arthrose 30 sur 40 à 9 ans.",
+   "refs": [
+    457,
+    463,
+    464,
+    465,
+    447
+   ]
+  },
+  "refs": [
+   {
+    "n": 445,
+    "texte": "Waddell LM et al. Arthritis Care Res 2025",
+    "url": null
+   },
+   {
+    "n": 446,
+    "texte": "Villari E et al. Arch Orthop Trauma… 2024",
+    "url": null
+   },
+   {
+    "n": 447,
+    "texte": "Pareek A et al. JBJS 2020",
+    "url": null
+   },
+   {
+    "n": 448,
+    "texte": "Gelber AC Ann Intern Med 2024",
+    "url": null
+   },
+   {
+    "n": 449,
+    "texte": "Akamatsu Y et al. Acta Orthopaedica 2012",
+    "url": null
+   },
+   {
+    "n": 450,
+    "texte": "Kishiro S et al. Journal of Orthopae… 2025",
+    "url": null
+   },
+   {
+    "n": 451,
+    "texte": "Yamamoto T et al. JBJS 2000",
+    "url": null
+   },
+   {
+    "n": 452,
+    "texte": "Hussain ZB et al. Am J Sports Med 2019",
+    "url": null
+   },
+   {
+    "n": 366,
+    "texte": "Delsmann MM et al. Sci Rep 2024",
+    "url": null
+   },
+   {
+    "n": 453,
+    "texte": "Jose J et al. Acta Radiologica (S… 1987",
+    "url": null
+   },
+   {
+    "n": 454,
+    "texte": "Mont MA et al. JBJS 2000",
+    "url": null
+   },
+   {
+    "n": 455,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": null
+   },
+   {
+    "n": 456,
+    "texte": "Lecouvet FE et al. AJR 1998",
+    "url": null
+   },
+   {
+    "n": 457,
+    "texte": "Yates PJ et al. The Knee 2007",
+    "url": null
+   },
+   {
+    "n": 458,
+    "texte": "Barras LA et al. Arthroscopy 2021",
+    "url": null
+   },
+   {
+    "n": 459,
+    "texte": "Jordan RW et al. The Knee 2016",
+    "url": null
+   },
+   {
+    "n": 460,
+    "texte": "Nakayama H et al. The Knee 2016",
+    "url": null
+   },
+   {
+    "n": 461,
+    "texte": "Meier C et al. Osteoporosis Intern… 2014",
+    "url": null
+   },
+   {
+    "n": 462,
+    "texte": "Suh DK et al. Sci Rep 2023",
+    "url": null
+   },
+   {
+    "n": 463,
+    "texte": "Juréus J et al. Acta Orthopaedica 2013",
+    "url": null
+   },
+   {
+    "n": 464,
+    "texte": "Pareek A et al. KSSTA 2020",
+    "url": null
+   },
+   {
+    "n": 465,
+    "texte": "Park JY et al. J Arthroplasty 2026",
+    "url": null
+   }
+  ],
+  "planche": "g23.webp"
+ }
+]

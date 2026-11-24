@@ -55,7 +55,7 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 
 ## En attente du clinicien
 
-- Les PDF des fiches high yield du genou, de la cheville et du pied.
+- ✅ Les PDF des fiches résumées du genou, de la cheville et du pied : reçus et publiés le 24 novembre (blocs 9, 10 et 11).
 - Le JSON « Retour au sport » (point 23 B), si vous le voulez encore.
 - Les réponses d'OpenEvidence, par code (ex. `CERV-P12`), pour remplacer les poids provisoires. Reçu le 24 novembre : fréquences cervicales (CERV-F1 à F17), intégrées comme repères ; aucune courbe confirmée.
 
