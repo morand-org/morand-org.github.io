@@ -78,7 +78,7 @@ for (const f of fs.readdirSync(dossier).filter(x => x.endsWith(".txt")).sort()) 
       }
       const dxNo = fiches.has(src) ? fiches.get(src) : null;
       const diagnostic = dxNo !== null && dxNo !== undefined && dxParNo.has(dxNo) ? dxParNo.get(dxNo) : { no: null, nom: nomDx };
-      const base = src.replace(/^oe21:/, "O").replace(/^([A-Z])(\d)$/, "$10$2");
+      const base = src.replace(/^oe21:/, "O").toUpperCase().replace(/^([A-Z]+)(\d)$/, "$10$2");
       compte[base] = (compte[base] || 0) + 1;
       paquet.cartes.push({
         id: `MSK-${prefixe}-${base}-${String(compte[base]).padStart(2, "0")}`, domaine: "MSK", region: paquet.region, diagnostic,

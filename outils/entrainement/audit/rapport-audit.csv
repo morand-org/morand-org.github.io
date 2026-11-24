@@ -580,3 +580,219 @@ Rachis lombaire et dorsal;Retirée;;Syndrome facettaire lombaire;Critères de Re
 Épaule;Retirée;;Luxation ou instabilité antérieure;Récidive chez l'adolescent;↔ Neutre;Facteurs démographiques;Base des flashcards;;;Énoncé confus : la source dit que ni l'âge ni le sexe ne prédisent la récidive chez l'adolescent, qui récidive dans 77 % des cas.;MSK-042-12
 Épaule;Retirée;;Myalgie ou douleur non spécifique;Étiquette diagnostique;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée d'accord entre examinateurs, pas un indice diagnostique.;MSK-035-07
 Épaule;Retirée;;Tendinopathie calcifiante;(incertain) Trouble endocrinien;↑ Augmente;Anamnèse;Base des flashcards;;;Donnée incertaine (série sans groupe témoin) et « trouble endocrinien » trop vague.;MSK-041-06
+Coude;1 Essentielle;Léger;Arthrite inflammatoire ou microcristalline du coude;Cristaux d'urate dans le liquide;↑ Augmente;Laboratoire;Base des flashcards;;;;MSK-069-03
+Coude;1 Essentielle;Léger;Arthrite inflammatoire ou microcristalline du coude;Tophus olécrânien;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-069-08
+Coude;1 Essentielle;Modéré;Arthrite inflammatoire ou microcristalline du coude;Douleur à tous les mouvements du coude;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Co20 (examen physique));;;;MSK-COUD-CO20-01
+Coude;1 Essentielle;Difficile;Arthrite inflammatoire ou microcristalline du coude;Uricémie normale pendant la crise;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-069-05
+Coude;1 Essentielle;Léger;Arthrose du coude;Antécédent de traumatisme du coude;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-056-01
+Coude;1 Essentielle;Léger;Arthrose du coude;Âge avancé;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge;;;MSK-056-04
+Coude;1 Essentielle;Léger;Bursite olécrânienne aseptique;Tuméfaction fluctuante après un appui prolongé, mobilité du coude conservée;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co8 (présentation clinique));;;;MSK-COUD-CO08-01
+Coude;1 Essentielle;Léger;Bursite olécrânienne septique;Fièvre;↑ Augmente;Drapeaux rouges;Base des flashcards;;;;MSK-065-01
+Coude;1 Essentielle;Léger;Bursite olécrânienne septique;Érythème ou cellulite;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-065-04
+Coude;1 Essentielle;Léger;Bursite olécrânienne septique;Plaie ou lésion cutanée sur la bourse;↑ Augmente;Anamnèse;Base des flashcards;Traumatisme ou lésion cutanée;;;MSK-065-09
+Coude;1 Essentielle;Modéré;Bursite olécrânienne septique;Érythème ou cellulite absent;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-065-05
+Coude;1 Essentielle;Difficile;Bursite olécrânienne septique;Fièvre absente;↔ Neutre;Drapeaux rouges;Base des flashcards;;;;MSK-065-02
+Coude;1 Essentielle;Léger;Douleur projetée d'origine cervicale (C6 ou C7);Test de Spurling positif;↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-062-05
+Coude;1 Essentielle;Léger;Épicondylite latérale;Travail répétitif et en force;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-051-06
+Coude;1 Essentielle;Léger;Épicondylite latérale;Âge de 40 à 49 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-051-07
+Coude;1 Essentielle;Léger;Épicondylite latérale;Douleur latérale progressive, sans traumatisme, à la préhension;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co1 (présentation clinique));;;;MSK-COUD-CO01-01
+Coude;1 Essentielle;Modéré;Épicondylite latérale;Test de Cozen négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;"Test de Cozen : coude fléchi, avant-bras en pronation, on résiste à l'extension du poignet ; positif s'il réveille la douleur à l'épicondyle latéral.";;MSK-051-03
+Coude;1 Essentielle;Léger;Épicondylite médiale;Douleur médiale du coude à la préhension et à la flexion du poignet;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co2 (présentation clinique));;;;MSK-COUD-CO02-01
+Coude;1 Essentielle;Léger;Fracture du coude;Extension complète du coude possible;↓ Diminue;Examen physique;Base des flashcards;Extension complète possible;"Test d'extension du coude : le patient tend complètement le coude ; s'il y arrive, une fracture est peu probable.";;MSK-063-01
+Coude;1 Essentielle;Léger;Fracture du coude;Douleur latérale aggravée par la rotation de l'avant-bras, après une chute;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co6 (présentation clinique));;;;MSK-COUD-CO06-01
+Coude;1 Essentielle;Léger;Fracture du coude;Enfant tombé sur la main, coude en hyperextension;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co5 (présentation clinique));;;;MSK-COUD-CO05-01
+Coude;1 Essentielle;Modéré;Fracture du coude;Extension complète du coude impossible;↔ Neutre;Examen physique;Base des flashcards;Extension complète impossible;;;MSK-063-02
+Coude;1 Essentielle;Modéré;Fracture du coude;Coussinet graisseux postérieur visible chez l'enfant;↑ Augmente;Facteurs démographiques;Base des flashcards;Coussinet graisseux postérieur isolé chez l'enfant;Signe du coussinet graisseux postérieur : ombre claire derrière l'humérus distal sur la radiographie de profil, signe d'épanchement.;;MSK-063-09
+Coude;1 Essentielle;Difficile;Fracture du coude;Extension complète possible chez l'enfant de moins de 3 ans;↔ Neutre;Facteurs démographiques;Base des flashcards;Extension complète avant 3 ans;;;MSK-063-07
+Coude;1 Essentielle;Léger;Pronation douloureuse;Traction sur le bras tendu d'un enfant de 1 à 3 ans;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co3 (présentation clinique));;Pronation douloureuse : subluxation de la tête radiale sous le ligament annulaire, chez le jeune enfant.;;MSK-COUD-CO03-01
+Coude;1 Essentielle;Léger;Pronation douloureuse;Bras immobile en légère flexion et pronation, sans enflure;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Co3 (présentation clinique));;;;MSK-COUD-CO03-02
+Coude;1 Essentielle;Léger;Rupture distale du biceps;Homme de 35 à 54 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-066-12
+Coude;1 Essentielle;Léger;Rupture distale du biceps;« Pop » en soulevant une charge, coude fléchi;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co14 (présentation clinique));;;;MSK-COUD-CO14-01
+Coude;1 Essentielle;Modéré;Rupture distale du biceps;Hook test anormal;↑ Augmente;Tests spécifiques;Base des flashcards;;"Hook test : coude fléchi à 90° en supination, on cherche à crocheter le tendon du biceps avec l'index, par le côté latéral ; impossible s'il est rompu.";;MSK-066-01
+Coude;1 Essentielle;Léger;Syndrome du tunnel cubital;Paresthésies des 4e et 5e doigts, la nuit et coude fléchi;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co7 (présentation clinique));;;;MSK-COUD-CO07-01
+Coude;2 Importante;Léger;Arthrite inflammatoire ou microcristalline du coude;Nodules rhumatoïdes;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-069-12
+Coude;2 Importante;Léger;Arthrite inflammatoire ou microcristalline du coude;Crise qui atteint son maximum en 24 heures;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co20 (présentation clinique));;;;MSK-COUD-CO20-02
+Coude;2 Importante;Modéré;Arthrite inflammatoire ou microcristalline du coude;Goutte, critères ACR/EULAR 2015 remplis;↑ Augmente;Tests spécifiques;Base des flashcards;;"Critères ACR/EULAR 2015 de la goutte : score qui combine les articulations atteintes, les caractéristiques de la crise, l'uricémie, l'imagerie et les tophus ; 8 points ou plus classent la goutte.";;MSK-069-01
+Coude;2 Importante;Modéré;Arthrite inflammatoire ou microcristalline du coude;Goutte, critères ACR/EULAR 2015 non remplis;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-069-02
+Coude;2 Importante;Modéré;Arthrite inflammatoire ou microcristalline du coude;Uricémie très basse (< 4 mg/dL);↓ Diminue;Anamnèse;Base des flashcards;Urate < 4 mg/dL;;;MSK-069-06
+Coude;2 Importante;Modéré;Arthrite inflammatoire ou microcristalline du coude;Anti-CCP positifs (polyarthrite rhumatoïde);↑ Augmente;Laboratoire;Base des flashcards;Polyarthrite rhumatoïde, anti-CCP positifs;;;MSK-069-09
+Coude;2 Importante;Modéré;Arthrite inflammatoire ou microcristalline du coude;Atteinte isolée du coude (pour une polyarthrite rhumatoïde);↓ Diminue;Anamnèse;Base des flashcards;Atteinte isolée du coude pour une polyarthrite;;;MSK-069-11
+Coude;2 Importante;Difficile;Arthrite inflammatoire ou microcristalline du coude;Cristaux d'urate dans le liquide : absents;↔ Neutre;Laboratoire;Base des flashcards;;;;MSK-069-04
+Coude;2 Importante;Léger;Arthrose du coude;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-056-02
+Coude;2 Importante;Léger;Arthrose du coude;Travail manuel lourd;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-056-03
+Coude;2 Importante;Léger;Arthrose du coude;Douleur en fin de flexion ou d'extension, avec blocages;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co9 (présentation clinique));;;;MSK-COUD-CO09-01
+Coude;2 Importante;Léger;Arthrose du coude;Perte de l'extension terminale;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Co9 (examen physique));;;;MSK-COUD-CO09-02
+Coude;2 Importante;Difficile;Arthrose du coude;Arthrose radiographique isolée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-056-06
+Coude;2 Importante;Léger;Bursite olécrânienne aseptique;Absence d'érythème;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-055-02
+Coude;2 Importante;Modéré;Bursite olécrânienne aseptique;Bursite non sensible à la palpation;↑ Augmente;Examen physique;Base des flashcards;Absence de sensibilité;;;MSK-055-01
+Coude;2 Importante;Difficile;Bursite olécrânienne aseptique;Absence de fièvre;↔ Neutre;Drapeaux rouges;Base des flashcards;;;;MSK-055-04
+Coude;2 Importante;Léger;Bursite olécrânienne septique;Bursite sensible à la palpation;↑ Augmente;Examen physique;Base des flashcards;Sensibilité;;;MSK-065-06
+Coude;2 Importante;Modéré;Bursite olécrânienne septique;Bursite non sensible à la palpation;↓ Diminue;Examen physique;Base des flashcards;Sensibilité absente;;;MSK-065-07
+Coude;2 Importante;Léger;Coude du lanceur juvénile;Lancer régulièrement malgré la fatigue du bras;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-053-01
+Coude;2 Importante;Léger;Coude du lanceur juvénile;Sensibilité de l'épicondyle médial;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-053-08
+Coude;2 Importante;Léger;Coude du lanceur juvénile;Hausse récente du volume de lancers;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co4 (présentation clinique));;;;MSK-COUD-CO04-01
+Coude;2 Importante;Léger;Coude du lanceur juvénile;Perte de vitesse et de précision au lancer;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co4 (présentation clinique));;;;MSK-COUD-CO04-02
+Coude;2 Importante;Léger;Douleur projetée d'origine cervicale (C6 ou C7);Réflexe bicipital diminué;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-062-01
+Coude;2 Importante;Modéré;Douleur projetée d'origine cervicale (C6 ou C7);Quatre tests neurodynamiques négatifs;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-062-07
+Coude;2 Importante;Modéré;Douleur projetée d'origine cervicale (C6 ou C7);Trouble musculosquelettique local identifié;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-062-10
+Coude;2 Importante;Difficile;Douleur projetée d'origine cervicale (C6 ou C7);Test de Spurling négatif;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-062-06
+Coude;2 Importante;Modéré;Épicondylite latérale;Test de Maudsley négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;"Test de Maudsley : on résiste à l'extension du majeur, coude tendu ; positif s'il réveille la douleur à l'épicondyle latéral.";;MSK-051-04
+Coude;2 Importante;Modéré;Épicondylite latérale;Âge ≤ 30 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-051-08
+Coude;2 Importante;Modéré;Épicondylite latérale;Début aigu, blocage ou épanchement du coude;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée Co1 (examen physique));;;;MSK-COUD-CO01-02
+Coude;2 Importante;Difficile;Épicondylite latérale;Pratique du tennis;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-051-11
+Coude;2 Importante;Léger;Épicondylite médiale;Flexion répétée du coude plus d'une heure par jour;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-052-01
+Coude;2 Importante;Léger;Épicondylite médiale;Travail en force;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-052-02
+Coude;2 Importante;Léger;Épicondylite médiale;Âge ≥ 40 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-052-04
+Coude;2 Importante;Léger;Épicondylite médiale;Âge de 45 à 54 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Co2 (épidémiologie));;;;MSK-COUD-CO02-02
+Coude;2 Importante;Modéré;Épicondylite médiale;Pronation résistée douloureuse;↑ Augmente;Anamnèse;Base des flashcards;(incertain) Pronation résistée douloureuse;;;MSK-052-07
+Coude;2 Importante;Léger;Fracture du coude;Chute directe sur la pointe du coude;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co10 (présentation clinique));;;;MSK-COUD-CO10-01
+Coude;2 Importante;Léger;Fracture du coude;Femme de 60 ans ou plus, après une chute de sa hauteur;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Co16 (épidémiologie));;;;MSK-COUD-CO16-01
+Coude;2 Importante;Modéré;Fracture du coude;Mobilité active normale dans les 4 directions;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-063-04
+Coude;2 Importante;Modéré;Fracture du coude;Mobilité active anormale dans au moins une direction;↑ Augmente;Examen physique;Base des flashcards;Mobilité active normale dans les 4 directions : anormale;;;MSK-063-05
+Coude;2 Importante;Modéré;Fracture du coude;Règle ER2 négative chez l'adulte (extension complète, pas de sensibilité osseuse, pas d'ecchymose);↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-063-06
+Coude;2 Importante;Modéré;Fracture du coude;Épanchement sans fracture visible à la radiographie, chez l'adulte;↑ Augmente;Examen physique;Base des flashcards;Épanchement sans fracture visible chez l'adulte;;;MSK-063-10
+Coude;2 Importante;Léger;Luxation du coude;Âge de 10 à 19 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-064-01
+Coude;2 Importante;Léger;Luxation du coude;Contexte sportif;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-064-03
+Coude;2 Importante;Léger;Luxation du coude;Traumatisme en extension avec valgus et charge axiale;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-064-04
+Coude;2 Importante;Léger;Luxation du coude;Déformation postérieure ou postéro-latérale;↑ Augmente;Anamnèse;Base des flashcards;Déplacement postérieur ou postéro-latéral;;;MSK-064-05
+Coude;2 Importante;Léger;Ostéochondrite disséquante du capitulum;Jeune de 10 à 16 ans, au baseball ou en gymnastique;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Co15 (épidémiologie));;;;MSK-COUD-CO15-01
+Coude;2 Importante;Modéré;Ostéochondrite disséquante du capitulum;Douleur latérale insidieuse avec accrochages;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co15 (présentation clinique));;;;MSK-COUD-CO15-02
+Coude;2 Importante;Modéré;Pronation douloureuse;Douleur à la supination, mobilité passive presque normale;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Co3 (examen physique));;;;MSK-COUD-CO03-03
+Coude;2 Importante;Léger;Rupture distale du biceps;Tabagisme;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-066-13
+Coude;2 Importante;Léger;Rupture distale du biceps;Ecchymose qui apparaît quelques jours plus tard;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Co14 (présentation clinique));;;;MSK-COUD-CO14-02
+Coude;2 Importante;Modéré;Rupture distale du biceps;Hook test normal;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-066-02
+Coude;2 Importante;Modéré;Rupture distale du biceps;Faiblesse en supination absente;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-066-10
+Coude;2 Importante;Difficile;Rupture distale du biceps;Faiblesse en supination;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-066-09
+Coude;2 Importante;Léger;Rupture distale du triceps;Stéroïdes anabolisants;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-068-04
+Coude;2 Importante;Léger;Rupture distale du triceps;Défaut palpable au-dessus de l'olécrâne;↑ Augmente;Anamnèse;Base des flashcards;Défaut palpable;;;MSK-068-05
+Coude;2 Importante;Difficile;Rupture distale du triceps;Extension active conservée;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-068-07
+Coude;2 Importante;Léger;Syndrome du tunnel cubital;Tabagisme;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-054-08
+Coude;2 Importante;Léger;Syndrome du tunnel cubital;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-054-09
+Coude;2 Importante;Modéré;Syndrome du tunnel cubital;Signe de Froment positif;↑ Augmente;Tests spécifiques;Nouvelle (Fiche résumée Co7 (examen physique));;Signe de Froment : en pinçant une feuille entre le pouce et l'index, le patient fléchit le pouce, faute d'adducteur du pouce (nerf ulnaire).;;MSK-COUD-CO07-02
+Coude;2 Importante;Difficile;Syndrome du tunnel cubital;Signe de Tinel au coude;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-054-01
+Coude;2 Importante;Difficile;Syndrome du tunnel cubital;Subluxation du nerf ulnaire à la palpation;↔ Neutre;Anamnèse;Base des flashcards;Subluxation du nerf ulnaire;;;MSK-054-06
+Coude;2 Importante;Modéré;Syndrome du tunnel radial;Douleur profonde 3 à 5 cm sous l'épicondyle latéral, sans déficit;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co19 (présentation clinique));;;;MSK-COUD-CO19-01
+Coude;2 Importante;Modéré;Syndrome du tunnel radial;Déficit sensitif ou moteur à l'examen;↓ Diminue;Examen physique;Nouvelle (Fiche résumée Co19 (présentation clinique));;;;MSK-COUD-CO19-02
+Coude;2 Importante;Léger;Tendinopathie distale du triceps;Stéroïdes anabolisants;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-060-02
+Coude;2 Importante;Léger;Tendinopathie distale du triceps;Douleur à l'insertion olécrânienne et à l'extension résistée;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-060-04
+Coude;3 Complémentaire;Modéré;Arthrite inflammatoire ou microcristalline du coude;Signe du double contour à l'échographie;↑ Augmente;Tests spécifiques;Base des flashcards;;Signe du double contour : liseré d'urate à la surface du cartilage, visible à l'échographie.;;MSK-069-07
+Coude;3 Complémentaire;Modéré;Arthrite inflammatoire ou microcristalline du coude;Chondrocalcinose à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;;"Chondrocalcinose : dépôts de cristaux de pyrophosphate de calcium, visibles comme un fin liseré calcifié dans le cartilage à la radiographie ; la crise aiguë s'appelle pseudogoutte.";;MSK-069-13
+Coude;3 Complémentaire;Difficile;Arthrite inflammatoire ou microcristalline du coude;Chondrocalcinose à la radiographie : absente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-069-14
+Coude;3 Complémentaire;Difficile;Arthrite inflammatoire ou microcristalline du coude;Absence de cristaux de pyrophosphate dans le liquide;↔ Neutre;Anamnèse;Base des flashcards;Absence de cristaux de pyrophosphate;;;MSK-069-15
+Coude;3 Complémentaire;Léger;Arthrose du coude;Bras dominant;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-056-05
+Coude;3 Complémentaire;Léger;Bursite olécrânienne aseptique;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-055-06
+Coude;3 Complémentaire;Modéré;Bursite olécrânienne aseptique;Liquide de ponction peu cellulaire;↑ Augmente;Laboratoire;Base des flashcards;Liquide peu cellulaire;;;MSK-055-05
+Coude;3 Complémentaire;Difficile;Bursite olécrânienne aseptique;Chaleur locale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-055-03
+Coude;3 Complémentaire;Difficile;Bursite olécrânienne septique;Leucocytes dans la bourse < 20 000/mm³;↔ Neutre;Anamnèse;Base des flashcards;Leucocytes bursaux < 20 000/mm³;;;MSK-065-10
+Coude;3 Complémentaire;Difficile;Bursite olécrânienne septique;Cristaux dans le liquide;↔ Neutre;Laboratoire;Base des flashcards;;;;MSK-065-11
+Coude;3 Complémentaire;Difficile;Bursite olécrânienne septique;Culture stérile;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-065-12
+Coude;3 Complémentaire;Modéré;Conflit postérieur du coude (surcharge en valgus-extension);Douleur postéro-médiale en fin d'extension, au lâcher de la balle;↑ Augmente;Examen physique;Base des flashcards;(incertain) Douleur postéro-médiale en fin d'extension, après le lâcher de balle, aggravée en valgus;;;MSK-059-01
+Coude;3 Complémentaire;Modéré;Conflit postérieur du coude (surcharge en valgus-extension);Perte d'extension et blocages chez un lanceur;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co17 (présentation clinique));;;;MSK-COUD-CO17-01
+Coude;3 Complémentaire;Léger;Coude du lanceur juvénile;Plus de 100 manches par an;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-053-02
+Coude;3 Complémentaire;Léger;Coude du lanceur juvénile;Plus de 8 mois de compétition par an;↑ Augmente;Évolution temporelle;Base des flashcards;;;;MSK-053-03
+Coude;3 Complémentaire;Léger;Coude du lanceur juvénile;Plus de 800 lancers par saison;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-053-04
+Coude;3 Complémentaire;Difficile;Coude du lanceur juvénile;Balle courbe;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-053-06
+Coude;3 Complémentaire;Difficile;Coude du lanceur juvénile;Extension limitée;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-053-09
+Coude;3 Complémentaire;Difficile;Coude du lanceur juvénile;Anomalie de l'épicondyle médial à l'échographie;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-053-10
+Coude;3 Complémentaire;Difficile;Coude du lanceur juvénile;IRM anormale chez un jeune lanceur sans douleur;↔ Neutre;Imagerie;Base des flashcards;IRM anormale;;;MSK-053-11
+Coude;3 Complémentaire;Difficile;Douleur projetée d'origine cervicale (C6 ou C7);Réflexe bicipital normal;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-062-02
+Coude;3 Complémentaire;Difficile;Douleur projetée d'origine cervicale (C6 ou C7);Réflexe tricipital diminué;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-062-03
+Coude;3 Complémentaire;Difficile;Douleur projetée d'origine cervicale (C6 ou C7);Topographie de la douleur, comparée aux dermatomes;↔ Neutre;Anamnèse;Base des flashcards;Topographie de la douleur;;;MSK-062-04
+Coude;3 Complémentaire;Difficile;Douleur projetée d'origine cervicale (C6 ou C7);Examen neurologique complet;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-062-08
+Coude;3 Complémentaire;Difficile;Douleur projetée d'origine cervicale (C6 ou C7);Dysfonction cervicale à la palpation;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-062-09
+Coude;3 Complémentaire;Léger;Épicondylite latérale;Tabagisme actuel;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-051-05
+Coude;3 Complémentaire;Modéré;Épicondylite latérale;Antécédent de traumatisme du coude;↓ Diminue;Facteurs de risque;Base des flashcards;;;;MSK-051-09
+Coude;3 Complémentaire;Difficile;Épicondylite latérale;Diabète, IMC > 40 ou alcool;↔ Neutre;Facteurs de risque;Base des flashcards;Diabète, IMC > 40, alcool;;;MSK-051-10
+Coude;3 Complémentaire;Difficile;Épicondylite latérale;Anomalie du tendon à l'échographie;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-051-12
+Coude;3 Complémentaire;Léger;Épicondylite médiale;Outils vibrants plus de 2 h par jour;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-052-03
+Coude;3 Complémentaire;Léger;Épicondylite médiale;Tabagisme ou obésité;↑ Augmente;Facteurs de risque;Base des flashcards;Tabac, obésité;;;MSK-052-05
+Coude;3 Complémentaire;Difficile;Épicondylite médiale;Sexe (homme ou femme);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-052-06
+Coude;3 Complémentaire;Difficile;Épicondylite médiale;Signes de névrite ulnaire associés;↔ Neutre;Tests spécifiques;Base des flashcards;Signes ulnaires associés;;;MSK-052-08
+Coude;3 Complémentaire;Difficile;Fracture de stress de l'olécrâne;Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;Radiographie initiale normale;;;MSK-067-05
+Coude;3 Complémentaire;Difficile;Fracture du coude;Sensibilité osseuse ajoutée au test d'extension;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-063-08
+Coude;3 Complémentaire;Difficile;Fracture du coude;Taille de l'épanchement à la radiographie;↔ Neutre;Examen physique;Base des flashcards;Taille de l'épanchement;;;MSK-063-11
+Coude;3 Complémentaire;Difficile;Fracture du coude;Chute sur la main tendue;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-063-12
+Coude;3 Complémentaire;Léger;Lésion partielle du ligament collatéral ulnaire;Douleur médiale du coude à l'armé, avec perte de vitesse, chez un lanceur;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Co13 (présentation clinique));;;;MSK-COUD-CO13-01
+Coude;3 Complémentaire;Modéré;Lésion partielle du ligament collatéral ulnaire;Moving valgus stress test négatif;↓ Diminue;Tests spécifiques;Base des flashcards;Moving valgus stress test négatif;"Moving valgus stress test : coude en valgus, on l'étend rapidement depuis la flexion complète ; positif si la douleur médiale culmine entre 120° et 70°.";;MSK-057-01
+Coude;3 Complémentaire;Difficile;Luxation du coude;Sexe (homme ou femme);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-064-02
+Coude;3 Complémentaire;Difficile;Luxation du coude;Radiographie sans fracture associée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-064-06
+Coude;3 Complémentaire;Léger;Ostéochondrite disséquante du capitulum;Baseball ou gymnastique;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-058-01
+Coude;3 Complémentaire;Léger;Ostéochondrite disséquante du capitulum;Bras dominant chez le joueur de baseball;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-058-08
+Coude;3 Complémentaire;Modéré;Ostéochondrite disséquante du capitulum;Âge plus avancé et durée de pratique plus longue;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge;;;MSK-058-02
+Coude;3 Complémentaire;Difficile;Ostéochondrite disséquante du capitulum;Absence de douleur au coude;↔ Neutre;Anamnèse;Base des flashcards;Absence de douleur;;;MSK-058-06
+Coude;3 Complémentaire;Difficile;Ostéochondrite disséquante du capitulum;Douleur ou mobilité réduite du coude;↔ Neutre;Examen physique;Base des flashcards;Douleur ou mobilité réduite;;;MSK-058-07
+Coude;3 Complémentaire;Difficile;Ostéochondrite disséquante du capitulum;Radiographie standard normale;↔ Neutre;Anamnèse;Base des flashcards;Radiographie standard normale;;;MSK-058-11
+Coude;3 Complémentaire;Modéré;Rupture distale du biceps;Hook test normal dans le premier mois;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-066-03
+Coude;3 Complémentaire;Modéré;Rupture distale du biceps;Intervalle pli du coude–biceps de plus de 6 cm;↑ Augmente;Anamnèse;Base des flashcards;Intervalle pli du coude-biceps > 6 cm;;;MSK-066-05
+Coude;3 Complémentaire;Modéré;Rupture distale du biceps;Hook test et intervalle tous deux anormaux, en aigu;↑ Augmente;Tests spécifiques;Base des flashcards;Hook test et intervalle tous deux anormaux en aigu;;;MSK-066-06
+Coude;3 Complémentaire;Difficile;Rupture distale du biceps;Sensibilité de la tubérosité radiale;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-066-11
+Coude;3 Complémentaire;Difficile;Rupture distale du biceps;Bras dominant;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-066-14
+Coude;3 Complémentaire;Léger;Rupture distale du triceps;Homme d'environ 50 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;Homme d'environ 49 ans;;;MSK-068-01
+Coude;3 Complémentaire;Léger;Rupture distale du triceps;Insuffisance rénale;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée Co18 (épidémiologie));;;;MSK-COUD-CO18-01
+Coude;3 Complémentaire;Modéré;Rupture distale du triceps;Infiltration de corticoïdes pour bursite olécrânienne;↑ Augmente;Réponse aux traitements;Base des flashcards;;;;MSK-068-03
+Coude;3 Complémentaire;Modéré;Rupture distale du triceps;Petite écaille osseuse (flake sign) sur la radiographie de profil;↑ Augmente;Anamnèse;Base des flashcards;Écaille osseuse (flake sign) sur le profil;;;MSK-068-08
+Coude;3 Complémentaire;Difficile;Rupture distale du triceps;Défaut palpable absent;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-068-06
+Coude;3 Complémentaire;Difficile;Rupture distale du triceps;Absence d'écaille osseuse sur la radiographie de profil;↔ Neutre;Anamnèse;Base des flashcards;Écaille osseuse (flake sign) sur le profil : absente;;;MSK-068-09
+Coude;3 Complémentaire;Difficile;Rupture distale du triceps;Premier examen normal chez le jeune;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-068-10
+Coude;3 Complémentaire;Léger;Syndrome du tunnel cubital;Diabète ou obésité;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée Co7 (épidémiologie));;;;MSK-COUD-CO07-03
+Coude;3 Complémentaire;Modéré;Syndrome du tunnel cubital;Nerf épaissi à la palpation;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-054-03
+Coude;3 Complémentaire;Modéré;Syndrome du tunnel cubital;Rotation interne de l'épaule avec flexion du coude pendant 5 secondes : paresthésies;↑ Augmente;Examen physique;Base des flashcards;(incertain) Rotation interne de l'épaule avec flexion du coude, 5 s;;;MSK-054-05
+Coude;3 Complémentaire;Difficile;Syndrome du tunnel cubital;Test de flexion-compression;↔ Neutre;Tests spécifiques;Base des flashcards;;"Test de flexion-compression : coude fléchi au maximum, on presse le nerf ulnaire dans la gouttière pendant 60 secondes ; positif s'il reproduit les paresthésies.";;MSK-054-02
+Coude;3 Complémentaire;Difficile;Syndrome du tunnel cubital;Alcool, hypothyroïdie ou HbA1c élevée;↔ Neutre;Anamnèse;Base des flashcards;Alcool, hypothyroïdie, HbA1c;;;MSK-054-10
+Coude;3 Complémentaire;Modéré;Syndrome du tunnel radial;Épicondylite latérale rebelle depuis au moins 6 mois;↑ Augmente;Évolution temporelle;Base des flashcards;Épicondylite résistante depuis au moins 6 mois;;;MSK-061-01
+Coude;3 Complémentaire;Modéré;Syndrome du tunnel radial;Manutention de charges de plus de 1 kg;↑ Augmente;Anamnèse;Base des flashcards;Manutention de charges > 1 kg;;;MSK-061-06
+Coude;3 Complémentaire;Difficile;Syndrome du tunnel radial;EMG normal;↔ Neutre;Imagerie;Base des flashcards;;EMG : électromyogramme, examen de la conduction nerveuse et de l'activité des muscles.;;MSK-061-02
+Coude;3 Complémentaire;Difficile;Syndrome du tunnel radial;Test de Maudsley (extension résistée du majeur) positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test du majeur (Maudsley);;;MSK-061-04
+Coude;3 Complémentaire;Difficile;Syndrome du tunnel radial;Épicondylite latérale associée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-061-07
+Coude;3 Complémentaire;Léger;Tendinopathie distale du triceps;Homme d'environ 50 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;Homme d'environ 49 ans;;;MSK-060-01
+Coude;4 Pointue (médecine du sport);Modéré;Arthrose du coude;Ostéophyte coronoïdien à l'imagerie;↑ Augmente;Anamnèse;Base des flashcards;Ostéophyte coronoïdien;;;MSK-056-07
+Coude;4 Pointue (médecine du sport);Modéré;Bursite olécrânienne septique;Peau plus chaude de plus de 2,2 °C que l'autre côté (thermomètre cutané);↑ Augmente;Anamnèse;Base des flashcards;Peau plus chaude de plus de 2,2 °C que le côté opposé;;;MSK-065-08
+Coude;4 Pointue (médecine du sport);Difficile;Bursite olécrânienne septique;Absence de rehaussement à l'IRM;↓ Diminue;Imagerie;Base des flashcards;;;;MSK-065-13
+Coude;4 Pointue (médecine du sport);Léger;Conflit postérieur du coude (surcharge en valgus-extension);Joueur de baseball opéré du coude;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-059-02
+Coude;4 Pointue (médecine du sport);Modéré;Conflit postérieur du coude (surcharge en valgus-extension);Insuffisance du ligament collatéral ulnaire;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-059-04
+Coude;4 Pointue (médecine du sport);Difficile;Conflit postérieur du coude (surcharge en valgus-extension);Flexion du coude au lâcher supérieure à la moyenne;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-059-03
+Coude;4 Pointue (médecine du sport);Difficile;Conflit postérieur du coude (surcharge en valgus-extension);Ostéophyte olécrânien à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-059-05
+Coude;4 Pointue (médecine du sport);Difficile;Conflit postérieur du coude (surcharge en valgus-extension);Ostéophytes chez le lanceur de lycée non blessé;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-059-06
+Coude;4 Pointue (médecine du sport);Modéré;Coude du lanceur juvénile;Vitesse de lancer élevée;↑ Augmente;Anamnèse;Base des flashcards;Vitesse de lancer;;;MSK-053-05
+Coude;4 Pointue (médecine du sport);Modéré;Coude du lanceur juvénile;Lancer de balles glissantes (slider);↑ Augmente;Anamnèse;Base des flashcards;(étude unique) Slider;;;MSK-053-07
+Coude;4 Pointue (médecine du sport);Difficile;Épicondylite latérale;Force de préhension réduite de 5 à 10 % coude tendu, par rapport au coude fléchi;↑ Augmente;Examen physique;Base des flashcards;Force de préhension réduite de 5 à 10 % coude en extension par rapport à la flexion;;;MSK-051-01
+Coude;4 Pointue (médecine du sport);Difficile;Épicondylite latérale;Force de préhension non réduite coude tendu;↓ Diminue;Examen physique;Base des flashcards;Force de préhension réduite de 5 à 10 % coude en extension par rapport à la flexion : absente;;;MSK-051-02
+Coude;4 Pointue (médecine du sport);Léger;Fracture de stress de l'olécrâne;Joueur de baseball;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-067-01
+Coude;4 Pointue (médecine du sport);Léger;Fracture de stress de l'olécrâne;Lanceur;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-067-02
+Coude;4 Pointue (médecine du sport);Modéré;Fracture de stress de l'olécrâne;Adolescent à physe ouverte;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-067-03
+Coude;4 Pointue (médecine du sport);Modéré;Fracture de stress de l'olécrâne;Lésion médiale associée (ligament collatéral ulnaire ou avulsion de l'épicondyle médial);↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-067-04
+Coude;4 Pointue (médecine du sport);Difficile;Fracture de stress de l'olécrâne;Réaction de stress olécrânienne à l'IRM de dépistage;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-067-07
+Coude;4 Pointue (médecine du sport);Léger;Lésion partielle du ligament collatéral ulnaire;Vitesse de lancer élevée;↑ Augmente;Anamnèse;Base des flashcards;Vitesse de lancer;;;MSK-057-13
+Coude;4 Pointue (médecine du sport);Modéré;Lésion partielle du ligament collatéral ulnaire;Moving valgus stress test positif;↑ Augmente;Tests spécifiques;Base des flashcards;Moving valgus stress test positif;;;MSK-057-02
+Coude;4 Pointue (médecine du sport);Modéré;Lésion partielle du ligament collatéral ulnaire;Manœuvre de traite (milking) positive;↑ Augmente;Anamnèse;Base des flashcards;Milking maneuver;"Manœuvre de traite : coude fléchi à 90° et avant-bras en supination, on tire le pouce du patient pour mettre le coude en valgus ; positif s'il donne une douleur médiale.";;MSK-057-03
+Coude;4 Pointue (médecine du sport);Modéré;Lésion partielle du ligament collatéral ulnaire;Laxité médiale palpable présente;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-057-06
+Coude;4 Pointue (médecine du sport);Modéré;Lésion partielle du ligament collatéral ulnaire;Arthro-IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-057-09
+Coude;4 Pointue (médecine du sport);Modéré;Lésion partielle du ligament collatéral ulnaire;Échographie de stress positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-057-10
+Coude;4 Pointue (médecine du sport);Modéré;Lésion partielle du ligament collatéral ulnaire;Échographie de stress négative;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-057-11
+Coude;4 Pointue (médecine du sport);Difficile;Lésion partielle du ligament collatéral ulnaire;Valgus statique douloureux;↔ Neutre;Anamnèse;Base des flashcards;Valgus statique douloureux;;;MSK-057-04
+Coude;4 Pointue (médecine du sport);Difficile;Lésion partielle du ligament collatéral ulnaire;Absence de laxité médiale palpable;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-057-05
+Coude;4 Pointue (médecine du sport);Difficile;Lésion partielle du ligament collatéral ulnaire;Pronation-flexion résistée;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-057-07
+Coude;4 Pointue (médecine du sport);Difficile;Lésion partielle du ligament collatéral ulnaire;IRM sans contraste normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-057-08
+Coude;4 Pointue (médecine du sport);Difficile;Lésion partielle du ligament collatéral ulnaire;Anomalie du ligament à l'IRM chez le lanceur asymptomatique;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-057-12
+Coude;4 Pointue (médecine du sport);Modéré;Ostéochondrite disséquante du capitulum;Moins de 36 mois de pratique du baseball;↓ Diminue;Évolution temporelle;Base des flashcards;Moins de 36 mois de pratique;;;MSK-058-03
+Coude;4 Pointue (médecine du sport);Modéré;Ostéochondrite disséquante du capitulum;Radiographie de face à 45° de flexion positive;↑ Augmente;Examen physique;Base des flashcards;Radiographie de face à 45° de flexion positive;;;MSK-058-09
+Coude;4 Pointue (médecine du sport);Modéré;Ostéochondrite disséquante du capitulum;Radiographie de face à 45° de flexion négative;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-058-10
+Coude;4 Pointue (médecine du sport);Modéré;Rupture distale du biceps;Test de pronation passive positif;↑ Augmente;Tests spécifiques;Base des flashcards;Test de pronation passive;;;MSK-066-07
+Coude;4 Pointue (médecine du sport);Léger;Rupture distale du triceps;Joueur de ligne au football américain;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-068-02
+Coude;4 Pointue (médecine du sport);Modéré;Syndrome du tunnel cubital;Surface du nerf ulnaire ≥ 10 mm² à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;Surface du nerf ≥ 10 mm² à l'échographie;;;MSK-054-07
+Coude;4 Pointue (médecine du sport);Difficile;Syndrome du tunnel cubital;Scratch collapse test;↔ Neutre;Tests spécifiques;Base des flashcards;;"Scratch collapse test : on gratte la peau sur le trajet du nerf, puis on teste la rotation externe résistée des épaules ; un lâcher bref de la résistance est positif.";;MSK-054-04
+Coude;4 Pointue (médecine du sport);Modéré;Syndrome du tunnel radial;Sensibilité 3 à 5 cm sous l'épicondyle latéral et supination résistée douloureuse;↑ Augmente;Tests spécifiques;Base des flashcards;(incertain) Sensibilité 3 à 5 cm sous l'épicondyle, supination résistée, règle des neuf;;;MSK-061-05
+Coude;4 Pointue (médecine du sport);Léger;Tendinopathie distale du triceps;Joueur de ligne au football américain;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-060-03
+Coude;Retirée;;Arthrite inflammatoire ou microcristalline du coude;Polyarthrite rhumatoïde, anti-CCP négatifs;↔ Neutre;Laboratoire;Base des flashcards;;;Carte mélangée (anti-CCP négatifs et facteur rhumatoïde), au sens douteux.;MSK-069-10
+Coude;Retirée;;Bursite olécrânienne aseptique;Sexe masculin (diabète);↔ Neutre;Facteurs démographiques;Base des flashcards;;;Énoncé confus (diabète), carte expérimentale.;MSK-055-07
+Coude;Retirée;;Bursite olécrânienne septique;Fréquence de la fièvre selon le contexte;↔ Neutre;Drapeaux rouges;Base des flashcards;;;Donnée descriptive (fréquence de la fièvre selon les séries), sans sens diagnostique.;MSK-065-03
+Coude;Retirée;;Douleur projetée d'origine cervicale (C6 ou C7);Double compression (double crush);↔ Neutre;Anamnèse;Base des flashcards;;;Donnée épidémiologique (double compression rare), sans sens diagnostique au bureau.;MSK-062-11
+Coude;Retirée;;Fracture de stress de l'olécrâne;Siège de la sensibilité;↔ Neutre;Examen physique;Base des flashcards;;;Donnée descriptive (siège variable selon les séries), sans sens diagnostique.;MSK-067-06
+Coude;Retirée;;Fracture du coude;Extension complète possible;↔ Neutre;Examen physique;Base des flashcards;;;Doublon de la carte « extension complète possible » (autre étude, autre sens) : source de confusion.;MSK-063-03
+Coude;Retirée;;Ostéochondrite disséquante du capitulum;Rotation interne de la hanche non dominante < 30°;↑ Augmente;Examen physique;Base des flashcards;;;Mesure de la hanche non dominante : indice de recherche sans lien clinique évident avec le coude.;MSK-058-05
+Coude;Retirée;;Ostéochondrite disséquante du capitulum;Moins de 36 mois de pratique (36 mois ou plus);↔ Neutre;Évolution temporelle;Base des flashcards;;;Doublon confus de la carte précédente (36 mois ou plus).;MSK-058-04
+Coude;Retirée;;Rupture distale du biceps;Hook test normal dans le premier mois (en chronique);↔ Neutre;Tests spécifiques;Base des flashcards;;;Énoncé confus (« en chronique »), doublon de la carte précédente.;MSK-066-04
+Coude;Retirée;;Rupture distale du biceps;Test de pronation passive (en aigu);↔ Neutre;Tests spécifiques;Base des flashcards;;;Énoncé confus (« en aigu »), doublon de la carte précédente.;MSK-066-08
+Coude;Retirée;;Syndrome du tunnel radial;Surface du nerf à l'échographie;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée d'accord entre l'échographie et le bloc, sans sens diagnostique au bureau.;MSK-061-03
+Coude;Retirée;;Tendinopathie distale du triceps;Absence de comorbidité;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (proportion de patients sans comorbidité), sans sens diagnostique.;MSK-060-05
+Coude;Retirée;;Tendinopathie distale du triceps;Suspicion clinique;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (rupture rarement suspectée avant l'IRM), sans sens diagnostique.;MSK-060-06
