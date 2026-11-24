@@ -22,13 +22,13 @@
 <meta property="og:image:alt" content="Morand, médecine familiale">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.morand.org/#site","name":"Morand","url":"https://www.morand.org/","inLanguage":"fr-CA"},{"@type":"WebPage","@id":"https://www.morand.org/#page","url":"https://www.morand.org/","name":"Morand : les outils du médecin de famille","isPartOf":{"@id":"https://www.morand.org/#site"},"inLanguage":"fr-CA","hasPart":[{"@type":"WebApplication","name":"Wealth Morand","url":"https://www.morand.org/wealth/"},{"@type":"CollectionPage","name":"Guide Morand","url":"https://www.morand.org/guides/"},{"@type":"WebPage","name":"Map Morand","url":"https://www.morand.org/map/"},{"@type":"WebPage","name":"CRDS Morand","url":"https://www.morand.org/crds/"},{"@type":"WebPage","name":"Codes Morand","url":"https://www.morand.org/codes/"}]}]}</script>
-<meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#e7efe9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1511" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
 <link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
-<link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/morand/cormorant.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/morand/accueil.css">
 <script src="/morand/demarrage.js"></script>
 </head>
@@ -36,32 +36,47 @@
 <a class="saut" href="#outils">Aller aux outils</a>
 <header class="tete">
   <a class="marque" href="/">Morand</a>
+  <nav class="tete-nav" aria-label="Accès rapide"><button type="button" class="tete-lien a-point" data-nouveautes aria-haspopup="dialog">Nouveautés</button></nav>
   <p class="rubrique">Médecine familiale</p>
 </header>
 <main>
   <h1>Six outils<br>pour la <em>pratique</em>.</h1>
-  <p class="installer-ligne" id="installer-ligne" hidden><button type="button" class="installer" id="installer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></svg>Installer l'app</button></p>
+  <p class="installer-ligne" id="installer-ligne" hidden><button type="button" class="installer" id="installer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></svg>Installer l'app</button><span class="installer-note">Accès hors ligne disponible</span></p>
   <form class="rg" id="rg" role="search" action="/" method="get">
     <label for="rg-q" class="rg-cache">Chercher dans tous les outils de Morand</label>
     <svg class="rg-loupe" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
     <input id="rg-q" type="search" placeholder="Chercher parmi les six outils : syncope, 08875, asthme…" data-court="Syncope, 08875, asthme…" data-tres-court="Syncope, 08875…" autocomplete="off" spellcheck="false" enterkeyhint="search">
+    <kbd class="rg-raccourci" aria-hidden="true">⌘K</kbd>
     <button type="submit" class="rg-bouton">Chercher</button>
   </form>
+  <p class="rg-frequentes" id="rg-frequentes"><span>Recherches fréquentes :</span><button type="button" data-q="Syncope">Syncope</button><button type="button" data-q="08875">08875</button><button type="button" data-q="CNESST">CNESST</button><button type="button" data-q="Genou">Genou</button></p>
   <p class="rg-etat" id="rg-etat" role="status" aria-live="polite" hidden></p>
   <div class="rg-res" id="rg-res" hidden></div>
   <ol class="outils" id="outils">
-    <li><a href="/wealth/"><span class="no">I</span><span class="nom">Wealth <span class="nom-m">Morand</span></span><span class="desc">Rémunération, impôt et patrimoine</span><img src="/morand/sceau-wealth.svg" alt="" width="56" height="56"></a></li>
-    <li><a href="/guides/"><span class="no">II</span><span class="nom">Guide <span class="nom-m">Morand</span></span><span class="desc">Guides cliniques et ressources</span><img src="/morand/sceau-guide.svg" alt="" width="56" height="56"></a></li>
-    <li><a href="/map/"><span class="no">III</span><span class="nom">Map <span class="nom-m">Morand</span></span><span class="desc">Cliniques de la Montérégie</span><img src="/morand/sceau-map.svg" alt="" width="56" height="56"></a></li>
-    <li><a href="/crds/"><span class="no">IV</span><span class="nom">CRDS <span class="nom-m">Morand</span></span><span class="desc">Critères et prérequis des demandes au CRDS</span><img src="/morand/sceau-crds.svg" alt="" width="56" height="56"></a></li>
-    <li><a href="/codes/"><span class="no">V</span><span class="nom">Codes <span class="nom-m">Morand</span></span><span class="desc">Codes d'actes, CNESST et vulnérabilité</span><img src="/morand/sceau-codes.svg" alt="" width="56" height="56"></a></li>
-    <li><a href="/locomoteur/"><span class="no">VI</span><span class="nom">MSK <span class="nom-m">Morand</span></span><span class="desc">Évaluation, diagnostic et conduite</span><img src="/locomoteur/sceau-msk.webp" alt="" width="56" height="56"></a></li>
+    <li><a href="/wealth/"><span class="cat">Gestion</span><span class="no">I</span><span class="nom">Wealth <span class="nom-m">Morand</span></span><span class="desc">Rémunération, impôt et patrimoine</span><img src="/morand/sceau-wealth.svg" alt="" width="56" height="56"></a></li>
+    <li><a href="/guides/"><span class="cat">Clinique</span><span class="no">II</span><span class="nom">Guide <span class="nom-m">Morand</span></span><span class="desc">Guides cliniques et ressources</span><img src="/morand/sceau-guide.svg" alt="" width="56" height="56"></a></li>
+    <li><a href="/map/"><span class="cat">Territoire</span><span class="no">III</span><span class="nom">Map <span class="nom-m">Morand</span></span><span class="desc">Cliniques de la Montérégie</span><img src="/morand/sceau-map.svg" alt="" width="56" height="56"></a></li>
+    <li><a href="/crds/"><span class="cat">Spécialités</span><span class="no">IV</span><span class="nom">CRDS <span class="nom-m">Morand</span></span><span class="desc">Critères et prérequis des demandes au CRDS</span><img src="/morand/sceau-crds.svg" alt="" width="56" height="56"></a></li>
+    <li><a href="/codes/"><span class="cat">Facturation</span><span class="no">V</span><span class="nom">Codes <span class="nom-m">Morand</span></span><span class="desc">Codes d'actes, CNESST et vulnérabilité</span><img src="/morand/sceau-codes.svg" alt="" width="56" height="56"></a></li>
+    <li><a href="/locomoteur/"><span class="cat">Locomoteur</span><span class="maj">Mis à jour</span><span class="no">VI</span><span class="nom">MSK <span class="nom-m">Morand</span></span><span class="desc">Évaluation, diagnostic et conduite</span><img src="/locomoteur/sceau-msk.webp" alt="" width="56" height="56"></a></li>
   </ol>
 </main>
 <footer class="pied">
   <a href="/confidentialite/">Confidentialité</a>
+  <span class="pied-centre">Montérégie · Édition 2026</span>
+  <button type="button" class="pied-nouveautes a-point" data-nouveautes aria-haspopup="dialog">Nouveautés</button>
   <span class="pied-annee">MMXXVI</span>
 </footer>
+<dialog class="nouveautes" id="nouveautes" aria-labelledby="nouveautes-titre">
+  <button type="button" class="nouveautes-fermer" aria-label="Fermer">×</button>
+  <h2 id="nouveautes-titre">Nouveautés</h2>
+  <ul>
+    <li><span class="nv-date">24 novembre 2026 · MSK Morand</span>Fiches résumées du genou, de la cheville et du pied : les neuf régions ont maintenant leurs fiches (257 en tout), que les résultats ouvrent directement.</li>
+    <li><span class="nv-date">24 novembre 2026 · MSK Morand</span>Fiche patient du doigt à ressaut corrigée ; sceau MSK accordé aux autres outils, en mode clair comme en mode sombre.</li>
+    <li><span class="nv-date">23 et 24 novembre 2026 · MSK Morand</span>Consultation sur une seule page pour plusieurs plaintes, importation d'une note, fiches patients à imprimer et fiches d'infiltration pour le médecin.</li>
+    <li><span class="nv-date">24 novembre 2026 · Accueil</span>Nouvelle page d'accueil : recherches fréquentes, raccourci ⌘K ou Ctrl K pour chercher dans les six outils.</li>
+  </ul>
+</dialog>
 <div class="installer-aide" id="installer-aide" role="dialog" aria-labelledby="installer-titre" hidden>
   <p class="installer-titre" id="installer-titre">Installer Morand</p>
   <p id="installer-etapes">Dans Safari, touchez <strong>Partager</strong>, puis <strong>Sur l'écran d'accueil</strong>.</p>
