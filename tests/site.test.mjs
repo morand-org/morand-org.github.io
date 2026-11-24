@@ -679,6 +679,13 @@ async function atlas(nav) {
   const plaintes = await p.evaluate(() => [...document.querySelectorAll(".lo-puce[aria-pressed=true]")].map(b => b.dataset.region));
   verifier("Atlas : genou gauche, puis les deux ; l'épaule droite ajoute la plainte avec son côté",
     g === "Gauche" && deux === "Les deux" && plaintes.includes("epaule") && (await cote("epaule")) === "Droite" && !erreurs.length && !(await deborde(p)), { g, deux, plaintes, erreurs });
+  // Plusieurs zones à la suite : la page ne défile pas, les sections des plaintes s'ouvrent plus bas.
+  const zone = s => p.evaluate(s2 => { const z = document.querySelector(s2); z.scrollIntoView({ block: "center" }); return scrollY; }, s);
+  const y0 = await zone('.lo-zone[data-zone="hanche"][data-cote="G"]');
+  await p.click('.lo-zone[data-zone="hanche"][data-cote="G"]'); await p.waitForSelector("#s-p-hanche");
+  await p.click('.lo-zone[data-zone="cheville"][data-cote="G"] >> nth=0'); await p.waitForSelector("#s-p-cheville"); await p.waitForTimeout(200);
+  const apres = await p.evaluate(() => ({ y: scrollY, ouvertes: ["hanche", "cheville"].every(r => document.getElementById(`s-p-${r}`).open) }));
+  verifier("Atlas : deux zones de suite ajoutent leurs plaintes, sections ouvertes, sans défilement", Math.abs(apres.y - y0) < 4 && apres.ouvertes, { y0, ...apres });
   await ctx.close();
 }
 
