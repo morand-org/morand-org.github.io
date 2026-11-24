@@ -12,15 +12,10 @@
   const STATUT = { validee: "Validée", en_revision: "En révision", experimentale: "Expérimentale" };
   const MODES = { chrono: "Contre-la-montre", serie: "Série parfaite", libre: "Entraînement libre", defi: "Défi quotidien", erreurs: "Révision des erreurs" };
 
-  /* ---------- Préférences : polices (comparaison), mode éditeur (?editeur=1) ---------- */
+  /* ---------- Préférence : mode éditeur (?editeur=1) ---------- */
   const params = new URLSearchParams(location.search);
   if (params.has("editeur")) S.definirPref("editeur", params.get("editeur") !== "0");
   const editeur = () => S.pref("editeur", false);
-  function polices(v) {
-    document.documentElement.dataset.polices = v;
-    for (const b of $$(".en-polices button")) b.setAttribute("aria-pressed", b.dataset.polices === v ? "true" : "false");
-  }
-  polices(params.get("polices") || S.pref("polices", "site"));
 
   /* ---------- Banque : index, puis paquets à la demande ---------- */
   let index = null;
@@ -262,7 +257,6 @@
     if (!t) { if (e.target.closest("#en-retour") && attente && conf && conf.mode !== "libre") { clearTimeout(attente); partie.finie ? fin() : suivante(); } return; }
     if (t.dataset.mode && !t.disabled) { demarrer(t.dataset.mode, { duree: +t.dataset.duree || 0 }); return; }
     if (t.dataset.rep) { repondre(t.dataset.rep); return; }
-    if (t.dataset.polices && t.closest(".en-polices")) { polices(t.dataset.polices); S.definirPref("polices", t.dataset.polices); return; }
     if (t.id === "en-suivante") { partie.finie ? fin() : suivante(); return; }
     if (t.id === "en-quitter") { fin(); return; }
     if (t.id === "en-rejouer") { demarrer(conf.mode, { duree: conf.duree, liste: conf.liste }); return; }
