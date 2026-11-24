@@ -85,8 +85,8 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
    - Seulement des phrases de note clinique (jamais « Clinique » seul).
    - Plan séparé par problème quand il y a plusieurs pathologies.
 4. ✅ (PR #22) **Atlas** : utiliser le personnage fourni (images/4.jpg, plus musclé) ou le « lecteur anatomique des plaintes » fourni (HTML).
-5. **Fiches patients** (PDF par région : cervical, lombaire, épaule, coude, poignet et main, hanche, genou, cheville, pied) : à intégrer, avec impression depuis les résultats.
-6. **Fiches d'infiltration pour le médecin** (PDF) : bibliothèque reliée aux diagnostics.
+5. ✅ (PR #23) **Fiches patients** (PDF par région : cervical, lombaire, épaule, coude, poignet et main, hanche, genou, cheville, pied) : 138 fiches découpées, liste par région, lien « Fiche patient (PDF à imprimer) » dans les résultats. Régénérer : `node outils/locomoteur/fiches-patients.mjs [région=source.pdf …]`.
+6. ✅ (PR #24) **Fiches d'infiltration pour le médecin** (PDF) : vue d'ensemble et 31 fiches d'une page dans `/locomoteur/infiltrations/`, niveau de preuve par indication, mention « pas en première intention » (épicondylite latérale, bursite olécrânienne, arthrose digitale, rhizarthrose, fasciite plantaire), lien « Fiche d'infiltration (médecin) » dans les résultats pour 38 diagnostics. Régénérer : `node outils/locomoteur/fiches-infiltration.mjs [source.pdf]`.
 7. **Point 14** : importateur de note sans IA. L'analyseur `locomoteur/importer.js` est écrit ; il reste l'écran de confirmation et le branchement.
 8. **Module « Morand — Entraînement clinique »** (`/entrainement/`), flashcards « augmente, neutre ou diminue ».
    - Selon le prompt du clinicien : phase 1, audit et plan présentés AVANT de coder ; aucune mise en production sans son accord.

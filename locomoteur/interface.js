@@ -380,8 +380,8 @@
   };
   // Fiche high yield liée au diagnostic (locomoteur/fiches-hy.js), et bibliothèque de la région.
   const hyLien = (r, id) => {
-    const f = ((LO.fichesHY || {})[r] || {})[id], fp = ((LO.fichesPatients || {})[r] || {})[id];
-    return f || fp ? `<p class="lo-fiches">${f ? `<a class="lo-lien" href="${esc(f.u)}">Fiche résumée ${esc(f.no)}</a>` : ""}${fp ? `<a class="lo-lien" href="${esc(fp.u)}" target="_blank" rel="noopener" title="${esc(fp.titre)}">Fiche patient (PDF à imprimer)</a>` : ""}</p>` : "";
+    const f = ((LO.fichesHY || {})[r] || {})[id], fp = ((LO.fichesPatients || {})[r] || {})[id], fi = ((LO.fichesInfiltration || {})[r] || {})[id];
+    return f || fp || fi ? `<p class="lo-fiches">${f ? `<a class="lo-lien" href="${esc(f.u)}">Fiche résumée ${esc(f.no)}</a>` : ""}${fp ? `<a class="lo-lien" href="${esc(fp.u)}" target="_blank" rel="noopener" title="${esc(fp.titre)}">Fiche patient (PDF à imprimer)</a>` : ""}${fi ? `<a class="lo-lien" href="${esc(fi.u)}" target="_blank" rel="noopener" title="${esc(fi.titre)} · niveau de preuve ${esc(fi.niveau)}${fi.pasPremiere ? " · cortisone à éviter en première intention" : ""}">Fiche d'infiltration (médecin)</a>` : ""}</p>` : "";
   };
   const hyBiblio = r => ((LO.fichesHY || {})[r] ? `<p class="lo-discret lo-hy-biblio"><a href="/locomoteur/${r}/fiches/">Fiches résumées des pathologies : ${esc(NOMS[r].toLowerCase())}</a></p>` : "");
   /* Éléments clés non évalués (point 3) : pour les 3 premiers diagnostics, les questions visibles et sans réponse qui
