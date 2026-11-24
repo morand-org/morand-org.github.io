@@ -460,7 +460,7 @@
     const plan = [];
     for (const s of sections("plan")) for (const b of s.blocs) for (const q of repondues(b)) {
       if (q.id === "impression_precisions") continue;
-      if (q.type === "texte" && !q.gabarit) { for (const x of lignes(rep[q.id])) plan.push(`- ${maj(x)}`); continue; }
+      if (q.type === "texte" && !q.gabarit) { for (const x of lignes(rep[q.id])) plan.push(/ :$/.test(x.trim()) ? maj(x.trim()) : `- ${maj(x)}`); continue; }
       const t = el(q); if (t) plan.push(`- ${maj(t)}`);
     }
     titre("PLAN", plan);
