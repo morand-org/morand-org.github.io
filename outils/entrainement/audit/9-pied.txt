@@ -1,0 +1,263 @@
+# Audit du quiz, pied (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+# Les nouvelles cartes viennent des vérifications OpenEvidence du 24 novembre (fréquences de départ, en anglais),
+# avec la traduction fidèle du passage utilisé (« x: »). Les fiches résumées du pied (bloc 11) viendront ensuite.
+@ msk-pied PIED
+= oe24:265 165
+= oe24:268 168
+= oe24:270 170
+= oe24:273 171
+= oe24:274 181
+= oe24:277 184
+= oe24:282 175
+
+## 165 Fasciite plantaire
+165-01 1 L
+165-02 3 D | e: Dorsiflexion de la cheville limitée
+165-03 3 D
+165-04 3 D
+165-05 3 D | e: Âge et sexe, après 50 ans
+165-06 2 M | e: Test du windlass en charge positif | def: Test du windlass : debout, on relève passivement le gros orteil ; positif s'il réveille la douleur sous le talon.
+165-07 2 D
+165-08 4 M | e: Fascia plantaire de plus de 4 mm à l'échographie
+165-09 0 - | r: Doublon de la carte « âge et sexe après 50 ans ».
+165-10 2 M | e: Épine calcanéenne à la radiographie
+165-11 2 M | e: Talalgie rebelle chez un sujet jeune
++ oe24:265 - 2 L ↑ demo | Sexe féminin | x: Incidence : 4,64 chez la femme contre 2,98 pour 1 000 patients-années chez l'homme (rapport 1,56) ; 12,1 % des consultations du pied et de la cheville.
+
+## 166 Hallux valgus
+166-01 1 L
+166-02 1 L | e: Âge plus avancé (par décennie)
+166-03 1 L
+166-04 2 L
+166-05 0 - | r: Énoncé confus qui contredit la carte des talons hauts.
+166-06 3 D | e: Antécédent familial (hérédité)
+166-07 3 D
+166-08 3 D
+166-09 0 - | r: Énoncé confus (« en méta-analyse »), doublon de la carte précédente.
+166-10 3 D | e: Douleur du pied
+
+## 167 Déformation des orteils latéraux ou bunionette
+167-01 1 L | e: Âge avancé | def: Bunionette : saillie douloureuse de la tête du 5e métatarsien, l'« oignon » du petit orteil.
+167-02 3 D
+167-03 3 L | e: Antécédent familial
+167-04 2 L
+167-05 2 L
+167-06 3 D | e: Atrophie des muscles intrinsèques du pied
+167-07 3 D
+
+## 169 Hallux rigidus
+169-01 2 M | def: Hallux rigidus : arthrose de la base du gros orteil, qui limite et rend douloureuse sa flexion dorsale.
+169-02 2 M | e: Moins de 3 de ces 5 signes (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°)
+169-03 3 D
+169-04 3 D | e: Atteinte d'un seul pied au début
+169-05 3 M | e: Traumatisme du gros orteil, si un seul pied est atteint
+169-06 2 L
+169-07 3 D
+169-08 2 D
+
+## 172 Turf toe
+172-01 4 L
+172-02 4 L
+172-03 4 L | e: Joueur de football : running back, quarterback ou receveur
+172-04 3 L | e: Hyperextension forcée du gros orteil avec charge axiale | def: Turf toe : entorse de la plaque plantaire du gros orteil, en hyperextension forcée.
+172-05 0 - | r: Seuils radiographiques tirés de radiographies normales, non validés chez les blessés.
+172-06 4 M
+
+## 173 Sésamoïdite ou fracture du sésamoïde
+173-01 3 D | def: Sésamoïde bipartite : sésamoïde normalement en deux morceaux, souvent des deux côtés.
+173-02 3 D | e: Sésamoïde de l'autre pied normal (pas en deux fragments)
+173-03 3 L
+173-04 3 L
+173-05 3 M
+173-06 4 M
+173-07 0 - | r: Scintigraphie : imagerie de deuxième ligne.
+173-08 4 D
+
+## 170 Métatarsalgie ou lésion de la plaque plantaire
+170-01 3 M | e: Tiroir vertical de l'orteil positif | def: Tiroir vertical : on tire la base de l'orteil vers le haut, métatarsien stabilisé ; une translation douloureuse évoque une lésion de la plaque plantaire.
+170-02 3 M | e: Tiroir vertical de l'orteil négatif
+170-03 2 D
+170-04 3 D | e: Orteil qui croise l'orteil voisin
+170-05 3 M
+170-06 3 M
+170-07 3 M
+170-08 3 D
+170-09 4 M
+170-10 0 - | r: Donnée descriptive (« rupture » échographique chez des sujets sans douleur).
++ oe24:270 - 3 M ↑ demo | Sexe féminin | x: 59 % de femmes dans les ruptures de la plaque plantaire.
+
+## 171 Névrome de Morton
+171-01 2 M | e: Compression de l'espace intermétatarsien douloureuse
+171-02 2 D | e: Signe de Mulder | def: Signe de Mulder : en serrant l'avant-pied d'un côté à l'autre, on sent un claquement douloureux dans l'espace atteint.
+171-03 3 D | e: Sensibilité normale de la pulpe des orteils
+171-04 2 L
+171-05 1 L | e: Atteinte du 3e espace (entre les 3e et 4e orteils)
+171-06 3 M
+171-07 3 D | e: IRM positive
+171-08 2 D | e: « Névrome » à l'imagerie chez une personne sans douleur
+171-09 3 D | e: Diagnostic clinique global de névrome
++ oe24:273 - 1 L ↑ demo | Femme de 55 à 64 ans | x: Nouveaux cas : 87,5 pour 100 000 chez la femme contre 50,2 chez l'homme (rapport 1,74 en première ligne), avec un pic à 55–64 ans.
+
+## 186 Maladie de Freiberg
+186-01 2 L | e: Atteinte du 2e métatarsien | def: Maladie de Freiberg : nécrose de la tête d'un métatarsien, surtout le 2e, chez l'adolescente.
+186-02 2 L
+186-03 2 L
+186-04 0 - | r: Énoncé confus (« adulte »), carte expérimentale.
+186-05 3 D | e: Atteinte d'un seul pied
+186-06 3 M | e: Métatarsien atteint plus long que les autres
+186-07 2 D
+186-08 0 - | r: Énoncé confus (aplatissement des deux côtés).
+
+## 168 Arthrose du médio-pied
+168-01 2 L | e: Ancienne lésion de Lisfranc
+168-02 2 L
+168-03 3 D
+168-04 2 L
+168-05 3 M
+168-06 2 M
+168-07 4 D
+168-08 3 D | e: Talons hauts ou arthrose nodulaire des doigts
+168-09 2 D
++ oe24:268 - 2 L ↑ demo | Âge de 50 ans ou plus | x: Arthrose symptomatique du médio-pied chez 12,0 % des adultes de 50 ans ou plus.
++ oe24:268 - 3 L ↑ demo | Sexe féminin | x: 13,7 % des femmes contre 10,3 % des hommes de 50 ans ou plus (rapport 1,33).
+
+## 184 Lésion de Lisfranc
+184-01 0 - | r: Donnée descriptive (diagnostics manqués, sans taux publié).
+184-02 1 L | e: Charge axiale sur un pied en flexion plantaire, au sport | def: Lésion de Lisfranc : entorse ou fracture-luxation de l'articulation entre le tarse et les métatarses (médio-pied).
+184-03 2 M
+184-04 1 D | e: Radiographie sans mise en charge normale
+184-05 2 M | e: Radiographie en charge positive
+184-06 2 D
+184-07 3 M | e: Écart C1–M2 de 2,1 mm ou plus par rapport à l'autre pied
+184-08 3 D | e: Absence de petit fragment osseux (fleck sign)
+184-09 3 M
+184-10 4 M
++ oe24:277 - 3 M ↑ demo | Homme d'environ 40 ans | x: Incidence de 9,2 à 22,4 pour 100 000 personnes-années, pic à 40–44 ans ; environ 1,8 homme pour 1 femme en Finlande.
+
+## 178 Contusion ou écrasement du pied
+178-01 1 M
+178-02 3 D | e: Règle d'Ottawa appliquée à l'avant-pied
+178-03 2 M
+178-04 2 L
+178-05 2 M
+178-06 1 M | e: Douleur disproportionnée ou à l'étirement passif des orteils
+178-07 2 D
+178-08 4 M | e: Pression différentielle < 30 mmHg pendant plus de 2 heures
+178-09 2 M
+
+## 180 Fracture du pied (métatarsiens, base du 5e, orteils)
+180-01 1 L
+180-02 0 - | r: Énoncé confus (« Ottawa en Asie »).
+180-03 2 L | e: Atteinte du 5e métatarsien
+180-04 3 M | e: Zone 1 de la base du 5e métatarsien | def: Base du 5e métatarsien : zone 1, avulsion de la tubérosité ; zone 2, fracture de Jones ; zone 3, fracture de stress de la diaphyse.
+180-05 3 M | e: Échographie positive sur un 5e métatarsien sensible
+180-06 3 M | e: Échographie négative sur un 5e métatarsien sensible
+180-07 3 M | e: Échographie positive sur les métatarsiens
+180-08 0 - | r: Énoncé confus (« naviculaire »), carte expérimentale.
+180-09 2 M | e: Fracture du pied ailleurs qu'à la base du 5e, après une inversion de la cheville
+180-10 3 D
+
+## 181 Fracture de stress métatarsienne
+181-01 1 L | e: Atteinte du 2e ou du 3e métatarsien
+181-02 2 L
+181-03 2 M | e: Triade de l'athlète féminine | def: Triade de l'athlète féminine : apport énergétique insuffisant, troubles menstruels et densité osseuse basse.
+181-04 2 L | e: Règles rares (oligoménorrhée) chez la coureuse
+181-05 3 L
+181-06 3 D | e: Voûte plantaire haute
+181-07 3 D
+181-08 1 D
+181-09 3 M | e: Échographie positive malgré une radiographie normale
+181-10 3 D | e: Douleur aux ultrasons thérapeutiques
++ oe24:274 - 2 L ↑ demo | Sexe féminin | x: Fractures de stress, tous sièges : 2,06 fois plus chez la femme (NCAA) ; le métatarse représente 10,3 % des fractures de stress de la femme contre 6,1 % chez l'homme.
+
+## 182 Fracture de stress du naviculaire
+182-01 3 L | e: Sprint, haies ou sauts
+182-02 3 M | e: Sensibilité du « N spot » (dos du naviculaire)
+182-03 2 D
+182-04 1 D
+182-05 0 - | r: Scintigraphie : imagerie de deuxième ligne.
+182-06 0 - | r: Énoncé confus (« TDM contre IRM »).
+182-07 2 L
+
+## 183 Fracture de stress du calcanéus
+183-01 3 L
+183-02 3 D | e: Âge, taille, poids, IMC ou condition physique
+183-03 2 D
+183-04 3 M
+183-05 0 - | r: Énoncé vague (« lésion isolée »).
+183-06 3 M
+
+## 174 Synostose (coalition) du tarse
+174-01 2 L | def: Synostose du tarse : pont osseux ou fibreux entre deux os du tarse, qui raidit le pied plat de l'adolescent.
+174-02 3 D | e: Sexe (garçon ou fille)
+174-03 3 D | e: Atteinte d'un seul pied
+174-04 3 D | e: Absence de spasme des fibulaires
+174-05 3 D | e: Pied qui n'est pas plat
+174-06 4 M | e: Signe du C à la radiographie de profil
+174-07 0 - | r: Énoncé vague (« signe du C incomplet »).
+174-08 4 M | e: Facette moyenne absente à la radiographie
+174-09 4 M | e: Signe du nez de fourmilier à la radiographie
+174-10 4 M
+174-11 4 M
+174-12 4 D
+
+## 175 Os naviculaire accessoire douloureux
+175-01 2 D | e: Os naviculaire accessoire visible à la radiographie | def: Os naviculaire accessoire : petit os en plus, au bord interne du pied, où s'attache le tibial postérieur.
+175-02 4 M | e: Os accessoire de type II
+175-03 3 D
+175-04 3 D | e: Atteinte d'un seul pied
+175-05 3 D
+175-06 3 M
+175-07 0 - | r: Scintigraphie : imagerie de deuxième ligne.
+175-08 0 - | r: Scintigraphie : imagerie de deuxième ligne.
++ oe24:282 - 3 L ↑ demo | Enfant de 10 à 13 ans | x: Présent chez 15,1 % des écoliers de 6 à 15 ans ; 20,8 % des pieds atteints sont douloureux, avec un pic de douleur à 12–13 ans chez le garçon et à 10–11 ans chez la fille.
+
+## 176 Maladie d'Iselin
+176-01 3 L | e: Âge d'apparition de l'apophyse du 5e métatarsien | def: Maladie d'Iselin : apophysite de la base du 5e métatarsien chez l'enfant sportif.
+176-02 3 L | e: Sport de course ou de saut, avec douleur à l'éversion résistée
+176-03 3 M | e: Ligne claire parallèle à la diaphyse du 5e métatarsien, à la radiographie
+176-04 3 M | e: Trait transversal à la base du 5e métatarsien, à la radiographie
+176-05 4 D
+176-06 0 - | r: Donnée descriptive (diagnostic initial de fracture).
+176-07 4 D
+176-08 4 M | e: Os vesalianum (os accessoire)
+
+## 177 Maladie de Sever (pied)
+177-01 1 L | e: Palpation de l'apophyse du calcanéus douloureuse
+177-02 3 M | e: Mollets courts des deux côtés (équin du gastrocnémien)
+177-03 0 - | r: Contredit la carte de la cheville (garçon : la probabilité augmente) ; données sur le sexe discordantes.
+177-04 3 D | e: IMC
+177-05 3 D
+177-06 4 D
+177-07 0 - | r: Énoncé vague (radiographie systématique).
+177-08 3 D | e: Charge d'entraînement
+
+## 179 Goutte de la 1re métatarso-phalangienne (podagre)
+179-01 1 L | e: Atteinte de la base du gros orteil (1re métatarso-phalangienne)
+179-02 2 L | e: Base du gros orteil sensible
+179-03 2 D | e: Monoarthrite du gros orteil jugée goutteuse par le médecin de famille
+179-04 1 L
+179-05 1 D
+179-06 3 M | def: Signe du double contour : liseré d'urate à la surface du cartilage, visible à l'échographie.
+179-07 0 - | r: Scanner double énergie : imagerie spécialisée, sans usage au bureau.
+179-08 2 L
+179-09 2 L | e: Alcool, 50 g ou plus par jour
+179-10 0 - | r: Énoncé confus (« vin »), carte expérimentale.
+179-11 3 M | e: Arthrite à pyrophosphate démontrée
+
+## 185 Pied de Charcot
+185-01 1 L | def: Pied de Charcot : destruction des os et des articulations du pied neuropathique (diabète) ; au début, le pied est chaud, rouge et enflé.
+185-02 3 M
+185-03 3 D
+185-04 2 M | e: Peau plus chaude de plus de 2 °C que l'autre pied
+185-05 0 - | r: Énoncé vague (« premier diagnostic »).
+185-06 1 D
+185-07 0 - | r: Scintigraphie : imagerie de deuxième ligne.
+185-08 0 - | r: Scintigraphie : imagerie de deuxième ligne.
+185-09 2 M | e: Ulcère avec contact osseux
+185-10 2 L | e: Atteinte du médio-pied
+185-11 4 M
+185-12 3 M
+185-13 2 D
