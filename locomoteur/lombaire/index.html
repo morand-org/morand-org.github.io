@@ -24,6 +24,7 @@
 <script src="/locomoteur/fiches-hy.js" defer></script>
 <script src="/locomoteur/fiches-patients.js" defer></script>
 <script src="/locomoteur/fiches-infiltration.js" defer></script>
+<script src="/locomoteur/importer.js" defer></script>
 <script src="/locomoteur/interface.js" defer></script>
 </head>
 <body class="lo-outil" data-articulation="lombaire" data-regions="cervical,epaule,coude,poignet,lombaire,hanche,genou,cheville,pied">
@@ -124,6 +125,18 @@
     </form>
     <ul class="lo-patients-liste" id="lo-patients-liste"></ul>
     <button type="button" class="lo-lien" id="lo-patients-effacer">Effacer tous les patients</button>
+  </div>
+</dialog>
+
+<dialog class="lo-fiche lo-importer" id="lo-importer" aria-labelledby="lo-importer-titre">
+  <button type="button" class="lo-fiche-fermer" aria-label="Fermer l'importation">Fermer</button>
+  <div class="lo-fiche-corps">
+    <h2 id="lo-importer-titre">Importer une note</h2>
+    <p class="lo-discret">Collez une note déjà écrite (anamnèse, examen) : l'outil y repère l'âge, le sexe, le côté, la durée, le mode d'apparition, les symptômes et les tests nommés, avec leurs négations (« pas de… », « sans… »). L'analyse se fait par règles, dans ce navigateur, sans IA ni transmission. Retirez d'abord le nom et les numéros d'identification. Rien n'est rempli sans votre confirmation, et ce qui n'est pas reconnu reste non évalué.</p>
+    <label class="lo-importer-etiquette" for="lo-import-texte">Note à analyser</label>
+    <textarea class="lo-texte-libre" id="lo-import-texte" rows="7" spellcheck="false" placeholder="Ex. Femme 34 ans, genou droit depuis 3 semaines après un pivot au soccer. Pas de blocage. Lachman positif, McMurray négatif."></textarea>
+    <p class="lo-importer-actions"><button type="button" class="lo-bouton" id="lo-import-analyser">Analyser la note</button></p>
+    <div id="lo-import-resultats" aria-live="polite"></div>
   </div>
 </dialog>
 

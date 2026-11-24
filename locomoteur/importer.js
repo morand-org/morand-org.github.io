@@ -6,9 +6,9 @@
    API : Locomoteur.importer.regionsDe(texte) → régions évoquées ; Locomoteur.importer.analyser(texte, [{ r, d }], cle) → constats. */
 (function () {
   "use strict";
-  const norm = t => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[’`]/g, "'");
+  const norm = t => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[’`]/g, "'").replace(/(?<=[a-z])-(?=[a-z])/g, " ");
   const NEG = /\b(pas de|pas d'|pas|aucun|aucune|absence de|absent|absente|nie|niee|sans|negatif|negative|neg|normal|normale|normaux|indolore|non)\b|(^|\s)-(\s|$)|\bn\b|0\/|ø/;
-  const POS = /\b(positif|positive|pos|reproduit|reproduisant|douloureux|douloureuse|laxite|laxe|arret mou|instable|present|presente|augmente)\b|(^|\s)\+(\s|$)/;
+  const POS = /\b(positif|positive|pos|reproduit|reproduisant|douloureux|douloureuse|laxite|laxe|arret mou|instable|present|presente|augmente)\b|(^|\s)\+{1,3}(\s|$|\.|,)/;
   const REGIONS = [["genou", /\b(genou|rotul|menisqu|lca|lcp|gonalgie)/], ["epaule", /\b(epaule|coiffe|acromio|scapul)/], ["coude", /\b(coude|epicondyl|olecran)/],
     ["poignet", /\b(poignet|main|doigt|pouce|carpien|phalang|metacarp)/], ["hanche", /\b(hanche|aine|fesse|trochant|coxarthr)/], ["lombaire", /\b(lombaire|lombalgie|dos|sciatique|lombo)/],
     ["cervical", /\b(cervical|cervicalgie|cou|nuque|torticolis)/], ["cheville", /\b(cheville|achille|mollet|malleol)/], ["pied", /\b(pied|talon|orteil|hallux|plantaire|metatars)/]];
@@ -33,7 +33,9 @@
 
   // Synonymes d'une question (phrases de la note et nom court), sans les mots trop généraux.
   const TROP_GENERAL = new Set(["douleur", "test", "oui", "non", "normal", "examen", "anamnese", "atcd"]);
-  const syn = l => [...new Set(l.filter(Boolean).map(norm).map(x => x.replace(/[()«»]/g, "").trim()).filter(x => x.length >= 5 && !TROP_GENERAL.has(x)))];
+  const syn = (l, min = 5) => [...new Set(l.filter(Boolean).map(norm).map(x => x.replace(/[()«»]/g, "").trim()).filter(x => x.length >= min && !TROP_GENERAL.has(x)))];
+  // Nom court d'un test (« Neer », « Thessaly ») : 4 lettres suffisent, en mot entier.
+  const nomme = (t, m) => (m.length >= 5 ? t.includes(m) : new RegExp(`(^|[^a-z])${m}([^a-z]|$)`).test(t));
 
   function analyser(texte, regions, cle) {
     const constats = [], vus = new Map(), cl = clauses(texte);
@@ -49,7 +51,8 @@
       // Identification : âge, sexe.
       const age = tout.match(/\b(\d{1,3})\s*(ans|an|a|yo)\b/);
       if (Q.age && age && +age[1] >= 12 && +age[1] <= 110) ajoute(r, Q.age, age[1], age[0]);
-      const sexe = /\b(femme|patiente|fille|mme|madame)\b/.test(tout) ? "F" : /\b(homme|patient|garcon|garçon|monsieur|m\.)\b/.test(tout) ? "M" : null;
+      const sexe = /\b(femme|patiente|fille|mme|madame)\b|\bf\s*\d{1,3}\s*ans\b|\b\d{1,3}\s*ans\s*f\b/.test(tout) ? "F"
+        : /\b(homme|patient|garcon|monsieur)\b|(^|\s)m\.|\b[hm]\s*\d{1,3}\s*ans\b|\b\d{1,3}\s*ans\s*[hm]\b/.test(tout) ? "M" : null;
       if (Q.sexe && sexe) ajoute(r, Q.sexe, sexe, sexe === "F" ? "femme" : "homme");
       // Côté : « genou G », « épaule droite », « bilatéral ».
       const reg = (REGIONS.find(([x]) => x === r) || [, /$^/])[1];
@@ -73,26 +76,26 @@
         if (["age", "sexe", "cote", "duree", "apparition", "visite"].includes(q.id) || q.type === "texte" || q.type === "nombre" || q.type === "miroir") continue;
         const test = (q.res || q.bloc.res) === "test" || !!q.court;
         if (q.type === "oui_non") {
-          const mots = syn([q.court, q.oui, q.nie, q.libelle.length <= 34 ? q.libelle : null]);
+          const mots = [...syn([q.court], 4), ...syn([q.oui, q.nie, q.libelle.length <= 34 ? q.libelle : null])];
           for (const c of cl) {
-            const t = norm(c), mot = mots.find(m => t.includes(m)); if (!mot) continue;
+            const t = norm(c), mot = mots.find(m => nomme(t, m)); if (!mot) continue;
             const v = test ? (POS.test(t.replace(mot, " ")) && !/\b(negatif|negative|normal|normale|indolore)\b/.test(t) ? "oui" : NEG.test(t.replace(mot, " ")) ? "non" : null)
               : (nie(t, mot) ? "non" : "oui");
-            if (v) { ajoute(r, q, v, c); break; }
+            if (v) ajoute(r, q, v, c);   // toutes les mentions : deux valeurs différentes = contradiction
           }
         } else if (q.type === "choix") {
-          const court = syn([q.court, q.libelle.length <= 20 ? q.libelle : null]);
+          const court = [...syn([q.court], 4), ...syn([q.libelle.length <= 20 ? q.libelle : null])];
           for (const c of cl) {
             const t = norm(c);
             // Test à plusieurs réponses (ex. Lachman : normal, douleur, laxité).
-            if (court.length && court.some(m => t.includes(m))) {
+            if (court.length && court.some(m => nomme(t, m))) {
               const vals = q.options.map(o => o.v);
               const v = vals.includes("laxite") && /laxit|arret mou|positif|instab/.test(t) ? "laxite" : vals.includes("normal") && /normal|negatif|ferme|indolore/.test(t) ? "normal"
                 : vals.includes("douleur") && /douleur|douloureux/.test(t) ? "douleur" : null;
-              if (v) { ajoute(r, q, v, c); break; }
+              if (v) { ajoute(r, q, v, c); continue; }
             }
             const o = q.options.find(o2 => syn([o2.n]).some(m => m.length >= 8 && t.includes(m)));
-            if (o) { ajoute(r, q, o.v, c); break; }
+            if (o) ajoute(r, q, o.v, c);
           }
         }
       }
