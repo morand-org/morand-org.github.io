@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/morand/plein-ecran.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex, nofollow">
+<title>Base de données OpenEvidence | MSK Morand</title>
+<meta name="description" content="Base de données de référence : tout ce qu'OpenEvidence a fourni pour MSK Morand, classé par région et diagnostic, chaque donnée avec ses sources.">
+<meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
+<link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
+<link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/crds/crds.css">
+<link rel="stylesheet" href="/locomoteur/locomoteur.css">
+<link rel="stylesheet" href="/locomoteur/donnees/donnees.css">
+<script src="/locomoteur/donnees/donnees.js" defer></script>
+</head>
+<body>
+<header class="cr-tete">
+  <a class="cr-marque" href="/">Morand</a>
+  <nav class="cr-onglets" aria-label="Outils Morand">
+    <a href="/wealth/">Wealth</a>
+    <a href="/guides/">Guide</a>
+    <a href="/map/">Map</a>
+    <a href="/crds/">CRDS</a>
+    <a href="/codes/">Codes</a>
+    <a href="/locomoteur/" aria-current="page">MSK</a>
+  </nav>
+</header>
+<main class="bd-page">
+  <nav class="hy-fil bd-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>Base de données</span></nav>
+  <section class="cr-intro">
+    <h1>Base de données</h1>
+    <p class="cr-devise">OpenEvidence · sources vérifiables</p>
+    <p class="cr-lead">Tout ce qu'OpenEvidence a fourni pour MSK Morand, classé par région et par diagnostic. Chaque donnée garde sa source : ouvrez la référence pour vérifier le chiffre.</p>
+  </section>
+
+  <section class="bd-filtres" aria-label="Recherche et filtres">
+    <label class="cache" for="bd-q">Rechercher</label>
+    <input type="search" id="bd-q" placeholder="Rechercher : Lachman, goutte, fracture de stress, 2,45…" autocomplete="off">
+    <div class="bd-ligne">
+      <label>Région <select id="bd-region"><option value="">Toutes</option></select></label>
+      <label>Catégorie <select id="bd-cat"><option value="">Toutes</option></select></label>
+    </div>
+    <div class="bd-sources" id="bd-sources" role="group" aria-label="Sources"></div>
+  </section>
+
+  <p class="bd-compte" id="bd-compte" aria-live="polite">Chargement des données…</p>
+  <ol class="bd-liste" id="bd-liste"></ol>
+  <p class="bd-plus"><button type="button" class="lo-bouton" id="bd-plus" hidden>Afficher plus</button></p>
+
+  <details class="cr-sources">
+    <summary><h2>Sources et téléchargement</h2></summary>
+    <ul class="bd-fichiers" id="bd-fichiers"></ul>
+    <p class="cr-petit">Les chiffres sont ceux des documents d'OpenEvidence, sans retouche ; les réponses de vérification du 24 novembre 2026 sont restées en anglais (seuls les intitulés sont traduits). Une donnée n'est pas une recommandation : vérifiez la population et l'étalon de chaque étude avant de l'appliquer.</p>
+  </details>
+</main>
+<footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
+</body>
+</html>
