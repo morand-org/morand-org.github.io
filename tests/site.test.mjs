@@ -594,15 +594,15 @@ async function importer(nav) {
   verifier("Importer : les éléments cochés remplissent le formulaire (âge, blocage, McMurray) ; le Lachman contradictoire reste vide", f.age === "34" && !f.lachman && f.blocage === "non" && f.mcmurray === "negatif" && !f.ouvert && !erreurs.length, { ...f, erreurs });
   // Une deuxième note ajoute une plainte ; une réponse déjà donnée autrement est décochée.
   await p.click("#lo-importer-ouvrir");
-  await p.fill("#lo-import-texte", "Homme 58 ans, épaule gauche depuis 4 mois. Hawkins positif, Neer positif.");
+  await p.fill("#lo-import-texte", "Homme 58 ans, épaule gauche depuis 4 mois. Hawkins positif, Neer positif. Coude : amplitudes complètes et indolores.");
   await p.click("#lo-import-analyser"); await p.waitForSelector("#lo-import-appliquer");
-  const e = await p.evaluate(() => ({ regions: [...document.querySelectorAll("input[data-region]")].map(i => `${i.dataset.region}${i.disabled ? "" : "+"}`),
+  const e = await p.evaluate(() => ({ regions: [...document.querySelectorAll("input[data-region]")].map(i => `${i.dataset.region}${i.disabled ? "" : "+"}${i.checked ? "✓" : ""}`),
     age: [...document.querySelectorAll(".lo-importer-liste li")].filter(li => /Déjà répondu/.test(li.textContent)).map(li => li.querySelector("input").checked) }));
   await p.click("#lo-import-appliquer"); await p.waitForSelector('[data-q="epaule:neer"]', { state: "attached" });
   const neer = await p.evaluate(() => ({ neer: document.querySelector('[data-q="epaule:neer"][aria-pressed="true"]')?.dataset.v, age: document.querySelector('input[data-q="age"]').value,
     plaintes: [...document.querySelectorAll(".lo-puce[aria-pressed=true][data-region]")].map(b => b.dataset.region) }));
-  verifier("Importer : une note d'épaule ajoute la plainte, sans écraser l'âge déjà inscrit", e.regions.join() === "genou,epaule+" && e.age.length && e.age.every(c => !c) && neer.neer === "oui" && neer.age === "34"
-    && neer.plaintes.includes("epaule") && neer.plaintes.includes("genou"), { e, neer });
+  verifier("Importer : une note d'épaule ajoute la plainte (le coude examiné normal reste décoché), sans écraser l'âge déjà inscrit", e.regions.join() === "genou✓,epaule+✓,coude+" && e.age.length && e.age.every(c => !c) && neer.neer === "oui" && neer.age === "34"
+    && neer.plaintes.includes("epaule") && neer.plaintes.includes("genou") && !neer.plaintes.includes("coude"), { e, neer });
   await ctx.close();
 }
 
