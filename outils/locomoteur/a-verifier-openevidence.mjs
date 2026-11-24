@@ -41,7 +41,7 @@ for (const [region, code] of REGIONS) {
 
   // 1. Fréquences de départ.
   const freq = d.diagnostics.filter(x => !x.residuel).map((x, i) => `${code}-F${i + 1}. ${en(x.id)} — current estimate: ${x.base.map(([a, p]) => `${a} y ${pc(p)}`).join(", ")}${x.sexe ? `; ${Object.entries(x.sexe).map(([s, k]) => `${s === "F" ? "women" : "men"} ×${nb(k)}`).join(", ")}` : ""}`);
-  blocs.push({ titre: "Fréquences de départ", n: freq.length, texte: `Among patients ${d.ages === "12 ans et plus" ? "12 years and older" : d.ages} consulting in primary care or sports medicine for ${plainte} pain, what proportion has each of the following diagnoses? Our current estimates of the proportion by age are given; confirm or correct them.\n\n${freq.join("\n")}\n\n${FORMAT_FREQ}` });
+  if (!d.frequencesRevues) blocs.push({ titre: "Fréquences de départ", n: freq.length, texte: `Among patients ${d.ages === "12 ans et plus" ? "12 years and older" : d.ages} consulting in primary care or sports medicine for ${plainte} pain, what proportion has each of the following diagnoses? Our current estimates of the proportion by age are given; confirm or correct them.\n\n${freq.join("\n")}\n\n${FORMAT_FREQ}` });
 
   // 2 et 3. Poids : à vérifier (tous), puis provisoires forts.
   const items = { a_verifier: [], fort: [] }, vus = new Set();
@@ -84,7 +84,7 @@ for (const [region, code] of REGIONS) {
 
   sortie.push(`## ${d.titre} (${code})`, "");
   blocs.forEach((b, i) => { sortie.push(`### ${code} ${i + 1}. ${b.titre} (${b.n} élément${b.n > 1 ? "s" : ""})`, "", "```text", b.texte.trim(), "```", ""); });
-  sommaire.push(`| ${d.titre} | ${blocs.length} | ${freq.length} | ${items.a_verifier.length} | ${items.fort.length} |`);
+  sommaire.push(`| ${d.titre} | ${blocs.length} | ${d.frequencesRevues ? `réponse reçue (${d.frequencesRevues.date})` : freq.length} | ${items.a_verifier.length} | ${items.fort.length} |`);
 }
 sortie.splice(sortie.indexOf("Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou les corrige ; une réponse « no data » est utile aussi (le poids reste provisoire et prudent).") + 2, 0,
   "| Région | Consignes | Fréquences | À vérifier | Forts provisoires |", "|---|---|---|---|---|", ...sommaire, "");

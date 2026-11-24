@@ -10,7 +10,7 @@ Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou l
 
 | Région | Consignes | Fréquences | À vérifier | Forts provisoires |
 |---|---|---|---|---|
-| Cervicalgie ou douleur cervico-brachiale | 3 | 17 | 13 | 12 |
+| Cervicalgie ou douleur cervico-brachiale | 2 | réponse reçue (2026-11-24) | 13 | 12 |
 | Douleur à l'épaule | 3 | 17 | 7 | 21 |
 | Douleur au coude | 4 | 17 | 4 | 28 |
 | Douleur au poignet ou à la main | 4 | 29 | 7 | 35 |
@@ -22,33 +22,7 @@ Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou l
 
 ## Cervicalgie ou douleur cervico-brachiale (CERV)
 
-### CERV 1. Fréquences de départ (17 éléments)
-
-```text
-Among patients 12 years and older consulting in primary care or sports medicine for neck pain, what proportion has each of the following diagnoses? Our current estimates of the proportion by age are given; confirm or correct them.
-
-CERV-F1. non-specific mechanical neck pain — current estimate: 12 y 45%, 30 y 45%, 50 y 40%, 70 y 35%
-CERV-F2. myofascial pain syndrome of the upper trapezius — current estimate: 12 y 5%, 25 y 12%, 45 y 12%, 70 y 6%; women ×1.4, men ×0.7
-CERV-F3. cervical facet joint pain — current estimate: 12 y 1%, 30 y 5%, 50 y 10%, 70 y 12%
-CERV-F4. cervical spondylosis or degenerative disc disease — current estimate: 12 y 0.2%, 35 y 3%, 50 y 12%, 65 y 20%, 80 y 25%
-CERV-F5. whiplash-associated disorder — current estimate: 12 y 4%, 20 y 8%, 40 y 7%, 70 y 4%
-CERV-F6. cervicogenic headache — current estimate: 12 y 1%, 30 y 4%, 50 y 4%, 70 y 3%; women ×1.5, men ×0.7
-CERV-F7. cervical muscle strain in athletes — current estimate: 12 y 4%, 18 y 6%, 30 y 3%, 50 y 2%
-CERV-F8. cervical radiculopathy — current estimate: 12 y 0.3%, 30 y 3%, 50 y 7%, 65 y 5%, 80 y 3%
-CERV-F9. stinger or burner (brachial plexus neurapraxia) — current estimate: 12 y 1%, 18 y 3%, 25 y 2%, 35 y 0.5%; men ×3, women ×0.3
-CERV-F10. acute acquired torticollis — current estimate: 12 y 4%, 25 y 4%, 50 y 3%, 70 y 2%
-CERV-F11. polymyalgia rheumatica — current estimate: 12 y 0.01%, 50 y 0.3%, 65 y 1%, 80 y 2%; women ×1.5, men ×0.7
-CERV-F12. degenerative cervical myelopathy — current estimate: 12 y 0.02%, 40 y 0.2%, 55 y 1%, 70 y 2%, 85 y 3%; men ×1.5, women ×0.7
-CERV-F13. cervical spine involvement in rheumatoid arthritis (atlantoaxial instability) — current estimate: 12 y 0.05%, 40 y 0.2%, 60 y 0.4%, 80 y 0.4%; women ×2, men ×0.5
-CERV-F14. cervical spine fracture (odontoid, fragility) — current estimate: 12 y 0.3%, 40 y 0.3%, 65 y 0.6%, 80 y 2%, 90 y 3%
-CERV-F15. thoracic outlet syndrome — current estimate: 12 y 0.3%, 20 y 1%, 35 y 1%, 55 y 0.5%; women ×1.5, men ×0.7
-CERV-F16. cervical spondylodiscitis or epidural abscess — current estimate: 12 y 0.01%, 50 y 0.03%, 80 y 0.06%
-CERV-F17. occipital neuralgia — current estimate: 12 y 0.2%, 30 y 1%, 50 y 1%, 70 y 0.8%
-
-Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
-```
-
-### CERV 2. Poids à vérifier et combinaisons (13 éléments)
+### CERV 1. Poids à vérifier et combinaisons (13 éléments)
 
 ```text
 For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for neck pain; the French wording is kept in quotes.
@@ -75,7 +49,7 @@ CERV-P13. « Engourdissements ou picotements dans le bras ou la main » — curr
 Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
 ```
 
-### CERV 3. Poids provisoires forts (12 éléments)
+### CERV 2. Poids provisoires forts (12 éléments)
 
 ```text
 For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for neck pain; the French wording is kept in quotes.
