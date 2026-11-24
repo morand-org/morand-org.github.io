@@ -67,7 +67,7 @@
 
   window.Locomoteur.definir({
     id: "cheville", partie: "cheville", en: "ankle", rc: "Douleur à la cheville",
-    titre: "Douleur à la cheville ou à la jambe", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Douleur à la cheville ou à la jambe", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.cheville || {}).sources,
 
     /* Probabilités de départ : estimations (provisoires) guidées par les fréquences publiées (« repere », parties A et C). */

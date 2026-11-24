@@ -6,10 +6,10 @@
 <script src="/morand/plein-ecran.js"></script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Cervical | MSK Morand (prototype)</title>
-<!-- Prototype caché : absent du plan du site et de l'accueil, non indexé. Rien n'est transmis ni conservé. -->
+<title>Cervical | MSK Morand</title>
+<!-- Rien n'est transmis ni conservé hors du navigateur. -->
 <meta name="robots" content="noindex,nofollow">
-<meta name="description" content="Prototype d'aide à la décision pour la douleur cervicale : anamnèse et examen guidés, diagnostic différentiel, alertes, conduite et note pour le dossier.">
+<meta name="description" content="Aide à la décision pour la douleur cervicale : anamnèse et examen guidés, diagnostic différentiel, alertes, conduite et note pour le dossier.">
 <meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
@@ -49,8 +49,7 @@
     <a class="cr-vue" href="/locomoteur/">Toutes les régions</a>
     <a class="cr-vue" href="/locomoteur/cervical/" aria-current="page">Cervical</a>
   </nav>
-  <p class="lo-avis"><strong>Prototype : une partie des poids est vérifiée dans la littérature (document OpenEvidence), le reste demeure provisoire.</strong>
-    Rien n'est transmis. Les réponses restent dans la page ; « Patients » les sauvegarde dans ce navigateur seulement, sans chiffrement, sous une étiquette neutre (jamais de nom, d'initiales ni de numéro de dossier). Une réponse laissée vide, « N/A » ou « Équivoque » ne compte pas.</p>
+  <p class="lo-confidentialite">Rien n'est transmis : les réponses restent dans la page. « Patients » les garde dans ce navigateur seulement, sous une étiquette neutre (jamais de nom, d'initiales ni de numéro de dossier).</p>
 
   <nav class="lo-nav" id="lo-nav" aria-label="Sections du questionnaire"></nav>
   <p class="lo-legende"><span><strong>Trait doré</strong> : la réponse compte dans le calcul des probabilités ; sans trait, elle sert seulement à la note. Dans les résultats, chaque poids porte son statut :
@@ -91,9 +90,9 @@
   <details class="cr-sources" id="sources">
     <summary><h2>Sources et limites</h2></summary>
     <div class="lo-sources-texte">
-      <p><strong>D'où viennent les chiffres.</strong> Le 21 novembre 2026, le clinicien a réuni dans un document les réponses d'OpenEvidence pour toutes les régions : fréquence des diagnostics selon l'âge et la population, sensibilité, spécificité et RV des questions d'anamnèse, de l'examen de base, des tests spéciaux et des combinaisons validées, et fiches de conduite de première ligne (Québec), soit près de 1 450 références numérotées (plusieurs reviennent d'une partie à l'autre). Les poids marqués « vérifié » en viennent, avec leur source. Le clinicien pose à OpenEvidence, un assistant de recherche médicale qui cite ses références, des questions standardisées (bouton ci-dessous) : sensibilité, spécificité et rapports de vraisemblance de chaque élément d'anamnèse et d'examen, combinaisons validées, fréquence de chaque diagnostic selon l'âge et le sexe. On retient en priorité les méta-analyses, puis les études en première ligne ou en médecine du sport, et l'on note pour chaque chiffre la source (premier auteur, année, PMID), le nombre d'études et de patients, la population et la référence standard (IRM, arthroscopie…). Les réponses complètes sont conservées telles quelles dans le dépôt du site (outils/locomoteur/sources), avec chaque source. Chaque poids sans source garde le statut « provisoire ».</p>
+      <p><strong>D'où viennent les chiffres.</strong> Les fréquences des diagnostics et les rapports de vraisemblance viennent de la littérature : méta-analyses et études de précision diagnostique (sensibilité, spécificité, RV) des questions d'anamnèse, de l'examen et des tests spéciaux, et combinaisons validées (règles d'Ottawa, critères de l'ACR, règle canadienne C-spine, etc.). Le tableau ci-dessous donne, pour chaque poids, son statut et sa source (auteurs, revue, année, PMID).</p>
       <p><strong>Calcul.</strong> Pour chaque diagnostic, on part d'une probabilité selon l'âge exact et le sexe, puis chaque réponse la fait monter ou descendre selon son rapport de vraisemblance (RV). Quand la sensibilité (Se) et la spécificité (Sp) sont connues : RV+ = Se / (1 − Sp) et RV− = (1 − Se) / Sp. Les tests qui se recoupent forment un groupe : seul le plus fort en faveur et le plus fort en défaveur comptent. Quand une combinaison validée est réunie (ex. Décary : traumatisme en pivot et pop pour le LCA ; critères de l'ACR pour l'arthrose), son RV remplace celui des éléments qui la composent. Une sensibilité ou une spécificité de 100 % est plafonnée à 99 %. Deux diagnostics qui coexistent rarement se disputent les mêmes éléments : le plus probable les « explique ». La fourchette n'est pas un intervalle de confiance : c'est une analyse de sensibilité, qui refait le calcul avec des poids 30 % plus faibles ou plus forts et une fréquence de départ 1,5 fois plus basse ou plus haute. Une fourchette large signale un résultat fragile. Une réponse « Équivoque » ou « N/A » ne compte pas.</p>
-      <p><strong>Statut des poids.</strong> <em>Provisoire</em> : estimation clinique, en attente de données. <em>À vérifier</em> : valeur publiée citée de mémoire. <em>Vérifié</em> : chiffre tiré d'une étude identifiée (auteur, année, PMID). <em>Validé</em> : approuvé par le clinicien. Les règles de décision (Ottawa) et les drapeaux rouges sont hors du calcul : ils s'affichent comme alertes.</p>
+      <p><strong>Statut des poids.</strong> <em>Provisoire</em> : estimation clinique, en attente de données. <em>À vérifier</em> : valeur publiée dont la source reste à confirmer. <em>Vérifié</em> : chiffre tiré d'une étude identifiée (auteur, année, PMID). <em>Validé</em> : revu par l'auteur de l'outil. Les règles de décision (Ottawa) et les drapeaux rouges sont hors du calcul : ils s'affichent comme alertes.</p>
       <p><strong>Limites.</strong> Le calcul suppose que les réponses sont indépendantes, ce qui surestime parfois les probabilités ; les études portent surtout sur des adultes, souvent en orthopédie ; les fréquences de départ restent des estimations guidées par les fréquences publiées (affichées comme repères dans le tableau), car aucune étude ne donne la probabilité de chaque diagnostic selon l'âge et le sexe chez les patients qui consultent. L'outil aide à raisonner : il ne remplace pas le jugement clinique.</p>
     </div>
     <p id="lo-src-conduite"></p>
@@ -101,7 +100,6 @@
     <div class="lo-src-outils">
       <label for="lo-src-dx">Diagnostic</label>
       <select class="lo-select" id="lo-src-dx"></select>
-      <button type="button" class="lo-bouton" id="lo-consigne">Copier les questions pour OpenEvidence</button>
     </div>
     <div class="lo-table-cadre">
       <table class="lo-table" id="lo-table">

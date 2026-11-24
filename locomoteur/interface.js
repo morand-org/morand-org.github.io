@@ -5,7 +5,8 @@
 (function () {
   "use strict";
   const LO = window.Locomoteur, C = LO && LO.commun;
-  if (!LO || !C || !LO.donnees) return;
+  if (!LO || !C) return;
+  LO.donnees = LO.donnees || {};   // page « Consultation » : aucune région chargée au départ
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const nb = (x, dec = 2) => (x === undefined || x === null ? "—" : Number(x).toLocaleString("fr-CA", { maximumFractionDigits: dec }));
@@ -14,7 +15,8 @@
   const NIVEAU = { urgence: "Urgence", rapide: "Rapidement", considerer: "À considérer", info: "Information" };
   const ORDRE = ["cervical", "epaule", "coude", "poignet", "lombaire", "hanche", "genou", "cheville", "pied"];
   const NOMS = { cervical: "Cervical", epaule: "Épaule", coude: "Coude", poignet: "Poignet et main", lombaire: "Lombaire", hanche: "Hanche", genou: "Genou", cheville: "Cheville", pied: "Pied" };
-  const AIDES = { pied: ["cheville"] };   // aide-mémoire d'une autre région utilisé par une région
+  const AIDES = { pied: ["cheville"] };
+  const SANS_AIDE = new Set(["genou"]);   // conduite écrite dans le fichier de données, sans fichier d'aide-mémoire   // aide-mémoire d'une autre région utilisé par une région
   const prets = new Set((document.body.dataset.regions || document.body.dataset.articulation || "").split(",").filter(Boolean));
   const P = C.PARTAGES, PARTAGE = new Set(Object.values(P).flat());
   const form = $("#lo-form"), ouverts = new Set(), tousR = new Set();
@@ -41,7 +43,7 @@
   const script = src => new Promise((ok, ko) => { const s = document.createElement("script"); s.src = src; s.onload = ok; s.onerror = ko; document.head.appendChild(s); });
   function chargerRegion(r) {
     if (D(r)) return Promise.resolve();
-    if (!enCours[r]) enCours[r] = [r, ...(AIDES[r] || [])].reduce((suite, a) => suite.then(() => ((LO.aideMemoire || {})[a] ? null : script(`/locomoteur/${a}/aide-memoire-${a}.js`))), Promise.resolve())
+    if (!enCours[r]) enCours[r] = [r, ...(AIDES[r] || [])].reduce((suite, a) => suite.then(() => ((LO.aideMemoire || {})[a] || SANS_AIDE.has(a) ? null : script(`/locomoteur/${a}/aide-memoire-${a}.js`).catch(() => null))), Promise.resolve())
       .then(() => script(`/locomoteur/${r}/donnees-${r}.js`));
     return enCours[r];
   }
@@ -239,10 +241,7 @@
       for (const s of D(base).sections.filter(s => s.note === "inv" || s.note === "plan")) h.push(section(s.id, s.titre, s.blocs.map((b, i) => blocHtml(`c-${s.id}-${i}`, b, b.questions.map(q => ({ r: base, q })))).join("")));
     } else h.push(`<p class="lo-vide">Choisissez la région de la plainte pour commencer.</p>`);
     form.innerHTML = h.join("");
-    const liens = [["plaintes", "Plaintes"], ...(regs.length ? [["identification", "Identification"], ["hdv", "Habitudes"], ["antecedents", "Antécédents"], ...regs.map(r => [`p-${r}`, NOMS[r]]),
-      ["drapeaux", "Drapeaux rouges"], ["examen", "Examen"], ["investigations", "Investigations"], ["plan", "Impression et plan"]] : [])];
-    $("#lo-nav").innerHTML = liens.map(([id, t]) => `<a href="#s-${id}" data-nav="${id}">${esc(t)}<span class="lo-compte"></span></a>`).join("")
-      + `<a href="#resultats">Résultats</a><a href="#sources">Sources</a><button type="button" class="lo-nouveau lo-secondaire" id="lo-rapide" aria-pressed="${rapide ? "true" : "false"}" title="Mode rapide : seulement les questions les plus discriminantes ; les réponses données restent visibles">Mode rapide</button><button type="button" class="lo-nouveau lo-secondaire" id="lo-patients-ouvrir">Patients</button><button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>`;
+    $("#lo-nav").innerHTML = `<button type="button" class="lo-nouveau lo-secondaire" id="lo-rapide" aria-pressed="${rapide ? "true" : "false"}" title="Mode rapide : seulement les questions les plus discriminantes ; les réponses données restent visibles">Mode rapide</button><button type="button" class="lo-nouveau lo-secondaire" id="lo-patients-ouvrir">Patients</button><button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>`;
     remplir();
   }
   // Remet dans les contrôles les réponses en mémoire (après une reconstruction ou l'ouverture d'un patient).
@@ -398,8 +397,8 @@
     return pour.length || contre.length ? `<span class="lo-dx-cles">${[...pour.map(c => `<span data-sens="haut">↑ ${esc(c.libelle)}</span>`), ...contre.map(c => `<span data-sens="bas">↓ ${esc(c.libelle)}</span>`)].join("")}</span>` : "";
   };
   // Fiche high yield liée au diagnostic (locomoteur/fiches-hy.js), et bibliothèque de la région.
-  const hyLien = (r, id) => { const f = ((LO.fichesHY || {})[r] || {})[id]; return f ? `<p class="lo-fiches"><a class="lo-lien" href="${esc(f.u)}">Fiche high yield ${esc(f.no)}</a></p>` : ""; };
-  const hyBiblio = r => ((LO.fichesHY || {})[r] ? `<p class="lo-discret lo-hy-biblio"><a href="/locomoteur/${r}/fiches/">Fiches high yield : ${esc(NOMS[r].toLowerCase())}</a></p>` : "");
+  const hyLien = (r, id) => { const f = ((LO.fichesHY || {})[r] || {})[id]; return f ? `<p class="lo-fiches"><a class="lo-lien" href="${esc(f.u)}">Fiche résumée ${esc(f.no)}</a></p>` : ""; };
+  const hyBiblio = r => ((LO.fichesHY || {})[r] ? `<p class="lo-discret lo-hy-biblio"><a href="/locomoteur/${r}/fiches/">Fiches résumées des pathologies : ${esc(NOMS[r].toLowerCase())}</a></p>` : "");
   /* Éléments clés non évalués (point 3) : pour les 3 premiers diagnostics, les questions visibles et sans réponse qui
      pèseraient le plus (RV de 3 ou plus, ou de 1/3 ou moins). Non évalué n'est jamais un négatif. */
   const CONTEXTE = new Set(["visite", "sexe", "age", "cote", "duree", "apparition", "mecanisme", "premier", "lateralite"]);
@@ -821,10 +820,10 @@
     statistiques(); tableau();
     $("#lo-version").textContent = regs.length ? D(regs[0]).version : "";
     const sc = regs.map(r => D(r).sourcesConduite ? `${NOMS[r]} : ${D(r).sourcesConduite}` : null).filter(Boolean);
-    $("#lo-src-conduite").innerHTML = sc.length ? `<strong>Conduite.</strong> Aide-mémoire de première ligne (Québec) du document OpenEvidence, à adapter au jugement clinique et aux corridors de services locaux. ${sc.map(esc).join(" ")}` : "";
+    $("#lo-src-conduite").innerHTML = sc.length ? `<strong>Conduite.</strong> Fondée sur les guides de pratique reconnus (INESSS, Choisir avec soin Canada, NICE, ACR, AAOS, American Family Physician) et sur la littérature citée sous chaque recommandation ; à adapter au jugement clinique et aux corridors de services locaux. ${sc.map(esc).join(" ")}` : "";
   }
   choixDx.addEventListener("change", tableau);
-  $("#lo-consigne").addEventListener("click", e => { if (!choixDx.value) return; const [r, id] = choixDx.value.split("|"); copier(LO.consigne(D(r), id), e.currentTarget, "Questions copiées"); });
+  $("#lo-consigne") && $("#lo-consigne").addEventListener("click", e => { if (!choixDx.value) return; const [r, id] = choixDx.value.split("|"); copier(LO.consigne(D(r), id), e.currentTarget, "Questions copiées"); });
 
   /* ---------- Départ : la région de la page ---------- */
   const depart = document.body.dataset.articulation;

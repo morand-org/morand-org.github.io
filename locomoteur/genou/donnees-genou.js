@@ -354,7 +354,7 @@
 
   window.Locomoteur.definir({
     id: "genou", partie: "genou", en: "knee", rc: "Douleur au genou",
-    titre: "Douleur au genou", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Douleur au genou", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
 
     /* ---------- Diagnostics : probabilité de départ par âge (points [âge, probabilité]) et multiplicateur de cote du sexe ----------
        Les probabilités de départ restent des estimations (provisoires) ; « repere » donne les fréquences publiées qui les

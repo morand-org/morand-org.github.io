@@ -50,7 +50,7 @@
 
   window.Locomoteur.definir({
     id: "coude", partie: "coude", partieExamen: "coude", en: "elbow", rc: "Douleur au coude",
-    titre: "Douleur au coude", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Douleur au coude", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.coude || {}).sources,
 
     diagnostics: [

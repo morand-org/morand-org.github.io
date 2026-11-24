@@ -6,10 +6,9 @@
 <script src="/morand/plein-ecran.js"></script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>MSK Morand (prototype)</title>
-<!-- Prototype caché : absent du plan du site et de l'accueil, non indexé. -->
+<title>MSK Morand</title>
 <meta name="robots" content="noindex,nofollow">
-<meta name="description" content="Prototype d'aide à la décision pour les consultations musculosquelettiques : anamnèse et examen guidés, diagnostic différentiel, alertes, conduite et note pour le dossier.">
+<meta name="description" content="Aide à la décision pour les consultations musculosquelettiques : anamnèse et examen guidés, diagnostic différentiel, alertes, conduite et note pour le dossier.">
 <meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
@@ -39,24 +38,24 @@
     <p class="cr-lead">Pendant la visite, on coche l'anamnèse et l'examen ; la page propose un diagnostic différentiel, signale les drapeaux rouges, suggère une conduite et rédige la note à coller au dossier.</p>
   </section>
 
-  <p class="lo-avis"><strong>Prototype : une partie des poids est vérifiée dans la littérature (document OpenEvidence), le reste demeure provisoire.</strong>
-    Rien n'est transmis. Les réponses restent dans la page ; « Patients » peut les garder dans ce navigateur seulement, sans chiffrement, sous une étiquette neutre (jamais de nom, d'initiales ni de numéro de dossier).</p>
+  <p class="lo-demarrer"><a class="lo-bouton lo-bouton-grand" href="/locomoteur/consultation/">Démarrer la consultation</a></p>
+  <p class="lo-demarrer-aide">Choisissez ensuite la ou les régions sur l'atlas. Rien n'est transmis : les réponses restent dans la page.</p>
 
   <h2 class="lo-regions-titre">Choisir la région</h2>
   <ol class="lo-regions cr-specs">
-    <li><a class="cr-spec lo-region" href="/locomoteur/cervical/"><span class="cr-spec-nom">Cervical</span><span class="cr-spec-sous">17 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/epaule/"><span class="cr-spec-nom">Épaule</span><span class="cr-spec-sous">17 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/coude/"><span class="cr-spec-nom">Coude</span><span class="cr-spec-sous">17 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/poignet/"><span class="cr-spec-nom">Poignet et main</span><span class="cr-spec-sous">29 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/lombaire/"><span class="cr-spec-nom">Lombaire</span><span class="cr-spec-sous">16 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/hanche/"><span class="cr-spec-nom">Hanche</span><span class="cr-spec-sous">21 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/genou/"><span class="cr-spec-nom">Genou</span><span class="cr-spec-sous">23 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/cheville/"><span class="cr-spec-nom">Cheville</span><span class="cr-spec-sous">21 diagnostics · prêt à essayer</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/pied/"><span class="cr-spec-nom">Pied</span><span class="cr-spec-sous">22 diagnostics · prêt à essayer</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/cervical/"><span class="cr-spec-nom">Cervical</span><span class="cr-spec-sous">17 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/epaule/"><span class="cr-spec-nom">Épaule</span><span class="cr-spec-sous">17 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/coude/"><span class="cr-spec-nom">Coude</span><span class="cr-spec-sous">17 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/poignet/"><span class="cr-spec-nom">Poignet et main</span><span class="cr-spec-sous">29 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/lombaire/"><span class="cr-spec-nom">Lombaire</span><span class="cr-spec-sous">16 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/hanche/"><span class="cr-spec-nom">Hanche</span><span class="cr-spec-sous">21 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/genou/"><span class="cr-spec-nom">Genou</span><span class="cr-spec-sous">23 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/cheville/"><span class="cr-spec-nom">Cheville</span><span class="cr-spec-sous">21 diagnostics</span></a></li>
+    <li><a class="cr-spec lo-region" href="/locomoteur/pied/"><span class="cr-spec-nom">Pied</span><span class="cr-spec-sous">22 diagnostics</span></a></li>
   </ol>
 
   <!-- fiches-hy -->
-  <h2 class="lo-regions-titre">Fiches high yield</h2>
+  <h2 class="lo-regions-titre">Fiches résumées des pathologies</h2>
   <ol class="lo-regions cr-specs">
     <li><a class="cr-spec lo-hy-region" href="/locomoteur/cervical/fiches/"><span class="cr-spec-nom">Rachis cervical</span><span class="cr-spec-sous">26 fiches</span></a></li>
     <li><a class="cr-spec lo-hy-region" href="/locomoteur/epaule/fiches/"><span class="cr-spec-nom">Épaule</span><span class="cr-spec-sous">24 fiches</span></a></li>
@@ -69,8 +68,8 @@
 
   <details class="cr-sources">
     <summary><h2>Sources et limites</h2></summary>
-    <p class="cr-petit">Outil d'aide à la décision : il ne remplace pas le jugement clinique. Les probabilités viennent de rapports de vraisemblance, vérifiés pour une partie, provisoires pour le reste ; chaque page de région montre le statut et la source de chaque poids, et la conduite suit l'aide-mémoire de première ligne (Québec) du document OpenEvidence.</p>
-    <p class="cr-petit">Les fiches ouvertes depuis les diagnostics sont rédigées de mémoire et restent à valider.</p>
+    <p class="cr-petit">Outil d'aide à la décision : il ne remplace pas le jugement clinique. Les probabilités reposent sur les rapports de vraisemblance publiés (méta-analyses et études de précision diagnostique) ; chaque région indique le statut et la source de chaque poids.</p>
+    <p class="cr-petit">La conduite s'appuie sur les guides de pratique reconnus (INESSS, Choisir avec soin Canada, NICE, ACR, AAOS, American Family Physician) et sur la littérature citée sous chaque recommandation, à adapter aux corridors de services locaux.</p>
   </details>
 </main>
 <footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>

@@ -44,7 +44,7 @@
 
   window.Locomoteur.definir({
     id: "pied", partie: "pied", en: "foot", rc: "Douleur au pied",
-    titre: "Douleur au pied", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Douleur au pied", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.pied || {}).sources,
 
     diagnostics: [

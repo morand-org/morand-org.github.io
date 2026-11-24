@@ -441,11 +441,10 @@ async function locomoteur(nav) {
     // Copier la note, puis les questions pour OpenEvidence.
     await p.click("#t-note"); await p.click("#lo-copier"); await p.waitForTimeout(150);
     verifier(`Genou ${largeur} px : la note est copiée`, (await p.evaluate(() => navigator.clipboard.readText())).startsWith("IDENTIFICATION :"));
-    await p.click('#lo-nav a[href="#sources"]'); await p.waitForTimeout(100);
-    verifier(`Genou ${largeur} px : « Sources » ouvre « Sources et limites »`, await p.evaluate(() => document.getElementById("sources").open));
-    await p.selectOption("#lo-src-dx", "genou|lca"); await p.click("#lo-consigne"); await p.waitForTimeout(150);
-    const c = await p.evaluate(() => navigator.clipboard.readText());
-    verifier(`Genou ${largeur} px : les questions pour OpenEvidence du LCA sont en anglais et nomment les tests`, c.includes("anterior cruciate ligament tear") && c.includes("Lachman"), c.slice(0, 300));
+    await p.click("#sources > summary"); await p.waitForTimeout(100);
+    verifier(`Genou ${largeur} px : « Sources et limites » s'ouvre, sans bulles de navigation ni bouton OpenEvidence`,
+      await p.evaluate(() => document.getElementById("sources").open && !document.querySelector("#lo-nav a") && !document.getElementById("lo-consigne")));
+    await p.selectOption("#lo-src-dx", "genou|lca"); await p.waitForTimeout(100);
     verifier(`Genou ${largeur} px : le tableau des sources montre les poids et les combinaisons du diagnostic choisi`, (await p.locator("#lo-table tbody tr").count()) > 20
       && (await p.textContent("#lo-table")).includes("Combinaison : Décary") && (await p.textContent("#lo-table")).includes("Sokal"));
     // Bouton « i » : pourquoi, effet sur le calcul, source et vidéo ; « Équivoque » ne compte pas.

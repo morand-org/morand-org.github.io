@@ -62,8 +62,8 @@ const tete = (titre, description, profondeur) => `<!doctype html>
 <script src="/morand/plein-ecran.js"></script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>${esc(titre)} | MSK Morand (prototype)</title>
-<!-- Prototype caché : absent du plan du site et de l'accueil, non indexé. Produit par node outils/locomoteur/fiches-hy.mjs. -->
+<title>${esc(titre)} | MSK Morand</title>
+<!-- Produit par node outils/locomoteur/fiches-hy.mjs. -->
 <meta name="robots" content="noindex,nofollow">
 <meta name="description" content="${esc(description)}">
 <meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
@@ -153,7 +153,7 @@ ${SECTIONS.map(([cle, nom]) => {
     const ordre = [...new Set([...cites, ...f.refs.map(r => r.n)])].filter(n => refs.has(n));
     const listeRefs = ordre.map(n => { const r = refs.get(n); return `        <li id="r${n}" value="${n}">${r.url ? `<a href="${esc(r.url)}" rel="noopener">${esc(r.texte)}</a>` : esc(r.texte)}</li>`; }).join("\n");
     const prec = fiches[i - 1], suiv = fiches[i + 1], dx = dxDe.get(f.no);
-    const html = tete(`${f.no} ${f.titreFr}`, `Fiche high yield ${f.no} : ${f.titreFr}. Épidémiologie, présentation, examen, différentiel, investigations, traitement et pronostic, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><a href="${base}">${esc(R.nom)} : fiches</a><span aria-hidden="true">›</span><span>${f.no}</span></nav>
+    const html = tete(`${f.no} ${f.titreFr}`, `Fiche résumée ${f.no} : ${f.titreFr}. Épidémiologie, présentation, examen, différentiel, investigations, traitement et pronostic, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><a href="${base}">${esc(R.nom)} : fiches</a><span aria-hidden="true">›</span><span>${f.no}</span></nav>
   <article class="hy-fiche">
     <header class="hy-tete"><p class="hy-no">Fiche ${f.no}</p><p class="hy-tags">${esc(f.tagsFr)}</p></header>
     <h1 class="hy-titre">${esc(f.titreFr)}</h1>
@@ -178,10 +178,10 @@ ${listeRefs}
   const listes = series.map(s => `${series.length > 1 ? `  <h2 class="lo-regions-titre hy-serie">${esc(s.nom)}</h2>\n` : ""}  <ol class="hy-biblio">
 ${fiches.filter(f => f.serie === s.nom).map(carte).join("\n")}
   </ol>`).join("\n");
-  ecrire(`locomoteur/${region}/fiches/index.html`, tete(`${R.nom} : fiches`, `Fiches high yield, ${R.nom.toLocaleLowerCase("fr-CA")} : une page par pathologie, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>${esc(R.nom)} : fiches</span></nav>
+  ecrire(`locomoteur/${region}/fiches/index.html`, tete(`${R.nom} : fiches`, `Fiches résumées des pathologies, ${R.nom.toLocaleLowerCase("fr-CA")} : une page par pathologie, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>${esc(R.nom)} : fiches</span></nav>
   <section class="cr-intro hy-intro">
     <h1>${esc(R.nom)}</h1>
-    <p class="cr-devise">Fiches high yield</p>
+    <p class="cr-devise">Fiches résumées des pathologies</p>
     <p class="cr-lead">${fiches.length} fiches d'une page : épidémiologie, présentation, examen, physiopathologie, différentiel, investigations, traitement et pronostic, avec leurs références. Les fiches marquées « dans le calcul » s'ouvrent aussi depuis les résultats.</p>
     <p class="hy-actions"><a class="lo-bouton" href="/locomoteur/${region}/">Ouvrir le calcul pour ${esc(R.calcul)}</a></p>
   </section>
@@ -200,7 +200,7 @@ ecrire("locomoteur/fiches-hy.js", `/* Produit par node outils/locomoteur/fiches-
 const hubF = path.join(RACINE, "locomoteur/index.html");
 let hub = fs.readFileSync(hubF, "utf8");
 const bloc = `<!-- fiches-hy -->
-  <h2 class="lo-regions-titre">Fiches high yield</h2>
+  <h2 class="lo-regions-titre">Fiches résumées des pathologies</h2>
   <ol class="lo-regions cr-specs">
 ${resume.map(r => `    <li><a class="cr-spec lo-hy-region" href="/locomoteur/${r.region}/fiches/"><span class="cr-spec-nom">${esc(r.nom)}</span><span class="cr-spec-sous">${r.n} fiches</span></a></li>`).join("\n")}
   </ol>

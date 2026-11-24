@@ -65,7 +65,7 @@
 
   window.Locomoteur.definir({
     id: "lombaire", partie: "lombaire", partieExamen: "rachis lombaire", en: "low back", rc: "Lombalgie",
-    titre: "Lombalgie, avec ou sans irradiation", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Lombalgie, avec ou sans irradiation", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.lombaire || {}).sources,
 
     diagnostics: [
