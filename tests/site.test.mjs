@@ -27,7 +27,7 @@ function verifier(nom, condition, detail) {
   else { echecs++; console.error(`ÉCHEC : ${nom}${detail !== undefined ? ` (${typeof detail === "string" ? detail : JSON.stringify(detail)})` : ""}`); }
 }
 const lire = f => fs.readFileSync(path.join(RACINE, f), "utf8");
-const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/", "/entrainement/"];
+const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/", "/entrainement/", "/locomoteur/donnees/"];
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
@@ -675,6 +675,19 @@ async function entrainement(nav) {
   }
 }
 
+/* Base de données OpenEvidence (page non indexée) : 4 sources chargées, recherche, filtre par région, références reliées. */
+async function baseDonnees(nav) {
+  const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/donnees/?q=lachman", { largeur: 390 });
+  await p.waitForSelector(".bd-carte");
+  const r = await p.evaluate(() => ({ compte: document.querySelector("#bd-compte").textContent, cartes: document.querySelectorAll(".bd-carte").length,
+    liens: document.querySelectorAll(".bd-refs a[href^='http']").length, sources: document.querySelectorAll(".bd-puce").length, robots: document.querySelector('meta[name="robots"]').content }));
+  await p.fill("#bd-q", ""); await p.selectOption("#bd-region", "pied"); await p.waitForTimeout(300);
+  const pied = await p.evaluate(() => [...document.querySelectorAll(".bd-carte .bd-meta span:nth-child(2)")].every(s => s.textContent === "Pied") && document.querySelectorAll(".bd-carte").length > 0);
+  verifier("Base de données : 4 sources, recherche « lachman » avec références reliées, filtre par région, page non indexée",
+    /sur 4[\s\u202f\u00a0]?\d{3}/.test(r.compte) && r.cartes > 3 && r.liens > 3 && r.sources === 4 && /noindex/.test(r.robots) && pied && !erreurs.length && !(await deborde(p)), { ...r, pied, erreurs });
+  await ctx.close();
+}
+
 /* MSK Morand : atlas de la douleur (zone touchée → plainte et côté). */
 async function atlas(nav) {
   const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur: 390 });
@@ -704,7 +717,7 @@ async function atlas(nav) {
   await ctx.close();
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, entrainement, sombre };
+const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, entrainement, baseDonnees, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {
