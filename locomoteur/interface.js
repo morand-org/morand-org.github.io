@@ -862,7 +862,7 @@
     lignes.push(`<tr class="lo-depart"><td>Probabilité de départ : ${x.base.map(([a, pr]) => `${a} ans ${pctExact(pr)}`).join(", ")}${x.sexe ? ` ; ${Object.entries(x.sexe).map(([s, f]) => `${s === "F" ? "femme" : "homme"} ×${nb(f)}`).join(", ")}` : ""}</td>
       <td colspan="4"></td><td><span class="lo-statut" data-statut="provisoire">Provisoire</span></td><td>${esc(x.repere || "")}</td></tr>`);
     for (const e of poidsDe(r, id)) {
-      const statut = `<span class="lo-statut" data-statut="${e.statut}">${LO.STATUTS[e.statut]}</span>`, piste = esc(e.piste || "");
+      const statut = `<span class="lo-statut" data-statut="${e.statut}">${LO.STATUTS[e.statut]}</span>`, piste = esc([e.piste, e.revue].filter(Boolean).join(" · "));
       if (e.rv) for (const [v, rv] of Object.entries(e.rv)) lignes.push(`<tr><td>${esc(elementDe(e, v))}</td><td>—</td><td>—</td><td colspan="2">RV ${nb(rv)}</td><td>${statut}</td><td>${piste}</td></tr>`);
       else {
         const [rp, rn] = LO.rvPosNeg(e);

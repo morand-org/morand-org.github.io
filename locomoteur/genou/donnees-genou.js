@@ -352,7 +352,37 @@
     return { oui: items.filter(x => x[0] && x[1]).length, evalues: items.filter(x => x[1]).length };
   }
 
+  /* Réponses d'OpenEvidence du 24 nov. 2026 (outils/locomoteur/sources/openevidence-reponses/) : une valeur publiée remplace
+     l'estimation quand l'étude porte sur cet élément ; sinon la remarque s'affiche dans Sources et limites. */
+  const REVUES_OE = [
+    { code: "GENO-P1", cle: "sfp|clarke>sfp", note: "OpenEvidence (24 nov. 2026) : valeurs exactes, mais pour la chondromalacie à l'arthroscopie, pas le syndrome fémoro-patellaire (Doberstein 2008)" },
+    { code: "GENO-P2", cle: "menisque|blocage>menisque", se: 0.47, sp: 0.74, statut: "verifie", piste: "Niu et coll., 2011 (Arthritis Care Res) : blocage, 300 patients, diagnostic appuyé par l'IRM" },
+    { code: "GENO-P3", cle: "tendino|p_tendon_rot>tendino", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P4", cle: "collat|valgus0|laxite", rv: {"laxite": 1.8, "normal": 0.18}, statut: "verifie", piste: "Kastelein et coll., 2008 (Am J Med, PMID 18954845), médecine familiale, IRM : laxité en valgus à 30°, Se 91 %, Sp 49 % ; « douleur sans laxité » : estimation" },
+    { code: "GENO-P5", cle: "collat|varus0|laxite", note: "OpenEvidence (24 nov. 2026) : Se d'environ 25 % (petite série à l'urgence) ; aucune spécificité publiée" },
+    { code: "GENO-P6", cle: "rotule|rotule_sortie>rotule", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P7", cle: "bit|localisation.laterale>bit", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P8", cle: "bprep|localisation.prerotulienne>bprep", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P9", cle: "bprep|ex_tumefaction.prerotulienne>bprep", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P10", cle: "poie|localisation.patte_oie>poie", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P11", cle: "poie|p_poie>poie", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P12", cle: "osgood|localisation.tuberosite>osgood", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P13", cle: "osgood|p_tta>osgood", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P14", cle: "slj|localisation.pole_inf>slj", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P15", cle: "slj|p_tendon_rot>slj", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P16", cle: "plica|p_plica>plica", se: 0.9, sp: 0.89, statut: "verifie", piste: "Stubbings et coll., 2014 (Knee, méta-analyse, PMID 24280039) : test MPP, populations chirurgicales (surestimation probable)" },
+    { code: "GENO-P17", cle: "cristaux|atcd_rhumato.goutte>cristaux", rvp: 2, rvn: 0.56, statut: "verifie", piste: "Janssens et coll., 2010 (Arch Intern Med), médecine familiale, monoarthrite, cristaux à la ponction : goutte rapportée par le patient, Se 61 %, Sp 70 %" },
+    { code: "GENO-P18", cle: "cristaux|atcd_rhumato.pseudogoutte>cristaux", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P19", cle: "cristaux|ex_chaleur>cristaux", rvp: 1.2, rvn: 0.45, statut: "verifie", piste: "Janssens et coll., 2010 (Arch Intern Med), médecine familiale : rougeur, Se 90 %, Sp 24 % pour la goutte ; chaleur et chondrocalcinose : aucune donnée" },
+    { code: "GENO-P20", cle: "septique|enflure>septique", note: "OpenEvidence (24 nov. 2026) : enflure, Se 78 % dans l'arthrite septique (Margaretten 2007) ; aucune spécificité publiée" },
+    { code: "GENO-P21", cle: "septique|risque_infection.prothese>septique", rvp: 3.1, rvn: 0.73, statut: "verifie", piste: "Margaretten et coll., 2007, JAMA (données de Kaandorp, 1995) : prothèse de hanche ou de genou, Se 35 %, Sp 89 %" },
+    { code: "GENO-P22", cle: "septique|ex_chaleur>septique", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P23", cle: "septique|flot|negatif", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P24", cle: "baker|localisation.posterieure>baker", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "GENO-P25", cle: "baker|ex_tumefaction.poplitee>baker", rvp: 6.3, rvn: 0.3, statut: "verifie", piste: "Tang et coll., 2026 (Front Med, méta-analyse, PMID 41939773) : examen physique, Se 74 %, Sp 88 %" },
+  ];
   window.Locomoteur.definir({
+    revues: REVUES_OE,
     id: "genou", partie: "genou", en: "knee", rc: "Douleur au genou",
     titre: "Douleur au genou", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
 

@@ -13,16 +13,16 @@ Produit par `node outils/locomoteur/validation/valider.mjs`. Vignettes : vignett
 | 1 | genou | Syndrome douloureux fémoropatellaire (sfp) | 1 | 99 % | sfp 99 %, bit 5 %, hoffa 3 % | — | — |
 | 2 | genou | Gonarthrose à prédominance fémorotibiale médiale (arthrose) | 1 | 100 % | arthrose 100 %, menisque 36 %, baker 3 % | — | — |
 | 3 | genou | Rupture du ligament croisé antérieur (lca) | 1 | 100 % | lca 100 %, menisque 87 %, collat 45 % | — | info : Règle d'Ottawa à compléter |
-| 4 | genou | Arthrite septique du genou (septique) | 2 | 38 % | cristaux 98 %, septique 38 %, arthrose 23 % | détecté (alerte) | urgence : Arthrite septique à éliminer |
+| 4 | genou | Arthrite septique du genou (septique) | 2 | 43 % | cristaux 97 %, septique 43 %, arthrose 22 % | détecté (alerte) | urgence : Arthrite septique à éliminer |
 | 5 | genou | Maladie d'Osgood-Schlatter (osgood) | 1 | 90 % | osgood 90 %, sfp 29 %, tendino 19 % | — | info : Examiner la hanche |
 | 6 | cheville | Entorse latérale de la cheville, prédominant sur le ligament talofibulaire antérieur (entorse_lat) | 1 | 100 % | entorse_lat 100 %, syndesmose 14 %, lot 3 % | — | info : Règles d'Ottawa négatives |
 | 7 | cheville | Rupture complète du tendon d'Achille (rupture_achille) | 1 | 100 % | rupture_achille 100 %, mollet 0 %, nonspec 0 % | détecté (alerte) | rapide : Rupture du tendon d'Achille à éliminer ; info : Règles d'Ottawa à compléter |
 | 8 | cheville | Dysfonction du tendon tibial postérieur avec pied plat acquis de l'adulte (tibpost) | 1 | 100 % | tibpost 100 %, tarsien 10 %, nonspec 0 % | — | — |
-| 9 | cheville | Lésion ostéochondrale du dôme talien (lot) | 2 | 25 % | nonspec 54 %, lot 25 %, conflit 12 % | — | considerer : Fracture manquée ou lésion associée à éliminer |
-| 10 | cheville | Arthrite microcristalline aiguë de la cheville (cristaux) | 1 | 98 % | cristaux 98 %, arthrose 5 %, nonspec 1 % | détecté (alerte) | rapide : Arthrite septique ou microcristalline à éliminer |
+| 9 | cheville | Lésion ostéochondrale du dôme talien (lot) | 2 | 25 % | nonspec 55 %, lot 25 %, conflit 12 % | — | considerer : Fracture manquée ou lésion associée à éliminer |
+| 10 | cheville | Arthrite microcristalline aiguë de la cheville (cristaux) | 1 | 96 % | cristaux 96 %, arthrose 5 %, nonspec 4 % | détecté (alerte) | rapide : Arthrite septique ou microcristalline à éliminer |
 | 11 | cheville | Conflit antérieur de cheville (conflit) | 1 | 78 % | conflit 78 %, nonspec 18 %, arthrose 7 % | — | — |
 | 12 | pied | Fasciopathie plantaire (fasciite) | 1 | 100 % | fasciite 100 %, sever 0 %, nonspec 0 % | — | — |
-| 13 | pied | Hallux rigidus (hallux_rigidus) | 1 | 98 % | hallux_rigidus 98 %, hallux_valgus 40 %, sesamoide 3 % | — | — |
+| 13 | pied | Hallux rigidus (hallux_rigidus) | 1 | 98 % | hallux_rigidus 98 %, hallux_valgus 53 %, sesamoide 2 % | — | — |
 | 14 | pied | Névrome interdigital de Morton (morton) | 1 | 96 % | morton 96 %, metatarsalgie 8 %, nonspec 4 % | — | — |
 | 15 | pied | Neuroarthropathie de Charcot aiguë (charcot) | 1 | 100 % | charcot 100 %, fracture 9 %, goutte 1 % | détecté (alerte) | urgence : Pied de Charcot ou infection du pied diabétique à éliminer ; rapide : Arthrite septique ou microcristalline à éliminer |
 | 16 | pied | Fracture de stress du deuxième métatarsien (ff_mt) | 1 | 75 % | ff_mt 75 %, nonspec 21 %, ff_navic 10 % | — | — |

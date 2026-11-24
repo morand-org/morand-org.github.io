@@ -60,7 +60,39 @@
   const bierma = L => [[L.age !== null && L.age > 60, L.age !== null], [L.v("duree") === "gt3m", L.repondu("duree")], [L.non("assis"), L.repondu("assis")],
     [L.oui("p_inguinal"), L.repondu("p_inguinal")], [L.dans("prom_re", lim), L.repondu("prom_re")]];
 
+  /* Réponses d'OpenEvidence du 24 nov. 2026 (outils/locomoteur/sources/openevidence-reponses/) : une valeur publiée remplace
+     l'estimation quand l'étude porte sur cet élément ; sinon la remarque s'affiche dans Sources et limites. */
+  const REVUES_OE = [
+    { code: "HANC-P1", cle: "coxarthrose|raideur|moins30", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P2", cle: "coxarthrose|raideur|aucune", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P3", cle: "sdgt|chaussettes>sdgt", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P4", cle: "sdgt|p_trochanter>sdgt", note: "OpenEvidence (24 nov. 2026) : RV+ 2,2, RV− 0,2 dans une étude cas-témoins (Ganderton 2017, surestimé) ; valeur plausible" },
+    { code: "HANC-P5", cle: "adducteurs|p_adducteurs>adducteurs", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P6", cle: "adducteurs|rrom_add>adducteurs", note: "OpenEvidence (24 nov. 2026) : valeurs probablement tirées d'une autre cible (test de compression, ostéite pubienne, Verrall 2005)" },
+    { code: "HANC-P7", cle: "cfa|localisation.aine>cfa", note: "OpenEvidence (24 nov. 2026) : seule la sensibilité est utilisable (87 %, Tijssen 2017)" },
+    { code: "HANC-P8", cle: "cfa|clic>cfa", note: "OpenEvidence (24 nov. 2026) : clic, Se 57 % et RV− 0,43 (Tijssen 2017) ; l'élément combiné n'a pas été étudié" },
+    { code: "HANC-P9", cle: "osteonecrose|fluoro_cortico>osteonecrose", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P10", cle: "sdgt|localisation.laterale>sdgt", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P11", cle: "ij_aigu|localisation.cuisse_post>ij_aigu", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P12", cle: "ij_aigu|p_ij>ij_aigu", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P13", cle: "psoas|ressaut>psoas", rvp: 1.33, rvn: 0.93, statut: "verifie", piste: "Haskel et coll., 2021 (Arthroscopy, PMID 33340679) : ressaut, Se 24 %, Sp 82 % ; référence : réponse à l'infiltration" },
+    { code: "HANC-P14", cle: "meralgie|localisation.cuisse_lat_brulure>meralgie", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P15", cle: "meralgie|pelvic_comp>meralgie", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P16", cle: "osteite|localisation.pubis>osteite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P17", cle: "osteite|p_symphyse>osteite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P18", cle: "avulsion|p_epines>avulsion", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P19", cle: "ij_tendino|localisation.ischion>ij_tendino", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P20", cle: "epiphysiolyse|prom_ri|complete", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P21", cle: "epiphysiolyse|drehmann>epiphysiolyse", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P22", cle: "apophysite|localisation.crete>apophysite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P23", cle: "apophysite|p_crete>apophysite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P24", cle: "lombaire|deficit_l2l4>lombaire", note: "OpenEvidence (24 nov. 2026) : élément combiné non étudié ; composantes RV+ 2,3 à 7,7 et RV− 0,57 à 0,95" },
+    { code: "HANC-P25", cle: "ppr|localisation.epaules>ppr", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "HANC-P26", cle: "ppr|raideur|plus30", rv: {"plus30": 1.8}, statut: "verifie", piste: "Dasgupta et coll., 2012 (Ann Rheum Dis, PMID 22388996) : raideur matinale de plus de 45 min, Se 77 %, Sp 57 % ; aucun seuil de 30 min publié" },
+    { code: "HANC-P27", cle: "ppr|raideur_epaules>ppr", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+  ];
   window.Locomoteur.definir({
+    revues: REVUES_OE,
     id: "hanche", partie: "hanche", en: "hip and groin", rc: "Douleur à la hanche",
     titre: "Douleur à la hanche ou à l'aine", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.hanche || {}).sources,
