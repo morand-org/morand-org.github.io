@@ -798,7 +798,9 @@
   function analyserNote() {
     const texte = $("#lo-import-texte").value, sortie = $("#lo-import-resultats");
     if (!texte.trim()) { sortie.innerHTML = `<p class="lo-discret">Collez d'abord une note.</p>`; return; }
-    const trouvees = IM.regionsDe(texte).filter(r => prets.has(r)), regions = [...new Set([...etat.regions, ...trouvees])];
+    // Plaintes de la note (cochées) et articulations seulement examinées (proposées, décochées).
+    const detectees = (IM.plaintesDe ? IM.plaintesDe(texte) : IM.regionsDe(texte).map(r => ({ r, plainte: true }))).filter(x => prets.has(x.r));
+    const mentions = new Set(detectees.filter(x => !x.plainte).map(x => x.r)), trouvees = detectees.map(x => x.r), regions = [...new Set([...etat.regions, ...trouvees])];
     if (!regions.length) { sortie.innerHTML = `<p class="lo-discret">Aucune région reconnue dans la note : choisissez d'abord la plainte dans le formulaire, puis analysez de nouveau.</p>`; return; }
     sortie.innerHTML = `<p class="lo-discret">Analyse en cours…</p>`;
     Promise.all(regions.map(chargerRegion)).then(() => {
@@ -809,10 +811,12 @@
         return `<li data-r="${x.r}"${x.k.includes(":") ? " data-propre" : ""}><label><input type="checkbox" data-i="${i}"${coche ? " checked" : ""}><span><span class="lo-importer-q">${x.k.includes(":") ? `${esc(NOMS[x.r])} · ` : ""}${esc(x.q.libelle)}</span>
           <strong>${esc(lisible(x.q, x.v))}</strong>${x.conflit ? ` <span class="lo-importer-alerte">Contradiction dans la note</span>` : ""}${x.avant !== undefined ? ` <span class="lo-importer-alerte">Déjà répondu : ${esc(dejaLisible(x.q, x.avant))}</span>` : ""}
           <span class="lo-importer-extrait">« ${esc(x.extrait)} »</span></span></label></li>`; };
-      sortie.innerHTML = `<fieldset class="lo-importer-regions"><legend>Plaintes</legend>${regions.map(r => `<label><input type="checkbox" data-region="${r}" checked${nouv.includes(r) ? "" : " disabled"}> ${esc(NOMS[r])}${nouv.includes(r) ? " <span class=\"lo-discret\">(ajoutée)</span>" : ""}</label>`).join("")}</fieldset>
+      sortie.innerHTML = `<fieldset class="lo-importer-regions"><legend>Plaintes</legend>${regions.map(r => { const m = nouv.includes(r) && mentions.has(r);
+          return `<label><input type="checkbox" data-region="${r}"${m ? "" : " checked"}${nouv.includes(r) ? "" : " disabled"}> ${esc(NOMS[r])}${nouv.includes(r) ? ` <span class="lo-discret">(${m ? "mentionnée à l'examen seulement" : "ajoutée"})</span>` : ""}</label>`; }).join("")}</fieldset>
         <p class="lo-discret">${importes.length ? `${importes.length} élément${importes.length > 1 ? "s" : ""} reconnu${importes.length > 1 ? "s" : ""}` : "Aucun nouvel élément reconnu"}${deja ? ` (${deja} déjà inscrit${deja > 1 ? "s" : ""})` : ""}. Les contradictions et les réponses déjà données autrement sont décochées : vérifiez chaque ligne.</p>
         ${importes.length ? `<ul class="lo-importer-liste">${importes.map(ligne).join("")}</ul>` : ""}
         <p class="lo-importer-actions"><button type="button" class="lo-bouton" id="lo-import-appliquer">Appliquer les éléments cochés</button></p>`;
+      for (const c of sortie.querySelectorAll("input[data-region]:not(:checked)")) for (const i of sortie.querySelectorAll(`li[data-r="${c.dataset.region}"][data-propre] input`)) i.disabled = true;
     }, () => { sortie.innerHTML = `<p class="lo-discret">Une région n'a pas pu être chargée : vérifiez la connexion, puis réessayez.</p>`; });
   }
   function appliquerImport() {

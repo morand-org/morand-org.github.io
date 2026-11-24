@@ -10,8 +10,8 @@
   const NEG = /\b(pas de|pas d'|pas|aucun|aucune|absence de|absent|absente|nie|niee|sans|negatif|negative|neg|normal|normale|normaux|indolore|non)\b|(^|\s)-(\s|$)|\bn\b|0\/|ø/;
   const POS = /\b(positif|positive|pos|reproduit|reproduisant|douloureux|douloureuse|laxite|laxe|arret mou|instable|present|presente|augmente)\b|(^|\s)\+{1,3}(\s|$|\.|,)/;
   const REGIONS = [["genou", /\b(genou|rotul|menisqu|lca|lcp|gonalgie)/], ["epaule", /\b(epaule|coiffe|acromio|scapul)/], ["coude", /\b(coude|epicondyl|olecran)/],
-    ["poignet", /\b(poignet|main|doigt|pouce|carpien|phalang|metacarp)/], ["hanche", /\b(hanche|aine|fesse|trochant|coxarthr)/], ["lombaire", /\b(lombaire|lombalgie|dos|sciatique|lombo)/],
-    ["cervical", /\b(cervical|cervicalgie|cou|nuque|torticolis)/], ["cheville", /\b(cheville|achille|mollet|malleol)/], ["pied", /\b(pied|talon|orteil|hallux|plantaire|metatars)/]];
+    ["poignet", /\b(poignet|mains?\b|doigt|pouce|carpien|phalang|metacarp)/], ["hanche", /\b(hanche|aines?\b|fesse|trochant|coxarthr)/], ["lombaire", /\b(lombaire|lombalgie|dos\b|sciatique|lombo)/],
+    ["cervical", /\b(cervical|cervicalgie|cou\b|nuque|torticolis)/], ["cheville", /\b(cheville|achille|mollet|malleol)/], ["pied", /\b(pied|talon|orteil|hallux|plantaire|metatars)/]];
   const NOMBRES = { un: 1, une: 1, deux: 2, trois: 3, quatre: 4, cinq: 5, six: 6, sept: 7, huit: 8, neuf: 9, dix: 10, quelques: 3 };
 
   function clauses(texte) {
@@ -20,6 +20,24 @@
   function regionsDe(texte) {
     const t = norm(texte);
     return REGIONS.filter(([, re]) => re.test(t)).map(([r]) => r);
+  }
+  /* Plainte ou simple mention ? Une région n'est une plainte que si une phrase la décrit comme atteinte (douleur, durée,
+     traumatisme, trouvaille anormale). Une articulation voisine examinée et normale (« hanche : amplitudes complètes,
+     indolore ») n'est qu'une mention : proposée, mais décochée. */
+  const ATTEINTE = /\b(douleur|douloureu\w*|mal\b|algie|\w+algie|sciatique|cruralgie|plainte|motif|consulte|raison de consultation|depuis|blessure|traumatisme|trauma|chute|pivot|torsion|entorse|accident|enflure|tumefaction|oedeme|epanchement|instab\w*|blocage|raideur|engourdi\w*|paresthesi\w*|faiblesse|craquement|positif|positive|limitee?s?|diminuee?s?|crepit\w*|laxite|ecchymose|deformation|irradi\w*)\b/;
+  const NORMAL = /\b(normal|normale|normaux|normales|indolore|indolores|sans particularite|sp|ras|rien a signaler|sans anomalie|libre|libres|souple|completes?|negatif|negative|neg|non douloureu\w*|pas de douleur|aucune douleur|n)\b|\bwnl\b|\(-\)/;
+  function plaintesDe(texte) {
+    const cl = clauses(texte).map(norm), res = [];
+    for (const [r, re] of REGIONS) {
+      const ici = cl.filter(c => re.test(c));
+      if (!ici.length) continue;
+      // Clause atteinte : un mot d'atteinte sans négation ni mot de normalité qui la contredise.
+      const atteinte = ici.some(c => ATTEINTE.test(c.replace(re, " ")) && !(NORMAL.test(c) && !/\b(positif|positive|douloureu\w*|limitee?s?|diminuee?s?)\b/.test(c)) && !nie(c, (c.match(ATTEINTE) || [""])[0]));
+      res.push({ r, plainte: atteinte });
+    }
+    // Aucune atteinte reconnue : la première région nommée reste la plainte.
+    if (res.length && !res.some(x => x.plainte)) res[0].plainte = true;
+    return res;
   }
   // Durée en jours → option de « Depuis combien de temps ».
   function duree(t) {
@@ -103,5 +121,5 @@
     return constats;
   }
 
-  (window.Locomoteur = window.Locomoteur || {}).importer = { analyser, regionsDe, clauses };
+  (window.Locomoteur = window.Locomoteur || {}).importer = { analyser, regionsDe, plaintesDe, clauses };
 })();
