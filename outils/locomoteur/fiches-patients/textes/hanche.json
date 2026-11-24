@@ -1,0 +1,1114 @@
+[
+ {
+  "region": "hanche",
+  "id": "coxarthrose",
+  "nom": "Coxarthrose",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Arthrose de la hanche (coxarthrose)",
+  "ce_que_vous_avez": "Le cartilage et les autres tissus de votre articulation de la hanche ont changé avec le temps. Cela donne une raideur brève le matin (habituellement moins de 30 minutes) et une douleur dans l'aine, la fesse ou le devant de la cuisse à la marche. Contrairement aux idées reçues, bouger n'use pas le cartilage : l'exercice régulier renforce les muscles, entretient la souplesse et aide à diminuer la douleur.",
+  "ce_qui_aide": [
+   "Faire régulièrement une activité que vous aimez : marche, vélo stationnaire, exercices dans l'eau.",
+   "Renforcer les muscles des fesses et des cuisses pour mieux soutenir la hanche.",
+   "Bouger doucement la hanche chaque matin pour chasser la raideur.",
+   "Si la marche est douloureuse ou instable, utiliser une canne tenue dans la main opposée à la hanche douloureuse et l'avancer en même temps que la jambe douloureuse.",
+   "Si vous avez un surplus de poids, une perte de poids graduelle peut aider et est bonne pour la santé générale."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Rester immobile de peur d'user votre hanche davantage.",
+   "Faire des chocs répétés (course sur asphalte, sauts) si la hanche élance.",
+   "Forcer des étirements dans une douleur vive."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Sinon, diminuez le nombre de répétitions à la séance suivante.",
+  "exercices": [
+   {
+    "nom": "Flexion douce de la hanche couchée",
+    "position_de_depart": "Couché sur le dos, jambes allongées.",
+    "mouvement": "Faites glisser un talon sur le matelas pour plier le genou et la hanche vers vous, puis rallongez doucement la jambe.",
+    "dosage": "10 répétitions de chaque jambe, 2 fois par jour.",
+    "progression": "Aidez doucement avec les mains sous la cuisse pour gagner un peu de souplesse sans pincer l'aine.",
+    "erreur_frequente": "Forcer dans un pincement vif à l'aine.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos glissant un talon vers la fesse."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut ou faites l'exercice avec un élastique autour des genoux.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier."
+   },
+   {
+    "nom": "Lever de jambe sur le côté (moyen fessier)",
+    "position_de_depart": "Couché sur le côté non douloureux, jambe du dessous légèrement pliée, jambe du dessus tendue.",
+    "mouvement": "Montez la jambe du dessus vers le plafond (gardez les orteils pointés droit devant, pas vers le plafond), puis redescendez lentement.",
+    "dosage": "3 séries de 10 à 12 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des chevilles ou des genoux.",
+    "erreur_frequente": "Laisser le bassin rouler vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure tendue."
+   },
+   {
+    "nom": "Assis-debout contrôlé",
+    "position_de_depart": "Assis sur une chaise, pieds à la largeur des hanches.",
+    "mouvement": "Penchez légèrement le buste en avant et levez-vous sans vous aider des mains si possible, puis rasseyez-vous lentement en 3 secondes.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Utilisez une chaise légèrement plus basse ou tenez un poids léger devant vous.",
+    "erreur_frequente": "Se laisser tomber lourdement sur la chaise.",
+    "illustration": "Dessin au trait d'une personne se levant et se rasseyant lentement d'une chaise."
+   }
+  ],
+  "duree_habituelle": "Premiers bienfaits sur la douleur et la marche en 6 à 12 semaines. Les bienfaits se maintiennent seulement si vous continuez à bouger régulièrement.",
+  "quand_reconsulter": [
+   "Douleur qui vous réveille toutes les nuits et empêche de dormir.",
+   "Incapacité de marcher même quelques minutes malgré le traitement.",
+   "Chute ou faux mouvement suivi d'une incapacité de mettre du poids sur la jambe.",
+   "Fièvre, ou hanche devenue soudainement très douloureuse, chaude ou enflée.",
+   "Douleur qui limite toujours beaucoup vos activités après environ 3 mois d'exercices (d'autres traitements peuvent être discutés)."
+  ],
+  "references": [
+   {
+    "texte": "Koc TA et al., Hip Pain and Mobility Deficits – Hip Osteoarthritis: Revision 2025, J Orthop Sports Phys Ther, 2025",
+    "doi_ou_pmid": "PMID: 41165671"
+   },
+   {
+    "texte": "Kolasinski SL et al., 2019 ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, Arthritis Rheumatol, 2020",
+    "doi_ou_pmid": "à vérifier dans PubMed"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "sdgt",
+  "nom": "Syndrome douloureux du grand trochanter (tendinopathie glutéale)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur sur le côté de la hanche (tendinopathie fessière)",
+  "ce_que_vous_avez": "Les tendons des muscles fessiers qui s'attachent sur l'os du côté de la hanche sont irrités. Cela fait souvent mal quand vous dormez sur ce côté, montez les escaliers ou marchez longtemps. Éviter les positions qui écrasent ces tendons contre l'os et les renforcer progressivement donne de meilleurs résultats qu'une infiltration de cortisone ou que la simple attente.",
+  "ce_qui_aide": [
+   "Dormir sur le dos, ou sur l'autre côté avec un gros oreiller entre les genoux.",
+   "Garder le poids réparti sur les deux pieds quand vous êtes debout.",
+   "Vous asseoir les genoux écartés à la largeur des hanches, sur un siège assez haut (hanches un peu plus hautes que les genoux).",
+   "Renforcer lentement les muscles fessiers sur le côté.",
+   "Réduire temporairement les escaliers, les côtes et les longues marches si ces activités augmentent la douleur."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Étirer le côté de la hanche ou la fesse en croisant la jambe (cela écrase le tendon contre l'os).",
+   "Dormir directement sur la hanche douloureuse.",
+   "Vous tenir debout avec tout le poids sur une seule hanche (« déhanché »).",
+   "Croiser les jambes ou garder les genoux collés en position assise."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle s'est calmée après la séance et qu'elle n'a pas augmenté la nuit suivante ni le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Écartement statique contre une ceinture (couché)",
+    "position_de_depart": "Couché sur le dos, genoux pliés et écartés à la largeur des hanches, une ceinture ou un élastique ferme noué autour des cuisses juste au-dessus des genoux.",
+    "mouvement": "Poussez doucement les genoux vers l'extérieur contre la ceinture, sans que les genoux bougent. Tenez 15 à 30 secondes, puis relâchez.",
+    "dosage": "4 répétitions, 1 à 2 fois par jour.",
+    "progression": "Passez aux exercices debout quand la douleur nocturne diminue.",
+    "erreur_frequente": "Pousser trop fort ou laisser les genoux se coller l'un contre l'autre entre les répétitions.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos poussant légèrement les genoux vers l'extérieur contre une sangle."
+   },
+   {
+    "nom": "Pont fessier avec élastique aux genoux",
+    "position_de_depart": "Couché sur le dos, genoux pliés, un élastique léger autour des genoux.",
+    "mouvement": "Écartez légèrement les genoux pour tendre l'élastique, puis soulevez les hanches en serrant les fesses. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 à 12 répétitions, 3 fois par semaine (un jour sur deux).",
+    "progression": "Tenez 5 secondes en haut, puis faites le pont sur une jambe en gardant le bassin bien horizontal.",
+    "erreur_frequente": "Laisser les genoux rentrer vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos faisant un pont fessier avec un élastique autour des genoux."
+   },
+   {
+    "nom": "Pas latéraux avec élastique (marche du crabe)",
+    "position_de_depart": "Debout, genoux légèrement pliés, un élastique placé autour des genoux ou des chevilles.",
+    "mouvement": "Faites 5 pas lents de côté vers la droite, puis 5 vers la gauche, en gardant les pieds parallèles, le bassin horizontal et l'élastique toujours tendu.",
+    "dosage": "3 allers-retours, 3 fois par semaine.",
+    "progression": "Utilisez un élastique un peu plus résistant.",
+    "erreur_frequente": "Pencher le buste d'un côté à l'autre ou rapprocher les pieds jusqu'à ce qu'ils se touchent.",
+    "illustration": "Dessin au trait d'une personne debout faisant des pas de côté avec un élastique autour des genoux."
+   },
+   {
+    "nom": "Montée lente d'une marche (step-up)",
+    "position_de_depart": "Debout face à une marche basse, pied du côté douloureux posé sur la marche. À commencer quand les exercices précédents sont bien tolérés.",
+    "mouvement": "Montez sur la marche en gardant le bassin bien horizontal (ne laissez pas la hanche opposée tomber) et le genou aligné avec le pied, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Utilisez une marche légèrement plus haute ou tenez de petits poids.",
+    "erreur_frequente": "Laisser le genou rentrer vers l'intérieur ou la hanche tomber sur le côté.",
+    "illustration": "Dessin au trait d'une personne montant lentement une marche d'escalier en gardant le bassin bien droit."
+   }
+  ],
+  "duree_habituelle": "Amélioration notable en 8 à 12 semaines avec les conseils de posture et le renforcement.",
+  "quand_reconsulter": [
+   "Douleur nocturne sévère qui ne s'améliore pas après 6 à 8 semaines.",
+   "Boiterie importante ou faiblesse marquée pour lever la jambe sur le côté.",
+   "Douleur dans le bas du dos ou qui descend le long de la jambe avec des picotements.",
+   "Chaleur, rougeur ou fièvre.",
+   "Douleur apparue après une chute, avec difficulté à mettre du poids sur la jambe."
+  ],
+  "references": [
+   {
+    "texte": "Mellor R et al., BMJ, 2018 (essai LEAP)",
+    "doi_ou_pmid": "PMID: 29720374"
+   },
+   {
+    "texte": "Grimaldi A, Ganderton C, Nasser A, Gluteal Tendinopathy Masterclass, Musculoskelet Sci Pract, 2025",
+    "doi_ou_pmid": "PMID: 39854929"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "adducteurs",
+  "nom": "Douleur de l'aine liée aux adducteurs (pubalgie des adducteurs)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur aux muscles à l'intérieur de la cuisse (adducteurs)",
+  "ce_que_vous_avez": "Les tendons des muscles à l'intérieur de la cuisse (les adducteurs) sont irrités près de l'os du pubis, souvent à cause de sports avec changements de direction ou frappes de balle (soccer, hockey). Un programme actif de renforcement de l'intérieur des cuisses et des abdominaux, suivi pendant 8 à 12 semaines, permet à la majorité des sportifs de reprendre leur sport sans douleur.",
+  "ce_qui_aide": [
+   "Réduire temporairement les sprints, les frappes et les changements de direction brusques.",
+   "Renforcer progressivement les adducteurs et les abdominaux (programme actif).",
+   "Garder la forme avec le vélo ou la natation tant que cela ne fait pas mal à l'aine.",
+   "Reprendre la course puis le sport par étapes une fois la force retrouvée."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Faire de grands étirements agressifs de l'intérieur de la cuisse (grand écart).",
+   "Jouer au soccer ou au hockey à pleine intensité malgré une douleur qui empire.",
+   "Compter seulement sur le repos, les massages ou les étirements (seuls, ils règlent rarement cette douleur)."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Pression d'un ballon entre les genoux (isométrique)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, un ballon ou un oreiller ferme entre les genoux.",
+    "mouvement": "Serrez le ballon entre les genoux de façon progressive, tenez 10 secondes, puis relâchez.",
+    "dosage": "10 répétitions, 1 fois par jour.",
+    "progression": "Augmentez graduellement la durée jusqu'à 30 secondes, puis faites le même exercice jambes tendues avec le ballon entre les pieds.",
+    "erreur_frequente": "Serrer au maximum dès le premier jour : gardez une intensité qui ne dépasse pas 3 sur 10 de douleur.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos serrant un ballon entre ses genoux pliés."
+   },
+   {
+    "nom": "Levée de jambe en adduction couchée sur le côté",
+    "position_de_depart": "Couché sur le côté douloureux, la jambe du dessus pliée et le pied posé devant l'autre jambe, la jambe du dessous tendue.",
+    "mouvement": "Soulevez lentement la jambe du dessous tendue vers le plafond en 2 secondes, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine. Si les deux côtés sont douloureux, faites les deux côtés.",
+    "progression": "Ajoutez un petit poids à la cheville, puis passez à l'adduction de Copenhague adaptée (exercice 4).",
+    "erreur_frequente": "Laisser la hanche rouler vers l'arrière.",
+    "illustration": "Dessin au trait d'un sportif couché sur le côté soulevant la jambe inférieure tendue."
+   },
+   {
+    "nom": "Renforcement des abdominaux et des obliques (relevé court)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Rentrez le ventre et décollez légèrement les épaules du sol en gardant le menton dégagé, tenez 2 secondes et redescendez lentement.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez une légère rotation vers un genou puis l'autre.",
+    "erreur_frequente": "Tirer sur la nuque avec les mains.",
+    "illustration": "Dessin au trait d'un sportif couché sur le dos décollant légèrement les épaules du sol."
+   },
+   {
+    "nom": "Adduction de Copenhague (niveau adapté, appui sur le genou)",
+    "position_de_depart": "Couché sur le côté en appui sur l'avant-bras, le genou de la jambe du dessus posé sur un banc bas ou un divan, l'autre jambe en dessous. À commencer seulement quand les exercices 1 et 2 sont faciles et peu douloureux.",
+    "mouvement": "Soulevez les hanches pour aligner le corps et rapprochez la jambe du dessous vers le banc en 3 secondes, puis redescendez en 3 secondes.",
+    "dosage": "2 séries de 6 répétitions par côté au début, jusqu'à 3 séries de 10 répétitions, 2 à 3 fois par semaine.",
+    "progression": "Posez la cheville (au lieu du genou) sur le banc quand le mouvement sur le genou est facile et sans douleur.",
+    "erreur_frequente": "Commencer directement avec l'appui à la cheville alors que l'aine est encore sensible.",
+    "illustration": "Dessin au trait d'un sportif en appui latéral sur l'avant-bras, le genou supérieur posé sur un banc bas."
+   }
+  ],
+  "duree_habituelle": "Le programme dure de 8 à 12 semaines. Le retour complet au sport prend souvent de 3 à 5 mois.",
+  "quand_reconsulter": [
+   "Claquement brutal à l'aine avec un bleu important et une impossibilité de serrer la jambe.",
+   "Boule qui sort à l'aine quand vous toussez ou forcez (hernie inguinale possible).",
+   "Douleur qui irradie vers le testicule ou le bas du ventre, ou troubles urinaires.",
+   "Douleur la nuit ou au repos, ou pincement profond de la hanche avec perte de mobilité.",
+   "Aucun progrès après 8 à 12 semaines de programme bien suivi."
+  ],
+  "references": [
+   {
+    "texte": "Hölmich P et al., Lancet, 1999",
+    "doi_ou_pmid": "PMID: 9989713"
+   },
+   {
+    "texte": "Weir A et al., Doha agreement meeting on terminology and definitions in groin pain in athletes, Br J Sports Med, 2015",
+    "doi_ou_pmid": "PMID: 26031643"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "ij_aigu",
+  "nom": "Lésion aiguë des ischio-jambiers",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Claquage à l'arrière de la cuisse (ischio-jambiers)",
+  "ce_que_vous_avez": "Les muscles à l'arrière de votre cuisse ont subi une déchirure partielle (élongation ou claquage) lors d'un sprint ou d'un grand étirement. Après quelques jours de calme, des exercices précis qui font travailler le muscle pendant qu'il s'allonge accélèrent le retour au sport.",
+  "ce_qui_aide": [
+   "Les 2 premiers jours : glace 15 minutes à la fois au besoin pour soulager, et marche à petits pas sans douleur (béquilles si vous boitez).",
+   "Reprendre des mouvements doux dès les premiers jours, selon votre tolérance.",
+   "Commencer les exercices d'allongement ci-dessous environ 5 jours après la blessure.",
+   "Attendre d'avoir retrouvé toute la force et la vitesse sans douleur avant de sprinter à fond."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Courir vite ou frapper un ballon dès que la douleur au repos disparaît (risque élevé de nouvelle déchirure).",
+   "Faire des étirements passifs agressifs dans les premiers jours.",
+   "Rester immobile au lit."
+  ],
+  "regle_de_douleur": "Pour les trois exercices d'allongement (Extenseur, Plongeur, Glisseur), arrêtez le mouvement juste avant l'apparition de la douleur. Pour la marche et le pont fessier, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "L'Extenseur (couché sur le dos)",
+    "position_de_depart": "Couché sur le dos, tenez l'arrière de la cuisse blessée avec vos mains, hanche pliée à environ 90 degrés.",
+    "mouvement": "Tendez lentement le genou vers le plafond jusqu'au point juste avant la douleur, puis repliez. Gardez la cuisse immobile et le mouvement lent.",
+    "dosage": "3 séries de 12 répétitions, 2 fois par jour.",
+    "progression": "Augmentez doucement l'extension du genou à mesure que le muscle guérit.",
+    "erreur_frequente": "Forcer l'extension jusqu'à une douleur aiguë.",
+    "illustration": "Dessin au trait d'un sportif couché sur le dos tenant sa cuisse à 90 degrés et dépliant doucement le genou."
+   },
+   {
+    "nom": "Pont fessier en appui sur les talons",
+    "position_de_depart": "Couché sur le dos, genoux pliés, talons au sol.",
+    "mouvement": "Soulevez les hanches en serrant les fessiers et l'arrière des cuisses, tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Avancez un peu les talons pour solliciter davantage l'arrière de la cuisse, puis faites l'exercice sur une jambe.",
+    "erreur_frequente": "Déclencher une crampe en allant trop loin trop vite.",
+    "illustration": "Dessin au trait d'un sportif réalisant un pont fessier en appui sur les talons."
+   },
+   {
+    "nom": "Le Plongeur (équilibre sur une jambe)",
+    "position_de_depart": "Debout en appui sur la jambe blessée, genou légèrement plié (10 à 20 degrés), près d'un mur pour l'équilibre au besoin.",
+    "mouvement": "Penchez lentement le buste vers l'avant en allongeant les bras devant vous, comme pour plonger. En même temps, l'autre jambe monte derrière vous, genou plié à environ 90 degrés. Gardez le bassin horizontal, puis revenez lentement à la position debout.",
+    "dosage": "3 séries de 6 répétitions, 1 jour sur 2.",
+    "progression": "Descendez le buste un peu plus bas, puis augmentez la vitesse du mouvement.",
+    "erreur_frequente": "Arrondir le dos ou laisser le bassin s'ouvrir sur le côté au lieu de plier à la hanche.",
+    "illustration": "Dessin au trait d'un sportif en équilibre sur une jambe, buste penché vers l'avant, bras allongés devant, l'autre jambe levée derrière avec le genou plié à 90 degrés."
+   },
+   {
+    "nom": "Le Glisseur (allongement contrôlé)",
+    "position_de_depart": "Debout, une main sur un appui solide (rampe, comptoir), pieds légèrement décalés l'un devant l'autre. Tout le poids est sur le talon de la jambe blessée, placée devant, genou plié de 10 à 20 degrés. Le pied de la jambe saine, derrière, est posé sur un chiffon ou un disque glissant.",
+    "mouvement": "Glissez le pied arrière vers l'arrière et arrêtez juste avant la douleur. Revenez à la position de départ en vous aidant des deux bras, sans tirer avec la jambe blessée.",
+    "dosage": "3 séries de 4 répétitions, 1 jour sur 3.",
+    "progression": "Glissez un peu plus loin, puis un peu plus vite, tout en gardant le contrôle.",
+    "erreur_frequente": "Remonter en tirant avec la jambe blessée, ou glisser jusque dans la douleur.",
+    "illustration": "Dessin au trait d'un sportif tenant une rampe, glissant un pied vers l'arrière sur le sol, le poids sur le talon de la jambe avant."
+   }
+  ],
+  "duree_habituelle": "Retour au sport habituel en 3 à 7 semaines. C'est plus long si la déchirure touche le tendon ou est survenue lors d'un grand étirement.",
+  "quand_reconsulter": [
+   "Douleur vive tout en haut de la cuisse, sous l'os sur lequel on s'assoit, avec un gros bleu et une faiblesse (arrachement du tendon à vérifier rapidement).",
+   "Incapacité de marcher sans béquilles après 4 à 5 jours.",
+   "Engourdissements ou fourmillements dans la jambe ou le pied.",
+   "Nouvelle douleur brutale lors de la reprise de la course."
+  ],
+  "references": [
+   {
+    "texte": "Askling CM et al., Br J Sports Med, 2013",
+    "doi_ou_pmid": "PMID: 23536466"
+   },
+   {
+    "texte": "Hickey JT et al., J Orthop Sports Phys Ther, 2020",
+    "doi_ou_pmid": "PMID: 32005093"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "fracture",
+  "nom": "Fracture de la hanche (col ou massif trochantérien)",
+  "applicable": false,
+  "raison_si_non": "Urgence orthopédique nécessitant une hospitalisation et, habituellement, une chirurgie rapide (idéalement dans les 24 à 48 heures suivant l'admission). La réadaptation commence après l'opération, encadrée par l'équipe soignante."
+ },
+ {
+  "region": "hanche",
+  "id": "cfa",
+  "nom": "Conflit fémoro-acétabulaire ou lésion du labrum",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Pincement à l'avant de la hanche (conflit fémoro-acétabulaire)",
+  "ce_que_vous_avez": "Lorsque vous pliez la hanche loin vers la poitrine ou tournez le genou vers l'intérieur, les os de la hanche viennent pincer le bourrelet de cartilage (le labrum) à l'avant de l'articulation. Cette forme des os est fréquente, même chez des personnes qui n'ont aucune douleur. Adapter vos postures et renforcer les fessiers et le tronc pendant au moins 3 mois permet à beaucoup de personnes de calmer la douleur. Si ce n'est pas suffisant, une chirurgie par arthroscopie peut être discutée.",
+  "ce_qui_aide": [
+   "Éviter de plier la hanche au-delà de 90 degrés et de rester assis longtemps sur des sièges très bas.",
+   "Renforcer les muscles fessiers et les abdominaux pour mieux contrôler la hanche.",
+   "Apprendre à garder les genoux bien alignés (sans rentrer vers l'intérieur) dans les escaliers et les squats.",
+   "Adapter le sport plutôt que l'arrêter (ex. : squats moins profonds, pieds légèrement ouverts, selle de vélo plus haute)."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Tirer le genou fort vers l'épaule opposée pour vous étirer (cela reproduit le pincement).",
+   "Faire des squats très profonds, croiser les jambes ou s'asseoir au sol si cela pince l'aine.",
+   "Courir, pivoter ou patiner malgré un pincement vif à l'avant de la hanche."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Un pincement vif dans l'aine pendant un mouvement signifie qu'il faut réduire l'amplitude.",
+  "exercices": [
+   {
+    "nom": "Coquillage couché sur le côté",
+    "position_de_depart": "Couché sur le côté, genoux pliés à environ 45 degrés, pieds collés.",
+    "mouvement": "Ouvrez doucement le genou du dessus vers le plafond sans laisser le bassin basculer vers l'arrière, puis redescendez lentement.",
+    "dosage": "3 séries de 12 répétitions de chaque côté, 3 à 4 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux.",
+    "erreur_frequente": "Plier les genoux trop haut vers le ventre (ce qui pince l'aine).",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté ouvrant doucement le genou supérieur."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier."
+   },
+   {
+    "nom": "Mini-squat contrôlé (sans descendre bas)",
+    "position_de_depart": "Debout devant un miroir, pieds légèrement plus larges que les hanches, pointes un peu ouvertes.",
+    "mouvement": "Pliez doucement les genoux à environ 45 degrés (comme pour vous asseoir sur une chaise haute) en gardant les genoux alignés avec le 2e orteil, puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Descendez un peu plus bas seulement s'il n'y a aucun pincement à l'aine.",
+    "erreur_frequente": "Laisser les genoux rentrer vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne faisant un mini-squat contrôlé, genoux bien alignés."
+   }
+  ],
+  "duree_habituelle": "Premiers progrès en 6 à 12 semaines. Prévoir au moins 3 mois de réadaptation avant de juger du résultat.",
+  "quand_reconsulter": [
+   "Blocage franc de la hanche ou accrochage douloureux fréquent dans l'aine.",
+   "Douleur qui empêche la marche ou le sommeil.",
+   "Perte rapide de mobilité de la hanche.",
+   "Résultat insuffisant après 3 mois de physiothérapie bien suivie (un avis en orthopédie peut être utile)."
+  ],
+  "references": [
+   {
+    "texte": "Griffin DR et al., The Warwick Agreement on femoroacetabular impingement syndrome, Br J Sports Med, 2016",
+    "doi_ou_pmid": "PMID: 27629403"
+   },
+   {
+    "texte": "Enseki KR et al., Hip Pain and Movement Dysfunction Associated With Nonarthritic Hip Joint Pain: A Revision, J Orthop Sports Phys Ther, 2023",
+    "doi_ou_pmid": "PMID: 37383013"
+   },
+   {
+    "texte": "Kemp JL et al., Physiotherapist-led treatment for young to middle-aged active adults with hip-related pain (Zurich 2018), Br J Sports Med, 2020",
+    "doi_ou_pmid": "PMID: 31732651"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "psoas",
+  "nom": "Ilio-psoas ou hanche à ressaut",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Tendon qui claque ou tire à l'avant de la hanche (ilio-psoas)",
+  "ce_que_vous_avez": "Le tendon du muscle qui lève la cuisse vers l'avant (l'ilio-psoas) est irrité ou glisse sur l'os avec un petit claquement que l'on entend ou que l'on sent (hanche à ressaut). Un claquement sans douleur est fréquent et sans danger. Quand il fait mal, renforcer le tronc et les fessiers, puis ce muscle en douceur, diminue l'irritation dans la grande majorité des cas.",
+  "ce_qui_aide": [
+   "Réduire temporairement les activités qui déclenchent la douleur (coups de pied, montées de genoux répétées, côtes).",
+   "Renforcer les abdominaux profonds et les fessiers pour mieux stabiliser le bassin.",
+   "Étirer doucement l'avant de la hanche sans cambrer le bas du dos.",
+   "Renforcer progressivement le psoas avec des mouvements lents et contrôlés, une fois la douleur calmée."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Faire des redressements assis complets (sit-ups) ou des levers de jambes tendues couché sur le dos.",
+   "Provoquer volontairement le claquement pour le tester, ou répéter les mouvements qui font claquer la hanche.",
+   "Forcer des étirements violents de l'avant de la hanche."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Étirement doux de l'avant de la hanche",
+    "position_de_depart": "Debout en petite fente (un pied devant, un pied derrière), main appuyée sur une chaise.",
+    "mouvement": "Rentrez légèrement les fesses (bascule du bassin) et avancez doucement les hanches jusqu'à sentir un étirement léger devant la hanche de la jambe arrière. Tenez 20 secondes.",
+    "dosage": "3 répétitions de chaque côté, 1 à 2 fois par jour.",
+    "progression": "Levez le bras du côté étiré vers le plafond pour allonger un peu plus.",
+    "erreur_frequente": "Creuser le bas du dos.",
+    "illustration": "Dessin au trait d'une personne debout en petite fente étirant doucement l'avant de la hanche arrière."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches sans cambrer le dos. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut, puis passez au pont sur une jambe.",
+    "erreur_frequente": "Creuser le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier."
+   },
+   {
+    "nom": "Lever de genou debout avec élastique (renforcement du psoas)",
+    "position_de_depart": "Debout, dos appuyé contre un mur, un élastique léger en boucle autour des deux pieds. À commencer quand la douleur au quotidien s'est calmée.",
+    "mouvement": "Levez lentement un genou en 2 secondes, au maximum jusqu'à la hauteur de la hanche et sans provoquer de claquement, puis redescendez lentement en 3 secondes.",
+    "dosage": "3 séries de 10 répétitions par jambe, 3 fois par semaine.",
+    "progression": "Utilisez un élastique légèrement plus ferme.",
+    "erreur_frequente": "Arrondir le dos ou laisser le pied redescendre trop vite (ce qui fait souvent claquer le tendon).",
+    "illustration": "Dessin au trait d'une personne debout dos au mur levant lentement un genou, un élastique en boucle autour des deux pieds."
+   }
+  ],
+  "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines.",
+  "quand_reconsulter": [
+   "Douleur vive à l'aine qui empêche de marcher ou de plier la hanche.",
+   "Blocage véritable de la hanche (impossibilité de bouger l'articulation).",
+   "Fièvre, ou boule chaude et douloureuse à l'aine.",
+   "Aucune amélioration après 8 à 12 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Weir A et al., Doha agreement meeting on terminology and definitions in groin pain in athletes, Br J Sports Med, 2015",
+    "doi_ou_pmid": "PMID: 26031643"
+   },
+   {
+    "texte": "Anderson CN, Iliopsoas: Pathology, Diagnosis, and Treatment, Clin Sports Med, 2016",
+    "doi_ou_pmid": "PMID: 27343394"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "piriforme",
+  "nom": "Syndrome du piriforme (syndrome fessier profond)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur profonde dans la fesse (syndrome du piriforme)",
+  "ce_que_vous_avez": "Un petit muscle profond de la fesse, appelé le piriforme, semble irriter le nerf sciatique qui passe tout près. Cela donne une douleur au milieu de la fesse qui descend parfois à l'arrière de la cuisse, surtout en position assise. Ce diagnostic est posé une fois que le bas du dos a été examiné. Réduire la pression sur la fesse, assouplir et renforcer les fessiers aide à calmer cette irritation.",
+  "ce_qui_aide": [
+   "Prendre des pauses debout toutes les 30 à 45 minutes quand vous êtes assis.",
+   "Éviter de garder un portefeuille ou un téléphone dans votre poche arrière.",
+   "Appliquer de la chaleur 15 minutes sur la fesse avant les exercices si cela vous soulage.",
+   "Étirer doucement puis renforcer les muscles fessiers."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Rester assis longtemps sur un siège dur.",
+   "Appuyer très fort avec une balle dure dans la fesse, sur le trajet du nerf sciatique.",
+   "Forcer des étirements qui envoient des picotements dans la jambe ou le pied."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans la fesse est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez le mouvement si des fourmillements ou une douleur descendent dans la jambe.",
+  "exercices": [
+   {
+    "nom": "Étirement doux du fessier couché (en 4)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, posez la cheville du côté douloureux sur le genou opposé.",
+    "mouvement": "Ramenez doucement la cuisse opposée vers vous avec vos mains jusqu'à sentir un étirement confortable dans la fesse. Tenez 20 secondes.",
+    "dosage": "3 répétitions, 1 à 2 fois par jour.",
+    "progression": "Tenez 30 secondes en respirant calmement.",
+    "erreur_frequente": "Tirer fort jusqu'à déclencher des picotements dans la jambe.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos formant un 4 avec ses jambes pour étirer doucement la fesse."
+   },
+   {
+    "nom": "Coquillage couché sur le côté",
+    "position_de_depart": "Couché sur le côté non douloureux, genoux pliés, pieds collés.",
+    "mouvement": "Ouvrez doucement le genou du dessus vers le plafond sans laisser le bassin rouler vers l'arrière, puis redescendez lentement.",
+    "dosage": "3 séries de 12 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux.",
+    "erreur_frequente": "Basculer le bassin vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté ouvrant le genou supérieur."
+   },
+   {
+    "nom": "Glissement doux du nerf sciatique assis",
+    "position_de_depart": "Assis au bord d'une chaise, dos détendu.",
+    "mouvement": "Tendez doucement le genou du côté atteint en levant le menton vers le plafond, puis repliez le genou en baissant la tête. Le mouvement est fluide, sans maintien.",
+    "dosage": "1 à 2 séries de 8 répétitions lentes, 1 à 2 fois par jour.",
+    "progression": "Augmentez un peu l'amplitude du genou tant que le mouvement reste fluide et sans tiraillement.",
+    "erreur_frequente": "Tendre la jambe et baisser la tête en même temps (cela étire le nerf au lieu de le faire glisser).",
+    "illustration": "Dessin au trait d'une personne assise dépliant une jambe en levant doucement le menton."
+   }
+  ],
+  "duree_habituelle": "Amélioration habituelle en quelques semaines ; parfois quelques mois.",
+  "quand_reconsulter": [
+   "Perte de force dans le pied ou la jambe, ou engourdissements persistants.",
+   "Difficulté à uriner, pertes d'urine ou de selles, ou perte de sensation entre les jambes (urgence).",
+   "Douleur qui empêche de dormir ou de s'asseoir.",
+   "Aucune amélioration après 6 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Hopayian K, Danielyan A, Four symptoms define the piriformis syndrome: an updated systematic review, Eur J Orthop Surg Traumatol, 2018",
+    "doi_ou_pmid": "PMID: 28836092"
+   },
+   {
+    "texte": "Park JW et al., Deep gluteal syndrome as a cause of posterior hip pain and sciatica-like pain, Bone Joint J, 2020",
+    "doi_ou_pmid": "PMID: 32349600"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "meralgie",
+  "nom": "Méralgie paresthésique",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Brûlure ou engourdissement sur le côté de la cuisse (méralgie)",
+  "ce_que_vous_avez": "Un petit nerf qui donne la sensibilité à la peau du devant et du côté de la cuisse est comprimé au bord du bassin, souvent par une ceinture serrée, un pantalon ajusté, un surplus de poids au ventre ou une station debout prolongée. Ce nerf ne contrôle aucun muscle : il n'y a donc pas de perte de force. Enlever la pression est le traitement principal et la majorité des personnes s'améliorent ainsi.",
+  "ce_qui_aide": [
+   "Porter des vêtements amples à la taille et éviter les ceintures ou étuis à outils serrés.",
+   "Alterner les positions : vous asseoir quelques minutes soulage souvent la brûlure.",
+   "Glisser un oreiller sous les genoux si vous dormez sur le dos (ou entre les genoux si vous dormez sur le côté).",
+   "Si vous avez un surplus de poids, viser une perte de poids graduelle (une perte très rapide peut au contraire irriter le nerf)."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Serrer une ceinture, un pantalon taille haute ou un harnais sur le devant du bassin.",
+   "Rester longtemps debout immobile, surtout les hanches poussées vers l'avant et le dos très cambré.",
+   "Étirer l'avant de la hanche en grande fente (la hanche vers l'arrière met le nerf en tension).",
+   "Appuyer fort sur le point sensible à l'avant de l'os du bassin."
+  ],
+  "regle_de_douleur": "Les exercices ne doivent pas augmenter la brûlure ou l'engourdissement de la cuisse. Une gêne légère (jusqu'à 3 sur 10) ailleurs est acceptable si elle disparaît rapidement.",
+  "exercices": [
+   {
+    "nom": "Bascule du bassin couché",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Rentrez doucement le bas du ventre pour plaquer légèrement le bas du dos au tapis. Tenez 5 secondes et relâchez.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Ramenez doucement un genou à la fois vers la poitrine si cela reste confortable.",
+    "erreur_frequente": "Creuser le dos ou bloquer la respiration.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos plaquant doucement le bas du dos."
+   },
+   {
+    "nom": "Bascule du bassin debout, dos au mur",
+    "position_de_depart": "Debout, dos et fesses appuyés contre un mur, pieds à environ 20 cm du mur, genoux légèrement pliés.",
+    "mouvement": "Rentrez doucement le ventre pour rapprocher le bas du dos du mur, sans pousser les hanches vers l'avant. Tenez 5 secondes et relâchez.",
+    "dosage": "10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Reproduisez cette position du bassin quelques secondes quand vous devez rester debout longtemps.",
+    "erreur_frequente": "Pousser les hanches vers l'avant ou cambrer le dos.",
+    "illustration": "Dessin au trait d'une personne debout dos au mur, genoux légèrement pliés, rapprochant le bas du dos du mur."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux, sans aller plus haut. Tenez 3 secondes et redescendez.",
+    "dosage": "2 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez à 3 séries de 12 répétitions.",
+    "erreur_frequente": "Pousser les hanches trop haut en cambrant le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier."
+   }
+  ],
+  "duree_habituelle": "Amélioration en quelques semaines à quelques mois une fois la compression retirée. L'engourdissement de la peau peut être plus long à disparaître.",
+  "quand_reconsulter": [
+   "Faiblesse dans la jambe, ou douleur qui descend sous le genou (ce n'est pas une simple méralgie).",
+   "Douleur importante au bas du dos ou troubles urinaires.",
+   "Brûlure intense qui empêche de dormir malgré le retrait des vêtements serrés.",
+   "Aucune amélioration après 8 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Khalil N, Nicotra A, Rakowicz W, Treatment for meralgia paraesthetica, Cochrane Database Syst Rev, 2012 (CD004159)",
+    "doi_ou_pmid": "à vérifier dans PubMed"
+   },
+   {
+    "texte": "Scholz C et al., Meralgia Paresthetica: Relevance, Diagnosis, and Treatment, Dtsch Arztebl Int, 2023",
+    "doi_ou_pmid": "PMID: 37534445"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "osteite",
+  "nom": "Ostéite pubienne (douleur de l'aine liée au pubis chez le sportif)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Irritation de l'os du pubis (ostéite pubienne)",
+  "ce_que_vous_avez": "L'articulation à l'avant du bassin (la symphyse pubienne), où s'attachent les abdominaux et les muscles de l'intérieur des cuisses, est irritée par des efforts répétés de course, de pivot ou de frappe. Un arrêt temporaire des sports à impact, suivi d'un renforcement progressif et équilibré du bassin, permet de guérir, mais cela demande de la patience.",
+  "ce_qui_aide": [
+   "Arrêter la course, les frappes et les changements de direction jusqu'à ce que la marche et les gestes quotidiens soient sans douleur.",
+   "Garder la forme avec des activités qui ne font pas mal au pubis (vélo, natation avec planche entre les jambes).",
+   "Renforcer progressivement les fessiers, les abdominaux profonds puis les adducteurs.",
+   "Reprendre la course et le sport très graduellement avec votre physiothérapeute."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Continuer à courir, patiner ou frapper un ballon malgré la douleur.",
+   "Faire de grands étirements des adducteurs ou des mouvements sur une jambe qui font mal au pubis.",
+   "Serrer fort un ballon entre les genoux si cela réveille une douleur vive sur l'os."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Activation douce du ventre profond (couché)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Expirez doucement et rentrez légèrement le bas du ventre vers la colonne sans bouger le bassin. Tenez 5 secondes en continuant de respirer.",
+    "dosage": "2 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Levez un pied de 5 cm en gardant le bassin parfaitement immobile.",
+    "erreur_frequente": "Pousser le ventre vers l'extérieur ou bloquer la respiration.",
+    "illustration": "Dessin au trait d'un sportif couché sur le dos posant les mains sur le bas du ventre pour activer les abdominaux profonds."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut.",
+    "erreur_frequente": "Creuser le bas du dos.",
+    "illustration": "Dessin au trait d'un sportif réalisant un pont fessier."
+   },
+   {
+    "nom": "Coquillage couché sur le côté",
+    "position_de_depart": "Couché sur le côté, genoux pliés, pieds collés.",
+    "mouvement": "Soulevez le genou du dessus sans laisser le bassin bouger, puis redescendez lentement.",
+    "dosage": "3 séries de 12 répétitions de chaque côté, 3 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux.",
+    "erreur_frequente": "Basculer les hanches vers l'arrière.",
+    "illustration": "Dessin au trait d'un sportif couché sur le côté ouvrant le genou supérieur."
+   },
+   {
+    "nom": "Pression douce d'un ballon entre les genoux (quand le pubis est calme au repos)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, ballon mou entre les genoux.",
+    "mouvement": "Serrez doucement le ballon pendant 5 à 10 secondes sans provoquer de douleur sur l'os du pubis.",
+    "dosage": "5 à 8 répétitions, 3 fois par semaine (à introduire quand la marche et le quotidien sont sans douleur).",
+    "progression": "Passez progressivement au renforcement dynamique des adducteurs avec votre physiothérapeute.",
+    "erreur_frequente": "Serrer trop fort trop tôt.",
+    "illustration": "Dessin au trait d'un sportif couché sur le dos pressant doucement un ballon entre ses genoux."
+   }
+  ],
+  "duree_habituelle": "Guérison souvent longue : retour complet au sport en 3 à 4 mois avec une réadaptation bien suivie, parfois 6 mois ou plus.",
+  "quand_reconsulter": [
+   "Douleur vive au repos, la nuit ou à la marche simple.",
+   "Fièvre, ou douleur qui s'aggrave malgré l'arrêt du sport.",
+   "Apparition d'une boule à l'aine ou de troubles urinaires.",
+   "Absence de progrès après 8 à 12 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Weir A et al., Doha agreement meeting on terminology and definitions in groin pain in athletes, Br J Sports Med, 2015",
+    "doi_ou_pmid": "PMID: 26031643"
+   },
+   {
+    "texte": "Schöberl M et al., Non-surgical treatment of pubic overload and groin pain in amateur football players, Knee Surg Sports Traumatol Arthrosc, 2017",
+    "doi_ou_pmid": "PMID: 28093636"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "parietale",
+  "nom": "Pubalgie pariétale (douleur de l'aine liée au canal inguinal chez le sportif)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur inguinale du sportif (pubalgie pariétale)",
+  "ce_que_vous_avez": "Les muscles et les tissus du bas du ventre, juste au-dessus du pli de l'aine, sont fragilisés ou irrités par des accélérations et des rotations répétées (soccer, hockey), sans qu'il y ait de véritable hernie. La première étape est un renforcement progressif des abdominaux et des hanches pendant 2 à 3 mois. Si la douleur persiste malgré cela, une chirurgie donne de bons résultats.",
+  "ce_qui_aide": [
+   "Réduire temporairement les sprints, les tirs et les torsions brusques du tronc.",
+   "Renforcer les abdominaux profonds, les obliques et les muscles du bassin.",
+   "Travailler le contrôle du tronc pendant les mouvements des jambes.",
+   "Reprendre le sport progressivement avec l'accord du médecin ou du physiothérapeute."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Faire des redressements assis (sit-ups) rapides ou des exercices abdominaux lourds avec torsion.",
+   "Tirer au but ou patiner à pleine puissance malgré une douleur vive à l'aine.",
+   "Ignorer une petite boule qui sort à l'aine quand vous toussez."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Activation du transverse (bas du ventre) couché",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Expirez doucement en rentrant légèrement le bas du ventre sans bouger le dos. Tenez 5 secondes en continuant de respirer.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites glisser un talon au sol pour tendre la jambe sans laisser le bassin bouger.",
+    "erreur_frequente": "Bloquer la respiration ou gonfler le ventre.",
+    "illustration": "Dessin au trait d'un sportif couché sur le dos, genoux pliés, rentrant doucement le bas du ventre."
+   },
+   {
+    "nom": "Planche modifiée sur les genoux",
+    "position_de_depart": "En appui sur les avant-bras et les genoux, dos plat.",
+    "mouvement": "Tenez la position alignée pendant 15 à 20 secondes en engageant le ventre et les fesses.",
+    "dosage": "3 répétitions, 3 fois par semaine.",
+    "progression": "Passez en appui sur les orteils et augmentez graduellement jusqu'à 30 à 45 secondes.",
+    "erreur_frequente": "Creuser le bas du dos.",
+    "illustration": "Dessin au trait d'un sportif en planche sur les avant-bras et les genoux."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et montez les hanches sans creuser le dos. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le dos.",
+    "illustration": "Dessin au trait d'un sportif réalisant un pont fessier."
+   }
+  ],
+  "duree_habituelle": "Amélioration attendue en 6 à 12 semaines. Sans progrès net après 2 à 3 mois, un avis chirurgical est indiqué.",
+  "quand_reconsulter": [
+   "Apparition d'une bosse ou d'un gonflement dans l'aine à l'effort ou à la toux (hernie inguinale à vérifier).",
+   "Douleur qui descend dans le testicule ou troubles urinaires.",
+   "Douleur qui empêche les activités quotidiennes.",
+   "Absence de progrès net après 2 à 3 mois de réadaptation bien suivie (avis chirurgical)."
+  ],
+  "references": [
+   {
+    "texte": "Weir A et al., Doha agreement meeting on terminology and definitions in groin pain in athletes, Br J Sports Med, 2015",
+    "doi_ou_pmid": "PMID: 26031643"
+   },
+   {
+    "texte": "Paajanen H et al., Laparoscopic surgery for chronic groin pain in athletes is more effective than nonoperative treatment, Surgery, 2011",
+    "doi_ou_pmid": "PMID: 21549403"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "avulsion",
+  "nom": "Avulsion apophysaire du bassin (adolescent)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Arrachement d'une zone de croissance du bassin (adolescent)",
+  "ce_que_vous_avez": "Lors d'un sprint ou d'un tir puissant pendant la croissance, un muscle fort a arraché un petit morceau d'os encore tendre sur le bassin. Si la radiographie montre que le fragment est peu déplacé (moins de 1,5 à 2 cm environ), il guérit habituellement très bien sans opération, avec du repos puis une reprise très progressive. Cette fiche s'applique seulement après une évaluation médicale avec radiographie.",
+  "ce_qui_aide": [
+   "Utiliser des béquilles tant que la marche fait mal ou fait boiter (souvent 2 à 4 semaines, parfois plus si l'arrachement est sous la fesse).",
+   "Arrêter complètement le sport pendant 4 à 8 semaines, selon l'avis du médecin.",
+   "Mettre de la glace 15 minutes à la fois les premiers jours pour calmer la douleur.",
+   "Reprendre d'abord les mouvements doux, puis le renforcement, seulement quand la zone ne fait plus mal."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Étirer ou contracter fortement le muscle blessé pendant les 3 à 4 premières semaines et tant que la zone est douloureuse (cela tire sur l'os en guérison).",
+   "Courir, sauter ou frapper un ballon avant l'accord du médecin.",
+   "Forcer malgré une boiterie."
+  ],
+  "regle_de_douleur": "Pendant les premières semaines, les exercices doivent rester sans douleur sur la zone de l'arrachement. Plus tard, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être totalement indolore avant de reprendre la course.",
+  "exercices": [
+   {
+    "nom": "Mobilité douce sans charge (après la phase de repos initial)",
+    "position_de_depart": "Couché sur le dos, jambes détendues.",
+    "mouvement": "Pliez et dépliez très doucement le genou et la hanche en faisant glisser le talon sur le matelas, sans aller dans la douleur.",
+    "dosage": "10 répétitions lentes, 2 fois par jour.",
+    "progression": "Augmentez doucement l'amplitude à mesure que la marche redevient normale sans béquilles.",
+    "erreur_frequente": "Tirer le genou loin pour étirer le muscle.",
+    "illustration": "Dessin au trait d'un adolescent couché sur le dos glissant doucement le talon sur le lit."
+   },
+   {
+    "nom": "Contraction statique légère des fessiers",
+    "position_de_depart": "Couché sur le dos, jambes allongées.",
+    "mouvement": "Serrez doucement les deux fesses pendant 5 secondes, puis relâchez complètement.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Passez au pont fessier doux (exercice 3) quand la marche est normale et que l'os ne fait plus mal.",
+    "erreur_frequente": "Contracter fort, trop tôt, le muscle attaché directement sur la zone douloureuse.",
+    "illustration": "Dessin au trait d'un adolescent couché sur le dos contractant doucement les muscles fessiers."
+   },
+   {
+    "nom": "Pont fessier progressif (phase de renforcement)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat. À commencer vers la 4e semaine au plus tôt, seulement si la marche est normale et indolore. Si l'arrachement est situé sous la fesse (os sur lequel on s'assoit), attendez l'accord du médecin ou du physiothérapeute, car cet exercice sollicite le muscle blessé.",
+    "mouvement": "Soulevez lentement les hanches en serrant les fesses, tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez aux mini-squats sans douleur, puis au jogging léger après l'accord médical.",
+    "erreur_frequente": "Reprendre la course avant d'avoir retrouvé toute la force et toute la souplesse sans douleur.",
+    "illustration": "Dessin au trait d'un adolescent réalisant un pont fessier contrôlé."
+   }
+  ],
+  "duree_habituelle": "Marche normale sans béquilles en 3 à 6 semaines ; retour complet au sport en 2 à 3 mois (parfois plus long si l'arrachement est sous la fesse).",
+  "quand_reconsulter": [
+   "Douleur qui ne diminue pas après 2 semaines de repos relatif et de béquilles.",
+   "Bosse dure qui grossit ou douleur aiguë persistante.",
+   "Boiterie qui dure plus de 3 à 4 semaines.",
+   "Engourdissements, picotements ou douleur électrique à l'arrière de la jambe.",
+   "Douleur qui revient dès la reprise de la marche rapide ou du sport."
+  ],
+  "references": [
+   {
+    "texte": "Eberbach H et al., Operative versus conservative treatment of apophyseal avulsion fractures of the pelvis in the adolescents, BMC Musculoskelet Disord, 2017",
+    "doi_ou_pmid": "à vérifier dans PubMed"
+   },
+   {
+    "texte": "Schuett DJ, Bomar JD, Pennock AT, Pelvic apophyseal avulsion fractures: a retrospective review of 228 cases, J Pediatr Orthop, 2015",
+    "doi_ou_pmid": "PMID: 25321882"
+   },
+   {
+    "texte": "Metzmaker JN, Pappas AM, Avulsion fractures of the pelvis, Am J Sports Med, 1985",
+    "doi_ou_pmid": "PMID: 4051093"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "ij_tendino",
+  "nom": "Tendinopathie proximale des ischio-jambiers",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Tendinopathie (« tendinite ») en haut de l'arrière de la cuisse, sous la fesse",
+  "ce_que_vous_avez": "Les tendons à l'arrière de votre cuisse sont irrités tout en haut, juste sous l'os sur lequel vous vous asseyez. Cela fait souvent mal quand vous restez assis sur une chaise dure, courez en montée ou faites des fentes profondes. Un renforcement lent et progressif, d'abord sans trop plier la hanche, aide le tendon à redevenir solide.",
+  "ce_qui_aide": [
+   "Mettre un coussin souple sous les fesses en voiture ou au bureau, et travailler debout par moments.",
+   "Éviter les côtes, le sprint et les fentes profondes au début, tout en gardant une activité tolérable.",
+   "Renforcer lentement l'arrière de la cuisse, d'abord en position peu pliée à la hanche.",
+   "Être patient : ces tendons récupèrent sur plusieurs mois."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Étirer fortement l'arrière de la cuisse (ex. : se pencher jambes tendues pour toucher le sol).",
+   "Rester assis longtemps sur des bancs ou des sièges durs.",
+   "Faire des squats profonds ou du yoga en flexion extrême de la hanche."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Pont fessier statique (isométrique)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, talons au sol (pieds légèrement avancés).",
+    "mouvement": "Soulevez les hanches de quelques centimètres en appuyant les talons dans le sol et tenez la position immobile pendant 30 à 45 secondes.",
+    "dosage": "4 répétitions (avec 1 à 2 minutes de repos entre chacune), 1 fois par jour.",
+    "progression": "Passez au pont statique sur une seule jambe, puis aux exercices dynamiques.",
+    "erreur_frequente": "Cambrer le bas du dos au lieu de sentir travailler le haut de l'arrière de la cuisse et les fessiers.",
+    "illustration": "Dessin au trait d'un coureur couché sur le dos maintenant un pont fessier en appui sur les talons."
+   },
+   {
+    "nom": "Pont fessier lent (dynamique)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, talons au sol.",
+    "mouvement": "Montez les hanches en 2 secondes, tenez 1 seconde, puis redescendez lentement en 3 secondes.",
+    "dosage": "3 séries de 10 à 12 répétitions, 3 fois par semaine.",
+    "progression": "Faites le mouvement sur une seule jambe.",
+    "erreur_frequente": "Descendre trop vite.",
+    "illustration": "Dessin au trait d'une personne montant et descendant lentement en pont fessier."
+   },
+   {
+    "nom": "Soulevé de terre roumain partiel (amplitude limitée)",
+    "position_de_depart": "Debout, genoux légèrement déverrouillés, dos bien droit, sans poids au début. À commencer seulement quand les ponts sur une jambe sont bien tolérés.",
+    "mouvement": "Poussez les fesses vers l'arrière en inclinant le buste de 30 à 45 degrés au maximum, puis remontez en serrant les fessiers.",
+    "dosage": "3 séries de 10 répétitions lentes (3 secondes à la descente), 3 fois par semaine.",
+    "progression": "Ajoutez un petit poids, puis augmentez très graduellement le poids et la profondeur seulement si le tendon reste calme le lendemain.",
+    "erreur_frequente": "Descendre trop bas trop tôt ou arrondir le dos.",
+    "illustration": "Dessin au trait d'une personne debout inclinant légèrement le buste, dos droit, en poussant les hanches vers l'arrière."
+   }
+  ],
+  "duree_habituelle": "Amélioration progressive sur au moins 3 mois ; la récupération complète peut prendre 6 mois ou plus.",
+  "quand_reconsulter": [
+   "Engourdissements, picotements ou douleur électrique qui descend sous le genou (nerf sciatique irrité).",
+   "Douleur constante la nuit, qui ne change pas selon la position.",
+   "Claquement brutal sous la fesse avec un gros bleu.",
+   "Aucun progrès après 12 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Goom TSH et al., Proximal Hamstring Tendinopathy: Clinical Aspects of Assessment and Management, J Orthop Sports Phys Ther, 2016",
+    "doi_ou_pmid": "PMID: 27084841"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "epiphysiolyse",
+  "nom": "Épiphysiolyse fémorale supérieure",
+  "applicable": false,
+  "raison_si_non": "Urgence orthopédique pédiatrique nécessitant l'arrêt immédiat de l'appui (béquilles ou fauteuil roulant) et une fixation chirurgicale urgente, idéalement dans les 24 heures, avant toute réadaptation."
+ },
+ {
+  "region": "hanche",
+  "id": "ff_col",
+  "nom": "Fracture de stress du col ou de la diaphyse fémorale",
+  "applicable": false,
+  "raison_si_non": "Lésion nécessitant d'abord l'arrêt de l'appui (béquilles) et une évaluation médicale rapide avec imagerie. Au col du fémur, le risque de fracture complète et déplacée est élevé et une chirurgie préventive est parfois nécessaire. À la diaphyse, le risque est plus faible, mais la reprise de l'appui et du sport doit être guidée par le médecin."
+ },
+ {
+  "region": "hanche",
+  "id": "osteonecrose",
+  "nom": "Ostéonécrose de la tête fémorale",
+  "applicable": false,
+  "raison_si_non": "Atteinte grave de la vascularisation de la tête du fémur nécessitant d'abord une évaluation orthopédique (imagerie des deux hanches, discussion d'un traitement chirurgical précoce). Les exercices et la simple décharge n'empêchent pas l'évolution."
+ },
+ {
+  "region": "hanche",
+  "id": "apophysite",
+  "nom": "Apophysite de la crête iliaque",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur sur le bord de l'os du bassin chez l'adolescent",
+  "ce_que_vous_avez": "Chez un jeune en pleine croissance, les muscles du tronc et de la hanche tirent de façon répétée sur la zone de croissance située tout en haut de l'os du bassin (la crête iliaque). La douleur apparaît graduellement, souvent après une augmentation de l'entraînement. C'est bénin et temporaire : un repos sportif relatif, puis une reprise progressive, permettent la guérison.",
+  "ce_qui_aide": [
+   "Arrêter ou réduire fortement la course, les sauts et les torsions rapides pendant 4 à 6 semaines, jusqu'à disparition de la douleur.",
+   "Mettre de la glace 15 minutes sur le bord du bassin après les activités, au besoin.",
+   "Garder des mouvements doux, sans étirer fort le côté du bassin.",
+   "Quand l'os n'est plus sensible, renforcer les muscles du côté du ventre et des hanches, puis reprendre le sport graduellement."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Continuer à courir ou à sauter malgré la douleur sur l'os du bassin.",
+   "Reprendre les sprints trop tôt (risque d'arrachement de la zone de croissance).",
+   "Porter une ceinture ou un équipement sportif qui appuie directement sur le bord douloureux.",
+   "Faire des étirements latéraux intenses du tronc."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être indolore au toucher et à l'effort avant la reprise du sport.",
+  "exercices": [
+   {
+    "nom": "Mobilité douce des hanches couché",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Laissez les genoux basculer très doucement de gauche à droite, de quelques centimètres, pour détendre le bassin.",
+    "dosage": "10 allers-retours lents, 2 fois par jour.",
+    "progression": "Augmentez doucement l'amplitude sans tirer sur le côté sensible.",
+    "erreur_frequente": "Forcer l'inclinaison jusqu'à tirer fort sur la crête iliaque.",
+    "illustration": "Dessin au trait d'un adolescent couché sur le dos inclinant doucement les genoux pliés d'un côté à l'autre."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez doucement les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'un adolescent réalisant un pont fessier."
+   },
+   {
+    "nom": "Équilibre sur une jambe (contrôle du bassin)",
+    "position_de_depart": "Debout près d'un mur, mains sur les hanches. À commencer quand la marche est sans douleur.",
+    "mouvement": "Tenez-vous en équilibre sur une jambe pendant 20 à 30 secondes en gardant les deux côtés du bassin à la même hauteur.",
+    "dosage": "3 répétitions par jambe, 3 fois par semaine.",
+    "progression": "Faites de légères flexions du genou (mini-squats sur une jambe) quand l'os est sans douleur.",
+    "erreur_frequente": "Laisser la hanche opposée tomber vers le bas.",
+    "illustration": "Dessin au trait d'un adolescent debout en équilibre sur une jambe, mains sur les hanches bien horizontales."
+   }
+  ],
+  "duree_habituelle": "Guérison habituelle en 4 à 6 semaines.",
+  "quand_reconsulter": [
+   "Douleur qui ne diminue pas après 4 semaines de repos sportif.",
+   "Boiterie qui persiste, ou douleur au repos ou la nuit.",
+   "Douleur brutale avec sensation de claquement pendant un sprint ou après un choc, avec difficulté à marcher (arrachement à vérifier).",
+   "Fièvre ou gonflement rouge et chaud."
+  ],
+  "references": [
+   {
+    "texte": "Clancy WG, Foltz AS, Iliac apophysitis and stress fractures in adolescent runners, Am J Sports Med, 1976",
+    "doi_ou_pmid": "PMID: 998842"
+   },
+   {
+    "texte": "Frush TJ, Lindenfeld TN, Peri-epiphyseal and Overuse Injuries in Adolescent Athletes, Sports Health, 2009",
+    "doi_ou_pmid": "à vérifier dans PubMed"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "contusion",
+  "nom": "Contusion de la cuisse ou de la crête iliaque",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Coup direct sur la cuisse ou l'os de la hanche (contusion)",
+  "ce_que_vous_avez": "Un choc direct (genou, balle, chute) a écrasé le muscle du devant de la cuisse (« béquille ») ou le bord de l'os du bassin (« hip pointer »). Les premiers jours, la glace et la compression limitent le saignement. Pour la cuisse, garder puis retrouver rapidement la flexion du genou aide le muscle à guérir sans perdre sa souplesse. Pour le bord du bassin, le traitement repose surtout sur la glace, le repos relatif et une reprise progressive ; les exercices du genou ci-dessous concernent la cuisse.",
+  "ce_qui_aide": [
+   "Coup sur la cuisse, premières 24 heures : garder le genou plié autant que possible sans douleur (idéalement talon près de la fesse), maintenu par un bandage élastique, si vous le tolérez.",
+   "Mettre de la glace 15 à 20 minutes à la fois, plusieurs fois par jour pendant les 48 premières heures, avec un bandage élastique confortable.",
+   "Plier doucement le genou sans douleur, plusieurs fois par jour, dès le lendemain.",
+   "Utiliser des béquilles tant que vous boitez ou que le genou ne plie pas à 90 degrés sans douleur.",
+   "Protéger la zone avec un coussinet lors du retour au sport de contact."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Masser fort le bleu ou mettre de la chaleur dans les premiers jours (risque d'aggraver le saignement).",
+   "Forcer le genou à plier dans une douleur vive.",
+   "Reprendre les contacts avant que la force et la flexion complète du genou soient revenues."
+  ],
+  "regle_de_douleur": "Les premiers jours, les mouvements doivent rester sans douleur vive. Ensuite, une douleur jusqu'à 3 sur 10 pendant et après les exercices est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Flexion douce du genou couché sur le dos",
+    "position_de_depart": "Couché sur le dos, jambes allongées.",
+    "mouvement": "Faites glisser doucement le talon vers la fesse jusqu'à sentir une tension légère sur le devant de la cuisse (jamais de douleur vive), tenez 5 secondes et rallongez.",
+    "dosage": "10 répétitions, 3 fois par jour.",
+    "progression": "Pliez un peu plus le genou chaque jour ; ensuite, faites le même mouvement couché sur le ventre jusqu'à retrouver la même flexion que de l'autre côté.",
+    "erreur_frequente": "Forcer le genou dans la douleur pour gagner de l'amplitude plus vite.",
+    "illustration": "Dessin au trait d'un sportif couché sur le dos glissant doucement le talon vers la fesse."
+   },
+   {
+    "nom": "Contraction douce de la cuisse (quadriceps)",
+    "position_de_depart": "Assis ou couché, jambe tendue, une petite serviette roulée sous le genou.",
+    "mouvement": "Serrez doucement le muscle du dessus de la cuisse pour appuyer l'arrière du genou dans la serviette. Tenez 5 secondes et relâchez.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Passez aux mini-squats debout une fois que la marche est sans boiterie.",
+    "erreur_frequente": "Contracter si fort que la contusion élance.",
+    "illustration": "Dessin au trait d'une jambe allongée avec une serviette roulée sous le genou."
+   },
+   {
+    "nom": "Mini-squats contrôlés (phase de récupération)",
+    "position_de_depart": "Debout, pieds à la largeur des épaules.",
+    "mouvement": "Pliez doucement les genoux à environ 45 degrés, puis remontez en contrôlant bien le mouvement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine (dès que le genou plie à 90 degrés sans douleur et que la marche est normale).",
+    "progression": "Descendez plus bas, puis passez au vélo stationnaire et à la course légère quand le genou plie à environ 120 degrés.",
+    "erreur_frequente": "Reprendre les sprints ou les contacts avant d'avoir retrouvé toute la flexion et toute la force.",
+    "illustration": "Dessin au trait d'un sportif debout réalisant un mini-squat contrôlé."
+   }
+  ],
+  "duree_habituelle": "Guérison habituelle en quelques jours à 3 semaines selon l'importance du coup ; plus long pour une contusion sévère.",
+  "quand_reconsulter": [
+   "Douleur qui augmente beaucoup dans les heures ou les jours suivant le coup, cuisse très tendue et dure, douleur intense quand on plie le genou, engourdissements (syndrome des loges : urgence).",
+   "Douleur ou enflure qui ne diminue pas nettement après 10 à 14 jours, masse dure dans le muscle ou genou qui ne plie toujours pas complètement après 3 à 4 semaines (ossification dans le muscle à vérifier).",
+   "Fièvre ou rougeur chaude.",
+   "Boiterie qui dure plus de 2 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Aronen JG et al., Quadriceps contusions: clinical results of immediate immobilization in 120 degrees of knee flexion, Clin J Sport Med, 2006",
+    "doi_ou_pmid": "PMID: 17016112"
+   },
+   {
+    "texte": "Ryan JB et al., Quadriceps contusions. West Point update, Am J Sports Med, 1991",
+    "doi_ou_pmid": "PMID: 1867338"
+   },
+   {
+    "texte": "Hall M, Anderson J, Hip pointers, Clin Sports Med, 2013",
+    "doi_ou_pmid": "PMID: 23522513"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "bassin",
+  "nom": "Fracture de fragilité du bassin ou du sacrum",
+  "applicable": false,
+  "raison_si_non": "Fracture nécessitant d'abord un bilan médical, un contrôle de la douleur, une évaluation et un traitement de l'ostéoporose, ainsi que des consignes de mise en charge données par le médecin. La remise en mouvement se fait ensuite tôt, mais de façon encadrée."
+ },
+ {
+  "region": "hanche",
+  "id": "lombaire",
+  "nom": "Douleur projetée d'origine lombaire",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur à la hanche venant du bas du dos",
+  "ce_que_vous_avez": "La douleur que vous ressentez dans la fesse, la hanche ou l'aine semble provenir des articulations ou des nerfs du bas de votre dos plutôt que de la hanche elle-même. Les exercices visent donc à soulager et à remettre doucement en mouvement le bas du dos. Rester actif est le meilleur moyen de récupérer.",
+  "ce_qui_aide": [
+   "Faire les exercices doux du bas du dos plutôt que de forcer sur la hanche.",
+   "Marcher de courtes distances plusieurs fois par jour et rester actif selon votre tolérance.",
+   "Mettre de la chaleur 15 à 20 minutes sur le bas du dos.",
+   "Changer souvent de position si vous travaillez assis.",
+   "Privilégier les mouvements qui diminuent la douleur ou la ramènent vers le dos."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Rester au lit ou garder longtemps la même position.",
+   "Répéter un mouvement qui envoie la douleur plus loin dans la jambe.",
+   "Soulever des charges lourdes tant que la douleur est vive."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui envoie de la douleur ou des picotements plus loin dans la jambe.",
+  "exercices": [
+   {
+    "nom": "Bascule douce du bassin couché",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Collez doucement le bas du dos au sol en rentrant un peu le ventre, puis relâchez lentement.",
+    "dosage": "10 répétitions lentes, 2 fois par jour.",
+    "progression": "Enchaînez avec le dos rond / dos creux à quatre pattes.",
+    "erreur_frequente": "Pousser avec les jambes au lieu de bouger le bassin.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos basculant doucement le bassin."
+   },
+   {
+    "nom": "Genou à la poitrine (un à la fois)",
+    "position_de_depart": "Couché sur le dos, genoux pliés.",
+    "mouvement": "Ramenez doucement un genou vers la poitrine pendant 15 secondes, puis changez de côté. Si ce mouvement augmente la douleur dans la jambe, laissez-le de côté.",
+    "dosage": "3 répétitions par côté, 2 fois par jour.",
+    "progression": "Ramenez les deux genoux doucement si cela soulage votre dos.",
+    "erreur_frequente": "Tirer le genou jusqu'à provoquer un pincement dans l'aine ou une douleur dans la jambe.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos ramenant un genou vers la poitrine."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez doucement les hanches. Tenez 3 secondes et redescendez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez à l'exercice de l'oiseau-chien à quatre pattes (bras et jambe opposés tendus).",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier."
+   }
+  ],
+  "duree_habituelle": "Amélioration habituelle en 3 à 6 semaines.",
+  "quand_reconsulter": [
+   "Perte de sensation entre les jambes, difficulté à uriner, pertes d'urine ou de selles (urgence).",
+   "Faiblesse nouvelle ou qui s'aggrave dans le pied ou la jambe (urgence).",
+   "Engourdissements ou douleur qui descendent sous le genou.",
+   "Fièvre, perte de poids inexpliquée ou douleur constante la nuit.",
+   "Aucune amélioration après 4 à 6 semaines."
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021, J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   },
+   {
+    "texte": "Qaseem A et al., Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain (American College of Physicians), Ann Intern Med, 2017",
+    "doi_ou_pmid": "à vérifier dans PubMed"
+   }
+  ]
+ },
+ {
+  "region": "hanche",
+  "id": "ppr",
+  "nom": "Polymyalgia rheumatica",
+  "applicable": false,
+  "raison_si_non": "Maladie inflammatoire nécessitant d'abord un traitement médical par glucocorticoïdes (cortisone) et la recherche de signes d'artérite à cellules géantes. Des conseils d'exercices personnalisés viennent ensuite en complément du traitement médical."
+ }
+]
