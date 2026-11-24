@@ -172,7 +172,7 @@ ${listeRefs}
   });
 
   const carte = f => `    <li><a class="hy-carte" href="${f.u}">${f.planche ? `<img src="${base}img/${f.planche}" alt="" width="480" height="643" loading="lazy">` : "<span></span>"}
-      <span class="hy-carte-texte"><span class="hy-carte-no">${f.no}${dxDe.has(f.no) ? `<span class="hy-carte-calcul">dans le calcul</span>` : ""}${f.renvoi ? `<span class="hy-carte-renvoi">renvoi</span>` : ""}</span><span class="hy-carte-titre">${esc(f.titreFr)}</span><span class="hy-carte-tags">${esc(f.tagsFr)}</span></span></a></li>`;
+      <span class="hy-carte-texte"><span class="hy-carte-no">${f.no}${f.renvoi ? `<span class="hy-carte-renvoi">renvoi</span>` : ""}</span><span class="hy-carte-titre">${esc(f.titreFr)}</span><span class="hy-carte-tags">${esc(f.tagsFr)}</span></span></a></li>`;
   const series = R.series.filter(s => fiches.some(f => f.serie === s.nom));
   const listes = series.map(s => `${series.length > 1 ? `  <h2 class="lo-regions-titre hy-serie">${esc(s.nom)}</h2>\n` : ""}  <ol class="hy-biblio">
 ${fiches.filter(f => f.serie === s.nom).map(carte).join("\n")}
@@ -181,7 +181,7 @@ ${fiches.filter(f => f.serie === s.nom).map(carte).join("\n")}
   <section class="cr-intro hy-intro">
     <h1>${esc(R.nom)}</h1>
     <p class="cr-devise">Fiches résumées des pathologies</p>
-    <p class="cr-lead">${fiches.length} fiches d'une page : épidémiologie, présentation, examen, physiopathologie, différentiel, investigations, traitement et pronostic, avec leurs références. Les fiches marquées « dans le calcul » s'ouvrent aussi depuis les résultats.</p>
+    <p class="cr-lead">${fiches.length} fiches d'une page : épidémiologie, présentation, examen, physiopathologie, différentiel, investigations, traitement et pronostic, avec leurs références.</p>
     <p class="hy-actions"><a class="lo-bouton" href="/locomoteur/${region}/">Ouvrir le calcul pour ${esc(R.calcul)}</a></p>
   </section>
 ${listes}
