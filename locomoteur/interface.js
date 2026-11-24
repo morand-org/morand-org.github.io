@@ -158,38 +158,20 @@
      (les deux côtés touchés : « Les deux »). Face : droite du patient à gauche de l'écran ; dos : l'inverse. */
   const COTES = { D: "droit", G: "gauche" };
   function atlasSvg() {
-    const corps = (cx, dos) => {
-      const m = s => (dos ? -s : s); // côté droit du patient : à gauche de face, à droite de dos
-      const membre = pts => `<polyline class="lo-atlas-contour" points="${pts}"/><polyline class="lo-atlas-membre" points="${pts}"/>`;
-      const bras = c => membre(`${cx + c * 30},58 ${cx + c * 41},110 ${cx + c * 47},150`), jambe = c => membre(`${cx + c * 13},148 ${cx + c * 14},205 ${cx + c * 13},254`);
-      return `<g class="lo-atlas-corps">${bras(-1)}${bras(1)}${jambe(-1)}${jambe(1)}
-        <path class="lo-atlas-tronc" d="M${cx - 31},52 Q${cx},45 ${cx + 31},52 L${cx + 27},106 Q${cx + 24},134 ${cx + 27},154 L${cx - 27},154 Q${cx - 24},134 ${cx - 27},106 Z"/>
-        <rect class="lo-atlas-tronc" x="${cx - 6}" y="36" width="12" height="14" rx="4"/><ellipse class="lo-atlas-tronc" cx="${cx}" cy="23" rx="13" ry="16"/>
-        <circle class="lo-atlas-tronc" cx="${cx - 48}" cy="160" r="7"/><circle class="lo-atlas-tronc" cx="${cx + 48}" cy="160" r="7"/>
-        <ellipse class="lo-atlas-tronc" cx="${cx + m(-1) * 15}" cy="265" rx="10" ry="5"/><ellipse class="lo-atlas-tronc" cx="${cx + m(1) * 15}" cy="265" rx="10" ry="5"/></g>`;
-    };
-    const zone = (r, cote, x, y, rayon, nom) => prets.has(r)
-      ? `<circle class="lo-zone" data-zone="${r}" data-cote="${cote}" cx="${x}" cy="${y}" r="${rayon}" tabindex="0" role="button" aria-label="${esc(nom)}"><title>${esc(nom)}</title></circle>` : "";
-    const paires = (cx, dos) => {
-      const c = cote => (cote === "D" ? (dos ? 1 : -1) : (dos ? -1 : 1));
-      const z = [];
-      for (const cote of ["D", "G"]) {
-        const k = c(cote), cn = COTES[cote];
-        z.push(zone("epaule", cote, cx + k * 32, 60, 11, `Épaule ${cn}e`.replace("droite", "droite").replace("gauchee", "gauche")));
-        if (!dos) {
-          z.push(zone("coude", cote, cx + k * 41, 110, 9, `Coude ${cn}`), zone("poignet", cote, cx + k * 47, 154, 11, `Poignet ou main ${cn}${cote === "D" ? "" : ""}`),
-            zone("hanche", cote, cx + k * 16, 146, 11, `Hanche ou aine ${cn}e`.replace("gauchee", "gauche")), zone("genou", cote, cx + k * 14, 205, 11, `Genou ${cn}`),
-            zone("cheville", cote, cx + k * 13, 250, 9, `Cheville ${cn}e`.replace("gauchee", "gauche")), zone("pied", cote, cx + k * 15, 268, 9, `Pied ${cn}`));
-        } else z.push(zone("hanche", cote, cx + k * 15, 150, 11, `Fesse ${cn}e`.replace("gauchee", "gauche")));
-      }
-      z.push(zone("cervical", "", cx, 44, 9, "Cou"));
-      if (dos) z.push(zone("lombaire", "", cx, 92, 12, "Dos (dorsal)"), zone("lombaire", "", cx, 128, 13, "Bas du dos"));
-      return z.join("");
-    };
-    return `<figure class="lo-atlas"><svg viewBox="0 0 360 290" role="group" aria-label="Atlas de la douleur : toucher la zone douloureuse">
-      ${corps(95, false)}${corps(265, true)}${paires(95, false)}${paires(265, true)}
-      <text class="lo-atlas-cote" x="30" y="282">D</text><text class="lo-atlas-cote" x="152" y="282">G</text><text class="lo-atlas-cote" x="200" y="282">G</text><text class="lo-atlas-cote" x="322" y="282">D</text>
-      <text class="lo-atlas-vue" x="95" y="288">Face</text><text class="lo-atlas-vue" x="265" y="288">Dos</text></svg>
+    // Personnage musclé, de face et de dos (image du clinicien) ; zones placées dans le même repère de 1264 × 848.
+    const Z = [["cervical", "", 387, 142, 24, "Cou"], ["epaule", "D", 298, 198, 27, "Épaule droite"], ["epaule", "G", 476, 198, 27, "Épaule gauche"],
+      ["coude", "D", 278, 326, 23, "Coude droit"], ["coude", "G", 494, 326, 23, "Coude gauche"], ["poignet", "D", 252, 434, 26, "Poignet ou main droite"], ["poignet", "G", 520, 434, 26, "Poignet ou main gauche"],
+      ["hanche", "D", 348, 438, 26, "Hanche ou aine droite"], ["hanche", "G", 426, 438, 26, "Hanche ou aine gauche"], ["genou", "D", 348, 594, 27, "Genou droit"], ["genou", "G", 426, 594, 27, "Genou gauche"],
+      ["cheville", "D", 352, 764, 22, "Cheville droite"], ["cheville", "G", 422, 764, 22, "Cheville gauche"], ["pied", "D", 346, 806, 22, "Pied droit"], ["pied", "G", 428, 806, 22, "Pied gauche"],
+      ["cervical", "", 877, 142, 24, "Nuque"], ["epaule", "G", 788, 198, 27, "Épaule gauche (dos)"], ["epaule", "D", 966, 198, 27, "Épaule droite (dos)"],
+      ["lombaire", "", 877, 290, 26, "Dos (région dorsale)"], ["lombaire", "", 877, 372, 30, "Bas du dos"], ["hanche", "G", 842, 446, 26, "Fesse gauche"], ["hanche", "D", 912, 446, 26, "Fesse droite"],
+      ["genou", "G", 840, 592, 26, "Creux du genou gauche"], ["genou", "D", 914, 592, 26, "Creux du genou droit"], ["cheville", "G", 844, 762, 22, "Talon et Achille gauche"], ["cheville", "D", 910, 762, 22, "Talon et Achille droit"]];
+    const zones = Z.filter(([r]) => prets.has(r)).map(([r, cote, x, y, rayon, nom]) =>
+      `<circle class="lo-zone" data-zone="${r}" data-cote="${cote}" cx="${x}" cy="${y}" r="${rayon}" tabindex="0" role="button" aria-label="${esc(nom)}"><title>${esc(nom)}</title></circle>`).join("");
+    return `<figure class="lo-atlas lo-atlas-image"><svg viewBox="0 0 1264 848" role="group" aria-label="Atlas de la douleur : toucher la zone douloureuse">
+      <image class="lo-atlas-fond" href="/locomoteur/atlas-corps.webp" x="0" y="0" width="1264" height="848"/>${zones}
+      <text class="lo-atlas-cote" x="190" y="840">D</text><text class="lo-atlas-cote" x="585" y="840">G</text><text class="lo-atlas-cote" x="690" y="840">G</text><text class="lo-atlas-cote" x="1065" y="840">D</text>
+      <text class="lo-atlas-vue" x="120" y="60">Face</text><text class="lo-atlas-vue" x="1150" y="60">Dos</text></svg>
       <figcaption>Touchez la zone douloureuse : la plainte s'ajoute avec son côté. Les deux côtés : « Les deux ».</figcaption></figure>`;
   }
   function atlasActif() {

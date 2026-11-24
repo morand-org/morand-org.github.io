@@ -183,6 +183,12 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .lo-c-bloc { margin: 10px 0 2px; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--or-texte); }
 .lo-c-bloc + ul { margin-top: 2px; }
 .lo-atlas { margin: 4px auto 12px; max-width: 420px; text-align: center; }
+.lo-atlas.lo-atlas-image { max-width: 620px; }
+.lo-atlas-image svg { border-radius: 14px; background: #fff; }
+.lo-atlas-image .lo-zone { stroke-width: 3.5; stroke-dasharray: 7 6; }
+.lo-atlas-image .lo-atlas-cote { font-size: 30px; }
+.lo-atlas-image .lo-atlas-vue { font-size: 22px; letter-spacing: 0.12em; }
+@media (prefers-color-scheme: dark) { .lo-atlas-image svg { background: #12110d; } .lo-atlas-fond { filter: invert(1) brightness(0.88); } }
 .lo-atlas svg { display: block; width: 100%; height: auto; }
 .lo-atlas figcaption { margin-top: 4px; font-size: 0.8rem; color: var(--discret); }
 .lo-atlas-contour, .lo-atlas-membre { fill: none; stroke-linecap: round; stroke-linejoin: round; }
