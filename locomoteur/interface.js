@@ -624,7 +624,8 @@
       const brut = (typeof c === "string" ? c : c.t).trim(), src = c.src, m = brut.match(/^([^:]{2,40}?) : (.*)$/);
       const pre = m ? m[1].toLowerCase() : "", texte = m ? m[2] : brut;
       let k = /^investigation/.test(pre) ? "inv" : /^traitement/.test(pre) ? "trt" : /^suivi/.test(pre) ? "suivi" : /retour|référence|consignes/.test(pre) ? "retour" : null;
-      if (!k) k = /^(diagnostic clinique|radiograph|irm|échograph|tdm|ponction|bilan|vs|crp|imagerie|emg|pas d'imagerie)/i.test(brut) ? "inv"
+      if (!k) k = /^(diagnostic clinique|radiograph|irm|échograph|tdm|ponction|bilan|vs|crp|imagerie|emg|pas d'imagerie)/i.test(brut)
+          || (/\b(irm|radiographies?|imagerie|échographie|tdm)\b/i.test(brut) && !/^(physio|exercice|infiltration|ains|éducation|traitement)/i.test(brut)) ? "inv"
         : /^(suivi|réévalu)/i.test(brut) ? "suivi" : /^(revoir si|reconsulter|consignes)/i.test(brut) ? "retour" : /^(référence|référer|orthopédie|chirurgie)/i.test(brut) ? "ref" : "trt";
       for (const cl of clauses(m ? texte : brut)) {
         if (EVITER.test(cl) && k !== "retour") ajoute("eviter", cl, src);
@@ -632,31 +633,54 @@
         else ajoute(k, cl, src);
       }
     }
-    return BLOCS_C.map(([k, titre]) => [titre, B[k]]).filter(([, l]) => l.length);
+    return BLOCS_C.map(([k, titre]) => [titre, B[k], k]).filter(([, l]) => l.length);
+  }
+  /* Phrase de note pour « + Plan » (étape 3) : ce qu'on écrirait au dossier, selon le bloc. */
+  function phraseNote(k, t) {
+    let x = t.replace(/\s*\((principes généraux, sans recommandation spécifique|associations?)\)/gi, "").replace(/[.;\s]+$/, "").trim();
+    const min = x.charAt(0).toLowerCase() + x.slice(1);
+    // Donnée d'étude, pas une action : rien à ajouter au plan.
+    if (/n'est pas supérieure|non inférieure|supérieure à|comparable à|démontré/i.test(x)) return null;
+    const apres = x.includes(" : ") ? x.split(" : ").pop() : "", Maj = t2 => t2.charAt(0).toUpperCase() + t2.slice(1);
+    if (k === "inv" && /^(clinique|diagnostic clinique)\b/i.test(x)) return apres ? `Diagnostic clinique : ${apres}` : `Diagnostic clinique${x.match(/\(.*\)/) ? " " + x.match(/\(.*\)/)[0] : ""}, pas d'imagerie pour l'instant`;
+    if ((k === "inv" || k === "eviter") && apres) return Maj(apres);
+    if (k === "suivi" && !/^(suivi|revoir|réévalu|rendez-vous)/i.test(x)) return `Suivi ${/^\d|^dans\b/i.test(x) ? (/^dans\b/i.test(x) ? "" : "dans ") : ": "}${min}`.replace(/\s+/g, " ");
+    if (k === "consignes" && !/^(reconsulter|revoir|consulter|retour)/i.test(x)) return `Reconsulter si ${min}`;
+    if (k === "ref" && /→/.test(x) && !/^(si|référ|orthop|chirurg)/i.test(x)) return `Si ${min}`;
+    if (k === "eviter" && !/^(pas|ne |éviter|aucun|jamais)/i.test(x)) return `À éviter : ${min}`;
+    return x;
+  }
+  // Plan groupé par problème : « Nom du problème : » puis ses lignes (rangées sous le bon titre).
+  function ajouterAuPlan(probleme, t) {
+    const lignes = String(etat.commun.plan_ajouts || "").split(/\r?\n/).map(x => x.trimEnd()).filter(x => x.trim()), tete = `${probleme} :`;
+    if (lignes.includes(t)) return;
+    const i = lignes.indexOf(tete);
+    if (i < 0) lignes.push(tete, t);
+    else { let j = i + 1; while (j < lignes.length && !/ :$/.test(lignes[j])) j++; lignes.splice(j, 0, t); }
+    etat.commun.plan_ajouts = lignes.join("\n");
   }
   function conduite(regs) {
     const plusieurs = regs.length > 1, dejaPlan = String(etat.commun.plan_ajouts || "").split(/\r?\n/).map(x => x.trim());
-    const ligne = c => `<li><span>${esc(c.t)}${c.src ? `<span class="lo-src">${esc(c.src)}</span>` : ""}</span><button type="button" class="lo-plus" data-plan="${esc(c.t)}"${dejaPlan.includes(c.t.replace(/\.$/, "")) ? " disabled" : ""}>+ Plan</button></li>`;
+    const ligne = (c, k, probleme) => { const n = phraseNote(k, c.t); return `<li><span>${esc(c.t)}${c.src ? `<span class="lo-src">${esc(c.src)}</span>` : ""}</span>${n ? `<button type="button" class="lo-plus" data-plan="${esc(n)}" data-probleme="${esc(probleme)}" title="Ajouter au plan : ${esc(n)}"${dejaPlan.includes(n) ? " disabled" : ""}>+ Plan</button>` : ""}</li>`; };
     let h = "";
     for (const r of regs) {
       const res = derniers[r], graves = res.alertes.filter(a => a.niveau !== "info" && a.conduite);
       if (plusieurs) h += `<h3 class="lo-c-titre lo-c-plainte">${esc(plainteTitre(r))}</h3>`;
       if (graves.length) h += `<h3 class="lo-c-titre">Alertes</h3>${alertesHtml(graves, true)}`;
       if (res.conduite.length) h += res.conduite.map(c => `<section class="lo-c-dx"><h3>${esc(c.dx.x.nom)} <span class="lo-dx-cat" data-cat="${c.dx.categorie[2]}">${c.dx.categorie[1]}</span></h3>
-        ${blocsConduite(c.items).map(([titre, l]) => `<h4 class="lo-c-bloc">${esc(titre)}</h4><ul>${l.map(ligne).join("")}</ul>`).join("")}${liens(c.liens)}</section>`).join("");
+        ${blocsConduite(c.items).map(([titre, l, k]) => `<h4 class="lo-c-bloc">${esc(titre)}</h4><ul>${l.map(x => ligne(x, k, c.dx.x.nom)).join("")}</ul>`).join("")}${liens(c.liens)}</section>`).join("");
       else h += `<p class="lo-vide">Aucune hypothèse n'est encore assez probable pour proposer une conduite propre à un diagnostic.</p>`;
     }
     // Mesures générales : une seule fois par titre, même avec plusieurs plaintes.
     const vus = new Set(), mesures = regs.flatMap(r => derniers[r].mesures).filter(g => !vus.has(g.titre) && vus.add(g.titre));
-    if (mesures.length) h += `<h3 class="lo-c-titre lo-c-mesures">Mesures générales</h3>` + mesures.map(g => `<section class="lo-c-dx"><h3>${esc(g.titre)}</h3><ul>${g.items.map(ligne).join("")}</ul></section>`).join("");
-    h += `<p class="lo-discret">Conduite indicative, à adapter au patient. La source de chaque recommandation est indiquée en petit ; « + Plan » n'ajoute que l'action.</p>`;
+    if (mesures.length) h += `<h3 class="lo-c-titre lo-c-mesures">Mesures générales</h3>` + mesures.map(g => `<section class="lo-c-dx"><h3>${esc(g.titre)}</h3><ul>${g.items.map(x => ligne(x, "trt", "Mesures générales")).join("")}</ul></section>`).join("");
+    h += `<p class="lo-discret">Conduite indicative, à adapter au patient. La source de chaque recommandation est indiquée en petit ; « + Plan » ajoute une phrase de note, rangée sous le problème.</p>`;
     $("#lo-conduite").innerHTML = regs.length ? h : "";
   }
   $("#lo-conduite").addEventListener("click", e => {
     const b = e.target.closest("button[data-plan]");
     if (!b) return;
-    const t = b.dataset.plan.replace(/\.$/, ""), actuel = String(etat.commun.plan_ajouts || "").trim();
-    etat.commun.plan_ajouts = actuel ? `${actuel}\n${t}` : t;
+    ajouterAuPlan(b.dataset.probleme || "Plan", b.dataset.plan);
     majControles("plan_ajouts"); b.disabled = true; planifier();
   });
 
