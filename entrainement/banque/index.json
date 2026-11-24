@@ -31,9 +31,11 @@
    "domaine": "MSK",
    "region": "Épaule",
    "fichier": "/entrainement/banque/msk-epaule.json",
-   "cartes": 175,
+   "cartes": 203,
    "experimentales": 2,
-   "diagnostics": 17
+   "diagnostics": 22,
+   "retirees": 12,
+   "jouables": 190
   },
   {
    "cle": "msk-coude",

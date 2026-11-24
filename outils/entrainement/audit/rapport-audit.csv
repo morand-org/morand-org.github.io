@@ -377,3 +377,206 @@ Rachis lombaire et dorsal;Retirée;;Douleur sacro-iliaque;Groupes de tests en m�
 Rachis lombaire et dorsal;Retirée;;Fracture vertébrale ostéoporotique ou d'insuffisance du sacrum;Traumatisme significatif en soins primaires (en soins tertiaires);↔ Neutre;Anamnèse;Base des flashcards;;;"Donnée de soins tertiaires, contradictoire avec la carte précédente ; sans usage en première ligne.";MSK-030-04
 Rachis lombaire et dorsal;Retirée;;Syndrome facettaire lombaire;Fixation à la scintigraphie SPECT;↑ Augmente;Anamnèse;Base des flashcards;;;Imagerie nucléaire (scintigraphie SPECT) de deuxième ligne, sans usage au bureau.;MSK-021-09
 Rachis lombaire et dorsal;Retirée;;Syndrome facettaire lombaire;Critères de Revel ≥ 5/7 (en validation);↔ Neutre;Tests spécifiques;Base des flashcards;;;Énoncé confus qui contredit la carte précédente (résultat de l'étude de validation).;MSK-021-03
+Épaule;1 Essentielle;Léger;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Douleur au sommet de l'épaule;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E12 (présentation clinique));;;;MSK-EPAU-E12-01
+Épaule;1 Essentielle;Léger;Arthrose gléno-humérale;Âge < 50 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-040-01
+Épaule;1 Essentielle;Léger;Arthrose gléno-humérale;Âge de plus de 70 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;Après 70 ans;;;MSK-040-02
+Épaule;1 Essentielle;Modéré;Arthrose gléno-humérale;Perte globale d'amplitude, surtout de la rotation externe passive;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E9 (examen physique));;;;MSK-EPAU-E09-02
+Épaule;1 Essentielle;Léger;Capsulite adhésive;Diabète;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-036-01
+Épaule;1 Essentielle;Léger;Capsulite adhésive;Âge de 40 à 65 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-036-05
+Épaule;1 Essentielle;Léger;Capsulite adhésive;Douleur en rotation externe coude au corps, sans traumatisme;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-036-08
+Épaule;1 Essentielle;Léger;Capsulite adhésive;Perte globale active et passive avec radiographie normale;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-036-09
+Épaule;1 Essentielle;Léger;Capsulite adhésive;Douleur nocturne profonde suivie d'une raideur progressive;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E3 (présentation clinique));;;;MSK-EPAU-E03-01
+Épaule;1 Essentielle;Modéré;Capsulite adhésive;Rotation externe passive réduite de plus de la moitié par rapport à l'autre côté;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E3 (examen physique));;;;MSK-EPAU-E03-02
+Épaule;1 Essentielle;Léger;Douleur projetée d'origine cervicale (épaule);Mobilité passive de l'épaule normale et indolore;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-045-04
+Épaule;1 Essentielle;Modéré;Douleur projetée d'origine cervicale (épaule);Douleur à la mobilisation passive, douleur nocturne, douleur bras levé;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-045-05
+Épaule;1 Essentielle;Léger;Douleur sous-acromiale (tendinopathie de la coiffe);Arc douloureux présent;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-034-01
+Épaule;1 Essentielle;Léger;Douleur sous-acromiale (tendinopathie de la coiffe);Douleur à la face latérale du bras (deltoïde) aux gestes au-dessus de la tête;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E1 (présentation clinique));;;;MSK-EPAU-E01-02
+Épaule;1 Essentielle;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Arc douloureux absent;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-034-02
+Épaule;1 Essentielle;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Rotation externe résistée douloureuse ou faible;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-034-07
+Épaule;1 Essentielle;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Amplitudes passives de l'épaule préservées;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E1 (présentation clinique));;;;MSK-EPAU-E01-03
+Épaule;1 Essentielle;Léger;Entorse ou disjonction acromio-claviculaire;Chute directe sur le moignon de l'épaule, bras en adduction;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-037-01
+Épaule;1 Essentielle;Léger;Fracture de l'humérus proximal;Âge ≥ 60 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-048-01
+Épaule;1 Essentielle;Léger;Fracture de l'humérus proximal;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-048-02
+Épaule;1 Essentielle;Léger;Fracture de l'humérus proximal;Chute de sa hauteur;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-048-03
+Épaule;1 Essentielle;Léger;Fracture de la clavicule;Chute directe sur l'épaule;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-049-03
+Épaule;1 Essentielle;Léger;Fracture de la clavicule;Déformation et ecchymose;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-049-06
+Épaule;1 Essentielle;Léger;Instabilité postérieure ou multidirectionnelle;Luxation après une crise convulsive;↑ Augmente;Anamnèse;Base des flashcards;Crise convulsive;;;MSK-047-01
+Épaule;1 Essentielle;Modéré;Instabilité postérieure ou multidirectionnelle;Bras bloqué en rotation interne;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E19 (présentation clinique));;;;MSK-EPAU-E19-02
+Épaule;1 Essentielle;Modéré;Instabilité postérieure ou multidirectionnelle;Perte de la rotation externe passive après un traumatisme;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E19 (examen physique));;;;MSK-EPAU-E19-03
+Épaule;1 Essentielle;Léger;Luxation ou instabilité antérieure;Récidive de luxation : âge de 40 ans ou moins;↑ Augmente;Facteurs démographiques;Base des flashcards;Récidive, âge ≤ 40 ans;;;MSK-042-10
+Épaule;1 Essentielle;Léger;Luxation ou instabilité antérieure;Homme de 20 ans ou moins;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée E11 (épidémiologie));;;;MSK-EPAU-E11-01
+Épaule;1 Essentielle;Léger;Luxation ou instabilité antérieure;Traumatisme en abduction et rotation externe forcées;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E11 (présentation clinique));;;;MSK-EPAU-E11-02
+Épaule;1 Essentielle;Modéré;Luxation ou instabilité antérieure;Test d'appréhension : appréhension (et non simple douleur);↑ Augmente;Tests spécifiques;Base des flashcards;Test d'appréhension, critère appréhension;"Test d'appréhension : bras en abduction de 90° et en rotation externe ; le patient craint que l'épaule se luxe.";;MSK-042-01
+Épaule;1 Essentielle;Léger;Polymyalgia rheumatica (épaule);Âge < 50 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-050-01
+Épaule;1 Essentielle;Léger;Polymyalgia rheumatica (épaule);Douleur bilatérale des épaules;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-050-02
+Épaule;1 Essentielle;Modéré;Polymyalgia rheumatica (épaule);CRP normale;↓ Diminue;Laboratoire;Base des flashcards;;;;MSK-050-04
+Épaule;1 Essentielle;Léger;Rupture transfixiante de la coiffe;Âge ≥ 65 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-038-07
+Épaule;1 Essentielle;Léger;Rupture transfixiante de la coiffe;Âge de moins de 50 ans;↓ Diminue;Facteurs démographiques;Nouvelle (Fiche résumée E5 (épidémiologie));;;;MSK-EPAU-E05-01
+Épaule;1 Essentielle;Modéré;Rupture transfixiante de la coiffe;Signe du retard en rotation externe (lag sign);↑ Augmente;Tests spécifiques;Base des flashcards;;"Signe du retard en rotation externe : coude au corps, on amène l'avant-bras en rotation externe presque maximale ; le patient ne peut pas tenir la position.";;MSK-038-01
+Épaule;1 Essentielle;Modéré;Rupture transfixiante de la coiffe;Faiblesse en rotation externe;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-038-08
+Épaule;1 Essentielle;Modéré;Rupture transfixiante de la coiffe;Faiblesse aiguë de l'épaule après une chute ou une luxation, après 60 ans;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E5 (présentation clinique));;;;MSK-EPAU-E05-02
+Épaule;1 Essentielle;Difficile;Rupture transfixiante de la coiffe;Douleur nocturne;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-038-09
+Épaule;1 Essentielle;Difficile;Rupture transfixiante de la coiffe;Rupture de la coiffe à l'imagerie, prise isolément;↔ Neutre;Imagerie;Base des flashcards;Rupture à l'imagerie, isolément;;;MSK-038-15
+Épaule;1 Essentielle;Léger;Tendinopathie ou rupture du long biceps;Bosse au bras (signe de Popeye);↑ Augmente;Examen physique;Nouvelle (Fiche résumée E14 (présentation clinique));;Signe de Popeye : le ventre du biceps descend vers le coude et forme une bosse, après une rupture du long biceps.;;MSK-EPAU-E14-01
+Épaule;2 Importante;Léger;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Douleur acromio-claviculaire au développé-couché, aux dips et aux pompes, sans traumatisme;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E17 (présentation clinique));;;;MSK-EPAU-E17-01
+Épaule;2 Importante;Modéré;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Adduction horizontale (cross-body) douloureuse;↑ Augmente;Anamnèse;Base des flashcards;Adduction horizontale (cross-body);;;MSK-043-01
+Épaule;2 Importante;Difficile;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Arthrose acromio-claviculaire à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-043-09
+Épaule;2 Importante;Léger;Arthrose gléno-humérale;Antécédent de luxation;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-040-03
+Épaule;2 Importante;Léger;Arthrose gléno-humérale;Crépitation (frottement) à la mobilisation;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E9 (présentation clinique));;;;MSK-EPAU-E09-01
+Épaule;2 Importante;Modéré;Arthrose gléno-humérale;Flexion passive < 120°;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-040-06
+Épaule;2 Importante;Modéré;Arthrose gléno-humérale;Rotation externe passive < 30°;↑ Augmente;Examen physique;Base des flashcards;(incertain) Rotation externe passive < 30°;;;MSK-040-07
+Épaule;2 Importante;Difficile;Arthrose gléno-humérale;Arthrose à l'imagerie chez l'asymptomatique;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-040-10
+Épaule;2 Importante;Léger;Capsulite adhésive;Hypothyroïdie;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-036-02
+Épaule;2 Importante;Léger;Capsulite adhésive;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-036-04
+Épaule;2 Importante;Léger;Capsulite adhésive;Capsulite controlatérale antérieure;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-036-07
+Épaule;2 Importante;Modéré;Capsulite adhésive;Arthrose gléno-humérale à la radiographie;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-036-11
+Épaule;2 Importante;Modéré;Douleur projetée d'origine cervicale (épaule);Absence de paresthésies;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-045-03
+Épaule;2 Importante;Difficile;Douleur projetée d'origine cervicale (épaule);Sténose foraminale C5–C6 à l'imagerie;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-045-08
+Épaule;2 Importante;Léger;Douleur sous-acromiale (tendinopathie de la coiffe);Âge de 40 à 60 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée E1 (épidémiologie));;;;MSK-EPAU-E01-01
+Épaule;2 Importante;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Hawkins-Kennedy négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-034-04
+Épaule;2 Importante;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Neer négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-034-06
+Épaule;2 Importante;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Au moins 3 tests positifs sur 5 (Neer, Hawkins, arc douloureux, Jobe, rotation externe résistée);↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-034-09
+Épaule;2 Importante;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Moins de 3 tests positifs sur 5 (Neer, Hawkins, arc douloureux, Jobe, rotation externe résistée);↓ Diminue;Anamnèse;Base des flashcards;Moins de 3;;;MSK-034-10
+Épaule;2 Importante;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Hawkins et Neer tous deux négatifs;↓ Diminue;Anamnèse;Base des flashcards;Tous deux négatifs;;;MSK-034-12
+Épaule;2 Importante;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Hawkins + arc douloureux + faiblesse de l'infra-épineux;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-034-13
+Épaule;2 Importante;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Hawkins-Kennedy positif;↔ Neutre;Tests spécifiques;Base des flashcards;;"Test de Hawkins-Kennedy : épaule et coude fléchis à 90°, on fait une rotation interne forcée ; positif s'il réveille la douleur.";;MSK-034-03
+Épaule;2 Importante;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Neer positif;↔ Neutre;Tests spécifiques;Base des flashcards;;"Test de Neer : on élève passivement le bras tendu, en rotation interne, l'omoplate stabilisée ; positif s'il réveille la douleur.";;MSK-034-05
+Épaule;2 Importante;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Test de Jobe positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test de Jobe;"Test de Jobe (canette vide) : bras à 90° dans le plan de l'omoplate, pouces vers le bas, on résiste à l'élévation ; positif s'il donne douleur ou faiblesse.";;MSK-034-08
+Épaule;2 Importante;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Hawkins et Neer tous deux positifs;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-034-11
+Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-037-02
+Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Sport de contact;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-037-04
+Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Âge de 10 à 30 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-037-05
+Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Clavicule distale saillante (marche d'escalier, touche de piano);↑ Augmente;Anamnèse;Base des flashcards;Marche d'escalier, touche de piano;;;MSK-037-06
+Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Chute à vélo;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée E4 (épidémiologie));;;;MSK-EPAU-E04-01
+Épaule;2 Importante;Léger;Fracture de l'humérus proximal;Âge < 50 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-048-04
+Épaule;2 Importante;Léger;Fracture de l'humérus proximal;Déformation;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-048-05
+Épaule;2 Importante;Léger;Fracture de l'humérus proximal;Ecchymose humérale;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-048-08
+Épaule;2 Importante;Léger;Fracture de l'humérus proximal;Ecchymose qui descend au bras et au thorax;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E7 (présentation clinique));;;;MSK-EPAU-E07-01
+Épaule;2 Importante;Modéré;Fracture de l'humérus proximal;Ni déformation ni chute;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-048-06
+Épaule;2 Importante;Modéré;Fracture de l'humérus proximal;Ni chute ni tuméfaction;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-048-07
+Épaule;2 Importante;Léger;Fracture de la clavicule;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-049-01
+Épaule;2 Importante;Léger;Fracture de la clavicule;Homme de 15 à 24 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-049-02
+Épaule;2 Importante;Léger;Fracture de la clavicule;Douleur au tiers moyen de la clavicule;↑ Augmente;Anamnèse;Base des flashcards;Douleur au tiers moyen;;;MSK-049-05
+Épaule;2 Importante;Modéré;Fracture de la clavicule;Chute sur la main tendue;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-049-04
+Épaule;2 Importante;Léger;Instabilité postérieure ou multidirectionnelle;Électrisation;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E19 (épidémiologie));;;;MSK-EPAU-E19-01
+Épaule;2 Importante;Difficile;Instabilité postérieure ou multidirectionnelle;Radiographie de face normale;↔ Neutre;Anamnèse;Base des flashcards;Radiographie de face normale;;;MSK-047-11
+Épaule;2 Importante;Modéré;Luxation ou instabilité antérieure;Test de recentrage (relocation) : appréhension soulagée;↑ Augmente;Réponse aux traitements;Base des flashcards;Relocation, appréhension soulagée;Test de recentrage : pendant le test d'appréhension, une poussée vers l'arrière sur la tête humérale fait disparaître l'appréhension.;;MSK-042-03
+Épaule;2 Importante;Difficile;Luxation ou instabilité antérieure;Test d'appréhension : douleur seulement, sans appréhension;↔ Neutre;Tests spécifiques;Base des flashcards;Test d'appréhension, critère douleur;;;MSK-042-02
+Épaule;2 Importante;Léger;Myalgie ou douleur non spécifique;Travail répétitif;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-035-03
+Épaule;2 Importante;Léger;Myalgie ou douleur non spécifique;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-035-04
+Épaule;2 Importante;Modéré;Myalgie ou douleur non spécifique;Amplitudes passives préservées, sensibilité musculaire localisée;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E2 (examen physique));;;;MSK-EPAU-E02-02
+Épaule;2 Importante;Modéré;Polymyalgia rheumatica (épaule);Score EULAR/ACR 2012 de 4 ou plus;↑ Augmente;Tests spécifiques;Base des flashcards;Score EULAR/ACR ≥ 4 en validation;"Critères EULAR/ACR 2012 : raideur matinale > 45 minutes, douleur ou limitation des hanches, facteur rhumatoïde et anti-CCP négatifs, aucune autre atteinte articulaire ; un score de 4 ou plus sur 6 classe la maladie.";;MSK-050-03
+Épaule;2 Importante;Modéré;Polymyalgia rheumatica (épaule);Anti-CCP positifs;↓ Diminue;Laboratoire;Base des flashcards;;;;MSK-050-09
+Épaule;2 Importante;Modéré;Polymyalgia rheumatica (épaule);Synovite persistante du poignet ou des doigts;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-050-10
+Épaule;2 Importante;Difficile;Polymyalgia rheumatica (épaule);VS normale;↔ Neutre;Laboratoire;Base des flashcards;;;;MSK-050-05
+Épaule;2 Importante;Modéré;Rupture transfixiante de la coiffe;Retard en rotation interne (sous-scapulaire);↑ Augmente;Examen physique;Base des flashcards;Retard en rotation interne (sous-scapulaire);"Retard en rotation interne : on décolle la main du bas du dos ; le patient ne peut pas la tenir décollée.";;MSK-038-03
+Épaule;2 Importante;Modéré;Rupture transfixiante de la coiffe;Retard en rotation interne absent;↓ Diminue;Examen physique;Base des flashcards;Retard en rotation interne (sous-scapulaire) : négatif;;;MSK-038-04
+Épaule;2 Importante;Modéré;Rupture transfixiante de la coiffe;Drop sign (bras qui tombe à 90°);↑ Augmente;Anamnèse;Base des flashcards;Drop sign (retard à 90°);"Drop sign : bras amené à 90° d'abduction ; le patient ne peut pas le tenir et le bras tombe.";;MSK-038-05
+Épaule;2 Importante;Modéré;Rupture transfixiante de la coiffe;Arc douloureux ou signe de conflit absent;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-038-11
+Épaule;2 Importante;Modéré;Rupture transfixiante de la coiffe;Faiblesse du supra-épineux + faiblesse en rotation externe + conflit;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-038-14
+Épaule;2 Importante;Difficile;Rupture transfixiante de la coiffe;Signe du retard en rotation externe négatif;↔ Neutre;Tests spécifiques;Base des flashcards;Signe du retard en rotation externe (lag sign) : négatif;;;MSK-038-02
+Épaule;2 Importante;Difficile;Rupture transfixiante de la coiffe;Drop sign négatif;↔ Neutre;Anamnèse;Base des flashcards;Drop sign (retard à 90°) : négatif;;;MSK-038-06
+Épaule;2 Importante;Difficile;Rupture transfixiante de la coiffe;Arc douloureux ou signe de conflit positif;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-038-10
+Épaule;2 Importante;Léger;Tendinopathie calcifiante;Âge de 30 à 60 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-041-01
+Épaule;2 Importante;Léger;Tendinopathie calcifiante;Douleur aiguë, sévère et constante d'environ 2 semaines;↑ Augmente;Évolution temporelle;Base des flashcards;;;;MSK-041-07
+Épaule;2 Importante;Difficile;Tendinopathie calcifiante;Calcification découverte par hasard à la radiographie;↔ Neutre;Anamnèse;Base des flashcards;Calcification fortuite;;;MSK-041-04
+Épaule;2 Importante;Léger;Tendinopathie ou rupture du long biceps;Âge plus avancé;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge;;;MSK-044-08
+Épaule;2 Importante;Difficile;Tendinopathie ou rupture du long biceps;Test de Speed positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test de Speed;"Test de Speed : flexion résistée de l'épaule, coude tendu et paume vers le haut ; positif s'il donne une douleur dans la gouttière bicipitale.";;MSK-044-01
+Épaule;2 Importante;Difficile;Tendinopathie ou rupture du long biceps;Sensibilité de la gouttière bicipitale;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-044-03
+Épaule;3 Complémentaire;Léger;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Ostéolyse : développé couché intensif (plus de 1,5 fois le poids du corps);↑ Augmente;Anamnèse;Base des flashcards;Ostéolyse, développé couché intensif (> 1,5 fois le poids);;;MSK-043-11
+Épaule;3 Complémentaire;Léger;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Ostéolyse : haltérophilie;↑ Augmente;Anamnèse;Base des flashcards;Ostéolyse, haltérophile;;;MSK-043-13
+Épaule;3 Complémentaire;Léger;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Homme actif de 40 à 65 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée E12 (présentation clinique));;;;MSK-EPAU-E12-02
+Épaule;3 Complémentaire;Modéré;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Extension résistée douloureuse;↑ Augmente;Examen physique;Base des flashcards;Extension résistée;;;MSK-043-02
+Épaule;3 Complémentaire;Modéré;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Test d'O'Brien positif;↑ Augmente;Anamnèse;Base des flashcards;O'Brien;"Test d'O'Brien : bras à 90° de flexion et 10° d'adduction, pouce vers le bas, on résiste à l'élévation ; une douleur au sommet de l'épaule évoque l'articulation acromio-claviculaire.";;MSK-043-03
+Épaule;3 Complémentaire;Difficile;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Test d'O'Brien négatif;↔ Neutre;Tests spécifiques;Base des flashcards;O'Brien négatif;;;MSK-043-04
+Épaule;3 Complémentaire;Difficile;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Neer ou arc douloureux positif;↔ Neutre;Anamnèse;Base des flashcards;Neer, arc douloureux;;;MSK-043-05
+Épaule;3 Complémentaire;Difficile;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Tests acromio-claviculaires classiques, en soins primaires;↔ Neutre;Tests spécifiques;Base des flashcards;Tests traditionnels en soins primaires;;;MSK-043-07
+Épaule;3 Complémentaire;Modéré;Arthrose gléno-humérale;Luxation antérieure il y a de nombreuses années;↑ Augmente;Facteurs démographiques;Base des flashcards;Luxation antérieure, suivi de 25 ans;;;MSK-040-04
+Épaule;3 Complémentaire;Modéré;Arthrose gléno-humérale;Stabilisation arthroscopique antérieure;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-040-05
+Épaule;3 Complémentaire;Difficile;Arthrose gléno-humérale;Rotation interne active sous T12;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-040-08
+Épaule;3 Complémentaire;Difficile;Arthrose gléno-humérale;Sexe féminin, obésité;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-040-09
+Épaule;3 Complémentaire;Léger;Capsulite adhésive;Maladie de Dupuytren;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-036-06
+Épaule;3 Complémentaire;Modéré;Capsulite adhésive;Shrug sign absent;↓ Diminue;Anamnèse;Base des flashcards;;Shrug sign : le patient hausse l'épaule pour lever le bras, faute de mouvement de l'articulation gléno-humérale.;;MSK-036-10
+Épaule;3 Complémentaire;Difficile;Capsulite adhésive;Hyperthyroïdie;↔ Neutre;Anamnèse;Base des flashcards;Hypothyroïdie (hyperthyroïdie);;;MSK-036-03
+Épaule;3 Complémentaire;Modéré;Douleur projetée d'origine cervicale (épaule);Arm squeeze test positif;↑ Augmente;Tests spécifiques;Base des flashcards;Arm squeeze test positif;"Arm squeeze test : on serre le milieu du bras ; une douleur plus forte qu'à l'épaule évoque une origine cervicale.";;MSK-045-01
+Épaule;3 Complémentaire;Modéré;Douleur projetée d'origine cervicale (épaule);Centralisation et antécédent de cervicalgie;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-045-02
+Épaule;3 Complémentaire;Modéré;Douleur projetée d'origine cervicale (épaule);Douleur scapulaire précédant la douleur du bras;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-045-06
+Épaule;3 Complémentaire;Difficile;Douleur projetée d'origine cervicale (épaule);Test sensitif dermatomal;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-045-07
+Épaule;3 Complémentaire;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Douleur à l'abduction passive;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-034-14
+Épaule;3 Complémentaire;Léger;Dyskinésie scapulaire;Sportif de lancer ou de bras levé;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-039-01
+Épaule;3 Complémentaire;Léger;Dyskinésie scapulaire;Décollement médial accentué par la flexion ou l'appui au mur;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-039-08
+Épaule;3 Complémentaire;Difficile;Dyskinésie scapulaire;Dyskinésie scapulaire chez un sportif sans douleur;↔ Neutre;Anamnèse;Base des flashcards;Présence chez l'asymptomatique;;;MSK-039-02
+Épaule;3 Complémentaire;Léger;Entorse ou disjonction acromio-claviculaire;Contexte sportif;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-037-03
+Épaule;3 Complémentaire;Difficile;Entorse ou disjonction acromio-claviculaire;Tests acromio-claviculaires (adduction horizontale, O'Brien);↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-037-07
+Épaule;3 Complémentaire;Léger;Épaule du lanceur juvénile;Garçon d'environ 13 ans, lanceur au baseball;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée E18 (épidémiologie));;Épaule du lanceur juvénile : atteinte du cartilage de croissance de l'humérus proximal chez le jeune lanceur.;;MSK-EPAU-E18-01
+Épaule;3 Complémentaire;Difficile;Fracture de l'humérus proximal;Ecchymose humérale absente;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-048-09
+Épaule;3 Complémentaire;Difficile;Fracture de l'humérus proximal;Examen sensitif normal;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-048-10
+Épaule;3 Complémentaire;Léger;Fracture de l'humérus proximal de l'enfant;Enfant de 10 à 14 ans tombé en arrière sur le bras tendu;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E21 (présentation clinique));;;;MSK-EPAU-E21-01
+Épaule;3 Complémentaire;Modéré;Fracture de la clavicule;Échographie positive chez l'enfant;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-049-07
+Épaule;3 Complémentaire;Modéré;Fracture de la clavicule;Échographie négative chez l'enfant;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-049-08
+Épaule;3 Complémentaire;Léger;Fracture de la scapula;Traumatisme à haute énergie;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E20 (présentation clinique));;;;MSK-EPAU-E20-01
+Épaule;3 Complémentaire;Modéré;Fracture pathologique sur kyste osseux essentiel;Fracture du bras après un traumatisme mineur, chez un enfant sans symptôme avant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E23 (présentation clinique));;Kyste osseux essentiel : cavité bénigne remplie de liquide, souvent dans l'humérus proximal de l'enfant, révélée par une fracture.;;MSK-EPAU-E23-01
+Épaule;3 Complémentaire;Modéré;Instabilité postérieure ou multidirectionnelle;Signe du sillon (sulcus) ≥ 2 cm;↑ Augmente;Anamnèse;Base des flashcards;Sulcus ≥ 2 cm;"Signe du sillon (sulcus) : traction vers le bas du bras pendant ; un creux sous l'acromion témoigne d'une laxité inférieure.";;MSK-047-06
+Épaule;3 Complémentaire;Modéré;Instabilité postérieure ou multidirectionnelle;Score de Beighton ≥ 2;↑ Augmente;Tests spécifiques;Base des flashcards;;Score de Beighton : score d'hyperlaxité sur 9 (pouces, auriculaires, coudes, genoux, paumes au sol).;;MSK-047-09
+Épaule;3 Complémentaire;Léger;Lésion SLAP;Claquement ou accrochage de l'épaule;↑ Augmente;Anamnèse;Base des flashcards;Claquement ou accrochage;;;MSK-046-07
+Épaule;3 Complémentaire;Léger;Lésion SLAP;Douleur aux gestes au-dessus de la tête, avec claquement, chez un sportif;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E16 (présentation clinique));;Lésion SLAP : déchirure du bourrelet glénoïdien supérieur, à l'ancrage du long biceps, surtout chez le lanceur.;;MSK-EPAU-E16-01
+Épaule;3 Complémentaire;Difficile;Lésion SLAP;Test d'O'Brien positif;↔ Neutre;Anamnèse;Base des flashcards;O'Brien;;;MSK-046-01
+Épaule;3 Complémentaire;Difficile;Lésion SLAP;Test de Speed positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test de Speed;;;MSK-046-03
+Épaule;3 Complémentaire;Difficile;Lésion SLAP;Lésion SLAP à l'IRM chez un lanceur sans douleur;↔ Neutre;Imagerie;Base des flashcards;SLAP à l'IRM chez le lanceur asymptomatique;;;MSK-046-09
+Épaule;3 Complémentaire;Modéré;Luxation ou instabilité antérieure;Test de surprise (release) positif;↑ Augmente;Tests spécifiques;Base des flashcards;Test de surprise (release);"Test de surprise : on relâche d'un coup la poussée du test de recentrage ; l'appréhension revient.";;MSK-042-05
+Épaule;3 Complémentaire;Modéré;Luxation ou instabilité antérieure;Test de surprise (release) : négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-042-06
+Épaule;3 Complémentaire;Modéré;Luxation ou instabilité antérieure;Tiroir antérieur positif;↑ Augmente;Anamnèse;Base des flashcards;Tiroir antérieur;;;MSK-042-07
+Épaule;3 Complémentaire;Difficile;Luxation ou instabilité antérieure;Test de recentrage : seule la douleur est soulagée;↔ Neutre;Tests spécifiques;Base des flashcards;Critère douleur;;;MSK-042-04
+Épaule;3 Complémentaire;Difficile;Luxation ou instabilité antérieure;Tiroir antérieur négatif;↔ Neutre;Anamnèse;Base des flashcards;Tiroir antérieur négatif;;;MSK-042-08
+Épaule;3 Complémentaire;Difficile;Luxation ou instabilité antérieure;Récidive de luxation : fracture du tubercule majeur associée;↓ Diminue;Évolution temporelle;Base des flashcards;Récidive, fracture du tubercule majeur;;;MSK-042-11
+Épaule;3 Complémentaire;Léger;Myalgie ou douleur non spécifique;Travail mains au-dessus des épaules;↑ Augmente;Réponse aux traitements;Base des flashcards;;;;MSK-035-01
+Épaule;3 Complémentaire;Léger;Myalgie ou douleur non spécifique;Travail à l'ordinateur;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée E2 (épidémiologie));;;;MSK-EPAU-E02-01
+Épaule;3 Complémentaire;Modéré;Myalgie ou douleur non spécifique;Bras levés à 60–90° au moins 2 heures par jour;↑ Augmente;Examen physique;Base des flashcards;Abduction de 60 à 90° au moins 2 h par jour;;;MSK-035-02
+Épaule;3 Complémentaire;Modéré;Myalgie ou douleur non spécifique;Au moins 3 facteurs professionnels ou psychosociaux;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-035-05
+Épaule;3 Complémentaire;Difficile;Myalgie ou douleur non spécifique;Facteurs psychosociaux isolés;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-035-06
+Épaule;3 Complémentaire;Léger;Polymyalgia rheumatica (épaule);Ascendance nord-européenne;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-050-11
+Épaule;3 Complémentaire;Modéré;Polymyalgia rheumatica (épaule);Abduction active limitée à 90° avec mobilité passive presque normale;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-050-06
+Épaule;3 Complémentaire;Difficile;Polymyalgia rheumatica (épaule);Atteinte échographique des deux épaules;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-050-07
+Épaule;3 Complémentaire;Modéré;Rupture transfixiante de la coiffe;Score de Litaker de 4 ou 5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne);↑ Augmente;Facteurs démographiques;Base des flashcards;Score de Litaker 4–5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne);;;MSK-038-12
+Épaule;3 Complémentaire;Modéré;Rupture transfixiante de la coiffe;Score de Litaker de 0 ou 1;↓ Diminue;Facteurs démographiques;Base des flashcards;Score de Litaker 4–5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne) (score 0–1);;;MSK-038-13
+Épaule;3 Complémentaire;Léger;Tendinopathie calcifiante;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-041-02
+Épaule;3 Complémentaire;Modéré;Tendinopathie calcifiante;Douleur sous-acromiale présente;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-041-03
+Épaule;3 Complémentaire;Modéré;Tendinopathie calcifiante;Diabète;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-041-05
+Épaule;3 Complémentaire;Difficile;Tendinopathie calcifiante;Diabète ou dysthyroïdie dans la crise aiguë;↔ Neutre;Facteurs de risque;Base des flashcards;;;;MSK-041-08
+Épaule;3 Complémentaire;Modéré;Tendinopathie ou rupture du long biceps;Test de Yergason positif;↑ Augmente;Tests spécifiques;Base des flashcards;Test de Yergason;"Test de Yergason : coude fléchi à 90°, supination résistée de l'avant-bras ; positif s'il donne une douleur dans la gouttière bicipitale.";;MSK-044-02
+Épaule;3 Complémentaire;Modéré;Tendinopathie ou rupture du long biceps;Pathologie de la coiffe associée;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-044-07
+Épaule;3 Complémentaire;Modéré;Tendinopathie ou rupture du long biceps;Luxation ou rupture complète du long biceps à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;Échographie, luxation ou rupture complète;;;MSK-044-09
+Épaule;3 Complémentaire;Difficile;Tendinopathie ou rupture du long biceps;Speed et gouttière tous deux positifs;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-044-04
+Épaule;4 Pointue (médecine du sport);Modéré;Arthropathie de coiffe / épaule de Milwaukee;Épanchement volumineux et récidivant de l'épaule chez une femme de plus de 70 ans;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée E22 (présentation clinique));;Épaule de Milwaukee : arthropathie destructrice par cristaux, avec rupture massive de la coiffe, chez la femme âgée.;;MSK-EPAU-E22-01
+Épaule;4 Pointue (médecine du sport);Modéré;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Œdème osseux acromio-claviculaire à l'IRM;↑ Augmente;Imagerie;Base des flashcards;Œdème osseux à l'IRM;;;MSK-043-10
+Épaule;4 Pointue (médecine du sport);Modéré;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Ostéolyse : développé couché de faible intensité;↓ Diminue;Anamnèse;Base des flashcards;Faible intensité;;;MSK-043-12
+Épaule;4 Pointue (médecine du sport);Modéré;Dyskinésie scapulaire;Asymétrie dans plusieurs plans;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-039-07
+Épaule;4 Pointue (médecine du sport);Difficile;Dyskinésie scapulaire;Lateral scapular slide test;↔ Neutre;Tests spécifiques;Base des flashcards;;Lateral scapular slide test : on compare, des deux côtés, la distance entre l'omoplate et la colonne, bras le long du corps puis sur les hanches et à 90°.;;MSK-039-05
+Épaule;4 Pointue (médecine du sport);Difficile;Dyskinésie scapulaire;Test d'assistance scapulaire;↔ Neutre;Tests spécifiques;Base des flashcards;;"Test d'assistance scapulaire : l'examinateur aide la bascule de l'omoplate pendant l'élévation du bras ; positif si la douleur diminue.";;MSK-039-06
+Épaule;4 Pointue (médecine du sport);Modéré;Instabilité postérieure ou multidirectionnelle;Test de Kim positif;↑ Augmente;Tests spécifiques;Base des flashcards;Test de Kim;"Test de Kim : bras à 90° de flexion, on pousse l'humérus vers le bas et l'arrière ; positif s'il donne une douleur postérieure.";;MSK-047-03
+Épaule;4 Pointue (médecine du sport);Modéré;Instabilité postérieure ou multidirectionnelle;Jerk test positif;↑ Augmente;Tests spécifiques;Base des flashcards;Jerk test;"Jerk test : bras à 90° de flexion et en rotation interne, on pousse le coude vers l'arrière en adduction ; positif s'il donne un ressaut ou une douleur.";;MSK-047-04
+Épaule;4 Pointue (médecine du sport);Modéré;Instabilité postérieure ou multidirectionnelle;Test de Kim et jerk test tous deux négatifs;↓ Diminue;Anamnèse;Base des flashcards;Kim et jerk négatifs;;;MSK-047-05
+Épaule;4 Pointue (médecine du sport);Difficile;Instabilité postérieure ou multidirectionnelle;Signe du sillon de grade I;↔ Neutre;Anamnèse;Base des flashcards;Sulcus de grade I;;;MSK-047-07
+Épaule;4 Pointue (médecine du sport);Difficile;Instabilité postérieure ou multidirectionnelle;Score de Beighton supérieur à 6;↔ Neutre;Anamnèse;Base des flashcards;Beighton > 6;;;MSK-047-10
+Épaule;4 Pointue (médecine du sport);Modéré;Lésion SLAP;Biceps load II positif;↑ Augmente;Anamnèse;Base des flashcards;Biceps load II;;;MSK-046-05
+Épaule;4 Pointue (médecine du sport);Modéré;Lésion SLAP;Arthro-IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-046-10
+Épaule;4 Pointue (médecine du sport);Modéré;Lésion SLAP;Arthro-IRM négative;↓ Diminue;Imagerie;Base des flashcards;;;;MSK-046-11
+Épaule;4 Pointue (médecine du sport);Difficile;Lésion SLAP;Crank test positif;↔ Neutre;Tests spécifiques;Base des flashcards;Crank test;;;MSK-046-02
+Épaule;4 Pointue (médecine du sport);Difficile;Lésion SLAP;Sensibilité de la gouttière bicipitale;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-046-04
+Épaule;4 Pointue (médecine du sport);Difficile;Lésion SLAP;Dynamic labral shear positif;↔ Neutre;Anamnèse;Base des flashcards;Dynamic labral shear;;;MSK-046-06
+Épaule;4 Pointue (médecine du sport);Difficile;Luxation ou instabilité antérieure;Sulcus et load-and-shift chez le patient éveillé;↔ Neutre;Anamnèse;Base des flashcards;;"Signe du sillon (sulcus) : traction vers le bas du bras pendant ; un creux sous l'acromion témoigne d'une laxité inférieure.";;MSK-042-09
+Épaule;4 Pointue (médecine du sport);Modéré;Polymyalgia rheumatica (épaule);Une épaule et une hanche à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-050-08
+Épaule;4 Pointue (médecine du sport);Modéré;Tendinopathie ou rupture du long biceps;Upper cut test positif;↑ Augmente;Tests spécifiques;Base des flashcards;Upper cut test;"Upper cut test : coude fléchi à 90°, poing fermé, le patient fait un uppercut contre résistance ; positif s'il donne une douleur antérieure.";;MSK-044-05
+Épaule;4 Pointue (médecine du sport);Modéré;Tendinopathie ou rupture du long biceps;Upper cut test négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-044-06
+Épaule;Retirée;;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Moins de 2 critères sur 5;↓ Diminue;Tests spécifiques;Base des flashcards;;;Les 5 critères (Cadogan 2013) ne sont pas précisés dans la source : la carte est impossible à appliquer.;MSK-043-08
+Épaule;Retirée;;Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule;Paxinos et scintigraphie négatifs;↓ Diminue;Anamnèse;Base des flashcards;;;Scintigraphie (imagerie de deuxième ligne) et test de Paxinos, peu utilisés au bureau.;MSK-043-06
+Épaule;Retirée;;Dyskinésie scapulaire;Dyskinésie évidente et symptômes;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (association entre dyskinésie et symptômes), sans sens diagnostique clair.;MSK-039-03
+Épaule;Retirée;;Dyskinésie scapulaire;Risque de douleur future;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée de pronostic (risque de douleur future), contradictoire selon les études, sans sens diagnostique.;MSK-039-04
+Épaule;Retirée;;Fracture de la clavicule;Échographie, autre série pédiatrique;↑ Augmente;Anamnèse;Base des flashcards;;;Doublon de la carte sur l'échographie chez l'enfant (autre série).;MSK-049-09
+Épaule;Retirée;;Fracture de la clavicule;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;"Sens douteux : une radiographie normale (sensibilité 77 %) diminue la probabilité ; la source la compare surtout à l'échographie.";MSK-049-10
+Épaule;Retirée;;Instabilité postérieure ou multidirectionnelle;Luxation après convulsion, direction;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé obscur (direction de la luxation après convulsion), sans sens diagnostique.;MSK-047-02
+Épaule;Retirée;;Instabilité postérieure ou multidirectionnelle;Hyperabduction de Gagey > 105°;↔ Neutre;Examen physique;Base des flashcards;;;Test de Gagey : test de laxité peu utilisé, non discriminant.;MSK-047-08
+Épaule;Retirée;;Lésion SLAP;Claquement ou accrochage (âge);↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (« âge »), carte expérimentale.;MSK-046-08
+Épaule;Retirée;;Luxation ou instabilité antérieure;Récidive chez l'adolescent;↔ Neutre;Facteurs démographiques;Base des flashcards;;;Énoncé confus : la source dit que ni l'âge ni le sexe ne prédisent la récidive chez l'adolescent, qui récidive dans 77 % des cas.;MSK-042-12
+Épaule;Retirée;;Myalgie ou douleur non spécifique;Étiquette diagnostique;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée d'accord entre examinateurs, pas un indice diagnostique.;MSK-035-07
+Épaule;Retirée;;Tendinopathie calcifiante;(incertain) Trouble endocrinien;↑ Augmente;Anamnèse;Base des flashcards;;;Donnée incertaine (série sans groupe témoin) et « trouble endocrinien » trop vague.;MSK-041-06

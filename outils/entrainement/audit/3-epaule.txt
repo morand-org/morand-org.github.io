@@ -1,0 +1,257 @@
+# Audit du quiz, épaule (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+@ msk-epaule EPAU
+= E1 34
+= E10 41
+= E11 42
+= E12 43
+= E14 44
+= E17 43
+= E19 47
+= E2 35
+= E3 36
+= E4 37
+= E5 38
+= E7 48
+= E9 40
+= E16 46
+
+## 34 Douleur sous-acromiale (tendinopathie de la coiffe)
+034-01 1 L
+034-02 1 M
+034-03 2 D | def: Test de Hawkins-Kennedy : épaule et coude fléchis à 90°, on fait une rotation interne forcée ; positif s'il réveille la douleur.
+034-04 2 M
+034-05 2 D | def: Test de Neer : on élève passivement le bras tendu, en rotation interne, l'omoplate stabilisée ; positif s'il réveille la douleur.
+034-06 2 M
+034-07 1 M
+034-08 2 D | e: Test de Jobe positif | def: Test de Jobe (canette vide) : bras à 90° dans le plan de l'omoplate, pouces vers le bas, on résiste à l'élévation ; positif s'il donne douleur ou faiblesse.
+034-09 2 M
+034-10 2 M | e: Moins de 3 tests positifs sur 5 (Neer, Hawkins, arc douloureux, Jobe, rotation externe résistée)
+034-11 2 D
+034-12 2 M | e: Hawkins et Neer tous deux négatifs
+034-13 2 M
+034-14 3 D
++ E1 epi 2 L ↑ demo | Âge de 40 à 60 ans
++ E1 pre 1 L ↑ anam | Douleur à la face latérale du bras (deltoïde) aux gestes au-dessus de la tête
++ E1 pre 1 M ↑ exam | Amplitudes passives de l'épaule préservées
+
+## 38 Rupture transfixiante de la coiffe
+038-01 1 M | def: Signe du retard en rotation externe : coude au corps, on amène l'avant-bras en rotation externe presque maximale ; le patient ne peut pas tenir la position.
+038-02 2 D | e: Signe du retard en rotation externe négatif
+038-03 2 M | e: Retard en rotation interne (sous-scapulaire) | def: Retard en rotation interne : on décolle la main du bas du dos ; le patient ne peut pas la tenir décollée.
+038-04 2 M | e: Retard en rotation interne absent
+038-05 2 M | e: Drop sign (bras qui tombe à 90°) | def: Drop sign : bras amené à 90° d'abduction ; le patient ne peut pas le tenir et le bras tombe.
+038-06 2 D | e: Drop sign négatif
+038-07 1 L
+038-08 1 M
+038-09 1 D
+038-10 2 D
+038-11 2 M
+038-12 3 M | e: Score de Litaker de 4 ou 5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne)
+038-13 3 M | e: Score de Litaker de 0 ou 1
+038-14 2 M
+038-15 1 D | e: Rupture de la coiffe à l'imagerie, prise isolément
++ E5 epi 1 L ↓ demo | Âge de moins de 50 ans
++ E5 pre 1 M ↑ anam | Faiblesse aiguë de l'épaule après une chute ou une luxation, après 60 ans
+
+## 41 Tendinopathie calcifiante
+041-01 2 L
+041-02 3 L
+041-03 3 M
+041-04 2 D | e: Calcification découverte par hasard à la radiographie
+041-05 3 M
+041-06 0 - | r: Donnée incertaine (série sans groupe témoin) et « trouble endocrinien » trop vague.
+041-07 2 L
+041-08 3 D
+
+## 44 Tendinopathie ou rupture du long biceps
+044-01 2 D | e: Test de Speed positif | def: Test de Speed : flexion résistée de l'épaule, coude tendu et paume vers le haut ; positif s'il donne une douleur dans la gouttière bicipitale.
+044-02 3 M | e: Test de Yergason positif | def: Test de Yergason : coude fléchi à 90°, supination résistée de l'avant-bras ; positif s'il donne une douleur dans la gouttière bicipitale.
+044-03 2 D
+044-04 3 D
+044-05 4 M | e: Upper cut test positif | def: Upper cut test : coude fléchi à 90°, poing fermé, le patient fait un uppercut contre résistance ; positif s'il donne une douleur antérieure.
+044-06 4 M
+044-07 3 M
+044-08 2 L | e: Âge plus avancé
+044-09 3 M | e: Luxation ou rupture complète du long biceps à l'échographie
++ E14 pre 1 L ↑ exam | Bosse au bras (signe de Popeye) | def: Signe de Popeye : le ventre du biceps descend vers le coude et forme une bosse, après une rupture du long biceps.
+
+## 35 Myalgie ou douleur non spécifique de l'épaule
+035-01 3 L
+035-02 3 M | e: Bras levés à 60–90° au moins 2 heures par jour
+035-03 2 L
+035-04 2 L
+035-05 3 M
+035-06 3 D
+035-07 0 - | r: Donnée d'accord entre examinateurs, pas un indice diagnostique.
++ E2 epi 3 L ↑ risq | Travail à l'ordinateur
++ E2 exa 2 M ↑ exam | Amplitudes passives préservées, sensibilité musculaire localisée
+
+## 39 Dyskinésie scapulaire
+039-01 3 L
+039-02 3 D | e: Dyskinésie scapulaire chez un sportif sans douleur
+039-03 0 - | r: Énoncé confus (association entre dyskinésie et symptômes), sans sens diagnostique clair.
+039-04 0 - | r: Donnée de pronostic (risque de douleur future), contradictoire selon les études, sans sens diagnostique.
+039-05 4 D | def: Lateral scapular slide test : on compare, des deux côtés, la distance entre l'omoplate et la colonne, bras le long du corps puis sur les hanches et à 90°.
+039-06 4 D | def: Test d'assistance scapulaire : l'examinateur aide la bascule de l'omoplate pendant l'élévation du bras ; positif si la douleur diminue.
+039-07 4 M
+039-08 3 L
+
+## 45 Douleur projetée d'origine cervicale
+045-01 3 M | e: Arm squeeze test positif | def: Arm squeeze test : on serre le milieu du bras ; une douleur plus forte qu'à l'épaule évoque une origine cervicale.
+045-02 3 M
+045-03 2 M
+045-04 1 L
+045-05 1 M
+045-06 3 M
+045-07 3 D
+045-08 2 D
+
+## 36 Capsulite adhésive
+036-01 1 L
+036-02 2 L
+036-03 3 D | e: Hyperthyroïdie
+036-04 2 L
+036-05 1 L
+036-06 3 L
+036-07 2 L
+036-08 1 L
+036-09 1 L
+036-10 3 M | def: Shrug sign : le patient hausse l'épaule pour lever le bras, faute de mouvement de l'articulation gléno-humérale.
+036-11 2 M
++ E3 pre 1 L ↑ anam | Douleur nocturne profonde suivie d'une raideur progressive
++ E3 exa 1 M ↑ exam | Rotation externe passive réduite de plus de la moitié par rapport à l'autre côté
+
+## 40 Arthrose gléno-humérale
+040-01 1 L
+040-02 1 L | e: Âge de plus de 70 ans
+040-03 2 L
+040-04 3 M | e: Luxation antérieure il y a de nombreuses années
+040-05 3 M
+040-06 2 M
+040-07 2 M | e: Rotation externe passive < 30°
+040-08 3 D
+040-09 3 D
+040-10 2 D
++ E9 pre 2 L ↑ exam | Crépitation (frottement) à la mobilisation
++ E9 exa 1 M ↑ exam | Perte globale d'amplitude, surtout de la rotation externe passive
+
+## 37 Entorse ou disjonction acromio-claviculaire
+037-01 1 L
+037-02 2 L
+037-03 3 L
+037-04 2 L
+037-05 2 L
+037-06 2 L | e: Clavicule distale saillante (marche d'escalier, touche de piano)
+037-07 3 D
++ E4 epi 2 L ↑ risq | Chute à vélo
+
+## 43 Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule
+043-01 2 M | e: Adduction horizontale (cross-body) douloureuse
+043-02 3 M | e: Extension résistée douloureuse
+043-03 3 M | e: Test d'O'Brien positif | def: Test d'O'Brien : bras à 90° de flexion et 10° d'adduction, pouce vers le bas, on résiste à l'élévation ; une douleur au sommet de l'épaule évoque l'articulation acromio-claviculaire.
+043-04 3 D | e: Test d'O'Brien négatif
+043-05 3 D | e: Neer ou arc douloureux positif
+043-06 0 - | r: Scintigraphie (imagerie de deuxième ligne) et test de Paxinos, peu utilisés au bureau.
+043-07 3 D | e: Tests acromio-claviculaires classiques, en soins primaires
+043-08 0 - | r: Les 5 critères (Cadogan 2013) ne sont pas précisés dans la source : la carte est impossible à appliquer.
+043-09 2 D
+043-10 4 M | e: Œdème osseux acromio-claviculaire à l'IRM
+043-11 3 L | e: Ostéolyse : développé couché intensif (plus de 1,5 fois le poids du corps)
+043-12 4 M | e: Ostéolyse : développé couché de faible intensité
+043-13 3 L | e: Ostéolyse : haltérophilie
++ E12 pre 1 L ↑ anam | Douleur au sommet de l'épaule
++ E12 pre 3 L ↑ demo | Homme actif de 40 à 65 ans
++ E17 pre 2 L ↑ anam | Douleur acromio-claviculaire au développé-couché, aux dips et aux pompes, sans traumatisme
+
+## 42 Luxation ou instabilité antérieure
+042-01 1 M | e: Test d'appréhension : appréhension (et non simple douleur) | def: Test d'appréhension : bras en abduction de 90° et en rotation externe ; le patient craint que l'épaule se luxe.
+042-02 2 D | e: Test d'appréhension : douleur seulement, sans appréhension
+042-03 2 M | e: Test de recentrage (relocation) : appréhension soulagée | def: Test de recentrage : pendant le test d'appréhension, une poussée vers l'arrière sur la tête humérale fait disparaître l'appréhension.
+042-04 3 D | e: Test de recentrage : seule la douleur est soulagée
+042-05 3 M | e: Test de surprise (release) positif | def: Test de surprise : on relâche d'un coup la poussée du test de recentrage ; l'appréhension revient.
+042-06 3 M
+042-07 3 M | e: Tiroir antérieur positif
+042-08 3 D | e: Tiroir antérieur négatif
+042-09 4 D | def: Signe du sillon (sulcus) : traction vers le bas du bras pendant ; un creux sous l'acromion témoigne d'une laxité inférieure.
+042-10 1 L | e: Récidive de luxation : âge de 40 ans ou moins
+042-11 3 D | e: Récidive de luxation : fracture du tubercule majeur associée
+042-12 0 - | r: Énoncé confus : la source dit que ni l'âge ni le sexe ne prédisent la récidive chez l'adolescent, qui récidive dans 77 % des cas.
++ E11 epi 1 L ↑ demo | Homme de 20 ans ou moins
++ E11 pre 1 L ↑ anam | Traumatisme en abduction et rotation externe forcées
+
+## 46 Lésion SLAP
+046-01 3 D | e: Test d'O'Brien positif
+046-02 4 D | e: Crank test positif
+046-03 3 D | e: Test de Speed positif
+046-04 4 D
+046-05 4 M | e: Biceps load II positif
+046-06 4 D | e: Dynamic labral shear positif
+046-07 3 L | e: Claquement ou accrochage de l'épaule
+046-08 0 - | r: Énoncé confus (« âge »), carte expérimentale.
+046-09 3 D | e: Lésion SLAP à l'IRM chez un lanceur sans douleur
+046-10 4 M
+046-11 4 M
++ E16 pre 3 L ↑ anam | Douleur aux gestes au-dessus de la tête, avec claquement, chez un sportif | def: Lésion SLAP : déchirure du bourrelet glénoïdien supérieur, à l'ancrage du long biceps, surtout chez le lanceur.
+
+## 47 Instabilité postérieure ou multidirectionnelle
+047-01 1 L | e: Luxation après une crise convulsive
+047-02 0 - | r: Énoncé obscur (direction de la luxation après convulsion), sans sens diagnostique.
+047-03 4 M | e: Test de Kim positif | def: Test de Kim : bras à 90° de flexion, on pousse l'humérus vers le bas et l'arrière ; positif s'il donne une douleur postérieure.
+047-04 4 M | e: Jerk test positif | def: Jerk test : bras à 90° de flexion et en rotation interne, on pousse le coude vers l'arrière en adduction ; positif s'il donne un ressaut ou une douleur.
+047-05 4 M | e: Test de Kim et jerk test tous deux négatifs
+047-06 3 M | e: Signe du sillon (sulcus) ≥ 2 cm | def: Signe du sillon (sulcus) : traction vers le bas du bras pendant ; un creux sous l'acromion témoigne d'une laxité inférieure.
+047-07 4 D | e: Signe du sillon de grade I
+047-08 0 - | r: Test de Gagey : test de laxité peu utilisé, non discriminant.
+047-09 3 M | def: Score de Beighton : score d'hyperlaxité sur 9 (pouces, auriculaires, coudes, genoux, paumes au sol).
+047-10 4 D | e: Score de Beighton supérieur à 6
+047-11 2 D | e: Radiographie de face normale
++ E19 epi 2 L ↑ anam | Électrisation
++ E19 pre 1 M ↑ exam | Bras bloqué en rotation interne
++ E19 exa 1 M ↑ exam | Perte de la rotation externe passive après un traumatisme
+
+## 48 Fracture de l'humérus proximal
+048-01 1 L
+048-02 1 L
+048-03 1 L
+048-04 2 L
+048-05 2 L
+048-06 2 M
+048-07 2 M
+048-08 2 L
+048-09 3 D
+048-10 3 D
++ E7 pre 2 L ↑ exam | Ecchymose qui descend au bras et au thorax
+
+## 49 Fracture de la clavicule
+049-01 2 L
+049-02 2 L
+049-03 1 L
+049-04 2 M
+049-05 2 L | e: Douleur au tiers moyen de la clavicule
+049-06 1 L
+049-07 3 M
+049-08 3 M
+049-09 0 - | r: Doublon de la carte sur l'échographie chez l'enfant (autre série).
+049-10 0 - | r: Sens douteux : une radiographie normale (sensibilité 77 %) diminue la probabilité ; la source la compare surtout à l'échographie.
+
+## 50 Polymyalgia rheumatica
+050-01 1 L
+050-02 1 L
+050-03 2 M | e: Score EULAR/ACR 2012 de 4 ou plus | def: Critères EULAR/ACR 2012 : raideur matinale > 45 minutes, douleur ou limitation des hanches, facteur rhumatoïde et anti-CCP négatifs, aucune autre atteinte articulaire ; un score de 4 ou plus sur 6 classe la maladie.
+050-04 1 M
+050-05 2 D
+050-06 3 M
+050-07 3 D
+050-08 4 M
+050-09 2 M
+050-10 2 M
+050-11 3 L
+
+## Diagnostics des fiches sans carte jusqu'ici
++ E18 epi 3 L ↑ demo | Garçon d'environ 13 ans, lanceur au baseball | def: Épaule du lanceur juvénile : atteinte du cartilage de croissance de l'humérus proximal chez le jeune lanceur.
++ E20 pre 3 L ↑ anam | Traumatisme à haute énergie
++ E21 pre 3 L ↑ anam | Enfant de 10 à 14 ans tombé en arrière sur le bras tendu
++ E22 pre 4 M ↑ anam | Épanchement volumineux et récidivant de l'épaule chez une femme de plus de 70 ans | def: Épaule de Milwaukee : arthropathie destructrice par cristaux, avec rupture massive de la coiffe, chez la femme âgée.
++ E23 pre 3 M ↑ anam | Fracture du bras après un traumatisme mineur, chez un enfant sans symptôme avant | def: Kyste osseux essentiel : cavité bénigne remplie de liquide, souvent dans l'humérus proximal de l'enfant, révélée par une fracture.
