@@ -54,7 +54,7 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .lo-compte:not(:empty) { min-width: 20px; padding: 1px 6px; border-radius: 999px; background: var(--or-fond); color: var(--or-texte); font-size: 0.72rem; font-weight: 700; text-align: center; }
 .lo-compte[data-etat="vide"] { background: transparent; border: 1px dashed var(--filet); color: var(--discret); font-weight: 600; }
 .lo-compte[data-etat="complet"] { color: var(--ok); }
-.lo-nouveau { flex: none; margin-left: auto; min-height: 40px; padding: 8px 16px; border: 1px solid var(--encre); border-radius: 999px; background: var(--encre); color: var(--papier);
+.lo-nouveau { flex: none; min-height: 40px; padding: 8px 16px; border: 1px solid var(--encre); border-radius: 999px; background: var(--encre); color: var(--papier);
   font: 500 0.86rem/1.3 var(--sans); cursor: pointer; white-space: nowrap; }
 .lo-nouveau:hover { background: var(--or-texte); border-color: var(--or-texte); }
 :is(.lo-nav a, .lo-nouveau):focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
@@ -62,14 +62,16 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 /* Grille : questionnaire à gauche, résultats collés à droite sur grand écran. */
 .lo-grille { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; margin-top: 18px; }
 @media (min-width: 1100px) {
-  .lo-grille { grid-template-columns: minmax(0, 1fr) 420px; align-items: start; }
+  .lo-grille { grid-template-columns: minmax(0, 1.2fr) minmax(400px, 1fr); align-items: start; }
   .lo-resultats { position: sticky; top: 76px; max-height: calc(100vh - 92px); overflow-y: auto; overscroll-behavior: contain; }
 }
 
 /* Questionnaire : des cartes comme celles du CRDS. */
 .lo-form { display: grid; gap: 14px; min-width: 0; }
-.lo-legende { display: flex; align-items: flex-start; gap: 10px; margin: 12px 0 0; padding: 0 2px; font-size: 0.84rem; line-height: 1.65; color: var(--discret); }
-.lo-legende::before { content: ""; flex: none; align-self: stretch; width: 3px; min-height: 18px; margin: 4px 0; border-radius: 2px; background: var(--or); }
+.lo-legende { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4px 18px; max-width: 900px; margin: 14px auto 0; padding: 0 8px;
+  text-align: center; font-size: 0.84rem; line-height: 1.6; color: var(--discret); }
+.lo-legende > span:first-child > strong::before { content: ""; display: inline-block; width: 3px; height: 1.05em; margin-right: 7px; border-radius: 2px; background: var(--or); vertical-align: -0.17em; }
+.lo-legende-statuts { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 6px; }
 .lo-legende strong { color: var(--encre-2); font-weight: 600; }
 .lo-section { min-width: 0; padding: 18px 20px 6px; border: 1px solid var(--filet); border-radius: 16px; background: var(--carte); }
 .lo-section h2 { margin: 0 0 4px; font: 400 1.3rem/1.2 var(--serif); }
@@ -198,8 +200,11 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .lo-c-bloc { margin: 10px 0 2px; font: 600 0.72rem/1.3 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--or-texte); }
 .lo-c-bloc + ul { margin-top: 2px; }
 .lo-atlas { margin: 4px auto 12px; max-width: 420px; text-align: center; }
-.lo-atlas.lo-atlas-image { max-width: 620px; }
-.lo-atlas-image svg { border-radius: 14px; background: #fff; }
+.lo-atlas.lo-atlas-image { max-width: 580px; margin: 10px auto 14px; padding: 14px 14px 10px; border: 1px solid var(--or); border-radius: 18px; background: var(--carte);
+  box-shadow: inset 0 0 0 6px var(--carte), inset 0 0 0 7px var(--or); }
+.lo-atlas-image svg { border-radius: 11px; background: #fff; }
+.lo-atlas-image .lo-atlas-cote, .lo-atlas-image .lo-atlas-vue { fill: var(--or-texte); }
+.lo-atlas-image figcaption { margin-top: 8px; font: italic 400 0.88rem/1.45 var(--serif); color: var(--encre-2); }
 .lo-atlas-image .lo-zone { stroke-width: 3.5; stroke-dasharray: 7 6; }
 .lo-atlas-image .lo-atlas-cote { font-size: 30px; }
 .lo-atlas-image .lo-atlas-vue { font-size: 22px; letter-spacing: 0.12em; }
@@ -295,7 +300,7 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 }
 .cr-vue[aria-current="page"] { background: var(--encre); color: var(--papier); }
 .lo-regions-nav { display: flex; }
-@media (min-width: 760px) { .lo-nav { flex-wrap: wrap; overflow: visible; } }
+@media (min-width: 760px) { .lo-nav { flex-wrap: wrap; justify-content: center; overflow: visible; } }
 
 /* Bouton « i » (pâle) et panneau d'information sous la question */
 .lo-q-tete { display: flex; align-items: center; gap: 8px; }
