@@ -87,6 +87,7 @@ button.en-mode:disabled { cursor: default; opacity: 0.6; }
 .en-diag { margin: 0 0 14px; font: 600 clamp(1.35rem, 5.6vw, 1.85rem)/1.15 var(--en-titre); color: var(--en-cypres-fonce); text-wrap: balance; }
 .en-trouvaille { padding: 14px 0; margin: 0 0 12px; border-top: 1px solid var(--en-filet); border-bottom: 1px solid var(--en-filet); }
 .en-enonce { margin: 0; font: 500 1.08rem/1.45 var(--sans); color: var(--en-encre-2); }
+.en-definition { margin: 8px 0 0; font-size: 0.84rem; line-height: 1.5; color: var(--en-sur); }
 .en-statut { padding: 1px 7px; border-radius: 999px; background: var(--en-papier-2); letter-spacing: 0.08em; }
 .en-statut[data-statut="validee"] { background: var(--en-vert-doux); color: var(--en-cypres-fonce); }
 .en-statut[data-statut="experimentale"], .en-statut[data-statut="signalee"] { background: var(--en-carmin-doux); color: var(--en-carmin); }
@@ -133,7 +134,9 @@ body:not([data-mode="libre"]) .en-retour .en-explication { display: -webkit-box;
 .en-outils-carte { margin: 8px 0 0; }
 .en-lien { padding: 0; border: none; background: none; color: var(--en-cypres-fonce); font: 600 0.84rem/1.4 var(--sans); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
 .en-ed-carte { margin: 10px 0 0; padding: 8px 10px; border: 1px dashed var(--en-cypres); border-radius: 8px; background: var(--en-papier); }
-.en-ed-boutons { display: flex; gap: 8px; margin: 6px 0; }
+.en-ed-boutons { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0; }
+.en-ed-audit { margin: 4px 0 0; font-size: 0.8rem; line-height: 1.45; color: var(--en-encre-2); }
+.en-ed-retrait { color: var(--en-carmin); }
 .en-ed-boutons [aria-pressed="true"] { background: var(--en-cypres); border-color: var(--en-cypres); color: var(--en-blanc); }
 .en-ed-note { display: grid; gap: 4px; font-size: 0.8rem; color: var(--en-sur); }
 .en-ed-note input { min-height: 36px; padding: 6px 9px; border: 1px solid var(--en-neutre-filet); border-radius: 8px; background: var(--en-papier); color: var(--en-encre); font: inherit; }

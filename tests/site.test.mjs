@@ -615,8 +615,24 @@ async function entrainement(nav) {
     const a = await p.evaluate(() => ({ modes: document.querySelectorAll("#en-accueil .en-mode").length, regions: document.querySelectorAll("#en-region option").length,
       titre: document.title, noindex: document.querySelector('meta[name="robots"]').content, total: document.querySelector("#en-region option").textContent }));
     verifier("Entraînement : accueil (5 modes, 9 régions, page non indexée)", a.modes === 5 && a.regions === 10 && /noindex/.test(a.noindex) && /\d cartes/.test(a.total) && !erreurs.length, { ...a, erreurs });
+    // Audit : les cartes retirées ne comptent pas dans le jeu ; une définition s'affiche sous l'énoncé des termes pointus.
+    const au = await p.evaluate(async () => {
+      const i = await (await fetch("/entrainement/banque/index.json")).json(), c = i.paquets.find(x => x.cle === "msk-cervical");
+      const b = await (await fetch(c.fichier)).json();
+      return { option: document.querySelector('#en-region option[value="msk-cervical"]').textContent, jouables: c.jouables, retirees: b.cartes.filter(x => x.retrait).length,
+        attendues: b.cartes.filter(x => x.statut !== "experimentale" && !x.retrait).length, jugees: b.cartes.filter(x => x.pertinence === undefined).length };
+    });
+    verifier("Entraînement : audit du rachis cervical (cartes retirées hors du jeu, toutes jugées)", au.retirees > 0 && au.jouables === au.attendues && au.option.includes(`(${au.jouables})`) && au.jugees === 0, au);
+    await p.selectOption("#en-region", "msk-cervical"); await p.click('[data-mode="libre"]'); await p.waitForSelector("#en-partie:not([hidden])");
+    let def = "";
+    for (let i = 0; i < 80 && !def; i++) {
+      def = await p.evaluate(() => (document.querySelector("#en-definition").hidden ? "" : document.querySelector("#en-definition").textContent));
+      if (!def) { await p.keyboard.press("2"); await p.waitForSelector(".en-verdict"); await p.click("#en-suivante"); }
+    }
+    verifier("Entraînement : la définition d'un terme pointu s'affiche sous l'énoncé", def.length > 20, def);
+    await p.click("#en-quitter"); await p.click("#en-changer"); await p.selectOption("#en-region", "");
     // Entraînement libre : réponse au clavier, rétroaction, explication, références, passage manuel.
-    await p.click('[data-mode="libre"]'); await p.waitForSelector("#en-partie:not([hidden])");
+    await p.click('button[data-mode="libre"]'); await p.waitForSelector("#en-partie:not([hidden])");
     await p.keyboard.press("1"); await p.waitForSelector(".en-verdict");
     const l = await etatJeu(p);
     const refs = await p.evaluate(() => document.querySelectorAll(".en-refs li").length);
@@ -722,7 +738,7 @@ const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filt
 const nav = await chromium.launch();
 try {
   for (const [nom, f] of Object.entries(SCENARIOS)) { if (choisis.length && !choisis.includes(nom)) continue;
-    try { await f(nav); } catch (e) { echecs++; console.error(`ÉCHEC : ${nom} : déroulement (${String(e).split("\n")[0]})`); } }
+    try { await f(nav); } catch (e) { echecs++; console.error(`ÉCHEC : ${nom} : déroulement (${String(e).split("\n")[0]})`); if (process.env.PILE) console.error(e.stack); } }
   if (!choisis.length || choisis.includes("fichiers")) fichiers();
 } finally { await nav.close(); serveur.close(); }
 console.log(`${reussis} vérifications réussies, ${echecs} échec(s).`);

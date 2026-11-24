@@ -10,6 +10,9 @@
   const sec = ms => `${(ms / 1000).toLocaleString("fr-CA", { maximumFractionDigits: 1, minimumFractionDigits: 1 })} s`;
   const REP = { increase: ["↑", "Augmente"], neutral: ["↔", "Neutre"], decrease: ["↓", "Diminue"] };
   const STATUT = { validee: "Validée", en_revision: "En révision", experimentale: "Expérimentale" };
+  // Audit (outils/entrainement/appliquer-audit.mjs) : pertinence pour le médecin de famille, puis le médecin du sport.
+  const PERTINENCE = { 1: "Essentielle", 2: "Importante", 3: "Complémentaire", 4: "Pointue (médecine du sport)", 0: "Retirée" };
+  const NIVEAU = { 1: "Léger", 2: "Modéré", 3: "Difficile" };
   const MODES = { chrono: "Contre-la-montre", serie: "Série parfaite", libre: "Entraînement libre", defi: "Défi quotidien", erreurs: "Révision des erreurs" };
 
   /* ---------- Préférence : mode éditeur (?editeur=1) ---------- */
@@ -31,7 +34,9 @@
     }
     return paquets[cle];
   }
-  const jouable = c => editeur() || (c.statut !== "experimentale" && (S.decision(c.id) || {}).statut !== "signalee");
+  const remise = c => (S.decision(c.id) || {}).statut === "remise";
+  const auJeu = c => c.statut !== "experimentale" && (!c.retrait || remise(c));
+  const jouable = c => editeur() || (auJeu(c) && (S.decision(c.id) || {}).statut !== "signalee");
   async function cartesDe(cleRegion) {
     const cles = cleRegion ? [cleRegion] : index.paquets.map(p => p.cle);
     return (await Promise.all(cles.map(paquet))).flatMap(d => d.cartes).filter(jouable);
@@ -48,10 +53,11 @@
   const regionDuJour = jour => index.paquets[J.graine(`region-${jour}`) % index.paquets.length];
 
   function accueil() {
-    const sel = $("#en-region"), total = index.paquets.reduce((t, p) => t + p.cartes - (editeur() ? 0 : p.experimentales), 0);
+    const jouablesDe = p => (editeur() ? p.cartes : p.jouables !== undefined ? p.jouables : p.cartes - p.experimentales);
+    const sel = $("#en-region"), total = index.paquets.reduce((t, p) => t + jouablesDe(p), 0);
     if (sel.options.length === 1) {
       sel.options[0].textContent = `Toutes les régions (${total.toLocaleString("fr-CA")} cartes)`;
-      for (const p of index.paquets) sel.add(new Option(`${p.region} (${p.cartes - (editeur() ? 0 : p.experimentales)})`, p.cle));
+      for (const p of index.paquets) sel.add(new Option(`${p.region} (${jouablesDe(p)})`, p.cle));
       sel.value = S.pref("region", "");
       if (sel.selectedIndex < 0) sel.value = "";
     }
@@ -81,7 +87,7 @@
     if (t.reponses) $("#en-progression summary").textContent = `Votre progression · ${t.reponses.toLocaleString("fr-CA")} réponses, ${Math.round((t.bonnes / t.reponses) * 100)} % de réussite`;
     // Mode éditeur.
     const ed = $("#en-editeur"); ed.hidden = !editeur();
-    if (editeur()) { const d = Object.values(S.decisions()); $("#en-editeur-compte").textContent = `${d.filter(x => x.statut === "validee").length} validée(s), ${d.filter(x => x.statut === "signalee").length} signalée(s) ; les cartes expérimentales sont incluses.`; }
+    if (editeur()) { const d = Object.values(S.decisions()); $("#en-editeur-compte").textContent = `${d.filter(x => x.statut === "validee").length} validée(s), ${d.filter(x => x.statut === "signalee").length} signalée(s), ${d.filter(x => x.statut === "remise").length} remise(s) ; les cartes expérimentales et retirées sont incluses.`; }
     compter();
   }
   async function compter() {
@@ -100,7 +106,7 @@
     try {
       if (mode === "defi") {
         const rj = regionDuJour(jour);
-        const toutes = (await paquet(rj.cle)).cartes.filter(c => c.statut !== "experimentale");
+        const toutes = (await paquet(rj.cle)).cartes.filter(c => c.statut !== "experimentale" && !c.retrait);
         ordre = J.tirageDuJour(toutes, jour); cartes = ordre;
       } else if (options.liste) {
         cartes = options.liste; ordre = J.melanger(options.liste, Math.random);
@@ -144,6 +150,7 @@
     else if (conf.mode !== "chrono") $("#en-piste").style.width = "0";
     $("#en-diag").textContent = c.diagnostic.nom;
     $("#en-enonce").textContent = c.enonce;
+    $("#en-definition").textContent = c.definition || ""; $("#en-definition").hidden = !c.definition;
     $("#en-type").textContent = c.type;
     const d = S.decision(c.id), st = d && d.statut === "validee" ? "validee" : c.statut;
     $("#en-statut").textContent = d && d.statut === "signalee" ? "Signalée" : STATUT[st] || "";
@@ -209,7 +216,9 @@
   function editeurHtml(c) {
     const d = S.decision(c.id);
     return `<div class="en-ed-carte" data-carte="${esc(c.id)}"><p class="en-sur">Éditeur · ${esc(c.id)} · ${esc(c.source)}${c.a_relire ? ` · ${esc(c.a_relire)}` : ""}</p>
-      <p class="en-ed-boutons"><button type="button" class="en-btn-sec" data-decider="validee" aria-pressed="${d && d.statut === "validee" ? "true" : "false"}">Valider</button><button type="button" class="en-btn-sec" data-decider="signalee" aria-pressed="${d && d.statut === "signalee" ? "true" : "false"}">Signaler</button></p>
+      ${c.pertinence !== undefined ? `<p class="en-ed-audit">Pertinence : ${esc(PERTINENCE[c.pertinence])} · Niveau : ${esc(NIVEAU[c.difficulte] || "")}${c.origine ? " · Nouvelle carte (source : " + esc(c.source) + ")" : ""}${c.enonce_source ? ` · Énoncé d'origine : « ${esc(c.enonce_source)} »` : ""}</p>` : ""}
+      ${c.retrait ? `<p class="en-ed-audit en-ed-retrait">Retirée du jeu : ${esc(c.retrait)}</p>` : ""}
+      <p class="en-ed-boutons"><button type="button" class="en-btn-sec" data-decider="validee" aria-pressed="${d && d.statut === "validee" ? "true" : "false"}">Valider</button><button type="button" class="en-btn-sec" data-decider="signalee" aria-pressed="${d && d.statut === "signalee" ? "true" : "false"}">Signaler</button>${c.retrait ? `<button type="button" class="en-btn-sec" data-decider="remise" aria-pressed="${d && d.statut === "remise" ? "true" : "false"}">Remettre dans le jeu</button>` : ""}</p>
       <label class="en-ed-note">Correction ou remarque <input type="text" maxlength="300" value="${esc((d && d.note) || "")}" placeholder="Ex. reformuler : « … »"></label></div>`;
   }
 
