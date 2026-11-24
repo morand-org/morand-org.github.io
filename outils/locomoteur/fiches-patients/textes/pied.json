@@ -1,0 +1,1058 @@
+[
+ {
+  "region": "pied",
+  "id": "fasciite",
+  "nom": "Fasciite plantaire (talalgie plantaire)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur sous le talon (fasciite plantaire)",
+  "ce_que_vous_avez": "La bande épaisse qui relie le talon aux orteils sous la plante du pied (le fascia plantaire) est irritée à son attache sur le talon. C'est pourquoi les premiers pas du matin, ou après être resté assis longtemps, font très mal. Même si la radio montre une « épine de Lenoir », c'est le tissu irrité qui cause la douleur, pas l'épine. Les étirements ciblés et le renforcement progressif soulagent la grande majorité des gens, sans chirurgie.",
+  "ce_qui_aide": [
+   "Étirer le dessous du pied avant même de poser le pied par terre le matin, et après être resté assis longtemps.",
+   "Renforcer lentement le mollet et le dessous du pied un jour sur deux.",
+   "Porter des souliers avec un bon amorti et un bon soutien d'arche (au besoin, une semelle de soutien ou une talonnette amortissante du commerce).",
+   "Faire rouler doucement une bouteille d'eau glacée sous l'arche du pied pendant 10 minutes pour soulager la douleur."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Marcher pieds nus sur du carrelage ou du bois dur, surtout le matin.",
+   "Porter des gougounes (sandales plates) ou des souliers plats et très usés.",
+   "Courir ou sauter sur de longues distances tant que les premiers pas du matin sont très douloureux."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Étirement spécifique du fascia plantaire (avant le lever)",
+    "position_de_depart": "Assis au bord du lit, croisez la cheville douloureuse sur l'autre genou.",
+    "mouvement": "Avec la main, attrapez la base des orteils et tirez-les doucement vers votre tibia jusqu'à sentir l'arche du pied se tendre (avec l'autre main, vous pouvez sentir la bande tendue sous le pied). Tenez 10 secondes et relâchez.",
+    "dosage": "10 répétitions de 10 secondes, 3 fois par jour (la première fois avant le premier pas du matin).",
+    "progression": "Maintenez l'habitude chaque jour pendant au moins 8 semaines ; refaites l'étirement avant de vous lever après une longue période assise.",
+    "erreur_frequente": "Oublier de faire l'étirement avant de poser le pied au sol au réveil.",
+    "illustration": "Dessin au trait d'une personne assise croisant un pied sur le genou opposé et tirant doucement les orteils vers elle."
+   },
+   {
+    "nom": "Étirement du mollet contre un mur",
+    "position_de_depart": "Debout face à un mur, le pied douloureux un pas en arrière, pointe du pied vers l'avant, talon collé au sol.",
+    "mouvement": "Avancez doucement les hanches vers le mur, genou arrière tendu, jusqu'à sentir un étirement dans le mollet. Tenez 30 secondes.",
+    "dosage": "3 répétitions, 2 fois par jour.",
+    "progression": "Refaites le même étirement en pliant légèrement le genou arrière (étirement plus bas dans le mollet).",
+    "erreur_frequente": "Décoller le talon du sol ou laisser la cheville s'affaisser vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne debout face à un mur étirant le mollet de la jambe arrière."
+   },
+   {
+    "nom": "Montées lentes sur la pointe du pied sur une marche, serviette sous les orteils",
+    "position_de_depart": "Debout sur le bord d'une marche, l'avant du pied sur la marche et le talon dans le vide, une petite serviette roulée sous les orteils pour les relever, une main sur la rampe ou le mur.",
+    "mouvement": "Sur le pied douloureux (ou sur les deux pieds au début si c'est trop difficile), montez sur la pointe en 3 secondes, tenez 2 secondes en haut, puis redescendez en 3 secondes jusqu'à ce que le talon passe un peu sous le niveau de la marche.",
+    "dosage": "3 séries de 12 répétitions, 1 jour sur 2.",
+    "progression": "Après 2 semaines, ajoutez un sac à dos avec des livres et faites 4 séries de 10 répétitions ; après 4 semaines, alourdissez le sac et faites 5 séries de 8 répétitions. Continuez pendant 3 mois en ajoutant du poids à mesure que vous devenez plus fort.",
+    "erreur_frequente": "Aller trop vite, oublier la serviette roulée sous les orteils ou faire l'exercice tous les jours sans jour de repos.",
+    "illustration": "Dessin au trait d'un pied nu sur le bord d'une marche, les orteils posés sur une petite serviette roulée, montant lentement sur la pointe."
+   }
+  ],
+  "duree_habituelle": "Amélioration notable en 6 à 12 semaines dans la plupart des cas ; la guérison complète prend souvent plusieurs mois, parfois jusqu'à un an ou plus.",
+  "quand_reconsulter": [
+   "Engourdissements, brûlures ou picotements sous le pied (nerf coincé à vérifier).",
+   "Douleur constante la nuit ou au repos, qui ne change pas avec la position.",
+   "Douleur vive en serrant les côtés du talon, surtout après une augmentation récente de la course ou de la marche (fracture de fatigue du calcanéus à vérifier).",
+   "Claquement soudain sous le pied suivi d'un bleu et d'une difficulté à marcher (déchirure du fascia à vérifier).",
+   "Douleur aux deux talons avec raideur du dos le matin ou d'autres articulations enflées (rhumatisme inflammatoire à vérifier).",
+   "Aucune amélioration après 3 mois d'exercices réguliers."
+  ],
+  "references": [
+   {
+    "texte": "Koc TA Jr et al., J Orthop Sports Phys Ther, 2023",
+    "doi_ou_pmid": "PMID: 38037331"
+   },
+   {
+    "texte": "Rathleff MS et al., Scand J Med Sci Sports, 2015",
+    "doi_ou_pmid": "PMID: 25145882"
+   },
+   {
+    "texte": "DiGiovanni BF et al., J Bone Joint Surg Am, 2003",
+    "doi_ou_pmid": "PMID: 12851352"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "hallux_valgus",
+  "nom": "Hallux valgus",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Déviation du gros orteil (« oignon » / hallux valgus)",
+  "ce_que_vous_avez": "Votre gros orteil dévie vers les autres orteils, tandis que l'os situé juste derrière lui (le premier métatarsien) s'écarte vers le bord intérieur du pied. La tête de cet os forme une bosse (« oignon ») qui frotte dans les chaussures. Les exercices et les chaussures larges ne redressent pas l'os dévié, mais ils diminuent souvent la douleur et rendent la marche plus confortable.",
+  "ce_qui_aide": [
+   "Choisir des chaussures larges à l'avant-pied, en cuir ou en tissu souple, sans talon haut.",
+   "Mettre un petit coussinet en silicone sur la bosse si le soulier frotte ; un écarteur d'orteils souple entre le gros orteil et le 2ᵉ orteil peut aussi soulager s'il est confortable.",
+   "Renforcer les petits muscles du pied et du gros orteil.",
+   "Si ce n'est pas douloureux, marcher pieds nus à la maison sur une surface confortable pour faire travailler le pied (à éviter si vous êtes diabétique ou si vous avez une perte de sensibilité des pieds)."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Porter des souliers à bout pointu ou étroit qui écrasent les orteils.",
+   "Porter des talons hauts (ils reportent le poids sur l'avant du pied et poussent les orteils dans le bout du soulier).",
+   "Forcer la correction avec une attelle rigide qui fait mal."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Écartement du gros orteil (orteils en éventail)",
+    "position_de_depart": "Assis, pieds nus posés à plat au sol, talon et avant-pied bien appuyés.",
+    "mouvement": "Soulevez tous les orteils et écartez-les en éventail. Reposez ensuite le petit orteil vers l'extérieur, puis le gros orteil vers l'intérieur (en l'éloignant du 2ᵉ orteil). Tenez 5 secondes. Aidez-vous des doigts au début pour apprendre le mouvement.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Faites le mouvement sans l'aide des doigts, puis debout.",
+    "erreur_frequente": "Crisper la cheville, décoller le talon ou recroqueviller les orteils.",
+    "illustration": "Dessin au trait d'un pied nu posé au sol avec une flèche écartant le gros orteil des autres orteils."
+   },
+   {
+    "nom": "Activation de l'arche du pied (pied court)",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Sans recroqueviller les orteils, rapprochez doucement la base du gros orteil du talon pour creuser légèrement la voûte plantaire (le pied « raccourcit »). Tenez 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites cet exercice debout, puis en appui sur un seul pied.",
+    "erreur_frequente": "Griffer les orteils ou soulever le gros orteil du sol.",
+    "illustration": "Dessin au trait d'un pied nu au sol soulevant doucement sa voûte plantaire."
+   },
+   {
+    "nom": "Montées sur la pointe des pieds, gros orteil aligné",
+    "position_de_depart": "Debout pieds nus, pieds parallèles, mains en appui sur un mur ou un comptoir, gros orteils écartés le plus droit possible (un écarteur d'orteils peut aider).",
+    "mouvement": "Montez lentement sur la pointe des deux pieds en 2 secondes, en gardant le poids réparti sous la base du gros orteil et du 2ᵉ orteil, puis redescendez en 3 secondes.",
+    "dosage": "2 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez à 3 séries, puis faites l'exercice sur un seul pied si c'est confortable.",
+    "erreur_frequente": "Laisser les chevilles rouler vers l'extérieur ou le gros orteil se coller contre le 2ᵉ orteil.",
+    "illustration": "Dessin au trait de deux pieds nus vus de face montant sur la pointe, gros orteils bien alignés."
+   }
+  ],
+  "duree_habituelle": "Les chaussures larges soulagent souvent le frottement en quelques jours ; le confort s'améliore en général en 8 à 12 semaines d'exercices réguliers. La bosse elle-même ne disparaît pas.",
+  "quand_reconsulter": [
+   "Peau rouge, chaude, ouverte ou infectée sur la bosse de l'oignon.",
+   "Douleur importante qui empêche de se chausser ou de marcher malgré des chaussures larges (pour discuter d'orthèses ou d'un avis chirurgical).",
+   "Engourdissements dans le gros orteil.",
+   "Deuxième orteil qui commence à chevaucher le gros orteil ou à passer dessous."
+  ],
+  "references": [
+   {
+    "texte": "Hurn SE et al., Arthritis Care Res (Hoboken), 2022",
+    "doi_ou_pmid": "PMID: 33768721"
+   },
+   {
+    "texte": "Glasoe WM, J Orthop Sports Phys Ther, 2016",
+    "doi_ou_pmid": "PMID: 27266887"
+   },
+   {
+    "texte": "Abdalbary SA, J Am Podiatr Med Assoc, 2018",
+    "doi_ou_pmid": "PMID: 29683337"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "orteils",
+  "nom": "Déformation des orteils latéraux ou bunionette",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Orteils en griffe, en marteau ou bosse du petit orteil (bunionette)",
+  "ce_que_vous_avez": "Un ou plusieurs petits orteils sont recourbés (en marteau ou en griffe), ou la base du petit orteil forme une bosse sensible sur le bord externe du pied (bunionette). Des chaussures spacieuses et des protections en silicone soulagent le frottement. Si l'orteil est encore souple, des exercices doux aident à garder sa souplesse ; ils ne redressent pas un orteil déjà raide. Pour la bosse du petit orteil, ce sont surtout la chaussure large et les protections qui soulagent.",
+  "ce_qui_aide": [
+   "Porter des chaussures hautes et larges à l'avant-pied pour que rien ne frotte sur les orteils ni sur la bosse.",
+   "Protéger les zones de frottement avec des capuchons, des coussinets ou des supports en silicone sous les orteils.",
+   "Masser et étirer doucement les orteils encore souples pour garder leur souplesse.",
+   "Renforcer les petits muscles sous le pied."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Porter des chaussures étroites, pointues ou rigides sur le dessus des orteils.",
+   "Couper vous-même des cors épais avec une lame ou utiliser des pansements « coricides » à l'acide (surtout si vous êtes diabétique ou avez une mauvaise circulation).",
+   "Forcer violemment un orteil déjà enraidi."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Étirement manuel doux des orteils (si l'orteil est encore souple)",
+    "position_de_depart": "Assis, pied croisé sur le genou opposé.",
+    "mouvement": "Avec vos doigts, abaissez doucement la base de l'orteil vers la plante du pied tout en dépliant l'articulation du milieu, pour allonger l'orteil sans forcer. Tenez 15 secondes.",
+    "dosage": "5 répétitions par orteil, 2 fois par jour.",
+    "progression": "Tenez 20 secondes, de préférence après un bain de pieds tiède.",
+    "erreur_frequente": "Tirer brutalement sur une articulation raide.",
+    "illustration": "Dessin au trait d'une main redressant doucement les petits orteils du pied croisé sur le genou."
+   },
+   {
+    "nom": "Pianotage des orteils au sol",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Soulevez le gros orteil seul en gardant les 4 petits orteils au sol, puis faites l'inverse (soulevez les 4 petits orteils en gardant le gros orteil au sol).",
+    "dosage": "10 répétitions de chaque, 1 fois par jour.",
+    "progression": "Faites le même exercice debout.",
+    "erreur_frequente": "Recroqueviller les orteils.",
+    "illustration": "Dessin au trait d'un pied nu au sol soulevant les quatre petits orteils tandis que le gros orteil reste au sol."
+   },
+   {
+    "nom": "Appui des orteils allongés au sol",
+    "position_de_depart": "Assis, pieds nus à plat au sol ou sur un tapis.",
+    "mouvement": "En gardant les orteils bien longs et à plat, appuyez doucement leur pulpe dans le sol pendant 5 secondes, comme pour soulever légèrement la base des orteils, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites cet exercice debout, puis terminez par l'étirement doux des orteils.",
+    "erreur_frequente": "Plier le milieu des orteils en griffe pendant l'appui.",
+    "illustration": "Dessin au trait d'un pied nu appuyant doucement les orteils allongés au sol."
+   }
+  ],
+  "duree_habituelle": "Le frottement est souvent soulagé en quelques jours à quelques semaines avec des chaussures adaptées et des protections. La forme de l'orteil ou de la bosse, elle, ne change pas.",
+  "quand_reconsulter": [
+   "Plaie, ulcère, rougeur ou infection sur un orteil (urgent si vous êtes diabétique ou avez une mauvaise circulation).",
+   "Douleur qui empêche de marcher malgré des chaussures larges.",
+   "Orteil qui devient bleu, froid ou très enflé.",
+   "Gêne importante qui persiste, pour discuter de semelles, de soins des cors par un professionnel ou d'un avis chirurgical."
+  ],
+  "references": [
+   {
+    "texte": "Darcel V, Piclet-Legré B, Orthop Traumatol Surg Res, 2023",
+    "doi_ou_pmid": "PMID: 36942795"
+   },
+   {
+    "texte": "Shirzad K et al., J Am Acad Orthop Surg, 2011",
+    "doi_ou_pmid": "PMID: 21807918"
+   },
+   {
+    "texte": "Shi GG et al., J Am Acad Orthop Surg, 2018",
+    "doi_ou_pmid": "PMID: 30130354"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "arthrose_mp",
+  "nom": "Arthrose du médio-pied",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Arthrose du milieu du pied (médio-pied)",
+  "ce_que_vous_avez": "Les petites articulations du milieu du pied ont de l'usure du cartilage. Cela donne une douleur sur le dessus du pied quand vous marchez ou poussez sur l'avant-pied, parfois avec une petite bosse osseuse. L'arthrose ne disparaît pas, mais des chaussures à semelle rigide, une semelle de soutien et des exercices doux diminuent souvent bien la douleur.",
+  "ce_qui_aide": [
+   "Porter des chaussures à semelle épaisse et peu souple, idéalement arrondie à l'avant (type chaussure de randonnée ou espadrille à semelle rigide), qui plient peu au milieu du pied.",
+   "Ne pas serrer les lacets sur la bosse du dessus du pied (sauter un œillet au niveau de la bosse).",
+   "Utiliser une semelle de soutien d'arche ou une semelle rigide pleine longueur si elle vous a été conseillée.",
+   "Bouger doucement le pied chaque matin pour chasser la raideur."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Marcher pieds nus ou en souliers très mous et flexibles.",
+   "Serrer fort les lacets directement sur le dessus du pied douloureux.",
+   "Courir ou sauter sur des surfaces dures."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Mobilité douce de la cheville et des orteils",
+    "position_de_depart": "Assis jambes allongées ou au bord du lit.",
+    "mouvement": "Faites de petits cercles lents avec la cheville et bougez les orteils vers le haut et vers le bas, sans tordre le milieu du pied.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Gardez cette routine chaque matin, sans forcer.",
+    "erreur_frequente": "Tordre fort le milieu du pied avec les mains.",
+    "illustration": "Dessin au trait d'une personne assise faisant de petits cercles lents avec le pied."
+   },
+   {
+    "nom": "Activation de l'arche du pied (pied court)",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Sans recroqueviller les orteils, rapprochez doucement la base du gros orteil du talon pour creuser légèrement la voûte plantaire. Tenez 5 secondes et relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites l'exercice debout.",
+    "erreur_frequente": "Crisper ou griffer les orteils.",
+    "illustration": "Dessin au trait d'un pied nu soulevant doucement sa voûte plantaire."
+   },
+   {
+    "nom": "Étirement doux du mollet",
+    "position_de_depart": "Debout face à un mur, en souliers, jambe atteinte un pas en arrière, talon au sol.",
+    "mouvement": "Avancez doucement les hanches jusqu'à sentir un étirement léger dans le mollet. Tenez 20 secondes.",
+    "dosage": "3 répétitions, 1 fois par jour.",
+    "progression": "Tenez 30 secondes.",
+    "erreur_frequente": "Laisser l'arche du pied s'affaisser vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne étirant doucement le mollet contre un mur."
+   }
+  ],
+  "duree_habituelle": "Amélioration du confort en 4 à 8 semaines avec des chaussures rigides adaptées ; elle peut se poursuivre pendant 3 à 6 mois.",
+  "quand_reconsulter": [
+   "Pied qui devient rouge, chaud et enflé : consultez le jour même, et sans attendre si vous êtes diabétique ou avez une perte de sensibilité des pieds, même sans douleur ni fièvre.",
+   "Douleur soudaine après une torsion ou une chute, surtout avec un bleu sous la plante du pied (lésion de Lisfranc à écarter).",
+   "Douleur qui empêche de marcher dans la maison.",
+   "Engourdissements ou picotements sur le dessus du pied ou entre le gros orteil et le 2ᵉ orteil."
+  ],
+  "references": [
+   {
+    "texte": "Rao S et al., J Orthop Sports Phys Ther, 2009",
+    "doi_ou_pmid": "PMID: 19574663"
+   },
+   {
+    "texte": "Halstead J et al., Clin Rheumatol, 2016",
+    "doi_ou_pmid": "PMID: 25917211"
+   },
+   {
+    "texte": "Lim PQX et al., Rheumatol Int, 2023",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "hallux_rigidus",
+  "nom": "Hallux rigidus",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Arthrose et raideur du gros orteil (hallux rigidus)",
+  "ce_que_vous_avez": "L'articulation à la base du gros orteil a de l'arthrose et devient raide, ce qui fait mal quand le gros orteil plie vers le haut au moment de pousser à la marche. Une bosse osseuse peut apparaître sur le dessus. Des chaussures à semelle rigide et arrondie à l'avant, ou une semelle adaptée, limitent ce mouvement douloureux à chaque pas.",
+  "ce_qui_aide": [
+   "Porter des chaussures à semelle rigide et arrondie à l'avant (semelle « à bascule ») pour que le gros orteil n'ait pas à plier fort en marchant ; habituez-vous-y graduellement.",
+   "Utiliser une semelle orthopédique ou une plaque rigide sous le gros orteil si elle vous a été conseillée.",
+   "Choisir des souliers assez profonds pour que la bosse sur le dessus du gros orteil ne frotte pas.",
+   "Mettre de la glace 10 minutes si l'articulation est enflée après une marche.",
+   "Bouger doucement le gros orteil sans forcer le pincement sur le dessus."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Marcher pieds nus ou en souliers très souples qui font plier fort les orteils, ou porter des talons hauts.",
+   "Faire des fentes, des pompes sur les orteils ou s'accroupir sur la pointe des pieds.",
+   "Forcer le gros orteil vers le haut dans une douleur aiguë."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Décompression et mobilité douce du gros orteil",
+    "position_de_depart": "Assis, cheville croisée sur l'autre genou.",
+    "mouvement": "Tenez le gros orteil entre le pouce et l'index, tirez très doucement dans l'axe pour décompresser l'articulation, puis bougez-le doucement vers le bas et un peu vers le haut, en vous arrêtant avant le pincement.",
+    "dosage": "10 mouvements lents, 2 fois par jour.",
+    "progression": "Gardez la mobilité confortable ; ne cherchez pas à gagner de l'amplitude en forçant.",
+    "erreur_frequente": "Plier le gros orteil fort vers le haut sur la bosse.",
+    "illustration": "Dessin au trait d'une main tenant doucement le gros orteil pour le mobiliser sans forcer."
+   },
+   {
+    "nom": "Pression douce du gros orteil au sol",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Appuyez doucement la pulpe du gros orteil dans le sol (sans le plier en griffe) pendant 5 secondes, puis relâchez.",
+    "dosage": "10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Faites cet exercice debout.",
+    "erreur_frequente": "Crisper la cheville ou griffer l'orteil.",
+    "illustration": "Dessin au trait d'un pied nu au sol appuyant doucement le gros orteil vers le bas."
+   },
+   {
+    "nom": "Activation de l'arche du pied (pied court)",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Sans recroqueviller les orteils, creusez légèrement la voûte plantaire pendant 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites l'exercice debout.",
+    "erreur_frequente": "Soulever le gros orteil du sol.",
+    "illustration": "Dessin au trait d'un pied nu soulevant doucement la voûte plantaire."
+   }
+  ],
+  "duree_habituelle": "Amélioration du confort en 4 à 12 semaines avec des chaussures à semelle rigide ou une semelle adaptée. L'arthrose reste présente, mais la douleur se contrôle souvent bien.",
+  "quand_reconsulter": [
+   "Gros orteil soudainement rouge, très chaud, très enflé et douloureux (crise de goutte ou infection à écarter).",
+   "Douleur qui empêche de marcher malgré des chaussures à semelle rigide.",
+   "Frottement créant une plaie sur la bosse.",
+   "Gros orteil qui se bloque ou raideur qui s'aggrave, ou aucune amélioration après 12 semaines (pour discuter d'une infiltration ou d'un avis chirurgical)."
+  ],
+  "references": [
+   {
+    "texte": "Munteanu SE et al., Cochrane Database Syst Rev, 2024",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Menz HB et al., Arthritis Care Res (Hoboken), 2016",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Shamus J et al., J Orthop Sports Phys Ther, 2004",
+    "doi_ou_pmid": "PMID: 15296364"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "metatarsalgie",
+  "nom": "Métatarsalgie ou lésion de la plaque plantaire",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur sous l'avant du pied (métatarsalgie)",
+  "ce_que_vous_avez": "Les coussins et les petites articulations sous l'avant du pied (juste avant les orteils) reçoivent trop de pression et sont irrités. Parfois, le petit ligament situé sous la base d'un orteil (la plaque plantaire) est étiré ou abîmé. De bonnes chaussures amortissantes, un petit coussinet placé juste derrière la zone douloureuse et le renforcement des orteils soulagent le plus souvent cette région.",
+  "ce_qui_aide": [
+   "Porter des souliers larges à semelle épaisse et amortissante, idéalement rigide et arrondie à l'avant, sans talon haut.",
+   "Placer un petit coussinet métatarsien juste en arrière de la zone douloureuse (jamais directement dessous) pour décharger l'avant-pied.",
+   "Assouplir le mollet s'il est raide (un mollet raide augmente la pression sur l'avant-pied).",
+   "Renforcer les muscles qui plient les orteils vers le bas.",
+   "Si une atteinte de la plaque plantaire est soupçonnée : porter le bandage (taping) qui maintient l'orteil légèrement abaissé, comme on vous l'a montré."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Marcher pieds nus sur des planchers durs ou porter des talons hauts.",
+   "Faire des sauts, des sprints ou des montées hautes sur la pointe des pieds si cela fait mal sous les orteils.",
+   "Tirer les orteils fort vers le haut."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Étirement doux du mollet contre un mur",
+    "position_de_depart": "Debout face à un mur, en souliers, le pied atteint un pas en arrière, talon au sol.",
+    "mouvement": "Avancez doucement les hanches vers le mur pour sentir un étirement dans le mollet. Tenez 30 secondes.",
+    "dosage": "3 répétitions, 2 fois par jour.",
+    "progression": "Faites aussi l'étirement avec le genou arrière légèrement plié.",
+    "erreur_frequente": "Décoller le talon du sol.",
+    "illustration": "Dessin au trait d'une personne étirant doucement le mollet face à un mur."
+   },
+   {
+    "nom": "Pression des orteils au sol (sans les griffer)",
+    "position_de_depart": "Assis, pieds nus à plat sur un tapis mou.",
+    "mouvement": "Appuyez doucement la pulpe des 5 orteils vers le bas dans le tapis pendant 5 secondes en gardant les orteils allongés, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites cet exercice debout.",
+    "erreur_frequente": "Plier le milieu des orteils en griffe.",
+    "illustration": "Dessin au trait d'un pied nu appuyant doucement les orteils allongés sur un tapis."
+   },
+   {
+    "nom": "Ramassage d'une serviette avec les orteils",
+    "position_de_depart": "Assis, pieds nus sur une petite serviette, talon au sol.",
+    "mouvement": "Agrippez doucement la serviette avec vos orteils pour la tirer vers vous, puis relâchez.",
+    "dosage": "1 à 2 minutes par pied, 3 fois par semaine.",
+    "progression": "Augmentez doucement la durée, puis posez un petit objet léger sur la serviette.",
+    "erreur_frequente": "Forcer dans une douleur vive sous l'avant-pied.",
+    "illustration": "Dessin au trait d'un pied nu agrippant une serviette au sol."
+   }
+  ],
+  "duree_habituelle": "Amélioration habituelle en 4 à 8 semaines pour une simple surcharge de l'avant-pied ; plusieurs mois si la plaque plantaire est atteinte.",
+  "quand_reconsulter": [
+   "Un orteil qui se met à pointer vers le haut, qui ne touche plus le sol ou qui s'écarte de son voisin (déchirure de la plaque plantaire à vérifier).",
+   "Douleur osseuse précise et enflure sur le dessus d'un os du pied, surtout après une augmentation de l'activité (fracture de fatigue à écarter).",
+   "Décharges électriques ou engourdissements entre deux orteils.",
+   "Aucune amélioration après 6 à 8 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Espinosa N et al., Foot Ankle Int, 2008",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Kang JH et al., BMC Musculoskelet Disord, 2006",
+    "doi_ou_pmid": "PMID: 17147793"
+   },
+   {
+    "texte": "Kinter CW, Hodgkins CW, Sports Health, 2020",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "goutte",
+  "nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)",
+  "applicable": false,
+  "raison_si_non": "Crise inflammatoire aiguë de goutte nécessitant d'abord un traitement médical anti-inflammatoire rapide (colchicine, anti-inflammatoire ou cortisone, selon l'avis du médecin) et le repos du gros orteil ; les mouvements reprennent naturellement lorsque la douleur se calme. Un traitement de fond pour abaisser l'acide urique sera discuté avec le médecin selon le cas."
+ },
+ {
+  "region": "pied",
+  "id": "fracture",
+  "nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)",
+  "applicable": false,
+  "raison_si_non": "Fracture nécessitant d'abord une protection adaptée à l'os atteint (chaussure à semelle rigide ou botte de marche, syndactylie pour un orteil, parfois plâtre sans appui ou chirurgie pour certaines fractures de la base du 5ᵉ métatarsien) et un suivi médical ; les exercices débutent sur feu vert du médecin, une fois la guérison osseuse suffisante."
+ },
+ {
+  "region": "pied",
+  "id": "morton",
+  "nom": "Névrome de Morton",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Nerf irrité entre deux orteils (névrome de Morton)",
+  "ce_que_vous_avez": "Un petit nerf qui passe entre les os de l'avant-pied (le plus souvent entre le 3ᵉ et le 4ᵉ orteil) est irrité et épaissi à l'endroit où il se fait pincer entre les têtes des os. Les chaussures étroites ou à talons hauts aggravent les symptômes. Cela donne l'impression d'avoir un caillou dans le soulier, ou une brûlure et des picotements vers les orteils. Élargir les chaussures et décharger l'avant-pied soulagent une bonne partie des gens ; si ce n'est pas suffisant, d'autres traitements existent (semelle sur mesure, infiltration).",
+  "ce_qui_aide": [
+   "Porter des chaussures larges à l'avant-pied, à semelle amortissante et sans talon haut.",
+   "Placer un petit coussinet métatarsien juste en arrière de la zone douloureuse (jamais directement dessous) pour écarter les os et décharger le nerf.",
+   "Enlever le soulier et masser doucement l'avant-pied quand la douleur survient.",
+   "Faire des exercices doux d'ouverture des orteils et d'assouplissement du mollet, pour le confort."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Porter des souliers étroits, pointus ou à talons hauts.",
+   "Serrer fort les lacets sur l'avant du pied.",
+   "Courir ou marcher longtemps dans des chaussures serrées ou à semelle mince."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, sans augmenter la brûlure ni les picotements dans les orteils.",
+  "exercices": [
+   {
+    "nom": "Ouverture et écartement doux des orteils",
+    "position_de_depart": "Assis, pieds nus au sol (ou pied posé sur l'autre genou).",
+    "mouvement": "Écartez doucement tous les orteils les uns des autres en éventail (vous pouvez glisser vos doigts entre les orteils pour les espacer doucement). Tenez 15 à 30 secondes.",
+    "dosage": "5 répétitions, 2 fois par jour.",
+    "progression": "Essayez d'écarter les orteils activement, sans les mains.",
+    "erreur_frequente": "Appuyer fort sur le point douloureux sous la plante du pied.",
+    "illustration": "Dessin au trait d'un pied nu avec les orteils doucement écartés en éventail."
+   },
+   {
+    "nom": "Étirement doux du mollet",
+    "position_de_depart": "Debout face à un mur, en souliers, jambe atteinte un pas en arrière, talon au sol.",
+    "mouvement": "Avancez doucement les hanches jusqu'à sentir un étirement léger dans le mollet. Tenez 20 secondes.",
+    "dosage": "3 répétitions, 2 fois par jour.",
+    "progression": "Tenez 30 secondes.",
+    "erreur_frequente": "Décoller le talon du sol.",
+    "illustration": "Dessin au trait d'une personne étirant doucement le mollet contre un mur."
+   },
+   {
+    "nom": "Activation de l'arche du pied (pied court)",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Sans griffer les orteils, creusez doucement la voûte plantaire pendant 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites l'exercice debout.",
+    "erreur_frequente": "Serrer ou griffer les orteils.",
+    "illustration": "Dessin au trait d'un pied nu soulevant doucement son arche."
+   }
+  ],
+  "duree_habituelle": "Quand le changement de chaussures et le coussinet suffisent, l'amélioration se fait sentir en 4 à 8 semaines.",
+  "quand_reconsulter": [
+   "Brûlures ou décharges électriques intenses qui ne passent pas malgré des chaussures larges.",
+   "Engourdissement permanent de deux orteils.",
+   "Douleur qui empêche la marche simple.",
+   "Aucune amélioration après 6 à 8 semaines (pour discuter d'une semelle sur mesure ou d'une infiltration)."
+  ],
+  "references": [
+   {
+    "texte": "Matthews BG et al., Cochrane Database Syst Rev, 2024",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Thomson CE et al., J Bone Joint Surg Am, 2013",
+    "doi_ou_pmid": "PMID: 23636185"
+   },
+   {
+    "texte": "Bennett GL et al., Foot Ankle Int, 1995",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "ff_mt",
+  "nom": "Fracture de stress métatarsienne (ou d'insuffisance)",
+  "applicable": false,
+  "raison_si_non": "Fracture de fatigue d'un os du pied nécessitant d'abord l'arrêt des impacts et le port d'une chaussure à semelle rigide ou d'une botte de marche (appui permis selon la douleur) jusqu'à la guérison confirmée par le médecin ; les fractures situées à la base du 2ᵉ ou du 5ᵉ métatarsien, plus à risque de mal guérir, demandent un avis spécialisé rapide."
+ },
+ {
+  "region": "pied",
+  "id": "ff_navic",
+  "nom": "Fracture de stress du naviculaire",
+  "applicable": false,
+  "raison_si_non": "Fracture de stress à haut risque de mauvaise guérison nécessitant d'abord une mise en décharge stricte, sans poser le pied au sol (béquilles avec plâtre ou botte), pendant environ 6 semaines et une évaluation rapide en orthopédie ou en médecine du sport."
+ },
+ {
+  "region": "pied",
+  "id": "ff_calc",
+  "nom": "Fracture de stress du calcanéus",
+  "applicable": false,
+  "raison_si_non": "Fracture de fatigue de l'os du talon nécessitant d'abord l'arrêt complet des impacts (course, sauts) pendant plusieurs semaines, avec talonnette amortissante, botte de marche ou béquilles si la marche est douloureuse, selon l'avis médical, jusqu'à la guérison de l'os."
+ },
+ {
+  "region": "pied",
+  "id": "lisfranc",
+  "nom": "Lésion de Lisfranc (entorse ou fracture du médio-pied)",
+  "applicable": false,
+  "raison_si_non": "Lésion sérieuse des articulations du milieu du pied pouvant compromettre la stabilité de la voûte plantaire et nécessitant d'abord une immobilisation sans appui (béquilles) et une évaluation orthopédique rapide, parfois une chirurgie, avant toute réadaptation."
+ },
+ {
+  "region": "pied",
+  "id": "turf_toe",
+  "nom": "Turf toe (entorse de la plaque plantaire de l'hallux)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Entorse sous la base du gros orteil (turf toe)",
+  "ce_que_vous_avez": "Les tissus situés sous la base du gros orteil ont été étirés lorsque l'orteil a été plié trop loin vers le haut (souvent au sport, sur gazon synthétique). Cette fiche s'adresse aux entorses légères à modérées, une fois l'examen fait. Après une courte période de protection avec une chaussure à semelle rigide qui empêche l'orteil de trop plier, des exercices doux redonnent force et souplesse.",
+  "ce_qui_aide": [
+   "Porter dès le début une chaussure à semelle rigide ou une plaque rigide glissée sous la semelle, pour limiter le relèvement du gros orteil.",
+   "Mettre de la glace 10 à 15 minutes sous la base du gros orteil les premiers jours et surélever le pied.",
+   "Ajouter un bandage (taping) qui maintient le gros orteil légèrement vers le bas seulement une fois l'enflure des premiers jours diminuée, sans serrer.",
+   "Commencer les mouvements doux vers le bas après 3 à 5 jours, quand l'enflure et la douleur aiguë se calment.",
+   "Renforcer les muscles du pied avant de reprendre la course et les sprints."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Tirer ou plier le gros orteil vers le haut (extension forcée) dans les premières semaines.",
+   "Courir, faire des fentes ou pousser sur la pointe des pieds trop tôt.",
+   "Marcher pieds nus ou en souliers très souples.",
+   "Serrer un bandage autour d'un orteil encore très enflé (risque de couper la circulation)."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Flexion douce du gros orteil vers le bas (sans extension forcée)",
+    "position_de_depart": "Assis, cheville posée sur l'autre genou.",
+    "mouvement": "Pliez doucement le gros orteil vers le bas (vers la plante du pied), puis revenez en position droite, sans aller vers le haut.",
+    "dosage": "10 répétitions lentes, 2 fois par jour.",
+    "progression": "Passez à l'appui doux au sol dès que la marche avec semelle rigide est sans douleur.",
+    "erreur_frequente": "Relever le gros orteil loin vers le haut.",
+    "illustration": "Dessin au trait d'un pied avec une flèche pliant doucement le gros orteil vers le bas."
+   },
+   {
+    "nom": "Pression douce du gros orteil au sol",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Appuyez doucement le gros orteil dans le sol pendant 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour, dès que l'enflure et la douleur ont diminué (souvent après 1 à 2 semaines).",
+    "progression": "Faites cet exercice debout sur les deux pieds.",
+    "erreur_frequente": "Pousser trop fort et réveiller la douleur sous l'orteil.",
+    "illustration": "Dessin au trait d'un pied nu au sol appuyant doucement le gros orteil vers le bas."
+   },
+   {
+    "nom": "Ramassage d'une serviette avec les orteils",
+    "position_de_depart": "Assis, pieds nus sur une petite serviette, talon au sol.",
+    "mouvement": "Agrippez doucement la serviette avec les orteils, puis relâchez.",
+    "dosage": "1 à 2 minutes par pied, 3 fois par semaine.",
+    "progression": "En phase avancée, ajoutez des montées douces sur la pointe des pieds en chaussure rigide, puis reprenez la course graduellement lorsque relever le gros orteil et pousser sur la pointe ne font plus mal.",
+    "erreur_frequente": "Plier le gros orteil vers le haut.",
+    "illustration": "Dessin au trait d'un pied nu agrippant une serviette au sol."
+   }
+  ],
+  "duree_habituelle": "Entorse légère : reprise graduelle en quelques jours à 2 semaines. Entorse modérée : 2 à 4 semaines ou plus. Une déchirure complète demande 2 à 4 mois et un suivi spécialisé.",
+  "quand_reconsulter": [
+   "Incapacité de plier le gros orteil vers le bas, gros orteil instable ou qui se déboîte.",
+   "Bleu ou enflure importants qui ne diminuent pas, ou douleur osseuse précise sur les deux petits os sous le gros orteil.",
+   "Douleur persistante ou incapacité de trottiner sans douleur après 3 semaines.",
+   "Instabilité ou douleur lors de la reprise du sport."
+  ],
+  "references": [
+   {
+    "texte": "McCormick JJ, Anderson RB, Sports Health, 2010",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Gupta A et al., Curr Rev Musculoskelet Med, 2023",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "sesamoide",
+  "nom": "Sésamoïdite ou fracture du sésamoïde",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur sous le coussin du gros orteil (sésamoïdite)",
+  "ce_que_vous_avez": "Deux tout petits os ronds (les sésamoïdes) situés juste sous l'articulation du gros orteil sont irrités par des appuis répétés (course, danse, talons hauts). Une fois qu'une fracture a été écartée, décharger ce point précis avec un coussinet et des chaussures à semelle rigide permet à l'irritation de se calmer. La guérison est souvent lente : la patience fait partie du traitement.",
+  "ce_qui_aide": [
+   "Utiliser une semelle creusée ou un coussinet découpé (en forme de J ou de beigne) pour enlever la pression sous la base du gros orteil.",
+   "Porter des chaussures à semelle épaisse, rigide et arrondie à l'avant, sans talon haut.",
+   "Mettre de la glace 10 à 15 minutes sous la base du gros orteil après la marche.",
+   "Assouplir le mollet pour éviter de trop appuyer sur l'avant-pied."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Marcher pieds nus sur des surfaces dures ou porter des talons hauts.",
+   "Faire des sauts, des sprints ou des montées sur la pointe des pieds.",
+   "Plier le gros orteil fort vers le haut."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Étirement doux du mollet contre un mur",
+    "position_de_depart": "Debout face à un mur, en souliers, jambe atteinte un pas en arrière, talon au sol.",
+    "mouvement": "Avancez doucement les hanches jusqu'à sentir un étirement léger dans le mollet, en gardant le poids sur le talon, pas sur le gros orteil. Tenez 20 secondes.",
+    "dosage": "3 répétitions, 2 fois par jour.",
+    "progression": "Tenez 30 secondes.",
+    "erreur_frequente": "Appuyer fort sous le gros orteil.",
+    "illustration": "Dessin au trait d'une personne étirant doucement le mollet face à un mur."
+   },
+   {
+    "nom": "Mobilité douce du gros orteil vers le bas",
+    "position_de_depart": "Assis, pied croisé sur le genou opposé.",
+    "mouvement": "Pliez doucement le gros orteil vers le bas avec les doigts, puis revenez en position droite, sans appuyer sur les deux petits os du dessous.",
+    "dosage": "10 répétitions lentes, 2 fois par jour.",
+    "progression": "Gardez la souplesse sans douleur.",
+    "erreur_frequente": "Tirer le gros orteil loin vers le haut.",
+    "illustration": "Dessin au trait d'une main pliant doucement le gros orteil vers le bas."
+   },
+   {
+    "nom": "Activation de l'arche du pied sans appui fort sous le gros orteil",
+    "position_de_depart": "Assis, pieds nus sur un tapis mou.",
+    "mouvement": "Creusez doucement la voûte plantaire pendant 5 secondes, sans écraser la base du gros orteil, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites cet exercice debout, sur la semelle de décharge.",
+    "erreur_frequente": "Crisper les orteils.",
+    "illustration": "Dessin au trait d'un pied nu soulevant doucement l'arche du pied."
+   }
+  ],
+  "duree_habituelle": "Amélioration souvent lente : comptez 6 à 12 semaines de décharge, parfois plusieurs mois (2 à 6 mois en cas de fracture de fatigue).",
+  "quand_reconsulter": [
+   "Douleur osseuse vive et persistante à chaque pas malgré la décharge (fracture du sésamoïde à vérifier par imagerie ; une botte de marche peut être nécessaire).",
+   "Gonflement rouge et chaud sous le gros orteil.",
+   "Douleur au repos ou la nuit.",
+   "Aucune amélioration après 6 à 8 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Rosenfield JS, Trepman E, Foot Ankle Int, 2000",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Dedmond BT et al., J Am Acad Orthop Surg, 2006",
+    "doi_ou_pmid": "PMID: 17148622"
+   },
+   {
+    "texte": "Robertson GAJ et al., Br Med Bull, 2017",
+    "doi_ou_pmid": "PMID: 28444129"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "charcot",
+  "nom": "Pied de Charcot (neuro-ostéoarthropathie)",
+  "applicable": false,
+  "raison_si_non": "Urgence du pied, le plus souvent chez une personne diabétique ayant perdu de la sensibilité, nécessitant une immobilisation immédiate dans un plâtre de contact total ou une botte haute (jusqu'au genou) non amovible, avec le moins d'appui possible (béquilles), jusqu'à la rémission confirmée par l'équipe spécialisée, afin d'éviter l'effondrement des os du pied ; tout exercice en appui est contre-indiqué entre-temps."
+ },
+ {
+  "region": "pied",
+  "id": "synostose",
+  "nom": "Synostose (coalition) du tarse",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Pont entre deux os du pied (coalition du tarse)",
+  "ce_que_vous_avez": "Deux os de l'arrière ou du milieu du pied sont reliés depuis la naissance par un pont anormal (de tissu fibreux, de cartilage ou d'os). Ce pont durcit pendant la croissance, souvent entre 8 et 16 ans : le pied devient alors plus raide sur les terrains inégaux, les tendons se fatiguent et les entorses de cheville sont plus fréquentes. Des semelles de soutien, l'adaptation des activités et le renforcement de la cheville diminuent les douleurs chez une partie des personnes ; lors d'une poussée douloureuse, une botte de marche peut être prescrite pendant quelques semaines.",
+  "ce_qui_aide": [
+   "Porter des chaussures stables avec un bon soutien d'arche, ou des semelles orthopédiques si elles vous ont été conseillées.",
+   "Renforcer les muscles autour de la cheville et travailler l'équilibre.",
+   "Réduire temporairement les sports sur terrains irréguliers lors des poussées douloureuses.",
+   "Mettre de la glace 10 à 15 minutes après le sport si l'arrière du pied est sensible."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Forcer des étirements pour tordre l'arrière-pied (l'articulation est soudée ou très raide : on ne peut pas l'assouplir).",
+   "Marcher pieds nus longtemps ou porter des souliers très mous.",
+   "Ignorer des entorses de cheville répétées."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Montées lentes sur la pointe des pieds",
+    "position_de_depart": "Debout face à un mur, mains en appui.",
+    "mouvement": "Montez lentement sur la pointe des deux pieds en 2 secondes, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 10 à 12 répétitions, 3 fois par semaine.",
+    "progression": "Passez sur un seul pied si c'est confortable.",
+    "erreur_frequente": "Rebondir vite sur les talons.",
+    "illustration": "Dessin au trait d'une personne debout montant sur la pointe des pieds face à un mur."
+   },
+   {
+    "nom": "Renforcement des muscles de la cheville avec élastique",
+    "position_de_depart": "Assis jambes allongées, un élastique autour de l'avant-pied.",
+    "mouvement": "Poussez doucement le pied vers l'extérieur, puis vers l'intérieur, contre l'élastique, dans la petite amplitude disponible et confortable, sans chercher à gagner du mouvement.",
+    "dosage": "3 séries de 10 répétitions dans chaque sens, 3 fois par semaine.",
+    "progression": "Utilisez un élastique légèrement plus ferme.",
+    "erreur_frequente": "Forcer contre le blocage osseux.",
+    "illustration": "Dessin au trait d'une personne assise bougeant le pied contre un élastique."
+   },
+   {
+    "nom": "Équilibre sur une jambe",
+    "position_de_depart": "Debout près d'un mur, pied à plat.",
+    "mouvement": "Tenez-vous en équilibre sur le pied atteint pendant 20 à 30 secondes.",
+    "dosage": "3 répétitions, 1 fois par jour.",
+    "progression": "Tenez 30 secondes en bougeant doucement les bras, puis en fermant les yeux près d'un appui.",
+    "erreur_frequente": "Laisser la cheville se tordre.",
+    "illustration": "Dessin au trait d'une personne en équilibre sur un pied près d'un mur."
+   }
+  ],
+  "duree_habituelle": "Amélioration du confort en 4 à 8 semaines dans les cas légers. On se donne habituellement environ 6 mois de traitement sans chirurgie avant de discuter d'une opération.",
+  "quand_reconsulter": [
+   "Entorses de cheville fréquentes malgré les semelles et les exercices.",
+   "Douleur importante qui empêche le sport ou la marche, ou qui persiste après 3 à 6 mois (avis orthopédique pour discuter des options).",
+   "Spasme musculaire douloureux qui bloque le pied vers l'extérieur.",
+   "Gonflement rouge et chaud."
+  ],
+  "references": [
+   {
+    "texte": "Docquier PL et al., Orthop Traumatol Surg Res, 2019",
+    "doi_ou_pmid": "PMID: 29601967"
+   },
+   {
+    "texte": "Catanzano AA et al., JBJS Rev, 2023",
+    "doi_ou_pmid": "PMID: 37307332"
+   },
+   {
+    "texte": "Lemley F et al., Foot Ankle Int, 2006",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "os_navic",
+  "nom": "Os naviculaire accessoire douloureux",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Petite bosse osseuse sensible à l'intérieur du pied (os naviculaire accessoire)",
+  "ce_que_vous_avez": "Vous avez un petit os supplémentaire (présent chez environ 1 personne sur 10 à 1 sur 6, souvent aux deux pieds) sur le bord interne du milieu du pied, là où s'attache un tendon important (le tibial postérieur). Il peut devenir douloureux à cause du frottement d'une chaussure ou d'un patin, d'un excès d'activité ou après une entorse. Protéger la bosse, soutenir l'arche puis renforcer le tendon aident à calmer la douleur, mais cela prend souvent plusieurs mois.",
+  "ce_qui_aide": [
+   "Protéger la bosse avec un coussinet en mousse découpé autour, ou faire élargir la chaussure ou le patin à cet endroit.",
+   "Porter des souliers avec un bon soutien d'arche (ou des semelles orthopédiques si elles vous ont été conseillées).",
+   "Mettre de la glace 10 à 15 minutes sur la bosse après le sport.",
+   "Lors d'une poussée très douloureuse, porter la botte de marche quelques semaines si elle vous a été prescrite.",
+   "Renforcer le muscle qui soutient l'arche (tibial postérieur) une fois la douleur aiguë calmée."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Porter des patins, des bottes de ski ou des chaussures rigides qui écrasent la bosse interne.",
+   "Marcher pieds nus longtemps sur des surfaces dures.",
+   "Faire les exercices contre résistance ou continuer la course et les sauts quand la bosse élance."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Activation de l'arche du pied (pied court)",
+    "position_de_depart": "Assis, pieds nus à plat au sol.",
+    "mouvement": "Sans griffer les orteils, rapprochez doucement la base du gros orteil du talon pour creuser légèrement l'arche du pied pendant 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites cet exercice debout.",
+    "erreur_frequente": "Griffer les orteils.",
+    "illustration": "Dessin au trait d'un pied nu au sol soulevant doucement son arche."
+   },
+   {
+    "nom": "Inversion douce avec élastique (quand la bosse n'élance plus à la marche)",
+    "position_de_depart": "Assis jambes allongées, un élastique léger autour de l'avant-pied, fixé du côté extérieur.",
+    "mouvement": "Tournez doucement la plante du pied vers l'intérieur contre l'élastique en 2 secondes, puis revenez en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Utilisez un élastique plus ferme si la bosse reste indolore.",
+    "erreur_frequente": "Tourner le genou ou la hanche au lieu du pied.",
+    "illustration": "Dessin au trait d'une personne assise tirant le pied vers l'intérieur avec un élastique."
+   },
+   {
+    "nom": "Montées sur la pointe des pieds, balle entre les talons (quand la bosse n'élance plus)",
+    "position_de_depart": "Debout, mains sur un mur, une balle de tennis serrée entre les talons.",
+    "mouvement": "Montez lentement sur la pointe des pieds en serrant la balle, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez aux montées sur un seul pied.",
+    "erreur_frequente": "Laisser tomber la balle ou laisser la cheville s'affaisser vers l'intérieur.",
+    "illustration": "Dessin au trait de deux pieds vus de dos serrant une balle entre les talons."
+   }
+  ],
+  "duree_habituelle": "Les poussées se calment souvent en 4 à 8 semaines avec la protection de la bosse et le soutien d'arche, mais le soulagement complet prend souvent plusieurs mois.",
+  "quand_reconsulter": [
+   "Douleur aiguë apparue après une entorse et qui ne passe pas (une botte de marche peut être nécessaire).",
+   "Peau rouge ou plaie sur la bosse.",
+   "Arche du pied qui s'affaisse beaucoup.",
+   "Aucune amélioration après 8 à 12 semaines, ou douleur qui limite encore les activités après 3 à 6 mois (avis orthopédique)."
+  ],
+  "references": [
+   {
+    "texte": "Nguyen HB et al., J Pediatr Orthop, 2024",
+    "doi_ou_pmid": "PMID: 38899973"
+   },
+   {
+    "texte": "Stolarz K et al., Surg Radiol Anat, 2024",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Gluck GS et al., Am J Sports Med, 2010",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "freiberg",
+  "nom": "Maladie de Freiberg",
+  "applicable": false,
+  "raison_si_non": "Atteinte de la tête d'un métatarsien (le plus souvent le 2ᵉ), liée à un défaut de vascularisation de l'os, nécessitant d'abord une mise en décharge de l'avant-pied (chaussure à semelle rigide, coussinet ou barre métatarsienne, parfois botte de marche) et une évaluation orthopédique avant toute reprise d'exercices."
+ },
+ {
+  "region": "pied",
+  "id": "iselin",
+  "nom": "Maladie d'Iselin (apophysite de la base du 5ᵉ métatarsien)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur sur la bosse externe du pied chez l'enfant ou l'adolescent (Iselin)",
+  "ce_que_vous_avez": "Chez un jeune en poussée de croissance (souvent entre 9 et 14 ans), le tendon d'un muscle du côté de la jambe tire sur la zone de croissance de l'os situé sur le bord extérieur du pied (la base du 5ᵉ métatarsien). Ce n'est pas une fracture. La douleur se calme avec un peu de repos sportif et des exercices doux, et elle disparaît définitivement lorsque cette zone de croissance se soude.",
+  "ce_qui_aide": [
+   "Réduire les courses, les sauts et les changements de direction pendant 2 à 4 semaines, selon la douleur.",
+   "Mettre de la glace 10 à 15 minutes sur le bord externe du pied après le sport.",
+   "Porter des chaussures confortables qui ne serrent pas le bord externe du pied.",
+   "Si la douleur fait boiter, une botte de marche peut être prescrite pendant quelques semaines.",
+   "Assouplir le mollet, puis renforcer doucement les muscles du côté de la cheville avant la reprise."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Continuer à courir ou à sauter si la douleur fait boiter.",
+   "Porter des souliers à crampons ou des patins trop serrés sur le côté du pied.",
+   "Tirer fort le pied vers l'intérieur."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin et si elle ne fait pas boiter.",
+  "exercices": [
+   {
+    "nom": "Étirement doux du mollet contre un mur",
+    "position_de_depart": "Debout face à un mur, jambe atteinte un pas en arrière, talon au sol.",
+    "mouvement": "Avancez doucement les hanches jusqu'à sentir un étirement léger dans le mollet. Tenez 20 secondes.",
+    "dosage": "3 répétitions, 2 fois par jour.",
+    "progression": "Tenez 30 secondes.",
+    "erreur_frequente": "Décoller le talon du sol.",
+    "illustration": "Dessin au trait d'un adolescent étirant doucement le mollet contre un mur."
+   },
+   {
+    "nom": "Renforcement doux vers l'extérieur avec élastique (quand l'os n'est plus sensible au toucher)",
+    "position_de_depart": "Assis jambes allongées, un élastique léger autour de l'avant-pied, fixé du côté intérieur.",
+    "mouvement": "Poussez doucement le pied vers l'extérieur contre l'élastique en 2 secondes, puis revenez lentement en 3 secondes, sans douleur sur le bord du pied.",
+    "dosage": "2 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez à 3 séries, puis à un élastique un peu plus ferme.",
+    "erreur_frequente": "Commencer trop tôt ou forcer dans la douleur.",
+    "illustration": "Dessin au trait d'un adolescent assis poussant le pied vers l'extérieur contre un élastique."
+   },
+   {
+    "nom": "Équilibre sur une jambe",
+    "position_de_depart": "Debout près d'un mur, pied à plat.",
+    "mouvement": "Tenez-vous en équilibre sur le pied atteint pendant 20 secondes (dès que l'appui au sol est indolore).",
+    "dosage": "3 répétitions, 1 fois par jour.",
+    "progression": "Tenez 30 secondes, puis reprenez graduellement les petits sauts et la course après le feu vert.",
+    "erreur_frequente": "Appuyer uniquement sur le bord extérieur du pied.",
+    "illustration": "Dessin au trait d'un adolescent en équilibre sur un pied près d'un mur."
+   }
+  ],
+  "duree_habituelle": "La douleur se calme habituellement en quelques semaines (souvent 3 à 6) de repos sportif relatif ; elle peut revenir par périodes jusqu'à la fin de la croissance de cet os.",
+  "quand_reconsulter": [
+   "Douleur apparue brutalement après une entorse ou incapacité de marcher (fracture de la base du 5ᵉ métatarsien à écarter).",
+   "Boiterie qui dure plus de 2 semaines malgré le repos sportif.",
+   "Rougeur, chaleur vive ou fièvre.",
+   "Aucune amélioration après 6 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Forrester RA et al., J Foot Ankle Surg, 2017",
+    "doi_ou_pmid": "PMID: 28842092"
+   },
+   {
+    "texte": "Canale ST, Williams KD, J Pediatr Orthop, 1992",
+    "doi_ou_pmid": "PMID: 1732301"
+   },
+   {
+    "texte": "Frush TJ, Lindenfeld TN, Sports Health, 2009",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "sever",
+  "nom": "Maladie de Sever (apophysite calcanéenne)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur au talon chez l'enfant ou l'adolescent (maladie de Sever)",
+  "ce_que_vous_avez": "Pendant une poussée de croissance (souvent entre 8 et 15 ans), le tendon d'Achille tire sur l'arrière de l'os du talon, qui est encore en croissance. Ce n'est pas grave : la douleur peut revenir par périodes, mais elle disparaît lorsque la croissance du talon est terminée. Mettre des talonnettes souples, adapter le sport et assouplir le mollet soulagent bien.",
+  "ce_qui_aide": [
+   "Mettre une petite talonnette amortissante (gel ou mousse, 6 à 8 mm) dans les deux souliers.",
+   "Réduire temporairement les sports avec beaucoup de course et de sauts, selon la douleur ; le vélo et la natation sont de bonnes options en attendant.",
+   "Mettre de la glace 10 à 15 minutes sur le talon après le sport.",
+   "Étirer doucement les mollets et éviter de marcher pieds nus sur le dur."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Courir ou sauter pieds nus ou avec des souliers à crampons usés et sans amorti.",
+   "Continuer le sport si la douleur fait boiter.",
+   "Forcer des étirements douloureux."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin et si elle ne fait pas boiter.",
+  "exercices": [
+   {
+    "nom": "Étirement doux du mollet contre un mur",
+    "position_de_depart": "Debout face à un mur, le pied du talon sensible un pas en arrière, talon collé au sol.",
+    "mouvement": "Avancez doucement les hanches vers le mur jusqu'à sentir un étirement léger dans le mollet (pas une douleur dans le talon). Tenez 20 secondes.",
+    "dosage": "3 répétitions de chaque côté, 2 fois par jour.",
+    "progression": "Faites aussi l'étirement avec le genou arrière légèrement plié.",
+    "erreur_frequente": "Décoller le talon arrière du sol.",
+    "illustration": "Dessin au trait d'un jeune sportif étirant doucement le mollet face à un mur."
+   },
+   {
+    "nom": "Montées douces sur la pointe des pieds sur sol plat",
+    "position_de_depart": "Debout sur sol plat, mains sur un mur.",
+    "mouvement": "Montez doucement sur la pointe des deux pieds en 2 secondes, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez sur un pied à la fois quand le talon n'est plus sensible.",
+    "erreur_frequente": "Rebondir vite sur les talons.",
+    "illustration": "Dessin au trait d'un jeune sportif montant doucement sur la pointe des pieds sur sol plat."
+   },
+   {
+    "nom": "Ramassage d'une serviette avec les orteils",
+    "position_de_depart": "Assis, pieds nus sur une petite serviette au sol.",
+    "mouvement": "Agrippez la serviette avec vos orteils pour la ramener vers vous, puis relâchez.",
+    "dosage": "2 minutes par pied, 3 fois par semaine.",
+    "progression": "Placez un petit objet léger sur la serviette.",
+    "erreur_frequente": "Décoller le talon du sol.",
+    "illustration": "Dessin au trait d'un pied nu agrippant une serviette au sol."
+   }
+  ],
+  "duree_habituelle": "Amélioration en 4 à 8 semaines le plus souvent, avec les talonnettes et l'adaptation du sport ; des rechutes sont possibles jusqu'à la fin de la croissance du talon.",
+  "quand_reconsulter": [
+   "Douleur qui réveille l'enfant la nuit ou qui est présente même au repos.",
+   "Boiterie qui persiste malgré l'arrêt temporaire du sport, ou refus de s'appuyer sur le pied.",
+   "Rougeur, chaleur ou gonflement important du talon, ou fièvre.",
+   "Aucune amélioration après 6 à 8 semaines."
+  ],
+  "references": [
+   {
+    "texte": "James AM et al., Br J Sports Med, 2016",
+    "doi_ou_pmid": "PMID: 26917682"
+   },
+   {
+    "texte": "Wiegerinck JI et al., J Pediatr Orthop, 2016",
+    "doi_ou_pmid": "PMID: 25985369"
+   },
+   {
+    "texte": "Williams CM et al., Cochrane Database Syst Rev, 2026",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ },
+ {
+  "region": "pied",
+  "id": "contusion",
+  "nom": "Contusion ou écrasement du pied",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Coup ou écrasement du pied (contusion)",
+  "ce_que_vous_avez": "Un objet lourd ou un choc a écrasé les tissus mous de votre pied, mais l'examen ou les radiographies ont écarté une fracture. Surélever le pied, appliquer de la glace pour soulager la douleur et bouger tôt les orteils et la cheville aident l'enflure à partir et évitent la raideur.",
+  "ce_qui_aide": [
+   "Surélever le pied plus haut que le cœur au repos les premiers jours pour faire baisser l'enflure.",
+   "Mettre de la glace enveloppée dans un linge 10 à 15 minutes, 3 fois par jour, les premiers jours, pour soulager la douleur.",
+   "Porter une chaussure large, lacée sans serrer sur le bleu.",
+   "Bouger doucement les orteils et la cheville dès le premier jour et marcher un peu, selon la douleur."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Mettre des chaussures étroites qui compriment le bleu.",
+   "Rester debout immobile longtemps ou laisser le pied pendre vers le bas pendant des heures les premiers jours.",
+   "Courir ou sauter tant que le pied est enflé."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "exercices": [
+   {
+    "nom": "Pompe de la cheville et des orteils (jambe surélevée)",
+    "position_de_depart": "Couché ou assis avec le pied posé sur un oreiller.",
+    "mouvement": "Ouvrez et fermez doucement les orteils, puis bougez le pied vers le haut et vers le bas pour aider l'enflure à partir.",
+    "dosage": "15 répétitions, 3 à 4 fois par jour.",
+    "progression": "Ajoutez de grands cercles lents avec la cheville.",
+    "erreur_frequente": "Garder le pied immobile et pendant vers le sol.",
+    "illustration": "Dessin au trait d'une jambe surélevée sur un coussin avec le pied et les orteils qui bougent doucement."
+   },
+   {
+    "nom": "Flexion et extension douces des orteils assis",
+    "position_de_depart": "Assis, pied posé à plat sur un tapis mou.",
+    "mouvement": "Soulevez doucement les orteils vers le haut, puis appuyez-les légèrement au sol, sans douleur vive.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Passez au ramassage d'une serviette avec les orteils dès que le pied dégonfle.",
+    "erreur_frequente": "Forcer dans une douleur aiguë.",
+    "illustration": "Dessin au trait d'un pied posé sur un tapis soulevant doucement les orteils."
+   },
+   {
+    "nom": "Marche progressive sans boiter",
+    "position_de_depart": "Debout avec une chaussure large et confortable.",
+    "mouvement": "Marchez de courtes distances à plat en déroulant bien le pas, sans boiter.",
+    "dosage": "5 à 10 minutes, 2 à 3 fois par jour.",
+    "progression": "Augmentez la durée de marche chaque jour, selon la douleur.",
+    "erreur_frequente": "Marcher sur le bord du pied pour éviter d'appuyer.",
+    "illustration": "Dessin au trait d'une personne marchant calmement avec des chaussures larges."
+   }
+  ],
+  "duree_habituelle": "Guérison habituelle en 1 à 3 semaines (parfois 4 semaines si le bleu est important).",
+  "quand_reconsulter": [
+   "URGENCE : douleur extrême qui augmente malgré le repos et les antidouleurs, pied très tendu et dur, douleur vive quand on bouge les orteils ou engourdissement de la plante du pied (syndrome des loges du pied).",
+   "Orteil qui devient pâle, bleuâtre ou froid.",
+   "Incapacité de faire quelques pas juste après le coup, ou encore après 4 à 5 jours (fracture passée inaperçue ou lésion de Lisfranc à vérifier).",
+   "Bleu qui apparaît sous la plante du pied, même après quelques jours (lésion de Lisfranc à vérifier).",
+   "Ongle noir très douloureux (sang sous l'ongle, qui peut être soulagé par un petit geste et nécessiter une radiographie).",
+   "Signes d'infection si la peau a été coupée (rougeur qui s'étend, pus, fièvre)."
+  ],
+  "references": [
+   {
+    "texte": "Dubois B, Esculier JF, Br J Sports Med, 2020",
+    "doi_ou_pmid": "PMID: 31377722"
+   },
+   {
+    "texte": "Racinais S et al., Br J Sports Med, 2024",
+    "doi_ou_pmid": "PMID: 39237265"
+   },
+   {
+    "texte": "Fulkerson E et al., Foot Ankle Int, 2003",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ]
+ }
+]

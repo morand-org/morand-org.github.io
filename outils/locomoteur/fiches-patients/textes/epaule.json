@@ -1,0 +1,1130 @@
+[
+ {
+  "region": "epaule",
+  "id": "sous_acro",
+  "nom": "Douleur sous-acromiale (tendinopathie de la coiffe des rotateurs)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur aux tendons de l'épaule (coiffe des rotateurs)",
+  "ce_que_vous_avez": "Les tendons qui font bouger et stabilisent votre épaule, appelés la coiffe des rotateurs, sont devenus sensibles et tolèrent moins bien l'effort. C'est la cause la plus fréquente de douleur à l'épaule, surtout quand on lève le bras. Les exercices de renforcement progressifs sont le traitement de premier choix : faits régulièrement pendant plusieurs semaines, ils aident l'épaule à redevenir plus forte et moins douloureuse.",
+  "ce_qui_aide": [
+   "Renforcer progressivement les muscles de l'épaule et du haut du dos.",
+   "Garder le bras actif dans les mouvements confortables de tous les jours.",
+   "Appliquer, selon ce qui vous soulage, de la glace ou de la chaleur enveloppée dans un linge, 10 à 15 minutes.",
+   "Dormir sur le dos ou sur le côté non douloureux, avec un oreiller sous le bras.",
+   "Si la douleur vous empêche de faire les exercices, parler à votre médecin d'une infiltration de cortisone : elle peut soulager pendant quelques semaines, le temps de démarrer le renforcement."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Travailler longtemps avec les bras levés au-dessus de la tête.",
+   "Soulever des charges lourdes avec le bras écarté du corps.",
+   "Dormir écrasé sur l'épaule douloureuse.",
+   "Garder le bras immobile ou en écharpe pendant des jours."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Rotation externe statique contre un mur",
+    "position_de_depart": "Debout de côté près d'un mur, le coude du bras douloureux plié à 90 degrés et collé contre vos côtes (placez une petite serviette roulée entre le coude et le corps).",
+    "mouvement": "Poussez doucement le dos de votre main et de votre poignet vers l'extérieur contre le mur, sans que le bras bouge. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 8 répétitions, 1 fois par jour.",
+    "progression": "Augmentez graduellement la force de poussée, puis passez à l'exercice avec élastique.",
+    "erreur_frequente": "Décoller le coude du corps ou hausser l'épaule vers l'oreille.",
+    "illustration": "Dessin au trait d'une personne debout de profil contre un mur, coude plié à 90 degrés, poussant le dos de la main contre le mur."
+   },
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, le dos droit, les bras détendus le long du corps.",
+    "mouvement": "Tirez doucement les deux omoplates vers l'arrière et légèrement vers le bas. Tenez 5 secondes et relâchez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites le même mouvement en tirant un élastique léger fixé devant vous.",
+    "erreur_frequente": "Cambrer le bas du dos ou monter les épaules.",
+    "illustration": "Dessin au trait d'un dos vu de trois quarts avec des flèches montrant les omoplates qui se rapprochent."
+   },
+   {
+    "nom": "Rotation externe avec élastique",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes (avec une serviette roulée sous le bras), tenant un élastique léger fixé du côté opposé.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant le coude collé au corps, puis revenez en 3 secondes.",
+    "dosage": "3 séries de 10 à 15 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Passez à un élastique plus résistant quand les 3 séries de 15 sont faciles.",
+    "erreur_frequente": "Laisser le coude s'écarter du tronc ou tourner le buste.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique vers l'extérieur en gardant l'avant-bras à l'horizontale et le coude collé."
+   },
+   {
+    "nom": "Élévation des bras glissée sur le mur",
+    "position_de_depart": "Debout face à un mur, les avant-bras posés sur le mur à hauteur de la poitrine, les pouces pointés vers vous.",
+    "mouvement": "Glissez doucement les avant-bras vers le haut du mur en poussant légèrement contre le mur, puis redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Décollez les bras du mur en haut du mouvement, puis faites l'élévation sans mur avec un poids de 0,5 à 1 kg.",
+    "erreur_frequente": "Hausser les épaules vers les oreilles en montant les bras.",
+    "illustration": "Dessin au trait d'une personne face à un mur glissant ses deux avant-bras vers le haut."
+   }
+  ],
+  "duree_habituelle": "L'amélioration apparaît souvent après 6 à 12 semaines d'exercices réguliers. La récupération complète peut prendre plusieurs mois : continuez le programme même si les progrès sont lents.",
+  "quand_reconsulter": [
+   "Rapidement : perte soudaine de la capacité à lever le bras après une chute ou un faux mouvement.",
+   "Douleur nocturne intense qui empêche de dormir malgré les ajustements.",
+   "Engourdissements, picotements ou perte de force qui descendent dans le bras ou la main.",
+   "Aucune amélioration après 8 à 12 semaines d'exercices réguliers.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Pieters L et al., J Orthop Sports Phys Ther, 2020",
+    "doi_ou_pmid": "PMID: 31726927"
+   },
+   {
+    "texte": "Page MJ et al., Cochrane Database Syst Rev, 2016",
+    "doi_ou_pmid": "PMID: 27283590"
+   },
+   {
+    "texte": "Holmgren T et al., BMJ, 2012",
+    "doi_ou_pmid": "PMID: 22349588"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "myalgie",
+  "nom": "Myalgie ou douleur non spécifique",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur musculaire de l'épaule",
+  "ce_que_vous_avez": "Les muscles autour de votre épaule sont tendus, fatigués ou sensibles, souvent après un effort inhabituel, une période de stress ou une posture prolongée. Votre examen n'a pas montré de signe de déchirure importante, de fracture ni d'atteinte de l'articulation. Bouger doucement et renforcer le haut du dos aide les muscles à se relâcher et à mieux tolérer l'effort.",
+  "ce_qui_aide": [
+   "Appliquer de la chaleur enveloppée dans un linge, 15 minutes, pour détendre les muscles.",
+   "Faire de petits mouvements doux et fréquents de l'épaule.",
+   "Changer de position et prendre des pauses régulières si vous travaillez à l'ordinateur ou à la chaîne.",
+   "Rester actif, par exemple avec des marches quotidiennes."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Garder le bras collé au corps par peur de bouger.",
+   "Soulever des charges lourdes à bout de bras.",
+   "Rester longtemps les épaules crispées ou haussées quand vous êtes concentré."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Cercles d'épaules lents",
+    "position_de_depart": "Assis ou debout, les bras pendants et détendus.",
+    "mouvement": "Faites de grands cercles lents avec les épaules, vers l'arrière, en respirant calmement.",
+    "dosage": "2 séries de 10 cercles, 2 à 3 fois par jour.",
+    "progression": "Augmentez doucement l'amplitude des cercles.",
+    "erreur_frequente": "Faire des mouvements rapides et saccadés.",
+    "illustration": "Dessin au trait d'une personne de face faisant des cercles d'épaules vers l'arrière."
+   },
+   {
+    "nom": "Mouvement pendulaire doux",
+    "position_de_depart": "Debout, légèrement penché vers l'avant, une main appuyée sur une table, l'autre bras pendant dans le vide.",
+    "mouvement": "Balancez doucement le corps pour que le bras pendant fasse de petits cercles sans effort musculaire.",
+    "dosage": "1 à 2 minutes, 2 fois par jour.",
+    "progression": "Faites des cercles un peu plus grands si c'est confortable.",
+    "erreur_frequente": "Forcer avec les muscles du bras au lieu de laisser le bras se balancer.",
+    "illustration": "Dessin au trait d'une personne penchée, une main sur une table, laissant l'autre bras se balancer en cercle."
+   },
+   {
+    "nom": "Élévation des bras assistée avec un bâton",
+    "position_de_depart": "Couché sur le dos ou debout, tenant un manche à balai à deux mains.",
+    "mouvement": "Montez les deux bras ensemble vers le haut (le bras sain aide le bras sensible), tenez 2 secondes, puis redescendez doucement.",
+    "dosage": "2 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Faites le mouvement debout, puis sans l'aide du bâton.",
+    "erreur_frequente": "Cambrer le dos pour monter plus haut.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos tenant un bâton à deux mains et le levant au-dessus de la poitrine."
+   },
+   {
+    "nom": "Tirage élastique pour le haut du dos",
+    "position_de_depart": "Debout, tenant un élastique léger à deux mains devant le ventre, coudes pliés près du corps.",
+    "mouvement": "Écartez les mains vers l'extérieur en rapprochant les omoplates, puis revenez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Utilisez un élastique un peu plus résistant quand l'exercice devient facile.",
+    "erreur_frequente": "Hausser les épaules vers les oreilles.",
+    "illustration": "Dessin au trait d'une personne debout écartant un élastique devant le tronc."
+   }
+  ],
+  "duree_habituelle": "La douleur diminue souvent au cours des premières semaines. Il est toutefois fréquent, et normal, que la récupération complète prenne quelques mois.",
+  "quand_reconsulter": [
+   "Douleur qui descend dans le bras avec engourdissements ou perte de force.",
+   "Perte de force ou incapacité de lever le bras après une chute ou un faux mouvement.",
+   "Raideur qui s'installe et empêche de lever le bras.",
+   "Douleur et raideur des deux épaules le matin, perte de poids inexpliquée ou douleur nocturne qui s'aggrave.",
+   "Aucune amélioration après 4 à 6 semaines.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Kuijpers T et al., Pain, 2004",
+    "doi_ou_pmid": "PMID: 15157703"
+   },
+   {
+    "texte": "Smith BE et al., Br J Sports Med, 2017",
+    "doi_ou_pmid": "PMID: 28596288"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "capsulite",
+  "nom": "Capsulite adhésive",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Épaule gelée (capsulite adhésive)",
+  "ce_que_vous_avez": "L'enveloppe qui entoure l'articulation de votre épaule, appelée capsule, est devenue enflammée, puis épaisse et raide. Cela limite vos mouvements dans toutes les directions et fait souvent mal la nuit. La capsulite s'améliore chez la grande majorité des personnes, mais lentement : la douleur diminue d'abord, la mobilité revient ensuite, souvent sur 1 à 3 ans. Une légère raideur peut persister, le plus souvent sans gêne importante.",
+  "ce_qui_aide": [
+   "Adapter les exercices à la phase : mouvements doux sans forcer tant que l'épaule est très douloureuse, puis étirements plus longs quand la douleur au repos diminue.",
+   "Mettre de la chaleur enveloppée dans un linge 15 minutes avant les exercices pour assouplir l'épaule.",
+   "Suivre le traitement proposé par votre médecin pour calmer la douleur : dans la phase douloureuse du début, une infiltration de cortisone dans l'articulation soulage souvent pendant plusieurs semaines à quelques mois.",
+   "Utiliser le bras dans vos gestes quotidiens tolérables.",
+   "Si vous êtes diabétique : la récupération peut être plus lente, et une infiltration de cortisone peut faire monter temporairement la glycémie; parlez-en à votre médecin."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Forcer l'épaule dans une douleur aiguë pour essayer de « casser » la raideur : cela entretient l'inflammation.",
+   "Laisser le bras complètement immobile toute la journée.",
+   "Faire des mouvements brusques ou soulever des charges lourdes."
+  ],
+  "regle_de_douleur": "Tant que l'épaule fait mal au repos ou la nuit, restez dans des mouvements sans douleur ou presque. Quand la douleur au repos a diminué, un inconfort d'étirement jusqu'à 3 sur 10 est acceptable s'il est revenu à son niveau habituel le lendemain matin. Si l'épaule élance pendant des heures après la séance, vous avez trop forcé : réduisez l'amplitude.",
+  "exercices": [
+   {
+    "nom": "Mouvement pendulaire doux",
+    "position_de_depart": "Debout, penché vers l'avant, la main saine appuyée sur une table, le bras raide pendant vers le sol.",
+    "mouvement": "Balancez doucement le tronc pour faire faire de petits cercles au bras détendu.",
+    "dosage": "1 à 2 minutes, 2 à 3 fois par jour.",
+    "progression": "Ajoutez les étirements guidés dès que la douleur au repos diminue.",
+    "erreur_frequente": "Contracter l'épaule au lieu de laisser la gravité détendre le bras.",
+    "illustration": "Dessin au trait d'une personne penchée en appui sur une table, laissant pendre l'autre bras qui fait de petits cercles."
+   },
+   {
+    "nom": "Élévation couchée avec un bâton",
+    "position_de_depart": "Couché sur le dos, genoux pliés, tenant un bâton (ou un manche à balai) à deux mains.",
+    "mouvement": "Avec la force du bras sain, montez lentement le bâton vers le plafond puis au-dessus de la tête jusqu'à sentir un étirement tolérable. Tenez 5 à 10 secondes, puis redescendez.",
+    "dosage": "5 à 8 répétitions, 2 fois par jour.",
+    "progression": "Tenez l'étirement 20 à 30 secondes quand la douleur au repos et la nuit a diminué.",
+    "erreur_frequente": "Forcer au point de creuser le dos ou de déclencher une douleur qui dure des heures.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos poussant un bâton vers le haut avec le bras sain."
+   },
+   {
+    "nom": "Rotation externe avec bâton",
+    "position_de_depart": "Couché sur le dos, les coudes pliés à 90 degrés près du corps, tenant un bâton à deux mains.",
+    "mouvement": "Gardez le coude du côté raide collé au corps et utilisez le bras sain pour pousser doucement l'autre main vers l'extérieur. Tenez 5 à 10 secondes, puis revenez.",
+    "dosage": "5 répétitions, 2 fois par jour.",
+    "progression": "Tenez 20 à 30 secondes quand l'épaule est moins sensible, puis faites l'étirement debout, la main appuyée sur un cadre de porte.",
+    "erreur_frequente": "Laisser le coude s'écarter du corps pour tricher.",
+    "illustration": "Dessin au trait d'une personne couchée, coudes pliés aux côtes, poussant une main vers l'extérieur à l'aide d'un bâton."
+   },
+   {
+    "nom": "Marche des doigts sur le mur",
+    "position_de_depart": "Debout face à un mur, à un demi-bras de distance.",
+    "mouvement": "Faites grimper vos doigts sur le mur aussi haut que possible sans hausser l'épaule. Tenez 5 à 10 secondes en haut, puis redescendez de la même façon.",
+    "dosage": "5 répétitions, 2 fois par jour.",
+    "progression": "Tenez 20 à 30 secondes, puis faites le même exercice de côté par rapport au mur quand l'épaule est moins sensible.",
+    "erreur_frequente": "Hausser l'épaule vers l'oreille ou cambrer le dos.",
+    "illustration": "Dessin au trait d'une personne debout face à un mur grimpant doucement avec les doigts d'une main."
+   }
+  ],
+  "duree_habituelle": "La récupération est longue : amélioration progressive sur plusieurs mois, souvent 1 à 3 ans au total. La douleur s'améliore en premier, la souplesse ensuite.",
+  "quand_reconsulter": [
+   "Douleur insupportable qui ne diminue pas malgré le traitement médical.",
+   "Engourdissements, picotements ou perte de force dans le bras ou la main.",
+   "Aucun progrès après 3 mois de traitement, ou raideur importante qui persiste après 12 à 18 mois : d'autres traitements peuvent être discutés.",
+   "En urgence (911 ou urgences) : épaule rouge, chaude et enflée avec fièvre; ou douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise."
+  ],
+  "references": [
+   {
+    "texte": "Kelley MJ et al., J Orthop Sports Phys Ther, 2013",
+    "doi_ou_pmid": "PMID: 23636125"
+   },
+   {
+    "texte": "Page MJ et al., Cochrane Database Syst Rev, 2014",
+    "doi_ou_pmid": "PMID: 25157702"
+   },
+   {
+    "texte": "Challoumas D et al., JAMA Netw Open, 2020",
+    "doi_ou_pmid": "PMID: 33326025"
+   },
+   {
+    "texte": "Hand C et al., J Shoulder Elbow Surg, 2008",
+    "doi_ou_pmid": "PMID: 17993282"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "ac_entorse",
+  "nom": "Entorse ou disjonction acromio-claviculaire",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Entorse sur le dessus de l'épaule (articulation acromio-claviculaire)",
+  "ce_que_vous_avez": "Une chute ou un choc sur le côté de l'épaule a étiré ou partiellement déchiré les ligaments qui relient la clavicule à l'omoplate, sur le dessus de l'épaule. Pour les entorses légères à modérées (grades I et II), une courte période d'écharpe puis des exercices progressifs permettent une bonne récupération sans chirurgie. Une petite bosse peut rester visible et une sensibilité peut persister quelques mois, le plus souvent sans gêner la fonction.",
+  "ce_qui_aide": [
+   "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, sur le dessus de l'épaule les premiers jours.",
+   "Utiliser une écharpe de confort quelques jours seulement (2 semaines au maximum), puis bouger doucement.",
+   "Renforcer les muscles autour de l'omoplate dès que la douleur baisse.",
+   "Reprendre le sport progressivement quand l'épaule est indolore, mobile et forte."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Croiser le bras devant la poitrine (comme pour attacher la ceinture d'auto) si cela pince.",
+   "Faire des pompes (push-ups), des dips ou du développé couché, et porter des charges lourdes, tant que ces gestes sont douloureux.",
+   "Reprendre les sports de contact avant l'accord du médecin ou du physiothérapeute."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Mouvement pendulaire doux",
+    "position_de_depart": "Debout, légèrement penché vers l'avant, la main saine appuyée sur une table.",
+    "mouvement": "Laissez le bras atteint pendre et faites de tout petits cercles doux, sans forcer.",
+    "dosage": "1 à 2 minutes, 2 fois par jour.",
+    "progression": "Passez à l'élévation du bras devant vous dès que la douleur aiguë diminue.",
+    "erreur_frequente": "Faire de grands cercles qui tirent sur le dessus de l'épaule.",
+    "illustration": "Dessin au trait d'une personne penchée en appui sur une table, faisant de petits cercles avec le bras pendant."
+   },
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, bras le long du corps.",
+    "mouvement": "Tirez doucement les omoplates vers l'arrière et légèrement vers le bas pour stabiliser l'épaule. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Faites l'exercice en tirant un élastique léger à hauteur de la taille.",
+    "erreur_frequente": "Hausser les épaules vers les oreilles.",
+    "illustration": "Dessin au trait d'un buste vu de dos montrant les deux omoplates qui se resserrent vers la colonne."
+   },
+   {
+    "nom": "Élévation du bras devant vous (jusqu'à 90 degrés)",
+    "position_de_depart": "Debout ou couché sur le dos, le pouce pointé vers le haut.",
+    "mouvement": "Levez doucement le bras devant vous jusqu'à la hauteur de l'épaule (pas plus haut au début), puis redescendez lentement.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Montez graduellement au-dessus de la tête quand le dessus de l'épaule ne fait plus mal.",
+    "erreur_frequente": "Laisser le bras traverser vers l'autre épaule.",
+    "illustration": "Dessin au trait d'une personne debout levant un bras tendu devant elle jusqu'à l'horizontale."
+   },
+   {
+    "nom": "Rotation externe avec élastique",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate stable, puis revenez doucement.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Passez à un élastique plus résistant, puis ajoutez des pompes contre un mur quand lever le bras au-dessus de la tête est indolore.",
+    "erreur_frequente": "Décoller le coude du corps.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique vers l'extérieur, coude collé au flanc."
+   }
+  ],
+  "duree_habituelle": "Reprise des activités habituelles en 1 à 2 semaines environ pour une entorse légère (grade I) et en 3 à 6 semaines pour une entorse modérée (grade II). Le retour aux sports de contact ou de lancer peut être plus long.",
+  "quand_reconsulter": [
+   "Bosse très importante et douloureuse sur le dessus de l'épaule, avec la peau tendue.",
+   "Engourdissements, picotements ou faiblesse dans le bras ou la main.",
+   "Douleur qui ne diminue pas après 3 à 4 semaines.",
+   "Douleur persistante lors de la reprise du sport.",
+   "En urgence (911 ou urgences) : difficulté à respirer ou à avaler après le choc, ou douleur dans la poitrine avec essoufflement ou malaise."
+  ],
+  "references": [
+   {
+    "texte": "Li X et al., J Bone Joint Surg Am, 2014",
+    "doi_ou_pmid": "PMID: 24382728"
+   },
+   {
+    "texte": "Beitzel K et al., Arthroscopy, 2014",
+    "doi_ou_pmid": "PMID: 24485119"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "rupture",
+  "nom": "Rupture transfixiante de la coiffe",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Déchirure d'un tendon de l'épaule (coiffe des rotateurs)",
+  "ce_que_vous_avez": "Un des tendons de votre coiffe des rotateurs présente une déchirure qui traverse toute son épaisseur. Le tendon ne se recolle pas de lui-même, mais chez environ 3 personnes sur 4 dont la déchirure est apparue progressivement (sans accident), les autres muscles de l'épaule compensent bien grâce à un programme d'exercices réguliers, ce qui permet d'éviter la chirurgie. Comme la déchirure peut s'agrandir avec les années, un suivi est recommandé.",
+  "ce_qui_aide": [
+   "Renforcer les autres muscles de l'épaule et de l'omoplate pour compenser le tendon déchiré.",
+   "Réapprendre à lever le bras en position couchée avant de le faire debout.",
+   "Appliquer de la chaleur enveloppée dans un linge 15 minutes avant les exercices si l'épaule est raide.",
+   "Être patient et régulier : l'amélioration prend plusieurs semaines.",
+   "Faire réévaluer votre épaule aux dates convenues, même si elle va mieux."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Soulever des objets lourds à bout de bras, loin du corps.",
+   "Forcer pour lever le bras en haussant l'épaule vers l'oreille.",
+   "Attendre sans bouger : l'épaule risque de devenir raide."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Élévation du bras couché sur le dos (aidée)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, tenez le poignet du bras douloureux avec votre main saine.",
+    "mouvement": "Levez doucement les deux bras vers le plafond puis au-dessus de la tête, puis contrôlez la descente lentement.",
+    "dosage": "2 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Faites le mouvement sans l'aide de l'autre main, puis le buste légèrement relevé (oreillers ou banc incliné).",
+    "erreur_frequente": "Laisser le bras retomber d'un coup ou cambrer le dos.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos guidant son bras douloureux vers le haut avec son autre main."
+   },
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, bras le long du corps.",
+    "mouvement": "Tirez doucement les omoplates vers l'arrière et légèrement vers le bas pour bien placer l'épaule. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Ajoutez un tirage avec un élastique léger à hauteur de la taille.",
+    "erreur_frequente": "Hausser les épaules.",
+    "illustration": "Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates."
+   },
+   {
+    "nom": "Renforcement doux du deltoïde antérieur (couché puis incliné)",
+    "position_de_depart": "Couché sur le dos, coude légèrement plié, sans poids au début.",
+    "mouvement": "Levez le bras à la verticale vers le plafond, puis faites de petits mouvements de va-et-vient d'avant en arrière sur environ 10 cm, de façon lente et contrôlée.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Ajoutez un petit poids (0,5 à 1 kg), puis redressez progressivement le buste (semi-assis, puis debout) sur plusieurs semaines.",
+    "erreur_frequente": "Passer debout ou ajouter un poids lourd trop rapidement.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos, le bras tendu vers le plafond avec de petites flèches de va-et-vient."
+   },
+   {
+    "nom": "Rotation externe avec élastique léger",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique très léger fixé du côté opposé.",
+    "mouvement": "Tournez doucement l'avant-bras vers l'extérieur, sans douleur vive, puis revenez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Augmentez la résistance de l'élastique très graduellement.",
+    "erreur_frequente": "Décoller le coude du flanc.",
+    "illustration": "Dessin au trait d'une personne debout effectuant une rotation externe avec un élastique léger, coude collé au corps."
+   }
+  ],
+  "duree_habituelle": "Amélioration souvent nette en 6 à 12 semaines d'exercices réguliers. C'est à ce moment que l'on fait le point avec le médecin sur la suite du traitement.",
+  "quand_reconsulter": [
+   "Rapidement (dans les jours qui suivent) : perte de force brutale ou impossibilité de lever le bras après une chute ou un effort; un avis orthopédique rapide est nécessaire.",
+   "Douleur nocturne sévère qui ne répond pas au traitement.",
+   "Perte de force qui s'aggrave, ou aucune amélioration après 12 semaines d'exercices.",
+   "Engourdissements ou fourmillements dans le bras.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Kuhn JE et al., J Shoulder Elbow Surg, 2013",
+    "doi_ou_pmid": "PMID: 23540577"
+   },
+   {
+    "texte": "Levy O et al., J Shoulder Elbow Surg, 2008",
+    "doi_ou_pmid": "PMID: 18718765"
+   },
+   {
+    "texte": "Weber S, Chahal J, J Am Acad Orthop Surg, 2020",
+    "doi_ou_pmid": "PMID: 31599763"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "dyskinesie",
+  "nom": "Dyskinésie scapulaire",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Mouvement modifié de l'omoplate (dyskinésie scapulaire)",
+  "ce_que_vous_avez": "Votre omoplate bouge de façon moins fluide ou moins symétrique quand vous levez le bras. C'est très fréquent, y compris chez des personnes qui n'ont aucune douleur, et ce n'est pas une lésion. Quand l'épaule est douloureuse, renforcer et mieux coordonner les muscles autour de l'omoplate aide à diminuer la douleur et à retrouver de la force, même si le mouvement ne devient pas parfaitement symétrique.",
+  "ce_qui_aide": [
+   "Travailler le contrôle et la force des muscles autour de l'omoplate.",
+   "Étirer l'avant de l'épaule si vos épaules ont tendance à rouler vers l'avant.",
+   "Vous observer dans un miroir au début pour sentir le bon mouvement.",
+   "Changer souvent de position devant les écrans."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Lever des poids lourds au-dessus de la tête tant que le mouvement est douloureux ou mal contrôlé.",
+   "Forcer des pompes au sol si l'omoplate ressort nettement vers l'arrière.",
+   "Crisper le haut du cou pendant les exercices de bras."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Étirement de l'avant de l'épaule dans un cadre de porte",
+    "position_de_depart": "Debout dans un cadre de porte, les avant-bras posés sur les montants, coudes à hauteur des épaules.",
+    "mouvement": "Avancez doucement d'un pas pour ouvrir la poitrine jusqu'à sentir un étirement confortable devant les épaules. Tenez 20 à 30 secondes.",
+    "dosage": "3 répétitions, 1 à 2 fois par jour.",
+    "progression": "Montez les coudes légèrement plus haut si l'épaule reste confortable.",
+    "erreur_frequente": "Cambrer le bas du dos au lieu d'ouvrir le haut de la poitrine.",
+    "illustration": "Dessin au trait d'une personne debout dans une embrasure de porte, avant-bras contre les montants, ouvrant la poitrine."
+   },
+   {
+    "nom": "Poussée des omoplates contre un mur (dentelé antérieur)",
+    "position_de_depart": "Debout face à un mur, bras tendus devant vous, mains posées à plat sur le mur à hauteur des épaules.",
+    "mouvement": "Sans plier les coudes, poussez dans le mur pour éloigner la poitrine du mur et arrondir légèrement le haut du dos : les omoplates glissent vers l'avant sur les côtes. Revenez lentement.",
+    "dosage": "3 séries de 12 répétitions, 1 fois par jour.",
+    "progression": "Faites le même mouvement à quatre pattes au sol, puis en position de planche.",
+    "erreur_frequente": "Hausser les épaules vers les oreilles ou plier les coudes.",
+    "illustration": "Dessin au trait d'une personne debout bras tendus contre un mur, poussant le haut du dos vers l'arrière."
+   },
+   {
+    "nom": "Tirage horizontal avec élastique (trapèze moyen et inférieur)",
+    "position_de_depart": "Debout, élastique fixé devant vous à hauteur de la poitrine, tenu à deux mains.",
+    "mouvement": "Tirez les coudes vers l'arrière en gardant les épaules basses et en rapprochant le bas des omoplates. Revenez lentement.",
+    "dosage": "3 séries de 12 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Faites le tirage un bras à la fois pour travailler le contrôle.",
+    "erreur_frequente": "Laisser la tête avancer ou les épaules monter.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique vers l'arrière, épaules basses."
+   },
+   {
+    "nom": "Glissades murales en Y",
+    "position_de_depart": "Debout face à un mur, les avant-bras posés sur le mur à hauteur de la poitrine.",
+    "mouvement": "Glissez les bras vers le haut en les ouvrant légèrement en forme de Y, en gardant une légère pression contre le mur, puis redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Décollez les mains de 2 cm du mur en haut du mouvement avant de redescendre.",
+    "erreur_frequente": "Creuser le bas du dos ou crisper la nuque.",
+    "illustration": "Dessin au trait d'une personne face à un mur glissant ses bras vers le haut en forme de Y."
+   }
+  ],
+  "duree_habituelle": "Amélioration de la douleur et de la force en 6 à 12 semaines d'exercices réguliers.",
+  "quand_reconsulter": [
+   "Omoplate qui décolle de façon très marquée, surtout après un choc, une chirurgie ou un épisode de douleur intense à l'épaule, ou muscle qui fond visiblement (atteinte nerveuse possible).",
+   "Douleur qui augmente dans l'épaule ou le cou malgré les exercices.",
+   "Engourdissements ou faiblesse dans le bras.",
+   "Aucun progrès après 6 à 8 semaines d'exercices.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Kibler WB et al., Br J Sports Med, 2013",
+    "doi_ou_pmid": "PMID: 23580420"
+   },
+   {
+    "texte": "Nodehi Moghadam A et al., J Shoulder Elbow Surg, 2020",
+    "doi_ou_pmid": "PMID: 31420226"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "fracture_hp",
+  "nom": "Fracture de l'humérus proximal",
+  "applicable": false,
+  "raison_si_non": "Fracture nécessitant d'abord une évaluation radiologique et orthopédique. Les exercices (souvent des mouvements pendulaires dès les premières semaines) doivent suivre le protocole personnalisé remis par l'équipe traitante selon le type et la stabilité de la fracture; cette fiche générale ne s'applique pas."
+ },
+ {
+  "region": "epaule",
+  "id": "clavicule",
+  "nom": "Fracture de la clavicule",
+  "applicable": false,
+  "raison_si_non": "Fracture traitée d'abord par une écharpe simple avec un suivi clinique et radiologique. La reprise des mouvements puis du renforcement se fait par étapes, selon la consolidation et les consignes de l'équipe traitante; cette fiche générale ne s'applique pas."
+ },
+ {
+  "region": "epaule",
+  "id": "omarthrose",
+  "nom": "Arthrose gléno-humérale",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Arthrose de l'épaule (usure du cartilage)",
+  "ce_que_vous_avez": "Le cartilage qui recouvre l'articulation principale de votre épaule s'est aminci avec le temps. Cela cause une raideur, des craquements et une douleur sourde. Les exercices ne font pas repousser le cartilage, mais des mouvements doux et un renforcement adapté peuvent aider à garder l'épaule mobile et à mieux tolérer les activités du quotidien.",
+  "ce_qui_aide": [
+   "Bouger l'épaule doucement tous les jours dans les amplitudes confortables.",
+   "Appliquer de la chaleur enveloppée dans un linge 15 minutes avant les exercices pour réduire la raideur.",
+   "Renforcer en douceur les muscles autour de l'épaule et de l'omoplate.",
+   "Ranger les objets lourds à hauteur de la taille pour ne pas forcer bras levés."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Rester complètement immobile (l'articulation se raidit plus vite).",
+   "Soulever des charges lourdes à bout de bras ou au-dessus de la tête.",
+   "Forcer des étirements ou des exercices intenses qui déclenchent une poussée de douleur."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Mouvement pendulaire doux",
+    "position_de_depart": "Debout, penché vers l'avant, la main saine appuyée sur une table.",
+    "mouvement": "Laissez le bras atteint pendre et faites de petits cercles lents pour assouplir l'articulation.",
+    "dosage": "1 à 2 minutes, 2 fois par jour.",
+    "progression": "Augmentez doucement le diamètre des cercles, sans forcer.",
+    "erreur_frequente": "Crisper le bras au lieu de le laisser pendre.",
+    "illustration": "Dessin au trait d'une personne penchée, main sur une table, balançant l'autre bras en petits cercles."
+   },
+   {
+    "nom": "Élévation guidée avec un bâton (couché)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, tenant un bâton à deux mains.",
+    "mouvement": "Aidez le bras douloureux à monter doucement vers le plafond puis vers l'arrière, seulement jusqu'à la limite confortable. Tenez 5 secondes, puis redescendez.",
+    "dosage": "2 séries de 8 à 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Gagnez quelques degrés de mouvement à la fois, sans déclencher de douleur vive.",
+    "erreur_frequente": "Forcer quand l'épaule bute contre un blocage dur.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant doucement un bâton à deux mains."
+   },
+   {
+    "nom": "Contractions statiques douces (rotation externe et interne)",
+    "position_de_depart": "Debout près d'un mur ou d'un cadre de porte, coude plié à 90 degrés collé au corps.",
+    "mouvement": "Poussez doucement le dos de la main contre le mur (sans bouger le bras) pendant 5 secondes, puis faites l'autre sens avec la paume contre le cadre de porte.",
+    "dosage": "2 séries de 8 répétitions dans chaque sens, 1 fois par jour.",
+    "progression": "Passez à un élastique léger quand l'articulation le tolère bien.",
+    "erreur_frequente": "Pousser trop fort et réveiller la douleur.",
+    "illustration": "Dessin au trait d'une personne debout près d'un cadre de porte, coude plié à 90 degrés, appuyant doucement la main contre le montant."
+   },
+   {
+    "nom": "Rapprochement des omoplates avec élastique",
+    "position_de_depart": "Assis ou debout, tenant à deux mains un élastique léger fixé devant vous à hauteur du ventre.",
+    "mouvement": "Tirez doucement les coudes vers l'arrière en rapprochant les omoplates, puis revenez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Augmentez légèrement la tension de l'élastique si c'est bien toléré.",
+    "erreur_frequente": "Hausser les épaules.",
+    "illustration": "Dessin au trait d'une personne assise tirant un élastique vers l'arrière pour rapprocher les omoplates."
+   }
+  ],
+  "duree_habituelle": "Les bienfaits apparaissent progressivement, souvent après 6 à 12 semaines de régularité. L'arthrose évolue par périodes plus ou moins douloureuses : gardez les exercices comme une habitude.",
+  "quand_reconsulter": [
+   "Douleur qui empêche de dormir toutes les nuits malgré les médicaments.",
+   "Blocage presque complet de l'épaule qui gêne pour se laver ou s'habiller.",
+   "Absence d'amélioration après 8 à 12 semaines : d'autres traitements, dont la chirurgie, peuvent être discutés.",
+   "En urgence (911 ou urgences) : gonflement soudain avec rougeur, chaleur ou fièvre; ou douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise."
+  ],
+  "references": [
+   {
+    "texte": "Yamamoto N et al., J ISAKOS, 2023",
+    "doi_ou_pmid": "PMID: 37321293"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "calcifiante",
+  "nom": "Tendinopathie calcifiante",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Dépôt de calcium dans un tendon de l'épaule (tendinopathie calcifiante)",
+  "ce_que_vous_avez": "Un petit dépôt de calcium s'est formé dans un tendon de votre épaule. Ces dépôts sont fréquents et ne causent parfois aucun symptôme. Quand le corps résorbe le dépôt, cela peut provoquer une crise très douloureuse qui dure le plus souvent 1 à 3 semaines. Le dépôt finit généralement par disparaître de lui-même, mais cela peut prendre des mois, parfois des années; des exercices progressifs aident à récupérer la mobilité et la force.",
+  "ce_qui_aide": [
+   "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, pendant les crises aiguës.",
+   "Garder des mouvements très doux (pendulaire) quand la douleur est forte.",
+   "Renforcer progressivement la coiffe dès que la crise est passée.",
+   "Suivre les conseils de votre médecin pour soulager la phase aiguë (médicaments, parfois infiltration).",
+   "Si la douleur persiste plusieurs mois, d'autres traitements (par exemple les ondes de choc) peuvent être discutés avec votre médecin."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Forcer des exercices avec poids pendant une crise de douleur aiguë.",
+   "Laisser le bras complètement immobile pendant des semaines (risque de raideur).",
+   "Travailler bras levés de façon répétitive."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Pendant une crise aiguë, limitez-vous aux mouvements doux et confortables.",
+  "exercices": [
+   {
+    "nom": "Mouvement pendulaire doux (phase sensible)",
+    "position_de_depart": "Debout, penché vers l'avant, la main saine sur une table.",
+    "mouvement": "Balancez doucement le tronc pour laisser le bras sensible faire de petits cercles détendus.",
+    "dosage": "1 à 2 minutes, 2 à 3 fois par jour.",
+    "progression": "Passez aux mouvements aidés avec bâton dès que la crise aiguë se calme.",
+    "erreur_frequente": "Forcer le bras avec les muscles au lieu de le laisser pendre.",
+    "illustration": "Dessin au trait d'une personne penchée en appui sur une table, laissant pendre l'autre bras en petits cercles."
+   },
+   {
+    "nom": "Élévation aidée avec bâton (couché)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, tenant un bâton à deux mains.",
+    "mouvement": "Montez doucement le bâton vers le plafond à l'aide du bras sain, jusqu'à la limite tolérable, puis redescendez.",
+    "dosage": "2 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Faites le mouvement sans bâton dès que la mobilité revient.",
+    "erreur_frequente": "Monter dans une douleur aiguë.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant un bâton à deux mains."
+   },
+   {
+    "nom": "Contraction statique en rotation externe",
+    "position_de_depart": "Debout de côté près d'un mur, coude plié à 90 degrés collé aux côtes.",
+    "mouvement": "Poussez doucement le dos de la main contre le mur sans bouger le bras. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 8 répétitions, 1 fois par jour.",
+    "progression": "Passez à l'élastique léger une fois que le tendon le tolère bien.",
+    "erreur_frequente": "Pousser trop fort ou décoller le coude.",
+    "illustration": "Dessin au trait d'une personne debout de profil poussant le dos de la main contre un mur, coude au corps."
+   },
+   {
+    "nom": "Rotation externe avec élastique (hors crise)",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé au corps, tenant un élastique léger fixé du côté opposé.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur, tenez 1 seconde, puis revenez en 3 secondes.",
+    "dosage": "3 séries de 10 à 12 répétitions, 3 fois par semaine.",
+    "progression": "Augmentez graduellement la résistance de l'élastique.",
+    "erreur_frequente": "Commencer cet exercice trop tôt, pendant une crise.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique vers l'extérieur, coude collé au flanc."
+   }
+  ],
+  "duree_habituelle": "La crise aiguë se calme souvent en 1 à 3 semaines; retrouver la mobilité et la force prend ensuite 6 à 12 semaines. Des périodes douloureuses peuvent revenir tant que le dépôt n'a pas disparu.",
+  "quand_reconsulter": [
+   "Douleur soudaine et insupportable qui empêche tout sommeil : un traitement plus fort peut être nécessaire.",
+   "Perte importante de mouvement qui s'installe malgré les exercices doux.",
+   "Douleur qui persiste après 8 à 12 semaines malgré les exercices.",
+   "En urgence (911 ou urgences) : fièvre, frissons ou épaule rouge et chaude; ou douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise."
+  ],
+  "references": [
+   {
+    "texte": "Moosmayer S et al., BMJ, 2023",
+    "doi_ou_pmid": "PMID: 37821122"
+   },
+   {
+    "texte": "Louwerens JKG et al., Arthroscopy, 2020",
+    "doi_ou_pmid": "PMID: 32114063"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "instab_ant",
+  "nom": "Luxation ou instabilité antérieure",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Épaule instable ou déboîtée vers l'avant (instabilité antérieure)",
+  "ce_que_vous_avez": "Après une luxation (épaule déboîtée) ou des épisodes où l'épaule se déboîte partiellement, les structures qui retiennent l'avant de votre épaule (ligaments et bourrelet) sont étirées ou abîmées. Après une courte période d'écharpe, renforcer les muscles profonds de l'épaule et de l'omoplate aide à garder l'articulation bien centrée. Le risque de nouvelle luxation dépend surtout de l'âge et du sport pratiqué : il est élevé avant 25 ans, et votre médecin discutera avec vous des options, dont la chirurgie.",
+  "ce_qui_aide": [
+   "Porter l'écharpe pendant la durée conseillée par votre médecin (souvent environ 1 semaine), puis recommencer à bouger.",
+   "Renforcer les muscles de la coiffe et de l'omoplate avant de reprendre le sport.",
+   "Travailler le contrôle du bras dans l'espace, d'abord lentement et le bras bas.",
+   "Reprendre les sports de lancer ou de contact seulement après le feu vert du médecin ou du physiothérapeute."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Mettre le bras en position d'armé (bras levé sur le côté et main tournée vers l'arrière), surtout les 6 premières semaines.",
+   "Faire des étirements forcés vers l'arrière ou des dips.",
+   "Reprendre un sport de contact ou de lancer avant d'avoir retrouvé mobilité, force et confiance."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui donne l'impression que l'épaule va se déboîter.",
+  "exercices": [
+   {
+    "nom": "Contractions statiques dans plusieurs directions",
+    "position_de_depart": "Debout près d'un mur, coude plié à 90 degrés collé aux côtes.",
+    "mouvement": "Sans bouger le bras, poussez doucement contre le mur vers l'avant (poing), vers l'extérieur (dos de la main) puis vers l'intérieur (paume, contre un cadre de porte). Tenez 5 secondes dans chaque direction.",
+    "dosage": "2 séries de 8 répétitions par direction, 1 fois par jour.",
+    "progression": "Passez aux exercices avec élastique quand ces contractions sont faciles et sans appréhension.",
+    "erreur_frequente": "Tourner le bras loin vers l'extérieur pendant les premières semaines.",
+    "illustration": "Dessin au trait d'une personne debout près d'un mur, coude plié au corps, poussant le poing contre le mur."
+   },
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, bras le long du corps.",
+    "mouvement": "Tirez les omoplates vers l'arrière et légèrement vers le bas pour bien ancrer l'épaule. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Faites le même mouvement en tirant un élastique léger fixé devant vous.",
+    "erreur_frequente": "Cambrer le dos ou pousser les épaules vers l'avant.",
+    "illustration": "Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates."
+   },
+   {
+    "nom": "Rotation interne et externe avec élastique (coude au corps)",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé sur le côté.",
+    "mouvement": "Tirez lentement l'élastique vers le ventre (rotation interne). Retournez-vous ensuite pour tirer vers l'extérieur (rotation externe), en arrêtant quand l'avant-bras pointe droit devant ou est à peine ouvert.",
+    "dosage": "3 séries de 12 répétitions dans chaque sens, 3 à 4 fois par semaine.",
+    "progression": "Augmentez la résistance de l'élastique avant de travailler avec le bras plus haut.",
+    "erreur_frequente": "Ouvrir l'avant-bras très loin vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique vers le ventre avec le coude collé au corps."
+   },
+   {
+    "nom": "Stabilisation contre un mur (avec ou sans ballon)",
+    "position_de_depart": "Debout face à un mur, bras tendu devant vous à hauteur de la poitrine, main posée sur le mur (ou sur un petit ballon contre le mur).",
+    "mouvement": "Appuyez légèrement et faites de tout petits cercles avec la main ou le ballon, en gardant l'épaule stable et centrée.",
+    "dosage": "3 séries de 20 à 30 secondes, 3 fois par semaine.",
+    "progression": "Faites l'exercice à quatre pattes au sol quand l'épaule est bien stable.",
+    "erreur_frequente": "Laisser l'omoplate décoller du dos ou l'épaule partir vers l'avant.",
+    "illustration": "Dessin au trait d'une personne debout bras tendu devant elle, pressant un petit ballon contre un mur."
+   }
+  ],
+  "duree_habituelle": "Réadaptation de base sur 6 à 12 semaines avant le retour progressif au sport. Les sports de contact ou de lancer demandent souvent plus de temps.",
+  "quand_reconsulter": [
+   "Nouvelle luxation ou épaule bloquée : rendez-vous aux urgences, sans essayer de la replacer vous-même.",
+   "Sensation fréquente que l'épaule « glisse » dans les gestes de tous les jours.",
+   "Engourdissement sur le côté de l'épaule, ou faiblesse marquée pour lever le bras après la luxation (surtout après 40 ans : un tendon peut être déchiré).",
+   "Impossibilité de reprendre vos activités après 3 mois d'exercices.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Kearney RS et al., BMJ, 2024",
+    "doi_ou_pmid": "PMID: 38233068"
+   },
+   {
+    "texte": "Paterson WH et al., J Bone Joint Surg Am, 2010",
+    "doi_ou_pmid": "PMID: 21159993"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "ac_arthrose",
+  "nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Usure de la petite articulation sur le dessus de l'épaule",
+  "ce_que_vous_avez": "La petite articulation au bout de votre clavicule, sur le dessus de l'épaule, est irritée ou usée. Cela fait souvent mal quand vous croisez le bras devant vous, dormez sur ce côté ou faites du développé couché; chez les personnes qui s'entraînent avec des charges lourdes, le bout de la clavicule peut réagir à la surcharge. Adapter les gestes et les charges est le point le plus important; renforcer le haut du dos aide l'épaule à mieux travailler.",
+  "ce_qui_aide": [
+   "Réduire temporairement la charge et la fréquence des exercices de poussée, surtout le développé couché lourd.",
+   "Modifier votre technique en musculation : prise moins large et amplitude réduite (sans descendre la barre jusqu'à la poitrine).",
+   "Renforcer les muscles de l'omoplate pour mieux soutenir l'épaule.",
+   "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, après l'entraînement si le dessus de l'épaule élance.",
+   "Dormir sur le dos ou sur l'autre côté."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Faire des exercices qui compriment le dessus de l'épaule (dips, développé couché lourd, écartés, pompes profondes).",
+   "Tirer fortement le bras en travers de la poitrine pour vous étirer.",
+   "Porter des charges lourdes appuyées directement sur la clavicule."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, bras le long du corps.",
+    "mouvement": "Tirez doucement les omoplates vers l'arrière et légèrement vers le bas. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Ajoutez un tirage avec élastique.",
+    "erreur_frequente": "Hausser les épaules vers les oreilles.",
+    "illustration": "Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates."
+   },
+   {
+    "nom": "Rotation externe avec élastique",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur, puis revenez en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Augmentez progressivement la résistance de l'élastique.",
+    "erreur_frequente": "Décoller le coude du corps.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique vers l'extérieur, coude collé au corps."
+   },
+   {
+    "nom": "Tirage horizontal (rameur avec élastique)",
+    "position_de_depart": "Debout ou assis, élastique fixé devant vous à hauteur de la poitrine.",
+    "mouvement": "Tirez les deux coudes vers l'arrière en gardant les avant-bras horizontaux et en rapprochant les omoplates. Revenez lentement.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Utilisez un élastique plus résistant, ou faites l'exercice avec des haltères, la poitrine en appui sur un banc incliné.",
+    "erreur_frequente": "Laisser les épaules rouler vers l'avant à la fin du retour.",
+    "illustration": "Dessin au trait d'une personne tirant un élastique à deux mains vers sa poitrine, coudes vers l'arrière."
+   },
+   {
+    "nom": "Pompes au mur en amplitude confortable",
+    "position_de_depart": "Debout face à un mur, mains à plat un peu plus écartées que les épaules.",
+    "mouvement": "Pliez doucement les coudes pour approcher la poitrine du mur, sans descendre trop loin, puis repoussez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez sur un comptoir, puis au sol, seulement si le dessus de l'épaule reste indolore.",
+    "erreur_frequente": "Laisser les coudes s'ouvrir très haut sur les côtés ou descendre trop bas.",
+    "illustration": "Dessin au trait d'une personne faisant des pompes contre un mur avec les coudes à 45 degrés du corps."
+   }
+  ],
+  "duree_habituelle": "Amélioration souvent en 6 à 12 semaines avec l'adaptation des charges. Quand la douleur est liée à la musculation lourde, il faut parfois plusieurs mois de charges réduites.",
+  "quand_reconsulter": [
+   "Douleur qui continue d'augmenter malgré l'arrêt des exercices qui pincent.",
+   "Bosse qui grossit rapidement ou douleur nocturne sévère.",
+   "Engourdissements ou perte de force dans le bras.",
+   "Aucune amélioration après 3 mois : une infiltration ou d'autres traitements peuvent être discutés.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Buttaci CJ et al., Am J Phys Med Rehabil, 2004",
+    "doi_ou_pmid": "PMID: 15385790"
+   },
+   {
+    "texte": "Soler F et al., Knee Surg Sports Traumatol Arthrosc, 2021",
+    "doi_ou_pmid": "PMID: 33386878"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "ppr",
+  "nom": "Polymyalgia rheumatica",
+  "applicable": false,
+  "raison_si_non": "Maladie inflammatoire relevant d'abord d'un traitement médical (corticoïdes) et d'une recherche de signes d'artérite à cellules géantes. Un programme d'exercices individualisé peut être ajouté par l'équipe traitante pour préserver la force et prévenir les chutes, mais cette fiche d'exercices de l'épaule ne s'applique pas."
+ },
+ {
+  "region": "epaule",
+  "id": "biceps",
+  "nom": "Tendinopathie ou rupture du long biceps",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur à l'avant de l'épaule (tendon du biceps)",
+  "ce_que_vous_avez": "Le tendon du haut du biceps, qui passe à l'avant de l'épaule, est irrité (ou parfois rompu dans sa partie haute, ce qui forme une petite boule sur le bras). Ce problème accompagne souvent une irritation des tendons de la coiffe, c'est pourquoi on renforce toute l'épaule. Même en cas de rupture haute, l'autre tendon du biceps reste attaché : la plupart des gens retrouvent une bonne fonction sans chirurgie, parfois avec une légère perte de force (surtout pour tourner la paume vers le haut), une boule visible et quelques crampes au début.",
+  "ce_qui_aide": [
+   "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, à l'avant de l'épaule après un effort.",
+   "Renforcer l'épaule et le haut du dos pour soulager l'avant de l'épaule.",
+   "Reprendre progressivement le travail du biceps avec de petits poids.",
+   "Garder les coudes près du corps pour porter des objets."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Porter des charges lourdes bras tendus loin devant vous.",
+   "Faire des tractions à la barre, des dips ou du développé incliné lourd.",
+   "Étirer le bras loin derrière le dos."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "exercices": [
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, bras le long du corps.",
+    "mouvement": "Tirez doucement les omoplates vers l'arrière et légèrement vers le bas pour ouvrir l'avant de l'épaule. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Ajoutez un tirage avec élastique.",
+    "erreur_frequente": "Hausser les épaules.",
+    "illustration": "Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates."
+   },
+   {
+    "nom": "Flexion statique douce du coude",
+    "position_de_depart": "Debout, coude du bras atteint plié à 90 degrés contre votre flanc, paume vers le haut.",
+    "mouvement": "Placez l'autre main sur votre poignet et poussez légèrement vers le haut avec le bras atteint pendant que l'autre main résiste, sans bouger. Tenez 5 secondes et relâchez.",
+    "dosage": "2 séries de 8 répétitions, 1 fois par jour.",
+    "progression": "Passez à la flexion avec un petit poids.",
+    "erreur_frequente": "Avancer l'épaule ou pousser trop fort.",
+    "illustration": "Dessin au trait d'une personne debout, coude plié à 90 degrés, résistant doucement avec l'autre main sur le poignet."
+   },
+   {
+    "nom": "Flexion lente du coude avec poids léger (biceps)",
+    "position_de_depart": "Debout, un petit poids de 1 kg (ou une boîte de conserve) dans la main, coude collé au flanc.",
+    "mouvement": "Pliez le coude pour monter le poids en 2 secondes, puis redescendez lentement en 3 à 4 secondes.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Augmentez le poids de 0,5 à 1 kg lorsque les 3 séries sont confortables.",
+    "erreur_frequente": "Balancer le dos ou laisser le coude partir vers l'avant.",
+    "illustration": "Dessin au trait d'une personne debout pliant lentement le coude avec un petit haltère."
+   },
+   {
+    "nom": "Rotation externe avec élastique",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'épaule basse, puis revenez lentement.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Utilisez un élastique un peu plus résistant.",
+    "erreur_frequente": "Décoller le coude du corps.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique vers l'extérieur, coude collé au corps."
+   }
+  ],
+  "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines. Après une rupture haute du tendon, la douleur diminue souvent en quelques semaines.",
+  "quand_reconsulter": [
+   "Rapidement (dans les jours qui suivent) : douleur brutale ou claquement au pli du coude, avec perte de force pour plier le coude ou tourner la paume vers le haut. Une rupture du tendon au coude doit être évaluée sans attendre, car la réparation se fait idéalement dans les premières semaines.",
+   "Faiblesse marquée pour lever le bras, surtout après une chute ou un effort.",
+   "Douleur nocturne sévère qui ne diminue pas.",
+   "Engourdissements ou fourmillements dans la main.",
+   "Absence de progrès après 6 à 8 semaines.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Mariani EM et al., Clin Orthop Relat Res, 1988",
+    "doi_ou_pmid": "PMID: 3342572"
+   },
+   {
+    "texte": "Panico L et al., JBJS Rev, 2021",
+    "doi_ou_pmid": "PMID: 34695033"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "cervical",
+  "nom": "Douleur projetée d'origine cervicale",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Douleur à l'épaule venant du cou",
+  "ce_que_vous_avez": "Votre douleur se fait sentir dans l'épaule ou le haut du bras, mais elle provient en réalité de votre cou (articulations, muscles ou racine nerveuse irritée). C'est fréquent, car les nerfs de l'épaule et du bras sortent du cou. En bougeant et en soulageant votre cou, la douleur à l'épaule diminue.",
+  "ce_qui_aide": [
+   "Faire les exercices doux du cou et de posture plutôt que de forcer sur l'épaule.",
+   "Changer de position et prendre des pauses toutes les 30 à 45 minutes devant les écrans.",
+   "Appliquer de la chaleur enveloppée dans un linge, 15 minutes, sur la nuque si cela vous soulage.",
+   "Soutenir votre bras sur un accoudoir ou un oreiller quand vous êtes assis.",
+   "Rester actif et poursuivre vos activités habituelles autant que possible."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Garder longtemps la tête penchée en avant sur le téléphone ou l'ordinateur.",
+   "Regarder longtemps vers le plafond si cela déclenche la douleur à l'épaule ou au bras.",
+   "Soulever des charges lourdes avec le bras douloureux."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui envoie une douleur vive, des picotements ou un engourdissement plus loin dans le bras.",
+  "exercices": [
+   {
+    "nom": "Rentré du menton assis",
+    "position_de_depart": "Assis droit, regard à l'horizontale, épaules basses.",
+    "mouvement": "Reculez doucement le menton vers l'arrière, comme pour faire un double menton, afin d'aligner la tête au-dessus des épaules. Tenez 5 secondes et relâchez.",
+    "dosage": "2 séries de 10 répétitions, 2 à 3 fois par jour.",
+    "progression": "Maintenez la position 10 secondes.",
+    "erreur_frequente": "Pencher la tête vers le bas ou vers le plafond.",
+    "illustration": "Dessin au trait d'une personne assise de profil reculant horizontalement le menton."
+   },
+   {
+    "nom": "Rotations douces du cou",
+    "position_de_depart": "Assis droit, épaules détendues.",
+    "mouvement": "Tournez lentement la tête pour regarder par-dessus chaque épaule, en vous arrêtant avant le point où la douleur descend dans le bras.",
+    "dosage": "2 séries de 8 répétitions de chaque côté, 2 fois par jour.",
+    "progression": "Augmentez doucement l'amplitude si l'épaule et le bras restent calmes.",
+    "erreur_frequente": "Tourner le buste en même temps que la tête, ou forcer dans la douleur du bras.",
+    "illustration": "Dessin au trait d'un buste vu de face avec des flèches courbes montrant la rotation douce de la tête."
+   },
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, bras détendus le long du corps.",
+    "mouvement": "Tirez doucement les omoplates vers l'arrière et légèrement vers le bas. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Ajoutez un tirage avec un élastique léger.",
+    "erreur_frequente": "Hausser les épaules vers les oreilles.",
+    "illustration": "Dessin au trait d'un dos avec des flèches rapprochant les omoplates."
+   },
+   {
+    "nom": "Position de repos du bras (main sur la tête)",
+    "position_de_depart": "Assis confortablement, dos appuyé.",
+    "mouvement": "Si la douleur du bras élance au repos, posez doucement la main du côté atteint sur le sommet de votre tête pendant 1 à 2 minutes. Utilisez cette position seulement si elle soulage.",
+    "dosage": "Au besoin, 2 à 4 fois par jour.",
+    "progression": "Diminuez le recours à cette position à mesure que la douleur baisse.",
+    "erreur_frequente": "Garder cette position si elle augmente la douleur de l'épaule ou du bras.",
+    "illustration": "Dessin au trait d'une personne assise posant calmement sa main sur le sommet de sa tête."
+   }
+  ],
+  "duree_habituelle": "Quand la douleur vient des articulations ou des muscles du cou, l'amélioration est souvent visible en 4 à 6 semaines. Quand un nerf est irrité (douleur ou picotements dans le bras), la récupération est plus lente : l'essentiel de l'amélioration se fait au cours des 4 à 6 premiers mois, et la grande majorité des personnes récupèrent sans chirurgie.",
+  "quand_reconsulter": [
+   "Perte de force nouvelle ou qui s'aggrave dans le bras ou la main.",
+   "Engourdissements ou fourmillements qui s'aggravent, ou qui touchent les deux bras ou les jambes.",
+   "En urgence : maladresse nouvelle des mains, difficulté à marcher, perte d'équilibre, ou difficulté nouvelle à uriner ou à retenir les selles.",
+   "En urgence : douleur au cou ou mal de tête soudain et très intense, fièvre, ou douleur apparue après un accident ou une chute.",
+   "Perte de poids inexpliquée, antécédent de cancer ou douleur nocturne qui s'aggrave.",
+   "Absence d'amélioration après 6 semaines.",
+   "En urgence (911 ou urgences) : douleur à l'épaule ou au bras accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise."
+  ],
+  "references": [
+   {
+    "texte": "Blanpied PR et al., J Orthop Sports Phys Ther, 2017",
+    "doi_ou_pmid": "PMID: 28666405"
+   },
+   {
+    "texte": "Wong JJ et al., Spine J, 2014",
+    "doi_ou_pmid": "PMID: 24614255"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "slap",
+  "nom": "Lésion SLAP (labrum supérieur)",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Atteinte du bourrelet de l'épaule (lésion SLAP)",
+  "ce_que_vous_avez": "L'anneau de cartilage souple qui borde l'emboîture de l'épaule (le labrum ou bourrelet) est irrité ou fissuré dans sa partie haute, là où s'attache le tendon du biceps. Cela arrive souvent avec les sports de lancer ou après une chute. Environ la moitié à deux tiers des personnes récupèrent bien avec des exercices, sans chirurgie; c'est un peu moins fréquent chez les sportifs de lancer de haut niveau.",
+  "ce_qui_aide": [
+   "Renforcer les muscles de l'omoplate et de la coiffe pour stabiliser l'épaule.",
+   "Assouplir doucement l'arrière de l'épaule si elle est raide (fréquent chez les lanceurs).",
+   "Adapter les exercices de musculation pour éviter de tirer sur le haut du labrum.",
+   "Reprendre les lancers progressivement, seulement quand l'épaule est indolore et forte."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Lancer fort ou faire des smashs avant d'avoir retrouvé contrôle et force.",
+   "Faire des pompes lourdes ou des dips, ou se suspendre à une barre, au début.",
+   "Mettre le bras loin en arrière en position d'armé forcé."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui provoque un accrochage ou un pincement net dans l'épaule.",
+  "exercices": [
+   {
+    "nom": "Rapprochement des omoplates",
+    "position_de_depart": "Assis ou debout, bras le long du corps.",
+    "mouvement": "Tirez doucement les omoplates vers l'arrière et légèrement vers le bas. Tenez 5 secondes et relâchez.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Ajoutez un élastique léger tiré vers l'arrière.",
+    "erreur_frequente": "Hausser les épaules.",
+    "illustration": "Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates."
+   },
+   {
+    "nom": "Étirement doux de l'arrière de l'épaule (bras croisé, couché sur le côté)",
+    "position_de_depart": "Couché sur le côté douloureux, le tronc légèrement tourné vers l'arrière (environ 30 degrés) pour que le poids du corps retienne l'omoplate, le bras du dessous levé devant vous à hauteur de l'épaule.",
+    "mouvement": "Avec l'autre main, prenez le coude du bras du dessous et tirez-le doucement en travers de la poitrine, vers l'épaule opposée, jusqu'à sentir un étirement léger à l'arrière de l'épaule. Tenez 20 à 30 secondes.",
+    "dosage": "3 répétitions, 1 fois par jour.",
+    "progression": "Gagnez doucement en amplitude, sans jamais pincer l'avant ou le dessus de l'épaule.",
+    "erreur_frequente": "Rester complètement à plat sur l'épaule ou forcer jusqu'à sentir un pincement à l'avant.",
+    "illustration": "Dessin au trait d'une personne couchée légèrement inclinée sur le côté, tirant doucement le coude du bras du dessous en travers de la poitrine avec l'autre main."
+   },
+   {
+    "nom": "Rotation externe et interne avec élastique (coude au corps)",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé sur le côté.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur contre l'élastique, puis retournez-vous pour tirer vers le ventre, de façon contrôlée.",
+    "dosage": "3 séries de 12 répétitions dans chaque sens, 3 à 4 fois par semaine.",
+    "progression": "Passez à une rotation externe avec le bras soutenu à 45 degrés, puis à 90 degrés, quand il n'y a plus de douleur.",
+    "erreur_frequente": "Laisser le coude quitter les côtes.",
+    "illustration": "Dessin au trait d'une personne debout effectuant une rotation externe avec un élastique, coude au corps."
+   },
+   {
+    "nom": "Tirage horizontal avec élastique",
+    "position_de_depart": "Debout, élastique fixé devant vous à hauteur de la poitrine, tenu à deux mains.",
+    "mouvement": "Tirez les coudes vers l'arrière en rapprochant les omoplates, puis revenez lentement en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Augmentez graduellement la résistance de l'élastique.",
+    "erreur_frequente": "Avancer la tête pendant le tirage.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique à deux mains vers la poitrine."
+   }
+  ],
+  "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines de réadaptation. Si le résultat reste insuffisant après environ 3 mois, les autres options sont rediscutées avec le médecin.",
+  "quand_reconsulter": [
+   "Accrochage douloureux ou blocage fréquent dans l'épaule.",
+   "Douleur qui empêche le sommeil ou les activités quotidiennes.",
+   "Perte de force importante dans le bras.",
+   "Résultat insuffisant après 3 mois d'exercices bien suivis.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Edwards SL et al., Am J Sports Med, 2010",
+    "doi_ou_pmid": "PMID: 20522835"
+   },
+   {
+    "texte": "McClure P et al., J Orthop Sports Phys Ther, 2007",
+    "doi_ou_pmid": "PMID: 17416125"
+   }
+  ]
+ },
+ {
+  "region": "epaule",
+  "id": "instab_post",
+  "nom": "Instabilité postérieure ou multidirectionnelle",
+  "applicable": true,
+  "raison_si_non": "",
+  "titre_patient": "Épaule trop souple ou instable (instabilité vers l'arrière ou dans plusieurs directions)",
+  "ce_que_vous_avez": "Vos ligaments sont naturellement très souples ou ont été étirés, ce qui laisse la tête de l'os du bras bouger un peu trop dans l'articulation (vers l'arrière, vers le bas ou dans plusieurs directions). Le traitement principal est un renforcement ciblé et patient des muscles de l'omoplate et de la coiffe pour mieux centrer l'épaule.",
+  "ce_qui_aide": [
+   "Renforcer l'omoplate et la coiffe des rotateurs de façon très régulière.",
+   "Éviter de « faire craquer » ou de déboîter volontairement votre épaule.",
+   "Garder les épaules ni tombantes ni tirées vers le bas.",
+   "Maîtriser le contrôle du bras dans les gestes lents avant de travailler la vitesse."
+  ],
+  "a_eviter_pour_l_instant": [
+   "Étirer votre épaule (elle est déjà trop souple).",
+   "Porter des valises ou des sacs très lourds bras pendant, ce qui tire l'épaule vers le bas.",
+   "Faire des pompes profondes ou du développé couché lourd tant que l'épaule glisse."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui fait glisser l'épaule ou qui déclenche un claquement douloureux.",
+  "exercices": [
+   {
+    "nom": "Placement actif de l'omoplate (léger haussement contrôlé)",
+    "position_de_depart": "Assis ou debout, les avant-bras soutenus sur des accoudoirs si l'épaule tire vers le bas.",
+    "mouvement": "Remontez doucement l'épaule de 1 à 2 cm (petit haussement contrôlé), sans la tirer vers le bas ni la laisser rouler vers l'avant. Tenez 10 secondes et relâchez.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Maintenez ce placement de l'omoplate pendant les exercices de bras.",
+    "erreur_frequente": "Tirer l'épaule vers le bas, ce qui augmente l'instabilité vers le bas.",
+    "illustration": "Dessin au trait d'une personne assise, avant-bras sur des accoudoirs, remontant légèrement une épaule."
+   },
+   {
+    "nom": "Rotation externe et interne avec élastique (coude au corps)",
+    "position_de_depart": "Debout, coude plié à 90 degrés collé au corps avec une petite serviette roulée sous le bras, tenant un élastique léger fixé sur le côté.",
+    "mouvement": "Faites des rotations lentes vers l'extérieur, puis retournez-vous pour les faire vers l'intérieur, en gardant l'omoplate bien placée.",
+    "dosage": "3 séries de 12 à 15 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Augmentez la résistance de l'élastique avant de travailler avec le bras levé.",
+    "erreur_frequente": "Laisser l'épaule rouler vers l'avant pendant le mouvement.",
+    "illustration": "Dessin au trait d'une personne debout avec une serviette roulée sous le coude, tirant un élastique en rotation."
+   },
+   {
+    "nom": "Extension courte du bras vers l'arrière avec élastique",
+    "position_de_depart": "Debout face à une porte où est fixé un élastique léger, bras tendu devant vous à 45 degrés.",
+    "mouvement": "Tirez doucement le bras tendu vers l'arrière jusqu'à la hanche (pas plus loin), en gardant l'omoplate bien placée, puis revenez lentement.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Augmentez légèrement la résistance, ou faites l'exercice en position de fente.",
+    "erreur_frequente": "Amener le bras loin derrière le dos.",
+    "illustration": "Dessin au trait d'une personne debout tirant un élastique bras tendu jusqu'à côté de la cuisse."
+   },
+   {
+    "nom": "Appui léger contre un mur (contrôle de l'épaule)",
+    "position_de_depart": "Debout face à un mur, mains posées sur le mur un peu plus bas que les épaules.",
+    "mouvement": "Appuyez légèrement les mains dans le mur en gardant les épaules stables et centrées, puis soulevez une main de 2 cm sans que l'autre épaule bouge. Alternez. Si votre épaule glisse surtout vers l'arrière, appuyez très peu et arrêtez à la moindre sensation de glissement.",
+    "dosage": "3 séries de 10 répétitions par bras, 3 fois par semaine.",
+    "progression": "Faites l'exercice à quatre pattes au sol seulement quand le contrôle est solide et sans glissement.",
+    "erreur_frequente": "Laisser l'épaule s'affaisser ou l'omoplate décoller.",
+    "illustration": "Dessin au trait d'une personne debout mains au mur, soulevant légèrement une main tout en gardant le dos et les épaules stables."
+   }
+  ],
+  "duree_habituelle": "La stabilisation demande de la régularité : les premiers progrès apparaissent souvent vers 12 semaines, et le programme se poursuit habituellement de 3 à 6 mois.",
+  "quand_reconsulter": [
+   "Épaule qui se déboîte et ne se replace pas : rendez-vous aux urgences.",
+   "Luxations ou glissements répétés qui limitent les activités quotidiennes.",
+   "Engourdissements ou fourmillements fréquents dans le bras ou la main.",
+   "Douleur qui s'aggrave malgré les exercices.",
+   "Aucun progrès après 3 à 6 mois d'exercices ciblés.",
+   "En urgence (911 ou urgences) : douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise; ou épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Warby SA et al., Am J Sports Med, 2018",
+    "doi_ou_pmid": "PMID: 29048942"
+   },
+   {
+    "texte": "Watson L et al., Shoulder Elbow, 2016 (partie 1)",
+    "doi_ou_pmid": "PMID: 27660660"
+   },
+   {
+    "texte": "Watson L et al., Shoulder Elbow, 2017 (partie 2)",
+    "doi_ou_pmid": "PMID: 28572850"
+   },
+   {
+    "texte": "Watson L et al., J Hand Ther, 2017",
+    "doi_ou_pmid": "PMID: 28641736"
+   }
+  ]
+ }
+]

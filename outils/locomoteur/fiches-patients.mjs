@@ -17,13 +17,13 @@ const slug = (no, t) => `${String(no).padStart(2, "0")}-${sansAccents(t).toLower
 
 // Région : nom, et numéro de fiche → diagnostic du calcul.
 const REGIONS = {
-  cervical: { nom: "Rachis cervical", dx: { 1: "nonspec", 2: "myofascial", 3: "facettaire", 4: "arthrose", 5: "entorse", 6: "cervicogenique", 7: "musculaire", 8: "radiculopathie", 10: "torticolis", 11: "defile", 12: "arnold" } },
+  cervical: { nom: "Rachis cervical", dx: { 1: "nonspec", 2: "myofascial", 3: "facettaire", 4: "arthrose", 5: "entorse", 6: "cervicogenique", 7: "musculaire", 8: "radiculopathie", 9: "stinger", 10: "torticolis", 11: "defile", 12: "arnold" } },
   epaule: { nom: "Épaule", dx: { 1: "sous_acro", 2: "myalgie", 3: "capsulite", 4: "ac_entorse", 5: "rupture", 6: "dyskinesie", 7: "omarthrose", 8: "calcifiante", 9: "instab_ant", 10: "ac_arthrose", 11: "biceps", 12: "cervical", 13: "slap", 14: "instab_post" } },
   coude: { nom: "Coude", dx: { 1: "epi_lat", 2: "epi_med", 3: "lanceur", 4: "tunnel_cubital", 5: "bursite", 6: "arthrose", 7: "lcu", 8: "ocd", 9: "conflit_post", 10: "triceps", 11: "tunnel_radial", 12: "cervical" } },
   poignet: { nom: "Poignet et main", dx: { 1: "canal_carpien", 2: "kyste", 3: "dequervain", 4: "tenosynovite", 5: "arthrose_poignet", 6: "tfcc", 7: "scapholunaire", 8: "gymnaste", 9: "guyon", 10: "arthrose_digitale",
     11: "rhizarthrose", 12: "ressaut", 13: "entorse_doigt", 14: "dupuytren", 15: "lcu_pouce", 16: "poulie", 17: "cervical" } },
   lombaire: { nom: "Rachis lombaire", dx: { 1: "commune", 2: "musculaire", 3: "discogenique", 4: "facettaire", 5: "grossesse", 6: "stenose", 7: "si", 8: "hernie", 9: "spondylolisthesis", 10: "spondylolyse", 11: "scoliose", 12: "spa" } },
-  hanche: { nom: "Hanche et bassin", dx: { 1: "coxarthrose", 2: "sdgt", 3: "adducteurs", 5: "cfa", 6: "psoas", 7: "piriforme", 8: "meralgie", 9: "osteite", 10: "parietale", 11: "avulsion", 12: "ij_tendino", 13: "apophysite", 14: "contusion", 15: "lombaire" } },
+  hanche: { nom: "Hanche et bassin", dx: { 1: "coxarthrose", 2: "sdgt", 3: "adducteurs", 4: "ij_aigu", 5: "cfa", 6: "psoas", 7: "piriforme", 8: "meralgie", 9: "osteite", 10: "parietale", 11: "avulsion", 12: "ij_tendino", 13: "apophysite", 14: "contusion", 15: "lombaire" } },
   genou: { nom: "Genou", dx: { 1: "sfp", 2: "arthrose", 3: "menisque", 4: "lca", 5: "lcp", 6: "collat", 7: "rotule", 8: "tendino", 9: "hoffa", 10: "bit", 11: "bprep", 12: "poie", 13: "osgood", 14: "slj", 15: "contusion", 16: "plica", 17: "discoide", 18: "baker" } },
   cheville: { nom: "Cheville et jambe", dx: { 1: "entorse_lat", 2: "instab", 3: "achille", 4: "insertion", 5: "periostite", 6: "loge", 7: "mollet", 8: "sever", 9: "tibpost", 10: "arthrose", 11: "syndesmose", 12: "deltoide", 13: "fibulaires", 14: "conflit", 15: "tarsien" } },
   pied: { nom: "Pied", dx: { 1: "fasciite", 2: "hallux_valgus", 3: "orteils", 4: "arthrose_mp", 5: "hallux_rigidus", 6: "metatarsalgie", 7: "morton", 8: "turf_toe", 9: "sesamoide", 10: "synostose", 11: "os_navic", 12: "iselin", 13: "sever", 14: "contusion" } },
