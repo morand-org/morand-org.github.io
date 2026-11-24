@@ -159,13 +159,7 @@
   const COTES = { D: "droit", G: "gauche" };
   function atlasSvg() {
     // Personnage musclé, de face et de dos (image du clinicien) ; zones placées dans le même repère de 1264 × 848.
-    const Z = [["cervical", "", 387, 142, 24, "Cou"], ["epaule", "D", 298, 198, 27, "Épaule droite"], ["epaule", "G", 476, 198, 27, "Épaule gauche"],
-      ["coude", "D", 278, 326, 23, "Coude droit"], ["coude", "G", 494, 326, 23, "Coude gauche"], ["poignet", "D", 252, 434, 26, "Poignet ou main droite"], ["poignet", "G", 520, 434, 26, "Poignet ou main gauche"],
-      ["hanche", "D", 348, 438, 26, "Hanche ou aine droite"], ["hanche", "G", 426, 438, 26, "Hanche ou aine gauche"], ["genou", "D", 348, 594, 27, "Genou droit"], ["genou", "G", 426, 594, 27, "Genou gauche"],
-      ["cheville", "D", 352, 764, 22, "Cheville droite"], ["cheville", "G", 422, 764, 22, "Cheville gauche"], ["pied", "D", 346, 806, 22, "Pied droit"], ["pied", "G", 428, 806, 22, "Pied gauche"],
-      ["cervical", "", 877, 142, 24, "Nuque"], ["epaule", "G", 788, 198, 27, "Épaule gauche (dos)"], ["epaule", "D", 966, 198, 27, "Épaule droite (dos)"],
-      ["lombaire", "", 877, 290, 26, "Dos (région dorsale)"], ["lombaire", "", 877, 372, 30, "Bas du dos"], ["hanche", "G", 842, 446, 26, "Fesse gauche"], ["hanche", "D", 912, 446, 26, "Fesse droite"],
-      ["genou", "G", 840, 592, 26, "Creux du genou gauche"], ["genou", "D", 914, 592, 26, "Creux du genou droit"], ["cheville", "G", 844, 762, 22, "Talon et Achille gauche"], ["cheville", "D", 910, 762, 22, "Talon et Achille droit"]];
+    const Z = C.ZONES_ATLAS;
     const zones = Z.filter(([r]) => prets.has(r)).map(([r, cote, x, y, rayon, nom]) =>
       `<circle class="lo-zone" data-zone="${r}" data-cote="${cote}" cx="${x}" cy="${y}" r="${rayon}" tabindex="0" role="button" aria-label="${esc(nom)}"><title>${esc(nom)}</title></circle>`).join("");
     return `<figure class="lo-atlas lo-atlas-image"><svg viewBox="0 0 1264 848" role="group" aria-label="Atlas de la douleur : toucher la zone douloureuse">
@@ -893,8 +887,10 @@
   choixDx.addEventListener("change", tableau);
   $("#lo-consigne") && $("#lo-consigne").addEventListener("click", e => { if (!choixDx.value) return; const [r, id] = choixDx.value.split("|"); copier(LO.consigne(D(r), id), e.currentTarget, "Questions copiées"); });
 
-  /* ---------- Départ : la région de la page ---------- */
-  const depart = document.body.dataset.articulation;
-  etat.regions = prets.has(depart) ? [depart] : [];
+  /* ---------- Départ : la région de la page, ou la plainte choisie sur le schéma de l'accueil (?plainte=…&cote=…) ---------- */
+  const depart = document.body.dataset.articulation, demande = new URLSearchParams(location.search);
+  const voulues = [...new Set((demande.get("plainte") || "").split(",").filter(r => prets.has(r)))];
+  etat.regions = voulues.length ? voulues : prets.has(depart) ? [depart] : [];
+  if (voulues.length === 1 && /^[DGB]$/.test(demande.get("cote") || "")) ecrire(`${voulues[0]}:cote`, demande.get("cote"));
   Promise.all(etat.regions.map(chargerRegion)).then(() => { construire(); maj(); sources(); });
 })();

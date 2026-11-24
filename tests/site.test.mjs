@@ -363,11 +363,19 @@ async function guide(nav) {
 async function locomoteur(nav) {
   {
     const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/", { largeur: 390 });
-    const r = await p.evaluate(() => ({ titre: document.querySelector("h1").textContent, liens: [...document.querySelectorAll("a.lo-region")].map(a => a.getAttribute("href")),
-      regions: document.querySelectorAll(".lo-region").length }));
-    verifier("MSK Morand : l'accueil liste 9 régions, dont le genou", r.titre === "MSK Morand" && r.regions === 9 && r.liens.includes("/locomoteur/genou/"), r);
+    // Accueil : le bouton et le schéma du corps (zones des 9 régions, avec leur côté), sans tuiles de régions.
+    const z = await p.evaluate(() => ({ titre: document.querySelector("h1").textContent, tuiles: document.querySelectorAll(".lo-region").length,
+      bouton: document.querySelector(".lo-demarrer a").getAttribute("href"), zones: [...document.querySelectorAll(".lo-planche a")].map(a => a.getAttribute("href")) }));
+    const regionsZones = [...new Set(z.zones.map(h => new URL(h, BASE).searchParams.get("plainte")))];
+    verifier("MSK Morand : accueil avec le bouton et le schéma du corps (9 régions cliquables, sans tuiles)",
+      z.titre === "MSK Morand" && z.tuiles === 0 && z.bouton === "/locomoteur/consultation/" && regionsZones.length === 9 && z.zones.includes("/locomoteur/consultation/?plainte=genou&cote=D") && !(await deborde(p)), { ...z, regionsZones });
     verifier("MSK Morand : accueil sans erreur", erreurs.length === 0, erreurs);
+    await p.click('.lo-planche a[href="/locomoteur/consultation/?plainte=genou&cote=D"]'); await p.waitForSelector('[data-q="genou:cote"]');
+    const d = await p.evaluate(() => ({ url: location.pathname, plaintes: [...document.querySelectorAll(".lo-puce[aria-pressed=true][data-region]")].map(b => b.dataset.region),
+      cote: document.querySelector('[data-q="genou:cote"][aria-pressed="true"]')?.textContent }));
+    verifier("MSK Morand : une zone du schéma ouvre la consultation avec la plainte et son côté (genou droit)", d.url === "/locomoteur/consultation/" && d.plaintes.join() === "genou" && /^Droit/.test(d.cote || ""), d);
     await ctx.close();
+    const r = { liens: regionsZones.map(x => `/locomoteur/${x}/`) };
     // Chaque région ouverte : la page se charge sans erreur, calcule, rédige la note et ne déborde pas à 390 px.
     for (const lien of r.liens.filter(l => l !== "/locomoteur/genou/")) {
       const { ctx: c2, p: p2, erreurs: e2 } = await ouvrir(nav, lien, { largeur: 390 });

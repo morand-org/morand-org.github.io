@@ -37,21 +37,44 @@
     <p class="cr-lead">Pendant la visite, on coche l'anamnèse et l'examen ; la page propose un diagnostic différentiel, signale les drapeaux rouges, suggère une conduite et rédige la note à coller au dossier.</p>
   </section>
 
+  <!-- depart -->
   <p class="lo-demarrer"><a class="lo-bouton lo-bouton-grand" href="/locomoteur/consultation/">Démarrer la consultation</a></p>
-  <p class="lo-demarrer-aide">Choisissez ensuite la ou les régions sur l'atlas. Rien n'est transmis : les réponses restent dans la page.</p>
-
-  <h2 class="lo-regions-titre">Choisir la région</h2>
-  <ol class="lo-regions cr-specs">
-    <li><a class="cr-spec lo-region" href="/locomoteur/cervical/"><span class="cr-spec-nom">Cervical</span><span class="cr-spec-sous">17 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/epaule/"><span class="cr-spec-nom">Épaule</span><span class="cr-spec-sous">17 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/coude/"><span class="cr-spec-nom">Coude</span><span class="cr-spec-sous">17 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/poignet/"><span class="cr-spec-nom">Poignet et main</span><span class="cr-spec-sous">29 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/lombaire/"><span class="cr-spec-nom">Lombaire</span><span class="cr-spec-sous">16 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/hanche/"><span class="cr-spec-nom">Hanche</span><span class="cr-spec-sous">21 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/genou/"><span class="cr-spec-nom">Genou</span><span class="cr-spec-sous">23 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/cheville/"><span class="cr-spec-nom">Cheville</span><span class="cr-spec-sous">21 diagnostics</span></a></li>
-    <li><a class="cr-spec lo-region" href="/locomoteur/pied/"><span class="cr-spec-nom">Pied</span><span class="cr-spec-sous">22 diagnostics</span></a></li>
-  </ol>
+  <p class="lo-ou"><span>ou touchez la zone douloureuse</span></p>
+  <figure class="lo-planche">
+    <svg viewBox="0 0 1264 848" role="group" aria-label="Schéma du corps : toucher la zone douloureuse pour commencer la consultation">
+      <image class="lo-atlas-fond" href="/locomoteur/atlas-corps.webp" x="0" y="0" width="1264" height="848"/>
+      <a href="/locomoteur/consultation/?plainte=cervical" aria-label="Cou : commencer la consultation"><circle class="lo-zone" cx="387" cy="142" r="24"><title>Cou</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=epaule&amp;cote=D" aria-label="Épaule droite : commencer la consultation"><circle class="lo-zone" cx="298" cy="198" r="27"><title>Épaule droite</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=epaule&amp;cote=G" aria-label="Épaule gauche : commencer la consultation"><circle class="lo-zone" cx="476" cy="198" r="27"><title>Épaule gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=coude&amp;cote=D" aria-label="Coude droit : commencer la consultation"><circle class="lo-zone" cx="278" cy="326" r="23"><title>Coude droit</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=coude&amp;cote=G" aria-label="Coude gauche : commencer la consultation"><circle class="lo-zone" cx="494" cy="326" r="23"><title>Coude gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=poignet&amp;cote=D" aria-label="Poignet ou main droite : commencer la consultation"><circle class="lo-zone" cx="252" cy="434" r="26"><title>Poignet ou main droite</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=poignet&amp;cote=G" aria-label="Poignet ou main gauche : commencer la consultation"><circle class="lo-zone" cx="520" cy="434" r="26"><title>Poignet ou main gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=hanche&amp;cote=D" aria-label="Hanche ou aine droite : commencer la consultation"><circle class="lo-zone" cx="348" cy="438" r="26"><title>Hanche ou aine droite</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=hanche&amp;cote=G" aria-label="Hanche ou aine gauche : commencer la consultation"><circle class="lo-zone" cx="426" cy="438" r="26"><title>Hanche ou aine gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=genou&amp;cote=D" aria-label="Genou droit : commencer la consultation"><circle class="lo-zone" cx="348" cy="594" r="27"><title>Genou droit</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=genou&amp;cote=G" aria-label="Genou gauche : commencer la consultation"><circle class="lo-zone" cx="426" cy="594" r="27"><title>Genou gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=cheville&amp;cote=D" aria-label="Cheville droite : commencer la consultation"><circle class="lo-zone" cx="352" cy="764" r="22"><title>Cheville droite</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=cheville&amp;cote=G" aria-label="Cheville gauche : commencer la consultation"><circle class="lo-zone" cx="422" cy="764" r="22"><title>Cheville gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=pied&amp;cote=D" aria-label="Pied droit : commencer la consultation"><circle class="lo-zone" cx="346" cy="806" r="22"><title>Pied droit</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=pied&amp;cote=G" aria-label="Pied gauche : commencer la consultation"><circle class="lo-zone" cx="428" cy="806" r="22"><title>Pied gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=cervical" aria-label="Nuque : commencer la consultation"><circle class="lo-zone" cx="877" cy="142" r="24"><title>Nuque</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=epaule&amp;cote=G" aria-label="Épaule gauche (dos) : commencer la consultation"><circle class="lo-zone" cx="788" cy="198" r="27"><title>Épaule gauche (dos)</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=epaule&amp;cote=D" aria-label="Épaule droite (dos) : commencer la consultation"><circle class="lo-zone" cx="966" cy="198" r="27"><title>Épaule droite (dos)</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=lombaire" aria-label="Dos (région dorsale) : commencer la consultation"><circle class="lo-zone" cx="877" cy="290" r="26"><title>Dos (région dorsale)</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=lombaire" aria-label="Bas du dos : commencer la consultation"><circle class="lo-zone" cx="877" cy="372" r="30"><title>Bas du dos</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=hanche&amp;cote=G" aria-label="Fesse gauche : commencer la consultation"><circle class="lo-zone" cx="842" cy="446" r="26"><title>Fesse gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=hanche&amp;cote=D" aria-label="Fesse droite : commencer la consultation"><circle class="lo-zone" cx="912" cy="446" r="26"><title>Fesse droite</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=genou&amp;cote=G" aria-label="Creux du genou gauche : commencer la consultation"><circle class="lo-zone" cx="840" cy="592" r="26"><title>Creux du genou gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=genou&amp;cote=D" aria-label="Creux du genou droit : commencer la consultation"><circle class="lo-zone" cx="914" cy="592" r="26"><title>Creux du genou droit</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=cheville&amp;cote=G" aria-label="Talon et Achille gauche : commencer la consultation"><circle class="lo-zone" cx="844" cy="762" r="22"><title>Talon et Achille gauche</title></circle></a>
+      <a href="/locomoteur/consultation/?plainte=cheville&amp;cote=D" aria-label="Talon et Achille droit : commencer la consultation"><circle class="lo-zone" cx="910" cy="762" r="22"><title>Talon et Achille droit</title></circle></a>
+      <text class="lo-atlas-cote" x="190" y="840">D</text><text class="lo-atlas-cote" x="585" y="840">G</text><text class="lo-atlas-cote" x="690" y="840">G</text><text class="lo-atlas-cote" x="1065" y="840">D</text>
+      <text class="lo-atlas-vue" x="120" y="60">Face</text><text class="lo-atlas-vue" x="1150" y="60">Dos</text>
+    </svg>
+    <figcaption>La consultation s'ouvre avec cette plainte et son côté ; vous pourrez en ajouter d'autres. Rien n'est transmis : les réponses restent dans la page.</figcaption>
+  </figure>
+  <!-- /depart -->
 
   <!-- fiches-hy -->
   <h2 class="lo-regions-titre">Fiches résumées des pathologies</h2>
