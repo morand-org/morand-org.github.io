@@ -103,7 +103,6 @@ for (const [region, R] of Object.entries(REGIONS)) {
   <ol class="hy-patients">
 ${fiches.map(f => `    <li><a href="${f.u}" target="_blank" rel="noopener"><span class="hy-carte-no">Fiche ${f.no}</span><span class="hy-carte-titre">${esc(f.titre)}</span><span class="hy-carte-tags">PDF · ${f.fin - f.debut + 1} pages · ${ko(f)} Ko</span></a></li>`).join("\n")}
   </ol>
-  <p class="cr-petit hy-note">Document d'information générale rédigé par le Dr Morand ; il ne remplace pas l'avis du médecin ou du physiothérapeute qui suit le patient.</p>
 ` + pied);
   resume.push({ region, nom: R.nom, n: fiches.length, lies: Object.keys(liens[region]).length });
 }
