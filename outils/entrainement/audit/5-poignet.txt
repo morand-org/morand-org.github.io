@@ -1,0 +1,378 @@
+# Audit du quiz, poignet et main (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+@ msk-poignet POIG
+= P1 70
+= P18 78
+= P5 72
+= P14 73
+= M3 81
+= M7 83
+= P4 71
+= M14 85
+= M1 79
+= M2 80
+= P8 75
+= P10 76
+= M10 84
+= M5 82
+= P2 87
+= P9 88
+= M6 92
+= M12 93
+= M15 94
+= M20 95
+= P11 96
+= M9 97
+= P13 97
+
+## 70 Syndrome du canal carpien
+070-01 1 L | e: Hypoalgésie dans le territoire du nerf médian
+070-02 3 M | def: Diagramme de Katz : le patient dessine ses symptômes sur un schéma de la main ; « classique » si les paresthésies touchent au moins 2 des doigts 1 à 3.
+070-03 3 M | e: Diagramme de Katz « improbable »
+070-04 2 M
+070-05 2 M
+070-06 1 D | e: Test de Phalen positif | def: Test de Phalen : poignets en flexion complète, dos des mains l'un contre l'autre, pendant 60 secondes ; positif s'il reproduit les paresthésies.
+070-07 1 D
+070-08 3 D | e: Signe de la secousse (flick sign) | def: Signe de la secousse : le patient secoue la main pour soulager ses paresthésies, surtout la nuit.
+070-09 3 M | def: CTS-6 : score clinique sur 6 éléments (engourdissement du territoire médian, symptômes nocturnes, atrophie thénarienne, Tinel, Phalen, perte de la discrimination de 2 points).
+070-10 4 M | e: Surface du nerf médian élevée à l'échographie
+070-11 2 L
+070-12 2 D
++ P1 epi 1 L ↑ demo | Sexe féminin
++ P1 epi 1 L ↑ risq | Grossesse
++ P1 epi 2 L ↑ risq | Diabète
++ P1 pre 1 L ↑ anam | Engourdissement nocturne soulagé en secouant la main
+
+## 78 Neuropathie ulnaire au canal de Guyon
+078-01 3 L
+078-02 3 M
+078-03 3 D | e: Sensibilité du dos de la main (côté ulnaire) épargnée | def: La branche cutanée dorsale du nerf ulnaire quitte le nerf avant le canal de Guyon : le dos de la main reste sensible.
+078-04 3 L
+078-05 0 - | r: Énoncé confus (association fréquente, présentée comme neutre), sans sens diagnostique clair.
+078-06 0 - | r: Notion technique d'électromyographie, sans usage au bureau.
++ P18 epi 3 L ↑ risq | Usage d'outils vibrants
+
+## 86 Douleur projetée d'origine cervicale (C6 à C8)
+086-01 1 L
+086-02 2 D
+086-03 2 M
+086-04 3 M
+086-05 1 L
+086-06 3 D
+086-07 2 D | e: Canal carpien déjà documenté (les deux coexistent souvent)
+086-08 0 - | r: Donnée épidémiologique (double compression rare), sans sens diagnostique au bureau.
+086-09 3 D | e: Faiblesse du long fléchisseur du pouce et de l'extenseur de l'index, avec déficit sensitif de l'avant-bras médial
+086-10 0 - | r: Notion d'électromyographie de spécialiste (potentiels sensitifs), sans usage au bureau.
+
+## 72 Ténosynovite de De Quervain
+072-01 1 L
+072-02 2 L
+072-03 1 L
+072-04 2 L
+072-05 1 L | def: Test de Finkelstein : on tire le pouce en flexion et le poignet en inclinaison ulnaire ; positif s'il réveille la douleur sur la styloïde radiale.
+072-06 3 M | def: Test WHAT : poignet en flexion maximale, on résiste à l'abduction du pouce ; positif s'il donne une douleur.
+072-07 3 D
+072-08 4 D
++ P5 pre 1 L ↑ anam | Douleur au bord radial du poignet en soulevant un nourrisson
+
+## 73 Ténosynovite de l'extenseur ulnaire du carpe
+073-01 4 M | def: Test de synergie de l'ECU : main en supination, on résiste à l'abduction radiale du pouce ; une douleur dorso-ulnaire évoque une atteinte de l'extenseur ulnaire du carpe.
+073-02 0 - | r: Test peu connu, tiré d'une seule étude de dérivation, sans description dans la source.
+073-03 4 D
+073-04 4 D
+073-05 4 M
+073-06 0 - | r: Donnée descriptive sur 19 rameurs d'élite, sans sens diagnostique.
++ P14 epi 4 L ↑ risq | Joueur de tennis ou de golf
++ P14 pre 4 M ↑ anam | Ressaut douloureux du tendon en rotation de l'avant-bras
+
+## 81 Doigt à ressaut
+081-01 1 L
+081-02 3 M
+081-03 2 L
+081-04 2 L
+081-05 3 D
++ M3 epi 2 L ↑ demo | Femme de 50 à 60 ans
++ M3 pre 1 L ↑ anam | Accrochage du doigt, puis blocage douloureux
++ M3 exa 1 L ↑ exam | Nodule sensible à la base du doigt (poulie A1), ressaut à la fermeture du poing
+
+## 83 Maladie de Dupuytren
+083-01 1 L
+083-02 2 L
+083-03 2 L
+083-04 3 L
+083-05 3 L
+083-06 3 D
+083-07 3 D
+083-08 0 - | r: Donnée descriptive (proportion de rétraction), sans sens diagnostique.
++ M7 epi 2 L ↑ risq | Antécédent familial de maladie de Dupuytren
++ M7 epi 2 L ↑ demo | Âge plus avancé
++ M7 pre 1 L ↑ exam | Nodules et dépressions de la peau de la paume
++ M7 pre 1 L ↑ exam | Corde palpable vers l'annulaire ou l'auriculaire
+
+## 71 Kyste synovial
+071-01 1 L
+071-02 1 L | e: Masse dorsale du poignet, en regard du scapho-lunaire
+071-03 0 - | r: Énoncé tronqué (« : 69 % de kystes palmaires »), illisible.
+071-04 3 M
+071-05 3 D
+071-06 3 M
+071-07 4 D
++ P4 pre 1 L ↑ anam | Masse dont la taille varie
++ P4 exa 2 L ↑ exam | Masse qui laisse passer la lumière (transillumination)
+
+## 85 Lésion de poulie du grimpeur
+085-01 4 L | e: Prise arquée (crimp) en escalade
+085-02 4 L | e: Atteinte de l'annulaire ou du majeur
+085-03 4 L | e: Claquement audible pendant l'escalade
+085-04 4 D | e: Absence de corde d'arc (bowstringing)
+085-05 4 M | e: Distance tendon-os de plus de 1 mm à l'échographie
+085-06 0 - | r: Donnée descriptive chez des grimpeurs non blessés, sans sens diagnostique.
+
+## 74 Arthrose du poignet
+074-01 2 L | e: Pseudarthrose du scaphoïde depuis 5 ans ou plus | def: Pseudarthrose : fracture qui ne s'est jamais consolidée.
+074-02 3 M | def: Chondrocalcinose : dépôts de cristaux de pyrophosphate de calcium, visibles comme un fin liseré calcifié dans le cartilage à la radiographie.
+074-03 0 - | r: Donnée descriptive (proportion des formes d'arthrose), sans sens diagnostique.
+074-04 0 - | r: Donnée descriptive (traumatisme rarement rapporté), sans sens diagnostique clair.
+074-05 3 D
+074-06 0 - | r: Donnée de pronostic (pas de progression sur 7 ans), sans sens diagnostique.
+074-07 4 D | e: Arthrose STT : sexe féminin
+
+## 79 Arthrose digitale
+079-01 3 M | def: Critères ACR 1990 : critères de classification de l'arthrose de la main, fondés sur l'examen (élargissement osseux dur, déformations, peu de tuméfaction des métacarpo-phalangiennes).
+079-02 3 M
+079-03 1 L
+079-04 2 L | e: Âge de plus de 70 ans
+079-05 1 L | def: Nodules d'Heberden : renflements osseux durs des interphalangiennes distales.
+079-06 2 D
+079-07 3 D
+079-08 3 L
+079-09 3 D
+079-10 4 M | e: Érosions centrales en « aile de mouette » à la radiographie
+079-11 4 M | e: Érosions marginales à la radiographie
++ M1 epi 2 L ↑ demo | Femme autour de la ménopause
++ M1 pre 2 L ↑ exam | Nodules osseux durs aux interphalangiennes proximales (Bouchard) | def: Nodules de Bouchard : renflements osseux durs des interphalangiennes proximales.
+
+## 80 Rhizarthrose
+080-01 4 M | e: Test d'extension du métacarpien positif
+080-02 4 M | e: Test d'extension du métacarpien négatif
+080-03 4 M | e: Test d'adduction du métacarpien positif
+080-04 2 M | e: Grind test positif | def: Grind test : compression axiale et rotation du 1er métacarpien sur le trapèze ; positif s'il donne douleur ou crépitation.
+080-05 2 D | e: Grind test négatif
+080-06 1 M | e: Base du pouce indolore à la palpation
+080-07 4 M | e: Test de pression-cisaillement positif
+080-08 4 M | e: Test de traction-translation positif
+080-09 1 L | e: Âge plus avancé
+080-10 3 D
++ M2 epi 1 L ↑ demo | Femme de plus de 50 ans
++ M2 pre 1 L ↑ anam | Douleur à la base du pouce en pinçant, en tournant une clé ou en ouvrant un pot
++ M2 pre 2 L ↑ exam | Saillie dorso-radiale de la base du pouce
+
+## 75 Lésion du TFCC ou instabilité radio-ulnaire distale
+075-01 4 D | def: Signe de la fovéa : douleur à la pression du creux entre la styloïde ulnaire et le pisiforme.
+075-02 4 D
+075-03 4 M
+075-04 4 D | e: Press test positif | def: Press test : le patient se soulève d'une chaise en poussant sur ses mains ; une douleur ulnaire du poignet est positive.
+075-05 3 D
+075-06 4 M
+075-07 4 M
+075-08 3 M
+075-09 3 M | def: Variance ulnaire positive : l'ulna dépasse le radius au poignet, à la radiographie.
++ P8 pre 2 M ↑ anam | Douleur au bord ulnaire du poignet avec claquement, après une chute ou une torsion
+
+## 76 Lésion du ligament scapho-lunaire
+076-01 3 M | e: Test de Watson positif | def: Test de Watson : pression sur le tubercule du scaphoïde pendant que le poignet passe de l'inclinaison ulnaire à radiale ; un ressaut douloureux est positif.
+076-02 4 D
+076-03 4 D
+076-04 3 M | e: Angle scapho-lunaire de plus de 62,5° à la radiographie
+076-05 2 L
+076-06 4 D | e: IRM 1,5 T positive
+076-07 4 M | e: IRM 3 T positive
+076-08 0 - | r: Signe d'IRM de recherche (hypersignal fréquent chez le poignet normal), sans usage au bureau.
++ P10 pre 3 M ↑ anam | Clic et douleur dorso-radiale après une chute sur la main
+
+## 84 Entorse du ligament collatéral ulnaire du pouce
+084-01 1 M | e: Examen clinique du pouce normal (ni laxité ni douleur)
+084-02 1 L | e: Examen clinique du pouce anormal
+084-03 1 L | e: Laxité en valgus de plus de 35° en extension
+084-04 3 D | e: Différence de laxité de plus de 15° avec l'autre pouce
+084-05 0 - | r: Énoncé tautologique (la rupture complète est le diagnostic lui-même).
+084-06 3 M | def: Lésion de Stener : le ligament rompu se retrouve au-dessus de l'aponévrose de l'adducteur et ne peut pas guérir seul.
+084-07 3 D | e: IRM en pratique courante
++ M10 pre 1 L ↑ anam | Déviation radiale forcée du pouce (chute avec un bâton de ski)
+
+## 82 Entorse ou luxation interphalangienne
+082-01 2 L | e: Luxation à déplacement dorsal ou dorso-ulnaire
+082-02 0 - | r: Énoncé confus (« palmaire »), carte expérimentale.
+082-03 3 L | e: Atteinte de l'auriculaire ou de l'annulaire
+082-04 2 L
+082-05 0 - | r: Donnée descriptive (proportion d'arrachements), sans sens diagnostique.
++ M5 pre 2 L ↑ anam | Doigt coincé avec gonflement fusiforme de l'articulation
+
+## 77 Poignet du gymnaste
+077-01 4 L
+077-02 4 L
+077-03 4 M
+077-04 4 D
+077-05 4 D
+077-06 0 - | r: Donnée descriptive (fréquence très variable selon les séries), sans sens diagnostique.
+
+## 87 Fracture du radius distal
+087-01 2 M | def: Règles d'Amsterdam : règles de décision qui indiquent quand radiographier le poignet après un traumatisme, chez l'adulte et chez l'enfant.
+087-02 2 M
+087-03 3 D
+087-04 1 M | e: Enfant sans sensibilité du radius, ni tuméfaction, ni prono-supination anormale
+087-05 1 L
+087-06 2 M | e: Dorsiflexion du poignet indolore
+087-07 2 L | e: Ecchymose du poignet
+087-08 3 M
+087-09 3 M
+087-10 3 M
+087-11 1 L
+087-12 3 D
+087-13 0 - | r: Sens douteux : mécanisme typique, mais la source ne donne aucun rapport de vraisemblance.
++ P2 pre 1 L ↑ anam | Chute de sa hauteur chez une personne âgée
+
+## 88 Fracture du scaphoïde
+088-01 1 M
+088-02 1 D
+088-03 2 D
+088-04 2 M
+088-05 2 M
+088-06 3 M
+088-07 4 M
+088-08 2 D
+088-09 3 M | e: Homme sportif, douleur de la tabatière en inclinaison ulnaire et douleur à la pince
+088-10 3 D | e: Chute de sa hauteur, torsion ou choc direct (traumatisme mineur)
+088-11 1 D
+088-12 3 D
+088-13 3 M
++ P9 epi 2 L ↑ demo | Homme de 15 à 19 ans
++ P9 pre 1 L ↑ anam | Chute sur la main en hyperextension
+
+## 89 Luxation péri-lunaire
+089-01 3 L
+089-02 2 L
+089-03 2 M | e: Symptômes aigus du nerf médian après le traumatisme
+089-04 3 M
+089-05 2 D
+089-06 4 M | e: Arcs de Gilula rompus à la radiographie (part de tarte, tasse renversée) | def: Arcs de Gilula : trois lignes courbes régulières que dessinent les os du carpe sur la radiographie de face.
+
+## 90 Fracture de l'hamulus de l'hamatum
+090-01 3 L
+090-02 4 D
+090-03 3 L | e: Sensibilité de l'hamulus de l'hamatum (paume, côté ulnaire)
+090-04 3 M
+090-05 3 D
+090-06 4 M
+090-07 3 L
+
+## 91 Maladie de Kienböck
+091-01 4 D
+091-02 3 D
+091-03 4 D
+091-04 3 M | def: Maladie de Kienböck : nécrose avasculaire du semi-lunaire.
+091-05 3 D | e: Sexe (homme ou femme)
+091-06 3 D
+091-07 0 - | r: Donnée descriptive (valeur prédictive d'une IRM externe), sans sens diagnostique au bureau.
+
+## 92 Fracture de la main
+092-01 1 L
+092-02 2 D
+092-03 2 M
+092-04 0 - | r: Énoncé vague (examen clinique global, chiffres très dispersés).
+092-05 3 M | e: Échographie positive
+092-06 3 M
+092-07 2 D | e: Chevauchement des doigts en flexion (malrotation)
+092-08 1 L
+092-09 3 D | e: Douleur au diapason sur l'os
+092-10 0 - | r: Donnée de fréquence (fracture de Bennett rare), sans sens diagnostique.
++ M6 pre 1 L ↑ anam | Coup de poing, avec perte du relief de la jointure
+
+## 93 Doigt en maillet
+093-01 3 L | e: Atteinte des trois doigts ulnaires
+093-02 2 L
+093-03 2 D
+093-04 1 L | e: Déficit d'extension marqué de la dernière phalange
+093-05 0 - | r: Donnée descriptive (doigt le plus touché variable), sans sens diagnostique.
++ M12 epi 3 L ↑ anam | Atteinte de la main dominante
+
+## 94 Avulsion du fléchisseur profond (jersey finger)
+094-01 2 L | e: Atteinte de l'annulaire
+094-02 1 L
+094-03 1 L
+094-04 2 D
+094-05 0 - | r: Donnée descriptive (présentations tardives), sans sens diagnostique.
++ M15 pre 2 L ↑ anam | Poing incomplet après un « pop » au doigt
+
+## 95 Ténosynovite infectieuse des fléchisseurs
+095-01 1 M
+095-02 1 D | def: Signes de Kanavel : doigt en légère flexion, tuméfaction fusiforme, sensibilité le long de la gaine, douleur à l'extension passive.
+095-03 3 D
+095-04 2 D
+095-05 4 M
+095-06 2 D
+095-07 1 D
+095-08 2 D
+095-09 3 M
++ M20 epi 1 L ↑ anam | Plaie pénétrante récente de la paume ou du doigt
+
+## 96 Polyarthrite rhumatoïde
+096-01 1 M
+096-02 2 D
+096-03 2 M
+096-04 2 M | def: Squeeze test : on serre transversalement les métacarpo-phalangiennes ; une douleur évoque une synovite.
+096-05 3 D
+096-06 2 D
+096-07 2 M | def: Critères ACR/EULAR 2010 : score qui combine les articulations atteintes, la sérologie, les marqueurs inflammatoires et la durée ; 6 sur 10 ou plus classe la polyarthrite rhumatoïde.
+096-08 4 M | def: Règle de Leiden : score qui prédit l'évolution d'une arthrite récente vers une polyarthrite rhumatoïde.
+096-09 1 D
+096-10 2 L
+096-11 2 M
+096-12 3 M
++ P11 epi 2 L ↑ demo | Sexe féminin
++ P11 pre 1 L ↑ anam | Raideur matinale des mains et fatigue, début insidieux
+
+## 97 Goutte ou chondrocalcinose (poignet ou main)
+097-01 2 M
+097-02 2 L | e: Goutte : femme âgée sous diurétique
+097-03 2 M | def: Critères ACR/EULAR 2015 de la goutte : score qui combine les articulations atteintes, les caractéristiques de la crise, l'uricémie, l'imagerie et les tophus ; 8 points ou plus classent la goutte.
+097-04 2 M
+097-05 3 M | e: Score de Janssens de 4 ou moins (goutte) | def: Score de Janssens : règle de première ligne devant une monoarthrite aiguë ; il additionne le sexe masculin, une crise antérieure, un début en moins d'un jour, la rougeur, l'atteinte du gros orteil, l'hypertension ou une maladie cardiovasculaire, et une uricémie élevée.
+097-06 3 M | e: Score de Janssens de 8 ou plus (goutte)
+097-07 1 D
+097-08 2 L | e: Goutte : diurétique de l'anse
+097-09 3 L | e: Chondrocalcinose : atteinte du poignet
+097-10 3 M | def: Chondrocalcinose : dépôts de cristaux de pyrophosphate de calcium, visibles comme un fin liseré calcifié dans le cartilage à la radiographie ; la crise aiguë s'appelle pseudogoutte.
+097-11 3 D
+097-12 3 M | e: Chondrocalcinose : hyperparathyroïdie
+097-13 0 - | r: Énoncé confus (« sexe »), carte expérimentale.
+097-14 3 M | e: Chondrocalcinose : âge de moins de 60 ans
++ M9 epi 2 L ↑ demo | Sexe masculin
++ M9 pre 1 L ↑ anam | Douleur maximale en moins de 24 heures, articulation rouge et chaude
++ M9 pre 1 L ↑ exam | Tophus aux doigts
++ P13 pre 3 M ↑ anam | Arthrite du poignet avec délirium chez une personne âgée
+
+## 98 Arthrite psoriasique (dactylite)
+098-01 3 M | def: Critères CASPAR : classent l'arthrite psoriasique à partir du psoriasis, des ongles, de la dactylite, du facteur rhumatoïde négatif et de l'ossification juxta-articulaire.
+098-02 3 M
+098-03 1 L | def: Dactylite : doigt entièrement enflé, « en saucisse ».
+098-04 1 L
+098-05 2 L
+098-06 2 M
+098-07 2 D
+098-08 4 D | e: Questionnaire PEST positif | def: PEST : questionnaire de dépistage de l'arthrite psoriasique chez le patient psoriasique.
+098-09 2 L
+098-10 0 - | r: Signe radiographique de spécialiste (ossification juxta-articulaire), rarement présent au diagnostic.
+
+## Diagnostics des fiches sans carte jusqu'ici
++ P15 pre 3 M ↑ anam | Douleur dorsale 4 à 8 cm au-dessus du poignet, avec grincement | def: Syndrome de l'intersection : ténosynovite là où les tendons du pouce croisent les extenseurs radiaux du poignet, sur le dos de l'avant-bras distal.
++ P15 epi 4 L ↑ risq | Aviron, sport de raquette ou haltérophilie
++ P19 pre 3 M ↑ anam | Douleur ulnaire du poignet en ouvrant un pot | def: Conflit ulno-carpien : l'ulna, trop long, bute contre le carpe du côté ulnaire du poignet.
++ P21 pre 2 L ↑ anam | Enfant tombé sur la main, avec peu de déformation | def: Fracture en motte de beurre (torus) : tassement de la corticale du radius distal chez l'enfant, sans déplacement.
++ P24 exa 3 M ↑ exam | Extension isolée du 5e doigt impossible chez un patient atteint de polyarthrite
++ M18 pre 2 M ↑ anam | Douleur dorsale de l'interphalangienne proximale après un doigt coincé | def: Déformation en boutonnière : IPP fléchie et IPD en hyperextension, après rupture de la bandelette centrale de l'extenseur ; elle apparaît souvent 1 à 2 semaines après le traumatisme.
++ M19 exa 2 L ↑ exam | Hématome sous l'ongle de plus de la moitié de l'ongle, après un écrasement
++ M17 pre 3 L ↑ anam | Charge axiale sur le pouce fléchi, base du pouce enflée | def: Fracture de Bennett : fracture-luxation intra-articulaire de la base du 1er métacarpien.
++ P23 pre 3 M ↑ anam | Raideur et enflure du poignet plus que douleur, chez un enfant
++ M16 pre 3 L ↑ exam | Nodule dorsal entre la dernière articulation du doigt et l'ongle, avec une gouttière de l'ongle | def: Kyste mucoïde : kyste de l'interphalangienne distale, lié à l'arthrose, qui peut déformer l'ongle.
