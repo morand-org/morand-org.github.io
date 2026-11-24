@@ -42,9 +42,11 @@
    "domaine": "MSK",
    "region": "Coude",
    "fichier": "/entrainement/banque/msk-coude.json",
-   "cartes": 186,
+   "cartes": 216,
    "experimentales": 1,
-   "diagnostics": 19
+   "diagnostics": 20,
+   "retirees": 13,
+   "jouables": 203
   },
   {
    "cle": "msk-poignet",

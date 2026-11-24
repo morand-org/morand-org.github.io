@@ -1,0 +1,277 @@
+# Audit du quiz, coude (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+@ msk-coude COUD
+= Co1 51
+= Co2 52
+= Co7 54
+= Co19 61
+= Co4 53
+= Co13 57
+= Co15 58
+= Co17 59
+= Co5 63
+= Co6 63
+= Co10 63
+= Co16 63
+= Co14 66
+= Co18 68
+= Co9 56
+= Co8 55
+= Co20 69
+
+## 51 Épicondylite latérale
+051-01 4 D | e: Force de préhension réduite de 5 à 10 % coude tendu, par rapport au coude fléchi
+051-02 4 D | e: Force de préhension non réduite coude tendu
+051-03 1 M | def: Test de Cozen : coude fléchi, avant-bras en pronation, on résiste à l'extension du poignet ; positif s'il réveille la douleur à l'épicondyle latéral.
+051-04 2 M | def: Test de Maudsley : on résiste à l'extension du majeur, coude tendu ; positif s'il réveille la douleur à l'épicondyle latéral.
+051-05 3 L
+051-06 1 L
+051-07 1 L
+051-08 2 M
+051-09 3 M
+051-10 3 D | e: Diabète, IMC > 40 ou alcool
+051-11 2 D
+051-12 3 D
++ Co1 pre 1 L ↑ anam | Douleur latérale progressive, sans traumatisme, à la préhension
++ Co1 exa 2 M ↓ anam | Début aigu, blocage ou épanchement du coude
+
+## 52 Épicondylite médiale
+052-01 2 L
+052-02 2 L
+052-03 3 L
+052-04 2 L
+052-05 3 L | e: Tabagisme ou obésité
+052-06 3 D | e: Sexe (homme ou femme)
+052-07 2 M | e: Pronation résistée douloureuse
+052-08 3 D | e: Signes de névrite ulnaire associés
++ Co2 pre 1 L ↑ anam | Douleur médiale du coude à la préhension et à la flexion du poignet
++ Co2 epi 2 L ↑ demo | Âge de 45 à 54 ans
+
+## 60 Tendinopathie distale du triceps
+060-01 3 L | e: Homme d'environ 50 ans
+060-02 2 L
+060-03 4 L
+060-04 2 L
+060-05 0 - | r: Donnée descriptive (proportion de patients sans comorbidité), sans sens diagnostique.
+060-06 0 - | r: Donnée descriptive (rupture rarement suspectée avant l'IRM), sans sens diagnostique.
+
+## 54 Syndrome du tunnel cubital
+054-01 2 D
+054-02 3 D | def: Test de flexion-compression : coude fléchi au maximum, on presse le nerf ulnaire dans la gouttière pendant 60 secondes ; positif s'il reproduit les paresthésies.
+054-03 3 M
+054-04 4 D | def: Scratch collapse test : on gratte la peau sur le trajet du nerf, puis on teste la rotation externe résistée des épaules ; un lâcher bref de la résistance est positif.
+054-05 3 M | e: Rotation interne de l'épaule avec flexion du coude pendant 5 secondes : paresthésies
+054-06 2 D | e: Subluxation du nerf ulnaire à la palpation
+054-07 4 M | e: Surface du nerf ulnaire ≥ 10 mm² à l'échographie
+054-08 2 L
+054-09 2 L
+054-10 3 D | e: Alcool, hypothyroïdie ou HbA1c élevée
++ Co7 pre 1 L ↑ anam | Paresthésies des 4e et 5e doigts, la nuit et coude fléchi
++ Co7 exa 2 M ↑ test | Signe de Froment positif | def: Signe de Froment : en pinçant une feuille entre le pouce et l'index, le patient fléchit le pouce, faute d'adducteur du pouce (nerf ulnaire).
++ Co7 epi 3 L ↑ risq | Diabète ou obésité
+
+## 61 Syndrome du tunnel radial
+061-01 3 M | e: Épicondylite latérale rebelle depuis au moins 6 mois
+061-02 3 D | def: EMG : électromyogramme, examen de la conduction nerveuse et de l'activité des muscles.
+061-03 0 - | r: Donnée d'accord entre l'échographie et le bloc, sans sens diagnostique au bureau.
+061-04 3 D | e: Test de Maudsley (extension résistée du majeur) positif
+061-05 4 M | e: Sensibilité 3 à 5 cm sous l'épicondyle latéral et supination résistée douloureuse
+061-06 3 M | e: Manutention de charges de plus de 1 kg
+061-07 3 D
++ Co19 pre 2 M ↑ anam | Douleur profonde 3 à 5 cm sous l'épicondyle latéral, sans déficit
++ Co19 pre 2 M ↓ exam | Déficit sensitif ou moteur à l'examen
+
+## 62 Douleur projetée d'origine cervicale
+062-01 2 L
+062-02 3 D
+062-03 3 D
+062-04 3 D | e: Topographie de la douleur, comparée aux dermatomes
+062-05 1 L
+062-06 2 D
+062-07 2 M
+062-08 3 D
+062-09 3 D
+062-10 2 M
+062-11 0 - | r: Donnée épidémiologique (double compression rare), sans sens diagnostique au bureau.
+
+## 53 Coude du lanceur juvénile
+053-01 2 L
+053-02 3 L
+053-03 3 L
+053-04 3 L
+053-05 4 M | e: Vitesse de lancer élevée
+053-06 3 D
+053-07 4 M | e: Lancer de balles glissantes (slider)
+053-08 2 L
+053-09 3 D
+053-10 3 D
+053-11 3 D | e: IRM anormale chez un jeune lanceur sans douleur
++ Co4 pre 2 L ↑ anam | Hausse récente du volume de lancers
++ Co4 pre 2 L ↑ anam | Perte de vitesse et de précision au lancer
+
+## 57 Lésion du ligament collatéral ulnaire
+057-01 3 M | e: Moving valgus stress test négatif | def: Moving valgus stress test : coude en valgus, on l'étend rapidement depuis la flexion complète ; positif si la douleur médiale culmine entre 120° et 70°.
+057-02 4 M | e: Moving valgus stress test positif
+057-03 4 M | e: Manœuvre de traite (milking) positive | def: Manœuvre de traite : coude fléchi à 90° et avant-bras en supination, on tire le pouce du patient pour mettre le coude en valgus ; positif s'il donne une douleur médiale.
+057-04 4 D | e: Valgus statique douloureux
+057-05 4 D
+057-06 4 M
+057-07 4 D
+057-08 4 D
+057-09 4 M
+057-10 4 M
+057-11 4 M
+057-12 4 D
+057-13 4 L | e: Vitesse de lancer élevée
++ Co13 pre 3 L ↑ anam | Douleur médiale du coude à l'armé, avec perte de vitesse, chez un lanceur
+
+## 58 Ostéochondrite disséquante du capitulum
+058-01 3 L
+058-02 3 M | e: Âge plus avancé et durée de pratique plus longue
+058-03 4 M | e: Moins de 36 mois de pratique du baseball
+058-04 0 - | r: Doublon confus de la carte précédente (36 mois ou plus).
+058-05 0 - | r: Mesure de la hanche non dominante : indice de recherche sans lien clinique évident avec le coude.
+058-06 3 D | e: Absence de douleur au coude
+058-07 3 D | e: Douleur ou mobilité réduite du coude
+058-08 3 L
+058-09 4 M | e: Radiographie de face à 45° de flexion positive
+058-10 4 M
+058-11 3 D | e: Radiographie standard normale
++ Co15 epi 2 L ↑ demo | Jeune de 10 à 16 ans, au baseball ou en gymnastique
++ Co15 pre 2 M ↑ anam | Douleur latérale insidieuse avec accrochages
+
+## 59 Conflit postérieur du coude
+059-01 3 M | e: Douleur postéro-médiale en fin d'extension, au lâcher de la balle
+059-02 4 L
+059-03 4 D
+059-04 4 M
+059-05 4 D
+059-06 4 D
++ Co17 pre 3 M ↑ anam | Perte d'extension et blocages chez un lanceur
+
+## 67 Fracture de stress de l'olécrâne
+067-01 4 L
+067-02 4 L
+067-03 4 M
+067-04 4 M
+067-05 3 D | e: Radiographie initiale normale
+067-06 0 - | r: Donnée descriptive (siège variable selon les séries), sans sens diagnostique.
+067-07 4 D
+
+## 63 Fracture du coude
+063-01 1 L | e: Extension complète du coude possible | def: Test d'extension du coude : le patient tend complètement le coude ; s'il y arrive, une fracture est peu probable.
+063-02 1 M | e: Extension complète du coude impossible
+063-03 0 - | r: Doublon de la carte « extension complète possible » (autre étude, autre sens) : source de confusion.
+063-04 2 M
+063-05 2 M | e: Mobilité active anormale dans au moins une direction
+063-06 2 M
+063-07 1 D | e: Extension complète possible chez l'enfant de moins de 3 ans
+063-08 3 D
+063-09 1 M | e: Coussinet graisseux postérieur visible chez l'enfant | def: Signe du coussinet graisseux postérieur : ombre claire derrière l'humérus distal sur la radiographie de profil, signe d'épanchement.
+063-10 2 M | e: Épanchement sans fracture visible à la radiographie, chez l'adulte
+063-11 3 D | e: Taille de l'épanchement à la radiographie
+063-12 3 D
++ Co6 pre 1 L ↑ anam | Douleur latérale aggravée par la rotation de l'avant-bras, après une chute
++ Co5 pre 1 L ↑ anam | Enfant tombé sur la main, coude en hyperextension
++ Co10 pre 2 L ↑ anam | Chute directe sur la pointe du coude
++ Co16 epi 2 L ↑ demo | Femme de 60 ans ou plus, après une chute de sa hauteur
+
+## 64 Luxation du coude
+064-01 2 L
+064-02 3 D | e: Sexe (homme ou femme)
+064-03 2 L
+064-04 2 L
+064-05 2 L | e: Déformation postérieure ou postéro-latérale
+064-06 3 D
+
+## 66 Rupture distale du biceps
+066-01 1 M | def: Hook test : coude fléchi à 90° en supination, on cherche à crocheter le tendon du biceps avec l'index, par le côté latéral ; impossible s'il est rompu.
+066-02 2 M
+066-03 3 M
+066-04 0 - | r: Énoncé confus (« en chronique »), doublon de la carte précédente.
+066-05 3 M | e: Intervalle pli du coude–biceps de plus de 6 cm
+066-06 3 M | e: Hook test et intervalle tous deux anormaux, en aigu
+066-07 4 M | e: Test de pronation passive positif
+066-08 0 - | r: Énoncé confus (« en aigu »), doublon de la carte précédente.
+066-09 2 D
+066-10 2 M
+066-11 3 D
+066-12 1 L
+066-13 2 L
+066-14 3 D
++ Co14 pre 1 L ↑ anam | « Pop » en soulevant une charge, coude fléchi
++ Co14 pre 2 L ↑ exam | Ecchymose qui apparaît quelques jours plus tard
+
+## 68 Rupture distale du triceps
+068-01 3 L | e: Homme d'environ 50 ans
+068-02 4 L
+068-03 3 M
+068-04 2 L
+068-05 2 L | e: Défaut palpable au-dessus de l'olécrâne
+068-06 3 D
+068-07 2 D
+068-08 3 M | e: Petite écaille osseuse (flake sign) sur la radiographie de profil
+068-09 3 D | e: Absence d'écaille osseuse sur la radiographie de profil
+068-10 3 D
++ Co18 epi 3 L ↑ risq | Insuffisance rénale
+
+## 56 Arthrose du coude
+056-01 1 L
+056-02 2 L
+056-03 2 L
+056-04 1 L | e: Âge avancé
+056-05 3 L
+056-06 2 D
+056-07 4 M | e: Ostéophyte coronoïdien à l'imagerie
++ Co9 pre 2 L ↑ anam | Douleur en fin de flexion ou d'extension, avec blocages
++ Co9 exa 2 L ↑ exam | Perte de l'extension terminale
+
+## 55 Bursite olécrânienne aseptique
+055-01 2 M | e: Bursite non sensible à la palpation
+055-02 2 L
+055-03 3 D
+055-04 2 D
+055-05 3 M | e: Liquide de ponction peu cellulaire
+055-06 3 L
+055-07 0 - | r: Énoncé confus (diabète), carte expérimentale.
++ Co8 pre 1 L ↑ anam | Tuméfaction fluctuante après un appui prolongé, mobilité du coude conservée
+
+## 65 Bursite olécrânienne septique
+065-01 1 L
+065-02 1 D
+065-03 0 - | r: Donnée descriptive (fréquence de la fièvre selon les séries), sans sens diagnostique.
+065-04 1 L
+065-05 1 M
+065-06 2 L | e: Bursite sensible à la palpation
+065-07 2 M | e: Bursite non sensible à la palpation
+065-08 4 M | e: Peau plus chaude de plus de 2,2 °C que l'autre côté (thermomètre cutané)
+065-09 1 L | e: Plaie ou lésion cutanée sur la bourse
+065-10 3 D | e: Leucocytes dans la bourse < 20 000/mm³
+065-11 3 D
+065-12 3 D
+065-13 4 D
+
+## 69 Arthrite inflammatoire ou microcristalline du coude
+069-01 2 M | def: Critères ACR/EULAR 2015 de la goutte : score qui combine les articulations atteintes, les caractéristiques de la crise, l'uricémie, l'imagerie et les tophus ; 8 points ou plus classent la goutte.
+069-02 2 M
+069-03 1 L
+069-04 2 D
+069-05 1 D
+069-06 2 M | e: Uricémie très basse (< 4 mg/dL)
+069-07 3 M | def: Signe du double contour : liseré d'urate à la surface du cartilage, visible à l'échographie.
+069-08 1 L
+069-09 2 M | e: Anti-CCP positifs (polyarthrite rhumatoïde)
+069-10 0 - | r: Carte mélangée (anti-CCP négatifs et facteur rhumatoïde), au sens douteux.
+069-11 2 M | e: Atteinte isolée du coude (pour une polyarthrite rhumatoïde)
+069-12 2 L
+069-13 3 M | def: Chondrocalcinose : dépôts de cristaux de pyrophosphate de calcium, visibles comme un fin liseré calcifié dans le cartilage à la radiographie ; la crise aiguë s'appelle pseudogoutte.
+069-14 3 D
+069-15 3 D | e: Absence de cristaux de pyrophosphate dans le liquide
++ Co20 exa 1 M ↑ exam | Douleur à tous les mouvements du coude
++ Co20 pre 2 L ↑ anam | Crise qui atteint son maximum en 24 heures
+
+## Diagnostics des fiches sans carte jusqu'ici
++ Co3 pre 1 L ↑ anam | Traction sur le bras tendu d'un enfant de 1 à 3 ans | def: Pronation douloureuse : subluxation de la tête radiale sous le ligament annulaire, chez le jeune enfant.
++ Co3 pre 1 L ↑ exam | Bras immobile en légère flexion et pronation, sans enflure
++ Co3 exa 2 M ↑ exam | Douleur à la supination, mobilité passive presque normale
