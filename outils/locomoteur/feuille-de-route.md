@@ -72,19 +72,19 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 
 ## Demandes du 23 et 24 novembre 2026 (à faire, dans cet ordre)
 
-1. **Accueil de MSK et pages des régions**
+1. ✅ (PR #19) **Accueil de MSK et pages des régions**
    - Retirer l'encadré « Prototype ».
    - Mettre à sa place un gros bouton « Démarrer la consultation », qui ouvre l'outil sans région choisie.
    - Retirer « prêt à essayer » des tuiles.
    - Renommer « Fiches high yield » en « Fiches résumées des pathologies ».
    - Remplacer « aide-mémoire de première ligne (Québec) du document OpenEvidence » par des sources générales et crédibles, écrites pour les médecins et le public.
    - Retirer les bulles de navigation en haut de l'outil (Plaintes, Identification…). Garder Mode rapide, Patients et Nouveau patient.
-2. **MSK visible partout** : accueil du site, onglets des autres outils, indexation.
+2. ✅ (PR #20) **MSK visible partout** : accueil du site, onglets des autres outils, indexation.
    - Idée de page couverture : « Six outils pour la pratique », six cartes à sceau, I à VI.
-3. **Conduite recopiée dans la note**
+3. ✅ (PR #21) **Conduite recopiée dans la note**
    - Seulement des phrases de note clinique (jamais « Clinique » seul).
    - Plan séparé par problème quand il y a plusieurs pathologies.
-4. **Atlas** : utiliser le personnage fourni (images/4.jpg, plus musclé) ou le « lecteur anatomique des plaintes » fourni (HTML).
+4. ✅ (PR #22) **Atlas** : utiliser le personnage fourni (images/4.jpg, plus musclé) ou le « lecteur anatomique des plaintes » fourni (HTML).
 5. **Fiches patients** (PDF par région : cervical, lombaire, épaule, coude, poignet et main, hanche, genou, cheville, pied) : à intégrer, avec impression depuis les résultats.
 6. **Fiches d'infiltration pour le médecin** (PDF) : bibliothèque reliée aux diagnostics.
 7. **Point 14** : importateur de note sans IA. L'analyseur `locomoteur/importer.js` est écrit ; il reste l'écran de confirmation et le branchement.
