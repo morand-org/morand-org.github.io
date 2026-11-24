@@ -100,12 +100,12 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 
 ## Demandes reçues le 24 novembre 2026, après l'audit (à faire, dans cet ordre)
 
-1. Audit du quiz : finir le pied, puis envoyer le rapport classé (CSV).
-2. Logo MSK en mode sombre : l'intérieur reste blanc ; l'uniformiser avec les autres sceaux.
-3. Fiches résumées du genou, de la cheville et du pied : PDF reçus (blocs 9, 10 et 11) ; les publier comme les autres régions, puis tirer des cartes simples du quiz de ces fiches.
-4. Fiche patient du doigt à ressaut : remplacer par la version corrigée reçue (PDF « 12-doigt-qui-accroche-ou-reste-bloque »). Les autres fiches seront probablement corrigées aussi, surtout les images.
-5. Page d'accueil de morand.org : la refaire d'après la maquette « Médecine familiale » (six outils en cartes, recherche, recherches fréquentes, installer l'app, nouveautés). Poser les questions avant.
-6. Images des fiches faites par Gemini : plusieurs erreurs ; proposer des solutions pour les valider et les corriger.
-7. Analyser doctordle.org : une section semblable est-elle possible avec notre base de données ?
+1. ✅ (PR #47) Audit du quiz : pied fini, rapport classé (CSV) envoyé.
+2. ✅ (PR #48) Logo MSK en mode sombre : fond intérieur transparent, doré comme les autres sceaux.
+3. ✅ (PR #49, #52) Fiches résumées du genou, de la cheville et du pied publiées (67 fiches) ; 100 cartes simples du quiz tirées de ces fiches.
+4. ✅ (PR #50) Fiche patient du doigt à ressaut remplacée par la version corrigée (suivi : `outils/locomoteur/fiches-patients/CORRECTIONS.md`). Les autres fiches seront probablement corrigées aussi, surtout les images.
+5. ✅ (PR #51) Page d'accueil refaite d'après la maquette : fond vert forêt pâle, Cormorant Garamond, recherches fréquentes, catégories, « Mis à jour », « Nouveautés ». Pas de lien « Quiz » tant que le quiz n'est pas approuvé ; pas de « Rétroaction » (aucune adresse de contact donnée).
+6. ✅ Solutions proposées le 24 novembre pour valider et corriger les images faites par Gemini (réponse en attente du Dr Morand).
+7. ✅ doctordle.org analysé le 24 novembre : faisable avec notre base (réponse et plan proposés au Dr Morand).
 8. Plus tard : catalogue imprimable des fiches patients, pour un petit classeur à remettre aux patients. Il doit être parfait.
 9. Plus tard : analyser docteur-kilinc.com et dire ce dont on pourrait s'inspirer.
