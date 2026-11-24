@@ -172,7 +172,7 @@
       <image class="lo-atlas-fond" href="/locomoteur/atlas-corps.webp" x="0" y="0" width="1264" height="848"/>${zones}
       <text class="lo-atlas-cote" x="190" y="840">D</text><text class="lo-atlas-cote" x="585" y="840">G</text><text class="lo-atlas-cote" x="690" y="840">G</text><text class="lo-atlas-cote" x="1065" y="840">D</text>
       <text class="lo-atlas-vue" x="120" y="60">Face</text><text class="lo-atlas-vue" x="1150" y="60">Dos</text></svg>
-      <figcaption>Touchez la zone douloureuse : la plainte s'ajoute avec son côté. Les deux côtés : « Les deux ».</figcaption></figure>`;
+      <figcaption>Touchez une ou plusieurs zones douloureuses : chaque plainte s'ajoute avec son côté, et sa section s'ouvre plus bas. Les deux côtés : « Les deux ».</figcaption></figure>`;
   }
   function atlasActif() {
     for (const z of form.querySelectorAll(".lo-zone")) {
@@ -180,10 +180,18 @@
       z.classList.toggle("lo-zone-active", actif);
     }
   }
+  // Zone touchée : la plainte s'ajoute (ou son côté change) sans faire défiler la page, pour en choisir plusieurs à la suite.
   function zoneTouchee(z) {
-    const r = z.dataset.zone, cote = z.dataset.cote, k = `${r}:cote`;
+    const r = z.dataset.zone, cote = z.dataset.cote, k = `${r}:cote`, focus = document.activeElement === z;
     if (cote) { const avant = lire(k); ecrire(k, !avant || avant === "?" || avant === cote ? cote : "B"); }
-    if (!etat.regions.includes(r)) basculerRegion(r); else { construire(); maj(); const s2 = document.getElementById(`s-p-${r}`); if (s2) s2.scrollIntoView({ block: "start" }); }
+    if (!etat.regions.includes(r)) basculerRegion(r, focus ? z : null);
+    else { construire(); maj(); garderFocus(focus ? z : null); }
+  }
+  // Après reconstruction du formulaire, le focus clavier revient sur la même zone ou la même puce, sans défilement.
+  function garderFocus(el) {
+    if (!el) return;
+    const sel = el.classList.contains("lo-zone") ? `.lo-zone[data-zone="${el.dataset.zone}"]${el.dataset.cote ? `[data-cote="${el.dataset.cote}"]` : ""}` : `.lo-puce[data-region="${el.dataset.region}"]`;
+    const n = form.querySelector(sel); if (n) n.focus({ preventScroll: true });
   }
   function sectionPlaintes() {
     const puces = ORDRE.map(r => prets.has(r)
@@ -243,7 +251,7 @@
   form.addEventListener("click", e => {
     const zo = e.target.closest(".lo-zone"); if (zo) { zoneTouchee(zo); return; }
     const pr = e.target.closest("button[data-region]");
-    if (pr) { basculerRegion(pr.dataset.region); return; }
+    if (pr) { basculerRegion(pr.dataset.region, pr); return; }
     const bi = e.target.closest("button[data-info]");
     if (bi) {
       const [r, id] = bi.dataset.info.split("|"), panneau = document.getElementById(bi.getAttribute("aria-controls")), ouvrir = panneau.hidden;
@@ -285,7 +293,7 @@
   form.addEventListener("change", saisie);
   form.addEventListener("submit", e => e.preventDefault());
   form.addEventListener("toggle", e => { const b = e.target.closest && e.target.closest(".lo-bloc-depliable"); if (b === e.target) { if (b.open) blocsOuverts.add(b.dataset.bloc); else blocsOuverts.delete(b.dataset.bloc); } }, true);
-  function basculerRegion(r) {
+  function basculerRegion(r, focus = null) {
     if (etat.regions.includes(r)) {
       if (etat.regions.length === 1) return;
       if (Object.keys(etat.par[r] || {}).length && !confirm(`Retirer la plainte « ${NOMS[r]} » et ses réponses ?`)) return;
@@ -294,7 +302,8 @@
     }
     etat.regions.push(r);
     const puce = form.querySelector(`button[data-region="${r}"]`); if (puce) puce.setAttribute("aria-busy", "true");
-    chargerRegion(r).then(() => { construire(); maj(); sources(); const s = document.getElementById(`s-p-${r}`); if (s) s.scrollIntoView({ block: "start" }); },
+    // La section de la plainte s'ouvre plus bas ; la page ne défile pas (on peut ajouter plusieurs plaintes à la suite).
+    chargerRegion(r).then(() => { const y = scrollY; construire(); maj(); sources(); if (Math.abs(scrollY - y) > 1) scrollTo({ top: y }); garderFocus(focus); },
       () => { etat.regions = etat.regions.filter(x => x !== r); alert(`La région « ${NOMS[r]} » n'a pas pu être chargée.`); construire(); maj(); });
   }
 
