@@ -35,13 +35,25 @@ const REGIONS = {
   hanche: { nom: "Hanche et bassin", calcul: "la hanche", series: [{ fichier: "hanche", nom: "Hanche et bassin" }],
     dx: { coxarthrose: "H1", sdgt: "H2", adducteurs: "H3", ij_aigu: "H4", fracture: "H5", cfa: "H6–7", psoas: "H9", piriforme: "H10", meralgie: "H11", osteite: "H12", parietale: "H13",
       avulsion: "H14", ij_tendino: "H15", epiphysiolyse: "H17", ff_col: "H19", osteonecrose: "H20", apophysite: "H22", contusion: "H23", bassin: "H24", lombaire: "H25", ppr: "H26" } },
+  genou: { nom: "Genou", calcul: "le genou", series: [{ fichier: "genou", nom: "Genou" }],
+    dx: { sfp: "G1", arthrose: "G2", menisque: "G3", lca: "G4", lcp: "G5", collat: "G6", rotule: "G7", tendino: "G8", hoffa: "G9", bit: "G10", bprep: "G11", poie: "G12",
+      osgood: "G13", slj: "G14", contusion: "G15", plica: "G16", discoide: "G17", baker: "G18", ocd: "G19", cristaux: "G20", arthrite: "G21", septique: "G22", insuff: "G23" } },
+  cheville: { nom: "Cheville et jambe", calcul: "la cheville ou la jambe", series: [{ fichier: "cheville", nom: "Cheville et jambe" }],
+    dx: { entorse_lat: "Ch1", instab: "Ch2", achille: "Ch3", insertion: "Ch4", periostite: "Ch5", loge: "Ch6", mollet: "Ch7", sever: "Ch8", tibpost: "Ch9", arthrose: "Ch10",
+      syndesmose: "Ch11", deltoide: "Ch12", fibulaires: "Ch13", conflit: "Ch14", tarsien: "Ch15", rupture_achille: "Ch16", fracture: "Ch17", ff_tibia: "Ch18", lot: "Ch20", cristaux: "Ch21",
+      insuff: "Ch22" } },
+  pied: { nom: "Pied", calcul: "le pied", series: [{ fichier: "pied", nom: "Pied" }],
+    dx: { fasciite: "Pi1", hallux_valgus: "Pi2", orteils: "Pi3", arthrose_mp: "Pi4", hallux_rigidus: "Pi5", metatarsalgie: "Pi6", morton: "Pi7", turf_toe: "Pi8", sesamoide: "Pi9",
+      synostose: "Pi10", os_navic: "Pi11", iselin: "Pi12", sever: "Pi13", contusion: "Pi14", goutte: "Pi15", fracture: "Pi16", ff_mt: "Pi17", ff_navic: "Pi18", ff_calc: "Pi19",
+      lisfranc: "Pi20", charcot: "Pi21", freiberg: "Pi22" } },
 };
 const SECTIONS = [["epidemiologie", "Épidémiologie"], ["presentation", "Présentation clinique"], ["examen", "Examen physique"], ["physiopathologie", "Physiopathologie"],
   ["ddx", "Diagnostic différentiel"], ["investigations", "Investigations"], ["traitement", "Traitement"], ["pronostic", "Pronostic"]];
 // Titres en capitales → phrase ; noms propres et sigles rétablis.
 const NOMS_PROPRES = ["Arnold", "Grisel", "Kanavel", "Dupuytren", "Bennett", "Kienböck", "Guyon", "Heberden", "Bouchard", "Milwaukee", "Legg-Calvé-Perthes", "Bertolotti", "Scheuermann",
-  "Tietze", "Essex-Lopresti", "Osgood-Schlatter", "Sever", "Haglund", "Morton", "Lisfranc", "Freiberg", "Iselin", "Charcot", "Hoffa", "Baker", "Mason"];
-const SIGLES = ["PECARN", "SLAP", "IPP", "IPD", "MCP", "DISH", "TFCC", "LCA", "LCP", "ACR", "EULAR", "AJI", "PAR"];
+  "Tietze", "Essex-Lopresti", "Osgood-Schlatter", "Sever", "Haglund", "Morton", "Lisfranc", "Freiberg", "Iselin", "Charcot", "Hoffa", "Baker", "Mason",
+  "Sinding-Larsen-Johansson", "Achille", "Maisonneuve", "Baxter", "Ottawa", "Thompson"];
+const SIGLES = ["PECARN", "SLAP", "IPP", "IPD", "MCP", "DISH", "TFCC", "LCA", "LCP", "LLI", "LLE", "ACR", "EULAR", "AJI", "PAR"];
 const PROPRES = [...NOMS_PROPRES.map(n => [new RegExp(`(^|[^\\p{L}])${n.toLocaleLowerCase("fr-CA")}(?![\\p{L}])`, "gu"), `$1${n}`]),
   ...SIGLES.map(n => [new RegExp(`(^|[^\\p{L}])${n.toLowerCase()}(?![\\p{L}])`, "gu"), `$1${n}`]),
   [/\bde quervain\b/g, "De Quervain"], [/\bc-spine\b/g, "C-spine"], [/(^|[\s(])([cdlst])(\d)/g, (m, a, l, d) => `${a}${l.toUpperCase()}${d}`]];
@@ -52,7 +64,7 @@ const slug = (f, titre) => `${sansAccents(f.no).toLowerCase().replace(/[–-]/g,
 const majuscule = s => s.charAt(0).toLocaleUpperCase("fr-CA") + s.slice(1);
 // Mots composés coupés en fin de ligne dans le PDF : « prono- supination » → « prono-supination ».
 const recoller = t => t.replace(/(\p{L})- (\p{L})/gu, "$1-$2");
-const CODE = /\b(Co|[CDEHLMP])(\d+(?:[–-]\d+)?)\b/g;
+const CODE = /\b(Co|Ch|Pi|[CDEGHLMP])(\d+(?:[–-]\d+)?)\b/g;
 
 const tete = (titre, description, profondeur) => `<!doctype html>
 <html lang="fr-CA">
@@ -110,7 +122,7 @@ for (const [region, R] of Object.entries(REGIONS)) {
   }
 }
 // Renvoi seul (« Voir la fiche C12. ») : le lien depuis le calcul mène directement à la fiche visée.
-const cible = code => { const f = index.get(code); if (!f) return null; const m = f.renvoi && f.renvoi.texte.match(/^Voir la fiche ((?:Co|[CDEHLMP])\d+)\.$/); return m && index.get(m[1]) ? index.get(m[1]) : f; };
+const cible = code => { const f = index.get(code); if (!f) return null; const m = f.renvoi && f.renvoi.texte.match(/^Voir la fiche ((?:Co|Ch|Pi|[CDEGHLMP])\d+)\.$/); return m && index.get(m[1]) ? index.get(m[1]) : f; };
 // Codes de fiche liés, seulement dans la phrase « Voir… » (ailleurs, « L5 » ou « C7 » sont des niveaux vertébraux).
 const lierRenvoi = texte => {
   const t = esc(majuscule(quebeciser(recoller(texte)))), fin = t.search(/\.\s|\.$/);

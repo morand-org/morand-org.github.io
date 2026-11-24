@@ -1,0 +1,3556 @@
+[
+ {
+  "no": "Pi1",
+  "page": 1,
+  "tags": "PIED · DOULEUR PLANTAIRE DU TALON · FASCIOPATHIE DÉGÉNÉRATIVE DE SURCHARGE",
+  "titre": "FASCIITE PLANTAIRE",
+  "epidemiologie": {
+   "texte": "Incidence à vie ~10 %; pic 40–60 ans; bilatérale dans ~1/3; coureurs : incidence 4,5–10 %; dorsiflexion ≤ 0° (RC 23,3), IMC > 30 (RC 5,6), travail debout (RC 3,6); IMC > 27 (RC 3,7, méta-analyse).",
+   "refs": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur plantaire médiale du talon, non irradiée, maximale aux premiers pas le matin ou après le repos, pire en fin de journée; début graduel; paresthésies rares.",
+   "refs": [
+    6,
+    2,
+    7,
+    8
+   ]
+  },
+  "examen": {
+   "texte": "Test du windlass : Se 14 % (sans charge) ou 32 % (en charge), Sp 100 %; palpation du tubercule médial : aucune Se/Sp publiée; douleur à la compression latérale du calcanéus, brûlure ou engourdissement, douleur nocturne, claquement soudain orientent ailleurs.",
+   "refs": [
+    2,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Dégénérescence myxoïde et fragmentation du fascia, sans inflammation à l'histologie (50 cas opérés); s'apparente à une tendinopathie.",
+   "refs": [
+    14,
+    15
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture de stress du calcanéus; atrophie du coussinet adipeux; compression du nerf de Baxter (jusqu'à 20 % des talalgies chroniques); tunnel tarsien; enthésite de spondylarthrite; rupture du fascia; fibromatose plantaire.",
+   "refs": [
+    1,
+    12,
+    13,
+    16,
+    10,
+    17
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; la radiographie change la conduite dans 2 % (4/215); épine calcanéenne chez 15–25 % des asymptomatiques; échographie si douleur > 3 mois : épaisseur > 4 mm, Se 61 %, Sp 95 %.",
+   "refs": [
+    6,
+    18,
+    2,
+    19,
+    15
+   ]
+  },
+  "traitement": {
+   "texte": "Étirements spécifiques du fascia; renforcement en charge : avantage à 3 mois seulement; orthèse plantaire préfabriquée = sur mesure; AINS = placebo; infiltration de corticostéroïde : −6/100 avant 1 mois, nul ensuite, rupture 2,4 %; ondes de choc : RC 2,58; chirurgie : satisfaction 49–90 %.",
+   "refs": [
+    20,
+    21,
+    22,
+    23,
+    18,
+    24,
+    25
+   ]
+  },
+  "pronostic": {
+   "texte": "Séries anciennes : > 80 % résolus à 12 mois; cohorte confirmée à l'échographie (n = 174) : 80,5 % encore symptomatiques à 1 an, 44 % à 15 ans.",
+   "refs": [
+    18,
+    26,
+    3
+   ]
+  },
+  "refs": [
+   {
+    "n": 1,
+    "texte": "Rebecca L Jessup et al. Cochrane 2019",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013490/full?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 2,
+    "texte": "Schneider HP et al. J Foot Ankle Surg 2018",
+    "url": "https://www.acfas.org/ACFAS/media/ACFAS_Media/Heel-Pain-CCS.pdf"
+   },
+   {
+    "n": 3,
+    "texte": "Martin RL et al. JOSPT 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25361863"
+   },
+   {
+    "n": 4,
+    "texte": "Riddle DL et al. JBJS 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12728038"
+   },
+   {
+    "n": 5,
+    "texte": "van Leeuwen KD et al. Br J Sports Med 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26644427"
+   },
+   {
+    "n": 6,
+    "texte": "Trojian T et al. Am Fam Physician 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31194492"
+   },
+   {
+    "n": 7,
+    "texte": "Arnold MJ et al. Am Fam Physician 2025",
+    "url": "https://www.aafp.org/afp/2025/0200/practice-guidelines-plantar-fasciitis"
+   },
+   {
+    "n": 8,
+    "texte": "Burke BE et al. Sci Rep 2024",
+    "url": "https://doi.org/10.1038/s41598-024-65979-1"
+   },
+   {
+    "n": 9,
+    "texte": "De Garceau D et al. Foot Ankle Int 2003",
+    "url": "https://doi.org/10.1177/107110070302400309"
+   },
+   {
+    "n": 10,
+    "texte": "Morancie NA et al. Am Fam Physician 2025",
+    "url": "https://www.aafp.org/afp/2025/0200/practice-guidelines-plantar-fasciitis"
+   },
+   {
+    "n": 11,
+    "texte": "Pearce CJ et al. Foot Ankle Int 2021",
+    "url": "https://doi.org/10.1177/1071100720955144"
+   },
+   {
+    "n": 12,
+    "texte": "Tu P et al. Am Fam Physician 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22010770"
+   },
+   {
+    "n": 13,
+    "texte": "Swanson TL et al. Curr Rev Musculoske… 2026",
+    "url": "https://doi.org/10.1007/s12178-026-10063-6"
+   },
+   {
+    "n": 14,
+    "texte": "Lemont H et al. JAPMA 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12756315"
+   },
+   {
+    "n": 15,
+    "texte": "Young C Ann Intern Med 2012",
+    "url": "https://doi.org/10.7326/0003-4819-156-1-201201030-01001"
+   },
+   {
+    "n": 16,
+    "texte": "Tedeschi R Neurological Sciences 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40418415"
+   },
+   {
+    "n": 17,
+    "texte": "Flores DV et al. Radiographics 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38512730"
+   },
+   {
+    "n": 18,
+    "texte": "Cooper MT JAMA 2023",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2023.23906?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 19,
+    "texte": "Gatz M et al. Academic Radiology 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31153782"
+   },
+   {
+    "n": 20,
+    "texte": "Morrissey D et al. Br J Sports Med 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33785535"
+   },
+   {
+    "n": 21,
+    "texte": "Rathleff MS et al. Scand J Med Sci Sports 2015",
+    "url": "https://doi.org/10.1111/sms.12313?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 22,
+    "texte": "Whittaker GA et al. Br J Sports Med 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28935689"
+   },
+   {
+    "n": 23,
+    "texte": "Rasenberg N et al. Br J Sports Med 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29555795"
+   },
+   {
+    "n": 24,
+    "texte": "Donley BG et al. Foot Ankle Int 2007",
+    "url": "https://doi.org/10.3113/fai.2007.0004"
+   },
+   {
+    "n": 25,
+    "texte": "Sun J et al. Medicine 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28403111"
+   },
+   {
+    "n": 26,
+    "texte": "Buchbinder R NEJM 2004",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp032745?utm_source=openevidence&utm_medium=referral"
+   }
+  ],
+  "planche": "pi1.webp"
+ },
+ {
+  "no": "Pi2",
+  "page": 2,
+  "tags": "PIED · DÉFORMATION MÉDIALE DE L'AVANT-PIED · FEMME ADULTE OU ÂGÉE",
+  "titre": "HALLUX VALGUS",
+  "epidemiologie": {
+   "texte": "Prévalence 23 % à 18–65 ans, 35,7 % après 65 ans; femmes 30 % contre 13 %; bilatéral 54–59 %; héritabilité 0,29–0,51; sexe féminin (RC 2,57), chaussure étroite (RC 2,25), talons hauts (RC 1,65), pied plat (RC 1,19).",
+   "refs": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+   ]
+  },
+  "presentation": {
+   "texte": "Difficulté à se chausser; douleur médiale de la 1re métatarso-phalangienne soulagée au déchaussage; métatarsalgie de transfert; brûlure si nerf cutané dorso-médial comprimé; ~10 % seulement symptomatiques dans une cohorte populationnelle.",
+   "refs": [
+    33,
+    34,
+    35
+   ]
+  },
+  "examen": {
+   "texte": "Échelle de Manchester : kappa interobservateur 0,86, corrélation avec l'angle radiographique rho 0,73; hypermobilité du 1er rayon : examen manuel non fiable (kappa 0,09–0,16); métatarsalgie de transfert 45,6 %; articulation rouge et chaude, raideur ou crépitation orientent ailleurs.",
+   "refs": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Tête du 1er métatarsien sans insertion musculaire; métatarsien en varus, hallux en valgus; tendons devenant déformants; subluxation des sésamoïdes; pronation du métatarsien (87,3 % à la TDM); surcharge des rayons latéraux.",
+   "refs": [
+    42,
+    34,
+    43
+   ]
+  },
+  "ddx": {
+   "texte": "Hallux rigidus; goutte; arthrite inflammatoire (polyarthrite rhumatoïde, spondylarthrite); sésamoïdite; arthrose post-traumatique; compression du nerf cutané dorso-médial.",
+   "refs": [
+    35,
+    44,
+    45
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; échelle de Manchester suffisante si l'angle exact n'est pas requis; radiographies en charge (face, profil) : angle d'hallux valgus léger 16–20°, modéré 20–40°, sévère > 40°; seuils arbitraires.",
+   "refs": [
+    40,
+    34,
+    46
+   ]
+  },
+  "traitement": {
+   "texte": "Chaussure large : aucun essai randomisé retrouvé; orthèse plantaire : douleur −14/100 à 6 mois, effet disparu à 12 mois; attelle de nuit : angle inchangé (−0,3°); chevron : amélioration à 1 an 83 % contre 46 % (orthèse) et 24 % (attente); insatisfaction postopératoire 10,6 %; mini-invasive = ouverte.",
+   "refs": [
+    47,
+    48,
+    49,
+    50
+   ]
+  },
+  "pronostic": {
+   "texte": "Sur 7 ans (≥ 50 ans) : incidence 20,1 %, progression chez 33,6 %; 2,3 % des pieds progressent de ≥ 2 grades; récidive postopératoire 24,9 % (64 % si seuil > 15°, 10 % si > 20°); chutes : RC 1,89.",
+   "refs": [
+    28,
+    51,
+    52,
+    53
+   ]
+  },
+  "refs": [
+   {
+    "n": 27,
+    "texte": "Nix S et al. J Foot Ankle Res 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20868524"
+   },
+   {
+    "n": 28,
+    "texte": "Menz HB et al. Arthritis Care Res 2023",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.24754?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 29,
+    "texte": "Menz HB et al. Arthritis Care Res 2011",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.24754?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 30,
+    "texte": "Hannan MT et al. Arthritis Care Res 2013",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.22040?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 31,
+    "texte": "Lee CH et al. Twin Research and H… 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24618045"
+   },
+   {
+    "n": 32,
+    "texte": "Zhang G et al. BMC Musculoskelet D… 2026",
+    "url": "https://doi.org/10.1186/s12891-026-10054-1"
+   },
+   {
+    "n": 33,
+    "texte": "Matsumoto T et al. BMC Musculoskelet D… 2022",
+    "url": "https://doi.org/10.1186/s12891-021-04978-z"
+   },
+   {
+    "n": 34,
+    "texte": "Celso GP Dias et al. Cochrane 2024",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013726.pub2/full?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 35,
+    "texte": "Heineman N et al. Acta Radiologica (S… 1987",
+    "url": "https://doi.org/10.1177/0284185119847675"
+   },
+   {
+    "n": 36,
+    "texte": "Garrow AP et al. JAPMA 2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11266481"
+   },
+   {
+    "n": 37,
+    "texte": "Menz HB et al. Rheumatology 2005",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.24754?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 38,
+    "texte": "Glasoe WM et al. Foot Ankle Int 2002",
+    "url": "https://doi.org/10.1177/107110070202300310"
+   },
+   {
+    "n": 39,
+    "texte": "Slullitel G et al. Foot Ankle Int 2016",
+    "url": "https://doi.org/10.1177/1071100715615323"
+   },
+   {
+    "n": 40,
+    "texte": "Easley ME et al. Foot Ankle Int 2007",
+    "url": "https://doi.org/10.1177/1071100715615323"
+   },
+   {
+    "n": 41,
+    "texte": "FitzGerald JD Ann Intern Med 2025",
+    "url": "https://doi.org/10.7326/annals-24-03951"
+   },
+   {
+    "n": 42,
+    "texte": "Steadman J et al. Foot Ankle Int 2021",
+    "url": "https://doi.org/10.1177/1071100715615323"
+   },
+   {
+    "n": 43,
+    "texte": "Giménez-López R et al. BMC Musculoskelet D… 2024",
+    "url": "https://doi.org/10.1186/s12891-024-07219-1"
+   },
+   {
+    "n": 44,
+    "texte": "Drago S et al. JAAOS 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37126849"
+   },
+   {
+    "n": 45,
+    "texte": "Weinfeld SB et al. Clin Orthop Relat Res 1998",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9584362"
+   },
+   {
+    "n": 46,
+    "texte": "Omar KM et al. BMC Musculoskelet D… 2025",
+    "url": "https://doi.org/10.1186/s12891-025-09357-6"
+   },
+   {
+    "n": 47,
+    "texte": "Torkki M et al. JAMA 2001",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.285.19.2474?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 48,
+    "texte": "Hurn SE et al. Arthritis Care Res 2022",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.24603?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 49,
+    "texte": "Barg A et al. JBJS 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30234626"
+   },
+   {
+    "n": 50,
+    "texte": "Alimy AR et al. Clin Orthop Relat Res 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36332131"
+   },
+   {
+    "n": 51,
+    "texte": "Ezzatvar Y et al. Journal of Clinical… 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34945049"
+   },
+   {
+    "n": 52,
+    "texte": "Lalevee M et al. Foot Ankle Int 2023",
+    "url": "https://doi.org/10.1177/1071100715615323"
+   },
+   {
+    "n": 53,
+    "texte": "Menz HB et al. Maturitas 2018",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.24754?utm_source=openevidence&utm_medium=referral"
+   }
+  ],
+  "planche": "pi2.webp"
+ },
+ {
+  "no": "Pi3",
+  "page": 3,
+  "tags": "PIED · ORTEILS LATÉRAUX ET 5E RAYON · PERSONNE ÂGÉE OU DIABÉTIQUE, CHAUSSURE",
+  "titre": "DÉFORMATION DES ORTEILS LATÉRAUX OU BUNIONETTE (ORTEIL EN MARTEAU, EN GRIFFE, EN MAILLET)",
+  "epidemiologie": {
+   "texte": "24–60 % des aînés; ≥ 65 ans : marteau 34,5 %, maillet 33,4 %, griffe 8,7 %, bunionette 13,2 %; diabète : 32– 49 %; bunionette : ratio femmes-hommes 3,8:1; chutes ~2 fois plus fréquentes.",
+   "refs": [
+    54,
+    55,
+    56,
+    57,
+    58
+   ]
+  },
+  "presentation": {
+   "texte": "Conflit avec la chaussure, cors et durillons; pas d'association avec la douleur du pied en population (RC 0,8); bunionette : saillie latérale de la 5e tête métatarsienne irritée par la chaussure; diabétique : ulcère d'orteil.",
+   "refs": [
+    54,
+    59,
+    60,
+    61
+   ]
+  },
+  "examen": {
+   "texte": "Distinguer déformation souple (réductible passivement) et rigide : aucune Se/Sp publiée; définitions marteau et griffe non consensuelles (accord 24 % et 9 %); diabétique : chercher neuropathie et lésion pré-ulcéreuse; plusieurs métatarso-phalangiennes atteintes : penser polyarthrite rhumatoïde ou psoriasique.",
+   "refs": [
+    62,
+    59,
+    63,
+    64,
+    65
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Muscles intrinsèques dominés par les fléchisseurs et extenseurs extrinsèques; affaiblissement des stabilisateurs plantaires de la métatarso- phalangienne; neuropathie diabétique : atrophie intrinsèque, hyperpression; bunionette : angle intermétatarsien 4–5 élargi, friction.",
+   "refs": [
+    66,
+    58,
+    67,
+    59
+   ]
+  },
+  "ddx": {
+   "texte": "Lésion de la plaque plantaire (fiche Pi6); névrome de Morton; arthrite inflammatoire; goutte; maladie de Freiberg; cause neuromusculaire.",
+   "refs": [
+    67,
+    68,
+    69,
+    65
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; bunionette : radiographie de face en charge, angle intermétatarsien 4–5 normal 6,2° (3– 11°), symptomatique 9,6°; seuils : tête ≥ 13 mm, angle ≥ 10°.",
+   "refs": [
+    70,
+    71
+   ]
+  },
+  "traitement": {
+   "texte": "Chaussure à bout large et profond, coussinets, débridement des cors : aucun essai randomisé; orthoplastie de silicone : baisse de pression seulement; arthrodèse = arthroplastie interphalangienne (soulagement 92 %, récidive 5,6–6 %); ténotomie du fléchisseur (ulcère diabétique) : guérison 97 %, récidive 6 %; ostéotomie de bunionette : succès 93 %.",
+   "refs": [
+    62,
+    61,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77
+   ]
+  },
+  "pronostic": {
+   "texte": "Prévalence croissante avec l'âge (femmes : 26 % à 61– 70 ans, 58 % à 81–90 ans) (aucune cohorte prospective); échec chirurgical ~22 % à 17 mois, risque doublé au 2e orteil (rapport de risques 2,23).",
+   "refs": [
+    30,
+    78
+   ]
+  },
+  "refs": [
+   {
+    "n": 54,
+    "texte": "Badlissi F et al. Journal of the Amer… 2005",
+    "url": "https://doi.org/10.1111/j.1532-5415.2005.53315.x?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 55,
+    "texte": "Hylton B Menz",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119484288.ch80"
+   },
+   {
+    "n": 56,
+    "texte": "Mickle KJ et al. Arthritis Care Res 2018",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.23348?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 57,
+    "texte": "Bus SA Diabetes Metab Res Rev 2008",
+    "url": "https://doi.org/10.1002/dmrr.840?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 58,
+    "texte": "Nestor BJ et al. Foot & Ankle 1990",
+    "url": "https://doi.org/10.1177/107110079001100102"
+   },
+   {
+    "n": 59,
+    "texte": "Cheuy VA et al. Foot Ankle Int 2016",
+    "url": "https://doi.org/10.1177/1071100715621544"
+   },
+   {
+    "n": 60,
+    "texte": "Shi GG et al. JAAOS 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30130354"
+   },
+   {
+    "n": 61,
+    "texte": "Thomas JL et al. J Foot Ankle Surg 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19653380"
+   },
+   {
+    "n": 62,
+    "texte": "Coughlin MJ et al. Foot Ankle Int 2000",
+    "url": "https://doi.org/10.1177/107110070002100202"
+   },
+   {
+    "n": 63,
+    "texte": "Schrier JC et al. Foot Ankle Int 2007",
+    "url": "https://doi.org/10.3113/fai.2007.1265"
+   },
+   {
+    "n": 64,
+    "texte": "Bus SA et al. Diabetes Metab Res Rev 2024",
+    "url": "https://doi.org/10.1002/dmrr.840?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 65,
+    "texte": "Ottofaro TD et al. Foot Ankle Int 2026",
+    "url": "https://doi.org/10.1177/10711007251401532"
+   },
+   {
+    "n": 66,
+    "texte": "Guyton GP et al. Foot Ankle Int 2000",
+    "url": "https://doi.org/10.1177/107110070002101213"
+   },
+   {
+    "n": 67,
+    "texte": "Shirzad K et al. JAAOS 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21807918"
+   },
+   {
+    "n": 68,
+    "texte": "Kinter CW et al. Sports Health 2020",
+    "url": "https://doi.org/10.1177/1941738120904944"
+   },
+   {
+    "n": 69,
+    "texte": "Yao L et al. Foot Ankle Int 1996",
+    "url": "https://doi.org/10.1177/107110079601700107"
+   },
+   {
+    "n": 70,
+    "texte": "Giannini S et al. Foot Ankle Int 2008",
+    "url": "https://doi.org/10.3113/fai.2008.0282"
+   },
+   {
+    "n": 71,
+    "texte": "Shimobayashi M et al. Foot Ankle Int 2016",
+    "url": "https://doi.org/10.1177/1071100715614923"
+   },
+   {
+    "n": 72,
+    "texte": "Formosa C et al. JAPMA 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36074350"
+   },
+   {
+    "n": 73,
+    "texte": "Schrier JC et al. Foot Ankle Int 2016",
+    "url": "https://doi.org/10.3113/fai.2007.1265"
+   },
+   {
+    "n": 74,
+    "texte": "Scheidt S et al. Orthopedics 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35021029"
+   },
+   {
+    "n": 75,
+    "texte": "Kramer WC et al. Foot Ankle Int 2015",
+    "url": "https://doi.org/10.1177/1071100714568013"
+   },
+   {
+    "n": 76,
+    "texte": "Bonanno DR et al. J Foot Ankle Surg 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28476394"
+   },
+   {
+    "n": 77,
+    "texte": "Martijn HA et al. J Foot Ankle Surg 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29268897"
+   },
+   {
+    "n": 30,
+    "texte": "Hannan MT et al. Arthritis Care Res 2013",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.22040?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 78,
+    "texte": "Albright RH et al. Foot Ankle Int 2020",
+    "url": "https://doi.org/10.1177/1071100720904931"
+   }
+  ],
+  "planche": "pi3.webp"
+ },
+ {
+  "no": "Pi4",
+  "page": 4,
+  "tags": "PIED · DOULEUR DORSALE DU MÉDIO-PIED · ADULTE DE 50 ANS ET PLUS",
+  "titre": "ARTHROSE DU MÉDIO-PIED",
+  "epidemiologie": {
+   "texte": "Arthrose symptomatique 12,0 % à ≥ 50 ans (IC 95 % 10,9–13,2), invalidante 9,6 %; 2e cunéo-métatarsienne la plus touchée (6,8 %); obésité (RC 2,02), fracture antérieure (RC 2,06); après Lisfranc opéré : arthrose symptomatique 54,1 % à 10,9 ans.",
+   "refs": [
+    79,
+    80,
+    81
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur dorsale du médio-pied à la station debout prolongée et à la marche; invalidante chez > 80 %; 46,2 % consultent leur médecin de famille dans l'année.",
+   "refs": [
+    55,
+    80,
+    82
+   ]
+  },
+  "examen": {
+   "texte": "Aucun test fiable; modèle clinique (âge, sexe, IMC, indice d'arche) : Se 29,9 %, Sp 87,5 %; test de la touche de piano : aucune Se/Sp publiée; pied plus plat; neuropathie (Charcot) ou douleur du naviculaire (fracture de stress) orientent ailleurs.",
+   "refs": [
+    83,
+    84,
+    85,
+    86,
+    87
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Surcharge mécanique de la 2e cunéo-métatarsienne, clef de voûte rigide de l'arche transverse; obésité, traumatisme antérieur; lésions de moelle osseuse aux 2e–3e cunéo-métatarsiennes; l'IRM n'explique que 9– 17 % de la douleur.",
+   "refs": [
+    80,
+    88
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture de stress (naviculaire, base du 2e métatarsien); tendinose du tibial antérieur; pied de Charcot; goutte ou chondrocalcinose; arthrite inflammatoire; lésion de Lisfranc méconnue (~20 % manquées au départ).",
+   "refs": [
+    89,
+    86,
+    90,
+    87,
+    88
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies en charge face et profil nécessaires; la face seule détecte ~15 % des arthroses talo- naviculaires; Se 68,4 %, Sp 92,9 % contre TDM en charge; TDM ou IRM si radiographie négative ou douteuse.",
+   "refs": [
+    55,
+    91,
+    92,
+    93
+   ]
+  },
+  "traitement": {
+   "texte": "Orthèse plantaire moulant l'arche : différence non significative contre placebo (−0,20/10; n = 37); infiltration de corticostéroïde échoguidée : soulagement 78,4 % à 2 semaines, 57,5 % à 3 mois, < 15 % ensuite; arthrodèse : consolidation 92 %, satisfaction 90 %, pseudarthrose 12,6 %; acide hyaluronique : aucune étude.",
+   "refs": [
+    94,
+    95,
+    96,
+    97
+   ]
+  },
+  "pronostic": {
+   "texte": "Douleur stable à 18 mois (−0,77/10, non cliniquement significatif); après arthrodèse : réintervention 25,2 %, retrait de matériel 25 %.",
+   "refs": [
+    98,
+    96,
+    97
+   ]
+  },
+  "refs": [
+   {
+    "n": 79,
+    "texte": "Roddy E et al. Ann Rheum Dis 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24255544"
+   },
+   {
+    "n": 80,
+    "texte": "Thomas MJ et al. Arthritis Research… 2015",
+    "url": "https://doi.org/10.1186/s13075-015-0693-3"
+   },
+   {
+    "n": 81,
+    "texte": "Dubois-Ferrière V et al. JBJS 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27147683"
+   },
+   {
+    "n": 55,
+    "texte": "Hylton B Menz",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119484288.ch80"
+   },
+   {
+    "n": 82,
+    "texte": "Lim PQX et al. Rheumatology Intern… 2025",
+    "url": "https://doi.org/10.1007/s00296-025-05881-9"
+   },
+   {
+    "n": 83,
+    "texte": "Lithgow MJ et al. Arthritis Care Res 2024",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.25217?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 84,
+    "texte": "Thomas MJ et al. Osteoarthritis Cart… 2015",
+    "url": "https://doi.org/10.1186/s13075-015-0693-3"
+   },
+   {
+    "n": 85,
+    "texte": "Keiserman LS et al. Foot Ankle Int 2003",
+    "url": "https://doi.org/10.1177/107110070302400511"
+   },
+   {
+    "n": 86,
+    "texte": "Mandell JC et al. Skeletal Radiol 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28343329"
+   },
+   {
+    "n": 87,
+    "texte": "Lauri C et al. European Journal of… 2024",
+    "url": "https://doi.org/10.1007/s00259-024-06693-y"
+   },
+   {
+    "n": 88,
+    "texte": "Arnold JB et al. Arthritis Care Res 2023",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.24955?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 89,
+    "texte": "Sanghvi PA et al. Arch Orthop Trauma… 2025",
+    "url": "https://doi.org/10.1007/s00402-025-06042-0"
+   },
+   {
+    "n": 90,
+    "texte": "Beischer AD et al. Foot Ankle Int 2009",
+    "url": "https://doi.org/10.3113/fai.2009.1053"
+   },
+   {
+    "n": 91,
+    "texte": "Menz HB et al. Arthritis Care Res 2022",
+    "url": "https://doi.org/10.1002/acr.24582?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 92,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(26)00034-7"
+   },
+   {
+    "n": 93,
+    "texte": "Steadman J et al. European Journal of… 2021",
+    "url": "https://doi.org/10.1007/s00259-024-06693-y"
+   },
+   {
+    "n": 94,
+    "texte": "Drakonaki EE et al. Skeletal Radiol 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21274710"
+   },
+   {
+    "n": 95,
+    "texte": "Lim PQX et al. Rheumatology Intern… 2023",
+    "url": "https://doi.org/10.1007/s00296-025-05881-9"
+   },
+   {
+    "n": 96,
+    "texte": "Nemec SA et al. Foot Ankle Int 2011",
+    "url": "https://doi.org/10.3113/fai.2011.0355"
+   },
+   {
+    "n": 97,
+    "texte": "Ettinger S et al. Foot Ankle Int 2021",
+    "url": "https://doi.org/10.1177/1071100720980014"
+   },
+   {
+    "n": 98,
+    "texte": "Downes TJ et al. Arthritis Care Res 2018",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.23502?utm_source=openevidence&utm_medium=referral"
+   }
+  ],
+  "planche": "pi4.webp"
+ },
+ {
+  "no": "Pi5",
+  "page": 5,
+  "tags": "PIED · RAIDEUR DOULOUREUSE DE LA 1RE MÉTATARSO-PHALANGIENNE · ARTHROSE DE",
+  "titre": "HALLUX RIGIDUS",
+  "epidemiologie": {
+   "texte": "Arthrose symptomatique de la 1re métatarso- phalangienne 7,8 % à ≥ 50 ans (IC 95 % 6,7–8,9), surtout chez les femmes; début moyen à 43 ans; antécédents familiaux; traumatisme dans 78 % des cas unilatéraux; bilatéral : 19 % au départ, 79 % au suivi.",
+   "refs": [
+    79,
+    99
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur et raideur localisées, perte de dorsiflexion; exostose dorsale en conflit avec la chaussure; engourdissement si nerf cutané dorso-médial comprimé; symptômes invalidants chez 72 %.",
+   "refs": [
+    100,
+    55,
+    101
+   ]
+  },
+  "examen": {
+   "texte": "Règle de Zammit (douleur > 25 mois, exostose dorsale, butée dure, crépitation, dorsiflexion < 64°) : ≥ 3 critères, Se 88 %, Sp 71 %, RV+ 3,07, RV− 0,17; poussées aiguës avec chaleur et enflure : penser goutte.",
+   "refs": [
+    102,
+    103
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Érosion cartilagineuse débutant à la face dorsale de la tête métatarsienne; compression dorsale à la propulsion, ostéophyte; dysfonction du mécanisme de windlass; métatarsien long ou surélevé : théories réfutées.",
+   "refs": [
+    104,
+    105,
+    106,
+    107
+   ]
+  },
+  "ddx": {
+   "texte": "Goutte, chondrocalcinose; hallux valgus; atteinte des sésamoïdes; arthrite inflammatoire; ténosynovite du long fléchisseur de l'hallux.",
+   "refs": [
+    102,
+    44,
+    104
+   ]
+  },
+  "investigations": {
+   "texte": "Diagnostic clinique possible (règle de Zammit); radiographies en charge face et profil; grades de Coughlin-Shurnas 0–4 (grade 3 : dorsiflexion ≤ 10°), peu corrélés à la douleur; TDM ou IRM seulement si radiographie négative ou douteuse.",
+   "refs": [
+    103,
+    108,
+    109,
+    110,
+    92
+   ]
+  },
+  "traitement": {
+   "texte": "Orthèse plantaire : égale à la chaussure à semelle berceau, non supérieure au placebo; semelle de carbone : bénéfice probablement minime; acide hyaluronique = placebo; infiltration de corticostéroïde : 91 % soulagés, 14 % au-delà de 3 mois; arthrodèse : douleur 1,3 contre 5,7 (observation) à 12 mois; cheilectomie : révision 7,4– 8,8 %.",
+   "refs": [
+    108,
+    111,
+    100,
+    112,
+    113,
+    114,
+    115
+   ]
+  },
+  "pronostic": {
+   "texte": "Sans chirurgie à 14,4 ans (n = 22) : douleur inchangée chez 92 %, progression radiographique 67 %; 55 % traités avec succès sans chirurgie; chirurgie dans les 2 ans suivant une infiltration : 55 %; arthrodèse : consolidation ~94 %.",
+   "refs": [
+    116,
+    112,
+    117,
+    118
+   ]
+  },
+  "refs": [
+   {
+    "n": 79,
+    "texte": "Roddy E et al. Ann Rheum Dis 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24255544"
+   },
+   {
+    "n": 99,
+    "texte": "Coughlin MJ et al. Foot Ankle Int 2003",
+    "url": "https://doi.org/10.1177/107110070302401002"
+   },
+   {
+    "n": 100,
+    "texte": "Shannon E Munteanu et al. Cochrane 2024",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007809.pub3/full?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 55,
+    "texte": "Hylton B Menz",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119484288.ch80"
+   },
+   {
+    "n": 101,
+    "texte": "Simpson GA et al. Foot Ankle Int 2011",
+    "url": "https://doi.org/10.3113/fai.2011.1175"
+   },
+   {
+    "n": 102,
+    "texte": "Dalbeth N et al. Lancet 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33798500"
+   },
+   {
+    "n": 103,
+    "texte": "Zammit GV et al. Osteoarthritis Cart… 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21619934"
+   },
+   {
+    "n": 104,
+    "texte": "Kirane YM et al. Foot Ankle Int 2008",
+    "url": "https://doi.org/10.3113/fai.2008.0367"
+   },
+   {
+    "n": 105,
+    "texte": "Menz HB et al. Arthritis Care Res 2016",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.22743?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 106,
+    "texte": "Kihara T et al. JBJS 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39888978"
+   },
+   {
+    "n": 107,
+    "texte": "Michelson JD et al. Foot Ankle Int 2024",
+    "url": "https://doi.org/10.1177/10711007241266842"
+   },
+   {
+    "n": 44,
+    "texte": "Drago S et al. JAAOS 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37126849"
+   },
+   {
+    "n": 108,
+    "texte": "Menz HB et al. Arthritis Care Res 2016",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.22743?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 109,
+    "texte": "Cho BK et al. Foot Ankle Int 2017",
+    "url": "https://doi.org/10.1177/1071100716688177"
+   },
+   {
+    "n": 110,
+    "texte": "Baumhauer JF et al. Foot Ankle Int 2017",
+    "url": "https://doi.org/10.1177/1071100716688177"
+   },
+   {
+    "n": 92,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(26)00034-7"
+   },
+   {
+    "n": 111,
+    "texte": "Paterson KL et al. Osteoarthritis Cart… 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35272050"
+   },
+   {
+    "n": 112,
+    "texte": "Grice J et al. Foot Ankle Int 2017",
+    "url": "https://doi.org/10.1177/1071100716688177"
+   },
+   {
+    "n": 113,
+    "texte": "Miettinen M et al. Ann Intern Med 2026",
+    "url": "https://doi.org/10.7326/annals-26-00710"
+   },
+   {
+    "n": 114,
+    "texte": "Teoh KH et al. Foot Ankle Int 2019",
+    "url": "https://doi.org/10.1177/1071100716688177"
+   },
+   {
+    "n": 115,
+    "texte": "Arceri A et al. Journal of Clinical… 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39685757"
+   },
+   {
+    "n": 116,
+    "texte": "Smith RW et al. Foot Ankle Int 2000",
+    "url": "https://doi.org/10.1177/1071100716688177"
+   },
+   {
+    "n": 117,
+    "texte": "Yee G et al. Foot Ankle Int 2008",
+    "url": "https://doi.org/10.1177/1071100716688177"
+   },
+   {
+    "n": 118,
+    "texte": "Minelli M et al. Arch Orthop Trauma… 2025",
+    "url": "https://doi.org/10.1007/s00402-024-05613-x"
+   }
+  ],
+  "planche": "pi5.webp"
+ },
+ {
+  "no": "Pi6",
+  "page": 6,
+  "tags": "PIED · DOULEUR PLANTAIRE SOUS LA 2E TÊTE MÉTATARSIENNE · SURCHARGE, FEMME D'ÂGE",
+  "titre": "MÉTATARSALGIE OU LÉSION DE LA PLAQUE PLANTAIRE",
+  "epidemiologie": {
+   "texte": "Métatarsalgie : 13–36 % des adultes; instabilité métatarso-phalangienne : 82 % de femmes, âge médian 56 ans, 2e orteil atteint dans 98 %, bilatérale 31 %; lésion de la plaque dans 20–40 % des IRM pour métatarsalgie; 2e métatarsien long.",
+   "refs": [
+    119,
+    120,
+    121,
+    122,
+    123
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur plantaire graduelle sous la 2e métatarso- phalangienne, « marcher sur un caillou », enflure; perte d'appui de l'orteil (précoce); orteil chevauchant (tardif); 47 % : douleur diffuse de l'avant-pied sans déformation.",
+   "refs": [
+    68,
+    124,
+    125,
+    126
+   ]
+  },
+  "examen": {
+   "texte": "Tiroir vertical (translation > 50 % ou > 2 mm) : Se 80,6 %, Sp 99,8 %; douleur à la 2e tête : Se 98 %, Sp 11,1 %; orteil chevauchant : Se 8 %, Sp 88,9 %; test du papier : aucune Se/Sp publiée; clic de Mulder (Se 61 %) : névrome.",
+   "refs": [
+    125,
+    124,
+    127
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Plaque plantaire, principal stabilisateur de la métatarso-phalangienne; surcharge chronique, synovite, atténuation, puis déchirure transversale à l'insertion distale sur la phalange; subluxation et chevauchement de l'orteil.",
+   "refs": [
+    128,
+    129,
+    130
+   ]
+  },
+  "ddx": {
+   "texte": "Névrome de Morton (3–14 % des instabilités déjà opérées sans succès pour névrome); maladie de Freiberg; fracture de stress; polyarthrite rhumatoïde; goutte; kératose plantaire.",
+   "refs": [
+    68,
+    69
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies en charge; échographie : Se 95 %, Sp 52 %; IRM : Se 89 %, Sp 83 % (méta-analyse, référence chirurgicale); échographie normale : lésion peu probable; IRM : examen de choix selon l'ACR.",
+   "refs": [
+    124,
+    68,
+    131,
+    92
+   ]
+  },
+  "traitement": {
+   "texte": "Taping, chaussure rigide, orthèse plantaire : 52 % satisfaits contre 66 % après chirurgie (non significatif); infiltration de corticostéroïde avec prudence : rupture de plaque chez 3/16; réparation directe : douleur −5,0/10; ostéotomie de Weil : orteil flottant 36 %, récidive 15 %.",
+   "refs": [
+    120,
+    112,
+    132,
+    133,
+    134
+   ]
+  },
+  "pronostic": {
+   "texte": "Décrit comme évolutif, histoire naturelle sans traitement non étudiée; taping : freine la progression sans corriger la déformation; après réparation : instabilité éliminée 68 %, test du papier réussi 63 %.",
+   "refs": [
+    135,
+    136,
+    128,
+    68
+   ]
+  },
+  "refs": [
+   {
+    "n": 119,
+    "texte": "Payen Schalkens E et al. PloS One 2026",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12810774/"
+   },
+   {
+    "n": 120,
+    "texte": "Peck CN et al. Foot Ankle Int 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22835394"
+   },
+   {
+    "n": 121,
+    "texte": "Dinoá V et al. Skeletal Radiol 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26887801"
+   },
+   {
+    "n": 122,
+    "texte": "Umans H et al. Skeletal Radiol 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24880715"
+   },
+   {
+    "n": 123,
+    "texte": "Mann TS et al. AJR 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33236946"
+   },
+   {
+    "n": 68,
+    "texte": "Kinter CW et al. Sports Health 2020",
+    "url": "https://doi.org/10.1177/1941738120904944"
+   },
+   {
+    "n": 124,
+    "texte": "Watson TS et al. Foot Ankle Int 2014",
+    "url": "https://doi.org/10.1177/1071100714536540"
+   },
+   {
+    "n": 125,
+    "texte": "Klein EE et al. Foot Ankle Int 2013",
+    "url": "https://doi.org/10.1177/1071100712471825"
+   },
+   {
+    "n": 126,
+    "texte": "Christopher N Peck, Alan Macleod,… 2012",
+    "url": "https://doi.org/10.3113/fai.2012.0565"
+   },
+   {
+    "n": 127,
+    "texte": "Mahadevan D et al. J Foot Ankle Surg 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25432459"
+   },
+   {
+    "n": 128,
+    "texte": "Nery C et al. Foot Ankle Int 2012",
+    "url": "https://doi.org/10.3113/fai.2012.0301"
+   },
+   {
+    "n": 129,
+    "texte": "McCarthy CL et al. Skeletal Radiol 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33423073"
+   },
+   {
+    "n": 130,
+    "texte": "Mazzuca JW et al. Foot Ankle Int 2013",
+    "url": "https://doi.org/10.1177/1071100712467434"
+   },
+   {
+    "n": 69,
+    "texte": "Yao L et al. Foot Ankle Int 1996",
+    "url": "https://doi.org/10.1177/107110079601700107"
+   },
+   {
+    "n": 131,
+    "texte": "Albright RH et al. European Journal of… 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35533558"
+   },
+   {
+    "n": 92,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(26)00034-7"
+   },
+   {
+    "n": 112,
+    "texte": "Grice J et al. Foot Ankle Int 2017",
+    "url": "https://doi.org/10.1177/1071100716670160"
+   },
+   {
+    "n": 132,
+    "texte": "Arias-Martín I et al. International Ortho… 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29423640"
+   },
+   {
+    "n": 133,
+    "texte": "Piclet-Legre B et al. Foot Ankle Int 2026",
+    "url": "https://doi.org/10.1177/10711007261491650"
+   },
+   {
+    "n": 134,
+    "texte": "Baker JR et al. J Foot Ankle Surg 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35283034"
+   },
+   {
+    "n": 135,
+    "texte": "Flint WW et al. Foot Ankle Int 2017",
+    "url": "https://doi.org/10.1177/1071100716679110"
+   },
+   {
+    "n": 136,
+    "texte": "Coughlin MJ Foot & Ankle 1993",
+    "url": "https://doi.org/10.1177/107110079301400601"
+   }
+  ],
+  "planche": "pi6.webp"
+ },
+ {
+  "no": "Pi7",
+  "page": 7,
+  "tags": "PIED · DOULEUR DU 3E ESPACE INTERMÉTATARSIEN · FEMME D'ÂGE MOYEN, CHAUSSURE",
+  "titre": "NÉVROME DE MORTON",
+  "epidemiologie": {
+   "texte": "Incidence 87,5 par 100 000 p-a (femmes), 50,2 (hommes); pic 55–64 ans; 3e espace jusqu'à 87 %; bilatéral 21 %; ratio femmes-hommes > 4:1 en séries chirurgicales.",
+   "refs": [
+    137,
+    18,
+    138,
+    139
+   ]
+  },
+  "presentation": {
+   "texte": "Brûlure plantaire irradiant aux deux orteils adjacents, engourdissement, « caillou dans la chaussure »; pire à la marche (91 %) et en chaussure serrée (86 %); soulagée au repos (81 %).",
+   "refs": [
+    139,
+    18
+   ]
+  },
+  "examen": {
+   "texte": "Compression pouce-index de l'espace : Se 96 %; clic de Mulder : Se 61 %; compression latérale du pied : Se 41 %; aucune Sp ni RV publiés; clinique confirmée à l'histologie dans 97,5 %; polyneuropathie ou synovite métatarso-phalangienne orientent ailleurs.",
+   "refs": [
+    127,
+    140,
+    141,
+    139
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Fibrose périneurale bénigne du nerf digital plantaire commun avec démyélinisation, pas une tumeur vraie; compression répétée contre le ligament intermétatarsien transverse profond.",
+   "refs": [
+    18,
+    141
+   ]
+  },
+  "ddx": {
+   "texte": "Bursite intermétatarsienne; synovite métatarso- phalangienne; lésion de la plaque plantaire; fracture de stress; maladie de Freiberg; polyneuropathie (diabète, carence en B12).",
+   "refs": [
+    141,
+    139,
+    142
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie seulement pour exclure fracture de stress ou nécrose; échographie Se 91 %, Sp 85 %; IRM Se 90 %, Sp 100 % (méta-analyse); « névrome » chez 30–33 % des asymptomatiques à l'IRM, 54 % à l'échographie.",
+   "refs": [
+    18,
+    143,
+    144,
+    145,
+    138
+   ]
+  },
+  "traitement": {
+   "texte": "Chaussure large, coussinet métatarsien : aucun essai randomisé; orthèse sur mesure : douleur 5,8→2,7 contre 6,1→4,7 (semelle plate); infiltration de corticostéroïde : −6,3/100 contre anesthésique seul (non significatif), atrophie cutanée 3,9 %; alcool : aucun essai; neurectomie : soulagement complet 74 %.",
+   "refs": [
+    146,
+    18,
+    147,
+    139,
+    148
+   ]
+  },
+  "pronostic": {
+   "texte": "Histoire naturelle sans traitement non étudiée; infiltration encore efficace chez 36 % à 4,8 ans; alcool : 29 % sans symptômes à 5 ans; névrome du moignon 3–8 %; récidive à 12 mois après neurectomie 24,1 %.",
+   "refs": [
+    149,
+    150,
+    18,
+    151
+   ]
+  },
+  "refs": [
+   {
+    "n": 137,
+    "texte": "Latinovic R et al. Journal of Neurolog… 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16421136"
+   },
+   {
+    "n": 18,
+    "texte": "Cooper MT JAMA 2023",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2023.23906?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 138,
+    "texte": "Symeonidis PD et al. Foot Ankle Int 2012",
+    "url": "https://doi.org/10.3113/fai.2012.0543"
+   },
+   {
+    "n": 139,
+    "texte": "Barry G Matthews et al. Cochrane 2024",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014687.pub2/full?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 127,
+    "texte": "Mahadevan D et al. J Foot Ankle Surg 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25432459"
+   },
+   {
+    "n": 140,
+    "texte": "Franco H et al. J Foot Ankle Surg 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37353000"
+   },
+   {
+    "n": 141,
+    "texte": "Padua L et al. Foot Ankle Int 2020",
+    "url": "https://doi.org/10.1177/1071100720946748"
+   },
+   {
+    "n": 142,
+    "texte": "Naraghi R et al. Foot Ankle Int 2017",
+    "url": "https://doi.org/10.1177/1071100716674998"
+   },
+   {
+    "n": 143,
+    "texte": "Bignotti B et al. Eur Radiol 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25809742"
+   },
+   {
+    "n": 144,
+    "texte": "Zanetti M et al. Radiology 1997",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9114115"
+   },
+   {
+    "n": 145,
+    "texte": "Bencardino J et al. AJR 2000",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10954445"
+   },
+   {
+    "n": 146,
+    "texte": "Thomas JL et al. J Foot Ankle Surg 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19232980"
+   },
+   {
+    "n": 147,
+    "texte": "de Oliveira HAV et al. Clinical Rehabilita… 2019",
+    "url": "https://doi.org/10.1177/0269215519873949"
+   },
+   {
+    "n": 148,
+    "texte": "Lu VM et al. Acta Neurochirurgica 2021",
+    "url": "https://doi.org/10.1007/s00701-020-04241-9"
+   },
+   {
+    "n": 149,
+    "texte": "Hau MYT et al. Foot Ankle Int 2021",
+    "url": "https://doi.org/10.1177/1071100720966332"
+   },
+   {
+    "n": 150,
+    "texte": "Gurdezi S et al. Foot Ankle Int 2013",
+    "url": "https://doi.org/10.1177/1071100713489555"
+   },
+   {
+    "n": 151,
+    "texte": "Ghandour S et al. JAAOS 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38723267"
+   }
+  ],
+  "planche": "pi7.webp"
+ },
+ {
+  "no": "Pi8",
+  "page": 8,
+  "tags": "PIED · DOULEUR PLANTAIRE DE LA 1RE MÉTATARSO-PHALANGIENNE · HYPEREXTENSION,",
+  "titre": "TURF TOE (ENTORSE DE LA 1RE MÉTATARSO- PHALANGIENNE)",
+  "epidemiologie": {
+   "texte": "Football universitaire américain : 0,062 par 1000 expositions, 0,83 % des blessures; 13,7 fois plus en match; gazon synthétique 0,087 contre 0,047 (naturel); données presque toutes masculines pour les autres facteurs.",
+   "refs": [
+    152
+   ]
+  },
+  "presentation": {
+   "texte": "Hyperextension forcée de l'hallux, avant-pied en charge; grade I : étirement; grade II : déchirure partielle; grade III : déchirure complète, parfois fracture ou migration proximale d'un sésamoïde.",
+   "refs": [
+    153,
+    154,
+    155
+   ]
+  },
+  "examen": {
+   "texte": "Aucune Se/Sp publiée, y compris pour le Lachman vertical; Lachman positif, articulation instable ou hallux valgus traumatique : lésion de haut grade à référer.",
+   "refs": [
+    155,
+    153
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Lésion du complexe capsulo-ligamentaire plantaire (plaque plantaire); dorsiflexion > 78° : 50 % de risque de lésion en laboratoire; chaussure souple, antécédent de blessure, pied plat.",
+   "refs": [
+    154,
+    153
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture de sésamoïde; diastasis d'un sésamoïde bipartite; lésion cartilagineuse ou corps libre; hallux valgus traumatique.",
+   "refs": [
+    155,
+    153
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : distance phalange-sésamoïde > 10,4 mm (médial) ou 13,3 mm (latéral), Se 99,7 % pour rupture; migration proximale d'un sésamoïde; IRM : examen de choix (ACR), aucune Se/Sp publiée.",
+   "refs": [
+    155,
+    154,
+    156
+   ]
+  },
+  "traitement": {
+   "texte": "Grades I–II : repos, glace, taping, chaussure à semelle rigide ou plaque de carbone; grade II : botte de marche ± béquilles 2–4 semaines; infiltration de corticostéroïde déconseillée; chirurgie requise dans 1,7 % (instabilité, sésamoïde fracturé ou rétracté).",
+   "refs": [
+    152,
+    154,
+    155,
+    153
+   ]
+  },
+  "pronostic": {
+   "texte": "Absence moyenne 10,1 jours; grade I 3–5 jours, grade II 2–4 semaines, grade III 10–16 semaines; grade III : fin de saison 36 %; après chirurgie : retour au sport 71–91 % à ~5 mois.",
+   "refs": [
+    152,
+    154,
+    157,
+    158,
+    155
+   ]
+  },
+  "refs": [
+   {
+    "n": 152,
+    "texte": "George E et al. Foot Ankle Int 2014",
+    "url": "https://doi.org/10.1177/1071100713514038"
+   },
+   {
+    "n": 153,
+    "texte": "York PJ et al. Curr Rev Musculoske… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9390-y"
+   },
+   {
+    "n": 154,
+    "texte": "Gupta A et al. Curr Rev Musculoske… 2023",
+    "url": "https://doi.org/10.1007/s12178-023-09870-y"
+   },
+   {
+    "n": 155,
+    "texte": "Kadakia AR et al. Foot Ankle Int 2011",
+    "url": "https://doi.org/10.3113/fai.2011.0834"
+   },
+   {
+    "n": 156,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2020",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(20)30107-1"
+   },
+   {
+    "n": 157,
+    "texte": "McCormick JJ et al. Sports Health 2010",
+    "url": "https://doi.org/10.1177/1941738110386681"
+   },
+   {
+    "n": 158,
+    "texte": "Cho D et al. Am J Sports Med 2025",
+    "url": "https://doi.org/10.1177/03635465251344313"
+   }
+  ],
+  "planche": "pi8.webp"
+ },
+ {
+  "no": "Pi9",
+  "page": 9,
+  "tags": "PIED · DOULEUR PLANTAIRE SOUS LA 1RE TÊTE MÉTATARSIENNE · DANSEUSE OU COUREUR,",
+  "titre": "SÉSAMOÏDITE OU FRACTURE DU SÉSAMOÏDE",
+  "epidemiologie": {
+   "texte": "12 % des blessures de l'hallux, 1,2 % des blessures de course; 1–3 % des fractures de stress; jeunes sportifs (n = 683) : 80 % de filles, danse 34,6 %, course 13,7 %; sésamoïde médial surtout.",
+   "refs": [
+    159,
+    160,
+    161
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur plantaire sous la 1re tête métatarsienne à l'appui et à la propulsion; sésamoïdite : 62,6 % des diagnostics chez le jeune sportif.",
+   "refs": [
+    162,
+    161
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité directe du sésamoïde; douleur à la dorsiflexion forcée de l'hallux; instabilité ou Lachman vertical positif : turf toe.",
+   "refs": [
+    153,
+    162
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Sésamoïde médial directement sous la tête métatarsienne; vascularisation surtout extrinsèque : pseudarthrose, nécrose avasculaire; pied creux, varus de l'arrière-pied, équin.",
+   "refs": [
+    160,
+    153,
+    163
+   ]
+  },
+  "ddx": {
+   "texte": "Sésamoïde bipartite normal (prévalence 14,3 %; 70/85 médiaux; bilatéral 25–34 %); turf toe; nécrose avasculaire du sésamoïde.",
+   "refs": [
+    155,
+    159,
+    164,
+    163
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies face, profil, incidence axiale des sésamoïdes; fracture : bords irréguliers; bipartite : bords lisses, corticalisés; scintigraphie : captation chez 26–29 % des sujets normaux; TDM la plus fiable pour fracture de stress.",
+   "refs": [
+    155,
+    165,
+    163
+   ]
+  },
+  "traitement": {
+   "texte": "Décharge : botte de marche, semelle berceau, orthèse plantaire avec évidement; 4–6 semaines si fracture non déplacée; au-delà de 6–8 semaines, gain incertain; sésamoïdectomie : retour au sport 94,4 % à 11,8 semaines, complications 22,5 %.",
+   "refs": [
+    155,
+    166,
+    153,
+    167,
+    168
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport moyen 104 jours (filles 111,5, garçons 67,2); incidence de pseudarthrose inconnue; hallux valgus ou varus après sésamoïdectomie 10–20 %; histoire naturelle de la sésamoïdite non étudiée.",
+   "refs": [
+    161,
+    167,
+    153,
+    169
+   ]
+  },
+  "refs": [
+   {
+    "n": 159,
+    "texte": "Rodeo SA et al. Foot & Ankle 1993",
+    "url": "https://doi.org/10.1177/107110079301400801"
+   },
+   {
+    "n": 160,
+    "texte": "Tan EW et al. Foot Ankle Int 2021",
+    "url": "https://doi.org/10.1177/1071100720978751"
+   },
+   {
+    "n": 161,
+    "texte": "Sugimoto D et al. Clin J Sport Med 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33852435"
+   },
+   {
+    "n": 162,
+    "texte": "Mayer SW et al. Sports Health 2014",
+    "url": "https://doi.org/10.1177/1941738113486588"
+   },
+   {
+    "n": 153,
+    "texte": "York PJ et al. Curr Rev Musculoske… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9390-y"
+   },
+   {
+    "n": 163,
+    "texte": "Burge AJ et al. Sports Health 2012",
+    "url": "https://doi.org/10.1177/1941738112459489"
+   },
+   {
+    "n": 155,
+    "texte": "Kadakia AR et al. Foot Ankle Int 2011",
+    "url": "https://doi.org/10.3113/fai.2011.0834"
+   },
+   {
+    "n": 164,
+    "texte": "Favinger JL et al. Foot Ankle Int 2015",
+    "url": "https://doi.org/10.3113/fai.2011.0834"
+   },
+   {
+    "n": 165,
+    "texte": "Biedert R et al. Foot Ankle Int 2003",
+    "url": "https://doi.org/10.3113/fai.2011.0834"
+   },
+   {
+    "n": 166,
+    "texte": "Rosenfield JS et al. Foot Ankle Int 2000",
+    "url": "https://doi.org/10.3113/fai.2011.0834"
+   },
+   {
+    "n": 167,
+    "texte": "Pagenstert GI et al. Foot Ankle Int 2006",
+    "url": "https://doi.org/10.3113/fai.2011.0834"
+   },
+   {
+    "n": 168,
+    "texte": "Shimozono Y et al. J Foot Ankle Surg 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30177453"
+   },
+   {
+    "n": 169,
+    "texte": "Park YH et al. Arch Orthop Trauma… 2024",
+    "url": "https://doi.org/10.1007/s00402-024-05612-y"
+   }
+  ],
+  "planche": "pi9.webp"
+ },
+ {
+  "no": "Pi10",
+  "page": 10,
+  "tags": "PIED · PIED PLAT RIGIDE, ENTORSES À RÉPÉTITION · ADOLESCENT DE 10 À 16 ANS",
+  "titre": "SYNOSTOSE (COALITION) DU TARSE",
+  "epidemiologie": {
+   "texte": "Prévalence 0,03–1 % (clinique), 6,0 % (TDM), 11,5 % (IRM), 13 % (cadavres); symptomatique : 3,5 par 100 000 enfants par an, pic 10–14 ans; ~25 % symptomatiques; bilatérale 50–60 %; calcanéo- naviculaire et talo-calcanéenne ~90 %.",
+   "refs": [
+    170,
+    171,
+    172,
+    173,
+    174
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur à l'activité en regard de la barre ou sous- talienne; entorses de cheville à répétition; âge moyen 12,7 ans (calcanéo-naviculaire), 13,9 ans (talo- calcanéenne), à l'ossification de la barre.",
+   "refs": [
+    171,
+    173,
+    175,
+    176
+   ]
+  },
+  "examen": {
+   "texte": "Pied plat rigide : valgus du talon, arche non reconstituée sur la pointe des pieds, mobilité sous- talienne réduite; spasme des fibulaires évocateur, non spécifique.",
+   "refs": [
+    175,
+    177,
+    178
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Défaut de segmentation mésenchymateuse, autosomique dominant; fibreuse, cartilagineuse, puis osseuse; osseuse au diagnostic : 23 % (calcanéo- naviculaire), 30 % (talo-calcanéenne); surcharge des articulations voisines.",
+   "refs": [
+    171,
+    173,
+    170,
+    176
+   ]
+  },
+  "ddx": {
+   "texte": "Pied plat souple; arthrite inflammatoire; ostéome ostéoïde; fracture talienne ou sous-talienne; infection; pied plat neurogène.",
+   "refs": [
+    175,
+    178,
+    179
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies en charge avec oblique à 45° : calcanéo-naviculaire Se 80–100 %, Sp 97–98 %; signe du C (talo-calcanéenne) : Se 49 %, Sp 91 %, présent chez 45 % des pieds plats souples; IRM Se 95,8 %, Sp 94,3 %; TDM pour planifier la chirurgie.",
+   "refs": [
+    179,
+    180,
+    92,
+    181,
+    182,
+    183
+   ]
+  },
+  "traitement": {
+   "texte": "4–6 mois : activité modifiée, orthèse plantaire, puis plâtre 4–6 semaines; succès 22–85 % selon les séries; manipulation, infiltration ou bloc des fibulaires : déconseillés; résection avec interposition : 78,8 % de bons résultats; arthrodèse en sauvetage.",
+   "refs": [
+    173,
+    184,
+    176,
+    178,
+    175
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour à l'activité 10,3 semaines après résection; récidive radiographique calcanéo-naviculaire 13,7 % (43 % sans interposition, 11 % avec graisse); 73–77 % satisfaits à long terme; arthrose sous-talienne radiographique à ≥ 5 ans, sans atteinte fonctionnelle.",
+   "refs": [
+    184,
+    175,
+    185,
+    186
+   ]
+  },
+  "refs": [
+   {
+    "n": 170,
+    "texte": "Park JJ et al. Sci Rep 2022",
+    "url": "https://doi.org/10.1038/s41598-022-26049-6"
+   },
+   {
+    "n": 171,
+    "texte": "Jackson TJ et al. JBJS 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33186000"
+   },
+   {
+    "n": 172,
+    "texte": "Khoshbin A et al. Foot Ankle Int 2013",
+    "url": "https://doi.org/10.1177/1071100713489122"
+   },
+   {
+    "n": 173,
+    "texte": "Docquier PL et al. OTSR 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29601967"
+   },
+   {
+    "n": 174,
+    "texte": "Matsui T et al. Foot Ankle Int 2026",
+    "url": "https://doi.org/10.1177/10711007261480705"
+   },
+   {
+    "n": 175,
+    "texte": "Kulik SA et al. Foot Ankle Int 1996",
+    "url": "https://doi.org/10.1177/107110079601700509"
+   },
+   {
+    "n": 176,
+    "texte": "Catanzano AA et al. JBJS Reviews 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37307332"
+   },
+   {
+    "n": 177,
+    "texte": "Joseph Fox et al. Chapter 188.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119413936.ch188"
+   },
+   {
+    "n": 178,
+    "texte": "Lemley F et al. Foot Ankle Int 2006",
+    "url": "https://doi.org/10.1177/107110070602701229"
+   },
+   {
+    "n": 179,
+    "texte": "Ford SE et al. JAAOS 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35476673"
+   },
+   {
+    "n": 180,
+    "texte": "Crim JR et al. AJR 2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14736655"
+   },
+   {
+    "n": 92,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(26)00034-7"
+   },
+   {
+    "n": 181,
+    "texte": "Taniguchi A et al. Radiology 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12819337"
+   },
+   {
+    "n": 182,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2026",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(26)00034-7"
+   },
+   {
+    "n": 183,
+    "texte": "Moraleda L et al. J Pediatr Orthop 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24705349"
+   },
+   {
+    "n": 184,
+    "texte": "Polt M et al. Arch Orthop Trauma… 2023",
+    "url": "https://doi.org/10.1007/s00402-023-04982-z"
+   },
+   {
+    "n": 185,
+    "texte": "Yildiz KI et al. J Foot Ankle Surg 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29601967"
+   },
+   {
+    "n": 186,
+    "texte": "Saxena A et al. JAPMA 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12869594"
+   }
+  ],
+  "planche": "pi10.webp"
+ },
+ {
+  "no": "Pi11",
+  "page": 11,
+  "tags": "PIED · DOULEUR MÉDIALE DU MÉDIO-PIED · ADOLESCENTE SPORTIVE",
+  "titre": "OS NAVICULAIRE ACCESSOIRE DOULOUREUX",
+  "epidemiologie": {
+   "texte": "Prévalence 17,5 % (méta-analyse, n = 11 015), bilatéral 50 %; enfants : 15,1 % (filles 17,9 %, garçons 12,3 %), douloureux chez 20,8 %; pic 10–11 ans (filles), 12–13 ans (garçons); type II : > 70 % des cas symptomatiques.",
+   "refs": [
+    187,
+    188
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur médiale du médio-pied à la mise en charge et en chaussure étroite; chronique chez l'enfant; chez l'adulte, souvent après un traumatisme en éversion.",
+   "refs": [
+    189
+   ]
+  },
+  "examen": {
+   "texte": "Saillie osseuse médiale sensible; douleur à l'inversion résistée; pied plat chez 34,8 %, lien controversé; douleur du corps du naviculaire : fracture de stress.",
+   "refs": [
+    190,
+    191,
+    189,
+    187
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Type I : sésamoïde dans le tendon tibial postérieur; type II : synchondrose; type III : naviculaire cornu; microfractures de la synchondrose par traction et cisaillement.",
+   "refs": [
+    187,
+    192,
+    193
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture-avulsion de la tubérosité naviculaire; fracture de stress du naviculaire; tendinopathie du tibial postérieur; maladie de Köhler; pied plat souple.",
+   "refs": [
+    187
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies en charge avec oblique externe à 45°; IRM si doute ou échec : œdème osseux chez 82 % des pieds opérés, prédit l'échec du traitement conservateur.",
+   "refs": [
+    194,
+    195,
+    196
+   ]
+  },
+  "traitement": {
+   "texte": "Botte de marche ou plâtre ~4 semaines, orthèse plantaire, AINS, chaussure adaptée; soulagement complet 28 % à 8 mois; 28,8–30 % opérés; infiltration de corticostéroïde : aucune donnée; excision simple : excellent 80 %; Kidner : 58 %, 13 réopérations contre 2.",
+   "refs": [
+    194,
+    197,
+    189,
+    198
+   ]
+  },
+  "pronostic": {
+   "texte": "À 11–13 ans, douleur résolue dans 71,4 % en 2 ans, sans fusion; échec conservateur à 5,2 mois (médiane); après chirurgie : douleur améliorée 94 %, retour au sport 93 %; complications 7,2 %.",
+   "refs": [
+    194,
+    197,
+    199
+   ]
+  },
+  "refs": [
+   {
+    "n": 187,
+    "texte": "Stolarz K et al. Surgical and Radiol… 2024",
+    "url": "https://doi.org/10.1007/s00276-024-03459-x"
+   },
+   {
+    "n": 188,
+    "texte": "Sasaki T et al. PloS One 2025",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11759391/"
+   },
+   {
+    "n": 189,
+    "texte": "Gluck GS et al. Am J Sports Med 2010",
+    "url": "https://doi.org/10.1177/0363546509359492"
+   },
+   {
+    "n": 190,
+    "texte": "Garras DN et al. Foot Ankle Int 2012",
+    "url": "https://doi.org/10.3113/fai.2012.0934"
+   },
+   {
+    "n": 191,
+    "texte": "Kara M et al. Foot Ankle Int 2021",
+    "url": "https://doi.org/10.1177/1071100720964820"
+   },
+   {
+    "n": 192,
+    "texte": "Sella EJ et al. Clin Orthop Relat Res 1986",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3731610"
+   },
+   {
+    "n": 193,
+    "texte": "Nakayama S et al. Am J Sports Med 2005",
+    "url": "https://doi.org/10.1177/0363546504270564"
+   },
+   {
+    "n": 194,
+    "texte": "Nguyen HB et al. J Pediatr Orthop 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38899973"
+   },
+   {
+    "n": 195,
+    "texte": "Jegal H et al. Foot Ankle Int 2016",
+    "url": "https://doi.org/10.1177/1071100716644791"
+   },
+   {
+    "n": 196,
+    "texte": "Melamed EA Foot Ankle Int 2010",
+    "url": "https://doi.org/10.3113/fai.2010.1122"
+   },
+   {
+    "n": 197,
+    "texte": "Wariach S et al. Curr Rev Musculoske… 2022",
+    "url": "https://doi.org/10.1007/s12178-022-09772-5"
+   },
+   {
+    "n": 198,
+    "texte": "Cirrincione PM et al. Foot Ankle Int 2024",
+    "url": "https://doi.org/10.1177/10711007241262794"
+   },
+   {
+    "n": 199,
+    "texte": "Sasaki T et al. PloS One 2025",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11759391/"
+   }
+  ],
+  "planche": "pi11.webp"
+ },
+ {
+  "no": "Pi12",
+  "page": 12,
+  "tags": "PIED · DOULEUR À LA BASE DU 5E MÉTATARSIEN · ENFANT SPORTIF DE 9 À 14 ANS",
+  "titre": "MALADIE D'ISELIN",
+  "epidemiologie": {
+   "texte": "Aucune donnée d'incidence ni de prévalence en population (Cochrane 2026); académie de soccer d'élite : 2 cas en 4 saisons, 0,8 % des lésions physaires; apophyse visible à 9–11 ans (filles), 11–14 ans (garçons).",
+   "refs": [
+    200,
+    201,
+    202
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur latérale du pied à la course, aux sauts et aux changements de direction; parfois déclenchée par une entorse en inversion.",
+   "refs": [
+    203
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité, enflure ou rougeur à la base du 5e métatarsien; douleur à l'éversion résistée; trait transversal à la radiographie : fracture.",
+   "refs": [
+    203,
+    202
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Apophysite de traction du court fibulaire sur le cartilage apophysaire pendant la poussée de croissance; fusion 2–3 ans après l'apparition de l'apophyse.",
+   "refs": [
+    203,
+    202
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture-avulsion de la tubérosité; fracture de Jones; os vesalianum (1 radiographie sur 1000); os peroneum.",
+   "refs": [
+    202,
+    203
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique; radiographie oblique si doute : apophyse = ligne claire lisse, parallèle à la diaphyse; fracture = trait transversal; comparer au pied opposé; apophyse à l'origine de 47,1 % d'erreurs diagnostiques.",
+   "refs": [
+    203,
+    202,
+    204,
+    163
+   ]
+  },
+  "traitement": {
+   "texte": "Opinion d'experts, aucun essai : activité modifiée, AINS, étirements et renforcement des fibulaires, béquilles au besoin; plâtre 4 semaines si douleur marquée; excision si pseudarthrose symptomatique.",
+   "refs": [
+    203,
+    205
+   ]
+  },
+  "pronostic": {
+   "texte": "Autolimitée, résolution à la fusion de l'apophyse; série de 4 cas : tous améliorés, 1 encore douloureux par intermittence à 20 ans.",
+   "refs": [
+    206,
+    203
+   ]
+  },
+  "refs": [
+   {
+    "n": 200,
+    "texte": "Cylie M Williams et al. Cochrane 2026",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD015156.pub2/full?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 201,
+    "texte": "Materne O et al. Scand J Med Sci Sports 2022",
+    "url": "https://doi.org/10.1111/sms.14059?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 202,
+    "texte": "Lawrence SJ et al. Foot & Ankle 1993",
+    "url": "https://doi.org/10.1177/107110079301400610"
+   },
+   {
+    "n": 203,
+    "texte": "Frush TJ et al. Sports Health 2009",
+    "url": "https://doi.org/10.1177/1941738109334214"
+   },
+   {
+    "n": 204,
+    "texte": "Riccardi G et al. Foot Ankle Int 2011",
+    "url": "https://doi.org/10.3113/fai.2011.0526"
+   },
+   {
+    "n": 163,
+    "texte": "Burge AJ et al. Sports Health 2012",
+    "url": "https://doi.org/10.1177/1941738112459489"
+   },
+   {
+    "n": 205,
+    "texte": "Porter DA Foot Ankle Int 2018",
+    "url": "https://doi.org/10.1177/1071100717741856"
+   },
+   {
+    "n": 206,
+    "texte": "Canale ST et al. J Pediatr Orthop 1992",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1732301"
+   }
+  ],
+  "planche": "pi12.webp"
+ },
+ {
+  "no": "Pi13",
+  "page": 13,
+  "tags": "PIED · DOULEUR DU TALON · ENFANT SPORTIF EN CROISSANCE",
+  "titre": "MALADIE DE SEVER",
+  "renvoi": {
+   "texte": "Voir la fiche Ch8.",
+   "refs": []
+  },
+  "epidemiologie": {
+   "texte": "",
+   "refs": []
+  },
+  "presentation": {
+   "texte": "",
+   "refs": []
+  },
+  "examen": {
+   "texte": "",
+   "refs": []
+  },
+  "physiopathologie": {
+   "texte": "",
+   "refs": []
+  },
+  "ddx": {
+   "texte": "",
+   "refs": []
+  },
+  "investigations": {
+   "texte": "",
+   "refs": []
+  },
+  "traitement": {
+   "texte": "",
+   "refs": []
+  },
+  "pronostic": {
+   "texte": "",
+   "refs": []
+  },
+  "refs": [],
+  "planche": "pi13.webp"
+ },
+ {
+  "no": "Pi14",
+  "page": 14,
+  "tags": "PIED · TRAUMATISME DIRECT · ACCIDENT DE TRAVAIL, CHUTE D'OBJET LOURD",
+  "titre": "CONTUSION OU ÉCRASEMENT DU PIED",
+  "epidemiologie": {
+   "texte": "Pied et orteils : 4,4 % des lésions professionnelles; pied et cheville : près de 10 %; écrasement par chariot élévateur : arrêt médian 35 jours, un tiers hospitalisés; embout d'acier : 3,6 contre 8,2 os fracturés (modèle cadavérique).",
+   "refs": [
+    207,
+    208
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur, enflure après impact direct; hématome sous-unguéal; douleur croissante malgré repos, glace, élévation et analgésie : syndrome des loges.",
+   "refs": [
+    209,
+    210
+   ]
+  },
+  "examen": {
+   "texte": "Règle d'Ottawa (médio-pied) : sensibilité du naviculaire ou de la base du 5e métatarsien, incapacité de faire 4 pas : Se 99,0 %, Sp 37,8 %, RV− 0,08; ne couvre pas l'avant-pied; loges : perte des plis cutanés, phlyctènes, douleur à l'étirement passif des orteils.",
+   "refs": [
+    156,
+    211,
+    212,
+    209
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Œdème médullaire (contusion osseuse); 9 loges au pied; syndrome des loges : 14 % des écrasements, 18 % avec lésion de l'avant-pied; fracture ouverte, écrasement, fractures multiples : RC ~2,3–2,4.",
+   "refs": [
+    213,
+    214,
+    215
+   ]
+  },
+  "ddx": {
+   "texte": "Fracture (métatarsiens, orteils, calcanéus); lésion de Lisfranc; syndrome des loges; lésion du lit unguéal; syndrome douloureux régional complexe (tardif).",
+   "refs": [
+    156,
+    209,
+    216,
+    217
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie si Ottawa positif ou fracture de l'avant- pied suspectée; la règle réduit les radiographies de 30–40 %; loges : ΔP (diastolique − pression de loge) < 30 mmHg, seuil extrapolé du tibia, Sp 65 %.",
+   "refs": [
+    211,
+    156,
+    218,
+    219,
+    215
+   ]
+  },
+  "traitement": {
+   "texte": "Contusion simple : symptomatique, aucun essai retrouvé; hématome sous-unguéal douloureux : trépanation seule (aucune infection ni déformation majeure, n = 45, données des doigts); exploration inutile si tablette intacte; plaie d'écrasement : prophylaxie antitétanique; loges : fasciotomie, controversée au pied.",
+   "refs": [
+    215,
+    210,
+    216,
+    220,
+    221
+   ]
+  },
+  "pronostic": {
+   "texte": "Œdème osseux du pied : 6–9 mois pour régresser, jusqu'à 1 an; loges méconnues : orteils en griffe, pied creux, douleur chronique; syndrome douloureux régional complexe 7,0 % après fracture; repousse de l'ongle 4,0 mois.",
+   "refs": [
+    215,
+    222,
+    210,
+    223,
+    224
+   ]
+  },
+  "refs": [
+   {
+    "n": 207,
+    "texte": "Kwon JY et al. Foot Ankle Int 2011",
+    "url": "https://doi.org/10.3113/fai.2011.0443"
+   },
+   {
+    "n": 208,
+    "texte": "Hong CC et al. Foot Ankle Int 2015",
+    "url": "https://doi.org/10.1177/1071100715576486"
+   },
+   {
+    "n": 209,
+    "texte": "Dodd A et al. JAAOS 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24187035"
+   },
+   {
+    "n": 210,
+    "texte": "Seaberg DC et al. The American Journa… 1991",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/2018587"
+   },
+   {
+    "n": 156,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2020",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(20)30107-1"
+   },
+   {
+    "n": 211,
+    "texte": "Bachmann LM et al. BMJ (Clinical Resea… 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12595378"
+   },
+   {
+    "n": 212,
+    "texte": "Jesse M Pines, Fernanda Bel…",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119616870.ch10"
+   },
+   {
+    "n": 213,
+    "texte": "Thakur NA et al. JBJS 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22637209"
+   },
+   {
+    "n": 214,
+    "texte": "Laverdiere C et al. J Foot Ankle Surg 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35473922"
+   },
+   {
+    "n": 215,
+    "texte": "von Keudell AG et al. Lancet 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26460664"
+   },
+   {
+    "n": 216,
+    "texte": "Lafreniere AS et al. Canadian Family Phy… 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37704235"
+   },
+   {
+    "n": 217,
+    "texte": "Ferraro MC et al. The Lancet 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38631768"
+   },
+   {
+    "n": 218,
+    "texte": "Lutter C et al. J Foot Ankle Surg 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31256897"
+   },
+   {
+    "n": 219,
+    "texte": "Matthew L Davis MD FACS, Greg… 2015",
+    "url": "https://www.facs.org/media/mkbnhqtw/ortho_guidelines.pdf"
+   },
+   {
+    "n": 220,
+    "texte": "Hilgefort J et al. Am Fam Physician 2025",
+    "url": "https://www.aafp.org/afp/2025/0700/fingertip-injuries"
+   },
+   {
+    "n": 221,
+    "texte": "Liang JL et al. MMWR 2018",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5919600/"
+   },
+   {
+    "n": 222,
+    "texte": "Fulkerson E et al. Foot Ankle Int 2003",
+    "url": "https://doi.org/10.1177/107110070302400214"
+   },
+   {
+    "n": 223,
+    "texte": "Halstead J et al. Arthritis Care Res 2026",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/acr.25648?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 224,
+    "texte": "Beerthuizen A et al. Pain 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22386473"
+   }
+  ],
+  "planche": "pi14.webp"
+ },
+ {
+  "no": "Pi15",
+  "page": 15,
+  "tags": "PIED · MONOARTHRITE AIGUË DE LA 1RE MÉTATARSO-PHALANGIENNE · HOMME D'ÂGE",
+  "titre": "GOUTTE DE LA 1RE MÉTATARSO-PHALANGIENNE (PODAGRE)",
+  "epidemiologie": {
+   "texte": "Prévalence 3,8 %, incidence 2,9 par 1000 p-a (Colombie-Britannique, 2012) propre au Québec; hommes 2–4:1; 1re métatarso-phalangienne : 43–76 % des premières crises; diurétiques (RR 2,39), obésité (RR 2,24), alcool ≥ 50 g/j (RR 2,53), DFGe < 60 (rapport de risques 1,61).",
+   "refs": [
+    225,
+    102,
+    226,
+    227,
+    228,
+    229
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur, rougeur, chaleur et enflure maximales en moins de 24 h; monoarticulaire dans ~90 % des premières crises; résolution spontanée en 7–14 jours.",
+   "refs": [
+    230,
+    102,
+    41
+   ]
+  },
+  "examen": {
+   "texte": "Règle de Janssens (homme 2; crise antérieure 2; début < 1 jour 0,5; rougeur 1; 1re métatarso- phalangienne 2,5; hypertension ou maladie cardiovasculaire 1,5; urate > 350 µmol/L 3,5) : ≥ 8, goutte 87–88 %; ≤ 4, exclue à 95–97 %; entre les deux, ponction.",
+   "refs": [
+    231,
+    232
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Urate insoluble au-delà de ~404 µmol/L; cristaux d'urate monosodique, activation de l'inflammasome NLRP3, libération d'IL-1β; l'uricémie baisse pendant la crise.",
+   "refs": [
+    233,
+    234,
+    235
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrite septique (rapport de risques 2,60 chez le goutteux; possible même avec cristaux); cellulite; chondrocalcinose (rare à ce site); hallux rigidus ou valgus; dactylite psoriasique.",
+   "refs": [
+    41,
+    102,
+    236,
+    237
+   ]
+  },
+  "investigations": {
+   "texte": "Clinique si score ≥ 8; ponction si doute ou sepsis possible : cristaux Sp ~100 %; uricémie normale en crise chez 14 %, à recontrôler ≥ 2 semaines après; double contour à l'échographie Se 83 %, Sp 76 %; TDM double énergie Se 87 %, Sp 84 %.",
+   "refs": [
+    238,
+    239,
+    234,
+    240
+   ]
+  },
+  "traitement": {
+   "texte": "Naproxène = colchicine (diarrhée 20,0 % contre 45,9 %); prednisolone 35 mg = naproxène; colchicine 1,2 mg puis 0,6 mg à 1 h : diarrhée 23 % contre 77 % à forte dose; allopurinol si ≥ 2 crises par an ou tophus, cible < 360 µmol/L, prophylaxie 3–6 mois.",
+   "refs": [
+    241,
+    233,
+    242,
+    243,
+    244,
+    245
+   ]
+  },
+  "pronostic": {
+   "texte": "Récidive 60 % à 1 an, 78 % à 2 ans (données anciennes); 17,4 % à 12 mois sans hypouricémiant (crises consignées en première ligne); tophus chez ~30 % des non-traités en 5 ans.",
+   "refs": [
+    230,
+    246,
+    247
+   ]
+  },
+  "refs": [
+   {
+    "n": 225,
+    "texte": "Rai SK et al. Arthritis Rheum 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28040245"
+   },
+   {
+    "n": 102,
+    "texte": "Dalbeth N et al. Lancet 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33798500"
+   },
+   {
+    "n": 226,
+    "texte": "Stewart S et al. BMC Musculoskelet D… 2016",
+    "url": "https://doi.org/10.1186/s12891-016-0919-9"
+   },
+   {
+    "n": 227,
+    "texte": "Evans PL et al. Arthritis Research… 2018",
+    "url": "https://doi.org/10.1186/s13075-018-1612-1"
+   },
+   {
+    "n": 228,
+    "texte": "Choi HK et al. Lancet 2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15094272"
+   },
+   {
+    "n": 229,
+    "texte": "Krishnan E Arthritis Rheum 2013",
+    "url": "https://doi.org/10.1002/art.38171?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 230,
+    "texte": "Wilson JF Ann Intern Med 2010",
+    "url": "https://doi.org/10.7326/0003-4819-152-3-201002020-01002"
+   },
+   {
+    "n": 41,
+    "texte": "FitzGerald JD Ann Intern Med 2025",
+    "url": "https://doi.org/10.7326/annals-24-03951"
+   },
+   {
+    "n": 231,
+    "texte": "Lafforgue A et al. Rheumatology Intern… 2023",
+    "url": "https://doi.org/10.1007/s00296-022-05216-y"
+   },
+   {
+    "n": 232,
+    "texte": "Dalbeth N et al. Nature Reviews 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33798500"
+   },
+   {
+    "n": 233,
+    "texte": "Shekelle PG et al. Ann Intern Med 2017",
+    "url": "https://doi.org/10.7326/m16-0461"
+   },
+   {
+    "n": 234,
+    "texte": "Mikuls TR NEJM 2022",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp2203385?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 235,
+    "texte": "Zhang J et al. Frontiers in Endocr… 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36896178"
+   },
+   {
+    "n": 236,
+    "texte": "Maki DG Ann Intern Med 2015",
+    "url": "https://doi.org/10.7326/acpjc-2015-163-12-012"
+   },
+   {
+    "n": 237,
+    "texte": "Lim SY et al. Rheumatology 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26170377"
+   },
+   {
+    "n": 238,
+    "texte": "Muangchan C et al. Rheumatology Intern… 2018",
+    "url": "https://doi.org/10.1007/s00296-017-3891-2"
+   },
+   {
+    "n": 239,
+    "texte": "Kumar M et al. Drugs & Aging 2021",
+    "url": "https://doi.org/10.1007/s40266-021-00866-2"
+   },
+   {
+    "n": 240,
+    "texte": "Ogdie A et al. Ann Rheum Dis 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24915980"
+   },
+   {
+    "n": 241,
+    "texte": "Neogi T Ann Intern Med 2016",
+    "url": "https://doi.org/10.7326/aitc201607050"
+   },
+   {
+    "n": 242,
+    "texte": "Roddy E et al. Ann Rheum Dis 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31666237"
+   },
+   {
+    "n": 243,
+    "texte": "Janssens HJ et al. Lancet 2008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18514729"
+   },
+   {
+    "n": 244,
+    "texte": "FitzGerald JD et al. Arthritis Care Res 2020",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10563586/"
+   },
+   {
+    "n": 245,
+    "texte": "Anderson IJ et al. JAMA 2021",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2021.19763?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 246,
+    "texte": "Finnikin S et al. BMC Primary Care 2023",
+    "url": "https://doi.org/10.1186/s12875-023-02201-7"
+   },
+   {
+    "n": 247,
+    "texte": "Richette P et al. Lancet 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19692116"
+   }
+  ],
+  "planche": "pi15.webp"
+ },
+ {
+  "no": "Pi16",
+  "page": 16,
+  "tags": "PIED · TRAUMATISME AIGU DE L'AVANT-PIED · INVERSION, TORSION OU CHOC DIRECT",
+  "titre": "FRACTURE DU PIED (MÉTATARSIENS, BASE DU 5E, ORTEILS)",
+  "epidemiologie": {
+   "texte": "Métatarsiens : 67–75,4 par 100 000 par an, 3,2–6,8 % des fractures; 5e métatarsien : 68 %; base du 5e : zone 1 93 %, zone 2 4 %, zone 3 3 %; orteils : 3–8 % des fractures du membre inférieur, hallux 38–56 %.",
+   "refs": [
+    248,
+    249,
+    250,
+    251,
+    153
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur et enflure après inversion (avulsion de la base du 5e) ou traumatisme de l'avant-pied et des orteils; zone 3 : souvent fracture de stress.",
+   "refs": [
+    252,
+    253,
+    254
+   ]
+  },
+  "examen": {
+   "texte": "Règle d'Ottawa (médio-pied) : sensibilité de la base du 5e métatarsien ou du naviculaire, ou incapacité de faire 4 pas : Se 99,0 %, Sp 37,8 %, RV− 0,08; orteil : rotation, atteinte neurovasculaire, plaie; fractures métatarsiennes multiples : penser Lisfranc.",
+   "refs": [
+    156,
+    211,
+    212,
+    251
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Zone 1 : avulsion par l'aponévrose plantaire et le court fibulaire en inversion; zones 2–3 : zone vasculaire critique sous forte contrainte mécanique.",
+   "refs": [
+    252,
+    253,
+    254
+   ]
+  },
+  "ddx": {
+   "texte": "Lésion de Lisfranc; apophyse non fusionnée du 5e métatarsien (ligne longitudinale) chez l'adolescent; fracture de stress (zone 3).",
+   "refs": [
+    163,
+    254,
+    251
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie si Ottawa positif (30–40 % de radiographies en moins) ou fracture d'orteil suspectée; référer : diaphyse déplacée > 3–4 mm ou angulée > 10°; zone 1 > 2 mm ou > 30 % de la surface; zones 2–3; hallux > 25 % de la surface.",
+   "refs": [
+    211,
+    156,
+    251,
+    255
+   ]
+  },
+  "traitement": {
+   "texte": "Zone 1 : chaussure à semelle rigide = plâtre, retour à l'activité 37,2 contre 43,0 jours; Jones : plâtre sans appui, échec 44 % contre 1/19 avec vis; diaphyse : bandage élastique supérieur au plâtre; orteils : syndactylie et semelle rigide 4–6 semaines.",
+   "refs": [
+    256,
+    257,
+    258,
+    259
+   ]
+  },
+  "pronostic": {
+   "texte": "Zone 1 : guérison en 44 jours (moyenne); Jones : consolidation 97,3 % (chirurgie) contre 71,4 %, retour au jeu 9,7 contre 13,1 semaines, pseudarthrose 3,3 % contre 11,6 %; orteils : > 95 % déplacés de < 2 mm, score fonctionnel médian 100 à 27 mois.",
+   "refs": [
+    260,
+    254,
+    261,
+    262
+   ]
+  },
+  "refs": [
+   {
+    "n": 248,
+    "texte": "Herterich V et al. Arch Orthop Trauma… 2023",
+    "url": "https://doi.org/10.1007/s00402-022-04396-3"
+   },
+   {
+    "n": 249,
+    "texte": "Petrisor BA et al. Foot Ankle Int 2006",
+    "url": "https://doi.org/10.1177/107110070602700303"
+   },
+   {
+    "n": 250,
+    "texte": "Park JY et al. BioMed Research Int… 2017",
+    "url": "https://doi.org/10.1155/2017/1397252?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 251,
+    "texte": "Silver S et al. Am Fam Physician 2024",
+    "url": "https://www.aafp.org/afp/2024/0200/common-foot-fractures"
+   },
+   {
+    "n": 153,
+    "texte": "York PJ et al. Curr Rev Musculoske… 2017",
+    "url": "https://doi.org/10.1155/2017/1397252?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 252,
+    "texte": "Bayram S et al. Foot Ankle Int 2020",
+    "url": "https://doi.org/10.1177/1071100720916429"
+   },
+   {
+    "n": 253,
+    "texte": "Grün W et al. Foot Ankle Int 2025",
+    "url": "https://doi.org/10.1177/10711007251322141"
+   },
+   {
+    "n": 254,
+    "texte": "Attia AK et al. Am J Sports Med 2021",
+    "url": "https://doi.org/10.1177/0363546521990020"
+   },
+   {
+    "n": 156,
+    "texte": "Expert Panel on Musculoskeletal Imaging et al. Journal of the Amer… 2020",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1546-1440(20)30107-1"
+   },
+   {
+    "n": 211,
+    "texte": "Bachmann LM et al. BMJ (Clinical Resea… 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12595378"
+   },
+   {
+    "n": 212,
+    "texte": "Jesse M Pines, Fernanda Bel…",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119616870.ch10"
+   },
+   {
+    "n": 163,
+    "texte": "Burge AJ et al. Sports Health 2012",
+    "url": "https://doi.org/10.1177/1941738112459489"
+   },
+   {
+    "n": 255,
+    "texte": "Zwitser EW et al. Injury 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19570536"
+   },
+   {
+    "n": 256,
+    "texte": "Choi YR et al. JBJS 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33252586"
+   },
+   {
+    "n": 257,
+    "texte": "Mologne TS et al. Am J Sports Med 2005",
+    "url": "https://doi.org/10.1177/0363546504272262"
+   },
+   {
+    "n": 258,
+    "texte": "Bica D et al. Am Fam Physician 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26926612"
+   },
+   {
+    "n": 259,
+    "texte": "Zenios M et al. Injury 2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15949484"
+   },
+   {
+    "n": 260,
+    "texte": "Wiener BD et al. Foot Ankle Int 1997",
+    "url": "https://doi.org/10.1177/107110079701800504"
+   },
+   {
+    "n": 261,
+    "texte": "Encinas R et al. JAAOS 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42319275"
+   },
+   {
+    "n": 262,
+    "texte": "Van Vliet-Koppert ST et al. J Foot Ankle Surg 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21440463"
+   }
+  ],
+  "planche": "pi16.webp"
+ },
+ {
+  "no": "Pi17",
+  "page": 17,
+  "tags": "PIED · DOULEUR DORSALE DE L'AVANT-PIED · COUREUR, RECRUE MILITAIRE, DANSEUSE",
+  "titre": "FRACTURE DE STRESS MÉTATARSIENNE",
+  "epidemiologie": {
+   "texte": "8,8–19 % des fractures de stress (37,9 % chez les athlètes universitaires); 2e et 3e métatarsiens ~75 %; recrues : 3,0 % (hommes), 9,2 % (femmes); fracture de stress antérieure (RC 4,99), sexe féminin (RC 2,31); faible densité osseuse avec 3–4 facteurs de la triade : risque ×7.",
+   "refs": [
+    263,
+    264,
+    265,
+    266,
+    267,
+    268
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur de l'avant-pied à l'impact après augmentation de la charge d'entraînement; risque croissant dès la 3e semaine, maximal vers la 8e.",
+   "refs": [
+    266,
+    263
+   ]
+  },
+  "examen": {
+   "texte": "Diapason : Se 35–92 %, Sp 19–83 %; ultrason thérapeutique : Se 64 %, Sp 63 %, RV+ 2,1, RV− 0,3; aucun test ne suffit; douleur à la base du 2e (danseuse) ou au 5e proximal : site à haut risque.",
+   "refs": [
+    86,
+    269,
+    270
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Microdommages de charge répétée dépassant le remodelage, porosité transitoire; 2e métatarsien : contrainte en flexion ~6,9 fois celle du 1er.",
+   "refs": [
+    271,
+    266,
+    272
+   ]
+  },
+  "ddx": {
+   "texte": "Névrome de Morton; maladie de Freiberg; ostéome ostéoïde; tumeur maligne; ostéomyélite chronique.",
+   "refs": [
+    65,
+    86,
+    139
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : Se 12–56 %, Sp 88–96 %, souvent négative les 10 premiers jours, cal vers 2 semaines; IRM si doute ou site à haut risque : Se 68–99 %; échographie : Se 83 %, Sp 76 %, RV− 0,22; bilan : vitamine D, apport énergétique, cycles menstruels.",
+   "refs": [
+    273,
+    274,
+    275,
+    263,
+    276
+   ]
+  },
+  "traitement": {
+   "texte": "Diaphyse des 2e–3e (faible risque) : botte de marche ou chaussure à semelle rigide, appui sans douleur, 4 à 6–8 semaines; course reprise après 5 jours sans douleur au quotidien; sites à haut risque : référer; prévention : calcium 2000 mg et vitamine D 800 UI, RR 0,77.",
+   "refs": [
+    86,
+    263,
+    270,
+    277,
+    278,
+    279
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport > 90 % (tous sites); 12,9 semaines en moyenne (athlètes universitaires); IRM grade 1–2 : 13,1 semaines, grade 3–4 : 23,6; aucun délai groupé propre aux métatarsiens; récidives : 19–21,5 % des fractures de stress.",
+   "refs": [
+    265,
+    280,
+    281,
+    282,
+    283
+   ]
+  },
+  "refs": [
+   {
+    "n": 263,
+    "texte": "Boden BP et al. Am J Sports Med 2001",
+    "url": "https://doi.org/10.1177/03635465010290010201"
+   },
+   {
+    "n": 264,
+    "texte": "Queen RM et al. Am J Sports Med 2009",
+    "url": "https://doi.org/10.1177/0363546508324967"
+   },
+   {
+    "n": 265,
+    "texte": "Rizzone KH et al. J Athl Train 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28937802"
+   },
+   {
+    "n": 266,
+    "texte": "Hoenig T et al. Nature Reviews 2022",
+    "url": "https://doi.org/10.1038/s41572-022-00352-y"
+   },
+   {
+    "n": 267,
+    "texte": "Wright AA et al. Br J Sports Med 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26582192"
+   },
+   {
+    "n": 268,
+    "texte": "Barrack MT et al. Am J Sports Med 2014",
+    "url": "https://doi.org/10.1177/0363546513520295"
+   },
+   {
+    "n": 86,
+    "texte": "Mandell JC et al. Skeletal Radiol 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28343329"
+   },
+   {
+    "n": 269,
+    "texte": "Schneiders AG et al. JOSPT 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22813530"
+   },
+   {
+    "n": 270,
+    "texte": "Thomas JL et al. J Foot Ankle Surg 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19232979"
+   },
+   {
+    "n": 271,
+    "texte": "O'Leary TJ et al. Current Osteoporosi… 2021",
+    "url": "https://doi.org/10.1007/s11914-021-00671-1"
+   },
+   {
+    "n": 272,
+    "texte": "Gross TS et al. Am J Sports Med 1989",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/2610283"
+   },
+   {
+    "n": 65,
+    "texte": "Ottofaro TD et al. Foot Ankle Int 2026",
+    "url": "https://doi.org/10.1177/10711007251401532"
+   },
+   {
+    "n": 139,
+    "texte": "Barry G Matthews et al. Cochrane 2024",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014687.pub2/full?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 273,
+    "texte": "Schroeder JD et al. Am Fam Physician 2024",
+    "url": "https://www.aafp.org/afp/2024/1200/bone-stress-injuries"
+   },
+   {
+    "n": 274,
+    "texte": "Williams NI et al. Sports Med 2026",
+    "url": "https://doi.org/10.1007/s40279-025-02332-0"
+   },
+   {
+    "n": 275,
+    "texte": "Wright AA et al. Am J Sports Med 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26582192"
+   },
+   {
+    "n": 276,
+    "texte": "Banal F et al. J Rheumatol 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19567620"
+   },
+   {
+    "n": 277,
+    "texte": "Warden SJ et al. JOSPT 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33962529"
+   },
+   {
+    "n": 278,
+    "texte": "Lappe J et al. Journal of Bone and… 2008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18433305"
+   },
+   {
+    "n": 279,
+    "texte": "Sivakumar G et al. Sports Health 2019",
+    "url": "https://doi.org/10.1177/1941738119857717"
+   },
+   {
+    "n": 280,
+    "texte": "Hoenig T et al. Br J Sports Med 2023",
+    "url": "https://doi.org/10.1038/s41572-022-00352-y"
+   },
+   {
+    "n": 281,
+    "texte": "Miller TL et al. Sports Health 2018",
+    "url": "https://doi.org/10.1177/1941738117747868"
+   },
+   {
+    "n": 282,
+    "texte": "Nattiv A et al. Am J Sports Med 2013",
+    "url": "https://doi.org/10.1177/0363546515574066"
+   },
+   {
+    "n": 283,
+    "texte": "Wainwright KF et al. Br J Sports Med 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41951345"
+   }
+  ],
+  "planche": "pi17.webp"
+ },
+ {
+  "no": "Pi18",
+  "page": 18,
+  "tags": "PIED · DOULEUR DORSO-MÉDIALE DU MÉDIO-PIED · SPRINTEUR, SAUTEUR",
+  "titre": "FRACTURE DE STRESS DU NAVICULAIRE",
+  "epidemiologie": {
+   "texte": "14–25 % des fractures de stress, jusqu'à 35 % de celles du pied et de la cheville; athlétisme : 59 % des cas chez l'élite; sexe féminin (RC 2,31), blessure antérieure (RC 4,99); retard diagnostique 4–7 mois, groupé 9,9 mois.",
+   "refs": [
+    284,
+    285,
+    286,
+    287
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur dorso-médiale insidieuse irradiant le long de l'arche, pire au sprint, aux sauts et aux changements de direction.",
+   "refs": [
+    285
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité du « N spot » (dorsal proximal du naviculaire) chez 81 %; douleur au saut unipodal ou sur la pointe; amplitudes normales; saillie médiale sensible : os naviculaire accessoire.",
+   "refs": [
+    286,
+    285,
+    284
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Tiers central relativement avasculaire, en compression à la propulsion; trait sagittal, incomplet, de dorso-latéral à plantaire-médial.",
+   "refs": [
+    288,
+    285
+   ]
+  },
+  "ddx": {
+   "texte": "Tendinopathie du tibial postérieur; lésion du ligament calcanéo-naviculaire plantaire; os naviculaire accessoire.",
+   "refs": [
+    284
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : Se ~33 % (12–56 %), faux négatifs jusqu'à 66 %; TDM : Se jusqu'à 100 %, Sp 88–98 %, classe le trait (Saxena); IRM : œdème précoce, Se ~71 %.",
+   "refs": [
+    285,
+    284,
+    289
+   ]
+  },
+  "traitement": {
+   "texte": "Site à haut risque, référer; plâtre sans appui 6 semaines : succès 96 %, retour à 4,9 mois; repos avec appui : 47 %; chirurgie : 82 % (méta-analyse 2010); méta-analyse 2021 : 97,9 % (chirurgie) contre 78,1 %.",
+   "refs": [
+    287,
+    290
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport 22 semaines (conservateur) contre 16 (chirurgie); refracture 23,5 % contre 1,28 %; adolescents : 85 % guéris sans chirurgie, sport complet à 14 semaines (médiane); rugby : absence moyenne 188 jours.",
+   "refs": [
+    286,
+    287,
+    291,
+    292
+   ]
+  },
+  "refs": [
+   {
+    "n": 284,
+    "texte": "Modica AS et al. Sports Health 2026",
+    "url": "https://doi.org/10.1177/19417381251411342"
+   },
+   {
+    "n": 285,
+    "texte": "Gross CE et al. Foot Ankle Int 2015",
+    "url": "https://doi.org/10.1177/1071100715600495"
+   },
+   {
+    "n": 286,
+    "texte": "Shakked RJ et al. Curr Rev Musculoske… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9392-9"
+   },
+   {
+    "n": 287,
+    "texte": "Attia AK et al. International Ortho… 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34415421"
+   },
+   {
+    "n": 288,
+    "texte": "Fowler JR et al. Sports Med 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21780848"
+   },
+   {
+    "n": 289,
+    "texte": "Ahmed A et al. Curr Rev Musculoske… 2018",
+    "url": "https://doi.org/10.1007/s12178-018-9518-8"
+   },
+   {
+    "n": 290,
+    "texte": "Torg JS et al. Am J Sports Med 2010",
+    "url": "https://doi.org/10.1177/0363546509355408"
+   },
+   {
+    "n": 291,
+    "texte": "Mallee WH et al. Br J Sports Med 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25138980"
+   },
+   {
+    "n": 292,
+    "texte": "Mehta S et al. Am J Sports Med 2023",
+    "url": "https://doi.org/10.1177/03635465231170399"
+   }
+  ],
+  "planche": "pi18.webp"
+ },
+ {
+  "no": "Pi19",
+  "page": 19,
+  "tags": "PIED · DOULEUR DIFFUSE DU TALON · RECRUE MILITAIRE, COUREUR DE FOND",
+  "titre": "FRACTURE DE STRESS DU CALCANÉUS",
+  "epidemiologie": {
+   "texte": "Recrues finlandaises : 2,6 par 10 000 p-a; 28 % d'une série militaire de 250 fractures de stress, bilatérale 27 %; 2e site du pied; aucune proportion groupée chez les coureurs.",
+   "refs": [
+    293,
+    294,
+    13
+   ]
+  },
+  "presentation": {
+   "texte": "Prodrome de 7–10 jours, puis douleur et enflure postérieures ou plantaires du talon.",
+   "refs": [
+    295
+   ]
+  },
+  "examen": {
+   "texte": "Compression médio-latérale du calcanéus douloureuse; saut unipodal douloureux; douleur plantaire médiale isolée : fasciite plantaire.",
+   "refs": [
+    295,
+    10,
+    162
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Os trabéculaire; tubérosité postéro-supérieure, juste en avant de l'apophyse; recrues : 19/34 postérieures; autre lésion de stress du tarse associée chez 65 %.",
+   "refs": [
+    293,
+    263,
+    162
+   ]
+  },
+  "ddx": {
+   "texte": "Fasciite plantaire; compression du nerf de Baxter; tendinopathie d'insertion d'Achille; bursite rétrocalcanéenne; atrophie du coussinet adipeux; maladie de Sever; fracture pathologique.",
+   "refs": [
+    295,
+    162
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie : ligne de sclérose perpendiculaire aux travées après 2–3 semaines, visible dans 15 % des cas confirmés à l'IRM; IRM si négative : Se jusqu'à 99 %, Sp 97 % (tous sites); bilan métabolique si bilatérale.",
+   "refs": [
+    293,
+    296,
+    263,
+    162,
+    273
+   ]
+  },
+  "traitement": {
+   "texte": "Site à faible risque : ni plâtre ni chirurgie; activité réduite 3–6 semaines, talonnette, étirements; béquilles ou botte de marche ~8 semaines, jusqu'à 12; mise en charge selon tolérance.",
+   "refs": [
+    294,
+    10,
+    263,
+    162
+   ]
+  },
+  "pronostic": {
+   "texte": "Recrues asymptomatiques à 77 jours (moyenne); reprise de l'impact vers 8 semaines; récidive rare; retour au sport selon le grade IRM : 41,7 jours (grade 1) à 98,5 (grade 4), plus long en os trabéculaire.",
+   "refs": [
+    295,
+    162,
+    297
+   ]
+  },
+  "refs": [
+   {
+    "n": 293,
+    "texte": "Sormaala MJ et al. JBJS 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17015602"
+   },
+   {
+    "n": 294,
+    "texte": "Gehrmann RM et al. Foot Ankle Int 2006",
+    "url": "https://doi.org/10.1177/107110070602700919"
+   },
+   {
+    "n": 13,
+    "texte": "Swanson TL et al. Curr Rev Musculoske… 2026",
+    "url": "https://doi.org/10.1007/s12178-026-10063-6"
+   },
+   {
+    "n": 295,
+    "texte": "Hunt KJ et al. Sports Health 2009",
+    "url": "https://doi.org/10.1177/1941738109338357"
+   },
+   {
+    "n": 10,
+    "texte": "Morancie NA et al. Am Fam Physician 2025",
+    "url": "https://www.aafp.org/afp/2025/1200/heel-pain"
+   },
+   {
+    "n": 162,
+    "texte": "Mayer SW et al. Sports Health 2014",
+    "url": "https://doi.org/10.1177/1941738113486588"
+   },
+   {
+    "n": 263,
+    "texte": "Boden BP et al. Am J Sports Med 2001",
+    "url": "https://doi.org/10.1177/03635465010290010201"
+   },
+   {
+    "n": 296,
+    "texte": "Serrano S et al. American Journal of… 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26945212"
+   },
+   {
+    "n": 273,
+    "texte": "Schroeder JD et al. Am Fam Physician 2024",
+    "url": "https://www.aafp.org/afp/2024/1200/bone-stress-injuries"
+   },
+   {
+    "n": 297,
+    "texte": "Hoenig T et al. Am J Sports Med 2022",
+    "url": "https://doi.org/10.1177/0363546521993807"
+   }
+  ],
+  "planche": "pi19.webp"
+ },
+ {
+  "no": "Pi20",
+  "page": 20,
+  "tags": "PIED · DOULEUR ET ENFLURE DU MÉDIO-PIED APRÈS TRAUMATISME · TORSION EN FLEXION",
+  "titre": "LÉSION DE LISFRANC",
+  "epidemiologie": {
+   "texte": "1 par 55 000 par an, 0,2 % des fractures (estimations récentes 9,2–14 par 100 000); hommes 2–4 fois plus, pic à la 3e décennie; 20–40 % manquées au départ; véhicule 43 %, chute ou torsion 24 %, écrasement 13 %, sport 10 %.",
+   "refs": [
+    89,
+    298,
+    299,
+    300,
+    301,
+    302
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur et enflure du médio-pied, incapacité d'appui ou de monter sur la pointe; mécanisme sportif : charge axiale sur pied en flexion plantaire.",
+   "refs": [
+    301
+   ]
+  },
+  "examen": {
+   "texte": "Ecchymose plantaire du médio-pied : très évocatrice, parfois tardive; douleur à la pronation-abduction passive de l'avant-pied; touche de piano; écart entre 1er et 2e orteils.",
+   "refs": [
+    303,
+    85,
+    301,
+    304
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Atteinte ligamentaire entre 1er cunéiforme et 2e métatarsien; stades de Nunley-Vertullo : I entorse sans diastasis, II diastasis 2–5 mm, III diastasis avec affaissement de l'arche.",
+   "refs": [
+    305,
+    306
+   ]
+  },
+  "ddx": {
+   "texte": "Entorse du médio-pied sans diastasis; fractures métatarsiennes multiples; syndrome des loges si écrasement.",
+   "refs": [
+    306,
+    213,
+    251
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies en charge comparatives : diastasis ≥ 2 mm entre 1er cunéiforme et 2e métatarsien; sans charge : 24–50 % manquées; en charge : Se 64,7 %, Sp 94 %; IRM (instabilité) : Se 94 %, Sp 75 %; TDM en charge : Se 92,3 %, Sp 97,7 %.",
+   "refs": [
+    301,
+    307,
+    308,
+    309,
+    305
+   ]
+  },
+  "traitement": {
+   "texte": "Référer en orthopédie; stable sans diastasis : plâtre ou botte de marche sans appui 6 semaines, puis appui progressif; instable : chirurgie; arthrodèse primaire contre fixation : retrait de matériel RR 0,23, arthrose 2,8 % contre 17,3 %, fonction semblable.",
+   "refs": [
+    298,
+    251,
+    310,
+    311
+   ]
+  },
+  "pronostic": {
+   "texte": "Retour au sport 93–94 %, au niveau antérieur 74–88 %, en 7–33 semaines; arthrose radiographique 72,1 %, symptomatique 54,1 % à 10,9 ans; retrait de matériel après fixation 19,4 % à 5 ans.",
+   "refs": [
+    81,
+    312,
+    313
+   ]
+  },
+  "refs": [
+   {
+    "n": 89,
+    "texte": "Sanghvi PA et al. Arch Orthop Trauma… 2025",
+    "url": "https://doi.org/10.1007/s00402-025-06042-0"
+   },
+   {
+    "n": 298,
+    "texte": "Smith N et al. Clin Orthop Relat Res 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26022112"
+   },
+   {
+    "n": 299,
+    "texte": "Sripanich Y et al. Arch Orthop Trauma… 2021",
+    "url": "https://doi.org/10.1007/s00402-020-03477-5"
+   },
+   {
+    "n": 300,
+    "texte": "Ponkilainen VT et al. BMC Musculoskelet D… 2018",
+    "url": "https://doi.org/10.1186/s12891-018-2222-4"
+   },
+   {
+    "n": 301,
+    "texte": "Lewis JS et al. Foot Ankle Int 2016",
+    "url": "https://doi.org/10.1177/1071100716675293"
+   },
+   {
+    "n": 302,
+    "texte": "Chen P et al. Foot Ankle Int 2020",
+    "url": "https://doi.org/10.1177/1071100719895482"
+   },
+   {
+    "n": 303,
+    "texte": "Clare MP Curr Rev Musculoske… 2017",
+    "url": "https://doi.org/10.1007/s12178-017-9387-6"
+   },
+   {
+    "n": 85,
+    "texte": "Keiserman LS et al. Foot Ankle Int 2003",
+    "url": "https://doi.org/10.1177/107110070302400511"
+   },
+   {
+    "n": 304,
+    "texte": "Desmond EA et al. Foot Ankle Int 2006",
+    "url": "https://doi.org/10.1177/107110070602700819"
+   },
+   {
+    "n": 305,
+    "texte": "Raikin SM et al. JBJS 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19339574"
+   },
+   {
+    "n": 306,
+    "texte": "Urdahl TH et al. Foot Ankle Int 2023",
+    "url": "https://doi.org/10.1177/10711007231194044"
+   },
+   {
+    "n": 213,
+    "texte": "Thakur NA et al. JBJS 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22637209"
+   },
+   {
+    "n": 251,
+    "texte": "Silver S et al. Am Fam Physician 2024",
+    "url": "https://www.aafp.org/afp/2024/0200/common-foot-fractures"
+   },
+   {
+    "n": 307,
+    "texte": "Rikken QGH et al. Injury 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35279293"
+   },
+   {
+    "n": 308,
+    "texte": "Ashkani-Esfahani S et al. Foot Ankle Int 2022",
+    "url": "https://doi.org/10.1177/10711007221093574"
+   },
+   {
+    "n": 309,
+    "texte": "Shim DW et al. Arch Orthop Trauma… 2022",
+    "url": "https://doi.org/10.1007/s00402-021-04182-7"
+   },
+   {
+    "n": 310,
+    "texte": "Poutoglidou F et al. The Bone & Joint Jo… 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39615511"
+   },
+   {
+    "n": 311,
+    "texte": "O'Connor KP et al. Arch Orthop Trauma… 2024",
+    "url": "https://doi.org/10.1007/s00402-021-04182-7"
+   },
+   {
+    "n": 81,
+    "texte": "Dubois-Ferrière V et al. JBJS 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27147683"
+   },
+   {
+    "n": 312,
+    "texte": "Almaat A et al. Injury 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41887087"
+   },
+   {
+    "n": 313,
+    "texte": "Ter Laak Bolk CS et al. Journal of ISAKOS 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34272297"
+   }
+  ],
+  "planche": "pi20.webp"
+ },
+ {
+  "no": "Pi21",
+  "page": 21,
+  "tags": "PIED · PIED CHAUD, ROUGE ET ENFLÉ, PEU DOULOUREUX · DIABÉTIQUE AVEC NEUROPATHIE",
+  "titre": "PIED DE CHARCOT",
+  "epidemiologie": {
+   "texte": "Prévalence 0,04–0,79 % des diabétiques; incidence 6,4–9,5 par 10 000; neuropathie : risque ×14, avec obésité ×21; traumatisme antérieur 22–53 %; médio- pied 64–72 %; diagnostic retardé dans 53,2 %, de 86,9 jours en moyenne.",
+   "refs": [
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320
+   ]
+  },
+  "presentation": {
+   "texte": "Pied rouge, chaud, enflé, peau intacte, souvent indolore; marqueurs inflammatoires souvent normaux; pris pour une cellulite dans ~1/3 des cas.",
+   "refs": [
+    321,
+    322
+   ]
+  },
+  "examen": {
+   "texte": "Différence de température > 2 °C avec le pied opposé (thermomètre infrarouge) : aucune Se/Sp publiée; ulcère en zone d'appui avec atteinte osseuse sous- jacente : ostéomyélite.",
+   "refs": [
+    87,
+    323,
+    320,
+    314
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Neuropathie, traumatisme souvent non perçu; stades d'Eichenholtz modifiés : 0 (radiographie normale, IRM anormale), I fragmentation, II coalescence, III reconstruction; 61,4 % vus au stade III.",
+   "refs": [
+    317,
+    324,
+    319
+   ]
+  },
+  "ddx": {
+   "texte": "Cellulite; ostéomyélite; goutte; thrombose veineuse profonde; fracture aiguë.",
+   "refs": [
+    325,
+    326
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographies bilatérales en charge : normales pour 79 % des os avec œdème à l'IRM; IRM si radiographie normale (recommandation forte); contre l'ostéomyélite : IRM Se 76,9 %.",
+   "refs": [
+    327,
+    87,
+    314
+   ]
+  },
+  "traitement": {
+   "texte": "Immobilisation immédiate jusqu'au genou dès la suspicion, sans attendre l'imagerie; plâtre de contact total (1er choix), botte de marche rendue non amovible (2e); aucun dispositif sous la cheville; bisphosphonates, calcitonine, méthylprednisolone : non recommandés; dénosumab : non suggéré.",
+   "refs": [
+    314
+   ]
+  },
+  "pronostic": {
+   "texte": "Rémission : médiane 4,3 mois sous plâtre (9–10 mois, audit britannique); 75 jours si traité au stade 0 contre 111,5; récidive 12–16 %; controlatéral 17–20 %; amputation majeure 8,8–15,7 %; mortalité à 5 ans 24,5 %.",
+   "refs": [
+    328,
+    321,
+    329,
+    330,
+    331
+   ]
+  },
+  "refs": [
+   {
+    "n": 314,
+    "texte": "Wukich DK et al. Diabetes Metab Res Rev 2024",
+    "url": "https://doi.org/10.1002/dmrr.3646?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 315,
+    "texte": "Tsatsaris G et al. Diabetologia 2024",
+    "url": "https://doi.org/10.1007/s00125-024-06271-9"
+   },
+   {
+    "n": 316,
+    "texte": "Stuck RM et al. The American Journa… 2008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18954849"
+   },
+   {
+    "n": 317,
+    "texte": "Petrova NL et al. Diabetes Metab Res Rev 2008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18954849"
+   },
+   {
+    "n": 318,
+    "texte": "Korst GS et al. J Foot Ankle Surg 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35236617"
+   },
+   {
+    "n": 319,
+    "texte": "Wukich DK et al. Foot Ankle Int 2017",
+    "url": "https://doi.org/10.1002/dmrr.3646?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 320,
+    "texte": "Jude EB et al. Journal of Diabetes… 2025",
+    "url": "https://doi.org/10.1155/jdr/4275741?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 321,
+    "texte": "Dubský M et al. Drugs & Aging 2025",
+    "url": "https://doi.org/10.1007/s40266-025-01234-0"
+   },
+   {
+    "n": 322,
+    "texte": "Petrova NL et al. Diabetes Metab Res Rev 2016",
+    "url": "https://doi.org/10.1002/dmrr.846?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 87,
+    "texte": "Lauri C et al. European Journal of… 2024",
+    "url": "https://doi.org/10.1007/s00259-024-06693-y"
+   },
+   {
+    "n": 323,
+    "texte": "Narayan G et al. Foot Ankle Int 2026",
+    "url": "https://doi.org/10.1177/10711007251390516"
+   },
+   {
+    "n": 324,
+    "texte": "Li L et al. Endocrine 2025",
+    "url": "https://doi.org/10.1007/s12020-025-04438-x"
+   },
+   {
+    "n": 325,
+    "texte": "Armstrong DG et al. Nature Reviews 2026",
+    "url": "https://doi.org/10.1038/s41572-026-00752-4"
+   },
+   {
+    "n": 326,
+    "texte": "Sethi PK et al. Annals of Neurology 2022",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/ana.26310?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 327,
+    "texte": "Artz O et al. Diabetes Care 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37625000"
+   },
+   {
+    "n": 328,
+    "texte": "Raspovic KM et al. Diabetes Metab Res Rev 2024",
+    "url": "https://doi.org/10.1002/dmrr.3653?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 329,
+    "texte": "Schoug J et al. Diabetes Care 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38032793"
+   },
+   {
+    "n": 330,
+    "texte": "Waibel FWA et al. Clin Orthop Relat Res 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36692512"
+   },
+   {
+    "n": 331,
+    "texte": "Milbourn VEL et al. Diabetes Care 2026",
+    "url": "https://doi.org/10.2337/dc26-0373"
+   }
+  ],
+  "planche": "pi21.webp"
+ },
+ {
+  "no": "Pi22",
+  "page": 22,
+  "tags": "PIED · DOULEUR DE LA 2E TÊTE MÉTATARSIENNE · ADOLESCENTE",
+  "titre": "MALADIE DE FREIBERG",
+  "epidemiologie": {
+   "texte": "Ratio femmes-hommes ~5:1; 10–45 ans, surtout 11–17 ans; 2e métatarsien 68 %, 3e 27 %, 4e 3 %; bilatérale 6,6 %; 4e ostéochondrose en fréquence.",
+   "refs": [
+    65,
+    332,
+    333,
+    334,
+    335
+   ]
+  },
+  "presentation": {
+   "texte": "Douleur, enflure et raideur localisées à la métatarso- phalangienne, pires pieds nus ou en talons hauts.",
+   "refs": [
+    65
+   ]
+  },
+  "examen": {
+   "texte": "Sensibilité de la tête métatarsienne, mobilité réduite; brûlure irradiant à deux orteils adjacents : névrome de Morton.",
+   "refs": [
+    65,
+    139
+   ]
+  },
+  "physiopathologie": {
+   "texte": "Microfractures répétées et ischémie de la tête métatarsienne, effondrement sous-chondral; 2e métatarsien long et rigide; stades de Smillie I (fissure) à V (arthrose).",
+   "refs": [
+    332,
+    333,
+    65,
+    335
+   ]
+  },
+  "ddx": {
+   "texte": "Arthrose de la métatarso-phalangienne; arthrite inflammatoire; fracture de stress; névrome de Morton.",
+   "refs": [
+    65,
+    139,
+    336
+   ]
+  },
+  "investigations": {
+   "texte": "Radiographie (l'oblique montre mieux la lésion dorsale) : normale au stade I, élargissement articulaire 3–6 semaines après le début; 2e tête aplatie dans 10 % des pieds normaux; IRM si radiographie normale.",
+   "refs": [
+    334
+   ]
+  },
+  "traitement": {
+   "texte": "Semelle rigide ou berceau, barre métatarsienne, botte de marche ou plâtre : efficace ~60 %, ≥ 6 mois aux stades I–II; aucune option supérieure; infiltration : aucune donnée retrouvée; ostéotomie dorsale de fermeture : bon résultat 52/53; greffe ostéochondrale = ostéotomie (essai, n = 27).",
+   "refs": [
+    334,
+    65,
+    335,
+    337
+   ]
+  },
+  "pronostic": {
+   "texte": "Stades précoces : guérison habituelle sans séquelle, aucune cohorte chiffrée; ostéotomie : 16 excellents et 4 bons sur 20 à 23,4 ans, perte de flexion plantaire 11–15°; retour au sport 10 semaines (greffe) contre 13 (ostéotomie).",
+   "refs": [
+    335,
+    65,
+    338,
+    337,
+    334
+   ]
+  },
+  "refs": [
+   {
+    "n": 65,
+    "texte": "Ottofaro TD et al. Foot Ankle Int 2026",
+    "url": "https://doi.org/10.1177/10711007251401532"
+   },
+   {
+    "n": 332,
+    "texte": "Abdul W et al. Foot Ankle Int 2018",
+    "url": "https://doi.org/10.1177/1071100718786494"
+   },
+   {
+    "n": 333,
+    "texte": "Fukagawa R et al. Journal of Orthopae… 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40603195"
+   },
+   {
+    "n": 334,
+    "texte": "Michael R Carmont, Robin J 2009",
+    "url": "https://doi.org/10.3113/fai-2009-0167"
+   },
+   {
+    "n": 335,
+    "texte": "Pereira BS et al. Foot Ankle Int 2016",
+    "url": "https://doi.org/10.1177/1071100715598602"
+   },
+   {
+    "n": 139,
+    "texte": "Barry G Matthews et al. Cochrane 2024",
+    "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD014687.pub2/full?utm_source=openevidence&utm_medium=referral"
+   },
+   {
+    "n": 336,
+    "texte": "West EY et al. Pediatr Radiol 2019",
+    "url": "https://doi.org/10.1007/s00247-019-04556-5"
+   },
+   {
+    "n": 337,
+    "texte": "Georgiannos D et al. Am J Sports Med 2019",
+    "url": "https://doi.org/10.1177/0363546519859549"
+   },
+   {
+    "n": 338,
+    "texte": "Baheeg MM et al. J Foot Ankle Surg 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838503"
+   }
+  ],
+  "planche": "pi22.webp"
+ }
+]
