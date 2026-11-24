@@ -23,10 +23,10 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
      - `python3 -I outils/locomoteur/fiches-hy/extraire.py <pdf> outils/locomoteur/fiches-hy/<série>.json locomoteur/<région>/fiches/img` ;
      - ajouter la série et ses liens dans `REGIONS` de `fiches-hy.mjs` ;
      - lancer `node outils/locomoteur/fiches-hy.mjs`.
-2. **Point 23.** (en attente des fichiers de ChatGPT) Les prompts sont prêts dans `delegation/prompts-chatgpt-23.md`. À l'arrivée des fichiers JSON de ChatGPT, intégrer :
-   - les fiches d'exercices imprimables ;
-   - l'encadré « Retour au sport » ;
-   - la bibliothèque d'infiltrations.
+2. **Point 23.** Prompts dans `delegation/prompts-chatgpt-23.md`.
+   - ✅ A, fiches d'exercices : remplacées par les fiches patients PDF du Dr Morand (PR #23). Leur texte corrigé (9 régions, 186 diagnostics, 441 exercices, 303 références dont 79 « à vérifier ») est archivé dans `outils/locomoteur/fiches-patients/textes/` (`archiver-textes.py`). Pistes : conseils au patient dans les résultats, pages web des fiches, vérification des références.
+   - ✅ C, infiltrations : remplacées par les fiches d'infiltration du Dr Morand (PR #24, version du 22 novembre 16 h 13, avec les schémas ; la version de 15 h 44 a encore 31 « espaces réservés »).
+   - B, encadré « Retour au sport » : pas encore reçu.
 
    Ensuite, vérifier les références et ajouter à la liste OpenEvidence les doses et les chiffres à confirmer.
 3. Puis, du plus simple au plus long :
@@ -56,7 +56,7 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 ## En attente du clinicien
 
 - Les PDF des fiches high yield du genou, de la cheville et du pied.
-- Les fichiers JSON de ChatGPT du point 23.
+- Le JSON « Retour au sport » (point 23 B), si vous le voulez encore.
 - Les réponses d'OpenEvidence, par code (ex. `CERV-P12`), pour remplacer les poids provisoires.
 
 ## Pour reprendre le travail
