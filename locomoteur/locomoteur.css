@@ -329,6 +329,21 @@ details.lo-section > summary h2 { margin: 0 0 4px; }
 .lo-patients-liste li { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; padding: 8px 0; border-top: 1px solid var(--filet); font-size: 0.9rem; }
 .lo-patients-actions { display: flex; gap: 14px; }
 .lo-patients-actions .lo-lien { margin: 0; padding: 4px 0; }
+/* Importer une note */
+.lo-importer-etiquette { display: block; margin: 12px 0 4px; font-size: 0.86rem; font-weight: 600; }
+.lo-importer textarea { width: 100%; box-sizing: border-box; min-height: 9em; resize: vertical; }
+.lo-importer-actions { margin: 10px 0 0; }
+.lo-importer-regions { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 14px 0 6px; padding: 8px 12px; border: 1px solid var(--filet); border-radius: 10px; font-size: 0.9rem; }
+.lo-importer-regions legend { padding: 0 4px; font-weight: 600; font-size: 0.82rem; }
+.lo-importer-regions input { accent-color: var(--or); }
+.lo-importer-liste { margin: 8px 0 0; padding: 0; list-style: none; }
+.lo-fiche .lo-importer-liste li { margin: 0; padding: 8px 0; border-top: 1px solid var(--filet); }
+.lo-importer-liste label { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; cursor: pointer; }
+.lo-importer-liste input { margin-top: 3px; width: 18px; height: 18px; accent-color: var(--or); }
+.lo-importer-liste input:disabled + span { opacity: 0.5; }
+.lo-importer-q { display: block; font-size: 0.84rem; color: var(--encre-2); }
+.lo-importer-extrait { display: block; margin-top: 2px; font-size: 0.8rem; color: var(--discret); overflow-wrap: anywhere; }
+.lo-importer-alerte { display: inline-block; padding: 0 7px; border-radius: 999px; background: var(--or-fond); color: var(--or-texte); font-size: 0.76rem; font-weight: 600; }
 .lo-nouveau + .lo-nouveau { margin-left: 0; }
 .lo-nouveau.lo-secondaire { background: var(--carte); color: var(--encre); }
 .lo-nouveau.lo-secondaire:hover { background: var(--beige); border-color: var(--encre); color: var(--encre); }

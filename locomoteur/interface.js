@@ -223,7 +223,7 @@
       for (const s of D(base).sections.filter(s => s.note === "inv" || s.note === "plan")) h.push(section(s.id, s.titre, s.blocs.map((b, i) => blocHtml(`c-${s.id}-${i}`, b, b.questions.map(q => ({ r: base, q })))).join("")));
     } else h.push(`<p class="lo-vide">Choisissez la région de la plainte pour commencer.</p>`);
     form.innerHTML = h.join("");
-    $("#lo-nav").innerHTML = `<button type="button" class="lo-nouveau lo-secondaire" id="lo-rapide" aria-pressed="${rapide ? "true" : "false"}" title="Mode rapide : seulement les questions les plus discriminantes ; les réponses données restent visibles">Mode rapide</button><button type="button" class="lo-nouveau lo-secondaire" id="lo-patients-ouvrir">Patients</button><button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>`;
+    $("#lo-nav").innerHTML = `<button type="button" class="lo-nouveau lo-secondaire" id="lo-rapide" aria-pressed="${rapide ? "true" : "false"}" title="Mode rapide : seulement les questions les plus discriminantes ; les réponses données restent visibles">Mode rapide</button><button type="button" class="lo-nouveau lo-secondaire" id="lo-importer-ouvrir"${LO.importer ? "" : " hidden"}>Importer une note</button><button type="button" class="lo-nouveau lo-secondaire" id="lo-patients-ouvrir">Patients</button><button type="button" class="lo-nouveau" id="lo-nouveau">Nouveau patient</button>`;
     remplir();
   }
   // Remet dans les contrôles les réponses en mémoire (après une reconstruction ou l'ouverture d'un patient).
@@ -777,10 +777,60 @@
   });
   $("#lo-patients-effacer").addEventListener("click", () => { if (lireP().length && confirm("Effacer tous les patients sauvegardés dans ce navigateur ?")) { ecrireP([]); listeP(); } });
 
+  /* ---------- Importer une note (sans IA) : analyse par règles, confirmation, puis remplissage ---------- */
+  const dlgI = document.getElementById("lo-importer"), IM = LO.importer;
+  let importes = [];
+  const lisible = (q, v) => (q.type === "oui_non" ? ({ oui: etiquettes(q)[0], non: etiquettes(q)[1] }[v] || v)
+    : q.type === "choix" ? ((q.options.find(o => o.v === v) || {}).l || v) : q.type === "nombre" ? `${v}${q.unite ? ` ${q.unite}` : ""}` : String(v));
+  const dejaLisible = (q, v) => (Array.isArray(v) ? v.map(x => lisible(q, x)).join(", ") : lisible(q, v));
+  function ouvrirI() { if (!dlgI || !IM) return; if (dlgI.showModal) dlgI.showModal(); else dlgI.setAttribute("open", ""); $("#lo-import-texte").focus(); }
+  function analyserNote() {
+    const texte = $("#lo-import-texte").value, sortie = $("#lo-import-resultats");
+    if (!texte.trim()) { sortie.innerHTML = `<p class="lo-discret">Collez d'abord une note.</p>`; return; }
+    const trouvees = IM.regionsDe(texte).filter(r => prets.has(r)), regions = [...new Set([...etat.regions, ...trouvees])];
+    if (!regions.length) { sortie.innerHTML = `<p class="lo-discret">Aucune région reconnue dans la note : choisissez d'abord la plainte dans le formulaire, puis analysez de nouveau.</p>`; return; }
+    sortie.innerHTML = `<p class="lo-discret">Analyse en cours…</p>`;
+    Promise.all(regions.map(chargerRegion)).then(() => {
+      const tous = IM.analyser(texte, regions.map(r => ({ r, d: D(r) })), cleDe);
+      importes = tous.filter(x => lire(x.k) !== x.v).map(x => { const avant = lire(x.k); return { ...x, avant: avant === undefined || avant === "?" ? undefined : avant }; });
+      const deja = tous.length - importes.length, nouv = regions.filter(r => !etat.regions.includes(r));
+      const ligne = (x, i) => { const coche = !x.conflit && x.avant === undefined;
+        return `<li data-r="${x.r}"${x.k.includes(":") ? " data-propre" : ""}><label><input type="checkbox" data-i="${i}"${coche ? " checked" : ""}><span><span class="lo-importer-q">${x.k.includes(":") ? `${esc(NOMS[x.r])} · ` : ""}${esc(x.q.libelle)}</span>
+          <strong>${esc(lisible(x.q, x.v))}</strong>${x.conflit ? ` <span class="lo-importer-alerte">Contradiction dans la note</span>` : ""}${x.avant !== undefined ? ` <span class="lo-importer-alerte">Déjà répondu : ${esc(dejaLisible(x.q, x.avant))}</span>` : ""}
+          <span class="lo-importer-extrait">« ${esc(x.extrait)} »</span></span></label></li>`; };
+      sortie.innerHTML = `<fieldset class="lo-importer-regions"><legend>Plaintes</legend>${regions.map(r => `<label><input type="checkbox" data-region="${r}" checked${nouv.includes(r) ? "" : " disabled"}> ${esc(NOMS[r])}${nouv.includes(r) ? " <span class=\"lo-discret\">(ajoutée)</span>" : ""}</label>`).join("")}</fieldset>
+        <p class="lo-discret">${importes.length ? `${importes.length} élément${importes.length > 1 ? "s" : ""} reconnu${importes.length > 1 ? "s" : ""}` : "Aucun nouvel élément reconnu"}${deja ? ` (${deja} déjà inscrit${deja > 1 ? "s" : ""})` : ""}. Les contradictions et les réponses déjà données autrement sont décochées : vérifiez chaque ligne.</p>
+        ${importes.length ? `<ul class="lo-importer-liste">${importes.map(ligne).join("")}</ul>` : ""}
+        <p class="lo-importer-actions"><button type="button" class="lo-bouton" id="lo-import-appliquer">Appliquer les éléments cochés</button></p>`;
+    }, () => { sortie.innerHTML = `<p class="lo-discret">Une région n'a pas pu être chargée : vérifiez la connexion, puis réessayez.</p>`; });
+  }
+  function appliquerImport() {
+    const garder = new Set([...dlgI.querySelectorAll("input[data-region]:checked")].map(i => i.dataset.region));
+    const choisis = [...dlgI.querySelectorAll("input[data-i]:checked:not(:disabled)")].map(i => importes[+i.dataset.i]);
+    const nouvelles = [...garder].filter(r => !etat.regions.includes(r));
+    etat.regions.push(...nouvelles);
+    for (const x of choisis) if (!x.k.includes(":") || garder.has(x.r)) ecrire(x.k, x.v);
+    construire(); maj(); sources(); fermer(dlgI);
+    $("#lo-import-texte").value = ""; $("#lo-import-resultats").innerHTML = ""; importes = [];
+  }
+  if (dlgI) {
+    dlgI.addEventListener("click", e => {
+      if (e.target === dlgI || e.target.closest(".lo-fiche-fermer")) { fermer(dlgI); return; }
+      if (e.target.closest("#lo-import-analyser")) { analyserNote(); return; }
+      if (e.target.closest("#lo-import-appliquer")) appliquerImport();
+    });
+    // Plainte décochée : ses éléments propres ne s'appliquent pas.
+    dlgI.addEventListener("change", e => {
+      const r = e.target.dataset && e.target.dataset.region; if (!r) return;
+      for (const i of dlgI.querySelectorAll(`li[data-r="${r}"][data-propre] input`)) i.disabled = !e.target.checked;
+    });
+  }
+
   /* ---------- Navigation : sources, patients, nouveau patient ---------- */
   $("#lo-nav").addEventListener("click", e => {
     if (e.target.closest('a[href="#sources"]')) { $("#sources").open = true; return; }
     if (e.target.closest("#lo-patients-ouvrir")) { ouvrirP(); return; }
+    if (e.target.closest("#lo-importer-ouvrir")) { ouvrirI(); return; }
     const br = e.target.closest("#lo-rapide");
     if (br) {
       rapide = !rapide; br.setAttribute("aria-pressed", rapide ? "true" : "false");

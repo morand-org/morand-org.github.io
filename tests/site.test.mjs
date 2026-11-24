@@ -570,6 +570,34 @@ async function fichesHY(nav) {
   }
 }
 
+/* MSK Morand : importer une note sans IA (analyse, confirmation, remplissage). */
+async function importer(nav) {
+  const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/consultation/", { largeur: 390 });
+  await p.click("#lo-importer-ouvrir");
+  await p.fill("#lo-import-texte", "Femme 34 ans, genou droit depuis 3 semaines après un pivot au soccer. Pas de blocage. Lachman positif, McMurray négatif. Pas de fièvre. Au deuxième examen, Lachman négatif.");
+  await p.click("#lo-import-analyser"); await p.waitForSelector("#lo-import-appliquer");
+  const r = await p.evaluate(() => ({ regions: [...document.querySelectorAll("input[data-region]")].map(i => i.dataset.region),
+    lignes: document.querySelectorAll(".lo-importer-liste li").length, conflits: [...document.querySelectorAll(".lo-importer-liste li")].filter(li => /Contradiction/.test(li.textContent)).map(li => li.querySelector("input").checked) }));
+  verifier("Importer : la note de genou est reconnue (plainte ajoutée, contradiction décochée)", r.regions.join() === "genou" && r.lignes >= 7 && r.conflits.length > 0 && r.conflits.every(c => !c) && !(await deborde(p)), r);
+  await p.click("#lo-import-appliquer"); await p.waitForSelector('[data-q="genou:lachman"]', { state: "attached" });
+  const f = await p.evaluate(() => ({ age: document.querySelector('input[data-q="age"]').value, lachman: document.querySelector('[data-q="genou:lachman"][aria-pressed="true"]')?.dataset.v,
+    blocage: document.querySelector('[data-q="genou:blocage"][aria-pressed="true"]')?.dataset.v, mcmurray: document.querySelector('[data-q="genou:mcmurray"][aria-pressed="true"]')?.dataset.v || document.querySelector('select[data-q="genou:mcmurray"]')?.value,
+    ouvert: document.getElementById("lo-importer").open }));
+  verifier("Importer : les éléments cochés remplissent le formulaire (âge, blocage, McMurray) ; le Lachman contradictoire reste vide", f.age === "34" && !f.lachman && f.blocage === "non" && f.mcmurray === "negatif" && !f.ouvert && !erreurs.length, { ...f, erreurs });
+  // Une deuxième note ajoute une plainte ; une réponse déjà donnée autrement est décochée.
+  await p.click("#lo-importer-ouvrir");
+  await p.fill("#lo-import-texte", "Homme 58 ans, épaule gauche depuis 4 mois. Hawkins positif, Neer positif.");
+  await p.click("#lo-import-analyser"); await p.waitForSelector("#lo-import-appliquer");
+  const e = await p.evaluate(() => ({ regions: [...document.querySelectorAll("input[data-region]")].map(i => `${i.dataset.region}${i.disabled ? "" : "+"}`),
+    age: [...document.querySelectorAll(".lo-importer-liste li")].filter(li => /Déjà répondu/.test(li.textContent)).map(li => li.querySelector("input").checked) }));
+  await p.click("#lo-import-appliquer"); await p.waitForSelector('[data-q="epaule:neer"]', { state: "attached" });
+  const neer = await p.evaluate(() => ({ neer: document.querySelector('[data-q="epaule:neer"][aria-pressed="true"]')?.dataset.v, age: document.querySelector('input[data-q="age"]').value,
+    plaintes: [...document.querySelectorAll(".lo-puce[aria-pressed=true][data-region]")].map(b => b.dataset.region) }));
+  verifier("Importer : une note d'épaule ajoute la plainte, sans écraser l'âge déjà inscrit", e.regions.join() === "genou,epaule+" && e.age.length && e.age.every(c => !c) && neer.neer === "oui" && neer.age === "34"
+    && neer.plaintes.includes("epaule") && neer.plaintes.includes("genou"), { e, neer });
+  await ctx.close();
+}
+
 /* MSK Morand : atlas de la douleur (zone touchée → plainte et côté). */
 async function atlas(nav) {
   const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur: 390 });
@@ -585,7 +613,7 @@ async function atlas(nav) {
   await ctx.close();
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, sombre };
+const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {
