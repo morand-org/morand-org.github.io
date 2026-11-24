@@ -1,0 +1,295 @@
+# Audit du quiz, cheville et jambe (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+# Pas encore de fiche résumée de la cheville : les nouvelles cartes viennent des vérifications OpenEvidence du 24 novembre
+# (fréquences de départ, en anglais), avec la traduction fidèle du passage utilisé (« x: »).
+@ msk-cheville CHEV
+& Cheville et jambe
+= oe24:328 143
+= oe24:329 144
+= oe24:330 145
+= oe24:333 159
+= oe24:346 157
+= oe24:347 163
+= oe24:348 164
+
+## 143 Entorse latérale de la cheville
+143-01 2 M | def: LTFA : ligament talo-fibulaire antérieur, le premier atteint dans l'entorse latérale.
+143-02 2 M
+143-03 2 D | e: Examen complet le jour même de l'entorse
+143-04 0 - | r: Énoncé confus (« gain de l'examen différé »).
+143-05 2 M | def: Tiroir antérieur de la cheville : on tire le talon vers l'avant, tibia stabilisé ; une translation accrue évoque une rupture du LTFA.
+143-06 2 D
+143-07 3 M | e: Bâillement en varus (talar tilt) positif
+143-08 3 M
+143-09 3 M
+143-10 3 D
+143-11 3 D
+143-12 2 D
+143-13 2 L
++ oe24:328 - 2 M ↑ demo | Homme de 15 à 24 ans | x: Pas de différence globale entre les sexes (rapport 1,04) ; l'entorse est plus fréquente chez l'homme à 15–24 ans (rapport 1,53) et chez la femme après 30 ans (rapport 2,03).
++ oe24:328 - 3 M ↑ demo | Femme de plus de 30 ans | x: Pas de différence globale entre les sexes (rapport 1,04) ; l'entorse est plus fréquente chez l'homme à 15–24 ans (rapport 1,53) et chez la femme après 30 ans (rapport 2,03).
+
+## 144 Instabilité chronique de la cheville
+144-01 4 M | def: CAIT (Cumberland Ankle Instability Tool) : questionnaire d'instabilité de la cheville, noté sur 30 ; plus le score est bas, plus la cheville est instable.
+144-02 4 M
+144-03 0 - | r: Doublon de la carte CAIT (seuil d'origine), source de confusion.
+144-04 3 D | e: Incapacité de sauter et de se réceptionner, 2 semaines après l'entorse
+144-05 3 M | e: Saut et réception réussis, 2 semaines après l'entorse
+144-06 2 M
+144-07 2 D
+144-08 4 M | e: Tiroir antérolatéral inversé positif
+144-09 3 M
+144-10 3 D
+144-11 3 M
+144-12 3 D
+144-13 3 L
++ oe24:329 - 1 L ↑ anam | Première entorse de la cheville il y a un an | x: 40 % des patients ont une instabilité chronique 12 mois après une première entorse (n = 82) ; 34,4 % à 24 mois.
++ oe24:329 - 2 M ↑ demo | Sexe féminin | x: L'instabilité perçue est 2,6 fois plus fréquente chez la femme ; le risque baisse de 2 % par année d'âge.
+
+## 153 Entorse de la syndesmose
+153-01 2 M | e: Ligaments de la syndesmose indolores à la palpation | def: Syndesmose : ligaments qui unissent le tibia et la fibula juste au-dessus de la cheville (entorse « haute »).
+153-02 2 M | e: Saut sur une jambe possible
+153-03 2 M
+153-04 2 M | def: Squeeze test de la jambe : on serre le tibia et la fibula à mi-mollet ; une douleur à la cheville évoque une entorse de la syndesmose.
+153-05 2 L
+153-06 2 M | e: Mécanisme en éversion ou en rotation externe
+153-07 3 D
+153-08 4 M
+153-09 4 M
+153-10 3 D
+153-11 2 M | e: Radiographie positive (écart tibio-fibulaire)
+153-12 2 D
+153-13 3 L | e: Joueur de hockey sur glace
+
+## 154 Entorse médiale isolée (ligament deltoïde)
+154-01 2 L
+154-02 3 D | e: Sensibilité médiale après une entorse
+154-03 4 D
+154-04 3 D | e: Lésion du deltoïde sans atteinte associée de la syndesmose
+154-05 4 M | e: Espace clair médial de 6 mm ou plus sur la radiographie en stress
+154-06 4 D
+154-07 4 M
+154-08 0 - | r: Donnée descriptive (lésion vue à l'IRM même dans les chevilles stables), sans sens diagnostique.
+
+## 159 Fracture de la cheville ou du médio-pied
+159-01 1 L | e: Règles d'Ottawa de la cheville négatives | def: Règles d'Ottawa de la cheville : radiographie si sensibilité du bord postérieur ou de la pointe d'une malléole, ou appui impossible sur 4 pas ; pour le pied, base du 5e métatarsien ou naviculaire.
+159-02 1 D | e: Règles d'Ottawa de la cheville positives
+159-03 0 - | r: Énoncé confus (« chez l'adulte seul »), qui contredit la carte des règles d'Ottawa négatives.
+159-04 1 M | e: Enfant, règles d'Ottawa de la cheville négatives
+159-05 4 D
+159-06 0 - | r: Énoncé ambigu (règle ni positive ni négative), chiffres discordants.
+159-07 3 D | e: Douleur au diapason sur la fibula distale
+159-08 3 M | e: Échographie positive
++ oe24:333 - 1 L ↑ demo | Femme de 65 ans ou plus | x: Après 65 ans, 76,2 % des fractures de la cheville surviennent chez la femme ; chez l'adolescent, les garçons dominent.
+
+## 161 Fracture de Maisonneuve
+161-01 3 L
+161-02 2 L | def: Fracture de Maisonneuve : fracture haute de la fibula, près du genou, avec rupture de la syndesmose ; on la manque si l'on ne palpe pas toute la fibula.
+161-03 3 M
+161-04 3 D
+161-05 2 D | e: Fibula d'apparence normale sur la radiographie de la cheville
+161-06 3 D | e: Espace clair tibio-fibulaire normal à la radiographie
+161-07 0 - | r: Donnée descriptive (diagnostics manqués, sans taux publié).
+
+## 162 Lésion ostéochondrale du talus
+162-01 2 L | e: Fracture de la cheville
+162-02 2 M
+162-03 2 L
+162-04 3 D | e: Siège médial ou latéral de la lésion
+162-05 2 D
+162-06 3 M
+162-07 3 M
+162-08 3 D
+162-09 2 M | e: Interligne de la cheville sensible plus de 6 semaines après une entorse
+
+## 145 Tendinopathie d'Achille corporéale
+145-01 1 L | e: Douleur 2 à 6 cm au-dessus de l'insertion du tendon
+145-02 2 M | e: Pas de douleur 2 à 6 cm au-dessus de l'insertion
+145-03 1 L | e: Sensibilité du tendon à la palpation
+145-04 4 M | e: Test du Royal London Hospital positif | def: Test du Royal London Hospital : la douleur à la palpation du tendon diminue nettement quand la cheville passe en flexion dorsale.
+145-05 3 M | e: Signe de l'arc positif | def: Signe de l'arc : un épaississement du tendon qui se déplace avec les mouvements de la cheville évoque une tendinopathie.
+145-06 3 D
+145-07 2 M
+145-08 1 L | e: Prise d'une fluoroquinolone
+145-09 2 L
+145-10 3 D
+145-11 3 D | e: Statines ou sexe
+145-12 2 D | e: Anomalie échographique chez un sujet sans douleur
+145-13 4 M
+145-14 0 - | r: Énoncé confus (« échographie »), carte expérimentale.
++ oe24:330 - 2 L ↑ demo | Âge de 21 à 60 ans | x: Incidence en médecine générale : 1,85 pour 1 000 inscrits, 2,35 pour 1 000 à 21–60 ans ; âge médian 43,4 ans.
+
+## 146 Tendinopathie d'insertion, Haglund ou bursite rétro-calcanéenne
+146-01 0 - | r: Mesures radiographiques de spécialiste (angle de Fowler-Philip, lignes parallèles), sans valeur diagnostique.
+146-02 0 - | r: Mesures radiographiques de spécialiste (lignes parallèles), sans valeur diagnostique.
+146-03 3 M | e: Calcification à l'insertion du tendon à la radiographie | def: Déformation de Haglund : saillie osseuse à l'arrière et en haut du calcanéus, qui irrite la bourse et le tendon.
+146-04 3 D
+146-05 3 D | e: Éperon calcanéen aussi du côté sans douleur
+146-06 3 L
+146-07 2 M | e: Spondylarthrite connue
+146-08 4 M
+146-09 3 D
+
+## 158 Rupture du tendon d'Achille
+158-01 1 L | def: Test de Thompson : couché sur le ventre, on presse le mollet ; si le pied ne fait pas de flexion plantaire, le tendon d'Achille est rompu.
+158-02 1 M
+158-03 2 M | def: Test de Matles : couché sur le ventre, genoux fléchis à 90° ; le pied du côté rompu tombe en position neutre ou en flexion dorsale.
+158-04 1 L
+158-05 2 M
+158-06 1 D | e: Flexion plantaire active du pied conservée
+158-07 2 D | e: Premier diagnostic posé : entorse de la cheville
+158-08 1 L
+158-09 1 L | e: Prise d'une fluoroquinolone
+158-10 2 L | e: Corticoïde par la bouche
+158-11 3 D | e: Corticoïde inhalé
+158-12 2 L
+158-13 3 M
+158-14 3 M
+
+## 151 Dysfonction du tibial postérieur
+151-01 1 L
+151-02 2 L | e: Obésité ou hypertension
+151-03 0 - | r: Énoncé confus (« diabète »), carte expérimentale.
+151-04 4 M | e: Signe d'élévation du premier métatarsien | def: Signe d'élévation du premier métatarsien : debout, quand on tourne la jambe vers l'extérieur, la tête du 1er métatarsien se soulève si le tibial postérieur est déficient.
+151-05 2 D | e: Signe du « trop d'orteils » et montée sur la pointe d'un pied normaux | def: Signe du « trop d'orteils » : vu de derrière, on voit plus d'orteils du côté atteint, car l'avant-pied part vers l'extérieur.
+151-06 1 M | e: Montée sur la pointe d'un seul pied impossible
+151-07 3 M
+151-08 3 M | e: Échographie positive
+151-09 2 D | e: Symptômes anciens, jamais diagnostiqués
+
+## 155 Tendinopathie, déchirure ou luxation des fibulaires
+155-01 3 D
+155-02 2 M
+155-03 0 - | r: Carte expérimentale au sens douteux (IRM).
+155-04 4 M
+155-05 4 D
+155-06 2 L | e: Tuméfaction derrière la malléole latérale
+155-07 3 D
+155-08 3 L | e: Ski (luxation aiguë des fibulaires)
+155-09 0 - | r: Énoncé confus (« fréquence »), carte expérimentale.
+155-10 3 M | e: Signe de l'écaille (fleck sign) à la radiographie | def: Signe de l'écaille : petit fragment osseux arraché derrière la malléole latérale, signe d'une luxation des tendons fibulaires.
+155-11 3 D
+155-12 0 - | r: Donnée descriptive (premier diagnostic correct dans 60 % des cas).
+
+## 149 Lésion musculaire du mollet (tennis leg)
+149-01 2 L | e: Atteinte du chef médial du gastrocnémien
+149-02 2 M | e: Thrombose veineuse profonde à l'échographie
+149-03 2 L
+149-04 3 D
+149-05 2 L
+149-06 2 M | e: Test de compression du mollet (Thompson) anormal
+149-07 2 D | e: Signe de Homans positif | def: Signe de Homans : douleur au mollet à la flexion dorsale passive du pied.
+149-08 3 D
+
+## 147 Périostite tibiale (syndrome de stress tibial médial)
+147-01 2 L
+147-02 3 M | def: Chute du naviculaire : descente du tubercule naviculaire entre la position assise et debout, qui mesure l'affaissement de l'arche.
+147-03 3 D
+147-04 3 D | e: Âge, taille ou kilométrage hebdomadaire
+147-05 4 M | e: Test de l'œdème tibial positif chez le coureur encore sans douleur
+147-06 1 L | e: Sensibilité diffuse du bord interne du tibia sur 5 cm ou plus
+147-07 3 D
+147-08 0 - | r: Énoncé vague (« diagnostic unique »), donnée descriptive.
+
+## 148 Syndrome compartimental chronique d'effort
+148-01 4 M | e: Pression de loge de 105 mmHg ou plus, en continu à l'effort
+148-02 0 - | r: Énoncé confus (« inférieure »), carte expérimentale.
+148-03 3 M | e: Pression de loge de 30 mmHg ou plus, 1 minute après l'effort
+148-04 0 - | r: Énoncé confus (deux seuils mélangés).
+148-05 2 D
+148-06 2 M
+148-07 2 L | e: Jambe qui durcit et fait mal à l'effort | def: Syndrome compartimental chronique d'effort : la pression monte dans une loge musculaire de la jambe à l'effort et donne douleur et tension, qui cèdent au repos.
+148-08 3 D | e: Jeune âge
+148-09 3 D | e: Sexe (homme ou femme)
+148-10 2 L | e: Atteinte de la loge antérieure ou latérale
+148-11 0 - | r: Spectroscopie proche infrarouge : technique de recherche, sans usage au bureau.
+148-12 4 M
+148-13 4 M
+
+## 160 Fracture de stress du tibia ou de la fibula
+160-01 1 M | e: Absence de sensibilité osseuse focale du tibia
+160-02 2 L
+160-03 2 D | e: Saut sur une jambe douloureux
+160-04 3 D | e: Douleur au diapason sur le tibia
+160-05 2 M | e: Saut douloureux avec une zone sensible de 10 cm ou moins
+160-06 1 L
+160-07 2 M | e: Premières règles après 15 ans
+160-08 3 D
+160-09 1 D
+160-10 2 L
+160-11 3 M
+160-12 3 M
+160-13 3 L | e: Atteinte du tibia (plutôt que de la fibula)
+160-14 0 - | r: Énoncé confus (« fibula »), carte expérimentale.
+
+## 164 Fracture d'insuffisance (tibia distal, fibula, calcanéus)
+164-01 2 L | e: Femme âgée atteinte de polyarthrite rhumatoïde, sous corticoïdes
+164-02 0 - | r: Donnée descriptive (diagnostic souvent tardif), sans sens diagnostique.
+164-03 2 D | e: Tableau qui ressemble à une arthrite de la cheville
+164-04 1 D
+164-05 2 L
+164-06 3 M
+164-07 3 D | e: Absence de corticothérapie
+164-08 2 M | e: Diabète traité à l'insuline, avec neuropathie
++ oe24:348 - 2 L ↑ demo | Femme de plus de 60 ans | x: Séries de cas : 21 femmes pour 4 hommes et 83 femmes pour 22 hommes (environ 4 à 5 pour 1), âge moyen 66 ans.
+
+## 150 Maladie de Sever
+150-01 2 L | e: Appui sur le talon d'un seul pied douloureux
+150-02 3 D
+150-03 3 D | e: Fragmentation de l'apophyse du calcanéus à la radiographie
+150-04 3 M | e: Pas de fragmentation de l'apophyse à la radiographie
+150-05 0 - | r: Énoncé vague (radiographie systématique), sans sens diagnostique.
+150-06 1 L | def: Maladie de Sever : apophysite du calcanéus (irritation du cartilage de croissance du talon) chez l'enfant sportif.
+150-07 2 D | e: Atteinte d'un seul talon
+150-08 2 L
+150-09 3 D | e: IMC
+
+## 152 Arthrose de la cheville
+152-01 1 L
+152-02 1 L | e: Ancienne fracture de la cheville
+152-03 3 M
+152-04 3 M | e: Ancienne fracture Weber C | def: Classification de Weber : fracture de la fibula sous la syndesmose (A), à sa hauteur (B) ou au-dessus (C, la plus instable).
+152-05 2 L | e: Ancienne entorse de la cheville
+152-06 2 D | e: Instabilité chronique de la cheville
+152-07 3 L
+152-08 3 D
+152-09 3 M
+152-10 3 M | e: Hémochromatose, devant une arthrose sans traumatisme
+
+## 156 Conflit antérieur ou postérieur de la cheville
+156-01 3 M | def: Conflit antérieur de la cheville : coincement douloureux de tissus ou d'ostéophytes à l'avant de la cheville en flexion dorsale.
+156-02 3 M
+156-03 4 D | e: IRM standard
+156-04 0 - | r: Arthro-IRM aux résultats incertains (épaississement aussi chez les témoins), sans usage au bureau.
+156-05 4 M
+156-06 4 M
+156-07 3 D
+156-08 3 D
+
+## 157 Syndrome du tunnel tarsien
+157-01 2 D | e: Signe de Tinel au tunnel tarsien | def: Syndrome du tunnel tarsien : compression du nerf tibial derrière la malléole médiale, qui donne brûlure et paresthésies sous le pied.
+157-02 3 D | e: Tinel positif chez le sujet sain
+157-03 4 M | e: Test de dorsiflexion-éversion positif
+157-04 4 M | e: Test de triple compression positif
+157-05 3 M | e: Conduction sensitive anormale (EMG)
+157-06 3 D | e: Latence motrice normale (EMG)
+157-07 2 M | e: Cause de compression identifiable à l'imagerie
+157-08 3 D
+157-09 3 D
+157-10 3 D
++ oe24:346 - 3 M ↑ demo | Sexe féminin | x: Après une entorse, rapport de cotes de 2,73 chez la femme ; 56 % de femmes dans les séries de cas.
+
+## 163 Goutte ou arthrite à pyrophosphate de la cheville
+163-01 2 M | e: Atteinte de la cheville (pour une goutte)
+163-02 1 L | e: Atteinte isolée de la base du gros orteil (1re métatarso-phalangienne)
+163-03 3 D | e: Score de Janssens de 8 ou plus | def: Score de Janssens : règle de première ligne devant une monoarthrite aiguë ; il additionne le sexe masculin, une crise antérieure, un début en moins d'un jour, la rougeur, l'atteinte du gros orteil, l'hypertension ou une maladie cardiovasculaire, et une uricémie élevée.
+163-04 3 M | def: Signe du double contour : liseré d'urate à la surface du cartilage, visible à l'échographie.
+163-05 0 - | r: Énoncé confus (signe échographique chez l'hyperuricémique sans symptôme).
+163-06 0 - | r: Scanner double énergie : imagerie spécialisée, sans usage au bureau.
+163-07 0 - | r: Énoncé tronqué (« négatif en goutte débutante »).
+163-08 1 D
+163-09 2 L | e: Prise de diurétiques
+163-10 2 D | e: Tableau qui ressemble à une cellulite
+163-11 3 D | e: Cristaux dans le liquide articulaire
++ oe24:347 - 2 L ↑ demo | Goutte : sexe masculin | x: Goutte : environ 3,3 hommes pour 1 femme (4,42 contre 1,32 pour 1 000 personnes-années) ; l'écart diminue avec l'âge.

@@ -84,11 +84,13 @@
   {
    "cle": "msk-cheville",
    "domaine": "MSK",
-   "region": "Cheville",
+   "region": "Cheville et jambe",
    "fichier": "/entrainement/banque/msk-cheville.json",
-   "cartes": 228,
+   "cartes": 237,
    "experimentales": 8,
-   "diagnostics": 22
+   "diagnostics": 22,
+   "retirees": 24,
+   "jouables": 211
   },
   {
    "cle": "msk-pied",
