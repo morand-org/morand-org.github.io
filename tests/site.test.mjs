@@ -11,7 +11,7 @@ const { chromium } = createRequire(import.meta.url)("playwright");
 
 const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".mjs": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml",
-  ".png": "image/png", ".webp": "image/webp", ".woff2": "font/woff2", ".webmanifest": "application/manifest+json", ".xml": "application/xml", ".txt": "text/plain; charset=utf-8", ".mp3": "audio/mpeg" };
+  ".png": "image/png", ".webp": "image/webp", ".woff2": "font/woff2", ".webmanifest": "application/manifest+json", ".xml": "application/xml", ".txt": "text/plain; charset=utf-8", ".mp3": "audio/mpeg", ".pdf": "application/pdf" };
 const serveur = http.createServer((req, res) => {
   let p = decodeURIComponent(new URL(req.url, "http://x").pathname); if (p.endsWith("/")) p += "index.html";
   const f = path.join(RACINE, p);
@@ -557,7 +557,17 @@ async function fichesHY(nav) {
   const { ctx, p } = await ouvrir(nav, "/locomoteur/cervical/");
   const lien = await p.evaluate(() => (window.Locomoteur.fichesHY.cervical || {}).radiculopathie);
   verifier("fiches : le calcul cervical connaît la fiche de la radiculopathie", !!lien && /\/locomoteur\/cervical\/fiches\/c8-/.test(lien.u), lien);
+  const inf = await p.evaluate(() => (window.Locomoteur.fichesInfiltration.cervical || {}).arnold);
+  const pdf = inf && await p.request.get(new URL(inf.u, p.url()).href);
+  verifier("fiches : le calcul cervical connaît la fiche d'infiltration du nerf d'Arnold (PDF servi)", !!inf && pdf.status() === 200 && /pdf/.test(pdf.headers()["content-type"]), inf);
   await ctx.close();
+  {
+    // Fiches d'infiltration pour le médecin : vue d'ensemble, puis 31 fiches par région.
+    const { ctx: c2, p: p2, erreurs, statut } = await ouvrir(nav, "/locomoteur/infiltrations/", { largeur: 390 });
+    const n = await p2.locator(".hy-patients a").count();
+    verifier("fiches : bibliothèque des infiltrations (32 PDF, sans erreur ni débordement)", statut === 200 && n === 32 && !erreurs.length && !(await deborde(p2)), { statut, n, erreurs });
+    await c2.close();
+  }
 }
 
 /* MSK Morand : atlas de la douleur (zone touchée → plainte et côté). */
