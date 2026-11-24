@@ -60,7 +60,7 @@ async function pages(nav) {
   }
 }
 
-/* 2. Navigation : les cinq outils sur une ligne, l'outil courant marqué, sans chevaucher « Morand ». */
+/* 2. Navigation : les six outils sur une ligne, l'outil courant marqué, sans chevaucher « Morand ». */
 async function navigation(nav) {
   const ATTENDU = { "/guides/": "Guide", "/guides/ressources-communautaires/": "Guide", "/map/": "Map", "/crds/": "CRDS", "/codes/": "Codes" };
   for (const largeur of [320, 390, 1280]) for (const u of OUTILS) {
@@ -69,7 +69,7 @@ async function navigation(nav) {
       const a = [...n.querySelectorAll("a")], b = a.map(x => x.getBoundingClientRect()), m = n.parentElement.querySelector("a").getBoundingClientRect();
       return { noms: a.map(x => x.textContent.trim()), liens: a.map(x => x.getAttribute("href")), courant: (n.querySelector("[aria-current='page']") || {}).textContent,
         uneLigne: Math.abs(b[0].top - b[b.length - 1].top) < 2, dansEcran: b[b.length - 1].right <= innerWidth + 1, chevauche: m.right > b[0].left - 2 }; });
-    verifier(`${u} à ${largeur} px : cinq outils dans l'en-tête`, r && r.noms.join() === "Wealth,Guide,Map,CRDS,Codes" && r.liens.join() === "/wealth/,/guides/,/map/,/crds/,/codes/", r);
+    verifier(`${u} à ${largeur} px : six outils dans l'en-tête`, r && r.noms.join() === "Wealth,Guide,Map,CRDS,Codes,MSK" && r.liens.join() === "/wealth/,/guides/,/map/,/crds/,/codes/,/locomoteur/", r);
     verifier(`${u} à ${largeur} px : onglets sur une ligne, dans l'écran, sans toucher « Morand »`, r && r.uneLigne && r.dansEcran && !r.chevauche, r);
     verifier(`${u} à ${largeur} px : l'outil courant est marqué`, r && r.courant === ATTENDU[u], r && r.courant);
     await ctx.close();
@@ -93,12 +93,12 @@ async function motsColles(nav) {
   }
 }
 
-/* 4. Accueil : cinq outils qui tiennent dans l'écran ; la recherche unique trouve dans chaque outil. */
+/* 4. Accueil : six outils qui tiennent dans l'écran ; la recherche unique trouve dans chaque outil. */
 async function accueil(nav) {
   for (const [largeur, hauteur] of [[390, 844], [320, 568], [1280, 720]]) {
     const { ctx, p } = await ouvrir(nav, "/", { largeur, hauteur });
     const r = await p.evaluate(() => ({ outils: [...document.querySelectorAll("#outils a")].map(a => a.getAttribute("href")), bas: document.querySelector(".pied").getBoundingClientRect().bottom, titre: document.querySelector("h1").textContent }));
-    verifier(`accueil ${largeur}×${hauteur} : cinq outils`, r.outils.join() === "/wealth/,/guides/,/map/,/crds/,/codes/", r.outils);
+    verifier(`accueil ${largeur}×${hauteur} : six outils`, r.outils.join() === "/wealth/,/guides/,/map/,/crds/,/codes/,/locomoteur/", r.outils);
     verifier(`accueil ${largeur}×${hauteur} : tout tient dans l'écran`, r.bas <= hauteur + 1, Math.round(r.bas));
     // La barre de recherche : un bouton « Chercher » dans le champ, et l'exemple tient en entier à côté du bouton.
     const b = await p.evaluate(() => { const i = document.getElementById("rg-q"), bt = document.querySelector(".rg-bouton"), ri = i.getBoundingClientRect(), rb = bt.getBoundingClientRect();
@@ -114,7 +114,7 @@ async function accueil(nav) {
         const bt = document.getElementById("installer").getBoundingClientRect(), h1 = document.querySelector("h1"), rg = document.createRange();
         rg.setStart(h1.firstChild, 0); rg.setEnd(h1.firstChild, h1.firstChild.length); const l1 = rg.getBoundingClientRect(), f = document.querySelector(".tete").getBoundingClientRect();
         return { ecart: Math.abs((bt.top + bt.bottom) / 2 - (l1.top + l1.bottom) / 2), droite: Math.abs(bt.right - f.right), bas: document.querySelector(".pied").getBoundingClientRect().bottom }; });
-      verifier(`accueil ${largeur}×${hauteur} : « Installer l'app » centré sur « Cinq outils », aligné à droite`, i.ecart <= 2 && i.droite <= 1 && i.bas <= hauteur + 1, i);
+      verifier(`accueil ${largeur}×${hauteur} : « Installer l'app » centré sur « Six outils », aligné à droite`, i.ecart <= 2 && i.droite <= 1 && i.bas <= hauteur + 1, i);
     }
     await ctx.close();
   }
@@ -524,8 +524,8 @@ function fichiers() {
   }
   verifier("plein-ecran.js : n'ajoute « cover » qu'en mode app installée", /display-mode: standalone/.test(lire("morand/plein-ecran.js")) && /viewport-fit=cover/.test(lire("morand/plein-ecran.js")));
   verifier("remerciements : page cachée (non indexée, absente du plan du site)", lire("merci/index.html").includes('<meta name="robots" content="noindex,nofollow">') && !plan.includes("/merci/"));
-  verifier("MSK Morand (prototype) : pages cachées (non indexées, absentes du plan du site et de l'accueil)", ["locomoteur/index.html", "locomoteur/genou/index.html"].every(f => lire(f).includes('<meta name="robots" content="noindex,nofollow">'))
-    && !plan.some(u => u.startsWith("/locomoteur/")) && !lire("index.html").includes("/locomoteur/"));
+  verifier("MSK Morand : pages publiques (indexées, au plan du site et à l'accueil)", ["locomoteur/index.html", "locomoteur/genou/index.html"].every(f => !lire(f).includes("noindex"))
+    && plan.includes("/locomoteur/") && plan.includes("/locomoteur/consultation/") && lire("index.html").includes('href="/locomoteur/"'));
   verifier("robots.txt : annonce le plan du site", lire("robots.txt").includes("Sitemap: https://www.morand.org/sitemap.xml"));
   const m = JSON.parse(lire("manifest.webmanifest"));
   verifier("manifeste : un raccourci par outil, icônes présentes", m.shortcuts.map(s => s.url).join() === "/wealth/,/guides/,/map/,/crds/,/codes/" && m.shortcuts.every(s => fs.existsSync(path.join(RACINE, s.icons[0].src))), m.shortcuts.map(s => s.url));

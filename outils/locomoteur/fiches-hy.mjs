@@ -64,7 +64,6 @@ const tete = (titre, description, profondeur) => `<!doctype html>
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>${esc(titre)} | MSK Morand</title>
 <!-- Produit par node outils/locomoteur/fiches-hy.mjs. -->
-<meta name="robots" content="noindex,nofollow">
 <meta name="description" content="${esc(description)}">
 <meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">

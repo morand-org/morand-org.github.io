@@ -134,14 +134,17 @@ h1 em { color: var(--or); }
   .rg-etat { margin: -6px 0 16px; }
   .rg-res { columns: 2; column-gap: 48px; }
   .rg-groupe { break-inside: avoid; }
-  /* Le bouton centré sur la première ligne du titre (« Cinq outils »), aligné à droite sur le filet et la rubrique. */
+  /* Le bouton centré sur la première ligne du titre (« Six outils »), aligné à droite sur le filet et la rubrique. */
   .installer-ligne { grid-column: 2; grid-row: 1; align-self: start; margin: calc(var(--haut-titre) + (var(--taille-titre) * 1.04 - 44px) / 2) 0 0; }
-  /* Cinq outils : sceaux et rangées réglés sur la hauteur, pour que tout tienne sans défiler. */
-  .outils a { grid-template-columns: 64px minmax(0, 1fr) clamp(52px, 8.1vh, 114px); column-gap: 32px; padding: clamp(4px, 1.15vh, 18px) 0; }
-  .no { font-size: 22px; }
-  .nom { font-size: clamp(1.75rem, 3.6vh, 2.55rem); }
-  .desc { margin-top: clamp(3px, 0.8vh, 10px); font-size: clamp(0.95rem, 1.85vh, 1.1rem); }
-  .outils img { width: clamp(52px, 8.1vh, 114px); height: clamp(52px, 8.1vh, 114px); }
+  /* Six outils en grille de 3 sur 2 : des cartes à sceau, au double filet, réglées sur la hauteur pour tenir sans défiler. */
+  .outils { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(10px, 1.9vh, 18px); border-top: 0; }
+  .outils a { grid-template-columns: 1fr; grid-template-areas: "img" "no" "nom" "desc"; justify-items: center; align-content: center; text-align: center; height: 100%; box-sizing: border-box;
+    padding: clamp(10px, 2.1vh, 24px) 18px; border: 1px solid var(--filet); border-radius: 12px; background: var(--papier); box-shadow: inset 0 0 0 5px var(--papier), inset 0 0 0 6px var(--filet); }
+  .outils a:hover { border-color: var(--or); }
+  .no { font-size: 15px; margin-top: clamp(4px, 1vh, 10px); }
+  .nom { font-size: clamp(1.45rem, 3.1vh, 2.1rem); }
+  .desc { margin-top: clamp(2px, 0.6vh, 8px); font-size: clamp(0.85rem, 1.65vh, 1rem); }
+  .outils img { width: clamp(44px, 7.2vh, 84px); height: clamp(44px, 7.2vh, 84px); }
   .rg input { padding: 0 150px 0 60px; font-size: clamp(1.02rem, 2.1vh, 1.18rem); }
   .rg-loupe { left: 22px; width: clamp(22px, 2.8vh, 26px); height: clamp(22px, 2.8vh, 26px); }
   .rg-bouton { padding: 0 28px; font-size: clamp(0.95rem, 1.8vh, 1.02rem); }
@@ -161,14 +164,14 @@ h1 em { color: var(--or); }
   .accueil .rg { margin: 0 0 clamp(10px, 2.2svh, 20px); }
   .accueil .rg { --rg-haut: clamp(46px, 6.4svh, 54px); }
   .accueil .rg-etat { margin: -4px 0 14px; }
-  .accueil .outils a { padding: clamp(7px, 1.55svh, 15px) 0; grid-template-columns: 30px 1fr clamp(42px, 6.9svh, 62px); }
-  .accueil .outils img { width: clamp(42px, 6.9svh, 62px); height: clamp(42px, 6.9svh, 62px); }
-  .accueil .nom { font-size: clamp(1.12rem, 2.9svh, 1.5rem); }
+  .accueil .outils a { padding: clamp(3px, 0.95svh, 11px) 0; grid-template-columns: 30px 1fr clamp(34px, 5.4svh, 52px); }
+  .accueil .outils img { width: clamp(34px, 5.4svh, 52px); height: clamp(34px, 5.4svh, 52px); }
+  .accueil .nom { font-size: clamp(1.05rem, 2.6svh, 1.42rem); }
   .accueil .desc { margin-top: clamp(2px, 0.6svh, 6px); font-size: clamp(0.7rem, 1.6svh, 0.78rem); }
   .accueil .pied { padding-top: clamp(6px, 1.5svh, 16px); }
   .accueil .pied a { padding: clamp(8px, 1.5svh, 14px) 0; }
   /* Écran bas (iPhone SE) : un peu moins d'air, pour que le titre ne remonte pas sous l'en-tête. */
-  @media (max-height: 600px) { .accueil .installer { min-height: 36px; } .accueil .installer-ligne { margin-bottom: 8px; } .accueil .rg { margin-bottom: 8px; } .accueil .outils a { padding: 4px 0; } }
+  @media (max-height: 600px) { .accueil .installer { min-height: 36px; } .accueil .installer-ligne { margin-bottom: 8px; } .accueil .rg { margin-bottom: 8px; } .accueil .outils a { padding: 1px 0; } .accueil .desc { font-size: 0.68rem; margin-top: 1px; } .accueil .nom { font-size: 1.02rem; } }
   /* Pendant une recherche : la page redevient une page ordinaire, qui défile. */
   .accueil.cherche main { justify-content: flex-start; padding-top: 14px; }
 }
