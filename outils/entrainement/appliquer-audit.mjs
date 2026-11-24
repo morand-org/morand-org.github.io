@@ -18,12 +18,14 @@
    Nouvelle carte : la source est une fiche résumée (C1, rubrique epi, pre, exa, phy, dif, inv, tra, pro) ou un élément du
    document du 21 novembre (oe21:<rang>, rubrique « - ») ; l'explication est la phrase de la source, telle quelle, avec
    ses références. Aucun chiffre n'est ajouté : la carte ne donne que le sens (↑ ↔ ↓) que la phrase énonce.
+   Une vérification du 24 novembre (oe24:<rang>, rubrique « - ») est en anglais : la carte porte alors « x: », la traduction
+   fidèle du passage utilisé (mêmes chiffres), qui devient l'explication. « x: » peut aussi préciser une autre source.
    Une décision « remise » du mode éditeur (outils/entrainement/decisions.json) remet une carte retirée dans le jeu. */
 import fs from "node:fs";
 import path from "node:path";
 const RACINE = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../..");
 const lire = f => JSON.parse(fs.readFileSync(path.join(RACINE, f), "utf8"));
-const hy = lire("locomoteur/donnees/hy.json"), oe21 = lire("locomoteur/donnees/oe21.json");
+const hy = lire("locomoteur/donnees/hy.json"), oe21 = lire("locomoteur/donnees/oe21.json"), oe24 = lire("locomoteur/donnees/oe24.json");
 const decisionsF = path.join(RACINE, "outils/entrainement/decisions.json");
 const decisions = fs.existsSync(decisionsF) ? JSON.parse(fs.readFileSync(decisionsF, "utf8")) : {};
 const REP = { "↑": "increase", "↔": "neutral", "↓": "decrease" }, NIV = { L: 1, M: 2, D: 3 };
@@ -51,10 +53,10 @@ for (const f of fs.readdirSync(dossier).filter(x => x.endsWith(".txt")).sort()) 
     if (c.enonce_source) { c.enonce = c.enonce_source; delete c.enonce_source; }
     for (const k of ["pertinence", "retrait", "definition", "audit"]) delete c[k];
   }
-  for (const k of Object.keys(paquet.references)) if (/^[ho]\d+$/.test(k)) delete paquet.references[k];
+  for (const k of Object.keys(paquet.references)) if (/^[hov]\d+$/.test(k)) delete paquet.references[k];
   const parId = new Map(paquet.cartes.map(c => [c.id, c])), dxParNo = new Map(paquet.cartes.map(c => [c.diagnostic.no, c.diagnostic]));
   const fiches = new Map(), compte = {}, vues = new Set();
-  const champs = reste => Object.fromEntries(reste.map(s => s.trim()).filter(Boolean).map(s => { const m = s.match(/^(e|def|r):\s*(.+)$/); if (!m) erreurs.push(`${f} : champ illisible « ${s} »`); return m ? [m[1], m[2].trim()] : ["?", s]; }));
+  const champs = reste => Object.fromEntries(reste.map(s => s.trim()).filter(Boolean).map(s => { const m = s.match(/^(e|def|r|x):\s*(.+)$/); if (!m) erreurs.push(`${f} : champ illisible « ${s} »`); return m ? [m[1], m[2].trim()] : ["?", s]; }));
   const ref = (pre, liste, i) => { const k = `${pre}${i}`, r = liste[i]; if (r) paquet.references[k] = { n: k, texte: r.t, ...(r.u ? { url: r.u } : {}) }; return k; };
   for (const [no, brute] of lignes.entries()) {
     const l = brute.trim();
@@ -71,6 +73,10 @@ for (const f of fs.readdirSync(dossier).filter(x => x.endsWith(".txt")).sort()) 
         item = oe21.items[+src.slice(5)];
         if (!item) { erreurs.push(`${ou} : élément ${src} introuvable`); continue; }
         refs = item.refs.map(i => ref("o", oe21.refs, i)); sourceTexte = `Document OpenEvidence du 21 novembre 2026 (${item.cat.split(" · ")[0].toLowerCase()})`; nomDx = item.dx;
+      } else if (src.startsWith("oe24:")) {
+        item = oe24.items[+src.slice(5)];
+        if (!item || !opt.x) { erreurs.push(`${ou} : élément ${src} introuvable, ou explication traduite (x:) manquante`); continue; }
+        refs = item.refs.map(i => ref("v", oe24.refs, i)); sourceTexte = "Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ)"; nomDx = item.dx;
       } else {
         item = hy.items.find(x => x.r === REGION_HY[cle] && x.code === `Fiche ${src}` && x.cat.split(" · ")[1].startsWith(RUBRIQUES[rub] || "?"));
         if (!item) { erreurs.push(`${ou} : fiche ${src} (${rub}) introuvable`); continue; }
@@ -78,13 +84,13 @@ for (const f of fs.readdirSync(dossier).filter(x => x.endsWith(".txt")).sort()) 
       }
       const dxNo = fiches.has(src) ? fiches.get(src) : null;
       const diagnostic = dxNo !== null && dxNo !== undefined && dxParNo.has(dxNo) ? dxParNo.get(dxNo) : { no: null, nom: nomDx };
-      const base = src.replace(/^oe21:/, "O").toUpperCase().replace(/^([A-Z]+)(\d)$/, "$10$2");
+      const base = src.replace(/^oe21:/, "O").replace(/^oe24:/, "V").toUpperCase().replace(/^([A-Z]+)(\d)$/, "$10$2");
       compte[base] = (compte[base] || 0) + 1;
       paquet.cartes.push({
         id: `MSK-${prefixe}-${base}-${String(compte[base]).padStart(2, "0")}`, domaine: "MSK", region: paquet.region, diagnostic,
-        type: TYPES[ty], enonce, reponse: REP[fl], explication: item.t, donnee: { nature: sourceTexte.startsWith("Fiche") ? "Fiche résumée" : "OpenEvidence" },
+        type: TYPES[ty], enonce, reponse: REP[fl], explication: opt.x || item.t, donnee: { nature: sourceTexte.startsWith("Fiche") ? "Fiche résumée" : "OpenEvidence" },
         references: refs, difficulte: NIV[niv], pertinence: +p, ...(opt.def ? { definition: opt.def } : {}), ...(opt.r ? { retrait: opt.r } : {}),
-        statut: "en_revision", valide_le: null, source: sourceTexte, origine: src.startsWith("oe21:") ? "oe21" : "fiche",
+        statut: "en_revision", valide_le: null, source: sourceTexte, origine: src.startsWith("oe2") ? src.slice(0, 4) : "fiche",
       });
       continue;
     }

@@ -75,9 +75,11 @@
    "domaine": "MSK",
    "region": "Genou",
    "fichier": "/entrainement/banque/msk-genou.json",
-   "cartes": 202,
+   "cartes": 217,
    "experimentales": 2,
-   "diagnostics": 23
+   "diagnostics": 23,
+   "retirees": 13,
+   "jouables": 204
   },
   {
    "cle": "msk-cheville",

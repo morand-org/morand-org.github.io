@@ -1317,3 +1317,220 @@ Hanche et bassin;Retirée;;Polymyalgia rheumatica (hanche);Après ajout de l'éc
 Hanche et bassin;Retirée;;Polymyalgia rheumatica (hanche);Fréquence de la bursite trochantérienne;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (fréquence très variable selon les séries).;MSK-119-08
 Hanche et bassin;Retirée;;Pubalgie pariétale (douleur liée au canal inguinal);Bombement du canal inguinal à l'échographie chez le jeune footballeur;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (bombement fréquent, non prédictif).;MSK-108-04
 Hanche et bassin;Retirée;;Syndrome du piriforme (fessier profond);(incertain) Test FAIR électrophysiologique;↑ Augmente;Tests spécifiques;Base des flashcards;;;Test électrophysiologique non reproduit (biais d'incorporation), sans usage au bureau.;MSK-105-05
+Genou;1 Essentielle;Modéré;Arthrite inflammatoire;Anti-CCP positifs;↑ Augmente;Laboratoire;Base des flashcards;;;;MSK-140-03
+Genou;1 Essentielle;Léger;Arthrite septique;Chirurgie articulaire récente;↑ Augmente;Réponse aux traitements;Base des flashcards;;;;MSK-141-01
+Genou;1 Essentielle;Léger;Arthrite septique;Âge > 80 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-141-02
+Genou;1 Essentielle;Léger;Arthrite septique;Leucocytes synoviaux > 100 000/mm³;↑ Augmente;Anamnèse;Base des flashcards;Leucocytes synoviaux > 100 000;;;MSK-141-05
+Genou;1 Essentielle;Léger;Arthrite septique;Coloration de Gram positive;↑ Augmente;Tests spécifiques;Base des flashcards;Gram positif;;;MSK-141-10
+Genou;1 Essentielle;Modéré;Arthrite septique;Leucocytes synoviaux < 25 000/mm³;↓ Diminue;Anamnèse;Base des flashcards;Leucocytes synoviaux < 25 000;;;MSK-141-06
+Genou;1 Essentielle;Difficile;Arthrite septique;Fièvre;↔ Neutre;Drapeaux rouges;Base des flashcards;;;;MSK-141-03
+Genou;1 Essentielle;Difficile;Arthrite septique;Leucocytes synoviaux < 50 000/mm³;↔ Neutre;Anamnèse;Base des flashcards;Leucocytes synoviaux < 50 000;;;MSK-141-09
+Genou;1 Essentielle;Difficile;Arthrite septique;Coloration de Gram négative;↔ Neutre;Tests spécifiques;Base des flashcards;Gram négatif;;;MSK-141-11
+Genou;1 Essentielle;Difficile;Arthrite septique;Cristaux dans le liquide articulaire;↔ Neutre;Laboratoire;Base des flashcards;Cristaux dans le liquide;;;MSK-141-12
+Genou;1 Essentielle;Léger;Arthrose du genou;Élargissement osseux du genou;↑ Augmente;Anamnèse;Base des flashcards;Élargissement osseux;;;MSK-121-01
+Genou;1 Essentielle;Léger;Arthrose du genou;Âge de plus de 45 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V375-01
+Genou;1 Essentielle;Modéré;Arthrose du genou;Absence de crépitation;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-121-03
+Genou;1 Essentielle;Modéré;Arthrose du genou;Absence de raideur matinale brève;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-121-05
+Genou;1 Essentielle;Difficile;Arthrose du genou;Anomalies à l'IRM après 50 ans;↔ Neutre;Imagerie;Base des flashcards;Anomalies à l'IRM;;;MSK-121-14
+Genou;1 Essentielle;Léger;Bursite prépatellaire non infectée;Travail à genoux;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-130-01
+Genou;1 Essentielle;Modéré;Contusion ou entorse légère, sans lésion structurelle;Règle d'Ottawa du genou négative;↑ Augmente;Tests spécifiques;Base des flashcards;Règle d'Ottawa négative;Règle d'Ottawa du genou : radiographie si âge ≥ 55 ans, sensibilité isolée de la rotule ou de la tête du péroné, flexion impossible à 90° ou appui impossible sur 4 pas.;;MSK-134-01
+Genou;1 Essentielle;Difficile;Contusion ou entorse légère, sans lésion structurelle;Règle d'Ottawa du genou positive;↔ Neutre;Tests spécifiques;Base des flashcards;Règle d'Ottawa positive;;;MSK-134-02
+Genou;1 Essentielle;Léger;Déchirure méniscale (sans blocage);Âge > 40 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-122-07
+Genou;1 Essentielle;Modéré;Déchirure méniscale (sans blocage);Traumatisme en pivot, douleur médiale et interligne médial sensible;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-122-05
+Genou;1 Essentielle;Difficile;Déchirure méniscale (sans blocage);Test de McMurray positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test de McMurray;"Test de McMurray : genou fléchi au maximum, on tourne le tibia puis on étend le genou ; un claquement douloureux à l'interligne est positif.";;MSK-122-01
+Genou;1 Essentielle;Difficile;Déchirure méniscale (sans blocage);Sensibilité de l'interligne articulaire;↔ Neutre;Examen physique;Base des flashcards;Sensibilité de l'interligne;;;MSK-122-02
+Genou;1 Essentielle;Difficile;Déchirure méniscale (sans blocage);Déchirure méniscale à l'IRM après 50 ans;↔ Neutre;Imagerie;Base des flashcards;Déchirure à l'IRM après 50 ans;;;MSK-122-10
+Genou;1 Essentielle;Léger;Entorse d'un ligament collatéral;Traumatisme par force externe sur la jambe;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-125-05
+Genou;1 Essentielle;Modéré;Entorse d'un ligament collatéral;Absence de laxité au valgus à 30°;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-125-03
+Genou;1 Essentielle;Difficile;Goutte ou chondrocalcinose du genou;Uricémie normale pendant la crise;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-139-10
+Genou;1 Essentielle;Léger;Instabilité ou luxation de la rotule;Âge de 14 à 18 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V380-01
+Genou;1 Essentielle;Modéré;Instabilité ou luxation de la rotule;Hémarthrose chez l'enfant après un traumatisme;↑ Augmente;Facteurs démographiques;Base des flashcards;Hémarthrose de l'enfant;;;MSK-126-07
+Genou;1 Essentielle;Léger;Kyste poplité (de Baker);Gonarthrose douloureuse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-137-01
+Genou;1 Essentielle;Léger;Maladie d'Osgood-Schlatter;Sports de saut et de ballon;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-132-02
+Genou;1 Essentielle;Léger;Maladie d'Osgood-Schlatter;Enfant de 11 à 13 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V386-01
+Genou;1 Essentielle;Léger;Ostéochondrite disséquante du genou;Âge de 12 à 19 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-138-02
+Genou;1 Essentielle;Léger;Rupture du LCA;Test de Lachman positif;↑ Augmente;Tests spécifiques;Base des flashcards;;"Test de Lachman : genou fléchi à 20–30°, on tire le tibia vers l'avant ; un arrêt mou ou une translation accrue évoque une rupture du LCA.";;MSK-123-01
+Genou;1 Essentielle;Léger;Rupture du LCA;Sensation de craquement (« pop »);↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-123-08
+Genou;1 Essentielle;Léger;Rupture du LCA;Mécanisme en pivot avec « pop »;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-123-09
+Genou;1 Essentielle;Léger;Rupture du LCA;Hémarthrose traumatique;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-123-11
+Genou;1 Essentielle;Modéré;Rupture du LCA;Test de Lachman négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-123-02
+Genou;1 Essentielle;Léger;Syndrome fémoro-patellaire;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-120-08
+Genou;1 Essentielle;Léger;Syndrome fémoro-patellaire;Adolescente ou jeune femme;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V374-01
+Genou;1 Essentielle;Modéré;Syndrome fémoro-patellaire;Accroupissement indolore;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-120-01
+Genou;1 Essentielle;Modéré;Syndrome fémoro-patellaire;Âge < 40 ans avec douleur antérieure isolée ou facette médiale sensible;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-120-06
+Genou;1 Essentielle;Léger;Tendinobursite de la patte d'oie;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-131-01
+Genou;2 Importante;Modéré;Arthrite inflammatoire;Leucocytes synoviaux élevés à la ponction;↑ Augmente;Anamnèse;Base des flashcards;Leucocytes synoviaux élevés;;;MSK-140-01
+Genou;2 Importante;Modéré;Arthrite inflammatoire;Leucocytes synoviaux bas à la ponction;↓ Diminue;Anamnèse;Base des flashcards;Leucocytes synoviaux bas;;;MSK-140-02
+Genou;2 Importante;Modéré;Arthrite inflammatoire;HLA-B27 positif;↑ Augmente;Laboratoire;Base des flashcards;;;;MSK-140-05
+Genou;2 Importante;Modéré;Arthrite inflammatoire;Maladie inflammatoire de l'intestin, uvéite ou enthésite;↑ Augmente;Tests spécifiques;Base des flashcards;Maladie inflammatoire de l'intestin, uvéite, enthésite;;;MSK-140-06
+Genou;2 Importante;Modéré;Arthrite inflammatoire;Polyarthrite débutante;↑ Augmente;Évolution temporelle;Base des flashcards;;;;MSK-140-12
+Genou;2 Importante;Difficile;Arthrite inflammatoire;Absence d'infection préalable rapportée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-140-09
+Genou;2 Importante;Modéré;Arthrite septique;Fièvre ou frissons au moins 1 jour avant la douleur articulaire;↑ Augmente;Drapeaux rouges;Base des flashcards;;;;MSK-141-04
+Genou;2 Importante;Modéré;Arthrite septique;Polynucléaires ≥ 90 %;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-141-07
+Genou;2 Importante;Modéré;Arthrite septique;Polynucléaires < 90 %;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-141-08
+Genou;2 Importante;Léger;Arthrose du genou;Crépitation présente;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-121-04
+Genou;2 Importante;Léger;Arthrose du genou;Obésité;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-121-12
+Genou;2 Importante;Léger;Arthrose du genou;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V375-02
+Genou;2 Importante;Modéré;Arthrose du genou;Amplitude limitée;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-121-07
+Genou;2 Importante;Modéré;Arthrose du genou;Critères cliniques ACR (douleur et au moins 3 items sur 6);↑ Augmente;Tests spécifiques;Base des flashcards;;Critères cliniques ACR : douleur du genou et au moins 3 de ces 6 éléments : âge > 50 ans, raideur matinale < 30 minutes, crépitation, sensibilité osseuse, élargissement osseux, pas de chaleur.;;MSK-121-09
+Genou;2 Importante;Modéré;Arthrose du genou;Critères NICE remplis;↑ Augmente;Tests spécifiques;Base des flashcards;;Critères NICE : âge ≥ 45 ans, douleur à l'activité et raideur matinale de 30 minutes ou moins.;;MSK-121-11
+Genou;2 Importante;Difficile;Arthrose du genou;Élargissement osseux absent;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-121-02
+Genou;2 Importante;Difficile;Arthrose du genou;Raideur matinale brève présente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-121-06
+Genou;2 Importante;Difficile;Arthrose du genou;Gonflement rapporté, dérobement;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-121-08
+Genou;2 Importante;Léger;Bursite prépatellaire non infectée;Homme de 40 à 60 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-130-02
+Genou;2 Importante;Léger;Bursite prépatellaire non infectée;Absence d'érythème;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-130-03
+Genou;2 Importante;Léger;Bursite prépatellaire non infectée;Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V384-01
+Genou;2 Importante;Difficile;Bursite prépatellaire non infectée;Absence de fièvre;↔ Neutre;Drapeaux rouges;Base des flashcards;;;;MSK-130-05
+Genou;2 Importante;Léger;Contusion ou entorse légère, sans lésion structurelle;Appui possible, pas d'épanchement ni d'ecchymose;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-134-06
+Genou;2 Importante;Léger;Contusion ou entorse légère, sans lésion structurelle;Hémarthrose traumatique;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-134-09
+Genou;2 Importante;Modéré;Contusion ou entorse légère, sans lésion structurelle;Règle de Pittsburgh négative;↑ Augmente;Tests spécifiques;Base des flashcards;;Règle de Pittsburgh : après une chute ou un choc direct, radiographie si âge < 12 ans ou > 50 ans, ou si appui impossible sur 4 pas.;;MSK-134-03
+Genou;2 Importante;Modéré;Contusion ou entorse légère, sans lésion structurelle;Règle de Pittsburgh positive;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-134-04
+Genou;2 Importante;Modéré;Contusion ou entorse légère, sans lésion structurelle;Lipohémarthrose (graisse dans l'épanchement);↓ Diminue;Anamnèse;Base des flashcards;Lipohémarthrose;Lipohémarthrose : sang et graisse dans l'articulation, signe d'une fracture intra-articulaire.;;MSK-134-07
+Genou;2 Importante;Léger;Déchirure méniscale (sans blocage);Travail à genoux ou accroupi;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-122-08
+Genou;2 Importante;Modéré;Déchirure méniscale (sans blocage);Examen composite positif;↑ Augmente;Examen physique;Base des flashcards;Examen composite;;;MSK-122-04
+Genou;2 Importante;Difficile;Déchirure méniscale (sans blocage);Test de Thessaly positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test de Thessaly;"Test de Thessaly : debout sur une jambe, genou fléchi à 20°, le patient pivote ; une douleur à l'interligne est positive.";;MSK-122-03
+Genou;2 Importante;Difficile;Déchirure méniscale (sans blocage);Symptômes mécaniques (claquement, accrochage);↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-122-09
+Genou;2 Importante;Modéré;Entorse d'un ligament collatéral;Douleur au valgus à 30° de flexion;↑ Augmente;Anamnèse;Base des flashcards;Douleur au valgus à 30°;;;MSK-125-01
+Genou;2 Importante;Modéré;Entorse d'un ligament collatéral;Pas de douleur au valgus à 30° de flexion;↓ Diminue;Anamnèse;Base des flashcards;Douleur au valgus à 30° : absente;;;MSK-125-02
+Genou;2 Importante;Modéré;Entorse d'un ligament collatéral;Anamnèse, douleur et laxité au valgus réunies;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-125-06
+Genou;2 Importante;Difficile;Entorse d'un ligament collatéral;Laxité au valgus à 30° présente;↔ Neutre;Anamnèse;Base des flashcards;Laxité présente;;;MSK-125-04
+Genou;2 Importante;Difficile;Entorse d'un ligament collatéral;Absence d'épanchement;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-125-08
+Genou;2 Importante;Modéré;Entorse du LCP;Examen composite positif;↑ Augmente;Examen physique;Base des flashcards;Examen composite;;;MSK-124-02
+Genou;2 Importante;Modéré;Entorse du LCP;Signe de l'affaissement postérieur (sag sign);↑ Augmente;Tests spécifiques;Base des flashcards;;Signe de l'affaissement postérieur : hanches et genoux fléchis à 90°, le tibia du côté atteint s'affaisse vers l'arrière.;;MSK-124-04
+Genou;2 Importante;Modéré;Entorse du LCP;Autre lésion ligamentaire associée, en traumatologie;↑ Augmente;Anamnèse;Base des flashcards;Autre lésion ligamentaire en traumatologie;;;MSK-124-07
+Genou;2 Importante;Difficile;Entorse du LCP;Tiroir postérieur négatif;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-124-03
+Genou;2 Importante;Léger;Fracture sous-chondrale d'insuffisance;Âge de plus de 55 à 60 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge > 55–60 ans;Fracture sous-chondrale d'insuffisance : petite fracture sous le cartilage d'un os fragile, souvent au condyle médial de la personne âgée.;;MSK-142-01
+Genou;2 Importante;Léger;Fracture sous-chondrale d'insuffisance;Densité osseuse basse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-142-07
+Genou;2 Importante;Difficile;Fracture sous-chondrale d'insuffisance;Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-142-09
+Genou;2 Importante;Léger;Goutte ou chondrocalcinose du genou;Goutte : sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V392-01
+Genou;2 Importante;Léger;Goutte ou chondrocalcinose du genou;Arthrite aiguë du genou chez une personne de plus de 70 ans (pyrophosphate);↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V392-02
+Genou;2 Importante;Modéré;Goutte ou chondrocalcinose du genou;Goutte, critères ACR/EULAR 2015 remplis;↑ Augmente;Tests spécifiques;Base des flashcards;;"Critères ACR/EULAR 2015 de la goutte : score qui combine les articulations atteintes, les caractéristiques de la crise, l'uricémie, l'imagerie et les tophus ; 8 points ou plus classent la goutte.";;MSK-139-08
+Genou;2 Importante;Difficile;Goutte ou chondrocalcinose du genou;Chondrocalcinose radiographique isolée du sujet âgé;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-139-04
+Genou;2 Importante;Difficile;Instabilité ou luxation de la rotule;Test d'appréhension classique négatif;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-126-03
+Genou;2 Importante;Léger;Kyste poplité (de Baker);Polyarthrite rhumatoïde;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-137-06
+Genou;2 Importante;Léger;Kyste poplité (de Baker);Examen clinique positif (masse poplitée);↑ Augmente;Examen physique;Base des flashcards;Examen clinique positif;;;MSK-137-07
+Genou;2 Importante;Modéré;Kyste poplité (de Baker);Déchirure du ménisque médial;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-137-02
+Genou;2 Importante;Modéré;Kyste poplité (de Baker);Examen clinique négatif;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-137-08
+Genou;2 Importante;Difficile;Kyste poplité (de Baker);Kyste non palpable;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-137-09
+Genou;2 Importante;Difficile;Kyste poplité (de Baker);Tableau qui ressemble à une phlébite;↔ Neutre;Anamnèse;Base des flashcards;Tableau de phlébite;;;MSK-137-10
+Genou;2 Importante;Léger;Maladie d'Osgood-Schlatter;Sport régulier;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-132-01
+Genou;2 Importante;Léger;Maladie d'Osgood-Schlatter;Quadriceps raide et forte poussée de croissance;↑ Augmente;Anamnèse;Base des flashcards;Quadriceps raide, forte poussée de croissance;;;MSK-132-04
+Genou;2 Importante;Difficile;Maladie d'Osgood-Schlatter;Sexe (garçon ou fille);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-132-05
+Genou;2 Importante;Difficile;Maladie d'Osgood-Schlatter;Atteinte d'un seul genou;↔ Neutre;Anamnèse;Base des flashcards;Atteinte unilatérale;;;MSK-132-06
+Genou;2 Importante;Léger;Maladie de Sinding-Larsen-Johansson;Adolescent actif de 9 à 17 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-133-01
+Genou;2 Importante;Léger;Ostéochondrite disséquante du genou;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-138-01
+Genou;2 Importante;Léger;Ostéochondrite disséquante du genou;Ostéochondrite controlatérale connue;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-138-06
+Genou;2 Importante;Modéré;Ostéochondrite disséquante du genou;Âge de moins de 6 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;Avant 6 ans;;;MSK-138-03
+Genou;2 Importante;Difficile;Ostéochondrite disséquante du genou;Radiographie de face normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-138-07
+Genou;2 Importante;Léger;Rupture du LCA;Sexe féminin, chez la sportive;↑ Augmente;Facteurs démographiques;Base des flashcards;Sexe féminin chez la sportive;;;MSK-123-12
+Genou;2 Importante;Modéré;Rupture du LCA;Pivot shift positif;↑ Augmente;Anamnèse;Base des flashcards;;"Pivot shift : en valgus et rotation interne, on passe de l'extension à la flexion ; un ressaut du tibia évoque une rupture du LCA.";;MSK-123-03
+Genou;2 Importante;Modéré;Rupture du LCA;Tiroir antérieur positif;↑ Augmente;Anamnèse;Base des flashcards;Tiroir antérieur;;;MSK-123-05
+Genou;2 Importante;Modéré;Rupture du LCA;Anamnèse et tests de l'examen tous négatifs;↓ Diminue;Tests spécifiques;Base des flashcards;Anamnèse et tests négatifs combinés;;;MSK-123-10
+Genou;2 Importante;Modéré;Rupture du LCA;Homme de 19 à 35 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V377-01
+Genou;2 Importante;Difficile;Rupture du LCA;Pivot shift négatif;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-123-04
+Genou;2 Importante;Léger;Syndrome de la bandelette ilio-tibiale;Course à pied;↑ Augmente;Facteurs de risque;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V383-01
+Genou;2 Importante;Léger;Syndrome fémoro-patellaire;Quadriceps faible;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-120-09
+Genou;2 Importante;Difficile;Syndrome fémoro-patellaire;Accroupissement douloureux;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-120-02
+Genou;2 Importante;Difficile;Syndrome fémoro-patellaire;Signe de Clarke (rabot) positif;↔ Neutre;Tests spécifiques;Base des flashcards;Signe de Clarke (rabot);"Signe de Clarke : on bloque la rotule vers le bas et le patient contracte le quadriceps ; positif s'il réveille la douleur.";;MSK-120-05
+Genou;2 Importante;Difficile;Syndrome fémoro-patellaire;Angle Q, faiblesse des abducteurs de hanche;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-120-10
+Genou;2 Importante;Léger;Tendinobursite de la patte d'oie;Gonarthrose;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-131-02
+Genou;2 Importante;Léger;Tendinobursite de la patte d'oie;Femme âgée;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V385-01
+Genou;2 Importante;Léger;Tendinopathie rotulienne ou quadricipitale;Volley-ball ou basket-ball;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-127-01
+Genou;2 Importante;Léger;Tendinopathie rotulienne ou quadricipitale;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-127-03
+Genou;2 Importante;Difficile;Tendinopathie rotulienne ou quadricipitale;Sensibilité légère à la palpation;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-127-07
+Genou;3 Complémentaire;Modéré;Arthrite inflammatoire;Monoarthrite du genou plutôt que du poignet;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-140-10
+Genou;3 Complémentaire;Difficile;Arthrite inflammatoire;Psoriasis ou antécédent familial;↔ Neutre;Facteurs de risque;Base des flashcards;Psoriasis, antécédent familial;;;MSK-140-07
+Genou;3 Complémentaire;Difficile;Arthrite inflammatoire;Monoarthrite chronique indifférenciée;↔ Neutre;Évolution temporelle;Base des flashcards;;;;MSK-140-11
+Genou;3 Complémentaire;Modéré;Arthrite septique;Procalcitonine élevée;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-141-13
+Genou;3 Complémentaire;Difficile;Arthrite septique;Procalcitonine normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-141-14
+Genou;3 Complémentaire;Difficile;Arthrose du genou;Critères ACR en population générale;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-121-10
+Genou;3 Complémentaire;Difficile;Bursite prépatellaire non infectée;Chaleur locale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-130-04
+Genou;3 Complémentaire;Difficile;Bursite prépatellaire non infectée;Nombre de leucocytes dans la bourse;↔ Neutre;Anamnèse;Base des flashcards;Leucocytes bursaux;;;MSK-130-07
+Genou;3 Complémentaire;Difficile;Contusion ou entorse légère, sans lésion structurelle;Lipohémarthrose absente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-134-08
+Genou;3 Complémentaire;Modéré;Déchirure méniscale (sans blocage);Cinq items de Lowery réunis;↑ Augmente;Anamnèse;Base des flashcards;;Items de Lowery : accrochage ou blocage, douleur à l'hyperextension forcée, douleur à la flexion maximale, sensibilité de l'interligne et claquement au McMurray.;;MSK-122-06
+Genou;3 Complémentaire;Modéré;Déchirure méniscale (sans blocage);Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V376-01
+Genou;3 Complémentaire;Léger;Entorse d'un ligament collatéral;Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V379-01
+Genou;3 Complémentaire;Difficile;Entorse d'un ligament collatéral;Œdème du LLI à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-125-07
+Genou;3 Complémentaire;Léger;Entorse du LCP;Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V378-01
+Genou;3 Complémentaire;Modéré;Entorse du LCP;Examen complet par un expert positif;↑ Augmente;Examen physique;Base des flashcards;Examen global par un expert;;;MSK-124-01
+Genou;3 Complémentaire;Difficile;Entorse du LCP;Test actif du quadriceps négatif;↔ Neutre;Tests spécifiques;Base des flashcards;;Test actif du quadriceps : genou fléchi à 90°, la contraction du quadriceps ramène vers l'avant un tibia affaissé.;;MSK-124-05
+Genou;3 Complémentaire;Modéré;Fracture sous-chondrale d'insuffisance;Atteinte du compartiment médial;↑ Augmente;Anamnèse;Base des flashcards;Compartiment médial;;;MSK-142-03
+Genou;3 Complémentaire;Modéré;Fracture sous-chondrale d'insuffisance;Lésion de la racine postérieure du ménisque médial;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-142-04
+Genou;3 Complémentaire;Modéré;Fracture sous-chondrale d'insuffisance;Arthroscopie récente;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-142-08
+Genou;3 Complémentaire;Difficile;Fracture sous-chondrale d'insuffisance;Sexe féminin;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-142-02
+Genou;3 Complémentaire;Léger;Goutte ou chondrocalcinose du genou;Chondrocalcinose : atteinte du genou;↑ Augmente;Anamnèse;Base des flashcards;Chondrocalcinose, siège au genou;;;MSK-139-01
+Genou;3 Complémentaire;Modéré;Goutte ou chondrocalcinose du genou;Chondrocalcinose à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;;"Chondrocalcinose : dépôts de cristaux de pyrophosphate de calcium, visibles comme un fin liseré calcifié dans le cartilage à la radiographie ; la crise aiguë s'appelle pseudogoutte.";;MSK-139-02
+Genou;3 Complémentaire;Modéré;Goutte ou chondrocalcinose du genou;Méniscectomie ancienne;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-139-07
+Genou;3 Complémentaire;Difficile;Goutte ou chondrocalcinose du genou;Chondrocalcinose à la radiographie : absente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-139-03
+Genou;3 Complémentaire;Difficile;Goutte ou chondrocalcinose du genou;Âge > 60 ans;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-139-06
+Genou;3 Complémentaire;Difficile;Goutte ou chondrocalcinose du genou;Score de Janssens de 8 ou plus (goutte du genou);↔ Neutre;Tests spécifiques;Base des flashcards;Goutte, score de Janssens ≥ 8;"Score de Janssens : règle de première ligne devant une monoarthrite aiguë ; il additionne le sexe masculin, une crise antérieure, un début en moins d'un jour, la rougeur, l'atteinte du gros orteil, l'hypertension ou une maladie cardiovasculaire, et une uricémie élevée.";;MSK-139-09
+Genou;3 Complémentaire;Modéré;Instabilité ou luxation de la rotule;Moving patellar apprehension test positif;↑ Augmente;Tests spécifiques;Base des flashcards;Moving patellar apprehension test;;;MSK-126-01
+Genou;3 Complémentaire;Modéré;Instabilité ou luxation de la rotule;Test d'appréhension dynamique inversé;↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-126-02
+Genou;3 Complémentaire;Modéré;Instabilité ou luxation de la rotule;Dysplasie de la trochlée;↑ Augmente;Anamnèse;Base des flashcards;;Dysplasie de la trochlée : gorge du fémur trop plate, qui retient mal la rotule.;;MSK-126-04
+Genou;3 Complémentaire;Modéré;Instabilité ou luxation de la rotule;Patella alta;↑ Augmente;Anamnèse;Base des flashcards;;Patella alta : rotule trop haute.;;MSK-126-06
+Genou;3 Complémentaire;Difficile;Instabilité ou luxation de la rotule;Sexe (fille ou garçon);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-126-08
+Genou;3 Complémentaire;Modéré;Kyste poplité (de Baker);Épanchement, déchirure méniscale et arthropathie réunis;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-137-04
+Genou;3 Complémentaire;Difficile;Kyste poplité (de Baker);Déchirure du ménisque latéral;↔ Neutre;Anamnèse;Base des flashcards;Ménisque latéral;;;MSK-137-03
+Genou;3 Complémentaire;Difficile;Kyste poplité (de Baker);Lésion du LCA ou du LLI;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-137-05
+Genou;3 Complémentaire;Difficile;Kyste poplité (de Baker);Sexe (homme ou femme);↔ Neutre;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V395-01
+Genou;3 Complémentaire;Modéré;Maladie d'Osgood-Schlatter;Raccourcissement du droit fémoral;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-132-03
+Genou;3 Complémentaire;Difficile;Maladie d'Osgood-Schlatter;Fragmentation radiographique isolée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-132-08
+Genou;3 Complémentaire;Difficile;Maladie de Sinding-Larsen-Johansson;Sexe (garçon ou fille);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-133-02
+Genou;3 Complémentaire;Léger;Ménisque discoïde;Atteinte du ménisque latéral;↑ Augmente;Anamnèse;Base des flashcards;Ménisque latéral;;;MSK-136-01
+Genou;3 Complémentaire;Léger;Ménisque discoïde;Ménisque discoïde controlatéral connu;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-136-02
+Genou;3 Complémentaire;Léger;Ménisque discoïde;Enfant d'environ 12 ans avec ressaut;↑ Augmente;Facteurs démographiques;Base des flashcards;;Ménisque discoïde : ménisque latéral trop large, en forme de disque, présent depuis la naissance.;;MSK-136-03
+Genou;3 Complémentaire;Difficile;Ménisque discoïde;McMurray ou Apley négatifs;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-136-04
+Genou;3 Complémentaire;Difficile;Ménisque discoïde;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-136-06
+Genou;3 Complémentaire;Modéré;Ostéochondrite disséquante du genou;Atteinte du condyle fémoral médial;↑ Augmente;Anamnèse;Base des flashcards;Condyle fémoral médial;;;MSK-138-04
+Genou;3 Complémentaire;Modéré;Ostéochondrite disséquante du genou;Examen, radiographie et IRM combinés;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-138-08
+Genou;3 Complémentaire;Difficile;Ostéochondrite disséquante du genou;Signe de Wilson négatif;↔ Neutre;Tests spécifiques;Base des flashcards;Signe de Wilson négatif;"Signe de Wilson : genou fléchi à 90°, rotation interne du tibia puis extension ; une douleur vers 30° qui cède en rotation externe est positive.";;MSK-138-05
+Genou;3 Complémentaire;Modéré;Rupture du LCA;Lever sign positif;↑ Augmente;Anamnèse;Base des flashcards;;"Lever sign : poing sous le haut du mollet, on appuie sur la cuisse ; si le talon ne se soulève pas, le LCA est rompu.";;MSK-123-06
+Genou;3 Complémentaire;Difficile;Syndrome de la bandelette ilio-tibiale;Faiblesse des abducteurs de hanche;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-129-01
+Genou;3 Complémentaire;Difficile;Syndrome de la bandelette ilio-tibiale;Test d'Ober positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test d'Ober;;;MSK-129-02
+Genou;3 Complémentaire;Difficile;Syndrome de la bandelette ilio-tibiale;IRM normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-129-03
+Genou;3 Complémentaire;Difficile;Syndrome de la plica;Plica visible à l'arthroscopie ou à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-135-03
+Genou;3 Complémentaire;Léger;Syndrome du coussinet adipeux (Hoffa);Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-128-05
+Genou;3 Complémentaire;Modéré;Syndrome du coussinet adipeux (Hoffa);Patella alta;↑ Augmente;Anamnèse;Base des flashcards;;Syndrome de Hoffa : coincement douloureux du coussinet graisseux situé sous la rotule.;;MSK-128-03
+Genou;3 Complémentaire;Difficile;Syndrome du coussinet adipeux (Hoffa);Œdème du coussinet à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-128-01
+Genou;3 Complémentaire;Modéré;Syndrome fémoro-patellaire;Test d'inclinaison de la rotule positif;↑ Augmente;Tests spécifiques;Base des flashcards;;"Test d'inclinaison de la rotule : genou tendu, on soulève le bord latéral de la rotule ; une inclinaison réduite témoigne d'un rétinaculum latéral tendu.";;MSK-120-03
+Genou;3 Complémentaire;Modéré;Syndrome fémoro-patellaire;Combinaison d'exclusion de Décary (dont âge ≥ 58 ans);↓ Diminue;Facteurs démographiques;Base des flashcards;Combinaison d'exclusion (dont âge ≥ 58 ans);;;MSK-120-07
+Genou;3 Complémentaire;Difficile;Syndrome fémoro-patellaire;Test d'inclinaison de la rotule négatif;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-120-04
+Genou;3 Complémentaire;Difficile;Syndrome fémoro-patellaire;Âge, taille, poids, IMC;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-120-11
+Genou;3 Complémentaire;Difficile;Tendinobursite de la patte d'oie;Diabète;↔ Neutre;Facteurs de risque;Base des flashcards;;;;MSK-131-03
+Genou;3 Complémentaire;Difficile;Tendinobursite de la patte d'oie;Obésité;↔ Neutre;Facteurs de risque;Base des flashcards;;;;MSK-131-04
+Genou;3 Complémentaire;Difficile;Tendinobursite de la patte d'oie;Échographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-131-05
+Genou;3 Complémentaire;Léger;Tendinopathie rotulienne ou quadricipitale;Entraînement > 20 h par semaine;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-127-04
+Genou;3 Complémentaire;Modéré;Tendinopathie rotulienne ou quadricipitale;Squat sur une jambe, sur un plan incliné, douloureux;↑ Augmente;Anamnèse;Base des flashcards;Squat unipodal sur plan incliné douloureux;;;MSK-127-05
+Genou;3 Complémentaire;Modéré;Tendinopathie rotulienne ou quadricipitale;Squat, questionnaire VISA-P et antécédent tous négatifs;↓ Diminue;Tests spécifiques;Base des flashcards;Squat, VISA-P et antécédent tous négatifs;;;MSK-127-06
+Genou;3 Complémentaire;Modéré;Tendinopathie rotulienne ou quadricipitale;Échographie positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-127-08
+Genou;3 Complémentaire;Difficile;Tendinopathie rotulienne ou quadricipitale;Zone hypoéchogène chez l'asymptomatique;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-127-09
+Genou;3 Complémentaire;Difficile;Tendinopathie rotulienne ou quadricipitale;Souplesse, IMC;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-127-10
+Genou;4 Pointue (médecine du sport);Modéré;Arthrite inflammatoire;Critères ASAS de spondylarthrite périphérique;↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-140-08
+Genou;4 Pointue (médecine du sport);Modéré;Bursite prépatellaire non infectée;Peau plus chaude de plus de 2,2 °C que l'autre côté (thermomètre cutané);↓ Diminue;Anamnèse;Base des flashcards;Peau plus chaude de plus de 2,2 °C que le côté opposé;;;MSK-130-06
+Genou;4 Pointue (médecine du sport);Difficile;Entorse du LCP;Laxité postérieure de grade I;↔ Neutre;Anamnèse;Base des flashcards;Laxité de grade I;;;MSK-124-06
+Genou;4 Pointue (médecine du sport);Difficile;Fracture sous-chondrale d'insuffisance;Extrusion méniscale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-142-06
+Genou;4 Pointue (médecine du sport);Modéré;Goutte ou chondrocalcinose du genou;Critères ACR/EULAR 2023 de la maladie à pyrophosphate réunis;↑ Augmente;Tests spécifiques;Base des flashcards;Critères ACR/EULAR 2023 de chondrocalcinose;;;MSK-139-05
+Genou;4 Pointue (médecine du sport);Modéré;Instabilité ou luxation de la rotule;TT-TG ≥ 20 mm;↑ Augmente;Anamnèse;Base des flashcards;;TT-TG : distance entre la tubérosité tibiale et la gorge de la trochlée, mesurée au scanner ou à l'IRM.;;MSK-126-05
+Genou;4 Pointue (médecine du sport);Modéré;Maladie d'Osgood-Schlatter;Doppler positif du tendon rotulien;↑ Augmente;Tests spécifiques;Base des flashcards;Doppler positif du tendon;;;MSK-132-07
+Genou;4 Pointue (médecine du sport);Modéré;Ménisque discoïde;Interligne latéral de plus de 6 mm à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;Interligne latéral > 6 mm à la radiographie;;;MSK-136-05
+Genou;4 Pointue (médecine du sport);Modéré;Ménisque discoïde;Critères quantitatifs réunis à l'IRM;↑ Augmente;Imagerie;Base des flashcards;Critères quantitatifs à l'IRM;;;MSK-136-07
+Genou;4 Pointue (médecine du sport);Modéré;Syndrome de la bandelette ilio-tibiale;Adduction de hanche accrue à la course, chez la coureuse;↑ Augmente;Anamnèse;Base des flashcards;(incertain) Adduction de hanche accrue chez la coureuse;;;MSK-129-04
+Genou;4 Pointue (médecine du sport);Modéré;Syndrome de la plica;MPP test positif;↑ Augmente;Tests spécifiques;Base des flashcards;MPP test positif;"MPP test : pouce sur le bord médial et inférieur de la rotule, genou tendu puis fléchi à 90° ; positif si la douleur en extension disparaît en flexion.";;MSK-135-01
+Genou;4 Pointue (médecine du sport);Modéré;Syndrome de la plica;MPP test négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-135-02
+Genou;4 Pointue (médecine du sport);Modéré;Syndrome de la plica;Échographie positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-135-04
+Genou;4 Pointue (médecine du sport);Difficile;Syndrome de la plica;IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-135-05
+Genou;4 Pointue (médecine du sport);Modéré;Syndrome du coussinet adipeux (Hoffa);Anomalies de la course rotulienne;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-128-04
+Genou;4 Pointue (médecine du sport);Difficile;Syndrome fémoro-patellaire;Retard d'activation du vaste médial;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-120-12
+Genou;Retirée;;Arthrite inflammatoire;Anti-CCP négatifs;↔ Neutre;Laboratoire;Base des flashcards;;;Carte mélangée (anti-CCP négatifs et facteur rhumatoïde), au sens douteux.;MSK-140-04
+Genou;Retirée;;Arthrose du genou;Obésité (tabagisme);↔ Neutre;Facteurs de risque;Base des flashcards;;;Énoncé confus (« tabagisme »), carte expérimentale.;MSK-121-13
+Genou;Retirée;;Bursite prépatellaire non infectée;Traumatisme ou métier à risque;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (même contexte dans les formes septiques), sans sens diagnostique clair.;MSK-130-08
+Genou;Retirée;;Contusion ou entorse légère, sans lésion structurelle;Petite série;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé vague (« petite série »), sans sens diagnostique.;MSK-134-05
+Genou;Retirée;;Fracture sous-chondrale d'insuffisance;Lésion de racine connue;↑ Augmente;Anamnèse;Base des flashcards;;;Doublon de la carte précédente (lésion de la racine méniscale).;MSK-142-05
+Genou;Retirée;;Goutte ou chondrocalcinose du genou;Goutte, scanner double énergie du genou;↑ Augmente;Imagerie;Base des flashcards;;;Scanner double énergie : imagerie spécialisée, sans usage au bureau.;MSK-139-11
+Genou;Retirée;;Kyste poplité (de Baker);Kyste présent pour exclure une thrombose;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus : la donnée porte sur la thrombose, pas sur le kyste.;MSK-137-11
+Genou;Retirée;;Maladie de Sinding-Larsen-Johansson;Fréquence;↓ Diminue;Anamnèse;Base des flashcards;;;Donnée de fréquence comparée, sans sens diagnostique.;MSK-133-03
+Genou;Retirée;;Ménisque discoïde;IRM dans la déchirure de type inversé;↔ Neutre;Imagerie;Base des flashcards;;;Notion d'IRM de spécialiste (déchirure de type inversé), sans usage au bureau.;MSK-136-08
+Genou;Retirée;;Rupture du LCA;Lever sign;↔ Neutre;Anamnèse;Base des flashcards;;;Doublon du lever sign, aux chiffres discordants : source de confusion.;MSK-123-07
+Genou;Retirée;;Rupture du LCA;Sans différence entre sexes en soins primaires;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus qui contredit la carte précédente (pas de différence entre les sexes en soins primaires).;MSK-123-13
+Genou;Retirée;;Syndrome du coussinet adipeux (Hoffa);Œdème supéro-latéral chez le sujet âgé;↔ Neutre;Examen physique;Base des flashcards;;;Donnée descriptive (fréquence de l'œdème chez le sujet âgé), sans sens diagnostique.;MSK-128-02
+Genou;Retirée;;Tendinopathie rotulienne ou quadricipitale;Volley-ball ou basket-ball (cyclisme);↓ Diminue;Anamnèse;Base des flashcards;;;Énoncé confus (« cyclisme »), carte expérimentale.;MSK-127-02

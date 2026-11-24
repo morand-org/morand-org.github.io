@@ -1,0 +1,282 @@
+# Audit du quiz, genou (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+# Pas encore de fiche résumée du genou : les nouvelles cartes viennent des vérifications OpenEvidence du 24 novembre
+# (fréquences de départ, en anglais), avec la traduction fidèle du passage utilisé (« x: »).
+@ msk-genou GENO
+= oe24:374 120
+= oe24:375 121
+= oe24:376 122
+= oe24:377 123
+= oe24:378 124
+= oe24:379 125
+= oe24:380 126
+= oe24:383 129
+= oe24:384 130
+= oe24:385 131
+= oe24:386 132
+= oe24:392 139
+= oe24:395 137
+
+## 123 Rupture du LCA
+123-01 1 L | def: Test de Lachman : genou fléchi à 20–30°, on tire le tibia vers l'avant ; un arrêt mou ou une translation accrue évoque une rupture du LCA.
+123-02 1 M
+123-03 2 M | def: Pivot shift : en valgus et rotation interne, on passe de l'extension à la flexion ; un ressaut du tibia évoque une rupture du LCA.
+123-04 2 D
+123-05 2 M | e: Tiroir antérieur positif
+123-06 3 M | def: Lever sign : poing sous le haut du mollet, on appuie sur la cuisse ; si le talon ne se soulève pas, le LCA est rompu.
+123-07 0 - | r: Doublon du lever sign, aux chiffres discordants : source de confusion.
+123-08 1 L
+123-09 1 L
+123-10 2 M | e: Anamnèse et tests de l'examen tous négatifs
+123-11 1 L
+123-12 2 L | e: Sexe féminin, chez la sportive
+123-13 0 - | r: Énoncé confus qui contredit la carte précédente (pas de différence entre les sexes en soins primaires).
++ oe24:377 - 2 M ↑ demo | Homme de 19 à 35 ans | x: Incidence dans la population : environ 1,5 homme pour 1 femme au total ; environ 2 hommes pour 1 femme à 19–35 ans, mais 1,1 femme pour 1 homme à 14–18 ans.
+
+## 124 Entorse du LCP
+124-01 3 M | e: Examen complet par un expert positif
+124-02 2 M | e: Examen composite positif
+124-03 2 D
+124-04 2 M | def: Signe de l'affaissement postérieur : hanches et genoux fléchis à 90°, le tibia du côté atteint s'affaisse vers l'arrière.
+124-05 3 D | def: Test actif du quadriceps : genou fléchi à 90°, la contraction du quadriceps ramène vers l'avant un tibia affaissé.
+124-06 4 D | e: Laxité postérieure de grade I
+124-07 2 M | e: Autre lésion ligamentaire associée, en traumatologie
++ oe24:378 - 3 L ↑ demo | Sexe masculin | x: Registre chirurgical : 2 hommes pour 1 femme ; 33 % de femmes dans une série d'IRM.
+
+## 125 Entorse d'un ligament collatéral
+125-01 2 M | e: Douleur au valgus à 30° de flexion
+125-02 2 M | e: Pas de douleur au valgus à 30° de flexion
+125-03 1 M
+125-04 2 D | e: Laxité au valgus à 30° présente
+125-05 1 L
+125-06 2 M
+125-07 3 D
+125-08 2 D
++ oe24:379 - 3 L ↑ demo | Sexe masculin | x: Incidence dans la population : environ 1,35 homme pour 1 femme (81 contre 60 pour 100 000).
+
+## 122 Déchirure méniscale
+122-01 1 D | e: Test de McMurray positif | def: Test de McMurray : genou fléchi au maximum, on tourne le tibia puis on étend le genou ; un claquement douloureux à l'interligne est positif.
+122-02 1 D | e: Sensibilité de l'interligne articulaire
+122-03 2 D | e: Test de Thessaly positif | def: Test de Thessaly : debout sur une jambe, genou fléchi à 20°, le patient pivote ; une douleur à l'interligne est positive.
+122-04 2 M | e: Examen composite positif
+122-05 1 M
+122-06 3 M | def: Items de Lowery : accrochage ou blocage, douleur à l'hyperextension forcée, douleur à la flexion maximale, sensibilité de l'interligne et claquement au McMurray.
+122-07 1 L
+122-08 2 L
+122-09 2 D
+122-10 1 D | e: Déchirure méniscale à l'IRM après 50 ans
++ oe24:376 - 3 M ↑ demo | Sexe masculin | x: Incidence dans la population : environ 1,6 homme pour 1 femme (98 contre 60 pour 100 000).
+
+## 136 Ménisque discoïde
+136-01 3 L | e: Atteinte du ménisque latéral
+136-02 3 L
+136-03 3 L | def: Ménisque discoïde : ménisque latéral trop large, en forme de disque, présent depuis la naissance.
+136-04 3 D
+136-05 4 M | e: Interligne latéral de plus de 6 mm à la radiographie
+136-06 3 D
+136-07 4 M | e: Critères quantitatifs réunis à l'IRM
+136-08 0 - | r: Notion d'IRM de spécialiste (déchirure de type inversé), sans usage au bureau.
+
+## 134 Contusion ou entorse légère, sans lésion structurelle
+134-01 1 M | e: Règle d'Ottawa du genou négative | def: Règle d'Ottawa du genou : radiographie si âge ≥ 55 ans, sensibilité isolée de la rotule ou de la tête du péroné, flexion impossible à 90° ou appui impossible sur 4 pas.
+134-02 1 D | e: Règle d'Ottawa du genou positive
+134-03 2 M | def: Règle de Pittsburgh : après une chute ou un choc direct, radiographie si âge < 12 ans ou > 50 ans, ou si appui impossible sur 4 pas.
+134-04 2 M
+134-05 0 - | r: Énoncé vague (« petite série »), sans sens diagnostique.
+134-06 2 L
+134-07 2 M | e: Lipohémarthrose (graisse dans l'épanchement) | def: Lipohémarthrose : sang et graisse dans l'articulation, signe d'une fracture intra-articulaire.
+134-08 3 D
+134-09 2 L
+
+## 120 Syndrome fémoro-patellaire
+120-01 1 M
+120-02 2 D
+120-03 3 M | def: Test d'inclinaison de la rotule : genou tendu, on soulève le bord latéral de la rotule ; une inclinaison réduite témoigne d'un rétinaculum latéral tendu.
+120-04 3 D
+120-05 2 D | e: Signe de Clarke (rabot) positif | def: Signe de Clarke : on bloque la rotule vers le bas et le patient contracte le quadriceps ; positif s'il réveille la douleur.
+120-06 1 M
+120-07 3 M | e: Combinaison d'exclusion de Décary (dont âge ≥ 58 ans)
+120-08 1 L
+120-09 2 L
+120-10 2 D
+120-11 3 D
+120-12 4 D
++ oe24:374 - 1 L ↑ demo | Adolescente ou jeune femme | x: Incidence en médecine générale : filles 4,6 contre garçons 2,3 pour 1 000 personnes-années (7 à 24 ans, pic à 13 ans) ; environ 70 % des cas de 16 à 25 ans dans une clinique de médecine sportive.
+
+## 126 Instabilité ou luxation de la rotule
+126-01 3 M | e: Moving patellar apprehension test positif
+126-02 3 M
+126-03 2 D
+126-04 3 M | def: Dysplasie de la trochlée : gorge du fémur trop plate, qui retient mal la rotule.
+126-05 4 M | def: TT-TG : distance entre la tubérosité tibiale et la gorge de la trochlée, mesurée au scanner ou à l'IRM.
+126-06 3 M | def: Patella alta : rotule trop haute.
+126-07 1 M | e: Hémarthrose chez l'enfant après un traumatisme
+126-08 3 D | e: Sexe (fille ou garçon)
++ oe24:380 - 1 L ↑ demo | Âge de 14 à 18 ans | x: Pic à 14–18 ans confirmé ; le rapport femmes-hommes est proche de 1.
+
+## 127 Tendinopathie rotulienne ou quadricipitale
+127-01 2 L
+127-02 0 - | r: Énoncé confus (« cyclisme »), carte expérimentale.
+127-03 2 L
+127-04 3 L
+127-05 3 M | e: Squat sur une jambe, sur un plan incliné, douloureux
+127-06 3 M | e: Squat, questionnaire VISA-P et antécédent tous négatifs
+127-07 2 D
+127-08 3 M
+127-09 3 D
+127-10 3 D
+
+## 128 Syndrome du coussinet adipeux (Hoffa)
+128-01 3 D
+128-02 0 - | r: Donnée descriptive (fréquence de l'œdème chez le sujet âgé), sans sens diagnostique.
+128-03 3 M | def: Syndrome de Hoffa : coincement douloureux du coussinet graisseux situé sous la rotule.
+128-04 4 M
+128-05 3 L
+
+## 135 Syndrome de la plica
+135-01 4 M | e: MPP test positif | def: MPP test : pouce sur le bord médial et inférieur de la rotule, genou tendu puis fléchi à 90° ; positif si la douleur en extension disparaît en flexion.
+135-02 4 M
+135-03 3 D
+135-04 4 M
+135-05 4 D
+
+## 129 Syndrome de la bandelette ilio-tibiale
+129-01 3 D
+129-02 3 D | e: Test d'Ober positif
+129-03 3 D
+129-04 4 M | e: Adduction de hanche accrue à la course, chez la coureuse
++ oe24:383 - 2 L ↑ risq | Course à pied | x: Ce syndrome représente 5 à 14 % de toutes les blessures de course, environ 2 fois plus souvent chez la coureuse.
+
+## 130 Bursite prépatellaire non infectée
+130-01 1 L
+130-02 2 L
+130-03 2 L
+130-04 3 D
+130-05 2 D
+130-06 4 M | e: Peau plus chaude de plus de 2,2 °C que l'autre côté (thermomètre cutané)
+130-07 3 D | e: Nombre de leucocytes dans la bourse
+130-08 0 - | r: Donnée descriptive (même contexte dans les formes septiques), sans sens diagnostique clair.
++ oe24:384 - 2 L ↑ demo | Sexe masculin | x: Environ 80 % d'hommes ; prévalence au travail de 0,6 % chez l'homme contre 0,2 % chez la femme.
+
+## 131 Tendinobursite de la patte d'oie
+131-01 1 L
+131-02 2 L
+131-03 3 D
+131-04 3 D
+131-05 3 D
++ oe24:385 - 2 L ↑ demo | Femme âgée | x: IRM communautaire : 12,5 % des femmes contre 1,7 % des hommes ; prédominance féminine et âge plus avancé confirmés.
+
+## 137 Kyste poplité (de Baker)
+137-01 1 L
+137-02 2 M
+137-03 3 D | e: Déchirure du ménisque latéral
+137-04 3 M
+137-05 3 D
+137-06 2 L
+137-07 2 L | e: Examen clinique positif (masse poplitée)
+137-08 2 M
+137-09 2 D
+137-10 2 D | e: Tableau qui ressemble à une phlébite
+137-11 0 - | r: Énoncé confus : la donnée porte sur la thrombose, pas sur le kyste.
++ oe24:395 - 3 D ↔ demo | Sexe (homme ou femme) | x: IRM communautaire : aucune association avec le sexe.
+
+## 132 Maladie d'Osgood-Schlatter
+132-01 2 L
+132-02 1 L
+132-03 3 M
+132-04 2 L | e: Quadriceps raide et forte poussée de croissance
+132-05 2 D | e: Sexe (garçon ou fille)
+132-06 2 D | e: Atteinte d'un seul genou
+132-07 4 M | e: Doppler positif du tendon rotulien
+132-08 3 D
++ oe24:386 - 1 L ↑ demo | Enfant de 11 à 13 ans | x: Incidence en médecine générale : pic à 12 ans chez le garçon et à 11 ans chez la fille.
+
+## 133 Maladie de Sinding-Larsen-Johansson
+133-01 2 L
+133-02 3 D | e: Sexe (garçon ou fille)
+133-03 0 - | r: Donnée de fréquence comparée, sans sens diagnostique.
+
+## 138 Ostéochondrite disséquante du genou
+138-01 2 L
+138-02 1 L
+138-03 2 M | e: Âge de moins de 6 ans
+138-04 3 M | e: Atteinte du condyle fémoral médial
+138-05 3 D | e: Signe de Wilson négatif | def: Signe de Wilson : genou fléchi à 90°, rotation interne du tibia puis extension ; une douleur vers 30° qui cède en rotation externe est positive.
+138-06 2 L
+138-07 2 D
+138-08 3 M
+
+## 121 Arthrose du genou
+121-01 1 L | e: Élargissement osseux du genou
+121-02 2 D
+121-03 1 M
+121-04 2 L
+121-05 1 M
+121-06 2 D
+121-07 2 M
+121-08 2 D
+121-09 2 M | def: Critères cliniques ACR : douleur du genou et au moins 3 de ces 6 éléments : âge > 50 ans, raideur matinale < 30 minutes, crépitation, sensibilité osseuse, élargissement osseux, pas de chaleur.
+121-10 3 D
+121-11 2 M | def: Critères NICE : âge ≥ 45 ans, douleur à l'activité et raideur matinale de 30 minutes ou moins.
+121-12 2 L
+121-13 0 - | r: Énoncé confus (« tabagisme »), carte expérimentale.
+121-14 1 D | e: Anomalies à l'IRM après 50 ans
++ oe24:375 - 1 L ↑ demo | Âge de plus de 45 ans | x: Douleur du genou non traumatique après 35 ans (âge moyen 54 ans) : 62,7 % remplissent les critères cliniques de l'ACR ; 19 % des diagnostics codés après 45 ans.
++ oe24:375 - 2 L ↑ demo | Sexe féminin | x: Consultations pour gonarthrose : 64 % de femmes (données ambulatoires américaines).
+
+## 142 Fracture sous-chondrale d'insuffisance
+142-01 2 L | e: Âge de plus de 55 à 60 ans | def: Fracture sous-chondrale d'insuffisance : petite fracture sous le cartilage d'un os fragile, souvent au condyle médial de la personne âgée.
+142-02 3 D
+142-03 3 M | e: Atteinte du compartiment médial
+142-04 3 M
+142-05 0 - | r: Doublon de la carte précédente (lésion de la racine méniscale).
+142-06 4 D
+142-07 2 L
+142-08 3 M
+142-09 2 D
+
+## 139 Goutte ou chondrocalcinose du genou
+139-01 3 L | e: Chondrocalcinose : atteinte du genou
+139-02 3 M | def: Chondrocalcinose : dépôts de cristaux de pyrophosphate de calcium, visibles comme un fin liseré calcifié dans le cartilage à la radiographie ; la crise aiguë s'appelle pseudogoutte.
+139-03 3 D
+139-04 2 D
+139-05 4 M | e: Critères ACR/EULAR 2023 de la maladie à pyrophosphate réunis
+139-06 3 D
+139-07 3 M
+139-08 2 M | def: Critères ACR/EULAR 2015 de la goutte : score qui combine les articulations atteintes, les caractéristiques de la crise, l'uricémie, l'imagerie et les tophus ; 8 points ou plus classent la goutte.
+139-09 3 D | e: Score de Janssens de 8 ou plus (goutte du genou) | def: Score de Janssens : règle de première ligne devant une monoarthrite aiguë ; il additionne le sexe masculin, une crise antérieure, un début en moins d'un jour, la rougeur, l'atteinte du gros orteil, l'hypertension ou une maladie cardiovasculaire, et une uricémie élevée.
+139-10 1 D
+139-11 0 - | r: Scanner double énergie : imagerie spécialisée, sans usage au bureau.
++ oe24:392 - 2 L ↑ demo | Goutte : sexe masculin | x: Goutte : 2 à 4 hommes pour 1 femme ; arthrite aiguë à pyrophosphate : 47,5 % d'hommes, âge moyen 74 ans.
++ oe24:392 - 2 L ↑ demo | Arthrite aiguë du genou chez une personne de plus de 70 ans (pyrophosphate) | x: Dans une cohorte d'arthrite aiguë à pyrophosphate, l'âge moyen est de 74 ans.
+
+## 140 Arthrite inflammatoire
+140-01 2 M | e: Leucocytes synoviaux élevés à la ponction
+140-02 2 M | e: Leucocytes synoviaux bas à la ponction
+140-03 1 M
+140-04 0 - | r: Carte mélangée (anti-CCP négatifs et facteur rhumatoïde), au sens douteux.
+140-05 2 M
+140-06 2 M | e: Maladie inflammatoire de l'intestin, uvéite ou enthésite
+140-07 3 D | e: Psoriasis ou antécédent familial
+140-08 4 M
+140-09 2 D
+140-10 3 M
+140-11 3 D
+140-12 2 M
+
+## 141 Arthrite septique
+141-01 1 L
+141-02 1 L
+141-03 1 D
+141-04 2 M
+141-05 1 L | e: Leucocytes synoviaux > 100 000/mm³
+141-06 1 M | e: Leucocytes synoviaux < 25 000/mm³
+141-07 2 M
+141-08 2 M
+141-09 1 D | e: Leucocytes synoviaux < 50 000/mm³
+141-10 1 L | e: Coloration de Gram positive
+141-11 1 D | e: Coloration de Gram négative
+141-12 1 D | e: Cristaux dans le liquide articulaire
+141-13 3 M
+141-14 3 D
