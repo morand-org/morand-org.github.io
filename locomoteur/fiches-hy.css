@@ -57,6 +57,9 @@
 .hy-carte-titre { font: 600 1.02rem/1.25 var(--serif); }
 .hy-carte-tags { font: 500 0.72rem/1.35 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.7; }
 .hy-note { margin-top: 18px; text-align: center; }
+.hy-patients { list-style: none; margin: 22px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.hy-patients a { display: grid; gap: 4px; height: 100%; box-sizing: border-box; padding: 12px 14px; border: 1px solid var(--hy-filet); border-radius: 12px; background: var(--hy-papier); color: var(--hy-encre); text-decoration: none; }
+.hy-patients a:hover { border-color: var(--hy-rouge); }
 
 @media (max-width: 640px) { .hy-grille { grid-template-columns: 1fr; } .hy-suite { grid-template-columns: 1fr; } .hy-suite a[rel="next"] { text-align: left; } }
 @media (prefers-color-scheme: dark) { .hy-signature img { filter: invert(1) brightness(0.92); } .hy-planche img, .hy-carte img { filter: brightness(0.9); } }

@@ -379,7 +379,10 @@
     return pour.length || contre.length ? `<span class="lo-dx-cles">${[...pour.map(c => `<span data-sens="haut">↑ ${esc(c.libelle)}</span>`), ...contre.map(c => `<span data-sens="bas">↓ ${esc(c.libelle)}</span>`)].join("")}</span>` : "";
   };
   // Fiche high yield liée au diagnostic (locomoteur/fiches-hy.js), et bibliothèque de la région.
-  const hyLien = (r, id) => { const f = ((LO.fichesHY || {})[r] || {})[id]; return f ? `<p class="lo-fiches"><a class="lo-lien" href="${esc(f.u)}">Fiche résumée ${esc(f.no)}</a></p>` : ""; };
+  const hyLien = (r, id) => {
+    const f = ((LO.fichesHY || {})[r] || {})[id], fp = ((LO.fichesPatients || {})[r] || {})[id];
+    return f || fp ? `<p class="lo-fiches">${f ? `<a class="lo-lien" href="${esc(f.u)}">Fiche résumée ${esc(f.no)}</a>` : ""}${fp ? `<a class="lo-lien" href="${esc(fp.u)}" target="_blank" rel="noopener" title="${esc(fp.titre)}">Fiche patient (PDF à imprimer)</a>` : ""}</p>` : "";
+  };
   const hyBiblio = r => ((LO.fichesHY || {})[r] ? `<p class="lo-discret lo-hy-biblio"><a href="/locomoteur/${r}/fiches/">Fiches résumées des pathologies : ${esc(NOMS[r].toLowerCase())}</a></p>` : "");
   /* Éléments clés non évalués (point 3) : pour les 3 premiers diagnostics, les questions visibles et sans réponse qui
      pèseraient le plus (RV de 3 ou plus, ou de 1/3 ou moins). Non évalué n'est jamais un négatif. */
