@@ -699,8 +699,8 @@ async function baseDonnees(nav) {
     liens: document.querySelectorAll(".bd-refs a[href^='http']").length, sources: document.querySelectorAll(".bd-puce").length, robots: document.querySelector('meta[name="robots"]').content }));
   await p.fill("#bd-q", ""); await p.selectOption("#bd-region", "pied"); await p.waitForTimeout(300);
   const pied = await p.evaluate(() => [...document.querySelectorAll(".bd-carte .bd-meta span:nth-child(2)")].every(s => s.textContent === "Pied") && document.querySelectorAll(".bd-carte").length > 0);
-  verifier("Base de données : 4 sources, recherche « lachman » avec références reliées, filtre par région, page non indexée",
-    /sur 4[\s\u202f\u00a0]?\d{3}/.test(r.compte) && r.cartes > 3 && r.liens > 3 && r.sources === 4 && /noindex/.test(r.robots) && pied && !erreurs.length && !(await deborde(p)), { ...r, pied, erreurs });
+  verifier("Base de données : 4 sources (plus de 1 000 données), recherche « lachman » avec références reliées, filtre par région, page non indexée",
+    /sur \d[\s\u202f\u00a0]?\d{3}/.test(r.compte) && r.cartes > 3 && r.liens > 3 && r.sources === 4 && /noindex/.test(r.robots) && pied && !erreurs.length && !(await deborde(p)), { ...r, pied, erreurs });
   await ctx.close();
 }
 

@@ -280,3 +280,68 @@
 141-12 1 D | e: Cristaux dans le liquide articulaire
 141-13 3 M
 141-14 3 D
+
+## Cartes simples tirées des fiches résumées du genou (bloc 9, reçu le 24 novembre)
+= G1 120
+= G2 121
+= G3 122
+= G4 123
+= G5 124
+= G6 125
+= G7 126
+= G8 127
+= G9 128
+= G10 129
+= G11 130
+= G12 131
+= G13 132
+= G14 133
+= G15 134
+= G16 135
+= G17 136
+= G18 137
+= G19 138
+= G20 139
+= G21 140
+= G22 141
+= G23 142
++ G1 pre 1 L ↑ anam | Douleur à l'avant du genou à l'accroupissement et en descendant les marches, sans traumatisme
++ G1 pre 2 L ↑ demo | Âge de moins de 40 ans
++ G2 epi 1 L ↑ risq | Ancienne blessure du genou
++ G2 epi 3 L ↑ risq | Travail physique exigeant
++ G2 exa 1 M ↓ exam | Genou rouge et enflé
++ G2 exa 2 M ↓ anam | Douleur au repos ou la nuit
++ G3 epi 3 L ↑ risq | Soccer
++ G4 epi 1 L ↑ risq | Sport de pivot (soccer, basketball, handball, ski)
++ G4 epi 2 M ↑ anam | Blessure sans contact
++ G5 pre 1 L ↑ anam | Choc sur le haut du tibia, genou fléchi (tableau de bord)
++ G5 epi 2 L ↑ anam | Accident de la route
++ G6 epi 3 L ↑ risq | Lutte, judo, hockey ou rugby
++ G7 pre 1 L ↑ anam | Torsion en flexion et valgus, sans contact, chez un adolescent
++ G8 pre 1 L ↑ anam | Douleur au pôle inférieur de la rotule, atténuée à l'échauffement, pire le lendemain
++ G9 pre 2 M ↑ anam | Douleur sous la rotule, avec pincement en hyperextension
++ G10 pre 1 L ↑ anam | Douleur latérale 2 à 3 cm au-dessus de l'interligne, après une hausse du kilométrage ou une course en descente
++ G10 epi 3 L ↑ risq | Cycliste
++ G10 exa 2 M ↓ exam | Sensibilité de l'interligne latéral
++ G11 epi 2 L ↑ risq | Poseur de tapis ou travailleur de la construction
++ G11 exa 1 M ↓ exam | Fièvre ou plaie sur la bourse
++ G12 pre 1 L ↑ anam | Douleur à l'intérieur du genou, sous l'interligne, aux escaliers et au lever d'une chaise
++ G13 pre 1 L ↑ anam | Douleur à la tubérosité tibiale à la course, aux sauts et à genoux
++ G13 exa 1 M ↓ anam | Début aigu avec impotence
++ G14 pre 1 L ↑ anam | Douleur au pôle inférieur de la rotule chez un enfant d'environ 11 ans
++ G15 pre 1 M ↓ anam | « Pop » avec gonflement immédiat
++ G16 pre 3 M ↑ anam | Douleur antéro-médiale avec craquement ou accrochage, sans vrai blocage
++ G17 pre 2 L ↑ anam | Genou à ressaut chez le jeune enfant
++ G18 pre 1 L ↑ anam | Tuméfaction derrière le genou
++ G18 exa 1 M ↓ exam | Masse poplitée pulsatile
++ G19 pre 2 M ↑ anam | Douleur vague, mal localisée, à l'activité, chez un adolescent
++ G20 pre 1 L ↑ anam | Douleur maximale en moins de 24 heures, avec rougeur
++ G20 epi 2 L ↑ risq | Diurétique de l'anse
++ G20 epi 3 M ↑ risq | Hyperparathyroïdie (chondrocalcinose)
++ G21 pre 2 L ↑ risq | Psoriasis connu
++ G21 epi 2 L ↑ demo | Sexe féminin (polyarthrite rhumatoïde)
++ G22 epi 1 L ↑ risq | Prothèse du genou
++ G22 epi 2 L ↑ risq | Diabète
++ G22 epi 2 L ↑ risq | Infection de la peau
++ G23 epi 2 L ↑ demo | Femme d'environ 65 ans
++ G23 pre 1 L ↑ anam | Douleur médiale soudaine, pire la nuit et en charge
