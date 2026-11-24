@@ -91,7 +91,8 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 8. **Module « Morand — Entraînement clinique »** (`/entrainement/`), flashcards « augmente, neutre ou diminue ».
    - ✅ Phase 1 : audit et plan (`outils/entrainement/plan-phase-1.md`). Décisions : aperçu en page cachée ; polices à trancher après comparaison (site ou maquette 4B) ; validation des cartes au fil du jeu (mode éditeur) ; accès depuis MSK Morand à la publication.
    - ✅ Phase 2, prototype en page cachée (PR #26) : 1 708 cartes converties des 9 lots (`convertir-base.py`, `valider-banque.mjs`), 5 modes, points paramétrables, records locaux, révision adaptative (Leitner), favoris, progression, mode éditeur (`?editeur=1`, export puis `appliquer-decisions.mjs`).
-   - À venir : choix des polices ; validation des cartes ; statistiques détaillées, niveaux, « Mes questions difficiles » ; lien depuis MSK Morand et mise en ligne (avec accord) ; Supabase (classements) ensuite.
+   - ✅ Polices : celles de la maquette 4B (Playfair Display, JetBrains Mono), choix du Dr Morand.
+   - À venir : validation des cartes ; statistiques détaillées, niveaux, « Mes questions difficiles » ; lien depuis MSK Morand et mise en ligne (avec accord) ; Supabase (classements) ensuite.
    - Selon le prompt du clinicien : phase 1, audit et plan présentés AVANT de coder ; aucune mise en production sans son accord.
    - Style de référence : maquette « Style 4B » (HTML fourni). Changements de style seulement avec son accord.
    - Base de questions : DOCX « Base de données pour FlashCards Morand MSK ».

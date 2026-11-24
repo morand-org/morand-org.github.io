@@ -1,6 +1,6 @@
 /* Morand — Entraînement clinique : style « carton gravé 4B » (vert cyprès, carmin, sauge), adapté au site : en-tête et pied
-   de Morand.org (crds.css), thème sombre, téléphone d'abord. Deux jeux de polices à comparer pendant le prototype :
-   html[data-polices="site"] (Newsreader, Inter) et html[data-polices="maquette"] (Playfair Display, JetBrains Mono). */
+   de Morand.org (crds.css), thème sombre, téléphone d'abord. Polices de la maquette 4B, choisies par le Dr Morand :
+   Playfair Display (titres), JetBrains Mono (compteurs, étiquettes) et Inter (texte), toutes hébergées sur le site. */
 @font-face { font-family: "Playfair Display"; src: url("/entrainement/polices/playfair-display-600.woff2") format("woff2"); font-weight: 600; font-display: swap; }
 @font-face { font-family: "JetBrains Mono"; src: url("/entrainement/polices/jetbrains-mono-500.woff2") format("woff2"); font-weight: 500; font-display: swap; }
 
@@ -9,9 +9,8 @@
   --en-filet: #dce5de; --en-encre: #1b2e24; --en-encre-2: #2b4235; --en-sur: #4c6e5b; --en-cypres: #1f513b; --en-cypres-fonce: #1a4230;
   --en-carmin: #9b342e; --en-carmin-doux: #fbf1f0; --en-carmin-filet: #dfb8b5; --en-vert-doux: #eaf2ec; --en-vert-filet: #b3cebc;
   --en-neutre: #e6ece8; --en-neutre-texte: #3e5749; --en-neutre-filet: #c4d2c8; --en-ombre: 0 22px 46px rgba(27, 46, 36, 0.12); --en-blanc: #fbf9f4;
-  --en-titre: var(--serif); --en-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --en-titre: "Playfair Display", Georgia, serif; --en-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
 }
-html[data-polices="maquette"] { --en-titre: "Playfair Display", Georgia, serif; --en-mono: "JetBrains Mono", ui-monospace, Menlo, monospace; }
 @media (prefers-color-scheme: dark) {
   :root { --en-scene: #101713; --en-point: rgba(169, 210, 184, 0.06); --en-papier: #18211c; --en-papier-2: #1f2a23; --en-cadre: #34463b; --en-cadre-int: #283a2f;
     --en-filet: #2b3a31; --en-encre: #e4ece6; --en-encre-2: #c5d3c9; --en-sur: #8fb39d; --en-cypres: #2f7552; --en-cypres-fonce: #a9d2b8;
@@ -60,7 +59,7 @@ button.en-mode:disabled { cursor: default; opacity: 0.6; }
 .en-duree { min-height: 48px; border: none; border-radius: 9px; background: var(--en-cypres); color: var(--en-blanc); font: 600 1rem/1 var(--sans); cursor: pointer; transition: filter 0.14s ease, transform 0.14s ease; }
 .en-duree:hover { filter: brightness(1.08); transform: translateY(-1px); }
 
-/* Progression, éditeur, polices */
+/* Progression, éditeur */
 .en-progression { margin: 18px 0 0; border-top: 1px solid var(--en-filet); padding-top: 10px; font-size: 0.86rem; }
 .en-progression[hidden] { display: none; }
 .en-progression summary { cursor: pointer; font-weight: 600; color: var(--en-cypres-fonce); }
@@ -75,9 +74,6 @@ button.en-mode:disabled { cursor: default; opacity: 0.6; }
 .en-editeur[hidden] { display: none; }
 .en-editeur p { margin: 0 0 6px; }
 .en-editeur-actions { display: flex; flex-wrap: wrap; gap: 8px; }
-.en-polices { display: flex; align-items: center; gap: 6px; margin: 16px 0 0; font: 500 11px/1.3 var(--en-mono); color: var(--en-sur); }
-.en-polices button { padding: 4px 9px; border: 1px solid var(--en-neutre-filet); border-radius: 999px; background: var(--en-papier); color: var(--en-neutre-texte); font: inherit; cursor: pointer; }
-.en-polices button[aria-pressed="true"] { background: var(--en-cypres); border-color: var(--en-cypres); color: var(--en-blanc); }
 
 /* Partie */
 .en-tete-jeu { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: 0 0 12px; font: 500 11px/1.3 var(--en-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--en-sur); }
