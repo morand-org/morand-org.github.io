@@ -303,10 +303,11 @@ html.avec-ouverture body::after { content: ""; position: fixed; inset: 0; z-inde
   .accueil .outils img { transition: transform 0.28s; }
   .accueil .outils a:hover img { opacity: 1; transform: scale(1.06); }
   .accueil .cat, .accueil .maj { display: inline-flex; align-items: center; position: absolute; top: 16px; font: 500 9.5px/1.2 var(--police); letter-spacing: 0.14em; text-transform: uppercase; }
-  .accueil .cat { left: 18px; color: var(--discret); }
+  /* Le chiffre romain en haut à gauche, la catégorie à sa droite (même colonne d'une carte à l'autre). */
+  .accueil .cat { left: 46px; color: var(--discret); }
   .accueil .maj { right: 18px; gap: 5px; padding: 2px 8px; border-radius: 999px; background: var(--or-clair); color: var(--or); font-weight: 600; letter-spacing: 0.1em; }
   .accueil .maj::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--or-deco); }
-  .accueil .no { color: var(--or-deco); }
+  .accueil .no { grid-area: auto; position: absolute; top: 12px; left: 18px; margin: 0; font-size: 16px; line-height: 1.2; color: var(--or-deco); }
   .accueil .nom { font-weight: 500; }
   .accueil .pied { align-items: center; }
 }
