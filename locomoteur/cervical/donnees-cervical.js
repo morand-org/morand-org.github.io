@@ -43,7 +43,37 @@
     reflexe_bicipital: { info: "Réflexe bicipital diminué : RV+ 4,9 pour une radiculopathie (EMG). Les réflexes sont spécifiques mais peu sensibles." },
   };
 
+  /* Réponses d'OpenEvidence du 24 nov. 2026 (outils/locomoteur/sources/openevidence-reponses/) : une valeur publiée remplace
+     l'estimation quand l'étude porte sur cet élément ; sinon la remarque s'affiche dans Sources et limites. */
+  const REVUES_OE = [
+    { code: "CERV-P1", cle: "radiculopathie|bras_cou>radiculopathie", note: "OpenEvidence (24 nov. 2026) : spécificité élevée (≥ 80 %) dans une cohorte de 2e ligne ; valeur exacte non publiée dans le résumé" },
+    { code: "CERV-P2", cle: "radiculopathie|rotation60>radiculopathie", statut: "verifie", piste: "Wainner et coll., 2003 (Spine, PMID 12544957), EMG : Se 89 %, Sp 49 % (chiffres du texte intégral)" },
+    { code: "CERV-P3", cle: "radiculopathie|hypoesthesie>radiculopathie", se: 0.44, sp: 0.72, statut: "verifie", piste: "Cohorte néerlandaise de 2e ligne, IRM et diagnostic du spécialiste : Se 44 %, Sp 72 %, RV+ 1,56, RV− 0,78 (contre l'EMG : 2,27 et 0,84)" },
+    { code: "CERV-P4", cle: "radiculopathie|spurling>radiculopathie", se: 0.5, sp: 0.86, statut: "verifie", piste: "Wainner et coll., 2003 (Spine, PMID 12544957), EMG : Se 50 %, Sp 86 %, RV+ 3,5, RV− 0,58 ; études d'imagerie non regroupables (Thoomes 2026)" },
+    { code: "CERV-P5", cle: "radiculopathie|ultt>radiculopathie", se: 0.7, sp: 0.71, statut: "verifie", piste: "Thoomes et coll., 2026 (BMC Musculoskelet Disord, méta-analyse, 3 études de 2e ligne) : Se 70 %, Sp 71 %, RV+ 2,45, RV− 0,42 (Wainner, contre l'EMG : 1,3 et 0,12)" },
+    { code: "CERV-P6", cle: "radiculopathie|distraction>radiculopathie", statut: "verifie", piste: "Wainner et coll., 2003 (Spine, PMID 12544957), EMG : Se 44 %, Sp 90 %, RV+ 4,4, RV− 0,62" },
+    { code: "CERV-P7", cle: "grappe|wainner3", statut: "verifie", piste: "Wainner et coll., 2003 (Spine, PMID 12544957), EMG, n = 82 : 3 sur 4, Se 39 %, Sp 94 %, RV+ 6,1 ; 4 sur 4 : RV+ 30,3 ; pas de validation externe" },
+    { code: "CERV-P8", cle: "myelopathie|maladresse>myelopathie", statut: "verifie", piste: "Soufi et coll., 2025 (Sci Rep), 139 myélopathies adressées contre 108 volontaires sains : Se 58 %, Sp 92 % (surestimation probable)" },
+    { code: "CERV-P9", cle: "myelopathie|marche_myelo>myelopathie", statut: "verifie", piste: "Soufi et coll., 2025 (Sci Rep), même cohorte : déséquilibre rapporté, Se 58 %, Sp 92 %" },
+    { code: "CERV-P10", cle: "myelopathie|sphincters>myelopathie", statut: "verifie", piste: "Soufi et coll., 2025 (Sci Rep), même cohorte : trouble urinaire, Se 41 %, Sp 91 % ; incontinence fécale Se 12 %, Sp 98 % ; « nouveau » ne faisait pas partie de la définition" },
+    { code: "CERV-P11", cle: "myelopathie|tandem>myelopathie", note: "OpenEvidence (24 nov. 2026) : chiffres incohérents dans l'article source (Se 87 % ou 73 %, Sp 53 % ou 57 %)" },
+    { code: "CERV-P12", cle: "defile|bras_leve_agg>defile", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P13", cle: "defile|paresthesies>defile", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P14", cle: "cervicogenique|localisation.tete>cervicogenique", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P15", cle: "radiculopathie|localisation.bras>radiculopathie", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P16", cle: "stinger|brulure_transitoire>stinger", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P17", cle: "torticolis|torticolis_vu>torticolis", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P18", cle: "torticolis|arom_rotation|complete", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P19", cle: "ppr|localisation.epaules_hanches>ppr", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P20", cle: "ppr|raideur|plus30", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P21", cle: "ppr|raideur_ceintures>ppr", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P22", cle: "myelopathie|babinski>myelopathie", rvp: 4, rvn: 0.7, statut: "verifie", piste: "Cook et coll., 2009 (JOSPT), pratique spécialisée du rachis, étude cas-témoins : Babinski RV+ 4,0, RV− 0,7" },
+    { code: "CERV-P23", cle: "par|atcd_rhumato.par>par", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P24", cle: "infection|risque_infection.udi>infection", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CERV-P25", cle: "arnold|p_occipital>arnold", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+  ];
   window.Locomoteur.definir({
+    revues: REVUES_OE,
     id: "cervical", partie: "cervical", partieExamen: "rachis cervical", en: "neck", rc: "Cervicalgie",
     titre: "Cervicalgie ou douleur cervico-brachiale", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", frequencesRevues: { date: "2026-11-24", source: "outils/locomoteur/sources/openevidence-reponses/2026-11-24-cervical-frequences.md", verdict: "Aucune courbe confirmée ; repères ajoutés, valeurs provisoires" }, infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.cervical || {}).sources,

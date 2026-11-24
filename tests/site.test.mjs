@@ -694,6 +694,13 @@ async function atlas(nav) {
   await p.click('.lo-zone[data-zone="cheville"][data-cote="G"] >> nth=0'); await p.waitForSelector("#s-p-cheville"); await p.waitForTimeout(200);
   const apres = await p.evaluate(() => ({ y: scrollY, ouvertes: ["hanche", "cheville"].every(r => document.getElementById(`s-p-${r}`).open) }));
   verifier("Atlas : deux zones de suite ajoutent leurs plaintes, sections ouvertes, sans défilement", Math.abs(apres.y - y0) < 4 && apres.ouvertes, { y0, ...apres });
+  // Second clic : décoche. Genou « Les deux » → droit décoché → gauche seul ; gauche décoché → plainte retirée ; idem pour la hanche.
+  await p.click('.lo-zone[data-zone="genou"][data-cote="D"] >> nth=0'); await p.waitForTimeout(200);
+  const gSeul = await cote("genou");
+  await p.click('.lo-zone[data-zone="genou"][data-cote="G"] >> nth=0'); await p.waitForTimeout(200);
+  await p.click('.lo-zone[data-zone="hanche"][data-cote="G"] >> nth=0'); await p.waitForTimeout(200);
+  const reste = await p.evaluate(() => [...document.querySelectorAll(".lo-puce[aria-pressed=true][data-region]")].map(b => b.dataset.region));
+  verifier("Atlas : un second clic décoche le côté, puis retire la plainte", gSeul === "Gauche" && !reste.includes("genou") && !reste.includes("hanche") && reste.includes("epaule") && reste.includes("cheville"), { gSeul, reste });
   await ctx.close();
 }
 

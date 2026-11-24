@@ -98,6 +98,7 @@
     { code: "CHEV-P28", cle: "cristaux|rougeur_chaleur>cristaux", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
   ];
   window.Locomoteur.definir({
+    frequencesRevues: { date: "2026-11-24", source: "outils/locomoteur/sources/openevidence-reponses/2026-11-24-cheville-pied.md", verdict: "Aucune courbe confirmée ; rapports femmes-hommes et quelques fréquences corrigés là où des données publiées les contredisent" },
     revues: REVUES_OE,
     id: "cheville", partie: "cheville", en: "ankle", rc: "Douleur à la cheville",
     titre: "Douleur à la cheville ou à la jambe", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
@@ -109,7 +110,7 @@
         repere: "Pic de 7,2/1 000 p-a à 15–19 ans, la moitié seulement consulte ; 1ʳᵉ cause chez l'adulte et le sportif (A, C)" },
       { id: "instab", nom: "Instabilité chronique de la cheville", n: "instabilité chronique de la cheville", base: [[12, .02], [18, .05], [30, .06], [50, .04], [70, .02]],
         repere: "40 % après une première entorse (A)" },
-      { id: "achille", nom: "Tendinopathie d'Achille corporéale", n: "tendinopathie achilléenne corporéale", base: [[12, .01], [20, .03], [35, .08], [50, .1], [65, .07], [80, .04]], sexe: { M: 1.2, F: .85 },
+      { id: "achille", nom: "Tendinopathie d'Achille corporéale", n: "tendinopathie achilléenne corporéale", base: [[12, .01], [20, .03], [35, .08], [50, .1], [65, .07], [80, .04]], sexe: { M: 1.1, F: .92 }, repere: "Prédominance masculine plus faible en médecine familiale que l'estimation (OpenEvidence, 24 nov. 2026)",
         repere: "1,85–2,35/1 000 p-a ; 7–9 % des coureurs par an (A, C)" },
       { id: "insertion", nom: "Tendinopathie d'insertion, Haglund ou bursite rétro-calcanéenne", n: "tendinopathie d'insertion achilléenne", base: [[12, .005], [25, .02], [45, .05], [60, .06], [80, .04]],
         repere: "Environ un tiers des douleurs achilléennes (A)" },

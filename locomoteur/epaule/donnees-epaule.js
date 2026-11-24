@@ -66,7 +66,41 @@
   const litaker = L => [L.age !== null && L.age >= 65, L.oui("nocturne"), L.dans("rrom_re", ["faiblesse"])];
   const ac3 = L => [L.oui("add_horiz"), L.oui("ext_ac"), L.oui("obrien_ac")];
 
+  /* Réponses d'OpenEvidence du 24 nov. 2026 (outils/locomoteur/sources/openevidence-reponses/) : une valeur publiée remplace
+     l'estimation quand l'étude porte sur cet élément ; sinon la remarque s'affiche dans Sources et limites. */
+  const REVUES_OE = [
+    { code: "EPAU-P1", cle: "sous_acro|neer>sous_acro", se: 0.73, sp: 0.52, statut: "verifie", piste: "Zhao et coll., 2024 (BMC Musculoskelet Disord, méta-analyse, 7 études, 960 patients) : Neer, Se 73 %, Sp 52 %, RV+ 1,54, RV− 0,47" },
+    { code: "EPAU-P2", cle: "grappe|park_conflit", note: "OpenEvidence (24 nov. 2026) : probabilité post-test de 95 % confirmée (Park 2005) ; RV non vérifiable dans le résumé" },
+    { code: "EPAU-P3", cle: "capsulite|diabete>capsulite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P4", cle: "grappe|park_rupture", note: "OpenEvidence (24 nov. 2026) : probabilité post-test de 91 % confirmée (Park 2005) ; RV non vérifiable dans le résumé" },
+    { code: "EPAU-P5", cle: "dyskinesie|dyskinesie_vue>dyskinesie", note: "OpenEvidence (24 nov. 2026) : Se 76 % contre la cinématique 3D (Uhl 2009) ; asymétrie aussi fréquente chez les sujets sans douleur" },
+    { code: "EPAU-P6", cle: "ac_arthrose|localisation.sous_coude>ac_arthrose", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P7", cle: "ac_arthrose|p_ac>ac_arthrose", note: "OpenEvidence (24 nov. 2026) : Se 96 %, spécificité « faible » (Walton 2004) ; le RV− de 0,1 est probablement mal attribué" },
+    { code: "EPAU-P8", cle: "capsulite|raideur_prog>capsulite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P9", cle: "capsulite|arom_elev|complete", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P10", cle: "capsulite|arom_re|complete", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P11", cle: "capsulite|prom_re|complete", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P12", cle: "capsulite|prom_re|lim_douleur", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P13", cle: "capsulite|prom_re|lim_raideur", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P14", cle: "ac_entorse|marche_ac>ac_entorse", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P15", cle: "ac_entorse|p_ac>ac_entorse", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P16", cle: "clavicule|p_clavicule>clavicule", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P17", cle: "instab_ant|atcd_luxation>instab_ant", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P18", cle: "instab_ant|deboitement>instab_ant", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P19", cle: "instab_ant|deformation>instab_ant", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P20", cle: "ac_arthrose|localisation.sommet>ac_arthrose", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P21", cle: "ppr|localisation.deux_epaules>ppr", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P22", cle: "ppr|raideur|plus30", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P23", cle: "ppr|raideur_ceintures>ppr", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P24", cle: "biceps|popeye>biceps", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P25", cle: "cervical|localisation.sous_coude>cervical", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P26", cle: "cervical|cou_aggrave>cervical", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "EPAU-P27", cle: "cervical|paresthesies>cervical", note: "OpenEvidence (24 nov. 2026) : Se d'au moins 80 % en clinique spécialisée ; RV+ inférieur à 5, RV− supérieur à 0,2" },
+    { code: "EPAU-P28", cle: "cervical|deficit_c5c6>cervical", note: "OpenEvidence (24 nov. 2026) : élément combiné non étudié ; composantes RV+ 1,2 à 4,9 (faiblesse du biceps 3,7 ; réflexe bicipital 4,9)" },
+  ];
   window.Locomoteur.definir({
+    frequencesRevues: { date: "2026-11-24", source: "outils/locomoteur/sources/openevidence-reponses/2026-11-24-cervical-epaule-coude-poignet.md", verdict: "Aucune courbe confirmée ; rapports femmes-hommes et quelques fréquences corrigés là où des données publiées les contredisent" },
+    revues: REVUES_OE,
     id: "epaule", partie: "épaule", en: "shoulder", rc: "Douleur à l'épaule",
     titre: "Douleur à l'épaule", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.epaule || {}).sources,
