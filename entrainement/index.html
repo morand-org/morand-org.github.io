@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr-CA" data-polices="site">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script src="/morand/plein-ecran.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex, nofollow">
+<title>Entraînement clinique | Morand</title>
+<meta name="description" content="Entraînement au raisonnement clinique probabiliste : la trouvaille augmente-t-elle, laisse-t-elle neutre ou diminue-t-elle la probabilité du diagnostic ?">
+<meta name="theme-color" content="#d0dbd3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101713" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
+<link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
+<link rel="stylesheet" href="/crds/crds.css">
+<link rel="stylesheet" href="/entrainement/entrainement.css">
+<script src="/entrainement/jeu.js" defer></script>
+<script src="/entrainement/stockage.js" defer></script>
+<script src="/entrainement/ecrans.js" defer></script>
+</head>
+<body class="en">
+<a class="saut" href="#en-principal">Aller au contenu</a>
+<header class="cr-tete">
+  <a class="cr-marque" href="/">Morand</a>
+  <nav class="cr-onglets" aria-label="Outils Morand">
+    <a href="/wealth/">Wealth</a>
+    <a href="/guides/">Guide</a>
+    <a href="/map/">Map</a>
+    <a href="/crds/">CRDS</a>
+    <a href="/codes/">Codes</a>
+    <a href="/locomoteur/" aria-current="page">MSK</a>
+  </nav>
+</header>
+
+<main id="en-principal" class="en-scene">
+
+  <!-- Accueil : choix du mode -->
+  <section class="en-ecran" id="en-accueil" aria-labelledby="en-titre">
+    <div class="en-carte">
+      <p class="en-fil"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>Entraînement</span></p>
+      <p class="en-sur">Raisonnement clinique</p>
+      <h1 class="en-titre" id="en-titre">Entraînement probabiliste</h1>
+      <p class="en-lead">Pour chaque trouvaille clinique, décidez vite si elle <strong>augmente</strong>, laisse <strong>neutre</strong> ou <strong>diminue</strong> la probabilité du diagnostic ciblé.</p>
+      <p class="en-avis" id="en-avis">Prototype. Les cartes viennent de la base de données MSK du Dr Morand (références à l'appui) et sont en cours de relecture : elles ne remplacent pas le jugement clinique.</p>
+
+      <div class="en-filtre">
+        <label for="en-region">Région</label>
+        <select id="en-region"><option value="">Toutes les régions</option></select>
+        <span class="en-compte" id="en-compte" aria-live="polite"></span>
+      </div>
+
+      <div class="en-modes">
+        <div class="en-mode en-mode-large">
+          <p class="en-mode-tag">Chrono</p>
+          <h2 class="en-mode-titre">Contre-la-montre</h2>
+          <p class="en-mode-desc">Le plus de bonnes réponses possible dans le temps donné.</p>
+          <p class="en-durees" role="group" aria-label="Durée"><button type="button" class="en-duree" data-mode="chrono" data-duree="30">30 s</button><button type="button" class="en-duree" data-mode="chrono" data-duree="60">60 s</button><button type="button" class="en-duree" data-mode="chrono" data-duree="120">120 s</button></p>
+          <p class="en-mode-record" data-record="chrono"></p>
+        </div>
+        <button type="button" class="en-mode" data-mode="serie">
+          <span class="en-mode-tag">Mort subite</span>
+          <span class="en-mode-titre">Série parfaite</span>
+          <span class="en-mode-desc">Une erreur et la série s'arrête.</span>
+          <span class="en-mode-record" data-record="serie"></span>
+        </button>
+        <button type="button" class="en-mode" data-mode="libre">
+          <span class="en-mode-tag">Sans chrono</span>
+          <span class="en-mode-titre">Entraînement libre</span>
+          <span class="en-mode-desc">À votre rythme, avec l'explication et les références.</span>
+          <span class="en-mode-record" data-record="libre"></span>
+        </button>
+        <button type="button" class="en-mode" data-mode="defi">
+          <span class="en-mode-tag">Chaque jour</span>
+          <span class="en-mode-titre">Défi quotidien</span>
+          <span class="en-mode-desc" id="en-defi-desc">10 cartes, les mêmes pour tous.</span>
+          <span class="en-mode-record" data-record="defi"></span>
+        </button>
+        <button type="button" class="en-mode" data-mode="erreurs">
+          <span class="en-mode-tag">Ciblé</span>
+          <span class="en-mode-titre">Révision des erreurs</span>
+          <span class="en-mode-desc">Seulement les cartes manquées.</span>
+          <span class="en-mode-record" data-record="erreurs"></span>
+        </button>
+      </div>
+
+      <details class="en-progression" id="en-progression">
+        <summary>Votre progression</summary>
+        <div id="en-progression-corps"></div>
+      </details>
+
+      <div class="en-editeur" id="en-editeur" hidden>
+        <p><strong>Mode éditeur</strong> · <span id="en-editeur-compte"></span></p>
+        <p class="en-editeur-actions"><button type="button" class="en-btn-sec" id="en-exporter">Exporter mes décisions</button><button type="button" class="en-btn-sec" id="en-editeur-quitter">Quitter le mode éditeur</button></p>
+      </div>
+
+      <p class="en-polices" role="group" aria-label="Polices (comparaison du prototype)">Polices : <button type="button" data-polices="site" aria-pressed="true">Site</button><button type="button" data-polices="maquette" aria-pressed="false">Maquette 4B</button></p>
+    </div>
+  </section>
+
+  <!-- Partie -->
+  <section class="en-ecran" id="en-partie" hidden aria-label="Partie">
+    <div class="en-carte en-jeu">
+      <div class="en-tete-jeu">
+        <span id="en-position"></span>
+        <span class="en-tete-droite"><span class="en-puce" id="en-score" title="Score">0</span><span class="en-puce" id="en-serie" title="Série">Série 0</span><span class="en-puce en-chrono" id="en-chrono" role="timer" aria-live="off"></span></span>
+      </div>
+      <div class="en-piste" aria-hidden="true"><div class="en-piste-plein" id="en-piste"></div></div>
+      <p class="en-sur">Diagnostic ciblé</p>
+      <h2 class="en-diag" id="en-diag"></h2>
+      <div class="en-trouvaille">
+        <p class="en-sur"><span id="en-type">Trouvaille</span><span class="en-statut" id="en-statut"></span></p>
+        <p class="en-enonce" id="en-enonce"></p>
+      </div>
+      <p class="en-consigne" id="en-consigne">Effet sur la probabilité du diagnostic ?</p>
+      <div class="en-choix" role="group" aria-label="Votre réponse">
+        <button type="button" class="en-rep en-haut" data-rep="increase" aria-keyshortcuts="1 ArrowUp"><span class="en-fleche" aria-hidden="true">↑</span>Augmente<span class="en-touche" aria-hidden="true">1</span></button>
+        <button type="button" class="en-rep en-neutre" data-rep="neutral" aria-keyshortcuts="2 ArrowRight"><span class="en-fleche" aria-hidden="true">↔</span>Neutre<span class="en-touche" aria-hidden="true">2</span></button>
+        <button type="button" class="en-rep en-bas" data-rep="decrease" aria-keyshortcuts="3 ArrowDown"><span class="en-fleche" aria-hidden="true">↓</span>Diminue<span class="en-touche" aria-hidden="true">3</span></button>
+      </div>
+      <div class="en-retour" id="en-retour" aria-live="polite"></div>
+      <p class="en-actions-jeu"><button type="button" class="en-btn-sec" id="en-quitter">Terminer</button><button type="button" class="en-btn" id="en-suivante" hidden>Question suivante <span aria-hidden="true">→</span></button></p>
+    </div>
+  </section>
+
+  <!-- Résultats -->
+  <section class="en-ecran" id="en-resultats" hidden aria-labelledby="en-res-titre">
+    <div class="en-carte">
+      <p class="en-sur" id="en-res-sur">Bilan de séance</p>
+      <h2 class="en-titre" id="en-res-titre">Séance terminée</h2>
+      <p class="en-lead" id="en-res-lead"></p>
+      <div class="en-stats" id="en-stats"></div>
+      <p class="en-actions-res"><button type="button" class="en-btn-sec" id="en-changer">Changer de mode</button><button type="button" class="en-btn-sec" id="en-revoir">Revoir les erreurs</button><button type="button" class="en-btn" id="en-rejouer">Rejouer <span aria-hidden="true">→</span></button></p>
+      <div class="en-erreurs" id="en-erreurs"></div>
+    </div>
+  </section>
+
+  <p class="en-pied-note">Les réponses suivent la base de données MSK : ↑ et ↓ quand l'élément change la probabilité, ↔ quand il ne la change pas de façon utile (rapport de vraisemblance proche de 1 ou donnée non discriminante). « Neutre » ne veut jamais dire « inconnu ». Vos résultats restent dans ce navigateur.</p>
+</main>
+
+<footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
+</body>
+</html>

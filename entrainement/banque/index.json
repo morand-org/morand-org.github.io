@@ -1,0 +1,89 @@
+{
+ "version": "2026-11-24",
+ "domaines": {
+  "MSK": "Musculosquelettique"
+ },
+ "paquets": [
+  {
+   "cle": "msk-cervical",
+   "domaine": "MSK",
+   "region": "Rachis cervical",
+   "fichier": "/entrainement/banque/msk-cervical.json",
+   "cartes": 129,
+   "experimentales": 4,
+   "diagnostics": 17
+  },
+  {
+   "cle": "msk-lombaire",
+   "domaine": "MSK",
+   "region": "Rachis lombaire",
+   "fichier": "/entrainement/banque/msk-lombaire.json",
+   "cartes": 148,
+   "experimentales": 1,
+   "diagnostics": 16
+  },
+  {
+   "cle": "msk-epaule",
+   "domaine": "MSK",
+   "region": "Épaule",
+   "fichier": "/entrainement/banque/msk-epaule.json",
+   "cartes": 175,
+   "experimentales": 2,
+   "diagnostics": 17
+  },
+  {
+   "cle": "msk-coude",
+   "domaine": "MSK",
+   "region": "Coude",
+   "fichier": "/entrainement/banque/msk-coude.json",
+   "cartes": 186,
+   "experimentales": 1,
+   "diagnostics": 19
+  },
+  {
+   "cle": "msk-poignet",
+   "domaine": "MSK",
+   "region": "Poignet et main",
+   "fichier": "/entrainement/banque/msk-poignet.json",
+   "cartes": 242,
+   "experimentales": 3,
+   "diagnostics": 29
+  },
+  {
+   "cle": "msk-hanche",
+   "domaine": "MSK",
+   "region": "Hanche",
+   "fichier": "/entrainement/banque/msk-hanche.json",
+   "cartes": 200,
+   "experimentales": 2,
+   "diagnostics": 21
+  },
+  {
+   "cle": "msk-genou",
+   "domaine": "MSK",
+   "region": "Genou",
+   "fichier": "/entrainement/banque/msk-genou.json",
+   "cartes": 202,
+   "experimentales": 2,
+   "diagnostics": 23
+  },
+  {
+   "cle": "msk-cheville",
+   "domaine": "MSK",
+   "region": "Cheville",
+   "fichier": "/entrainement/banque/msk-cheville.json",
+   "cartes": 228,
+   "experimentales": 8,
+   "diagnostics": 22
+  },
+  {
+   "cle": "msk-pied",
+   "domaine": "MSK",
+   "region": "Pied",
+   "fichier": "/entrainement/banque/msk-pied.json",
+   "cartes": 198,
+   "experimentales": 5,
+   "diagnostics": 22
+  }
+ ]
+}

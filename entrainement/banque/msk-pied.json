@@ -1,0 +1,6903 @@
+{
+"domaine": "MSK",
+"region": "Pied",
+"cle": "msk-pied",
+"lot": 9,
+"version": "2026-11-24",
+"source": "Base de données pour FlashCards Morand MSK (lot 9), références incluses",
+"diagnostics": [
+{
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+{
+"no": 166,
+"nom": "Hallux valgus"
+},
+{
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+{
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+{
+"no": 169,
+"nom": "Hallux rigidus"
+},
+{
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+{
+"no": 171,
+"nom": "Névrome de Morton"
+},
+{
+"no": 172,
+"nom": "Turf toe"
+},
+{
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+{
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+{
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+{
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+{
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+{
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+{
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+{
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+{
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+{
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+{
+"no": 183,
+"nom": "Fracture de stress du calcanéus"
+},
+{
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+{
+"no": 185,
+"nom": "Pied de Charcot"
+},
+{
+"no": 186,
+"nom": "Maladie de Freiberg"
+}
+],
+"cartes": [
+{
+"id": "MSK-165-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Anamnèse",
+"enonce": "IMC > 27",
+"reponse": "increase",
+"explication": "IMC > 27 : OR groupé 3,7 (van Leeuwen 2016, 51 études) ; IMC > 30 : OR 5,6 (Riddle 2003) et 2,9 (Irving 2007).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 5.6,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+3,
+4,
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Examen physique",
+"enonce": "Dorsiflexion de cheville limitée",
+"reponse": "neutral",
+"explication": "Dorsiflexion de cheville limitée : OR 23,3 pour une dorsiflexion ≤ 0° (Riddle 2003, 50 cas et 100 témoins), mais aucune différence à IMC apparié (Landorf 2021) ni en méta-analyse chez le sujet actif (Hamstra-Wright 2021).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 23.3,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+3,
+6,
+1
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Facteurs de risque",
+"enonce": "Station debout prolongée au travail",
+"reponse": "neutral",
+"explication": "Station debout prolongée au travail : OR 3,6 (Riddle 2003), non reproduit (Irving 2007 ; Sullivan 2015).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.6,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+3,
+4,
+7
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Pied en pronation",
+"reponse": "neutral",
+"explication": "Pied en pronation : OR 3,7 (Irving 2007), sans différence à IMC apparié (Landorf 2021).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.7,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+6,
+4
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge et sexe après 50 ans",
+"reponse": "neutral",
+"explication": "Âge et sexe après 50 ans : non associés (Thomas 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+8
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Test du windlass en charge positif",
+"reponse": "increase",
+"explication": "Test du windlass en charge positif : Sp 100 %",
+"contexte_puce": "↑ Test du windlass en charge positif : Sp 100 % ; ↔ négatif : Se 31,8 %, LR− 0,68 calculé (De Garceau 2003, 22 cas).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+9
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Test du windlass en charge négatif",
+"reponse": "neutral",
+"explication": "Négatif : Se 31,8 %, LR− 0,68 calculé (De Garceau 2003, 22 cas).",
+"contexte_puce": "↑ Test du windlass en charge positif : Sp 100 % ; ↔ négatif : Se 31,8 %, LR− 0,68 calculé (De Garceau 2003, 22 cas).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.68,
+"sensibilite": "31,8 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+9
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-165-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Fascia > 4 mm à l'échographie",
+"reponse": "increase",
+"explication": "Fascia > 4 mm à l'échographie : Se 61 %, Sp 95 %, LR+ 12,2 et LR− 0,41 calculés (Gatz 2020)",
+"contexte_puce": "↑ Fascia > 4 mm à l'échographie : Se 61 %, Sp 95 %, LR+ 12,2 et LR− 0,41 calculés (Gatz 2020) ; ↔ après 50 ans : 47,3 % des pieds en population dépassent 4 mm (Menz 2019).",
+"donnee": {
+"lr_positif": 12.2,
+"lr_negatif": 0.41,
+"sensibilite": "61 %",
+"specificite": "95 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+10,
+11
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Après 50 ans",
+"reponse": "neutral",
+"explication": "Après 50 ans : 47,3 % des pieds en population dépassent 4 mm (Menz 2019).",
+"contexte_puce": "↑ Fascia > 4 mm à l'échographie : Se 61 %, Sp 95 %, LR+ 12,2 et LR− 0,41 calculés (Gatz 2020) ; ↔ après 50 ans : 47,3 % des pieds en population dépassent 4 mm (Menz 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+10,
+11
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Épine calcanéenne",
+"reponse": "increase",
+"explication": "Épine calcanéenne : Se 85,2 %, Sp 77,2 %, LR+ 3,74 ; présente chez 15,5 % de 400 témoins (Prichasuk 1994).",
+"force": "faible",
+"donnee": {
+"lr_positif": 3.74,
+"lr_negatif": null,
+"sensibilite": "85,2 %",
+"specificite": "77,2 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+12,
+13
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-165-11",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 165,
+"nom": "Fasciite plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Sujet jeune avec talalgie réfractaire",
+"reponse": "decrease",
+"explication": "Sujet jeune avec talalgie réfractaire : spondylarthrite périphérique HLA-B27 positive chez 17,5 % (11 sur 63) (Jung 2024).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+14
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 165"
+},
+{
+"id": "MSK-166-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : 30 % contre 13 % (Nix 2010) ; OR 2,64 (Roddy 2008, n = 4 249).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.64,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+17,
+19
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge",
+"reponse": "increase",
+"explication": "Âge : OR 1,61 par décennie.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.61,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+19
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Anamnèse",
+"enonce": "Chaussures à bout étroit",
+"reponse": "increase",
+"explication": "Chaussures à bout étroit : OR 2,25 en méta-analyse ; OR 2,70 pour un bout très étroit entre 20 et 29 ans (Menz 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.25,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+20,
+21
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Anamnèse",
+"enonce": "Talons hauts",
+"reponse": "increase",
+"explication": "Talons hauts : OR 1,65, certitude très faible",
+"contexte_puce": "↑ (faible) Talons hauts : OR 1,65, certitude très faible ; ↔ hauteur du talon non associée (Menz 2016).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.65,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+21,
+20
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Anamnèse",
+"enonce": "Hauteur du talon non associée",
+"reponse": "neutral",
+"explication": "Hauteur du talon non associée (Menz 2016).",
+"contexte_puce": "↑ (faible) Talons hauts : OR 1,65, certitude très faible ; ↔ hauteur du talon non associée (Menz 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+21,
+20
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Anamnèse",
+"enonce": "Hérédité",
+"reponse": "neutral",
+"explication": "Hérédité : héritabilité de 0,29 à 0,89 (Framingham, Hannan 2013), mais agrégation attribuée à l'environnement partagé dans une étude de jumeaux (Munteanu 2017).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+22,
+23
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Anamnèse",
+"enonce": "Pied plat",
+"reponse": "neutral",
+"explication": "Pied plat : OR 1,19 en méta-analyse ; risque relatif 2,1 chez l'homme seulement (MOBILIZE).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.19,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+20,
+24
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Facteurs de risque",
+"enonce": "Obésité chez la femme",
+"reponse": "decrease",
+"explication": "Obésité chez la femme : risque relatif 0,7 (MOBILIZE) et OR 0,62 (Framingham)",
+"contexte_puce": "↓ (faible) Obésité chez la femme : risque relatif 0,7 (MOBILIZE) et OR 0,62 (Framingham) ; ↔ en méta-analyse.",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.62,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+20,
+24,
+25
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-166-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Facteurs de risque",
+"enonce": "Obésité chez la femme (en méta-analyse.)",
+"reponse": "neutral",
+"explication": "En méta-analyse.",
+"contexte_puce": "↓ (faible) Obésité chez la femme : risque relatif 0,7 (MOBILIZE) et OR 0,62 (Framingham) ; ↔ en méta-analyse.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+20,
+24,
+25
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-166-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 166,
+"nom": "Hallux valgus"
+},
+"type": "Anamnèse",
+"enonce": "Douleur",
+"reponse": "neutral",
+"explication": "Douleur : OR 3,28 pour une douleur du gros orteil (Roddy 2008) ; OR 1,1 non significatif pour la douleur du pied (Feet First).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.28,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+19,
+26
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 166"
+},
+{
+"id": "MSK-167-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge",
+"reponse": "increase",
+"explication": "Âge : de 14–15 % entre 39 et 50 ans à 53–58 % entre 81 et 90 ans (Framingham, n = 2 446).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+23
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 167"
+},
+{
+"id": "MSK-167-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "neutral",
+"explication": "Sexe féminin : ratio de 5,7 pour 1 dans une revue, mais excès féminin seulement après 70 ans dans Framingham.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23,
+31
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 167"
+},
+{
+"id": "MSK-167-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+"type": "Anamnèse",
+"enonce": "Hérédité",
+"reponse": "increase",
+"explication": "Hérédité : héritabilité de 0,49 à 0,90.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 167"
+},
+{
+"id": "MSK-167-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+"type": "Anamnèse",
+"enonce": "Hallux valgus associé",
+"reponse": "increase",
+"explication": "Hallux valgus associé : angle d'hallux valgus moyen de 30,6° dans les pieds avec bunionette contre 12,1° chez les témoins.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+32
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 167"
+},
+{
+"id": "MSK-167-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+"type": "Anamnèse",
+"enonce": "Neuropathie diabétique",
+"reponse": "increase",
+"explication": "Neuropathie diabétique : griffe métatarso-phalangienne chez jusqu'à 85 % des patients avec antécédent d'ulcère ou d'amputation",
+"contexte_puce": "↑ Neuropathie diabétique : griffe métatarso-phalangienne chez jusqu'à 85 % des patients avec antécédent d'ulcère ou d'amputation ; ↔ atrophie des muscles intrinsèques : non discriminante (Bus 2009, n = 20).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+33,
+34
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 167"
+},
+{
+"id": "MSK-167-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+"type": "Examen physique",
+"enonce": "Atrophie des muscles intrinsèques",
+"reponse": "neutral",
+"explication": "Atrophie des muscles intrinsèques : non discriminante (Bus 2009, n = 20).",
+"contexte_puce": "↑ Neuropathie diabétique : griffe métatarso-phalangienne chez jusqu'à 85 % des patients avec antécédent d'ulcère ou d'amputation ; ↔ atrophie des muscles intrinsèques : non discriminante (Bus 2009, n = 20).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+33,
+34
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 167"
+},
+{
+"id": "MSK-167-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 167,
+"nom": "Déformation des orteils latéraux ou bunionette"
+},
+"type": "Anamnèse",
+"enonce": "Douleur du pied",
+"reponse": "neutral",
+"explication": "Douleur du pied : OR 0,8 pour les orteils et 0,9 pour la bunionette.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.8,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+26
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 167"
+},
+{
+"id": "MSK-169-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Tests spécifiques",
+"enonce": "Au moins 3 signes sur 5 (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°)",
+"reponse": "increase",
+"explication": "Au moins 3 signes sur 5 (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°) : Se 88 %, Sp 71 %, LR+ 3,07",
+"contexte_puce": "↑ Au moins 3 signes sur 5 (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°) : Se 88 %, Sp 71 %, LR+ 3,07 ; ↓ moins de 3 : LR− 0,17 (Zammit 2011, n = 181).",
+"donnee": {
+"lr_positif": 3.07,
+"lr_negatif": null,
+"sensibilite": "88 %",
+"specificite": "71 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-169-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Anamnèse",
+"enonce": "Moins de 3",
+"reponse": "decrease",
+"explication": "Moins de 3 : LR− 0,17 (Zammit 2011, n = 181).",
+"contexte_puce": "↑ Au moins 3 signes sur 5 (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°) : Se 88 %, Sp 71 %, LR+ 3,07 ; ↓ moins de 3 : LR− 0,17 (Zammit 2011, n = 181).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.17,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-169-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent familial",
+"reponse": "neutral",
+"explication": "Antécédent familial : environ deux tiers des patients (Coughlin et Shurnas 2003, n = 110), mais 27,7 % chez Maes 2020.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+39,
+40
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-169-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Évolution temporelle",
+"enonce": "Atteinte unilatérale au début",
+"reponse": "neutral",
+"explication": "Atteinte unilatérale au début : bilatérale chez 19 % à la première visite et 79 % à 8,9 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+39
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-169-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Anamnèse",
+"enonce": "Traumatisme si l'atteinte est unilatérale",
+"reponse": "increase",
+"explication": "Traumatisme si l'atteinte est unilatérale : 78 % des cas unilatéraux.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+39
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-169-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : associé (Coughlin 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+39
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-169-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Examen physique",
+"enonce": "Premier métatarsien long ou surélevé, hypermobilité, pied plat, chaussage, métier",
+"reponse": "neutral",
+"explication": "Premier métatarsien long ou surélevé, hypermobilité, pied plat, chaussage, métier : non associés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+39
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-169-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 169,
+"nom": "Hallux rigidus"
+},
+"type": "Anamnèse",
+"enonce": "Arthrose radiographique isolée",
+"reponse": "neutral",
+"explication": "Arthrose radiographique isolée : 37 % après 40 ans (Howard 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+41
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 169"
+},
+{
+"id": "MSK-172-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 172,
+"nom": "Turf toe"
+},
+"type": "Anamnèse",
+"enonce": "Match plutôt qu'entraînement",
+"reponse": "increase",
+"explication": "Match plutôt qu'entraînement : risque multiplié par 13,7.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+42
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 172"
+},
+{
+"id": "MSK-172-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 172,
+"nom": "Turf toe"
+},
+"type": "Anamnèse",
+"enonce": "Gazon synthétique",
+"reponse": "increase",
+"explication": "Gazon synthétique : 0,087 contre 0,047 pour 1 000 expositions, ratio 1,85 calculé.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "Qualitatif"
+},
+"references": [
+42
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 172"
+},
+{
+"id": "MSK-172-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 172,
+"nom": "Turf toe"
+},
+"type": "Anamnèse",
+"enonce": "Poste de running back, quarterback ou receveur",
+"reponse": "increase",
+"explication": "Poste de running back, quarterback ou receveur : plus de 50 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+42
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 172"
+},
+{
+"id": "MSK-172-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 172,
+"nom": "Turf toe"
+},
+"type": "Examen physique",
+"enonce": "Hyperextension avec charge axiale",
+"reponse": "increase",
+"explication": "Hyperextension avec charge axiale : mécanisme décrit, sans LR.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+43,
+44
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 172"
+},
+{
+"id": "MSK-172-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 172,
+"nom": "Turf toe"
+},
+"type": "Anamnèse",
+"enonce": "(incertain) Migration proximale d'un sésamoïde",
+"reponse": "increase",
+"explication": "(incertain) Migration proximale d'un sésamoïde : distance tibiale > 10,4 mm ou asymétrie > 3 mm, seuils tirés de 200 radiographies normales, non validés chez des blessés (Prieskorn 1993).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+45
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 172"
+},
+{
+"id": "MSK-172-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 172,
+"nom": "Turf toe"
+},
+"type": "Imagerie",
+"enonce": "IRM positive",
+"reponse": "increase",
+"explication": "IRM positive : Se 67 à 100 %, Sp 93 à 100 % selon la structure (Qian 2025, n = 43).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "67 à 100 %",
+"specificite": "93 à 100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+46
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 172"
+},
+{
+"id": "MSK-173-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Anamnèse",
+"enonce": "Sésamoïde en deux fragments à la radiographie",
+"reponse": "neutral",
+"explication": "Sésamoïde en deux fragments à la radiographie : variante bipartite chez 14,3 % (Favinger 2015, n = 531), de 2,7 à 19,3 % selon les séries.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+49,
+50,
+51
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-173-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Anamnèse",
+"enonce": "Côté opposé normal",
+"reponse": "neutral",
+"explication": "Côté opposé normal : bipartisme bilatéral dans 25 % (Rodeo 1993) à 85 % des cas selon les sources.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+52,
+44
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-173-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Anamnèse",
+"enonce": "Sésamoïde médial",
+"reponse": "increase",
+"explication": "Sésamoïde médial : 82 % des bipartites ; fractures de stress surtout médiales.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+49,
+53
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-173-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Facteurs de risque",
+"enonce": "Danse, course",
+"reponse": "increase",
+"explication": "Danse, course : sésamoïdite 62,6 % des diagnostics, danse 34,6 %, course 13,7 % (Sugimoto 2022, 683 jeunes sportifs).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+54
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-173-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Anamnèse",
+"enonce": "Écart > 2 mm entre les fragments",
+"reponse": "increase",
+"explication": "Écart > 2 mm entre les fragments : diastasis traumatique (normale 0 à 2 mm).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+49
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-173-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Imagerie",
+"enonce": "Bords irréguliers non sclérosés, œdème à l'IRM",
+"reponse": "increase",
+"explication": "Bords irréguliers non sclérosés, œdème à l'IRM : en faveur d'une fracture, sans Se ni Sp.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+44,
+46
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-173-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Anamnèse",
+"enonce": "Scintigraphie positive",
+"reponse": "neutral",
+"explication": "Scintigraphie positive : hyperfixation chez 26 à 29 % de sujets asymptomatiques (Chisin 1995).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+55
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-173-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 173,
+"nom": "Sésamoïdite ou fracture du sésamoïde"
+},
+"type": "Imagerie",
+"enonce": "IRM ou TDM frontale normales",
+"reponse": "neutral",
+"explication": "IRM ou TDM frontale normales : fractures manquées dans une série de 6 pieds (Biedert 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+53
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 173"
+},
+{
+"id": "MSK-170-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Tiroir vertical positif",
+"reponse": "increase",
+"explication": "Tiroir vertical positif : Se 80,6 %, Sp 99,8 %",
+"contexte_puce": "↑ Tiroir vertical positif : Se 80,6 %, Sp 99,8 % ; ↓ négatif : LR− 0,19 calculé (Klein 2013, cohorte chirurgicale, spécificité peu plausible).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "80,6 %",
+"specificite": "99,8 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+56
+],
+"difficulte": 2,
+"statut": "experimentale",
+"mises_en_garde": [
+"Sources non retrouvées. Les Se et Sp de chaque item de la règle de Zammit, l'effectif de Klein 2013, les OR de l'obésité dans l'étude CASF, les risques du registre suédois du pied de Charcot et les chiffres groupés de la revue de Forrester 2016 sont à vérifier dans les articles originaux.",
+"Biais de spectre. Les cohortes chirurgicales de Klein 2013 et de Mahadevan 2015 ne permettent pas d'estimer la spécificité.",
+"Incohérences dans les sources. L'item « diagnostic antérieur de névrome » de Klein 2013 associe une Sp de 93,4 % à un OR de 0,100 ; le diastasis C1–M2 de Seo 2017 est cité avec une Se de 92 % ou de 48 %."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-170-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Tiroir vertical négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,19 calculé (Klein 2013, cohorte chirurgicale, spécificité peu plausible).",
+"contexte_puce": "↑ Tiroir vertical positif : Se 80,6 %, Sp 99,8 % ; ↓ négatif : LR− 0,19 calculé (Klein 2013, cohorte chirurgicale, spécificité peu plausible).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.19,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+56
+],
+"difficulte": 1,
+"statut": "experimentale",
+"mises_en_garde": [
+"Sources non retrouvées. Les Se et Sp de chaque item de la règle de Zammit, l'effectif de Klein 2013, les OR de l'obésité dans l'étude CASF, les risques du registre suédois du pied de Charcot et les chiffres groupés de la revue de Forrester 2016 sont à vérifier dans les articles originaux.",
+"Biais de spectre. Les cohortes chirurgicales de Klein 2013 et de Mahadevan 2015 ne permettent pas d'estimer la spécificité.",
+"Incohérences dans les sources. L'item « diagnostic antérieur de névrome » de Klein 2013 associe une Sp de 93,4 % à un OR de 0,100 ; le diastasis C1–M2 de Seo 2017 est cité avec une Se de 92 % ou de 48 %."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-170-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Douleur sous la 2ᵉ tête métatarsienne",
+"reponse": "neutral",
+"explication": "Douleur sous la 2ᵉ tête métatarsienne : Se 98 %, Sp 11,1 %, LR+ 1,10 calculé.",
+"donnee": {
+"lr_positif": 1.1,
+"lr_negatif": null,
+"sensibilite": "98 %",
+"specificite": "11,1 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+56
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-170-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Orteil en croisement",
+"reponse": "neutral",
+"explication": "Orteil en croisement : Se 8 %, Sp 88,9 %, LR+ 0,72 calculé.",
+"donnee": {
+"lr_positif": 0.72,
+"lr_negatif": null,
+"sensibilite": "8 %",
+"specificite": "88,9 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+56
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-170-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Évolution temporelle",
+"enonce": "Début brutal",
+"reponse": "decrease",
+"explication": "Début brutal : 7 % seulement des ruptures.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+56
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-170-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Deuxième métatarsien long",
+"reponse": "increase",
+"explication": "Deuxième métatarsien long : OR 2,5 (Fleischer 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.5,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+57
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-170-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Échographie négative",
+"reponse": "decrease",
+"explication": "Échographie négative : Se 95 %, LR− 0,10",
+"contexte_puce": "↓ Échographie négative : Se 95 %, LR− 0,10 ; ↔ positive : Sp 52 %, LR+ 1,98, calculés (Albright 2022, 238 plaques).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.1,
+"sensibilite": "95 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+58
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-170-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive",
+"reponse": "neutral",
+"explication": "Positive : Sp 52 %, LR+ 1,98, calculés (Albright 2022, 238 plaques).",
+"contexte_puce": "↓ Échographie négative : Se 95 %, LR− 0,10 ; ↔ positive : Sp 52 %, LR+ 1,98, calculés (Albright 2022, 238 plaques).",
+"donnee": {
+"lr_positif": 1.98,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "52 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+58
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-170-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Imagerie",
+"enonce": "IRM positive",
+"reponse": "increase",
+"explication": "IRM positive : Se 89 %, Sp 83 %, LR+ 5,2 et LR− 0,13 calculés.",
+"donnee": {
+"lr_positif": 5.2,
+"lr_negatif": 0.13,
+"sensibilite": "89 %",
+"specificite": "83 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+58
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-170-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 170,
+"nom": "Métatarsalgie ou lésion de la plaque plantaire"
+},
+"type": "Anamnèse",
+"enonce": "« Rupture » échographique chez l'asymptomatique",
+"reponse": "neutral",
+"explication": "« Rupture » échographique chez l'asymptomatique : 47 % des plaques (Gregg 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+59
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 170"
+},
+{
+"id": "MSK-171-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Anamnèse",
+"enonce": "(incertain) Compression pouce-index de l'espace",
+"reponse": "increase",
+"explication": "(incertain) Compression pouce-index de l'espace : Se 96 % ; spécificité non estimable, 53 pieds sur 54 étant positifs à l'échographie de référence (Mahadevan 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "96 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+62
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Biais de spectre. Les cohortes chirurgicales de Klein 2013 et de Mahadevan 2015 ne permettent pas d'estimer la spécificité."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de Mulder",
+"reponse": "neutral",
+"explication": "Signe de Mulder : Se 61 % (Mahadevan 2015) et 49 % (Padua 2020), mais 98 % dans une série histologique.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "61 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+62,
+63,
+64
+],
+"difficulte": 3,
+"statut": "en_revision",
+"mises_en_garde": [
+"Biais de spectre. Les cohortes chirurgicales de Klein 2013 et de Mahadevan 2015 ne permettent pas d'estimer la spécificité."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité de la pulpe normale",
+"reponse": "neutral",
+"explication": "Sensibilité de la pulpe normale : déficit présent dans 26 % des cas seulement.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+62
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : ratio supérieur à 4 pour 1 en chirurgie ; incidence de 88 contre 50 pour 100 000.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+15,
+65
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Anamnèse",
+"enonce": "Troisième espace",
+"reponse": "increase",
+"explication": "Troisième espace : jusqu'à 87 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+15
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive",
+"reponse": "increase",
+"explication": "Échographie positive : Se 91 %, Sp 85 % (Bignotti 2015) ; LR+ 2,77 et LR− 0,16 (Xu 2015).",
+"donnee": {
+"lr_positif": 2.77,
+"lr_negatif": 0.16,
+"sensibilite": "91 %",
+"specificite": "85 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+66,
+67
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Imagerie",
+"enonce": "IRM",
+"reponse": "neutral",
+"explication": "IRM : Se 90 %, Sp 100 % (Bignotti 2015), mais Sp 68 % (Xu 2015).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "90 %",
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+66,
+67
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Imagerie",
+"enonce": "« Névrome » à l'imagerie chez l'asymptomatique",
+"reponse": "neutral",
+"explication": "« Névrome » à l'imagerie chez l'asymptomatique : 30 % de 70 volontaires à l'IRM (Zanetti 1997), 33 % (Bencardino 2000), 54 % à l'échographie (Symeonidis 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+68,
+69,
+70
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-171-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 171,
+"nom": "Névrome de Morton"
+},
+"type": "Anamnèse",
+"enonce": "Diagnostic clinique global",
+"reponse": "increase",
+"explication": "Diagnostic clinique global : confirmé à l'histologie dans 97,5 % des cas opérés (Franco 2023) ; Se 0,94, Sp 0,33 (Claassen 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "0,94",
+"specificite": "0,33",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+71,
+72
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 171"
+},
+{
+"id": "MSK-186-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Anamnèse",
+"enonce": "Deuxième métatarsien",
+"reponse": "increase",
+"explication": "Deuxième métatarsien : 68 % ; troisième : 27 % ; quatrième : 3 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+73,
+74
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186"
+},
+{
+"id": "MSK-186-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : ratio de 5 pour 1.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+74,
+75
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186"
+},
+{
+"id": "MSK-186-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Facteurs démographiques",
+"enonce": "Adolescente de 11 à 17 ans",
+"reponse": "increase",
+"explication": "Adolescente de 11 à 17 ans",
+"contexte_puce": "↑ Adolescente de 11 à 17 ans ; ↔ adulte : formes décrites jusqu'à 45 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+76,
+77
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186"
+},
+{
+"id": "MSK-186-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Facteurs démographiques",
+"enonce": "Adolescente de 11 à 17 ans (adulte)",
+"reponse": "neutral",
+"explication": "Adulte : formes décrites jusqu'à 45 ans.",
+"contexte_puce": "↑ Adolescente de 11 à 17 ans ; ↔ adulte : formes décrites jusqu'à 45 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+76,
+77
+],
+"difficulte": 3,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-186-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte unilatérale",
+"reponse": "neutral",
+"explication": "Atteinte unilatérale : bilatérale dans 6,6 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+73
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186"
+},
+{
+"id": "MSK-186-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Anamnèse",
+"enonce": "Métatarsien le plus long",
+"reponse": "increase",
+"explication": "Métatarsien le plus long : atteint dans 85 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+74
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186"
+},
+{
+"id": "MSK-186-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie précoce normale",
+"reponse": "neutral",
+"explication": "Radiographie précoce normale : stade I visible à l'IRM ; élargissement de l'interligne 3 à 6 semaines après le début.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+77,
+74
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186"
+},
+{
+"id": "MSK-186-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 186,
+"nom": "Maladie de Freiberg"
+},
+"type": "Anamnèse",
+"enonce": "Tête métatarsienne aplatie des deux côtés",
+"reponse": "neutral",
+"explication": "Tête métatarsienne aplatie des deux côtés : variante chez 10 % de 72 pieds normaux.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+74
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 186"
+},
+{
+"id": "MSK-168-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Anamnèse",
+"enonce": "Lésion de Lisfranc ancienne",
+"reponse": "increase",
+"explication": "Lésion de Lisfranc ancienne : arthrose radiographique dans 72,1 % et symptomatique dans 54,1 % des cas à 10,9 ans (n = 61).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+79
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-168-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent de fracture du pied",
+"reponse": "increase",
+"explication": "Antécédent de fracture du pied : OR 2,06",
+"contexte_puce": "↑ Antécédent de fracture du pied : OR 2,06 ; ↔ antécédent d'entorse : OR 0,80, non significatif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.06,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+78
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-168-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent d'entorse",
+"reponse": "neutral",
+"explication": "Antécédent d'entorse : OR 0,80, non significatif.",
+"contexte_puce": "↑ Antécédent de fracture du pied : OR 2,06 ; ↔ antécédent d'entorse : OR 0,80, non significatif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.8,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+78
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-168-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Facteurs de risque",
+"enonce": "Obésité",
+"reponse": "increase",
+"explication": "Obésité : OR 5,13 pour l'arthrose symptomatique du pied (Johnston County, n = 864).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 5.13,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+80
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-168-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Évolution temporelle",
+"enonce": "Pied plat progressif",
+"reponse": "increase",
+"explication": "Pied plat progressif : OR 6,62 en TDM en charge.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 6.62,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+81
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-168-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Anamnèse",
+"enonce": "Douleur dorsale du médio-pied",
+"reponse": "increase",
+"explication": "Douleur dorsale du médio-pied : OR 2,54 pour l'atteinte médiale et centrale combinée.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.54,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+82
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-168-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Anamnèse",
+"enonce": "Modèle clinique (âge, sexe, IMC, indice de voûte)",
+"reponse": "neutral",
+"explication": "Modèle clinique (âge, sexe, IMC, indice de voûte) : Se 29,9 %, Sp 87,5 %, LR+ 2,4 et LR− 0,80 calculés.",
+"donnee": {
+"lr_positif": 2.4,
+"lr_negatif": 0.8,
+"sensibilite": "29,9 %",
+"specificite": "87,5 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+83
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-168-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Anamnèse",
+"enonce": "Talons hauts, arthrose digitale nodale",
+"reponse": "neutral",
+"explication": "Talons hauts, arthrose digitale nodale : non associés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+78
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-168-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 168,
+"nom": "Arthrose du médio-pied"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie de face seule normale",
+"reponse": "neutral",
+"explication": "Radiographie de face seule normale : elle détecte 14,5 à 77,2 % des cas selon l'articulation.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+84
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 168"
+},
+{
+"id": "MSK-184-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Anamnèse",
+"enonce": "Premier bilan rassurant",
+"reponse": "neutral",
+"explication": "Premier bilan rassurant : diagnostic manqué dans 20 à 40 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+88,
+89
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Examen physique",
+"enonce": "Charge axiale sur pied en flexion plantaire, sport",
+"reponse": "increase",
+"explication": "Charge axiale sur pied en flexion plantaire, sport : 69 % de 87 lésions subtiles (Haraguchi 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+90
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Anamnèse",
+"enonce": "Fractures de plusieurs métatarsiens",
+"reponse": "increase",
+"explication": "Fractures de plusieurs métatarsiens : doivent faire suspecter une lésion de Lisfranc.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+91
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie sans charge normale",
+"reponse": "neutral",
+"explication": "Radiographie sans charge normale : Se 24 à 50 % par rapport à la TDM dans les séries antérieures, 76 % chez Ponkilainen 2020.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "24 à 50 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+92
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie en charge positive",
+"reponse": "increase",
+"explication": "Radiographie en charge positive : Se 64,7 %, Sp 94 %, LR+ 10,8",
+"contexte_puce": "↑ Radiographie en charge positive : Se 64,7 %, Sp 94 %, LR+ 10,8 ; ↔ normale : LR− 0,38, calculés (Kennelly 2019, n = 117).",
+"donnee": {
+"lr_positif": 10.8,
+"lr_negatif": null,
+"sensibilite": "64,7 %",
+"specificite": "94 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+93,
+94
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie en charge normale",
+"reponse": "neutral",
+"explication": "Normale : LR− 0,38, calculés (Kennelly 2019, n = 117).",
+"contexte_puce": "↑ Radiographie en charge positive : Se 64,7 %, Sp 94 %, LR+ 10,8 ; ↔ normale : LR− 0,38, calculés (Kennelly 2019, n = 117).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.38,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+93,
+94
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-184-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Anamnèse",
+"enonce": "Diastasis C1–M2 ≥ 2,1 mm par rapport au côté sain",
+"reponse": "increase",
+"explication": "Diastasis C1–M2 ≥ 2,1 mm par rapport au côté sain : très spécifique (Rikken 2022, n = 47).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+95
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Anamnèse",
+"enonce": "Fleck sign absent",
+"reponse": "neutral",
+"explication": "Fleck sign absent : présent dans 26 % des lésions subtiles (Haraguchi 2019), contre environ 90 % dans une revue de 2006.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+90,
+96
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Imagerie",
+"enonce": "TDM positive",
+"reponse": "increase",
+"explication": "TDM positive : Se 76,1 %, Sp 85,3 % ; Se 65,4 % pour les lésions non déplacées.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "76,1 %",
+"specificite": "85,3 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+93
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-184-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 184,
+"nom": "Lésion de Lisfranc"
+},
+"type": "Imagerie",
+"enonce": "Rupture du ligament plantaire C1–M2M3 à l'IRM",
+"reponse": "increase",
+"explication": "Rupture du ligament plantaire C1–M2M3 à l'IRM : Se 94 %, Sp 75 % pour l'instabilité (Raikin 2009, 21 pieds).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "94 %",
+"specificite": "75 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+97
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 184"
+},
+{
+"id": "MSK-178-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle d'Ottawa du médio-pied négative",
+"reponse": "increase",
+"explication": "Règle d'Ottawa du médio-pied négative : LR− 0,08 ; Se 99,0 %, Sp médiane 37,8 % (Bachmann 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.08,
+"sensibilite": "99,0 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+100,
+101
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-178-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle d'Ottawa pour l'avant-pied",
+"reponse": "neutral",
+"explication": "Règle d'Ottawa pour l'avant-pied : elle ne couvre ni les têtes métatarsiennes ni les orteils.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+102
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-178-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Anamnèse",
+"enonce": "Mécanisme d'écrasement",
+"reponse": "decrease",
+"explication": "Mécanisme d'écrasement : syndrome des loges du pied dans 14 % des écrasements isolés (23 sur 162) et 18 % avec lésion de l'avant-pied (Thakur 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+103
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-178-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Anamnèse",
+"enonce": "Fracture ouverte, fractures multiples",
+"reponse": "decrease",
+"explication": "Fracture ouverte, fractures multiples : OR 2,38 et 2,33 pour une fasciotomie (Laverdière 2022, n = 70 525).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.38,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+104
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-178-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Anamnèse",
+"enonce": "Fracture du calcanéus associée",
+"reponse": "neutral",
+"explication": "Fracture du calcanéus associée : syndrome des loges dans environ 10 % des cas (Myerson 1993), 3,8 % (Park 2018) ou 1 % (Thakur 2012).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+105,
+103,
+106
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-178-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Anamnèse",
+"enonce": "Douleur disproportionnée ou à l'étirement passif",
+"reponse": "decrease",
+"explication": "Douleur disproportionnée ou à l'étirement passif : Sp 97 %",
+"contexte_puce": "↓ Douleur disproportionnée ou à l'étirement passif : Sp 97 % ; ↔ absente : Se 19 % (données de la jambe).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "97 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+107
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-178-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Anamnèse",
+"enonce": "Douleur disproportionnée ou à l'étirement passif : absente",
+"reponse": "neutral",
+"explication": "Absente : Se 19 % (données de la jambe).",
+"contexte_puce": "↓ Douleur disproportionnée ou à l'étirement passif : Sp 97 % ; ↔ absente : Se 19 % (données de la jambe).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "19 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+107
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-178-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Anamnèse",
+"enonce": "Pression différentielle < 30 mmHg pendant plus de 2 h",
+"reponse": "decrease",
+"explication": "Pression différentielle < 30 mmHg pendant plus de 2 h : Se 94 %, Sp 98 % (jambe) ; seuil de 20 mmHg proposé pour le pied.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "94 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+108,
+109
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-178-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 178,
+"nom": "Contusion ou écrasement du pied"
+},
+"type": "Examen physique",
+"enonce": "Ecchymose plantaire",
+"reponse": "decrease",
+"explication": "Ecchymose plantaire : évoque une lésion de Lisfranc, sans Se ni Sp.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+99
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 178"
+},
+{
+"id": "MSK-180-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle d'Ottawa du médio-pied négative",
+"reponse": "decrease",
+"explication": "Règle d'Ottawa du médio-pied négative : LR− 0,08.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.08,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+100
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-180-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Ottawa en Asie",
+"reponse": "neutral",
+"explication": "Ottawa en Asie : Se 98,4 %, Sp 26,3 % (Jia 2025, n = 602), mais Se 90 % à Singapour.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "98,4 %",
+"specificite": "26,3 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+110
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-180-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Cinquième métatarsien",
+"reponse": "increase",
+"explication": "Cinquième métatarsien : 59,6 % des fractures métatarsiennes et 81,3 % des fractures d'un seul métatarsien (Herterich 2023, n = 642).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+111
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-180-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Zone 1 de la base du 5ᵉ",
+"reponse": "increase",
+"explication": "Zone 1 de la base du 5ᵉ : environ 93 % ; zone 2 : 4 % ; zone 3 : 3 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+112
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-180-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive sur un 5ᵉ métatarsien sensible",
+"reponse": "increase",
+"explication": "Échographie positive sur un 5ᵉ métatarsien sensible : Se 97,1 %, Sp 100 %",
+"contexte_puce": "↑ Échographie positive sur un 5ᵉ métatarsien sensible : Se 97,1 %, Sp 100 % ; ↓ négative : LR− 0,03 (Yesilaras 2014, n = 84).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "97,1 %",
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+113
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-180-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive sur un 5ᵉ métatarsien sensible : négative",
+"reponse": "decrease",
+"explication": "Négative : LR− 0,03 (Yesilaras 2014, n = 84).",
+"contexte_puce": "↑ Échographie positive sur un 5ᵉ métatarsien sensible : Se 97,1 %, Sp 100 % ; ↓ négative : LR− 0,03 (Yesilaras 2014, n = 84).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.03,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+113
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-180-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive sur les métatarsiens",
+"reponse": "increase",
+"explication": "Échographie positive sur les métatarsiens : Se 93 %, Sp 89 %, LR+ 8,5 et LR− 0,08 calculés (Kozaci 2017)",
+"contexte_puce": "↑ Échographie positive sur les métatarsiens : Se 93 %, Sp 89 %, LR+ 8,5 et LR− 0,08 calculés (Kozaci 2017) ; ↔ naviculaire : Se 40 %.",
+"donnee": {
+"lr_positif": 8.5,
+"lr_negatif": 0.08,
+"sensibilite": "93 %",
+"specificite": "89 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+114,
+102
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-180-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive sur les métatarsiens (naviculaire)",
+"reponse": "neutral",
+"explication": "Naviculaire : Se 40 %.",
+"contexte_puce": "↑ Échographie positive sur les métatarsiens : Se 93 %, Sp 89 %, LR+ 8,5 et LR− 0,08 calculés (Kozaci 2017) ; ↔ naviculaire : Se 40 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "40 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+114,
+102
+],
+"difficulte": 3,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-180-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Anamnèse",
+"enonce": "Fracture du pied hors base du 5ᵉ après inversion de cheville",
+"reponse": "decrease",
+"explication": "Fracture du pied hors base du 5ᵉ après inversion de cheville : aucune sur 243 patients radiographiés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+115
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-180-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 180,
+"nom": "Fracture du pied (métatarsiens, base du 5ᵉ, orteils)"
+},
+"type": "Évolution temporelle",
+"enonce": "Début sans traumatisme, varus de l'arrière-pied, metatarsus adductus",
+"reponse": "increase",
+"explication": "Début sans traumatisme, varus de l'arrière-pied, metatarsus adductus : orientent vers une fracture de zone 3 (Grün 2025, 45 fractures).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+116
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 180"
+},
+{
+"id": "MSK-181-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Deuxième ou troisième métatarsien",
+"reponse": "increase",
+"explication": "Deuxième ou troisième métatarsien : un tiers des cas chacun (Finestone 2011, recrues).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+119
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Recrue militaire",
+"reponse": "increase",
+"explication": "Recrue militaire : lésion de stress osseux chez 5 à 10 % dans les 2 à 3 premiers mois ; risque plus de 3 fois supérieur chez la femme.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+120,
+121
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Facteurs de risque",
+"enonce": "Triade de la sportive",
+"reponse": "increase",
+"explication": "Triade de la sportive : risque multiplié par 2,5 avec une composante et 4,7 avec deux ou plus.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+122
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Oligoménorrhée chez la coureuse",
+"reponse": "increase",
+"explication": "Oligoménorrhée chez la coureuse : risque multiplié par 6.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+123
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Danseuse de ballet",
+"reponse": "increase",
+"explication": "Danseuse de ballet : base du 2ᵉ métatarsien (O'Malley 1996, 64 fractures).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+124
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Voûte haute",
+"reponse": "increase",
+"explication": "Voûte haute : risque relatif 0,75 par unité d'indice de voûte pour le 2ᵉ métatarsien (Dixon 2019, n = 1 065).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+125
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Premier métatarsien court",
+"reponse": "neutral",
+"explication": "Premier métatarsien court : non associé.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+126
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie initiale normale",
+"reponse": "neutral",
+"explication": "Radiographie initiale normale : positive dans 34 % des cas chez la danseuse ; Se précoce d'environ 15 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+124,
+127
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive à radiographie normale",
+"reponse": "increase",
+"explication": "Échographie positive à radiographie normale : Se 83 %, Sp 76 %, LR+ 3,45, LR− 0,22 (Banal 2009, 41 pieds).",
+"force": "faible",
+"donnee": {
+"lr_positif": 3.45,
+"lr_negatif": 0.22,
+"sensibilite": "83 %",
+"specificite": "76 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+128
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-181-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 181,
+"nom": "Fracture de stress métatarsienne"
+},
+"type": "Anamnèse",
+"enonce": "Douleur aux ultrasons thérapeutiques",
+"reponse": "neutral",
+"explication": "Douleur aux ultrasons thérapeutiques : LR+ 2,1, LR− 0,3 ; diapason : aucune étude propre au métatarsien.",
+"donnee": {
+"lr_positif": 2.1,
+"lr_negatif": 0.3,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+129,
+130
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 181"
+},
+{
+"id": "MSK-182-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+"type": "Anamnèse",
+"enonce": "Sprint, haies, sauts",
+"reponse": "increase",
+"explication": "Sprint, haies, sauts : 15 % des fractures de stress en athlétisme (Bennell 1996) et 35 % (Brukner 1996).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+134,
+135
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 182"
+},
+{
+"id": "MSK-182-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+"type": "Examen physique",
+"enonce": "(incertain) Sensibilité du « N spot »",
+"reponse": "increase",
+"explication": "(incertain) Sensibilité du « N spot » : présente chez 81 % des patients (Torg) et 96 % des adolescents (Mehta 2023) ; spécificité inconnue.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+133,
+136
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 182"
+},
+{
+"id": "MSK-182-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+"type": "Anamnèse",
+"enonce": "Symptômes anciens sans diagnostic",
+"reponse": "neutral",
+"explication": "Symptômes anciens sans diagnostic : délai moyen de 7,2 mois (Torg 1982).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+137
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 182"
+},
+{
+"id": "MSK-182-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie normale",
+"reponse": "neutral",
+"explication": "Radiographie normale : Se d'environ 33 % ; trait visible chez 9 % des adolescents.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+133,
+136
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 182"
+},
+{
+"id": "MSK-182-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+"type": "Anamnèse",
+"enonce": "Scintigraphie négative",
+"reponse": "decrease",
+"explication": "Scintigraphie négative : Se rapportée de 100 %, sans spécificité.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+133
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 182"
+},
+{
+"id": "MSK-182-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+"type": "Imagerie",
+"enonce": "TDM contre IRM",
+"reponse": "neutral",
+"explication": "TDM contre IRM : TDM diagnostique dans 100 % des cas contre 71 % (Saxena 2017) ; œdème à l'IRM dans 98 %, trait visible dans 44 % à l'IRM et 75 % à la TDM (Mehta 2023).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+138,
+136
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 182"
+},
+{
+"id": "MSK-182-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 182,
+"nom": "Fracture de stress du naviculaire"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent de lésion de stress osseux",
+"reponse": "increase",
+"explication": "Antécédent de lésion de stress osseux : 35 % des adolescents.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+136
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 182"
+},
+{
+"id": "MSK-183-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 183,
+"nom": "Fracture de stress du calcanéus"
+},
+"type": "Anamnèse",
+"enonce": "Recrue militaire",
+"reponse": "increase",
+"explication": "Recrue militaire : 2,6 pour 10 000 personnes-années (Sormaala 2006) ; 28 % des fractures de stress dans une série ancienne, bilatérale dans 27 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+140,
+141
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 183"
+},
+{
+"id": "MSK-183-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 183,
+"nom": "Fracture de stress du calcanéus"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge, taille, poids, IMC, condition physique",
+"reponse": "neutral",
+"explication": "Âge, taille, poids, IMC, condition physique : non associés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+140
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 183"
+},
+{
+"id": "MSK-183-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 183,
+"nom": "Fracture de stress du calcanéus"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie normale",
+"reponse": "neutral",
+"explication": "Radiographie normale : lésion visible dans 15 % des cas ; ligne de sclérose vers 2 à 3 semaines.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+140,
+141
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 183"
+},
+{
+"id": "MSK-183-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 183,
+"nom": "Fracture de stress du calcanéus"
+},
+"type": "Imagerie",
+"enonce": "IRM positive",
+"reponse": "increase",
+"explication": "IRM positive : examen préféré ; trait de fracture visible dans 12 % des lésions (Niva 2007).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+2,
+142
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 183"
+},
+{
+"id": "MSK-183-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 183,
+"nom": "Fracture de stress du calcanéus"
+},
+"type": "Anamnèse",
+"enonce": "Lésion isolée",
+"reponse": "neutral",
+"explication": "Lésion isolée : autre lésion de stress du tarse dans 22 cas sur 34.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+140
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 183"
+},
+{
+"id": "MSK-183-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 183,
+"nom": "Fracture de stress du calcanéus"
+},
+"type": "Tests spécifiques",
+"enonce": "Test du windlass positif",
+"reponse": "decrease",
+"explication": "Test du windlass positif : Sp 1,00 pour la fasciite plantaire.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "1,00",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+2
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 183"
+},
+{
+"id": "MSK-174-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge de 10 à 14 ans",
+"reponse": "increase",
+"explication": "Âge de 10 à 14 ans : pic d'incidence ; 12,7 ans pour la forme calcanéo-naviculaire, 13,9 ans pour la talo-calcanéenne.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+144
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe",
+"reponse": "neutral",
+"explication": "Sexe : non associé (Park 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+143
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte unilatérale",
+"reponse": "neutral",
+"explication": "Atteinte unilatérale : bilatérale dans 50 à 60 % des séries occidentales, 18,9 % au Japon (Matsui 2026).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+145,
+146
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Anamnèse",
+"enonce": "Absence de spasme des fibulaires",
+"reponse": "neutral",
+"explication": "Absence de spasme des fibulaires : présent dans 2 coalitions talo-calcanéennes sur 22.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+147
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Anamnèse",
+"enonce": "Pied non plat",
+"reponse": "neutral",
+"explication": "Pied non plat : arrière-pied neutre ou en varus possible.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+148,
+149
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe du C",
+"reponse": "increase",
+"explication": "Signe du C : Se 49 %, Sp 91 %, LR+ 5,44, LR− 0,56 (Taniguchi 2003) ; Se 86,6 %, Sp 93,3 % à l'origine (Lateur 1994).",
+"donnee": {
+"lr_positif": 5.44,
+"lr_negatif": 0.56,
+"sensibilite": "49 %",
+"specificite": "91 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+150,
+151
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe du C incomplet",
+"reponse": "neutral",
+"explication": "Signe du C incomplet : présent dans 45 % des pieds plats souples (Moraleda 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+152
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Anamnèse",
+"enonce": "Facette moyenne absente",
+"reponse": "increase",
+"explication": "Facette moyenne absente : Se 75 %, Sp 98 %, LR+ 37,5 calculé (Liu 2003).",
+"donnee": {
+"lr_positif": 37.5,
+"lr_negatif": null,
+"sensibilite": "75 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+153
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe du nez de fourmilier",
+"reponse": "increase",
+"explication": "Signe du nez de fourmilier : 30 pieds sur 30 contre 0 témoin sur 125 (Oestreich 1987).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+154
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive",
+"reponse": "increase",
+"explication": "Échographie positive : Se 96 %, Sp 98 %, LR+ 48",
+"contexte_puce": "↑ Échographie positive : Se 96 %, Sp 98 %, LR+ 48 ; ↓ négative : LR− 0,04, calculés (Li 2025) ; IRM : Se 95,8 %, Sp 94,3 %.",
+"donnee": {
+"lr_positif": 48.0,
+"lr_negatif": null,
+"sensibilite": "96 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+155,
+156
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-174-11",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Anamnèse",
+"enonce": "Échographie négative",
+"reponse": "decrease",
+"explication": "Négative : LR− 0,04, calculés (Li 2025) ; IRM : Se 95,8 %, Sp 94,3 %.",
+"contexte_puce": "↑ Échographie positive : Se 96 %, Sp 98 %, LR+ 48 ; ↓ négative : LR− 0,04, calculés (Li 2025) ; IRM : Se 95,8 %, Sp 94,3 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.04,
+"sensibilite": "95,8 %",
+"specificite": "94,3 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+155,
+156
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-174-12",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 174,
+"nom": "Synostose (coalition) du tarse"
+},
+"type": "Imagerie",
+"enonce": "TDM normale",
+"reponse": "neutral",
+"explication": "TDM normale : 55 % seulement des coalitions non osseuses identifiées sur cadavre.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+143
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 174"
+},
+{
+"id": "MSK-175-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Anamnèse",
+"enonce": "Ossicule visible",
+"reponse": "neutral",
+"explication": "Ossicule visible : douloureux chez 20,8 % des enfants porteurs ; moins de 1 % opérés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+158,
+159
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175"
+},
+{
+"id": "MSK-175-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Anamnèse",
+"enonce": "Type II",
+"reponse": "increase",
+"explication": "Type II : plus de 70 % des formes symptomatiques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+157
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175"
+},
+{
+"id": "MSK-175-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "neutral",
+"explication": "Sexe féminin : 17,9 % contre 12,3 % chez l'enfant (Sasaki 2024), 22,0 % contre 21,1 % en méta-analyse, mais plus de 80 % des opérés.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+157,
+158,
+160
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175"
+},
+{
+"id": "MSK-175-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte unilatérale",
+"reponse": "neutral",
+"explication": "Atteinte unilatérale : bilatérale dans 50 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+157
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175"
+},
+{
+"id": "MSK-175-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Anamnèse",
+"enonce": "Pied plat",
+"reponse": "neutral",
+"explication": "Pied plat : présent chez 31 à 38,6 %, sans différence d'alignement avec le côté sain (Kara 2021).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+161,
+160,
+162
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175"
+},
+{
+"id": "MSK-175-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Imagerie",
+"enonce": "Œdème osseux à l'IRM",
+"reponse": "increase",
+"explication": "Œdème osseux à l'IRM : douleur médiale chez 59 patients sur 59 avec œdème contre 25,6 % sans (Kamel 2020).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+163
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175"
+},
+{
+"id": "MSK-175-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Anamnèse",
+"enonce": "Scintigraphie négative",
+"reponse": "decrease",
+"explication": "Scintigraphie négative : Se 100 %",
+"contexte_puce": "↓ Scintigraphie négative : Se 100 % ; ↔ positive : Sp 50 %, LR+ 2,0 calculé (Chiu 2000).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+164
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175"
+},
+{
+"id": "MSK-175-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 175,
+"nom": "Os naviculaire accessoire douloureux"
+},
+"type": "Anamnèse",
+"enonce": "Scintigraphie positive",
+"reponse": "neutral",
+"explication": "Positive : Sp 50 %, LR+ 2,0 calculé (Chiu 2000).",
+"contexte_puce": "↓ Scintigraphie négative : Se 100 % ; ↔ positive : Sp 50 %, LR+ 2,0 calculé (Chiu 2000).",
+"donnee": {
+"lr_positif": 2.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "50 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+164
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 175",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-176-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge d'apparition de l'apophyse",
+"reponse": "increase",
+"explication": "Âge d'apparition de l'apophyse : vers 10 ans chez la fille et 12 ans chez le garçon, fusion environ 2 ans plus tard.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+167
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176"
+},
+{
+"id": "MSK-176-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Facteurs de risque",
+"enonce": "Sport de course ou de saut, douleur à l'éversion résistée",
+"reponse": "increase",
+"explication": "Sport de course ou de saut, douleur à l'éversion résistée : descriptifs.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+166,
+168
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176"
+},
+{
+"id": "MSK-176-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Anamnèse",
+"enonce": "Ligne claire parallèle à la diaphyse",
+"reponse": "increase",
+"explication": "Ligne claire parallèle à la diaphyse : apophyse",
+"contexte_puce": "↑ Ligne claire parallèle à la diaphyse : apophyse ; ↓ trait transversal : fracture.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+169,
+170
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176"
+},
+{
+"id": "MSK-176-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Anamnèse",
+"enonce": "Trait transversal",
+"reponse": "decrease",
+"explication": "Trait transversal : fracture.",
+"contexte_puce": "↑ Ligne claire parallèle à la diaphyse : apophyse ; ↓ trait transversal : fracture.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+169,
+170
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-176-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Anamnèse",
+"enonce": "Apophyse visible à la radiographie",
+"reponse": "neutral",
+"explication": "Apophyse visible à la radiographie : 37,3 % des radiographies pédiatriques du pied (Riccardi 2011).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+171
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176"
+},
+{
+"id": "MSK-176-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Anamnèse",
+"enonce": "Diagnostic initial de fracture",
+"reponse": "neutral",
+"explication": "Diagnostic initial de fracture : 47,1 % étaient une apophyse normale.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+171
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176"
+},
+{
+"id": "MSK-176-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Anamnèse",
+"enonce": "Apophyse fragmentée",
+"reponse": "neutral",
+"explication": "Apophyse fragmentée : plusieurs noyaux d'ossification dans 31,2 % des cas en TDM (Blythe 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+172
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176"
+},
+{
+"id": "MSK-176-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 176,
+"nom": "Maladie d'Iselin"
+},
+"type": "Anamnèse",
+"enonce": "Os vesalianum",
+"reponse": "decrease",
+"explication": "Os vesalianum : 1 radiographie sur 1 000, bords lisses et sclérosés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+169
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 176"
+},
+{
+"id": "MSK-177-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Examen physique",
+"enonce": "Palpation de l'apophyse douloureuse",
+"reponse": "increase",
+"explication": "Palpation de l'apophyse douloureuse : Se 80 %, Sp 100 % (Perhamre 2013, 30 cas et 15 témoins).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "80 %",
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+173
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177"
+},
+{
+"id": "MSK-177-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Anamnèse",
+"enonce": "Équin bilatéral du gastrocnémien",
+"reponse": "increase",
+"explication": "Équin bilatéral du gastrocnémien : 26 cas sur 28 contre 8 témoins sur 28, LR+ 3,25 et LR− 0,1 calculés Données discordantes : OR 0,93 chez Scharfbillig 2011.",
+"contexte_puce": "↑ Équin bilatéral du gastrocnémien : 26 cas sur 28 contre 8 témoins sur 28, LR+ 3,25 et LR− 0,1 calculés ; ↔ (discordant) OR 0,93 chez Scharfbillig 2011.",
+"donnee": {
+"lr_positif": 3.25,
+"lr_negatif": 0.1,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+174,
+175
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177",
+"discordant": true
+},
+{
+"id": "MSK-177-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "neutral",
+"explication": "Sexe masculin : 71,4 % de garçons (Fares 2023, 1 362 cas), non associé chez Martinelli 2019.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+176,
+177
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177"
+},
+{
+"id": "MSK-177-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Anamnèse",
+"enonce": "IMC",
+"reponse": "neutral",
+"explication": "IMC : 19,18 contre 18,07 (Rodríguez-Sanz 2018), non associé chez Martinelli 2019.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+177,
+178
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177"
+},
+{
+"id": "MSK-177-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Anamnèse",
+"enonce": "Sclérose de l'apophyse",
+"reponse": "neutral",
+"explication": "Sclérose de l'apophyse : trait normal (Volpon 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+179
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177"
+},
+{
+"id": "MSK-177-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Imagerie",
+"enonce": "Hypersignal T2 du noyau à l'IRM",
+"reponse": "neutral",
+"explication": "Hypersignal T2 du noyau à l'IRM : 30 % des enfants normaux (Rossi 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+180
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177"
+},
+{
+"id": "MSK-177-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie systématique",
+"reponse": "neutral",
+"explication": "Radiographie systématique : diagnostic modifié une fois sur 71 (Kose 2010).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+181
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177"
+},
+{
+"id": "MSK-177-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 177,
+"nom": "Maladie de Sever (pied)"
+},
+"type": "Anamnèse",
+"enonce": "Charge d'entraînement",
+"reponse": "neutral",
+"explication": "Charge d'entraînement : séances moins nombreuses et plus courtes associées au risque (Martinelli 2019).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+177
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 177"
+},
+{
+"id": "MSK-179-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte de la 1ʳᵉ métatarso-phalangienne",
+"reponse": "increase",
+"explication": "Atteinte de la 1ʳᵉ métatarso-phalangienne : 73 % des gouttes au cours de l'évolution (Stewart 2016, n = 2 464) ; 43 à 76 % à la première crise.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+182
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "1ʳᵉ métatarso-phalangienne sensible",
+"reponse": "increase",
+"explication": "1ʳᵉ métatarso-phalangienne sensible : OR 2,82 ; tophus : OR 7,29 (SUGAR, n = 983).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.82,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+183
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Monoarthrite de la 1ʳᵉ métatarso-phalangienne jugée goutteuse par le généraliste",
+"reponse": "neutral",
+"explication": "Monoarthrite de la 1ʳᵉ métatarso-phalangienne jugée goutteuse par le généraliste : Se 99 %, Sp 8 %, LR+ 1,08 calculé ; valeur prédictive positive de 79 % (n = 159).",
+"donnee": {
+"lr_positif": 1.08,
+"lr_negatif": null,
+"sensibilite": "99 %",
+"specificite": "8 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+184
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "decrease",
+"explication": "Sexe féminin : articulation atteinte chez 31,8 % des femmes contre 68,6 % des hommes goutteux.",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+182
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Uricémie normale pendant la crise",
+"reponse": "neutral",
+"explication": "Uricémie normale pendant la crise : 11 à 49 % des crises ; pic la veille de la crise (Finnikin 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+185,
+186
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Double contour à l'échographie",
+"reponse": "increase",
+"explication": "Double contour à l'échographie : LR+ 6,2, LR− 0,30 calculés.",
+"donnee": {
+"lr_positif": 6.2,
+"lr_negatif": 0.3,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+184
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Imagerie",
+"enonce": "Scanner double énergie négatif en goutte débutante",
+"reponse": "neutral",
+"explication": "Scanner double énergie négatif en goutte débutante : Se 51 à 53 % sur la 1ʳᵉ métatarso-phalangienne symptomatique, Sp 100 % (Lee 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "51 à 53 %",
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+187
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Diurétique de l'anse",
+"reponse": "increase",
+"explication": "Diurétique de l'anse : OR 2,64 ; thiazidique : 1,70 (Bruderer 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.64,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+188
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Alcool ≥ 50 g/j",
+"reponse": "increase",
+"explication": "Alcool ≥ 50 g/j : risque relatif 2,53 ; bière : 1,49 par portion",
+"contexte_puce": "↑ Alcool ≥ 50 g/j : risque relatif 2,53 ; bière : 1,49 par portion ; ↔ vin : 1,04 (Choi 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+189
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-179-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Alcool ≥ 50 g/j (vin)",
+"reponse": "neutral",
+"explication": "Vin : 1,04 (Choi 2004).",
+"contexte_puce": "↑ Alcool ≥ 50 g/j : risque relatif 2,53 ; bière : 1,49 par portion ; ↔ vin : 1,04 (Choi 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+189
+],
+"difficulte": 3,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-179-11",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 179,
+"nom": "Goutte de la 1ʳᵉ métatarso-phalangienne (podagre)"
+},
+"type": "Anamnèse",
+"enonce": "Arthrite à pyrophosphate",
+"reponse": "decrease",
+"explication": "Arthrite à pyrophosphate : podagre rare.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+190
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 179"
+},
+{
+"id": "MSK-185-01",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Neuropathie périphérique",
+"reponse": "increase",
+"explication": "Neuropathie périphérique : 91,7 % d'une cohorte multicentrique.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+193
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-02",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Greffe rein-pancréas",
+"reponse": "increase",
+"explication": "Greffe rein-pancréas : 3,2 à 9 % ; 18,4 % contre 11,2 % après greffe rénale seule.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+194,
+195,
+196
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-03",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Artériopathie",
+"reponse": "neutral",
+"explication": "Artériopathie : jugée protectrice, mais 31,6 % des formes aiguës sont neuro-ischémiques (Meloni 2022).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+197
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-04",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "(incertain) Peau plus chaude de plus de 2 °C",
+"reponse": "increase",
+"explication": "(incertain) Peau plus chaude de plus de 2 °C : aucune étude de précision (IWGDF 2023) ; 20 % des sites plantaires dépassent 2,2 °C sans conséquence chez le neuropathe.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+191,
+198
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-05",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Premier diagnostic",
+"reponse": "neutral",
+"explication": "Premier diagnostic : erroné ou tardif dans 53,2 % des cas, délai moyen de 86,9 jours (Korst 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+199
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-06",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie normale",
+"reponse": "neutral",
+"explication": "Radiographie normale : normale dans 79 % des os avec œdème à l'IRM.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+200
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-07",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Scintigraphie osseuse positive",
+"reponse": "neutral",
+"explication": "Scintigraphie osseuse positive : Se 89 %, Sp 58 %, LR+ 2,1",
+"contexte_puce": "↔ Scintigraphie osseuse positive : Se 89 %, Sp 58 %, LR+ 2,1 ; ↓ négative : LR− 0,19, calculés (n = 148).",
+"donnee": {
+"lr_positif": 2.1,
+"lr_negatif": null,
+"sensibilite": "89 %",
+"specificite": "58 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+201
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-08",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Scintigraphie osseuse négative",
+"reponse": "decrease",
+"explication": "Négative : LR− 0,19, calculés (n = 148).",
+"contexte_puce": "↔ Scintigraphie osseuse positive : Se 89 %, Sp 58 %, LR+ 2,1 ; ↓ négative : LR− 0,19, calculés (n = 148).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.19,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+201
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-185-09",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Ulcère avec contact osseux",
+"reponse": "decrease",
+"explication": "Ulcère avec contact osseux : LR+ 5,1 pour l'ostéite ; absence de contact osseux : LR− 0,16.",
+"donnee": {
+"lr_positif": 5.1,
+"lr_negatif": 0.16,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+202
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-10",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Siège au médio-pied",
+"reponse": "increase",
+"explication": "Siège au médio-pied : 63,8 à 72,1 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+193
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-11",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Imagerie",
+"enonce": "Kystes sous-chondraux à l'IRM",
+"reponse": "increase",
+"explication": "Kystes sous-chondraux à l'IRM : 76 % sans infection contre 2 %",
+"contexte_puce": "↑ Kystes sous-chondraux à l'IRM : 76 % sans infection contre 2 % ; ↓ trajet fistuleux : 84 % des pieds infectés contre 0 % (Ahmadi 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+203
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+},
+{
+"id": "MSK-185-12",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Anamnèse",
+"enonce": "Trajet fistuleux",
+"reponse": "decrease",
+"explication": "Trajet fistuleux : 84 % des pieds infectés contre 0 % (Ahmadi 2006).",
+"contexte_puce": "↑ Kystes sous-chondraux à l'IRM : 76 % sans infection contre 2 % ; ↓ trajet fistuleux : 84 % des pieds infectés contre 0 % (Ahmadi 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+203
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-185-13",
+"domaine": "MSK",
+"region": "Pied",
+"diagnostic": {
+"no": 185,
+"nom": "Pied de Charcot"
+},
+"type": "Laboratoire",
+"enonce": "VS et CRP",
+"reponse": "neutral",
+"explication": "VS et CRP : à ne pas utiliser pour confirmer ou exclure.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+191
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 9, diagnostic 185"
+}
+],
+"references": {
+"1": {
+"n": 1,
+"texte": "Identifiant unique;"
+},
+"2": {
+"n": 2,
+"texte": "Région anatomique;"
+},
+"3": {
+"n": 3,
+"texte": "Diagnostic cible;"
+},
+"4": {
+"n": 4,
+"texte": "Catégorie de l'élément : démographie/contexte, facteur de risque, symptôme/anamnèse, signe d'examen physique, test spécifique ou combinaison;"
+},
+"5": {
+"n": 5,
+"texte": "Énoncé bref et autonome;"
+},
+"6": {
+"n": 6,
+"texte": "Réponse : AUGMENTE, NEUTRE ou DIMINUE;"
+},
+"7": {
+"n": 7,
+"texte": "Explication clinique concise;"
+},
+"8": {
+"n": 8,
+"texte": "Livrables attendus"
+},
+"9": {
+"n": 9,
+"texte": "Consigne finale"
+},
+"10": {
+"n": 10,
+"texte": "Niveau de difficulté : facile, intermédiaire ou avancé;"
+},
+"11": {
+"n": 11,
+"texte": "Niveau de confiance ou limite méthodologique, si pertinent."
+},
+"12": {
+"n": 12,
+"texte": "Plantar Fasciitis. Young C. Annals of Internal Medicine. 2012;156(1 Pt 1):ITC1-1, ITC1-2, ITC1-3, ITC1-4, ITC1-5, ITC1-6, ITC1-7, ITC1-8, ITC1-9, ITC1-10, ITC1-11, ITC1-12, ITC1-13, ITC1-14, ITC1-15; quiz ITC1-16. doi:10.7326/0003-4819-156-1-201201030-01001.",
+"doi": "10.7326/0003-4819-156-1-201201030-01001"
+},
+"13": {
+"n": 13,
+"texte": "The Relationship of Pes Planus and Calcaneal Spur to Plantar Heel Pain. Prichasuk S, Subhadrabandhu T. Clinical Orthopaedics and Related Research. 1994;(306):192-6."
+},
+"14": {
+"n": 14,
+"texte": "The Association Between Refractory Plantar Fasciitis and Insertional Achilles Tendinopathy and Peripheral Spondyloarthritis: A Report of Human Leukocyte Antigen B-27 Investigation and Treatment Outcome. Jung YH, Suh JS, Choi JY. International Orthopaedics. 2024;48(3):711-718. doi:10.1007/s00264-023-06019-x.",
+"doi": "10.1007/s00264-023-06019-x"
+},
+"15": {
+"n": 15,
+"texte": "Common Painful Foot and Ankle Conditions: A Review. Cooper MT. JAMA. 2023;330(23):2285-2294. doi:10.1001/jama.2023.23906.",
+"doi": "10.1001/jama.2023.23906"
+},
+"17": {
+"n": 17,
+"texte": "Hallux valgus in a random population in Spain and its impact on quality of life and functionality. González-Martín C, Alonso-Tajes F, Pérez-García S, et al. Rheumatology International. 2017;37(11):1899-1907. doi:10.1007/s00296-017-3817-z.",
+"doi": "10.1007/s00296-017-3817-z"
+},
+"19": {
+"n": 19,
+"texte": "Prevalence and associations of hallux valgus in a primary care population. Roddy E, Zhang W, Doherty M. Arthritis and Rheumatism. 2008;59(6):857-62. doi:10.1002/art.23709.",
+"doi": "10.1002/art.23709"
+},
+"20": {
+"n": 20,
+"texte": "Determinants and associated factors for hallux valgus: a systematic review and meta-analysis. Zhang G, Ma Y, Zhang S. BMC Musculoskeletal Disorders. 2026;27(1):647. doi:10.1186/s12891-026-10054-1.",
+"doi": "10.1186/s12891-026-10054-1"
+},
+"21": {
+"n": 21,
+"texte": "Epidemiology of Shoe Wearing Patterns Over Time in Older Women: Associations With Foot Pain and Hallux Valgus. Menz HB, Roddy E, Marshall M, et al. The Journals of Gerontology. Series A, Biological Sciences and Medical Sciences. 2016;71(12):1682-1687. doi:10.1093/gerona/glw004.",
+"doi": "10.1093/gerona/glw004"
+},
+"22": {
+"n": 22,
+"texte": "Hallux Valgus, By Nature or Nurture? A Twin Study. Munteanu SE, Menz HB, Wark JD, et al. Arthritis Care & Research. 2017;69(9):1421-1428. doi:10.1002/acr.23154.",
+"doi": "10.1002/acr.23154"
+},
+"23": {
+"n": 23,
+"texte": "High Heritability of Hallux Valgus and Lesser Toe Deformities in Adult Men and Women. Hannan MT, Menz HB, Jordan JM, et al. Arthritis Care & Research. 2013;65(9):1515-21. doi:10.1002/acr.22040.",
+"doi": "10.1002/acr.22040"
+},
+"24": {
+"n": 24,
+"texte": "Factors Associated With Hallux Valgus in a Population-Based Study of Older Women and Men: The MOBILIZE Boston Study. Nguyen US, Hillstrom HJ, Li W, et al. Osteoarthritis and Cartilage. 2010;18(1):41-6. doi:10.1016/j.joca.2009.07.008.",
+"doi": "10.1016/j.joca.2009.07.008"
+},
+"25": {
+"n": 25,
+"texte": "Characteristics Associated With Hallux Valgus in a Population‐Based Foot Study of Older Adults. Dufour AB, Casey VA, Golightly YM, Hannan MT. Arthritis Care & Research. 2014;66(12):1880-6. doi:10.1002/acr.22391.",
+"doi": "10.1002/acr.22391"
+},
+"26": {
+"n": 26,
+"texte": "Foot Musculoskeletal Disorders, Pain, and Foot‐Related Functional Limitation in Older Persons. Badlissi F, Dunn JE, Link CL, et al. Journal of the American Geriatrics Society. 2005;53(6):1029-33. doi:10.1111/j.1532-5415.2005.53315.x.",
+"doi": "10.1111/j.1532-5415.2005.53315.x"
+},
+"31": {
+"n": 31,
+"texte": "Cumulative Industrial Trauma as an Etiology of Seven Common Disorders in the Foot and Ankle: What Is the Evidence?. Guyton GP, Mann RA, Kreiger LE, Mendel T, Kahan J. Foot & Ankle International. 2000;21(12):1047-56. doi:10.1177/107110070002101213.",
+"doi": "10.1177/107110070002101213"
+},
+"32": {
+"n": 32,
+"texte": "Radiographic Morphologic Characteristics of Bunionette Deformity. Shimobayashi M, Tanaka Y, Taniguchi A, et al. Foot & Ankle International. 2016;37(3):320-6. doi:10.1177/1071100715614923.",
+"doi": "10.1177/1071100715614923"
+},
+"33": {
+"n": 33,
+"texte": "Muscle and Joint Factors Associated With Forefoot Deformity in the Diabetic Neuropathic Foot. Cheuy VA, Hastings MK, Commean PK, Mueller MJ. Foot & Ankle International. 2016;37(5):514-21. doi:10.1177/1071100715621544.",
+"doi": "10.1177/1071100715621544"
+},
+"34": {
+"n": 34,
+"texte": "Role of Intrinsic Muscle Atrophy in the Etiology of Claw Toe Deformity in Diabetic Neuropathy May Not Be as Straightforward as Widely Believed. Bus SA, Maas M, Michels RP, Levi M. Diabetes Care. 2009;32(6):1063-7. doi:10.2337/dc08-2174.",
+"doi": "10.2337/dc08-2174"
+},
+"38": {
+"n": 38,
+"texte": "Development of a Diagnostic Rule for Identifying Radiographic Osteoarthritis in People With First Metatarsophalangeal Joint Pain. Zammit GV, Munteanu SE, Menz HB. Osteoarthritis and Cartilage. 2011;19(8):939-45. doi:10.1016/j.joca.2011.04.010.",
+"doi": "10.1016/j.joca.2011.04.010"
+},
+"39": {
+"n": 39,
+"texte": "Hallux Rigidus: Demographics, Etiology, and Radiographic Assessment. Coughlin MJ, Shurnas PS. Foot & Ankle International. 2003;24(10):731-43. doi:10.1177/107110070302401002.",
+"doi": "10.1177/107110070302401002"
+},
+"40": {
+"n": 40,
+"texte": "Clinical and Radiological Outcomes of Hallux Rigidus Treated With Cheilectomy and a Moberg-Akin Osteotomy. Maes DJA, De Vil J, Kalmar AF, Lootens T. Foot & Ankle International. 2020;41(3):294-302. doi:10.1177/1071100719897264.",
+"doi": "10.1177/1071100719897264"
+},
+"41": {
+"n": 41,
+"texte": "Radiological Prevalence of Degenerative Arthritis of the First Metatarsophalangeal Joint. Howard N, Cowen C, Caplan M, Platt S. Foot & Ankle International. 2014;35(12):1277-81. doi:10.1177/1071100714554451.",
+"doi": "10.1177/1071100714554451"
+},
+"42": {
+"n": 42,
+"texte": "Incidence and Risk Factors for Turf Toe Injuries in Intercollegiate Football. George E, Harris AH, Dragoo JL, Hunt KJ. Foot & Ankle International. 2014;35(2):108-15. doi:10.1177/1071100713514038.",
+"doi": "10.1177/1071100713514038"
+},
+"43": {
+"n": 43,
+"texte": "Current Concepts Review: Traumatic Disorders of the First Metatarsophalangeal Joint and Sesamoid Complex. Kadakia AR, Molloy A. Foot & Ankle International. 2011;32(8):834-9. doi:10.3113/FAI.2011.0834.",
+"doi": "10.3113/FAI.2011.0834"
+},
+"44": {
+"n": 44,
+"texte": "Injuries to the great toe. York PJ, Wydra FB, Hunt KJ. Current Reviews in Musculoskeletal Medicine. 2017;10(1):104-112. doi:10.1007/s12178-017-9390-y.",
+"doi": "10.1007/s12178-017-9390-y"
+},
+"45": {
+"n": 45,
+"texte": "Morphometric Analysis of the Plantar Plate Apparatus of the First Metatarsophalangeal Joint. Prieskorn D, Graves SC, Smith RA. Foot & Ankle. 1993;14(4):204-7. doi:10.1177/107110079301400405.",
+"doi": "10.1177/107110079301400405"
+},
+"46": {
+"n": 46,
+"texte": "The magnetic resonance imaging appearance of the normal anatomy and injury pattern of capsuloligamentous complex of the first metatarsophalangeal joint. Qian ZH, Wang JE, Bai RJ, et al. Acta Radiologica (Stockholm, Sweden : 1987). 2025;66(3):328-340. doi:10.1177/02841851241309522.",
+"doi": "10.1177/02841851241309522"
+},
+"49": {
+"n": 49,
+"texte": "Epidemiology and Imaging Appearance of the Normal Bi-/multipartite Hallux Sesamoid Bone. Favinger JL, Porrino JA, Richardson ML, et al. Foot & Ankle International. 2015;36(2):197-202. doi:10.1177/1071100714552484.",
+"doi": "10.1177/1071100714552484"
+},
+"50": {
+"n": 50,
+"texte": "Effect of Bipartite Hallucal Sesamoid on Hallux Valgus Surgery. Park YH, Jeong CD, Choi GW, Kim HJ. Foot & Ankle International. 2017;38(6):634-640. doi:10.1177/1071100717700454.",
+"doi": "10.1177/1071100717700454"
+},
+"51": {
+"n": 51,
+"texte": "Incidence of Accessory Ossicles and Sesamoid Bones in the Feet: A Radiographic Study of the Turkish Subjects. Coskun N, Yuksel M, Cevener M, et al. Surgical and Radiologic Anatomy : SRA. 2009;31(1):19-24. doi:10.1007/s00276-008-0383-9.",
+"doi": "10.1007/s00276-008-0383-9"
+},
+"52": {
+"n": 52,
+"texte": "Diastasis of Bipartite Sesamoids of the First Metatarsophalangeal Joint. Rodeo SA, Warren RF, O'Brien SJ, et al. Foot & Ankle. 1993;14(8):425-34. doi:10.1177/107110079301400801.",
+"doi": "10.1177/107110079301400801"
+},
+"53": {
+"n": 53,
+"texte": "Stress Fractures of the Medial Great Toe Sesamoids in Athletes. Biedert R, Hintermann B. Foot & Ankle International. 2003;24(2):137-41. doi:10.1177/107110070302400207.",
+"doi": "10.1177/107110070302400207"
+},
+"54": {
+"n": 54,
+"texte": "Hallux Sesamoid Injury Characteristics in Young Athletes Presented to the Sports Medicine Clinic. Sugimoto D, Gearhart MG, Kobelski GP, et al. Clinical Journal of Sport Medicine : Official Journal of the Canadian Academy of Sport Medicine. 2022;32(3):e276-e280. doi:10.1097/JSM.0000000000000902.",
+"doi": "10.1097/JSM.0000000000000902"
+},
+"55": {
+"n": 55,
+"texte": "Bone Scintigraphy in the Assessment of the Hallucal Sesamoids. Chisin R, Peyser A, Milgrom C. Foot & Ankle International. 1995;16(5):291-4. doi:10.1177/107110079501600508.",
+"doi": "10.1177/107110079501600508"
+},
+"56": {
+"n": 56,
+"texte": "Clinical Examination of Plantar Plate Abnormality. Klein EE, Weil L, Weil LS, Coughlin MJ, Knight J. Foot & Ankle International. 2013;34(6):800-4. doi:10.1177/1071100712471825.",
+"doi": "10.1177/1071100712471825"
+},
+"57": {
+"n": 57,
+"texte": "Association of Abnormal Metatarsal Parabola With Second Metatarsophalangeal Joint Plantar Plate Pathology. Fleischer AE, Klein EE, Ahmad M, et al. Foot & Ankle International. 2017;38(3):289-297. doi:10.1177/1071100716674671.",
+"doi": "10.1177/1071100716674671"
+},
+"58": {
+"n": 58,
+"texte": "Diagnostic Accuracy of Magnetic Resonance Imaging (MRI) Versus Dynamic Ultrasound for Plantar Plate Injuries: A Systematic Review and Meta-Analysis. Albright RH, Brooks BM, Chingre M, et al. European Journal of Radiology. 2022;152:110315. doi:10.1016/j.ejrad.2022.110315.",
+"doi": "10.1016/j.ejrad.2022.110315"
+},
+"59": {
+"n": 59,
+"texte": "Sonographic and MRI Evaluation of the Plantar Plate: A Prospective Study. Gregg J, Silberstein M, Schneider T, Marks P. European Radiology. 2006;16(12):2661-9. doi:10.1007/s00330-006-0345-8.",
+"doi": "10.1007/s00330-006-0345-8"
+},
+"62": {
+"n": 62,
+"texte": "Diagnostic Accuracy of Clinical Tests for Morton's Neuroma Compared With Ultrasonography. Mahadevan D, Venkatesan M, Bhatt R, Bhatia M. The Journal of Foot and Ankle Surgery : Official Publication of the American College of Foot and Ankle Surgeons. 2015 Jul-Aug;54(4):549-53. doi:10.1053/j.jfas.2014.09.021.",
+"doi": "10.1053/j.jfas.2014.09.021"
+},
+"63": {
+"n": 63,
+"texte": "Radiographic Analysis of Feet With and Without Morton’s Neuroma. Naraghi R, Bremner A, Slack-Smith L, Bryant A. Foot & Ankle International. 2017;38(3):310-317. doi:10.1177/1071100716674998.",
+"doi": "10.1177/1071100716674998"
+},
+"64": {
+"n": 64,
+"texte": "Relationship Between Sensory Symptoms, Mulder’s Sign, and Dynamic Ultrasonographic Findings in Morton’s Neuroma. Padua L, Coraci D, Gatto DM, Glorioso D, Lodispoto F. Foot & Ankle International. 2020;41(12):1474-1479. doi:10.1177/1071100720946748.",
+"doi": "10.1177/1071100720946748"
+},
+"65": {
+"n": 65,
+"texte": "Treatments for Morton's neuroma. Barry G Matthews, Colin E Thomson, Michael P Harding, et al. Cochrane Database of Systematic Reviews. 2024. doi:10.1002/14651858.cd014687.pub2.",
+"doi": "10.1002/14651858.cd014687.pub2"
+},
+"66": {
+"n": 66,
+"texte": "Ultrasound Versus Magnetic Resonance Imaging for Morton Neuroma: Systematic Review and Meta-Analysis. Bignotti B, Signori A, Sormani MP, et al. European Radiology. 2015;25(8):2254-62. doi:10.1007/s00330-015-3633-3.",
+"doi": "10.1007/s00330-015-3633-3"
+},
+"67": {
+"n": 67,
+"texte": "The Accuracy of Ultrasonography and Magnetic Resonance Imaging for the Diagnosis of Morton's Neuroma: A Systematic Review. Xu Z, Duan X, Yu X, et al. Clinical Radiology. 2015;70(4):351-8. doi:10.1016/j.crad.2014.10.017.",
+"doi": "10.1016/j.crad.2014.10.017"
+},
+"68": {
+"n": 68,
+"texte": "Morton Neuroma and Fluid in the Intermetatarsal Bursae on MR Images of 70 Asymptomatic Volunteers. Zanetti M, Strehle JK, Zollinger H, Hodler J. Radiology. 1997;203(2):516-20. doi:10.1148/radiology.203.2.9114115.",
+"doi": "10.1148/radiology.203.2.9114115"
+},
+"69": {
+"n": 69,
+"texte": "Morton's Neuroma: Is It Always Symptomatic?. Bencardino J, Rosenberg ZS, Beltran J, Liu X, Marty-Delfaut E. AJR. American Journal of Roentgenology. 2000;175(3):649-53. doi:10.2214/ajr.175.3.1750649.",
+"doi": "10.2214/ajr.175.3.1750649"
+},
+"70": {
+"n": 70,
+"texte": "Prevalence of Interdigital Nerve Enlargements in an Asymptomatic Population. Symeonidis PD, Iselin LD, Simmons N, et al. Foot & Ankle International. 2012;33(7):543-7. doi:10.3113/FAI.2012.0543.",
+"doi": "10.3113/FAI.2012.0543"
+},
+"71": {
+"n": 71,
+"texte": "Comparing Clinical Examination and Radiological Evaluation in the Preoperative Diagnosis and Location of Symptomatic Interdigital (Morton's) Neuroma. Franco H, Pagliaro T, Sparti C, Walsh HJ. The Journal of Foot and Ankle Surgery : Official Publication of the American College of Foot and Ankle Surgeons. 2023 Sep-Oct;62(5):883-887. doi:10.1053/j.jfas.2023.06.002.",
+"doi": "10.1053/j.jfas.2023.06.002"
+},
+"72": {
+"n": 72,
+"texte": "Role of MRI in Detection of Morton’s Neuroma. Claassen L, Bock K, Ettinger M, et al. Foot & Ankle International. 2014;35(10):1002-5. doi:10.1177/1071100714540888.",
+"doi": "10.1177/1071100714540888"
+},
+"73": {
+"n": 73,
+"texte": "Metatarsophalangeal Joint Osteoarthritis of the Lesser Toes and Freiberg Disease: A Contemporary Review. Ottofaro TD, Dingler CM, Hower CC, Jones SM, Bariteau JT. Foot & Ankle International. 2026;47(3):324-332. doi:10.1177/10711007251401532.",
+"doi": "10.1177/10711007251401532"
+},
+"74": {
+"n": 74,
+"texte": "Current Concepts Review: Freiberg's Disease. Michael R. Carmont, Robin J. Rees, Christopher M. Blundell. Foot & Ankle International. 2009."
+},
+"75": {
+"n": 75,
+"texte": "Long-term Follow-up of Dorsal Wedge Osteotomy for Pediatric Freiberg Disease. Pereira BS, Frada T, Freitas D, et al. Foot & Ankle International. 2016;37(1):90-5. doi:10.1177/1071100715598602.",
+"doi": "10.1177/1071100715598602"
+},
+"76": {
+"n": 76,
+"texte": "Foot Alignment Characteristics in Patients With Freiberg's Disease. Fukagawa R, Yoshimura I, Hagio T, et al. Journal of Orthopaedic Science : Official Journal of the Japanese Orthopaedic Association. 2025;:S0949-2658(25)00189-7. doi:10.1016/j.jos.2025.06.007.",
+"doi": "10.1016/j.jos.2025.06.007"
+},
+"77": {
+"n": 77,
+"texte": "Functional Outcomes of Local Pedicle Graft Interpositional Arthroplasty in Adults With Severe Freiberg’s Disease. Abdul W, Hickey B, Perera A. Foot & Ankle International. 2018;39(11):1290-1300. doi:10.1177/1071100718786494.",
+"doi": "10.1177/1071100718786494"
+},
+"78": {
+"n": 78,
+"texte": "The epidemiology of symptomatic midfoot osteoarthritis in community-dwelling older adults: cross-sectional findings from the Clinical Assessment Study of the Foot. Thomas MJ, Peat G, Rathod T, et al. Arthritis Research & Therapy. 2015;17:178. doi:10.1186/s13075-015-0693-3.",
+"doi": "10.1186/s13075-015-0693-3"
+},
+"79": {
+"n": 79,
+"texte": "Clinical Outcomes and Development of Symptomatic Osteoarthritis 2 to 24 Years After Surgical Treatment of Tarsometatarsal Joint Complex Injuries. Dubois-Ferrière V, Lübbeke A, Chowdhary A, et al. The Journal of Bone and Joint Surgery. American Volume. 2016;98(9):713-20. doi:10.2106/JBJS.15.00623.",
+"doi": "10.2106/JBJS.15.00623"
+},
+"80": {
+"n": 80,
+"texte": "Foot Osteoarthritis Frequency and Associated Factors in a Community‐Based Cross‐Sectional Study of White and African American Adults. Flowers P, Nelson AE, Hannan MT, et al. Arthritis Care & Research. 2021;73(12):1784-1788. doi:10.1002/acr.24427.",
+"doi": "10.1002/acr.24427"
+},
+"81": {
+"n": 81,
+"texte": "Risk Factors for Midfoot Arthritis Associated With Medical History by Weight Bearing Computed Tomography. Kim KC, Schmidt E, de Carvalho KAM, et al. The Journal of Foot and Ankle Surgery : Official Publication of the American College of Foot and Ankle Surgeons. 2024 Sep-Oct;63(5):532-536. doi:10.1053/j.jfas.2024.04.008.",
+"doi": "10.1053/j.jfas.2024.04.008"
+},
+"82": {
+"n": 82,
+"texte": "Midfoot Osteoarthritis: Potential Phenotypes and Their Associations With Demographic, Symptomatic and Clinical Characteristics. Arnold JB, Marshall M, Thomas MJ, et al. Osteoarthritis and Cartilage. 2019;27(4):659-666. doi:10.1016/j.joca.2018.12.022.",
+"doi": "10.1016/j.joca.2018.12.022"
+},
+"83": {
+"n": 83,
+"texte": "Clinical Diagnosis of Symptomatic Midfoot Osteoarthritis: Cross-Sectional Findings From the Clinical Assessment Study of the Foot. Thomas MJ, Roddy E, Rathod T, et al. Osteoarthritis and Cartilage. 2015;23(12):2094-2101. doi:10.1016/j.joca.2015.06.010.",
+"doi": "10.1016/j.joca.2015.06.010"
+},
+"84": {
+"n": 84,
+"texte": "Identification of Radiographic Foot Osteoarthritis: Sensitivity of Views and Features Using the La Trobe Radiographic Atlas. Menz HB, Munteanu SE, Marshall M, et al. Arthritis Care & Research. 2022;74(8):1369-1373. doi:10.1002/acr.24582.",
+"doi": "10.1002/acr.24582"
+},
+"88": {
+"n": 88,
+"texte": "Lisfranc injuries. Clare MP. Current Reviews in Musculoskeletal Medicine. 2017;10(1):81-85. doi:10.1007/s12178-017-9387-6.",
+"doi": "10.1007/s12178-017-9387-6"
+},
+"89": {
+"n": 89,
+"texte": "Rates of Displacement and Patient-Reported Outcomes Following Conservative Treatment of Minimally Displaced Lisfranc Injury. Chen P, Ng N, Snowden G, et al. Foot & Ankle International. 2020;41(4):387-391. doi:10.1177/1071100719895482.",
+"doi": "10.1177/1071100719895482"
+},
+"90": {
+"n": 90,
+"texte": "Anatomical Pathology of Subtle Lisfranc Injury. Haraguchi N, Ota K, Ozeki T, Nishizaka S. Scientific Reports. 2019;9(1):14831. doi:10.1038/s41598-019-51358-8.",
+"doi": "10.1038/s41598-019-51358-8"
+},
+"91": {
+"n": 91,
+"texte": "Common Foot Fractures. Silver S, Williams E, Plunkett ML. American Family Physician. 2024;109(2):119-129."
+},
+"92": {
+"n": 92,
+"texte": "Inter- and intraobserver reliability of non-weight-bearing foot radiographs compared with CT in Lisfranc injuries. Ponkilainen VT, Partio N, Salonen EE, et al. Archives of Orthopaedic and Trauma Surgery. 2020;140(10):1423-1429. doi:10.1007/s00402-020-03391-w.",
+"doi": "10.1007/s00402-020-03391-w"
+},
+"93": {
+"n": 93,
+"texte": "Deep Learning Algorithms Improve the Detection of Subtle Lisfranc Malalignments on Weightbearing Radiographs. Ashkani-Esfahani S, Mojahed-Yazdi R, Bhimani R, et al. Foot & Ankle International. 2022;43(8):1118-1126. doi:10.1177/10711007221093574.",
+"doi": "10.1177/10711007221093574"
+},
+"94": {
+"n": 94,
+"texte": "Utility of Weight-Bearing Radiographs Compared to Computed Tomography Scan for the Diagnosis of Subtle Lisfranc Injuries in the Emergency Setting. Kennelly H, Klaassen K, Heitman D, Youngberg R, Platt SR. Emergency Medicine Australasia : EMA. 2019;31(5):741-744. doi:10.1111/1742-6723.13237.",
+"doi": "10.1111/1742-6723.13237"
+},
+"95": {
+"n": 95,
+"texte": "Novel Values in the Radiographic Diagnosis of Ligamentous Lisfranc Injuries. Rikken QGH, Hagemeijer NC, De Bruijn J, et al. Injury. 2022;53(6):2326-2332. doi:10.1016/j.injury.2022.02.044.",
+"doi": "10.1016/j.injury.2022.02.044"
+},
+"96": {
+"n": 96,
+"texte": "Current Concepts Review: Lisfranc Injuries. Desmond EA, Chou LB. Foot & Ankle International. 2006;27(8):653-60. doi:10.1177/107110070602700819.",
+"doi": "10.1177/107110070602700819"
+},
+"97": {
+"n": 97,
+"texte": "Prediction of Midfoot Instability in the Subtle Lisfranc Injury. Comparison of Magnetic Resonance Imaging With Intraoperative Findings. Raikin SM, Elias I, Dheer S, et al. The Journal of Bone and Joint Surgery. American Volume. 2009;91(4):892-9. doi:10.2106/JBJS.H.01075.",
+"doi": "10.2106/JBJS.H.01075"
+},
+"99": {
+"n": 99,
+"texte": "Plantar Ecchymosis Sign: A Clinical Aid to Diagnosis of Occult Lisfranc Tarsometatarsal Injuries. Ross G, Cronin R, Hauzenblas J, Juliano P. Journal of Orthopaedic Trauma. 1996;10(2):119-22. doi:10.1097/00005131-199602000-00008.",
+"doi": "10.1097/00005131-199602000-00008"
+},
+"100": {
+"n": 100,
+"texte": "Accuracy of Ottawa Ankle Rules to Exclude Fractures of the Ankle and Mid-Foot: Systematic Review. Bachmann LM, Kolb E, Koller MT, Steurer J, ter Riet G. BMJ (Clinical Research Ed.). 2003;326(7386):417. doi:10.1136/bmj.326.7386.417.",
+"doi": "10.1136/bmj.326.7386.417"
+},
+"101": {
+"n": 101,
+"texte": "Acute Ankle and Foot Injuries. Jesse M. Pines, Fernanda Bellolio. Chapter 10."
+},
+"102": {
+"n": 102,
+"texte": "ACR Appropriateness Criteria® Acute Trauma to the Foot. Expert Panel on Musculoskeletal Imaging, Gorbachova T, Chang EY, et al. Journal of the American College of Radiology : JACR. 2020;17(5S):S2-S11. doi:10.1016/j.jacr.2020.01.019.",
+"doi": "10.1016/j.jacr.2020.01.019"
+},
+"103": {
+"n": 103,
+"texte": "Injury Patterns Causing Isolated Foot Compartment Syndrome. Thakur NA, McDonnell M, Got CJ, et al. The Journal of Bone and Joint Surgery. American Volume. 2012;94(11):1030-5. doi:10.2106/JBJS.J.02000.",
+"doi": "10.2106/JBJS.J.02000"
+},
+"104": {
+"n": 104,
+"texte": "Predictors of Foot Acute Compartment Syndrome: Big Data Analysis. Laverdiere C, Montreuil J, Bouklouch Y, et al. The Journal of Foot and Ankle Surgery : Official Publication of the American College of Foot and Ankle Surgeons. 2023 Jan-Feb;62(1):27-30. doi:10.1053/j.jfas.2022.03.006.",
+"doi": "10.1053/j.jfas.2022.03.006"
+},
+"105": {
+"n": 105,
+"texte": "Compartment Syndromes of the Foot After Calcaneal Fractures. Myerson M, Manoli A. Clinical Orthopaedics and Related Research. 1993;(290):142-50."
+},
+"106": {
+"n": 106,
+"texte": "Predictors of Compartment Syndrome of the Foot After Fracture of the Calcaneus. Park YH, Lee JW, Hong JY, Choi GW, Kim HJ. The Bone & Joint Journal. 2018;100-B(3):303-308. doi:10.1302/0301-620X.100B3.BJJ-2017-0715.R2.",
+"doi": "10.1302/0301-620X.100B3.BJJ-2017-0715.R2"
+},
+"107": {
+"n": 107,
+"texte": "Acute Compartment Syndrome. Aurelia Bihari, Christopher Del Balso, Abdel‐Rahman Lawend. Chapter 73."
+},
+"108": {
+"n": 108,
+"texte": "Diagnostic Modalities for Acute Compartment Syndrome of the Extremities: A Systematic Review. Mortensen SJ, Vora MM, Mohamadi A, et al. JAMA Surgery. 2019;154(7):655-665. doi:10.1001/jamasurg.2019.1050.",
+"doi": "10.1001/jamasurg.2019.1050"
+},
+"109": {
+"n": 109,
+"texte": "Compartment Syndrome of the Foot: An Evidence-Based Review. Lutter C, Schöffl V, Hotfiel T, Simon M, Maffulli N. The Journal of Foot and Ankle Surgery : Official Publication of the American College of Foot and Ankle Surgeons. 2019;58(4):632-640. doi:10.1053/j.jfas.2018.12.026.",
+"doi": "10.1053/j.jfas.2018.12.026"
+},
+"110": {
+"n": 110,
+"texte": "Ottawa ankle and foot rules in China: applicability in a defensive environment. Jia CQ, Mbori NJR, Li S, et al. European Journal of Medical Research. 2025;30(1):687. doi:10.1186/s40001-025-02961-1.",
+"doi": "10.1186/s40001-025-02961-1"
+},
+"111": {
+"n": 111,
+"texte": "Acute, isolated fractures of the metatarsal bones: an epidemiologic study. Herterich V, Hofmann L, Böcker W, Polzer H, Baumbach SF. Archives of Orthopaedic and Trauma Surgery. 2023;143(4):1939-1945. doi:10.1007/s00402-022-04396-3.",
+"doi": "10.1007/s00402-022-04396-3"
+},
+"112": {
+"n": 112,
+"texte": "Effect of Weight‐Bearing in Conservative and Operative Management of Fractures of the Base of the Fifth Metatarsal Bone. Park JY, Kim HN, Hyun YS, et al. BioMed Research International. 2017;2017:1397252. doi:10.1155/2017/1397252.",
+"doi": "10.1155/2017/1397252"
+},
+"113": {
+"n": 113,
+"texte": "The Accuracy of Bedside Ultrasonography as a Diagnostic Tool for the Fifth Metatarsal Fractures. Yesilaras M, Aksay E, Atilla OD, Sever M, Kalenderer O. The American Journal of Emergency Medicine. 2014;32(2):171-4. doi:10.1016/j.ajem.2013.11.009.",
+"doi": "10.1016/j.ajem.2013.11.009"
+},
+"114": {
+"n": 114,
+"texte": "The Comparison of Radiography and Point-of-Care Ultrasonography in the Diagnosis and Management of Metatarsal Fractures. Kozaci N, Ay MO, Avci M, et al. Injury. 2017;48(2):542-547. doi:10.1016/j.injury.2016.12.018.",
+"doi": "10.1016/j.injury.2016.12.018"
+},
+"115": {
+"n": 115,
+"texte": "ACR Appropriateness Criteria® Acute Trauma to the Ankle. Smith SE, Chang EY, Ha AS, et al. Journal of the American College of Radiology : JACR. 2020;17(11S):S355-S366. doi:10.1016/j.jacr.2020.09.014.",
+"doi": "10.1016/j.jacr.2020.09.014"
+},
+"116": {
+"n": 116,
+"texte": "Foot Malalignment and Proximal Fifth Metatarsal Fractures. Grün W, Luo E, Pozzessere E, et al. Foot & Ankle International. 2025;46(5):561-570. doi:10.1177/10711007251322141.",
+"doi": "10.1177/10711007251322141"
+},
+"119": {
+"n": 119,
+"texte": "Epidemiology of Metatarsal Stress Fractures Versus Tibial and Femoral Stress Fractures During Elite Training. Finestone A, Milgrom C, Wolf O, et al. Foot & Ankle International. 2011;32(1):16-20. doi:10.3113/FAI.2011.0016.",
+"doi": "10.3113/FAI.2011.0016"
+},
+"120": {
+"n": 120,
+"texte": "Bone stress injuries. Hoenig T, Ackerman KE, Beck BR, et al. Nature Reviews. Disease Primers. 2022;8(1):26. doi:10.1038/s41572-022-00352-y.",
+"doi": "10.1038/s41572-022-00352-y"
+},
+"121": {
+"n": 121,
+"texte": "Bone Stress Injuries: Diagnosis and Management. Schroeder JD, Trigg SD, Capo Dosal GE. American Family Physician. 2024;110(6):592-600."
+},
+"122": {
+"n": 122,
+"texte": "Risk factors of stress fractures due to the female athlete triad: Differences in teens and twenties. Nose-Ogura S, Yoshino O, Dohi M, et al. Scandinavian Journal of Medicine & Science in Sports. 2019;29(10):1501-1510. doi:10.1111/sms.13464.",
+"doi": "10.1111/sms.13464"
+},
+"123": {
+"n": 123,
+"texte": "Bone Health in Athletes. Goolsby MA, Boniquit N. Sports Health. 2017 Mar/Apr;9(2):108-117. doi:10.1177/1941738116677732.",
+"doi": "10.1177/1941738116677732"
+},
+"124": {
+"n": 124,
+"texte": "Stress Fractures at the Base of the Second Metatarsal in Ballet Dancers. O'Malley MJ, Hamilton WG, Munyak J, DeFranco MJ. Foot & Ankle International. 1996;17(2):89-94. doi:10.1177/107110079601700206.",
+"doi": "10.1177/107110079601700206"
+},
+"125": {
+"n": 125,
+"texte": "Prospective Study of Biomechanical Risk Factors for Second and Third Metatarsal Stress Fractures in Military Recruits. Dixon S, Nunns M, House C, et al. Journal of Science and Medicine in Sport. 2019;22(2):135-139. doi:10.1016/j.jsams.2018.06.015.",
+"doi": "10.1016/j.jsams.2018.06.015"
+},
+"126": {
+"n": 126,
+"texte": "Low-Risk Stress Fractures. Boden BP, Osbahr DC, Jimenez C. The American Journal of Sports Medicine. 2001 Jan-Feb;29(1):100-11. doi:10.1177/03635465010290010201.",
+"doi": "10.1177/03635465010290010201"
+},
+"127": {
+"n": 127,
+"texte": "Nuclear Medicine for the Orthopedic Foot and Ankle Surgeon. Serino J, Kunze KN, Jacobsen SK, et al. Foot & Ankle International. 2020;41(5):612-623. doi:10.1177/1071100720910422.",
+"doi": "10.1177/1071100720910422"
+},
+"128": {
+"n": 128,
+"texte": "Sensitivity and Specificity of Ultrasonography in Early Diagnosis of Metatarsal Bone Stress Fractures: A Pilot Study of 37 Patients. Banal F, Gandjbakhch F, Foltz V, et al. The Journal of Rheumatology. 2009;36(8):1715-9. doi:10.3899/jrheum.080657.",
+"doi": "10.3899/jrheum.080657"
+},
+"129": {
+"n": 129,
+"texte": "The Ability of Clinical Tests to Diagnose Stress Fractures: A Systematic Review and Meta-Analysis. Schneiders AG, Sullivan SJ, Hendrick PA, et al. The Journal of Orthopaedic and Sports Physical Therapy. 2012;42(9):760-71. doi:10.2519/jospt.2012.4000.",
+"doi": "10.2519/jospt.2012.4000"
+},
+"130": {
+"n": 130,
+"texte": "Is There Sufficient Evidence for Tuning Fork Tests in Diagnosing Fractures? A Systematic Review. Mugunthan K, Doust J, Kurz B, Glasziou P. BMJ Open. 2014;4(8):e005238. doi:10.1136/bmjopen-2014-005238.",
+"doi": "10.1136/bmjopen-2014-005238"
+},
+"133": {
+"n": 133,
+"texte": "Navicular Stress Fractures. Gross CE, Nunley JA. Foot & Ankle International. 2015;36(9):1117-22. doi:10.1177/1071100715600495.",
+"doi": "10.1177/1071100715600495"
+},
+"134": {
+"n": 134,
+"texte": "The Incidence and Distribution of Stress Fractures in Competitive Track and Field Athletes. A Twelve-Month Prospective Study. Bennell KL, Malcolm SA, Thomas SA, Wark JD, Brukner PD. The American Journal of Sports Medicine. 1996 Mar-Apr;24(2):211-7. doi:10.1177/036354659602400217.",
+"doi": "10.1177/036354659602400217"
+},
+"135": {
+"n": 135,
+"texte": "Stress Fractures: A Review of 180 Cases. Brukner P, Bradshaw C, Khan KM, White S, Crossley K. Clinical Journal of Sport Medicine : Official Journal of the Canadian Academy of Sport Medicine. 1996;6(2):85-9."
+},
+"136": {
+"n": 136,
+"texte": "Tarsal Navicular Bone Stress Injuries: A Multicenter Case Series Investigating Clinical Presentation, Diagnostic Approach, Treatment, and Return to Sport in Adolescent Athletes. Mehta S, Zheng E, Heyworth BE, et al. The American Journal of Sports Medicine. 2023;51(8):2161-2168. doi:10.1177/03635465231170399.",
+"doi": "10.1177/03635465231170399"
+},
+"137": {
+"n": 137,
+"texte": "Management of Tarsal Navicular Stress Fractures. Torg JS, Moyer J, Gaughan JP, Boden BP. The American Journal of Sports Medicine. 2010;38(5):1048-53. doi:10.1177/0363546509355408.",
+"doi": "10.1177/0363546509355408"
+},
+"138": {
+"n": 138,
+"texte": "Management of Midfoot Fractures and Dislocations. Ahmed A, Westrick E. Current Reviews in Musculoskeletal Medicine. 2018;11(4):529-536. doi:10.1007/s12178-018-9518-8.",
+"doi": "10.1007/s12178-018-9518-8"
+},
+"140": {
+"n": 140,
+"texte": "Stress Injuries of the Calcaneus Detected With Magnetic Resonance Imaging in Military Recruits. Sormaala MJ, Niva MH, Kiuru MJ, Mattila VM, Pihlajamäki HK. The Journal of Bone and Joint Surgery. American Volume. 2006;88(10):2237-42. doi:10.2106/JBJS.E.01447.",
+"doi": "10.2106/JBJS.E.01447"
+},
+"141": {
+"n": 141,
+"texte": "Current Concepts Review: Stress Fractures of the Foot. Gehrmann RM, Renard RL. Foot & Ankle International. 2006;27(9):750-7. doi:10.1177/107110070602700919.",
+"doi": "10.1177/107110070602700919"
+},
+"142": {
+"n": 142,
+"texte": "Bone Stress Injuries of the Ankle and Foot. Niva MH, Sormaala MJ, Kiuru MJ, et al. The American Journal of Sports Medicine. 2007;35(4):643-9. doi:10.1177/0363546506295701.",
+"doi": "10.1177/0363546506295701"
+},
+"143": {
+"n": 143,
+"texte": "Racial differences in prevalence and anatomical distribution of tarsal coalition. Park JJ, Seok HG, Woo IH, Park CH. Scientific Reports. 2022;12(1):21567. doi:10.1038/s41598-022-26049-6.",
+"doi": "10.1038/s41598-022-26049-6"
+},
+"144": {
+"n": 144,
+"texte": "Incidence of Symptomatic Pediatric Tarsal Coalition in Olmsted County: A Population-Based Study. Jackson TJ, Larson AN, Mathew SE, Milbrandt TA. The Journal of Bone and Joint Surgery. American Volume. 2021;103(2):155-161. doi:10.2106/JBJS.20.00707.",
+"doi": "10.2106/JBJS.20.00707"
+},
+"145": {
+"n": 145,
+"texte": "Current Concepts Review: Tarsal Coalition. Lemley F, Berlet G, Hill K, et al. Foot & Ankle International. 2006;27(12):1163-9. doi:10.1177/107110070602701229.",
+"doi": "10.1177/107110070602701229"
+},
+"146": {
+"n": 146,
+"texte": "Distribution and Treatment Patterns of Symptomatic Tarsal Coalition in Japan: A Multicenter Retrospective Study. Matsui T, Sugimoto K, Miura K, et al. Foot & Ankle International. 2026;:10711007261480705. doi:10.1177/10711007261480705.",
+"doi": "10.1177/10711007261480705"
+},
+"147": {
+"n": 147,
+"texte": "The Relative Incidence of Tarsal Coalition. Stormont DM, Peterson HA. Clinical Orthopaedics and Related Research. 1983;(181):28-36."
+},
+"148": {
+"n": 148,
+"texte": "Tarsal Coalition. Kulik SA, Clanton TO. Foot & Ankle International. 1996;17(5):286-96. doi:10.1177/107110079601700509.",
+"doi": "10.1177/107110079601700509"
+},
+"149": {
+"n": 149,
+"texte": "Tarsal Coalition in Paediatric Patients. Docquier PL, Maldaque P, Bouchard M. Orthopaedics & Traumatology, Surgery & Research : OTSR. 2019;105(1S):S123-S131. doi:10.1016/j.otsr.2018.01.019.",
+"doi": "10.1016/j.otsr.2018.01.019"
+},
+"150": {
+"n": 150,
+"texte": "Subtalar Coalition: Diagnosis With the C Sign on Lateral Radiographs of the Ankle. Lateur LM, Van Hoe LR, Van Ghillewe KV, et al. Radiology. 1994;193(3):847-51. doi:10.1148/radiology.193.3.7972836.",
+"doi": "10.1148/radiology.193.3.7972836"
+},
+"151": {
+"n": 151,
+"texte": "C Sign for Diagnosis of Talocalcaneal Coalition. Taniguchi A, Tanaka Y, Kadono K, Takakura Y, Kurumatani N. Radiology. 2003;228(2):501-5. doi:10.1148/radiol.2282020445.",
+"doi": "10.1148/radiol.2282020445"
+},
+"152": {
+"n": 152,
+"texte": "C Sign: Talocalcaneal Coalition or Flatfoot Deformity?. Moraleda L, Gantsoudes GD, Mubarak SJ. Journal of Pediatric Orthopedics. 2014;34(8):814-9. doi:10.1097/BPO.0000000000000188.",
+"doi": "10.1097/BPO.0000000000000188"
+},
+"153": {
+"n": 153,
+"texte": "\"Absent Middle Facet\": A Sign on Unenhanced Radiography of Subtalar Joint Coalition. Liu PT, Roberts CC, Chivers FS, et al. AJR. American Journal of Roentgenology. 2003;181(6):1565-72. doi:10.2214/ajr.181.6.1811565.",
+"doi": "10.2214/ajr.181.6.1811565"
+},
+"154": {
+"n": 154,
+"texte": "The \"Anteater Nose\": A Direct Sign of Calcaneonavicular Coalition on the Lateral Radiograph. Oestreich AE, Mize WA, Crawford AH, Morgan RC. Journal of Pediatric Orthopedics. 1987 Nov-Dec;7(6):709-11."
+},
+"155": {
+"n": 155,
+"texte": "Ultrasonography or Radiography for Suspected Pediatric Talocalcaneal Coalition. Li XT, Shen XT, Wu X. Journal of Pediatric Orthopedics. 2025;:01241398-990000000-00935. doi:10.1097/BPO.0000000000003106.",
+"doi": "10.1097/BPO.0000000000003106"
+},
+"156": {
+"n": 156,
+"texte": "ACR Appropriateness Criteria® Chronic Ankle Pain: Update 2025. Expert Panel on Musculoskeletal Imaging, Schonberger A, Bartolotta RJ, et al. Journal of the American College of Radiology : JACR. 2026;:S1546-1440(26)00066-9. doi:10.1016/j.jacr.2026.02.006.",
+"doi": "10.1016/j.jacr.2026.02.006"
+},
+"157": {
+"n": 157,
+"texte": "The prevalence and anatomy of accessory navicular bone: a meta-analysis. Stolarz K, Osiowski A, Preinl M, et al. Surgical and Radiologic Anatomy : SRA. 2024;46(10):1731-1743. doi:10.1007/s00276-024-03459-x.",
+"doi": "10.1007/s00276-024-03459-x"
+},
+"158": {
+"n": 158,
+"texte": "Prevalence of accessory navicular in Japanese children: A cross-sectional study using ultrasound–Katsuragi Integrated Defense for Locomotive Syndrome in children study. Sasaki T, Teraguchi M, Mure K, et al. PloS One. 2025;20(1):e0318014. doi:10.1371/journal.pone.0318014.",
+"doi": "10.1371/journal.pone.0318014"
+},
+"159": {
+"n": 159,
+"texte": "Clinical Outcome of Surgical Treatment of the Symptomatic Accessory Navicular. Kopp FJ, Marcus RE. Foot & Ankle International. 2004;25(1):27-30. doi:10.1177/107110070402500106.",
+"doi": "10.1177/107110070402500106"
+},
+"160": {
+"n": 160,
+"texte": "Outcome of Modified Kidner Procedure with Subtalar Arthroereisis for Painful Accessory Navicular Associated with Planovalgus Deformity. Garras DN, Hansen PL, Miller AG, Raikin SM. Foot & Ankle International. 2012;33(11):934-9. doi:10.3113/FAI.2012.0934.",
+"doi": "10.3113/FAI.2012.0934"
+},
+"161": {
+"n": 161,
+"texte": "Effect of Unilateral Accessory Navicular Bone on Radiologic Parameters of Foot. Kara M, Bayram S. Foot & Ankle International. 2021;42(4):469-475. doi:10.1177/1071100720964820.",
+"doi": "10.1177/1071100720964820"
+},
+"162": {
+"n": 162,
+"texte": "Accessory Navicular Syndrome in Athlete vs General Population. Jegal H, Park YU, Kim JS, et al. Foot & Ankle International. 2016;37(8):862-7. doi:10.1177/1071100716644791.",
+"doi": "10.1177/1071100716644791"
+},
+"163": {
+"n": 163,
+"texte": "Painful Type II Os Naviculare: Introduction of a Standardized, Reproducible Classification System. Kamel SI, Belair JA, Hegazi TM, et al. Skeletal Radiology. 2020;49(12):1977-1985. doi:10.1007/s00256-020-03503-y.",
+"doi": "10.1007/s00256-020-03503-y"
+},
+"164": {
+"n": 164,
+"texte": "Symptomatic and Asymptomatic Accessory Navicular Bones: Findings of Tc-99m MDP Bone Scintigraphy. Chiu NT, Jou IM, Lee BF, et al. Clinical Radiology. 2000;55(5):353-5. doi:10.1053/crad.2000.0436.",
+"doi": "10.1053/crad.2000.0436"
+},
+"166": {
+"n": 166,
+"texte": "Iselin's Disease. Canale ST, Williams KD. Journal of Pediatric Orthopedics. 1992;12(1):90-3."
+},
+"167": {
+"n": 167,
+"texte": "Peri-epiphyseal and Overuse Injuries in Adolescent Athletes. Frush TJ, Lindenfeld TN. Sports Health. 2009;1(3):201-11. doi:10.1177/1941738109334214.",
+"doi": "10.1177/1941738109334214"
+},
+"168": {
+"n": 168,
+"texte": "Osgood-Schlatter and Sever Diseases. Yun L, Fein DM. Pediatrics in Review. 2024;45(7):422-424. doi:10.1542/pir.2023-006037.",
+"doi": "10.1542/pir.2023-006037"
+},
+"169": {
+"n": 169,
+"texte": "Jones' Fractures and Related Fractures of the Proximal Fifth Metatarsal. Lawrence SJ, Botte MJ. Foot & Ankle. 1993 Jul-Aug;14(6):358-65. doi:10.1177/107110079301400610.",
+"doi": "10.1177/107110079301400610"
+},
+"170": {
+"n": 170,
+"texte": "Imaging of Sports-Related Midfoot and Forefoot Injuries. Burge AJ, Gold SL, Potter HG. Sports Health. 2012;4(6):518-34. doi:10.1177/1941738112459489.",
+"doi": "10.1177/1941738112459489"
+},
+"171": {
+"n": 171,
+"texte": "Extremely Proximal Fractures of the Fifth Metatarsal in the Developmental Age. Riccardi G, Riccardi D, Marcarelli M, Del Regno N, Riccio V. Foot & Ankle International. 2011;32(5):S526-32. doi:10.3113/FAI.2011.0526.",
+"doi": "10.3113/FAI.2011.0526"
+},
+"172": {
+"n": 172,
+"texte": "Investigating the Ossification and Fusion of the Fifth Metatarsal Apophysis Using Computed Tomography and Plain Radiography. Blythe CS, Robertson AP, Gregory LS. Foot & Ankle International. 2026;47(3):370-377. doi:10.1177/10711007251398523.",
+"doi": "10.1177/10711007251398523"
+},
+"173": {
+"n": 173,
+"texte": "Sever's Injury: A Clinical Diagnosis. Perhamre S, Lazowska D, Papageorgiou S, et al. Journal of the American Podiatric Medical Association. 2013 Sep-Oct;103(5):361-8. doi:10.7547/1030361.",
+"doi": "10.7547/1030361"
+},
+"174": {
+"n": 174,
+"texte": "Sever's Disease: A Prospective Study of Risk Factors. Scharfbillig RW, Jones S, Scutter S. Journal of the American Podiatric Medical Association. 2011 Mar-Apr;101(2):133-45. doi:10.7547/1010133.",
+"doi": "10.7547/1010133"
+},
+"175": {
+"n": 175,
+"texte": "Static and Dynamic Plantar Pressures in Children With and Without Sever Disease: A Case-Control Study. Becerro-de-Bengoa-Vallejo R, Losa-Iglesias ME, Rodriguez-Sanz D. Physical Therapy. 2014;94(6):818-26. doi:10.2522/ptj.20120164.",
+"doi": "10.2522/ptj.20120164"
+},
+"176": {
+"n": 176,
+"texte": "Clinical and Diagnostic Characteristics of Calcaneal Apophysitis: A Systematic Review and Thematic Analysis. Fares MY, Baydoun H, Khachfe HH, et al. Journal of the American Podiatric Medical Association. 2023 Jul-Aug;113(4):22-083. doi:10.7547/22-083.",
+"doi": "10.7547/22-083"
+},
+"177": {
+"n": 177,
+"texte": "Prevalence and Associated Factors of Sever's Disease in an Athletic Population. Martinelli N, Spreafico A, Tramacere I, et al. Journal of the American Podiatric Medical Association. 2019;109(5):351-356. doi:10.7547/17-105.",
+"doi": "10.7547/17-105"
+},
+"178": {
+"n": 178,
+"texte": "Slow velocity of the center of pressure and high heel pressures may increase the risk of Sever’s disease: a case-control study. Rodríguez-Sanz D, Becerro-de-Bengoa-Vallejo R, López-López D, et al. BMC Pediatrics. 2018;18(1):357. doi:10.1186/s12887-018-1318-1.",
+"doi": "10.1186/s12887-018-1318-1"
+},
+"179": {
+"n": 179,
+"texte": "Calcaneal Apophysitis: A Quantitative Radiographic Evaluation of the Secondary Ossification Center. Volpon JB, de Carvalho Filho G. Archives of Orthopaedic and Trauma Surgery. 2002;122(6):338-41. doi:10.1007/s00402-002-0410-y.",
+"doi": "10.1007/s00402-002-0410-y"
+},
+"180": {
+"n": 180,
+"texte": "Normal Skeletal Development and Imaging Pitfalls of the Calcaneal Apophysis: MRI Features. Rossi I, Rosenberg Z, Zember J. Skeletal Radiology. 2016;45(4):483-93. doi:10.1007/s00256-015-2320-4.",
+"doi": "10.1007/s00256-015-2320-4"
+},
+"181": {
+"n": 181,
+"texte": "Do We Really Need Radiographic Assessment for the Diagnosis of Non-Specific Heel Pain (Calcaneal Apophysitis) in Children?. Kose O. Skeletal Radiology. 2010;39(4):359-61. doi:10.1007/s00256-009-0774-y.",
+"doi": "10.1007/s00256-009-0774-y"
+},
+"182": {
+"n": 182,
+"texte": "The first metatarsophalangeal joint in gout: a systematic review and meta-analysis. Stewart S, Dalbeth N, Vandal AC, Rome K. BMC Musculoskeletal Disorders. 2016;17:69. doi:10.1186/s12891-016-0919-9.",
+"doi": "10.1186/s12891-016-0919-9"
+},
+"183": {
+"n": 183,
+"texte": "Study for Updated Gout Classification Criteria: Identification of Features to Classify Gout. Taylor WJ, Fransen J, Jansen TL, et al. Arthritis Care & Research. 2015;67(9):1304-1315. doi:10.1002/acr.22585.",
+"doi": "10.1002/acr.22585"
+},
+"184": {
+"n": 184,
+"texte": "Diagnosis of Gout: A Systematic Review in Support of an American College of Physicians Clinical Practice Guideline. Newberry SJ, FitzGerald JD, Motala A, et al. Annals of Internal Medicine. 2017;166(1):27-36. doi:10.7326/M16-0462.",
+"doi": "10.7326/M16-0462"
+},
+"185": {
+"n": 185,
+"texte": "The value of ultrasound semi-quantitative scoring in the clinical evaluation of acute gouty arthritis with normal and elevated serum uric acid. Zhang L, Yang T, Ge J. Scientific Reports. 2026;:10.1038/s41598-026-62865-w. doi:10.1038/s41598-026-62865-w.",
+"doi": "10.1038/s41598-026-62865-w"
+},
+"186": {
+"n": 186,
+"texte": "Gout Flares, Serum Urate and Seasonality: A Descriptive Cohort Study. Finnikin S, Mallen CD, Roddy E. Clinical Rheumatology. 2026;45(2):1439-1448. doi:10.1007/s10067-025-07898-8.",
+"doi": "10.1007/s10067-025-07898-8"
+},
+"187": {
+"n": 187,
+"texte": "Combining Non-Contrast and Dual-Energy CT Improves Diagnosis of Early Gout. Lee SK, Jung JY, Jee WH, Lee JJ, Park SH. European Radiology. 2019;29(3):1267-1275. doi:10.1007/s00330-018-5716-4.",
+"doi": "10.1007/s00330-018-5716-4"
+},
+"188": {
+"n": 188,
+"texte": "Use of Diuretics and Risk of Incident Gout: A Population‐Based Case–Control Study. Bruderer S, Bodmer M, Jick SS, Meier CR. Arthritis & Rheumatology (Hoboken, N.J.). 2014;66(1):185-96. doi:10.1002/art.38203.",
+"doi": "10.1002/art.38203"
+},
+"189": {
+"n": 189,
+"texte": "Alcohol Intake and Risk of Incident Gout in Men: A Prospective Study. Choi HK, Atkinson K, Karlson EW, Willett W, Curhan G. Lancet (London, England). 2004;363(9417):1277-81. doi:10.1016/S0140-6736(04)16000-5.",
+"doi": "10.1016/S0140-6736(04)16000-5"
+},
+"190": {
+"n": 190,
+"texte": "Calcium Pyrophosphate Deposition Disease. Rosenthal AK, Ryan LM. The New England Journal of Medicine. 2016;374(26):2575-84. doi:10.1056/NEJMra1511117.",
+"doi": "10.1056/NEJMra1511117"
+},
+"191": {
+"n": 191,
+"texte": "Guidelines on the diagnosis and treatment of active Charcot neuro‐osteoarthropathy in persons with diabetes mellitus (IWGDF 2023). Wukich DK, Schaper NC, Gooday C, et al. Diabetes/Metabolism Research and Reviews. 2024;40(3):e3646. doi:10.1002/dmrr.3646.",
+"doi": "10.1002/dmrr.3646"
+},
+"193": {
+"n": 193,
+"texte": "Demographic and Clinical Characteristics of Patients With Charcot Neuro‐Osteoarthropathy in People With Diabetes Mellitus in Six Countries: A Multicenter Observational Study From 1996 to 2022. Jude EB, Siafarikas C, Rastogi A, et al. Journal of Diabetes Research. 2025;2025:4275741. doi:10.1155/jdr/4275741.",
+"doi": "10.1155/jdr/4275741"
+},
+"194": {
+"n": 194,
+"texte": "Charcot neuroarthropathy after simultaneous pancreas–kidney transplantation: risk factors, prevalence, and outcome. García Barrado F, Kuypers DR, Matricali GA. Clinical Transplantation. 2015;29(8):712-9. doi:10.1111/ctr.12572.",
+"doi": "10.1111/ctr.12572"
+},
+"195": {
+"n": 195,
+"texte": "Diabetic Foot Complications Despite Successful Pancreas Transplantation. Seo DK, Lee HS, Park J, et al. Foot & Ankle International. 2017;38(6):656-661. doi:10.1177/1071100717696246.",
+"doi": "10.1177/1071100717696246"
+},
+"196": {
+"n": 196,
+"texte": "Development of Charcot Neuroarthropathy in Diabetic Patients Who Received Kidney or Kidney-Pancreas Transplants. Anthony ML, Cravey KS, Atway SA. The Journal of Foot and Ankle Surgery : Official Publication of the American College of Foot and Ankle Surgeons. 2019;58(3):475-479. doi:10.1053/j.jfas.2018.09.022.",
+"doi": "10.1053/j.jfas.2018.09.022"
+},
+"197": {
+"n": 197,
+"texte": "The Neuro-Ischaemic Charcot Foot: Prevalence, Characteristics and Severity of Peripheral Arterial Disease in Acute Charcot Neuro-Arthropathy. Meloni M, Ahluwalia R, Bellia A, et al. Journal of Clinical Medicine. 2022;11(21):6230. doi:10.3390/jcm11216230.",
+"doi": "10.3390/jcm11216230"
+},
+"198": {
+"n": 198,
+"texte": "Infrared Thermography Shows That a Temperature Difference of 2.2°C (4°F) or Greater Between Corresponding Sites of Neuropathic Feet Does Not Always Lead to a Diabetic Foot Ulcer. Liew H, Tang W, Plassmann P, et al. Journal of Diabetes Science and Technology. 2025;19(6):1624-1634. doi:10.1177/19322968241249970.",
+"doi": "10.1177/19322968241249970"
+},
+"199": {
+"n": 199,
+"texte": "Delayed Diagnosis of Charcot Foot: A Systematic Review. Korst GS, Ratliff HT, Torian J, Jimoh RO, Jupiter DC. The Journal of Foot and Ankle Surgery : Official Publication of the American College of Foot and Ankle Surgeons. 2022 Sep-Oct;61(5):1109-1113. doi:10.1053/j.jfas.2022.01.008.",
+"doi": "10.1053/j.jfas.2022.01.008"
+},
+"200": {
+"n": 200,
+"texte": "Grading Fractures on Foot and Ankle X-Rays and MRI Scans in the Active Charcot Foot in Diabetes: How Strong Is the Agreement Between Modalities?. Artz O, Meacock L, Elias DA, Edmonds ME, Petrova NL. Diabetes Care. 2023;46(9):1668-1672. doi:10.2337/dc23-0220.",
+"doi": "10.2337/dc23-0220"
+},
+"201": {
+"n": 201,
+"texte": "Diagnosis and treatment of active charcot neuro‐osteoarthropathy in persons with diabetes mellitus: A systematic review. Raspovic KM, Schaper NC, Gooday C, et al. Diabetes/Metabolism Research and Reviews. 2024;40(3):e3653. doi:10.1002/dmrr.3653.",
+"doi": "10.1002/dmrr.3653"
+},
+"202": {
+"n": 202,
+"texte": "Diagnosis of infection in the foot in diabetes: a systematic review. Senneville É, Lipsky BA, Abbas ZG, et al. Diabetes/Metabolism Research and Reviews. 2020;36 Suppl 1:e3281. doi:10.1002/dmrr.3281.",
+"doi": "10.1002/dmrr.3281"
+},
+"203": {
+"n": 203,
+"texte": "Neuropathic Arthropathy of the Foot With and Without Superimposed Osteomyelitis: MR Imaging Characteristics. Ahmadi ME, Morrison WB, Carrino JA, et al. Radiology. 2006;238(2):622-31. doi:10.1148/radiol.2382041393.",
+"doi": "10.1148/radiol.2382041393"
+}
+}
+}
