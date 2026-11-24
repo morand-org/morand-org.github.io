@@ -62,7 +62,7 @@
 
   window.Locomoteur.definir({
     id: "hanche", partie: "hanche", en: "hip and groin", rc: "Douleur à la hanche",
-    titre: "Douleur à la hanche ou à l'aine", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Douleur à la hanche ou à l'aine", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.hanche || {}).sources,
 
     diagnostics: [

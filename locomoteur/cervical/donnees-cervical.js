@@ -45,7 +45,7 @@
 
   window.Locomoteur.definir({
     id: "cervical", partie: "cervical", partieExamen: "rachis cervical", en: "neck", rc: "Cervicalgie",
-    titre: "Cervicalgie ou douleur cervico-brachiale", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Cervicalgie ou douleur cervico-brachiale", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.cervical || {}).sources,
 
     diagnostics: [

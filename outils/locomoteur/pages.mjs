@@ -37,7 +37,7 @@ const modele = lire("locomoteur/genou/index.html");
 for (const r of REGIONS.filter(x => x.pret && x.id !== "genou")) {
   const minu = r.douleur[0].toLowerCase() + r.douleur.slice(1);
   let h = modele
-    .replace("<title>Genou | MSK Morand (prototype)</title>", `<title>${r.nom} | MSK Morand (prototype)</title>`)
+    .replace("<title>Genou | MSK Morand</title>", `<title>${r.nom} | MSK Morand</title>`)
     .replace("pour la douleur au genou : anamnèse", `pour la ${minu.replace(/^douleur /, "douleur ")} : anamnèse`)
     .replace('<script src="/locomoteur/genou/donnees-genou.js" defer></script>',
       [r.id, ...(r.aides || [])].map(a => `<script src="/locomoteur/${a}/aide-memoire-${a}.js" defer></script>\n`).join("") + `<script src="/locomoteur/${r.id}/donnees-${r.id}.js" defer></script>`)
@@ -50,11 +50,26 @@ for (const r of REGIONS.filter(x => x.pret && x.id !== "genou")) {
   console.log(`locomoteur/${r.id}/index.html`);
 }
 
+// Consultation sans région choisie (bouton « Démarrer la consultation » de l'accueil) : l'atlas et les puces ajoutent les plaintes.
+{
+  const h = modele.replace("<title>Genou | MSK Morand</title>", "<title>Consultation | MSK Morand</title>")
+    .replace('<script src="/locomoteur/genou/donnees-genou.js" defer></script>\n', "").replace('<script src="/locomoteur/genou/aide-memoire-genou.js" defer></script>\n', "")
+    .replace('data-articulation="genou"', 'data-articulation="consultation"')
+    .replace("pour la douleur au genou : anamnèse", "pour les consultations musculosquelettiques : anamnèse")
+    .replace('<span class="cache"> : douleur au genou</span>', '<span class="cache"> : consultation</span>')
+    .replace("<p class=\"cr-lead\">Douleur au genou. Cochez", "<p class=\"cr-lead\">Touchez la zone douloureuse sur l'atlas, puis cochez")
+    .replace('<a class="cr-vue" href="/locomoteur/genou/" aria-current="page">Genou</a>', '<a class="cr-vue" href="/locomoteur/consultation/" aria-current="page">Consultation</a>');
+  if (h.includes("donnees-genou") || h.includes('"genou"')) throw new Error("Page consultation : remplacement incomplet");
+  fs.mkdirSync(path.join(RACINE, "locomoteur/consultation"), { recursive: true });
+  fs.writeFileSync(path.join(RACINE, "locomoteur/consultation/index.html"), h);
+  console.log("locomoteur/consultation/index.html");
+}
+
 // Accueil : tuiles actives pour les régions prêtes.
 let hub = lire("locomoteur/index.html");
 const debut = hub.indexOf('<ol class="lo-regions cr-specs">'), fin = hub.indexOf("</ol>", debut);
 const tuiles = REGIONS.map(r => r.pret
-  ? `    <li><a class="cr-spec lo-region" href="/locomoteur/${r.id}/"><span class="cr-spec-nom">${r.nom}</span><span class="cr-spec-sous">${r.nb} diagnostics · prêt à essayer</span></a></li>`
+  ? `    <li><a class="cr-spec lo-region" href="/locomoteur/${r.id}/"><span class="cr-spec-nom">${r.nom}</span><span class="cr-spec-sous">${r.nb} diagnostics</span></a></li>`
   : `    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">${r.nom}</span><span class="cr-spec-sous">À venir</span></span></li>`).join("\n");
 hub = hub.slice(0, debut) + '<ol class="lo-regions cr-specs">\n' + tuiles + "\n  " + hub.slice(fin);
 fs.writeFileSync(path.join(RACINE, "locomoteur/index.html"), hub);

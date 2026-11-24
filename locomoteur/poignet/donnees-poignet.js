@@ -64,7 +64,7 @@
 
   window.Locomoteur.definir({
     id: "poignet", partie: "poignet", partieExamen: "poignet et main", en: "wrist or hand", rc: "Douleur au poignet ou à la main",
-    titre: "Douleur au poignet ou à la main", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Douleur au poignet ou à la main", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.poignet || {}).sources,
 
     diagnostics: [

@@ -68,7 +68,7 @@
 
   window.Locomoteur.definir({
     id: "epaule", partie: "épaule", en: "shoulder", rc: "Douleur à l'épaule",
-    titre: "Douleur à l'épaule", version: "Prototype 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
+    titre: "Douleur à l'épaule", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.epaule || {}).sources,
 
     diagnostics: [

@@ -233,12 +233,12 @@
     return { f, A };
   };
   C.aideMemoire = (cle, liens) => Object.fromEntries(Object.entries(liens).map(([dx, refs]) => [dx, [].concat(refs).flatMap(ref => {
-    const { f, A } = fiche(cle, ref), src = f.src || `Aide-mémoire de première ligne (Québec), document OpenEvidence${A.sources ? " ; " + A.sources.replace(/^Sources principales : /, "") : ""}`;
+    const { f, A } = fiche(cle, ref), src = f.src || (A.sources ? A.sources.replace(/^Sources principales : /, "") : "Guides de pratique de première ligne");
     return f.items.map(t => ({ t: f.principes ? `${t} (principes généraux, sans recommandation spécifique)` : t, src }));
   })]));
   C.ficheAideMemoire = (cle, ref) => fiche(cle, ref).f;
   // Bloc commun de l'aide-mémoire → mesures générales (sans la ligne « † »).
-  C.mesuresAideMemoire = (cle, titre = "Bloc commun (aide-mémoire, Québec)") => {
+  C.mesuresAideMemoire = (cle, titre = "Mesures de première ligne") => {
     const A = (window.Locomoteur.aideMemoire || {})[cle];
     return A && A.commun.length ? [{ titre, items: A.commun.filter(t => !/^†/.test(t)).map(t => ({ t })) }] : [];
   };
