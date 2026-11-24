@@ -103,6 +103,25 @@
       for (const k of g.couvre) if (!d.parQ[k] && !d.questions.some(q => q.effets.some(e => e.g === k))) throw new Error(`Grappe ${g.id} : « ${k} » n'est ni une question ni un groupe`);
       g.statut = g.statut || "provisoire"; g.cle = `grappe:${g.id}>${g.dx}`; g.grappe = true;
     }
+    /* Revues (réponses d'OpenEvidence) : clé du générateur de consignes (« dx|question|valeur » pour un RV par réponse,
+       « dx|clé du poids » sinon, « grappe|id »). Une valeur publiée remplace l'estimation, avec sa source ; sinon, la
+       remarque (« aucune donnée publiée ») s'affiche dans Sources et limites. Le statut d'avant reste noté. */
+    for (const r of d.revues || []) {
+      const [dx, a, b] = r.cle.split("|");
+      const e = dx === "grappe" ? (d.grappes || []).find(g => g.id === a)
+        : b !== undefined ? ((d.parQ[a] || {}).effets || []).find(x => x.dx === dx && x.rv && b in x.rv)
+        : d.questions.flatMap(q => q.effets).find(x => x.dx === dx && x.cle === a);
+      if (!e) throw new Error(`Revue ${r.code} : élément introuvable (${r.cle})`);
+      e.statutAvantRevue = e.statutAvantRevue || e.statut;
+      e.avantRevue = e.avantRevue || { rv: e.rv ? { ...e.rv } : undefined, rvp: e.rvp, rvn: e.rvn, se: e.se, sp: e.sp };
+      if (r.rv) Object.assign(e.rv, r.rv);
+      if (r.se !== undefined) { e.se = r.se; e.sp = r.sp; delete e.rvp; delete e.rvn; }
+      if (r.rvp !== undefined) { e.rvp = r.rvp; e.rvn = r.rvn; delete e.se; delete e.sp; }
+      if (r.statut) e.statut = r.statut;
+      if (r.piste) e.piste = r.piste;
+      e.revue = r.note || "";
+      e.codesRevue = [...(e.codesRevue || []), r.code];
+    }
     if (d.residuel) { if (d.parDx[d.residuel.id]) throw new Error(`Reste en double : ${d.residuel.id}`); d.residuel.residuel = true; }
     for (const [id, en] of Object.entries(d.anglais || {})) { if (!d.parDx[id]) throw new Error(`Nom anglais pour un diagnostic inconnu : ${id}`); d.parDx[id].en = en; }
     for (const [id, c] of Object.entries(d.conduites || {})) { if (!d.parDx[id]) throw new Error(`Conduite pour un diagnostic inconnu : ${id}`); d.parDx[id].conduite = c; }

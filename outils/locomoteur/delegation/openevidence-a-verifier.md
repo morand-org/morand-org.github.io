@@ -14,11 +14,11 @@ Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou l
 | Douleur à l'épaule | 3 | 17 | 7 | 21 |
 | Douleur au coude | 4 | 17 | 4 | 28 |
 | Douleur au poignet ou à la main | 4 | 29 | 7 | 35 |
-| Lombalgie, avec ou sans irradiation | 3 | 16 | 4 | 3 |
-| Douleur à la hanche ou à l'aine | 3 | 21 | 9 | 18 |
-| Douleur au genou | 3 | 23 | 3 | 22 |
-| Douleur à la cheville ou à la jambe | 3 | 21 | 7 | 21 |
-| Douleur au pied | 4 | 22 | 4 | 31 |
+| Lombalgie, avec ou sans irradiation | 2 | 16 | 0 | 3 |
+| Douleur à la hanche ou à l'aine | 1 | 21 | 0 | 0 |
+| Douleur au genou | 1 | 23 | 0 | 0 |
+| Douleur à la cheville ou à la jambe | 1 | 21 | 0 | 0 |
+| Douleur au pied | 1 | 22 | 0 | 0 |
 
 ## Cervicalgie ou douleur cervico-brachiale (CERV)
 
@@ -490,25 +490,7 @@ LOMB-F16. cauda equina syndrome — current estimate: 12 y 0.02%, 30 y 0.06%, 60
 Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
 ```
 
-### LOMB 2. Poids à vérifier et combinaisons (4 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for low back pain; the French wording is kept in quotes.
-
-Target diagnosis: osteoporotic vertebral fracture
-LOMB-P1. « Fluoroquinolone ou corticoïde récents » — current LR+ 5, LR− 0.9
-LOMB-P2. Mécanisme = « Chute de hauteur, accident ou coup » — current LR 4
-
-Target diagnosis: spondylolysis or isthmic spondylolisthesis
-LOMB-P3. « Stork test spondylolysis (Hyperextension unipodale (stork)) » — current LR+ 1.5, LR− 0.8
-
-Target diagnosis: spondylodiscitis or epidural abscess
-LOMB-P4. « Fièvre ou frissons » — current LR+ 3, LR− 0.5
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
-### LOMB 3. Poids provisoires forts (3 éléments)
+### LOMB 2. Poids provisoires forts (3 éléments)
 
 ```text
 For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for low back pain; the French wording is kept in quotes.
@@ -557,81 +539,6 @@ HANC-F21. polymyalgia rheumatica — current estimate: 12 y 0.01%, 50 y 0.2%, 65
 Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
 ```
 
-### HANC 2. Poids à vérifier et combinaisons (9 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for hip and groin pain; the French wording is kept in quotes.
-
-Target diagnosis: hip osteoarthritis
-HANC-P1. Raideur matinale = « Moins de 30 minutes » — current LR 1.6
-HANC-P2. Raideur matinale = « Aucune » — current LR 0.8
-
-Target diagnosis: greater trochanteric pain syndrome (gluteal tendinopathy)
-HANC-P3. « Difficulté à mettre chaussures et chaussettes » — current LR+ 0.3, LR− 1.2
-HANC-P4. « Grand trochanter » — current LR+ 1.6, LR− 0.3
-
-Target diagnosis: adductor-related groin pain
-HANC-P5. « Adducteurs (origine pubienne) » — current LR+ 3, LR− 0.15
-HANC-P6. « Adduction résistée » — current LR+ 4, LR− 0.5
-
-Target diagnosis: femoroacetabular impingement or labral tear
-HANC-P7. « Où est la douleur : Aine » — current LR+ 2.5, LR− 0.2
-HANC-P8. « Clic, accrochage ou blocage dans l'aine » — current LR+ 2, LR− 0.8
-
-Target diagnosis: osteonecrosis of the femoral head
-HANC-P9. « Fluoroquinolone ou corticoïde récents » — current LR+ 5, LR− 0.8
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
-### HANC 3. Poids provisoires forts (18 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for hip and groin pain; the French wording is kept in quotes.
-
-Target diagnosis: greater trochanteric pain syndrome (gluteal tendinopathy)
-HANC-P10. « Où est la douleur : Latérale, sur le grand trochanter » — current LR+ 6, LR− 0.2
-
-Target diagnosis: acute hamstring injury
-HANC-P11. « Où est la douleur : Arrière de la cuisse » — current LR+ 6, LR− 0.3
-HANC-P12. « Ischio-jambiers (corps musculaire) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: iliopsoas-related groin pain or snapping hip
-HANC-P13. « Ressaut audible ou visible de la hanche » — current LR+ 6, LR− 0.7
-
-Target diagnosis: meralgia paresthetica
-HANC-P14. « Où est la douleur : Face antéro-latérale de la cuisse, brûlure ou engourdissement » — current LR+ 10, LR− 0.2
-HANC-P15. « Compression du nerf cutané latéral (sous l'épine iliaque antéro-supérieure) » — current LR+ 5, LR− 0.4
-
-Target diagnosis: osteitis pubis (pubic-related groin pain)
-HANC-P16. « Où est la douleur : Pubis (symphyse) » — current LR+ 6, LR− 0.3
-HANC-P17. « Symphyse pubienne » — current LR+ 5, LR− 0.3
-
-Target diagnosis: pelvic apophyseal avulsion fracture
-HANC-P18. « Épines iliaques antérieures (supérieure, inférieure) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: proximal hamstring tendinopathy
-HANC-P19. « Où est la douleur : Ischion (os de la fesse en position assise) » — current LR+ 6, LR− 0.3
-
-Target diagnosis: slipped capital femoral epiphysis
-HANC-P20. Rotation interne passive (90° de flexion) = « Complète et indolore » — current LR 0.2
-HANC-P21. « Drehmann sign » — current LR+ 15, LR− 0.3
-
-Target diagnosis: iliac crest apophysitis
-HANC-P22. « Où est la douleur : Crête iliaque ou épine antérieure du bassin » — current LR+ 5, LR− 0.3
-HANC-P23. « Crête iliaque » — current LR+ 5, LR− 0.3
-
-Target diagnosis: hip pain referred from the lumbar spine
-HANC-P24. « Déficit de force, de sensibilité ou de réflexe L2–L4 » — current LR+ 5, LR− 0.8
-
-Target diagnosis: polymyalgia rheumatica
-HANC-P25. « Où est la douleur : Aussi aux épaules ou au cou, avec raideur » — current LR+ 10, LR− 0.3
-HANC-P26. Raideur matinale = « 30 minutes ou plus » — current LR 5
-HANC-P27. « Raideur matinale des épaules et du cou » — current LR+ 10, LR− 0.2
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
 ## Douleur au genou (GENO)
 
 ### GENO 1. Fréquences de départ (23 éléments)
@@ -666,75 +573,6 @@ GENO-F23. subchondral insufficiency fracture of the knee — current estimate: 1
 Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
 ```
 
-### GENO 2. Poids à vérifier et combinaisons (3 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for knee pain; the French wording is kept in quotes.
-
-Target diagnosis: patellofemoral pain syndrome
-GENO-P1. « Clarke's test » — current Se 39%, Sp 67%, LR+ 1.18, LR− 0.91
-
-Target diagnosis: meniscal tear
-GENO-P2. « Blocages vrais (impossible d'étendre le genou) » — current LR+ 2, LR− 0.8
-
-Target diagnosis: patellar or quadriceps tendinopathy
-GENO-P3. « Tendon rotulien (pôle inférieur) » — current LR+ 1.8, LR− 0.4
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
-### GENO 3. Poids provisoires forts (22 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for knee pain; the French wording is kept in quotes.
-
-Target diagnosis: medial or lateral collateral ligament sprain of the knee
-GENO-P4. Valgus stress test knee = « Laxité » — current LR 5
-GENO-P5. Varus stress test knee = « Laxité » — current LR 5
-
-Target diagnosis: lateral patellar instability or dislocation
-GENO-P6. « Sensation que la rotule est sortie de place » — current LR+ 8, LR− 0.4
-
-Target diagnosis: iliotibial band syndrome
-GENO-P7. « Où est la douleur : Latérale, au-dessus de l'interligne (bandelette) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: prepatellar bursitis
-GENO-P8. « Où est la douleur : Devant la rotule, superficielle » — current LR+ 6, LR− 0.3
-GENO-P9. « Tuméfaction localisée : Devant la rotule (bourse) » — current LR+ 10, LR− 0.2
-
-Target diagnosis: pes anserine tendinobursitis
-GENO-P10. « Où est la douleur : Médiale, sous l'interligne (patte d'oie) » — current LR+ 5, LR− 0.3
-GENO-P11. « Patte d'oie » — current LR+ 5, LR− 0.3
-
-Target diagnosis: Osgood-Schlatter disease
-GENO-P12. « Où est la douleur : Tubérosité tibiale » — current LR+ 6, LR− 0.3
-GENO-P13. « Tubérosité tibiale » — current LR+ 5, LR− 0.2
-
-Target diagnosis: Sinding-Larsen-Johansson disease
-GENO-P14. « Où est la douleur : Sous la rotule (tendon rotulien) » — current LR+ 6, LR− 0.3
-GENO-P15. « Tendon rotulien (pôle inférieur) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: medial plica syndrome
-GENO-P16. « Medial plica test (Cordon antéro-médial (plica)) » — current LR+ 6, LR− 0.4
-
-Target diagnosis: gout or calcium pyrophosphate arthritis of the knee
-GENO-P17. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Goutte » — current LR+ 6, LR− 1
-GENO-P18. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Pseudogoutte » — current LR+ 6, LR− 1
-GENO-P19. « Rougeur ou chaleur » — current LR+ 5, LR− 0.4
-
-Target diagnosis: septic arthritis of the knee
-GENO-P20. « Enflure du genou (actuelle ou récurrente) » — current LR+ 4, LR− 0.2
-GENO-P21. « Facteurs de risque d'infection : Prothèse du genou » — current LR+ 5, LR− 1
-GENO-P22. « Rougeur ou chaleur » — current LR+ 5, LR− 0.4
-GENO-P23. Bulge test knee effusion (Flot (signe du flot)) = « Négatif » — current LR 0.2
-
-Target diagnosis: Baker's (popliteal) cyst
-GENO-P24. « Où est la douleur : Postérieure (creux poplité) » — current LR+ 5, LR− 0.5
-GENO-P25. « Tuméfaction localisée : Masse au creux poplité » — current LR+ 8, LR− 0.4
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
 ## Douleur à la cheville ou à la jambe (CHEV)
 
 ### CHEV 1. Fréquences de départ (21 éléments)
@@ -765,76 +603,6 @@ CHEV-F20. gout or calcium pyrophosphate arthritis of the ankle — current estim
 CHEV-F21. insufficiency fracture of the distal tibia, fibula or calcaneus — current estimate: 12 y 0.05%, 50 y 0.2%, 65 y 0.8%, 80 y 2%, 90 y 3%; women ×1.8, men ×0.55
 
 Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
-```
-
-### CHEV 2. Poids à vérifier et combinaisons (7 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for ankle pain; the French wording is kept in quotes.
-
-Target diagnosis: lateral ankle sprain
-CHEV-P1. « Œdème latéral » — current LR+ 1.5, LR− 0.1
-CHEV-P2. « Ligament talo-fibulaire antérieur » — current LR+ 1.6, LR− 0.2
-CHEV-P3. Anterior drawer test ankle (Tiroir antérieur) = « Laxité » — current LR 3
-CHEV-P4. Anterior drawer test ankle (Tiroir antérieur) = « Douleur sans laxité » — current LR 1.3
-CHEV-P5. Anterior drawer test ankle (Tiroir antérieur) = « Normal et indolore » — current LR 0.7
-CHEV-P6. Talar tilt test = « Laxité » — current LR 3
-CHEV-P7. Talar tilt test = « Normal et indolore » — current LR 0.8
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
-### CHEV 3. Poids provisoires forts (21 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for ankle pain; the French wording is kept in quotes.
-
-Target diagnosis: lateral ankle sprain
-CHEV-P8. « Où est la douleur : Latérale, devant ou sous la malléole externe » — current LR+ 4, LR− 0.2
-
-Target diagnosis: chronic ankle instability
-CHEV-P9. « Entorses antérieures de cette cheville » — current LR+ 5, LR− 0.3
-CHEV-P10. « Entorses à répétition ou cheville qui cède » — current LR+ 6, LR− 0.3
-
-Target diagnosis: insertional Achilles tendinopathy, Haglund deformity or retrocalcaneal bursitis
-CHEV-P11. « Où est la douleur : Insertion du tendon d'Achille (arrière du talon) » — current LR+ 6, LR− 0.3
-CHEV-P12. « Insertion du tendon d'Achille » — current LR+ 5, LR− 0.3
-
-Target diagnosis: Achilles tendon rupture
-CHEV-P13. « Sensation de coup de bâton ou de pop derrière la cheville ou au mollet » — current LR+ 6, LR− 0.3
-
-Target diagnosis: medial tibial stress syndrome
-CHEV-P14. « Où est la douleur : Bord interne du tibia, tiers inférieur (diffuse) » — current LR+ 6, LR− 0.3
-CHEV-P15. « Bord médial du tibia (diffus) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: tibial or fibular stress fracture
-CHEV-P16. « Où est la douleur : Point précis sur le tibia ou le péroné » — current LR+ 6, LR− 0.4
-CHEV-P17. « Point osseux précis du tibia ou de la fibula » — current LR+ 6, LR− 0.4
-
-Target diagnosis: chronic exertional compartment syndrome of the leg
-CHEV-P18. « Douleur ou tension après un temps d'effort fixe, qui cède au repos » — current LR+ 8, LR− 0.2
-
-Target diagnosis: calf muscle strain (tennis leg)
-CHEV-P19. « Où est la douleur : Mollet » — current LR+ 8, LR− 0.3
-CHEV-P20. « Mollet » — current LR+ 6, LR− 0.3
-
-Target diagnosis: Sever disease (calcaneal apophysitis)
-CHEV-P21. « Calcanéus (compression latérale) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: peroneal tendinopathy, tear or subluxation
-CHEV-P22. « Où est la douleur : Derrière la malléole externe (tendons fibulaires) » — current LR+ 6, LR− 0.5
-CHEV-P23. « Claquement derrière la malléole externe » — current LR+ 6, LR− 0.7
-CHEV-P24. « Tendons fibulaires (rétromalléolaire latéral) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: tarsal tunnel syndrome
-CHEV-P25. « Engourdissements ou brûlure à la plante du pied » — current LR+ 6, LR− 0.3
-
-Target diagnosis: gout or calcium pyrophosphate arthritis of the ankle
-CHEV-P26. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Goutte » — current LR+ 6, LR− 1
-CHEV-P27. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Pseudogoutte » — current LR+ 6, LR− 1
-CHEV-P28. « Rougeur ou chaleur » — current LR+ 5, LR− 0.5
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
 ```
 
 ## Douleur au pied (PIED)
@@ -868,101 +636,4 @@ PIED-F21. Sever disease (calcaneal apophysitis) — current estimate: 9 y 15%, 1
 PIED-F22. foot contusion or crush injury — current estimate: 12 y 8%, 18 y 8%, 35 y 6%, 60 y 5%, 80 y 4%
 
 Answer as one table, one row per code, with columns: code | proportion among these patients (by age group 12–17, 18–39, 40–59, 60+ if available) | sex ratio | setting | source (first author, journal, year, PMID). Write "no data" when none exists; do not estimate.
-```
-
-### PIED 2. Poids à vérifier et combinaisons (4 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for foot pain; the French wording is kept in quotes.
-
-Target diagnosis: Morton neuroma
-PIED-P1. « Pire dans des chaussures serrées, mieux en les retirant » — current LR+ 3, LR− 0.2
-PIED-P2. « Espace intermétatarsien (pincement pouce-index) » — current LR+ 3, LR− 0.1
-PIED-P3. « Mulder click test » — current LR+ 4, LR− 0.6
-
-Target diagnosis: navicular stress fracture
-PIED-P4. « Naviculaire (face dorsale, point « N ») » — current LR+ 4, LR− 0.3
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
-### PIED 3. Poids provisoires forts (1 sur 2) (25 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for foot pain; the French wording is kept in quotes.
-
-Target diagnosis: plantar fasciitis (plantar heel pain)
-PIED-P5. « Où est la douleur : Sous le talon » — current LR+ 8, LR− 0.1
-PIED-P6. « Douleur aux premiers pas du matin ou après le repos » — current LR+ 4, LR− 0.2
-PIED-P7. « Tubercule calcanéen médial (insertion du fascia) » — current LR+ 4, LR− 0.2
-
-Target diagnosis: hallux valgus
-PIED-P8. « Hallux valgus visible » — current LR+ 10, LR− 0.1
-
-Target diagnosis: lesser toe deformities or bunionette
-PIED-P9. « Où est la douleur : Petits orteils » — current LR+ 5, LR− 0.4
-PIED-P10. « Orteils en griffe, en marteau ou bunionette » — current LR+ 8, LR− 0.2
-
-Target diagnosis: hallux rigidus
-PIED-P11. « Où est la douleur : Gros orteil (1ʳᵉ métatarso-phalangienne) » — current LR+ 5, LR− 0.3
-PIED-P12. Extension passive de l'hallux = « Limitée par raideur » — current LR 6
-
-Target diagnosis: metatarsalgia or plantar plate injury
-PIED-P13. « Où est la douleur : Sous les têtes des métatarsiens » — current LR+ 5, LR− 0.3
-
-Target diagnosis: gout of the first metatarsophalangeal joint (podagra)
-PIED-P14. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Goutte » — current LR+ 6, LR− 1
-PIED-P15. « ATCD d'uvéite, psoriasis, synovite, MII ou autre maladie rhumatologique : Pseudogoutte » — current LR+ 6, LR− 1
-PIED-P16. « Où est la douleur : Gros orteil (1ʳᵉ métatarso-phalangienne) » — current LR+ 6, LR− 0.2
-PIED-P17. « Rougeur ou chaleur » — current LR+ 8, LR− 0.3
-
-Target diagnosis: Morton neuroma
-PIED-P18. « Où est la douleur : Entre les orteils (3ᵉ ou 2ᵉ espace), irradiant aux orteils » — current LR+ 8, LR− 0.2
-
-Target diagnosis: metatarsal stress fracture
-PIED-P19. « Où est la douleur : Sur un métatarsien, point précis (dos du pied) » — current LR+ 6, LR− 0.3
-PIED-P20. « Diaphyse d'un métatarsien » — current LR+ 6, LR− 0.3
-
-Target diagnosis: calcaneal stress fracture
-PIED-P21. « Calcanéus en compression latérale » — current LR+ 5, LR− 0.4
-
-Target diagnosis: Lisfranc injury
-PIED-P22. « Ecchymose sous le médio-pied » — current LR+ 6, LR− 0.6
-PIED-P23. « Ecchymose plantaire du médio-pied » — current LR+ 6, LR− 0.7
-PIED-P24. « Base du 2ᵉ métatarsien (articulation de Lisfranc) » — current LR+ 5, LR− 0.2
-PIED-P25. « Lisfranc stress test » — current LR+ 5, LR− 0.4
-
-Target diagnosis: turf toe
-PIED-P26. « Où est la douleur : Gros orteil (1ʳᵉ métatarso-phalangienne) » — current LR+ 5, LR− 0.3
-
-Target diagnosis: sesamoiditis or sesamoid fracture
-PIED-P27. « Sésamoïdes (sous la 1ʳᵉ tête) » — current LR+ 6, LR− 0.3
-
-Target diagnosis: Charcot neuroarthropathy
-PIED-P28. « Diabète ou neuropathie périphérique » — current LR+ 30, LR− 0.05
-PIED-P29. « Rougeur ou chaleur » — current LR+ 5, LR− 0.6
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
-```
-
-### PIED 4. Poids provisoires forts (2 sur 2) (6 éléments)
-
-```text
-For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are provisional clinical estimates; confirm or correct them. The findings come from a French-language questionnaire for foot pain; the French wording is kept in quotes.
-
-Target diagnosis: tarsal coalition
-PIED-P30. Sous-talienne (inversion-éversion du talon) = « Limitée par raideur » — current LR 5
-
-Target diagnosis: painful accessory navicular
-PIED-P31. « Où est la douleur : Arche médiale, saillie du naviculaire » — current LR+ 6, LR− 0.3
-PIED-P32. « Tubérosité médiale du naviculaire » — current LR+ 6, LR− 0.3
-
-Target diagnosis: Iselin disease
-PIED-P33. « Où est la douleur : Bord latéral, base du 5ᵉ métatarsien » — current LR+ 5, LR− 0.4
-
-Target diagnosis: Sever disease (calcaneal apophysitis)
-PIED-P34. « Où est la douleur : Arrière ou côtés du talon » — current LR+ 5, LR− 0.3
-PIED-P35. « Calcanéus en compression latérale » — current LR+ 5, LR− 0.3
-
-Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
 ```

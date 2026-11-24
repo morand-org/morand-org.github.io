@@ -63,7 +63,16 @@
   const laslett = L => SI.filter(id => L.oui(id)).length, laslettEvalues = L => SI.filter(id => L.repondu(id)).length;
   const cook = L => [L.age !== null && L.age > 48, L.v("cote") === "B", L.oui("jambe_dos"), L.oui("claudication"), L.oui("assis_sans_douleur") || L.oui("penche_avant")];
 
+  /* Réponses d'OpenEvidence du 24 nov. 2026 (outils/locomoteur/sources/openevidence-reponses/) : une valeur publiée remplace
+     l'estimation quand l'étude porte sur cet élément ; sinon la remarque s'affiche dans Sources et limites. */
+  const REVUES_OE = [
+    { code: "LOMB-P1", cle: "fracture_osteo|fluoro_cortico>fracture_osteo", rvp: 2.5, rvn: 0.88, statut: "verifie", piste: "Enthoven et coll., 2016 (Phys Ther, PMID 26183589), médecine familiale, plus de 55 ans : corticothérapie prolongée, Se 18 %, Sp 93 % ; fluoroquinolone : aucune donnée" },
+    { code: "LOMB-P2", cle: "fracture_osteo|mecanisme|chute", rv: {"chute": 6.2}, statut: "verifie", piste: "Enthoven et coll., 2016 (Phys Ther, PMID 26183589), médecine familiale, plus de 55 ans : traumatisme, Se 21 %, Sp 97 %, RV+ 6,2" },
+    { code: "LOMB-P3", cle: "spondylolyse|hyperext_uni>spondylolyse", note: "OpenEvidence (24 nov. 2026) : Se 50 à 55 % (Masci 2006) ; spécificité non établie" },
+    { code: "LOMB-P4", cle: "infection|fievre>infection", note: "OpenEvidence (24 nov. 2026) : fièvre mesurée, Se 52 %, Sp 98 % (sources mixtes, Deyo 1992) ; « fièvre ou frissons » non étudiée" },
+  ];
   window.Locomoteur.definir({
+    revues: REVUES_OE,
     id: "lombaire", partie: "lombaire", partieExamen: "rachis lombaire", en: "low back", rc: "Lombalgie",
     titre: "Lombalgie, avec ou sans irradiation", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.lombaire || {}).sources,

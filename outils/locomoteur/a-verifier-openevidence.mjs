@@ -30,7 +30,7 @@ const sortie = ["# Ce qu'OpenEvidence doit vérifier", "",
   "**Comment faire.** Coller chaque bloc tel quel dans OpenEvidence, un bloc par question, puis me renvoyer les réponses (le tableau et ses références). Les codes (ex. `CERV-P12`) me permettent de remettre chaque chiffre au bon endroit et de le marquer « vérifié » avec sa source.", "",
   "**Ordre suggéré.** 1) Fréquences de départ de chaque région (elles fixent le point de départ de tous les calculs). 2) Poids « à vérifier » et combinaisons non vérifiées. 3) Poids provisoires forts (rapport de vraisemblance de 5 ou plus, ou de 0,2 ou moins) : ce sont ceux qui déplacent le plus les probabilités. Les poids du contexte (côté, durée, mode d'apparition, mécanisme) ne sont pas soumis : ils traduisent la définition du diagnostic (une fracture aiguë ne dure pas depuis trois mois), pas une donnée publiée.", "",
   "Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou les corrige ; une réponse « no data » est utile aussi (le poids reste provisoire et prudent).", ""];
-const sommaire = [];
+const sommaire = [], CODES = {};   // code OpenEvidence → élément des données (pour intégrer les réponses)
 
 for (const [region, code] of REGIONS) {
   const f = `locomoteur/${region}/donnees-${region}.js`;
@@ -43,29 +43,35 @@ for (const [region, code] of REGIONS) {
   const freq = d.diagnostics.filter(x => !x.residuel).map((x, i) => `${code}-F${i + 1}. ${en(x.id)} — current estimate: ${x.base.map(([a, p]) => `${a} y ${pc(p)}`).join(", ")}${x.sexe ? `; ${Object.entries(x.sexe).map(([s, k]) => `${s === "F" ? "women" : "men"} ×${nb(k)}`).join(", ")}` : ""}`);
   if (!d.frequencesRevues) blocs.push({ titre: "Fréquences de départ", n: freq.length, texte: `Among patients ${d.ages === "12 ans et plus" ? "12 years and older" : d.ages} consulting in primary care or sports medicine for ${plainte} pain, what proportion has each of the following diagnoses? Our current estimates of the proportion by age are given; confirm or correct them.\n\n${freq.join("\n")}\n\n${FORMAT_FREQ}` });
 
-  // 2 et 3. Poids : à vérifier (tous), puis provisoires forts.
-  const items = { a_verifier: [], fort: [] }, vus = new Set();
+  // 2 et 3. Poids : à vérifier (tous), puis provisoires forts. REVUS : éléments déjà revus par OpenEvidence.
+  const items = { a_verifier: [], fort: [] }, vus = new Set(), REVUS = new Set((d.revues || []).map(r => r.cle));
   for (const q of d.questions) for (const e of q.effets) {
-    if (e.statut !== "a_verifier" && e.statut !== "provisoire") continue;
-    if (e.statut === "provisoire" && CONTEXTE.has(q.id)) continue;
+    // Un élément revu par OpenEvidence garde son code et sa place (statut d'avant la revue), sans être redemandé.
+    const statut = e.statutAvantRevue || e.statut;
+    if (statut !== "a_verifier" && statut !== "provisoire") continue;
+    if (statut === "provisoire" && CONTEXTE.has(q.id)) continue;
     const nom = q.video ? (q.video.toLowerCase().includes(q.libelle.toLowerCase().split(" ")[0]) ? q.video : `${q.video} (${q.libelle})`) : null;
     if (e.rv) {
       for (const [v, r] of Object.entries(e.rv)) {
-        if (e.statut === "provisoire" && Math.abs(Math.log(r)) < SEUIL) continue;
-        const cle = `${e.dx}|${q.id}|${v}`; if (vus.has(cle)) continue; vus.add(cle);
-        items[e.statut === "a_verifier" ? "a_verifier" : "fort"].push({ dx: e.dx, texte: `${nom || q.libelle} = « ${LO.libelleOption(q, v)} » — current LR ${nb(r)}` });
+        const cle = `${e.dx}|${q.id}|${v}`, revu = REVUS.has(cle);
+        const r0 = e.avantRevue ? (e.avantRevue.rv || {})[v] : r;   // valeur d'avant la revue : codes stables
+        if (r0 === undefined) continue;
+        if (statut === "provisoire" && !revu && Math.abs(Math.log(r0)) < SEUIL) continue;
+        if (vus.has(cle)) continue; vus.add(cle);
+        items[statut === "a_verifier" ? "a_verifier" : "fort"].push({ dx: e.dx, cle, revu, texte: `${nom || q.libelle} = « ${LO.libelleOption(q, v)} » — current LR ${nb(r)}` });
       }
       continue;
     }
-    const [p, m] = LO.rvPosNeg(e);
-    if (e.statut === "provisoire" && Math.max(Math.abs(Math.log(p)), Math.abs(Math.log(m))) < SEUIL) continue;
+    const avant = e.avantRevue ? Object.assign({}, e, { se: e.avantRevue.se, sp: e.avantRevue.sp, rvp: e.avantRevue.rvp, rvn: e.avantRevue.rvn }) : e;
+    const [p, m] = LO.rvPosNeg(avant), revu = REVUS.has(`${e.dx}|${e.cle}`);
+    if (statut === "provisoire" && !revu && Math.max(Math.abs(Math.log(p)), Math.abs(Math.log(m))) < SEUIL) continue;
     const cle = `${e.dx}|${e.cle}`; if (vus.has(cle)) continue; vus.add(cle);
     const el = nom && q.type !== "multi" ? nom : LO.elementDe(e);
     if (vus.has(`${e.dx}|${el}`)) continue; vus.add(`${e.dx}|${el}`);
-    items[e.statut === "a_verifier" ? "a_verifier" : "fort"].push({ dx: e.dx, texte: `« ${el} » — current ${e.se !== undefined ? `Se ${pc(e.se)}, Sp ${pc(e.sp)}, ` : ""}LR+ ${nb(p)}, LR− ${nb(m)}` });
+    items[statut === "a_verifier" ? "a_verifier" : "fort"].push({ dx: e.dx, cle, revu, texte: `« ${el} » — current ${e.se !== undefined ? `Se ${pc(e.se)}, Sp ${pc(e.sp)}, ` : ""}LR+ ${nb(p)}, LR− ${nb(m)}` });
   }
-  for (const g of (d.grappes || []).filter(g => g.statut !== "verifie" && g.statut !== "valide"))
-    items.a_verifier.push({ dx: g.dx, texte: `Cluster « ${g.nom} » — current ${g.rv > 1 ? "LR+" : "LR−"} ${nb(g.rv)}${g.piste ? ` (${g.piste})` : ""}` });
+  for (const g of (d.grappes || []).filter(g => (g.statutAvantRevue || g.statut) !== "verifie" && (g.statutAvantRevue || g.statut) !== "valide"))
+    items.a_verifier.push({ dx: g.dx, cle: `grappe|${g.id}`, revu: REVUS.has(`grappe|${g.id}`), texte: `Cluster « ${g.nom} » — current ${g.rv > 1 ? "LR+" : "LR−"} ${nb(g.rv)}${g.piste ? ` (${g.piste})` : ""}` });
 
   let no = 0;
   const groupes = (liste, titre, intro) => {
@@ -74,9 +80,17 @@ for (const [region, code] of REGIONS) {
     for (let i = 0; i < tri.length; i += PAR_CONSIGNE) {
       const part = tri.slice(i, i + PAR_CONSIGNE), lignes = [];
       let dx = null;
-      for (const it of part) { if (it.dx !== dx) { dx = it.dx; lignes.push(`\nTarget diagnosis: ${en(dx)}`); } lignes.push(`${code}-P${++no}. ${it.texte}`); }
+      // Les éléments déjà revus gardent leur numéro (codes stables d'une version à l'autre) mais ne sont plus imprimés.
+      let n = 0;
+      for (const it of part) {
+        CODES[`${code}-P${++no}`] = { region, dx: it.dx, cle: it.cle, texte: it.texte, ...(it.revu ? { revu: true } : {}) };
+        if (it.revu) continue;
+        if (it.dx !== dx) { dx = it.dx; lignes.push(`\nTarget diagnosis: ${en(dx)}`); }
+        lignes.push(`${code}-P${no}. ${it.texte}`); n++;
+      }
       const nbParts = Math.ceil(tri.length / PAR_CONSIGNE);
-      blocs.push({ titre: `${titre}${nbParts > 1 ? ` (${i / PAR_CONSIGNE + 1} sur ${nbParts})` : ""}`, n: part.length, texte: `${intro} The findings come from a French-language questionnaire for ${plainte} pain; the French wording is kept in quotes.\n${lignes.join("\n")}\n\n${FORMAT_POIDS}` });
+      if (!n) continue;
+      blocs.push({ titre: `${titre}${nbParts > 1 ? ` (${i / PAR_CONSIGNE + 1} sur ${nbParts})` : ""}`, n, texte: `${intro} The findings come from a French-language questionnaire for ${plainte} pain; the French wording is kept in quotes.\n${lignes.join("\n")}\n\n${FORMAT_POIDS}` });
     }
   };
   groupes(items.a_verifier, "Poids à vérifier et combinaisons", "For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them.");
@@ -84,10 +98,12 @@ for (const [region, code] of REGIONS) {
 
   sortie.push(`## ${d.titre} (${code})`, "");
   blocs.forEach((b, i) => { sortie.push(`### ${code} ${i + 1}. ${b.titre} (${b.n} élément${b.n > 1 ? "s" : ""})`, "", "```text", b.texte.trim(), "```", ""); });
-  sommaire.push(`| ${d.titre} | ${blocs.length} | ${d.frequencesRevues ? `réponse reçue (${d.frequencesRevues.date})` : freq.length} | ${items.a_verifier.length} | ${items.fort.length} |`);
+  const restants = l => l.filter(x => !x.revu).length;
+  sommaire.push(`| ${d.titre} | ${blocs.length} | ${d.frequencesRevues ? `réponse reçue (${d.frequencesRevues.date})` : freq.length} | ${restants(items.a_verifier)} | ${restants(items.fort)} |`);
 }
 sortie.splice(sortie.indexOf("Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou les corrige ; une réponse « no data » est utile aussi (le poids reste provisoire et prudent).") + 2, 0,
   "| Région | Consignes | Fréquences | À vérifier | Forts provisoires |", "|---|---|---|---|---|", ...sommaire, "");
 const fichier = path.join(RACINE, "outils/locomoteur/delegation/openevidence-a-verifier.md");
 fs.writeFileSync(fichier, sortie.join("\n"));
+fs.writeFileSync(path.join(RACINE, "outils/locomoteur/delegation/openevidence-codes.json"), JSON.stringify(CODES, null, 1) + "\n");
 console.log(`${path.relative(RACINE, fichier)} :\n${sommaire.join("\n")}`);

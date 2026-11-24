@@ -65,7 +65,40 @@
      s'appliquent, la durée, l'œdème et l'ecchymose ne comptent plus à part pour la fracture (pas de double compte). */
   const OTT_POP = ["ott_4pas", "p_mall_lat", "p_mall_med", "p_5mt", "p_navic", "duree", "oedeme_rapide", "ex_oedeme_lat", "ex_ecchymose"];
 
+  /* Réponses d'OpenEvidence du 24 nov. 2026 (outils/locomoteur/sources/openevidence-reponses/) : une valeur publiée remplace
+     l'estimation quand l'étude porte sur cet élément ; sinon la remarque s'affiche dans Sources et limites. */
+  const REVUES_OE = [
+    { code: "CHEV-P1", cle: "entorse_lat|ex_oedeme_lat>entorse_lat", note: "OpenEvidence (24 nov. 2026) : Se 100 % entre 0 et 2 jours (Baltes 2024) ; spécificité non publiée" },
+    { code: "CHEV-P2", cle: "entorse_lat|p_ltfa>entorse_lat", note: "OpenEvidence (24 nov. 2026) : Se 95–100 %, Sp 0–32 % (Netterström-Wedin 2022) : RV+ au plus 1,5" },
+    { code: "CHEV-P3", cle: "entorse_lat|tiroir_ant|laxite", rv: {"laxite": 3.97}, statut: "verifie", piste: "Netterström-Wedin et coll., 2022 (Sports Health, méta-analyse, PMID 34286639) : tiroir antérieur, laxité Se 54 %, Sp 87 %, RV+ 3,97 ; test négatif RV− 0,54 ; « douleur sans laxité » : estimation" },
+    { code: "CHEV-P4", cle: "entorse_lat|tiroir_ant|douleur", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P5", cle: "entorse_lat|tiroir_ant|normal", rv: {"normal": 0.54}, statut: "verifie", piste: "Netterström-Wedin et coll., 2022 (Sports Health, méta-analyse, PMID 34286639) : tiroir antérieur, laxité Se 54 %, Sp 87 %, RV+ 3,97 ; test négatif RV− 0,54 ; « douleur sans laxité » : estimation" },
+    { code: "CHEV-P6", cle: "entorse_lat|talar_tilt|laxite", note: "OpenEvidence (24 nov. 2026) : instabilité chronique seulement, RV+ 2,2 à 4,1 (Rosen 2015) ; non regroupé" },
+    { code: "CHEV-P7", cle: "entorse_lat|talar_tilt|normal", note: "OpenEvidence (24 nov. 2026) : valeurs publiées plus basses (RV− 0,58 à 0,66), en instabilité chronique seulement" },
+    { code: "CHEV-P8", cle: "entorse_lat|localisation.laterale>entorse_lat", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P9", cle: "instab|atcd_entorses>instab", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P10", cle: "instab|derobade>instab", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P11", cle: "insertion|localisation.achille_ins>insertion", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P12", cle: "insertion|p_achille_ins>insertion", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P13", cle: "rupture_achille|coup_baton>rupture_achille", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P14", cle: "periostite|localisation.tibia_med>periostite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P15", cle: "periostite|p_tibia_med>periostite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P16", cle: "ff_tibia|localisation.tibia_focal>ff_tibia", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P17", cle: "ff_tibia|p_tibia_focal>ff_tibia", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P18", cle: "loge|effort_loge>loge", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P19", cle: "mollet|localisation.mollet>mollet", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P20", cle: "mollet|p_mollet>mollet", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P21", cle: "sever|p_calcaneum>sever", note: "OpenEvidence (24 nov. 2026) : Perhamre 2013, Se 97 %, Sp 100 %, enfants malades contre témoins sans douleur (surestimé) ; la valeur actuelle est dans l'intervalle de confiance" },
+    { code: "CHEV-P22", cle: "fibulaires|localisation.retro_lat>fibulaires", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P23", cle: "fibulaires|ressaut>fibulaires", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P24", cle: "fibulaires|p_fibulaires>fibulaires", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P25", cle: "tarsien|paresthesies>tarsien", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P26", cle: "cristaux|atcd_rhumato.goutte>cristaux", rvp: 2, rvn: 0.56, statut: "verifie", piste: "Janssens et coll., 2010 (Arch Intern Med), médecine familiale, monoarthrite, cristaux à la ponction : goutte rapportée par le patient, Se 61 %, Sp 70 %" },
+    { code: "CHEV-P27", cle: "cristaux|atcd_rhumato.pseudogoutte>cristaux", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+    { code: "CHEV-P28", cle: "cristaux|rougeur_chaleur>cristaux", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
+  ];
   window.Locomoteur.definir({
+    revues: REVUES_OE,
     id: "cheville", partie: "cheville", en: "ankle", rc: "Douleur à la cheville",
     titre: "Douleur à la cheville ou à la jambe", version: "Version 0.5 · novembre 2026", ages: "12 ans et plus", infos: INFOS, conduites: CONDUITES, mesures: MESURES, anglais: ANGLAIS,
     sourcesConduite: (window.Locomoteur.aideMemoire.cheville || {}).sources,

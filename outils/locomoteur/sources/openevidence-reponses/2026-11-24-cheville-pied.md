@@ -1,6 +1,6 @@
 # OpenEvidence : réponses pour la cheville et le pied (CHEV-F, CHEV-P, PIED-F, PIED-P)
 
-Document Word du Dr Morand « Foot_and_Ankle_OpenEvidence.docx », converti en Markdown (`pandoc -t gfm`) le 24 novembre 2026. Pas encore intégré aux données.
+Document Word du Dr Morand « Foot_and_Ankle_OpenEvidence.docx », converti en Markdown (`pandoc -t gfm`) le 24 novembre 2026.
 
 Whether any published diagnostic accuracy study exists for each of these pediatric foot findings is the deciding factor, since most of these conditions are defined clinically and may only have case series. Let me check the accuracy data for subtalar stiffness in tarsal coalition, the calcaneal squeeze test in Sever disease, and site-specific pain or tenderness in accessory navicular and Iselin disease.  
   
