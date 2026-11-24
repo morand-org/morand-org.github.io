@@ -196,3 +196,118 @@ html.avec-ouverture body::after { content: ""; position: fixed; inset: 0; z-inde
 .ouv-sceau img[hidden] { display: none; }
 @media (min-width: 1000px) { .ouv-sceau { width: 280px; } }
 @media (prefers-reduced-motion: reduce) { .ouverture.joue .ouv-sceau { animation: none; opacity: 1; } }
+
+/* ---------- Accueil, version « vert forêt pâle » (maquette du 24 novembre 2026) ----------
+   Seulement sur l'accueil (html.accueil) : la confidentialité et les remerciements gardent le parchemin.
+   Titres en Cormorant Garamond (OFL, hébergée ici : cormorant-OFL.txt), texte en Inter. L'or du texte est
+   assombri (#7d6536, contraste 4,7 sur le vert) ; l'or de la maquette (#9e834e) reste pour les filets et les points. */
+@font-face { font-family: "Cormorant Garamond"; src: url("cormorant.woff2") format("woff2"); font-weight: 300 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cormorant Garamond"; src: url("cormorant-italique.woff2") format("woff2"); font-weight: 300 700; font-style: italic; font-display: swap; }
+.accueil {
+  --papier: #e7efe9; --champ: #ffffff; --carte: rgba(255, 255, 255, 0.88); --carte-survol: #ffffff;
+  --encre: #192b21; --encre-2: #4a5d52; --discret: #566a5e;
+  --filet: rgba(25, 43, 33, 0.16); --filet-carte: rgba(25, 43, 33, 0.12); --filet-int: rgba(25, 43, 33, 0.08); --filet-fort: rgba(25, 43, 33, 0.16);
+  --or: #7d6536; --or-deco: #9e834e; --or-clair: rgba(158, 131, 78, 0.12); --or-bord: rgba(158, 131, 78, 0.35);
+  --ombre: 0 4px 20px -4px rgba(25, 43, 33, 0.06); --ombre-survol: 0 14px 28px -8px rgba(25, 43, 33, 0.12);
+  --police-titre: "Cormorant Garamond", ui-serif, Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  .accueil {
+    --papier: #0e1511; --champ: #16201a; --carte: #131c16; --carte-survol: #18231c;
+    --encre: #e7eee9; --encre-2: #c2cec6; --discret: #97a69d;
+    --filet: rgba(231, 238, 233, 0.14); --filet-carte: rgba(231, 238, 233, 0.12); --filet-int: rgba(201, 163, 92, 0.18); --filet-fort: rgba(231, 238, 233, 0.16);
+    --or: #c9a35c; --or-deco: #c9a35c; --or-clair: rgba(201, 163, 92, 0.14); --or-bord: rgba(201, 163, 92, 0.4);
+    --ombre: 0 4px 20px -4px rgba(0, 0, 0, 0.4); --ombre-survol: 0 14px 28px -8px rgba(0, 0, 0, 0.55);
+  }
+}
+/* En-tête : le nom, « Nouveautés » (point doré) sur ordinateur, la rubrique. */
+.accueil .tete { align-items: center; }
+.accueil .marque { font: 500 16px/1 var(--police-titre); letter-spacing: 0.32em; }
+.tete-nav { display: none; }
+.tete-lien, .pied-nouveautes { position: relative; border: 0; background: none; cursor: pointer; text-transform: uppercase; }
+.tete-lien { padding: 10px 2px; color: var(--encre-2); font: 500 11px/1 var(--police); letter-spacing: 0.16em; transition: color 0.2s; }
+.tete-lien:hover, .pied-nouveautes:hover { color: var(--or); }
+.tete-lien:focus-visible, .pied-nouveautes:focus-visible, .rg-frequentes button:focus-visible, .nouveautes-fermer:focus-visible { outline: 2px solid var(--or-deco); outline-offset: 2px; }
+.a-point::after { content: ""; position: absolute; top: 6px; right: -8px; width: 5px; height: 5px; border-radius: 50%; background: var(--or-deco); }
+@media (min-width: 720px) { .tete-nav { display: flex; margin-left: auto; } .accueil .tete .rubrique { margin-left: 32px; } }
+/* Titre : Cormorant, un peu plus grand (petit œil), l'italique dorée. */
+.accueil h1 { font-weight: 400; letter-spacing: -0.01em; }
+.accueil h1 em { font-weight: 400; color: var(--or-deco); }
+@media (prefers-color-scheme: dark) { .accueil h1 em { color: var(--or); } }
+/* « Installer l'app » : bouton doré pâle, la mention du hors ligne à côté (dessous sur ordinateur). */
+.accueil .installer { border-color: var(--or-bord); background: var(--or-clair); color: var(--encre); letter-spacing: 0.14em; }
+.accueil .installer:hover { background: var(--or-deco); border-color: var(--or-deco); color: #fff; }
+.installer-note { font: 400 11px/1.3 var(--police); color: var(--discret); letter-spacing: 0.02em; }
+/* Recherche : champ blanc à filet doré, bouton vert forêt ; ⌘K (ou Ctrl K) sur ordinateur. */
+.accueil .rg input { border-color: var(--or-bord); box-shadow: 0 6px 24px -6px rgba(25, 43, 33, 0.08); }
+.accueil .rg input:focus { border-color: var(--or-deco); box-shadow: 0 8px 28px -6px rgba(158, 131, 78, 0.22); }
+.accueil .rg-loupe { stroke: var(--or-deco); }
+.accueil .rg-bouton:hover { background: #263e31; }
+@media (prefers-color-scheme: dark) { .accueil .rg input { box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35); } .accueil .rg-bouton:hover { background: var(--or); } }
+.rg-raccourci { display: none; }
+/* Recherches fréquentes : des pastilles qui lancent la recherche. */
+.rg-frequentes { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: -14px 0 24px; font: 400 11.5px/1 var(--police); color: var(--discret); }
+.rg-frequentes span { margin-right: 2px; }
+.rg-frequentes button { min-height: 30px; padding: 4px 12px; border: 1px solid var(--filet-carte); border-radius: 999px; background: color-mix(in srgb, var(--champ) 55%, transparent);
+  color: var(--encre-2); font: 400 12px/1 var(--police); cursor: pointer; transition: background 0.18s, border-color 0.18s, color 0.18s; }
+.rg-frequentes button:hover { background: var(--champ); border-color: var(--or-deco); color: var(--encre); }
+/* Cartes : la catégorie et « Mis à jour » seulement sur grand écran (cartes) ; ailleurs, la liste reste sobre. */
+.cat, .maj { display: none; }
+.accueil .outils a:hover .nom { color: var(--encre); }
+/* Pied : « Montérégie · Édition 2026 » au centre sur ordinateur ; sur téléphone, « Nouveautés » prend sa place. */
+.pied-centre { display: none; }
+.pied-nouveautes { padding: 14px 10px 14px 0; color: var(--discret); font: inherit; letter-spacing: inherit; }
+.pied-nouveautes.a-point::after { top: 11px; right: 2px; }
+@media (min-width: 720px) { .pied-nouveautes { display: none; } .pied-centre { display: inline; color: var(--encre-2); opacity: 0.85; } }
+/* Fenêtre « Nouveautés ». */
+.nouveautes { width: calc(100% - 32px); max-width: 480px; padding: 28px 28px 22px; border: 1px solid var(--or-bord); border-radius: 16px; background: var(--champ); color: var(--encre);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.16); }
+.nouveautes::backdrop { background: rgba(25, 43, 33, 0.45); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); }
+.nouveautes h2 { margin: 0 0 12px; font: 500 26px/1.1 var(--police-titre); }
+.nouveautes ul { list-style: none; margin: 0; padding: 0; }
+.nouveautes li { padding: 12px 0; border-top: 1px solid var(--filet); font: 400 0.9rem/1.5 var(--police); color: var(--encre-2); }
+.nv-date { display: block; margin-bottom: 2px; font: 500 10px/1.4 var(--police); letter-spacing: 0.16em; text-transform: uppercase; color: var(--or); }
+.nouveautes-fermer { position: absolute; top: 10px; right: 12px; width: 40px; height: 40px; border: 0; background: none; color: var(--discret); font: 300 26px/1 var(--police); cursor: pointer; }
+.nouveautes-fermer:hover { color: var(--encre); }
+
+/* Téléphone : les recherches fréquentes tiennent sur une ligne qui défile ; cachées sur un écran bas. */
+@media (max-width: 719px) {
+  .rg-frequentes { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: -24px; padding-right: 24px; }
+  .rg-frequentes::-webkit-scrollbar { display: none; }
+  .rg-frequentes span { display: none; }
+  .rg-frequentes button { flex: none; }
+  .accueil .installer-note { display: none; }
+}
+@media (max-width: 719px) and (min-height: 521px) {
+  .accueil .rg-frequentes { margin: calc(-1 * clamp(4px, 1.2svh, 12px)) -24px clamp(8px, 1.8svh, 16px) 0; }
+  .accueil.cherche .rg-frequentes { display: none; }
+}
+@media (max-width: 719px) and (max-height: 700px) { .accueil .rg-frequentes { display: none; } }
+
+/* Grand écran : les cartes de la maquette (fond blanc translucide, filet intérieur, catégorie, « Mis à jour »). */
+@media (min-width: 1000px) {
+  .accueil .marque { font-size: 17px; }
+  .accueil .installer-ligne { flex-direction: column; align-items: flex-end; gap: 6px; }
+  /* Cormorant a un petit œil : le titre est 12 % plus grand ; le bouton d'installation suit (même formule). */
+  .accueil main { --taille-titre: clamp(2.7rem, min(5.15vw, 7.4vh), 4.8rem); }
+  main > .rg-frequentes { grid-column: 1 / -1; margin: calc(-1 * clamp(6px, 1.4vh, 16px)) 0 clamp(14px, 2.6vh, 28px); }
+  .rg-raccourci { display: inline-flex; align-items: center; position: absolute; top: 50%; right: calc(var(--rg-marge) + 134px); transform: translateY(-50%); padding: 3px 7px;
+    border: 1px solid var(--filet-carte); border-radius: 6px; background: var(--papier); color: var(--encre-2); font: 500 11px/1.2 var(--police); letter-spacing: 0.04em; pointer-events: none; }
+  .accueil .rg input { padding-right: 210px; }
+  .accueil .outils { gap: clamp(12px, 2vh, 20px); }
+  .accueil .outils a { position: relative; background: var(--carte); border: 1px solid var(--filet-carte); border-radius: 14px; box-shadow: var(--ombre);
+    transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s, background-color 0.25s, border-color 0.25s; }
+  .accueil .outils a::before { content: ""; position: absolute; inset: 6px; border: 1px solid var(--filet-int); border-radius: 10px; pointer-events: none; transition: border-color 0.25s; }
+  .accueil .outils a:hover { transform: translateY(-4px); background: var(--carte-survol); box-shadow: var(--ombre-survol); border-color: var(--or-bord); }
+  .accueil .outils a:hover::before { border-color: var(--or-bord); }
+  .accueil .outils img { transition: transform 0.28s; }
+  .accueil .outils a:hover img { opacity: 1; transform: scale(1.06); }
+  .accueil .cat, .accueil .maj { display: inline-flex; align-items: center; position: absolute; top: 16px; font: 500 9.5px/1.2 var(--police); letter-spacing: 0.14em; text-transform: uppercase; }
+  .accueil .cat { left: 18px; color: var(--discret); }
+  .accueil .maj { right: 18px; gap: 5px; padding: 2px 8px; border-radius: 999px; background: var(--or-clair); color: var(--or); font-weight: 600; letter-spacing: 0.1em; }
+  .accueil .maj::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--or-deco); }
+  .accueil .no { color: var(--or-deco); }
+  .accueil .nom { font-weight: 500; }
+  .accueil .pied { align-items: center; }
+}
+@media (prefers-reduced-motion: reduce) { .accueil .outils a, .accueil .outils img { transition: none; } .accueil .outils a:hover, .accueil .outils a:hover img { transform: none; } }

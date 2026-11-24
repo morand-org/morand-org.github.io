@@ -104,7 +104,7 @@ async function accueil(nav) {
     const b = await p.evaluate(() => { const i = document.getElementById("rg-q"), bt = document.querySelector(".rg-bouton"), ri = i.getBoundingClientRect(), rb = bt.getBoundingClientRect();
       const cs = getComputedStyle(i), ps = getComputedStyle(i, "::placeholder"), c = document.createElement("canvas").getContext("2d"); c.font = `${ps.fontWeight} ${ps.fontSize} Inter`;
       return { texte: bt.textContent, dedans: rb.left > ri.left && rb.right <= ri.right && rb.top >= ri.top && rb.bottom <= ri.bottom, haut: rb.height,
-        place: i.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight), exemple: Math.ceil(c.measureText(i.placeholder).width), titre: document.querySelector("h1").getBoundingClientRect().top, tete: document.querySelector(".tete").getBoundingClientRect().bottom }; });
+        place: ri.width - parseFloat(cs.borderLeftWidth) - parseFloat(cs.borderRightWidth) - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight), /* clientWidth d'un champ de recherche vaut 200 dans Chromium */ exemple: Math.ceil(c.measureText(i.placeholder).width), titre: document.querySelector("h1").getBoundingClientRect().top, tete: document.querySelector(".tete").getBoundingClientRect().bottom }; });
     verifier(`accueil ${largeur}×${hauteur} : bouton « Chercher » dans le champ`, b.texte === "Chercher" && b.dedans && b.haut >= 34, b);
     verifier(`accueil ${largeur}×${hauteur} : l'exemple de recherche n'est pas coupé`, b.exemple <= b.place, b);
     verifier(`accueil ${largeur}×${hauteur} : le titre ne passe pas sous l'en-tête`, b.titre >= b.tete, b);
