@@ -1,0 +1,291 @@
+# Audit du quiz, hanche et bassin (24 novembre 2026). Format et échelles : voir outils/entrainement/appliquer-audit.mjs.
+# Pertinence : 1 essentielle, 2 importante, 3 complémentaire, 4 pointue (médecine du sport) ; 0 retirée (raison « r: »).
+# Niveau : L léger, M modéré, D difficile.
+@ msk-hanche HANC
+& Hanche et bassin
+= H1 99
+= H2 100
+= H9 104
+= H3 101
+= H12 107
+= H4 102
+= H23 112
+= H11 106
+= H17 115
+= H5 114
+= H19 116
+= H28 116
+
+## 99 Coxarthrose
+099-01 2 M
+099-02 3 D | e: Accroupissement indolore
+099-03 1 M
+099-04 2 D | e: Pas de douleur à l'aine en abduction ou en adduction passive
+099-05 1 M
+099-06 1 M
+099-07 1 L
+099-08 2 M
+099-09 2 M
+099-10 1 L
+099-11 1 D
+099-12 2 D
+099-13 3 L
+099-14 2 M
+099-15 2 M | e: Un seul de ces 5 signes ou aucun (âge > 60 ans, douleur > 3 mois, pas d'aggravation assis, sensibilité de l'aine, rotation externe diminuée)
+099-16 1 D
++ H1 pre 1 L ↑ anam | Douleur de l'aine aggravée dans les escaliers
++ H1 epi 2 L ↑ demo | Sexe féminin
++ H1 epi 2 L ↑ risq | Obésité
+
+## 103 Conflit fémoro-acétabulaire ou lésion du labrum
+103-01 2 D | e: FADIR positif | def: FADIR : flexion, adduction et rotation interne de la hanche ; positif s'il reproduit la douleur de l'aine.
+103-02 2 M
+103-03 2 M
+103-04 3 D
+103-05 3 D | e: FABER, squat ou scour test positif
+103-06 2 D
+103-07 2 D | def: Morphologie en came : bosse osseuse à la jonction tête-col du fémur, qui accroche le rebord du cotyle en flexion.
+103-08 2 D
+103-09 4 M
+103-10 3 L | e: Sportif de sexe masculin
+
+## 117 Ostéonécrose de la tête fémorale
+117-01 1 L | e: Corticoïdes : dose cumulée de plus de 2 g d'équivalent prednisone
+117-02 3 M | e: Lupus traité par prednisone ≥ 20 mg/j pendant plus d'un mois
+117-03 3 D
+117-04 3 D
+117-05 1 L
+117-06 2 L
+117-07 0 - | r: Énoncé confus (obésité), carte expérimentale.
+117-08 2 L | e: Drépanocytose ou VIH
+117-09 2 L
+117-10 3 M
+117-11 2 D
+117-12 1 D
+117-13 3 M
+117-14 3 M
+
+## 100 Syndrome douloureux du grand trochanter
+100-01 2 M | e: Douleur latérale de la hanche en 30 secondes d'appui sur une jambe
+100-02 3 D | e: Pas de douleur latérale en 30 secondes d'appui sur une jambe
+100-03 1 M
+100-04 1 L
+100-05 3 M | def: Dérotation externe résistée : hanche fléchie à 90° et en rotation externe, on résiste au retour vers la position neutre.
+100-06 3 D
+100-07 2 M
+100-08 2 M | e: FABER qui reproduit la douleur latérale
+100-09 3 D | e: Test d'Ober positif | def: Test d'Ober : couché sur le côté, on laisse tomber en adduction la jambe du dessus ; elle reste en l'air si la bandelette ilio-tibiale est tendue.
+100-10 2 M
+100-11 1 L
+100-12 3 D | e: Obésité ou âge
+100-13 2 D
+100-14 3 D
++ H2 pre 1 L ↑ anam | Douleur latérale de la hanche, couché sur le côté
++ H2 epi 2 L ↑ demo | Femme de 50 à 79 ans
+
+## 104 Ilio-psoas ou hanche à ressaut
+104-01 3 D | e: Ressaut de hanche isolé, sans douleur
+104-02 0 - | r: Test récent tiré d'une seule étude (n = 44), non décrit dans la source.
+104-03 0 - | r: Test récent tiré d'une seule étude (n = 44), non décrit dans la source.
+104-04 3 D
+104-05 3 D
+104-06 3 D | e: Test de Thomas ou ressaut provoqué
+104-07 4 D | e: IRM positive
++ H9 epi 4 L ↑ risq | Danseuse ou danseur de ballet
+
+## 110 Tendinopathie proximale des ischio-jambiers
+110-01 4 M | e: Tests de Puranen-Orava et du genou fléchi positifs
+110-02 2 L | e: Douleur fessière basse en position assise, avec sensibilité de l'ischion, chez un coureur
+110-03 3 D
+110-04 4 M
+110-05 3 D
+110-06 4 M | e: Échographie positive
+
+## 101 Douleur de l'aine liée aux adducteurs
+101-01 2 M | e: Adducteurs indolores à la palpation
+101-02 1 L | e: Adduction résistée, squeeze ou étirement passif douloureux
+101-03 3 M | e: Défaut palpable dans les adducteurs
+101-04 2 L
+101-05 3 M
+101-06 4 D
+101-07 3 D
+101-08 3 D | def: Squeeze test : genoux fléchis, le patient serre un poing ou un ballon entre ses genoux ; positif s'il donne une douleur à l'aine.
+101-09 3 L
++ H3 epi 3 L ↑ risq | Joueur de soccer
+
+## 107 Ostéite pubienne
+107-01 1 L | e: Sensibilité de la symphyse pubienne et de l'os voisin
+107-02 4 D
+107-03 4 M | e: Œdème osseux pubien de grade 3 à l'IRM
+107-04 0 - | r: Signe d'imagerie de spécialiste, retrouvé aussi chez des sportifs sans douleur.
+107-05 3 M
+107-06 0 - | r: Donnée descriptive (anomalies d'IRM sans valeur prédictive chez le jeune footballeur).
++ H12 exa 2 M ↓ exam | Symphyse pubienne indolore à la palpation
+
+## 108 Pubalgie pariétale (canal inguinal)
+108-01 3 L
+108-02 2 L
+108-03 4 M
+108-04 0 - | r: Donnée descriptive (bombement fréquent, non prédictif).
+108-05 3 M | e: Redressement assis croisé (cross-body sit-up) négatif
+108-06 3 D | e: Redressement assis croisé positif
+108-07 4 M | e: Lésion du droit de l'abdomen à l'IRM
+108-08 3 M | e: Hernie inguinale vraie
+
+## 102 Lésion aiguë des ischio-jambiers
+102-01 1 L
+102-02 3 M | e: Âge plus avancé, ou antécédent de rupture du LCA ou de lésion du mollet
+102-03 4 D
+102-04 0 - | r: Mesure d'échographie de recherche (longueur des faisceaux musculaires), non reproduite.
+102-05 1 L | e: Début brutal au sprint, après l'échauffement
+102-06 2 M
+102-07 2 D | e: Sensibilité et douleur à la contraction résistée
+102-08 2 D
+102-09 4 M | e: Test du retrait de la chaussure positif | def: Test du retrait de la chaussure : debout, le patient retire sa chaussure en poussant avec l'autre pied (flexion active du genou) ; positif s'il donne une douleur à l'arrière de la cuisse.
++ H4 pre 1 L ↑ anam | Douleur à l'arrière de la cuisse pendant un sprint ou un étirement
+
+## 112 Contusion de la cuisse ou de la crête iliaque
+112-01 0 - | r: Énoncé ambigu : la myosite ossifiante est une complication de la contusion, pas un indice.
+112-02 3 M | e: Douleur et tuméfaction qui persistent au-delà de 10 à 14 jours | def: Myosite ossifiante : ossification dans un muscle après une contusion importante.
+112-03 2 M
++ H23 pre 1 L ↑ anam | Coup direct sur la cuisse, masse sensible
+
+## 105 Syndrome du piriforme (fessier profond)
+105-01 3 M | def: Test actif du piriforme : couché sur le côté sain, le patient pousse le talon contre la table et soulève le genou contre résistance ; positif s'il donne une douleur fessière.
+105-02 3 M | e: Test actif du piriforme et étirement assis tous deux négatifs
+105-03 3 M | e: Test actif du piriforme et étirement assis tous deux positifs
+105-04 3 D
+105-05 0 - | r: Test électrophysiologique non reproduit (biais d'incorporation), sans usage au bureau.
+105-06 4 D
+105-07 2 L
+105-08 2 M | e: Déficit moteur ou sensitif vrai
+
+## 106 Méralgie paresthésique
+106-01 2 L
+106-02 0 - | r: Énoncé tronqué (« : 2 % des cas à Taïwan »), illisible.
+106-03 2 L | e: IMC élevé
+106-04 0 - | r: Énoncé confus (« sexe »), carte expérimentale.
+106-05 1 L
+106-06 3 M | def: Test de compression pelvienne : couché sur le côté sain, on comprime le bassin vers la table pendant 45 secondes ; positif si les symptômes diminuent.
+106-07 3 M
+106-08 1 M
+106-09 3 L
+106-10 4 M | e: Surface du nerf de plus de 5 mm² à l'échographie
+106-11 0 - | r: Notion technique d'électromyographie, sans usage au bureau.
++ H11 pre 1 L ↑ anam | Engourdissement ou brûlure de la face antéro-latérale de la cuisse, sans faiblesse
+
+## 113 Douleur projetée d'origine lombaire
+113-01 1 M
+113-02 2 M
+113-03 3 D
+113-04 3 D | e: Topographie de la douleur, prise seule
+113-05 2 M
+113-06 3 M
+113-07 2 D
+113-08 2 M
+113-09 3 M
+113-10 3 D
+
+## 109 Avulsion apophysaire du bassin
+109-01 2 L
+109-02 2 L
+109-03 1 L
+109-04 4 D
+109-05 0 - | r: Donnée descriptive (erreur diagnostique fréquente), sans sens diagnostique.
+109-06 3 M
+109-07 3 M
+109-08 2 M
+
+## 111 Apophysite de la crête iliaque
+111-01 4 L
+111-02 3 M
+111-03 3 D
+111-04 4 D
+111-05 4 M
+111-06 3 M
+
+## 115 Épiphysiolyse fémorale supérieure
+115-01 1 L
+115-02 2 D
+115-03 2 M | e: IMC au-dessus du 95e percentile
+115-04 2 M | e: IMC sous le 95e percentile
+115-05 2 M
+115-06 1 D
+115-07 1 M | def: Signe de Drehmann : la hanche part en rotation externe quand on la fléchit.
+115-08 3 D | def: Ligne de Klein : ligne tracée le long du bord supérieur du col fémoral, sur la radiographie de face ; normalement, elle coupe la tête fémorale.
+115-09 3 M
+115-10 3 M
+115-11 2 L
++ H17 epi 1 L ↑ demo | Enfant de 8 à 16 ans qui boite
++ H17 exa 1 M ↑ exam | Rotation interne de la hanche limitée chez l'adolescent
+
+## 114 Fracture de la hanche
+114-01 2 M | def: Percussion patello-pubienne : stéthoscope sur la symphyse pubienne, on percute la rotule ; un son atténué du côté atteint évoque une fracture.
+114-02 2 M
+114-03 0 - | r: Doublon de la percussion patello-pubienne (autre étude), source de confusion.
+114-04 1 M | e: Roulement du membre (log roll) et élévation de la jambe tendue indolores
+114-05 2 D | e: Roulement du membre et élévation de la jambe tendue douloureux
+114-06 1 L
+114-07 2 M
+114-08 1 L
+114-09 1 L
+114-10 1 D
+114-11 2 D
+114-12 3 D | def: FRAX : calculateur du risque de fracture ostéoporotique à 10 ans.
++ H5 pre 1 L ↑ exam | Membre raccourci en rotation externe après une chute
++ H5 pre 1 L ↑ anam | Appui impossible après une chute, chez une personne âgée
+
+## 116 Fracture de stress du col ou de la diaphyse fémorale
+116-01 3 L | e: Recrue militaire de sexe féminin
+116-02 4 M | e: Score de risque élevé de la triade de l'athlète féminine | def: Triade de l'athlète féminine : apport énergétique insuffisant, troubles menstruels et densité osseuse basse.
+116-03 4 M
+116-04 3 D
+116-05 3 D | e: IMC
+116-06 3 D | e: Test du levier (fulcrum test) positif | def: Test du levier : patient assis, l'avant-bras de l'examinateur sert d'appui sous la cuisse et on pousse le genou vers le bas ; positif s'il réveille la douleur.
+116-07 2 M | e: Douleur de l'aine en fin d'amplitude de la hanche, chez un coureur
+116-08 1 D
+116-09 2 L
+116-10 3 M
++ H19 epi 2 L ↑ demo | Femme qui court
++ H19 pre 1 M ↑ anam | Douleur insidieuse de l'aine à l'effort, chez une coureuse
++ H28 pre 3 M ↑ anam | Douleur vague de la cuisse ou du genou à la course
+
+## 118 Fracture de fragilité du bassin ou du sacrum
+118-01 1 L
+118-02 2 D
+118-03 2 L
+118-04 2 L | e: Corticothérapie chronique ou polyarthrite rhumatoïde
+118-05 3 D | e: Siège de la douleur (fesse, bas du dos ou aine)
+118-06 1 D
+118-07 2 D
+118-08 2 M | e: Fracture d'une branche pubienne déjà visible
+118-09 0 - | r: Signe de scintigraphie, imagerie de deuxième ligne.
+
+## 119 Polymyalgia rheumatica (hanche)
+119-01 2 L
+119-02 0 - | r: Énoncé obscur (« après ajout de l'échographie »).
+119-03 1 L | e: Raideur matinale de plus de 45 minutes
+119-04 1 L
+119-05 3 M
+119-06 3 D | e: Bursite trochantérienne bilatérale à l'échographie
+119-07 3 M
+119-08 0 - | r: Donnée descriptive (fréquence très variable selon les séries).
+119-09 4 M
+119-10 1 L
+119-11 1 M
+119-12 2 D
+119-13 2 D
+
+## Diagnostics des fiches sans carte jusqu'ici
++ H16 epi 1 L ↑ demo | Fille
++ H16 epi 1 L ↑ risq | Présentation du siège à la naissance
++ H16 epi 1 L ↑ risq | Antécédent familial de dysplasie de la hanche
++ H16 epi 2 L ↑ risq | Emmaillotement serré des jambes
++ H16 exa 1 M ↑ test | Barlow ou Ortolani positif | def: Barlow et Ortolani : manœuvres du nouveau-né ; Barlow luxe une hanche instable (poussée vers l'arrière), Ortolani la réduit (abduction avec un ressaut).
++ H16 exa 2 D ↔ exam | Clic isolé de la hanche du nouveau-né
++ H18 epi 2 L ↑ demo | Garçon
++ H18 pre 1 L ↑ anam | Boiterie depuis des semaines, avec ou sans douleur, parfois au genou | def: Maladie de Legg-Calvé-Perthes : nécrose de la tête fémorale chez l'enfant.
++ H8 pre 1 L ↑ anam | Boiterie après une infection virale, avec fébricule
++ H8 epi 3 L ↑ demo | Garçon
++ H21 pre 1 L ↑ anam | Fièvre et refus d'appui chez l'enfant
++ H21 exa 2 M ↑ test | Critères de Kocher modifiés réunis | def: Critères de Kocher modifiés : fièvre ≥ 38,5 °C, refus d'appui, VS ≥ 40 mm/h, leucocytes > 12 000/mm³ et CRP > 20 mg/L.

@@ -62,11 +62,13 @@
   {
    "cle": "msk-hanche",
    "domaine": "MSK",
-   "region": "Hanche",
+   "region": "Hanche et bassin",
    "fichier": "/entrainement/banque/msk-hanche.json",
-   "cartes": 200,
+   "cartes": 230,
    "experimentales": 2,
-   "diagnostics": 21
+   "diagnostics": 25,
+   "retirees": 17,
+   "jouables": 213
   },
   {
    "cle": "msk-genou",
