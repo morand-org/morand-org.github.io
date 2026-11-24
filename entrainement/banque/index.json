@@ -18,11 +18,13 @@
   {
    "cle": "msk-lombaire",
    "domaine": "MSK",
-   "region": "Rachis lombaire",
+   "region": "Rachis lombaire et dorsal",
    "fichier": "/entrainement/banque/msk-lombaire.json",
-   "cartes": 148,
+   "cartes": 207,
    "experimentales": 1,
-   "diagnostics": 16
+   "diagnostics": 36,
+   "retirees": 7,
+   "jouables": 199
   },
   {
    "cle": "msk-epaule",
