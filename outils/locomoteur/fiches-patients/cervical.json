@@ -1,1 +1,88 @@
-{"pages": 25, "fiches": [{"no": 1, "total": 12, "titre": "Douleur mécanique au cou (cervicalgie)", "debut": 1, "fin": 2}, {"no": 2, "total": 12, "titre": "Tensions et nœuds musculaires entre le cou et l'épaule", "debut": 3, "fin": 4}, {"no": 3, "total": 12, "titre": "Douleur des petites articulations à l'arrière du cou", "debut": 5, "fin": 6}, {"no": 4, "total": 12, "titre": "Usure normale du cou (arthrose cervicale)", "debut": 7, "fin": 8}, {"no": 5, "total": 12, "titre": "Entorse du cou après un choc (coup du lapin)", "debut": 9, "fin": 10}, {"no": 6, "total": 12, "titre": "Mal de tête venant du cou (céphalée cervicogénique)", "debut": 11, "fin": 12}, {"no": 7, "total": 12, "titre": "Élongation ou contracture d'un muscle du cou (sportif)", "debut": 13, "fin": 14}, {"no": 8, "total": 12, "titre": "Nerf irrité au cou avec douleur au bras (radiculopathie)", "debut": 15, "fin": 18}, {"no": 10, "total": 12, "titre": "Cou bloqué d'un côté (torticolis aigu)", "debut": 19, "fin": 20}, {"no": 11, "total": 12, "titre": "Nerfs à l'étroit entre le cou et l'épaule (défilé thoracique)", "debut": 21, "fin": 22}, {"no": 12, "total": 12, "titre": "Douleur vive à l'arrière du crâne (névralgie d'Arnold)", "debut": 23, "fin": 25}]}
+{
+ "pages": 25,
+ "fiches": [
+  {
+   "no": 1,
+   "total": 12,
+   "titre": "Douleur mécanique au cou (cervicalgie)",
+   "debut": 1,
+   "fin": 2
+  },
+  {
+   "no": 2,
+   "total": 12,
+   "titre": "Tensions et nœuds musculaires entre le cou et l'épaule",
+   "debut": 3,
+   "fin": 4
+  },
+  {
+   "no": 3,
+   "total": 12,
+   "titre": "Douleur des petites articulations à l'arrière du cou",
+   "debut": 5,
+   "fin": 6
+  },
+  {
+   "no": 4,
+   "total": 12,
+   "titre": "Usure normale du cou (arthrose cervicale)",
+   "debut": 7,
+   "fin": 8
+  },
+  {
+   "no": 5,
+   "total": 12,
+   "titre": "Entorse du cou après un choc (coup du lapin)",
+   "debut": 9,
+   "fin": 10
+  },
+  {
+   "no": 6,
+   "total": 12,
+   "titre": "Mal de tête venant du cou (céphalée cervicogénique)",
+   "debut": 11,
+   "fin": 12
+  },
+  {
+   "no": 7,
+   "total": 12,
+   "titre": "Élongation ou contracture d'un muscle du cou (sportif)",
+   "debut": 13,
+   "fin": 14
+  },
+  {
+   "no": 8,
+   "total": 12,
+   "titre": "Nerf irrité au cou avec douleur au bras (radiculopathie)",
+   "debut": 15,
+   "fin": 16
+  },
+  {
+   "no": 9,
+   "titre": "Décharge électrique dans un bras après un impact (stinger)",
+   "debut": 17,
+   "fin": 18
+  },
+  {
+   "no": 10,
+   "total": 12,
+   "titre": "Cou bloqué d'un côté (torticolis aigu)",
+   "debut": 19,
+   "fin": 20
+  },
+  {
+   "no": 11,
+   "total": 12,
+   "titre": "Nerfs à l'étroit entre le cou et l'épaule (défilé thoracique)",
+   "debut": 21,
+   "fin": 22
+  },
+  {
+   "no": 12,
+   "total": 12,
+   "titre": "Douleur vive à l'arrière du crâne (névralgie d'Arnold)",
+   "debut": 23,
+   "fin": 25
+  }
+ ]
+}

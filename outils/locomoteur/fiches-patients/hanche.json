@@ -1,1 +1,109 @@
-{"pages": 31, "fiches": [{"no": 1, "total": 15, "titre": "Arthrose de la hanche (coxarthrose)", "debut": 1, "fin": 2}, {"no": 2, "total": 15, "titre": "Douleur sur le côté de la hanche (tendinopathie fessière)", "debut": 3, "fin": 4}, {"no": 3, "total": 15, "titre": "Douleur aux muscles à l'intérieur de la cuisse (adducteurs)", "debut": 5, "fin": 8}, {"no": 5, "total": 15, "titre": "Pincement à l'avant de la hanche (conflit fémoro-acétabulaire)", "debut": 9, "fin": 10}, {"no": 6, "total": 15, "titre": "Tendon qui claque ou tire à l'avant de la hanche (ilio-psoas)", "debut": 11, "fin": 12}, {"no": 7, "total": 15, "titre": "Douleur profonde dans la fesse (syndrome du piriforme)", "debut": 13, "fin": 14}, {"no": 8, "total": 15, "titre": "Brûlure ou engourdissement sur le côté de la cuisse", "debut": 15, "fin": 16}, {"no": 9, "total": 15, "titre": "Irritation de l'os du pubis (ostéite pubienne)", "debut": 17, "fin": 18}, {"no": 10, "total": 15, "titre": "Douleur inguinale du sportif (pubalgie pariétale)", "debut": 19, "fin": 20}, {"no": 11, "total": 15, "titre": "Arrachement d'une zone de croissance du bassin", "debut": 21, "fin": 22}, {"no": 12, "total": 15, "titre": "Tendinopathie (« tendinite ») en haut de l'arrière de la cuisse,", "debut": 23, "fin": 24}, {"no": 13, "total": 15, "titre": "Douleur sur le bord de l'os du bassin chez l'adolescent", "debut": 25, "fin": 26}, {"no": 14, "total": 15, "titre": "Coup direct sur la cuisse ou l'os de la hanche (contusion)", "debut": 27, "fin": 28}, {"no": 15, "total": 15, "titre": "Douleur à la hanche venant du bas du dos", "debut": 29, "fin": 31}]}
+{
+ "pages": 31,
+ "fiches": [
+  {
+   "no": 1,
+   "total": 15,
+   "titre": "Arthrose de la hanche (coxarthrose)",
+   "debut": 1,
+   "fin": 2
+  },
+  {
+   "no": 2,
+   "total": 15,
+   "titre": "Douleur sur le côté de la hanche (tendinopathie fessière)",
+   "debut": 3,
+   "fin": 4
+  },
+  {
+   "no": 3,
+   "total": 15,
+   "titre": "Douleur aux muscles à l'intérieur de la cuisse (adducteurs)",
+   "debut": 5,
+   "fin": 6
+  },
+  {
+   "no": 4,
+   "titre": "Claquage à l'arrière de la cuisse (ischio-jambiers)",
+   "debut": 7,
+   "fin": 8
+  },
+  {
+   "no": 5,
+   "total": 15,
+   "titre": "Pincement à l'avant de la hanche (conflit fémoro-acétabulaire)",
+   "debut": 9,
+   "fin": 10
+  },
+  {
+   "no": 6,
+   "total": 15,
+   "titre": "Tendon qui claque ou tire à l'avant de la hanche (ilio-psoas)",
+   "debut": 11,
+   "fin": 12
+  },
+  {
+   "no": 7,
+   "total": 15,
+   "titre": "Douleur profonde dans la fesse (syndrome du piriforme)",
+   "debut": 13,
+   "fin": 14
+  },
+  {
+   "no": 8,
+   "total": 15,
+   "titre": "Brûlure ou engourdissement sur le côté de la cuisse",
+   "debut": 15,
+   "fin": 16
+  },
+  {
+   "no": 9,
+   "total": 15,
+   "titre": "Irritation de l'os du pubis (ostéite pubienne)",
+   "debut": 17,
+   "fin": 18
+  },
+  {
+   "no": 10,
+   "total": 15,
+   "titre": "Douleur inguinale du sportif (pubalgie pariétale)",
+   "debut": 19,
+   "fin": 20
+  },
+  {
+   "no": 11,
+   "total": 15,
+   "titre": "Arrachement d'une zone de croissance du bassin",
+   "debut": 21,
+   "fin": 22
+  },
+  {
+   "no": 12,
+   "total": 15,
+   "titre": "Tendinopathie (« tendinite ») en haut de l'arrière de la cuisse,",
+   "debut": 23,
+   "fin": 24
+  },
+  {
+   "no": 13,
+   "total": 15,
+   "titre": "Douleur sur le bord de l'os du bassin chez l'adolescent",
+   "debut": 25,
+   "fin": 26
+  },
+  {
+   "no": 14,
+   "total": 15,
+   "titre": "Coup direct sur la cuisse ou l'os de la hanche (contusion)",
+   "debut": 27,
+   "fin": 28
+  },
+  {
+   "no": 15,
+   "total": 15,
+   "titre": "Douleur à la hanche venant du bas du dos",
+   "debut": 29,
+   "fin": 31
+  }
+ ]
+}
