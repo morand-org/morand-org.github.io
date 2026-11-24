@@ -79,7 +79,6 @@ ${groupes.map(([r, l]) => `  <h2 class="lo-regions-titre hy-serie">${esc(NOMS[r]
   <ol class="hy-patients">
 ${l.map(([page, , titre, niveau]) => { const f = `${slug(page - 1, titre)}.pdf`; return `    <li><a href="/locomoteur/infiltrations/${f}" target="_blank" rel="noopener"><span class="hy-carte-no">${page === 1 ? "À lire d'abord" : `Niveau de preuve ${niveau.replace(" ⚠", "")}${niveau.includes("⚠") ? " · pas en première intention" : ""}`}</span><span class="hy-carte-titre">${esc(titre)}</span><span class="hy-carte-tags">PDF · 1 page · ${ko(f)} Ko</span></a></li>`; }).join("\n")}
   </ol>`).join("\n")}
-  <p class="cr-petit hy-note">Fiches rédigées par le Dr Morand pour le médecin qui pratique l'infiltration ; elles ne remplacent ni la formation pratique ni le jugement clinique.</p>
 ` + pied);
 
 fs.writeFileSync(path.join(RACINE, "locomoteur/fiches-infiltration.js"), `/* Produit par node outils/locomoteur/fiches-infiltration.mjs. Ne pas modifier à la main.

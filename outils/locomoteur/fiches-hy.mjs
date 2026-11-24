@@ -185,7 +185,6 @@ ${fiches.filter(f => f.serie === s.nom).map(carte).join("\n")}
     <p class="hy-actions"><a class="lo-bouton" href="/locomoteur/${region}/">Ouvrir le calcul pour ${esc(R.calcul)}</a></p>
   </section>
 ${listes}
-  <p class="cr-petit hy-note">Fiches rédigées par le clinicien à partir de la littérature citée ; termes adaptés à l'usage québécois.</p>
 ` + pied);
   resume.push({ region, nom: R.nom, n: fiches.length, lies: Object.keys(liensJs[region]).length });
 }
