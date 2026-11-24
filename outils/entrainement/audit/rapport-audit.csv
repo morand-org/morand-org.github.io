@@ -1322,6 +1322,7 @@ Genou;1 Essentielle;Léger;Arthrite septique;Chirurgie articulaire récente;↑ 
 Genou;1 Essentielle;Léger;Arthrite septique;Âge > 80 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-141-02
 Genou;1 Essentielle;Léger;Arthrite septique;Leucocytes synoviaux > 100 000/mm³;↑ Augmente;Anamnèse;Base des flashcards;Leucocytes synoviaux > 100 000;;;MSK-141-05
 Genou;1 Essentielle;Léger;Arthrite septique;Coloration de Gram positive;↑ Augmente;Tests spécifiques;Base des flashcards;Gram positif;;;MSK-141-10
+Genou;1 Essentielle;Léger;Arthrite septique;Prothèse du genou;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G22 (épidémiologie));;;;MSK-GENO-G22-01
 Genou;1 Essentielle;Modéré;Arthrite septique;Leucocytes synoviaux < 25 000/mm³;↓ Diminue;Anamnèse;Base des flashcards;Leucocytes synoviaux < 25 000;;;MSK-141-06
 Genou;1 Essentielle;Difficile;Arthrite septique;Fièvre;↔ Neutre;Drapeaux rouges;Base des flashcards;;;;MSK-141-03
 Genou;1 Essentielle;Difficile;Arthrite septique;Leucocytes synoviaux < 50 000/mm³;↔ Neutre;Anamnèse;Base des flashcards;Leucocytes synoviaux < 50 000;;;MSK-141-09
@@ -1329,11 +1330,15 @@ Genou;1 Essentielle;Difficile;Arthrite septique;Coloration de Gram négative;↔
 Genou;1 Essentielle;Difficile;Arthrite septique;Cristaux dans le liquide articulaire;↔ Neutre;Laboratoire;Base des flashcards;Cristaux dans le liquide;;;MSK-141-12
 Genou;1 Essentielle;Léger;Arthrose du genou;Élargissement osseux du genou;↑ Augmente;Anamnèse;Base des flashcards;Élargissement osseux;;;MSK-121-01
 Genou;1 Essentielle;Léger;Arthrose du genou;Âge de plus de 45 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V375-01
+Genou;1 Essentielle;Léger;Arthrose du genou;Ancienne blessure du genou;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G2 (épidémiologie));;;;MSK-GENO-G02-01
 Genou;1 Essentielle;Modéré;Arthrose du genou;Absence de crépitation;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-121-03
 Genou;1 Essentielle;Modéré;Arthrose du genou;Absence de raideur matinale brève;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-121-05
+Genou;1 Essentielle;Modéré;Arthrose du genou;Genou rouge et enflé;↓ Diminue;Examen physique;Nouvelle (Fiche résumée G2 (examen physique));;;;MSK-GENO-G02-03
 Genou;1 Essentielle;Difficile;Arthrose du genou;Anomalies à l'IRM après 50 ans;↔ Neutre;Imagerie;Base des flashcards;Anomalies à l'IRM;;;MSK-121-14
 Genou;1 Essentielle;Léger;Bursite prépatellaire non infectée;Travail à genoux;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-130-01
+Genou;1 Essentielle;Modéré;Bursite prépatellaire non infectée;Fièvre ou plaie sur la bourse;↓ Diminue;Examen physique;Nouvelle (Fiche résumée G11 (examen physique));;;;MSK-GENO-G11-02
 Genou;1 Essentielle;Modéré;Contusion ou entorse légère, sans lésion structurelle;Règle d'Ottawa du genou négative;↑ Augmente;Tests spécifiques;Base des flashcards;Règle d'Ottawa négative;Règle d'Ottawa du genou : radiographie si âge ≥ 55 ans, sensibilité isolée de la rotule ou de la tête du péroné, flexion impossible à 90° ou appui impossible sur 4 pas.;;MSK-134-01
+Genou;1 Essentielle;Modéré;Contusion ou entorse légère, sans lésion structurelle;« Pop » avec gonflement immédiat;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée G15 (présentation clinique));;;;MSK-GENO-G15-01
 Genou;1 Essentielle;Difficile;Contusion ou entorse légère, sans lésion structurelle;Règle d'Ottawa du genou positive;↔ Neutre;Tests spécifiques;Base des flashcards;Règle d'Ottawa positive;;;MSK-134-02
 Genou;1 Essentielle;Léger;Déchirure méniscale (sans blocage);Âge > 40 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-122-07
 Genou;1 Essentielle;Modéré;Déchirure méniscale (sans blocage);Traumatisme en pivot, douleur médiale et interligne médial sensible;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-122-05
@@ -1342,29 +1347,47 @@ Genou;1 Essentielle;Difficile;Déchirure méniscale (sans blocage);Sensibilité 
 Genou;1 Essentielle;Difficile;Déchirure méniscale (sans blocage);Déchirure méniscale à l'IRM après 50 ans;↔ Neutre;Imagerie;Base des flashcards;Déchirure à l'IRM après 50 ans;;;MSK-122-10
 Genou;1 Essentielle;Léger;Entorse d'un ligament collatéral;Traumatisme par force externe sur la jambe;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-125-05
 Genou;1 Essentielle;Modéré;Entorse d'un ligament collatéral;Absence de laxité au valgus à 30°;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-125-03
+Genou;1 Essentielle;Léger;Entorse du LCP;Choc sur le haut du tibia, genou fléchi (tableau de bord);↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G5 (présentation clinique));;;;MSK-GENO-G05-01
+Genou;1 Essentielle;Léger;Fracture sous-chondrale d'insuffisance;Douleur médiale soudaine, pire la nuit et en charge;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G23 (présentation clinique));;;;MSK-GENO-G23-02
+Genou;1 Essentielle;Léger;Goutte ou chondrocalcinose du genou;Douleur maximale en moins de 24 heures, avec rougeur;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G20 (présentation clinique));;;;MSK-GENO-G20-01
 Genou;1 Essentielle;Difficile;Goutte ou chondrocalcinose du genou;Uricémie normale pendant la crise;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-139-10
 Genou;1 Essentielle;Léger;Instabilité ou luxation de la rotule;Âge de 14 à 18 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V380-01
+Genou;1 Essentielle;Léger;Instabilité ou luxation de la rotule;Torsion en flexion et valgus, sans contact, chez un adolescent;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G7 (présentation clinique));;;;MSK-GENO-G07-01
 Genou;1 Essentielle;Modéré;Instabilité ou luxation de la rotule;Hémarthrose chez l'enfant après un traumatisme;↑ Augmente;Facteurs démographiques;Base des flashcards;Hémarthrose de l'enfant;;;MSK-126-07
 Genou;1 Essentielle;Léger;Kyste poplité (de Baker);Gonarthrose douloureuse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-137-01
+Genou;1 Essentielle;Léger;Kyste poplité (de Baker);Tuméfaction derrière le genou;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G18 (présentation clinique));;;;MSK-GENO-G18-01
+Genou;1 Essentielle;Modéré;Kyste poplité (de Baker);Masse poplitée pulsatile;↓ Diminue;Examen physique;Nouvelle (Fiche résumée G18 (examen physique));;;;MSK-GENO-G18-02
 Genou;1 Essentielle;Léger;Maladie d'Osgood-Schlatter;Sports de saut et de ballon;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-132-02
 Genou;1 Essentielle;Léger;Maladie d'Osgood-Schlatter;Enfant de 11 à 13 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V386-01
+Genou;1 Essentielle;Léger;Maladie d'Osgood-Schlatter;Douleur à la tubérosité tibiale à la course, aux sauts et à genoux;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G13 (présentation clinique));;;;MSK-GENO-G13-01
+Genou;1 Essentielle;Modéré;Maladie d'Osgood-Schlatter;Début aigu avec impotence;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée G13 (examen physique));;;;MSK-GENO-G13-02
+Genou;1 Essentielle;Léger;Maladie de Sinding-Larsen-Johansson;Douleur au pôle inférieur de la rotule chez un enfant d'environ 11 ans;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G14 (présentation clinique));;;;MSK-GENO-G14-01
 Genou;1 Essentielle;Léger;Ostéochondrite disséquante du genou;Âge de 12 à 19 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-138-02
 Genou;1 Essentielle;Léger;Rupture du LCA;Test de Lachman positif;↑ Augmente;Tests spécifiques;Base des flashcards;;"Test de Lachman : genou fléchi à 20–30°, on tire le tibia vers l'avant ; un arrêt mou ou une translation accrue évoque une rupture du LCA.";;MSK-123-01
 Genou;1 Essentielle;Léger;Rupture du LCA;Sensation de craquement (« pop »);↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-123-08
 Genou;1 Essentielle;Léger;Rupture du LCA;Mécanisme en pivot avec « pop »;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-123-09
 Genou;1 Essentielle;Léger;Rupture du LCA;Hémarthrose traumatique;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-123-11
+Genou;1 Essentielle;Léger;Rupture du LCA;Sport de pivot (soccer, basketball, handball, ski);↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G4 (épidémiologie));;;;MSK-GENO-G04-01
 Genou;1 Essentielle;Modéré;Rupture du LCA;Test de Lachman négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-123-02
+Genou;1 Essentielle;Léger;Syndrome de la bandelette ilio-tibiale;Douleur latérale 2 à 3 cm au-dessus de l'interligne, après une hausse du kilométrage ou une course en descente;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G10 (présentation clinique));;;;MSK-GENO-G10-01
 Genou;1 Essentielle;Léger;Syndrome fémoro-patellaire;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-120-08
 Genou;1 Essentielle;Léger;Syndrome fémoro-patellaire;Adolescente ou jeune femme;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V374-01
+Genou;1 Essentielle;Léger;Syndrome fémoro-patellaire;Douleur à l'avant du genou à l'accroupissement et en descendant les marches, sans traumatisme;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G1 (présentation clinique));;;;MSK-GENO-G01-01
 Genou;1 Essentielle;Modéré;Syndrome fémoro-patellaire;Accroupissement indolore;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-120-01
 Genou;1 Essentielle;Modéré;Syndrome fémoro-patellaire;Âge < 40 ans avec douleur antérieure isolée ou facette médiale sensible;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-120-06
 Genou;1 Essentielle;Léger;Tendinobursite de la patte d'oie;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-131-01
+Genou;1 Essentielle;Léger;Tendinobursite de la patte d'oie;Douleur à l'intérieur du genou, sous l'interligne, aux escaliers et au lever d'une chaise;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G12 (présentation clinique));;;;MSK-GENO-G12-01
+Genou;1 Essentielle;Léger;Tendinopathie rotulienne ou quadricipitale;Douleur au pôle inférieur de la rotule, atténuée à l'échauffement, pire le lendemain;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G8 (présentation clinique));;;;MSK-GENO-G08-01
+Genou;2 Importante;Léger;Arthrite inflammatoire;Psoriasis connu;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G21 (présentation clinique));;;;MSK-GENO-G21-01
+Genou;2 Importante;Léger;Arthrite inflammatoire;Sexe féminin (polyarthrite rhumatoïde);↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée G21 (épidémiologie));;;;MSK-GENO-G21-02
 Genou;2 Importante;Modéré;Arthrite inflammatoire;Leucocytes synoviaux élevés à la ponction;↑ Augmente;Anamnèse;Base des flashcards;Leucocytes synoviaux élevés;;;MSK-140-01
 Genou;2 Importante;Modéré;Arthrite inflammatoire;Leucocytes synoviaux bas à la ponction;↓ Diminue;Anamnèse;Base des flashcards;Leucocytes synoviaux bas;;;MSK-140-02
 Genou;2 Importante;Modéré;Arthrite inflammatoire;HLA-B27 positif;↑ Augmente;Laboratoire;Base des flashcards;;;;MSK-140-05
 Genou;2 Importante;Modéré;Arthrite inflammatoire;Maladie inflammatoire de l'intestin, uvéite ou enthésite;↑ Augmente;Tests spécifiques;Base des flashcards;Maladie inflammatoire de l'intestin, uvéite, enthésite;;;MSK-140-06
 Genou;2 Importante;Modéré;Arthrite inflammatoire;Polyarthrite débutante;↑ Augmente;Évolution temporelle;Base des flashcards;;;;MSK-140-12
 Genou;2 Importante;Difficile;Arthrite inflammatoire;Absence d'infection préalable rapportée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-140-09
+Genou;2 Importante;Léger;Arthrite septique;Diabète;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G22 (épidémiologie));;;;MSK-GENO-G22-02
+Genou;2 Importante;Léger;Arthrite septique;Infection de la peau;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G22 (épidémiologie));;;;MSK-GENO-G22-03
 Genou;2 Importante;Modéré;Arthrite septique;Fièvre ou frissons au moins 1 jour avant la douleur articulaire;↑ Augmente;Drapeaux rouges;Base des flashcards;;;;MSK-141-04
 Genou;2 Importante;Modéré;Arthrite septique;Polynucléaires ≥ 90 %;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-141-07
 Genou;2 Importante;Modéré;Arthrite septique;Polynucléaires < 90 %;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-141-08
@@ -1374,12 +1397,14 @@ Genou;2 Importante;Léger;Arthrose du genou;Sexe féminin;↑ Augmente;Facteurs 
 Genou;2 Importante;Modéré;Arthrose du genou;Amplitude limitée;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-121-07
 Genou;2 Importante;Modéré;Arthrose du genou;Critères cliniques ACR (douleur et au moins 3 items sur 6);↑ Augmente;Tests spécifiques;Base des flashcards;;Critères cliniques ACR : douleur du genou et au moins 3 de ces 6 éléments : âge > 50 ans, raideur matinale < 30 minutes, crépitation, sensibilité osseuse, élargissement osseux, pas de chaleur.;;MSK-121-09
 Genou;2 Importante;Modéré;Arthrose du genou;Critères NICE remplis;↑ Augmente;Tests spécifiques;Base des flashcards;;Critères NICE : âge ≥ 45 ans, douleur à l'activité et raideur matinale de 30 minutes ou moins.;;MSK-121-11
+Genou;2 Importante;Modéré;Arthrose du genou;Douleur au repos ou la nuit;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée G2 (examen physique));;;;MSK-GENO-G02-04
 Genou;2 Importante;Difficile;Arthrose du genou;Élargissement osseux absent;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-121-02
 Genou;2 Importante;Difficile;Arthrose du genou;Raideur matinale brève présente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-121-06
 Genou;2 Importante;Difficile;Arthrose du genou;Gonflement rapporté, dérobement;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-121-08
 Genou;2 Importante;Léger;Bursite prépatellaire non infectée;Homme de 40 à 60 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-130-02
 Genou;2 Importante;Léger;Bursite prépatellaire non infectée;Absence d'érythème;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-130-03
 Genou;2 Importante;Léger;Bursite prépatellaire non infectée;Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V384-01
+Genou;2 Importante;Léger;Bursite prépatellaire non infectée;Poseur de tapis ou travailleur de la construction;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G11 (épidémiologie));;;;MSK-GENO-G11-01
 Genou;2 Importante;Difficile;Bursite prépatellaire non infectée;Absence de fièvre;↔ Neutre;Drapeaux rouges;Base des flashcards;;;;MSK-130-05
 Genou;2 Importante;Léger;Contusion ou entorse légère, sans lésion structurelle;Appui possible, pas d'épanchement ni d'ecchymose;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-134-06
 Genou;2 Importante;Léger;Contusion ou entorse légère, sans lésion structurelle;Hémarthrose traumatique;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-134-09
@@ -1395,15 +1420,18 @@ Genou;2 Importante;Modéré;Entorse d'un ligament collatéral;Pas de douleur au 
 Genou;2 Importante;Modéré;Entorse d'un ligament collatéral;Anamnèse, douleur et laxité au valgus réunies;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-125-06
 Genou;2 Importante;Difficile;Entorse d'un ligament collatéral;Laxité au valgus à 30° présente;↔ Neutre;Anamnèse;Base des flashcards;Laxité présente;;;MSK-125-04
 Genou;2 Importante;Difficile;Entorse d'un ligament collatéral;Absence d'épanchement;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-125-08
+Genou;2 Importante;Léger;Entorse du LCP;Accident de la route;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G5 (épidémiologie));;;;MSK-GENO-G05-02
 Genou;2 Importante;Modéré;Entorse du LCP;Examen composite positif;↑ Augmente;Examen physique;Base des flashcards;Examen composite;;;MSK-124-02
 Genou;2 Importante;Modéré;Entorse du LCP;Signe de l'affaissement postérieur (sag sign);↑ Augmente;Tests spécifiques;Base des flashcards;;Signe de l'affaissement postérieur : hanches et genoux fléchis à 90°, le tibia du côté atteint s'affaisse vers l'arrière.;;MSK-124-04
 Genou;2 Importante;Modéré;Entorse du LCP;Autre lésion ligamentaire associée, en traumatologie;↑ Augmente;Anamnèse;Base des flashcards;Autre lésion ligamentaire en traumatologie;;;MSK-124-07
 Genou;2 Importante;Difficile;Entorse du LCP;Tiroir postérieur négatif;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-124-03
 Genou;2 Importante;Léger;Fracture sous-chondrale d'insuffisance;Âge de plus de 55 à 60 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge > 55–60 ans;Fracture sous-chondrale d'insuffisance : petite fracture sous le cartilage d'un os fragile, souvent au condyle médial de la personne âgée.;;MSK-142-01
 Genou;2 Importante;Léger;Fracture sous-chondrale d'insuffisance;Densité osseuse basse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-142-07
+Genou;2 Importante;Léger;Fracture sous-chondrale d'insuffisance;Femme d'environ 65 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée G23 (épidémiologie));;;;MSK-GENO-G23-01
 Genou;2 Importante;Difficile;Fracture sous-chondrale d'insuffisance;Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-142-09
 Genou;2 Importante;Léger;Goutte ou chondrocalcinose du genou;Goutte : sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V392-01
 Genou;2 Importante;Léger;Goutte ou chondrocalcinose du genou;Arthrite aiguë du genou chez une personne de plus de 70 ans (pyrophosphate);↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V392-02
+Genou;2 Importante;Léger;Goutte ou chondrocalcinose du genou;Diurétique de l'anse;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G20 (épidémiologie));;;;MSK-GENO-G20-02
 Genou;2 Importante;Modéré;Goutte ou chondrocalcinose du genou;Goutte, critères ACR/EULAR 2015 remplis;↑ Augmente;Tests spécifiques;Base des flashcards;;"Critères ACR/EULAR 2015 de la goutte : score qui combine les articulations atteintes, les caractéristiques de la crise, l'uricémie, l'imagerie et les tophus ; 8 points ou plus classent la goutte.";;MSK-139-08
 Genou;2 Importante;Difficile;Goutte ou chondrocalcinose du genou;Chondrocalcinose radiographique isolée du sujet âgé;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-139-04
 Genou;2 Importante;Difficile;Instabilité ou luxation de la rotule;Test d'appréhension classique négatif;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-126-03
@@ -1418,18 +1446,24 @@ Genou;2 Importante;Léger;Maladie d'Osgood-Schlatter;Quadriceps raide et forte p
 Genou;2 Importante;Difficile;Maladie d'Osgood-Schlatter;Sexe (garçon ou fille);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-132-05
 Genou;2 Importante;Difficile;Maladie d'Osgood-Schlatter;Atteinte d'un seul genou;↔ Neutre;Anamnèse;Base des flashcards;Atteinte unilatérale;;;MSK-132-06
 Genou;2 Importante;Léger;Maladie de Sinding-Larsen-Johansson;Adolescent actif de 9 à 17 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-133-01
+Genou;2 Importante;Léger;Ménisque discoïde;Genou à ressaut chez le jeune enfant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G17 (présentation clinique));;;;MSK-GENO-G17-01
 Genou;2 Importante;Léger;Ostéochondrite disséquante du genou;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-138-01
 Genou;2 Importante;Léger;Ostéochondrite disséquante du genou;Ostéochondrite controlatérale connue;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-138-06
 Genou;2 Importante;Modéré;Ostéochondrite disséquante du genou;Âge de moins de 6 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;Avant 6 ans;;;MSK-138-03
+Genou;2 Importante;Modéré;Ostéochondrite disséquante du genou;Douleur vague, mal localisée, à l'activité, chez un adolescent;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G19 (présentation clinique));;;;MSK-GENO-G19-01
 Genou;2 Importante;Difficile;Ostéochondrite disséquante du genou;Radiographie de face normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-138-07
 Genou;2 Importante;Léger;Rupture du LCA;Sexe féminin, chez la sportive;↑ Augmente;Facteurs démographiques;Base des flashcards;Sexe féminin chez la sportive;;;MSK-123-12
 Genou;2 Importante;Modéré;Rupture du LCA;Pivot shift positif;↑ Augmente;Anamnèse;Base des flashcards;;"Pivot shift : en valgus et rotation interne, on passe de l'extension à la flexion ; un ressaut du tibia évoque une rupture du LCA.";;MSK-123-03
 Genou;2 Importante;Modéré;Rupture du LCA;Tiroir antérieur positif;↑ Augmente;Anamnèse;Base des flashcards;Tiroir antérieur;;;MSK-123-05
 Genou;2 Importante;Modéré;Rupture du LCA;Anamnèse et tests de l'examen tous négatifs;↓ Diminue;Tests spécifiques;Base des flashcards;Anamnèse et tests négatifs combinés;;;MSK-123-10
 Genou;2 Importante;Modéré;Rupture du LCA;Homme de 19 à 35 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V377-01
+Genou;2 Importante;Modéré;Rupture du LCA;Blessure sans contact;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G4 (épidémiologie));;;;MSK-GENO-G04-02
 Genou;2 Importante;Difficile;Rupture du LCA;Pivot shift négatif;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-123-04
 Genou;2 Importante;Léger;Syndrome de la bandelette ilio-tibiale;Course à pied;↑ Augmente;Facteurs de risque;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V383-01
+Genou;2 Importante;Modéré;Syndrome de la bandelette ilio-tibiale;Sensibilité de l'interligne latéral;↓ Diminue;Examen physique;Nouvelle (Fiche résumée G10 (examen physique));;;;MSK-GENO-G10-03
+Genou;2 Importante;Modéré;Syndrome du coussinet adipeux (Hoffa);Douleur sous la rotule, avec pincement en hyperextension;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G9 (présentation clinique));;;;MSK-GENO-G09-01
 Genou;2 Importante;Léger;Syndrome fémoro-patellaire;Quadriceps faible;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-120-09
+Genou;2 Importante;Léger;Syndrome fémoro-patellaire;Âge de moins de 40 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée G1 (présentation clinique));;;;MSK-GENO-G01-02
 Genou;2 Importante;Difficile;Syndrome fémoro-patellaire;Accroupissement douloureux;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-120-02
 Genou;2 Importante;Difficile;Syndrome fémoro-patellaire;Signe de Clarke (rabot) positif;↔ Neutre;Tests spécifiques;Base des flashcards;Signe de Clarke (rabot);"Signe de Clarke : on bloque la rotule vers le bas et le patient contracte le quadriceps ; positif s'il réveille la douleur.";;MSK-120-05
 Genou;2 Importante;Difficile;Syndrome fémoro-patellaire;Angle Q, faiblesse des abducteurs de hanche;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-120-10
@@ -1443,13 +1477,16 @@ Genou;3 Complémentaire;Difficile;Arthrite inflammatoire;Psoriasis ou antécéde
 Genou;3 Complémentaire;Difficile;Arthrite inflammatoire;Monoarthrite chronique indifférenciée;↔ Neutre;Évolution temporelle;Base des flashcards;;;;MSK-140-11
 Genou;3 Complémentaire;Modéré;Arthrite septique;Procalcitonine élevée;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-141-13
 Genou;3 Complémentaire;Difficile;Arthrite septique;Procalcitonine normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-141-14
+Genou;3 Complémentaire;Léger;Arthrose du genou;Travail physique exigeant;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G2 (épidémiologie));;;;MSK-GENO-G02-02
 Genou;3 Complémentaire;Difficile;Arthrose du genou;Critères ACR en population générale;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-121-10
 Genou;3 Complémentaire;Difficile;Bursite prépatellaire non infectée;Chaleur locale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-130-04
 Genou;3 Complémentaire;Difficile;Bursite prépatellaire non infectée;Nombre de leucocytes dans la bourse;↔ Neutre;Anamnèse;Base des flashcards;Leucocytes bursaux;;;MSK-130-07
 Genou;3 Complémentaire;Difficile;Contusion ou entorse légère, sans lésion structurelle;Lipohémarthrose absente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-134-08
+Genou;3 Complémentaire;Léger;Déchirure méniscale (sans blocage);Soccer;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G3 (épidémiologie));;;;MSK-GENO-G03-01
 Genou;3 Complémentaire;Modéré;Déchirure méniscale (sans blocage);Cinq items de Lowery réunis;↑ Augmente;Anamnèse;Base des flashcards;;Items de Lowery : accrochage ou blocage, douleur à l'hyperextension forcée, douleur à la flexion maximale, sensibilité de l'interligne et claquement au McMurray.;;MSK-122-06
 Genou;3 Complémentaire;Modéré;Déchirure méniscale (sans blocage);Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V376-01
 Genou;3 Complémentaire;Léger;Entorse d'un ligament collatéral;Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V379-01
+Genou;3 Complémentaire;Léger;Entorse d'un ligament collatéral;Lutte, judo, hockey ou rugby;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G6 (épidémiologie));;;;MSK-GENO-G06-01
 Genou;3 Complémentaire;Difficile;Entorse d'un ligament collatéral;Œdème du LLI à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-125-07
 Genou;3 Complémentaire;Léger;Entorse du LCP;Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-GENO-V378-01
 Genou;3 Complémentaire;Modéré;Entorse du LCP;Examen complet par un expert positif;↑ Augmente;Examen physique;Base des flashcards;Examen global par un expert;;;MSK-124-01
@@ -1461,6 +1498,7 @@ Genou;3 Complémentaire;Difficile;Fracture sous-chondrale d'insuffisance;Sexe f�
 Genou;3 Complémentaire;Léger;Goutte ou chondrocalcinose du genou;Chondrocalcinose : atteinte du genou;↑ Augmente;Anamnèse;Base des flashcards;Chondrocalcinose, siège au genou;;;MSK-139-01
 Genou;3 Complémentaire;Modéré;Goutte ou chondrocalcinose du genou;Chondrocalcinose à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;;"Chondrocalcinose : dépôts de cristaux de pyrophosphate de calcium, visibles comme un fin liseré calcifié dans le cartilage à la radiographie ; la crise aiguë s'appelle pseudogoutte.";;MSK-139-02
 Genou;3 Complémentaire;Modéré;Goutte ou chondrocalcinose du genou;Méniscectomie ancienne;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-139-07
+Genou;3 Complémentaire;Modéré;Goutte ou chondrocalcinose du genou;Hyperparathyroïdie (chondrocalcinose);↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G20 (épidémiologie));;;;MSK-GENO-G20-03
 Genou;3 Complémentaire;Difficile;Goutte ou chondrocalcinose du genou;Chondrocalcinose à la radiographie : absente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-139-03
 Genou;3 Complémentaire;Difficile;Goutte ou chondrocalcinose du genou;Âge > 60 ans;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-139-06
 Genou;3 Complémentaire;Difficile;Goutte ou chondrocalcinose du genou;Score de Janssens de 8 ou plus (goutte du genou);↔ Neutre;Tests spécifiques;Base des flashcards;Goutte, score de Janssens ≥ 8;"Score de Janssens : règle de première ligne devant une monoarthrite aiguë ; il additionne le sexe masculin, une crise antérieure, un début en moins d'un jour, la rougeur, l'atteinte du gros orteil, l'hypertension ou une maladie cardiovasculaire, et une uricémie élevée.";;MSK-139-09
@@ -1485,9 +1523,11 @@ Genou;3 Complémentaire;Modéré;Ostéochondrite disséquante du genou;Atteinte 
 Genou;3 Complémentaire;Modéré;Ostéochondrite disséquante du genou;Examen, radiographie et IRM combinés;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-138-08
 Genou;3 Complémentaire;Difficile;Ostéochondrite disséquante du genou;Signe de Wilson négatif;↔ Neutre;Tests spécifiques;Base des flashcards;Signe de Wilson négatif;"Signe de Wilson : genou fléchi à 90°, rotation interne du tibia puis extension ; une douleur vers 30° qui cède en rotation externe est positive.";;MSK-138-05
 Genou;3 Complémentaire;Modéré;Rupture du LCA;Lever sign positif;↑ Augmente;Anamnèse;Base des flashcards;;"Lever sign : poing sous le haut du mollet, on appuie sur la cuisse ; si le talon ne se soulève pas, le LCA est rompu.";;MSK-123-06
+Genou;3 Complémentaire;Léger;Syndrome de la bandelette ilio-tibiale;Cycliste;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée G10 (épidémiologie));;;;MSK-GENO-G10-02
 Genou;3 Complémentaire;Difficile;Syndrome de la bandelette ilio-tibiale;Faiblesse des abducteurs de hanche;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-129-01
 Genou;3 Complémentaire;Difficile;Syndrome de la bandelette ilio-tibiale;Test d'Ober positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test d'Ober;;;MSK-129-02
 Genou;3 Complémentaire;Difficile;Syndrome de la bandelette ilio-tibiale;IRM normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-129-03
+Genou;3 Complémentaire;Modéré;Syndrome de la plica;Douleur antéro-médiale avec craquement ou accrochage, sans vrai blocage;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée G16 (présentation clinique));;;;MSK-GENO-G16-01
 Genou;3 Complémentaire;Difficile;Syndrome de la plica;Plica visible à l'arthroscopie ou à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-135-03
 Genou;3 Complémentaire;Léger;Syndrome du coussinet adipeux (Hoffa);Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-128-05
 Genou;3 Complémentaire;Modéré;Syndrome du coussinet adipeux (Hoffa);Patella alta;↑ Augmente;Anamnèse;Base des flashcards;;Syndrome de Hoffa : coincement douloureux du coussinet graisseux situé sous la rotule.;;MSK-128-03
@@ -1537,31 +1577,52 @@ Genou;Retirée;;Tendinopathie rotulienne ou quadricipitale;Volley-ball ou basket
 Cheville et jambe;1 Essentielle;Léger;Arthrose de la cheville;Antécédent de traumatisme;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-152-01
 Cheville et jambe;1 Essentielle;Léger;Arthrose de la cheville;Ancienne fracture de la cheville;↑ Augmente;Anamnèse;Base des flashcards;Fracture de cheville;;;MSK-152-02
 Cheville et jambe;1 Essentielle;Léger;Dysfonction du tibial postérieur;Femme d'âge moyen;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-151-01
+Cheville et jambe;1 Essentielle;Léger;Dysfonction du tibial postérieur;Douleur sous la malléole médiale, avec un pied qui s'affaisse;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch9 (présentation clinique));;;;MSK-CHEV-CH09-01
 Cheville et jambe;1 Essentielle;Modéré;Dysfonction du tibial postérieur;Montée sur la pointe d'un seul pied impossible;↑ Augmente;Anamnèse;Base des flashcards;Montée unipodale sur la pointe impossible;;;MSK-151-06
+Cheville et jambe;1 Essentielle;Léger;Entorse de la syndesmose;Dorsiflexion forcée avec rotation externe du pied;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch11 (présentation clinique));;;;MSK-CHEV-CH11-01
+Cheville et jambe;1 Essentielle;Léger;Entorse latérale de la cheville;Traumatisme en inversion, pied en flexion plantaire;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch1 (présentation clinique));;;;MSK-CHEV-CH01-01
 Cheville et jambe;1 Essentielle;Difficile;Fracture d'insuffisance (tibia distal, fibula, calcanéus);Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-164-04
 Cheville et jambe;1 Essentielle;Léger;Fracture de la cheville ou du médio-pied;Règles d'Ottawa de la cheville négatives;↓ Diminue;Tests spécifiques;Base des flashcards;Règles d'Ottawa négatives;"Règles d'Ottawa de la cheville : radiographie si sensibilité du bord postérieur ou de la pointe d'une malléole, ou appui impossible sur 4 pas ; pour le pied, base du 5e métatarsien ou naviculaire.";;MSK-159-01
 Cheville et jambe;1 Essentielle;Léger;Fracture de la cheville ou du médio-pied;Femme de 65 ans ou plus;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-CHEV-V333-01
 Cheville et jambe;1 Essentielle;Modéré;Fracture de la cheville ou du médio-pied;Enfant, règles d'Ottawa de la cheville négatives;↓ Diminue;Facteurs démographiques;Base des flashcards;Enfant, Ottawa négatives;;;MSK-159-04
 Cheville et jambe;1 Essentielle;Difficile;Fracture de la cheville ou du médio-pied;Règles d'Ottawa de la cheville positives;↔ Neutre;Tests spécifiques;Base des flashcards;Règles d'Ottawa positives;;;MSK-159-02
+Cheville et jambe;1 Essentielle;Modéré;Fracture de Maisonneuve;Sensibilité de la fibula près du genou;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Ch19 (examen physique));;;;MSK-CHEV-CH19-02
 Cheville et jambe;1 Essentielle;Léger;Fracture de stress du tibia ou de la fibula;Antécédent de fracture de stress;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-160-06
+Cheville et jambe;1 Essentielle;Léger;Fracture de stress du tibia ou de la fibula;Douleur focale qui ne s'atténue pas à l'échauffement, 4 à 6 semaines après un changement d'entraînement;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch18 (présentation clinique));;;;MSK-CHEV-CH18-01
 Cheville et jambe;1 Essentielle;Modéré;Fracture de stress du tibia ou de la fibula;Absence de sensibilité osseuse focale du tibia;↓ Diminue;Examen physique;Base des flashcards;Absence de sensibilité osseuse focale;;;MSK-160-01
 Cheville et jambe;1 Essentielle;Difficile;Fracture de stress du tibia ou de la fibula;Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-160-09
 Cheville et jambe;1 Essentielle;Léger;Goutte ou arthrite à pyrophosphate de la cheville;Atteinte isolée de la base du gros orteil (1re métatarso-phalangienne);↑ Augmente;Anamnèse;Base des flashcards;Atteinte isolée de la 1ʳᵉ métatarso-phalangienne;;;MSK-163-02
+Cheville et jambe;1 Essentielle;Léger;Goutte ou arthrite à pyrophosphate de la cheville;Crise la nuit, douleur maximale en moins de 24 heures;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch21 (présentation clinique));;;;MSK-CHEV-CH21-01
 Cheville et jambe;1 Essentielle;Difficile;Goutte ou arthrite à pyrophosphate de la cheville;Uricémie normale pendant la crise;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-163-08
 Cheville et jambe;1 Essentielle;Léger;Instabilité chronique de la cheville;Première entorse de la cheville il y a un an;↑ Augmente;Anamnèse;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-CHEV-V329-01
+Cheville et jambe;1 Essentielle;Léger;Instabilité chronique de la cheville;Au moins 2 dérobements de la cheville en 6 mois;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch2 (présentation clinique));;;;MSK-CHEV-CH02-01
+Cheville et jambe;1 Essentielle;Léger;Lésion musculaire du mollet (tennis leg);Douleur brutale du mollet, comme un « coup de pierre », en poussant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch7 (présentation clinique));;;;MSK-CHEV-CH07-01
+Cheville et jambe;1 Essentielle;Léger;Lésion ostéochondrale du talus;Douleur profonde qui persiste après une entorse qui « aurait dû guérir »;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch20 (présentation clinique));;;;MSK-CHEV-CH20-01
 Cheville et jambe;1 Essentielle;Léger;Maladie de Sever;Garçon d'environ 11 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;Maladie de Sever : apophysite du calcanéus (irritation du cartilage de croissance du talon) chez l'enfant sportif.;;MSK-150-06
+Cheville et jambe;1 Essentielle;Léger;Maladie de Sever;Douleur du talon pendant ou après la course et les sauts, soulagée au repos, chez l'enfant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch8 (présentation clinique));;;;MSK-CHEV-CH08-01
 Cheville et jambe;1 Essentielle;Léger;Périostite tibiale (syndrome de stress tibial médial);Sensibilité diffuse du bord interne du tibia sur 5 cm ou plus;↑ Augmente;Examen physique;Base des flashcards;Sensibilité diffuse sur 5 cm ou plus;;;MSK-147-06
+Cheville et jambe;1 Essentielle;Léger;Périostite tibiale (syndrome de stress tibial médial);Douleur sourde à l'effort le long du bord interne du tibia, au tiers moyen et distal;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch5 (présentation clinique));;;;MSK-CHEV-CH05-01
+Cheville et jambe;1 Essentielle;Modéré;Périostite tibiale (syndrome de stress tibial médial);Douleur focale, au repos ou la nuit;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée Ch5 (examen physique));;;;MSK-CHEV-CH05-02
 Cheville et jambe;1 Essentielle;Léger;Rupture du tendon d'Achille;Test de compression du mollet (Thompson) positif;↑ Augmente;Tests spécifiques;Base des flashcards;;"Test de Thompson : couché sur le ventre, on presse le mollet ; si le pied ne fait pas de flexion plantaire, le tendon d'Achille est rompu.";;MSK-158-01
 Cheville et jambe;1 Essentielle;Léger;Rupture du tendon d'Achille;Défaut palpable;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-158-04
 Cheville et jambe;1 Essentielle;Léger;Rupture du tendon d'Achille;Homme de 30 à 49 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-158-08
 Cheville et jambe;1 Essentielle;Léger;Rupture du tendon d'Achille;Prise d'une fluoroquinolone;↑ Augmente;Facteurs de risque;Base des flashcards;Fluoroquinolone;;;MSK-158-09
+Cheville et jambe;1 Essentielle;Léger;Rupture du tendon d'Achille;Sensation d'un coup de pied au mollet en poussant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch16 (présentation clinique));;;;MSK-CHEV-CH16-01
 Cheville et jambe;1 Essentielle;Modéré;Rupture du tendon d'Achille;Test de compression du mollet (Thompson) négatif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-158-02
 Cheville et jambe;1 Essentielle;Difficile;Rupture du tendon d'Achille;Flexion plantaire active du pied conservée;↔ Neutre;Examen physique;Base des flashcards;Flexion plantaire active conservée;;;MSK-158-06
+Cheville et jambe;1 Essentielle;Léger;Syndrome compartimental chronique d'effort;Douleur et tension qui apparaissent au même moment de chaque effort et cèdent en quelques minutes au repos;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch6 (présentation clinique));;;;MSK-CHEV-CH06-01
+Cheville et jambe;1 Essentielle;Léger;Syndrome du tunnel tarsien;Brûlures ou picotements sous le pied, pires en fin de journée et la nuit;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch15 (présentation clinique));;;;MSK-CHEV-CH15-01
+Cheville et jambe;1 Essentielle;Modéré;Syndrome du tunnel tarsien;Symptômes des deux pieds « en chaussette »;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée Ch15 (examen physique));;;;MSK-CHEV-CH15-02
 Cheville et jambe;1 Essentielle;Léger;Tendinopathie d'Achille corporéale;Douleur 2 à 6 cm au-dessus de l'insertion du tendon;↑ Augmente;Anamnèse;Base des flashcards;Douleur située 2 à 6 cm au-dessus de l'insertion;;;MSK-145-01
 Cheville et jambe;1 Essentielle;Léger;Tendinopathie d'Achille corporéale;Sensibilité du tendon à la palpation;↑ Augmente;Examen physique;Base des flashcards;Sensibilité à la palpation;;;MSK-145-03
 Cheville et jambe;1 Essentielle;Léger;Tendinopathie d'Achille corporéale;Prise d'une fluoroquinolone;↑ Augmente;Facteurs de risque;Base des flashcards;Fluoroquinolone;;;MSK-145-08
+Cheville et jambe;1 Essentielle;Léger;Tendinopathie d'Achille corporéale;Raideur le matin et douleur au début de l'effort, atténuée à l'échauffement;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch3 (présentation clinique));;;;MSK-CHEV-CH03-01
+Cheville et jambe;1 Essentielle;Modéré;Tendinopathie d'Achille corporéale;Début brutal;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée Ch3 (examen physique));;;;MSK-CHEV-CH03-02
+Cheville et jambe;1 Essentielle;Léger;Tendinopathie d'insertion, Haglund ou bursite rétro-calcanéenne;Douleur dans les 2 premiers cm de l'insertion du tendon, irritée par le contrefort de la chaussure;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch4 (présentation clinique));;;;MSK-CHEV-CH04-01
 Cheville et jambe;2 Importante;Léger;Arthrose de la cheville;Ancienne entorse de la cheville;↑ Augmente;Anamnèse;Base des flashcards;Entorse;;;MSK-152-05
+Cheville et jambe;2 Importante;Modéré;Arthrose de la cheville;Œdème en fin de journée et raideur après le repos, après une ancienne fracture;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch10 (présentation clinique));;;;MSK-CHEV-CH10-01
 Cheville et jambe;2 Importante;Difficile;Arthrose de la cheville;Instabilité chronique de la cheville;↔ Neutre;Évolution temporelle;Base des flashcards;Instabilité chronique;;;MSK-152-06
+Cheville et jambe;2 Importante;Modéré;Conflit antérieur ou postérieur de la cheville;Douleur à l'avant de la cheville en dorsiflexion et à l'accroupissement;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch14 (présentation clinique));;;;MSK-CHEV-CH14-01
 Cheville et jambe;2 Importante;Léger;Dysfonction du tibial postérieur;Obésité ou hypertension;↑ Augmente;Facteurs de risque;Base des flashcards;Obésité, hypertension;;;MSK-151-02
 Cheville et jambe;2 Importante;Difficile;Dysfonction du tibial postérieur;Signe du « trop d'orteils » et montée sur la pointe d'un pied normaux;↔ Neutre;Anamnèse;Base des flashcards;« Trop d'orteils » ou montée unipodale sur la pointe normaux;Signe du « trop d'orteils » : vu de derrière, on voit plus d'orteils du côté atteint, car l'avant-pied part vers l'extérieur.;;MSK-151-05
 Cheville et jambe;2 Importante;Difficile;Dysfonction du tibial postérieur;Symptômes anciens, jamais diagnostiqués;↔ Neutre;Anamnèse;Base des flashcards;Symptômes anciens sans diagnostic;;;MSK-151-09
@@ -1574,6 +1635,7 @@ Cheville et jambe;2 Importante;Modéré;Entorse de la syndesmose;Mécanisme en �
 Cheville et jambe;2 Importante;Modéré;Entorse de la syndesmose;Radiographie positive (écart tibio-fibulaire);↑ Augmente;Anamnèse;Base des flashcards;Radiographie positive;;;MSK-153-11
 Cheville et jambe;2 Importante;Difficile;Entorse de la syndesmose;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-153-12
 Cheville et jambe;2 Importante;Léger;Entorse latérale de la cheville;Basket-ball;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-143-13
+Cheville et jambe;2 Importante;Léger;Entorse latérale de la cheville;Âge de 15 à 19 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Ch1 (épidémiologie));;;;MSK-CHEV-CH01-02
 Cheville et jambe;2 Importante;Modéré;Entorse latérale de la cheville;Examen différé à 5 jours positif (tuméfaction, hématome, LTFA sensible, tiroir antérieur);↑ Augmente;Examen physique;Base des flashcards;;LTFA : ligament talo-fibulaire antérieur, le premier atteint dans l'entorse latérale.;;MSK-143-01
 Cheville et jambe;2 Importante;Modéré;Entorse latérale de la cheville;Examen différé à 5 jours négatif (tuméfaction, hématome, LTFA sensible, tiroir antérieur);↓ Diminue;Examen physique;Base des flashcards;;;;MSK-143-02
 Cheville et jambe;2 Importante;Modéré;Entorse latérale de la cheville;Tiroir antérieur positif;↑ Augmente;Anamnèse;Base des flashcards;;"Tiroir antérieur de la cheville : on tire le talon vers l'avant, tibia stabilisé ; une translation accrue évoque une rupture du LTFA.";;MSK-143-05
@@ -1586,11 +1648,15 @@ Cheville et jambe;2 Importante;Léger;Fracture d'insuffisance (tibia distal, fib
 Cheville et jambe;2 Importante;Léger;Fracture d'insuffisance (tibia distal, fibula, calcanéus);Densité osseuse basse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-164-05
 Cheville et jambe;2 Importante;Léger;Fracture d'insuffisance (tibia distal, fibula, calcanéus);Femme de plus de 60 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-CHEV-V348-01
 Cheville et jambe;2 Importante;Modéré;Fracture d'insuffisance (tibia distal, fibula, calcanéus);Diabète traité à l'insuline, avec neuropathie;↑ Augmente;Facteurs de risque;Base des flashcards;Diabète insulinodépendant avec neuropathie;;;MSK-164-08
+Cheville et jambe;2 Importante;Modéré;Fracture d'insuffisance (tibia distal, fibula, calcanéus);Douleur à la mise en charge sans traumatisme, prise pour une cellulite;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch22 (présentation clinique));;;;MSK-CHEV-CH22-01
 Cheville et jambe;2 Importante;Difficile;Fracture d'insuffisance (tibia distal, fibula, calcanéus);Tableau qui ressemble à une arthrite de la cheville;↔ Neutre;Anamnèse;Base des flashcards;Tableau d'arthrite de cheville;;;MSK-164-03
+Cheville et jambe;2 Importante;Léger;Fracture de la cheville ou du médio-pied;Femme de 60 à 69 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Ch17 (épidémiologie));;;;MSK-CHEV-CH17-01
 Cheville et jambe;2 Importante;Léger;Fracture de Maisonneuve;Mécanisme en rotation externe;↑ Augmente;Examen physique;Base des flashcards;;"Fracture de Maisonneuve : fracture haute de la fibula, près du genou, avec rupture de la syndesmose ; on la manque si l'on ne palpe pas toute la fibula.";;MSK-161-02
+Cheville et jambe;2 Importante;Léger;Fracture de Maisonneuve;Torsion violente en rotation externe, au sport;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch19 (présentation clinique));;;;MSK-CHEV-CH19-01
 Cheville et jambe;2 Importante;Difficile;Fracture de Maisonneuve;Fibula d'apparence normale sur la radiographie de la cheville;↔ Neutre;Anamnèse;Base des flashcards;Fibula d'aspect normal de face;;;MSK-161-05
 Cheville et jambe;2 Importante;Léger;Fracture de stress du tibia ou de la fibula;Sensibilité osseuse focale présente;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-160-02
 Cheville et jambe;2 Importante;Léger;Fracture de stress du tibia ou de la fibula;Radiographie initiale positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-160-10
+Cheville et jambe;2 Importante;Léger;Fracture de stress du tibia ou de la fibula;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Ch18 (épidémiologie));;;;MSK-CHEV-CH18-02
 Cheville et jambe;2 Importante;Modéré;Fracture de stress du tibia ou de la fibula;Saut douloureux avec une zone sensible de 10 cm ou moins;↑ Augmente;Anamnèse;Base des flashcards;Saut douloureux avec bande sensible ≤ 10 cm;;;MSK-160-05
 Cheville et jambe;2 Importante;Modéré;Fracture de stress du tibia ou de la fibula;Premières règles après 15 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;Ménarche après 15 ans;;;MSK-160-07
 Cheville et jambe;2 Importante;Difficile;Fracture de stress du tibia ou de la fibula;Saut sur une jambe douloureux;↔ Neutre;Anamnèse;Base des flashcards;Saut unipodal douloureux;;;MSK-160-03
@@ -1604,6 +1670,7 @@ Cheville et jambe;2 Importante;Difficile;Instabilité chronique de la cheville;T
 Cheville et jambe;2 Importante;Léger;Lésion musculaire du mollet (tennis leg);Atteinte du chef médial du gastrocnémien;↑ Augmente;Anamnèse;Base des flashcards;Chef médial du gastrocnémien;;;MSK-149-01
 Cheville et jambe;2 Importante;Léger;Lésion musculaire du mollet (tennis leg);Antécédent de lésion du mollet;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-149-03
 Cheville et jambe;2 Importante;Léger;Lésion musculaire du mollet (tennis leg);Âge de 30 à 45 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-149-05
+Cheville et jambe;2 Importante;Léger;Lésion musculaire du mollet (tennis leg);Homme d'âge moyen;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Ch7 (épidémiologie));;;;MSK-CHEV-CH07-02
 Cheville et jambe;2 Importante;Modéré;Lésion musculaire du mollet (tennis leg);Thrombose veineuse profonde à l'échographie;↓ Diminue;Anamnèse;Base des flashcards;Thrombose veineuse profonde;;;MSK-149-02
 Cheville et jambe;2 Importante;Modéré;Lésion musculaire du mollet (tennis leg);Test de compression du mollet (Thompson) anormal;↓ Diminue;Tests spécifiques;Base des flashcards;Test de compression du mollet anormal;;;MSK-149-06
 Cheville et jambe;2 Importante;Difficile;Lésion musculaire du mollet (tennis leg);Signe de Homans positif;↔ Neutre;Tests spécifiques;Base des flashcards;Signe de Homans;Signe de Homans : douleur au mollet à la flexion dorsale passive du pied.;;MSK-149-07
@@ -1614,6 +1681,8 @@ Cheville et jambe;2 Importante;Modéré;Lésion ostéochondrale du talus;Interli
 Cheville et jambe;2 Importante;Difficile;Lésion ostéochondrale du talus;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-162-05
 Cheville et jambe;2 Importante;Léger;Maladie de Sever;Appui sur le talon d'un seul pied douloureux;↑ Augmente;Anamnèse;Base des flashcards;Appui unipodal sur le talon douloureux;;;MSK-150-01
 Cheville et jambe;2 Importante;Léger;Maladie de Sever;Basket-ball, handball, football;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-150-08
+Cheville et jambe;2 Importante;Modéré;Maladie de Sever;Compression du calcanéus d'un côté à l'autre douloureuse;↑ Augmente;Tests spécifiques;Nouvelle (Fiche résumée Ch8 (examen physique));;;;MSK-CHEV-CH08-02
+Cheville et jambe;2 Importante;Modéré;Maladie de Sever;Apophyse du calcanéus déjà soudée à la radiographie;↓ Diminue;Examen physique;Nouvelle (Fiche résumée Ch8 (examen physique));;;;MSK-CHEV-CH08-03
 Cheville et jambe;2 Importante;Difficile;Maladie de Sever;Atteinte d'un seul talon;↔ Neutre;Anamnèse;Base des flashcards;Atteinte unilatérale;;;MSK-150-07
 Cheville et jambe;2 Importante;Léger;Périostite tibiale (syndrome de stress tibial médial);Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-147-01
 Cheville et jambe;2 Importante;Léger;Rupture du tendon d'Achille;Corticoïde par la bouche;↑ Augmente;Anamnèse;Base des flashcards;Corticoïde oral;;;MSK-158-10
@@ -1635,6 +1704,7 @@ Cheville et jambe;2 Importante;Difficile;Tendinopathie d'Achille corporéale;Ano
 Cheville et jambe;2 Importante;Modéré;Tendinopathie d'insertion, Haglund ou bursite rétro-calcanéenne;Spondylarthrite connue;↑ Augmente;Anamnèse;Base des flashcards;Spondylarthrite;;;MSK-146-07
 Cheville et jambe;2 Importante;Léger;Tendinopathie, déchirure ou luxation des fibulaires;Tuméfaction derrière la malléole latérale;↑ Augmente;Anamnèse;Base des flashcards;Tuméfaction rétro-malléolaire;;;MSK-155-06
 Cheville et jambe;2 Importante;Modéré;Tendinopathie, déchirure ou luxation des fibulaires;Instabilité chronique latérale;↑ Augmente;Évolution temporelle;Base des flashcards;;;;MSK-155-02
+Cheville et jambe;2 Importante;Modéré;Tendinopathie, déchirure ou luxation des fibulaires;Ressaut douloureux derrière la malléole latérale, dérobement sur terrain inégal;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch13 (présentation clinique));;;;MSK-CHEV-CH13-01
 Cheville et jambe;3 Complémentaire;Léger;Arthrose de la cheville;Ancien footballeur professionnel;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-152-07
 Cheville et jambe;3 Complémentaire;Modéré;Arthrose de la cheville;Au moins 3 facteurs après fracture (Weber C, malléole médiale, luxation, IMC élevé, âge ≥ 30 ans);↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-152-03
 Cheville et jambe;3 Complémentaire;Modéré;Arthrose de la cheville;Ancienne fracture Weber C;↑ Augmente;Anamnèse;Base des flashcards;Fracture Weber C;Classification de Weber : fracture de la fibula sous la syndesmose (A), à sa hauteur (B) ou au-dessus (C, la plus instable).;;MSK-152-04
@@ -1643,11 +1713,13 @@ Cheville et jambe;3 Complémentaire;Modéré;Arthrose de la cheville;Hémochroma
 Cheville et jambe;3 Complémentaire;Difficile;Arthrose de la cheville;Arthrose radiographique chez le danseur;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-152-08
 Cheville et jambe;3 Complémentaire;Modéré;Conflit antérieur ou postérieur de la cheville;Examen clinique positif (antérolatéral);↑ Augmente;Examen physique;Base des flashcards;;Conflit antérieur de la cheville : coincement douloureux de tissus ou d'ostéophytes à l'avant de la cheville en flexion dorsale.;;MSK-156-01
 Cheville et jambe;3 Complémentaire;Modéré;Conflit antérieur ou postérieur de la cheville;Examen clinique négatif (antérolatéral);↓ Diminue;Examen physique;Base des flashcards;;;;MSK-156-02
+Cheville et jambe;3 Complémentaire;Modéré;Conflit antérieur ou postérieur de la cheville;Douleur à l'arrière de la cheville en pointe (danse, tir, descente);↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Ch14 (présentation clinique));;;;MSK-CHEV-CH14-02
 Cheville et jambe;3 Complémentaire;Difficile;Conflit antérieur ou postérieur de la cheville;Radiographie de profil normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-156-07
 Cheville et jambe;3 Complémentaire;Difficile;Conflit antérieur ou postérieur de la cheville;Ostéophytes antérieurs chez l'asymptomatique;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-156-08
 Cheville et jambe;3 Complémentaire;Modéré;Dysfonction du tibial postérieur;IRM positive pour une rupture;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-151-07
 Cheville et jambe;3 Complémentaire;Modéré;Dysfonction du tibial postérieur;Échographie positive;↑ Augmente;Anamnèse;Base des flashcards;Échographie positive;;;MSK-151-08
 Cheville et jambe;3 Complémentaire;Léger;Entorse de la syndesmose;Joueur de hockey sur glace;↑ Augmente;Anamnèse;Base des flashcards;Hockey sur glace, sexe masculin;;;MSK-153-13
+Cheville et jambe;3 Complémentaire;Léger;Entorse de la syndesmose;Football américain;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée Ch11 (épidémiologie));;;;MSK-CHEV-CH11-02
 Cheville et jambe;3 Complémentaire;Difficile;Entorse de la syndesmose;Tests cliniques isolés en aigu;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-153-07
 Cheville et jambe;3 Complémentaire;Difficile;Entorse de la syndesmose;IRM tardive normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-153-10
 Cheville et jambe;3 Complémentaire;Modéré;Entorse latérale de la cheville;Bâillement en varus (talar tilt) positif;↑ Augmente;Anamnèse;Base des flashcards;Bâillement en varus (talar tilt);;;MSK-143-07
@@ -1656,6 +1728,7 @@ Cheville et jambe;3 Complémentaire;Modéré;Entorse latérale de la cheville;É
 Cheville et jambe;3 Complémentaire;Modéré;Entorse latérale de la cheville;Femme de plus de 30 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-CHEV-V328-02
 Cheville et jambe;3 Complémentaire;Difficile;Entorse latérale de la cheville;IRM en aigu;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-143-10
 Cheville et jambe;3 Complémentaire;Difficile;Entorse latérale de la cheville;Anomalie du LTFA à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-143-11
+Cheville et jambe;3 Complémentaire;Léger;Entorse médiale isolée (ligament deltoïde);Sexe masculin;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Ch12 (épidémiologie));;;;MSK-CHEV-CH12-01
 Cheville et jambe;3 Complémentaire;Difficile;Entorse médiale isolée (ligament deltoïde);Sensibilité médiale après une entorse;↔ Neutre;Examen physique;Base des flashcards;Sensibilité médiale après entorse;;;MSK-154-02
 Cheville et jambe;3 Complémentaire;Difficile;Entorse médiale isolée (ligament deltoïde);Lésion du deltoïde sans atteinte associée de la syndesmose;↓ Diminue;Anamnèse;Base des flashcards;Caractère isolé;;;MSK-154-04
 Cheville et jambe;3 Complémentaire;Modéré;Fracture d'insuffisance (tibia distal, fibula, calcanéus);Méthotrexate au long cours;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-164-06
@@ -1671,6 +1744,7 @@ Cheville et jambe;3 Complémentaire;Modéré;Fracture de stress du tibia ou de l
 Cheville et jambe;3 Complémentaire;Modéré;Fracture de stress du tibia ou de la fibula;IRM négative;↓ Diminue;Imagerie;Base des flashcards;;;;MSK-160-12
 Cheville et jambe;3 Complémentaire;Difficile;Fracture de stress du tibia ou de la fibula;Douleur au diapason sur le tibia;↔ Neutre;Anamnèse;Base des flashcards;Diapason;;;MSK-160-04
 Cheville et jambe;3 Complémentaire;Difficile;Fracture de stress du tibia ou de la fibula;Vitamine D basse;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-160-08
+Cheville et jambe;3 Complémentaire;Léger;Goutte ou arthrite à pyrophosphate de la cheville;Obésité;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée Ch21 (épidémiologie));;;;MSK-CHEV-CH21-02
 Cheville et jambe;3 Complémentaire;Modéré;Goutte ou arthrite à pyrophosphate de la cheville;Double contour à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;;Signe du double contour : liseré d'urate à la surface du cartilage, visible à l'échographie.;;MSK-163-04
 Cheville et jambe;3 Complémentaire;Difficile;Goutte ou arthrite à pyrophosphate de la cheville;Score de Janssens de 8 ou plus;↔ Neutre;Tests spécifiques;Base des flashcards;Score de Janssens ≥ 8;"Score de Janssens : règle de première ligne devant une monoarthrite aiguë ; il additionne le sexe masculin, une crise antérieure, un début en moins d'un jour, la rougeur, l'atteinte du gros orteil, l'hypertension ou une maladie cardiovasculaire, et une uricémie élevée.";;MSK-163-03
 Cheville et jambe;3 Complémentaire;Difficile;Goutte ou arthrite à pyrophosphate de la cheville;Cristaux dans le liquide articulaire;↔ Neutre;Laboratoire;Base des flashcards;Cristaux dans le liquide;;;MSK-163-11
@@ -1699,6 +1773,7 @@ Cheville et jambe;3 Complémentaire;Modéré;Rupture du tendon d'Achille;Échogr
 Cheville et jambe;3 Complémentaire;Modéré;Rupture du tendon d'Achille;Échographie négative;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-158-14
 Cheville et jambe;3 Complémentaire;Difficile;Rupture du tendon d'Achille;Corticoïde inhalé;↔ Neutre;Anamnèse;Base des flashcards;Corticoïde inhalé.;;;MSK-158-11
 Cheville et jambe;3 Complémentaire;Modéré;Syndrome compartimental chronique d'effort;Pression de loge de 30 mmHg ou plus, 1 minute après l'effort;↑ Augmente;Anamnèse;Base des flashcards;Pression ≥ 30 mmHg 1 min après l'effort;;;MSK-148-03
+Cheville et jambe;3 Complémentaire;Modéré;Syndrome compartimental chronique d'effort;Hernie musculaire à la jambe;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Ch6 (examen physique));;;;MSK-CHEV-CH06-02
 Cheville et jambe;3 Complémentaire;Difficile;Syndrome compartimental chronique d'effort;Jeune âge;↔ Neutre;Facteurs démographiques;Base des flashcards;Âge jeune;;;MSK-148-08
 Cheville et jambe;3 Complémentaire;Difficile;Syndrome compartimental chronique d'effort;Sexe (homme ou femme);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-148-09
 Cheville et jambe;3 Complémentaire;Modéré;Syndrome du tunnel tarsien;Conduction sensitive anormale (EMG);↑ Augmente;Anamnèse;Base des flashcards;Conduction sensitive anormale;;;MSK-157-05
@@ -1771,27 +1846,41 @@ Cheville et jambe;Retirée;;Tendinopathie d'insertion, Haglund ou bursite rétro
 Cheville et jambe;Retirée;;Tendinopathie, déchirure ou luxation des fibulaires;Ski, sport (fréquence);↓ Diminue;Facteurs de risque;Base des flashcards;;;Énoncé confus (« fréquence »), carte expérimentale.;MSK-155-09
 Cheville et jambe;Retirée;;Tendinopathie, déchirure ou luxation des fibulaires;IRM pour une déchirure;↔ Neutre;Imagerie;Base des flashcards;;;Carte expérimentale au sens douteux (IRM).;MSK-155-03
 Cheville et jambe;Retirée;;Tendinopathie, déchirure ou luxation des fibulaires;Premier diagnostic;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (premier diagnostic correct dans 60 % des cas).;MSK-155-12
+Pied;1 Essentielle;Léger;Arthrose du médio-pied;Douleur au dos du médio-pied, debout longtemps et à la marche;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi4 (présentation clinique));;;;MSK-PIED-PI04-01
 Pied;1 Essentielle;Modéré;Contusion ou écrasement du pied;Règle d'Ottawa du médio-pied négative;↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-178-01
 Pied;1 Essentielle;Modéré;Contusion ou écrasement du pied;Douleur disproportionnée ou à l'étirement passif des orteils;↓ Diminue;Anamnèse;Base des flashcards;Douleur disproportionnée ou à l'étirement passif;;;MSK-178-06
+Pied;1 Essentielle;Modéré;Contusion ou écrasement du pied;Douleur qui augmente malgré le repos, la glace et la surélévation;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée Pi14 (présentation clinique));;;;MSK-PIED-PI14-01
 Pied;1 Essentielle;Léger;Déformation des orteils latéraux ou bunionette;Âge avancé;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge;Bunionette : saillie douloureuse de la tête du 5e métatarsien, l'« oignon » du petit orteil.;;MSK-167-01
 Pied;1 Essentielle;Léger;Fasciite plantaire;IMC > 27;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-165-01
+Pied;1 Essentielle;Léger;Fasciite plantaire;Douleur sous le talon aux premiers pas du matin ou après le repos;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi1 (présentation clinique));;;;MSK-PIED-PI01-01
 Pied;1 Essentielle;Difficile;Fracture de stress du naviculaire;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-182-04
 Pied;1 Essentielle;Léger;Fracture de stress métatarsienne;Atteinte du 2e ou du 3e métatarsien;↑ Augmente;Anamnèse;Base des flashcards;Deuxième ou troisième métatarsien;;;MSK-181-01
+Pied;1 Essentielle;Léger;Fracture de stress métatarsienne;Douleur de l'avant-pied à l'impact, quelques semaines après une hausse de l'entraînement;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi17 (présentation clinique));;;;MSK-PIED-PI17-01
 Pied;1 Essentielle;Difficile;Fracture de stress métatarsienne;Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-181-08
 Pied;1 Essentielle;Léger;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Règle d'Ottawa du médio-pied négative;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-180-01
+Pied;1 Essentielle;Léger;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Inversion de la cheville avec douleur à la base du 5e métatarsien;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi16 (présentation clinique));;;;MSK-PIED-PI16-01
 Pied;1 Essentielle;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Atteinte de la base du gros orteil (1re métatarso-phalangienne);↑ Augmente;Anamnèse;Base des flashcards;Atteinte de la 1ʳᵉ métatarso-phalangienne;;;MSK-179-01
 Pied;1 Essentielle;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Sexe féminin;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-179-04
 Pied;1 Essentielle;Difficile;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Uricémie normale pendant la crise;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-179-05
+Pied;1 Essentielle;Léger;Hallux rigidus;Bosse sur le dos de la base du gros orteil qui frotte dans la chaussure, avec raideur;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi5 (présentation clinique));;;;MSK-PIED-PI05-01
 Pied;1 Essentielle;Léger;Hallux valgus;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-166-01
 Pied;1 Essentielle;Léger;Hallux valgus;Âge plus avancé (par décennie);↑ Augmente;Facteurs démographiques;Base des flashcards;Âge;;;MSK-166-02
 Pied;1 Essentielle;Léger;Hallux valgus;Chaussures à bout étroit;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-166-03
+Pied;1 Essentielle;Léger;Hallux valgus;Douleur au bord interne du gros orteil, soulagée en enlevant la chaussure;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi2 (présentation clinique));;;;MSK-PIED-PI02-01
 Pied;1 Essentielle;Léger;Lésion de Lisfranc;Charge axiale sur un pied en flexion plantaire, au sport;↑ Augmente;Examen physique;Base des flashcards;Charge axiale sur pied en flexion plantaire, sport;Lésion de Lisfranc : entorse ou fracture-luxation de l'articulation entre le tarse et les métatarses (médio-pied).;;MSK-184-02
+Pied;1 Essentielle;Modéré;Lésion de Lisfranc;Incapacité de monter sur la pointe du pied après un traumatisme du médio-pied;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi20 (présentation clinique));;;;MSK-PIED-PI20-01
 Pied;1 Essentielle;Difficile;Lésion de Lisfranc;Radiographie sans mise en charge normale;↔ Neutre;Anamnèse;Base des flashcards;Radiographie sans charge normale;;;MSK-184-04
+Pied;1 Essentielle;Léger;Maladie de Freiberg;Douleur à la base du 2e orteil, pire pieds nus ou en talons hauts;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi22 (présentation clinique));;;;MSK-PIED-PI22-01
 Pied;1 Essentielle;Léger;Maladie de Sever (pied);Palpation de l'apophyse du calcanéus douloureuse;↑ Augmente;Examen physique;Base des flashcards;Palpation de l'apophyse douloureuse;;;MSK-177-01
+Pied;1 Essentielle;Léger;Métatarsalgie ou lésion de la plaque plantaire;Sensation de « marcher sur un caillou » sous la 2e tête métatarsienne;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi6 (présentation clinique));;;;MSK-PIED-PI06-01
 Pied;1 Essentielle;Léger;Névrome de Morton;Atteinte du 3e espace (entre les 3e et 4e orteils);↑ Augmente;Anamnèse;Base des flashcards;Troisième espace;;;MSK-171-05
 Pied;1 Essentielle;Léger;Névrome de Morton;Femme de 55 à 64 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V273-01
+Pied;1 Essentielle;Léger;Névrome de Morton;Brûlure plantaire qui irradie dans deux orteils voisins, pire en chaussure serrée;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi7 (présentation clinique));;;;MSK-PIED-PI07-01
 Pied;1 Essentielle;Léger;Pied de Charcot;Neuropathie périphérique;↑ Augmente;Anamnèse;Base des flashcards;;"Pied de Charcot : destruction des os et des articulations du pied neuropathique (diabète) ; au début, le pied est chaud, rouge et enflé.";;MSK-185-01
+Pied;1 Essentielle;Léger;Pied de Charcot;Pied rouge, chaud et enflé, peu douloureux, chez un diabétique avec neuropathie;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi21 (présentation clinique));;;;MSK-PIED-PI21-01
 Pied;1 Essentielle;Difficile;Pied de Charcot;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-185-06
+Pied;1 Essentielle;Léger;Sésamoïdite ou fracture du sésamoïde;Douleur sous la tête du 1er métatarsien à l'appui et à la propulsion;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi9 (présentation clinique));;;;MSK-PIED-PI09-01
+Pied;1 Essentielle;Modéré;Synostose (coalition) du tarse;Entorses de la cheville à répétition chez un adolescent;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi10 (présentation clinique));;;;MSK-PIED-PI10-01
 Pied;2 Importante;Léger;Arthrose du médio-pied;Ancienne lésion de Lisfranc;↑ Augmente;Anamnèse;Base des flashcards;Lésion de Lisfranc ancienne;;;MSK-168-01
 Pied;2 Importante;Léger;Arthrose du médio-pied;Antécédent de fracture du pied;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-168-02
 Pied;2 Importante;Léger;Arthrose du médio-pied;Obésité;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-168-04
@@ -1805,13 +1894,18 @@ Pied;2 Importante;Modéré;Contusion ou écrasement du pied;Ecchymose plantaire;
 Pied;2 Importante;Difficile;Contusion ou écrasement du pied;Douleur disproportionnée ou à l'étirement passif : absente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-178-07
 Pied;2 Importante;Léger;Déformation des orteils latéraux ou bunionette;Hallux valgus associé;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-167-04
 Pied;2 Importante;Léger;Déformation des orteils latéraux ou bunionette;Neuropathie diabétique;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-167-05
+Pied;2 Importante;Léger;Déformation des orteils latéraux ou bunionette;Cors et durillons sur les orteils;↑ Augmente;Examen physique;Nouvelle (Fiche résumée Pi3 (présentation clinique));;;;MSK-PIED-PI03-01
+Pied;2 Importante;Léger;Déformation des orteils latéraux ou bunionette;Diabète;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée Pi3 (épidémiologie));;;;MSK-PIED-PI03-02
 Pied;2 Importante;Léger;Fasciite plantaire;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V265-01
+Pied;2 Importante;Léger;Fasciite plantaire;Âge de 40 à 60 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée Pi1 (épidémiologie));;;;MSK-PIED-PI01-02
 Pied;2 Importante;Modéré;Fasciite plantaire;Test du windlass en charge positif;↑ Augmente;Tests spécifiques;Base des flashcards;Test du windlass en charge positif;"Test du windlass : debout, on relève passivement le gros orteil ; positif s'il réveille la douleur sous le talon.";;MSK-165-06
 Pied;2 Importante;Modéré;Fasciite plantaire;Épine calcanéenne à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;Épine calcanéenne;;;MSK-165-10
 Pied;2 Importante;Modéré;Fasciite plantaire;Talalgie rebelle chez un sujet jeune;↓ Diminue;Anamnèse;Base des flashcards;Sujet jeune avec talalgie réfractaire;;;MSK-165-11
+Pied;2 Importante;Modéré;Fasciite plantaire;Brûlure ou engourdissement du talon;↓ Diminue;Anamnèse;Nouvelle (Fiche résumée Pi1 (présentation clinique));;;;MSK-PIED-PI01-03
 Pied;2 Importante;Difficile;Fasciite plantaire;Test du windlass en charge négatif;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-165-07
 Pied;2 Importante;Difficile;Fracture de stress du calcanéus;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-183-03
 Pied;2 Importante;Léger;Fracture de stress du naviculaire;Antécédent de lésion de stress osseux;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-182-07
+Pied;2 Importante;Modéré;Fracture de stress du naviculaire;Douleur insidieuse sur le dos du médio-pied, pire au sprint et aux sauts;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi18 (présentation clinique));;;;MSK-PIED-PI18-01
 Pied;2 Importante;Difficile;Fracture de stress du naviculaire;Symptômes anciens sans diagnostic;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-182-03
 Pied;2 Importante;Léger;Fracture de stress métatarsienne;Recrue militaire;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-181-02
 Pied;2 Importante;Léger;Fracture de stress métatarsienne;Règles rares (oligoménorrhée) chez la coureuse;↑ Augmente;Anamnèse;Base des flashcards;Oligoménorrhée chez la coureuse;;;MSK-181-04
@@ -1822,15 +1916,18 @@ Pied;2 Importante;Modéré;Fracture du pied (métatarsiens, base du 5ᵉ, orteil
 Pied;2 Importante;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Base du gros orteil sensible;↑ Augmente;Anamnèse;Base des flashcards;1ʳᵉ métatarso-phalangienne sensible;;;MSK-179-02
 Pied;2 Importante;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Diurétique de l'anse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-179-08
 Pied;2 Importante;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Alcool, 50 g ou plus par jour;↑ Augmente;Anamnèse;Base des flashcards;Alcool ≥ 50 g/j;;;MSK-179-09
+Pied;2 Importante;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Insuffisance rénale (DFGe < 60);↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée Pi15 (épidémiologie));;;;MSK-PIED-PI15-01
 Pied;2 Importante;Difficile;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Monoarthrite du gros orteil jugée goutteuse par le médecin de famille;↔ Neutre;Anamnèse;Base des flashcards;Monoarthrite de la 1ʳᵉ métatarso-phalangienne jugée goutteuse par le généraliste;;;MSK-179-03
 Pied;2 Importante;Léger;Hallux rigidus;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-169-06
 Pied;2 Importante;Modéré;Hallux rigidus;Au moins 3 signes sur 5 (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°);↑ Augmente;Tests spécifiques;Base des flashcards;;Hallux rigidus : arthrose de la base du gros orteil, qui limite et rend douloureuse sa flexion dorsale.;;MSK-169-01
 Pied;2 Importante;Modéré;Hallux rigidus;Moins de 3 de ces 5 signes (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°);↓ Diminue;Anamnèse;Base des flashcards;Moins de 3;;;MSK-169-02
 Pied;2 Importante;Difficile;Hallux rigidus;Arthrose radiographique isolée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-169-08
 Pied;2 Importante;Léger;Hallux valgus;Talons hauts;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-166-04
+Pied;2 Importante;Léger;Lésion de Lisfranc;Accident de la route;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi20 (épidémiologie));;;;MSK-PIED-PI20-02
 Pied;2 Importante;Modéré;Lésion de Lisfranc;Fractures de plusieurs métatarsiens;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-184-03
 Pied;2 Importante;Modéré;Lésion de Lisfranc;Radiographie en charge positive;↑ Augmente;Anamnèse;Base des flashcards;Radiographie en charge positive;;;MSK-184-05
 Pied;2 Importante;Difficile;Lésion de Lisfranc;Radiographie en charge normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-184-06
+Pied;2 Importante;Léger;Maladie d'Iselin;Douleur au bord externe du pied à la course et aux sauts, chez l'enfant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi12 (présentation clinique));;;;MSK-PIED-PI12-01
 Pied;2 Importante;Léger;Maladie de Freiberg;Atteinte du 2e métatarsien;↑ Augmente;Anamnèse;Base des flashcards;Deuxième métatarsien;Maladie de Freiberg : nécrose de la tête d'un métatarsien, surtout le 2e, chez l'adolescente.;;MSK-186-01
 Pied;2 Importante;Léger;Maladie de Freiberg;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-186-02
 Pied;2 Importante;Léger;Maladie de Freiberg;Adolescente de 11 à 17 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-186-03
@@ -1840,6 +1937,7 @@ Pied;2 Importante;Léger;Névrome de Morton;Sexe féminin;↑ Augmente;Facteurs 
 Pied;2 Importante;Modéré;Névrome de Morton;Compression de l'espace intermétatarsien douloureuse;↑ Augmente;Anamnèse;Base des flashcards;(incertain) Compression pouce-index de l'espace;;;MSK-171-01
 Pied;2 Importante;Difficile;Névrome de Morton;Signe de Mulder;↔ Neutre;Tests spécifiques;Base des flashcards;Signe de Mulder;Signe de Mulder : en serrant l'avant-pied d'un côté à l'autre, on sent un claquement douloureux dans l'espace atteint.;;MSK-171-02
 Pied;2 Importante;Difficile;Névrome de Morton;« Névrome » à l'imagerie chez une personne sans douleur;↔ Neutre;Imagerie;Base des flashcards;« Névrome » à l'imagerie chez l'asymptomatique;;;MSK-171-08
+Pied;2 Importante;Léger;Os naviculaire accessoire douloureux;Douleur au bord interne du médio-pied en chaussure étroite, chez l'enfant;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi11 (présentation clinique));;;;MSK-PIED-PI11-01
 Pied;2 Importante;Difficile;Os naviculaire accessoire douloureux;Os naviculaire accessoire visible à la radiographie;↔ Neutre;Anamnèse;Base des flashcards;Ossicule visible;Os naviculaire accessoire : petit os en plus, au bord interne du pied, où s'attache le tibial postérieur.;;MSK-175-01
 Pied;2 Importante;Léger;Pied de Charcot;Atteinte du médio-pied;↑ Augmente;Anamnèse;Base des flashcards;Siège au médio-pied;;;MSK-185-10
 Pied;2 Importante;Modéré;Pied de Charcot;Peau plus chaude de plus de 2 °C que l'autre pied;↑ Augmente;Anamnèse;Base des flashcards;(incertain) Peau plus chaude de plus de 2 °C;;;MSK-185-04
@@ -1862,6 +1960,7 @@ Pied;3 Complémentaire;Difficile;Fasciite plantaire;Âge et sexe, après 50 ans;
 Pied;3 Complémentaire;Léger;Fracture de stress du calcanéus;Recrue militaire;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-183-01
 Pied;3 Complémentaire;Modéré;Fracture de stress du calcanéus;IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-183-04
 Pied;3 Complémentaire;Modéré;Fracture de stress du calcanéus;Test du windlass positif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-183-06
+Pied;3 Complémentaire;Modéré;Fracture de stress du calcanéus;Douleur et enflure du talon après quelques jours de malaise, chez une recrue;↑ Augmente;Anamnèse;Nouvelle (Fiche résumée Pi19 (présentation clinique));;;;MSK-PIED-PI19-01
 Pied;3 Complémentaire;Difficile;Fracture de stress du calcanéus;Âge, taille, poids, IMC ou condition physique;↔ Neutre;Facteurs démographiques;Base des flashcards;Âge, taille, poids, IMC, condition physique;;;MSK-183-02
 Pied;3 Complémentaire;Léger;Fracture de stress du naviculaire;Sprint, haies ou sauts;↑ Augmente;Anamnèse;Base des flashcards;Sprint, haies, sauts;;;MSK-182-01
 Pied;3 Complémentaire;Modéré;Fracture de stress du naviculaire;Sensibilité du « N spot » (dos du naviculaire);↑ Augmente;Examen physique;Base des flashcards;(incertain) Sensibilité du « N spot »;;;MSK-182-02
@@ -1921,6 +2020,7 @@ Pied;3 Complémentaire;Modéré;Pied de Charcot;Trajet fistuleux;↓ Diminue;Ana
 Pied;3 Complémentaire;Difficile;Pied de Charcot;Artériopathie;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-185-03
 Pied;3 Complémentaire;Léger;Sésamoïdite ou fracture du sésamoïde;Sésamoïde médial;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-173-03
 Pied;3 Complémentaire;Léger;Sésamoïdite ou fracture du sésamoïde;Danse, course;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-173-04
+Pied;3 Complémentaire;Léger;Sésamoïdite ou fracture du sésamoïde;Jeune danseuse;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée Pi9 (épidémiologie));;;;MSK-PIED-PI09-02
 Pied;3 Complémentaire;Modéré;Sésamoïdite ou fracture du sésamoïde;Écart > 2 mm entre les fragments;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-173-05
 Pied;3 Complémentaire;Difficile;Sésamoïdite ou fracture du sésamoïde;Sésamoïde en deux fragments à la radiographie;↔ Neutre;Anamnèse;Base des flashcards;;Sésamoïde bipartite : sésamoïde normalement en deux morceaux, souvent des deux côtés.;;MSK-173-01
 Pied;3 Complémentaire;Difficile;Sésamoïdite ou fracture du sésamoïde;Sésamoïde de l'autre pied normal (pas en deux fragments);↔ Neutre;Anamnèse;Base des flashcards;Côté opposé normal;;;MSK-173-02

@@ -293,3 +293,62 @@
 163-10 2 D | e: Tableau qui ressemble à une cellulite
 163-11 3 D | e: Cristaux dans le liquide articulaire
 + oe24:347 - 2 L ↑ demo | Goutte : sexe masculin | x: Goutte : environ 3,3 hommes pour 1 femme (4,42 contre 1,32 pour 1 000 personnes-années) ; l'écart diminue avec l'âge.
+
+## Cartes simples tirées des fiches résumées de la cheville (bloc 10, reçu le 24 novembre)
+= Ch1 143
+= Ch2 144
+= Ch3 145
+= Ch4 146
+= Ch5 147
+= Ch6 148
+= Ch7 149
+= Ch8 150
+= Ch9 151
+= Ch10 152
+= Ch11 153
+= Ch12 154
+= Ch13 155
+= Ch14 156
+= Ch15 157
+= Ch16 158
+= Ch17 159
+= Ch18 160
+= Ch19 161
+= Ch20 162
+= Ch21 163
+= Ch22 164
++ Ch1 pre 1 L ↑ anam | Traumatisme en inversion, pied en flexion plantaire
++ Ch1 epi 2 L ↑ demo | Âge de 15 à 19 ans
++ Ch2 pre 1 L ↑ anam | Au moins 2 dérobements de la cheville en 6 mois
++ Ch3 pre 1 L ↑ anam | Raideur le matin et douleur au début de l'effort, atténuée à l'échauffement
++ Ch3 exa 1 M ↓ anam | Début brutal
++ Ch4 pre 1 L ↑ anam | Douleur dans les 2 premiers cm de l'insertion du tendon, irritée par le contrefort de la chaussure
++ Ch5 pre 1 L ↑ anam | Douleur sourde à l'effort le long du bord interne du tibia, au tiers moyen et distal
++ Ch5 exa 1 M ↓ anam | Douleur focale, au repos ou la nuit
++ Ch6 pre 1 L ↑ anam | Douleur et tension qui apparaissent au même moment de chaque effort et cèdent en quelques minutes au repos
++ Ch6 exa 3 M ↑ exam | Hernie musculaire à la jambe
++ Ch7 pre 1 L ↑ anam | Douleur brutale du mollet, comme un « coup de pierre », en poussant
++ Ch7 epi 2 L ↑ demo | Homme d'âge moyen
++ Ch8 pre 1 L ↑ anam | Douleur du talon pendant ou après la course et les sauts, soulagée au repos, chez l'enfant
++ Ch8 exa 2 M ↑ test | Compression du calcanéus d'un côté à l'autre douloureuse
++ Ch8 exa 2 M ↓ exam | Apophyse du calcanéus déjà soudée à la radiographie
++ Ch9 pre 1 L ↑ anam | Douleur sous la malléole médiale, avec un pied qui s'affaisse
++ Ch10 pre 2 M ↑ anam | Œdème en fin de journée et raideur après le repos, après une ancienne fracture
++ Ch11 pre 1 L ↑ anam | Dorsiflexion forcée avec rotation externe du pied
++ Ch11 epi 3 L ↑ risq | Football américain
++ Ch12 epi 3 L ↑ demo | Sexe masculin
++ Ch13 pre 2 M ↑ anam | Ressaut douloureux derrière la malléole latérale, dérobement sur terrain inégal
++ Ch14 pre 2 M ↑ anam | Douleur à l'avant de la cheville en dorsiflexion et à l'accroupissement
++ Ch14 pre 3 M ↑ anam | Douleur à l'arrière de la cheville en pointe (danse, tir, descente)
++ Ch15 pre 1 L ↑ anam | Brûlures ou picotements sous le pied, pires en fin de journée et la nuit
++ Ch15 exa 1 M ↓ anam | Symptômes des deux pieds « en chaussette »
++ Ch16 pre 1 L ↑ anam | Sensation d'un coup de pied au mollet en poussant
++ Ch17 epi 2 L ↑ demo | Femme de 60 à 69 ans
++ Ch18 pre 1 L ↑ anam | Douleur focale qui ne s'atténue pas à l'échauffement, 4 à 6 semaines après un changement d'entraînement
++ Ch18 epi 2 L ↑ demo | Sexe féminin
++ Ch19 pre 2 L ↑ anam | Torsion violente en rotation externe, au sport
++ Ch19 exa 1 M ↑ exam | Sensibilité de la fibula près du genou
++ Ch20 pre 1 L ↑ anam | Douleur profonde qui persiste après une entorse qui « aurait dû guérir »
++ Ch21 pre 1 L ↑ anam | Crise la nuit, douleur maximale en moins de 24 heures
++ Ch21 epi 3 L ↑ risq | Obésité
++ Ch22 pre 2 M ↑ anam | Douleur à la mise en charge sans traumatisme, prise pour une cellulite

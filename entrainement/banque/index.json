@@ -75,33 +75,33 @@
    "domaine": "MSK",
    "region": "Genou",
    "fichier": "/entrainement/banque/msk-genou.json",
-   "cartes": 217,
+   "cartes": 257,
    "experimentales": 2,
    "diagnostics": 23,
    "retirees": 13,
-   "jouables": 204
+   "jouables": 244
   },
   {
    "cle": "msk-cheville",
    "domaine": "MSK",
    "region": "Cheville et jambe",
    "fichier": "/entrainement/banque/msk-cheville.json",
-   "cartes": 237,
+   "cartes": 272,
    "experimentales": 8,
    "diagnostics": 22,
    "retirees": 24,
-   "jouables": 211
+   "jouables": 246
   },
   {
    "cle": "msk-pied",
    "domaine": "MSK",
    "region": "Pied",
    "fichier": "/entrainement/banque/msk-pied.json",
-   "cartes": 206,
+   "cartes": 231,
    "experimentales": 5,
    "diagnostics": 22,
    "retirees": 25,
-   "jouables": 179
+   "jouables": 204
   }
  ]
 }

@@ -261,3 +261,50 @@
 185-11 4 M
 185-12 3 M
 185-13 2 D
+
+## Cartes simples tirées des fiches résumées du pied (bloc 11, reçu le 24 novembre)
+= Pi1 165
+= Pi2 166
+= Pi3 167
+= Pi4 168
+= Pi5 169
+= Pi6 170
+= Pi7 171
+= Pi9 173
+= Pi10 174
+= Pi11 175
+= Pi12 176
+= Pi14 178
+= Pi15 179
+= Pi16 180
+= Pi17 181
+= Pi18 182
+= Pi19 183
+= Pi20 184
+= Pi21 185
+= Pi22 186
++ Pi1 pre 1 L ↑ anam | Douleur sous le talon aux premiers pas du matin ou après le repos
++ Pi1 epi 2 L ↑ demo | Âge de 40 à 60 ans
++ Pi1 pre 2 M ↓ anam | Brûlure ou engourdissement du talon
++ Pi2 pre 1 L ↑ anam | Douleur au bord interne du gros orteil, soulagée en enlevant la chaussure
++ Pi3 pre 2 L ↑ exam | Cors et durillons sur les orteils
++ Pi3 epi 2 L ↑ risq | Diabète
++ Pi4 pre 1 L ↑ anam | Douleur au dos du médio-pied, debout longtemps et à la marche
++ Pi5 pre 1 L ↑ anam | Bosse sur le dos de la base du gros orteil qui frotte dans la chaussure, avec raideur
++ Pi6 pre 1 L ↑ anam | Sensation de « marcher sur un caillou » sous la 2e tête métatarsienne
++ Pi7 pre 1 L ↑ anam | Brûlure plantaire qui irradie dans deux orteils voisins, pire en chaussure serrée
++ Pi9 pre 1 L ↑ anam | Douleur sous la tête du 1er métatarsien à l'appui et à la propulsion
++ Pi9 epi 3 L ↑ risq | Jeune danseuse
++ Pi10 pre 1 M ↑ anam | Entorses de la cheville à répétition chez un adolescent
++ Pi11 pre 2 L ↑ anam | Douleur au bord interne du médio-pied en chaussure étroite, chez l'enfant
++ Pi12 pre 2 L ↑ anam | Douleur au bord externe du pied à la course et aux sauts, chez l'enfant
++ Pi14 pre 1 M ↓ anam | Douleur qui augmente malgré le repos, la glace et la surélévation
++ Pi15 epi 2 L ↑ risq | Insuffisance rénale (DFGe < 60)
++ Pi16 pre 1 L ↑ anam | Inversion de la cheville avec douleur à la base du 5e métatarsien
++ Pi17 pre 1 L ↑ anam | Douleur de l'avant-pied à l'impact, quelques semaines après une hausse de l'entraînement
++ Pi18 pre 2 M ↑ anam | Douleur insidieuse sur le dos du médio-pied, pire au sprint et aux sauts
++ Pi19 pre 3 M ↑ anam | Douleur et enflure du talon après quelques jours de malaise, chez une recrue
++ Pi20 pre 1 M ↑ anam | Incapacité de monter sur la pointe du pied après un traumatisme du médio-pied
++ Pi20 epi 2 L ↑ anam | Accident de la route
++ Pi21 pre 1 L ↑ anam | Pied rouge, chaud et enflé, peu douloureux, chez un diabétique avec neuropathie
++ Pi22 pre 1 L ↑ anam | Douleur à la base du 2e orteil, pire pieds nus ou en talons hauts
