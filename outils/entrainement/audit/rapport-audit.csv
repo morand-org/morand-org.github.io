@@ -1771,3 +1771,209 @@ Cheville et jambe;Retirée;;Tendinopathie d'insertion, Haglund ou bursite rétro
 Cheville et jambe;Retirée;;Tendinopathie, déchirure ou luxation des fibulaires;Ski, sport (fréquence);↓ Diminue;Facteurs de risque;Base des flashcards;;;Énoncé confus (« fréquence »), carte expérimentale.;MSK-155-09
 Cheville et jambe;Retirée;;Tendinopathie, déchirure ou luxation des fibulaires;IRM pour une déchirure;↔ Neutre;Imagerie;Base des flashcards;;;Carte expérimentale au sens douteux (IRM).;MSK-155-03
 Cheville et jambe;Retirée;;Tendinopathie, déchirure ou luxation des fibulaires;Premier diagnostic;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (premier diagnostic correct dans 60 % des cas).;MSK-155-12
+Pied;1 Essentielle;Modéré;Contusion ou écrasement du pied;Règle d'Ottawa du médio-pied négative;↑ Augmente;Tests spécifiques;Base des flashcards;;;;MSK-178-01
+Pied;1 Essentielle;Modéré;Contusion ou écrasement du pied;Douleur disproportionnée ou à l'étirement passif des orteils;↓ Diminue;Anamnèse;Base des flashcards;Douleur disproportionnée ou à l'étirement passif;;;MSK-178-06
+Pied;1 Essentielle;Léger;Déformation des orteils latéraux ou bunionette;Âge avancé;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge;Bunionette : saillie douloureuse de la tête du 5e métatarsien, l'« oignon » du petit orteil.;;MSK-167-01
+Pied;1 Essentielle;Léger;Fasciite plantaire;IMC > 27;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-165-01
+Pied;1 Essentielle;Difficile;Fracture de stress du naviculaire;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-182-04
+Pied;1 Essentielle;Léger;Fracture de stress métatarsienne;Atteinte du 2e ou du 3e métatarsien;↑ Augmente;Anamnèse;Base des flashcards;Deuxième ou troisième métatarsien;;;MSK-181-01
+Pied;1 Essentielle;Difficile;Fracture de stress métatarsienne;Radiographie initiale normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-181-08
+Pied;1 Essentielle;Léger;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Règle d'Ottawa du médio-pied négative;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-180-01
+Pied;1 Essentielle;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Atteinte de la base du gros orteil (1re métatarso-phalangienne);↑ Augmente;Anamnèse;Base des flashcards;Atteinte de la 1ʳᵉ métatarso-phalangienne;;;MSK-179-01
+Pied;1 Essentielle;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Sexe féminin;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-179-04
+Pied;1 Essentielle;Difficile;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Uricémie normale pendant la crise;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-179-05
+Pied;1 Essentielle;Léger;Hallux valgus;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-166-01
+Pied;1 Essentielle;Léger;Hallux valgus;Âge plus avancé (par décennie);↑ Augmente;Facteurs démographiques;Base des flashcards;Âge;;;MSK-166-02
+Pied;1 Essentielle;Léger;Hallux valgus;Chaussures à bout étroit;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-166-03
+Pied;1 Essentielle;Léger;Lésion de Lisfranc;Charge axiale sur un pied en flexion plantaire, au sport;↑ Augmente;Examen physique;Base des flashcards;Charge axiale sur pied en flexion plantaire, sport;Lésion de Lisfranc : entorse ou fracture-luxation de l'articulation entre le tarse et les métatarses (médio-pied).;;MSK-184-02
+Pied;1 Essentielle;Difficile;Lésion de Lisfranc;Radiographie sans mise en charge normale;↔ Neutre;Anamnèse;Base des flashcards;Radiographie sans charge normale;;;MSK-184-04
+Pied;1 Essentielle;Léger;Maladie de Sever (pied);Palpation de l'apophyse du calcanéus douloureuse;↑ Augmente;Examen physique;Base des flashcards;Palpation de l'apophyse douloureuse;;;MSK-177-01
+Pied;1 Essentielle;Léger;Névrome de Morton;Atteinte du 3e espace (entre les 3e et 4e orteils);↑ Augmente;Anamnèse;Base des flashcards;Troisième espace;;;MSK-171-05
+Pied;1 Essentielle;Léger;Névrome de Morton;Femme de 55 à 64 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V273-01
+Pied;1 Essentielle;Léger;Pied de Charcot;Neuropathie périphérique;↑ Augmente;Anamnèse;Base des flashcards;;"Pied de Charcot : destruction des os et des articulations du pied neuropathique (diabète) ; au début, le pied est chaud, rouge et enflé.";;MSK-185-01
+Pied;1 Essentielle;Difficile;Pied de Charcot;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-185-06
+Pied;2 Importante;Léger;Arthrose du médio-pied;Ancienne lésion de Lisfranc;↑ Augmente;Anamnèse;Base des flashcards;Lésion de Lisfranc ancienne;;;MSK-168-01
+Pied;2 Importante;Léger;Arthrose du médio-pied;Antécédent de fracture du pied;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-168-02
+Pied;2 Importante;Léger;Arthrose du médio-pied;Obésité;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-168-04
+Pied;2 Importante;Léger;Arthrose du médio-pied;Âge de 50 ans ou plus;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V268-01
+Pied;2 Importante;Modéré;Arthrose du médio-pied;Douleur dorsale du médio-pied;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-168-06
+Pied;2 Importante;Difficile;Arthrose du médio-pied;Radiographie de face seule normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-168-09
+Pied;2 Importante;Léger;Contusion ou écrasement du pied;Fracture ouverte, fractures multiples;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-178-04
+Pied;2 Importante;Modéré;Contusion ou écrasement du pied;Mécanisme d'écrasement;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-178-03
+Pied;2 Importante;Modéré;Contusion ou écrasement du pied;Fracture du calcanéus associée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-178-05
+Pied;2 Importante;Modéré;Contusion ou écrasement du pied;Ecchymose plantaire;↓ Diminue;Examen physique;Base des flashcards;;;;MSK-178-09
+Pied;2 Importante;Difficile;Contusion ou écrasement du pied;Douleur disproportionnée ou à l'étirement passif : absente;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-178-07
+Pied;2 Importante;Léger;Déformation des orteils latéraux ou bunionette;Hallux valgus associé;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-167-04
+Pied;2 Importante;Léger;Déformation des orteils latéraux ou bunionette;Neuropathie diabétique;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-167-05
+Pied;2 Importante;Léger;Fasciite plantaire;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V265-01
+Pied;2 Importante;Modéré;Fasciite plantaire;Test du windlass en charge positif;↑ Augmente;Tests spécifiques;Base des flashcards;Test du windlass en charge positif;"Test du windlass : debout, on relève passivement le gros orteil ; positif s'il réveille la douleur sous le talon.";;MSK-165-06
+Pied;2 Importante;Modéré;Fasciite plantaire;Épine calcanéenne à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;Épine calcanéenne;;;MSK-165-10
+Pied;2 Importante;Modéré;Fasciite plantaire;Talalgie rebelle chez un sujet jeune;↓ Diminue;Anamnèse;Base des flashcards;Sujet jeune avec talalgie réfractaire;;;MSK-165-11
+Pied;2 Importante;Difficile;Fasciite plantaire;Test du windlass en charge négatif;↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-165-07
+Pied;2 Importante;Difficile;Fracture de stress du calcanéus;Radiographie normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-183-03
+Pied;2 Importante;Léger;Fracture de stress du naviculaire;Antécédent de lésion de stress osseux;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-182-07
+Pied;2 Importante;Difficile;Fracture de stress du naviculaire;Symptômes anciens sans diagnostic;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-182-03
+Pied;2 Importante;Léger;Fracture de stress métatarsienne;Recrue militaire;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-181-02
+Pied;2 Importante;Léger;Fracture de stress métatarsienne;Règles rares (oligoménorrhée) chez la coureuse;↑ Augmente;Anamnèse;Base des flashcards;Oligoménorrhée chez la coureuse;;;MSK-181-04
+Pied;2 Importante;Léger;Fracture de stress métatarsienne;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V274-01
+Pied;2 Importante;Modéré;Fracture de stress métatarsienne;Triade de l'athlète féminine;↑ Augmente;Facteurs de risque;Base des flashcards;Triade de la sportive;Triade de l'athlète féminine : apport énergétique insuffisant, troubles menstruels et densité osseuse basse.;;MSK-181-03
+Pied;2 Importante;Léger;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Atteinte du 5e métatarsien;↑ Augmente;Anamnèse;Base des flashcards;Cinquième métatarsien;;;MSK-180-03
+Pied;2 Importante;Modéré;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Fracture du pied ailleurs qu'à la base du 5e, après une inversion de la cheville;↓ Diminue;Anamnèse;Base des flashcards;Fracture du pied hors base du 5ᵉ après inversion de cheville;;;MSK-180-09
+Pied;2 Importante;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Base du gros orteil sensible;↑ Augmente;Anamnèse;Base des flashcards;1ʳᵉ métatarso-phalangienne sensible;;;MSK-179-02
+Pied;2 Importante;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Diurétique de l'anse;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-179-08
+Pied;2 Importante;Léger;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Alcool, 50 g ou plus par jour;↑ Augmente;Anamnèse;Base des flashcards;Alcool ≥ 50 g/j;;;MSK-179-09
+Pied;2 Importante;Difficile;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Monoarthrite du gros orteil jugée goutteuse par le médecin de famille;↔ Neutre;Anamnèse;Base des flashcards;Monoarthrite de la 1ʳᵉ métatarso-phalangienne jugée goutteuse par le généraliste;;;MSK-179-03
+Pied;2 Importante;Léger;Hallux rigidus;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-169-06
+Pied;2 Importante;Modéré;Hallux rigidus;Au moins 3 signes sur 5 (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°);↑ Augmente;Tests spécifiques;Base des flashcards;;Hallux rigidus : arthrose de la base du gros orteil, qui limite et rend douloureuse sa flexion dorsale.;;MSK-169-01
+Pied;2 Importante;Modéré;Hallux rigidus;Moins de 3 de ces 5 signes (douleur > 25 mois, exostose dorsale, arrêt dur, crépitation, dorsiflexion < 64°);↓ Diminue;Anamnèse;Base des flashcards;Moins de 3;;;MSK-169-02
+Pied;2 Importante;Difficile;Hallux rigidus;Arthrose radiographique isolée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-169-08
+Pied;2 Importante;Léger;Hallux valgus;Talons hauts;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-166-04
+Pied;2 Importante;Modéré;Lésion de Lisfranc;Fractures de plusieurs métatarsiens;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-184-03
+Pied;2 Importante;Modéré;Lésion de Lisfranc;Radiographie en charge positive;↑ Augmente;Anamnèse;Base des flashcards;Radiographie en charge positive;;;MSK-184-05
+Pied;2 Importante;Difficile;Lésion de Lisfranc;Radiographie en charge normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-184-06
+Pied;2 Importante;Léger;Maladie de Freiberg;Atteinte du 2e métatarsien;↑ Augmente;Anamnèse;Base des flashcards;Deuxième métatarsien;Maladie de Freiberg : nécrose de la tête d'un métatarsien, surtout le 2e, chez l'adolescente.;;MSK-186-01
+Pied;2 Importante;Léger;Maladie de Freiberg;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-186-02
+Pied;2 Importante;Léger;Maladie de Freiberg;Adolescente de 11 à 17 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-186-03
+Pied;2 Importante;Difficile;Maladie de Freiberg;Radiographie précoce normale;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-186-07
+Pied;2 Importante;Difficile;Métatarsalgie ou lésion de la plaque plantaire;Douleur sous la 2ᵉ tête métatarsienne;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-170-03
+Pied;2 Importante;Léger;Névrome de Morton;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-171-04
+Pied;2 Importante;Modéré;Névrome de Morton;Compression de l'espace intermétatarsien douloureuse;↑ Augmente;Anamnèse;Base des flashcards;(incertain) Compression pouce-index de l'espace;;;MSK-171-01
+Pied;2 Importante;Difficile;Névrome de Morton;Signe de Mulder;↔ Neutre;Tests spécifiques;Base des flashcards;Signe de Mulder;Signe de Mulder : en serrant l'avant-pied d'un côté à l'autre, on sent un claquement douloureux dans l'espace atteint.;;MSK-171-02
+Pied;2 Importante;Difficile;Névrome de Morton;« Névrome » à l'imagerie chez une personne sans douleur;↔ Neutre;Imagerie;Base des flashcards;« Névrome » à l'imagerie chez l'asymptomatique;;;MSK-171-08
+Pied;2 Importante;Difficile;Os naviculaire accessoire douloureux;Os naviculaire accessoire visible à la radiographie;↔ Neutre;Anamnèse;Base des flashcards;Ossicule visible;Os naviculaire accessoire : petit os en plus, au bord interne du pied, où s'attache le tibial postérieur.;;MSK-175-01
+Pied;2 Importante;Léger;Pied de Charcot;Atteinte du médio-pied;↑ Augmente;Anamnèse;Base des flashcards;Siège au médio-pied;;;MSK-185-10
+Pied;2 Importante;Modéré;Pied de Charcot;Peau plus chaude de plus de 2 °C que l'autre pied;↑ Augmente;Anamnèse;Base des flashcards;(incertain) Peau plus chaude de plus de 2 °C;;;MSK-185-04
+Pied;2 Importante;Modéré;Pied de Charcot;Ulcère avec contact osseux;↓ Diminue;Anamnèse;Base des flashcards;Ulcère avec contact osseux;;;MSK-185-09
+Pied;2 Importante;Difficile;Pied de Charcot;VS et CRP;↔ Neutre;Laboratoire;Base des flashcards;;;;MSK-185-13
+Pied;2 Importante;Léger;Synostose (coalition) du tarse;Âge de 10 à 14 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;Synostose du tarse : pont osseux ou fibreux entre deux os du tarse, qui raidit le pied plat de l'adolescent.;;MSK-174-01
+Pied;3 Complémentaire;Léger;Arthrose du médio-pied;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V268-02
+Pied;3 Complémentaire;Modéré;Arthrose du médio-pied;Pied plat progressif;↑ Augmente;Évolution temporelle;Base des flashcards;;;;MSK-168-05
+Pied;3 Complémentaire;Difficile;Arthrose du médio-pied;Antécédent d'entorse;↔ Neutre;Facteurs de risque;Base des flashcards;;;;MSK-168-03
+Pied;3 Complémentaire;Difficile;Arthrose du médio-pied;Talons hauts ou arthrose nodulaire des doigts;↔ Neutre;Anamnèse;Base des flashcards;Talons hauts, arthrose digitale nodale;;;MSK-168-08
+Pied;3 Complémentaire;Difficile;Contusion ou écrasement du pied;Règle d'Ottawa appliquée à l'avant-pied;↔ Neutre;Tests spécifiques;Base des flashcards;Règle d'Ottawa pour l'avant-pied;;;MSK-178-02
+Pied;3 Complémentaire;Léger;Déformation des orteils latéraux ou bunionette;Antécédent familial;↑ Augmente;Anamnèse;Base des flashcards;Hérédité;;;MSK-167-03
+Pied;3 Complémentaire;Difficile;Déformation des orteils latéraux ou bunionette;Sexe féminin;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-167-02
+Pied;3 Complémentaire;Difficile;Déformation des orteils latéraux ou bunionette;Atrophie des muscles intrinsèques du pied;↔ Neutre;Examen physique;Base des flashcards;Atrophie des muscles intrinsèques;;;MSK-167-06
+Pied;3 Complémentaire;Difficile;Déformation des orteils latéraux ou bunionette;Douleur du pied;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-167-07
+Pied;3 Complémentaire;Difficile;Fasciite plantaire;Dorsiflexion de la cheville limitée;↔ Neutre;Examen physique;Base des flashcards;Dorsiflexion de cheville limitée;;;MSK-165-02
+Pied;3 Complémentaire;Difficile;Fasciite plantaire;Station debout prolongée au travail;↔ Neutre;Facteurs de risque;Base des flashcards;;;;MSK-165-03
+Pied;3 Complémentaire;Difficile;Fasciite plantaire;Pied en pronation;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-165-04
+Pied;3 Complémentaire;Difficile;Fasciite plantaire;Âge et sexe, après 50 ans;↔ Neutre;Facteurs démographiques;Base des flashcards;Âge et sexe après 50 ans;;;MSK-165-05
+Pied;3 Complémentaire;Léger;Fracture de stress du calcanéus;Recrue militaire;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-183-01
+Pied;3 Complémentaire;Modéré;Fracture de stress du calcanéus;IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-183-04
+Pied;3 Complémentaire;Modéré;Fracture de stress du calcanéus;Test du windlass positif;↓ Diminue;Tests spécifiques;Base des flashcards;;;;MSK-183-06
+Pied;3 Complémentaire;Difficile;Fracture de stress du calcanéus;Âge, taille, poids, IMC ou condition physique;↔ Neutre;Facteurs démographiques;Base des flashcards;Âge, taille, poids, IMC, condition physique;;;MSK-183-02
+Pied;3 Complémentaire;Léger;Fracture de stress du naviculaire;Sprint, haies ou sauts;↑ Augmente;Anamnèse;Base des flashcards;Sprint, haies, sauts;;;MSK-182-01
+Pied;3 Complémentaire;Modéré;Fracture de stress du naviculaire;Sensibilité du « N spot » (dos du naviculaire);↑ Augmente;Examen physique;Base des flashcards;(incertain) Sensibilité du « N spot »;;;MSK-182-02
+Pied;3 Complémentaire;Léger;Fracture de stress métatarsienne;Danseuse de ballet;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-181-05
+Pied;3 Complémentaire;Modéré;Fracture de stress métatarsienne;Échographie positive malgré une radiographie normale;↑ Augmente;Anamnèse;Base des flashcards;Échographie positive à radiographie normale;;;MSK-181-09
+Pied;3 Complémentaire;Difficile;Fracture de stress métatarsienne;Voûte plantaire haute;↑ Augmente;Anamnèse;Base des flashcards;Voûte haute;;;MSK-181-06
+Pied;3 Complémentaire;Difficile;Fracture de stress métatarsienne;Premier métatarsien court;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-181-07
+Pied;3 Complémentaire;Difficile;Fracture de stress métatarsienne;Douleur aux ultrasons thérapeutiques;↔ Neutre;Anamnèse;Base des flashcards;Douleur aux ultrasons thérapeutiques;;;MSK-181-10
+Pied;3 Complémentaire;Modéré;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Zone 1 de la base du 5e métatarsien;↑ Augmente;Anamnèse;Base des flashcards;Zone 1 de la base du 5ᵉ;"Base du 5e métatarsien : zone 1, avulsion de la tubérosité ; zone 2, fracture de Jones ; zone 3, fracture de stress de la diaphyse.";;MSK-180-04
+Pied;3 Complémentaire;Modéré;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Échographie positive sur un 5e métatarsien sensible;↑ Augmente;Anamnèse;Base des flashcards;Échographie positive sur un 5ᵉ métatarsien sensible;;;MSK-180-05
+Pied;3 Complémentaire;Modéré;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Échographie négative sur un 5e métatarsien sensible;↓ Diminue;Anamnèse;Base des flashcards;Échographie positive sur un 5ᵉ métatarsien sensible : négative;;;MSK-180-06
+Pied;3 Complémentaire;Modéré;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Échographie positive sur les métatarsiens;↑ Augmente;Anamnèse;Base des flashcards;Échographie positive sur les métatarsiens;;;MSK-180-07
+Pied;3 Complémentaire;Difficile;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Début sans traumatisme, varus de l'arrière-pied, metatarsus adductus;↑ Augmente;Évolution temporelle;Base des flashcards;;;;MSK-180-10
+Pied;3 Complémentaire;Modéré;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Double contour à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;;Signe du double contour : liseré d'urate à la surface du cartilage, visible à l'échographie.;;MSK-179-06
+Pied;3 Complémentaire;Modéré;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Arthrite à pyrophosphate démontrée;↓ Diminue;Anamnèse;Base des flashcards;Arthrite à pyrophosphate;;;MSK-179-11
+Pied;3 Complémentaire;Modéré;Hallux rigidus;Traumatisme du gros orteil, si un seul pied est atteint;↑ Augmente;Anamnèse;Base des flashcards;Traumatisme si l'atteinte est unilatérale;;;MSK-169-05
+Pied;3 Complémentaire;Difficile;Hallux rigidus;Antécédent familial;↔ Neutre;Facteurs de risque;Base des flashcards;;;;MSK-169-03
+Pied;3 Complémentaire;Difficile;Hallux rigidus;Atteinte d'un seul pied au début;↔ Neutre;Évolution temporelle;Base des flashcards;Atteinte unilatérale au début;;;MSK-169-04
+Pied;3 Complémentaire;Difficile;Hallux rigidus;Premier métatarsien long ou surélevé, hypermobilité, pied plat, chaussage, métier;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-169-07
+Pied;3 Complémentaire;Difficile;Hallux valgus;Antécédent familial (hérédité);↔ Neutre;Anamnèse;Base des flashcards;Hérédité;;;MSK-166-06
+Pied;3 Complémentaire;Difficile;Hallux valgus;Pied plat;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-166-07
+Pied;3 Complémentaire;Difficile;Hallux valgus;Obésité chez la femme;↓ Diminue;Facteurs de risque;Base des flashcards;;;;MSK-166-08
+Pied;3 Complémentaire;Difficile;Hallux valgus;Douleur du pied;↔ Neutre;Anamnèse;Base des flashcards;Douleur;;;MSK-166-10
+Pied;3 Complémentaire;Modéré;Lésion de Lisfranc;Écart C1–M2 de 2,1 mm ou plus par rapport à l'autre pied;↑ Augmente;Anamnèse;Base des flashcards;Diastasis C1–M2 ≥ 2,1 mm par rapport au côté sain;;;MSK-184-07
+Pied;3 Complémentaire;Modéré;Lésion de Lisfranc;TDM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-184-09
+Pied;3 Complémentaire;Modéré;Lésion de Lisfranc;Homme d'environ 40 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V277-01
+Pied;3 Complémentaire;Difficile;Lésion de Lisfranc;Absence de petit fragment osseux (fleck sign);↔ Neutre;Anamnèse;Base des flashcards;Fleck sign absent;;;MSK-184-08
+Pied;3 Complémentaire;Léger;Maladie d'Iselin;Âge d'apparition de l'apophyse du 5e métatarsien;↑ Augmente;Facteurs démographiques;Base des flashcards;Âge d'apparition de l'apophyse;Maladie d'Iselin : apophysite de la base du 5e métatarsien chez l'enfant sportif.;;MSK-176-01
+Pied;3 Complémentaire;Léger;Maladie d'Iselin;Sport de course ou de saut, avec douleur à l'éversion résistée;↑ Augmente;Facteurs de risque;Base des flashcards;Sport de course ou de saut, douleur à l'éversion résistée;;;MSK-176-02
+Pied;3 Complémentaire;Modéré;Maladie d'Iselin;Ligne claire parallèle à la diaphyse du 5e métatarsien, à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;Ligne claire parallèle à la diaphyse;;;MSK-176-03
+Pied;3 Complémentaire;Modéré;Maladie d'Iselin;Trait transversal à la base du 5e métatarsien, à la radiographie;↓ Diminue;Anamnèse;Base des flashcards;Trait transversal;;;MSK-176-04
+Pied;3 Complémentaire;Modéré;Maladie de Freiberg;Métatarsien atteint plus long que les autres;↑ Augmente;Anamnèse;Base des flashcards;Métatarsien le plus long;;;MSK-186-06
+Pied;3 Complémentaire;Difficile;Maladie de Freiberg;Atteinte d'un seul pied;↔ Neutre;Anamnèse;Base des flashcards;Atteinte unilatérale;;;MSK-186-05
+Pied;3 Complémentaire;Modéré;Maladie de Sever (pied);Mollets courts des deux côtés (équin du gastrocnémien);↑ Augmente;Anamnèse;Base des flashcards;Équin bilatéral du gastrocnémien;;;MSK-177-02
+Pied;3 Complémentaire;Difficile;Maladie de Sever (pied);IMC;↔ Neutre;Anamnèse;Base des flashcards;IMC;;;MSK-177-04
+Pied;3 Complémentaire;Difficile;Maladie de Sever (pied);Sclérose de l'apophyse;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-177-05
+Pied;3 Complémentaire;Difficile;Maladie de Sever (pied);Charge d'entraînement;↔ Neutre;Anamnèse;Base des flashcards;Charge d'entraînement;;;MSK-177-08
+Pied;3 Complémentaire;Modéré;Métatarsalgie ou lésion de la plaque plantaire;Tiroir vertical de l'orteil positif;↑ Augmente;Anamnèse;Base des flashcards;Tiroir vertical positif;"Tiroir vertical : on tire la base de l'orteil vers le haut, métatarsien stabilisé ; une translation douloureuse évoque une lésion de la plaque plantaire.";;MSK-170-01
+Pied;3 Complémentaire;Modéré;Métatarsalgie ou lésion de la plaque plantaire;Tiroir vertical de l'orteil négatif;↓ Diminue;Anamnèse;Base des flashcards;Tiroir vertical négatif;;;MSK-170-02
+Pied;3 Complémentaire;Modéré;Métatarsalgie ou lésion de la plaque plantaire;Début brutal;↓ Diminue;Évolution temporelle;Base des flashcards;;;;MSK-170-05
+Pied;3 Complémentaire;Modéré;Métatarsalgie ou lésion de la plaque plantaire;Deuxième métatarsien long;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-170-06
+Pied;3 Complémentaire;Modéré;Métatarsalgie ou lésion de la plaque plantaire;Échographie négative;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-170-07
+Pied;3 Complémentaire;Modéré;Métatarsalgie ou lésion de la plaque plantaire;Sexe féminin;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V270-01
+Pied;3 Complémentaire;Difficile;Métatarsalgie ou lésion de la plaque plantaire;Orteil qui croise l'orteil voisin;↔ Neutre;Anamnèse;Base des flashcards;Orteil en croisement;;;MSK-170-04
+Pied;3 Complémentaire;Difficile;Métatarsalgie ou lésion de la plaque plantaire;Échographie positive;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-170-08
+Pied;3 Complémentaire;Modéré;Névrome de Morton;Échographie positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-171-06
+Pied;3 Complémentaire;Difficile;Névrome de Morton;Sensibilité normale de la pulpe des orteils;↔ Neutre;Examen physique;Base des flashcards;Sensibilité de la pulpe normale;;;MSK-171-03
+Pied;3 Complémentaire;Difficile;Névrome de Morton;IRM positive;↔ Neutre;Imagerie;Base des flashcards;IRM;;;MSK-171-07
+Pied;3 Complémentaire;Difficile;Névrome de Morton;Diagnostic clinique global de névrome;↑ Augmente;Anamnèse;Base des flashcards;Diagnostic clinique global;;;MSK-171-09
+Pied;3 Complémentaire;Léger;Os naviculaire accessoire douloureux;Enfant de 10 à 13 ans;↑ Augmente;Facteurs démographiques;Nouvelle (Vérification OpenEvidence du 24 novembre 2026 (fréquence de départ));;;;MSK-PIED-V282-01
+Pied;3 Complémentaire;Modéré;Os naviculaire accessoire douloureux;Œdème osseux à l'IRM;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-175-06
+Pied;3 Complémentaire;Difficile;Os naviculaire accessoire douloureux;Sexe féminin;↔ Neutre;Facteurs démographiques;Base des flashcards;;;;MSK-175-03
+Pied;3 Complémentaire;Difficile;Os naviculaire accessoire douloureux;Atteinte d'un seul pied;↔ Neutre;Anamnèse;Base des flashcards;Atteinte unilatérale;;;MSK-175-04
+Pied;3 Complémentaire;Difficile;Os naviculaire accessoire douloureux;Pied plat;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-175-05
+Pied;3 Complémentaire;Modéré;Pied de Charcot;Greffe rein-pancréas;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-185-02
+Pied;3 Complémentaire;Modéré;Pied de Charcot;Trajet fistuleux;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-185-12
+Pied;3 Complémentaire;Difficile;Pied de Charcot;Artériopathie;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-185-03
+Pied;3 Complémentaire;Léger;Sésamoïdite ou fracture du sésamoïde;Sésamoïde médial;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-173-03
+Pied;3 Complémentaire;Léger;Sésamoïdite ou fracture du sésamoïde;Danse, course;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-173-04
+Pied;3 Complémentaire;Modéré;Sésamoïdite ou fracture du sésamoïde;Écart > 2 mm entre les fragments;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-173-05
+Pied;3 Complémentaire;Difficile;Sésamoïdite ou fracture du sésamoïde;Sésamoïde en deux fragments à la radiographie;↔ Neutre;Anamnèse;Base des flashcards;;Sésamoïde bipartite : sésamoïde normalement en deux morceaux, souvent des deux côtés.;;MSK-173-01
+Pied;3 Complémentaire;Difficile;Sésamoïdite ou fracture du sésamoïde;Sésamoïde de l'autre pied normal (pas en deux fragments);↔ Neutre;Anamnèse;Base des flashcards;Côté opposé normal;;;MSK-173-02
+Pied;3 Complémentaire;Difficile;Synostose (coalition) du tarse;Sexe (garçon ou fille);↔ Neutre;Facteurs démographiques;Base des flashcards;Sexe;;;MSK-174-02
+Pied;3 Complémentaire;Difficile;Synostose (coalition) du tarse;Atteinte d'un seul pied;↔ Neutre;Anamnèse;Base des flashcards;Atteinte unilatérale;;;MSK-174-03
+Pied;3 Complémentaire;Difficile;Synostose (coalition) du tarse;Absence de spasme des fibulaires;↔ Neutre;Anamnèse;Base des flashcards;Absence de spasme des fibulaires;;;MSK-174-04
+Pied;3 Complémentaire;Difficile;Synostose (coalition) du tarse;Pied qui n'est pas plat;↔ Neutre;Anamnèse;Base des flashcards;Pied non plat;;;MSK-174-05
+Pied;3 Complémentaire;Léger;Turf toe;Hyperextension forcée du gros orteil avec charge axiale;↑ Augmente;Examen physique;Base des flashcards;Hyperextension avec charge axiale;Turf toe : entorse de la plaque plantaire du gros orteil, en hyperextension forcée.;;MSK-172-04
+Pied;4 Pointue (médecine du sport);Difficile;Arthrose du médio-pied;Modèle clinique (âge, sexe, IMC, indice de voûte);↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-168-07
+Pied;4 Pointue (médecine du sport);Modéré;Contusion ou écrasement du pied;Pression différentielle < 30 mmHg pendant plus de 2 heures;↓ Diminue;Anamnèse;Base des flashcards;Pression différentielle < 30 mmHg pendant plus de 2 h;;;MSK-178-08
+Pied;4 Pointue (médecine du sport);Modéré;Fasciite plantaire;Fascia plantaire de plus de 4 mm à l'échographie;↑ Augmente;Anamnèse;Base des flashcards;Fascia > 4 mm à l'échographie;;;MSK-165-08
+Pied;4 Pointue (médecine du sport);Modéré;Lésion de Lisfranc;Rupture du ligament plantaire C1–M2M3 à l'IRM;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-184-10
+Pied;4 Pointue (médecine du sport);Modéré;Maladie d'Iselin;Os vesalianum (os accessoire);↓ Diminue;Anamnèse;Base des flashcards;Os vesalianum;;;MSK-176-08
+Pied;4 Pointue (médecine du sport);Difficile;Maladie d'Iselin;Apophyse visible à la radiographie;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-176-05
+Pied;4 Pointue (médecine du sport);Difficile;Maladie d'Iselin;Apophyse fragmentée;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-176-07
+Pied;4 Pointue (médecine du sport);Difficile;Maladie de Sever (pied);Hypersignal T2 du noyau à l'IRM;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-177-06
+Pied;4 Pointue (médecine du sport);Modéré;Métatarsalgie ou lésion de la plaque plantaire;IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-170-09
+Pied;4 Pointue (médecine du sport);Modéré;Os naviculaire accessoire douloureux;Os accessoire de type II;↑ Augmente;Anamnèse;Base des flashcards;Type II;;;MSK-175-02
+Pied;4 Pointue (médecine du sport);Modéré;Pied de Charcot;Kystes sous-chondraux à l'IRM;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-185-11
+Pied;4 Pointue (médecine du sport);Modéré;Sésamoïdite ou fracture du sésamoïde;Bords irréguliers non sclérosés, œdème à l'IRM;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-173-06
+Pied;4 Pointue (médecine du sport);Difficile;Sésamoïdite ou fracture du sésamoïde;IRM ou TDM frontale normales;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-173-08
+Pied;4 Pointue (médecine du sport);Modéré;Synostose (coalition) du tarse;Signe du C à la radiographie de profil;↑ Augmente;Tests spécifiques;Base des flashcards;Signe du C;;;MSK-174-06
+Pied;4 Pointue (médecine du sport);Modéré;Synostose (coalition) du tarse;Facette moyenne absente à la radiographie;↑ Augmente;Anamnèse;Base des flashcards;Facette moyenne absente;;;MSK-174-08
+Pied;4 Pointue (médecine du sport);Modéré;Synostose (coalition) du tarse;Signe du nez de fourmilier à la radiographie;↑ Augmente;Tests spécifiques;Base des flashcards;Signe du nez de fourmilier;;;MSK-174-09
+Pied;4 Pointue (médecine du sport);Modéré;Synostose (coalition) du tarse;Échographie positive;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-174-10
+Pied;4 Pointue (médecine du sport);Modéré;Synostose (coalition) du tarse;Échographie négative;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-174-11
+Pied;4 Pointue (médecine du sport);Difficile;Synostose (coalition) du tarse;TDM normale;↔ Neutre;Imagerie;Base des flashcards;;;;MSK-174-12
+Pied;4 Pointue (médecine du sport);Léger;Turf toe;Match plutôt qu'entraînement;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-172-01
+Pied;4 Pointue (médecine du sport);Léger;Turf toe;Gazon synthétique;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-172-02
+Pied;4 Pointue (médecine du sport);Léger;Turf toe;Joueur de football : running back, quarterback ou receveur;↑ Augmente;Anamnèse;Base des flashcards;Poste de running back, quarterback ou receveur;;;MSK-172-03
+Pied;4 Pointue (médecine du sport);Modéré;Turf toe;IRM positive;↑ Augmente;Imagerie;Base des flashcards;;;;MSK-172-06
+Pied;Retirée;;Fasciite plantaire;Après 50 ans;↔ Neutre;Facteurs démographiques;Base des flashcards;;;Doublon de la carte « âge et sexe après 50 ans ».;MSK-165-09
+Pied;Retirée;;Fracture de stress du calcanéus;Lésion isolée;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé vague (« lésion isolée »).;MSK-183-05
+Pied;Retirée;;Fracture de stress du naviculaire;Scintigraphie négative;↓ Diminue;Anamnèse;Base des flashcards;;;Scintigraphie : imagerie de deuxième ligne.;MSK-182-05
+Pied;Retirée;;Fracture de stress du naviculaire;TDM contre IRM;↔ Neutre;Imagerie;Base des flashcards;;;Énoncé confus (« TDM contre IRM »).;MSK-182-06
+Pied;Retirée;;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Ottawa en Asie;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (« Ottawa en Asie »).;MSK-180-02
+Pied;Retirée;;Fracture du pied (métatarsiens, base du 5ᵉ, orteils);Échographie positive sur les métatarsiens (naviculaire);↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (« naviculaire »), carte expérimentale.;MSK-180-08
+Pied;Retirée;;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Scanner double énergie négatif en goutte débutante;↔ Neutre;Imagerie;Base des flashcards;;;Scanner double énergie : imagerie spécialisée, sans usage au bureau.;MSK-179-07
+Pied;Retirée;;Goutte de la 1ʳᵉ métatarso-phalangienne (podagre);Alcool ≥ 50 g/j (vin);↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (« vin »), carte expérimentale.;MSK-179-10
+Pied;Retirée;;Hallux valgus;Hauteur du talon non associée;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus qui contredit la carte des talons hauts.;MSK-166-05
+Pied;Retirée;;Hallux valgus;Obésité chez la femme (en méta-analyse.);↔ Neutre;Facteurs de risque;Base des flashcards;;;Énoncé confus (« en méta-analyse »), doublon de la carte précédente.;MSK-166-09
+Pied;Retirée;;Lésion de Lisfranc;Premier bilan rassurant;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (diagnostics manqués, sans taux publié).;MSK-184-01
+Pied;Retirée;;Maladie d'Iselin;Diagnostic initial de fracture;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (diagnostic initial de fracture).;MSK-176-06
+Pied;Retirée;;Maladie de Freiberg;Adolescente de 11 à 17 ans (adulte);↔ Neutre;Facteurs démographiques;Base des flashcards;;;Énoncé confus (« adulte »), carte expérimentale.;MSK-186-04
+Pied;Retirée;;Maladie de Freiberg;Tête métatarsienne aplatie des deux côtés;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé confus (aplatissement des deux côtés).;MSK-186-08
+Pied;Retirée;;Maladie de Sever (pied);Sexe masculin;↔ Neutre;Facteurs démographiques;Base des flashcards;;;"Contredit la carte de la cheville (garçon : la probabilité augmente) ; données sur le sexe discordantes.";MSK-177-03
+Pied;Retirée;;Maladie de Sever (pied);Radiographie systématique;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé vague (radiographie systématique).;MSK-177-07
+Pied;Retirée;;Métatarsalgie ou lésion de la plaque plantaire;« Rupture » échographique chez l'asymptomatique;↔ Neutre;Anamnèse;Base des flashcards;;;Donnée descriptive (« rupture » échographique chez des sujets sans douleur).;MSK-170-10
+Pied;Retirée;;Os naviculaire accessoire douloureux;Scintigraphie négative;↓ Diminue;Anamnèse;Base des flashcards;;;Scintigraphie : imagerie de deuxième ligne.;MSK-175-07
+Pied;Retirée;;Os naviculaire accessoire douloureux;Scintigraphie positive;↔ Neutre;Anamnèse;Base des flashcards;;;Scintigraphie : imagerie de deuxième ligne.;MSK-175-08
+Pied;Retirée;;Pied de Charcot;Scintigraphie osseuse négative;↓ Diminue;Anamnèse;Base des flashcards;;;Scintigraphie : imagerie de deuxième ligne.;MSK-185-08
+Pied;Retirée;;Pied de Charcot;Premier diagnostic;↔ Neutre;Anamnèse;Base des flashcards;;;Énoncé vague (« premier diagnostic »).;MSK-185-05
+Pied;Retirée;;Pied de Charcot;Scintigraphie osseuse positive;↔ Neutre;Anamnèse;Base des flashcards;;;Scintigraphie : imagerie de deuxième ligne.;MSK-185-07
+Pied;Retirée;;Sésamoïdite ou fracture du sésamoïde;Scintigraphie positive;↔ Neutre;Anamnèse;Base des flashcards;;;Scintigraphie : imagerie de deuxième ligne.;MSK-173-07
+Pied;Retirée;;Synostose (coalition) du tarse;Signe du C incomplet;↔ Neutre;Tests spécifiques;Base des flashcards;;;Énoncé vague (« signe du C incomplet »).;MSK-174-07
+Pied;Retirée;;Turf toe;(incertain) Migration proximale d'un sésamoïde;↑ Augmente;Anamnèse;Base des flashcards;;;Seuils radiographiques tirés de radiographies normales, non validés chez les blessés.;MSK-172-05

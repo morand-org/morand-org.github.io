@@ -97,9 +97,11 @@
    "domaine": "MSK",
    "region": "Pied",
    "fichier": "/entrainement/banque/msk-pied.json",
-   "cartes": 198,
+   "cartes": 206,
    "experimentales": 5,
-   "diagnostics": 22
+   "diagnostics": 22,
+   "retirees": 25,
+   "jouables": 179
   }
  ]
 }
