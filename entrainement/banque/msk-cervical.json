@@ -1,0 +1,4381 @@
+{
+"domaine": "MSK",
+"region": "Rachis cervical",
+"cle": "msk-cervical",
+"lot": 1,
+"version": "2026-11-24",
+"source": "Base de données pour FlashCards Morand MSK (lot 1), références incluses",
+"diagnostics": [
+{
+"no": 1,
+"nom": "Cervicalgie non spécifique"
+},
+{
+"no": 2,
+"nom": "Syndrome myofascial (trapèze supérieur)"
+},
+{
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+{
+"no": 4,
+"nom": "Arthrose cervicale ou discopathie dégénérative"
+},
+{
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+{
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+{
+"no": 7,
+"nom": "Contracture ou élongation musculaire du sportif"
+},
+{
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+{
+"no": 9,
+"nom": "Stinger ou burner"
+},
+{
+"no": 10,
+"nom": "Torticolis aigu acquis de l'adulte"
+},
+{
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+{
+"no": 12,
+"nom": "Névralgie occipitale (Arnold)"
+},
+{
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+{
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+{
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+{
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+{
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+}
+],
+"cartes": [
+{
+"id": "MSK-001-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 1,
+"nom": "Cervicalgie non spécifique"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin et antécédent de cervicalgie",
+"reponse": "increase",
+"explication": "Sexe féminin et antécédent de cervicalgie : facteurs de risque les plus constants (McLean 2010, 14 cohortes).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 1"
+},
+{
+"id": "MSK-001-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 1,
+"nom": "Cervicalgie non spécifique"
+},
+"type": "Examen physique",
+"enonce": "Abduction soutenue ou répétée du bras au travail",
+"reponse": "increase",
+"explication": "Abduction soutenue ou répétée du bras au travail : OR 2,08 (hommes) et 2,22 (femmes) (Petit 2014, n = 3 710).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.08,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+2
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 1"
+},
+{
+"id": "MSK-001-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 1,
+"nom": "Cervicalgie non spécifique"
+},
+"type": "Examen physique",
+"enonce": "Flexion cervicale soutenue",
+"reponse": "increase",
+"explication": "Flexion cervicale soutenue : OR 1,64 chez les femmes (Petit 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.64,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+2
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 1"
+},
+{
+"id": "MSK-001-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 1,
+"nom": "Cervicalgie non spécifique"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge",
+"reponse": "neutral",
+"explication": "Âge : OR 1,02 à 1,03 par année (Petit 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.02,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+2
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 1"
+},
+{
+"id": "MSK-001-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 1,
+"nom": "Cervicalgie non spécifique"
+},
+"type": "Drapeaux rouges",
+"enonce": "Drapeaux rouges (fièvre, drogues IV, antécédent de cancer, hyperréflexie, démarche spastique)",
+"reponse": "decrease",
+"explication": "Drapeaux rouges (fièvre, drogues IV, antécédent de cancer, hyperréflexie, démarche spastique) : orientent vers une cause spécifique, mais ce système n'est pas validé au rachis cervical (ACR 2024, OPTIMa 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+3,
+4
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 1"
+},
+{
+"id": "MSK-002-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 2,
+"nom": "Syndrome myofascial (trapèze supérieur)"
+},
+"type": "Anamnèse",
+"enonce": "Point gâchette actif (reproduit la douleur reconnue)",
+"reponse": "increase",
+"explication": "Point gâchette actif (reproduit la douleur reconnue) : présent uniquement chez les sujets symptomatiques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+7
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 2"
+},
+{
+"id": "MSK-002-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 2,
+"nom": "Syndrome myofascial (trapèze supérieur)"
+},
+"type": "Évolution temporelle",
+"enonce": "Cervicalgie chronique non spécifique",
+"reponse": "increase",
+"explication": "Cervicalgie chronique non spécifique : point gâchette actif du trapèze supérieur chez 82,1 % (droite) et 79 % (gauche) (Cerezo-Téllez 2016, n = 224).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+8
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 2"
+},
+{
+"id": "MSK-002-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 2,
+"nom": "Syndrome myofascial (trapèze supérieur)"
+},
+"type": "Anamnèse",
+"enonce": "Point gâchette latent",
+"reponse": "neutral",
+"explication": "Point gâchette latent : pas plus fréquent que chez les témoins sains (Chiarotto 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+9
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 2"
+},
+{
+"id": "MSK-002-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 2,
+"nom": "Syndrome myofascial (trapèze supérieur)"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité localisée et douleur reconnue",
+"reponse": "increase",
+"explication": "Sensibilité localisée et douleur reconnue : signes les plus reproductibles, κ 0,676 et 0,575 (Rathbone 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+10
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 2"
+},
+{
+"id": "MSK-002-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 2,
+"nom": "Syndrome myofascial (trapèze supérieur)"
+},
+"type": "Anamnèse",
+"enonce": "Réponse contractile locale (twitch)",
+"reponse": "neutral",
+"explication": "Réponse contractile locale (twitch) : signe le moins fiable, κ −0,05 à 0,57 (Lucas 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+11
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 2"
+},
+{
+"id": "MSK-003-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent de whiplash",
+"reponse": "increase",
+"explication": "Antécédent de whiplash : prévalence de 60 % dans le whiplash chronique (Lord 1996, n = 68).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+13
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 3"
+},
+{
+"id": "MSK-003-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'extension-rotation + examen manuel segmentaire + palpation segmentaire, tous positifs",
+"reponse": "increase",
+"explication": "Test d'extension-rotation + examen manuel segmentaire + palpation segmentaire, tous positifs : LR+ 4,94, Sp 84 % (Schneider 2014).",
+"donnee": {
+"lr_positif": 4.94,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "84 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+14
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Règles non validées. Les règles de Wainner 2003 et de Schneider 2014 sont des études de dérivation uniques."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 3"
+},
+{
+"id": "MSK-003-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+"type": "Examen physique",
+"enonce": "Palpation segmentaire non douloureuse",
+"reponse": "decrease",
+"explication": "Palpation segmentaire non douloureuse : LR− 0,08 (Schneider 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.08,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+14
+],
+"difficulte": 1,
+"statut": "en_revision",
+"mises_en_garde": [
+"Règles non validées. Les règles de Wainner 2003 et de Schneider 2014 sont des études de dérivation uniques."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 3"
+},
+{
+"id": "MSK-003-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'extension-rotation négatif",
+"reponse": "decrease",
+"explication": "Test d'extension-rotation négatif : LR− 0,29 ; positif seul, LR+ 2,01 (Schneider 2014).",
+"donnee": {
+"lr_positif": 2.01,
+"lr_negatif": 0.29,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+15
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Règles non validées. Les règles de Wainner 2003 et de Schneider 2014 sont des études de dérivation uniques."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 3"
+},
+{
+"id": "MSK-003-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+"type": "Examen physique",
+"enonce": "Examen manuel seul positif",
+"reponse": "neutral",
+"explication": "Examen manuel seul positif : Se 88 %, Sp 39 %, LR+ environ 1,4 calculé (King 2007, n = 173).",
+"donnee": {
+"lr_positif": 1.4,
+"lr_negatif": null,
+"sensibilite": "88 %",
+"specificite": "39 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+16,
+17
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 3"
+},
+{
+"id": "MSK-003-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité locale à l'algomètre",
+"reponse": "neutral",
+"explication": "Sensibilité locale à l'algomètre : LR+ 0,79 au seuil de 1 kPa (Siegenthaler 2010).",
+"donnee": {
+"lr_positif": 0.79,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+18
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 3"
+},
+{
+"id": "MSK-003-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 3,
+"nom": "Syndrome facettaire cervical"
+},
+"type": "Anamnèse",
+"enonce": "Autre pathologie dominante (hernie discale, sténose symptomatique)",
+"reponse": "decrease",
+"explication": "Autre pathologie dominante (hernie discale, sténose symptomatique) : consensus d'experts, sans chiffre.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+16
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 3"
+},
+{
+"id": "MSK-004-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 4,
+"nom": "Arthrose cervicale ou discopathie dégénérative"
+},
+"type": "Imagerie",
+"enonce": "Bombement discal à l'IRM",
+"reponse": "neutral",
+"explication": "Bombement discal à l'IRM : 87,6 % des sujets asymptomatiques, déjà 73 à 78 % dans la vingtaine (Nakashima 2015, n = 1 211).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+19
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 4"
+},
+{
+"id": "MSK-004-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 4,
+"nom": "Arthrose cervicale ou discopathie dégénérative"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge",
+"reponse": "increase",
+"explication": "Âge : dégénérescence radiographique chez 12,4 % à 18–29 ans contre 98,2 % à 60–69 ans, OR 1,15 par année (Tao 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.15,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+20
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 4"
+},
+{
+"id": "MSK-004-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 4,
+"nom": "Arthrose cervicale ou discopathie dégénérative"
+},
+"type": "Imagerie",
+"enonce": "Progression IRM sur 20 ans",
+"reponse": "neutral",
+"explication": "Progression IRM sur 20 ans : 95 % des sujets, sans lien avec l'apparition de symptômes (Daimon 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+21
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 4"
+},
+{
+"id": "MSK-004-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 4,
+"nom": "Arthrose cervicale ou discopathie dégénérative"
+},
+"type": "Évolution temporelle",
+"enonce": "Progression d'une sténose foraminale",
+"reponse": "increase",
+"explication": "Progression d'une sténose foraminale : associée à la douleur du membre supérieur, OR 4,71 (Daimon 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 4.71,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+21
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 4"
+},
+{
+"id": "MSK-004-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 4,
+"nom": "Arthrose cervicale ou discopathie dégénérative"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte discale multi-étagée",
+"reponse": "increase",
+"explication": "Atteinte discale multi-étagée : 89,7 % des symptomatiques contre 64,5 % des asymptomatiques (Banerjee 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+22
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 4"
+},
+{
+"id": "MSK-004-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 4,
+"nom": "Arthrose cervicale ou discopathie dégénérative"
+},
+"type": "Examen physique",
+"enonce": "Amplitude réduite",
+"reponse": "increase",
+"explication": "Amplitude réduite : corrélée au score de dégénérescence, r = −0,46 (Machino 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 4"
+},
+{
+"id": "MSK-005-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+"type": "Anamnèse",
+"enonce": "Cervicalgie dans les 7 jours suivant un mécanisme d'accélération-décélération",
+"reponse": "increase",
+"explication": "Cervicalgie dans les 7 jours suivant un mécanisme d'accélération-décélération : 84 % des cas ; céphalée 60 % (Al-Khazali 2020).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+25
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 5"
+},
+{
+"id": "MSK-005-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe neurologique ou fracture",
+"reponse": "decrease",
+"explication": "Signe neurologique ou fracture : reclasse en grade III ou IV (Quebec Task Force).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+3
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 5"
+},
+{
+"id": "MSK-005-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+"type": "Anamnèse",
+"enonce": "Chronicité, douleur initiale > 5,5/10",
+"reponse": "increase",
+"explication": "Chronicité, douleur initiale > 5,5/10 : prédicteur significatif et robuste (Walton 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+26
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 5"
+},
+{
+"id": "MSK-005-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+"type": "Anamnèse",
+"enonce": "Chronicité, NDI initial > 14,5/50",
+"reponse": "increase",
+"explication": "Chronicité, NDI initial > 14,5/50 : prédicteur significatif (Walton 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+26
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 5"
+},
+{
+"id": "MSK-005-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Chronicité, âge ≥ 35 ans + NDI ≥ 40 % + hyperéveil",
+"reponse": "increase",
+"explication": "Chronicité, âge ≥ 35 ans + NDI ≥ 40 % + hyperéveil : valeur prédictive positive de 90,9 % pour une incapacité modérée à sévère (Ritchie 2015, n = 101).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+27
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 5"
+},
+{
+"id": "MSK-005-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Chronicité, âge < 35 ans + NDI ≤ 32 %",
+"reponse": "decrease",
+"explication": "Chronicité, âge < 35 ans + NDI ≤ 32 % : valeur prédictive positive de 80 % pour une récupération complète (Ritchie 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+27
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 5"
+},
+{
+"id": "MSK-005-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 5,
+"nom": "Entorse cervicale (whiplash, grades I–II)"
+},
+"type": "Anamnèse",
+"enonce": "Direction de l'impact, appui-tête, position dans le véhicule, conscience de la collision",
+"reponse": "neutral",
+"explication": "Direction de l'impact, appui-tête, position dans le véhicule, conscience de la collision : sans valeur pronostique (APTA 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+5
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 5"
+},
+{
+"id": "MSK-006-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de flexion-rotation positif",
+"reponse": "increase",
+"explication": "Test de flexion-rotation positif : LR+ 5,0",
+"contexte_puce": "↑ Test de flexion-rotation positif : LR+ 5,0 ; ↓ négatif : LR− 0,2 (Demont 2022, méta-analyse, n = 182).",
+"donnee": {
+"lr_positif": 5.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+29
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6"
+},
+{
+"id": "MSK-006-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de flexion-rotation négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,2 (Demont 2022, méta-analyse, n = 182).",
+"contexte_puce": "↑ Test de flexion-rotation positif : LR+ 5,0 ; ↓ négatif : LR− 0,2 (Demont 2022, méta-analyse, n = 182).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.2,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+29
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-006-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de flexion-rotation face à la migraine",
+"reponse": "increase",
+"explication": "Test de flexion-rotation face à la migraine : LR+ 2,33, LR− 0,43, seuil ≤ 30° (Hall 2010).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.33,
+"lr_negatif": 0.43,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+30,
+31
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6"
+},
+{
+"id": "MSK-006-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Tests spécifiques",
+"enonce": "Extension réduite + dysfonction articulaire douloureuse C0–C3 + test de flexion cranio-cervicale anormal",
+"reponse": "increase",
+"explication": "Extension réduite + dysfonction articulaire douloureuse C0–C3 + test de flexion cranio-cervicale anormal : Se 100 %, Sp 94 % (Jull 2007).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "94 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+32
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6"
+},
+{
+"id": "MSK-006-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Anamnèse",
+"enonce": "Mobilisation passive C1–C2 douloureuse",
+"reponse": "increase",
+"explication": "Mobilisation passive C1–C2 douloureuse : LR+ 3,61, LR− 0,35 (Zito 2006).",
+"donnee": {
+"lr_positif": 3.61,
+"lr_negatif": 0.35,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+30
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6"
+},
+{
+"id": "MSK-006-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité à la palpation de C2–C3",
+"reponse": "neutral",
+"explication": "Sensibilité à la palpation de C2–C3 : LR+ 2,1, jugée non diagnostique (Bogduk 2009).",
+"donnee": {
+"lr_positif": 2.1,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+33
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6"
+},
+{
+"id": "MSK-006-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Anamnèse",
+"enonce": "Céphalée post-whiplash",
+"reponse": "increase",
+"explication": "Céphalée post-whiplash : jusqu'à 53 % de céphalées cervicogéniques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+33
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6"
+},
+{
+"id": "MSK-006-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 6,
+"nom": "Céphalée cervicogénique"
+},
+"type": "Évolution temporelle",
+"enonce": "Début spontané sans traumatisme",
+"reponse": "decrease",
+"explication": "Début spontané sans traumatisme : tous les cas C2–C3 confirmés par bloc étaient post-traumatiques (Bogduk 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+33
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 6"
+},
+{
+"id": "MSK-007-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 7,
+"nom": "Contracture ou élongation musculaire du sportif"
+},
+"type": "Anamnèse",
+"enonce": "Lésion musculaire",
+"reponse": "increase",
+"explication": "Lésion musculaire : 63,1 % des blessures cervicales au secondaire (Meron 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+34
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 7"
+},
+{
+"id": "MSK-007-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 7,
+"nom": "Contracture ou élongation musculaire du sportif"
+},
+"type": "Facteurs de risque",
+"enonce": "Contact avec un joueur",
+"reponse": "increase",
+"explication": "Contact avec un joueur : mécanisme dans 78,8 à 85,8 % des cas au football (Lee 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+35
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 7"
+},
+{
+"id": "MSK-007-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 7,
+"nom": "Contracture ou élongation musculaire du sportif"
+},
+"type": "Anamnèse",
+"enonce": "Compétition",
+"reponse": "increase",
+"explication": "Compétition : blessures cervicales 9 fois plus probables qu'à l'entraînement (Chung 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+36
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 7"
+},
+{
+"id": "MSK-007-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 7,
+"nom": "Contracture ou élongation musculaire du sportif"
+},
+"type": "Examen physique",
+"enonce": "Douleur paravertébrale non médiane, sans irradiation ni déficit",
+"reponse": "increase",
+"explication": "Douleur paravertébrale non médiane, sans irradiation ni déficit : tableau typique selon les experts.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+37
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 7"
+},
+{
+"id": "MSK-007-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 7,
+"nom": "Contracture ou élongation musculaire du sportif"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité osseuse médiane ou symptôme neurologique",
+"reponse": "decrease",
+"explication": "Sensibilité osseuse médiane ou symptôme neurologique : évoque une lésion rachidienne.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+37
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 7"
+},
+{
+"id": "MSK-007-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 7,
+"nom": "Contracture ou élongation musculaire du sportif"
+},
+"type": "Anamnèse",
+"enonce": "Symptômes dans plus d'un membre",
+"reponse": "decrease",
+"explication": "Symptômes dans plus d'un membre : évoque une neurapraxie médullaire.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+38
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 7"
+},
+{
+"id": "MSK-008-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Tests spécifiques",
+"enonce": "Spurling + test neurodynamique A + distraction + rotation homolatérale < 60°, tous positifs",
+"reponse": "increase",
+"explication": "Spurling + test neurodynamique A + distraction + rotation homolatérale < 60°, tous positifs : LR+ 30,3 (Wainner 2003, n = 82).",
+"donnee": {
+"lr_positif": 30.3,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+39
+],
+"difficulte": 1,
+"statut": "experimentale",
+"mises_en_garde": [
+"Chiffres non vérifiés. Les valeurs classiques de Cook 2010 pour la myélopathie (≥ 3 signes sur 5 : LR+ environ 30,9 ; ≤ 1 sur 5 : LR− environ 0,18) et les LR item par item de Wainner 2003 n'ont pas pu être confirmés dans les textes consultés. Ils sont à vérifier dans les articles originaux avant d'en faire des cartes.",
+"Règles non validées. Les règles de Wainner 2003 et de Schneider 2014 sont des études de dérivation uniques."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Tests spécifiques",
+"enonce": "Quatre tests neurodynamiques tous négatifs",
+"reponse": "decrease",
+"explication": "Quatre tests neurodynamiques tous négatifs : LR− 0,06 (Thoomes 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.06,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+40
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Tests spécifiques",
+"enonce": "Spurling positif",
+"reponse": "increase",
+"explication": "Spurling positif : Sp 0,86 à 0,93, Se 0,50 (Rubinstein 2007).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "0,50",
+"specificite": "0,86 à 0,93",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+41,
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Réponse aux traitements",
+"enonce": "Distraction qui soulage",
+"reponse": "increase",
+"explication": "Distraction qui soulage : Sp 0,90 à 0,97, Se 0,44 (Rubinstein 2007).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "0,44",
+"specificite": "0,90 à 0,97",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe d'abduction de l'épaule",
+"reponse": "increase",
+"explication": "Signe d'abduction de l'épaule : LR+ 2,08, LR− 0,66 (Thoomes 2026).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.08,
+"lr_negatif": 0.66,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+40
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Examen physique",
+"enonce": "Réflexe bicipital diminué",
+"reponse": "increase",
+"explication": "Réflexe bicipital diminué : LR+ 4,9, LR− 0,80 (Wainner 2003).",
+"donnee": {
+"lr_positif": 4.9,
+"lr_negatif": 0.8,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+42
+],
+"difficulte": 2,
+"statut": "experimentale",
+"mises_en_garde": [
+"Chiffres non vérifiés. Les valeurs classiques de Cook 2010 pour la myélopathie (≥ 3 signes sur 5 : LR+ environ 30,9 ; ≤ 1 sur 5 : LR− environ 0,18) et les LR item par item de Wainner 2003 n'ont pas pu être confirmés dans les textes consultés. Ils sont à vérifier dans les articles originaux avant d'en faire des cartes.",
+"Règles non validées. Les règles de Wainner 2003 et de Schneider 2014 sont des études de dérivation uniques."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Examen physique",
+"enonce": "Réflexe brachioradial diminué",
+"reponse": "neutral",
+"explication": "Réflexe brachioradial diminué : LR+ 1,2, LR− 0,99 (Wainner 2003).",
+"donnee": {
+"lr_positif": 1.2,
+"lr_negatif": 0.99,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+42
+],
+"difficulte": 3,
+"statut": "experimentale",
+"mises_en_garde": [
+"Chiffres non vérifiés. Les valeurs classiques de Cook 2010 pour la myélopathie (≥ 3 signes sur 5 : LR+ environ 30,9 ; ≤ 1 sur 5 : LR− environ 0,18) et les LR item par item de Wainner 2003 n'ont pas pu être confirmés dans les textes consultés. Ils sont à vérifier dans les articles originaux avant d'en faire des cartes.",
+"Règles non validées. Les règles de Wainner 2003 et de Schneider 2014 sont des études de dérivation uniques."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Anamnèse",
+"enonce": "Qualité des symptômes (picotement, brûlure)",
+"reponse": "neutral",
+"explication": "Qualité des symptômes (picotement, brûlure) : peu de valeur prédictive (Lauder 2000).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+43
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-008-09",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 8,
+"nom": "Radiculopathie cervicale"
+},
+"type": "Anamnèse",
+"enonce": "Absence de paresthésie ou d'engourdissement",
+"reponse": "decrease",
+"explication": "Absence de paresthésie ou d'engourdissement : haute sensibilité, mais LR− > 0,2 (Sleijser-Koehorst 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"lr_negatif_texte": "> 0,2",
+"nature": "LR"
+},
+"references": [
+44
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 8"
+},
+{
+"id": "MSK-009-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Anamnèse",
+"enonce": "Football américain",
+"reponse": "increase",
+"explication": "Football américain : 50,3 % des joueurs en rapportent au moins un en carrière.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+45
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9"
+},
+{
+"id": "MSK-009-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Anamnèse",
+"enonce": "Stinger la saison précédente",
+"reponse": "increase",
+"explication": "Stinger la saison précédente : facteur de risque le plus fort, récidive de 37,3 % par saison (Kawasaki 2015, rugby).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+46
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9"
+},
+{
+"id": "MSK-009-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Facteurs de risque",
+"enonce": "Joueur de première ligne au rugby",
+"reponse": "increase",
+"explication": "Joueur de première ligne au rugby : OR 2,4 (Kawasaki 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.4,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+46
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9"
+},
+{
+"id": "MSK-009-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Anamnèse",
+"enonce": "Symptômes unilatéraux résolus en quelques minutes",
+"reponse": "increase",
+"explication": "Symptômes unilatéraux résolus en quelques minutes : tableau typique C5–C6.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+47
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9"
+},
+{
+"id": "MSK-009-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Anamnèse",
+"enonce": "Symptômes bilatéraux ou dans plus d'un membre",
+"reponse": "decrease",
+"explication": "Symptômes bilatéraux ou dans plus d'un membre : neurapraxie médullaire jusqu'à preuve du contraire.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+47
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9"
+},
+{
+"id": "MSK-009-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Imagerie",
+"enonce": "Espace moyen disponible pour la moelle (MSCSAC) < 4,3 mm à l'IRM",
+"reponse": "increase",
+"explication": "Espace moyen disponible pour la moelle (MSCSAC) < 4,3 mm à l'IRM : LR+ 13,25 pour le stinger chronique",
+"contexte_puce": "↑ Espace moyen disponible pour la moelle (MSCSAC) < 4,3 mm à l'IRM : LR+ 13,25 pour le stinger chronique ; ↓ ≥ 5,0 mm : LR− 0,23 (Presciutti 2009).",
+"donnee": {
+"lr_positif": 13.25,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+48
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9"
+},
+{
+"id": "MSK-009-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Imagerie",
+"enonce": "Espace moyen disponible pour la moelle (MSCSAC) ≥ 5,0 mm à l'IRM",
+"reponse": "decrease",
+"explication": "≥ 5,0 mm : LR− 0,23 (Presciutti 2009).",
+"contexte_puce": "↑ Espace moyen disponible pour la moelle (MSCSAC) < 4,3 mm à l'IRM : LR+ 13,25 pour le stinger chronique ; ↓ ≥ 5,0 mm : LR− 0,23 (Presciutti 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.23,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+48
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-009-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 9,
+"nom": "Stinger ou burner"
+},
+"type": "Anamnèse",
+"enonce": "Ratio de Torg < 0,8",
+"reponse": "neutral",
+"explication": "Ratio de Torg < 0,8 : 47,5 % contre 25,1 %, LR+ environ 1,9 calculé (Meyer 1994) ; ne prédit pas un premier stinger (Castro 1997).",
+"donnee": {
+"lr_positif": 1.9,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+49,
+50
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 9"
+},
+{
+"id": "MSK-010-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 10,
+"nom": "Torticolis aigu acquis de l'adulte"
+},
+"type": "Anamnèse",
+"enonce": "Torticolis mécanique bénin",
+"reponse": "increase",
+"explication": "Torticolis mécanique bénin : cause la plus fréquente d'un début rapide, sans chiffre d'incidence (Dressler 2024).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+51
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 10"
+},
+{
+"id": "MSK-010-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 10,
+"nom": "Torticolis aigu acquis de l'adulte"
+},
+"type": "Évolution temporelle",
+"enonce": "Dystonie aiguë, antidopaminergique récent",
+"reponse": "increase",
+"explication": "Dystonie aiguë, antidopaminergique récent : au moins 50 % débutent en 24 à 48 h et 90 % en 5 jours (DSM-5-TR).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+52
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 10"
+},
+{
+"id": "MSK-010-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 10,
+"nom": "Torticolis aigu acquis de l'adulte"
+},
+"type": "Évolution temporelle",
+"enonce": "Dystonie aiguë, halopéridol",
+"reponse": "increase",
+"explication": "Dystonie aiguë, halopéridol : incidence d'environ 17 % contre moins de 2 % avec quétiapine ou clozapine.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+53
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 10"
+},
+{
+"id": "MSK-010-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 10,
+"nom": "Torticolis aigu acquis de l'adulte"
+},
+"type": "Évolution temporelle",
+"enonce": "Dystonie aiguë, réaction extrapyramidale antérieure",
+"reponse": "increase",
+"explication": "Dystonie aiguë, réaction extrapyramidale antérieure : risque relatif d'environ 6.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+54
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 10"
+},
+{
+"id": "MSK-010-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 10,
+"nom": "Torticolis aigu acquis de l'adulte"
+},
+"type": "Facteurs démographiques",
+"enonce": "Dystonie aiguë, âge > 40 ans",
+"reponse": "decrease",
+"explication": "Dystonie aiguë, âge > 40 ans : le risque chute et devient rare chez la personne âgée.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+55
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 10"
+},
+{
+"id": "MSK-010-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 10,
+"nom": "Torticolis aigu acquis de l'adulte"
+},
+"type": "Anamnèse",
+"enonce": "Syndrome de Grisel chez l'adulte",
+"reponse": "decrease",
+"explication": "Syndrome de Grisel chez l'adulte : 90 % des cas surviennent avant 21 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+56
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 10"
+},
+{
+"id": "MSK-011-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Facteurs démographiques",
+"enonce": "Femme de 20 à 50 ans",
+"reponse": "increase",
+"explication": "Femme de 20 à 50 ans : profil typique ; 94 % de femmes dans la forme vraie confirmée chirurgicalement.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+58,
+59
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-011-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Anamnèse",
+"enonce": "Côte cervicale",
+"reponse": "increase",
+"explication": "Côte cervicale : 29,5 % des patients contre 1,1 % des sujets sains (Henry 2018, 141 études).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+60
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-011-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Anamnèse",
+"enonce": "Côte cervicale fortuite",
+"reponse": "neutral",
+"explication": "Côte cervicale fortuite : au plus 1 porteur sur 5 000 développe la forme vraie.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+59
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-011-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Roos (EAST) positif",
+"reponse": "neutral",
+"explication": "Test de Roos (EAST) positif : Sp 30 % (Gillard 2001) ; aire sous la courbe 0,54 à 0,63 (Pesser 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "30 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+58,
+61
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-011-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Tests spécifiques",
+"enonce": "Paresthésies au test de Roos",
+"reponse": "neutral",
+"explication": "Paresthésies au test de Roos : 36 % des sujets sains (Plewa 1998).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+62
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-011-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Tests spécifiques",
+"enonce": "Abolition du pouls à la manœuvre d'Adson",
+"reponse": "neutral",
+"explication": "Abolition du pouls à la manœuvre d'Adson : 11 % des sujets sains, sans valeur clinique.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+63,
+62
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-011-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Anamnèse",
+"enonce": "Adson et Roos tous deux positifs",
+"reponse": "increase",
+"explication": "Adson et Roos tous deux positifs : Sp 82 % (Gillard 2001).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "82 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+58
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-011-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 11,
+"nom": "Syndrome du défilé thoracique neurologique"
+},
+"type": "Anamnèse",
+"enonce": "Douleur à Adson, au costo-claviculaire ou à la pression sus-claviculaire",
+"reponse": "increase",
+"explication": "Douleur à Adson, au costo-claviculaire ou à la pression sus-claviculaire : 0 à 2 % de faux positifs chez les sujets sains (Plewa 1998).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+62
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 11"
+},
+{
+"id": "MSK-012-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 12,
+"nom": "Névralgie occipitale (Arnold)"
+},
+"type": "Examen physique",
+"enonce": "Paroxysmes lancinants de quelques secondes à minutes, avec allodynie du cuir chevelu et sensibilité du nerf",
+"reponse": "increase",
+"explication": "Paroxysmes lancinants de quelques secondes à minutes, avec allodynie du cuir chevelu et sensibilité du nerf : critères ICHD-3, sans LR.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+65
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 12"
+},
+{
+"id": "MSK-012-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 12,
+"nom": "Névralgie occipitale (Arnold)"
+},
+"type": "Anamnèse",
+"enonce": "Douleur occipitale continue sans dysesthésie ni allodynie",
+"reponse": "decrease",
+"explication": "Douleur occipitale continue sans dysesthésie ni allodynie : évoque une douleur cervicale référée.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+65
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 12"
+},
+{
+"id": "MSK-012-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 12,
+"nom": "Névralgie occipitale (Arnold)"
+},
+"type": "Tests spécifiques",
+"enonce": "(incertain) Signe de Tinel occipital",
+"reponse": "increase",
+"explication": "(incertain) Signe de Tinel occipital : positif chez environ 75 % des cas, spécificité jamais étudiée.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+66,
+67
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 12"
+},
+{
+"id": "MSK-012-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 12,
+"nom": "Névralgie occipitale (Arnold)"
+},
+"type": "Réponse aux traitements",
+"enonce": "Soulagement par bloc du nerf grand occipital",
+"reponse": "neutral",
+"explication": "Soulagement par bloc du nerf grand occipital : non spécifique, la migraine et l'algie vasculaire répondent aussi.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+68
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 12"
+},
+{
+"id": "MSK-012-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 12,
+"nom": "Névralgie occipitale (Arnold)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin et unilatéralité",
+"reponse": "increase",
+"explication": "Sexe féminin et unilatéralité : 73 % et 81 % des cas (Melchior 2025, n = 579).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+68
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 12"
+},
+{
+"id": "MSK-012-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 12,
+"nom": "Névralgie occipitale (Arnold)"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent de traumatisme cervical",
+"reponse": "increase",
+"explication": "Antécédent de traumatisme cervical : 30 % des cas (Melchior 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+68
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 12"
+},
+{
+"id": "MSK-014-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de Babinski",
+"reponse": "increase",
+"explication": "Signe de Babinski : LR+ 4,0, LR− 0,7 (Cook 2009) ; Se 13 %, Sp 98 à 100 %.",
+"donnee": {
+"lr_positif": 4.0,
+"lr_negatif": 0.7,
+"sensibilite": "13 %",
+"specificite": "98 à 100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+69,
+70
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de Hoffmann",
+"reponse": "increase",
+"explication": "Signe de Hoffmann : LR+ 2,2, LR− 0,63 (Fogarty 2018).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.2,
+"lr_negatif": 0.63,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+71
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe du supinateur inversé",
+"reponse": "increase",
+"explication": "Signe du supinateur inversé : Se 51 %, Sp 81 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "51 %",
+"specificite": "81 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+70
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Anamnèse",
+"enonce": "Clonus soutenu",
+"reponse": "increase",
+"explication": "Clonus soutenu : Se 13 %, Sp 100 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "13 %",
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+70
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de Lhermitte",
+"reponse": "increase",
+"explication": "Signe de Lhermitte : Se 3 à 17 %, Sp 97 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "3 à 17 %",
+"specificite": "97 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+72
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Anamnèse",
+"enonce": "Difficulté à marcher 15 minutes",
+"reponse": "increase",
+"explication": "Difficulté à marcher 15 minutes : LR+ > 5.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"lr_positif_texte": "> 5",
+"nature": "LR"
+},
+"references": [
+73
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Anamnèse",
+"enonce": "Hyperréflexie",
+"reponse": "neutral",
+"explication": "Hyperréflexie : pas plus fréquente chez les cas opérés que chez les témoins (Rhee 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+74
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Tests spécifiques",
+"enonce": "Absence de tout signe myélopathique",
+"reponse": "neutral",
+"explication": "Absence de tout signe myélopathique : 21 % des cas confirmés n'en ont aucun, LR− 0,49 calculé (Rhee 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.49,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+74
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-09",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Imagerie",
+"enonce": "Compression médullaire isolée à l'IRM",
+"reponse": "neutral",
+"explication": "Compression médullaire isolée à l'IRM : 59 % des plus de 40 ans, myélopathie clinique chez seulement 1,1 % (Kovalova 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+75
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-014-10",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 14,
+"nom": "Myélopathie cervicale dégénérative"
+},
+"type": "Anamnèse",
+"enonce": "Perte sensitive en présence d'une compression",
+"reponse": "increase",
+"explication": "Perte sensitive en présence d'une compression : OR 16,9 (Harrop 2010).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 16.9,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+76
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 14"
+},
+{
+"id": "MSK-013-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge < 50 ans",
+"reponse": "decrease",
+"explication": "Âge < 50 ans : la maladie survient presque exclusivement après 50 ans, avec un pic à 65–75 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+77
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-013-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Tests spécifiques",
+"enonce": "Score EULAR/ACR 2012 ≥ 4",
+"reponse": "increase",
+"explication": "Score EULAR/ACR 2012 ≥ 4 : Se 68 %, Sp 78 %, soit LR+ 3,1 et LR− 0,41 calculés (Dasgupta 2012).",
+"donnee": {
+"lr_positif": 3.1,
+"lr_negatif": 0.41,
+"sensibilite": "68 %",
+"specificite": "78 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+78
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-013-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Laboratoire",
+"enonce": "VS et CRP toutes deux normales",
+"reponse": "decrease",
+"explication": "VS et CRP toutes deux normales : seulement 0,52 à 1,2 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+79,
+80
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-013-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Laboratoire",
+"enonce": "VS seule < 40 mm/h",
+"reponse": "neutral",
+"explication": "VS seule < 40 mm/h : observée dans 7 à 20 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+81
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-013-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Anamnèse",
+"enonce": "Réponse rapide aux corticoïdes",
+"reponse": "neutral",
+"explication": "Réponse rapide aux corticoïdes : n'améliorait ni Se ni Sp et a été retirée des critères.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+78
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-013-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Anamnèse",
+"enonce": "Bursite sous-deltoïdienne bilatérale à l'échographie",
+"reponse": "increase",
+"explication": "Bursite sous-deltoïdienne bilatérale à l'échographie : 69 % contre 22 %, LR+ 3,1 calculé.",
+"donnee": {
+"lr_positif": 3.1,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+82
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-013-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Imagerie",
+"enonce": "(incertain) Bursite interépineuse cervicale de grade ≥ 2 à l'IRM",
+"reponse": "increase",
+"explication": "(incertain) Bursite interépineuse cervicale de grade ≥ 2 à l'IRM : 83,3 % contre 30,7 % (Salvarani 2008, n = 25).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+83
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-013-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 13,
+"nom": "Polymyalgia rheumatica (rachis cervical)"
+},
+"type": "Laboratoire",
+"enonce": "Anti-CCP positifs",
+"reponse": "decrease",
+"explication": "Anti-CCP positifs : orientent vers une polyarthrite rhumatoïde tardive.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+80
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 13"
+},
+{
+"id": "MSK-015-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Laboratoire",
+"enonce": "Anti-CCP positifs",
+"reponse": "increase",
+"explication": "Anti-CCP positifs : OR 2,33 (Baek 2021, n = 1 114).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.33,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+87
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-015-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Anamnèse",
+"enonce": "Érosions périphériques étendues dans les 5 premières années",
+"reponse": "increase",
+"explication": "Érosions périphériques étendues dans les 5 premières années : risque multiplié par 15,9 (Neva 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+88
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-015-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Réponse aux traitements",
+"enonce": "Déformations mutilantes des mains",
+"reponse": "increase",
+"explication": "Déformations mutilantes des mains : rapport de risque 19,15 (Terashima 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+89
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-015-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Réponse aux traitements",
+"enonce": "Corticothérapie",
+"reponse": "increase",
+"explication": "Corticothérapie : rapport de risque 4,00, avec confusion possible par l'activité de la maladie (Terashima 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+89
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-015-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Sharp-Purser positif",
+"reponse": "increase",
+"explication": "Test de Sharp-Purser positif : Se 88 %, Sp 96 %, soit LR+ 22 et LR− 0,13 calculés (Uitvlugt 1988) ; Se de 0,19 à 1,00 dans la revue de Mansfield 2020.",
+"donnee": {
+"lr_positif": 22.0,
+"lr_negatif": 0.13,
+"sensibilite": "88 %",
+"specificite": "96 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+90,
+91
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-015-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Anamnèse",
+"enonce": "Absence de douleur occipitale",
+"reponse": "neutral",
+"explication": "Absence de douleur occipitale : absente chez plus de la moitié des patients instables.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+92
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-015-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Anamnèse",
+"enonce": "Maladie récente",
+"reponse": "neutral",
+"explication": "Maladie récente : plus de 80 % des subluxations apparaissent dans les 2 premières années (Winfield 1981).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+93
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-015-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 15,
+"nom": "Instabilité C1–C2 de la polyarthrite rhumatoïde"
+},
+"type": "Anamnèse",
+"enonce": "Biologique sans lésion initiale",
+"reponse": "decrease",
+"explication": "Biologique sans lésion initiale : progression chez 7 à 8 % contre 79 à 80 % si subluxation préexistante (Kaito 2012 et 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+94,
+95
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 15"
+},
+{
+"id": "MSK-016-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle canadienne (CCR) négative",
+"reponse": "decrease",
+"explication": "Règle canadienne (CCR) négative : Se 99,4 %, LR− 0,01 calculé",
+"contexte_puce": "↓ Règle canadienne (CCR) négative : Se 99,4 %, LR− 0,01 calculé ; ↔ positive : LR+ 1,8 (Stiell 2003, n = 8 283).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.01,
+"sensibilite": "99,4 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+96
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle canadienne (CCR) positive",
+"reponse": "neutral",
+"explication": "Positive : LR+ 1,8 (Stiell 2003, n = 8 283).",
+"contexte_puce": "↓ Règle canadienne (CCR) négative : Se 99,4 %, LR− 0,01 calculé ; ↔ positive : LR+ 1,8 (Stiell 2003, n = 8 283).",
+"donnee": {
+"lr_positif": 1.8,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+96
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-016-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Examen physique",
+"enonce": "Rotation active de 45° des deux côtés",
+"reponse": "decrease",
+"explication": "Rotation active de 45° des deux côtés : LR 0,07 calculé (Stiell 2001).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "Qualitatif"
+},
+"references": [
+97
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge ≥ 65 ans",
+"reponse": "increase",
+"explication": "Âge ≥ 65 ans : 22,5 % des blessés contre 7,0 %, LR+ 3,2 calculé (Stiell 2001).",
+"donnee": {
+"lr_positif": 3.2,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+97
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Anamnèse",
+"enonce": "Paresthésies des extrémités",
+"reponse": "increase",
+"explication": "Paresthésies des extrémités : LR+ 2,6 calculé (Stiell 2001).",
+"donnee": {
+"lr_positif": 2.6,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+97
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité médiane présente",
+"reponse": "neutral",
+"explication": "Sensibilité médiane présente : LR+ 1,5",
+"contexte_puce": "↔ Sensibilité médiane présente : LR+ 1,5 ; ↓ absente : LR− 0,33, calculés (Stiell 2001).",
+"donnee": {
+"lr_positif": 1.5,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+97
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité médiane absente",
+"reponse": "decrease",
+"explication": "Absente : LR− 0,33, calculés (Stiell 2001).",
+"contexte_puce": "↔ Sensibilité médiane présente : LR+ 1,5 ; ↓ absente : LR− 0,33, calculés (Stiell 2001).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.33,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+97
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-016-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Odontoïde chez la personne âgée",
+"reponse": "increase",
+"explication": "Odontoïde chez la personne âgée : 20 % des fractures gériatriques contre 5 % chez les plus jeunes (Touger 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+98
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-09",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Facteurs démographiques",
+"enonce": "NEXUS négatif après 65 ans",
+"reponse": "neutral",
+"explication": "NEXUS négatif après 65 ans : Se de 66 à 100 % selon les études.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "66 à 100 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+99
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-10",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Absence de douleur après 55 ans",
+"reponse": "neutral",
+"explication": "Absence de douleur après 55 ans : environ 20 % des fractures sans douleur, sensibilité ni déficit.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+100
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-016-11",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 16,
+"nom": "Fracture cervicale (odontoïde, fragilité)"
+},
+"type": "Anamnèse",
+"enonce": "Spondylarthrite ankylosante",
+"reponse": "increase",
+"explication": "Spondylarthrite ankylosante : risque de fracture environ 4 fois plus élevé, souvent après un traumatisme mineur (Leone 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+101,
+102
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 16"
+},
+{
+"id": "MSK-017-01",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Drapeaux rouges",
+"enonce": "Au moins un facteur de risque (drogues IV, diabète, immunosuppression, geste rachidien récent)",
+"reponse": "increase",
+"explication": "Au moins un facteur de risque (drogues IV, diabète, immunosuppression, geste rachidien récent) : 98 % contre 21 %, LR+ 4,7",
+"contexte_puce": "↑ Au moins un facteur de risque (drogues IV, diabète, immunosuppression, geste rachidien récent) : 98 % contre 21 %, LR+ 4,7 ; ↓ aucun : LR− 0,03, calculés (Davis 2004).",
+"donnee": {
+"lr_positif": 4.7,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+103
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-02",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Drapeaux rouges",
+"enonce": "Au moins un facteur de risque (drogues IV, diabète, immunosuppression, geste rachidien récent) (aucun)",
+"reponse": "decrease",
+"explication": "Aucun : LR− 0,03, calculés (Davis 2004).",
+"contexte_puce": "↑ Au moins un facteur de risque (drogues IV, diabète, immunosuppression, geste rachidien récent) : 98 % contre 21 %, LR+ 4,7 ; ↓ aucun : LR− 0,03, calculés (Davis 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.03,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+103
+],
+"difficulte": 1,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-017-03",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Drapeaux rouges",
+"enonce": "Triade douleur, fièvre et déficit",
+"reponse": "increase",
+"explication": "Triade douleur, fièvre et déficit : 13 % contre 1 %",
+"contexte_puce": "↑ Triade douleur, fièvre et déficit : 13 % contre 1 % ; ↔ son absence : LR− 0,88 calculé (Davis 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+103
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-04",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Drapeaux rouges",
+"enonce": "Absence : triade douleur, fièvre et déficit",
+"reponse": "neutral",
+"explication": "Son absence : LR− 0,88 calculé (Davis 2004).",
+"contexte_puce": "↑ Triade douleur, fièvre et déficit : 13 % contre 1 % ; ↔ son absence : LR− 0,88 calculé (Davis 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.88,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+103
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-017-05",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Drapeaux rouges",
+"enonce": "Absence de fièvre",
+"reponse": "neutral",
+"explication": "Absence de fièvre : la fièvre n'est présente que dans 24 à 62 % des abcès épiduraux.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+104
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-06",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Laboratoire",
+"enonce": "VS normale chez un patient à risque",
+"reponse": "decrease",
+"explication": "VS normale chez un patient à risque : Se 100 %, Sp 67 % (Davis 2011).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "67 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+105
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-07",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Laboratoire",
+"enonce": "CRP < 50 mg/L",
+"reponse": "decrease",
+"explication": "CRP < 50 mg/L : LR− 0,15 calculé ; Se 100 % au seuil de 10 mg/L (Davis WT 2020).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.15,
+"sensibilite": "100 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+106
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-08",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes normaux",
+"reponse": "neutral",
+"explication": "Leucocytes normaux : jusqu'à 40 % des spondylodiscites.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+107
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-09",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Examen physique",
+"enonce": "Absence de déficit neurologique",
+"reponse": "neutral",
+"explication": "Absence de déficit neurologique : environ 40 % des abcès épiduraux n'en ont aucun au diagnostic.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+108
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-10",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Drapeaux rouges",
+"enonce": "Localisation cervicale chez l'usager de drogues IV",
+"reponse": "increase",
+"explication": "Localisation cervicale chez l'usager de drogues IV : 19 % contre 8 % (Nishizawa 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+109
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+},
+{
+"id": "MSK-017-11",
+"domaine": "MSK",
+"region": "Rachis cervical",
+"diagnostic": {
+"no": 17,
+"nom": "Spondylodiscite cervicale ou abcès épidural"
+},
+"type": "Laboratoire",
+"enonce": "Bactériémie récente à S. aureus avec douleur rachidienne nouvelle",
+"reponse": "increase",
+"explication": "Bactériémie récente à S. aureus avec douleur rachidienne nouvelle : critère de suspicion IDSA 2015.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+110
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 1, diagnostic 17"
+}
+],
+"references": {
+"1": {
+"n": 1,
+"texte": "Risk Factors for the Onset of Non-Specific Neck Pain: A Systematic Review. McLean SM, May S, Klaber-Moffett J, Sharp DM, Gardiner E. Journal of Epidemiology and Community Health. 2010;64(7):565-72. doi:10.1136/jech.2009.090720.",
+"doi": "10.1136/jech.2009.090720"
+},
+"2": {
+"n": 2,
+"texte": "Personal, Biomechanical, Organizational and Psychosocial Risk Factors for Neck Disorders in a Working Population. Petit A, Ha C, Bodin J, et al. Journal of Occupational Health. 2014;56(2):134-40. doi:10.1539/joh.13-0186-oa.",
+"doi": "10.1539/joh.13-0186-oa"
+},
+"3": {
+"n": 3,
+"texte": "Management of neck pain and associated disorders: A clinical practice guideline from the Ontario Protocol for Traffic Injury Management (OPTIMa) Collaboration. Côté P, Wong JJ, Sutton D, et al. European Spine Journal : Official Publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society. 2016;25(7):2000-22. doi:10.1007/s00586-016-4467-7.",
+"doi": "10.1007/s00586-016-4467-7"
+},
+"4": {
+"n": 4,
+"texte": "ACR Appropriateness Criteria® Cervical Pain or Cervical Radiculopathy: 2024 Update. Eldaya RW, Parsons MS, Hutchins TA, et al. Journal of the American College of Radiology : JACR. 2025;22(5S):S136-S162. doi:10.1016/j.jacr.2025.02.035.",
+"doi": "10.1016/j.jacr.2025.02.035"
+},
+"5": {
+"n": 5,
+"texte": "Neck Pain: Revision 2017. Blanpied PR, Gross AR, Elliott JM, et al. The Journal of Orthopaedic and Sports Physical Therapy. 2017;47(7):A1-A83. doi:10.2519/jospt.2017.0302.",
+"doi": "10.2519/jospt.2017.0302"
+},
+"7": {
+"n": 7,
+"texte": "Prevalence, Incidence, Localization, and Pathophysiology of Myofascial Trigger Points in Patients With Spinal Pain: A Systematic Literature Review. Lluch E, Nijs J, De Kooning M, et al. Journal of Manipulative and Physiological Therapeutics. 2015;38(8):587-600. doi:10.1016/j.jmpt.2015.08.004.",
+"doi": "10.1016/j.jmpt.2015.08.004"
+},
+"8": {
+"n": 8,
+"texte": "Prevalence of Myofascial Pain Syndrome in Chronic Non-Specific Neck Pain: A Population-Based Cross-Sectional Descriptive Study. Cerezo-Téllez E, Torres-Lacomba M, Mayoral-Del Moral O, et al. Pain Medicine (Malden, Mass.). 2016;17(12):2369-2377. doi:10.1093/pm/pnw114.",
+"doi": "10.1093/pm/pnw114"
+},
+"9": {
+"n": 9,
+"texte": "Prevalence of Myofascial Trigger Points in Spinal Disorders: A Systematic Review and Meta-Analysis. Chiarotto A, Clijsen R, Fernandez-de-Las-Penas C, Barbero M. Archives of Physical Medicine and Rehabilitation. 2016;97(2):316-37. doi:10.1016/j.apmr.2015.09.021.",
+"doi": "10.1016/j.apmr.2015.09.021"
+},
+"10": {
+"n": 10,
+"texte": "Interrater Agreement of Manual Palpation for Identification of Myofascial Trigger Points: A Systematic Review and Meta-Analysis. Rathbone ATL, Grosman-Rimon L, Kumbhare DA. The Clinical Journal of Pain. 2017;33(8):715-729. doi:10.1097/AJP.0000000000000459.",
+"doi": "10.1097/AJP.0000000000000459"
+},
+"11": {
+"n": 11,
+"texte": "Reliability of Physical Examination for Diagnosis of Myofascial Trigger Points: A Systematic Review of the Literature. Lucas N, Macaskill P, Irwig L, Moran R, Bogduk N. The Clinical Journal of Pain. 2009;25(1):80-9. doi:10.1097/AJP.0b013e31817e13b6.",
+"doi": "10.1097/AJP.0b013e31817e13b6"
+},
+"13": {
+"n": 13,
+"texte": "Chronic Cervical Zygapophysial Joint Pain After Whiplash. A Placebo-Controlled Prevalence Study. Lord SM, Barnsley L, Wallis BJ, Bogduk N. Spine. 1996;21(15):1737-44; discussion 1744-5. doi:10.1097/00007632-199608010-00005.",
+"doi": "10.1097/00007632-199608010-00005"
+},
+"14": {
+"n": 14,
+"texte": "Derivation of a Clinical Decision Guide in the Diagnosis of Cervical Facet Joint Pain. Schneider GM, Jull G, Thomas K, et al. Archives of Physical Medicine and Rehabilitation. 2014;95(9):1695-701. doi:10.1016/j.apmr.2014.02.026.",
+"doi": "10.1016/j.apmr.2014.02.026"
+},
+"15": {
+"n": 15,
+"texte": "Reliability and validity of clinical tests to assess the anatomical integrity of the cervical spine in adults with neck pain and its associated disorders: Part 1—A systematic review from the Cervical Assessment and Diagnosis Research Evaluation (CADRE) Collaboration. Lemeunier N, da Silva-Oolup S, Chow N, et al. European Spine Journal : Official Publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society. 2017;26(9):2225-2241. doi:10.1007/s00586-017-5153-0.",
+"doi": "10.1007/s00586-017-5153-0"
+},
+"16": {
+"n": 16,
+"texte": "Consensus Practice Guidelines on Interventions for Cervical Spine (Facet) Joint Pain From a Multispecialty International Working Group. Hurley RW, Adams MCB, Barad M, et al. Regional Anesthesia and Pain Medicine. 2022;47(1):3-59. doi:10.1136/rapm-2021-103031.",
+"doi": "10.1136/rapm-2021-103031"
+},
+"17": {
+"n": 17,
+"texte": "The Validity of Manual Examination in Assessing Patients With Neck Pain. King W, Lau P, Lees R, Bogduk N. The Spine Journal : Official Journal of the North American Spine Society. 2007 Jan-Feb;7(1):22-6. doi:10.1016/j.spinee.2006.07.009.",
+"doi": "10.1016/j.spinee.2006.07.009"
+},
+"18": {
+"n": 18,
+"texte": "What Does Local Tenderness Say About the Origin of Pain? An Investigation of Cervical Zygapophysial Joint Pain. Siegenthaler A, Eichenberger U, Schmidlin K, Arendt-Nielsen L, Curatolo M. Anesthesia and Analgesia. 2010;110(3):923-7. doi:10.1213/ANE.0b013e3181cbd8f4.",
+"doi": "10.1213/ANE.0b013e3181cbd8f4"
+},
+"19": {
+"n": 19,
+"texte": "Abnormal Findings on Magnetic Resonance Images of the Cervical Spines in 1211 Asymptomatic Subjects. Nakashima H, Yukawa Y, Suda K, et al. Spine. 2015;40(6):392-8. doi:10.1097/BRS.0000000000000775.",
+"doi": "10.1097/BRS.0000000000000775"
+},
+"20": {
+"n": 20,
+"texte": "Radiographic cervical spine degenerative findings: a study on a large population from age 18 to 97 years. Tao Y, Galbusera F, Niemeyer F, et al. European Spine Journal : Official Publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society. 2021;30(2):431-443. doi:10.1007/s00586-020-06615-0.",
+"doi": "10.1007/s00586-020-06615-0"
+},
+"21": {
+"n": 21,
+"texte": "A 20-Year Prospective Longitudinal Study of Degeneration of the Cervical Spine in a Volunteer Cohort Assessed Using MRI: Follow-Up of a Cross-Sectional Study. Daimon K, Fujiwara H, Nishiwaki Y, et al. The Journal of Bone and Joint Surgery. American Volume. 2018;100(10):843-849. doi:10.2106/JBJS.17.01347.",
+"doi": "10.2106/JBJS.17.01347"
+},
+"22": {
+"n": 22,
+"texte": "The Prevalence of Degenerative Cervical Myelopathy-Related Pathologies on Magnetic Resonance Imaging in Healthy/Asymptomatic Individuals: A Meta-Analysis of Published Studies and Comparison to a Symptomatic Cohort. Banerjee A, Mowforth OD, Nouri A, et al. Journal of Clinical Neuroscience : Official Journal of the Neurosurgical Society of Australasia. 2022;99:53-61. doi:10.1016/j.jocn.2022.03.002.",
+"doi": "10.1016/j.jocn.2022.03.002"
+},
+"23": {
+"n": 23,
+"texte": "Cervical Disc Degeneration Is Associated With a Reduction in Mobility: A Cross-Sectional Study of 1211 Asymptomatic Healthy Subjects. Machino M, Nakashima H, Ito K, et al. Journal of Clinical Neuroscience : Official Journal of the Neurosurgical Society of Australasia. 2022;99:342-348. doi:10.1016/j.jocn.2022.03.035.",
+"doi": "10.1016/j.jocn.2022.03.035"
+},
+"25": {
+"n": 25,
+"texte": "Neck Pain and Headache After Whiplash Injury: A Systematic Review and Meta-Analysis. Al-Khazali HM, Ashina H, Iljazi A, et al. Pain. 2020;161(5):880-888. doi:10.1097/j.pain.0000000000001805.",
+"doi": "10.1097/j.pain.0000000000001805"
+},
+"26": {
+"n": 26,
+"texte": "Risk Factors for Persistent Problems Following Acute Whiplash Injury: Update of a Systematic Review and Meta-Analysis. Walton DM, Macdermid JC, Giorgianni AA, et al. The Journal of Orthopaedic and Sports Physical Therapy. 2013;43(2):31-43. doi:10.2519/jospt.2013.4507.",
+"doi": "10.2519/jospt.2013.4507"
+},
+"27": {
+"n": 27,
+"texte": "External Validation of a Clinical Prediction Rule to Predict Full Recovery and Ongoing Moderate/Severe Disability Following Acute Whiplash Injury. Ritchie C, Hendrikz J, Jull G, Elliott J, Sterling M. The Journal of Orthopaedic and Sports Physical Therapy. 2015;45(4):242-50. doi:10.2519/jospt.2015.5642.",
+"doi": "10.2519/jospt.2015.5642"
+},
+"29": {
+"n": 29,
+"texte": "Cervicogenic Headache, an Easy Diagnosis? A Systematic Review and Meta-Analysis of Diagnostic Studies. Demont A, Lafrance S, Benaissa L, Mawet J. Musculoskeletal Science & Practice. 2022;62:102640. doi:10.1016/j.msksp.2022.102640.",
+"doi": "10.1016/j.msksp.2022.102640"
+},
+"30": {
+"n": 30,
+"texte": "Differentiating migraine, cervicogenic headache and asymptomatic individuals based on physical examination findings: a systematic review and meta-analysis. Anarte-Lazo E, Carvalho GF, Schwarz A, Luedtke K, Falla D. BMC Musculoskeletal Disorders. 2021;22(1):755. doi:10.1186/s12891-021-04595-w.",
+"doi": "10.1186/s12891-021-04595-w"
+},
+"31": {
+"n": 31,
+"texte": "Comparative Analysis and Diagnostic Accuracy of the Cervical Flexion-Rotation Test. Hall TM, Briffa K, Hopper D, Robinson K. The Journal of Headache and Pain. 2010;11(5):391-7. doi:10.1007/s10194-010-0222-3.",
+"doi": "10.1007/s10194-010-0222-3"
+},
+"32": {
+"n": 32,
+"texte": "Cervical Musculoskeletal Impairment in Frequent Intermittent Headache. Part 1: Subjects With Single Headaches. Jull G, Amiri M, Bullock-Saxton J, Darnell R, Lander C. Cephalalgia : An International Journal of Headache. 2007;27(7):793-802. doi:10.1111/j.1468-2982.2007.01345.x.",
+"doi": "10.1111/j.1468-2982.2007.01345.x"
+},
+"33": {
+"n": 33,
+"texte": "Cervicogenic Headache: An Assessment of the Evidence on Clinical Diagnosis, Invasive Tests, and Treatment. Bogduk N, Govind J. The Lancet. Neurology. 2009;8(10):959-68. doi:10.1016/S1474-4422(09)70209-1.",
+"doi": "10.1016/S1474-4422(09)70209-1"
+},
+"34": {
+"n": 34,
+"texte": "Epidemiology of Cervical Spine Injuries in High School Athletes Over a Ten-Year Period. Meron A, McMullen C, Laker SR, Currie D, Comstock RD. PM & R : The Journal of Injury, Function, and Rehabilitation. 2018;10(4):365-372. doi:10.1016/j.pmrj.2017.09.003.",
+"doi": "10.1016/j.pmrj.2017.09.003"
+},
+"35": {
+"n": 35,
+"texte": "Epidemiology of Cervical Muscle Strains in Collegiate and High School Football Athletes, 2011-2012 Through 2013-2014 Academic Years. Lee KM, Kay MC, Kucera KL, Prentice WE, Kerr ZY. Journal of Athletic Training. 2019;54(7):780-786. doi:10.4085/1062-6050-229-18.",
+"doi": "10.4085/1062-6050-229-18"
+},
+"36": {
+"n": 36,
+"texte": "Epidemiology of Cervical Injuries in NCAA Football Players. Chung AS, Makovicka JL, Hassebrock JD, et al. Spine. 2019;44(12):848-854. doi:10.1097/BRS.0000000000003008.",
+"doi": "10.1097/BRS.0000000000003008"
+},
+"37": {
+"n": 37,
+"texte": "Return to Play. Greg Canty, Laura Nilan. Pediatrics in Review. 2015."
+},
+"38": {
+"n": 38,
+"texte": "Cervical Spine Injuries in American Football. Rihn JA, Anderson DT, Lamb K, et al. Sports Medicine (Auckland, N.Z.). 2009;39(9):697-708. doi:10.2165/11315190-000000000-00000.",
+"doi": "10.2165/11315190-000000000-00000"
+},
+"39": {
+"n": 39,
+"texte": "Reliability and Diagnostic Accuracy of the Clinical Examination and Patient Self-Report Measures for Cervical Radiculopathy. Wainner RS, Fritz JM, Irrgang JJ, et al. Spine. 2003;28(1):52-62. doi:10.1097/00007632-200301010-00014.",
+"doi": "10.1097/00007632-200301010-00014"
+},
+"40": {
+"n": 40,
+"texte": "Diagnostic Accuracy of Physical Examination Tests for Painful Cervical Radiculopathy: Update of a Systematic Review and Meta-Analysis. Thoomes EJ, Arvanitidis M, van Geest S, et al. BMC Musculoskeletal Disorders. 2026;27(1):338. doi:10.1186/s12891-026-09551-0.",
+"doi": "10.1186/s12891-026-09551-0"
+},
+"41": {
+"n": 41,
+"texte": "A Systematic Review of the Diagnostic Accuracy of Provocative Tests of the Neck for Diagnosing Cervical Radiculopathy. Rubinstein SM, Pool JJ, van Tulder MW, Riphagen II, de Vet HC. European Spine Journal : Official Publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society. 2007;16(3):307-19. doi:10.1007/s00586-006-0225-6.",
+"doi": "10.1007/s00586-006-0225-6"
+},
+"42": {
+"n": 42,
+"texte": "Neurological examination for cervical radiculopathy: a scoping review. Yousif MS, Occhipinti G, Bianchini F, et al. BMC Musculoskeletal Disorders. 2025;26(1):334. doi:10.1186/s12891-025-08560-9.",
+"doi": "10.1186/s12891-025-08560-9"
+},
+"43": {
+"n": 43,
+"texte": "Evaluation of persons with suspected lumbosacral and cervical radiculopathy: Electrodiagnostic assessment and implications for treatment and outcomes (Part I). Dillingham TR, Annaswamy TM, Plastaras CT. Muscle & Nerve. 2020;62(4):462-473. doi:10.1002/mus.26997.",
+"doi": "10.1002/mus.26997"
+},
+"44": {
+"n": 44,
+"texte": "Diagnostic Accuracy of Patient Interview Items and Clinical Tests for Cervical Radiculopathy. Sleijser-Koehorst MLS, Coppieters MW, Epping R, et al. Physiotherapy. 2021;111:74-82. doi:10.1016/j.physio.2020.07.007.",
+"doi": "10.1016/j.physio.2020.07.007"
+},
+"45": {
+"n": 45,
+"texte": "Sports‐related peripheral nerve injuries of the upper limb. Dutton RA, Norbury J, Colorado B. Muscle & Nerve. 2024;69(5):527-542. doi:10.1002/mus.28057.",
+"doi": "10.1002/mus.28057"
+},
+"46": {
+"n": 46,
+"texte": "Incidence of Stingers in Young Rugby Players. Kawasaki T, Ota C, Yoneda T, et al. The American Journal of Sports Medicine. 2015;43(11):2809-15. doi:10.1177/0363546515597678.",
+"doi": "10.1177/0363546515597678"
+},
+"47": {
+"n": 47,
+"texte": "Management of Head and Neck Injuries by the Sideline Physician. Usman S. American Family Physician. 2022;106(5):543-548."
+},
+"48": {
+"n": 48,
+"texte": "Mean Subaxial Space Available for the Cord Index as a Novel Method of Measuring Cervical Spine Geometry to Predict the Chronic Stinger Syndrome in American Football Players. Presciutti SM, DeLuca P, Marchetto P, et al. Journal of Neurosurgery. Spine. 2009;11(3):264-71. doi:10.3171/2009.3.SPINE08642.",
+"doi": "10.3171/2009.3.SPINE08642"
+},
+"49": {
+"n": 49,
+"texte": "Stingers, the Torg Ratio, and the Cervical Spine. Castro FP, Ricciardi J, Brunet ME, Busch MT, Whitecloud TS. The American Journal of Sports Medicine. 1997 Sep-Oct;25(5):603-8. doi:10.1177/036354659702500503.",
+"doi": "10.1177/036354659702500503"
+},
+"50": {
+"n": 50,
+"texte": "Cervical Spinal Stenosis and Stingers in Collegiate Football Players. Meyer SA, Schulte KR, Callaghan JJ, et al. The American Journal of Sports Medicine. 1994 Mar-Apr;22(2):158-66. doi:10.1177/036354659402200202.",
+"doi": "10.1177/036354659402200202"
+},
+"51": {
+"n": 51,
+"texte": "The natural course of idiopathic cervical dystonia. Dressler D, Kopp B, Pan L, Saberi FA. Journal of Neural Transmission (Vienna, Austria : 1996). 2024;131(3):245-252. doi:10.1007/s00702-023-02736-0.",
+"doi": "10.1007/s00702-023-02736-0"
+},
+"52": {
+"n": 52,
+"texte": "Diagnostic and Statistical Manual of Mental Disorders. Dilip V. Jeste, Jeffrey A. Lieberman, David Fassler, et al. American Psychiatric Association (2022)."
+},
+"53": {
+"n": 53,
+"texte": "Recent Developments in Drug-Induced Movement Disorders: A Mixed Picture. Factor SA, Burkhard PR, Caroff S, et al. The Lancet. Neurology. 2019;18(9):880-890. doi:10.1016/S1474-4422(19)30152-8.",
+"doi": "10.1016/S1474-4422(19)30152-8"
+},
+"54": {
+"n": 54,
+"texte": "Management of common adverse effects of antipsychotic medications. Stroup TS, Gray N. World Psychiatry : Official Journal of the World Psychiatric Association (WPA). 2018;17(3):341-356. doi:10.1002/wps.20567.",
+"doi": "10.1002/wps.20567"
+},
+"55": {
+"n": 55,
+"texte": "Neuroleptic‐Induced Movement Disorders: Deconstructing Extrapyramidal Symptoms. Trosch RM. Journal of the American Geriatrics Society. 2004;52(12 Suppl):S266-71. doi:10.1111/j.1532-5415.2004.52603.x.",
+"doi": "10.1111/j.1532-5415.2004.52603.x"
+},
+"56": {
+"n": 56,
+"texte": "A Real Pain in the Neck. McGrath E, Jadcherla Y, Held J, Ang JY. Clinical Pediatrics. 2021;60(2):127-130. doi:10.1177/0009922820970173.",
+"doi": "10.1177/0009922820970173"
+},
+"58": {
+"n": 58,
+"texte": "Thoracic Outlet Syndrome: A Comprehensive Review of Pathophysiology, Diagnosis, and Treatment. Jones MR, Prabhakar A, Viswanath O, et al. Pain and Therapy. 2019;8(1):5-18. doi:10.1007/s40122-019-0124-2.",
+"doi": "10.1007/s40122-019-0124-2"
+},
+"59": {
+"n": 59,
+"texte": "The thoracic outlet syndromes: Part 1. Overview of the thoracic outlet syndromes and review of true neurogenic thoracic outlet syndrome. Ferrante MA, Ferrante ND. Muscle & Nerve. 2017;55(6):782-793. doi:10.1002/mus.25536.",
+"doi": "10.1002/mus.25536"
+},
+"60": {
+"n": 60,
+"texte": "Cervical Rib Prevalence and Its Association With Thoracic Outlet Syndrome: A Meta-Analysis of 141 Studies With Surgical Considerations. Henry BM, Vikse J, Sanna B, et al. World Neurosurgery. 2018;110:e965-e978. doi:10.1016/j.wneu.2017.11.148.",
+"doi": "10.1016/j.wneu.2017.11.148"
+},
+"61": {
+"n": 61,
+"texte": "Reliability and Validity of the Standardized Elevated Arm Stress Test in the Diagnosis of Neurogenic Thoracic Outlet Syndrome. Pesser N, de Bruijn BI, Goeteyn J, et al. Journal of Vascular Surgery. 2022;76(3):821-829.e1. doi:10.1016/j.jvs.2022.03.885.",
+"doi": "10.1016/j.jvs.2022.03.885"
+},
+"62": {
+"n": 62,
+"texte": "The False-Positive Rate of Thoracic Outlet Syndrome Shoulder Maneuvers in Healthy Subjects. Plewa MC, Delinger M. Academic Emergency Medicine : Official Journal of the Society for Academic Emergency Medicine. 1998;5(4):337-42. doi:10.1111/j.1553-2712.1998.tb02716.x.",
+"doi": "10.1111/j.1553-2712.1998.tb02716.x"
+},
+"63": {
+"n": 63,
+"texte": "Diagnosis of Thoracic Outlet Syndrome. Sanders RJ, Hammond SL, Rao NM. Journal of Vascular Surgery. 2007;46(3):601-4. doi:10.1016/j.jvs.2007.04.050.",
+"doi": "10.1016/j.jvs.2007.04.050"
+},
+"65": {
+"n": 65,
+"texte": "Occipital Neuralgia and Cervicogenic Headache: Diagnosis and Management. Barmherzig R, Kingston W. Current Neurology and Neuroscience Reports. 2019;19(5):20. doi:10.1007/s11910-019-0937-8.",
+"doi": "10.1007/s11910-019-0937-8"
+},
+"66": {
+"n": 66,
+"texte": "A Pain in the Neck: Occipital Neuralgia vs. Cervicogenic Headache vs. Migrainous Cervicalgia. Mathew PG, Sailesh S. Current Pain and Headache Reports. 2025;29(1):101. doi:10.1007/s11916-025-01419-7.",
+"doi": "10.1007/s11916-025-01419-7"
+},
+"67": {
+"n": 67,
+"texte": "Conservative Management of Occipital Neuralgia Supported by Physical Therapy: A Review of Available Research and Mechanistic Rationale to Guide Treatment. Deuel D, Sandgren A, Nelson EO, et al. Current Pain and Headache Reports. 2024;28(12):1321-1331. doi:10.1007/s11916-024-01288-6.",
+"doi": "10.1007/s11916-024-01288-6"
+},
+"68": {
+"n": 68,
+"texte": "Epidemiology and clinical features of occipital neuralgia: A systematic review and meta-analysis. Melchior AG, Al-Khazali S, Christensen RH, Al-Khazali HM, Ashina H. Cephalalgia : An International Journal of Headache. 2025;45(2):3331024251317595. doi:10.1177/03331024251317595.",
+"doi": "10.1177/03331024251317595"
+},
+"69": {
+"n": 69,
+"texte": "Reliability and Diagnostic Accuracy of Clinical Special Tests for Myelopathy in Patients Seen for Cervical Dysfunction. Cook C, Roman M, Stewart KM, Leithe LG, Isaacs R. The Journal of Orthopaedic and Sports Physical Therapy. 2009;39(3):172-8. doi:10.2519/jospt.2009.2938.",
+"doi": "10.2519/jospt.2009.2938"
+},
+"70": {
+"n": 70,
+"texte": "Degenerative Cervical Myelopathy: Recognition and Management. Kane SF, Abadie KV, Willson A. American Family Physician. 2020;102(12):740-750."
+},
+"71": {
+"n": 71,
+"texte": "A Systematic Review of the Utility of the Hoffmann Sign for the Diagnosis of Degenerative Cervical Myelopathy. Fogarty A, Lenza E, Gupta G, et al. Spine. 2018;43(23):1664-1669. doi:10.1097/BRS.0000000000002697.",
+"doi": "10.1097/BRS.0000000000002697"
+},
+"72": {
+"n": 72,
+"texte": "Jacques Jean Lhermitte and Lhermitte’s sign. Chu DT, Hautecoeur P, Santoro JD. Multiple Sclerosis (Houndmills, Basingstoke, England). 2020;26(4):501-504. doi:10.1177/1352458518820628.",
+"doi": "10.1177/1352458518820628"
+},
+"73": {
+"n": 73,
+"texte": "Targeting earlier diagnosis: What symptoms come first in Degenerative Cervical Myelopathy?. Munro CF, Yurac R, Moritz ZC, et al. PloS One. 2023;18(3):e0281856. doi:10.1371/journal.pone.0281856.",
+"doi": "10.1371/journal.pone.0281856"
+},
+"74": {
+"n": 74,
+"texte": "Prevalence of Physical Signs in Cervical Myelopathy: A Prospective, Controlled Study. Rhee JM, Heflin JA, Hamasaki T, Freedman B. Spine. 2009;34(9):890-5. doi:10.1097/BRS.0b013e31819c944b.",
+"doi": "10.1097/BRS.0b013e31819c944b"
+},
+"75": {
+"n": 75,
+"texte": "Prevalence and Imaging Characteristics of Nonmyelopathic and Myelopathic Spondylotic Cervical Cord Compression. Kovalova I, Kerkovsky M, Kadanka Z, et al. Spine. 2016;41(24):1908-1916. doi:10.1097/BRS.0000000000001842.",
+"doi": "10.1097/BRS.0000000000001842"
+},
+"76": {
+"n": 76,
+"texte": "Cervical Myelopathy: A Clinical and Radiographic Evaluation and Correlation to Cervical Spondylotic Myelopathy. Harrop JS, Naroji S, Maltenfort M, et al. Spine. 2010;35(6):620-4. doi:10.1097/BRS.0b013e3181b723af.",
+"doi": "10.1097/BRS.0b013e3181b723af"
+},
+"77": {
+"n": 77,
+"texte": "Polymyalgia Rheumatica. Dejaco C, Matteson EL. The New England Journal of Medicine. 2026;394(11):1097-1109. doi:10.1056/NEJMcp2506817.",
+"doi": "10.1056/NEJMcp2506817"
+},
+"78": {
+"n": 78,
+"texte": "2012 Provisional classification criteria for polymyalgia rheumatica: A European League Against Rheumatism/American College of Rheumatology collaborative initiative. Dasgupta B, Cimmino MA, Kremers HM, et al. Arthritis and Rheumatism. 2012;64(4):943-54. doi:10.1002/art.34356.",
+"doi": "10.1002/art.34356"
+},
+"79": {
+"n": 79,
+"texte": "Polymyalgia Rheumatica. Matteson EL, Dejaco C. Annals of Internal Medicine. 2017;166(9):ITC65-ITC80. doi:10.7326/AITC201705020.",
+"doi": "10.7326/AITC201705020"
+},
+"80": {
+"n": 80,
+"texte": "Pathogenesis, Diagnosis and Management of Polymyalgia Rheumatica. Camellino D, Giusti A, Girasole G, Bianchi G, Dejaco C. Drugs & Aging. 2019;36(11):1015-1026. doi:10.1007/s40266-019-00705-5.",
+"doi": "10.1007/s40266-019-00705-5"
+},
+"81": {
+"n": 81,
+"texte": "Polymyalgia Rheumatica. González-Gay MA, Matteson EL, Castañeda S. Lancet (London, England). 2017;390(10103):1700-1712. doi:10.1016/S0140-6736(17)31825-1.",
+"doi": "10.1016/S0140-6736(17)31825-1"
+},
+"82": {
+"n": 82,
+"texte": "Polymyalgia Rheumatica and Giant Cell Arteritis: A Systematic Review. Buttgereit F, Dejaco C, Matteson EL, Dasgupta B. JAMA. 2016;315(22):2442-58. doi:10.1001/jama.2016.5444.",
+"doi": "10.1001/jama.2016.5444"
+},
+"83": {
+"n": 83,
+"texte": "Cervical Interspinous Bursitis in Active Polymyalgia Rheumatica. Salvarani C, Barozzi L, Cantini F, et al. Annals of the Rheumatic Diseases. 2008;67(6):758-61. doi:10.1136/ard.2007.084723.",
+"doi": "10.1136/ard.2007.084723"
+},
+"87": {
+"n": 87,
+"texte": "Risk Factors for Cervical Spine Instability in Patients With Rheumatoid Arthritis. Baek IW, Joo YB, Park KS, Kim KJ. Clinical Rheumatology. 2021;40(2):547-555. doi:10.1007/s10067-020-05243-9.",
+"doi": "10.1007/s10067-020-05243-9"
+},
+"88": {
+"n": 88,
+"texte": "Early and extensive erosiveness in peripheral joints predicts atlantoaxial subluxations in patients with rheumatoid arthritis. Neva MH, Isomäki P, Hannonen P, et al. Arthritis and Rheumatism. 2003;48(7):1808-13. doi:10.1002/art.11086.",
+"doi": "10.1002/art.11086"
+},
+"89": {
+"n": 89,
+"texte": "Predictive Risk Factors of Cervical Spine Instabilities in Rheumatoid Arthritis: A Prospective Multicenter Over 10-Year Cohort Study. Terashima Y, Yurube T, Hirata H, Sugiyama D, Sumi M. Spine. 2017;42(8):556-564. doi:10.1097/BRS.0000000000001853.",
+"doi": "10.1097/BRS.0000000000001853"
+},
+"90": {
+"n": 90,
+"texte": "Clinical Assessment of Atlantoaxial Instability Using the Sharp-Purser Test. Uitvlugt G, Indenbaum S. Arthritis and Rheumatism. 1988;31(7):918-22. doi:10.1002/art.1780310715.",
+"doi": "10.1002/art.1780310715"
+},
+"91": {
+"n": 91,
+"texte": "Systematic Review of the Diagnostic Accuracy, Reliability, and Safety of the Sharp-Purser Test. Mansfield CJ, Domnisch C, Iglar L, et al. The Journal of Manual & Manipulative Therapy. 2020;28(2):72-81. doi:10.1080/10669817.2019.1667045.",
+"doi": "10.1080/10669817.2019.1667045"
+},
+"92": {
+"n": 92,
+"texte": "Neurologic outcome of surgical and conservative treatment of rheumatoid cervical spine subluxation: A systematic review. Wolfs JF, Kloppenburg M, Fehlings MG, et al. Arthritis and Rheumatism. 2009;61(12):1743-52. doi:10.1002/art.25011.",
+"doi": "10.1002/art.25011"
+},
+"93": {
+"n": 93,
+"texte": "A Prospective Study of the Radiological Changes in the Cervical Spine in Early Rheumatoid Disease. Winfield J, Cooke D, Brook AS, Corbett M. Annals of the Rheumatic Diseases. 1981;40(2):109-14. doi:10.1136/ard.40.2.109.",
+"doi": "10.1136/ard.40.2.109"
+},
+"94": {
+"n": 94,
+"texte": "Effect of Biological Agents on Cervical Spine Lesions in Rheumatoid Arthritis. Kaito T, Hosono N, Ohshima S, et al. Spine. 2012;37(20):1742-6. doi:10.1097/BRS.0b013e318256b584.",
+"doi": "10.1097/BRS.0b013e318256b584"
+},
+"95": {
+"n": 95,
+"texte": "Predictors for the Progression of Cervical Lesion in Rheumatoid Arthritis Under the Treatment of Biological Agents. Kaito T, Ohshima S, Fujiwara H, Makino T, Yonenobu K. Spine. 2013;38(26):2258-63. doi:10.1097/BRS.0000000000000066.",
+"doi": "10.1097/BRS.0000000000000066"
+},
+"96": {
+"n": 96,
+"texte": "The Canadian C-Spine Rule versus the NEXUS Low-Risk Criteria in Patients with Trauma. Stiell IG, Clement CM, McKnight RD, et al. The New England Journal of Medicine. 2003;349(26):2510-8. doi:10.1056/NEJMoa031375.",
+"doi": "10.1056/NEJMoa031375"
+},
+"97": {
+"n": 97,
+"texte": "The Canadian C-Spine Rule for Radiography in Alert and Stable Trauma Patients. Stiell IG, Wells GA, Vandemheen KL, et al. JAMA. 2001;286(15):1841-8. doi:10.1001/jama.286.15.1841.",
+"doi": "10.1001/jama.286.15.1841"
+},
+"98": {
+"n": 98,
+"texte": "Validity of a Decision Rule to Reduce Cervical Spine Radiography in Elderly Patients With Blunt Trauma. Touger M, Gennis P, Nathanson N, et al. Annals of Emergency Medicine. 2002;40(3):287-93. doi:10.1067/mem.2002.125708.",
+"doi": "10.1067/mem.2002.125708"
+},
+"99": {
+"n": 99,
+"texte": "Review Article: NEXUS Criteria to Rule Out Cervical Spine Injury Among Older Patients: A Systematic Review. Paykin G, O'Reilly G, Ackland H, Mitra B. Emergency Medicine Australasia : EMA. 2018;30(4):450-455. doi:10.1111/1742-6723.12880.",
+"doi": "10.1111/1742-6723.12880"
+},
+"100": {
+"n": 100,
+"texte": "Spine Injury. American College of Surgeons."
+},
+"101": {
+"n": 101,
+"texte": "Spinal fractures in patients with ankylosing spondylitis. Leone A, Marino M, Dell'Atti C, et al. Rheumatology International. 2016;36(10):1335-46. doi:10.1007/s00296-016-3524-1.",
+"doi": "10.1007/s00296-016-3524-1"
+},
+"102": {
+"n": 102,
+"texte": "Fractures in Spinal Ankylosing Disorders: A Narrative Review of Disease and Injury Types, Treatment Techniques, and Outcomes. Rustagi T, Drazin D, Oner C, et al. Journal of Orthopaedic Trauma. 2017;31 Suppl 4:S57-S74. doi:10.1097/BOT.0000000000000953.",
+"doi": "10.1097/BOT.0000000000000953"
+},
+"103": {
+"n": 103,
+"texte": "The Clinical Presentation and Impact of Diagnostic Delays on Emergency Department Patients With Spinal Epidural Abscess. Davis DP, Wold RM, Patel RJ, et al. The Journal of Emergency Medicine. 2004;26(3):285-91. doi:10.1016/j.jemermed.2003.11.013.",
+"doi": "10.1016/j.jemermed.2003.11.013"
+},
+"104": {
+"n": 104,
+"texte": "Spinal Epidural Abscess. Tande AJ, Currier BL, Osmon DR. The New England Journal of Medicine. 2026;394(16):1621-1633. doi:10.1056/NEJMra2412728.",
+"doi": "10.1056/NEJMra2412728"
+},
+"105": {
+"n": 105,
+"texte": "Prospective Evaluation of a Clinical Decision Guideline to Diagnose Spinal Epidural Abscess in Patients Who Present to the Emergency Department With Spine Pain. Davis DP, Salazar A, Chan TC, Vilke GM. Journal of Neurosurgery. Spine. 2011;14(6):765-70. doi:10.3171/2011.1.SPINE1091.",
+"doi": "10.3171/2011.1.SPINE1091"
+},
+"106": {
+"n": 106,
+"texte": "Sensitivity of C-Reactive Protein Cut-Off Values for Pyogenic Spinal Infection in the Emergency Department. Davis WT, April MD, Mehta S, et al. Cjem. 2020;22(6):836-843. doi:10.1017/cem.2020.402.",
+"doi": "10.1017/cem.2020.402"
+},
+"107": {
+"n": 107,
+"texte": "Joint EANM/ESNR and ESCMID-endorsed consensus document for the diagnosis of spine infection (spondylodiscitis) in adults. Lazzeri E, Bozzao A, Cataldo MA, et al. European Journal of Nuclear Medicine and Molecular Imaging. 2019;46(12):2464-2487. doi:10.1007/s00259-019-04393-6.",
+"doi": "10.1007/s00259-019-04393-6"
+},
+"108": {
+"n": 108,
+"texte": "Clinical Characteristics of Patients With Spinal Epidural Abscess: A Systematic Review and Meta-Analysis. Budiman L, Abetz JW, Mitra B. Emergency Medicine Australasia : EMA. 2026;38(1):e70204. doi:10.1111/1742-6723.70204.",
+"doi": "10.1111/1742-6723.70204"
+},
+"109": {
+"n": 109,
+"texte": "Clinical Characteristics and Surgical Outcomes of Spinal Infections in Intravenous Drug Users and Non-Intravenous Drug Users. Nishizawa M, Djurasovic M, Glassman SD, et al. The Spine Journal : Official Journal of the North American Spine Society. 2025;:S1529-9430(25)00346-8. doi:10.1016/j.spinee.2025.07.025.",
+"doi": "10.1016/j.spinee.2025.07.025"
+},
+"110": {
+"n": 110,
+"texte": "2015 Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines for the Diagnosis and Treatment of Native Vertebral Osteomyelitis in Adults. Berbari EF, Kanj SS, Kowalski TJ, et al. Clinical Infectious Diseases : An Official Publication of the Infectious Diseases Society of America. 2015;61(6):e26-46. doi:10.1093/cid/civ482.",
+"doi": "10.1093/cid/civ482"
+}
+}
+}

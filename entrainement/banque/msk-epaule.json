@@ -1,0 +1,5925 @@
+{
+"domaine": "MSK",
+"region": "Épaule",
+"cle": "msk-epaule",
+"lot": 3,
+"version": "2026-11-24",
+"source": "Base de données pour FlashCards Morand MSK (lot 3), références incluses",
+"diagnostics": [
+{
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+{
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+{
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+{
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+{
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+{
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+{
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+{
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+{
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+{
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+{
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+{
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+{
+"no": 46,
+"nom": "Lésion SLAP"
+},
+{
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+{
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+{
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+{
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+}
+],
+"cartes": [
+{
+"id": "MSK-034-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Anamnèse",
+"enonce": "Arc douloureux présent",
+"reponse": "increase",
+"explication": "Arc douloureux présent : LR+ 3,7",
+"contexte_puce": "↑ Arc douloureux présent : LR+ 3,7 ; ↓ absent : LR− 0,36 (Hermans 2013, JAMA).",
+"donnee": {
+"lr_positif": 3.7,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Anamnèse",
+"enonce": "Arc douloureux absent",
+"reponse": "decrease",
+"explication": "Absent : LR− 0,36 (Hermans 2013, JAMA).",
+"contexte_puce": "↑ Arc douloureux présent : LR+ 3,7 ; ↓ absent : LR− 0,36 (Hermans 2013, JAMA).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.36,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-034-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Tests spécifiques",
+"enonce": "Hawkins-Kennedy positif",
+"reponse": "neutral",
+"explication": "Hawkins-Kennedy positif : LR+ 1,5",
+"contexte_puce": "↔ Hawkins-Kennedy positif : LR+ 1,5 ; ↓ (faible) négatif : LR− 0,51 (Hermans 2013).",
+"donnee": {
+"lr_positif": 1.5,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Tests spécifiques",
+"enonce": "Hawkins-Kennedy négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,51 (Hermans 2013).",
+"contexte_puce": "↔ Hawkins-Kennedy positif : LR+ 1,5 ; ↓ (faible) négatif : LR− 0,51 (Hermans 2013).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.51,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-034-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Tests spécifiques",
+"enonce": "Neer positif",
+"reponse": "neutral",
+"explication": "Neer positif : LR+ 0,98 à 1,6 (Hermans 2013)",
+"contexte_puce": "↔ Neer positif : LR+ 0,98 à 1,6 (Hermans 2013) ; ↓ négatif : LR− 0,35 (Michener 2009, n = 55).",
+"donnee": {
+"lr_positif": 0.98,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+2,
+1
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Tests spécifiques",
+"enonce": "Neer négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,35 (Michener 2009, n = 55).",
+"contexte_puce": "↔ Neer positif : LR+ 0,98 à 1,6 (Hermans 2013) ; ↓ négatif : LR− 0,35 (Michener 2009, n = 55).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.35,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+2,
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-034-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Examen physique",
+"enonce": "Rotation externe résistée douloureuse ou faible",
+"reponse": "increase",
+"explication": "Rotation externe résistée douloureuse ou faible : LR+ 4,39, LR− 0,50 (Michener 2009).",
+"donnee": {
+"lr_positif": 4.39,
+"lr_negatif": 0.5,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+2
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Jobe",
+"reponse": "neutral",
+"explication": "Test de Jobe : LR+ 3,90 chez Michener 2009, mais LR+ 1,36 en méta-analyse (Zhao 2024).",
+"discordant": true,
+"donnee": {
+"lr_positif": 3.9,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+2,
+3
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Tests spécifiques",
+"enonce": "Au moins 3 tests positifs sur 5 (Neer, Hawkins, arc douloureux, Jobe, rotation externe résistée)",
+"reponse": "increase",
+"explication": "Au moins 3 tests positifs sur 5 (Neer, Hawkins, arc douloureux, Jobe, rotation externe résistée) : LR+ 2,9",
+"contexte_puce": "↑ Au moins 3 tests positifs sur 5 (Neer, Hawkins, arc douloureux, Jobe, rotation externe résistée) : LR+ 2,9 ; ↓ moins de 3 : LR 0,34.",
+"donnee": {
+"lr_positif": 2.9,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Anamnèse",
+"enonce": "Moins de 3",
+"reponse": "decrease",
+"explication": "Moins de 3 : LR 0,34.",
+"contexte_puce": "↑ Au moins 3 tests positifs sur 5 (Neer, Hawkins, arc douloureux, Jobe, rotation externe résistée) : LR+ 2,9 ; ↓ moins de 3 : LR 0,34.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Anamnèse",
+"enonce": "Hawkins et Neer tous deux positifs",
+"reponse": "neutral",
+"explication": "Hawkins et Neer tous deux positifs : LR 1,6 (IC 0,87–2,8)",
+"contexte_puce": "↔ Hawkins et Neer tous deux positifs : LR 1,6 (IC 0,87–2,8) ; ↓ tous deux négatifs : LR 0,43.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+1
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-12",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Anamnèse",
+"enonce": "Tous deux négatifs",
+"reponse": "decrease",
+"explication": "Tous deux négatifs : LR 0,43.",
+"contexte_puce": "↔ Hawkins et Neer tous deux positifs : LR 1,6 (IC 0,87–2,8) ; ↓ tous deux négatifs : LR 0,43.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+1
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-13",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Anamnèse",
+"enonce": "Hawkins + arc douloureux + faiblesse de l'infra-épineux",
+"reponse": "increase",
+"explication": "Hawkins + arc douloureux + faiblesse de l'infra-épineux : probabilité post-test de 95 % (Park 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+4
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Chiffres classiques non confirmés. Les valeurs suivantes n'ont pas été retrouvées dans les textes consultés : LR individuels de Park 2005, prévalence de capsulite chez le diabétique de Zreik 2016 (13,4 %), test de la coracoïde de Carbone 2010 (Se 96 %, Sp 87 à 89 %), test de distension de Noboa 2015, méta-analyse de Krill 2018, SLAP asymptomatique de Schwartzberg 2016 (55 à 72 %), signe de Hennequin et Dutch Shoulder Rule."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-034-14",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 34,
+"nom": "Douleur sous-acromiale (tendinopathie de la coiffe)"
+},
+"type": "Examen physique",
+"enonce": "Douleur à l'abduction passive",
+"reponse": "neutral",
+"explication": "Douleur à l'abduction passive : LR+ 0,82 (Hermans 2013).",
+"donnee": {
+"lr_positif": 0.82,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 34"
+},
+{
+"id": "MSK-038-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe du retard en rotation externe (lag sign)",
+"reponse": "increase",
+"explication": "Signe du retard en rotation externe (lag sign) : LR+ 7,2",
+"contexte_puce": "↑ Signe du retard en rotation externe (lag sign) : LR+ 7,2 ; ↔ négatif : LR− 0,57 (Hermans 2013, étude unique, n = 37).",
+"donnee": {
+"lr_positif": 7.2,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe du retard en rotation externe (lag sign) : négatif",
+"reponse": "neutral",
+"explication": "Négatif : LR− 0,57 (Hermans 2013, étude unique, n = 37).",
+"contexte_puce": "↑ Signe du retard en rotation externe (lag sign) : LR+ 7,2 ; ↔ négatif : LR− 0,57 (Hermans 2013, étude unique, n = 37).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.57,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-038-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Examen physique",
+"enonce": "Retard en rotation interne (sous-scapulaire)",
+"reponse": "increase",
+"explication": "Retard en rotation interne (sous-scapulaire) : LR+ 5,6",
+"contexte_puce": "↑ Retard en rotation interne (sous-scapulaire) : LR+ 5,6 ; ↓ négatif : LR− 0,04, IC très large (Hermans 2013).",
+"donnee": {
+"lr_positif": 5.6,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Examen physique",
+"enonce": "Retard en rotation interne (sous-scapulaire) : négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,04, IC très large (Hermans 2013).",
+"contexte_puce": "↑ Retard en rotation interne (sous-scapulaire) : LR+ 5,6 ; ↓ négatif : LR− 0,04, IC très large (Hermans 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.04,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+1
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-038-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Anamnèse",
+"enonce": "Drop sign (retard à 90°)",
+"reponse": "increase",
+"explication": "Drop sign (retard à 90°) : Sp 0,99, LR+ 6,91",
+"contexte_puce": "↑ Drop sign (retard à 90°) : Sp 0,99, LR+ 6,91 ; ↔ négatif : LR− 0,88 (Zhao 2024).",
+"donnee": {
+"lr_positif": 6.91,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "0,99",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+3
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Anamnèse",
+"enonce": "Drop sign (retard à 90°) : négatif",
+"reponse": "neutral",
+"explication": "Négatif : LR− 0,88 (Zhao 2024).",
+"contexte_puce": "↑ Drop sign (retard à 90°) : Sp 0,99, LR+ 6,91 ; ↔ négatif : LR− 0,88 (Zhao 2024).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.88,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+3
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-038-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge ≥ 65 ans",
+"reponse": "increase",
+"explication": "Âge ≥ 65 ans : OR ajusté 4,05 (Litaker 2000, n = 448).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Litaker 2000. La cible était toute rupture, partielle ou complète, avec une prévalence de 67,2 %. à 69), dans le même format ?"
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Examen physique",
+"enonce": "Faiblesse en rotation externe",
+"reponse": "increase",
+"explication": "Faiblesse en rotation externe : OR 6,96 ; LR+ 1,78 et LR− 0,42 calculés (Litaker 2000).",
+"force": "faible",
+"donnee": {
+"lr_positif": 1.78,
+"lr_negatif": 0.42,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 6.96,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Litaker 2000. La cible était toute rupture, partielle ou complète, avec une prévalence de 67,2 %. à 69), dans le même format ?"
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Anamnèse",
+"enonce": "Douleur nocturne",
+"reponse": "neutral",
+"explication": "Douleur nocturne : Se 87,7 %, Sp 19,7 %, LR+ 1,09 calculé ; antécédent de traumatisme : LR+ 1,33 calculé (Litaker 2000).",
+"donnee": {
+"lr_positif": 1.09,
+"lr_negatif": null,
+"sensibilite": "87,7 %",
+"specificite": "19,7 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+5
+],
+"difficulte": 3,
+"statut": "en_revision",
+"mises_en_garde": [
+"Litaker 2000. La cible était toute rupture, partielle ou complète, avec une prévalence de 67,2 %. à 69), dans le même format ?"
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Tests spécifiques",
+"enonce": "Arc douloureux ou signe de conflit positif",
+"reponse": "neutral",
+"explication": "Arc douloureux ou signe de conflit positif : LR+ 1,07 à 1,08",
+"contexte_puce": "↔ Arc douloureux ou signe de conflit positif : LR+ 1,07 à 1,08 ; ↓ absent : LR− 0,25 à 0,31, calculés (Litaker 2000).",
+"donnee": {
+"lr_positif": 1.07,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+5
+],
+"difficulte": 3,
+"statut": "en_revision",
+"mises_en_garde": [
+"Litaker 2000. La cible était toute rupture, partielle ou complète, avec une prévalence de 67,2 %. à 69), dans le même format ?"
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Tests spécifiques",
+"enonce": "Arc douloureux ou signe de conflit absent",
+"reponse": "decrease",
+"explication": "Absent : LR− 0,25 à 0,31, calculés (Litaker 2000).",
+"contexte_puce": "↔ Arc douloureux ou signe de conflit positif : LR+ 1,07 à 1,08 ; ↓ absent : LR− 0,25 à 0,31, calculés (Litaker 2000).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.25,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Litaker 2000. La cible était toute rupture, partielle ou complète, avec une prévalence de 67,2 %. à 69), dans le même format ?"
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-038-12",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Facteurs démographiques",
+"enonce": "Score de Litaker 4–5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne)",
+"reponse": "increase",
+"explication": "Score de Litaker 4–5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne) : LR 9,84 en dérivation, 4,99 en validation",
+"contexte_puce": "↑ Score de Litaker 4–5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne) : LR 9,84 en dérivation, 4,99 en validation ; ↓ score 0–1 : LR 0,23.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-13",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Facteurs démographiques",
+"enonce": "Score de Litaker 4–5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne) (score 0–1)",
+"reponse": "decrease",
+"explication": "Score 0–1 : LR 0,23.",
+"contexte_puce": "↑ Score de Litaker 4–5 (faiblesse en rotation externe, âge ≥ 65 ans, douleur nocturne) : LR 9,84 en dérivation, 4,99 en validation ; ↓ score 0–1 : LR 0,23.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-038-14",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Examen physique",
+"enonce": "Faiblesse du supra-épineux + faiblesse en rotation externe + conflit",
+"reponse": "increase",
+"explication": "Faiblesse du supra-épineux + faiblesse en rotation externe + conflit : probabilité de 98 % (Murrell et Walton 2001, n = 400).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+6
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-038-15",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 38,
+"nom": "Rupture transfixiante de la coiffe"
+},
+"type": "Imagerie",
+"enonce": "Rupture à l'imagerie, isolément",
+"reponse": "neutral",
+"explication": "Rupture à l'imagerie, isolément : 13 % des asymptomatiques à 50–59 ans et 51 % après 80 ans (Tempelhof 1999) ; 14,6 % des épaules symptomatiques contre 6,5 %, différence ajustée de 0,8 % (FIMAGE 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+7,
+8
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 38"
+},
+{
+"id": "MSK-041-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge de 30 à 60 ans",
+"reponse": "increase",
+"explication": "Âge de 30 à 60 ans : OR 8,0 (Louwerens 2015, n = 1 219).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 8.0,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+9
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-041-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : OR 1,5 (Louwerens 2015).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.5,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+9
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-041-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Anamnèse",
+"enonce": "Douleur sous-acromiale présente",
+"reponse": "increase",
+"explication": "Douleur sous-acromiale présente : dépôts chez 42,5 % contre 7,8 % des asymptomatiques, OR 7,1 (Louwerens 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 7.1,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+9
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-041-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Anamnèse",
+"enonce": "Calcification fortuite",
+"reponse": "neutral",
+"explication": "Calcification fortuite : 67 % des épaules calcifiées sont asymptomatiques (Sansone 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+10
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-041-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Facteurs de risque",
+"enonce": "Diabète",
+"reponse": "increase",
+"explication": "Diabète : 31,8 % contre 10,3 % (Mavrikakis 1989) ; rapport de risque 1,28 (Su 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+11,
+12
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-041-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Anamnèse",
+"enonce": "(incertain) Trouble endocrinien",
+"reponse": "increase",
+"explication": "(incertain) Trouble endocrinien : 64,7 % des patients, série sans groupe témoin (Harvie 2007, n = 102).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+13
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-041-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Évolution temporelle",
+"enonce": "Douleur aiguë, sévère et constante d'environ 2 semaines",
+"reponse": "increase",
+"explication": "Douleur aiguë, sévère et constante d'environ 2 semaines : phase de résorption, parfois avec fièvre ; descriptif (Speed 1999).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+14
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-041-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 41,
+"nom": "Tendinopathie calcifiante"
+},
+"type": "Facteurs de risque",
+"enonce": "Diabète ou dysthyroïdie dans la crise aiguë",
+"reponse": "neutral",
+"explication": "Diabète ou dysthyroïdie dans la crise aiguë : 10,7 % et 2,1 %, comme dans la population (Furuhata 2020).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+15
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 41"
+},
+{
+"id": "MSK-044-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Speed",
+"reponse": "neutral",
+"explication": "Test de Speed : LR+ 1,28, LR− 0,91 (Holtby 2004).",
+"donnee": {
+"lr_positif": 1.28,
+"lr_negatif": 0.91,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+16
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-044-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Yergason",
+"reponse": "increase",
+"explication": "Test de Yergason : LR+ 2,05, LR− 0,72 (Holtby 2004) ; LR+ 2,56 en revue (Bélanger 2019).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.05,
+"lr_negatif": 0.72,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+16,
+17
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-044-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité de la gouttière bicipitale",
+"reponse": "neutral",
+"explication": "Sensibilité de la gouttière bicipitale : Se 53 %, Sp 54 %, LR+ 1,13 (Gill 2007).",
+"donnee": {
+"lr_positif": 1.13,
+"lr_negatif": null,
+"sensibilite": "53 %",
+"specificite": "54 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+18
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-044-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Anamnèse",
+"enonce": "Speed et gouttière tous deux positifs",
+"reponse": "neutral",
+"explication": "Speed et gouttière tous deux positifs : LR 1,31 (Gill 2007).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+18
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-044-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Upper cut test",
+"reponse": "increase",
+"explication": "Upper cut test : LR+ 3,38 (Kibler 2009, n = 101)",
+"contexte_puce": "↑ Upper cut test : LR+ 3,38 (Kibler 2009, n = 101) ; ↓ négatif : LR− 0,26 (Cardoso 2019).",
+"donnee": {
+"lr_positif": 3.38,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+19,
+20
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-044-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Upper cut test négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,26 (Cardoso 2019).",
+"contexte_puce": "↑ Upper cut test : LR+ 3,38 (Kibler 2009, n = 101) ; ↓ négatif : LR− 0,26 (Cardoso 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.26,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+19,
+20
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-044-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Anamnèse",
+"enonce": "Pathologie de la coiffe associée",
+"reponse": "increase",
+"explication": "Pathologie de la coiffe associée : OR 6,9 (Canavan 2025, n = 406).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 6.9,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+21
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-044-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge",
+"reponse": "increase",
+"explication": "Âge : OR 1,2 par année (Cardoso 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.2,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+20
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-044-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 44,
+"nom": "Tendinopathie ou rupture du long biceps"
+},
+"type": "Anamnèse",
+"enonce": "Échographie, luxation ou rupture complète",
+"reponse": "increase",
+"explication": "Échographie, luxation ou rupture complète : LR+ 38,0 et 35,5 ; LR− 0,24 et 0,30 (Bélanger 2019).",
+"donnee": {
+"lr_positif": 38.0,
+"lr_negatif": 0.24,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+17
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 44"
+},
+{
+"id": "MSK-035-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+"type": "Réponse aux traitements",
+"enonce": "Travail mains au-dessus des épaules",
+"reponse": "increase",
+"explication": "Travail mains au-dessus des épaules : OR 1,1 à 1,8 (Mayer 2012) ; rapport de prévalence 2,2 (Pope 2001).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.1,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+26,
+27
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 35"
+},
+{
+"id": "MSK-035-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+"type": "Examen physique",
+"enonce": "Abduction de 60 à 90° au moins 2 h par jour",
+"reponse": "increase",
+"explication": "Abduction de 60 à 90° au moins 2 h par jour : OR 1,6 (Bodin 2012).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.6,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+28
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 35"
+},
+{
+"id": "MSK-035-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+"type": "Facteurs de risque",
+"enonce": "Travail répétitif",
+"reponse": "increase",
+"explication": "Travail répétitif : douleur cervico-scapulaire avec sensibilité musculaire chez 7,0 % contre 3,8 % (Andersen 2002, n = 3 123).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+29
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 35"
+},
+{
+"id": "MSK-035-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : rapport de prévalence 1,8 (Andersen 2002).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+29
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 35"
+},
+{
+"id": "MSK-035-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+"type": "Anamnèse",
+"enonce": "Au moins 3 facteurs professionnels ou psychosociaux",
+"reponse": "increase",
+"explication": "Au moins 3 facteurs professionnels ou psychosociaux : 79 % de douleur contre 16 % sans facteur (Pope 2001).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+27
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 35"
+},
+{
+"id": "MSK-035-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+"type": "Anamnèse",
+"enonce": "Facteurs psychosociaux isolés",
+"reponse": "neutral",
+"explication": "Facteurs psychosociaux isolés : OR 1,3 à 4,0, résultats inconstants (van der Windt 2000).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.3,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+30
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 35"
+},
+{
+"id": "MSK-035-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 35,
+"nom": "Myalgie ou douleur non spécifique"
+},
+"type": "Anamnèse",
+"enonce": "Étiquette diagnostique",
+"reponse": "neutral",
+"explication": "Étiquette diagnostique : accord inter-observateurs κ 0,45 (de Winter 1999, n = 201).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+31
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 35"
+},
+{
+"id": "MSK-039-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Facteurs de risque",
+"enonce": "Sportif de lancer ou de bras levé",
+"reponse": "increase",
+"explication": "Sportif de lancer ou de bras levé : 54,5 % contre 33,3 % (Burn 2016, chiffre de seconde main).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+32
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-039-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Anamnèse",
+"enonce": "Présence chez l'asymptomatique",
+"reponse": "neutral",
+"explication": "Présence chez l'asymptomatique : 46 à 53 % des sportifs asymptomatiques et 68 % d'étudiants sains.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+32,
+33
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-039-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Anamnèse",
+"enonce": "Dyskinésie évidente et symptômes",
+"reponse": "neutral",
+"explication": "Dyskinésie évidente et symptômes : OR 0,79 (Tate 2009, n = 142).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.79,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+34
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-039-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Anamnèse",
+"enonce": "Risque de douleur future",
+"reponse": "neutral",
+"explication": "Risque de douleur future : risque relatif 1,43 (Hickey 2018), mais 1,07 non significatif (Hogan 2021).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+35,
+36
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-039-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Lateral scapular slide test",
+"reponse": "neutral",
+"explication": "Lateral scapular slide test : Se 28 à 50 %, Sp 48 à 58 % (Odom 2001) ; asymétrie ≥ 1,5 cm chez 52 sportifs asymptomatiques sur 71 (Koslow 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "28 à 50 %",
+"specificite": "48 à 58 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+37,
+38
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-039-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'assistance scapulaire",
+"reponse": "neutral",
+"explication": "Test d'assistance scapulaire : positivité identique avec ou sans dyskinésie, p = 0,83 (n = 70).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+39
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-039-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Anamnèse",
+"enonce": "Asymétrie dans plusieurs plans",
+"reponse": "increase",
+"explication": "Asymétrie dans plusieurs plans : 54 % des symptomatiques contre 14 % (Uhl 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+40
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-039-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 39,
+"nom": "Dyskinésie scapulaire"
+},
+"type": "Examen physique",
+"enonce": "Décollement médial accentué par la flexion ou l'appui au mur",
+"reponse": "increase",
+"explication": "Décollement médial accentué par la flexion ou l'appui au mur : paralysie du nerf long thoracique, en cause dans 88 % des dysfonctions du dentelé antérieur (Ng 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+41,
+42
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 39"
+},
+{
+"id": "MSK-045-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Tests spécifiques",
+"enonce": "Arm squeeze test positif",
+"reponse": "increase",
+"explication": "Arm squeeze test positif : 96,7 % des compressions radiculaires contre 3,87 % des ruptures de coiffe (Gumina 2013) ; Se 0,97, Sp 0,97, certitude très faible (Thoomes 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "0,97",
+"specificite": "0,97",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+44,
+45
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-045-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Facteurs de risque",
+"enonce": "Centralisation et antécédent de cervicalgie",
+"reponse": "increase",
+"explication": "Centralisation et antécédent de cervicalgie : associés à une contribution cervicale, p = 0,002 et 0,007 (Roldán-Ruiz 2024, n = 60).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+46
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-045-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Anamnèse",
+"enonce": "Absence de paresthésies",
+"reponse": "decrease",
+"explication": "Absence de paresthésies : elles sont présentes dans 89,7 à 91 % des radiculopathies, mais le LR− reste > 0,2.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+47,
+48,
+49
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-045-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Examen physique",
+"enonce": "Mobilité passive de l'épaule normale et indolore",
+"reponse": "increase",
+"explication": "Mobilité passive de l'épaule normale et indolore : qualitatif, sans LR.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+50,
+47
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-045-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Examen physique",
+"enonce": "Douleur à la mobilisation passive, douleur nocturne, douleur bras levé",
+"reponse": "decrease",
+"explication": "Douleur à la mobilisation passive, douleur nocturne, douleur bras levé : orientent vers la coiffe ; qualitatif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+47
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-045-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Anamnèse",
+"enonce": "Douleur scapulaire précédant la douleur du bras",
+"reponse": "increase",
+"explication": "Douleur scapulaire précédant la douleur du bras : 70 % des radiculopathies opérées (Tanaka 2006, n = 50).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+51
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-045-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Tests spécifiques",
+"enonce": "Test sensitif dermatomal",
+"reponse": "neutral",
+"explication": "Test sensitif dermatomal : C5 LR+ 2,1 et LR− 0,82 ; C6 à C8 LR+ 0,61 à 0,76.",
+"donnee": {
+"lr_positif": 2.1,
+"lr_negatif": 0.82,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+52
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-045-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 45,
+"nom": "Douleur projetée d'origine cervicale (épaule)"
+},
+"type": "Imagerie",
+"enonce": "Sténose foraminale C5–C6 à l'imagerie",
+"reponse": "neutral",
+"explication": "Sténose foraminale C5–C6 à l'imagerie : sans lien avec une rupture de coiffe (Wu 2018, n = 126).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+53
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 45"
+},
+{
+"id": "MSK-036-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Facteurs de risque",
+"enonce": "Diabète",
+"reponse": "increase",
+"explication": "Diabète : OR 3,69 (Dyer 2023) ; rapport de risque 4,38 en cohorte (Dyer 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.69,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+57,
+58
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Anamnèse",
+"enonce": "Hypothyroïdie",
+"reponse": "increase",
+"explication": "Hypothyroïdie : OR 1,92",
+"contexte_puce": "↑ Hypothyroïdie : OR 1,92 ; ↔ hyperthyroïdie : OR 1,42, non significatif (Chuang 2023).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.92,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+59
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Anamnèse",
+"enonce": "Hypothyroïdie (hyperthyroïdie)",
+"reponse": "neutral",
+"explication": "Hyperthyroïdie : OR 1,42, non significatif (Chuang 2023).",
+"contexte_puce": "↑ Hypothyroïdie : OR 1,92 ; ↔ hyperthyroïdie : OR 1,42, non significatif (Chuang 2023).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.42,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+59
+],
+"difficulte": 3,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-036-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : rapport de risque 1,40 (White 2011).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+60
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge de 40 à 65 ans",
+"reponse": "increase",
+"explication": "Âge de 40 à 65 ans : incidence croissante dès 40 ans, pic vers 60 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+60,
+61
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Anamnèse",
+"enonce": "Maladie de Dupuytren",
+"reponse": "increase",
+"explication": "Maladie de Dupuytren : 52 % des patients, soit 8,27 fois le taux attendu (Smith 2001, n = 58).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+62
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Anamnèse",
+"enonce": "Capsulite controlatérale antérieure",
+"reponse": "increase",
+"explication": "Capsulite controlatérale antérieure : l'autre épaule est atteinte dans 6 à 30 % des cas selon les sources.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+61,
+63
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Examen physique",
+"enonce": "Douleur en rotation externe coude au corps, sans traumatisme",
+"reponse": "increase",
+"explication": "Douleur en rotation externe coude au corps, sans traumatisme : 75 % de capsulites ; l'arthrose gléno-humérale est l'autre cause (Wolf 2010).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+64
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Anamnèse",
+"enonce": "Perte globale active et passive avec radiographie normale",
+"reponse": "increase",
+"explication": "Perte globale active et passive avec radiographie normale : valeur prédictive positive de 82 % (James-Belin 2020, n = 38).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+65
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Anamnèse",
+"enonce": "Shrug sign absent",
+"reponse": "decrease",
+"explication": "Shrug sign absent : présent dans 94,7 % des capsulites contre 51,3 % de l'ensemble (Jia 2008, n = 982).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+66
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-036-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 36,
+"nom": "Capsulite adhésive"
+},
+"type": "Anamnèse",
+"enonce": "Arthrose gléno-humérale à la radiographie",
+"reponse": "decrease",
+"explication": "Arthrose gléno-humérale à la radiographie : principal diagnostic différentiel de la raideur capsulaire.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+64,
+67
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 36"
+},
+{
+"id": "MSK-040-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge < 50 ans",
+"reponse": "decrease",
+"explication": "Âge < 50 ans : moins de 5 % des diagnostics",
+"contexte_puce": "↓ Âge < 50 ans : moins de 5 % des diagnostics ; ↑ après 70 ans : environ 30 % (Juel 2014, n = 766).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+68
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Après 70 ans",
+"reponse": "increase",
+"explication": "Après 70 ans : environ 30 % (Juel 2014, n = 766).",
+"contexte_puce": "↓ Âge < 50 ans : moins de 5 % des diagnostics ; ↑ après 70 ans : environ 30 % (Juel 2014, n = 766).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+68
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent de luxation",
+"reponse": "increase",
+"explication": "Antécédent de luxation : OR 19,3 (Marx 2002, cas-témoins).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 19.3,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+69
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Luxation antérieure, suivi de 25 ans",
+"reponse": "increase",
+"explication": "Luxation antérieure, suivi de 25 ans : arthropathie modérée ou sévère chez 18 % sans récidive et 39 % avec récidive (Hovelius 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+70
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Anamnèse",
+"enonce": "Stabilisation arthroscopique antérieure",
+"reponse": "increase",
+"explication": "Stabilisation arthroscopique antérieure : arthrose chez 69 % à 13 ans (Plath 2015, n = 100).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+71
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Examen physique",
+"enonce": "Flexion passive < 120°",
+"reponse": "increase",
+"explication": "Flexion passive < 120° : LR+ 6,87, LR− 0,54 (Glover 2026, n = 62).",
+"donnee": {
+"lr_positif": 6.87,
+"lr_negatif": 0.54,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+72
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Examen physique",
+"enonce": "(incertain) Rotation externe passive < 30°",
+"reponse": "increase",
+"explication": "(incertain) Rotation externe passive < 30° : LR+ 3,30 (IC 0,66–13,06), LR− 0,77 (Glover 2026).",
+"donnee": {
+"lr_positif": 3.3,
+"lr_negatif": 0.77,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+72
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Examen physique",
+"enonce": "Rotation interne active sous T12",
+"reponse": "neutral",
+"explication": "Rotation interne active sous T12 : LR+ 1,67, LR− 0,52, IC incluant 1 (Glover 2026).",
+"donnee": {
+"lr_positif": 1.67,
+"lr_negatif": 0.52,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+72
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin, obésité",
+"reponse": "neutral",
+"explication": "Sexe féminin, obésité : non indépendants (APTA 2023).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+73
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-040-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 40,
+"nom": "Arthrose gléno-humérale"
+},
+"type": "Imagerie",
+"enonce": "Arthrose à l'imagerie chez l'asymptomatique",
+"reponse": "neutral",
+"explication": "Arthrose à l'imagerie chez l'asymptomatique : 15 à 75 % (SCRUTINY 2024).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+74
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 40"
+},
+{
+"id": "MSK-037-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+"type": "Anamnèse",
+"enonce": "Chute directe sur le moignon de l'épaule, bras en adduction",
+"reponse": "increase",
+"explication": "Chute directe sur le moignon de l'épaule, bras en adduction : mécanisme principal, sans chiffre.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+77,
+78
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 37"
+},
+{
+"id": "MSK-037-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "increase",
+"explication": "Sexe masculin : ratio d'incidence 2,18 (Pallis 2012) ; ratio hommes-femmes 8,5 pour 1 (Chillemi 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+79,
+78
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 37"
+},
+{
+"id": "MSK-037-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+"type": "Facteurs de risque",
+"enonce": "Contexte sportif",
+"reponse": "increase",
+"explication": "Contexte sportif : 53 % des lésions acromio-claviculaires contre 27 % des autres lésions, OR 3,1 (Skjaker 2021, n = 287).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.1,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+76
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 37"
+},
+{
+"id": "MSK-037-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+"type": "Facteurs de risque",
+"enonce": "Sport de contact",
+"reponse": "increase",
+"explication": "Sport de contact : 91 % des lésions surviennent au sport ; 89 % sont de grade I ou II (Pallis 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+79
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 37"
+},
+{
+"id": "MSK-037-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge de 10 à 30 ans",
+"reponse": "increase",
+"explication": "Âge de 10 à 30 ans : plus de 50 % des cas (Chillemi 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+80
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 37"
+},
+{
+"id": "MSK-037-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+"type": "Anamnèse",
+"enonce": "Marche d'escalier, touche de piano",
+"reponse": "increase",
+"explication": "Marche d'escalier, touche de piano : types III à V ; aucune Se ni Sp publiée.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+81
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 37"
+},
+{
+"id": "MSK-037-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 37,
+"nom": "Entorse ou disjonction acromio-claviculaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Tests acromio-claviculaires (adduction horizontale, O'Brien)",
+"reponse": "neutral",
+"explication": "Tests acromio-claviculaires (adduction horizontale, O'Brien) : validés seulement dans les lésions chroniques (Chronopoulos 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+82
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 37"
+},
+{
+"id": "MSK-043-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Adduction horizontale (cross-body)",
+"reponse": "increase",
+"explication": "Adduction horizontale (cross-body) : Se 77 %, Sp 79 %, LR+ 3,67 et LR− 0,29 calculés (Chronopoulos 2004).",
+"donnee": {
+"lr_positif": 3.67,
+"lr_negatif": 0.29,
+"sensibilite": "77 %",
+"specificite": "79 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+83
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Examen physique",
+"enonce": "Extension résistée",
+"reponse": "increase",
+"explication": "Extension résistée : Se 72 %, Sp 85 %, LR+ 4,8 et LR− 0,33 calculés.",
+"donnee": {
+"lr_positif": 4.8,
+"lr_negatif": 0.33,
+"sensibilite": "72 %",
+"specificite": "85 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+83
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "O'Brien",
+"reponse": "increase",
+"explication": "O'Brien : Se 41 %, Sp 95 %, LR+ 8,2",
+"contexte_puce": "↑ O'Brien : Se 41 %, Sp 95 %, LR+ 8,2 ; ↔ négatif : LR− 0,62, calculés.",
+"donnee": {
+"lr_positif": 8.2,
+"lr_negatif": null,
+"sensibilite": "41 %",
+"specificite": "95 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+83
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Tests spécifiques",
+"enonce": "O'Brien négatif",
+"reponse": "neutral",
+"explication": "Négatif : LR− 0,62, calculés.",
+"contexte_puce": "↑ O'Brien : Se 41 %, Sp 95 %, LR+ 8,2 ; ↔ négatif : LR− 0,62, calculés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.62,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+83
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-043-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Neer, arc douloureux",
+"reponse": "neutral",
+"explication": "Neer, arc douloureux : LR+ 0,97 et 0,94 calculés.",
+"donnee": {
+"lr_positif": 0.97,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+83
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Paxinos et scintigraphie négatifs",
+"reponse": "decrease",
+"explication": "Paxinos et scintigraphie négatifs : LR 0,03 ; sensibilité de la palpation 96 % (Walton 2004, n = 38).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+84
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Tests spécifiques",
+"enonce": "Tests traditionnels en soins primaires",
+"reponse": "neutral",
+"explication": "Tests traditionnels en soins primaires : aire sous la courbe 0,507",
+"contexte_puce": "↔ Tests traditionnels en soins primaires : aire sous la courbe 0,507 ; ↓ moins de 2 critères sur 5 : LR− 0,09 (Cadogan 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+85
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Tests spécifiques",
+"enonce": "Moins de 2 critères sur 5",
+"reponse": "decrease",
+"explication": "Moins de 2 critères sur 5 : LR− 0,09 (Cadogan 2013).",
+"contexte_puce": "↔ Tests traditionnels en soins primaires : aire sous la courbe 0,507 ; ↓ moins de 2 critères sur 5 : LR− 0,09 (Cadogan 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.09,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+85
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Imagerie",
+"enonce": "Arthrose acromio-claviculaire à l'IRM",
+"reponse": "neutral",
+"explication": "Arthrose acromio-claviculaire à l'IRM : 82 % des épaules asymptomatiques (Shubin Stein 2001).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+86
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Imagerie",
+"enonce": "Œdème osseux à l'IRM",
+"reponse": "increase",
+"explication": "Œdème osseux à l'IRM : 80 % des symptomatiques contre 0 % (Shubin Stein 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+87
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Ostéolyse, développé couché intensif (> 1,5 fois le poids)",
+"reponse": "increase",
+"explication": "Ostéolyse, développé couché intensif (> 1,5 fois le poids) : OR 19",
+"contexte_puce": "↑ Ostéolyse, développé couché intensif (> 1,5 fois le poids) : OR 19 ; ↓ faible intensité : OR 0,6 (Nevalainen 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 19.0,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+88
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-043-12",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Faible intensité",
+"reponse": "decrease",
+"explication": "Faible intensité : OR 0,6 (Nevalainen 2016).",
+"contexte_puce": "↑ Ostéolyse, développé couché intensif (> 1,5 fois le poids) : OR 19 ; ↓ faible intensité : OR 0,6 (Nevalainen 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.6,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+88
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-043-13",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 43,
+"nom": "Arthrose acromio-claviculaire ou ostéolyse distale de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Ostéolyse, haltérophile",
+"reponse": "increase",
+"explication": "Ostéolyse, haltérophile : 28 % contre 0 % des témoins (Scavenius 1992).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+89
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 43"
+},
+{
+"id": "MSK-042-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'appréhension, critère appréhension",
+"reponse": "increase",
+"explication": "Test d'appréhension, critère appréhension : LR+ 20,2 ; LR− 0,29 calculé (Farber 2006, n = 363).",
+"donnee": {
+"lr_positif": 20.2,
+"lr_negatif": 0.29,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+90
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'appréhension, critère douleur",
+"reponse": "neutral",
+"explication": "Test d'appréhension, critère douleur : LR 1,1 (Farber 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+91
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Réponse aux traitements",
+"enonce": "Relocation, appréhension soulagée",
+"reponse": "increase",
+"explication": "Relocation, appréhension soulagée : LR+ 10,4 (Farber 2006)",
+"contexte_puce": "↑ Relocation, appréhension soulagée : LR+ 10,4 (Farber 2006) ; ↔ critère douleur : LR+ 1,00 calculé (Lo 2004).",
+"donnee": {
+"lr_positif": 10.4,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+90,
+92
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Tests spécifiques",
+"enonce": "Critère douleur",
+"reponse": "neutral",
+"explication": "Critère douleur : LR+ 1,00 calculé (Lo 2004).",
+"contexte_puce": "↑ Relocation, appréhension soulagée : LR+ 10,4 (Farber 2006) ; ↔ critère douleur : LR+ 1,00 calculé (Lo 2004).",
+"donnee": {
+"lr_positif": 1.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+90,
+92
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-042-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de surprise (release)",
+"reponse": "increase",
+"explication": "Test de surprise (release) : LR+ 8,3",
+"contexte_puce": "↑ Test de surprise (release) : LR+ 8,3 ; ↓ négatif : LR− 0,09 (Luime 2004, JAMA).",
+"donnee": {
+"lr_positif": 8.3,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+93
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de surprise (release) : négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,09 (Luime 2004, JAMA).",
+"contexte_puce": "↑ Test de surprise (release) : LR+ 8,3 ; ↓ négatif : LR− 0,09 (Luime 2004, JAMA).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.09,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+93
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-042-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Anamnèse",
+"enonce": "Tiroir antérieur",
+"reponse": "increase",
+"explication": "Tiroir antérieur : LR+ 3,6",
+"contexte_puce": "↑ (faible) Tiroir antérieur : LR+ 3,6 ; ↔ négatif : LR− 0,55 calculé (Farber 2006).",
+"force": "faible",
+"donnee": {
+"lr_positif": 3.6,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+90
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Anamnèse",
+"enonce": "Tiroir antérieur négatif",
+"reponse": "neutral",
+"explication": "Négatif : LR− 0,55 calculé (Farber 2006).",
+"contexte_puce": "↑ (faible) Tiroir antérieur : LR+ 3,6 ; ↔ négatif : LR− 0,55 calculé (Farber 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.55,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+90
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-042-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Anamnèse",
+"enonce": "Sulcus et load-and-shift chez le patient éveillé",
+"reponse": "neutral",
+"explication": "Sulcus et load-and-shift chez le patient éveillé : ne confirment ni n'excluent (Luime 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+93
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Facteurs démographiques",
+"enonce": "Récidive, âge ≤ 40 ans",
+"reponse": "increase",
+"explication": "Récidive, âge ≤ 40 ans : OR 13,46 ; sexe masculin : OR 3,18 ; hyperlaxité : OR 2,68 (Olds 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 13.46,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+94
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Évolution temporelle",
+"enonce": "Récidive, fracture du tubercule majeur",
+"reponse": "decrease",
+"explication": "Récidive, fracture du tubercule majeur : OR 0,13 (Olds 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.13,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+94
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-042-12",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 42,
+"nom": "Luxation ou instabilité antérieure"
+},
+"type": "Facteurs démographiques",
+"enonce": "Récidive chez l'adolescent",
+"reponse": "neutral",
+"explication": "Récidive chez l'adolescent : ni l'âge ni le sexe ne prédisent, récidive de 76,7 % (Roberts 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+95
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 42"
+},
+{
+"id": "MSK-046-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Anamnèse",
+"enonce": "O'Brien",
+"reponse": "neutral",
+"explication": "O'Brien : Se 100 %, Sp 98 % à l'origine ; Se 62,6 %, Sp 54,4 % (Dean 2023) et LR 1,03 / 0,94 (Gismervik 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+100,
+101,
+99
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Tests spécifiques",
+"enonce": "Crank test",
+"reponse": "neutral",
+"explication": "Crank test : Se 91 %, Sp 93 % à l'origine (Liu 1996) ; LR 1,64 / 0,75 en méta-analyse.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "91 %",
+"specificite": "93 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+99,
+102
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Speed",
+"reponse": "neutral",
+"explication": "Test de Speed : Se 30,7 %, Sp 65,7 %, LR+ 0,90 calculé (Dean 2023).",
+"donnee": {
+"lr_positif": 0.9,
+"lr_negatif": null,
+"sensibilite": "30,7 %",
+"specificite": "65,7 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+101
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité de la gouttière bicipitale",
+"reponse": "neutral",
+"explication": "Sensibilité de la gouttière bicipitale : LR 1,00 / 1,00 (Gismervik 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+99
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Anamnèse",
+"enonce": "Biceps load II",
+"reponse": "increase",
+"explication": "Biceps load II : Se 89,7 %, Sp 96,9 % à l'origine (Kim 2001) ; LR+ 1,7, LR− 0,39 en étude indépendante (Cook 2012).",
+"force": "faible",
+"donnee": {
+"lr_positif": 1.7,
+"lr_negatif": 0.39,
+"sensibilite": "89,7 %",
+"specificite": "96,9 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+103,
+104
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Anamnèse",
+"enonce": "Dynamic labral shear",
+"reponse": "neutral",
+"explication": "Dynamic labral shear : LR+ 31,57 (Kibler 2009), puis LR+ 0,90 (Sodha 2017).",
+"discordant": true,
+"donnee": {
+"lr_positif": 31.57,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+19,
+105
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Anamnèse",
+"enonce": "Claquement ou accrochage",
+"reponse": "increase",
+"explication": "Claquement ou accrochage : Sp 0,73, LR+ 2,0",
+"contexte_puce": "↑ (faible) Claquement ou accrochage : Sp 0,73, LR+ 2,0 ; ↔ âge : non discriminant (Walsworth 2008).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "0,73",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+106
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Anamnèse",
+"enonce": "Claquement ou accrochage (âge)",
+"reponse": "neutral",
+"explication": "Âge : non discriminant (Walsworth 2008).",
+"contexte_puce": "↑ (faible) Claquement ou accrochage : Sp 0,73, LR+ 2,0 ; ↔ âge : non discriminant (Walsworth 2008).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+106
+],
+"difficulte": 3,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-046-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Imagerie",
+"enonce": "SLAP à l'IRM chez le lanceur asymptomatique",
+"reponse": "neutral",
+"explication": "SLAP à l'IRM chez le lanceur asymptomatique : 48 % de 21 lanceurs professionnels (Lesniak 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+107
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Imagerie",
+"enonce": "Arthro-IRM positive",
+"reponse": "increase",
+"explication": "Arthro-IRM positive : LR+ 10,28",
+"contexte_puce": "↑ Arthro-IRM positive : LR+ 10,28 ; ↓ négative : LR− 0,14 (Arirachakaran 2017).",
+"donnee": {
+"lr_positif": 10.28,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+108
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46"
+},
+{
+"id": "MSK-046-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 46,
+"nom": "Lésion SLAP"
+},
+"type": "Imagerie",
+"enonce": "Arthro-IRM négative",
+"reponse": "decrease",
+"explication": "Négative : LR− 0,14 (Arirachakaran 2017).",
+"contexte_puce": "↑ Arthro-IRM positive : LR+ 10,28 ; ↓ négative : LR− 0,14 (Arirachakaran 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.14,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+108
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 46",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-047-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Anamnèse",
+"enonce": "Crise convulsive",
+"reponse": "increase",
+"explication": "Crise convulsive : en cause dans 38 % des luxations postérieures (Kelly 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+110
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Anamnèse",
+"enonce": "Luxation après convulsion, direction",
+"reponse": "neutral",
+"explication": "Luxation après convulsion, direction : antérieure dans 58,6 % contre postérieure dans 35,7 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+111
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Kim",
+"reponse": "increase",
+"explication": "Test de Kim : Se 80 %, Sp 94 %, LR+ 13,3 et LR− 0,21 calculés (Kim 2005, n = 172, étude d'origine).",
+"donnee": {
+"lr_positif": 13.3,
+"lr_negatif": 0.21,
+"sensibilite": "80 %",
+"specificite": "94 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+112
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Tests spécifiques",
+"enonce": "Jerk test",
+"reponse": "increase",
+"explication": "Jerk test : Se 73 %, Sp 98 %, LR+ 36,5 calculé",
+"contexte_puce": "↑ Jerk test : Se 73 %, Sp 98 %, LR+ 36,5 calculé ; ↓ Kim et jerk négatifs : sensibilité combinée de 97 %.",
+"donnee": {
+"lr_positif": 36.5,
+"lr_negatif": null,
+"sensibilite": "73 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+112
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Anamnèse",
+"enonce": "Kim et jerk négatifs",
+"reponse": "decrease",
+"explication": "Kim et jerk négatifs : sensibilité combinée de 97 %.",
+"contexte_puce": "↑ Jerk test : Se 73 %, Sp 98 %, LR+ 36,5 calculé ; ↓ Kim et jerk négatifs : sensibilité combinée de 97 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+112
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Anamnèse",
+"enonce": "Sulcus ≥ 2 cm",
+"reponse": "increase",
+"explication": "Sulcus ≥ 2 cm : LR 9 pour l'instabilité multidirectionnelle (Tzannes 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+113
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Anamnèse",
+"enonce": "Sulcus de grade I",
+"reponse": "neutral",
+"explication": "Sulcus de grade I : 69 % d'épaules asymptomatiques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+91
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Examen physique",
+"enonce": "Hyperabduction de Gagey > 105°",
+"reponse": "neutral",
+"explication": "Hyperabduction de Gagey > 105° : Se 46 %, Sp 38 %, LR+ 0,74 calculé (van Spanning 2023).",
+"donnee": {
+"lr_positif": 0.74,
+"lr_negatif": null,
+"sensibilite": "46 %",
+"specificite": "38 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Tests spécifiques",
+"enonce": "Score de Beighton ≥ 2",
+"reponse": "increase",
+"explication": "Score de Beighton ≥ 2 : OR 2,48 (Cameron 2010)",
+"contexte_puce": "↑ (faible) Score de Beighton ≥ 2 : OR 2,48 (Cameron 2010) ; ↔ Beighton > 6 : 13 contre 9 sur 100 (Ranalletta 2012).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.48,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+115,
+116
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Anamnèse",
+"enonce": "Beighton > 6",
+"reponse": "neutral",
+"explication": "Beighton > 6 : 13 contre 9 sur 100 (Ranalletta 2012).",
+"contexte_puce": "↑ (faible) Score de Beighton ≥ 2 : OR 2,48 (Cameron 2010) ; ↔ Beighton > 6 : 13 contre 9 sur 100 (Ranalletta 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+115,
+116
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-047-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 47,
+"nom": "Instabilité postérieure ou multidirectionnelle"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie de face normale",
+"reponse": "neutral",
+"explication": "Radiographie de face normale : plus de 50 % manquées de face ; l'incidence axillaire a confirmé 41 cas sur 41.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+117,
+118
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 47"
+},
+{
+"id": "MSK-048-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge ≥ 60 ans",
+"reponse": "increase",
+"explication": "Âge ≥ 60 ans : incidence de 204 contre 82 pour 100 000 (Launonen 2015, cité).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+119
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : 2 à 3 fois plus fréquent.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+119
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Anamnèse",
+"enonce": "Chute de sa hauteur",
+"reponse": "increase",
+"explication": "Chute de sa hauteur : 87 % des cas (Court-Brown 2001, cité).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+119
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge < 50 ans",
+"reponse": "decrease",
+"explication": "Âge < 50 ans : 59 % d'hommes, mécanisme à haute énergie (Bergdahl 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+120
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Examen physique",
+"enonce": "Déformation",
+"reponse": "increase",
+"explication": "Déformation : 21 radiographies informatives sur 23",
+"contexte_puce": "↑ Déformation : 21 radiographies informatives sur 23 ; ↓ ni déformation ni chute : 0 sur 90 (Fraenkel 1998).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+121
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Examen physique",
+"enonce": "Ni déformation ni chute",
+"reponse": "decrease",
+"explication": "Ni déformation ni chute : 0 sur 90 (Fraenkel 1998).",
+"contexte_puce": "↑ Déformation : 21 radiographies informatives sur 23 ; ↓ ni déformation ni chute : 0 sur 90 (Fraenkel 1998).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+121
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Anamnèse",
+"enonce": "Ni chute ni tuméfaction",
+"reponse": "decrease",
+"explication": "Ni chute ni tuméfaction : radiographie non informative dans 99 % des cas (Fraenkel 2000).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+122
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Examen physique",
+"enonce": "Ecchymose humérale",
+"reponse": "increase",
+"explication": "Ecchymose humérale : LR+ 3,0 à 5,7",
+"contexte_puce": "↑ Ecchymose humérale : LR+ 3,0 à 5,7 ; ↔ absente : LR− 0,8 à 1,1, cohortes de luxations seulement (Oldrini 2023).",
+"donnee": {
+"lr_positif": 3.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+96
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-048-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Examen physique",
+"enonce": "Ecchymose humérale absente",
+"reponse": "neutral",
+"explication": "Absente : LR− 0,8 à 1,1, cohortes de luxations seulement (Oldrini 2023).",
+"contexte_puce": "↑ Ecchymose humérale : LR+ 3,0 à 5,7 ; ↔ absente : LR− 0,8 à 1,1, cohortes de luxations seulement (Oldrini 2023).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.8,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+96
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-048-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 48,
+"nom": "Fracture de l'humérus proximal"
+},
+"type": "Examen physique",
+"enonce": "Examen sensitif normal",
+"reponse": "neutral",
+"explication": "Examen sensitif normal : dénervation à l'EMG chez 67 %, nerf axillaire 58 % ; l'examen clinique n'est pas fiable.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+123,
+124
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 48"
+},
+{
+"id": "MSK-049-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "increase",
+"explication": "Sexe masculin : 68 % des cas (Postacchini 2002, n = 535).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+125
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Facteurs démographiques",
+"enonce": "Homme de 15 à 24 ans",
+"reponse": "increase",
+"explication": "Homme de 15 à 24 ans : 21 % de toutes les fractures ; après 65 ans, les femmes dominent (Kihlström 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+126
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Chute directe sur l'épaule",
+"reponse": "increase",
+"explication": "Chute directe sur l'épaule : environ 90 %",
+"contexte_puce": "↑ Chute directe sur l'épaule : environ 90 % ; ↓ chute sur la main tendue : 2 à 5 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+127
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Chute sur la main tendue",
+"reponse": "decrease",
+"explication": "Chute sur la main tendue : 2 à 5 %.",
+"contexte_puce": "↑ Chute directe sur l'épaule : environ 90 % ; ↓ chute sur la main tendue : 2 à 5 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+127
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Douleur au tiers moyen",
+"reponse": "increase",
+"explication": "Douleur au tiers moyen : 81 % des fractures (Postacchini 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+125
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Examen physique",
+"enonce": "Déformation et ecchymose",
+"reponse": "increase",
+"explication": "Déformation et ecchymose : diagnostic clinique habituel, sans LR publié.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+127
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Facteurs démographiques",
+"enonce": "Échographie positive chez l'enfant",
+"reponse": "increase",
+"explication": "Échographie positive chez l'enfant : Se 95 %, Sp 96 %, LR+ 23,75",
+"contexte_puce": "↑ Échographie positive chez l'enfant : Se 95 %, Sp 96 %, LR+ 23,75 ; ↓ négative : LR− 0,052, calculés (Cross 2010, n = 100).",
+"donnee": {
+"lr_positif": 23.75,
+"lr_negatif": null,
+"sensibilite": "95 %",
+"specificite": "96 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+128
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Facteurs démographiques",
+"enonce": "Échographie négative chez l'enfant",
+"reponse": "decrease",
+"explication": "Négative : LR− 0,052, calculés (Cross 2010, n = 100).",
+"contexte_puce": "↑ Échographie positive chez l'enfant : Se 95 %, Sp 96 %, LR+ 23,75 ; ↓ négative : LR− 0,052, calculés (Cross 2010, n = 100).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.052,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+128
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-049-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Échographie, autre série pédiatrique",
+"reponse": "increase",
+"explication": "Échographie, autre série pédiatrique : LR+ 8,33, LR− 0,11 (Chien 2011, n = 58).",
+"donnee": {
+"lr_positif": 8.33,
+"lr_negatif": 0.11,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+129
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-049-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 49,
+"nom": "Fracture de la clavicule"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie normale",
+"reponse": "neutral",
+"explication": "Radiographie normale : sensibilité de 77 % contre 91 % pour l'échographie (Ackermann 2024).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+130
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 49"
+},
+{
+"id": "MSK-050-01",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge < 50 ans",
+"reponse": "decrease",
+"explication": "Âge < 50 ans : presque jamais.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+131
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-02",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Anamnèse",
+"enonce": "Douleur bilatérale des épaules",
+"reponse": "increase",
+"explication": "Douleur bilatérale des épaules : 70 à 95 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+131
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-03",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Tests spécifiques",
+"enonce": "Score EULAR/ACR ≥ 4 en validation",
+"reponse": "increase",
+"explication": "Score EULAR/ACR ≥ 4 en validation : Se 92,6 %, Sp 81,5 %, LR+ 5,0 et LR− 0,09 calculés (Macchioni 2014).",
+"donnee": {
+"lr_positif": 5.0,
+"lr_negatif": 0.09,
+"sensibilite": "92,6 %",
+"specificite": "81,5 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+132
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-04",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Laboratoire",
+"enonce": "CRP normale",
+"reponse": "decrease",
+"explication": "CRP normale : la CRP est élevée chez 99 %",
+"contexte_puce": "↓ CRP normale : la CRP est élevée chez 99 % ; ↔ VS normale : 6 à 22 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+131,
+133
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-05",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Laboratoire",
+"enonce": "VS normale",
+"reponse": "neutral",
+"explication": "VS normale : 6 à 22 % des cas.",
+"contexte_puce": "↓ CRP normale : la CRP est élevée chez 99 % ; ↔ VS normale : 6 à 22 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+131,
+133
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-050-06",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Examen physique",
+"enonce": "Abduction active limitée à 90° avec mobilité passive presque normale",
+"reponse": "increase",
+"explication": "Abduction active limitée à 90° avec mobilité passive presque normale : distingue de la capsulite ; qualitatif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+131,
+134
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-07",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte échographique des deux épaules",
+"reponse": "neutral",
+"explication": "Atteinte échographique des deux épaules : Se 59 %, Sp 57 %, LR+ 1,37 calculé.",
+"donnee": {
+"lr_positif": 1.37,
+"lr_negatif": null,
+"sensibilite": "59 %",
+"specificite": "57 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+135
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-08",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Anamnèse",
+"enonce": "Une épaule et une hanche à l'échographie",
+"reponse": "increase",
+"explication": "Une épaule et une hanche à l'échographie : Se 33 %, Sp 84 %, LR+ 2,06 calculé.",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.06,
+"lr_negatif": null,
+"sensibilite": "33 %",
+"specificite": "84 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+135
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-09",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Laboratoire",
+"enonce": "Anti-CCP positifs",
+"reponse": "decrease",
+"explication": "Anti-CCP positifs : 0 sur 49 contre 65 % des polyarthrites rhumatoïdes tardives (Lopez-Hoyos 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+136
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-10",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Anamnèse",
+"enonce": "Synovite persistante du poignet ou des doigts",
+"reponse": "decrease",
+"explication": "Synovite persistante du poignet ou des doigts : oriente vers la polyarthrite ; l'arthrite périphérique de la PMR (28 %) est transitoire.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+137
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+},
+{
+"id": "MSK-050-11",
+"domaine": "MSK",
+"region": "Épaule",
+"diagnostic": {
+"no": 50,
+"nom": "Polymyalgia rheumatica (épaule)"
+},
+"type": "Anamnèse",
+"enonce": "Ascendance nord-européenne",
+"reponse": "increase",
+"explication": "Ascendance nord-européenne : incidence de 112,6 pour 100 000 en Norvège contre 12,7 à 18,7 en Italie et en Espagne.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+131
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 3, diagnostic 50"
+}
+],
+"references": {
+"1": {
+"n": 1,
+"texte": "Does This Patient With Shoulder Pain Have Rotator Cuff Disease?: The Rational Clinical Examination Systematic Review. Hermans J, Luime JJ, Meuffels DE, et al. JAMA. 2013;310(8):837-47. doi:10.1001/jama.2013.276187.",
+"doi": "10.1001/jama.2013.276187"
+},
+"2": {
+"n": 2,
+"texte": "Reliability and Diagnostic Accuracy of 5 Physical Examination Tests and Combination of Tests for Subacromial Impingement. Michener LA, Walsworth MK, Doukas WC, Murphy KP. Archives of Physical Medicine and Rehabilitation. 2009;90(11):1898-903. doi:10.1016/j.apmr.2009.05.015.",
+"doi": "10.1016/j.apmr.2009.05.015"
+},
+"3": {
+"n": 3,
+"texte": "Evidence-based approach to the shoulder examination for subacromial bursitis and rotator cuff tears: a systematic review and meta-analysis. Zhao Q, Palani P, Kassab NS, et al. BMC Musculoskeletal Disorders. 2024;25(1):1028. doi:10.1186/s12891-024-08144-z.",
+"doi": "10.1186/s12891-024-08144-z"
+},
+"4": {
+"n": 4,
+"texte": "Diagnostic Accuracy of Clinical Tests for the Different Degrees of Subacromial Impingement Syndrome. Park HB, Yokota A, Gill HS, El Rassi G, McFarland EG. The Journal of Bone and Joint Surgery. American Volume. 2005;87(7):1446-55. doi:10.2106/JBJS.D.02335.",
+"doi": "10.2106/JBJS.D.02335"
+},
+"5": {
+"n": 5,
+"texte": "Returning to the Bedside: Using the History and Physical Examination To Identify Rotator Cuff Tears. Litaker D, Pioro M, El Bilbeisi H, Brems J. Journal of the American Geriatrics Society. 2000;48(12):1633-7. doi:10.1111/j.1532-5415.2000.tb03875.x.",
+"doi": "10.1111/j.1532-5415.2000.tb03875.x"
+},
+"6": {
+"n": 6,
+"texte": "Diagnosis of Rotator Cuff Tears. Murrell GA, Walton JR. Lancet (London, England). 2001;357(9258):769-70. doi:10.1016/S0140-6736(00)04161-1.",
+"doi": "10.1016/S0140-6736(00)04161-1"
+},
+"7": {
+"n": 7,
+"texte": "Age-Related Prevalence of Rotator Cuff Tears in Asymptomatic Shoulders. Tempelhof S, Rupp S, Seil R. Journal of Shoulder and Elbow Surgery. 1999 Jul-Aug;8(4):296-9. doi:10.1016/s1058-2746(99)90148-9.",
+"doi": "10.1016/s1058-2746(99)90148-9"
+},
+"8": {
+"n": 8,
+"texte": "Incidental Rotator Cuff Abnormalities on Magnetic Resonance Imaging. Ibounig T, Järvinen TLN, Raatikainen S, et al. JAMA Internal Medicine. 2026;186(4):406-414. doi:10.1001/jamainternmed.2025.7903.",
+"doi": "10.1001/jamainternmed.2025.7903"
+},
+"9": {
+"n": 9,
+"texte": "Prevalence of Calcific Deposits Within the Rotator Cuff Tendons in Adults With and Without Subacromial Pain Syndrome: Clinical and Radiologic Analysis of 1219 Patients. Louwerens JK, Sierevelt IN, van Hove RP, van den Bekerom MP, van Noort A. Journal of Shoulder and Elbow Surgery. 2015;24(10):1588-93. doi:10.1016/j.jse.2015.02.024.",
+"doi": "10.1016/j.jse.2015.02.024"
+},
+"10": {
+"n": 10,
+"texte": "Calcific Tendinopathy of the Rotator Cuff: The Correlation Between Pain and Imaging Features in Symptomatic and Asymptomatic Female Shoulders. Sansone V, Consonni O, Maiorano E, Meroni R, Goddi A. Skeletal Radiology. 2016;45(1):49-55. doi:10.1007/s00256-015-2240-3.",
+"doi": "10.1007/s00256-015-2240-3"
+},
+"11": {
+"n": 11,
+"texte": "Calcific Shoulder Periarthritis (Tendinitis) in Adult Onset Diabetes Mellitus: A Controlled Study. Mavrikakis ME, Drimis S, Kontoyannis DA, et al. Annals of the Rheumatic Diseases. 1989;48(3):211-4. doi:10.1136/ard.48.3.211.",
+"doi": "10.1136/ard.48.3.211"
+},
+"12": {
+"n": 12,
+"texte": "Increased Risk of Shoulder Calcific Tendinopathy in Diabetes Mellitus: A Nationwide, Population-Based, Matched Cohort Study. Su YC, Chung CH, Ke MJ, et al. International Journal of Clinical Practice. 2021;75(10):e14549. doi:10.1111/ijcp.14549.",
+"doi": "10.1111/ijcp.14549"
+},
+"13": {
+"n": 13,
+"texte": "Calcific Tendinitis: Natural History and Association With Endocrine Disorders. Harvie P, Pollard TC, Carr AJ. Journal of Shoulder and Elbow Surgery. 2007 Mar-Apr;16(2):169-73. doi:10.1016/j.jse.2006.06.007.",
+"doi": "10.1016/j.jse.2006.06.007"
+},
+"14": {
+"n": 14,
+"texte": "Calcific Tendinitis of the Shoulder. Speed CA, Hazleman BL. The New England Journal of Medicine. 1999;340(20):1582-4. doi:10.1056/NEJM199905203402011.",
+"doi": "10.1056/NEJM199905203402011"
+},
+"15": {
+"n": 15,
+"texte": "Seasonal variation in the onset of acute calcific tendinitis of rotator cuff. Furuhata R, Matsumura N, Yoshiyama A, et al. BMC Musculoskeletal Disorders. 2020;21(1):741. doi:10.1186/s12891-020-03773-6.",
+"doi": "10.1186/s12891-020-03773-6"
+},
+"16": {
+"n": 16,
+"texte": "Accuracy of the Speed's and Yergason's Tests in Detecting Biceps Pathology and SLAP Lesions: Comparison With Arthroscopic Findings. Holtby R, Razmjou H. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 2004;20(3):231-6. doi:10.1016/j.arthro.2004.01.008.",
+"doi": "10.1016/j.arthro.2004.01.008"
+},
+"17": {
+"n": 17,
+"texte": "Accuracy of Examination of the Long Head of the Biceps Tendon in the Clinical Setting: A Systematic Review. Bélanger V, Dupuis F, Leblond J, Roy JS. Journal of Rehabilitation Medicine. 2019;51(7):479-491. doi:10.2340/16501977-2563.",
+"doi": "10.2340/16501977-2563"
+},
+"18": {
+"n": 18,
+"texte": "Physical Examination for Partial Tears of the Biceps Tendon. Gill HS, El Rassi G, Bahk MS, Castillo RC, McFarland EG. The American Journal of Sports Medicine. 2007;35(8):1334-40. doi:10.1177/0363546507300058.",
+"doi": "10.1177/0363546507300058"
+},
+"19": {
+"n": 19,
+"texte": "Clinical Utility of Traditional and New Tests in the Diagnosis of Biceps Tendon Injuries and Superior Labrum Anterior and Posterior Lesions in the Shoulder. Ben Kibler W, Sciascia AD, Hester P, Dome D, Jacobs C. The American Journal of Sports Medicine. 2009;37(9):1840-7. doi:10.1177/0363546509332505.",
+"doi": "10.1177/0363546509332505"
+},
+"20": {
+"n": 20,
+"texte": "Diagnostic Accuracy of Clinical Tests Directed to the Long Head of Biceps Tendon in a Surgical Population: A Combination of Old and New Tests. Cardoso A, Amaro P, Barbosa L, et al. Journal of Shoulder and Elbow Surgery. 2019;28(12):2272-2278. doi:10.1016/j.jse.2019.07.007.",
+"doi": "10.1016/j.jse.2019.07.007"
+},
+"21": {
+"n": 21,
+"texte": "Long Head of Biceps Tendinopathy Is Associated With Age and Cuff Tendinopathy on MRI Obtained for Evaluation of Shoulder Pain. Canavan K, Zai Q, Bruni D, et al. Clinical Orthopaedics and Related Research. 2025;483(5):869-877. doi:10.1097/CORR.0000000000003342.",
+"doi": "10.1097/CORR.0000000000003342"
+},
+"26": {
+"n": 26,
+"texte": "Longitudinal Evidence for the Association Between Work-Related Physical Exposures and Neck and/or Shoulder Complaints: A Systematic Review. Mayer J, Kraus T, Ochsmann E. International Archives of Occupational and Environmental Health. 2012;85(6):587-603. doi:10.1007/s00420-011-0701-0.",
+"doi": "10.1007/s00420-011-0701-0"
+},
+"27": {
+"n": 27,
+"texte": "Association of Occupational Physical Demands and Psychosocial Working Environment With Disabling Shoulder Pain. Pope DP, Silman AJ, Cherry NM, Pritchard C, Macfarlane GJ. Annals of the Rheumatic Diseases. 2001;60(9):852-8."
+},
+"28": {
+"n": 28,
+"texte": "Comparison of risk factors for shoulder pain and rotator cuff syndrome in the working population. Bodin J, Ha C, Chastang JF, et al. American Journal of Industrial Medicine. 2012;55(7):605-15. doi:10.1002/ajim.22002.",
+"doi": "10.1002/ajim.22002"
+},
+"29": {
+"n": 29,
+"texte": "Physical, Psychosocial, and Individual Risk Factors for Neck/Shoulder Pain With Pressure Tenderness in the Muscles Among Workers Performing Monotonous, Repetitive Work. Andersen JH, Kaergaard A, Frost P, et al. Spine. 2002;27(6):660-7. doi:10.1097/00007632-200203150-00017.",
+"doi": "10.1097/00007632-200203150-00017"
+},
+"30": {
+"n": 30,
+"texte": "Occupational Risk Factors for Shoulder Pain: A Systematic Review. van der Windt DA, Thomas E, Pope DP, et al. Occupational and Environmental Medicine. 2000;57(7):433-42. doi:10.1136/oem.57.7.433.",
+"doi": "10.1136/oem.57.7.433"
+},
+"31": {
+"n": 31,
+"texte": "Diagnostic Classification of Shoulder Disorders: Interobserver Agreement and Determinants of Disagreement. de Winter AF, Jans MP, Scholten RJ, et al. Annals of the Rheumatic Diseases. 1999;58(5):272-7. doi:10.1136/ard.58.5.272.",
+"doi": "10.1136/ard.58.5.272"
+},
+"32": {
+"n": 32,
+"texte": "Scapulothoracic Dyskinesis: A Concept Review. Jildeh TR, Ference DA, Abbas MJ, Jiang EX, Okoroha KR. Current Reviews in Musculoskeletal Medicine. 2021;14(3):246-254. doi:10.1007/s12178-021-09705-8.",
+"doi": "10.1007/s12178-021-09705-8"
+},
+"33": {
+"n": 33,
+"texte": "A descriptive comparison of postural, functional, and electromyographic characteristics in asymptomatic female overhead athletes with and without scapular dyskinesis. Seyyed Hossein Hosseini, Somayeh Taghidoust Chahardeh. BMC Musculoskeletal Disorders. 2026."
+},
+"34": {
+"n": 34,
+"texte": "A Clinical Method for Identifying Scapular Dyskinesis, Part 2: Validity. Tate AR, McClure P, Kareha S, Irwin D, Barbe MF. Journal of Athletic Training. 2009 Mar-Apr;44(2):165-73. doi:10.4085/1062-6050-44.2.165.",
+"doi": "10.4085/1062-6050-44.2.165"
+},
+"35": {
+"n": 35,
+"texte": "Scapular Dyskinesis Increases the Risk of Future Shoulder Pain by 43% in Asymptomatic Athletes: A Systematic Review and Meta-Analysis. Hickey D, Solvig V, Cavalheri V, Harrold M, Mckenna L. British Journal of Sports Medicine. 2018;52(2):102-110. doi:10.1136/bjsports-2017-097559.",
+"doi": "10.1136/bjsports-2017-097559"
+},
+"36": {
+"n": 36,
+"texte": "Scapular Dyskinesis Is Not an Isolated Risk Factor for Shoulder Injury in Athletes: A Systematic Review and Meta-analysis. Hogan C, Corbett JA, Ashton S, et al. The American Journal of Sports Medicine. 2021;49(10):2843-2853. doi:10.1177/0363546520968508.",
+"doi": "10.1177/0363546520968508"
+},
+"37": {
+"n": 37,
+"texte": "Measurement of Scapular Asymetry and Assessment of Shoulder Dysfunction Using the Lateral Scapular Slide Test: A Reliability and Validity Study. Odom CJ, Taylor AB, Hurd CE, Denegar CR. Physical Therapy. 2001;81(2):799-809. doi:10.1093/ptj/81.2.799.",
+"doi": "10.1093/ptj/81.2.799"
+},
+"38": {
+"n": 38,
+"texte": "Specificity of the Lateral Scapular Slide Test in Asymptomatic Competitive Athletes. Koslow PA, Prosser LA, Strony GA, Suchecki SL, Mattingly GE. The Journal of Orthopaedic and Sports Physical Therapy. 2003;33(6):331-6. doi:10.2519/jospt.2003.33.6.331.",
+"doi": "10.2519/jospt.2003.33.6.331"
+},
+"39": {
+"n": 39,
+"texte": "Prevalence of Positive Modified Scapular Assistance Test in Patients With Shoulder Pain With and Without Scapular Dyskinesis: A Cross-Sectional Study. Soliño S, Raguzzi I, Castro LV, et al. Journal of Hand Therapy : Official Journal of the American Society of Hand Therapists. 2024 Jan-Mar;37(1):136-143. doi:10.1016/j.jht.2023.07.004.",
+"doi": "10.1016/j.jht.2023.07.004"
+},
+"40": {
+"n": 40,
+"texte": "Evaluation of Clinical Assessment Methods for Scapular Dyskinesis. Uhl TL, Kibler WB, Gecewich B, Tripp BL. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 2009;25(11):1240-8. doi:10.1016/j.arthro.2009.06.007.",
+"doi": "10.1016/j.arthro.2009.06.007"
+},
+"41": {
+"n": 41,
+"texte": "Clinical Reasoning: A 40-Year-Old Woman With Scapular Winging and Dysphonia. Aladawi M, Punsoni M, Piccione E. Neurology. 2021;97(10):503-507. doi:10.1212/WNL.0000000000012179.",
+"doi": "10.1212/WNL.0000000000012179"
+},
+"42": {
+"n": 42,
+"texte": "Scapular Winging Secondary to Serratus Anterior Dysfunction: Analysis of Clinical Presentations and Etiology in a Consecutive Series of 96 Patients. Ng CY, Wu F. Journal of Shoulder and Elbow Surgery. 2021;30(10):2336-2343. doi:10.1016/j.jse.2021.02.012.",
+"doi": "10.1016/j.jse.2021.02.012"
+},
+"44": {
+"n": 44,
+"texte": "Arm Squeeze Test: A New Clinical Test to Distinguish Neck From Shoulder Pain. Gumina S, Carbone S, Albino P, Gurzi M, Postacchini F. European Spine Journal : Official Publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society. 2013;22(7):1558-63. doi:10.1007/s00586-013-2788-3.",
+"doi": "10.1007/s00586-013-2788-3"
+},
+"45": {
+"n": 45,
+"texte": "Diagnostic accuracy of physical examination tests for painful cervical radiculopathy: update of a systematic review and meta-analysis. Thoomes EJ, Arvanitidis M, van Geest S, et al. BMC Musculoskeletal Disorders. 2026;27(1):338. doi:10.1186/s12891-026-09551-0.",
+"doi": "10.1186/s12891-026-09551-0"
+},
+"46": {
+"n": 46,
+"texte": "The Prevalence of Cervical Contribution in Patients Reporting Shoulder Pain. An Observational Study. Roldán-Ruiz A, Bailón-Cerezo J, Falla D, Torres-Lacomba M. Musculoskeletal Science & Practice. 2024;73:103158. doi:10.1016/j.msksp.2024.103158.",
+"doi": "10.1016/j.msksp.2024.103158"
+},
+"47": {
+"n": 47,
+"texte": "Musculoskeletal mimics of cervical radiculopathy. Chiou-Tan FY. Muscle & Nerve. 2022;66(1):6-14. doi:10.1002/mus.27553.",
+"doi": "10.1002/mus.27553"
+},
+"48": {
+"n": 48,
+"texte": "Degenerative cervical radiculopathy: diagnosis and conservative treatment. A review. Kuijper B, Tans JT, Schimsheimer RJ, et al. European Journal of Neurology. 2009;16(1):15-20. doi:10.1111/j.1468-1331.2008.02365.x.",
+"doi": "10.1111/j.1468-1331.2008.02365.x"
+},
+"49": {
+"n": 49,
+"texte": "Diagnostic Accuracy of Patient Interview Items and Clinical Tests for Cervical Radiculopathy. Sleijser-Koehorst MLS, Coppieters MW, Epping R, et al. Physiotherapy. 2021;111:74-82. doi:10.1016/j.physio.2020.07.007.",
+"doi": "10.1016/j.physio.2020.07.007"
+},
+"50": {
+"n": 50,
+"texte": "Management of Shoulder Pain in Primary Care: A Review. Haas R, Ibounig T, Buchbinder R. JAMA Internal Medicine. 2026;186(10):1256-1268. doi:10.1001/jamainternmed.2026.3135.",
+"doi": "10.1001/jamainternmed.2026.3135"
+},
+"51": {
+"n": 51,
+"texte": "Cervical Roots as Origin of Pain in the Neck or Scapular Regions. Tanaka Y, Kokubun S, Sato T, Ozawa H. Spine. 2006;31(17):E568-73. doi:10.1097/01.brs.0000229261.02816.48.",
+"doi": "10.1097/01.brs.0000229261.02816.48"
+},
+"52": {
+"n": 52,
+"texte": "Neurological examination for cervical radiculopathy: a scoping review. Yousif MS, Occhipinti G, Bianchini F, et al. BMC Musculoskeletal Disorders. 2025;26(1):334. doi:10.1186/s12891-025-08560-9.",
+"doi": "10.1186/s12891-025-08560-9"
+},
+"53": {
+"n": 53,
+"texte": "Cross-Talk Between Shoulder and Neck Pain: An Imaging Study of Association Between Rotator Cuff Tendon Tears and Cervical Foraminal Stenosis. Wu WT, Chang KV, Han DS, Lin CP, Özçakar L. Medicine. 2018;97(36):e12247. doi:10.1097/MD.0000000000012247.",
+"doi": "10.1097/MD.0000000000012247"
+},
+"57": {
+"n": 57,
+"texte": "Diabetes as a Risk Factor for the Onset of Frozen Shoulder: A Systematic Review and Meta-Analysis. Dyer BP, Rathod-Mistry T, Burton C, van der Windt D, Bucknall M. BMJ Open. 2023;13(1):e062377. doi:10.1136/bmjopen-2022-062377.",
+"doi": "10.1136/bmjopen-2022-062377"
+},
+"58": {
+"n": 58,
+"texte": "Type 2 diabetes, metabolic health, and the development of frozen shoulder: a cohort study in UK electronic health records. Dyer BP, Burton C, Rathod-Mistry T, Blagojevic-Bucknall M, van der Windt DA. BMC Musculoskeletal Disorders. 2025;26(1):471. doi:10.1186/s12891-025-08672-2.",
+"doi": "10.1186/s12891-025-08672-2"
+},
+"59": {
+"n": 59,
+"texte": "Association Between Adhesive Capsulitis and Thyroid Disease: A Meta-Analysis. Chuang SH, Chen YP, Huang SW, Kuo YJ. Journal of Shoulder and Elbow Surgery. 2023;32(6):1314-1322. doi:10.1016/j.jse.2023.01.033.",
+"doi": "10.1016/j.jse.2023.01.033"
+},
+"60": {
+"n": 60,
+"texte": "Secular trend of adhesive capsulitis. White D, Choi H, Peloquin C, Zhu Y, Zhang Y. Arthritis Care & Research. 2011;63(11):1571-5. doi:10.1002/acr.20590.",
+"doi": "10.1002/acr.20590"
+},
+"61": {
+"n": 61,
+"texte": "Frozen shoulder. Millar NL, Meakins A, Struyf F, et al. Nature Reviews. Disease Primers. 2022;8(1):59. doi:10.1038/s41572-022-00386-2.",
+"doi": "10.1038/s41572-022-00386-2"
+},
+"62": {
+"n": 62,
+"texte": "The Association Between Frozen Shoulder and Dupuytren's Disease. Smith SP, Devaraj VS, Bunker TD. Journal of Shoulder and Elbow Surgery. 2001 Mar-Apr;10(2):149-51. doi:10.1067/mse.2001.112883.",
+"doi": "10.1067/mse.2001.112883"
+},
+"63": {
+"n": 63,
+"texte": "Adhesive Capsulitis. Neviaser AS, Hannafin JA. The American Journal of Sports Medicine. 2010;38(11):2346-56. doi:10.1177/0363546509348048.",
+"doi": "10.1177/0363546509348048"
+},
+"64": {
+"n": 64,
+"texte": "The External Rotation Test in the Diagnosis of Adhesive Capsulitis. Wolf EM, Cox WK. Orthopedics. 2010;33(5). doi:10.3928/01477447-20100329-11.",
+"doi": "10.3928/01477447-20100329-11"
+},
+"65": {
+"n": 65,
+"texte": "Shoulder Adhesive Capsulitis: Diagnostic Value of Active and Passive Range of Motion With Volume of Gleno-Humeral Capsule as a Reference. James-Belin E, Lasbleiz S, Haddad A, et al. European Journal of Physical and Rehabilitation Medicine. 2020;56(4):438-443. doi:10.23736/S1973-9087.19.05890-8.",
+"doi": "10.23736/S1973-9087.19.05890-8"
+},
+"66": {
+"n": 66,
+"texte": "Clinical Evaluation of the Shoulder Shrug Sign. Jia X, Ji JH, Petersen SA, Keefer J, McFarland EG. Clinical Orthopaedics and Related Research. 2008;466(11):2813-9. doi:10.1007/s11999-008-0331-3.",
+"doi": "10.1007/s11999-008-0331-3"
+},
+"67": {
+"n": 67,
+"texte": "Adhesive capsulitis of the shoulder: protocol for the adhesive capsulitis biomarker (AdCaB) study. Page RS, McGee SL, Eng K, et al. BMC Musculoskeletal Disorders. 2019;20(1):145. doi:10.1186/s12891-019-2536-x.",
+"doi": "10.1186/s12891-019-2536-x"
+},
+"68": {
+"n": 68,
+"texte": "Shoulder diagnoses in secondary care, a one year cohort. Juel NG, Natvig B. BMC Musculoskeletal Disorders. 2014;15:89. doi:10.1186/1471-2474-15-89.",
+"doi": "10.1186/1471-2474-15-89"
+},
+"69": {
+"n": 69,
+"texte": "Development of Arthrosis Following Dislocation of the Shoulder: A Case-Control Study. Marx RG, McCarty EC, Montemurno TD, et al. Journal of Shoulder and Elbow Surgery. 2002 Jan-Feb;11(1):1-5. doi:10.1067/mse.2002.119388.",
+"doi": "10.1067/mse.2002.119388"
+},
+"70": {
+"n": 70,
+"texte": "Neer Award 2008: Arthropathy After Primary Anterior Shoulder Dislocation--223 Shoulders Prospectively Followed Up for Twenty-Five Years. Hovelius L, Saeboe M. Journal of Shoulder and Elbow Surgery. 2009 May-Jun;18(3):339-47. doi:10.1016/j.jse.2008.11.004.",
+"doi": "10.1016/j.jse.2008.11.004"
+},
+"71": {
+"n": 71,
+"texte": "Prevalence of and Risk Factors for Dislocation Arthropathy. Plath JE, Aboalata M, Seppel G, et al. The American Journal of Sports Medicine. 2015;43(5):1084-90. doi:10.1177/0363546515570621.",
+"doi": "10.1177/0363546515570621"
+},
+"72": {
+"n": 72,
+"texte": "Telehealth physical examinations show comparable accuracy and results to clinical exams for MRI confirmed shoulder pathologies. Glover MA, Bradley KE, Casey PM, et al. Journal of Telemedicine and Telecare. 2026;32(6):522-531. doi:10.1177/1357633X251375155.",
+"doi": "10.1177/1357633X251375155"
+},
+"73": {
+"n": 73,
+"texte": "Physical Therapist Management of Glenohumeral Joint Osteoarthritis: A Clinical Practice Guideline From the American Physical Therapy Association. Michener LA, Heitzman J, Abbruzzese LD, et al. Physical Therapy. 2023;103(6):pzad041. doi:10.1093/ptj/pzad041.",
+"doi": "10.1093/ptj/pzad041"
+},
+"74": {
+"n": 74,
+"texte": "Systematic Review of Shoulder Imaging Abnormalities in Asymptomatic Adult Shoulders (SCRUTINY): Abnormalities of the Glenohumeral Joint. Ibounig T, Sanders S, Haas R, et al. Osteoarthritis and Cartilage. 2024;32(10):1184-1196. doi:10.1016/j.joca.2024.06.001.",
+"doi": "10.1016/j.joca.2024.06.001"
+},
+"76": {
+"n": 76,
+"texte": "Young Men in Sports Are at Highest Risk of Acromioclavicular Joint Injuries: A Prospective Cohort Study. Skjaker SA, Enger M, Engebretsen L, Brox JI, Bøe B. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 2021;29(7):2039-2045. doi:10.1007/s00167-020-05958-x.",
+"doi": "10.1007/s00167-020-05958-x"
+},
+"77": {
+"n": 77,
+"texte": "Evaluation and Treatment of Acromioclavicular Joint Injuries. Mazzocca AD, Arciero RA, Bicos J. The American Journal of Sports Medicine. 2007;35(2):316-29. doi:10.1177/0363546506298022.",
+"doi": "10.1177/0363546506298022"
+},
+"78": {
+"n": 78,
+"texte": "Surgical versus conservative interventions for treating acromioclavicular dislocation of the shoulder in adults. Marcel JS Tamaoki, Mário Lenza, Fabio T Matsunaga, et al. Cochrane Database of Systematic Reviews. 2019. doi:10.1002/14651858.cd007429.pub3.",
+"doi": "10.1002/14651858.cd007429.pub3"
+},
+"79": {
+"n": 79,
+"texte": "Epidemiology of Acromioclavicular Joint Injury in Young Athletes. Pallis M, Cameron KL, Svoboda SJ, Owens BD. The American Journal of Sports Medicine. 2012;40(9):2072-7. doi:10.1177/0363546512450162.",
+"doi": "10.1177/0363546512450162"
+},
+"80": {
+"n": 80,
+"texte": "Factors Predicting the Outcome After Arthroscopically Assisted Stabilization of Acute High-Grade Acromioclavicular Joint Dislocations. Maziak N, Audige L, Hann C, Minkus M, Scheibel M. The American Journal of Sports Medicine. 2019;47(11):2670-2677. doi:10.1177/0363546519862850.",
+"doi": "10.1177/0363546519862850"
+},
+"81": {
+"n": 81,
+"texte": "Current concepts in acromioclavicular joint (AC) instability – a proposed treatment algorithm for acute and chronic AC-joint surgery. Berthold DP, Muench LN, Dyrna F, et al. BMC Musculoskeletal Disorders. 2022;23(1):1078. doi:10.1186/s12891-022-05935-0.",
+"doi": "10.1186/s12891-022-05935-0"
+},
+"82": {
+"n": 82,
+"texte": "Diagnostic Value of Physical Tests for Isolated Chronic Acromioclavicular Lesions. Chronopoulos E, Kim TK, Park HB, Ashenbrenner D, McFarland EG. The American Journal of Sports Medicine. 2004 Apr-May;32(3):655-61. doi:10.1177/0363546503261723.",
+"doi": "10.1177/0363546503261723"
+},
+"83": {
+"n": 83,
+"texte": "Degenerative Joint Disease of the Acromioclavicular Joint. Mall NA, Foley E, Chalmers PN, et al. The American Journal of Sports Medicine. 2013;41(11):2684-92. doi:10.1177/0363546513485359.",
+"doi": "10.1177/0363546513485359"
+},
+"84": {
+"n": 84,
+"texte": "Diagnostic Values of Tests for Acromioclavicular Joint Pain. Walton J, Mahajan S, Paxinos A, et al. The Journal of Bone and Joint Surgery. American Volume. 2004;86(4):807-12. doi:10.2106/00004623-200404000-00021.",
+"doi": "10.2106/00004623-200404000-00021"
+},
+"85": {
+"n": 85,
+"texte": "Shoulder Pain in Primary Care: Diagnostic Accuracy of Clinical Examination Tests for Non-Traumatic Acromioclavicular Joint Pain. Cadogan A, McNair P, Laslett M, Hing W. BMC Musculoskeletal Disorders. 2013;14:156. doi:10.1186/1471-2474-14-156.",
+"doi": "10.1186/1471-2474-14-156"
+},
+"86": {
+"n": 86,
+"texte": "Detection of Acromioclavicular Joint Pathology in Asymptomatic Shoulders With Magnetic Resonance Imaging. Shubin Stein BE, Wiater JM, Pfaff HC, Bigliani LU, Levine WN. Journal of Shoulder and Elbow Surgery. 2001 May-Jun;10(3):204-208. doi:10.1067/mse.2001.113498.",
+"doi": "10.1067/mse.2001.113498"
+},
+"87": {
+"n": 87,
+"texte": "A Comparison of Magnetic Resonance Imaging Findings of the Acromioclavicular Joint in Symptomatic Versus Asymptomatic Patients. Shubin Stein BE, Ahmad CS, Pfaff CH, Bigliani LU, Levine WN. Journal of Shoulder and Elbow Surgery. 2006 Jan-Feb;15(1):56-9. doi:10.1016/j.jse.2005.05.013.",
+"doi": "10.1016/j.jse.2005.05.013"
+},
+"88": {
+"n": 88,
+"texte": "Distal Clavicular Osteolysis in Adults: Association With Bench Pressing Intensity. Nevalainen MT, Ciccotti MG, Morrison WB, Zoga AC, Roedl JB. Skeletal Radiology. 2016;45(11):1473-9. doi:10.1007/s00256-016-2446-z.",
+"doi": "10.1007/s00256-016-2446-z"
+},
+"89": {
+"n": 89,
+"texte": "Nontraumatic Clavicular Osteolysis in Weight Lifters. Scavenius M, Iversen BF. The American Journal of Sports Medicine. 1992 Jul-Aug;20(4):463-7. doi:10.1177/036354659202000418.",
+"doi": "10.1177/036354659202000418"
+},
+"90": {
+"n": 90,
+"texte": "Clinical Assessment of Three Common Tests for Traumatic Anterior Shoulder Instability. Farber AJ, Castillo R, Clough M, Bahk M, McFarland EG. The Journal of Bone and Joint Surgery. American Volume. 2006;88(7):1467-74. doi:10.2106/JBJS.E.00594.",
+"doi": "10.2106/JBJS.E.00594"
+},
+"91": {
+"n": 91,
+"texte": "Laxity Testing of the Shoulder. Bahk M, Keyurapan E, Tasaki A, Sauers EL, McFarland EG. The American Journal of Sports Medicine. 2007;35(1):131-44. doi:10.1177/0363546506294570.",
+"doi": "10.1177/0363546506294570"
+},
+"92": {
+"n": 92,
+"texte": "An Evaluation of the Apprehension, Relocation, and Surprise Tests for Anterior Shoulder Instability. Lo IK, Nonweiler B, Woolfrey M, Litchfield R, Kirkley A. The American Journal of Sports Medicine. 2004;32(2):301-7. doi:10.1177/0095399703258690.",
+"doi": "10.1177/0095399703258690"
+},
+"93": {
+"n": 93,
+"texte": "Does This Patient Have an Instability of the Shoulder or a Labrum Lesion?. Luime JJ, Verhagen AP, Miedema HS, et al. JAMA. 2004;292(16):1989-99. doi:10.1001/jama.292.16.1989.",
+"doi": "10.1001/jama.292.16.1989"
+},
+"94": {
+"n": 94,
+"texte": "Risk Factors Which Predispose First-Time Traumatic Anterior Shoulder Dislocations to Recurrent Instability in Adults: A Systematic Review and Meta-Analysis. Olds M, Ellis R, Donaldson K, Parmar P, Kersten P. British Journal of Sports Medicine. 2015;49(14):913-22. doi:10.1136/bjsports-2014-094342.",
+"doi": "10.1136/bjsports-2014-094342"
+},
+"95": {
+"n": 95,
+"texte": "The Natural History of Primary Anterior Dislocation of the Glenohumeral Joint in Adolescence. Roberts SB, Beattie N, McNiven ND, Robinson CM. The Bone & Joint Journal. 2015;97-B(4):520-6. doi:10.1302/0301-620X.97B4.34989.",
+"doi": "10.1302/0301-620X.97B4.34989"
+},
+"96": {
+"n": 96,
+"texte": "Clinical Predictors of Fracture in Patients With Shoulder Dislocation: Systematic Review of Diagnostic Test Accuracy Studies. Oldrini I, Coventry L, Novak A, Gwilym S, Metcalfe D. Emergency Medicine Journal : EMJ. 2023;40(5):379-384. doi:10.1136/emermed-2022-212696.",
+"doi": "10.1136/emermed-2022-212696"
+},
+"99": {
+"n": 99,
+"texte": "Physical examination tests of the shoulder: a systematic review and meta-analysis of diagnostic test performance. Gismervik SØ, Drogset JO, Granviken F, Rø M, Leivseth G. BMC Musculoskeletal Disorders. 2017;18(1):41. doi:10.1186/s12891-017-1400-0.",
+"doi": "10.1186/s12891-017-1400-0"
+},
+"100": {
+"n": 100,
+"texte": "Physical tests for shoulder impingements and local lesions of bursa, tendon or labrum that may accompany impingement. Nigel CA Hanchard, Mário Lenza, Helen HG Handoll, et al. Cochrane Database of Systematic Reviews. 2013. doi:10.1002/14651858.cd007427.pub2.",
+"doi": "10.1002/14651858.cd007427.pub2"
+},
+"101": {
+"n": 101,
+"texte": "Physical Examination Maneuvers for SLAP Lesions: A Systematic Review and Meta-analysis of Individual and Combinations of Maneuvers. Dean RS, Onsen L, Lima J, Hutchinson MR. The American Journal of Sports Medicine. 2023;51(11):3042-3052. doi:10.1177/03635465221100977.",
+"doi": "10.1177/03635465221100977"
+},
+"102": {
+"n": 102,
+"texte": "A Prospective Evaluation of a New Physical Examination in Predicting Glenoid Labral Tears. Liu SH, Henry MH, Nuccion SL. The American Journal of Sports Medicine. 1996 Nov-Dec;24(6):721-5. doi:10.1177/036354659602400604.",
+"doi": "10.1177/036354659602400604"
+},
+"103": {
+"n": 103,
+"texte": "Biceps Load Test II: A Clinical Test for SLAP Lesions of the Shoulder. Kim SH, Ha KI, Ahn JH, Kim SH, Choi HJ. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 2001;17(2):160-4. doi:10.1053/jars.2001.20665.",
+"doi": "10.1053/jars.2001.20665"
+},
+"104": {
+"n": 104,
+"texte": "Diagnostic Accuracy of Five Orthopedic Clinical Tests for Diagnosis of Superior Labrum Anterior Posterior (SLAP) Lesions. Cook C, Beaty S, Kissenberth MJ, et al. Journal of Shoulder and Elbow Surgery. 2012;21(1):13-22. doi:10.1016/j.jse.2011.07.012.",
+"doi": "10.1016/j.jse.2011.07.012"
+},
+"105": {
+"n": 105,
+"texte": "Clinical Assessment of the Dynamic Labral Shear Test for Superior Labrum Anterior and Posterior Lesions. Sodha S, Srikumaran U, Choi K, Borade AU, McFarland EG. The American Journal of Sports Medicine. 2017;45(4):775-781. doi:10.1177/0363546517690349.",
+"doi": "10.1177/0363546517690349"
+},
+"106": {
+"n": 106,
+"texte": "Reliability and Diagnostic Accuracy of History and Physical Examination for Diagnosing Glenoid Labral Tears. Walsworth MK, Doukas WC, Murphy KP, Mielcarek BJ, Michener LA. The American Journal of Sports Medicine. 2008;36(1):162-8. doi:10.1177/0363546507307508.",
+"doi": "10.1177/0363546507307508"
+},
+"107": {
+"n": 107,
+"texte": "Glenohumeral Findings on Magnetic Resonance Imaging Correlate With Innings Pitched in Asymptomatic Pitchers. Lesniak BP, Baraga MG, Jose J, et al. The American Journal of Sports Medicine. 2013;41(9):2022-7. doi:10.1177/0363546513491093.",
+"doi": "10.1177/0363546513491093"
+},
+"108": {
+"n": 108,
+"texte": "A Systematic Review and Meta-Analysis of Diagnostic Test of MRA Versus MRI for Detection Superior Labrum Anterior to Posterior Lesions Type II-VII. Arirachakaran A, Boonard M, Chaijenkij K, et al. Skeletal Radiology. 2017;46(2):149-160. doi:10.1007/s00256-016-2525-1.",
+"doi": "10.1007/s00256-016-2525-1"
+},
+"110": {
+"n": 110,
+"texte": "The Aetiology of Posterior Glenohumeral Dislocations and Occurrence of Associated Injuries: A Systematic Review. Kelly MJ, Holton AE, Cassar-Gheiti AJ, et al. The Bone & Joint Journal. 2019;101-B(1):15-21. doi:10.1302/0301-620X.101B1.BJJ-2018-0984.R1.",
+"doi": "10.1302/0301-620X.101B1.BJJ-2018-0984.R1"
+},
+"111": {
+"n": 111,
+"texte": "Epidemiology and specific features of shoulder injuries in patients affected by epileptic seizures. Cucchi D, Baumgartner T, Walter SG, et al. Archives of Orthopaedic and Trauma Surgery. 2023;143(4):1999-2009. doi:10.1007/s00402-022-04420-6.",
+"doi": "10.1007/s00402-022-04420-6"
+},
+"112": {
+"n": 112,
+"texte": "The Kim Test. Kim SH, Park JS, Jeong WK, Shin SK. The American Journal of Sports Medicine. 2005;33(8):1188-92. doi:10.1177/0363546504272687.",
+"doi": "10.1177/0363546504272687"
+},
+"113": {
+"n": 113,
+"texte": "Clinical Examination of the Unstable Shoulder. Tzannes A, Murrell GA. Sports Medicine (Auckland, N.Z.). 2002;32(7):447-57. doi:10.2165/00007256-200232070-00004.",
+"doi": "10.2165/00007256-200232070-00004"
+},
+"114": {
+"n": 114,
+"texte": "Predictive Value of Gagey's Hyperabduction Test in Identifying Inferior Glenohumeral Ligament Lesions. van Spanning SH, Lafosse T, Verweij LPE, et al. Orthopaedics & Traumatology, Surgery & Research : OTSR. 2023;109(4):103500. doi:10.1016/j.otsr.2022.103500.",
+"doi": "10.1016/j.otsr.2022.103500"
+},
+"115": {
+"n": 115,
+"texte": "Association of Generalized Joint Hypermobility With a History of Glenohumeral Joint Instability. Cameron KL, Duffey ML, DeBerardino TM, et al. Journal of Athletic Training. 2010 May-Jun;45(3):253-8. doi:10.4085/1062-6050-45.3.253.",
+"doi": "10.4085/1062-6050-45.3.253"
+},
+"116": {
+"n": 116,
+"texte": "Do Patients With Traumatic Recurrent Anterior Shoulder Instability Have Generalized Joint Laxity?. Ranalletta M, Bongiovanni S, Suarez F, Ovenza JM, Maignon G. Clinical Orthopaedics and Related Research. 2012;470(4):957-60. doi:10.1007/s11999-011-1992-x.",
+"doi": "10.1007/s11999-011-1992-x"
+},
+"117": {
+"n": 117,
+"texte": "The Trough Line: A Radiographic Sign of Posterior Shoulder Dislocation. Cisternino SJ, Rogers LF, Stufflebam BC, Kruglik GD. AJR. American Journal of Roentgenology. 1978;130(5):951-4. doi:10.2214/ajr.130.5.951.",
+"doi": "10.2214/ajr.130.5.951"
+},
+"118": {
+"n": 118,
+"texte": "Locked Posterior Dislocation of the Shoulder. Hawkins RJ, Neer CS, Pianta RM, Mendoza FX. The Journal of Bone and Joint Surgery. American Volume. 1987;69(1):9-18."
+},
+"119": {
+"n": 119,
+"texte": "Interventions for treating proximal humeral fractures in adults. Helen HG Handoll, Joanne Elliott, Theis M Thillemann, et al. Cochrane Database of Systematic Reviews. 2022. doi:10.1002/14651858.cd000434.pub5.",
+"doi": "10.1002/14651858.cd000434.pub5"
+},
+"120": {
+"n": 120,
+"texte": "Epidemiology and patho-anatomical pattern of 2,011 humeral fractures: data from the Swedish Fracture Register. Bergdahl C, Ekholm C, Wennergren D, Nilsson F, Möller M. BMC Musculoskeletal Disorders. 2016;17:159. doi:10.1186/s12891-016-1009-8.",
+"doi": "10.1186/s12891-016-1009-8"
+},
+"121": {
+"n": 121,
+"texte": "The Use of Radiographs to Evaluate Shoulder Pain in the ED. Fraenkel L, Lavalley M, Felson D. The American Journal of Emergency Medicine. 1998;16(6):560-3. doi:10.1016/s0735-6757(98)90218-2.",
+"doi": "10.1016/s0735-6757(98)90218-2"
+},
+"122": {
+"n": 122,
+"texte": "Improving the Selective Use of Plain Radiographs in the Initial Evaluation of Shoulder Pain. Fraenkel L, Shearer P, Mitchell P, et al. The Journal of Rheumatology. 2000;27(1):200-4."
+},
+"123": {
+"n": 123,
+"texte": "Nerve Lesions in Proximal Humeral Fractures. Visser CP, Coene LN, Brand R, Tavy DL. Journal of Shoulder and Elbow Surgery. 2001 Sep-Oct;10(5):421-7. doi:10.1067/mse.2001.118002.",
+"doi": "10.1067/mse.2001.118002"
+},
+"124": {
+"n": 124,
+"texte": "Electromyographic Findings in Shoulder Dislocations and Fractures of the Proximal Humerus: Comparison With Clinical Neurological Examination. Visser CP, Tavy DL, Coene LN, Brand R. Clinical Neurology and Neurosurgery. 1999;101(2):86-91. doi:10.1016/s0303-8467(99)00011-6.",
+"doi": "10.1016/s0303-8467(99)00011-6"
+},
+"125": {
+"n": 125,
+"texte": "Epidemiology of Clavicle Fractures. Postacchini F, Gumina S, De Santis P, Albo F. Journal of Shoulder and Elbow Surgery. 2002 Sep-Oct;11(5):452-6. doi:10.1067/mse.2002.126613.",
+"doi": "10.1067/mse.2002.126613"
+},
+"126": {
+"n": 126,
+"texte": "Clavicle fractures: epidemiology, classification and treatment of 2 422 fractures in the Swedish Fracture Register; an observational study. Kihlström C, Möller M, Lönn K, Wolf O. BMC Musculoskeletal Disorders. 2017;18(1):82. doi:10.1186/s12891-017-1444-1.",
+"doi": "10.1186/s12891-017-1444-1"
+},
+"127": {
+"n": 127,
+"texte": "Surgical versus conservative interventions for treating fractures of the middle third of the clavicle. Mário Lenza, Rachelle Buchbinder, Renea V Johnston, et al. Cochrane Database of Systematic Reviews. 2019. doi:10.1002/14651858.cd009363.pub3.",
+"doi": "10.1002/14651858.cd009363.pub3"
+},
+"128": {
+"n": 128,
+"texte": "Bedside Ultrasound Diagnosis of Clavicle Fractures in the Pediatric Emergency Department. Cross KP, Warkentine FH, Kim IK, Gracely E, Paul RI. Academic Emergency Medicine : Official Journal of the Society for Academic Emergency Medicine. 2010;17(7):687-93. doi:10.1111/j.1553-2712.2010.00788.x.",
+"doi": "10.1111/j.1553-2712.2010.00788.x"
+},
+"129": {
+"n": 129,
+"texte": "Bedside Ultrasound in the Diagnosis of Pediatric Clavicle Fractures. Chien M, Bulloch B, Garcia-Filion P, et al. Pediatric Emergency Care. 2011;27(11):1038-41. doi:10.1097/PEC.0b013e318235e965.",
+"doi": "10.1097/PEC.0b013e318235e965"
+},
+"130": {
+"n": 130,
+"texte": "Fracture sonography—review of literature and current recommendations. Ackermann O, Fischer CA, Grosser K, et al. Archives of Orthopaedic and Trauma Surgery. 2024;144(7):3025-3043. doi:10.1007/s00402-024-05396-1.",
+"doi": "10.1007/s00402-024-05396-1"
+},
+"131": {
+"n": 131,
+"texte": "Polymyalgia Rheumatica. Espígol-Frigolé G, Dejaco C, Mackie SL, et al. Lancet (London, England). 2023;402(10411):1459-1472. doi:10.1016/S0140-6736(23)01310-7.",
+"doi": "10.1016/S0140-6736(23)01310-7"
+},
+"132": {
+"n": 132,
+"texte": "Performance of the New 2012 EULAR/ACR Classification Criteria for Polymyalgia Rheumatica: Comparison With the Previous Criteria in a Single-Centre Study. Macchioni P, Boiardi L, Catanoso M, Pazzola G, Salvarani C. Annals of the Rheumatic Diseases. 2014;73(6):1190-3. doi:10.1136/annrheumdis-2013-204167.",
+"doi": "10.1136/annrheumdis-2013-204167"
+},
+"133": {
+"n": 133,
+"texte": "Polymyalgia Rheumatica in Patients With a Normal Erythrocyte Sedimentation Rate. Helfgott SM, Kieval RI. Arthritis and Rheumatism. 1996;39(2):304-7. doi:10.1002/art.1780390220.",
+"doi": "10.1002/art.1780390220"
+},
+"134": {
+"n": 134,
+"texte": "Polymyalgia Rheumatica. González-Gay MA, Matteson EL, Castañeda S. Lancet (London, England). 2017;390(10103):1700-1712. doi:10.1016/S0140-6736(17)31825-1.",
+"doi": "10.1016/S0140-6736(17)31825-1"
+},
+"135": {
+"n": 135,
+"texte": "Polymyalgia Rheumatica and Giant Cell Arteritis: A Systematic Review. Buttgereit F, Dejaco C, Matteson EL, Dasgupta B. JAMA. 2016;315(22):2442-58. doi:10.1001/jama.2016.5444.",
+"doi": "10.1001/jama.2016.5444"
+},
+"136": {
+"n": 136,
+"texte": "Clinical Utility of Anti-CCP Antibodies in the Differential Diagnosis of Elderly-Onset Rheumatoid Arthritis and Polymyalgia Rheumatica. Lopez-Hoyos M, Ruiz de Alegria C, Blanco R, et al. Rheumatology (Oxford, England). 2004;43(5):655-7. doi:10.1093/rheumatology/keh143.",
+"doi": "10.1093/rheumatology/keh143"
+},
+"137": {
+"n": 137,
+"texte": "Elderly-Onset Rheumatoid Arthritis Versus Polymyalgia Rheumatica: A Systematic Review and Meta-Analysis on Pathophysiology, Diagnosis and Clinical Progression. Hysa E, Gotelli E, Campitiello R, et al. Autoimmunity Reviews. 2026;26(1):104196. doi:10.1016/j.autrev.2026.104196.",
+"doi": "10.1016/j.autrev.2026.104196"
+}
+}
+}

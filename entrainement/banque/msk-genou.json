@@ -1,0 +1,7004 @@
+{
+"domaine": "MSK",
+"region": "Genou",
+"cle": "msk-genou",
+"lot": 7,
+"version": "2026-11-24",
+"source": "Base de données pour FlashCards Morand MSK (lot 7), références incluses",
+"diagnostics": [
+{
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+{
+"no": 121,
+"nom": "Arthrose du genou"
+},
+{
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+{
+"no": 123,
+"nom": "Rupture du LCA"
+},
+{
+"no": 124,
+"nom": "Entorse du LCP"
+},
+{
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+{
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+{
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+{
+"no": 128,
+"nom": "Syndrome du coussinet adipeux (Hoffa)"
+},
+{
+"no": 129,
+"nom": "Syndrome de la bandelette ilio-tibiale"
+},
+{
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+{
+"no": 131,
+"nom": "Tendinobursite de la patte d'oie"
+},
+{
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+{
+"no": 133,
+"nom": "Maladie de Sinding-Larsen-Johansson"
+},
+{
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+{
+"no": 135,
+"nom": "Syndrome de la plica"
+},
+{
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+{
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+{
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+{
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+{
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+{
+"no": 141,
+"nom": "Arthrite septique"
+},
+{
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+}
+],
+"cartes": [
+{
+"id": "MSK-123-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Lachman positif",
+"reponse": "increase",
+"explication": "Test de Lachman positif : LR+ 25,0",
+"contexte_puce": "↑ Test de Lachman positif : LR+ 25,0 ; ↓ négatif : LR− 0,1 (Solomon 2001, JAMA) ; LR+ 5,72 et LR− 0,24 en méta-analyse bivariée (Sokal 2022).",
+"donnee": {
+"lr_positif": 25.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+3,
+4
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Lachman négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,1 (Solomon 2001, JAMA) ; LR+ 5,72 et LR− 0,24 en méta-analyse bivariée (Sokal 2022).",
+"contexte_puce": "↑ Test de Lachman positif : LR+ 25,0 ; ↓ négatif : LR− 0,1 (Solomon 2001, JAMA) ; LR+ 5,72 et LR− 0,24 en méta-analyse bivariée (Sokal 2022).",
+"donnee": {
+"lr_positif": 5.72,
+"lr_negatif": 0.1,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+3,
+4
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-123-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Pivot shift positif",
+"reponse": "increase",
+"explication": "Pivot shift positif : Se 24 %, Sp 98 %, LR+ 12",
+"contexte_puce": "↑ Pivot shift positif : Se 24 %, Sp 98 %, LR+ 12 ; ↔ négatif : LR− 0,78, calculés (Benjaminse 2006).",
+"donnee": {
+"lr_positif": 12.0,
+"lr_negatif": null,
+"sensibilite": "24 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+5
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Pivot shift négatif",
+"reponse": "neutral",
+"explication": "Négatif : LR− 0,78, calculés (Benjaminse 2006).",
+"contexte_puce": "↑ Pivot shift positif : Se 24 %, Sp 98 %, LR+ 12 ; ↔ négatif : LR− 0,78, calculés (Benjaminse 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.78,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+5
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-123-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Tiroir antérieur",
+"reponse": "increase",
+"explication": "Tiroir antérieur : LR+ 3,8, LR− 0,30 (Solomon 2001) ; Se 38 % seulement en aigu (van Eck 2013).",
+"force": "faible",
+"donnee": {
+"lr_positif": 3.8,
+"lr_negatif": 0.3,
+"sensibilite": "38 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+3,
+6
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Lever sign positif",
+"reponse": "increase",
+"explication": "Lever sign positif : LR+ 9,66, LR− 0,18 (Sokal 2022).",
+"donnee": {
+"lr_positif": 9.66,
+"lr_negatif": 0.18,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+4
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Lever sign",
+"reponse": "neutral",
+"explication": "Lever sign : Se 100 % à l'origine (Lelli 2016), mais Se 61,2 % en station de ski (Bucher 2022, n = 258) et Sp 25 % aux urgences (Guiraud 2022).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "25 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+7,
+8,
+9
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Sensation de craquement (« pop »)",
+"reponse": "increase",
+"explication": "Sensation de craquement (« pop ») : Se 63 %, Sp 73 %, LR+ 2,3 et LR− 0,51 calculés (Wagemakers 2010) ; rapportée par 33 % des LCA intacts contre 36 % des LCA rompus en cas d'hémarthrose (Noyes 1980).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.3,
+"lr_negatif": 0.51,
+"sensibilite": "63 %",
+"specificite": "73 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+2,
+10
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Mécanisme en pivot avec « pop »",
+"reponse": "increase",
+"explication": "Mécanisme en pivot avec « pop » : LR+ 9,8",
+"contexte_puce": "↑ Mécanisme en pivot avec « pop » : LR+ 9,8 ; ↓ anamnèse et tests négatifs combinés : LR− 0,08 (Décary 2018, n = 279).",
+"donnee": {
+"lr_positif": 9.8,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+11
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Tests spécifiques",
+"enonce": "Anamnèse et tests négatifs combinés",
+"reponse": "decrease",
+"explication": "Anamnèse et tests négatifs combinés : LR− 0,08 (Décary 2018, n = 279).",
+"contexte_puce": "↑ Mécanisme en pivot avec « pop » : LR+ 9,8 ; ↓ anamnèse et tests négatifs combinés : LR− 0,08 (Décary 2018, n = 279).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.08,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+11
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-11",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Hémarthrose traumatique",
+"reponse": "increase",
+"explication": "Hémarthrose traumatique : LCA rompu dans 72 % des cas (Noyes 1980, n = 85) et 52 % en cohorte IRM (Olsson 2016, n = 1 145).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+10,
+12
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-12",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin chez la sportive",
+"reponse": "increase",
+"explication": "Sexe féminin chez la sportive : risque relatif 1,5 (Montalvo 2019)",
+"contexte_puce": "↑ Sexe féminin chez la sportive : risque relatif 1,5 (Montalvo 2019) ; ↔ sans différence entre sexes en soins primaires (Whittaker 2020).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+13,
+14
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-123-13",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 123,
+"nom": "Rupture du LCA"
+},
+"type": "Anamnèse",
+"enonce": "Sans différence entre sexes en soins primaires",
+"reponse": "neutral",
+"explication": "Sans différence entre sexes en soins primaires (Whittaker 2020).",
+"contexte_puce": "↑ Sexe féminin chez la sportive : risque relatif 1,5 (Montalvo 2019) ; ↔ sans différence entre sexes en soins primaires (Whittaker 2020).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+13,
+14
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 123"
+},
+{
+"id": "MSK-124-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 124,
+"nom": "Entorse du LCP"
+},
+"type": "Examen physique",
+"enonce": "Examen global par un expert",
+"reponse": "increase",
+"explication": "Examen global par un expert : Se 90 %, Sp 99 %, LR+ 90 et LR− 0,10 calculés (Rubinstein 1994, 39 sujets, ruptures chroniques isolées).",
+"donnee": {
+"lr_positif": 90.0,
+"lr_negatif": 0.1,
+"sensibilite": "90 %",
+"specificite": "99 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+17
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 124"
+},
+{
+"id": "MSK-124-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 124,
+"nom": "Entorse du LCP"
+},
+"type": "Examen physique",
+"enonce": "Examen composite",
+"reponse": "increase",
+"explication": "Examen composite : LR+ 21,0, LR− 0,05 (Solomon 2001, 2 études).",
+"donnee": {
+"lr_positif": 21.0,
+"lr_negatif": 0.05,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+3
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 124"
+},
+{
+"id": "MSK-124-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 124,
+"nom": "Entorse du LCP"
+},
+"type": "Anamnèse",
+"enonce": "Tiroir postérieur négatif",
+"reponse": "neutral",
+"explication": "Tiroir postérieur négatif : Se de 0,22 à 1,00 selon les études, Sp 0,98 ; précision « largement inconnue » (Kopkow 2013).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "0,22 à 1,00",
+"specificite": "0,98",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+18,
+19
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 124"
+},
+{
+"id": "MSK-124-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 124,
+"nom": "Entorse du LCP"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de l'affaissement postérieur (sag sign)",
+"reponse": "increase",
+"explication": "Signe de l'affaissement postérieur (sag sign) : Sp 1,00, Se 0,46 à 1,00.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "0,46 à 1,00",
+"specificite": "1,00",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+19
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 124"
+},
+{
+"id": "MSK-124-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 124,
+"nom": "Entorse du LCP"
+},
+"type": "Tests spécifiques",
+"enonce": "Test actif du quadriceps négatif",
+"reponse": "neutral",
+"explication": "Test actif du quadriceps négatif : Se 98 % à l'origine (Daniel 1988), 54 % en étude indépendante ; Sp 97 %.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "98 %",
+"specificite": "97 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+20,
+21
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 124"
+},
+{
+"id": "MSK-124-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 124,
+"nom": "Entorse du LCP"
+},
+"type": "Anamnèse",
+"enonce": "Laxité de grade I",
+"reponse": "neutral",
+"explication": "Laxité de grade I : le tiroir postérieur n'en détecte que 70 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+22
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 124"
+},
+{
+"id": "MSK-124-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 124,
+"nom": "Entorse du LCP"
+},
+"type": "Anamnèse",
+"enonce": "Autre lésion ligamentaire en traumatologie",
+"reponse": "increase",
+"explication": "Autre lésion ligamentaire en traumatologie : LCA associé dans 46 %, coin postéro-latéral dans 62 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+23
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 124"
+},
+{
+"id": "MSK-125-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Anamnèse",
+"enonce": "Douleur au valgus à 30°",
+"reponse": "increase",
+"explication": "Douleur au valgus à 30° : Se 78 %, Sp 67 %, LR+ 2,3",
+"contexte_puce": "↑ (faible) Douleur au valgus à 30° : Se 78 %, Sp 67 %, LR+ 2,3 ; ↓ (faible) absente : LR− 0,33 calculé.",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.3,
+"lr_negatif": null,
+"sensibilite": "78 %",
+"specificite": "67 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+25,
+26
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125"
+},
+{
+"id": "MSK-125-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Anamnèse",
+"enonce": "Douleur au valgus à 30° : absente",
+"reponse": "decrease",
+"explication": "Absente : LR− 0,33 calculé.",
+"contexte_puce": "↑ (faible) Douleur au valgus à 30° : Se 78 %, Sp 67 %, LR+ 2,3 ; ↓ (faible) absente : LR− 0,33 calculé.",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.33,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+25,
+26
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-125-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Anamnèse",
+"enonce": "Absence de laxité au valgus à 30°",
+"reponse": "decrease",
+"explication": "Absence de laxité au valgus à 30° : Se 91 %, LR− 0,18",
+"contexte_puce": "↓ Absence de laxité au valgus à 30° : Se 91 %, LR− 0,18 ; ↔ laxité présente : Sp 49 %, LR+ 1,78, calculés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.18,
+"sensibilite": "91 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+26
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125"
+},
+{
+"id": "MSK-125-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Anamnèse",
+"enonce": "Laxité présente",
+"reponse": "neutral",
+"explication": "Laxité présente : Sp 49 %, LR+ 1,78, calculés.",
+"contexte_puce": "↓ Absence de laxité au valgus à 30° : Se 91 %, LR− 0,18 ; ↔ laxité présente : Sp 49 %, LR+ 1,78, calculés.",
+"donnee": {
+"lr_positif": 1.78,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "49 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+26
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-125-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Examen physique",
+"enonce": "Traumatisme par force externe sur la jambe",
+"reponse": "increase",
+"explication": "Traumatisme par force externe sur la jambe : LR+ 2,0.",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+25
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125"
+},
+{
+"id": "MSK-125-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Anamnèse",
+"enonce": "Anamnèse, douleur et laxité au valgus réunies",
+"reponse": "increase",
+"explication": "Anamnèse, douleur et laxité au valgus réunies : LR+ 6,4.",
+"donnee": {
+"lr_positif": 6.4,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+25
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125"
+},
+{
+"id": "MSK-125-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Imagerie",
+"enonce": "Œdème du LLI à l'IRM",
+"reponse": "neutral",
+"explication": "Œdème du LLI à l'IRM : présent dans 60 % des genoux non traumatiques (Blankenbaker 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+27
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125"
+},
+{
+"id": "MSK-125-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 125,
+"nom": "Entorse d'un ligament collatéral"
+},
+"type": "Examen physique",
+"enonce": "Absence d'épanchement",
+"reponse": "neutral",
+"explication": "Absence d'épanchement : habituelle dans les lésions collatérales isolées.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+28
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 125"
+},
+{
+"id": "MSK-122-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de McMurray",
+"reponse": "neutral",
+"explication": "Test de McMurray : LR+ 1,3, LR− 0,8 (Solomon 2001) ; Se 61 %, Sp 84 %, LR+ 3,8 calculé (Smith 2015).",
+"discordant": true,
+"donnee": {
+"lr_positif": 1.3,
+"lr_negatif": 0.8,
+"sensibilite": "61 %",
+"specificite": "84 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+3,
+31
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité de l'interligne",
+"reponse": "neutral",
+"explication": "Sensibilité de l'interligne : LR+ 0,9, LR− 1,1 (Solomon 2001) ; Se 83 %, Sp 83 %, LR+ 4,9 et LR− 0,20 calculés (Smith 2015).",
+"discordant": true,
+"donnee": {
+"lr_positif": 0.9,
+"lr_negatif": 1.1,
+"sensibilite": "83 %",
+"specificite": "83 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+3,
+31
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Thessaly",
+"reponse": "neutral",
+"explication": "Test de Thessaly : précision de 94 à 96 % à l'origine (Karachalios 2005) ; LR+ 1,37, LR− 0,68 (Goossens 2015, n = 593) ; LR+ 1,08 en soins primaires (Blyth 2015).",
+"discordant": true,
+"donnee": {
+"lr_positif": 1.37,
+"lr_negatif": 0.68,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+32,
+33,
+34
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Examen physique",
+"enonce": "Examen composite",
+"reponse": "increase",
+"explication": "Examen composite : LR+ 2,7, LR− 0,4 (Solomon 2001).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.7,
+"lr_negatif": 0.4,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+3
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Anamnèse",
+"enonce": "Traumatisme en pivot, douleur médiale et interligne médial sensible",
+"reponse": "increase",
+"explication": "Traumatisme en pivot, douleur médiale et interligne médial sensible : LR+ 8,9, LR− 0,10 (Décary 2018, dérivation seule).",
+"donnee": {
+"lr_positif": 8.9,
+"lr_negatif": 0.1,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+35
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Anamnèse",
+"enonce": "Cinq items de Lowery réunis",
+"reponse": "increase",
+"explication": "Cinq items de Lowery réunis : valeur prédictive positive de 92,3 % (Lowery 2006, 635 genoux).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+36
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge > 40 ans",
+"reponse": "increase",
+"explication": "Âge > 40 ans : LR+ 2,0 ; douleur en flexion passive : LR+ 1,3 (Wagemakers 2008).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+30
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Facteurs de risque",
+"enonce": "Travail à genoux ou accroupi",
+"reponse": "increase",
+"explication": "Travail à genoux ou accroupi : OR 2,69 ; football : OR 3,58 (Snoeker 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.69,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+37,
+38
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Anamnèse",
+"enonce": "Symptômes mécaniques (claquement, accrochage)",
+"reponse": "neutral",
+"explication": "Symptômes mécaniques (claquement, accrochage) : Se 0,32 à 0,69, Sp 0,45 à 0,74.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "0,32 à 0,69",
+"specificite": "0,45 à 0,74",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+38
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-122-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 122,
+"nom": "Déchirure méniscale (sans blocage)"
+},
+"type": "Imagerie",
+"enonce": "Déchirure à l'IRM après 50 ans",
+"reponse": "neutral",
+"explication": "Déchirure à l'IRM après 50 ans : 19 % des femmes de 50–59 ans à 56 % des hommes de 70–90 ans ; 61 % sans symptôme (Englund 2008, NEJM, n = 991).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+39
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 122"
+},
+{
+"id": "MSK-136-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Anamnèse",
+"enonce": "Ménisque latéral",
+"reponse": "increase",
+"explication": "Ménisque latéral : la forme médiale ne représente que 0,06 à 0,3 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+42
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-136-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Anamnèse",
+"enonce": "Ménisque discoïde controlatéral connu",
+"reponse": "increase",
+"explication": "Ménisque discoïde controlatéral connu : bilatéral dans 79 % des cas en Asie (Bae 2012) contre 5 à 20 % dans les séries occidentales.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+40,
+43
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-136-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Facteurs démographiques",
+"enonce": "Enfant d'environ 12 ans avec ressaut",
+"reponse": "increase",
+"explication": "Enfant d'environ 12 ans avec ressaut : ressaut 30 %, « clunk » 26 %, blocage 33 % (cohorte opérée, n = 784).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+44
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-136-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Tests spécifiques",
+"enonce": "McMurray ou Apley négatifs",
+"reponse": "neutral",
+"explication": "McMurray ou Apley négatifs : positifs dans 6 % seulement.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+44
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-136-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Anamnèse",
+"enonce": "Interligne latéral > 6 mm à la radiographie",
+"reponse": "increase",
+"explication": "Interligne latéral > 6 mm à la radiographie : Se 81,0 %, Sp 86,6 %, LR+ 6,0 calculé (Song 2015).",
+"donnee": {
+"lr_positif": 6.0,
+"lr_negatif": null,
+"sensibilite": "81,0 %",
+"specificite": "86,6 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+45
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-136-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie normale",
+"reponse": "neutral",
+"explication": "Radiographie normale : peu fiable pour la forme incomplète.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+45,
+46
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-136-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Imagerie",
+"enonce": "Critères quantitatifs à l'IRM",
+"reponse": "increase",
+"explication": "Critères quantitatifs à l'IRM : Se 95 %, Sp 97 %, LR+ environ 32 calculé (Samoto 2002).",
+"donnee": {
+"lr_positif": 32.0,
+"lr_negatif": null,
+"sensibilite": "95 %",
+"specificite": "97 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+47
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-136-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 136,
+"nom": "Ménisque discoïde"
+},
+"type": "Imagerie",
+"enonce": "IRM dans la déchirure de type inversé",
+"reponse": "neutral",
+"explication": "IRM dans la déchirure de type inversé : 3 cas sur 12 remplissaient les critères habituels.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+48
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 136"
+},
+{
+"id": "MSK-134-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle d'Ottawa négative",
+"reponse": "increase",
+"explication": "Règle d'Ottawa négative : Se 98,5 %, Sp 48,6 %, LR− 0,05 pour la fracture, soit 0,37 % de fracture résiduelle (Bachmann 2004, n = 4 249).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.05,
+"sensibilite": "98,5 %",
+"specificite": "48,6 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+49
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134"
+},
+{
+"id": "MSK-134-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle d'Ottawa positive",
+"reponse": "neutral",
+"explication": "Règle d'Ottawa positive : LR+ 1,86 (Sims 2020) ; environ 3 % de fractures en soins primaires.",
+"donnee": {
+"lr_positif": 1.86,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+50,
+1
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134"
+},
+{
+"id": "MSK-134-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle de Pittsburgh négative",
+"reponse": "increase",
+"explication": "Règle de Pittsburgh négative : Se 99 %, Sp 60 %, LR− 0,02",
+"contexte_puce": "↑ Règle de Pittsburgh négative : Se 99 %, Sp 60 %, LR− 0,02 ; ↓ (faible) positive : LR+ 2,5 (Seaberg 1998, n = 934).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.02,
+"sensibilite": "99 %",
+"specificite": "60 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+51,
+52
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134"
+},
+{
+"id": "MSK-134-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle de Pittsburgh positive",
+"reponse": "decrease",
+"explication": "Positive : LR+ 2,5 (Seaberg 1998, n = 934).",
+"contexte_puce": "↑ Règle de Pittsburgh négative : Se 99 %, Sp 60 %, LR− 0,02 ; ↓ (faible) positive : LR+ 2,5 (Seaberg 1998, n = 934).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.5,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+51,
+52
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-134-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Anamnèse",
+"enonce": "Petite série",
+"reponse": "neutral",
+"explication": "Petite série : Se 86 % pour les deux règles (Cheung 2013, n = 90, 7 fractures).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "86 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+53
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134"
+},
+{
+"id": "MSK-134-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Examen physique",
+"enonce": "Appui possible, pas d'épanchement ni d'ecchymose",
+"reponse": "increase",
+"explication": "Appui possible, pas d'épanchement ni d'ecchymose : 0 fracture sur 76 (Bauer 1995, non validé).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+54
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134"
+},
+{
+"id": "MSK-134-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Anamnèse",
+"enonce": "Lipohémarthrose",
+"reponse": "decrease",
+"explication": "Lipohémarthrose : Sp 88,6 % pour la fracture (Ferguson 1994)",
+"contexte_puce": "↓ Lipohémarthrose : Sp 88,6 % pour la fracture (Ferguson 1994) ; ↔ absente : présente dans environ 35 % seulement des fractures intra-articulaires (Lee 1989).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "88,6 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+55,
+56
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134"
+},
+{
+"id": "MSK-134-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Anamnèse",
+"enonce": "Lipohémarthrose absente",
+"reponse": "neutral",
+"explication": "Absente : présente dans environ 35 % seulement des fractures intra-articulaires (Lee 1989).",
+"contexte_puce": "↓ Lipohémarthrose : Sp 88,6 % pour la fracture (Ferguson 1994) ; ↔ absente : présente dans environ 35 % seulement des fractures intra-articulaires (Lee 1989).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+55,
+56
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-134-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 134,
+"nom": "Contusion ou entorse légère, sans lésion structurelle"
+},
+"type": "Anamnèse",
+"enonce": "Hémarthrose traumatique",
+"reponse": "decrease",
+"explication": "Hémarthrose traumatique : LCA rompu dans 52 à 72 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+10,
+12
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 134"
+},
+{
+"id": "MSK-120-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Anamnèse",
+"enonce": "Accroupissement indolore",
+"reponse": "decrease",
+"explication": "Accroupissement indolore : Se 91 %, Sp 50 %, LR− 0,18",
+"contexte_puce": "↓ Accroupissement indolore : Se 91 %, Sp 50 %, LR− 0,18 ; ↔ douloureux : LR+ 1,82, calculés (Nunes 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.18,
+"sensibilite": "91 %",
+"specificite": "50 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38,
+59
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Anamnèse",
+"enonce": "Accroupissement douloureux",
+"reponse": "neutral",
+"explication": "Douloureux : LR+ 1,82, calculés (Nunes 2013).",
+"contexte_puce": "↓ Accroupissement indolore : Se 91 %, Sp 50 %, LR− 0,18 ; ↔ douloureux : LR+ 1,82, calculés (Nunes 2013).",
+"donnee": {
+"lr_positif": 1.82,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+38,
+59
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-120-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'inclinaison de la rotule positif",
+"reponse": "increase",
+"explication": "Test d'inclinaison de la rotule positif : LR+ 5,4",
+"contexte_puce": "↑ Test d'inclinaison de la rotule positif : LR+ 5,4 ; ↔ négatif : LR− 0,6 (Nunes 2013).",
+"donnee": {
+"lr_positif": 5.4,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+59,
+60
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'inclinaison de la rotule négatif",
+"reponse": "neutral",
+"explication": "Négatif : LR− 0,6 (Nunes 2013).",
+"contexte_puce": "↑ Test d'inclinaison de la rotule positif : LR+ 5,4 ; ↔ négatif : LR− 0,6 (Nunes 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.6,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+59,
+60
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-120-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de Clarke (rabot)",
+"reponse": "neutral",
+"explication": "Signe de Clarke (rabot) : Se 0,39, Sp 0,67, LR+ 1,18, LR− 0,91 (Doberstein 2008, n = 106).",
+"donnee": {
+"lr_positif": 1.18,
+"lr_negatif": 0.91,
+"sensibilite": "0,39",
+"specificite": "0,67",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+61
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge < 40 ans avec douleur antérieure isolée ou facette médiale sensible",
+"reponse": "increase",
+"explication": "Âge < 40 ans avec douleur antérieure isolée ou facette médiale sensible : LR+ 8,7",
+"contexte_puce": "↑ Âge < 40 ans avec douleur antérieure isolée ou facette médiale sensible : LR+ 8,7 ; ↓ combinaison d'exclusion (dont âge ≥ 58 ans) : LR− 0,12 ; non validé (Décary 2018).",
+"donnee": {
+"lr_positif": 8.7,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+57
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Combinaison d'exclusion (dont âge ≥ 58 ans)",
+"reponse": "decrease",
+"explication": "Combinaison d'exclusion (dont âge ≥ 58 ans) : LR− 0,12 ; non validé (Décary 2018).",
+"contexte_puce": "↑ Âge < 40 ans avec douleur antérieure isolée ou facette médiale sensible : LR+ 8,7 ; ↓ combinaison d'exclusion (dont âge ≥ 58 ans) : LR− 0,12 ; non validé (Décary 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.12,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+57
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : risque relatif 2,23 (Boling 2010, n = 1 525) Données discordantes : non prédictif en méta-analyse militaire (Rocha 2025).",
+"contexte_puce": "↑ Sexe féminin : risque relatif 2,23 (Boling 2010, n = 1 525) ; ↔ (discordant) non prédictif en méta-analyse militaire (Rocha 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+62,
+63
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120",
+"discordant": true
+},
+{
+"id": "MSK-120-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Anamnèse",
+"enonce": "Quadriceps faible",
+"reponse": "increase",
+"explication": "Quadriceps faible : différence standardisée −0,69 en prospectif, militaires (Neal 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+64
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Anamnèse",
+"enonce": "Angle Q, faiblesse des abducteurs de hanche",
+"reponse": "neutral",
+"explication": "Angle Q, faiblesse des abducteurs de hanche : non prédictifs en prospectif (Neal 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+64
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-11",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge, taille, poids, IMC",
+"reponse": "neutral",
+"explication": "Âge, taille, poids, IMC : non prédictifs.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+64
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-120-12",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 120,
+"nom": "Syndrome fémoro-patellaire"
+},
+"type": "Anamnèse",
+"enonce": "Retard d'activation du vaste médial",
+"reponse": "neutral",
+"explication": "Retard d'activation du vaste médial : effet faible et inconstant.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+65,
+66
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 120"
+},
+{
+"id": "MSK-126-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Tests spécifiques",
+"enonce": "Moving patellar apprehension test",
+"reponse": "increase",
+"explication": "Moving patellar apprehension test : Se 100 %, Sp 88,4 %, LR+ environ 8,6 calculé (Ahmad 2009, n = 51, non répliqué).",
+"donnee": {
+"lr_positif": 8.6,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "88,4 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+69
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-126-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'appréhension dynamique inversé",
+"reponse": "increase",
+"explication": "Test d'appréhension dynamique inversé : Se 93,7 %, Sp 88,2 %, LR+ 7,9 et LR− 0,07 calculés (Zimmermann 2019).",
+"donnee": {
+"lr_positif": 7.9,
+"lr_negatif": 0.07,
+"sensibilite": "93,7 %",
+"specificite": "88,2 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+70
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-126-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'appréhension classique négatif",
+"reponse": "neutral",
+"explication": "Test d'appréhension classique négatif : positif chez 39 % seulement après luxation.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+69
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-126-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Anamnèse",
+"enonce": "Dysplasie de la trochlée",
+"reponse": "increase",
+"explication": "Dysplasie de la trochlée : 85 % des genoux instables contre 3 à 6,5 % des témoins (Dejour 1994) ; OR 11 en population (DeVries 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 11.0,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+71,
+72
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-126-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Anamnèse",
+"enonce": "TT-TG ≥ 20 mm",
+"reponse": "increase",
+"explication": "TT-TG ≥ 20 mm : 56 % contre 3 à 6,5 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+71
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-126-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Anamnèse",
+"enonce": "Patella alta",
+"reponse": "increase",
+"explication": "Patella alta : 60 % contre 20,8 %, LR+ 2,9 calculé (Steensen 2015).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.9,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+73
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-126-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Facteurs démographiques",
+"enonce": "Hémarthrose de l'enfant",
+"reponse": "increase",
+"explication": "Hémarthrose de l'enfant : luxation de rotule dans 41 % des cas, dont 27 % non reconnues à l'examen (Askenberger 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+74
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-126-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 126,
+"nom": "Instabilité ou luxation de la rotule"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe",
+"reponse": "neutral",
+"explication": "Sexe : filles de 10–17 ans à risque 33 % plus élevé (Fithian 2004), incidence similaire chez Sanders 2017.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+67,
+68
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 126"
+},
+{
+"id": "MSK-127-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Anamnèse",
+"enonce": "Volley-ball ou basket-ball",
+"reponse": "increase",
+"explication": "Volley-ball ou basket-ball : 44,6 % et 31,9 %",
+"contexte_puce": "↑ Volley-ball ou basket-ball : 44,6 % et 31,9 % ; ↓ cyclisme : 0 % (Lian 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+78
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Anamnèse",
+"enonce": "Volley-ball ou basket-ball (cyclisme)",
+"reponse": "decrease",
+"explication": "Cyclisme : 0 % (Lian 2005).",
+"contexte_puce": "↑ Volley-ball ou basket-ball : 44,6 % et 31,9 % ; ↓ cyclisme : 0 % (Lian 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+78
+],
+"difficulte": 2,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-127-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "increase",
+"explication": "Sexe masculin : 13,5 % contre 5,6 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+78
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Anamnèse",
+"enonce": "Entraînement > 20 h par semaine",
+"reponse": "increase",
+"explication": "Entraînement > 20 h par semaine : OR 8,94 (Morton 2017, n = 825).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 8.94,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+81
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Anamnèse",
+"enonce": "Squat unipodal sur plan incliné douloureux",
+"reponse": "increase",
+"explication": "Squat unipodal sur plan incliné douloureux : LR+ 4,2 ; antécédent de douleur tendineuse : LR+ 4,5 (Mendonça 2016, n = 43).",
+"donnee": {
+"lr_positif": 4.2,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+82
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Tests spécifiques",
+"enonce": "Squat, VISA-P et antécédent tous négatifs",
+"reponse": "decrease",
+"explication": "Squat, VISA-P et antécédent tous négatifs : LR− 0,3.",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.3,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+82
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité légère à la palpation",
+"reponse": "neutral",
+"explication": "Sensibilité légère à la palpation : valeur prédictive positive de 36 à 38 % chez l'asymptomatique (Cook 2001, 326 tendons).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+83
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive",
+"reponse": "increase",
+"explication": "Échographie positive : Se 87 %, Sp 82 %, LR+ 4,8, LR− 0,2 (Warden 2007).",
+"donnee": {
+"lr_positif": 4.8,
+"lr_negatif": 0.2,
+"sensibilite": "87 %",
+"specificite": "82 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+84
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Anamnèse",
+"enonce": "Zone hypoéchogène chez l'asymptomatique",
+"reponse": "neutral",
+"explication": "Zone hypoéchogène chez l'asymptomatique : 10 à 30 % des tendons ; 36 % seulement deviennent symptomatiques (Visnes 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+85
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-127-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 127,
+"nom": "Tendinopathie rotulienne ou quadricipitale"
+},
+"type": "Anamnèse",
+"enonce": "Souplesse, IMC",
+"reponse": "neutral",
+"explication": "Souplesse, IMC : aucune preuve forte (van der Worp 2011 ; Sprague 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+86,
+87
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 127"
+},
+{
+"id": "MSK-128-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 128,
+"nom": "Syndrome du coussinet adipeux (Hoffa)"
+},
+"type": "Imagerie",
+"enonce": "Œdème du coussinet à l'IRM",
+"reponse": "neutral",
+"explication": "Œdème du coussinet à l'IRM : présent chez 4 patients sur 4 avec conflit clinique, mais aussi chez 38 sur 43 sans conflit, Sp environ 12 % calculée (De Smet 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+88
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 128"
+},
+{
+"id": "MSK-128-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 128,
+"nom": "Syndrome du coussinet adipeux (Hoffa)"
+},
+"type": "Examen physique",
+"enonce": "Œdème supéro-latéral chez le sujet âgé",
+"reponse": "neutral",
+"explication": "Œdème supéro-latéral chez le sujet âgé : 13,4 % de 1 134 genoux (étude MOST).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+89
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 128"
+},
+{
+"id": "MSK-128-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 128,
+"nom": "Syndrome du coussinet adipeux (Hoffa)"
+},
+"type": "Anamnèse",
+"enonce": "Patella alta",
+"reponse": "increase",
+"explication": "Patella alta : OR 8,9 pour l'œdème supéro-latéral (MOST).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 8.9,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+89
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 128"
+},
+{
+"id": "MSK-128-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 128,
+"nom": "Syndrome du coussinet adipeux (Hoffa)"
+},
+"type": "Facteurs de risque",
+"enonce": "Anomalies de la course rotulienne",
+"reponse": "increase",
+"explication": "Anomalies de la course rotulienne : associées à l'œdème en méta-analyse (Kim 2020).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+90
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 128"
+},
+{
+"id": "MSK-128-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 128,
+"nom": "Syndrome du coussinet adipeux (Hoffa)"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : œdème chez 19 femmes sur 28 contre 6 hommes sur 22 (Subhawong 2010).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+91
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 128"
+},
+{
+"id": "MSK-135-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 135,
+"nom": "Syndrome de la plica"
+},
+"type": "Tests spécifiques",
+"enonce": "MPP test positif",
+"reponse": "increase",
+"explication": "MPP test positif : Se 89,5 %, Sp 88,7 %, LR+ 7,9",
+"contexte_puce": "↑ MPP test positif : Se 89,5 %, Sp 88,7 %, LR+ 7,9 ; ↓ négatif : LR− 0,12, calculés (Kim 2007, 172 genoux, étude d'origine).",
+"donnee": {
+"lr_positif": 7.9,
+"lr_negatif": null,
+"sensibilite": "89,5 %",
+"specificite": "88,7 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+94
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 135"
+},
+{
+"id": "MSK-135-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 135,
+"nom": "Syndrome de la plica"
+},
+"type": "Tests spécifiques",
+"enonce": "MPP test négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,12, calculés (Kim 2007, 172 genoux, étude d'origine).",
+"contexte_puce": "↑ MPP test positif : Se 89,5 %, Sp 88,7 %, LR+ 7,9 ; ↓ négatif : LR− 0,12, calculés (Kim 2007, 172 genoux, étude d'origine).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.12,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+94
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 135",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-135-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 135,
+"nom": "Syndrome de la plica"
+},
+"type": "Imagerie",
+"enonce": "Plica visible à l'arthroscopie ou à l'IRM",
+"reponse": "neutral",
+"explication": "Plica visible à l'arthroscopie ou à l'IRM : 72 à 80 % et 47,7 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+92,
+95,
+96
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 135"
+},
+{
+"id": "MSK-135-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 135,
+"nom": "Syndrome de la plica"
+},
+"type": "Anamnèse",
+"enonce": "Échographie positive",
+"reponse": "increase",
+"explication": "Échographie positive : Se 0,90, Sp 0,83, LR+ 5,3 et LR− 0,12 calculés (Stubbings 2014).",
+"donnee": {
+"lr_positif": 5.3,
+"lr_negatif": 0.12,
+"sensibilite": "0,90",
+"specificite": "0,83",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+97
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 135"
+},
+{
+"id": "MSK-135-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 135,
+"nom": "Syndrome de la plica"
+},
+"type": "Imagerie",
+"enonce": "IRM",
+"reponse": "neutral",
+"explication": "IRM : Se 0,77, Sp 0,58, LR+ 1,8 et LR− 0,40 calculés.",
+"donnee": {
+"lr_positif": 1.8,
+"lr_negatif": 0.4,
+"sensibilite": "0,77",
+"specificite": "0,58",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+97
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 135"
+},
+{
+"id": "MSK-129-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 129,
+"nom": "Syndrome de la bandelette ilio-tibiale"
+},
+"type": "Anamnèse",
+"enonce": "Faiblesse des abducteurs de hanche",
+"reponse": "neutral",
+"explication": "Faiblesse des abducteurs de hanche : présente chez Fredericson 2000 (24 contre 30), absente chez Grau 2011 ; aucune étude prospective.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+103,
+104,
+105
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 129"
+},
+{
+"id": "MSK-129-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 129,
+"nom": "Syndrome de la bandelette ilio-tibiale"
+},
+"type": "Tests spécifiques",
+"enonce": "Test d'Ober",
+"reponse": "neutral",
+"explication": "Test d'Ober : la section de la bandelette modifie l'adduction de moins de 1° (Willett 2016, cadavres).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+106
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 129"
+},
+{
+"id": "MSK-129-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 129,
+"nom": "Syndrome de la bandelette ilio-tibiale"
+},
+"type": "Imagerie",
+"enonce": "IRM normale",
+"reponse": "neutral",
+"explication": "IRM normale : liquide sous la bandelette chez 5 cas cliniques sur 7 seulement.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+107
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 129"
+},
+{
+"id": "MSK-129-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 129,
+"nom": "Syndrome de la bandelette ilio-tibiale"
+},
+"type": "Anamnèse",
+"enonce": "(incertain) Adduction de hanche accrue chez la coureuse",
+"reponse": "increase",
+"explication": "(incertain) Adduction de hanche accrue chez la coureuse : étude prospective unique.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+108,
+109
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 129"
+},
+{
+"id": "MSK-130-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Facteurs de risque",
+"enonce": "Travail à genoux",
+"reponse": "increase",
+"explication": "Travail à genoux : environ 10 % des poseurs de moquette et des mineurs ; épaississement bursal échographique chez 49 % contre 7 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+112,
+113
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-130-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Facteurs démographiques",
+"enonce": "Homme de 40 à 60 ans",
+"reponse": "increase",
+"explication": "Homme de 40 à 60 ans : 80 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+110
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-130-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Anamnèse",
+"enonce": "Absence d'érythème",
+"reponse": "increase",
+"explication": "Absence d'érythème : LR 0,23 pour l'infection (données de l'olécrâne).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+114
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-130-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Anamnèse",
+"enonce": "Chaleur locale",
+"reponse": "neutral",
+"explication": "Chaleur locale : LR+ 1,5 pour l'infection (données de l'olécrâne).",
+"donnee": {
+"lr_positif": 1.5,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-130-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Drapeaux rouges",
+"enonce": "Absence de fièvre",
+"reponse": "neutral",
+"explication": "Absence de fièvre : la fièvre n'est présente que dans 30,8 % des bursites prépatellaires septiques (Lieber 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+115
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-130-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Anamnèse",
+"enonce": "Peau plus chaude de plus de 2,2 °C que le côté opposé",
+"reponse": "decrease",
+"explication": "Peau plus chaude de plus de 2,2 °C que le côté opposé : Se 100 %, Sp 94 % pour l'infection (source secondaire).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "94 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+98
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-130-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes bursaux",
+"reponse": "neutral",
+"explication": "Leucocytes bursaux : seuil proposé de 3 000/µL, mais 350 à 392 500 dans les formes septiques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+110,
+116
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-130-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 130,
+"nom": "Bursite prépatellaire non infectée"
+},
+"type": "Anamnèse",
+"enonce": "Traumatisme ou métier à risque",
+"reponse": "neutral",
+"explication": "Traumatisme ou métier à risque : présent aussi dans 92 % des formes septiques (Raddatz 1987).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+116
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 130"
+},
+{
+"id": "MSK-131-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 131,
+"nom": "Tendinobursite de la patte d'oie"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "increase",
+"explication": "Sexe féminin : 12,5 % contre 1,7 % à l'IRM (Kim 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+118
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 131"
+},
+{
+"id": "MSK-131-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 131,
+"nom": "Tendinobursite de la patte d'oie"
+},
+"type": "Anamnèse",
+"enonce": "Gonarthrose",
+"reponse": "increase",
+"explication": "Gonarthrose : 17,5 % contre 2,2 % (Kim 2016) Données discordantes : sans lien avec la gravité de l'arthrose (Kang 2000).",
+"contexte_puce": "↑ Gonarthrose : 17,5 % contre 2,2 % (Kim 2016) ; ↔ (discordant) sans lien avec la gravité de l'arthrose (Kang 2000).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+118,
+119
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 131",
+"discordant": true
+},
+{
+"id": "MSK-131-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 131,
+"nom": "Tendinobursite de la patte d'oie"
+},
+"type": "Facteurs de risque",
+"enonce": "Diabète",
+"reponse": "neutral",
+"explication": "Diabète : 36 % des diabétiques de type 2 (Cohen 1997), non associé en cas-témoins (Alvarez-Nemegyei 2007).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+120,
+121
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 131"
+},
+{
+"id": "MSK-131-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 131,
+"nom": "Tendinobursite de la patte d'oie"
+},
+"type": "Facteurs de risque",
+"enonce": "Obésité",
+"reponse": "neutral",
+"explication": "Obésité : 72,7 % contre 55,3 %, p = 0,28.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+120
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 131"
+},
+{
+"id": "MSK-131-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 131,
+"nom": "Tendinobursite de la patte d'oie"
+},
+"type": "Anamnèse",
+"enonce": "Échographie normale",
+"reponse": "neutral",
+"explication": "Échographie normale : anomalie chez 8,7 % seulement des cas cliniques (Yoon 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+122
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 131"
+},
+{
+"id": "MSK-137-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Gonarthrose douloureuse",
+"reponse": "increase",
+"explication": "Gonarthrose douloureuse : 27 % des genoux contre 2 % (Chatzopoulos 2008).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+127
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Déchirure du ménisque médial",
+"reponse": "increase",
+"explication": "Déchirure du ménisque médial : 70 % contre 19 %",
+"contexte_puce": "↑ Déchirure du ménisque médial : 70 % contre 19 % ; ↔ ménisque latéral : 20 % contre 36 % (Rupp 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+128
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Ménisque latéral",
+"reponse": "neutral",
+"explication": "Ménisque latéral : 20 % contre 36 % (Rupp 2002).",
+"contexte_puce": "↑ Déchirure du ménisque médial : 70 % contre 19 % ; ↔ ménisque latéral : 20 % contre 36 % (Rupp 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+128
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-137-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Examen physique",
+"enonce": "Épanchement, déchirure méniscale et arthropathie réunis",
+"reponse": "increase",
+"explication": "Épanchement, déchirure méniscale et arthropathie réunis : probabilité de 0,38 contre 0,08 à 0,10 avec un seul (Miller 1996, n = 400).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+129
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Lésion du LCA ou du LLI",
+"reponse": "neutral",
+"explication": "Lésion du LCA ou du LLI : non associée.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+129
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Polyarthrite rhumatoïde",
+"reponse": "increase",
+"explication": "Polyarthrite rhumatoïde : 31 % contre 4 % (Gompels 1982).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+130
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Examen physique",
+"enonce": "Examen clinique positif",
+"reponse": "increase",
+"explication": "Examen clinique positif : Se 0,74, Sp 0,88, LR+ 6,3",
+"contexte_puce": "↑ Examen clinique positif : Se 0,74, Sp 0,88, LR+ 6,3 ; ↓ (faible) négatif : LR− 0,30 (Tang 2026, 720 genoux).",
+"donnee": {
+"lr_positif": 6.3,
+"lr_negatif": null,
+"sensibilite": "0,74",
+"specificite": "0,88",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+131
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Examen physique",
+"enonce": "Examen clinique négatif",
+"reponse": "decrease",
+"explication": "Négatif : LR− 0,30 (Tang 2026, 720 genoux).",
+"contexte_puce": "↑ Examen clinique positif : Se 0,74, Sp 0,88, LR+ 6,3 ; ↓ (faible) négatif : LR− 0,30 (Tang 2026, 720 genoux).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.3,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+131
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-137-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Kyste non palpable",
+"reponse": "neutral",
+"explication": "Kyste non palpable : 44 % seulement des kystes prouvés étaient palpables (Katz 1977).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+132
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Tableau de phlébite",
+"reponse": "neutral",
+"explication": "Tableau de phlébite : 73 % des ruptures d'abord prises pour une thrombose (Brady 1987).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+133
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-137-11",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 137,
+"nom": "Kyste poplité (de Baker)"
+},
+"type": "Anamnèse",
+"enonce": "Kyste présent pour exclure une thrombose",
+"reponse": "neutral",
+"explication": "Kyste présent pour exclure une thrombose : kyste dans 8,0 % des examens avec thrombose contre 9,2 % sans (Daniels 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+134
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 137"
+},
+{
+"id": "MSK-132-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Facteurs de risque",
+"enonce": "Sport régulier",
+"reponse": "increase",
+"explication": "Sport régulier : OR 1,94, soit 13,0 % contre 6,7 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.94,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+136
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-132-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Facteurs de risque",
+"enonce": "Sports de saut et de ballon",
+"reponse": "increase",
+"explication": "Sports de saut et de ballon : risque relatif 2,07 à 2,74 (Wedderkopp 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+137
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-132-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Anamnèse",
+"enonce": "Raccourcissement du droit fémoral",
+"reponse": "increase",
+"explication": "Raccourcissement du droit fémoral : OR 7,15, mais présent chez 74,6 % de tous les élèves.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 7.15,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+136
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-132-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Anamnèse",
+"enonce": "Quadriceps raide, forte poussée de croissance",
+"reponse": "increase",
+"explication": "Quadriceps raide, forte poussée de croissance : prédicteurs prospectifs ; incidence de 14,3 % à 1 an (Nakase 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+138,
+139
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-132-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe",
+"reponse": "neutral",
+"explication": "Sexe : 11,0 % des garçons contre 8,3 % des filles, non significatif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+136,
+140
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-132-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte unilatérale",
+"reponse": "neutral",
+"explication": "Atteinte unilatérale : bilatérale dans 20 à 30 % des cas seulement.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+141,
+142
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-132-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Tests spécifiques",
+"enonce": "Doppler positif du tendon",
+"reponse": "increase",
+"explication": "Doppler positif du tendon : 77 % contre 30 %, LR+ 2,6 calculé (Holden 2024, 35 contre 21).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.6,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+143
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-132-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 132,
+"nom": "Maladie d'Osgood-Schlatter"
+},
+"type": "Anamnèse",
+"enonce": "Fragmentation radiographique isolée",
+"reponse": "neutral",
+"explication": "Fragmentation radiographique isolée : observée chez l'enfant normal.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+144
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 132"
+},
+{
+"id": "MSK-133-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 133,
+"nom": "Maladie de Sinding-Larsen-Johansson"
+},
+"type": "Facteurs démographiques",
+"enonce": "Adolescent actif de 9 à 17 ans",
+"reponse": "increase",
+"explication": "Adolescent actif de 9 à 17 ans : âge moyen de 11,7 ans, contre 12,2 ans pour Osgood-Schlatter.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+137,
+145
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 133"
+},
+{
+"id": "MSK-133-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 133,
+"nom": "Maladie de Sinding-Larsen-Johansson"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe",
+"reponse": "neutral",
+"explication": "Sexe : prédominance masculine pour une revue, sexes égaux pour une autre.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+145,
+141
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 133"
+},
+{
+"id": "MSK-133-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 133,
+"nom": "Maladie de Sinding-Larsen-Johansson"
+},
+"type": "Anamnèse",
+"enonce": "Fréquence",
+"reponse": "decrease",
+"explication": "Fréquence : 6,1 % des lésions physaires contre 28,1 % pour Osgood-Schlatter (académie de football).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+146
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 133"
+},
+{
+"id": "MSK-138-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "increase",
+"explication": "Sexe masculin : OR 3,8, soit 15,4 contre 3,3 pour 100 000.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.8,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+147
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-138-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge de 12 à 19 ans",
+"reponse": "increase",
+"explication": "Âge de 12 à 19 ans : OR 3,3",
+"contexte_puce": "↑ Âge de 12 à 19 ans : OR 3,3 ; ↓ avant 6 ans : aucun cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.3,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+147
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-138-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Facteurs démographiques",
+"enonce": "Avant 6 ans",
+"reponse": "decrease",
+"explication": "Avant 6 ans : aucun cas.",
+"contexte_puce": "↑ Âge de 12 à 19 ans : OR 3,3 ; ↓ avant 6 ans : aucun cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+147
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-138-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Anamnèse",
+"enonce": "Condyle fémoral médial",
+"reponse": "increase",
+"explication": "Condyle fémoral médial : 63,6 % ; condyle latéral : 32,5 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+147
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-138-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de Wilson négatif",
+"reponse": "neutral",
+"explication": "Signe de Wilson négatif : Se 25 % (8 sur 32), spécificité inconnue (Conrad 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "25 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+148
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-138-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Anamnèse",
+"enonce": "Ostéochondrite controlatérale connue",
+"reponse": "increase",
+"explication": "Ostéochondrite controlatérale connue : bilatérale dans 29 % des cas avec radiographie systématique (Cooper 2014), dont 39 % asymptomatiques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+149
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-138-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie de face normale",
+"reponse": "neutral",
+"explication": "Radiographie de face normale : certaines lésions ne sont visibles que sur l'incidence de l'échancrure ; sans Se publiée.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+150
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-138-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 138,
+"nom": "Ostéochondrite disséquante du genou"
+},
+"type": "Imagerie",
+"enonce": "Examen, radiographie et IRM combinés",
+"reponse": "increase",
+"explication": "Examen, radiographie et IRM combinés : Se 94,4 %, Sp 100 % (Luhmann 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "94,4 %",
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+151
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 138"
+},
+{
+"id": "MSK-121-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Élargissement osseux",
+"reponse": "increase",
+"explication": "Élargissement osseux : Se 55 %, Sp 95 %, LR+ 11,0",
+"contexte_puce": "↑ Élargissement osseux : Se 55 %, Sp 95 %, LR+ 11,0 ; ↔ absent : LR− 0,47.",
+"donnee": {
+"lr_positif": 11.0,
+"lr_negatif": null,
+"sensibilite": "55 %",
+"specificite": "95 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38,
+154
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Élargissement osseux absent",
+"reponse": "neutral",
+"explication": "Absent : LR− 0,47.",
+"contexte_puce": "↑ Élargissement osseux : Se 55 %, Sp 95 %, LR+ 11,0 ; ↔ absent : LR− 0,47.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.47,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38,
+154
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-121-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Absence de crépitation",
+"reponse": "decrease",
+"explication": "Absence de crépitation : Se 89 %, LR− 0,18",
+"contexte_puce": "↓ Absence de crépitation : Se 89 %, LR− 0,18 ; ↑ (faible) présente : LR+ 2,1 à 2,2.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.18,
+"sensibilite": "89 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38,
+154
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Crépitation présente",
+"reponse": "increase",
+"explication": "Présente : LR+ 2,1 à 2,2.",
+"contexte_puce": "↓ Absence de crépitation : Se 89 %, LR− 0,18 ; ↑ (faible) présente : LR+ 2,1 à 2,2.",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.1,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38,
+154
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-121-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Absence de raideur matinale brève",
+"reponse": "decrease",
+"explication": "Absence de raideur matinale brève : Se 88 %, LR− 0,23",
+"contexte_puce": "↓ Absence de raideur matinale brève : Se 88 %, LR− 0,23 ; ↔ présente : Sp 52 %, LR+ 1,8, calculés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.23,
+"sensibilite": "88 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+38
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Raideur matinale brève présente",
+"reponse": "neutral",
+"explication": "Présente : Sp 52 %, LR+ 1,8, calculés.",
+"contexte_puce": "↓ Absence de raideur matinale brève : Se 88 %, LR− 0,23 ; ↔ présente : Sp 52 %, LR+ 1,8, calculés.",
+"donnee": {
+"lr_positif": 1.8,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "52 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+38
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-121-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Examen physique",
+"enonce": "Amplitude limitée",
+"reponse": "increase",
+"explication": "Amplitude limitée : Se 17 %, Sp 96 %, LR+ 4,25 calculé.",
+"donnee": {
+"lr_positif": 4.25,
+"lr_negatif": null,
+"sensibilite": "17 %",
+"specificite": "96 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+38
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Gonflement rapporté, dérobement",
+"reponse": "neutral",
+"explication": "Gonflement rapporté, dérobement : LR+ 0,73 et 1,24 calculés.",
+"donnee": {
+"lr_positif": 0.73,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+38
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Tests spécifiques",
+"enonce": "Critères cliniques ACR (douleur et au moins 3 items sur 6)",
+"reponse": "increase",
+"explication": "Critères cliniques ACR (douleur et au moins 3 items sur 6) : Se 95 %, Sp 69 %, LR+ 3,1 et LR− 0,07 calculés (Altman 1986).",
+"donnee": {
+"lr_positif": 3.1,
+"lr_negatif": 0.07,
+"sensibilite": "95 %",
+"specificite": "69 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+155
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Tests spécifiques",
+"enonce": "Critères ACR en population générale",
+"reponse": "neutral",
+"explication": "Critères ACR en population générale : Se 41 %, Sp 75 %, LR+ 1,6 calculé (Peat 2006, n = 819).",
+"discordant": true,
+"donnee": {
+"lr_positif": 1.6,
+"lr_negatif": null,
+"sensibilite": "41 %",
+"specificite": "75 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+156
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-11",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Tests spécifiques",
+"enonce": "Critères NICE remplis",
+"reponse": "increase",
+"explication": "Critères NICE remplis : LR+ 5,6, LR− 0,19 (King 2025, n = 96) ; Se 57 %, Sp 76 % (Miguel 2019).",
+"donnee": {
+"lr_positif": 5.6,
+"lr_negatif": 0.19,
+"sensibilite": "57 %",
+"specificite": "76 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+157,
+158
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-12",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Facteurs de risque",
+"enonce": "Obésité",
+"reponse": "increase",
+"explication": "Obésité : OR 2,63 ; antécédent de traumatisme : OR 3,86 ; sexe féminin : OR 1,84 (Blagojevic 2010)",
+"contexte_puce": "↑ Obésité : OR 2,63 ; antécédent de traumatisme : OR 3,86 ; sexe féminin : OR 1,84 (Blagojevic 2010) ; ↔ tabagisme : OR 0,92 (Silverwood 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.63,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+159,
+160
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-121-13",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Facteurs de risque",
+"enonce": "Obésité (tabagisme)",
+"reponse": "neutral",
+"explication": "Tabagisme : OR 0,92 (Silverwood 2015).",
+"contexte_puce": "↑ Obésité : OR 2,63 ; antécédent de traumatisme : OR 3,86 ; sexe féminin : OR 1,84 (Blagojevic 2010) ; ↔ tabagisme : OR 0,92 (Silverwood 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.92,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+159,
+160
+],
+"difficulte": 3,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-121-14",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 121,
+"nom": "Arthrose du genou"
+},
+"type": "Imagerie",
+"enonce": "Anomalies à l'IRM",
+"reponse": "neutral",
+"explication": "Anomalies à l'IRM : 89 % des genoux de plus de 50 ans sans arthrose radiographique (Guermazi 2012, n = 710).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+161
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 121"
+},
+{
+"id": "MSK-142-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge > 55–60 ans",
+"reponse": "increase",
+"explication": "Âge > 55–60 ans : âge moyen de 65,1 ans (Pareek 2020, n = 223).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+164
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe féminin",
+"reponse": "neutral",
+"explication": "Sexe féminin : 71 % (Pareek 2020), mais 32,5 à 43 % dans d'autres séries.",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+164,
+165,
+166
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Anamnèse",
+"enonce": "Compartiment médial",
+"reponse": "increase",
+"explication": "Compartiment médial : 89 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+164
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Anamnèse",
+"enonce": "Lésion de la racine postérieure du ménisque médial",
+"reponse": "increase",
+"explication": "Lésion de la racine postérieure du ménisque médial : 62,2 % contre 34,3 % dans l'arthrose, LR environ 1,8 calculé (Yamagami 2017).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "Fréquence"
+},
+"references": [
+167
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Anamnèse",
+"enonce": "Lésion de racine connue",
+"reponse": "increase",
+"explication": "Lésion de racine connue : fracture sous-chondrale chez 41 % (Garcia 2025, 63 sur 153).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+168
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Anamnèse",
+"enonce": "Extrusion méniscale",
+"reponse": "neutral",
+"explication": "Extrusion méniscale : présente dans 91 à 100 % des cas, mais plus marquée dans l'arthrose (7,5 contre 5,3 mm).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+169,
+167,
+170
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Anamnèse",
+"enonce": "Densité osseuse basse",
+"reponse": "increase",
+"explication": "Densité osseuse basse : 76,7 % de 30 patients (Delsmann 2024).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+165
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Anamnèse",
+"enonce": "Arthroscopie récente",
+"reponse": "increase",
+"explication": "Arthroscopie récente : 1,1 % dans l'année (Yamaguchi 2021, 10 sur 876).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+171
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-142-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 142,
+"nom": "Fracture sous-chondrale d'insuffisance"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie initiale normale",
+"reponse": "neutral",
+"explication": "Radiographie initiale normale : habituelle ; l'IRM est la référence.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+172,
+173
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 142"
+},
+{
+"id": "MSK-139-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Chondrocalcinose, siège au genou",
+"reponse": "increase",
+"explication": "Chondrocalcinose, siège au genou : genou atteint dans 67,1 % des arthrites aiguës à pyrophosphate.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+174
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Chondrocalcinose à la radiographie",
+"reponse": "increase",
+"explication": "Chondrocalcinose à la radiographie : Se 47 %, Sp 95 %, LR+ 9,4",
+"contexte_puce": "↑ Chondrocalcinose à la radiographie : Se 47 %, Sp 95 %, LR+ 9,4 ; ↔ absente : LR− 0,56 ; échographie : LR+ 6,5, LR− 0,17, calculés (Cipolletta 2021).",
+"donnee": {
+"lr_positif": 9.4,
+"lr_negatif": null,
+"sensibilite": "47 %",
+"specificite": "95 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+175
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Chondrocalcinose à la radiographie : absente",
+"reponse": "neutral",
+"explication": "Absente : LR− 0,56 ; échographie : LR+ 6,5, LR− 0,17, calculés (Cipolletta 2021).",
+"contexte_puce": "↑ Chondrocalcinose à la radiographie : Se 47 %, Sp 95 %, LR+ 9,4 ; ↔ absente : LR− 0,56 ; échographie : LR+ 6,5, LR− 0,17, calculés (Cipolletta 2021).",
+"donnee": {
+"lr_positif": 6.5,
+"lr_negatif": 0.56,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+175
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-139-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Chondrocalcinose radiographique isolée du sujet âgé",
+"reponse": "neutral",
+"explication": "Chondrocalcinose radiographique isolée du sujet âgé : 7 à 13,7 % vers 60 ans, environ 50 % après 80 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+176,
+177
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Tests spécifiques",
+"enonce": "Critères ACR/EULAR 2023 de chondrocalcinose",
+"reponse": "increase",
+"explication": "Critères ACR/EULAR 2023 de chondrocalcinose : Se 99,2 %, Sp 92,5 %, LR+ 13,2 et LR− 0,009 calculés (Abhishek 2023, validation).",
+"donnee": {
+"lr_positif": 13.2,
+"lr_negatif": 0.009,
+"sensibilite": "99,2 %",
+"specificite": "92,5 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+178
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge > 60 ans",
+"reponse": "neutral",
+"explication": "Âge > 60 ans : non associé dans la comparaison cas-imitateurs des critères 2023.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+178
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Méniscectomie ancienne",
+"reponse": "increase",
+"explication": "Méniscectomie ancienne : chondrocalcinose dans 20 % des genoux opérés contre 4 % de l'autre côté (Doherty 1982).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+180
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Tests spécifiques",
+"enonce": "Goutte, critères ACR/EULAR 2015 remplis",
+"reponse": "increase",
+"explication": "Goutte, critères ACR/EULAR 2015 remplis : LR+ 8,4, LR− 0,09 calculés.",
+"donnee": {
+"lr_positif": 8.4,
+"lr_negatif": 0.09,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+181
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Tests spécifiques",
+"enonce": "Goutte, score de Janssens ≥ 8",
+"reponse": "neutral",
+"explication": "Goutte, score de Janssens ≥ 8 : Se 28,6 % en cas de suspicion d'arthrite septique (Lafforgue 2023, n = 138).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "28,6 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+182
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Anamnèse",
+"enonce": "Uricémie normale pendant la crise",
+"reponse": "neutral",
+"explication": "Uricémie normale pendant la crise : 49 % des crises (Urano 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+183
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-139-11",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 139,
+"nom": "Goutte ou chondrocalcinose du genou"
+},
+"type": "Imagerie",
+"enonce": "Goutte, scanner double énergie du genou",
+"reponse": "increase",
+"explication": "Goutte, scanner double énergie du genou : Se 91 %, Sp 87 % (Singh 2021) ; faux positifs en cas de gonarthrose avancée (Bongartz 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "91 %",
+"specificite": "87 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+184,
+185
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 139"
+},
+{
+"id": "MSK-140-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes synoviaux élevés",
+"reponse": "increase",
+"explication": "Leucocytes synoviaux élevés : Se 0,84, Sp 0,84, LR+ 5,25",
+"contexte_puce": "↑ Leucocytes synoviaux élevés : Se 0,84, Sp 0,84, LR+ 5,25 ; ↓ bas : LR− 0,19, calculés (Shmerling 1990, JAMA).",
+"donnee": {
+"lr_positif": 5.25,
+"lr_negatif": null,
+"sensibilite": "0,84",
+"specificite": "0,84",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+187
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes synoviaux bas",
+"reponse": "decrease",
+"explication": "Bas : LR− 0,19, calculés (Shmerling 1990, JAMA).",
+"contexte_puce": "↑ Leucocytes synoviaux élevés : Se 0,84, Sp 0,84, LR+ 5,25 ; ↓ bas : LR− 0,19, calculés (Shmerling 1990, JAMA).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.19,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+187
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-140-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Laboratoire",
+"enonce": "Anti-CCP positifs",
+"reponse": "increase",
+"explication": "Anti-CCP positifs : LR+ 12,46",
+"contexte_puce": "↑ Anti-CCP positifs : LR+ 12,46 ; ↔ négatifs : LR− 0,36 ; facteur rhumatoïde : LR+ 4,86 (Nishimura 2007).",
+"donnee": {
+"lr_positif": 12.46,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+188
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Laboratoire",
+"enonce": "Anti-CCP négatifs",
+"reponse": "neutral",
+"explication": "Négatifs : LR− 0,36 ; facteur rhumatoïde : LR+ 4,86 (Nishimura 2007).",
+"contexte_puce": "↑ Anti-CCP positifs : LR+ 12,46 ; ↔ négatifs : LR− 0,36 ; facteur rhumatoïde : LR+ 4,86 (Nishimura 2007).",
+"donnee": {
+"lr_positif": 4.86,
+"lr_negatif": 0.36,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+188
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-140-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Laboratoire",
+"enonce": "HLA-B27 positif",
+"reponse": "increase",
+"explication": "HLA-B27 positif : LR+ 3,1 à 9,0 (données de rachialgie) ; seul prédicteur d'évolution vers une spondylarthrite (Inaoui 2004).",
+"donnee": {
+"lr_positif": 3.1,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+189,
+190
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Tests spécifiques",
+"enonce": "Maladie inflammatoire de l'intestin, uvéite, enthésite",
+"reponse": "increase",
+"explication": "Maladie inflammatoire de l'intestin, uvéite, enthésite : LR+ 3,62, 3,0 et 2,51",
+"contexte_puce": "↑ Maladie inflammatoire de l'intestin, uvéite, enthésite : LR+ 3,62, 3,0 et 2,51 ; ↔ psoriasis, antécédent familial : 1,68 et 1,52 (ESPeranza, rachialgie chronique).",
+"donnee": {
+"lr_positif": 3.62,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+191
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Facteurs de risque",
+"enonce": "Psoriasis, antécédent familial",
+"reponse": "neutral",
+"explication": "Psoriasis, antécédent familial : 1,68 et 1,52 (ESPeranza, rachialgie chronique).",
+"contexte_puce": "↑ Maladie inflammatoire de l'intestin, uvéite, enthésite : LR+ 3,62, 3,0 et 2,51 ; ↔ psoriasis, antécédent familial : 1,68 et 1,52 (ESPeranza, rachialgie chronique).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+191
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Tests spécifiques",
+"enonce": "Critères ASAS de spondylarthrite périphérique",
+"reponse": "increase",
+"explication": "Critères ASAS de spondylarthrite périphérique : Se 77,8 %, Sp 82,9 %, LR+ 4,5 et LR− 0,27 calculés ; Se 48,7 % à Leiden.",
+"donnee": {
+"lr_positif": 4.5,
+"lr_negatif": 0.27,
+"sensibilite": "77,8 %",
+"specificite": "82,9 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+192,
+193
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Anamnèse",
+"enonce": "Absence d'infection préalable rapportée",
+"reponse": "neutral",
+"explication": "Absence d'infection préalable rapportée : infection déclenchante asymptomatique dans 36 % (chlamydia) et 26 % (entérique) des arthrites réactionnelles.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+194
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Anamnèse",
+"enonce": "Monoarthrite du genou plutôt que du poignet",
+"reponse": "decrease",
+"explication": "Monoarthrite du genou plutôt que du poignet : risque de rhumatisme chronique de 42,9 % au poignet, 10,3 % à la cheville.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+186
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-11",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Évolution temporelle",
+"enonce": "Monoarthrite chronique indifférenciée",
+"reponse": "neutral",
+"explication": "Monoarthrite chronique indifférenciée : résolution complète dans 50 % des cas (Inaoui 2004, n = 46).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+189
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-140-12",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 140,
+"nom": "Arthrite inflammatoire"
+},
+"type": "Évolution temporelle",
+"enonce": "Polyarthrite débutante",
+"reponse": "increase",
+"explication": "Polyarthrite débutante : genou gonflé chez 17 à 21 % contre 43,5 % pour les poignets (Weman 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+195
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 140"
+},
+{
+"id": "MSK-141-01",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Réponse aux traitements",
+"enonce": "Chirurgie articulaire récente",
+"reponse": "increase",
+"explication": "Chirurgie articulaire récente : LR+ 6,9 ; prothèse avec infection cutanée en regard : LR+ 15,0.",
+"donnee": {
+"lr_positif": 6.9,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+198,
+199
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-02",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge > 80 ans",
+"reponse": "increase",
+"explication": "Âge > 80 ans : LR+ 3,5 ; diabète : 2,7 ; polyarthrite rhumatoïde : 2,5 ; infection cutanée : 2,8.",
+"donnee": {
+"lr_positif": 3.5,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+199
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-03",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Drapeaux rouges",
+"enonce": "Fièvre",
+"reponse": "neutral",
+"explication": "Fièvre : Se 57 %, LR de 0,67 à 1,13.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "57 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+199,
+196
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-04",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Drapeaux rouges",
+"enonce": "Fièvre ou frissons au moins 1 jour avant la douleur articulaire",
+"reponse": "increase",
+"explication": "Fièvre ou frissons au moins 1 jour avant la douleur articulaire : Se 27,8 %, Sp 96,8 %, LR+ 8,57 (Kano 2025, n = 234).",
+"donnee": {
+"lr_positif": 8.57,
+"lr_negatif": null,
+"sensibilite": "27,8 %",
+"specificite": "96,8 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+200
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-05",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes synoviaux > 100 000",
+"reponse": "increase",
+"explication": "Leucocytes synoviaux > 100 000 : LR 28,0 ; > 50 000 : 7,7",
+"contexte_puce": "↑ Leucocytes synoviaux > 100 000 : LR 28,0 ; > 50 000 : 7,7 ; ↓ < 25 000 : 0,32.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+196
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-06",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes synoviaux < 25 000",
+"reponse": "decrease",
+"explication": "< 25 000 : 0,32.",
+"contexte_puce": "↑ Leucocytes synoviaux > 100 000 : LR 28,0 ; > 50 000 : 7,7 ; ↓ < 25 000 : 0,32.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+196
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-141-07",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Anamnèse",
+"enonce": "Polynucléaires ≥ 90 %",
+"reponse": "increase",
+"explication": "Polynucléaires ≥ 90 % : LR 3,4",
+"contexte_puce": "↑ Polynucléaires ≥ 90 % : LR 3,4 ; ↓ < 90 % : 0,34.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+196
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-08",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Anamnèse",
+"enonce": "Polynucléaires < 90 %",
+"reponse": "decrease",
+"explication": "< 90 % : 0,34.",
+"contexte_puce": "↑ Polynucléaires ≥ 90 % : LR 3,4 ; ↓ < 90 % : 0,34.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+196
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-141-09",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes synoviaux < 50 000",
+"reponse": "neutral",
+"explication": "Leucocytes synoviaux < 50 000 : 30 à 50 % des arthrites septiques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+199
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-10",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Tests spécifiques",
+"enonce": "Gram positif",
+"reponse": "increase",
+"explication": "Gram positif : Sp 99,6 %",
+"contexte_puce": "↑ Gram positif : Sp 99,6 % ; ↔ négatif : Se 22 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "99,6 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+201
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-11",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Tests spécifiques",
+"enonce": "Gram négatif",
+"reponse": "neutral",
+"explication": "Négatif : Se 22 %.",
+"contexte_puce": "↑ Gram positif : Sp 99,6 % ; ↔ négatif : Se 22 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "22 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+201
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-141-12",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Laboratoire",
+"enonce": "Cristaux dans le liquide",
+"reponse": "neutral",
+"explication": "Cristaux dans le liquide : infection associée dans 1,5 % (Shah 2007) à 5 % (Papanicolas 2012) des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+202,
+203
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-13",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Anamnèse",
+"enonce": "Procalcitonine élevée",
+"reponse": "increase",
+"explication": "Procalcitonine élevée : LR+ 10,97",
+"contexte_puce": "↑ Procalcitonine élevée : LR+ 10,97 ; ↔ normale : LR− 0,49 (Zhao 2017).",
+"donnee": {
+"lr_positif": 10.97,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+204
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141"
+},
+{
+"id": "MSK-141-14",
+"domaine": "MSK",
+"region": "Genou",
+"diagnostic": {
+"no": 141,
+"nom": "Arthrite septique"
+},
+"type": "Anamnèse",
+"enonce": "Procalcitonine normale",
+"reponse": "neutral",
+"explication": "Normale : LR− 0,49 (Zhao 2017).",
+"contexte_puce": "↑ Procalcitonine élevée : LR+ 10,97 ; ↔ normale : LR− 0,49 (Zhao 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.49,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+204
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 7, diagnostic 141",
+"a_relire": "énoncé reconstruit à partir de la puce"
+}
+],
+"references": {
+"1": {
+"n": 1,
+"texte": "Evaluation of Acute Knee Pain in Primary Care. Jackson JL, O'Malley PG, Kroenke K. Annals of Internal Medicine. 2003;139(7):575-88. doi:10.7326/0003-4819-139-7-200310070-00010.",
+"doi": "10.7326/0003-4819-139-7-200310070-00010"
+},
+"2": {
+"n": 2,
+"texte": "Diagnostic Accuracy of History Taking and Physical Examination for Assessing Anterior Cruciate Ligament Lesions of the Knee in Primary Care. Wagemakers HP, Luijsterburg PA, Boks SS, et al. Archives of Physical Medicine and Rehabilitation. 2010;91(9):1452-9. doi:10.1016/j.apmr.2010.06.012.",
+"doi": "10.1016/j.apmr.2010.06.012"
+},
+"3": {
+"n": 3,
+"texte": "Does This Patient Have a Torn Meniscus or Ligament of the Knee?: Value of the Physical Examination. Solomon DH, Simel DL, Bates DW, Katz JN, Schaffer JL. JAMA. 2001;286(13):1610-20. doi:10.1001/jama.286.13.1610.",
+"doi": "10.1001/jama.286.13.1610"
+},
+"4": {
+"n": 4,
+"texte": "The Diagnostic Accuracy of Clinical Tests for Anterior Cruciate Ligament Tears Are Comparable but the Lachman Test Has Been Previously Overestimated: A Systematic Review and Meta-Analysis. Sokal PA, Norris R, Maddox TW, Oldershaw RA. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 2022;30(10):3287-3303. doi:10.1007/s00167-022-06898-4.",
+"doi": "10.1007/s00167-022-06898-4"
+},
+"5": {
+"n": 5,
+"texte": "Clinical Diagnosis of an Anterior Cruciate Ligament Rupture: A Meta-Analysis. Benjaminse A, Gokeler A, van der Schans CP. The Journal of Orthopaedic and Sports Physical Therapy. 2006;36(5):267-88. doi:10.2519/jospt.2006.2011.",
+"doi": "10.2519/jospt.2006.2011"
+},
+"6": {
+"n": 6,
+"texte": "Methods to Diagnose Acute Anterior Cruciate Ligament Rupture: A Meta-Analysis of Physical Examinations With and Without Anaesthesia. van Eck CF, van den Bekerom MP, Fu FH, Poolman RW, Kerkhoffs GM. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 2013;21(8):1895-903. doi:10.1007/s00167-012-2250-9.",
+"doi": "10.1007/s00167-012-2250-9"
+},
+"7": {
+"n": 7,
+"texte": "The \"Lever Sign\": A New Clinical Test for the Diagnosis of Anterior Cruciate Ligament Rupture. Lelli A, Di Turi RP, Spenciner DB, Dòmini M. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 2016;24(9):2794-2797. doi:10.1007/s00167-014-3490-7.",
+"doi": "10.1007/s00167-014-3490-7"
+},
+"8": {
+"n": 8,
+"texte": "Higher sensitivity with the lever sign test for diagnosis of anterior cruciate ligament rupture in the emergency department. Guiraud K, Silvestre G, Bastin C, et al. Archives of Orthopaedic and Trauma Surgery. 2022;142(8):1979-1983. doi:10.1007/s00402-021-04154-x.",
+"doi": "10.1007/s00402-021-04154-x"
+},
+"9": {
+"n": 9,
+"texte": "Validity of the Lever Sign Test for the Clinical Diagnosis of Anterior Cruciate Ligament Tears: Assessments in Ski Resorts. Bucher C, Lamy D, Debaty G, Pailhé R, Saragaglia D. Orthopaedics & Traumatology, Surgery & Research : OTSR. 2022;108(3):103254. doi:10.1016/j.otsr.2022.103254.",
+"doi": "10.1016/j.otsr.2022.103254"
+},
+"10": {
+"n": 10,
+"texte": "Arthroscopy in Acute Traumatic Hemarthrosis of the Knee. Incidence of Anterior Cruciate Tears and Other Injuries. Noyes FR, Bassett RW, Grood ES, Butler DL. The Journal of Bone and Joint Surgery. American Volume. 1980;62(5):687-95, 757."
+},
+"11": {
+"n": 11,
+"texte": "Clinical Diagnosis of Partial or Complete Anterior Cruciate Ligament Tears Using Patients' History Elements and Physical Examination Tests. Décary S, Fallaha M, Belzile S, et al. PloS One. 2018;13(6):e0198797. doi:10.1371/journal.pone.0198797.",
+"doi": "10.1371/journal.pone.0198797"
+},
+"12": {
+"n": 12,
+"texte": "Epidemiology of Intra- And Peri-Articular Structural Injuries in Traumatic Knee Joint Hemarthrosis - Data From 1145 Consecutive Knees With Subacute MRI. Olsson O, Isacsson A, Englund M, Frobell RB. Osteoarthritis and Cartilage. 2016;24(11):1890-1897. doi:10.1016/j.joca.2016.06.006.",
+"doi": "10.1016/j.joca.2016.06.006"
+},
+"13": {
+"n": 13,
+"texte": "Towards improving the identification of anterior cruciate ligament tears in primary point-of-care settings. Whittaker JL, Chan M, Pan B, et al. BMC Musculoskeletal Disorders. 2020;21(1):252. doi:10.1186/s12891-020-03237-x.",
+"doi": "10.1186/s12891-020-03237-x"
+},
+"14": {
+"n": 14,
+"texte": "\"What's My Risk of Sustaining an ACL Injury While Playing Sports?\" a Systematic Review With Meta-Analysis. Montalvo AM, Schneider DK, Yut L, et al. British Journal of Sports Medicine. 2019;53(16):1003-1012. doi:10.1136/bjsports-2016-096274.",
+"doi": "10.1136/bjsports-2016-096274"
+},
+"17": {
+"n": 17,
+"texte": "The Accuracy of the Clinical Examination in the Setting of Posterior Cruciate Ligament Injuries. Rubinstein RA, Shelbourne KD, McCarroll JR, VanMeter CD, Rettig AC. The American Journal of Sports Medicine. 1994 Jul-Aug;22(4):550-7. doi:10.1177/036354659402200419.",
+"doi": "10.1177/036354659402200419"
+},
+"18": {
+"n": 18,
+"texte": "Physical Examination Tests for the Diagnosis of Posterior Cruciate Ligament Rupture: A Systematic Review. Kopkow C, Freiberg A, Kirschner S, Seidler A, Schmitt J. The Journal of Orthopaedic and Sports Physical Therapy. 2013;43(11):804-13. doi:10.2519/jospt.2013.4906.",
+"doi": "10.2519/jospt.2013.4906"
+},
+"19": {
+"n": 19,
+"texte": "Emerging Updates on the Posterior Cruciate Ligament. LaPrade CM, Civitarese DM, Rasmussen MT, LaPrade RF. The American Journal of Sports Medicine. 2015;43(12):3077-92. doi:10.1177/0363546515572770.",
+"doi": "10.1177/0363546515572770"
+},
+"20": {
+"n": 20,
+"texte": "Use of the Quadriceps Active Test to Diagnose Posterior Cruciate-Ligament Disruption and Measure Posterior Laxity of the Knee. Daniel DM, Stone ML, Barnett P, Sachs R. The Journal of Bone and Joint Surgery. American Volume. 1988;70(3):386-91."
+},
+"21": {
+"n": 21,
+"texte": "Clinical and radiologic evaluation of the posterior cruciate ligament-injured knee. Badri A, Gonzalez-Lomas G, Jazrawi L. Current Reviews in Musculoskeletal Medicine. 2018;11(3):515-520. doi:10.1007/s12178-018-9505-0.",
+"doi": "10.1007/s12178-018-9505-0"
+},
+"22": {
+"n": 22,
+"texte": "Posterior Cruciate Ligament Injuries. Chetan Gohal, Nolan S. Horner, Jihad Abouali, et al. Chapter 136."
+},
+"23": {
+"n": 23,
+"texte": "Arthroscopic Transtibial PCL Reconstruction: Surgical Technique and Clinical Outcomes. Shin J, Maak TG. Current Reviews in Musculoskeletal Medicine. 2018;11(2):307-315. doi:10.1007/s12178-018-9489-9.",
+"doi": "10.1007/s12178-018-9489-9"
+},
+"25": {
+"n": 25,
+"texte": "Assessing Medial Collateral Ligament Knee Lesions in General Practice. Kastelein M, Wagemakers HP, Luijsterburg PA, et al. The American Journal of Medicine. 2008;121(11):982-988.e2. doi:10.1016/j.amjmed.2008.05.041.",
+"doi": "10.1016/j.amjmed.2008.05.041"
+},
+"26": {
+"n": 26,
+"texte": "Combined Anterior Cruciate Ligament and Medial Collateral Ligament Injuries. Domiziano Tarantino, Rocco Aicale, Nicola Maffulli. Chapter 137."
+},
+"27": {
+"n": 27,
+"texte": "Is Intra-Articular Pathology Associated With MCL Edema on MR Imaging of the Non-Traumatic Knee?. Blankenbaker DG, De Smet AA, Fine JP. Skeletal Radiology. 2005;34(8):462-7. doi:10.1007/s00256-005-0931-x.",
+"doi": "10.1007/s00256-005-0931-x"
+},
+"28": {
+"n": 28,
+"texte": "Anterior Cruciate Ligament Tear. Spindler KP, Wright RW. The New England Journal of Medicine. 2008;359(20):2135-42. doi:10.1056/NEJMcp0804745.",
+"doi": "10.1056/NEJMcp0804745"
+},
+"30": {
+"n": 30,
+"texte": "Diagnostic Value of History-Taking and Physical Examination for Assessing Meniscal Tears of the Knee in General Practice. Wagemakers HP, Heintjes EM, Boks SS, et al. Clinical Journal of Sport Medicine : Official Journal of the Canadian Academy of Sport Medicine. 2008;18(1):24-30. doi:10.1097/JSM.0b013e31815887a7.",
+"doi": "10.1097/JSM.0b013e31815887a7"
+},
+"31": {
+"n": 31,
+"texte": "Special Tests for Assessing Meniscal Tears Within the Knee: A Systematic Review and Meta-Analysis. Smith BE, Thacker D, Crewesmith A, Hall M. Evidence-Based Medicine. 2015;20(3):88-97. doi:10.1136/ebmed-2014-110160.",
+"doi": "10.1136/ebmed-2014-110160"
+},
+"32": {
+"n": 32,
+"texte": "Diagnostic Accuracy of a New Clinical Test (The Thessaly Test) for Early Detection of Meniscal Tears. Karachalios T, Hantes M, Zibis AH, et al. The Journal of Bone and Joint Surgery. American Volume. 2005;87(5):955-62. doi:10.2106/JBJS.D.02338.",
+"doi": "10.2106/JBJS.D.02338"
+},
+"33": {
+"n": 33,
+"texte": "Validity of the Thessaly Test in Evaluating Meniscal Tears Compared With Arthroscopy: A Diagnostic Accuracy Study. Goossens P, Keijsers E, van Geenen RJ, et al. The Journal of Orthopaedic and Sports Physical Therapy. 2015;45(1):18-24, B1. doi:10.2519/jospt.2015.5215.",
+"doi": "10.2519/jospt.2015.5215"
+},
+"34": {
+"n": 34,
+"texte": "Diagnostic Accuracy of the Thessaly Test, Standardised Clinical History and Other Clinical Examination Tests (Apley's, McMurray's and Joint Line Tenderness) for Meniscal Tears in Comparison With Magnetic Resonance Imaging Diagnosis. Blyth M, Anthony I, Francq B, et al. Health Technology Assessment (Winchester, England). 2015;19(62):1-62. doi:10.3310/hta19620.",
+"doi": "10.3310/hta19620"
+},
+"35": {
+"n": 35,
+"texte": "Diagnostic Validity of Combining History Elements and Physical Examination Tests for Traumatic and Degenerative Symptomatic Meniscal Tears. Décary S, Fallaha M, Frémont P, et al. PM & R : The Journal of Injury, Function, and Rehabilitation. 2018;10(5):472-482. doi:10.1016/j.pmrj.2017.10.009.",
+"doi": "10.1016/j.pmrj.2017.10.009"
+},
+"36": {
+"n": 36,
+"texte": "A Clinical Composite Score Accurately Detects Meniscal Pathology. Lowery DJ, Farley TD, Wing DW, Sterett WI, Steadman JR. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 2006;22(11):1174-9. doi:10.1016/j.arthro.2006.06.014.",
+"doi": "10.1016/j.arthro.2006.06.014"
+},
+"37": {
+"n": 37,
+"texte": "Risk Factors for Meniscal Tears: A Systematic Review Including Meta-Analysis. Snoeker BA, Bakker EW, Kegel CA, Lucas C. The Journal of Orthopaedic and Sports Physical Therapy. 2013;43(6):352-67. doi:10.2519/jospt.2013.4295.",
+"doi": "10.2519/jospt.2013.4295"
+},
+"38": {
+"n": 38,
+"texte": "Evaluation and Treatment of Knee Pain: A Review. Duong V, Oo WM, Ding C, Culvenor AG, Hunter DJ. JAMA. 2023;330(16):1568-1580. doi:10.1001/jama.2023.19675.",
+"doi": "10.1001/jama.2023.19675"
+},
+"39": {
+"n": 39,
+"texte": "Incidental Meniscal Findings on Knee MRI in Middle-Aged and Elderly Persons. Englund M, Guermazi A, Gale D, et al. The New England Journal of Medicine. 2008;359(11):1108-15. doi:10.1056/NEJMoa0800777.",
+"doi": "10.1056/NEJMoa0800777"
+},
+"40": {
+"n": 40,
+"texte": "Prevalence of bilateral Discoid Lateral Menisci (DLM) in patients operated for symptomatic DLM with a follow-up study on their asymptomatic contralateral knees: a Magnetic Resonance Imaging (MRI) assessment. Liu WX, Zhao JZ, Huangfu XQ, He YH, Yang XG. BMC Musculoskeletal Disorders. 2015;16:172. doi:10.1186/s12891-015-0626-y.",
+"doi": "10.1186/s12891-015-0626-y"
+},
+"42": {
+"n": 42,
+"texte": "Medial Discoid Meniscus in Children: A Multicenter Case Series of Clinical Features and Operative Results. Anderson KG, Carsen S, Stinson Z, et al. The American Journal of Sports Medicine. 2023;51(5):1171-1176. doi:10.1177/03635465231159671.",
+"doi": "10.1177/03635465231159671"
+},
+"43": {
+"n": 43,
+"texte": "Incidence of Bilateral Discoid Lateral Meniscus in an Asian Population: An Arthroscopic Assessment of Contralateral Knees. Bae JH, Lim HC, Hwang DH, et al. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 2012;28(7):936-41. doi:10.1016/j.arthro.2011.12.003.",
+"doi": "10.1016/j.arthro.2011.12.003"
+},
+"44": {
+"n": 44,
+"texte": "Characteristics and Outcomes of Operatively Treated Discoid Lateral Meniscus in Pediatric and Young Adult Patients: A Multicenter Study. Sheasley JA, Kirby JC, Niu EL, et al. The American Journal of Sports Medicine. 2024;52(11):2758-2763. doi:10.1177/03635465241272393.",
+"doi": "10.1177/03635465241272393"
+},
+"45": {
+"n": 45,
+"texte": "Radiographic Evaluation of Complete and Incomplete Discoid Lateral Meniscus. Song JG, Han JH, Kwon JH, et al. The Knee. 2015;22(3):163-8. doi:10.1016/j.knee.2014.11.012.",
+"doi": "10.1016/j.knee.2014.11.012"
+},
+"46": {
+"n": 46,
+"texte": "Discoid Lateral Meniscus. Campbell AL, Pace JL, Mandelbaum BR. Current Reviews in Musculoskeletal Medicine. 2023;16(4):154-161. doi:10.1007/s12178-023-09824-4.",
+"doi": "10.1007/s12178-023-09824-4"
+},
+"47": {
+"n": 47,
+"texte": "Diagnosis of Discoid Lateral Meniscus of the Knee on MR Imaging. Samoto N, Kozuma M, Tokuhisa T, Kobayashi K. Magnetic Resonance Imaging. 2002;20(1):59-64. doi:10.1016/s0730-725x(02)00473-3.",
+"doi": "10.1016/s0730-725x(02)00473-3"
+},
+"48": {
+"n": 48,
+"texte": "The characteristic findings of an inverted-type discoid lateral meniscus tear: a hidden tear pattern. Shimozaki K, Nakase J, Takata Y, et al. BMC Musculoskeletal Disorders. 2019;20(1):223. doi:10.1186/s12891-019-2618-9.",
+"doi": "10.1186/s12891-019-2618-9"
+},
+"49": {
+"n": 49,
+"texte": "The Accuracy of the Ottawa Knee Rule To Rule Out Knee Fractures. Bachmann LM, Haberzeth S, Steurer J, ter Riet G. Annals of Internal Medicine. 2004;140(2):121-4. doi:10.7326/0003-4819-140-5-200403020-00013.",
+"doi": "10.7326/0003-4819-140-5-200403020-00013"
+},
+"50": {
+"n": 50,
+"texte": "Diagnostic Accuracy of the Ottawa Knee Rule in Adult Acute Knee Injuries: A Systematic Review and Meta-Analysis. Sims JI, Chau MT, Davies JR. European Radiology. 2020;30(8):4438-4446. doi:10.1007/s00330-020-06804-x.",
+"doi": "10.1007/s00330-020-06804-x"
+},
+"51": {
+"n": 51,
+"texte": "Multicenter Comparison of Two Clinical Decision Rules for the Use of Radiography in Acute, High-Risk Knee Injuries. Seaberg DC, Yealy DM, Lukens T, Auble T, Mathias S. Annals of Emergency Medicine. 1998;32(1):8-13. doi:10.1016/s0196-0644(98)70092-7.",
+"doi": "10.1016/s0196-0644(98)70092-7"
+},
+"52": {
+"n": 52,
+"texte": "Acute Knee Injuries. Jesse M. Pines, Fernanda Bellolio. Chapter 9."
+},
+"53": {
+"n": 53,
+"texte": "Diagnostic Accuracy and Reproducibility of the Ottawa Knee Rule vs the Pittsburgh Decision Rule. Cheung TC, Tank Y, Breederveld RS, et al. The American Journal of Emergency Medicine. 2013;31(4):641-5. doi:10.1016/j.ajem.2012.11.003.",
+"doi": "10.1016/j.ajem.2012.11.003"
+},
+"54": {
+"n": 54,
+"texte": "A Clinical Decision Rule in the Evaluation of Acute Knee Injuries. Bauer SJ, Hollander JE, Fuchs SH, Thode HC. The Journal of Emergency Medicine. 1995 Sep-Oct;13(5):611-5. doi:10.1016/0736-4679(95)00064-h.",
+"doi": "10.1016/0736-4679(95)00064-h"
+},
+"55": {
+"n": 55,
+"texte": "Lipohaemarthrosis in Knee Trauma: An Experience of 907 Cases. Ferguson J, Knottenbelt JD. Injury. 1994;25(5):311-2. doi:10.1016/0020-1383(94)90242-9.",
+"doi": "10.1016/0020-1383(94)90242-9"
+},
+"56": {
+"n": 56,
+"texte": "Lipohemarthrosis of the Knee: A Review of Recent Experiences. Lee JH, Weissman BN, Nikpoor N, Aliabadi P, Sosman JL. Radiology. 1989;173(1):189-91. doi:10.1148/radiology.173.1.2781006.",
+"doi": "10.1148/radiology.173.1.2781006"
+},
+"57": {
+"n": 57,
+"texte": "Validity of Combining History Elements and Physical Examination Tests to Diagnose Patellofemoral Pain. Décary S, Frémont P, Pelletier B, et al. Archives of Physical Medicine and Rehabilitation. 2018;99(4):607-614.e1. doi:10.1016/j.apmr.2017.10.014.",
+"doi": "10.1016/j.apmr.2017.10.014"
+},
+"59": {
+"n": 59,
+"texte": "Patellofemoral Pain: Guidelines from the American Physical Therapy Association. American Family Physician. 2020."
+},
+"60": {
+"n": 60,
+"texte": "Physical Examination and Patellofemoral Pain Syndrome: an Updated Review. Kasitinon D, Li WX, Wang EXS, Fredericson M. Current Reviews in Musculoskeletal Medicine. 2021;14(6):406-412. doi:10.1007/s12178-021-09730-7.",
+"doi": "10.1007/s12178-021-09730-7"
+},
+"61": {
+"n": 61,
+"texte": "The Diagnostic Value of the Clarke Sign in Assessing Chondromalacia Patella. Doberstein ST, Romeyn RL, Reineke DM. Journal of Athletic Training. 2008 Apr-Jun;43(2):190-6. doi:10.4085/1062-6050-43.2.190.",
+"doi": "10.4085/1062-6050-43.2.190"
+},
+"62": {
+"n": 62,
+"texte": "Gender differences in the incidence and prevalence of patellofemoral pain syndrome. Boling M, Padua D, Marshall S, et al. Scandinavian Journal of Medicine & Science in Sports. 2010;20(5):725-30. doi:10.1111/j.1600-0838.2009.00996.x.",
+"doi": "10.1111/j.1600-0838.2009.00996.x"
+},
+"63": {
+"n": 63,
+"texte": "Risk Factors for Patellofemoral Pain in the Military: Systematic Review With Meta-Analysis. Rocha EAB, Costa de Assis SJ, Maciel Maia DF, et al. Journal of Athletic Training. 2025;60(5):359-371. doi:10.4085/1062-6050-0526.23.",
+"doi": "10.4085/1062-6050-0526.23"
+},
+"64": {
+"n": 64,
+"texte": "Risk Factors for Patellofemoral Pain: A Systematic Review and Meta-Analysis. Neal BS, Lack SD, Lankhorst NE, et al. British Journal of Sports Medicine. 2019;53(5):270-281. doi:10.1136/bjsports-2017-098890.",
+"doi": "10.1136/bjsports-2017-098890"
+},
+"65": {
+"n": 65,
+"texte": "Local Neuromuscular Characteristics Associated With Patellofemoral Pain: A Systematic Review and Meta-Analysis. Alsaleh SA, Murphy NA, Miller SC, Morrissey D, Lack SD. Clinical Biomechanics (Bristol, Avon). 2021;90:105509. doi:10.1016/j.clinbiomech.2021.105509.",
+"doi": "10.1016/j.clinbiomech.2021.105509"
+},
+"66": {
+"n": 66,
+"texte": "Patellar Maltracking Correlates With Vastus Medialis Activation Delay in Patellofemoral Pain Patients. Pal S, Draper CE, Fredericson M, et al. The American Journal of Sports Medicine. 2011;39(3):590-8. doi:10.1177/0363546510384233.",
+"doi": "10.1177/0363546510384233"
+},
+"67": {
+"n": 67,
+"texte": "Epidemiology and Natural History of Acute Patellar Dislocation. Fithian DC, Paxton EW, Stone ML, et al. The American Journal of Sports Medicine. 2004 Jul-Aug;32(5):1114-21. doi:10.1177/0363546503260788.",
+"doi": "10.1177/0363546503260788"
+},
+"68": {
+"n": 68,
+"texte": "Incidence of First-Time Lateral Patellar Dislocation: A 21-Year Population-Based Study. Sanders TL, Pareek A, Hewett TE, et al. Sports Health. 2018 Mar/Apr;10(2):146-151. doi:10.1177/1941738117725055.",
+"doi": "10.1177/1941738117725055"
+},
+"69": {
+"n": 69,
+"texte": "The Moving Patellar Apprehension Test for Lateral Patellar Instability. Ahmad CS, McCarthy M, Gomez JA, Shubin Stein BE. The American Journal of Sports Medicine. 2009;37(4):791-6. doi:10.1177/0363546508328113.",
+"doi": "10.1177/0363546508328113"
+},
+"70": {
+"n": 70,
+"texte": "The Reversed Dynamic Patellar Apprehension Test Mimics Anatomical Complexity in Lateral Patellar Instability. Zimmermann F, Liebensteiner MC, Balcarek P. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 2019;27(2):604-610. doi:10.1007/s00167-018-5198-6.",
+"doi": "10.1007/s00167-018-5198-6"
+},
+"71": {
+"n": 71,
+"texte": "Factors of Patellar Instability: An Anatomic Radiographic Study. Dejour H, Walch G, Nove-Josserand L, Guier C. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 1994;2(1):19-26. doi:10.1007/BF01552649.",
+"doi": "10.1007/BF01552649"
+},
+"72": {
+"n": 72,
+"texte": "Prevalence of Trochlear Dysplasia and Associations With Patellofemoral Pain and Instability in a Skeletally Mature Population. DeVries CA, Bomar JD, Pennock AT. The Journal of Bone and Joint Surgery. American Volume. 2021;103(22):2126-2132. doi:10.2106/JBJS.20.01624.",
+"doi": "10.2106/JBJS.20.01624"
+},
+"73": {
+"n": 73,
+"texte": "The Prevalence and Combined Prevalences of Anatomic Factors Associated With Recurrent Patellar Dislocation. Steensen RN, Bentley JC, Trinh TQ, Backes JR, Wiltfong RE. The American Journal of Sports Medicine. 2015;43(4):921-7. doi:10.1177/0363546514563904.",
+"doi": "10.1177/0363546514563904"
+},
+"74": {
+"n": 74,
+"texte": "Occult Intra-articular Knee Injuries in Children With Hemarthrosis. Askenberger M, Ekström W, Finnbogason T, Janarv PM. The American Journal of Sports Medicine. 2014;42(7):1600-6. doi:10.1177/0363546514529639.",
+"doi": "10.1177/0363546514529639"
+},
+"78": {
+"n": 78,
+"texte": "Prevalence of Jumper's Knee among Elite Athletes from Different Sports: A Cross-sectional Study. Lian OB, Engebretsen L, Bahr R. The American Journal of Sports Medicine. 2005;33(4):561-7. doi:10.1177/0363546504270454.",
+"doi": "10.1177/0363546504270454"
+},
+"81": {
+"n": 81,
+"texte": "Patellar Tendinopathy and Potential Risk Factors: An International Database of Cases and Controls. Morton S, Williams S, Valle X, et al. Clinical Journal of Sport Medicine : Official Journal of the Canadian Academy of Sport Medicine. 2017;27(5):468-474. doi:10.1097/JSM.0000000000000397.",
+"doi": "10.1097/JSM.0000000000000397"
+},
+"82": {
+"n": 82,
+"texte": "The Accuracy of the VISA-P Questionnaire, Single-Leg Decline Squat, and Tendon Pain History to Identify Patellar Tendon Abnormalities in Adult Athletes. Mendonça Lde M, Ocarino JM, Bittencourt NF, et al. The Journal of Orthopaedic and Sports Physical Therapy. 2016;46(8):673-80. doi:10.2519/jospt.2016.6192.",
+"doi": "10.2519/jospt.2016.6192"
+},
+"83": {
+"n": 83,
+"texte": "Reproducibility and Clinical Utility of Tendon Palpation to Detect Patellar Tendinopathy in Young Basketball Players. Victorian Institute of Sport Tendon Study Group. Cook JL, Khan KM, Kiss ZS, Purdam CR, Griffiths L. British Journal of Sports Medicine. 2001;35(1):65-9. doi:10.1136/bjsm.35.1.65.",
+"doi": "10.1136/bjsm.35.1.65"
+},
+"84": {
+"n": 84,
+"texte": "Comparative Accuracy of Magnetic Resonance Imaging and Ultrasonography in Confirming Clinically Diagnosed Patellar Tendinopathy. Warden SJ, Kiss ZS, Malara FA, et al. The American Journal of Sports Medicine. 2007;35(3):427-36. doi:10.1177/0363546506294858.",
+"doi": "10.1177/0363546506294858"
+},
+"85": {
+"n": 85,
+"texte": "Ultrasound characteristics of the patellar and quadriceps tendons among young elite athletes. Visnes H, Tegnander A, Bahr R. Scandinavian Journal of Medicine & Science in Sports. 2015;25(2):205-15. doi:10.1111/sms.12191.",
+"doi": "10.1111/sms.12191"
+},
+"86": {
+"n": 86,
+"texte": "Modifiable Risk Factors for Patellar Tendinopathy in Athletes: A Systematic Review and Meta-Analysis. Sprague AL, Smith AH, Knox P, Pohlig RT, Grävare Silbernagel K. British Journal of Sports Medicine. 2018;52(24):1575-1585. doi:10.1136/bjsports-2017-099000.",
+"doi": "10.1136/bjsports-2017-099000"
+},
+"87": {
+"n": 87,
+"texte": "Risk Factors for Patellar Tendinopathy: A Systematic Review of the Literature. van der Worp H, van Ark M, Roerink S, et al. British Journal of Sports Medicine. 2011;45(5):446-52. doi:10.1136/bjsm.2011.084079.",
+"doi": "10.1136/bjsm.2011.084079"
+},
+"88": {
+"n": 88,
+"texte": "Is There an Association Between Superolateral Hoffa Fat Pad Edema on MRI and Clinical Evidence of Fat Pad Impingement?. De Smet AA, Davis KW, Dahab KS, et al. AJR. American Journal of Roentgenology. 2012;199(5):1099-104. doi:10.2214/AJR.12.8798.",
+"doi": "10.2214/AJR.12.8798"
+},
+"89": {
+"n": 89,
+"texte": "Relationship of Trochlear Morphology and Patellofemoral Joint Alignment to Superolateral Hoffa Fat Pad Edema on MR Images in Individuals With or at Risk for Osteoarthritis of the Knee: The MOST Study. Widjajahakim R, Roux M, Jarraya M, et al. Radiology. 2017;284(3):806-814. doi:10.1148/radiol.2017162342.",
+"doi": "10.1148/radiol.2017162342"
+},
+"90": {
+"n": 90,
+"texte": "Superolateral Hoffa Fat Pad Edema and Patellofemoral Maltracking: Systematic Review and Meta-Analysis. Kim JH, Lee SK. AJR. American Journal of Roentgenology. 2020;215(3):545-558. doi:10.2214/AJR.19.22263.",
+"doi": "10.2214/AJR.19.22263"
+},
+"91": {
+"n": 91,
+"texte": "Superolateral Hoffa's Fat Pad Edema: Association With Patellofemoral Maltracking and Impingement. Subhawong TK, Eng J, Carrino JA, Chhabra A. AJR. American Journal of Roentgenology. 2010;195(6):1367-73. doi:10.2214/AJR.10.4668.",
+"doi": "10.2214/AJR.10.4668"
+},
+"92": {
+"n": 92,
+"texte": "Incidence of Medial Plica in 3,889 Knee Joints in the Japanese Population. Nakayama A, Sugita T, Aizawa T, Takahashi A, Honma T. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 2011;27(11):1523-7. doi:10.1016/j.arthro.2011.06.022.",
+"doi": "10.1016/j.arthro.2011.06.022"
+},
+"94": {
+"n": 94,
+"texte": "The Relationship Between the MPP Test and Arthroscopically Found Medial Patellar Plica Pathology. Kim SJ, Lee DH, Kim TE. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 2007;23(12):1303-8. doi:10.1016/j.arthro.2007.06.016.",
+"doi": "10.1016/j.arthro.2007.06.016"
+},
+"95": {
+"n": 95,
+"texte": "Arthroscopic Findings of the Synovial Plicae of the Knee. Kim SJ, Choe WS. Arthroscopy : The Journal of Arthroscopic & Related Surgery : Official Publication of the Arthroscopy Association of North America and the International Arthroscopy Association. 1997;13(1):33-41. doi:10.1016/s0749-8063(97)90207-3.",
+"doi": "10.1016/s0749-8063(97)90207-3"
+},
+"96": {
+"n": 96,
+"texte": "Prevalence of MRI-detected Mediopatellar Plica in Subjects With Knee Pain and the Association With MRI-detected Patellofemoral Cartilage Damage and Bone Marrow Lesions: Data From the Joints on Glucosamine Study. Hayashi D, Xu L, Guermazi A, et al. BMC Musculoskeletal Disorders. 2013;14:292. doi:10.1186/1471-2474-14-292.",
+"doi": "10.1186/1471-2474-14-292"
+},
+"97": {
+"n": 97,
+"texte": "Diagnostic Test Accuracy of Clinical and Radiological Assessments for Medial Patella Plica Syndrome: A Systematic Review and Meta-Analysis. Stubbings N, Smith T. The Knee. 2014;21(2):486-90. doi:10.1016/j.knee.2013.11.001.",
+"doi": "10.1016/j.knee.2013.11.001"
+},
+"98": {
+"n": 98,
+"texte": "Narrative: Review of Anterior Knee Pain Differential Diagnosis (Other than Patellofemoral Pain). Kuwabara A, Fredericson M. Current Reviews in Musculoskeletal Medicine. 2021;14(3):232-238. doi:10.1007/s12178-021-09704-9.",
+"doi": "10.1007/s12178-021-09704-9"
+},
+"103": {
+"n": 103,
+"texte": "Hip Abductor Weakness in Distance Runners With Iliotibial Band Syndrome. Fredericson M, Cookingham CL, Chaudhari AM, et al. Clinical Journal of Sport Medicine : Official Journal of the Canadian Academy of Sport Medicine. 2000;10(3):169-75. doi:10.1097/00042752-200007000-00004.",
+"doi": "10.1097/00042752-200007000-00004"
+},
+"104": {
+"n": 104,
+"texte": "Kinematic classification of iliotibial band syndrome in runners. Grau S, Krauss I, Maiwald C, et al. Scandinavian Journal of Medicine & Science in Sports. 2011;21(2):184-9. doi:10.1111/j.1600-0838.2009.01045.x.",
+"doi": "10.1111/j.1600-0838.2009.01045.x"
+},
+"105": {
+"n": 105,
+"texte": "The Iliotibial Band: A Complex Structure with Versatile Functions. Hutchinson LA, Lichtwark GA, Willy RW, Kelly LA. Sports Medicine (Auckland, N.Z.). 2022;52(5):995-1008. doi:10.1007/s40279-021-01634-3.",
+"doi": "10.1007/s40279-021-01634-3"
+},
+"106": {
+"n": 106,
+"texte": "An Anatomic Investigation of the Ober Test. Willett GM, Keim SA, Shostrom VK, Lomneth CS. The American Journal of Sports Medicine. 2016;44(3):696-701. doi:10.1177/0363546515621762.",
+"doi": "10.1177/0363546515621762"
+},
+"107": {
+"n": 107,
+"texte": "Treatment of Recalcitrant Iliotibial Band Friction Syndrome with Open Iliotibial Band Bursectomy. Hariri S, Savidge ET, Reinold MM, Zachazewski J, Gill TJ. The American Journal of Sports Medicine. 2009;37(7):1417-24. doi:10.1177/0363546509332039.",
+"doi": "10.1177/0363546509332039"
+},
+"108": {
+"n": 108,
+"texte": "Biomechanical risk factors associated with iliotibial band syndrome in runners: a systematic review. Aderem J, Louw QA. BMC Musculoskeletal Disorders. 2015;16:356. doi:10.1186/s12891-015-0808-7.",
+"doi": "10.1186/s12891-015-0808-7"
+},
+"109": {
+"n": 109,
+"texte": "Running-Related Biomechanical Risk Factors for Overuse Injuries in Distance Runners: A Systematic Review Considering Injury Specificity and the Potentials for Future Research. Willwacher S, Kurz M, Robbin J, et al. Sports Medicine (Auckland, N.Z.). 2022;52(8):1863-1877. doi:10.1007/s40279-022-01666-3.",
+"doi": "10.1007/s40279-022-01666-3"
+},
+"110": {
+"n": 110,
+"texte": "Prepatellar and Olecranon Bursitis: Literature Review and Development of a Treatment Algorithm. Baumbach SF, Lobo CM, Badyine I, Mutschler W, Kanz KG. Archives of Orthopaedic and Trauma Surgery. 2014;134(3):359-70. doi:10.1007/s00402-013-1882-7.",
+"doi": "10.1007/s00402-013-1882-7"
+},
+"112": {
+"n": 112,
+"texte": "Management of septic and aseptic prepatellar bursitis: a systematic review. Brown OS, Smith TO, Parsons T, Benjamin M, Hing CB. Archives of Orthopaedic and Trauma Surgery. 2022;142(10):2445-2457. doi:10.1007/s00402-021-03853-9.",
+"doi": "10.1007/s00402-021-03853-9"
+},
+"113": {
+"n": 113,
+"texte": "Occupationally Related Ultrasonic Findings in Carpet and Floor Layers' Knees. Kivimäki J. Scandinavian Journal of Work, Environment & Health. 1992;18(6):400-2."
+},
+"114": {
+"n": 114,
+"texte": "Olecranon Bursitis. Reilly D, Kamineni S. Journal of Shoulder and Elbow Surgery. 2016;25(1):158-67. doi:10.1016/j.jse.2015.08.032.",
+"doi": "10.1016/j.jse.2015.08.032"
+},
+"115": {
+"n": 115,
+"texte": "Clinical characteristics and outcomes of septic bursitis. Lieber SB, Fowler ML, Zhu C, et al. Infection. 2017;45(6):781-786. doi:10.1007/s15010-017-1030-3.",
+"doi": "10.1007/s15010-017-1030-3"
+},
+"116": {
+"n": 116,
+"texte": "Septic Bursitis: Presentation, Treatment and Prognosis. Raddatz DA, Hoffman GS, Franck WA. The Journal of Rheumatology. 1987;14(6):1160-3."
+},
+"118": {
+"n": 118,
+"texte": "The prevalence of periarticular lesions detected on magnetic resonance imaging in middle-aged and elderly persons: a cross-sectional study. Kim IJ, Kim DH, Song YW, et al. BMC Musculoskeletal Disorders. 2016;17:186. doi:10.1186/s12891-016-1035-6.",
+"doi": "10.1186/s12891-016-1035-6"
+},
+"119": {
+"n": 119,
+"texte": "Anserine Bursitis in Patients With Osteoarthritis of the Knee. Kang I, Han SW. Southern Medical Journal. 2000;93(2):207-9."
+},
+"120": {
+"n": 120,
+"texte": "Obesity as a Risk Factor for Tendinopathy: A Systematic Review. Franceschi F, Papalia R, Paciotti M, et al. International Journal of Endocrinology. 2014;2014:670262. doi:10.1155/2014/670262.",
+"doi": "10.1155/2014/670262"
+},
+"121": {
+"n": 121,
+"texte": "Anserine Bursitis and Non-Insulin Dependent Diabetes Mellitus. Cohen SE, Mahul O, Meir R, Rubinow A. The Journal of Rheumatology. 1997;24(11):2162-5."
+},
+"122": {
+"n": 122,
+"texte": "Correlation Between Ultrasonographic Findings and the Response to Corticosteroid Injection in Pes Anserinus Tendinobursitis Syndrome in Knee Osteoarthritis Patients. Yoon HS, Kim SE, Suh YR, Seo YI, Kim HA. Journal of Korean Medical Science. 2005;20(1):109-12. doi:10.3346/jkms.2005.20.1.109.",
+"doi": "10.3346/jkms.2005.20.1.109"
+},
+"127": {
+"n": 127,
+"texte": "Baker's Cysts in Knees With Chronic Osteoarthritic Pain: A Clinical, Ultrasonographic, Radiographic and Scintigraphic Evaluation. Chatzopoulos D, Moralidis E, Markou P, Makris V, Arsos G. Rheumatology International. 2008;29(2):141-6. doi:10.1007/s00296-008-0639-z.",
+"doi": "10.1007/s00296-008-0639-z"
+},
+"128": {
+"n": 128,
+"texte": "Popliteal Cysts in Adults. Rupp S, Seil R, Jochum P, Kohn D. The American Journal of Sports Medicine. 2002 Jan-Feb;30(1):112-5. doi:10.1177/03635465020300010401.",
+"doi": "10.1177/03635465020300010401"
+},
+"129": {
+"n": 129,
+"texte": "MR Imaging of Baker Cysts: Association With Internal Derangement, Effusion, and Degenerative Arthropathy. Miller TT, Staron RB, Koenigsberg T, Levin TL, Feldman F. Radiology. 1996;201(1):247-50. doi:10.1148/radiology.201.1.8816552.",
+"doi": "10.1148/radiology.201.1.8816552"
+},
+"130": {
+"n": 130,
+"texte": "Evaluation of Popliteal Cysts and Painful Calves With Ultrasonography: Comparison With Arthrography. Gompels BM, Darlington LG. Annals of the Rheumatic Diseases. 1982;41(4):355-9. doi:10.1136/ard.41.4.355.",
+"doi": "10.1136/ard.41.4.355"
+},
+"131": {
+"n": 131,
+"texte": "Diagnostic Accuracy of Physical Examination for the Assessment of Popliteal Cysts: A Meta-Analysis. Tang L, Liu M, Sheng B, et al. Frontiers in Medicine. 2026;13:1797462. doi:10.3389/fmed.2026.1797462.",
+"doi": "10.3389/fmed.2026.1797462"
+},
+"132": {
+"n": 132,
+"texte": "The Pseudothrombophlebitis Syndrome. Katz RS, Zizic TM, Arnold WP, Stevens MB. Medicine. 1977;56(2):151-64. doi:10.1097/00005792-197703000-00005.",
+"doi": "10.1097/00005792-197703000-00005"
+},
+"133": {
+"n": 133,
+"texte": "Popliteal Cyst Rupture and the Pseudothrombophlebitis Syndrome. Brady HR, Quigley C, Stafford FJ, et al. Annals of Emergency Medicine. 1987;16(10):1151-4. doi:10.1016/s0196-0644(87)80475-4.",
+"doi": "10.1016/s0196-0644(87)80475-4"
+},
+"134": {
+"n": 134,
+"texte": "Popliteal cysts are not a risk factor for lower extremity deep vein thrombosis. Daniels P, Vlazny D, Meverden R, et al. Journal of Thrombosis and Thrombolysis. 2022;54(3):492-499. doi:10.1007/s11239-022-02685-7.",
+"doi": "10.1007/s11239-022-02685-7"
+},
+"136": {
+"n": 136,
+"texte": "Prevalence and Associated Factors of Osgood-Schlatter Syndrome in a Population-Based Sample of Brazilian Adolescents. de Lucena GL, dos Santos Gomes C, Guerra RO. The American Journal of Sports Medicine. 2011;39(2):415-20. doi:10.1177/0363546510383835.",
+"doi": "10.1177/0363546510383835"
+},
+"137": {
+"n": 137,
+"texte": "Incidence of and Risk Factors for Lower Extremity Apophysitis in Children and Adolescents. Wedderkopp N, Wang C, Steele R, et al. Sports Medicine (Auckland, N.Z.). 2026;56(3):793-803. doi:10.1007/s40279-025-02328-w.",
+"doi": "10.1007/s40279-025-02328-w"
+},
+"138": {
+"n": 138,
+"texte": "Precise risk factors for Osgood–Schlatter disease. Nakase J, Goshima K, Numata H, et al. Archives of Orthopaedic and Trauma Surgery. 2015;135(9):1277-81. doi:10.1007/s00402-015-2270-2.",
+"doi": "10.1007/s00402-015-2270-2"
+},
+"139": {
+"n": 139,
+"texte": "Developmental Stage and Lower Quadriceps Flexibilities and Decreased Gastrocnemius Flexibilities Are Predictive Risk Factors for Developing Osgood-Schlatter Disease in Adolescent Male Soccer Players. Takei S, Torii S, Taketomi S, et al. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 2023;31(8):3330-3338. doi:10.1007/s00167-023-07378-z.",
+"doi": "10.1007/s00167-023-07378-z"
+},
+"140": {
+"n": 140,
+"texte": "Osgood-Schlatter Disease: A 2020 Update of a Common Knee Condition in Children. Ladenhauf HN, Seitlinger G, Green DW. Current Opinion in Pediatrics. 2020;32(1):107-112. doi:10.1097/MOP.0000000000000842.",
+"doi": "10.1097/MOP.0000000000000842"
+},
+"141": {
+"n": 141,
+"texte": "Pediatric Sports-Related Injuries. Brown T, Moran M. Clinical Pediatrics. 2019;58(2):199-212. doi:10.1177/0009922818810879.",
+"doi": "10.1177/0009922818810879"
+},
+"142": {
+"n": 142,
+"texte": "Peri-epiphyseal and Overuse Injuries in Adolescent Athletes. Frush TJ, Lindenfeld TN. Sports Health. 2009;1(3):201-11. doi:10.1177/1941738109334214.",
+"doi": "10.1177/1941738109334214"
+},
+"143": {
+"n": 143,
+"texte": "Understanding the Interactions Between Loading, Pain Dynamics, and Imaging Characteristics for Osgood Schlatter: A Cross‐Sectional Study. Holden S, Lyng K, Olesen JL, Sørensen LB, Rathleff MS. Scandinavian Journal of Medicine & Science in Sports. 2024;34(9):e14729. doi:10.1111/sms.14729.",
+"doi": "10.1111/sms.14729"
+},
+"144": {
+"n": 144,
+"texte": "Imaging of osteochondrosis. West EY, Jaramillo D. Pediatric Radiology. 2019;49(12):1610-1616. doi:10.1007/s00247-019-04556-5.",
+"doi": "10.1007/s00247-019-04556-5"
+},
+"145": {
+"n": 145,
+"texte": "Sinding-Larsen-Johansson Disease. Clinical Features, Imaging Findings, Conservative Treatments and Research Perspectives: A Scoping Review. Wilczyński B, Taraszkiewicz M, de Tillier K, Biały M, Zorena K. PeerJ. 2024;12:e17996. doi:10.7717/peerj.17996.",
+"doi": "10.7717/peerj.17996"
+},
+"146": {
+"n": 146,
+"texte": "Shedding light on incidence and burden of physeal injuries in a youth elite football academy: A 4‐season prospective study. Materne O, Chamari K, Farooq A, et al. Scandinavian Journal of Medicine & Science in Sports. 2022;32(1):165-176. doi:10.1111/sms.14059.",
+"doi": "10.1111/sms.14059"
+},
+"147": {
+"n": 147,
+"texte": "The Demographics and Epidemiology of Osteochondritis Dissecans of the Knee in Children and Adolescents. Kessler JI, Nikizad H, Shea KG, et al. The American Journal of Sports Medicine. 2014;42(2):320-6. doi:10.1177/0363546513510390.",
+"doi": "10.1177/0363546513510390"
+},
+"148": {
+"n": 148,
+"texte": "Osteochondritis Dissecans: Wilson's Sign Revisited. Conrad JM, Stanitski CL. The American Journal of Sports Medicine. 2003 Sep-Oct;31(5):777-8. doi:10.1177/03635465030310052301.",
+"doi": "10.1177/03635465030310052301"
+},
+"149": {
+"n": 149,
+"texte": "Prevalence of Bilateral JOCD of the Knee and Associated Risk Factors. Cooper T, Boyles A, Samora WP, Klingele KE. Journal of Pediatric Orthopedics. 2015 Jul-Aug;35(5):507-10. doi:10.1097/BPO.0000000000000323.",
+"doi": "10.1097/BPO.0000000000000323"
+},
+"150": {
+"n": 150,
+"texte": "Management of Osteochondritis Dissecans of the Knee. Kocher MS, Tucker R, Ganley TJ, Flynn JM. The American Journal of Sports Medicine. 2006;34(7):1181-91. doi:10.1177/0363546506290127.",
+"doi": "10.1177/0363546506290127"
+},
+"151": {
+"n": 151,
+"texte": "The Diagnosis and Treatment of Osteochondritis Dissecans: Evidence-Based Clinical Practice Guideline. American Academy of Orthopaedic Surgeons (2023)."
+},
+"154": {
+"n": 154,
+"texte": "Diagnosis and Treatment of Hip and Knee Osteoarthritis: A Review. Katz JN, Arant KR, Loeser RF. JAMA. 2021;325(6):568-578. doi:10.1001/jama.2020.22171.",
+"doi": "10.1001/jama.2020.22171"
+},
+"155": {
+"n": 155,
+"texte": "Knee Osteoarthritis. Gelber AC. Annals of Internal Medicine. 2024;177(9):ITC129-ITC144. doi:10.7326/ANNALS-24-01249.",
+"doi": "10.7326/ANNALS-24-01249"
+},
+"156": {
+"n": 156,
+"texte": "Clinical Classification Criteria for Knee Osteoarthritis: Performance in the General Population and Primary Care. Peat G, Thomas E, Duncan R, et al. Annals of the Rheumatic Diseases. 2006;65(10):1363-7. doi:10.1136/ard.2006.051482.",
+"doi": "10.1136/ard.2006.051482"
+},
+"157": {
+"n": 157,
+"texte": "National Institute of Health and Care Excellence Clinical Criteria for the Diagnosis of Knee Osteoarthritis: A Prospective Diagnostic Accuracy Study in Individuals With Type 2 Diabetes. King LK, Stanaitis I, Hung V, et al. Arthritis Care & Research. 2025;77(5):623-630. doi:10.1002/acr.25464.",
+"doi": "10.1002/acr.25464"
+},
+"158": {
+"n": 158,
+"texte": "Performance of Distinct Knee Osteoarthritis Classification Criteria in the ELSA-Brasil Musculoskeletal Study. Miguel RCC, Machado LA, Costa-Silva L, Telles RW, Barreto SM. Clinical Rheumatology. 2019;38(3):793-802. doi:10.1007/s10067-018-4347-0.",
+"doi": "10.1007/s10067-018-4347-0"
+},
+"159": {
+"n": 159,
+"texte": "Risk Factors for Onset of Osteoarthritis of the Knee in Older Adults: A Systematic Review and Meta-Analysis. Blagojevic M, Jinks C, Jeffery A, Jordan KP. Osteoarthritis and Cartilage. 2010;18(1):24-33. doi:10.1016/j.joca.2009.08.010.",
+"doi": "10.1016/j.joca.2009.08.010"
+},
+"160": {
+"n": 160,
+"texte": "Current Evidence on Risk Factors for Knee Osteoarthritis in Older Adults: A Systematic Review and Meta-Analysis. Silverwood V, Blagojevic-Bucknall M, Jinks C, et al. Osteoarthritis and Cartilage. 2015;23(4):507-15. doi:10.1016/j.joca.2014.11.019.",
+"doi": "10.1016/j.joca.2014.11.019"
+},
+"161": {
+"n": 161,
+"texte": "Prevalence of Abnormalities in Knees Detected by MRI in Adults Without Knee Osteoarthritis: Population Based Observational Study (Framingham Osteoarthritis Study). Guermazi A, Niu J, Hayashi D, et al. BMJ (Clinical Research Ed.). 2012;345:e5339. doi:10.1136/bmj.e5339.",
+"doi": "10.1136/bmj.e5339"
+},
+"164": {
+"n": 164,
+"texte": "Spontaneous Osteonecrosis/Subchondral Insufficiency Fractures of the Knee: High Rates of Conversion to Surgical Treatment and Arthroplasty. Pareek A, Parkes CW, Bernard C, et al. The Journal of Bone and Joint Surgery. American Volume. 2020;102(9):821-829. doi:10.2106/JBJS.19.00381.",
+"doi": "10.2106/JBJS.19.00381"
+},
+"165": {
+"n": 165,
+"texte": "Advantages of cone beam computed tomography for evaluation of subchondral insufficiency fractures of the knee compared to MRI. Delsmann MM, Delsmann J, Jandl NM, et al. Scientific Reports. 2024;14(1):15278. doi:10.1038/s41598-024-64591-7.",
+"doi": "10.1038/s41598-024-64591-7"
+},
+"166": {
+"n": 166,
+"texte": "The Importance of Early Diagnosis in Spontaneous Osteonecrosis of the Knee - A Case Series With Six Year Follow-Up. Jordan RW, Aparajit P, Docker C, Udeshi U, El-Shazly M. The Knee. 2016;23(4):702-7. doi:10.1016/j.knee.2016.04.005.",
+"doi": "10.1016/j.knee.2016.04.005"
+},
+"167": {
+"n": 167,
+"texte": "The Role of Medial Meniscus Posterior Root Tear and Proximal Tibial Morphology in the Development of Spontaneous Osteonecrosis and Osteoarthritis of the Knee. Yamagami R, Taketomi S, Inui H, Tahara K, Tanaka S. The Knee. 2017;24(2):390-395. doi:10.1016/j.knee.2016.12.004.",
+"doi": "10.1016/j.knee.2016.12.004"
+},
+"168": {
+"n": 168,
+"texte": "Risk Factors for Subchondral Insufficiency Fracture of the Knee in the Setting of Medial Meniscus Posterior Root Tear. Garcia JR, Boden SA, Khan ZA, et al. The American Journal of Sports Medicine. 2025;53(9):2118-2127. doi:10.1177/03635465251346952.",
+"doi": "10.1177/03635465251346952"
+},
+"169": {
+"n": 169,
+"texte": "High Incidence of Medial Meniscus Root/Radial Tears and Extrusion in 253 Patients With Subchondral Insufficiency Fractures of the Knee. Clark SC, Pareek A, Hevesi M, et al. Knee Surgery, Sports Traumatology, Arthroscopy : Official Journal of the ESSKA. 2024;32(11):2755-2761. doi:10.1002/ksa.12271.",
+"doi": "10.1002/ksa.12271"
+},
+"170": {
+"n": 170,
+"texte": "Medial Meniscal Extrusion and Spontaneous Osteonecrosis of the Knee. Oda S, Fujita A, Moriuchi H, et al. Journal of Orthopaedic Science : Official Journal of the Japanese Orthopaedic Association. 2019;24(5):867-872. doi:10.1016/j.jos.2019.02.001.",
+"doi": "10.1016/j.jos.2019.02.001"
+},
+"171": {
+"n": 171,
+"texte": "Extrusion of the medial meniscus is a potential predisposing factor for post-arthroscopy osteonecrosis of the knee. Yamaguchi J, Yasuda K, Kondo E, et al. BMC Musculoskeletal Disorders. 2021;22(1):852. doi:10.1186/s12891-021-04730-7.",
+"doi": "10.1186/s12891-021-04730-7"
+},
+"172": {
+"n": 172,
+"texte": "Subchondral insufficiency fractures of the knee: review of imaging findings. Jose J, Pasquotti G, Smith MK, et al. Acta Radiologica (Stockholm, Sweden : 1987). 2015;56(6):714-9. doi:10.1177/0284185114535132.",
+"doi": "10.1177/0284185114535132"
+},
+"173": {
+"n": 173,
+"texte": "ACR Appropriateness Criteria® Chronic Knee Pain: Update 2026. Expert Panel on Musculoskeletal Imaging, Bateni CP, Ha AS, et al. Journal of the American College of Radiology : JACR. 2026;:S1546-1440(26)00233-4. doi:10.1016/j.jacr.2026.05.002.",
+"doi": "10.1016/j.jacr.2026.05.002"
+},
+"174": {
+"n": 174,
+"texte": "Features Associated With Different Inflammatory Phenotypes of Calcium Pyrophosphate Deposition Disease: A Study Using Data From the International American College of Rheumatology/EULAR Calcium Pyrophosphate Deposition Classification Criteria Cohort. Pascart T, Latourte A, Tedeschi SK, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2024;76(12):1780-1788. doi:10.1002/art.42962.",
+"doi": "10.1002/art.42962"
+},
+"175": {
+"n": 175,
+"texte": "The Diagnostic Value of Conventional Radiography and Musculoskeletal Ultrasonography in Calcium Pyrophosphate Deposition Disease: A Systematic Literature Review and Meta-Analysis. Cipolletta E, Filippou G, Scirè CA, et al. Osteoarthritis and Cartilage. 2021;29(5):619-632. doi:10.1016/j.joca.2021.01.007.",
+"doi": "10.1016/j.joca.2021.01.007"
+},
+"176": {
+"n": 176,
+"texte": "Calcium Pyrophosphate Deposition Disease. Pascart T, Filippou G, Lioté F, et al. The Lancet. Rheumatology. 2024;6(11):e791-e804. doi:10.1016/S2665-9913(24)00122-X.",
+"doi": "10.1016/S2665-9913(24)00122-X"
+},
+"177": {
+"n": 177,
+"texte": "Calcium Pyrophosphate Deposition Disease. Rosenthal AK, Ryan LM. The New England Journal of Medicine. 2016;374(26):2575-84. doi:10.1056/NEJMra1511117.",
+"doi": "10.1056/NEJMra1511117"
+},
+"178": {
+"n": 178,
+"texte": "The 2023 ACR/EULAR Classification Criteria for Calcium Pyrophosphate Deposition Disease. Abhishek A, Tedeschi SK, Pascart T, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2023;75(10):1703-1713. doi:10.1002/art.42619.",
+"doi": "10.1002/art.42619"
+},
+"180": {
+"n": 180,
+"texte": "Localised Chondrocalcinosis in Post-Meniscectomy Knees. Doherty M, Watt I, Dieppe PA. Lancet (London, England). 1982;1(8283):1207-10. doi:10.1016/s0140-6736(82)92336-4.",
+"doi": "10.1016/s0140-6736(82)92336-4"
+},
+"181": {
+"n": 181,
+"texte": "2015 Gout Classification Criteria: An American College of Rheumatology/European League Against Rheumatism Collaborative Initiative. Neogi T, Jansen TL, Dalbeth N, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2015;67(10):2557-68. doi:10.1002/art.39254.",
+"doi": "10.1002/art.39254"
+},
+"182": {
+"n": 182,
+"texte": "Performance of a diagnostic score for gouty arthritis: results from a cohort of acute arthritis suspected of being septic. Lafforgue A, Lambert C, Dubost JJ, et al. Rheumatology International. 2023;43(1):119-124. doi:10.1007/s00296-022-05216-y.",
+"doi": "10.1007/s00296-022-05216-y"
+},
+"183": {
+"n": 183,
+"texte": "The Inflammatory Process in the Mechanism of Decreased Serum Uric Acid Concentrations During Acute Gouty Arthritis. Urano W, Yamanaka H, Tsutani H, et al. The Journal of Rheumatology. 2002;29(9):1950-3."
+},
+"184": {
+"n": 184,
+"texte": "Dual-Energy Computed Tomography vs Ultrasound, Alone or Combined, for the Diagnosis of Gout: A Prospective Study of Accuracy. Singh JA, Budzik JF, Becce F, Pascart T. Rheumatology (Oxford, England). 2021;60(10):4861-4867. doi:10.1093/rheumatology/keaa923.",
+"doi": "10.1093/rheumatology/keaa923"
+},
+"185": {
+"n": 185,
+"texte": "Dual-Energy CT for the Diagnosis of Gout: An Accuracy and Diagnostic Yield Study. Bongartz T, Glazebrook KN, Kavros SJ, et al. Annals of the Rheumatic Diseases. 2015;74(6):1072-7. doi:10.1136/annrheumdis-2013-205095.",
+"doi": "10.1136/annrheumdis-2013-205095"
+},
+"186": {
+"n": 186,
+"texte": "Joint Distribution and Two‐Year Outcome in 347 Patients With Monoarthritis of Less Than Sixteen Weeks’ Duration. Norli ES, Brinkmann GH, Kvien TK, et al. Arthritis Care & Research. 2020;72(5):705-710. doi:10.1002/acr.23334.",
+"doi": "10.1002/acr.23334"
+},
+"187": {
+"n": 187,
+"texte": "Synovial Fluid Tests. What Should Be Ordered?. Shmerling RH, Delbanco TL, Tosteson AN, Trentham DE. JAMA. 1990 Aug 22-29;264(8):1009-14."
+},
+"188": {
+"n": 188,
+"texte": "Meta-analysis: Diagnostic Accuracy of Anti–Cyclic Citrullinated Peptide Antibody and Rheumatoid Factor for Rheumatoid Arthritis. Nishimura K, Sugiyama D, Kogata Y, et al. Annals of Internal Medicine. 2007;146(11):797-808. doi:10.7326/0003-4819-146-11-200706050-00008.",
+"doi": "10.7326/0003-4819-146-11-200706050-00008"
+},
+"189": {
+"n": 189,
+"texte": "Outcome of Patients With Undifferentiated Chronic Monoarthritis: Retrospective Study of 46 Cases. Inaoui R, Bertin P, Preux PM, Trèves R. Joint Bone Spine. 2004;71(3):209-13. doi:10.1016/S1297-319X(03)00136-2.",
+"doi": "10.1016/S1297-319X(03)00136-2"
+},
+"190": {
+"n": 190,
+"texte": "Axial Spondyloarthritis. Navarro-Compán V, Sepriano A, Capelusnik D, Baraliakos X. Lancet (London, England). 2025;405(10473):159-172. doi:10.1016/S0140-6736(24)02263-3.",
+"doi": "10.1016/S0140-6736(24)02263-3"
+},
+"191": {
+"n": 191,
+"texte": "Diagnostic Value and Validity of Early Spondyloarthritis Features: Results From a National Spanish Cohort. Joven BE, Navarro-Compán V, Rosas J, et al. Arthritis Care & Research. 2017;69(6):938-942. doi:10.1002/acr.23017.",
+"doi": "10.1002/acr.23017"
+},
+"192": {
+"n": 192,
+"texte": "The Assessment of SpondyloArthritis International Society Classification Criteria for Peripheral Spondyloarthritis and for Spondyloarthritis in General. Rudwaleit M, van der Heijde D, Landewé R, et al. Annals of the Rheumatic Diseases. 2011;70(1):25-31. doi:10.1136/ard.2010.133645.",
+"doi": "10.1136/ard.2010.133645"
+},
+"193": {
+"n": 193,
+"texte": "Performance of Classification Criteria for Peripheral Spondyloarthritis and Psoriatic Arthritis in the Leiden Early Arthritis Cohort. van den Berg R, van Gaalen F, van der Helm-van Mil A, Huizinga T, van der Heijde D. Annals of the Rheumatic Diseases. 2012;71(8):1366-9. doi:10.1136/annrheumdis-2011-201081.",
+"doi": "10.1136/annrheumdis-2011-201081"
+},
+"194": {
+"n": 194,
+"texte": "Reactive Arthritis Update: Spotlight on New and Rare Infectious Agents Implicated as Pathogens. Zeidler H, Hudson AP. Current Rheumatology Reports. 2021;23(7):53. doi:10.1007/s11926-021-01018-6.",
+"doi": "10.1007/s11926-021-01018-6"
+},
+"195": {
+"n": 195,
+"texte": "Initial presentation of early rheumatoid arthritis. Weman L, Salo H, Kuusalo L, et al. PloS One. 2023;18(7):e0287707. doi:10.1371/journal.pone.0287707.",
+"doi": "10.1371/journal.pone.0287707"
+},
+"196": {
+"n": 196,
+"texte": "Does This Adult Patient Have Septic Arthritis?. Margaretten ME, Kohlwes J, Moore D, Bent S. JAMA. 2007;297(13):1478-88. doi:10.1001/jama.297.13.1478.",
+"doi": "10.1001/jama.297.13.1478"
+},
+"198": {
+"n": 198,
+"texte": "Evidence-Based Diagnostics: Adult Septic Arthritis. Carpenter CR, Schuur JD, Everett WW, Pines JM. Academic Emergency Medicine : Official Journal of the Society for Academic Emergency Medicine. 2011;18(8):781-96. doi:10.1111/j.1553-2712.2011.01121.x.",
+"doi": "10.1111/j.1553-2712.2011.01121.x"
+},
+"199": {
+"n": 199,
+"texte": "Adult Septic Arthritis. Ian T. Ferguson, Christopher R. Carpenter. Chapter 32."
+},
+"200": {
+"n": 200,
+"texte": "Predictive Value of Preceding Fever or Rigor for Septic Arthritis in Acute Monoarthritis: A Retrospective Observational Study. Kano Y. The American Journal of Emergency Medicine. 2025;98:334-338. doi:10.1016/j.ajem.2025.10.027.",
+"doi": "10.1016/j.ajem.2025.10.027"
+},
+"201": {
+"n": 201,
+"texte": "Acute Monoarthritis: Diagnosis in Adults. Swisher J, Sitton Z, Burbank K, Nelson C. American Family Physician. 2025;111(6):497-506."
+},
+"202": {
+"n": 202,
+"texte": "Does the Presence of Crystal Arthritis Rule Out Septic Arthritis?. Shah K, Spear J, Nathanson LA, McCauley J, Edlow JA. The Journal of Emergency Medicine. 2007;32(1):23-6. doi:10.1016/j.jemermed.2006.07.019.",
+"doi": "10.1016/j.jemermed.2006.07.019"
+},
+"203": {
+"n": 203,
+"texte": "Concomitant Septic Arthritis in Crystal Monoarthritis. Papanicolas LE, Hakendorf P, Gordon DL. The Journal of Rheumatology. 2012;39(1):157-60. doi:10.3899/jrheum.110368.",
+"doi": "10.3899/jrheum.110368"
+},
+"204": {
+"n": 204,
+"texte": "Serum Procalcitonin Levels as a Diagnostic Marker for Septic Arthritis: A Meta-Analysis. Zhao J, Zhang S, Zhang L, et al. The American Journal of Emergency Medicine. 2017;35(8):1166-1171. doi:10.1016/j.ajem.2017.06.014.",
+"doi": "10.1016/j.ajem.2017.06.014"
+}
+}
+}

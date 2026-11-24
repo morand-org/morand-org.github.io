@@ -1,0 +1,6378 @@
+{
+"domaine": "MSK",
+"region": "Coude",
+"cle": "msk-coude",
+"lot": 4,
+"version": "2026-11-24",
+"source": "Base de données pour FlashCards Morand MSK (lot 4), références incluses",
+"diagnostics": [
+{
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+{
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+{
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+{
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+{
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+{
+"no": 56,
+"nom": "Arthrose du coude"
+},
+{
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+{
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+{
+"no": 59,
+"nom": "Conflit postérieur du coude (surcharge en valgus-extension)"
+},
+{
+"no": 60,
+"nom": "Tendinopathie distale du triceps"
+},
+{
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+{
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+{
+"no": 63,
+"nom": "Fracture du coude"
+},
+{
+"no": 64,
+"nom": "Luxation du coude"
+},
+{
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+{
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+{
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+{
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+{
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+}
+],
+"cartes": [
+{
+"id": "MSK-051-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Examen physique",
+"enonce": "Force de préhension réduite de 5 à 10 % coude en extension par rapport à la flexion",
+"reponse": "increase",
+"explication": "Force de préhension réduite de 5 à 10 % coude en extension par rapport à la flexion : Se 78–83 %, Sp 80–90 %, LR+ 3,9 à 8,3",
+"contexte_puce": "↑ Force de préhension réduite de 5 à 10 % coude en extension par rapport à la flexion : Se 78–83 %, Sp 80–90 %, LR+ 3,9 à 8,3 ; ↓ absente : LR− 0,19 à 0,28, calculés (Karanasios 2021).",
+"donnee": {
+"lr_positif": 3.9,
+"lr_negatif": null,
+"sensibilite": "78",
+"specificite": "80",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+4
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Examen physique",
+"enonce": "Force de préhension réduite de 5 à 10 % coude en extension par rapport à la flexion : absente",
+"reponse": "decrease",
+"explication": "Absente : LR− 0,19 à 0,28, calculés (Karanasios 2021).",
+"contexte_puce": "↑ Force de préhension réduite de 5 à 10 % coude en extension par rapport à la flexion : Se 78–83 %, Sp 80–90 %, LR+ 3,9 à 8,3 ; ↓ absente : LR− 0,19 à 0,28, calculés (Karanasios 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.19,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+4
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-051-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Cozen négatif",
+"reponse": "decrease",
+"explication": "Test de Cozen négatif : Se 91 % ; spécificité non rapportée, donc aucun LR+ (Karanasios 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "91 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+4,
+5
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Maudsley négatif",
+"reponse": "decrease",
+"explication": "Test de Maudsley négatif : prédicteur indépendant d'un autre diagnostic, p < 0,001 (Zwerus 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+3
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Anamnèse",
+"enonce": "Tabagisme actuel",
+"reponse": "increase",
+"explication": "Tabagisme actuel : OR 3,4 (Shiri 2006) ; OR 1,46 en méta-analyse (Chen 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 3.4,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+2,
+6
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Examen physique",
+"enonce": "Travail répétitif et en force",
+"reponse": "increase",
+"explication": "Travail répétitif et en force : OR 5,6 (Shiri 2006) ; travail manuel : OR 4,0 (Walker-Bone 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 5.6,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+2,
+7
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge de 40 à 49 ans",
+"reponse": "increase",
+"explication": "Âge de 40 à 49 ans : pic d'incidence à 9 pour 1 000 (Sanders 2015)",
+"contexte_puce": "↑ Âge de 40 à 49 ans : pic d'incidence à 9 pour 1 000 (Sanders 2015) ; ↓ âge ≤ 30 ans : prédicteur d'un autre diagnostic (Zwerus 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+8,
+3
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge ≤ 30 ans",
+"reponse": "decrease",
+"explication": "Âge ≤ 30 ans : prédicteur d'un autre diagnostic (Zwerus 2026).",
+"contexte_puce": "↑ Âge de 40 à 49 ans : pic d'incidence à 9 pour 1 000 (Sanders 2015) ; ↓ âge ≤ 30 ans : prédicteur d'un autre diagnostic (Zwerus 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+8,
+3
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent de traumatisme du coude",
+"reponse": "decrease",
+"explication": "Antécédent de traumatisme du coude : risque d'erreur diagnostique multiplié par 17,85 (Blonna 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+9
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Biais d'incorporation. Dans Blonna 2025, le test de Cozen servait à définir l'épicondylite « typique »."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Facteurs de risque",
+"enonce": "Diabète, IMC > 40, alcool",
+"reponse": "neutral",
+"explication": "Diabète, IMC > 40, alcool : OR 0,71 et 0,94 après ajustement, aucune association pour l'alcool (Titchener 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 0.71,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+10
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Anamnèse",
+"enonce": "Pratique du tennis",
+"reponse": "neutral",
+"explication": "Pratique du tennis : 40 à 50 % des joueurs récréatifs sont touchés un jour, mais le tennis n'explique qu'environ 5 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+11,
+12,
+13
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-051-12",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 51,
+"nom": "Épicondylite latérale"
+},
+"type": "Anamnèse",
+"enonce": "Anomalie du tendon à l'échographie",
+"reponse": "neutral",
+"explication": "Anomalie du tendon à l'échographie : 58,8 % de joueurs de tennis seniors asymptomatiques (Crema 2026, n = 102) ; Se 72–88 %, Sp 36–48,5 % (Levin 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "72",
+"specificite": "36",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+14,
+15
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 51"
+},
+{
+"id": "MSK-052-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Examen physique",
+"enonce": "Flexion répétée du coude plus d'une heure par jour",
+"reponse": "increase",
+"explication": "Flexion répétée du coude plus d'une heure par jour : OR 5,1 (Walker-Bone 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 5.1,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+7
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-052-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Examen physique",
+"enonce": "Travail en force",
+"reponse": "increase",
+"explication": "Travail en force : OR 1,95 pour un cas incident (Descatha 2013) ; OR 2,2 chez l'homme (Shiri 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.95,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+17,
+2
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-052-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Anamnèse",
+"enonce": "Outils vibrants plus de 2 h par jour",
+"reponse": "increase",
+"explication": "Outils vibrants plus de 2 h par jour : OR 2,2 (van Rijn 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.2,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+18
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-052-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge ≥ 40 ans",
+"reponse": "increase",
+"explication": "Âge ≥ 40 ans : ratio d'incidence de 8,87 par rapport aux moins de 20 ans (cohorte militaire).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+16
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-052-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Facteurs de risque",
+"enonce": "Tabac, obésité",
+"reponse": "increase",
+"explication": "Tabac, obésité : associations indépendantes, OR non disponibles (Shiri 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+2
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-052-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe",
+"reponse": "neutral",
+"explication": "Sexe : aucune association (Wolf 2010).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+19
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-052-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Anamnèse",
+"enonce": "(incertain) Pronation résistée douloureuse",
+"reponse": "increase",
+"explication": "(incertain) Pronation résistée douloureuse : 28 coudes sur 30 (93 %) ; flexion résistée du poignet : 12 sur 30 (40 %), série chirurgicale sans spécificité (Gabel et Morrey 1995).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+20
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-052-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 52,
+"nom": "Épicondylite médiale"
+},
+"type": "Tests spécifiques",
+"enonce": "Signes ulnaires associés",
+"reponse": "neutral",
+"explication": "Signes ulnaires associés : neuropathie ulnaire dans 53 % des coudes opérés, elle n'exclut pas le diagnostic (Gabel et Morrey 1995).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+20
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 52"
+},
+{
+"id": "MSK-060-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 60,
+"nom": "Tendinopathie distale du triceps"
+},
+"type": "Facteurs démographiques",
+"enonce": "Homme d'environ 49 ans",
+"reponse": "increase",
+"explication": "Homme d'environ 49 ans : ratio hommes-femmes de 15 pour 1 (Mirzayan 2018, n = 184).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+21
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 60"
+},
+{
+"id": "MSK-060-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 60,
+"nom": "Tendinopathie distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Stéroïdes anabolisants",
+"reponse": "increase",
+"explication": "Stéroïdes anabolisants : rapport de risque 9,0 pour toute rupture tendineuse ; ruptures du haut du corps chez 17 % des utilisateurs contre 0 % (Kanayama 2015, n = 142).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+22
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 60"
+},
+{
+"id": "MSK-060-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 60,
+"nom": "Tendinopathie distale du triceps"
+},
+"type": "Facteurs de risque",
+"enonce": "Joueur de ligne au football américain",
+"reponse": "increase",
+"explication": "Joueur de ligne au football américain : 15 joueurs sur 19 ; douleur prodromique chez 7 (Mair 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 60"
+},
+{
+"id": "MSK-060-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 60,
+"nom": "Tendinopathie distale du triceps"
+},
+"type": "Examen physique",
+"enonce": "Douleur à l'insertion olécrânienne et à l'extension résistée",
+"reponse": "increase",
+"explication": "Douleur à l'insertion olécrânienne et à l'extension résistée : tableau typique, descriptif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+5,
+24
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 60"
+},
+{
+"id": "MSK-060-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 60,
+"nom": "Tendinopathie distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Absence de comorbidité",
+"reponse": "neutral",
+"explication": "Absence de comorbidité : 52,7 % des patients n'en ont aucune (Mirzayan 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+21
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 60"
+},
+{
+"id": "MSK-060-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 60,
+"nom": "Tendinopathie distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Suspicion clinique",
+"reponse": "neutral",
+"explication": "Suspicion clinique : une déchirure n'était suspectée avant l'IRM que dans 43 % des cas (Koplas 2011, 801 IRM).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+25
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 60"
+},
+{
+"id": "MSK-054-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe de Tinel au coude",
+"reponse": "neutral",
+"explication": "Signe de Tinel au coude : Se 62 %, Sp 53 %, LR+ 1,32 et LR− 0,72 calculés (Beekman 2009, n = 192) ; LR+ 1,11 (Rubin 2016).",
+"donnee": {
+"lr_positif": 1.32,
+"lr_negatif": 0.72,
+"sensibilite": "62 %",
+"specificite": "53 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+26,
+27
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de flexion-compression",
+"reponse": "neutral",
+"explication": "Test de flexion-compression : LR+ 1,02, LR− 0,98 calculés (Beekman 2009) ; Se 91 % dans l'étude cas-témoins d'origine (Novak 1994).",
+"donnee": {
+"lr_positif": 1.02,
+"lr_negatif": 0.98,
+"sensibilite": "91 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+26,
+28
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Examen physique",
+"enonce": "Nerf épaissi à la palpation",
+"reponse": "increase",
+"explication": "Nerf épaissi à la palpation : Se 28 %, Sp 87 %, LR+ 2,15 et LR− 0,83 calculés (Beekman 2009).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.15,
+"lr_negatif": 0.83,
+"sensibilite": "28 %",
+"specificite": "87 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+26
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Tests spécifiques",
+"enonce": "Scratch collapse test",
+"reponse": "neutral",
+"explication": "Scratch collapse test : Se 69 % à l'origine (Cheng 2008) ; Se 10 %, Sp 90 %, LR 1,0 en étude indépendante à l'aveugle (Montgomery 2020, n = 92).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "69 %",
+"specificite": "90 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+29,
+30
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Examen physique",
+"enonce": "(incertain) Rotation interne de l'épaule avec flexion du coude, 5 s",
+"reponse": "increase",
+"explication": "(incertain) Rotation interne de l'épaule avec flexion du coude, 5 s : Se 87 %, Sp 98 %, LR+ 43,5 calculé, groupe unique avec témoins sains (Ochi 2012).",
+"donnee": {
+"lr_positif": 43.5,
+"lr_negatif": null,
+"sensibilite": "87 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+31
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Anamnèse",
+"enonce": "Subluxation du nerf ulnaire",
+"reponse": "neutral",
+"explication": "Subluxation du nerf ulnaire : 37 % de 400 coudes de volontaires, sans lien avec les symptômes (Calfee 2010).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+32
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Anamnèse",
+"enonce": "Surface du nerf ≥ 10 mm² à l'échographie",
+"reponse": "increase",
+"explication": "Surface du nerf ≥ 10 mm² à l'échographie : Se 0,85, Sp 0,91, LR+ 9,4 et LR− 0,16 calculés (Chang 2018) ; 72,4 % et 75,0 % avec des témoins symptomatiques.",
+"donnee": {
+"lr_positif": 9.4,
+"lr_negatif": 0.16,
+"sensibilite": "0,85",
+"specificite": "0,91",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+33,
+34
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Anamnèse",
+"enonce": "Tabagisme",
+"reponse": "increase",
+"explication": "Tabagisme : OR 2,08 (Lucey 2026, UK Biobank) ; rapport de risque 5,61 au-delà de 10 paquets-années (Hulkkonen 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.08,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+35,
+36
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "increase",
+"explication": "Sexe masculin : OR 1,77 ; syndrome du canal carpien : OR 11,7 ; maintien prolongé d'un outil : OR 4,1 (Descatha 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.77,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+35,
+37
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-054-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 54,
+"nom": "Syndrome du tunnel cubital"
+},
+"type": "Anamnèse",
+"enonce": "Alcool, hypothyroïdie, HbA1c",
+"reponse": "neutral",
+"explication": "Alcool, hypothyroïdie, HbA1c : aucune association (Lucey 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+35
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 54"
+},
+{
+"id": "MSK-061-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+"type": "Évolution temporelle",
+"enonce": "Épicondylite résistante depuis au moins 6 mois",
+"reponse": "increase",
+"explication": "Épicondylite résistante depuis au moins 6 mois : 44 % de 32 patients répondaient au bloc du nerf interosseux postérieur (Keles 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+39
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 61"
+},
+{
+"id": "MSK-061-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+"type": "Imagerie",
+"enonce": "EMG normal",
+"reponse": "neutral",
+"explication": "EMG normal : normal chez tous les patients confirmés par bloc ; les fibres de la douleur ne sont pas testables.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+39,
+40
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 61"
+},
+{
+"id": "MSK-061-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+"type": "Anamnèse",
+"enonce": "Surface du nerf à l'échographie",
+"reponse": "neutral",
+"explication": "Surface du nerf à l'échographie : concordance avec le bloc κ 0,10 à 0,14 (Keles 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+39
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 61"
+},
+{
+"id": "MSK-061-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+"type": "Tests spécifiques",
+"enonce": "Test du majeur (Maudsley)",
+"reponse": "neutral",
+"explication": "Test du majeur (Maudsley) : partagé avec l'épicondylite latérale, il ne sépare pas les deux.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+40,
+41
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 61"
+},
+{
+"id": "MSK-061-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+"type": "Tests spécifiques",
+"enonce": "(incertain) Sensibilité 3 à 5 cm sous l'épicondyle, supination résistée, règle des neuf",
+"reponse": "increase",
+"explication": "(incertain) Sensibilité 3 à 5 cm sous l'épicondyle, supination résistée, règle des neuf : signes classiques sans étude de précision ; la règle des neuf vient d'une étude cadavérique.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+40,
+42,
+43
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 61"
+},
+{
+"id": "MSK-061-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+"type": "Anamnèse",
+"enonce": "Manutention de charges > 1 kg",
+"reponse": "increase",
+"explication": "Manutention de charges > 1 kg : OR 9,0 (IC 1,4–56,9) ; travail statique de la main : OR 5,9 ; extension complète du coude : OR 4,9 (van Rijn 2009).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 9.0,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+18
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 61"
+},
+{
+"id": "MSK-061-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 61,
+"nom": "Syndrome du tunnel radial"
+},
+"type": "Anamnèse",
+"enonce": "Épicondylite latérale associée",
+"reponse": "neutral",
+"explication": "Épicondylite latérale associée : seulement 5,7 % des patients dans les 6 mois (Zhang 2023).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+38
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 61"
+},
+{
+"id": "MSK-062-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Examen physique",
+"enonce": "Réflexe bicipital diminué",
+"reponse": "increase",
+"explication": "Réflexe bicipital diminué : LR+ 4,9",
+"contexte_puce": "↑ Réflexe bicipital diminué : LR+ 4,9 ; ↔ normal : LR− 0,8 (Wainner 2003).",
+"donnee": {
+"lr_positif": 4.9,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+45,
+46
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Examen physique",
+"enonce": "Réflexe bicipital normal",
+"reponse": "neutral",
+"explication": "Normal : LR− 0,8 (Wainner 2003).",
+"contexte_puce": "↑ Réflexe bicipital diminué : LR+ 4,9 ; ↔ normal : LR− 0,8 (Wainner 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.8,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+45,
+46
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-062-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Examen physique",
+"enonce": "Réflexe tricipital diminué",
+"reponse": "neutral",
+"explication": "Réflexe tricipital diminué : LR+ 0,4 et LR− 1,05 (Wainner 2003) ; LR+ 1,75 et LR− 0,93 (Lauder 2000).",
+"donnee": {
+"lr_positif": 0.4,
+"lr_negatif": 1.05,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+46
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Anamnèse",
+"enonce": "Topographie de la douleur",
+"reponse": "neutral",
+"explication": "Topographie de la douleur : cartes diffuses et superposées entre C6 et C7 (Rainville 2017) ; 54 % seulement suivent le schéma classique (McAnany 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+47,
+48
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Spurling positif",
+"reponse": "increase",
+"explication": "Test de Spurling positif : Se 30 %, Sp 93 %, LR+ 4,3",
+"contexte_puce": "↑ Test de Spurling positif : Se 30 %, Sp 93 %, LR+ 4,3 ; ↔ négatif : LR− 0,75, calculés (Tong 2002, n = 255).",
+"donnee": {
+"lr_positif": 4.3,
+"lr_negatif": null,
+"sensibilite": "30 %",
+"specificite": "93 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+49
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de Spurling négatif",
+"reponse": "neutral",
+"explication": "Négatif : LR− 0,75, calculés (Tong 2002, n = 255).",
+"contexte_puce": "↑ Test de Spurling positif : Se 30 %, Sp 93 %, LR+ 4,3 ; ↔ négatif : LR− 0,75, calculés (Tong 2002, n = 255).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.75,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+49
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-062-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Tests spécifiques",
+"enonce": "Quatre tests neurodynamiques négatifs",
+"reponse": "decrease",
+"explication": "Quatre tests neurodynamiques négatifs : LR− 0,08 (Grondin 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.08,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+50,
+51
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Examen physique",
+"enonce": "Examen neurologique complet",
+"reponse": "neutral",
+"explication": "Examen neurologique complet : LR+ 1,15, LR− 0,60 (Inal 2012).",
+"donnee": {
+"lr_positif": 1.15,
+"lr_negatif": 0.6,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+52
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Examen physique",
+"enonce": "Dysfonction cervicale à la palpation",
+"reponse": "neutral",
+"explication": "Dysfonction cervicale à la palpation : 36 % des épicondylites latérales sans symptôme cervical (Coombes 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+53
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Anamnèse",
+"enonce": "Trouble musculosquelettique local identifié",
+"reponse": "decrease",
+"explication": "Trouble musculosquelettique local identifié : 69 % des suspicions avec EMG normal contre 29 % des radiculopathies confirmées (Cannon 2007, n = 191).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+54
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-062-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 62,
+"nom": "Douleur projetée d'origine cervicale (C6 ou C7)"
+},
+"type": "Anamnèse",
+"enonce": "Double compression (double crush)",
+"reponse": "neutral",
+"explication": "Double compression (double crush) : radiculopathie anatomiquement cohérente dans 0,8 % de 12 736 membres avec neuropathie distale (Morgan 1998).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+55
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 62"
+},
+{
+"id": "MSK-053-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Anamnèse",
+"enonce": "Lancer régulièrement malgré la fatigue du bras",
+"reponse": "increase",
+"explication": "Lancer régulièrement malgré la fatigue du bras : OR 36,18 (IC 5,92–221) pour une chirurgie (Olsen 2006, n = 140).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 36.18,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+56
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Jeune lanceur. L'intervalle de confiance de l'OR 36 (Olsen 2006) est très large, et Olsen et Fleisig viennent du même groupe."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Anamnèse",
+"enonce": "Plus de 100 manches par an",
+"reponse": "increase",
+"explication": "Plus de 100 manches par an : risque multiplié par 3,5 (Fleisig 2011, n = 481).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+57
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Évolution temporelle",
+"enonce": "Plus de 8 mois de compétition par an",
+"reponse": "increase",
+"explication": "Plus de 8 mois de compétition par an : OR 5,05 ; plus de 80 lancers par match : OR 3,83 (Olsen 2006).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 5.05,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+56
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Jeune lanceur. L'intervalle de confiance de l'OR 36 (Olsen 2006) est très large, et Olsen et Fleisig viennent du même groupe."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Anamnèse",
+"enonce": "Plus de 800 lancers par saison",
+"reponse": "increase",
+"explication": "Plus de 800 lancers par saison : OR 2,61 pour la douleur du coude (Lyman 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.61,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+58
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Anamnèse",
+"enonce": "Vitesse de lancer",
+"reponse": "increase",
+"explication": "Vitesse de lancer : OR 1,12 par km/h pour une anomalie de l'épicondyle médial (Kurokawa 2020).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.12,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+59
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Anamnèse",
+"enonce": "Balle courbe",
+"reponse": "neutral",
+"explication": "Balle courbe : non associée à la douleur du coude ni aux blessures graves (Lyman 2002 ; Fleisig 2011 ; Norton 2019).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+60,
+57,
+61
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Anamnèse",
+"enonce": "(étude unique) Slider",
+"reponse": "increase",
+"explication": "(étude unique) Slider : douleur du coude augmentée de 86 % (Lyman 2002).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+60
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité de l'épicondyle médial",
+"reponse": "increase",
+"explication": "Sensibilité de l'épicondyle médial : associée à la douleur",
+"contexte_puce": "↑ Sensibilité de l'épicondyle médial : associée à la douleur ; ↔ extension limitée : non associée (Matsuura 2020, n = 720).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+62
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Examen physique",
+"enonce": "Extension limitée",
+"reponse": "neutral",
+"explication": "Extension limitée : non associée (Matsuura 2020, n = 720).",
+"contexte_puce": "↑ Sensibilité de l'épicondyle médial : associée à la douleur ; ↔ extension limitée : non associée (Matsuura 2020, n = 720).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+62
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-053-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Anamnèse",
+"enonce": "Anomalie de l'épicondyle médial à l'échographie",
+"reponse": "neutral",
+"explication": "Anomalie de l'épicondyle médial à l'échographie : 51 % de 256 joueurs de 9 à 12 ans (Kurokawa 2020).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+59
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-053-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 53,
+"nom": "Coude du lanceur juvénile"
+},
+"type": "Imagerie",
+"enonce": "IRM anormale",
+"reponse": "neutral",
+"explication": "IRM anormale : 35 % de joueurs asymptomatiques de 10 à 13 ans (Pennock 2016, n = 26).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+63
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 53"
+},
+{
+"id": "MSK-057-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Moving valgus stress test négatif",
+"reponse": "decrease",
+"explication": "Moving valgus stress test négatif : Se 98 %, LR− 0,02",
+"contexte_puce": "↓ Moving valgus stress test négatif : Se 98 %, LR− 0,02 ; ↑ positif : Sp 75 %, LR+ 3,94 (Sciascia 2026, n = 84) ; Se 100 %, Sp 75 % à l'origine (O'Driscoll 2005, n = 21).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.02,
+"sensibilite": "98 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+64,
+65
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Tests spécifiques",
+"enonce": "Moving valgus stress test positif",
+"reponse": "increase",
+"explication": "Positif : Sp 75 %, LR+ 3,94 (Sciascia 2026, n = 84) ; Se 100 %, Sp 75 % à l'origine (O'Driscoll 2005, n = 21).",
+"contexte_puce": "↓ Moving valgus stress test négatif : Se 98 %, LR− 0,02 ; ↑ positif : Sp 75 %, LR+ 3,94 (Sciascia 2026, n = 84) ; Se 100 %, Sp 75 % à l'origine (O'Driscoll 2005, n = 21).",
+"donnee": {
+"lr_positif": 3.94,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "75 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+64,
+65
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-057-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Anamnèse",
+"enonce": "Milking maneuver",
+"reponse": "increase",
+"explication": "Milking maneuver : Se 77 %, Sp 85 %, LR+ 5,10, LR− 0,28 (Sciascia 2026).",
+"donnee": {
+"lr_positif": 5.1,
+"lr_negatif": 0.28,
+"sensibilite": "77 %",
+"specificite": "85 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+64
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Anamnèse",
+"enonce": "Valgus statique douloureux",
+"reponse": "neutral",
+"explication": "Valgus statique douloureux : LR+ 4,38, LR− 0,40 (Sciascia 2026), mais LR+ 1,3 calculé (O'Driscoll 2005).",
+"discordant": true,
+"donnee": {
+"lr_positif": 4.38,
+"lr_negatif": 0.4,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+64,
+65
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Anamnèse",
+"enonce": "Absence de laxité médiale palpable",
+"reponse": "neutral",
+"explication": "Absence de laxité médiale palpable : Se 19 %",
+"contexte_puce": "↔ Absence de laxité médiale palpable : Se 19 % ; ↑ présente : Sp 100 % (O'Driscoll 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "19 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+65
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Anamnèse",
+"enonce": "Laxité médiale palpable présente",
+"reponse": "increase",
+"explication": "Présente : Sp 100 % (O'Driscoll 2005).",
+"contexte_puce": "↔ Absence de laxité médiale palpable : Se 19 % ; ↑ présente : Sp 100 % (O'Driscoll 2005).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+65
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-057-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Examen physique",
+"enonce": "Pronation-flexion résistée",
+"reponse": "neutral",
+"explication": "Pronation-flexion résistée : LR+ 1,56, LR− 0,94 (Sciascia 2026).",
+"donnee": {
+"lr_positif": 1.56,
+"lr_negatif": 0.94,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+64
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Imagerie",
+"enonce": "IRM sans contraste normale",
+"reponse": "neutral",
+"explication": "IRM sans contraste normale : Se 14 % pour les ruptures partielles (Timmerman 1994).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "14 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+66
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Imagerie",
+"enonce": "Arthro-IRM positive",
+"reponse": "increase",
+"explication": "Arthro-IRM positive : Se 74 %, Sp 92 %, LR+ 9,25 et LR− 0,28 calculés (Roedl, n = 144).",
+"donnee": {
+"lr_positif": 9.25,
+"lr_negatif": 0.28,
+"sensibilite": "74 %",
+"specificite": "92 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+67
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Anamnèse",
+"enonce": "Échographie de stress positive",
+"reponse": "increase",
+"explication": "Échographie de stress positive : Se 96 %, Sp 81 %, LR+ 5,1",
+"contexte_puce": "↑ Échographie de stress positive : Se 96 %, Sp 81 %, LR+ 5,1 ; ↓ négative : LR− 0,05, calculés (Roedl).",
+"donnee": {
+"lr_positif": 5.1,
+"lr_negatif": null,
+"sensibilite": "96 %",
+"specificite": "81 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+67
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Anamnèse",
+"enonce": "Échographie de stress négative",
+"reponse": "decrease",
+"explication": "Négative : LR− 0,05, calculés (Roedl).",
+"contexte_puce": "↑ Échographie de stress positive : Se 96 %, Sp 81 %, LR+ 5,1 ; ↓ négative : LR− 0,05, calculés (Roedl).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.05,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+67
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-057-12",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Imagerie",
+"enonce": "Anomalie du ligament à l'IRM chez le lanceur asymptomatique",
+"reponse": "neutral",
+"explication": "Anomalie du ligament à l'IRM chez le lanceur asymptomatique : 87 % de 16 professionnels (Kooima 2004) ; 81 % des lanceurs contre 41 % des joueurs de position (Erickson 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+68,
+69
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-057-13",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 57,
+"nom": "Lésion partielle du ligament collatéral ulnaire"
+},
+"type": "Anamnèse",
+"enonce": "Vitesse de lancer",
+"reponse": "increase",
+"explication": "Vitesse de lancer : 93,3 contre 92,1 mph avant la blessure, 7 % de la variance expliquée (Chalmers 2016).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+70
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 57"
+},
+{
+"id": "MSK-058-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Anamnèse",
+"enonce": "Baseball ou gymnastique",
+"reponse": "increase",
+"explication": "Baseball ou gymnastique : OR 21,7 (Kessler).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 21.7,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+73
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge",
+"reponse": "increase",
+"explication": "Âge : OR 1,16 par année ; durée de pratique : OR 1,14 par année (Kida 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.16,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+71
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Évolution temporelle",
+"enonce": "Moins de 36 mois de pratique",
+"reponse": "decrease",
+"explication": "Moins de 36 mois de pratique : LR− 0,25",
+"contexte_puce": "↓ Moins de 36 mois de pratique : LR− 0,25 ; ↔ 36 mois ou plus : LR+ 1,8, calculés (Kamiya 2026).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.25,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+74
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Évolution temporelle",
+"enonce": "Moins de 36 mois de pratique (36 mois ou plus)",
+"reponse": "neutral",
+"explication": "36 mois ou plus : LR+ 1,8, calculés (Kamiya 2026).",
+"contexte_puce": "↓ Moins de 36 mois de pratique : LR− 0,25 ; ↔ 36 mois ou plus : LR+ 1,8, calculés (Kamiya 2026).",
+"donnee": {
+"lr_positif": 1.8,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+74
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-058-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Examen physique",
+"enonce": "Rotation interne de la hanche non dominante < 30°",
+"reponse": "increase",
+"explication": "Rotation interne de la hanche non dominante < 30° : Se 0,625, Sp 0,749, LR+ 2,5 calculé (Kamiya 2026).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.5,
+"lr_negatif": null,
+"sensibilite": "0,625",
+"specificite": "0,749",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+74
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Anamnèse",
+"enonce": "Absence de douleur",
+"reponse": "neutral",
+"explication": "Absence de douleur : environ un tiers des lésions sont indolores ; 32,9 % seulement avaient une douleur au lancer au diagnostic (Kida 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+75,
+76
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Examen physique",
+"enonce": "Douleur ou mobilité réduite",
+"reponse": "neutral",
+"explication": "Douleur ou mobilité réduite : présentes chez 17 % de 595 jeunes joueurs sans ostéochondrite (Gugenheim).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+71
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Facteurs de risque",
+"enonce": "Bras dominant chez le joueur de baseball",
+"reponse": "increase",
+"explication": "Bras dominant chez le joueur de baseball : 100 % des formes unilatérales ; les formes bilatérales concernent surtout les gymnastes, 70 % (Clark 2024).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+77
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Examen physique",
+"enonce": "Radiographie de face à 45° de flexion positive",
+"reponse": "increase",
+"explication": "Radiographie de face à 45° de flexion positive : Se 91,7 %, Sp 91,1 %, LR+ 10,3",
+"contexte_puce": "↑ Radiographie de face à 45° de flexion positive : Se 91,7 %, Sp 91,1 %, LR+ 10,3 ; ↓ négative : LR− 0,09, calculés (Saper 2021, n = 28).",
+"donnee": {
+"lr_positif": 10.3,
+"lr_negatif": null,
+"sensibilite": "91,7 %",
+"specificite": "91,1 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+78
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-058-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Examen physique",
+"enonce": "Radiographie de face à 45° de flexion négative",
+"reponse": "decrease",
+"explication": "Négative : LR− 0,09, calculés (Saper 2021, n = 28).",
+"contexte_puce": "↑ Radiographie de face à 45° de flexion positive : Se 91,7 %, Sp 91,1 %, LR+ 10,3 ; ↓ négative : LR− 0,09, calculés (Saper 2021, n = 28).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.09,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+78
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-058-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 58,
+"nom": "Ostéochondrite disséquante du capitulum"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie standard normale",
+"reponse": "neutral",
+"explication": "Radiographie standard normale : face et profil manquent 24 % des lésions (van den Ende, n = 25).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+78
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 58"
+},
+{
+"id": "MSK-059-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 59,
+"nom": "Conflit postérieur du coude (surcharge en valgus-extension)"
+},
+"type": "Examen physique",
+"enonce": "(incertain) Douleur postéro-médiale en fin d'extension, après le lâcher de balle, aggravée en valgus",
+"reponse": "increase",
+"explication": "(incertain) Douleur postéro-médiale en fin d'extension, après le lâcher de balle, aggravée en valgus : tableau typique, descriptif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+79,
+80,
+81
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 59"
+},
+{
+"id": "MSK-059-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 59,
+"nom": "Conflit postérieur du coude (surcharge en valgus-extension)"
+},
+"type": "Facteurs de risque",
+"enonce": "Joueur de baseball opéré du coude",
+"reponse": "increase",
+"explication": "Joueur de baseball opéré du coude : diagnostic chirurgical le plus fréquent, 78 % (Andrews et Timmerman).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+82
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 59"
+},
+{
+"id": "MSK-059-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 59,
+"nom": "Conflit postérieur du coude (surcharge en valgus-extension)"
+},
+"type": "Examen physique",
+"enonce": "Flexion du coude au lâcher supérieure à la moyenne",
+"reponse": "increase",
+"explication": "Flexion du coude au lâcher supérieure à la moyenne : OR 5,79 pour un antécédent d'ostéophyte ou de fracture de stress de l'olécrâne (Manzi 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 5.79,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+83
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 59"
+},
+{
+"id": "MSK-059-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 59,
+"nom": "Conflit postérieur du coude (surcharge en valgus-extension)"
+},
+"type": "Anamnèse",
+"enonce": "Insuffisance du ligament collatéral ulnaire",
+"reponse": "increase",
+"explication": "Insuffisance du ligament collatéral ulnaire : plus de 50 % des reconstructions s'accompagnent d'ostéophytes postéro-médiaux.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+84
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 59"
+},
+{
+"id": "MSK-059-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 59,
+"nom": "Conflit postérieur du coude (surcharge en valgus-extension)"
+},
+"type": "Imagerie",
+"enonce": "Ostéophyte olécrânien à l'IRM",
+"reponse": "neutral",
+"explication": "Ostéophyte olécrânien à l'IRM : 70 % des lanceurs contre 67 % des joueurs de position (Erickson 2025) ; signes de conflit chez 13 professionnels asymptomatiques sur 16 (Kooima 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+69,
+68
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 59"
+},
+{
+"id": "MSK-059-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 59,
+"nom": "Conflit postérieur du coude (surcharge en valgus-extension)"
+},
+"type": "Anamnèse",
+"enonce": "Ostéophytes chez le lanceur de lycée non blessé",
+"reponse": "neutral",
+"explication": "Ostéophytes chez le lanceur de lycée non blessé : 35 % (Hurd 2011, n = 23).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+85
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 59"
+},
+{
+"id": "MSK-067-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+"type": "Facteurs de risque",
+"enonce": "Joueur de baseball",
+"reponse": "increase",
+"explication": "Joueur de baseball : site de fracture de stress le plus fréquent dans ce sport ; 8,7 % de 196 fractures de stress tous sports (Iwamoto 2003).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+86,
+87
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 67"
+},
+{
+"id": "MSK-067-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+"type": "Anamnèse",
+"enonce": "Lanceur",
+"reponse": "increase",
+"explication": "Lanceur : 75 % des cas opérés chez les professionnels (Erickson 2019, n = 52).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+88
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 67"
+},
+{
+"id": "MSK-067-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+"type": "Facteurs démographiques",
+"enonce": "Adolescent à physe ouverte",
+"reponse": "increase",
+"explication": "Adolescent à physe ouverte : type physaire dans 50,5 % des cas, âge moyen 14,1 ans (Furushima 2014, n = 200).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+89
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 67"
+},
+{
+"id": "MSK-067-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+"type": "Anamnèse",
+"enonce": "Lésion médiale associée (ligament collatéral ulnaire ou avulsion de l'épicondyle médial)",
+"reponse": "increase",
+"explication": "Lésion médiale associée (ligament collatéral ulnaire ou avulsion de l'épicondyle médial) : 71 à 95 % selon le type (Furushima 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+89
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 67"
+},
+{
+"id": "MSK-067-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie initiale normale",
+"reponse": "neutral",
+"explication": "Radiographie initiale normale : 7 cas sur 7 à radiographie négative et IRM positive (Schickendantz 2002) ; 0 cas sur 6 visible initialement (Fujioka).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+90,
+88
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 67"
+},
+{
+"id": "MSK-067-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+"type": "Examen physique",
+"enonce": "Siège de la sensibilité",
+"reponse": "neutral",
+"explication": "Siège de la sensibilité : postéro-latéral (Cain 2003) ou postéro-médial (Schickendantz 2002) selon les séries.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+82,
+90
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 67"
+},
+{
+"id": "MSK-067-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 67,
+"nom": "Fracture de stress de l'olécrâne"
+},
+"type": "Imagerie",
+"enonce": "Réaction de stress olécrânienne à l'IRM de dépistage",
+"reponse": "neutral",
+"explication": "Réaction de stress olécrânienne à l'IRM de dépistage : 6 % des lanceurs contre 3 % des joueurs de position (Erickson 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+69
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 67"
+},
+{
+"id": "MSK-063-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Examen physique",
+"enonce": "Extension complète possible",
+"reponse": "decrease",
+"explication": "Extension complète possible : LR− 0,03 chez l'adulte et 0,11 chez l'enfant",
+"contexte_puce": "↓ Extension complète possible : LR− 0,03 chez l'adulte et 0,11 chez l'enfant ; ↔ impossible : Se 96,8 %, Sp 48,5 %, LR+ 1,88 calculé (Appelboam 2008, n = 1 740).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.03,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+91
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Examen physique",
+"enonce": "Extension complète impossible",
+"reponse": "neutral",
+"explication": "Impossible : Se 96,8 %, Sp 48,5 %, LR+ 1,88 calculé (Appelboam 2008, n = 1 740).",
+"contexte_puce": "↓ Extension complète possible : LR− 0,03 chez l'adulte et 0,11 chez l'enfant ; ↔ impossible : Se 96,8 %, Sp 48,5 %, LR+ 1,88 calculé (Appelboam 2008, n = 1 740).",
+"donnee": {
+"lr_positif": 1.88,
+"lr_negatif": null,
+"sensibilite": "96,8 %",
+"specificite": "48,5 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+91
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-063-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Examen physique",
+"enonce": "Extension complète possible",
+"reponse": "neutral",
+"explication": "Extension complète possible : Se 88 %, Sp 55 %, LR− 0,22 calculé ; 5 patients à extension normale ont été opérés (Jie 2014, n = 587).",
+"discordant": true,
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.22,
+"sensibilite": "88 %",
+"specificite": "55 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+92
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Examen physique",
+"enonce": "Mobilité active normale dans les 4 directions",
+"reponse": "decrease",
+"explication": "Mobilité active normale dans les 4 directions : Se 0,99, Sp 0,60, LR− 0,02",
+"contexte_puce": "↓ Mobilité active normale dans les 4 directions : Se 0,99, Sp 0,60, LR− 0,02 ; ↑ (faible) anormale : LR+ 2,48, calculés (Vinson 2016, n = 251).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.02,
+"sensibilite": "0,99",
+"specificite": "0,60",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+93
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Examen physique",
+"enonce": "Mobilité active normale dans les 4 directions : anormale",
+"reponse": "increase",
+"explication": "Anormale : LR+ 2,48, calculés (Vinson 2016, n = 251).",
+"contexte_puce": "↓ Mobilité active normale dans les 4 directions : Se 0,99, Sp 0,60, LR− 0,02 ; ↑ (faible) anormale : LR+ 2,48, calculés (Vinson 2016, n = 251).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.48,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+93
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-063-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Tests spécifiques",
+"enonce": "Règle ER2 négative chez l'adulte (extension complète, pas de sensibilité osseuse, pas d'ecchymose)",
+"reponse": "decrease",
+"explication": "Règle ER2 négative chez l'adulte (extension complète, pas de sensibilité osseuse, pas d'ecchymose) : Se 100 %, Sp 24 %, dérivation seule (Arundel 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "24 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+94
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Facteurs démographiques",
+"enonce": "Extension complète avant 3 ans",
+"reponse": "neutral",
+"explication": "Extension complète avant 3 ans : Se 73,3 % seulement (Dubrovsky 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "73,3 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+95
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Tests spécifiques",
+"enonce": "Sensibilité osseuse ajoutée au test d'extension",
+"reponse": "neutral",
+"explication": "Sensibilité osseuse ajoutée au test d'extension : Se 98 %, Sp 11 %, LR+ 1,10 calculé (Jie 2014).",
+"donnee": {
+"lr_positif": 1.1,
+"lr_negatif": null,
+"sensibilite": "98 %",
+"specificite": "11 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+92
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Facteurs démographiques",
+"enonce": "Coussinet graisseux postérieur isolé chez l'enfant",
+"reponse": "increase",
+"explication": "Coussinet graisseux postérieur isolé chez l'enfant : fracture occulte dans 76 % des cas (Skaggs 1999, n = 45) ; 44,6 % en méta-analyse (Kappelhof 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+96,
+97
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Examen physique",
+"enonce": "Épanchement sans fracture visible chez l'adulte",
+"reponse": "increase",
+"explication": "Épanchement sans fracture visible chez l'adulte : fracture à l'IRM dans 75 % des cas",
+"contexte_puce": "↑ Épanchement sans fracture visible chez l'adulte : fracture à l'IRM dans 75 % des cas ; ↔ taille de l'épanchement (O'Dwyer 2004, n = 20).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+98
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Examen physique",
+"enonce": "Taille de l'épanchement",
+"reponse": "neutral",
+"explication": "Taille de l'épanchement (O'Dwyer 2004, n = 20).",
+"contexte_puce": "↑ Épanchement sans fracture visible chez l'adulte : fracture à l'IRM dans 75 % des cas ; ↔ taille de l'épanchement (O'Dwyer 2004, n = 20).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+98
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-063-12",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 63,
+"nom": "Fracture du coude"
+},
+"type": "Anamnèse",
+"enonce": "Chute sur la main tendue",
+"reponse": "neutral",
+"explication": "Chute sur la main tendue : mécanisme le plus fréquent de toutes ces fractures, sans donnée de précision.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+99,
+100
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 63"
+},
+{
+"id": "MSK-064-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 64,
+"nom": "Luxation du coude"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge de 10 à 19 ans",
+"reponse": "increase",
+"explication": "Âge de 10 à 19 ans : 43,5 % des cas (Stoneback 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+104
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 64"
+},
+{
+"id": "MSK-064-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 64,
+"nom": "Luxation du coude"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe",
+"reponse": "neutral",
+"explication": "Sexe : ratio d'incidence hommes-femmes de 1,02 (Stoneback 2012).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+104
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 64"
+},
+{
+"id": "MSK-064-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 64,
+"nom": "Luxation du coude"
+},
+"type": "Facteurs de risque",
+"enonce": "Contexte sportif",
+"reponse": "increase",
+"explication": "Contexte sportif : 44,5 % des luxations ; au lycée, lutte 46,1 % et football américain 37,4 % (Dizdarevic 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+104,
+105
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 64"
+},
+{
+"id": "MSK-064-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 64,
+"nom": "Luxation du coude"
+},
+"type": "Examen physique",
+"enonce": "Traumatisme en extension avec valgus et charge axiale",
+"reponse": "increase",
+"explication": "Traumatisme en extension avec valgus et charge axiale : 92 % de 62 luxations filmées (Schreiber 2013).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+106
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 64"
+},
+{
+"id": "MSK-064-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 64,
+"nom": "Luxation du coude"
+},
+"type": "Anamnèse",
+"enonce": "Déplacement postérieur ou postéro-latéral",
+"reponse": "increase",
+"explication": "Déplacement postérieur ou postéro-latéral : plus de 90 % des cas.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+107,
+108
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 64"
+},
+{
+"id": "MSK-064-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 64,
+"nom": "Luxation du coude"
+},
+"type": "Anamnèse",
+"enonce": "Radiographie sans fracture associée",
+"reponse": "neutral",
+"explication": "Radiographie sans fracture associée : sensibilité de 62 % ; la TDM en trouvait chez 134 patients sur 140 (Sormaala 2014).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+109
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 64"
+},
+{
+"id": "MSK-066-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Hook test anormal",
+"reponse": "increase",
+"explication": "Hook test anormal : Se 71,4 %, Sp 95,5 %, LR+ 15,7",
+"contexte_puce": "↑ Hook test anormal : Se 71,4 %, Sp 95,5 %, LR+ 15,7 ; ↓ normal : LR− 0,30 (Zwerus 2022, n = 86) ; Se et Sp de 100 % à l'origine (O'Driscoll 2007, n = 45).",
+"donnee": {
+"lr_positif": 15.7,
+"lr_negatif": null,
+"sensibilite": "71,4 %",
+"specificite": "95,5 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114,
+115
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Hook test normal",
+"reponse": "decrease",
+"explication": "Normal : LR− 0,30 (Zwerus 2022, n = 86) ; Se et Sp de 100 % à l'origine (O'Driscoll 2007, n = 45).",
+"contexte_puce": "↑ Hook test anormal : Se 71,4 %, Sp 95,5 %, LR+ 15,7 ; ↓ normal : LR− 0,30 (Zwerus 2022, n = 86) ; Se et Sp de 100 % à l'origine (O'Driscoll 2007, n = 45).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.3,
+"sensibilite": null,
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114,
+115
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-066-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Hook test normal dans le premier mois",
+"reponse": "decrease",
+"explication": "Hook test normal dans le premier mois : Se 85,7 %, LR− 0,14",
+"contexte_puce": "↓ Hook test normal dans le premier mois : Se 85,7 %, LR− 0,14 ; ↔ en chronique : Se 57,1 % (Zwerus 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.14,
+"sensibilite": "85,7 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Hook test normal dans le premier mois (en chronique)",
+"reponse": "neutral",
+"explication": "En chronique : Se 57,1 % (Zwerus 2022).",
+"contexte_puce": "↓ Hook test normal dans le premier mois : Se 85,7 %, LR− 0,14 ; ↔ en chronique : Se 57,1 % (Zwerus 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "57,1 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+114
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-066-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Anamnèse",
+"enonce": "Intervalle pli du coude-biceps > 6 cm",
+"reponse": "increase",
+"explication": "Intervalle pli du coude-biceps > 6 cm : LR+ 8,9, LR− 0,21 (Zwerus 2022) ; Se 96 % à l'origine (ElMaraghy 2008, n = 29).",
+"donnee": {
+"lr_positif": 8.9,
+"lr_negatif": 0.21,
+"sensibilite": "96 %",
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114,
+116
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Hook test et intervalle tous deux anormaux en aigu",
+"reponse": "increase",
+"explication": "Hook test et intervalle tous deux anormaux en aigu : Se 94,1 %, Sp 100 %, LR− 0,06 (Zwerus 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.06,
+"sensibilite": "94,1 %",
+"specificite": "100 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de pronation passive",
+"reponse": "increase",
+"explication": "Test de pronation passive : LR+ 3,25",
+"contexte_puce": "↑ (faible) Test de pronation passive : LR+ 3,25 ; ↔ en aigu : LR+ 1,33 (Zwerus 2022).",
+"force": "faible",
+"donnee": {
+"lr_positif": 3.25,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Tests spécifiques",
+"enonce": "Test de pronation passive (en aigu)",
+"reponse": "neutral",
+"explication": "En aigu : LR+ 1,33 (Zwerus 2022).",
+"contexte_puce": "↑ (faible) Test de pronation passive : LR+ 3,25 ; ↔ en aigu : LR+ 1,33 (Zwerus 2022).",
+"donnee": {
+"lr_positif": 1.33,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-066-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Anamnèse",
+"enonce": "Faiblesse en supination",
+"reponse": "neutral",
+"explication": "Faiblesse en supination : Se 95,2 %, Sp 20,5 %, LR+ 1,20",
+"contexte_puce": "↔ Faiblesse en supination : Se 95,2 %, Sp 20,5 %, LR+ 1,20 ; ↓ absente : LR− 0,23 (Zwerus 2022).",
+"donnee": {
+"lr_positif": 1.2,
+"lr_negatif": null,
+"sensibilite": "95,2 %",
+"specificite": "20,5 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Anamnèse",
+"enonce": "Faiblesse en supination absente",
+"reponse": "decrease",
+"explication": "Absente : LR− 0,23 (Zwerus 2022).",
+"contexte_puce": "↔ Faiblesse en supination : Se 95,2 %, Sp 20,5 %, LR+ 1,20 ; ↓ absente : LR− 0,23 (Zwerus 2022).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.23,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-066-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité de la tubérosité radiale",
+"reponse": "neutral",
+"explication": "Sensibilité de la tubérosité radiale : LR+ 1,02, LR− 0,84 (Zwerus 2022).",
+"donnee": {
+"lr_positif": 1.02,
+"lr_negatif": 0.84,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+114
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-12",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Facteurs démographiques",
+"enonce": "Homme de 35 à 54 ans",
+"reponse": "increase",
+"explication": "Homme de 35 à 54 ans : 95 à 96 % d'hommes, environ deux tiers dans cette tranche d'âge (Kelly 2015).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+117
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-13",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Anamnèse",
+"enonce": "Tabagisme",
+"reponse": "increase",
+"explication": "Tabagisme : risque relatif 7,5 sur 14 patients (Safran 2002) ; OR 4,47 avant 65 ans (Kelly 2015). Testostérone prescrite : OR 4,10 dans l'année.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 4.47,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+118,
+117,
+119
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-066-14",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 66,
+"nom": "Rupture distale du biceps"
+},
+"type": "Anamnèse",
+"enonce": "Bras dominant",
+"reponse": "neutral",
+"explication": "Bras dominant : 86 % (Safran 2002) contre 52 % (Kelly 2015) ; diabète : aucune association.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+118,
+117
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 66"
+},
+{
+"id": "MSK-068-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Facteurs démographiques",
+"enonce": "Homme d'environ 49 ans",
+"reponse": "increase",
+"explication": "Homme d'environ 49 ans : ratio de 15 pour 1 (Mirzayan 2018, n = 184).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+21
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-068-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Facteurs de risque",
+"enonce": "Joueur de ligne au football américain",
+"reponse": "increase",
+"explication": "Joueur de ligne au football américain : 15 joueurs sur 19, charge excentrique au blocage (Mair 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-068-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Réponse aux traitements",
+"enonce": "Infiltration de corticoïdes pour bursite olécrânienne",
+"reponse": "increase",
+"explication": "Infiltration de corticoïdes pour bursite olécrânienne : 5 ruptures sur 21 (Mair 2004).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-068-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Stéroïdes anabolisants",
+"reponse": "increase",
+"explication": "Stéroïdes anabolisants : rapport de risque 9,0 pour toute rupture tendineuse (Kanayama 2015) ; documentés chez 1,6 % seulement des opérés.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+22,
+21
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-068-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Défaut palpable",
+"reponse": "increase",
+"explication": "Défaut palpable : 16 joueurs sur 19 (Mair 2004)",
+"contexte_puce": "↑ Défaut palpable : 16 joueurs sur 19 (Mair 2004) ; ↔ absent : il n'est pas toujours présent.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23,
+121
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-068-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Défaut palpable absent",
+"reponse": "neutral",
+"explication": "Absent : il n'est pas toujours présent.",
+"contexte_puce": "↑ Défaut palpable : 16 joueurs sur 19 (Mair 2004) ; ↔ absent : il n'est pas toujours présent.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+23,
+121
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-068-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Examen physique",
+"enonce": "Extension active conservée",
+"reponse": "neutral",
+"explication": "Extension active conservée : n'exclut pas la rupture (avis d'expert).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+24,
+79
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-068-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Écaille osseuse (flake sign) sur le profil",
+"reponse": "increase",
+"explication": "Écaille osseuse (flake sign) sur le profil : 64,1 % des cas opérés",
+"contexte_puce": "↑ Écaille osseuse (flake sign) sur le profil : 64,1 % des cas opérés ; ↔ absente (Mirzayan 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+21
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-068-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Anamnèse",
+"enonce": "Écaille osseuse (flake sign) sur le profil : absente",
+"reponse": "neutral",
+"explication": "Absente (Mirzayan 2018).",
+"contexte_puce": "↑ Écaille osseuse (flake sign) sur le profil : 64,1 % des cas opérés ; ↔ absente (Mirzayan 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+21
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-068-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 68,
+"nom": "Rupture distale du triceps"
+},
+"type": "Examen physique",
+"enonce": "Premier examen normal chez le jeune",
+"reponse": "neutral",
+"explication": "Premier examen normal chez le jeune : 1 diagnostic sur 19 à la première consultation (Antonellis 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+122
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 68"
+},
+{
+"id": "MSK-056-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 56,
+"nom": "Arthrose du coude"
+},
+"type": "Facteurs de risque",
+"enonce": "Antécédent de traumatisme du coude",
+"reponse": "increase",
+"explication": "Antécédent de traumatisme du coude : OR 9,26 (Oya 2018, n = 354).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 9.26,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+124
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 56"
+},
+{
+"id": "MSK-056-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 56,
+"nom": "Arthrose du coude"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "increase",
+"explication": "Sexe masculin : OR 2,57 (Oya 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 2.57,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+124
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 56"
+},
+{
+"id": "MSK-056-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 56,
+"nom": "Arthrose du coude"
+},
+"type": "Facteurs de risque",
+"enonce": "Travail manuel lourd",
+"reponse": "increase",
+"explication": "Travail manuel lourd : OR 4,9 (Stanley 1994) ; vibrations : OR 1,9 à 5,1 (Jahn 2025).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 4.9,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+125,
+126
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 56"
+},
+{
+"id": "MSK-056-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 56,
+"nom": "Arthrose du coude"
+},
+"type": "Facteurs démographiques",
+"enonce": "Âge",
+"reponse": "increase",
+"explication": "Âge : OR 26,85 pour les 80–89 ans par rapport aux 40–49 ans (Oya 2018).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 26.85,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+124
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 56"
+},
+{
+"id": "MSK-056-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 56,
+"nom": "Arthrose du coude"
+},
+"type": "Anamnèse",
+"enonce": "Bras dominant",
+"reponse": "increase",
+"explication": "Bras dominant : 14 patients sur 16 (Doherty 1989).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+127
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 56"
+},
+{
+"id": "MSK-056-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 56,
+"nom": "Arthrose du coude"
+},
+"type": "Anamnèse",
+"enonce": "Arthrose radiographique isolée",
+"reponse": "neutral",
+"explication": "Arthrose radiographique isolée : 25,2 % après 50 ans, mais symptomatique chez 0,9 % (Nakayama 2022, n = 318).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+128
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 56"
+},
+{
+"id": "MSK-056-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 56,
+"nom": "Arthrose du coude"
+},
+"type": "Anamnèse",
+"enonce": "Ostéophyte coronoïdien",
+"reponse": "increase",
+"explication": "Ostéophyte coronoïdien : 90 % contre 36 % des témoins, LR+ 2,5 calculé ; ostéophyte olécrânien dans 96 % des cas (Dalal 2006).",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.5,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+129
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 56"
+},
+{
+"id": "MSK-055-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+"type": "Examen physique",
+"enonce": "Absence de sensibilité",
+"reponse": "increase",
+"explication": "Absence de sensibilité : sensibilité chez 36 % des aseptiques contre 88 % des septiques, LR 0,19 pour l'infection.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+134
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 55"
+},
+{
+"id": "MSK-055-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+"type": "Anamnèse",
+"enonce": "Absence d'érythème",
+"reponse": "increase",
+"explication": "Absence d'érythème : érythème chez 27 % contre 83 %, LR 0,23 pour l'infection.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+134
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 55"
+},
+{
+"id": "MSK-055-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+"type": "Anamnèse",
+"enonce": "Chaleur locale",
+"reponse": "neutral",
+"explication": "Chaleur locale : 56 % des aseptiques contre 84 % des septiques, LR+ 1,5 pour l'infection.",
+"donnee": {
+"lr_positif": 1.5,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+134
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 55"
+},
+{
+"id": "MSK-055-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+"type": "Drapeaux rouges",
+"enonce": "Absence de fièvre",
+"reponse": "neutral",
+"explication": "Absence de fièvre : la fièvre manque dans 62 % des formes septiques.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+134
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 55"
+},
+{
+"id": "MSK-055-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+"type": "Laboratoire",
+"enonce": "Liquide peu cellulaire",
+"reponse": "increase",
+"explication": "Liquide peu cellulaire : 878 leucocytes/mm³ en moyenne (Canoso 1977, n = 30) ; 2 800 à 2 900 dans la bursite goutteuse.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+135,
+136,
+137
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 55"
+},
+{
+"id": "MSK-055-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin",
+"reponse": "increase",
+"explication": "Sexe masculin : OR 1,41 ; hyperlipidémie : OR 1,24",
+"contexte_puce": "↑ (faible) Sexe masculin : OR 1,41 ; hyperlipidémie : OR 1,24 ; ↔ diabète (Shemesh 2024, 10 301 cas).",
+"force": "faible",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": 1.41,
+"calcule": false,
+"nature": "Association (OR ou risque)"
+},
+"references": [
+138
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 55"
+},
+{
+"id": "MSK-055-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 55,
+"nom": "Bursite olécrânienne aseptique"
+},
+"type": "Facteurs démographiques",
+"enonce": "Sexe masculin (diabète)",
+"reponse": "neutral",
+"explication": "Diabète (Shemesh 2024, 10 301 cas).",
+"contexte_puce": "↑ (faible) Sexe masculin : OR 1,41 ; hyperlipidémie : OR 1,24 ; ↔ diabète (Shemesh 2024, 10 301 cas).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+138
+],
+"difficulte": 3,
+"statut": "experimentale",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 55",
+"a_relire": "énoncé ambigu : à reformuler"
+},
+{
+"id": "MSK-065-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Drapeaux rouges",
+"enonce": "Fièvre",
+"reponse": "increase",
+"explication": "Fièvre : 38 % contre 0 %",
+"contexte_puce": "↑ Fièvre : 38 % contre 0 % ; ↔ absente : LR− 0,62 calculé (Reilly 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+134
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Drapeaux rouges",
+"enonce": "Fièvre absente",
+"reponse": "neutral",
+"explication": "Absente : LR− 0,62 calculé (Reilly 2016).",
+"contexte_puce": "↑ Fièvre : 38 % contre 0 % ; ↔ absente : LR− 0,62 calculé (Reilly 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.62,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+134
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-065-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Drapeaux rouges",
+"enonce": "Fréquence de la fièvre selon le contexte",
+"reponse": "neutral",
+"explication": "Fréquence de la fièvre selon le contexte : 16,1 % (Lieber 2017) à 77,3 % dans les formes sévères hospitalisées (García-Porrúa 1999).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+140,
+141
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Anamnèse",
+"enonce": "Érythème ou cellulite",
+"reponse": "increase",
+"explication": "Érythème ou cellulite : LR+ 3,1",
+"contexte_puce": "↑ Érythème ou cellulite : LR+ 3,1 ; ↓ absent : LR− 0,23, calculés (Reilly 2016).",
+"donnee": {
+"lr_positif": 3.1,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+134
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Anamnèse",
+"enonce": "Érythème ou cellulite absent",
+"reponse": "decrease",
+"explication": "Absent : LR− 0,23, calculés (Reilly 2016).",
+"contexte_puce": "↑ Érythème ou cellulite : LR+ 3,1 ; ↓ absent : LR− 0,23, calculés (Reilly 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.23,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+134
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-065-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité",
+"reponse": "increase",
+"explication": "Sensibilité : LR+ 2,4",
+"contexte_puce": "↑ Sensibilité : LR+ 2,4 ; ↓ absente : LR− 0,19, calculés (Reilly 2016).",
+"donnee": {
+"lr_positif": 2.4,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+134
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Examen physique",
+"enonce": "Sensibilité absente",
+"reponse": "decrease",
+"explication": "Absente : LR− 0,19, calculés (Reilly 2016).",
+"contexte_puce": "↑ Sensibilité : LR+ 2,4 ; ↓ absente : LR− 0,19, calculés (Reilly 2016).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.19,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+134
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-065-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Anamnèse",
+"enonce": "Peau plus chaude de plus de 2,2 °C que le côté opposé",
+"reponse": "increase",
+"explication": "Peau plus chaude de plus de 2,2 °C que le côté opposé : Se 100 %, Sp 94 % (Smith 1989, cité de seconde main).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": "100 %",
+"specificite": "94 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "Se et Sp"
+},
+"references": [
+132,
+142
+],
+"difficulte": 2,
+"statut": "en_revision",
+"mises_en_garde": [
+"Chiffres classiques non retrouvés. Henderson 1983 (répartition de la douleur par racine), Roquelaure 2000 (incidence du tunnel radial), Rayan 1992 (Tinel chez le sujet sain), l'article original de Smith 1989 et le taux d'erreur diagnostique souvent cité pour la rupture du triceps sont à vérifier dans les sources primaires."
+],
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Anamnèse",
+"enonce": "Traumatisme ou lésion cutanée",
+"reponse": "increase",
+"explication": "Traumatisme ou lésion cutanée : 50 % contre 25 %, LR+ 2,0 calculé ; peau du coude lésée : risque relatif 3,86.",
+"force": "faible",
+"donnee": {
+"lr_positif": 2.0,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+134,
+143
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Anamnèse",
+"enonce": "Leucocytes bursaux < 20 000/mm³",
+"reponse": "neutral",
+"explication": "Leucocytes bursaux < 20 000/mm³ : 8 cas septiques sur 13 (Canoso 1979) ; moins de 2 000 dans 12,5 % (García-Porrúa 1999).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+135,
+141
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Laboratoire",
+"enonce": "Cristaux dans le liquide",
+"reponse": "neutral",
+"explication": "Cristaux dans le liquide : présents dans 6,5 % des formes septiques (Lieber 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+140
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-12",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Anamnèse",
+"enonce": "Culture stérile",
+"reponse": "neutral",
+"explication": "Culture stérile : 19,3 % des prélèvements bursaux (Charret 2021, n = 272).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+144
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-065-13",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 65,
+"nom": "Bursite olécrânienne septique"
+},
+"type": "Imagerie",
+"enonce": "Absence de rehaussement à l'IRM",
+"reponse": "decrease",
+"explication": "Absence de rehaussement à l'IRM : exclut l'infection (Floemer 2004, n = 35).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+145
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 65"
+},
+{
+"id": "MSK-069-01",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Tests spécifiques",
+"enonce": "Goutte, critères ACR/EULAR 2015 remplis",
+"reponse": "increase",
+"explication": "Goutte, critères ACR/EULAR 2015 remplis : Se 92 %, Sp 89 %, LR+ 8,4",
+"contexte_puce": "↑ Goutte, critères ACR/EULAR 2015 remplis : Se 92 %, Sp 89 %, LR+ 8,4 ; ↓ non remplis : LR− 0,09, calculés (Neogi 2015) ; Se 68 %, Sp 98 % en soins primaires (Janssens 2017).",
+"donnee": {
+"lr_positif": 8.4,
+"lr_negatif": null,
+"sensibilite": "92 %",
+"specificite": "89 %",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+146,
+147
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-02",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Tests spécifiques",
+"enonce": "Goutte, critères ACR/EULAR 2015 non remplis",
+"reponse": "decrease",
+"explication": "Non remplis : LR− 0,09, calculés (Neogi 2015) ; Se 68 %, Sp 98 % en soins primaires (Janssens 2017).",
+"contexte_puce": "↑ Goutte, critères ACR/EULAR 2015 remplis : Se 92 %, Sp 89 %, LR+ 8,4 ; ↓ non remplis : LR− 0,09, calculés (Neogi 2015) ; Se 68 %, Sp 98 % en soins primaires (Janssens 2017).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.09,
+"sensibilite": "68 %",
+"specificite": "98 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+146,
+147
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-069-03",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Laboratoire",
+"enonce": "Cristaux d'urate dans le liquide",
+"reponse": "increase",
+"explication": "Cristaux d'urate dans le liquide : spécificité de 100 %",
+"contexte_puce": "↑ Cristaux d'urate dans le liquide : spécificité de 100 % ; ↔ absents : faux négatifs jusqu'à 30 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+148,
+149,
+150
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-04",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Laboratoire",
+"enonce": "Cristaux d'urate dans le liquide : absents",
+"reponse": "neutral",
+"explication": "Absents : faux négatifs jusqu'à 30 %.",
+"contexte_puce": "↑ Cristaux d'urate dans le liquide : spécificité de 100 % ; ↔ absents : faux négatifs jusqu'à 30 %.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+148,
+149,
+150
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-069-05",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Uricémie normale pendant la crise",
+"reponse": "neutral",
+"explication": "Uricémie normale pendant la crise : observée dans 11 à 49 % des crises",
+"contexte_puce": "↔ Uricémie normale pendant la crise : observée dans 11 à 49 % des crises ; ↓ urate < 4 mg/dL : −4 points dans les critères.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+151,
+146
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-06",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Urate < 4 mg/dL",
+"reponse": "decrease",
+"explication": "Urate < 4 mg/dL : −4 points dans les critères.",
+"contexte_puce": "↔ Uricémie normale pendant la crise : observée dans 11 à 49 % des crises ; ↓ urate < 4 mg/dL : −4 points dans les critères.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Qualitatif"
+},
+"references": [
+151,
+146
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-07",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Tests spécifiques",
+"enonce": "Signe du double contour à l'échographie",
+"reponse": "increase",
+"explication": "Signe du double contour à l'échographie : Se 83 %, Sp 76 %, LR+ 3,5 et LR− 0,22 calculés (Ogdie) ; présent chez environ 25 % des hyperuricémiques asymptomatiques.",
+"donnee": {
+"lr_positif": 3.5,
+"lr_negatif": 0.22,
+"sensibilite": "83 %",
+"specificite": "76 %",
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+148,
+152
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-08",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Tophus olécrânien",
+"reponse": "increase",
+"explication": "Tophus olécrânien : siège typique ; tophus chez 30 % des goutteux non traités à 5 ans.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+153,
+154
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-09",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Laboratoire",
+"enonce": "Polyarthrite rhumatoïde, anti-CCP positifs",
+"reponse": "increase",
+"explication": "Polyarthrite rhumatoïde, anti-CCP positifs : LR+ 12,46",
+"contexte_puce": "↑ Polyarthrite rhumatoïde, anti-CCP positifs : LR+ 12,46 ; ↔ négatifs : LR− 0,36 ; facteur rhumatoïde IgM : LR+ 4,86 (Nishimura 2007).",
+"donnee": {
+"lr_positif": 12.46,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+155
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-10",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Laboratoire",
+"enonce": "Polyarthrite rhumatoïde, anti-CCP négatifs",
+"reponse": "neutral",
+"explication": "Négatifs : LR− 0,36 ; facteur rhumatoïde IgM : LR+ 4,86 (Nishimura 2007).",
+"contexte_puce": "↑ Polyarthrite rhumatoïde, anti-CCP positifs : LR+ 12,46 ; ↔ négatifs : LR− 0,36 ; facteur rhumatoïde IgM : LR+ 4,86 (Nishimura 2007).",
+"donnee": {
+"lr_positif": 4.86,
+"lr_negatif": 0.36,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+155
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-069-11",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Atteinte isolée du coude pour une polyarthrite",
+"reponse": "decrease",
+"explication": "Atteinte isolée du coude pour une polyarthrite : 5 % des cas ; le coude est gonflé chez 6 à 7 % à la présentation initiale.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+156,
+157
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-12",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Nodules rhumatoïdes",
+"reponse": "increase",
+"explication": "Nodules rhumatoïdes : 20 à 35 % des polyarthrites, environ 90 % avec facteur rhumatoïde positif.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+158,
+159
+],
+"difficulte": 2,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-13",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Chondrocalcinose à la radiographie",
+"reponse": "increase",
+"explication": "Chondrocalcinose à la radiographie : Se 0,47, Sp 0,95, LR+ 9,4",
+"contexte_puce": "↑ Chondrocalcinose à la radiographie : Se 0,47, Sp 0,95, LR+ 9,4 ; ↔ absente : LR− 0,56, calculés (Cipolletta 2021).",
+"donnee": {
+"lr_positif": 9.4,
+"lr_negatif": null,
+"sensibilite": "0,47",
+"specificite": "0,95",
+"odds_ratio": null,
+"calcule": false,
+"nature": "LR"
+},
+"references": [
+160
+],
+"difficulte": 1,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+},
+{
+"id": "MSK-069-14",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Chondrocalcinose à la radiographie : absente",
+"reponse": "neutral",
+"explication": "Absente : LR− 0,56, calculés (Cipolletta 2021).",
+"contexte_puce": "↑ Chondrocalcinose à la radiographie : Se 0,47, Sp 0,95, LR+ 9,4 ; ↔ absente : LR− 0,56, calculés (Cipolletta 2021).",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": 0.56,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": true,
+"nature": "LR"
+},
+"references": [
+160
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69",
+"a_relire": "énoncé reconstruit à partir de la puce"
+},
+{
+"id": "MSK-069-15",
+"domaine": "MSK",
+"region": "Coude",
+"diagnostic": {
+"no": 69,
+"nom": "Arthrite inflammatoire ou microcristalline du coude"
+},
+"type": "Anamnèse",
+"enonce": "Absence de cristaux de pyrophosphate",
+"reponse": "neutral",
+"explication": "Absence de cristaux de pyrophosphate : l'analyse du liquide n'a qu'environ 70 % de sensibilité.",
+"donnee": {
+"lr_positif": null,
+"lr_negatif": null,
+"sensibilite": null,
+"specificite": null,
+"odds_ratio": null,
+"calcule": false,
+"nature": "Fréquence"
+},
+"references": [
+161
+],
+"difficulte": 3,
+"statut": "en_revision",
+"valide_le": null,
+"source": "Base FlashCards Morand MSK, lot 4, diagnostic 69"
+}
+],
+"references": {
+"2": {
+"n": 2,
+"texte": "Prevalence and Determinants of Lateral and Medial Epicondylitis: A Population Study. Shiri R, Viikari-Juntura E, Varonen H, Heliövaara M. American Journal of Epidemiology. 2006;164(11):1065-74. doi:10.1093/aje/kwj325.",
+"doi": "10.1093/aje/kwj325"
+},
+"3": {
+"n": 3,
+"texte": "Clinical Diagnosis of Lateral-Sided Elbow Pain: Predictors for Recognizing a Diagnosis Other Than Tennis Elbow. Zwerus EL, Keijsers R, Colaris JW, et al. Journal of Shoulder and Elbow Surgery. 2026;35(5):1303-1308. doi:10.1016/j.jse.2025.10.006.",
+"doi": "10.1016/j.jse.2025.10.006"
+},
+"4": {
+"n": 4,
+"texte": "Diagnostic Accuracy of Examination Tests for Lateral Elbow Tendinopathy (LET) - A Systematic Review. Karanasios S, Korakakis V, Moutzouri M, et al. Journal of Hand Therapy : Official Journal of the American Society of Hand Therapists. 2022 Oct-Dec;35(4):541-551. doi:10.1016/j.jht.2021.02.002.",
+"doi": "10.1016/j.jht.2021.02.002"
+},
+"5": {
+"n": 5,
+"texte": "Elbow Pain in Adults: Evaluation and Differential Diagnosis. Jeremy Swisher, MD, Kimberly Burbank, MD, Joshua T. Goldman, MD, MBA. American Family Physician. 2026."
+},
+"6": {
+"n": 6,
+"texte": "A Meta-Analysis of the Risk Factors for Lateral Epicondylitis. Chen Q, Shen P, Zhang B, Chen Y, Zheng C. Journal of Hand Therapy : Official Journal of the American Society of Hand Therapists. 2024 Jan-Mar;37(1):44-52. doi:10.1016/j.jht.2023.05.013.",
+"doi": "10.1016/j.jht.2023.05.013"
+},
+"7": {
+"n": 7,
+"texte": "Occupation and Epicondylitis: A Population-Based Study. Walker-Bone K, Palmer KT, Reading I, Coggon D, Cooper C. Rheumatology (Oxford, England). 2012;51(2):305-10. doi:10.1093/rheumatology/ker228.",
+"doi": "10.1093/rheumatology/ker228"
+},
+"8": {
+"n": 8,
+"texte": "Electrotherapy modalities for lateral elbow pain. Milla Pompilio da Silva, Marcel JS Tamaoki, Francesco C Blumetti, et al. Cochrane Database of Systematic Reviews. 2018. doi:10.1002/14651858.cd013041.",
+"doi": "10.1002/14651858.cd013041"
+},
+"9": {
+"n": 9,
+"texte": "When Lateral Epicondylitis Is Not Lateral Epicondylitis: Analysis of the Risk Factors for the Misdiagnosis of Lateral Elbow Pain. Blonna D, Hoxha N, Greco V, et al. The American Journal of Sports Medicine. 2025;53(5):1195-1201. doi:10.1177/03635465251319545.",
+"doi": "10.1177/03635465251319545"
+},
+"10": {
+"n": 10,
+"texte": "Risk factors in lateral epicondylitis (tennis elbow): a case-control study. Titchener AG, Fakis A, Tambe AA, et al. The Journal of Hand Surgery, European Volume. 2013;38(2):159-64. doi:10.1177/1753193412442464.",
+"doi": "10.1177/1753193412442464"
+},
+"11": {
+"n": 11,
+"texte": "The Biomechanics of Tennis Elbow. An Integrated Approach. Roetert EP, Brody H, Dillman CJ, Groppel JL, Schultheis JM. Clinics in Sports Medicine. 1995;14(1):47-57."
+},
+"12": {
+"n": 12,
+"texte": "The Effect of Tennis Racket Grip Size on Forearm Muscle Firing Patterns. Hatch GF, Pink MM, Mohr KJ, Sethi PM, Jobe FW. The American Journal of Sports Medicine. 2006;34(12):1977-83. doi:10.1177/0363546506290185.",
+"doi": "10.1177/0363546506290185"
+},
+"13": {
+"n": 13,
+"texte": "Impact of lifestyle and clinical factors on the prognosis of tennis elbow. Zhang C, Jia Z, Li J, Wang X, Yang S. Scientific Reports. 2024;14(1):3063. doi:10.1038/s41598-024-53669-x.",
+"doi": "10.1038/s41598-024-53669-x"
+},
+"14": {
+"n": 14,
+"texte": "Prevalence of Ultrasound-Detected Changes in the Common Extensor Tendon of the Elbow in Asymptomatic Amateur Senior Tennis Players: Associations With Dominant Arm and Backhand Technique. Crema MD, Guillard V, Levavasseur G, Li L, Montalvan B. Skeletal Radiology. 2026;55(10):2495-2502. doi:10.1007/s00256-026-05253-9.",
+"doi": "10.1007/s00256-026-05253-9"
+},
+"15": {
+"n": 15,
+"texte": "Lateral Epicondylitis of the Elbow: US Findings. Levin D, Nazarian LN, Miller TT, et al. Radiology. 2005;237(1):230-4. doi:10.1148/radiol.2371040784.",
+"doi": "10.1148/radiol.2371040784"
+},
+"16": {
+"n": 16,
+"texte": "Exploring the link between comorbidities, tobacco usage, and surgical intervention in medial epicondylitis. Ernesto Joubran, Craig Dent, Leah Ilyaev, et al. Scientific Reports. 2026."
+},
+"17": {
+"n": 17,
+"texte": "Predicting work‐related incidence of lateral and medial epicondylitis using the strain index. Fan ZJ, Bao S, Silverstein BA, et al. American Journal of Industrial Medicine. 2014;57(12):1319-30. doi:10.1002/ajim.22383.",
+"doi": "10.1002/ajim.22383"
+},
+"18": {
+"n": 18,
+"texte": "Associations Between Work-Related Factors and Specific Disorders at the Elbow: A Systematic Literature Review. van Rijn RM, Huisstede BM, Koes BW, Burdorf A. Rheumatology (Oxford, England). 2009;48(5):528-36. doi:10.1093/rheumatology/kep013.",
+"doi": "10.1093/rheumatology/kep013"
+},
+"19": {
+"n": 19,
+"texte": "Epidemiology of Lateral and Medial Epicondylitis in a Military Population. Wolf JM, Mountcastle S, Burks R, Sturdivant RX, Owens BD. Military Medicine. 2010;175(5):336-9. doi:10.7205/milmed-d-09-00086.",
+"doi": "10.7205/milmed-d-09-00086"
+},
+"20": {
+"n": 20,
+"texte": "Operative Treatment of Medical Epicondylitis. Influence of Concomitant Ulnar Neuropathy at the Elbow. Gabel GT, Morrey BF. The Journal of Bone and Joint Surgery. American Volume. 1995;77(7):1065-9. doi:10.2106/00004623-199507000-00013.",
+"doi": "10.2106/00004623-199507000-00013"
+},
+"21": {
+"n": 21,
+"texte": "Operative Management of Acute Triceps Tendon Ruptures: Review of 184 Cases. Mirzayan R, Acevedo DC, Sodl JF, et al. The American Journal of Sports Medicine. 2018;46(6):1451-1458. doi:10.1177/0363546518757426.",
+"doi": "10.1177/0363546518757426"
+},
+"22": {
+"n": 22,
+"texte": "Ruptured Tendons in Anabolic-Androgenic Steroid Users. Kanayama G, DeLuca J, Meehan WP, et al. The American Journal of Sports Medicine. 2015;43(11):2638-44. doi:10.1177/0363546515602010.",
+"doi": "10.1177/0363546515602010"
+},
+"23": {
+"n": 23,
+"texte": "Triceps Tendon Ruptures in Professional Football Players. Mair SD, Isbell WM, Gill TJ, Schlegel TF, Hawkins RJ. The American Journal of Sports Medicine. 2004;32(2):431-4. doi:10.1177/0095399703258707.",
+"doi": "10.1177/0095399703258707"
+},
+"24": {
+"n": 24,
+"texte": "Evaluation and Management of Elbow Tendinopathy. Taylor SA, Hannafin JA. Sports Health. 2012;4(5):384-93. doi:10.1177/1941738112454651.",
+"doi": "10.1177/1941738112454651"
+},
+"25": {
+"n": 25,
+"texte": "Prevalence of Triceps Tendon Tears on MRI of the Elbow and Clinical Correlation. Koplas MC, Schneider E, Sundaram M. Skeletal Radiology. 2011;40(5):587-94. doi:10.1007/s00256-010-1043-9.",
+"doi": "10.1007/s00256-010-1043-9"
+},
+"26": {
+"n": 26,
+"texte": "The Diagnostic Value of Provocative Clinical Tests in Ulnar Neuropathy at the Elbow Is Marginal. Beekman R, Schreuder AH, Rozeman CA, Koehler PJ, Uitdehaag BM. Journal of Neurology, Neurosurgery, and Psychiatry. 2009;80(12):1369-74. doi:10.1136/jnnp.2009.180844.",
+"doi": "10.1136/jnnp.2009.180844"
+},
+"27": {
+"n": 27,
+"texte": "Predictive value of symptoms and signs in ulnar neuropathy at the elbow. Rubin DI, Dimberg EL, Mauricio E, Gerpen JA, Whitlock J. Muscle & Nerve. 2016;53(6):998. doi:10.1002/mus.25086.",
+"doi": "10.1002/mus.25086"
+},
+"28": {
+"n": 28,
+"texte": "Provocative Testing for Cubital Tunnel Syndrome. Novak CB, Lee GW, Mackinnon SE, Lay L. The Journal of Hand Surgery. 1994;19(5):817-20. doi:10.1016/0363-5023(94)90193-7.",
+"doi": "10.1016/0363-5023(94)90193-7"
+},
+"29": {
+"n": 29,
+"texte": "Scratch Collapse Test for Evaluation of Carpal and Cubital Tunnel Syndrome. Cheng CJ, Mackinnon-Patterson B, Beck JL, Mackinnon SE. The Journal of Hand Surgery. 2008;33(9):1518-24. doi:10.1016/j.jhsa.2008.05.022.",
+"doi": "10.1016/j.jhsa.2008.05.022"
+},
+"30": {
+"n": 30,
+"texte": "Evaluation of the Scratch Collapse Test for Carpal and Cubital Tunnel Syndrome-a Prospective, Blinded Study. Montgomery K, Wolff G, Boyd KU. The Journal of Hand Surgery. 2020;45(6):512-517. doi:10.1016/j.jhsa.2020.02.016.",
+"doi": "10.1016/j.jhsa.2020.02.016"
+},
+"31": {
+"n": 31,
+"texte": "Shoulder Internal Rotation Elbow Flexion Test for Diagnosing Cubital Tunnel Syndrome. Ochi K, Horiuchi Y, Tanabe A, et al. Journal of Shoulder and Elbow Surgery. 2012;21(6):777-81. doi:10.1016/j.jse.2011.10.015.",
+"doi": "10.1016/j.jse.2011.10.015"
+},
+"32": {
+"n": 32,
+"texte": "Clinical Assessment of the Ulnar Nerve at the Elbow: Reliability of Instability Testing and the Association of Hypermobility With Clinical Symptoms. Calfee RP, Manske PR, Gelberman RH, et al. The Journal of Bone and Joint Surgery. American Volume. 2010;92(17):2801-8. doi:10.2106/JBJS.J.00097.",
+"doi": "10.2106/JBJS.J.00097"
+},
+"33": {
+"n": 33,
+"texte": "Ulnar Nerve Cross-Sectional Area for the Diagnosis of Cubital Tunnel Syndrome: A Meta-Analysis of Ultrasonographic Measurements. Chang KV, Wu WT, Han DS, Özçakar L. Archives of Physical Medicine and Rehabilitation. 2018;99(4):743-757. doi:10.1016/j.apmr.2017.08.467.",
+"doi": "10.1016/j.apmr.2017.08.467"
+},
+"34": {
+"n": 34,
+"texte": "Evidence‐based guideline: Neuromuscular ultrasound for the diagnosis of ulnar neuropathy at the elbow. Shook SJ, Ginsberg M, Narayanaswami P, et al. Muscle & Nerve. 2022;65(2):147-153. doi:10.1002/mus.27460.",
+"doi": "10.1002/mus.27460"
+},
+"35": {
+"n": 35,
+"texte": "The epidemiology of cubital tunnel syndrome: a UK Biobank case–control study. Lucey M, Lassen FH, Furniss D, Wiberg A. The Journal of Hand Surgery, European Volume. 2026;51(8):992-1002. doi:10.1177/17531934261426700.",
+"doi": "10.1177/17531934261426700"
+},
+"36": {
+"n": 36,
+"texte": "Smoking is associated with ulnar nerve entrapment: a birth cohort study. Hulkkonen S, Auvinen J, Miettunen J, Karppinen J, Ryhänen J. Scientific Reports. 2019;9(1):9450. doi:10.1038/s41598-019-45675-1.",
+"doi": "10.1038/s41598-019-45675-1"
+},
+"37": {
+"n": 37,
+"texte": "Incidence of Ulnar Nerve Entrapment at the Elbow in Repetitive Work. Descatha A, Leclerc A, Chastang JF, Roquelaure Y. Scandinavian Journal of Work, Environment & Health. 2004;30(3):234-40. doi:10.5271/sjweh.784.",
+"doi": "10.5271/sjweh.784"
+},
+"38": {
+"n": 38,
+"texte": "The Epidemiology of Radial Tunnel Syndrome and Its Overlap With Lateral Epicondylitis. Zhang JY, Manirajan A, Wolf JM. The Journal of Hand Surgery. 2023;48(11):1172.e1-1172.e7. doi:10.1016/j.jhsa.2023.03.007.",
+"doi": "10.1016/j.jhsa.2023.03.007"
+},
+"39": {
+"n": 39,
+"texte": "Ultrasonographic and Electrophysiologic Assessment of Radial Tunnel Syndrome in Patients With Treatment-Resistant Lateral Epicondylitis: Insights Into Diagnostic Utility and Clinical Implications. Keles A, Palamar D, Gunduz A, Akarirmak U. American Journal of Physical Medicine & Rehabilitation. 2026;105(4):330-337. doi:10.1097/PHM.0000000000002877.",
+"doi": "10.1097/PHM.0000000000002877"
+},
+"40": {
+"n": 40,
+"texte": "Radial Tunnel Syndrome. Levina Y, Dantuluri PK. Current Reviews in Musculoskeletal Medicine. 2021;14(3):205-213. doi:10.1007/s12178-021-09703-w.",
+"doi": "10.1007/s12178-021-09703-w"
+},
+"41": {
+"n": 41,
+"texte": "Sports‐related peripheral nerve injuries of the upper limb. Dutton RA, Norbury J, Colorado B. Muscle & Nerve. 2024;69(5):527-542. doi:10.1002/mus.28057.",
+"doi": "10.1002/mus.28057"
+},
+"42": {
+"n": 42,
+"texte": "Radial nerve compression: anatomical perspective and clinical consequences. Węgiel A, Karauda P, Zielinska N, Tubbs RS, Olewnik Ł. Neurosurgical Review. 2023;46(1):53. doi:10.1007/s10143-023-01944-2.",
+"doi": "10.1007/s10143-023-01944-2"
+},
+"43": {
+"n": 43,
+"texte": "Radial tunnel syndrome: definition, distinction and treatments. Tang JB. The Journal of Hand Surgery, European Volume. 2020;45(8):882-889. doi:10.1177/1753193420953990.",
+"doi": "10.1177/1753193420953990"
+},
+"45": {
+"n": 45,
+"texte": "Reliability and Diagnostic Accuracy of the Clinical Examination and Patient Self-Report Measures for Cervical Radiculopathy. Wainner RS, Fritz JM, Irrgang JJ, et al. Spine. 2003;28(1):52-62. doi:10.1097/00007632-200301010-00014.",
+"doi": "10.1097/00007632-200301010-00014"
+},
+"46": {
+"n": 46,
+"texte": "Neurological examination for cervical radiculopathy: a scoping review. Yousif MS, Occhipinti G, Bianchini F, et al. BMC Musculoskeletal Disorders. 2025;26(1):334. doi:10.1186/s12891-025-08560-9.",
+"doi": "10.1186/s12891-025-08560-9"
+},
+"47": {
+"n": 47,
+"texte": "Comparison of Symptoms From C6 and C7 Radiculopathy. Rainville J, Joyce AA, Laxer E, et al. Spine. 2017;42(20):1545-1551. doi:10.1097/BRS.0000000000002353.",
+"doi": "10.1097/BRS.0000000000002353"
+},
+"48": {
+"n": 48,
+"texte": "Observed Patterns of Cervical Radiculopathy: How Often Do They Differ From a Standard, \"Netter Diagram\" Distribution?. McAnany SJ, Rhee JM, Baird EO, et al. The Spine Journal : Official Journal of the North American Spine Society. 2019;19(7):1137-1142. doi:10.1016/j.spinee.2018.08.002.",
+"doi": "10.1016/j.spinee.2018.08.002"
+},
+"49": {
+"n": 49,
+"texte": "The Spurling Test and Cervical Radiculopathy. Tong HC, Haig AJ, Yamakawa K. Spine. 2002;27(2):156-9. doi:10.1097/00007632-200201150-00007.",
+"doi": "10.1097/00007632-200201150-00007"
+},
+"50": {
+"n": 50,
+"texte": "Diagnostic accuracy of physical examination tests for painful cervical radiculopathy: update of a systematic review and meta-analysis. Thoomes EJ, Arvanitidis M, van Geest S, et al. BMC Musculoskeletal Disorders. 2026;27(1):338. doi:10.1186/s12891-026-09551-0.",
+"doi": "10.1186/s12891-026-09551-0"
+},
+"51": {
+"n": 51,
+"texte": "Diagnostic Accuracy of Upper Limb Neurodynamic Tests in the Diagnosis of Cervical Radiculopathy. Grondin F, Cook C, Hall T, et al. Musculoskeletal Science & Practice. 2021;55:102427. doi:10.1016/j.msksp.2021.102427.",
+"doi": "10.1016/j.msksp.2021.102427"
+},
+"52": {
+"n": 52,
+"texte": "Reliability and validity of clinical tests to assess the anatomical integrity of the cervical spine in adults with neck pain and its associated disorders: Part 1—A systematic review from the Cervical Assessment and Diagnosis Research Evaluation (CADRE) Collaboration. Lemeunier N, da Silva-Oolup S, Chow N, et al. European Spine Journal : Official Publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society. 2017;26(9):2225-2241. doi:10.1007/s00586-017-5153-0.",
+"doi": "10.1007/s00586-017-5153-0"
+},
+"53": {
+"n": 53,
+"texte": "Bilateral Cervical Dysfunction in Patients With Unilateral Lateral Epicondylalgia Without Concomitant Cervical or Upper Limb Symptoms: A Cross-Sectional Case-Control Study. Coombes BK, Bisset L, Vicenzino B. Journal of Manipulative and Physiological Therapeutics. 2014;37(2):79-86. doi:10.1016/j.jmpt.2013.12.005.",
+"doi": "10.1016/j.jmpt.2013.12.005"
+},
+"54": {
+"n": 54,
+"texte": "Musculoskeletal Disorders in Referrals for Suspected Cervical Radiculopathy. Cannon DE, Dillingham TR, Miao H, Andary MT, Pezzin LE. Archives of Physical Medicine and Rehabilitation. 2007;88(10):1256-9. doi:10.1016/j.apmr.2007.07.010.",
+"doi": "10.1016/j.apmr.2007.07.010"
+},
+"55": {
+"n": 55,
+"texte": "Cervical Radiculopathy and Coexisting Distal Entrapment Neuropathies: Double-Crush Syndromes?. Morgan G, Wilbourn AJ. Neurology. 1998;50(1):78-83. doi:10.1212/wnl.50.1.78.",
+"doi": "10.1212/wnl.50.1.78"
+},
+"56": {
+"n": 56,
+"texte": "Risk Factors for Shoulder and Elbow Injuries in Adolescent Baseball Pitchers. Olsen SJ, Fleisig GS, Dun S, Loftice J, Andrews JR. The American Journal of Sports Medicine. 2006;34(6):905-12. doi:10.1177/0363546505284188.",
+"doi": "10.1177/0363546505284188"
+},
+"57": {
+"n": 57,
+"texte": "Risk of Serious Injury for Young Baseball Pitchers. Fleisig GS, Andrews JR, Cutter GR, et al. The American Journal of Sports Medicine. 2011;39(2):253-7. doi:10.1177/0363546510384224.",
+"doi": "10.1177/0363546510384224"
+},
+"58": {
+"n": 58,
+"texte": "Current Workload Recommendations in Baseball Pitchers: A Systematic Review. Bakshi NK, Inclan PM, Kirsch JM, et al. The American Journal of Sports Medicine. 2020;48(1):229-241. doi:10.1177/0363546519831010.",
+"doi": "10.1177/0363546519831010"
+},
+"59": {
+"n": 59,
+"texte": "The Influence of Pitch Velocity on Medial Elbow Pain and Medial Epicondyle Abnormality Among Youth Baseball Players. Kurokawa D, Muraki T, Ishikawa H, et al. The American Journal of Sports Medicine. 2020;48(7):1601-1607. doi:10.1177/0363546520914911.",
+"doi": "10.1177/0363546520914911"
+},
+"60": {
+"n": 60,
+"texte": "Effect of Pitch Type, Pitch Count, and Pitching Mechanics on Risk of Elbow and Shoulder Pain in Youth Baseball Pitchers. Lyman S, Fleisig GS, Andrews JR, Osinski ED. The American Journal of Sports Medicine. 2002 Jul-Aug;30(4):463-8. doi:10.1177/03635465020300040201.",
+"doi": "10.1177/03635465020300040201"
+},
+"61": {
+"n": 61,
+"texte": "Risk Factors for Elbow and Shoulder Injuries in Adolescent Baseball Players: A Systematic Review. Norton R, Honstad C, Joshi R, et al. The American Journal of Sports Medicine. 2019;47(4):982-990. doi:10.1177/0363546518760573.",
+"doi": "10.1177/0363546518760573"
+},
+"62": {
+"n": 62,
+"texte": "Correlation Between Playing Position, Elbow Physical Findings and Elbow Pain in Elementary School Baseball Players: Results of a Multi-Regional Study in Japan. Matsuura T, Chosa E, Tajika T, et al. Journal of Orthopaedic Science : Official Journal of the Japanese Orthopaedic Association. 2020;25(1):122-126. doi:10.1016/j.jos.2019.02.020.",
+"doi": "10.1016/j.jos.2019.02.020"
+},
+"63": {
+"n": 63,
+"texte": "Preseason Assessment of Radiographic Abnormalities in Elbows of Little League Baseball Players. Pennock AT, Pytiak A, Stearns P, et al. The Journal of Bone and Joint Surgery. American Volume. 2016;98(9):761-7. doi:10.2106/JBJS.15.01017.",
+"doi": "10.2106/JBJS.15.01017"
+},
+"64": {
+"n": 64,
+"texte": "Clinical Utility of the Moving Valgus Stress Test and Milking Maneuver for Medial Ulnar Collateral Ligament Injuries of the Elbow. Sciascia AD, Bowman EN, Camp C, et al. The American Journal of Sports Medicine. 2026;54(8):1993-2002. doi:10.1177/03635465261439107.",
+"doi": "10.1177/03635465261439107"
+},
+"65": {
+"n": 65,
+"texte": "The “Moving Valgus Stress Test” for Medial Collateral Ligament Tears of the Elbow. O'Driscoll SW, Lawton RL, Smith AM. The American Journal of Sports Medicine. 2005;33(2):231-9. doi:10.1177/0363546504267804.",
+"doi": "10.1177/0363546504267804"
+},
+"66": {
+"n": 66,
+"texte": "Avoiding Tommy John Surgery: What Are the Alternatives?. Rebolledo BJ, Dugas JR, Bedi A, et al. The American Journal of Sports Medicine. 2017;45(13):3143-3148. doi:10.1177/0363546517692548.",
+"doi": "10.1177/0363546517692548"
+},
+"67": {
+"n": 67,
+"texte": "Diagnostic Imaging of Ulnar Collateral Ligament Injury: A Systematic Review. Campbell RE, McGhee AN, Freedman KB, Tjoumakaris FP. The American Journal of Sports Medicine. 2020;48(11):2819-2827. doi:10.1177/0363546520937302.",
+"doi": "10.1177/0363546520937302"
+},
+"68": {
+"n": 68,
+"texte": "Evidence of Subclinical Medial Collateral Ligament Injury and Posteromedial Impingement in Professional Baseball Players. Kooima CL, Anderson K, Craig JV, Teeter DM, van Holsbeeck M. The American Journal of Sports Medicine. 2004 Oct-Nov;32(7):1602-6. doi:10.1177/0363546503262646.",
+"doi": "10.1177/0363546503262646"
+},
+"69": {
+"n": 69,
+"texte": "Musculoskeletal Findings of the Major League Baseball Combine: A Description of the “Normal” Prospective Professional Baseball Player. Erickson BJ, Camp CL, D'Angelo J, et al. The American Journal of Sports Medicine. 2025;53(8):1826-1831. doi:10.1177/03635465251339773.",
+"doi": "10.1177/03635465251339773"
+},
+"70": {
+"n": 70,
+"texte": "Fastball Pitch Velocity Helps Predict Ulnar Collateral Ligament Reconstruction in Major League Baseball Pitchers. Chalmers PN, Erickson BJ, Ball B, Romeo AA, Verma NN. The American Journal of Sports Medicine. 2016;44(8):2130-5. doi:10.1177/0363546516634305.",
+"doi": "10.1177/0363546516634305"
+},
+"71": {
+"n": 71,
+"texte": "Prevalence and Clinical Characteristics of Osteochondritis Dissecans of the Humeral Capitellum Among Adolescent Baseball Players. Kida Y, Morihara T, Kotoura Y, et al. The American Journal of Sports Medicine. 2014;42(8):1963-71. doi:10.1177/0363546514536843.",
+"doi": "10.1177/0363546514536843"
+},
+"73": {
+"n": 73,
+"texte": "Reliability of Radiographic Imaging Characteristics for Osteochondritis Dissecans of the Capitellum. ROCKET Group, Nissen C, Bohn DC, et al. The American Journal of Sports Medicine. 2022;50(14):3948-3955. doi:10.1177/03635465221130452.",
+"doi": "10.1177/03635465221130452"
+},
+"74": {
+"n": 74,
+"texte": "Thirty-Six Months of Experience and 30° of Hip Internal Rotation as Critical Thresholds for Capitellar Osteochondritis Dissecans in Youth Baseball Players. Kamiya T, Nagasawa M, Oota T, Tajima T, Kamei N. Journal of Shoulder and Elbow Surgery. 2026;35(12):2925-2934. doi:10.1016/j.jse.2026.06.006.",
+"doi": "10.1016/j.jse.2026.06.006"
+},
+"75": {
+"n": 75,
+"texte": "Management of osteochondritis dissecans lesions of the elbow including return to sport remains variable among orthopaedic surgeons. Bowman EN, Lane G, Goldfarb CF, Smith MV. Archives of Orthopaedic and Trauma Surgery. 2024;145(1):42. doi:10.1007/s00402-024-05635-5.",
+"doi": "10.1007/s00402-024-05635-5"
+},
+"76": {
+"n": 76,
+"texte": "Osteochondritis dissecans lesions of the capitellum in overhead athletes: a review of current evidence and proposed treatment algorithm. Logli AL, Bernard CD, O'Driscoll SW, et al. Current Reviews in Musculoskeletal Medicine. 2019;12(1):1-12. doi:10.1007/s12178-019-09528-8.",
+"doi": "10.1007/s12178-019-09528-8"
+},
+"77": {
+"n": 77,
+"texte": "Osteochondritis Dissecans of the Capitellum: Influence of Activity on Lesion Location Within a Zone of Propensity. Clark VC, Wyatt CW, Hawkins ND, et al. The American Journal of Sports Medicine. 2024;52(14):3473-3479. doi:10.1177/03635465241289934.",
+"doi": "10.1177/03635465241289934"
+},
+"78": {
+"n": 78,
+"texte": "Association Between 45° Flexion Anteroposterior Elbow Radiographs and Diagnostic Accuracy of Capitellum Osteochondritis Dissecans. Saper MG, Bompadre V, Schmale GA, et al. The American Journal of Sports Medicine. 2021;49(10):2778-2782. doi:10.1177/03635465211027178.",
+"doi": "10.1177/03635465211027178"
+},
+"79": {
+"n": 79,
+"texte": "Physical Examination of the Athlete’s Elbow. Hsu SH, Moen TC, Levine WN, Ahmad CS. The American Journal of Sports Medicine. 2012;40(3):699-708. doi:10.1177/0363546511428869.",
+"doi": "10.1177/0363546511428869"
+},
+"80": {
+"n": 80,
+"texte": "Elbow Arthroscopic Surgery Update for Sports Medicine Conditions. Byram IR, Kim HM, Levine WN, Ahmad CS. The American Journal of Sports Medicine. 2013;41(9):2191-202. doi:10.1177/0363546513482106.",
+"doi": "10.1177/0363546513482106"
+},
+"81": {
+"n": 81,
+"texte": "Pitcher’s elbow: medial elbow pain in the overhead-throwing athlete. Rossy WH, Oh LS. Current Reviews in Musculoskeletal Medicine. 2016;9(2):207-14. doi:10.1007/s12178-016-9346-7.",
+"doi": "10.1007/s12178-016-9346-7"
+},
+"82": {
+"n": 82,
+"texte": "Elbow Injuries in Throwing Athletes: A Current Concepts Review. Cain EL, Dugas JR, Wolf RS, Andrews JR. The American Journal of Sports Medicine. 2003 Jul-Aug;31(4):621-35. doi:10.1177/03635465030310042601.",
+"doi": "10.1177/03635465030310042601"
+},
+"83": {
+"n": 83,
+"texte": "Increased Elbow and Olecranon Injury History in Professional Pitchers With Increased Elbow Flexion at Ball Release. Manzi JE, Ciccotti MC, Trauger N, et al. The American Journal of Sports Medicine. 2022;50(4):1054-1060. doi:10.1177/03635465211072223.",
+"doi": "10.1177/03635465211072223"
+},
+"84": {
+"n": 84,
+"texte": "Changes in elbow joint contact area in symptomatic valgus instability of the elbow in baseball players. Numaguchi K, Momma D, Matsui Y, et al. Scientific Reports. 2021;11(1):19782. doi:10.1038/s41598-021-99193-0.",
+"doi": "10.1038/s41598-021-99193-0"
+},
+"85": {
+"n": 85,
+"texte": "Magnetic Resonance Imaging of the Throwing Elbow in the Uninjured, High School–Aged Baseball Pitcher. Hurd WJ, Eby S, Kaufman KR, Murthy NS. The American Journal of Sports Medicine. 2011;39(4):722-8. doi:10.1177/0363546510390185.",
+"doi": "10.1177/0363546510390185"
+},
+"86": {
+"n": 86,
+"texte": "Olecranon Stress Injury in an Adolescent Overhand Pitcher. Brucker J, Sahu N, Sandella B. Sports Health. 2015;7(4):308-11. doi:10.1177/1941738114567868.",
+"doi": "10.1177/1941738114567868"
+},
+"87": {
+"n": 87,
+"texte": "Stress Fractures in Athletes: Review of 196 Cases. Iwamoto J, Takeda T. Journal of Orthopaedic Science : Official Journal of the Japanese Orthopaedic Association. 2003;8(3):273-8. doi:10.1007/s10776-002-0632-5.",
+"doi": "10.1007/s10776-002-0632-5"
+},
+"88": {
+"n": 88,
+"texte": "Performance and Return to Sport After Open Reduction and Internal Fixation of the Olecranon in Professional Baseball Players. Erickson BJ, Chalmers PN, D'Angelo J, et al. The American Journal of Sports Medicine. 2019;47(8):1915-1920. doi:10.1177/0363546519844479.",
+"doi": "10.1177/0363546519844479"
+},
+"89": {
+"n": 89,
+"texte": "Classification of Olecranon Stress Fractures in Baseball Players. Furushima K, Itoh Y, Iwabu S, et al. The American Journal of Sports Medicine. 2014;42(6):1343-51. doi:10.1177/0363546514528099.",
+"doi": "10.1177/0363546514528099"
+},
+"90": {
+"n": 90,
+"texte": "Stress Injury of the Proximal Ulna in Professional Baseball Players. Schickendantz MS, Ho CP, Koh J. The American Journal of Sports Medicine. 2002 Sep-Oct;30(5):737-41. doi:10.1177/03635465020300051801.",
+"doi": "10.1177/03635465020300051801"
+},
+"91": {
+"n": 91,
+"texte": "Elbow Extension Test to Rule Out Elbow Fracture: Multicentre, Prospective Validation and Observational Study of Diagnostic Accuracy in Adults and Children. Appelboam A, Reuben AD, Benger JR, et al. BMJ (Clinical Research Ed.). 2008;337:a2428. doi:10.1136/bmj.a2428.",
+"doi": "10.1136/bmj.a2428"
+},
+"92": {
+"n": 92,
+"texte": "Extension Test and Ossal Point Tenderness Cannot Accurately Exclude Significant Injury in Acute Elbow Trauma. Jie KE, van Dam LF, Verhagen TF, Hammacher ER. Annals of Emergency Medicine. 2014;64(1):74-8. doi:10.1016/j.annemergmed.2014.01.022.",
+"doi": "10.1016/j.annemergmed.2014.01.022"
+},
+"93": {
+"n": 93,
+"texte": "Performance of the 4-Way Range of Motion Test for Radiographic Injuries After Blunt Elbow Trauma. Vinson DR, Kann GS, Gaona SD, Panacek EA. The American Journal of Emergency Medicine. 2016;34(2):235-9. doi:10.1016/j.ajem.2015.10.031.",
+"doi": "10.1016/j.ajem.2015.10.031"
+},
+"94": {
+"n": 94,
+"texte": "Deriving the East Riding Elbow Rule (ER2): A Maximally Sensitive Decision Tool for Elbow Injury. Arundel D, Williams P, Townend W. Emergency Medicine Journal : EMJ. 2014;31(5):380-3. doi:10.1136/emermed-2012-202169.",
+"doi": "10.1136/emermed-2012-202169"
+},
+"95": {
+"n": 95,
+"texte": "Point Tenderness at 1 of 5 Locations and Limited Elbow Extension Identify Significant Injury in Children With Acute Elbow Trauma: A Study of Diagnostic Accuracy. Dubrovsky AS, Mok E, Lau SY, Al Humaidan M. The American Journal of Emergency Medicine. 2015;33(2):229-33. doi:10.1016/j.ajem.2014.11.028.",
+"doi": "10.1016/j.ajem.2014.11.028"
+},
+"96": {
+"n": 96,
+"texte": "The Posterior Fat Pad Sign in Association With Occult Fracture of the Elbow in Children. Skaggs DL, Mirzayan R. The Journal of Bone and Joint Surgery. American Volume. 1999;81(10):1429-33. doi:10.2106/00004623-199910000-00007.",
+"doi": "10.2106/00004623-199910000-00007"
+},
+"97": {
+"n": 97,
+"texte": "Occult Fractures in Children With a Radiographic Fat Pad Sign of the Elbow: A Meta-Analysis of 10 Published Studies. Kappelhof B, Roorda BL, Poppelaars MA, et al. JBJS Reviews. 2022;10(10):01874474-202210000-00006. doi:10.2106/JBJS.RVW.22.00114.",
+"doi": "10.2106/JBJS.RVW.22.00114"
+},
+"98": {
+"n": 98,
+"texte": "The Fat Pad Sign Following Elbow Trauma in Adults: Its Usefulness and Reliability in Suspecting Occult Fracture. O'Dwyer H, O'Sullivan P, Fitzgerald D, et al. Journal of Computer Assisted Tomography. 2004 Jul-Aug;28(4):562-5. doi:10.1097/00004728-200407000-00021.",
+"doi": "10.1097/00004728-200407000-00021"
+},
+"99": {
+"n": 99,
+"texte": "Early mobilisation for elbow fractures in adults. Paula Harding, Tshepo Rasekaba, Lorena Smirneos, et al. Cochrane Database of Systematic Reviews. 2011. doi:10.1002/14651858.cd008130.pub2.",
+"doi": "10.1002/14651858.cd008130.pub2"
+},
+"100": {
+"n": 100,
+"texte": "Aspiration of the elbow joint for treating radial head fractures. Thanit Foocharoen, Chingching Foocharoen, Malinee Laopaiboon, et al. Cochrane Database of Systematic Reviews. 2014. doi:10.1002/14651858.cd009949.pub2.",
+"doi": "10.1002/14651858.cd009949.pub2"
+},
+"104": {
+"n": 104,
+"texte": "Incidence of Elbow Dislocations in the United States Population. Stoneback JW, Owens BD, Sykes J, et al. The Journal of Bone and Joint Surgery. American Volume. 2012;94(3):240-5. doi:10.2106/JBJS.J.01663.",
+"doi": "10.2106/JBJS.J.01663"
+},
+"105": {
+"n": 105,
+"texte": "Epidemiology of Elbow Dislocations in High School Athletes. Dizdarevic I, Low S, Currie DW, et al. The American Journal of Sports Medicine. 2016;44(1):202-8. doi:10.1177/0363546515610527.",
+"doi": "10.1177/0363546515610527"
+},
+"106": {
+"n": 106,
+"texte": "An Online Video Investigation Into the Mechanism of Elbow Dislocation. Schreiber JJ, Warren RF, Hotchkiss RN, Daluiski A. The Journal of Hand Surgery. 2013;38(3):488-94. doi:10.1016/j.jhsa.2012.12.017.",
+"doi": "10.1016/j.jhsa.2012.12.017"
+},
+"107": {
+"n": 107,
+"texte": "Interventions for treating acute elbow dislocations in adults. Fraser Taylor, Martyn Sims, Jean‐Claude Theis, et al. Cochrane Database of Systematic Reviews. 2012. doi:10.1002/14651858.cd007908.pub2.",
+"doi": "10.1002/14651858.cd007908.pub2"
+},
+"108": {
+"n": 108,
+"texte": "In-game Management of Common Joint Dislocations. Skelley NW, McCormick JJ, Smith MV. Sports Health. 2014;6(3):246-55. doi:10.1177/1941738113499721.",
+"doi": "10.1177/1941738113499721"
+},
+"109": {
+"n": 109,
+"texte": "MDCT Findings After Elbow Dislocation: A Retrospective Study of 140 Patients. Sormaala MJ, Sormaala A, Mattila VM, Koskinen SK. Skeletal Radiology. 2014;43(4):507-12. doi:10.1007/s00256-014-1819-4.",
+"doi": "10.1007/s00256-014-1819-4"
+},
+"114": {
+"n": 114,
+"texte": "Distal Biceps Tendon Ruptures: Diagnostic Strategy Through Physical Examination. Zwerus EL, van Deurzen DFP, van den Bekerom MPJ, The B, Eygendaal D. The American Journal of Sports Medicine. 2022;50(14):3956-3962. doi:10.1177/03635465221129874.",
+"doi": "10.1177/03635465221129874"
+},
+"115": {
+"n": 115,
+"texte": "The Hook Test for Distal Biceps Tendon Avulsion. O'Driscoll SW, Goncalves LB, Dietz P. The American Journal of Sports Medicine. 2007;35(11):1865-9. doi:10.1177/0363546507305016.",
+"doi": "10.1177/0363546507305016"
+},
+"116": {
+"n": 116,
+"texte": "The Biceps Crease Interval for Diagnosing Complete Distal Biceps Tendon Ruptures. ElMaraghy A, Devereaux M, Tsoi K. Clinical Orthopaedics and Related Research. 2008;466(9):2255-62. doi:10.1007/s11999-008-0334-0.",
+"doi": "10.1007/s11999-008-0334-0"
+},
+"117": {
+"n": 117,
+"texte": "Distal Biceps Tendon Ruptures. Kelly MP, Perkinson SG, Ablove RH, Tueting JL. The American Journal of Sports Medicine. 2015;43(8):2012-7. doi:10.1177/0363546515587738.",
+"doi": "10.1177/0363546515587738"
+},
+"118": {
+"n": 118,
+"texte": "Distal Biceps Tendon Ruptures: Incidence, Demographics, and the Effect of Smoking. Safran MR, Graham SM. Clinical Orthopaedics and Related Research. 2002;(404):275-83."
+},
+"119": {
+"n": 119,
+"texte": "The Use of Prescription Testosterone Is Associated With an Increased Likelihood of Experiencing a Distal Biceps Tendon Injury and Subsequently Requiring Surgical Repair. Rebello E, Albright JA, Testa EJ, et al. Journal of Shoulder and Elbow Surgery. 2023;32(6):1254-1261. doi:10.1016/j.jse.2023.02.122.",
+"doi": "10.1016/j.jse.2023.02.122"
+},
+"121": {
+"n": 121,
+"texte": "Distal Triceps Rupture. Yeh PC, Dodds SD, Smart LR, Mazzocca AD, Sethi PM. The Journal of the American Academy of Orthopaedic Surgeons. 2010;18(1):31-40. doi:10.5435/00124635-201001000-00005.",
+"doi": "10.5435/00124635-201001000-00005"
+},
+"122": {
+"n": 122,
+"texte": "Triceps Tendon Avulsions in Children and Young Adult Patients: A Commonly Delayed Diagnosis. Antonellis HE, Young HL, Bauer AS, Yen YM, Vuillermin CB. Journal of Shoulder and Elbow Surgery. 2025;:S1058-2746(25)00253-8. doi:10.1016/j.jse.2025.02.031.",
+"doi": "10.1016/j.jse.2025.02.031"
+},
+"124": {
+"n": 124,
+"texte": "The Prevalence of Elbow Osteoarthritis in Japanese Middle-Aged and Elderly Populations: The Relationship Between Risk Factors and Function. Oya N, Tajika T, Ichinose T, et al. Journal of Shoulder and Elbow Surgery. 2018;27(6):1086-1091. doi:10.1016/j.jse.2018.02.049.",
+"doi": "10.1016/j.jse.2018.02.049"
+},
+"125": {
+"n": 125,
+"texte": "Risk factors for cartilage damage and osteoarthritis of the elbow joint: case-control study and systematic literature review. Spahn G, Lipfert JU, Maurer C, et al. Archives of Orthopaedic and Trauma Surgery. 2017;137(4):557-566. doi:10.1007/s00402-017-2654-6.",
+"doi": "10.1007/s00402-017-2654-6"
+},
+"126": {
+"n": 126,
+"texte": "Elbow Osteoarthritis and Occupational Mechanical Exposures: A Systematic Review and Meta-Analysis. Jahn A, Kjærgaard C, Havnegjerde A, Andersen JH, Dalbøge A. Occupational Medicine (Oxford, England). 2025;:kqaf060. doi:10.1093/occmed/kqaf060.",
+"doi": "10.1093/occmed/kqaf060"
+},
+"127": {
+"n": 127,
+"texte": "Primary Osteoarthritis of the Elbow. Doherty M, Preston B. Annals of the Rheumatic Diseases. 1989;48(9):743-7. doi:10.1136/ard.48.9.743.",
+"doi": "10.1136/ard.48.9.743"
+},
+"128": {
+"n": 128,
+"texte": "Prevalence and Associated Factors of Primary Elbow Osteoarthritis in the Japanese General Elderly Population: A Japanese Cohort Survey Randomly Sampled From a Basic Resident Registry. Nakayama K, Kato H, Ikegami S, et al. Journal of Shoulder and Elbow Surgery. 2022;31(1):123-132. doi:10.1016/j.jse.2021.07.015.",
+"doi": "10.1016/j.jse.2021.07.015"
+},
+"129": {
+"n": 129,
+"texte": "Radiographic Changes at the Elbow in Primary Osteoarthritis: A Comparison With Normal Aging of the Elbow Joint. Dalal S, Bull M, Stanley D. Journal of Shoulder and Elbow Surgery. 2007 May-Jun;16(3):358-61. doi:10.1016/j.jse.2006.08.005.",
+"doi": "10.1016/j.jse.2006.08.005"
+},
+"132": {
+"n": 132,
+"texte": "Prepatellar and Olecranon Bursitis: Literature Review and Development of a Treatment Algorithm. Baumbach SF, Lobo CM, Badyine I, Mutschler W, Kanz KG. Archives of Orthopaedic and Trauma Surgery. 2014;134(3):359-70. doi:10.1007/s00402-013-1882-7.",
+"doi": "10.1007/s00402-013-1882-7"
+},
+"134": {
+"n": 134,
+"texte": "Olecranon Bursitis. Reilly D, Kamineni S. Journal of Shoulder and Elbow Surgery. 2016;25(1):158-67. doi:10.1016/j.jse.2015.08.032.",
+"doi": "10.1016/j.jse.2015.08.032"
+},
+"135": {
+"n": 135,
+"texte": "Reaction of Superficial Bursae in Response to Specific Disease Stimuli. Canoso JJ, Yood RA. Arthritis and Rheumatism. 1979;22(12):1361-4. doi:10.1002/art.1780221207.",
+"doi": "10.1002/art.1780221207"
+},
+"136": {
+"n": 136,
+"texte": "Idiopathic or Traumatic Olecranon Bursitis. Clinical Features and Bursal Fluid Analysis. Canoso JJ. Arthritis and Rheumatism. 1977 Jul-Aug;20(6):1213-6. doi:10.1002/art.1780200609.",
+"doi": "10.1002/art.1780200609"
+},
+"137": {
+"n": 137,
+"texte": "Acute Gouty Bursitis: Report of 15 Cases. Canoso JJ, Yood RA. Annals of the Rheumatic Diseases. 1979;38(4):326-8. doi:10.1136/ard.38.4.326.",
+"doi": "10.1136/ard.38.4.326"
+},
+"138": {
+"n": 138,
+"texte": "Risk Factors for the Development of Olecranon Bursitis-a Large-Scale Population-Based Study. Shemesh S, Itzikovitch R, Atzmon R, Kadar A. Journal of Clinical Medicine. 2024;13(24):7801. doi:10.3390/jcm13247801.",
+"doi": "10.3390/jcm13247801"
+},
+"140": {
+"n": 140,
+"texte": "Clinical characteristics and outcomes of septic bursitis. Lieber SB, Fowler ML, Zhu C, et al. Infection. 2017;45(6):781-786. doi:10.1007/s15010-017-1030-3.",
+"doi": "10.1007/s15010-017-1030-3"
+},
+"141": {
+"n": 141,
+"texte": "The Clinical Spectrum of Severe Septic Bursitis in Northwestern Spain: A 10 Year Study. García-Porrúa C, González-Gay MA, Ibañez D, García-País MJ. The Journal of Rheumatology. 1999;26(3):663-7."
+},
+"142": {
+"n": 142,
+"texte": "Narrative: Review of Anterior Knee Pain Differential Diagnosis (Other than Patellofemoral Pain). Kuwabara A, Fredericson M. Current Reviews in Musculoskeletal Medicine. 2021;14(3):232-238. doi:10.1007/s12178-021-09704-9.",
+"doi": "10.1007/s12178-021-09704-9"
+},
+"143": {
+"n": 143,
+"texte": "A Cluster of Septic Olecranon Bursitis in Association With Infantry Training. Wasserzug O, Balicer RD, Boxman J, et al. Military Medicine. 2011;176(1):122-4. doi:10.7205/milmed-d-10-00117.",
+"doi": "10.7205/milmed-d-10-00117"
+},
+"144": {
+"n": 144,
+"texte": "Clinical Characteristics and Management of Olecranon and Prepatellar Septic Bursitis in a Multicentre Study. Charret L, Bart G, Hoppe E, et al. The Journal of Antimicrobial Chemotherapy. 2021;76(11):3029-3032. doi:10.1093/jac/dkab265.",
+"doi": "10.1093/jac/dkab265"
+},
+"145": {
+"n": 145,
+"texte": "MRI Characteristics of Olecranon Bursitis. Floemer F, Morrison WB, Bongartz G, Ledermann HP. AJR. American Journal of Roentgenology. 2004;183(1):29-34. doi:10.2214/ajr.183.1.1830029.",
+"doi": "10.2214/ajr.183.1.1830029"
+},
+"146": {
+"n": 146,
+"texte": "2015 Gout Classification Criteria: An American College of Rheumatology/European League Against Rheumatism Collaborative Initiative. Neogi T, Jansen TL, Dalbeth N, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2015;67(10):2557-68. doi:10.1002/art.39254.",
+"doi": "10.1002/art.39254"
+},
+"147": {
+"n": 147,
+"texte": "Performance of the 2015 ACR-EULAR Classification Criteria for Gout in a Primary Care Population Presenting With Monoarthritis. Janssens HJEM, Fransen J, Janssen M, et al. Rheumatology (Oxford, England). 2017;56(8):1335-1341. doi:10.1093/rheumatology/kex164.",
+"doi": "10.1093/rheumatology/kex164"
+},
+"148": {
+"n": 148,
+"texte": "Gout. Neogi T. Annals of Internal Medicine. 2016;165(1):ITC1-ITC16. doi:10.7326/AITC201607050.",
+"doi": "10.7326/AITC201607050"
+},
+"149": {
+"n": 149,
+"texte": "A Point‐of‐Care Raman Spectroscopy–Based Device for the Diagnosis of Gout and Pseudogout: Comparison With the Clinical Standard Microscopy. Li B, Singer NG, Yeni YN, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2016;68(7):1751-7. doi:10.1002/art.39638.",
+"doi": "10.1002/art.39638"
+},
+"150": {
+"n": 150,
+"texte": "Advances in Synovial Fluid Analysis for the Diagnosis of Crystal Arthropathies. Niessink T, Jansen TL, Janssen M, Otto C. Arthritis Care & Research. 2026;78(6):788-797. doi:10.1002/acr.25698.",
+"doi": "10.1002/acr.25698"
+},
+"151": {
+"n": 151,
+"texte": "The value of ultrasound semi-quantitative scoring in the clinical evaluation of acute gouty arthritis with normal and elevated serum uric acid. Zhang L, Yang T, Ge J. Scientific Reports. 2026;:10.1038/s41598-026-62865-w. doi:10.1038/s41598-026-62865-w.",
+"doi": "10.1038/s41598-026-62865-w"
+},
+"152": {
+"n": 152,
+"texte": "Performance of Ultrasound in the Diagnosis of Gout in a Multicenter Study: Comparison With Monosodium Urate Monohydrate Crystal Analysis as the Gold Standard. Ogdie A, Taylor WJ, Neogi T, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2017;69(2):429-438. doi:10.1002/art.39959.",
+"doi": "10.1002/art.39959"
+},
+"153": {
+"n": 153,
+"texte": "Gout. Richette P, Bardin T. Lancet (London, England). 2010;375(9711):318-28. doi:10.1016/S0140-6736(09)60883-7.",
+"doi": "10.1016/S0140-6736(09)60883-7"
+},
+"154": {
+"n": 154,
+"texte": "The Gouty Tophus: a Review. Chhana A, Dalbeth N. Current Rheumatology Reports. 2015;17(3):19. doi:10.1007/s11926-014-0492-x.",
+"doi": "10.1007/s11926-014-0492-x"
+},
+"155": {
+"n": 155,
+"texte": "Meta-analysis: Diagnostic Accuracy of Anti–Cyclic Citrullinated Peptide Antibody and Rheumatoid Factor for Rheumatoid Arthritis. Nishimura K, Sugiyama D, Kogata Y, et al. Annals of Internal Medicine. 2007;146(11):797-808. doi:10.7326/0003-4819-146-11-200706050-00008.",
+"doi": "10.7326/0003-4819-146-11-200706050-00008"
+},
+"156": {
+"n": 156,
+"texte": "Elbow rheumatoid elbow: surgical treatment options. Sanchez-Sotelo J. Current Reviews in Musculoskeletal Medicine. 2016;9(2):224-31. doi:10.1007/s12178-016-9328-9.",
+"doi": "10.1007/s12178-016-9328-9"
+},
+"157": {
+"n": 157,
+"texte": "Initial presentation of early rheumatoid arthritis. Weman L, Salo H, Kuusalo L, et al. PloS One. 2023;18(7):e0287707. doi:10.1371/journal.pone.0287707.",
+"doi": "10.1371/journal.pone.0287707"
+},
+"158": {
+"n": 158,
+"texte": "Skin Signs of Rheumatoid Arthritis and its Therapy-Induced Cutaneous Side Effects. Xue Y, Cohen JM, Wright NA, Merola JF. American Journal of Clinical Dermatology. 2016;17(2):147-62. doi:10.1007/s40257-015-0167-z.",
+"doi": "10.1007/s40257-015-0167-z"
+},
+"159": {
+"n": 159,
+"texte": "Skin Manifestations of Rheumatoid Arthritis, Juvenile Idiopathic Arthritis, and Spondyloarthritides. Chua-Aguilera CJ, Möller B, Yawalkar N. Clinical Reviews in Allergy & Immunology. 2017;53(3):371-393. doi:10.1007/s12016-017-8632-5.",
+"doi": "10.1007/s12016-017-8632-5"
+},
+"160": {
+"n": 160,
+"texte": "The Diagnostic Value of Conventional Radiography and Musculoskeletal Ultrasonography in Calcium Pyrophosphate Deposition Disease: A Systematic Literature Review and Meta-Analysis. Cipolletta E, Filippou G, Scirè CA, et al. Osteoarthritis and Cartilage. 2021;29(5):619-632. doi:10.1016/j.joca.2021.01.007.",
+"doi": "10.1016/j.joca.2021.01.007"
+},
+"161": {
+"n": 161,
+"texte": "Reliability and Diagnostic Accuracy of Radiography for the Diagnosis of Calcium Pyrophosphate Deposition: Performance of the Novel Definitions Developed by an International Multidisciplinary Working Group. Sirotti S, Becce F, Sconfienza LM, et al. Arthritis & Rheumatology (Hoboken, N.J.). 2023;75(4):630-638. doi:10.1002/art.42368.",
+"doi": "10.1002/art.42368"
+}
+}
+}

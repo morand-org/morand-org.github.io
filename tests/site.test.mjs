@@ -27,7 +27,7 @@ function verifier(nom, condition, detail) {
   else { echecs++; console.error(`ÉCHEC : ${nom}${detail !== undefined ? ` (${typeof detail === "string" ? detail : JSON.stringify(detail)})` : ""}`); }
 }
 const lire = f => fs.readFileSync(path.join(RACINE, f), "utf8");
-const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/"];
+const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/", "/entrainement/"];
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
@@ -598,6 +598,75 @@ async function importer(nav) {
   await ctx.close();
 }
 
+/* Entraînement clinique : modes, points, chrono (horloge simulée), défi quotidien, interruption, mode éditeur. */
+async function entrainement(nav) {
+  const etatJeu = p => p.evaluate(() => ({ ecran: document.body.dataset.ecran, score: document.querySelector("#en-score").textContent, position: document.querySelector("#en-position").textContent,
+    verdict: (document.querySelector(".en-verdict") || {}).textContent || "", bon: !!document.querySelector(".en-retour-bon"), faux: !!document.querySelector(".en-retour-faux") }));
+  {
+    const { ctx, p, erreurs } = await ouvrir(nav, "/entrainement/", { largeur: 390 });
+    const a = await p.evaluate(() => ({ modes: document.querySelectorAll("#en-accueil .en-mode").length, regions: document.querySelectorAll("#en-region option").length,
+      titre: document.title, noindex: document.querySelector('meta[name="robots"]').content, total: document.querySelector("#en-region option").textContent }));
+    verifier("Entraînement : accueil (5 modes, 9 régions, page non indexée)", a.modes === 5 && a.regions === 10 && /noindex/.test(a.noindex) && /\d cartes/.test(a.total) && !erreurs.length, { ...a, erreurs });
+    // Entraînement libre : réponse au clavier, rétroaction, explication, références, passage manuel.
+    await p.click('[data-mode="libre"]'); await p.waitForSelector("#en-partie:not([hidden])");
+    await p.keyboard.press("1"); await p.waitForSelector(".en-verdict");
+    const l = await etatJeu(p);
+    const refs = await p.evaluate(() => document.querySelectorAll(".en-refs li").length);
+    verifier("Entraînement : la touche 1 répond, la rétroaction donne la réponse attendue et les références", (l.bon || l.faux) && /Réponse|Bonne/.test(l.verdict) && refs > 0 && (l.bon ? +l.score.replace(/\s/g, "") >= 100 : l.score === "0"), { ...l, refs });
+    await p.click("#en-suivante"); await p.waitForTimeout(100);
+    verifier("Entraînement : « Question suivante » montre la carte 2", /Question 2/.test((await etatJeu(p)).position), await etatJeu(p));
+    // Série parfaite : on répond jusqu'à la première erreur, le record est gardé.
+    await p.click("#en-quitter"); await p.click("#en-changer"); await p.click('[data-mode="serie"]');
+    for (let i = 0; i < 60 && (await etatJeu(p)).ecran === "partie"; i++) { await p.keyboard.press(["1", "2", "3"][i % 3]); await p.waitForTimeout(2400); }
+    const sr = await p.evaluate(() => ({ ecran: document.body.dataset.ecran, sur: document.querySelector("#en-res-sur").textContent, rec: JSON.parse(localStorage.getItem("morand-entrainement-v1")).records.serie }));
+    verifier("Entraînement : la série parfaite s'arrête à la première erreur et garde le record", sr.ecran === "resultats" && /Série parfaite/.test(sr.sur) && sr.rec && sr.rec.valeur >= 0, sr);
+    verifier("Entraînement : résultats sans débordement ni erreur", !(await deborde(p)) && !erreurs.length, erreurs);
+    await ctx.close();
+  }
+  {
+    // Contre-la-montre 30 s avec une horloge simulée ; le chrono s'arrête quand l'onglet est caché.
+    const ctx = await nav.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: "block" });
+    const p = await ctx.newPage(), erreurs = []; p.on("pageerror", e => erreurs.push(String(e)));
+    await p.clock.install(); await p.goto(`${BASE}/entrainement/`); await p.waitForSelector("#en-accueil:not([hidden])");
+    await p.click('[data-duree="30"]'); await p.waitForSelector("#en-partie:not([hidden])");
+    await p.clock.runFor(10000);
+    const c1 = await p.textContent("#en-chrono");
+    await p.evaluate(() => { Object.defineProperty(document, "hidden", { configurable: true, get: () => true }); document.dispatchEvent(new Event("visibilitychange")); });
+    await p.clock.runFor(15000);
+    const pause = await p.textContent("#en-chrono");
+    await p.evaluate(() => { Object.defineProperty(document, "hidden", { configurable: true, get: () => false }); document.dispatchEvent(new Event("visibilitychange")); });
+    await p.keyboard.press("2"); await p.clock.runFor(2000);
+    await p.clock.runFor(25000);
+    const r = await p.evaluate(() => ({ ecran: document.body.dataset.ecran, sur: document.querySelector("#en-res-sur").textContent, q: document.querySelectorAll(".en-stat").length,
+      rec: JSON.parse(localStorage.getItem("morand-entrainement-v1")).records["chrono-30"] }));
+    verifier("Entraînement : chrono 30 s (20 s restantes après 10 s, en pause onglet caché, fin et record)", c1 === "20 s" && pause === "20 s" && r.ecran === "resultats" && /30 s/.test(r.sur) && r.rec, { c1, pause, ...r, erreurs });
+    await ctx.close();
+  }
+  {
+    // Défi quotidien : 10 cartes, résultat du jour gardé une seule fois.
+    const { ctx, p } = await ouvrir(nav, "/entrainement/", { largeur: 390 });
+    await p.click('[data-mode="defi"]'); await p.waitForSelector("#en-partie:not([hidden])");
+    const pos = (await etatJeu(p)).position;
+    for (let i = 0; i < 12 && (await etatJeu(p)).ecran === "partie"; i++) { await p.keyboard.press("1"); await p.waitForTimeout(2300); }
+    const d = await p.evaluate(() => ({ ecran: document.body.dataset.ecran, lead: document.querySelector("#en-res-lead").textContent, n: document.querySelector(".en-stat:nth-child(3) .en-stat-val").textContent }));
+    await p.click("#en-changer");
+    const fait = await p.textContent('[data-record="defi"]');
+    verifier("Entraînement : défi quotidien de 10 cartes, résultat du jour enregistré", /Question 1 \/ 10/.test(pos) && d.ecran === "resultats" && /\/ 10/.test(d.n) && /enregistré/.test(d.lead) && /^Fait/.test(fait), { pos, ...d, fait });
+    await ctx.close();
+  }
+  {
+    // Mode éditeur (?editeur=1) : décision « Valider » gardée et exportable.
+    const { ctx, p, erreurs } = await ouvrir(nav, "/entrainement/?editeur=1", { largeur: 390 });
+    const ed = await p.isVisible("#en-editeur");
+    await p.click('[data-mode="libre"]'); await p.waitForSelector("#en-partie:not([hidden])"); await p.keyboard.press("2"); await p.waitForSelector(".en-ed-carte");
+    await p.click('[data-decider="validee"]');
+    const dec = await p.evaluate(() => JSON.parse(localStorage.getItem("morand-entrainement-v1")).editeur);
+    const statut = await p.evaluate(() => { document.querySelector("#en-suivante").click(); return true; });
+    verifier("Entraînement : mode éditeur (panneau, décision « validée » gardée)", ed && Object.values(dec).some(x => x.statut === "validee") && statut && !erreurs.length, { ed, dec, erreurs });
+    await ctx.close();
+  }
+}
+
 /* MSK Morand : atlas de la douleur (zone touchée → plainte et côté). */
 async function atlas(nav) {
   const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/genou/", { largeur: 390 });
@@ -613,7 +682,7 @@ async function atlas(nav) {
   await ctx.close();
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, sombre };
+const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, entrainement, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {
