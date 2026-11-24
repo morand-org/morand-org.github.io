@@ -65,12 +65,27 @@ for (const r of REGIONS.filter(x => x.pret && x.id !== "genou")) {
   console.log("locomoteur/consultation/index.html");
 }
 
-// Accueil : tuiles actives pour les régions prêtes.
+// Accueil : bouton « Démarrer la consultation » et schéma du corps ; chaque zone ouvre la consultation avec sa plainte et son
+// côté (zones des régions prêtes seulement). Écrit entre <!-- depart --> et <!-- /depart -->.
 let hub = lire("locomoteur/index.html");
-const debut = hub.indexOf('<ol class="lo-regions cr-specs">'), fin = hub.indexOf("</ol>", debut);
-const tuiles = REGIONS.map(r => r.pret
-  ? `    <li><a class="cr-spec lo-region" href="/locomoteur/${r.id}/"><span class="cr-spec-nom">${r.nom}</span><span class="cr-spec-sous">${r.nb} diagnostics</span></a></li>`
-  : `    <li><span class="cr-spec lo-region lo-region-inactive" aria-disabled="true"><span class="cr-spec-nom">${r.nom}</span><span class="cr-spec-sous">À venir</span></span></li>`).join("\n");
-hub = hub.slice(0, debut) + '<ol class="lo-regions cr-specs">\n' + tuiles + "\n  " + hub.slice(fin);
+const escA = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+const pretsAccueil = new Set(REGIONS.filter(r => r.pret).map(r => r.id));
+const zones = window.Locomoteur.commun.ZONES_ATLAS.filter(([r]) => pretsAccueil.has(r)).map(([r, cote, x, y, ray, nom]) =>
+  `      <a href="/locomoteur/consultation/?plainte=${r}${cote ? `&amp;cote=${cote}` : ""}" aria-label="${escA(nom)} : commencer la consultation"><circle class="lo-zone" cx="${x}" cy="${y}" r="${ray}"><title>${escA(nom)}</title></circle></a>`).join("\n");
+const blocDepart = `<!-- depart -->
+  <p class="lo-demarrer"><a class="lo-bouton lo-bouton-grand" href="/locomoteur/consultation/">Démarrer la consultation</a></p>
+  <p class="lo-ou"><span>ou touchez la zone douloureuse</span></p>
+  <figure class="lo-planche">
+    <svg viewBox="0 0 1264 848" role="group" aria-label="Schéma du corps : toucher la zone douloureuse pour commencer la consultation">
+      <image class="lo-atlas-fond" href="/locomoteur/atlas-corps.webp" x="0" y="0" width="1264" height="848"/>
+${zones}
+      <text class="lo-atlas-cote" x="190" y="840">D</text><text class="lo-atlas-cote" x="585" y="840">G</text><text class="lo-atlas-cote" x="690" y="840">G</text><text class="lo-atlas-cote" x="1065" y="840">D</text>
+      <text class="lo-atlas-vue" x="120" y="60">Face</text><text class="lo-atlas-vue" x="1150" y="60">Dos</text>
+    </svg>
+    <figcaption>La consultation s'ouvre avec cette plainte et son côté ; vous pourrez en ajouter d'autres. Rien n'est transmis : les réponses restent dans la page.</figcaption>
+  </figure>
+  <!-- /depart -->`;
+if (!hub.includes("<!-- depart -->")) throw new Error("Accueil : marqueurs <!-- depart --> absents");
+hub = hub.replace(/<!-- depart -->[\s\S]*?<!-- \/depart -->/, blocDepart);
 fs.writeFileSync(path.join(RACINE, "locomoteur/index.html"), hub);
 console.log(`locomoteur/index.html : ${REGIONS.filter(r => r.pret).map(r => r.id).join(", ")}`);
