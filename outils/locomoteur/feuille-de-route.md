@@ -69,3 +69,26 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
   - `node outils/locomoteur/validation/valider.mjs` ;
   - `node outils/locomoteur/fiches-hy.mjs`.
 - Tests : `node tests/site.test.mjs`. La variable `SCENARIOS=locomoteur,fichesHY` lance seulement ces scénarios. Deux échecs de la barre de recherche de l'accueil principal existent déjà sur `main` et ne viennent pas de MSK.
+
+## Demandes du 23 et 24 novembre 2026 (à faire, dans cet ordre)
+
+1. **Accueil de MSK et pages des régions**
+   - Retirer l'encadré « Prototype ».
+   - Mettre à sa place un gros bouton « Démarrer la consultation », qui ouvre l'outil sans région choisie.
+   - Retirer « prêt à essayer » des tuiles.
+   - Renommer « Fiches high yield » en « Fiches résumées des pathologies ».
+   - Remplacer « aide-mémoire de première ligne (Québec) du document OpenEvidence » par des sources générales et crédibles, écrites pour les médecins et le public.
+   - Retirer les bulles de navigation en haut de l'outil (Plaintes, Identification…). Garder Mode rapide, Patients et Nouveau patient.
+2. **MSK visible partout** : accueil du site, onglets des autres outils, indexation.
+   - Idée de page couverture : « Six outils pour la pratique », six cartes à sceau, I à VI.
+3. **Conduite recopiée dans la note**
+   - Seulement des phrases de note clinique (jamais « Clinique » seul).
+   - Plan séparé par problème quand il y a plusieurs pathologies.
+4. **Atlas** : utiliser le personnage fourni (images/4.jpg, plus musclé) ou le « lecteur anatomique des plaintes » fourni (HTML).
+5. **Fiches patients** (PDF par région : cervical, lombaire, épaule, coude, poignet et main, hanche, genou, cheville, pied) : à intégrer, avec impression depuis les résultats.
+6. **Fiches d'infiltration pour le médecin** (PDF) : bibliothèque reliée aux diagnostics.
+7. **Point 14** : importateur de note sans IA. L'analyseur `locomoteur/importer.js` est écrit ; il reste l'écran de confirmation et le branchement.
+8. **Module « Morand — Entraînement clinique »** (`/entrainement/`), flashcards « augmente, neutre ou diminue ».
+   - Selon le prompt du clinicien : phase 1, audit et plan présentés AVANT de coder ; aucune mise en production sans son accord.
+   - Style de référence : maquette « Style 4B » (HTML fourni). Changements de style seulement avec son accord.
+   - Base de questions : DOCX « Base de données pour FlashCards Morand MSK ».
