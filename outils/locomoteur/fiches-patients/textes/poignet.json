@@ -810,9 +810,9 @@
   "applicable": true,
   "raison_si_non": "",
   "titre_patient": "Doigt qui accroche ou reste bloqué (doigt à ressaut)",
-  "ce_que_vous_avez": "Un tendon qui plie votre doigt est épaissi et accroche à l'entrée d'un petit tunnel dans la paume, ce qui produit un « clic » ou bloque le doigt en position pliée. Une petite attelle qui empêche le doigt d'accrocher laisse au tendon le temps de se calmer. Si cela ne suffit pas, une infiltration de cortisone règle le problème chez plus d'une personne sur deux.",
+  "ce_que_vous_avez": "Un tendon qui plie votre doigt est épaissi et accroche à l'entrée d'un petit tunnel dans la paume, ce qui produit un « clic » ou bloque le doigt en position pliée. Une petite attelle qui empêche le doigt d'accrocher laisse au tendon le temps de se calmer. Si cela ne suffit pas, une infiltration de cortisone règle le problème chez plus d'une personne sur deux, mais le ressaut peut revenir dans les mois qui suivent.",
   "ce_qui_aide": [
-   "Porter pendant 6 à 10 semaines une petite attelle qui garde droite la base du doigt (ou l'articulation du milieu) : idéalement jour et nuit ou au moins 8 heures par jour, sinon au minimum la nuit.",
+   "Porter pendant 6 à 10 semaines une petite attelle qui garde droite la base du doigt (ou l'articulation du milieu) : idéalement jour et nuit ou au moins 8 heures par jour, sinon au minimum la nuit (elle peut être retirée le temps de faire les exercices).",
    "Tremper la main dans l'eau tiède le matin et déplier doucement le doigt avec l'autre main s'il est resté plié.",
    "Utiliser des manches épais ou rembourrés et éviter de serrer fort des outils ou des sacs.",
    "Demander à votre médecin si une infiltration est indiquée, surtout si le doigt se bloque souvent."
@@ -852,10 +852,10 @@
     "illustration": "Dessin au trait d'une main ouverte paume vers le haut, le pouce de l'autre main massant doucement la base d'un doigt dans la paume."
    }
   ],
-  "duree_habituelle": "Amélioration possible en 6 à 10 semaines avec l'attelle. Si le ressaut persiste, une infiltration de cortisone est souvent proposée; une petite chirurgie est rarement nécessaire.",
+  "duree_habituelle": "Amélioration possible en 6 à 10 semaines avec l'attelle. Si le ressaut persiste, une infiltration de cortisone est souvent proposée; une petite chirurgie est parfois nécessaire, surtout si le ressaut revient après l'infiltration.",
   "quand_reconsulter": [
    "Doigt complètement bloqué qui ne peut plus être déplié, même avec l'aide de l'autre main.",
-   "Rougeur ou chaleur importante le long du doigt, ou fièvre.",
+   "Rougeur ou chaleur importante le long du doigt, ou fièvre : consulter en urgence (ce tableau pouvant correspondre à une infection de la gaine du tendon).",
    "Engourdissements dans le doigt.",
    "Aucune amélioration après 6 semaines d'attelle."
   ],

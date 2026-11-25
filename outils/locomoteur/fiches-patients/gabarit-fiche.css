@@ -1,0 +1,74 @@
+/* Fiche patient, version 2 : d'après la maquette du 25 novembre 2026 (arthrose du genou), au format Lettre (8,5 × 11 po).
+   Cartes à coins arrondis, titres vert forêt, « À éviter » et « Consultez » en brique ; --t : taille du texte, ajustée
+   page par page pour tenir sur une feuille ; --region : couleur de l'onglet de la région. */
+@page { size: 8.5in 11in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { background: #fbfaf6; color: #22302a; font-family: "Liberation Sans", Arial, Helvetica, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 8.5in; height: 11in; padding: 0.42in 0.5in 0.36in; display: flex; flex-direction: column; page-break-after: always; break-after: page; overflow: hidden; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.contenu { --t: 11pt; flex: 1 1 auto; min-height: 0; overflow: hidden; font-size: var(--t); line-height: 1.36; }
+h1, h2, h3 { font-family: "Liberation Serif", "Times New Roman", Georgia, serif; font-weight: 700; margin: 0; }
+
+/* En-tête */
+.sur { margin: 0 0 0.35em; text-align: center; font: 700 0.72em/1.3 "Liberation Sans", Arial, sans-serif; letter-spacing: 0.12em; color: #2f5a45; }
+.sur .region { display: inline-block; margin-right: 0.6em; padding: 0.12em 0.7em; border-radius: 999px; background: var(--region); color: #fff; letter-spacing: 0.08em; }
+.sur.verso { padding-bottom: 0.55em; border-bottom: 1px solid #cfd8d1; margin-bottom: 0.8em; }
+h1 { text-align: center; font-size: 2em; line-height: 1.1; color: #1f3d2e; }
+.sous-titre { margin: 0.1em 0 0.5em; padding-bottom: 0.45em; border-bottom: 1px solid #cfd8d1; text-align: center; font-size: 1.05em; font-style: italic; color: #4d6157; }
+
+/* Cartes */
+.carte { margin: 0 0 0.5em; padding: 0.5em 0.8em 0.48em; border: 1px solid #dfe5df; border-radius: 0.7em; background: #fff; }
+.carte h2 { margin: 0 0 0.22em; font-size: 1.06em; letter-spacing: 0.03em; text-transform: uppercase; color: #2f5a45; }
+.carte p { margin: 0; }
+.carte ul { margin: 0; padding-left: 1.15em; }
+.carte li { margin: 0 0 0.15em; }
+.carte li:last-child { margin-bottom: 0; }
+.deux { display: grid; grid-template-columns: 1fr 1fr; gap: 0 0.6em; }
+.deux > .carte { margin-bottom: 0.5em; }
+.en-bref { background: #eef3ef; border-color: #cfdcd3; }
+.en-bref ul { list-style: none; padding-left: 0; }
+.en-bref li { position: relative; padding-left: 1.3em; font-weight: 700; color: #22302a; }
+.en-bref li::before { content: "✓"; position: absolute; left: 0; color: #2f6b4b; }
+.eviter h2 { color: #9c3b1b; }
+.douleur { background: #eef3ef; border-color: #cfdcd3; }
+.douleur-tete { display: flex; align-items: center; justify-content: space-between; gap: 1em; }
+.echelle { width: 2.1in; flex: none; }
+.echelle .barre { height: 0.42em; border-radius: 999px; background: repeating-linear-gradient(90deg, #dfe5df 0 2px, #eef3ef 2px 6px); position: relative; }
+.echelle .barre span { position: absolute; left: 0; top: 0; bottom: 0; width: 30%; border-radius: 999px; background: #2f5a45; }
+.echelle .barre span::after { content: ""; position: absolute; right: -0.25em; top: -0.12em; width: 0.5em; height: 0.66em; border-radius: 999px; background: #c0532d; }
+.echelle .chiffres { display: flex; justify-content: space-between; margin-top: 0.15em; font: 700 0.62em/1 "Liberation Sans", Arial, sans-serif; color: #7b8a82; }
+.echelle .chiffres .seuil { color: #c0532d; }
+.consulter { background: #fdf2ee; border-color: #edcfc3; }
+.consulter h2 { color: #9c3b1b; }
+.consulter .precision { margin: -0.2em 0 0.3em; font-size: 0.86em; font-style: italic; color: #9c3b1b; }
+.deux-int { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.1em; }
+.bas { display: flex; align-items: center; gap: 1.2em; margin-top: 0.15em; }
+.bas > p:first-child { flex: 1 1 auto; }
+.duree { margin: 0; font-style: italic; color: #2f5a45; }
+.duree b { font-style: italic; }
+.signature { flex: none; margin: 0; text-align: right; }
+.signature img { height: 0.48in; }
+
+/* Verso : exercices */
+.materiel { margin: 0 0 0.6em; text-align: center; font-size: 0.95em; color: #2f5a45; }
+.exercices { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6em; }
+.exercice { padding: 0.55em 0.8em 0.6em; border: 1px solid #dfe5df; border-radius: 0.7em; background: #fff; font-size: 0.95em; }
+.exercice .dessin { display: flex; justify-content: center; margin-bottom: 0.3em; }
+.exercice .dessin img { height: var(--img, 0.95in); width: auto; max-width: 100%; object-fit: contain; }
+.exercice .sans-dessin { height: var(--img, 0.95in); width: 100%; display: flex; align-items: center; justify-content: center; padding: 0.4em; border: 1px dashed #cfd8d1; border-radius: 0.5em; font-size: 0.8em; color: #7b8a82; text-align: center; }
+.exercice h3 { display: flex; align-items: baseline; gap: 0.4em; font-size: 1.12em; color: #1f3d2e; }
+.exercice h3 .no { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 1.35em; height: 1.35em; border-radius: 50%; background: #2f5a45; color: #fff; font: 700 0.78em/1 "Liberation Sans", Arial, sans-serif; position: relative; top: -0.1em; }
+.exercice .phase { margin: 0.15em 0 0.25em; font-size: 0.82em; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #7d6536; }
+.exercice .but { margin: 0 0 0.25em; font-style: italic; color: #4d6157; }
+.exercice p { margin: 0 0 0.25em; }
+.exercice .dosage { padding: 0.35em 0.55em; border-radius: 0.45em; background: #eef3ef; }
+.exercice .prescrit { display: flex; align-items: baseline; gap: 0.4em; margin: 0.35em 0 0; padding-top: 0.35em; border-top: 1px dashed #cfd8d1; font-size: 0.88em; color: #2f5a45; }
+.exercice .prescrit span { margin-left: auto; color: #6b7a72; }
+.exercice .prescrit i { flex: 0 0 1.1in; border-bottom: 1px solid #9fb0a6; }
+.references { margin: 0; font-size: 0.82em; color: #4d6157; }
+.contenu > .bas:last-child { margin-top: 0.5em; }
+
+/* Pied */
+footer { flex: none; display: flex; justify-content: space-between; gap: 1em; margin-top: 0.1in; padding-top: 0.08in; border-top: 1px solid #cfd8d1; font: 7.5pt/1.3 "Liberation Sans", Arial, sans-serif; color: #6b7a72; }
+footer span:last-child { flex: none; }

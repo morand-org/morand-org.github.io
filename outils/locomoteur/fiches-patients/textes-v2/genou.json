@@ -1,0 +1,1793 @@
+[
+ {
+  "cle": "genou/sfp",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-01",
+  "no": 1,
+  "titre": "Syndrome fémoro-patellaire",
+  "sous_titre": "Douleur à l'avant du genou",
+  "titre_v1": "Douleur à l'avant du genou (syndrome fémoro-patellaire)",
+  "diagnostic": "Syndrome fémoro-patellaire",
+  "en_bref": [
+   "Le genou n'est ni usé ni abîmé : l'articulation de la rotule est devenue sensible à la charge.",
+   "Renforcer les hanches et les cuisses est le cœur du traitement.",
+   "Comptez 6 à 12 semaines d'exercices réguliers."
+  ],
+  "ce_que_vous_avez": "L'articulation entre la rotule et l'os de la cuisse est devenue sensible à la charge quand le genou plie (escaliers, squats, course, position assise prolongée). Le genou n'est ni usé ni abîmé. Le traitement le plus efficace est un programme d'exercices pour les hanches et les cuisses, combiné à un ajustement temporaire des activités qui réveillent la douleur.",
+  "pourquoi": [
+   "Hausse rapide des activités qui plient le genou (course, escaliers, squats).",
+   "Muscles des hanches et des cuisses peu renforcés.",
+   "Croissance à l'adolescence."
+  ],
+  "ce_qui_aide": [
+   "Renforcer les muscles des fesses (hanche) et de l'avant de la cuisse (quadriceps) : c'est le cœur du traitement.",
+   "Allonger et dégourdir les jambes régulièrement si vous restez assis longtemps.",
+   "Réduire temporairement les descentes d'escaliers rapides et la course en pente ; si vous courez, diminuer un peu la distance et faire des pas légèrement plus courts.",
+   "Demander à votre physiothérapeute un bandage adhésif de la rotule (taping) : il peut soulager à court terme pendant que vous commencez les exercices."
+  ],
+  "a_eviter": [
+   "Faire des squats profonds ou des fentes très basses tant qu'ils déclenchent une douleur de plus de 3 sur 10.",
+   "Rester assis les genoux très pliés pendant des heures sans bouger.",
+   "Laisser le genou rentrer vers l'intérieur dans les escaliers.",
+   "Arrêter toute activité en attendant que la douleur passe : le repos complet n'aide pas."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
+   "Anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Genou qui enfle beaucoup, devient chaud ou rouge."
+  ],
+  "medecin": [
+   "Blocage véritable du genou (impossible de le tendre ou de le plier).",
+   "Sensation que le genou lâche ou que la rotule se déboîte.",
+   "Aucune amélioration après 8 à 12 semaines d'exercices réguliers."
+  ],
+  "duree_habituelle": "Amélioration notable en 6 à 12 semaines d'exercices réguliers ; la récupération complète peut prendre plusieurs mois.",
+  "materiel": [
+   "élastique",
+   "marche ou escalier",
+   "mur"
+  ],
+  "exercices": [
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat à la largeur des hanches.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Passez au pont sur une seule jambe ou ajoutez un élastique autour des genoux.",
+    "erreur_frequente": "Cambrer le bas du dos au lieu de serrer les fessiers.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Lever de jambe sur le côté (moyen fessier)",
+    "position_de_depart": "Couché sur le côté, jambe du dessous légèrement pliée, jambe du dessus tendue dans l'axe du corps.",
+    "mouvement": "Montez la jambe du dessus vers le plafond en gardant le pied parallèle au sol (orteils pointés droit devant), puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions de chaque côté, 3 à 4 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux, puis autour des chevilles.",
+    "erreur_frequente": "Laisser le bassin rouler vers l'arrière ou pointer les orteils vers le plafond.",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer le muscle qui contrôle le genou.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Chaise au mur (amplitude confortable)",
+    "position_de_depart": "Debout, dos appuyé contre un mur, pieds avancés d'environ 30 à 40 cm et écartés à la largeur des hanches.",
+    "mouvement": "Glissez le dos vers le bas jusqu'à plier les genoux à environ 45 degrés, genoux au-dessus des chevilles et alignés avec le 2e orteil. Tenez 20 à 30 secondes, puis remontez.",
+    "dosage": "3 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Tenez 45 secondes, puis descendez un peu plus bas (jusqu'à 60 degrés) si la douleur reste à 3 sur 10 ou moins.",
+    "erreur_frequente": "Laisser les genoux rentrer l'un vers l'autre.",
+    "illustration": "Dessin au trait d'une personne dos au mur en position assise partielle, genoux bien alignés.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses sans irriter la rotule.",
+    "plus_facile": "Pliez moins, 15 secondes."
+   },
+   {
+    "nom": "Descente lente d'une marche (step-down)",
+    "position_de_depart": "Debout sur une marche basse (10 à 15 cm), une main près d'une rampe, une jambe dans le vide devant.",
+    "mouvement": "Pliez lentement le genou d'appui pour descendre effleurer le sol avec l'autre talon, en gardant le genou aligné avec le 2e orteil et le bassin horizontal, puis remontez.",
+    "dosage": "3 séries de 10 répétitions par jambe, 3 fois par semaine (à commencer quand les trois premiers exercices sont bien tolérés).",
+    "progression": "Utilisez une marche un peu plus haute quand le contrôle est parfait.",
+    "erreur_frequente": "Laisser le genou rentrer vers l'intérieur ou se laisser tomber sur le talon.",
+    "illustration": "Dessin au trait d'une personne debout sur une marche descendant lentement un talon vers le sol.",
+    "phase": "Pour progresser",
+    "but": "Pour contrôler le genou dans les escaliers.",
+    "plus_facile": "Utilisez une marche plus basse."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Willy RW et al., Patellofemoral Pain (guide de pratique clinique), J Orthop Sports Phys Ther, 2019",
+    "doi_ou_pmid": "PMID: 31475628"
+   }
+  ]
+ },
+ {
+  "cle": "genou/arthrose",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-02",
+  "no": 2,
+  "titre": "Gonarthrose (arthrose du genou)",
+  "sous_titre": "Douleur et raideur du genou",
+  "titre_v1": "Arthrose du genou",
+  "diagnostic": "Arthrose du genou",
+  "en_bref": [
+   "Bouger n'abîme pas votre genou : l'exercice est le traitement de base.",
+   "Perdre du poids, s'il y a lieu, diminue la douleur.",
+   "Les bienfaits durent tant que vous restez actif."
+  ],
+  "ce_que_vous_avez": "L'arthrose touche toute l'articulation du genou : le cartilage s'amincit et l'os, la membrane et les muscles autour du genou réagissent. Cela donne une raideur brève le matin (moins de 30 minutes) et une douleur à la marche ou dans les escaliers. Ce n'est pas une simple « usure » : bouger n'abîme pas votre genou. L'exercice régulier est le traitement de base : il renforce les muscles, entretient la mobilité et diminue la douleur. Ses bienfaits durent tant que vous restez actif.",
+  "pourquoi": [
+   "Âge et facteurs héréditaires.",
+   "Ancienne blessure du genou.",
+   "Surpoids et travail physique exigeant."
+  ],
+  "ce_qui_aide": [
+   "Marcher, faire du vélo stationnaire ou de l'aquaforme régulièrement.",
+   "Renforcer les muscles des cuisses et des fesses 2 à 3 fois par semaine.",
+   "Bouger doucement le genou le matin avant de vous lever.",
+   "Si vous avez un surplus de poids, perdre au moins 5 % de votre poids (environ 4 à 5 kg si vous pesez 90 kg) diminue la douleur ; plus la perte est importante, plus le bénéfice est grand."
+  ],
+  "a_eviter": [
+   "Rester inactif par peur d'abîmer votre genou : l'inactivité augmente la raideur, la faiblesse et la douleur.",
+   "S'agenouiller longtemps sur un sol dur.",
+   "Faire des activités avec chocs violents (sauts) quand le genou est enflé."
+  ],
+  "soulager": [
+   "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
+   "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Genou soudainement très enflé, rouge et chaud, ou fièvre (urgence)."
+  ],
+  "medecin": [
+   "Blocage mécanique complet du genou.",
+   "Douleur constante la nuit ou au repos, ou raideur du matin qui dure plus de 30 minutes.",
+   "Perte importante d'autonomie à la marche malgré 3 mois d'exercices."
+  ],
+  "duree_habituelle": "Amélioration notable en 8 à 12 semaines ; les bienfaits se maintiennent si vous continuez à bouger régulièrement.",
+  "materiel": [
+   "chaise",
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Flexion et extension douces assises",
+    "position_de_depart": "Assis sur une chaise, pieds au sol.",
+    "mouvement": "Tendez complètement une jambe devant vous en serrant la cuisse 3 secondes, puis repliez le genou le plus loin possible sous la chaise.",
+    "dosage": "10 répétitions par jambe, 2 fois par jour (idéal au réveil pour chasser la raideur).",
+    "progression": "Tenez 5 secondes jambe tendue, puis ajoutez un poids léger (0,5 à 1 kg) à la cheville.",
+    "erreur_frequente": "Ne pas tendre le genou au maximum ou se pencher vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne assise sur une chaise tendant une jambe devant elle.",
+    "phase": "Dès maintenant",
+    "but": "Pour dégourdir le genou et chasser la raideur.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut, puis essayez sur une seule jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Assis-debout contrôlé",
+    "position_de_depart": "Assis sur une chaise solide, pieds à la largeur des hanches.",
+    "mouvement": "Penchez légèrement le buste en avant, levez-vous sans vous aider des mains si possible, puis rasseyez-vous lentement en 3 secondes.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Effleurez la chaise sans vous asseoir avant de remonter, puis utilisez une chaise plus basse ou tenez un poids contre la poitrine.",
+    "erreur_frequente": "Se laisser tomber sur la chaise ou laisser les genoux rentrer vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne se levant et se rasseyant lentement d'une chaise.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses et faciliter les gestes du quotidien.",
+    "plus_facile": "Utilisez une chaise plus haute ou aidez-vous des mains."
+   },
+   {
+    "nom": "Vélo stationnaire (ou marche à plat)",
+    "position_de_depart": "Assis sur un vélo stationnaire, selle assez haute pour que la jambe soit presque tendue en bas du coup de pédale.",
+    "mouvement": "Pédalez à résistance légère et à rythme régulier ; vous devez pouvoir parler sans être essoufflé. Sans vélo, marchez à plat d'un bon pas.",
+    "dosage": "15 à 25 minutes, 3 à 5 fois par semaine.",
+    "progression": "Augmentez doucement la durée (viser 30 minutes), puis la résistance.",
+    "erreur_frequente": "Régler la selle trop bas, ce qui plie trop le genou.",
+    "illustration": "Dessin au trait d'une personne pédalant calmement sur un vélo stationnaire.",
+    "phase": "Dès maintenant",
+    "but": "Pour bouger le genou sans le charger.",
+    "plus_facile": "Pédalez 5 minutes, sans résistance."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Lawford BJ et al., Exercise for osteoarthritis of the knee, Cochrane Database Syst Rev, 2024",
+    "doi_ou_pmid": "PMID: 39625083"
+   },
+   {
+    "texte": "Bannuru RR et al., OARSI guidelines, Osteoarthritis Cartilage, 2019",
+    "doi_ou_pmid": "PMID: 31278997"
+   }
+  ]
+ },
+ {
+  "cle": "genou/menisque",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-03",
+  "no": 3,
+  "titre": "Déchirure méniscale",
+  "sous_titre": "Lésion du ménisque, le coussin du genou",
+  "titre_v1": "Lésion du ménisque (coussin du genou)",
+  "diagnostic": "Déchirure méniscale (sans blocage du genou)",
+  "en_bref": [
+   "Le ménisque présente une fissure, souvent liée à l'âge.",
+   "Sans blocage, les exercices donnent d'aussi bons résultats que la chirurgie.",
+   "Comptez environ 3 mois d'exercices bien faits."
+  ],
+  "ce_que_vous_avez": "Un des deux petits coussins amortisseurs de votre genou (le ménisque) présente une fissure. Quand la fissure est apparue progressivement, sans gros accident, et que le genou ne se bloque pas (situation la plus fréquente après 35 à 40 ans), les études montrent qu'un programme d'exercices d'environ 12 semaines donne d'aussi bons résultats que la chirurgie, sans les risques d'une opération. Chez l'adulte plus jeune dont le genou ne bloque pas, commencer par les exercices est aussi une option à discuter avec votre médecin. Une opération reste possible plus tard si les exercices ne suffisent pas.",
+  "pourquoi": [
+   "Usure normale du ménisque avec l'âge.",
+   "Torsion du genou, souvent en se relevant d'une position accroupie.",
+   "Travail à genoux ou accroupi."
+  ],
+  "ce_qui_aide": [
+   "Renforcer progressivement les muscles de la cuisse et des hanches, 2 à 3 fois par semaine pendant au moins 12 semaines.",
+   "Faire du vélo stationnaire sans résistance forte pour garder le genou souple.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après l'effort si le genou est un peu enflé.",
+   "Rester actif dans les limites de la règle de douleur."
+  ],
+  "a_eviter": [
+   "S'accroupir complètement ou s'asseoir sur les talons.",
+   "Pivoter brusquement sur le genou douloureux, pied bloqué au sol (sports de pivot).",
+   "Forcer l'extension ou la flexion si le genou semble bloqué."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, si le genou est enflé.",
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Genou bloqué (impossible de le tendre complètement) : avis orthopédique rapide."
+  ],
+  "medecin": [
+   "Gonflement important qui revient après chaque marche.",
+   "Sensation fréquente que le genou lâche ou se dérobe.",
+   "Pas d'amélioration après 12 semaines (3 mois) d'exercices bien faits."
+  ],
+  "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines ; poursuivre le programme au moins 12 semaines.",
+  "materiel": [
+   "serviette",
+   "marche ou escalier"
+  ],
+  "exercices": [
+   {
+    "nom": "Contraction statique du quadriceps",
+    "position_de_depart": "Assis, jambes allongées devant vous, une petite serviette roulée sous le genou.",
+    "mouvement": "Écrasez la serviette avec l'arrière du genou en serrant fort le dessus de la cuisse pendant 5 secondes (le talon peut décoller légèrement), puis relâchez.",
+    "dosage": "3 séries de 10 répétitions, 2 fois par jour.",
+    "progression": "Passez à l'élévation de la jambe tendue.",
+    "erreur_frequente": "Serrer la fesse ou soulever la hanche au lieu de contracter la cuisse.",
+    "illustration": "Dessin au trait d'une jambe tendue avec une serviette roulée sous le genou.",
+    "phase": "Dès maintenant",
+    "but": "Pour réveiller le muscle de la cuisse.",
+    "plus_facile": "Serrez plus doucement, 3 secondes."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Mini-squat contrôlé",
+    "position_de_depart": "Debout, pieds à la largeur des épaules.",
+    "mouvement": "Pliez les genoux jusqu'à environ 45 à 60 degrés (pas plus bas), genoux alignés avec les orteils, puis remontez.",
+    "dosage": "3 séries de 10 à 12 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez des montées lentes sur une marche basse (step-up).",
+    "erreur_frequente": "Descendre en squat complet ou laisser le genou rentrer vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne réalisant un demi-squat contrôlé.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses.",
+    "plus_facile": "Pliez moins, avec un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Kise NJ et al., BMJ, 2016",
+    "doi_ou_pmid": "PMID: 27440192"
+   },
+   {
+    "texte": "Logerstedt DS et al., Meniscal and Articular Cartilage Lesions (guide de pratique clinique), J Orthop Sports Phys Ther, 2018",
+    "doi_ou_pmid": "PMID: 29385940"
+   }
+  ]
+ },
+ {
+  "cle": "genou/lca",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-04",
+  "no": 4,
+  "titre": "Rupture du ligament croisé antérieur (LCA)",
+  "sous_titre": "Déchirure du ligament croisé antérieur : première phase",
+  "titre_v1": "Déchirure du ligament croisé antérieur (première phase)",
+  "diagnostic": "Rupture du LCA",
+  "en_bref": [
+   "Le ligament croisé antérieur est déchiré.",
+   "Avec ou sans chirurgie plus tard, la première étape est la même : retrouver l'extension et réveiller la cuisse.",
+   "Le retour aux sports avec pivots se décide avec votre médecin."
+  ],
+  "ce_que_vous_avez": "Le ligament croisé antérieur, qui stabilise le genou lors des pivots, est déchiré. Que vous ayez une chirurgie plus tard ou non, la première étape est la même et elle est essentielle : faire dégonfler le genou, retrouver l'extension complète (jambe bien droite), réveiller les muscles de la cuisse et marcher sans boiter.",
+  "pourquoi": [
+   "Pivot, changement de direction ou réception de saut, souvent sans contact.",
+   "Sports comme le soccer, le ski, le basketball ou le hockey."
+  ],
+  "ce_qui_aide": [
+   "Mettre de la glace 15 minutes (avec un linge sur la peau) et surélever la jambe pour diminuer l'enflure.",
+   "Utiliser des béquilles au début si vous boitez, puis marcher normalement dès que possible.",
+   "Retrouver rapidement la capacité de tendre complètement le genou.",
+   "Commencer un suivi en physiothérapie et en orthopédie pour planifier la suite."
+  ],
+  "a_eviter": [
+   "Reprendre un sport de pivot, de saut ou de changement de direction (risque d'abîmer les ménisques et le cartilage).",
+   "Dormir avec un oreiller sous le genou plié (placez-le plutôt sous le talon pour garder la jambe droite).",
+   "Forcer la flexion quand le genou est très enflé."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou si le genou enfle davantage, réduisez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Gonflement énorme et très douloureux, ou fièvre.",
+   "Engourdissements, pied qui tombe, ou mollet douloureux, enflé et chaud (urgence)."
+  ],
+  "medecin": [
+   "Genou qui reste bloqué, impossible à tendre complètement.",
+   "Épisodes répétés où le genou lâche dans les activités de tous les jours."
+  ],
+  "duree_habituelle": "Phase initiale de 4 à 6 semaines pour dégonfler le genou et retrouver la mobilité et la force de base. La réadaptation complète dure plusieurs mois ; après une reconstruction, le retour aux sports de pivot se fait rarement avant 9 à 12 mois et seulement après avoir réussi des tests de force et de saut.",
+  "materiel": [
+   "serviette",
+   "poids léger ou bouteille d'eau",
+   "coussin"
+  ],
+  "exercices": [
+   {
+    "nom": "Extension passive du genou (talon surélevé)",
+    "position_de_depart": "Assis ou couché, talon posé sur une serviette roulée ou un petit coussin, de façon que l'arrière du genou soit dans le vide.",
+    "mouvement": "Relâchez complètement la cuisse et laissez la gravité redresser le genou.",
+    "dosage": "5 minutes, 3 fois par jour.",
+    "progression": "Appuyez très doucement avec les mains juste au-dessus de la rotule si c'est confortable.",
+    "erreur_frequente": "Placer le coussin sous le genou au lieu du talon.",
+    "illustration": "Dessin au trait d'une jambe allongée avec une serviette roulée sous la cheville pour laisser le genou s'étendre.",
+    "phase": "Dès maintenant",
+    "but": "Pour retrouver l'extension complète du genou.",
+    "plus_facile": "Tenez 2 minutes."
+   },
+   {
+    "nom": "Réveil du quadriceps et lever de jambe tendue",
+    "position_de_depart": "Couché sur le dos, l'autre genou plié, la jambe blessée bien tendue.",
+    "mouvement": "Serrez fort la cuisse pour verrouiller le genou droit, puis levez la jambe tendue à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 2 fois par jour.",
+    "progression": "Enchaînez avec les mini-squats sur deux pieds dès que le genou est dégonflé.",
+    "erreur_frequente": "Laisser le genou plier légèrement en levant la jambe (signe que le quadriceps n'est pas encore assez réveillé).",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant une jambe parfaitement tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour réveiller la cuisse.",
+    "plus_facile": "Faites seulement la contraction, sans lever la jambe."
+   },
+   {
+    "nom": "Glissement du talon pour plier le genou",
+    "position_de_depart": "Couché sur le dos ou assis, jambe allongée.",
+    "mouvement": "Faites glisser doucement le talon vers la fesse, en vous aidant au besoin d'une serviette passée sous le pied, sans forcer.",
+    "dosage": "10 répétitions, 3 fois par jour.",
+    "progression": "Passez au vélo stationnaire (mouvements de balancier, puis tours complets) dès que le genou plie à environ 100 à 110 degrés.",
+    "erreur_frequente": "Forcer brutalement la flexion.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos glissant le talon vers la fesse.",
+    "phase": "Dès maintenant",
+    "but": "Pour retrouver la flexion du genou.",
+    "plus_facile": "Pliez moins loin."
+   },
+   {
+    "nom": "Transferts de poids et mini-squats sur deux jambes",
+    "position_de_depart": "Debout devant un comptoir, mains en appui léger.",
+    "mouvement": "Pliez doucement les deux genoux à 30 à 45 degrés en répartissant le poids également sur les deux jambes, puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour (dès que vous marchez sans boiter).",
+    "progression": "Travaillez l'équilibre sur la jambe blessée, près d'un appui.",
+    "erreur_frequente": "Mettre tout le poids sur la jambe saine.",
+    "illustration": "Dessin au trait d'une personne debout mains sur un comptoir réalisant un petit squat symétrique.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour reprendre l'appui et la force.",
+    "plus_facile": "Gardez les mains sur un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017",
+    "doi_ou_pmid": "PMID: 29089004"
+   },
+   {
+    "texte": "van Melick N et al., Br J Sports Med, 2016",
+    "doi_ou_pmid": "PMID: 27539507"
+   }
+  ]
+ },
+ {
+  "cle": "genou/lcp",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-05",
+  "no": 5,
+  "titre": "Entorse du ligament croisé postérieur (LCP)",
+  "sous_titre": "Entorse d'un ligament au centre du genou",
+  "titre_v1": "Entorse du ligament croisé postérieur (LCP)",
+  "diagnostic": "Entorse du LCP",
+  "en_bref": [
+   "Le ligament à l'arrière du centre du genou est étiré ou partiellement déchiré.",
+   "La plupart de ces entorses guérissent sans chirurgie.",
+   "Renforcer la cuisse est la clé du traitement."
+  ],
+  "ce_que_vous_avez": "Le ligament situé à l'arrière du centre du genou (le LCP), qui empêche le tibia de glisser vers l'arrière, a été étiré ou partiellement déchiré, souvent après un choc sur l'avant du genou plié. Pour la majorité des entorses isolées, renforcer solidement le muscle du devant de la cuisse (quadriceps) permet de bien compenser sans chirurgie.",
+  "pourquoi": [
+   "Choc sur le devant du tibia, genou plié (tableau de bord, chute sur le genou)."
+  ],
+  "ce_qui_aide": [
+   "Porter l'orthèse prescrite par votre médecin pendant toute la durée indiquée (souvent plusieurs semaines).",
+   "Renforcer en priorité le quadriceps (devant de la cuisse).",
+   "Au repos, placer un petit coussin sous le mollet pour soutenir le tibia (pas sous le talon seul, ni derrière le genou).",
+   "Reprendre la course et le sport par étapes avec votre physiothérapeute."
+  ],
+  "a_eviter": [
+   "Faire travailler les muscles de l'arrière de la cuisse (ischio-jambiers) : pas de flexion active du genou pendant au moins 6 semaines, et pas de flexion contre résistance (machine, élastique) avant environ 3 à 4 mois, sauf avis de votre physiothérapeute.",
+   "Plier le genou à plus de 90 degrés pendant les 2 premières semaines, ou descendre à plus de 70 degrés en squat pendant les premières semaines.",
+   "S'agenouiller sur l'avant du tibia ou pousser le genou en hyperextension.",
+   "Descendre des pentes raides au début."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Engourdissements, picotements dans le pied, pied froid ou pâle, ou pied qui tombe après le choc (urgence)."
+  ],
+  "medecin": [
+   "Sensation que le genou est très instable ou part vers l'arrière ou sur le côté.",
+   "Gonflement qui ne diminue pas après 2 semaines.",
+   "Pas d'amélioration après 3 mois de physiothérapie."
+  ],
+  "duree_habituelle": "Reprise des activités quotidiennes en 6 à 12 semaines ; course vers 3 mois et retour complet au sport souvent entre 4 et 6 mois.",
+  "materiel": [
+   "marche ou escalier",
+   "mur",
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "position_de_depart": "Couché sur le dos, jambe blessée tendue, l'autre genou plié.",
+    "mouvement": "Serrez fort le dessus de la cuisse pour verrouiller le genou droit, puis levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 2 fois par jour.",
+    "progression": "Ajoutez un petit poids à la cheville.",
+    "erreur_frequente": "Relâcher la cuisse et laisser le genou plier pendant la levée.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant une jambe parfaitement tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la cuisse, qui protège le ligament.",
+    "plus_facile": "Faites seulement la contraction."
+   },
+   {
+    "nom": "Chaise au mur (amplitude modérée)",
+    "position_de_depart": "Debout, dos au mur, pieds avancés d'environ 30 à 40 cm.",
+    "mouvement": "Glissez le dos le long du mur jusqu'à plier les genoux à 45 degrés, tenez 20 à 30 secondes, puis remontez.",
+    "dosage": "3 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Tenez 45 secondes, puis descendez jusqu'à 60 degrés.",
+    "erreur_frequente": "Descendre trop bas (au-delà de 70 degrés) dans les premières semaines.",
+    "illustration": "Dessin au trait d'une personne dos au mur en position de chaise partielle.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses.",
+    "plus_facile": "Pliez moins, 15 secondes."
+   },
+   {
+    "nom": "Montée d'une marche (step-up)",
+    "position_de_depart": "Debout face à une marche basse, pied du côté blessé posé sur la marche.",
+    "mouvement": "Poussez dans le pied pour monter sur la marche en serrant la cuisse, puis redescendez lentement en 3 secondes.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Augmentez la hauteur de la marche après 4 à 6 semaines.",
+    "erreur_frequente": "Laisser le genou partir vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne montant lentement une marche d'escalier.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer la jambe dans les escaliers.",
+    "plus_facile": "Utilisez une marche plus basse."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Pierce CM et al., Knee Surg Sports Traumatol Arthrosc, 2013",
+    "doi_ou_pmid": "PMID: 22484415"
+   },
+   {
+    "texte": "Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017",
+    "doi_ou_pmid": "PMID: 29089004"
+   }
+  ]
+ },
+ {
+  "cle": "genou/collat",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-06",
+  "no": 6,
+  "titre": "Entorse d'un ligament collatéral du genou",
+  "sous_titre": "Entorse d'un ligament sur le côté du genou",
+  "titre_v1": "Entorse d'un ligament sur le côté du genou",
+  "diagnostic": "Entorse légère à modérée d'un ligament collatéral (médial/LLI ou latéral/LLE)",
+  "en_bref": [
+   "Un ligament sur le côté du genou est étiré ou partiellement déchiré.",
+   "Les entorses légères à modérées guérissent bien sans chirurgie.",
+   "Comptez quelques semaines avant le retour au sport."
+  ],
+  "ce_que_vous_avez": "Le ligament situé sur le côté intérieur (le plus souvent) ou extérieur de votre genou a été étiré ou partiellement déchiré après une torsion ou un choc sur le côté. Le ligament intérieur guérit presque toujours sans chirurgie, avec un peu de protection et un renforcement progressif. Les entorses légères à modérées du ligament extérieur guérissent aussi sans opération ; une déchirure complète du côté extérieur doit par contre être évaluée rapidement en orthopédie. Cette fiche s'adresse aux entorses légères à modérées.",
+  "pourquoi": [
+   "Choc sur le côté du genou ou torsion (hockey, soccer, ski)."
+  ],
+  "ce_qui_aide": [
+   "Porter l'orthèse articulée prescrite par votre médecin si l'entorse est modérée (souvent environ 6 semaines).",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après les activités les premiers jours.",
+   "Faire du vélo stationnaire sans résistance forte pour garder le genou souple.",
+   "Renforcer les cuisses et les hanches avant de reprendre les sports de pivot."
+  ],
+  "a_eviter": [
+   "Faire des mouvements qui écartent ou tordent le côté blessé du genou (par exemple la brasse pour le ligament intérieur).",
+   "Courir avec des changements de direction avant d'avoir retrouvé la force.",
+   "Forcer l'extension ou la flexion si le côté du genou tire fort."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Engourdissement sur le dessus du pied ou difficulté à relever le pied ou les orteils (surtout après une blessure du côté extérieur) : urgence."
+  ],
+  "medecin": [
+   "Genou qui reste instable sur le côté, même jambe tendue.",
+   "Blocage mécanique du genou.",
+   "Douleur ou instabilité qui ne diminue pas après 4 semaines."
+  ],
+  "duree_habituelle": "Entorse légère : 2 à 4 semaines. Entorse modérée : 4 à 6 semaines. Entorse plus sévère du ligament intérieur : 6 à 8 semaines ou plus.",
+  "materiel": [
+   "élastique",
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Mobilité douce en flexion-extension",
+    "position_de_depart": "Assis ou couché sur le dos.",
+    "mouvement": "Pliez et tendez doucement le genou dans la zone confortable, en gardant le pied droit, sans tourner la jambe.",
+    "dosage": "10 répétitions, 2 à 3 fois par jour.",
+    "progression": "Passez au vélo stationnaire léger dès que vous pouvez faire un tour de pédale complet sans douleur.",
+    "erreur_frequente": "Tourner le pied vers l'extérieur en pliant le genou.",
+    "illustration": "Dessin au trait d'une personne assise pliant et tendant doucement le genou dans l'axe.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder le genou mobile.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "position_de_depart": "Couché sur le dos, jambe blessée tendue, l'autre genou plié.",
+    "mouvement": "Serrez la cuisse, verrouillez le genou droit et levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Ajoutez un petit poids à la cheville.",
+    "erreur_frequente": "Laisser le genou plier.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant la jambe tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la cuisse.",
+    "plus_facile": "Faites seulement la contraction."
+   },
+   {
+    "nom": "Mini-squats contrôlés dans l'axe",
+    "position_de_depart": "Debout devant un miroir, pieds à la largeur des hanches.",
+    "mouvement": "Pliez les genoux à 45 degrés en gardant les genoux alignés avec le 2e orteil, puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez aux fentes contrôlées, puis aux pas latéraux avec élastique.",
+    "erreur_frequente": "Laisser le genou blessé rentrer vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne réalisant un demi-squat devant un miroir, genoux bien alignés.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses dans l'axe.",
+    "plus_facile": "Pliez moins, avec un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017",
+    "doi_ou_pmid": "PMID: 29089004"
+   },
+   {
+    "texte": "LaPrade RF et al., consensus international sur le point d'angle postéro-latéral, Arthroscopy, 2025",
+    "doi_ou_pmid": "PMID: 40414466"
+   }
+  ]
+ },
+ {
+  "cle": "genou/rotule",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-07",
+  "no": 7,
+  "titre": "Instabilité ou luxation de la rotule",
+  "sous_titre": "Rotule qui se déplace ou est instable",
+  "titre_v1": "Rotule qui se déplace ou est instable",
+  "diagnostic": "Instabilité ou luxation de la rotule",
+  "en_bref": [
+   "La rotule est sortie de sa glissière ou a tendance à partir sur le côté.",
+   "Renforcer les fessiers et les cuisses la stabilise.",
+   "Une chirurgie est discutée si les épisodes se répètent."
+  ],
+  "ce_que_vous_avez": "Votre rotule est sortie de sa glissière (luxation) ou donne l'impression de vouloir partir sur le côté. Après la courte période d'attelle ou de repos conseillée par votre médecin, renforcer le devant de la cuisse et les muscles des hanches aide à stabiliser la rotule. Environ une personne sur trois refait une luxation dans les années qui suivent, surtout chez les plus jeunes : si cela se reproduit, reconsultez.",
+  "pourquoi": [
+   "Pivot, genou plié, sans contact.",
+   "Forme particulière de la rotule ou de sa glissière.",
+   "Ligaments souples."
+  ],
+  "ce_qui_aide": [
+   "Suivre les consignes d'attelle de votre médecin dans les premières semaines.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après les exercices si le genou est sensible.",
+   "Renforcer le quadriceps et les fessiers pour stabiliser le genou.",
+   "Garder le genou bien aligné avec le pied dans les escaliers et les squats."
+  ],
+  "a_eviter": [
+   "Pivoter sur le pied avec le genou légèrement plié (ce mouvement pousse la rotule vers l'extérieur).",
+   "Faire des squats profonds tant que le contrôle du genou n'est pas solide.",
+   "Reprendre les sports de pivot, de saut ou de contact sans feu vert médical."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Arrêtez immédiatement tout mouvement qui donne l'impression que la rotule va glisser.",
+  "urgence": [
+   "Nouvelle luxation ou nouvel épisode où la rotule part sur le côté.",
+   "Gonflement très important et rapide du genou."
+  ],
+  "medecin": [
+   "Blocage ou accrochage dans le genou (fragment de cartilage ou d'os possible).",
+   "Sensation persistante que la rotule va se déboîter malgré 3 mois d'exercices."
+  ],
+  "duree_habituelle": "Réadaptation de base en 6 à 12 semaines ; retour aux sports de pivot ou de contact habituellement pas avant environ 3 mois, une fois la force retrouvée.",
+  "materiel": [
+   "élastique",
+   "mur",
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Contraction statique du quadriceps et lever de jambe tendue",
+    "position_de_depart": "Couché sur le dos, jambe atteinte tendue, l'autre genou plié.",
+    "mouvement": "Serrez la cuisse pour verrouiller le genou droit et levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Ajoutez un petit poids à la cheville.",
+    "erreur_frequente": "Laisser la pointe du pied tourner vers l'extérieur.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la cuisse.",
+    "plus_facile": "Faites seulement la contraction."
+   },
+   {
+    "nom": "Lever de jambe sur le côté (fessiers)",
+    "position_de_depart": "Couché sur le côté non atteint, jambe du dessous légèrement pliée, jambe du dessus tendue.",
+    "mouvement": "Montez la jambe du dessus vers le plafond en gardant le pied parallèle au sol, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux.",
+    "erreur_frequente": "Laisser le bassin rouler vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers, qui gardent le genou dans l'axe.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Chaise au mur, genoux alignés (petite amplitude)",
+    "position_de_depart": "Debout, dos au mur, pieds avancés d'environ 30 cm et écartés à la largeur des hanches.",
+    "mouvement": "Glissez le dos vers le bas jusqu'à plier les genoux à environ 30 à 45 degrés, genoux alignés avec le 2e orteil. Tenez 20 secondes et remontez.",
+    "dosage": "3 répétitions, 3 fois par semaine.",
+    "progression": "Placez un élastique léger autour des genoux et gardez-les écartés ; n'augmentez l'amplitude que si la rotule est parfaitement stable.",
+    "erreur_frequente": "Laisser les genoux rentrer l'un vers l'autre ou descendre trop bas trop tôt.",
+    "illustration": "Dessin au trait d'une personne dos au mur en chaise partielle, genoux alignés avec les pieds.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses, genoux bien alignés.",
+    "plus_facile": "Pliez moins, 15 secondes."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Watson R et al., Lateral Patellar Dislocation: rehabilitation practice guidelines, JBJS Rev, 2022",
+    "doi_ou_pmid": "PMID: 35748823"
+   }
+  ]
+ },
+ {
+  "cle": "genou/tendino",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-08",
+  "no": 8,
+  "titre": "Tendinopathie rotulienne ou quadricipitale",
+  "sous_titre": "Tendinite sous ou au-dessus de la rotule",
+  "titre_v1": "Tendinopathie (« tendinite ») sous ou au-dessus de la rotule",
+  "diagnostic": "Tendinopathie rotulienne ou quadricipitale",
+  "en_bref": [
+   "Le tendon sous ou au-dessus de la rotule est irrité par les sauts ou la musculation.",
+   "Le repos complet guérit mal ; un renforcement progressif est le traitement.",
+   "Comptez souvent 3 mois ou plus."
+  ],
+  "ce_que_vous_avez": "Le tendon situé juste sous la rotule (ou juste au-dessus) est devenu douloureux à force de sauts, de sprints ou de musculation. Le repos complet ne guérit pas bien ces tendons : ils ont besoin d'exercices lents, contrôlés et de plus en plus chargés pour redevenir résistants. La guérison est lente : comptez plusieurs mois.",
+  "pourquoi": [
+   "Sauts et sprints répétés (volleyball, basketball).",
+   "Hausse rapide de l'entraînement."
+  ],
+  "ce_qui_aide": [
+   "Réduire temporairement les sauts et les sprints (garder le vélo ou la marche s'ils sont bien tolérés).",
+   "Renforcer la cuisse avec des exercices lents et de plus en plus lourds.",
+   "Réintroduire les sauts par étapes, seulement quand les exercices lents chargés provoquent une douleur de 3 sur 10 ou moins.",
+   "Utiliser une sangle sous-rotulienne si elle vous soulage pendant l'activité (effet de courte durée ; elle ne guérit pas le tendon).",
+   "Être régulier et patient : les tendons s'adaptent lentement."
+  ],
+  "a_eviter": [
+   "Continuer les sauts intenses (basketball, volleyball) malgré une douleur qui empire le lendemain.",
+   "Étirer fort l'avant de la cuisse si cela réveille la douleur du tendon.",
+   "Arrêter toute activité pendant des mois, puis reprendre à fond d'un coup."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
+   "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
+   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice et si elle n'augmente pas d'une semaine à l'autre. Sinon, réduisez la charge.",
+  "urgence": [
+   "Claquement brutal avec impossibilité de tendre le genou (rupture du tendon : urgence)."
+  ],
+  "medecin": [
+   "Gonflement important, rougeur ou chaleur sur le tendon.",
+   "Douleur qui empire malgré la diminution des sauts.",
+   "Aucun progrès après 12 semaines d'exercices réguliers."
+  ],
+  "duree_habituelle": "Premiers progrès en 6 à 12 semaines de renforcement progressif ; la récupération complète et le retour aux sauts prennent souvent 3 à 6 mois, parfois plus.",
+  "materiel": [
+   "chaise",
+   "mur",
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Chaise au mur statique (isométrique)",
+    "position_de_depart": "Debout, dos appuyé contre un mur, pieds avancés d'environ 40 à 50 cm.",
+    "mouvement": "Glissez le dos pour plier les genoux à environ 60 degrés et tenez la position immobile pendant 30 à 45 secondes.",
+    "dosage": "4 à 5 répétitions avec 1 à 2 minutes de repos entre chacune, 1 fois par jour. Cet exercice peut soulager la douleur pendant un court moment : il peut être fait avant le sport.",
+    "progression": "Passez à la chaise au mur sur une jambe.",
+    "erreur_frequente": "Raccourcir les temps de repos ou laisser les genoux avancer au-delà des orteils.",
+    "illustration": "Dessin au trait d'un sportif dos au mur maintenant la position de la chaise.",
+    "phase": "Dès maintenant",
+    "but": "Pour calmer la douleur du tendon.",
+    "plus_facile": "Pliez moins, 20 secondes."
+   },
+   {
+    "nom": "Squat lent contrôlé",
+    "position_de_depart": "Debout, pieds à la largeur des épaules.",
+    "mouvement": "Descendez lentement en 3 secondes jusqu'à plier les genoux à 60 à 75 degrés (puis, au fil des semaines, jusqu'à 90 degrés), et remontez lentement en 3 secondes.",
+    "dosage": "3 à 4 séries de 10 à 15 répétitions, 3 fois par semaine (un jour sur deux).",
+    "progression": "Quand 15 répétitions sont faciles, ajoutez de la charge (sac à dos lesté, haltère contre la poitrine, presse à cuisses en salle) et diminuez peu à peu jusqu'à 6 à 8 répétitions plus lourdes. C'est cette charge lourde et lente qui renforce le tendon.",
+    "erreur_frequente": "Faire les répétitions trop vite ou rester toujours au poids du corps.",
+    "illustration": "Dessin au trait d'un sportif réalisant un squat très lent, dos droit.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer le tendon.",
+    "plus_facile": "Descendez moins bas."
+   },
+   {
+    "nom": "Fente lente contrôlée",
+    "position_de_depart": "Debout, un grand pas devant l'autre, mains sur les hanches.",
+    "mouvement": "Descendez le genou arrière vers le sol en 3 secondes en gardant le genou avant aligné avec le pied, puis remontez en 3 secondes.",
+    "dosage": "3 séries de 8 à 10 répétitions par jambe, 3 fois par semaine.",
+    "progression": "Ajoutez des poids dans les mains quand les 3 séries sont bien tolérées.",
+    "erreur_frequente": "Laisser le genou avant rentrer vers l'intérieur.",
+    "illustration": "Dessin au trait d'un sportif réalisant une fente contrôlée.",
+    "phase": "Pour progresser",
+    "but": "Pour préparer le retour aux sauts.",
+    "plus_facile": "Faites une plus petite fente, avec un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Kongsgaard M et al., Scand J Med Sci Sports, 2009",
+    "doi_ou_pmid": "PMID: 19793213"
+   },
+   {
+    "texte": "Breda SJ et al., Br J Sports Med, 2021",
+    "doi_ou_pmid": "PMID: 33219115"
+   }
+  ]
+ },
+ {
+  "cle": "genou/hoffa",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-09",
+  "no": 9,
+  "titre": "Syndrome du coussinet adipeux (maladie de Hoffa)",
+  "sous_titre": "Irritation du coussinet sous la rotule",
+  "titre_v1": "Irritation du coussinet sous la rotule (syndrome de Hoffa)",
+  "diagnostic": "Syndrome du coussinet adipeux (Hoffa)",
+  "en_bref": [
+   "Un petit coussin de graisse sous la rotule est pincé quand le genou se verrouille.",
+   "Éviter de verrouiller le genou vers l'arrière le soulage.",
+   "Le renforcement des hanches et des cuisses aide."
+  ],
+  "ce_que_vous_avez": "Un petit coussin de graisse très sensible, situé juste derrière le tendon sous la rotule, est pincé quand vous verrouillez le genou tout droit ou vers l'arrière. Éviter de bloquer le genou en hyperextension et renforcer les cuisses et les hanches calment habituellement ce pincement.",
+  "pourquoi": [
+   "Genou verrouillé vers l'arrière en position debout.",
+   "Coup sur le devant du genou."
+  ],
+  "ce_qui_aide": [
+   "Garder le genou très légèrement déverrouillé (ne pas le pousser vers l'arrière) quand vous êtes debout.",
+   "Renforcer les fessiers et les cuisses sans verrouiller le genou.",
+   "Demander à votre physiothérapeute un bandage adhésif (taping) qui décharge le coussinet : il peut soulager.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sous la rotule après les activités.",
+   "Essayer des chaussures avec un léger talon plutôt que complètement plates, si cela vous soulage."
+  ],
+  "a_eviter": [
+   "Verrouiller les genoux fort vers l'arrière en position debout.",
+   "Faire des levers de jambe tendue en poussant l'arrière du genou vers le sol.",
+   "Tendre brusquement le genou à fond (botter un ballon, battements de jambes vigoureux à la nage)."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
+   "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Genou enflé, chaud et rouge."
+  ],
+  "medecin": [
+   "Blocage mécanique du genou.",
+   "Sensation que le genou lâche.",
+   "Douleur qui ne diminue pas après 6 à 8 semaines."
+  ],
+  "duree_habituelle": "Amélioration souvent en 4 à 8 semaines, mais la durée varie d'une personne à l'autre.",
+  "materiel": [
+   "élastique",
+   "marche ou escalier"
+  ],
+  "exercices": [
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Lever de jambe sur le côté",
+    "position_de_depart": "Couché sur le côté, jambe du dessous légèrement pliée, jambe du dessus tendue sans verrouiller le genou.",
+    "mouvement": "Montez la jambe vers le plafond sans tourner les orteils vers le haut, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux.",
+    "erreur_frequente": "Laisser le bassin rouler vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la hanche.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Mini-squat sans verrouiller en haut",
+    "position_de_depart": "Debout, genoux légèrement déverrouillés.",
+    "mouvement": "Pliez les genoux à 45 degrés, puis remontez en gardant les genoux souples en haut (ne les claquez pas vers l'arrière).",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez la descente lente d'une marche basse.",
+    "erreur_frequente": "Verrouiller brutalement le genou en remontant.",
+    "illustration": "Dessin au trait d'une personne réalisant un demi-squat en gardant les genoux souples en haut.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses sans pincer le coussin.",
+    "plus_facile": "Pliez moins, avec un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Dragoo JL et al., Evaluation and treatment of disorders of the infrapatellar fat pad, Sports Med, 2012",
+    "doi_ou_pmid": "PMID: 22149697"
+   }
+  ]
+ },
+ {
+  "cle": "genou/bit",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-10",
+  "no": 10,
+  "titre": "Syndrome de la bandelette ilio-tibiale",
+  "sous_titre": "Douleur à l'extérieur du genou",
+  "titre_v1": "Douleur à l'extérieur du genou (bandelette ilio-tibiale)",
+  "diagnostic": "Syndrome de la bandelette ilio-tibiale",
+  "en_bref": [
+   "Une bande fibreuse sur le côté de la cuisse irrite les tissus au-dessus du genou.",
+   "Réduire temporairement la course ou le vélo la calme.",
+   "Renforcer les hanches aide à éviter les rechutes."
+  ],
+  "ce_que_vous_avez": "La bandelette ilio-tibiale est une large bande fibreuse sur le côté de la cuisse. À la course ou au vélo, elle comprime de façon répétée les tissus sensibles situés dessous, sur le côté extérieur du genou. C'est avant tout un problème de surcharge (trop, trop vite), parfois accompagné d'un manque de force des hanches. Ajuster temporairement l'entraînement et renforcer les fessiers règlent habituellement le problème.",
+  "pourquoi": [
+   "Hausse rapide du kilométrage, surtout en descente.",
+   "Course sur des surfaces inclinées.",
+   "Hanches peu renforcées."
+  ],
+  "ce_qui_aide": [
+   "Réduire temporairement la distance de course et éviter les descentes de côtes.",
+   "Renforcer les muscles des fesses (abducteurs de la hanche) et du tronc.",
+   "À la reprise, augmenter légèrement la cadence de course (5 à 10 % de pas en plus par minute, donc des pas un peu plus courts).",
+   "À vélo, vérifier le réglage de la selle (une selle trop haute ou trop reculée irrite le côté du genou)."
+  ],
+  "a_eviter": [
+   "Courir malgré une douleur vive à l'extérieur du genou qui vous fait boiter.",
+   "Rouler fort avec un rouleau en mousse directement sur la zone douloureuse (cela comprime davantage les tissus irrités).",
+   "Courir sur des routes très inclinées sur le côté."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
+   "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
+   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [],
+  "medecin": [
+   "Gonflement du genou ou blocage mécanique.",
+   "Engourdissements ou faiblesse du pied.",
+   "Douleur qui ne diminue pas après 6 à 8 semaines malgré la diminution de la course.",
+   "Douleur précise sur l'os qui persiste au repos ou la nuit (fracture de stress à écarter)."
+  ],
+  "duree_habituelle": "Amélioration habituelle en 4 à 8 semaines.",
+  "materiel": [
+   "élastique",
+   "marche ou escalier"
+  ],
+  "exercices": [
+   {
+    "nom": "Lever de jambe sur le côté (moyen fessier)",
+    "position_de_depart": "Couché sur le côté sain, jambe du dessous légèrement pliée, jambe du dessus tendue et légèrement ramenée vers l'arrière.",
+    "mouvement": "Montez la jambe du dessus vers le plafond en gardant le pied parallèle au sol, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 12 à 15 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez un élastique autour des chevilles.",
+    "erreur_frequente": "Laisser la jambe partir vers l'avant ou tourner les orteils vers le plafond.",
+    "illustration": "Dessin au trait d'un coureur couché sur le côté soulevant la jambe supérieure tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la hanche.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Pas latéraux avec élastique",
+    "position_de_depart": "Debout, genoux légèrement pliés, un élastique autour des chevilles.",
+    "mouvement": "Faites 5 pas lents de côté vers la droite, puis 5 vers la gauche, en gardant les pieds parallèles et l'élastique tendu.",
+    "dosage": "3 allers-retours, 3 fois par semaine.",
+    "progression": "Utilisez un élastique plus ferme.",
+    "erreur_frequente": "Pencher le buste sur le côté.",
+    "illustration": "Dessin au trait d'un coureur faisant des pas de côté avec un élastique aux chevilles.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les muscles du côté de la hanche.",
+    "plus_facile": "Faites-le sans élastique."
+   },
+   {
+    "nom": "Descente lente d'une marche (contrôle sur une jambe)",
+    "position_de_depart": "Debout sur une marche basse, une jambe dans le vide devant.",
+    "mouvement": "Pliez lentement le genou d'appui pour effleurer le sol avec l'autre talon, en gardant le bassin horizontal et le genou aligné avec le pied, puis remontez.",
+    "dosage": "3 séries de 10 répétitions par jambe, 3 fois par semaine.",
+    "progression": "Passez au squat partiel sur une jambe.",
+    "erreur_frequente": "Laisser le genou rentrer vers l'intérieur ou la hanche opposée tomber.",
+    "illustration": "Dessin au trait d'un coureur descendant lentement d'une marche sur une jambe.",
+    "phase": "Pour progresser",
+    "but": "Pour contrôler le genou à la course.",
+    "plus_facile": "Utilisez une marche plus basse."
+   }
+  ],
+  "references": [
+   {
+    "texte": "van der Worp MP et al., Iliotibial band syndrome in runners: a systematic review, Sports Med, 2012",
+    "doi_ou_pmid": "PMID: 22994651"
+   },
+   {
+    "texte": "Fairclough J et al., J Sci Med Sport, 2007",
+    "doi_ou_pmid": "PMID: 16996312"
+   }
+  ]
+ },
+ {
+  "cle": "genou/bprep",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-11",
+  "no": 11,
+  "titre": "Bursite prépatellaire",
+  "sous_titre": "Enflure devant la rotule",
+  "titre_v1": "Enflure devant la rotule (bursite prépatellaire)",
+  "diagnostic": "Bursite prépatellaire (non infectée)",
+  "en_bref": [
+   "Une petite poche devant la rotule s'est remplie de liquide.",
+   "Sans infection, elle diminue le plus souvent d'elle-même.",
+   "Évitez de vous agenouiller ; portez des genouillères au travail."
+  ],
+  "ce_que_vous_avez": "Une petite poche située entre la peau et la rotule (la bourse) s'est remplie de liquide après un choc ou un travail prolongé à genoux (plancher, jardinage). Quand il n'y a pas d'infection, protéger le genou de tout appui et le bouger doucement permettent au liquide de se résorber peu à peu.",
+  "pourquoi": [
+   "Travail prolongé à genoux (plancher, jardinage).",
+   "Coup direct sur le devant du genou."
+  ],
+  "ce_qui_aide": [
+   "Éviter complètement de vous mettre à genoux tant que c'est enflé (ensuite, utiliser des genouillères épaisses).",
+   "Mettre de la glace 15 minutes (avec un linge sur la peau) 2 à 3 fois par jour et surélever la jambe au repos.",
+   "Garder des mouvements doux pour éviter que le genou devienne raide.",
+   "Porter un bandage élastique léger et confortable si on vous l'a conseillé."
+  ],
+  "a_eviter": [
+   "Vous agenouiller sur la bosse.",
+   "Percer ou vider vous-même la bosse (risque d'infection grave).",
+   "Plier le genou au maximum avec force quand la peau est très tendue."
+  ],
+  "soulager": [
+   "Glace 15 minutes, dans un linge, et un bandage compressif léger pour diminuer l'enflure.",
+   "Un anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou si l'enflure augmente, réduisez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Le devant du genou devient rouge, très chaud ou très douloureux, ou vous avez de la fièvre (infection possible : urgence).",
+   "Plaie ou éraflure qui coule sur la rotule."
+  ],
+  "medecin": [
+   "Enflure qui continue de grossir malgré le repos.",
+   "Aucune diminution après 4 à 6 semaines."
+  ],
+  "duree_habituelle": "L'enflure diminue le plus souvent en quelques semaines (de 3 semaines à 3 mois) si l'on évite de s'agenouiller.",
+  "materiel": [],
+  "exercices": [
+   {
+    "nom": "Glissement doux du talon, couché",
+    "position_de_depart": "Couché sur le dos, jambes allongées.",
+    "mouvement": "Faites glisser doucement le talon vers la fesse jusqu'à sentir une tension légère sur le devant du genou (sans forcer), puis rallongez la jambe.",
+    "dosage": "10 répétitions lentes, 2 à 3 fois par jour.",
+    "progression": "Gagnez doucement en flexion à mesure que l'enflure diminue.",
+    "erreur_frequente": "Forcer la flexion sur un genou enflé.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos glissant doucement le talon vers la fesse.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder le genou mobile.",
+    "plus_facile": "Pliez moins loin."
+   },
+   {
+    "nom": "Contraction douce du quadriceps",
+    "position_de_depart": "Assis, jambe tendue devant vous.",
+    "mouvement": "Serrez doucement le dessus de la cuisse pendant 5 secondes pour tendre le genou, puis relâchez.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Passez au lever de jambe tendue.",
+    "erreur_frequente": "Bloquer sa respiration.",
+    "illustration": "Dessin au trait d'une personne assise jambe tendue contractant doucement le devant de la cuisse.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder la force de la cuisse.",
+    "plus_facile": "Serrez plus doucement, 3 secondes."
+   },
+   {
+    "nom": "Marche calme sans boiter",
+    "position_de_depart": "Debout.",
+    "mouvement": "Marchez à plat, à rythme calme, par courtes périodes.",
+    "dosage": "10 à 15 minutes par jour.",
+    "progression": "Reprenez votre marche habituelle à mesure que l'enflure disparaît.",
+    "erreur_frequente": "Rester debout immobile longtemps ou forcer dans les escaliers.",
+    "illustration": "Dessin au trait d'une personne marchant calmement à plat.",
+    "phase": "Dès maintenant",
+    "but": "Pour rester actif sans boiter.",
+    "plus_facile": "Marchez 5 minutes à la fois."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Khodaee M, Common superficial bursitis, Am Fam Physician, 2017",
+    "doi_ou_pmid": "PMID: 28290630"
+   },
+   {
+    "texte": "Baumbach SF et al., Arch Orthop Trauma Surg, 2014",
+    "doi_ou_pmid": "PMID: 24305696"
+   }
+  ]
+ },
+ {
+  "cle": "genou/poie",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-12",
+  "no": 12,
+  "titre": "Tendinobursite de la patte d'oie",
+  "sous_titre": "Douleur sous l'intérieur du genou",
+  "titre_v1": "Douleur sous l'intérieur du genou (patte d'oie)",
+  "diagnostic": "Tendinobursite de la patte d'oie",
+  "en_bref": [
+   "Trois tendons sont irrités sous le côté intérieur du genou.",
+   "Renforcer les cuisses et les hanches les calme.",
+   "La douleur diminue habituellement en quelques semaines."
+  ],
+  "ce_que_vous_avez": "Trois tendons se rejoignent juste sous le côté intérieur du genou, sur une petite zone appelée la « patte d'oie ». Cette zone est irritée, souvent par la marche ou la course ; c'est plus fréquent en présence d'arthrose du genou, de diabète ou d'un surplus de poids. Renforcer les cuisses et les hanches et ajuster temporairement les activités soulagent souvent cette douleur.",
+  "pourquoi": [
+   "Arthrose du genou, souvent associée.",
+   "Surpoids et diabète.",
+   "Course ou marche en côte."
+  ],
+  "ce_qui_aide": [
+   "Renforcer les muscles des hanches et des cuisses.",
+   "Étirer doucement l'arrière de la cuisse (20 à 30 secondes, sans douleur vive).",
+   "Dormir sur le côté avec un oreiller entre les genoux pour éviter qu'ils s'appuient l'un sur l'autre.",
+   "Réduire temporairement la course et les escaliers rapides.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sous l'intérieur du genou après les efforts."
+  ],
+  "a_eviter": [
+   "Courir sur des pentes ou des surfaces dures tant que la zone est très sensible.",
+   "Croiser les jambes en position assise si cela réveille la douleur.",
+   "Forcer un étirement qui déclenche une douleur vive à l'intérieur du genou."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
+   "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
+   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Rougeur, chaleur vive, gonflement important ou fièvre."
+  ],
+  "medecin": [
+   "Douleur nocturne qui ne passe pas.",
+   "Blocage du genou.",
+   "Aucune amélioration après 6 à 8 semaines."
+  ],
+  "duree_habituelle": "Amélioration souvent en 4 à 8 semaines, mais la durée est très variable d'une personne à l'autre.",
+  "materiel": [
+   "élastique",
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Lever de jambe tendue (quadriceps)",
+    "position_de_depart": "Couché sur le dos, l'autre genou plié, jambe atteinte tendue.",
+    "mouvement": "Serrez la cuisse et levez la jambe tendue à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez un petit poids à la cheville.",
+    "erreur_frequente": "Laisser le genou plier.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la cuisse.",
+    "plus_facile": "Faites seulement la contraction."
+   },
+   {
+    "nom": "Lever de jambe sur le côté (hanche)",
+    "position_de_depart": "Couché sur le côté sain, jambe du dessous légèrement pliée, jambe du dessus tendue.",
+    "mouvement": "Montez la jambe tendue vers le plafond sans tourner les orteils vers le haut, puis redescendez en 3 secondes.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux.",
+    "erreur_frequente": "Laisser le bassin basculer vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer la hanche.",
+    "plus_facile": "Montez moins haut."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Helfenstein M, Kuromoto J, Anserine syndrome, Rev Bras Reumatol, 2010",
+    "doi_ou_pmid": "PMID: 21125167"
+   }
+  ]
+ },
+ {
+  "cle": "genou/osgood",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-13",
+  "no": 13,
+  "titre": "Maladie d'Osgood-Schlatter",
+  "sous_titre": "Douleur sur la bosse sous le genou chez l'adolescent",
+  "titre_v1": "Douleur sur la bosse sous le genou chez l'adolescent (Osgood-Schlatter)",
+  "diagnostic": "Maladie d'Osgood-Schlatter",
+  "en_bref": [
+   "Le tendon de la rotule tire sur une zone de croissance juste sous le genou.",
+   "Ce n'est pas grave, et ça disparaît à la fin de la croissance.",
+   "On ajuste le sport selon la douleur, sans arrêter complètement."
+  ],
+  "ce_que_vous_avez": "Pendant la poussée de croissance, le tendon de la rotule tire de façon répétée sur une zone de croissance encore tendre, juste sous le genou, ce qui forme parfois une petite bosse sensible. Ce n'est pas dangereux pour le genou. La douleur se calme chez la plupart des jeunes, mais cela peut prendre plusieurs mois, parfois plus d'un an, et elle peut revenir par périodes. Doser le sport selon la douleur et renforcer les cuisses et les hanches aident beaucoup.",
+  "pourquoi": [
+   "Poussée de croissance.",
+   "Sports avec sauts, sprints et frappes."
+  ],
+  "ce_qui_aide": [
+   "Rester actif : doser les sports avec sauts et sprints selon la douleur plutôt que tout arrêter.",
+   "Remplacer temporairement une partie des sauts et des sprints par des activités mieux tolérées (vélo, natation).",
+   "Renforcer progressivement les muscles des cuisses et des hanches.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sur la bosse après le sport.",
+   "Utiliser une genouillère rembourrée pour protéger la bosse des coups et de l'appui."
+  ],
+  "a_eviter": [
+   "S'agenouiller directement sur la bosse douloureuse.",
+   "Continuer les sauts et les sprints intenses quand la douleur dépasse 2 sur 10 ou fait boiter.",
+   "Étirer brutalement le devant de la cuisse si cela tire fort sur la bosse."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après le sport.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. Au-delà, diminuez l'intensité ou la durée de l'activité.",
+  "urgence": [
+   "Douleur soudaine et très forte pendant un saut ou un sprint, avec incapacité de tendre le genou ou de marcher, ou gonflement rapide (arrachement osseux à vérifier d'urgence).",
+   "Douleur au repos ou la nuit, ou fièvre."
+  ],
+  "medecin": [
+   "Boiterie qui persiste malgré la diminution du sport.",
+   "Absence d'amélioration après 3 mois."
+  ],
+  "duree_habituelle": "La plupart des jeunes se sentent nettement mieux après environ 12 semaines, mais le retour complet au sport prend souvent plusieurs mois (jusqu'à un an). La petite bosse osseuse peut rester et demeurer sensible à l'appui.",
+  "materiel": [
+   "chaise",
+   "mur"
+  ],
+  "exercices": [
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'un adolescent réalisant un pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Extension statique du genou, assis (quadriceps)",
+    "position_de_depart": "Assis sur une chaise, genou atteint plié à environ 60 degrés, l'autre pied croisé devant la cheville pour résister.",
+    "mouvement": "Poussez doucement la jambe atteinte vers l'avant contre l'autre pied, sans bouger. Tenez 30 secondes, puis relâchez.",
+    "dosage": "10 maintiens de 30 secondes, 1 fois par jour (commencer par 10 à 15 secondes si la bosse est très sensible).",
+    "progression": "Passez à la chaise au mur, puis aux squats contrôlés après environ 4 semaines.",
+    "erreur_frequente": "Pousser si fort que la bosse sous le genou élance.",
+    "illustration": "Dessin au trait d'un adolescent assis sur une chaise poussant une cheville contre l'autre sans bouger.",
+    "phase": "Dès maintenant",
+    "but": "Pour calmer la douleur et renforcer la cuisse.",
+    "plus_facile": "Poussez plus doucement, 15 secondes."
+   },
+   {
+    "nom": "Squats contrôlés (phase d'amélioration)",
+    "position_de_depart": "Debout, pieds à la largeur des épaules.",
+    "mouvement": "Pliez les genoux jusqu'à 60 degrés de façon lente et contrôlée (sans laisser les genoux rentrer vers l'intérieur), puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine (à partir de la 5e semaine si c'est bien toléré).",
+    "progression": "Passez aux fentes contrôlées, puis reprenez le sport par étapes : d'abord l'échauffement avec l'équipe, puis environ 15 minutes de plus chaque semaine si la douleur reste à 2 sur 10 ou moins.",
+    "erreur_frequente": "Descendre trop bas ou aller trop vite.",
+    "illustration": "Dessin au trait d'un adolescent réalisant un demi-squat contrôlé.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses.",
+    "plus_facile": "Descendez moins bas."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Rathleff MS et al., Orthop J Sports Med, 2020",
+    "doi_ou_pmid": "PMID: 32284945"
+   },
+   {
+    "texte": "Guldhammer C et al., Orthop J Sports Med, 2019",
+    "doi_ou_pmid": "PMID: 31700938"
+   }
+  ]
+ },
+ {
+  "cle": "genou/slj",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-14",
+  "no": 14,
+  "titre": "Maladie de Sinding-Larsen-Johansson",
+  "sous_titre": "Douleur à la pointe basse de la rotule chez l'adolescent",
+  "titre_v1": "Douleur à la pointe basse de la rotule chez l'adolescent",
+  "diagnostic": "Maladie de Sinding-Larsen-Johansson",
+  "en_bref": [
+   "Le tendon tire sur la pointe de la rotule, encore en croissance.",
+   "Ce n'est pas grave, et ça disparaît avec la croissance.",
+   "On ajuste les sauts selon la douleur."
+  ],
+  "ce_que_vous_avez": "Chez un jeune en pleine croissance (souvent entre 10 et 15 ans), le tendon tire de façon répétée sur la pointe inférieure de la rotule, qui est encore en croissance. C'est bénin et cela guérit, habituellement en quelques mois, parfois seulement à la fin de la croissance. Doser les sauts et renforcer doucement les jambes permettent à la douleur de se calmer.",
+  "pourquoi": [
+   "Poussée de croissance.",
+   "Sports avec sauts et sprints."
+  ],
+  "ce_qui_aide": [
+   "Réduire les sauts et les sprints intenses pendant quelques semaines, selon la douleur, tout en restant actif.",
+   "Renforcer progressivement les hanches et les cuisses.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sur la pointe de la rotule après le sport.",
+   "Protéger la rotule : éviter de s'agenouiller dessus."
+  ],
+  "a_eviter": [
+   "Sauter ou sprinter quand la douleur dépasse 2 sur 10 ou fait boiter.",
+   "Étirer fort la cuisse si cela déclenche une douleur vive sur la rotule.",
+   "Faire des squats profonds."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après le sport.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. Au-delà, diminuez l'intensité ou la durée de l'activité.",
+  "urgence": [
+   "Douleur brutale pendant un saut, avec genou enflé et incapacité de lever la jambe tendue (fracture à vérifier d'urgence).",
+   "Genou enflé, rouge et chaud, ou fièvre."
+  ],
+  "medecin": [
+   "Boiterie qui dure plus de 2 semaines malgré la réduction du sport.",
+   "Aucun progrès après 3 mois."
+  ],
+  "duree_habituelle": "Amélioration habituelle en 2 à 8 mois avec adaptation de la charge ; parfois plus long, jusqu'à la fin de la croissance.",
+  "materiel": [
+   "élastique",
+   "mur"
+  ],
+  "exercices": [
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'un adolescent réalisant un pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Chaise au mur statique (amplitude modérée)",
+    "position_de_depart": "Debout, dos au mur, pieds avancés d'environ 30 à 40 cm.",
+    "mouvement": "Glissez le dos jusqu'à plier les genoux à 45 degrés (jamais dans la douleur vive). Tenez 20 à 30 secondes, puis remontez.",
+    "dosage": "3 répétitions, 3 fois par semaine.",
+    "progression": "Augmentez doucement le temps de maintien jusqu'à 45 secondes.",
+    "erreur_frequente": "Descendre trop bas dès le début.",
+    "illustration": "Dessin au trait d'un adolescent dos au mur en chaise partielle.",
+    "phase": "Dès maintenant",
+    "but": "Pour calmer la douleur et renforcer la cuisse.",
+    "plus_facile": "Pliez moins, 15 secondes."
+   },
+   {
+    "nom": "Lever de jambe sur le côté",
+    "position_de_depart": "Couché sur le côté, jambe du dessous légèrement pliée, jambe du dessus tendue.",
+    "mouvement": "Montez la jambe vers le plafond sans tourner les orteils vers le haut, puis redescendez lentement.",
+    "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des genoux.",
+    "erreur_frequente": "Laisser le bassin rouler vers l'arrière.",
+    "illustration": "Dessin au trait d'un adolescent couché sur le côté soulevant la jambe supérieure.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer la hanche.",
+    "plus_facile": "Montez moins haut."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Wilczyński B et al., Sinding-Larsen-Johansson disease: a scoping review, PeerJ, 2024",
+    "doi_ou_pmid": "PMID: 39346060"
+   },
+   {
+    "texte": "Rathleff MS et al., Orthop J Sports Med, 2020 (programme étudié dans la maladie d'Osgood-Schlatter, appliqué ici par analogie)",
+    "doi_ou_pmid": "PMID: 32284945"
+   }
+  ]
+ },
+ {
+  "cle": "genou/contusion",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-15",
+  "no": 15,
+  "titre": "Contusion ou entorse légère du genou",
+  "sous_titre": "Coup ou torsion légère du genou",
+  "titre_v1": "Coup ou torsion légère du genou",
+  "diagnostic": "Contusion ou entorse légère, sans lésion structurelle",
+  "en_bref": [
+   "Les os, les ligaments et les ménisques sont intacts.",
+   "Après 1 à 3 jours de protection, bouger aide à guérir.",
+   "La plupart des personnes vont mieux en 1 à 3 semaines."
+  ],
+  "ce_que_vous_avez": "Votre genou a subi un coup ou une petite torsion, mais l'examen montre que les os, les ligaments et les ménisques sont intacts. Après 1 à 3 jours de protection, bouger doucement puis reprendre progressivement vos activités est le meilleur moyen de retrouver toute votre mobilité et votre force.",
+  "pourquoi": [
+   "Coup direct ou petite torsion du genou."
+  ],
+  "ce_qui_aide": [
+   "Ménager le genou pendant 1 à 3 jours, le surélever au repos et porter un bandage élastique confortable s'il est enflé.",
+   "Au besoin, pour soulager la douleur, mettre de la glace 15 minutes (avec un linge sur la peau) 2 à 3 fois par jour pendant les 2 à 3 premiers jours.",
+   "Plier et tendre doucement le genou dès les premiers jours pour éviter qu'il se raidisse.",
+   "Marcher normalement, sans boiter, dès que possible.",
+   "Reprendre le sport progressivement quand le genou est fort et indolore."
+  ],
+  "a_eviter": [
+   "Rester immobile plusieurs jours sans bouger le genou.",
+   "Reprendre les sauts ou les contacts tant que le genou est enflé ou sensible.",
+   "S'agenouiller sur la zone contusionnée."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Fièvre, ou genou rouge et chaud."
+  ],
+  "medecin": [
+   "Gonflement important qui ne diminue pas après 1 semaine.",
+   "Genou qui bloque ou qui lâche à la marche.",
+   "Douleur qui s'aggrave au lieu de diminuer."
+  ],
+  "duree_habituelle": "Guérison habituelle en 1 à 3 semaines.",
+  "materiel": [
+   "chaise",
+   "mur",
+   "poids léger ou bouteille d'eau",
+   "coussin"
+  ],
+  "exercices": [
+   {
+    "nom": "Flexion et extension douces, couché",
+    "position_de_depart": "Couché sur le dos, jambes allongées.",
+    "mouvement": "Glissez doucement le talon vers la fesse, puis tendez complètement la jambe en serrant la cuisse 3 secondes.",
+    "dosage": "10 répétitions, 2 à 3 fois par jour.",
+    "progression": "Passez au vélo stationnaire léger.",
+    "erreur_frequente": "Ne pas tendre la jambe à fond.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos glissant le talon vers la fesse.",
+    "phase": "Dès maintenant",
+    "but": "Pour retrouver le mouvement du genou.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Mini-squats contrôlés",
+    "position_de_depart": "Debout, pieds à la largeur des épaules.",
+    "mouvement": "Pliez doucement les genoux à 45 degrés en gardant le poids égal sur les deux pieds, puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Descendez plus bas, puis passez aux montées de marche.",
+    "erreur_frequente": "Mettre tout le poids sur l'autre jambe.",
+    "illustration": "Dessin au trait d'une personne réalisant un demi-squat symétrique.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses.",
+    "plus_facile": "Pliez moins, avec un appui."
+   },
+   {
+    "nom": "Équilibre sur une jambe",
+    "position_de_depart": "Debout près d'un mur ou d'une chaise.",
+    "mouvement": "Tenez-vous en équilibre sur le pied du côté atteint pendant 20 à 30 secondes, genou légèrement déverrouillé.",
+    "dosage": "3 répétitions, 1 fois par jour.",
+    "progression": "Faites-le les yeux fermés (en sécurité près du mur) ou sur un coussin.",
+    "erreur_frequente": "Verrouiller le genou fort vers l'arrière.",
+    "illustration": "Dessin au trait d'une personne en équilibre sur une jambe près d'une chaise.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour retrouver l'équilibre et la stabilité.",
+    "plus_facile": "Gardez une main sur un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Dubois B, Esculier JF, Soft-tissue injuries simply need PEACE and LOVE, Br J Sports Med, 2020",
+    "doi_ou_pmid": "PMID: 31377722"
+   }
+  ]
+ },
+ {
+  "cle": "genou/plica",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-16",
+  "no": 16,
+  "titre": "Syndrome de la plica",
+  "sous_titre": "Repli irrité à l'intérieur du genou",
+  "titre_v1": "Repli irrité à l'intérieur du genou (plica)",
+  "diagnostic": "Syndrome de la plica",
+  "en_bref": [
+   "Un petit repli normal de la membrane du genou est devenu épais et irrité.",
+   "Moins de flexions répétées et des exercices le calment.",
+   "Une chirurgie est rarement nécessaire."
+  ],
+  "ce_que_vous_avez": "Un petit repli normal de la membrane à l'intérieur du genou (appelé plica) est devenu épais et irrité à force de flexions répétées. Cela peut donner un petit clic ou une sensibilité sur le bord intérieur de la rotule. Calmer l'irritation et renforcer la cuisse et la hanche soulagent souvent ce problème ; si ce n'est pas le cas après environ 3 mois, d'autres traitements existent.",
+  "pourquoi": [
+   "Flexions répétées du genou (course, vélo, escaliers).",
+   "Coup sur l'intérieur du genou."
+  ],
+  "ce_qui_aide": [
+   "Réduire temporairement les flexions répétées du genou (vélo avec selle trop basse, squats profonds).",
+   "Renforcer les cuisses et les fessiers dans une amplitude qui ne déclenche pas le clic.",
+   "Assouplir doucement l'avant et l'arrière de la cuisse.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sur l'intérieur du genou après l'effort."
+  ],
+  "a_eviter": [
+   "Répéter les mouvements qui font claquer le bord intérieur de la rotule.",
+   "Faire du vélo avec une selle basse ou des squats complets.",
+   "S'agenouiller longtemps."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
+   "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [],
+  "medecin": [
+   "Blocage véritable du genou.",
+   "Gonflement important qui persiste.",
+   "Sensation que le genou lâche.",
+   "Douleur ou claquement douloureux qui ne s'améliorent pas après 3 mois."
+  ],
+  "duree_habituelle": "Amélioration souvent en 6 à 12 semaines ; poursuivre les exercices pendant 3 mois avant de conclure qu'ils ne suffisent pas.",
+  "materiel": [
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "position_de_depart": "Couché sur le dos, jambe atteinte tendue, l'autre genou plié.",
+    "mouvement": "Serrez la cuisse 5 secondes, puis levez la jambe tendue à 30 cm du sol. Redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Ajoutez un petit poids à la cheville.",
+    "erreur_frequente": "Plier le genou pendant l'exercice.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la cuisse.",
+    "plus_facile": "Faites seulement la contraction."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Mini-squat contrôlé (amplitude modérée)",
+    "position_de_depart": "Debout, pieds à la largeur des épaules.",
+    "mouvement": "Pliez les genoux à 45 degrés seulement (en restant avant le clic), puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Descendez un peu plus bas seulement si le genou reste silencieux et confortable.",
+    "erreur_frequente": "Laisser le genou rentrer vers l'intérieur.",
+    "illustration": "Dessin au trait d'une personne réalisant un demi-squat contrôlé.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses sans irriter le repli.",
+    "plus_facile": "Pliez moins, avec un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Schindler OS, 'The sneaky plica' revisited, Knee Surg Sports Traumatol Arthrosc, 2014",
+    "doi_ou_pmid": "PMID: 23381917"
+   }
+  ]
+ },
+ {
+  "cle": "genou/discoide",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-17",
+  "no": 17,
+  "titre": "Ménisque discoïde",
+  "sous_titre": "Ménisque de forme plus large",
+  "titre_v1": "Ménisque de forme plus large (ménisque discoïde)",
+  "diagnostic": "Ménisque discoïde (sans blocage ni ressaut douloureux)",
+  "en_bref": [
+   "Un ménisque est plus large que la normale depuis la naissance.",
+   "S'il ne cause ni blocage ni douleur, il n'a pas besoin de chirurgie.",
+   "Les exercices gardent le genou fort."
+  ],
+  "ce_que_vous_avez": "Un de vos ménisques (coussins du genou), le plus souvent celui du côté extérieur, est plus épais et plus large que la normale depuis la naissance. Quand il ne cause ni blocage, ni ressaut douloureux, ni gonflement, aucun traitement particulier n'est nécessaire : une simple surveillance suffit. Garder des cuisses et des hanches fortes aide le genou à bien fonctionner, sans toutefois changer la forme du ménisque. Si des blocages ou des ressauts douloureux apparaissent, un avis en orthopédie est nécessaire.",
+  "pourquoi": [
+   "Forme du ménisque présente depuis la naissance."
+  ],
+  "ce_qui_aide": [
+   "Rester actif et garder des cuisses et des hanches fortes.",
+   "Garder des mouvements fluides, sans forcer les flexions extrêmes.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après l'activité si le genou est sensible.",
+   "Consulter rapidement si un blocage ou un ressaut douloureux apparaît."
+  ],
+  "a_eviter": [
+   "Provoquer volontairement le claquement du genou pour le montrer.",
+   "Faire des squats très profonds ou rester accroupi longtemps.",
+   "Pivoter brusquement sur le genou s'il est douloureux."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, si le genou est enflé après l'activité.",
+   "Acétaminophène ou ibuprofène au besoin, si votre pharmacien le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Genou qui se bloque (impossible de tendre complètement la jambe) : avis orthopédique rapide."
+  ],
+  "medecin": [
+   "Ressaut sonore et douloureux qui se répète.",
+   "Gonflement important ou qui persiste.",
+   "Gêne qui persiste après 6 à 8 semaines."
+  ],
+  "duree_habituelle": "Si la gêne est légère, le confort s'améliore souvent en 4 à 8 semaines ; des blocages ou des ressauts douloureux qui persistent nécessitent un avis en orthopédie.",
+  "materiel": [
+   "marche ou escalier",
+   "poids léger ou bouteille d'eau"
+  ],
+  "exercices": [
+   {
+    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "position_de_depart": "Couché sur le dos, jambe atteinte tendue, l'autre genou plié.",
+    "mouvement": "Serrez la cuisse 5 secondes, puis levez la jambe tendue à 30 cm du sol. Redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Ajoutez un petit poids à la cheville.",
+    "erreur_frequente": "Laisser le genou plier.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer la cuisse.",
+    "plus_facile": "Faites seulement la contraction."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Mini-squat contrôlé",
+    "position_de_depart": "Debout, pieds à la largeur des épaules.",
+    "mouvement": "Pliez les genoux à 45 degrés sans provoquer de clic douloureux, puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez des montées lentes sur une marche basse.",
+    "erreur_frequente": "Descendre trop bas.",
+    "illustration": "Dessin au trait d'une personne réalisant un demi-squat contrôlé.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses sans provoquer de clic.",
+    "plus_facile": "Pliez moins, avec un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Kocher MS et al., Discoid lateral meniscus in children, J Am Acad Orthop Surg, 2017",
+    "doi_ou_pmid": "PMID: 29059110"
+   }
+  ]
+ },
+ {
+  "cle": "genou/baker",
+  "region": "genou",
+  "region_nom": "Genou",
+  "code": "GEN-18",
+  "no": 18,
+  "titre": "Kyste poplité (kyste de Baker)",
+  "sous_titre": "Petite poche de liquide derrière le genou",
+  "titre_v1": "Petite poche de liquide derrière le genou (kyste de Baker)",
+  "diagnostic": "Kyste poplité (de Baker)",
+  "en_bref": [
+   "C'est une poche de liquide derrière le genou ; ce n'est pas dangereux.",
+   "Il vient presque toujours d'un problème dans le genou, comme l'arthrose.",
+   "Traiter le genou fait souvent diminuer le kyste."
+  ],
+  "ce_que_vous_avez": "Vous avez une poche remplie de liquide articulaire à l'arrière du genou. Ce n'est pas dangereux. Chez l'adulte, le kyste apparaît presque toujours parce que le genou produit trop de liquide (arthrose ou lésion d'un ménisque) : calmer et renforcer le genou fait souvent diminuer la pression et la gêne. Le kyste peut persister ou revenir tant que le genou reste irrité.",
+  "pourquoi": [
+   "Arthrose ou lésion du ménisque, qui produisent plus de liquide dans le genou."
+  ],
+  "ce_qui_aide": [
+   "Renforcer les muscles de la cuisse pour soulager l'articulation du genou.",
+   "Garder le genou souple avec des mouvements doux et du vélo stationnaire, selle assez haute.",
+   "Surélever la jambe au repos si le genou est enflé.",
+   "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) derrière le genou s'il est tendu."
+  ],
+  "a_eviter": [
+   "S'accroupir à fond ou plier le genou au maximum avec force (cela comprime le kyste).",
+   "Appuyer ou masser fort la bosse derrière le genou.",
+   "Percer la bosse vous-même."
+  ],
+  "soulager": [
+   "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
+   "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "urgence": [
+   "Douleur soudaine et forte dans le mollet, avec gonflement, rougeur ou chaleur (rupture du kyste ou phlébite : à faire vérifier le jour même)."
+  ],
+  "medecin": [
+   "Kyste qui grossit rapidement ou devient très dur.",
+   "Engourdissements ou fourmillements dans le pied.",
+   "Blocage du genou."
+  ],
+  "duree_habituelle": "La gêne diminue souvent en 4 à 8 semaines quand l'irritation du genou se calme.",
+  "materiel": [
+   "mur"
+  ],
+  "exercices": [
+   {
+    "nom": "Contraction statique du quadriceps et mobilité douce",
+    "position_de_depart": "Assis ou couché, jambe allongée.",
+    "mouvement": "Serrez le dessus de la cuisse 5 secondes pour tendre le genou, puis pliez doucement le genou dans la limite confortable (sans écraser l'arrière du genou).",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Passez au lever de jambe tendue.",
+    "erreur_frequente": "Forcer la flexion complète du genou.",
+    "illustration": "Dessin au trait d'une personne assise tendant doucement la jambe et contractant la cuisse.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder le genou mobile et fort.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Étirement très doux du mollet",
+    "position_de_depart": "Debout face à un mur, mains appuyées, jambe atteinte un pas en arrière, talon au sol.",
+    "mouvement": "Avancez doucement les hanches vers le mur en gardant le talon arrière au sol, jusqu'à sentir un étirement léger dans le mollet. Tenez 20 secondes.",
+    "dosage": "3 répétitions, 1 à 2 fois par jour.",
+    "progression": "Maintenez 30 secondes.",
+    "erreur_frequente": "Pousser le genou vers l'arrière ou étirer jusqu'à la douleur derrière le genou.",
+    "illustration": "Dessin au trait d'une personne debout face à un mur étirant doucement le mollet de la jambe arrière.",
+    "phase": "Dès maintenant",
+    "but": "Pour assouplir l'arrière de la jambe.",
+    "plus_facile": "Faites un plus petit pas."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés à un angle confortable, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut.",
+    "erreur_frequente": "Cambrer le bas du dos ou trop rapprocher les talons des fesses.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Mini-squat contrôlé",
+    "position_de_depart": "Debout, pieds à la largeur des épaules, mains près d'un appui.",
+    "mouvement": "Pliez les genoux à environ 45 degrés, sans douleur derrière le genou, puis remontez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Ajoutez la marche ou le vélo stationnaire.",
+    "erreur_frequente": "Descendre en squat profond.",
+    "illustration": "Dessin au trait d'une personne réalisant un demi-squat contrôlé.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les cuisses.",
+    "plus_facile": "Pliez moins, avec un appui."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Herman AM, Marzo JM, Popliteal cysts: a current review, Orthopedics, 2014",
+    "doi_ou_pmid": "PMID: 25102502"
+   }
+  ]
+ }
+]
