@@ -7,7 +7,7 @@
   // Tout ce qui se règle : points, bonus, délais, durées. Modifier ici seulement.
   const CONFIG = {
     points: { bonne: 100, rapide: { seuilMs: 2000, bonus: 25 }, series: [[10, 100], [5, 50]] },   // série : multiple de 10 → +100, sinon de 5 → +50
-    delais: { bonne: 700, erreur: 1900, chronoBonne: 450, chronoErreur: 1300 },                    // passage automatique (ms)
+    delais: { chronoBonne: 450, chronoErreur: 1300 },                                             // passage automatique, contre-la-montre seulement (ms)
     durees: [30, 60, 120],
     defi: 10,
     poidsBoites: [6, 4, 3, 2, 1],   // tirage : une carte ratée (boîte 1) sort 6 fois plus souvent qu'une carte maîtrisée (boîte 5)
