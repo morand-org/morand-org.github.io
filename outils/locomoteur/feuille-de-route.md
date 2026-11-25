@@ -143,4 +143,14 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
     - pied (passif) : flexion de l'hallux.
 15. ✅ Épaule : test « Uppercut » pour le long biceps (groupe des tests du biceps avec Speed et Yergason : seul le plus fort compte). RV+ 3,38 (Kibler 2009) et RV− 0,26 (Cardoso 2019), tirés de la base FlashCards ; statut « à vérifier », car la fiche de médecine sportive donne Se 77 %, Sp 80 %. Soumis à OpenEvidence sous le code EPAU-P29 ; les codes déjà donnés ne changent plus quand un élément s'ajoute.
 16. ✅ Hanche : test de Thomas (négatif, cuisse soulevée, genou qui s'étend, les deux), sans poids (jugé médiocre, Haskel 2021).
-17. ⏳ Propositions envoyées au Dr Morand (`outils/locomoteur/propositions/2026-11-25-cuisse-jambe-et-tests.md`) : angles morts de la cuisse et de la jambe (nouvelles régions ou ajouts aux régions existantes) et tests high yield de nos statistiques absents de l'outil. En attente de ses choix.
+17. ✅ Propositions envoyées au Dr Morand (`outils/locomoteur/propositions/2026-11-25-cuisse-jambe-et-tests.md`). Choix : ajouts aux régions existantes, tous les tests recommandés, consigne OpenEvidence.
+18. ✅ Tests high yield ajoutés, chiffres de la base FlashCards, statut « à vérifier » (liste OpenEvidence à jour, codes stables) :
+    - épaule : Jerk, Kim, critères EULAR/ACR 2012 de la polymyalgia (score ; remplace la raideur matinale, l'horaire et les autres articulations) ;
+    - poignet et main : extension et adduction du 1er métacarpien, synergie de l'ECU ;
+    - hanche : HEC, test actif du piriforme et étirement assis (les deux négatifs), compression pelvienne de Nouraei (remplace l'ancienne compression du nerf cutané) ;
+    - genou : appréhension dynamique inversée, inclinaison de la rotule, test actif du quadriceps, règle de Pittsburgh (alerte) ;
+    - lombaire : test d'Adams (remplace « gibbosité »), symphyse et Trendelenburg modifié (grossesse) ; le sill sign y était déjà ;
+    - cheville : score CAIT, critères de Liu.
+19. ✅ Schéma du corps : zones cuisse (hanche et genou) et jambe (genou et cheville), de face et de dos, avec le côté.
+20. ⏳ Cuisse et jambe : consigne OpenEvidence envoyée (`outils/locomoteur/delegation/openevidence-cuisse-jambe.md`, blocs 1 à 6). Les nouveaux diagnostics seront ajoutés à la réception des fréquences et des signes.
+21. ⏳ Fiches patients v2 : dossier OpenEvidence par région envoyé (`outils/locomoteur/fiches-patients/revision/openevidence/`).

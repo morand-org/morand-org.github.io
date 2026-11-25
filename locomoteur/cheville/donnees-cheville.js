@@ -32,6 +32,8 @@
       { t: "Consignes de reconsultation : fièvre, cheville chaude et enflée, mollet enflé, pied froid, engourdissements, douleur nocturne" }] }];
 
   const INFOS = {
+    cait: { info: "Questionnaire d'instabilité de la cheville en 9 questions, noté sur 30 ; plus le score est bas, plus la cheville est instable. 25 ou moins : Se 96,6 %, Sp 86,8 % (RV+ 7,32) ; plus de 25 : RV− 0,039 (Wright 2014)." },
+    liu: { info: "Critères de Liu (1997), à confirmer : sensibilité antérolatérale, tuméfaction antérolatérale, douleur en dorsiflexion et éversion forcées, douleur au squat unipodal, douleur à l'activité, instabilité possible. Au moins 5 sur 6 : Se 94 %, Sp 75 % (RV+ 3,76 ; RV− 0,08), n = 22." },
     prom_df: { info: "Genou tendu, puis genou fléchi : une dorsiflexion limitée seulement genou tendu oriente vers un gastrocnémien court (test de Silfverskiöld). Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
     mecanisme: { info: "Inversion : entorse latérale. Éversion ou rotation externe du pied : syndesmose (RV+ 3,47 ; Baltes 2022) et ligament deltoïde. Poussée ou départ explosif : tendon d'Achille ou mollet." },
     disproportion: { info: "Une douleur disproportionnée par rapport à la blessure oriente vers une entorse de la syndesmose (RV+ 3,05 ; Sp 79 % ; Sman 2015). Avec des paresthésies, penser au syndrome compartimental." },
@@ -258,7 +260,9 @@
         { titre: "Traitements", questions: C.traitements() },
         { titre: "Limitations", questions: C.limitations() },
         { titre: "Éléments associés", questions: [
-          ouiNon("derobade", "Entorses à répétition ou cheville qui cède", { oui: "cheville qui cède", nie: "instabilité", effets: { instab: p(6, .3), entorse_lat: p(1.2, 1), fibulaires: p(1.5, .9), lot: p(1.3, .95) } }),
+          ouiNon("derobade", "Entorses à répétition ou cheville qui cède", { oui: "cheville qui cède", nie: "instabilité", effets: { instab: p(6, .3, { g: "instab-hx" }), entorse_lat: p(1.2, 1), fibulaires: p(1.5, .9), lot: p(1.3, .95) } }),
+          choix("cait", "Score CAIT (Cumberland Ankle Instability Tool, sur 30)", [o("le25", "25 ou moins", {}, { n: "CAIT de 25 ou moins" }), o("gt25", "Plus de 25", {}, { n: "CAIT de plus de 25" })],
+            { si: L => L.v("duree") !== "lt7", effets: { instab: lit(.966, .868, "Wright et coll., 2014, Arch Phys Med Rehabil (n = 200) : RV+ 7,32 ; RV− 0,039", { pos: ["le25"], neg: ["gt25"], g: "instab-hx" }) } }),
           ouiNon("ressaut", "Claquement derrière la malléole externe", { oui: "claquement rétromalléolaire latéral", nie: "claquement", effets: { fibulaires: p(6, .7) } }),
           ouiNon("blocage", "Blocages ou accrochages", { oui: "blocages ou accrochages", nie: "blocage", effets: { lot: p(3, .8), conflit: p(1.5, .9), arthrose: p(1.3, .95) } }),
           ouiNon("enflure", "Enflure de la cheville", { oui: "enflure de la cheville", nie: "enflure", g: "epanchement",
@@ -321,7 +325,7 @@
           ouiNon("godet_tp", "Œdème rétromalléolaire médial (godet)", { court: "œdème rétromalléolaire médial", res: TEST, horsNormal: true,
             effets: { tibpost: ver(.86, 1, `${DEORIO} : Se 86 %, Sp 100 % (plafonnée à 99 %)`, { g: "tibpost-ex" }) } }),
           ouiNon("p_fibulaires", "Tendons fibulaires (rétromalléolaire latéral)", { court: "tendons fibulaires", effets: { fibulaires: p(5, .3) } }),
-          ouiNon("p_interligne", "Interligne antérieur de la cheville", { court: "interligne antérieur", effets: { conflit: p(3, .5), arthrose: p(1.5, .8), lot: p(1.5, .9) } }),
+          ouiNon("p_interligne", "Interligne antérieur de la cheville", { court: "interligne antérieur", effets: { conflit: p(3, .5, { g: "conflit-ex" }), arthrose: p(1.5, .8), lot: p(1.5, .9) } }),
           ouiNon("p_tibia_med", "Bord médial du tibia (diffus)", { court: "bord médial du tibia", effets: { periostite: p(5, .3), ff_tibia: p(1.5, .8) } }),
           ouiNon("p_tibia_focal", "Point osseux précis du tibia ou de la fibula", { court: "point osseux précis du tibia ou de la fibula", horsNormal: true, effets: { ff_tibia: p(6, .4), periostite: p(1.3, .9) } }),
           ouiNon("p_mollet", "Mollet", { court: "mollet", effets: { mollet: p(6, .3), rupture_achille: p(1.5, .9) } }),
@@ -358,6 +362,8 @@
           ouiNon("matles", "Matles", { court: "Matles", horsNormal: true, effets: { rupture_achille: ver(.88, .85, MAFFULLI, { g: "achille-rupt" }) } }),
           ouiNon("royal_london", "Royal London Hospital test", { court: "Royal London Hospital test", horsNormal: true, effets: { achille: ver(.54, .86, REIMAN, { g: "achille-ex" }) } }),
           ouiNon("arc_sign", "Arc sign", { court: "arc sign", horsNormal: true, effets: { achille: ver(.42, .88, REIMAN, { g: "achille-ex" }) } }),
+          ouiNon("liu", "Conflit antérolatéral : au moins 5 des 6 signes de Liu", { court: "critères de Liu", horsNormal: true,
+            effets: { conflit: lit(.94, .75, "Liu et coll., 1997, Am J Sports Med (n = 22) : RV+ 3,76 ; RV− 0,08", { g: "conflit-ex" }) } }),
           ouiNon("tinel_tarsien", "Tinel au tunnel tarsien", { court: "Tinel au tunnel tarsien", horsNormal: true, effets: { tarsien: p(4, .5) } }),
         ] },
         { titre: "Règles d'Ottawa (cheville et pied)", si: L => L.trauma() && (!L.repondu("duree") || L.v("duree") === "lt7"), ligne: "Ottawa",

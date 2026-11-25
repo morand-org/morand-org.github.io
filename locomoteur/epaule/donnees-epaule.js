@@ -4,7 +4,7 @@
    lieu de douleur non spécifique : pas de reste calculé. Format : p() provisoire, est() à vérifier, ver()/verRv() vérifié. */
 (function () {
   "use strict";
-  const { p, est, o, m, ouiNon, choix, multi, texte } = window.Locomoteur.outils, C = window.Locomoteur.commun;
+  const { p, lit, est, o, m, ouiNon, choix, multi, texte } = window.Locomoteur.outils, C = window.Locomoteur.commun;
   const ver = (se, sp, piste, extra) => ({ se, sp, piste, statut: "verifie", ...extra });
   const verRv = (rvp, rvn, piste, extra) => ({ rvp, rvn, piste, statut: "verifie", ...extra });
   const trauma = L => L.trauma(), PALP = "palp", TEST = "test";
@@ -29,6 +29,9 @@
       { t: "Consignes de reconsultation : fièvre, épaule chaude et enflée, faiblesse soudaine, engourdissement du bras, douleur thoracique ou dyspnée" }] }];
 
   const INFOS = {
+    jerk: { info: "Bras à 90° de flexion et en rotation interne ; on pousse le coude vers l'arrière, en adduction (Kim 2005). Positif : ressaut ou douleur postérieure. Instabilité postérieure : Se 73 %, Sp 98 % (RV+ 36,5 calculé), étude d'origine.", video: "Jerk test" },
+    kim: { info: "Bras à 90° (Kim 2005) : on pousse l'humérus vers le bas et l'arrière en appuyant dans l'axe. Positif : douleur postérieure soudaine. Instabilité postérieure : Se 80 %, Sp 94 % (RV+ 13,3 ; RV− 0,21), étude d'origine (n = 172).", video: "Kim test" },
+    raideur45: { info: "Critères EULAR/ACR 2012 de la polymyalgia rheumatica (50 ans et plus, douleur aux deux épaules, VS ou CRP élevée) : raideur matinale de plus de 45 min (2 points), douleur ou mobilité réduite des hanches (1), facteur rhumatoïde et anti-CCP négatifs (2), aucune autre articulation atteinte (1). Score de 4 ou plus : Se 92,6 %, Sp 81,5 % (RV+ 5,0 ; RV− 0,09 ; Macchioni 2014). Le score remplace alors, pour la polymyalgia, la raideur matinale, l'horaire de la douleur et les autres articulations." },
     lateralite: { info: "Pour la note ; l'épaule dominante est plus souvent atteinte par les tendinopathies de surcharge." },
     deboitement: { info: "Sensation que l'épaule sort de place : instabilité antérieure (jeune âge, luxation antérieure et début soudain sont des prédicteurs indépendants)." },
     clic_epaule: { info: "Craquement, clic ou accrochage : RV+ 2,0 pour une lésion labrale ; avec un anterior slide positif, RV+ 6,0 pour une lésion SLAP II–IV. Un antécédent de traumatisme seul n'oriente pas (RV+ 0,79)." },
@@ -65,6 +68,14 @@
   };
 
   // Grappes : Park, Michener, Litaker, acromio-claviculaire.
+  // Critères EULAR/ACR 2012 de la polymyalgia rheumatica (Macchioni 2014) : 50 ans et plus, deux épaules, VS ou CRP élevée.
+  const KIM05 = "Kim et coll., 2005, Am J Sports Med (n = 172, étude d'origine)";
+  const eularVoir = L => L.age !== null && L.age >= 50 && (L.oui("raideur_ceintures") || L.a("localisation", "deux_epaules") || L.v("cote") === "B");
+  const eularBase = L => L.age !== null && L.age >= 50 && L.oui("crp_vs") && (L.v("cote") === "B" || L.a("localisation", "deux_epaules"));
+  const eularScore = L => (L.oui("raideur45") ? 2 : 0) + (L.oui("hanches_ppr") ? 1 : 0) + (L.oui("fr_ccp_neg") ? 2 : 0) + (L.non("autres_articulations") ? 1 : 0);
+  // Le score remplace ce qu'il mesure (raideur matinale, horaire, autres articulations) ; la raideur des ceintures, qui
+  // sélectionne la population du score (douleur aux deux épaules), reste comptée.
+  const EULAR_COUVRE = ["raideur", "moment", "autres_articulations", "raideur45", "hanches_ppr", "fr_ccp_neg"];
   const parkConflit = L => [L.oui("hawkins"), L.oui("arc"), L.dans("rrom_re", ["douleur", "faiblesse"])];
   const parkRupture = L => [L.oui("arc"), L.oui("drop_arm"), L.dans("rrom_re", ["faiblesse"])];
   const michener = L => [L.oui("neer"), L.oui("hawkins"), L.oui("arc"), L.dans("jobe", ["douleur", "faiblesse"]), L.dans("rrom_re", ["douleur", "faiblesse"])];
@@ -147,6 +158,11 @@
       ["fracture_hp", "rupture"], ["ac_entorse", "clavicule"]],
 
     grappes: [
+      { id: "ppr_eular", dx: "ppr", nom: "Critères EULAR/ACR 2012 : score de 4 ou plus", rv: 5, couvre: EULAR_COUVRE, statut: "a_verifier",
+        piste: "Macchioni et coll., 2014, Ann Rheum Dis (validation) : Se 92,6 %, Sp 81,5 %, RV+ 5,0 (base FlashCards)", si: L => eularBase(L) && eularScore(L) >= 4 },
+      { id: "ppr_eular_neg", dx: "ppr", nom: "Critères EULAR/ACR 2012 : score de moins de 4", rv: .09, couvre: EULAR_COUVRE, statut: "a_verifier",
+        piste: "Macchioni et coll., 2014, Ann Rheum Dis (validation) : RV− 0,09 (base FlashCards)",
+        si: L => eularBase(L) && ["raideur45", "hanches_ppr", "fr_ccp_neg", "autres_articulations"].every(k => L.repondu(k)) && eularScore(L) < 4 },
       { id: "park_rupture", dx: "rupture", nom: "Park : arc douloureux + drop-arm + faiblesse en rotation externe", rv: 15.6, couvre: ["arc", "drop_arm", "rrom_re"], statut: "a_verifier",
         piste: `${PARK} : probabilité post-test 91 % ; RV+ ≈ 15,6 non vérifiable dans l'extrait`, si: L => parkRupture(L).every(Boolean) },
       { id: "park_conflit", dx: "sous_acro", nom: "Park : Hawkins + arc douloureux + rotation externe résistée", rv: 10.6, couvre: ["hawkins", "arc", "rrom_re"], statut: "a_verifier",
@@ -248,6 +264,10 @@
           ouiNon("raideur_ceintures", "Raideur matinale des épaules et des hanches", { oui: "raideur des ceintures", nie: "raideur des ceintures", effets: { ppr: p(10, .2) } }),
           ouiNon("symptomes_acg", "Céphalée nouvelle, claudication de la mâchoire ou trouble visuel", { oui: "symptômes d'artérite temporale", nie: "symptôme d'artérite temporale", drapeau: true, effets: { ppr: p(3, .9) } }),
           C.autresArticulations({ ppr: p(2, .8) }),
+          ouiNon("raideur45", "Polymyalgia (EULAR/ACR) : raideur matinale de plus de 45 minutes", { si: eularVoir, oui: "raideur matinale de plus de 45 min", nie: "raideur matinale de plus de 45 min" }),
+          ouiNon("hanches_ppr", "Polymyalgia (EULAR/ACR) : douleur ou mobilité réduite des hanches", { si: eularVoir, oui: "douleur ou mobilité réduite des hanches", nie: "douleur aux hanches" }),
+          ouiNon("crp_vs", "Polymyalgia (EULAR/ACR) : VS ou CRP élevée", { si: eularVoir, oui: "VS ou CRP élevée", non: "VS et CRP normales" }),
+          ouiNon("fr_ccp_neg", "Polymyalgia (EULAR/ACR) : facteur rhumatoïde et anti-CCP négatifs", { si: eularVoir, oui: "FR et anti-CCP négatifs", non: "FR ou anti-CCP positif" }),
         ] },
       ] },
 
@@ -325,6 +345,8 @@
           ouiNon("relocation", "Relocation", { court: "relocation", genre: "f", effets: { instab_ant: ver(.81, .92, FARBER, { g: "instab-ex" }) } }),
           ouiNon("surprise", "Surprise (release)", { court: "surprise", genre: "f", horsNormal: true, effets: { instab_ant: ver(.639, .989, LO, { g: "instab-ex" }) } }),
           ouiNon("sulcus", "Sulcus", { court: "sulcus", horsNormal: true, effets: { instab_post: ver(.31, .89, "Jia et coll., 2008 ; Luime et coll., 2004, JAMA : RV+ 2,8") } }),
+          ouiNon("jerk", "Jerk test", { court: "jerk test", horsNormal: true, effets: { instab_post: lit(.73, .98, `${KIM05} : jerk test, RV+ 36,5 (calculé)`, { g: "post-ex" }) } }),
+          ouiNon("kim", "Test de Kim", { court: "test de Kim", horsNormal: true, effets: { instab_post: lit(.8, .94, `${KIM05} : RV+ 13,3 ; RV− 0,21`, { g: "post-ex" }) } }),
         ] },
         { titre: "Labrum, biceps et acromio-claviculaire", ligne: false, res: TEST, toutNormal: true, labels: ["Positif", "Négatif"], questions: [
           ouiNon("obrien", "O'Brien : douleur profonde (labrum)", { court: "O'Brien (labrum)", effets: { slap: ver(.626, .544, DEAN, { g: "slap-ex" }) } }),

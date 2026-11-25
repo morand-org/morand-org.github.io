@@ -164,7 +164,7 @@
   function atlasSvg() {
     // Personnage musclé, de face et de dos (image du clinicien) ; zones placées dans le même repère de 1264 × 848.
     const Z = C.ZONES_ATLAS;
-    const zones = Z.filter(([r]) => prets.has(r)).map(([r, cote, x, y, rayon, nom]) =>
+    const zones = Z.filter(([r]) => r.split(",").every(x => prets.has(x))).map(([r, cote, x, y, rayon, nom]) =>
       `<circle class="lo-zone" data-zone="${r}" data-cote="${cote}" cx="${x}" cy="${y}" r="${rayon}" tabindex="0" role="button" aria-label="${esc(nom)}"><title>${esc(nom)}</title></circle>`).join("");
     return `<figure class="lo-atlas lo-atlas-image"><svg viewBox="0 0 1264 848" role="group" aria-label="Atlas de la douleur : toucher la zone douloureuse">
       <image class="lo-atlas-fond" href="/locomoteur/atlas-corps.webp" x="0" y="0" width="1264" height="848"/>${zones}
@@ -174,7 +174,9 @@
   }
   function atlasActif() {
     for (const z of form.querySelectorAll(".lo-zone")) {
-      const r = z.dataset.zone, co = lire(`${r}:cote`), actif = etat.regions.includes(r) && (!z.dataset.cote || !co || co === "?" || co === "B" || co === z.dataset.cote);
+      // Zone de plusieurs plaintes (cuisse, jambe) : active quand chacune l'est, du même côté.
+      const actif = z.dataset.zone.split(",").every(r => { const co = lire(`${r}:cote`);
+        return etat.regions.includes(r) && (!z.dataset.cote || !co || co === "?" || co === "B" || co === z.dataset.cote); });
       z.classList.toggle("lo-zone-active", actif);
     }
   }
@@ -183,6 +185,18 @@
      reste que l'autre côté. Sinon : le côté s'ajoute (gauche + droite = « Les deux »). */
   function zoneTouchee(z) {
     const r = z.dataset.zone, cote = z.dataset.cote, k = `${r}:cote`, focus = document.activeElement === z;
+    // Cuisse ou jambe : la zone ouvre deux plaintes (hanche et genou, ou genou et cheville) avec le même côté ; un second
+    // clic retire ce côté (ou les plaintes) dans chacune.
+    if (r.includes(",")) {
+      const regions = r.split(","), deja = x => etat.regions.includes(x) && (!cote || [cote, "B"].includes(lire(`${x}:cote`)));
+      if (regions.every(deja)) {
+        for (const x of regions) { if (cote && lire(`${x}:cote`) === "B") ecrire(`${x}:cote`, cote === "D" ? "G" : "D"); else basculerRegion(x, null, { depuisSchema: true }); }
+      } else for (const x of regions) {
+        if (!etat.regions.includes(x)) { if (cote) ecrire(`${x}:cote`, cote); basculerRegion(x, focus ? z : null); continue; }
+        const avant = lire(`${x}:cote`); if (cote && avant !== cote && avant !== "B") ecrire(`${x}:cote`, !avant || avant === "?" ? cote : "B");
+      }
+      construire(); maj(); garderFocus(focus ? z : null); return;
+    }
     if (!etat.regions.includes(r)) {
       if (cote) ecrire(k, cote);
       basculerRegion(r, focus ? z : null); return;
@@ -907,6 +921,6 @@
   const depart = document.body.dataset.articulation, demande = new URLSearchParams(location.search);
   const voulues = [...new Set((demande.get("plainte") || "").split(",").filter(r => prets.has(r)))];
   etat.regions = voulues.length ? voulues : prets.has(depart) ? [depart] : [];
-  if (voulues.length === 1 && /^[DGB]$/.test(demande.get("cote") || "")) ecrire(`${voulues[0]}:cote`, demande.get("cote"));
+  if (/^[DGB]$/.test(demande.get("cote") || "")) for (const r of voulues) ecrire(`${r}:cote`, demande.get("cote"));   // cuisse ou jambe : deux plaintes, même côté
   Promise.all(etat.regions.map(chargerRegion)).then(() => { construire(); maj(); sources(); });
 })();

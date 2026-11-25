@@ -147,6 +147,21 @@ def main():
         t += ["", "#" * 100, f"RÉGION : {nom.upper()} ({len(v2[r])} fiches)", "#" * 100, ""]
         t += [texte_fiche_v2(f, code_sever if f["cle"] == "pied/sever" else None) for f in v2[r]]
     open(os.path.join(SORTIE, "fiches-patients-texte-complet.txt"), "w", encoding="utf8").write("\n".join(t))
+    # 1 b. Le même texte, une région par fichier, chacune précédée de la consigne : prêt à coller dans OpenEvidence.
+    dossier = os.path.join(SORTIE, "openevidence")
+    os.makedirs(dossier, exist_ok=True)
+    lisez = ["FICHES PATIENTS · MSK MORAND · VERSION 2 · RÉVISION PAR OPENEVIDENCE", "",
+             "Un fichier par région. Chacun commence par la consigne : copiez tout le fichier dans OpenEvidence, une région à la fois.",
+             "Renvoyez-moi les réponses ; les identifiants entre crochets [région/id] me permettent de reprendre chaque correction.", "",
+             "Fichiers :"]
+    for i, (r, nom) in enumerate(REGIONS, 1):
+        corps = [texte_fiche_v2(f, code_sever if f["cle"] == "pied/sever" else None) for f in v2[r]]
+        nomf = f"{i:02d}-{r}.txt"
+        open(os.path.join(dossier, nomf), "w", encoding="utf8").write("\n".join(
+            [CONSIGNE, "", "#" * 100, f"RÉGION : {nom.upper()} ({len(v2[r])} fiches)", "#" * 100, ""] + corps) + "\n")
+        lisez.append(f"  {nomf} : {nom} ({len(v2[r])} fiches)")
+    open(os.path.join(dossier, "00-LISEZ-MOI.txt"), "w", encoding="utf8").write("\n".join(lisez + ["", "Consigne seule : 00-consigne.txt"]) + "\n")
+    open(os.path.join(dossier, "00-consigne.txt"), "w", encoding="utf8").write(CONSIGNE + "\n")
     # 2. Propositions : les générales (écrites à la main), puis les titres, le relevé et les diagnostics sans fiche.
     m = ["## Titres proposés (terme médical en titre, langage courant en sous-titre)", "",
          "| Région | N° | Titre actuel | Titre proposé | Sous-titre proposé |", "|---|---|---|---|---|"]

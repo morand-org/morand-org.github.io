@@ -70,7 +70,7 @@ for (const r of REGIONS.filter(x => x.pret && x.id !== "genou")) {
 let hub = lire("locomoteur/index.html");
 const escA = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
 const pretsAccueil = new Set(REGIONS.filter(r => r.pret).map(r => r.id));
-const zones = window.Locomoteur.commun.ZONES_ATLAS.filter(([r]) => pretsAccueil.has(r)).map(([r, cote, x, y, ray, nom]) =>
+const zones = window.Locomoteur.commun.ZONES_ATLAS.filter(([r]) => r.split(",").every(x => pretsAccueil.has(x))).map(([r, cote, x, y, ray, nom]) =>
   `      <a href="/locomoteur/consultation/?plainte=${r}${cote ? `&amp;cote=${cote}` : ""}" aria-label="${escA(nom)} : commencer la consultation"><circle class="lo-zone" cx="${x}" cy="${y}" r="${ray}"><title>${escA(nom)}</title></circle></a>`).join("\n");
 const blocDepart = `<!-- depart -->
   <p class="lo-demarrer"><a class="lo-bouton lo-bouton-grand" href="/locomoteur/consultation/">Démarrer la consultation</a></p>

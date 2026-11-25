@@ -1,0 +1,17 @@
+FICHES PATIENTS · MSK MORAND · VERSION 2 · RÉVISION PAR OPENEVIDENCE
+
+Un fichier par région. Chacun commence par la consigne : copiez tout le fichier dans OpenEvidence, une région à la fois.
+Renvoyez-moi les réponses ; les identifiants entre crochets [région/id] me permettent de reprendre chaque correction.
+
+Fichiers :
+  01-cervical.txt : Rachis cervical (12 fiches)
+  02-epaule.txt : Épaule (14 fiches)
+  03-coude.txt : Coude (12 fiches)
+  04-poignet.txt : Poignet et main (17 fiches)
+  05-lombaire.txt : Rachis lombaire (12 fiches)
+  06-hanche.txt : Hanche et bassin (15 fiches)
+  07-genou.txt : Genou (18 fiches)
+  08-cheville.txt : Cheville et jambe (15 fiches)
+  09-pied.txt : Pied (14 fiches)
+
+Consigne seule : 00-consigne.txt

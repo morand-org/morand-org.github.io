@@ -1,0 +1,1580 @@
+CONSIGNE POUR OPENEVIDENCE (à coller avant chaque région)
+Vous révisez des fiches d'information remises aux patients en médecine familiale, au Québec (français québécois).
+Pour chaque fiche ci-dessous :
+1. Vérifiez l'exactitude et l'actualité de chaque énoncé selon les données probantes et les guides de pratique
+   récents (de préférence canadiens ou québécois : INESSS, Choisir avec soin Canada, sociétés savantes ; sinon NICE,
+   ACR, AAOS, JOSPT, BJSM).
+2. Vérifiez la sécurité, la pertinence et le dosage de chaque exercice (position de départ, mouvement, séries,
+   répétitions, fréquence, progression), pour la phase de la blessure visée.
+3. Vérifiez les signes qui doivent faire reconsulter, et séparez ceux qui exigent une consultation urgente.
+4. Vérifiez chaque référence (auteurs, titre, revue, année, PMID ou DOI) ; proposez une référence plus récente
+   si elle existe.
+5. Gardez un langage simple (niveau de lecture de 6e année), le vouvoiement et les termes québécois.
+6. Les rubriques « En bref », « Pourquoi ça arrive » et « Soulager la douleur », ainsi que la phase, le but et la
+   version plus facile de chaque exercice, sont nouvelles : vérifiez-les avec attention. « Soulager la douleur » ne
+   donne volontairement aucune dose de médicament : gardez-le ainsi.
+7. Règle de douleur : nous demandons que la douleur revienne à son niveau habituel « dans l'heure qui suit
+   l'exercice ». Vérifiez ce critère pour chaque problème ; si les données appuient plutôt un autre délai (par
+   exemple le lendemain matin, comme dans le modèle de surveillance de la douleur utilisé pour les tendinopathies),
+   indiquez-le, avec la référence.
+8. Vérifiez le classement des signes : « Consultez rapidement » (sans attendre le prochain rendez-vous) ou
+   « Revoyez votre médecin si ».
+Renvoyez chaque fiche au complet, dans la même structure, avec le même identifiant entre crochets.
+Marquez chaque changement ainsi : [MODIFIÉ : ancien texte → nouveau texte — raison ; référence].
+N'inventez aucune donnée : écrivez « À VÉRIFIER » en cas de doute.
+
+
+####################################################################################################
+RÉGION : GENOU (18 fiches)
+####################################################################################################
+
+=== FICHE GEN-01 · [genou/sfp] ===
+Titre : Syndrome fémoro-patellaire
+Sous-titre : Douleur à l'avant du genou
+Ancien titre : Douleur à l'avant du genou (syndrome fémoro-patellaire)
+Diagnostic correspondant dans MSK Morand : Syndrome fémoro-patellaire
+
+EN BREF
+  - Le genou n'est ni usé ni abîmé : l'articulation de la rotule est devenue sensible à la charge.
+  - Renforcer les hanches et les cuisses est le cœur du traitement.
+  - Comptez 6 à 12 semaines d'exercices réguliers.
+
+CE QUE VOUS AVEZ
+  L'articulation entre la rotule et l'os de la cuisse est devenue sensible à la charge quand le genou plie (escaliers, squats, course, position assise prolongée). Le genou n'est ni usé ni abîmé. Le traitement le plus efficace est un programme d'exercices pour les hanches et les cuisses, combiné à un ajustement temporaire des activités qui réveillent la douleur.
+
+POURQUOI ÇA ARRIVE
+  - Hausse rapide des activités qui plient le genou (course, escaliers, squats).
+  - Muscles des hanches et des cuisses peu renforcés.
+  - Croissance à l'adolescence.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.
+  - Anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié.
+
+CE QUI AIDE
+  - Renforcer les muscles des fesses (hanche) et de l'avant de la cuisse (quadriceps) : c'est le cœur du traitement.
+  - Allonger et dégourdir les jambes régulièrement si vous restez assis longtemps.
+  - Réduire temporairement les descentes d'escaliers rapides et la course en pente ; si vous courez, diminuer un peu la distance et faire des pas légèrement plus courts.
+  - Demander à votre physiothérapeute un bandage adhésif de la rotule (taping) : il peut soulager à court terme pendant que vous commencez les exercices.
+
+À ÉVITER POUR L'INSTANT
+  - Faire des squats profonds ou des fentes très basses tant qu'ils déclenchent une douleur de plus de 3 sur 10.
+  - Rester assis les genoux très pliés pendant des heures sans bouger.
+  - Laisser le genou rentrer vers l'intérieur dans les escaliers.
+  - Arrêter toute activité en attendant que la douleur passe : le repos complet n'aide pas.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Genou qui enfle beaucoup, devient chaud ou rouge.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Blocage véritable du genou (impossible de le tendre ou de le plier).
+  - Sensation que le genou lâche ou que la rotule se déboîte.
+  - Aucune amélioration après 8 à 12 semaines d'exercices réguliers.
+
+DURÉE HABITUELLE
+  Amélioration notable en 6 à 12 semaines d'exercices réguliers ; la récupération complète peut prendre plusieurs mois.
+
+PROGRAMME D'EXERCICES
+  Matériel : élastique, marche ou escalier, mur
+  Exercice 1 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat à la largeur des hanches.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+    Progression : Passez au pont sur une seule jambe ou ajoutez un élastique autour des genoux.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos au lieu de serrer les fessiers.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier.
+  Exercice 2 : Lever de jambe sur le côté (moyen fessier)
+    Phase : Dès maintenant
+    But : Pour renforcer le muscle qui contrôle le genou.
+    Départ : Couché sur le côté, jambe du dessous légèrement pliée, jambe du dessus tendue dans l'axe du corps.
+    Mouvement : Montez la jambe du dessus vers le plafond en gardant le pied parallèle au sol (orteils pointés droit devant), puis redescendez en 3 secondes.
+    Dosage : 3 séries de 12 répétitions de chaque côté, 3 à 4 fois par semaine.
+    Progression : Ajoutez un élastique léger autour des genoux, puis autour des chevilles.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Laisser le bassin rouler vers l'arrière ou pointer les orteils vers le plafond.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure tendue.
+  Exercice 3 : Chaise au mur (amplitude confortable)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses sans irriter la rotule.
+    Départ : Debout, dos appuyé contre un mur, pieds avancés d'environ 30 à 40 cm et écartés à la largeur des hanches.
+    Mouvement : Glissez le dos vers le bas jusqu'à plier les genoux à environ 45 degrés, genoux au-dessus des chevilles et alignés avec le 2e orteil. Tenez 20 à 30 secondes, puis remontez.
+    Dosage : 3 répétitions, 3 à 4 fois par semaine.
+    Progression : Tenez 45 secondes, puis descendez un peu plus bas (jusqu'à 60 degrés) si la douleur reste à 3 sur 10 ou moins.
+    Plus facile : Pliez moins, 15 secondes.
+    Erreur fréquente : Laisser les genoux rentrer l'un vers l'autre.
+    Illustration demandée : Dessin au trait d'une personne dos au mur en position assise partielle, genoux bien alignés.
+  Exercice 4 : Descente lente d'une marche (step-down)
+    Phase : Pour progresser
+    But : Pour contrôler le genou dans les escaliers.
+    Départ : Debout sur une marche basse (10 à 15 cm), une main près d'une rampe, une jambe dans le vide devant.
+    Mouvement : Pliez lentement le genou d'appui pour descendre effleurer le sol avec l'autre talon, en gardant le genou aligné avec le 2e orteil et le bassin horizontal, puis remontez.
+    Dosage : 3 séries de 10 répétitions par jambe, 3 fois par semaine (à commencer quand les trois premiers exercices sont bien tolérés).
+    Progression : Utilisez une marche un peu plus haute quand le contrôle est parfait.
+    Plus facile : Utilisez une marche plus basse.
+    Erreur fréquente : Laisser le genou rentrer vers l'intérieur ou se laisser tomber sur le talon.
+    Illustration demandée : Dessin au trait d'une personne debout sur une marche descendant lentement un talon vers le sol.
+
+RÉFÉRENCES
+  - Willy RW et al., Patellofemoral Pain (guide de pratique clinique), J Orthop Sports Phys Ther, 2019 (PMID: 31475628)
+
+=== FICHE GEN-02 · [genou/arthrose] ===
+Titre : Gonarthrose (arthrose du genou)
+Sous-titre : Douleur et raideur du genou
+Ancien titre : Arthrose du genou
+Diagnostic correspondant dans MSK Morand : Arthrose du genou
+
+EN BREF
+  - Bouger n'abîme pas votre genou : l'exercice est le traitement de base.
+  - Perdre du poids, s'il y a lieu, diminue la douleur.
+  - Les bienfaits durent tant que vous restez actif.
+
+CE QUE VOUS AVEZ
+  L'arthrose touche toute l'articulation du genou : le cartilage s'amincit et l'os, la membrane et les muscles autour du genou réagissent. Cela donne une raideur brève le matin (moins de 30 minutes) et une douleur à la marche ou dans les escaliers. Ce n'est pas une simple « usure » : bouger n'abîme pas votre genou. L'exercice régulier est le traitement de base : il renforce les muscles, entretient la mobilité et diminue la douleur. Ses bienfaits durent tant que vous restez actif.
+
+POURQUOI ÇA ARRIVE
+  - Âge et facteurs héréditaires.
+  - Ancienne blessure du genou.
+  - Surpoids et travail physique exigeant.
+
+SOULAGER LA DOULEUR
+  - Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.
+  - Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Marcher, faire du vélo stationnaire ou de l'aquaforme régulièrement.
+  - Renforcer les muscles des cuisses et des fesses 2 à 3 fois par semaine.
+  - Bouger doucement le genou le matin avant de vous lever.
+  - Si vous avez un surplus de poids, perdre au moins 5 % de votre poids (environ 4 à 5 kg si vous pesez 90 kg) diminue la douleur ; plus la perte est importante, plus le bénéfice est grand.
+
+À ÉVITER POUR L'INSTANT
+  - Rester inactif par peur d'abîmer votre genou : l'inactivité augmente la raideur, la faiblesse et la douleur.
+  - S'agenouiller longtemps sur un sol dur.
+  - Faire des activités avec chocs violents (sauts) quand le genou est enflé.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Genou soudainement très enflé, rouge et chaud, ou fièvre (urgence).
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Blocage mécanique complet du genou.
+  - Douleur constante la nuit ou au repos, ou raideur du matin qui dure plus de 30 minutes.
+  - Perte importante d'autonomie à la marche malgré 3 mois d'exercices.
+
+DURÉE HABITUELLE
+  Amélioration notable en 8 à 12 semaines ; les bienfaits se maintiennent si vous continuez à bouger régulièrement.
+
+PROGRAMME D'EXERCICES
+  Matériel : chaise, poids léger ou bouteille d'eau
+  Exercice 1 : Flexion et extension douces assises
+    Phase : Dès maintenant
+    But : Pour dégourdir le genou et chasser la raideur.
+    Départ : Assis sur une chaise, pieds au sol.
+    Mouvement : Tendez complètement une jambe devant vous en serrant la cuisse 3 secondes, puis repliez le genou le plus loin possible sous la chaise.
+    Dosage : 10 répétitions par jambe, 2 fois par jour (idéal au réveil pour chasser la raideur).
+    Progression : Tenez 5 secondes jambe tendue, puis ajoutez un poids léger (0,5 à 1 kg) à la cheville.
+    Plus facile : Faites un plus petit mouvement.
+    Erreur fréquente : Ne pas tendre le genou au maximum ou se pencher vers l'arrière.
+    Illustration demandée : Dessin au trait d'une personne assise sur une chaise tendant une jambe devant elle.
+  Exercice 2 : Pont fessier
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Tenez 5 secondes en haut, puis essayez sur une seule jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier.
+  Exercice 3 : Assis-debout contrôlé
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses et faciliter les gestes du quotidien.
+    Départ : Assis sur une chaise solide, pieds à la largeur des hanches.
+    Mouvement : Penchez légèrement le buste en avant, levez-vous sans vous aider des mains si possible, puis rasseyez-vous lentement en 3 secondes.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Effleurez la chaise sans vous asseoir avant de remonter, puis utilisez une chaise plus basse ou tenez un poids contre la poitrine.
+    Plus facile : Utilisez une chaise plus haute ou aidez-vous des mains.
+    Erreur fréquente : Se laisser tomber sur la chaise ou laisser les genoux rentrer vers l'intérieur.
+    Illustration demandée : Dessin au trait d'une personne se levant et se rasseyant lentement d'une chaise.
+  Exercice 4 : Vélo stationnaire (ou marche à plat)
+    Phase : Dès maintenant
+    But : Pour bouger le genou sans le charger.
+    Départ : Assis sur un vélo stationnaire, selle assez haute pour que la jambe soit presque tendue en bas du coup de pédale.
+    Mouvement : Pédalez à résistance légère et à rythme régulier ; vous devez pouvoir parler sans être essoufflé. Sans vélo, marchez à plat d'un bon pas.
+    Dosage : 15 à 25 minutes, 3 à 5 fois par semaine.
+    Progression : Augmentez doucement la durée (viser 30 minutes), puis la résistance.
+    Plus facile : Pédalez 5 minutes, sans résistance.
+    Erreur fréquente : Régler la selle trop bas, ce qui plie trop le genou.
+    Illustration demandée : Dessin au trait d'une personne pédalant calmement sur un vélo stationnaire.
+
+RÉFÉRENCES
+  - Lawford BJ et al., Exercise for osteoarthritis of the knee, Cochrane Database Syst Rev, 2024 (PMID: 39625083)
+  - Bannuru RR et al., OARSI guidelines, Osteoarthritis Cartilage, 2019 (PMID: 31278997)
+
+=== FICHE GEN-03 · [genou/menisque] ===
+Titre : Déchirure méniscale
+Sous-titre : Lésion du ménisque, le coussin du genou
+Ancien titre : Lésion du ménisque (coussin du genou)
+Diagnostic correspondant dans MSK Morand : Déchirure méniscale (sans blocage du genou)
+
+EN BREF
+  - Le ménisque présente une fissure, souvent liée à l'âge.
+  - Sans blocage, les exercices donnent d'aussi bons résultats que la chirurgie.
+  - Comptez environ 3 mois d'exercices bien faits.
+
+CE QUE VOUS AVEZ
+  Un des deux petits coussins amortisseurs de votre genou (le ménisque) présente une fissure. Quand la fissure est apparue progressivement, sans gros accident, et que le genou ne se bloque pas (situation la plus fréquente après 35 à 40 ans), les études montrent qu'un programme d'exercices d'environ 12 semaines donne d'aussi bons résultats que la chirurgie, sans les risques d'une opération. Chez l'adulte plus jeune dont le genou ne bloque pas, commencer par les exercices est aussi une option à discuter avec votre médecin. Une opération reste possible plus tard si les exercices ne suffisent pas.
+
+POURQUOI ÇA ARRIVE
+  - Usure normale du ménisque avec l'âge.
+  - Torsion du genou, souvent en se relevant d'une position accroupie.
+  - Travail à genoux ou accroupi.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, si le genou est enflé.
+  - Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Renforcer progressivement les muscles de la cuisse et des hanches, 2 à 3 fois par semaine pendant au moins 12 semaines.
+  - Faire du vélo stationnaire sans résistance forte pour garder le genou souple.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après l'effort si le genou est un peu enflé.
+  - Rester actif dans les limites de la règle de douleur.
+
+À ÉVITER POUR L'INSTANT
+  - S'accroupir complètement ou s'asseoir sur les talons.
+  - Pivoter brusquement sur le genou douloureux, pied bloqué au sol (sports de pivot).
+  - Forcer l'extension ou la flexion si le genou semble bloqué.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Genou bloqué (impossible de le tendre complètement) : avis orthopédique rapide.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Gonflement important qui revient après chaque marche.
+  - Sensation fréquente que le genou lâche ou se dérobe.
+  - Pas d'amélioration après 12 semaines (3 mois) d'exercices bien faits.
+
+DURÉE HABITUELLE
+  Amélioration habituelle en 6 à 12 semaines ; poursuivre le programme au moins 12 semaines.
+
+PROGRAMME D'EXERCICES
+  Matériel : serviette, marche ou escalier
+  Exercice 1 : Contraction statique du quadriceps
+    Phase : Dès maintenant
+    But : Pour réveiller le muscle de la cuisse.
+    Départ : Assis, jambes allongées devant vous, une petite serviette roulée sous le genou.
+    Mouvement : Écrasez la serviette avec l'arrière du genou en serrant fort le dessus de la cuisse pendant 5 secondes (le talon peut décoller légèrement), puis relâchez.
+    Dosage : 3 séries de 10 répétitions, 2 fois par jour.
+    Progression : Passez à l'élévation de la jambe tendue.
+    Plus facile : Serrez plus doucement, 3 secondes.
+    Erreur fréquente : Serrer la fesse ou soulever la hanche au lieu de contracter la cuisse.
+    Illustration demandée : Dessin au trait d'une jambe tendue avec une serviette roulée sous le genou.
+  Exercice 2 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Passez au pont sur une jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+  Exercice 3 : Mini-squat contrôlé
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses.
+    Départ : Debout, pieds à la largeur des épaules.
+    Mouvement : Pliez les genoux jusqu'à environ 45 à 60 degrés (pas plus bas), genoux alignés avec les orteils, puis remontez.
+    Dosage : 3 séries de 10 à 12 répétitions, 3 fois par semaine.
+    Progression : Ajoutez des montées lentes sur une marche basse (step-up).
+    Plus facile : Pliez moins, avec un appui.
+    Erreur fréquente : Descendre en squat complet ou laisser le genou rentrer vers l'intérieur.
+    Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat contrôlé.
+
+RÉFÉRENCES
+  - Kise NJ et al., BMJ, 2016 (PMID: 27440192)
+  - Logerstedt DS et al., Meniscal and Articular Cartilage Lesions (guide de pratique clinique), J Orthop Sports Phys Ther, 2018 (PMID: 29385940)
+
+=== FICHE GEN-04 · [genou/lca] ===
+Titre : Rupture du ligament croisé antérieur (LCA)
+Sous-titre : Déchirure du ligament croisé antérieur : première phase
+Ancien titre : Déchirure du ligament croisé antérieur (première phase)
+Diagnostic correspondant dans MSK Morand : Rupture du LCA
+
+EN BREF
+  - Le ligament croisé antérieur est déchiré.
+  - Avec ou sans chirurgie plus tard, la première étape est la même : retrouver l'extension et réveiller la cuisse.
+  - Le retour aux sports avec pivots se décide avec votre médecin.
+
+CE QUE VOUS AVEZ
+  Le ligament croisé antérieur, qui stabilise le genou lors des pivots, est déchiré. Que vous ayez une chirurgie plus tard ou non, la première étape est la même et elle est essentielle : faire dégonfler le genou, retrouver l'extension complète (jambe bien droite), réveiller les muscles de la cuisse et marcher sans boiter.
+
+POURQUOI ÇA ARRIVE
+  - Pivot, changement de direction ou réception de saut, souvent sans contact.
+  - Sports comme le soccer, le ski, le basketball ou le hockey.
+
+SOULAGER LA DOULEUR
+  - Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+  - Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Mettre de la glace 15 minutes (avec un linge sur la peau) et surélever la jambe pour diminuer l'enflure.
+  - Utiliser des béquilles au début si vous boitez, puis marcher normalement dès que possible.
+  - Retrouver rapidement la capacité de tendre complètement le genou.
+  - Commencer un suivi en physiothérapie et en orthopédie pour planifier la suite.
+
+À ÉVITER POUR L'INSTANT
+  - Reprendre un sport de pivot, de saut ou de changement de direction (risque d'abîmer les ménisques et le cartilage).
+  - Dormir avec un oreiller sous le genou plié (placez-le plutôt sous le talon pour garder la jambe droite).
+  - Forcer la flexion quand le genou est très enflé.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou si le genou enfle davantage, réduisez l'amplitude ou le nombre de répétitions.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Gonflement énorme et très douloureux, ou fièvre.
+  - Engourdissements, pied qui tombe, ou mollet douloureux, enflé et chaud (urgence).
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Genou qui reste bloqué, impossible à tendre complètement.
+  - Épisodes répétés où le genou lâche dans les activités de tous les jours.
+
+DURÉE HABITUELLE
+  Phase initiale de 4 à 6 semaines pour dégonfler le genou et retrouver la mobilité et la force de base. La réadaptation complète dure plusieurs mois ; après une reconstruction, le retour aux sports de pivot se fait rarement avant 9 à 12 mois et seulement après avoir réussi des tests de force et de saut.
+
+PROGRAMME D'EXERCICES
+  Matériel : serviette, poids léger ou bouteille d'eau, coussin
+  Exercice 1 : Extension passive du genou (talon surélevé)
+    Phase : Dès maintenant
+    But : Pour retrouver l'extension complète du genou.
+    Départ : Assis ou couché, talon posé sur une serviette roulée ou un petit coussin, de façon que l'arrière du genou soit dans le vide.
+    Mouvement : Relâchez complètement la cuisse et laissez la gravité redresser le genou.
+    Dosage : 5 minutes, 3 fois par jour.
+    Progression : Appuyez très doucement avec les mains juste au-dessus de la rotule si c'est confortable.
+    Plus facile : Tenez 2 minutes.
+    Erreur fréquente : Placer le coussin sous le genou au lieu du talon.
+    Illustration demandée : Dessin au trait d'une jambe allongée avec une serviette roulée sous la cheville pour laisser le genou s'étendre.
+  Exercice 2 : Réveil du quadriceps et lever de jambe tendue
+    Phase : Dès maintenant
+    But : Pour réveiller la cuisse.
+    Départ : Couché sur le dos, l'autre genou plié, la jambe blessée bien tendue.
+    Mouvement : Serrez fort la cuisse pour verrouiller le genou droit, puis levez la jambe tendue à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 2 fois par jour.
+    Progression : Enchaînez avec les mini-squats sur deux pieds dès que le genou est dégonflé.
+    Plus facile : Faites seulement la contraction, sans lever la jambe.
+    Erreur fréquente : Laisser le genou plier légèrement en levant la jambe (signe que le quadriceps n'est pas encore assez réveillé).
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe parfaitement tendue.
+  Exercice 3 : Glissement du talon pour plier le genou
+    Phase : Dès maintenant
+    But : Pour retrouver la flexion du genou.
+    Départ : Couché sur le dos ou assis, jambe allongée.
+    Mouvement : Faites glisser doucement le talon vers la fesse, en vous aidant au besoin d'une serviette passée sous le pied, sans forcer.
+    Dosage : 10 répétitions, 3 fois par jour.
+    Progression : Passez au vélo stationnaire (mouvements de balancier, puis tours complets) dès que le genou plie à environ 100 à 110 degrés.
+    Plus facile : Pliez moins loin.
+    Erreur fréquente : Forcer brutalement la flexion.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos glissant le talon vers la fesse.
+  Exercice 4 : Transferts de poids et mini-squats sur deux jambes
+    Phase : Quand la douleur diminue
+    But : Pour reprendre l'appui et la force.
+    Départ : Debout devant un comptoir, mains en appui léger.
+    Mouvement : Pliez doucement les deux genoux à 30 à 45 degrés en répartissant le poids également sur les deux jambes, puis remontez.
+    Dosage : 3 séries de 10 répétitions, 1 fois par jour (dès que vous marchez sans boiter).
+    Progression : Travaillez l'équilibre sur la jambe blessée, près d'un appui.
+    Plus facile : Gardez les mains sur un appui.
+    Erreur fréquente : Mettre tout le poids sur la jambe saine.
+    Illustration demandée : Dessin au trait d'une personne debout mains sur un comptoir réalisant un petit squat symétrique.
+
+RÉFÉRENCES
+  - Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017 (PMID: 29089004)
+  - van Melick N et al., Br J Sports Med, 2016 (PMID: 27539507)
+
+=== FICHE GEN-05 · [genou/lcp] ===
+Titre : Entorse du ligament croisé postérieur (LCP)
+Sous-titre : Entorse d'un ligament au centre du genou
+Ancien titre : Entorse du ligament croisé postérieur (LCP)
+Diagnostic correspondant dans MSK Morand : Entorse du LCP
+
+EN BREF
+  - Le ligament à l'arrière du centre du genou est étiré ou partiellement déchiré.
+  - La plupart de ces entorses guérissent sans chirurgie.
+  - Renforcer la cuisse est la clé du traitement.
+
+CE QUE VOUS AVEZ
+  Le ligament situé à l'arrière du centre du genou (le LCP), qui empêche le tibia de glisser vers l'arrière, a été étiré ou partiellement déchiré, souvent après un choc sur l'avant du genou plié. Pour la majorité des entorses isolées, renforcer solidement le muscle du devant de la cuisse (quadriceps) permet de bien compenser sans chirurgie.
+
+POURQUOI ÇA ARRIVE
+  - Choc sur le devant du tibia, genou plié (tableau de bord, chute sur le genou).
+
+SOULAGER LA DOULEUR
+  - Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+  - Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Porter l'orthèse prescrite par votre médecin pendant toute la durée indiquée (souvent plusieurs semaines).
+  - Renforcer en priorité le quadriceps (devant de la cuisse).
+  - Au repos, placer un petit coussin sous le mollet pour soutenir le tibia (pas sous le talon seul, ni derrière le genou).
+  - Reprendre la course et le sport par étapes avec votre physiothérapeute.
+
+À ÉVITER POUR L'INSTANT
+  - Faire travailler les muscles de l'arrière de la cuisse (ischio-jambiers) : pas de flexion active du genou pendant au moins 6 semaines, et pas de flexion contre résistance (machine, élastique) avant environ 3 à 4 mois, sauf avis de votre physiothérapeute.
+  - Plier le genou à plus de 90 degrés pendant les 2 premières semaines, ou descendre à plus de 70 degrés en squat pendant les premières semaines.
+  - S'agenouiller sur l'avant du tibia ou pousser le genou en hyperextension.
+  - Descendre des pentes raides au début.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Engourdissements, picotements dans le pied, pied froid ou pâle, ou pied qui tombe après le choc (urgence).
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Sensation que le genou est très instable ou part vers l'arrière ou sur le côté.
+  - Gonflement qui ne diminue pas après 2 semaines.
+  - Pas d'amélioration après 3 mois de physiothérapie.
+
+DURÉE HABITUELLE
+  Reprise des activités quotidiennes en 6 à 12 semaines ; course vers 3 mois et retour complet au sport souvent entre 4 et 6 mois.
+
+PROGRAMME D'EXERCICES
+  Matériel : marche ou escalier, mur, poids léger ou bouteille d'eau
+  Exercice 1 : Contraction du quadriceps et lever de jambe tendue
+    Phase : Dès maintenant
+    But : Pour renforcer la cuisse, qui protège le ligament.
+    Départ : Couché sur le dos, jambe blessée tendue, l'autre genou plié.
+    Mouvement : Serrez fort le dessus de la cuisse pour verrouiller le genou droit, puis levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 2 fois par jour.
+    Progression : Ajoutez un petit poids à la cheville.
+    Plus facile : Faites seulement la contraction.
+    Erreur fréquente : Relâcher la cuisse et laisser le genou plier pendant la levée.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe parfaitement tendue.
+  Exercice 2 : Chaise au mur (amplitude modérée)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses.
+    Départ : Debout, dos au mur, pieds avancés d'environ 30 à 40 cm.
+    Mouvement : Glissez le dos le long du mur jusqu'à plier les genoux à 45 degrés, tenez 20 à 30 secondes, puis remontez.
+    Dosage : 3 répétitions, 3 à 4 fois par semaine.
+    Progression : Tenez 45 secondes, puis descendez jusqu'à 60 degrés.
+    Plus facile : Pliez moins, 15 secondes.
+    Erreur fréquente : Descendre trop bas (au-delà de 70 degrés) dans les premières semaines.
+    Illustration demandée : Dessin au trait d'une personne dos au mur en position de chaise partielle.
+  Exercice 3 : Montée d'une marche (step-up)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer la jambe dans les escaliers.
+    Départ : Debout face à une marche basse, pied du côté blessé posé sur la marche.
+    Mouvement : Poussez dans le pied pour monter sur la marche en serrant la cuisse, puis redescendez lentement en 3 secondes.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Augmentez la hauteur de la marche après 4 à 6 semaines.
+    Plus facile : Utilisez une marche plus basse.
+    Erreur fréquente : Laisser le genou partir vers l'intérieur.
+    Illustration demandée : Dessin au trait d'une personne montant lentement une marche d'escalier.
+
+RÉFÉRENCES
+  - Pierce CM et al., Knee Surg Sports Traumatol Arthrosc, 2013 (PMID: 22484415)
+  - Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017 (PMID: 29089004)
+
+=== FICHE GEN-06 · [genou/collat] ===
+Titre : Entorse d'un ligament collatéral du genou
+Sous-titre : Entorse d'un ligament sur le côté du genou
+Ancien titre : Entorse d'un ligament sur le côté du genou
+Diagnostic correspondant dans MSK Morand : Entorse légère à modérée d'un ligament collatéral (médial/LLI ou latéral/LLE)
+
+EN BREF
+  - Un ligament sur le côté du genou est étiré ou partiellement déchiré.
+  - Les entorses légères à modérées guérissent bien sans chirurgie.
+  - Comptez quelques semaines avant le retour au sport.
+
+CE QUE VOUS AVEZ
+  Le ligament situé sur le côté intérieur (le plus souvent) ou extérieur de votre genou a été étiré ou partiellement déchiré après une torsion ou un choc sur le côté. Le ligament intérieur guérit presque toujours sans chirurgie, avec un peu de protection et un renforcement progressif. Les entorses légères à modérées du ligament extérieur guérissent aussi sans opération ; une déchirure complète du côté extérieur doit par contre être évaluée rapidement en orthopédie. Cette fiche s'adresse aux entorses légères à modérées.
+
+POURQUOI ÇA ARRIVE
+  - Choc sur le côté du genou ou torsion (hockey, soccer, ski).
+
+SOULAGER LA DOULEUR
+  - Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+  - Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Porter l'orthèse articulée prescrite par votre médecin si l'entorse est modérée (souvent environ 6 semaines).
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après les activités les premiers jours.
+  - Faire du vélo stationnaire sans résistance forte pour garder le genou souple.
+  - Renforcer les cuisses et les hanches avant de reprendre les sports de pivot.
+
+À ÉVITER POUR L'INSTANT
+  - Faire des mouvements qui écartent ou tordent le côté blessé du genou (par exemple la brasse pour le ligament intérieur).
+  - Courir avec des changements de direction avant d'avoir retrouvé la force.
+  - Forcer l'extension ou la flexion si le côté du genou tire fort.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Engourdissement sur le dessus du pied ou difficulté à relever le pied ou les orteils (surtout après une blessure du côté extérieur) : urgence.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Genou qui reste instable sur le côté, même jambe tendue.
+  - Blocage mécanique du genou.
+  - Douleur ou instabilité qui ne diminue pas après 4 semaines.
+
+DURÉE HABITUELLE
+  Entorse légère : 2 à 4 semaines. Entorse modérée : 4 à 6 semaines. Entorse plus sévère du ligament intérieur : 6 à 8 semaines ou plus.
+
+PROGRAMME D'EXERCICES
+  Matériel : élastique, poids léger ou bouteille d'eau
+  Exercice 1 : Mobilité douce en flexion-extension
+    Phase : Dès maintenant
+    But : Pour garder le genou mobile.
+    Départ : Assis ou couché sur le dos.
+    Mouvement : Pliez et tendez doucement le genou dans la zone confortable, en gardant le pied droit, sans tourner la jambe.
+    Dosage : 10 répétitions, 2 à 3 fois par jour.
+    Progression : Passez au vélo stationnaire léger dès que vous pouvez faire un tour de pédale complet sans douleur.
+    Plus facile : Faites un plus petit mouvement.
+    Erreur fréquente : Tourner le pied vers l'extérieur en pliant le genou.
+    Illustration demandée : Dessin au trait d'une personne assise pliant et tendant doucement le genou dans l'axe.
+  Exercice 2 : Contraction du quadriceps et lever de jambe tendue
+    Phase : Dès maintenant
+    But : Pour renforcer la cuisse.
+    Départ : Couché sur le dos, jambe blessée tendue, l'autre genou plié.
+    Mouvement : Serrez la cuisse, verrouillez le genou droit et levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 1 à 2 fois par jour.
+    Progression : Ajoutez un petit poids à la cheville.
+    Plus facile : Faites seulement la contraction.
+    Erreur fréquente : Laisser le genou plier.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant la jambe tendue.
+  Exercice 3 : Mini-squats contrôlés dans l'axe
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses dans l'axe.
+    Départ : Debout devant un miroir, pieds à la largeur des hanches.
+    Mouvement : Pliez les genoux à 45 degrés en gardant les genoux alignés avec le 2e orteil, puis remontez.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Passez aux fentes contrôlées, puis aux pas latéraux avec élastique.
+    Plus facile : Pliez moins, avec un appui.
+    Erreur fréquente : Laisser le genou blessé rentrer vers l'intérieur.
+    Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat devant un miroir, genoux bien alignés.
+
+RÉFÉRENCES
+  - Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017 (PMID: 29089004)
+  - LaPrade RF et al., consensus international sur le point d'angle postéro-latéral, Arthroscopy, 2025 (PMID: 40414466)
+
+=== FICHE GEN-07 · [genou/rotule] ===
+Titre : Instabilité ou luxation de la rotule
+Sous-titre : Rotule qui se déplace ou est instable
+Ancien titre : Rotule qui se déplace ou est instable
+Diagnostic correspondant dans MSK Morand : Instabilité ou luxation de la rotule
+
+EN BREF
+  - La rotule est sortie de sa glissière ou a tendance à partir sur le côté.
+  - Renforcer les fessiers et les cuisses la stabilise.
+  - Une chirurgie est discutée si les épisodes se répètent.
+
+CE QUE VOUS AVEZ
+  Votre rotule est sortie de sa glissière (luxation) ou donne l'impression de vouloir partir sur le côté. Après la courte période d'attelle ou de repos conseillée par votre médecin, renforcer le devant de la cuisse et les muscles des hanches aide à stabiliser la rotule. Environ une personne sur trois refait une luxation dans les années qui suivent, surtout chez les plus jeunes : si cela se reproduit, reconsultez.
+
+POURQUOI ÇA ARRIVE
+  - Pivot, genou plié, sans contact.
+  - Forme particulière de la rotule ou de sa glissière.
+  - Ligaments souples.
+
+SOULAGER LA DOULEUR
+  - Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+  - Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Suivre les consignes d'attelle de votre médecin dans les premières semaines.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après les exercices si le genou est sensible.
+  - Renforcer le quadriceps et les fessiers pour stabiliser le genou.
+  - Garder le genou bien aligné avec le pied dans les escaliers et les squats.
+
+À ÉVITER POUR L'INSTANT
+  - Pivoter sur le pied avec le genou légèrement plié (ce mouvement pousse la rotule vers l'extérieur).
+  - Faire des squats profonds tant que le contrôle du genou n'est pas solide.
+  - Reprendre les sports de pivot, de saut ou de contact sans feu vert médical.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Arrêtez immédiatement tout mouvement qui donne l'impression que la rotule va glisser.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Nouvelle luxation ou nouvel épisode où la rotule part sur le côté.
+  - Gonflement très important et rapide du genou.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Blocage ou accrochage dans le genou (fragment de cartilage ou d'os possible).
+  - Sensation persistante que la rotule va se déboîter malgré 3 mois d'exercices.
+
+DURÉE HABITUELLE
+  Réadaptation de base en 6 à 12 semaines ; retour aux sports de pivot ou de contact habituellement pas avant environ 3 mois, une fois la force retrouvée.
+
+PROGRAMME D'EXERCICES
+  Matériel : élastique, mur, poids léger ou bouteille d'eau
+  Exercice 1 : Contraction statique du quadriceps et lever de jambe tendue
+    Phase : Dès maintenant
+    But : Pour renforcer la cuisse.
+    Départ : Couché sur le dos, jambe atteinte tendue, l'autre genou plié.
+    Mouvement : Serrez la cuisse pour verrouiller le genou droit et levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 1 à 2 fois par jour.
+    Progression : Ajoutez un petit poids à la cheville.
+    Plus facile : Faites seulement la contraction.
+    Erreur fréquente : Laisser la pointe du pied tourner vers l'extérieur.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.
+  Exercice 2 : Lever de jambe sur le côté (fessiers)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les fessiers, qui gardent le genou dans l'axe.
+    Départ : Couché sur le côté non atteint, jambe du dessous légèrement pliée, jambe du dessus tendue.
+    Mouvement : Montez la jambe du dessus vers le plafond en gardant le pied parallèle au sol, puis redescendez en 3 secondes.
+    Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+    Progression : Ajoutez un élastique léger autour des genoux.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Laisser le bassin rouler vers l'arrière.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure.
+  Exercice 3 : Chaise au mur, genoux alignés (petite amplitude)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses, genoux bien alignés.
+    Départ : Debout, dos au mur, pieds avancés d'environ 30 cm et écartés à la largeur des hanches.
+    Mouvement : Glissez le dos vers le bas jusqu'à plier les genoux à environ 30 à 45 degrés, genoux alignés avec le 2e orteil. Tenez 20 secondes et remontez.
+    Dosage : 3 répétitions, 3 fois par semaine.
+    Progression : Placez un élastique léger autour des genoux et gardez-les écartés ; n'augmentez l'amplitude que si la rotule est parfaitement stable.
+    Plus facile : Pliez moins, 15 secondes.
+    Erreur fréquente : Laisser les genoux rentrer l'un vers l'autre ou descendre trop bas trop tôt.
+    Illustration demandée : Dessin au trait d'une personne dos au mur en chaise partielle, genoux alignés avec les pieds.
+
+RÉFÉRENCES
+  - Watson R et al., Lateral Patellar Dislocation: rehabilitation practice guidelines, JBJS Rev, 2022 (PMID: 35748823)
+
+=== FICHE GEN-08 · [genou/tendino] ===
+Titre : Tendinopathie rotulienne ou quadricipitale
+Sous-titre : Tendinite sous ou au-dessus de la rotule
+Ancien titre : Tendinopathie (« tendinite ») sous ou au-dessus de la rotule
+Diagnostic correspondant dans MSK Morand : Tendinopathie rotulienne ou quadricipitale
+
+EN BREF
+  - Le tendon sous ou au-dessus de la rotule est irrité par les sauts ou la musculation.
+  - Le repos complet guérit mal ; un renforcement progressif est le traitement.
+  - Comptez souvent 3 mois ou plus.
+
+CE QUE VOUS AVEZ
+  Le tendon situé juste sous la rotule (ou juste au-dessus) est devenu douloureux à force de sauts, de sprints ou de musculation. Le repos complet ne guérit pas bien ces tendons : ils ont besoin d'exercices lents, contrôlés et de plus en plus chargés pour redevenir résistants. La guérison est lente : comptez plusieurs mois.
+
+POURQUOI ÇA ARRIVE
+  - Sauts et sprints répétés (volleyball, basketball).
+  - Hausse rapide de l'entraînement.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+  - Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.
+  - Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement.
+
+CE QUI AIDE
+  - Réduire temporairement les sauts et les sprints (garder le vélo ou la marche s'ils sont bien tolérés).
+  - Renforcer la cuisse avec des exercices lents et de plus en plus lourds.
+  - Réintroduire les sauts par étapes, seulement quand les exercices lents chargés provoquent une douleur de 3 sur 10 ou moins.
+  - Utiliser une sangle sous-rotulienne si elle vous soulage pendant l'activité (effet de courte durée ; elle ne guérit pas le tendon).
+  - Être régulier et patient : les tendons s'adaptent lentement.
+
+À ÉVITER POUR L'INSTANT
+  - Continuer les sauts intenses (basketball, volleyball) malgré une douleur qui empire le lendemain.
+  - Étirer fort l'avant de la cuisse si cela réveille la douleur du tendon.
+  - Arrêter toute activité pendant des mois, puis reprendre à fond d'un coup.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice et si elle n'augmente pas d'une semaine à l'autre. Sinon, réduisez la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Claquement brutal avec impossibilité de tendre le genou (rupture du tendon : urgence).
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Gonflement important, rougeur ou chaleur sur le tendon.
+  - Douleur qui empire malgré la diminution des sauts.
+  - Aucun progrès après 12 semaines d'exercices réguliers.
+
+DURÉE HABITUELLE
+  Premiers progrès en 6 à 12 semaines de renforcement progressif ; la récupération complète et le retour aux sauts prennent souvent 3 à 6 mois, parfois plus.
+
+PROGRAMME D'EXERCICES
+  Matériel : chaise, mur, poids léger ou bouteille d'eau
+  Exercice 1 : Chaise au mur statique (isométrique)
+    Phase : Dès maintenant
+    But : Pour calmer la douleur du tendon.
+    Départ : Debout, dos appuyé contre un mur, pieds avancés d'environ 40 à 50 cm.
+    Mouvement : Glissez le dos pour plier les genoux à environ 60 degrés et tenez la position immobile pendant 30 à 45 secondes.
+    Dosage : 4 à 5 répétitions avec 1 à 2 minutes de repos entre chacune, 1 fois par jour. Cet exercice peut soulager la douleur pendant un court moment : il peut être fait avant le sport.
+    Progression : Passez à la chaise au mur sur une jambe.
+    Plus facile : Pliez moins, 20 secondes.
+    Erreur fréquente : Raccourcir les temps de repos ou laisser les genoux avancer au-delà des orteils.
+    Illustration demandée : Dessin au trait d'un sportif dos au mur maintenant la position de la chaise.
+  Exercice 2 : Squat lent contrôlé
+    Phase : Quand la douleur diminue
+    But : Pour renforcer le tendon.
+    Départ : Debout, pieds à la largeur des épaules.
+    Mouvement : Descendez lentement en 3 secondes jusqu'à plier les genoux à 60 à 75 degrés (puis, au fil des semaines, jusqu'à 90 degrés), et remontez lentement en 3 secondes.
+    Dosage : 3 à 4 séries de 10 à 15 répétitions, 3 fois par semaine (un jour sur deux).
+    Progression : Quand 15 répétitions sont faciles, ajoutez de la charge (sac à dos lesté, haltère contre la poitrine, presse à cuisses en salle) et diminuez peu à peu jusqu'à 6 à 8 répétitions plus lourdes. C'est cette charge lourde et lente qui renforce le tendon.
+    Plus facile : Descendez moins bas.
+    Erreur fréquente : Faire les répétitions trop vite ou rester toujours au poids du corps.
+    Illustration demandée : Dessin au trait d'un sportif réalisant un squat très lent, dos droit.
+  Exercice 3 : Fente lente contrôlée
+    Phase : Pour progresser
+    But : Pour préparer le retour aux sauts.
+    Départ : Debout, un grand pas devant l'autre, mains sur les hanches.
+    Mouvement : Descendez le genou arrière vers le sol en 3 secondes en gardant le genou avant aligné avec le pied, puis remontez en 3 secondes.
+    Dosage : 3 séries de 8 à 10 répétitions par jambe, 3 fois par semaine.
+    Progression : Ajoutez des poids dans les mains quand les 3 séries sont bien tolérées.
+    Plus facile : Faites une plus petite fente, avec un appui.
+    Erreur fréquente : Laisser le genou avant rentrer vers l'intérieur.
+    Illustration demandée : Dessin au trait d'un sportif réalisant une fente contrôlée.
+
+RÉFÉRENCES
+  - Kongsgaard M et al., Scand J Med Sci Sports, 2009 (PMID: 19793213)
+  - Breda SJ et al., Br J Sports Med, 2021 (PMID: 33219115)
+
+=== FICHE GEN-09 · [genou/hoffa] ===
+Titre : Syndrome du coussinet adipeux (maladie de Hoffa)
+Sous-titre : Irritation du coussinet sous la rotule
+Ancien titre : Irritation du coussinet sous la rotule (syndrome de Hoffa)
+Diagnostic correspondant dans MSK Morand : Syndrome du coussinet adipeux (Hoffa)
+
+EN BREF
+  - Un petit coussin de graisse sous la rotule est pincé quand le genou se verrouille.
+  - Éviter de verrouiller le genou vers l'arrière le soulage.
+  - Le renforcement des hanches et des cuisses aide.
+
+CE QUE VOUS AVEZ
+  Un petit coussin de graisse très sensible, situé juste derrière le tendon sous la rotule, est pincé quand vous verrouillez le genou tout droit ou vers l'arrière. Éviter de bloquer le genou en hyperextension et renforcer les cuisses et les hanches calment habituellement ce pincement.
+
+POURQUOI ÇA ARRIVE
+  - Genou verrouillé vers l'arrière en position debout.
+  - Coup sur le devant du genou.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.
+  - Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Garder le genou très légèrement déverrouillé (ne pas le pousser vers l'arrière) quand vous êtes debout.
+  - Renforcer les fessiers et les cuisses sans verrouiller le genou.
+  - Demander à votre physiothérapeute un bandage adhésif (taping) qui décharge le coussinet : il peut soulager.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sous la rotule après les activités.
+  - Essayer des chaussures avec un léger talon plutôt que complètement plates, si cela vous soulage.
+
+À ÉVITER POUR L'INSTANT
+  - Verrouiller les genoux fort vers l'arrière en position debout.
+  - Faire des levers de jambe tendue en poussant l'arrière du genou vers le sol.
+  - Tendre brusquement le genou à fond (botter un ballon, battements de jambes vigoureux à la nage).
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Genou enflé, chaud et rouge.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Blocage mécanique du genou.
+  - Sensation que le genou lâche.
+  - Douleur qui ne diminue pas après 6 à 8 semaines.
+
+DURÉE HABITUELLE
+  Amélioration souvent en 4 à 8 semaines, mais la durée varie d'une personne à l'autre.
+
+PROGRAMME D'EXERCICES
+  Matériel : élastique, marche ou escalier
+  Exercice 1 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+    Progression : Passez au pont sur une jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+  Exercice 2 : Lever de jambe sur le côté
+    Phase : Dès maintenant
+    But : Pour renforcer la hanche.
+    Départ : Couché sur le côté, jambe du dessous légèrement pliée, jambe du dessus tendue sans verrouiller le genou.
+    Mouvement : Montez la jambe vers le plafond sans tourner les orteils vers le haut, puis redescendez en 3 secondes.
+    Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+    Progression : Ajoutez un élastique léger autour des genoux.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Laisser le bassin rouler vers l'arrière.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure.
+  Exercice 3 : Mini-squat sans verrouiller en haut
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses sans pincer le coussin.
+    Départ : Debout, genoux légèrement déverrouillés.
+    Mouvement : Pliez les genoux à 45 degrés, puis remontez en gardant les genoux souples en haut (ne les claquez pas vers l'arrière).
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Ajoutez la descente lente d'une marche basse.
+    Plus facile : Pliez moins, avec un appui.
+    Erreur fréquente : Verrouiller brutalement le genou en remontant.
+    Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat en gardant les genoux souples en haut.
+
+RÉFÉRENCES
+  - Dragoo JL et al., Evaluation and treatment of disorders of the infrapatellar fat pad, Sports Med, 2012 (PMID: 22149697)
+
+=== FICHE GEN-10 · [genou/bit] ===
+Titre : Syndrome de la bandelette ilio-tibiale
+Sous-titre : Douleur à l'extérieur du genou
+Ancien titre : Douleur à l'extérieur du genou (bandelette ilio-tibiale)
+Diagnostic correspondant dans MSK Morand : Syndrome de la bandelette ilio-tibiale
+
+EN BREF
+  - Une bande fibreuse sur le côté de la cuisse irrite les tissus au-dessus du genou.
+  - Réduire temporairement la course ou le vélo la calme.
+  - Renforcer les hanches aide à éviter les rechutes.
+
+CE QUE VOUS AVEZ
+  La bandelette ilio-tibiale est une large bande fibreuse sur le côté de la cuisse. À la course ou au vélo, elle comprime de façon répétée les tissus sensibles situés dessous, sur le côté extérieur du genou. C'est avant tout un problème de surcharge (trop, trop vite), parfois accompagné d'un manque de force des hanches. Ajuster temporairement l'entraînement et renforcer les fessiers règlent habituellement le problème.
+
+POURQUOI ÇA ARRIVE
+  - Hausse rapide du kilométrage, surtout en descente.
+  - Course sur des surfaces inclinées.
+  - Hanches peu renforcées.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+  - Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.
+  - Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement.
+
+CE QUI AIDE
+  - Réduire temporairement la distance de course et éviter les descentes de côtes.
+  - Renforcer les muscles des fesses (abducteurs de la hanche) et du tronc.
+  - À la reprise, augmenter légèrement la cadence de course (5 à 10 % de pas en plus par minute, donc des pas un peu plus courts).
+  - À vélo, vérifier le réglage de la selle (une selle trop haute ou trop reculée irrite le côté du genou).
+
+À ÉVITER POUR L'INSTANT
+  - Courir malgré une douleur vive à l'extérieur du genou qui vous fait boiter.
+  - Rouler fort avec un rouleau en mousse directement sur la zone douloureuse (cela comprime davantage les tissus irrités).
+  - Courir sur des routes très inclinées sur le côté.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+QUAND RECONSULTER
+  - Gonflement du genou ou blocage mécanique.
+  - Engourdissements ou faiblesse du pied.
+  - Douleur qui ne diminue pas après 6 à 8 semaines malgré la diminution de la course.
+  - Douleur précise sur l'os qui persiste au repos ou la nuit (fracture de stress à écarter).
+
+DURÉE HABITUELLE
+  Amélioration habituelle en 4 à 8 semaines.
+
+PROGRAMME D'EXERCICES
+  Matériel : élastique, marche ou escalier
+  Exercice 1 : Lever de jambe sur le côté (moyen fessier)
+    Phase : Dès maintenant
+    But : Pour renforcer la hanche.
+    Départ : Couché sur le côté sain, jambe du dessous légèrement pliée, jambe du dessus tendue et légèrement ramenée vers l'arrière.
+    Mouvement : Montez la jambe du dessus vers le plafond en gardant le pied parallèle au sol, puis redescendez en 3 secondes.
+    Dosage : 3 séries de 12 à 15 répétitions, 3 fois par semaine.
+    Progression : Ajoutez un élastique autour des chevilles.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Laisser la jambe partir vers l'avant ou tourner les orteils vers le plafond.
+    Illustration demandée : Dessin au trait d'un coureur couché sur le côté soulevant la jambe supérieure tendue.
+  Exercice 2 : Pas latéraux avec élastique
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les muscles du côté de la hanche.
+    Départ : Debout, genoux légèrement pliés, un élastique autour des chevilles.
+    Mouvement : Faites 5 pas lents de côté vers la droite, puis 5 vers la gauche, en gardant les pieds parallèles et l'élastique tendu.
+    Dosage : 3 allers-retours, 3 fois par semaine.
+    Progression : Utilisez un élastique plus ferme.
+    Plus facile : Faites-le sans élastique.
+    Erreur fréquente : Pencher le buste sur le côté.
+    Illustration demandée : Dessin au trait d'un coureur faisant des pas de côté avec un élastique aux chevilles.
+  Exercice 3 : Descente lente d'une marche (contrôle sur une jambe)
+    Phase : Pour progresser
+    But : Pour contrôler le genou à la course.
+    Départ : Debout sur une marche basse, une jambe dans le vide devant.
+    Mouvement : Pliez lentement le genou d'appui pour effleurer le sol avec l'autre talon, en gardant le bassin horizontal et le genou aligné avec le pied, puis remontez.
+    Dosage : 3 séries de 10 répétitions par jambe, 3 fois par semaine.
+    Progression : Passez au squat partiel sur une jambe.
+    Plus facile : Utilisez une marche plus basse.
+    Erreur fréquente : Laisser le genou rentrer vers l'intérieur ou la hanche opposée tomber.
+    Illustration demandée : Dessin au trait d'un coureur descendant lentement d'une marche sur une jambe.
+
+RÉFÉRENCES
+  - van der Worp MP et al., Iliotibial band syndrome in runners: a systematic review, Sports Med, 2012 (PMID: 22994651)
+  - Fairclough J et al., J Sci Med Sport, 2007 (PMID: 16996312)
+
+=== FICHE GEN-11 · [genou/bprep] ===
+Titre : Bursite prépatellaire
+Sous-titre : Enflure devant la rotule
+Ancien titre : Enflure devant la rotule (bursite prépatellaire)
+Diagnostic correspondant dans MSK Morand : Bursite prépatellaire (non infectée)
+
+EN BREF
+  - Une petite poche devant la rotule s'est remplie de liquide.
+  - Sans infection, elle diminue le plus souvent d'elle-même.
+  - Évitez de vous agenouiller ; portez des genouillères au travail.
+
+CE QUE VOUS AVEZ
+  Une petite poche située entre la peau et la rotule (la bourse) s'est remplie de liquide après un choc ou un travail prolongé à genoux (plancher, jardinage). Quand il n'y a pas d'infection, protéger le genou de tout appui et le bouger doucement permettent au liquide de se résorber peu à peu.
+
+POURQUOI ÇA ARRIVE
+  - Travail prolongé à genoux (plancher, jardinage).
+  - Coup direct sur le devant du genou.
+
+SOULAGER LA DOULEUR
+  - Glace 15 minutes, dans un linge, et un bandage compressif léger pour diminuer l'enflure.
+  - Un anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Éviter complètement de vous mettre à genoux tant que c'est enflé (ensuite, utiliser des genouillères épaisses).
+  - Mettre de la glace 15 minutes (avec un linge sur la peau) 2 à 3 fois par jour et surélever la jambe au repos.
+  - Garder des mouvements doux pour éviter que le genou devienne raide.
+  - Porter un bandage élastique léger et confortable si on vous l'a conseillé.
+
+À ÉVITER POUR L'INSTANT
+  - Vous agenouiller sur la bosse.
+  - Percer ou vider vous-même la bosse (risque d'infection grave).
+  - Plier le genou au maximum avec force quand la peau est très tendue.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou si l'enflure augmente, réduisez l'amplitude ou le nombre de répétitions.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Le devant du genou devient rouge, très chaud ou très douloureux, ou vous avez de la fièvre (infection possible : urgence).
+  - Plaie ou éraflure qui coule sur la rotule.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Enflure qui continue de grossir malgré le repos.
+  - Aucune diminution après 4 à 6 semaines.
+
+DURÉE HABITUELLE
+  L'enflure diminue le plus souvent en quelques semaines (de 3 semaines à 3 mois) si l'on évite de s'agenouiller.
+
+PROGRAMME D'EXERCICES
+  Exercice 1 : Glissement doux du talon, couché
+    Phase : Dès maintenant
+    But : Pour garder le genou mobile.
+    Départ : Couché sur le dos, jambes allongées.
+    Mouvement : Faites glisser doucement le talon vers la fesse jusqu'à sentir une tension légère sur le devant du genou (sans forcer), puis rallongez la jambe.
+    Dosage : 10 répétitions lentes, 2 à 3 fois par jour.
+    Progression : Gagnez doucement en flexion à mesure que l'enflure diminue.
+    Plus facile : Pliez moins loin.
+    Erreur fréquente : Forcer la flexion sur un genou enflé.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos glissant doucement le talon vers la fesse.
+  Exercice 2 : Contraction douce du quadriceps
+    Phase : Dès maintenant
+    But : Pour garder la force de la cuisse.
+    Départ : Assis, jambe tendue devant vous.
+    Mouvement : Serrez doucement le dessus de la cuisse pendant 5 secondes pour tendre le genou, puis relâchez.
+    Dosage : 10 répétitions, 2 fois par jour.
+    Progression : Passez au lever de jambe tendue.
+    Plus facile : Serrez plus doucement, 3 secondes.
+    Erreur fréquente : Bloquer sa respiration.
+    Illustration demandée : Dessin au trait d'une personne assise jambe tendue contractant doucement le devant de la cuisse.
+  Exercice 3 : Marche calme sans boiter
+    Phase : Dès maintenant
+    But : Pour rester actif sans boiter.
+    Départ : Debout.
+    Mouvement : Marchez à plat, à rythme calme, par courtes périodes.
+    Dosage : 10 à 15 minutes par jour.
+    Progression : Reprenez votre marche habituelle à mesure que l'enflure disparaît.
+    Plus facile : Marchez 5 minutes à la fois.
+    Erreur fréquente : Rester debout immobile longtemps ou forcer dans les escaliers.
+    Illustration demandée : Dessin au trait d'une personne marchant calmement à plat.
+
+RÉFÉRENCES
+  - Khodaee M, Common superficial bursitis, Am Fam Physician, 2017 (PMID: 28290630)
+  - Baumbach SF et al., Arch Orthop Trauma Surg, 2014 (PMID: 24305696)
+
+=== FICHE GEN-12 · [genou/poie] ===
+Titre : Tendinobursite de la patte d'oie
+Sous-titre : Douleur sous l'intérieur du genou
+Ancien titre : Douleur sous l'intérieur du genou (patte d'oie)
+Diagnostic correspondant dans MSK Morand : Tendinobursite de la patte d'oie
+
+EN BREF
+  - Trois tendons sont irrités sous le côté intérieur du genou.
+  - Renforcer les cuisses et les hanches les calme.
+  - La douleur diminue habituellement en quelques semaines.
+
+CE QUE VOUS AVEZ
+  Trois tendons se rejoignent juste sous le côté intérieur du genou, sur une petite zone appelée la « patte d'oie ». Cette zone est irritée, souvent par la marche ou la course ; c'est plus fréquent en présence d'arthrose du genou, de diabète ou d'un surplus de poids. Renforcer les cuisses et les hanches et ajuster temporairement les activités soulagent souvent cette douleur.
+
+POURQUOI ÇA ARRIVE
+  - Arthrose du genou, souvent associée.
+  - Surpoids et diabète.
+  - Course ou marche en côte.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+  - Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.
+  - Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement.
+
+CE QUI AIDE
+  - Renforcer les muscles des hanches et des cuisses.
+  - Étirer doucement l'arrière de la cuisse (20 à 30 secondes, sans douleur vive).
+  - Dormir sur le côté avec un oreiller entre les genoux pour éviter qu'ils s'appuient l'un sur l'autre.
+  - Réduire temporairement la course et les escaliers rapides.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sous l'intérieur du genou après les efforts.
+
+À ÉVITER POUR L'INSTANT
+  - Courir sur des pentes ou des surfaces dures tant que la zone est très sensible.
+  - Croiser les jambes en position assise si cela réveille la douleur.
+  - Forcer un étirement qui déclenche une douleur vive à l'intérieur du genou.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Rougeur, chaleur vive, gonflement important ou fièvre.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Douleur nocturne qui ne passe pas.
+  - Blocage du genou.
+  - Aucune amélioration après 6 à 8 semaines.
+
+DURÉE HABITUELLE
+  Amélioration souvent en 4 à 8 semaines, mais la durée est très variable d'une personne à l'autre.
+
+PROGRAMME D'EXERCICES
+  Matériel : élastique, poids léger ou bouteille d'eau
+  Exercice 1 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+    Progression : Passez au pont sur une jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+  Exercice 2 : Lever de jambe tendue (quadriceps)
+    Phase : Dès maintenant
+    But : Pour renforcer la cuisse.
+    Départ : Couché sur le dos, l'autre genou plié, jambe atteinte tendue.
+    Mouvement : Serrez la cuisse et levez la jambe tendue à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Ajoutez un petit poids à la cheville.
+    Plus facile : Faites seulement la contraction.
+    Erreur fréquente : Laisser le genou plier.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.
+  Exercice 3 : Lever de jambe sur le côté (hanche)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer la hanche.
+    Départ : Couché sur le côté sain, jambe du dessous légèrement pliée, jambe du dessus tendue.
+    Mouvement : Montez la jambe tendue vers le plafond sans tourner les orteils vers le haut, puis redescendez en 3 secondes.
+    Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+    Progression : Ajoutez un élastique léger autour des genoux.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Laisser le bassin basculer vers l'arrière.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure.
+
+RÉFÉRENCES
+  - Helfenstein M, Kuromoto J, Anserine syndrome, Rev Bras Reumatol, 2010 (PMID: 21125167)
+
+=== FICHE GEN-13 · [genou/osgood] ===
+Titre : Maladie d'Osgood-Schlatter
+Sous-titre : Douleur sur la bosse sous le genou chez l'adolescent
+Ancien titre : Douleur sur la bosse sous le genou chez l'adolescent (Osgood-Schlatter)
+Diagnostic correspondant dans MSK Morand : Maladie d'Osgood-Schlatter
+
+EN BREF
+  - Le tendon de la rotule tire sur une zone de croissance juste sous le genou.
+  - Ce n'est pas grave, et ça disparaît à la fin de la croissance.
+  - On ajuste le sport selon la douleur, sans arrêter complètement.
+
+CE QUE VOUS AVEZ
+  Pendant la poussée de croissance, le tendon de la rotule tire de façon répétée sur une zone de croissance encore tendre, juste sous le genou, ce qui forme parfois une petite bosse sensible. Ce n'est pas dangereux pour le genou. La douleur se calme chez la plupart des jeunes, mais cela peut prendre plusieurs mois, parfois plus d'un an, et elle peut revenir par périodes. Doser le sport selon la douleur et renforcer les cuisses et les hanches aident beaucoup.
+
+POURQUOI ÇA ARRIVE
+  - Poussée de croissance.
+  - Sports avec sauts, sprints et frappes.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après le sport.
+  - Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien).
+
+CE QUI AIDE
+  - Rester actif : doser les sports avec sauts et sprints selon la douleur plutôt que tout arrêter.
+  - Remplacer temporairement une partie des sauts et des sprints par des activités mieux tolérées (vélo, natation).
+  - Renforcer progressivement les muscles des cuisses et des hanches.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sur la bosse après le sport.
+  - Utiliser une genouillère rembourrée pour protéger la bosse des coups et de l'appui.
+
+À ÉVITER POUR L'INSTANT
+  - S'agenouiller directement sur la bosse douloureuse.
+  - Continuer les sauts et les sprints intenses quand la douleur dépasse 2 sur 10 ou fait boiter.
+  - Étirer brutalement le devant de la cuisse si cela tire fort sur la bosse.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. Au-delà, diminuez l'intensité ou la durée de l'activité.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Douleur soudaine et très forte pendant un saut ou un sprint, avec incapacité de tendre le genou ou de marcher, ou gonflement rapide (arrachement osseux à vérifier d'urgence).
+  - Douleur au repos ou la nuit, ou fièvre.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Boiterie qui persiste malgré la diminution du sport.
+  - Absence d'amélioration après 3 mois.
+
+DURÉE HABITUELLE
+  La plupart des jeunes se sentent nettement mieux après environ 12 semaines, mais le retour complet au sport prend souvent plusieurs mois (jusqu'à un an). La petite bosse osseuse peut rester et demeurer sensible à l'appui.
+
+PROGRAMME D'EXERCICES
+  Matériel : chaise, mur
+  Exercice 1 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Passez au pont sur une jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'un adolescent réalisant un pont fessier.
+  Exercice 2 : Extension statique du genou, assis (quadriceps)
+    Phase : Dès maintenant
+    But : Pour calmer la douleur et renforcer la cuisse.
+    Départ : Assis sur une chaise, genou atteint plié à environ 60 degrés, l'autre pied croisé devant la cheville pour résister.
+    Mouvement : Poussez doucement la jambe atteinte vers l'avant contre l'autre pied, sans bouger. Tenez 30 secondes, puis relâchez.
+    Dosage : 10 maintiens de 30 secondes, 1 fois par jour (commencer par 10 à 15 secondes si la bosse est très sensible).
+    Progression : Passez à la chaise au mur, puis aux squats contrôlés après environ 4 semaines.
+    Plus facile : Poussez plus doucement, 15 secondes.
+    Erreur fréquente : Pousser si fort que la bosse sous le genou élance.
+    Illustration demandée : Dessin au trait d'un adolescent assis sur une chaise poussant une cheville contre l'autre sans bouger.
+  Exercice 3 : Squats contrôlés (phase d'amélioration)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses.
+    Départ : Debout, pieds à la largeur des épaules.
+    Mouvement : Pliez les genoux jusqu'à 60 degrés de façon lente et contrôlée (sans laisser les genoux rentrer vers l'intérieur), puis remontez.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine (à partir de la 5e semaine si c'est bien toléré).
+    Progression : Passez aux fentes contrôlées, puis reprenez le sport par étapes : d'abord l'échauffement avec l'équipe, puis environ 15 minutes de plus chaque semaine si la douleur reste à 2 sur 10 ou moins.
+    Plus facile : Descendez moins bas.
+    Erreur fréquente : Descendre trop bas ou aller trop vite.
+    Illustration demandée : Dessin au trait d'un adolescent réalisant un demi-squat contrôlé.
+
+RÉFÉRENCES
+  - Rathleff MS et al., Orthop J Sports Med, 2020 (PMID: 32284945)
+  - Guldhammer C et al., Orthop J Sports Med, 2019 (PMID: 31700938)
+
+=== FICHE GEN-14 · [genou/slj] ===
+Titre : Maladie de Sinding-Larsen-Johansson
+Sous-titre : Douleur à la pointe basse de la rotule chez l'adolescent
+Ancien titre : Douleur à la pointe basse de la rotule chez l'adolescent
+Diagnostic correspondant dans MSK Morand : Maladie de Sinding-Larsen-Johansson
+
+EN BREF
+  - Le tendon tire sur la pointe de la rotule, encore en croissance.
+  - Ce n'est pas grave, et ça disparaît avec la croissance.
+  - On ajuste les sauts selon la douleur.
+
+CE QUE VOUS AVEZ
+  Chez un jeune en pleine croissance (souvent entre 10 et 15 ans), le tendon tire de façon répétée sur la pointe inférieure de la rotule, qui est encore en croissance. C'est bénin et cela guérit, habituellement en quelques mois, parfois seulement à la fin de la croissance. Doser les sauts et renforcer doucement les jambes permettent à la douleur de se calmer.
+
+POURQUOI ÇA ARRIVE
+  - Poussée de croissance.
+  - Sports avec sauts et sprints.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après le sport.
+  - Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien).
+
+CE QUI AIDE
+  - Réduire les sauts et les sprints intenses pendant quelques semaines, selon la douleur, tout en restant actif.
+  - Renforcer progressivement les hanches et les cuisses.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sur la pointe de la rotule après le sport.
+  - Protéger la rotule : éviter de s'agenouiller dessus.
+
+À ÉVITER POUR L'INSTANT
+  - Sauter ou sprinter quand la douleur dépasse 2 sur 10 ou fait boiter.
+  - Étirer fort la cuisse si cela déclenche une douleur vive sur la rotule.
+  - Faire des squats profonds.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. Au-delà, diminuez l'intensité ou la durée de l'activité.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Douleur brutale pendant un saut, avec genou enflé et incapacité de lever la jambe tendue (fracture à vérifier d'urgence).
+  - Genou enflé, rouge et chaud, ou fièvre.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Boiterie qui dure plus de 2 semaines malgré la réduction du sport.
+  - Aucun progrès après 3 mois.
+
+DURÉE HABITUELLE
+  Amélioration habituelle en 2 à 8 mois avec adaptation de la charge ; parfois plus long, jusqu'à la fin de la croissance.
+
+PROGRAMME D'EXERCICES
+  Matériel : élastique, mur
+  Exercice 1 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Passez au pont sur une jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'un adolescent réalisant un pont fessier.
+  Exercice 2 : Chaise au mur statique (amplitude modérée)
+    Phase : Dès maintenant
+    But : Pour calmer la douleur et renforcer la cuisse.
+    Départ : Debout, dos au mur, pieds avancés d'environ 30 à 40 cm.
+    Mouvement : Glissez le dos jusqu'à plier les genoux à 45 degrés (jamais dans la douleur vive). Tenez 20 à 30 secondes, puis remontez.
+    Dosage : 3 répétitions, 3 fois par semaine.
+    Progression : Augmentez doucement le temps de maintien jusqu'à 45 secondes.
+    Plus facile : Pliez moins, 15 secondes.
+    Erreur fréquente : Descendre trop bas dès le début.
+    Illustration demandée : Dessin au trait d'un adolescent dos au mur en chaise partielle.
+  Exercice 3 : Lever de jambe sur le côté
+    Phase : Quand la douleur diminue
+    But : Pour renforcer la hanche.
+    Départ : Couché sur le côté, jambe du dessous légèrement pliée, jambe du dessus tendue.
+    Mouvement : Montez la jambe vers le plafond sans tourner les orteils vers le haut, puis redescendez lentement.
+    Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+    Progression : Ajoutez un élastique léger autour des genoux.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Laisser le bassin rouler vers l'arrière.
+    Illustration demandée : Dessin au trait d'un adolescent couché sur le côté soulevant la jambe supérieure.
+
+RÉFÉRENCES
+  - Wilczyński B et al., Sinding-Larsen-Johansson disease: a scoping review, PeerJ, 2024 (PMID: 39346060)
+  - Rathleff MS et al., Orthop J Sports Med, 2020 (programme étudié dans la maladie d'Osgood-Schlatter, appliqué ici par analogie) (PMID: 32284945)
+
+=== FICHE GEN-15 · [genou/contusion] ===
+Titre : Contusion ou entorse légère du genou
+Sous-titre : Coup ou torsion légère du genou
+Ancien titre : Coup ou torsion légère du genou
+Diagnostic correspondant dans MSK Morand : Contusion ou entorse légère, sans lésion structurelle
+
+EN BREF
+  - Les os, les ligaments et les ménisques sont intacts.
+  - Après 1 à 3 jours de protection, bouger aide à guérir.
+  - La plupart des personnes vont mieux en 1 à 3 semaines.
+
+CE QUE VOUS AVEZ
+  Votre genou a subi un coup ou une petite torsion, mais l'examen montre que les os, les ligaments et les ménisques sont intacts. Après 1 à 3 jours de protection, bouger doucement puis reprendre progressivement vos activités est le meilleur moyen de retrouver toute votre mobilité et votre force.
+
+POURQUOI ÇA ARRIVE
+  - Coup direct ou petite torsion du genou.
+
+SOULAGER LA DOULEUR
+  - Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+  - Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Ménager le genou pendant 1 à 3 jours, le surélever au repos et porter un bandage élastique confortable s'il est enflé.
+  - Au besoin, pour soulager la douleur, mettre de la glace 15 minutes (avec un linge sur la peau) 2 à 3 fois par jour pendant les 2 à 3 premiers jours.
+  - Plier et tendre doucement le genou dès les premiers jours pour éviter qu'il se raidisse.
+  - Marcher normalement, sans boiter, dès que possible.
+  - Reprendre le sport progressivement quand le genou est fort et indolore.
+
+À ÉVITER POUR L'INSTANT
+  - Rester immobile plusieurs jours sans bouger le genou.
+  - Reprendre les sauts ou les contacts tant que le genou est enflé ou sensible.
+  - S'agenouiller sur la zone contusionnée.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude ou le nombre de répétitions.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Fièvre, ou genou rouge et chaud.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Gonflement important qui ne diminue pas après 1 semaine.
+  - Genou qui bloque ou qui lâche à la marche.
+  - Douleur qui s'aggrave au lieu de diminuer.
+
+DURÉE HABITUELLE
+  Guérison habituelle en 1 à 3 semaines.
+
+PROGRAMME D'EXERCICES
+  Matériel : chaise, mur, poids léger ou bouteille d'eau, coussin
+  Exercice 1 : Flexion et extension douces, couché
+    Phase : Dès maintenant
+    But : Pour retrouver le mouvement du genou.
+    Départ : Couché sur le dos, jambes allongées.
+    Mouvement : Glissez doucement le talon vers la fesse, puis tendez complètement la jambe en serrant la cuisse 3 secondes.
+    Dosage : 10 répétitions, 2 à 3 fois par jour.
+    Progression : Passez au vélo stationnaire léger.
+    Plus facile : Faites un plus petit mouvement.
+    Erreur fréquente : Ne pas tendre la jambe à fond.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos glissant le talon vers la fesse.
+  Exercice 2 : Mini-squats contrôlés
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses.
+    Départ : Debout, pieds à la largeur des épaules.
+    Mouvement : Pliez doucement les genoux à 45 degrés en gardant le poids égal sur les deux pieds, puis remontez.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Descendez plus bas, puis passez aux montées de marche.
+    Plus facile : Pliez moins, avec un appui.
+    Erreur fréquente : Mettre tout le poids sur l'autre jambe.
+    Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat symétrique.
+  Exercice 3 : Équilibre sur une jambe
+    Phase : Quand la douleur diminue
+    But : Pour retrouver l'équilibre et la stabilité.
+    Départ : Debout près d'un mur ou d'une chaise.
+    Mouvement : Tenez-vous en équilibre sur le pied du côté atteint pendant 20 à 30 secondes, genou légèrement déverrouillé.
+    Dosage : 3 répétitions, 1 fois par jour.
+    Progression : Faites-le les yeux fermés (en sécurité près du mur) ou sur un coussin.
+    Plus facile : Gardez une main sur un appui.
+    Erreur fréquente : Verrouiller le genou fort vers l'arrière.
+    Illustration demandée : Dessin au trait d'une personne en équilibre sur une jambe près d'une chaise.
+
+RÉFÉRENCES
+  - Dubois B, Esculier JF, Soft-tissue injuries simply need PEACE and LOVE, Br J Sports Med, 2020 (PMID: 31377722)
+
+=== FICHE GEN-16 · [genou/plica] ===
+Titre : Syndrome de la plica
+Sous-titre : Repli irrité à l'intérieur du genou
+Ancien titre : Repli irrité à l'intérieur du genou (plica)
+Diagnostic correspondant dans MSK Morand : Syndrome de la plica
+
+EN BREF
+  - Un petit repli normal de la membrane du genou est devenu épais et irrité.
+  - Moins de flexions répétées et des exercices le calment.
+  - Une chirurgie est rarement nécessaire.
+
+CE QUE VOUS AVEZ
+  Un petit repli normal de la membrane à l'intérieur du genou (appelé plica) est devenu épais et irrité à force de flexions répétées. Cela peut donner un petit clic ou une sensibilité sur le bord intérieur de la rotule. Calmer l'irritation et renforcer la cuisse et la hanche soulagent souvent ce problème ; si ce n'est pas le cas après environ 3 mois, d'autres traitements existent.
+
+POURQUOI ÇA ARRIVE
+  - Flexions répétées du genou (course, vélo, escaliers).
+  - Coup sur l'intérieur du genou.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.
+  - Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Réduire temporairement les flexions répétées du genou (vélo avec selle trop basse, squats profonds).
+  - Renforcer les cuisses et les fessiers dans une amplitude qui ne déclenche pas le clic.
+  - Assouplir doucement l'avant et l'arrière de la cuisse.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) sur l'intérieur du genou après l'effort.
+
+À ÉVITER POUR L'INSTANT
+  - Répéter les mouvements qui font claquer le bord intérieur de la rotule.
+  - Faire du vélo avec une selle basse ou des squats complets.
+  - S'agenouiller longtemps.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+QUAND RECONSULTER
+  - Blocage véritable du genou.
+  - Gonflement important qui persiste.
+  - Sensation que le genou lâche.
+  - Douleur ou claquement douloureux qui ne s'améliorent pas après 3 mois.
+
+DURÉE HABITUELLE
+  Amélioration souvent en 6 à 12 semaines ; poursuivre les exercices pendant 3 mois avant de conclure qu'ils ne suffisent pas.
+
+PROGRAMME D'EXERCICES
+  Matériel : poids léger ou bouteille d'eau
+  Exercice 1 : Contraction du quadriceps et lever de jambe tendue
+    Phase : Dès maintenant
+    But : Pour renforcer la cuisse.
+    Départ : Couché sur le dos, jambe atteinte tendue, l'autre genou plié.
+    Mouvement : Serrez la cuisse 5 secondes, puis levez la jambe tendue à 30 cm du sol. Redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+    Progression : Ajoutez un petit poids à la cheville.
+    Plus facile : Faites seulement la contraction.
+    Erreur fréquente : Plier le genou pendant l'exercice.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.
+  Exercice 2 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Passez au pont sur une jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+  Exercice 3 : Mini-squat contrôlé (amplitude modérée)
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses sans irriter le repli.
+    Départ : Debout, pieds à la largeur des épaules.
+    Mouvement : Pliez les genoux à 45 degrés seulement (en restant avant le clic), puis remontez.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Descendez un peu plus bas seulement si le genou reste silencieux et confortable.
+    Plus facile : Pliez moins, avec un appui.
+    Erreur fréquente : Laisser le genou rentrer vers l'intérieur.
+    Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat contrôlé.
+
+RÉFÉRENCES
+  - Schindler OS, 'The sneaky plica' revisited, Knee Surg Sports Traumatol Arthrosc, 2014 (PMID: 23381917)
+
+=== FICHE GEN-17 · [genou/discoide] ===
+Titre : Ménisque discoïde
+Sous-titre : Ménisque de forme plus large
+Ancien titre : Ménisque de forme plus large (ménisque discoïde)
+Diagnostic correspondant dans MSK Morand : Ménisque discoïde (sans blocage ni ressaut douloureux)
+
+EN BREF
+  - Un ménisque est plus large que la normale depuis la naissance.
+  - S'il ne cause ni blocage ni douleur, il n'a pas besoin de chirurgie.
+  - Les exercices gardent le genou fort.
+
+CE QUE VOUS AVEZ
+  Un de vos ménisques (coussins du genou), le plus souvent celui du côté extérieur, est plus épais et plus large que la normale depuis la naissance. Quand il ne cause ni blocage, ni ressaut douloureux, ni gonflement, aucun traitement particulier n'est nécessaire : une simple surveillance suffit. Garder des cuisses et des hanches fortes aide le genou à bien fonctionner, sans toutefois changer la forme du ménisque. Si des blocages ou des ressauts douloureux apparaissent, un avis en orthopédie est nécessaire.
+
+POURQUOI ÇA ARRIVE
+  - Forme du ménisque présente depuis la naissance.
+
+SOULAGER LA DOULEUR
+  - Glace 10 à 15 minutes, dans un linge, si le genou est enflé après l'activité.
+  - Acétaminophène ou ibuprofène au besoin, si votre pharmacien le juge approprié.
+
+CE QUI AIDE
+  - Rester actif et garder des cuisses et des hanches fortes.
+  - Garder des mouvements fluides, sans forcer les flexions extrêmes.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après l'activité si le genou est sensible.
+  - Consulter rapidement si un blocage ou un ressaut douloureux apparaît.
+
+À ÉVITER POUR L'INSTANT
+  - Provoquer volontairement le claquement du genou pour le montrer.
+  - Faire des squats très profonds ou rester accroupi longtemps.
+  - Pivoter brusquement sur le genou s'il est douloureux.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Genou qui se bloque (impossible de tendre complètement la jambe) : avis orthopédique rapide.
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Ressaut sonore et douloureux qui se répète.
+  - Gonflement important ou qui persiste.
+  - Gêne qui persiste après 6 à 8 semaines.
+
+DURÉE HABITUELLE
+  Si la gêne est légère, le confort s'améliore souvent en 4 à 8 semaines ; des blocages ou des ressauts douloureux qui persistent nécessitent un avis en orthopédie.
+
+PROGRAMME D'EXERCICES
+  Matériel : marche ou escalier, poids léger ou bouteille d'eau
+  Exercice 1 : Contraction du quadriceps et lever de jambe tendue
+    Phase : Dès maintenant
+    But : Pour renforcer la cuisse.
+    Départ : Couché sur le dos, jambe atteinte tendue, l'autre genou plié.
+    Mouvement : Serrez la cuisse 5 secondes, puis levez la jambe tendue à 30 cm du sol. Redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+    Progression : Ajoutez un petit poids à la cheville.
+    Plus facile : Faites seulement la contraction.
+    Erreur fréquente : Laisser le genou plier.
+    Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe tendue.
+  Exercice 2 : Pont fessier
+    Phase : Dès maintenant
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Passez au pont sur une jambe.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos.
+    Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+  Exercice 3 : Mini-squat contrôlé
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses sans provoquer de clic.
+    Départ : Debout, pieds à la largeur des épaules.
+    Mouvement : Pliez les genoux à 45 degrés sans provoquer de clic douloureux, puis remontez.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Ajoutez des montées lentes sur une marche basse.
+    Plus facile : Pliez moins, avec un appui.
+    Erreur fréquente : Descendre trop bas.
+    Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat contrôlé.
+
+RÉFÉRENCES
+  - Kocher MS et al., Discoid lateral meniscus in children, J Am Acad Orthop Surg, 2017 (PMID: 29059110)
+
+=== FICHE GEN-18 · [genou/baker] ===
+Titre : Kyste poplité (kyste de Baker)
+Sous-titre : Petite poche de liquide derrière le genou
+Ancien titre : Petite poche de liquide derrière le genou (kyste de Baker)
+Diagnostic correspondant dans MSK Morand : Kyste poplité (de Baker)
+
+EN BREF
+  - C'est une poche de liquide derrière le genou ; ce n'est pas dangereux.
+  - Il vient presque toujours d'un problème dans le genou, comme l'arthrose.
+  - Traiter le genou fait souvent diminuer le kyste.
+
+CE QUE VOUS AVEZ
+  Vous avez une poche remplie de liquide articulaire à l'arrière du genou. Ce n'est pas dangereux. Chez l'adulte, le kyste apparaît presque toujours parce que le genou produit trop de liquide (arthrose ou lésion d'un ménisque) : calmer et renforcer le genou fait souvent diminuer la pression et la gêne. Le kyste peut persister ou revenir tant que le genou reste irrité.
+
+POURQUOI ÇA ARRIVE
+  - Arthrose ou lésion du ménisque, qui produisent plus de liquide dans le genou.
+
+SOULAGER LA DOULEUR
+  - Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.
+  - Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié.
+
+CE QUI AIDE
+  - Renforcer les muscles de la cuisse pour soulager l'articulation du genou.
+  - Garder le genou souple avec des mouvements doux et du vélo stationnaire, selle assez haute.
+  - Surélever la jambe au repos si le genou est enflé.
+  - Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) derrière le genou s'il est tendu.
+
+À ÉVITER POUR L'INSTANT
+  - S'accroupir à fond ou plier le genou au maximum avec force (cela comprime le kyste).
+  - Appuyer ou masser fort la bosse derrière le genou.
+  - Percer la bosse vous-même.
+
+RÈGLE DE DOULEUR (0 À 10)
+  Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.
+
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+  - Douleur soudaine et forte dans le mollet, avec gonflement, rougeur ou chaleur (rupture du kyste ou phlébite : à faire vérifier le jour même).
+
+REVOYEZ VOTRE MÉDECIN SI
+  - Kyste qui grossit rapidement ou devient très dur.
+  - Engourdissements ou fourmillements dans le pied.
+  - Blocage du genou.
+
+DURÉE HABITUELLE
+  La gêne diminue souvent en 4 à 8 semaines quand l'irritation du genou se calme.
+
+PROGRAMME D'EXERCICES
+  Matériel : mur
+  Exercice 1 : Contraction statique du quadriceps et mobilité douce
+    Phase : Dès maintenant
+    But : Pour garder le genou mobile et fort.
+    Départ : Assis ou couché, jambe allongée.
+    Mouvement : Serrez le dessus de la cuisse 5 secondes pour tendre le genou, puis pliez doucement le genou dans la limite confortable (sans écraser l'arrière du genou).
+    Dosage : 10 répétitions, 2 fois par jour.
+    Progression : Passez au lever de jambe tendue.
+    Plus facile : Faites un plus petit mouvement.
+    Erreur fréquente : Forcer la flexion complète du genou.
+    Illustration demandée : Dessin au trait d'une personne assise tendant doucement la jambe et contractant la cuisse.
+  Exercice 2 : Étirement très doux du mollet
+    Phase : Dès maintenant
+    But : Pour assouplir l'arrière de la jambe.
+    Départ : Debout face à un mur, mains appuyées, jambe atteinte un pas en arrière, talon au sol.
+    Mouvement : Avancez doucement les hanches vers le mur en gardant le talon arrière au sol, jusqu'à sentir un étirement léger dans le mollet. Tenez 20 secondes.
+    Dosage : 3 répétitions, 1 à 2 fois par jour.
+    Progression : Maintenez 30 secondes.
+    Plus facile : Faites un plus petit pas.
+    Erreur fréquente : Pousser le genou vers l'arrière ou étirer jusqu'à la douleur derrière le genou.
+    Illustration demandée : Dessin au trait d'une personne debout face à un mur étirant doucement le mollet de la jambe arrière.
+  Exercice 3 : Pont fessier
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les fessiers.
+    Départ : Couché sur le dos, genoux pliés à un angle confortable, pieds à plat.
+    Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Tenez 5 secondes en haut.
+    Plus facile : Montez moins haut.
+    Erreur fréquente : Cambrer le bas du dos ou trop rapprocher les talons des fesses.
+    Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+  Exercice 4 : Mini-squat contrôlé
+    Phase : Quand la douleur diminue
+    But : Pour renforcer les cuisses.
+    Départ : Debout, pieds à la largeur des épaules, mains près d'un appui.
+    Mouvement : Pliez les genoux à environ 45 degrés, sans douleur derrière le genou, puis remontez.
+    Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+    Progression : Ajoutez la marche ou le vélo stationnaire.
+    Plus facile : Pliez moins, avec un appui.
+    Erreur fréquente : Descendre en squat profond.
+    Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat contrôlé.
+
+RÉFÉRENCES
+  - Herman AM, Marzo JM, Popliteal cysts: a current review, Orthopedics, 2014 (PMID: 25102502)
+
