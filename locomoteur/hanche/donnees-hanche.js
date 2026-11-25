@@ -29,6 +29,7 @@
       { t: "Consignes de reconsultation : fièvre, impossibilité de mettre du poids, douleur nocturne, engourdissement en selle ou trouble urinaire" }] }];
 
   const INFOS = {
+    prom_extension: { info: "En décubitus ventral, ou test de Thomas (l'autre genou ramené sur la poitrine, la cuisse examinée doit rester à plat). Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
     localisation: { aide: "Plusieurs choix possibles", info: "Douleur maximale à la face médiale de la cuisse : RV+ 7,8 pour la coxarthrose ; à l'aine : coxarthrose (RV+ 1,7) et conflit fémoro-acétabulaire (aine comme site principal chez 87 %) ; latérale au grand trochanter : syndrome trochantérien ; irradiant sous le genou : origine lombaire." },
     escaliers: { info: "Douleur dans les escaliers ou les pentes : coxarthrose, Se 68 %, Sp 68 % (RV+ 2,1 ; RV− 0,47 ; Metcalfe 2019)." },
     assis: { info: "Une douleur aggravée en position assise oriente vers le conflit fémoro-acétabulaire, la tendinopathie proximale des ischio-jambiers ou le syndrome fessier profond ; non aggravée assis : critère de Bierma-Zeinstra pour la coxarthrose." },
@@ -282,6 +283,9 @@
           C.amplitude("arom_extension", "Extension active", "extension", { lim_douleur: { coxarthrose: 1.3, psoas: 1.5 }, lim_raideur: { coxarthrose: 1.5 } }),
         ] },
         { titre: "PROM", toutNormal: true, questions: [
+          C.amplitude("prom_flexion", "Flexion passive", "flexion"),
+          C.degres("prom_flexion", "Flexion passive mesurée"),
+          C.amplitude("prom_extension", "Extension passive", "extension"),
           C.amplitude("prom_ri", "Rotation interne passive (90° de flexion)", "rotation interne", { fin: { cfa: 1.5, coxarthrose: 1.2 } }, false,
             [{ dx: "coxarthrose", se: .66, sp: .79, pos: lim, neg: ["complete"], statut: "verifie", piste: `${METCALFE} : rotation interne diminuée, RV+ 3,2` },
               { dx: "cfa", se: .29, sp: .94, pos: lim, neg: ["complete"], statut: "verifie", piste: `${PALSSON} : rotation interne limitée en position neutre, RV+ 4,8` },

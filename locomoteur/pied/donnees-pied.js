@@ -278,6 +278,7 @@
           C.amplitude("prom_mtp1", "Extension passive de l'hallux", "extension de l'hallux", { complete: { hallux_rigidus: .3 }, fin: { hallux_rigidus: 1.5, turf_toe: 1.5, sesamoide: 1.5 },
             lim_douleur: { hallux_rigidus: 4, turf_toe: 2, goutte: 1.5 }, lim_raideur: { hallux_rigidus: 6 } }),
           C.degres("prom_mtp1", "Extension de l'hallux mesurée"),
+          C.amplitude("prom_mtp1_flex", "Flexion passive de l'hallux", "flexion de l'hallux"),
           C.amplitude("prom_soustal", "Sous-talienne (inversion-éversion du talon)", "mobilité sous-talienne", { complete: { synostose: .3 }, lim_douleur: { synostose: 3, arthrose_mp: 1.5 }, lim_raideur: { synostose: 5, arthrose_mp: 1.5 } }),
           C.amplitude("prom_medio", "Médio-pied (pronation-supination de l'avant-pied)", "mobilité du médio-pied", { lim_douleur: { lisfranc: 2, arthrose_mp: 2 }, lim_raideur: { arthrose_mp: 2.5 } }),
         ] },

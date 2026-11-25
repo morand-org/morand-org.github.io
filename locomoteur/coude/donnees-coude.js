@@ -30,6 +30,7 @@
       { t: "Consignes de reconsultation : engourdissement ou faiblesse de la main, enflure ou rougeur croissante, fièvre, perte d'extension" }] }];
 
   const INFOS = {
+    prom_extension: { info: "Fin de mouvement dure ou blocage : penser à un corps étranger articulaire ou à un ostéophyte. Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
     ext_test: { info: "Patient assis, bras en supination : extension complète du coude (comparée à l'autre côté). Extension complète possible : fracture peu probable (Se 96,8 % ; RV− 0,03 chez l'adulte, 0,11 chez l'enfant). Reconsulter si la douleur persiste 7 à 10 jours.", positif: "extension complète impossible", video: "Elbow extension test" },
     amp4: { info: "Quatre amplitudes actives : extension complète, flexion à 90°, pronation et supination complètes. Toutes normales après un traumatisme : RV− 0,017 pour une fracture ou un épanchement (n = 251)." },
     cozen: { info: "Poing fermé, poignet en extension résistée, coude en extension. Épicondylite latérale : Se 91 % (spécificité non publiée) : négatif, il l'éloigne.", positif: "douleur à l'épicondyle latéral", video: "Cozen test" },
@@ -260,6 +261,14 @@
           C.amplitude("arom_flexion", "Flexion active", "flexion", { lim_douleur: { fracture: 2, arthrite: 2, luxation: 2 }, lim_raideur: { arthrose: 3 }, complete: { fracture: .5, arthrite: .7 } }),
           C.amplitude("arom_extension", "Extension active", "extension", { lim_douleur: { ocd: 2, conflit_post: 2, arthrite: 2 }, lim_raideur: { arthrose: 3, ocd: 1.5 }, complete: { arthrose: .3, ocd: .5, arthrite: .6 } }, true),
           ouiNon("pronosup", "Prono-supination limitée ou douloureuse", { oui: "prono-supination limitée", non: "prono-supination complète", effets: { fracture: p(3, .4), arthrose: p(1.5, .8), arthrite: p(1.5, .8) } }),
+        ] },
+        { titre: "PROM", toutNormal: true, questions: [
+          C.amplitude("prom_flexion", "Flexion passive", "flexion"),
+          C.degres("prom_flexion", "Flexion passive mesurée"),
+          C.amplitude("prom_extension", "Extension passive", "extension", {}, true),
+          C.degres("prom_extension", "Déficit d'extension passive", true),
+          C.amplitude("prom_pronation", "Pronation passive", "pronation"),
+          C.amplitude("prom_supination", "Supination passive", "supination"),
         ] },
         { titre: "Résistés", ligne: "Résistés", toutNormal: true, questions: [
           ouiNon("cozen", "Extension résistée du poignet (Cozen)", { court: "Cozen", res: TEST,

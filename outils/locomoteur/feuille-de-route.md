@@ -129,8 +129,16 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 12. ⏳ Fiches patients : révision par OpenEvidence (document `revision/fiches-patients-texte-complet.txt`, une région à la fois), reprise des corrections, puis consignes de dessin pour Gemini et publication sur le site.
 
 13. ✅ Algorithme (demande du 25 novembre) :
-    - « Graduel » précisé partout : bouton « Graduel » avec « sans trauma ni faux mouvement » en sous-titre ; note : « début graduel sans trauma ni faux mouvement ».
+    - « Graduel » précisé partout, dans la note seulement : « début graduel sans trauma ni faux mouvement » (le bouton reste « Graduel », à la demande du Dr Morand).
     - Épaule : question « Difficulté à s'habiller le matin » (dans la note ; sans effet sur le calcul, aucune donnée publiée).
     - Épaule : amplitudes ajoutées (abduction active, rotation interne active avec le niveau atteint par le pouce, abduction passive, rotation interne passive à 90° d'abduction, degrés de la rotation externe active et de la flexion passive). Pour la note ; sans poids, faute de valeur publiée.
     - Capsulite : règle de définition (moteur : grappe `definition`, liste `neutralise`). Une rotation externe passive complète et indolore compte une seule fois (RV 0,05, l'estimation déjà en place), et la raideur racontée ou les limitations actives ou passives ne comptent plus en faveur de la capsulite. Histoire typique : 39 % → 9,7 % ; avec limitations actives : 89 % → 7,4 %.
-14. ⏳ À décider par le Dr Morand : poids (estimations cliniques) pour l'habillage du matin et les nouvelles amplitudes ; règle encore plus forte pour la capsulite si voulu ; amplitudes à ajouter dans les autres régions.
+14. ✅ Décisions du Dr Morand : pas de poids pour l'habillage du matin ; la règle de la capsulite suffit ; ajouter les amplitudes qui manquent, surtout en passif (pas de rotations actives de la hanche). Ajouts, sans poids (aucune valeur publiée) :
+    - cervical (actif) : flexion, inclinaison latérale ;
+    - coude (nouveau bloc PROM) : flexion, extension (déficit), pronation, supination ;
+    - poignet (passif) : flexion, extension, déviations radiale et ulnaire ;
+    - lombaire (actif) : inclinaison latérale, rotation du tronc ;
+    - hanche (passif) : flexion, extension (Thomas) ;
+    - cheville (passif) : dorsiflexion (Silfverskiöld), flexion plantaire ;
+    - pied (passif) : flexion de l'hallux.
+15. ✅ Épaule : test « Uppercut » pour le long biceps (groupe des tests du biceps avec Speed et Yergason : seul le plus fort compte). RV+ 3,38 (Kibler 2009) et RV− 0,26 (Cardoso 2019), tirés de la base FlashCards ; statut « à vérifier », car la fiche de médecine sportive donne Se 77 %, Sp 80 %. Soumis à OpenEvidence sous le code EPAU-P29 ; les codes déjà donnés ne changent plus quand un élément s'ajoute.

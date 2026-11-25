@@ -54,8 +54,8 @@
   // Boutons de réponse : choix, « Équivoque » pour les tests (aucun effet sur le calcul), puis N/A (non évalué, non compté).
   function segments(q, k, opts, lid) {
     const extra = equivoque(q) && q.type === "oui_non" ? [["equivoque", "Équivoque"]] : [];
-    return `<div class="lo-seg" role="group" aria-labelledby="${lid}">${[...opts, ...extra].map(([v, l, sous]) =>
-      `<button type="button" data-q="${k}" data-v="${esc(v)}" aria-pressed="false">${esc(l)}${sous ? `<span class="lo-seg-sous"> ${esc(sous)}</span>` : ""}</button>`).join("")}<button type="button" class="lo-inconnu" data-q="${k}" data-v="?" aria-pressed="false" title="Non évalué ou ne sait pas : non compté">N/A</button></div>`;
+    return `<div class="lo-seg" role="group" aria-labelledby="${lid}">${[...opts, ...extra].map(([v, l]) =>
+      `<button type="button" data-q="${k}" data-v="${esc(v)}" aria-pressed="false">${esc(l)}</button>`).join("")}<button type="button" class="lo-inconnu" data-q="${k}" data-v="?" aria-pressed="false" title="Non évalué ou ne sait pas : non compté">N/A</button></div>`;
   }
   // Toutes les définitions d'une question dans les plaintes actives (une question commune a des poids dans chaque région).
   const definitions = id => actives().map(r => [r, D(r).parQ[id]]).filter(([, q]) => q);
@@ -72,9 +72,9 @@
     if (q.type === "oui_non") { const [a, b] = etiquettes(q); ctl = segments(q, k, [["oui", a], ["non", b]], lid); }
     else if (q.type === "choix") {
       const court = q.options.length <= 4 && q.options.every(o => o.l.length <= 36) && q.options.reduce((n, o) => n + o.l.length, 0) <= 72;
-      if (court) ctl = segments(q, k, q.options.map(o => [o.v, o.l, o.sous]), lid);
+      if (court) ctl = segments(q, k, q.options.map(o => [o.v, o.l]), lid);
       else ctl = `<select class="lo-select" id="c-${dom}" data-q="${k}" aria-labelledby="${lid}"><option value="">—</option>${q.options.map(o =>
-        `<option value="${esc(o.v)}">${esc(o.l)}${o.sous ? ` (${esc(o.sous)})` : ""}</option>`).join("")}<option value="?">N/A</option></select>`;
+        `<option value="${esc(o.v)}">${esc(o.l)}</option>`).join("")}<option value="?">N/A</option></select>`;
     } else if (q.type === "case") {
       ctl = `<button type="button" class="lo-puce lo-case" data-q="${k}" data-v="oui" aria-pressed="false" aria-labelledby="${lid}">${esc(q.n || q.libelle)}</button>`;
       return `<div class="lo-q lo-q-case" data-qid="${dom}"><span class="cache" id="${lid}">${esc(q.libelle)}</span>${ctl}</div>`;

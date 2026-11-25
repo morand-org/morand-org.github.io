@@ -101,8 +101,6 @@ a.cr-spec .cr-spec-sous { color: var(--or-texte); }
 .lo-seg button:hover { color: var(--encre); }
 .lo-seg button[aria-pressed="true"] { background: var(--or); color: #17160f; }
 .lo-seg .lo-inconnu { min-width: 34px; padding: 0 8px; color: var(--discret); }
-.lo-seg-sous { display: block; font-size: 0.7rem; font-weight: 400; line-height: 1.15; color: var(--discret); }
-.lo-seg button[aria-pressed="true"] .lo-seg-sous { color: inherit; }
 .lo-seg .lo-inconnu[aria-pressed="true"] { background: var(--beige); color: var(--encre); }
 .lo-puces { display: flex; flex-wrap: wrap; gap: 8px; }
 .lo-puce { min-height: 40px; padding: 8px 14px; border: 1px solid var(--filet); border-radius: 999px; background: var(--carte); color: var(--encre-2);
