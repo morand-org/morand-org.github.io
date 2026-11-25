@@ -513,9 +513,9 @@ async function locomoteur(nav) {
       await p.goto(`${BASE}/locomoteur/${reg}/`, { waitUntil: "networkidle" });
       amp.push(await p.evaluate(([reg, ids]) => { const LO = window.Locomoteur, d = LO.donnees[reg];
         return [reg, ids.every(id => d.parQ[id] && d.parQ[id].effets.length === 0), LO.rediger(d, LO.calculer(d, Object.fromEntries(ids.map(id => [id, "lim_douleur"])))).includes(" limitée"),
-          !Object.keys(d.parQ).some(k => reg === "hanche" && /^arom_(re|ri)$/.test(k))]; }, [reg, ids]));
+          !Object.keys(d.parQ).some(k => reg === "hanche" && /^arom_(re|ri)$/.test(k)) && (reg !== "hanche" || (!!d.parQ.thomas && /Thomas modifié positif/.test(LO.rediger(d, LO.calculer(d, { thomas: "genou" })))))]; }, [reg, ids]));
     }
-    verifier("Amplitudes ajoutées (cervical, coude, poignet, lombaire, hanche, cheville, pied) : présentes, sans poids, dans la note ; pas de rotations actives à la hanche",
+    verifier("Amplitudes ajoutées (cervical, coude, poignet, lombaire, hanche, cheville, pied) : présentes, sans poids, dans la note ; pas de rotations actives à la hanche ; test de Thomas",
       amp.length === 7 && amp.every(([, ok, note, sansRot]) => ok && note && sansRot) && erreurs.length === 0, { amp, erreurs });
     await ctx.close();
   }

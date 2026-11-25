@@ -29,7 +29,8 @@
       { t: "Consignes de reconsultation : fièvre, impossibilité de mettre du poids, douleur nocturne, engourdissement en selle ou trouble urinaire" }] }];
 
   const INFOS = {
-    prom_extension: { info: "En décubitus ventral, ou test de Thomas (l'autre genou ramené sur la poitrine, la cuisse examinée doit rester à plat). Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
+    prom_extension: { info: "En décubitus ventral ou latéral, bassin stabilisé (voir aussi le test de Thomas, dans les tests). Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
+    thomas: { info: "Décubitus dorsal au bout de la table, l'autre genou tenu sur la poitrine (bassin à plat). Normal : la cuisse examinée reste à plat et le genou plie à environ 90°. La cuisse qui se soulève : flessum de hanche (ilio-psoas court, arthrose) ; le genou qui s'étend : droit fémoral court (Thomas modifié). Valeur diagnostique jugée médiocre (Haskel 2021) : pour la note, sans effet sur le calcul.", video: "Thomas test" },
     localisation: { aide: "Plusieurs choix possibles", info: "Douleur maximale à la face médiale de la cuisse : RV+ 7,8 pour la coxarthrose ; à l'aine : coxarthrose (RV+ 1,7) et conflit fémoro-acétabulaire (aine comme site principal chez 87 %) ; latérale au grand trochanter : syndrome trochantérien ; irradiant sous le genou : origine lombaire." },
     escaliers: { info: "Douleur dans les escaliers ou les pentes : coxarthrose, Se 68 %, Sp 68 % (RV+ 2,1 ; RV− 0,47 ; Metcalfe 2019)." },
     assis: { info: "Une douleur aggravée en position assise oriente vers le conflit fémoro-acétabulaire, la tendinopathie proximale des ischio-jambiers ou le syndrome fessier profond ; non aggravée assis : critère de Bierma-Zeinstra pour la coxarthrose." },
@@ -315,6 +316,10 @@
           ouiNon("fadir", "FADIR", { court: "FADIR", effets: { cfa: ver(.96, .05, `${REIMAN15} : Se 94–99 %, Sp 5 %`) } }),
           ouiNon("scour", "Scour test", { court: "Scour test", effets: { coxarthrose: p(2, .6) } }),
           ouiNon("faber", "FABER (Patrick)", { court: "FABER", effets: { cfa: p(1.5, .8), coxarthrose: p(1.3, .9), lombaire: p(1.2, 1) } }),
+          choix("thomas", "Thomas", [o("negatif", "Négatif", {}, { n: "Thomas négatif" }),
+            o("cuisse", "Cuisse soulevée", {}, { n: "Thomas positif : la cuisse se soulève (flessum de hanche)" }),
+            o("genou", "Genou qui s'étend", {}, { n: "Thomas modifié positif : le genou s'étend (droit fémoral court)" }),
+            o("deux", "Les deux", {}, { n: "Thomas positif : la cuisse se soulève et le genou s'étend (ilio-psoas et droit fémoral courts)" })], { court: "Thomas", horsNormal: true }),
           ouiNon("appui_30s", "Appui unipodal 30 s : douleur trochantérienne", { court: "appui unipodal 30 s", horsNormal: true,
             effets: { sdgt: verRv(12, undefined, `${GRIMALDI17} : Sp 100 %, RV+ ≈ 12 (Lequesne 2008 : Se 100 %, Sp 97,3 %, n = 17)`) } }),
           ouiNon("drehmann", "Drehmann (rotation externe obligatoire à la flexion)", { court: "signe de Drehmann", horsNormal: true, effets: { epiphysiolyse: p(15, .3), cfa: p(1.3, .95) },
