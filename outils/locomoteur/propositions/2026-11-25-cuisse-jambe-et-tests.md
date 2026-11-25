@@ -42,7 +42,7 @@
 ### Deux façons de faire
 
 - **A. Deux nouvelles régions, « Cuisse » et « Jambe », chacune avec sa zone sur le schéma du corps (recommandé).**
-  - Elles reprennent les diagnostics déjà rangés à la hanche et à la cheville : ischio-jambiers, contusion, fracture de stress du fémur, périostite, loges, mollet, fracture de stress du tibia.
+  - Elles reprennent les diagnostics déjà rangés à la hanche et à la cheville : ischio-jambiers, contusion, fracture de stress du fémur, méralgie paresthésique (face antéro-latérale de la cuisse), périostite, loges, mollet, fracture de stress du tibia.
   - Elles ajoutent les nouveaux diagnostics.
   - C'est plus clair pour le clinicien, mais c'est le plus de travail : fréquences de départ propres, anamnèse, examen, conduite, fiches.
 - **B. Ajouter les nouveaux diagnostics aux régions existantes**, par exemple le quadriceps et la myosite à la hanche, le soléaire et les loges aiguës à la cheville.
