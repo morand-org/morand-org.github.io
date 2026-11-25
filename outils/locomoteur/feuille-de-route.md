@@ -115,4 +115,4 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 
 1. ✅ Quiz (`/entrainement/`) et Morandle (`/locomoteur/morandle/`) en ligne : pages indexées, au plan du site, liens dans l'en-tête de l'accueil (ordinateur), dans « Nouveautés » et dans le hub MSK (section « S'entraîner »), liens croisés entre les deux jeux. Morandle commence le 25 novembre (cas n° 1).
 2. ⏳ Images des fiches patients faites par Gemini : abandon des schémas dessinés en SVG (jugés trop mauvais). À faire plus tard : pour chaque image fautive, une consigne de correction à donner à Gemini, ou des photos de référence par cas.
-3. ⏳ Accueil : deux variantes proposées (fond d'origine avec écriture vert forêt et or ; fond bleu), en attente du choix du Dr Morand.
+3. ✅ Accueil : trois variantes proposées (parchemin d'origine avec écriture vert forêt et or ; bleu pâle ; bleu marine). Choix du Dr Morand : parchemin, vert forêt et or (mode sombre inchangé, vert forêt foncé).
