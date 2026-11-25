@@ -70,7 +70,8 @@ for (const [region, code] of REGIONS) {
     if (vus.has(`${e.dx}|${el}`)) continue; vus.add(`${e.dx}|${el}`);
     items[statut === "a_verifier" ? "a_verifier" : "fort"].push({ dx: e.dx, cle, revu, texte: `« ${el} » — current ${e.se !== undefined ? `Se ${pc(e.se)}, Sp ${pc(e.sp)}, ` : ""}LR+ ${nb(p)}, LR− ${nb(m)}` });
   }
-  for (const g of (d.grappes || []).filter(g => (g.statutAvantRevue || g.statut) !== "verifie" && (g.statutAvantRevue || g.statut) !== "valide"))
+  // Une règle de définition (ex. capsulite sans perte de rotation externe passive) n'est pas une donnée publiée : non soumise.
+  for (const g of (d.grappes || []).filter(g => !g.definition && (g.statutAvantRevue || g.statut) !== "verifie" && (g.statutAvantRevue || g.statut) !== "valide"))
     items.a_verifier.push({ dx: g.dx, cle: `grappe|${g.id}`, revu: REVUS.has(`grappe|${g.id}`), texte: `Cluster « ${g.nom} » — current ${g.rv > 1 ? "LR+" : "LR−"} ${nb(g.rv)}${g.piste ? ` (${g.piste})` : ""}` });
 
   let no = 0;

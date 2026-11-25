@@ -128,3 +128,9 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
     - Script : `outils/locomoteur/fiches-patients/produire-fiches.mjs` ; ajouts dans `ajouts/` ; texte assemblé dans `textes-v2/`.
 12. ⏳ Fiches patients : révision par OpenEvidence (document `revision/fiches-patients-texte-complet.txt`, une région à la fois), reprise des corrections, puis consignes de dessin pour Gemini et publication sur le site.
 
+13. ✅ Algorithme (demande du 25 novembre) :
+    - « Graduel » précisé partout : bouton « Graduel » avec « sans trauma ni faux mouvement » en sous-titre ; note : « début graduel sans trauma ni faux mouvement ».
+    - Épaule : question « Difficulté à s'habiller le matin » (dans la note ; sans effet sur le calcul, aucune donnée publiée).
+    - Épaule : amplitudes ajoutées (abduction active, rotation interne active avec le niveau atteint par le pouce, abduction passive, rotation interne passive à 90° d'abduction, degrés de la rotation externe active et de la flexion passive). Pour la note ; sans poids, faute de valeur publiée.
+    - Capsulite : règle de définition (moteur : grappe `definition`, liste `neutralise`). Une rotation externe passive complète et indolore compte une seule fois (RV 0,05, l'estimation déjà en place), et la raideur racontée ou les limitations actives ou passives ne comptent plus en faveur de la capsulite. Histoire typique : 39 % → 9,7 % ; avec limitations actives : 89 % → 7,4 %.
+14. ⏳ À décider par le Dr Morand : poids (estimations cliniques) pour l'habillage du matin et les nouvelles amplitudes ; règle encore plus forte pour la capsulite si voulu ; amplitudes à ajouter dans les autres régions.

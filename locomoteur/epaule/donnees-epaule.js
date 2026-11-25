@@ -4,7 +4,7 @@
    lieu de douleur non spécifique : pas de reste calculé. Format : p() provisoire, est() à vérifier, ver()/verRv() vérifié. */
 (function () {
   "use strict";
-  const { p, est, o, m, ouiNon, choix, multi } = window.Locomoteur.outils, C = window.Locomoteur.commun;
+  const { p, est, o, m, ouiNon, choix, multi, texte } = window.Locomoteur.outils, C = window.Locomoteur.commun;
   const ver = (se, sp, piste, extra) => ({ se, sp, piste, statut: "verifie", ...extra });
   const verRv = (rvp, rvn, piste, extra) => ({ rvp, rvn, piste, statut: "verifie", ...extra });
   const trauma = L => L.trauma(), PALP = "palp", TEST = "test";
@@ -51,8 +51,13 @@
     speed: { info: "Flexion résistée, coude tendu, avant-bras en supination. Long biceps : Se 32 %, Sp 75 % (RV+ 1,28) : peu utile.", video: "Speed test" },
     yergason: { info: "Supination résistée, coude à 90°. Long biceps : Se 43 %, Sp 79 % (RV+ 2,05).", video: "Yergason test" },
     biceps_load: { info: "Abduction 120°, rotation externe maximale, flexion résistée du coude. Lésion SLAP : RV+ 1,7 ; RV− 0,39 (étude indépendante).", video: "Biceps load test II" },
-    prom_re: { info: "Perte de rotation externe passive : critère définitionnel de la capsulite (aucune valeur diagnostique mesurable) ; une rotation externe passive douloureuse correspond à une capsulite dans 75 % des cas et à une arthrose gléno-humérale dans les autres, d'où la radiographie. Moins de 30° : RV+ 3,3 pour l'arthrose." },
+    prom_re: { info: "Perte de rotation externe passive : critère définitionnel de la capsulite (aucune valeur diagnostique mesurable). Complète et indolore, elle écarte la capsulite : la raideur racontée et les limitations actives ou passives ne plaident alors plus pour elle (règle de définition) ; une rotation externe passive douloureuse correspond à une capsulite dans 75 % des cas et à une arthrose gléno-humérale dans les autres, d'où la radiographie. Moins de 30° : RV+ 3,3 pour l'arthrose." },
     prom_flex: { info: "Flexion passive de moins de 120° : RV+ 6,87 pour l'arthrose gléno-humérale (IRM)." },
+    habillage_matin: { info: "Raideur du matin qui gêne pour s'habiller (enfiler un manteau, attacher le soutien-gorge, se peigner) : évoque une polymyalgia rheumatica, surtout aux deux épaules et aux hanches après 50 ans, ou une capsulite. Aucune donnée publiée sur sa valeur diagnostique : pour la note, sans effet sur le calcul." },
+    arom_abd: { info: "Abduction active dans le plan de l'omoplate. Une abduction active limitée avec une abduction passive complète oriente vers la coiffe (douleur ou rupture) plutôt que vers une raideur capsulaire. Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
+    arom_ri: { info: "Main dans le dos : noter le niveau vertébral atteint par le pouce (normal vers T7). La rotation interne se perd tôt dans la capsulite et l'arthrose. Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
+    prom_abd: { info: "Abduction passive, omoplate stabilisée. Patron capsulaire : rotation externe plus limitée que l'abduction, elle-même plus que la rotation interne. Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
+    prom_ri: { info: "Rotation interne passive à 90° d'abduction, omoplate stabilisée (normale vers 70°). Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
     rrom_re: { info: "Rotation externe résistée douloureuse ou faible : pathologie de coiffe (Se 63 %, Sp 75 %, RV+ 2,6). Faiblesse : rupture de coiffe (RV+ 1,78 ; après un traumatisme aigu, RV+ 4,7)." },
     p_ac: { info: "Acromio-claviculaire indolore : la douleur acromio-claviculaire est peu probable (Se 96 %) ; douloureuse, peu spécifique." },
     abd90_trauma: { info: "Après un traumatisme aigu à radiographie normale, l'abduction au-delà de 90° impossible a Se 84 %, Sp 71 % pour une rupture transfixiante ou une fracture occulte (soins primaires, IRM)." },
@@ -153,6 +158,12 @@
         piste: `${LITAKER} : score 4–5, Se 49 %, Sp 95 %, RV+ 9,84`, si: L => litaker(L).every(Boolean) },
       { id: "litaker_neg", dx: "rupture", nom: "Litaker : aucun des trois", rv: .23, couvre: ["nocturne", "rrom_re"], statut: "verifie",
         piste: `${LITAKER} : score 0–1, RV 0,23`, si: L => L.age !== null && L.repondu("nocturne") && L.repondu("rrom_re") && !litaker(L).some(Boolean) },
+      // Règle de définition : la capsulite exige une perte de mobilité passive, d'abord en rotation externe. Complète et
+      // indolore, celle-ci remplace son propre poids et annule ce qui plaide pour la capsulite parmi les signes de raideur.
+      { id: "capsulite_re_normale", dx: "capsulite", nom: "Rotation externe passive complète et indolore", rv: .05, definition: true,
+        couvre: ["prom_re"], neutralise: ["raideur_prog", "habillage_matin", "arom_elev", "arom_re", "arom_abd", "arom_ri", "prom_flex", "prom_abd", "prom_ri"],
+        piste: "Critère de définition (Zuckerman et Rokito, 2011, J Shoulder Elbow Surg, définition de consensus) : perte de mobilité active et passive. RV 0,05 : estimation déjà en place pour la rotation externe passive complète, aucune valeur publiée (EPAU-P11) ; la raideur racontée et les limitations actives ou passives ne comptent plus pour la capsulite.",
+        si: L => L.v("prom_re") === "complete" },
       { id: "ac3", dx: "ac_arthrose", nom: "Trois tests acromio-claviculaires positifs", rv: 8.3, couvre: ["add_horiz", "ext_ac", "obrien_ac"], statut: "verifie",
         piste: `${MALL} : Se 25 %, Sp 97 % (RV calculé)`, si: L => ac3(L).every(Boolean) },
     ],
@@ -225,6 +236,7 @@
           C.moment({ matin: { ppr: 3, capsulite: 1.2, omarthrose: 1.2 }, soir: { sous_acro: 1.3, ac_arthrose: 1.2 }, constante: { calcifiante: 1.5, capsulite: 1.3 } }),
           C.nocturne({ rupture: { rvp: 1.08, rvn: .3, statut: "verifie", piste: `${LITAKER} : Se > 97 %, Sp < 10 %` }, capsulite: p(2, .6), calcifiante: p(2, .8), sous_acro: p(1.5, .7), myalgie: p(.6, 1.2) }),
           C.raideur({ plus30: { ppr: 5 } }),
+          ouiNon("habillage_matin", "Difficulté à s'habiller le matin", { oui: "difficulté à s'habiller le matin", nie: "difficulté à s'habiller le matin" }),
         ] },
         { titre: "Traitements", questions: C.traitements() },
         { titre: "Limitations", questions: C.limitations() },
@@ -268,6 +280,11 @@
           C.amplitude("arom_elev", "Élévation active (flexion)", "élévation", { lim_douleur: { sous_acro: 1.5, rupture: 1.4, capsulite: 2, omarthrose: 2 }, lim_raideur: { capsulite: 3, omarthrose: 3 }, complete: { capsulite: .2, omarthrose: .4 } }),
           C.degres("arom_elev", "Élévation active mesurée"),
           C.amplitude("arom_re", "Rotation externe active", "rotation externe", { lim_douleur: { capsulite: 2, omarthrose: 2 }, lim_raideur: { capsulite: 4, omarthrose: 3 }, complete: { capsulite: .2 } }),
+          C.degres("arom_re", "Rotation externe active mesurée"),
+          C.amplitude("arom_abd", "Abduction active", "abduction"),
+          C.degres("arom_abd", "Abduction active mesurée"),
+          C.amplitude("arom_ri", "Rotation interne active (main dans le dos)", "rotation interne"),
+          texte("arom_ri_deg", "Niveau atteint par le pouce", { lie: true, gabarit: "(pouce à {v})", aide: "Ex. « L3 » ; normal : vers T7.", si: L => L.dans("arom_ri", ["lim_douleur", "lim_raideur"]) }),
           ouiNon("abd90_trauma", "Après un traumatisme : abduction au-delà de 90° impossible", { si: trauma, oui: "abduction au-delà de 90° impossible", non: "abduction au-delà de 90° possible",
             effets: { rupture: ver(.84, .71, `${ENGER} : rupture transfixiante ou fracture occulte, RV+ 2,9 ; RV− 0,23`, { g: "trauma-ex" }), fracture_hp: p(2, .6, { g: "trauma-ex" }) } }),
         ] },
@@ -276,6 +293,11 @@
           C.degres("prom_re", "Rotation externe passive mesurée"),
           C.amplitude("prom_flex", "Flexion passive", "flexion", { complete: { capsulite: .3 } }, false,
             [{ dx: "omarthrose", se: .5, sp: .927, pos: lim, neg: ["complete"], statut: "verifie", piste: `${GLOVER} : flexion passive < 120°, RV+ 6,87` }]),
+          C.degres("prom_flex", "Flexion passive mesurée"),
+          C.amplitude("prom_abd", "Abduction passive", "abduction"),
+          C.degres("prom_abd", "Abduction passive mesurée"),
+          C.amplitude("prom_ri", "Rotation interne passive (à 90° d'abduction)", "rotation interne"),
+          C.degres("prom_ri", "Rotation interne passive mesurée"),
         ] },
         { titre: "RROM", toutNormal: true, questions: [
           choix("rrom_re", "Rotation externe résistée", [o("normale", "Forte et indolore", {}, { n: "rotation externe résistée forte et indolore" }), o("douleur", "Douloureuse", {}, { n: "rotation externe résistée douloureuse" }),

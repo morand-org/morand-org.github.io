@@ -54,8 +54,8 @@
   // Boutons de réponse : choix, « Équivoque » pour les tests (aucun effet sur le calcul), puis N/A (non évalué, non compté).
   function segments(q, k, opts, lid) {
     const extra = equivoque(q) && q.type === "oui_non" ? [["equivoque", "Équivoque"]] : [];
-    return `<div class="lo-seg" role="group" aria-labelledby="${lid}">${[...opts, ...extra].map(([v, l]) =>
-      `<button type="button" data-q="${k}" data-v="${esc(v)}" aria-pressed="false">${esc(l)}</button>`).join("")}<button type="button" class="lo-inconnu" data-q="${k}" data-v="?" aria-pressed="false" title="Non évalué ou ne sait pas : non compté">N/A</button></div>`;
+    return `<div class="lo-seg" role="group" aria-labelledby="${lid}">${[...opts, ...extra].map(([v, l, sous]) =>
+      `<button type="button" data-q="${k}" data-v="${esc(v)}" aria-pressed="false">${esc(l)}${sous ? `<span class="lo-seg-sous"> ${esc(sous)}</span>` : ""}</button>`).join("")}<button type="button" class="lo-inconnu" data-q="${k}" data-v="?" aria-pressed="false" title="Non évalué ou ne sait pas : non compté">N/A</button></div>`;
   }
   // Toutes les définitions d'une question dans les plaintes actives (une question commune a des poids dans chaque région).
   const definitions = id => actives().map(r => [r, D(r).parQ[id]]).filter(([, q]) => q);
@@ -72,9 +72,9 @@
     if (q.type === "oui_non") { const [a, b] = etiquettes(q); ctl = segments(q, k, [["oui", a], ["non", b]], lid); }
     else if (q.type === "choix") {
       const court = q.options.length <= 4 && q.options.every(o => o.l.length <= 36) && q.options.reduce((n, o) => n + o.l.length, 0) <= 72;
-      if (court) ctl = segments(q, k, q.options.map(o => [o.v, o.l]), lid);
+      if (court) ctl = segments(q, k, q.options.map(o => [o.v, o.l, o.sous]), lid);
       else ctl = `<select class="lo-select" id="c-${dom}" data-q="${k}" aria-labelledby="${lid}"><option value="">—</option>${q.options.map(o =>
-        `<option value="${esc(o.v)}">${esc(o.l)}</option>`).join("")}<option value="?">N/A</option></select>`;
+        `<option value="${esc(o.v)}">${esc(o.l)}${o.sous ? ` (${esc(o.sous)})` : ""}</option>`).join("")}<option value="?">N/A</option></select>`;
     } else if (q.type === "case") {
       ctl = `<button type="button" class="lo-puce lo-case" data-q="${k}" data-v="oui" aria-pressed="false" aria-labelledby="${lid}">${esc(q.n || q.libelle)}</button>`;
       return `<div class="lo-q lo-q-case" data-qid="${dom}"><span class="cache" id="${lid}">${esc(q.libelle)}</span>${ctl}</div>`;
@@ -125,8 +125,12 @@
         const sources = [...new Set(q2.effets.filter(e => e.piste).map(e => e.piste))];
         if (sources.length) morceaux.push(`<p class="lo-info-source">Sources : ${sources.map(esc).join(" · ")}</p>`);
       }
-      const grappes = grappesDe(r2, q2);
-      if (grappes.length) morceaux.push(`<p class="lo-info-titre">Fait partie d'une combinaison validée</p><ul>${grappes.map(g => `<li>${esc(g.nom)} : ${g.rv > 1 ? "↑" : "↓"} ${esc(d.parDx[g.dx].n)} ×${nb(g.rv)}${g.statut === "verifie" || g.statut === "valide" ? " (vérifié)" : ""}${g.piste ? ` <span class="lo-info-source">${esc(g.piste)}</span>` : ""}</li>`).join("")}</ul>`);
+      const grappes = grappesDe(r2, q2), ligneG = g => `<li>${esc(g.nom)} : ${g.rv > 1 ? "↑" : "↓"} ${esc(d.parDx[g.dx].n)} ×${nb(g.rv)}${g.statut === "verifie" || g.statut === "valide" ? " (vérifié)" : ""}${g.piste ? ` <span class="lo-info-source">${esc(g.piste)}</span>` : ""}</li>`;
+      const combis = grappes.filter(g => !g.definition), regles = grappes.filter(g => g.definition);
+      if (combis.length) morceaux.push(`<p class="lo-info-titre">Fait partie d'une combinaison validée</p><ul>${combis.map(ligneG).join("")}</ul>`);
+      if (regles.length) morceaux.push(`<p class="lo-info-titre">Règle de définition</p><ul>${regles.map(ligneG).join("")}</ul>`);
+      const neutres = (D(r2).grappes || []).filter(g => (g.neutralise || []).includes(q2.id));
+      if (neutres.length) morceaux.push(`<p class="lo-info-titre">Règle de définition</p><ul>${neutres.map(g => `<li>${esc(g.nom)} → ne compte plus en faveur de : ${esc(d.parDx[g.dx].n)}</li>`).join("")}</ul>`);
     }
     if (q.video) morceaux.push(`<p><a href="https://www.youtube.com/results?search_query=${encodeURIComponent(`Physiotutors ${q.video}`)}" target="_blank" rel="noopener">Vidéo Physiotutors : ${esc(q.video)}</a></p>`);
     return morceaux.join("") || "<p>Pour la note seulement.</p>";
@@ -883,7 +887,7 @@
     }
     for (const g of (d.grappes || []).filter(g => g.dx === id)) {
       const statut = `<span class="lo-statut" data-statut="${g.statut}">${LO.STATUTS[g.statut]}</span>`;
-      lignes.push(`<tr class="lo-grappe"><td>Combinaison : ${esc(g.nom)}</td><td>${g.se !== undefined ? pctExact(g.se) : "—"}</td><td>${g.sp !== undefined ? pctExact(g.sp) : "—"}</td><td>${g.rv > 1 ? nb(g.rv) : "—"}</td><td>${g.rv < 1 ? nb(g.rv) : "—"}</td><td>${statut}</td><td>${esc(g.piste || "")}</td></tr>`);
+      lignes.push(`<tr class="lo-grappe"><td>${g.definition ? "Règle de définition" : "Combinaison"} : ${esc(g.nom)}</td><td>${g.se !== undefined ? pctExact(g.se) : "—"}</td><td>${g.sp !== undefined ? pctExact(g.sp) : "—"}</td><td>${g.rv > 1 ? nb(g.rv) : "—"}</td><td>${g.rv < 1 ? nb(g.rv) : "—"}</td><td>${statut}</td><td>${esc(g.piste || "")}</td></tr>`);
     }
     $("#lo-table tbody").innerHTML = lignes.join("");
   }
