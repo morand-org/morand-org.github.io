@@ -499,6 +499,11 @@ async function locomoteur(nav) {
       r.complete < .2 && r.actives < .2 && r.raideur > .8, { complete: r.complete, actives: r.actives, raideur: r.raideur });
     verifier("Épaule : habillage du matin, rotation interne active (niveau du pouce) et abduction passive dans la note",
       r.note.includes("difficulté à s'habiller le matin") && r.note.includes("rotation interne limitée (pouce à L3) avec douleur") && r.note.includes("abduction limitée à ~90°, raideur"), { note: r.note.slice(0, 1500) });
+    const up = await p.evaluate(() => { const LO = window.Locomoteur, d = LO.donnees.epaule, q = d.parQ.uppercut, b = { age: "45", sexe: "M" };
+      const bic = rep => LO.calculer(d, rep).diagnostics.find(x => x.x.id === "biceps").p;
+      return { existe: !!q, g: q && q.effets[0].g, base: bic(b), pos: bic({ ...b, uppercut: "oui" }), neg: bic({ ...b, uppercut: "non" }) }; });
+    verifier("Épaule : Uppercut (long biceps), dans le groupe des tests du biceps ; positif fait monter, négatif fait baisser",
+      up.existe && up.g === "biceps-ex" && up.pos > up.base && up.neg < up.base, up);
     verifier("Épaule : aucune erreur", erreurs.length === 0, erreurs);
     // Amplitudes ajoutées dans les autres régions (surtout passives ; pas de rotations actives à la hanche), présentes et dans la note.
     const n = { cervical: ["arom_flexion", "arom_inclinaison"], coude: ["prom_flexion", "prom_extension", "prom_pronation", "prom_supination"],

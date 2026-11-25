@@ -141,3 +141,4 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
     - hanche (passif) : flexion, extension (Thomas) ;
     - cheville (passif) : dorsiflexion (Silfverskiöld), flexion plantaire ;
     - pied (passif) : flexion de l'hallux.
+15. ✅ Épaule : test « Uppercut » pour le long biceps (groupe des tests du biceps avec Speed et Yergason : seul le plus fort compte). RV+ 3,38 (Kibler 2009) et RV− 0,26 (Cardoso 2019), tirés de la base FlashCards ; statut « à vérifier », car la fiche de médecine sportive donne Se 77 %, Sp 80 %. Soumis à OpenEvidence sous le code EPAU-P29 ; les codes déjà donnés ne changent plus quand un élément s'ajoute.

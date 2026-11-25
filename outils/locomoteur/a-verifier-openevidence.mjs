@@ -31,6 +31,10 @@ const sortie = ["# Ce qu'OpenEvidence doit vérifier", "",
   "**Ordre suggéré.** 1) Fréquences de départ de chaque région (elles fixent le point de départ de tous les calculs). 2) Poids « à vérifier » et combinaisons non vérifiées. 3) Poids provisoires forts (rapport de vraisemblance de 5 ou plus, ou de 0,2 ou moins) : ce sont ceux qui déplacent le plus les probabilités. Les poids du contexte (côté, durée, mode d'apparition, mécanisme) ne sont pas soumis : ils traduisent la définition du diagnostic (une fracture aiguë ne dure pas depuis trois mois), pas une donnée publiée.", "",
   "Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou les corrige ; une réponse « no data » est utile aussi (le poids reste provisoire et prudent).", ""];
 const sommaire = [], CODES = {};   // code OpenEvidence → élément des données (pour intégrer les réponses)
+// Codes stables : un élément déjà numéroté garde son code ; un élément nouveau prend le numéro libre suivant de sa région.
+const FICHIER_CODES = path.join(RACINE, "outils/locomoteur/delegation/openevidence-codes.json");
+const ANCIENS = fs.existsSync(FICHIER_CODES) ? JSON.parse(fs.readFileSync(FICHIER_CODES, "utf8")) : {};
+const ANCIEN_CODE = new Map(Object.entries(ANCIENS).map(([c, v]) => [`${v.region}|${v.cle}`, c]));
 
 for (const [region, code] of REGIONS) {
   const f = `locomoteur/${region}/donnees-${region}.js`;
@@ -74,7 +78,7 @@ for (const [region, code] of REGIONS) {
   for (const g of (d.grappes || []).filter(g => !g.definition && (g.statutAvantRevue || g.statut) !== "verifie" && (g.statutAvantRevue || g.statut) !== "valide"))
     items.a_verifier.push({ dx: g.dx, cle: `grappe|${g.id}`, revu: REVUS.has(`grappe|${g.id}`), texte: `Cluster « ${g.nom} » — current ${g.rv > 1 ? "LR+" : "LR−"} ${nb(g.rv)}${g.piste ? ` (${g.piste})` : ""}` });
 
-  let no = 0;
+  let no = Math.max(0, ...Object.keys(ANCIENS).filter(c => c.startsWith(`${code}-P`)).map(c => Number(c.slice(code.length + 2))));
   const groupes = (liste, titre, intro) => {
     // Par diagnostic, puis en consignes d'au plus PAR_CONSIGNE éléments.
     const tri = [...liste].sort((a, b) => d.diagnostics.findIndex(x => x.id === a.dx) - d.diagnostics.findIndex(x => x.id === b.dx));
@@ -84,10 +88,11 @@ for (const [region, code] of REGIONS) {
       // Les éléments déjà revus gardent leur numéro (codes stables d'une version à l'autre) mais ne sont plus imprimés.
       let n = 0;
       for (const it of part) {
-        CODES[`${code}-P${++no}`] = { region, dx: it.dx, cle: it.cle, texte: it.texte, ...(it.revu ? { revu: true } : {}) };
+        const c = ANCIEN_CODE.get(`${region}|${it.cle}`) || `${code}-P${++no}`;
+        CODES[c] = { region, dx: it.dx, cle: it.cle, texte: it.texte, ...(it.revu ? { revu: true } : {}) };
         if (it.revu) continue;
         if (it.dx !== dx) { dx = it.dx; lignes.push(`\nTarget diagnosis: ${en(dx)}`); }
-        lignes.push(`${code}-P${no}. ${it.texte}`); n++;
+        lignes.push(`${c}. ${it.texte}`); n++;
       }
       const nbParts = Math.ceil(tri.length / PAR_CONSIGNE);
       if (!n) continue;
@@ -106,5 +111,5 @@ sortie.splice(sortie.indexOf("Les valeurs actuelles sont données à OpenEvidenc
   "| Région | Consignes | Fréquences | À vérifier | Forts provisoires |", "|---|---|---|---|---|", ...sommaire, "");
 const fichier = path.join(RACINE, "outils/locomoteur/delegation/openevidence-a-verifier.md");
 fs.writeFileSync(fichier, sortie.join("\n"));
-fs.writeFileSync(path.join(RACINE, "outils/locomoteur/delegation/openevidence-codes.json"), JSON.stringify(CODES, null, 1) + "\n");
+fs.writeFileSync(FICHIER_CODES, JSON.stringify(CODES, null, 1) + "\n");
 console.log(`${path.relative(RACINE, fichier)} :\n${sommaire.join("\n")}`);

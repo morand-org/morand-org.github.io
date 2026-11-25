@@ -50,6 +50,7 @@
     ext_ac: { info: "Extension résistée, bras à 90° en rotation interne. Acromio-claviculaire : Se 72 %, Sp 85 % (RV+ 4,8). Les trois tests acromio-claviculaires positifs : RV+ 8,3.", video: "AC resisted extension test" },
     speed: { info: "Flexion résistée, coude tendu, avant-bras en supination. Long biceps : Se 32 %, Sp 75 % (RV+ 1,28) : peu utile.", video: "Speed test" },
     yergason: { info: "Supination résistée, coude à 90°. Long biceps : Se 43 %, Sp 79 % (RV+ 2,05).", video: "Yergason test" },
+    uppercut: { info: "Bras le long du corps, coude fléchi à 90°, avant-bras en supination, poing fermé : le patient fait un « uppercut » rapide vers le menton contre la résistance de l'examinateur. Positif : douleur (ou ressaut douloureux) à l'avant de l'épaule. Long biceps : RV+ 3,38 (Kibler 2009, n = 101) ; négatif, RV− 0,26 (Cardoso 2019). À vérifier : une autre source donne Se 77 %, Sp 80 %.", positif: "douleur à l'avant de l'épaule", video: "Upper cut test" },
     biceps_load: { info: "Abduction 120°, rotation externe maximale, flexion résistée du coude. Lésion SLAP : RV+ 1,7 ; RV− 0,39 (étude indépendante).", video: "Biceps load test II" },
     prom_re: { info: "Perte de rotation externe passive : critère définitionnel de la capsulite (aucune valeur diagnostique mesurable). Complète et indolore, elle écarte la capsulite : la raideur racontée et les limitations actives ou passives ne plaident alors plus pour elle (règle de définition) ; une rotation externe passive douloureuse correspond à une capsulite dans 75 % des cas et à une arthrose gléno-humérale dans les autres, d'où la radiographie. Moins de 30° : RV+ 3,3 pour l'arthrose." },
     prom_flex: { info: "Flexion passive de moins de 120° : RV+ 6,87 pour l'arthrose gléno-humérale (IRM)." },
@@ -333,6 +334,7 @@
           ouiNon("ext_ac", "Extension résistée acromio-claviculaire", { court: "extension résistée acromio-claviculaire", genre: "f", horsNormal: true, effets: { ac_arthrose: ver(.72, .85, MALL) } }),
           ouiNon("speed", "Speed", { court: "Speed", effets: { biceps: ver(.32, .75, HOLTBY, { g: "biceps-ex" }) } }),
           ouiNon("yergason", "Yergason", { court: "Yergason", horsNormal: true, effets: { biceps: ver(.43, .79, HOLTBY, { g: "biceps-ex" }) } }),
+          ouiNon("uppercut", "Uppercut", { court: "uppercut", effets: { biceps: est(3.38, .26, "Kibler et coll., 2009, Am J Sports Med (n = 101) : RV+ 3,38 ; Cardoso et coll., 2019, J Shoulder Elbow Surg : RV− 0,26 (base FlashCards Morand MSK) ; la fiche de médecine sportive donne Se 77 %, Sp 80 %", { g: "biceps-ex" }) } }),
         ] },
         { fin: true, questions: C.controlateral() },
         { titre: "Cervical", adjacent: "cervical", sansCote: true, toutNormal: true, questions: [

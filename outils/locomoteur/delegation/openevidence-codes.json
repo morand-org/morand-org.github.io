@@ -223,6 +223,12 @@
   "texte": "« Acromio-claviculaire » — current LR+ 1.6, LR− 0.1",
   "revu": true
  },
+ "EPAU-P29": {
+  "region": "epaule",
+  "dx": "biceps",
+  "cle": "biceps|uppercut>biceps",
+  "texte": "« Upper cut test (Uppercut) » — current LR+ 3.38, LR− 0.26"
+ },
  "EPAU-P8": {
   "region": "epaule",
   "dx": "capsulite",

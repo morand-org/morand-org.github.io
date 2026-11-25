@@ -11,7 +11,7 @@ Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou l
 | Région | Consignes | Fréquences | À vérifier | Forts provisoires |
 |---|---|---|---|---|
 | Cervicalgie ou douleur cervico-brachiale | 0 | réponse reçue (2026-11-24) | 0 | 0 |
-| Douleur à l'épaule | 0 | réponse reçue (2026-11-24) | 0 | 0 |
+| Douleur à l'épaule | 1 | réponse reçue (2026-11-24) | 1 | 0 |
 | Douleur au coude | 1 | réponse reçue (2026-11-24) | 0 | 3 |
 | Douleur au poignet ou à la main | 0 | réponse reçue (2026-11-24) | 0 | 0 |
 | Lombalgie, avec ou sans irradiation | 1 | réponse reçue (2026-11-24) | 0 | 3 |
@@ -23,6 +23,17 @@ Les valeurs actuelles sont données à OpenEvidence pour qu'il les confirme ou l
 ## Cervicalgie ou douleur cervico-brachiale (CERV)
 
 ## Douleur à l'épaule (EPAU)
+
+### EPAU 1. Poids à vérifier et combinaisons (1 élément)
+
+```text
+For each coded history or examination finding below, give its diagnostic accuracy for the target diagnosis shown above it. Our current values are given; confirm or correct them. The findings come from a French-language questionnaire for shoulder pain; the French wording is kept in quotes.
+
+Target diagnosis: long head of biceps tendinopathy or rupture
+EPAU-P29. « Upper cut test (Uppercut) » — current LR+ 3.38, LR− 0.26
+
+Answer as one table, one row per code, with columns: code | sensitivity | specificity | LR+ | LR− (95% CI if available) | population and setting (primary care, sports medicine, emergency, orthopedics) | reference standard | source (first author, journal, year, PMID). Prefer meta-analyses, then the best primary-care or sports-medicine study. If no study gives the accuracy of a finding, write "no data" for that code; do not estimate.
+```
 
 ## Douleur au coude (COUD)
 
