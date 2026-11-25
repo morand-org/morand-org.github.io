@@ -1,5 +1,91 @@
 {
- "note": "Morandle : cas pilotes rédigés le 25 novembre 2026 à partir des fiches résumées (code = fiche). Six indices du plus vague au plus parlant : portrait et plainte, anamnèse, contexte, examen, test, signe clé. À valider par le Dr Morand (mode éditeur) avant toute mise en ligne. « accepte » : autres fiches qui comptent comme bonne réponse.",
+ "note": "Morandle : cas pilotes rédigés le 25 novembre 2026 à partir des fiches résumées (code = fiche). Six indices du plus vague au plus parlant : portrait et plainte, anamnèse, contexte, examen, test, signe clé. À valider par le Dr Morand (mode éditeur). « accepte » : autres fiches qui comptent comme bonne réponse. « archives » : 12 cas rédigés le 25 novembre 2026, joués dans l'ordre comme cas n° 1 à 12 (13 au 24 novembre) ; « cas » : la suite, à partir du n° 13.",
+ "archives": [
+  { "code": "E4", "indices": [
+    "Un homme de 24 ans consulte pour une douleur à l'épaule gauche.",
+    "Il est tombé de vélo hier, directement sur le moignon de l'épaule.",
+    "La douleur est située sur le dessus de l'épaule ; il garde le bras collé au corps.",
+    "Le bout externe de la clavicule est sensible à la palpation.",
+    "Amener le bras tendu en travers de la poitrine (adduction horizontale) réveille la douleur.",
+    "Le bout externe de la clavicule fait saillie sous la peau, comme une marche d'escalier." ] },
+  { "code": "G10", "indices": [
+    "Une coureuse de 30 ans consulte pour une douleur au genou droit.",
+    "Elle prépare un marathon et a beaucoup augmenté son kilométrage.",
+    "La douleur apparaît toujours après quelques kilomètres, surtout en descente, et l'oblige à arrêter ; le sprint la dérange moins.",
+    "Le genou n'est pas enflé et l'interligne articulaire n'est pas sensible.",
+    "La douleur est sur le côté externe du genou, 2 à 3 cm au-dessus de l'interligne.",
+    "Appuyer sur ce point pendant qu'on plie et étend le genou reproduit la douleur vers 30° de flexion." ] },
+  { "code": "M12", "indices": [
+    "Une femme de 38 ans consulte pour un doigt douloureux à la main droite.",
+    "Hier, en bordant un lit, elle s'est accroché le bout du majeur, qui a été plié de force.",
+    "Le dos de la dernière articulation du doigt est enflé et sensible.",
+    "L'IPP et la MCP bougent normalement.",
+    "On peut redresser complètement le bout du doigt avec l'autre main.",
+    "Seule, elle ne peut pas allonger le bout du doigt : l'IPD reste fléchie." ] },
+  { "code": "L11", "indices": [
+    "Un garçon de 15 ans consulte pour un mal de dos qui dure depuis deux mois.",
+    "La douleur est basse, au centre, et augmente progressivement avec le sport.",
+    "Il fait de la gymnastique de compétition plusieurs fois par semaine.",
+    "Pas de douleur dans les jambes ; l'examen neurologique est normal.",
+    "Ses ischio-jambiers sont très raides.",
+    "Se pencher vers l'arrière (extension du dos) reproduit nettement la douleur." ] },
+  { "code": "Pi20", "indices": [
+    "Un homme de 28 ans consulte pour une douleur au pied droit.",
+    "Au football, un adversaire est tombé sur son talon alors que son pied était en pointe.",
+    "Le milieu du pied est enflé et il peine à mettre du poids dessus.",
+    "Il est incapable de monter sur la pointe des pieds.",
+    "Tourner passivement l'avant-pied vers l'extérieur (pronation et abduction) réveille la douleur au milieu du pied.",
+    "Le lendemain, une ecchymose apparaît sous la voûte plantaire." ] },
+  { "code": "C5", "indices": [
+    "Une femme de 34 ans consulte pour une douleur au cou depuis trois jours.",
+    "La douleur s'accompagne de raideur et de maux de tête.",
+    "Elle a aussi des étourdissements et se dit très anxieuse depuis l'événement.",
+    "L'examen neurologique des membres supérieurs est normal.",
+    "La nuque est sensible à la palpation et les amplitudes sont réduites par la douleur.",
+    "Tout a commencé après que sa voiture a été heurtée par l'arrière à un feu rouge." ] },
+  { "code": "Co8", "indices": [
+    "Un homme de 50 ans consulte pour une enflure au coude.",
+    "L'enflure est apparue en quelques jours, sans chute.",
+    "Il est carreleur et s'appuie souvent sur les coudes.",
+    "Il plie et étend le coude complètement, presque sans douleur.",
+    "Pas de fièvre, pas de rougeur, pas de plaie.",
+    "Une masse molle et fluctuante, de la taille d'un œuf, couvre la pointe du coude." ] },
+  { "code": "H4", "indices": [
+    "Un joueur de soccer de 23 ans consulte pour une douleur à l'arrière de la cuisse.",
+    "La douleur est apparue d'un coup pendant un sprint, en fin de match.",
+    "Il a dû quitter le terrain et boite depuis.",
+    "Il marche à petits pas, en évitant d'allonger la jambe.",
+    "La palpation est douloureuse au milieu de l'arrière de la cuisse, un peu en dehors.",
+    "Couché sur le dos, la jambe tendue monte beaucoup moins haut que l'autre, freinée par la douleur à l'arrière de la cuisse." ] },
+  { "code": "Ch5", "indices": [
+    "Une femme de 19 ans, nouvelle recrue dans l'armée, consulte pour des douleurs aux jambes.",
+    "La douleur est sourde et s'est installée graduellement depuis le début de l'entraînement.",
+    "Elle survient à la course et persiste quelques heures après l'effort.",
+    "Pas d'engourdissement ; les pouls du pied sont normaux.",
+    "La douleur n'est présente ni la nuit ni au repos.",
+    "Le bord interne du tibia est sensible sur une dizaine de centimètres, au tiers moyen et inférieur." ] },
+  { "code": "M10", "indices": [
+    "Un homme de 29 ans consulte pour une douleur au pouce gauche.",
+    "Il est tombé en ski hier, la main encore dans la dragonne du bâton.",
+    "Il a du mal à pincer une clé ou à tenir une tasse.",
+    "La douleur et l'enflure sont à la base du pouce, du côté de l'index.",
+    "La radiographie, faite avant de tester le pouce, ne montre pas de fracture.",
+    "Pousser le pouce vers l'extérieur, à la MCP, ouvre l'articulation bien plus que de l'autre côté, sans arrêt franc." ] },
+  { "code": "E10", "indices": [
+    "Une femme de 45 ans consulte pour une douleur à l'épaule droite.",
+    "La douleur est apparue sans traumatisme et est devenue intense et constante en un ou deux jours.",
+    "Elle n'arrive plus à dormir ; elle se sent un peu fiévreuse.",
+    "Les amplitudes actives et passives sont toutes limitées par la douleur.",
+    "Il y a deux ans, une crise semblable à l'autre épaule s'était réglée en trois semaines.",
+    "La radiographie montre un dépôt dense, arrondi, dans le tendon du supra-épineux." ] },
+  { "code": "D6", "indices": [
+    "Une fille de 13 ans est amenée par sa mère.",
+    "Sa mère trouve qu'une de ses omoplates ressort plus que l'autre.",
+    "Elle n'a aucune douleur.",
+    "Elle a beaucoup grandi depuis un an.",
+    "Une épaule est plus haute que l'autre et la taille paraît asymétrique ; l'examen neurologique est normal.",
+    "Penchée vers l'avant, bras pendants, une bosse apparaît d'un côté du dos." ] }
+ ],
  "cas": [
   { "code": "C8", "indices": [
     "Un homme de 52 ans consulte pour une douleur au bras droit qui dure depuis trois semaines.",

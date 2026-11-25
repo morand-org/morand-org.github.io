@@ -14,20 +14,28 @@
   const dateDu = (debut, n) => { const d = new Date(utc(debut) + (n - 1) * 864e5); return d.toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }); };
   const lireLS = (k, defaut) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : defaut; } catch (e) { return defaut; } };
   const ecrireLS = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* stockage indisponible : la partie reste en mémoire */ } };
-  const CLE = "morandle-v1", CLE_ED = "morandle-editeur", CLE_DEC = "morandle-decisions";
+  const CLE = "morandle-v2", CLE_ED = "morandle-editeur", CLE_DEC = "morandle-decisions";
   const CARRE = { passe: "⬜", faux: "🟥", region: "🟨", bon: "🟩" };
 
   const params = new URLSearchParams(location.search);
   if (params.has("editeur")) { if (params.get("editeur") === "0") ecrireLS(CLE_ED, false); else ecrireLS(CLE_ED, true); }
   const editeur = lireLS(CLE_ED, false) === true;
 
-  let D, cas, numero, cle, partie, diag, actif = -1;
-  const memoire = lireLS(CLE, { parties: {}, stats: null });
+  let D, cas, numero, cle, partie, diag, actif = -1, jour = 0;
+  // v1 (25 novembre 2026, premier jour) : le cas du jour était le n° 1 ; depuis l'ajout des 12 cas d'archives, c'est le n° 13.
+  const renumeroter = (m, k) => {
+    const parties = {};
+    for (const [c, p] of Object.entries(m.parties || {})) parties[/^n\d+$/.test(c) ? `n${+c.slice(1) + k}` : c] = p;
+    const s = m.stats ? { ...m.stats, comptes: (m.stats.comptes || []).map(n => n + k), dernier: m.stats.dernier ? m.stats.dernier + k : 0 } : null;
+    return { parties, stats: s };
+  };
+  let memoire = lireLS(CLE, null);
+  if (!memoire) { const v1 = lireLS("morandle-v1", null); memoire = v1 ? renumeroter(v1, 12) : { parties: {}, stats: null }; if (v1) ecrireLS(CLE, memoire); }
 
   fetch("/locomoteur/morandle/donnees.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d; diag = new Map(D.diagnostics.map(x => [norm(x.n), x]));
     const jouables = D.cas.filter(c => c.statut !== "retiree");
-    const aujourdhui = Math.max(1, Math.round((utc(jourLocal()) - utc(D.debut)) / 864e5) + 1);
+    const aujourdhui = Math.max(1, Math.round((utc(jourLocal()) - utc(D.debut)) / 864e5) + 1); jour = aujourdhui;
     const n = parseInt(params.get("n"), 10), code = params.get("cas");
     if (editeur && code && D.cas.some(c => c.code === code)) { cas = D.cas.find(c => c.code === code); numero = null; cle = `cas-${code}`; }
     else { numero = n >= 1 && n <= aujourdhui ? n : aujourdhui; cas = jouables[(numero - 1) % jouables.length]; cle = `n${numero}`; }
@@ -138,13 +146,14 @@
     else $("#ml-copie").textContent = texte;
   });
 
-  /* ---------- Statistiques (cas du jour seulement, une fois par cas) ---------- */
+  /* ---------- Statistiques (une fois par cas ; la série ne compte que les cas du jour, jours consécutifs) ---------- */
   function compter() {
     const s = memoire.stats || { joues: 0, gagnes: 0, serie: 0, meilleure: 0, dernier: 0, dist: [0, 0, 0, 0, 0, 0, 0], comptes: [] };
     if (s.comptes.includes(numero)) return;
     s.comptes.push(numero); s.joues++;
-    if (partie.gagne) { s.gagnes++; s.dist[partie.essais.length - 1]++; s.serie = s.dernier === numero - 1 ? s.serie + 1 : 1; s.dernier = numero; }
-    else { s.dist[6]++; s.serie = 0; }
+    const duJour = numero === jour;
+    if (partie.gagne) { s.gagnes++; s.dist[partie.essais.length - 1]++; if (duJour) { s.serie = s.dernier === numero - 1 ? s.serie + 1 : 1; s.dernier = numero; } }
+    else { s.dist[6]++; if (duJour) s.serie = 0; }
     s.meilleure = Math.max(s.meilleure, s.serie);
     memoire.stats = s; ecrireLS(CLE, memoire);
   }
@@ -167,6 +176,7 @@
   /* ---------- Cas précédents ---------- */
   function archives(aujourdhui) {
     const ul = $("#ml-archives-liste"); ul.textContent = "";
+    $("#ml-archives summary h2").textContent = aujourdhui > 1 ? `Cas précédents (${aujourdhui - 1})` : "Cas précédents";
     if (aujourdhui <= 1) { ul.appendChild(el("li", "ml-vide", "Aucun cas précédent pour l'instant : revenez demain.")); return; }
     for (let k = aujourdhui - 1; k >= Math.max(1, aujourdhui - 60); k--) {
       const p = memoire.parties[`n${k}`], li = el("li"), a = el("a", null, `Cas n° ${k} · ${dateDu(D.debut, k)}`); a.href = `?n=${k}`;
