@@ -109,3 +109,4 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 7. ✅ doctordle.org analysé le 24 novembre : faisable avec notre base (réponse et plan proposés au Dr Morand).
 8. Plus tard : catalogue imprimable des fiches patients, pour un petit classeur à remettre aux patients. Il doit être parfait.
 9. Plus tard : analyser docteur-kilinc.com et dire ce dont on pourrait s'inspirer.
+10. ✅ Morandle (choix du Dr Morand : nom « Morandle », dans MSK Morand, indice « bonne région ») : page cachée `/locomoteur/morandle/`, un cas par jour, 6 indices, réponse choisie dans les 240 fiches résumées, statistiques et séries locales, partage, cas précédents, mode éditeur (`?editeur=1`). 40 cas pilotes rédigés d'après les fiches (`outils/locomoteur/morandle/cas.json`), tous « en révision » : à valider par le Dr Morand avant toute mise en ligne. Régénérer : `node outils/locomoteur/morandle.mjs [export des décisions]`.

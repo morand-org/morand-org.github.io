@@ -1,0 +1,100 @@
+/* MSK Morand : Morandle (page cachée). Chargé après crds.css et locomoteur.css ; reprend leurs couleurs et polices. */
+.ml-page { width: min(720px, 100% - 32px); margin: 0 auto; padding: 18px 0 40px; }
+.ml-fil { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 4px 0 18px; font: 500 0.8rem/1.4 var(--sans); color: var(--discret); }
+.ml-fil a { color: var(--or-texte); text-decoration: none; }
+
+.ml-jeu { margin: 24px 0 18px; padding: 22px 20px 18px; border: 1px solid var(--filet); border-radius: 18px; background: var(--carte);
+  box-shadow: inset 0 0 0 5px var(--carte), inset 0 0 0 6px var(--filet); }
+.ml-sur { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 10px; margin: 0 0 4px; font: 600 0.72rem/1.4 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--discret); }
+.ml-statut { padding: 0 8px; border-radius: 999px; background: var(--jaune-fond); color: var(--or-texte); }
+.ml-titre { margin: 0 0 16px; text-align: center; font: 400 1.6rem/1.2 var(--serif); }
+.ml-titre::after { content: ""; display: block; width: 40px; height: 2px; margin: 10px auto 0; background: var(--or); }
+
+.ml-indices { list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 8px; counter-reset: indice; }
+.ml-indice { position: relative; min-height: 48px; padding: 12px 14px 12px 44px; border: 1px solid var(--filet); border-radius: 12px; background: var(--papier);
+  font: 500 0.98rem/1.45 var(--serif); counter-increment: indice; }
+.ml-indice::before { content: counter(indice); position: absolute; left: 14px; top: 12px; width: 20px; height: 20px; border-radius: 50%; background: var(--or); color: var(--carte);
+  font: 700 0.72rem/20px var(--sans); text-align: center; }
+.ml-indice.ml-cache { background: repeating-linear-gradient(-45deg, transparent 0 8px, color-mix(in srgb, var(--filet) 45%, transparent) 8px 9px), var(--papier); }
+.ml-indice.ml-cache::before { background: var(--filet); color: var(--discret); }
+
+.ml-form { display: flex; gap: 8px; align-items: stretch; }
+.ml-form[hidden] { display: none; }
+.ml-champ { position: relative; flex: 1; min-width: 0; }
+.ml-champ input { width: 100%; box-sizing: border-box; min-height: 46px; padding: 10px 14px; border: 1px solid var(--filet); border-radius: 12px; background: var(--papier); color: var(--encre); font: 400 1rem var(--sans); }
+.ml-champ input:focus { outline: 2px solid var(--or); outline-offset: 1px; }
+.ml-bouton { min-height: 46px; min-width: 112px; }
+.ml-liste { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 5; max-height: 300px; overflow-y: auto; margin: 0; padding: 4px; list-style: none;
+  border: 1px solid var(--filet); border-radius: 12px; background: var(--carte); box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14); }
+.ml-option { display: flex; justify-content: space-between; gap: 10px; padding: 9px 10px; border-radius: 8px; font: 400 0.92rem/1.3 var(--sans); cursor: pointer; }
+.ml-option:hover, .ml-option[aria-selected="true"] { background: var(--jaune-fond); }
+.ml-option-r { flex: none; color: var(--discret); font-size: 0.75rem; }
+.ml-message { min-height: 1.2em; margin: 8px 2px 0; font: 500 0.84rem/1.4 var(--sans); color: var(--alerte); }
+
+.ml-essais { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 6px; }
+.ml-essai { display: grid; grid-template-columns: 24px 1fr auto; align-items: center; gap: 10px; padding: 8px 12px; border: 1px solid var(--filet); border-radius: 999px;
+  font: 500 0.88rem/1.3 var(--sans); color: var(--encre-2); }
+.ml-essai-no { width: 22px; height: 22px; border-radius: 50%; background: var(--papier); color: var(--discret); font-size: 0.72rem; line-height: 22px; text-align: center; }
+.ml-essai-m { font-size: 0.78rem; color: var(--discret); }
+.ml-passe .ml-essai-t { color: var(--discret); }
+.ml-faux { background: color-mix(in srgb, var(--alerte-fond) 60%, transparent); }
+.ml-region { border-color: var(--or); background: var(--jaune-fond); }
+.ml-region .ml-essai-m { color: var(--or-texte); font-weight: 600; }
+.ml-bon { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, transparent); }
+.ml-bon .ml-essai-m { color: var(--ok); font-weight: 700; }
+
+.ml-fin { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--filet); text-align: center; }
+.ml-verdict { margin: 0; font: 400 1.5rem/1.2 var(--serif); }
+.ml-verdict:focus { outline: none; }
+.ml-reponse { margin: 6px 0 0; font: 600 1rem/1.4 var(--sans); color: var(--or-texte); }
+.ml-carres { margin: 8px 0 0; font-size: 1.3rem; letter-spacing: 0.12em; }
+.ml-liens { display: flex; justify-content: center; flex-wrap: wrap; gap: 4px 18px; margin: 8px 0 0; }
+.ml-explication { max-width: 560px; margin: 12px auto 0; text-align: left; }
+.ml-explication h3 { margin: 12px 0 2px; font: 600 0.7rem/1.4 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--or-texte); }
+.ml-explication p { margin: 0; font: 400 0.92rem/1.5 var(--serif); color: var(--encre-2); }
+.ml-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; margin: 16px 0 0; }
+.ml-copie { font: 500 0.84rem var(--sans); color: var(--ok); white-space: pre-line; }
+.ml-demain { margin: 8px 0 0; font: 400 0.82rem var(--sans); color: var(--discret); }
+
+.ml-stats { margin: 18px 0; padding: 16px 18px; border: 1px solid var(--filet); border-radius: 14px; background: var(--carte); }
+.ml-stats h2 { margin: 0 0 10px; font: 400 1.25rem/1.2 var(--serif); }
+.ml-stats h3 { margin: 14px 0 6px; font: 600 0.7rem/1.4 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--discret); }
+.ml-chiffres { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0; text-align: center; }
+.ml-chiffres div { display: grid; }
+.ml-chiffres dd { order: -1; margin: 0; font: 400 1.6rem/1.1 var(--serif); }
+.ml-chiffres dt { font: 500 0.72rem/1.3 var(--sans); color: var(--discret); }
+.ml-distribution { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.ml-distribution li { display: grid; grid-template-columns: 18px 1fr 28px; align-items: center; gap: 8px; font: 500 0.8rem var(--sans); }
+.ml-barre { height: 14px; border-radius: 4px; background: var(--papier); overflow: hidden; }
+.ml-barre-plein { display: block; height: 100%; background: var(--or); }
+.ml-dist-v { color: var(--discret); text-align: right; }
+
+.ml-archives-liste { list-style: none; margin: 0; padding: 0; }
+.ml-archives-liste li { display: flex; justify-content: space-between; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--filet); font: 400 0.9rem var(--sans); }
+.ml-archives-liste a { color: var(--or-texte); }
+.ml-arch-etat, .ml-vide { color: var(--discret); }
+
+.ml-editeur { margin: 24px 0; padding: 16px 18px; border: 1px dashed var(--or); border-radius: 14px; }
+.ml-editeur h2 { margin: 0 0 6px; font: 400 1.25rem var(--serif); }
+.ml-editeur-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font: 500 0.84rem var(--sans); color: var(--discret); }
+.ml-editeur-liste { margin: 12px 0 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+.ml-ed-cas { padding: 12px 14px; border: 1px solid var(--filet); border-radius: 12px; background: var(--carte); }
+.ml-ed-cas h3 { display: flex; justify-content: space-between; gap: 10px; margin: 0 0 6px; font: 600 0.95rem/1.3 var(--sans); }
+.ml-ed-cas h3 a { color: var(--encre); }
+.ml-ed-r { flex: none; font-weight: 500; font-size: 0.75rem; color: var(--discret); }
+.ml-ed-indices { margin: 0 0 8px; padding-left: 1.3em; font: 400 0.9rem/1.45 var(--serif); color: var(--encre-2); }
+.ml-ed-boutons { display: flex; gap: 8px; margin: 0 0 6px; }
+.ml-btn-sec { min-height: 36px; padding: 6px 14px; border: 1px solid var(--filet); border-radius: 999px; background: var(--papier); color: var(--encre); font: 600 0.82rem var(--sans); cursor: pointer; }
+.ml-btn-sec[aria-pressed="true"] { border-color: var(--or); background: var(--or); color: var(--carte); }
+.ml-btn-sec:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+.ml-ed-note { display: grid; gap: 4px; font: 500 0.78rem var(--sans); color: var(--discret); }
+.ml-ed-note input { min-height: 34px; padding: 6px 10px; border: 1px solid var(--filet); border-radius: 8px; background: var(--papier); color: var(--encre); font: inherit; }
+
+@media (max-width: 560px) {
+  .ml-jeu { padding: 18px 14px 14px; }
+  .ml-form { flex-direction: column; }
+  .ml-bouton { width: 100%; }
+  .ml-chiffres { grid-template-columns: repeat(2, 1fr); }
+  .ml-essai { grid-template-columns: 22px 1fr; }
+  .ml-essai-m { grid-column: 2; }
+}

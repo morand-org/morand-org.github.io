@@ -27,7 +27,7 @@ function verifier(nom, condition, detail) {
   else { echecs++; console.error(`ÉCHEC : ${nom}${detail !== undefined ? ` (${typeof detail === "string" ? detail : JSON.stringify(detail)})` : ""}`); }
 }
 const lire = f => fs.readFileSync(path.join(RACINE, f), "utf8");
-const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/", "/entrainement/", "/locomoteur/donnees/"];
+const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/", "/entrainement/", "/locomoteur/donnees/", "/locomoteur/morandle/"];
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
@@ -733,7 +733,30 @@ async function atlas(nav) {
   await ctx.close();
 }
 
-const SCENARIOS = { pages, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, entrainement, baseDonnees, sombre };
+/* Morandle (page cachée) : le cas du jour se charge ; six « Passer » finissent la partie, la réponse et la fiche s'affichent ;
+   une réponse hors liste est refusée ; une réponse de la bonne région est dorée ; le mode éditeur liste tous les cas. */
+async function morandle(nav) {
+  const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/morandle/", { largeur: 390 });
+  await p.waitForSelector(".ml-indice");
+  const d = await p.evaluate(() => fetch("/locomoteur/morandle/donnees.json").then(r => r.json()));
+  const c = d.cas[0], voisin = d.diagnostics.find(x => x.r === c.r && !c.accepte.includes(x.c));
+  const debut = await p.evaluate(() => ({ vus: document.querySelectorAll(".ml-indice:not(.ml-cache)").length, total: document.querySelectorAll(".ml-indice").length, robots: document.querySelector('meta[name="robots"]').content }));
+  await p.fill("#ml-q", "pas un diagnostic"); await p.click("#ml-bouton");
+  const refus = await p.textContent("#ml-message");
+  await p.fill("#ml-q", voisin.n); await p.click("#ml-bouton");
+  const dore = await p.evaluate(() => !!document.querySelector(".ml-essai.ml-region"));
+  for (let i = 0; i < 5; i++) { await p.fill("#ml-q", ""); await p.click("#ml-bouton"); }
+  const fin = await p.evaluate(() => ({ fini: !document.querySelector("#ml-fin").hidden, verdict: document.querySelector("#ml-verdict").textContent, reponse: document.querySelector("#ml-reponse").textContent,
+    fiche: (document.querySelector("#ml-liens a") || {}).getAttribute?.("href") || "", vus: document.querySelectorAll(".ml-indice:not(.ml-cache)").length }));
+  verifier("Morandle : 1 indice sur 6 au départ, page non indexée", debut.vus === 1 && debut.total === 6 && /noindex/.test(debut.robots), debut);
+  verifier("Morandle : réponse hors liste refusée, bonne région en doré", /liste/.test(refus) && dore, { refus, dore });
+  verifier("Morandle : six essais finissent la partie, réponse et fiche résumée affichées", fin.fini && fin.vus === 6 && fin.reponse.includes(c.nom) && fin.fiche.includes("/fiches/") && !erreurs.length && !(await deborde(p)), { ...fin, erreurs });
+  await p.goto(`${BASE}/locomoteur/morandle/?editeur=1`); await p.waitForSelector(".ml-ed-cas");
+  verifier("Morandle : le mode éditeur liste tous les cas", (await p.evaluate(() => document.querySelectorAll(".ml-ed-cas").length)) === d.cas.length);
+  await ctx.close();
+}
+
+const SCENARIOS = { pages, morandle, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, entrainement, baseDonnees, sombre };
 const choisis = (process.env.SCENARIOS || "").split(",").map(s => s.trim()).filter(Boolean);
 const nav = await chromium.launch();
 try {
