@@ -382,3 +382,22 @@ details.lo-section > summary h2 { margin: 0 0 4px; }
 .lo-dx-groupe:first-child { margin-top: 2px; }
 .lo-dx-cles { display: flex; flex-wrap: wrap; gap: 2px 10px; margin-top: 4px; font-size: 0.78rem; color: var(--encre-2); }
 .lo-dx-cles [data-sens="bas"] { color: var(--discret); }
+
+/* Hub : Morandle mis en avant sous le titre (nouveau, 25 novembre 2026). */
+.lo-ml { display: flex; align-items: center; gap: 12px 18px; max-width: 720px; margin: 24px auto 0; padding: 14px 14px 14px 18px; border: 1px solid var(--or); border-radius: 16px;
+  background: linear-gradient(100deg, var(--beige), var(--carte) 70%); color: var(--encre); text-decoration: none; box-shadow: 0 8px 22px -12px rgba(138, 107, 42, 0.45);
+  transition: transform 0.2s, box-shadow 0.2s; }
+.lo-ml:hover { transform: translateY(-2px); box-shadow: 0 14px 26px -12px rgba(138, 107, 42, 0.55); }
+.lo-ml:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; }
+.lo-ml-nv { flex: none; padding: 5px 10px; border-radius: 999px; background: var(--or-texte); color: var(--carte); font: 600 0.66rem/1.2 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; }
+.lo-ml-texte { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; text-align: left; }
+.lo-ml-titre { font: 500 1.4rem/1.1 var(--serif); }
+.lo-ml-sous { font-size: 0.88rem; line-height: 1.4; color: var(--encre-2); }
+.lo-ml-jouer { flex: none; display: inline-flex; align-items: center; gap: 6px; min-height: 42px; padding: 8px 20px; border-radius: 999px; background: var(--encre); color: var(--papier); font: 600 0.92rem/1 var(--sans); transition: background-color 0.2s; }
+.lo-ml:hover .lo-ml-jouer { background: var(--or-texte); }
+@media (max-width: 560px) {
+  .lo-ml { flex-wrap: wrap; padding: 16px; }
+  .lo-ml-texte { flex-basis: 100%; order: 1; }
+  .lo-ml-jouer { order: 2; flex-basis: 100%; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) { .lo-ml { transition: none; } .lo-ml:hover { transform: none; } }

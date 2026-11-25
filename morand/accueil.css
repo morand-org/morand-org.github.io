@@ -287,13 +287,36 @@ a.tete-lien { text-decoration: none; }
 }
 @media (max-width: 719px) and (max-height: 700px) { .accueil .rg-frequentes { display: none; } }
 
+/* Morandle mis en avant (nouveau, 25 novembre 2026) : sous la recherche ; sur téléphone, à la place des recherches fréquentes. */
+.promo { margin: -10px 0 22px; }
+.promo a { display: inline-flex; align-items: center; gap: 10px; max-width: 100%; min-height: 36px; padding: 5px 14px 5px 6px; border: 1px solid var(--or-bord); border-radius: 999px;
+  background: var(--or-clair); color: var(--encre); font: 400 13px/1.2 var(--police); transition: background-color 0.2s, border-color 0.2s; }
+.promo a:hover { background: var(--champ); border-color: var(--or-deco); }
+.promo a:focus-visible { outline: 2px solid var(--or-deco); outline-offset: 2px; }
+.promo-nv, .tete-nv { border-radius: 999px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
+.promo-nv { flex: none; padding: 5px 9px; background: var(--or); color: var(--papier); font-size: 9.5px; line-height: 1.2; }
+.promo-texte { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.promo strong { font-weight: 600; }
+.promo-fleche { flex: none; color: var(--or); transition: transform 0.2s; }
+.promo a:hover .promo-fleche { transform: translateX(3px); }
+.tete-nv { margin-left: 8px; padding: 3px 6px; background: var(--or); color: var(--papier); font-size: 8.5px; line-height: 1; vertical-align: 1px; }
+@media (max-width: 719px) {
+  .accueil .rg-frequentes { display: none; }
+  .accueil .promo { margin: calc(-1 * clamp(4px, 1.2svh, 12px)) 0 clamp(8px, 1.8svh, 16px); }
+  .accueil.cherche .promo { display: none; }
+}
+@media (max-width: 719px) and (max-height: 700px) { .accueil .promo { margin-bottom: 6px; } .accueil .promo a { min-height: 28px; padding-top: 3px; padding-bottom: 3px; } .accueil .promo-nv { padding: 3px 8px; } }
+@media (max-width: 719px) and (max-height: 600px) { .accueil .promo { display: none; } }
+
 /* Grand écran : les cartes de la maquette (fond blanc translucide, filet intérieur, catégorie, « Mis à jour »). */
 @media (min-width: 1000px) {
   .accueil .marque { font-size: 17px; }
   .accueil .installer-ligne { flex-direction: column; align-items: flex-end; gap: 6px; }
   /* Cormorant a un petit œil : le titre est 12 % plus grand ; le bouton d'installation suit (même formule). */
   .accueil main { --taille-titre: clamp(2.7rem, min(5.15vw, 7.4vh), 4.8rem); }
-  main > .rg-frequentes { grid-column: 1 / -1; margin: calc(-1 * clamp(6px, 1.4vh, 16px)) 0 clamp(14px, 2.6vh, 28px); }
+  main > .rg-frequentes { grid-column: 1; margin: calc(-1 * clamp(6px, 1.4vh, 16px)) 0 clamp(14px, 2.6vh, 28px); }
+  main > .promo { grid-column: 2; justify-self: end; align-self: start; margin: calc(-1 * clamp(6px, 1.4vh, 16px)) 0 clamp(14px, 2.6vh, 28px); }
+  .promo a { min-height: 34px; }
   .rg-raccourci { display: inline-flex; align-items: center; position: absolute; top: 50%; right: calc(var(--rg-marge) + 134px); transform: translateY(-50%); padding: 3px 7px;
     border: 1px solid var(--filet-carte); border-radius: 6px; background: var(--papier); color: var(--encre-2); font: 500 11px/1.2 var(--police); letter-spacing: 0.04em; pointer-events: none; }
   .accueil .rg input { padding-right: 210px; }

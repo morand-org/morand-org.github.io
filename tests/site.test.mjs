@@ -748,13 +748,16 @@ async function atlas(nav) {
   await ctx.close();
 }
 
-/* Morandle (page cachée) : le cas du jour se charge ; six « Passer » finissent la partie, la réponse et la fiche s'affichent ;
-   une réponse hors liste est refusée ; une réponse de la bonne région est dorée ; le mode éditeur liste tous les cas. */
+/* Morandle : le cas du jour se charge ; six « Passer » finissent la partie, la réponse et la fiche s'affichent ;
+   une réponse hors liste est refusée ; une réponse de la bonne région est dorée ; les 12 cas d'archives se jouent sans toucher
+   à la série ; une partie de la version 1 (cas n° 1 le 25 novembre) passe au n° 13 ; le mode éditeur liste tous les cas ;
+   Morandle est mis en avant à l'accueil et dans le hub MSK. */
 async function morandle(nav) {
   const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/morandle/", { largeur: 390 });
   await p.waitForSelector(".ml-indice");
   const d = await p.evaluate(() => fetch("/locomoteur/morandle/donnees.json").then(r => r.json()));
-  const c = d.cas[0], voisin = d.diagnostics.find(x => x.r === c.r && !c.accepte.includes(x.c));
+  const jouables = d.cas.filter(x => x.statut !== "retiree"), numero = +(await p.textContent("#ml-numero")).match(/n° (\d+)/)[1];
+  const c = jouables[(numero - 1) % jouables.length], voisin = d.diagnostics.find(x => x.r === c.r && !c.accepte.includes(x.c));
   const debut = await p.evaluate(() => ({ vus: document.querySelectorAll(".ml-indice:not(.ml-cache)").length, total: document.querySelectorAll(".ml-indice").length, robots: document.querySelector('meta[name="robots"]').content }));
   await p.fill("#ml-q", "pas un diagnostic"); await p.click("#ml-bouton");
   const refus = await p.textContent("#ml-message");
@@ -766,9 +769,39 @@ async function morandle(nav) {
   verifier("Morandle : 1 indice sur 6 au départ, page indexée", debut.vus === 1 && debut.total === 6 && /^index/.test(debut.robots), debut);
   verifier("Morandle : réponse hors liste refusée, bonne région en doré", /liste/.test(refus) && dore, { refus, dore });
   verifier("Morandle : six essais finissent la partie, réponse et fiche résumée affichées", fin.fini && fin.vus === 6 && fin.reponse.includes(c.nom) && fin.fiche.includes("/fiches/") && !erreurs.length && !(await deborde(p)), { ...fin, erreurs });
+  // Archives : 12 cas avant le 25 novembre ; gagner un cas précédent compte dans les statistiques, pas dans la série.
+  const arch = await p.evaluate(() => ({ n: document.querySelectorAll("#ml-archives-liste a").length, titre: document.querySelector("#ml-archives summary h2").textContent,
+    premier: !!document.querySelector('#ml-archives-liste a[href="?n=1"]') }));
+  verifier("Morandle : 12 cas d'archives (n° 1 à 12, 13 au 24 novembre), le cas du 25 novembre est le n° 13", d.archives === 12 && d.debut === "2026-11-13" && arch.n === numero - 1 && arch.n >= 12 && arch.premier && /\(\d+\)/.test(arch.titre)
+    && jouables[12].code === "C12", { ...arch, numero, archives: d.archives, debut: d.debut });
+  await p.goto(`${BASE}/locomoteur/morandle/?n=1`); await p.waitForSelector(".ml-indice");
+  const t1 = await p.textContent("#ml-numero");
+  await p.fill("#ml-q", jouables[0].nom); await p.press("#ml-q", "Enter"); await p.waitForSelector("#ml-fin:not([hidden])");
+  const st = await p.evaluate(() => JSON.parse(localStorage.getItem("morandle-v2")).stats);
+  verifier("Morandle : cas précédent n° 1 jouable ; gagné, il compte dans les statistiques sans changer la série", /n° 1 ·/.test(t1) && /précédent/.test(t1) && st.joues === 2 && st.gagnes === 1 && st.serie === 0, { t1, st });
   await p.goto(`${BASE}/locomoteur/morandle/?editeur=1`); await p.waitForSelector(".ml-ed-cas");
   verifier("Morandle : le mode éditeur liste tous les cas", (await p.evaluate(() => document.querySelectorAll(".ml-ed-cas").length)) === d.cas.length);
   await ctx.close();
+  {
+    // Version 1 : la partie du cas n° 1 (25 novembre) devient celle du n° 13.
+    const v1 = JSON.stringify({ parties: { n1: { essais: [{ t: "faux", c: "X", n: "X" }], fini: true, gagne: false } },
+      stats: { joues: 1, gagnes: 0, serie: 0, meilleure: 0, dernier: 0, dist: [0, 0, 0, 0, 0, 0, 1], comptes: [1] } });
+    const { ctx, p } = await ouvrir(nav, "/locomoteur/morandle/?n=13", { largeur: 390, stockage: { "morandle-v1": v1 } });
+    await p.waitForSelector(".ml-indice");
+    const v2 = await p.evaluate(() => ({ m: JSON.parse(localStorage.getItem("morandle-v2")), fini: !document.querySelector("#ml-fin").hidden }));
+    verifier("Morandle : une partie de la version 1 (n° 1) est reprise comme n° 13", v2.fini && v2.m.parties.n13 && !v2.m.parties.n1 && v2.m.stats.comptes.join() === "13", v2.m);
+    await ctx.close();
+  }
+  // Mise en avant : en-tête et bandeau « Nouveau » de l'accueil, carte en haut du hub MSK (avant « Démarrer la consultation »).
+  const hub = lire("locomoteur/index.html"), acc = lire("index.html");
+  verifier("Morandle : mis en avant à l'accueil (en-tête « Nouveau », bandeau) et en haut du hub MSK", /class="tete-lien" href="\/locomoteur\/morandle\/">Morandle<span class="tete-nv">Nouveau/.test(acc)
+    && /class="promo"><a href="\/locomoteur\/morandle\/"/.test(acc) && hub.indexOf('class="lo-ml" href="/locomoteur/morandle/"') > 0 && hub.indexOf('class="lo-ml"') < hub.indexOf("lo-demarrer"));
+  for (const [l, h] of [[390, 844], [1280, 800]]) {
+    const { ctx, p } = await ouvrir(nav, "/", { largeur: l, hauteur: h });
+    const vu = await p.evaluate(() => { const r = document.querySelector(".promo a").getBoundingClientRect(); return { haut: r.top, bas: r.bottom, larg: r.width, ecran: innerHeight }; });
+    verifier(`Morandle : bandeau « Nouveau » visible à l'accueil sans défiler (${l} px)`, vu.larg > 150 && vu.bas <= vu.ecran && !(await deborde(p)), vu);
+    await ctx.close();
+  }
 }
 
 const SCENARIOS = { pages, morandle, navigation, motsColles, accueil, crds, codes, guide, locomoteur, fichesHY, atlas, importer, entrainement, baseDonnees, sombre };

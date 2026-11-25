@@ -1,6 +1,7 @@
 /* MSK Morand : Morandle, un cas par jour (/locomoteur/morandle/, public depuis le 25 novembre 2026).
      node outils/locomoteur/morandle.mjs [morandle-decisions-AAAA-MM-JJ.json]
-   Lit les cas rédigés (outils/locomoteur/morandle/cas.json : fiche, 6 indices, autres fiches acceptées), les décisions du
+   Lit les cas rédigés (outils/locomoteur/morandle/cas.json : fiche, 6 indices, autres fiches acceptées ; « archives » :
+   les cas n° 1 à 12, joués dans l'ordre donné, du 13 au 24 novembre ; « cas » : la suite, mélangée), les décisions du
    mode éditeur (outils/locomoteur/morandle/decisions.json, facultatif) et les fiches résumées publiées
    (locomoteur/donnees/hy.json, locomoteur/fiches-hy.js, locomoteur/fiches-patients.js). Écrit
    locomoteur/morandle/donnees.json :
@@ -45,7 +46,7 @@ if (process.argv[2]) {
 }
 const erreurs = [];
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
-const cas = source.cas.map(c => {
+const preparer = c => {
   const f = fiches.get(c.code);
   if (!f) { erreurs.push(`${c.code} : fiche introuvable`); return null; }
   if (!Array.isArray(c.indices) || c.indices.length !== 6) erreurs.push(`${c.code} : il faut 6 indices`);
@@ -57,7 +58,10 @@ const cas = source.cas.map(c => {
   return { code: c.code, accepte: [c.code, ...(c.accepte || [])], nom: f.nom, r: f.r, indices: c.indices, fiche: f.u, patient: patient[c.code] || null,
     presentation: f.sections["Présentation clinique"] || "", examen: f.sections["Examen physique"] || "", statut: d.statut === "validee" ? "validee" : d.statut === "retiree" || d.statut === "signalee" ? "retiree" : "en_revision",
     ...(d.note ? { note: d.note } : {}) };
-}).filter(Boolean);
+};
+const archives = (source.archives || []).map(preparer).filter(Boolean);
+const cas = source.cas.map(preparer).filter(Boolean);
+for (const c of archives) if (cas.some(x => x.code === c.code)) erreurs.push(`${c.code} : à la fois dans « archives » et dans « cas »`);
 
 // Ordre des jours : mélange à graine fixe, puis on évite deux cas de suite dans la même région.
 let graine = 20261125;
@@ -69,9 +73,12 @@ for (let i = 1; i < melange.length; i++) if (melange[i].r === melange[i - 1].r) 
   if (k > 0) [melange[i], melange[k]] = [melange[k], melange[i]];
 }
 
+// Les archives d'abord (cas n° 1 à 12), dans leur ordre ; le mélange des autres cas ne change pas quand on en ajoute.
+if (archives.length && melange.length && archives[archives.length - 1].r === melange[0].r) erreurs.push("Le dernier cas des archives et le premier cas du mélange sont de la même région");
+melange.unshift(...archives);
 const diagnostics = [...fiches.values()].filter(f => !EXCLURE.has(f.code)).map(f => ({ c: f.code, n: f.nom, r: f.r })).sort((a, b) => a.n.localeCompare(b.n, "fr"));
-const sortie = { version: "2026-11-25", debut: "2026-11-25", regions: REGIONS, diagnostics, cas: melange };
+const sortie = { version: "2026-11-25", debut: "2026-11-13", archives: archives.length, regions: REGIONS, diagnostics, cas: melange };
 fs.mkdirSync(path.join(RACINE, "locomoteur/morandle"), { recursive: true });
 fs.writeFileSync(path.join(RACINE, "locomoteur/morandle/donnees.json"), JSON.stringify(sortie));
-console.log(`${melange.length} cas (${melange.filter(c => c.statut === "validee").length} validés, ${melange.filter(c => c.statut === "retiree").length} retirés), ${diagnostics.length} diagnostics dans la liste, ${melange.filter(c => c.patient).length} cas avec fiche patient`);
+console.log(`${melange.length} cas dont ${archives.length} en archives (${melange.filter(c => c.statut === "validee").length} validés, ${melange.filter(c => c.statut === "retiree").length} retirés), ${diagnostics.length} diagnostics dans la liste, ${melange.filter(c => c.patient).length} cas avec fiche patient`);
 if (erreurs.length) { console.log(erreurs.join("\n")); process.exit(1); }
