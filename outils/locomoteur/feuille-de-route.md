@@ -104,9 +104,15 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 2. ✅ (PR #48) Logo MSK en mode sombre : fond intérieur transparent, doré comme les autres sceaux.
 3. ✅ (PR #49, #52) Fiches résumées du genou, de la cheville et du pied publiées (67 fiches) ; 100 cartes simples du quiz tirées de ces fiches.
 4. ✅ (PR #50) Fiche patient du doigt à ressaut remplacée par la version corrigée (suivi : `outils/locomoteur/fiches-patients/CORRECTIONS.md`). Les autres fiches seront probablement corrigées aussi, surtout les images.
-5. ✅ (PR #51) Page d'accueil refaite d'après la maquette : fond vert forêt pâle, Cormorant Garamond, recherches fréquentes, catégories, « Mis à jour », « Nouveautés ». Pas de lien « Quiz » tant que le quiz n'est pas approuvé ; pas de « Rétroaction » (aucune adresse de contact donnée).
+5. ✅ (PR #51) Page d'accueil refaite d'après la maquette : fond vert forêt pâle, Cormorant Garamond, recherches fréquentes, catégories, « Mis à jour », « Nouveautés ». Liens « Quiz » et « Morandle » ajoutés à l'en-tête le 25 novembre (mise en ligne) ; pas de « Rétroaction » (aucune adresse de contact donnée).
 6. ✅ Solutions proposées le 24 novembre pour valider et corriger les images faites par Gemini (réponse en attente du Dr Morand).
 7. ✅ doctordle.org analysé le 24 novembre : faisable avec notre base (réponse et plan proposés au Dr Morand).
 8. Plus tard : catalogue imprimable des fiches patients, pour un petit classeur à remettre aux patients. Il doit être parfait.
 9. Plus tard : analyser docteur-kilinc.com et dire ce dont on pourrait s'inspirer.
-10. ✅ Morandle (choix du Dr Morand : nom « Morandle », dans MSK Morand, indice « bonne région ») : page cachée `/locomoteur/morandle/`, un cas par jour, 6 indices, réponse choisie dans les 240 fiches résumées, statistiques et séries locales, partage, cas précédents, mode éditeur (`?editeur=1`). 40 cas pilotes rédigés d'après les fiches (`outils/locomoteur/morandle/cas.json`), tous « en révision » : à valider par le Dr Morand avant toute mise en ligne. Régénérer : `node outils/locomoteur/morandle.mjs [export des décisions]`.
+10. ✅ Morandle (choix du Dr Morand : nom « Morandle », dans MSK Morand, indice « bonne région ») : page cachée `/locomoteur/morandle/`, un cas par jour, 6 indices, réponse choisie dans les 240 fiches résumées, statistiques et séries locales, partage, cas précédents, mode éditeur (`?editeur=1`). 40 cas pilotes rédigés d'après les fiches (`outils/locomoteur/morandle/cas.json`), tous « en révision » (pastille visible). Mis en ligne le 25 novembre à la demande du Dr Morand, avant validation : les cas se valident au fil de l'eau avec le mode éditeur. Régénérer : `node outils/locomoteur/morandle.mjs [export des décisions]`.
+
+## Demandes du 25 novembre 2026
+
+1. ✅ Quiz (`/entrainement/`) et Morandle (`/locomoteur/morandle/`) en ligne : pages indexées, au plan du site, liens dans l'en-tête de l'accueil (ordinateur), dans « Nouveautés » et dans le hub MSK (section « S'entraîner »), liens croisés entre les deux jeux. Morandle commence le 25 novembre (cas n° 1).
+2. ⏳ Images des fiches patients faites par Gemini : abandon des schémas dessinés en SVG (jugés trop mauvais). À faire plus tard : pour chaque image fautive, une consigne de correction à donner à Gemini, ou des photos de référence par cas.
+3. ⏳ Accueil : deux variantes proposées (fond d'origine avec écriture vert forêt et or ; fond bleu), en attente du choix du Dr Morand.

@@ -1,4 +1,4 @@
-/* MSK Morand : Morandle, un cas par jour (page cachée /locomoteur/morandle/).
+/* MSK Morand : Morandle, un cas par jour (/locomoteur/morandle/, public depuis le 25 novembre 2026).
      node outils/locomoteur/morandle.mjs [morandle-decisions-AAAA-MM-JJ.json]
    Lit les cas rédigés (outils/locomoteur/morandle/cas.json : fiche, 6 indices, autres fiches acceptées), les décisions du
    mode éditeur (outils/locomoteur/morandle/decisions.json, facultatif) et les fiches résumées publiées

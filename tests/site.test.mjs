@@ -534,6 +534,10 @@ function fichiers() {
   verifier("remerciements : page cachée (non indexée, absente du plan du site)", lire("merci/index.html").includes('<meta name="robots" content="noindex,nofollow">') && !plan.includes("/merci/"));
   verifier("MSK Morand : pages publiques (indexées, au plan du site et à l'accueil)", ["locomoteur/index.html", "locomoteur/genou/index.html"].every(f => !lire(f).includes("noindex"))
     && plan.includes("/locomoteur/") && plan.includes("/locomoteur/consultation/") && lire("index.html").includes('href="/locomoteur/"'));
+  verifier("Quiz et Morandle : pages publiques (indexées, au plan du site, liées de l'accueil et du hub MSK, liées entre elles)",
+    ["entrainement/index.html", "locomoteur/morandle/index.html"].every(f => !lire(f).includes("noindex")) && plan.includes("/entrainement/") && plan.includes("/locomoteur/morandle/")
+    && ["index.html", "locomoteur/index.html"].every(f => lire(f).includes('href="/entrainement/"') && lire(f).includes('href="/locomoteur/morandle/"'))
+    && lire("entrainement/index.html").includes('href="/locomoteur/morandle/"') && lire("locomoteur/morandle/index.html").includes('href="/entrainement/"'));
   verifier("robots.txt : annonce le plan du site", lire("robots.txt").includes("Sitemap: https://www.morand.org/sitemap.xml"));
   const m = JSON.parse(lire("manifest.webmanifest"));
   verifier("manifeste : un raccourci par outil, icônes présentes", m.shortcuts.map(s => s.url).join() === "/wealth/,/guides/,/map/,/crds/,/codes/" && m.shortcuts.every(s => fs.existsSync(path.join(RACINE, s.icons[0].src))), m.shortcuts.map(s => s.url));
@@ -614,7 +618,7 @@ async function entrainement(nav) {
     const { ctx, p, erreurs } = await ouvrir(nav, "/entrainement/", { largeur: 390 });
     const a = await p.evaluate(() => ({ modes: document.querySelectorAll("#en-accueil .en-mode").length, regions: document.querySelectorAll("#en-region option").length,
       titre: document.title, noindex: document.querySelector('meta[name="robots"]').content, total: document.querySelector("#en-region option").textContent }));
-    verifier("Entraînement : accueil (5 modes, 9 régions, page non indexée)", a.modes === 5 && a.regions === 10 && /noindex/.test(a.noindex) && /\d cartes/.test(a.total) && !erreurs.length, { ...a, erreurs });
+    verifier("Entraînement : accueil (5 modes, 9 régions, page indexée)", a.modes === 5 && a.regions === 10 && /^index/.test(a.noindex) && /\d cartes/.test(a.total) && !erreurs.length, { ...a, erreurs });
     // Audit : les cartes retirées ne comptent pas dans le jeu ; une définition s'affiche sous l'énoncé des termes pointus.
     const au = await p.evaluate(async () => {
       const i = await (await fetch("/entrainement/banque/index.json")).json(), c = i.paquets.find(x => x.cle === "msk-cervical");
@@ -748,7 +752,7 @@ async function morandle(nav) {
   for (let i = 0; i < 5; i++) { await p.fill("#ml-q", ""); await p.click("#ml-bouton"); }
   const fin = await p.evaluate(() => ({ fini: !document.querySelector("#ml-fin").hidden, verdict: document.querySelector("#ml-verdict").textContent, reponse: document.querySelector("#ml-reponse").textContent,
     fiche: (document.querySelector("#ml-liens a") || {}).getAttribute?.("href") || "", vus: document.querySelectorAll(".ml-indice:not(.ml-cache)").length }));
-  verifier("Morandle : 1 indice sur 6 au départ, page non indexée", debut.vus === 1 && debut.total === 6 && /noindex/.test(debut.robots), debut);
+  verifier("Morandle : 1 indice sur 6 au départ, page indexée", debut.vus === 1 && debut.total === 6 && /^index/.test(debut.robots), debut);
   verifier("Morandle : réponse hors liste refusée, bonne région en doré", /liste/.test(refus) && dore, { refus, dore });
   verifier("Morandle : six essais finissent la partie, réponse et fiche résumée affichées", fin.fini && fin.vus === 6 && fin.reponse.includes(c.nom) && fin.fiche.includes("/fiches/") && !erreurs.length && !(await deborde(p)), { ...fin, erreurs });
   await p.goto(`${BASE}/locomoteur/morandle/?editeur=1`); await p.waitForSelector(".ml-ed-cas");
