@@ -32,6 +32,7 @@
       { t: "Consignes de reconsultation : fièvre, cheville chaude et enflée, mollet enflé, pied froid, engourdissements, douleur nocturne" }] }];
 
   const INFOS = {
+    prom_df: { info: "Genou tendu, puis genou fléchi : une dorsiflexion limitée seulement genou tendu oriente vers un gastrocnémien court (test de Silfverskiöld). Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
     mecanisme: { info: "Inversion : entorse latérale. Éversion ou rotation externe du pied : syndesmose (RV+ 3,47 ; Baltes 2022) et ligament deltoïde. Poussée ou départ explosif : tendon d'Achille ou mollet." },
     disproportion: { info: "Une douleur disproportionnée par rapport à la blessure oriente vers une entorse de la syndesmose (RV+ 3,05 ; Sp 79 % ; Sman 2015). Avec des paresthésies, penser au syndrome compartimental." },
     coup_baton: { info: "La sensation d'un coup de bâton ou d'un pop derrière la cheville évoque une rupture du tendon d'Achille ; au mollet, une lésion du jumeau interne (tennis leg)." },
@@ -332,6 +333,9 @@
           C.degres("arom_fp", "Flexion plantaire active mesurée"),
         ] },
         { titre: "PROM", toutNormal: true, questions: [
+          C.amplitude("prom_df", "Dorsiflexion passive", "dorsiflexion"),
+          C.degres("prom_df", "Dorsiflexion passive mesurée"),
+          C.amplitude("prom_fp", "Flexion plantaire passive", "flexion plantaire"),
           C.amplitude("prom_inversion", "Inversion passive", "inversion", { lim_douleur: { entorse_lat: 2, fibulaires: 1.3 }, lim_raideur: { arthrose: 1.5 } }),
           C.amplitude("prom_eversion", "Éversion passive", "éversion", { lim_douleur: { deltoide: 2, tibpost: 1.3 }, lim_raideur: { arthrose: 1.5 } }),
         ] },

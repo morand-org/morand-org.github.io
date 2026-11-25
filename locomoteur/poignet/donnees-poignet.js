@@ -325,6 +325,12 @@
         { titre: "Mobilité", toutNormal: true, questions: [
           C.amplitude("arom_poignet", "Mobilité du poignet (flexion, extension)", "mobilité du poignet", { lim_douleur: { fx_radius: 2, scaphoide: 1.5, tfcc: 1.3, gymnaste: 1.5, kienbock: 1.5 }, lim_raideur: { arthrose_poignet: 4, par: 2, kienbock: 2 },
             complete: { fx_radius: .3, arthrose_poignet: .3 } }),
+          C.amplitude("prom_flexion", "Flexion passive du poignet", "flexion du poignet"),
+          C.degres("prom_flexion", "Flexion passive mesurée"),
+          C.amplitude("prom_extension", "Extension passive du poignet", "extension du poignet"),
+          C.degres("prom_extension", "Extension passive mesurée"),
+          C.amplitude("prom_dev_rad", "Déviation radiale passive", "déviation radiale"),
+          C.amplitude("prom_dev_uln", "Déviation ulnaire passive", "déviation ulnaire"),
           ouiNon("dorsiflexion_douleur", "Dorsiflexion du poignet douloureuse", { si: trauma, oui: "dorsiflexion douloureuse", non: "dorsiflexion indolore",
             effets: { fx_radius: est(1.5, .1, `${EYLER} : Se 95,7 % (Sp non publiée)`), scaphoide: p(1.3, .5) } }),
           ouiNon("pronosup_res", "Prono-supination résistée douloureuse", { si: trauma, oui: "prono-supination résistée douloureuse", non: "prono-supination résistée indolore", horsNormal: true,

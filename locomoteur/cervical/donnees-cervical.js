@@ -232,6 +232,8 @@
         { titre: "AROM", toutNormal: true, questions: [
           C.amplitude("arom_rotation", "Rotation active", "rotation", { lim_douleur: { torticolis: 3, entorse: 2, facettaire: 1.5, arthrose: 1.5 }, lim_raideur: { arthrose: 2.5, ppr: 1.5 }, complete: { torticolis: .2 } }),
           C.amplitude("arom_extension", "Extension active", "extension", { lim_douleur: { facettaire: 2, arthrose: 1.5, radiculopathie: 1.5 }, lim_raideur: { arthrose: 2.5 } }),
+          C.amplitude("arom_flexion", "Flexion active", "flexion"),
+          C.amplitude("arom_inclinaison", "Inclinaison latérale active", "inclinaison latérale"),
           ouiNon("ext_rot", "Extension-rotation reproduit la douleur", { oui: "extension-rotation douloureuse", non: "extension-rotation indolore", effets: { facettaire: p(2.5, .6) } }),
           ouiNon("rotation60", "Rotation vers le côté atteint de moins de 60°", { oui: "rotation de moins de 60° du côté atteint", non: "",
             effets: { radiculopathie: est(1.8, .23, `${WAINNER} : Se 89 %, Sp 49 % (non vérifiable dans l'extrait)`, { g: "neuro" }) } }),

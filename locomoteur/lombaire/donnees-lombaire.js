@@ -251,6 +251,8 @@
           C.amplitude("arom_flexion", "Flexion lombaire", "flexion", { complete: { stenose: 1.5 }, lim_douleur: { discogenique: 2, hernie: 2, musculaire: 1.5, stenose: .6 }, lim_raideur: { spa: 1.5, scoliose: 1.3 } }, false,
             [{ dx: "stenose", rv: { complete: 1.4 }, statut: "verifie", piste: `${SURI} : absence de douleur en flexion, RV+ 1,4` }]),
           C.amplitude("arom_extension", "Extension lombaire", "extension", { lim_douleur: { facettaire: 2, spondylolyse: 2.5, stenose: 1.8, spondylolisthesis: 1.5 }, lim_raideur: { spa: 1.5, stenose: 1.3 } }),
+          C.amplitude("arom_inclinaison", "Inclinaison latérale lombaire", "inclinaison latérale"),
+          C.amplitude("arom_rotation", "Rotation du tronc", "rotation du tronc"),
           ouiNon("schober", "Schober diminué", { oui: "Schober diminué", non: "Schober normal", horsNormal: true, effets: { spa: ver(.68, .47, "Kim et coll., 2026, AFP : RV+ 1,3") } }),
         ] },
         { titre: "Neurologique", ligne: "Neuro", toutNormal: true, questions: [

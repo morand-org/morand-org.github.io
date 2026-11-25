@@ -494,12 +494,24 @@ async function locomoteur(nav) {
       return { complete: cap({ ...forte, prom_re: "complete" }), actives: cap({ ...forte, prom_re: "complete", arom_elev: "lim_douleur", arom_re: "lim_douleur" }),
         raideur: cap({ ...forte, prom_re: "lim_raideur" }), note: LO.rediger(d, res) };
     });
-    verifier("Épaule : « Graduel » précisé « sans trauma ni faux mouvement », aussi dans la note", g === "Graduel sans trauma ni faux mouvement" && /début graduel sans trauma ni faux mouvement/i.test(r.note), { g });
+    verifier("Épaule : bouton « Graduel » inchangé ; « sans trauma ni faux mouvement » seulement dans la note", g === "Graduel" && /début graduel sans trauma ni faux mouvement/i.test(r.note), { g });
     verifier("Épaule : rotation externe passive complète et indolore, capsulite peu probable même avec une histoire typique et des limitations actives ; limitée par raideur, très probable",
       r.complete < .2 && r.actives < .2 && r.raideur > .8, { complete: r.complete, actives: r.actives, raideur: r.raideur });
     verifier("Épaule : habillage du matin, rotation interne active (niveau du pouce) et abduction passive dans la note",
       r.note.includes("difficulté à s'habiller le matin") && r.note.includes("rotation interne limitée (pouce à L3) avec douleur") && r.note.includes("abduction limitée à ~90°, raideur"), { note: r.note.slice(0, 1500) });
     verifier("Épaule : aucune erreur", erreurs.length === 0, erreurs);
+    // Amplitudes ajoutées dans les autres régions (surtout passives ; pas de rotations actives à la hanche), présentes et dans la note.
+    const n = { cervical: ["arom_flexion", "arom_inclinaison"], coude: ["prom_flexion", "prom_extension", "prom_pronation", "prom_supination"],
+      poignet: ["prom_flexion", "prom_extension", "prom_dev_rad", "prom_dev_uln"], lombaire: ["arom_inclinaison", "arom_rotation"], hanche: ["prom_flexion", "prom_extension"],
+      cheville: ["prom_df", "prom_fp"], pied: ["prom_mtp1_flex"] }, amp = [];
+    for (const [reg, ids] of Object.entries(n)) {
+      await p.goto(`${BASE}/locomoteur/${reg}/`, { waitUntil: "networkidle" });
+      amp.push(await p.evaluate(([reg, ids]) => { const LO = window.Locomoteur, d = LO.donnees[reg];
+        return [reg, ids.every(id => d.parQ[id] && d.parQ[id].effets.length === 0), LO.rediger(d, LO.calculer(d, Object.fromEntries(ids.map(id => [id, "lim_douleur"])))).includes(" limitée"),
+          !Object.keys(d.parQ).some(k => reg === "hanche" && /^arom_(re|ri)$/.test(k))]; }, [reg, ids]));
+    }
+    verifier("Amplitudes ajoutées (cervical, coude, poignet, lombaire, hanche, cheville, pied) : présentes, sans poids, dans la note ; pas de rotations actives à la hanche",
+      amp.length === 7 && amp.every(([, ok, note, sansRot]) => ok && note && sansRot) && erreurs.length === 0, { amp, erreurs });
     await ctx.close();
   }
 }
