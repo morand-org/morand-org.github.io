@@ -51,9 +51,11 @@ L'ordre proposé :
   - l'erreur fréquente.
 - **Une case « ☐ Prescrit pour vous »** et une ligne pour noter la charge ou la couleur de l'élastique.
 - **Le matériel nécessaire** en tête de page : élastique, serviette, marche.
-- **Des dessins faits à partir d'une consigne précise.** 205 des 441 consignes actuelles tiennent en moins de 90 caractères (« Dessin au trait d'une personne… ») ; c'est probablement une cause importante des dessins erronés. Gabarit proposé pour chaque dessin :
+- **Des dessins faits à partir d'une consigne précise.** 205 des 441 consignes actuelles tiennent en moins de 90 caractères (« Dessin au trait d'une personne… ») ; c'est probablement une cause importante des dessins erronés. Gabarit proposé pour chaque dessin, au format de la nouvelle maquette (une image 4:3, 1200 × 896 pixels, affichée en petit en haut de chaque carte d'exercice) :
 
-  > Deux vignettes côte à côte : départ, puis fin du mouvement ; même personne, même angle de vue.
+  > Une seule image 4:3 avec deux silhouettes côte à côte : départ à gauche, fin du mouvement à droite, reliées par
+  > une flèche ; même personne, même angle de vue. Ou une seule silhouette en fin de mouvement, avec une flèche,
+  > si le mouvement est simple.
   > Angle : [profil gauche, face, dos, vue de dessus]. Côté travaillé : [droit], surligné en couleur.
   > Position exacte : [appuis, angles des articulations en degrés, position des mains et du regard].
   > Matériel : [chaise, élastique attaché à…, marche de 15 cm]. Flèche : [sens et trajectoire du mouvement].
@@ -97,7 +99,19 @@ L'ordre proposé :
 - **Pour les urgences**, pas de fiche par diagnostic. Une fiche générale « Signes d'alarme du dos et du cou » servirait toutes les régions.
 - **Une version anglaise**, pour les patients anglophones de la Montérégie (à décider).
 
-## G. Déjà fait
+## G. Production des fiches (nouvelle maquette du 25 novembre)
+
+- La maquette reçue (arthrose du genou) est une page HTML imprimée en PDF A4 par Chrome. Son texte est identique, mot pour mot, aux textes sources.
+  Ce sont donc les dessins qui posent problème, pas la mise en page.
+- **Proposition : produire les 129 fiches ici, à partir des textes corrigés.** Il faudrait le gabarit HTML de la maquette (ou je le reproduis).
+  Le site générerait chaque PDF, et Gemini ne ferait plus que les dessins.
+  - Le texte imprimé serait exactement le texte validé par OpenEvidence, sans erreur de recopie.
+  - Une correction ne demanderait plus de refaire la fiche à la main ; il suffirait de relancer la génération.
+  - Le classeur entier pourrait sortir d'un seul coup, numéroté.
+- **La place au recto :** il reste environ un huitième de page libre sur la maquette. Les rubriques nouvelles (« En bref », « Soulager la douleur », « Retour au travail et au sport ») devront rester très courtes : deux ou trois puces chacune. Une autre option est de n'en retenir qu'une ou deux, selon vos choix.
+- **Le titre :** la maquette n'a qu'une ligne de titre. Le sous-titre en langage courant irait juste dessous, en plus petit.
+
+## H. Déjà fait
 
 - « Disjonction » est remplacé par « luxation » dans le texte (fiche de l'entorse acromio-claviculaire).
 - Le doigt à ressaut reprend le texte de la version corrigée publiée le 24 novembre.
