@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/morand/plein-ecran.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex, nofollow">
+<title>Morandle | MSK Morand</title>
+<meta name="description" content="Morandle : un cas musculosquelettique par jour. Trouvez le diagnostic avec le moins d'indices possible.">
+<meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
+<link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
+<link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/crds/crds.css">
+<link rel="stylesheet" href="/locomoteur/locomoteur.css">
+<link rel="stylesheet" href="/locomoteur/morandle/morandle.css">
+<script src="/locomoteur/morandle/morandle.js" defer></script>
+</head>
+<body>
+<header class="cr-tete">
+  <a class="cr-marque" href="/">Morand</a>
+  <nav class="cr-onglets" aria-label="Outils Morand">
+    <a href="/wealth/">Wealth</a>
+    <a href="/guides/">Guide</a>
+    <a href="/map/">Map</a>
+    <a href="/crds/">CRDS</a>
+    <a href="/codes/">Codes</a>
+    <a href="/locomoteur/" aria-current="page">MSK</a>
+  </nav>
+</header>
+<main class="ml-page">
+  <nav class="hy-fil ml-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>Morandle</span></nav>
+  <section class="cr-intro ml-intro">
+    <h1>Morandle</h1>
+    <p class="cr-devise">Un cas par jour · six indices</p>
+    <p class="cr-lead">Trouvez le diagnostic avec le moins d'indices possible. Chaque essai, ou « Passer », révèle l'indice suivant. Une réponse fausse s'affiche en doré si elle est dans la bonne région.</p>
+  </section>
+
+  <section class="ml-jeu" id="ml-jeu" aria-labelledby="ml-titre">
+    <p class="ml-sur"><span id="ml-numero">Chargement du cas…</span><span class="ml-statut" id="ml-statut" hidden>En révision</span></p>
+    <h2 class="ml-titre" id="ml-titre">Quel est le diagnostic ?</h2>
+    <ol class="ml-indices" id="ml-indices" aria-live="polite"></ol>
+
+    <form class="ml-form" id="ml-form" autocomplete="off">
+      <label class="cache" for="ml-q">Votre diagnostic</label>
+      <div class="ml-champ">
+        <input id="ml-q" type="text" placeholder="Diagnostic… (vide : passer)" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ml-liste" spellcheck="false" enterkeyhint="done">
+        <ul class="ml-liste" id="ml-liste" role="listbox" aria-label="Diagnostics" hidden></ul>
+      </div>
+      <button type="submit" class="lo-bouton ml-bouton" id="ml-bouton">Passer</button>
+    </form>
+    <p class="ml-message" id="ml-message" role="status" aria-live="polite"></p>
+    <ol class="ml-essais" id="ml-essais" aria-label="Vos essais"></ol>
+
+    <section class="ml-fin" id="ml-fin" hidden aria-labelledby="ml-verdict">
+      <h2 class="ml-verdict" id="ml-verdict"></h2>
+      <p class="ml-reponse" id="ml-reponse"></p>
+      <p class="ml-carres" id="ml-carres" aria-hidden="true"></p>
+      <p class="ml-liens" id="ml-liens"></p>
+      <div class="ml-explication" id="ml-explication"></div>
+      <p class="ml-actions"><button type="button" class="lo-bouton" id="ml-partager">Partager mon résultat</button><span class="ml-copie" id="ml-copie" role="status" aria-live="polite"></span></p>
+      <p class="ml-demain" id="ml-demain"></p>
+    </section>
+  </section>
+
+  <section class="ml-stats" id="ml-stats" hidden aria-labelledby="ml-stats-titre">
+    <h2 id="ml-stats-titre">Vos statistiques</h2>
+    <dl class="ml-chiffres" id="ml-chiffres"></dl>
+    <h3>Indices utilisés</h3>
+    <ol class="ml-distribution" id="ml-distribution"></ol>
+  </section>
+
+  <details class="cr-sources ml-archives" id="ml-archives">
+    <summary><h2>Cas précédents</h2></summary>
+    <ul class="ml-archives-liste" id="ml-archives-liste"></ul>
+  </details>
+
+  <section class="ml-editeur" id="ml-editeur" hidden aria-labelledby="ml-editeur-titre">
+    <h2 id="ml-editeur-titre">Mode éditeur</h2>
+    <p class="cr-petit">Tous les cas, avec leurs six indices et la réponse. Validez ou signalez chaque cas, ajoutez une remarque, puis exportez vos décisions. Rien n'est envoyé : tout reste sur cet appareil jusqu'à l'export.</p>
+    <p class="ml-editeur-actions"><button type="button" class="lo-bouton" id="ml-exporter">Exporter mes décisions</button><span id="ml-editeur-compte"></span></p>
+    <ol class="ml-editeur-liste" id="ml-editeur-liste"></ol>
+  </section>
+
+  <details class="cr-sources">
+    <summary><h2>À propos</h2></summary>
+    <p class="cr-petit">Les cas sont rédigés à partir des fiches résumées de MSK Morand ; l'explication finale reprend la fiche, avec ses références. Les cas sont en révision : ils sont validés un à un par le Dr Morand. Vos parties restent sur cet appareil (stockage local) ; rien n'est transmis. Morandle est un jeu d'apprentissage : il ne remplace pas l'évaluation d'un patient.</p>
+  </details>
+</main>
+<footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
+</body>
+</html>
