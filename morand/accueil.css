@@ -197,18 +197,19 @@ html.avec-ouverture body::after { content: ""; position: fixed; inset: 0; z-inde
 @media (min-width: 1000px) { .ouv-sceau { width: 280px; } }
 @media (prefers-reduced-motion: reduce) { .ouverture.joue .ouv-sceau { animation: none; opacity: 1; } }
 
-/* ---------- Accueil, version « vert forêt pâle » (maquette du 24 novembre 2026) ----------
-   Seulement sur l'accueil (html.accueil) : la confidentialité et les remerciements gardent le parchemin.
+/* ---------- Accueil, version « parchemin, vert forêt et or » (maquette du 24 novembre 2026, fond choisi le 25) ----------
+   Seulement sur l'accueil (html.accueil) : fond parchemin d'origine, écriture vert forêt, filets et accents dorés ;
+   en mode sombre, le vert forêt foncé.
    Titres en Cormorant Garamond (OFL, hébergée ici : cormorant-OFL.txt), texte en Inter. L'or du texte est
-   assombri (#7d6536, contraste 4,7 sur le vert) ; l'or de la maquette (#9e834e) reste pour les filets et les points. */
+   assombri (#7d6536, contraste 5,0 sur le parchemin) ; l'or de la maquette (#9e834e) reste pour les filets et les points. */
 @font-face { font-family: "Cormorant Garamond"; src: url("cormorant.woff2") format("woff2"); font-weight: 300 700; font-style: normal; font-display: swap; }
 @font-face { font-family: "Cormorant Garamond"; src: url("cormorant-italique.woff2") format("woff2"); font-weight: 300 700; font-style: italic; font-display: swap; }
 .accueil {
-  --papier: #e7efe9; --champ: #ffffff; --carte: rgba(255, 255, 255, 0.88); --carte-survol: #ffffff;
+  --papier: #f6f3ec; --champ: #fffdf8; --carte: rgba(255, 253, 248, 0.92); --carte-survol: #fffdf8;
   --encre: #192b21; --encre-2: #4a5d52; --discret: #566a5e;
-  --filet: rgba(25, 43, 33, 0.16); --filet-carte: rgba(25, 43, 33, 0.12); --filet-int: rgba(25, 43, 33, 0.08); --filet-fort: rgba(25, 43, 33, 0.16);
-  --or: #7d6536; --or-deco: #9e834e; --or-clair: rgba(158, 131, 78, 0.12); --or-bord: rgba(158, 131, 78, 0.35);
-  --ombre: 0 4px 20px -4px rgba(25, 43, 33, 0.06); --ombre-survol: 0 14px 28px -8px rgba(25, 43, 33, 0.12);
+  --filet: rgba(125, 101, 54, 0.26); --filet-carte: rgba(158, 131, 78, 0.26); --filet-int: rgba(158, 131, 78, 0.16); --filet-fort: rgba(125, 101, 54, 0.3);
+  --or: #7d6536; --or-deco: #9e834e; --or-clair: rgba(158, 131, 78, 0.12); --or-bord: rgba(158, 131, 78, 0.4);
+  --ombre: 0 4px 20px -4px rgba(60, 45, 20, 0.07); --ombre-survol: 0 14px 28px -8px rgba(60, 45, 20, 0.14);
   --police-titre: "Cormorant Garamond", ui-serif, Georgia, serif;
 }
 @media (prefers-color-scheme: dark) {
