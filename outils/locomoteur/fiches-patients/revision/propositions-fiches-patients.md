@@ -1,5 +1,24 @@
 # Fiches patients : propositions de modifications (novembre 2026)
 
+## Décisions du Dr Morand (25 novembre 2026), appliquées à la version 2
+
+- **A. Titres :** terme médical en titre, langage courant en sous-titre (titres du tableau acceptés). Un seul sous-titre a été modifié par cohérence : arthrose du genou, « Douleur et raideur du genou ».
+- **B. Recto :** pas de rubrique « Retour au travail et au sport ». Le reste est retenu :
+  - « En bref », « Pourquoi ça arrive », « Soulager la douleur » ;
+  - signes séparés en « Consultez rapidement » et « Revoyez votre médecin si ».
+- **Règle de douleur :** même règle, mais la douleur doit revenir à son niveau habituel dans l'heure qui suit l'exercice (et non plus le lendemain matin), sauf si les données démontrent le contraire. OpenEvidence doit le vérifier (point 7 de la consigne).
+- **C. Exercices :** phase, but et version plus facile ajoutés ; case « Prescrit pour vous » ; matériel.
+- **D :** accepté.
+- **E :**
+  - pas de marge de perforation ;
+  - pied de page sans code QR ni notes du médecin ;
+  - format Lettre ;
+  - une feuille recto verso, avec un texte d'environ 9,5 points (choisi plutôt que deux feuilles en 12 points).
+- **F :** les nouvelles fiches seront faites.
+- **G :** les fiches sont produites ici (`outils/locomoteur/fiches-patients/produire-fiches.mjs`), puis vont à OpenEvidence, puis à Gemini pour les dessins.
+  - En attendant, les dessins actuels sont repris.
+  - Les fiches publiées sur le site ne changeront qu'à la version finale.
+
 ## Le circuit proposé
 
 1. Vous choisissez parmi les propositions ci-dessous.
@@ -206,7 +225,7 @@ L'ordre proposé :
 | Hanche et bassin | 14 | Coup direct sur la cuisse ou l'os de la hanche (contusion) | **Contusion de la cuisse ou de la crête iliaque** | Coup direct sur la cuisse ou l'os de la hanche |
 | Hanche et bassin | 15 | Douleur à la hanche venant du bas du dos | **Douleur projetée d'origine lombaire** | Douleur à la hanche venant du bas du dos |
 | Genou | 1 | Douleur à l'avant du genou (syndrome fémoro-patellaire) | **Syndrome fémoro-patellaire** | Douleur à l'avant du genou |
-| Genou | 2 | Arthrose du genou | **Gonarthrose (arthrose du genou)** | Usure du cartilage du genou |
+| Genou | 2 | Arthrose du genou | **Gonarthrose (arthrose du genou)** | Douleur et raideur du genou |
 | Genou | 3 | Lésion du ménisque (coussin du genou) | **Déchirure méniscale** | Lésion du ménisque, le coussin du genou |
 | Genou | 4 | Déchirure du ligament croisé antérieur (première phase) | **Rupture du ligament croisé antérieur (LCA)** | Déchirure du ligament croisé antérieur : première phase |
 | Genou | 5 | Entorse du ligament croisé postérieur (LCP) | **Entorse du ligament croisé postérieur (LCP)** | Entorse d'un ligament au centre du genou |
@@ -311,7 +330,7 @@ L'ordre proposé :
 - **9. Neuropathie ulnaire au canal de Guyon** : « Mobilité douce du poignet » : consigne d'illustration trop courte pour Gemini; référence de 2011 : chercher plus récent; aucun signe d'urgence distingué dans « Quand reconsulter »
 - **10. Arthrose digitale (nodules d'Heberden et de Bouchard)** : « Flexion et extension douces des doigts (en éventail) » : consigne d'illustration trop courte pour Gemini; « Renforcement doux de la prise avec éponge ou balle molle » : consigne d'illustration trop courte pour Gemini; aucun signe d'urgence distingué dans « Quand reconsulter »
 - **11. Rhizarthrose** : « Placement en « C » (arche du pouce) » : consigne d'illustration trop courte pour Gemini; « Écartement doux du pouce (glissement sur la table) » : consigne d'illustration trop courte pour Gemini; aucun signe d'urgence distingué dans « Quand reconsulter »
-- **12. Doigt à ressaut (ténosynovite sténosante des fléchisseurs)** : « Étirement passif doux en extension » : consigne d'illustration trop courte pour Gemini; aucun signe d'urgence distingué dans « Quand reconsulter »
+- **12. Doigt à ressaut (ténosynovite sténosante des fléchisseurs)** : « Étirement passif doux en extension » : consigne d'illustration trop courte pour Gemini
 - **13. Entorse ou luxation interphalangienne** : « Glissement complet des doigts (crochet puis poing) » : consigne d'illustration trop courte pour Gemini
 - **14. Maladie de Dupuytren** : « Ouverture douce des doigts à plat sur la table » : consigne d'illustration trop courte pour Gemini; « Écartement des doigts en éventail » : consigne d'illustration trop courte pour Gemini; référence de 2007 : chercher plus récent; aucun signe d'urgence distingué dans « Quand reconsulter »
 - **15. Entorse du ligament collatéral ulnaire du pouce (pouce du skieur)** : « Opposition pouce-doigts (en O léger) » : consigne d'illustration trop courte pour Gemini; aucun signe d'urgence distingué dans « Quand reconsulter »

@@ -123,5 +123,8 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 8. ✅ Morandle : banque de 200 cas, un par fiche résumée (40 fiches écartées : douleurs non spécifiques, contusions, fiches génériques, rares ou en doublon). Calendrier jusqu'au 31 mai 2027 environ, puis reprise du début.
 9. ✅ « Disjonction » remplacée par « luxation » partout (fiche E4 et son adresse, consultation de l'épaule, quiz, base de données, Morandle, sources) ; l'ancienne adresse de la fiche E4 redirige. Restent dans des images : la planche de la fiche E4 et le PDF patient correspondant (à refaire avec les nouvelles fiches).
 10. ✅ Accueil : barre de recherche pleine largeur, « Ctrl K » et « Nouveautés » retirés, bouton « Chercher » vert forêt, sceaux Wealth, Guide, Map, CRDS et Codes agrandis et traits épaissis (originaux : `outils/morand/sceaux-originaux/`, script `outils/morand/sceaux-epaissir.py`).
-11. ⏳ Fiches patients : document texte complet pour révision OpenEvidence, propositions de changements, titres en termes médicaux ; ensuite, version finale à Gemini.
+11. ✅ Fiches patients, version 2 : document texte complet et propositions envoyés ; décisions du Dr Morand appliquées.
+    - 129 fiches produites ici d'après la maquette du 25 novembre (format Lettre, une feuille recto verso), avec les titres médicaux, les nouvelles rubriques et la règle de douleur d'une heure.
+    - Script : `outils/locomoteur/fiches-patients/produire-fiches.mjs` ; ajouts dans `ajouts/` ; texte assemblé dans `textes-v2/`.
+12. ⏳ Fiches patients : révision par OpenEvidence (document `revision/fiches-patients-texte-complet.txt`, une région à la fois), reprise des corrections, puis consignes de dessin pour Gemini et publication sur le site.
 

@@ -1,5 +1,24 @@
 # Fiches patients : propositions de modifications (novembre 2026)
 
+## Décisions du Dr Morand (25 novembre 2026), appliquées à la version 2
+
+- **A. Titres :** terme médical en titre, langage courant en sous-titre (titres du tableau acceptés). Un seul sous-titre a été modifié par cohérence : arthrose du genou, « Douleur et raideur du genou ».
+- **B. Recto :** pas de rubrique « Retour au travail et au sport ». Le reste est retenu :
+  - « En bref », « Pourquoi ça arrive », « Soulager la douleur » ;
+  - signes séparés en « Consultez rapidement » et « Revoyez votre médecin si ».
+- **Règle de douleur :** même règle, mais la douleur doit revenir à son niveau habituel dans l'heure qui suit l'exercice (et non plus le lendemain matin), sauf si les données démontrent le contraire. OpenEvidence doit le vérifier (point 7 de la consigne).
+- **C. Exercices :** phase, but et version plus facile ajoutés ; case « Prescrit pour vous » ; matériel.
+- **D :** accepté.
+- **E :**
+  - pas de marge de perforation ;
+  - pied de page sans code QR ni notes du médecin ;
+  - format Lettre ;
+  - une feuille recto verso, avec un texte d'environ 9,5 points (choisi plutôt que deux feuilles en 12 points).
+- **F :** les nouvelles fiches seront faites.
+- **G :** les fiches sont produites ici (`outils/locomoteur/fiches-patients/produire-fiches.mjs`), puis vont à OpenEvidence, puis à Gemini pour les dessins.
+  - En attendant, les dessins actuels sont repris.
+  - Les fiches publiées sur le site ne changeront qu'à la version finale.
+
 ## Le circuit proposé
 
 1. Vous choisissez parmi les propositions ci-dessous.

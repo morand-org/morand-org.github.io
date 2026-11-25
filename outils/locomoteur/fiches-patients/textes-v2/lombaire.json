@@ -1,0 +1,1274 @@
+[
+ {
+  "cle": "lombaire/commune",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-01",
+  "no": 1,
+  "titre": "Lombalgie mécanique",
+  "sous_titre": "Mal de dos courant",
+  "titre_v1": "Mal de dos courant (lombalgie mécanique)",
+  "diagnostic": "Lombalgie non spécifique (mécanique)",
+  "en_bref": [
+   "Votre dos est solide : ce mal de dos courant n'est pas le signe d'une lésion grave.",
+   "Rester actif et reprendre vos activités graduellement est ce qui aide le plus.",
+   "La plupart des personnes vont nettement mieux en quelques semaines."
+  ],
+  "ce_que_vous_avez": "Vous avez un mal de dos très fréquent, qui vient le plus souvent des muscles, des ligaments ou des articulations du bas du dos. Même si la douleur peut être forte, elle n'est pas le signe d'une blessure grave : votre dos est solide et fait pour bouger. Rester actif est le meilleur moyen de récupérer, et la plupart des gens vont nettement mieux en quelques semaines.",
+  "pourquoi": [
+   "Effort inhabituel ou faux mouvement.",
+   "Longues heures assis ou debout sans bouger.",
+   "Stress, fatigue et manque de sommeil, qui augmentent la douleur."
+  ],
+  "ce_qui_aide": [
+   "Continuer vos activités habituelles (y compris le travail, en l'adaptant au besoin) et marcher un peu chaque jour.",
+   "Appliquer de la chaleur 15 à 20 minutes sur le bas du dos pour soulager, en plaçant un linge entre la source de chaleur et la peau.",
+   "Changer souvent de position plutôt que de rester longtemps assis ou debout sans bouger.",
+   "Dormir dans la position la plus confortable pour vous, par exemple sur le côté avec un oreiller entre les genoux."
+  ],
+  "a_eviter": [
+   "Rester couché au lit toute la journée (cela ralentit la récupération).",
+   "Cesser de bouger par peur d'abîmer votre dos : une douleur légère pendant le mouvement ne veut pas dire que vous vous blessez.",
+   "Reprendre d'un seul coup des charges très lourdes : augmentez les efforts graduellement, à mesure que la douleur diminue."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.",
+   "Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant)."
+  ],
+  "medecin": [
+   "Fièvre, frissons, perte de poids inexpliquée ou antécédent de cancer.",
+   "Douleur apparue après une chute ou un accident, ou si vous faites de l'ostéoporose ou prenez de la cortisone depuis longtemps.",
+   "Douleur constante, présente même au repos et la nuit, ou aucune amélioration après 4 à 6 semaines."
+  ],
+  "duree_habituelle": "Amélioration nette en 2 à 6 semaines chez la plupart des gens. Il est courant de garder une petite gêne ou d'avoir un nouvel épisode dans l'année : ces épisodes se calment eux aussi le plus souvent.",
+  "materiel": [],
+  "exercices": [
+   {
+    "nom": "Bascule douce du bassin couché",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat au sol.",
+    "mouvement": "Plaquez doucement le bas du dos au sol en serrant légèrement le ventre et les fesses, puis relâchez pour laisser le dos se creuser très légèrement.",
+    "dosage": "10 à 15 répétitions lentes, 2 fois par jour.",
+    "progression": "Enchaînez avec l'exercice du dos rond / dos creux à quatre pattes.",
+    "erreur_frequente": "Pousser avec les jambes ou retenir sa respiration.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos, genoux pliés, basculant doucement le bassin.",
+    "phase": "Dès maintenant",
+    "but": "Pour détendre le bas du dos.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Dos rond / dos creux (chat-chameau)",
+    "position_de_depart": "À quatre pattes, mains sous les épaules et genoux sous les hanches.",
+    "mouvement": "Arrondissez lentement le dos vers le plafond en rentrant le menton, puis creusez doucement le dos en regardant devant vous.",
+    "dosage": "10 répétitions lentes, 1 à 2 fois par jour.",
+    "progression": "Augmentez peu à peu l'amplitude, en restant dans le confort.",
+    "erreur_frequente": "Aller trop vite ou forcer le creux du bas du dos.",
+    "illustration": "Dessin au trait en deux étapes d'une personne à quatre pattes faisant le dos rond puis le dos légèrement creux.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder le dos souple.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat écartés à la largeur des hanches.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes, puis redescendez lentement.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Tenez 5 secondes en haut, puis faites le pont en dépliant un genou à la fois.",
+    "erreur_frequente": "Cambrer le bas du dos en poussant le ventre vers le plafond.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers, qui soutiennent le dos.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Oiseau-chien (bird-dog)",
+    "position_de_depart": "À quatre pattes, dos droit et ventre légèrement serré.",
+    "mouvement": "Tendez lentement une jambe vers l'arrière (sans laisser le bassin tourner) et le bras opposé vers l'avant. Tenez 3 secondes, revenez, puis changez de côté.",
+    "dosage": "2 séries de 8 répétitions par côté, 3 à 4 fois par semaine.",
+    "progression": "Tenez 5 à 8 secondes par répétition en gardant le dos immobile.",
+    "erreur_frequente": "Creuser le bas du dos en levant la jambe trop haut.",
+    "illustration": "Dessin au trait d'une personne à quatre pattes tendant un bras devant et la jambe opposée derrière.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les muscles qui stabilisent le dos.",
+    "plus_facile": "Tendez seulement une jambe, ou seulement un bras."
+   }
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   },
+   {
+    "texte": "Qaseem A et al., Ann Intern Med, 2017",
+    "doi_ou_pmid": "PMID: 28192789"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/musculaire",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-02",
+  "no": 2,
+  "titre": "Contracture ou lésion musculaire lombaire",
+  "sous_titre": "Faux mouvement ou contracture du bas du dos",
+  "titre_v1": "Faux mouvement ou contracture du bas du dos",
+  "diagnostic": "Contracture ou lésion musculaire lombaire",
+  "en_bref": [
+   "Un muscle du bas du dos s'est contracté ou a été étiré.",
+   "C'est très sensible les premiers jours, mais ça guérit bien.",
+   "Bouger doucement aide plus que le repos au lit."
+  ],
+  "ce_que_vous_avez": "Un muscle du bas du dos s'est contracté brusquement ou a été étiré lors d'un effort (soulever une charge, pelleter, faire du sport). C'est très sensible les premiers jours, mais ce n'est pas grave. Le muscle récupère bien quand on continue de bouger en douceur, avec de la chaleur et de courtes pauses au besoin.",
+  "pourquoi": [
+   "Soulever une charge, pelleter ou faire un faux mouvement.",
+   "Effort brusque en sport."
+  ],
+  "ce_qui_aide": [
+   "Appliquer de la chaleur 15 à 20 minutes pour relâcher le spasme, en plaçant un linge entre la source de chaleur et la peau.",
+   "Marcher 5 à 15 minutes plusieurs fois par jour, à un rythme doux.",
+   "Changer souvent de position.",
+   "Reprendre vos activités et le renforcement léger à mesure que le spasme se calme."
+  ],
+  "a_eviter": [
+   "Rester couché de longues périodes : si vous devez vous allonger, faites-le par courtes pauses, puis relevez-vous pour bouger.",
+   "Étirer fortement le bas du dos pendant les premiers jours.",
+   "Soulever des charges lourdes ou pelleter tant que la douleur est vive : reprenez ces efforts graduellement."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes."
+  ],
+  "medecin": [
+   "Douleur qui descend dans la fesse et la jambe avec engourdissements ou faiblesse.",
+   "Fièvre, ou douleur intense qui ne se calme jamais, même au repos.",
+   "Douleur apparue après une chute ou un accident important.",
+   "Aucune amélioration après 3 à 4 semaines."
+  ],
+  "duree_habituelle": "Amélioration nette en 1 à 3 semaines dans la plupart des cas.",
+  "materiel": [],
+  "exercices": [
+   {
+    "nom": "Genou à la poitrine (un à la fois)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Ramenez doucement un genou vers la poitrine avec vos mains jusqu'à sentir un étirement léger et agréable dans le bas du dos. Tenez 15 secondes, puis changez de jambe.",
+    "dosage": "3 répétitions par jambe, 2 fois par jour.",
+    "progression": "Ramenez doucement les deux genoux ensemble si c'est confortable.",
+    "erreur_frequente": "Tirer fort jusqu'à déclencher un spasme.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos ramenant un genou vers la poitrine.",
+    "phase": "Dès maintenant",
+    "but": "Pour détendre le bas du dos.",
+    "plus_facile": "Ramenez le genou moins près."
+   },
+   {
+    "nom": "Essuie-glaces doux des genoux",
+    "position_de_depart": "Couché sur le dos, genoux pliés et collés ensemble, pieds au sol.",
+    "mouvement": "Laissez descendre doucement les deux genoux d'un côté, de quelques centimètres seulement, puis de l'autre côté, en gardant les épaules au sol.",
+    "dosage": "10 allers-retours lents, 2 fois par jour.",
+    "progression": "Augmentez peu à peu l'amplitude à mesure que le dos se détend.",
+    "erreur_frequente": "Laisser tomber les genoux trop loin, jusque dans la douleur.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos inclinant doucement les genoux pliés à gauche et à droite.",
+    "phase": "Dès maintenant",
+    "but": "Pour assouplir le bas du dos en douceur.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Pont fessier doux",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez doucement les hanches sans cambrer le dos. Tenez 3 secondes, puis redescendez.",
+    "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Passez à 3 séries de 12 répétitions, puis à l'exercice de l'oiseau-chien.",
+    "erreur_frequente": "Forcer avec le bas du dos au lieu des fessiers.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   }
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   },
+   {
+    "texte": "Qaseem A et al., Ann Intern Med, 2017",
+    "doi_ou_pmid": "PMID: 28192789"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/discogenique",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-03",
+  "no": 3,
+  "titre": "Discopathie dégénérative (douleur discogénique)",
+  "sous_titre": "Douleur liée à un disque du bas du dos",
+  "titre_v1": "Douleur liée à un disque du bas du dos",
+  "diagnostic": "Discopathie dégénérative ou douleur discogénique",
+  "en_bref": [
+   "Les changements des disques sont normaux avec l'âge et n'expliquent pas toujours la douleur.",
+   "Bouger et renforcer le dos diminue la douleur.",
+   "Une imagerie n'est habituellement pas nécessaire."
+  ],
+  "ce_que_vous_avez": "Les disques sont les coussins situés entre vos vertèbres. Avec l'âge, ils changent chez presque tout le monde, un peu comme les cheveux qui grisonnent : ces changements sont normaux et se voient aussi chez des personnes qui n'ont aucune douleur. Un disque peut toutefois devenir sensible pendant un certain temps, surtout en position assise prolongée ou penché en avant. Vos disques sont solides : bouger, marcher et renforcer le tronc aident à diminuer la douleur.",
+  "pourquoi": [
+   "Vieillissement normal des disques.",
+   "Positions assises prolongées et flexions répétées.",
+   "Muscles du tronc peu renforcés."
+  ],
+  "ce_qui_aide": [
+   "Vous lever et bouger quelques minutes toutes les 30 minutes environ quand vous êtes assis.",
+   "Placer un petit coussin ou une serviette roulée dans le creux du dos en voiture ou au bureau, si cela vous soulage.",
+   "Marcher tous les jours à une allure confortable.",
+   "Renforcer les muscles du ventre, du dos et des fesses."
+  ],
+  "a_eviter": [
+   "Rester assis pendant des heures sans changer de position.",
+   "Forcer les flexions répétées du dos (redressements assis, toucher les orteils jambes tendues) si elles augmentent votre douleur, surtout le matin quand le dos est plus raide.",
+   "Reprendre d'un seul coup des charges lourdes : augmentez les efforts graduellement."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes."
+  ],
+  "medecin": [
+   "Douleur qui descend dans la jambe avec engourdissements ou perte de force.",
+   "Douleur constante, jour et nuit, qui ne change pas avec les positions.",
+   "Fièvre ou perte de poids inexpliquée.",
+   "Aucune amélioration après 6 à 8 semaines."
+  ],
+  "duree_habituelle": "Amélioration habituelle en 4 à 8 semaines. De nouveaux épisodes sont possibles et se calment le plus souvent de la même façon.",
+  "materiel": [],
+  "exercices": [
+   {
+    "nom": "Extension douce sur les coudes (sphinx)",
+    "position_de_depart": "Allongé sur le ventre, jambes détendues.",
+    "mouvement": "Appuyez-vous doucement sur les avant-bras pour relever un peu la poitrine, en gardant le bassin au sol. Respirez calmement 20 à 30 secondes, puis redescendez.",
+    "dosage": "3 à 5 répétitions, 2 fois par jour (seulement si cela soulage votre dos).",
+    "progression": "Poussez doucement sur les mains pour monter un peu plus haut, seulement si c'est confortable.",
+    "erreur_frequente": "Continuer alors que la douleur augmente ou descend dans la jambe.",
+    "illustration": "Dessin au trait d'une personne allongée sur le ventre en appui détendu sur les avant-bras.",
+    "phase": "Dès maintenant",
+    "but": "Pour soulager la douleur au centre du dos.",
+    "plus_facile": "Restez simplement à plat ventre."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez légèrement le ventre et les fessiers, puis levez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes, puis redescendez.",
+    "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
+    "progression": "Tenez 5 secondes en haut, puis passez au pont sur une jambe.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Gainage modifié (planche sur les genoux)",
+    "position_de_depart": "En appui sur les avant-bras et les genoux, dos droit. Version plus facile : debout, avant-bras appuyés sur un comptoir, pieds reculés.",
+    "mouvement": "Serrez le ventre pour aligner les épaules, les hanches et les genoux sans creuser le dos. Tenez 15 à 20 secondes en respirant.",
+    "dosage": "3 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Tenez 30 secondes, puis passez en appui sur les orteils.",
+    "erreur_frequente": "Laisser les hanches descendre vers le sol et creuser le dos.",
+    "illustration": "Dessin au trait d'une personne en planche sur les avant-bras et les genoux, le dos bien droit.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer le tronc.",
+    "plus_facile": "Tenez 10 secondes."
+   },
+   {
+    "nom": "Oiseau-chien (bird-dog)",
+    "position_de_depart": "À quatre pattes, dos en position neutre.",
+    "mouvement": "Tendez lentement un bras vers l'avant et la jambe opposée vers l'arrière sans bouger le bas du dos. Tenez 3 secondes, revenez, puis alternez.",
+    "dosage": "2 séries de 8 répétitions par côté, 3 à 4 fois par semaine.",
+    "progression": "Tenez 5 secondes par répétition.",
+    "erreur_frequente": "Laisser tourner le bassin ou lever la jambe trop haut.",
+    "illustration": "Dessin au trait d'une personne à quatre pattes tendant un bras et la jambe opposée.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour stabiliser le dos.",
+    "plus_facile": "Tendez seulement une jambe."
+   }
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   },
+   {
+    "texte": "Brinjikji W et al., AJNR Am J Neuroradiol, 2015",
+    "doi_ou_pmid": "PMID: 25430861"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/facettaire",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-04",
+  "no": 4,
+  "titre": "Syndrome facettaire lombaire",
+  "sous_titre": "Douleur des petites articulations du bas du dos",
+  "titre_v1": "Douleur des petites articulations du bas du dos (facettes)",
+  "diagnostic": "Syndrome facettaire lombaire",
+  "en_bref": [
+   "Les petites articulations à l'arrière des vertèbres sont irritées.",
+   "Les positions qui arrondissent le dos soulagent souvent.",
+   "Renforcer le tronc et les fessiers aide à prévenir les rechutes."
+  ],
+  "ce_que_vous_avez": "Les petites articulations situées à l'arrière des vertèbres du bas du dos (les facettes) semblent irritées. La douleur augmente souvent quand vous restez debout longtemps ou quand vous vous penchez vers l'arrière. Ce n'est pas grave. Des mouvements doux qui arrondissent le bas du dos et le renforcement du ventre et des fessiers soulagent souvent ces articulations.",
+  "pourquoi": [
+   "Rester debout longtemps ou se cambrer vers l'arrière.",
+   "Usure normale avec l'âge.",
+   "Muscles du tronc et des fessiers peu renforcés."
+  ],
+  "ce_qui_aide": [
+   "Faire de petits mouvements de bascule du bassin et de flexion douce.",
+   "Poser un pied sur un petit tabouret si vous devez rester debout longtemps.",
+   "Appliquer de la chaleur 15 à 20 minutes sur le bas du dos, en plaçant un linge entre la source de chaleur et la peau.",
+   "Renforcer les muscles du ventre et des fesses, et rester actif (marche, vélo)."
+  ],
+  "a_eviter": [
+   "Rester debout sans bouger, le dos très cambré, pendant de longues périodes.",
+   "Forcer les extensions du dos vers l'arrière tant qu'elles sont douloureuses.",
+   "Dormir sur le ventre si cela augmente votre douleur."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes."
+  ],
+  "medecin": [
+   "Douleur qui descend dans une jambe avec picotements ou faiblesse.",
+   "Fièvre ou perte de poids inexpliquée.",
+   "Douleur qui empire ou qui ne s'améliore pas malgré 6 semaines d'exercices."
+  ],
+  "duree_habituelle": "Amélioration habituelle en 3 à 6 semaines.",
+  "materiel": [
+   "tapis d'exercice"
+  ],
+  "exercices": [
+   {
+    "nom": "Genoux à la poitrine",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Ramenez doucement les deux genoux vers la poitrine avec vos mains pour arrondir le bas du dos. Tenez 20 secondes en respirant.",
+    "dosage": "3 répétitions, 2 fois par jour.",
+    "progression": "Ajoutez de petits balancements lents d'avant en arrière si c'est agréable.",
+    "erreur_frequente": "Décoller la tête du sol en crispant le cou.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos tenant ses deux genoux près de la poitrine.",
+    "phase": "Dès maintenant",
+    "but": "Pour ouvrir l'arrière des vertèbres et soulager.",
+    "plus_facile": "Ramenez un seul genou."
+   },
+   {
+    "nom": "Bascule du bassin couché (aplatir le dos)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez doucement le ventre et les fesses pour plaquer le creux du dos contre le sol. Tenez 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 2 fois par jour.",
+    "progression": "Soulevez un pied de 5 cm du sol en gardant le dos plaqué au tapis, puis alternez.",
+    "erreur_frequente": "Retenir sa respiration.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos, genoux pliés, avec une flèche montrant le bas du dos qui s'aplatit au sol.",
+    "phase": "Dès maintenant",
+    "but": "Pour réduire la cambrure.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Position de l'enfant (étirement doux)",
+    "position_de_depart": "À quatre pattes, genoux légèrement écartés.",
+    "mouvement": "Amenez doucement les fesses vers les talons en laissant les mains glisser devant vous. Tenez 20 à 30 secondes.",
+    "dosage": "3 répétitions, 1 à 2 fois par jour.",
+    "progression": "Déplacez légèrement les mains vers la gauche, puis vers la droite, pour étirer chaque côté.",
+    "erreur_frequente": "Forcer sur des genoux douloureux (glissez plutôt un coussin entre les fesses et les talons).",
+    "illustration": "Dessin au trait d'une personne assise sur ses talons, buste penché en avant et bras allongés au sol.",
+    "phase": "Dès maintenant",
+    "but": "Pour étirer doucement le bas du dos.",
+    "plus_facile": "Gardez les fesses plus loin des talons."
+   },
+   {
+    "nom": "Pont fessier sans cambrer",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez légèrement le ventre et les fessiers, puis montez les hanches sans creuser le bas du dos. Tenez 3 secondes, puis redescendez.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Faites le pont en dépliant une jambe à la fois.",
+    "erreur_frequente": "Monter trop haut en creusant le dos.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos soulevant les hanches en gardant le dos aligné.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   }
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/grossesse",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-05",
+  "no": 5,
+  "titre": "Lombalgie et douleur pelvienne de la grossesse",
+  "sous_titre": "Mal de dos et douleur du bassin pendant la grossesse",
+  "titre_v1": "Mal de dos et douleur du bassin pendant la grossesse",
+  "diagnostic": "Lombalgie ou douleur pelvienne de la grossesse",
+  "en_bref": [
+   "Ces douleurs sont fréquentes et sans danger pour le bébé.",
+   "Rester active et faire des exercices adaptés aide.",
+   "Elles disparaissent le plus souvent après l'accouchement."
+  ],
+  "ce_que_vous_avez": "Pendant la grossesse, le poids du ventre, les changements de posture et les hormones modifient la façon dont le bas du dos et le bassin travaillent. Ces douleurs sont très fréquentes et sans danger pour votre bébé. Rester active, faire des exercices doux (sur terre ou dans l'eau) et bien vous installer la nuit aident à les soulager.",
+  "pourquoi": [
+   "Poids du ventre et changement de posture.",
+   "Hormones qui assouplissent les ligaments du bassin."
+  ],
+  "ce_qui_aide": [
+   "Dormir sur le côté avec un oreiller entre les genoux et un petit coussin sous le ventre.",
+   "Garder les deux genoux ensemble quand vous entrez dans l'auto ou le lit et quand vous en sortez.",
+   "Marcher ou faire de la natation ou de l'aquaforme régulièrement, selon votre confort.",
+   "Essayer une ceinture de soutien du bassin pour les marches ou les périodes debout prolongées : elle soulage certaines femmes (demandez conseil pour bien l'ajuster)."
+  ],
+  "a_eviter": [
+   "Rester longtemps couchée à plat sur le dos à partir du milieu de la grossesse (environ 20 semaines), surtout si cela vous donne des étourdissements ou des nausées : préférez le côté ou la position semi-assise.",
+   "Faire de grands écarts de jambes ou des fentes profondes, ou porter une charge (un enfant, par exemple) sur une seule hanche.",
+   "Rester debout sur une jambe pour vous habiller : asseyez-vous.",
+   "Prendre des anti-inflammatoires (ibuprofène, naproxène) sans l'avis de votre médecin, de votre sage-femme ou de votre pharmacien."
+  ],
+  "soulager": [
+   "Chaleur douce ou bain tiède (pas chaud) pour détendre les muscles.",
+   "Acétaminophène au besoin ; évitez les anti-inflammatoires pendant la grossesse, sauf avis de votre médecin."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez l'exercice si vous avez des étourdissements, un essoufflement inhabituel ou des contractions.",
+  "urgence": [
+   "Urgence OBSTÉTRICALE (appelez ou rendez-vous à votre unité des naissances) : contractions régulières ou douleurs rythmées au ventre ou au dos, saignement, perte de liquide ou diminution des mouvements du bébé.",
+   "Engourdissement entre les jambes, difficulté nouvelle à uriner, perte d'urine ou de selles inhabituelle, ou faiblesse dans une jambe ou les deux.",
+   "Mollet douloureux, enflé ou rouge, douleur dans la poitrine ou essoufflement soudain."
+  ],
+  "medecin": [
+   "Fièvre, brûlures en urinant ou douleur dans le flanc (possible infection urinaire ou du rein).",
+   "Douleur soudaine et très forte dans le dos, la hanche ou l'aine qui vous empêche de marcher ou de vous appuyer sur la jambe.",
+   "Douleur qui persiste plus de 3 mois après l'accouchement."
+  ],
+  "duree_habituelle": "La douleur varie au fil de la grossesse et peut augmenter vers la fin. Les exercices aident surtout s'ils sont faits régulièrement pendant 8 à 12 semaines. Chez la plupart des femmes, la douleur disparaît dans les 3 mois qui suivent l'accouchement.",
+  "materiel": [
+   "élastique",
+   "ballon",
+   "coussin"
+  ],
+  "exercices": [
+   {
+    "nom": "Dos rond / dos neutre à quatre pattes",
+    "position_de_depart": "À quatre pattes (ou debout, mains appuyées sur le bord d'un lit ou d'un comptoir, si le sol est inconfortable).",
+    "mouvement": "Arrondissez doucement le bas du dos en rentrant légèrement le nombril vers la colonne, puis revenez en position neutre sans creuser.",
+    "dosage": "10 répétitions lentes, 1 à 2 fois par jour.",
+    "progression": "Assise sur un gros ballon d'exercice, pieds bien à plat et près d'un appui stable, faites de petites bascules du bassin vers l'avant et vers l'arrière.",
+    "erreur_frequente": "Laisser le ventre tomber vers le sol et creuser fortement le dos.",
+    "illustration": "Dessin au trait d'une femme enceinte à quatre pattes arrondissant doucement le bas du dos.",
+    "phase": "Dès maintenant",
+    "but": "Pour détendre le bas du dos.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Contraction douce du plancher pelvien et du ventre profond",
+    "position_de_depart": "Assise le dos droit (ou couchée sur le côté), respiration calme.",
+    "mouvement": "En expirant doucement, serrez légèrement les muscles du périnée (comme pour retenir un gaz ou l'urine) et rentrez doucement le bas du ventre. Tenez 5 secondes, puis relâchez complètement.",
+    "dosage": "10 répétitions, 2 fois par jour.",
+    "progression": "Tenez 8 à 10 secondes en continuant de respirer.",
+    "erreur_frequente": "Bloquer la respiration ou serrer fortement les fesses et les cuisses.",
+    "illustration": "Dessin au trait d'une femme enceinte assise sur une chaise, dos droit, posant une main sur le bas du ventre.",
+    "phase": "Dès maintenant",
+    "but": "Pour soutenir le bassin et le dos.",
+    "plus_facile": "Tenez 3 secondes."
+   },
+   {
+    "nom": "Coquillage couché sur le côté (renforcement des fessiers)",
+    "position_de_depart": "Couchée sur le côté, genoux pliés, un oreiller sous la tête et un petit coussin sous le ventre au besoin.",
+    "mouvement": "Gardez les pieds collés et ouvrez doucement le genou du dessus vers le plafond, sur une petite amplitude, sans laisser le bassin rouler vers l'arrière. Redescendez lentement.",
+    "dosage": "2 séries de 10 à 12 répétitions de chaque côté, 3 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des cuisses si c'est confortable.",
+    "erreur_frequente": "Ouvrir le genou trop grand ou continuer malgré une douleur à l'avant du bassin (pubis).",
+    "illustration": "Dessin au trait d'une femme enceinte couchée sur le côté, genoux pliés, ouvrant doucement le genou du dessus.",
+    "phase": "Dès maintenant",
+    "but": "Pour renforcer les fessiers, qui stabilisent le bassin.",
+    "plus_facile": "Faites un plus petit mouvement."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Liddle SD & Pennick V, Cochrane Database Syst Rev, 2015",
+    "doi_ou_pmid": "PMID: 26422811"
+   },
+   {
+    "texte": "Mottola MF et al., J Obstet Gynaecol Can, 2018",
+    "doi_ou_pmid": "PMID: 30297272"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/stenose",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-06",
+  "no": 6,
+  "titre": "Sténose spinale lombaire",
+  "sous_titre": "Canal lombaire étroit",
+  "titre_v1": "Canal lombaire étroit (sténose spinale)",
+  "diagnostic": "Sténose spinale lombaire",
+  "en_bref": [
+   "Le canal où passent les nerfs est devenu plus étroit avec les années.",
+   "Se pencher vers l'avant et s'asseoir soulagent les jambes.",
+   "Les exercices et la marche fractionnée aident à marcher plus longtemps."
+  ],
+  "ce_que_vous_avez": "Avec les années, le canal où passent les nerfs dans le bas du dos est devenu plus étroit. Cela donne une lourdeur, des crampes ou des fourmillements dans les fesses et les jambes quand vous marchez ou restez debout; ces symptômes diminuent quand vous vous asseyez ou vous penchez en avant. Chez beaucoup de gens, la situation reste stable pendant des années. Les exercices et le vélo stationnaire peuvent améliorer votre capacité à marcher.",
+  "pourquoi": [
+   "Usure des disques et des articulations avec l'âge.",
+   "Épaississement des ligaments du dos."
+  ],
+  "ce_qui_aide": [
+   "Faire du vélo stationnaire (la position légèrement penchée vers l'avant donne plus de place aux nerfs).",
+   "Vous pencher un peu en avant pour marcher plus longtemps, par exemple en vous appuyant sur un panier d'épicerie ou une marchette.",
+   "Vous asseoir quelques minutes dès que les jambes deviennent lourdes, puis repartir.",
+   "Suivre un programme supervisé en physiothérapie (exercices et thérapie manuelle) : il donne de meilleurs résultats que les exercices faits seul."
+  ],
+  "a_eviter": [
+   "Rester debout sans bouger, le dos très cambré, pendant de longues périodes.",
+   "Forcer la marche sans pause quand la douleur ou la lourdeur augmente dans les jambes.",
+   "Faire des exercices qui creusent fortement le bas du dos."
+  ],
+  "soulager": [
+   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Assoyez-vous dès que les jambes deviennent engourdies ou faibles, puis reprenez quand les symptômes ont diminué.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse qui s'aggrave rapidement dans les jambes."
+  ],
+  "medecin": [
+   "Faiblesse progressive d'un pied ou d'une jambe, ou chutes à répétition.",
+   "Distance de marche qui diminue rapidement malgré les exercices.",
+   "Douleur dans les mollets à la marche qui disparaît dès que vous vous arrêtez debout, pied froid ou pâle, ou plaie au pied qui ne guérit pas (possible problème de circulation).",
+   "Douleur constante au repos ou la nuit."
+  ],
+  "duree_habituelle": "Amélioration de la tolérance à la marche possible en 6 à 12 semaines d'exercices réguliers. L'amélioration est souvent partielle et les symptômes peuvent varier d'une semaine à l'autre.",
+  "materiel": [
+   "chaise",
+   "mur",
+   "tapis d'exercice"
+  ],
+  "exercices": [
+   {
+    "nom": "Genoux à la poitrine couché",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Ramenez doucement les deux genoux vers la poitrine avec vos mains pour arrondir le bas du dos. Tenez 20 à 30 secondes en respirant.",
+    "dosage": "3 à 4 répétitions, 2 fois par jour (surtout le matin et après la marche).",
+    "progression": "Tenez 30 secondes en relâchant bien les fessiers.",
+    "erreur_frequente": "Crisper le cou en soulevant la tête.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos ramenant doucement ses deux genoux vers la poitrine.",
+    "phase": "Dès maintenant",
+    "but": "Pour ouvrir le canal et soulager les jambes.",
+    "plus_facile": "Ramenez un seul genou."
+   },
+   {
+    "nom": "Bascule du bassin couché",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Serrez doucement le ventre pour plaquer le bas du dos contre le matelas ou le tapis. Tenez 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 2 fois par jour.",
+    "progression": "Levez un genou à la fois vers vous en gardant le bas du dos plaqué.",
+    "erreur_frequente": "Laisser le dos se creuser.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos plaquant le bas du dos au sol.",
+    "phase": "Dès maintenant",
+    "but": "Pour réduire la cambrure.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Étirement doux de l'avant de la hanche sans cambrer",
+    "position_de_depart": "Debout en petite fente, un pied devant l'autre, une main appuyée sur une chaise ou un mur.",
+    "mouvement": "Rentrez légèrement les fesses (bascule du bassin) et avancez doucement les hanches jusqu'à sentir un étirement à l'avant de la hanche de la jambe arrière, sans creuser le dos. Tenez 20 secondes.",
+    "dosage": "3 répétitions de chaque côté, 1 fois par jour.",
+    "progression": "Tenez 30 secondes.",
+    "erreur_frequente": "Cambrer le bas du dos pendant l'étirement.",
+    "illustration": "Dessin au trait d'une personne debout en petite fente, main sur le dossier d'une chaise, étirant l'avant de la hanche.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour assouplir l'avant de la hanche.",
+    "plus_facile": "Faites un plus petit pas."
+   },
+   {
+    "nom": "Vélo stationnaire",
+    "position_de_depart": "Assis sur un vélo stationnaire, buste légèrement incliné vers le guidon.",
+    "mouvement": "Pédalez à résistance légère à modérée, à un rythme confortable.",
+    "dosage": "10 à 20 minutes, 3 à 5 fois par semaine.",
+    "progression": "Ajoutez 2 à 5 minutes chaque semaine, puis ajoutez de la marche par intervalles entrecoupés de courtes pauses assises.",
+    "erreur_frequente": "Régler la selle trop bas ou choisir une résistance trop forte.",
+    "illustration": "Dessin au trait d'une personne pédalant calmement sur un vélo stationnaire.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder la forme sans douleur aux jambes (le dos un peu penché vers l'avant aide).",
+    "plus_facile": "Pédalez 5 minutes, sans résistance."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Bussières A et al., J Pain, 2021",
+    "doi_ou_pmid": "PMID: 33857615"
+   },
+   {
+    "texte": "Ammendolia C et al., BMJ Open, 2022",
+    "doi_ou_pmid": "PMID: 35046008"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/si",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-07",
+  "no": 7,
+  "titre": "Douleur sacro-iliaque",
+  "sous_titre": "Douleur de l'articulation du bassin",
+  "titre_v1": "Douleur de l'articulation du bassin (sacro-iliaque)",
+  "diagnostic": "Douleur sacro-iliaque",
+  "en_bref": [
+   "L'articulation entre le bas de la colonne et le bassin est irritée.",
+   "Renforcer les fessiers et le tronc la stabilise.",
+   "La douleur diminue habituellement en quelques semaines."
+  ],
+  "ce_que_vous_avez": "L'articulation qui relie le bas de votre colonne aux os du bassin semble irritée. La douleur se situe d'un côté, dans la fesse, et augmente souvent quand vous vous retournez dans le lit, montez un escalier ou vous levez d'une chaise. Ce n'est pas grave. Renforcer les fessiers et les muscles du tronc aide le bassin à mieux tolérer les efforts.",
+  "pourquoi": [
+   "Grossesse ou accouchement récent.",
+   "Chute sur les fesses ou faux mouvement.",
+   "Course en pente ou jambes de longueur inégale."
+  ],
+  "ce_qui_aide": [
+   "Renforcer les muscles des fesses et du tronc.",
+   "Dormir sur le côté avec un oreiller entre les genoux.",
+   "Sortir du lit ou de l'auto en gardant les deux genoux ensemble.",
+   "Appliquer de la glace ou de la chaleur 15 minutes sur la fesse, selon ce qui vous soulage le mieux, en protégeant la peau avec un linge."
+  ],
+  "a_eviter": [
+   "Rester longtemps debout en appui sur une seule jambe.",
+   "Garder les jambes croisées longtemps en position assise si cela réveille la douleur.",
+   "Faire des fentes profondes ou de la course tant que le bassin est très sensible : reprenez-les graduellement."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes."
+  ],
+  "medecin": [
+   "Douleur qui descend sous le genou avec engourdissements ou faiblesse.",
+   "Fièvre ou perte de poids inexpliquée.",
+   "Douleur qui vous réveille en deuxième moitié de nuit, avec une raideur le matin de plus de 30 minutes qui s'améliore en bougeant (inflammation à faire vérifier lors d'un rendez-vous, sans urgence).",
+   "Aucune amélioration après 6 semaines."
+  ],
+  "duree_habituelle": "Amélioration habituelle en 4 à 8 semaines.",
+  "materiel": [
+   "élastique",
+   "serviette",
+   "coussin"
+  ],
+  "exercices": [
+   {
+    "nom": "Pression d'un coussin entre les genoux",
+    "position_de_depart": "Couché sur le dos, genoux pliés, un coussin ou une serviette pliée entre les genoux.",
+    "mouvement": "Serrez doucement le coussin entre les genoux pendant 5 secondes en serrant légèrement le bas du ventre, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 1 à 2 fois par jour.",
+    "progression": "Ajoutez l'exercice inverse : écartez les genoux contre un élastique placé autour des cuisses.",
+    "erreur_frequente": "Bloquer sa respiration.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos, genoux pliés, serrant un coussin entre ses genoux.",
+    "phase": "Dès maintenant",
+    "but": "Pour stabiliser le bassin.",
+    "plus_facile": "Serrez plus doucement, 3 secondes."
+   },
+   {
+    "nom": "Coquillage couché sur le côté",
+    "position_de_depart": "Couché sur le côté, genoux pliés, pieds collés ensemble. Commencez par le côté sur lequel vous êtes le plus à l'aise.",
+    "mouvement": "Soulevez doucement le genou du dessus, comme un coquillage qui s'ouvre, sans laisser le bassin rouler vers l'arrière. Redescendez lentement.",
+    "dosage": "3 séries de 12 répétitions de chaque côté (si c'est confortable), 3 à 4 fois par semaine.",
+    "progression": "Ajoutez un élastique léger autour des cuisses, juste au-dessus des genoux.",
+    "erreur_frequente": "Tourner le tronc vers l'arrière pour monter le genou plus haut.",
+    "illustration": "Dessin au trait d'une personne couchée sur le côté ouvrant le genou supérieur.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez les hanches en gardant le bassin bien droit et à la même hauteur des deux côtés. Tenez 3 secondes, puis redescendez.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Placez un élastique autour des cuisses et gardez une légère tension vers l'extérieur pendant la montée.",
+    "erreur_frequente": "Laisser une fesse descendre plus bas que l'autre.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier symétrique.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers et le tronc.",
+    "plus_facile": "Montez moins haut."
+   }
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/hernie",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-08",
+  "no": 8,
+  "titre": "Hernie discale lombaire avec radiculopathie (sciatique ou cruralgie)",
+  "sous_titre": "Nerf irrité dans le bas du dos et la jambe",
+  "titre_v1": "Nerf irrité dans le bas du dos et la jambe (sciatique ou cruralgie)",
+  "diagnostic": "Hernie discale avec radiculopathie (sciatique, cruralgie)",
+  "en_bref": [
+   "Un disque irrite un nerf ; chez la plupart des gens, la douleur à la jambe diminue en 6 à 12 semaines.",
+   "Rester actif dans les limites de la douleur aide à guérir.",
+   "Une faiblesse de la jambe ou des troubles urinaires demandent une évaluation urgente."
+  ],
+  "ce_que_vous_avez": "Un disque du bas du dos appuie sur un nerf ou l'irrite, ce qui donne une douleur dans la jambe (sciatique à l'arrière, cruralgie à l'avant de la cuisse). Chez la plupart des gens, la douleur diminue nettement en quelques semaines à trois mois sans chirurgie, et la hernie elle-même rapetisse souvent au fil des mois. Rester actif en douceur est sécuritaire et vaut mieux que le repos au lit.",
+  "pourquoi": [
+   "Disque qui s'use et se fissure avec le temps.",
+   "Effort de soulèvement, flexions répétées ou position assise prolongée.",
+   "Tabagisme et surpoids."
+  ],
+  "ce_qui_aide": [
+   "Marcher de courtes distances plusieurs fois par jour, selon votre tolérance.",
+   "Trouver la position qui calme la jambe (souvent couché sur le dos, les mollets posés sur une chaise, ou sur le côté avec un oreiller entre les genoux).",
+   "Prendre les médicaments contre la douleur tels que prescrits ou conseillés par votre médecin ou votre pharmacien.",
+   "Faire de très doux glissements du nerf, sans jamais tirer fort."
+  ],
+  "a_eviter": [
+   "Rester couché au lit toute la journée.",
+   "Étirer fortement l'arrière de la cuisse jambe tendue (cela tire sur le nerf déjà irrité).",
+   "Rester assis longtemps sans vous lever, surtout dans un fauteuil mou.",
+   "Soulever des charges lourdes tant que la douleur dans la jambe est vive."
+  ],
+  "soulager": [
+   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez tout mouvement qui fait descendre la douleur plus bas dans la jambe ou qui augmente les fourmillements dans la jambe ou le pied. Une douleur qui remonte de la jambe vers le dos est au contraire bon signe.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou douleur ou faiblesse nouvelle dans les deux jambes.",
+   "À faire évaluer le jour même : faiblesse qui apparaît ou s'aggrave dans la jambe, pied qui tombe ou qui accroche le sol."
+  ],
+  "medecin": [
+   "Douleur insupportable dans la jambe malgré les médicaments, qui empêche de dormir.",
+   "Fièvre ou perte de poids inexpliquée.",
+   "Douleur dans la jambe encore importante après 6 à 8 semaines : d'autres traitements peuvent alors être discutés avec votre médecin."
+  ],
+  "duree_habituelle": "Amélioration souvent notable en 4 à 12 semaines. L'engourdissement peut mettre plus de temps à disparaître que la douleur, et une rechute est possible.",
+  "materiel": [
+   "chaise",
+   "coussin"
+  ],
+  "exercices": [
+   {
+    "nom": "Position de soulagement (jambes sur une chaise)",
+    "position_de_depart": "Couché sur le dos au sol, les mollets posés sur l'assise d'une chaise (hanches et genoux pliés à 90 degrés).",
+    "mouvement": "Respirez calmement en laissant le bas du dos et la jambe se détendre complètement.",
+    "dosage": "5 minutes, 2 à 4 fois par jour au besoin.",
+    "progression": "Utilisez cette position après la marche si la jambe élance.",
+    "erreur_frequente": "Rester dans cette position alors qu'elle augmente la douleur dans la jambe.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos avec les mollets posés sur une chaise.",
+    "phase": "Dès maintenant",
+    "but": "Pour soulager la douleur de la jambe.",
+    "plus_facile": "Placez simplement un coussin sous les genoux."
+   },
+   {
+    "nom": "Extension douce sur le ventre, puis sur les coudes",
+    "position_de_depart": "Allongé à plat sur le ventre, bras le long du corps ou sous le front.",
+    "mouvement": "Restez simplement sur le ventre en respirant calmement. Si la douleur de la jambe diminue ou remonte vers le dos, relevez doucement le buste en appui sur les avant-bras.",
+    "dosage": "1 à 2 minutes, 2 à 3 fois par jour (seulement si la douleur dans la jambe diminue).",
+    "progression": "Tenez l'appui sur les avant-bras 20 à 30 secondes, 3 à 5 fois, si c'est soulageant.",
+    "erreur_frequente": "Insister alors que la douleur descend plus bas dans la jambe.",
+    "illustration": "Dessin au trait d'une personne allongée sur le ventre, puis relevée doucement sur les avant-bras.",
+    "phase": "Dès maintenant",
+    "but": "Pour faire remonter la douleur vers le dos, ce qui est bon signe.",
+    "plus_facile": "Restez simplement à plat ventre."
+   },
+   {
+    "nom": "Glissement très doux du nerf sciatique (assis)",
+    "position_de_depart": "Assis au bord d'une chaise, dos détendu, les deux pieds au sol.",
+    "mouvement": "Dépliez doucement le genou du côté atteint tout en levant le menton vers le plafond, puis repliez le genou tout en ramenant le menton vers la poitrine. Le mouvement doit rester fluide, sans tiraillement.",
+    "dosage": "1 à 2 séries de 8 répétitions lentes, 1 à 2 fois par jour.",
+    "progression": "Ramenez légèrement les orteils vers vous quand la jambe est dépliée, seulement si aucun tiraillement n'apparaît.",
+    "erreur_frequente": "Déplier la jambe et baisser la tête en même temps (cela tire trop fort sur le nerf).",
+    "illustration": "Dessin au trait d'une personne assise dépliant une jambe pendant qu'elle lève doucement le menton.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour aider le nerf à glisser sans l'étirer.",
+    "plus_facile": "Dépliez moins le genou."
+   },
+   {
+    "nom": "Marche fractionnée",
+    "position_de_depart": "Debout, regard devant vous, chaussures confortables.",
+    "mouvement": "Marchez 5 à 15 minutes à un rythme confortable, sur un terrain plat.",
+    "dosage": "2 à 3 courtes marches par jour.",
+    "progression": "Allongez la durée de marche chaque semaine. Quand la douleur vive de la jambe a diminué, ajoutez le pont fessier (3 séries de 10 répétitions, 1 fois par jour).",
+    "erreur_frequente": "Marcher jusqu'à boiter ou jusqu'à déclencher de forts fourmillements.",
+    "illustration": "Dessin au trait d'une personne marchant d'un pas régulier et détendu.",
+    "phase": "Dès maintenant",
+    "but": "Pour rester actif sans irriter le nerf.",
+    "plus_facile": "Marchez 3 à 5 minutes, plusieurs fois par jour."
+   }
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   },
+   {
+    "texte": "Zhong M et al., Pain Physician, 2017",
+    "doi_ou_pmid": "PMID: 28072796"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/spondylolisthesis",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-09",
+  "no": 9,
+  "titre": "Spondylolisthésis dégénératif",
+  "sous_titre": "Léger glissement d'une vertèbre",
+  "titre_v1": "Léger glissement d'une vertèbre (spondylolisthésis)",
+  "diagnostic": "Spondylolisthésis dégénératif",
+  "en_bref": [
+   "Une vertèbre a glissé de quelques millimètres ; c'est souvent stable.",
+   "Renforcer le ventre et les fessiers soulage la plupart des gens.",
+   "La chirurgie est rarement nécessaire."
+  ],
+  "ce_que_vous_avez": "Une vertèbre du bas du dos a glissé de quelques millimètres vers l'avant par rapport à celle du dessous, à cause de l'usure naturelle des articulations. Dans la majorité des cas, ce glissement reste stable au fil des années. Renforcer les muscles du ventre et des fesses et rester actif aident à diminuer la douleur.",
+  "pourquoi": [
+   "Usure des articulations du dos avec l'âge.",
+   "Plus fréquent chez les femmes après 50 ans."
+  ],
+  "ce_qui_aide": [
+   "Renforcer les muscles du ventre et des fesses en gardant le dos en position neutre.",
+   "Faire du vélo stationnaire ou de la marche, selon votre confort.",
+   "Faire des exercices doux qui arrondissent le bas du dos (genoux à la poitrine, bascule du bassin).",
+   "Vous asseoir quelques minutes si les jambes deviennent lourdes à la marche, puis repartir."
+  ],
+  "a_eviter": [
+   "Faire des mouvements qui cambrent fortement le dos vers l'arrière (pont de gymnastique, extension forcée sur le ventre).",
+   "Rester debout sans bouger, le dos creusé, pendant de longues périodes.",
+   "Soulever des charges lourdes loin du corps, à bout de bras : gardez la charge près de vous."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes."
+  ],
+  "medecin": [
+   "Faiblesse nouvelle dans une jambe ou un pied.",
+   "Douleur ou lourdeur dans les jambes à la marche qui vous oblige à vous asseoir de plus en plus tôt.",
+   "Douleur dans la jambe (sciatique) qui s'aggrave.",
+   "Aucune amélioration après 8 à 12 semaines."
+  ],
+  "duree_habituelle": "Amélioration du confort en 6 à 12 semaines d'exercices réguliers.",
+  "materiel": [
+   "tapis d'exercice"
+  ],
+  "exercices": [
+   {
+    "nom": "Bascule du bassin et activation du ventre profond",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Rentrez doucement le bas du ventre et plaquez légèrement le bas du dos au tapis en serrant les fessiers. Tenez 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 2 fois par jour.",
+    "progression": "Levez un pied de quelques centimètres en gardant le bas du dos stable, puis alternez.",
+    "erreur_frequente": "Bloquer sa respiration.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos plaquant doucement le bas du dos au sol.",
+    "phase": "Dès maintenant",
+    "but": "Pour activer le ventre profond.",
+    "plus_facile": "Tenez 3 secondes."
+   },
+   {
+    "nom": "Genoux à la poitrine (en douceur)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Ramenez un genou, puis l'autre, vers la poitrine pour détendre le bas du dos. Tenez 20 secondes en respirant.",
+    "dosage": "3 répétitions, 1 à 2 fois par jour.",
+    "progression": "Tenez 30 secondes.",
+    "erreur_frequente": "Tirer fort en soulevant les épaules.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos tenant doucement ses genoux près de la poitrine.",
+    "phase": "Dès maintenant",
+    "but": "Pour détendre le bas du dos.",
+    "plus_facile": "Ramenez un seul genou."
+   },
+   {
+    "nom": "Pont fessier contrôlé (sans cambrer)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et le ventre, puis montez les hanches seulement jusqu'à aligner les cuisses et le tronc (pas plus haut). Tenez 3 secondes, puis redescendez.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut.",
+    "erreur_frequente": "Monter trop haut en creusant le bas du dos.",
+    "illustration": "Dessin au trait d'une personne réalisant un pont fessier en gardant le dos bien droit.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Planche modifiée sur les genoux",
+    "position_de_depart": "En appui sur les avant-bras et les genoux, dos plat.",
+    "mouvement": "Gardez les épaules, les hanches et les genoux alignés, ventre serré, pendant 15 à 20 secondes en respirant.",
+    "dosage": "3 répétitions, 3 fois par semaine.",
+    "progression": "Tenez 30 secondes, puis passez en appui sur les orteils si le dos reste bien plat.",
+    "erreur_frequente": "Laisser le bassin descendre et creuser le dos.",
+    "illustration": "Dessin au trait d'une personne en planche sur les avant-bras et les genoux, dos plat.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer le tronc.",
+    "plus_facile": "Tenez 10 secondes."
+   }
+  ],
+  "references": [
+   {
+    "texte": "George SZ et al., J Orthop Sports Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 34719942"
+   },
+   {
+    "texte": "Nava-Bringas TI et al., Phys Ther, 2021",
+    "doi_ou_pmid": "PMID: 33792726"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/spondylolyse",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-10",
+  "no": 10,
+  "titre": "Spondylolyse ou spondylolisthésis isthmique",
+  "sous_titre": "Fissure de fatigue dans une vertèbre",
+  "titre_v1": "Fissure de fatigue dans une vertèbre (spondylolyse), avec ou sans léger glissement",
+  "diagnostic": "Spondylolyse ou spondylolisthésis isthmique",
+  "en_bref": [
+   "Une petite fissure de fatigue s'est formée dans une vertèbre.",
+   "Une pause des gestes qui cambrent le dos lui permet de guérir.",
+   "Le retour au sport se fait graduellement, sans douleur."
+  ],
+  "ce_que_vous_avez": "Chez les jeunes sportifs (gymnastique, plongeon, football, danse, tennis), cambrer et tourner le dos à répétition peut créer une petite fissure de fatigue dans l'arc osseux à l'arrière d'une vertèbre; parfois, la vertèbre glisse légèrement vers l'avant. Ce diagnostic est posé et suivi par un médecin. Avec une pause des sports qui cambrent le dos et un bon programme de renforcement, la grande majorité des jeunes reprennent leur sport sans douleur.",
+  "pourquoi": [
+   "Gestes répétés qui cambrent et tournent le dos (gymnastique, plongeon, football, danse).",
+   "Croissance rapide à l'adolescence.",
+   "Ischio-jambiers raides."
+  ],
+  "ce_qui_aide": [
+   "Faire une pause des sports et des gestes qui cambrent ou tordent le dos (gymnastique, service au tennis, nage papillon, plaqués) : la durée, souvent de 4 à 12 semaines, est fixée par votre médecin.",
+   "Commencer tôt la physiothérapie et le renforcement du ventre et des fessiers, dos en position neutre, dès que le médecin le permet : le repos complet n'est pas nécessaire.",
+   "Assouplir l'arrière des cuisses et l'avant des hanches pour diminuer la tension sur le bas du dos.",
+   "Reprendre le sport par étapes, seulement quand le dos est sans douleur dans les gestes de votre sport."
+  ],
+  "a_eviter": [
+   "Cambrer le dos vers l'arrière (ponts, arabesques, souplesses arrière) ou soulever des charges lourdes.",
+   "Faire des exercices d'extension du dos (superman, cobra) ou des torsions forcées.",
+   "Rejouer malgré la douleur ou en la masquant avec des médicaments contre la douleur."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après le sport.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+  ],
+  "regle_de_douleur": "Les exercices doivent rester confortables : une gêne légère (jusqu'à 3 sur 10) qui a disparu dans l'heure qui suit l'exercice est acceptable; s'ils réveillent votre douleur habituelle, arrêtez et parlez-en à votre physiothérapeute. Avant de reprendre le sport, le dos doit être à 0 sur 10 dans les gestes de votre sport.",
+  "urgence": [
+   "Engourdissement entre les jambes, difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les jambes."
+  ],
+  "medecin": [
+   "Douleur qui descend dans la fesse ou la jambe avec picotements ou faiblesse.",
+   "Douleur qui persiste au repos ou la nuit malgré l'arrêt du sport, ou fièvre.",
+   "Douleur qui revient dès la reprise de gestes sportifs légers.",
+   "Aucune amélioration après 6 à 8 semaines de pause sportive et d'exercices."
+  ],
+  "duree_habituelle": "Pause des sports à risque pendant 4 à 12 semaines selon l'avis médical, puis reprise par étapes. Le retour complet au sport se fait en moyenne en 3 à 6 mois.",
+  "materiel": [
+   "tapis d'exercice"
+  ],
+  "exercices": [
+   {
+    "nom": "Bascule du bassin couché (dos neutre)",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds au sol.",
+    "mouvement": "Serrez doucement le bas du ventre pour plaquer légèrement le bas du dos au tapis. Tenez 5 secondes, puis relâchez.",
+    "dosage": "2 séries de 10 répétitions, 2 fois par jour.",
+    "progression": "Faites glisser un talon au sol pour allonger la jambe en gardant le dos immobile, puis alternez.",
+    "erreur_frequente": "Laisser le dos se creuser quand la jambe bouge.",
+    "illustration": "Dessin au trait d'un jeune sportif couché sur le dos, genoux pliés, basculant doucement le bassin.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder le dos en position neutre.",
+    "plus_facile": "Tenez 3 secondes."
+   },
+   {
+    "nom": "Étirement doux de l'arrière de la cuisse (ischio-jambiers)",
+    "position_de_depart": "Couché sur le dos dans l'encadrement d'une porte, une jambe appuyée à la verticale contre le cadre, l'autre allongée au sol à travers l'ouverture.",
+    "mouvement": "Ajustez votre distance par rapport au cadre pour sentir un étirement confortable à l'arrière de la cuisse, sans décoller le bassin du sol. Tenez 20 à 30 secondes.",
+    "dosage": "3 répétitions par jambe, 1 fois par jour.",
+    "progression": "Rapprochez-vous légèrement du cadre à mesure que la souplesse augmente.",
+    "erreur_frequente": "Soulever les fesses du sol ou arrondir le bas du dos.",
+    "illustration": "Dessin au trait d'un jeune sportif couché au sol avec une jambe appuyée vers le haut contre le montant d'une porte.",
+    "phase": "Dès maintenant",
+    "but": "Pour assouplir l'arrière des cuisses.",
+    "plus_facile": "Éloignez-vous du cadre de porte."
+   },
+   {
+    "nom": "Pont fessier sans cambrer",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et montez les hanches jusqu'à former une ligne droite des épaules aux genoux, sans creuser le dos. Tenez 3 secondes, puis redescendez.",
+    "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
+    "progression": "Passez au pont sur une jambe quand l'exercice est totalement indolore.",
+    "erreur_frequente": "Cambrer le dos en haut du mouvement.",
+    "illustration": "Dessin au trait d'un jeune sportif réalisant un pont fessier aligné.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Planche sur les avant-bras (sur les genoux, puis sur les pieds)",
+    "position_de_depart": "En appui sur les avant-bras et les genoux, dos bien plat.",
+    "mouvement": "Tenez la position 20 secondes en serrant le ventre et les fesses, en continuant de respirer.",
+    "dosage": "3 répétitions, 3 fois par semaine.",
+    "progression": "Passez en appui sur les orteils, puis augmentez jusqu'à 45 secondes.",
+    "erreur_frequente": "Creuser le bas du dos.",
+    "illustration": "Dessin au trait d'un jeune sportif en planche sur les avant-bras, dos parfaitement droit.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer le tronc.",
+    "plus_facile": "Tenez 10 secondes, sur les genoux."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Selhorst M et al., Br J Sports Med, 2026",
+    "doi_ou_pmid": "PMID: 41402030"
+   },
+   {
+    "texte": "Klein G et al., J Pediatr Orthop, 2009",
+    "doi_ou_pmid": "PMID: 19352240"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/scoliose",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-11",
+  "no": 11,
+  "titre": "Scoliose dégénérative de l'adulte",
+  "sous_titre": "Courbure de la colonne chez l'adulte",
+  "titre_v1": "Courbure de la colonne chez l'adulte (scoliose dégénérative)",
+  "diagnostic": "Scoliose dégénérative de l'adulte",
+  "en_bref": [
+   "L'usure inégale du dos a créé une courbure sur le côté.",
+   "Les exercices renforcent les muscles fatigués et améliorent l'équilibre.",
+   "Des traitements existent si les jambes deviennent douloureuses à la marche."
+  ],
+  "ce_que_vous_avez": "Avec les années, l'usure inégale des disques et des articulations peut créer ou accentuer une courbure sur le côté dans le bas du dos. Cela fatigue les muscles du dos et peut limiter le temps que vous pouvez passer debout ou à marcher. Les exercices ne redressent pas la courbure, mais rester actif et renforcer le tronc aident à garder votre autonomie et votre confort.",
+  "pourquoi": [
+   "Usure inégale des disques et des articulations avec l'âge.",
+   "Ostéoporose."
+  ],
+  "ce_qui_aide": [
+   "Marcher, nager ou faire de l'aquaforme régulièrement.",
+   "Renforcer les muscles du tronc, du dos et des fesses pour mieux soutenir la colonne.",
+   "Faire de courtes pauses, assis ou les avant-bras appuyés sur un comptoir, quand le dos ou les jambes fatiguent en position debout.",
+   "Répartir le poids des sacs d'épicerie entre les deux mains."
+  ],
+  "a_eviter": [
+   "Cesser de bouger par peur d'aggraver la courbure : l'activité est sécuritaire.",
+   "Porter longtemps une charge lourde d'un seul côté du corps.",
+   "Faire des torsions brusques du tronc avec une charge lourde."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse qui s'aggrave rapidement dans les jambes.",
+   "Douleur soudaine et vive dans le dos après une chute ou un effort, même léger, ou perte de taille rapide (possible fracture)."
+  ],
+  "medecin": [
+   "Douleur, lourdeur ou engourdissements dans une jambe ou les deux à la marche, ou perte de force dans une jambe.",
+   "Posture qui penche de plus en plus vers l'avant ou sur le côté.",
+   "Douleur qui empêche vos activités quotidiennes malgré les exercices."
+  ],
+  "duree_habituelle": "Amélioration de l'endurance et du confort possible en 6 à 12 semaines d'exercices réguliers, à poursuivre à long terme.",
+  "materiel": [
+   "chaise",
+   "mur"
+  ],
+  "exercices": [
+   {
+    "nom": "Auto-grandissement assis, puis debout",
+    "position_de_depart": "Assis droit sur une chaise, pieds à plat au sol.",
+    "mouvement": "Imaginez qu'un fil tire doucement le sommet de votre tête vers le plafond pour allonger le dos, en gardant les épaules basses. Tenez 10 secondes en respirant.",
+    "dosage": "8 à 10 répétitions, 2 fois par jour.",
+    "progression": "Faites le même exercice debout, le dos près d'un mur.",
+    "erreur_frequente": "Hausser les épaules ou retenir sa respiration.",
+    "illustration": "Dessin au trait d'une personne assise se grandissant vers le haut avec une flèche au sommet de la tête.",
+    "phase": "Dès maintenant",
+    "but": "Pour redresser la posture.",
+    "plus_facile": "Faites-le assis, le dos appuyé."
+   },
+   {
+    "nom": "Pont fessier",
+    "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat.",
+    "mouvement": "Serrez les fessiers et soulevez doucement les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes, puis redescendez.",
+    "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
+    "progression": "Tenez 5 secondes en haut.",
+    "erreur_frequente": "Cambrer le bas du dos.",
+    "illustration": "Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer les fessiers.",
+    "plus_facile": "Montez moins haut."
+   },
+   {
+    "nom": "Oiseau-chien doux (une jambe à la fois)",
+    "position_de_depart": "À quatre pattes, mains sous les épaules et genoux sous les hanches.",
+    "mouvement": "Tendez doucement une jambe vers l'arrière en gardant le dos stable pendant 3 secondes, puis revenez. Alternez les jambes.",
+    "dosage": "2 séries de 8 répétitions par côté, 3 fois par semaine.",
+    "progression": "Tendez en même temps le bras opposé quand votre équilibre est solide.",
+    "erreur_frequente": "Laisser le bassin basculer sur le côté.",
+    "illustration": "Dessin au trait d'une personne à quatre pattes tendant doucement une jambe vers l'arrière.",
+    "phase": "Quand la douleur diminue",
+    "but": "Pour renforcer le dos et l'équilibre.",
+    "plus_facile": "Glissez simplement le pied vers l'arrière, sans le lever."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Schoutens C et al., Pain Med, 2020",
+    "doi_ou_pmid": "PMID: 31617915"
+   }
+  ]
+ },
+ {
+  "cle": "lombaire/spa",
+  "region": "lombaire",
+  "region_nom": "Rachis lombaire",
+  "code": "LOM-12",
+  "no": 12,
+  "titre": "Spondyloarthrite axiale",
+  "sous_titre": "Raideur inflammatoire du dos",
+  "titre_v1": "Raideur inflammatoire du dos (spondyloarthrite axiale)",
+  "diagnostic": "Spondyloarthrite axiale",
+  "en_bref": [
+   "C'est une maladie inflammatoire du bassin et de la colonne.",
+   "Les médicaments prescrits et l'exercice quotidien sont tous deux essentiels.",
+   "Bouger chaque jour garde la colonne souple."
+  ],
+  "ce_que_vous_avez": "Vous avez une maladie inflammatoire chronique des articulations du bassin et de la colonne. Elle cause surtout de la raideur le matin et des douleurs qui peuvent vous réveiller la nuit et qui s'améliorent en bougeant. En plus du suivi et des médicaments prescrits par votre médecin ou votre rhumatologue, l'exercice régulier fait partie intégrante du traitement : il aide à garder le dos souple et à rester en forme.",
+  "pourquoi": [
+   "Facteurs héréditaires (gène HLA-B27).",
+   "Inflammation causée par le système immunitaire ; le tabac l'aggrave."
+  ],
+  "ce_qui_aide": [
+   "Bouger et assouplir le dos chaque jour, par exemple après une douche chaude le matin.",
+   "Pratiquer régulièrement une activité physique (marche, natation ou exercices en piscine, vélo, yoga doux) et du renforcement musculaire.",
+   "Faire des exercices de respiration profonde pour garder la cage thoracique souple.",
+   "Prendre le traitement tel que prescrit et, si possible, apprendre vos exercices avec un physiothérapeute."
+  ],
+  "a_eviter": [
+   "Rester inactif ou alité (la raideur augmente avec l'immobilité).",
+   "Fumer (le tabac aggrave l'inflammation et les dommages à la colonne dans cette maladie).",
+   "Faire manipuler (« craquer ») votre cou ou votre dos.",
+   "Dormir avec plusieurs gros oreillers qui poussent la tête et le haut du dos vers l'avant."
+  ],
+  "soulager": [
+   "Les anti-inflammatoires prescrits par votre médecin sont le traitement de base : prenez-les comme indiqué.",
+   "Douche chaude ou chaleur le matin pour diminuer la raideur."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur ou une raideur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions.",
+  "urgence": [
+   "Urgence (le jour même) : œil rouge et douloureux, sensibilité à la lumière ou vision floue (possible uvéite).",
+   "Douleur nouvelle et vive dans le cou ou le dos, surtout après une chute ou un choc même léger (risque de fracture).",
+   "Engourdissements ou faiblesse dans les jambes, engourdissement entre les jambes, difficulté nouvelle à uriner ou perte d'urine ou de selles.",
+   "Fièvre ou signes d'infection si vous prenez un traitement qui diminue les défenses immunitaires (biothérapie)."
+  ],
+  "medecin": [
+   "Poussée importante qui vous réveille toutes les nuits malgré le traitement."
+  ],
+  "duree_habituelle": "Les exercices réguliers améliorent la souplesse et la forme en 4 à 12 semaines et doivent être poursuivis à long terme.",
+  "materiel": [
+   "chaise",
+   "mur"
+  ],
+  "exercices": [
+   {
+    "nom": "Respiration thoracique profonde avec ouverture des bras",
+    "position_de_depart": "Assis droit, ou debout dos au mur.",
+    "mouvement": "Inspirez profondément par le nez en ouvrant les bras sur les côtés pour gonfler la poitrine, puis expirez lentement en relâchant.",
+    "dosage": "10 respirations profondes, 2 fois par jour.",
+    "progression": "Montez les bras au-dessus de la tête pendant l'inspiration.",
+    "erreur_frequente": "Respirer seulement avec le haut des épaules en crispant le cou.",
+    "illustration": "Dessin au trait d'une personne debout inspirant profondément tout en ouvrant grand les bras sur les côtés.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder la cage thoracique souple.",
+    "plus_facile": "Faites-le couché sur le dos."
+   },
+   {
+    "nom": "Dos rond / dos creux à quatre pattes",
+    "position_de_depart": "À quatre pattes, mains sous les épaules et genoux sous les hanches.",
+    "mouvement": "Arrondissez lentement tout le dos, puis creusez doucement en ouvrant la poitrine vers l'avant.",
+    "dosage": "10 à 12 répétitions lentes, chaque matin.",
+    "progression": "Enchaînez les mouvements de façon fluide, en augmentant peu à peu l'amplitude.",
+    "erreur_frequente": "Aller trop vite.",
+    "illustration": "Dessin au trait en deux étapes d'une personne à quatre pattes mobilisant doucement la colonne.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder la colonne souple.",
+    "plus_facile": "Faites un plus petit mouvement."
+   },
+   {
+    "nom": "Extension sur le ventre (sphinx)",
+    "position_de_depart": "Allongé sur le ventre, front posé sur les mains.",
+    "mouvement": "Relevez doucement la poitrine en appui sur les avant-bras pour redresser le dos et étirer l'avant des hanches. Tenez 20 à 30 secondes.",
+    "dosage": "3 répétitions, 1 à 2 fois par jour.",
+    "progression": "Restez quelques minutes allongé à plat sur le ventre chaque jour, si c'est toléré.",
+    "erreur_frequente": "Forcer dans une douleur vive.",
+    "illustration": "Dessin au trait d'une personne allongée sur le ventre en appui sur les avant-bras.",
+    "phase": "Dès maintenant",
+    "but": "Pour redresser le dos.",
+    "plus_facile": "Restez simplement à plat ventre."
+   },
+   {
+    "nom": "Rotations douces du tronc assis",
+    "position_de_depart": "Assis droit sur une chaise, bras croisés sur la poitrine.",
+    "mouvement": "Tournez doucement les épaules vers la droite, puis vers la gauche, en vous grandissant et en gardant le bassin stable. N'allez pas plus loin que ce qui est confortable.",
+    "dosage": "8 répétitions de chaque côté, 1 à 2 fois par jour.",
+    "progression": "Tenez 5 secondes de chaque côté en respirant profondément.",
+    "erreur_frequente": "Tourner le bassin sur la chaise ou forcer en fin de mouvement.",
+    "illustration": "Dessin au trait d'une personne assise tournant doucement le buste d'un côté puis de l'autre.",
+    "phase": "Dès maintenant",
+    "but": "Pour garder la rotation du tronc.",
+    "plus_facile": "Faites un plus petit mouvement."
+   }
+  ],
+  "references": [
+   {
+    "texte": "Ramiro S et al., Ann Rheum Dis, 2023",
+    "doi_ou_pmid": "PMID: 36270658"
+   },
+   {
+    "texte": "Regnaux JP et al., Cochrane Database Syst Rev, 2019",
+    "doi_ou_pmid": "PMID: 31578051"
+   }
+  ]
+ }
+]
