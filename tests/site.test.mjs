@@ -645,7 +645,16 @@ async function entrainement(nav) {
     verifier("Entraînement : « Question suivante » montre la carte 2", /Question 2/.test((await etatJeu(p)).position), await etatJeu(p));
     // Série parfaite : on répond jusqu'à la première erreur, le record est gardé.
     await p.click("#en-quitter"); await p.click("#en-changer"); await p.click('[data-mode="serie"]');
-    for (let i = 0; i < 60 && (await etatJeu(p)).ecran === "partie"; i++) { await p.keyboard.press(["1", "2", "3"][i % 3]); await p.waitForTimeout(2400); }
+    // Hors contre-la-montre, l'explication reste jusqu'au bouton (ou Entrée) ; le dernier bouton mène au bilan.
+    await p.keyboard.press("1"); await p.waitForSelector(".en-verdict"); await p.waitForTimeout(3500);
+    const reste = await p.evaluate(() => ({ verdict: !!document.querySelector(".en-verdict"), bouton: !document.querySelector("#en-suivante").hidden, ecran: document.body.dataset.ecran }));
+    verifier("Entraînement : hors contre-la-montre, l'explication reste affichée (3,5 s après) jusqu'au bouton", reste.verdict && reste.bouton && reste.ecran === "partie", reste);
+    let dernier = await p.textContent("#en-suivante"); await p.keyboard.press("Enter"); await p.waitForTimeout(150);
+    for (let i = 1; i < 60 && (await etatJeu(p)).ecran === "partie"; i++) {
+      await p.keyboard.press(["1", "2", "3"][i % 3]); await p.waitForSelector("#en-suivante:not([hidden])");
+      dernier = await p.textContent("#en-suivante"); await p.keyboard.press("Enter"); await p.waitForTimeout(150);
+    }
+    verifier("Entraînement : à la fin de la série, le bouton devient « Voir le bilan »", /Voir le bilan/.test(dernier), dernier);
     const sr = await p.evaluate(() => ({ ecran: document.body.dataset.ecran, sur: document.querySelector("#en-res-sur").textContent, rec: JSON.parse(localStorage.getItem("morand-entrainement-v1")).records.serie }));
     verifier("Entraînement : la série parfaite s'arrête à la première erreur et garde le record", sr.ecran === "resultats" && /Série parfaite/.test(sr.sur) && sr.rec && sr.rec.valeur >= 0, sr);
     verifier("Entraînement : résultats sans débordement ni erreur", !(await deborde(p)) && !erreurs.length, erreurs);
@@ -675,7 +684,9 @@ async function entrainement(nav) {
     const { ctx, p } = await ouvrir(nav, "/entrainement/", { largeur: 390 });
     await p.click('[data-mode="defi"]'); await p.waitForSelector("#en-partie:not([hidden])");
     const pos = (await etatJeu(p)).position;
-    for (let i = 0; i < 12 && (await etatJeu(p)).ecran === "partie"; i++) { await p.keyboard.press("1"); await p.waitForTimeout(2300); }
+    for (let i = 0; i < 12 && (await etatJeu(p)).ecran === "partie"; i++) {
+      await p.keyboard.press("1"); await p.waitForSelector("#en-suivante:not([hidden])"); await p.keyboard.press("Enter"); await p.waitForTimeout(150);
+    }
     const d = await p.evaluate(() => ({ ecran: document.body.dataset.ecran, lead: document.querySelector("#en-res-lead").textContent, n: document.querySelector(".en-stat:nth-child(3) .en-stat-val").textContent }));
     await p.click("#en-changer");
     const fait = await p.textContent('[data-record="defi"]');

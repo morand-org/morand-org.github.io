@@ -98,7 +98,8 @@
   /* ---------- Partie ---------- */
   let partie = null, conf = null, carteDebut = 0, attente = null, chrono = null, verrou = false, derniere = null;
   const minuteur = { restant: 0, depuis: 0, marche: false };
-  const delai = juste => (conf.mode === "chrono" ? (juste ? J.CONFIG.delais.chronoBonne : J.CONFIG.delais.chronoErreur) : juste ? J.CONFIG.delais.bonne : J.CONFIG.delais.erreur);
+  // Passage automatique : contre-la-montre seulement. Ailleurs, l'explication reste jusqu'à « Question suivante » (ou Entrée).
+  const delai = juste => (juste ? J.CONFIG.delais.chronoBonne : J.CONFIG.delais.chronoErreur);
 
   async function demarrer(mode, options = {}) {
     let cartes, ordre = null;
@@ -182,10 +183,12 @@
     $("#en-score").textContent = r.score.toLocaleString("fr-CA");
     $("#en-serie").textContent = `Série ${r.serie}`;
     afficherRetour(c, r, choix);
-    const court = conf.mode !== "libre";
-    if (court && !r.fini) attente = setTimeout(suivante, delai(r.juste));
-    else if (r.fini) attente = setTimeout(fin, delai(r.juste) + 300);
-    else { $("#en-suivante").hidden = false; $("#en-suivante").focus({ preventScroll: true }); }
+    if (conf.mode === "chrono") attente = r.fini ? setTimeout(fin, delai(r.juste) + 300) : setTimeout(suivante, delai(r.juste));
+    else {
+      const b = $("#en-suivante");
+      b.querySelector(".en-suivante-texte").textContent = r.fini ? "Voir le bilan" : "Question suivante";
+      b.hidden = false; b.focus({ preventScroll: true });
+    }
   }
 
   function donneesHtml(c) {
@@ -263,7 +266,7 @@
   /* ---------- Événements ---------- */
   document.addEventListener("click", e => {
     const t = e.target.closest("button");
-    if (!t) { if (e.target.closest("#en-retour") && attente && conf && conf.mode !== "libre") { clearTimeout(attente); partie.finie ? fin() : suivante(); } return; }
+    if (!t) { if (e.target.closest("#en-retour") && attente && conf && conf.mode === "chrono") { clearTimeout(attente); partie.finie ? fin() : suivante(); } return; }
     if (t.dataset.mode && !t.disabled) { demarrer(t.dataset.mode, { duree: +t.dataset.duree || 0 }); return; }
     if (t.dataset.rep) { repondre(t.dataset.rep); return; }
     if (t.id === "en-suivante") { partie.finie ? fin() : suivante(); return; }
