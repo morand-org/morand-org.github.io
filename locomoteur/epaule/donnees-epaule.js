@@ -112,7 +112,7 @@
         repere: "17 % des diagnostics ; le plus fréquent avant 40 ans ; 24 % chez l'adolescent (cervico-scapulaire) (A, C)" },
       { id: "capsulite", nom: "Capsulite adhésive", n: "capsulite adhésive", base: [[12, .001], [35, .02], [45, .08], [55, .1], [65, .06], [80, .03]], sexe: { F: 1.4, M: .7 },
         repere: "2,4/1 000/an ; prévalence 2–5 % (10–35 % chez le diabétique) ; surtout entre 40 et 70 ans (A, C)" },
-      { id: "ac_entorse", nom: "Entorse ou disjonction acromio-claviculaire", n: "entorse acromio-claviculaire", base: [[12, .04], [18, .08], [30, .06], [50, .03], [70, .02]], sexe: { M: 2, F: .5 },
+      { id: "ac_entorse", nom: "Entorse ou luxation acromio-claviculaire", n: "entorse acromio-claviculaire", base: [[12, .04], [18, .08], [30, .06], [50, .03], [70, .02]], sexe: { M: 2, F: .5 },
         repere: "11 % des traumatismes aigus ; 25,6 % des lésions d'épaule NCAA, 41,2 % en sport de collision (A, C)" },
       { id: "rupture", nom: "Rupture transfixiante de la coiffe", n: "rupture transfixiante de la coiffe", base: [[12, .002], [40, .02], [55, .06], [65, .12], [75, .2], [85, .25]],
         repere: "Environ 30 % après 70 ans, la moitié asymptomatique ; 10,7 % à 50–59 ans, 36,6 % après 80 ans (A, C)" },

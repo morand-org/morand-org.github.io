@@ -74,24 +74,11 @@ if ("serviceWorker" in navigator) addEventListener("load", () => { navigator.ser
   if (annee) annee.addEventListener("click", () => { location.href = "/merci/"; });
 })();
 
-/* « Nouveautés » (en-tête sur ordinateur, pied sur téléphone) : la fenêtre des dernières mises à jour. */
-(() => {
-  const d = document.getElementById("nouveautes");
-  if (!d || typeof d.showModal !== "function") { document.querySelectorAll("[data-nouveautes]").forEach(b => { b.hidden = true; }); return; }
-  let source = null;
-  document.querySelectorAll("[data-nouveautes]").forEach(b => b.addEventListener("click", () => { source = b; d.showModal(); }));
-  d.querySelector(".nouveautes-fermer").addEventListener("click", () => d.close());
-  d.addEventListener("click", e => { if (e.target === d) d.close(); });   // clic sur le fond
-  d.addEventListener("close", () => { if (source) source.focus(); });
-})();
-
-/* Recherche : ⌘K (Mac) ou Ctrl K place le curseur dans le champ ; les recherches fréquentes remplissent le champ et
+/* Recherche : ⌘K (Mac) ou Ctrl K place le curseur dans le champ (raccourci discret, sans pastille) ; les recherches fréquentes remplissent le champ et
    lancent la recherche (recherche.js écoute la saisie). */
 (() => {
   const q = document.getElementById("rg-q");
   if (!q) return;
-  const mac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent), k = document.querySelector(".rg-raccourci");
-  if (k && !mac) k.textContent = "Ctrl K";
   addEventListener("keydown", e => { if ((e.metaKey || e.ctrlKey) && !e.altKey && e.key.toLowerCase() === "k") { e.preventDefault(); q.focus(); q.select(); } });
   document.querySelectorAll(".rg-frequentes [data-q]").forEach(b => b.addEventListener("click", () => {
     q.value = b.dataset.q; q.dispatchEvent(new Event("input", { bubbles: true })); q.focus();

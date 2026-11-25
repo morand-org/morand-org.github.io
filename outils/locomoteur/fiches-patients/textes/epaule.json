@@ -248,7 +248,7 @@
  {
   "region": "epaule",
   "id": "ac_entorse",
-  "nom": "Entorse ou disjonction acromio-claviculaire",
+  "nom": "Entorse ou luxation acromio-claviculaire",
   "applicable": true,
   "raison_si_non": "",
   "titre_patient": "Entorse sur le dessus de l'épaule (articulation acromio-claviculaire)",

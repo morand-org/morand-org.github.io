@@ -130,7 +130,7 @@ h1 em { color: var(--or); }
   main:not(.texte) { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 32px; align-content: start; }
   main:not(.texte) > h1 { grid-column: 1; grid-row: 1; }
   main > .outils, main > .rg, main > .rg-etat, main > .rg-res { grid-column: 1 / -1; }
-  .rg { margin: 0 0 clamp(14px, 2.6vh, 28px); max-width: 1000px; --rg-haut: clamp(54px, 7.4vh, 70px); --rg-coin: 18px; --rg-marge: 7px; }
+  .rg { margin: 0 0 clamp(14px, 2.6vh, 28px); --rg-haut: clamp(54px, 7.4vh, 70px); --rg-coin: 18px; --rg-marge: 7px; }
   .rg-etat { margin: -6px 0 16px; }
   .rg-res { columns: 2; column-gap: 48px; }
   .rg-groupe { break-inside: avoid; }
@@ -221,17 +221,15 @@ html.avec-ouverture body::after { content: ""; position: fixed; inset: 0; z-inde
     --ombre: 0 4px 20px -4px rgba(0, 0, 0, 0.4); --ombre-survol: 0 14px 28px -8px rgba(0, 0, 0, 0.55);
   }
 }
-/* En-tête : le nom, « Nouveautés » (point doré) sur ordinateur, la rubrique. */
+/* En-tête : le nom, les liens Quiz et Morandle sur ordinateur, la rubrique. */
 .accueil .tete { align-items: center; }
 .accueil .marque { font: 500 16px/1 var(--police-titre); letter-spacing: 0.32em; }
 .tete-nav { display: none; }
-.tete-lien, .pied-nouveautes { position: relative; border: 0; background: none; cursor: pointer; text-transform: uppercase; }
+.tete-lien { position: relative; border: 0; background: none; cursor: pointer; text-transform: uppercase; }
 .tete-lien { padding: 10px 2px; color: var(--encre-2); font: 500 11px/1 var(--police); letter-spacing: 0.16em; transition: color 0.2s; }
-.tete-lien:hover, .pied-nouveautes:hover { color: var(--or); }
-.tete-lien:focus-visible, .pied-nouveautes:focus-visible, .rg-frequentes button:focus-visible, .nouveautes-fermer:focus-visible { outline: 2px solid var(--or-deco); outline-offset: 2px; }
-.a-point::after { content: ""; position: absolute; top: 6px; right: -8px; width: 5px; height: 5px; border-radius: 50%; background: var(--or-deco); }
+.tete-lien:hover { color: var(--or); }
+.tete-lien:focus-visible, .rg-frequentes button:focus-visible { outline: 2px solid var(--or-deco); outline-offset: 2px; }
 a.tete-lien { text-decoration: none; }
-.nouveautes li a { color: inherit; text-decoration: underline; text-decoration-color: var(--or-deco); text-underline-offset: 3px; }
 @media (min-width: 720px) { .tete-nav { display: flex; gap: 26px; margin-left: auto; } .accueil .tete .rubrique { margin-left: 32px; } }
 /* Titre : Cormorant, un peu plus grand (petit œil), l'italique dorée. */
 .accueil h1 { font-weight: 400; letter-spacing: -0.01em; }
@@ -245,9 +243,11 @@ a.tete-lien { text-decoration: none; }
 .accueil .rg input { border-color: var(--or-bord); box-shadow: 0 6px 24px -6px rgba(25, 43, 33, 0.08); }
 .accueil .rg input:focus { border-color: var(--or-deco); box-shadow: 0 8px 28px -6px rgba(158, 131, 78, 0.22); }
 .accueil .rg-loupe { stroke: var(--or-deco); }
-.accueil .rg-bouton:hover { background: #263e31; }
-@media (prefers-color-scheme: dark) { .accueil .rg input { box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35); } .accueil .rg-bouton:hover { background: var(--or); } }
-.rg-raccourci { display: none; }
+/* « Chercher » en vert forêt foncé. */
+.accueil .rg-bouton { background: #1f4a33; color: #ffffff; }
+@media (hover: hover) { .accueil .rg-bouton:hover { background: #153424; } }
+@media (prefers-color-scheme: dark) { .accueil .rg input { box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35); } .accueil .rg-bouton { background: #2e6a4a; } }
+@media (prefers-color-scheme: dark) and (hover: hover) { .accueil .rg-bouton:hover { background: #3a7d59; } }
 /* Recherches fréquentes : des pastilles qui lancent la recherche. */
 .rg-frequentes { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: -14px 0 24px; font: 400 11.5px/1 var(--police); color: var(--discret); }
 .rg-frequentes span { margin-right: 2px; }
@@ -257,21 +257,9 @@ a.tete-lien { text-decoration: none; }
 /* Cartes : la catégorie et « Mis à jour » seulement sur grand écran (cartes) ; ailleurs, la liste reste sobre. */
 .cat, .maj { display: none; }
 .accueil .outils a:hover .nom { color: var(--encre); }
-/* Pied : « Montérégie · Édition 2026 » au centre sur ordinateur ; sur téléphone, « Nouveautés » prend sa place. */
+/* Pied : « Montérégie · Édition 2026 » au centre sur ordinateur. */
 .pied-centre { display: none; }
-.pied-nouveautes { padding: 14px 10px 14px 0; color: var(--discret); font: inherit; letter-spacing: inherit; }
-.pied-nouveautes.a-point::after { top: 11px; right: 2px; }
-@media (min-width: 720px) { .pied-nouveautes { display: none; } .pied-centre { display: inline; color: var(--encre-2); opacity: 0.85; } }
-/* Fenêtre « Nouveautés ». */
-.nouveautes { width: calc(100% - 32px); max-width: 480px; padding: 28px 28px 22px; border: 1px solid var(--or-bord); border-radius: 16px; background: var(--champ); color: var(--encre);
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.16); }
-.nouveautes::backdrop { background: rgba(25, 43, 33, 0.45); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); }
-.nouveautes h2 { margin: 0 0 12px; font: 500 26px/1.1 var(--police-titre); }
-.nouveautes ul { list-style: none; margin: 0; padding: 0; }
-.nouveautes li { padding: 12px 0; border-top: 1px solid var(--filet); font: 400 0.9rem/1.5 var(--police); color: var(--encre-2); }
-.nv-date { display: block; margin-bottom: 2px; font: 500 10px/1.4 var(--police); letter-spacing: 0.16em; text-transform: uppercase; color: var(--or); }
-.nouveautes-fermer { position: absolute; top: 10px; right: 12px; width: 40px; height: 40px; border: 0; background: none; color: var(--discret); font: 300 26px/1 var(--police); cursor: pointer; }
-.nouveautes-fermer:hover { color: var(--encre); }
+@media (min-width: 720px) { .pied-centre { display: inline; color: var(--encre-2); opacity: 0.85; } }
 
 /* Téléphone : les recherches fréquentes tiennent sur une ligne qui défile ; cachées sur un écran bas. */
 @media (max-width: 719px) {
@@ -317,9 +305,6 @@ a.tete-lien { text-decoration: none; }
   main > .rg-frequentes { grid-column: 1; margin: calc(-1 * clamp(6px, 1.4vh, 16px)) 0 clamp(14px, 2.6vh, 28px); }
   main > .promo { grid-column: 2; justify-self: end; align-self: start; margin: calc(-1 * clamp(6px, 1.4vh, 16px)) 0 clamp(14px, 2.6vh, 28px); }
   .promo a { min-height: 34px; }
-  .rg-raccourci { display: inline-flex; align-items: center; position: absolute; top: 50%; right: calc(var(--rg-marge) + 134px); transform: translateY(-50%); padding: 3px 7px;
-    border: 1px solid var(--filet-carte); border-radius: 6px; background: var(--papier); color: var(--encre-2); font: 500 11px/1.2 var(--police); letter-spacing: 0.04em; pointer-events: none; }
-  .accueil .rg input { padding-right: 210px; }
   .accueil .outils { gap: clamp(12px, 2vh, 20px); }
   .accueil .outils a { position: relative; background: var(--carte); border: 1px solid var(--filet-carte); border-radius: 14px; box-shadow: var(--ombre);
     transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s, background-color 0.25s, border-color 0.25s; }
