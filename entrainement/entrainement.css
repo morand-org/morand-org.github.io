@@ -185,3 +185,6 @@ body:not([data-mode="libre"]) .en-retour .en-explication { display: -webkit-box;
   .en-puce { padding: 3px 6px; }
 }
 @media (max-width: 380px) { .en-rep { font-size: 10.5px; letter-spacing: 0.05em; min-height: 70px; } }
+/* Lien vers Morandle, sous les modes. */
+.en-aussi { margin: 16px 0 0; font: 500 0.84rem/1.4 var(--sans); color: var(--en-sur); text-align: center; }
+.en-aussi a { color: var(--en-cypres-fonce); text-underline-offset: 3px; }

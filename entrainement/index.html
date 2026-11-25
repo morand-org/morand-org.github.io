@@ -6,7 +6,7 @@
 <script src="/morand/plein-ecran.js"></script>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <title>Entraînement clinique | Morand</title>
 <meta name="description" content="Entraînement au raisonnement clinique probabiliste : la trouvaille augmente-t-elle, laisse-t-elle neutre ou diminue-t-elle la probabilité du diagnostic ?">
 <meta name="theme-color" content="#d0dbd3" media="(prefers-color-scheme: light)">
@@ -44,7 +44,7 @@
       <p class="en-sur">Raisonnement clinique</p>
       <h1 class="en-titre" id="en-titre">Entraînement probabiliste</h1>
       <p class="en-lead">Pour chaque trouvaille clinique, décidez vite si elle <strong>augmente</strong>, laisse <strong>neutre</strong> ou <strong>diminue</strong> la probabilité du diagnostic ciblé.</p>
-      <p class="en-avis" id="en-avis">Prototype. Les cartes viennent de la base de données MSK du Dr Morand (références à l'appui) et sont en cours de relecture : elles ne remplacent pas le jugement clinique.</p>
+      <p class="en-avis" id="en-avis">Les cartes viennent de la base de données MSK du Dr Morand, références à l'appui ; leur relecture se poursuit. Elles ne remplacent pas le jugement clinique.</p>
 
       <div class="en-filtre">
         <label for="en-region">Région</label>
@@ -85,6 +85,8 @@
           <span class="en-mode-record" data-record="erreurs"></span>
         </button>
       </div>
+
+      <p class="en-aussi">Un cas par jour, six indices : <a href="/locomoteur/morandle/">jouer à Morandle</a></p>
 
       <details class="en-progression" id="en-progression">
         <summary>Votre progression</summary>

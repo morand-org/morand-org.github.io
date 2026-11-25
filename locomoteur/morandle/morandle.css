@@ -98,3 +98,6 @@
   .ml-essai { grid-template-columns: 22px 1fr; }
   .ml-essai-m { grid-column: 2; }
 }
+/* Lien vers le quiz, en fin de partie. */
+.ml-aussi { margin: 6px 0 0; font: 400 0.82rem var(--sans); color: var(--discret); }
+.ml-aussi a { color: inherit; text-underline-offset: 3px; }

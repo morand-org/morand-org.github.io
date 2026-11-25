@@ -229,7 +229,9 @@ html.avec-ouverture body::after { content: ""; position: fixed; inset: 0; z-inde
 .tete-lien:hover, .pied-nouveautes:hover { color: var(--or); }
 .tete-lien:focus-visible, .pied-nouveautes:focus-visible, .rg-frequentes button:focus-visible, .nouveautes-fermer:focus-visible { outline: 2px solid var(--or-deco); outline-offset: 2px; }
 .a-point::after { content: ""; position: absolute; top: 6px; right: -8px; width: 5px; height: 5px; border-radius: 50%; background: var(--or-deco); }
-@media (min-width: 720px) { .tete-nav { display: flex; margin-left: auto; } .accueil .tete .rubrique { margin-left: 32px; } }
+a.tete-lien { text-decoration: none; }
+.nouveautes li a { color: inherit; text-decoration: underline; text-decoration-color: var(--or-deco); text-underline-offset: 3px; }
+@media (min-width: 720px) { .tete-nav { display: flex; gap: 26px; margin-left: auto; } .accueil .tete .rubrique { margin-left: 32px; } }
 /* Titre : Cormorant, un peu plus grand (petit œil), l'italique dorée. */
 .accueil h1 { font-weight: 400; letter-spacing: -0.01em; }
 .accueil h1 em { font-weight: 400; color: var(--or-deco); }
