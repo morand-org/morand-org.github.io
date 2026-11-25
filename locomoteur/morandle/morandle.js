@@ -11,6 +11,16 @@
   const pad = n => String(n).padStart(2, "0");
   const jourLocal = (d = new Date()) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   const utc = j => { const [a, m, d] = j.split("-").map(Number); return Date.UTC(a, m - 1, d); };
+  // Heure de l'Est (Montréal, heure avancée comprise) : le nouveau cas paraît chaque matin à 7 h, pour tout le monde.
+  const est = () => {
+    const p = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: "America/Toronto", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" })
+      .formatToParts(new Date()).map(x => [x.type, x.value]));
+    return { jour: `${p.year}-${p.month}-${p.day}`, h: +p.hour % 24, m: +p.minute };
+  };
+  const numeroDuJour = (debut, heure) => { const t = est(); return Math.round((utc(t.jour) - utc(debut)) / 864e5) + (t.h >= heure ? 1 : 0); };
+  const attente = heure => { const t = est(), m = (((heure * 60 - (t.h * 60 + t.m)) % 1440) + 1440) % 1440 || 1440; return m >= 60 ? `${Math.floor(m / 60)} h ${pad(m % 60)}` : `${m} min`; };
+  // Les cas sont brouillés dans donnees.json (voir outils/locomoteur/morandle.mjs) ; on ne décode que ceux qu'on montre.
+  const debrouiller = (s, i) => { const b = Uint8Array.from(atob(s), c => c.charCodeAt(0)), k = `morandle-${i}`; for (let j = 0; j < b.length; j++) b[j] ^= k.charCodeAt(j % k.length) ^ ((j * 131) & 255); return JSON.parse(new TextDecoder().decode(b)); };
   const dateDu = (debut, n) => { const d = new Date(utc(debut) + (n - 1) * 864e5); return d.toLocaleDateString("fr-CA", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }); };
   const lireLS = (k, defaut) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : defaut; } catch (e) { return defaut; } };
   const ecrireLS = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* stockage indisponible : la partie reste en mémoire */ } };
@@ -21,7 +31,9 @@
   if (params.has("editeur")) { if (params.get("editeur") === "0") ecrireLS(CLE_ED, false); else ecrireLS(CLE_ED, true); }
   const editeur = lireLS(CLE_ED, false) === true;
 
-  let D, cas, numero, cle, partie, diag, actif = -1, jour = 0;
+  let D, cas, numero, cle, partie, diag, actif = -1, jour = 0, tousLesCas = null;
+  const casNo = n => debrouiller(D.cas[(n - 1) % D.cas.length], (n - 1) % D.cas.length);
+  const lesCas = () => tousLesCas || (tousLesCas = D.cas.map(debrouiller));
   // v1 (25 novembre 2026, premier jour) : le cas du jour était le n° 1 ; depuis l'ajout des 12 cas d'archives, c'est le n° 13.
   const renumeroter = (m, k) => {
     const parties = {};
@@ -34,14 +46,12 @@
 
   fetch("/locomoteur/morandle/donnees.json", { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d; diag = new Map(D.diagnostics.map(x => [norm(x.n), x]));
-    const jouables = D.cas.filter(c => c.statut !== "retiree");
-    const aujourdhui = Math.max(1, Math.round((utc(jourLocal()) - utc(D.debut)) / 864e5) + 1); jour = aujourdhui;
+    const aujourdhui = Math.max(1, numeroDuJour(D.debut, D.heure)); jour = aujourdhui;
     const n = parseInt(params.get("n"), 10), code = params.get("cas");
-    if (editeur && code && D.cas.some(c => c.code === code)) { cas = D.cas.find(c => c.code === code); numero = null; cle = `cas-${code}`; }
-    else { numero = n >= 1 && n <= aujourdhui ? n : aujourdhui; cas = jouables[(numero - 1) % jouables.length]; cle = `n${numero}`; }
+    if (editeur && code && lesCas().some(c => c.code === code)) { cas = lesCas().find(c => c.code === code); numero = null; cle = `cas-${code}`; }
+    else { numero = n >= 1 && n <= aujourdhui ? n : aujourdhui; cas = casNo(numero); cle = `n${numero}`; }
     partie = memoire.parties[cle] || { essais: [], fini: false, gagne: false };
     $("#ml-numero").textContent = numero ? `Cas n° ${numero} · ${dateDu(D.debut, numero)}${numero < aujourdhui ? " (cas précédent)" : ""}` : `Cas ${cas.code} (mode éditeur)`;
-    const st = $("#ml-statut"); st.hidden = cas.statut === "validee"; st.textContent = cas.statut === "retiree" ? "Retiré" : "En révision";
     archives(aujourdhui); rendre(); stats();
     if (editeur) editeurRendre();
   }).catch(() => { $("#ml-numero").textContent = "Le cas n'a pas pu être chargé. Vérifiez la connexion, puis rechargez la page."; });
@@ -136,7 +146,7 @@
     if (cas.patient) { const p = el("a", "lo-lien", "Fiche patient (PDF)"); p.href = cas.patient.u; liens.appendChild(p); }
     const ex = $("#ml-explication"); ex.textContent = "";
     for (const [t, x] of [["Présentation clinique", cas.presentation], ["Examen physique", cas.examen]]) if (x) { ex.append(el("h3", null, t), el("p", null, x)); }
-    $("#ml-demain").textContent = numero ? "Un nouveau cas chaque jour, à minuit." : "";
+    $("#ml-demain").textContent = numero ? `Prochain cas à 7 h (heure de l'Est), dans ${attente(D.heure)}.` : "";
   }
   $("#ml-partager").addEventListener("click", () => {
     const k = partie.gagne ? partie.essais.length : "X";
@@ -188,7 +198,7 @@
   function editeurRendre() {
     $("#ml-editeur").hidden = false;
     const dec = lireLS(CLE_DEC, {}), ol = $("#ml-editeur-liste"); ol.textContent = "";
-    D.cas.forEach(c => {
+    lesCas().forEach(c => {
       const li = el("li", "ml-ed-cas"), d = dec[c.code];
       const h = el("h3"); const a = el("a", null, `${c.code} · ${c.nom}`); a.href = `?cas=${encodeURIComponent(c.code)}`; h.append(a, el("span", "ml-ed-r", D.regions[c.r] || c.r));
       const ind = el("ol", "ml-ed-indices"); c.indices.forEach(t => ind.appendChild(el("li", null, t)));
@@ -200,6 +210,11 @@
     compte();
   }
   function compte() { const d = Object.values(lireLS(CLE_DEC, {})); $("#ml-editeur-compte").textContent = ` ${d.filter(x => x.statut === "validee").length} validé(s), ${d.filter(x => x.statut === "signalee").length} signalé(s) sur ${D.cas.length}`; }
+  // Page restée ouverte : au retour après 7 h (heure de l'Est), on charge le nouveau cas, sauf pendant une partie.
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden || !D || !numero || params.has("n")) return;
+    if (Math.max(1, numeroDuJour(D.debut, D.heure)) !== jour && (partie.fini || !partie.essais.length)) location.reload();
+  });
   document.addEventListener("click", e => {
     const b = e.target.closest("[data-statut]"); if (!b) return;
     const dec = lireLS(CLE_DEC, {}), code = b.dataset.code, deja = dec[code] && dec[code].statut === b.dataset.statut;

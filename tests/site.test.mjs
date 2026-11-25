@@ -31,11 +31,12 @@ const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
-async function ouvrir(nav, chemin, { largeur = 390, hauteur = 844, sombre = false, stockage = null, userAgent } = {}) {
+async function ouvrir(nav, chemin, { largeur = 390, hauteur = 844, sombre = false, stockage = null, userAgent, horloge = null } = {}) {
   const ctx = await nav.newContext({ viewport: { width: largeur, height: hauteur }, serviceWorkers: "block", colorScheme: sombre ? "dark" : "light", ...(userAgent ? { userAgent, isMobile: true, hasTouch: true } : {}) });
   await ctx.addInitScript(s => { try { sessionStorage.setItem("morand.ouverture", "1"); if (s) for (const [k, v] of Object.entries(s)) localStorage.setItem(k, v); } catch (e) { /* stockage indisponible */ } }, stockage);
   await ctx.route("**/*", r => r.request().url().startsWith(BASE) ? r.continue() : r.abort());
   const p = await ctx.newPage(), erreurs = [];
+  if (horloge) await p.clock.setFixedTime(new Date(horloge));   // heure figée (Date seulement ; les minuteries tournent)
   // Les appels bloqués vers d'autres sites (fond de carte) ne comptent pas comme des erreurs de la page.
   const dehors = t => /Failed to fetch|Failed to load resource|ERR_FAILED|net::|AJAXError/.test(t);
   p.on("pageerror", e => { if (!dehors(String(e))) erreurs.push(String(e)); });
@@ -753,10 +754,14 @@ async function atlas(nav) {
    à la série ; une partie de la version 1 (cas n° 1 le 25 novembre) passe au n° 13 ; le mode éditeur liste tous les cas ;
    Morandle est mis en avant à l'accueil et dans le hub MSK. */
 async function morandle(nav) {
-  const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/morandle/", { largeur: 390 });
+  // Le 25 novembre 2026 à 10 h, heure de l'Est : le cas n° 13 est paru à 7 h.
+  const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/morandle/", { largeur: 390, horloge: "2026-11-25T15:00:00Z" });
   await p.waitForSelector(".ml-indice");
-  const d = await p.evaluate(() => fetch("/locomoteur/morandle/donnees.json").then(r => r.json()));
-  const jouables = d.cas.filter(x => x.statut !== "retiree"), numero = +(await p.textContent("#ml-numero")).match(/n° (\d+)/)[1];
+  const brut = lire("locomoteur/morandle/donnees.json"), d = JSON.parse(brut);
+  const debrouiller = (x, i) => { const b = Buffer.from(x, "base64"), k = `morandle-${i}`; for (let j = 0; j < b.length; j++) b[j] ^= k.charCodeAt(j % k.length) ^ ((j * 131) & 255); return JSON.parse(b.toString("utf8")); };
+  const jouables = d.cas.map(debrouiller), numero = +(await p.textContent("#ml-numero")).match(/n° (\d+)/)[1];
+  verifier("Morandle : cas brouillés dans donnees.json (aucun indice ni explication lisible), sans pastille « En révision »",
+    d.cas.every(x => typeof x === "string") && !/"indices"|consulte|"presentation"/.test(brut) && !(await p.$("#ml-statut")) && jouables.every(x => x.indices.length === 6));
   const c = jouables[(numero - 1) % jouables.length], voisin = d.diagnostics.find(x => x.r === c.r && !c.accepte.includes(x.c));
   const debut = await p.evaluate(() => ({ vus: document.querySelectorAll(".ml-indice:not(.ml-cache)").length, total: document.querySelectorAll(".ml-indice").length, robots: document.querySelector('meta[name="robots"]').content }));
   await p.fill("#ml-q", "pas un diagnostic"); await p.click("#ml-bouton");
@@ -772,7 +777,7 @@ async function morandle(nav) {
   // Archives : 12 cas avant le 25 novembre ; gagner un cas précédent compte dans les statistiques, pas dans la série.
   const arch = await p.evaluate(() => ({ n: document.querySelectorAll("#ml-archives-liste a").length, titre: document.querySelector("#ml-archives summary h2").textContent,
     premier: !!document.querySelector('#ml-archives-liste a[href="?n=1"]') }));
-  verifier("Morandle : 12 cas d'archives (n° 1 à 12, 13 au 24 novembre), le cas du 25 novembre est le n° 13", d.archives === 12 && d.debut === "2026-11-13" && arch.n === numero - 1 && arch.n >= 12 && arch.premier && /\(\d+\)/.test(arch.titre)
+  verifier("Morandle : 12 cas d'archives (n° 1 à 12, 13 au 24 novembre), le cas du 25 novembre est le n° 13", d.archives === 12 && d.debut === "2026-11-13" && numero === 13 && arch.n === 12 && arch.premier && /\(\d+\)/.test(arch.titre)
     && jouables[12].code === "C12", { ...arch, numero, archives: d.archives, debut: d.debut });
   await p.goto(`${BASE}/locomoteur/morandle/?n=1`); await p.waitForSelector(".ml-indice");
   const t1 = await p.textContent("#ml-numero");
@@ -782,11 +787,17 @@ async function morandle(nav) {
   await p.goto(`${BASE}/locomoteur/morandle/?editeur=1`); await p.waitForSelector(".ml-ed-cas");
   verifier("Morandle : le mode éditeur liste tous les cas", (await p.evaluate(() => document.querySelectorAll(".ml-ed-cas").length)) === d.cas.length);
   await ctx.close();
+  // Bascule à 7 h, heure de l'Est (heure normale en novembre, heure avancée en juillet).
+  const noA = async h => { const { ctx, p } = await ouvrir(nav, "/locomoteur/morandle/", { horloge: h }); await p.waitForSelector(".ml-indice"); const t = await p.textContent("#ml-numero"); await ctx.close(); return t; };
+  const jours = j => Math.round((Date.UTC(...j.split("-").map((x, i) => i === 1 ? x - 1 : +x)) - Date.UTC(2026, 10, 13)) / 864e5);
+  const [a659, a701, e659, e701] = await Promise.all(["2026-11-26T11:59:00Z", "2026-11-26T12:01:00Z", "2027-07-01T10:59:00Z", "2027-07-01T11:01:00Z"].map(noA));
+  verifier("Morandle : le nouveau cas paraît à 7 h, heure de l'Est (6 h 59 : cas de la veille ; 7 h 01 : nouveau cas), heure normale et heure avancée",
+    /n° 13 · 25 novembre/.test(a659) && /n° 14 · 26 novembre/.test(a701) && new RegExp(`n° ${jours("2027-07-01")} · 30 juin`).test(e659) && new RegExp(`n° ${jours("2027-07-01") + 1} · 1 juillet`).test(e701), { a659, a701, e659, e701 });
   {
     // Version 1 : la partie du cas n° 1 (25 novembre) devient celle du n° 13.
     const v1 = JSON.stringify({ parties: { n1: { essais: [{ t: "faux", c: "X", n: "X" }], fini: true, gagne: false } },
       stats: { joues: 1, gagnes: 0, serie: 0, meilleure: 0, dernier: 0, dist: [0, 0, 0, 0, 0, 0, 1], comptes: [1] } });
-    const { ctx, p } = await ouvrir(nav, "/locomoteur/morandle/?n=13", { largeur: 390, stockage: { "morandle-v1": v1 } });
+    const { ctx, p } = await ouvrir(nav, "/locomoteur/morandle/?n=13", { largeur: 390, stockage: { "morandle-v1": v1 }, horloge: "2026-11-25T15:00:00Z" });
     await p.waitForSelector(".ml-indice");
     const v2 = await p.evaluate(() => ({ m: JSON.parse(localStorage.getItem("morandle-v2")), fini: !document.querySelector("#ml-fin").hidden }));
     verifier("Morandle : une partie de la version 1 (n° 1) est reprise comme n° 13", v2.fini && v2.m.parties.n13 && !v2.m.parties.n1 && v2.m.stats.comptes.join() === "13", v2.m);
