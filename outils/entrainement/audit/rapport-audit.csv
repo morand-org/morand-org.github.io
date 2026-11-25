@@ -394,7 +394,7 @@ Rachis lombaire et dorsal;Retirée;;Syndrome facettaire lombaire;Critères de Re
 Épaule;1 Essentielle;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Arc douloureux absent;↓ Diminue;Anamnèse;Base des flashcards;;;;MSK-034-02
 Épaule;1 Essentielle;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Rotation externe résistée douloureuse ou faible;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-034-07
 Épaule;1 Essentielle;Modéré;Douleur sous-acromiale (tendinopathie de la coiffe);Amplitudes passives de l'épaule préservées;↑ Augmente;Examen physique;Nouvelle (Fiche résumée E1 (présentation clinique));;;;MSK-EPAU-E01-03
-Épaule;1 Essentielle;Léger;Entorse ou disjonction acromio-claviculaire;Chute directe sur le moignon de l'épaule, bras en adduction;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-037-01
+Épaule;1 Essentielle;Léger;Entorse ou luxation acromio-claviculaire;Chute directe sur le moignon de l'épaule, bras en adduction;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-037-01
 Épaule;1 Essentielle;Léger;Fracture de l'humérus proximal;Âge ≥ 60 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-048-01
 Épaule;1 Essentielle;Léger;Fracture de l'humérus proximal;Sexe féminin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-048-02
 Épaule;1 Essentielle;Léger;Fracture de l'humérus proximal;Chute de sa hauteur;↑ Augmente;Anamnèse;Base des flashcards;;;;MSK-048-03
@@ -443,11 +443,11 @@ Rachis lombaire et dorsal;Retirée;;Syndrome facettaire lombaire;Critères de Re
 Épaule;2 Importante;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Neer positif;↔ Neutre;Tests spécifiques;Base des flashcards;;"Test de Neer : on élève passivement le bras tendu, en rotation interne, l'omoplate stabilisée ; positif s'il réveille la douleur.";;MSK-034-05
 Épaule;2 Importante;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Test de Jobe positif;↔ Neutre;Tests spécifiques;Base des flashcards;Test de Jobe;"Test de Jobe (canette vide) : bras à 90° dans le plan de l'omoplate, pouces vers le bas, on résiste à l'élévation ; positif s'il donne douleur ou faiblesse.";;MSK-034-08
 Épaule;2 Importante;Difficile;Douleur sous-acromiale (tendinopathie de la coiffe);Hawkins et Neer tous deux positifs;↔ Neutre;Anamnèse;Base des flashcards;;;;MSK-034-11
-Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-037-02
-Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Sport de contact;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-037-04
-Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Âge de 10 à 30 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-037-05
-Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Clavicule distale saillante (marche d'escalier, touche de piano);↑ Augmente;Anamnèse;Base des flashcards;Marche d'escalier, touche de piano;;;MSK-037-06
-Épaule;2 Importante;Léger;Entorse ou disjonction acromio-claviculaire;Chute à vélo;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée E4 (épidémiologie));;;;MSK-EPAU-E04-01
+Épaule;2 Importante;Léger;Entorse ou luxation acromio-claviculaire;Sexe masculin;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-037-02
+Épaule;2 Importante;Léger;Entorse ou luxation acromio-claviculaire;Sport de contact;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-037-04
+Épaule;2 Importante;Léger;Entorse ou luxation acromio-claviculaire;Âge de 10 à 30 ans;↑ Augmente;Facteurs démographiques;Base des flashcards;;;;MSK-037-05
+Épaule;2 Importante;Léger;Entorse ou luxation acromio-claviculaire;Clavicule distale saillante (marche d'escalier, touche de piano);↑ Augmente;Anamnèse;Base des flashcards;Marche d'escalier, touche de piano;;;MSK-037-06
+Épaule;2 Importante;Léger;Entorse ou luxation acromio-claviculaire;Chute à vélo;↑ Augmente;Facteurs de risque;Nouvelle (Fiche résumée E4 (épidémiologie));;;;MSK-EPAU-E04-01
 Épaule;2 Importante;Léger;Fracture de l'humérus proximal;Âge < 50 ans;↓ Diminue;Facteurs démographiques;Base des flashcards;;;;MSK-048-04
 Épaule;2 Importante;Léger;Fracture de l'humérus proximal;Déformation;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-048-05
 Épaule;2 Importante;Léger;Fracture de l'humérus proximal;Ecchymose humérale;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-048-08
@@ -506,8 +506,8 @@ Rachis lombaire et dorsal;Retirée;;Syndrome facettaire lombaire;Critères de Re
 Épaule;3 Complémentaire;Léger;Dyskinésie scapulaire;Sportif de lancer ou de bras levé;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-039-01
 Épaule;3 Complémentaire;Léger;Dyskinésie scapulaire;Décollement médial accentué par la flexion ou l'appui au mur;↑ Augmente;Examen physique;Base des flashcards;;;;MSK-039-08
 Épaule;3 Complémentaire;Difficile;Dyskinésie scapulaire;Dyskinésie scapulaire chez un sportif sans douleur;↔ Neutre;Anamnèse;Base des flashcards;Présence chez l'asymptomatique;;;MSK-039-02
-Épaule;3 Complémentaire;Léger;Entorse ou disjonction acromio-claviculaire;Contexte sportif;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-037-03
-Épaule;3 Complémentaire;Difficile;Entorse ou disjonction acromio-claviculaire;Tests acromio-claviculaires (adduction horizontale, O'Brien);↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-037-07
+Épaule;3 Complémentaire;Léger;Entorse ou luxation acromio-claviculaire;Contexte sportif;↑ Augmente;Facteurs de risque;Base des flashcards;;;;MSK-037-03
+Épaule;3 Complémentaire;Difficile;Entorse ou luxation acromio-claviculaire;Tests acromio-claviculaires (adduction horizontale, O'Brien);↔ Neutre;Tests spécifiques;Base des flashcards;;;;MSK-037-07
 Épaule;3 Complémentaire;Léger;Épaule du lanceur juvénile;Garçon d'environ 13 ans, lanceur au baseball;↑ Augmente;Facteurs démographiques;Nouvelle (Fiche résumée E18 (épidémiologie));;Épaule du lanceur juvénile : atteinte du cartilage de croissance de l'humérus proximal chez le jeune lanceur.;;MSK-EPAU-E18-01
 Épaule;3 Complémentaire;Difficile;Fracture de l'humérus proximal;Ecchymose humérale absente;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-048-09
 Épaule;3 Complémentaire;Difficile;Fracture de l'humérus proximal;Examen sensitif normal;↔ Neutre;Examen physique;Base des flashcards;;;;MSK-048-10

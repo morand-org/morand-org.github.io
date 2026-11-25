@@ -116,7 +116,7 @@ epaule :
 epaule-sous_acro = Douleur sous-acromiale (tendinopathie de la coiffe)
 epaule-myalgie = Myalgie ou douleur non spécifique
 epaule-capsulite = Capsulite rétractile
-epaule-ac_entorse = Entorse ou disjonction acromio-claviculaire
+epaule-ac_entorse = Entorse ou luxation acromio-claviculaire
 epaule-rupture = Rupture transfixiante de la coiffe
 epaule-dyskinesie = Dyskinésie scapulaire
 epaule-fracture_hp = Fracture de l'humérus proximal

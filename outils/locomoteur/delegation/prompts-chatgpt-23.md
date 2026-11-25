@@ -93,7 +93,7 @@ Rachis cervical (région « cervical ») :
 - sous_acro : Douleur sous-acromiale (tendinopathie de la coiffe)
 - myalgie : Myalgie ou douleur non spécifique
 - capsulite : Capsulite adhésive
-- ac_entorse : Entorse ou disjonction acromio-claviculaire
+- ac_entorse : Entorse ou luxation acromio-claviculaire
 - rupture : Rupture transfixiante de la coiffe
 - dyskinesie : Dyskinésie scapulaire
 - fracture_hp : Fracture de l'humérus proximal [URGENT / À NE PAS MANQUER]
@@ -339,7 +339,7 @@ Rachis cervical (région « cervical ») :
 - sous_acro : Douleur sous-acromiale (tendinopathie de la coiffe)
 - myalgie : Myalgie ou douleur non spécifique
 - capsulite : Capsulite adhésive
-- ac_entorse : Entorse ou disjonction acromio-claviculaire
+- ac_entorse : Entorse ou luxation acromio-claviculaire
 - rupture : Rupture transfixiante de la coiffe
 - dyskinesie : Dyskinésie scapulaire
 - fracture_hp : Fracture de l'humérus proximal [URGENT / À NE PAS MANQUER]

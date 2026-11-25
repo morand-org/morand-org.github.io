@@ -354,7 +354,7 @@
   "no": "E4",
   "page": 4,
   "tags": "ARTICULATION ACROMIO-CLAVICULAIRE · TRAUMATISME · CLASSIFICATION",
-  "titre": "ENTORSE / DISJONCTION ACROMIO-CLAVICULAIRE",
+  "titre": "ENTORSE / LUXATION ACROMIO-CLAVICULAIRE",
   "epidemiologie": {
    "texte": "hommes jeunes (5–10 pour 1), sports de contact et cyclisme ; 9–12 % des lésions de la ceinture scapulaire.",
    "refs": [
@@ -868,7 +868,7 @@
    ]
   },
   "ddx": {
-   "texte": "disjonction acromio-claviculaire, lésion sterno- claviculaire, fracture de l'humérus proximal.",
+   "texte": "luxation acromio-claviculaire, lésion sterno- claviculaire, fracture de l'humérus proximal.",
    "refs": [
     165
    ]
@@ -1779,7 +1779,7 @@
    ]
   },
   "ddx": {
-   "texte": "arthrose ou disjonction acromio-claviculaire, ostéolyse inflammatoire ou métabolique.",
+   "texte": "arthrose ou luxation acromio-claviculaire, ostéolyse inflammatoire ou métabolique.",
    "refs": [
     226,
     230

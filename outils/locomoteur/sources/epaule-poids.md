@@ -101,7 +101,7 @@ Conduite :
 - Suivi : 6 sem, puis 3 mois. — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Haas et al., « Management of Shoulder Pain in Primary Care », JAMA Internal Medicine, 2026 ; Simon et al., « Acute Shoulder Injuries in Adults », American Family Physician, 2023 ; lignes directrices AAOS sur les fractures de la clavicule, 2022 ; Van Gastel et al., Acta Orthopaedica, 2026 ; Lowry et al., BMC Primary Care, 2023 (Québec).*
 - Retour / référence : peu d'amélioration après 3–6 mois → orthopédie ou physiatrie (distension, manipulation). — *Aide-mémoire de première ligne (Québec), document OpenEvidence ; Haas et al., « Management of Shoulder Pain in Primary Care », JAMA Internal Medicine, 2026 ; Simon et al., « Acute Shoulder Injuries in Adults », American Family Physician, 2023 ; lignes directrices AAOS sur les fractures de la clavicule, 2022 ; Van Gastel et al., Acta Orthopaedica, 2026 ; Lowry et al., BMC Primary Care, 2023 (Québec).*
 
-## Entorse ou disjonction acromio-claviculaire
+## Entorse ou luxation acromio-claviculaire
 
 Probabilité de départ (provisoire) : 12 ans 4 %, 18 ans 8 %, 30 ans 6 %, 50 ans 3 %, 70 ans 2 % ; homme ×2, femme ×0,5.
 

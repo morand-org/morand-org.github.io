@@ -804,7 +804,7 @@
 
 - **Retour / référence :** peu d'amélioration après 3–6 mois → orthopédie ou physiatrie (distension, manipulation).
 
-### 4. Entorse / disjonction acromio-claviculaire
+### 4. Entorse / luxation acromio-claviculaire
 
 - **Investigation :** radiographies avec incidence de Zanca, comparatives.
 
