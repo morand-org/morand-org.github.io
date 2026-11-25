@@ -97,10 +97,14 @@
     }
     for (const q of d.questions) if (q.type === "miroir" && !d.parQ[q.cible]) throw new Error(`Miroir sans cible : ${q.id} → ${q.cible}`);
     /* Grappes : combinaison validée d'éléments (ex. Décary : pivot + pop pour le LCA). Quand elle s'applique, son RV
-       remplace celui des éléments qu'elle couvre (questions ou groupes « g »), pour ne pas les compter deux fois. */
+       remplace celui des éléments qu'elle couvre (questions ou groupes « g »), pour ne pas les compter deux fois.
+       « neutralise » (règle de définition) : questions dont l'effet EN FAVEUR du diagnostic ne compte plus quand la grappe
+       s'applique (ex. rotation externe passive complète : la raideur racontée ou active ne plaide plus pour une capsulite) ;
+       leur effet en défaveur reste compté. */
     for (const g of d.grappes || []) {
       if (!d.parDx[g.dx]) throw new Error(`Diagnostic inconnu dans la grappe ${g.id}`);
       for (const k of g.couvre) if (!d.parQ[k] && !d.questions.some(q => q.effets.some(e => e.g === k))) throw new Error(`Grappe ${g.id} : « ${k} » n'est ni une question ni un groupe`);
+      for (const k of g.neutralise || []) if (!d.parQ[k]) throw new Error(`Grappe ${g.id} : « ${k} » (neutralisé) n'est pas une question`);
       g.statut = g.statut || "provisoire"; g.cle = `grappe:${g.id}>${g.dx}`; g.grappe = true;
     }
     /* Revues (réponses d'OpenEvidence) : clé du générateur de consignes (« dx|question|valeur » pour un RV par réponse,
@@ -241,7 +245,7 @@
       const pris = new Set();
       for (const g of actives) {
         if (g.couvre.some(k => pris.has(k))) continue;
-        const couverts = c => c.q && (g.couvre.includes(c.q.id) || (c.e.g && g.couvre.includes(c.e.g)));
+        const couverts = c => c.q && (g.couvre.includes(c.q.id) || (c.e.g && g.couvre.includes(c.e.g)) || (c.l > 0 && (g.neutralise || []).includes(c.q.id)));
         z.comptes = z.comptes.filter(c => !couverts(c));
         z.comptes.push({ e: g, q: null, r: null, rv: g.rv, l: Math.log(g.rv), libelle: g.nom, grappe: true });
         for (const k of g.couvre) pris.add(k);

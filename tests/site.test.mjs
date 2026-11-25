@@ -481,6 +481,27 @@ async function locomoteur(nav) {
     verifier(`Genou ${largeur} px : aucune erreur`, erreurs.length === 0, erreurs);
     await ctx.close();
   }
+  {
+    /* Épaule : « Graduel » précisé (sans trauma ni faux mouvement) ; règle de définition de la capsulite : une rotation externe
+       passive complète et indolore annule ce qui plaide pour elle (raideur racontée, limitations actives). */
+    const { ctx, p, erreurs } = await ouvrir(nav, "/locomoteur/epaule/", { largeur: 390 });
+    const g = await p.evaluate(() => document.querySelector('button[data-q="epaule:apparition"][data-v="graduel"]')?.textContent.trim());
+    const r = await p.evaluate(() => {
+      const LO = window.Locomoteur, d = LO.donnees.epaule;
+      const forte = { age: "55", sexe: "F", duree: "s6_12", diabete: "oui", moment: "constante", apparition: "insidieux", raideur_prog: "oui", nocturne: "oui", couche_epaule: "oui", bras_leve: "oui" };
+      const cap = rep => LO.calculer(d, rep).diagnostics.find(x => x.x.id === "capsulite").p;
+      const res = LO.calculer(d, { ...forte, apparition: "graduel", habillage_matin: "oui", prom_re: "complete", arom_ri: "lim_douleur", arom_ri_deg: "L3", prom_abd: "lim_raideur", prom_abd_deg: "90" });
+      return { complete: cap({ ...forte, prom_re: "complete" }), actives: cap({ ...forte, prom_re: "complete", arom_elev: "lim_douleur", arom_re: "lim_douleur" }),
+        raideur: cap({ ...forte, prom_re: "lim_raideur" }), note: LO.rediger(d, res) };
+    });
+    verifier("Épaule : « Graduel » précisé « sans trauma ni faux mouvement », aussi dans la note", g === "Graduel sans trauma ni faux mouvement" && /début graduel sans trauma ni faux mouvement/i.test(r.note), { g });
+    verifier("Épaule : rotation externe passive complète et indolore, capsulite peu probable même avec une histoire typique et des limitations actives ; limitée par raideur, très probable",
+      r.complete < .2 && r.actives < .2 && r.raideur > .8, { complete: r.complete, actives: r.actives, raideur: r.raideur });
+    verifier("Épaule : habillage du matin, rotation interne active (niveau du pouce) et abduction passive dans la note",
+      r.note.includes("difficulté à s'habiller le matin") && r.note.includes("rotation interne limitée (pouce à L3) avec douleur") && r.note.includes("abduction limitée à ~90°, raideur"), { note: r.note.slice(0, 1500) });
+    verifier("Épaule : aucune erreur", erreurs.length === 0, erreurs);
+    await ctx.close();
+  }
 }
 
 /* 8. Mode sombre : les textes restent lisibles (contraste d'au moins 3 pour 1) sur chaque page. */
