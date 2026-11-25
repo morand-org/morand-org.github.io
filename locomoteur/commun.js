@@ -250,7 +250,12 @@
     ["cheville", "D", 352, 764, 22, "Cheville droite"], ["cheville", "G", 422, 764, 22, "Cheville gauche"], ["pied", "D", 346, 806, 22, "Pied droit"], ["pied", "G", 428, 806, 22, "Pied gauche"],
     ["cervical", "", 877, 142, 24, "Nuque"], ["epaule", "G", 788, 198, 27, "Épaule gauche (dos)"], ["epaule", "D", 966, 198, 27, "Épaule droite (dos)"],
     ["lombaire", "", 877, 290, 26, "Dos (région dorsale)"], ["lombaire", "", 877, 372, 30, "Bas du dos"], ["hanche", "G", 842, 446, 26, "Fesse gauche"], ["hanche", "D", 912, 446, 26, "Fesse droite"],
-    ["genou", "G", 840, 592, 26, "Creux du genou gauche"], ["genou", "D", 914, 592, 26, "Creux du genou droit"], ["cheville", "G", 844, 762, 22, "Talon et Achille gauche"], ["cheville", "D", 910, 762, 22, "Talon et Achille droit"]];
+    ["genou", "G", 840, 592, 26, "Creux du genou gauche"], ["genou", "D", 914, 592, 26, "Creux du genou droit"], ["cheville", "G", 844, 762, 22, "Talon et Achille gauche"], ["cheville", "D", 910, 762, 22, "Talon et Achille droit"],
+    // Cuisse et jambe : pas de région propre ; la zone ouvre les deux plaintes voisines (choix du Dr Morand, 25 nov. 2026).
+    ["hanche,genou", "D", 348, 516, 24, "Cuisse droite"], ["hanche,genou", "G", 426, 516, 24, "Cuisse gauche"],
+    ["genou,cheville", "D", 350, 680, 24, "Jambe droite"], ["genou,cheville", "G", 424, 680, 24, "Jambe gauche"],
+    ["hanche,genou", "G", 841, 519, 24, "Arrière de la cuisse gauche"], ["hanche,genou", "D", 913, 519, 24, "Arrière de la cuisse droite"],
+    ["genou,cheville", "G", 842, 678, 24, "Mollet gauche"], ["genou,cheville", "D", 912, 678, 24, "Mollet droit"]];
   /* Questions communes à toutes les plaintes d'une consultation (même réponse pour chaque région) et section où elles
      s'affichent. Les investigations et le plan sont communs en entier ; les autres questions sont propres à chaque plainte. */
   C.PARTAGES = {

@@ -5,7 +5,7 @@
    Format : p() provisoire, est() à vérifier, ver()/verRv() vérifié avec sa source. « † » du document : statut « à vérifier ». */
 (function () {
   "use strict";
-  const { p, est, o, m, ouiNon, choix, multi } = window.Locomoteur.outils, C = window.Locomoteur.commun;
+  const { p, lit, est, o, m, ouiNon, choix, multi } = window.Locomoteur.outils, C = window.Locomoteur.commun;
   const ver = (se, sp, piste, extra) => ({ se, sp, piste, statut: "verifie", ...extra });
   const verRv = (rvp, rvn, piste, extra) => ({ rvp, rvn, piste, statut: "verifie", ...extra });
   const trauma = L => L.trauma(), TEST = "test";
@@ -40,6 +40,9 @@
       { t: "Consignes de reconsultation : doigts froids, bleus ou engourdis, douleur croissante sous le plâtre, rougeur qui s'étend, fièvre" }] }];
 
   const INFOS = {
+    ext_mc1: { info: "Extension passive du 1er métacarpien (Gelberman 2015). Positif : douleur à la base du pouce. Rhizarthrose : Se 94 %, Sp 95 % (RV+ 18,8 ; RV− 0,06), étude d'origine. Geste à confirmer (demandé à OpenEvidence)." },
+    add_mc1: { info: "Adduction passive du 1er métacarpien vers la paume (Gelberman 2015). Positif : douleur à la base du pouce. Rhizarthrose : Se 94 %, Sp 93 % (RV+ 13,4 ; RV− 0,07). Geste à confirmer (demandé à OpenEvidence)." },
+    synergie_ecu: { info: "Main en supination, on résiste à l'abduction radiale du pouce. Positif : douleur dorso-ulnaire du poignet (extenseur ulnaire du carpe). Se 73,7 %, Sp 85,7 % (RV+ 5,2 ; RV− 0,31 ; Sato 2016, 40 poignets).", video: "ECU synergy test" },
     phalen: { info: "Flexion maximale des deux poignets 60 secondes. Canal carpien : Se 57 %, Sp 67 % (RV+ 1,7) : peu utile seul ; compte dans le CTS-6.", positif: "paresthésies dans le territoire médian", video: "Phalen test" },
     tinel_carpien: { info: "Percussion du nerf médian au pli du poignet. Canal carpien : Se 45 %, Sp 78 % (RV+ 2,0) ; compte dans le CTS-6.", video: "Tinel sign carpal tunnel" },
     durkan: { info: "Pression du pouce sur le canal carpien 30 secondes. Canal carpien : Se 64 %, Sp 83 % (RV+ 3,8, calculé).", video: "Durkan test" },
@@ -314,7 +317,7 @@
           ouiNon("p_styloide_radiale", "Premier compartiment (styloïde radiale) douloureux ou épaissi", { oui: "premier compartiment douloureux", non: "", effets: { dequervain: p(5, .1), scaphoide: p(1.3, .9) } }),
           ouiNon("p_scapholunaire", "Intervalle scapho-lunaire (dos du poignet) douloureux", { oui: "intervalle scapho-lunaire douloureux", non: "", horsNormal: true, effets: { scapholunaire: p(3, .4), kyste: p(1.5, .8), kienbock: p(2, .7) } }),
           ouiNon("p_lunatum", "Lunatum douloureux (centre du dos du poignet)", { oui: "lunatum douloureux", non: "", horsNormal: true, effets: { kienbock: p(4, .3), perilunaire: p(2, .8), scapholunaire: p(1.5, .8) } }),
-          ouiNon("p_ecu", "Extenseur ulnaire du carpe douloureux", { oui: "extenseur ulnaire du carpe douloureux", non: "", horsNormal: true, effets: { tenosynovite: p(4, .4), tfcc: p(1.3, .9) } }),
+          ouiNon("p_ecu", "Extenseur ulnaire du carpe douloureux", { oui: "extenseur ulnaire du carpe douloureux", non: "", horsNormal: true, effets: { tenosynovite: p(4, .4, { g: "ecu-ex" }), tfcc: p(1.3, .9) } }),
           ouiNon("p_hamatum", "Hamulus de l'hamatum douloureux (éminence hypothénar)", { oui: "hamulus douloureux", non: "", horsNormal: true, effets: { hamatum: p(8, .2), guyon: p(2, .7) } }),
           ouiNon("p_base_pouce", "Trapézo-métacarpienne douloureuse", { oui: "trapézo-métacarpienne douloureuse", non: "", effets: { rhizarthrose: p(4, .2), dequervain: p(1.3, .9) } }),
           ouiNon("p_poulie_a1", "Nodule douloureux à la poulie A1 (base du doigt, côté paume)", { oui: "nodule à la poulie A1", non: "", horsNormal: true, effets: { ressaut: p(8, .2), poulie: p(2, .8) } }),
@@ -358,6 +361,9 @@
           ouiNon("watson", "Watson (scaphoid shift)", { court: "Watson", horsNormal: true, effets: { scapholunaire: ver(.69, .66, WATSON) } }),
           ouiNon("pressure_shear", "Pressure-shear (trapézo-métacarpienne)", { court: "pressure-shear", horsNormal: true, effets: { rhizarthrose: verRv(19.8, .01, `${SELA} : Se 99 %, Sp 95 % (calculés)`, { g: "rhizo" }) } }),
           ouiNon("grind", "Grind test du pouce", { court: "grind test", horsNormal: true, effets: { rhizarthrose: ver(.44, .92, `${GELBERMAN} : RV+ 5,5 (calculé)`, { g: "rhizo" }) } }),
+          ouiNon("ext_mc1", "Extension du 1er métacarpien (pouce)", { court: "test d'extension du métacarpien", horsNormal: true, effets: { rhizarthrose: lit(.94, .95, `${GELBERMAN} : RV+ 18,8 ; RV− 0,06`, { g: "rhizo" }) } }),
+          ouiNon("add_mc1", "Adduction du 1er métacarpien (pouce)", { court: "test d'adduction du métacarpien", horsNormal: true, effets: { rhizarthrose: lit(.94, .93, `${GELBERMAN} : RV+ 13,4 ; RV− 0,07`, { g: "rhizo" }) } }),
+          ouiNon("synergie_ecu", "Synergie de l'extenseur ulnaire du carpe", { court: "test de synergie de l'ECU", horsNormal: true, effets: { tenosynovite: lit(.737, .857, "Sato et coll., 2016, J Ultrasound Med (40 poignets) : RV+ 5,2 ; RV− 0,31", { g: "ecu-ex" }) } }),
           ouiNon("valgus_pouce", "Stress en valgus de la MCP du pouce (laxité sans arrêt franc)", { court: "stress en valgus du pouce", horsNormal: true, effets: { lcu_pouce: ver(.97, .85, `${RASHIDI} : RV+ 6,5 ; RV− 0,04 (calculés)`) } }),
           ouiNon("squeeze_mcp", "Compression latérale des MCP (squeeze test)", { court: "squeeze test des MCP", horsNormal: true, effets: { par: verRv(3, .6, `${SQUEEZE} : arthrite, RV+ 3,0 ; RV− 0,6`), psoriasique: p(1.5, .9) } }),
         ] },

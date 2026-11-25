@@ -1,0 +1,25 @@
+CONSIGNE POUR OPENEVIDENCE (à coller avant chaque région)
+Vous révisez des fiches d'information remises aux patients en médecine familiale, au Québec (français québécois).
+Pour chaque fiche ci-dessous :
+1. Vérifiez l'exactitude et l'actualité de chaque énoncé selon les données probantes et les guides de pratique
+   récents (de préférence canadiens ou québécois : INESSS, Choisir avec soin Canada, sociétés savantes ; sinon NICE,
+   ACR, AAOS, JOSPT, BJSM).
+2. Vérifiez la sécurité, la pertinence et le dosage de chaque exercice (position de départ, mouvement, séries,
+   répétitions, fréquence, progression), pour la phase de la blessure visée.
+3. Vérifiez les signes qui doivent faire reconsulter, et séparez ceux qui exigent une consultation urgente.
+4. Vérifiez chaque référence (auteurs, titre, revue, année, PMID ou DOI) ; proposez une référence plus récente
+   si elle existe.
+5. Gardez un langage simple (niveau de lecture de 6e année), le vouvoiement et les termes québécois.
+6. Les rubriques « En bref », « Pourquoi ça arrive » et « Soulager la douleur », ainsi que la phase, le but et la
+   version plus facile de chaque exercice, sont nouvelles : vérifiez-les avec attention. « Soulager la douleur » ne
+   donne volontairement aucune dose de médicament : gardez-le ainsi.
+7. Règle de douleur : nous demandons que la douleur revienne à son niveau habituel « dans l'heure qui suit
+   l'exercice ». Vérifiez ce critère pour chaque problème ; si les données appuient plutôt un autre délai (par
+   exemple le lendemain matin, comme dans le modèle de surveillance de la douleur utilisé pour les tendinopathies),
+   indiquez-le, avec la référence.
+8. Vérifiez le classement des signes : « Consultez rapidement » (sans attendre le prochain rendez-vous) ou
+   « Revoyez votre médecin si ».
+Renvoyez chaque fiche au complet, dans la même structure, avec le même identifiant entre crochets.
+Marquez chaque changement ainsi : [MODIFIÉ : ancien texte → nouveau texte — raison ; référence].
+N'inventez aucune donnée : écrivez « À VÉRIFIER » en cas de doute.
+

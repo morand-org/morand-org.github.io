@@ -200,6 +200,9 @@
 
   /* ---------- Textes du bouton « i » : pourquoi on le demande, comment faire le test, positif si, vidéo (recherche Physiotutors) ---------- */
   const INFOS = {
+    apprehension_inv: { info: "Test d'appréhension dynamique inversé (Zimmermann 2019) : instabilité rotulienne latérale, Se 93,7 %, Sp 88,2 % (RV+ 7,9 ; RV− 0,07). Description du geste à confirmer : demandée à OpenEvidence." },
+    tilt: { info: "Genou tendu, on soulève le bord latéral de la rotule : une inclinaison réduite témoigne d'un rétinaculum latéral tendu. Syndrome fémoro-patellaire : RV+ 5,4 (Kasitinon 2021)." },
+    quad_actif: { info: "Genou fléchi à 90°, pied tenu sur la table : la contraction du quadriceps ramène vers l'avant un tibia affaissé. LCP : Sp 97 % ; Se 98 % à l'origine (Daniel 1988), 54 % en étude indépendante (valeur retenue).", video: "Quadriceps active test" },
     premier: { info: "Une récidive oriente vers l'instabilité rotulienne, l'arthrose ou une arthrite récurrente ; un premier épisode traumatique, vers une blessure ligamentaire." },
     apparition: { info: "Un début traumatique oriente vers les ligaments, les ménisques et la rotule ; un début graduel ou insidieux, vers le fémoro-patellaire, les tendinopathies et l'arthrose ; un début subit sans traumatisme, vers une arthrite (cristaux, infection) ou une insuffisance sous-chondrale." },
     mecanisme: { info: "Pivot sur pied fixe : LCA, ménisque, rotule. Stress en valgus : LLI. Coup sur le tibia, genou fléchi : LCP. Accroupissement : ménisque." },
@@ -688,6 +691,8 @@
         { titre: "LCP", toutNormal: true, questions: [
           C.lig("tiroir_post", "Tiroir postérieur", "tiroir postérieur", { lcp: ver(.9, .99, RUBINSTEIN, { pos: ["laxite"], neg: ["normal"], g: "lcp-ex" }) }),
           ouiNon("sag", "Sag sign", { court: "sag sign", res: TEST, effets: { lcp: ver(.79, 1, `${LUBOWITZ} : avalement postérieur du tibia, Se 79 %, Sp 100 % (plafonnée à 99 %)`, { g: "lcp-ex" }) } }),
+          ouiNon("quad_actif", "Test actif du quadriceps", { court: "test actif du quadriceps", res: TEST, horsNormal: true,
+            effets: { lcp: lit(.54, .97, "Daniel et coll., 1988, J Bone Joint Surg Am (Se 98 % à l'origine) ; Se 54 % en étude indépendante (Badri et coll., 2018) ; Sp 97 %", { g: "lcp-ex" }) } }),
         ] },
         { titre: "LLI", fusion: "stress en valgus à 0° et 30°", toutNormal: true, questions: [
           C.lig("valgus0", "Stress en valgus à 0°", "stress en valgus à 0°", { collat: { rv: { normal: .7, douleur: 2, laxite: 5 }, g: "collat-ex" }, lca: { rv: { laxite: 2 } } }),
@@ -711,6 +716,10 @@
           ouiNon("clarke", "Clarke (rabot)", { court: "Clarke (rabot)", effets: { sfp: lit(.39, .67, "Nunes et coll., 2013 ou Cook et coll., 2012 (revues systématiques)", { g: "sfp-ex" }) } }),
           ouiNon("apprehension", "Appréhension rotulienne", { court: "appréhension rotulienne", genre: "f",
             effets: { rotule: ver(1, .884, `${AHMAD} : test d'appréhension mobile, Se 100 % (plafonnée à 99 %), Sp 88,4 %`, { g: "rotule-ex" }) } }),
+          ouiNon("apprehension_inv", "Appréhension dynamique inversée", { court: "appréhension dynamique inversée", genre: "f", horsNormal: true,
+            effets: { rotule: lit(.937, .882, "Zimmermann et coll., 2019, Knee Surg Sports Traumatol Arthrosc : RV+ 7,9 ; RV− 0,07", { g: "rotule-ex" }) } }),
+          ouiNon("tilt", "Inclinaison de la rotule (tilt) réduite", { court: "test d'inclinaison de la rotule", horsNormal: true,
+            effets: { sfp: est(5.4, undefined, "Kasitinon et coll., 2021, Curr Rev Musculoskelet Med ; APTA 2020 : RV+ 5,4", { g: "sfp-ex" }) } }),
           ouiNon("hoffa_test", "Pincement du fat pad (Hoffa)", { court: "pincement du fat pad (Hoffa)", res: "palp", effets: { hoffa: p(4, .4) } }),
           ouiNon("mcconnell", "McConnell", { court: "McConnell", aide: "Douleur en contraction isométrique à différents angles, soulagée par une poussée médiale de la rotule.", effets: { sfp: p(2, .7, { g: "sfp-ex" }) } }),
         ] },
@@ -779,6 +788,17 @@
             { t: "Fracture de la rotule non déplacée avec extension active : attelle en extension 5–6 sem ; orthopédie si marche > 2 mm, écart > 3 mm ou perte de l'extension", src: "Melvin et coll., 2011, J Am Acad Orthop Surg" }] };
         if (faits.every(Boolean)) return { niveau: "info", titre: "Règle d'Ottawa négative", texte: `Aucun critère : la radiographie n'est pas nécessaire pour éliminer une fracture (RV− 0,05 ; Bachmann et coll., 2004). Radiographie si la douleur persiste à 10 jours.${enfant}` };
         return { niveau: "info", titre: "Règle d'Ottawa à compléter", texte: "Traumatisme : âge, 4 pas, flexion à 90°, palpation de la rotule et de la tête du péroné." };
+      },
+      // Règle de Pittsburgh (Seaberg et coll., 1998) : chute ou coup direct récent.
+      L => {
+        if (!L.trauma() || (L.repondu("duree") && L.v("duree") !== "lt7") || !L.dans("mecanisme", ["direct", "tibia"])) return null;
+        const crit = [];
+        if (L.age !== null && (L.age < 12 || L.age > 50)) crit.push(L.age < 12 ? "moins de 12 ans" : "plus de 50 ans");
+        if (L.oui("ott_4pas")) crit.push("incapable de faire 4 pas");
+        if (crit.length) return { niveau: "rapide", titre: "Radiographie du genou indiquée (règle de Pittsburgh)", ro: "fracture", texte: `Chute ou coup direct, et : ${crit.join(", ")}. Règle : Se 99 %, Sp 60 %.`,
+          conduite: [{ t: "Radiographie du genou (règle de Pittsburgh positive)", src: "Seaberg et coll., 1998, Ann Emerg Med" }] };
+        if (L.age !== null && L.repondu("ott_4pas")) return { niveau: "info", titre: "Règle de Pittsburgh négative", texte: "Chute ou coup direct, de 12 à 50 ans, 4 pas possibles : la radiographie n'est pas nécessaire pour éliminer une fracture (Se 99 %, RV− 0,02 ; Seaberg et coll., 1998)." };
+        return null;
       },
       L => L.v("elj") === "impossible" ? { niveau: "urgence", titre: "Rupture de l'appareil extenseur à éliminer", ro: "rupture de l'appareil extenseur",
         texte: `Élévation de la jambe tendue impossible : tendon quadricipital ou rotulien, ou fracture de la rotule${L.age !== null && L.age < 18 ? " ; chez le jeune, avulsion de la tubérosité tibiale ou fracture en manchon de la rotule" : ""}. Diagnostic manqué au départ dans plus du tiers des cas ; terrain : 40 ans et plus, insuffisance rénale, diabète, corticoïdes, fluoroquinolones.`,

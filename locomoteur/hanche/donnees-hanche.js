@@ -4,7 +4,7 @@
    Même format que le genou : p() provisoire, est() à vérifier, ver()/verRv() vérifié avec sa source. */
 (function () {
   "use strict";
-  const { p, est, o, m, ouiNon, choix, multi } = window.Locomoteur.outils, C = window.Locomoteur.commun;
+  const { p, lit, est, o, m, ouiNon, choix, multi } = window.Locomoteur.outils, C = window.Locomoteur.commun;
   const ver = (se, sp, piste, extra) => ({ se, sp, piste, statut: "verifie", ...extra });
   const verRv = (rvp, rvn, piste, extra) => ({ rvp, rvn, piste, statut: "verifie", ...extra });
   const trauma = L => L.trauma(), PALP = "palp", TEST = "test";
@@ -29,6 +29,10 @@
       { t: "Consignes de reconsultation : fièvre, impossibilité de mettre du poids, douleur nocturne, engourdissement en selle ou trouble urinaire" }] }];
 
   const INFOS = {
+    hec: { info: "HEC test (Vandeputte et coll., 2025) : tendinopathie de l'ilio-psoas, Se 94 %, Sp 88 % (RV+ 7,8 ; RV− 0,07), étude d'origine (n = 44). Description du geste à confirmer : demandée à OpenEvidence." },
+    piri_actif: { info: "Couché sur le côté sain : le patient pousse le talon vers la table, puis fait une abduction et une rotation externe contre résistance, pendant qu'on palpe le piriforme (Martin 2014). Positif : douleur fessière reproduite. Avec l'étirement assis, les deux négatifs : RV− 0,11." },
+    piri_assis: { info: "Assis, hanche à 90° : on amène la cuisse en adduction et en rotation interne en palpant en dehors de l'ischion (Martin 2014). Positif : douleur fessière reproduite. Avec le test actif, les deux négatifs : RV− 0,11." },
+    compression_pelvienne: { info: "Couché sur le côté sain, on comprime le bassin vers la table pendant 45 secondes (Nouraei 2007). Positif si les symptômes diminuent (le ligament inguinal se relâche). Méralgie paresthésique : Se 95 %, Sp 93,3 % (RV+ 14,2 ; RV− 0,05), n = 45, non répliqué." },
     prom_extension: { info: "En décubitus ventral ou latéral, bassin stabilisé (voir aussi le test de Thomas, dans les tests). Pour la note, sans effet sur le calcul (aucune valeur publiée)." },
     thomas: { info: "Décubitus dorsal au bout de la table, l'autre genou tenu sur la poitrine (bassin à plat). Normal : la cuisse examinée reste à plat et le genou plie à environ 90°. La cuisse qui se soulève : flessum de hanche (ilio-psoas court, arthrose) ; le genou qui s'étend : droit fémoral court (Thomas modifié). Valeur diagnostique jugée médiocre (Haskel 2021) : pour la note, sans effet sur le calcul.", video: "Thomas test" },
     localisation: { aide: "Plusieurs choix possibles", info: "Douleur maximale à la face médiale de la cuisse : RV+ 7,8 pour la coxarthrose ; à l'aine : coxarthrose (RV+ 1,7) et conflit fémoro-acétabulaire (aine comme site principal chez 87 %) ; latérale au grand trochanter : syndrome trochantérien ; irradiant sous le genou : origine lombaire." },
@@ -79,7 +83,6 @@
     { code: "HANC-P12", cle: "ij_aigu|p_ij>ij_aigu", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
     { code: "HANC-P13", cle: "psoas|ressaut>psoas", rvp: 1.33, rvn: 0.93, statut: "verifie", piste: "Haskel et coll., 2021 (Arthroscopy, PMID 33340679) : ressaut, Se 24 %, Sp 82 % ; référence : réponse à l'infiltration" },
     { code: "HANC-P14", cle: "meralgie|localisation.cuisse_lat_brulure>meralgie", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
-    { code: "HANC-P15", cle: "meralgie|pelvic_comp>meralgie", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
     { code: "HANC-P16", cle: "osteite|localisation.pubis>osteite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
     { code: "HANC-P17", cle: "osteite|p_symphyse>osteite", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
     { code: "HANC-P18", cle: "avulsion|p_epines>avulsion", note: "OpenEvidence (24 nov. 2026) : aucune donnée publiée pour cet élément" },
@@ -141,6 +144,8 @@
       ["cfa", "psoas"], ["cfa", "adducteurs"], ["piriforme", "ij_tendino"], ["piriforme", "lombaire"], ["coxarthrose", "ppr"], ["sdgt", "ppr"], ["fracture", "bassin"], ["coxarthrose", "osteonecrose"]],
 
     grappes: [
+      { id: "piriforme_neg", dx: "piriforme", nom: "Test actif du piriforme et étirement assis tous deux négatifs", rv: .11, couvre: ["piri_actif", "piri_assis"], statut: "a_verifier",
+        piste: "Martin et coll., 2014, Knee Surg Sports Traumatol Arthrosc : les deux tests négatifs, Se 91 %, RV− 0,11 (base FlashCards)", si: L => L.non("piri_actif") && L.non("piri_assis") },
       { id: "sutlive", dx: "coxarthrose", nom: "Cluster de Sutlive : 4 sur 5 ou plus", rv: 24.3, couvre: ["squat_hanche", "scour", "arom_flexion", "arom_extension", "prom_ri"], statut: "verifie",
         piste: `${SUTLIVE} : RV+ 24,3 (4,4–142,1), n = 72`, si: L => sutlive(L).filter(Boolean).length >= 4 },
       { id: "bierma_pos", dx: "coxarthrose", nom: "Cluster de Bierma-Zeinstra : 4 sur 5 ou plus", rv: 4.9, couvre: ["duree", "assis", "p_inguinal", "prom_re"], statut: "verifie",
@@ -277,7 +282,7 @@
           ouiNon("p_epines", "Épines iliaques antérieures (supérieure, inférieure)", { court: "épines iliaques antérieures", genre: "fp", effets: { avulsion: p(5, .3), meralgie: p(1.5, .9) } }),
           ouiNon("p_crete", "Crête iliaque", { court: "crête iliaque", genre: "f", effets: { apophysite: p(5, .3), contusion: p(2, .8) } }),
           ouiNon("p_fessier", "Région fessière profonde (piriforme)", { court: "région fessière profonde", genre: "f", effets: { piriforme: p(4, .4), ij_tendino: p(1.3, .95) } }),
-          ouiNon("p_psoas", "Ilio-psoas (sous le ligament inguinal)", { court: "ilio-psoas", effets: { psoas: p(3, .5) } }),
+          ouiNon("p_psoas", "Ilio-psoas (sous le ligament inguinal)", { court: "ilio-psoas", effets: { psoas: p(3, .5, { g: "psoas-ex" }) } }),
         ] },
         { titre: "AROM", toutNormal: true, questions: [
           C.amplitude("arom_flexion", "Flexion active", "flexion", { lim_douleur: { coxarthrose: 1.5, cfa: 1.5 }, lim_raideur: { coxarthrose: 2 }, fin: { cfa: 1.5 } }),
@@ -326,7 +331,11 @@
             info: "Hanche fléchie passivement : la cuisse part d'elle-même en rotation externe. Évocateur d'épiphysiolyse chez l'adolescent.", video: "Drehmann sign" }),
           ouiNon("percussion", "Percussion pubo-patellaire", { court: "percussion pubo-patellaire", genre: "f", horsNormal: true, effets: { fracture: ver(.95, .86, `${REIMAN13} : RV+ 6,8 ; RV− 0,06`) } }),
           ouiNon("lasegue", "Lasègue ou slump", { court: "Lasègue", effets: { lombaire: p(4, .5), piriforme: p(1.5, .9), ij_aigu: p(1.3, .95) } }),
-          ouiNon("pelvic_comp", "Compression du nerf cutané latéral (sous l'épine iliaque antéro-supérieure)", { court: "compression du nerf cutané latéral", genre: "f", horsNormal: true, effets: { meralgie: p(5, .4) } }),
+          ouiNon("compression_pelvienne", "Compression pelvienne (Nouraei) : symptômes soulagés", { court: "test de compression pelvienne", horsNormal: true,
+            effets: { meralgie: lit(.95, .933, "Nouraei et coll., 2007, Neurosurgery (n = 45, non répliqué) : RV+ 14,2 ; RV− 0,05") } }),
+          ouiNon("hec", "HEC test (ilio-psoas)", { court: "HEC test", horsNormal: true, effets: { psoas: lit(.94, .88, "Vandeputte et coll., 2025, Clin Orthop Relat Res (n = 44, étude d'origine) : RV+ 7,8 ; RV− 0,07", { g: "psoas-ex" }) } }),
+          ouiNon("piri_actif", "Test actif du piriforme", { court: "test actif du piriforme", horsNormal: true }),
+          ouiNon("piri_assis", "Étirement du piriforme en position assise", { court: "étirement du piriforme assis", genre: "m", horsNormal: true }),
         ] },
         { fin: true, questions: C.controlateral() },
         { titre: "Lombaire et neuro", adjacent: "lombaire", sansCote: true, toutNormal: true, questions: [

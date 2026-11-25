@@ -223,11 +223,35 @@
   "texte": "« Acromio-claviculaire » — current LR+ 1.6, LR− 0.1",
   "revu": true
  },
+ "EPAU-P30": {
+  "region": "epaule",
+  "dx": "ppr",
+  "cle": "grappe|ppr_eular",
+  "texte": "Cluster « Critères EULAR/ACR 2012 : score de 4 ou plus » — current LR+ 5 (Macchioni et coll., 2014, Ann Rheum Dis (validation) : Se 92,6 %, Sp 81,5 %, RV+ 5,0 (base FlashCards))"
+ },
+ "EPAU-P31": {
+  "region": "epaule",
+  "dx": "ppr",
+  "cle": "grappe|ppr_eular_neg",
+  "texte": "Cluster « Critères EULAR/ACR 2012 : score de moins de 4 » — current LR− 0.09 (Macchioni et coll., 2014, Ann Rheum Dis (validation) : RV− 0,09 (base FlashCards))"
+ },
  "EPAU-P29": {
   "region": "epaule",
   "dx": "biceps",
   "cle": "biceps|uppercut>biceps",
   "texte": "« Upper cut test (Uppercut) » — current LR+ 3.38, LR− 0.26"
+ },
+ "EPAU-P32": {
+  "region": "epaule",
+  "dx": "instab_post",
+  "cle": "instab_post|jerk>instab_post",
+  "texte": "« Jerk test » — current Se 73%, Sp 98%, LR+ 36.5, LR− 0.28"
+ },
+ "EPAU-P33": {
+  "region": "epaule",
+  "dx": "instab_post",
+  "cle": "instab_post|kim>instab_post",
+  "texte": "« Kim test » — current Se 80%, Sp 94%, LR+ 13.33, LR− 0.21"
  },
  "EPAU-P8": {
   "region": "epaule",
@@ -625,6 +649,12 @@
   "texte": "« Finkelstein test » — current LR+ 5, LR− 0.3",
   "revu": true
  },
+ "POIG-P43": {
+  "region": "poignet",
+  "dx": "tenosynovite",
+  "cle": "tenosynovite|synergie_ecu>tenosynovite",
+  "texte": "« ECU synergy test (Synergie de l'extenseur ulnaire du carpe) » — current Se 74%, Sp 86%, LR+ 5.15, LR− 0.31"
+ },
  "POIG-P5": {
   "region": "poignet",
   "dx": "tfcc",
@@ -638,6 +668,18 @@
   "cle": "arthrose_digitale|ex_nodules>arthrose_digitale",
   "texte": "« Nodules d'Heberden ou de Bouchard (élargissement osseux) » — current LR+ 8, LR− 0.2",
   "revu": true
+ },
+ "POIG-P44": {
+  "region": "poignet",
+  "dx": "rhizarthrose",
+  "cle": "rhizarthrose|ext_mc1>rhizarthrose",
+  "texte": "« Extension du 1er métacarpien (pouce) » — current Se 94%, Sp 95%, LR+ 18.8, LR− 0.06"
+ },
+ "POIG-P45": {
+  "region": "poignet",
+  "dx": "rhizarthrose",
+  "cle": "rhizarthrose|add_mc1>rhizarthrose",
+  "texte": "« Adduction du 1er métacarpien (pouce) » — current Se 94%, Sp 93%, LR+ 13.43, LR− 0.06"
  },
  "POIG-P7": {
   "region": "poignet",
@@ -891,6 +933,18 @@
   "texte": "« Spurling ou mouvements du cou reproduisant les symptômes » — current LR+ 5, LR− 0.4",
   "revu": true
  },
+ "LOMB-P8": {
+  "region": "lombaire",
+  "dx": "grossesse",
+  "cle": "grossesse|p_symphyse>grossesse",
+  "texte": "« Symphyse pubienne douloureuse (grossesse) » — current Se 81%, Sp 99%, LR+ 81, LR− 0.19"
+ },
+ "LOMB-P9": {
+  "region": "lombaire",
+  "dx": "grossesse",
+  "cle": "grossesse|trendelenburg_mod>grossesse",
+  "texte": "« Trendelenburg modifié (grossesse) » — current Se 60%, Sp 97%, LR+ 20, LR− 0.41"
+ },
  "LOMB-P1": {
   "region": "lombaire",
   "dx": "fracture_osteo",
@@ -912,6 +966,12 @@
   "texte": "« Stork test spondylolysis (Hyperextension unipodale (stork)) » — current LR+ 1.5, LR− 0.8",
   "revu": true
  },
+ "LOMB-P7": {
+  "region": "lombaire",
+  "dx": "scoliose",
+  "cle": "scoliose|scoliose_vue>scoliose",
+  "texte": "« Adams forward bend test » — current Se 84%, Sp 95%, LR+ 17.58, LR− 0.16"
+ },
  "LOMB-P4": {
   "region": "lombaire",
   "dx": "infection",
@@ -930,12 +990,6 @@
   "dx": "hernie",
   "cle": "hernie|localisation.sous_genou>hernie",
   "texte": "« Où est la douleur : Irradie sous le genou, jusqu'au pied » — current LR+ 6, LR− 0.2"
- },
- "LOMB-P7": {
-  "region": "lombaire",
-  "dx": "scoliose",
-  "cle": "scoliose|scoliose_vue>scoliose",
-  "texte": "« Scoliose visible ou gibbosité » — current LR+ 5, LR− 0.5"
  },
  "HANC-P1": {
   "region": "hanche",
@@ -993,6 +1047,24 @@
   "texte": "« Clic, accrochage ou blocage dans l'aine » — current LR+ 2, LR− 0.8",
   "revu": true
  },
+ "HANC-P28": {
+  "region": "hanche",
+  "dx": "psoas",
+  "cle": "psoas|hec>psoas",
+  "texte": "« HEC test (ilio-psoas) » — current Se 94%, Sp 88%, LR+ 7.83, LR− 0.07"
+ },
+ "HANC-P29": {
+  "region": "hanche",
+  "dx": "piriforme",
+  "cle": "grappe|piriforme_neg",
+  "texte": "Cluster « Test actif du piriforme et étirement assis tous deux négatifs » — current LR− 0.11 (Martin et coll., 2014, Knee Surg Sports Traumatol Arthrosc : les deux tests négatifs, Se 91 %, RV− 0,11 (base FlashCards))"
+ },
+ "HANC-P30": {
+  "region": "hanche",
+  "dx": "meralgie",
+  "cle": "meralgie|compression_pelvienne>meralgie",
+  "texte": "« Compression pelvienne (Nouraei) : symptômes soulagés » — current Se 95%, Sp 93%, LR+ 14.18, LR− 0.05"
+ },
  "HANC-P9": {
   "region": "hanche",
   "dx": "osteonecrose",
@@ -1033,13 +1105,6 @@
   "dx": "meralgie",
   "cle": "meralgie|localisation.cuisse_lat_brulure>meralgie",
   "texte": "« Où est la douleur : Face antéro-latérale de la cuisse, brûlure ou engourdissement » — current LR+ 10, LR− 0.2",
-  "revu": true
- },
- "HANC-P15": {
-  "region": "hanche",
-  "dx": "meralgie",
-  "cle": "meralgie|pelvic_comp>meralgie",
-  "texte": "« Compression du nerf cutané latéral (sous l'épine iliaque antéro-supérieure) » — current LR+ 5, LR− 0.4",
   "revu": true
  },
  "HANC-P16": {
@@ -1133,12 +1198,30 @@
   "texte": "« Clarke's test » — current Se 39%, Sp 67%, LR+ 1.18, LR− 0.91",
   "revu": true
  },
+ "GENO-P26": {
+  "region": "genou",
+  "dx": "sfp",
+  "cle": "sfp|tilt>sfp",
+  "texte": "« Inclinaison de la rotule (tilt) réduite » — current LR+ 5.4, LR− NaN"
+ },
  "GENO-P2": {
   "region": "genou",
   "dx": "menisque",
   "cle": "menisque|blocage>menisque",
   "texte": "« Blocages vrais (impossible d'étendre le genou) » — current Se 47%, Sp 74%, LR+ 2, LR− 0.8",
   "revu": true
+ },
+ "GENO-P27": {
+  "region": "genou",
+  "dx": "lcp",
+  "cle": "lcp|quad_actif>lcp",
+  "texte": "« Quadriceps active test » — current Se 54%, Sp 97%, LR+ 18, LR− 0.47"
+ },
+ "GENO-P28": {
+  "region": "genou",
+  "dx": "rotule",
+  "cle": "rotule|apprehension_inv>rotule",
+  "texte": "« Appréhension dynamique inversée » — current Se 94%, Sp 88%, LR+ 7.94, LR− 0.07"
  },
  "GENO-P3": {
   "region": "genou",
@@ -1349,6 +1432,18 @@
   "cle": "entorse_lat|talar_tilt|normal",
   "texte": "Talar tilt test = « Normal et indolore » — current LR 0.8",
   "revu": true
+ },
+ "CHEV-P29": {
+  "region": "cheville",
+  "dx": "instab",
+  "cle": "instab|cait>instab",
+  "texte": "« Score CAIT (Cumberland Ankle Instability Tool, sur 30) (positif : 25 ou moins) » — current Se 97%, Sp 87%, LR+ 7.32, LR− 0.04"
+ },
+ "CHEV-P30": {
+  "region": "cheville",
+  "dx": "conflit",
+  "cle": "conflit|liu>conflit",
+  "texte": "« Conflit antérolatéral : au moins 5 des 6 signes de Liu » — current Se 94%, Sp 75%, LR+ 3.76, LR− 0.08"
  },
  "CHEV-P8": {
   "region": "cheville",

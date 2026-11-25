@@ -367,7 +367,7 @@ async function locomoteur(nav) {
     // Accueil : le bouton et le schéma du corps (zones des 9 régions, avec leur côté), sans tuiles de régions.
     const z = await p.evaluate(() => ({ titre: document.querySelector("h1").textContent, tuiles: document.querySelectorAll(".lo-region").length,
       bouton: document.querySelector(".lo-demarrer a").getAttribute("href"), zones: [...document.querySelectorAll(".lo-planche a")].map(a => a.getAttribute("href")) }));
-    const regionsZones = [...new Set(z.zones.map(h => new URL(h, BASE).searchParams.get("plainte")))];
+    const regionsZones = [...new Set(z.zones.flatMap(h => new URL(h, BASE).searchParams.get("plainte").split(",")))];
     verifier("MSK Morand : accueil avec le bouton et le schéma du corps (9 régions cliquables, sans tuiles)",
       z.titre === "MSK Morand" && z.tuiles === 0 && z.bouton === "/locomoteur/consultation/" && regionsZones.length === 9 && z.zones.includes("/locomoteur/consultation/?plainte=genou&cote=D") && !(await deborde(p)), { ...z, regionsZones });
     verifier("MSK Morand : accueil sans erreur", erreurs.length === 0, erreurs);
@@ -375,6 +375,16 @@ async function locomoteur(nav) {
     const d = await p.evaluate(() => ({ url: location.pathname, plaintes: [...document.querySelectorAll(".lo-puce[aria-pressed=true][data-region]")].map(b => b.dataset.region),
       cote: document.querySelector('[data-q="genou:cote"][aria-pressed="true"]')?.textContent }));
     verifier("MSK Morand : une zone du schéma ouvre la consultation avec la plainte et son côté (genou droit)", d.url === "/locomoteur/consultation/" && d.plaintes.join() === "genou" && /^Droit/.test(d.cote || ""), d);
+    // Cuisse et jambe : la zone ouvre les deux plaintes voisines, du même côté (lien de l'accueil, puis clic dans l'atlas).
+    await p.goto(`${BASE}/locomoteur/consultation/?plainte=genou,cheville&cote=G`, { waitUntil: "networkidle" }); await p.waitForSelector('[data-q="cheville:cote"]');
+    const jambe = await p.evaluate(() => ({ plaintes: [...document.querySelectorAll(".lo-puce[aria-pressed=true][data-region]")].map(b => b.dataset.region).sort().join(),
+      cotes: ["genou", "cheville"].map(r => document.querySelector(`[data-q="${r}:cote"][aria-pressed="true"]`)?.dataset.v).join(),
+      zones: document.querySelectorAll('.lo-zone[data-zone="hanche,genou"], .lo-zone[data-zone="genou,cheville"]').length }));
+    await p.click('.lo-zone[data-zone="hanche,genou"][data-cote="G"] >> nth=0'); await p.waitForSelector('[data-q="hanche:cote"]'); await p.waitForTimeout(200);
+    const cuisse = await p.evaluate(() => ({ plaintes: [...document.querySelectorAll(".lo-puce[aria-pressed=true][data-region]")].map(b => b.dataset.region).sort().join(),
+      cote: document.querySelector('[data-q="hanche:cote"][aria-pressed="true"]')?.dataset.v }));
+    verifier("MSK Morand : zones cuisse et jambe (8) ; la jambe gauche ouvre genou et cheville à gauche ; la cuisse gauche ajoute la hanche à gauche",
+      z.zones.some(h => h.includes("plainte=hanche,genou")) && jambe.zones === 8 && jambe.plaintes === "cheville,genou" && jambe.cotes === "G,G" && cuisse.plaintes === "cheville,genou,hanche" && cuisse.cote === "G", { jambe, cuisse });
     await ctx.close();
     const r = { liens: regionsZones.map(x => `/locomoteur/${x}/`) };
     // Chaque région ouverte : la page se charge sans erreur, calcule, rédige la note et ne déborde pas à 390 px.
@@ -504,19 +514,37 @@ async function locomoteur(nav) {
       return { existe: !!q, g: q && q.effets[0].g, base: bic(b), pos: bic({ ...b, uppercut: "oui" }), neg: bic({ ...b, uppercut: "non" }) }; });
     verifier("Épaule : Uppercut (long biceps), dans le groupe des tests du biceps ; positif fait monter, négatif fait baisser",
       up.existe && up.g === "biceps-ex" && up.pos > up.base && up.neg < up.base, up);
+    const hy = await p.evaluate(() => { const LO = window.Locomoteur, d = LO.donnees.epaule, pr = rep => LO.calculer(d, rep).diagnostics.find(x => x.x.id === "ppr").p;
+      const base = { age: "70", sexe: "F", cote: "B", raideur_ceintures: "oui", raideur: "plus30", crp_vs: "oui" };
+      return { jerk: !!d.parQ.jerk, kim: !!d.parQ.kim, haut: pr({ ...base, raideur45: "oui", hanches_ppr: "oui", fr_ccp_neg: "oui", autres_articulations: "non" }),
+        bas: pr({ ...base, raideur45: "non", hanches_ppr: "oui", fr_ccp_neg: "non", autres_articulations: "oui" }) }; });
+    verifier("Épaule : Jerk et Kim ajoutés ; score EULAR/ACR de la polymyalgia (4 ou plus : probable ; moins de 4 : peu probable)", hy.jerk && hy.kim && hy.haut > .5 && hy.bas < .2, hy);
     verifier("Épaule : aucune erreur", erreurs.length === 0, erreurs);
     // Amplitudes ajoutées dans les autres régions (surtout passives ; pas de rotations actives à la hanche), présentes et dans la note.
     const n = { cervical: ["arom_flexion", "arom_inclinaison"], coude: ["prom_flexion", "prom_extension", "prom_pronation", "prom_supination"],
       poignet: ["prom_flexion", "prom_extension", "prom_dev_rad", "prom_dev_uln"], lombaire: ["arom_inclinaison", "arom_rotation"], hanche: ["prom_flexion", "prom_extension"],
       cheville: ["prom_df", "prom_fp"], pied: ["prom_mtp1_flex"] }, amp = [];
+    const tests = { poignet: ["ext_mc1", "add_mc1", "synergie_ecu"], hanche: ["hec", "piri_actif", "piri_assis", "compression_pelvienne", "thomas"],
+      genou: ["apprehension_inv", "tilt", "quad_actif"], lombaire: ["p_symphyse", "trendelenburg_mod"], cheville: ["cait", "liu"] }, hyTests = [];
     for (const [reg, ids] of Object.entries(n)) {
       await p.goto(`${BASE}/locomoteur/${reg}/`, { waitUntil: "networkidle" });
       amp.push(await p.evaluate(([reg, ids]) => { const LO = window.Locomoteur, d = LO.donnees[reg];
         return [reg, ids.every(id => d.parQ[id] && d.parQ[id].effets.length === 0), LO.rediger(d, LO.calculer(d, Object.fromEntries(ids.map(id => [id, "lim_douleur"])))).includes(" limitée"),
           !Object.keys(d.parQ).some(k => reg === "hanche" && /^arom_(re|ri)$/.test(k)) && (reg !== "hanche" || (!!d.parQ.thomas && /Thomas modifié positif/.test(LO.rediger(d, LO.calculer(d, { thomas: "genou" })))))]; }, [reg, ids]));
+      if (tests[reg]) hyTests.push(await p.evaluate(([reg, ids]) => { const LO = window.Locomoteur, d = LO.donnees[reg];
+        const pitt = reg !== "genou" || ["Règle de Pittsburgh négative", "Radiographie du genou indiquée (règle de Pittsburgh)"].every((t, i) =>
+          LO.calculer(d, { age: i ? "60" : "30", apparition: "subit_trauma", duree: "lt7", mecanisme: "direct", ott_4pas: "non" }).alertes.some(a => a.titre === t));
+        return [reg, ids.filter(id => !d.parQ[id]), pitt, !d.parQ.pelvic_comp]; }, [reg, tests[reg]]));
     }
     verifier("Amplitudes ajoutées (cervical, coude, poignet, lombaire, hanche, cheville, pied) : présentes, sans poids, dans la note ; pas de rotations actives à la hanche ; test de Thomas",
       amp.length === 7 && amp.every(([, ok, note, sansRot]) => ok && note && sansRot) && erreurs.length === 0, { amp, erreurs });
+    await p.goto(`${BASE}/locomoteur/genou/`, { waitUntil: "networkidle" });
+    hyTests.push(await p.evaluate(ids => { const LO = window.Locomoteur, d = LO.donnees.genou;
+      const pitt = ["Règle de Pittsburgh négative", "Radiographie du genou indiquée (règle de Pittsburgh)"].every((t, i) =>
+        LO.calculer(d, { age: i ? "60" : "30", apparition: "subit_trauma", duree: "lt7", mecanisme: "direct", ott_4pas: "non" }).alertes.some(a => a.titre === t));
+      return ["genou", ids.filter(id => !d.parQ[id]), pitt, true]; }, tests.genou));
+    verifier("Tests high yield ajoutés (poignet, hanche, genou, lombaire, cheville) présents ; règle de Pittsburgh ; ancienne compression du nerf cutané retirée",
+      hyTests.length === 5 && hyTests.every(([, manquants, pitt, retire]) => !manquants.length && pitt && retire), hyTests);
     await ctx.close();
   }
 }

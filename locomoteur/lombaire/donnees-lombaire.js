@@ -4,7 +4,7 @@
    Même format que le genou : p() provisoire, est() à vérifier, ver()/verRv() vérifié avec sa source. */
 (function () {
   "use strict";
-  const { p, est, o, m, ouiNon, choix, multi } = window.Locomoteur.outils, C = window.Locomoteur.commun;
+  const { p, lit, est, o, m, ouiNon, choix, multi } = window.Locomoteur.outils, C = window.Locomoteur.commun;
   const ver = (se, sp, piste, extra) => ({ se, sp, piste, statut: "verifie", ...extra });
   const verRv = (rvp, rvn, piste, extra) => ({ rvp, rvn, piste, statut: "verifie", ...extra });
   const trauma = L => L.trauma(), PALP = "palp", TEST = "test";
@@ -29,6 +29,9 @@
       { t: "Consignes de reconsultation : engourdissement en selle, trouble urinaire ou fécal, faiblesse progressive, fièvre, douleur nocturne croissante" }] }];
 
   const INFOS = {
+    scoliose_vue: { info: "Test d'Adams : penché vers l'avant, on cherche une gibbosité (bosse costale ou lombaire) d'un côté. Se 84,4 %, Sp 95,2 % (RV+ 17,6), mais chez l'adolescent ; concordance médiocre en lombaire chez l'adulte.", video: "Adams forward bend test" },
+    p_symphyse: { info: "Grossesse ou post-partum : symphyse pubienne douloureuse à la palpation. Douleur de ceinture pelvienne : Se 81 %, Sp 99 % (chiffres de seconde main, à confirmer)." },
+    trendelenburg_mod: { info: "Debout sur une jambe, l'autre hanche et le genou fléchis à 90°. Positif : douleur à la symphyse ou à la sacro-iliaque. Douleur de ceinture pelvienne : Se 60 %, Sp 97 % (chiffres de seconde main ; geste à confirmer)." },
     jambe_dos: { info: "Douleur de jambe plus forte que la douleur lombaire : élément du modèle de Vroomen pour la compression radiculaire (avec dermatome, toux et douleur paroxystique : Se 72 %, Sp 80 %) et du cluster de Cook (sténose)." },
     toux_jambe: { info: "Toux ou éternuement aggravant seulement la jambe : RV+ 1,74 pour la compression radiculaire (IRM, n = 395) ; aggravant le dos ou la jambe : RV ≈ 1, sans valeur." },
     assis_sans_douleur: { info: "Pas de douleur en position assise : RV+ 7,4 pour la sténose lombaire (Se 47 %, Sp 94 % ; Suri 2010)." },
@@ -240,12 +243,13 @@
           ajouts: [ouiNon("base_elargie", "Marche à base élargie", { oui: "marche à base élargie", non: "", ligneEx: "demarche", effets: { stenose: ver(.42, .97, `${SURI} : RV+ 13 (1,9–95)`) } }),
             ouiNon("romberg", "Romberg anormal", { oui: "Romberg anormal", non: "Romberg normal", ligneEx: "demarche", effets: { stenose: ver(.4, .91, `${SURI} : RV+ 4,2`) } })] }),
         { titre: "Inspection et palpation", sep: ", ", toutNormal: true, questions: [
-          ouiNon("sill", "Décroché entre deux épineuses basses (marche d'escalier)", { oui: "décroché palpable entre les épineuses", non: "pas de décroché",
+          ouiNon("sill", "Décroché entre deux épineuses basses (sill sign, marche d'escalier)", { oui: "décroché palpable entre les épineuses", non: "pas de décroché",
             effets: { spondylolisthesis: ver(.81, .89, `${PETERSEN} : « sill sign », RV+ 7,4 ; RV− 0,21 (marche d'escalier : RV+ 4,7)`), spondylolyse: ver(.6, .87, `${PETERSEN} : marche d'escalier à la palpation, RV+ 4,7`) } }),
           ouiNon("p_paravert", "Paravertébraux douloureux ou en spasme", { oui: "paravertébraux douloureux", non: "paravertébraux indolores", effets: { musculaire: p(3, .4), commune: p(1.2, .9) } }),
           ouiNon("p_epineuse", "Épineuse douloureuse à la percussion", { oui: "épineuse douloureuse à la percussion", non: "", effets: { fracture_osteo: p(3, .5), infection: p(3, .5), cancer: p(2, .7), spondylolyse: p(1.5, .9) } }),
           ouiNon("p_si", "Sillon sacro-iliaque douloureux", { oui: "sillon sacro-iliaque douloureux", non: "", effets: { si: p(1.5, .7), spa: p(1.3, .9) } }),
-          ouiNon("scoliose_vue", "Scoliose visible ou gibbosité", { oui: "scoliose visible", non: "", effets: { scoliose: p(5, .5) } }),
+          ouiNon("scoliose_vue", "Test d'Adams : gibbosité en flexion avant (ou scoliose visible)", { oui: "gibbosité au test d'Adams", non: "",
+            effets: { scoliose: lit(.844, .952, "Côté et coll., 1998, Spine ; USPSTF 2018 : RV+ 17,6 (calculé), données d'adolescents ; concordance médiocre en lombaire") } }),
         ] },
         { titre: "AROM", toutNormal: true, questions: [
           C.amplitude("arom_flexion", "Flexion lombaire", "flexion", { complete: { stenose: 1.5 }, lim_douleur: { discogenique: 2, hernie: 2, musculaire: 1.5, stenose: .6 }, lim_raideur: { spa: 1.5, scoliose: 1.3 } }, false,
@@ -270,6 +274,10 @@
           ouiNon("femoral", "Étirement du nerf fémoral", { court: "étirement du nerf fémoral", horsNormal: true, effets: { hernie: verRv(5.7, undefined, `${SURI11} : atteinte L3, RV+ 5,7`) } }),
           ouiNon("ext_passive", "Extension lombaire passive", { court: "extension lombaire passive", genre: "f", horsNormal: true,
             effets: { spondylolisthesis: ver(.84, .9, `${KASAI} : instabilité radiologique, RV+ 8,8 ; RV− 0,18`), spondylolyse: p(2, .8) } }),
+          ouiNon("p_symphyse", "Symphyse pubienne douloureuse (grossesse)", { court: "symphyse pubienne douloureuse", genre: "f", si: L => L.oui("grossesse"),
+            effets: { grossesse: lit(.81, .99, "Chiffres de seconde main (base FlashCards ; Rejano-Campo et coll., 2017, Health Qual Life Outcomes), à confirmer", { g: "ceinture-ex" }) } }),
+          ouiNon("trendelenburg_mod", "Trendelenburg modifié (grossesse)", { court: "Trendelenburg modifié", si: L => L.oui("grossesse"),
+            effets: { grossesse: lit(.6, .97, "Chiffres de seconde main (base FlashCards ; Rejano-Campo et coll., 2017, Health Qual Life Outcomes), à confirmer", { g: "ceinture-ex" }) } }),
           ouiNon("centralisation", "Centralisation aux mouvements répétés", { court: "centralisation", genre: "f", horsNormal: true, effets: { discogenique: ver(.4, .94, `${LASLETT_C} : RV+ 6,9`) } }),
           ouiNon("hyperext_uni", "Hyperextension unipodale (stork)", { court: "hyperextension unipodale", genre: "f", horsNormal: true, effets: { spondylolyse: { rvp: 1.5, rvn: .8, statut: "a_verifier", piste: "Masci et coll., 2006, BJSM (PMID 16980534) : Se 50–55 %, Sp faible" } } }),
           ouiNon("si_distraction", "Sacro-iliaque : distraction", { court: "distraction sacro-iliaque", genre: "f", horsNormal: true }),
