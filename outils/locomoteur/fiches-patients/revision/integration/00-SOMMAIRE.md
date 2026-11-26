@@ -1,6 +1,6 @@
 # Révision des fiches patients par OpenEvidence : ce qui a été retenu
 
-26 novembre 2026. Sept régions reçues : cervical, coude, poignet et main, lombaire, hanche, cheville et pied. Épaule et genou : pas encore reçus.
+26 novembre 2026. Huit régions reçues : cervical, coude, poignet et main, lombaire, hanche, genou, cheville et pied. Épaule : pas encore reçue.
 
 ## Les règles appliquées (consigne du Dr Morand)
 
@@ -24,11 +24,12 @@
 | Poignet et main | 17 | 105 | 13 | — |
 | Rachis lombaire | 12 | 89 | 7 | — |
 | Hanche et bassin | 11 | 61 | 4 | HAN-12, HAN-13, HAN-14, HAN-15 |
+| Genou | 18 | 90 | 8 | — |
 | Cheville et jambe | 15 | 91 | 9 | — |
 | Pied | 12 | 85 | 9 | PIE-13, PIE-14 |
-| **Total** | **91** | **577** | **51** | |
+| **Total** | **109** | **667** | **59** | |
 
-Parmi les changements écartés, 17 l'ont été à ma relecture, selon la même règle (nuances par manque d'études, statistiques). Ils sont notés « décision manuelle » dans les journaux.
+Parmi les changements écartés, 21 l'ont été à ma relecture, selon la même règle (nuances par manque d'études, statistiques). Ils sont notés « décision manuelle » dans les journaux.
 
 ## Mise en page
 
@@ -48,7 +49,7 @@ Ces défauts, relevés par OpenEvidence dans quelques fiches, ont été corrigé
 
 - **Pied :** fin de PIE-12 (Iselin), PIE-13 (Sever, rangée aussi en cheville) et PIE-14 (contusion du pied).
 - **Hanche :** fin de HAN-11 (signes « Revoyez votre médecin si »), puis HAN-12 à HAN-15.
-- **Épaule** (EPA-01 à 14) et **genou** (GEN-01 à 18) : pas encore reçus.
+- **Épaule** (EPA-01 à 14) : pas encore reçue.
 
 ## Où trouver tout cela
 

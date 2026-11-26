@@ -118,6 +118,8 @@ def analyser(contenu):
         # Déplacements : « ancien » (sous « … ») → « nouveau » (ajouté ici) ; → Même texte, déplacé ici, suivi de « … » ; → déplacé ici …
         a = re.sub(r"\s*\(sous «[^»]*»\)\s*$", "", a.strip())
         n = re.sub(r"\s*\((?:ajouté|ajoutée|déplacé|déplacée)[^()]*\)\s*$", "", n.strip())
+        m_aj = re.match(r"^ajout(?:é|ée)? de\s*«\s*(.*)\s*»\s*$", n.strip(), re.I)
+        if m_aj: n = m_aj.group(1)
         m_meme = re.match(r"^Même texte.*?(?:suivi de|avec|puis)\s*«\s*(.*?)\s*»", n.strip(), re.I)
         if m_meme and sans_guillemets(a) not in VIDE: n = sans_guillemets(a).rstrip() + " " + m_meme.group(1)
         elif re.match(r"^(Même texte|déplacé ici|déplacée ici)", n.strip(), re.I): n = "texte ci-dessus"
@@ -134,7 +136,7 @@ def analyser(contenu):
         return {"type": "ajout", "ajouts": aj, "raison": (raison or corps).strip(), "corps": corps}
     return {"type": "note", "raison": (raison or corps).strip()}
 
-VIDE = {"(rien)", "rien", "(ajout)", "ajout", "(aucun)", "(nouveau)", "nouveau", "(nouvel élément)", "(aucun texte)", "aucun texte", "", "(nouvelle ligne)", "(ajouté)"}
+VIDE = {"(absent)", "absent", "(absente)", "(rien)", "rien", "(ajout)", "ajout", "(aucun)", "(nouveau)", "nouveau", "(nouvel élément)", "(aucun texte)", "aucun texte", "", "(nouvelle ligne)", "(ajouté)"}
 SENT = "\x02"   # « texte ci-dessus » / « texte ci-contre » : le nouveau texte est la ligne elle-même
 RETIRE = re.compile(r"^\(?(retiré|supprimé|retirée|supprimée|retrait)\)?\.?$", re.I)
 HEDGE = re.compile(r"aucun essai|aucune (donnée|étude|source|preuve|recommandation)|preuves? (limitée|faible)|certitude (faible|très faible)|faible certitude|non validé|pas d'essai|données (limitées|indirectes|probantes limitées)|non retrouvé|aucun dosage|peu de preuves|niveau de preuve", re.I)
@@ -218,6 +220,7 @@ def resoudre(code, section, l, journal):
     res = re.sub(r"\[(?:VÉRIFIÉ|VERIFIÉ|À VÉRIFIER|A VÉRIFIER|NOTE|Note)[^\]]*\]", "", res)
     res = re.sub(r"\bÀ VÉRIFIER\b\s*:?", "", res)
     for _ in range(2): res = re.sub(r"\s*\[[^\[\]]*\]", "", res)   # aucun crochet dans le texte du patient
+    res = re.sub(r"\s*\((?=[^()]*(?:\bet al\.|\bet coll\.|PMID|doi:))[^()]*\)\.?", "", res)   # parenthèse qui cite une étude
     res = re.sub(r"\s*\((?:déplacé|déplacée|déplacés)[^()]*\)", "", res)   # « (déplacé ici) »
     res = norm(res)
     if res.startswith("«") and res.endswith("»") and res.count("«") == 1: res = res[1:-1].strip()

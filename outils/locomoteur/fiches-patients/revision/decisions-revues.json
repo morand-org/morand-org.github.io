@@ -131,5 +131,27 @@
     "Douleur qui revient dès la reprise de la marche rapide ou du sport."
    ]
   }
- }
+ },
+ "GEN-09": [
+  [
+   "calment souvent",
+   "non"
+  ]
+ ],
+ "GEN-10": [
+  [
+   "peut aider à éviter",
+   "non"
+  ],
+  [
+   "soulagent le plus souvent",
+   "non"
+  ]
+ ],
+ "GEN-16": [
+  [
+   "le calment souvent",
+   "non"
+  ]
+ ]
 }
