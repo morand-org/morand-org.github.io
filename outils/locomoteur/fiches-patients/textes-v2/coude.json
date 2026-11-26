@@ -49,7 +49,7 @@
   ],
   "duree_habituelle": "Les premiers progrès apparaissent souvent en 6 à 12 semaines, mais la guérison complète prend souvent plusieurs mois. Environ 9 personnes sur 10 vont nettement mieux en un an.",
   "materiel": [
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "table"
   ],
   "exercices": [
@@ -172,7 +172,7 @@
   "duree_habituelle": "Les premiers progrès apparaissent souvent en 6 à 12 semaines; la guérison complète prend souvent de 3 à 6 mois.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "table"
   ],
   "exercices": [
@@ -275,7 +275,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Les exercices ne doivent provoquer aucune douleur au coude. Si le coude fait mal pendant ou après un exercice, arrêtez cet exercice et parlez-en à votre médecin ou à votre physiothérapeute. Une fatigue des muscles des jambes ou du tronc est normale. Le coude doit être à 0 sur 10, même au toucher, avant de recommencer à lancer.",
   "urgence": [
@@ -290,7 +290,7 @@
   "duree_habituelle": "Arrêt des lancers d'au moins 4 à 6 semaines, puis reprise par étapes sur 4 à 8 semaines. Le retour à la compétition se fait le plus souvent après 2 à 3 mois.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -393,7 +393,7 @@
    "Forcer un étirement ou un exercice qui augmente les picotements dans les doigts."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Les exercices ne doivent pas déclencher ni augmenter les picotements ou l'engourdissement dans l'annulaire et l'auriculaire. Si cela arrive, réduisez l'amplitude du mouvement ou arrêtez l'exercice. Un léger tiraillement qui disparaît dès que vous relâchez est acceptable.",
@@ -719,7 +719,7 @@
   "duree_habituelle": "Environ 6 à 12 semaines de réadaptation avant le programme de lancers par étapes. Le retour au jeu se fait en moyenne vers 3 mois, parfois plus tard.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -820,7 +820,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Les exercices ne doivent provoquer aucune douleur au coude. Arrêtez tout mouvement qui cause une douleur, un accrochage ou un clic, et parlez-en à votre médecin ou à votre physiothérapeute. Une fatigue des muscles des jambes ou du tronc est normale.",
   "urgence": [
@@ -833,8 +833,7 @@
   ],
   "duree_habituelle": "La guérison de l'os est longue. Une imagerie de contrôle est habituellement faite après 3 à 6 mois; la guérison complète prend souvent de 6 à 12 mois, parfois plus. La reprise du sport dépend du contrôle par imagerie.",
   "materiel": [
-   "élastique",
-   "poids léger ou bouteille d'eau"
+   "élastique"
   ],
   "exercices": [
    {
@@ -937,7 +936,7 @@
   "duree_habituelle": "Variable : souvent plusieurs semaines d'arrêt des lancers, puis une reprise par étapes sur 4 à 6 semaines.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1139,7 +1138,7 @@
    "Faire des étirements appuyés qui laissent une douleur sourde persistante."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Les exercices ne doivent pas augmenter la douleur de l'avant-bras ni provoquer de picotements. Si la douleur est plus forte après l'exercice ou le lendemain, réduisez l'amplitude ou arrêtez cet exercice.",

@@ -32,7 +32,7 @@
    "Forcer des étirements du poignet vers l'arrière ou tout exercice qui augmente les picotements dans les doigts."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle disparaît rapidement, mais arrêtez tout mouvement qui augmente les picotements ou l'engourdissement dans les doigts.",
@@ -152,7 +152,7 @@
   "duree_habituelle": "La gêne diminue souvent en quelques semaines. Le kyste peut disparaître de lui-même en plusieurs mois ou années, mais il peut aussi persister. S'il gêne, une ponction (le kyste revient plus d'une fois sur deux) ou une chirurgie (récidive moins fréquente) peuvent être discutées.",
   "materiel": [
    "serviette",
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "balle",
    "table"
   ],
@@ -254,7 +254,7 @@
   "duree_habituelle": "Amélioration habituelle en 4 à 8 semaines avec l'attelle et l'adaptation des gestes. Si la douleur persiste, une infiltration de cortisone soulage la majorité des personnes.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "table"
   ],
   "exercices": [
@@ -353,7 +353,7 @@
   ],
   "duree_habituelle": "Amélioration habituelle en 2 à 6 semaines pour une tendinite simple. Si le tendon du côté du petit doigt est instable (il saute hors de sa gouttière), la guérison est beaucoup plus longue et demande une immobilisation prescrite par un médecin.",
   "materiel": [
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "table"
   ],
   "exercices": [
@@ -550,7 +550,7 @@
   ],
   "duree_habituelle": "L'amélioration est progressive sur 3 à 6 mois. Une partie des personnes gardent des symptômes au-delà; une chirurgie peut alors être discutée.",
   "materiel": [
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "balle",
    "table"
   ],
@@ -742,7 +742,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Aucune douleur au poignet n'est acceptable : si un exercice fait mal au poignet, arrêtez-le. Le poignet doit être complètement indolore au repos, au toucher et dans tous les mouvements avant tout retour aux appuis; si la douleur revient à la reprise, arrêtez et reconsultez.",
   "urgence": [],
@@ -839,7 +839,7 @@
    "Plier fortement le poignet vers l'arrière sous charge."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, mais arrêtez tout mouvement qui augmente les picotements dans l'annulaire ou l'auriculaire.",
@@ -1563,7 +1563,6 @@
   ],
   "duree_habituelle": "Reprise d'une grimpe facile après environ 4 à 8 semaines selon la gravité; retour complet rarement avant 2 à 3 mois. La protection de la poulie en grimpant est souvent conseillée pendant 3 à 6 mois.",
   "materiel": [
-   "poids léger ou bouteille d'eau",
    "balle"
   ],
   "exercices": [

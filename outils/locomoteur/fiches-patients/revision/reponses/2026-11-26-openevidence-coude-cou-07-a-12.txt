@@ -1,0 +1,440 @@
+# Région COUDE — fiches révisées COU-07 à COU-12
+Légende de révision
+Chaque changement est marqué : [MODIFIÉ : ancien texte → nouveau texte — raison ; référence]. Quand le nouveau texte est la ligne juste au-dessus, le marqueur écrit « → texte ci-dessus ».
+« À VÉRIFIER » = donnée non confirmée dans les sources consultées.
+Dans « Consultez rapidement », les mentions « (le jour même) » et « (dans les prochains jours) » séparent l'urgent du rapide. Ce classement repose sur un jugement clinique : aucune source consultée ne gradue ces délais.
+Les marqueurs et la légende sont destinés à l'équipe de révision : à retirer avant la remise aux patients.
+## === FICHE COU-07 · [coude/lcu] ===
+Titre : Entorse du ligament collatéral ulnaire du coudeSous-titre : Entorse du ligament interne du coude chez le lanceurAncien titre : Entorse du ligament interne du coude (lanceur)Diagnostic correspondant dans MSK Morand : Lésion partielle du ligament collatéral ulnaire (lanceur)
+EN BREF
+Le ligament à l'intérieur du coude est étiré ou partiellement déchiré.
+Environ 8 sportifs sur 10 reprennent leur sport sans opération.[MODIFIÉ : « Beaucoup de lésions partielles guérissent sans opération. » → texte ci-dessus — retour au sport chez 79,7 % des athlètes traités sans chirurgie (15 études, 365 patients) ; Gopinatth et al., Am J Sports Med 2023]
+Le retour au lancer se fait par étapes, après un arrêt complet.
+CE QUE VOUS AVEZLe ligament situé à l'intérieur du coude, qui retient l'articulation quand vous lancez fort, est étiré ou partiellement déchiré. Beaucoup de déchirures partielles guérissent sans opération grâce à un arrêt des lancers suivi d'un renforcement de l'avant-bras, de l'épaule, du tronc et des hanches. Les chances sont meilleures quand la déchirure est petite et située du côté du bras plutôt que du côté de l'avant-bras. Cette fiche ne s'applique pas à une rupture complète du ligament.[MODIFIÉ : ajout de la phrase « Les chances sont meilleures… » — retour au sport de 89,7 % pour les déchirures du côté du bras (proximales) contre 41,2 % du côté de l'avant-bras (distales), et succès moindre quand la lésion est plus grave ; Gopinatth et al. 2023]
+POURQUOI ÇA ARRIVE
+Lancers répétés et puissants.
+Fatigue et mécanique de lancer à corriger.
+Manque de force des jambes, du tronc et de l'épaule.
+SOULAGER LA DOULEUR
+Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+Si vous avez reçu une injection de plasma riche en plaquettes (PRP), demandez à votre médecin avant de prendre un anti-inflammatoire.[MODIFIÉ : (aucun texte) → texte ci-dessus — les protocoles avec PRP demandent d'éviter les anti-inflammatoires après l'injection ; Gopinatth et al. 2023 (tableau des protocoles)]
+CE QUI AIDE
+Arrêter les lancers pendant la période fixée par votre médecin (souvent 4 à 6 semaines, parfois plus).
+Renforcer les muscles de l'intérieur de l'avant-bras, qui protègent le ligament.
+Renforcer l'épaule, l'omoplate, le tronc et les hanches pour mieux répartir la force du lancer.
+Reprendre les lancers par étapes, seulement après le feu vert médical et sans douleur à l'intérieur du coude.
+À ÉVITER POUR L'INSTANT
+Lancer, servir ou smasher pendant la période de guérison.
+Faire des gestes qui tirent l'avant-bras vers l'extérieur et ouvrent l'intérieur du coude (lancers, bras de fer, certains appuis au sol).
+Forcer pour tendre le coude si cela pince ou fait mal.
+RÈGLE DE DOULEUR (0 À 10)Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale dans l'heure qui suit l'exercice. Une douleur à l'intérieur du coude n'est pas acceptable : arrêtez l'exercice qui la provoque. L'intérieur du coude doit être totalement sans douleur avant de recommencer à lancer.À VÉRIFIER : le délai d'une heure pour la fatigue musculaire n'est appuyé par aucune source consultée (avis d'expert, peut être gardé). Le critère principal (aucune douleur à l'intérieur du coude) est conforme aux protocoles (Wilk et al., Sports Health 2012).
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Claquement ressenti à l'intérieur du coude, suivi d'une douleur vive ou d'un bleu (le jour même ou le lendemain).[MODIFIÉ : ajout du délai — séparer l'urgent ; avis clinique]
+REVOYEZ VOTRE MÉDECIN SI
+Picotements ou engourdissements dans l'annulaire et l'auriculaire.
+Douleur à l'intérieur du coude qui revient dès les premiers lancers légers.
+Aucun progrès après 6 à 8 semaines de réadaptation, ou pas de retour possible au lancer après 3 mois de réadaptation bien suivie (avis en orthopédie pour discuter des options).[MODIFIÉ : ajout de « Aucun progrès après 6 à 8 semaines de réadaptation, ou » — la reconstruction est envisagée en l'absence de réponse après 6 à 8 semaines dans les séries de joueurs professionnels ; McCarty, Curr Rev Musculoskelet Med 2019]
+DURÉE HABITUELLEEnviron 6 à 8 semaines de réadaptation, parfois jusqu'à 12, avant le programme de lancers par étapes. Le retour au jeu se fait en moyenne vers 3 mois, parfois plus tard.[MODIFIÉ : « Environ 6 à 12 semaines de réadaptation » → « Environ 6 à 8 semaines de réadaptation, parfois jusqu'à 12 » — début des lancers à 55 jours en moyenne ; Buchanan et al., Sports Health 2025. Retour au jeu à 91,9 jours en moyenne : confirmé ; Gopinatth et al. 2023]
+PROGRAMME D'EXERCICESMatériel : élastique, poids léger ou bouteille d'eau
+Exercice 1 : Mobilité complète du coude sans douleur
+Phase : Dès maintenant
+But : Pour garder le coude souple.
+Départ : Debout ou assis, le bras détendu.
+Mouvement : Pliez puis tendez doucement le coude dans toute l'amplitude confortable.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Aucune : le but est de garder une mobilité complète pendant l'arrêt des lancers.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Forcer l'extension contre une douleur ou un blocage.
+Illustration demandée : Dessin au trait d'un sportif debout pliant et tendant le coude sans poids.
+Exercice 2 : Renforcement des muscles qui plient le poignet et les doigts
+Phase : Quand la douleur diminue
+But : Pour renforcer les muscles qui protègent le ligament.
+Départ : Assis, l'avant-bras posé sur la cuisse, paume vers le plafond, tenant un poids d'environ 0,5 kg.[MODIFIÉ : « environ 1 kg » → « environ 0,5 kg » — la seule charge de départ publiée est de 1 livre (environ 0,45 kg), dans un protocole après reconstruction du ligament ; Ellenbecker et al., Sports Health 2009]
+Mouvement : Pliez lentement le poignet vers le haut en 2 secondes, puis redescendez en 3 secondes.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Augmentez le poids graduellement, puis ajoutez la rotation de l'avant-bras (tourner la paume vers le bas) avec un petit poids.
+Plus facile : Faites-le sans poids.
+Erreur fréquente : Aller trop vite ou continuer malgré une douleur à l'intérieur du coude.
+Illustration demandée : Dessin au trait d'un avant-bras posé sur une cuisse soulevant lentement un petit haltère, paume vers le haut.
+Exercice 3 : Rotation externe de l'épaule avec élastique
+Phase : Pour progresser : seulement quand l'intérieur du coude ne fait plus mal, habituellement pas avant 4 à 6 semaines, et avec l'accord de votre physiothérapeute.[MODIFIÉ : « Quand la douleur diminue » → texte ci-dessus — la rotation externe de l'épaule crée une force qui ouvre l'intérieur du coude et tire sur le ligament ; les protocoles l'évitent au début, la limitent à un petit arc vers la 4e semaine et la progressent à partir de la 6e semaine ; Ellenbecker et al., Sports Health 2009 (protocoles après reconstruction, appliqués ici par extension)]
+But : Pour renforcer l'épaule qui lance.
+Départ : Debout, coude plié à 90 degrés et collé aux côtes, tenant un élastique léger fixé du côté opposé.
+Mouvement : Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate bien placée et le coude collé au corps. Commencez par un petit mouvement. Revenez lentement. Arrêtez si vous sentez une douleur à l'intérieur du coude.[MODIFIÉ : ajout de « Commencez par un petit mouvement. » et de « Arrêtez si vous sentez une douleur à l'intérieur du coude. » — même raison ; Ellenbecker et al. 2009]
+Dosage : 3 séries de 12 répétitions, 3 à 4 fois par semaine.
+Progression : Passez à un élastique plus résistant.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Décoller le coude des côtes ou hausser l'épaule.
+Illustration demandée : Dessin au trait d'un sportif debout tirant un élastique vers l'extérieur, coude collé aux côtes.
+Exercice 4 : Pont fessier (hanches et tronc)
+Phase : Dès maintenant
+But : Pour renforcer les jambes et le tronc.
+Départ : Couché sur le dos, genoux pliés, pieds à plat au sol.
+Mouvement : Soulevez le bassin en serrant les fessiers, tenez 3 secondes, puis redescendez lentement.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Passez au pont sur une jambe, puis aux fentes avec rotation douce du tronc.
+Plus facile : Tenez 1 seconde en haut.
+Erreur fréquente : Cambrer le bas du dos.
+Illustration demandée : Dessin au trait d'un sportif couché sur le dos réalisant un pont fessier.
+RÉFÉRENCES
+Gopinatth V, Batra AK, Khan ZA, et al. Return to Sport After Nonoperative Management of Elbow Ulnar Collateral Ligament Injuries: A Systematic Review and Meta-analysis. Am J Sports Med, 2023;51(14):3858-3869. PMID : 36876746. DOI : 10.1177/03635465221150507 (confirmé).
+Buchanan TR, Hones KM, Hao KA, et al. Rehabilitation Protocols in Elbow Medial Ulnar Collateral Ligament Injuries: A Systematic Review of Articles Published in the Last 20 Years. Sports Health, 2025. PMID 38702939 : À VÉRIFIER (non confirmé). DOI 10.1177/19417381241249125 : À VÉRIFIER.
+Walker CM, Genuario JW, Houck DA, Murayama S, Mendez H, Noonan TJ. Return-to-Play Outcomes in Professional Baseball Players After Nonoperative Treatment of Incomplete Medial Ulnar Collateral Ligament Injuries: A Long-Term Follow-up Study. Am J Sports Med, 2021;49(5):1137-1144. PMID : 33720760. DOI : 10.1177/0363546521996706 (confirmé).[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+[MODIFIÉ : référence ajoutée] Ellenbecker TS, Wilk KE, Altchek DW, Andrews JR. Current Concepts in Rehabilitation Following Ulnar Collateral Ligament Reconstruction. Sports Health, 2009. PMID : À VÉRIFIER.
+## === FICHE COU-08 · [coude/ocd] ===
+Titre : Ostéochondrite disséquante du capitulumSous-titre : Zone d'os et de cartilage fragilisée au coudeAncien titre : Zone d'os et de cartilage fragilisée au coude (ostéochondrite disséquante)Diagnostic correspondant dans MSK Morand : Ostéochondrite disséquante du capitulum (lésion stable, sous suivi médical)
+EN BREF
+Une petite zone d'os et de cartilage du coude est fragilisée.
+Une lésion stable peut guérir sans opération si le coude est mis au repos.
+Le suivi par imagerie guide le retour au sport.
+CE QUE VOUS AVEZUne petite zone d'os et de cartilage, du côté extérieur du coude, a été fragilisée par des contraintes répétées (souvent chez les jeunes lanceurs ou gymnastes). Quand la lésion est stable, elle peut guérir sans opération si le coude est mis à l'abri des lancers et des appuis sur les mains pendant plusieurs mois. Quand le repos est bien respecté, la lésion guérit chez environ 5 à 9 jeunes sur 10, selon son stade ; elle guérit beaucoup moins souvent si le sport continue. Votre médecin peut aussi prescrire une période d'immobilisation. Le suivi par imagerie indique quand la reprise est possible.[MODIFIÉ : ajout de la phrase « Quand le repos est bien respecté… » — guérison de 90,5 % (stade I) et de 52,9 % (stade II) chez les jeunes qui respectent le repos, contre 22,7 % chez ceux qui ne le respectent pas ; 53,8 % dans une autre série ; Matsuura et al., Am J Sports Med 2008 ; Niu et al., J Shoulder Elbow Surg 2018]
+POURQUOI ÇA ARRIVE
+Gestes répétés qui écrasent l'extérieur du coude (gymnastique, lancer).
+Coude encore en croissance.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, au besoin si le coude est sensible.[MODIFIÉ : « après le sport » → « au besoin si le coude est sensible » — le sport est arrêté ; cohérence]
+Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien).
+CE QUI AIDE
+Arrêter complètement les lancers, la gymnastique et tout appui sur les bras, aussi longtemps que le médecin le demande.
+Porter l'attelle ou le plâtre si votre médecin en a prescrit un.(Vérifié : l'immobilisation augmente le taux de guérison et la raccourcit — 92 % en 5,5 mois avec un plâtre contre 41 % en 16,4 mois avec le repos seul ; Takahara et al., J Shoulder Elbow Surg 2022.)
+Garder des mouvements doux et sans charge pour éviter la raideur (sauf pendant une immobilisation).
+Garder la forme avec des exercices pour les jambes et le tronc, sans appui sur les mains.
+Aller aux rendez-vous d'imagerie de contrôle (souvent toutes les 6 semaines à 3 mois au début, selon votre médecin).[MODIFIÉ : « (souvent tous les 3 à 6 mois) » → texte ci-dessus — les protocoles publiés prévoient des radiographies chaque mois ou toutes les 6 semaines, avec une décision vers 3 à 6 mois ; Matsuura et al. 2008 ; Baker et al., Am J Sports Med 2010 ; Watkins et al., Curr Rev Musculoskelet Med 2022. À VÉRIFIER : adapter au protocole local]
+À ÉVITER POUR L'INSTANT
+Lancer, faire des pompes, des roues, des barres ou soulever des charges lourdes.
+Forcer pour tendre ou plier le coude s'il bloque.
+Reprendre le sport sans l'accord de votre médecin, même si la douleur a disparu.
+RÈGLE DE DOULEUR (0 À 10)Les exercices ne doivent provoquer aucune douleur au coude. Arrêtez tout mouvement qui cause une douleur, un accrochage ou un clic, et parlez-en à votre médecin ou à votre physiothérapeute. Une fatigue des muscles des jambes ou du tronc est normale.(Vérifié : critère approprié pour ce problème.)
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Coude qui reste bloqué et que vous n'arrivez pas à débloquer (le jour même ou le lendemain).
+Coude qui se bloque par moments, qui accroche ou qui fait un clic douloureux (dans les prochains jours : un fragment peut s'être détaché).[MODIFIÉ : « Coude qui se bloque brusquement, qui accroche ou qui fait un clic douloureux (un fragment peut s'être détaché). » → deux lignes ci-dessus — séparer le blocage qui persiste (urgent) des accrochages intermittents (avis rapide en orthopédie) ; les symptômes mécaniques sont une indication de chirurgie ; Watkins et al. 2022 ; classement : avis clinique]
+REVOYEZ VOTRE MÉDECIN SI
+Coude enflé.
+Perte d'extension ou de flexion qui s'aggrave.
+Douleur dans les gestes de tous les jours ou au repos malgré l'arrêt du sport.
+DURÉE HABITUELLELa guérison de l'os est longue. Une décision sur la suite est habituellement prise après 3 à 6 mois d'imagerie de contrôle; la guérison complète sur les images prend souvent de 6 à 18 mois, parfois jusqu'à 2 ans. La reprise du sport dépend du contrôle par imagerie.[MODIFIÉ : « Une imagerie de contrôle est habituellement faite après 3 à 6 mois; la guérison complète prend souvent de 6 à 12 mois, parfois plus. » → texte ci-dessus — délai moyen de guérison de 14,9 mois (stade I) et de 12,3 mois (stade II) ; 8,3 mois dans une autre série ; souvent 1 à 2 ans avec le repos seul ; Matsuura et al. 2008 ; Niu et al. 2018 ; Takahara et al. 2022]
+PROGRAMME D'EXERCICESMatériel : élastique, poids léger ou bouteille d'eau
+Exercice 1 : Mobilité douce du coude sans charge
+Phase : Dès maintenant (sauf pendant une immobilisation prescrite)[MODIFIÉ : ajout de « (sauf pendant une immobilisation prescrite) » — cohérence avec « Ce qui aide »]
+But : Pour garder le coude souple sans le charger.
+Départ : Assis ou debout, le bras détendu.
+Mouvement : Pliez puis tendez doucement le coude, puis tournez la paume vers le haut et vers le bas, uniquement dans la zone où le mouvement est fluide et sans douleur.
+Dosage : 10 répétitions lentes, 2 fois par jour.
+Progression : Aucune : le but est de garder la mobilité sans jamais forcer.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Essayer de forcer l'extension complète quand le coude bloque.
+Illustration demandée : Dessin au trait d'un jeune sportif assis pliant et tendant doucement le coude sans charge.
+Exercice 2 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour renforcer le haut du dos.
+Départ : Assis ou debout, les bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et vers le bas. Tenez 5 secondes, puis relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Tenez 10 secondes; n'ajoutez ni poids ni élastique sans accord médical.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules ou s'appuyer sur les mains.
+Illustration demandée : Dessin au trait d'un jeune sportif vu de dos, avec des flèches rapprochant les omoplates.
+Exercice 3 : Mini-squats ou fentes (jambes et tronc, sans appui des bras)
+Phase : Dès maintenant
+But : Pour garder la forme sans charger le coude.
+Départ : Debout, mains sur les hanches.
+Mouvement : Faites des flexions de genoux (mini-squats) ou des fentes contrôlées en gardant le buste droit.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Augmentez le nombre de répétitions, sans poids dans les mains.
+Plus facile : Faites de plus petites flexions.
+Erreur fréquente : Tenir des haltères ou faire des exercices en appui sur les mains.
+Illustration demandée : Dessin au trait d'un jeune sportif, mains sur les hanches, réalisant un squat contrôlé.
+À VÉRIFIER : la ligne « Matériel » mentionne un élastique et un poids léger, alors qu'aucun exercice de cette fiche ne les utilise et que la fiche demande de ne pas en ajouter sans accord médical. Proposition : « Matériel : aucun ».
+RÉFÉRENCES
+Matsuura T, Kashiwaguchi S, Iwase T, Takeda Y, Yasui N. Conservative Treatment for Osteochondrosis of the Humeral Capitellum. Am J Sports Med, 2008 (mai). PMID et DOI : À VÉRIFIER. (Le titre dit bien « osteochondrosis ».)[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Niu EL, Tepolt FA, Bae DS, Lebrun DG, Kocher MS. Nonoperative Management of Stable Pediatric Osteochondritis Dissecans of the Capitellum: Predictors of Treatment Success. J Shoulder Elbow Surg, 2018 (novembre). PMID : 30340803 (confirmé).[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Takahara M, Uno T, Maruyama M, et al. Conservative Treatment for Stable Osteochondritis Dissecans of the Elbow Before Epiphyseal Closure: Effectiveness of Elbow Immobilization for Healing. J Shoulder Elbow Surg, 2022 (juin). PMID : 35247573 (confirmé).[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+[MODIFIÉ : référence ajoutée] Mihara K, Tsutsui H, Nishinaka N, Yamaguchi K. Nonoperative Treatment for Osteochondritis Dissecans of the Capitellum. Am J Sports Med, 2009 (février). PMID : À VÉRIFIER.
+## === FICHE COU-09 · [coude/conflit_post] ===
+Titre : Conflit postérieur du coude (surcharge en valgus-extension)Sous-titre : Douleur à l'arrière du coude chez le lanceurAncien titre : Douleur à l'arrière du coude chez le lanceurDiagnostic correspondant dans MSK Morand : Conflit postérieur du coude (surcharge en valgus-extension, lanceur)
+EN BREF
+La pointe du coude bute de façon répétée quand le bras se tend vite.
+Un arrêt temporaire des lancers et un renforcement ciblé la soulagent.
+Le retour au lancer se fait graduellement.
+CE QUE VOUS AVEZÀ force de tendre le bras très vite en lançant, la pointe de l'os à l'arrière du coude vient buter de façon répétée dans son logement, ce qui l'irrite. Arrêter temporairement les lancers, apprendre aux muscles à freiner la fin du geste et renforcer l'épaule et le tronc aident à calmer l'arrière du coude. Cette fiche suppose qu'une fissure de fatigue de l'os a été écartée par votre médecin.
+POURQUOI ÇA ARRIVE
+Lancers répétés, le bras tendu très vite.
+Ligament interne du coude un peu lâche.(Vérifié : le ligament interne doit être évalué chaque fois que ce diagnostic est posé ; Cain et al., Am J Sports Med 2003 ; Wilk et al., Sports Health 2012.)
+Fatigue en fin de saison.
+SOULAGER LA DOULEUR
+Glace 15 minutes, dans un linge, à l'arrière du coude après l'activité, au besoin.[MODIFIÉ : fusion avec la ligne en double de « Ce qui aide »]
+Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Arrêter les lancers pendant la période fixée par votre médecin (souvent plusieurs semaines).
+[MODIFIÉ : « Mettre de la glace 15 minutes à l'arrière du coude après les activités, au besoin. » → retiré — doublon, fusionné dans « Soulager la douleur »]
+Renforcer les muscles de l'avant-bras, de l'épaule et du tronc, et ceux qui freinent l'extension du coude.
+Revoir votre mécanique de lancer avec un entraîneur ou un physiothérapeute avant la reprise.
+À ÉVITER POUR L'INSTANT
+Lancer fort, smasher ou tendre le coude d'un coup sec.
+Faire des dips, des extensions lourdes des triceps ou des pompes avec les coudes verrouillés.
+Forcer l'extension complète du coude contre une douleur ou un blocage.
+RÈGLE DE DOULEUR (0 À 10)Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale dans l'heure qui suit l'exercice. Une douleur à l'arrière du coude n'est pas acceptable : arrêtez le mouvement avant le point qui la déclenche.À VÉRIFIER : le délai d'une heure pour la fatigue musculaire n'est appuyé par aucune source consultée (avis d'expert, peut être gardé).
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Claquement soudain avec douleur vive à l'arrière ou à l'intérieur du coude pendant un lancer (le jour même ou le lendemain).
+Coude qui reste bloqué et que vous n'arrivez pas à débloquer (le jour même ou le lendemain).[MODIFIÉ : (aucun texte) → deux lignes ci-dessus — une fissure de fatigue peut se compléter en fracture et le ligament interne peut se rompre ; un fragment libre peut bloquer le coude ; Cain et al. 2003 ; Dugas, Clin Sports Med 2010 ; classement : avis clinique]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur précise sur l'os à la pointe arrière du coude, au toucher ou au repos : arrêtez de lancer et revoyez votre médecin sans tarder (une fissure de fatigue doit être recherchée par imagerie, parfois avec une résonance magnétique ou un scan, car la radiographie peut être normale).[MODIFIÉ : signe déplacé de « Consultez rapidement » vers cette rubrique, avec la mention « sans tarder » et la précision sur l'imagerie — une fissure de fatigue demande une évaluation rapide (jours), mais pas une visite à l'urgence ; Cain et al. 2003 ; Schickendantz et al., Am J Sports Med 2002 ; classement : avis clinique]
+Coude qui se bloque par moments ou qui craque douloureusement.[MODIFIÉ : ajout de « par moments » — pour le distinguer du blocage qui persiste]
+Coude enflé ou qui perd de l'extension.
+Douleur qui revient dès les premiers lancers.
+Douleur à l'intérieur du coude, ou picotements dans l'annulaire et l'auriculaire.[MODIFIÉ : (aucun texte) → texte ci-dessus — atteinte possible du ligament interne ou du nerf ulnaire, souvent associée ; Cain et al. 2003]
+DURÉE HABITUELLEVariable : souvent plusieurs semaines d'arrêt des lancers, puis une reprise par étapes sur 4 à 6 semaines.À VÉRIFIER : aucune durée précise n'est publiée pour ce problème. Les seuls chiffres viennent des fissures de fatigue de l'os chez des joueurs professionnels (au moins 6 semaines sans lancer, puis un programme de 4 à 6 semaines ; Schickendantz et al. 2002).
+PROGRAMME D'EXERCICESMatériel : élastique, poids léger ou bouteille d'eau
+Exercice 1 : Mobilité douce du coude en flexion et en extension
+Phase : Dès maintenant
+But : Pour garder le coude souple.
+Départ : Assis ou debout, le bras détendu.
+Mouvement : Pliez puis tendez doucement le coude, en vous arrêtant juste avant le point qui déclenche la douleur à l'arrière.
+Dosage : 10 répétitions lentes, 2 fois par jour.
+Progression : Gagnez peu à peu en amplitude, sans jamais verrouiller le coude en force.
+Plus facile : Arrêtez plus tôt dans le mouvement.
+Erreur fréquente : Claquer le coude en extension rapide.
+Illustration demandée : Dessin au trait d'un sportif pliant et tendant lentement le coude.
+Exercice 2 : Freinage lent de l'extension du coude avec élastique
+Phase : Quand la douleur diminue
+But : Pour apprendre aux muscles à freiner la fin du lancer.(Vérifié : le travail de freinage des muscles qui plient le coude est recommandé pour ce problème ; Wilk et al., Sports Health 2012.)
+Départ : Debout, un élastique léger passé sous le pied et tenu dans la main, paume vers le haut, coude plié.
+Mouvement : Laissez le coude se déplier lentement en 3 à 4 secondes en retenant l'élastique, arrêtez-vous juste avant l'extension complète, puis repliez le coude.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Passez à un élastique plus résistant quand les 3 séries sont faciles.
+Plus facile : Prenez un élastique plus léger.
+Erreur fréquente : Laisser le coude se tendre d'un coup ou aller jusqu'au verrouillage.
+Illustration demandée : Dessin au trait d'un sportif debout retenant un élastique passé sous le pied pendant que le coude se déplie lentement.
+Exercice 3 : Renforcement des muscles qui plient le poignet
+Phase : Quand la douleur diminue
+But : Pour renforcer l'avant-bras.
+Départ : Assis, l'avant-bras posé sur la cuisse, paume vers le haut, tenant un poids d'environ 1 kg.
+Mouvement : Pliez le poignet vers le haut en 2 secondes, puis redescendez en 3 secondes.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Augmentez légèrement le poids quand c'est facile.
+Plus facile : Faites-le sans poids.
+Erreur fréquente : Aller trop vite.
+Illustration demandée : Dessin au trait d'un avant-bras posé sur une cuisse soulevant un petit haltère, paume vers le haut.
+Exercice 4 : Rotation externe de l'épaule avec élastique
+Phase : Quand la douleur diminue
+But : Pour renforcer l'épaule qui lance.
+Départ : Debout, coude plié à 90 degrés et collé aux côtes, tenant un élastique léger fixé du côté opposé.
+Mouvement : Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate stable. Revenez lentement. Arrêtez si vous sentez une douleur à l'intérieur du coude.[MODIFIÉ : ajout de « Arrêtez si vous sentez une douleur à l'intérieur du coude. » — ce mouvement tire sur le ligament interne, souvent un peu lâche dans ce problème ; Ellenbecker et al., Sports Health 2009]
+Dosage : 3 séries de 12 répétitions, 3 à 4 fois par semaine.
+Progression : Passez à un élastique plus résistant.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Décoller le coude des côtes.
+Illustration demandée : Dessin au trait d'un sportif tirant un élastique en rotation externe, coude collé aux côtes.
+RÉFÉRENCES
+Wilk KE, Macrina LC, Cain EL, Dugas JR, Andrews JR. Rehabilitation of the Overhead Athlete's Elbow. Sports Health, 2012 (septembre). DOI 10.1177/1941738112455006 et PMID : À VÉRIFIER.[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Dugas JR. Valgus Extension Overload: Diagnosis and Treatment. Clin Sports Med, 2010 (octobre). PMID : 20883902 (confirmé).[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Cain EL, Dugas JR, Wolf RS, Andrews JR. Elbow Injuries in Throwing Athletes: A Current Concepts Review. Am J Sports Med, 2003 (juillet). PMID et DOI : À VÉRIFIER.[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+[MODIFIÉ : référence ajoutée] Schickendantz MS, Ho CP, Koh J. Stress Injury of the Proximal Ulna in Professional Baseball Players. Am J Sports Med, 2002. PMID : À VÉRIFIER.
+## === FICHE COU-10 · [coude/triceps] ===
+Titre : Tendinopathie distale du tricepsSous-titre : Douleur au tendon à l'arrière du coudeAncien titre : Douleur au tendon à l'arrière du coude (triceps)Diagnostic correspondant dans MSK Morand : Tendinopathie distale du triceps
+EN BREF
+Le tendon à l'arrière du coude est irrité.
+Réduire un temps les poussées lourdes, puis renforcer lentement, l'aide à guérir.[MODIFIÉ : « …le guérit. » → « …l'aide à guérir. » — aucun essai n'a été trouvé pour ce problème ; les conseils reposent sur des avis d'experts ; Taylor et Hannafin, Sports Health 2012 ; Hegmann et al., J Occup Environ Med 2013]
+Un claquement avec perte de force demande un avis rapide.
+CE QUE VOUS AVEZLe tendon du muscle situé à l'arrière du bras (le triceps) est devenu sensible près de la pointe du coude, souvent à cause de pompes, de dips ou de musculation lourde. Réduire pour un temps les charges en poussée, puis renforcer le tendon lentement, l'aide à tolérer de nouveau l'effort. Cette fiche ne s'applique pas à une déchirure du tendon.
+POURQUOI ÇA ARRIVE
+Pompes, dips ou musculation lourde.
+Hausse rapide des charges.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.
+Les médicaments soulagent, mais ne guérissent pas le tendon.[MODIFIÉ : retrait de « : l'exercice reste le traitement » — aucun essai pour ce problème ; cohérence avec COU-01 et COU-02]
+CE QUI AIDE
+Réduire temporairement les charges en poussée (développé couché, dips, pompes).
+Renforcer le triceps avec des exercices lents, dont la charge augmente petit à petit.
+[MODIFIÉ : « Mettre de la glace 15 minutes à l'arrière du coude après l'entraînement, au besoin. » → retiré — doublon avec « Soulager la douleur », avec une durée différente]
+Éviter d'appuyer le tendon sensible sur une surface dure.
+À ÉVITER POUR L'INSTANT
+Faire des dips profonds, des extensions au-dessus de la tête avec barre (« skull crushers ») ou des pompes lestées.
+Plier le coude à fond sous une charge lourde.
+Continuer l'entraînement après un claquement brutal à l'arrière du coude.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle dépasse 3 sur 10, si elle est encore plus forte le lendemain matin ou si elle augmente d'une semaine à l'autre, diminuez la charge ou le nombre de répétitions.[MODIFIÉ : « …dans l'heure qui suit l'exercice… ou dure plus d'une heure… » → texte ci-dessus — même raison que pour COU-01 ; Silbernagel et al., Am J Sports Med 2007 (modèle établi pour le tendon d'Achille, appliqué ici par extension)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Claquement brutal à l'arrière du coude, avec un bleu, un creux au-dessus de la pointe du coude ou une nette perte de force pour pousser ou tendre le bras (rupture possible, à faire évaluer dans les prochains jours en orthopédie, même si vous arrivez encore à tendre le coude).[MODIFIÉ : « à faire évaluer rapidement » → « à faire évaluer dans les prochains jours » — la réparation d'une rupture complète se fait idéalement dans les 3 à 4 semaines qui suivent la blessure ; Taylor et Hannafin, Sports Health 2012 ; Yeh et al., J Am Acad Orthop Surg 2010]
+Coude enflé et chaud, rougeur ou fièvre (le jour même).
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui empire malgré la réduction des charges et les exercices lents.
+Aucun progrès après 8 à 12 semaines d'exercices réguliers.
+DURÉE HABITUELLELes premiers progrès apparaissent souvent en 6 à 12 semaines; la guérison complète peut prendre de 3 à 6 mois.À VÉRIFIER : aucune donnée propre au tendon du triceps ; les sources disent seulement que la guérison peut prendre des mois.
+PROGRAMME D'EXERCICESMatériel : élastique, mur
+Exercice 1 : Extension statique du coude
+Phase : Dès maintenant
+But : Pour remettre le tendon au travail en douceur.[MODIFIÉ : « Pour calmer la douleur et réveiller le tendon. » → texte ci-dessus — effet antidouleur de l'exercice statique non démontré ; cohérence avec COU-01]
+Départ : Assis, coude plié à 90 degrés près du corps, l'autre main placée sous le poignet du bras atteint.
+Mouvement : Poussez le poignet vers le bas avec un effort modéré contre l'autre main, qui résiste sans laisser bouger le coude. Tenez 15 à 30 secondes.
+Dosage : 4 répétitions, 1 fois par jour.
+Progression : Quand 30 secondes sont faciles, passez à l'exercice avec élastique.
+Plus facile : Poussez plus doucement, 15 secondes.[MODIFIÉ : « 20 secondes » → « 15 secondes » — cohérence avec la consigne du mouvement]
+Erreur fréquente : Pousser si fort que la douleur dépasse 3 sur 10.
+Illustration demandée : Dessin au trait d'une personne assise poussant un poignet vers le bas contre l'autre main qui résiste.
+Exercice 2 : Extension lente du coude avec élastique (poussée vers le bas)
+Phase : Quand la douleur diminue
+But : Pour renforcer le tendon.
+Départ : Debout, coude plié à 90 degrés et collé aux côtes, tenant un élastique fixé en hauteur.
+Mouvement : Tendez le coude vers le bas en 3 secondes, puis laissez-le remonter lentement en 3 secondes.
+Dosage : 3 séries de 10 à 12 répétitions, 3 fois par semaine (un jour sur deux).
+Progression : Passez à un élastique plus résistant quand les 3 séries sont faciles.
+Plus facile : Prenez un élastique plus léger.
+Erreur fréquente : Laisser le coude partir vers l'avant ou remonter d'un coup sec.
+Illustration demandée : Dessin au trait d'une personne debout tendant le coude vers le bas contre un élastique fixé en haut.
+Exercice 3 : Pompes au mur contrôlées
+Phase : Pour progresser
+But : Pour reprendre les poussées en douceur.
+Départ : Debout face à un mur, mains à plat à la largeur des épaules.
+Mouvement : Pliez les coudes en 3 secondes pour approcher la poitrine du mur, puis repoussez en 2 secondes.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Passez aux pompes sur un comptoir, puis au sol sur les genoux, quand l'étape précédente est facile et sans douleur le lendemain.
+Plus facile : Rapprochez les pieds du mur.
+Erreur fréquente : Descendre trop vite ou écarter les coudes très loin du corps.
+Illustration demandée : Dessin au trait d'une personne faisant des pompes lentes contre un mur.
+RÉFÉRENCES
+Taylor SA, Hannafin JA. Evaluation and Management of Elbow Tendinopathy. Sports Health, 2012;4(5):384-93. PMID : 23016111. DOI : 10.1177/1941738112454651 (confirmé).[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Hegmann KT, Hoffman HE, Belcourt RM, et al. ACOEM Practice Guidelines: Elbow Disorders. J Occup Environ Med, 2013;55(11):1365-1374. DOI : 10.1097/JOM.0b013e3182a0d7ec (confirmé). PMID : À VÉRIFIER.[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Yeh PC, Dodds SD, Smart LR, Mazzocca AD, Sethi PM. Distal Triceps Rupture. J Am Acad Orthop Surg, 2010 (janvier). PMID : 20044490 (confirmé). Volume 18(1):31-40 : À VÉRIFIER.[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+[MODIFIÉ : référence ajoutée] Silbernagel KG, et al. Am J Sports Med, 2007;35(6):897-906. PMID : 17307888 (règle de douleur).
+## === FICHE COU-11 · [coude/tunnel_radial] ===
+Titre : Syndrome du tunnel radialSous-titre : Nerf irrité sur le dessus de l'avant-brasAncien titre : Nerf irrité sur le dessus de l'avant-bras (tunnel radial)Diagnostic correspondant dans MSK Morand : Syndrome du tunnel radial
+EN BREF
+Une branche du nerf radial est irritée dans l'avant-bras.
+Réduire les gestes irritants la calme.
+L'amélioration demande souvent plusieurs mois.[MODIFIÉ : « plusieurs semaines » → « plusieurs mois » — cohérence avec « Durée habituelle » ; les sources parlent de 6 mois à un an de traitement sans chirurgie ; Tang, J Hand Surg Eur Vol 2020 ; Levina et Dantuluri, Curr Rev Musculoskelet Med 2021]
+CE QUE VOUS AVEZUne branche du nerf radial, qui passe entre les muscles du dessus de l'avant-bras, est irritée. Cela donne une douleur sourde quelques centimètres sous l'extérieur du coude, qui ressemble au « tennis elbow », sans vraie perte de force (la douleur peut toutefois limiter l'effort). La mesure la plus utile est de réduire pendant un temps les gestes répétés qui tournent l'avant-bras. Les exercices proposés sont doux et sans danger, mais leur efficacité pour ce problème précis n'a pas été démontrée.[MODIFIÉ : « sans perte de force » → « sans vraie perte de force (la douleur peut toutefois limiter l'effort) » — la faiblesse est liée à la douleur, sans atteinte motrice ; Levina et Dantuluri 2021](Vérifié : l'absence de preuve pour les exercices est exacte ; le repos des gestes irritants est la mesure appuyée par les experts ; Tang 2020.)
+POURQUOI ÇA ARRIVE
+Rotations répétées de l'avant-bras et prise ferme.
+Port de charges, le poignet relevé.
+SOULAGER LA DOULEUR
+Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.
+Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir.
+CE QUI AIDE
+Réduire et entrecouper de pauses les gestes répétés qui tournent l'avant-bras (visser, essorer, souris).
+Adapter le poste de travail : souris et clavier près du corps, avant-bras soutenu.
+Appliquer une chaleur douce 15 minutes sur le haut de l'avant-bras si cela vous soulage.
+Faire de très doux glissements du nerf, sans jamais forcer.
+À ÉVITER POUR L'INSTANT
+Tourner l'avant-bras de façon répétée contre résistance (tournevis, essorage).
+Appuyer ou masser fortement la zone douloureuse de l'avant-bras.
+Faire des étirements appuyés qui laissent une douleur sourde persistante.
+RÈGLE DE DOULEUR (0 À 10)Les exercices ne doivent pas augmenter la douleur de l'avant-bras ni provoquer de picotements. Si la douleur est plus forte après l'exercice ou le lendemain, réduisez l'amplitude ou arrêtez cet exercice.(Vérifié : règle fondée sur les symptômes, avec un repère au lendemain ; appropriée.)
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Faiblesse nouvelle pour relever les doigts, le pouce ou le poignet (dans les prochains jours).[MODIFIÉ : ajout du délai — une faiblesse réelle signale une atteinte motrice du nerf, qui demande des examens ; Swisher et al., Am Fam Physician 2026 ; classement : avis clinique]
+REVOYEZ VOTRE MÉDECIN SI
+Engourdissement sur le dos de la main ou du pouce.
+Douleur nocturne sévère malgré la réduction des gestes irritants.
+Aucune amélioration après 6 à 8 semaines (pour revoir le diagnostic et discuter des autres options).
+DURÉE HABITUELLEL'amélioration est souvent lente, sur plusieurs mois (3 à 6 mois, parfois jusqu'à un an).[MODIFIÉ : « (3 à 6 mois) » → « (3 à 6 mois, parfois jusqu'à un an) » — 6 mois de traitement sans chirurgie selon Tang 2020 ; souvent un an selon Levina et Dantuluri 2021]
+PROGRAMME D'EXERCICESMatériel : élastique
+Exercice 1 : Glissement très doux du nerf radial
+Phase : Quand la douleur diminue
+But : Pour aider le nerf à glisser sans l'étirer.
+Départ : Debout, le bras le long du corps, l'épaule relâchée.
+Mouvement : Tournez doucement le bras vers l'intérieur et pliez légèrement le poignet (paume vers l'arrière) tout en penchant la tête vers ce bras. Puis relâchez le poignet en penchant la tête de l'autre côté. Le mouvement est lent, fluide et sans tiraillement.
+Dosage : 1 à 2 séries de 8 répétitions lentes, 1 à 2 fois par jour.
+Progression : Augmentez très légèrement l'amplitude si l'avant-bras reste calme.
+Plus facile : Faites un plus petit mouvement, sans pencher la tête.
+Erreur fréquente : Plier le poignet tout en penchant la tête du côté opposé (cela étire trop le nerf), ou maintenir la position.
+Illustration demandée : Dessin au trait d'une personne debout effectuant un mouvement fluide du poignet coordonné avec une inclinaison douce de la tête.
+À VÉRIFIER : aucun essai sur les glissements du nerf pour ce problème (un seul cas publié) ; le dosage est un avis d'expert.
+Exercice 2 : Étirement très léger du dessus de l'avant-bras (facultatif)[MODIFIÉ : ajout de « (facultatif) » — la pression dans le tunnel radial augmente quand le poignet est plié avec la paume vers le bas : cet étirement met le nerf sous tension ; Basavaraj et al., J Hand Surg Eur Vol 2026. À VÉRIFIER : envisager de le retirer]
+Phase : Seulement s'il est confortable[MODIFIÉ : « Dès maintenant » → « Seulement s'il est confortable » — même raison]
+But : Pour détendre le dessus de l'avant-bras.
+Départ : Assis, coude légèrement plié, l'avant-bras posé sur la cuisse, la main dépassant du genou.
+Mouvement : Laissez le poignet tomber doucement vers le bas et aidez très légèrement avec l'autre main. Tenez 15 à 20 secondes. Arrêtez si la douleur sourde augmente ou si des picotements apparaissent.[MODIFIÉ : ajout de la dernière phrase — même raison]
+Dosage : 3 répétitions, 1 à 2 fois par jour.
+Progression : Tendez un peu plus le coude seulement si cela reste confortable.
+Plus facile : Tenez 10 secondes.
+Erreur fréquente : Tirer fort ou appuyer sur les muscles déjà sensibles.
+Illustration demandée : Dessin au trait d'une personne assise laissant le poignet tomber vers le bas avec l'aide légère de l'autre main.
+Exercice 3 : Rapprochement des omoplates (posture au bureau)
+Phase : Dès maintenant
+But : Pour améliorer la posture au bureau.
+Départ : Assis ou debout, les bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et vers le bas. Tenez 5 secondes, puis relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Ajoutez un tirage avec un élastique léger, sans serrer fort les mains.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules ou serrer les poings pendant l'exercice.
+Illustration demandée : Dessin au trait d'un buste vu de dos, avec des flèches rapprochant les omoplates.
+RÉFÉRENCES
+Tang JB. Radial tunnel syndrome: definition, distinction and treatments. J Hand Surg Eur Vol, 2020 (octobre). PMID et DOI : À VÉRIFIER.[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Levina Y, Dantuluri PK. Radial Tunnel Syndrome. Curr Rev Musculoskelet Med, 2021;14(3):205-213. PMID : 33890229. DOI : 10.1007/s12178-021-09703-w (confirmé).[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Naam NH, Nemani S. Radial Tunnel Syndrome. Orthop Clin North Am, 2012 (octobre). PMID : 23026469 (confirmé). Volume, pages et DOI : À VÉRIFIER.[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+## === FICHE COU-12 · [coude/cervical] ===
+Titre : Douleur projetée d'origine cervicale (C6–C7)Sous-titre : Douleur au coude venant du couAncien titre : Douleur au coude venant du couDiagnostic correspondant dans MSK Morand : Douleur projetée d'origine cervicale (racines C6 ou C7)
+EN BREF
+La douleur se fait sentir au coude, mais elle vient d'un nerf du cou.
+Le coude lui-même n'est pas abîmé : les exercices visent le cou et la posture.
+Signalez toute perte de force ou tout engourdissement qui augmente.
+CE QUE VOUS AVEZLa douleur que vous ressentez au coude vient probablement d'un nerf irrité à sa sortie de la colonne, dans le bas du cou. Le coude lui-même n'est pas abîmé : c'est pourquoi les exercices visent le cou, la posture et les épaules. Chez la plupart des gens, la douleur diminue progressivement sans opération.(Vérifié : amélioration nette en 4 à 6 mois chez la plupart des gens ; Wong et al., Spine J 2014.)
+POURQUOI ÇA ARRIVE
+Arthrose ou disque du cou qui irrite un nerf.
+Tête penchée vers l'avant pendant de longues périodes.
+SOULAGER LA DOULEUR
+Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.
+Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir.
+CE QUI AIDE
+Rester actif et continuer vos activités habituelles autant que la douleur le permet.
+Faire les exercices doux du cou et des épaules plutôt que de traiter seulement le coude.
+Changer souvent de position et éviter de garder longtemps la tête penchée vers l'avant devant les écrans.
+Soutenir l'avant-bras sur un accoudoir ou un coussin en position assise.
+Mettre de la chaleur 15 minutes sur la nuque si cela vous soulage.
+À ÉVITER POUR L'INSTANT
+Garder la tête penchée vers l'arrière ou tournée du côté douloureux si cela réveille la douleur dans le bras.
+Porter des charges lourdes avec le bras atteint.
+Étirer ou faire craquer le cou brusquement.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez tout mouvement qui envoie de la douleur ou des picotements vers le coude ou les doigts.À VÉRIFIER : le délai d'une heure n'est appuyé par aucune source consultée. Le critère principal de la fiche (arrêter ce qui envoie des symptômes vers le bras) est le plus important et peut être gardé (avis d'expert).
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Difficulté nouvelle à uriner ou à retenir les urines ou les selles (allez à l'urgence).
+Douleur au bras avec serrement dans la poitrine, essoufflement ou sueurs (appelez le 911).[MODIFIÉ : (aucun texte) → texte ci-dessus — une douleur au bras peut venir du cœur ; le guide de pratique demande d'écarter cette cause ; Blanpied et al., J Orthop Sports Phys Ther 2017 ; formulation : avis clinique]
+Maladresse des mains, perte d'équilibre à la marche, ou symptômes dans les deux bras ou dans les jambes (le jour même).
+Perte de force dans le bras, le poignet ou la main qui est nouvelle ou qui augmente (le jour même ou le lendemain).[MODIFIÉ : signe déplacé de « Revoyez votre médecin si » vers cette rubrique — une faiblesse qui progresse demande une évaluation rapide et parfois un avis en chirurgie ; Carette et Fehlings, N Engl J Med 2005 ; Theodore, N Engl J Med 2020]
+Fièvre avec douleur au cou, perte de poids inexpliquée, antécédent de cancer, ou douleur intense qui ne cède pas la nuit (le jour même ou le lendemain).[MODIFIÉ : signe déplacé de « Revoyez votre médecin si » vers cette rubrique, avec ajout de « antécédent de cancer » — signes possibles d'infection ou de tumeur de la colonne, qui demandent une évaluation rapide ; Theodore, N Engl J Med 2020 ; Côté et al. (guide ontarien OPTIMa), Eur Spine J 2016]
+Douleur au cou après une chute ou un accident (le jour même).[MODIFIÉ : (aucun texte) → texte ci-dessus — une fracture fait partie des signaux d'alarme du guide ontarien ; Côté et al. 2016]
+REVOYEZ VOTRE MÉDECIN SI
+Engourdissements qui s'aggravent, sans perte de force.[MODIFIÉ : « Perte de force dans le bras, le poignet ou la main, ou engourdissements qui s'aggravent. » → texte ci-dessus — la perte de force a été déplacée dans « Consultez rapidement »]
+Aucune amélioration après 4 à 6 semaines.(Vérifié : une imagerie est envisagée si la douleur persiste après 4 à 6 semaines ; Childress et Becker, Am Fam Physician 2016.)
+DURÉE HABITUELLELa douleur diminue souvent dans les premières semaines. La plupart des gens vont nettement mieux en 4 à 6 mois; chez certains, des symptômes légers durent plus longtemps.[MODIFIÉ : « Un soulagement partiel survient souvent en quelques semaines; la récupération complète prend souvent quelques mois. » → texte ci-dessus — amélioration nette en 4 à 6 mois ; environ la moitié des personnes sont rétablies à 6 et à 12 mois, et la guérison complète peut prendre 2 à 3 ans ; Wong et al., Spine J 2014 ; Sleijser-Koehorst et al., Eur Spine J 2018]
+PROGRAMME D'EXERCICESMatériel : élastique, coussinÀ VÉRIFIER : aucun essai n'a testé ces exercices isolément pour ce problème. Rester actif et faire des exercices du cou et des épaules est toutefois conforme aux guides (Blanpied et al. 2017 ; Côté et al. 2016).
+Exercice 1 : Rentré du menton
+Phase : Dès maintenant
+But : Pour améliorer la posture du cou.[MODIFIÉ : « Pour donner de l'espace au nerf. » → texte ci-dessus — ce mécanisme n'est pas démontré ; aucun essai de cet exercice seul pour ce problème]
+Départ : Assis droit, regard à l'horizontale, épaules détendues.
+Mouvement : Reculez doucement le menton vers l'arrière, comme pour faire un double menton, sans baisser ni lever la tête. Tenez 5 secondes, puis relâchez.
+Dosage : 2 séries de 8 à 10 répétitions, 2 fois par jour.
+Progression : Tenez 10 secondes si le bras reste calme.
+Plus facile : Faites-le couché sur le dos.
+Erreur fréquente : Baisser le menton vers la poitrine ou forcer malgré une douleur dans le bras.
+Illustration demandée : Dessin au trait d'une personne assise de profil reculant le menton, regard à l'horizontale.
+Exercice 2 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour améliorer la posture du haut du dos.
+Départ : Assis ou debout, les bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et vers le bas. Tenez 5 secondes, puis relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Ajoutez un tirage avec un élastique léger si le bras reste calme.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules.
+Illustration demandée : Dessin au trait d'une personne vue de dos, avec des flèches rapprochant les omoplates.
+Exercice 3 : Position de soulagement (main sur la tête)
+Phase : Dès maintenant
+But : Pour soulager le bras qui élance.
+Départ : Assis confortablement, le dos appuyé.
+Mouvement : Si la douleur du bras est forte au repos, posez doucement la main du côté atteint sur le dessus de votre tête pendant 1 à 2 minutes. Cette position soulage certaines personnes.[MODIFIÉ : « Cette position détend souvent le nerf. » → « Cette position soulage certaines personnes. » — c'est un signe d'examen (soulagement chez 15 patients sur 22 dans l'étude d'origine), pas un traitement étudié ; Davidson et al., Spine 1981]
+Dosage : Au besoin, 2 à 4 fois par jour.
+Progression : Utilisez cette position de moins en moins à mesure que la douleur se calme.
+Plus facile : Appuyez l'avant-bras sur un coussin.
+Erreur fréquente : Garder la position si elle est inconfortable pour l'épaule ou n'apporte aucun soulagement.
+Illustration demandée : Dessin au trait d'une personne assise posant calmement la main sur le dessus de sa tête.
+RÉFÉRENCES
+Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017 (guide de pratique). J Orthop Sports Phys Ther, 2017;47(7). PMID 28666405 : À VÉRIFIER (non confirmé directement ; les éditoriaux du même numéro portent les PMID 28666400 et 28666402).
+Kuijper B, Tans JT, Beelen A, Nollet F, de Visser M. Cervical collar or physiotherapy versus wait and see policy for recent onset cervical radiculopathy: randomised trial. BMJ, 2009 (7 octobre). PMID : 19812130 (confirmé). Numéro d'article et DOI : À VÉRIFIER.[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+Sleijser-Koehorst MLS, Coppieters MW, Heymans MW, et al. Clinical course and prognostic models for the conservative management of cervical radiculopathy: a prospective cohort study. Eur Spine J, 2018;27(11):2710-2719. PMID : 30327908. DOI : 10.1007/s00586-018-5777-8 (confirmé).[MODIFIÉ : « (à compléter) » → texte ci-dessus]
+[MODIFIÉ : références ajoutées pour appuyer les changements]
+Wong JJ, Côté P, Quesnele JJ, Stern PJ, Mior SA. The Course and Prognostic Factors of Symptomatic Cervical Disc Herniation With Radiculopathy: A Systematic Review of the Literature. Spine J, 2014. PMID : À VÉRIFIER.
+Source canadienne : Côté P, Wong JJ, Sutton D, et al. Management of neck pain and associated disorders: A clinical practice guideline from the Ontario Protocol for Traffic Injury Management (OPTIMa) Collaboration. Eur Spine J, 2016. PMID : À VÉRIFIER.
+Theodore N. Degenerative Cervical Spondylosis. N Engl J Med, 2020. PMID : À VÉRIFIER.

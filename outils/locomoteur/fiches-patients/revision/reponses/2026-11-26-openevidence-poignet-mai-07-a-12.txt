@@ -1,0 +1,405 @@
+# Poignet et main — fiches révisées MAI-07 à MAI-12
+Légende — [MODIFIÉ : ancien texte → nouveau texte — raison ; référence]. « (aucun texte) » = ajout. « À VÉRIFIER » = donnée non confirmée. [VÉRIFIÉ] = point demandé dans la consigne, conservé tel quel. Tout ce qui n'est pas marqué est inchangé.
+=== FICHE MAI-07 · [poignet/scapholunaire] ===
+Titre : Lésion du ligament scapho-lunaireSous-titre : Entorse d'un ligament du centre du poignetAncien titre : Entorse d'un ligament du centre du poignet (scapho-lunaire)Diagnostic correspondant dans MSK Morand : Lésion du ligament scapho-lunaire
+EN BREF
+Un ligament au centre du poignet est étiré ou partiellement déchiré.
+Une attelle, puis des exercices progressifs, aident à stabiliser le poignet.
+[MODIFIÉ : « Le suivi est important, car une lésion complète peut demander une chirurgie. » → « Le suivi est important : une lésion complète se répare mieux si elle est opérée dans les 4 à 6 premières semaines. » — après 6 semaines, la lésion est dite chronique et la réparation directe n'est souvent plus possible ; Morrell 2017]
+CE QUE VOUS AVEZUn ligament qui relie deux petits os au centre du poignet a été étiré ou partiellement déchiré, souvent après une chute sur la main. Cette fiche s'applique seulement si votre médecin a confirmé que l'entorse est partielle et stable. Dans ce cas, protéger le poignet 4 à 6 semaines dans une attelle, puis réentraîner en douceur le contrôle et les muscles de l'avant-bras, aide à stabiliser le poignet. [VÉRIFIÉ : 4 à 6 semaines d'immobilisation pour une lésion partielle stable ; Morrell 2017]
+POURQUOI ÇA ARRIVE
+Chute sur la main tendue.
+Choc ou torsion du poignet en sport.
+SOULAGER LA DOULEUR
+[MODIFIÉ : « …appliquez de la glace 15 minutes… » → « Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour. » — même durée que dans les autres fiches]
+Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Respecter la période de protection par attelle prescrite par votre médecin (souvent 4 à 6 semaines).
+Travailler en douceur les muscles qui stabilisent le poignet une fois cette période terminée.
+Éviter les appuis mains à plat et les prises en force pendant la guérison.
+Faire le suivi médical prévu pour vérifier que le poignet reste bien stable.
+À ÉVITER POUR L'INSTANT
+Faire des pompes, du yoga en appui sur les poignets ou porter des charges lourdes.
+Serrer le poing avec force (outils, haltères, tests de force) : cela écarte les deux os reliés par le ligament. [VÉRIFIÉ : le poing serré augmente l'écart entre les deux os (environ 0,7 mm de plus en laboratoire) ; Andrews 2026]
+Forcer le poignet vers l'arrière ou ignorer un ressaut douloureux au centre du poignet.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.[VÉRIFIÉ : aucune donnée publiée pour les entorses de ligaments ; critère prudent, conservé.]
+[MODIFIÉ : rubrique unique « QUAND RECONSULTER » → deux rubriques, comme dans les autres fiches — consignes 3 et 8]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+[MODIFIÉ : (aucun texte) → « Le jour même : nouvelle chute sur la main avec forte douleur, déformation, ou engourdissement des doigts. » — signes d'une blessure plus grave des os du poignet (atteinte du nerf médian) ; Morrell 2017. À VÉRIFIER : formulation à valider]
+[MODIFIÉ : (déplacé) → « Dans les prochains jours : claquement ou ressaut douloureux net au milieu du poignet lors des mouvements. » — signe possible de lésion complète, dont la réparation dépend du délai ; Morrell 2017]
+[MODIFIÉ : (déplacé) → « Dans les prochains jours : perte importante de force dans la main. » — même raison]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur persistante au dos du poignet après 4 à 6 semaines.
+Gonflement qui ne diminue pas.
+DURÉE HABITUELLE[MODIFIÉ : « Réadaptation sur 6 à 12 semaines pour une entorse partielle et stable, période d'attelle comprise. » → « Environ 3 mois au total pour une entorse partielle et stable : 4 à 6 semaines d'attelle, puis quelques semaines de réadaptation. » — aucune source ne donne « 6 à 12 semaines » ; un programme de réadaptation de 3 mois est décrit ; Morrell 2017 ; Hincapie 2016. À VÉRIFIER : peu de données]
+PROGRAMME D'EXERCICESMatériel : coussin, table
+Exercice 1 : Mobilité douce des doigts et du pouce (pendant la phase d'attelle)
+Phase : Dès maintenant
+But : Pour garder les doigts mobiles pendant l'attelle.
+Départ : Assis, poignet soutenu dans son attelle ou posé sur un coussin.
+Mouvement : Ouvrez grand les doigts, puis pliez-les doucement en crochet et en poing léger sans serrer, puis touchez le pouce à chaque doigt.
+Dosage : 10 répétitions, 3 fois par jour.
+Progression : Passez à la mobilité douce du poignet quand votre médecin autorise le retrait de l'attelle.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Retirer l'attelle ou bouger le poignet avant l'autorisation, ou serrer le poing avec force.
+Illustration demandée : Dessin au trait d'une main soutenue effectuant des mouvements d'ouverture et de fermeture des doigts.
+Exercice 2 : Mobilité douce du poignet sans charge (après l'attelle)
+Phase : Quand la douleur diminue
+But : Pour retrouver la mobilité du poignet.
+Départ : Assis, avant-bras posé sur la table, main libre.
+Mouvement : Montez et descendez doucement le poignet dans une petite amplitude confortable.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Augmentez doucement l'amplitude sans jamais forcer.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Pousser avec l'autre main pour plier le poignet.
+Illustration demandée : Dessin au trait d'une main au bord d'une table montant et descendant doucement.
+Exercice 3 : Contraction statique légère du poignet
+Phase : Quand la douleur diminue
+But : Pour renforcer le poignet sans le bouger.
+Départ : Assis, avant-bras posé sur la table sur le bord du petit doigt, pouce vers le haut, poignet droit, main détendue.
+Mouvement : Placez l'autre main contre la paume et poussez doucement comme pour plier le poignet, sans bouger; tenez 5 secondes. Placez-la ensuite sur le bord de la main côté pouce et poussez doucement vers le plafond, sans bouger; tenez 5 secondes. La force reste légère et la main ne serre rien. [VÉRIFIÉ : ces deux directions font travailler les muscles jugés protecteurs pour ce ligament ; Salva-Coll 2023 ; Esplugas 2016. Données de laboratoire seulement, aucun essai clinique]
+Dosage : 2 séries de 8 répétitions dans chaque direction, 3 fois par semaine.
+Progression : Augmentez légèrement la force, puis demandez à un thérapeute de la main des exercices de contrôle du poignet adaptés.
+Plus facile : Poussez plus doucement, 3 secondes.
+[MODIFIÉ : Erreur fréquente « Serrer le poing pendant l'exercice ou pousser vers le côté du petit doigt. » → « Serrer le poing pendant l'exercice, ou pousser avec le dos de la main du côté du petit doigt. » — le muscle à ne pas charger est celui qui relève le poignet du côté du petit doigt (extenseur ulnaire du carpe) ; le muscle qui plie le poignet de ce côté est, lui, protecteur ; l'ancienne consigne était trop large ; Salva-Coll 2023 ; Esplugas 2016]
+Illustration demandée : Dessin au trait d'un avant-bras posé sur une table, pouce vers le haut, l'autre main résistant doucement contre la paume puis contre le bord de la main côté pouce.
+RÉFÉRENCES
+[MODIFIÉ : « Salva-Coll G et al.… 2023 (à vérifier) » → « Salva-Coll G, Lluch A, Esplugas M, et al., Scapholunate and Lunotriquetral Joint Dynamic Stabilizers and Their Role in Wrist Neuromuscular Control and Proprioception, J Hand Ther, 2023 (PMID 37852909) » — référence confirmée]
+[MODIFIÉ : « Morrell NT et al.… 2017 (à vérifier) » → « Morrell NT, Moyer A, Quinlan N, Shafritz AB, Scapholunate and perilunate injuries in the athlete, Curr Rev Musculoskelet Med, 2017 (PMID et DOI À VÉRIFIER) » — auteurs, titre, revue et année confirmés]
+[MODIFIÉ : « Andrews J et al.… 2026 (à vérifier) » → « Andrews J, Bellringer S, Amarasooriya M, Bain G, Primary and secondary stabilizers of the scapholunate joint: a systematic review of cadaveric ligament sectioning studies, J Hand Surg Eur Vol, 2026 (PMID et DOI À VÉRIFIER) » — auteurs, titre, revue et année confirmés]
+[MODIFIÉ : (aucun texte) → « Esplugas M, Garcia-Elias M, Lluch A, Llusá Pérez M, Role of Muscles in the Stabilization of Ligament-Deficient Wrists, J Hand Ther, 2016 (PMID 27264901) » — source du choix des directions de l'exercice 3]
+=== FICHE MAI-08 · [poignet/gymnaste] ===
+Titre : Poignet du gymnaste (stress du cartilage de croissance du radius)Sous-titre : Douleur au poignet chez le jeune gymnasteAncien titre : Douleur au poignet chez le jeune gymnaste (plaque de croissance)Diagnostic correspondant dans MSK Morand : Poignet du gymnaste (stress de la physe radiale)
+EN BREF
+La zone de croissance de l'os du poignet est irritée par les appuis répétés.
+Il faut arrêter complètement les appuis sur les mains pendant quelques semaines.
+Le retour se fait graduellement, sans douleur.
+CE QUE VOUS AVEZChez un jeune en pleine croissance, les appuis répétés sur les mains en gymnastique irritent la zone de croissance de l'os du poignet (le radius). Il est essentiel d'arrêter complètement les appuis sur les poignets jusqu'à la disparition totale de la douleur pour laisser cette zone guérir, tout en gardant le reste du corps actif. Reprendre trop tôt peut perturber la croissance de l'os. [VÉRIFIÉ : une fermeture trop hâtive de la zone de croissance peut laisser l'os voisin trop long et causer des douleurs durables ; Watkins 2022 ; DiFiori 2014]
+POURQUOI ÇA ARRIVE
+Appuis répétés sur les mains (gymnastique, cheerleading).
+Hausse rapide des heures d'entraînement.
+Os encore en croissance.
+SOULAGER LA DOULEUR
+[MODIFIÉ : « Glace 10 à 15 minutes, dans un linge, après le sport. » → « Glace 10 à 15 minutes, dans un linge, au besoin. » — les appuis sur les mains sont arrêtés ; « après le sport » peut laisser croire qu'on continue]
+[MODIFIÉ : « Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien). » → « Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien). Ne donnez jamais un médicament pour permettre de s'entraîner malgré la douleur. » — la douleur sert de guide pour le retour (règle « zéro douleur ») ; DiFiori 2006 ; Lintner 2023. À VÉRIFIER : aucune donnée sur l'effet des anti-inflammatoires sur la zone de croissance]
+CE QUI AIDE
+Arrêter tous les appuis sur les mains (sol, saut, barres, pompes) jusqu'à la disparition complète de la douleur.
+Porter l'attelle prescrite si le médecin en recommande une (souvent 4 à 6 semaines). [VÉRIFIÉ : Lintner 2023]
+Garder la forme avec des exercices de jambes, d'épaules et de gainage sur les avant-bras.
+[MODIFIÉ : « Reprendre les appuis par étapes, à volume réduit, seulement avec l'accord du médecin et sans aucune douleur. » → « Reprendre les appuis par étapes, seulement avec l'accord du médecin et sans aucune douleur : commencer à environ le quart du volume habituel, augmenter un peu chaque semaine, et garder pour la fin les éléments qui faisaient le plus mal. » — reprise à 75 % de volume en moins, hausse hebdomadaire sans douleur, éléments les plus douloureux en dernier ; DiFiori 2006]
+À ÉVITER POUR L'INSTANT
+Faire des équilibres sur les mains, roues, rondades, pompes ou appuis aux agrès.
+Utiliser une attelle ou des protège-poignets pour continuer à s'entraîner malgré la douleur.
+Forcer l'extension du poignet (étirements contre le sol ou un mur).
+RÈGLE DE DOULEUR (0 À 10)Aucune douleur au poignet n'est acceptable : si un exercice fait mal au poignet, arrêtez-le. Le poignet doit être complètement indolore au repos, au toucher et dans tous les mouvements avant tout retour aux appuis; si la douleur revient à la reprise, arrêtez et reconsultez.[VÉRIFIÉ : la règle « zéro douleur » correspond à la consigne d'arrêter dès que la douleur revient ; une règle à 3 sur 10 ne convient pas ici ; DiFiori 2006]
+[MODIFIÉ : rubrique unique « QUAND RECONSULTER » → deux rubriques, comme dans les autres fiches — consignes 3 et 8]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+[MODIFIÉ : (déplacé et précisé) → « Le jour même : déformation du poignet ou gonflement important, surtout après une chute. » — une fracture doit être écartée. À VÉRIFIER : classement fondé sur le jugement clinique]
+[MODIFIÉ : (déplacé) → « Dans les prochains jours : douleur au repos ou la nuit. » — une douleur de repos ou de nuit chez un enfant demande une réévaluation rapide. À VÉRIFIER : classement fondé sur le jugement clinique]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur au toucher de l'os du poignet qui persiste après 4 semaines de repos.
+[MODIFIÉ : « Gonflement visible, déformation du poignet ou douleur nouvelle du côté du petit doigt. » → « Douleur nouvelle du côté du petit doigt. » — le gonflement et la déformation sont déplacés plus haut]
+Douleur qui revient dès la reprise des premiers appuis légers.
+DURÉE HABITUELLE[MODIFIÉ : « Environ 4 semaines de repos des appuis lorsque la radiographie est normale; au moins 3 mois lorsque la plaque de croissance montre des changements à la radiographie. La reprise se fait ensuite par étapes, toujours sans douleur. » → « Environ 4 à 6 semaines de repos des appuis lorsque la radiographie est normale; au moins 3 mois lorsque la zone de croissance montre des changements à la radiographie (le médecin peut alors répéter la radiographie). La reprise se fait ensuite par étapes, toujours sans douleur. » — 4 semaines en moyenne sans changement radiologique et 3 mois ou plus avec changements (Roy 1985) ; 6 semaines sans appui puis réévaluation et radiographies de contrôle (DiFiori 2006) ; 3 à 4 mois en moyenne pour la récupération complète (Lintner 2023)]
+PROGRAMME D'EXERCICES
+Exercice 1 : Mobilité douce du poignet sans appui
+Phase : Dès maintenant
+But : Pour garder le poignet souple sans le charger.
+Départ : Assis, avant-bras posé sur la cuisse, main libre.
+Mouvement : Pliez et relevez doucement le poignet et faites de petits cercles lents, sans aucune charge et sans douleur.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Conservez simplement la souplesse normale pendant la période de repos.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Étirer le poignet vers l'arrière contre un mur ou le sol.
+Illustration demandée : Dessin au trait d'un jeune sportif assis bougeant doucement le poignet dans le vide.
+Exercice 2 : Gainage sur les avant-bras (sans appui sur les poignets)
+Phase : Dès maintenant
+But : Pour garder la force du tronc sans appui sur les poignets.
+Départ : Allongé face au sol, en appui sur les avant-bras et les genoux (ou les orteils), mains ouvertes et détendues.
+Mouvement : Soulevez le bassin pour aligner le dos et tenez la position 20 à 30 secondes en respirant.
+Dosage : 3 répétitions, 3 fois par semaine.
+Progression : Augmentez la durée jusqu'à 45 secondes sur les orteils.
+Plus facile : Tenez 10 secondes, les genoux au sol.
+Erreur fréquente : Se mettre en appui sur les mains au lieu des avant-bras.
+Illustration demandée : Dessin au trait d'un jeune gymnaste faisant une planche en appui sur les avant-bras.
+Exercice 3 : Renforcement des jambes et des fessiers sans les mains
+Phase : Dès maintenant
+But : Pour garder la forme des jambes.
+Départ : Debout, mains sur les hanches.
+Mouvement : Faites des squats ou des fentes contrôlées en gardant le dos droit.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Ajoutez des fentes sautées légères, sans appui des mains.
+Plus facile : Faites de plus petites flexions.
+Erreur fréquente : Tenir des poids lourds dans les mains.
+Illustration demandée : Dessin au trait d'un jeune sportif mains sur les hanches faisant un squat.
+RÉFÉRENCES
+[MODIFIÉ : « DiFiori JP et al.… 2006 (à vérifier) » → « DiFiori JP, Caine DJ, Malina RM, Wrist Pain, Distal Radial Physeal Injury, and Ulnar Variance in the Young Gymnast, Am J Sports Med, 2006 (PMID et DOI À VÉRIFIER) » — auteurs, titre, revue et année confirmés. Cet article recommande 6 semaines sans appui ; il n'est pas la source des chiffres « 4 semaines / 3 mois »]
+[MODIFIÉ : (aucun texte) → « Roy S, Caine D, Singer KM, Stress Changes of the Distal Radial Epiphysis in Young Gymnasts: A Report of Twenty-One Cases and a Review of the Literature, Am J Sports Med, 1985 (PMID 4051086) » — vraie source des durées « 4 semaines / au moins 3 mois »]
+[MODIFIÉ : « Caine D et al.… 2022 (à vérifier) » → « Caine D, Meyers R, Nguyen J, Schöffl V, Maffulli N, Primary Periphyseal Stress Injuries in Young Athletes: A Systematic Review, Sports Med, 2022 (PMID et DOI À VÉRIFIER) » — auteurs, titre, revue et année confirmés]
+[MODIFIÉ : « Lintner LJ et al.… 2023 (à vérifier) » → « Lintner LJ, Swisher J, Sitton ZE, Childhood and Adolescent Sports-Related Overuse Injuries, Am Fam Physician, 2023;108(6):544-553 (PMID À VÉRIFIER) » — référence confirmée]
+=== FICHE MAI-09 · [poignet/guyon] ===
+Titre : Neuropathie ulnaire au canal de GuyonSous-titre : Nerf comprimé au talon de la mainAncien titre : Nerf comprimé au talon de la main (canal de Guyon)Diagnostic correspondant dans MSK Morand : Neuropathie ulnaire au canal de Guyon
+EN BREF
+Le nerf ulnaire est comprimé à la base de la paume, du côté du petit doigt.
+Éviter l'appui sur cette zone le soulage le plus souvent.
+[MODIFIÉ : « Une faiblesse de la main doit être signalée. » → « Une faiblesse de la main doit être signalée rapidement, même si elle ne fait pas mal. » — l'atteinte de la branche motrice est indolore et peut passer inaperçue ; la reconnaître tôt aide à éviter une lésion plus profonde du nerf ; Farag 2025]
+CE QUE VOUS AVEZLe nerf ulnaire est comprimé dans un petit passage à la base de la paume, du côté du petit doigt (on parle souvent de « paralysie du cycliste »). Cela donne des picotements dans l'annulaire et l'auriculaire, et parfois une faiblesse ou une maladresse de la main. Le traitement principal est de supprimer la pression sur le talon de la main : le nerf récupère alors le plus souvent de lui-même.
+POURQUOI ÇA ARRIVE
+Appui prolongé sur la paume (guidon de vélo, béquilles).
+Outils qui vibrent, ou main utilisée comme marteau.
+[MODIFIÉ : (aucun texte) → « Parfois un petit kyste ou une ancienne fracture près du nerf. » — le kyste est la cause la plus fréquente dans les cas opérés ; Lee 2022 ; Silver 2021]
+SOULAGER LA DOULEUR
+Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.
+Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir. (À VÉRIFIER : aucune donnée propre à ce problème.)
+CE QUI AIDE
+Supprimer la pression sur le talon de la main : gants rembourrés et guidoline épaisse à vélo, changements fréquents de position des mains, tapis de souris souple. [VÉRIFIÉ : les gants rembourrés réduisent la pression de 10 à 28 % ; Slane 2011]
+À vélo, faire vérifier le réglage (selle, guidon) pour reporter moins de poids sur les mains.
+[MODIFIÉ : « Garder le poignet droit (neutre) au travail et à vélo. » → « Garder le poignet droit (neutre) au travail et à vélo; à vélo, éviter de rester longtemps les mains en bas du guidon. » — la position basse du guidon donne la pression la plus forte sur le nerf ; Slane 2011]
+Éviter les appuis directs sur la paume jusqu'à la disparition des symptômes.
+À ÉVITER POUR L'INSTANT
+Appuyer longuement le talon de la main sur un guidon, une béquille, un outil ou une table dure.
+Faire des pompes mains à plat ou de longues sorties à vélo tant que les symptômes persistent.
+Plier fortement le poignet vers l'arrière sous charge.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice, mais arrêtez tout mouvement qui augmente les picotements dans l'annulaire ou l'auriculaire.[VÉRIFIÉ : aucune donnée publiée sur un délai pour les nerfs comprimés ; critère prudent, conservé.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+[MODIFIÉ : « Petite bosse sentie à la base de la paume du côté du petit doigt, ou doigts qui deviennent blancs, bleus ou froids. » → « Le jour même : doigts qui deviennent blancs, bleus ou froids, ou petite plaie au bout d'un doigt qui ne guérit pas (problème de circulation). » — une artère peut être atteinte au même endroit que le nerf ; le manque de sang dans les doigts est urgent ; Marie 2007]
+[MODIFIÉ : (déplacé de « Revoyez votre médecin ») → « Dans les prochains jours : faiblesse pour écarter les doigts, maladresse ou perte de force dans la main, même sans engourdissement. » — atteinte motrice ; Farag 2025. À VÉRIFIER : le délai n'est pas chiffré dans les études]
+[MODIFIÉ : (déplacé de « Revoyez votre médecin ») → « Dans les prochains jours : fonte musculaire visible entre le pouce et l'index ou sur le bord de la main, ou doigts qui se recroquevillent. » — même raison]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : (déplacé de « Consultez rapidement ») → « Petite bosse sentie à la base de la paume, du côté du petit doigt (kyste possible). Si cette bosse bat comme un pouls, consultez dans les prochains jours. » — un kyste n'est pas urgent ; une masse qui bat peut venir de l'artère ; Lee 2022 ; Pulos 2023]
+Aucune amélioration après 4 à 6 semaines sans appui sur la paume.
+DURÉE HABITUELLELes picotements s'améliorent habituellement en quelques semaines après l'arrêt de la compression. S'il y a une faiblesse de la main, la récupération prend plutôt 2 à 3 mois, parfois davantage. [VÉRIFIÉ : dans un cas suivi de près, la fonction est revenue en 2 mois environ ; données limitées ; Barkhaus 2023. Une chirurgie est discutée si rien ne s'améliore après 2 à 4 mois ou si une cause comme un kyste est trouvée ; Silver 2021]
+PROGRAMME D'EXERCICESMatériel : élastique, table
+Exercice 1 : Ouverture et écartement doux des doigts
+Phase : Dès maintenant
+But : Pour garder la force des petits muscles de la main.
+Départ : Avant-bras posé sur une table, main à plat, paume vers le bas, sans appuyer sur le talon de la main.
+Mouvement : Écartez doucement tous les doigts les uns des autres, tenez 3 secondes, puis rapprochez-les sans forcer.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Ajoutez un petit élastique très souple autour des doigts si la force est normale.
+Plus facile : Faites un plus petit écartement.
+Erreur fréquente : Appuyer fort le talon de la main sur la table.
+Illustration demandée : Dessin au trait d'une main posée à plat sur une table avec des flèches écartant les doigts.
+Exercice 2 : Mobilité douce du poignet
+Phase : Dès maintenant
+But : Pour garder le poignet souple.
+Départ : Assis, avant-bras posé sur la cuisse, main libre.
+Mouvement : Faites de petits mouvements lents vers le haut et vers le bas, sans tension.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Entretenez simplement la souplesse du poignet, sans charge.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Plier le poignet vers l'arrière au maximum.
+Illustration demandée : Dessin au trait d'un avant-bras posé sur une cuisse avec la main qui bouge doucement.
+Exercice 3 : Glissement très doux du nerf ulnaire (facultatif)
+Phase : Quand la douleur diminue
+But : Pour aider le nerf à glisser.
+Départ : Assis droit, bras légèrement écarté sur le côté, coude presque tendu, paume vers le haut.
+Mouvement : Pliez doucement le coude pour amener la main vers l'épaule tout en inclinant la tête vers ce côté, puis dépliez le coude en inclinant la tête de l'autre côté. Le mouvement reste fluide et léger. Son utilité n'est pas démontrée pour cette atteinte : cessez-le s'il réveille les picotements. [VÉRIFIÉ : aucune étude au poignet ; au coude, le glissement du nerf n'ajoute rien à l'information seule ; Caliandro 2025 (Cochrane)]
+Dosage : 1 série de 8 répétitions lentes, 1 à 2 fois par jour.
+Progression : Augmentez doucement l'amplitude seulement si les deux derniers doigts restent calmes.
+Plus facile : Faites un plus petit mouvement, sans pencher la tête.
+Erreur fréquente : Tirer le poignet vers l'arrière et pencher la tête du côté opposé en même temps.
+Illustration demandée : Dessin au trait d'une personne assise pliant et tendant le coude en coordonnant doucement l'inclinaison de la tête.
+RÉFÉRENCES
+[MODIFIÉ : « Silver S et al.… 2021 (à vérifier) » → « Silver S, Ledford CC, Vogel KJ, Arnold JJ, Peripheral Nerve Entrapment and Injury in the Upper Extremity, Am Fam Physician, 2021 (mars) (volume 103(5):275-285 et PMID À VÉRIFIER) » — auteurs, titre, revue et date confirmés]
+[MODIFIÉ : « Slane J et al.… 2011 (à vérifier) » → « Slane J, Timmerman M, Ploeg HL, Thelen DG, The Influence of Glove and Hand Position on Pressure Over the Ulnar Nerve During Cycling, Clin Biomech (Bristol, Avon), 2011 (PMID 21458120) » — référence confirmée]
+[MODIFIÉ : « Farag JI et al.… 2025 (à vérifier) » → « Farag JI, McDougall AN, Catapano M, Common sports-related nerve injuries seen by the electrodiagnostic medical consultant, Muscle Nerve, 2025 (PMID et DOI À VÉRIFIER) » — auteurs, titre, revue et année confirmés]
+=== FICHE MAI-10 · [poignet/arthrose_digitale] ===
+Titre : Arthrose digitale (nodules d'Heberden et de Bouchard)Sous-titre : Arthrose des doigtsAncien titre : Arthrose des doigtsDiagnostic correspondant dans MSK Morand : Arthrose digitale (nodules d'Heberden et de Bouchard)
+EN BREF
+Le cartilage des petites articulations des doigts s'est usé.
+Les bosses restent, mais la douleur diminue souvent avec le temps.
+Des exercices et des aides techniques facilitent les gestes du quotidien.
+CE QUE VOUS AVEZLe cartilage des petites articulations de vos doigts s'est usé avec le temps, formant parfois de petites bosses osseuses près des ongles ou au milieu des doigts. Même si les bosses restent, la douleur se calme souvent avec le temps. Des exercices réguliers diminuent un peu la douleur et la raideur et entretiennent la force; leur effet dure tant qu'on continue à les faire. [VÉRIFIÉ : effet petit (environ un demi-point sur 10 pour la douleur), qui n'est plus mesurable 6 à 12 mois après la fin du programme ; Østerås 2017 (Cochrane) ; Huang 2024]
+POURQUOI ÇA ARRIVE
+Facteurs héréditaires.
+Âge et ménopause.
+Travail manuel lourd.
+SOULAGER LA DOULEUR
+Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.
+Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié. [VÉRIFIÉ : la crème d'abord, les comprimés pour une durée limitée ; Kloppenburg 2019 (EULAR) ; Kolasinski 2020 (ACR)]
+CE QUI AIDE
+Tremper les mains dans l'eau tiède (ou utiliser un gant chauffant) 10 minutes le matin avant les exercices.
+Bouger doucement tous les doigts chaque jour pour garder la souplesse.
+Utiliser des ustensiles à gros manche, un ouvre-bocal ou d'autres aides qui ménagent les doigts.
+Porter les objets lourds à deux mains, avec les paumes, plutôt que du bout des doigts.
+À ÉVITER POUR L'INSTANT
+Forcer des torsions ou des pincements puissants du bout des doigts (ouvrir des bocaux serrés à mains nues).
+Étirer ou tordre brutalement les doigts douloureux.
+Laisser les doigts immobiles par crainte de les user : le mouvement doux ne les abîme pas.
+RÈGLE DE DOULEUR (0 À 10)[MODIFIÉ : « …si elle revient à la normale dans l'heure qui suit l'exercice. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois. » — aucun appui publié pour le délai d'une heure ; les programmes d'exercices pour l'arthrose acceptent jusqu'à 5 sur 10 et un retour à la « douleur habituelle » au plus tard le lendemain ; seuil de 3 sur 10 gardé par prudence ; Sørensen 2025. À VÉRIFIER : règle établie pour le genou et la hanche ; les essais sur l'arthrose de la main ne donnent pas de délai précis (Østerås 2017)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+[MODIFIÉ : « Articulation soudainement très rouge, chaude et enflée avec douleur vive (crise inflammatoire ou infection à vérifier). » → « Le jour même : articulation soudainement très rouge, chaude et enflée avec douleur vive, avec ou sans fièvre (infection ou crise de goutte à vérifier). » — la fièvre peut manquer en cas d'infection ; la goutte peut toucher les doigts déjà atteints d'arthrose ; Earwood 2021]
+REVOYEZ VOTRE MÉDECIN SI
+Raideur du matin qui dure plus de 30 à 60 minutes, surtout si plusieurs articulations des deux mains sont gonflées.
+Douleur qui empêche les gestes quotidiens malgré les aides techniques.
+Engourdissements dans les doigts.
+DURÉE HABITUELLE[MODIFIÉ : « Amélioration modeste de la raideur, de la douleur et du confort en 4 à 8 semaines, à entretenir en poursuivant les exercices. » → « Amélioration modeste de la raideur, de la douleur et du confort en 3 mois environ, à entretenir en poursuivant les exercices. » — la plupart des essais ont mesuré l'effet vers 12 à 13 semaines ; aucun n'a testé 4 à 8 semaines ; Østerås 2017]
+PROGRAMME D'EXERCICESMatériel : balle, table
+Exercice 1 : Flexion et extension douces des doigts (en éventail)
+Phase : Dès maintenant
+But : Pour garder les doigts souples.
+Départ : Main ouverte, coude posé sur la table.
+Mouvement : Ouvrez grand les doigts en éventail, tenez 3 secondes, puis pliez doucement en crochet, puis en poing léger, et rouvrez.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Faites l'exercice dans de l'eau tiède le matin si les doigts sont très raides.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Serrer le poing trop fort jusqu'à faire mal aux articulations.
+Illustration demandée : Dessin au trait d'une main passant de doigts grands ouverts en éventail à un poing doux.
+Exercice 2 : Opposition pouce-doigts (en forme de O)
+Phase : Dès maintenant
+But : Pour garder la précision des doigts.
+Départ : Avant-bras posé sur la table, main détendue.
+Mouvement : Touchez doucement le bout du pouce avec le bout de chaque doigt (index, majeur, annulaire, auriculaire) en formant chaque fois un O bien arrondi.
+Dosage : 5 allers-retours complets, 2 fois par jour.
+Progression : Essayez de faire glisser le pouce vers la base de chaque doigt si c'est confortable.
+Plus facile : Touchez seulement l'index et le majeur.
+Erreur fréquente : Écraser les bouts des doigts à plat l'un contre l'autre au lieu de former un O rond.
+Illustration demandée : Dessin au trait d'une main où le bout du pouce touche doucement le bout de l'index en formant un O.
+Exercice 3 : Renforcement doux de la prise avec éponge ou balle molle
+Phase : Quand la douleur diminue
+But : Pour renforcer la prise.
+Départ : Main tenant une éponge humide ou une balle très molle.
+[MODIFIÉ : Mouvement « Pressez doucement l'éponge avec toute la main pendant 3 secondes… » → « Pressez doucement l'éponge avec toute la main pendant 3 à 5 secondes, puis relâchez complètement. » — les essais utilisaient une tenue de 5 secondes ; Hennig 2015 ; Østerås 2017]
+Dosage : 2 séries de 10 répétitions, 3 fois par semaine. [VÉRIFIÉ : fréquence de 3 fois par semaine comme dans les essais]
+[MODIFIÉ : Progression « Passez à une balle en mousse légèrement plus ferme. » → « Montez peu à peu jusqu'à 15 répétitions, puis passez à une balle en mousse légèrement plus ferme. » — progression de 10 à 15 répétitions dans les essais ; Hennig 2015]
+Plus facile : Prenez une éponge plus molle.
+Erreur fréquente : Pincer uniquement avec le bout des doigts.
+Illustration demandée : Dessin au trait d'une main pressant doucement une éponge souple.
+RÉFÉRENCES
+Østerås N, Kjeken I, Smedslund G, et al., Exercise for Hand Osteoarthritis, Cochrane Database Syst Rev, 2017;1:CD010388 (PMID 28141914 ; doi:10.1002/14651858.CD010388.pub2) — référence confirmée
+Kloppenburg M, Kroon FP, Blanco FJ, et al., 2018 Update of the EULAR Recommendations for the Management of Hand Osteoarthritis, Ann Rheum Dis, 2019;78(1):16-24 (PMID 30154087 ; doi:10.1136/annrheumdis-2018-213826) — référence confirmée
+[MODIFIÉ : « Courties A et al.… 2026 (à vérifier) » → « Courties A, Daste C, Homs AF, et al., French Societies of Rheumatology and of Physical and Rehabilitation Medicine Recommendations for the Management of People Living With Hand Osteoarthritis, Joint Bone Spine, 2026 (PMID 41183591 ; DOI et pages À VÉRIFIER) » — référence confirmée]
+[MODIFIÉ : (aucun texte) → « Kolasinski SL, Neogi T, Hochberg MC, et al., 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, Arthritis Rheumatol, 2020 » — recommande fortement l'exercice régulier ; PMID À VÉRIFIER]
+=== FICHE MAI-11 · [poignet/rhizarthrose] ===
+Titre : RhizarthroseSous-titre : Arthrose à la base du pouceAncien titre : Arthrose à la base du pouce (rhizarthrose)Diagnostic correspondant dans MSK Morand : Rhizarthrose (arthrose trapézo-métacarpienne)
+EN BREF
+Le cartilage à la base du pouce est usé.
+[MODIFIÉ : « Une orthèse et des exercices qui stabilisent le pouce diminuent la douleur. » → « Une orthèse portée régulièrement et des exercices qui stabilisent le pouce peuvent diminuer la douleur, après environ 3 mois. » — effet de l'orthèse significatif entre 3 et 12 mois, pas avant 3 mois ; Buhler 2019]
+Des aides techniques facilitent les gestes qui pincent.
+CE QUE VOUS AVEZL'articulation tout à la base de votre pouce, près du poignet, présente une usure du cartilage. Cela fait mal quand vous pincez ou serrez (tourner une clé, ouvrir un pot, boutonner). Porter régulièrement une orthèse de la base du pouce, ménager l'articulation dans les gestes quotidiens et entretenir les muscles du pouce soulagent souvent, mais l'effet s'installe progressivement, sur environ 3 mois.
+POURQUOI ÇA ARRIVE
+Âge et facteurs héréditaires ; plus fréquent chez les femmes.
+Gestes répétés de pince forte.
+SOULAGER LA DOULEUR
+Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.
+Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Porter une orthèse de la base du pouce de façon régulière pendant au moins 3 mois, la nuit ou lors des activités selon ce qui vous convient le mieux. [VÉRIFIÉ : pas de différence entre le port de jour et le port de nuit sur un an ; Silva 2024]
+Utiliser des aides simples (ouvre-bocal, tourne-clé, stylo plus gros).
+Prendre les objets avec une pince en « C » arrondi plutôt qu'en écrasant le pouce.
+Entretenir doucement la force des muscles autour du pouce, environ 3 fois par semaine.
+À ÉVITER POUR L'INSTANT
+Pincer fort du bout des doigts en laissant la base du pouce s'effondrer vers la paume.
+Ouvrir des pots très serrés ou tordre des linges à la main.
+Forcer l'étirement du pouce vers l'arrière.
+RÈGLE DE DOULEUR (0 À 10)[MODIFIÉ : « …si elle revient à la normale dans l'heure qui suit l'exercice. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois. » — même raison que pour MAI-10 ; Sørensen 2025. À VÉRIFIER : règle établie pour le genou et la hanche]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+[MODIFIÉ : « Gonflement rouge, chaud et très douloureux à la base du pouce. » → « Le jour même : gonflement rouge, chaud et très douloureux à la base du pouce, avec ou sans fièvre. » — précision du délai ; Earwood 2021]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui empêche les gestes quotidiens malgré le port de l'orthèse.
+Engourdissements dans le pouce ou les doigts.
+Aucune amélioration après 3 mois d'orthèse et d'exercices. [VÉRIFIÉ : étapes proposées : autogestion, orthèse, infiltration, puis chirurgie ; Gangopadhyay 2025]
+DURÉE HABITUELLELe soulagement s'installe progressivement : une partie de l'amélioration apparaît dans les 6 premières semaines, mais le plein effet de l'orthèse demande environ 3 mois de port régulier. [VÉRIFIÉ : fonction améliorée à 6 semaines, douleur à 12 semaines ; Deveza 2021 ; Buhler 2019]
+PROGRAMME D'EXERCICESMatériel : élastique, balle, table
+Exercice 1 : Placement en « C » (arche du pouce)
+Phase : Dès maintenant
+But : Pour stabiliser la base du pouce.
+Départ : Main posée sur une table sur le bord du petit doigt.
+Mouvement : Formez un « C » arrondi entre le pouce et l'index, comme si vous teniez une balle de tennis, en gardant toutes les articulations du pouce légèrement pliées (aucune ne part vers l'arrière). Tenez 5 secondes.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Utilisez cette forme en « C » quand vous prenez une tasse ou un verre.
+[MODIFIÉ : Plus facile « Tenez 5 secondes. » → « Tenez 2 à 3 secondes. » — la version facile était identique à la version de base ; cohérence interne]
+Erreur fréquente : Laisser l'articulation du milieu du pouce s'effondrer vers l'arrière.
+Illustration demandée : Dessin au trait d'une main formant un C arrondi entre le pouce et l'index.
+Exercice 2 : Écartement doux du pouce (glissement sur la table)
+Phase : Dès maintenant
+But : Pour garder l'espace entre le pouce et l'index.
+Départ : Main posée à plat sur une table, paume vers le bas.
+Mouvement : Écartez doucement le pouce sur le côté le long de la table pour ouvrir l'espace entre le pouce et l'index, puis revenez lentement.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Ajoutez une légère résistance avec un élastique souple autour de la main quand le mouvement est indolore.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Crisper les épaules ou forcer dans la douleur.
+Illustration demandée : Dessin au trait d'une main à plat sur une table, le pouce glissant vers l'extérieur.
+Exercice 3 : Pince douce avec balle en mousse (en gardant le C)
+Phase : Quand la douleur diminue
+But : Pour renforcer le pouce sans le déformer.
+Départ : Tenez une petite balle en mousse très souple entre le pouce et l'index.
+Mouvement : Pressez très légèrement la balle pendant 3 à 5 secondes en gardant la forme arrondie du pouce, puis relâchez.
+Dosage : 2 séries de 10 répétitions, 3 fois par semaine.
+Progression : Passez à une balle légèrement plus ferme.
+Plus facile : Serrez une balle plus molle.
+Erreur fréquente : Écraser la base du pouce vers l'intérieur.
+Illustration demandée : Dessin au trait d'un pouce et d'un index arrondis pressant doucement une petite balle en mousse.
+RÉFÉRENCES
+Kloppenburg M, Kroon FP, Blanco FJ, et al., 2018 Update of the EULAR Recommendations for the Management of Hand Osteoarthritis, Ann Rheum Dis, 2019;78(1):16-24 (PMID 30154087) — référence confirmée
+[MODIFIÉ : « Buhler M et al.… 2019 (à vérifier) » → « Buhler M, Chapple CM, Stebbings S, Sangelaji B, Baxter GD, Effectiveness of Splinting for Pain and Function in People With Thumb Carpometacarpal Osteoarthritis: A Systematic Review With Meta-Analysis, Osteoarthritis Cartilage, 2019 (PMID 30317000 ; volume et DOI À VÉRIFIER) » — référence confirmée]
+[MODIFIÉ : « Gangopadhyay S et al.… 2025 (à vérifier) » → « Gangopadhyay S, Jansen V, Sim Khor W, et al., Guideline on managing thumb base osteoarthritis: The British Society for Surgery of the Hand Evidence for Surgical Treatment (BEST) findings and recommendations, J Hand Surg Eur Vol, 2025 (PMID et DOI À VÉRIFIER) » — auteurs, titre, revue et année confirmés]
+=== FICHE MAI-12 · [poignet/ressaut] ===
+Titre : Doigt à ressaut (ténosynovite sténosante des fléchisseurs)Sous-titre : Doigt qui accroche ou reste bloquéAncien titre : Doigt qui accroche ou reste bloqué (doigt à ressaut)Diagnostic correspondant dans MSK Morand : Doigt à ressaut
+EN BREF
+Un tendon épaissi accroche à l'entrée d'un petit tunnel dans la paume.
+Une petite attelle qui garde la base du doigt droite le calme souvent.
+[MODIFIÉ : « Une infiltration règle le problème chez plus d'une personne sur deux. » → « Une infiltration règle le problème chez plus d'une personne sur deux, mais le ressaut revient souvent dans l'année. » — succès de 57 à 65 % ; récidive chez environ 56 % à un an ; Currie 2022 ; Rozental 2008]
+CE QUE VOUS AVEZUn tendon qui plie votre doigt est épaissi et accroche à l'entrée d'un petit tunnel dans la paume, ce qui produit un « clic » ou bloque le doigt en position pliée. Une petite attelle qui empêche le doigt d'accrocher laisse au tendon le temps de se calmer. Si cela ne suffit pas, une infiltration de cortisone règle le problème chez plus d'une personne sur deux, mais le ressaut peut revenir dans les mois qui suivent. [MODIFIÉ : (aucun texte) → « L'infiltration fonctionne moins bien chez les personnes diabétiques, et elle peut faire monter le sucre dans le sang pendant 1 à 2 jours. » — échec après une infiltration : 78 % sous insuline, 47 % dans le diabète sans insuline, 49 % sans diabète ; glycémie élevée 24 à 48 heures ; Chang 2018 ; Currie 2022]
+POURQUOI ÇA ARRIVE
+Gestes répétés de prise forte.
+Diabète, polyarthrite ou hypothyroïdie.
+Plus fréquent après 40 ans.
+SOULAGER LA DOULEUR
+Tremper la main dans l'eau tiède le matin aide à déplier le doigt.
+Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Porter pendant 6 à 10 semaines une petite attelle qui garde droite la base du doigt (ou l'articulation du milieu) : idéalement jour et nuit ou au moins 8 heures par jour, sinon au minimum la nuit (elle peut être retirée le temps de faire les exercices). [VÉRIFIÉ : 6 à 10 semaines ; attelle à la base du doigt ou à l'articulation du milieu ; au moins 8 heures par jour dans l'essai ; Donati 2024 ; Atthakomol 2023]
+Tremper la main dans l'eau tiède le matin et déplier doucement le doigt avec l'autre main s'il est resté plié.
+Utiliser des manches épais ou rembourrés et éviter de serrer fort des outils ou des sacs.
+Demander à votre médecin si une infiltration est indiquée, surtout si le doigt se bloque souvent.
+À ÉVITER POUR L'INSTANT
+Faire « claquer » le doigt de façon répétée pour le tester.
+Serrer fort des manches fins ou porter des sacs d'épicerie lourds du bout des doigts.
+Plier le doigt à fond d'un coup sec.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice et si le mouvement ne déclenche pas d'accrochage brutal.[VÉRIFIÉ : aucune donnée publiée pour le doigt à ressaut ; critère prudent, conservé. Le modèle des tendinopathies n'a pas été étudié ici.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+[MODIFIÉ : « Rougeur ou chaleur importante le long du doigt, ou fièvre : consulter en urgence (ce tableau pouvant correspondre à une infection de la gaine du tendon). » → « À l'urgence, le jour même : doigt enflé sur toute sa longueur, rouge ou chaud, gardé plié, très douloureux quand on essaie de le déplier, avec ou sans fièvre (infection possible de la gaine du tendon). » — description des signes de cette infection en mots simples ; chaque jour de retard aggrave le pronostic ; Mehta 2024 ; Idarrha 2026]
+[MODIFIÉ : (déplacé de « Revoyez votre médecin ») → « Dans les prochains jours : doigt complètement bloqué qui ne peut plus être déplié, même avec l'aide de l'autre main. » — un blocage qui dure peut laisser une raideur permanente ; Yang 2026. À VÉRIFIER : aucun délai précis n'est donné dans les études]
+REVOYEZ VOTRE MÉDECIN SI
+Engourdissements dans le doigt.
+Aucune amélioration après 6 semaines d'attelle.
+DURÉE HABITUELLEAmélioration possible en 6 à 10 semaines avec l'attelle. Si le ressaut persiste, une infiltration de cortisone est souvent proposée; une petite chirurgie est parfois nécessaire, surtout si le ressaut revient après l'infiltration. [VÉRIFIÉ : dans un essai, l'attelle seule, l'infiltration seule et les deux ensemble ont donné des résultats semblables à 6, 12 et 52 semaines ; Atthakomol 2023]
+PROGRAMME D'EXERCICESMatériel : table
+Exercice 1 : Glissement doux sans accrochage (crochet)
+Phase : Dès maintenant
+But : Pour faire glisser le tendon sans le faire accrocher.
+Départ : Main ouverte, doigts droits.
+Mouvement : Pliez doucement les deux dernières phalanges en gardant la base du doigt droite, en vous arrêtant juste avant le point où ça accroche, puis rouvrez grand les doigts.
+Dosage : 10 répétitions lentes, 2 à 3 fois par jour.
+Progression : Allez un peu plus loin dans la flexion seulement si le mouvement reste fluide et sans clic.
+Plus facile : Pliez moins loin.
+Erreur fréquente : Fermer le poing complet jusqu'à bloquer le doigt.
+Illustration demandée : Dessin au trait d'une main avec les doigts pliés en crochet, base des doigts droite, sans fermer le poing.
+Exercice 2 : Étirement passif doux en extension
+Phase : Dès maintenant
+But : Pour déplier un doigt resté plié.
+Départ : Main posée sur une table, paume vers le bas.
+Mouvement : Si le doigt a tendance à rester plié, utilisez l'autre main pour l'allonger doucement à plat sur la table et maintenez 15 secondes.
+Dosage : 3 à 5 répétitions, 2 fois par jour.
+Progression : Faites-le surtout le matin, après la nuit.
+Plus facile : Tenez 5 secondes, sans appuyer.
+Erreur fréquente : Tirer brusquement sur un doigt bloqué.
+Illustration demandée : Dessin au trait d'une main aidant doucement un doigt de l'autre main à s'allonger.
+Exercice 3 : Massage doux de la paume à la base du doigt (facultatif)
+Phase : Dès maintenant
+But : Pour soulager la paume, si cela vous fait du bien.
+Départ : Main posée paume vers le haut sur une table.
+Mouvement : Avec le pouce de l'autre main, faites de petits cercles doux sur le point sensible de la paume. Ce massage peut soulager, mais il n'est pas démontré qu'il accélère la guérison.
+Dosage : 1 à 2 minutes, 1 à 2 fois par jour, seulement si cela soulage.
+Progression : Faites-le après avoir trempé la main dans l'eau tiède.
+Plus facile : Faites des cercles plus légers.
+Erreur fréquente : Appuyer si fort que cela provoque une douleur vive ou un bleu.
+Illustration demandée : Dessin au trait d'une main ouverte paume vers le haut, le pouce de l'autre main massant doucement la base d'un doigt dans la paume.
+RÉFÉRENCES
+[MODIFIÉ : « Currie KB et al.… 2022 (à vérifier) » → « Currie KB, Tadisina KK, Mackinnon SE, Common Hand Conditions: A Review, JAMA, 2022 (28 juin) (volume 327(24):2434-45 et PMID À VÉRIFIER) » — auteurs, titre, revue et date confirmés]
+[MODIFIÉ : « Atthakomol P et al.… 2023 (à vérifier) » → « Atthakomol P, Wangtrakunchai V, Chanthana P, Phinyo P, Manosroi W, Are There Differences in Pain Reduction and Functional Improvement Among Splint Alone, Steroid Alone, and Combination for the Treatment of Adults With Trigger Finger?, Clin Orthop Relat Res, 2023 (PMID 37083487) » — référence confirmée]
+[MODIFIÉ : « Donati D et al.… 2024 (à vérifier) » → « Donati D, Ricci V, Boccolari P, et al., From diagnosis to rehabilitation of trigger finger: a narrative review, BMC Musculoskelet Disord, 2024;25(1):1061 (PMID 39716186 ; doi:10.1186/s12891-024-08192-5) » — référence confirmée]
+[MODIFIÉ : (aucun texte) → « Minkhorst K, Munn A, MacDermid J, Grewal R, Does Orthosis Improve Outcomes of Conservative Treatment in Trigger Fingers? A 3-Arm Prospective Randomized Controlled Trial, Arch Phys Med Rehabil, 2025 » — essai canadien récent (l'attelle de nuit n'ajoute rien à l'infiltration ; succès global du traitement sans chirurgie : 69 %) ; PMID À VÉRIFIER]

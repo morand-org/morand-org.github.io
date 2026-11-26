@@ -50,7 +50,7 @@
   "materiel": [
    "serviette",
    "mur",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -152,8 +152,7 @@
   ],
   "duree_habituelle": "Les chaussures larges soulagent souvent le frottement en quelques jours ; le confort s'améliore en général en 8 à 12 semaines d'exercices réguliers. La bosse elle-même ne disparaît pas.",
   "materiel": [
-   "mur",
-   "poids léger ou bouteille d'eau"
+   "mur"
   ],
   "exercices": [
    {
@@ -178,7 +177,7 @@
     "illustration": "Dessin au trait d'un pied nu au sol soulevant doucement sa voûte plantaire.",
     "phase": "Dès maintenant",
     "but": "Pour activer l'arche du pied.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    },
    {
     "nom": "Montées sur la pointe des pieds, gros orteil aligné",
@@ -190,7 +189,7 @@
     "illustration": "Dessin au trait de deux pieds nus vus de face montant sur la pointe, gros orteils bien alignés.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le pied en appui sur le gros orteil.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    }
   ],
   "references": [
@@ -382,7 +381,7 @@
     "illustration": "Dessin au trait d'un pied nu soulevant doucement sa voûte plantaire.",
     "phase": "Dès maintenant",
     "but": "Pour soutenir l'arche.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    },
    {
     "nom": "Étirement doux du mollet",
@@ -495,7 +494,7 @@
     "illustration": "Dessin au trait d'un pied nu soulevant doucement la voûte plantaire.",
     "phase": "Dès maintenant",
     "but": "Pour soutenir l'arche.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    }
   ],
   "references": [
@@ -699,7 +698,7 @@
     "illustration": "Dessin au trait d'un pied nu soulevant doucement son arche.",
     "phase": "Dès maintenant",
     "but": "Pour soutenir l'arche.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    }
   ],
   "references": [
@@ -863,7 +862,6 @@
   "duree_habituelle": "Amélioration souvent lente : comptez 6 à 12 semaines de décharge, parfois plusieurs mois (2 à 6 mois en cas de fracture de fatigue).",
   "materiel": [
    "mur",
-   "poids léger ou bouteille d'eau",
    "tapis d'exercice"
   ],
   "exercices": [
@@ -901,7 +899,7 @@
     "illustration": "Dessin au trait d'un pied nu soulevant doucement l'arche du pied.",
     "phase": "Dès maintenant",
     "but": "Pour soutenir l'arche sans appuyer sous le gros orteil.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    }
   ],
   "references": [
@@ -952,7 +950,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
@@ -978,7 +976,7 @@
     "illustration": "Dessin au trait d'une personne debout montant sur la pointe des pieds face à un mur.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer les mollets.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Renforcement des muscles de la cheville avec élastique",
@@ -1055,7 +1053,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
@@ -1082,7 +1080,7 @@
     "illustration": "Dessin au trait d'un pied nu au sol soulevant doucement son arche.",
     "phase": "Dès maintenant",
     "but": "Pour soutenir l'arche.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    },
    {
     "nom": "Inversion douce avec élastique (quand la bosse n'élance plus à la marche)",
@@ -1158,7 +1156,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin et si elle ne fait pas boiter.",
   "urgence": [
@@ -1261,7 +1259,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle ne fait pas boiter.",
   "urgence": [
@@ -1302,7 +1300,7 @@
     "illustration": "Dessin au trait d'un jeune sportif montant doucement sur la pointe des pieds sur sol plat.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Ramassage d'une serviette avec les orteils (complément facultatif)",

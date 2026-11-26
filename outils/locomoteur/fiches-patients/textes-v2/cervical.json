@@ -164,7 +164,7 @@
   "materiel": [
    "chaise",
    "mur",
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "balle"
   ],
   "exercices": [
@@ -965,7 +965,7 @@
   "duree_habituelle": "Le plus souvent quelques secondes à quelques minutes; parfois quelques heures à quelques jours (une faiblesse peut mettre 5 à 6 jours à disparaître); rarement plus de 2 semaines. Le retour au sport exige la disparition complète des symptômes, une force et une mobilité normales, et un examen médical normal.",
   "materiel": [
    "mur",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1176,7 +1176,7 @@
    "Forcer des étirements qui déclenchent des fourmillements dans la main."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez tout mouvement qui déclenche des picotements ou un changement de couleur dans la main.",

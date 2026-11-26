@@ -31,7 +31,7 @@ const TITRES = lireJSON(path.join(ICI, "titres.json"));
 
 /* Matériel nécessaire, d'après le texte des exercices. */
 const MATERIEL = [["élastique", /élastique/i], ["serviette", /serviette/i], ["chaise", /chaise/i], ["marche ou escalier", /marche (basse|d'escalier)|escalier|step/i],
-  ["mur", /\bmur\b/i], ["poids léger ou bouteille d'eau", /poids|haltère|bouteille|boîte de conserve/i], ["ballon", /ballon/i], ["coussin", /coussin|oreiller/i],
+  ["mur", /\bmur\b/i], ["poids léger, bouteille d'eau ou sac à dos", /poids léger|petits? poids|poids (de|d'environ) \d|haltère|bouteille|boîte de conserve|sac à dos|(ajoutez|ajouter|ajoutant|tenant|tenez|avec|portant) (un |du |des |de )?(petits? |léger )?poids/i], ["ballon", /ballon/i], ["coussin", /coussin|oreiller/i],
   ["balle", /\bballe\b/i], ["bâton ou manche à balai", /bâton|manche à balai/i], ["table", /\btable\b/i], ["tapis d'exercice", /tapis/i]];
 const materielDe = ex => MATERIEL.filter(([, re]) => ex.some(e => re.test([e.position_de_depart, e.mouvement, e.progression, e.plus_facile].join(" ")))).map(([n]) => n);
 
@@ -49,8 +49,10 @@ const SOULAGER = {
     "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."],
   nerf: ["Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
     "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."],
+  nerf_p: ["Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
+    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."],
   enfant: ["Glace 10 à 15 minutes, dans un linge, après le sport.",
-    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."],
+    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."],
   grossesse: ["Chaleur douce ou bain tiède (pas chaud) pour détendre les muscles.",
     "Acétaminophène au besoin ; évitez les anti-inflammatoires pendant la grossesse, sauf avis de votre médecin."],
   inflam: ["Les anti-inflammatoires prescrits par votre médecin sont le traitement de base : prenez-les comme indiqué.",
@@ -78,12 +80,37 @@ export function assembler(r, x, no) {
   const medecin = urgence.length ? [...signes.filter((_, k) => !urg.has(k)), ...(aj["m+"] || [])] : [...signes, ...(aj["m+"] || [])];
   const soulager = Array.isArray(aj.s) ? aj.s : aj.s ? SOULAGER[aj.s] : [];
   if (aj.s && !soulager) throw new Error(`${cle} : genre « ${aj.s} » inconnu`);
-  return {
+  return reviser(rA, x.id, {
     cle, region: r, region_nom: nomR, code: `${pre}-${String(no).padStart(2, "0")}`, no, titre: t.titre, sous_titre: t.sous_titre, titre_v1: x.titre_patient, diagnostic: x.nom,
     en_bref: aj.b || [], ce_que_vous_avez: x.ce_que_vous_avez, pourquoi: aj.p || [], ce_qui_aide: x.ce_qui_aide, a_eviter: x.a_eviter_pour_l_instant,
     soulager, regle_de_douleur: x.regle_de_douleur, urgence, medecin, duree_habituelle: x.duree_habituelle,
     materiel: materielDe(exercices), exercices, references: x.references || []
-  };
+  });
+}
+
+/* Corrections retenues après la révision d'OpenEvidence (revues/<région>.json), triées par le Dr Morand et Claude :
+   seulement ce qui rend la fiche plus juste ou plus sûre, en gardant un texte simple. Format par fiche : une rubrique
+   remplacée en entier (titre, sous_titre, en_bref, ce_que_vous_avez, pourquoi, soulager, ce_qui_aide, a_eviter,
+   regle_de_douleur, urgence, medecin, duree_habituelle, references, materiel) ; « exercices » : { "2": { champs } }
+   (numéro de l'exercice, à partir de 1) ; « _journal » : décisions, hors fiche. */
+function reviser(r, id, f) {
+  const fic = path.join(ICI, "revues", `${r}.json`), rv = (fs.existsSync(fic) ? lireJSON(fic) : {})[id];
+  if (!rv) return f;
+  for (const [k, v] of Object.entries(rv)) {
+    if (k.startsWith("_") || k === "materiel") continue;
+    if (k === "exercices") {
+      for (const [n, champs] of Object.entries(v)) {
+        const e = f.exercices[Number(n) - 1]; if (!e) throw new Error(`${f.cle} : exercice ${n} introuvable`);
+        for (const c of Object.keys(champs)) if (!(c in e) && !["phase", "but", "plus_facile"].includes(c)) throw new Error(`${f.cle} : champ d'exercice « ${c} » inconnu`);
+        Object.assign(e, champs);
+      }
+      continue;
+    }
+    if (!(k in f)) throw new Error(`${f.cle} : rubrique « ${k} » inconnue dans revues/${r}.json`);
+    f[k] = v;
+  }
+  f.materiel = rv.materiel || materielDe(f.exercices);
+  return f;
 }
 
 const CSS = fs.readFileSync(path.join(ICI, "gabarit-fiche.css"), "utf8");

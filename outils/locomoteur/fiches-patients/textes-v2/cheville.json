@@ -48,7 +48,6 @@
   "materiel": [
    "élastique",
    "mur",
-   "poids léger ou bouteille d'eau",
    "coussin"
   ],
   "exercices": [
@@ -86,7 +85,7 @@
     "illustration": "Dessin au trait d'une personne debout mains sur un comptoir montant sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -160,7 +159,6 @@
    "élastique",
    "marche ou escalier",
    "mur",
-   "poids léger ou bouteille d'eau",
    "coussin",
    "tapis d'exercice"
   ],
@@ -275,7 +273,8 @@
   "duree_habituelle": "Amélioration nette en 6 à 12 semaines de renforcement régulier. La récupération complète prend souvent de 3 à 12 mois : continuez le renforcement même quand la douleur diminue.",
   "materiel": [
    "marche ou escalier",
-   "mur"
+   "mur",
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -379,7 +378,8 @@
   ],
   "duree_habituelle": "Amélioration plus lente qu'au milieu du tendon : comptez de 3 à 6 mois, parfois plus. Le retour graduel des mouvements de cheville vers le haut (marche, étirements) se fait plus tard, idéalement avec un physiothérapeute.",
   "materiel": [
-   "mur"
+   "mur",
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -404,7 +404,7 @@
     "illustration": "Dessin au trait d'une personne debout sur sol plat montant et descendant lentement sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le tendon sans l'écraser.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Montées lentes genoux pliés sur sol plat",
@@ -491,7 +491,7 @@
     "illustration": "Dessin au trait d'un coureur montant lentement sur la pointe des pieds face à un mur.",
     "phase": "Dès maintenant",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Relevé de l'avant des pieds dos au mur (tibial antérieur)",
@@ -717,7 +717,7 @@
     "illustration": "Dessin au trait d'une personne debout face à un mur montant sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Étirement doux du mollet contre un mur",
@@ -781,7 +781,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle ne fait pas boiter.",
   "urgence": [
@@ -822,7 +822,7 @@
     "illustration": "Dessin au trait d'un jeune sportif montant doucement sur la pointe des pieds sur sol plat.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Ramassage d'une serviette avec les orteils (complément facultatif)",
@@ -949,7 +949,7 @@
     "illustration": "Dessin au trait d'un pied nu au sol soulevant légèrement sa voûte plantaire sans plier les orteils.",
     "phase": "Dès maintenant",
     "but": "Pour activer l'arche du pied.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    }
   ],
   "references": [
@@ -1132,7 +1132,7 @@
     "illustration": "Dessin au trait d'une personne debout montant sur la pointe des deux pieds parallèles.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer les mollets.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -1243,7 +1243,7 @@
     "illustration": "Dessin au trait d'une personne montant sur la pointe des deux pieds face à un mur.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer les mollets.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -1357,7 +1357,7 @@
     "illustration": "Dessin au trait d'une personne debout montant sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -1513,7 +1513,7 @@
    "Forcer des étirements qui augmentent les picotements, ou garder un soutien d'arche qui les augmente."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui déclenche ou augmente les picotements sous le pied.",
@@ -1552,7 +1552,7 @@
     "illustration": "Dessin au trait d'un pied nu au sol soulevant doucement son arche.",
     "phase": "Dès maintenant",
     "but": "Pour soutenir l'arche et soulager le nerf.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    },
    {
     "nom": "Étirement très léger du mollet, genou plié (seulement s'il ne déclenche aucun picotement)",

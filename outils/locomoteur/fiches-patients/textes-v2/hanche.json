@@ -50,7 +50,7 @@
   "materiel": [
    "élastique",
    "chaise",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -166,7 +166,7 @@
   "materiel": [
    "élastique",
    "marche ou escalier",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -278,7 +278,7 @@
   ],
   "duree_habituelle": "Le programme dure de 8 à 12 semaines. Le retour complet au sport prend souvent de 3 à 5 mois.",
   "materiel": [
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "ballon",
    "coussin"
   ],
@@ -390,8 +390,7 @@
   ],
   "duree_habituelle": "Retour au sport habituel en 3 à 7 semaines. C'est plus long si la déchirure touche le tendon ou est survenue lors d'un grand étirement.",
   "materiel": [
-   "mur",
-   "poids léger ou bouteille d'eau"
+   "mur"
   ],
   "exercices": [
    {
@@ -1091,7 +1090,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant les premières semaines, les exercices doivent rester sans douleur sur la zone de l'arrachement. Plus tard, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être totalement indolore avant de reprendre la course.",
   "urgence": [],
@@ -1205,7 +1204,7 @@
   ],
   "duree_habituelle": "Amélioration progressive sur au moins 3 mois ; la récupération complète peut prendre 6 mois ou plus.",
   "materiel": [
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1286,7 +1285,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être indolore au toucher et à l'effort avant la reprise du sport.",
   "urgence": [

@@ -1,0 +1,329 @@
+# Fiches lombaires révisées — LOM-01 à LOM-04
+Légende de révision
+[MODIFIÉ : ancien texte → nouveau texte — raison ; référence] : le nouveau texte à utiliser est celui qui suit la flèche.
+[À VÉRIFIER : …] : donnée non confirmée dans les sources consultées; à valider avant publication.
+Tout texte sans balise est conservé tel quel.
+## FICHE LOM-01 · [lombaire/commune]
+Titre : Lombalgie mécaniqueSous-titre : Mal de dos courantAncien titre : Mal de dos courant (lombalgie mécanique)Diagnostic correspondant dans MSK Morand : Lombalgie non spécifique (mécanique)
+EN BREF
+Votre dos est solide : ce mal de dos courant n'est pas le signe d'une lésion grave.
+Rester actif et reprendre vos activités graduellement est ce qui aide le plus.
+[MODIFIÉ : « La plupart des personnes vont nettement mieux en quelques semaines. » → « La plupart des personnes vont nettement mieux en quelques semaines, même s'il peut rester une petite douleur par la suite. » — la douleur baisse beaucoup dans les 6 premières semaines, puis reste en moyenne à un niveau faible pendant l'année; cohérence avec « Durée habituelle » ; Wallwork et al., CMAJ, 2024 (PMID 38253366)]
+CE QUE VOUS AVEZ
+[MODIFIÉ : « Vous avez un mal de dos très fréquent, qui vient le plus souvent des muscles, des ligaments ou des articulations du bas du dos. » → « Vous avez un mal de dos très fréquent. On ne peut pas toujours dire exactement d'où vient la douleur (muscles, ligaments ou articulations du bas du dos), et ce n'est pas nécessaire pour bien vous soigner. » — par définition, la lombalgie non spécifique n'a pas de source précise identifiable ; Cashin et al., JAMA, 2026 ; Chiarotto et Koes, N Engl J Med, 2022] Même si la douleur peut être forte, elle n'est pas le signe d'une blessure grave : votre dos est solide et fait pour bouger. Rester actif est le meilleur moyen de récupérer, et la plupart des gens vont nettement mieux en quelques semaines.
+POURQUOI ÇA ARRIVE
+Effort inhabituel ou faux mouvement.
+Longues heures assis ou debout sans bouger.
+Stress, fatigue et manque de sommeil, qui augmentent la douleur.
+[MODIFIÉ : (ajout) → « Souvent, on ne trouve aucune cause précise. » — même raison que ci-dessus ; Cashin et al., JAMA, 2026]
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié.
+[MODIFIÉ : (ajout) → « L'acétaminophène pris seul aide peu pour ce type de mal de dos. » — l'acétaminophène n'a pas fait mieux qu'un placebo dans la lombalgie aiguë (essai PACE, 1 652 adultes) et les guides ne le recommandent plus seul ; Williams et al., Lancet, 2014 ; Saragiotto et al., Cochrane Database Syst Rev, 2016 ; Qaseem et al., Ann Intern Med, 2017 (PMID 28192789)]
+CE QUI AIDE
+Continuer vos activités habituelles (y compris le travail, en l'adaptant au besoin) et marcher un peu chaque jour.
+Appliquer de la chaleur 15 à 20 minutes sur le bas du dos pour soulager, en plaçant un linge entre la source de chaleur et la peau.
+Changer souvent de position plutôt que de rester longtemps assis ou debout sans bouger.
+Dormir dans la position la plus confortable pour vous, par exemple sur le côté avec un oreiller entre les genoux.
+À ÉVITER POUR L'INSTANT
+Rester couché au lit toute la journée (cela ralentit la récupération).
+Cesser de bouger par peur d'abîmer votre dos : une douleur légère pendant le mouvement ne veut pas dire que vous vous blessez.
+Reprendre d'un seul coup des charges très lourdes : augmentez les efforts graduellement, à mesure que la douleur diminue.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — aucun guide ni essai retrouvé n'appuie le délai d'une heure pour la lombalgie; les seuls délais publiés sont « le lendemain matin » ou « 24 heures » (modèle de surveillance de la douleur); l'effet d'une activité sur le mal de dos peut durer jusqu'à 24 heures; une douleur pendant l'exercice n'a pas à être évitée ; Silbernagel et al., Am J Sports Med, 2007 ; Smith et al., Br J Sports Med, 2017 (PMID 28596288) ; Tran et al., J Orthop Sports Phys Ther, 2025 (PMID 40699606) ; Suri et al., BMC Musculoskelet Disord, 2022]
+[À VÉRIFIER : le délai « lendemain matin » vient de protocoles pour les tendons et le genou; aucun délai n'a été validé pour le bas du dos. Le seuil de 3 sur 10 est plus prudent que le 5 sur 10 du modèle d'origine.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.
+Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant).
+[MODIFIÉ : « Fièvre, frissons, perte de poids inexpliquée ou antécédent de cancer. » (sous « Revoyez votre médecin si ») → « Fièvre ou frissons avec votre mal de dos. » (déplacé ici) — un mal de dos nouveau ou qui empire avec de la fièvre fait rechercher une infection de la colonne et demande une évaluation rapide ; Berbari et al., lignes directrices IDSA, Clin Infect Dis, 2015 ; Skelly et al., Pain Med, 2026]
+[MODIFIÉ : « Douleur apparue après une chute ou un accident, ou si vous faites de l'ostéoporose ou prenez de la cortisone depuis longtemps. » (sous « Revoyez votre médecin si ») → « Douleur apparue après une chute ou un accident important, ou après un choc même léger si vous faites de l'ostéoporose ou prenez de la cortisone depuis longtemps (possible fracture). » (déplacé ici) — la cortisone prolongée, l'âge avancé et un traumatisme important sont les signes les plus utiles pour une fracture; cohérence avec la fiche LOM-11 ; Downie et al., BMJ, 2013 (PMID 24335669) ; Han et al., Cochrane Database Syst Rev, 2023]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : « Fièvre, frissons, perte de poids inexpliquée ou antécédent de cancer. » → « Perte de poids inexpliquée ou antécédent de cancer : prenez rendez-vous dans les prochains jours. » — l'antécédent de cancer est le signe le plus informatif pour un cancer de la colonne; il demande une évaluation rapprochée, sans être une urgence immédiate ; Downie et al., BMJ, 2013 (PMID 24335669) ; Chou et al., Ann Intern Med, 2011]
+Douleur constante, présente même au repos et la nuit, ou aucune amélioration après 4 à 6 semaines.
+DURÉE HABITUELLE
+Amélioration nette en 2 à 6 semaines chez la plupart des gens. Il est courant de garder une petite gêne ou d'avoir un nouvel épisode dans l'année : ces épisodes se calment eux aussi le plus souvent.
+PROGRAMME D'EXERCICES
+[MODIFIÉ : (ajout) → « Ces exercices vous aident à continuer de bouger. Aucun exercice n'est meilleur qu'un autre : l'important est de rester actif. » — dans la lombalgie aiguë, les programmes d'exercices n'ont pas montré d'effet cliniquement important; le bienfait de l'exercice est démontré surtout quand la douleur dure plus de 3 mois ; IJzelenberg et al., Cochrane Database Syst Rev, 2023 ; Hayden et al., Cochrane Database Syst Rev, 2021]
+Exercice 1 : Bascule douce du bassin couché
+Phase : Dès maintenant
+But : Pour détendre le bas du dos.
+Départ : Couché sur le dos, genoux pliés, pieds à plat au sol.
+Mouvement : Plaquez doucement le bas du dos au sol en serrant légèrement le ventre et les fesses, puis relâchez pour laisser le dos se creuser très légèrement.
+Dosage : 10 à 15 répétitions lentes, 2 fois par jour.
+Progression : Enchaînez avec l'exercice du dos rond / dos creux à quatre pattes.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Pousser avec les jambes ou retenir sa respiration.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos, genoux pliés, basculant doucement le bassin.
+Exercice 2 : Dos rond / dos creux (chat-chameau)
+Phase : Dès maintenant
+But : Pour garder le dos souple.
+Départ : À quatre pattes, mains sous les épaules et genoux sous les hanches.
+Mouvement : Arrondissez lentement le dos vers le plafond en rentrant le menton, puis creusez doucement le dos en regardant devant vous.
+Dosage : 10 répétitions lentes, 1 à 2 fois par jour.
+Progression : Augmentez peu à peu l'amplitude, en restant dans le confort.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Aller trop vite ou forcer le creux du bas du dos.
+Illustration demandée : Dessin au trait en deux étapes d'une personne à quatre pattes faisant le dos rond puis le dos légèrement creux.
+Exercice 3 : Pont fessier
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers, qui soutiennent le dos.
+Départ : Couché sur le dos, genoux pliés, pieds à plat écartés à la largeur des hanches.
+Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes, puis redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Tenez 5 secondes en haut, puis faites le pont en dépliant un genou à la fois.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le bas du dos en poussant le ventre vers le plafond.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier.
+Exercice 4 : Oiseau-chien (bird-dog)
+Phase : Quand la douleur diminue
+But : Pour renforcer les muscles qui stabilisent le dos.
+Départ : À quatre pattes, dos droit et ventre légèrement serré.
+Mouvement : Tendez lentement une jambe vers l'arrière (sans laisser le bassin tourner) et le bras opposé vers l'avant. Tenez 3 secondes, revenez, puis changez de côté.
+Dosage : 2 séries de 8 répétitions par côté, 3 à 4 fois par semaine.
+Progression : Tenez 5 à 8 secondes par répétition en gardant le dos immobile.
+Plus facile : Tendez seulement une jambe, ou seulement un bras.
+Erreur fréquente : Creuser le bas du dos en levant la jambe trop haut.
+Illustration demandée : Dessin au trait d'une personne à quatre pattes tendant un bras devant et la jambe opposée derrière.
+RÉFÉRENCES
+George SZ, Fritz JM, Silfies SP, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. J Orthop Sports Phys Ther, 2021 (PMID : 34719942) [À VÉRIFIER : auteurs, titre, revue et année confirmés; le PMID n'était pas affiché dans les sources consultées]
+Qaseem A, Wilt TJ, McLean RM, et al. Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain: A Clinical Practice Guideline From the American College of Physicians. Ann Intern Med, 2017;166(7):514-530, doi:10.7326/M16-2367 (PMID : 28192789) — référence vérifiée.
+[MODIFIÉ : (ajout) → Wallwork SB, Braithwaite FA, O'Keeffe M, et al. The Clinical Course of Acute, Subacute and Persistent Low Back Pain: A Systematic Review and Meta-Analysis. CMAJ, 2024 (PMID : 38253366) — référence canadienne récente sur l'évolution attendue]
+[MODIFIÉ : (ajout) → Cashin AG, Chou R, Weimer MB, McAuley JH. Low Back Pain: A Review. JAMA, 2026 — synthèse la plus récente des guides (États-Unis, Royaume-Uni, OMS) ; PMID À VÉRIFIER]
+[MODIFIÉ : (ajout) → IJzelenberg W, Oosterhuis T, Hayden JA, et al. Exercise therapy for treatment of acute non-specific low back pain. Cochrane Database Syst Rev, 2023 — appuie la note ajoutée au programme d'exercices ; PMID À VÉRIFIER]
+## FICHE LOM-02 · [lombaire/musculaire]
+Titre : Contracture ou lésion musculaire lombaireSous-titre : Faux mouvement ou contracture du bas du dosAncien titre : Faux mouvement ou contracture du bas du dosDiagnostic correspondant dans MSK Morand : Contracture ou lésion musculaire lombaire
+EN BREF
+Un muscle du bas du dos s'est contracté ou a été étiré.
+C'est très sensible les premiers jours, mais ça guérit bien.
+Bouger doucement aide plus que le repos au lit.
+CE QUE VOUS AVEZ
+Un muscle du bas du dos s'est contracté brusquement ou a été étiré lors d'un effort (soulever une charge, pelleter, faire du sport). C'est très sensible les premiers jours, mais ce n'est pas grave. Le muscle récupère bien quand on continue de bouger en douceur, avec de la chaleur et de courtes pauses au besoin.
+POURQUOI ÇA ARRIVE
+Soulever une charge, pelleter ou faire un faux mouvement.
+Effort brusque en sport.
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié.
+[MODIFIÉ : (ajout) → « L'acétaminophène pris seul aide peu pour ce type de mal de dos. » — même raison et mêmes références que dans la fiche LOM-01 ; Williams et al., Lancet, 2014 ; Qaseem et al., Ann Intern Med, 2017 (PMID 28192789)]
+CE QUI AIDE
+Appliquer de la chaleur 15 à 20 minutes pour relâcher le spasme, en plaçant un linge entre la source de chaleur et la peau.
+Marcher 5 à 15 minutes plusieurs fois par jour, à un rythme doux.
+Changer souvent de position.
+Reprendre vos activités et le renforcement léger à mesure que le spasme se calme.
+À ÉVITER POUR L'INSTANT
+Rester couché de longues périodes : si vous devez vous allonger, faites-le par courtes pauses, puis relevez-vous pour bouger.
+Étirer fortement le bas du dos pendant les premiers jours. [À VÉRIFIER : conseil d'experts; aucune étude retrouvée sur ce point]
+Soulever des charges lourdes ou pelleter tant que la douleur est vive : reprenez ces efforts graduellement.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — même raison, mêmes références et même réserve « À VÉRIFIER » que dans la fiche LOM-01 ; Silbernagel et al., Am J Sports Med, 2007 ; Smith et al., Br J Sports Med, 2017 (PMID 28596288)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.
+[MODIFIÉ : « Douleur qui descend dans la fesse et la jambe avec engourdissements ou faiblesse. » (sous « Revoyez votre médecin si ») → « Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant). » (ajouté ici) — une perte de force nouvelle doit être évaluée rapidement : la récupération est meilleure quand le nerf est libéré tôt; cohérence avec la fiche LOM-01 ; Thomé et al., Neurosurgery, 2022 (PMID 35040807) ; Kögl et al., Dtsch Arztebl Int, 2024 (PMID 38835174)]
+[MODIFIÉ : « Fièvre, ou douleur intense qui ne se calme jamais, même au repos. » (sous « Revoyez votre médecin si ») → « Fièvre ou frissons avec votre mal de dos. » (déplacé ici) — même raison que dans la fiche LOM-01 ; Berbari et al., lignes directrices IDSA, Clin Infect Dis, 2015]
+[MODIFIÉ : « Douleur apparue après une chute ou un accident important. » (sous « Revoyez votre médecin si ») → « Douleur apparue après une chute ou un accident important (possible fracture). » (déplacé ici) — même raison que dans la fiche LOM-01 ; Downie et al., BMJ, 2013 (PMID 24335669)]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : « Douleur qui descend dans la fesse et la jambe avec engourdissements ou faiblesse. » → « Douleur qui descend dans la fesse et la jambe avec engourdissements. » — la faiblesse est déplacée sous « Consultez rapidement »]
+[MODIFIÉ : « Fièvre, ou douleur intense qui ne se calme jamais, même au repos. » → « Douleur intense qui ne se calme jamais, même au repos ou la nuit. » — la fièvre est déplacée sous « Consultez rapidement »]
+Aucune amélioration après 3 à 4 semaines.
+DURÉE HABITUELLE
+[MODIFIÉ : « Amélioration nette en 1 à 3 semaines dans la plupart des cas. » → « Amélioration nette en 1 à 3 semaines dans la plupart des cas; parfois jusqu'à 6 semaines. » — dans les études, l'amélioration marquée du mal de dos aigu se fait au cours des 6 premières semaines; aucune donnée propre à la contracture musculaire n'a été retrouvée ; Wallwork et al., CMAJ, 2024 (PMID 38253366)]
+PROGRAMME D'EXERCICES
+[MODIFIÉ : (ajout) → « Ces exercices vous aident à continuer de bouger. Aucun exercice n'est meilleur qu'un autre : l'important est de rester actif. » — même raison que dans la fiche LOM-01 ; IJzelenberg et al., Cochrane Database Syst Rev, 2023]
+Exercice 1 : Genou à la poitrine (un à la fois)
+Phase : Dès maintenant
+But : Pour détendre le bas du dos.
+Départ : Couché sur le dos, genoux pliés, pieds au sol.
+Mouvement : Ramenez doucement un genou vers la poitrine avec vos mains jusqu'à sentir un étirement léger et agréable dans le bas du dos. Tenez 15 secondes, puis changez de jambe.
+Dosage : 3 répétitions par jambe, 2 fois par jour.
+Progression : Ramenez doucement les deux genoux ensemble si c'est confortable.
+Plus facile : Ramenez le genou moins près.
+Erreur fréquente : Tirer fort jusqu'à déclencher un spasme.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos ramenant un genou vers la poitrine.
+Exercice 2 : Essuie-glaces doux des genoux
+Phase : Dès maintenant
+But : Pour assouplir le bas du dos en douceur.
+Départ : Couché sur le dos, genoux pliés et collés ensemble, pieds au sol.
+Mouvement : Laissez descendre doucement les deux genoux d'un côté, de quelques centimètres seulement, puis de l'autre côté, en gardant les épaules au sol.
+Dosage : 10 allers-retours lents, 2 fois par jour.
+Progression : Augmentez peu à peu l'amplitude à mesure que le dos se détend.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Laisser tomber les genoux trop loin, jusque dans la douleur.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos inclinant doucement les genoux pliés à gauche et à droite.
+Exercice 3 : Pont fessier doux
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez les fessiers et soulevez doucement les hanches sans cambrer le dos. Tenez 3 secondes, puis redescendez.
+Dosage : 2 séries de 10 répétitions, 1 fois par jour.
+Progression : Passez à 3 séries de 12 répétitions, puis à l'exercice de l'oiseau-chien.
+Plus facile : Montez moins haut.
+Erreur fréquente : Forcer avec le bas du dos au lieu des fessiers.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier.
+RÉFÉRENCES
+George SZ, Fritz JM, Silfies SP, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. J Orthop Sports Phys Ther, 2021 (PMID : 34719942) [À VÉRIFIER : PMID non affiché dans les sources consultées]
+Qaseem A, Wilt TJ, McLean RM, et al. Ann Intern Med, 2017;166(7):514-530 (PMID : 28192789) — référence vérifiée.
+[MODIFIÉ : (ajout) → Wallwork SB, et al. CMAJ, 2024 (PMID : 38253366) — évolution attendue]
+## FICHE LOM-03 · [lombaire/discogenique]
+Titre : Discopathie dégénérative (douleur discogénique)Sous-titre : Douleur liée à un disque du bas du dosAncien titre : Douleur liée à un disque du bas du dosDiagnostic correspondant dans MSK Morand : Discopathie dégénérative ou douleur discogénique
+EN BREF
+Les changements des disques sont normaux avec l'âge et n'expliquent pas toujours la douleur.
+Bouger et renforcer le dos diminue la douleur.
+Une imagerie n'est habituellement pas nécessaire.
+CE QUE VOUS AVEZ
+Les disques sont les coussins situés entre vos vertèbres. Avec l'âge, ils changent chez presque tout le monde, un peu comme les cheveux qui grisonnent : ces changements sont normaux et se voient aussi chez des personnes qui n'ont aucune douleur. Un disque peut toutefois devenir sensible pendant un certain temps, surtout en position assise prolongée ou penché en avant. Vos disques sont solides : bouger, marcher et renforcer le tronc aident à diminuer la douleur.
+POURQUOI ÇA ARRIVE
+Vieillissement normal des disques.
+[MODIFIÉ : « Positions assises prolongées et flexions répétées. » → « Hérédité : c'est le facteur qui compte le plus. » — dans les études de jumeaux, l'hérédité explique la plus grande part de l'usure des disques, et les charges au travail une très petite part (environ 7 %); la position assise et les flexions peuvent réveiller la douleur (voir « À éviter »), mais ne sont pas démontrées comme cause de l'usure ; Battié et al., Spine, 1995 (PMID 8747238) ; Battié et al., Spine J, 2009 (PMID 19111259)]
+[MODIFIÉ : « Muscles du tronc peu renforcés. » → « Tabac et surpoids, qui jouent un petit rôle. » — aucune donnée retrouvée montrant que des muscles faibles causent l'usure des disques; le tabac et l'obésité y sont associés, avec un effet modeste ; Battié et al., Spine, 1991 (PMID 1948392) ; Samartzis et al., Arthritis Rheum, 2012]
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Vous lever et bouger quelques minutes toutes les 30 minutes environ quand vous êtes assis.
+Placer un petit coussin ou une serviette roulée dans le creux du dos en voiture ou au bureau, si cela vous soulage.
+Marcher tous les jours à une allure confortable.
+Renforcer les muscles du ventre, du dos et des fesses.
+À ÉVITER POUR L'INSTANT
+Rester assis pendant des heures sans changer de position.
+Forcer les flexions répétées du dos (redressements assis, toucher les orteils jambes tendues) si elles augmentent votre douleur, surtout le matin quand le dos est plus raide.
+Reprendre d'un seul coup des charges lourdes : augmentez les efforts graduellement.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — même raison, mêmes références et même réserve « À VÉRIFIER » que dans la fiche LOM-01 ; Silbernagel et al., Am J Sports Med, 2007 ; Smith et al., Br J Sports Med, 2017 (PMID 28596288)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.
+[MODIFIÉ : « Douleur qui descend dans la jambe avec engourdissements ou perte de force. » (sous « Revoyez votre médecin si ») → « Perte de force nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant). » (ajouté ici) — même raison que dans la fiche LOM-02 ; Thomé et al., Neurosurgery, 2022 (PMID 35040807)]
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » (sous « Revoyez votre médecin si ») → « Fièvre ou frissons avec votre mal de dos. » (déplacé ici) — même raison que dans la fiche LOM-01 ; Berbari et al., lignes directrices IDSA, Clin Infect Dis, 2015]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : « Douleur qui descend dans la jambe avec engourdissements ou perte de force. » → « Douleur qui descend dans la jambe avec engourdissements. » — la perte de force est déplacée sous « Consultez rapidement »]
+Douleur constante, jour et nuit, qui ne change pas avec les positions.
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » → « Perte de poids inexpliquée ou antécédent de cancer. » — la fièvre est déplacée sous « Consultez rapidement »; l'antécédent de cancer est ajouté par cohérence avec la fiche LOM-01 ; Downie et al., BMJ, 2013 (PMID 24335669)]
+Aucune amélioration après 6 à 8 semaines.
+DURÉE HABITUELLE
+[MODIFIÉ : « Amélioration habituelle en 4 à 8 semaines. De nouveaux épisodes sont possibles et se calment le plus souvent de la même façon. » → « Amélioration habituelle en 4 à 8 semaines. Si la douleur dure depuis plus de 3 mois, l'amélioration est souvent plus lente. De nouveaux épisodes sont possibles et se calment le plus souvent de la même façon. » — quand la douleur est installée depuis plus de 3 mois, elle diminue peu avec le temps ; Wallwork et al., CMAJ, 2024 (PMID 38253366)]
+PROGRAMME D'EXERCICES
+Exercice 1 : Extension douce sur les coudes (sphinx)
+Phase : Dès maintenant
+But : Pour soulager la douleur au centre du dos.
+Départ : Allongé sur le ventre, jambes détendues.
+Mouvement : Appuyez-vous doucement sur les avant-bras pour relever un peu la poitrine, en gardant le bassin au sol. Respirez calmement 20 à 30 secondes, puis redescendez.
+Dosage : 3 à 5 répétitions, 2 fois par jour (seulement si cela soulage votre dos).
+Progression : Poussez doucement sur les mains pour monter un peu plus haut, seulement si c'est confortable.
+Plus facile : Restez simplement à plat ventre.
+Erreur fréquente : Continuer alors que la douleur augmente ou descend dans la jambe.
+Illustration demandée : Dessin au trait d'une personne allongée sur le ventre en appui détendu sur les avant-bras.
+Exercice 2 : Pont fessier
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez légèrement le ventre et les fessiers, puis levez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes, puis redescendez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Tenez 5 secondes en haut, puis passez au pont sur une jambe.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le bas du dos.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier.
+Exercice 3 : Gainage modifié (planche sur les genoux)
+Phase : Quand la douleur diminue
+But : Pour renforcer le tronc.
+Départ : En appui sur les avant-bras et les genoux, dos droit. Version plus facile : debout, avant-bras appuyés sur un comptoir, pieds reculés.
+Mouvement : Serrez le ventre pour aligner les épaules, les hanches et les genoux sans creuser le dos. Tenez 15 à 20 secondes en respirant.
+Dosage : 3 répétitions, 3 à 4 fois par semaine.
+Progression : Tenez 30 secondes, puis passez en appui sur les orteils.
+Plus facile : Tenez 10 secondes.
+Erreur fréquente : Laisser les hanches descendre vers le sol et creuser le dos.
+Illustration demandée : Dessin au trait d'une personne en planche sur les avant-bras et les genoux, le dos bien droit.
+Exercice 4 : Oiseau-chien (bird-dog)
+Phase : Quand la douleur diminue
+But : Pour stabiliser le dos.
+Départ : À quatre pattes, dos en position neutre.
+Mouvement : Tendez lentement un bras vers l'avant et la jambe opposée vers l'arrière sans bouger le bas du dos. Tenez 3 secondes, revenez, puis alternez.
+Dosage : 2 séries de 8 répétitions par côté, 3 à 4 fois par semaine.
+Progression : Tenez 5 secondes par répétition.
+Plus facile : Tendez seulement une jambe.
+Erreur fréquente : Laisser tourner le bassin ou lever la jambe trop haut.
+Illustration demandée : Dessin au trait d'une personne à quatre pattes tendant un bras et la jambe opposée.
+RÉFÉRENCES
+George SZ, Fritz JM, Silfies SP, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. J Orthop Sports Phys Ther, 2021 (PMID : 34719942) [À VÉRIFIER : PMID non affiché dans les sources consultées]
+Brinjikji W, Luetmer PH, Comstock B, et al. Systematic Literature Review of Imaging Features of Spinal Degeneration in Asymptomatic Populations. AJNR Am J Neuroradiol, 2015 (PMID : 25430861) — référence vérifiée (usure des disques chez 37 % des personnes sans douleur à 20 ans et 96 % à 80 ans).
+[MODIFIÉ : (ajout) → Hayden JA, et al. Exercise therapy for chronic low back pain. Cochrane Database Syst Rev, 2021 — appuie l'énoncé « bouger et renforcer le dos diminue la douleur » quand la douleur dure plus de 3 mois ; titre exact et PMID À VÉRIFIER]
+[MODIFIÉ : (ajout) → Snook SH, Webster BS, McGorry RW, et al. The Reduction of Chronic Nonspecific Low Back Pain Through the Control of Early Morning Lumbar Flexion. Spine, 1998 (PMID : 9854759) — seul essai appuyant le conseil d'éviter les flexions du matin]
+## FICHE LOM-04 · [lombaire/facettaire]
+Titre : Syndrome facettaire lombaireSous-titre : Douleur des petites articulations du bas du dosAncien titre : Douleur des petites articulations du bas du dos (facettes)Diagnostic correspondant dans MSK Morand : Syndrome facettaire lombaire
+EN BREF
+Les petites articulations à l'arrière des vertèbres sont irritées.
+Les positions qui arrondissent le dos soulagent souvent. [À VÉRIFIER : conseil d'experts; aucun essai propre au syndrome facettaire n'a été retrouvé dans les sources consultées]
+[MODIFIÉ : « Renforcer le tronc et les fessiers aide à prévenir les rechutes. » → « Rester actif et renforcer le tronc et les fessiers peut aider à diminuer la douleur. » — le bienfait de l'exercice est démontré pour le mal de dos qui dure, mais aucune donnée retrouvée ne porte sur la prévention des rechutes dans le syndrome facettaire ; Hayden et al., Cochrane Database Syst Rev, 2021 ; George et al., J Orthop Sports Phys Ther, 2021]
+CE QUE VOUS AVEZ
+Les petites articulations situées à l'arrière des vertèbres du bas du dos (les facettes) semblent irritées. La douleur augmente souvent quand vous restez debout longtemps ou quand vous vous penchez vers l'arrière. Ce n'est pas grave. Des mouvements doux qui arrondissent le bas du dos et le renforcement du ventre et des fessiers soulagent souvent ces articulations.
+POURQUOI ÇA ARRIVE
+Rester debout longtemps ou se cambrer vers l'arrière.
+Usure normale avec l'âge.
+Muscles du tronc et des fessiers peu renforcés. [À VÉRIFIER : lien de cause non confirmé dans les sources consultées; envisager de retirer cet énoncé]
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Faire de petits mouvements de bascule du bassin et de flexion douce.
+Poser un pied sur un petit tabouret si vous devez rester debout longtemps.
+Appliquer de la chaleur 15 à 20 minutes sur le bas du dos, en plaçant un linge entre la source de chaleur et la peau.
+Renforcer les muscles du ventre et des fesses, et rester actif (marche, vélo).
+À ÉVITER POUR L'INSTANT
+Rester debout sans bouger, le dos très cambré, pendant de longues périodes.
+Forcer les extensions du dos vers l'arrière tant qu'elles sont douloureuses.
+Dormir sur le ventre si cela augmente votre douleur.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — même raison, mêmes références et même réserve « À VÉRIFIER » que dans la fiche LOM-01 ; Silbernagel et al., Am J Sports Med, 2007 ; Smith et al., Br J Sports Med, 2017 (PMID 28596288)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.
+[MODIFIÉ : « Douleur qui descend dans une jambe avec picotements ou faiblesse. » (sous « Revoyez votre médecin si ») → « Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant). » (ajouté ici) — même raison que dans la fiche LOM-02 ; Thomé et al., Neurosurgery, 2022 (PMID 35040807)]
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » (sous « Revoyez votre médecin si ») → « Fièvre ou frissons avec votre mal de dos. » (déplacé ici) — même raison que dans la fiche LOM-01 ; Berbari et al., lignes directrices IDSA, Clin Infect Dis, 2015]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : « Douleur qui descend dans une jambe avec picotements ou faiblesse. » → « Douleur qui descend dans une jambe avec picotements. » — la faiblesse est déplacée sous « Consultez rapidement »]
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » → « Perte de poids inexpliquée ou antécédent de cancer. » — la fièvre est déplacée sous « Consultez rapidement »; cohérence avec la fiche LOM-01 ; Downie et al., BMJ, 2013 (PMID 24335669)]
+Douleur qui empire ou qui ne s'améliore pas malgré 6 semaines d'exercices.
+DURÉE HABITUELLE
+Amélioration habituelle en 3 à 6 semaines. [À VÉRIFIER : aucune donnée d'évolution propre au syndrome facettaire n'a été retrouvée; le délai est cohérent avec l'évolution du mal de dos aigu en général (Wallwork et al., CMAJ, 2024)]
+PROGRAMME D'EXERCICES
+Matériel : tapis d'exercice
+Exercice 1 : Genoux à la poitrine
+Phase : Dès maintenant
+But : Pour ouvrir l'arrière des vertèbres et soulager.
+Départ : Couché sur le dos, genoux pliés, pieds au sol.
+Mouvement : Ramenez doucement les deux genoux vers la poitrine avec vos mains pour arrondir le bas du dos. Tenez 20 secondes en respirant.
+Dosage : 3 répétitions, 2 fois par jour.
+Progression : Ajoutez de petits balancements lents d'avant en arrière si c'est agréable.
+Plus facile : Ramenez un seul genou.
+Erreur fréquente : Décoller la tête du sol en crispant le cou.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos tenant ses deux genoux près de la poitrine.
+Exercice 2 : Bascule du bassin couché (aplatir le dos)
+Phase : Dès maintenant
+But : Pour réduire la cambrure.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez doucement le ventre et les fesses pour plaquer le creux du dos contre le sol. Tenez 5 secondes, puis relâchez.
+Dosage : 2 séries de 10 répétitions, 2 fois par jour.
+Progression : Soulevez un pied de 5 cm du sol en gardant le dos plaqué au tapis, puis alternez.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Retenir sa respiration.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos, genoux pliés, avec une flèche montrant le bas du dos qui s'aplatit au sol.
+Exercice 3 : Position de l'enfant (étirement doux)
+Phase : Dès maintenant
+But : Pour étirer doucement le bas du dos.
+Départ : À quatre pattes, genoux légèrement écartés.
+Mouvement : Amenez doucement les fesses vers les talons en laissant les mains glisser devant vous. Tenez 20 à 30 secondes.
+Dosage : 3 répétitions, 1 à 2 fois par jour.
+Progression : Déplacez légèrement les mains vers la gauche, puis vers la droite, pour étirer chaque côté.
+Plus facile : Gardez les fesses plus loin des talons.
+Erreur fréquente : Forcer sur des genoux douloureux (glissez plutôt un coussin entre les fesses et les talons).
+Illustration demandée : Dessin au trait d'une personne assise sur ses talons, buste penché en avant et bras allongés au sol.
+Exercice 4 : Pont fessier sans cambrer
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez légèrement le ventre et les fessiers, puis montez les hanches sans creuser le bas du dos. Tenez 3 secondes, puis redescendez.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Faites le pont en dépliant une jambe à la fois.
+Plus facile : Montez moins haut.
+Erreur fréquente : Monter trop haut en creusant le dos.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos soulevant les hanches en gardant le dos aligné.
+RÉFÉRENCES
+George SZ, Fritz JM, Silfies SP, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. J Orthop Sports Phys Ther, 2021 (PMID : 34719942) [À VÉRIFIER : PMID non affiché dans les sources consultées. Ce guide porte sur le mal de dos en général, pas sur le syndrome facettaire; aucune référence propre à ce diagnostic n'a été retrouvée.]
+[MODIFIÉ : (ajout) → Qaseem A, Wilt TJ, McLean RM, et al. Ann Intern Med, 2017;166(7):514-530 (PMID : 28192789) — appuie la chaleur et l'anti-inflammatoire de courte durée]

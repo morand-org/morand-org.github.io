@@ -1,6 +1,6 @@
 {
  "canal_carpien": {"b": ["Le nerf médian est comprimé dans un tunnel, à l'avant du poignet.", "Une attelle de nuit qui garde le poignet droit soulage souvent.", "Une infiltration ou une petite chirurgie sont possibles si cela ne suffit pas."],
-  "p": ["Gestes répétés ou prolongés, le poignet plié.", "Grossesse, diabète, hypothyroïdie ou surpoids.", "Outils qui vibrent."], "s": "nerf", "u": [1, 2],
+  "p": ["Gestes répétés ou prolongés, le poignet plié.", "Grossesse, diabète, hypothyroïdie ou surpoids.", "Outils qui vibrent."], "s": "nerf_p", "u": [1, 2],
   "ex": [["M", "Pour faire glisser les tendons et le nerf dans le canal.", "Faites seulement 3 positions."], ["D", "Pour aider le nerf à glisser.", "Faites un plus petit mouvement, sans pencher la tête."], ["M", "Pour assouplir les petits muscles de la paume.", "Poussez plus doucement, 10 secondes."]]},
  "kyste": {"b": ["C'est une petite poche de liquide, bénigne : ce n'est pas un cancer.", "Il disparaît parfois de lui-même.", "On ne le traite que s'il fait mal ou gêne."],
   "p": ["Souvent sans cause précise.", "Usure ou irritation d'une articulation ou d'un tendon voisin."],
@@ -26,7 +26,7 @@
   "p": ["Appuis répétés sur les mains (gymnastique, cheerleading).", "Hausse rapide des heures d'entraînement.", "Os encore en croissance."], "s": "enfant",
   "ex": [["M", "Pour garder le poignet souple sans le charger.", "Faites un plus petit mouvement."], ["M", "Pour garder la force du tronc sans appui sur les poignets.", "Tenez 10 secondes, les genoux au sol."], ["M", "Pour garder la forme des jambes.", "Faites de plus petites flexions."]]},
  "guyon": {"b": ["Le nerf ulnaire est comprimé à la base de la paume, du côté du petit doigt.", "Éviter l'appui sur cette zone le soulage le plus souvent.", "Une faiblesse de la main doit être signalée."],
-  "p": ["Appui prolongé sur la paume (guidon de vélo, béquilles).", "Outils qui vibrent, ou main utilisée comme marteau."], "s": "nerf", "u": [2],
+  "p": ["Appui prolongé sur la paume (guidon de vélo, béquilles).", "Outils qui vibrent, ou main utilisée comme marteau."], "s": "nerf_p", "u": [2],
   "ex": [["M", "Pour garder la force des petits muscles de la main.", "Faites un plus petit écartement."], ["M", "Pour garder le poignet souple.", "Faites un plus petit mouvement."], ["D", "Pour aider le nerf à glisser.", "Faites un plus petit mouvement, sans pencher la tête."]]},
  "arthrose_digitale": {"b": ["Le cartilage des petites articulations des doigts s'est usé.", "Les bosses restent, mais la douleur diminue souvent avec le temps.", "Des exercices et des aides techniques facilitent les gestes du quotidien."],
   "p": ["Facteurs héréditaires.", "Âge et ménopause.", "Travail manuel lourd."], "s": "arthrose", "u": [0],

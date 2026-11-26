@@ -1,0 +1,362 @@
+# Cheville et jambe – fiches révisées CHE-06 à CHE-10
+Légende. Chaque changement est marqué ainsi : [MODIFIÉ : ancien texte → nouveau texte — raison ; référence]. « (rien) » veut dire qu'il s'agit d'un ajout. « À VÉRIFIER » signale un doute ou un détail non confirmé dans les sources consultées. Le texte non marqué est inchangé.
+## === FICHE CHE-06 · [cheville/loge] ===
+Titre : Syndrome compartimental chronique d'effortSous-titre : Tension musculaire à l'effort dans la jambeAncien titre : Tension musculaire à l'effort dans la jambe (syndrome des loges chronique)Diagnostic correspondant dans MSK Morand : Syndrome compartimental chronique d'effort
+EN BREF
+La pression monte dans une loge musculaire de la jambe pendant l'effort.
+La douleur disparaît habituellement quelques minutes après l'arrêt.
+[MODIFIÉ : Changer la foulée aide souvent ; sinon, une chirurgie peut être discutée. → Changer la foulée peut aider, surtout quand la douleur est à l'avant de la jambe ; sinon, une chirurgie peut être discutée. — les preuves viennent de petites séries de militaires atteints à la loge avant ; le traitement sans chirurgie satisfait environ une personne sur deux ; Diebal et coll., Am J Sports Med 2012 ; Helmhout et coll., Orthop J Sports Med 2015 ; Vogels et coll., Scand J Med Sci Sports 2020]
+CE QUE VOUS AVEZPendant la course ou la marche rapide, la pression monte dans une loge musculaire de votre jambe, dont l'enveloppe est trop serrée. Après un temps ou une distance d'effort assez constants, cela donne une tension dure, une douleur ou des picotements au pied, qui passent en quelques minutes de repos. Le repos seul règle rarement le problème. Modifier votre technique de course avec un physiothérapeute peut aider, et une chirurgie est parfois nécessaire.
+POURQUOI ÇA ARRIVE
+Course ou marche rapide répétée.
+Enveloppe du muscle trop serrée.
+[MODIFIÉ : Foulée qui frappe fort du talon. → Foulée qui frappe fort du talon (lien possible, non prouvé). — les coureurs atteints ne montrent pas de différence constante de foulée par rapport aux coureurs sans symptômes ; Roberts et coll., Gait Posture 2017]
+SOULAGER LA DOULEUR
+[MODIFIÉ : Arrêtez l'effort dès que la tension monte : la douleur doit disparaître en quelques minutes. → Arrêtez l'effort dès que la tension monte : la douleur doit disparaître en quelques minutes (souvent 10 à 20 minutes). — délai habituellement rapporté ; Roscoe et coll., Am J Sports Med 2015]
+Les médicaments aident peu : adapter l'effort et la foulée est le traitement.
+CE QUI AIDE
+Arrêter l'effort dès que la tension dure ou les engourdissements apparaissent, et repartir une fois les symptômes disparus.
+Garder la forme avec des activités qui ne déclenchent pas les symptômes (vélo, natation).
+[MODIFIÉ : Rééduquer votre foulée avec un physiothérapeute : pas plus courts et plus rapides, pose douce sur l'avant du pied plutôt que sur le talon. → Rééduquer votre foulée avec un physiothérapeute : pas plus courts et plus rapides, pose douce sur l'avant du pied plutôt que sur le talon. Ce changement a été étudié pour la douleur à l'avant de la jambe ; si votre douleur est dans le mollet, demandez d'abord l'avis du physiothérapeute. — les études portent sur la loge avant ; la pose sur l'avant-pied charge davantage le mollet ; Diebal et coll., Am J Sports Med 2012 ; Barton et coll., Br J Sports Med 2016]
+Faire confirmer le diagnostic par un médecin du sport ou un spécialiste si la gêne persiste.
+À ÉVITER POUR L'INSTANT
+Continuer à courir malgré un pied qui s'engourdit ou qui claque au sol.
+Changer de foulée d'un seul coup : passer trop vite à l'avant-pied surcharge le mollet et le tendon d'Achille.
+Serrer trop fort les lacets ou porter des bas de compression serrés pendant l'effort.
+RÈGLE DE DOULEUR (0 À 10)Pendant les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle disparaît en quelques minutes de repos. Arrêtez immédiatement dès qu'un engourdissement ou une faiblesse du pied apparaît. [Critère conservé : pour ce problème, la disparition des symptômes en quelques minutes de repos fait partie du diagnostic ; un délai « lendemain matin » ne s'applique pas ; Vogels et coll., Sports Med 2022]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Douleur intense qui continue ou augmente après l'arrêt de l'effort au lieu de se calmer en quelques minutes, jambe très dure, engourdissement ou faiblesse (syndrome des loges aigu : urgence).
+[MODIFIÉ : Pied froid, pâle ou engourdi sous la plante à l'effort (problème de circulation à vérifier). → Pied froid, pâle ou engourdi qui ne redevient pas normal après quelques minutes de repos (problème de circulation à écarter d'urgence). — un pied froid seulement à l'effort demande une évaluation, mais pas une urgence : ce signe est reclassé plus bas ; Miller et coll., J Am Acad Orthop Surg 2021]
+Douleur au mollet même au repos, ou jambe enflée ou rouge (phlébite à écarter).
+[MODIFIÉ : (rien) → Pied qui tombe ou faiblesse du pied qui persiste après le repos. — une faiblesse qui ne disparaît pas au repos n'est pas typique du problème chronique et peut signaler une atteinte du nerf ou un syndrome des loges aigu ; von Keudell et coll., Lancet 2015]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : Pied qui tombe ou qui claque au sol pendant la marche. → Pied qui tombe ou qui claque au sol pendant l'effort, puis qui redevient normal au repos. — séparation entre la faiblesse passagère à l'effort (typique) et la faiblesse persistante (urgente)]
+[MODIFIÉ : (rien, signe déplacé de « Consultez rapidement ») → Pied froid, pâle ou engourdi sous la plante seulement à l'effort (problème de circulation à vérifier). — le piégeage de l'artère derrière le genou donne des symptômes à l'effort qui cèdent au repos ; il faut le faire vérifier sans attendre des semaines ; Miller et coll., J Am Acad Orthop Surg 2021]
+Aucune amélioration après 6 à 8 semaines d'adaptation.
+DURÉE HABITUELLE[MODIFIÉ : …une chirurgie (fasciotomie) est souvent proposée et soulage la majorité des personnes opérées. → Bilan après 6 à 8 semaines de rééducation de la foulée. Si les symptômes persistent, une chirurgie (fasciotomie) est souvent proposée. Elle soulage environ 8 personnes sur 10 quand la loge avant ou externe est en cause, et environ une sur deux quand c'est la loge profonde du mollet. — les résultats varient selon la loge ; Winkes et coll., Am J Sports Med 2012 ; Burrus et coll., Am J Sports Med 2015 ; Vogels et coll., Scand J Med Sci Sports 2020]
+PROGRAMME D'EXERCICESMatériel : mur
+Exercice 1 : Travail de foulée : petits pas légers et rapides
+Phase : Dès maintenant
+But : Pour diminuer le travail des muscles de l'avant de la jambe.
+Départ : Debout sur place, puis en jogging très court sur surface plane.
+Mouvement : Faites de petits pas rapides et silencieux pendant 1 à 2 minutes, en posant l'avant du pied en douceur sous le corps, puis marchez 1 à 2 minutes. Restez sous le seuil qui déclenche vos symptômes.
+Dosage : 5 à 8 blocs, 3 fois par semaine, pendant 6 semaines (selon tolérance et avis du physiothérapeute).
+Progression : Allongez très graduellement la durée des blocs de course seulement si la jambe reste souple et sans picotement.
+Plus facile : Faites-le en marchant.
+Erreur fréquente : Faire de grandes foulées en attaquant fort par le talon, ou progresser trop vite.
+Illustration demandée : Dessin au trait d'un coureur faisant de petits pas légers et rapides, pose sur l'avant du pied.
+Exercice 2 : Étirement doux du mollet (complément)
+Phase : Dès maintenant
+[MODIFIÉ : But : Pour assouplir le mollet. → But : Pour assouplir le mollet (complément facultatif : les étirements seuls ne règlent pas ce problème). — aucun essai ; les étirements figurent parmi les mesures peu ou pas efficaces ; Burrus et coll., Am J Sports Med 2015]
+Départ : Debout face à un mur, jambe à étirer un pas en arrière, talon au sol.
+Mouvement : Avancez doucement les hanches vers le mur jusqu'à sentir un étirement léger dans le mollet. Tenez 20 à 30 secondes sans forcer.
+Dosage : 3 répétitions par côté, 1 fois par jour.
+Progression : Répétez avec le genou arrière légèrement plié.
+Plus facile : Faites un plus petit pas.
+Erreur fréquente : Forcer un étirement juste après un épisode de tension.
+Illustration demandée : Dessin au trait d'un coureur debout face à un mur étirant doucement le mollet.
+Exercice 3 : Pont fessier (complément)
+Phase : Dès maintenant
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat au sol.
+Mouvement : Serrez les fesses et soulevez le bassin jusqu'à aligner épaules, hanches et genoux, tenez 2 secondes et redescendez lentement.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Passez au pont sur une jambe.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le bas du dos.
+Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+Note sur le dosage : les blocs de course et de marche, 3 fois par semaine pendant 6 semaines, correspondent aux protocoles publiés (Diebal et coll., Am J Sports Med 2012 ; Helmhout et coll., Orthop J Sports Med 2015).
+RÉFÉRENCES
+[MODIFIÉ : Diebal AR et al., Am J Sports Med, 2012 (PMID: 22427621) → Diebal AR, Gregory R, Alitz C, Gerber JP. Forefoot running improves pain and disability associated with chronic exertional compartment syndrome. Am J Sports Med, 2012;40(5):1060-1067 (doi: 10.1177/0363546512439182 ; PMID : 22427621) — référence confirmée et complétée ; 10 militaires, loge avant]
+[MODIFIÉ : Helmhout PH et al., Orthop J Sports Med, 2015 (PMID: 26665032) → Helmhout PH, Diebal AR, van der Kaaden L et al. The effectiveness of a 6-week intervention program aimed at modifying running style in patients with chronic exertional compartment syndrome: results from a series of case studies. Orthop J Sports Med, 2015;3(3):2325967115575691 (doi: 10.1177/2325967115575691 ; PMID : 26665032) — référence confirmée et complétée]
+[MODIFIÉ : Vogels S et al., Sports Med, 2022 (à confirmer sur PubMed) → Vogels S, Ritchie ED, van der Burg BLSB et al. Clinical Consensus on Diagnosis and Treatment of Patients with Chronic Exertional Compartment Syndrome of the Leg: A Delphi Analysis. Sports Med, 2022 (titre, auteurs et année confirmés ; volume, pages et PMID À VÉRIFIER sur PubMed)]
+[MODIFIÉ : (rien) → Vogels S, Ritchie ED, van Dongen TTCF et al. Systematic review of outcome parameters following treatment of chronic exertional compartment syndrome in the lower leg. Scand J Med Sci Sports, 2020 (PMID : À VÉRIFIER) — résultats comparés du traitement sans chirurgie et de la chirurgie]
+## === FICHE CHE-07 · [cheville/mollet] ===
+Titre : Déchirure du gastrocnémien médial (tennis leg)Sous-titre : Claquage du molletAncien titre : Claquage du mollet (tennis leg)Diagnostic correspondant dans MSK Morand : Lésion musculaire du mollet (tennis leg)
+EN BREF
+Un muscle du mollet a une déchirure partielle.
+[MODIFIÉ : Bouger doucement dès les premiers jours aide à guérir. → Bouger doucement dès les premiers jours aide à reprendre vos activités plus vite. — dans l'essai clinique, la rééducation commencée au jour 2 plutôt qu'au jour 9 a raccourci le retour au sport d'environ 3 semaines, sans changer la guérison du muscle à l'imagerie ; Bayer et coll., N Engl J Med 2017 ; Bayer et coll., Scand J Med Sci Sports 2018]
+Le retour au sport se fait graduellement, sans douleur.
+CE QUE VOUS AVEZUn muscle du mollet a subi une déchirure lors d'un démarrage brusque ou d'un saut. [MODIFIÉ : …bouger doucement tôt aide à guérir plus vite. → Les premiers jours, on protège le muscle sans l'immobiliser : bouger doucement tôt aide à reprendre le sport plus vite. — même raison que ci-dessus ; Bayer et coll., N Engl J Med 2017] Des exercices progressifs redonnent ensuite toute sa force au mollet pour éviter une rechute.
+POURQUOI ÇA ARRIVE
+Démarrage brusque ou saut (tennis, pickleball, course).
+Muscles fatigués ou peu échauffés. [À VÉRIFIER : facteurs d'usage ; les facteurs les mieux démontrés sont l'âge et une ancienne blessure du mollet ; Green et Pizzari, Br J Sports Med 2017]
+[MODIFIÉ : Plus fréquent après 40 ans. → Plus fréquent avec l'âge (souvent à partir de 30 à 40 ans) et après une ancienne blessure du mollet. — l'âge et l'antécédent de blessure sont les facteurs de risque les mieux établis ; Green et Pizzari, Br J Sports Med 2017 ; Green et coll., Am J Sports Med 2020]
+SOULAGER LA DOULEUR
+[MODIFIÉ : Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour. → Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage. — le froid diminue la douleur, mais n'accélère pas la guérison ; Edouard et coll., Nat Rev Dis Primers 2023]
+[MODIFIÉ : Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider… → Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider pendant quelques jours, si votre pharmacien ou votre médecin le juge approprié. — les données sur les anti-inflammatoires après une déchirure musculaire sont partagées ; un usage court est le plus défendable ; Morelli et coll., Am J Sports Med 2018 ; Edouard et coll., Nat Rev Dis Primers 2023]
+CE QUI AIDE
+Les 2 à 3 premiers jours : bandage élastique de compression, jambe surélevée et glace 15 minutes à travers un linge si cela soulage.
+Mettre une petite talonnette dans les deux souliers pendant 1 à 2 semaines si la marche tire. [À VÉRIFIER : avis d'experts, aucun essai sur la talonnette après un claquage du mollet]
+Utiliser des béquilles quelques jours si vous boitez beaucoup, puis marcher normalement dès que possible.
+Bouger la cheville dès le premier ou le deuxième jour, puis renforcer le mollet progressivement avant de reprendre la course ou le tennis.
+À ÉVITER POUR L'INSTANT
+Étirer fortement le mollet ou le masser en profondeur tant que marcher ou contracter le mollet est franchement douloureux (environ 5 à 7 jours).
+Sprinter ou sauter avant de pouvoir faire sans douleur des montées sur la pointe du pied blessé seul et un jogging léger.
+Rester complètement au repos ou immobilisé pendant plusieurs jours.
+RÈGLE DE DOULEUR (0 À 10)[MODIFIÉ : …dans l'heure qui suit l'exercice. → Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. — aucun modèle publié n'utilise un délai d'une heure ; délai extrapolé (À VÉRIFIER : aucun critère validé propre au claquage). Le seuil de 3 sur 10 est prudent : l'essai sur la rééducation précoce tolérait jusqu'à 5 sur 10 pendant les exercices ; Bayer et coll., Scand J Med Sci Sports 2018 ; Silbernagel et coll., Am J Sports Med 2007]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Mollet très enflé, dur, rouge ou chaud avec douleur constante, ou enflure qui augmente (phlébite à écarter d'urgence).
+Claquement ressenti au bas du mollet ou derrière la cheville avec impossibilité de monter sur la pointe du pied (rupture du tendon d'Achille à écarter rapidement).
+Jambe très tendue avec engourdissement du pied.
+[MODIFIÉ : (rien) → Essoufflement soudain ou douleur dans la poitrine (911). — complication possible d'une phlébite ; une phlébite a été trouvée chez environ 1 personne sur 10 examinées pour un claquage présumé ; Delgado et coll., Radiology 2002]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui ne diminue pas après 2 semaines.
+Récidive lors de la reprise du sport.
+DURÉE HABITUELLE[MODIFIÉ : …6 à 10 semaines ou plus pour une déchirure importante. → Reprise du sport en 2 à 6 semaines pour une déchirure légère à modérée, 6 à 12 semaines ou plus pour une déchirure importante. — chez des sportifs récréatifs avec déchirure sévère, le retour au sport médian était de 9 à 12 semaines ; Bayer et coll., N Engl J Med 2017] Le risque de rechute reste plus élevé pendant environ 3 à 4 mois : continuez le renforcement. [Énoncé confirmé : fenêtre de risque de 15 semaines ; Orchard et coll., Br J Sports Med 2020]
+PROGRAMME D'EXERCICESMatériel : mur
+Exercice 1 : Mouvements doux de la cheville (pompe)
+Phase : Dès maintenant
+But : Pour garder la cheville mobile et diminuer l'enflure.
+Départ : Couché ou assis, jambe surélevée.
+Mouvement : Pointez les orteils, puis ramenez-les doucement vers vous, dans une amplitude confortable.
+Dosage : 15 répétitions, 3 à 4 fois par jour, dès le premier ou le deuxième jour.
+Progression : Augmentez peu à peu l'amplitude, puis ajoutez les montées sur la pointe des pieds.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Tirer fort les orteils vers vous dès les premiers jours.
+Illustration demandée : Dessin au trait d'une jambe allongée avec le pied qui monte et descend doucement.
+Exercice 2 : Montées sur la pointe des pieds (deux pieds, puis un pied)
+Phase : Quand la douleur diminue
+But : Pour renforcer le mollet.
+Départ : Debout face à un mur, mains en appui, dès que la marche est confortable (souvent vers la fin de la première semaine).
+Mouvement : Montez lentement sur la pointe des deux pieds en 2 secondes, puis redescendez en 3 secondes.
+Dosage : 3 séries de 10 à 12 répétitions, 3 fois par semaine.
+Progression : Passez sur le pied blessé seul, puis genou légèrement fléchi, puis au bord d'une marche.
+[MODIFIÉ : Plus facile : Gardez les mains sur un appui. → Plus facile : Gardez les mains sur un appui. Si la déchirure est importante, commencez par pousser l'avant du pied contre le sol sans bouger, sans douleur vive. — les protocoles d'essais débutent par des contractions sans mouvement dans les déchirures sévères ; Mertz et coll., Scand J Med Sci Sports 2025. À VÉRIFIER avec le physiothérapeute : durée et nombre de contractions]
+Erreur fréquente : Rebondir ou progresser trop vite.
+Illustration demandée : Dessin au trait d'une personne debout face à un mur montant sur la pointe des pieds.
+Exercice 3 : Étirement doux du mollet contre un mur
+Phase : Quand la douleur diminue
+But : Pour retrouver la souplesse du mollet.
+Départ : Debout face à un mur, la jambe blessée un pas en arrière, talon au sol (pas avant 7 jours, et seulement quand la marche est peu douloureuse). [À VÉRIFIER : délai prudent fondé sur l'avis d'experts ; aucun essai ne fixe le moment de débuter les étirements après un claquage du mollet ; Pedret et coll., Curr Rev Musculoskelet Med 2026]
+Mouvement : Avancez doucement les hanches vers le mur jusqu'à sentir un étirement léger et confortable dans le mollet. Tenez 20 secondes.
+Dosage : 3 répétitions, 1 à 2 fois par jour.
+Progression : Pliez légèrement le genou arrière pour étirer le muscle plus profond.
+Plus facile : Faites un plus petit pas.
+Erreur fréquente : Forcer l'étirement dans une douleur vive.
+Illustration demandée : Dessin au trait d'une personne étirant doucement le mollet contre un mur.
+RÉFÉRENCES
+[MODIFIÉ : Green B et al., Am J Sports Med, 2020 (à confirmer sur PubMed) → Green B, Lin M, McClelland JA et al. Return to Play and Recurrence After Calf Muscle Strain Injuries in Elite Australian Football Players. Am J Sports Med, 2020 (titre, auteurs et année confirmés ; volume et pages 48(13):3306-3315 et PMID À VÉRIFIER sur PubMed) — attention : il existe un autre article de Green et coll. en 2020 sur le mollet, dans Scand J Med Sci Sports]
+[MODIFIÉ : Prakash A et al., Br J Sports Med, 2018 (PMID: 29074478) → Prakash A, Entwisle T, Schneider M, Brukner P, Connell D. Connective tissue injury in calf muscle tears and return to play: MRI correlation. Br J Sports Med, 2018 (PMID : 29074478 ; volume et pages 52(14):929-933 À VÉRIFIER) — auteurs, titre et PMID confirmés]
+[MODIFIÉ : Bayer ML et al., Scand J Med Sci Sports, 2018 (à confirmer sur PubMed) → Bayer ML, Hoegberget-Kalisz M, Jensen MH et al. Role of tissue perfusion, muscle strength recovery, and pain in rehabilitation after acute muscle strain injury: A randomized controlled trial comparing early and delayed rehabilitation. Scand J Med Sci Sports, 2018;28(12):2579-2591 (doi: 10.1111/sms.13269 ; PMID : 30043997) — référence confirmée]
+[MODIFIÉ : (rien) → Bayer ML, Magnusson SP, Kjaer M. Early versus Delayed Rehabilitation after Acute Muscle Injury. N Engl J Med, 2017 (PMID : 28953439 ; volume et pages 377(13):1300-1301 À VÉRIFIER) — publication principale de l'essai sur la rééducation précoce]
+[MODIFIÉ : (rien) → Orchard JW, Chaker Jomaa M, Orchard JJ et al. Fifteen-week window for recurrent muscle strains in football: a prospective cohort of 3600 muscle strains over 23 years in professional Australian rules football. Br J Sports Med, 2020 (PMID : 32024646) — appuie la période de risque de rechute de 3 à 4 mois]
+## === FICHE CHE-08 · [cheville/sever] ===
+Titre : Maladie de Sever (apophysite calcanéenne)Sous-titre : Douleur au talon chez l'enfant ou l'adolescentAncien titre : Douleur au talon chez l'enfant ou l'adolescent (maladie de Sever)Diagnostic correspondant dans MSK Morand : Maladie de Sever (apophysite calcanéenne)
+EN BREF
+La zone de croissance du talon est irritée par les impacts.
+Ce n'est pas grave, et ça disparaît à la fin de la croissance.
+On ajuste le sport selon la douleur ; une talonnette aide.
+CE QUE VOUS AVEZPendant la croissance (le plus souvent entre 8 et 15 ans), la zone de croissance à l'arrière de l'os du talon devient sensible aux impacts et à la traction du tendon d'Achille. Les deux talons sont souvent touchés. Ce n'est pas grave : la douleur disparaît sans séquelles quand la croissance du talon est terminée, mais elle peut revenir par périodes d'ici là. Des talonnettes et un ajustement du sport selon la douleur soulagent bien.
+POURQUOI ÇA ARRIVE
+Poussée de croissance (8 à 15 ans).
+Sports avec course et sauts, souvent sur des surfaces dures.
+Mollets raides. [À VÉRIFIER : facteur souvent cité, peu étudié]
+SOULAGER LA DOULEUR
+[MODIFIÉ : Glace 10 à 15 minutes, dans un linge, après le sport. → Glace 10 à 15 minutes, dans un linge, après le sport, si cela soulage. — cohérence avec « Ce qui aide »]
+Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien).
+CE QUI AIDE
+Mettre une talonnette ou une coque talonnière amortissante (gel ou mousse) dans les deux souliers.
+Ajuster les sports de course et de sauts (soccer, basketball) selon la douleur : l'arrêt complet est rarement nécessaire.
+Appliquer de la glace 10 à 15 minutes à travers un linge sur le talon si cela soulage après le sport.
+Porter de bonnes espadrilles et éviter de marcher pieds nus sur les surfaces dures pendant les périodes douloureuses.
+À ÉVITER POUR L'INSTANT
+Continuer le sport quand la douleur fait boiter.
+Courir ou sauter pieds nus ou avec des souliers à crampons durs et usés.
+Forcer des étirements douloureux.
+RÈGLE DE DOULEUR (0 À 10)[MODIFIÉ : …si elle revient à son niveau habituel dans l'heure qui suit l'exercice et si elle ne fait pas boiter. → Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter. — aucun modèle publié n'utilise un délai d'une heure ; chez l'adolescent, le modèle étudié (pour la douleur au genou) vérifie la douleur pendant, après et le lendemain de l'activité ; critère extrapolé (À VÉRIFIER : aucun seuil validé pour la maladie de Sever) ; Rathleff et coll., Am J Sports Med 2019]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Rougeur, chaleur ou gonflement du talon, ou fièvre.
+Douleur apparue brusquement après une chute ou un saut.
+[MODIFIÉ : « Douleur qui réveille l'enfant la nuit ou qui est présente au repos » classé sous « Revoyez votre médecin si » → classé sous « Consultez rapidement » : Douleur qui réveille l'enfant la nuit ou qui est constante, même au repos. — une douleur constante ou nocturne n'est pas typique de la maladie de Sever et doit faire chercher une autre cause (infection, fracture de stress, tumeur) sans attendre ; Ceylan et Caypinar, BMC Musculoskelet Disord 2018 ; Yun et Fein, Pediatr Rev 2024]
+[MODIFIÉ : (rien) → Enfant qui refuse de mettre du poids sur le pied. — signe d'alerte d'usage chez l'enfant ; À VÉRIFIER : non tiré directement des sources consultées]
+REVOYEZ VOTRE MÉDECIN SI
+Boiterie qui persiste malgré l'arrêt temporaire du sport.
+Aucune amélioration après 6 à 8 semaines.
+[MODIFIÉ : (rien) → Douleur d'un seul talon qui ne ressemble pas aux épisodes habituels. — une radiographie est suggérée dans les cas atypiques ou qui durent plus de 8 semaines ; Lintner et coll., Am Fam Physician 2023]
+DURÉE HABITUELLEAmélioration en 4 à 8 semaines avec les talonnettes et l'ajustement du sport. Des rechutes sont fréquentes jusqu'à la fin de la croissance du talon (vers 15 ou 16 ans).
+PROGRAMME D'EXERCICESMatériel : serviette, chaise, mur
+[MODIFIÉ : (rien) → Note : ces exercices sont facultatifs. Dans les études, la talonnette, la physiothérapie avec exercices et la simple attente donnent des résultats semblables après 3 mois. — essai clinique chez 101 enfants ; les étirements n'ont pas été testés de façon rigoureuse ; Wiegerinck et coll., J Pediatr Orthop 2016 ; Williams et coll., Cochrane Database Syst Rev 2026]
+Exercice 1 : Étirement doux du mollet contre un mur
+Phase : Dès maintenant
+But : Pour diminuer la traction sur le talon.
+Départ : Debout face à un mur, un pied devant, le pied du talon sensible derrière, talon collé au sol.
+Mouvement : Avancez doucement les hanches vers le mur jusqu'à sentir un étirement léger dans le mollet (pas de douleur dans le talon). Tenez 20 secondes.
+Dosage : 3 répétitions de chaque côté, 2 fois par jour.
+Progression : Faites aussi l'étirement avec le genou arrière légèrement plié.
+Plus facile : Faites un plus petit pas.
+Erreur fréquente : Décoller le talon arrière du sol ou étirer dans la douleur.
+Illustration demandée : Dessin au trait d'un jeune sportif debout face à un mur étirant doucement le mollet.
+Exercice 2 : Montées douces sur la pointe des pieds sur sol plat
+Phase : Quand la douleur diminue
+But : Pour renforcer le mollet.
+Départ : Debout sur sol plat, mains sur un mur.
+Mouvement : Montez doucement sur la pointe des deux pieds en 2 secondes, puis redescendez lentement en 3 secondes.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Passez sur un pied à la fois quand le talon n'est plus sensible.
+Plus facile : Gardez les mains sur un appui.
+Erreur fréquente : Redescendre vite et taper les talons au sol.
+Illustration demandée : Dessin au trait d'un jeune sportif montant doucement sur la pointe des pieds sur sol plat.
+Exercice 3 : Ramassage d'une serviette avec les orteils (complément facultatif)
+Phase : Dès maintenant
+But : Pour renforcer les petits muscles du pied.
+Départ : Assis sur une chaise, pieds nus sur une petite serviette posée au sol.
+Mouvement : Agrippez la serviette avec les orteils pour la ramener vers vous, puis relâchez.
+Dosage : 2 minutes par pied, 3 fois par semaine. [À VÉRIFIER : aucune donnée propre à cet exercice dans la maladie de Sever]
+Progression : Placez un petit objet léger sur le bout de la serviette.
+Plus facile : Ramenez la serviette moins loin.
+Erreur fréquente : Décoller le talon du sol.
+Illustration demandée : Dessin au trait d'un pied nu sur une serviette au sol agrippant le tissu avec les orteils.
+RÉFÉRENCES
+[MODIFIÉ : Wiegerinck JI et al., J Pediatr Orthop, 2016 (PMID: 25985369) → Wiegerinck JI, Zwiers R, Sierevelt IN et al. Treatment of Calcaneal Apophysitis: Wait and See Versus Orthotic Device Versus Physical Therapy: A Pragmatic Therapeutic Randomized Clinical Trial. J Pediatr Orthop, 2016 (PMID : 25985369 ; volume et pages 36(2):152-157 À VÉRIFIER) — auteurs, titre et PMID confirmés]
+[MODIFIÉ : James AM et al., Br J Sports Med, 2016 (PMID: 26917682) → James AM, Williams CM, Haines TP. Effectiveness of footwear and foot orthoses for calcaneal apophysitis: a 12-month factorial randomised trial. Br J Sports Med, 2016 (PMID : 26917682 ; volume et pages 50(20):1268-1275 À VÉRIFIER) — auteurs, titre et PMID confirmés]
+[MODIFIÉ : (rien) → Williams CM, Krommes K, Paterson KL et al. Non-surgical treatment for lower limb apophyseal injuries. Cochrane Database Syst Rev, 2026 (numéro de revue et PMID À VÉRIFIER) — revue systématique plus récente]
+[MODIFIÉ : (rien) → Hernandez-Lucas P, Leirós-Rodríguez R, García-Liñeira J, Diez-Buil H. Conservative Treatment of Sever's Disease: A Systematic Review. J Clin Med, 2024 (PMID : 38592198) — revue systématique récente]
+## === FICHE CHE-09 · [cheville/tibpost] ===
+Titre : Dysfonction du tendon tibial postérieur[MODIFIÉ : Sous-titre : Tendinite à l'intérieur de la cheville → Sous-titre : Tendinopathie (« tendinite ») à l'intérieur de la cheville — même raison que dans la fiche CHE-03 ; l'ancien titre disait déjà « tendinopathie »]Ancien titre : Tendinopathie à l'intérieur de la cheville (tendon tibial postérieur)Diagnostic correspondant dans MSK Morand : Dysfonction du tibial postérieur[Note de terminologie, À VÉRIFIER pour MSK Morand : un consensus d'experts propose depuis 2020 le nom « déformation progressive par affaissement du pied » (progressive collapsing foot deformity) pour ce spectre ; Myerson et coll., Foot Ankle Int 2020]
+EN BREF
+Le tendon qui soutient l'arche du pied est surmené et affaibli.
+Un soutien de l'arche et un renforcement progressif le soulagent.
+Plus on traite tôt, meilleurs sont les résultats.
+CE QUE VOUS AVEZLe tendon qui passe derrière la bosse interne de la cheville et qui soutient l'arche du pied est surmené et affaibli. Cela donne une douleur à l'intérieur de la cheville et parfois un affaissement progressif de l'arche. Un bon soutien de l'arche (souliers et orthèses plantaires), des étirements doux du mollet et un renforcement ciblé donnent de bons résultats au stade débutant.
+POURQUOI ÇA ARRIVE
+[MODIFIÉ : Surpoids et hypertension. → Surpoids, hypertension et diabète. — le diabète fait partie des facteurs associés ; Holmes et Mann, Foot Ankle 1992 ; Deu et coll., Am Fam Physician 2022]
+Plus fréquent chez les femmes après 40 ans.
+Pieds plats.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié. [À VÉRIFIER : aucune étude propre à ce tendon]
+Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement. [MODIFIÉ : (rien) → Le soutien de l'arche est aussi une partie essentielle du traitement. — dans les essais, tous les groupes portaient des orthèses ; l'ajout d'exercices de force apporte un gain variable ; Kulig et coll., Phys Ther 2009 ; Houck et coll., Foot Ankle Int 2015]
+CE QUI AIDE
+Porter presque toute la journée des souliers stables avec un soutien d'arche (orthèses plantaires si conseillées).
+Renforcer le tendon tibial postérieur, le mollet et les muscles du pied.
+Étirer doucement le mollet, soulier et soutien d'arche aux pieds.
+Réduire temporairement les longues marches et la course.
+À ÉVITER POUR L'INSTANT
+Marcher longtemps pieds nus ou en gougounes (sandales plates).
+Étirer le mollet pieds nus en laissant l'arche s'écraser vers l'intérieur.
+Ignorer un affaissement progressif du pied.
+RÈGLE DE DOULEUR (0 À 10)[MODIFIÉ : …dans l'heure qui suit l'exercice. → Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. — aucun modèle publié n'utilise un délai d'une heure ; délai extrapolé du modèle de surveillance de la douleur des tendinopathies (À VÉRIFIER : aucun critère validé propre à ce tendon) ; Silbernagel et coll., Am J Sports Med 2007]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Douleur soudaine avec claquement à l'intérieur de la cheville et arche qui s'affaisse d'un coup (rupture à écarter rapidement).
+[MODIFIÉ : « Gonflement chaud et rouge à l'intérieur de la cheville » classé sous « Revoyez votre médecin si » → classé sous « Consultez rapidement » : Gonflement chaud et rouge à l'intérieur de la cheville, surtout avec fièvre. — cohérence avec les autres fiches, où rougeur et chaleur sont classées urgentes]
+REVOYEZ VOTRE MÉDECIN SI
+Arche du pied qui s'affaisse visiblement ou pied qui devient raide.
+Incapacité de monter sur la pointe du pied atteint seul (signe d'atteinte plus avancée : évaluation à prévoir).
+Aucune amélioration après 3 mois.
+DURÉE HABITUELLEPremiers progrès en 6 à 12 semaines. Le programme complet dure 3 à 4 mois, et le soutien d'arche se porte souvent plus longtemps.
+PROGRAMME D'EXERCICESMatériel : élastique, mur, balle, table
+Exercice 1 : Inversion avec élastique (tibial postérieur)
+Phase : Dès maintenant
+But : Pour renforcer le tendon qui soutient l'arche.
+[MODIFIÉ : Départ : Assis, jambe atteinte allongée. L'élastique entoure… → Départ : Assis, jambe atteinte allongée, de préférence avec votre soulier et votre soutien d'arche. L'élastique entoure l'avant du pied atteint et est fixé sur le côté extérieur (pied de table, ou tenu par l'autre pied placé plus à l'extérieur). — dans l'essai clinique, les exercices se faisaient avec souliers et orthèses ; Kulig et coll., Phys Ther 2009]
+Mouvement : Pointez légèrement le pied vers le bas et amenez l'avant du pied vers l'intérieur contre l'élastique en 2 secondes, puis revenez lentement en 3 secondes en résistant à l'élastique.
+Dosage : 3 séries de 12 à 15 répétitions, 3 à 4 fois par semaine. [À VÉRIFIER : le nombre de répétitions est dans la fourchette des essais ; la fréquence y était plus élevée (jusqu'à 2 fois par jour) ; Houck et coll., Foot Ankle Int 2015]
+Progression : Passez à un élastique plus ferme quand les 3 séries sont faciles.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Tourner le genou ou toute la jambe au lieu du pied, ou relâcher le retour.
+Illustration demandée : Dessin au trait d'une personne assise ramenant l'avant du pied vers l'intérieur contre un élastique fixé sur le côté.
+Exercice 2 : Montées sur la pointe des pieds en serrant une balle entre les talons
+Phase : Quand la douleur diminue
+But : Pour renforcer le mollet en gardant l'arche.
+Départ : Debout, mains sur un mur, une balle de tennis serrée entre les deux talons.
+Mouvement : Gardez la balle serrée et montez lentement sur la pointe des pieds en 2 secondes, puis redescendez en 3 secondes.
+Dosage : 3 séries de 10 à 12 répétitions, 3 fois par semaine.
+Progression : Passez aux montées sur le pied atteint seul quand la force le permet, sans douleur.
+Plus facile : Faites-le sans balle, avec un appui.
+Erreur fréquente : Laisser tomber la balle ou laisser les chevilles s'affaisser vers l'intérieur.
+Illustration demandée : Dessin au trait de deux pieds vus de dos serrant une balle entre les talons en montant sur la pointe des pieds.
+Exercice 3 : Étirement doux du mollet (souliers aux pieds)
+Phase : Dès maintenant
+But : Pour assouplir le mollet.
+Départ : Debout face à un mur, souliers avec soutien d'arche aux pieds, jambe atteinte un pas en arrière, talon au sol, pied bien droit.
+Mouvement : Avancez les hanches vers le mur jusqu'à sentir un étirement léger dans le mollet. Tenez 30 secondes genou tendu, puis 30 secondes genou légèrement plié.
+Dosage : 3 répétitions de chaque position, 2 fois par jour. [Dosage confirmé : identique à celui de l'essai clinique ; Kulig et coll., Phys Ther 2009]
+Progression : Aucune : gardez un étirement léger et régulier.
+Plus facile : Faites un plus petit pas.
+Erreur fréquente : Tourner le pied vers l'extérieur ou laisser l'arche s'écraser.
+Illustration demandée : Dessin au trait d'une personne chaussée étirant le mollet face à un mur, pied arrière bien droit.
+Exercice 4 : Activation de l'arche du pied (pied court, complément)
+Phase : Dès maintenant
+But : Pour activer l'arche du pied.
+Départ : Assis, pieds nus au sol, genoux à 90 degrés.
+Mouvement : Sans recroqueviller les orteils, soulevez légèrement l'arche du pied en rapprochant la base du gros orteil du talon. Tenez 5 secondes.
+Dosage : 2 séries de 10 répétitions, 1 fois par jour. [À VÉRIFIER : aucun essai propre à ce problème pour cet exercice]
+Progression : Faites l'exercice debout sur les deux pieds, puis sur un pied.
+Plus facile : Faites-le assis.
+Erreur fréquente : Griffer le sol avec les orteils.
+Illustration demandée : Dessin au trait d'un pied nu au sol soulevant légèrement sa voûte plantaire sans plier les orteils.
+RÉFÉRENCES
+[MODIFIÉ : Kulig K et al., Phys Ther, 2009 (PMID: 19022863) → Kulig K, Reischl SF, Pomrantz AB et al. Nonsurgical management of posterior tibial tendon dysfunction with orthoses and resistive exercise: a randomized controlled trial. Phys Ther, 2009;89(1):26-37 (doi: 10.2522/ptj.20070242 ; PMID : 19022863) — référence confirmée et complétée]
+[MODIFIÉ : Alvarez RG et al., Foot Ankle Int, 2006 (à confirmer sur PubMed) → Alvarez RG, Marini A, Schmitt C, Saltzman CL. Stage I and II posterior tibial tendon dysfunction treated by a structured nonoperative management protocol: an orthosis and exercise program. Foot Ankle Int, 2006 (auteurs, titre, revue et année confirmés ; volume et pages 27(1):2-8 et PMID À VÉRIFIER sur PubMed)]
+[MODIFIÉ : (rien) → Houck J, Neville C, Tome J, Flemister A. Randomized Controlled Trial Comparing Orthosis Augmented by Either Stretching or Stretching and Strengthening for Stage II Tibialis Posterior Tendon Dysfunction. Foot Ankle Int, 2015 (PMID : À VÉRIFIER) — essai plus récent]
+[MODIFIÉ : (rien) → Myerson MS, Thordarson DB, Johnson JE et al. Classification and Nomenclature: Progressive Collapsing Foot Deformity. Foot Ankle Int, 2020 (PMID : À VÉRIFIER) — terminologie actuelle]
+## === FICHE CHE-10 · [cheville/arthrose] ===
+Titre : Arthrose de la chevilleSous-titre : Usure du cartilage de la chevilleAncien titre : Arthrose de la chevilleDiagnostic correspondant dans MSK Morand : Arthrose de la cheville
+EN BREF
+Le cartilage de la cheville s'est aminci, souvent des années après une blessure.
+[MODIFIÉ : Bouger et renforcer la cheville diminue la douleur et la raideur. → Bouger et renforcer la cheville peut diminuer la douleur et la raideur. — pour la cheville, la recommandation repose sur un seul essai de qualité modérée (force de recommandation « limitée ») ; American Academy of Orthopaedic Surgeons, guide de pratique 2026 sur l'arthrose de la cheville ; Smith MD et coll., Musculoskelet Sci Pract 2024]
+Des chaussures adaptées et d'autres traitements existent si la douleur reste forte.
+CE QUE VOUS AVEZLe cartilage de votre cheville s'est aminci avec le temps, souvent des années après une entorse ou une fracture. Cela cause de la raideur le matin et une douleur à la marche. L'arthrose ne disparaît pas, mais rester actif, entretenir la mobilité et la force de la cheville et porter des chaussures adaptées aident à diminuer la douleur et à mieux fonctionner.
+POURQUOI ÇA ARRIVE
+Ancienne entorse ou fracture de la cheville.
+Entorses répétées.
+Surpoids. [À VÉRIFIER : facteur extrapolé de l'arthrose du genou et de la hanche ; pas de donnée propre à la cheville]
+SOULAGER LA DOULEUR
+[MODIFIÉ : Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée. → Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée, si cela vous soulage. — peu de preuves pour la chaleur et le froid dans l'arthrose de la cheville ; Shibuya et coll., J Foot Ankle Surg 2020]
+Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Bouger doucement la cheville chaque matin avant de poser le pied par terre.
+Pratiquer une activité à faible impact (vélo stationnaire, natation, aquaforme) et renforcer les muscles autour de la cheville.
+[MODIFIÉ : Porter des espadrilles confortables à semelle ferme, arrondie à l'avant (semelle à bascule), pour faciliter le pas. → Porter des espadrilles confortables à semelle ferme, arrondie à l'avant (semelle à bascule) : cela peut faciliter le pas. — mesure raisonnable, mais peu étudiée ; Witteveen et coll., Cochrane Database Syst Rev 2015 ; American Academy of Orthopaedic Surgeons, guide de pratique 2026]
+Viser un poids santé et utiliser au besoin une canne ou une orthèse de cheville pour les longues marches.
+À ÉVITER POUR L'INSTANT
+Courir ou sauter sur des surfaces dures si cela augmente la douleur.
+Marcher longtemps pieds nus sur des planchers durs.
+Cesser de bouger par crainte d'user la cheville : les exercices doux n'accélèrent pas l'arthrose.
+RÈGLE DE DOULEUR (0 À 10)[MODIFIÉ : …dans l'heure qui suit l'exercice. → Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain (dans les 24 heures). — les programmes d'exercices pour l'arthrose demandent un retour au niveau habituel le lendemain ; aucun n'utilise un délai d'une heure. Le seuil de 3 sur 10 est prudent : ces programmes tolèrent jusqu'à 5 sur 10 ; Sørensen et coll., Scand J Med Sci Sports 2025 ; Sandal et coll., Osteoarthritis Cartilage 2016]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Cheville soudainement très enflée, rouge et chaude, avec ou sans fièvre (infection ou crise inflammatoire à écarter rapidement).
+REVOYEZ VOTRE MÉDECIN SI
+Blocage complet de la cheville.
+Douleur qui empêche de marcher dans la maison ou douleur constante la nuit.
+Douleur qui reste très limitante malgré 3 mois d'exercices et d'adaptations (d'autres traitements existent).
+DURÉE HABITUELLEAmélioration progressive du confort sur 8 à 12 semaines d'exercices réguliers, à entretenir ensuite.
+PROGRAMME D'EXERCICESMatériel : élastique, chaise
+Note sur le dosage : aucun dosage n'a été validé pour l'arthrose de la cheville ; les chiffres ci-dessous sont raisonnables et prudents (À VÉRIFIER).
+Exercice 1 : Cercles doux de la cheville (le matin)
+Phase : Dès maintenant
+But : Pour dégourdir la cheville le matin.
+Départ : Assis au bord du lit ou sur une chaise, pied dans le vide.
+Mouvement : Faites de grands cercles lents avec le pied dans un sens, puis dans l'autre, dans l'amplitude confortable.
+Dosage : 10 cercles dans chaque sens, 2 fois par jour.
+Progression : Enchaînez avec 10 mouvements doux vers le haut et vers le bas.
+Plus facile : Faites de plus petits cercles.
+Erreur fréquente : Aller trop vite ou forcer contre un blocage.
+Illustration demandée : Dessin au trait d'une personne assise faisant de grands cercles lents avec la cheville.
+Exercice 2 : Renforcement léger avec élastique (3 directions)
+Phase : Quand la douleur diminue
+But : Pour renforcer les muscles de la cheville.
+Départ : Assis jambes allongées, un élastique léger autour de l'avant du pied, tenu dans les mains ou fixé sur le côté.
+Mouvement : Poussez doucement le pied contre l'élastique vers le bas (élastique tenu dans les mains), puis vers l'intérieur et vers l'extérieur (élastique fixé du côté opposé au mouvement), dans l'amplitude confortable.
+Dosage : 2 séries de 10 répétitions par direction, 3 fois par semaine.
+Progression : Utilisez un élastique un peu plus ferme, puis ajoutez des montées sur la pointe des pieds en appui sur un comptoir.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Forcer contre un blocage douloureux.
+Illustration demandée : Dessin au trait d'une personne assise bougeant le pied contre un élastique.
+Exercice 3 : Équilibre sur une jambe
+Phase : Quand la douleur diminue
+But : Pour améliorer l'équilibre et la stabilité.
+Départ : Debout près d'un comptoir, mains à proximité.
+Mouvement : Tenez-vous en équilibre sur le pied atteint pendant 20 secondes, genou légèrement souple.
+Dosage : 3 répétitions, 1 fois par jour.
+Progression : Tenez 30 secondes.
+Plus facile : Gardez une main sur un appui.
+Erreur fréquente : Bloquer le genou vers l'arrière.
+Illustration demandée : Dessin au trait d'une personne en équilibre sur un pied près d'un comptoir.
+RÉFÉRENCES
+[MODIFIÉ : Witteveen AGH et al., Cochrane Database Syst Rev, 2015 (à confirmer sur PubMed) → Witteveen AGH, Hofstad CJ, Kerkhoffs GMMJ. Hyaluronic acid and other conservative treatment options for osteoarthritis of the ankle. Cochrane Database Syst Rev, 2015 (auteurs, titre et date confirmés ; numéro CD010643 et PMID À VÉRIFIER sur PubMed) — attention : cette revue porte surtout sur les injections d'acide hyaluronique, pas sur l'exercice]
+[MODIFIÉ : Shibuya N et al., J Foot Ankle Surg, 2019 (à confirmer sur PubMed) → Shibuya N, McAlister JE, Prissel MA et al. Consensus Statement of the American College of Foot and Ankle Surgeons: Diagnosis and Treatment of Ankle Arthritis. J Foot Ankle Surg, 2020 (doi: 10.1053/j.jfas.2019.10.007 ; en ligne en 2019, numéro imprimé de 2020 ; volume, pages et PMID À VÉRIFIER sur PubMed)]
+[MODIFIÉ : (rien) → American Academy of Orthopaedic Surgeons. Clinical Practice Guideline for the Management of Ankle Osteoarthritis, 2026 (lien et date exacte À VÉRIFIER sur le site de l'AAOS) — guide de pratique plus récent et propre à la cheville]
+[MODIFIÉ : (rien) → Smith MD, Vuvan V, Collins NJ et al. A combined program of education plus exercise versus general advice for ankle osteoarthritis: A feasibility randomised controlled trial. Musculoskelet Sci Pract, 2024 (PMID : 39241692) — seul essai d'exercices propre à la cheville]
+À VÉRIFIER : le guide NICE NG226 (2022) sur l'arthrose s'applique à toutes les articulations et peut être ajouté ; son texte n'a pas été consulté directement.
