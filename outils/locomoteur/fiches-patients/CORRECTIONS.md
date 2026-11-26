@@ -14,3 +14,12 @@ remettre ensuite ces fichiers.
   - Les fiches envoyées à OpenEvidence le 25 novembre (`revision/openevidence/`) disaient « dans l'heure qui suit l'exercice ». Une correction d'OpenEvidence sur ce délai ne s'applique pas.
   - Si OpenEvidence apporte une donnée qui contredit le lendemain matin pour un problème précis, la signaler au Dr Morand sans la reporter.
 - Les autres corrections se reportent fiche par fiche, grâce à l'identifiant `[région/id]`, dans `ajouts/` ou `textes/`, puis on relance `produire-fiches.mjs`.
+
+## Version 2 : passe finale de simplification (demande du 26 novembre 2026)
+
+À faire une fois toutes les révisions d'OpenEvidence reçues et intégrées (épaule et parties coupées comprises), avant les consignes de dessin et la publication sur le site.
+
+- Relire le texte de toutes les fiches et le simplifier pour les patients, pour un niveau de scolarité faible.
+- Garder peu de statistiques et ne pas parler des études : pas de pourcentages, de « X personnes sur 10 », de « les études montrent » ni de noms d'études dans le texte du patient. Les sources restent dans les journaux d'intégration (`revision/integration/`).
+- Phrases courtes, mots simples, une idée par phrase ; garder les signes d'alarme et les consignes de sécurité.
+- Poser les questions de clarification au Dr Morand avant de commencer (niveau visé, exemples à suivre).
