@@ -154,3 +154,4 @@ Décidée avec le clinicien le 22 novembre 2026, à partir des deux audits de Ch
 19. ✅ Schéma du corps : zones cuisse (hanche et genou) et jambe (genou et cheville), de face et de dos, avec le côté.
 20. ⏳ Cuisse et jambe : consigne OpenEvidence envoyée (`outils/locomoteur/delegation/openevidence-cuisse-jambe.md`, blocs 1 à 6). Les nouveaux diagnostics seront ajoutés à la réception des fréquences et des signes.
 21. ⏳ Fiches patients v2 : dossier OpenEvidence par région envoyé (`outils/locomoteur/fiches-patients/revision/openevidence/`).
+22. ✅ Fiches patients v2 : retour à la règle de douleur « le lendemain matin » (décision du 26 novembre ; fiches régénérées). Les fiches déjà envoyées à OpenEvidence disent « dans l'heure » : à l'intégration, la règle reste « le lendemain matin » (`outils/locomoteur/fiches-patients/CORRECTIONS.md`).

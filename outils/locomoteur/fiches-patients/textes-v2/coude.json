@@ -37,7 +37,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, diminuez la charge ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou reste plus forte le lendemain, diminuez la charge ou le nombre de répétitions.",
   "urgence": [
    "Coude rouge et chaud, ou fièvre."
   ],
@@ -159,7 +159,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, diminuez la charge ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou reste plus forte le lendemain, diminuez la charge ou le nombre de répétitions.",
   "urgence": [
    "Gonflement important, rougeur ou chaleur au coude.",
    "Douleur vive et soudaine à l'intérieur du coude lors d'un effort ou d'un lancer."
@@ -498,7 +498,7 @@
    "Glace 15 minutes, dans un linge, et un bandage compressif léger pour diminuer l'enflure.",
    "Un anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Une douleur qui augmente de jour en jour, avec rougeur ou chaleur, n'est pas normale : consultez.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Une douleur qui augmente de jour en jour, avec rougeur ou chaleur, n'est pas normale : consultez.",
   "urgence": [
    "Bosse qui devient rouge, chaude ou nettement plus douloureuse, même sans fièvre (une infection est possible).",
    "Fièvre, frissons ou sensation d'être malade.",
@@ -603,7 +603,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si le coude est plus enflé ou plus douloureux le lendemain, réduisez l'amplitude ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si le coude est plus enflé ou plus douloureux le lendemain, réduisez l'amplitude ou la charge.",
   "urgence": [
    "Coude enflé et chaud, rougeur ou fièvre."
   ],
@@ -707,7 +707,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale dans l'heure qui suit l'exercice. Une douleur à l'intérieur du coude n'est pas acceptable : arrêtez l'exercice qui la provoque. L'intérieur du coude doit être totalement sans douleur avant de recommencer à lancer.",
+  "regle_de_douleur": "Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale le lendemain matin. Une douleur à l'intérieur du coude n'est pas acceptable : arrêtez l'exercice qui la provoque. L'intérieur du coude doit être totalement sans douleur avant de recommencer à lancer.",
   "urgence": [
    "Claquement ressenti à l'intérieur du coude, suivi d'une douleur vive ou d'un bleu."
   ],
@@ -925,7 +925,7 @@
    "Glace 15 minutes, dans un linge, après l'activité.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale dans l'heure qui suit l'exercice. Une douleur à l'arrière du coude n'est pas acceptable : arrêtez le mouvement avant le point qui la déclenche.",
+  "regle_de_douleur": "Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale le lendemain matin. Une douleur à l'arrière du coude n'est pas acceptable : arrêtez le mouvement avant le point qui la déclenche.",
   "urgence": [
    "Douleur précise sur l'os à la pointe arrière du coude, au toucher ou au repos (une fissure de fatigue doit être recherchée par imagerie)."
   ],
@@ -1040,7 +1040,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, diminuez la charge ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou reste plus forte le lendemain, diminuez la charge ou le nombre de répétitions.",
   "urgence": [
    "Claquement brutal à l'arrière du coude, avec un bleu, un creux au-dessus de la pointe du coude ou une nette perte de force pour pousser ou tendre le bras (rupture possible, à faire évaluer rapidement en orthopédie, même si vous arrivez encore à tendre le coude).",
    "Coude enflé et chaud, rougeur ou fièvre."
@@ -1244,7 +1244,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez tout mouvement qui envoie de la douleur ou des picotements vers le coude ou les doigts.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui envoie de la douleur ou des picotements vers le coude ou les doigts.",
   "urgence": [
    "Maladresse des mains, perte d'équilibre à la marche, ou symptômes dans les deux bras ou dans les jambes.",
    "Difficulté nouvelle à uriner ou à retenir les urines ou les selles (consultez en urgence)."

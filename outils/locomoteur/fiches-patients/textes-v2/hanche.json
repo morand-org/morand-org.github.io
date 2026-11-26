@@ -36,7 +36,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Sinon, diminuez le nombre de répétitions à la séance suivante.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Sinon, diminuez le nombre de répétitions à la séance suivante.",
   "urgence": [
    "Chute ou faux mouvement suivi d'une incapacité de mettre du poids sur la jambe.",
    "Fièvre, ou hanche devenue soudainement très douloureuse, chaude ou enflée."
@@ -152,7 +152,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle s'est calmée après la séance et qu'elle n'a pas augmenté la nuit suivante ni dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle s'est calmée après la séance et qu'elle n'a pas augmenté la nuit suivante ni le lendemain matin.",
   "urgence": [
    "Chaleur, rougeur ou fièvre.",
    "Douleur apparue après une chute, avec difficulté à mettre du poids sur la jambe."
@@ -266,7 +266,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Claquement brutal à l'aine avec un bleu important et une impossibilité de serrer la jambe."
   ],
@@ -379,7 +379,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pour les trois exercices d'allongement (Extenseur, Plongeur, Glisseur), arrêtez le mouvement juste avant l'apparition de la douleur. Pour la marche et le pont fessier, une gêne jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pour les trois exercices d'allongement (Extenseur, Plongeur, Glisseur), arrêtez le mouvement juste avant l'apparition de la douleur. Pour la marche et le pont fessier, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Douleur vive tout en haut de la cuisse, sous l'os sur lequel on s'assoit, avec un gros bleu et une faiblesse (arrachement du tendon à vérifier rapidement)."
   ],
@@ -489,7 +489,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Un pincement vif dans l'aine pendant un mouvement signifie qu'il faut réduire l'amplitude.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Un pincement vif dans l'aine pendant un mouvement signifie qu'il faut réduire l'amplitude.",
   "urgence": [],
   "medecin": [
    "Blocage franc de la hanche ou accrochage douloureux fréquent dans l'aine.",
@@ -591,7 +591,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Fièvre, ou boule chaude et douloureuse à l'aine."
   ],
@@ -691,7 +691,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans la fesse est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez le mouvement si des fourmillements ou une douleur descendent dans la jambe.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans la fesse est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez le mouvement si des fourmillements ou une douleur descendent dans la jambe.",
   "urgence": [
    "Perte de force dans le pied ou la jambe, ou engourdissements persistants.",
    "Difficulté à uriner, pertes d'urine ou de selles, ou perte de sensation entre les jambes (urgence)."
@@ -889,7 +889,7 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Fièvre, ou douleur qui s'aggrave malgré l'arrêt du sport."
   ],
@@ -999,7 +999,7 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Apparition d'une bosse ou d'un gonflement dans l'aine à l'effort ou à la toux (hernie inguinale à vérifier).",
@@ -1093,7 +1093,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant les premières semaines, les exercices doivent rester sans douleur sur la zone de l'arrachement. Plus tard, une gêne jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. L'os doit être totalement indolore avant de reprendre la course.",
+  "regle_de_douleur": "Pendant les premières semaines, les exercices doivent rester sans douleur sur la zone de l'arrachement. Plus tard, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être totalement indolore avant de reprendre la course.",
   "urgence": [],
   "medecin": [
    "Douleur qui ne diminue pas après 2 semaines de repos relatif et de béquilles.",
@@ -1194,7 +1194,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Claquement brutal sous la fesse avec un gros bleu."
   ],
@@ -1288,7 +1288,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. L'os doit être indolore au toucher et à l'effort avant la reprise du sport.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être indolore au toucher et à l'effort avant la reprise du sport.",
   "urgence": [
    "Douleur brutale avec sensation de claquement pendant un sprint ou après un choc, avec difficulté à marcher (arrachement à vérifier).",
    "Fièvre ou gonflement rouge et chaud."
@@ -1385,7 +1385,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Les premiers jours, les mouvements doivent rester sans douleur vive. Ensuite, une douleur jusqu'à 3 sur 10 pendant et après les exercices est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Les premiers jours, les mouvements doivent rester sans douleur vive. Ensuite, une douleur jusqu'à 3 sur 10 pendant et après les exercices est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Douleur qui augmente beaucoup dans les heures ou les jours suivant le coup, cuisse très tendue et dure, douleur intense quand on plie le genou, engourdissements (syndrome des loges : urgence).",
    "Fièvre ou rougeur chaude."
@@ -1487,7 +1487,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez tout mouvement qui envoie de la douleur ou des picotements plus loin dans la jambe.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui envoie de la douleur ou des picotements plus loin dans la jambe.",
   "urgence": [
    "Perte de sensation entre les jambes, difficulté à uriner, pertes d'urine ou de selles (urgence).",
    "Faiblesse nouvelle ou qui s'aggrave dans le pied ou la jambe (urgence)."

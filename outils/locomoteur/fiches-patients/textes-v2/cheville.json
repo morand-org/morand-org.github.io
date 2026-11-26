@@ -34,7 +34,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Incapacité de faire 4 pas, même en boitant, juste après la blessure ou dans les jours suivants (radiographie à envisager).",
    "Douleur vive en appuyant sur l'os à l'arrière des malléoles (bosses de la cheville), sur le bord extérieur du pied ou sur le dessus interne du pied (fracture à écarter).",
@@ -147,7 +147,7 @@
    "Glace 10 à 15 minutes, dans un linge, si la cheville est enflée après l'activité.",
    "Une orthèse ou un bandage peut protéger la cheville pendant le sport."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Nouvelles entorses répétées malgré 3 mois de rééducation bien suivie.",
@@ -262,7 +262,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 5 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice et si la douleur et la raideur matinale n'augmentent pas d'une semaine à l'autre.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 5 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si la douleur et la raideur matinale n'augmentent pas d'une semaine à l'autre.",
   "urgence": [
    "Claquement brutal derrière la cheville avec sensation d'avoir reçu un coup et difficulté à monter sur la pointe du pied (rupture du tendon : urgence).",
    "Douleur au tendon apparue pendant ou après un antibiotique de la famille des quinolones (ciprofloxacine, lévofloxacine, moxifloxacine) : cessez les exercices et appelez rapidement votre médecin ou votre pharmacien."
@@ -367,7 +367,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Claquement brutal à l'arrière du talon avec perte de force (rupture à écarter : urgence).",
    "Rougeur, chaleur vive, peau ouverte ou fièvre."
@@ -466,7 +466,7 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité.",
    "Acétaminophène au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez la course si une douleur précise sur un point de l'os apparaît.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez la course si une douleur précise sur un point de l'os apparaît.",
   "urgence": [
    "Douleur très précise sur un petit point de l'os, douleur au repos ou la nuit, ou douleur en sautillant sur place (fracture de stress à vérifier)."
   ],
@@ -680,7 +680,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Mollet très enflé, dur, rouge ou chaud avec douleur constante, ou enflure qui augmente (phlébite à écarter d'urgence).",
    "Claquement ressenti au bas du mollet ou derrière la cheville avec impossibilité de monter sur la pointe du pied (rupture du tendon d'Achille à écarter rapidement).",
@@ -783,7 +783,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle ne fait pas boiter.",
   "urgence": [
    "Rougeur, chaleur ou gonflement du talon, ou fièvre.",
    "Douleur apparue brusquement après une chute ou un saut."
@@ -885,7 +885,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur soudaine avec claquement à l'intérieur de la cheville et arche qui s'affaisse d'un coup (rupture à écarter rapidement)."
   ],
@@ -999,7 +999,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Cheville soudainement très enflée, rouge et chaude, avec ou sans fièvre (infection ou crise inflammatoire à écarter rapidement)."
   ],
@@ -1096,7 +1096,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur en haut de la jambe, sur l'os du côté extérieur près du genou (fracture de Maisonneuve à écarter rapidement).",
    "Gonflement chaud et rouge, ou mollet douloureux et enflé pendant l'immobilisation (phlébite à écarter)."
@@ -1192,7 +1192,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur en appuyant sur le haut du côté externe de la jambe, près du genou (fracture de Maisonneuve à écarter d'urgence).",
    "Gonflement rouge et chaud."
@@ -1306,7 +1306,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Tendon que vous sentez ou voyez sauter ou claquer par-dessus la bosse osseuse externe (luxation des fibulaires : avis orthopédique requis).",
    "Douleur soudaine avec claquement et perte de force sur le côté de la cheville (déchirure à écarter)."
@@ -1418,7 +1418,7 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Aucun exercice ne doit reproduire le pincement vif.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Aucun exercice ne doit reproduire le pincement vif.",
   "urgence": [],
   "medecin": [
    "Blocage ou ressaut douloureux net dans la cheville.",
@@ -1516,7 +1516,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez tout mouvement qui déclenche ou augmente les picotements sous le pied.",
+  "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui déclenche ou augmente les picotements sous le pied.",
   "urgence": [],
   "medecin": [
    "Engourdissements constants sous le pied ou faiblesse des orteils.",

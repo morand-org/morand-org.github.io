@@ -7,6 +7,7 @@
   - « En bref », « Pourquoi ça arrive », « Soulager la douleur » ;
   - signes séparés en « Consultez rapidement » et « Revoyez votre médecin si ».
 - **Règle de douleur :** même règle, mais la douleur doit revenir à son niveau habituel dans l'heure qui suit l'exercice (et non plus le lendemain matin), sauf si les données démontrent le contraire. OpenEvidence doit le vérifier (point 7 de la consigne).
+  - **Changement du 26 novembre 2026 :** le Dr Morand revient au lendemain matin. Les fiches envoyées à OpenEvidence le 25 novembre disent encore « dans l'heure qui suit l'exercice » ; à l'intégration des réponses, la règle reste « le lendemain matin ».
 - **C. Exercices :** phase, but et version plus facile ajoutés ; case « Prescrit pour vous » ; matériel.
 - **D :** accepté.
 - **E :**
