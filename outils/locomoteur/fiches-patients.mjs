@@ -5,7 +5,8 @@
        donné : node outils/locomoteur/fiches-patients.mjs <région>=<fichier.pdf> …) ;
      - locomoteur/<région>/patients/index.html : la liste des fiches ;
      - locomoteur/fiches-patients.js : diagnostic du calcul → fiche patient, pour la page de résultats ;
-   et la liste des régions à l'accueil (entre <!-- fiches-patients --> et <!-- /fiches-patients -->).
+     - locomoteur/patients/index.html : les régions ;
+   et la carte de l'accueil (entre <!-- fiches-patients --> et <!-- /fiches-patients -->).
      node outils/locomoteur/fiches-patients.mjs [région=source.pdf …] */
 import fs from "node:fs";
 import path from "node:path";
@@ -93,7 +94,7 @@ for (const [region, R] of Object.entries(REGIONS)) {
     if (dx) liens[region][dx] = { u, titre: f.titre };
   }
   const ko = f => Math.round(fs.statSync(path.join(RACINE, f.u)).size / 1024);
-  fs.writeFileSync(path.join(dossier, "index.html"), tete(`${R.nom} : fiches patients`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>${esc(R.nom)} : fiches patients</span></nav>
+  fs.writeFileSync(path.join(dossier, "index.html"), tete(`${R.nom} : fiches patients`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><a href="/locomoteur/patients/">Fiches patients</a><span aria-hidden="true">›</span><span>${esc(R.nom)}</span></nav>
   <section class="cr-intro hy-intro">
     <h1>${esc(R.nom)}</h1>
     <p class="cr-devise">Fiches patients</p>
@@ -112,14 +113,22 @@ fs.writeFileSync(path.join(RACINE, "locomoteur/fiches-patients.js"), `/* Produit
 (function () { (window.Locomoteur = window.Locomoteur || {}).fichesPatients = ${JSON.stringify(liens)}; })();
 `);
 
-const hubF = path.join(RACINE, "locomoteur/index.html");
-let hub = fs.readFileSync(hubF, "utf8");
-const bloc = `<!-- fiches-patients -->
-  <h2 class="lo-regions-titre">Fiches patients</h2>
-  <ol class="lo-regions cr-specs">
+// Page « Fiches patients » : les régions ; à l'accueil, une seule carte (entre <!-- fiches-patients --> et <!-- /fiches-patients -->).
+const total = resume.reduce((n, r) => n + r.n, 0);
+fs.mkdirSync(path.join(RACINE, "locomoteur/patients"), { recursive: true });
+fs.writeFileSync(path.join(RACINE, "locomoteur/patients/index.html"), tete("Fiches patients") + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>Fiches patients</span></nav>
+  <section class="cr-intro hy-intro">
+    <h1>Fiches patients</h1>
+    <p class="cr-devise">À remettre au patient, par région</p>
+    <p class="cr-lead">${total} fiches : ce que le patient a, ce qui aide, ce qu'il faut éviter pour l'instant, quand reconsulter, puis un programme d'exercices illustré. Chaque fiche s'ouvre en PDF, prête à imprimer recto verso.</p>
+  </section>
+  <ol class="lo-regions cr-specs hy-regions">
 ${resume.map(r => `    <li><a class="cr-spec lo-hy-region" href="/locomoteur/${r.region}/patients/"><span class="cr-spec-nom">${esc(r.nom)}</span><span class="cr-spec-sous">${r.n} fiches</span></a></li>`).join("\n")}
   </ol>
-  <!-- /fiches-patients -->`;
-hub = hub.includes("<!-- fiches-patients -->") ? hub.replace(/<!-- fiches-patients -->[\s\S]*?<!-- \/fiches-patients -->/, bloc) : hub.replace('  <details class="cr-sources">', `  ${bloc}\n\n  <details class="cr-sources">`);
+` + pied);
+const hubF = path.join(RACINE, "locomoteur/index.html");
+let hub = fs.readFileSync(hubF, "utf8");
+if (!hub.includes("<!-- fiches-patients -->")) throw new Error("Accueil : marqueur <!-- fiches-patients --> absent");
+hub = hub.replace(/<!-- fiches-patients -->[\s\S]*?<!-- \/fiches-patients -->/, `<!-- fiches-patients --><li><a class="cr-spec lo-hy-region" href="/locomoteur/patients/"><span class="cr-spec-nom">Fiches patients</span><span class="cr-spec-sous">${total} fiches à imprimer</span></a></li><!-- /fiches-patients -->`);
 fs.writeFileSync(hubF, hub);
 console.log(resume.map(r => `${r.region} : ${r.n} fiches, ${r.lies} liées au calcul`).join("\n"));

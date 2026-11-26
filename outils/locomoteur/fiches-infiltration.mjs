@@ -88,12 +88,7 @@ fs.writeFileSync(path.join(RACINE, "locomoteur/fiches-infiltration.js"), `/* Pro
 
 const hubF = path.join(RACINE, "locomoteur/index.html");
 let hub = fs.readFileSync(hubF, "utf8");
-const bloc = `<!-- infiltrations -->
-  <h2 class="lo-regions-titre">Infiltrations</h2>
-  <ol class="lo-regions cr-specs">
-    <li><a class="cr-spec lo-hy-region" href="/locomoteur/infiltrations/"><span class="cr-spec-nom">Fiches pour le médecin</span><span class="cr-spec-sous">${FICHES.length - 1} infiltrations</span></a></li>
-  </ol>
-  <!-- /infiltrations -->`;
-hub = hub.includes("<!-- infiltrations -->") ? hub.replace(/<!-- infiltrations -->[\s\S]*?<!-- \/infiltrations -->/, bloc) : hub.replace('  <details class="cr-sources">', `  ${bloc}\n\n  <details class="cr-sources">`);
+if (!hub.includes("<!-- infiltrations -->")) throw new Error("Accueil : marqueur <!-- infiltrations --> absent");
+hub = hub.replace(/<!-- infiltrations -->[\s\S]*?<!-- \/infiltrations -->/, `<!-- infiltrations --><li><a class="cr-spec lo-hy-region" href="/locomoteur/infiltrations/"><span class="cr-spec-nom">Infiltrations</span><span class="cr-spec-sous">${FICHES.length - 1} fiches pour le médecin</span></a></li><!-- /infiltrations -->`);
 fs.writeFileSync(hubF, hub);
 console.log(`${FICHES.length} fiches ; ${Object.values(liens).reduce((n, o) => n + Object.keys(o).length, 0)} diagnostics liés`);
