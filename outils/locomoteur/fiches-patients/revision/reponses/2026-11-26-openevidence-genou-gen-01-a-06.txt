@@ -1,0 +1,445 @@
+# Fiches genou révisées – GEN-01 à GEN-06
+Révision du 26 novembre 2026. Chaque changement est marqué [MODIFIÉ : ancien texte → nouveau texte — raison ; référence]. « À VÉRIFIER » signale un énoncé qui n'a pas pu être confirmé dans les sources consultées. Les lignes sans marque sont inchangées.
+## FICHE GEN-01 · [genou/sfp]
+Titre : Syndrome fémoro-patellaireSous-titre : Douleur à l'avant du genouAncien titre : Douleur à l'avant du genou (syndrome fémoro-patellaire)Diagnostic correspondant dans MSK Morand : Syndrome fémoro-patellaire
+EN BREF
+Le genou n'est ni usé ni abîmé : l'articulation de la rotule est devenue sensible à la charge.
+Renforcer les hanches et les cuisses est le cœur du traitement.
+Comptez au moins 6 à 12 semaines d'exercices réguliers. [MODIFIÉ : « Comptez 6 à 12 semaines » → « Comptez au moins 6 à 12 semaines » — les essais durent 6 à 12 semaines, mais aucun traitement n'est bien étudié au-delà de 3 mois et la douleur dure souvent plus longtemps ; Neal et al., J Orthop Sports Phys Ther, 2022 ; Duong et al., JAMA, 2023]
+CE QUE VOUS AVEZL'articulation entre la rotule et l'os de la cuisse est devenue sensible à la charge quand le genou plie (escaliers, squats, course, position assise prolongée). Le genou n'est ni usé ni abîmé. Le traitement le plus efficace est un programme d'exercices pour les cuisses et les hanches, avec de bonnes explications et un ajustement temporaire des activités qui réveillent la douleur. [MODIFIÉ : « pour les hanches et les cuisses, combiné à un ajustement temporaire » → « pour les cuisses et les hanches, avec de bonnes explications et un ajustement temporaire » — le guide de 2024 place les exercices du genou, avec ou sans ceux de la hanche, et l'éducation au centre du traitement ; Neal et al., Br J Sports Med, 2024]
+POURQUOI ÇA ARRIVE
+Hausse rapide des activités qui plient le genou (course, escaliers, squats).
+Muscles des hanches et des cuisses peu renforcés.
+Sport intense ou très fréquent sans assez de récupération, surtout à l'adolescence. [MODIFIÉ : « Croissance à l'adolescence » → « Sport intense ou très fréquent sans assez de récupération, surtout à l'adolescence » — chez l'adolescent, la cause décrite est surtout la charge sportive ; le lien avec la croissance concerne plutôt la maladie d'Osgood-Schlatter ; Rathleff et al., Am J Sports Med, 2019 ; Davis et al., Curr Rev Musculoskelet Med, 2023]
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage. [MODIFIÉ : ajout de « si elle vous soulage » — pas de données propres à ce problème ; même formulation que dans les autres fiches]
+Anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié. (Les preuves sont faibles pour ce problème ; Duong et al., JAMA, 2023.)
+CE QUI AIDE
+Renforcer les muscles des fesses (hanche) et de l'avant de la cuisse (quadriceps) : c'est le cœur du traitement.
+Allonger et dégourdir les jambes régulièrement si vous restez assis longtemps.
+Réduire temporairement les descentes d'escaliers rapides et la course en pente ; si vous courez, diminuer un peu la distance et faire des pas légèrement plus courts.
+Demander à votre physiothérapeute un bandage adhésif de la rotule (taping) : il peut soulager certaines personnes pendant les premières semaines, mais il n'ajoute pas toujours un bénéfice aux exercices. [MODIFIÉ : « il peut soulager à court terme pendant que vous commencez les exercices » → texte nuancé — les données sont contradictoires : effet immédiat possible, pas de bénéfice ajouté démontré quand on fait déjà les exercices ; Barton et al., Br J Sports Med, 2014 ; Souto et al., Br J Sports Med, 2024]
+Des semelles préfabriquées peuvent aussi soulager pendant les premières semaines (environ 6 semaines). [MODIFIÉ : (absent) → ajout — option de soutien reconnue à court terme ; Collins et al., BMJ, 2008 ; Neal et al., Br J Sports Med, 2024]
+À ÉVITER POUR L'INSTANT
+Faire des squats profonds ou des fentes très basses tant qu'ils déclenchent une douleur de plus de 3 sur 10.
+Rester assis les genoux très pliés pendant des heures sans bouger.
+Laisser le genou rentrer vers l'intérieur dans les escaliers.
+Arrêter toute activité en attendant que la douleur passe : le repos complet n'aide pas.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. À la course, visez 2 sur 10 ou moins, avec un retour à votre niveau habituel dans l'heure qui suit. [MODIFIÉ : « dans l'heure qui suit l'exercice » → « au plus tard le lendemain matin » pour les exercices ; le critère d'une heure est gardé pour la course seulement — le délai d'une heure vient d'un protocole de course (2 sur 10 ou moins, retour en 60 minutes) ; les modèles pour les exercices surveillent la douleur sur 24 heures ; Esculier et al., BMC Musculoskelet Disord, 2016, et Br J Sports Med, 2018 ; Thomeé, Phys Ther, 1997 ; Rathleff et al., Am J Sports Med, 2019]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Genou qui enfle beaucoup, devient chaud ou rouge, avec ou sans fièvre. [MODIFIÉ : ajout de « avec ou sans fièvre » — la fièvre manque souvent dans une infection de l'articulation ; Earwood et al., Am Fam Physician, 2021]
+Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement. [MODIFIÉ : « Blocage véritable du genou (impossible de le tendre ou de le plier) », déplacé de « Revoyez votre médecin si » — un genou bloqué demande un avis chirurgical rapide ; classement harmonisé avec GEN-03 et GEN-17 ; Herring et al., Med Sci Sports Exerc, 2024]
+REVOYEZ VOTRE MÉDECIN SI
+Sensation que le genou lâche ou que la rotule se déboîte.
+Aucune amélioration après 8 à 12 semaines d'exercices réguliers.
+DURÉE HABITUELLEAmélioration notable en 6 à 12 semaines d'exercices réguliers ; la récupération complète peut prendre plusieurs mois, et la douleur peut revenir par périodes. [MODIFIÉ : ajout de « et la douleur peut revenir par périodes » — plus de la moitié des personnes rapportent encore des symptômes après plusieurs années ; Duong et al., JAMA, 2023]
+PROGRAMME D'EXERCICESMatériel : élastique, marche ou escalier, mur
+Exercice 1 : Pont fessier
+Phase : Dès maintenant
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat à la largeur des hanches.
+Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Passez au pont sur une seule jambe ou ajoutez un élastique autour des genoux.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le bas du dos au lieu de serrer les fessiers.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos soulevant les hanches en pont fessier.
+Exercice 2 : Lever de jambe sur le côté (moyen fessier)
+Phase : Dès maintenant
+But : Pour renforcer le muscle qui contrôle le genou.
+Départ : Couché sur le côté, jambe du dessous légèrement pliée, jambe du dessus tendue dans l'axe du corps.
+Mouvement : Montez la jambe du dessus vers le plafond en gardant le pied parallèle au sol (orteils pointés droit devant), puis redescendez en 3 secondes.
+Dosage : 3 séries de 12 répétitions de chaque côté, 3 à 4 fois par semaine.
+Progression : Ajoutez un élastique léger autour des genoux, puis autour des chevilles.
+Plus facile : Montez moins haut.
+Erreur fréquente : Laisser le bassin rouler vers l'arrière ou pointer les orteils vers le plafond.
+Illustration demandée : Dessin au trait d'une personne couchée sur le côté soulevant la jambe supérieure tendue.
+Exercice 3 : Chaise au mur (amplitude confortable)
+Phase : Quand la douleur diminue
+But : Pour renforcer les cuisses sans irriter la rotule.
+Départ : Debout, dos appuyé contre un mur, pieds avancés d'environ 30 à 40 cm et écartés à la largeur des hanches.
+Mouvement : Glissez le dos vers le bas jusqu'à plier les genoux à environ 45 degrés, genoux au-dessus des chevilles et alignés avec le 2e orteil. Tenez 20 à 30 secondes, puis remontez.
+Dosage : 3 répétitions, 3 à 4 fois par semaine.
+Progression : Tenez 45 secondes, puis descendez un peu plus bas (jusqu'à 60 degrés) si la douleur reste à 3 sur 10 ou moins.
+Plus facile : Pliez moins, 15 secondes.
+Erreur fréquente : Laisser les genoux rentrer l'un vers l'autre.
+Illustration demandée : Dessin au trait d'une personne dos au mur en position assise partielle, genoux bien alignés.
+Exercice 4 : Descente lente d'une marche (step-down)
+Phase : Pour progresser
+But : Pour contrôler le genou dans les escaliers.
+Départ : Debout sur une marche basse (10 à 15 cm), une main près d'une rampe, une jambe dans le vide devant.
+Mouvement : Pliez lentement le genou d'appui pour descendre effleurer le sol avec l'autre talon, en gardant le genou aligné avec le 2e orteil et le bassin horizontal, puis remontez.
+Dosage : 3 séries de 10 répétitions par jambe, 3 fois par semaine (à commencer quand les trois premiers exercices sont bien tolérés).
+Progression : Utilisez une marche un peu plus haute quand le contrôle est parfait.
+Plus facile : Utilisez une marche plus basse.
+Erreur fréquente : Laisser le genou rentrer vers l'intérieur ou se laisser tomber sur le talon.
+Illustration demandée : Dessin au trait d'une personne debout sur une marche descendant lentement un talon vers le sol.
+Note de révision sur le programme : le choix des exercices (hanche et quadriceps, en appui ou non) est conforme au guide de pratique. Le guide suggère un volume élevé, 3 fois par semaine, sans imposer de programme précis ; les dosages de la fiche sont compatibles (Patellofemoral Pain: Guidelines from the American Physical Therapy Association, Am Fam Physician, 2020).
+RÉFÉRENCES
+Willy RW et al., Patellofemoral Pain (guide de pratique clinique), J Orthop Sports Phys Ther, 2019 (PMID: 31475628). [À VÉRIFIER : la notice n'a pas été retrouvée directement ; le contenu est confirmé par le résumé publié dans Am Fam Physician en 2020]
+Neal BS, Lack SD, Bartholomew C, Morrissey D, Best practice guide for patellofemoral pain based on synthesis of a systematic review, the patient voice and expert clinical reasoning, Br J Sports Med, 2024 (PMID: 39401870). [MODIFIÉ : (absent) → ajout — référence plus récente]
+Neal BS et al., Six treatments have positive effects at 3 months for people with patellofemoral pain: a systematic review with meta-analysis, J Orthop Sports Phys Ther, 2022;52(11):750-768. [MODIFIÉ : (absent) → ajout]
+## FICHE GEN-02 · [genou/arthrose]
+Titre : Gonarthrose (arthrose du genou)Sous-titre : Douleur et raideur du genouAncien titre : Arthrose du genouDiagnostic correspondant dans MSK Morand : Arthrose du genou
+EN BREF
+Bouger n'abîme pas votre genou : l'exercice est le traitement de base.
+Perdre du poids, s'il y a lieu, diminue la douleur.
+Les bienfaits diminuent si vous arrêtez : continuez à bouger. [MODIFIÉ : « Les bienfaits durent tant que vous restez actif » → « Les bienfaits diminuent si vous arrêtez : continuez à bouger » — la revue Cochrane montre que les bienfaits diminuent à long terme, peut-être parce que les gens cessent l'exercice ; c'est une déduction raisonnable et non un résultat démontré ; Lawford et al., Cochrane Database Syst Rev, 2024]
+CE QUE VOUS AVEZL'arthrose touche toute l'articulation du genou : le cartilage s'amincit et l'os, la membrane et les muscles autour du genou réagissent. Cela donne une raideur brève le matin (moins de 30 minutes) et une douleur à la marche ou dans les escaliers. Ce n'est pas une simple « usure » : bouger n'abîme pas votre genou. L'exercice régulier est le traitement de base : il renforce les muscles, entretient la mobilité, aide à mieux bouger et peut diminuer la douleur. Ses bienfaits diminuent si vous arrêtez. [MODIFIÉ : « et diminue la douleur. Ses bienfaits durent tant que vous restez actif. » → « aide à mieux bouger et peut diminuer la douleur. Ses bienfaits diminuent si vous arrêtez. » — l'effet moyen sur la douleur est réel, mais de taille modeste (environ 9 à 13 points sur 100) et de certitude faible ; l'effet sur la fonction est de certitude modérée ; Lawford et al., Cochrane Database Syst Rev, 2024]
+POURQUOI ÇA ARRIVE
+Âge et facteurs héréditaires.
+Ancienne blessure du genou.
+Surpoids et travail physique exigeant.
+SOULAGER LA DOULEUR
+Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.
+Anti-inflammatoire en crème d'abord ; en comprimés seulement pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié. [MODIFIÉ : « Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes » → « en crème d'abord ; en comprimés seulement pour de courtes périodes » — les guides recommandent fortement la crème pour le genou et limitent les comprimés en cas de maladie du cœur ou de fragilité ; Bannuru et al., Osteoarthritis Cartilage, 2019 ; Kolasinski et al., Arthritis Rheumatol, 2020]
+CE QUI AIDE
+Marcher, faire du vélo stationnaire ou de l'aquaforme régulièrement.
+Renforcer les muscles des cuisses et des fesses 2 à 3 fois par semaine.
+Bouger doucement le genou le matin avant de vous lever.
+Si vous avez un surplus de poids, perdre au moins 5 % de votre poids (environ 4 à 5 kg si vous pesez 90 kg) diminue la douleur ; plus la perte est importante, plus le bénéfice est grand (l'effet est plus net à partir de 10 %). [MODIFIÉ : ajout de « (l'effet est plus net à partir de 10 %) » — relation dose-effet confirmée ; Kolasinski et al., Arthritis Rheumatol, 2020 ; Messier et al., JAMA, 2013. La formulation exacte de NICE NG226 (2022) sur les seuils de perte de poids n'a pas été retrouvée : À VÉRIFIER]
+À ÉVITER POUR L'INSTANT
+Rester inactif par peur d'abîmer votre genou : l'inactivité augmente la raideur, la faiblesse et la douleur.
+S'agenouiller longtemps sur un sol dur.
+Faire des activités avec chocs violents (sauts) quand le genou est enflé.
+RÈGLE DE DOULEUR (0 À 10)Pendant les exercices, une douleur jusqu'à 5 sur 10 est acceptable et ne veut pas dire que vous abîmez votre genou, si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 5 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. [MODIFIÉ : « jusqu'à 3 sur 10 […] dans l'heure qui suit l'exercice […] dure plus d'une heure » → « jusqu'à 5 sur 10 […] au plus tard le lendemain » — règle du programme d'exercices neuromusculaires (NEMEX, GLA:D) utilisé dans les essais sur l'arthrose : douleur de 5 sur 10 ou moins, retour au niveau habituel dans les 24 heures ; les poussées de douleur après l'exercice diminuent au fil des semaines ; Sørensen et al., Scand J Med Sci Sports, 2025 ; Sandal et al., Osteoarthritis Cartilage, 2016 ; Roos et al., J Orthop Sports Phys Ther, 2025. Garder le seuil de 3 sur 10 reste possible si l'équipe préfère une règle unique, mais il est plus strict que les essais]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Genou soudainement très enflé, rouge et chaud, avec ou sans fièvre (urgence). [MODIFIÉ : « ou fièvre » → « avec ou sans fièvre » — la fièvre manque souvent dans une infection de l'articulation ; Earwood et al., Am Fam Physician, 2021]
+Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement. [MODIFIÉ : « Blocage mécanique complet du genou », déplacé de « Revoyez votre médecin si » — harmonisation avec GEN-03 ; Herring et al., Med Sci Sports Exerc, 2024]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur constante la nuit ou au repos, ou raideur du matin qui dure plus de 30 minutes.
+Perte importante d'autonomie à la marche malgré 3 mois d'exercices.
+DURÉE HABITUELLEAmélioration notable en 8 à 12 semaines ; les bienfaits se maintiennent si vous continuez à bouger régulièrement.
+PROGRAMME D'EXERCICESMatériel : chaise, poids léger ou bouteille d'eau
+Exercice 1 : Flexion et extension douces assises
+Phase : Dès maintenant
+But : Pour dégourdir le genou et chasser la raideur.
+Départ : Assis sur une chaise, pieds au sol.
+Mouvement : Tendez complètement une jambe devant vous en serrant la cuisse 3 secondes, puis repliez le genou le plus loin possible sous la chaise.
+Dosage : 10 répétitions par jambe, 2 fois par jour (idéal au réveil pour chasser la raideur).
+Progression : Tenez 5 secondes jambe tendue, puis ajoutez un poids léger (0,5 à 1 kg) à la cheville.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Ne pas tendre le genou au maximum ou se pencher vers l'arrière.
+Illustration demandée : Dessin au trait d'une personne assise sur une chaise tendant une jambe devant elle.
+Exercice 2 : Pont fessier
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Tenez 5 secondes en haut, puis essayez sur une seule jambe.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le bas du dos.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier.
+Exercice 3 : Assis-debout contrôlé
+Phase : Quand la douleur diminue
+But : Pour renforcer les cuisses et faciliter les gestes du quotidien.
+Départ : Assis sur une chaise solide, pieds à la largeur des hanches.
+Mouvement : Penchez légèrement le buste en avant, levez-vous sans vous aider des mains si possible, puis rasseyez-vous lentement en 3 secondes.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Effleurez la chaise sans vous asseoir avant de remonter, puis utilisez une chaise plus basse ou tenez un poids contre la poitrine.
+Plus facile : Utilisez une chaise plus haute ou aidez-vous des mains.
+Erreur fréquente : Se laisser tomber sur la chaise ou laisser les genoux rentrer vers l'intérieur.
+Illustration demandée : Dessin au trait d'une personne se levant et se rasseyant lentement d'une chaise.
+Exercice 4 : Vélo stationnaire (ou marche à plat)
+Phase : Dès maintenant
+But : Pour bouger le genou sans trop le charger. [MODIFIÉ : « sans le charger » → « sans trop le charger » — la marche met du poids sur le genou ; précision de langage]
+Départ : Assis sur un vélo stationnaire, selle assez haute pour que la jambe soit presque tendue en bas du coup de pédale.
+Mouvement : Pédalez à résistance légère et à rythme régulier ; vous devez pouvoir parler sans être essoufflé. Sans vélo, marchez à plat d'un bon pas.
+Dosage : 15 à 25 minutes, 3 à 5 fois par semaine.
+Progression : Augmentez doucement la durée (viser 30 minutes), puis la résistance.
+Plus facile : Pédalez 5 minutes, sans résistance.
+Erreur fréquente : Régler la selle trop bas, ce qui plie trop le genou.
+Illustration demandée : Dessin au trait d'une personne pédalant calmement sur un vélo stationnaire.
+Note de révision sur le programme : aucun type d'exercice ne s'est montré supérieur dans la revue Cochrane ; une méta-analyse en réseau de 2025 classe l'exercice aérobique (marche, vélo) au premier rang, ce qui appuie l'exercice 4 « dès maintenant » (Lawford et al., Cochrane Database Syst Rev, 2024 ; Yan et al., BMJ, 2025).
+RÉFÉRENCES
+Lawford BJ, Hall M, Hinman RS et al., Exercise for osteoarthritis of the knee, Cochrane Database Syst Rev, 2024;12:CD004376 (PMID: 39625083). [Vérifiée]
+Bannuru RR, Osani MC, Vaysbrot EE et al., OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis, Osteoarthritis Cartilage, 2019;27(11):1578-1589 (PMID: 31278997). [Vérifiée ; titre complété]
+Kolasinski SL et al., 2019 American College of Rheumatology/Arthritis Foundation guideline for the management of osteoarthritis of the hand, hip, and knee, Arthritis Rheumatol, 2020. [MODIFIÉ : (absent) → ajout]
+Roos EM, Kroman S, Ageberg E, An exercise therapists' guide to neuromuscular exercise for people with knee or hip osteoarthritis, J Orthop Sports Phys Ther, 2025;55(8):1-9 (PMID: 40699605). [MODIFIÉ : (absent) → ajout — source de la règle de douleur]
+NICE NG226, Osteoarthritis in over 16s, 2022. [À VÉRIFIER : texte non retrouvé directement]
+## FICHE GEN-03 · [genou/menisque]
+Titre : Déchirure méniscaleSous-titre : Lésion du ménisque, le coussin du genouAncien titre : Lésion du ménisque (coussin du genou)Diagnostic correspondant dans MSK Morand : Déchirure méniscale (sans blocage du genou)
+EN BREF
+Le ménisque présente une fissure, souvent liée à l'âge.
+Sans blocage, les exercices donnent d'aussi bons résultats que la chirurgie.
+Comptez environ 3 mois d'exercices bien faits.
+CE QUE VOUS AVEZUn des deux petits coussins amortisseurs de votre genou (le ménisque) présente une fissure. Quand la fissure est apparue progressivement, sans gros accident, et que le genou ne se bloque pas (situation la plus fréquente après 35 à 40 ans), les études montrent qu'un programme d'exercices d'environ 12 semaines donne d'aussi bons résultats que la chirurgie, sans les risques d'une opération. Chez l'adulte plus jeune dont le genou ne bloque pas, commencer par les exercices est aussi une option à discuter avec votre médecin. Une opération reste possible plus tard si les exercices ne suffisent pas : dans les études, de 2 à 4 personnes sur 10 ont été opérées plus tard. [MODIFIÉ : ajout de « dans les études, de 2 à 4 personnes sur 10 ont été opérées plus tard » — 19 % à 41 % de chirurgies différées selon les essais ; Kise et al., BMJ, 2016 ; Skou et al., NEJM Evid, 2022 ; van der Graaff et al., Br J Sports Med, 2022]
+POURQUOI ÇA ARRIVE
+Changements normaux du ménisque avec l'âge. [MODIFIÉ : « Usure normale du ménisque avec l'âge » → « Changements normaux du ménisque avec l'âge » — cohérence avec le message de GEN-02 (« ce n'est pas une simple usure ») ; changement de langage seulement]
+Torsion du genou, souvent en se relevant d'une position accroupie.
+Travail à genoux ou accroupi.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, si le genou est enflé.
+Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Renforcer progressivement les muscles de la cuisse et des hanches, 2 à 3 fois par semaine pendant au moins 12 semaines.
+Faire du vélo stationnaire sans résistance forte pour garder le genou souple.
+Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après l'effort si le genou est un peu enflé.
+Rester actif dans les limites de la règle de douleur.
+À ÉVITER POUR L'INSTANT
+S'accroupir complètement ou s'asseoir sur les talons.
+Pivoter brusquement sur le genou douloureux, pied bloqué au sol (sports de pivot).
+Forcer l'extension ou la flexion si le genou semble bloqué.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10, ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. [MODIFIÉ : « dans l'heure qui suit l'exercice […] dure plus d'une heure » → « au plus tard le lendemain […] plus douloureux ou plus enflé le lendemain » — aucune source ne valide le délai d'une heure pour ce problème ; les modèles publiés utilisent 24 heures ; Thomeé, Phys Ther, 1997 ; Smith et al., Br J Sports Med, 2017. À VÉRIFIER : la règle de douleur précise des essais sur le ménisque (Kise, DREAM, ESCAPE) n'a pas été retrouvée]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Genou bloqué (impossible de le tendre complètement) : avis orthopédique rapide.
+Genou très enflé, rouge et chaud, avec ou sans fièvre. [MODIFIÉ : (absent) → ajout — signe d'alarme présent dans les autres fiches ; Earwood et al., Am Fam Physician, 2021]
+REVOYEZ VOTRE MÉDECIN SI
+Gonflement important qui revient après chaque marche.
+Sensation fréquente que le genou lâche ou se dérobe.
+Pas d'amélioration après 12 semaines (3 mois) d'exercices bien faits.
+DURÉE HABITUELLEAmélioration habituelle en 6 à 12 semaines ; poursuivre le programme au moins 12 semaines.
+PROGRAMME D'EXERCICESMatériel : serviette, marche ou escalier
+Exercice 1 : Contraction statique du quadriceps
+Phase : Dès maintenant
+But : Pour réveiller le muscle de la cuisse.
+Départ : Assis, jambes allongées devant vous, une petite serviette roulée sous le genou.
+Mouvement : Écrasez la serviette avec l'arrière du genou en serrant fort le dessus de la cuisse pendant 5 secondes (le talon peut décoller légèrement), puis relâchez.
+Dosage : 3 séries de 10 répétitions, 2 fois par jour.
+Progression : Passez à l'élévation de la jambe tendue.
+Plus facile : Serrez plus doucement, 3 secondes.
+Erreur fréquente : Serrer la fesse ou soulever la hanche au lieu de contracter la cuisse.
+Illustration demandée : Dessin au trait d'une jambe tendue avec une serviette roulée sous le genou.
+Exercice 2 : Pont fessier
+Phase : Dès maintenant
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez les fessiers et soulevez les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes et redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Passez au pont sur une jambe.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le bas du dos.
+Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier.
+Exercice 3 : Mini-squat contrôlé
+Phase : Quand la douleur diminue
+But : Pour renforcer les cuisses.
+Départ : Debout, pieds à la largeur des épaules.
+Mouvement : Pliez les genoux jusqu'à environ 45 à 60 degrés (pas plus bas), genoux alignés avec les orteils, puis remontez.
+Dosage : 3 séries de 10 à 12 répétitions, 3 fois par semaine.
+Progression : Ajoutez des montées lentes sur une marche basse (step-up).
+Plus facile : Pliez moins, avec un appui.
+Erreur fréquente : Descendre en squat complet ou laisser le genou rentrer vers l'intérieur.
+Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat contrôlé.
+Note de révision sur le programme : la fréquence (2 à 3 séances par semaine pendant 12 semaines) correspond au programme supervisé de l'essai de Kise et de l'essai DREAM. Les essais utilisaient des programmes plus complets (exercices neuromusculaires et renforcement supervisés) : la fiche est une version de départ.
+RÉFÉRENCES
+Kise NJ, Risberg MA, Stensrud S et al., Exercise therapy versus arthroscopic partial meniscectomy for degenerative meniscal tear in middle aged patients: randomised controlled trial with two year follow-up, BMJ, 2016 (PMID: 27440192 ; doi: 10.1136/bmj.i3740). [Vérifiée ; titre ajouté]
+Logerstedt DS, Scalzitti DA, Bennell KL et al., Knee Pain and Mobility Impairments: Meniscal and Articular Cartilage Lesions Revision 2018 (guide de pratique clinique), J Orthop Sports Phys Ther, 2018;48(2):A1-A50 (PMID: 29385940). [Vérifiée]
+Noorduyn JCA et al., Effect of physical therapy vs arthroscopic partial meniscectomy in people with degenerative meniscal tears: five-year follow-up of the ESCAPE randomized clinical trial, JAMA Netw Open, 2022. [MODIFIÉ : (absent) → ajout — suivi à 5 ans]
+Skou ST et al., Early surgery or exercise and education for meniscal tears in young adults, NEJM Evid, 2022. [MODIFIÉ : (absent) → ajout — appuie l'énoncé sur l'adulte plus jeune]
+O'Connor D et al., Arthroscopic surgery for degenerative knee disease (osteoarthritis including degenerative meniscal tears), Cochrane Database Syst Rev, 2022. [MODIFIÉ : (absent) → ajout]
+Choisir avec soin Canada, recommandations sur l'arthroscopie du genou. [À VÉRIFIER : énoncés non retrouvés dans les sources consultées]
+## FICHE GEN-04 · [genou/lca]
+Titre : Rupture du ligament croisé antérieur (LCA)Sous-titre : Déchirure du ligament croisé antérieur : première phaseAncien titre : Déchirure du ligament croisé antérieur (première phase)Diagnostic correspondant dans MSK Morand : Rupture du LCA
+EN BREF
+Le ligament croisé antérieur est déchiré.
+Avec ou sans chirurgie plus tard, la première étape est la même : retrouver l'extension et réveiller la cuisse.
+Le retour aux sports avec pivots se décide avec votre médecin.
+CE QUE VOUS AVEZLe ligament croisé antérieur, qui stabilise le genou lors des pivots, est déchiré. Que vous ayez une chirurgie plus tard ou non, la première étape est la même et elle est essentielle : faire dégonfler le genou, retrouver l'extension complète (jambe bien droite), réveiller les muscles de la cuisse et marcher sans boiter. Dans les études, environ la moitié des personnes qui ont commencé par la réadaptation n'ont pas eu besoin d'opération. [MODIFIÉ : (absent) → ajout de la dernière phrase — appuie « avec ou sans chirurgie » ; Frobell et al., BMJ, 2013 ; Reijman et al., BMJ, 2021]
+POURQUOI ÇA ARRIVE
+Pivot, changement de direction ou réception de saut, souvent sans contact.
+Sports comme le soccer, le ski, le basketball ou le hockey.
+SOULAGER LA DOULEUR
+Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Mettre de la glace 15 minutes (avec un linge sur la peau) et surélever la jambe pour diminuer l'enflure.
+Utiliser des béquilles au début si vous boitez, puis marcher normalement dès que possible.
+Retrouver rapidement la capacité de tendre complètement le genou.
+Commencer un suivi en physiothérapie et en orthopédie pour planifier la suite.
+À ÉVITER POUR L'INSTANT
+Reprendre un sport de pivot, de saut ou de changement de direction (risque d'abîmer les ménisques et le cartilage).
+Dormir avec un oreiller sous le genou plié (placez-le plutôt sous le talon pour garder la jambe droite).
+Forcer la flexion quand le genou est très enflé.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou enfle davantage, réduisez l'amplitude ou le nombre de répétitions. [MODIFIÉ : « si elle revient à votre niveau habituel dans l'heure qui suit l'exercice » → « si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé » — la réadaptation des ligaments utilise des règles de douleur et d'enflure du lendemain ; aucune source ne donne un délai d'une heure ; Brinlee et al., Sports Health, 2021 ; Lynch et al., Curr Rev Musculoskelet Med, 2017]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Gonflement énorme et très douloureux, ou fièvre.
+Engourdissements, pied qui tombe, pied froid ou pâle, ou mollet douloureux, enflé et chaud (urgence). [MODIFIÉ : ajout de « pied froid ou pâle » — signe d'atteinte d'une artère ; Gottlieb et al., J Emerg Med, 2020]
+Essoufflement soudain ou douleur dans la poitrine : appelez le 911. [MODIFIÉ : (absent) → ajout — complication possible d'un caillot dans la jambe ; Khan et al., Lancet, 2021]
+Genou qui reste bloqué, impossible à tendre complètement : à faire évaluer rapidement. [MODIFIÉ : déplacé de « Revoyez votre médecin si » — après une rupture du LCA, un genou bloqué fait penser à un ménisque déplacé et demande un avis chirurgical rapide ; Herring et al., Med Sci Sports Exerc, 2024]
+REVOYEZ VOTRE MÉDECIN SI
+Épisodes répétés où le genou lâche dans les activités de tous les jours.
+DURÉE HABITUELLEPhase initiale de 4 à 6 semaines environ : elle est terminée quand le genou est dégonflé, bien droit, et que la cuisse est réveillée, plutôt qu'après un nombre fixe de semaines. La réadaptation complète dure 9 à 12 mois ; après une reconstruction, le retour aux sports de pivot ne se fait pas avant 9 mois et seulement après avoir réussi des tests de force et de saut. [MODIFIÉ : « Phase initiale de 4 à 6 semaines pour dégonfler le genou et retrouver la mobilité et la force de base. La réadaptation complète dure plusieurs mois ; […] rarement avant 9 à 12 mois » → texte ci-dessus — la fin de la première phase repose sur des critères (genou « calme ») ; le seuil de 9 mois vient de la cohorte Delaware-Oslo, et la durée de 9 à 12 mois du guide néerlandais ; Brinlee et al., Sports Health, 2021 ; Grindem et al., Br J Sports Med, 2016 ; van Melick et al., Br J Sports Med, 2016. À VÉRIFIER : la durée « 4 à 6 semaines » n'a pas été retrouvée telle quelle]
+PROGRAMME D'EXERCICESMatériel : serviette, poids léger ou bouteille d'eau, coussin
+Exercice 1 : Extension passive du genou (talon surélevé)
+Phase : Dès maintenant
+But : Pour retrouver l'extension complète du genou.
+Départ : Assis ou couché, talon posé sur une serviette roulée ou un petit coussin, de façon que l'arrière du genou soit dans le vide.
+Mouvement : Relâchez complètement la cuisse et laissez la gravité redresser le genou.
+Dosage : 5 minutes, 3 fois par jour.
+Progression : Appuyez très doucement avec les mains juste au-dessus de la rotule si c'est confortable.
+Plus facile : Tenez 2 minutes.
+Erreur fréquente : Placer le coussin sous le genou au lieu du talon.
+Illustration demandée : Dessin au trait d'une jambe allongée avec une serviette roulée sous la cheville pour laisser le genou s'étendre.
+Exercice 2 : Réveil du quadriceps et lever de jambe tendue
+Phase : Dès maintenant
+But : Pour réveiller la cuisse.
+Départ : Couché sur le dos, l'autre genou plié, la jambe blessée bien tendue.
+Mouvement : Serrez fort la cuisse pour verrouiller le genou droit, puis levez la jambe tendue à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 2 fois par jour.
+Progression : Enchaînez avec les mini-squats sur deux pieds dès que le genou est dégonflé.
+Plus facile : Faites seulement la contraction, sans lever la jambe.
+Erreur fréquente : Laisser le genou plier légèrement en levant la jambe (signe que le quadriceps n'est pas encore assez réveillé).
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe parfaitement tendue.
+Exercice 3 : Glissement du talon pour plier le genou
+Phase : Dès maintenant
+But : Pour retrouver la flexion du genou.
+Départ : Couché sur le dos ou assis, jambe allongée.
+Mouvement : Faites glisser doucement le talon vers la fesse, en vous aidant au besoin d'une serviette passée sous le pied, sans forcer.
+Dosage : 10 répétitions, 3 fois par jour.
+Progression : Passez au vélo stationnaire (mouvements de balancier, puis tours complets) dès que le genou plie à environ 100 à 110 degrés. [À VÉRIFIER : ce repère d'angle est d'usage courant, mais n'a pas été retrouvé dans les sources consultées]
+Plus facile : Pliez moins loin.
+Erreur fréquente : Forcer brutalement la flexion.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos glissant le talon vers la fesse.
+Exercice 4 : Transferts de poids et mini-squats sur deux jambes
+Phase : Quand la douleur diminue
+But : Pour reprendre l'appui et la force.
+Départ : Debout devant un comptoir, mains en appui léger.
+Mouvement : Pliez doucement les deux genoux à 30 à 45 degrés en répartissant le poids également sur les deux jambes, puis remontez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour (dès que vous marchez sans boiter).
+Progression : Travaillez l'équilibre sur la jambe blessée, près d'un appui.
+Plus facile : Gardez les mains sur un appui.
+Erreur fréquente : Mettre tout le poids sur la jambe saine.
+Illustration demandée : Dessin au trait d'une personne debout mains sur un comptoir réalisant un petit squat symétrique.
+Note de révision sur le programme : les buts de la phase (extension complète, flexion retrouvée, peu ou pas d'enflure, lever de jambe sans fléchissement du genou) correspondent aux critères du genou « calme » avant une chirurgie (Brinlee et al., Sports Health, 2021).
+RÉFÉRENCES
+Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017 (PMID: 29089004). [À VÉRIFIER : notice et contenu non retrouvés directement ; détails probables, à confirmer dans PubMed : Knee Stability and Movement Coordination Impairments: Knee Ligament Sprain Revision 2017, 47(11):A1-A47]
+van Melick N, van Cingel RE, Brooijmans F et al., Evidence-based clinical practice update: practice guidelines for anterior cruciate ligament rehabilitation based on a systematic review and multidisciplinary consensus, Br J Sports Med, 2016;50(24):1506-1515 (PMID: 27539507). [Vérifiée ; titre ajouté. Cette référence ne donne pas le seuil de 9 mois]
+Grindem H et al., Simple decision rules can reduce reinjury risk by 84% after ACL reconstruction: the Delaware-Oslo ACL cohort study, Br J Sports Med, 2016;50(13):804-808 (PMID: 27162233). [MODIFIÉ : (absent) → ajout — source du seuil de 9 mois]
+Kotsifaki R, Korakakis V, King E et al., Aspetar clinical practice guideline on rehabilitation after anterior cruciate ligament reconstruction, Br J Sports Med, 2023;57(9):500-514 (PMID: 36731908). [MODIFIÉ : (absent) → ajout — guide plus récent]
+Brinlee AW et al., ACL reconstruction rehabilitation: clinical data, biologic healing, and criterion-based milestones to inform a return-to-sport guideline, Sports Health, 2021. [MODIFIÉ : (absent) → ajout — critères de la première phase et règles de douleur]
+## FICHE GEN-05 · [genou/lcp]
+Titre : Entorse du ligament croisé postérieur (LCP)Sous-titre : Entorse d'un ligament au centre du genouAncien titre : Entorse du ligament croisé postérieur (LCP)Diagnostic correspondant dans MSK Morand : Entorse du LCP
+EN BREF
+Le ligament à l'arrière du centre du genou est étiré ou partiellement déchiré.
+La plupart de ces entorses guérissent sans chirurgie.
+Renforcer la cuisse est la clé du traitement.
+CE QUE VOUS AVEZLe ligament situé à l'arrière du centre du genou (le LCP), qui empêche le tibia de glisser vers l'arrière, a été étiré ou partiellement déchiré, souvent après un choc sur l'avant du genou plié. Pour la majorité des entorses isolées, renforcer solidement le muscle du devant de la cuisse (quadriceps) permet de bien compenser sans chirurgie.
+POURQUOI ÇA ARRIVE
+Choc sur le devant du tibia, genou plié (tableau de bord, chute sur le genou).
+SOULAGER LA DOULEUR
+Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Porter l'orthèse prescrite par votre médecin pendant toute la durée indiquée (souvent plusieurs semaines).
+Renforcer en priorité le quadriceps (devant de la cuisse).
+Au repos, placer un petit coussin sous le mollet pour soutenir le tibia (pas sous le talon seul, ni derrière le genou).
+Reprendre la course et le sport par étapes avec votre physiothérapeute.
+À ÉVITER POUR L'INSTANT
+Faire travailler seuls les muscles de l'arrière de la cuisse (ischio-jambiers) : au début, ne pliez pas le genou en forçant avec ces muscles, et ne faites pas de flexion contre résistance (machine, élastique) avant environ 12 semaines, sauf avis de votre physiothérapeute. [MODIFIÉ : « pas de flexion active du genou pendant au moins 6 semaines, et pas de flexion contre résistance (machine, élastique) avant environ 3 à 4 mois » → texte ci-dessus — dans les protocoles sans chirurgie, le travail isolé des ischio-jambiers commence vers la 12e semaine ; les délais de 4 mois et plus viennent des protocoles après chirurgie ; Wang et al., Curr Rev Musculoskelet Med, 2018 ; Kew et al., Curr Rev Musculoskelet Med, 2022. À VÉRIFIER : le délai de « 6 semaines sans flexion active » n'a pas été retrouvé]
+Plier le genou à plus de 90 degrés pendant les 2 premières semaines, ou descendre à plus de 70 degrés en squat pendant les premières semaines.
+S'agenouiller sur l'avant du tibia ou pousser le genou en hyperextension.
+Descendre des pentes raides au début.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. [MODIFIÉ : « dans l'heure qui suit l'exercice […] dure plus d'une heure » → « en quelques heures […] le lendemain » — règles du lendemain utilisées en réadaptation des ligaments ; Lynch et al., Curr Rev Musculoskelet Med, 2017 ; Brinlee et al., Sports Health, 2021]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissements, picotements dans le pied, pied froid ou pâle, ou pied qui tombe après le choc (urgence).
+Mollet douloureux, enflé et chaud. [MODIFIÉ : (absent) → ajout — risque de caillot quand la jambe est immobilisée ; donnée indirecte (plâtre et arthroscopie) ; Nemeth et Cannegieter, Thromb Res, 2019]
+REVOYEZ VOTRE MÉDECIN SI
+Sensation que le genou est très instable ou part vers l'arrière ou sur le côté.
+Gonflement qui ne diminue pas après 2 semaines.
+Pas d'amélioration après 3 mois de physiothérapie.
+DURÉE HABITUELLEEntorse légère à modérée : retour au sport souvent en 4 à 8 semaines. Entorse plus importante : reprise de l'entraînement vers 10 à 12 semaines et de la compétition vers 4 mois. Votre physiothérapeute vous dira quand reprendre la course. [MODIFIÉ : « Reprise des activités quotidiennes en 6 à 12 semaines ; course vers 3 mois et retour complet au sport souvent entre 4 et 6 mois » → texte ci-dessus — les délais de l'ancienne version correspondent surtout aux protocoles après chirurgie ou aux entorses sévères ; pour les grades I et II, le retour au sport se fait en 4 à 8 semaines ; chez des athlètes avec une entorse de grade II ou III, l'entraînement a repris à 10,6 semaines et la compétition à 16,4 semaines en moyenne ; Jadidi et al., Curr Rev Musculoskelet Med, 2024 ; Agolley et al., Bone Joint J, 2017]
+PROGRAMME D'EXERCICESMatériel : marche ou escalier, mur, poids léger ou bouteille d'eau
+Exercice 1 : Contraction du quadriceps et lever de jambe tendue
+Phase : Dès maintenant
+But : Pour renforcer la cuisse, qui protège le ligament.
+Départ : Couché sur le dos, jambe blessée tendue, l'autre genou plié.
+Mouvement : Serrez fort le dessus de la cuisse pour verrouiller le genou droit, puis levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 2 fois par jour.
+Progression : Ajoutez un petit poids à la cheville.
+Plus facile : Faites seulement la contraction.
+Erreur fréquente : Relâcher la cuisse et laisser le genou plier pendant la levée.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant une jambe parfaitement tendue.
+Exercice 2 : Chaise au mur (amplitude modérée)
+Phase : Quand la douleur diminue
+But : Pour renforcer les cuisses.
+Départ : Debout, dos au mur, pieds avancés d'environ 30 à 40 cm.
+Mouvement : Glissez le dos le long du mur jusqu'à plier les genoux à 45 degrés, tenez 20 à 30 secondes, puis remontez.
+Dosage : 3 répétitions, 3 à 4 fois par semaine.
+Progression : Tenez 45 secondes, puis descendez jusqu'à 60 degrés.
+Plus facile : Pliez moins, 15 secondes.
+Erreur fréquente : Descendre trop bas (au-delà de 70 degrés) dans les premières semaines.
+Illustration demandée : Dessin au trait d'une personne dos au mur en position de chaise partielle.
+Exercice 3 : Montée d'une marche (step-up)
+Phase : Quand la douleur diminue
+But : Pour renforcer la jambe dans les escaliers.
+Départ : Debout face à une marche basse, pied du côté blessé posé sur la marche.
+Mouvement : Poussez dans le pied pour monter sur la marche en serrant la cuisse, puis redescendez lentement en 3 secondes.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Augmentez la hauteur de la marche après 4 à 6 semaines.
+Plus facile : Utilisez une marche plus basse.
+Erreur fréquente : Laisser le genou partir vers l'intérieur.
+Illustration demandée : Dessin au trait d'une personne montant lentement une marche d'escalier.
+Note de révision sur le programme : le travail centré sur le quadriceps et la limite de 70 degrés pour les exercices en appui sont conformes aux protocoles sans chirurgie. Aucune étude de haute qualité ne valide un protocole précis d'orthèse, d'appui ou d'exercices (Bedi et al., J Am Acad Orthop Surg, 2016).
+RÉFÉRENCES
+Pierce CM, O'Brien L, Griffin LW, LaPrade RF, Posterior cruciate ligament tears: functional and postoperative rehabilitation, Knee Surg Sports Traumatol Arthrosc, 2013 (PMID: 22484415). [Vérifiée pour le titre, les auteurs et le PMID ; volume et pages À VÉRIFIER. Revue narrative dont les délais chiffrés viennent surtout du protocole après chirurgie]
+Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017 (PMID: 29089004). [À VÉRIFIER : notice et contenu non retrouvés directement]
+Wang D, Graziano J, Williams RJ, Jones KJ, Nonoperative treatment of PCL injuries: goals of rehabilitation and the natural history of conservative care, Curr Rev Musculoskelet Med, 2018. [MODIFIÉ : (absent) → ajout — protocole propre au traitement sans chirurgie]
+Agolley D, Gabr A, Benjamin-Laing H, Haddad FS, Successful return to sports in athletes following non-operative management of acute isolated posterior cruciate ligament injuries: medium-term follow-up, Bone Joint J, 2017;99-B:774-778 (PMID: 28566396). [MODIFIÉ : (absent) → ajout — délais de retour au sport]
+## FICHE GEN-06 · [genou/collat]
+Titre : Entorse d'un ligament collatéral du genouSous-titre : Entorse d'un ligament sur le côté du genouAncien titre : Entorse d'un ligament sur le côté du genouDiagnostic correspondant dans MSK Morand : Entorse légère à modérée d'un ligament collatéral (médial/LLI ou latéral/LLE)
+EN BREF
+Un ligament sur le côté du genou est étiré ou partiellement déchiré.
+Les entorses légères à modérées guérissent bien sans chirurgie.
+Comptez quelques semaines avant le retour au sport.
+CE QUE VOUS AVEZLe ligament situé sur le côté intérieur (le plus souvent) ou extérieur de votre genou a été étiré ou partiellement déchiré après une torsion ou un choc sur le côté. Le ligament intérieur guérit presque toujours sans chirurgie, avec un peu de protection et un renforcement progressif. Les entorses légères à modérées du ligament extérieur guérissent aussi sans opération ; une déchirure complète du côté extérieur doit par contre être évaluée rapidement en orthopédie. Cette fiche s'adresse aux entorses légères à modérées.
+POURQUOI ÇA ARRIVE
+Choc sur le côté du genou ou torsion (hockey, soccer, ski).
+SOULAGER LA DOULEUR
+Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.
+Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Porter l'orthèse articulée prescrite par votre médecin si l'entorse est modérée (souvent environ 6 semaines).
+Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après les activités les premiers jours.
+Faire du vélo stationnaire sans résistance forte pour garder le genou souple.
+Renforcer les cuisses et les hanches avant de reprendre les sports de pivot.
+À ÉVITER POUR L'INSTANT
+Faire des mouvements qui écartent ou tordent le côté blessé du genou (par exemple la brasse pour le ligament intérieur).
+Courir avec des changements de direction avant d'avoir retrouvé la force.
+Forcer l'extension ou la flexion si le côté du genou tire fort.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. [MODIFIÉ : « dans l'heure qui suit l'exercice […] dure plus d'une heure » → « en quelques heures […] le lendemain » — règles du lendemain utilisées en réadaptation des ligaments ; Lynch et al., Curr Rev Musculoskelet Med, 2017 ; Brinlee et al., Sports Health, 2021]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement sur le dessus du pied ou difficulté à relever le pied ou les orteils (surtout après une blessure du côté extérieur) : urgence.
+Pied froid ou pâle : urgence. [MODIFIÉ : (absent) → ajout — signe d'atteinte d'une artère après un traumatisme important du genou ; Gottlieb et al., J Emerg Med, 2020]
+Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement. [MODIFIÉ : « Blocage mécanique du genou », déplacé de « Revoyez votre médecin si » — harmonisation ; Herring et al., Med Sci Sports Exerc, 2024]
+Mollet douloureux, enflé et chaud. [MODIFIÉ : (absent) → ajout — risque de caillot quand la jambe est immobilisée ; donnée indirecte ; Nemeth et Cannegieter, Thromb Res, 2019]
+REVOYEZ VOTRE MÉDECIN SI
+Genou qui reste instable sur le côté, même jambe tendue.
+Douleur ou instabilité qui ne diminue pas après 4 semaines.
+DURÉE HABITUELLEEntorse légère : 2 à 4 semaines. Entorse modérée : 4 à 6 semaines. Entorse plus sévère du ligament intérieur : 6 à 8 semaines ou plus.
+PROGRAMME D'EXERCICESMatériel : élastique, poids léger ou bouteille d'eau
+Exercice 1 : Mobilité douce en flexion-extension
+Phase : Dès maintenant
+But : Pour garder le genou mobile.
+Départ : Assis ou couché sur le dos.
+Mouvement : Pliez et tendez doucement le genou dans la zone confortable, en gardant le pied droit, sans tourner la jambe.
+Dosage : 10 répétitions, 2 à 3 fois par jour.
+Progression : Passez au vélo stationnaire léger dès que vous pouvez faire un tour de pédale complet sans douleur.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Tourner le pied vers l'extérieur en pliant le genou.
+Illustration demandée : Dessin au trait d'une personne assise pliant et tendant doucement le genou dans l'axe.
+Exercice 2 : Contraction du quadriceps et lever de jambe tendue
+Phase : Dès maintenant
+But : Pour renforcer la cuisse.
+Départ : Couché sur le dos, jambe blessée tendue, l'autre genou plié.
+Mouvement : Serrez la cuisse, verrouillez le genou droit et levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 1 à 2 fois par jour.
+Progression : Ajoutez un petit poids à la cheville.
+Plus facile : Faites seulement la contraction.
+Erreur fréquente : Laisser le genou plier.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos levant la jambe tendue.
+Exercice 3 : Mini-squats contrôlés dans l'axe
+Phase : Quand la douleur diminue
+But : Pour renforcer les cuisses dans l'axe.
+Départ : Debout devant un miroir, pieds à la largeur des hanches.
+Mouvement : Pliez les genoux à 45 degrés en gardant les genoux alignés avec le 2e orteil, puis remontez.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Passez aux fentes contrôlées, puis aux pas latéraux avec élastique.
+Plus facile : Pliez moins, avec un appui.
+Erreur fréquente : Laisser le genou blessé rentrer vers l'intérieur.
+Illustration demandée : Dessin au trait d'une personne réalisant un demi-squat devant un miroir, genoux bien alignés.
+Note de révision sur le programme : mobilisation précoce et travail du quadriceps après une courte protection sont conformes aux revues. Les durées par grade et l'orthèse articulée pour les entorses modérées sont appuyées par des revues et des cohortes ; aucun guide de pratique formel sur le ligament collatéral médial n'a été retrouvé (Jadidi et al., Curr Rev Musculoskelet Med, 2024 ; Marchant et al., Am J Sports Med, 2011).
+RÉFÉRENCES
+Logerstedt DS et al., Knee Ligament Sprain (guide de pratique clinique), J Orthop Sports Phys Ther, 2017 (PMID: 29089004). [À VÉRIFIER : notice et contenu non retrouvés directement]
+LaPrade RF, Gerhold C, Kunze KN et al., A contemporary international expert consensus statement on the evaluation, diagnosis, treatment, and rehabilitation of injuries to the posterolateral corner of the knee, Arthroscopy, 2025 (PMID: 40414466). [Vérifiée pour le titre, les auteurs, la revue et l'année ; volume et pages À VÉRIFIER. Consensus d'experts surtout chirurgical]
+Jadidi S, Lee AD, Pierko EJ, Choi H, Jones NS, Non-operative management of acute knee injuries, Curr Rev Musculoskelet Med, 2024. [MODIFIÉ : (absent) → ajout — durées par grade et traitement sans chirurgie]
