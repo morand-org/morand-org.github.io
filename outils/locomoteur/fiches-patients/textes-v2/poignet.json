@@ -140,7 +140,7 @@
    "Mettez la main au repos quelques jours si le kyste fait mal.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien le juge approprié ; n'essayez pas d'écraser le kyste."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Kyste qui grossit rapidement, devient très dur, rouge ou chaud."
   ],
@@ -242,7 +242,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Rougeur, chaleur importante ou fièvre."
   ],
@@ -342,7 +342,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Rougeur, chaleur, gonflement important ou fièvre."
   ],
@@ -441,7 +441,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Gonflement chaud, rougeur ou douleur soudaine très vive."
   ],
@@ -540,7 +540,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire en crème ou en comprimés au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Claquement douloureux ou sensation que l'os au bord du poignet se déplace quand vous tournez l'avant-bras (instabilité).",
@@ -642,7 +642,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Claquement ou ressaut douloureux net au milieu du poignet lors des mouvements.",
@@ -842,7 +842,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice, mais arrêtez tout mouvement qui augmente les picotements dans l'annulaire ou l'auriculaire.",
+  "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, mais arrêtez tout mouvement qui augmente les picotements dans l'annulaire ou l'auriculaire.",
   "urgence": [
    "Petite bosse sentie à la base de la paume du côté du petit doigt, ou doigts qui deviennent blancs, bleus ou froids."
   ],
@@ -945,7 +945,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Articulation soudainement très rouge, chaude et enflée avec douleur vive (crise inflammatoire ou infection à vérifier)."
   ],
@@ -1047,7 +1047,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Gonflement rouge, chaud et très douloureux à la base du pouce."
   ],
@@ -1151,7 +1151,7 @@
    "Tremper la main dans l'eau tiède le matin aide à déplier le doigt.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice et si le mouvement ne déclenche pas d'accrochage brutal.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin et si le mouvement ne déclenche pas d'accrochage brutal.",
   "urgence": [
    "Rougeur ou chaleur importante le long du doigt, ou fièvre : consulter en urgence (ce tableau pouvant correspondre à une infection de la gaine du tendon)."
   ],
@@ -1252,7 +1252,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Doigt qui part de travers, semble instable ou se bloque (avis orthopédique requis).",
    "Impossibilité de tendre l'articulation du milieu, surtout si le bout du doigt se relève vers l'arrière (déformation en boutonnière : attelle spéciale à mettre en place rapidement, pour environ 6 semaines)."
@@ -1354,7 +1354,7 @@
    "La maladie est rarement douloureuse ; un nodule sensible se calme souvent avec le temps.",
    "Évitez d'appuyer fort sur les nodules (outils, poignées)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une tension légère jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une tension légère jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Vous n'arrivez plus à poser la paume et les doigts à plat sur une table (test de la table positif).",
@@ -1454,7 +1454,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Sensation que le pouce part sur le côté ou qu'il est très instable (rupture complète possible, qui peut nécessiter une chirurgie rapide)."
   ],
@@ -1552,7 +1552,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. Arrêtez immédiatement en cas de claquement ou si le tendon fait saillie sous la peau.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. Arrêtez immédiatement en cas de claquement ou si le tendon fait saillie sous la peau.",
   "urgence": [
    "Le tendon forme une corde visible sous la peau à la base du doigt quand vous pliez (« effet corde d'arc »)."
   ],
@@ -1654,7 +1654,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice, mais arrêtez tout mouvement qui augmente la douleur du bras ou les picotements dans les doigts.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, mais arrêtez tout mouvement qui augmente la douleur du bras ou les picotements dans les doigts.",
   "urgence": [
    "Maladresse des deux mains (boutons, écriture), perte d'équilibre en marchant ou faiblesse dans les jambes.",
    "Difficulté nouvelle à retenir ou à évacuer les urines ou les selles, ou sensations de décharge électrique dans le dos ou les membres quand vous penchez la tête."

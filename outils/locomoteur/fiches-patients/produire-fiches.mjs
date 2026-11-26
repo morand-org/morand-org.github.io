@@ -5,8 +5,8 @@
      - le titre médical et le sous-titre (titres.json) ;
      - les ajouts de la version 2 (ajouts/<région>.json : en_bref, pourquoi, soulager, urgence, medecin, et pour chaque
        exercice phase, but, plus_facile) ;
-     - la règle de douleur : retour au niveau habituel dans l'heure qui suit l'exercice (décision du Dr Morand, à faire
-       confirmer par OpenEvidence) ;
+     - la règle de douleur de la version 1, telle quelle : retour au niveau habituel le lendemain matin (décision du
+       Dr Morand du 26 novembre 2026, qui renonce au délai d'une heure) ;
      - les dessins actuels (extraits des PDF publiés dans .cache/dessins, réduits à 600 px dans .cache/dessins-600 ;
        en attendant ceux de Gemini).
    Écrit textes-v2/<région>.json (le texte assemblé, source du document pour OpenEvidence) et v2/<région>/<n°>-<id>.pdf
@@ -28,18 +28,6 @@ const args = process.argv.slice(2), choisies = args.filter(a => !a.startsWith("-
 const lireJSON = f => JSON.parse(fs.readFileSync(f, "utf8"));
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const TITRES = lireJSON(path.join(ICI, "titres.json"));
-
-/* Règle de douleur : « le lendemain matin » devient « dans l'heure qui suit l'exercice ». */
-export function regleUneHeure(t) {
-  return t
-    .replace(/est revenue à/g, "revient à").replace(/soit revenue à/g, "revienne à")
-    .replace(/,? ?au plus tard le lendemain matin/g, " dans l'heure qui suit l'exercice")
-    .replace(/le lendemain matin/g, "dans l'heure qui suit l'exercice")
-    .replace(/(revient|revienne) à (la normale|son niveau habituel|votre niveau habituel) le lendemain/g, "$1 à $2 dans l'heure qui suit l'exercice")
-    .replace(/(persiste|reste plus forte|reste élevée|est encore présente|dure encore) le lendemain( matin)?/g, "dure plus d'une heure")
-    .replace(/ou dure plus longtemps/g, "ou dure plus d'une heure")
-    .replace(/\s+/g, " ").trim();
-}
 
 /* Matériel nécessaire, d'après le texte des exercices. */
 const MATERIEL = [["élastique", /élastique/i], ["serviette", /serviette/i], ["chaise", /chaise/i], ["marche ou escalier", /marche (basse|d'escalier)|escalier|step/i],
@@ -93,7 +81,7 @@ export function assembler(r, x, no) {
   return {
     cle, region: r, region_nom: nomR, code: `${pre}-${String(no).padStart(2, "0")}`, no, titre: t.titre, sous_titre: t.sous_titre, titre_v1: x.titre_patient, diagnostic: x.nom,
     en_bref: aj.b || [], ce_que_vous_avez: x.ce_que_vous_avez, pourquoi: aj.p || [], ce_qui_aide: x.ce_qui_aide, a_eviter: x.a_eviter_pour_l_instant,
-    soulager, regle_de_douleur: regleUneHeure(x.regle_de_douleur), urgence, medecin, duree_habituelle: x.duree_habituelle,
+    soulager, regle_de_douleur: x.regle_de_douleur, urgence, medecin, duree_habituelle: x.duree_habituelle,
     materiel: materielDe(exercices), exercices, references: x.references || []
   };
 }

@@ -35,7 +35,7 @@
    "Massez la plante du pied en roulant une bouteille d'eau glacée, 10 minutes.",
    "Anti-inflammatoire en crème ou en comprimés au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Douleur vive en serrant les côtés du talon, surtout après une augmentation récente de la course ou de la marche (fracture de fatigue du calcanéus à vérifier).",
    "Claquement soudain sous le pied suivi d'un bleu et d'une difficulté à marcher (déchirure du fascia à vérifier)."
@@ -141,7 +141,7 @@
    "Chaussures larges, à bout rond, sans talon haut.",
    "Glace 10 minutes sur la bosse si elle est enflammée ; anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Peau rouge, chaude, ouverte ou infectée sur la bosse de l'oignon."
   ],
@@ -244,7 +244,7 @@
    "Chaussures larges et profondes ; protecteurs en silicone sur les cors.",
    "Anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Plaie, ulcère, rougeur ou infection sur un orteil (urgent si vous êtes diabétique ou avez une mauvaise circulation).",
    "Orteil qui devient bleu, froid ou très enflé."
@@ -346,7 +346,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Pied qui devient rouge, chaud et enflé : consultez le jour même, et sans attendre si vous êtes diabétique ou avez une perte de sensibilité des pieds, même sans douleur ni fièvre.",
    "Douleur soudaine après une torsion ou une chute, surtout avec un bleu sous la plante du pied (lésion de Lisfranc à écarter)."
@@ -449,7 +449,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Gros orteil soudainement rouge, très chaud, très enflé et douloureux (crise de goutte ou infection à écarter)."
   ],
@@ -550,7 +550,7 @@
    "Coussinet ou semelle sous l'avant du pied.",
    "Glace 10 minutes après la marche ; anti-inflammatoire au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Un orteil qui se met à pointer vers le haut, qui ne touche plus le sol ou qui s'écarte de son voisin (déchirure de la plaque plantaire à vérifier).",
@@ -652,7 +652,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice, sans augmenter la brûlure ni les picotements dans les orteils.",
+  "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, sans augmenter la brûlure ni les picotements dans les orteils.",
   "urgence": [],
   "medecin": [
    "Brûlures ou décharges électriques intenses qui ne passent pas malgré des chaussures larges.",
@@ -754,7 +754,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Incapacité de plier le gros orteil vers le bas, gros orteil instable ou qui se déboîte."
   ],
@@ -852,7 +852,7 @@
    "Coussinet en forme de beigne pour décharger le dessous du gros orteil.",
    "Glace 10 minutes ; anti-inflammatoire au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Douleur osseuse vive et persistante à chaque pas malgré la décharge (fracture du sésamoïde à vérifier par imagerie ; une botte de marche peut être nécessaire).",
@@ -954,7 +954,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Entorses de cheville fréquentes malgré les semelles et les exercices.",
@@ -1057,7 +1057,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
    "Douleur aiguë apparue après une entorse et qui ne passe pas (une botte de marche peut être nécessaire).",
@@ -1160,7 +1160,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin et si elle ne fait pas boiter.",
   "urgence": [
    "Douleur apparue brutalement après une entorse ou incapacité de marcher (fracture de la base du 5ᵉ métatarsien à écarter).",
    "Rougeur, chaleur vive ou fièvre."
@@ -1263,7 +1263,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle ne fait pas boiter.",
   "urgence": [
    "Rougeur, chaleur ou gonflement du talon, ou fièvre.",
    "Douleur apparue brusquement après une chute ou un saut."
@@ -1362,7 +1362,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
    "Douleur extrême qui augmente malgré le repos et les antidouleurs, pied très tendu et dur, douleur vive quand on bouge les orteils ou engourdissement de la plante du pied (syndrome des loges du pied).",
    "Orteil qui devient pâle, bleuâtre ou froid.",

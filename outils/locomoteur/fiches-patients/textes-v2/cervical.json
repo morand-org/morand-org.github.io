@@ -35,7 +35,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Mal de tête ou douleur au cou soudains, très intenses et inhabituels, ou troubles de la vision, de la parole ou de l'équilibre.",
    "Difficulté nouvelle à marcher, perte d'équilibre, maladresse dans les doigts ou troubles pour uriner.",
@@ -150,7 +150,7 @@
    "Automassage doux ou massage, si cela vous soulage.",
    "Acétaminophène ou anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Mal de tête ou douleur au cou soudains et très intenses, ou troubles de la vision, de la parole ou de l'équilibre."
   ],
@@ -268,7 +268,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Étourdissements, troubles de la vision ou de la parole, ou mal de tête soudain et intense, surtout en bougeant le cou.",
    "Perte d'équilibre, maladresse des mains ou troubles pour uriner."
@@ -382,7 +382,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Maladresse nouvelle (échapper des objets, difficulté à boutonner une chemise).",
    "Perte d'équilibre, raideur dans les jambes en marchant ou troubles pour uriner."
@@ -493,7 +493,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Étourdissements persistants, vision double, difficulté à parler ou à avaler, ou mal de tête sévère qui empire.",
    "Faiblesse ou engourdissements dans les deux bras ou dans les jambes, difficulté à marcher ou troubles pour uriner."
@@ -611,7 +611,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez un exercice qui provoque des étourdissements ou qui augmente votre mal de tête pendant plus d'une heure.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez un exercice qui provoque des étourdissements ou qui augmente votre mal de tête pendant plus d'une heure.",
   "urgence": [
    "Mal de tête soudain et très violent (« coup de tonnerre »), ou douleur au cou soudaine et inhabituelle accompagnée d'un mal de tête.",
    "Fièvre avec raideur de nuque ou confusion.",
@@ -726,7 +726,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Choc à la tête avec étourdissements, nausées ou confusion (commotion possible).",
    "Douleur, picotements ou faiblesse dans les deux bras ou dans les jambes, même brièvement."
@@ -837,7 +837,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 au cou est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice, mais arrêtez tout mouvement qui augmente la douleur ou les picotements dans le bras ou la main.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 au cou est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez tout mouvement qui augmente la douleur ou les picotements dans le bras ou la main.",
   "urgence": [
    "Perte d'équilibre en marchant, faiblesse dans les jambes, maladresse des deux mains ou troubles pour uriner.",
    "Perte de force dans le bras ou la main qui apparaît ou s'aggrave (ex. : échapper des objets)."
@@ -953,7 +953,7 @@
    "Glace 15 minutes, dans un linge, sur le cou ou l'épaule, si cela vous soulage.",
    "Acétaminophène au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 au cou est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice, mais arrêtez immédiatement si une sensation électrique ou des picotements reviennent dans le bras.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 au cou est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez immédiatement si une sensation électrique ou des picotements reviennent dans le bras.",
   "urgence": [
    "Symptômes qui ont touché les deux bras ou les jambes, même brièvement.",
    "Douleur au milieu du cou ou perte de mouvement du cou après l'impact."
@@ -1068,7 +1068,7 @@
    "Chaleur 15 à 20 minutes sur le muscle tendu.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Fièvre, frissons, mal de gorge sévère, difficulté à avaler, à ouvrir la bouche ou à respirer.",
    "Torticolis apparu dans les jours suivant la prise d'un nouveau médicament (contre les nausées ou de type antipsychotique), surtout avec des spasmes de la mâchoire, de la langue ou des yeux."
@@ -1179,7 +1179,7 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice, mais arrêtez tout mouvement qui déclenche des picotements ou un changement de couleur dans la main.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez tout mouvement qui déclenche des picotements ou un changement de couleur dans la main.",
   "urgence": [
    "Bras ou main qui devient pâle, bleuâtre, froid ou enflé, ou veines très visibles sur l'épaule ou la poitrine."
   ],
@@ -1292,7 +1292,7 @@
    "Évitez d'appuyer sur la zone sensible (oreiller dur, casque serré).",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice, mais arrêtez tout exercice qui déclenche des décharges électriques vers le sommet du crâne.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez tout exercice qui déclenche des décharges électriques vers le sommet du crâne.",
   "urgence": [
    "Mal de tête brutal et extrêmement fort, ou fièvre avec raideur de nuque.",
    "Troubles de la vision, vertiges sévères, difficulté à parler ou faiblesse d'un côté du corps.",

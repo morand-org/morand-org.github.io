@@ -36,7 +36,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou qui enfle beaucoup, devient chaud ou rouge."
   ],
@@ -144,7 +144,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou soudainement très enflé, rouge et chaud, ou fièvre (urgence)."
   ],
@@ -255,7 +255,7 @@
    "Glace 10 à 15 minutes, dans un linge, si le genou est enflé.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou bloqué (impossible de le tendre complètement) : avis orthopédique rapide."
   ],
@@ -353,7 +353,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou si le genou enfle davantage, réduisez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si le genou enfle davantage, réduisez l'amplitude ou le nombre de répétitions.",
   "urgence": [
    "Gonflement énorme et très douloureux, ou fièvre.",
    "Engourdissements, pied qui tombe, ou mollet douloureux, enflé et chaud (urgence)."
@@ -464,7 +464,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Engourdissements, picotements dans le pied, pied froid ou pâle, ou pied qui tombe après le choc (urgence)."
   ],
@@ -562,7 +562,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Engourdissement sur le dessus du pied ou difficulté à relever le pied ou les orteils (surtout après une blessure du côté extérieur) : urgence."
   ],
@@ -661,7 +661,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Arrêtez immédiatement tout mouvement qui donne l'impression que la rotule va glisser.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Arrêtez immédiatement tout mouvement qui donne l'impression que la rotule va glisser.",
   "urgence": [
    "Nouvelle luxation ou nouvel épisode où la rotule part sur le côté.",
    "Gonflement très important et rapide du genou."
@@ -758,7 +758,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice et si elle n'augmente pas d'une semaine à l'autre. Sinon, réduisez la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Sinon, réduisez la charge.",
   "urgence": [
    "Claquement brutal avec impossibilité de tendre le genou (rupture du tendon : urgence)."
   ],
@@ -858,7 +858,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou enflé, chaud et rouge."
   ],
@@ -954,7 +954,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [],
   "medecin": [
    "Gonflement du genou ou blocage mécanique.",
@@ -1051,7 +1051,7 @@
    "Glace 15 minutes, dans un linge, et un bandage compressif léger pour diminuer l'enflure.",
    "Un anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou si l'enflure augmente, réduisez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si l'enflure augmente, réduisez l'amplitude ou le nombre de répétitions.",
   "urgence": [
    "Le devant du genou devient rouge, très chaud ou très douloureux, ou vous avez de la fièvre (infection possible : urgence).",
    "Plaie ou éraflure qui coule sur la rotule."
@@ -1149,7 +1149,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Rougeur, chaleur vive, gonflement important ou fièvre."
   ],
@@ -1244,7 +1244,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. Au-delà, diminuez l'intensité ou la durée de l'activité.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à la normale le lendemain. Au-delà, diminuez l'intensité ou la durée de l'activité.",
   "urgence": [
    "Douleur soudaine et très forte pendant un saut ou un sprint, avec incapacité de tendre le genou ou de marcher, ou gonflement rapide (arrachement osseux à vérifier d'urgence).",
    "Douleur au repos ou la nuit, ou fièvre."
@@ -1342,7 +1342,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle revient à la normale dans l'heure qui suit l'exercice. Au-delà, diminuez l'intensité ou la durée de l'activité.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à la normale le lendemain. Au-delà, diminuez l'intensité ou la durée de l'activité.",
   "urgence": [
    "Douleur brutale pendant un saut, avec genou enflé et incapacité de lever la jambe tendue (fracture à vérifier d'urgence).",
    "Genou enflé, rouge et chaud, ou fièvre."
@@ -1440,7 +1440,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude ou le nombre de répétitions.",
   "urgence": [
    "Fièvre, ou genou rouge et chaud."
   ],
@@ -1536,7 +1536,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [],
   "medecin": [
    "Blocage véritable du genou.",
@@ -1627,7 +1627,7 @@
    "Glace 10 à 15 minutes, dans un linge, si le genou est enflé après l'activité.",
    "Acétaminophène ou ibuprofène au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou qui se bloque (impossible de tendre complètement la jambe) : avis orthopédique rapide."
   ],
@@ -1720,7 +1720,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à votre niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Douleur soudaine et forte dans le mollet, avec gonflement, rougeur ou chaleur (rupture du kyste ou phlébite : à faire vérifier le jour même)."
   ],
