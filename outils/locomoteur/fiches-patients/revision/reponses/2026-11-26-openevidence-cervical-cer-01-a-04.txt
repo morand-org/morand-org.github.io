@@ -1,0 +1,325 @@
+# Rachis cervical — fiches révisées CER-01 à CER-04
+Convention de révision. Le texte de chaque ligne est le texte proposé. Chaque changement est suivi de : [MODIFIÉ : « ancien texte » → texte ci-contre — raison ; référence]. [VÉRIFIÉ] = énoncé contrôlé et conservé. [À VÉRIFIER] = donnée non confirmée par les sources consultées. Les lignes sans balise sont inchangées.
+=== FICHE CER-01 · [cervical/nonspec] ===
+Titre : Cervicalgie mécaniqueSous-titre : Douleur mécanique au couAncien titre : Douleur mécanique au cou (cervicalgie)Diagnostic correspondant dans MSK Morand : Cervicalgie non spécifique (mécanique, posturale)
+EN BREF
+Votre cou est solide : cette douleur n'est pas le signe d'une lésion grave.
+Bouger doucement et rester actif aide plus que le repos.
+La plupart des personnes vont mieux en quelques semaines. La douleur peut revenir de temps en temps : c'est fréquent. [MODIFIÉ : « La plupart des personnes vont mieux en 2 à 6 semaines. » → texte ci-contre — la récupération est la plus rapide durant les 6 à 12 premières semaines, et de la moitié aux trois quarts des personnes ont un nouvel épisode dans les 1 à 5 ans ; Blanpied et al., J Orthop Sports Phys Ther 2017 ; Carroll et al., Spine 2008 (population générale)]
+CE QUE VOUS AVEZVous avez une douleur courante qui vient des muscles et des articulations du cou. Elle apparaît souvent après une longue position assise, du stress ou un faux mouvement. Ce n'est pas le signe d'une lésion grave : votre cou est solide. Rester actif et bouger doucement est ce qui aide le plus.
+POURQUOI ÇA ARRIVE
+Longues heures dans la même position (écran, voiture).
+Stress, fatigue ou manque de sommeil, qui tendent les muscles.
+Faux mouvement ou effort inhabituel.
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage. [MODIFIÉ : « Chaleur 15 à 20 minutes pour détendre les muscles. » → texte ci-contre — mesure de confort seulement : données insuffisantes sur la chaleur à domicile, durée non étudiée ; Wilfling et al., J Pain Res 2026 ; Côté et al., Eur Spine J 2016]
+Acétaminophène, ou anti-inflammatoire en crème ou en comprimés pendant quelques jours, au besoin, si votre pharmacien ou votre médecin le juge approprié. [MODIFIÉ : « Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié. » → texte ci-contre — aucun essai d'analgésique propre à la cervicalgie récente ; par extrapolation des blessures musculosquelettiques aiguës, l'anti-inflammatoire en crème est le premier choix et l'acétaminophène soulage autant que l'anti-inflammatoire en comprimés ; Qaseem et al., Ann Intern Med 2020 ; Jones et al., Cochrane Database Syst Rev 2020 ; Côté et al., Eur Spine J 2016]
+CE QUI AIDE
+Bouger le cou doucement plusieurs fois par jour.
+Prendre de courtes pauses toutes les 30 à 45 minutes au bureau pour changer de position.
+Rester actif dans vos activités habituelles, comme la marche.
+Appliquer de la chaleur 15 minutes si cela vous soulage (mesure de confort).
+Si la douleur dure plus de quelques semaines, ajouter le renforcement du cou et des épaules (exercices 3 et 4). [MODIFIÉ : (ajout) → texte ci-contre — pour la douleur qui persiste, ce sont les exercices de renforcement du cou, des omoplates et des épaules, combinés à la mobilité, qui sont les mieux appuyés ; Gross et al., Cochrane Database Syst Rev 2015 ; Côté et al., Eur Spine J 2016]
+À ÉVITER POUR L'INSTANT
+Garder le cou figé dans la même position pendant des heures.
+Porter un collet cervical (minerve). [VÉRIFIÉ : le collet n'est pas recommandé ; Côté et al., Eur Spine J 2016 ; Bier et al., Phys Ther 2018]
+Forcer des étirements qui déclenchent une douleur vive.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.[À VÉRIFIER : aucun délai n'est validé pour la cervicalgie mécanique ; « 1 heure » est un choix prudent, sans source publiée. Repères disponibles : retour au niveau de départ en 2 heures après un entraînement en force du cou et des épaules (Andersen et al., Arthritis Rheum 2008, myalgie du trapèze) ; « le lendemain matin », avec une douleur tolérée jusqu'à 5 sur 10, dans le modèle de surveillance de la douleur (Silbernagel et al., Am J Sports Med 2007, tendinopathie d'Achille). Libellé de rechange si l'équipe veut s'aligner sur ces repères : « …si elle se calme dans les 2 heures qui suivent et si elle n'est pas plus forte le lendemain matin. »]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Mal de tête ou douleur au cou soudains, très intenses ou différents de tout ce que vous avez déjà ressenti, ou troubles de la vision, de la parole ou de l'équilibre, ou paupière qui tombe. [MODIFIÉ : « Mal de tête ou douleur au cou soudains, très intenses et inhabituels, ou troubles de la vision, de la parole ou de l'équilibre. » → texte ci-contre — dans la dissection d'une artère du cou, la douleur n'est pas toujours brutale ; elle est surtout inhabituelle, souvent d'un seul côté, et une paupière tombante est présente dans environ 1 cas sur 4 ; Yaghi et al., Stroke 2024]
+Difficulté nouvelle à marcher, perte d'équilibre, maladresse dans les doigts ou troubles pour uriner.
+Douleur apparue après une chute, un accident ou un coup. [VÉRIFIÉ : Règle canadienne pour la colonne cervicale ; Stiell et al., JAMA 2001]
+Fièvre avec douleur au cou. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — la fièvre avec douleur au cou fait rechercher une infection et demande une évaluation rapide ; Theodore, N Engl J Med 2020 ; Côté et al., Eur Spine J 2016]
+Perte de force nouvelle ou qui augmente dans un bras ou une main. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — un déficit moteur nouveau ou qui progresse demande une évaluation rapide, et ce classement est déjà celui de la fiche CER-08 ; Theodore, N Engl J Med 2020]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui descend dans le bras avec engourdissements ou picotements. [MODIFIÉ : « Douleur qui descend dans le bras avec engourdissements ou perte de force dans la main. » → texte ci-contre — la perte de force est déplacée dans « Consultez rapidement »]
+Perte de poids inexpliquée, antécédent de cancer ou douleur intense qui vous réveille la nuit : prenez rendez-vous sans tarder. [MODIFIÉ : « Fièvre, perte de poids inexpliquée, antécédent de cancer ou douleur intense qui vous réveille la nuit. » → texte ci-contre — fièvre déplacée ; ces signes demandent une évaluation rapide plutôt qu'au prochain rendez-vous de routine ; Theodore, N Engl J Med 2020 ; Eldaya et al., J Am Coll Radiol 2025]
+Aucune amélioration après 4 à 6 semaines d'exercices réguliers.
+DURÉE HABITUELLEAmélioration souvent notable en 2 à 6 semaines; la récupération se poursuit surtout durant les 6 à 12 premières semaines. Les rechutes sont fréquentes et se prennent en charge de la même façon. [VÉRIFIÉ : Blanpied et al., J Orthop Sports Phys Ther 2017 ; Carroll et al., Spine 2008]
+PROGRAMME D'EXERCICESMatériel : élastique, serviette, coussin[VÉRIFIÉ : mobilité sans résistance, 5 à 10 répétitions, jusqu'à 6 à 8 fois par jour, incluant le recul du menton, les rotations et le rapprochement des omoplates : les dosages ci-dessous sont à l'intérieur de cette fourchette ; Côté et al., Eur Spine J 2016]
+Exercice 1 : Rentré du menton assis
+Phase : Dès maintenant
+But : Pour redresser la tête et soulager la nuque.
+Départ : Assis le dos droit, les épaules relâchées, le regard droit devant vous.
+Mouvement : Reculez doucement le menton vers l'arrière, comme pour faire un double menton, sans pencher la tête. Tenez 5 secondes, puis relâchez.
+Dosage : 2 séries de 10 répétitions, 2 fois par jour.
+Progression : Augmentez le maintien à 10 secondes quand l'exercice devient facile.
+Plus facile : Faites-le couché sur le dos, la tête sur un oreiller mince.
+Erreur fréquente : Pencher la tête vers le bas ou vers l'arrière au lieu de reculer le menton à l'horizontale.
+Illustration demandée : Dessin au trait d'une personne assise de profil qui recule horizontalement le menton, avec une flèche vers l'arrière.
+Exercice 2 : Rotations douces du cou
+Phase : Dès maintenant
+But : Pour garder le cou souple.
+Départ : Assis ou debout, le dos droit et les épaules basses.
+Mouvement : Tournez lentement la tête pour regarder par-dessus votre épaule droite, revenez au centre, puis tournez vers l'épaule gauche.
+Dosage : 2 séries de 8 répétitions de chaque côté, 2 fois par jour.
+Progression : Allez un peu plus loin dans le mouvement chaque jour, sans forcer.
+Plus facile : Tournez seulement jusqu'au début de la raideur.
+Erreur fréquente : Lever ou tourner les épaules en même temps que la tête.
+Illustration demandée : Dessin au trait d'un buste vu de face avec des flèches courbes montrant la tête qui tourne doucement à gauche puis à droite.
+Exercice 3 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour mieux tenir les épaules et le haut du dos.
+Départ : Assis ou debout, les bras détendus le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et vers le bas, comme pour coincer un crayon entre elles. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Faites le même mouvement en tirant sur un élastique d'exercice léger.
+Plus facile : Tenez 2 à 3 secondes seulement.
+Erreur fréquente : Hausser les épaules vers les oreilles pendant la contraction.
+Illustration demandée : Dessin au trait d'un dos vu de trois quarts avec des flèches montrant les deux omoplates qui se rapprochent vers le centre.
+Exercice 4 : Renforcement des muscles profonds à l'avant du cou (couché)
+Phase : Quand la douleur diminue
+But : Pour renforcer les muscles qui soutiennent le cou.
+Départ : Couché sur le dos, les genoux pliés, la tête posée sur une serviette mince pliée.
+Mouvement : Faites un petit « oui » en rentrant doucement le menton vers la gorge, sans décoller la tête de la serviette. Tenez 5 secondes et relâchez.
+Dosage : 2 séries de 8 répétitions, 1 fois par jour.
+Progression : Tenez jusqu'à 10 secondes et visez 10 répétitions. Ensuite, en gardant le menton rentré, décollez la tête d'à peine un centimètre pendant 5 secondes. [MODIFIÉ : « Tenez jusqu'à 10 secondes. Ensuite, en gardant le menton rentré, décollez la tête d'à peine un centimètre pendant 5 secondes. » → texte ci-contre — le protocole type des essais est de 10 tenues de 10 secondes ; protocole décrit dans Anwar et al., Sci Rep 2025. À noter : cet exercice n'est pas supérieur aux autres exercices actifs ; Garzonio et al., Phys Ther 2022]
+Plus facile : Tenez 3 secondes et faites 5 répétitions.
+Erreur fréquente : Lever la tête trop haut, projeter le menton vers le plafond ou durcir les gros muscles sur les côtés du cou.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos, genoux pliés, tête sur une serviette mince, avec une petite flèche montrant le menton qui rentre vers la gorge.
+RÉFÉRENCES
+Blanpied PR et al., J Orthop Sports Phys Ther, 2017 (PMID: 28666405) [VÉRIFIÉ : « Neck Pain: Revision 2017 » ; auteurs, revue et année exacts. À VÉRIFIER : PMID non affiché par la recherche. Aucune révision plus récente de ce guide n'a été repérée.]
+Gross A et al., Cochrane Database Syst Rev, 2015 (PMID: 25629215) [VÉRIFIÉ : « Exercises for mechanical neck disorders » ; aucune mise à jour repérée. À VÉRIFIER : PMID non affiché par la recherche.]
+[MODIFIÉ : (ajout) → Côté P et al. (OPTIMa Collaboration), « Management of neck pain and associated disorders », Eur Spine J, 2016 — guide canadien (Ontario) qui donne les dosages d'exercices de mobilité et déconseille le collet. PMID 26984876 tel qu'inscrit sur la fiche CER-05 : À VÉRIFIER.]
+[MODIFIÉ : (ajout) → Bussières AE et al., « The Treatment of Neck Pain-Associated Disorders and Whiplash-Associated Disorders: A Clinical Practice Guideline », J Manipulative Physiol Ther, 2016;39(8):523-564 (PMID: 27836071) — guide de pratique canadien.]
+=== FICHE CER-02 · [cervical/myofascial] ===
+Titre : Syndrome myofascial du trapèze supérieurSous-titre : Tensions et nœuds musculaires entre le cou et l'épauleAncien titre : Tensions et nœuds musculaires entre le cou et l'épauleDiagnostic correspondant dans MSK Morand : Syndrome myofascial (trapèze supérieur)
+EN BREF
+Ces nœuds musculaires sont fréquents et sans danger.
+Bouger, s'étirer et faire des pauses détend le muscle.
+Renforcer les épaules aide à éviter les rechutes.
+CE QUE VOUS AVEZVous avez des zones sensibles et tendues dans le grand muscle situé entre le cou et l'épaule, appelé le trapèze. On appelle souvent ces points des nœuds musculaires. Ils sont souvent liés à une surcharge, à des postures prolongées ou au stress. Le renforcement progressif de ce muscle est ce qui aide le plus à long terme; les étirements et l'automassage soulagent surtout à court terme. [VÉRIFIÉ : le renforcement spécifique a réduit la douleur d'environ 79 % en 10 semaines, avec un effet durable ; les étirements seuls changent peu la douleur ; la pression sur les points sensibles soulage à court terme ; Andersen et al., Arthritis Rheum 2008 ; Gross et al., Cochrane Database Syst Rev 2015 ; Cagnie et al., Am J Phys Med Rehabil 2015]
+POURQUOI ÇA ARRIVE
+Postures prolongées, les épaules montées (ordinateur, téléphone).
+Stress et tension, qui font remonter les épaules.
+Surcharge : sac lourd sur une épaule, gestes répétés.
+SOULAGER LA DOULEUR
+Chaleur 15 minutes sur le muscle tendu.
+Automassage doux ou massage, si cela vous soulage.
+Acétaminophène ou anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié.
+CE QUI AIDE
+Bouger les épaules et le cou régulièrement pendant la journée.
+Renforcer progressivement les muscles des épaules et du haut du dos.
+Ajuster la hauteur de votre chaise et de votre écran, et changer souvent de position au travail.
+Mettre de la chaleur 15 minutes sur l'épaule avant les exercices si cela vous soulage.
+À ÉVITER POUR L'INSTANT
+Garder les épaules haussées quand vous êtes stressé ou concentré.
+Appuyer très fort sur les points sensibles au point de créer des bleus.
+Porter un sac lourd sur l'épaule douloureuse.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans les 2 heures qui suivent l'exercice et si elle n'est pas plus forte le lendemain matin. [MODIFIÉ : « …si elle revient à son niveau habituel dans l'heure qui suit l'exercice. » → texte ci-contre — dans l'essai de renforcement pour la myalgie du trapèze, la hausse passagère de douleur après la séance, jugée sans importance clinique, revenait au niveau de départ en 2 heures ; le critère « lendemain matin » vient du modèle de surveillance de la douleur ; Andersen et al., Arthritis Rheum 2008 ; Silbernagel et al., Am J Sports Med 2007]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Mal de tête ou douleur au cou soudains et très intenses, ou troubles de la vision, de la parole ou de l'équilibre.
+Faiblesse nouvelle dans le bras ou la main. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — un déficit moteur nouveau n'est pas expliqué par un syndrome myofascial et demande une évaluation rapide ; même classement que la fiche CER-08 ; Theodore, N Engl J Med 2020]
+Difficulté nouvelle à marcher, maladresse des mains ou troubles pour uriner. [MODIFIÉ : (ajout) → texte ci-contre — signes d'atteinte de la moelle, déjà présents sur les fiches CER-01, CER-03, CER-04 et CER-08 ; Côté et al., Eur Spine J 2016 ; Theodore, N Engl J Med 2020]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui irradie dans le bras avec engourdissements ou fourmillements.
+Maux de tête ou vertiges qui ne passent pas.
+Absence d'amélioration après 4 à 6 semaines.
+DURÉE HABITUELLESoulagement souvent ressenti en 3 à 6 semaines; le renforcement donne son plein effet après environ 10 semaines de pratique régulière. [VÉRIFIÉ pour les 10 semaines : Andersen et al., Arthritis Rheum 2008. À VÉRIFIER : « 3 à 6 semaines » n'a pas de source directe.]
+PROGRAMME D'EXERCICESMatériel : chaise, mur, poids léger ou bouteille d'eau, balle
+Exercice 1 : Cercles d'épaules lents
+Phase : Dès maintenant
+But : Pour détendre les épaules et la nuque.
+Départ : Assis ou debout, les bras détendus le long du corps.
+Mouvement : Faites de grands cercles lents avec vos épaules vers l'arrière et vers le bas, tout en respirant calmement.
+Dosage : 2 séries de 10 cercles, 2 à 3 fois par jour.
+Progression : Augmentez l'amplitude des cercles en gardant le cou détendu.
+Plus facile : Faites de plus petits cercles, plus lentement.
+Erreur fréquente : Faire les cercles trop vite ou crisper le cou.
+Illustration demandée : Dessin au trait d'une personne de face faisant des cercles avec ses épaules vers l'arrière, indiqués par des flèches circulaires.
+Exercice 2 : Étirement doux du trapèze supérieur
+Phase : Dès maintenant
+But : Pour allonger le muscle tendu.
+Départ : Assis sur une chaise, tenez le bord du siège avec la main du côté douloureux.
+Mouvement : Inclinez doucement la tête du côté opposé (oreille vers l'épaule non douloureuse) et un peu vers l'avant, jusqu'à sentir un étirement confortable sur le côté du cou. Tenez 20 à 30 secondes.
+Dosage : 3 répétitions de chaque côté, 2 fois par jour.
+Progression : Posez l'autre main sur la tête sans tirer, juste pour ajouter un léger poids.
+Plus facile : Tenez 15 secondes, sans aider avec la main.
+Erreur fréquente : Laisser l'épaule du côté étiré remonter vers l'oreille.
+Illustration demandée : Dessin au trait d'une personne assise tenant le bord de sa chaise d'une main et penchant doucement la tête du côté opposé.
+Exercice 3 : Automassage doux avec une balle contre un mur
+Phase : Dès maintenant
+But : Pour relâcher les points sensibles.
+Départ : Debout, dos au mur, une balle de tennis placée entre le mur et la partie charnue du muscle, entre la base du cou et l'omoplate (jamais sur la colonne).
+Mouvement : Pliez légèrement les genoux pour faire rouler la balle lentement sur les zones tendues. Sur un point sensible, gardez une pression modérée et tolérable pendant 30 à 60 secondes en respirant calmement, puis relâchez.
+Dosage : 2 à 3 minutes, 1 fois par jour. [À VÉRIFIER : aucun essai sur l'automassage avec une balle n'a été repéré ; les données portent sur la pression appliquée par un thérapeute ; Cagnie et al., Am J Phys Med Rehabil 2015]
+Progression : Appuyez un peu plus contre le mur si la pression reste bien tolérée.
+Plus facile : Utilisez une balle plus molle ou appuyez moins fort.
+Erreur fréquente : Placer la balle sur les os de la colonne ou appuyer au point d'avoir une douleur vive.
+Illustration demandée : Dessin au trait d'une personne debout, dos au mur, une balle placée entre le mur et le muscle situé entre la base du cou et l'omoplate.
+Exercice 4 : Haussement d'épaules contrôlé avec poids léger
+Phase : Quand la douleur diminue
+But : Pour renforcer le muscle et prévenir les rechutes.
+Départ : Debout, le dos droit. Pour commencer, un petit poids de 1 à 2 kg (ou une bouteille d'eau) dans chaque main. [MODIFIÉ : « Debout, le dos droit, un petit poids de 1 à 2 kg (ou une bouteille d'eau) dans chaque main. » → texte ci-contre — 1 à 2 kg est un point de départ, pas la charge efficace ; voir Progression]
+Mouvement : Montez doucement les épaules vers les oreilles en 2 secondes, puis redescendez-les lentement en 3 secondes jusqu'en bas.
+Dosage : 3 séries de 8 à 12 répétitions, 3 fois par semaine, pendant au moins 10 semaines. [MODIFIÉ : « 3 séries de 10 répétitions, 3 fois par semaine. » → texte ci-contre — protocole étudié : 3 séries, charge permettant 8 à 12 répétitions, 3 fois par semaine, 10 semaines ; Andersen et al., Arthritis Rheum 2008]
+Progression : Augmentez le poids petit à petit (0,5 à 1 kg à la fois) dès que les 3 séries sont faciles. Le bon poids est celui qui rend les 2 ou 3 dernières répétitions difficiles, sans douleur vive. Vous pouvez ensuite ajouter des élévations des bras sur les côtés, jusqu'à la hauteur des épaules, avec un poids léger. [MODIFIÉ : « Augmentez graduellement le poids de 0,5 à 1 kg lorsque les 3 séries sont faciles. » → texte ci-contre — dans l'essai, la charge était progressive (de 12 à 8 répétitions maximales) et avait doublé à 10 semaines ; les haussements étudiés se faisaient avec des charges bien plus lourdes que 1 à 2 kg ; l'élévation latérale active le trapèze avec des charges plus légères, et même 2 minutes par jour d'élévations avec élastique ont réduit la douleur ; Andersen et al., Arthritis Rheum 2008 ; Andersen et al., Phys Ther 2008 ; Andersen et al., Pain 2011]
+Plus facile : Faites-le sans poids.
+Erreur fréquente : Laisser tomber les épaules d'un coup ou avancer la tête.
+Illustration demandée : Dessin au trait d'une personne debout tenant de petits haltères le long du corps, avec des flèches verticales aux épaules.
+RÉFÉRENCES
+Andersen LL et al., J Appl Physiol, 2008 (PMID: 18948442) [VÉRIFIÉ : PMID concordant ; titre : « Effect of physical training on function of chronically painful muscles: a randomized controlled trial ».]
+[MODIFIÉ : (ajout) → Andersen LL, Kjaer M, Søgaard K et al., « Effect of two contrasting types of physical exercise on chronic neck muscle pain », Arthritis Rheum (Arthritis Care Res), 2008;59(1):84-91 — c'est l'article qui rapporte l'effet sur la douleur, le protocole de charge et le retour au niveau de départ en 2 heures. PMID : À VÉRIFIER.]
+Cagnie B et al., Am J Phys Med Rehabil, 2015 (PMID: 25768071) [VÉRIFIÉ : PMID concordant.]
+Blanpied PR et al., J Orthop Sports Phys Ther, 2017 (PMID: 28666405) [VÉRIFIÉ : référence exacte. À VÉRIFIER : PMID non affiché par la recherche.]
+=== FICHE CER-03 · [cervical/facettaire] ===
+Titre : Syndrome facettaire cervicalSous-titre : Douleur des petites articulations à l'arrière du couAncien titre : Douleur des petites articulations à l'arrière du couDiagnostic correspondant dans MSK Morand : Syndrome facettaire cervical
+EN BREF
+Les petites articulations du cou sont irritées, pas abîmées.
+Bouger dans les limites du confort aide à les calmer.
+La plupart des épisodes s'améliorent en quelques semaines.
+CE QUE VOUS AVEZVous avez une irritation des petites articulations situées à l'arrière des os du cou, appelées facettes. La douleur est souvent d'un seul côté et augmente quand vous regardez vers le haut ou tournez la tête du côté douloureux. Des mouvements doux et réguliers aident ces articulations à retrouver leur souplesse. [VÉRIFIÉ : exercices ciblés, activité graduée et mobilité sont le premier traitement. À noter : aucun essai de physiothérapie n'a été fait chez des personnes dont la douleur facettaire était confirmée par un bloc ; Hellinga et al., Pain Pract 2025]
+POURQUOI ÇA ARRIVE
+Rester longtemps la tête penchée vers l'avant ou tournée d'un côté.
+Mouvement brusque ou coup de fouet cervical.
+Usure normale du cou avec l'âge.
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage. [MODIFIÉ : « Chaleur 15 à 20 minutes pour détendre les muscles. » → texte ci-contre — mesure de confort seulement ; Wilfling et al., J Pain Res 2026]
+Acétaminophène, ou anti-inflammatoire en crème ou en comprimés pendant quelques jours, au besoin, si votre pharmacien ou votre médecin le juge approprié. [MODIFIÉ : « Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié. » → texte ci-contre — même raison que la fiche CER-01 ; Qaseem et al., Ann Intern Med 2020 ; Jones et al., Cochrane Database Syst Rev 2020]
+CE QUI AIDE
+Faire de petits mouvements du cou fréquents et sans forcer.
+Garder l'écran d'ordinateur à la hauteur des yeux et changer souvent de position.
+Dormir avec un oreiller qui garde le cou aligné avec le dos.
+Appliquer de la chaleur 15 minutes sur la nuque si cela vous soulage.
+À ÉVITER POUR L'INSTANT
+Regarder longtemps vers le plafond (peinturer, travailler au-dessus de la tête).
+Dormir sur le ventre avec la tête tournée d'un côté.
+Craquer votre cou brusquement avec vos mains.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.[À VÉRIFIER : aucun délai validé pour ce diagnostic ; voir la note de la fiche CER-01 (repères : 2 heures, Andersen et al., Arthritis Rheum 2008 ; lendemain matin, Silbernagel et al., Am J Sports Med 2007).]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Étourdissements, troubles de la vision ou de la parole, ou mal de tête soudain et intense, surtout en bougeant le cou.
+Perte d'équilibre, maladresse des mains ou troubles pour uriner.
+Douleur apparue après une chute, un accident ou un coup. [MODIFIÉ : (ajout) → texte ci-contre — la fiche nomme le coup de fouet parmi les causes ; après un traumatisme, une fracture doit d'abord être écartée ; même signe que sur la fiche CER-01 ; Stiell et al., JAMA 2001]
+Perte de force nouvelle ou qui augmente dans un bras. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — déficit moteur nouveau ou qui progresse ; même classement que la fiche CER-08 ; Theodore, N Engl J Med 2020]
+Fièvre avec douleur au cou. [MODIFIÉ : (ajout) → texte ci-contre — recherche d'une infection ; Theodore, N Engl J Med 2020 ; Côté et al., Eur Spine J 2016]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur vive qui descend dans le bras ou jusqu'aux doigts.
+Engourdissements ou picotements dans un bras. [MODIFIÉ : « Engourdissements, picotements ou perte de force dans un bras. » → texte ci-contre — la perte de force est déplacée dans « Consultez rapidement »]
+Douleur qui ne diminue pas après 4 à 6 semaines.
+DURÉE HABITUELLEAmélioration souvent notable en quelques semaines ; la récupération se poursuit surtout durant les 6 à 12 premières semaines. [MODIFIÉ : « Amélioration habituelle en 3 à 6 semaines. » → texte ci-contre — aucune donnée d'évolution propre au syndrome facettaire n'a été repérée ; le libellé est aligné sur la cervicalgie mécanique. À VÉRIFIER ; Blanpied et al., J Orthop Sports Phys Ther 2017]
+PROGRAMME D'EXERCICESMatériel : élastique, serviette, chaise, coussin
+Exercice 1 : Rentré du menton assis
+Phase : Dès maintenant
+But : Pour redresser la tête et ouvrir l'arrière du cou.
+Départ : Assis droit sur une chaise, le regard à l'horizontale.
+Mouvement : Reculez doucement le menton vers l'arrière pour allonger la nuque, comme pour faire un double menton. Tenez 5 secondes et relâchez.
+Dosage : 2 séries de 10 répétitions, 2 à 3 fois par jour.
+Progression : Ajoutez une légère flexion du haut du cou en regardant un peu vers le bas si cela soulage.
+Plus facile : Faites-le couché sur le dos, la tête sur un oreiller mince.
+Erreur fréquente : Basculer la tête vers l'arrière en regardant le plafond.
+Illustration demandée : Dessin au trait d'une personne assise de profil effectuant un recul horizontal du menton.
+Exercice 2 : Inclinaisons latérales douces
+Phase : Dès maintenant
+But : Pour garder le cou souple sans irriter les articulations.
+Départ : Assis droit, les épaules relâchées.
+Mouvement : Penchez doucement une oreille vers l'épaule, revenez au centre, puis penchez de l'autre côté. Restez dans une zone confortable.
+Dosage : 2 séries de 8 répétitions de chaque côté, 2 fois par jour.
+Progression : Augmentez doucement l'amplitude à mesure que la raideur diminue.
+Plus facile : Faites un plus petit mouvement, lentement.
+Erreur fréquente : Forcer du côté qui pince ou monter l'épaule vers l'oreille.
+Illustration demandée : Dessin au trait d'un buste vu de face avec des flèches montrant la tête qui s'incline doucement à gauche puis à droite.
+Exercice 3 : Extension du haut du dos sur dossier de chaise
+Phase : Quand la douleur diminue
+But : Pour assouplir le haut du dos et soulager le cou.
+Départ : Assis sur une chaise à dossier moyen, les mains croisées derrière la nuque pour soutenir la tête.
+Mouvement : Penchez doucement le haut du dos vers l'arrière par-dessus le dossier, sans laisser tomber la tête. Revenez droit.
+Dosage : 2 séries de 8 répétitions, 2 fois par jour.
+Progression : Placez une serviette roulée entre le dossier et le haut du dos pour cibler la zone raide.
+Plus facile : Croisez les bras sur la poitrine et faites un plus petit mouvement.
+Erreur fréquente : Cambrer le bas du dos ou forcer la nuque vers l'arrière.
+Illustration demandée : Dessin au trait d'une personne assise de profil qui soutient sa nuque avec ses mains et ouvre le haut du dos par-dessus le dossier.
+Exercice 4 : Ouverture des épaules avec élastique (rotation vers l'extérieur)
+Phase : Quand la douleur diminue
+But : Pour renforcer le haut du dos et améliorer la posture.
+Départ : Debout, tenez un élastique léger devant vous à deux mains, coudes pliés à 90 degrés et collés au corps.
+Mouvement : Écartez les mains vers l'extérieur en gardant les coudes au corps et en serrant doucement les omoplates, puis revenez lentement.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Utilisez un élastique légèrement plus résistant après 2 semaines.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Avancer le menton, hausser les épaules ou décoller les coudes du corps.
+Illustration demandée : Dessin au trait d'une personne debout écartant un élastique devant elle, les coudes collés aux côtes.
+RÉFÉRENCES
+Blanpied PR et al., J Orthop Sports Phys Ther, 2017 (PMID: 28666405) [VÉRIFIÉ : référence exacte. À VÉRIFIER : PMID non affiché par la recherche.]
+Bier JD et al., Phys Ther, 2018 (PMID: 29228289) [VÉRIFIÉ : PMID concordant ; Phys Ther 2018;98(3):162-171.]
+[MODIFIÉ : (ajout) → Hellinga MD et al., « 7. Cervical Facet Pain: Degenerative Alterations and Whiplash-Associated Disorder », Pain Pract, 2025 — revue plus récente et propre au diagnostic. PMID : À VÉRIFIER.]
+=== FICHE CER-04 · [cervical/arthrose] ===
+Titre : Arthrose cervicale (discopathie dégénérative)Sous-titre : Usure normale du couAncien titre : Usure normale du cou (arthrose cervicale)Diagnostic correspondant dans MSK Morand : Arthrose cervicale ou discopathie dégénérative
+EN BREF
+L'usure du cou est normale avec l'âge et n'explique pas toujours la douleur.
+Bouger et renforcer le cou diminue la douleur et la raideur.
+Signalez tout engourdissement, toute maladresse ou toute perte d'équilibre.
+CE QUE VOUS AVEZVos radiographies ou votre examen montrent une usure naturelle des disques et des articulations du cou. C'est très fréquent avec l'âge, un peu comme les cheveux gris, et ce n'est pas toujours la cause de la douleur. Bouger et renforcer votre cou garde les articulations souples et diminue les raideurs. [VÉRIFIÉ : chez 1 211 personnes sans symptômes, près de 9 sur 10 avaient un bombement discal à l'imagerie, y compris environ 3 sur 4 dans la vingtaine ; Nakashima et al., Spine 2015]
+POURQUOI ÇA ARRIVE
+Vieillissement normal des disques et des articulations.
+Anciennes blessures du cou.
+Travail ou postures qui chargent le cou pendant des années. [À VÉRIFIER : énoncé plausible mais non contrôlé dans les sources consultées.]
+SOULAGER LA DOULEUR
+Chaleur 15 minutes pour la raideur, si cela vous soulage. [MODIFIÉ : « Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée. » → texte ci-contre — les articulations du cou n'enflent pas de façon visible : cette consigne vient des fiches d'arthrose des membres ; la chaleur et le froid restent des mesures de confort ; Wong et al., Spine J 2016 ; Wilfling et al., J Pain Res 2026]
+Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Bouger le cou doucement chaque matin pour chasser la raideur.
+Renforcer les muscles du cou et du haut du dos pour mieux soutenir la tête.
+Faire de la marche ou une autre activité physique régulière.
+Appliquer de la chaleur 15 minutes quand le cou est raide, si cela vous soulage.
+À ÉVITER POUR L'INSTANT
+Rester immobile de peur d'user votre cou davantage : le mouvement n'abîme pas les articulations.
+Faire des mouvements rapides ou saccadés de la tête.
+Porter des charges très lourdes sur la tête ou les épaules.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.[À VÉRIFIER : aucun délai validé pour ce diagnostic ; voir la note de la fiche CER-01.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Maladresse nouvelle (échapper des objets, difficulté à boutonner une chemise).
+Perte d'équilibre, raideur dans les jambes en marchant ou troubles pour uriner.
+Engourdissements dans les deux mains, ou décharge électrique dans le dos ou les jambes quand vous penchez la tête. [MODIFIÉ : (ajout) → texte ci-contre — autres signes d'atteinte de la moelle par l'arthrose cervicale ; Badhiwala et al., Nat Rev Neurol 2020 ; Kane et al., Am Fam Physician 2020]
+Perte de force nouvelle ou qui augmente dans un bras ou une main. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — déficit moteur nouveau ou qui progresse ; Theodore, N Engl J Med 2020]
+Fièvre avec douleur au cou. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — recherche d'une infection ; Theodore, N Engl J Med 2020]
+REVOYEZ VOTRE MÉDECIN SI
+Engourdissements ou picotements dans un bras ou une main. [MODIFIÉ : « Engourdissements ou perte de force dans les bras ou les mains. » → texte ci-contre — la perte de force et l'atteinte des deux mains sont déplacées dans « Consultez rapidement »]
+Perte de poids inexpliquée, antécédent de cancer ou douleur intense la nuit : prenez rendez-vous sans tarder. [MODIFIÉ : « Fièvre, perte de poids inexpliquée ou douleur intense la nuit. » → texte ci-contre — fièvre déplacée ; antécédent de cancer ajouté ; évaluation rapide ; Theodore, N Engl J Med 2020 ; Eldaya et al., J Am Coll Radiol 2025]
+Douleur qui s'aggrave malgré 6 semaines d'exercices doux.
+DURÉE HABITUELLEAmélioration progressive en 4 à 8 semaines. L'usure visible à la radiographie ne disparaît pas, mais la douleur et la raideur peuvent nettement diminuer. [À VÉRIFIER : « 4 à 8 semaines » n'a pas de source directe. L'exercice est l'intervention dont l'effet regroupé est le plus grand dans l'atteinte dégénérative du cou, avec une certitude faible ; Prabhu et al., BMC Musculoskelet Disord 2026]
+PROGRAMME D'EXERCICESMatériel : élastique, mur
+Exercice 1 : Mobilité matinale douce (oui et non)
+Phase : Dès maintenant
+But : Pour dégourdir le cou le matin.
+Départ : Assis confortablement, le dos appuyé et les épaules relâchées.
+Mouvement : Faites de petits mouvements lents pour dire « oui » (hocher la tête), puis de petits mouvements pour dire « non » (tourner à gauche et à droite), sans forcer.
+Dosage : 10 répétitions de chaque mouvement, chaque matin.
+Progression : Augmentez doucement l'amplitude à mesure que la raideur matinale diminue.
+Plus facile : Faites de plus petits mouvements, assis bien appuyé.
+Erreur fréquente : Aller trop vite ou forcer jusqu'à une douleur aiguë.
+Illustration demandée : Dessin au trait d'une tête vue de face et de profil avec de petites flèches douces de hochement et de rotation.
+Exercice 2 : Rentré du menton assis
+Phase : Dès maintenant
+But : Pour mieux aligner la tête sur les épaules.
+Départ : Assis droit, le regard devant vous.
+Mouvement : Glissez le menton vers l'arrière pour aligner les oreilles au-dessus des épaules. Tenez 5 secondes et relâchez.
+Dosage : 2 séries de 10 répétitions, 2 fois par jour.
+Progression : Maintenez la position 10 secondes, ou faites l'exercice debout, dos au mur.
+Plus facile : Faites-le couché sur le dos.
+Erreur fréquente : Bloquer sa respiration pendant le maintien.
+Illustration demandée : Dessin au trait d'une personne assise de profil qui glisse le menton vers l'arrière, les oreilles alignées au-dessus des épaules.
+Exercice 3 : Renforcement statique doux avec la main
+Phase : Quand la douleur diminue
+But : Pour renforcer le cou sans le bouger.
+Départ : Assis droit, posez la paume de votre main droite sur votre tempe droite.
+Mouvement : Poussez doucement la tête contre votre main sans laisser la tête bouger (force légère, environ 20 % de votre force). Tenez 5 secondes, puis faites l'autre côté. [À VÉRIFIER : aucun essai n'appuie précisément « 20 % » ; c'est un point de départ prudent. Les programmes de force étudiés dans la cervicalgie chronique utilisaient des charges beaucoup plus élevées ; Ylinen et al., JAMA 2003]
+Dosage : 5 répétitions de chaque côté, puis 5 avec la main sur le front, 1 fois par jour.
+Progression : Augmentez le maintien à 8 ou 10 secondes avec une poussée modérée.
+Plus facile : Poussez plus doucement, 3 secondes.
+Erreur fréquente : Pousser trop fort, serrer les dents ou bloquer sa respiration.
+Illustration demandée : Dessin au trait d'une personne assise appuyant doucement sa paume contre le côté de sa tête, avec deux flèches opposées.
+Exercice 4 : Tirage des omoplates avec élastique
+Phase : Quand la douleur diminue
+But : Pour renforcer le haut du dos.
+Départ : Debout, un élastique attaché solidement devant vous à la hauteur du nombril, tenu à deux mains.
+Mouvement : Tirez les coudes vers l'arrière en rapprochant les omoplates, puis revenez lentement.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Passez à un élastique un peu plus fort quand les 3 séries sont faciles.
+Plus facile : Faites-le sans élastique, en serrant les omoplates.
+Erreur fréquente : Avancer la tête ou hausser les épaules.
+Illustration demandée : Dessin au trait d'une personne debout tirant les deux bouts d'un élastique fixé devant elle, les coudes près du corps.
+RÉFÉRENCES
+Blanpied PR et al., J Orthop Sports Phys Ther, 2017 (PMID: 28666405) [VÉRIFIÉ : référence exacte. À VÉRIFIER : PMID non affiché par la recherche.]
+Gross A et al., Cochrane Database Syst Rev, 2015 (PMID: 25629215) [VÉRIFIÉ : référence exacte ; aucune mise à jour repérée. À VÉRIFIER : PMID non affiché par la recherche.]
+[MODIFIÉ : (ajout) → Nakashima H et al., « Abnormal findings on magnetic resonance images of the cervical spines in 1211 asymptomatic subjects », Spine, 2015 — appuie l'énoncé « l'usure n'explique pas toujours la douleur ». PMID : À VÉRIFIER.]
+[MODIFIÉ : (ajout) → Theodore N, « Degenerative Cervical Spondylosis », N Engl J Med, 2020 — revue récente, incluant les signes qui demandent une évaluation rapide. PMID : À VÉRIFIER.]

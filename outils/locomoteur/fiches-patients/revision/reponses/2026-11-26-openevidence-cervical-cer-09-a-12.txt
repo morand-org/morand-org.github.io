@@ -1,0 +1,316 @@
+# Rachis cervical — fiches révisées CER-09 à CER-12
+Convention de révision. Le texte de chaque ligne est le texte proposé. Chaque changement est suivi de : [MODIFIÉ : « ancien texte » → texte ci-contre — raison ; référence]. [VÉRIFIÉ] = énoncé contrôlé et conservé. [À VÉRIFIER] = donnée non confirmée par les sources consultées. Les lignes sans balise sont inchangées.
+=== FICHE CER-09 · [cervical/stinger] ===
+Titre : Neurapraxie du plexus brachial (stinger)Sous-titre : Décharge électrique dans un bras après un impactAncien titre : Décharge électrique dans un bras après un impact (stinger)Diagnostic correspondant dans MSK Morand : Stinger ou burner (neurapraxie transitoire d'une racine cervicale ou du plexus brachial)
+EN BREF
+Le nerf a été étiré ou pincé brièvement ; les symptômes disparaissent le plus souvent vite.
+Pas de retour au jeu tant qu'il reste de la douleur, de la faiblesse ou des picotements.
+Des symptômes dans les deux bras ou dans les jambes demandent une évaluation urgente.
+CE QUE VOUS AVEZUn choc sur l'épaule ou le cou a étiré ou comprimé brièvement les nerfs qui vont vers votre bras. Cela donne une sensation de brûlure ou de décharge électrique dans un seul bras, qui disparaît le plus souvent en quelques secondes à quelques minutes. Une fois tous les symptômes disparus, renforcer le cou et les épaules et revoir votre technique peut aider à réduire le risque de récidive. [VÉRIFIÉ pour la description. À VÉRIFIER pour la prévention : aucun protocole de réadaptation reconnu n'existe et les données se limitent à des rapports de cas ; Armstrong et al., PLoS One 2023]
+POURQUOI ÇA ARRIVE
+Choc qui abaisse l'épaule et pousse la tête de l'autre côté.
+Muscles du cou et des épaules peu renforcés. [À VÉRIFIER : facteur plausible, non démontré dans les sources consultées.]
+SOULAGER LA DOULEUR
+Glace 15 minutes, dans un linge, sur le cou ou l'épaule, si cela vous soulage.
+Acétaminophène au besoin, si votre pharmacien le juge approprié.
+CE QUI AIDE
+Attendre que la douleur, les picotements et la faiblesse aient complètement disparu avant de commencer les exercices.
+Obtenir le feu vert d'un professionnel de la santé avant tout retour au jeu.
+Renforcer les muscles du cou et des épaules une fois le bras redevenu normal.
+Revoir votre technique de plaquage ou de contact (tête relevée) avec votre entraîneur et porter un équipement bien ajusté; l'utilité des collets de protection n'est pas démontrée. [VÉRIFIÉ : données limitées et contradictoires sur les collets ; Bowles et al., Curr Rev Musculoskelet Med 2020 ; Dutton et al., Muscle Nerve 2024]
+À ÉVITER POUR L'INSTANT
+Retourner au jeu s'il reste la moindre faiblesse, douleur au cou ou perte de mouvement.
+Retourner au jeu le jour même si les symptômes ont duré plus de quelques minutes. [MODIFIÉ : (ajout) → texte ci-contre — le retour le jour même n'est envisagé que si tout disparaît en 5 minutes environ, avec force et mouvements complets, sans douleur au cou, après examen sur place ; Dutton et al., Muscle Nerve 2024 ; Usman, Am Fam Physician 2022]
+Commencer ces exercices si vous avez eu des symptômes dans les DEUX bras ou dans les jambes : consultez d'abord en urgence.
+Frapper avec le sommet du casque ou la tête baissée.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 au cou est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice, mais arrêtez immédiatement si une sensation électrique ou des picotements reviennent dans le bras.[À VÉRIFIER : aucune source ne traite des critères de douleur à l'exercice après un stinger ; critère prudent conservé. La consigne d'arrêt en cas de symptômes au bras est appropriée.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Symptômes qui ont touché les deux bras ou les jambes, même brièvement. [VÉRIFIÉ : possible atteinte passagère de la moelle : immobilisation et transport à l'urgence ; Usman, Am Fam Physician 2022 ; Torg et al., J Bone Joint Surg Am 1986]
+Douleur au milieu du cou ou perte de mouvement du cou après l'impact. [VÉRIFIÉ : Dutton et al., Muscle Nerve 2024]
+REVOYEZ VOTRE MÉDECIN SI
+Faiblesse, engourdissement ou picotements qui durent plus de 24 heures : évaluation médicale avant tout retour au sport. [MODIFIÉ : « Faiblesse, engourdissement ou picotements qui durent plus de 24 heures. » → texte ci-contre — précision : au-delà de 24 heures, le retrait du jeu et un bilan sont requis ; Dutton et al., Muscle Nerve 2024]
+Deuxième épisode dans la même saison, ou troisième épisode au total : évaluation médicale (avec examens) avant tout retour au sport. [VÉRIFIÉ : seuils concordants avec l'algorithme le plus récent ; d'autres auteurs fixent le seuil à 3 épisodes ; Dutton et al., Muscle Nerve 2024 ; Bowles et al., Curr Rev Musculoskelet Med 2020]
+DURÉE HABITUELLELe plus souvent quelques secondes à quelques minutes; parfois quelques heures à quelques jours (une faiblesse peut mettre 5 à 6 jours à disparaître); rarement plus de 2 semaines. Le retour au sport exige la disparition complète des symptômes, une force et une mobilité normales, et un examen médical normal. [VÉRIFIÉ : environ 85 % des athlètes ne manquent ni entraînement ni match ; une faiblesse survient dans près du tiers des cas et peut durer 5 à 6 jours ; au rugby, 6 % ont des symptômes au-delà de 2 semaines ; Bowles et al., Curr Rev Musculoskelet Med 2020 ; Armstrong et al., PLoS One 2023]
+PROGRAMME D'EXERCICESMatériel : mur, poids léger ou bouteille d'eau[À VÉRIFIER : programme fondé sur l'avis d'experts ; aucun essai ni protocole reconnu ; Armstrong et al., PLoS One 2023]
+Exercice 1 : Mobilité complète du cou sans douleur
+Phase : Quand tous les symptômes au bras ont disparu [MODIFIÉ : « Quand la douleur diminue » → texte ci-contre — l'étiquette contredisait la consigne de la fiche (commencer seulement après la disparition complète des symptômes) ; Dutton et al., Muscle Nerve 2024]
+But : Pour vérifier que le cou bouge librement, sans douleur.
+Départ : Assis ou debout, les épaules détendues.
+Mouvement : Bougez lentement la tête vers l'avant, vers l'arrière, de chaque côté et en rotation, seulement après la disparition complète des symptômes au bras.
+Dosage : 8 répétitions dans chaque direction, 2 fois par jour.
+Progression : Passez aux exercices de renforcement quand tous les mouvements sont complets et sans douleur.
+Plus facile : Bougez dans une seule direction à la fois, lentement.
+Erreur fréquente : Forcer une inclinaison qui réveille une sensation dans le bras.
+Illustration demandée : Dessin au trait d'un athlète debout vérifiant doucement la rotation et l'inclinaison de son cou.
+Exercice 2 : Renforcement statique du cou dans les 4 directions
+Phase : Quand tous les symptômes au bras ont disparu [MODIFIÉ : « Quand la douleur diminue » → texte ci-contre — même raison que l'exercice 1]
+But : Pour renforcer le cou.
+Départ : Debout, dos droit, la main placée sur le front, puis sur l'arrière de la tête, puis sur chaque tempe.
+Mouvement : Poussez la tête contre votre main sans bouger pendant 5 à 8 secondes, avec une force modérée et contrôlée.
+Dosage : 5 répétitions dans chacune des 4 directions, 1 fois par jour.
+Progression : Augmentez graduellement la force de poussée jusqu'à environ 70 %, sans déclencher de symptômes.
+Plus facile : Poussez plus doucement, 3 secondes.
+Erreur fréquente : Bloquer sa respiration ou hausser les épaules.
+Illustration demandée : Dessin au trait d'un athlète appuyant sa main contre sa tempe pour résister à la poussée latérale du cou.
+Exercice 3 : Renforcement des trapèzes et des omoplates
+Phase : Pour progresser
+But : Pour renforcer les épaules, qui protègent le cou.
+Départ : Debout, un poids léger de 2 à 3 kg dans chaque main, bras le long du corps.
+Mouvement : Montez les épaules vers les oreilles tout en tirant légèrement les omoplates vers l'arrière, tenez 2 secondes, puis redescendez en 3 secondes.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Augmentez la charge progressivement si l'épaule et le bras ont retrouvé toute leur force.
+Plus facile : Faites-le sans poids.
+Erreur fréquente : Avancer la tête pendant le mouvement.
+Illustration demandée : Dessin au trait d'un athlète debout tenant des haltères et soulevant les épaules de façon contrôlée.
+Exercice 4 : Pompes contre un mur avec poussée des omoplates
+Phase : Pour progresser
+But : Pour renforcer les épaules et les omoplates.
+Départ : Debout face à un mur, mains posées à la hauteur des épaules.
+Mouvement : Pliez les coudes pour approcher la poitrine du mur, puis repoussez jusqu'à tendre les bras et poussez un peu plus loin pour arrondir légèrement le haut du dos.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Passez à des pompes sur un comptoir, puis au sol sur les genoux ou les pieds.
+Plus facile : Rapprochez les pieds du mur.
+Erreur fréquente : Laisser la tête tomber vers l'avant ou creuser le bas du dos.
+Illustration demandée : Dessin au trait d'un athlète faisant des pompes contre un mur en gardant le cou aligné avec le tronc.
+RÉFÉRENCES
+Ahearn BM, Starr HM, Seiler JG, J Am Acad Orthop Surg, 2019 (PMID: 30741724) [VÉRIFIÉ : « Traumatic Brachial Plexopathy in Athletes: Current Concepts for Diagnosis and Management of Stingers » ; référence exacte. À VÉRIFIER : PMID non affiché par la recherche.]
+Standaert CJ & Herring SA, Arch Phys Med Rehabil, 2009 (PMID: 19254603) [VÉRIFIÉ : PMID concordant ; Arch Phys Med Rehabil 2009;90(3):402-406.]
+Bowles DR et al., Curr Rev Musculoskelet Med, 2020 (identifiant à compléter (PubMed)) [VÉRIFIÉ : Bowles DR, Canseco JA, Alexander TD et al., « The Prevalence and Management of Stingers in College and Professional Collision Athletes », Curr Rev Musculoskelet Med, décembre 2020. À VÉRIFIER : PMID et DOI non obtenus.]
+[MODIFIÉ : (ajout, plus récent) → Dutton RA, Norbury J, Colorado B, « Sports-related peripheral nerve injuries of the upper limb », Muscle Nerve, 2024 — contient l'algorithme le plus récent (5 minutes, 24 heures, 2e épisode dans la saison, 3e au total). PMID : À VÉRIFIER.]
+=== FICHE CER-10 · [cervical/torticolis] ===
+Titre : Torticolis aiguSous-titre : Cou bloqué d'un côtéAncien titre : Cou bloqué d'un côté (torticolis aigu)Diagnostic correspondant dans MSK Morand : Torticolis aigu acquis (adulte)
+EN BREF
+C'est très douloureux, mais habituellement sans gravité.
+De tout petits mouvements doux et la chaleur aident à débloquer le cou.
+Le cou se débloque habituellement en quelques jours.
+CE QUE VOUS AVEZUn spasme musculaire soudain bloque votre cou dans une position penchée ou tournée, souvent au réveil. C'est très douloureux, mais ce n'est généralement pas grave. De tout petits mouvements doux, et la chaleur si elle vous soulage, aident le muscle à se détendre en quelques jours. Cette fiche s'adresse aux adultes : chez un enfant, un torticolis doit être vu par un médecin. [MODIFIÉ : (ajout de la dernière phrase) → texte ci-contre — les causes à ne pas manquer (déplacement des premières vertèbres après une infection ou une opération de la gorge, du nez ou des oreilles) touchent surtout l'enfant ; Heck et al., Int J Pediatr Otorhinolaryngol 2025 ; Ben Zvi et Thompson, Eur J Pediatr 2022]
+POURQUOI ÇA ARRIVE
+Spasme d'un muscle du cou, souvent au réveil.
+Mauvaise position pendant le sommeil ou faux mouvement.
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes sur le muscle tendu, si cela vous soulage. [MODIFIÉ : « Chaleur 15 à 20 minutes sur le muscle tendu. » → texte ci-contre — mesure de confort seulement ; Wilfling et al., J Pain Res 2026]
+Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Bouger le cou par tout petits mouvements lents dans la direction qui ne fait pas mal.
+Appliquer une bouillotte ou une serviette chaude 15 minutes toutes les 2 à 3 heures si cela vous soulage.
+Soutenir votre cou avec un oreiller confortable quand vous vous reposez.
+Prendre les médicaments contre la douleur conseillés par votre médecin ou votre pharmacien.
+À ÉVITER POUR L'INSTANT
+Forcer votre tête à revenir droite d'un coup sec.
+Faire étirer ou craquer votre cou par quelqu'un.
+Porter un collet cervical (minerve). [VÉRIFIÉ pour le torticolis musculaire simple ; Côté et al., Eur Spine J 2016]
+Conduire une voiture tant que vous ne pouvez pas tourner la tête pour vérifier vos angles morts.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice.[À VÉRIFIER : aucune source ne traite des critères de douleur à l'exercice dans le torticolis aigu ; critère prudent conservé pour un problème aigu.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Fièvre, frissons, mal de gorge sévère, difficulté à avaler, à ouvrir la bouche ou à respirer. [VÉRIFIÉ : signes d'abcès profond du cou, qui peut être pris à tort pour une entorse chez l'adulte ; Harkani et al., ScientificWorldJournal 2011 ; Giordano et Pernice, N Engl J Med 2022]
+Torticolis apparu dans les jours suivant la prise d'un nouveau médicament (contre les nausées ou de type antipsychotique), surtout avec des spasmes de la mâchoire, de la langue ou des yeux. [VÉRIFIÉ : 95 % des dystonies aiguës surviennent dans les 4 jours suivant le début ou l'augmentation du médicament ; Loonen et Ivanova, J Psychopharmacol 2021 ; Factor et al., Lancet Neurol 2019]
+Torticolis apparu après une chute, un accident ou un coup. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — après un traumatisme, un cou bloqué en rotation peut cacher une fracture ou un déplacement des premières vertèbres, et l'incapacité de tourner la tête est un critère d'imagerie ; Stiell et al., JAMA 2001 ; Ben Zvi et Thompson, Eur J Pediatr 2022]
+Torticolis apparu après une infection ou une opération de la gorge, du nez ou des oreilles. [MODIFIÉ : déplacé de « Revoyez votre médecin si » → « Consultez rapidement » — un torticolis douloureux dans ce contexte doit être traité comme un déplacement des premières vertèbres jusqu'à preuve du contraire ; le retard de diagnostic moyen est de 33 jours et peut laisser une déformation permanente ; Heck et al., Int J Pediatr Otorhinolaryngol 2025 ; K P et Cherian, Neurology 2022]
+Perte de force dans un bras, ou mal de tête soudain avec troubles de la vision, de la parole ou de l'équilibre. [MODIFIÉ : « perte de force » déplacée de « Revoyez votre médecin si » → « Consultez rapidement », avec ajout des signes de dissection — déficit moteur nouveau ; une douleur au cou est présente dans environ la moitié des dissections d'une artère du cou ; Yaghi et al., Stroke 2024 ; Theodore, N Engl J Med 2020]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui descend dans un bras ou engourdissements. [MODIFIÉ : « Douleur qui descend dans un bras, engourdissements ou perte de force. » → texte ci-contre — la perte de force est déplacée dans « Consultez rapidement »]
+Blocage qui ne s'améliore pas du tout après 5 à 7 jours.
+DURÉE HABITUELLEAmélioration nette en 3 à 7 jours dans la majorité des cas. [À VÉRIFIER : aucune donnée d'évolution chez l'adulte n'a été repérée ; les sources disent seulement que le torticolis mécanique « récupère rapidement » ; Dressler et al., J Neural Transm 2024]
+PROGRAMME D'EXERCICESMatériel : coussin
+Exercice 1 : Respiration calme avec relâchement des épaules
+Phase : Dès maintenant
+But : Pour détendre les muscles du cou.
+Départ : Couché sur le dos avec un oreiller qui soutient confortablement la tête dans sa position actuelle.
+Mouvement : Inspirez doucement par le nez, puis expirez lentement par la bouche en laissant vos épaules et votre nuque s'enfoncer dans l'oreiller.
+Dosage : 5 minutes, 3 à 4 fois par jour.
+Progression : Réduisez la hauteur de l'oreiller à mesure que le cou se redresse.
+Plus facile : Faites-le couché, la tête bien appuyée.
+Erreur fréquente : Forcer la tête à plat sur le matelas alors que le muscle est encore crispé.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos, la tête bien soutenue par un oreiller, respirant calmement.
+Exercice 2 : Micro-mouvements dans le sens confortable
+Phase : Dès maintenant
+But : Pour débloquer le cou en douceur.
+Départ : Assis confortablement, dos appuyé.
+Mouvement : Tournez très doucement la tête d'environ un centimètre vers le côté libre, puis revenez lentement vers le centre, sans aller dans la douleur vive.
+Dosage : 10 petits mouvements lents toutes les 2 heures. [VÉRIFIÉ : dans la fourchette des exercices de mobilité sans résistance (5 à 10 répétitions, jusqu'à 6 à 8 fois par jour) ; Côté et al., Eur Spine J 2016]
+Progression : Gagnez un peu de mouvement vers le côté bloqué à chaque séance.
+Plus facile : Faites-les couché sur le dos.
+Erreur fréquente : Insister dans le sens qui bloque et déclencher un spasme.
+Illustration demandée : Dessin au trait d'une tête vue de face avec de très courtes flèches douces d'un côté, puis vers le centre.
+Exercice 3 : Haussements et abaissements doux des épaules
+Phase : Dès maintenant
+But : Pour relâcher les épaules.
+Départ : Assis ou debout, les bras pendants.
+Mouvement : Montez très doucement les deux épaules d'environ un centimètre, tenez 2 secondes, puis relâchez complètement vers le bas en expirant.
+Dosage : 10 répétitions, 3 fois par jour.
+Progression : Ajoutez de petits cercles lents des épaules vers l'arrière.
+Plus facile : Faites des mouvements encore plus petits.
+Erreur fréquente : Bouger la tête en même temps que les épaules.
+Illustration demandée : Dessin au trait d'un buste avec de petites flèches vers le haut et vers le bas au niveau des épaules.
+Exercice 4 : Rentré du menton très doux (quand le cou est presque droit)
+Phase : Quand la douleur diminue
+But : Pour réaligner la tête.
+Départ : Assis droit, regard à l'horizontale.
+Mouvement : Reculez légèrement le menton vers l'arrière pendant 3 à 5 secondes pour réaligner la tête, puis relâchez.
+Dosage : 8 répétitions, 2 fois par jour (à partir du jour 2 ou 3).
+Progression : Passez au programme complet de cervicalgie mécanique une fois le blocage levé.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Commencer cet exercice trop fort dès les premières heures.
+Illustration demandée : Dessin au trait d'une personne assise de profil reculant légèrement le menton.
+RÉFÉRENCES
+Côté P et al. (OPTIMa Collaboration), Eur Spine J, 2016 (PMID: 26984876) [VÉRIFIÉ : référence exacte. À VÉRIFIER : PMID non affiché par la recherche.]
+Bier JD et al., Phys Ther, 2018 (PMID: 29228289) [VÉRIFIÉ : PMID concordant.]
+[À VÉRIFIER : aucune référence propre au torticolis aigu de l'adulte n'a été repérée ; les deux références portent sur la cervicalgie non spécifique.]
+=== FICHE CER-11 · [cervical/defile] ===
+Titre : Syndrome du défilé thoracique neurogèneSous-titre : Nerfs à l'étroit entre le cou et l'épauleAncien titre : Nerfs à l'étroit entre le cou et l'épaule (défilé thoracique)Diagnostic correspondant dans MSK Morand : Syndrome du défilé thoracique (forme neurologique)
+EN BREF
+Les nerfs du bras sont à l'étroit entre le cou et l'épaule.
+La posture et le renforcement du haut du dos leur redonnent de l'espace.
+L'amélioration prend souvent plusieurs semaines.
+CE QUE VOUS AVEZLes nerfs qui descendent vers votre bras sont un peu à l'étroit dans le passage entre les muscles du cou, la clavicule et la première côte. Cela donne des picotements ou une lourdeur dans le bras, surtout les bras en l'air ou quand le bras pend avec une charge. Ouvrir la posture, assouplir l'avant de la poitrine et renforcer les épaules peut redonner de l'espace à ce passage. Cette fiche ne s'applique pas aux formes où une artère ou une veine est comprimée. [VÉRIFIÉ : c'est l'approche décrite par les experts ; le niveau de preuve est très faible : aucun essai contrôlé de physiothérapie avec un suivi de 6 mois ; Povlsen et al., Cochrane Database Syst Rev 2014 ; Dutton et al., Muscle Nerve 2024]
+POURQUOI ÇA ARRIVE
+Épaules tombantes et tête projetée vers l'avant.
+Travail ou sport les bras en l'air, port de sacs lourds.
+Parfois, une côte ou un muscle de trop à la base du cou.
+SOULAGER LA DOULEUR
+Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.
+Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir.
+CE QUI AIDE
+Soutenir les bras (accoudoirs, coussins) et laisser les épaules tombantes remonter légèrement.
+Prendre des pauses régulières si vous travaillez les bras levés ou à l'ordinateur.
+Éviter de dormir les bras levés au-dessus de la tête.
+Alléger ce que vous portez : répartir en petites charges ou utiliser un sac à roulettes plutôt qu'une charge lourde qui tire l'épaule vers le bas.
+À ÉVITER POUR L'INSTANT
+Travailler longtemps avec les bras au-dessus des épaules.
+Porter une charge lourde à bout de bras, en bandoulière ou dans un sac à dos dont les bretelles écrasent l'avant des épaules.
+Forcer des étirements qui déclenchent des fourmillements dans la main.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice, mais arrêtez tout mouvement qui déclenche des picotements ou un changement de couleur dans la main.[À VÉRIFIER : aucune source ne donne de critère de douleur ni de délai pour les exercices du défilé thoracique ; critère prudent conservé. La consigne d'arrêt en cas de picotements est appropriée.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Bras ou main qui devient pâle, bleuâtre, froid ou enflé, ou veines très visibles sur l'épaule ou la poitrine. [VÉRIFIÉ : signes de compression d'une veine (enflure, couleur bleutée, veines dilatées) ou d'une artère (pâleur, froideur) ; Ferrante et Ferrante, Muscle Nerve 2017 ; Grunebach et al., Vasc Med 2015]
+REVOYEZ VOTRE MÉDECIN SI
+Perte de force ou fonte des muscles de la main : prenez rendez-vous sans tarder. [MODIFIÉ : « Perte de force ou fonte des muscles de la main. » → texte ci-contre — un déficit moteur ou un échec du traitement conservateur oriente vers une évaluation en chirurgie ; Attaar et Pascarella, Am Surg 2025]
+Douleur qui s'aggrave malgré les exercices ou qui empêche de dormir.
+Aucun progrès après 6 à 8 semaines.
+DURÉE HABITUELLEUn essai de réadaptation de 6 à 12 semaines permet de juger de l'effet; l'amélioration peut demander 4 à 6 mois de pratique régulière. Les exercices ne suffisent pas chez tout le monde : si c'est votre cas, votre médecin peut proposer d'autres traitements. [MODIFIÉ : (ajout de la dernière phrase) → texte ci-contre — la physiothérapie seule suffit chez environ 27 % à 59 % des personnes selon les séries ; les durées d'essai publiées vont de 6 semaines à 4 à 6 mois ; Balderman et al., J Vasc Surg 2019 ; Dengler et al., Dtsch Arztebl Int 2022 ; Jones et al., Pain Ther 2019]
+PROGRAMME D'EXERCICESMatériel : élastique, coussin
+Exercice 1 : Posture d'ouverture et léger relèvement des épaules
+Phase : Dès maintenant
+But : Pour ouvrir le passage des nerfs.
+Départ : Assis droit, les avant-bras soutenus sur des accoudoirs ou des coussins pour ne pas tirer sur les épaules.
+Mouvement : Rentrez doucement le menton, ouvrez la poitrine et laissez vos épaules remonter très légèrement (environ 1 cm) et reculer un peu. Tenez 5 secondes.
+Dosage : 10 répétitions, 2 à 3 fois par jour.
+Progression : Maintenez cette posture ouverte sans appui des bras pendant de courtes périodes.
+Plus facile : Faites-le couché sur le dos.
+Erreur fréquente : Tirer les épaules fort vers le bas, ce qui peut resserrer davantage le passage des nerfs.
+Illustration demandée : Dessin au trait d'une personne assise, les avant-bras posés sur des accoudoirs, le buste droit et ouvert.
+Exercice 2 : Étirement doux de l'avant de la poitrine (petit pectoral)
+Phase : Dès maintenant
+But : Pour assouplir l'avant de l'épaule.
+Départ : Debout dans un cadre de porte, un avant-bras posé contre le montant, le coude à la hauteur de l'épaule ou un peu plus bas. [VÉRIFIÉ : lever le bras aggrave les symptômes ; garder le coude à la hauteur de l'épaule ou plus bas est approprié ; Ohman et Thompson, Curr Rev Musculoskelet Med 2020]
+Mouvement : Avancez doucement le buste jusqu'à sentir un étirement léger à l'avant de l'épaule, sans picotement dans la main. Tenez 20 secondes.
+Dosage : 3 répétitions de chaque côté, 1 à 2 fois par jour.
+Progression : Tenez jusqu'à 30 secondes si le bras reste confortable.
+Plus facile : Faites un plus petit pas.
+Erreur fréquente : Placer le coude au-dessus de l'épaule ou forcer jusqu'à ressentir des fourmillements dans les doigts.
+Illustration demandée : Dessin au trait d'une personne debout dans une embrasure de porte, avant-bras contre le cadre, coude à la hauteur de l'épaule, avançant doucement le corps.
+Exercice 3 : Étirement très doux des muscles latéraux du cou (scalènes)
+Phase : Quand la douleur diminue
+But : Pour assouplir les muscles du côté du cou.
+Départ : Assis droit, les deux mains posées sur vos cuisses.
+Mouvement : Penchez doucement la tête du côté opposé à la douleur (oreille vers l'épaule non douloureuse) et tournez très légèrement le nez du côté douloureux. Tenez 15 secondes sans tirer.
+Dosage : 3 répétitions, 1 à 2 fois par jour.
+Progression : Passez à 20 à 30 secondes si le bras reste sans symptômes.
+Plus facile : Tenez 10 secondes.
+Erreur fréquente : Bloquer la respiration, tirer avec la main ou continuer malgré des picotements.
+Illustration demandée : Dessin au trait d'une personne assise inclinant doucement la tête d'un côté, les mains sur les cuisses.
+Exercice 4 : Renforcement du haut du dos avec élastique (coudes au corps)
+Phase : Quand la douleur diminue
+But : Pour renforcer le haut du dos.
+Départ : Debout, un élastique léger tenu à deux mains devant vous, coudes pliés à 90 degrés et collés au corps.
+Mouvement : Écartez doucement les mains vers l'extérieur en serrant les omoplates, puis revenez lentement.
+Dosage : 3 séries de 10 à 12 répétitions, 3 à 4 fois par semaine.
+Progression : Ajoutez des tirages vers l'arrière avec les bras à 30 ou 45 degrés d'élévation s'ils sont bien tolérés.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Monter les bras au-dessus des épaules trop tôt.
+Illustration demandée : Dessin au trait d'une personne debout écartant un élastique devant elle, les coudes collés au corps.
+RÉFÉRENCES
+Povlsen B, Hansson T, Povlsen SD, Cochrane Database Syst Rev, 2014 (PMID: 25427003) [VÉRIFIÉ : PMID concordant ; « Treatment for thoracic outlet syndrome », 2014;(11):CD007218.]
+Balderman J et al., J Vasc Surg, 2019 (PMID: 30852035) [VÉRIFIÉ : référence exacte. À VÉRIFIER : PMID non affiché par la recherche.]
+[MODIFIÉ : (ajout, plus récent) → Rochkind S et al., « Thoracic Outlet Syndrome Part II: Consensus on the Management of Neurogenic Thoracic Outlet Syndrome by the European Association of Neurosurgical Societies' Section of Peripheral Nerve Surgery », Neurosurgery, 2023;92(2):251-257 (PMID: 36542350) — consensus récent sur la prise en charge.]
+=== FICHE CER-12 · [cervical/arnold] ===
+Titre : Névralgie occipitale (névralgie d'Arnold)Sous-titre : Douleur vive à l'arrière du crâneAncien titre : Douleur vive à l'arrière du crâne (névralgie d'Arnold)Diagnostic correspondant dans MSK Morand : Névralgie occipitale (Arnold)
+EN BREF
+Un nerf à la base du crâne est irrité ; ce n'est pas un problème au cerveau.
+Détendre la nuque et éviter d'appuyer sur la zone aide.
+Votre médecin peut proposer d'autres traitements si la douleur persiste.
+CE QUE VOUS AVEZUn nerf situé à la base du crâne (le nerf d'Arnold) est irrité. Cela donne des élancements, des brûlures ou une sensibilité du cuir chevelu, souvent d'un seul côté. Ce nerf est sensible à la pression : on cherche donc à détendre la nuque et à varier les postures sans appuyer sur la zone douloureuse. Si la douleur persiste, votre médecin peut proposer des médicaments ou une infiltration près du nerf. [VÉRIFIÉ : description conforme aux critères diagnostiques ; médicaments et infiltration sont les étapes suivantes reconnues ; Swanson et al., J Craniofac Surg 2022 ; Barmherzig et Kingston, Curr Neurol Neurosci Rep 2019]
+POURQUOI ÇA ARRIVE
+Tension des muscles de la nuque.
+Tête penchée vers l'avant pendant de longues périodes.
+Pression sur la base du crâne (oreiller dur, casque).
+SOULAGER LA DOULEUR
+Chaleur douce sur la nuque, si elle vous soulage.
+Évitez d'appuyer sur la zone sensible (oreiller dur, casque serré).
+Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. [VÉRIFIÉ : médicaments utilisés en pratique, mais aucun n'a été étudié de façon systématique dans la névralgie occipitale ; Pan et al., Curr Pain Headache Rep 2021]
+Si vous prenez des médicaments contre la douleur plus de 2 jours par semaine, parlez-en à votre médecin ou à votre pharmacien : pris trop souvent, ils peuvent entretenir les maux de tête. [MODIFIÉ : (ajout) → texte ci-contre — céphalée par surconsommation de médicaments (seuils de 15 et de 10 jours par mois selon le produit) ; aucune dose n'est donnée ; Ashina et al., Nat Rev Dis Primers 2023 ; Puledda et al., Cephalalgia 2024]
+CE QUI AIDE
+Appliquer de la chaleur douce sur la nuque 15 minutes si cela vous soulage.
+Faire des exercices doux pour les muscles profonds du cou et les omoplates.
+Varier vos positions et éviter de garder longtemps la tête projetée vers l'avant devant les écrans.
+Utiliser un oreiller souple qui soutient la nuque sans renverser la tête vers l'arrière.
+À ÉVITER POUR L'INSTANT
+Appuyer, masser fort ou poser une balle sur le point douloureux à la base du crâne.
+Porter un casque, une casquette ou des lunettes qui serrent l'arrière du crâne.
+Dormir la tête renversée vers l'arrière ou sur un oreiller dur.
+Faire des mouvements brusques de la tête vers l'arrière.
+RÈGLE DE DOULEUR (0 À 10)Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice, mais arrêtez tout exercice qui déclenche des décharges électriques vers le sommet du crâne.[À VÉRIFIER : aucune source ne traite des critères de douleur à l'exercice dans la névralgie occipitale ; critère prudent conservé. Les auteurs recommandent de doser les exercices avec prudence ; Deuel et al., Curr Pain Headache Rep 2024]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Mal de tête brutal et extrêmement fort, ou fièvre avec raideur de nuque.
+Troubles de la vision, vertiges sévères, difficulté à parler ou faiblesse d'un côté du corps.
+Mal de tête nouveau après 50 ans, surtout avec douleur à la mâchoire en mâchant, trouble de la vision, fièvre ou grande fatigue. [MODIFIÉ : « Mal de tête nouveau après 50 ans, avec douleur à la mâchoire en mâchant ou sensibilité du cuir chevelu des deux côtés. » → texte ci-contre — tout nouveau mal de tête après 50 ans fait rechercher une artérite à cellules géantes ; la sensibilité du cuir chevelu est retirée de ce signe parce qu'elle fait partie de la névralgie occipitale elle-même et ne permet pas de distinguer les deux ; Kermani, Ann Intern Med 2026 ; Viera et Antono, Am Fam Physician 2022]
+REVOYEZ VOTRE MÉDECIN SI
+Décharges électriques qui s'aggravent malgré ces conseils.
+Aucune amélioration après 4 à 6 semaines.
+Petites cloques ou rougeur sur le cuir chevelu ou la nuque, du côté douloureux : prenez rendez-vous sans tarder. [MODIFIÉ : (ajout) → texte ci-contre — un zona peut donner une douleur du même territoire. À VÉRIFIER : ce signe n'est pas couvert par les sources consultées ; à valider par l'équipe avant publication.]
+DURÉE HABITUELLEÉvolution variable et difficile à prédire. Si la douleur ne diminue pas après 4 à 6 semaines, d'autres traitements existent : parlez-en à votre médecin. [MODIFIÉ : « Évolution variable; une amélioration est souvent observée en 3 à 6 semaines. Sinon, d'autres traitements existent : parlez-en à votre médecin. » → texte ci-contre — aucune étude de suivi ne permet de chiffrer un délai d'amélioration ; le diagnostic est souvent posé plus de 2 ans après le début ; Deuel et al., Curr Pain Headache Rep 2024 ; Martínez-Pías et al., Pain Med 2021]
+PROGRAMME D'EXERCICESMatériel : élastique, serviette[À VÉRIFIER : aucun essai d'exercices dans la névralgie occipitale ; programme fondé sur le mécanisme et l'avis d'experts ; Deuel et al., Curr Pain Headache Rep 2024]
+Exercice 1 : Étirement doux du haut de la nuque (assis)
+Phase : Dès maintenant
+But : Pour détendre le haut de la nuque.
+Départ : Assis droit, les épaules relâchées, le regard à l'horizontale.
+Mouvement : Rentrez légèrement le menton, puis inclinez doucement la tête vers l'avant, comme pour un petit « oui », jusqu'à sentir un étirement léger sous le crâne. Tenez 15 à 20 secondes en respirant calmement.
+Dosage : 3 répétitions, 1 à 2 fois par jour.
+Progression : Tenez jusqu'à 30 secondes si aucun élancement n'apparaît.
+Plus facile : Inclinez moins loin et tenez 10 secondes.
+Erreur fréquente : Tirer sur la tête avec les mains ou insister malgré des décharges.
+Illustration demandée : Dessin au trait d'une personne assise de profil, menton légèrement rentré, inclinant doucement la tête vers l'avant, avec une petite flèche à la base du crâne.
+Exercice 2 : Hochement doux sur le dos (muscles profonds)
+Phase : Dès maintenant
+But : Pour réveiller les muscles profonds du cou.
+Départ : Couché sur le dos, tête posée sur une serviette mince et souple, sans appui direct sur la zone douloureuse.
+Mouvement : Faites un tout petit mouvement pour rentrer le menton vers la gorge sans décoller la tête. Tenez 5 secondes et relâchez.
+Dosage : 2 séries de 10 répétitions, 2 fois par jour.
+Progression : Augmentez le maintien à 10 secondes en gardant la mâchoire détendue.
+Plus facile : Tenez 3 secondes, 5 fois.
+Erreur fréquente : Contracter fort le cou ou soulever la tête. Si la position couchée déclenche la douleur, faites l'exercice assis.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos rentrant doucement le menton sans soulever la tête.
+Exercice 3 : Rentré du menton assis
+Phase : Dès maintenant
+But : Pour allonger la nuque.
+Départ : Assis droit, regard droit devant vous, épaules basses.
+Mouvement : Glissez doucement le menton vers l'arrière pour allonger la nuque. Tenez 5 à 10 secondes, puis relâchez.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Répétez ce geste quelques fois toutes les heures au travail, comme pause active.
+Plus facile : Faites-le couché sur le dos.
+Erreur fréquente : Incliner la tête vers l'arrière.
+Illustration demandée : Dessin au trait d'une personne assise de profil alignant la tête au-dessus des épaules.
+Exercice 4 : Ouverture des épaules (rapprochement des omoplates)
+Phase : Quand la douleur diminue
+But : Pour améliorer la posture du haut du dos.
+Départ : Debout ou assis, les bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et vers le bas. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Ajoutez un élastique léger tiré à la hauteur du ventre.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules vers les oreilles.
+Illustration demandée : Dessin au trait d'une personne debout resserrant doucement les omoplates vers l'arrière.
+RÉFÉRENCES
+Swanson D et al., J Craniofac Surg, 2022 (PMID: 34753868) [VÉRIFIÉ : PMID concordant.]
+Choi I & Jeon SR, J Korean Med Sci, 2016 (PMID: 27051229) [VÉRIFIÉ : « Neuralgias of the Head: Occipital Neuralgia » ; référence exacte. À VÉRIFIER : PMID non affiché par la recherche.]
+Deuel D et al., Curr Pain Headache Rep, 2024 (identifiant à compléter (PubMed)) [VÉRIFIÉ : Deuel D, Sandgren A, Nelson EO et al., « Conservative Management of Occipital Neuralgia Supported by Physical Therapy: A Review of Available Research and Mechanistic Rationale to Guide Treatment », Curr Pain Headache Rep, décembre 2024. À VÉRIFIER : PMID et DOI non obtenus.]
+[MODIFIÉ : (ajout, plus récent) → Lefel N et al., « 11. Cervicogenic Headache and Occipital Neuralgia », Pain Pract, 2025 (PMID: 39219023) — guide de pratique récent couvrant aussi la céphalée cervicogénique.]

@@ -22,8 +22,8 @@
   "ce_qui_aide": [
    "Remettre du poids sur le pied et marcher le plus normalement possible dès que la douleur le permet (béquilles quelques jours au besoin).",
    "Porter une chevillère lacée ou semi-rigide (ou un taping) pour marcher pendant 4 à 6 semaines, puis pendant les sports à risque jusqu'à 12 mois après l'entorse.",
-   "Appliquer de la glace 15 à 20 minutes à travers un linge et surélever le pied les 2 à 3 premiers jours si cela soulage la douleur. La glace ne remplace pas les exercices.",
-   "Poursuivre les exercices de force et d'équilibre pendant au moins 6 à 8 semaines, même après la disparition de la douleur."
+   "Appliquer de la glace 15 minutes à travers un linge et surélever le pied les 2 à 3 premiers jours si cela soulage la douleur. La glace ne remplace pas les exercices.",
+   "Poursuivre les exercices de force et d'équilibre pendant au moins 8 à 12 semaines, même après la disparition de la douleur."
   ],
   "a_eviter": [
    "Garder la cheville immobilisée ou sans appui plus de 10 jours, sauf consigne contraire de votre médecin.",
@@ -31,24 +31,24 @@
    "Étirer la zone blessée en tirant le pied vers l'intérieur."
   ],
   "soulager": [
-   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Incapacité de faire 4 pas, même en boitant, juste après la blessure ou dans les jours suivants (radiographie à envisager).",
-   "Douleur vive en appuyant sur l'os à l'arrière des malléoles (bosses de la cheville), sur le bord extérieur du pied ou sur le dessus interne du pied (fracture à écarter).",
-   "Douleur en haut de la jambe, sur le côté extérieur près du genou."
+   "Douleur vive en appuyant sur l'os, sur le bord arrière ou la pointe des malléoles (bosses de la cheville), sur le bord extérieur du pied ou sur le dessus interne du pied (fracture à écarter).",
+   "Douleur en haut de la jambe, sur le côté extérieur près du genou.",
+   "Mollet enflé et douloureux, ou essoufflement soudain, surtout si la cheville est immobilisée (caillot à écarter)."
   ],
   "medecin": [
    "Aucune amélioration après 5 à 7 jours, ou enflure et douleur encore importantes après 2 semaines.",
    "Cheville qui continue de se dérober ou de se tordre facilement après 6 à 8 semaines."
   ],
-  "duree_habituelle": "Marche normale en 1 à 3 semaines. Reprise du sport en 1 à 3 semaines pour une entorse légère, 3 à 6 semaines ou plus pour une entorse sévère. Le ligament continue de se solidifier pendant plusieurs mois : gardez les exercices et la chevillère au sport.",
+  "duree_habituelle": "Marche normale en 1 à 3 semaines. Reprise du sport en 1 à 3 semaines pour une entorse légère, environ 6 à 8 semaines, parfois plus, pour une entorse sévère. Le ligament continue de se solidifier pendant plusieurs mois : gardez les exercices et la chevillère au sport. Chez certaines personnes, la douleur ou l'impression d'instabilité dure plusieurs mois : parlez-en à votre médecin.",
   "materiel": [
    "élastique",
    "mur",
-   "poids léger ou bouteille d'eau",
    "coussin"
   ],
   "exercices": [
@@ -86,7 +86,7 @@
     "illustration": "Dessin au trait d'une personne debout mains sur un comptoir montant sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -124,10 +124,10 @@
   "diagnostic": "Instabilité chronique de la cheville",
   "en_bref": [
    "Après une ou plusieurs entorses, la cheville réagit moins vite et lâche plus facilement.",
-   "Un programme d'équilibre et de renforcement corrige ce problème chez la plupart des gens.",
+   "Un programme d'équilibre et de renforcement améliore la stabilité chez beaucoup de gens.",
    "Comptez 3 mois d'exercices réguliers."
   ],
-  "ce_que_vous_avez": "Après une ou plusieurs entorses, les capteurs d'équilibre et les muscles autour de votre cheville réagissent moins vite et moins bien. La cheville donne alors l'impression de lâcher, surtout sur les terrains inégaux. Un entraînement ciblé de l'équilibre et de la force améliore nettement la stabilité chez la plupart des gens.",
+  "ce_que_vous_avez": "Après une ou plusieurs entorses, les capteurs d'équilibre et les muscles autour de votre cheville réagissent moins vite et moins bien. La cheville donne alors l'impression de lâcher, surtout sur les terrains inégaux. Un entraînement ciblé de l'équilibre et de la force améliore la stabilité chez beaucoup de gens.",
   "pourquoi": [
    "Entorses répétées, mal rééduquées.",
    "Muscles et capteurs d'équilibre de la cheville affaiblis."
@@ -148,7 +148,9 @@
    "Une orthèse ou un bandage peut protéger la cheville pendant le sport."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
-  "urgence": [],
+  "urgence": [
+   "Nouvelle entorse avec incapacité de faire 4 pas ou douleur vive en appuyant sur l'os de la cheville ou du pied (fracture à écarter)."
+  ],
   "medecin": [
    "Nouvelles entorses répétées malgré 3 mois de rééducation bien suivie.",
    "Blocage ou claquement douloureux dans l'articulation de la cheville.",
@@ -160,7 +162,6 @@
    "élastique",
    "marche ou escalier",
    "mur",
-   "poids léger ou bouteille d'eau",
    "coussin",
    "tapis d'exercice"
   ],
@@ -237,13 +238,13 @@
   "diagnostic": "Tendinopathie d'Achille corporéale",
   "en_bref": [
    "Le tendon d'Achille est surmené et sensible dans sa partie moyenne.",
-   "Un renforcement lent et progressif est le traitement le plus efficace.",
+   "Un renforcement lent et progressif est le traitement de premier choix.",
    "Comptez souvent 3 mois ou plus."
   ],
   "ce_que_vous_avez": "Le gros tendon à l'arrière de votre cheville (tendon d'Achille) est surmené et devenu sensible dans sa partie moyenne, quelques centimètres au-dessus du talon. Il est souvent raide le matin au lever. Le traitement de choix est un renforcement lent, progressif et de plus en plus lourd du mollet, qui rend le tendon plus solide.",
   "pourquoi": [
    "Hausse rapide de la course ou des sauts.",
-   "Mollets raides ou peu renforcés.",
+   "Mollets peu forts (lien possible).",
    "Certains antibiotiques (fluoroquinolones)."
   ],
   "ce_qui_aide": [
@@ -259,23 +260,24 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
-   "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
+   "Un anti-inflammatoire en crème soulage peu selon les études ; parlez-en à votre pharmacien si la douleur vous dérange.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 5 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si la douleur et la raideur matinale n'augmentent pas d'une semaine à l'autre.",
   "urgence": [
    "Claquement brutal derrière la cheville avec sensation d'avoir reçu un coup et difficulté à monter sur la pointe du pied (rupture du tendon : urgence).",
-   "Douleur au tendon apparue pendant ou après un antibiotique de la famille des quinolones (ciprofloxacine, lévofloxacine, moxifloxacine) : cessez les exercices et appelez rapidement votre médecin ou votre pharmacien."
+   "Douleur au tendon apparue pendant ou après un antibiotique de la famille des quinolones (ciprofloxacine, lévofloxacine, moxifloxacine) : cessez les exercices et appelez le jour même votre médecin ou votre pharmacien.",
+   "Classé sous « Consultez rapidement » : Gonflement rouge, très chaud et douloureux du tendon ou du mollet (infection ou caillot à écarter)."
   ],
   "medecin": [
-   "Gonflement rouge, très chaud et douloureux.",
    "Douleur ou raideur matinale qui s'aggravent malgré 6 semaines d'exercices bien dosés.",
    "Aucune amélioration après 12 semaines."
   ],
-  "duree_habituelle": "Amélioration nette en 6 à 12 semaines de renforcement régulier. La récupération complète prend souvent de 3 à 12 mois : continuez le renforcement même quand la douleur diminue.",
+  "duree_habituelle": "Amélioration nette en 6 à 12 semaines de renforcement régulier. La récupération complète prend souvent de 3 à 12 mois : continuez le renforcement même quand la douleur diminue. Chez certaines personnes, la douleur dure plus longtemps ou revient : c'est une raison de revoir votre médecin, pas d'abandonner les exercices.",
   "materiel": [
    "marche ou escalier",
-   "mur"
+   "mur",
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -342,20 +344,20 @@
   "diagnostic": "Tendinopathie d'insertion, Haglund ou bursite rétro-calcanéenne",
   "en_bref": [
    "Le tendon d'Achille est irrité à son attache sur le talon.",
-   "Éviter de descendre les talons plus bas que les pieds le soulage.",
+   "Éviter de descendre le talon plus bas que l'avant du pied aide le tendon à se calmer.",
    "Une talonnette et des chaussures sans contrefort dur aident."
   ],
   "ce_que_vous_avez": "Le tendon d'Achille est sensible tout en bas, là où il s'attache sur l'os du talon (parfois avec une bosse osseuse appelée Haglund ou une petite bourse enflammée). Quand la cheville plie vers le haut, le tendon est comprimé contre l'os. Contrairement à la tendinopathie du milieu du tendon, il faut donc éviter au début de descendre le talon sous une marche et d'étirer le mollet.",
   "pourquoi": [
    "Course, surtout en côte.",
    "Bosse osseuse à l'arrière du talon, frottée par la chaussure.",
-   "Mollets raides."
+   "Hausse rapide des activités."
   ],
   "ce_qui_aide": [
    "Faire les exercices de mollet sur sol plat, sans descendre le talon dans le vide.",
    "Mettre une talonnette dans les deux souliers et la porter le plus souvent possible.",
    "Choisir des souliers dont l'arrière est souple ou ouvert et ne frotte pas sur le talon.",
-   "Appliquer de la glace 15 minutes à travers un linge à l'arrière du talon si cela soulage après l'activité."
+   "Appliquer de la glace 10 à 15 minutes à travers un linge à l'arrière du talon si cela soulage après l'activité."
   ],
   "a_eviter": [
    "Descendre le talon sous le bord d'une marche (exercice ou étirement).",
@@ -364,7 +366,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
-   "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
+   "Un anti-inflammatoire en crème soulage peu selon les études ; parlez-en à votre pharmacien si la douleur vous dérange.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
@@ -377,9 +379,10 @@
    "Douleur qui empêche de porter des chaussures fermées malgré les adaptations.",
    "Absence de progrès après 12 semaines."
   ],
-  "duree_habituelle": "Amélioration plus lente qu'au milieu du tendon : comptez de 3 à 6 mois, parfois plus. Le retour graduel des mouvements de cheville vers le haut (marche, étirements) se fait plus tard, idéalement avec un physiothérapeute.",
+  "duree_habituelle": "Amélioration plus lente qu'au milieu du tendon : comptez de 3 à 6 mois, parfois plus. Le retour graduel des mouvements de cheville vers le haut (descente du talon sous une marche, côtes, étirements) se fait plus tard, idéalement avec un physiothérapeute.",
   "materiel": [
-   "mur"
+   "mur",
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -404,7 +407,7 @@
     "illustration": "Dessin au trait d'une personne debout sur sol plat montant et descendant lentement sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le tendon sans l'écraser.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Montées lentes genoux pliés sur sol plat",
@@ -449,13 +452,13 @@
   "pourquoi": [
    "Hausse rapide de la course ou de la marche (recrues, coureurs).",
    "Chaussures usées ou surfaces dures.",
-   "Pieds plats."
+   "Pieds plats ou pied qui s'affaisse vers l'intérieur."
   ],
   "ce_qui_aide": [
    "Remplacer temporairement la course par du vélo, de la natation ou de l'elliptique, sans douleur.",
-   "Reprendre la course graduellement en alternant marche et course, en vous fiant à la douleur, sans saut brusque de distance (surtout pas une sortie beaucoup plus longue que d'habitude).",
+   "Reprendre la course graduellement en alternant marche et course (par exemple 2 minutes de course, 2 minutes de marche), un jour sur deux, en vous fiant à la douleur, sans saut brusque de distance (surtout pas une sortie beaucoup plus longue que d'habitude).",
    "Renforcer les mollets, les pieds et les hanches en complément.",
-   "Appliquer de la glace 15 minutes à travers un linge le long du tibia si cela soulage après l'activité."
+   "Appliquer de la glace 10 à 15 minutes à travers un linge le long du tibia si cela soulage après l'activité."
   ],
   "a_eviter": [
    "Continuer à courir malgré une douleur qui dure pendant toute la sortie ou qui persiste le lendemain.",
@@ -463,19 +466,19 @@
    "Courir avec des chaussures très usées."
   ],
   "soulager": [
-   "Glace 10 à 15 minutes, dans un linge, après l'activité.",
+   "Glace 10 à 15 minutes, dans un linge, après l'activité, si cela vous soulage.",
    "Acétaminophène au besoin, si votre pharmacien le juge approprié."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez la course si une douleur précise sur un point de l'os apparaît.",
   "urgence": [
-   "Douleur très précise sur un petit point de l'os, douleur au repos ou la nuit, ou douleur en sautillant sur place (fracture de stress à vérifier)."
+   "Douleur très précise sur un petit point de l'os, douleur sur le devant du tibia, douleur au repos ou la nuit, ou douleur en sautillant sur place (fracture de stress à vérifier). Cessez la course en attendant.",
+   "Classé sous « Consultez rapidement » : Gonflement localisé ou rougeur sur le tibia."
   ],
   "medecin": [
-   "Gonflement localisé ou rougeur sur le tibia.",
    "Engourdissements ou tension très dure dans la jambe à l'effort.",
    "Douleur qui revient dès le premier jogging léger après 4 à 6 semaines de repos relatif."
   ],
-  "duree_habituelle": "Retour à la course habituelle en 6 à 12 semaines, parfois plus. La douleur de tous les jours diminue souvent en quelques semaines.",
+  "duree_habituelle": "Retour à la course habituelle en 2 à 3 mois environ, parfois plus. La douleur de tous les jours diminue souvent en quelques semaines.",
   "materiel": [
    "élastique",
    "mur"
@@ -491,7 +494,7 @@
     "illustration": "Dessin au trait d'un coureur montant lentement sur la pointe des pieds face à un mur.",
     "phase": "Dès maintenant",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Relevé de l'avant des pieds dos au mur (tibial antérieur)",
@@ -554,13 +557,13 @@
   "en_bref": [
    "La pression monte dans une loge musculaire de la jambe pendant l'effort.",
    "La douleur disparaît habituellement quelques minutes après l'arrêt.",
-   "Changer la foulée aide souvent ; sinon, une chirurgie peut être discutée."
+   "Changer la foulée peut aider, surtout quand la douleur est à l'avant de la jambe ; sinon, une chirurgie peut être discutée."
   ],
   "ce_que_vous_avez": "Pendant la course ou la marche rapide, la pression monte dans une loge musculaire de votre jambe, dont l'enveloppe est trop serrée. Après un temps ou une distance d'effort assez constants, cela donne une tension dure, une douleur ou des picotements au pied, qui passent en quelques minutes de repos. Le repos seul règle rarement le problème. Modifier votre technique de course avec un physiothérapeute peut aider, et une chirurgie est parfois nécessaire.",
   "pourquoi": [
    "Course ou marche rapide répétée.",
    "Enveloppe du muscle trop serrée.",
-   "Foulée qui frappe fort du talon."
+   "Foulée qui frappe fort du talon (lien possible, non prouvé)."
   ],
   "ce_qui_aide": [
    "Arrêter l'effort dès que la tension dure ou les engourdissements apparaissent, et repartir une fois les symptômes disparus.",
@@ -574,17 +577,19 @@
    "Serrer trop fort les lacets ou porter des bas de compression serrés pendant l'effort."
   ],
   "soulager": [
-   "Arrêtez l'effort dès que la tension monte : la douleur doit disparaître en quelques minutes.",
+   "Arrêtez l'effort dès que la tension monte : la douleur doit disparaître en quelques minutes (souvent 10 à 20 minutes).",
    "Les médicaments aident peu : adapter l'effort et la foulée est le traitement."
   ],
   "regle_de_douleur": "Pendant les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle disparaît en quelques minutes de repos. Arrêtez immédiatement dès qu'un engourdissement ou une faiblesse du pied apparaît.",
   "urgence": [
    "Douleur intense qui continue ou augmente après l'arrêt de l'effort au lieu de se calmer en quelques minutes, jambe très dure, engourdissement ou faiblesse (syndrome des loges aigu : urgence).",
-   "Pied froid, pâle ou engourdi sous la plante à l'effort (problème de circulation à vérifier).",
-   "Douleur au mollet même au repos, ou jambe enflée ou rouge (phlébite à écarter)."
+   "Pied froid, pâle ou engourdi qui ne redevient pas normal après quelques minutes de repos (problème de circulation à écarter d'urgence).",
+   "Douleur au mollet même au repos, ou jambe enflée ou rouge (phlébite à écarter).",
+   "Pied qui tombe ou faiblesse du pied qui persiste après le repos."
   ],
   "medecin": [
-   "Pied qui tombe ou qui claque au sol pendant la marche.",
+   "Pied qui tombe ou qui claque au sol pendant l'effort, puis qui redevient normal au repos.",
+   "Pied froid, pâle ou engourdi sous la plante seulement à l'effort (problème de circulation à vérifier).",
    "Aucune amélioration après 6 à 8 semaines d'adaptation."
   ],
   "duree_habituelle": "Bilan après 6 à 8 semaines de rééducation de la foulée. Si les symptômes persistent, une chirurgie (fasciotomie) est souvent proposée et soulage la majorité des personnes opérées.",
@@ -656,14 +661,14 @@
   "diagnostic": "Lésion musculaire du mollet (tennis leg)",
   "en_bref": [
    "Un muscle du mollet a une déchirure partielle.",
-   "Bouger doucement dès les premiers jours aide à guérir.",
+   "Bouger doucement dès les premiers jours aide à reprendre vos activités plus vite.",
    "Le retour au sport se fait graduellement, sans douleur."
   ],
-  "ce_que_vous_avez": "Un muscle du mollet a subi une déchirure lors d'un démarrage brusque ou d'un saut. Les premiers jours, on protège le muscle sans l'immobiliser : bouger doucement tôt aide à guérir plus vite. Des exercices progressifs redonnent ensuite toute sa force au mollet pour éviter une rechute.",
+  "ce_que_vous_avez": "Un muscle du mollet a subi une déchirure lors d'un démarrage brusque ou d'un saut. Les premiers jours, on protège le muscle sans l'immobiliser : bouger doucement tôt aide à reprendre le sport plus vite. Des exercices progressifs redonnent ensuite toute sa force au mollet pour éviter une rechute.",
   "pourquoi": [
    "Démarrage brusque ou saut (tennis, pickleball, course).",
    "Muscles fatigués ou peu échauffés.",
-   "Plus fréquent après 40 ans."
+   "Plus fréquent avec l'âge (souvent à partir de 30 à 40 ans) et après une ancienne blessure du mollet."
   ],
   "ce_qui_aide": [
    "Les 2 à 3 premiers jours : bandage élastique de compression, jambe surélevée et glace 15 minutes à travers un linge si cela soulage.",
@@ -677,20 +682,21 @@
    "Rester complètement au repos ou immobilisé pendant plusieurs jours."
   ],
   "soulager": [
-   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
-   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider pendant quelques jours, si votre pharmacien ou votre médecin le juge approprié."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Mollet très enflé, dur, rouge ou chaud avec douleur constante, ou enflure qui augmente (phlébite à écarter d'urgence).",
    "Claquement ressenti au bas du mollet ou derrière la cheville avec impossibilité de monter sur la pointe du pied (rupture du tendon d'Achille à écarter rapidement).",
-   "Jambe très tendue avec engourdissement du pied."
+   "Jambe très tendue avec engourdissement du pied.",
+   "Essoufflement soudain ou douleur dans la poitrine (911)."
   ],
   "medecin": [
    "Douleur qui ne diminue pas après 2 semaines.",
    "Récidive lors de la reprise du sport."
   ],
-  "duree_habituelle": "Reprise du sport en 2 à 6 semaines pour une déchirure légère à modérée, 6 à 10 semaines ou plus pour une déchirure importante. Le risque de rechute reste plus élevé pendant environ 3 à 4 mois : continuez le renforcement.",
+  "duree_habituelle": "Reprise du sport en 2 à 6 semaines pour une déchirure légère à modérée, 6 à 12 semaines ou plus pour une déchirure importante. Le risque de rechute reste plus élevé pendant environ 3 à 4 mois : continuez le renforcement.",
   "materiel": [
    "mur"
   ],
@@ -717,7 +723,7 @@
     "illustration": "Dessin au trait d'une personne debout face à un mur montant sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Étirement doux du mollet contre un mur",
@@ -780,18 +786,20 @@
    "Forcer des étirements douloureux."
   ],
   "soulager": [
-   "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Glace 10 à 15 minutes, dans un linge, après le sport, si cela soulage.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter.",
   "urgence": [
    "Rougeur, chaleur ou gonflement du talon, ou fièvre.",
-   "Douleur apparue brusquement après une chute ou un saut."
+   "Douleur apparue brusquement après une chute ou un saut.",
+   "Classé sous « Consultez rapidement » : Douleur qui réveille l'enfant la nuit ou qui est constante, même au repos.",
+   "Enfant qui refuse de mettre du poids sur le pied."
   ],
   "medecin": [
-   "Douleur qui réveille l'enfant la nuit ou qui est présente au repos.",
    "Boiterie qui persiste malgré l'arrêt temporaire du sport.",
-   "Aucune amélioration après 6 à 8 semaines."
+   "Aucune amélioration après 6 à 8 semaines.",
+   "Douleur d'un seul talon qui ne ressemble pas aux épisodes habituels."
   ],
   "duree_habituelle": "Amélioration en 4 à 8 semaines avec les talonnettes et l'ajustement du sport. Des rechutes sont fréquentes jusqu'à la fin de la croissance du talon (vers 15 ou 16 ans).",
   "materiel": [
@@ -822,7 +830,7 @@
     "illustration": "Dessin au trait d'un jeune sportif montant doucement sur la pointe des pieds sur sol plat.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Ramassage d'une serviette avec les orteils (complément facultatif)",
@@ -865,7 +873,7 @@
   ],
   "ce_que_vous_avez": "Le tendon qui passe derrière la bosse interne de la cheville et qui soutient l'arche du pied est surmené et affaibli. Cela donne une douleur à l'intérieur de la cheville et parfois un affaissement progressif de l'arche. Un bon soutien de l'arche (souliers et orthèses plantaires), des étirements doux du mollet et un renforcement ciblé donnent de bons résultats au stade débutant.",
   "pourquoi": [
-   "Surpoids et hypertension.",
+   "Surpoids, hypertension et diabète.",
    "Plus fréquent chez les femmes après 40 ans.",
    "Pieds plats."
   ],
@@ -883,16 +891,16 @@
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
-   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement. Le soutien de l'arche est aussi une partie essentielle du traitement."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
-   "Douleur soudaine avec claquement à l'intérieur de la cheville et arche qui s'affaisse d'un coup (rupture à écarter rapidement)."
+   "Douleur soudaine avec claquement à l'intérieur de la cheville et arche qui s'affaisse d'un coup (rupture à écarter rapidement).",
+   "Classé sous « Consultez rapidement » : Gonflement chaud et rouge à l'intérieur de la cheville, surtout avec fièvre."
   ],
   "medecin": [
    "Arche du pied qui s'affaisse visiblement ou pied qui devient raide.",
    "Incapacité de monter sur la pointe du pied atteint seul (signe d'atteinte plus avancée : évaluation à prévoir).",
-   "Gonflement chaud et rouge à l'intérieur de la cheville.",
    "Aucune amélioration après 3 mois."
   ],
   "duree_habituelle": "Premiers progrès en 6 à 12 semaines. Le programme complet dure 3 à 4 mois, et le soutien d'arche se porte souvent plus longtemps.",
@@ -949,7 +957,7 @@
     "illustration": "Dessin au trait d'un pied nu au sol soulevant légèrement sa voûte plantaire sans plier les orteils.",
     "phase": "Dès maintenant",
     "but": "Pour activer l'arche du pied.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    }
   ],
   "references": [
@@ -987,7 +995,7 @@
   "ce_qui_aide": [
    "Bouger doucement la cheville chaque matin avant de poser le pied par terre.",
    "Pratiquer une activité à faible impact (vélo stationnaire, natation, aquaforme) et renforcer les muscles autour de la cheville.",
-   "Porter des espadrilles confortables à semelle ferme, arrondie à l'avant (semelle à bascule), pour faciliter le pas.",
+   "Porter des espadrilles confortables à semelle ferme, arrondie à l'avant (semelle à bascule) : cela peut faciliter le pas.",
    "Viser un poids santé et utiliser au besoin une canne ou une orthèse de cheville pour les longues marches."
   ],
   "a_eviter": [
@@ -996,10 +1004,10 @@
    "Cesser de bouger par crainte d'user la cheville : les exercices doux n'accélèrent pas l'arthrose."
   ],
   "soulager": [
-   "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
+   "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée, si cela vous soulage.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain.",
   "urgence": [
    "Cheville soudainement très enflée, rouge et chaude, avec ou sans fièvre (infection ou crise inflammatoire à écarter rapidement)."
   ],
@@ -1093,19 +1101,19 @@
    "Enlever la botte trop tôt ou marcher sans protection tant que vous boitez beaucoup."
   ],
   "soulager": [
-   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur en haut de la jambe, sur l'os du côté extérieur près du genou (fracture de Maisonneuve à écarter rapidement).",
-   "Gonflement chaud et rouge, ou mollet douloureux et enflé pendant l'immobilisation (phlébite à écarter)."
+   "Gonflement chaud et rouge, ou mollet douloureux et enflé pendant l'immobilisation (phlébite à écarter). Essoufflement soudain ou douleur dans la poitrine : appelez le 911."
   ],
   "medecin": [
    "Douleur vive à chaque pas qui ne diminue pas après 2 à 3 semaines.",
-   "Sensation que la cheville s'écarte, se dérobe ou claque à l'appui."
+   "Sensation que la cheville s'écarte, se dérobe ou claque à l'appui : revoyez votre médecin dans les prochains jours."
   ],
-  "duree_habituelle": "Guérison environ deux fois plus longue (ou davantage) que pour une entorse ordinaire : comptez 6 à 12 semaines avant le retour au sport.",
+  "duree_habituelle": "Guérison de deux à quatre fois plus longue que pour une entorse ordinaire : comptez 6 à 12 semaines avant le retour au sport. Une gêne peut durer plusieurs mois.",
   "materiel": [
    "mur"
   ],
@@ -1132,7 +1140,7 @@
     "illustration": "Dessin au trait d'une personne debout montant sur la pointe des deux pieds parallèles.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer les mollets.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -1175,7 +1183,7 @@
   ],
   "ce_que_vous_avez": "Les ligaments solides à l'intérieur de votre cheville ont été étirés. Cette entorse est plus rare et parfois plus longue à guérir qu'une entorse externe. Cette fiche s'applique une fois que votre médecin a écarté une fracture (y compris en haut de la jambe, près du genou) et une entorse haute instable. Une protection temporaire, puis un renforcement progressif permettent une bonne guérison.",
   "pourquoi": [
-   "Pied tourné vers l'extérieur, ou écrasé vers l'intérieur."
+   "Pied qui tourne vers l'extérieur, ou cheville qui bascule vers l'intérieur (arche du pied écrasée)."
   ],
   "ce_qui_aide": [
    "Porter l'attelle ou la botte conseillée par votre médecin, souvent pendant quelques semaines (jusqu'à 6 semaines pour une entorse modérée à sévère).",
@@ -1189,17 +1197,19 @@
    "Ignorer une douleur en haut du péroné (côté externe de la jambe, sous le genou)."
   ],
   "soulager": [
-   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur en appuyant sur le haut du côté externe de la jambe, près du genou (fracture de Maisonneuve à écarter d'urgence).",
-   "Gonflement rouge et chaud."
+   "Gonflement rouge et chaud.",
+   "Classé sous « Consultez rapidement » : Incapacité de faire 4 pas, même en boitant (radiographie à envisager).",
+   "Mollet douloureux et enflé pendant le port de la botte ou de l'attelle (phlébite à écarter)."
   ],
   "medecin": [
-   "Incapacité de faire 4 pas, ou douleur qui ne diminue pas après 1 semaine.",
-   "Sensation que la cheville se dérobe ou s'écarte à l'appui.",
+   "Douleur qui ne diminue pas après 1 semaine.",
+   "Sensation que la cheville se dérobe ou s'écarte à l'appui : revoyez votre médecin dans les prochains jours.",
    "Arche du pied qui s'affaisse."
   ],
   "duree_habituelle": "Guérison en 4 à 8 semaines pour une entorse interne isolée, parfois plus.",
@@ -1243,7 +1253,7 @@
     "illustration": "Dessin au trait d'une personne montant sur la pointe des deux pieds face à un mur.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer les mollets.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -1281,7 +1291,7 @@
   "diagnostic": "Tendinopathie, déchirure ou luxation des fibulaires",
   "en_bref": [
    "Les tendons derrière la bosse externe de la cheville sont surmenés.",
-   "Un renforcement progressif les guérit le plus souvent.",
+   "Un traitement actif (adapter les activités, puis renforcer progressivement) améliore la situation le plus souvent.",
    "Un tendon qui saute par-dessus l'os demande un avis orthopédique."
   ],
   "ce_que_vous_avez": "Les tendons qui passent juste derrière la bosse osseuse à l'extérieur de la cheville (les fibulaires) sont surmenés et sensibles, souvent après une entorse ou une surcharge. Ils empêchent la cheville de se tordre. Les renforcer progressivement améliore la situation dans la plupart des cas. Cette fiche ne s'applique pas si un tendon est déchiré ou saute par-dessus l'os : un avis orthopédique est alors nécessaire.",
@@ -1293,8 +1303,8 @@
   "ce_qui_aide": [
    "Réduire temporairement les activités qui déclenchent la douleur, sans arrêter de bouger.",
    "Renforcer progressivement les muscles fibulaires avec un élastique et travailler l'équilibre sur une jambe.",
-   "Porter des souliers stables et, au besoin, une chevillère pendant le sport.",
-   "Appliquer de la glace 15 minutes à travers un linge derrière la bosse externe si cela soulage après l'effort."
+   "Porter des souliers stables et, au besoin, une chevillère pendant le sport. Si vous avez le pied creux, une semelle avec un appui sous le bord extérieur du talon peut aider, si elle vous est conseillée.",
+   "Appliquer de la glace 10 à 15 minutes à travers un linge derrière la bosse externe si cela soulage après l'effort."
   ],
   "a_eviter": [
    "Courir sur des routes en dévers ou des sentiers très accidentés.",
@@ -1308,15 +1318,17 @@
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
   "urgence": [
-   "Tendon que vous sentez ou voyez sauter ou claquer par-dessus la bosse osseuse externe (luxation des fibulaires : avis orthopédique requis).",
-   "Douleur soudaine avec claquement et perte de force sur le côté de la cheville (déchirure à écarter)."
+   "Tendon que vous sentez ou voyez sauter par-dessus la bosse osseuse externe juste après une blessure ou une torsion (luxation récente des fibulaires : avis orthopédique rapide).",
+   "Douleur soudaine avec claquement et perte de force sur le côté de la cheville (déchirure à écarter).",
+   "Incapacité de mettre du poids sur le pied après une blessure."
   ],
   "medecin": [
+   "Tendon qui saute ou claque par-dessus la bosse externe depuis longtemps, à répétition (avis orthopédique à prévoir).",
    "Gonflement important derrière la bosse externe qui ne diminue pas.",
    "Cheville qui se tord à répétition.",
    "Aucune amélioration après 8 à 12 semaines."
   ],
-  "duree_habituelle": "Amélioration en 6 à 12 semaines. Un avis spécialisé est indiqué si la douleur persiste après 3 mois.",
+  "duree_habituelle": "Amélioration en 6 à 12 semaines. Un avis spécialisé est indiqué si la douleur persiste après 3 à 6 mois de traitement bien suivi.",
   "materiel": [
    "élastique",
    "mur",
@@ -1357,7 +1369,7 @@
     "illustration": "Dessin au trait d'une personne debout montant sur la pointe des pieds.",
     "phase": "Quand la douleur diminue",
     "but": "Pour renforcer le mollet.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Montez moins haut."
    },
    {
     "nom": "Équilibre sur une jambe",
@@ -1407,7 +1419,7 @@
    "Éviter temporairement le mouvement exact qui pince (pointes forcées, squats très bas).",
    "Mettre une petite talonnette provisoire dans les deux souliers si le pincement est à l'avant de la cheville.",
    "Renforcer les muscles autour de la cheville et travailler l'équilibre.",
-   "Appliquer de la glace 15 minutes à travers un linge sur la zone sensible si cela soulage après le sport."
+   "Appliquer de la glace 10 à 15 minutes à travers un linge sur la zone sensible si cela soulage après le sport."
   ],
   "a_eviter": [
    "Forcer la cheville dans la position qui reproduit le pincement.",
@@ -1415,13 +1427,16 @@
    "Reprendre les sauts ou les frappes de balle tant qu'ils sont douloureux."
   ],
   "soulager": [
-   "Glace 10 à 15 minutes, dans un linge, après l'activité.",
+   "Glace 10 à 15 minutes, dans un linge, après l'activité, si cela vous soulage.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Aucun exercice ne doit reproduire le pincement vif.",
-  "urgence": [],
+  "urgence": [
+   "Cheville qui reste bloquée et ne se débloque pas.",
+   "Cheville soudainement très enflée, rouge et chaude, avec ou sans fièvre."
+  ],
   "medecin": [
-   "Blocage ou ressaut douloureux net dans la cheville.",
+   "Accrochage ou ressaut douloureux qui revient, mais se débloque seul.",
    "Gonflement qui persiste.",
    "Engourdissements dans le pied.",
    "Pincement toujours présent après 8 à 12 semaines malgré l'adaptation du sport."
@@ -1505,7 +1520,7 @@
    "Porter des souliers confortables qui soutiennent le pied (orthèses plantaires si conseillées, surtout si le pied s'affaisse vers l'intérieur).",
    "Éviter les chaussures, bottes ou patins qui serrent la cheville.",
    "Réduire temporairement les activités qui déclenchent les picotements.",
-   "Faire de très doux glissements du nerf, sans jamais tirer."
+   "Faire de très doux glissements du nerf, sans jamais tirer (ils peuvent aider, mais les preuves sont faibles)."
   ],
   "a_eviter": [
    "Marcher longtemps pieds nus sur des planchers durs.",
@@ -1513,14 +1528,16 @@
    "Forcer des étirements qui augmentent les picotements, ou garder un soutien d'arche qui les augmente."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui déclenche ou augmente les picotements sous le pied.",
-  "urgence": [],
+  "regle_de_douleur": "Les exercices ne doivent pas déclencher de picotements. Une gêne légère (jusqu'à 3 sur 10) est acceptable si elle disparaît rapidement après l'exercice et si vos symptômes ne sont pas plus forts le lendemain. Arrêtez tout mouvement qui déclenche ou augmente les picotements sous le pied.",
+  "urgence": [
+   "Faiblesse du pied ou engourdissement qui apparaît soudainement ou s'aggrave vite, surtout avec un mal de dos, des symptômes aux deux jambes ou de la difficulté à uriner."
+  ],
   "medecin": [
-   "Engourdissements constants sous le pied ou faiblesse des orteils.",
-   "Petite bosse sentie derrière la bosse interne de la cheville.",
+   "Engourdissements constants sous le pied ou faiblesse des orteils : revoyez votre médecin dans les prochains jours.",
+   "Petite bosse sentie derrière la bosse interne de la cheville : revoyez votre médecin dans les prochains jours.",
    "Douleur qui vous réveille la nuit malgré les chaussures adaptées.",
    "Aucune amélioration après 6 à 8 semaines."
   ],
@@ -1552,7 +1569,7 @@
     "illustration": "Dessin au trait d'un pied nu au sol soulevant doucement son arche.",
     "phase": "Dès maintenant",
     "but": "Pour soutenir l'arche et soulager le nerf.",
-    "plus_facile": "Faites-le assis."
+    "plus_facile": "Tenez 3 secondes seulement."
    },
    {
     "nom": "Étirement très léger du mollet, genou plié (seulement s'il ne déclenche aucun picotement)",

@@ -53,7 +53,7 @@
    "élastique",
    "serviette",
    "mur",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -515,7 +515,7 @@
   "duree_habituelle": "Amélioration souvent nette en 6 à 12 semaines d'exercices réguliers. C'est à ce moment que l'on fait le point avec le médecin sur la suite du traitement.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "coussin"
   ],
   "exercices": [
@@ -1081,7 +1081,7 @@
   "materiel": [
    "élastique",
    "mur",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1195,7 +1195,7 @@
   "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines. Après une rupture haute du tendon, la douleur diminue souvent en quelques semaines.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1419,8 +1419,7 @@
   ],
   "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines de réadaptation. Si le résultat reste insuffisant après environ 3 mois, les autres options sont rediscutées avec le médecin.",
   "materiel": [
-   "élastique",
-   "poids léger ou bouteille d'eau"
+   "élastique"
   ],
   "exercices": [
    {

@@ -1,0 +1,325 @@
+# Fiches lombaires révisées — LOM-05 à LOM-08
+Légende de révision
+[MODIFIÉ : ancien texte → nouveau texte — raison ; référence] : le nouveau texte à utiliser est celui qui suit la flèche.
+[À VÉRIFIER : …] : donnée non confirmée dans les sources consultées; à valider avant publication.
+Tout texte sans balise est conservé tel quel.
+## FICHE LOM-05 · [lombaire/grossesse]
+Titre : Lombalgie et douleur pelvienne de la grossesseSous-titre : Mal de dos et douleur du bassin pendant la grossesseAncien titre : Mal de dos et douleur du bassin pendant la grossesseDiagnostic correspondant dans MSK Morand : Lombalgie ou douleur pelvienne de la grossesse
+EN BREF
+Ces douleurs sont fréquentes et sans danger pour le bébé.
+Rester active et faire des exercices adaptés aide.
+[MODIFIÉ : « Elles disparaissent le plus souvent après l'accouchement. » → « Elles diminuent le plus souvent dans les semaines et les mois qui suivent l'accouchement. » — environ 1 femme sur 3 a encore des douleurs du bassin 3 mois après l'accouchement ; Wuytack et al., Midwifery, 2018 (PMID 30142609) ; Gutke et al., J Womens Health, 2018]
+CE QUE VOUS AVEZ
+Pendant la grossesse, le poids du ventre, les changements de posture et les hormones modifient la façon dont le bas du dos et le bassin travaillent. Ces douleurs sont très fréquentes et sans danger pour votre bébé. Rester active, faire des exercices doux (sur terre ou dans l'eau) et bien vous installer la nuit aident à les soulager.
+POURQUOI ÇA ARRIVE
+Poids du ventre et changement de posture.
+Hormones qui assouplissent les ligaments du bassin. [À VÉRIFIER : le rôle des hormones dans ces douleurs n'a pas été confirmé dans les sources consultées; formulation prudente possible : « Hormones de la grossesse, qui pourraient assouplir les ligaments du bassin. »]
+SOULAGER LA DOULEUR
+[MODIFIÉ : « Chaleur douce ou bain tiède (pas chaud) pour détendre les muscles. » → « Chaleur douce sur le dos (pas sur le ventre) ou bain tiède (pas chaud) pour détendre les muscles. » — précision de sécurité : la chaleur locale ne doit pas être appliquée sur le ventre ou le bassin; un bain à 40 °C jusqu'à 20 minutes ne fait pas monter la température du corps à un niveau dangereux ; Powers et al., Am Fam Physician, 2023 ; Ravanelli et al., Br J Sports Med, 2019 (PMID 29496695)]
+[MODIFIÉ : « Acétaminophène au besoin ; évitez les anti-inflammatoires pendant la grossesse, sauf avis de votre médecin. » → « Acétaminophène au besoin, en plus petite quantité et le moins longtemps possible ; évitez les anti-inflammatoires pendant la grossesse, surtout à partir de 20 semaines, sauf avis de votre médecin. » — l'acétaminophène reste le premier choix selon les sociétés savantes (les études avec comparaison entre frères et sœurs ne montrent pas de lien avec l'autisme ou le TDAH), avec le conseil d'en prendre le moins possible; les anti-inflammatoires sont à éviter à partir d'environ 20 semaines (reins du bébé, baisse du liquide amniotique) et après 30 semaines (fermeture du canal artériel) ; Louwen et al. (FIGO), Int J Gynaecol Obstet, 2025 ; Ahlqvist et al., JAMA, 2024 ; Powers et al., Am Fam Physician, 2023]
+[À VÉRIFIER : l'avis de Santé Canada sur les anti-inflammatoires après 20 semaines et la position de la SOGC sur l'acétaminophène n'ont pas été retrouvés dans les sources consultées; les énoncés ci-dessus reposent sur la FDA, la FIGO et l'ACOG.]
+CE QUI AIDE
+Dormir sur le côté avec un oreiller entre les genoux et un petit coussin sous le ventre.
+Garder les deux genoux ensemble quand vous entrez dans l'auto ou le lit et quand vous en sortez.
+Marcher ou faire de la natation ou de l'aquaforme régulièrement, selon votre confort.
+Essayer une ceinture de soutien du bassin pour les marches ou les périodes debout prolongées : elle soulage certaines femmes (demandez conseil pour bien l'ajuster).
+À ÉVITER POUR L'INSTANT
+Rester longtemps couchée à plat sur le dos à partir du milieu de la grossesse (environ 20 semaines), surtout si cela vous donne des étourdissements ou des nausées : préférez le côté ou la position semi-assise.
+Faire de grands écarts de jambes ou des fentes profondes, ou porter une charge (un enfant, par exemple) sur une seule hanche.
+[MODIFIÉ : « Rester debout sur une jambe pour vous habiller : asseyez-vous. » → « Rester debout sur une jambe pour vous habiller : assoyez-vous. » — uniformisation du terme québécois avec la fiche LOM-06]
+Prendre des anti-inflammatoires (ibuprofène, naproxène) sans l'avis de votre médecin, de votre sage-femme ou de votre pharmacien.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez l'exercice si vous avez des étourdissements, un essoufflement inhabituel ou des contractions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Arrêtez l'exercice et appelez si vous avez des étourdissements, un essoufflement inhabituel, une douleur dans la poitrine, des contractions régulières ou douloureuses, un saignement, une perte de liquide, ou une douleur ou une enflure au mollet. » — aucun guide de grossesse ne fixe de délai pour la douleur après l'exercice (le délai d'une heure n'est pas appuyé; « le lendemain matin » est une extrapolation, comme dans les autres fiches); la liste des signes d'arrêt est complétée selon les guides d'activité physique ; ACOG Committee Opinion 804, Obstet Gynecol, 2020 ; Mottola et al., J Obstet Gynaecol Can, 2018 (PMID 30297272) ; Vleeming et al., Eur Spine J, 2008 (PMID 18259783)]
+[À VÉRIFIER : la liste exacte des « raisons de cesser l'activité » du guide canadien de 2019 n'était pas affichée dans les sources consultées; la liste ci-dessus suit celle de l'ACOG.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Urgence OBSTÉTRICALE (appelez ou rendez-vous à votre unité des naissances) : contractions régulières ou douleurs rythmées au ventre ou au dos, saignement, perte de liquide ou diminution des mouvements du bébé.
+Engourdissement entre les jambes, difficulté nouvelle à uriner, perte d'urine ou de selles inhabituelle, ou faiblesse dans une jambe ou les deux.
+Mollet douloureux, enflé ou rouge, douleur dans la poitrine ou essoufflement soudain.
+[MODIFIÉ : « Fièvre, brûlures en urinant ou douleur dans le flanc (possible infection urinaire ou du rein). » (sous « Revoyez votre médecin si ») → « Fièvre avec douleur dans le flanc ou brûlures en urinant (possible infection du rein) : faites-vous évaluer le jour même. » (déplacé ici) — pendant la grossesse, l'infection du rein se traite à l'hôpital et peut entraîner un travail avant terme ou une infection grave ; ACOG Clinical Consensus sur les infections urinaires pendant la grossesse, Obstet Gynecol, 2023]
+[MODIFIÉ : « Douleur soudaine et très forte dans le dos, la hanche ou l'aine qui vous empêche de marcher ou de vous appuyer sur la jambe. » (sous « Revoyez votre médecin si ») → même texte, déplacé ici, suivi de « Ne mettez pas de poids sur la jambe en attendant. » — une fragilité passagère de l'os de la hanche en fin de grossesse peut mener à une fracture si l'on continue de marcher dessus ; Thabah et Ravindran, Rheumatol Int, 2015 ; Spinarelli et al., Orthopedics, 2009]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : (ajout) → « Brûlures en urinant sans fièvre (possible infection urinaire) : appelez dans la journée ou le lendemain. » — la partie sans fièvre de l'ancien énoncé reste ici, avec un délai précis ; ACOG Clinical Consensus, Obstet Gynecol, 2023]
+[MODIFIÉ : (ajout) → « Douleur qui vous empêche de dormir, de marcher ou de faire vos activités malgré ces conseils : des exercices adaptés avec un ou une physiothérapeute peuvent aider. » — les guides recommandent des exercices individualisés ; Vleeming et al., Eur Spine J, 2008 (PMID 18259783)]
+Douleur qui persiste plus de 3 mois après l'accouchement.
+DURÉE HABITUELLE
+[MODIFIÉ : « La douleur varie au fil de la grossesse et peut augmenter vers la fin. Les exercices aident surtout s'ils sont faits régulièrement pendant 8 à 12 semaines. Chez la plupart des femmes, la douleur disparaît dans les 3 mois qui suivent l'accouchement. » → « La douleur varie au fil de la grossesse et peut augmenter vers la fin. Les exercices aident surtout s'ils sont faits régulièrement pendant 8 à 12 semaines. Chez la majorité des femmes, la douleur diminue nettement dans les 3 mois qui suivent l'accouchement. Environ 1 femme sur 3 a encore des douleurs du bassin à 3 mois, et un petit nombre (environ 5 à 10 sur 100) plus longtemps. » — chiffres des études de suivi; les programmes de 8 à 12 semaines sont bien ceux qui ont réduit la douleur dans la revue Cochrane ; Wuytack et al., Midwifery, 2018 (PMID 30142609) ; Gutke et al., J Womens Health, 2018 ; Liddle et Pennick, Cochrane Database Syst Rev, 2015 (PMID 26422811)]
+PROGRAMME D'EXERCICES
+Matériel : élastique, ballon, coussin
+Exercice 1 : Dos rond / dos neutre à quatre pattes
+Phase : Dès maintenant
+But : Pour détendre le bas du dos.
+Départ : À quatre pattes (ou debout, mains appuyées sur le bord d'un lit ou d'un comptoir, si le sol est inconfortable).
+Mouvement : Arrondissez doucement le bas du dos en rentrant légèrement le nombril vers la colonne, puis revenez en position neutre sans creuser.
+Dosage : 10 répétitions lentes, 1 à 2 fois par jour.
+Progression : Assise sur un gros ballon d'exercice, pieds bien à plat et près d'un appui stable, faites de petites bascules du bassin vers l'avant et vers l'arrière.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Laisser le ventre tomber vers le sol et creuser fortement le dos.
+Illustration demandée : Dessin au trait d'une femme enceinte à quatre pattes arrondissant doucement le bas du dos.
+Exercice 2 : Contraction douce du plancher pelvien et du ventre profond
+Phase : Dès maintenant
+But : Pour soutenir le bassin et le dos.
+Départ : Assise le dos droit (ou couchée sur le côté), respiration calme.
+Mouvement : En expirant doucement, serrez légèrement les muscles du périnée (comme pour retenir un gaz ou l'urine) et rentrez doucement le bas du ventre. Tenez 5 secondes, puis relâchez complètement.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Tenez 8 à 10 secondes en continuant de respirer.
+Plus facile : Tenez 3 secondes.
+Erreur fréquente : Bloquer la respiration ou serrer fortement les fesses et les cuisses.
+Illustration demandée : Dessin au trait d'une femme enceinte assise sur une chaise, dos droit, posant une main sur le bas du ventre.
+Exercice 3 : Coquillage couché sur le côté (renforcement des fessiers)
+Phase : Dès maintenant
+But : Pour renforcer les fessiers, qui stabilisent le bassin.
+Départ : Couchée sur le côté, genoux pliés, un oreiller sous la tête et un petit coussin sous le ventre au besoin.
+Mouvement : Gardez les pieds collés et ouvrez doucement le genou du dessus vers le plafond, sur une petite amplitude, sans laisser le bassin rouler vers l'arrière. Redescendez lentement.
+Dosage : 2 séries de 10 à 12 répétitions de chaque côté, 3 fois par semaine.
+Progression : Ajoutez un élastique léger autour des cuisses si c'est confortable.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Ouvrir le genou trop grand ou continuer malgré une douleur à l'avant du bassin (pubis).
+Illustration demandée : Dessin au trait d'une femme enceinte couchée sur le côté, genoux pliés, ouvrant doucement le genou du dessus.
+RÉFÉRENCES
+Liddle SD, Pennick V. Interventions for preventing and treating low-back and pelvic pain during pregnancy. Cochrane Database Syst Rev, 2015;(9):CD001139 (PMID : 26422811) — référence vérifiée.
+Mottola MF, Davenport MH, Ruchat SM, et al. No. 367-2019 Canadian Guideline for Physical Activity Throughout Pregnancy. J Obstet Gynaecol Can, 2018;40(11):1528-1537 (PMID : 30297272) — référence vérifiée (aussi publiée dans Br J Sports Med, 2018, PMID : 30337460).
+[MODIFIÉ : (ajout) → Davenport MH, Marchand AA, Mottola MF, et al. Exercise for the prevention and treatment of low back, pelvic girdle and lumbopelvic pain during pregnancy: a systematic review and meta-analysis. Br J Sports Med, 2019 (PMID : 30337344) — revue canadienne plus récente : l'exercice ne prévient pas ces douleurs, mais en diminue l'intensité]
+[MODIFIÉ : (ajout) → Wuytack F, Daly D, Curtis E, Begley C. Prognostic factors for pregnancy-related pelvic girdle pain, a systematic review. Midwifery, 2018 (PMID : 30142609) — appuie la durée après l'accouchement]
+## FICHE LOM-06 · [lombaire/stenose]
+Titre : Sténose spinale lombaireSous-titre : Canal lombaire étroitAncien titre : Canal lombaire étroit (sténose spinale)Diagnostic correspondant dans MSK Morand : Sténose spinale lombaire
+EN BREF
+Le canal où passent les nerfs est devenu plus étroit avec les années.
+Se pencher vers l'avant et s'asseoir soulagent les jambes.
+Les exercices et la marche fractionnée aident à marcher plus longtemps.
+CE QUE VOUS AVEZ
+Avec les années, le canal où passent les nerfs dans le bas du dos est devenu plus étroit. Cela donne une lourdeur, des crampes ou des fourmillements dans les fesses et les jambes quand vous marchez ou restez debout; ces symptômes diminuent quand vous vous asseyez ou vous penchez en avant. Chez beaucoup de gens, la situation reste stable pendant des années. Les exercices et le vélo stationnaire peuvent améliorer votre capacité à marcher.
+POURQUOI ÇA ARRIVE
+Usure des disques et des articulations avec l'âge.
+Épaississement des ligaments du dos.
+SOULAGER LA DOULEUR
+Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.
+[MODIFIÉ : « Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir. » → « Les médicaments contre la douleur vendus sans ordonnance (acétaminophène, anti-inflammatoires) aident peu pour ce problème, et les anti-inflammatoires comportent plus de risques avec l'âge. Demandez l'avis de votre pharmacien ou de votre médecin avant d'en prendre ; parlez à votre médecin si la douleur vous empêche de dormir. » — le guide de pratique cité par la fiche recommande (recommandation conditionnelle) de ne pas utiliser les anti-inflammatoires ni l'acétaminophène dans la sténose avec claudication; aucune étude ne les a testés dans ce problème, et les personnes atteintes sont plus âgées, donc plus à risque pour les reins, le cœur et l'estomac ; Bussières et al., J Pain, 2021 (PMID 33857615) ; Katz et al., JAMA, 2022]
+CE QUI AIDE
+Faire du vélo stationnaire (la position légèrement penchée vers l'avant donne plus de place aux nerfs).
+Vous pencher un peu en avant pour marcher plus longtemps, par exemple en vous appuyant sur un panier d'épicerie ou une marchette.
+Vous asseoir quelques minutes dès que les jambes deviennent lourdes, puis repartir.
+[MODIFIÉ : « Suivre un programme supervisé en physiothérapie (exercices et thérapie manuelle) : il donne de meilleurs résultats que les exercices faits seul. » → « Suivre un programme supervisé en physiothérapie (exercices et thérapie manuelle) : il donne souvent de meilleurs résultats que les exercices faits seul. » — l'avantage est démontré (par exemple, amélioration chez 63 % des personnes avec le programme supervisé contre 33 % avec les exercices à la maison après 6 semaines), mais dans un des essais il n'était plus visible à 6 mois ; Minetama et al., Spine J, 2019 (PMID 30986577) ; Ammendolia et al., Arch Phys Med Rehabil, 2018 (PMID 29935152) ; Schneider et al., JAMA Netw Open, 2019]
+À ÉVITER POUR L'INSTANT
+Rester debout sans bouger, le dos très cambré, pendant de longues périodes.
+Forcer la marche sans pause quand la douleur ou la lourdeur augmente dans les jambes.
+Faire des exercices qui creusent fortement le bas du dos.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Assoyez-vous dès que les jambes deviennent engourdies ou faibles, puis reprenez quand les symptômes ont diminué. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Assoyez-vous dès que les jambes deviennent engourdies ou faibles, puis reprenez quand les symptômes ont diminué. » — aucun délai n'est décrit dans les essais sur la sténose; le délai d'une heure n'est pas appuyé; la consigne de s'asseoir selon les symptômes est conservée ; Ammendolia et al., BMJ Open, 2022 (PMID 35046008) ; Silbernagel et al., Am J Sports Med, 2007]
+[À VÉRIFIER : délai « lendemain matin » extrapolé d'autres régions du corps; aucun délai validé pour la sténose.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse qui s'aggrave rapidement dans les jambes.
+[MODIFIÉ : « […] pied froid ou pâle […] » (sous « Revoyez votre médecin si ») → « Pied ou jambe qui devient soudainement froid, pâle et très douloureux (problème de circulation urgent). » (ajouté ici) — un manque soudain de circulation dans une jambe est une urgence; jugement clinique ; référence À VÉRIFIER]
+REVOYEZ VOTRE MÉDECIN SI
+Faiblesse progressive d'un pied ou d'une jambe, ou chutes à répétition.
+Distance de marche qui diminue rapidement malgré les exercices.
+[MODIFIÉ : « Douleur dans les mollets à la marche qui disparaît dès que vous vous arrêtez debout, pied froid ou pâle, ou plaie au pied qui ne guérit pas (possible problème de circulation). » → « Douleur dans les mollets à la marche qui disparaît dès que vous vous arrêtez debout, pied souvent froid ou pâle, ou plaie au pied qui ne guérit pas (possible problème de circulation). » — distingue le problème de circulation qui s'installe lentement (rendez-vous) du problème soudain (urgence, ajouté ci-dessus); une douleur aux mollets soulagée simplement en s'arrêtant debout oriente bien vers un problème de circulation ; Nadeau et al., Can J Surg, 2013]
+Douleur constante au repos ou la nuit.
+DURÉE HABITUELLE
+Amélioration de la tolérance à la marche possible en 6 à 12 semaines d'exercices réguliers. L'amélioration est souvent partielle et les symptômes peuvent varier d'une semaine à l'autre.
+PROGRAMME D'EXERCICES
+Matériel : chaise, mur, tapis d'exercice
+Exercice 1 : Genoux à la poitrine couché
+Phase : Dès maintenant
+But : Pour ouvrir le canal et soulager les jambes.
+Départ : Couché sur le dos, genoux pliés, pieds au sol.
+Mouvement : Ramenez doucement les deux genoux vers la poitrine avec vos mains pour arrondir le bas du dos. Tenez 20 à 30 secondes en respirant.
+Dosage : 3 à 4 répétitions, 2 fois par jour (surtout le matin et après la marche).
+Progression : Tenez 30 secondes en relâchant bien les fessiers.
+Plus facile : Ramenez un seul genou.
+Erreur fréquente : Crisper le cou en soulevant la tête.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos ramenant doucement ses deux genoux vers la poitrine.
+Exercice 2 : Bascule du bassin couché
+Phase : Dès maintenant
+But : Pour réduire la cambrure.
+Départ : Couché sur le dos, genoux pliés, pieds au sol.
+Mouvement : Serrez doucement le ventre pour plaquer le bas du dos contre le matelas ou le tapis. Tenez 5 secondes, puis relâchez.
+Dosage : 2 séries de 10 répétitions, 2 fois par jour.
+Progression : Levez un genou à la fois vers vous en gardant le bas du dos plaqué.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Laisser le dos se creuser.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos plaquant le bas du dos au sol.
+Exercice 3 : Étirement doux de l'avant de la hanche sans cambrer
+Phase : Quand la douleur diminue
+But : Pour assouplir l'avant de la hanche.
+Départ : Debout en petite fente, un pied devant l'autre, une main appuyée sur une chaise ou un mur.
+Mouvement : Rentrez légèrement les fesses (bascule du bassin) et avancez doucement les hanches jusqu'à sentir un étirement à l'avant de la hanche de la jambe arrière, sans creuser le dos. Tenez 20 secondes.
+Dosage : 3 répétitions de chaque côté, 1 fois par jour.
+Progression : Tenez 30 secondes.
+Plus facile : Faites un plus petit pas.
+Erreur fréquente : Cambrer le bas du dos pendant l'étirement.
+Illustration demandée : Dessin au trait d'une personne debout en petite fente, main sur le dossier d'une chaise, étirant l'avant de la hanche.
+Exercice 4 : Vélo stationnaire
+Phase : Dès maintenant
+But : Pour garder la forme sans douleur aux jambes (le dos un peu penché vers l'avant aide).
+Départ : Assis sur un vélo stationnaire, buste légèrement incliné vers le guidon.
+Mouvement : Pédalez à résistance légère à modérée, à un rythme confortable.
+Dosage : 10 à 20 minutes, 3 à 5 fois par semaine.
+Progression : Ajoutez 2 à 5 minutes chaque semaine, puis ajoutez de la marche par intervalles entrecoupés de courtes pauses assises.
+Plus facile : Pédalez 5 minutes, sans résistance.
+Erreur fréquente : Régler la selle trop bas ou choisir une résistance trop forte.
+Illustration demandée : Dessin au trait d'une personne pédalant calmement sur un vélo stationnaire.
+RÉFÉRENCES
+Bussières A, Cancelliere C, Ammendolia C, et al. Non-Surgical Interventions for Lumbar Spinal Stenosis Leading to Neurogenic Claudication: A Clinical Practice Guideline. J Pain, 2021;22(9):1015-1039, doi:10.1016/j.jpain.2021.03.147 (PMID : 33857615) — référence vérifiée (guide canadien).
+Ammendolia C, Hofkirchner C, Plener J, et al. Non-operative treatment for lumbar spinal stenosis with neurogenic claudication: an updated systematic review. BMJ Open, 2022 (PMID : 35046008) — référence vérifiée.
+[MODIFIÉ : (ajout) → Minetama M, Kawakami M, Teraguchi M, et al. Supervised physical therapy vs. home exercise for patients with lumbar spinal stenosis: a randomized controlled trial. Spine J, 2019 (PMID : 30986577) — appuie l'énoncé sur le programme supervisé]
+[MODIFIÉ : (ajout) → Katz JN, Zimmerman ZE, Mass H, Makhni MC. Diagnosis and Management of Lumbar Spinal Stenosis: A Review. JAMA, 2022 — synthèse récente ; PMID À VÉRIFIER]
+## FICHE LOM-07 · [lombaire/si]
+Titre : Douleur sacro-iliaqueSous-titre : Douleur de l'articulation du bassinAncien titre : Douleur de l'articulation du bassin (sacro-iliaque)Diagnostic correspondant dans MSK Morand : Douleur sacro-iliaque
+EN BREF
+L'articulation entre le bas de la colonne et le bassin est irritée.
+[MODIFIÉ : « Renforcer les fessiers et le tronc la stabilise. » → « Renforcer les fessiers et le tronc peut aider à diminuer la douleur. » — les preuves pour les exercices sont de faible certitude (recommandation de grade C); « stabilise » promet plus que ce qui est démontré ; McCormick et al., Pain Med, 2025 ; Newman et Soto, Am Fam Physician, 2022]
+La douleur diminue habituellement en quelques semaines. [À VÉRIFIER : aucune donnée d'évolution naturelle n'a été retrouvée dans les sources consultées]
+CE QUE VOUS AVEZ
+L'articulation qui relie le bas de votre colonne aux os du bassin semble irritée. La douleur se situe d'un côté, dans la fesse, et augmente souvent quand vous vous retournez dans le lit, montez un escalier ou vous levez d'une chaise. Ce n'est pas grave. Renforcer les fessiers et les muscles du tronc aide le bassin à mieux tolérer les efforts.
+POURQUOI ÇA ARRIVE
+Grossesse ou accouchement récent.
+Chute sur les fesses ou faux mouvement.
+[MODIFIÉ : « Course en pente ou jambes de longueur inégale. » → « Jambes de longueur inégale, ou sports avec des efforts répétés sur une jambe. » — l'inégalité de longueur des jambes est un facteur de risque reconnu; la « course en pente » n'a pas été retrouvée comme facteur précis (seuls les efforts répétés ou inégaux dans le sport sont mentionnés) ; Sayed et al., J Pain Res, 2024 ; Gartenberg et al., Eur Spine J, 2021]
+[MODIFIÉ : (ajout) → « Opération antérieure pour souder des vertèbres du bas du dos. » — la douleur sacro-iliaque touche 33 à 59 % des personnes après une fusion lombaire ; McCormick et al., Pain Med, 2025]
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Renforcer les muscles des fesses et du tronc.
+Dormir sur le côté avec un oreiller entre les genoux.
+Sortir du lit ou de l'auto en gardant les deux genoux ensemble.
+Appliquer de la glace ou de la chaleur 15 minutes sur la fesse, selon ce qui vous soulage le mieux, en protégeant la peau avec un linge.
+[MODIFIÉ : (ajout) → « Essayer une ceinture de soutien du bassin : elle soulage certaines personnes. » — recommandation de grade C dans le consensus international; cohérence avec la fiche LOM-05 ; McCormick et al., Pain Med, 2025]
+À ÉVITER POUR L'INSTANT
+Rester longtemps debout en appui sur une seule jambe.
+Garder les jambes croisées longtemps en position assise si cela réveille la douleur.
+Faire des fentes profondes ou de la course tant que le bassin est très sensible : reprenez-les graduellement.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — même raison, mêmes références et même réserve « À VÉRIFIER » que dans la fiche LOM-01 ; Silbernagel et al., Am J Sports Med, 2007 ; Smith et al., Br J Sports Med, 2017 (PMID 28596288)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.
+[MODIFIÉ : « Douleur qui descend sous le genou avec engourdissements ou faiblesse. » (sous « Revoyez votre médecin si ») → « Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant). » (ajouté ici) — même raison que dans la fiche LOM-02 ; Thomé et al., Neurosurgery, 2022 (PMID 35040807)]
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » (sous « Revoyez votre médecin si ») → « Fièvre ou frissons avec votre douleur. » (déplacé ici) — même raison que dans la fiche LOM-01 ; Berbari et al., lignes directrices IDSA, Clin Infect Dis, 2015]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : « Douleur qui descend sous le genou avec engourdissements ou faiblesse. » → « Douleur qui descend sous le genou avec engourdissements. » — la faiblesse est déplacée sous « Consultez rapidement »]
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » → « Perte de poids inexpliquée ou antécédent de cancer. » — la fièvre est déplacée sous « Consultez rapidement »; cohérence avec la fiche LOM-01 ; Downie et al., BMJ, 2013 (PMID 24335669)]
+[MODIFIÉ : « Douleur qui vous réveille en deuxième moitié de nuit, avec une raideur le matin de plus de 30 minutes qui s'améliore en bougeant (inflammation à faire vérifier lors d'un rendez-vous, sans urgence). » → « Douleur qui dure depuis plus de 3 mois et qui a commencé avant 45 ans, qui vous réveille en deuxième moitié de nuit, avec une raideur le matin de plus de 30 minutes qui s'améliore en bougeant mais pas au repos (inflammation à faire vérifier lors d'un rendez-vous, sans urgence). » — ajout des critères de durée et d'âge de la recommandation de référence en rhumatologie; ces signes restent bien classés comme non urgents ; Poddubnyy et al., Ann Rheum Dis, 2015 (PMID 25990288)]
+Aucune amélioration après 6 semaines.
+DURÉE HABITUELLE
+Amélioration habituelle en 4 à 8 semaines. [À VÉRIFIER : aucune donnée d'évolution propre à la douleur sacro-iliaque n'a été retrouvée dans les sources consultées]
+PROGRAMME D'EXERCICES
+Matériel : élastique, serviette, coussin
+Exercice 1 : Pression d'un coussin entre les genoux
+Phase : Dès maintenant
+But : Pour stabiliser le bassin.
+Départ : Couché sur le dos, genoux pliés, un coussin ou une serviette pliée entre les genoux.
+Mouvement : Serrez doucement le coussin entre les genoux pendant 5 secondes en serrant légèrement le bas du ventre, puis relâchez.
+Dosage : 2 séries de 10 répétitions, 1 à 2 fois par jour.
+Progression : Ajoutez l'exercice inverse : écartez les genoux contre un élastique placé autour des cuisses.
+Plus facile : Serrez plus doucement, 3 secondes.
+Erreur fréquente : Bloquer sa respiration.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos, genoux pliés, serrant un coussin entre ses genoux.
+Exercice 2 : Coquillage couché sur le côté
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le côté, genoux pliés, pieds collés ensemble. Commencez par le côté sur lequel vous êtes le plus à l'aise.
+Mouvement : Soulevez doucement le genou du dessus, comme un coquillage qui s'ouvre, sans laisser le bassin rouler vers l'arrière. Redescendez lentement.
+Dosage : 3 séries de 12 répétitions de chaque côté (si c'est confortable), 3 à 4 fois par semaine.
+Progression : Ajoutez un élastique léger autour des cuisses, juste au-dessus des genoux.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Tourner le tronc vers l'arrière pour monter le genou plus haut.
+Illustration demandée : Dessin au trait d'une personne couchée sur le côté ouvrant le genou supérieur.
+Exercice 3 : Pont fessier
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers et le tronc.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez les fessiers et soulevez les hanches en gardant le bassin bien droit et à la même hauteur des deux côtés. Tenez 3 secondes, puis redescendez.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Placez un élastique autour des cuisses et gardez une légère tension vers l'extérieur pendant la montée.
+Plus facile : Montez moins haut.
+Erreur fréquente : Laisser une fesse descendre plus bas que l'autre.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier symétrique.
+RÉFÉRENCES
+George SZ, Fritz JM, Silfies SP, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. J Orthop Sports Phys Ther, 2021 (PMID : 34719942) [À VÉRIFIER : PMID non affiché dans les sources consultées. Ce guide porte sur le mal de dos en général, pas sur l'articulation sacro-iliaque.]
+[MODIFIÉ : (ajout) → McCormick ZL, Hurley RW, Anitescu M, et al. Consensus Practice Guidelines on Sacroiliac Joint Complex Pain From a Multispecialty, International Working Group. Pain Med, 2025 — référence récente propre à ce diagnostic ; PMID À VÉRIFIER]
+[MODIFIÉ : (ajout) → Newman DP, Soto AT. Sacroiliac Joint Dysfunction: Diagnosis and Treatment. Am Fam Physician, 2022 — synthèse pour la première ligne ; PMID À VÉRIFIER]
+## FICHE LOM-08 · [lombaire/hernie]
+Titre : Hernie discale lombaire avec radiculopathie (sciatique ou cruralgie)Sous-titre : Nerf irrité dans le bas du dos et la jambeAncien titre : Nerf irrité dans le bas du dos et la jambe (sciatique ou cruralgie)Diagnostic correspondant dans MSK Morand : Hernie discale avec radiculopathie (sciatique, cruralgie)
+EN BREF
+[MODIFIÉ : « Un disque irrite un nerf ; chez la plupart des gens, la douleur à la jambe diminue en 6 à 12 semaines. » → « Un disque irrite un nerf ; chez la plupart des gens, la douleur à la jambe diminue en 6 à 12 semaines, mais cela prend plus de temps chez certaines personnes. » — la douleur se résorbe chez 60 à 80 % des gens en 6 à 12 semaines, mais environ 1 personne sur 4 n'est pas rétablie durant le suivi dans un grand essai en première ligne ; Kögl et al., Dtsch Arztebl Int, 2024 (PMID 38835174) ; Konstantinou et al., Lancet Rheumatol, 2020]
+Rester actif dans les limites de la douleur aide à guérir.
+Une faiblesse de la jambe ou des troubles urinaires demandent une évaluation urgente.
+CE QUE VOUS AVEZ
+Un disque du bas du dos appuie sur un nerf ou l'irrite, ce qui donne une douleur dans la jambe (sciatique à l'arrière, cruralgie à l'avant de la cuisse). Chez la plupart des gens, la douleur diminue nettement en quelques semaines à trois mois sans chirurgie, et la hernie elle-même rapetisse souvent au fil des mois. Rester actif en douceur est sécuritaire et vaut mieux que le repos au lit.
+POURQUOI ÇA ARRIVE
+Disque qui s'use et se fissure avec le temps.
+Effort de soulèvement, flexions répétées ou position assise prolongée.
+Tabagisme et surpoids.
+SOULAGER LA DOULEUR
+Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.
+[MODIFIÉ : « Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir. » → « Les médicaments soulagent souvent peu la douleur d'un nerf irrité. Un anti-inflammatoire peut être essayé quelques jours si votre pharmacien ou votre médecin le juge approprié ; l'acétaminophène seul aide peu. Parlez à votre médecin si la douleur vous empêche de dormir. » — dans la sciatique, les anti-inflammatoires ne diminuent pas clairement la douleur par rapport au placebo (preuves de très faible certitude; amélioration globale un peu plus fréquente, plus d'effets indésirables); aucun essai n'a testé l'acétaminophène par la bouche dans la sciatique, et il est inefficace dans la lombalgie aiguë ; Rasmussen-Barr et al., Cochrane Database Syst Rev, 2016 (PMID 27743405) ; Grøvle et al., Pain, 2024 ; Qaseem et al., Ann Intern Med, 2017 (PMID 28192789)]
+CE QUI AIDE
+Marcher de courtes distances plusieurs fois par jour, selon votre tolérance.
+Trouver la position qui calme la jambe (souvent couché sur le dos, les mollets posés sur une chaise, ou sur le côté avec un oreiller entre les genoux).
+Prendre les médicaments contre la douleur tels que prescrits ou conseillés par votre médecin ou votre pharmacien.
+[MODIFIÉ : « Faire de très doux glissements du nerf, sans jamais tirer fort. » → « Essayer de très doux glissements du nerf, sans jamais tirer fort (ils aident certaines personnes). » — les preuves pour les glissements du nerf viennent surtout de douleurs installées depuis longtemps; elles sont faibles dans la sciatique récente; l'exercice reste sécuritaire s'il est doux ; Basson et al., J Orthop Sports Phys Ther, 2017 (PMID 28704626) ; George et al., J Orthop Sports Phys Ther, 2021]
+À ÉVITER POUR L'INSTANT
+Rester couché au lit toute la journée.
+Étirer fortement l'arrière de la cuisse jambe tendue (cela tire sur le nerf déjà irrité).
+Rester assis longtemps sans vous lever, surtout dans un fauteuil mou.
+Soulever des charges lourdes tant que la douleur dans la jambe est vive.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. » — le délai d'une heure n'est appuyé par aucune donnée; pour ce problème, le critère le mieux appuyé est l'endroit où se trouve la douleur (phrases suivantes, conservées), pas un délai ; May et al., Musculoskelet Sci Pract, 2018 (PMID 30273918) ; Skytte et al., Spine, 2005 (PMID 15928538)] Arrêtez tout mouvement qui fait descendre la douleur plus bas dans la jambe ou qui augmente les fourmillements dans la jambe ou le pied. Une douleur qui remonte de la jambe vers le dos est au contraire bon signe.
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou douleur ou faiblesse nouvelle dans les deux jambes.
+À faire évaluer le jour même : faiblesse qui apparaît ou s'aggrave dans la jambe, pied qui tombe ou qui accroche le sol.
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » (sous « Revoyez votre médecin si ») → « Fièvre ou frissons avec votre douleur. » (déplacé ici) — même raison que dans la fiche LOM-01 ; Berbari et al., lignes directrices IDSA, Clin Infect Dis, 2015]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur insupportable dans la jambe malgré les médicaments, qui empêche de dormir.
+[MODIFIÉ : « Fièvre ou perte de poids inexpliquée. » → « Perte de poids inexpliquée ou antécédent de cancer. » — la fièvre est déplacée sous « Consultez rapidement »; cohérence avec la fiche LOM-01 ; Downie et al., BMJ, 2013 (PMID 24335669)]
+Douleur dans la jambe encore importante après 6 à 8 semaines : d'autres traitements peuvent alors être discutés avec votre médecin.
+DURÉE HABITUELLE
+Amélioration souvent notable en 4 à 12 semaines. L'engourdissement peut mettre plus de temps à disparaître que la douleur, et une rechute est possible.
+PROGRAMME D'EXERCICES
+Matériel : chaise, coussin
+Exercice 1 : Position de soulagement (jambes sur une chaise)
+Phase : Dès maintenant
+But : Pour soulager la douleur de la jambe.
+Départ : Couché sur le dos au sol, les mollets posés sur l'assise d'une chaise (hanches et genoux pliés à 90 degrés).
+Mouvement : Respirez calmement en laissant le bas du dos et la jambe se détendre complètement.
+Dosage : 5 minutes, 2 à 4 fois par jour au besoin.
+Progression : Utilisez cette position après la marche si la jambe élance.
+Plus facile : Placez simplement un coussin sous les genoux.
+Erreur fréquente : Rester dans cette position alors qu'elle augmente la douleur dans la jambe.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos avec les mollets posés sur une chaise.
+Exercice 2 : Extension douce sur le ventre, puis sur les coudes
+Phase : Dès maintenant
+But : Pour faire remonter la douleur vers le dos, ce qui est bon signe.
+Départ : Allongé à plat sur le ventre, bras le long du corps ou sous le front.
+Mouvement : Restez simplement sur le ventre en respirant calmement. Si la douleur de la jambe diminue ou remonte vers le dos, relevez doucement le buste en appui sur les avant-bras.
+Dosage : 1 à 2 minutes, 2 à 3 fois par jour (seulement si la douleur dans la jambe diminue).
+Progression : Tenez l'appui sur les avant-bras 20 à 30 secondes, 3 à 5 fois, si c'est soulageant.
+Plus facile : Restez simplement à plat ventre.
+Erreur fréquente : Insister alors que la douleur descend plus bas dans la jambe.
+Illustration demandée : Dessin au trait d'une personne allongée sur le ventre, puis relevée doucement sur les avant-bras.
+Exercice 3 : Glissement très doux du nerf sciatique (assis)
+Phase : Quand la douleur diminue
+But : Pour aider le nerf à glisser sans l'étirer.
+Départ : Assis au bord d'une chaise, dos détendu, les deux pieds au sol.
+Mouvement : Dépliez doucement le genou du côté atteint tout en levant le menton vers le plafond, puis repliez le genou tout en ramenant le menton vers la poitrine. Le mouvement doit rester fluide, sans tiraillement.
+Dosage : 1 à 2 séries de 8 répétitions lentes, 1 à 2 fois par jour.
+Progression : Ramenez légèrement les orteils vers vous quand la jambe est dépliée, seulement si aucun tiraillement n'apparaît.
+Plus facile : Dépliez moins le genou.
+Erreur fréquente : Déplier la jambe et baisser la tête en même temps (cela tire trop fort sur le nerf).
+Illustration demandée : Dessin au trait d'une personne assise dépliant une jambe pendant qu'elle lève doucement le menton.
+Exercice 4 : Marche fractionnée
+Phase : Dès maintenant
+But : Pour rester actif sans irriter le nerf.
+Départ : Debout, regard devant vous, chaussures confortables.
+Mouvement : Marchez 5 à 15 minutes à un rythme confortable, sur un terrain plat.
+Dosage : 2 à 3 courtes marches par jour.
+Progression : Allongez la durée de marche chaque semaine. Quand la douleur vive de la jambe a diminué, ajoutez le pont fessier (3 séries de 10 répétitions, 1 fois par jour).
+Plus facile : Marchez 3 à 5 minutes, plusieurs fois par jour.
+Erreur fréquente : Marcher jusqu'à boiter ou jusqu'à déclencher de forts fourmillements.
+Illustration demandée : Dessin au trait d'une personne marchant d'un pas régulier et détendu.
+RÉFÉRENCES
+George SZ, Fritz JM, Silfies SP, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. J Orthop Sports Phys Ther, 2021 (PMID : 34719942) [À VÉRIFIER : PMID non affiché dans les sources consultées]
+Zhong M, Liu JT, Jiang H, et al. Incidence of Spontaneous Resorption of Lumbar Disc Herniation: A Meta-Analysis. Pain Physician, 2017 (PMID : 28072796) — référence vérifiée (résorption dans environ 67 % des cas).
+[MODIFIÉ : (ajout) → Rashed S, Vassiliou A, Starup-Hansen J, Tsang K. Systematic review and meta-analysis of predictive factors for spontaneous regression in lumbar disc herniation. J Neurosurg Spine, 2023 (PMID : 37486886) — référence plus récente sur la résorption de la hernie (plus fréquente quand la hernie est grosse ou détachée)]
+[MODIFIÉ : (ajout) → Wang Y, Dai G, Jiang L, Liao S. The incidence of regression after the non-surgical treatment of symptomatic lumbar disc herniation: a systematic review and meta-analysis. BMC Musculoskelet Disord, 2020 — 38 études, résorption dans environ 63 % des cas ; PMID À VÉRIFIER]
+[MODIFIÉ : (ajout) → Rasmussen-Barr E, Held U, Grooten WJ, et al. Non-steroidal anti-inflammatory drugs for sciatica. Cochrane Database Syst Rev, 2016;10:CD012382 (PMID : 27743405) — appuie la nouvelle formulation sur les médicaments]

@@ -1,0 +1,199 @@
+{
+ "coxarthrose": {
+  "ce_que_vous_avez": "Le cartilage et les autres tissus de votre articulation de la hanche ont changé avec le temps. Cela donne une raideur brève le matin (habituellement moins de 30 minutes, parfois jusqu'à une heure) et une douleur dans l'aine, la fesse ou le devant de la cuisse à la marche. Contrairement aux idées reçues, bouger n'use pas le cartilage : l'exercice régulier renforce les muscles, entretient la souplesse et aide à diminuer la douleur.",
+  "soulager": [
+   "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si cela vous soulage.",
+   "Anti-inflammatoire en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié. Les crèmes anti-inflammatoires aident peu à la hanche, car l'articulation est trop profonde. comprimés seulement, avec explication"
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain. Sinon, diminuez le nombre de répétitions à la séance suivante.",
+  "urgence": [
+   "Chute ou faux mouvement suivi d'une incapacité de mettre du poids sur la jambe.",
+   "Douleur soudaine et forte à l'aine avec incapacité de marcher, même sans chute.",
+   "Fièvre, ou hanche devenue soudainement très douloureuse, chaude ou enflée."
+  ],
+  "medecin": [
+   "Douleur qui vous réveille toutes les nuits et empêche de dormir.",
+   "Douleur qui s'aggrave vite, en quelques semaines.",
+   "Incapacité de marcher même quelques minutes malgré le traitement.",
+   "Douleur qui limite toujours beaucoup vos activités après environ 3 mois d'exercices (d'autres traitements peuvent être discutés)."
+  ],
+  "references": [
+   {
+    "texte": "Koc TA et al., Hip Pain and Mobility Deficits – Hip Osteoarthritis: Revision 2025, J Orthop Sports Phys Ther, 2025",
+    "doi_ou_pmid": "PMID: 41165671"
+   },
+   {
+    "texte": "Kolasinski SL et al., 2019 ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, Arthritis Rheumatol, 2020",
+    "doi_ou_pmid": "doi:10.1002/art.41142"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-01)"
+ },
+ "sdgt": {
+  "exercices": {
+   "1": {
+    "mouvement": "Poussez doucement les genoux vers l'extérieur contre la ceinture, sans que les genoux bougent. Tenez 5 à 10 secondes, puis relâchez.",
+    "dosage": "3 à 5 répétitions, 2 fois par jour.",
+    "progression": "Tenez jusqu'à 15 secondes, puis passez aux exercices debout quand la douleur nocturne diminue.",
+    "plus_facile": "Poussez plus doucement, 5 secondes."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-02)"
+ },
+ "adducteurs": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
+  "urgence": [
+   "Claquement brutal à l'aine avec un bleu important et une impossibilité de serrer la jambe (à faire évaluer dans les jours qui suivent).",
+   "Douleur soudaine et forte à un testicule, avec ou sans nausées.",
+   "Boule à l'aine devenue dure, douloureuse et qui ne rentre plus.",
+   "Douleur à l'aine qui empire quand vous mettez du poids sur la jambe ou qui vous fait boiter (fracture de fatigue à vérifier)."
+  ],
+  "exercices": {
+   "4": {
+    "plus_facile": "Revenez à l'exercice 2 si la douleur dépasse 3 sur 10. retour à l'exercice 2"
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-03)"
+ },
+ "ij_aigu": {
+  "regle_de_douleur": "Pour les trois exercices d'allongement (Extenseur, Plongeur, Glisseur), arrêtez le mouvement juste avant l'apparition de la douleur. Pour la marche et le pont fessier, une gêne jusqu'à 3 sur 10 est acceptable si elle se calme après la séance et n'est pas plus forte le lendemain.",
+  "urgence": [
+   "Douleur vive tout en haut de la cuisse, sous l'os sur lequel on s'assoit, avec un gros bleu et une faiblesse (arrachement du tendon à vérifier dans la semaine)."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-04)"
+ },
+ "cfa": {
+  "en_bref": [
+   "Les os de la hanche viennent pincer le bourrelet, à l'avant de l'articulation.",
+   "Éviter les positions qui pincent et renforcer la hanche aident.",
+   "Beaucoup de gens s'améliorent avec les exercices ; prévoyez au moins 3 mois. nouveau texte"
+  ],
+  "ce_qui_aide": [
+   "Limiter les positions où la hanche est pliée très loin (au-delà d'environ 90 degrés) et éviter de rester assis longtemps sur des sièges très bas, si cela réveille la douleur. formulation guidée par les symptômes",
+   "Renforcer les muscles fessiers et les abdominaux pour mieux contrôler la hanche.",
+   "Apprendre à garder les genoux bien alignés (sans rentrer vers l'intérieur) dans les escaliers et les squats.",
+   "Adapter le sport plutôt que l'arrêter (ex. : squats moins profonds, pieds légèrement ouverts, selle de vélo plus haute)."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain. Un pincement vif dans l'aine pendant un mouvement signifie qu'il faut réduire l'amplitude.",
+  "urgence": [
+   "Fièvre, ou hanche devenue soudainement très douloureuse, avec incapacité de mettre du poids sur la jambe.",
+   "Hanche bloquée qui ne bouge plus, ou douleur qui empêche la marche.",
+   "Douleur à l'aine qui empire quand vous mettez du poids sur la jambe, surtout après une hausse de l'entraînement (fracture de fatigue à vérifier).",
+   "Chez l'adolescent : boiterie avec douleur à la hanche, à la cuisse ou au genou."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-05)"
+ },
+ "psoas": {
+  "ce_que_vous_avez": "Le tendon du muscle qui lève la cuisse vers l'avant (l'ilio-psoas) est irrité ou glisse sur l'os avec un petit claquement que l'on entend ou que l'on sent (hanche à ressaut). Un claquement sans douleur est fréquent et sans danger. Quand il fait mal, renforcer le tronc et les fessiers, puis ce muscle en douceur, diminue l'irritation dans la majorité des cas.",
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
+   "Un anti-inflammatoire en comprimés, pour une courte période, peut aider, si votre pharmacien ou votre médecin le juge approprié.",
+   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
+  "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines, parfois 3 mois ou plus.",
+  "urgence": [
+   "Fièvre, ou boule chaude et douloureuse à l'aine.",
+   "Douleur vive à l'aine qui empêche de marcher ou de plier la hanche.",
+   "Blocage véritable de la hanche (impossibilité de bouger l'articulation)."
+  ],
+  "medecin": [
+   "Aucune amélioration après 8 à 12 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-06)"
+ },
+ "piriforme": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans la fesse est acceptable si elle se calme après la séance et n'est pas plus forte le lendemain. Arrêtez le mouvement si des fourmillements ou une douleur descendent dans la jambe. nouveau texte",
+  "urgence": [
+   "Perte de force nouvelle ou qui s'aggrave dans le pied ou la jambe. perte de force seule",
+   "Difficulté à uriner, pertes d'urine ou de selles, ou perte de sensation entre les jambes.",
+   "Symptômes nouveaux dans les deux jambes."
+  ],
+  "medecin": [
+   "Engourdissements persistants.",
+   "Douleur qui empêche de dormir ou de s'asseoir.",
+   "Aucune amélioration après 6 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-07)"
+ },
+ "meralgie": {
+  "urgence": [
+   "Difficulté à uriner, pertes d'urine ou de selles, ou perte de sensation entre les jambes (urgence). signes précis du syndrome de la queue de cheval",
+   "Faiblesse nouvelle dans la jambe (difficulté à lever la cuisse ou à tendre le genou)."
+  ],
+  "medecin": [
+   "Faiblesse dans la jambe, ou douleur qui descend sous le genou (ce n'est pas une simple méralgie).",
+   "Bosse ou gonflement au ventre ou à l'aine.",
+   "Brûlure intense qui empêche de dormir malgré le retrait des vêtements serrés.",
+   "Aucune amélioration après 8 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Khalil N, Nicotra A, Rakowicz W, Treatment for meralgia paraesthetica, Cochrane Database Syst Rev, 2012 (CD004159)",
+    "doi_ou_pmid": "PMID: 23235604"
+   },
+   {
+    "texte": "Scholz C et al., Meralgia Paresthetica: Relevance, Diagnosis, and Treatment, Dtsch Arztebl Int, 2023",
+    "doi_ou_pmid": "PMID: 37534445"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-08)"
+ },
+ "osteite": {
+  "en_bref": [
+   "L'articulation à l'avant du bassin est irritée par des efforts répétés.",
+   "Une pause des sports qui la chargent, un programme d'exercices, puis une reprise graduelle, la guérissent.",
+   "La guérison prend souvent plusieurs semaines à quelques mois."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
+  "urgence": [
+   "Fièvre ou frissons, ou douleur au pubis devenue très forte avec difficulté à marcher (infection à vérifier). nouveau texte"
+  ],
+  "medecin": [
+   "Douleur qui s'aggrave malgré l'arrêt du sport.",
+   "Douleur vive au repos, la nuit ou à la marche simple.",
+   "Apparition d'une boule à l'aine ou de troubles urinaires.",
+   "Absence de progrès après 8 à 12 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-09)"
+ },
+ "parietale": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
+  "urgence": [
+   "Boule à l'aine devenue dure, douloureuse et qui ne rentre plus.",
+   "Douleur soudaine et forte à un testicule, avec ou sans nausées.",
+   "Fièvre avec douleur au testicule ou brûlure en urinant."
+  ],
+  "medecin": [
+   "Apparition d'une bosse ou d'un gonflement dans l'aine à l'effort ou à la toux, qui rentre au repos (hernie inguinale à vérifier).",
+   "Douleur qui descend dans le testicule depuis un certain temps, ou troubles urinaires.",
+   "Douleur qui empêche les activités quotidiennes.",
+   "Absence de progrès net après 2 à 3 mois de réadaptation bien suivie (avis chirurgical)."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-10)"
+ },
+ "avulsion": {
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, les premiers jours, au besoin.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose prévue selon le poids (demandez au pharmacien)."
+  ],
+  "ce_qui_aide": [
+   "Utiliser des béquilles tant que la marche fait mal ou fait boiter (souvent 3 à 6 semaines, parfois plus si l'arrachement est sous la fesse).",
+   "Arrêter complètement le sport pendant 4 à 8 semaines, selon l'avis du médecin ; le retour complet se fait rarement avant 2 mois.",
+   "Mettre de la glace 15 minutes à la fois les premiers jours pour calmer la douleur.",
+   "Reprendre d'abord les mouvements doux, puis le renforcement, seulement quand la zone ne fait plus mal."
+  ],
+  "regle_de_douleur": "Pendant les premières semaines, les exercices doivent rester sans douleur sur la zone de l'arrachement. Plus tard, une gêne jusqu'à 3 sur 10 est acceptable si elle a disparu le lendemain. L'os doit être totalement indolore avant de reprendre la course.",
+  "urgence": [
+   "Nouvelle douleur brutale ou nouveau claquement, ou incapacité soudaine de mettre du poids sur la jambe (fragment déplacé à vérifier)."
+  ],
+  "medecin": [
+   "Douleur qui ne diminue pas après 2 semaines de repos relatif et de béquilles.",
+   "Bosse dure qui grossit ou douleur aiguë persistante.",
+   "Boiterie qui dure plus de 3 à 4 semaines.",
+   "Engourdissements, picotements ou douleur électrique à l'arrière de la jambe.",
+   "Douleur qui revient dès la reprise de la marche rapide ou du sport."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (HAN-11)"
+ }
+}

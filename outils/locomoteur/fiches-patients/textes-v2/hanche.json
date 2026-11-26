@@ -14,7 +14,7 @@
    "L'exercice régulier est le traitement de base.",
    "D'autres traitements, dont la prothèse, existent si la douleur reste forte."
   ],
-  "ce_que_vous_avez": "Le cartilage et les autres tissus de votre articulation de la hanche ont changé avec le temps. Cela donne une raideur brève le matin (habituellement moins de 30 minutes) et une douleur dans l'aine, la fesse ou le devant de la cuisse à la marche. Contrairement aux idées reçues, bouger n'use pas le cartilage : l'exercice régulier renforce les muscles, entretient la souplesse et aide à diminuer la douleur.",
+  "ce_que_vous_avez": "Le cartilage et les autres tissus de votre articulation de la hanche ont changé avec le temps. Cela donne une raideur brève le matin (habituellement moins de 30 minutes, parfois jusqu'à une heure) et une douleur dans l'aine, la fesse ou le devant de la cuisse à la marche. Contrairement aux idées reçues, bouger n'use pas le cartilage : l'exercice régulier renforce les muscles, entretient la souplesse et aide à diminuer la douleur.",
   "pourquoi": [
    "Âge et facteurs héréditaires.",
    "Ancienne blessure ou forme particulière de la hanche.",
@@ -33,16 +33,18 @@
    "Forcer des étirements dans une douleur vive."
   ],
   "soulager": [
-   "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
-   "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
+   "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si cela vous soulage.",
+   "Anti-inflammatoire en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié. Les crèmes anti-inflammatoires aident peu à la hanche, car l'articulation est trop profonde. comprimés seulement, avec explication"
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Sinon, diminuez le nombre de répétitions à la séance suivante.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain. Sinon, diminuez le nombre de répétitions à la séance suivante.",
   "urgence": [
    "Chute ou faux mouvement suivi d'une incapacité de mettre du poids sur la jambe.",
+   "Douleur soudaine et forte à l'aine avec incapacité de marcher, même sans chute.",
    "Fièvre, ou hanche devenue soudainement très douloureuse, chaude ou enflée."
   ],
   "medecin": [
    "Douleur qui vous réveille toutes les nuits et empêche de dormir.",
+   "Douleur qui s'aggrave vite, en quelques semaines.",
    "Incapacité de marcher même quelques minutes malgré le traitement.",
    "Douleur qui limite toujours beaucoup vos activités après environ 3 mois d'exercices (d'autres traitements peuvent être discutés)."
   ],
@@ -50,7 +52,7 @@
   "materiel": [
    "élastique",
    "chaise",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -109,7 +111,7 @@
    },
    {
     "texte": "Kolasinski SL et al., 2019 ACR/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee, Arthritis Rheumatol, 2020",
-    "doi_ou_pmid": "à vérifier dans PubMed"
+    "doi_ou_pmid": "doi:10.1002/art.41142"
    }
   ]
  },
@@ -166,20 +168,20 @@
   "materiel": [
    "élastique",
    "marche ou escalier",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
     "nom": "Écartement statique contre une ceinture (couché)",
     "position_de_depart": "Couché sur le dos, genoux pliés et écartés à la largeur des hanches, une ceinture ou un élastique ferme noué autour des cuisses juste au-dessus des genoux.",
-    "mouvement": "Poussez doucement les genoux vers l'extérieur contre la ceinture, sans que les genoux bougent. Tenez 15 à 30 secondes, puis relâchez.",
-    "dosage": "4 répétitions, 1 à 2 fois par jour.",
-    "progression": "Passez aux exercices debout quand la douleur nocturne diminue.",
+    "mouvement": "Poussez doucement les genoux vers l'extérieur contre la ceinture, sans que les genoux bougent. Tenez 5 à 10 secondes, puis relâchez.",
+    "dosage": "3 à 5 répétitions, 2 fois par jour.",
+    "progression": "Tenez jusqu'à 15 secondes, puis passez aux exercices debout quand la douleur nocturne diminue.",
     "erreur_frequente": "Pousser trop fort ou laisser les genoux se coller l'un contre l'autre entre les répétitions.",
     "illustration": "Dessin au trait d'une personne couchée sur le dos poussant légèrement les genoux vers l'extérieur contre une sangle.",
     "phase": "Dès maintenant",
     "but": "Pour calmer la douleur et réveiller les tendons.",
-    "plus_facile": "Poussez plus doucement, 15 secondes."
+    "plus_facile": "Poussez plus doucement, 5 secondes."
    },
    {
     "nom": "Pont fessier avec élastique aux genoux",
@@ -266,9 +268,12 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
   "urgence": [
-   "Claquement brutal à l'aine avec un bleu important et une impossibilité de serrer la jambe."
+   "Claquement brutal à l'aine avec un bleu important et une impossibilité de serrer la jambe (à faire évaluer dans les jours qui suivent).",
+   "Douleur soudaine et forte à un testicule, avec ou sans nausées.",
+   "Boule à l'aine devenue dure, douloureuse et qui ne rentre plus.",
+   "Douleur à l'aine qui empire quand vous mettez du poids sur la jambe ou qui vous fait boiter (fracture de fatigue à vérifier)."
   ],
   "medecin": [
    "Boule qui sort à l'aine quand vous toussez ou forcez (hernie inguinale possible).",
@@ -278,7 +283,7 @@
   ],
   "duree_habituelle": "Le programme dure de 8 à 12 semaines. Le retour complet au sport prend souvent de 3 à 5 mois.",
   "materiel": [
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "ballon",
    "coussin"
   ],
@@ -329,7 +334,7 @@
     "illustration": "Dessin au trait d'un sportif en appui latéral sur l'avant-bras, le genou supérieur posé sur un banc bas.",
     "phase": "Pour progresser",
     "but": "Pour préparer le retour au sport.",
-    "plus_facile": "Appuyez le genou sur le banc plutôt que le pied."
+    "plus_facile": "Revenez à l'exercice 2 si la douleur dépasse 3 sur 10. retour à l'exercice 2"
    }
   ],
   "references": [
@@ -379,9 +384,9 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pour les trois exercices d'allongement (Extenseur, Plongeur, Glisseur), arrêtez le mouvement juste avant l'apparition de la douleur. Pour la marche et le pont fessier, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pour les trois exercices d'allongement (Extenseur, Plongeur, Glisseur), arrêtez le mouvement juste avant l'apparition de la douleur. Pour la marche et le pont fessier, une gêne jusqu'à 3 sur 10 est acceptable si elle se calme après la séance et n'est pas plus forte le lendemain.",
   "urgence": [
-   "Douleur vive tout en haut de la cuisse, sous l'os sur lequel on s'assoit, avec un gros bleu et une faiblesse (arrachement du tendon à vérifier rapidement)."
+   "Douleur vive tout en haut de la cuisse, sous l'os sur lequel on s'assoit, avec un gros bleu et une faiblesse (arrachement du tendon à vérifier dans la semaine)."
   ],
   "medecin": [
    "Incapacité de marcher sans béquilles après 4 à 5 jours.",
@@ -390,8 +395,7 @@
   ],
   "duree_habituelle": "Retour au sport habituel en 3 à 7 semaines. C'est plus long si la déchirure touche le tendon ou est survenue lors d'un grand étirement.",
   "materiel": [
-   "mur",
-   "poids léger ou bouteille d'eau"
+   "mur"
   ],
   "exercices": [
    {
@@ -467,7 +471,7 @@
   "en_bref": [
    "Les os de la hanche viennent pincer le bourrelet, à l'avant de l'articulation.",
    "Éviter les positions qui pincent et renforcer la hanche aident.",
-   "La plupart des gens s'améliorent avec 3 mois d'exercices."
+   "Beaucoup de gens s'améliorent avec les exercices ; prévoyez au moins 3 mois. nouveau texte"
   ],
   "ce_que_vous_avez": "Lorsque vous pliez la hanche loin vers la poitrine ou tournez le genou vers l'intérieur, les os de la hanche viennent pincer le bourrelet de cartilage (le labrum) à l'avant de l'articulation. Cette forme des os est fréquente, même chez des personnes qui n'ont aucune douleur. Adapter vos postures et renforcer les fessiers et le tronc pendant au moins 3 mois permet à beaucoup de personnes de calmer la douleur. Si ce n'est pas suffisant, une chirurgie par arthroscopie peut être discutée.",
   "pourquoi": [
@@ -475,7 +479,7 @@
    "Sports avec flexions profondes ou rotations (hockey, soccer, danse)."
   ],
   "ce_qui_aide": [
-   "Éviter de plier la hanche au-delà de 90 degrés et de rester assis longtemps sur des sièges très bas.",
+   "Limiter les positions où la hanche est pliée très loin (au-delà d'environ 90 degrés) et éviter de rester assis longtemps sur des sièges très bas, si cela réveille la douleur. formulation guidée par les symptômes",
    "Renforcer les muscles fessiers et les abdominaux pour mieux contrôler la hanche.",
    "Apprendre à garder les genoux bien alignés (sans rentrer vers l'intérieur) dans les escaliers et les squats.",
    "Adapter le sport plutôt que l'arrêter (ex. : squats moins profonds, pieds légèrement ouverts, selle de vélo plus haute)."
@@ -489,8 +493,13 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Un pincement vif dans l'aine pendant un mouvement signifie qu'il faut réduire l'amplitude.",
-  "urgence": [],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain. Un pincement vif dans l'aine pendant un mouvement signifie qu'il faut réduire l'amplitude.",
+  "urgence": [
+   "Fièvre, ou hanche devenue soudainement très douloureuse, avec incapacité de mettre du poids sur la jambe.",
+   "Hanche bloquée qui ne bouge plus, ou douleur qui empêche la marche.",
+   "Douleur à l'aine qui empire quand vous mettez du poids sur la jambe, surtout après une hausse de l'entraînement (fracture de fatigue à vérifier).",
+   "Chez l'adolescent : boiterie avec douleur à la hanche, à la cuisse ou au genou."
+  ],
   "medecin": [
    "Blocage franc de la hanche ou accrochage douloureux fréquent dans l'aine.",
    "Douleur qui empêche la marche ou le sommeil.",
@@ -570,7 +579,7 @@
    "Un claquement sans douleur n'a pas besoin de traitement.",
    "Les étirements et un renforcement progressif le calment."
   ],
-  "ce_que_vous_avez": "Le tendon du muscle qui lève la cuisse vers l'avant (l'ilio-psoas) est irrité ou glisse sur l'os avec un petit claquement que l'on entend ou que l'on sent (hanche à ressaut). Un claquement sans douleur est fréquent et sans danger. Quand il fait mal, renforcer le tronc et les fessiers, puis ce muscle en douceur, diminue l'irritation dans la grande majorité des cas.",
+  "ce_que_vous_avez": "Le tendon du muscle qui lève la cuisse vers l'avant (l'ilio-psoas) est irrité ou glisse sur l'os avec un petit claquement que l'on entend ou que l'on sent (hanche à ressaut). Un claquement sans douleur est fréquent et sans danger. Quand il fait mal, renforcer le tronc et les fessiers, puis ce muscle en douceur, diminue l'irritation dans la majorité des cas.",
   "pourquoi": [
    "Gestes répétés qui lèvent la cuisse (course, danse, soccer).",
    "Muscle raide à l'avant de la hanche."
@@ -588,19 +597,19 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
-   "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
+   "Un anti-inflammatoire en comprimés, pour une courte période, peut aider, si votre pharmacien ou votre médecin le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
   "urgence": [
-   "Fièvre, ou boule chaude et douloureuse à l'aine."
+   "Fièvre, ou boule chaude et douloureuse à l'aine.",
+   "Douleur vive à l'aine qui empêche de marcher ou de plier la hanche.",
+   "Blocage véritable de la hanche (impossibilité de bouger l'articulation)."
   ],
   "medecin": [
-   "Douleur vive à l'aine qui empêche de marcher ou de plier la hanche.",
-   "Blocage véritable de la hanche (impossibilité de bouger l'articulation).",
    "Aucune amélioration après 8 à 12 semaines."
   ],
-  "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines.",
+  "duree_habituelle": "Amélioration habituelle en 6 à 12 semaines, parfois 3 mois ou plus.",
   "materiel": [
    "élastique",
    "chaise",
@@ -691,12 +700,14 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans la fesse est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez le mouvement si des fourmillements ou une douleur descendent dans la jambe.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans la fesse est acceptable si elle se calme après la séance et n'est pas plus forte le lendemain. Arrêtez le mouvement si des fourmillements ou une douleur descendent dans la jambe. nouveau texte",
   "urgence": [
-   "Perte de force dans le pied ou la jambe, ou engourdissements persistants.",
-   "Difficulté à uriner, pertes d'urine ou de selles, ou perte de sensation entre les jambes (urgence)."
+   "Perte de force nouvelle ou qui s'aggrave dans le pied ou la jambe. perte de force seule",
+   "Difficulté à uriner, pertes d'urine ou de selles, ou perte de sensation entre les jambes.",
+   "Symptômes nouveaux dans les deux jambes."
   ],
   "medecin": [
+   "Engourdissements persistants.",
    "Douleur qui empêche de dormir ou de s'asseoir.",
    "Aucune amélioration après 6 semaines."
   ],
@@ -793,10 +804,12 @@
   ],
   "regle_de_douleur": "Les exercices ne doivent pas augmenter la brûlure ou l'engourdissement de la cuisse. Une gêne légère (jusqu'à 3 sur 10) ailleurs est acceptable si elle disparaît rapidement.",
   "urgence": [
-   "Douleur importante au bas du dos ou troubles urinaires."
+   "Difficulté à uriner, pertes d'urine ou de selles, ou perte de sensation entre les jambes (urgence). signes précis du syndrome de la queue de cheval",
+   "Faiblesse nouvelle dans la jambe (difficulté à lever la cuisse ou à tendre le genou)."
   ],
   "medecin": [
    "Faiblesse dans la jambe, ou douleur qui descend sous le genou (ce n'est pas une simple méralgie).",
+   "Bosse ou gonflement au ventre ou à l'aine.",
    "Brûlure intense qui empêche de dormir malgré le retrait des vêtements serrés.",
    "Aucune amélioration après 8 semaines."
   ],
@@ -846,7 +859,7 @@
   "references": [
    {
     "texte": "Khalil N, Nicotra A, Rakowicz W, Treatment for meralgia paraesthetica, Cochrane Database Syst Rev, 2012 (CD004159)",
-    "doi_ou_pmid": "à vérifier dans PubMed"
+    "doi_ou_pmid": "PMID: 23235604"
    },
    {
     "texte": "Scholz C et al., Meralgia Paresthetica: Relevance, Diagnosis, and Treatment, Dtsch Arztebl Int, 2023",
@@ -866,7 +879,7 @@
   "diagnostic": "Ostéite pubienne (douleur de l'aine liée au pubis chez le sportif)",
   "en_bref": [
    "L'articulation à l'avant du bassin est irritée par des efforts répétés.",
-   "Une pause des sports qui la chargent, puis une reprise graduelle, la guérissent.",
+   "Une pause des sports qui la chargent, un programme d'exercices, puis une reprise graduelle, la guérissent.",
    "La guérison prend souvent plusieurs semaines à quelques mois."
   ],
   "ce_que_vous_avez": "L'articulation à l'avant du bassin (la symphyse pubienne), où s'attachent les abdominaux et les muscles de l'intérieur des cuisses, est irritée par des efforts répétés de course, de pivot ou de frappe. Un arrêt temporaire des sports à impact, suivi d'un renforcement progressif et équilibré du bassin, permet de guérir, mais cela demande de la patience.",
@@ -889,11 +902,12 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
   "urgence": [
-   "Fièvre, ou douleur qui s'aggrave malgré l'arrêt du sport."
+   "Fièvre ou frissons, ou douleur au pubis devenue très forte avec difficulté à marcher (infection à vérifier). nouveau texte"
   ],
   "medecin": [
+   "Douleur qui s'aggrave malgré l'arrêt du sport.",
    "Douleur vive au repos, la nuit ou à la marche simple.",
    "Apparition d'une boule à l'aine ou de troubles urinaires.",
    "Absence de progrès après 8 à 12 semaines."
@@ -999,11 +1013,15 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
-  "urgence": [],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel au plus tard le lendemain matin.",
+  "urgence": [
+   "Boule à l'aine devenue dure, douloureuse et qui ne rentre plus.",
+   "Douleur soudaine et forte à un testicule, avec ou sans nausées.",
+   "Fièvre avec douleur au testicule ou brûlure en urinant."
+  ],
   "medecin": [
-   "Apparition d'une bosse ou d'un gonflement dans l'aine à l'effort ou à la toux (hernie inguinale à vérifier).",
-   "Douleur qui descend dans le testicule ou troubles urinaires.",
+   "Apparition d'une bosse ou d'un gonflement dans l'aine à l'effort ou à la toux, qui rentre au repos (hernie inguinale à vérifier).",
+   "Douleur qui descend dans le testicule depuis un certain temps, ou troubles urinaires.",
    "Douleur qui empêche les activités quotidiennes.",
    "Absence de progrès net après 2 à 3 mois de réadaptation bien suivie (avis chirurgical)."
   ],
@@ -1079,8 +1097,8 @@
    "Os encore tendre à l'adolescence."
   ],
   "ce_qui_aide": [
-   "Utiliser des béquilles tant que la marche fait mal ou fait boiter (souvent 2 à 4 semaines, parfois plus si l'arrachement est sous la fesse).",
-   "Arrêter complètement le sport pendant 4 à 8 semaines, selon l'avis du médecin.",
+   "Utiliser des béquilles tant que la marche fait mal ou fait boiter (souvent 3 à 6 semaines, parfois plus si l'arrachement est sous la fesse).",
+   "Arrêter complètement le sport pendant 4 à 8 semaines, selon l'avis du médecin ; le retour complet se fait rarement avant 2 mois.",
    "Mettre de la glace 15 minutes à la fois les premiers jours pour calmer la douleur.",
    "Reprendre d'abord les mouvements doux, puis le renforcement, seulement quand la zone ne fait plus mal."
   ],
@@ -1090,11 +1108,13 @@
    "Forcer malgré une boiterie."
   ],
   "soulager": [
-   "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Glace 10 à 15 minutes, dans un linge, les premiers jours, au besoin.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose prévue selon le poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant les premières semaines, les exercices doivent rester sans douleur sur la zone de l'arrachement. Plus tard, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être totalement indolore avant de reprendre la course.",
-  "urgence": [],
+  "regle_de_douleur": "Pendant les premières semaines, les exercices doivent rester sans douleur sur la zone de l'arrachement. Plus tard, une gêne jusqu'à 3 sur 10 est acceptable si elle a disparu le lendemain. L'os doit être totalement indolore avant de reprendre la course.",
+  "urgence": [
+   "Nouvelle douleur brutale ou nouveau claquement, ou incapacité soudaine de mettre du poids sur la jambe (fragment déplacé à vérifier)."
+  ],
   "medecin": [
    "Douleur qui ne diminue pas après 2 semaines de repos relatif et de béquilles.",
    "Bosse dure qui grossit ou douleur aiguë persistante.",
@@ -1205,7 +1225,7 @@
   ],
   "duree_habituelle": "Amélioration progressive sur au moins 3 mois ; la récupération complète peut prendre 6 mois ou plus.",
   "materiel": [
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1286,7 +1306,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. L'os doit être indolore au toucher et à l'effort avant la reprise du sport.",
   "urgence": [

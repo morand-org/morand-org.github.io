@@ -156,7 +156,7 @@
   "duree_habituelle": "Amélioration notable en 8 à 12 semaines ; les bienfaits se maintiennent si vous continuez à bouger régulièrement.",
   "materiel": [
    "chaise",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -365,7 +365,6 @@
   "duree_habituelle": "Phase initiale de 4 à 6 semaines pour dégonfler le genou et retrouver la mobilité et la force de base. La réadaptation complète dure plusieurs mois ; après une reconstruction, le retour aux sports de pivot se fait rarement avant 9 à 12 mois et seulement après avoir réussi des tests de force et de saut.",
   "materiel": [
    "serviette",
-   "poids léger ou bouteille d'eau",
    "coussin"
   ],
   "exercices": [
@@ -415,7 +414,7 @@
     "illustration": "Dessin au trait d'une personne debout mains sur un comptoir réalisant un petit squat symétrique.",
     "phase": "Quand la douleur diminue",
     "but": "Pour reprendre l'appui et la force.",
-    "plus_facile": "Gardez les mains sur un appui."
+    "plus_facile": "Pliez moins les genoux."
    }
   ],
   "references": [
@@ -477,7 +476,7 @@
   "materiel": [
    "marche ou escalier",
    "mur",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -574,7 +573,7 @@
   "duree_habituelle": "Entorse légère : 2 à 4 semaines. Entorse modérée : 4 à 6 semaines. Entorse plus sévère du ligament intérieur : 6 à 8 semaines ou plus.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -674,7 +673,7 @@
   "materiel": [
    "élastique",
    "mur",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -771,7 +770,7 @@
   "materiel": [
    "chaise",
    "mur",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1161,7 +1160,7 @@
   "duree_habituelle": "Amélioration souvent en 4 à 8 semaines, mais la durée est très variable d'une personne à l'autre.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1242,7 +1241,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à la normale le lendemain. Au-delà, diminuez l'intensité ou la durée de l'activité.",
   "urgence": [
@@ -1340,7 +1339,7 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à la normale le lendemain. Au-delà, diminuez l'intensité ou la durée de l'activité.",
   "urgence": [
@@ -1453,7 +1452,6 @@
   "materiel": [
    "chaise",
    "mur",
-   "poids léger ou bouteille d'eau",
    "coussin"
   ],
   "exercices": [
@@ -1546,7 +1544,7 @@
   ],
   "duree_habituelle": "Amélioration souvent en 6 à 12 semaines ; poursuivre les exercices pendant 3 mois avant de conclure qu'ils ne suffisent pas.",
   "materiel": [
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -1639,7 +1637,7 @@
   "duree_habituelle": "Si la gêne est légère, le confort s'améliore souvent en 4 à 8 semaines ; des blocages ou des ressauts douloureux qui persistent nécessitent un avis en orthopédie.",
   "materiel": [
    "marche ou escalier",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {

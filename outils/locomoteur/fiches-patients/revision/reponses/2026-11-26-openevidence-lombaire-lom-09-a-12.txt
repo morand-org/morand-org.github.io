@@ -1,0 +1,325 @@
+# Fiches lombaires révisées — LOM-09 à LOM-12
+Légende de révision
+[MODIFIÉ : ancien texte → nouveau texte — raison ; référence] : le nouveau texte à utiliser est celui qui suit la flèche.
+[À VÉRIFIER : …] : donnée non confirmée dans les sources consultées; à valider avant publication.
+Tout texte sans balise est conservé tel quel.
+## FICHE LOM-09 · [lombaire/spondylolisthesis]
+Titre : Spondylolisthésis dégénératifSous-titre : Léger glissement d'une vertèbreAncien titre : Léger glissement d'une vertèbre (spondylolisthésis)Diagnostic correspondant dans MSK Morand : Spondylolisthésis dégénératif
+EN BREF
+Une vertèbre a glissé de quelques millimètres ; c'est souvent stable.
+[MODIFIÉ : « Renforcer le ventre et les fessiers soulage la plupart des gens. » → « Les exercices qui renforcent le ventre et les fessiers, ou qui arrondissent le dos, peuvent diminuer la douleur. » — dans l'essai cité, les exercices de stabilisation et les exercices en flexion ont donné des résultats semblables, mais il n'y avait pas de groupe sans exercice : « la plupart des gens » n'est pas démontré ; Nava-Bringas et al., Phys Ther, 2021 (PMID 33792726)]
+[MODIFIÉ : « La chirurgie est rarement nécessaire. » → « La plupart des gens n'ont pas besoin de chirurgie. » — dans une clinique spécialisée, environ 1 personne sur 4 suivie sans chirurgie a fini par être opérée en 5 ans; « rarement » sous-estime ce chiffre ; Cushnie et al., Spine, 2018 ; Matsunaga et al., J Neurosurg, 2000 (PMID 11012048)]
+CE QUE VOUS AVEZ
+Une vertèbre du bas du dos a glissé de quelques millimètres vers l'avant par rapport à celle du dessous, à cause de l'usure naturelle des articulations. Dans la majorité des cas, ce glissement reste stable au fil des années. Renforcer les muscles du ventre et des fesses et rester actif aident à diminuer la douleur.
+POURQUOI ÇA ARRIVE
+Usure des articulations du dos avec l'âge.
+Plus fréquent chez les femmes après 50 ans.
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+[MODIFIÉ : « Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié. » → « Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié (les risques sont plus grands après 65 ans ou si vous avez un problème de reins, de cœur ou d'estomac). » — cette fiche s'adresse surtout à des personnes plus âgées, chez qui la prudence est recommandée avec les anti-inflammatoires ; Qaseem et al., Ann Intern Med, 2017 (PMID 28192789) ; Chiarotto et Koes, N Engl J Med, 2022]
+CE QUI AIDE
+Renforcer les muscles du ventre et des fesses en gardant le dos en position neutre.
+Faire du vélo stationnaire ou de la marche, selon votre confort.
+Faire des exercices doux qui arrondissent le bas du dos (genoux à la poitrine, bascule du bassin).
+Vous asseoir quelques minutes si les jambes deviennent lourdes à la marche, puis repartir.
+À ÉVITER POUR L'INSTANT
+Faire des mouvements qui cambrent fortement le dos vers l'arrière (pont de gymnastique, extension forcée sur le ventre).
+Rester debout sans bouger, le dos creusé, pendant de longues périodes.
+Soulever des charges lourdes loin du corps, à bout de bras : gardez la charge près de vous.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — aucun guide ni essai retrouvé n'appuie le délai d'une heure; les seuls délais publiés sont « le lendemain matin » ou « 24 heures » (modèle de surveillance de la douleur, conçu pour les tendons et le genou); une douleur pendant l'exercice n'a pas à être évitée ; Silbernagel et al., Am J Sports Med, 2007 ; Smith et al., Br J Sports Med, 2017 (PMID 28596288) ; Tran et al., J Orthop Sports Phys Ther, 2025 (PMID 40699606)]
+[À VÉRIFIER : aucun délai n'a été validé pour le bas du dos; « le lendemain matin » est une extrapolation.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.
+[MODIFIÉ : « Faiblesse nouvelle dans une jambe ou un pied. » (sous « Revoyez votre médecin si ») → « Faiblesse nouvelle dans une jambe ou un pied (pied qui accroche le sol en marchant). » (déplacé ici) — une perte de force nouvelle doit être évaluée rapidement : la récupération est meilleure quand le nerf est libéré tôt; cohérence avec les fiches LOM-01 et LOM-08 ; Thomé et al., Neurosurgery, 2022 (PMID 35040807) ; Kögl et al., Dtsch Arztebl Int, 2024 (PMID 38835174)]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur ou lourdeur dans les jambes à la marche qui vous oblige à vous asseoir de plus en plus tôt.
+Douleur dans la jambe (sciatique) qui s'aggrave.
+Aucune amélioration après 8 à 12 semaines.
+DURÉE HABITUELLE
+Amélioration du confort en 6 à 12 semaines d'exercices réguliers. [À VÉRIFIER : dans l'essai cité, le programme durait 6 mois; aucun délai de 6 à 12 semaines n'a été retrouvé dans les sources consultées]
+PROGRAMME D'EXERCICES
+Matériel : tapis d'exercice
+Exercice 1 : Bascule du bassin et activation du ventre profond
+Phase : Dès maintenant
+But : Pour activer le ventre profond.
+Départ : Couché sur le dos, genoux pliés, pieds au sol.
+Mouvement : Rentrez doucement le bas du ventre et plaquez légèrement le bas du dos au tapis en serrant les fessiers. Tenez 5 secondes, puis relâchez.
+Dosage : 2 séries de 10 répétitions, 2 fois par jour.
+Progression : Levez un pied de quelques centimètres en gardant le bas du dos stable, puis alternez.
+Plus facile : Tenez 3 secondes.
+Erreur fréquente : Bloquer sa respiration.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos plaquant doucement le bas du dos au sol.
+Exercice 2 : Genoux à la poitrine (en douceur)
+Phase : Dès maintenant
+But : Pour détendre le bas du dos.
+Départ : Couché sur le dos, genoux pliés, pieds au sol.
+Mouvement : Ramenez un genou, puis l'autre, vers la poitrine pour détendre le bas du dos. Tenez 20 secondes en respirant.
+Dosage : 3 répétitions, 1 à 2 fois par jour.
+Progression : Tenez 30 secondes.
+Plus facile : Ramenez un seul genou.
+Erreur fréquente : Tirer fort en soulevant les épaules.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos tenant doucement ses genoux près de la poitrine.
+Exercice 3 : Pont fessier contrôlé (sans cambrer)
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez les fessiers et le ventre, puis montez les hanches seulement jusqu'à aligner les cuisses et le tronc (pas plus haut). Tenez 3 secondes, puis redescendez.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Tenez 5 secondes en haut.
+Plus facile : Montez moins haut.
+Erreur fréquente : Monter trop haut en creusant le bas du dos.
+Illustration demandée : Dessin au trait d'une personne réalisant un pont fessier en gardant le dos bien droit.
+Exercice 4 : Planche modifiée sur les genoux
+Phase : Quand la douleur diminue
+But : Pour renforcer le tronc.
+Départ : En appui sur les avant-bras et les genoux, dos plat.
+Mouvement : Gardez les épaules, les hanches et les genoux alignés, ventre serré, pendant 15 à 20 secondes en respirant.
+Dosage : 3 répétitions, 3 fois par semaine.
+Progression : Tenez 30 secondes, puis passez en appui sur les orteils si le dos reste bien plat.
+Plus facile : Tenez 10 secondes.
+Erreur fréquente : Laisser le bassin descendre et creuser le dos.
+Illustration demandée : Dessin au trait d'une personne en planche sur les avant-bras et les genoux, dos plat.
+RÉFÉRENCES
+George SZ, Fritz JM, Silfies SP, et al. Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021. J Orthop Sports Phys Ther, 2021 (PMID : 34719942) [À VÉRIFIER : PMID non affiché dans les sources consultées]
+Nava-Bringas TI, Romero-Fierro LO, Trani-Chagoya YP, et al. Stabilization Exercises Versus Flexion Exercises in Degenerative Spondylolisthesis: A Randomized Controlled Trial. Phys Ther, 2021 (PMID : 33792726) — référence vérifiée.
+[MODIFIÉ : (ajout) → Matz PG, Meagher RJ, Lamer T, et al. Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis. Spine J, 2016 — guide de la North American Spine Society ; PMID À VÉRIFIER]
+[MODIFIÉ : (ajout) → Matsunaga S, Ijiri K, Hayashi K. Nonsurgically managed patients with degenerative spondylolisthesis: a 10- to 18-year follow-up study. J Neurosurg, 2000 (PMID : 11012048) — appuie l'énoncé « c'est souvent stable »]
+## FICHE LOM-10 · [lombaire/spondylolyse]
+Titre : Spondylolyse ou spondylolisthésis isthmiqueSous-titre : Fissure de fatigue dans une vertèbreAncien titre : Fissure de fatigue dans une vertèbre (spondylolyse), avec ou sans léger glissementDiagnostic correspondant dans MSK Morand : Spondylolyse ou spondylolisthésis isthmique
+EN BREF
+Une petite fissure de fatigue s'est formée dans une vertèbre.
+[MODIFIÉ : « Une pause des gestes qui cambrent le dos lui permet de guérir. » → « Une pause des gestes qui cambrent le dos calme la douleur. L'os se ressoude souvent, surtout si la fissure est trouvée tôt. » — le résultat clinique est bon chez environ 84 % des jeunes, mais l'os ne se ressoude pas toujours (28 % dans la méta-analyse citée; plus de 80 % dans des séries récentes de fissures prises tôt; beaucoup moins si la fissure est ancienne ou des deux côtés) ; Klein et al., J Pediatr Orthop, 2009 (PMID 19352240) ; Kuroshima et al., Spine, 2024]
+Le retour au sport se fait graduellement, sans douleur.
+CE QUE VOUS AVEZ
+Chez les jeunes sportifs (gymnastique, plongeon, football, danse, tennis), cambrer et tourner le dos à répétition peut créer une petite fissure de fatigue dans l'arc osseux à l'arrière d'une vertèbre; parfois, la vertèbre glisse légèrement vers l'avant. Ce diagnostic est posé et suivi par un médecin. Avec une pause des sports qui cambrent le dos et un bon programme de renforcement, la grande majorité des jeunes reprennent leur sport sans douleur.
+POURQUOI ÇA ARRIVE
+Gestes répétés qui cambrent et tournent le dos (gymnastique, plongeon, football, danse).
+Croissance rapide à l'adolescence.
+Ischio-jambiers raides.
+SOULAGER LA DOULEUR
+[MODIFIÉ : « Glace 10 à 15 minutes, dans un linge, après le sport. » → « Glace 10 à 15 minutes, dans un linge, au besoin (par exemple après les exercices). » — le sport est en pause à cette étape; la glace sert seulement à soulager et aucune donnée propre à la spondylolyse n'a été retrouvée ; Racinais et al., Br J Sports Med, 2024]
+[MODIFIÉ : « Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien). » → « Acétaminophène au besoin en premier; ibuprofène seulement pour quelques jours, si c'est nécessaire. Demandez au pharmacien la quantité prévue pour votre poids. » — pour une fissure de fatigue, des experts conseillent d'éviter les anti-inflammatoires quand c'est possible; chez l'enfant et pour un usage de 14 jours ou moins, aucune hausse du risque de mauvaise guérison de l'os n'a été démontrée; « son poids » remplacé par « votre poids » pour garder le vouvoiement ; Hoenig et al., Nat Rev Dis Primers, 2022 ; Komargodski et al., J Am Acad Orthop Surg, 2026 (PMID 42489592)]
+CE QUI AIDE
+Faire une pause des sports et des gestes qui cambrent ou tordent le dos (gymnastique, service au tennis, nage papillon, plaqués) : la durée, souvent de 4 à 12 semaines, est fixée par votre médecin.
+[MODIFIÉ : « Commencer tôt la physiothérapie et le renforcement du ventre et des fessiers, dos en position neutre, dès que le médecin le permet : le repos complet n'est pas nécessaire. » → « Commencer tôt la physiothérapie (souvent dès la première semaine) et le renforcement du ventre et des fessiers, dos en position neutre, dès que le médecin le permet : le repos complet n'est pas nécessaire. » — dans l'essai randomisé cité, la physiothérapie commencée dans les 7 jours a permis un retour au sport 38 jours plus tôt et moins de rechutes dans l'année (3 % contre 29 %), sans effet indésirable ; Selhorst et al., Br J Sports Med, 2026 (PMID 41402030)]
+Assouplir l'arrière des cuisses et l'avant des hanches pour diminuer la tension sur le bas du dos.
+Reprendre le sport par étapes, seulement quand le dos est sans douleur dans les gestes de votre sport.
+À ÉVITER POUR L'INSTANT
+Cambrer le dos vers l'arrière (ponts, arabesques, souplesses arrière) ou soulever des charges lourdes.
+Faire des exercices d'extension du dos (superman, cobra) ou des torsions forcées.
+Rejouer malgré la douleur ou en la masquant avec des médicaments contre la douleur.
+RÈGLE DE DOULEUR (0 À 10)
+Les exercices doivent rester confortables : une gêne légère (jusqu'à 3 sur 10) qui a disparu dans l'heure qui suit l'exercice est acceptable; s'ils réveillent votre douleur habituelle, arrêtez et parlez-en à votre physiothérapeute. Avant de reprendre le sport, le dos doit être à 0 sur 10 dans les gestes de votre sport.
+[À VÉRIFIER : pour ce problème, les consensus demandent une progression sans douleur et un retour au sport sans douleur; aucun seuil chiffré ni délai (1 heure ou autre) n'a été retrouvé, y compris dans le résumé de l'essai de Selhorst et al. (progression « selon la douleur et la fonction »). La règle actuelle, prudente, est conservée telle quelle; à valider avec le protocole complet de l'essai. Putukian et al., Med Sci Sports Exerc, 2026 ; Selhorst et al., Br J Sports Med, 2026 (PMID 41402030)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes, difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les jambes.
+[MODIFIÉ : « Douleur qui persiste au repos ou la nuit malgré l'arrêt du sport, ou fièvre. » (sous « Revoyez votre médecin si ») → « Fièvre avec le mal de dos. » (déplacé ici) — chez l'enfant et l'adolescent, la fièvre avec un mal de dos est un signe d'alarme qui fait rechercher une infection ; Dahmoush et al., ACR Appropriateness Criteria Back Pain–Child, J Am Coll Radiol, 2025]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : « Douleur qui descend dans la fesse ou la jambe avec picotements ou faiblesse. » → « Douleur qui descend dans la fesse ou la jambe avec picotements. » — la faiblesse dans les jambes figure déjà sous « Consultez rapidement »]
+[MODIFIÉ : « Douleur qui persiste au repos ou la nuit malgré l'arrêt du sport, ou fièvre. » → « Douleur qui persiste au repos ou qui vous réveille la nuit malgré l'arrêt du sport : prenez rendez-vous dans les prochains jours. » — la fièvre est déplacée sous « Consultez rapidement »; la douleur de nuit qui persiste est un signe d'alarme chez le jeune et demande une évaluation rapprochée ; Dahmoush et al., J Am Coll Radiol, 2025]
+Douleur qui revient dès la reprise de gestes sportifs légers.
+Aucune amélioration après 6 à 8 semaines de pause sportive et d'exercices.
+DURÉE HABITUELLE
+[MODIFIÉ : « Pause des sports à risque pendant 4 à 12 semaines selon l'avis médical, puis reprise par étapes. Le retour complet au sport se fait en moyenne en 3 à 6 mois. » → « Pause des sports à risque pendant 4 à 12 semaines selon l'avis médical, puis reprise par étapes. Le retour complet au sport se fait en moyenne en 3 à 6 mois; il peut être plus rapide quand la physiothérapie commence tôt. » — les durées publiées vont d'environ 3,7 à 5,4 mois en moyenne; l'essai randomisé récent montre un retour plus rapide avec la physiothérapie immédiate ; Selhorst et al., Br J Sports Med, 2026 (PMID 41402030) ; Linton et Hsu, Curr Rev Musculoskelet Med, 2022]
+PROGRAMME D'EXERCICES
+Matériel : tapis d'exercice
+Exercice 1 : Bascule du bassin couché (dos neutre)
+Phase : Dès maintenant
+But : Pour garder le dos en position neutre.
+Départ : Couché sur le dos, genoux pliés, pieds au sol.
+Mouvement : Serrez doucement le bas du ventre pour plaquer légèrement le bas du dos au tapis. Tenez 5 secondes, puis relâchez.
+Dosage : 2 séries de 10 répétitions, 2 fois par jour.
+Progression : Faites glisser un talon au sol pour allonger la jambe en gardant le dos immobile, puis alternez.
+Plus facile : Tenez 3 secondes.
+Erreur fréquente : Laisser le dos se creuser quand la jambe bouge.
+Illustration demandée : Dessin au trait d'un jeune sportif couché sur le dos, genoux pliés, basculant doucement le bassin.
+Exercice 2 : Étirement doux de l'arrière de la cuisse (ischio-jambiers)
+Phase : Dès maintenant
+But : Pour assouplir l'arrière des cuisses.
+Départ : Couché sur le dos dans l'encadrement d'une porte, une jambe appuyée à la verticale contre le cadre, l'autre allongée au sol à travers l'ouverture.
+Mouvement : Ajustez votre distance par rapport au cadre pour sentir un étirement confortable à l'arrière de la cuisse, sans décoller le bassin du sol. Tenez 20 à 30 secondes.
+Dosage : 3 répétitions par jambe, 1 fois par jour.
+Progression : Rapprochez-vous légèrement du cadre à mesure que la souplesse augmente.
+Plus facile : Éloignez-vous du cadre de porte.
+Erreur fréquente : Soulever les fesses du sol ou arrondir le bas du dos.
+Illustration demandée : Dessin au trait d'un jeune sportif couché au sol avec une jambe appuyée vers le haut contre le montant d'une porte.
+Exercice 3 : Pont fessier sans cambrer
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez les fessiers et montez les hanches jusqu'à former une ligne droite des épaules aux genoux, sans creuser le dos. Tenez 3 secondes, puis redescendez.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Passez au pont sur une jambe quand l'exercice est totalement indolore.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le dos en haut du mouvement.
+Illustration demandée : Dessin au trait d'un jeune sportif réalisant un pont fessier aligné.
+Exercice 4 : Planche sur les avant-bras (sur les genoux, puis sur les pieds)
+Phase : Quand la douleur diminue
+But : Pour renforcer le tronc.
+Départ : En appui sur les avant-bras et les genoux, dos bien plat.
+Mouvement : Tenez la position 20 secondes en serrant le ventre et les fesses, en continuant de respirer.
+Dosage : 3 répétitions, 3 fois par semaine.
+Progression : Passez en appui sur les orteils, puis augmentez jusqu'à 45 secondes.
+Plus facile : Tenez 10 secondes, sur les genoux.
+Erreur fréquente : Creuser le bas du dos.
+Illustration demandée : Dessin au trait d'un jeune sportif en planche sur les avant-bras, dos parfaitement droit.
+RÉFÉRENCES
+[MODIFIÉ : « Selhorst M et al., Br J Sports Med, 2026 (PMID: 41402030) » → Selhorst M, Sweeney E, Martin LC, et al. Immediate Physical Therapy Is Beneficial for Adolescent Athletes With Active Lumbar Spondylolysis: A Multicentre Randomised Trial. Br J Sports Med, 2026;60(2):125-132, doi:10.1136/bjsports-2025-110606 (PMID : 41402030) — référence vérifiée et complétée; il s'agit d'un essai randomisé (64 athlètes de 10 à 19 ans), pas d'un guide de pratique]
+Klein G, Mehlman CT, McCarty M. Nonoperative Treatment of Spondylolysis and Grade I Spondylolisthesis in Children and Young Adults: A Meta-Analysis of Observational Studies. J Pediatr Orthop, 2009 (PMID : 19352240) — référence vérifiée.
+[MODIFIÉ : (ajout) → Putukian M, Leclere LE, Herring SA, et al. The Adolescent Athlete and the Team Physician: A Consensus Statement. 2025 Update. Med Sci Sports Exerc, 2026 — consensus récent (pause du sport ou adaptation, exercices du tronc en flexion, retour au sport guidé par la douleur) ; PMID À VÉRIFIER]
+## FICHE LOM-11 · [lombaire/scoliose]
+Titre : Scoliose dégénérative de l'adulteSous-titre : Courbure de la colonne chez l'adulteAncien titre : Courbure de la colonne chez l'adulte (scoliose dégénérative)Diagnostic correspondant dans MSK Morand : Scoliose dégénérative de l'adulte
+EN BREF
+L'usure inégale du dos a créé une courbure sur le côté.
+[MODIFIÉ : « Les exercices renforcent les muscles fatigués et améliorent l'équilibre. » → « Les exercices ne redressent pas la courbure, mais rester actif et renforcer le tronc peut vous aider à garder vos capacités. » — la revue citée par la fiche n'a trouvé aucune preuve précise pour la physiothérapie ou l'exercice dans ce problème; le renforcement du tronc est recommandé par les experts malgré des preuves limitées ; Schoutens et al., Pain Med, 2020 (PMID 31617915) ; Diebo et al., Lancet, 2019]
+Des traitements existent si les jambes deviennent douloureuses à la marche.
+CE QUE VOUS AVEZ
+Avec les années, l'usure inégale des disques et des articulations peut créer ou accentuer une courbure sur le côté dans le bas du dos. Cela fatigue les muscles du dos et peut limiter le temps que vous pouvez passer debout ou à marcher. Les exercices ne redressent pas la courbure, mais rester actif et renforcer le tronc aident à garder votre autonomie et votre confort.
+POURQUOI ÇA ARRIVE
+Usure inégale des disques et des articulations avec l'âge.
+[MODIFIÉ : « Ostéoporose. » → (énoncé retiré de cette rubrique) — une revue systématique montre, avec des preuves solides, que l'ostéoporose n'est pas liée à l'aggravation de cette courbure, qui vient surtout de l'usure des disques; l'ostéoporose compte pour le risque de fracture, déjà couvert sous « Consultez rapidement » ; Faraj et al., Eur Spine J, 2016]
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+[MODIFIÉ : « Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié. » → « Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié (les risques sont plus grands après 65 ans ou si vous avez un problème de reins, de cœur ou d'estomac). » — même raison que dans la fiche LOM-09; aucune preuve propre à la scoliose de l'adulte pour les médicaments contre la douleur ; Schoutens et al., Pain Med, 2020 (PMID 31617915) ; Chiarotto et Koes, N Engl J Med, 2022]
+CE QUI AIDE
+Marcher, nager ou faire de l'aquaforme régulièrement.
+Renforcer les muscles du tronc, du dos et des fesses pour mieux soutenir la colonne.
+Faire de courtes pauses, assis ou les avant-bras appuyés sur un comptoir, quand le dos ou les jambes fatiguent en position debout.
+Répartir le poids des sacs d'épicerie entre les deux mains.
+À ÉVITER POUR L'INSTANT
+Cesser de bouger par peur d'aggraver la courbure : l'activité est sécuritaire.
+Porter longtemps une charge lourde d'un seul côté du corps.
+Faire des torsions brusques du tronc avec une charge lourde.
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — même raison, mêmes références et même réserve « À VÉRIFIER » que dans la fiche LOM-09 ; Silbernagel et al., Am J Sports Med, 2007 ; Smith et al., Br J Sports Med, 2017 (PMID 28596288)]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse qui s'aggrave rapidement dans les jambes.
+Douleur soudaine et vive dans le dos après une chute ou un effort, même léger, ou perte de taille rapide (possible fracture).
+[MODIFIÉ : « […] ou perte de force dans une jambe. » (sous « Revoyez votre médecin si ») → « Perte de force nouvelle dans une jambe ou un pied (pied qui accroche le sol en marchant). » (déplacé ici) — même raison que dans la fiche LOM-09 ; Thomé et al., Neurosurgery, 2022 (PMID 35040807)]
+REVOYEZ VOTRE MÉDECIN SI
+[MODIFIÉ : « Douleur, lourdeur ou engourdissements dans une jambe ou les deux à la marche, ou perte de force dans une jambe. » → « Douleur, lourdeur ou engourdissements dans une jambe ou les deux à la marche. » — la perte de force est déplacée sous « Consultez rapidement »]
+Posture qui penche de plus en plus vers l'avant ou sur le côté.
+Douleur qui empêche vos activités quotidiennes malgré les exercices.
+DURÉE HABITUELLE
+Amélioration de l'endurance et du confort possible en 6 à 12 semaines d'exercices réguliers, à poursuivre à long terme. [À VÉRIFIER : aucune donnée sur ce délai n'a été retrouvée pour la scoliose dégénérative de l'adulte]
+PROGRAMME D'EXERCICES
+Matériel : chaise, mur
+Exercice 1 : Auto-grandissement assis, puis debout
+Phase : Dès maintenant
+But : Pour redresser la posture.
+Départ : Assis droit sur une chaise, pieds à plat au sol.
+Mouvement : Imaginez qu'un fil tire doucement le sommet de votre tête vers le plafond pour allonger le dos, en gardant les épaules basses. Tenez 10 secondes en respirant.
+Dosage : 8 à 10 répétitions, 2 fois par jour.
+Progression : Faites le même exercice debout, le dos près d'un mur.
+Plus facile : Faites-le assis, le dos appuyé.
+Erreur fréquente : Hausser les épaules ou retenir sa respiration.
+Illustration demandée : Dessin au trait d'une personne assise se grandissant vers le haut avec une flèche au sommet de la tête.
+Exercice 2 : Pont fessier
+Phase : Quand la douleur diminue
+But : Pour renforcer les fessiers.
+Départ : Couché sur le dos, genoux pliés, pieds à plat.
+Mouvement : Serrez les fessiers et soulevez doucement les hanches jusqu'à aligner les épaules, les hanches et les genoux. Tenez 3 secondes, puis redescendez.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Tenez 5 secondes en haut.
+Plus facile : Montez moins haut.
+Erreur fréquente : Cambrer le bas du dos.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos réalisant un pont fessier.
+Exercice 3 : Oiseau-chien doux (une jambe à la fois)
+Phase : Quand la douleur diminue
+But : Pour renforcer le dos et l'équilibre.
+Départ : À quatre pattes, mains sous les épaules et genoux sous les hanches.
+Mouvement : Tendez doucement une jambe vers l'arrière en gardant le dos stable pendant 3 secondes, puis revenez. Alternez les jambes.
+Dosage : 2 séries de 8 répétitions par côté, 3 fois par semaine.
+Progression : Tendez en même temps le bras opposé quand votre équilibre est solide.
+Plus facile : Glissez simplement le pied vers l'arrière, sans le lever.
+Erreur fréquente : Laisser le bassin basculer sur le côté.
+Illustration demandée : Dessin au trait d'une personne à quatre pattes tendant doucement une jambe vers l'arrière.
+RÉFÉRENCES
+Schoutens C, Cushman DM, McCormick ZL, et al. Outcomes of Nonsurgical Treatments for Symptomatic Adult Degenerative Scoliosis: A Systematic Review. Pain Med, 2020 (PMID : 31617915) — référence vérifiée. À noter : cette revue conclut que les preuves sont insuffisantes pour recommander ou déconseiller les traitements sans chirurgie.
+[MODIFIÉ : (ajout) → Diebo BG, Shah NV, Boachie-Adjei O, et al. Adult spinal deformity. Lancet, 2019 — appuie le renforcement du tronc malgré des preuves limitées ; PMID À VÉRIFIER]
+[MODIFIÉ : (ajout) → Faraj SS, Holewijn RM, van Hooff ML, et al. De novo degenerative lumbar scoliosis: a systematic review of prognostic factors for curve progression. Eur Spine J, 2016 — appuie le retrait de l'ostéoporose comme cause ; PMID À VÉRIFIER]
+## FICHE LOM-12 · [lombaire/spa]
+Titre : Spondyloarthrite axialeSous-titre : Raideur inflammatoire du dosAncien titre : Raideur inflammatoire du dos (spondyloarthrite axiale)Diagnostic correspondant dans MSK Morand : Spondyloarthrite axiale
+EN BREF
+C'est une maladie inflammatoire du bassin et de la colonne.
+[MODIFIÉ : « Les médicaments prescrits et l'exercice quotidien sont tous deux essentiels. » → « Les médicaments prescrits et l'exercice régulier (idéalement chaque jour) sont tous deux essentiels. » — les recommandations internationales parlent d'exercice « régulier », sans exiger qu'il soit quotidien ; Ramiro et al., Ann Rheum Dis, 2023 (PMID 36270658)]
+Bouger chaque jour garde la colonne souple.
+CE QUE VOUS AVEZ
+Vous avez une maladie inflammatoire chronique des articulations du bassin et de la colonne. Elle cause surtout de la raideur le matin et des douleurs qui peuvent vous réveiller la nuit et qui s'améliorent en bougeant. En plus du suivi et des médicaments prescrits par votre médecin ou votre rhumatologue, l'exercice régulier fait partie intégrante du traitement : il aide à garder le dos souple et à rester en forme.
+POURQUOI ÇA ARRIVE
+Facteurs héréditaires (gène HLA-B27).
+Inflammation causée par le système immunitaire ; le tabac l'aggrave.
+SOULAGER LA DOULEUR
+[MODIFIÉ : « Les anti-inflammatoires prescrits par votre médecin sont le traitement de base : prenez-les comme indiqué. » → « Les anti-inflammatoires prescrits par votre médecin sont le traitement de base : prenez-les comme indiqué. S'ils ne suffisent pas, d'autres traitements existent : parlez-en à votre médecin ou à votre rhumatologue. » — les anti-inflammatoires sont bien le premier traitement, mais ils ne contrôlent complètement les symptômes que chez environ 1 personne sur 5 ; Ramiro et al., Ann Rheum Dis, 2023 (PMID 36270658) ; Bittar et Deodhar, JAMA, 2025]
+Douche chaude ou chaleur le matin pour diminuer la raideur.
+CE QUI AIDE
+Bouger et assouplir le dos chaque jour, par exemple après une douche chaude le matin.
+Pratiquer régulièrement une activité physique (marche, natation ou exercices en piscine, vélo, yoga doux) et du renforcement musculaire.
+Faire des exercices de respiration profonde pour garder la cage thoracique souple.
+Prendre le traitement tel que prescrit et, si possible, apprendre vos exercices avec un physiothérapeute.
+À ÉVITER POUR L'INSTANT
+Rester inactif ou alité (la raideur augmente avec l'immobilité).
+Fumer (le tabac aggrave l'inflammation et les dommages à la colonne dans cette maladie).
+[MODIFIÉ : « Faire manipuler (« craquer ») votre cou ou votre dos. » → « Faire manipuler (« craquer ») votre cou ou votre dos : il y a un risque de fracture, surtout si la colonne est soudée ou fragile. » — les recommandations américaines déconseillent fortement les manipulations rapides de la colonne, surtout en présence de fusion ou d'ostéoporose avancée (cas rapportés de fractures et de paralysie); la mise à jour de 2026 maintient cette recommandation ; Ward et al., Arthritis Rheumatol, 2016 et 2019 ; American College of Rheumatology, mise à jour 2026]
+Dormir avec plusieurs gros oreillers qui poussent la tête et le haut du dos vers l'avant. [À VÉRIFIER : conseil traditionnel d'experts; aucun essai ni recommandation de guide n'a été retrouvé]
+RÈGLE DE DOULEUR (0 À 10)
+[MODIFIÉ : « Pendant et après les exercices, une douleur ou une raideur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle est plus forte ou dure plus d'une heure, diminuez l'amplitude ou le nombre de répétitions. » → « Pendant et après les exercices, une douleur ou une raideur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions. » — les guides sur la spondyloarthrite et sur l'activité physique en arthrite inflammatoire ne donnent aucun délai; le délai d'une heure n'est pas appuyé; même extrapolation que dans les autres fiches ; Rausch Osthoff et al., Ann Rheum Dis, 2018 (PMID 29997112) ; Ramiro et al., Ann Rheum Dis, 2023 (PMID 36270658) ; Silbernagel et al., Am J Sports Med, 2007]
+[À VÉRIFIER : la « règle des 2 heures » utilisée dans l'enseignement sur l'arthrite n'a pas pu être rattachée à une source primaire; aucun délai n'est validé pour cette maladie.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Urgence (le jour même) : œil rouge et douloureux, sensibilité à la lumière ou vision floue (possible uvéite).
+Douleur nouvelle et vive dans le cou ou le dos, surtout après une chute ou un choc même léger (risque de fracture).
+Engourdissements ou faiblesse dans les jambes, engourdissement entre les jambes, difficulté nouvelle à uriner ou perte d'urine ou de selles.
+[MODIFIÉ : « Fièvre ou signes d'infection si vous prenez un traitement qui diminue les défenses immunitaires (biothérapie). » → « Fièvre ou signes d'infection si vous prenez un traitement qui diminue les défenses immunitaires (médicament biologique). » — terme plus simple pour le niveau de lecture visé; le classement en « Consultez rapidement » est approprié]
+REVOYEZ VOTRE MÉDECIN SI
+Poussée importante qui vous réveille toutes les nuits malgré le traitement.
+DURÉE HABITUELLE
+[MODIFIÉ : « Les exercices réguliers améliorent la souplesse et la forme en 4 à 12 semaines et doivent être poursuivis à long terme. » → « Les exercices réguliers améliorent la souplesse et la forme en 2 à 4 mois environ et doivent être poursuivis à long terme. » — dans la revue Cochrane citée, les programmes duraient en moyenne 12 semaines (le plus souvent de 8 à 16 semaines) et les bienfaits étaient mesurés à la fin du programme ; Regnaux et al., Cochrane Database Syst Rev, 2019 (PMID 31578051)]
+PROGRAMME D'EXERCICES
+Matériel : chaise, mur
+Exercice 1 : Respiration thoracique profonde avec ouverture des bras
+Phase : Dès maintenant
+But : Pour garder la cage thoracique souple.
+Départ : Assis droit, ou debout dos au mur.
+Mouvement : Inspirez profondément par le nez en ouvrant les bras sur les côtés pour gonfler la poitrine, puis expirez lentement en relâchant.
+Dosage : 10 respirations profondes, 2 fois par jour.
+Progression : Montez les bras au-dessus de la tête pendant l'inspiration.
+Plus facile : Faites-le couché sur le dos.
+Erreur fréquente : Respirer seulement avec le haut des épaules en crispant le cou.
+Illustration demandée : Dessin au trait d'une personne debout inspirant profondément tout en ouvrant grand les bras sur les côtés.
+Exercice 2 : Dos rond / dos creux à quatre pattes
+Phase : Dès maintenant
+But : Pour garder la colonne souple.
+Départ : À quatre pattes, mains sous les épaules et genoux sous les hanches.
+Mouvement : Arrondissez lentement tout le dos, puis creusez doucement en ouvrant la poitrine vers l'avant.
+Dosage : 10 à 12 répétitions lentes, chaque matin.
+Progression : Enchaînez les mouvements de façon fluide, en augmentant peu à peu l'amplitude.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Aller trop vite.
+Illustration demandée : Dessin au trait en deux étapes d'une personne à quatre pattes mobilisant doucement la colonne.
+Exercice 3 : Extension sur le ventre (sphinx)
+Phase : Dès maintenant
+But : Pour redresser le dos.
+Départ : Allongé sur le ventre, front posé sur les mains.
+Mouvement : Relevez doucement la poitrine en appui sur les avant-bras pour redresser le dos et étirer l'avant des hanches. Tenez 20 à 30 secondes.
+Dosage : 3 répétitions, 1 à 2 fois par jour.
+Progression : Restez quelques minutes allongé à plat sur le ventre chaque jour, si c'est toléré. [À VÉRIFIER : conseil traditionnel d'experts; aucune étude retrouvée. La position peut être impossible si le dos ou le cou sont déjà raides ou soudés.]
+Plus facile : Restez simplement à plat ventre.
+Erreur fréquente : Forcer dans une douleur vive.
+Illustration demandée : Dessin au trait d'une personne allongée sur le ventre en appui sur les avant-bras.
+Exercice 4 : Rotations douces du tronc assis
+Phase : Dès maintenant
+But : Pour garder la rotation du tronc.
+Départ : Assis droit sur une chaise, bras croisés sur la poitrine.
+Mouvement : Tournez doucement les épaules vers la droite, puis vers la gauche, en vous grandissant et en gardant le bassin stable. N'allez pas plus loin que ce qui est confortable.
+Dosage : 8 répétitions de chaque côté, 1 à 2 fois par jour.
+Progression : Tenez 5 secondes de chaque côté en respirant profondément.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Tourner le bassin sur la chaise ou forcer en fin de mouvement.
+Illustration demandée : Dessin au trait d'une personne assise tournant doucement le buste d'un côté puis de l'autre.
+RÉFÉRENCES
+Ramiro S, Nikiphorou E, Sepriano A, et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis, 2023;82(1):19-34, doi:10.1136/ard-2022-223296 (PMID : 36270658) — référence vérifiée.
+Regnaux JP, Davergne T, Palazzo C, et al. Exercise programmes for ankylosing spondylitis. Cochrane Database Syst Rev, 2019;10:CD011321, doi:10.1002/14651858.CD011321.pub2 (PMID : 31578051) — référence vérifiée.
+[MODIFIÉ : (ajout) → Ward MM, Deodhar A, Gensler LS, et al. 2019 Update of the American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Rheumatol, 2019, doi:10.1002/art.41042 — appuie le conseil sur les manipulations ; PMID À VÉRIFIER. Une mise à jour 2026 de ces recommandations existe : détails bibliographiques À VÉRIFIER.]
+[MODIFIÉ : (ajout) → Rausch Osthoff AK, Niedermann K, Braun J, et al. 2018 EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis. Ann Rheum Dis, 2018;77(9):1251-1260 (PMID : 29997112) ; mise à jour 2025 : Ann Rheum Dis, 2026;85(6):1026-1038 (PMID : 42036268) — appuie la place de l'activité physique]
+[À VÉRIFIER : la ligne directrice canadienne évolutive de la Société canadienne de rhumatologie et du Spondyloarthritis Research Consortium of Canada (Rohekar et al., dernière mise à jour en 2025) serait la référence canadienne à citer; ses détails bibliographiques et ses recommandations non médicamenteuses n'ont pas été retrouvés dans les sources consultées.]

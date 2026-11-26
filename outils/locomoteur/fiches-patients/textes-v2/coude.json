@@ -12,9 +12,9 @@
   "en_bref": [
    "Les tendons du dessus de l'avant-bras sont irrités à leur attache au coude.",
    "Des exercices de renforcement lents sont le traitement le plus efficace.",
-   "La guérison prend souvent plusieurs mois, mais la plupart des personnes guérissent."
+   "La guérison prend souvent plusieurs mois, mais la plupart des personnes guérissent, avec ou sans traitement."
   ],
-  "ce_que_vous_avez": "Les tendons qui relèvent le poignet et les doigts sont devenus sensibles à leur attache sur l'os du côté extérieur du coude. Malgré le surnom de « tennis elbow », cela survient surtout au travail ou lors de gestes répétitifs de la main. Dans la grande majorité des cas, la douleur finit par disparaître avec le temps. Des exercices progressifs sont une façon sûre d'aider le tendon à tolérer de nouveau l'effort et peuvent accélérer les premiers progrès.",
+  "ce_que_vous_avez": "Les tendons qui relèvent le poignet et les doigts sont devenus sensibles à leur attache sur l'os du côté extérieur du coude. Malgré le surnom de « tennis elbow », cela survient surtout au travail ou lors de gestes répétitifs de la main. Dans la grande majorité des cas, la douleur finit par disparaître avec le temps. Des exercices progressifs sont une façon sûre d'aider le tendon à tolérer de nouveau l'effort. Ils peuvent aider un peu au début.",
   "pourquoi": [
    "Gestes répétés de la main et du poignet (outils, clavier, souris, raquette).",
    "Prise ferme et répétée, surtout le poignet relevé.",
@@ -25,7 +25,7 @@
    "Renforcer les muscles de l'avant-bras avec une charge qui augmente petit à petit.",
    "Prendre de courtes pauses régulières pendant les tâches répétitives de la main.",
    "Soulever les objets près du corps, coude plié et paume vers le haut.",
-   "Porter un bracelet épicondylien pendant les tâches difficiles s'il vous soulage (il diminue la douleur à l'effort, mais ne guérit pas le tendon)."
+   "Porter un bracelet épicondylien pendant les tâches difficiles s'il vous soulage (il peut diminuer la douleur à l'effort chez certaines personnes, mais ne guérit pas le tendon)."
   ],
   "a_eviter": [
    "Serrer, visser ou tordre avec force (essorer un linge, serrer un outil à pleine main).",
@@ -35,11 +35,12 @@
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
-   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+   "Les médicaments soulagent, mais ne guérissent pas le tendon.",
+   "Une injection de cortisone soulage pendant quelques semaines, mais la douleur revient ensuite plus souvent. Elle est rarement conseillée."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou reste plus forte le lendemain, diminuez la charge ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle dépasse 3 sur 10, si elle est encore plus forte le lendemain matin ou si elle augmente d'une semaine à l'autre, diminuez la charge ou le nombre de répétitions.",
   "urgence": [
-   "Coude rouge et chaud, ou fièvre."
+   "Coude rouge et chaud, ou fièvre (le jour même)."
   ],
   "medecin": [
    "Engourdissements, picotements ou faiblesse dans la main ou les doigts.",
@@ -47,9 +48,9 @@
    "Douleur qui s'aggrave nettement au repos ou la nuit.",
    "Aucun progrès après 8 à 12 semaines d'exercices réguliers (pour revoir le diagnostic et le programme)."
   ],
-  "duree_habituelle": "Les premiers progrès apparaissent souvent en 6 à 12 semaines, mais la guérison complète prend souvent plusieurs mois. Environ 9 personnes sur 10 vont nettement mieux en un an.",
+  "duree_habituelle": "Les premiers progrès apparaissent souvent en 6 à 12 semaines, mais la guérison complète prend souvent plusieurs mois. Environ 9 personnes sur 10 vont nettement mieux en un an, avec ou sans traitement.",
   "materiel": [
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "table"
   ],
   "exercices": [
@@ -62,8 +63,8 @@
     "erreur_frequente": "Crisper les épaules ou pousser si fort que la douleur dépasse 3 sur 10.",
     "illustration": "Dessin au trait d'un avant-bras posé sur une table, paume vers le bas, avec l'autre main posée sur le dos de la main pour résister.",
     "phase": "Dès maintenant",
-    "but": "Pour calmer la douleur et réveiller le tendon.",
-    "plus_facile": "Poussez plus doucement, 20 secondes."
+    "but": "Pour remettre le tendon au travail en douceur.",
+    "plus_facile": "Poussez plus doucement, 15 secondes."
    },
    {
     "nom": "Extension lente du poignet avec poids",
@@ -146,8 +147,7 @@
    "Réduire pour un temps les gestes qui déclenchent la douleur, sans arrêter d'utiliser le bras.",
    "Renforcer progressivement les muscles qui plient le poignet, avec des mouvements lents.",
    "Choisir des outils à manche plus épais pour serrer moins fort.",
-   "Renforcer aussi l'épaule et le haut du dos pour mieux répartir l'effort.",
-   "Mettre de la glace 15 minutes après un effort si cela vous soulage."
+   "Renforcer aussi l'épaule et le haut du dos pour mieux répartir l'effort."
   ],
   "a_eviter": [
    "Serrer fort des outils, porter des sacs très lourds ou faire des tractions.",
@@ -157,12 +157,12 @@
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
-   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+   "Les médicaments soulagent, mais ne guérissent pas le tendon."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou reste plus forte le lendemain, diminuez la charge ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle dépasse 3 sur 10, si elle est encore plus forte le lendemain matin ou si elle augmente d'une semaine à l'autre, diminuez la charge ou le nombre de répétitions.",
   "urgence": [
-   "Gonflement important, rougeur ou chaleur au coude.",
-   "Douleur vive et soudaine à l'intérieur du coude lors d'un effort ou d'un lancer."
+   "Gonflement important, rougeur ou chaleur au coude, ou fièvre (le jour même).",
+   "Douleur vive et soudaine ou claquement à l'intérieur du coude lors d'un effort ou d'un lancer (le jour même ou le lendemain)."
   ],
   "medecin": [
    "Picotements ou engourdissements dans l'annulaire et l'auriculaire.",
@@ -172,7 +172,7 @@
   "duree_habituelle": "Les premiers progrès apparaissent souvent en 6 à 12 semaines; la guérison complète prend souvent de 3 à 6 mois.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau",
+   "poids léger, bouteille d'eau ou sac à dos",
    "table"
   ],
   "exercices": [
@@ -185,8 +185,8 @@
     "erreur_frequente": "Pousser si fort que la douleur dépasse 3 sur 10.",
     "illustration": "Dessin au trait d'un avant-bras posé sur une table, paume vers le haut, avec l'autre main appuyant dans la paume pour résister.",
     "phase": "Dès maintenant",
-    "but": "Pour calmer la douleur et réveiller le tendon.",
-    "plus_facile": "Poussez plus doucement, 20 secondes."
+    "but": "Pour remettre le tendon au travail en douceur.",
+    "plus_facile": "Poussez plus doucement, 15 secondes."
    },
    {
     "nom": "Flexion lente du poignet avec poids",
@@ -252,7 +252,7 @@
   "diagnostic": "Coude du lanceur juvénile (apophysite de l'épicondyle médial)",
   "en_bref": [
    "Une zone de croissance à l'intérieur du coude est irritée par les lancers.",
-   "Le traitement principal est un arrêt complet des lancers pendant quelques semaines.",
+   "Le traitement principal est un arrêt complet des lancers pendant au moins 4 à 6 semaines, parfois 2 à 3 mois.",
    "Le retour au lancer se fait graduellement, en respectant le nombre de lancers permis pour son âge."
   ],
   "ce_que_vous_avez": "Chez un jeune qui grandit, lancer souvent et fort tire sur une zone de croissance encore fragile, à l'intérieur du coude. Cette zone s'irrite et devient douloureuse. Le traitement principal est d'arrêter complètement de lancer pendant plusieurs semaines, en gardant le reste du corps en forme, puis de reprendre par étapes quand le coude ne fait plus mal du tout.",
@@ -264,9 +264,8 @@
   "ce_qui_aide": [
    "Arrêter complètement de lancer (matchs, entraînements et jeux à la maison) pendant au moins 4 à 6 semaines, ou plus longtemps selon l'avis médical.",
    "Garder la forme avec des exercices pour les jambes, le tronc et les omoplates, sans solliciter le coude.",
-   "Mettre de la glace 15 minutes au besoin si le coude est sensible.",
    "Reprendre avec un programme de lancers par étapes, seulement quand le coude est sans douleur, même au toucher.",
-   "Après le retour au jeu : respecter les limites de lancers et les jours de repos prévus pour votre âge, jouer dans une seule équipe à la fois et garder au moins 4 mois par année sans lancer en compétition."
+   "Après le retour au jeu : respecter les limites de lancers et les jours de repos prévus pour votre âge (règles de votre ligue), jouer dans une seule équipe à la fois et garder au moins 4 mois par année sans lancer en compétition, dont 2 à 3 mois de suite sans aucun lancer par-dessus l'épaule."
   ],
   "a_eviter": [
    "Lancer malgré la douleur ou avec un bras fatigué.",
@@ -274,23 +273,25 @@
    "Cumuler les positions de lanceur et de receveur."
   ],
   "soulager": [
-   "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Glace 10 à 15 minutes, dans un linge, au besoin si le coude est sensible.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien).",
+   "Ne donnez pas de médicament pour permettre de lancer malgré la douleur."
   ],
   "regle_de_douleur": "Les exercices ne doivent provoquer aucune douleur au coude. Si le coude fait mal pendant ou après un exercice, arrêtez cet exercice et parlez-en à votre médecin ou à votre physiothérapeute. Une fatigue des muscles des jambes ou du tronc est normale. Le coude doit être à 0 sur 10, même au toucher, avant de recommencer à lancer.",
   "urgence": [
-   "Craquement ou « pop » ressenti dans le coude pendant un lancer, avec douleur vive immédiate (à faire évaluer le jour même)."
+   "Craquement ou « pop » ressenti dans le coude pendant un lancer, avec douleur vive immédiate (à faire évaluer le jour même).",
+   "Coude qui enfle ou qui ne peut plus se tendre ou se plier complètement après un lancer ou une chute (le jour même ou le lendemain)."
   ],
   "medecin": [
-   "Coude enflé, ou impossible à tendre ou à plier complètement.",
+   "Coude enflé ou raide qui s'installe peu à peu.",
    "Picotements ou engourdissements dans l'annulaire ou l'auriculaire.",
    "Douleur qui persiste au repos ou la nuit.",
    "Douleur qui revient dès les premiers lancers légers."
   ],
-  "duree_habituelle": "Arrêt des lancers d'au moins 4 à 6 semaines, puis reprise par étapes sur 4 à 8 semaines. Le retour à la compétition se fait le plus souvent après 2 à 3 mois.",
+  "duree_habituelle": "Arrêt des lancers d'au moins 4 à 6 semaines, puis reprise par étapes sur 4 à 8 semaines. Le retour à la compétition se fait le plus souvent vers 3 mois, parfois plus tard.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -337,7 +338,7 @@
     "progression": "Augmentez très graduellement le poids avant de commencer le programme de lancers.",
     "erreur_frequente": "Commencer trop tôt, quand l'intérieur du coude est encore sensible.",
     "illustration": "Dessin au trait d'un avant-bras posé sur une cuisse soulevant un très petit haltère, paume vers le haut.",
-    "phase": "Quand la douleur diminue",
+    "phase": "Quand la douleur a disparu",
     "but": "Pour renforcer l'avant-bras, quand le coude ne fait plus mal.",
     "plus_facile": "Faites-le sans poids."
    }
@@ -374,7 +375,7 @@
   "en_bref": [
    "Le nerf du « petit os » du coude est irrité.",
    "Garder le coude moins plié, surtout la nuit, le soulage.",
-   "La plupart des cas s'améliorent sans chirurgie."
+   "La plupart des cas légers ou modérés s'améliorent sans chirurgie."
   ],
   "ce_que_vous_avez": "Le nerf ulnaire (celui qui donne une décharge quand on se cogne le « petit os » du coude) est irrité dans son passage à l'intérieur du coude. Cela cause des fourmillements dans l'annulaire et l'auriculaire. Le nerf est étiré et comprimé quand le coude reste plié longtemps ou appuyé sur une surface dure. Changer ces habitudes, surtout la nuit, est la mesure la plus utile.",
   "pourquoi": [
@@ -382,7 +383,7 @@
    "Appui sur l'intérieur du coude (bureau, accoudoir de voiture)."
   ],
   "ce_qui_aide": [
-   "Garder le coude presque droit la nuit : enrouler une serviette autour du coude ou porter une attelle souple qui l'empêche de plier à plus de 45 degrés environ.",
+   "Garder le coude peu plié la nuit : enrouler une serviette autour du coude ou porter une attelle souple qui l'empêche de plier à plus de 45 degrés environ. Le coude n'a pas besoin d'être tout à fait droit. Garder le coude peu plié la nuit... Le coude n'a pas besoin d'être tout à fait droit.",
    "Éviter de vous appuyer sur les coudes au bureau, à table ou en voiture; utiliser une protection rembourrée au besoin.",
    "Utiliser des écouteurs ou le haut-parleur plutôt que de tenir le téléphone à l'oreille.",
    "Changer souvent de position quand le coude doit rester plié (lecture, écran, conduite)."
@@ -393,16 +394,16 @@
    "Forcer un étirement ou un exercice qui augmente les picotements dans les doigts."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Les exercices ne doivent pas déclencher ni augmenter les picotements ou l'engourdissement dans l'annulaire et l'auriculaire. Si cela arrive, réduisez l'amplitude du mouvement ou arrêtez l'exercice. Un léger tiraillement qui disparaît dès que vous relâchez est acceptable.",
   "urgence": [
    "Perte de force dans la main (difficulté à pincer, à écarter les doigts, objets qui vous échappent).",
-   "Fonte musculaire visible entre le pouce et l'index ou sur le bord de la main."
+   "Fonte musculaire visible entre le pouce et l'index ou sur le bord de la main (dans les prochains jours)."
   ],
   "medecin": [
-   "Engourdissement constant, jour et nuit, dans l'annulaire et l'auriculaire.",
+   "Engourdissement constant, jour et nuit, dans l'annulaire et l'auriculaire (sans trop tarder : des examens du nerf peuvent être utiles).",
    "Aucune amélioration après 6 à 8 semaines, ou symptômes encore gênants après 3 mois."
   ],
   "duree_habituelle": "L'amélioration est progressive, sur quelques semaines à 3 mois. Les nouvelles habitudes, surtout la nuit, sont à garder au moins 3 mois.",
@@ -431,7 +432,7 @@
     "erreur_frequente": "Plier le coude tout en penchant la tête du côté opposé (cela étire trop le nerf), ou maintenir la position.",
     "illustration": "Dessin au trait en deux étapes : le coude se plie pendant que la tête penche vers le bras, puis le coude s'ouvre pendant que la tête penche de l'autre côté.",
     "phase": "Quand la douleur diminue",
-    "but": "Pour aider le nerf à glisser.",
+    "but": "Pour aider le nerf à glisser. Cet exercice est facultatif : les bonnes habitudes comptent davantage.",
     "plus_facile": "Faites un plus petit mouvement, sans pencher la tête."
    },
    {
@@ -480,14 +481,13 @@
   "ce_que_vous_avez": "Une petite poche appelée bourse, située juste sous la peau à la pointe du coude, s'est remplie de liquide après un choc ou des appuis répétés. Quand il n'y a pas d'infection, cette enflure diminue le plus souvent d'elle-même si le coude est protégé des appuis.",
   "pourquoi": [
    "Appuis répétés sur le coude (bureau, travail sur les genoux et les coudes).",
-   "Choc direct sur la pointe du coude."
+   "Choc direct sur la pointe du coude.",
+   "Plus rarement, la goutte ou une arthrite inflammatoire."
   ],
   "ce_qui_aide": [
    "Protéger la pointe du coude contre les chocs et les appuis (coudière souple ou rembourrage).",
    "Porter un bandage élastique léger, jamais serré; l'enlever si la main enfle, picote ou change de couleur.",
-   "Mettre de la glace 15 minutes, 2 à 3 fois par jour, si la zone est sensible.",
-   "Garder des mouvements doux pour éviter que le coude devienne raide.",
-   "Demander à votre médecin ou à votre pharmacien si un anti-inflammatoire de courte durée vous convient."
+   "Garder des mouvements doux pour éviter que le coude devienne raide."
   ],
   "a_eviter": [
    "Vous appuyer sur les coudes sur une table, un bureau ou le sol.",
@@ -502,13 +502,15 @@
   "urgence": [
    "Bosse qui devient rouge, chaude ou nettement plus douloureuse, même sans fièvre (une infection est possible).",
    "Fièvre, frissons ou sensation d'être malade.",
-   "Plaie, égratignure ou écoulement sur la bosse."
+   "Plaie, égratignure ou écoulement sur la bosse.",
+   "Si vous faites du diabète, si vos défenses sont affaiblies (cortisone, chimiothérapie, autre traitement qui baisse l'immunité) ou si vous consommez beaucoup d'alcool : consultez le jour même au moindre de ces signes."
   ],
   "medecin": [
    "Enflure qui continue de grossir malgré la protection.",
-   "Aucune diminution après 6 semaines."
+   "Aucune diminution après 6 semaines.",
+   "Bosse qui revient, ou goutte ou arthrite inflammatoire connue."
   ],
-  "duree_habituelle": "L'enflure diminue souvent en 2 à 6 semaines si le coude est bien protégé; elle peut parfois durer plus longtemps.",
+  "duree_habituelle": "L'enflure diminue souvent en 2 à 6 semaines si le coude est bien protégé; elle peut parfois durer jusqu'à 3 mois.",
   "materiel": [
    "serviette",
    "coussin",
@@ -579,7 +581,7 @@
   "diagnostic": "Arthrose du coude",
   "en_bref": [
    "Le cartilage du coude s'est usé avec le temps ou après une ancienne blessure.",
-   "Bouger le coude chaque jour garde sa mobilité.",
+   "Bouger le coude chaque jour aide à garder sa mobilité.",
    "D'autres traitements existent si la douleur ou les blocages gênent beaucoup."
   ],
   "ce_que_vous_avez": "L'articulation de votre coude s'est usée avec le temps ou à la suite d'une ancienne blessure : le cartilage s'amincit et de petites excroissances d'os se forment sur les bords. Cela peut causer de la raideur, des craquements et une douleur quand vous pliez ou tendez le bras au maximum. Bouger doucement et régulièrement aide à garder un coude souple et utile, même si les derniers degrés de mouvement ne reviennent pas toujours.",
@@ -601,15 +603,16 @@
   ],
   "soulager": [
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
-   "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
+   "Anti-inflammatoire en crème d'abord ; en comprimés seulement pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si le coude est plus enflé ou plus douloureux le lendemain, réduisez l'amplitude ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel dans les 24 heures. Si le coude est plus enflé ou plus douloureux le lendemain, réduisez l'amplitude ou la charge.",
   "urgence": [
-   "Coude enflé et chaud, rougeur ou fièvre."
+   "Coude enflé et chaud, rougeur ou fièvre.",
+   "Coude qui reste bloqué et que vous n'arrivez pas à débloquer (le jour même ou le lendemain)."
   ],
   "medecin": [
-   "Blocage soudain du coude (impression qu'un petit morceau coince l'articulation).",
-   "Picotements, engourdissements ou perte de force dans l'annulaire et l'auriculaire.",
+   "Blocage soudain du coude qui se replace (impression qu'un petit morceau coince l'articulation).",
+   "Picotements, engourdissements ou perte de force dans l'annulaire et l'auriculaire (sans tarder si la force diminue ou si la main maigrit).",
    "Douleur ou raideur qui gêne beaucoup les gestes quotidiens malgré les exercices."
   ],
   "duree_habituelle": "L'arthrose est durable, mais le confort et la souplesse peuvent s'améliorer après quelques semaines d'exercices réguliers. Les exercices sont à poursuivre à long terme.",
@@ -686,7 +689,7 @@
    "Beaucoup de lésions partielles guérissent sans opération.",
    "Le retour au lancer se fait par étapes, après un arrêt complet."
   ],
-  "ce_que_vous_avez": "Le ligament situé à l'intérieur du coude, qui retient l'articulation quand vous lancez fort, est étiré ou partiellement déchiré. Beaucoup de déchirures partielles guérissent sans opération grâce à un arrêt des lancers suivi d'un renforcement de l'avant-bras, de l'épaule, du tronc et des hanches. Cette fiche ne s'applique pas à une rupture complète du ligament.",
+  "ce_que_vous_avez": "Le ligament situé à l'intérieur du coude, qui retient l'articulation quand vous lancez fort, est étiré ou partiellement déchiré. Beaucoup de déchirures partielles guérissent sans opération grâce à un arrêt des lancers suivi d'un renforcement de l'avant-bras, de l'épaule, du tronc et des hanches. Les chances sont meilleures quand la déchirure est petite et située du côté du bras plutôt que du côté de l'avant-bras. Cette fiche ne s'applique pas à une rupture complète du ligament.",
   "pourquoi": [
    "Lancers répétés et puissants.",
    "Fatigue et mécanique de lancer à corriger.",
@@ -705,21 +708,22 @@
   ],
   "soulager": [
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
-   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.",
+   "Si vous avez reçu une injection de plasma riche en plaquettes (PRP), demandez à votre médecin avant de prendre un anti-inflammatoire."
   ],
   "regle_de_douleur": "Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale le lendemain matin. Une douleur à l'intérieur du coude n'est pas acceptable : arrêtez l'exercice qui la provoque. L'intérieur du coude doit être totalement sans douleur avant de recommencer à lancer.",
   "urgence": [
-   "Claquement ressenti à l'intérieur du coude, suivi d'une douleur vive ou d'un bleu."
+   "Claquement ressenti à l'intérieur du coude, suivi d'une douleur vive ou d'un bleu (le jour même ou le lendemain)."
   ],
   "medecin": [
    "Picotements ou engourdissements dans l'annulaire et l'auriculaire.",
    "Douleur à l'intérieur du coude qui revient dès les premiers lancers légers.",
-   "Pas de retour possible au lancer après 3 mois de réadaptation bien suivie (avis en orthopédie pour discuter des options)."
+   "Aucun progrès après 6 à 8 semaines de réadaptation, ou pas de retour possible au lancer après 3 mois de réadaptation bien suivie (avis en orthopédie pour discuter des options)."
   ],
-  "duree_habituelle": "Environ 6 à 12 semaines de réadaptation avant le programme de lancers par étapes. Le retour au jeu se fait en moyenne vers 3 mois, parfois plus tard.",
+  "duree_habituelle": "Environ 6 à 8 semaines de réadaptation, parfois jusqu'à 12, avant le programme de lancers par étapes. Le retour au jeu se fait en moyenne vers 3 mois, parfois plus tard.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -736,7 +740,7 @@
    },
    {
     "nom": "Renforcement des muscles qui plient le poignet et les doigts",
-    "position_de_depart": "Assis, l'avant-bras posé sur la cuisse, paume vers le plafond, tenant un poids d'environ 1 kg.",
+    "position_de_depart": "Assis, l'avant-bras posé sur la cuisse, paume vers le plafond, tenant un poids d'environ 0,5 kg.",
     "mouvement": "Pliez lentement le poignet vers le haut en 2 secondes, puis redescendez en 3 secondes.",
     "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
     "progression": "Augmentez le poids graduellement, puis ajoutez la rotation de l'avant-bras (tourner la paume vers le bas) avec un petit poids.",
@@ -749,12 +753,12 @@
    {
     "nom": "Rotation externe de l'épaule avec élastique",
     "position_de_depart": "Debout, coude plié à 90 degrés et collé aux côtes, tenant un élastique léger fixé du côté opposé.",
-    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate bien placée et le coude collé au corps. Revenez lentement.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate bien placée et le coude collé au corps. Commencez par un petit mouvement. Revenez lentement. Arrêtez si vous sentez une douleur à l'intérieur du coude.",
     "dosage": "3 séries de 12 répétitions, 3 à 4 fois par semaine.",
     "progression": "Passez à un élastique plus résistant.",
     "erreur_frequente": "Décoller le coude des côtes ou hausser l'épaule.",
     "illustration": "Dessin au trait d'un sportif debout tirant un élastique vers l'extérieur, coude collé aux côtes.",
-    "phase": "Quand la douleur diminue",
+    "phase": "Pour progresser : seulement quand l'intérieur du coude ne fait plus mal, habituellement pas avant 4 à 6 semaines, et avec l'accord de votre physiothérapeute.",
     "but": "Pour renforcer l'épaule qui lance.",
     "plus_facile": "Faites-le sans élastique."
    },
@@ -801,7 +805,7 @@
    "Une lésion stable peut guérir sans opération si le coude est mis au repos.",
    "Le suivi par imagerie guide le retour au sport."
   ],
-  "ce_que_vous_avez": "Une petite zone d'os et de cartilage, du côté extérieur du coude, a été fragilisée par des contraintes répétées (souvent chez les jeunes lanceurs ou gymnastes). Quand la lésion est stable, elle peut guérir sans opération si le coude est mis à l'abri des lancers et des appuis sur les mains pendant plusieurs mois. Votre médecin peut aussi prescrire une période d'immobilisation. Le suivi par imagerie indique quand la reprise est possible.",
+  "ce_que_vous_avez": "Une petite zone d'os et de cartilage, du côté extérieur du coude, a été fragilisée par des contraintes répétées (souvent chez les jeunes lanceurs ou gymnastes). Quand la lésion est stable, elle peut guérir sans opération si le coude est mis à l'abri des lancers et des appuis sur les mains pendant plusieurs mois. Quand le repos est bien respecté, la lésion guérit chez environ 5 à 9 jeunes sur 10, selon son stade ; elle guérit beaucoup moins souvent si le sport continue. Votre médecin peut aussi prescrire une période d'immobilisation. Le suivi par imagerie indique quand la reprise est possible.",
   "pourquoi": [
    "Gestes répétés qui écrasent l'extérieur du coude (gymnastique, lancer).",
    "Coude encore en croissance."
@@ -811,7 +815,7 @@
    "Porter l'attelle ou le plâtre si votre médecin en a prescrit un.",
    "Garder des mouvements doux et sans charge pour éviter la raideur (sauf pendant une immobilisation).",
    "Garder la forme avec des exercices pour les jambes et le tronc, sans appui sur les mains.",
-   "Aller aux rendez-vous d'imagerie de contrôle (souvent tous les 3 à 6 mois)."
+   "Aller aux rendez-vous d'imagerie de contrôle (souvent toutes les 6 semaines à 3 mois au début, selon votre médecin)."
   ],
   "a_eviter": [
    "Lancer, faire des pompes, des roues, des barres ou soulever des charges lourdes.",
@@ -819,22 +823,22 @@
    "Reprendre le sport sans l'accord de votre médecin, même si la douleur a disparu."
   ],
   "soulager": [
-   "Glace 10 à 15 minutes, dans un linge, après le sport.",
-   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."
+   "Glace 10 à 15 minutes, dans un linge, au besoin si le coude est sensible.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
   "regle_de_douleur": "Les exercices ne doivent provoquer aucune douleur au coude. Arrêtez tout mouvement qui cause une douleur, un accrochage ou un clic, et parlez-en à votre médecin ou à votre physiothérapeute. Une fatigue des muscles des jambes ou du tronc est normale.",
   "urgence": [
-   "Coude qui se bloque brusquement, qui accroche ou qui fait un clic douloureux (un fragment peut s'être détaché)."
+   "Coude qui reste bloqué et que vous n'arrivez pas à débloquer (le jour même ou le lendemain).",
+   "Coude qui se bloque par moments, qui accroche ou qui fait un clic douloureux (dans les prochains jours : un fragment peut s'être détaché). deux lignes ci-dessus"
   ],
   "medecin": [
    "Coude enflé.",
    "Perte d'extension ou de flexion qui s'aggrave.",
    "Douleur dans les gestes de tous les jours ou au repos malgré l'arrêt du sport."
   ],
-  "duree_habituelle": "La guérison de l'os est longue. Une imagerie de contrôle est habituellement faite après 3 à 6 mois; la guérison complète prend souvent de 6 à 12 mois, parfois plus. La reprise du sport dépend du contrôle par imagerie.",
+  "duree_habituelle": "La guérison de l'os est longue. Une décision sur la suite est habituellement prise après 3 à 6 mois d'imagerie de contrôle; la guérison complète sur les images prend souvent de 6 à 18 mois, parfois jusqu'à 2 ans. La reprise du sport dépend du contrôle par imagerie.",
   "materiel": [
-   "élastique",
-   "poids léger ou bouteille d'eau"
+   "élastique"
   ],
   "exercices": [
    {
@@ -845,7 +849,7 @@
     "progression": "Aucune : le but est de garder la mobilité sans jamais forcer.",
     "erreur_frequente": "Essayer de forcer l'extension complète quand le coude bloque.",
     "illustration": "Dessin au trait d'un jeune sportif assis pliant et tendant doucement le coude sans charge.",
-    "phase": "Dès maintenant",
+    "phase": "Dès maintenant (sauf pendant une immobilisation prescrite)",
     "but": "Pour garder le coude souple sans le charger.",
     "plus_facile": "Faites un plus petit mouvement."
    },
@@ -912,7 +916,6 @@
   ],
   "ce_qui_aide": [
    "Arrêter les lancers pendant la période fixée par votre médecin (souvent plusieurs semaines).",
-   "Mettre de la glace 15 minutes à l'arrière du coude après les activités, au besoin.",
    "Renforcer les muscles de l'avant-bras, de l'épaule et du tronc, et ceux qui freinent l'extension du coude.",
    "Revoir votre mécanique de lancer avec un entraîneur ou un physiothérapeute avant la reprise."
   ],
@@ -922,22 +925,25 @@
    "Forcer l'extension complète du coude contre une douleur ou un blocage."
   ],
   "soulager": [
-   "Glace 15 minutes, dans un linge, après l'activité.",
+   "Glace 15 minutes, dans un linge, à l'arrière du coude après l'activité, au besoin.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
   "regle_de_douleur": "Pendant les exercices, un effort ou une fatigue des muscles jusqu'à 3 sur 10 est acceptable si tout est revenu à la normale le lendemain matin. Une douleur à l'arrière du coude n'est pas acceptable : arrêtez le mouvement avant le point qui la déclenche.",
   "urgence": [
-   "Douleur précise sur l'os à la pointe arrière du coude, au toucher ou au repos (une fissure de fatigue doit être recherchée par imagerie)."
+   "Claquement soudain avec douleur vive à l'arrière ou à l'intérieur du coude pendant un lancer (le jour même ou le lendemain).",
+   "Coude qui reste bloqué et que vous n'arrivez pas à débloquer (le jour même ou le lendemain). deux lignes ci-dessus"
   ],
   "medecin": [
-   "Coude qui se bloque ou qui craque douloureusement.",
+   "Douleur précise sur l'os à la pointe arrière du coude, au toucher ou au repos : arrêtez de lancer et revoyez votre médecin sans tarder (une fissure de fatigue doit être recherchée par imagerie, parfois avec une résonance magnétique ou un scan, car la radiographie peut être normale).",
+   "Coude qui se bloque par moments ou qui craque douloureusement.",
    "Coude enflé ou qui perd de l'extension.",
-   "Douleur qui revient dès les premiers lancers."
+   "Douleur qui revient dès les premiers lancers.",
+   "Douleur à l'intérieur du coude, ou picotements dans l'annulaire et l'auriculaire."
   ],
   "duree_habituelle": "Variable : souvent plusieurs semaines d'arrêt des lancers, puis une reprise par étapes sur 4 à 6 semaines.",
   "materiel": [
    "élastique",
-   "poids léger ou bouteille d'eau"
+   "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
@@ -979,7 +985,7 @@
    {
     "nom": "Rotation externe de l'épaule avec élastique",
     "position_de_depart": "Debout, coude plié à 90 degrés et collé aux côtes, tenant un élastique léger fixé du côté opposé.",
-    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate stable. Revenez lentement.",
+    "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate stable. Revenez lentement. Arrêtez si vous sentez une douleur à l'intérieur du coude.",
     "dosage": "3 séries de 12 répétitions, 3 à 4 fois par semaine.",
     "progression": "Passez à un élastique plus résistant.",
     "erreur_frequente": "Décoller le coude des côtes.",
@@ -1016,7 +1022,7 @@
   "diagnostic": "Tendinopathie distale du triceps",
   "en_bref": [
    "Le tendon à l'arrière du coude est irrité.",
-   "Réduire un temps les poussées lourdes, puis renforcer lentement, le guérit.",
+   "Réduire un temps les poussées lourdes, puis renforcer lentement, l'aide à guérir.",
    "Un claquement avec perte de force demande un avis rapide."
   ],
   "ce_que_vous_avez": "Le tendon du muscle situé à l'arrière du bras (le triceps) est devenu sensible près de la pointe du coude, souvent à cause de pompes, de dips ou de musculation lourde. Réduire pour un temps les charges en poussée, puis renforcer le tendon lentement, l'aide à tolérer de nouveau l'effort. Cette fiche ne s'applique pas à une déchirure du tendon.",
@@ -1027,7 +1033,6 @@
   "ce_qui_aide": [
    "Réduire temporairement les charges en poussée (développé couché, dips, pompes).",
    "Renforcer le triceps avec des exercices lents, dont la charge augmente petit à petit.",
-   "Mettre de la glace 15 minutes à l'arrière du coude après l'entraînement, au besoin.",
    "Éviter d'appuyer le tendon sensible sur une surface dure."
   ],
   "a_eviter": [
@@ -1038,11 +1043,11 @@
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
-   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
+   "Les médicaments soulagent, mais ne guérissent pas le tendon."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou reste plus forte le lendemain, diminuez la charge ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle dépasse 3 sur 10, si elle est encore plus forte le lendemain matin ou si elle augmente d'une semaine à l'autre, diminuez la charge ou le nombre de répétitions.",
   "urgence": [
-   "Claquement brutal à l'arrière du coude, avec un bleu, un creux au-dessus de la pointe du coude ou une nette perte de force pour pousser ou tendre le bras (rupture possible, à faire évaluer rapidement en orthopédie, même si vous arrivez encore à tendre le coude).",
+   "Claquement brutal à l'arrière du coude, avec un bleu, un creux au-dessus de la pointe du coude ou une nette perte de force pour pousser ou tendre le bras (rupture possible, à faire évaluer dans les prochains jours en orthopédie, même si vous arrivez encore à tendre le coude).",
    "Coude enflé et chaud, rougeur ou fièvre."
   ],
   "medecin": [
@@ -1064,8 +1069,8 @@
     "erreur_frequente": "Pousser si fort que la douleur dépasse 3 sur 10.",
     "illustration": "Dessin au trait d'une personne assise poussant un poignet vers le bas contre l'autre main qui résiste.",
     "phase": "Dès maintenant",
-    "but": "Pour calmer la douleur et réveiller le tendon.",
-    "plus_facile": "Poussez plus doucement, 20 secondes."
+    "but": "Pour remettre le tendon au travail en douceur.",
+    "plus_facile": "Poussez plus doucement, 15 secondes."
    },
    {
     "nom": "Extension lente du coude avec élastique (poussée vers le bas)",
@@ -1120,9 +1125,9 @@
   "en_bref": [
    "Une branche du nerf radial est irritée dans l'avant-bras.",
    "Réduire les gestes irritants la calme.",
-   "L'amélioration demande souvent plusieurs semaines."
+   "L'amélioration demande souvent plusieurs mois."
   ],
-  "ce_que_vous_avez": "Une branche du nerf radial, qui passe entre les muscles du dessus de l'avant-bras, est irritée. Cela donne une douleur sourde quelques centimètres sous l'extérieur du coude, qui ressemble au « tennis elbow », sans perte de force. La mesure la plus utile est de réduire pendant un temps les gestes répétés qui tournent l'avant-bras. Les exercices proposés sont doux et sans danger, mais leur efficacité pour ce problème précis n'a pas été démontrée.",
+  "ce_que_vous_avez": "Une branche du nerf radial, qui passe entre les muscles du dessus de l'avant-bras, est irritée. Cela donne une douleur sourde quelques centimètres sous l'extérieur du coude, qui ressemble au « tennis elbow », sans vraie perte de force (la douleur peut toutefois limiter l'effort). La mesure la plus utile est de réduire pendant un temps les gestes répétés qui tournent l'avant-bras. Les exercices proposés sont doux et sans danger, mais leur efficacité pour ce problème précis n'a pas été démontrée.",
   "pourquoi": [
    "Rotations répétées de l'avant-bras et prise ferme.",
    "Port de charges, le poignet relevé."
@@ -1139,19 +1144,19 @@
    "Faire des étirements appuyés qui laissent une douleur sourde persistante."
   ],
   "soulager": [
-   "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
   "regle_de_douleur": "Les exercices ne doivent pas augmenter la douleur de l'avant-bras ni provoquer de picotements. Si la douleur est plus forte après l'exercice ou le lendemain, réduisez l'amplitude ou arrêtez cet exercice.",
   "urgence": [
-   "Faiblesse nouvelle pour relever les doigts, le pouce ou le poignet."
+   "Faiblesse nouvelle pour relever les doigts, le pouce ou le poignet (dans les prochains jours)."
   ],
   "medecin": [
    "Engourdissement sur le dos de la main ou du pouce.",
    "Douleur nocturne sévère malgré la réduction des gestes irritants.",
    "Aucune amélioration après 6 à 8 semaines (pour revoir le diagnostic et discuter des autres options)."
   ],
-  "duree_habituelle": "L'amélioration est souvent lente, sur plusieurs mois (3 à 6 mois).",
+  "duree_habituelle": "L'amélioration est souvent lente, sur plusieurs mois (3 à 6 mois, parfois jusqu'à un an).",
   "materiel": [
    "élastique"
   ],
@@ -1171,12 +1176,12 @@
    {
     "nom": "Étirement très léger du dessus de l'avant-bras",
     "position_de_depart": "Assis, coude légèrement plié, l'avant-bras posé sur la cuisse, la main dépassant du genou.",
-    "mouvement": "Laissez le poignet tomber doucement vers le bas et aidez très légèrement avec l'autre main. Tenez 15 à 20 secondes.",
+    "mouvement": "Laissez le poignet tomber doucement vers le bas et aidez très légèrement avec l'autre main. Tenez 15 à 20 secondes. Arrêtez si la douleur sourde augmente ou si des picotements apparaissent.",
     "dosage": "3 répétitions, 1 à 2 fois par jour.",
     "progression": "Tendez un peu plus le coude seulement si cela reste confortable.",
     "erreur_frequente": "Tirer fort ou appuyer sur les muscles déjà sensibles.",
     "illustration": "Dessin au trait d'une personne assise laissant le poignet tomber vers le bas avec l'aide légère de l'autre main.",
-    "phase": "Dès maintenant",
+    "phase": "Seulement s'il est confortable",
     "but": "Pour détendre le dessus de l'avant-bras.",
     "plus_facile": "Tenez 10 secondes."
    },
@@ -1246,15 +1251,18 @@
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui envoie de la douleur ou des picotements vers le coude ou les doigts.",
   "urgence": [
+   "Difficulté nouvelle à uriner ou à retenir les urines ou les selles (consultez en urgence).",
+   "Douleur au bras avec serrement dans la poitrine, essoufflement ou sueurs (appelez le 911).",
    "Maladresse des mains, perte d'équilibre à la marche, ou symptômes dans les deux bras ou dans les jambes.",
-   "Difficulté nouvelle à uriner ou à retenir les urines ou les selles (consultez en urgence)."
+   "Perte de force dans le bras, le poignet ou la main qui est nouvelle ou qui augmente (le jour même ou le lendemain).",
+   "Fièvre avec douleur au cou, perte de poids inexpliquée, antécédent de cancer, ou douleur intense qui ne cède pas la nuit (le jour même ou le lendemain).",
+   "Douleur au cou après une chute ou un accident (le jour même)."
   ],
   "medecin": [
-   "Perte de force dans le bras, le poignet ou la main, ou engourdissements qui s'aggravent.",
-   "Fièvre, perte de poids inexpliquée ou douleur intense qui ne cède pas la nuit.",
+   "Engourdissements qui s'aggravent, sans perte de force.",
    "Aucune amélioration après 4 à 6 semaines."
   ],
-  "duree_habituelle": "Un soulagement partiel survient souvent en quelques semaines; la récupération complète prend souvent quelques mois.",
+  "duree_habituelle": "La douleur diminue souvent dans les premières semaines. La plupart des gens vont nettement mieux en 4 à 6 mois; chez certains, des symptômes légers durent plus longtemps.",
   "materiel": [
    "élastique",
    "coussin"
@@ -1287,7 +1295,7 @@
    {
     "nom": "Position de soulagement (main sur la tête)",
     "position_de_depart": "Assis confortablement, le dos appuyé.",
-    "mouvement": "Si la douleur du bras est forte au repos, posez doucement la main du côté atteint sur le dessus de votre tête pendant 1 à 2 minutes. Cette position détend souvent le nerf.",
+    "mouvement": "Si la douleur du bras est forte au repos, posez doucement la main du côté atteint sur le dessus de votre tête pendant 1 à 2 minutes. Cette position soulage certaines personnes.",
     "dosage": "Au besoin, 2 à 4 fois par jour.",
     "progression": "Utilisez cette position de moins en moins à mesure que la douleur se calme.",
     "erreur_frequente": "Garder la position si elle est inconfortable pour l'épaule ou n'apporte aucun soulagement.",

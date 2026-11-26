@@ -1,0 +1,245 @@
+{
+ "nonspec": {
+  "en_bref": [
+   "Votre cou est solide : cette douleur n'est pas le signe d'une lésion grave.",
+   "Bouger doucement et rester actif aide plus que le repos.",
+   "La plupart des personnes vont mieux en quelques semaines. La douleur peut revenir de temps en temps : c'est fréquent."
+  ],
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage.",
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "ce_qui_aide": [
+   "Bouger le cou doucement plusieurs fois par jour.",
+   "Prendre de courtes pauses toutes les 30 à 45 minutes au bureau pour changer de position.",
+   "Rester actif dans vos activités habituelles, comme la marche.",
+   "Appliquer de la chaleur 15 minutes si cela vous soulage (mesure de confort).",
+   "Si la douleur dure plus de quelques semaines, ajouter le renforcement du cou et des épaules (exercices 3 et 4)."
+  ],
+  "urgence": [
+   "Mal de tête ou douleur au cou soudains, très intenses ou différents de tout ce que vous avez déjà ressenti, ou troubles de la vision, de la parole ou de l'équilibre, ou paupière qui tombe.",
+   "Difficulté nouvelle à marcher, perte d'équilibre, maladresse dans les doigts ou troubles pour uriner.",
+   "Douleur apparue après une chute, un accident ou un coup.",
+   "Fièvre avec douleur au cou. Consultez rapidement",
+   "Perte de force nouvelle ou qui augmente dans un bras ou une main. Consultez rapidement"
+  ],
+  "medecin": [
+   "Douleur qui descend dans le bras avec engourdissements ou picotements.",
+   "Perte de poids inexpliquée, antécédent de cancer ou douleur intense qui vous réveille la nuit : prenez rendez-vous sans tarder.",
+   "Aucune amélioration après 4 à 6 semaines d'exercices réguliers."
+  ],
+  "exercices": {
+   "4": {
+    "progression": "Tenez jusqu'à 10 secondes et visez 10 répétitions. Ensuite, en gardant le menton rentré, décollez la tête d'à peine un centimètre pendant 5 secondes."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-01)"
+ },
+ "myofascial": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans les 2 heures qui suivent l'exercice et si elle n'est pas plus forte le lendemain matin.",
+  "urgence": [
+   "Mal de tête ou douleur au cou soudains et très intenses, ou troubles de la vision, de la parole ou de l'équilibre.",
+   "Faiblesse nouvelle dans le bras ou la main. Consultez rapidement",
+   "Difficulté nouvelle à marcher, maladresse des mains ou troubles pour uriner."
+  ],
+  "medecin": [
+   "Douleur qui irradie dans le bras avec engourdissements ou fourmillements.",
+   "Maux de tête ou vertiges qui ne passent pas.",
+   "Absence d'amélioration après 4 à 6 semaines."
+  ],
+  "exercices": {
+   "4": {
+    "position_de_depart": "Debout, le dos droit. Pour commencer, un petit poids de 1 à 2 kg (ou une bouteille d'eau) dans chaque main.",
+    "dosage": "3 séries de 8 à 12 répétitions, 3 fois par semaine, pendant au moins 10 semaines.",
+    "progression": "Augmentez le poids petit à petit (0,5 à 1 kg à la fois) dès que les 3 séries sont faciles. Le bon poids est celui qui rend les 2 ou 3 dernières répétitions difficiles, sans douleur vive. Vous pouvez ensuite ajouter des élévations des bras sur les côtés, jusqu'à la hauteur des épaules, avec un poids léger."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-02)"
+ },
+ "facettaire": {
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage.",
+   "Acétaminophène, ou anti-inflammatoire en crème ou en comprimés pendant quelques jours, au besoin, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "urgence": [
+   "Étourdissements, troubles de la vision ou de la parole, ou mal de tête soudain et intense, surtout en bougeant le cou.",
+   "Perte d'équilibre, maladresse des mains ou troubles pour uriner.",
+   "Douleur apparue après une chute, un accident ou un coup.",
+   "Perte de force nouvelle ou qui augmente dans un bras. Consultez rapidement",
+   "Fièvre avec douleur au cou."
+  ],
+  "medecin": [
+   "Douleur vive qui descend dans le bras ou jusqu'aux doigts.",
+   "Engourdissements ou picotements dans un bras.",
+   "Douleur qui ne diminue pas après 4 à 6 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-03)"
+ },
+ "arthrose": {
+  "soulager": [
+   "Chaleur 15 minutes pour la raideur, si cela vous soulage.",
+   "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "urgence": [
+   "Maladresse nouvelle (échapper des objets, difficulté à boutonner une chemise).",
+   "Perte d'équilibre, raideur dans les jambes en marchant ou troubles pour uriner.",
+   "Engourdissements dans les deux mains, ou décharge électrique dans le dos ou les jambes quand vous penchez la tête.",
+   "Perte de force nouvelle ou qui augmente dans un bras ou une main. Consultez rapidement",
+   "Fièvre avec douleur au cou. Consultez rapidement"
+  ],
+  "medecin": [
+   "Engourdissements ou picotements dans un bras ou une main.",
+   "Perte de poids inexpliquée, antécédent de cancer ou douleur intense la nuit : prenez rendez-vous sans tarder.",
+   "Douleur qui s'aggrave malgré 6 semaines d'exercices doux."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-04)"
+ },
+ "entorse": {
+  "en_bref": [
+   "Avoir mal et être raide les premiers jours est normal.",
+   "Rester actif et bouger doucement aide à guérir ; le collet n'est pas utile.",
+   "La plupart des personnes s'améliorent beaucoup durant les 3 premiers mois. Chez certaines, des symptômes durent plus longtemps."
+  ],
+  "ce_que_vous_avez": "Un mouvement brusque de la tête a étiré les muscles et les ligaments de votre cou. Il est normal d'avoir mal et d'être raide les premiers jours. La plupart des personnes s'améliorent beaucoup au cours des premières semaines et des premiers mois, surtout en reprenant tôt les mouvements doux et les activités habituelles plutôt qu'en gardant le cou immobile.",
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "urgence": [
+   "Étourdissements persistants, vision double, difficulté à parler ou à avaler, ou mal de tête sévère qui empire.",
+   "Faiblesse ou engourdissements dans les deux bras ou dans les jambes, difficulté à marcher ou troubles pour uriner.",
+   "Douleur vive au toucher au milieu des os du cou, ou incapacité de tourner la tête à mi-chemin vers chaque épaule. « Consultez rapidement », avec ajout de la rotation",
+   "Faiblesse nouvelle dans un bras ou une main. Consultez rapidement"
+  ],
+  "medecin": [
+   "Apparition d'engourdissements ou de picotements dans un bras ou une main.",
+   "Anxiété importante, cauchemars ou peur de bouger qui persistent après l'accident.",
+   "Aucune amélioration après 3 à 4 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-05)"
+ },
+ "cervicogenique": {
+  "soulager": [
+   "Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage.",
+   "Acétaminophène ou anti-inflammatoire en comprimés pendant quelques jours, au besoin, si votre pharmacien ou votre médecin le juge approprié.",
+   "Si vous prenez des médicaments contre la douleur plus de 2 jours par semaine, parlez-en à votre médecin ou à votre pharmacien : pris trop souvent, ils peuvent entretenir les maux de tête."
+  ],
+  "urgence": [
+   "Mal de tête soudain et très violent (« coup de tonnerre »), ou douleur au cou soudaine et inhabituelle accompagnée d'un mal de tête.",
+   "Fièvre avec raideur de nuque ou confusion.",
+   "Troubles de la vision ou de la parole, vertiges intenses ou faiblesse d'un côté du corps.",
+   "Mal de tête nouveau après 50 ans, surtout avec douleur à la mâchoire en mâchant, sensibilité du cuir chevelu ou trouble de la vision."
+  ],
+  "medecin": [
+   "Maux de tête qui empirent ou ne s'améliorent pas malgré 6 semaines d'exercices.",
+   "Mal de tête différent de d'habitude, déclenché par la toux, l'effort ou un changement de position, ou qui apparaît pendant une grossesse : prenez rendez-vous sans tarder."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-06)"
+ },
+ "musculaire": {
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "urgence": [
+   "Choc à la tête avec étourdissements, nausées ou confusion (commotion possible) : arrêtez le sport tout de suite.",
+   "Douleur, picotements ou faiblesse dans les deux bras ou dans les jambes, même brièvement.",
+   "Après un choc : douleur vive au toucher au milieu des os du cou, ou incapacité de tourner la tête à mi-chemin vers chaque épaule. Consultez rapidement",
+   "Faiblesse dans un bras. Consultez rapidement"
+  ],
+  "medecin": [
+   "Douleur électrique ou picotements dans un bras.",
+   "Sans choc : cou qui reste très raide (incapacité de tourner la tête à mi-chemin de chaque côté) après quelques jours.",
+   "Douleur qui empêche le retour au sport après 3 à 4 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-07)"
+ },
+ "radiculopathie": {
+  "duree_habituelle": "La plus grande partie de l'amélioration se fait durant les 4 à 6 premiers mois, souvent dès les premières semaines. Chez certaines personnes, des symptômes durent plus longtemps.",
+  "urgence": [
+   "Perte d'équilibre en marchant, faiblesse dans les jambes, maladresse des deux mains ou troubles pour uriner.",
+   "Perte de force dans le bras ou la main qui apparaît ou s'aggrave (ex. : échapper des objets).",
+   "Fièvre avec douleur au cou. Consultez rapidement"
+  ],
+  "medecin": [
+   "Engourdissements qui s'étendent ou deviennent permanents.",
+   "Douleur insupportable qui empêche de dormir malgré les médicaments.",
+   "Perte de poids inexpliquée ou antécédent de cancer : prenez rendez-vous sans tarder.",
+   "Aucune amélioration après 4 à 6 semaines."
+  ],
+  "exercices": {
+   "2": {
+    "illustration": "Dessin au trait d'une personne assise rentrant doucement le menton, la tête droite."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-08)"
+ },
+ "stinger": {
+  "a_eviter": [
+   "Retourner au jeu s'il reste la moindre faiblesse, douleur au cou ou perte de mouvement.",
+   "Retourner au jeu le jour même si les symptômes ont duré plus de quelques minutes.",
+   "Commencer ces exercices si vous avez eu des symptômes dans les DEUX bras ou dans les jambes : consultez d'abord en urgence.",
+   "Frapper avec le sommet du casque ou la tête baissée."
+  ],
+  "medecin": [
+   "Faiblesse, engourdissement ou picotements qui durent plus de 24 heures : évaluation médicale avant tout retour au sport.",
+   "Deuxième épisode dans la même saison, ou troisième épisode au total : évaluation médicale (avec examens) avant tout retour au sport."
+  ],
+  "exercices": {
+   "1": {
+    "phase": "Quand tous les symptômes au bras ont disparu"
+   },
+   "2": {
+    "phase": "Quand tous les symptômes au bras ont disparu"
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-09)"
+ },
+ "torticolis": {
+  "ce_que_vous_avez": "Un spasme musculaire soudain bloque votre cou dans une position penchée ou tournée, souvent au réveil. C'est très douloureux, mais ce n'est généralement pas grave. De tout petits mouvements doux, et la chaleur si elle vous soulage, aident le muscle à se détendre en quelques jours. Cette fiche s'adresse aux adultes : chez un enfant, un torticolis doit être vu par un médecin.",
+  "soulager": [
+   "Chaleur 15 à 20 minutes sur le muscle tendu, si cela vous soulage.",
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "urgence": [
+   "Fièvre, frissons, mal de gorge sévère, difficulté à avaler, à ouvrir la bouche ou à respirer.",
+   "Torticolis apparu dans les jours suivant la prise d'un nouveau médicament (contre les nausées ou de type antipsychotique), surtout avec des spasmes de la mâchoire, de la langue ou des yeux.",
+   "Torticolis apparu après une chute, un accident ou un coup. Consultez rapidement",
+   "Torticolis apparu après une infection ou une opération de la gorge, du nez ou des oreilles. Consultez rapidement",
+   "Perte de force dans un bras, ou mal de tête soudain avec troubles de la vision, de la parole ou de l'équilibre. « Consultez rapidement », avec ajout des signes de dissection"
+  ],
+  "medecin": [
+   "Douleur qui descend dans un bras ou engourdissements.",
+   "Blocage qui ne s'améliore pas du tout après 5 à 7 jours."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-10)"
+ },
+ "defile": {
+  "duree_habituelle": "Un essai de réadaptation de 6 à 12 semaines permet de juger de l'effet; l'amélioration peut demander 4 à 6 mois de pratique régulière. Les exercices ne suffisent pas chez tout le monde : si c'est votre cas, votre médecin peut proposer d'autres traitements.",
+  "medecin": [
+   "Perte de force ou fonte des muscles de la main : prenez rendez-vous sans tarder.",
+   "Douleur qui s'aggrave malgré les exercices ou qui empêche de dormir.",
+   "Aucun progrès après 6 à 8 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-11)"
+ },
+ "arnold": {
+  "soulager": [
+   "Chaleur douce sur la nuque, si elle vous soulage.",
+   "Évitez d'appuyer sur la zone sensible (oreiller dur, casque serré).",
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.",
+   "Si vous prenez des médicaments contre la douleur plus de 2 jours par semaine, parlez-en à votre médecin ou à votre pharmacien : pris trop souvent, ils peuvent entretenir les maux de tête."
+  ],
+  "urgence": [
+   "Mal de tête brutal et extrêmement fort, ou fièvre avec raideur de nuque.",
+   "Troubles de la vision, vertiges sévères, difficulté à parler ou faiblesse d'un côté du corps.",
+   "Mal de tête nouveau après 50 ans, surtout avec douleur à la mâchoire en mâchant, trouble de la vision, fièvre ou grande fatigue."
+  ],
+  "medecin": [
+   "Décharges électriques qui s'aggravent malgré ces conseils.",
+   "Aucune amélioration après 4 à 6 semaines.",
+   "Petites cloques ou rougeur sur le cuir chevelu ou la nuque, du côté douloureux : prenez rendez-vous sans tarder."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (CER-12)"
+ }
+}

@@ -1,0 +1,292 @@
+{
+ "fasciite": {
+  "soulager": [
+   "Massez la plante du pied en roulant une bouteille d'eau glacée, 10 minutes.",
+   "Acétaminophène ou anti-inflammatoire au besoin, pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié ; les exercices restent le traitement principal."
+  ],
+  "ce_qui_aide": [
+   "Étirer le dessous du pied avant même de poser le pied par terre le matin, et après être resté assis longtemps.",
+   "Renforcer lentement le mollet et le dessous du pied un jour sur deux.",
+   "Porter des souliers avec un bon amorti et un bon soutien d'arche ; une semelle de soutien du commerce peut aider, en plus des exercices.",
+   "Faire rouler doucement une bouteille d'eau glacée sous l'arche du pied pendant 10 minutes pour soulager la douleur.",
+   "Si les premiers pas du matin restent très douloureux, un bandage de soutien (taping) ou une attelle de nuit peuvent vous être proposés."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin, et si elle n'augmente pas d'une semaine à l'autre.",
+  "duree_habituelle": "Une amélioration se fait souvent sentir en 6 à 12 semaines ; la guérison complète prend souvent plusieurs mois, parfois jusqu'à un an ou plus.",
+  "urgence": [
+   "Talon rouge, chaud et enflé, ou douleur au talon avec fièvre (infection à écarter)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : douleur vive en serrant les côtés du talon, surtout après une augmentation récente de la course ou de la marche (fracture de fatigue du calcanéus à vérifier). Cessez la course en attendant.",
+   "Dans les prochains jours : claquement soudain sous le pied suivi d'un bleu et d'une difficulté à marcher (déchirure du fascia à vérifier).",
+   "Engourdissements, brûlures ou picotements sous le pied (nerf coincé à vérifier).",
+   "Douleur constante la nuit ou au repos, qui ne change pas avec la position.",
+   "Douleur aux deux talons avec raideur du dos le matin ou d'autres articulations enflées (rhumatisme inflammatoire à vérifier).",
+   "Aucune amélioration après 2 à 3 mois d'exercices réguliers (pour discuter d'autres traitements)."
+  ],
+  "exercices": {
+   "1": {
+    "plus_facile": "Tirez moins fort, en gardant 10 secondes."
+   },
+   "3": {
+    "phase": "Dès maintenant"
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-01)"
+ },
+ "hallux_valgus": {
+  "pourquoi": [
+   "Tendance familiale (souvent plusieurs personnes atteintes dans la même famille).",
+   "Chaussures étroites et talons hauts.",
+   "Plus fréquent chez les femmes."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin.",
+  "urgence": [
+   "Peau rouge, chaude, ouverte ou infectée sur la bosse de l'oignon, surtout si vous êtes diabétique ou avez une mauvaise circulation.",
+   "Articulation du gros orteil soudainement rouge, très chaude, très enflée et très douloureuse (goutte ou infection à écarter)."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-02)"
+ },
+ "orteils": {
+  "pourquoi": [
+   "Chaussures étroites ou trop courtes.",
+   "Facteurs héréditaires.",
+   "Hallux valgus ou pied creux.",
+   "Parfois, une arthrite ou une maladie des nerfs ou des muscles (par exemple liée au diabète)."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-03)"
+ },
+ "arthrose_mp": {
+  "pourquoi": [
+   "Ancienne blessure du milieu du pied.",
+   "Surpoids.",
+   "Pied plat.",
+   "Âge ; plus fréquent chez les femmes."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain.",
+  "duree_habituelle": "Amélioration du confort en 4 à 12 semaines avec des chaussures rigides adaptées ; elle peut se poursuivre pendant 3 à 6 mois.",
+  "urgence": [
+   "Pied qui devient rouge, chaud et enflé : consultez le jour même, et sans attendre si vous êtes diabétique ou avez une perte de sensibilité des pieds, même sans douleur ni fièvre. Marchez le moins possible sur ce pied en attendant.",
+   "Douleur soudaine après une torsion ou une chute, surtout avec un bleu sous la plante du pied (lésion de Lisfranc à écarter)."
+  ],
+  "medecin": [
+   "Douleur qui empêche de marcher dans la maison.",
+   "Engourdissements ou picotements sur le dessus du pied ou entre le gros orteil et le 2ᵉ orteil.",
+   "Aucune amélioration après 2 à 3 mois (pour discuter d'une semelle sur mesure, d'une infiltration ou d'un avis spécialisé)."
+  ],
+  "references": [
+   {
+    "texte": "Rao S et al., J Orthop Sports Phys Ther, 2009",
+    "doi_ou_pmid": "PMID: 19574663"
+   },
+   {
+    "texte": "Halstead J et al., Clin Rheumatol, 2016",
+    "doi_ou_pmid": "PMID: 25917211"
+   },
+   {
+    "texte": "Lim PQX et al., Rheumatol Int, 2023",
+    "doi_ou_pmid": "PMID: 37093273"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-04)"
+ },
+ "hallux_rigidus": {
+  "ce_qui_aide": [
+   "Porter des chaussures à semelle rigide et arrondie à l'avant (semelle « à bascule ») pour que le gros orteil n'ait pas à plier fort en marchant ; habituez-vous-y graduellement. Elles peuvent donner mal au dos au début : si c'est le cas, parlez-en.",
+   "Utiliser une semelle orthopédique ou une plaque rigide sous le gros orteil si elle vous a été conseillée.",
+   "Choisir des souliers assez profonds pour que la bosse sur le dessus du gros orteil ne frotte pas.",
+   "Mettre de la glace 10 minutes si l'articulation est enflée après une marche.",
+   "Bouger doucement le gros orteil sans forcer le pincement sur le dessus."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain.",
+  "references": [
+   {
+    "texte": "Munteanu SE et al., Cochrane Database Syst Rev, 2024",
+    "doi_ou_pmid": "PMID: 33588086"
+   },
+   {
+    "texte": "Menz HB et al., Arthritis Care Res (Hoboken), 2016",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Shamus J et al., J Orthop Sports Phys Ther, 2004",
+    "doi_ou_pmid": "PMID: 15296364"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-05)"
+ },
+ "metatarsalgie": {
+  "titre": "Métatarsalgie et lésion de la plaque plantaire",
+  "ce_qui_aide": [
+   "Porter des souliers larges à semelle épaisse et amortissante, idéalement rigide et arrondie à l'avant, sans talon haut.",
+   "Placer un petit coussinet métatarsien juste en arrière de la zone douloureuse (jamais directement dessous) pour décharger l'avant-pied (environ 1 cm en arrière).",
+   "Assouplir le mollet s'il est raide (un mollet raide augmente la pression sur l'avant-pied).",
+   "Renforcer les muscles qui plient les orteils vers le bas.",
+   "Si une atteinte de la plaque plantaire est soupçonnée : porter le bandage (taping) qui maintient l'orteil légèrement abaissé, comme on vous l'a montré. Surveillez la peau sous le bandage."
+  ],
+  "urgence": [
+   "Avant-pied rouge, chaud et enflé (infection ou goutte à écarter ; pied de Charcot si vous êtes diabétique)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : douleur osseuse précise et enflure sur le dessus d'un os du pied, surtout après une augmentation de l'activité (fracture de fatigue à écarter). Cessez la course et les sauts en attendant.",
+   "Un orteil qui se met à pointer vers le haut, qui ne touche plus le sol ou qui s'écarte de son voisin (déchirure de la plaque plantaire à vérifier).",
+   "Décharges électriques ou engourdissements entre deux orteils.",
+   "Aucune amélioration après 6 à 8 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Espinosa N et al., Foot Ankle Int, 2008",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Kang JH et al., BMC Musculoskelet Disord, 2006",
+    "doi_ou_pmid": "PMID: 17147793"
+   },
+   {
+    "texte": "Kinter CW, Hodgkins CW, Sports Health, 2020",
+    "doi_ou_pmid": "doi:10.1177/1941738120904944"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-06)"
+ },
+ "morton": {
+  "soulager": [
+   "Quand la douleur survient, enlevez le soulier et massez doucement l'avant du pied.",
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+  ],
+  "urgence": [
+   "Avant-pied rouge, chaud et enflé (infection ou goutte à écarter ; pied de Charcot si vous êtes diabétique)."
+  ],
+  "medecin": [
+   "Brûlures ou décharges électriques intenses qui ne passent pas malgré des chaussures larges.",
+   "Engourdissement permanent de deux orteils.",
+   "Douleur qui empêche la marche simple.",
+   "Aucune amélioration après 6 à 8 semaines (pour discuter d'une semelle sur mesure ou d'une infiltration). L'effet de l'infiltration varie d'une personne à l'autre."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-07)"
+ },
+ "turf_toe": {
+  "ce_qui_aide": [
+   "Porter dès le début une chaussure à semelle rigide ou une plaque rigide glissée sous la semelle, pour limiter le relèvement du gros orteil.",
+   "Pour une entorse modérée, une botte de marche peut être prescrite au début.",
+   "Mettre de la glace 10 à 15 minutes sous la base du gros orteil les premiers jours et surélever le pied.",
+   "Ajouter un bandage (taping) qui maintient le gros orteil légèrement vers le bas seulement une fois l'enflure des premiers jours diminuée, sans serrer.",
+   "Commencer les mouvements doux vers le bas après 3 à 5 jours, quand l'enflure et la douleur aiguë se calment.",
+   "Renforcer les muscles du pied avant de reprendre la course et les sprints."
+  ],
+  "duree_habituelle": "Entorse légère : reprise graduelle en quelques jours à 2 semaines. Entorse modérée : 2 à 4 semaines, parfois quelques mois. Une déchirure complète demande environ 2 à 4 mois, parfois jusqu'à 6, et un suivi spécialisé.",
+  "urgence": [
+   "Incapacité de plier le gros orteil vers le bas, gros orteil instable ou qui se déboîte ou qui change de position (dévie ou se soulève)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : douleur osseuse précise sur les deux petits os sous le gros orteil (fracture d'un petit os à écarter par imagerie).",
+   "Bleu ou enflure importants qui ne diminuent pas.",
+   "Douleur persistante ou incapacité de trottiner sans douleur après 3 semaines.",
+   "Instabilité ou douleur lors de la reprise du sport."
+  ],
+  "exercices": {
+   "1": {
+    "phase": "Après 3 à 5 jours, quand l'enflure diminue"
+   },
+   "2": {
+    "phase": "Quand la douleur diminue"
+   }
+  },
+  "references": [
+   {
+    "texte": "McCormick JJ, Anderson RB, Sports Health, 2010",
+    "doi_ou_pmid": "doi:10.1177/1941738110386681"
+   },
+   {
+    "texte": "Gupta A et al., Curr Rev Musculoskelet Med, 2023",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-08)"
+ },
+ "sesamoide": {
+  "duree_habituelle": "Amélioration souvent lente : comptez 6 à 12 semaines de décharge, parfois plusieurs mois et, rarement, plus d'un an (2 à 6 mois en cas de fracture de fatigue).",
+  "urgence": [
+   "Gonflement rouge et chaud sous le gros orteil (infection ou goutte à écarter)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : douleur osseuse vive et persistante à chaque pas malgré la décharge (fracture du sésamoïde à vérifier par imagerie ; une botte de marche peut être nécessaire).",
+   "Douleur au repos ou la nuit.",
+   "Aucune amélioration après 6 à 8 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Rosenfield JS, Trepman E, Foot Ankle Int, 2000",
+    "doi_ou_pmid": "doi:10.1177/107110070002101104"
+   },
+   {
+    "texte": "Dedmond BT et al., J Am Acad Orthop Surg, 2006",
+    "doi_ou_pmid": "PMID: 17148622"
+   },
+   {
+    "texte": "Robertson GAJ et al., Br Med Bull, 2017",
+    "doi_ou_pmid": "PMID: 28444129"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-09)"
+ },
+ "synostose": {
+  "en_bref": [
+   "Deux os du pied sont reliés depuis la naissance par un pont anormal.",
+   "Ce pont durcit pendant la croissance (souvent entre 8 et 16 ans) et peut causer de la douleur ou des entorses.",
+   "Semelles, repos relatif et exercices soulagent une partie des jeunes ; sinon, une chirurgie est discutée."
+  ],
+  "ce_que_vous_avez": "Deux os de l'arrière ou du milieu du pied sont reliés depuis la naissance par un pont anormal (de tissu fibreux, de cartilage ou d'os). Ce pont durcit pendant la croissance, souvent entre 8 et 16 ans : le pied devient alors plus raide sur les terrains inégaux, les tendons se fatiguent et les entorses de cheville sont plus fréquentes. Des semelles de soutien, l'adaptation des activités et le renforcement de la cheville diminuent les douleurs chez une partie des personnes ; lors d'une poussée douloureuse, un plâtre de marche ou une botte de marche peut être prescrit pendant 3 à 6 semaines.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle n'est pas plus forte le lendemain et si elle ne fait pas boiter.",
+  "urgence": [
+   "Gonflement rouge et chaud, surtout avec de la fièvre.",
+   "Après une entorse, incapacité de faire 4 pas (radiographie à discuter)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : spasme musculaire douloureux qui bloque le pied vers l'extérieur (un plâtre ou une botte peut être nécessaire).",
+   "Entorses de cheville fréquentes malgré les semelles et les exercices.",
+   "Douleur importante qui empêche le sport ou la marche, ou qui persiste après 3 à 6 mois (avis orthopédique pour discuter des options)."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-10)"
+ },
+ "os_navic": {
+  "en_bref": [
+   "Un petit os supplémentaire, à l'intérieur du pied, est irrité.",
+   "Des chaussures confortables et un soutien de l'arche le soulagent souvent.",
+   "Une botte de marche est parfois utile lors d'une poussée. Une chirurgie est discutée si la douleur persiste après plusieurs mois de traitement."
+  ],
+  "pourquoi": [
+   "Particularité présente chez environ 1 personne sur 10 à 1 sur 6.",
+   "Chaussures ou patins qui frottent sur la bosse.",
+   "Pied plat ou entorse."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle n'est pas plus forte le lendemain et si elle ne fait pas boiter.",
+  "urgence": [
+   "Douleur aiguë apparue après une entorse et qui ne passe pas, ou incapacité de faire 4 pas (radiographie à discuter ; une botte de marche peut être nécessaire).",
+   "Rougeur qui s'étend sur la bosse, plaie infectée ou fièvre."
+  ],
+  "medecin": [
+   "Arche du pied qui s'affaisse beaucoup.",
+   "Aucune amélioration après 8 à 12 semaines, ou douleur qui limite encore les activités après 3 à 6 mois (avis orthopédique)."
+  ],
+  "references": [
+   {
+    "texte": "Nguyen HB et al., J Pediatr Orthop, 2024",
+    "doi_ou_pmid": "PMID: 38899973"
+   },
+   {
+    "texte": "Stolarz K et al., Surg Radiol Anat, 2024",
+    "doi_ou_pmid": "PMID: 39136746"
+   },
+   {
+    "texte": "Gluck GS et al., Am J Sports Med, 2010",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-11)"
+ },
+ "iselin": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 sur 10 est acceptable si elle n'est pas plus forte le lendemain et si elle ne fait pas boiter.",
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-12)"
+ }
+}

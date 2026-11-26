@@ -24,14 +24,15 @@ const REGIONS = [["cervical", "Rachis cervical", "CER"], ["epaule", "Épaule", "
   ["lombaire", "Rachis lombaire", "LOM"], ["hanche", "Hanche et bassin", "HAN"], ["genou", "Genou", "GEN"], ["cheville", "Cheville et jambe", "CHE"], ["pied", "Pied", "PIE"]];
 const COULEURS = { cervical: "#5b6f8f", epaule: "#8a5a83", coude: "#9a6b3c", poignet: "#4f7f78", lombaire: "#7d6536", hanche: "#a0524a", genou: "#2f6b4b", cheville: "#3f6f95", pied: "#6b7a3a" };
 const VERSION = "version 2", REVISION = "25 novembre 2026";
-const args = process.argv.slice(2), choisies = args.filter(a => !a.startsWith("--")), seulementHtml = args.includes("--html");
+const args = process.argv.slice(2), choisies = args.filter(a => !a.startsWith("--")), sansRevues = args.includes("--sans-revues"),
+  seulementHtml = args.includes("--html") || sansRevues;   // --sans-revues : texte de base (sans revues/), dans .cache/textes-base, pour integrer-revues.py
 const lireJSON = f => JSON.parse(fs.readFileSync(f, "utf8"));
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const TITRES = lireJSON(path.join(ICI, "titres.json"));
 
 /* Matériel nécessaire, d'après le texte des exercices. */
 const MATERIEL = [["élastique", /élastique/i], ["serviette", /serviette/i], ["chaise", /chaise/i], ["marche ou escalier", /marche (basse|d'escalier)|escalier|step/i],
-  ["mur", /\bmur\b/i], ["poids léger ou bouteille d'eau", /poids|haltère|bouteille|boîte de conserve/i], ["ballon", /ballon/i], ["coussin", /coussin|oreiller/i],
+  ["mur", /\bmur\b/i], ["poids léger, bouteille d'eau ou sac à dos", /poids léger|petits? poids|poids (de|d'environ) \d|haltère|bouteille|boîte de conserve|sac à dos|(ajoutez|ajouter|ajoutant|tenant|tenez|avec|portant) (un |du |des |de )?(petits? |léger )?poids/i], ["ballon", /ballon/i], ["coussin", /coussin|oreiller/i],
   ["balle", /\bballe\b/i], ["bâton ou manche à balai", /bâton|manche à balai/i], ["table", /\btable\b/i], ["tapis d'exercice", /tapis/i]];
 const materielDe = ex => MATERIEL.filter(([, re]) => ex.some(e => re.test([e.position_de_depart, e.mouvement, e.progression, e.plus_facile].join(" ")))).map(([n]) => n);
 
@@ -49,8 +50,10 @@ const SOULAGER = {
     "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."],
   nerf: ["Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
     "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."],
+  nerf_p: ["Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
+    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."],
   enfant: ["Glace 10 à 15 minutes, dans un linge, après le sport.",
-    "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien)."],
+    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."],
   grossesse: ["Chaleur douce ou bain tiède (pas chaud) pour détendre les muscles.",
     "Acétaminophène au besoin ; évitez les anti-inflammatoires pendant la grossesse, sauf avis de votre médecin."],
   inflam: ["Les anti-inflammatoires prescrits par votre médecin sont le traitement de base : prenez-les comme indiqué.",
@@ -78,12 +81,37 @@ export function assembler(r, x, no) {
   const medecin = urgence.length ? [...signes.filter((_, k) => !urg.has(k)), ...(aj["m+"] || [])] : [...signes, ...(aj["m+"] || [])];
   const soulager = Array.isArray(aj.s) ? aj.s : aj.s ? SOULAGER[aj.s] : [];
   if (aj.s && !soulager) throw new Error(`${cle} : genre « ${aj.s} » inconnu`);
-  return {
+  return reviser(rA, x.id, {
     cle, region: r, region_nom: nomR, code: `${pre}-${String(no).padStart(2, "0")}`, no, titre: t.titre, sous_titre: t.sous_titre, titre_v1: x.titre_patient, diagnostic: x.nom,
     en_bref: aj.b || [], ce_que_vous_avez: x.ce_que_vous_avez, pourquoi: aj.p || [], ce_qui_aide: x.ce_qui_aide, a_eviter: x.a_eviter_pour_l_instant,
     soulager, regle_de_douleur: x.regle_de_douleur, urgence, medecin, duree_habituelle: x.duree_habituelle,
     materiel: materielDe(exercices), exercices, references: x.references || []
-  };
+  });
+}
+
+/* Corrections retenues après la révision d'OpenEvidence (revues/<région>.json), triées par le Dr Morand et Claude :
+   seulement ce qui rend la fiche plus juste ou plus sûre, en gardant un texte simple. Format par fiche : une rubrique
+   remplacée en entier (titre, sous_titre, en_bref, ce_que_vous_avez, pourquoi, soulager, ce_qui_aide, a_eviter,
+   regle_de_douleur, urgence, medecin, duree_habituelle, references, materiel) ; « exercices » : { "2": { champs } }
+   (numéro de l'exercice, à partir de 1) ; « _journal » : décisions, hors fiche. */
+function reviser(r, id, f) {
+  const fic = path.join(ICI, "revues", `${r}.json`), rv = sansRevues ? null : (fs.existsSync(fic) ? lireJSON(fic) : {})[id];
+  if (!rv) return f;
+  for (const [k, v] of Object.entries(rv)) {
+    if (k.startsWith("_") || k === "materiel") continue;
+    if (k === "exercices") {
+      for (const [n, champs] of Object.entries(v)) {
+        const e = f.exercices[Number(n) - 1]; if (!e) throw new Error(`${f.cle} : exercice ${n} introuvable`);
+        for (const c of Object.keys(champs)) if (!(c in e) && !["phase", "but", "plus_facile"].includes(c)) throw new Error(`${f.cle} : champ d'exercice « ${c} » inconnu`);
+        Object.assign(e, champs);
+      }
+      continue;
+    }
+    if (!(k in f)) throw new Error(`${f.cle} : rubrique « ${k} » inconnue dans revues/${r}.json`);
+    f[k] = v;
+  }
+  f.materiel = rv.materiel || materielDe(f.exercices);
+  return f;
 }
 
 const CSS = fs.readFileSync(path.join(ICI, "gabarit-fiche.css"), "utf8");
@@ -133,7 +161,10 @@ const AJUSTER = () => [...document.querySelectorAll(".page")].map(p => {
   // Encore trop long à 9 points : les dessins rapetissent (de 0,95 à 0,55 po au plus).
   let img = 0.95;
   while (c.scrollHeight > c.clientHeight + 1 && img > 0.55) { img -= 0.05; c.style.setProperty("--img", img.toFixed(2) + "in"); }
-  return { t, img: +img.toFixed(2), deborde: c.scrollHeight > c.clientHeight + 1 };
+  // Toujours trop long : interligne et marges des cartes un peu plus serrés (deux crans), puis 8,75 points au plus bas.
+  for (const cran of ["serre", "serre2"]) if (c.scrollHeight > c.clientHeight + 1) c.classList.add(cran);
+  while (c.scrollHeight > c.clientHeight + 1 && t > 8.75) { t -= 0.25; c.style.setProperty("--t", t + "pt"); }
+  return { t, img: +img.toFixed(2), serre: c.classList.contains("serre2") ? 2 : c.classList.contains("serre") ? 1 : 0, deborde: c.scrollHeight > c.clientHeight + 1 };
 });
 
 async function main() {
@@ -144,8 +175,10 @@ async function main() {
     const v1 = lireJSON(path.join(ICI, "textes", `${r}.json`)).filter(x => x.applicable);
     const sever = lireJSON(path.join(ICI, "textes", "cheville.json")).find(x => x.id === "sever");
     const fiches = v1.map((x, k) => assembler(r, r === "pied" && x.id === "sever" ? { ...sever, id: "sever" } : x, k + 1));
-    fs.mkdirSync(path.join(ICI, "textes-v2"), { recursive: true });
-    fs.writeFileSync(path.join(ICI, "textes-v2", `${r}.json`), JSON.stringify(fiches, null, 1) + "\n");
+    const dossierTextes = path.join(ICI, sansRevues ? ".cache/textes-base" : "textes-v2");
+    fs.mkdirSync(dossierTextes, { recursive: true });
+    fs.writeFileSync(path.join(dossierTextes, `${r}.json`), JSON.stringify(fiches, null, 1) + "\n");
+    if (sansRevues) continue;
     const dossier = path.join(ICI, "v2", r); fs.mkdirSync(dossier, { recursive: true });
     for (const f of fiches) {
       const base = path.join(dossier, `${String(f.no).padStart(2, "0")}-${f.cle.split("/")[1]}`);
@@ -157,7 +190,7 @@ async function main() {
       await p.pdf({ path: base + ".pdf", format: "Letter", printBackground: true, margin: { top: 0, right: 0, bottom: 0, left: 0 }, preferCSSPageSize: true });
       await p.close();
       const pages = +execFileSync("pdfinfo", [base + ".pdf"]).toString().match(/Pages:\s+(\d+)/)[1];
-      bilan.push({ code: f.code, cle: f.cle, recto: t[0].t, verso: t[1].t, dessins: t[1].img, pages, deborde: t.some(x => x.deborde) });
+      bilan.push({ code: f.code, cle: f.cle, recto: t[0].t, verso: t[1].t, dessins: t[1].img, serre: Math.max(...t.map(x => x.serre)), pages, deborde: t.some(x => x.deborde) });
     }
     console.log(`${r} : ${fiches.length} fiches`);
   }
