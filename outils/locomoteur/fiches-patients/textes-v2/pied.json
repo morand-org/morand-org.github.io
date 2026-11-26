@@ -36,12 +36,12 @@
    "Massez la plante du pied en roulant une bouteille d'eau glacée, 10 minutes.",
    "Acétaminophène ou anti-inflammatoire au besoin, pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié ; les exercices restent le traitement principal."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin, et si elle n'augmente pas d'une semaine à l'autre.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Elle ne doit pas augmenter d'une semaine à l'autre.",
   "urgence": [
    "Talon rouge, chaud et enflé, ou douleur au talon avec fièvre (infection à écarter)."
   ],
   "medecin": [
-   "Dans les prochains jours : douleur vive en serrant les côtés du talon, surtout après une augmentation récente de la course ou de la marche (fracture de fatigue du calcanéus à vérifier). Cessez la course en attendant.",
+   "Dans les prochains jours : douleur vive quand on serre les côtés du talon, surtout si vous avez couru ou marché plus que d'habitude. Une fissure de l'os du talon est à vérifier. Cessez la course en attendant.",
    "Dans les prochains jours : claquement soudain sous le pied suivi d'un bleu et d'une difficulté à marcher (déchirure du fascia à vérifier).",
    "Engourdissements, brûlures ou picotements sous le pied (nerf coincé à vérifier).",
    "Douleur constante la nuit ou au repos, qui ne change pas avec la position.",
@@ -58,7 +58,7 @@
    {
     "nom": "Étirement spécifique du fascia plantaire (avant le lever)",
     "position_de_depart": "Assis au bord du lit, croisez la cheville douloureuse sur l'autre genou.",
-    "mouvement": "Avec la main, attrapez la base des orteils et tirez-les doucement vers votre tibia jusqu'à sentir l'arche du pied se tendre (avec l'autre main, vous pouvez sentir la bande tendue sous le pied). Tenez 10 secondes et relâchez.",
+    "mouvement": "Avec la main, prenez la base des orteils et tirez-les doucement vers vous, jusqu'à sentir l'arche du pied se tendre. Avec l'autre main, vous pouvez sentir la bande tendue sous le pied. Tenez 10 secondes et relâchez.",
     "dosage": "10 répétitions de 10 secondes, 3 fois par jour (la première fois avant le premier pas du matin).",
     "progression": "Maintenez l'habitude chaque jour pendant au moins 8 semaines ; refaites l'étirement avant de vous lever après une longue période assise.",
     "erreur_frequente": "Oublier de faire l'étirement avant de poser le pied au sol au réveil.",
@@ -81,10 +81,10 @@
    },
    {
     "nom": "Montées lentes sur la pointe du pied sur une marche, serviette sous les orteils",
-    "position_de_depart": "Debout sur le bord d'une marche, l'avant du pied sur la marche et le talon dans le vide, une petite serviette roulée sous les orteils pour les relever, une main sur la rampe ou le mur.",
-    "mouvement": "Sur le pied douloureux (ou sur les deux pieds au début si c'est trop difficile), montez sur la pointe en 3 secondes, tenez 2 secondes en haut, puis redescendez en 3 secondes jusqu'à ce que le talon passe un peu sous le niveau de la marche.",
+    "position_de_depart": "Debout sur le bord d'une marche, l'avant du pied sur la marche et le talon dans le vide. Une petite serviette roulée sous les orteils les relève. Une main tient la rampe ou le mur.",
+    "mouvement": "Sur le pied douloureux (ou sur les deux pieds au début), montez sur la pointe en 3 secondes. Tenez 2 secondes en haut. Redescendez en 3 secondes, jusqu'à ce que le talon passe un peu sous la marche.",
     "dosage": "3 séries de 12 répétitions, 1 jour sur 2.",
-    "progression": "Après 2 semaines, ajoutez un sac à dos avec des livres et faites 4 séries de 10 répétitions ; après 4 semaines, alourdissez le sac et faites 5 séries de 8 répétitions. Continuez pendant 3 mois en ajoutant du poids à mesure que vous devenez plus fort.",
+    "progression": "Après 2 semaines, portez un sac à dos avec des livres et faites 4 séries de 10. Après 4 semaines, mettez plus de livres et faites 5 séries de 8. Continuez pendant 3 mois en ajoutant du poids à mesure que vous devenez plus fort.",
     "erreur_frequente": "Aller trop vite, oublier la serviette roulée sous les orteils ou faire l'exercice tous les jours sans jour de repos.",
     "illustration": "Dessin au trait d'un pied nu sur le bord d'une marche, les orteils posés sur une petite serviette roulée, montant lentement sur la pointe.",
     "phase": "Dès maintenant",
@@ -130,9 +130,9 @@
   ],
   "ce_qui_aide": [
    "Choisir des chaussures larges à l'avant-pied, en cuir ou en tissu souple, sans talon haut.",
-   "Mettre un petit coussinet en silicone sur la bosse si le soulier frotte ; un écarteur d'orteils souple entre le gros orteil et le 2ᵉ orteil peut aussi soulager s'il est confortable.",
+   "Mettre un petit coussinet en silicone sur la bosse si le soulier frotte. Un écarteur d'orteils souple, entre le gros orteil et le 2ᵉ orteil, peut aussi soulager s'il est confortable.",
    "Renforcer les petits muscles du pied et du gros orteil.",
-   "Si ce n'est pas douloureux, marcher pieds nus à la maison sur une surface confortable pour faire travailler le pied (à éviter si vous êtes diabétique ou si vous avez une perte de sensibilité des pieds)."
+   "Si ça ne fait pas mal, marcher pieds nus à la maison sur une surface confortable. Le pied travaille ainsi. À éviter si vous êtes diabétique ou si vous sentez mal vos pieds."
   ],
   "a_eviter": [
    "Porter des souliers à bout pointu ou étroit qui écrasent les orteils.",
@@ -143,7 +143,7 @@
    "Chaussures larges, à bout rond, sans talon haut.",
    "Glace 10 minutes sur la bosse si elle est enflammée ; anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin.",
   "urgence": [
    "Peau rouge, chaude, ouverte ou infectée sur la bosse de l'oignon, surtout si vous êtes diabétique ou avez une mauvaise circulation.",
    "Articulation du gros orteil soudainement rouge, très chaude, très enflée et très douloureuse (goutte ou infection à écarter)."
@@ -184,8 +184,8 @@
    },
    {
     "nom": "Montées sur la pointe des pieds, gros orteil aligné",
-    "position_de_depart": "Debout pieds nus, pieds parallèles, mains en appui sur un mur ou un comptoir, gros orteils écartés le plus droit possible (un écarteur d'orteils peut aider).",
-    "mouvement": "Montez lentement sur la pointe des deux pieds en 2 secondes, en gardant le poids réparti sous la base du gros orteil et du 2ᵉ orteil, puis redescendez en 3 secondes.",
+    "position_de_depart": "Debout pieds nus, pieds parallèles, mains appuyées sur un mur ou un comptoir. Placez les gros orteils le plus droit possible (un écarteur d'orteils peut aider).",
+    "mouvement": "Montez lentement sur la pointe des deux pieds en 2 secondes, avec le poids sous la base du gros orteil et du 2ᵉ orteil. Redescendez en 3 secondes.",
     "dosage": "2 séries de 10 répétitions, 3 fois par semaine.",
     "progression": "Passez à 3 séries, puis faites l'exercice sur un seul pied si c'est confortable.",
     "erreur_frequente": "Laisser les chevilles rouler vers l'extérieur ou le gros orteil se coller contre le 2ᵉ orteil.",
@@ -225,7 +225,7 @@
    "Des chaussures larges et profondes diminuent la douleur.",
    "Les exercices gardent les orteils souples."
   ],
-  "ce_que_vous_avez": "Un ou plusieurs petits orteils sont recourbés (en marteau ou en griffe), ou la base du petit orteil forme une bosse sensible sur le bord externe du pied (bunionette). Des chaussures spacieuses et des protections en silicone soulagent le frottement. Si l'orteil est encore souple, des exercices doux aident à garder sa souplesse ; ils ne redressent pas un orteil déjà raide. Pour la bosse du petit orteil, ce sont surtout la chaussure large et les protections qui soulagent.",
+  "ce_que_vous_avez": "Un ou plusieurs petits orteils sont recourbés (en marteau ou en griffe). Ou la base du petit orteil fait une bosse sensible sur le bord extérieur du pied. Des chaussures spacieuses et des protections en silicone soulagent le frottement. Si l'orteil est encore souple, des exercices doux aident à garder sa souplesse ; ils ne redressent pas un orteil déjà raide. Pour la bosse du petit orteil, ce sont surtout la chaussure large et les protections qui soulagent.",
   "pourquoi": [
    "Chaussures étroites ou trop courtes.",
    "Facteurs héréditaires.",
@@ -240,14 +240,14 @@
   ],
   "a_eviter": [
    "Porter des chaussures étroites, pointues ou rigides sur le dessus des orteils.",
-   "Couper vous-même des cors épais avec une lame ou utiliser des pansements « coricides » à l'acide (surtout si vous êtes diabétique ou avez une mauvaise circulation).",
+   "Couper vous-même des cors épais avec une lame, ou utiliser des pansements pour cors à l'acide. Surtout si vous êtes diabétique ou avez une mauvaise circulation.",
    "Forcer violemment un orteil déjà enraidi."
   ],
   "soulager": [
    "Chaussures larges et profondes ; protecteurs en silicone sur les cors.",
    "Anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Plaie, ulcère, rougeur ou infection sur un orteil (urgent si vous êtes diabétique ou avez une mauvaise circulation).",
    "Orteil qui devient bleu, froid ou très enflé."
@@ -276,7 +276,7 @@
    {
     "nom": "Pianotage des orteils au sol",
     "position_de_depart": "Assis, pieds nus à plat au sol.",
-    "mouvement": "Soulevez le gros orteil seul en gardant les 4 petits orteils au sol, puis faites l'inverse (soulevez les 4 petits orteils en gardant le gros orteil au sol).",
+    "mouvement": "Soulevez le gros orteil seul, les 4 petits orteils au sol. Puis faites l'inverse : soulevez les 4 petits orteils, le gros orteil au sol.",
     "dosage": "10 répétitions de chaque, 1 fois par jour.",
     "progression": "Faites le même exercice debout.",
     "erreur_frequente": "Recroqueviller les orteils.",
@@ -288,7 +288,7 @@
    {
     "nom": "Appui des orteils allongés au sol",
     "position_de_depart": "Assis, pieds nus à plat au sol ou sur un tapis.",
-    "mouvement": "En gardant les orteils bien longs et à plat, appuyez doucement leur pulpe dans le sol pendant 5 secondes, comme pour soulever légèrement la base des orteils, puis relâchez.",
+    "mouvement": "Gardez les orteils longs et à plat. Appuyez doucement le bout des orteils dans le sol pendant 5 secondes, puis relâchez.",
     "dosage": "2 séries de 10 répétitions, 1 fois par jour.",
     "progression": "Faites cet exercice debout, puis terminez par l'étirement doux des orteils.",
     "erreur_frequente": "Plier le milieu des orteils en griffe pendant l'appui.",
@@ -336,7 +336,7 @@
    "Âge ; plus fréquent chez les femmes."
   ],
   "ce_qui_aide": [
-   "Porter des chaussures à semelle épaisse et peu souple, idéalement arrondie à l'avant (type chaussure de randonnée ou espadrille à semelle rigide), qui plient peu au milieu du pied.",
+   "Porter des chaussures à semelle épaisse et rigide, qui plient peu au milieu du pied, idéalement arrondie à l'avant (chaussure de randonnée ou espadrille rigide).",
    "Ne pas serrer les lacets sur la bosse du dessus du pied (sauter un œillet au niveau de la bosse).",
    "Utiliser une semelle de soutien d'arche ou une semelle rigide pleine longueur si elle vous a été conseillée.",
    "Bouger doucement le pied chaque matin pour chasser la raideur."
@@ -350,9 +350,9 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain.",
   "urgence": [
-   "Pied qui devient rouge, chaud et enflé : consultez le jour même, et sans attendre si vous êtes diabétique ou avez une perte de sensibilité des pieds, même sans douleur ni fièvre. Marchez le moins possible sur ce pied en attendant.",
+   "Pied qui devient rouge, chaud et enflé : consultez le jour même. Si vous êtes diabétique ou sentez mal vos pieds, consultez sans attendre, même sans douleur ni fièvre. Marchez le moins possible sur ce pied en attendant.",
    "Douleur soudaine après une torsion ou une chute, surtout avec un bleu sous la plante du pied (lésion de Lisfranc à écarter)."
   ],
   "medecin": [
@@ -432,14 +432,14 @@
    "Une chaussure à semelle rigide, qui limite la flexion de l'orteil, soulage beaucoup.",
    "D'autres traitements existent si la douleur persiste."
   ],
-  "ce_que_vous_avez": "L'articulation à la base du gros orteil a de l'arthrose et devient raide, ce qui fait mal quand le gros orteil plie vers le haut au moment de pousser à la marche. Une bosse osseuse peut apparaître sur le dessus. Des chaussures à semelle rigide et arrondie à l'avant, ou une semelle adaptée, limitent ce mouvement douloureux à chaque pas.",
+  "ce_que_vous_avez": "L'articulation à la base du gros orteil a de l'arthrose et devient raide. Cela fait mal quand le gros orteil plie vers le haut en marchant. Une bosse osseuse peut apparaître sur le dessus. Des chaussures à semelle rigide et arrondie à l'avant, ou une semelle adaptée, limitent ce mouvement douloureux à chaque pas.",
   "pourquoi": [
    "Ancienne blessure du gros orteil.",
    "Facteurs héréditaires.",
    "Usure avec l'âge."
   ],
   "ce_qui_aide": [
-   "Porter des chaussures à semelle rigide et arrondie à l'avant (semelle « à bascule ») pour que le gros orteil n'ait pas à plier fort en marchant ; habituez-vous-y graduellement. Elles peuvent donner mal au dos au début : si c'est le cas, parlez-en.",
+   "Porter des chaussures à semelle rigide et arrondie à l'avant, pour que le gros orteil plie moins en marchant. Habituez-vous-y peu à peu. Elles peuvent donner mal au dos au début : si c'est le cas, parlez-en.",
    "Utiliser une semelle orthopédique ou une plaque rigide sous le gros orteil si elle vous a été conseillée.",
    "Choisir des souliers assez profonds pour que la bosse sur le dessus du gros orteil ne frotte pas.",
    "Mettre de la glace 10 minutes si l'articulation est enflée après une marche.",
@@ -454,7 +454,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain.",
   "urgence": [
    "Gros orteil soudainement rouge, très chaud, très enflé et douloureux (crise de goutte ou infection à écarter)."
   ],
@@ -469,7 +469,7 @@
    {
     "nom": "Décompression et mobilité douce du gros orteil",
     "position_de_depart": "Assis, cheville croisée sur l'autre genou.",
-    "mouvement": "Tenez le gros orteil entre le pouce et l'index, tirez très doucement dans l'axe pour décompresser l'articulation, puis bougez-le doucement vers le bas et un peu vers le haut, en vous arrêtant avant le pincement.",
+    "mouvement": "Tenez le gros orteil entre le pouce et l'index. Tirez-le très doucement vers vous, puis bougez-le doucement vers le bas et un peu vers le haut. Arrêtez avant que ça pince.",
     "dosage": "10 mouvements lents, 2 fois par jour.",
     "progression": "Gardez la mobilité confortable ; ne cherchez pas à gagner de l'amplitude en forçant.",
     "erreur_frequente": "Plier le gros orteil fort vers le haut sur la bosse.",
@@ -555,13 +555,13 @@
    "Coussinet ou semelle sous l'avant du pied.",
    "Glace 10 minutes après la marche ; anti-inflammatoire au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Avant-pied rouge, chaud et enflé (infection ou goutte à écarter ; pied de Charcot si vous êtes diabétique)."
   ],
   "medecin": [
-   "Dans les prochains jours : douleur osseuse précise et enflure sur le dessus d'un os du pied, surtout après une augmentation de l'activité (fracture de fatigue à écarter). Cessez la course et les sauts en attendant.",
-   "Un orteil qui se met à pointer vers le haut, qui ne touche plus le sol ou qui s'écarte de son voisin (déchirure de la plaque plantaire à vérifier).",
+   "Dans les prochains jours : douleur à un point précis d'un os et enflure sur le dessus du pied, surtout si vous êtes plus actif que d'habitude. Une fissure de l'os est à écarter. Cessez la course et les sauts en attendant.",
+   "Un orteil qui pointe vers le haut, qui ne touche plus le sol ou qui s'écarte de son voisin. Une déchirure sous l'orteil est à vérifier.",
    "Décharges électriques ou engourdissements entre deux orteils.",
    "Aucune amélioration après 6 à 8 semaines."
   ],
@@ -639,7 +639,7 @@
    "Des chaussures larges, à talon bas, le soulagent souvent.",
    "Une semelle ou une infiltration peuvent aider si cela ne suffit pas."
   ],
-  "ce_que_vous_avez": "Un petit nerf qui passe entre les os de l'avant-pied (le plus souvent entre le 3ᵉ et le 4ᵉ orteil) est irrité et épaissi à l'endroit où il se fait pincer entre les têtes des os. Les chaussures étroites ou à talons hauts aggravent les symptômes. Cela donne l'impression d'avoir un caillou dans le soulier, ou une brûlure et des picotements vers les orteils. Élargir les chaussures et décharger l'avant-pied soulagent une bonne partie des gens ; si ce n'est pas suffisant, d'autres traitements existent (semelle sur mesure, infiltration).",
+  "ce_que_vous_avez": "Un petit nerf passe entre les os de l'avant du pied, le plus souvent entre le 3ᵉ et le 4ᵉ orteil. Il est irrité et épaissi là où il se fait pincer entre les os. Les chaussures étroites ou à talons hauts aggravent les symptômes. Cela donne l'impression d'avoir un caillou dans le soulier, ou une brûlure et des picotements vers les orteils. Élargir les chaussures et décharger l'avant-pied soulagent une bonne partie des gens ; si ce n'est pas suffisant, d'autres traitements existent (semelle sur mesure, infiltration).",
   "pourquoi": [
    "Chaussures étroites ou à talons hauts.",
    "Sports qui chargent l'avant du pied."
@@ -657,9 +657,9 @@
   ],
   "soulager": [
    "Quand la douleur survient, enlevez le soulier et massez doucement l'avant du pied.",
-   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. Parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, sans augmenter la brûlure ni les picotements dans les orteils.",
+  "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin. La brûlure et les picotements dans les orteils ne doivent pas augmenter.",
   "urgence": [
    "Avant-pied rouge, chaud et enflé (infection ou goutte à écarter ; pied de Charcot si vous êtes diabétique)."
   ],
@@ -741,7 +741,7 @@
    "Une chaussure rigide, ou un bandage qui empêche l'orteil de plier vers le haut, aide.",
    "Le retour au sport se fait graduellement."
   ],
-  "ce_que_vous_avez": "Les tissus situés sous la base du gros orteil ont été étirés lorsque l'orteil a été plié trop loin vers le haut (souvent au sport, sur gazon synthétique). Cette fiche s'adresse aux entorses légères à modérées, une fois l'examen fait. Après une courte période de protection avec une chaussure à semelle rigide qui empêche l'orteil de trop plier, des exercices doux redonnent force et souplesse.",
+  "ce_que_vous_avez": "Les tissus sous la base du gros orteil ont été étirés quand l'orteil a plié trop loin vers le haut. Cela arrive souvent au sport, sur gazon synthétique. Cette fiche s'adresse aux entorses légères à modérées, une fois l'examen fait. Après une courte période de protection avec une chaussure à semelle rigide qui empêche l'orteil de trop plier, des exercices doux redonnent force et souplesse.",
   "pourquoi": [
    "Gros orteil plié trop loin vers le haut, l'avant-pied au sol.",
    "Gazon synthétique et chaussures souples."
@@ -764,7 +764,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Incapacité de plier le gros orteil vers le bas, gros orteil instable ou qui se déboîte ou qui change de position (dévie ou se soulève)."
   ],
@@ -808,7 +808,7 @@
     "position_de_depart": "Assis, pieds nus sur une petite serviette, talon au sol.",
     "mouvement": "Agrippez doucement la serviette avec les orteils, puis relâchez.",
     "dosage": "1 à 2 minutes par pied, 3 fois par semaine.",
-    "progression": "En phase avancée, ajoutez des montées douces sur la pointe des pieds en chaussure rigide, puis reprenez la course graduellement lorsque relever le gros orteil et pousser sur la pointe ne font plus mal.",
+    "progression": "Plus tard, ajoutez des montées douces sur la pointe des pieds, en chaussure rigide. Reprenez la course peu à peu quand relever le gros orteil et pousser sur la pointe ne font plus mal.",
     "erreur_frequente": "Plier le gros orteil vers le haut.",
     "illustration": "Dessin au trait d'un pied nu agrippant une serviette au sol.",
     "phase": "Quand la douleur diminue",
@@ -842,7 +842,7 @@
    "Diminuer la pression sous le gros orteil (coussinet, chaussures rigides) les soulage.",
    "Une douleur à chaque pas peut cacher une fracture : faites-la vérifier."
   ],
-  "ce_que_vous_avez": "Deux tout petits os ronds (les sésamoïdes) situés juste sous l'articulation du gros orteil sont irrités par des appuis répétés (course, danse, talons hauts). Une fois qu'une fracture a été écartée, décharger ce point précis avec un coussinet et des chaussures à semelle rigide permet à l'irritation de se calmer. La guérison est souvent lente : la patience fait partie du traitement.",
+  "ce_que_vous_avez": "Deux tout petits os ronds (les sésamoïdes) situés juste sous l'articulation du gros orteil sont irrités par des appuis répétés (course, danse, talons hauts). Une fois la fracture écartée, il faut enlever la pression sur ce point avec un coussinet et des chaussures à semelle rigide. L'irritation peut alors se calmer. La guérison est souvent lente : la patience fait partie du traitement.",
   "pourquoi": [
    "Course, danse ou sauts répétés.",
    "Talons hauts.",
@@ -863,16 +863,16 @@
    "Coussinet en forme de beigne pour décharger le dessous du gros orteil.",
    "Glace 10 minutes ; anti-inflammatoire au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Gonflement rouge et chaud sous le gros orteil (infection ou goutte à écarter)."
   ],
   "medecin": [
-   "Dans les prochains jours : douleur osseuse vive et persistante à chaque pas malgré la décharge (fracture du sésamoïde à vérifier par imagerie ; une botte de marche peut être nécessaire).",
+   "Dans les prochains jours : douleur d'os vive à chaque pas qui ne part pas, malgré le coussinet. Une fracture du petit os est à vérifier par imagerie. Une botte de marche peut être nécessaire.",
    "Douleur au repos ou la nuit.",
    "Aucune amélioration après 6 à 8 semaines."
   ],
-  "duree_habituelle": "Amélioration souvent lente : comptez 6 à 12 semaines de décharge, parfois plusieurs mois et, rarement, plus d'un an (2 à 6 mois en cas de fracture de fatigue).",
+  "duree_habituelle": "L'amélioration est souvent lente : comptez 6 à 12 semaines, parfois plusieurs mois. S'il y a une fissure de l'os, comptez 2 à 6 mois.",
   "materiel": [
    "mur",
    "tapis d'exercice"
@@ -945,7 +945,7 @@
    "Ce pont durcit pendant la croissance (souvent entre 8 et 16 ans) et peut causer de la douleur ou des entorses.",
    "Semelles, repos relatif et exercices soulagent une partie des jeunes ; sinon, une chirurgie est discutée."
   ],
-  "ce_que_vous_avez": "Deux os de l'arrière ou du milieu du pied sont reliés depuis la naissance par un pont anormal (de tissu fibreux, de cartilage ou d'os). Ce pont durcit pendant la croissance, souvent entre 8 et 16 ans : le pied devient alors plus raide sur les terrains inégaux, les tendons se fatiguent et les entorses de cheville sont plus fréquentes. Des semelles de soutien, l'adaptation des activités et le renforcement de la cheville diminuent les douleurs chez une partie des personnes ; lors d'une poussée douloureuse, un plâtre de marche ou une botte de marche peut être prescrit pendant 3 à 6 semaines.",
+  "ce_que_vous_avez": "Deux os de l'arrière ou du milieu du pied sont reliés depuis la naissance par un pont anormal (de tissu fibreux, de cartilage ou d'os). Ce pont durcit pendant la croissance, souvent entre 8 et 16 ans. Le pied devient alors plus raide sur les terrains inégaux. Les tendons se fatiguent et les entorses de cheville sont plus fréquentes. Des semelles de soutien, des activités adaptées et le renforcement de la cheville diminuent souvent la douleur. Lors d'une crise de douleur, un plâtre ou une botte de marche peut être prescrit pendant 3 à 6 semaines.",
   "pourquoi": [
    "Particularité présente depuis la naissance.",
    "Le pont durcit pendant la croissance."
@@ -965,7 +965,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle n'est pas plus forte le lendemain et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable. Elle ne doit pas être plus forte le lendemain ni faire boiter.",
   "urgence": [
    "Gonflement rouge et chaud, surtout avec de la fièvre.",
    "Après une entorse, incapacité de faire 4 pas (radiographie à discuter)."
@@ -1048,9 +1048,9 @@
    "Des chaussures confortables et un soutien de l'arche le soulagent souvent.",
    "Une botte de marche est parfois utile lors d'une poussée. Une chirurgie est discutée si la douleur persiste après plusieurs mois de traitement."
   ],
-  "ce_que_vous_avez": "Vous avez un petit os supplémentaire (présent chez environ 1 personne sur 10 à 1 sur 6, souvent aux deux pieds) sur le bord interne du milieu du pied, là où s'attache un tendon important (le tibial postérieur). Il peut devenir douloureux à cause du frottement d'une chaussure ou d'un patin, d'un excès d'activité ou après une entorse. Protéger la bosse, soutenir l'arche puis renforcer le tendon aident à calmer la douleur, mais cela prend souvent plusieurs mois.",
+  "ce_que_vous_avez": "Vous avez un petit os en plus sur le bord intérieur du milieu du pied, souvent aux deux pieds. C'est là que s'attache un tendon important. Il peut devenir douloureux à cause du frottement d'une chaussure ou d'un patin, d'un excès d'activité ou après une entorse. Protéger la bosse, soutenir l'arche puis renforcer le tendon aident à calmer la douleur, mais cela prend souvent plusieurs mois.",
   "pourquoi": [
-   "Particularité présente chez environ 1 personne sur 10 à 1 sur 6.",
+   "Petit os en plus, présent depuis la naissance chez bien des gens.",
    "Chaussures ou patins qui frottent sur la bosse.",
    "Pied plat ou entorse."
   ],
@@ -1070,16 +1070,16 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle n'est pas plus forte le lendemain et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 ou 3 sur 10 est acceptable. Elle ne doit pas être plus forte le lendemain ni faire boiter.",
   "urgence": [
-   "Douleur aiguë apparue après une entorse et qui ne passe pas, ou incapacité de faire 4 pas (radiographie à discuter ; une botte de marche peut être nécessaire).",
+   "Douleur vive après une entorse qui ne passe pas, ou impossible de faire 4 pas. Une radiographie est à discuter, et une botte de marche peut être nécessaire.",
    "Rougeur qui s'étend sur la bosse, plaie infectée ou fièvre."
   ],
   "medecin": [
    "Arche du pied qui s'affaisse beaucoup.",
    "Aucune amélioration après 8 à 12 semaines, ou douleur qui limite encore les activités après 3 à 6 mois (avis orthopédique)."
   ],
-  "duree_habituelle": "Les poussées se calment souvent en 4 à 8 semaines avec la protection de la bosse et le soutien d'arche, mais le soulagement complet prend souvent plusieurs mois.",
+  "duree_habituelle": "Les crises se calment souvent en 4 à 8 semaines en protégeant la bosse et en soutenant l'arche du pied. Mais le soulagement complet prend souvent plusieurs mois.",
   "materiel": [
    "élastique",
    "mur",
@@ -1153,7 +1153,7 @@
    "Ce n'est pas grave, et ça disparaît avec la croissance.",
    "On ajuste le sport selon la douleur."
   ],
-  "ce_que_vous_avez": "Chez un jeune en poussée de croissance (souvent entre 9 et 14 ans), le tendon d'un muscle du côté de la jambe tire sur la zone de croissance de l'os situé sur le bord extérieur du pied (la base du 5ᵉ métatarsien). Ce n'est pas une fracture. La douleur se calme avec un peu de repos sportif et des exercices doux, et elle disparaît habituellement lorsque cette zone de croissance se soude.",
+  "ce_que_vous_avez": "Chez un jeune qui grandit vite (souvent entre 9 et 14 ans), un tendon tire sur la zone de croissance d'un os. Cet os est sur le bord extérieur du pied. Ce n'est pas une fracture. La douleur se calme avec un peu de repos sportif et des exercices doux, et elle disparaît habituellement lorsque cette zone de croissance se soude.",
   "pourquoi": [
    "Poussée de croissance (9 à 14 ans).",
    "Course, sauts et changements de direction.",
@@ -1175,7 +1175,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 sur 10 est acceptable si elle n'est pas plus forte le lendemain, si elle ne fait pas boiter et si elle n'augmente pas d'une semaine à l'autre.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 sur 10 est acceptable. Elle ne doit pas être plus forte le lendemain ni faire boiter. Elle ne doit pas augmenter d'une semaine à l'autre.",
   "urgence": [
    "Douleur apparue brutalement après une entorse ou incapacité de faire 4 pas (fracture de la base du 5ᵉ métatarsien à écarter).",
    "Fièvre, rougeur et chaleur qui s'étendent, ou jeune qui refuse de marcher (infection de l'os à écarter)."
@@ -1185,7 +1185,7 @@
    "Aucune amélioration après 6 semaines.",
    "Douleur la nuit ou au repos, douleur constante, ou bosse qui grossit."
   ],
-  "duree_habituelle": "La douleur se calme habituellement en quelques semaines de repos sportif relatif, parfois plus ; elle peut revenir par périodes jusqu'à la fin de la croissance de cet os.",
+  "duree_habituelle": "La douleur se calme habituellement en quelques semaines en diminuant le sport, parfois plus. Elle peut revenir par périodes, jusqu'à la fin de la croissance.",
   "materiel": [
    "élastique",
    "mur"
@@ -1258,7 +1258,7 @@
    "Ce n'est pas grave, et ça disparaît à la fin de la croissance.",
    "On ajuste le sport selon la douleur ; une talonnette aide."
   ],
-  "ce_que_vous_avez": "Pendant la croissance (le plus souvent entre 8 et 15 ans), la zone de croissance à l'arrière de l'os du talon devient sensible aux impacts et à la traction du tendon d'Achille. Les deux talons sont souvent touchés. Ce n'est pas grave : la douleur disparaît sans séquelles quand la croissance du talon est terminée, mais elle peut revenir par périodes d'ici là. Des talonnettes et un ajustement du sport selon la douleur soulagent bien.",
+  "ce_que_vous_avez": "Pendant la croissance, le plus souvent entre 8 et 15 ans, la zone de croissance à l'arrière du talon devient sensible. Les impacts et le tendon d'Achille, qui tire dessus, la rendent douloureuse. Les deux talons sont souvent touchés. Ce n'est pas grave : la douleur disparaît sans séquelles quand la croissance du talon est terminée, mais elle peut revenir par périodes d'ici là. Des talonnettes et un ajustement du sport selon la douleur soulagent bien.",
   "pourquoi": [
    "Poussée de croissance (8 à 15 ans).",
    "Sports avec course et sauts, souvent sur des surfaces dures.",
@@ -1279,7 +1279,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport, si cela soulage.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain. Elle ne doit pas faire boiter.",
   "urgence": [
    "Rougeur, chaleur ou gonflement du talon, ou fièvre.",
    "Douleur apparue brusquement après une chute ou un saut.",
@@ -1361,7 +1361,7 @@
    "Surélever le pied et appliquer de la glace diminuent l'enflure.",
    "La plupart des contusions guérissent en 1 à 3 semaines."
   ],
-  "ce_que_vous_avez": "Un objet lourd ou un choc a écrasé les tissus mous de votre pied, mais l'examen ou les radiographies ont écarté une fracture. Surélever le pied, appliquer de la glace pour soulager la douleur et bouger tôt les orteils et la cheville aident l'enflure à partir et évitent la raideur.",
+  "ce_que_vous_avez": "Un objet lourd ou un choc a écrasé les tissus mous de votre pied, mais l'examen ou les radiographies ont écarté une fracture. Surélever le pied, mettre de la glace et bouger tôt les orteils et la cheville aident l'enflure à partir et évitent la raideur.",
   "pourquoi": [
    "Objet lourd échappé sur le pied, ou choc direct."
   ],
@@ -1381,14 +1381,14 @@
    "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Anti-inflammatoire en crème en premier (jamais sur une peau coupée ou éraflée). Sinon, acétaminophène, ou anti-inflammatoire en comprimés pour quelques jours, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
-   "Douleur extrême qui augmente malgré le repos et les antidouleurs, pied très tendu et dur, douleur vive quand on bouge les orteils ou engourdissement de la plante du pied (syndrome des loges du pied), même si les orteils restent roses et chauds. En attendant, enlevez tout bandage serré et gardez le pied à la hauteur du cœur, pas plus haut.",
+   "Douleur extrême qui augmente malgré le repos et les médicaments, pied très tendu et dur, douleur vive quand on bouge les orteils, ou dessous du pied engourdi. Allez-y même si les orteils restent roses et chauds (syndrome des loges). En attendant, enlevez tout bandage serré et gardez le pied à la hauteur du cœur, pas plus haut.",
    "Orteil qui devient pâle, bleuâtre ou froid.",
    "Signes d'infection si la peau a été coupée (rougeur qui s'étend, pus, fièvre)."
   ],
   "medecin": [
-   "Dans les prochains jours : incapacité de faire 4 pas, ou appui qui ne s'améliore pas après 5 à 7 jours (fracture ou lésion de Lisfranc à vérifier). Marchez le moins possible sur ce pied en attendant.",
+   "Dans les prochains jours : impossible de faire 4 pas, ou appui qui ne s'améliore pas après 5 à 7 jours. Une fracture ou une blessure des ligaments du pied est à vérifier. Marchez le moins possible sur ce pied en attendant.",
    "Dans les prochains jours : bleu qui apparaît sous la plante du pied, même après quelques jours (lésion de Lisfranc à vérifier).",
    "Dans les prochains jours : ongle noir très douloureux (sang sous l'ongle, qui peut être soulagé par un petit geste et nécessiter une radiographie).",
    "Douleur ou enflure encore présentes après 3 à 4 semaines."

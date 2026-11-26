@@ -16,11 +16,20 @@ remettre ensuite ces fichiers.
 - **Descriptions de changement (correction du 26 novembre 2026) :** quand OpenEvidence décrit son changement au lieu de donner le texte (« ajout », « texte nuancé », « nouveau texte », « deux lignes ci-dessus », « une seule puce → deux puces »), la ligne de la réponse porte déjà le texte révisé : la description n'est jamais recopiée. Après chaque intégration, vérifier tout le texte des fiches (restes de note, phrase sans point final, phrase répétée).
 - Les autres corrections se reportent fiche par fiche, grâce à l'identifiant `[région/id]`, dans `ajouts/` ou `textes/`, puis on relance `produire-fiches.mjs`.
 
-## Version 2 : passe finale de simplification (demande du 26 novembre 2026)
+## Version 2 : passe finale de simplification (demande du 26 novembre 2026) — faite le 26 novembre
 
-À faire une fois toutes les révisions d'OpenEvidence reçues et intégrées (épaule et parties coupées comprises), avant les consignes de dessin et la publication sur le site.
+Faite après l'intégration de toutes les révisions d'OpenEvidence, puis les fiches v2 ont été publiées sur le site.
+
+- **Où :** `simplification/` (appliqué par `produire-fiches.mjs` après les revues). `_communes.json` : phrases répétées dans plusieurs fiches ; `<région>.json` : paires [ancien, nouveau] par fiche. Si un passage n'est plus trouvé (texte changé), la production s'arrête : la simplification est alors à revoir.
+- **Fait :** les 129 règles de douleur en phrases courtes (seuil, puis « Elle doit être revenue à son niveau habituel le lendemain matin », puis quoi faire sinon) ; 437 phrases repérées (statistiques, mentions d'études, plus de 25 mots, mots savants) ramenées à 51, presque toutes des listes de signes d'alarme ; noms d'exercices en mots courants (« Rotation vers l'extérieur », « Contraction de la cuisse ») ; « (à vérifier) » n'est plus imprimé dans les références.
+- **Règles suivies :**
 
 - Relire le texte de toutes les fiches et le simplifier pour les patients, pour un niveau de scolarité faible.
 - Garder peu de statistiques et ne pas parler des études : pas de pourcentages, de « X personnes sur 10 », de « les études montrent » ni de noms d'études dans le texte du patient. Les sources restent dans les journaux d'intégration (`revision/integration/`).
 - Phrases courtes, mots simples, une idée par phrase ; garder les signes d'alarme et les consignes de sécurité.
-- Poser les questions de clarification au Dr Morand avant de commencer (niveau visé, exemples à suivre).
+
+## Publication de la version 2 (26 novembre 2026)
+
+- Les PDF de la version 2 remplacent ceux de la version 1 **sous les mêmes noms de fichiers**, pour que les liens déjà donnés (résultats du calcul, listes, favoris) restent bons. Les listes et le lien du calcul affichent le titre médical et le sous-titre.
+- Pour republier après une correction : `node outils/locomoteur/fiches-patients/produire-fiches.mjs [région]`, puis `node outils/locomoteur/fiches-patients.mjs` (copie les PDF v2 et refait les listes).
+- La fiche du doigt à ressaut corrigée le 24 novembre est reprise dans la version 2 (mêmes dessins).

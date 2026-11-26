@@ -14,14 +14,14 @@
    "Bouger tôt et faire les exercices aide plus que l'immobilisation.",
    "Le travail d'équilibre réduit le risque d'une nouvelle entorse."
   ],
-  "ce_que_vous_avez": "En vous tordant la cheville (pied tourné vers l'intérieur), les ligaments du côté extérieur ont été étirés ou partiellement déchirés. Une fois la fracture écartée, le meilleur traitement est actif : remettre progressivement du poids sur le pied avec un bon soutien, bouger la cheville tôt, puis travailler la force et l'équilibre pour bien guérir et réduire le risque de nouvelle entorse.",
+  "ce_que_vous_avez": "En vous tordant la cheville (pied tourné vers l'intérieur), les ligaments du côté extérieur ont été étirés ou partiellement déchirés. Une fois la fracture écartée, le meilleur traitement est de bouger. Remettez peu à peu du poids sur le pied, avec un bon soutien, et bougez la cheville tôt. Ensuite, travaillez la force et l'équilibre pour bien guérir et éviter une nouvelle entorse.",
   "pourquoi": [
    "Pied tourné vers l'intérieur (terrain inégal, réception de saut).",
    "Ancienne entorse de la même cheville."
   ],
   "ce_qui_aide": [
    "Remettre du poids sur le pied et marcher le plus normalement possible dès que la douleur le permet (béquilles quelques jours au besoin).",
-   "Porter une chevillère lacée ou semi-rigide (ou un taping) pour marcher pendant 4 à 6 semaines, puis pendant les sports à risque jusqu'à 12 mois après l'entorse.",
+   "Porter une chevillère lacée ou semi-rigide (ou un taping) pour marcher pendant 4 à 6 semaines. Ensuite, portez-la pendant les sports à risque, jusqu'à 12 mois après l'entorse.",
    "Appliquer de la glace 15 minutes à travers un linge et surélever le pied les 2 à 3 premiers jours si cela soulage la douleur. La glace ne remplace pas les exercices.",
    "Poursuivre les exercices de force et d'équilibre pendant au moins 8 à 12 semaines, même après la disparition de la douleur."
   ],
@@ -34,10 +34,10 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Incapacité de faire 4 pas, même en boitant, juste après la blessure ou dans les jours suivants (radiographie à envisager).",
-   "Douleur vive en appuyant sur l'os, sur le bord arrière ou la pointe des malléoles (bosses de la cheville), sur le bord extérieur du pied ou sur le dessus interne du pied (fracture à écarter).",
+   "Douleur vive quand on appuie sur l'os : à l'arrière ou à la pointe des bosses de la cheville, sur le bord extérieur du pied ou sur le dessus du pied, côté intérieur. Une fracture est à écarter.",
    "Douleur en haut de la jambe, sur le côté extérieur près du genou.",
    "Mollet enflé et douloureux, ou essoufflement soudain, surtout si la cheville est immobilisée (caillot à écarter)."
   ],
@@ -67,7 +67,7 @@
    {
     "nom": "Renforcement des muscles externes (éversion avec élastique)",
     "position_de_depart": "Assis jambes allongées, un élastique léger en boucle autour de l'avant des deux pieds. Le pied sain reste immobile et sert de point fixe.",
-    "mouvement": "Poussez lentement le bord extérieur du pied blessé vers l'extérieur contre l'élastique en 2 secondes, puis revenez en 3 secondes sans laisser l'élastique tirer le pied d'un coup vers l'intérieur.",
+    "mouvement": "Poussez lentement le bord extérieur du pied blessé vers l'extérieur, contre l'élastique, en 2 secondes. Revenez en 3 secondes, sans laisser l'élastique tirer le pied d'un coup.",
     "dosage": "3 séries de 12 répétitions, 3 à 4 fois par semaine, dès que la douleur le permet.",
     "progression": "Utilisez un élastique plus résistant quand les 3 séries sont faciles.",
     "erreur_frequente": "Tourner toute la jambe depuis la hanche au lieu de bouger le pied.",
@@ -147,7 +147,7 @@
    "Glace 10 à 15 minutes, dans un linge, si la cheville est enflée après l'activité.",
    "Une orthèse ou un bandage peut protéger la cheville pendant le sport."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Nouvelle entorse avec incapacité de faire 4 pas ou douleur vive en appuyant sur l'os de la cheville ou du pied (fracture à écarter)."
   ],
@@ -181,7 +181,7 @@
    {
     "nom": "Équilibre sur une jambe avec touches de l'autre pied (horloge)",
     "position_de_depart": "Debout en équilibre sur la cheville fragile, genou légèrement plié, près d'un mur ou d'un comptoir par sécurité.",
-    "mouvement": "Avec l'autre pied, allez toucher légèrement le sol le plus loin possible devant, sur le côté puis derrière, sans y mettre de poids et sans perdre l'équilibre sur la jambe d'appui.",
+    "mouvement": "Avec l'autre pied, touchez légèrement le sol le plus loin possible : devant, sur le côté, puis derrière. Ne mettez pas de poids dessus et gardez l'équilibre sur la jambe d'appui.",
     "dosage": "3 séries de 5 touches dans chaque direction, au moins 3 fois par semaine (idéalement chaque jour).",
     "progression": "Allez toucher plus loin, puis faites l'exercice sur un tapis plié ou un coussin mou.",
     "erreur_frequente": "Laisser le genou d'appui rentrer vers l'intérieur ou mettre du poids sur le pied qui touche.",
@@ -205,7 +205,7 @@
    {
     "nom": "Petits sauts contrôlés (réception stable)",
     "position_de_depart": "Debout sur le pied atteint, seulement quand les trois premiers exercices sont maîtrisés et sans douleur.",
-    "mouvement": "Faites un petit saut d'environ 20 cm vers l'avant ou sur le côté et bloquez la réception sur ce pied pendant 3 secondes sans vaciller, genou souple.",
+    "mouvement": "Faites un petit saut d'environ 20 cm vers l'avant ou sur le côté. Atterrissez sur ce pied et restez stable 3 secondes, genou souple.",
     "dosage": "3 séries de 8 sauts, 3 fois par semaine.",
     "progression": "Augmentez la distance, puis enchaînez des changements de direction.",
     "erreur_frequente": "Atterrir jambe tendue et raide.",
@@ -260,13 +260,13 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
-   "Un anti-inflammatoire en crème soulage peu selon les études ; parlez-en à votre pharmacien si la douleur vous dérange.",
+   "Un anti-inflammatoire en crème soulage un peu. Parlez-en à votre pharmacien si la douleur vous dérange.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 5 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si la douleur et la raideur matinale n'augmentent pas d'une semaine à l'autre.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 5 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. La douleur et la raideur du matin ne doivent pas augmenter d'une semaine à l'autre.",
   "urgence": [
    "Claquement brutal derrière la cheville avec sensation d'avoir reçu un coup et difficulté à monter sur la pointe du pied (rupture du tendon : urgence).",
-   "Douleur au tendon apparue pendant ou après un antibiotique de la famille des quinolones (ciprofloxacine, lévofloxacine, moxifloxacine) : cessez les exercices et appelez le jour même votre médecin ou votre pharmacien.",
+   "Douleur au tendon pendant ou après certains antibiotiques (ciprofloxacine, lévofloxacine, moxifloxacine) : arrêtez les exercices et appelez le jour même votre médecin ou votre pharmacien.",
    "Classé sous « Consultez rapidement » : Gonflement rouge, très chaud et douloureux du tendon ou du mollet (infection ou caillot à écarter)."
   ],
   "medecin": [
@@ -347,7 +347,7 @@
    "Éviter de descendre le talon plus bas que l'avant du pied aide le tendon à se calmer.",
    "Une talonnette et des chaussures sans contrefort dur aident."
   ],
-  "ce_que_vous_avez": "Le tendon d'Achille est sensible tout en bas, là où il s'attache sur l'os du talon (parfois avec une bosse osseuse appelée Haglund ou une petite bourse enflammée). Quand la cheville plie vers le haut, le tendon est comprimé contre l'os. Contrairement à la tendinopathie du milieu du tendon, il faut donc éviter au début de descendre le talon sous une marche et d'étirer le mollet.",
+  "ce_que_vous_avez": "Le tendon d'Achille est sensible tout en bas, là où il s'attache au talon. Il y a parfois une bosse d'os ou une petite poche de liquide irritée. Quand la cheville plie vers le haut, le tendon est comprimé contre l'os. Contrairement à la tendinopathie du milieu du tendon, il faut donc éviter au début de descendre le talon sous une marche et d'étirer le mollet.",
   "pourquoi": [
    "Course, surtout en côte.",
    "Bosse osseuse à l'arrière du talon, frottée par la chaussure.",
@@ -366,10 +366,10 @@
   ],
   "soulager": [
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
-   "Un anti-inflammatoire en crème soulage peu selon les études ; parlez-en à votre pharmacien si la douleur vous dérange.",
+   "Un anti-inflammatoire en crème soulage un peu. Parlez-en à votre pharmacien si la douleur vous dérange.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Claquement brutal à l'arrière du talon avec perte de force (rupture à écarter : urgence).",
    "Rougeur, chaleur vive, peau ouverte ou fièvre."
@@ -379,7 +379,7 @@
    "Douleur qui empêche de porter des chaussures fermées malgré les adaptations.",
    "Absence de progrès après 12 semaines."
   ],
-  "duree_habituelle": "Amélioration plus lente qu'au milieu du tendon : comptez de 3 à 6 mois, parfois plus. Le retour graduel des mouvements de cheville vers le haut (descente du talon sous une marche, côtes, étirements) se fait plus tard, idéalement avec un physiothérapeute.",
+  "duree_habituelle": "Amélioration plus lente qu'au milieu du tendon : comptez de 3 à 6 mois, parfois plus. Plus tard, on reprend peu à peu les mouvements qui plient la cheville vers le haut (talon sous une marche, côtes, étirements), idéalement avec un physiothérapeute.",
   "materiel": [
    "mur",
    "poids léger, bouteille d'eau ou sac à dos"
@@ -448,7 +448,7 @@
    "Réduire temporairement les impacts, puis les reprendre graduellement, permet de guérir.",
    "Le renforcement des mollets et des hanches prévient les rechutes."
   ],
-  "ce_que_vous_avez": "L'os du tibia, sur le bord interne du bas de la jambe, est surmené par des impacts répétés auxquels il n'a pas eu le temps de s'adapter (souvent après une augmentation trop rapide de la course). Ce n'est pas une fracture. Réduire les impacts pendant quelques semaines, puis reprendre la course très graduellement permet à l'os de se renforcer.",
+  "ce_que_vous_avez": "L'os de la jambe, sur le bord intérieur, est fatigué par des impacts répétés. Il n'a pas eu le temps de s'adapter, souvent parce que la course a augmenté trop vite. Ce n'est pas une fracture. Réduire les impacts pendant quelques semaines, puis reprendre la course très graduellement permet à l'os de se renforcer.",
   "pourquoi": [
    "Hausse rapide de la course ou de la marche (recrues, coureurs).",
    "Chaussures usées ou surfaces dures.",
@@ -456,7 +456,7 @@
   ],
   "ce_qui_aide": [
    "Remplacer temporairement la course par du vélo, de la natation ou de l'elliptique, sans douleur.",
-   "Reprendre la course graduellement en alternant marche et course (par exemple 2 minutes de course, 2 minutes de marche), un jour sur deux, en vous fiant à la douleur, sans saut brusque de distance (surtout pas une sortie beaucoup plus longue que d'habitude).",
+   "Reprendre la course peu à peu, un jour sur deux, en alternant marche et course (par exemple 2 minutes de chaque). Suivez la douleur. N'augmentez jamais d'un coup la distance.",
    "Renforcer les mollets, les pieds et les hanches en complément.",
    "Appliquer de la glace 10 à 15 minutes à travers un linge le long du tibia si cela soulage après l'activité."
   ],
@@ -469,9 +469,9 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité, si cela vous soulage.",
    "Acétaminophène au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez la course si une douleur précise sur un point de l'os apparaît.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez la course si une douleur apparaît à un point précis de l'os.",
   "urgence": [
-   "Douleur très précise sur un petit point de l'os, douleur sur le devant du tibia, douleur au repos ou la nuit, ou douleur en sautillant sur place (fracture de stress à vérifier). Cessez la course en attendant.",
+   "Douleur à un point précis de l'os, sur le devant de la jambe, au repos, la nuit ou en sautillant sur place. Une fissure de l'os est à vérifier. Cessez la course en attendant.",
    "Classé sous « Consultez rapidement » : Gonflement localisé ou rougeur sur le tibia."
   ],
   "medecin": [
@@ -559,11 +559,11 @@
    "La douleur disparaît habituellement quelques minutes après l'arrêt.",
    "Changer la foulée peut aider, surtout quand la douleur est à l'avant de la jambe ; sinon, une chirurgie peut être discutée."
   ],
-  "ce_que_vous_avez": "Pendant la course ou la marche rapide, la pression monte dans une loge musculaire de votre jambe, dont l'enveloppe est trop serrée. Après un temps ou une distance d'effort assez constants, cela donne une tension dure, une douleur ou des picotements au pied, qui passent en quelques minutes de repos. Le repos seul règle rarement le problème. Modifier votre technique de course avec un physiothérapeute peut aider, et une chirurgie est parfois nécessaire.",
+  "ce_que_vous_avez": "Pendant la course ou la marche rapide, la pression monte dans une loge musculaire de votre jambe, dont l'enveloppe est trop serrée. Après un certain temps d'effort, toujours à peu près le même, la jambe devient dure et fait mal, ou le pied picote. Cela passe en quelques minutes de repos. Le repos seul règle rarement le problème. Modifier votre technique de course avec un physiothérapeute peut aider, et une chirurgie est parfois nécessaire.",
   "pourquoi": [
    "Course ou marche rapide répétée.",
    "Enveloppe du muscle trop serrée.",
-   "Foulée qui frappe fort du talon (lien possible, non prouvé)."
+   "Peut-être : une façon de courir qui frappe fort du talon."
   ],
   "ce_qui_aide": [
    "Arrêter l'effort dès que la tension dure ou les engourdissements apparaissent, et repartir une fois les symptômes disparus.",
@@ -580,9 +580,9 @@
    "Arrêtez l'effort dès que la tension monte : la douleur doit disparaître en quelques minutes (souvent 10 à 20 minutes).",
    "Les médicaments aident peu : adapter l'effort et la foulée est le traitement."
   ],
-  "regle_de_douleur": "Pendant les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle disparaît en quelques minutes de repos. Arrêtez immédiatement dès qu'un engourdissement ou une faiblesse du pied apparaît.",
+  "regle_de_douleur": "Pendant les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable. Elle doit partir après quelques minutes de repos. Arrêtez tout de suite si le pied devient engourdi ou faible.",
   "urgence": [
-   "Douleur intense qui continue ou augmente après l'arrêt de l'effort au lieu de se calmer en quelques minutes, jambe très dure, engourdissement ou faiblesse (syndrome des loges aigu : urgence).",
+   "Douleur très forte qui continue ou augmente après l'effort, au lieu de se calmer en quelques minutes. Ou jambe très dure, engourdissement ou faiblesse. C'est une urgence (syndrome des loges).",
    "Pied froid, pâle ou engourdi qui ne redevient pas normal après quelques minutes de repos (problème de circulation à écarter d'urgence).",
    "Douleur au mollet même au repos, ou jambe enflée ou rouge (phlébite à écarter).",
    "Pied qui tombe ou faiblesse du pied qui persiste après le repos."
@@ -600,7 +600,7 @@
    {
     "nom": "Travail de foulée : petits pas légers et rapides",
     "position_de_depart": "Debout sur place, puis en jogging très court sur surface plane.",
-    "mouvement": "Faites de petits pas rapides et silencieux pendant 1 à 2 minutes, en posant l'avant du pied en douceur sous le corps, puis marchez 1 à 2 minutes. Restez sous le seuil qui déclenche vos symptômes.",
+    "mouvement": "Faites de petits pas rapides et silencieux pendant 1 à 2 minutes, en posant le pied en douceur sous le corps. Puis marchez 1 à 2 minutes. Restez sous le seuil qui déclenche vos symptômes.",
     "dosage": "5 à 8 blocs, 3 fois par semaine, pendant 6 semaines (selon tolérance et avis du physiothérapeute).",
     "progression": "Allongez très graduellement la durée des blocs de course seulement si la jambe reste souple et sans picotement.",
     "erreur_frequente": "Faire de grandes foulées en attaquant fort par le talon, ou progresser trop vite.",
@@ -683,12 +683,12 @@
   ],
   "soulager": [
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
-   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider pendant quelques jours, si votre pharmacien ou votre médecin le juge approprié."
+   "Acétaminophène au besoin. Un anti-inflammatoire en crème ou en comprimés peut aussi aider quelques jours, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Mollet très enflé, dur, rouge ou chaud avec douleur constante, ou enflure qui augmente (phlébite à écarter d'urgence).",
-   "Claquement ressenti au bas du mollet ou derrière la cheville avec impossibilité de monter sur la pointe du pied (rupture du tendon d'Achille à écarter rapidement).",
+   "Claquement au bas du mollet ou derrière la cheville, et impossible de monter sur la pointe du pied. Le tendon d'Achille est peut-être rompu : consultez vite.",
    "Jambe très tendue avec engourdissement du pied.",
    "Essoufflement soudain ou douleur dans la poitrine (911)."
   ],
@@ -727,7 +727,7 @@
    },
    {
     "nom": "Étirement doux du mollet contre un mur",
-    "position_de_depart": "Debout face à un mur, la jambe blessée un pas en arrière, talon au sol (pas avant 7 jours, et seulement quand la marche est peu douloureuse).",
+    "position_de_depart": "Debout face à un mur, la jambe blessée un pas en arrière, talon au sol. Pas avant 7 jours, et seulement quand la marche fait peu mal.",
     "mouvement": "Avancez doucement les hanches vers le mur jusqu'à sentir un étirement léger et confortable dans le mollet. Tenez 20 secondes.",
     "dosage": "3 répétitions, 1 à 2 fois par jour.",
     "progression": "Pliez légèrement le genou arrière pour étirer le muscle plus profond.",
@@ -768,7 +768,7 @@
    "Ce n'est pas grave, et ça disparaît à la fin de la croissance.",
    "On ajuste le sport selon la douleur ; une talonnette aide."
   ],
-  "ce_que_vous_avez": "Pendant la croissance (le plus souvent entre 8 et 15 ans), la zone de croissance à l'arrière de l'os du talon devient sensible aux impacts et à la traction du tendon d'Achille. Les deux talons sont souvent touchés. Ce n'est pas grave : la douleur disparaît sans séquelles quand la croissance du talon est terminée, mais elle peut revenir par périodes d'ici là. Des talonnettes et un ajustement du sport selon la douleur soulagent bien.",
+  "ce_que_vous_avez": "Pendant la croissance, le plus souvent entre 8 et 15 ans, la zone de croissance à l'arrière du talon devient sensible. Les impacts et le tendon d'Achille, qui tire dessus, la rendent douloureuse. Les deux talons sont souvent touchés. Ce n'est pas grave : la douleur disparaît sans séquelles quand la croissance du talon est terminée, mais elle peut revenir par périodes d'ici là. Des talonnettes et un ajustement du sport selon la douleur soulagent bien.",
   "pourquoi": [
    "Poussée de croissance (8 à 15 ans).",
    "Sports avec course et sauts, souvent sur des surfaces dures.",
@@ -789,7 +789,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport, si cela soulage.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain. Elle ne doit pas faire boiter.",
   "urgence": [
    "Rougeur, chaleur ou gonflement du talon, ou fièvre.",
    "Douleur apparue brusquement après une chute ou un saut.",
@@ -893,7 +893,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement. Le soutien de l'arche est aussi une partie essentielle du traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur soudaine avec claquement à l'intérieur de la cheville et arche qui s'affaisse d'un coup (rupture à écarter rapidement).",
    "Classé sous « Consultez rapidement » : Gonflement chaud et rouge à l'intérieur de la cheville, surtout avec fièvre."
@@ -914,7 +914,7 @@
    {
     "nom": "Inversion avec élastique (tibial postérieur)",
     "position_de_depart": "Assis, jambe atteinte allongée. L'élastique entoure l'avant du pied atteint et est fixé sur le côté extérieur (pied de table, ou tenu par l'autre pied placé plus à l'extérieur).",
-    "mouvement": "Pointez légèrement le pied vers le bas et amenez l'avant du pied vers l'intérieur contre l'élastique en 2 secondes, puis revenez lentement en 3 secondes en résistant à l'élastique.",
+    "mouvement": "Pointez un peu le pied vers le bas. Tournez l'avant du pied vers l'intérieur, contre l'élastique, en 2 secondes. Revenez lentement en 3 secondes en retenant l'élastique.",
     "dosage": "3 séries de 12 à 15 répétitions, 3 à 4 fois par semaine.",
     "progression": "Passez à un élastique plus ferme quand les 3 séries sont faciles.",
     "erreur_frequente": "Tourner le genou ou toute la jambe au lieu du pied, ou relâcher le retour.",
@@ -986,7 +986,7 @@
    "Bouger et renforcer la cheville diminue la douleur et la raideur.",
    "Des chaussures adaptées et d'autres traitements existent si la douleur reste forte."
   ],
-  "ce_que_vous_avez": "Le cartilage de votre cheville s'est aminci avec le temps, souvent des années après une entorse ou une fracture. Cela cause de la raideur le matin et une douleur à la marche. L'arthrose ne disparaît pas, mais rester actif, entretenir la mobilité et la force de la cheville et porter des chaussures adaptées aident à diminuer la douleur et à mieux fonctionner.",
+  "ce_que_vous_avez": "Le cartilage de votre cheville s'est aminci avec le temps, souvent des années après une entorse ou une fracture. Cela cause de la raideur le matin et une douleur à la marche. L'arthrose ne disparaît pas. Mais rester actif, garder la cheville souple et forte, et porter de bonnes chaussures aident à avoir moins mal et à mieux bouger.",
   "pourquoi": [
    "Ancienne entorse ou fracture de la cheville.",
    "Entorses répétées.",
@@ -1007,7 +1007,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée, si cela vous soulage.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain.",
   "urgence": [
    "Cheville soudainement très enflée, rouge et chaude, avec ou sans fièvre (infection ou crise inflammatoire à écarter rapidement)."
   ],
@@ -1037,7 +1037,7 @@
    {
     "nom": "Renforcement léger avec élastique (3 directions)",
     "position_de_depart": "Assis jambes allongées, un élastique léger autour de l'avant du pied, tenu dans les mains ou fixé sur le côté.",
-    "mouvement": "Poussez doucement le pied contre l'élastique vers le bas (élastique tenu dans les mains), puis vers l'intérieur et vers l'extérieur (élastique fixé du côté opposé au mouvement), dans l'amplitude confortable.",
+    "mouvement": "Poussez doucement le pied contre l'élastique : vers le bas (élastique tenu dans les mains), puis vers l'intérieur et vers l'extérieur (élastique attaché de l'autre côté). Restez là où c'est confortable.",
     "dosage": "2 séries de 10 répétitions par direction, 3 fois par semaine.",
     "progression": "Utilisez un élastique un peu plus ferme, puis ajoutez des montées sur la pointe des pieds en appui sur un comptoir.",
     "erreur_frequente": "Forcer contre un blocage douloureux.",
@@ -1085,7 +1085,7 @@
    "Cette entorse guérit plus lentement qu'une entorse habituelle.",
    "Le retour au sport se fait par étapes, sur plusieurs semaines."
   ],
-  "ce_que_vous_avez": "Les ligaments qui relient les deux os de la jambe juste au-dessus de la cheville ont été étirés ou déchirés (souvent quand le pied a tourné vers l'extérieur). Cette entorse guérit plus lentement qu'une entorse ordinaire. Cette fiche s'applique seulement si votre médecin a confirmé que l'entorse est stable et ne demande pas de chirurgie. Après la période de protection (botte ou attelle), une rééducation progressive est essentielle.",
+  "ce_que_vous_avez": "Les ligaments qui relient les deux os de la jambe, juste au-dessus de la cheville, ont été étirés ou déchirés. Cela arrive souvent quand le pied tourne vers l'extérieur. Cette entorse guérit plus lentement qu'une entorse ordinaire. Cette fiche s'applique seulement si votre médecin a confirmé que l'entorse est stable et ne demande pas de chirurgie. Après la période de protection (botte ou attelle), une rééducation progressive est essentielle.",
   "pourquoi": [
    "Pied tourné vers l'extérieur, souvent en sport (football, hockey, ski)."
   ],
@@ -1104,7 +1104,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur en haut de la jambe, sur l'os du côté extérieur près du genou (fracture de Maisonneuve à écarter rapidement).",
    "Gonflement chaud et rouge, ou mollet douloureux et enflé pendant l'immobilisation (phlébite à écarter). Essoufflement soudain ou douleur dans la poitrine : appelez le 911."
@@ -1181,7 +1181,7 @@
    "Cette entorse est plus rare et parfois plus longue à guérir qu'une entorse externe.",
    "Un soutien de l'arche peut aider pendant la guérison."
   ],
-  "ce_que_vous_avez": "Les ligaments solides à l'intérieur de votre cheville ont été étirés. Cette entorse est plus rare et parfois plus longue à guérir qu'une entorse externe. Cette fiche s'applique une fois que votre médecin a écarté une fracture (y compris en haut de la jambe, près du genou) et une entorse haute instable. Une protection temporaire, puis un renforcement progressif permettent une bonne guérison.",
+  "ce_que_vous_avez": "Les ligaments solides à l'intérieur de votre cheville ont été étirés. Cette entorse est plus rare et parfois plus longue à guérir qu'une entorse externe. Cette fiche est pour vous si votre médecin a écarté une fracture (même en haut de la jambe, près du genou) et une entorse haute instable. Une protection temporaire, puis un renforcement progressif permettent une bonne guérison.",
   "pourquoi": [
    "Pied qui tourne vers l'extérieur, ou cheville qui bascule vers l'intérieur (arche du pied écrasée)."
   ],
@@ -1200,7 +1200,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Douleur en appuyant sur le haut du côté externe de la jambe, près du genou (fracture de Maisonneuve à écarter d'urgence).",
    "Gonflement rouge et chaud.",
@@ -1234,7 +1234,7 @@
    {
     "nom": "Inversion douce avec élastique",
     "position_de_depart": "Assis, jambe atteinte allongée, élastique léger autour de l'avant du pied et fixé sur le côté extérieur (pied de table).",
-    "mouvement": "Amenez doucement l'avant du pied vers l'intérieur contre l'élastique en 2 secondes, puis revenez en 3 secondes sans laisser l'élastique tirer le pied d'un coup vers l'extérieur.",
+    "mouvement": "Tournez doucement l'avant du pied vers l'intérieur, contre l'élastique, en 2 secondes. Revenez en 3 secondes, sans laisser l'élastique tirer le pied d'un coup.",
     "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
     "progression": "Passez à un élastique plus ferme.",
     "erreur_frequente": "Relâcher le retour et laisser le pied partir vers l'extérieur.",
@@ -1294,7 +1294,7 @@
    "Un traitement actif (adapter les activités, puis renforcer progressivement) améliore la situation le plus souvent.",
    "Un tendon qui saute par-dessus l'os demande un avis orthopédique."
   ],
-  "ce_que_vous_avez": "Les tendons qui passent juste derrière la bosse osseuse à l'extérieur de la cheville (les fibulaires) sont surmenés et sensibles, souvent après une entorse ou une surcharge. Ils empêchent la cheville de se tordre. Les renforcer progressivement améliore la situation dans la plupart des cas. Cette fiche ne s'applique pas si un tendon est déchiré ou saute par-dessus l'os : un avis orthopédique est alors nécessaire.",
+  "ce_que_vous_avez": "Les tendons qui passent juste derrière la bosse à l'extérieur de la cheville sont fatigués et sensibles. Cela arrive souvent après une entorse ou trop d'effort. Ils empêchent la cheville de se tordre. Les renforcer progressivement améliore la situation dans la plupart des cas. Cette fiche ne s'applique pas si un tendon est déchiré ou saute par-dessus l'os : un avis orthopédique est alors nécessaire.",
   "pourquoi": [
    "Entorse de cheville, ancienne ou récente.",
    "Course sur terrain inégal ou en virage.",
@@ -1316,9 +1316,9 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
-   "Tendon que vous sentez ou voyez sauter par-dessus la bosse osseuse externe juste après une blessure ou une torsion (luxation récente des fibulaires : avis orthopédique rapide).",
+   "Tendon que vous sentez ou voyez sauter par-dessus la bosse extérieure de la cheville, juste après une blessure. Il faut voir un orthopédiste rapidement.",
    "Douleur soudaine avec claquement et perte de force sur le côté de la cheville (déchirure à écarter).",
    "Incapacité de mettre du poids sur le pied après une blessure."
   ],
@@ -1410,7 +1410,7 @@
    "Éviter les positions qui pincent, le temps que ça se calme, aide.",
    "Une infiltration ou une chirurgie sont possibles si cela ne suffit pas."
   ],
-  "ce_que_vous_avez": "Un tissu ou un petit relief osseux se pince quand vous pliez la cheville à fond vers l'avant (squat, montée) ou quand vous pointez fort le pied vers le bas (danse, frappe au soccer). Éviter temporairement la position qui pince et renforcer la cheville calment souvent les formes légères. Quand un relief osseux est en cause, une intervention est parfois nécessaire.",
+  "ce_que_vous_avez": "Un tissu ou une petite bosse d'os se pince quand vous pliez la cheville à fond (squat, montée) ou quand vous pointez fort le pied (danse, frappe au soccer). Éviter temporairement la position qui pince et renforcer la cheville calment souvent les formes légères. Quand un relief osseux est en cause, une intervention est parfois nécessaire.",
   "pourquoi": [
    "Anciennes entorses.",
    "Sports où la cheville plie à fond (soccer, danse, squat)."
@@ -1430,7 +1430,7 @@
    "Glace 10 à 15 minutes, dans un linge, après l'activité, si cela vous soulage.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Aucun exercice ne doit reproduire le pincement vif.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Aucun exercice ne doit refaire le pincement vif.",
   "urgence": [
    "Cheville qui reste bloquée et ne se débloque pas.",
    "Cheville soudainement très enflée, rouge et chaude, avec ou sans fièvre."
@@ -1462,7 +1462,7 @@
    {
     "nom": "Renforcement avec élastique (dans la zone confortable)",
     "position_de_depart": "Assis jambes allongées, élastique autour de l'avant du pied, tenu dans les mains ou fixé sur le côté.",
-    "mouvement": "Poussez contre l'élastique vers le bas (élastique tenu dans les mains), puis vers l'intérieur et vers l'extérieur (élastique fixé du côté opposé au mouvement), sans aller dans l'angle qui pince.",
+    "mouvement": "Poussez contre l'élastique : vers le bas (élastique tenu dans les mains), puis vers l'intérieur et vers l'extérieur (élastique attaché de l'autre côté). N'allez pas jusqu'à l'angle qui pince.",
     "dosage": "3 séries de 12 répétitions par direction, 3 fois par semaine.",
     "progression": "Utilisez un élastique plus ferme.",
     "erreur_frequente": "Pointer le pied à fond si le pincement est à l'arrière.",
@@ -1520,7 +1520,7 @@
    "Porter des souliers confortables qui soutiennent le pied (orthèses plantaires si conseillées, surtout si le pied s'affaisse vers l'intérieur).",
    "Éviter les chaussures, bottes ou patins qui serrent la cheville.",
    "Réduire temporairement les activités qui déclenchent les picotements.",
-   "Faire de très doux glissements du nerf, sans jamais tirer (ils peuvent aider, mais les preuves sont faibles)."
+   "Faire de très doux mouvements de glissement du nerf, sans jamais tirer."
   ],
   "a_eviter": [
    "Marcher longtemps pieds nus sur des planchers durs.",
@@ -1529,11 +1529,11 @@
   ],
   "soulager": [
    "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
-   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. Parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Les exercices ne doivent pas déclencher de picotements. Une gêne légère (jusqu'à 3 sur 10) est acceptable si elle disparaît rapidement après l'exercice et si vos symptômes ne sont pas plus forts le lendemain. Arrêtez tout mouvement qui déclenche ou augmente les picotements sous le pied.",
+  "regle_de_douleur": "Les exercices ne doivent pas donner de picotements. Une gêne légère (jusqu'à 3 sur 10) est acceptable si elle part vite après l'exercice. Vos symptômes ne doivent pas être plus forts le lendemain. Arrêtez tout mouvement qui donne ou augmente les picotements sous le pied.",
   "urgence": [
-   "Faiblesse du pied ou engourdissement qui apparaît soudainement ou s'aggrave vite, surtout avec un mal de dos, des symptômes aux deux jambes ou de la difficulté à uriner."
+   "Faiblesse ou engourdissement du pied qui apparaît d'un coup ou augmente vite. Surtout avec un mal de dos, des symptômes dans les deux jambes ou de la difficulté à uriner."
   ],
   "medecin": [
    "Engourdissements constants sous le pied ou faiblesse des orteils : revoyez votre médecin dans les prochains jours.",

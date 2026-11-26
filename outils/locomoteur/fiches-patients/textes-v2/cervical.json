@@ -36,9 +36,9 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
-   "Mal de tête ou douleur au cou soudains, très intenses ou différents de tout ce que vous avez déjà ressenti, ou troubles de la vision, de la parole ou de l'équilibre, ou paupière qui tombe.",
+   "Mal de tête ou douleur au cou soudain, très fort ou jamais ressenti avant. Aussi : troubles de la vue, de la parole ou de l'équilibre, ou paupière qui tombe.",
    "Difficulté nouvelle à marcher, perte d'équilibre, maladresse dans les doigts ou troubles pour uriner.",
    "Douleur apparue après une chute, un accident ou un coup.",
    "Fièvre avec douleur au cou.",
@@ -153,7 +153,7 @@
    "Automassage doux ou massage, si cela vous soulage.",
    "Acétaminophène ou anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans les 2 heures qui suivent l'exercice et si elle n'est pas plus forte le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Mal de tête ou douleur au cou soudains et très intenses, ou troubles de la vision, de la parole ou de l'équilibre.",
    "Faiblesse nouvelle dans le bras ou la main.",
@@ -187,7 +187,7 @@
    {
     "nom": "Étirement doux du trapèze supérieur",
     "position_de_depart": "Assis sur une chaise, tenez le bord du siège avec la main du côté douloureux.",
-    "mouvement": "Inclinez doucement la tête du côté opposé (oreille vers l'épaule non douloureuse) et un peu vers l'avant, jusqu'à sentir un étirement confortable sur le côté du cou. Tenez 20 à 30 secondes.",
+    "mouvement": "Penchez doucement la tête de l'autre côté, l'oreille vers l'épaule qui ne fait pas mal, et un peu vers l'avant. Arrêtez quand vous sentez un étirement confortable sur le côté du cou. Tenez 20 à 30 secondes.",
     "dosage": "3 répétitions de chaque côté, 2 fois par jour.",
     "progression": "Posez l'autre main sur la tête sans tirer, juste pour ajouter un léger poids.",
     "erreur_frequente": "Laisser l'épaule du côté étiré remonter vers l'oreille.",
@@ -198,7 +198,7 @@
    },
    {
     "nom": "Automassage doux avec une balle contre un mur",
-    "position_de_depart": "Debout, dos au mur, une balle de tennis placée entre le mur et la partie charnue du muscle, entre la base du cou et l'omoplate (jamais sur la colonne).",
+    "position_de_depart": "Debout, dos au mur. Placez une balle de tennis entre le mur et le muscle, entre la base du cou et l'omoplate. Jamais sur la colonne.",
     "mouvement": "Pliez légèrement les genoux pour faire rouler la balle lentement sur les zones tendues. Sur un point sensible, gardez une pression modérée et tolérable pendant 30 à 60 secondes en respirant calmement, puis relâchez.",
     "dosage": "2 à 3 minutes, 1 fois par jour.",
     "progression": "Appuyez un peu plus contre le mur si la pression reste bien tolérée.",
@@ -272,7 +272,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage.",
    "Acétaminophène, ou anti-inflammatoire en crème ou en comprimés pendant quelques jours, au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Étourdissements, troubles de la vision ou de la parole, ou mal de tête soudain et intense, surtout en bougeant le cou.",
    "Perte d'équilibre, maladresse des mains ou troubles pour uriner.",
@@ -389,7 +389,7 @@
    "Chaleur 15 minutes pour la raideur, si cela vous soulage.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Maladresse nouvelle (échapper des objets, difficulté à boutonner une chemise).",
    "Perte d'équilibre, raideur dans les jambes en marchant ou troubles pour uriner.",
@@ -411,7 +411,7 @@
    {
     "nom": "Mobilité matinale douce (oui et non)",
     "position_de_depart": "Assis confortablement, le dos appuyé et les épaules relâchées.",
-    "mouvement": "Faites de petits mouvements lents pour dire « oui » (hocher la tête), puis de petits mouvements pour dire « non » (tourner à gauche et à droite), sans forcer.",
+    "mouvement": "Faites de petits mouvements lents pour dire « oui », puis pour dire « non » (tourner à gauche et à droite), sans forcer.",
     "dosage": "10 répétitions de chaque mouvement, chaque matin.",
     "progression": "Augmentez doucement l'amplitude à mesure que la raideur matinale diminue.",
     "erreur_frequente": "Aller trop vite ou forcer jusqu'à une douleur aiguë.",
@@ -435,7 +435,7 @@
    {
     "nom": "Renforcement statique doux avec la main",
     "position_de_depart": "Assis droit, posez la paume de votre main droite sur votre tempe droite.",
-    "mouvement": "Poussez doucement la tête contre votre main sans laisser la tête bouger (force légère, environ 20 % de votre force). Tenez 5 secondes, puis faites l'autre côté.",
+    "mouvement": "Poussez doucement la tête contre votre main, sans laisser la tête bouger. Poussez avec peu de force. Tenez 5 secondes, puis faites l'autre côté.",
     "dosage": "5 répétitions de chaque côté, puis 5 avec la main sur le front, 1 fois par jour.",
     "progression": "Augmentez le maintien à 8 ou 10 secondes avec une poussée modérée.",
     "erreur_frequente": "Pousser trop fort, serrer les dents ou bloquer sa respiration.",
@@ -483,7 +483,7 @@
    "Rester actif et bouger doucement aide à guérir ; le collet n'est pas utile.",
    "La plupart des personnes s'améliorent beaucoup durant les 3 premiers mois. Chez certaines, des symptômes durent plus longtemps."
   ],
-  "ce_que_vous_avez": "Un mouvement brusque de la tête a étiré les muscles et les ligaments de votre cou. Il est normal d'avoir mal et d'être raide les premiers jours. La plupart des personnes s'améliorent beaucoup au cours des premières semaines et des premiers mois, surtout en reprenant tôt les mouvements doux et les activités habituelles plutôt qu'en gardant le cou immobile.",
+  "ce_que_vous_avez": "Un mouvement brusque de la tête a étiré les muscles et les ligaments de votre cou. Il est normal d'avoir mal et d'être raide les premiers jours. La plupart des personnes vont beaucoup mieux après quelques semaines ou quelques mois. Reprendre tôt les mouvements doux et les activités habituelles aide plus que garder le cou immobile.",
   "pourquoi": [
    "Mouvement brusque de la tête vers l'avant puis vers l'arrière, souvent lors d'un accident d'auto.",
    "Les muscles et les ligaments du cou ont été étirés."
@@ -503,7 +503,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Étourdissements persistants, vision double, difficulté à parler ou à avaler, ou mal de tête sévère qui empire.",
    "Faiblesse ou engourdissements dans les deux bras ou dans les jambes, difficulté à marcher ou troubles pour uriner.",
@@ -601,7 +601,7 @@
    "Renforcer les muscles profonds du cou le diminue.",
    "Les exercices demandent quelques semaines pour agir."
   ],
-  "ce_que_vous_avez": "Votre mal de tête vient des articulations et des muscles du haut du cou. La douleur part souvent de la nuque, d'un seul côté, et monte vers le front ou derrière l'œil. Renforcer les muscles profonds du cou et redonner de la souplesse au haut de la nuque aide à espacer et à diminuer ces maux de tête.",
+  "ce_que_vous_avez": "Votre mal de tête vient des articulations et des muscles du haut du cou. La douleur part souvent de la nuque, d'un seul côté, et monte vers le front ou derrière l'œil. Renforcer les muscles profonds du cou et assouplir le haut de la nuque aide à avoir des maux de tête moins souvent et moins forts.",
   "pourquoi": [
    "Tête penchée vers l'avant pendant de longues périodes.",
    "Raideur des articulations du haut du cou.",
@@ -621,9 +621,9 @@
   "soulager": [
    "Chaleur 15 à 20 minutes pour détendre les muscles, si cela vous soulage.",
    "Acétaminophène ou anti-inflammatoire en comprimés pendant quelques jours, au besoin, si votre pharmacien ou votre médecin le juge approprié.",
-   "Si vous prenez des médicaments contre la douleur plus de 2 jours par semaine, parlez-en à votre médecin ou à votre pharmacien : pris trop souvent, ils peuvent entretenir les maux de tête."
+   "Si vous prenez des médicaments contre la douleur plus de 2 jours par semaine, parlez-en à votre médecin ou à votre pharmacien. Pris trop souvent, ils peuvent entretenir les maux de tête."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez un exercice qui provoque des étourdissements ou qui augmente votre mal de tête pendant plus d'une heure.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez un exercice qui vous donne des étourdissements ou qui augmente votre mal de tête.",
   "urgence": [
    "Mal de tête soudain et très violent (« coup de tonnerre »), ou douleur au cou soudaine et inhabituelle accompagnée d'un mal de tête.",
    "Fièvre avec raideur de nuque ou confusion.",
@@ -632,7 +632,7 @@
   ],
   "medecin": [
    "Maux de tête qui empirent ou ne s'améliorent pas malgré 6 semaines d'exercices.",
-   "Mal de tête différent de d'habitude, déclenché par la toux, l'effort ou un changement de position, ou qui apparaît pendant une grossesse : prenez rendez-vous sans tarder."
+   "Mal de tête différent de d'habitude, qui vient en toussant, à l'effort, en changeant de position ou pendant une grossesse : prenez rendez-vous sans tarder."
   ],
   "duree_habituelle": "Amélioration souvent visible en 4 à 6 semaines de pratique régulière.",
   "materiel": [
@@ -739,7 +739,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour, si cela vous soulage.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Choc à la tête avec étourdissements, nausées ou confusion (commotion possible) : arrêtez le sport tout de suite.",
    "Douleur, picotements ou faiblesse dans les deux bras ou dans les jambes, même brièvement.",
@@ -769,11 +769,11 @@
     "plus_facile": "Faites un plus petit mouvement, dans une seule direction à la fois."
    },
    {
-    "nom": "Contractions statiques légères (isométriques)",
+    "nom": "Contractions statiques légères",
     "position_de_depart": "Assis droit, placez une main sur le côté, l'avant ou l'arrière de la tête.",
-    "mouvement": "Poussez doucement la tête contre votre main sans bouger (environ 20 à 30 % de votre force). Tenez 5 secondes. Faites les 4 directions (avant, arrière, gauche, droite).",
+    "mouvement": "Poussez doucement la tête contre votre main, sans bouger. Poussez avec peu de force. Tenez 5 secondes. Faites les 4 directions (avant, arrière, gauche, droite).",
     "dosage": "5 répétitions par direction, 1 à 2 fois par jour.",
-    "progression": "Augmentez la force jusqu'à 50 % et tenez 8 à 10 secondes lorsque c'est confortable.",
+    "progression": "Poussez un peu plus fort, jusqu'à la moitié de votre force. Tenez 8 à 10 secondes quand c'est confortable.",
     "erreur_frequente": "Pousser trop fort trop tôt et réveiller la douleur.",
     "illustration": "Dessin au trait d'une personne appuyant doucement sa main contre son front, puis contre sa tempe, pour résister sans bouger.",
     "phase": "Dès maintenant",
@@ -849,9 +849,9 @@
   ],
   "soulager": [
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
-   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. Parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 au cou est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez tout mouvement qui augmente la douleur ou les picotements dans le bras ou la main.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui augmente la douleur ou les picotements dans le bras ou la main.",
   "urgence": [
    "Perte d'équilibre en marchant, faiblesse dans les jambes, maladresse des deux mains ou troubles pour uriner.",
    "Perte de force dans le bras ou la main qui apparaît ou s'aggrave (ex. : échapper des objets).",
@@ -872,7 +872,7 @@
    {
     "nom": "Position de décharge (main sur la tête ou bras soutenu)",
     "position_de_depart": "Assis confortablement, le dos appuyé.",
-    "mouvement": "Soulevez doucement le bras du côté douloureux et posez la main ou l'avant-bras sur le sommet de votre tête (ou appuyez le bras sur un gros coussin). Restez ainsi 1 à 2 minutes si cela calme le bras.",
+    "mouvement": "Levez doucement le bras du côté douloureux et posez la main ou l'avant-bras sur le dessus de votre tête. Vous pouvez aussi appuyer le bras sur un gros coussin. Restez ainsi 1 à 2 minutes si cela calme le bras.",
     "dosage": "À utiliser 3 à 5 fois par jour, au besoin, pour calmer la douleur.",
     "progression": "Diminuez le recours à cette position à mesure que le bras va mieux.",
     "erreur_frequente": "Insister si cette position augmente la douleur ou force l'épaule.",
@@ -896,10 +896,10 @@
    {
     "nom": "Glissement doux du nerf (coude et poignet, cou immobile)",
     "position_de_depart": "Assis droit, la tête immobile en position neutre, le bras atteint légèrement écarté du corps (environ 45 degrés), coude plié, paume tournée vers vous.",
-    "mouvement": "Dépliez doucement le coude en laissant le poignet et les doigts se replier vers l'avant-bras; puis repliez le coude en ouvrant le poignet et les doigts vers l'arrière. Les deux mouvements se compensent : le nerf glisse sans être étiré. Le geste doit rester fluide, sans tiraillement.",
+    "mouvement": "Dépliez doucement le coude en laissant le poignet et les doigts plier vers l'avant-bras. Puis pliez le coude en ouvrant le poignet et les doigts vers l'arrière. Les deux mouvements se compensent : le nerf glisse sans être étiré. Le geste doit rester fluide, sans tiraillement.",
     "dosage": "1 à 2 séries de 8 répétitions lentes, 1 à 2 fois par jour.",
     "progression": "Écartez un peu plus le bras sur le côté seulement si aucun picotement n'apparaît. Toute variante avec mouvement de la tête doit être montrée par votre physiothérapeute.",
-    "erreur_frequente": "Tendre le coude et ouvrir le poignet vers l'arrière en même temps, ou pencher la tête du côté opposé pendant que le bras se tend : cela étire le nerf au lieu de le faire glisser.",
+    "erreur_frequente": "Tendre le coude et ouvrir le poignet vers l'arrière en même temps, ou pencher la tête de l'autre côté : cela étire le nerf au lieu de le faire glisser.",
     "illustration": "Dessin au trait en deux étapes, tête droite : 1) coude déplié avec poignet et doigts repliés; 2) coude plié avec poignet et doigts ouverts vers l'arrière.",
     "phase": "Quand la douleur diminue",
     "but": "Pour aider le nerf à glisser sans l'étirer.",
@@ -957,7 +957,7 @@
    "Attendre que la douleur, les picotements et la faiblesse aient complètement disparu avant de commencer les exercices.",
    "Obtenir le feu vert d'un professionnel de la santé avant tout retour au jeu.",
    "Renforcer les muscles du cou et des épaules une fois le bras redevenu normal.",
-   "Revoir votre technique de plaquage ou de contact (tête relevée) avec votre entraîneur et porter un équipement bien ajusté; l'utilité des collets de protection n'est pas démontrée."
+   "Revoir votre technique de plaquage ou de contact (tête relevée) avec votre entraîneur. Porter un équipement bien ajusté."
   ],
   "a_eviter": [
    "Retourner au jeu s'il reste la moindre faiblesse, douleur au cou ou perte de mouvement.",
@@ -969,7 +969,7 @@
    "Glace 15 minutes, dans un linge, sur le cou ou l'épaule, si cela vous soulage.",
    "Acétaminophène au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 au cou est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez immédiatement si une sensation électrique ou des picotements reviennent dans le bras.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout de suite si une sensation électrique ou des picotements reviennent dans le bras.",
   "urgence": [
    "Symptômes qui ont touché les deux bras ou les jambes, même brièvement.",
    "Douleur au milieu du cou ou perte de mouvement du cou après l'impact."
@@ -978,7 +978,7 @@
    "Faiblesse, engourdissement ou picotements qui durent plus de 24 heures : évaluation médicale avant tout retour au sport.",
    "Deuxième épisode dans la même saison, ou troisième épisode au total : évaluation médicale (avec examens) avant tout retour au sport."
   ],
-  "duree_habituelle": "Le plus souvent quelques secondes à quelques minutes; parfois quelques heures à quelques jours (une faiblesse peut mettre 5 à 6 jours à disparaître); rarement plus de 2 semaines. Le retour au sport exige la disparition complète des symptômes, une force et une mobilité normales, et un examen médical normal.",
+  "duree_habituelle": "Le plus souvent, quelques secondes à quelques minutes. Parfois quelques heures à quelques jours : une faiblesse peut prendre 5 à 6 jours à partir. Rarement plus de 2 semaines. Le retour au sport exige la disparition complète des symptômes, une force et une mobilité normales, et un examen médical normal.",
   "materiel": [
    "mur",
    "poids léger, bouteille d'eau ou sac à dos"
@@ -1001,7 +1001,7 @@
     "position_de_depart": "Debout, dos droit, la main placée sur le front, puis sur l'arrière de la tête, puis sur chaque tempe.",
     "mouvement": "Poussez la tête contre votre main sans bouger pendant 5 à 8 secondes, avec une force modérée et contrôlée.",
     "dosage": "5 répétitions dans chacune des 4 directions, 1 fois par jour.",
-    "progression": "Augmentez graduellement la force de poussée jusqu'à environ 70 %, sans déclencher de symptômes.",
+    "progression": "Poussez peu à peu plus fort, sans aller au maximum de votre force et sans réveiller les symptômes.",
     "erreur_frequente": "Bloquer sa respiration ou hausser les épaules.",
     "illustration": "Dessin au trait d'un athlète appuyant sa main contre sa tempe pour résister à la poussée latérale du cou.",
     "phase": "Quand tous les symptômes au bras ont disparu",
@@ -1023,7 +1023,7 @@
    {
     "nom": "Pompes contre un mur avec poussée des omoplates",
     "position_de_depart": "Debout face à un mur, mains posées à la hauteur des épaules.",
-    "mouvement": "Pliez les coudes pour approcher la poitrine du mur, puis repoussez jusqu'à tendre les bras et poussez un peu plus loin pour arrondir légèrement le haut du dos.",
+    "mouvement": "Pliez les coudes pour approcher la poitrine du mur. Puis repoussez jusqu'à tendre les bras, et poussez un peu plus loin pour arrondir légèrement le haut du dos.",
     "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
     "progression": "Passez à des pompes sur un comptoir, puis au sol sur les genoux ou les pieds.",
     "erreur_frequente": "Laisser la tête tomber vers l'avant ou creuser le bas du dos.",
@@ -1084,10 +1084,10 @@
    "Chaleur 15 à 20 minutes sur le muscle tendu, si cela vous soulage.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin.",
   "urgence": [
    "Fièvre, frissons, mal de gorge sévère, difficulté à avaler, à ouvrir la bouche ou à respirer.",
-   "Torticolis apparu dans les jours suivant la prise d'un nouveau médicament (contre les nausées ou de type antipsychotique), surtout avec des spasmes de la mâchoire, de la langue ou des yeux.",
+   "Torticolis apparu quelques jours après un nouveau médicament (contre les nausées, ou un antipsychotique). Surtout avec des spasmes de la mâchoire, de la langue ou des yeux.",
    "Torticolis apparu après une chute, un accident ou un coup.",
    "Torticolis apparu après une infection ou une opération de la gorge, du nez ou des oreilles.",
    "Perte de force dans un bras, ou mal de tête soudain avec troubles de la vision, de la parole ou de l'équilibre."
@@ -1176,7 +1176,7 @@
    "La posture et le renforcement du haut du dos leur redonnent de l'espace.",
    "L'amélioration prend souvent plusieurs semaines."
   ],
-  "ce_que_vous_avez": "Les nerfs qui descendent vers votre bras sont un peu à l'étroit dans le passage entre les muscles du cou, la clavicule et la première côte. Cela donne des picotements ou une lourdeur dans le bras, surtout les bras en l'air ou quand le bras pend avec une charge. Ouvrir la posture, assouplir l'avant de la poitrine et renforcer les épaules peut redonner de l'espace à ce passage. Cette fiche ne s'applique pas aux formes où une artère ou une veine est comprimée.",
+  "ce_que_vous_avez": "Les nerfs qui descendent vers votre bras sont un peu à l'étroit. Ils passent entre les muscles du cou, la clavicule et la première côte. Cela donne des picotements ou une lourdeur dans le bras, surtout les bras en l'air ou quand le bras pend avec une charge. Ouvrir la posture, assouplir l'avant de la poitrine et renforcer les épaules peut redonner de l'espace à ce passage. Cette fiche ne s'applique pas aux formes où une artère ou une veine est comprimée.",
   "pourquoi": [
    "Épaules tombantes et tête projetée vers l'avant.",
    "Travail ou sport les bras en l'air, port de sacs lourds.",
@@ -1186,7 +1186,7 @@
    "Soutenir les bras (accoudoirs, coussins) et laisser les épaules tombantes remonter légèrement.",
    "Prendre des pauses régulières si vous travaillez les bras levés ou à l'ordinateur.",
    "Éviter de dormir les bras levés au-dessus de la tête.",
-   "Alléger ce que vous portez : répartir en petites charges ou utiliser un sac à roulettes plutôt qu'une charge lourde qui tire l'épaule vers le bas."
+   "Porter moins lourd : faire plusieurs petites charges ou utiliser un sac à roulettes. Une charge lourde tire l'épaule vers le bas."
   ],
   "a_eviter": [
    "Travailler longtemps avec les bras au-dessus des épaules.",
@@ -1195,9 +1195,9 @@
   ],
   "soulager": [
    "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
-   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. Parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez tout mouvement qui déclenche des picotements ou un changement de couleur dans la main.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui donne des picotements ou qui change la couleur de la main.",
   "urgence": [
    "Bras ou main qui devient pâle, bleuâtre, froid ou enflé, ou veines très visibles sur l'épaule ou la poitrine."
   ],
@@ -1287,7 +1287,7 @@
    "Détendre la nuque et éviter d'appuyer sur la zone aide.",
    "Votre médecin peut proposer d'autres traitements si la douleur persiste."
   ],
-  "ce_que_vous_avez": "Un nerf situé à la base du crâne (le nerf d'Arnold) est irrité. Cela donne des élancements, des brûlures ou une sensibilité du cuir chevelu, souvent d'un seul côté. Ce nerf est sensible à la pression : on cherche donc à détendre la nuque et à varier les postures sans appuyer sur la zone douloureuse. Si la douleur persiste, votre médecin peut proposer des médicaments ou une infiltration près du nerf.",
+  "ce_que_vous_avez": "Un nerf situé à la base du crâne (le nerf d'Arnold) est irrité. Cela donne des élancements, des brûlures ou une sensibilité du cuir chevelu, souvent d'un seul côté. Ce nerf est sensible à la pression. On cherche donc à détendre la nuque et à changer souvent de position, sans appuyer sur l'endroit douloureux. Si la douleur persiste, votre médecin peut proposer des médicaments ou une infiltration près du nerf.",
   "pourquoi": [
    "Tension des muscles de la nuque.",
    "Tête penchée vers l'avant pendant de longues périodes.",
@@ -1309,9 +1309,9 @@
    "Chaleur douce sur la nuque, si elle vous soulage.",
    "Évitez d'appuyer sur la zone sensible (oreiller dur, casque serré).",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.",
-   "Si vous prenez des médicaments contre la douleur plus de 2 jours par semaine, parlez-en à votre médecin ou à votre pharmacien : pris trop souvent, ils peuvent entretenir les maux de tête."
+   "Si vous prenez des médicaments contre la douleur plus de 2 jours par semaine, parlez-en à votre médecin ou à votre pharmacien. Pris trop souvent, ils peuvent entretenir les maux de tête."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin, mais arrêtez tout exercice qui déclenche des décharges électriques vers le sommet du crâne.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout exercice qui donne des décharges électriques vers le dessus de la tête.",
   "urgence": [
    "Mal de tête brutal et extrêmement fort, ou fièvre avec raideur de nuque.",
    "Troubles de la vision, vertiges sévères, difficulté à parler ou faiblesse d'un côté du corps.",
@@ -1331,7 +1331,7 @@
    {
     "nom": "Étirement doux du haut de la nuque (assis)",
     "position_de_depart": "Assis droit, les épaules relâchées, le regard à l'horizontale.",
-    "mouvement": "Rentrez légèrement le menton, puis inclinez doucement la tête vers l'avant, comme pour un petit « oui », jusqu'à sentir un étirement léger sous le crâne. Tenez 15 à 20 secondes en respirant calmement.",
+    "mouvement": "Rentrez un peu le menton, puis penchez doucement la tête vers l'avant, comme pour un petit « oui ». Arrêtez quand vous sentez un léger étirement sous le crâne. Tenez 15 à 20 secondes en respirant calmement.",
     "dosage": "3 répétitions, 1 à 2 fois par jour.",
     "progression": "Tenez jusqu'à 30 secondes si aucun élancement n'apparaît.",
     "erreur_frequente": "Tirer sur la tête avec les mains ou insister malgré des décharges.",

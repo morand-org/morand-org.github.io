@@ -23,7 +23,7 @@ const ICI = path.dirname(new URL(import.meta.url).pathname), RACINE = path.resol
 const REGIONS = [["cervical", "Rachis cervical", "CER"], ["epaule", "Épaule", "EPA"], ["coude", "Coude", "COU"], ["poignet", "Poignet et main", "MAI"],
   ["lombaire", "Rachis lombaire", "LOM"], ["hanche", "Hanche et bassin", "HAN"], ["genou", "Genou", "GEN"], ["cheville", "Cheville et jambe", "CHE"], ["pied", "Pied", "PIE"]];
 const COULEURS = { cervical: "#5b6f8f", epaule: "#8a5a83", coude: "#9a6b3c", poignet: "#4f7f78", lombaire: "#7d6536", hanche: "#a0524a", genou: "#2f6b4b", cheville: "#3f6f95", pied: "#6b7a3a" };
-const VERSION = "version 2", REVISION = "25 novembre 2026";
+const VERSION = "version 2", REVISION = "26 novembre 2026";
 const args = process.argv.slice(2), choisies = args.filter(a => !a.startsWith("--")), sansRevues = args.includes("--sans-revues"),
   seulementHtml = args.includes("--html") || sansRevues;   // --sans-revues : texte de base (sans revues/), dans .cache/textes-base, pour integrer-revues.py
 const lireJSON = f => JSON.parse(fs.readFileSync(f, "utf8"));
@@ -81,12 +81,43 @@ export function assembler(r, x, no) {
   const medecin = urgence.length ? [...signes.filter((_, k) => !urg.has(k)), ...(aj["m+"] || [])] : [...signes, ...(aj["m+"] || [])];
   const soulager = Array.isArray(aj.s) ? aj.s : aj.s ? SOULAGER[aj.s] : [];
   if (aj.s && !soulager) throw new Error(`${cle} : genre « ${aj.s} » inconnu`);
-  return reviser(rA, x.id, {
+  return simplifier(reviser(rA, x.id, {
     cle, region: r, region_nom: nomR, code: `${pre}-${String(no).padStart(2, "0")}`, no, titre: t.titre, sous_titre: t.sous_titre, titre_v1: x.titre_patient, diagnostic: x.nom,
     en_bref: aj.b || [], ce_que_vous_avez: x.ce_que_vous_avez, pourquoi: aj.p || [], ce_qui_aide: x.ce_qui_aide, a_eviter: x.a_eviter_pour_l_instant,
     soulager, regle_de_douleur: x.regle_de_douleur, urgence, medecin, duree_habituelle: x.duree_habituelle,
     materiel: materielDe(exercices), exercices, references: x.references || []
-  });
+  }));
+}
+
+/* Passe de simplification (26 novembre 2026), après les revues : texte pour un niveau de scolarité faible (phrases courtes,
+   mots courants, ni statistiques ni mention d'études). simplification/_communes.json : [ancien, nouveau] appliqués à toutes
+   les fiches où le passage se trouve ; simplification/<région>.json : { "<code>": [[ancien, nouveau], …] }, et chaque passage
+   doit se trouver dans la fiche (sinon, erreur : le texte a changé, la simplification est à revoir). Les références, les
+   titres et les consignes de dessin ne sont pas touchés. */
+const SIMPLE = (() => {
+  const d = path.join(ICI, "simplification"); if (!fs.existsSync(d)) return { communes: [], parCode: {} };
+  const parCode = {};
+  for (const n of fs.readdirSync(d)) if (n.endsWith(".json") && !n.startsWith("_")) Object.assign(parCode, lireJSON(path.join(d, n)));
+  const c = path.join(d, "_communes.json");
+  return { communes: fs.existsSync(c) ? lireJSON(c) : [], parCode };
+})();
+const INTOUCHABLES = new Set(["cle", "region", "region_nom", "code", "no", "titre", "sous_titre", "titre_v1", "diagnostic", "references", "materiel", "illustration"]);
+function simplifier(f) {
+  if (sansRevues) return f;
+  const remplacer = (ancien, nouveau, exige) => {
+    let trouve = 0;
+    const passer = (o, k) => {
+      const v = o[k];
+      if (typeof v === "string") { if (v.includes(ancien)) { trouve++; o[k] = v.split(ancien).join(nouveau); } }
+      else if (Array.isArray(v)) v.forEach((_, i) => passer(v, i));
+      else if (v && typeof v === "object") for (const kk of Object.keys(v)) if (!INTOUCHABLES.has(kk)) passer(v, kk);
+    };
+    for (const k of Object.keys(f)) if (!INTOUCHABLES.has(k)) passer(f, k);
+    if (exige && !trouve) throw new Error(`${f.code} : passage à simplifier introuvable : « ${ancien.slice(0, 80)} »`);
+  };
+  for (const [a, n] of SIMPLE.communes) remplacer(a, n, false);
+  for (const [a, n] of SIMPLE.parCode[f.code] || []) remplacer(a, n, true);
+  return f;
 }
 
 /* Corrections retenues après la révision d'OpenEvidence (revues/<région>.json), triées par le Dr Morand et Claude :
@@ -129,7 +160,8 @@ function html(f) {
     ${e.progression ? `<p><b>Progression :</b> ${esc(e.progression)}</p>` : ""}${e.plus_facile ? `<p><b>Plus facile :</b> ${esc(e.plus_facile)}</p>` : ""}
     ${e.erreur_frequente ? `<p><b>Erreur fréquente :</b> ${esc(e.erreur_frequente)}</p>` : ""}
     <p class="prescrit">☐ Prescrit pour vous <span>Charge ou élastique : </span><i></i></p></article>`).join("");
-  const refs = f.references.map(r => esc(r.texte) + (r.doi_ou_pmid ? ` (${esc(r.doi_ou_pmid)})` : "")).join(" · ");
+  // « à vérifier » reste dans les données (suivi), mais n'est pas imprimé sur la fiche remise au patient.
+  const refs = f.references.map(r => esc(r.texte) + (r.doi_ou_pmid && !/vérifier/i.test(r.doi_ou_pmid) ? ` (${esc(r.doi_ou_pmid)})` : "")).join(" · ");
   const pied = cote => `<footer><span>Révisée le ${REVISION} · ${VERSION} · Ce document ne remplace pas l'avis de votre professionnel de la santé.</span><span>${cote}</span></footer>`;
   return `<!doctype html><html lang="fr-CA"><head><meta charset="utf-8"><title>${esc(f.code)} ${esc(f.titre)}</title><style>${CSS}</style></head>
 <body style="--region:${COULEURS[f.region]}">

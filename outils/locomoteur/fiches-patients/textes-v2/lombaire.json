@@ -14,7 +14,7 @@
    "Rester actif et reprendre vos activités graduellement est ce qui aide le plus.",
    "La plupart des personnes vont nettement mieux en quelques semaines, même s'il peut rester une petite douleur par la suite."
   ],
-  "ce_que_vous_avez": "Vous avez un mal de dos très fréquent. On ne peut pas toujours dire exactement d'où vient la douleur (muscles, ligaments ou articulations du bas du dos), et ce n'est pas nécessaire pour bien vous soigner. Même si la douleur peut être forte, elle n'est pas le signe d'une blessure grave : votre dos est solide et fait pour bouger. Rester actif est le meilleur moyen de récupérer, et la plupart des gens vont nettement mieux en quelques semaines.",
+  "ce_que_vous_avez": "Vous avez un mal de dos très fréquent. On ne peut pas toujours dire d'où vient exactement la douleur (muscles, ligaments ou articulations du bas du dos). Ce n'est pas nécessaire pour bien vous soigner. Même si la douleur peut être forte, elle n'est pas le signe d'une blessure grave : votre dos est solide et fait pour bouger. Rester actif est le meilleur moyen de récupérer, et la plupart des gens vont nettement mieux en quelques semaines.",
   "pourquoi": [
    "Effort inhabituel ou faux mouvement.",
    "Longues heures assis ou debout sans bouger.",
@@ -23,7 +23,7 @@
   ],
   "ce_qui_aide": [
    "Continuer vos activités habituelles (y compris le travail, en l'adaptant au besoin) et marcher un peu chaque jour.",
-   "Appliquer de la chaleur 15 à 20 minutes sur le bas du dos pour soulager, en plaçant un linge entre la source de chaleur et la peau.",
+   "Mettre de la chaleur 15 à 20 minutes sur le bas du dos, avec un linge entre la chaleur et la peau.",
    "Changer souvent de position plutôt que de rester longtemps assis ou debout sans bouger.",
    "Dormir dans la position la plus confortable pour vous, par exemple sur le côté avec un oreiller entre les genoux."
   ],
@@ -37,12 +37,12 @@
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié.",
    "L'acétaminophène pris seul aide peu pour ce type de mal de dos."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.",
    "Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant).",
    "Fièvre ou frissons avec votre mal de dos.",
-   "Douleur apparue après une chute ou un accident important, ou après un choc même léger si vous faites de l'ostéoporose ou prenez de la cortisone depuis longtemps (possible fracture)."
+   "Douleur après une chute ou un gros accident. Ou après un petit choc, si vous avez de l'ostéoporose ou prenez de la cortisone depuis longtemps : un os est peut-être fracturé."
   ],
   "medecin": [
    "Perte de poids inexpliquée ou antécédent de cancer : prenez rendez-vous dans les prochains jours.",
@@ -54,7 +54,7 @@
    {
     "nom": "Bascule douce du bassin couché",
     "position_de_depart": "Couché sur le dos, genoux pliés, pieds à plat au sol.",
-    "mouvement": "Plaquez doucement le bas du dos au sol en serrant légèrement le ventre et les fesses, puis relâchez pour laisser le dos se creuser très légèrement.",
+    "mouvement": "Collez doucement le bas du dos au sol en serrant un peu le ventre et les fesses. Puis relâchez : le dos se creuse un peu.",
     "dosage": "10 à 15 répétitions lentes, 2 fois par jour.",
     "progression": "Enchaînez avec l'exercice du dos rond / dos creux à quatre pattes.",
     "erreur_frequente": "Pousser avec les jambes ou retenir sa respiration.",
@@ -147,7 +147,7 @@
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié.",
    "L'acétaminophène pris seul aide peu pour ce type de mal de dos."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.",
    "Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant).",
@@ -225,7 +225,7 @@
    "Bouger et renforcer le dos diminue la douleur.",
    "Une imagerie n'est habituellement pas nécessaire."
   ],
-  "ce_que_vous_avez": "Les disques sont les coussins situés entre vos vertèbres. Avec l'âge, ils changent chez presque tout le monde, un peu comme les cheveux qui grisonnent : ces changements sont normaux et se voient aussi chez des personnes qui n'ont aucune douleur. Un disque peut toutefois devenir sensible pendant un certain temps, surtout en position assise prolongée ou penché en avant. Vos disques sont solides : bouger, marcher et renforcer le tronc aident à diminuer la douleur.",
+  "ce_que_vous_avez": "Les disques sont les coussins situés entre vos vertèbres. Avec l'âge, ils changent chez presque tout le monde, un peu comme les cheveux qui deviennent gris. Ces changements sont normaux. On les voit aussi chez des gens qui n'ont pas mal. Un disque peut toutefois devenir sensible pendant un certain temps, surtout en position assise prolongée ou penché en avant. Vos disques sont solides : bouger, marcher et renforcer le tronc aident à diminuer la douleur.",
   "pourquoi": [
    "Vieillissement normal des disques.",
    "Hérédité : c'est le facteur qui compte le plus.",
@@ -239,14 +239,14 @@
   ],
   "a_eviter": [
    "Rester assis pendant des heures sans changer de position.",
-   "Forcer les flexions répétées du dos (redressements assis, toucher les orteils jambes tendues) si elles augmentent votre douleur, surtout le matin quand le dos est plus raide.",
+   "Plier le dos souvent vers l'avant (redressements assis, toucher les orteils jambes tendues) si cela augmente votre douleur. Surtout le matin, quand le dos est plus raide.",
    "Reprendre d'un seul coup des charges lourdes : augmentez les efforts graduellement."
   ],
   "soulager": [
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.",
    "Perte de force nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant).",
@@ -357,7 +357,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.",
    "Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant).",
@@ -444,7 +444,7 @@
    "Rester active et faire des exercices adaptés aide.",
    "Elles diminuent le plus souvent dans les semaines et les mois qui suivent l'accouchement."
   ],
-  "ce_que_vous_avez": "Pendant la grossesse, le poids du ventre, les changements de posture et les hormones modifient la façon dont le bas du dos et le bassin travaillent. Ces douleurs sont très fréquentes et sans danger pour votre bébé. Rester active, faire des exercices doux (sur terre ou dans l'eau) et bien vous installer la nuit aident à les soulager.",
+  "ce_que_vous_avez": "Pendant la grossesse, le poids du ventre, la posture et les hormones changent la façon dont le bas du dos et le bassin travaillent. Ces douleurs sont très fréquentes et sans danger pour votre bébé. Rester active, faire des exercices doux (sur terre ou dans l'eau) et bien vous installer la nuit aident à les soulager.",
   "pourquoi": [
    "Poids du ventre et changement de posture.",
    "Hormones qui assouplissent les ligaments du bassin."
@@ -456,18 +456,18 @@
    "Essayer une ceinture de soutien du bassin pour les marches ou les périodes debout prolongées : elle soulage certaines femmes (demandez conseil pour bien l'ajuster)."
   ],
   "a_eviter": [
-   "Rester longtemps couchée à plat sur le dos à partir du milieu de la grossesse (environ 20 semaines), surtout si cela vous donne des étourdissements ou des nausées : préférez le côté ou la position semi-assise.",
+   "Rester longtemps couchée à plat sur le dos après le milieu de la grossesse (environ 20 semaines), surtout si cela vous donne des étourdissements ou des nausées. Couchez-vous plutôt sur le côté ou à moitié assise.",
    "Faire de grands écarts de jambes ou des fentes profondes, ou porter une charge (un enfant, par exemple) sur une seule hanche.",
    "Rester debout sur une jambe pour vous habiller : assoyez-vous.",
    "Prendre des anti-inflammatoires (ibuprofène, naproxène) sans l'avis de votre médecin, de votre sage-femme ou de votre pharmacien."
   ],
   "soulager": [
    "Chaleur douce sur le dos (pas sur le ventre) ou bain tiède (pas chaud) pour détendre les muscles.",
-   "Acétaminophène au besoin, en plus petite quantité et le moins longtemps possible ; évitez les anti-inflammatoires pendant la grossesse, surtout à partir de 20 semaines, sauf avis de votre médecin."
+   "Acétaminophène au besoin, le moins possible et le moins longtemps possible. Évitez les anti-inflammatoires pendant la grossesse, surtout après 20 semaines, sauf avis de votre médecin."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Arrêtez l'exercice et appelez si vous avez des étourdissements, un essoufflement inhabituel, une douleur dans la poitrine, des contractions régulières ou douloureuses, un saignement, une perte de liquide, ou une douleur ou une enflure au mollet.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Arrêtez l'exercice et appelez si vous avez : étourdissements, essoufflement inhabituel, douleur dans la poitrine, contractions régulières ou douloureuses, saignement, perte de liquide, ou douleur ou enflure au mollet.",
   "urgence": [
-   "Urgence OBSTÉTRICALE (appelez ou rendez-vous à votre unité des naissances) : contractions régulières ou douleurs rythmées au ventre ou au dos, saignement, perte de liquide ou diminution des mouvements du bébé.",
+   "Urgence pour la grossesse (appelez ou allez à votre unité des naissances) : contractions régulières, douleurs qui reviennent au ventre ou au dos, saignement, perte de liquide, ou bébé qui bouge moins.",
    "Engourdissement entre les jambes, difficulté nouvelle à uriner, perte d'urine ou de selles inhabituelle, ou faiblesse dans une jambe ou les deux.",
    "Mollet douloureux, enflé ou rouge, douleur dans la poitrine ou essoufflement soudain.",
    "Fièvre avec douleur dans le flanc ou brûlures en urinant (possible infection du rein) : faites-vous évaluer le jour même.",
@@ -475,7 +475,7 @@
   ],
   "medecin": [
    "Brûlures en urinant sans fièvre (possible infection urinaire) : appelez dans la journée ou le lendemain.",
-   "Douleur qui vous empêche de dormir, de marcher ou de faire vos activités malgré ces conseils : des exercices adaptés avec un ou une physiothérapeute peuvent aider.",
+   "Douleur qui vous empêche de dormir, de marcher ou de faire vos activités malgré ces conseils. Des exercices avec un ou une physiothérapeute peuvent aider.",
    "Douleur qui persiste plus de 3 mois après l'accouchement."
   ],
   "duree_habituelle": "La douleur varie au fil de la grossesse et peut augmenter vers la fin. Les exercices aident surtout s'ils sont faits régulièrement pendant 8 à 12 semaines. Chez la plupart des femmes, la douleur disparaît dans les 3 mois qui suivent l'accouchement.",
@@ -490,7 +490,7 @@
     "position_de_depart": "À quatre pattes (ou debout, mains appuyées sur le bord d'un lit ou d'un comptoir, si le sol est inconfortable).",
     "mouvement": "Arrondissez doucement le bas du dos en rentrant légèrement le nombril vers la colonne, puis revenez en position neutre sans creuser.",
     "dosage": "10 répétitions lentes, 1 à 2 fois par jour.",
-    "progression": "Assise sur un gros ballon d'exercice, pieds bien à plat et près d'un appui stable, faites de petites bascules du bassin vers l'avant et vers l'arrière.",
+    "progression": "Assise sur un gros ballon d'exercice, pieds bien à plat, près d'un appui solide. Faites de petites bascules du bassin vers l'avant et vers l'arrière.",
     "erreur_frequente": "Laisser le ventre tomber vers le sol et creuser fortement le dos.",
     "illustration": "Dessin au trait d'une femme enceinte à quatre pattes arrondissant doucement le bas du dos.",
     "phase": "Dès maintenant",
@@ -548,7 +548,7 @@
    "Se pencher vers l'avant et s'asseoir soulagent les jambes.",
    "Les exercices et la marche fractionnée aident à marcher plus longtemps."
   ],
-  "ce_que_vous_avez": "Avec les années, le canal où passent les nerfs dans le bas du dos est devenu plus étroit. Cela donne une lourdeur, des crampes ou des fourmillements dans les fesses et les jambes quand vous marchez ou restez debout; ces symptômes diminuent quand vous vous asseyez ou vous penchez en avant. Chez beaucoup de gens, la situation reste stable pendant des années. Les exercices et le vélo stationnaire peuvent améliorer votre capacité à marcher.",
+  "ce_que_vous_avez": "Avec les années, le canal où passent les nerfs dans le bas du dos est devenu plus étroit. Cela donne une lourdeur, des crampes ou des fourmillements dans les fesses et les jambes quand vous marchez ou restez debout. Cela diminue quand vous vous assoyez ou vous penchez en avant. Chez beaucoup de gens, la situation reste stable pendant des années. Les exercices et le vélo stationnaire peuvent améliorer votre capacité à marcher.",
   "pourquoi": [
    "Usure des disques et des articulations avec l'âge.",
    "Épaississement des ligaments du dos."
@@ -568,15 +568,15 @@
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
    "Les médicaments contre la douleur vendus sans ordonnance (acétaminophène, anti-inflammatoires) aident peu pour ce problème, et les anti-inflammatoires comportent plus de risques avec l'âge. Demandez l'avis de votre pharmacien ou de votre médecin avant d'en prendre ; parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Assoyez-vous dès que les jambes deviennent engourdies ou faibles, puis reprenez quand les symptômes ont diminué.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Assoyez-vous dès que les jambes deviennent engourdies ou faibles. Reprenez quand ça va mieux.",
   "urgence": [
-   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse qui s'aggrave rapidement dans les jambes.",
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses). Ou : nouvelle difficulté à uriner, perte d'urine ou de selles, ou faiblesse qui augmente vite dans les jambes.",
    "Pied ou jambe qui devient soudainement froid, pâle et très douloureux (problème de circulation urgent)."
   ],
   "medecin": [
    "Faiblesse progressive d'un pied ou d'une jambe, ou chutes à répétition.",
    "Distance de marche qui diminue rapidement malgré les exercices.",
-   "Douleur dans les mollets à la marche qui disparaît dès que vous vous arrêtez debout, pied souvent froid ou pâle, ou plaie au pied qui ne guérit pas (possible problème de circulation).",
+   "Douleur aux mollets à la marche qui part dès que vous arrêtez, même debout. Ou pied souvent froid ou pâle, ou plaie au pied qui ne guérit pas : c'est peut-être un problème de circulation.",
    "Douleur constante au repos ou la nuit."
   ],
   "duree_habituelle": "Amélioration de la tolérance à la marche possible en 6 à 12 semaines d'exercices réguliers. L'amélioration est souvent partielle et les symptômes peuvent varier d'une semaine à l'autre.",
@@ -613,7 +613,7 @@
    {
     "nom": "Étirement doux de l'avant de la hanche sans cambrer",
     "position_de_depart": "Debout en petite fente, un pied devant l'autre, une main appuyée sur une chaise ou un mur.",
-    "mouvement": "Rentrez légèrement les fesses (bascule du bassin) et avancez doucement les hanches jusqu'à sentir un étirement à l'avant de la hanche de la jambe arrière, sans creuser le dos. Tenez 20 secondes.",
+    "mouvement": "Rentrez un peu les fesses et avancez doucement les hanches, sans creuser le dos. Arrêtez quand vous sentez un étirement à l'avant de la hanche de la jambe arrière. Tenez 20 secondes.",
     "dosage": "3 répétitions de chaque côté, 1 fois par jour.",
     "progression": "Tenez 30 secondes.",
     "erreur_frequente": "Cambrer le bas du dos pendant l'étirement.",
@@ -661,7 +661,7 @@
    "Renforcer les fessiers et le tronc la stabilise.",
    "La douleur diminue habituellement en quelques semaines."
   ],
-  "ce_que_vous_avez": "L'articulation qui relie le bas de votre colonne aux os du bassin semble irritée. La douleur se situe d'un côté, dans la fesse, et augmente souvent quand vous vous retournez dans le lit, montez un escalier ou vous levez d'une chaise. Ce n'est pas grave. Renforcer les fessiers et les muscles du tronc aide le bassin à mieux tolérer les efforts.",
+  "ce_que_vous_avez": "L'articulation qui relie le bas de votre colonne aux os du bassin semble irritée. La douleur est d'un côté, dans la fesse. Elle augmente souvent quand vous vous tournez dans le lit, montez un escalier ou vous levez d'une chaise. Ce n'est pas grave. Renforcer les fessiers et les muscles du tronc aide le bassin à mieux tolérer les efforts.",
   "pourquoi": [
    "Grossesse ou accouchement récent.",
    "Chute sur les fesses ou faux mouvement.",
@@ -672,7 +672,7 @@
    "Renforcer les muscles des fesses et du tronc.",
    "Dormir sur le côté avec un oreiller entre les genoux.",
    "Sortir du lit ou de l'auto en gardant les deux genoux ensemble.",
-   "Appliquer de la glace ou de la chaleur 15 minutes sur la fesse, selon ce qui vous soulage le mieux, en protégeant la peau avec un linge.",
+   "Mettre de la glace ou de la chaleur 15 minutes sur la fesse, selon ce qui vous soulage le mieux. Protégez la peau avec un linge.",
    "Essayer une ceinture de soutien du bassin : elle soulage certaines personnes."
   ],
   "a_eviter": [
@@ -684,7 +684,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.",
    "Faiblesse nouvelle dans un pied ou une jambe (pied qui accroche le sol en marchant).",
@@ -693,7 +693,7 @@
   "medecin": [
    "Douleur qui descend sous le genou avec engourdissements.",
    "Perte de poids inexpliquée ou antécédent de cancer.",
-   "Douleur qui dure depuis plus de 3 mois et qui a commencé avant 45 ans, qui vous réveille en deuxième moitié de nuit, avec une raideur le matin de plus de 30 minutes qui s'améliore en bougeant mais pas au repos (inflammation à faire vérifier lors d'un rendez-vous, sans urgence).",
+   "Douleur depuis plus de 3 mois, commencée avant 45 ans, qui vous réveille en fin de nuit. Avec une raideur le matin de plus de 30 minutes, qui va mieux en bougeant mais pas au repos. Une inflammation est à vérifier à un rendez-vous, sans urgence.",
    "Aucune amélioration après 6 semaines."
   ],
   "duree_habituelle": "Amélioration habituelle en 4 à 8 semaines.",
@@ -758,11 +758,11 @@
   "titre_v1": "Nerf irrité dans le bas du dos et la jambe (sciatique ou cruralgie)",
   "diagnostic": "Hernie discale avec radiculopathie (sciatique, cruralgie)",
   "en_bref": [
-   "Un disque irrite un nerf ; chez la plupart des gens, la douleur à la jambe diminue en 6 à 12 semaines, mais cela prend plus de temps chez certaines personnes.",
+   "Un disque irrite un nerf. Chez la plupart des gens, la douleur à la jambe diminue en 6 à 12 semaines, parfois plus.",
    "Rester actif dans les limites de la douleur aide à guérir.",
    "Une faiblesse de la jambe ou des troubles urinaires demandent une évaluation urgente."
   ],
-  "ce_que_vous_avez": "Un disque du bas du dos appuie sur un nerf ou l'irrite, ce qui donne une douleur dans la jambe (sciatique à l'arrière, cruralgie à l'avant de la cuisse). Chez la plupart des gens, la douleur diminue nettement en quelques semaines à trois mois sans chirurgie, et la hernie elle-même rapetisse souvent au fil des mois. Rester actif en douceur est sécuritaire et vaut mieux que le repos au lit.",
+  "ce_que_vous_avez": "Un disque du bas du dos appuie sur un nerf ou l'irrite. Cela donne une douleur dans la jambe, à l'arrière (sciatique) ou à l'avant de la cuisse. Chez la plupart des gens, la douleur diminue nettement en quelques semaines à trois mois, sans chirurgie. La hernie rapetisse souvent avec les mois. Rester actif en douceur est sécuritaire et vaut mieux que le repos au lit.",
   "pourquoi": [
    "Disque qui s'use et se fissure avec le temps.",
    "Effort de soulèvement, flexions répétées ou position assise prolongée.",
@@ -770,7 +770,7 @@
   ],
   "ce_qui_aide": [
    "Marcher de courtes distances plusieurs fois par jour, selon votre tolérance.",
-   "Trouver la position qui calme la jambe (souvent couché sur le dos, les mollets posés sur une chaise, ou sur le côté avec un oreiller entre les genoux).",
+   "Trouver la position qui calme la jambe : souvent couché sur le dos, les mollets sur une chaise, ou sur le côté avec un oreiller entre les genoux.",
    "Prendre les médicaments contre la douleur tels que prescrits ou conseillés par votre médecin ou votre pharmacien.",
    "Essayer de très doux glissements du nerf, sans jamais tirer fort (ils aident certaines personnes)."
   ],
@@ -782,11 +782,11 @@
   ],
   "soulager": [
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
-   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. Parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Arrêtez tout mouvement qui fait descendre la douleur plus bas dans la jambe ou qui augmente les fourmillements dans la jambe ou le pied. Une douleur qui remonte de la jambe vers le dos est au contraire bon signe.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 dans le dos est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Arrêtez tout mouvement qui fait descendre la douleur plus bas dans la jambe ou qui augmente les fourmillements. Si la douleur remonte de la jambe vers le dos, c'est au contraire bon signe.",
   "urgence": [
-   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou douleur ou faiblesse nouvelle dans les deux jambes.",
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses). Ou : nouvelle difficulté à uriner, perte d'urine ou de selles, ou nouvelle douleur ou faiblesse dans les deux jambes.",
    "À faire évaluer le jour même : faiblesse qui apparaît ou s'aggrave dans la jambe, pied qui tombe ou qui accroche le sol.",
    "Fièvre ou frissons avec votre douleur."
   ],
@@ -828,7 +828,7 @@
    {
     "nom": "Glissement très doux du nerf sciatique (assis)",
     "position_de_depart": "Assis au bord d'une chaise, dos détendu, les deux pieds au sol.",
-    "mouvement": "Dépliez doucement le genou du côté atteint tout en levant le menton vers le plafond, puis repliez le genou tout en ramenant le menton vers la poitrine. Le mouvement doit rester fluide, sans tiraillement.",
+    "mouvement": "Dépliez doucement le genou du côté atteint en levant le menton vers le plafond. Puis pliez le genou en ramenant le menton vers la poitrine. Le mouvement doit rester fluide, sans tiraillement.",
     "dosage": "1 à 2 séries de 8 répétitions lentes, 1 à 2 fois par jour.",
     "progression": "Ramenez légèrement les orteils vers vous quand la jambe est dépliée, seulement si aucun tiraillement n'apparaît.",
     "erreur_frequente": "Déplier la jambe et baisser la tête en même temps (cela tire trop fort sur le nerf).",
@@ -876,7 +876,7 @@
    "Renforcer le ventre et les fessiers soulage la plupart des gens.",
    "La plupart des gens n'ont pas besoin de chirurgie."
   ],
-  "ce_que_vous_avez": "Une vertèbre du bas du dos a glissé de quelques millimètres vers l'avant par rapport à celle du dessous, à cause de l'usure naturelle des articulations. Dans la majorité des cas, ce glissement reste stable au fil des années. Renforcer les muscles du ventre et des fesses et rester actif aident à diminuer la douleur.",
+  "ce_que_vous_avez": "Une vertèbre du bas du dos a glissé de quelques millimètres vers l'avant. C'est dû à l'usure normale des articulations avec l'âge. Dans la majorité des cas, ce glissement reste stable au fil des années. Renforcer les muscles du ventre et des fesses et rester actif aident à diminuer la douleur.",
   "pourquoi": [
    "Usure des articulations du dos avec l'âge.",
    "Plus fréquent chez les femmes après 50 ans."
@@ -894,9 +894,9 @@
   ],
   "soulager": [
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
-   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié (les risques sont plus grands après 65 ans ou si vous avez un problème de reins, de cœur ou d'estomac)."
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié. Il est plus risqué après 65 ans, ou si vous avez un problème de reins, de cœur ou d'estomac."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les deux jambes.",
    "Faiblesse nouvelle dans une jambe ou un pied (pied qui accroche le sol en marchant)."
@@ -986,15 +986,15 @@
    "Une pause des gestes qui cambrent le dos calme la douleur. L'os se ressoude souvent, surtout si la fissure est trouvée tôt.",
    "Le retour au sport se fait graduellement, sans douleur."
   ],
-  "ce_que_vous_avez": "Chez les jeunes sportifs (gymnastique, plongeon, football, danse, tennis), cambrer et tourner le dos à répétition peut créer une petite fissure de fatigue dans l'arc osseux à l'arrière d'une vertèbre; parfois, la vertèbre glisse légèrement vers l'avant. Ce diagnostic est posé et suivi par un médecin. Avec une pause des sports qui cambrent le dos et un bon programme de renforcement, la grande majorité des jeunes reprennent leur sport sans douleur.",
+  "ce_que_vous_avez": "Chez les jeunes sportifs (gymnastique, plongeon, football, danse, tennis), cambrer et tourner le dos souvent peut faire une petite fissure à l'arrière d'une vertèbre. Parfois, la vertèbre glisse un peu vers l'avant. Ce diagnostic est posé et suivi par un médecin. Avec une pause des sports qui cambrent le dos et un bon programme de renforcement, la grande majorité des jeunes reprennent leur sport sans douleur.",
   "pourquoi": [
    "Gestes répétés qui cambrent et tournent le dos (gymnastique, plongeon, football, danse).",
    "Croissance rapide à l'adolescence.",
    "Ischio-jambiers raides."
   ],
   "ce_qui_aide": [
-   "Faire une pause des sports et des gestes qui cambrent ou tordent le dos (gymnastique, service au tennis, nage papillon, plaqués) : la durée, souvent de 4 à 12 semaines, est fixée par votre médecin.",
-   "Commencer tôt la physiothérapie (souvent dès la première semaine) et le renforcement du ventre et des fessiers, dos en position neutre, dès que le médecin le permet : le repos complet n'est pas nécessaire.",
+   "Faire une pause des sports et des gestes qui cambrent ou tordent le dos (gymnastique, service au tennis, nage papillon, plaqués). Votre médecin fixe la durée, souvent 4 à 12 semaines.",
+   "Commencer tôt la physiothérapie, souvent dès la première semaine, avec le renforcement du ventre et des fesses, dos droit. Suivez l'accord du médecin. Le repos complet n'est pas nécessaire.",
    "Assouplir l'arrière des cuisses et l'avant des hanches pour diminuer la tension sur le bas du dos.",
    "Reprendre le sport par étapes, seulement quand le dos est sans douleur dans les gestes de votre sport."
   ],
@@ -1007,7 +1007,7 @@
    "Glace 10 à 15 minutes, dans un linge, au besoin (par exemple après les exercices).",
    "Acétaminophène au besoin en premier; ibuprofène seulement pour quelques jours, si c'est nécessaire. Demandez au pharmacien la quantité prévue pour votre poids."
   ],
-  "regle_de_douleur": "Les exercices doivent rester confortables : une gêne légère (jusqu'à 3 sur 10) qui a disparu le lendemain matin est acceptable; s'ils réveillent votre douleur habituelle, arrêtez et parlez-en à votre physiothérapeute. Avant de reprendre le sport, le dos doit être à 0 sur 10 dans les gestes de votre sport.",
+  "regle_de_douleur": "Les exercices doivent rester confortables. Une gêne légère (jusqu'à 3 sur 10) est acceptable si elle a disparu le lendemain matin. S'ils réveillent votre douleur habituelle, arrêtez et parlez-en à votre physiothérapeute. Avant de reprendre le sport, les gestes de votre sport ne doivent plus faire mal au dos du tout.",
   "urgence": [
    "Engourdissement entre les jambes, difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse dans les jambes.",
    "Fièvre avec le mal de dos."
@@ -1115,11 +1115,11 @@
   ],
   "soulager": [
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
-   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié (les risques sont plus grands après 65 ans ou si vous avez un problème de reins, de cœur ou d'estomac)."
+   "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié. Il est plus risqué après 65 ans, ou si vous avez un problème de reins, de cœur ou d'estomac."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
-   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses), difficulté nouvelle à uriner, perte d'urine ou de selles, ou faiblesse qui s'aggrave rapidement dans les jambes.",
+   "Engourdissement entre les jambes (parties génitales, anus, intérieur des cuisses). Ou : nouvelle difficulté à uriner, perte d'urine ou de selles, ou faiblesse qui augmente vite dans les jambes.",
    "Douleur soudaine et vive dans le dos après une chute ou un effort, même léger, ou perte de taille rapide (possible fracture).",
    "Perte de force nouvelle dans une jambe ou un pied (pied qui accroche le sol en marchant)."
   ],
@@ -1193,7 +1193,7 @@
    "Les médicaments prescrits et l'exercice régulier (idéalement chaque jour) sont tous deux essentiels.",
    "Bouger chaque jour garde la colonne souple."
   ],
-  "ce_que_vous_avez": "Vous avez une maladie inflammatoire chronique des articulations du bassin et de la colonne. Elle cause surtout de la raideur le matin et des douleurs qui peuvent vous réveiller la nuit et qui s'améliorent en bougeant. En plus du suivi et des médicaments prescrits par votre médecin ou votre rhumatologue, l'exercice régulier fait partie intégrante du traitement : il aide à garder le dos souple et à rester en forme.",
+  "ce_que_vous_avez": "Vous avez une maladie inflammatoire chronique des articulations du bassin et de la colonne. Elle cause surtout de la raideur le matin et des douleurs qui peuvent vous réveiller la nuit et qui s'améliorent en bougeant. En plus du suivi et des médicaments de votre médecin ou de votre rhumatologue, l'exercice régulier fait partie du traitement. Il aide à garder le dos souple et à rester en forme.",
   "pourquoi": [
    "Facteurs héréditaires (gène HLA-B27).",
    "Inflammation causée par le système immunitaire ; le tabac l'aggrave."
@@ -1207,14 +1207,14 @@
   "a_eviter": [
    "Rester inactif ou alité (la raideur augmente avec l'immobilité).",
    "Fumer (le tabac aggrave l'inflammation et les dommages à la colonne dans cette maladie).",
-   "Faire manipuler (« craquer ») votre cou ou votre dos : il y a un risque de fracture, surtout si la colonne est soudée ou fragile.",
+   "Faire « craquer » votre cou ou votre dos par quelqu'un : un os peut se fracturer, surtout si la colonne est soudée ou fragile.",
    "Dormir avec plusieurs gros oreillers qui poussent la tête et le haut du dos vers l'avant."
   ],
   "soulager": [
    "Les anti-inflammatoires prescrits par votre médecin sont le traitement de base : prenez-les comme indiqué. S'ils ne suffisent pas, d'autres traitements existent : parlez-en à votre médecin ou à votre rhumatologue.",
    "Douche chaude ou chaleur le matin pour diminuer la raideur."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur ou une raideur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte, ou encore augmentée le lendemain, diminuez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur ou une raideur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Œil rouge et douloureux, sensibilité à la lumière ou vision floue (possible uvéite).",
    "Douleur nouvelle et vive dans le cou ou le dos, surtout après une chute ou un choc même léger (risque de fracture).",

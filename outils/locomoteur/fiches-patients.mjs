@@ -1,5 +1,5 @@
-/* MSK Morand : fiches patients (PDF du clinicien, une fiche de 2 à 4 pages par diagnostic : information au recto, exercices
-   illustrés au verso). Pour chaque région :
+/* MSK Morand : fiches patients (version 2 depuis le 26 novembre 2026 : une feuille recto verso par diagnostic, information au
+   recto, exercices illustrés au verso ; voir fiches-patients/produire-fiches.mjs). Pour chaque région :
      - outils/locomoteur/fiches-patients/<région>.json : numéro, titre et pages de chaque fiche (relevés par titres.py) ;
      - locomoteur/<région>/patients/<nn>-<titre>.pdf : la fiche découpée, prête à imprimer (seulement si le PDF source est
        donné : node outils/locomoteur/fiches-patients.mjs <région>=<fichier.pdf> …) ;
@@ -87,11 +87,17 @@ for (const [region, R] of Object.entries(REGIONS)) {
     }
   }
   liens[region] = {};
+  // Version 2 (produite par fiches-patients/produire-fiches.mjs, titres médicaux) : chaque PDF est copié sous le nom de
+  // fichier de la version 1, pour que les liens déjà donnés restent bons. Sans PDF v2 local, le fichier publié est gardé.
+  const v2f = path.join(RACINE, `outils/locomoteur/fiches-patients/textes-v2/${region}.json`), v2 = fs.existsSync(v2f) ? JSON.parse(fs.readFileSync(v2f, "utf8")) : [];
   for (const f of fiches) {
-    const u = `/locomoteur/${region}/patients/${slug(f.no, f.titre)}.pdf`, dx = R.dx[f.no];
-    if (!fs.existsSync(path.join(RACINE, u))) throw new Error(`Fiche absente : ${u} (donner le PDF source : ${region}=fichier.pdf)`);
-    f.u = u; f.dx = dx;
-    if (dx) liens[region][dx] = { u, titre: f.titre };
+    const u = `/locomoteur/${region}/patients/${slug(f.no, f.titre)}.pdf`, dx = R.dx[f.no], t2 = v2.find(x => x.no === f.no);
+    const src2 = t2 && path.join(RACINE, `outils/locomoteur/fiches-patients/v2/${region}/${String(f.no).padStart(2, "0")}-${t2.cle.split("/")[1]}.pdf`);
+    if (src2 && fs.existsSync(src2)) fs.copyFileSync(src2, path.join(RACINE, u));
+    if (!fs.existsSync(path.join(RACINE, u))) throw new Error(`Fiche absente : ${u} (produire la version 2, ou donner le PDF source : ${region}=fichier.pdf)`);
+    f.u = u; f.dx = dx; f.titre2 = t2 ? t2.titre : f.titre; f.sous = t2 ? t2.sous_titre : "";
+    f.pages = +execFileSync("pdfinfo", [path.join(RACINE, u)]).toString().match(/Pages:\s+(\d+)/)[1];
+    if (dx) liens[region][dx] = { u, titre: f.titre2 };
   }
   const ko = f => Math.round(fs.statSync(path.join(RACINE, f.u)).size / 1024);
   fs.writeFileSync(path.join(dossier, "index.html"), tete(`${R.nom} : fiches patients`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><a href="/locomoteur/patients/">Fiches patients</a><span aria-hidden="true">›</span><span>${esc(R.nom)}</span></nav>
@@ -102,7 +108,7 @@ for (const [region, R] of Object.entries(REGIONS)) {
     <p class="hy-actions"><a class="lo-bouton" href="/locomoteur/${region}/">Ouvrir le calcul</a></p>
   </section>
   <ol class="hy-patients">
-${fiches.map(f => `    <li><a href="${f.u}" target="_blank" rel="noopener"><span class="hy-carte-no">Fiche ${f.no}</span><span class="hy-carte-titre">${esc(f.titre)}</span><span class="hy-carte-tags">PDF · ${f.fin - f.debut + 1} pages · ${ko(f)} Ko</span></a></li>`).join("\n")}
+${fiches.map(f => `    <li><a href="${f.u}" target="_blank" rel="noopener"><span class="hy-carte-no">Fiche ${f.no}</span><span class="hy-carte-titre">${esc(f.titre2)}</span>${f.sous ? `<span class="hy-carte-sous">${esc(f.sous)}</span>` : ""}<span class="hy-carte-tags">PDF ${f.pages === 2 ? "recto verso" : `· ${f.pages} pages`} · ${ko(f)} Ko</span></a></li>`).join("\n")}
   </ol>
 ` + pied);
   resume.push({ region, nom: R.nom, n: fiches.length, lies: Object.keys(liens[region]).length });

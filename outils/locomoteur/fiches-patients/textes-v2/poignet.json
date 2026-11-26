@@ -16,7 +16,7 @@
   ],
   "ce_que_vous_avez": "Le nerf médian, qui passe dans un tunnel étroit à l'avant du poignet (le canal carpien), est comprimé. Cela cause des engourdissements ou des picotements dans le pouce, l'index, le majeur et une partie de l'annulaire, souvent la nuit ou au réveil. Le premier traitement habituellement proposé est une attelle de nuit qui garde le poignet droit, avec une adaptation des gestes. L'utilité des exercices n'est pas certaine. Si cela ne suffit pas, une infiltration (qui soulage quelques mois) ou une chirurgie peuvent être proposées.",
   "pourquoi": [
-   "Gestes répétés en force, ou poignet plié longtemps (lien possible). Le travail à l'ordinateur n'est pas une cause prouvée.",
+   "Gestes répétés en force, ou poignet plié longtemps (lien possible). Le travail à l'ordinateur n'est pas vraiment une cause.",
    "Grossesse, diabète, hypothyroïdie, polyarthrite rhumatoïde ou surpoids.",
    "Outils qui vibrent (lien possible)."
   ],
@@ -35,7 +35,7 @@
    "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
    "Les médicaments contre la douleur (acétaminophène, anti-inflammatoires) aident peu ce problème. Parlez à votre médecin si les symptômes vous empêchent de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle disparaît rapidement, mais arrêtez tout mouvement qui augmente les picotements ou l'engourdissement dans les doigts.",
+  "regle_de_douleur": "Pendant et après les exercices, une gêne légère jusqu'à 3 sur 10 est acceptable si elle part vite. Arrêtez tout mouvement qui augmente les picotements ou l'engourdissement dans les doigts.",
   "urgence": [
    "À l'urgence, le jour même : engourdissement ou douleur de la main qui augmente en quelques heures après une blessure, une fracture ou la pose d'un plâtre au poignet."
   ],
@@ -53,7 +53,7 @@
    {
     "nom": "Glissement des tendons des doigts (5 positions)",
     "position_de_depart": "Assis, le coude posé sur une table, avant-bras à la verticale, poignet droit et doigts allongés.",
-    "mouvement": "Passez lentement d'une position à l'autre en tenant 3 secondes chacune : 1) doigts droits; 2) crochet (seuls les bouts des doigts sont repliés, la base des doigts reste droite); 3) poing complet, sans serrer; 4) toit (doigts droits, pliés à angle droit à leur base); 5) poing plat (base et milieu des doigts pliés, bouts des doigts droits posés au bas de la paume). Revenez doigts droits entre chaque position.",
+    "mouvement": "Passez lentement d'une position à l'autre, en tenant 3 secondes chacune : 1) doigts droits ; 2) crochet : seuls les bouts des doigts sont pliés ; 3) poing complet, sans serrer ; 4) toit : doigts droits, pliés à angle droit à leur base ; 5) poing plat : bouts des doigts droits, posés au bas de la paume. Revenez doigts droits entre chaque position.",
     "dosage": "5 cycles complets, 2 à 3 fois par jour.",
     "progression": "Faites le mouvement de façon de plus en plus fluide et détendue, sans jamais serrer fort.",
     "erreur_frequente": "Serrer le poing trop fort ou plier le poignet pendant les mouvements.",
@@ -65,7 +65,7 @@
    {
     "nom": "Glissement très doux du nerf médian (facultatif)",
     "position_de_depart": "Assis ou debout, coude plié près du corps, paume vers le haut, poignet droit, doigts ouverts sans tension.",
-    "mouvement": "Dépliez doucement le coude sur le côté tout en inclinant la tête vers ce bras, puis repliez le coude en inclinant la tête de l'autre côté. Le poignet reste droit. Le mouvement doit rester léger, sans étirement marqué.",
+    "mouvement": "Dépliez doucement le coude sur le côté en penchant la tête vers ce bras. Puis pliez le coude en penchant la tête de l'autre côté. Le poignet reste droit. Le mouvement doit rester léger, sans étirement marqué.",
     "dosage": "1 à 2 séries de 8 répétitions lentes, 1 à 2 fois par jour.",
     "progression": "Ouvrez un peu plus les doigts seulement si aucun fourmillement n'apparaît. Cessez cet exercice s'il réveille les symptômes.",
     "erreur_frequente": "Tirer la main vers l'arrière en même temps que la tête penche du côté opposé (cela étire le nerf au lieu de le faire glisser).",
@@ -77,7 +77,7 @@
    {
     "nom": "Étirement doux en crochet (petits muscles de la paume)",
     "position_de_depart": "Assis, avant-bras posé sur une table, poignet droit, doigts pliés en crochet (bouts des doigts repliés, base des doigts droite).",
-    "mouvement": "Avec l'autre main, poussez très doucement la base des doigts vers l'arrière en gardant les doigts en crochet et le poignet droit, jusqu'à sentir un étirement léger dans la paume, sans picotement. Tenez 5 à 10 secondes.",
+    "mouvement": "Avec l'autre main, poussez très doucement la base des doigts vers l'arrière. Gardez les doigts en crochet et le poignet droit. Arrêtez quand vous sentez un léger étirement dans la paume, sans picotement. Tenez 5 à 10 secondes.",
     "dosage": "5 répétitions, 3 à 4 fois par jour.",
     "progression": "Augmentez légèrement l'étirement seulement si la main reste totalement confortable.",
     "erreur_frequente": "Plier le poignet vers l'arrière ou forcer jusqu'à engourdir les doigts.",
@@ -121,7 +121,7 @@
    "Il disparaît parfois de lui-même.",
    "On ne le traite que s'il fait mal ou gêne."
   ],
-  "ce_que_vous_avez": "Vous avez une petite poche remplie d'un liquide épais et gélatineux, reliée à une articulation ou à la gaine d'un tendon : c'est un kyste synovial. Ce n'est pas cancéreux et ce n'est pas dangereux. Chez l'adulte, environ 4 à 5 kystes du poignet sur 10 disparaissent d'eux-mêmes en quelques années, et plus encore chez l'enfant (environ 6 à 8 sur 10). Les exercices ne font pas disparaître le kyste, mais ils gardent le poignet souple et fort sans l'irriter.",
+  "ce_que_vous_avez": "Vous avez une petite poche remplie d'un liquide épais, comme de la gelée. Elle est reliée à une articulation ou à la gaine d'un tendon : c'est un kyste. Ce n'est pas cancéreux et ce n'est pas dangereux. Le kyste disparaît souvent de lui-même en quelques années, surtout chez l'enfant. Les exercices ne font pas disparaître le kyste, mais ils gardent le poignet souple et fort sans l'irriter.",
   "pourquoi": [
    "Souvent sans cause précise.",
    "Usure ou irritation d'une articulation ou d'un tendon voisin."
@@ -141,7 +141,7 @@
    "Mettez la main au repos quelques jours si le kyste fait mal.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien le juge approprié ; n'essayez pas d'écraser le kyste."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Le jour même : kyste qui devient rouge, chaud, très douloureux ou qui coule, avec ou sans fièvre (infection possible)."
   ],
@@ -151,7 +151,7 @@
    "Douleur importante qui empêche d'utiliser la main au travail ou dans vos activités.",
    "Gêne esthétique ou mécanique qui persiste après plusieurs mois, pour discuter des options."
   ],
-  "duree_habituelle": "La gêne diminue souvent en quelques semaines. Le kyste peut disparaître de lui-même en plusieurs mois ou années, mais il peut aussi persister. S'il gêne, une ponction (le kyste revient environ 6 fois sur 10) ou une chirurgie (le kyste revient environ 1 à 2 fois sur 10, avec un peu plus de complications) peuvent être discutées.",
+  "duree_habituelle": "La gêne diminue souvent en quelques semaines. Le kyste peut disparaître de lui-même en plusieurs mois ou années, mais il peut aussi persister. S'il vous gêne, on peut discuter d'une ponction ou d'une chirurgie. Après une ponction, le kyste revient souvent. Après une chirurgie, il revient moins souvent, mais il y a un peu plus de complications.",
   "materiel": [
    "serviette",
    "poids léger, bouteille d'eau ou sac à dos",
@@ -222,15 +222,15 @@
    "Une attelle qui tient le pouce et le poignet, et moins de gestes répétés, les calment.",
    "Une infiltration est très efficace si la douleur persiste."
   ],
-  "ce_que_vous_avez": "Les deux tendons qui écartent et relèvent le pouce sont irrités dans leur gaine au bord du poignet, du côté du pouce. Cela arrive souvent avec les gestes répétés du pouce ou quand on soulève souvent un bébé. Mettre le pouce et le poignet au repos dans une attelle calme ces tendons; une infiltration de cortisone, souvent proposée en même temps, est le traitement le mieux appuyé par les études.",
+  "ce_que_vous_avez": "Les deux tendons qui écartent et relèvent le pouce sont irrités dans leur gaine au bord du poignet, du côté du pouce. Cela arrive souvent avec les gestes répétés du pouce ou quand on soulève souvent un bébé. Mettre le pouce et le poignet au repos dans une attelle calme ces tendons. Une infiltration de cortisone, souvent proposée en même temps, est le traitement qui aide le plus.",
   "pourquoi": [
    "Gestes répétés du pouce (texto, outils, jardinage).",
    "Soulever un bébé, souvent après l'accouchement.",
    "Prise en pince forte et répétée."
   ],
   "ce_qui_aide": [
-   "Porter une attelle qui immobilise le poignet et la base du pouce (le bout du pouce reste libre) le plus souvent possible pendant 3 à 4 semaines, en la retirant pour la toilette et les exercices doux.",
-   "Demander à votre médecin si une infiltration de cortisone est indiquée, surtout si la douleur est importante ou persiste : associée à l'attelle, elle donne les meilleurs résultats.",
+   "Porter une attelle qui tient le poignet et la base du pouce (le bout du pouce reste libre). Portez-la le plus souvent possible pendant 3 à 4 semaines. Retirez-la pour vous laver et faire les exercices doux.",
+   "Demander à votre médecin si une infiltration de cortisone peut vous aider, surtout si la douleur est forte ou dure. Avec l'attelle, elle donne les meilleurs résultats.",
    "Soulever les objets (ou un bébé) avec les paumes vers le haut, en glissant les mains dessous, plutôt qu'avec les pouces écartés.",
    "Reprendre doucement le renforcement du pouce quand la douleur vive a diminué."
   ],
@@ -244,7 +244,7 @@
    "Un anti-inflammatoire en crème peut soulager un peu, si votre pharmacien le juge approprié (peu étudié pour ce problème).",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'attelle, l'adaptation des gestes et, au besoin, l'infiltration restent le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte le lendemain matin, faites-en moins.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte le lendemain matin, faites-en moins.",
   "urgence": [
    "Le jour même : rougeur, chaleur importante ou fièvre (infection possible)."
   ],
@@ -275,7 +275,7 @@
    {
     "nom": "Contraction statique du pouce vers le haut",
     "position_de_depart": "Avant-bras posé sur une table sur le bord du petit doigt, pouce en position neutre.",
-    "mouvement": "Placez un doigt de l'autre main sur le dessus du pouce et poussez doucement le pouce vers le plafond contre ce doigt qui résiste, sans bouger. Tenez 10 secondes.",
+    "mouvement": "Placez un doigt de l'autre main sur le dessus du pouce. Poussez doucement le pouce vers le plafond contre ce doigt, sans bouger. Tenez 10 secondes.",
     "dosage": "5 répétitions, 1 à 2 fois par jour.",
     "progression": "Augmentez doucement la durée jusqu'à 15 à 20 secondes.",
     "erreur_frequente": "Pousser si fort que le poignet élance.",
@@ -323,7 +323,7 @@
    "Réduire ces gestes, et porter une attelle au besoin, les calment.",
    "Le renforcement progressif aide à reprendre les activités."
   ],
-  "ce_que_vous_avez": "Un ou plusieurs tendons sont irrités par des mouvements répétitifs (raquette, aviron, travail manuel, clavier) : soit au bord du poignet du côté du petit doigt, soit sur le dos de l'avant-bras, quelques centimètres au-dessus du poignet, où l'on sent parfois un crissement. Réduire temporairement le geste en cause, puis renforcer progressivement le poignet, permet habituellement au tendon de se calmer.",
+  "ce_que_vous_avez": "Un ou plusieurs tendons sont irrités par des mouvements répétés (raquette, aviron, travail manuel, clavier). Cela fait mal au bord du poignet, du côté du petit doigt. Ou alors sur le dos de l'avant-bras, quelques centimètres au-dessus du poignet, où l'on sent parfois un crissement. Réduire temporairement le geste en cause, puis renforcer progressivement le poignet, permet habituellement au tendon de se calmer.",
   "pourquoi": [
    "Gestes répétés : raquette, aviron, travail manuel, clavier.",
    "Hausse soudaine de l'entraînement ou du travail."
@@ -344,7 +344,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : réduire les gestes en cause, puis renforcer peu à peu, reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte le lendemain matin, faites-en moins.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte le lendemain matin, faites-en moins.",
   "urgence": [
    "Le jour même : rougeur, chaleur, gonflement important ou fièvre (infection possible)."
   ],
@@ -354,7 +354,7 @@
    "Engourdissements dans les doigts.",
    "Aucune amélioration après 6 semaines."
   ],
-  "duree_habituelle": "Amélioration habituelle en 2 à 6 semaines pour une tendinite simple. Si le tendon du côté du petit doigt est instable (il saute hors de sa gouttière), il faut une immobilisation de 6 à 8 semaines prescrite par un médecin, parfois une chirurgie, et le retour au sport prend plusieurs mois.",
+  "duree_habituelle": "Amélioration habituelle en 2 à 6 semaines pour une tendinite simple. Si le tendon du côté du petit doigt saute hors de sa place, il faut une attelle ou un plâtre pendant 6 à 8 semaines, parfois une chirurgie. Le retour au sport prend alors plusieurs mois.",
   "materiel": [
    "poids léger, bouteille d'eau ou sac à dos",
    "table"
@@ -423,7 +423,7 @@
    "Une attelle pour les efforts et des exercices doux diminuent la douleur.",
    "D'autres traitements existent si la douleur gêne encore après quelques mois."
   ],
-  "ce_que_vous_avez": "Le cartilage entre certains petits os de votre poignet s'est aminci, souvent des années après une ancienne entorse ou fracture. Cela cause de la raideur et une douleur lors des efforts. Les exercices doux, l'adaptation des gestes et une attelle de soutien lors des gros travaux ne réparent pas le cartilage, mais ils aident à soulager et à garder un poignet fonctionnel.",
+  "ce_que_vous_avez": "Le cartilage entre certains petits os de votre poignet s'est aminci, souvent des années après une ancienne entorse ou fracture. Cela cause de la raideur et une douleur lors des efforts. Les exercices doux, des gestes adaptés et une attelle pour les gros travaux ne réparent pas le cartilage. Mais ils soulagent et aident à garder un poignet utile.",
   "pourquoi": [
    "Ancienne entorse ou fracture du poignet.",
    "Travail manuel lourd.",
@@ -444,7 +444,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain. Sinon, faites-en moins la prochaine fois.",
   "urgence": [
    "Le jour même : poignet soudainement enflé, chaud, rouge ou très douloureux, avec ou sans fièvre (infection ou crise de goutte à vérifier)."
   ],
@@ -453,7 +453,7 @@
    "Engourdissements dans les doigts.",
    "Douleur qui gêne toujours les gestes simples après 3 mois d'attelle, d'adaptation et d'exercices, pour discuter des autres options."
   ],
-  "duree_habituelle": "Le confort s'améliore souvent en 4 à 8 semaines avec l'adaptation des gestes; l'arthrose elle-même ne disparaît pas et la douleur peut varier d'une période à l'autre.",
+  "duree_habituelle": "Le confort s'améliore souvent en 4 à 8 semaines en adaptant les gestes. L'arthrose ne disparaît pas, et la douleur peut changer d'une période à l'autre.",
   "materiel": [
    "balle",
    "table"
@@ -522,7 +522,7 @@
    "Une attelle pendant quelques semaines aide à le calmer.",
    "La plupart des cas s'améliorent sans chirurgie."
   ],
-  "ce_que_vous_avez": "Un petit coussin de cartilage et de ligaments situé au poignet du côté du petit doigt (le TFCC) est irrité ou déchiré. Cela fait souvent mal quand vous tournez une poignée de porte, versez une casserole ou prenez appui sur la main. Cette fiche s'applique si votre médecin a vérifié que l'articulation reste stable. Mettre le poignet au repos dans une attelle, puis renforcer progressivement l'avant-bras, permet à environ une personne sur deux de récupérer sans opération, mais la guérison est lente.",
+  "ce_que_vous_avez": "Un petit coussin de cartilage et de ligaments situé au poignet du côté du petit doigt (le TFCC) est irrité ou déchiré. Cela fait souvent mal quand vous tournez une poignée de porte, versez une casserole ou prenez appui sur la main. Cette fiche s'applique si votre médecin a vérifié que l'articulation reste stable. Mettre le poignet au repos dans une attelle, puis renforcer peu à peu l'avant-bras, permet souvent de guérir sans opération. Mais la guérison est lente.",
   "pourquoi": [
    "Chute sur la main tendue.",
    "Torsions répétées du poignet (outils, sports de raquette).",
@@ -543,7 +543,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire en crème ou en comprimés au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Le jour même : nouvelle chute ou nouveau coup, suivi d'une déformation du poignet ou d'une impossibilité de tourner l'avant-bras."
   ],
@@ -575,7 +575,7 @@
    {
     "nom": "Contraction statique du poignet en position neutre",
     "position_de_depart": "Assis, avant-bras posé sur la table sur le bord du petit doigt, poignet droit.",
-    "mouvement": "Placez l'autre main contre le côté du pouce, puis contre le côté du petit doigt, et poussez doucement (environ 20 % de votre force) sans bouger le poignet. Tenez 10 secondes.",
+    "mouvement": "Placez l'autre main contre le côté du pouce, puis contre le côté du petit doigt. Poussez doucement, avec peu de force, sans bouger le poignet. Tenez 10 secondes.",
     "dosage": "5 répétitions de chaque côté, 1 fois par jour.",
     "progression": "Passez au renforcement léger quand l'exercice est sans douleur.",
     "erreur_frequente": "Pousser trop fort du côté du petit doigt.",
@@ -627,7 +627,7 @@
    "Une attelle, puis des exercices progressifs, aident à stabiliser le poignet.",
    "Le suivi est important : une lésion complète se répare mieux si elle est opérée dans les 4 à 6 premières semaines."
   ],
-  "ce_que_vous_avez": "Un ligament qui relie deux petits os au centre du poignet a été étiré ou partiellement déchiré, souvent après une chute sur la main. Cette fiche s'applique seulement si votre médecin a confirmé que l'entorse est partielle et stable. Dans ce cas, protéger le poignet 4 à 6 semaines dans une attelle, puis réentraîner en douceur le contrôle et les muscles de l'avant-bras, aide à stabiliser le poignet.",
+  "ce_que_vous_avez": "Un ligament qui relie deux petits os au centre du poignet a été étiré ou partiellement déchiré, souvent après une chute sur la main. Cette fiche s'applique seulement si votre médecin a confirmé que l'entorse est partielle et stable. Dans ce cas, on protège le poignet 4 à 6 semaines dans une attelle. Ensuite, on renforce doucement les muscles de l'avant-bras pour rendre le poignet plus stable.",
   "pourquoi": [
    "Chute sur la main tendue.",
    "Choc ou torsion du poignet en sport."
@@ -647,7 +647,7 @@
    "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Le jour même : nouvelle chute sur la main avec forte douleur, déformation, ou engourdissement des doigts."
   ],
@@ -730,7 +730,7 @@
    "Il faut arrêter complètement les appuis sur les mains pendant quelques semaines.",
    "Le retour se fait graduellement, sans douleur."
   ],
-  "ce_que_vous_avez": "Chez un jeune en pleine croissance, les appuis répétés sur les mains en gymnastique irritent la zone de croissance de l'os du poignet (le radius). Il est essentiel d'arrêter complètement les appuis sur les poignets jusqu'à la disparition totale de la douleur pour laisser cette zone guérir, tout en gardant le reste du corps actif. Reprendre trop tôt peut perturber la croissance de l'os.",
+  "ce_que_vous_avez": "Chez un jeune en pleine croissance, les appuis répétés sur les mains en gymnastique irritent la zone de croissance de l'os du poignet (le radius). Il faut arrêter complètement les appuis sur les poignets jusqu'à ce que la douleur soit partie. Cela laisse cette zone guérir. Le reste du corps peut rester actif. Reprendre trop tôt peut perturber la croissance de l'os.",
   "pourquoi": [
    "Appuis répétés sur les mains (gymnastique, cheerleading).",
    "Hausse rapide des heures d'entraînement.",
@@ -740,7 +740,7 @@
    "Arrêter tous les appuis sur les mains (sol, saut, barres, pompes) jusqu'à la disparition complète de la douleur.",
    "Porter l'attelle prescrite si le médecin en recommande une (souvent 4 à 6 semaines).",
    "Garder la forme avec des exercices de jambes, d'épaules et de gainage sur les avant-bras.",
-   "Reprendre les appuis par étapes, seulement avec l'accord du médecin et sans aucune douleur : commencer à environ le quart du volume habituel, augmenter un peu chaque semaine, et garder pour la fin les éléments qui faisaient le plus mal."
+   "Reprendre les appuis par étapes, seulement avec l'accord du médecin et sans aucune douleur. Commencez par un petit peu, augmentez un peu chaque semaine, et gardez pour la fin les mouvements qui faisaient le plus mal."
   ],
   "a_eviter": [
    "Faire des équilibres sur les mains, roues, rondades, pompes ou appuis aux agrès.",
@@ -751,7 +751,7 @@
    "Glace 10 à 15 minutes, dans un linge, au besoin.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien). Ne donnez jamais un médicament pour permettre de s'entraîner malgré la douleur."
   ],
-  "regle_de_douleur": "Aucune douleur au poignet n'est acceptable : si un exercice fait mal au poignet, arrêtez-le. Le poignet doit être complètement indolore au repos, au toucher et dans tous les mouvements avant tout retour aux appuis; si la douleur revient à la reprise, arrêtez et reconsultez.",
+  "regle_de_douleur": "Aucune douleur au poignet n'est acceptable : si un exercice fait mal au poignet, arrêtez-le. Avant de reprendre les appuis sur les mains, le poignet ne doit plus faire mal du tout. Vérifiez au repos, quand vous appuyez dessus et dans tous les mouvements. Si la douleur revient à la reprise, arrêtez et reconsultez.",
   "urgence": [
    "Le jour même : déformation du poignet ou gonflement important, surtout après une chute."
   ],
@@ -761,7 +761,7 @@
    "Douleur nouvelle du côté du petit doigt.",
    "Douleur qui revient dès la reprise des premiers appuis légers."
   ],
-  "duree_habituelle": "Environ 4 à 6 semaines de repos des appuis lorsque la radiographie est normale; au moins 3 mois lorsque la zone de croissance montre des changements à la radiographie (le médecin peut alors répéter la radiographie). La reprise se fait ensuite par étapes, toujours sans douleur.",
+  "duree_habituelle": "Environ 4 à 6 semaines sans appuis si la radiographie est normale. Au moins 3 mois si la zone de croissance a changé sur la radiographie : le médecin peut alors en refaire une. La reprise se fait ensuite par étapes, toujours sans douleur.",
   "materiel": [],
   "exercices": [
    {
@@ -831,14 +831,14 @@
    "Éviter l'appui sur cette zone le soulage le plus souvent.",
    "Une faiblesse de la main doit être signalée rapidement, même si elle ne fait pas mal."
   ],
-  "ce_que_vous_avez": "Le nerf ulnaire est comprimé dans un petit passage à la base de la paume, du côté du petit doigt (on parle souvent de « paralysie du cycliste »). Cela donne des picotements dans l'annulaire et l'auriculaire, et parfois une faiblesse ou une maladresse de la main. Le traitement principal est de supprimer la pression sur le talon de la main : le nerf récupère alors le plus souvent de lui-même.",
+  "ce_que_vous_avez": "Un nerf est coincé dans un petit passage à la base de la paume, du côté du petit doigt. On l'appelle souvent la « paralysie du cycliste ». Cela donne des picotements dans l'annulaire et l'auriculaire, et parfois une faiblesse ou une maladresse de la main. Le traitement principal est de supprimer la pression sur le talon de la main : le nerf récupère alors le plus souvent de lui-même.",
   "pourquoi": [
    "Appui prolongé sur la paume (guidon de vélo, béquilles).",
    "Outils qui vibrent, ou main utilisée comme marteau.",
    "Parfois un petit kyste ou une ancienne fracture près du nerf."
   ],
   "ce_qui_aide": [
-   "Supprimer la pression sur le talon de la main : gants rembourrés et guidoline épaisse à vélo, changements fréquents de position des mains, tapis de souris souple.",
+   "Ne plus appuyer sur le bas de la paume : à vélo, gants rembourrés et guidon bien rembourré. Changez souvent la position des mains. Utilisez un tapis de souris souple.",
    "À vélo, faire vérifier le réglage (selle, guidon) pour reporter moins de poids sur les mains.",
    "Garder le poignet droit (neutre) au travail et à vélo; à vélo, éviter de rester longtemps les mains en bas du guidon.",
    "Éviter les appuis directs sur la paume jusqu'à la disparition des symptômes."
@@ -850,9 +850,9 @@
   ],
   "soulager": [
    "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
-   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. Parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, mais arrêtez tout mouvement qui augmente les picotements dans l'annulaire ou l'auriculaire.",
+  "regle_de_douleur": "Pendant et après les exercices, une gêne jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin. Arrêtez tout mouvement qui augmente les picotements dans l'annulaire ou le petit doigt.",
   "urgence": [
    "Le jour même : doigts qui deviennent blancs, bleus ou froids, ou petite plaie au bout d'un doigt qui ne guérit pas (problème de circulation)."
   ],
@@ -895,7 +895,7 @@
    {
     "nom": "Glissement très doux du nerf ulnaire (facultatif)",
     "position_de_depart": "Assis droit, bras légèrement écarté sur le côté, coude presque tendu, paume vers le haut.",
-    "mouvement": "Pliez doucement le coude pour amener la main vers l'épaule tout en inclinant la tête vers ce côté, puis dépliez le coude en inclinant la tête de l'autre côté. Le mouvement reste fluide et léger. Son utilité n'est pas démontrée pour cette atteinte : cessez-le s'il réveille les picotements.",
+    "mouvement": "Pliez doucement le coude pour amener la main vers l'épaule, en penchant la tête de ce côté. Puis dépliez le coude en penchant la tête de l'autre côté. Le mouvement reste fluide et léger. Arrêtez-le s'il réveille les picotements.",
     "dosage": "1 série de 8 répétitions lentes, 1 à 2 fois par jour.",
     "progression": "Augmentez doucement l'amplitude seulement si les deux derniers doigts restent calmes.",
     "erreur_frequente": "Tirer le poignet vers l'arrière et pencher la tête du côté opposé en même temps.",
@@ -935,7 +935,7 @@
    "Les bosses restent, mais la douleur diminue souvent avec le temps.",
    "Des exercices et des aides techniques facilitent les gestes du quotidien."
   ],
-  "ce_que_vous_avez": "Le cartilage des petites articulations de vos doigts s'est usé avec le temps, formant parfois de petites bosses osseuses près des ongles ou au milieu des doigts. Même si les bosses restent, la douleur se calme souvent avec le temps. Des exercices réguliers diminuent un peu la douleur et la raideur et entretiennent la force; leur effet dure tant qu'on continue à les faire.",
+  "ce_que_vous_avez": "Le cartilage des petites articulations de vos doigts s'est usé avec le temps. Parfois, de petites bosses d'os se forment près des ongles ou au milieu des doigts. Même si les bosses restent, la douleur se calme souvent avec le temps. Des exercices réguliers diminuent un peu la douleur et la raideur et entretiennent la force; leur effet dure tant qu'on continue à les faire.",
   "pourquoi": [
    "Facteurs héréditaires.",
    "Âge et ménopause.",
@@ -956,7 +956,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain. Sinon, faites-en moins la prochaine fois.",
   "urgence": [
    "Le jour même : articulation soudainement très rouge, chaude et enflée avec douleur vive, avec ou sans fièvre (infection ou crise de goutte à vérifier)."
   ],
@@ -1038,7 +1038,7 @@
    "Une orthèse et des exercices qui stabilisent le pouce diminuent la douleur.",
    "Des aides techniques facilitent les gestes qui pincent."
   ],
-  "ce_que_vous_avez": "L'articulation tout à la base de votre pouce, près du poignet, présente une usure du cartilage. Cela fait mal quand vous pincez ou serrez (tourner une clé, ouvrir un pot, boutonner). Porter régulièrement une orthèse de la base du pouce, ménager l'articulation dans les gestes quotidiens et entretenir les muscles du pouce soulagent souvent, mais l'effet s'installe progressivement, sur environ 3 mois.",
+  "ce_que_vous_avez": "L'articulation tout à la base de votre pouce, près du poignet, présente une usure du cartilage. Cela fait mal quand vous pincez ou serrez (tourner une clé, ouvrir un pot, boutonner). Porter souvent une orthèse à la base du pouce, ménager le pouce dans les gestes de tous les jours et garder ses muscles forts soulagent souvent. Mais l'effet vient peu à peu, sur environ 3 mois.",
   "pourquoi": [
    "Âge et facteurs héréditaires ; plus fréquent chez les femmes.",
    "Gestes répétés de pince forte."
@@ -1058,7 +1058,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel au plus tard le lendemain. Sinon, faites-en moins la prochaine fois.",
   "urgence": [
    "Le jour même : gonflement rouge, chaud et très douloureux à la base du pouce, avec ou sans fièvre."
   ],
@@ -1067,7 +1067,7 @@
    "Engourdissements dans le pouce ou les doigts.",
    "Aucune amélioration après 3 mois d'orthèse et d'exercices."
   ],
-  "duree_habituelle": "Le soulagement s'installe progressivement : une partie de l'amélioration apparaît dans les 6 premières semaines, mais le plein effet de l'orthèse demande environ 3 mois de port régulier.",
+  "duree_habituelle": "Le soulagement vient peu à peu. Une partie de l'amélioration arrive dans les 6 premières semaines. Le plein effet de l'orthèse demande environ 3 mois de port régulier.",
   "materiel": [
    "élastique",
    "balle",
@@ -1077,7 +1077,7 @@
    {
     "nom": "Placement en « C » (arche du pouce)",
     "position_de_depart": "Main posée sur une table sur le bord du petit doigt.",
-    "mouvement": "Formez un « C » arrondi entre le pouce et l'index, comme si vous teniez une balle de tennis, en gardant toutes les articulations du pouce légèrement pliées (aucune ne part vers l'arrière). Tenez 5 secondes.",
+    "mouvement": "Formez un « C » rond entre le pouce et l'index, comme si vous teniez une balle de tennis. Gardez le pouce un peu plié partout : aucune partie ne doit plier vers l'arrière. Tenez 5 secondes.",
     "dosage": "10 répétitions, 2 fois par jour.",
     "progression": "Utilisez cette forme en « C » quand vous prenez une tasse ou un verre.",
     "erreur_frequente": "Laisser l'articulation du milieu du pouce s'effondrer vers l'arrière.",
@@ -1139,16 +1139,16 @@
   "en_bref": [
    "Un tendon épaissi accroche à l'entrée d'un petit tunnel dans la paume.",
    "Une petite attelle qui garde la base du doigt droite le calme souvent.",
-   "Une infiltration règle le problème chez plus d'une personne sur deux."
+   "Une infiltration règle souvent le problème."
   ],
-  "ce_que_vous_avez": "Un tendon qui plie votre doigt est épaissi et accroche à l'entrée d'un petit tunnel dans la paume, ce qui produit un « clic » ou bloque le doigt en position pliée. Une petite attelle qui empêche le doigt d'accrocher laisse au tendon le temps de se calmer. Si cela ne suffit pas, une infiltration de cortisone règle le problème chez plus d'une personne sur deux, mais le ressaut peut revenir dans les mois qui suivent. L'infiltration fonctionne moins bien chez les personnes diabétiques, et elle peut faire monter le sucre dans le sang pendant 1 à 2 jours.",
+  "ce_que_vous_avez": "Un tendon qui plie votre doigt est épaissi. Il accroche à l'entrée d'un petit tunnel dans la paume, ce qui fait un « clic » ou bloque le doigt plié. Une petite attelle qui empêche le doigt d'accrocher laisse au tendon le temps de se calmer. Si cela ne suffit pas, une infiltration de cortisone règle souvent le problème. Mais le doigt peut recommencer à accrocher dans les mois qui suivent. L'infiltration fonctionne moins bien chez les personnes diabétiques, et elle peut faire monter le sucre dans le sang pendant 1 à 2 jours.",
   "pourquoi": [
    "Gestes répétés de prise forte.",
    "Diabète, polyarthrite ou hypothyroïdie.",
    "Plus fréquent après 40 ans."
   ],
   "ce_qui_aide": [
-   "Porter pendant 6 à 10 semaines une petite attelle qui garde droite la base du doigt (ou l'articulation du milieu) : idéalement jour et nuit ou au moins 8 heures par jour, sinon au minimum la nuit (elle peut être retirée le temps de faire les exercices).",
+   "Porter pendant 6 à 10 semaines une petite attelle qui garde le doigt droit à sa base (ou au milieu). L'idéal : jour et nuit, ou au moins 8 heures par jour. Sinon, au moins la nuit. Retirez-la le temps de faire les exercices.",
    "Tremper la main dans l'eau tiède le matin et déplier doucement le doigt avec l'autre main s'il est resté plié.",
    "Utiliser des manches épais ou rembourrés et éviter de serrer fort des outils ou des sacs.",
    "Demander à votre médecin si une infiltration est indiquée, surtout si le doigt se bloque souvent."
@@ -1162,9 +1162,9 @@
    "Tremper la main dans l'eau tiède le matin aide à déplier le doigt.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin et si le mouvement ne déclenche pas d'accrochage brutal.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin. Le mouvement ne doit pas faire accrocher le doigt brusquement.",
   "urgence": [
-   "À l'urgence, le jour même : doigt enflé sur toute sa longueur, rouge ou chaud, gardé plié, très douloureux quand on essaie de le déplier, avec ou sans fièvre (infection possible de la gaine du tendon)."
+   "À l'urgence, le jour même : doigt enflé sur toute sa longueur, rouge ou chaud, gardé plié et très douloureux quand on essaie de le déplier. Avec ou sans fièvre : c'est peut-être une infection autour du tendon."
   ],
   "medecin": [
    "Dans les prochains jours : doigt complètement bloqué qui ne peut plus être déplié, même avec l'aide de l'autre main.",
@@ -1179,7 +1179,7 @@
    {
     "nom": "Glissement doux sans accrochage (crochet)",
     "position_de_depart": "Main ouverte, doigts droits.",
-    "mouvement": "Pliez doucement les deux dernières phalanges en gardant la base du doigt droite, en vous arrêtant juste avant le point où ça accroche, puis rouvrez grand les doigts.",
+    "mouvement": "Pliez doucement le bout du doigt en gardant la base du doigt droite. Arrêtez juste avant que ça accroche, puis rouvrez grand les doigts.",
     "dosage": "10 répétitions lentes, 2 à 3 fois par jour.",
     "progression": "Allez un peu plus loin dans la flexion seulement si le mouvement reste fluide et sans clic.",
     "erreur_frequente": "Fermer le poing complet jusqu'à bloquer le doigt.",
@@ -1203,7 +1203,7 @@
    {
     "nom": "Massage doux de la paume à la base du doigt (facultatif)",
     "position_de_depart": "Main posée paume vers le haut sur une table.",
-    "mouvement": "Avec le pouce de l'autre main, faites de petits cercles doux sur le point sensible de la paume. Ce massage peut soulager, mais il n'est pas démontré qu'il accélère la guérison.",
+    "mouvement": "Avec le pouce de l'autre main, faites de petits cercles doux sur le point sensible de la paume. Ce massage peut soulager.",
     "dosage": "1 à 2 minutes, 1 à 2 fois par jour, seulement si cela soulage.",
     "progression": "Faites-le après avoir trempé la main dans l'eau tiède.",
     "erreur_frequente": "Appuyer si fort que cela provoque une douleur vive ou un bleu.",
@@ -1243,7 +1243,7 @@
    "Une attache au doigt voisin protège le doigt tout en le laissant bouger.",
    "L'enflure peut durer plusieurs mois, parfois plus d'un an ; c'est normal."
   ],
-  "ce_que_vous_avez": "Un choc sur le doigt a étiré les ligaments autour d'une articulation. Cette fiche s'applique à une entorse simple et stable, une fois qu'un professionnel a écarté une fracture, une instabilité et une lésion du tendon extenseur (déformation « en boutonnière »). Dans ce cas, protéger le doigt en l'attachant au doigt voisin et le bouger tôt évite la raideur. Le doigt reste souvent un peu enflé pendant plusieurs mois.",
+  "ce_que_vous_avez": "Un choc sur le doigt a étiré les ligaments autour d'une articulation. Cette fiche est pour une entorse simple et stable. Un professionnel doit d'abord avoir écarté une fracture, une instabilité et une blessure du tendon (déformation « en boutonnière »). Dans ce cas, protéger le doigt en l'attachant au doigt voisin et le bouger tôt évite la raideur. Le doigt reste souvent un peu enflé pendant plusieurs mois.",
   "pourquoi": [
    "Ballon ou choc sur le bout du doigt.",
    "Chute sur la main."
@@ -1263,12 +1263,12 @@
    "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Le jour même : doigt qui part de travers, qui tourne sur lui-même, qui semble instable ou qui se bloque, ou plaie ouverte près de l'articulation (avis orthopédique requis)."
   ],
   "medecin": [
-   "Dans les prochains jours : impossibilité de tendre l'articulation du milieu, surtout si le bout du doigt se relève vers l'arrière (déformation en boutonnière : attelle spéciale à mettre en place rapidement, pour environ 6 semaines).",
+   "Dans les prochains jours : impossible de tendre le milieu du doigt, surtout si le bout du doigt se relève vers l'arrière. C'est une déformation « en boutonnière » : une attelle spéciale doit être posée rapidement, pour environ 6 semaines.",
    "Douleur vive qui ne diminue pas après 2 semaines.",
    "Engourdissements dans le doigt."
   ],
@@ -1341,10 +1341,10 @@
   "diagnostic": "Maladie de Dupuytren",
   "en_bref": [
    "Le tissu sous la peau de la paume s'épaissit et forme des nodules ou des cordes.",
-   "Ce n'est pas un cancer. Il n'est pas prouvé que les exercices arrêtent la maladie.",
+   "Ce n'est pas un cancer. Les exercices n'arrêtent pas la maladie.",
    "Un traitement est proposé quand un doigt reste plié."
   ],
-  "ce_que_vous_avez": "Le tissu situé sous la peau de votre paume s'épaissit et forme de petits nodules ou des cordes qui peuvent, avec les années, tirer un doigt vers la paume. Ce n'est pas un cancer. Aucun exercice, étirement ou attelle n'a prouvé qu'il empêche la maladie d'évoluer : les mouvements ci-dessous servent seulement à entretenir la mobilité de la main et à surveiller l'évolution. Si un doigt commence à se plier, des traitements efficaces existent (section de la corde à l'aiguille ou chirurgie).",
+  "ce_que_vous_avez": "Le tissu sous la peau de votre paume s'épaissit. Il forme de petites boules ou des cordes qui peuvent, avec les années, tirer un doigt vers la paume. Ce n'est pas un cancer. Les exercices, les étirements ou une attelle n'empêchent pas la maladie d'avancer. Les mouvements ci-dessous servent seulement à garder la main souple et à surveiller la maladie. Si un doigt commence à se plier, des traitements efficaces existent (section de la corde à l'aiguille ou chirurgie).",
   "pourquoi": [
    "Facteurs héréditaires, surtout chez les personnes d'origine nord-européenne.",
    "Plus fréquent chez les hommes après 40 ans.",
@@ -1365,7 +1365,7 @@
    "La maladie est rarement douloureuse ; un nodule sensible se calme souvent avec le temps.",
    "Évitez d'appuyer fort sur les nodules (outils, poignées)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une tension légère jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une tension légère jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [
    "Aucun signe de cette maladie ne demande une consultation urgente."
   ],
@@ -1375,7 +1375,7 @@
    "Gêne dans les gestes courants (se laver le visage, enfiler des gants, mettre la main dans une poche).",
    "Aggravation rapide ou nodules qui deviennent très douloureux."
   ],
-  "duree_habituelle": "Évolution lente et variable, sur des mois ou des années; chez certaines personnes, la maladie reste stable. Les exercices entretiennent la mobilité; il n'est pas prouvé qu'ils modifient l'évolution.",
+  "duree_habituelle": "Évolution lente et variable, sur des mois ou des années; chez certaines personnes, la maladie reste stable. Les exercices gardent la main souple, mais ils ne changent pas l'évolution de la maladie.",
   "materiel": [
    "table"
   ],
@@ -1447,7 +1447,7 @@
    "Une attelle qui tient le pouce le protège pendant quelques semaines.",
    "Un pouce très instable demande un avis rapide, car une chirurgie peut être nécessaire."
   ],
-  "ce_que_vous_avez": "Le ligament situé à la base du pouce, du côté de l'index, a été étiré ou partiellement déchiré, souvent lors d'une chute avec un bâton de ski ou d'un choc avec un ballon. Cette fiche s'applique à une entorse partielle et stable, confirmée par votre médecin. Après la période d'attelle prescrite, des exercices doux redonnent souplesse et force à la pince.",
+  "ce_que_vous_avez": "Le ligament à la base du pouce, du côté de l'index, a été étiré ou un peu déchiré. Cela arrive souvent en tombant avec un bâton de ski ou en recevant un ballon. Cette fiche s'applique à une entorse partielle et stable, confirmée par votre médecin. Après la période d'attelle prescrite, des exercices doux redonnent souplesse et force à la pince.",
   "pourquoi": [
    "Chute avec un bâton de ski dans la main.",
    "Choc d'un ballon qui écarte le pouce."
@@ -1467,10 +1467,10 @@
    "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin.",
   "urgence": [],
   "medecin": [
-   "Dans les prochains jours : sensation que le pouce part sur le côté ou qu'il est très instable (rupture complète possible; la décision de traitement se prend idéalement dans les 2 premières semaines).",
+   "Dans les prochains jours : le pouce semble partir sur le côté ou il est très instable. Le ligament est peut-être complètement rompu : il vaut mieux décider du traitement dans les 2 premières semaines.",
    "Dans les prochains jours : petite bosse douloureuse à la base du pouce, du côté de l'index.",
    "Douleur ou faiblesse qui empêche de pincer après 6 à 8 semaines.",
    "Engourdissement du pouce."
@@ -1544,14 +1544,14 @@
    "Une bague de protection et une reprise graduelle permettent la guérison.",
    "Le retour complet à l'escalade prend souvent 2 à 3 mois."
   ],
-  "ce_que_vous_avez": "Un petit anneau fibreux qui maintient le tendon contre l'os du doigt (une poulie) a été étiré ou déchiré en escalade. Cette fiche s'applique à la lésion d'une seule poulie, confirmée par un professionnel (souvent par échographie). Dans ce cas, un court repos, une protection de la poulie et une remise en charge très progressive en prise ouverte permettent habituellement de guérir sans opération. La rupture de plusieurs poulies relève de la chirurgie.",
+  "ce_que_vous_avez": "Un petit anneau fibreux qui maintient le tendon contre l'os du doigt (une poulie) a été étiré ou déchiré en escalade. Cette fiche s'applique à la lésion d'une seule poulie, confirmée par un professionnel (souvent par échographie). Dans ce cas, un court repos, une protection de la poulie, puis une reprise très progressive des prises (main ouverte) permettent habituellement de guérir sans opération. La rupture de plusieurs poulies relève de la chirurgie.",
   "pourquoi": [
    "Prise arquée sur de petites prises, en escalade.",
    "Hausse rapide de l'intensité de l'entraînement."
   ],
   "ce_qui_aide": [
    "Arrêter la grimpe pendant environ 1 à 2 semaines, puis éviter les prises arquées pendant toute la guérison.",
-   "Protéger la poulie lors de la reprise avec la bague-orthèse rigide recommandée par votre thérapeute. Le strap (taping en H) est moins sûr : une étude en laboratoire n'a montré aucune protection.",
+   "Protéger la poulie lors de la reprise avec la bague-orthèse rigide recommandée par votre thérapeute. Le strap (taping en H) protège moins bien.",
    "Bouger le doigt doucement et sans charge dès le début pour éviter la raideur.",
    "Reprendre progressivement, uniquement en prise tendue (ouverte), quand la douleur a disparu."
   ],
@@ -1564,10 +1564,10 @@
    "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin. Arrêtez immédiatement en cas de claquement ou si le tendon fait saillie sous la peau.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin. Arrêtez tout de suite si vous entendez un claquement ou si le tendon fait une bosse sous la peau.",
   "urgence": [],
   "medecin": [
-   "Dans les prochains jours : le tendon forme une corde visible sous la peau à la base du doigt quand vous pliez (« effet corde d'arc »), ou nouveau claquement dans le doigt.",
+   "Dans les prochains jours : le tendon fait une corde visible sous la peau, à la base du doigt, quand vous pliez. Ou un nouveau claquement dans le doigt.",
    "Gonflement important, rougeur ou douleur persistante au repos.",
    "Impossibilité de tendre ou de plier complètement le doigt.",
    "Douleur qui revient dès le retour sur de grosses prises.",
@@ -1645,7 +1645,7 @@
    "Dans la grande majorité des cas, le nerf se calme avec le temps. Rester actif et faire des exercices aide pendant ce temps.",
    "Signalez toute perte de force ou tout engourdissement qui augmente."
   ],
-  "ce_que_vous_avez": "Votre douleur ou vos picotements au poignet ou aux doigts viennent d'un nerf irrité à sa sortie de la colonne, dans le bas du cou, et non d'un problème dans la main elle-même. Dans la grande majorité des cas, cela s'améliore progressivement sans opération. Rester actif, soigner sa posture et faire des exercices doux du cou et des épaules aident pendant la récupération.",
+  "ce_que_vous_avez": "Votre douleur ou vos picotements au poignet ou aux doigts viennent d'un nerf irrité dans le bas du cou. Le problème n'est pas dans la main. Dans la grande majorité des cas, cela s'améliore progressivement sans opération. Rester actif, soigner sa posture et faire des exercices doux du cou et des épaules aident pendant la récupération.",
   "pourquoi": [
    "Arthrose ou disque du cou qui irrite un nerf.",
    "Tête penchée vers l'avant pendant de longues périodes."
@@ -1663,16 +1663,16 @@
   ],
   "soulager": [
    "Évitez les positions qui augmentent les engourdissements ou la douleur qui descend.",
-   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; parlez à votre médecin si la douleur vous empêche de dormir."
+   "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié. Parlez à votre médecin si la douleur vous empêche de dormir."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin, mais arrêtez tout mouvement qui augmente la douleur du bras ou les picotements dans les doigts.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à la normale le lendemain matin. Arrêtez tout mouvement qui augmente la douleur du bras ou les picotements dans les doigts.",
   "urgence": [
    "Le jour même : maladresse des deux mains (boutons, écriture), perte d'équilibre en marchant ou faiblesse dans les jambes.",
-   "Le jour même : difficulté nouvelle à retenir ou à évacuer les urines ou les selles, ou sensations de décharge électrique dans le dos ou les membres quand vous penchez la tête.",
+   "Le jour même : nouvelle difficulté à retenir ou à faire vos urines ou vos selles. Ou des décharges électriques dans le dos, les bras ou les jambes quand vous penchez la tête.",
    "Appelez le 911 : douleur au bras avec serrement dans la poitrine, essoufflement ou sueurs."
   ],
   "medecin": [
-   "Dans les prochains jours (le jour même si cela s'aggrave vite) : perte de force dans le bras, le poignet ou les doigts (échapper des objets), ou engourdissements qui s'aggravent.",
+   "Dans les prochains jours (le jour même si cela s'aggrave vite) : perte de force dans le bras, le poignet ou les doigts (vous échappez des objets), ou engourdissements qui augmentent.",
    "Aucune amélioration après 4 à 6 semaines."
   ],
   "duree_habituelle": "La douleur commence habituellement à diminuer en 4 à 8 semaines; la récupération complète prend souvent plusieurs mois (4 à 6 mois).",
