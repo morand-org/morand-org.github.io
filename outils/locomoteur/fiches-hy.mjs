@@ -3,7 +3,8 @@
      locomoteur/<région>/fiches/index.html          bibliothèque de la région (une section par série : poignet et main, lombaire et dorsal)
      locomoteur/<région>/fiches/<slug>/index.html   une page par fiche (8 encadrés ou renvoi, planche, références)
      locomoteur/fiches-hy.js                        lien diagnostic du calcul → fiche, pour la page de résultats
-   et met à jour la liste des fiches de l'accueil (entre les marqueurs <!-- fiches-hy --> et <!-- /fiches-hy -->).
+     locomoteur/fiches/index.html                   les régions (page « Fiches résumées »)
+   et met à jour la carte de l'accueil (entre les marqueurs <!-- fiches-hy --> et <!-- /fiches-hy -->).
    Les termes passent par termes-quebec.mjs. Les renvois (« Voir la fiche C12 ») deviennent des liens, d'une région à l'autre.
      node outils/locomoteur/fiches-hy.mjs */
 import fs from "node:fs";
@@ -107,6 +108,9 @@ const pied = `</main>
 </html>
 `;
 
+// Page qui redirige une ancienne adresse (ex. E4 « disjonction » → « luxation ») : gardée.
+const redirection = d => { const f = path.join(d, "index.html"); return fs.existsSync(f) && fs.readFileSync(f, "utf8").includes('http-equiv="refresh"'); };
+
 // 1. Toutes les fiches, indexées par code, pour les renvois d'une région à l'autre.
 const index = new Map(), parRegion = {};
 for (const [region, R] of Object.entries(REGIONS)) {
@@ -138,7 +142,7 @@ for (const [region, R] of Object.entries(REGIONS)) {
   // Retire les pages d'anciennes fiches (titre ou numéro changé).
   const dossier = path.join(RACINE, `locomoteur/${region}/fiches`), slugs = new Set(fiches.map(f => f.slug));
   if (fs.existsSync(dossier)) for (const d of fs.readdirSync(dossier, { withFileTypes: true }))
-    if (d.isDirectory() && d.name !== "img" && !slugs.has(d.name)) fs.rmSync(path.join(dossier, d.name), { recursive: true });
+    if (d.isDirectory() && d.name !== "img" && !slugs.has(d.name) && !redirection(path.join(dossier, d.name))) fs.rmSync(path.join(dossier, d.name), { recursive: true });
   liensJs[region] = {};
   for (const [dx, code] of Object.entries(R.dx)) {
     const f = cible(code);
@@ -164,7 +168,7 @@ ${SECTIONS.map(([cle, nom]) => {
     const ordre = [...new Set([...cites, ...f.refs.map(r => r.n)])].filter(n => refs.has(n));
     const listeRefs = ordre.map(n => { const r = refs.get(n); return `        <li id="r${n}" value="${n}">${r.url ? `<a href="${esc(r.url)}" rel="noopener">${esc(r.texte)}</a>` : esc(r.texte)}</li>`; }).join("\n");
     const prec = fiches[i - 1], suiv = fiches[i + 1], dx = dxDe.get(f.no);
-    const html = tete(`${f.no} ${f.titreFr}`, `Fiche résumée ${f.no} : ${f.titreFr}. Épidémiologie, présentation, examen, différentiel, investigations, traitement et pronostic, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><a href="${base}">${esc(R.nom)} : fiches</a><span aria-hidden="true">›</span><span>${f.no}</span></nav>
+    const html = tete(`${f.no} ${f.titreFr}`, `Fiche résumée ${f.no} : ${f.titreFr}. Épidémiologie, présentation, examen, différentiel, investigations, traitement et pronostic, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><a href="/locomoteur/fiches/">Fiches résumées</a><span aria-hidden="true">›</span><a href="${base}">${esc(R.nom)}</a><span aria-hidden="true">›</span><span>${f.no}</span></nav>
   <article class="hy-fiche">
     <header class="hy-tete"><p class="hy-no">Fiche ${f.no}</p><p class="hy-tags">${esc(f.tagsFr)}</p></header>
     <h1 class="hy-titre">${esc(f.titreFr)}</h1>
@@ -189,7 +193,7 @@ ${listeRefs}
   const listes = series.map(s => `${series.length > 1 ? `  <h2 class="lo-regions-titre hy-serie">${esc(s.nom)}</h2>\n` : ""}  <ol class="hy-biblio">
 ${fiches.filter(f => f.serie === s.nom).map(carte).join("\n")}
   </ol>`).join("\n");
-  ecrire(`locomoteur/${region}/fiches/index.html`, tete(`${R.nom} : fiches`, `Fiches résumées des pathologies, ${R.nom.toLocaleLowerCase("fr-CA")} : une page par pathologie, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>${esc(R.nom)} : fiches</span></nav>
+  ecrire(`locomoteur/${region}/fiches/index.html`, tete(`${R.nom} : fiches`, `Fiches résumées des pathologies, ${R.nom.toLocaleLowerCase("fr-CA")} : une page par pathologie, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><a href="/locomoteur/fiches/">Fiches résumées</a><span aria-hidden="true">›</span><span>${esc(R.nom)}</span></nav>
   <section class="cr-intro hy-intro">
     <h1>${esc(R.nom)}</h1>
     <p class="cr-devise">Fiches résumées des pathologies</p>
@@ -206,15 +210,21 @@ ecrire("locomoteur/fiches-hy.js", `/* Produit par node outils/locomoteur/fiches-
 (function () { (window.Locomoteur = window.Locomoteur || {}).fichesHY = ${JSON.stringify(liensJs)}; })();
 `);
 
-// Accueil : liste des bibliothèques de fiches.
-const hubF = path.join(RACINE, "locomoteur/index.html");
-let hub = fs.readFileSync(hubF, "utf8");
-const bloc = `<!-- fiches-hy -->
-  <h2 class="lo-regions-titre">Fiches résumées des pathologies</h2>
-  <ol class="lo-regions cr-specs">
+// Page « Fiches résumées » : les régions ; à l'accueil, une seule carte (entre <!-- fiches-hy --> et <!-- /fiches-hy -->).
+const total = resume.reduce((n, r) => n + r.n, 0);
+ecrire("locomoteur/fiches/index.html", tete("Fiches résumées des pathologies", `Fiches résumées des pathologies musculosquelettiques : ${total} fiches d'une page, par région, avec références.`) + `  <nav class="hy-fil" aria-label="Fil d'Ariane"><a href="/locomoteur/">MSK Morand</a><span aria-hidden="true">›</span><span>Fiches résumées</span></nav>
+  <section class="cr-intro hy-intro">
+    <h1>Fiches résumées</h1>
+    <p class="cr-devise">Des pathologies, par région</p>
+    <p class="cr-lead">${total} fiches d'une page : épidémiologie, présentation, examen, physiopathologie, différentiel, investigations, traitement et pronostic, avec leurs références.</p>
+  </section>
+  <ol class="lo-regions cr-specs hy-regions">
 ${resume.map(r => `    <li><a class="cr-spec lo-hy-region" href="/locomoteur/${r.region}/fiches/"><span class="cr-spec-nom">${esc(r.nom)}</span><span class="cr-spec-sous">${r.n} fiches</span></a></li>`).join("\n")}
   </ol>
-  <!-- /fiches-hy -->`;
-hub = hub.includes("<!-- fiches-hy -->") ? hub.replace(/<!-- fiches-hy -->[\s\S]*?<!-- \/fiches-hy -->/, bloc) : hub.replace('  <details class="cr-sources">', `  ${bloc}\n\n  <details class="cr-sources">`);
+` + pied);
+const hubF = path.join(RACINE, "locomoteur/index.html");
+let hub = fs.readFileSync(hubF, "utf8");
+if (!hub.includes("<!-- fiches-hy -->")) throw new Error("Accueil : marqueur <!-- fiches-hy --> absent");
+hub = hub.replace(/<!-- fiches-hy -->[\s\S]*?<!-- \/fiches-hy -->/, `<!-- fiches-hy --><li><a class="cr-spec lo-hy-region" href="/locomoteur/fiches/"><span class="cr-spec-nom">Fiches résumées</span><span class="cr-spec-sous">${total} pathologies</span></a></li><!-- /fiches-hy -->`);
 fs.writeFileSync(hubF, hub);
 console.log(resume.map(r => `${r.region} : ${r.n} fiches, ${r.lies} diagnostics liés`).join("\n"));

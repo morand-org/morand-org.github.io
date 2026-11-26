@@ -63,3 +63,6 @@
 @media (max-width: 640px) { .hy-grille { grid-template-columns: 1fr; } .hy-suite { grid-template-columns: 1fr; } .hy-suite a[rel="next"] { text-align: left; } }
 @media (prefers-color-scheme: dark) { .hy-signature img { filter: invert(1) brightness(0.92); } .hy-planche img, .hy-carte img { filter: brightness(0.9); } }
 @media print { .cr-tete, .cr-pied, .hy-fil, .hy-actions, .hy-suite { display: none; } .hy-page { width: 100%; padding: 0; } }
+
+/* Pages « Fiches résumées » et « Fiches patients » : la grille des régions sous l'introduction. */
+.hy-regions { margin-top: 28px; }
