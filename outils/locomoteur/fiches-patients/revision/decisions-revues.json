@@ -1,0 +1,135 @@
+{
+ "PIE-05": [
+  [
+   "Une semelle moulée à l'arche",
+   "non"
+  ],
+  [
+   "peut soulager",
+   "non"
+  ]
+ ],
+ "CHE-04": [
+  [
+   "peuvent aussi aider",
+   "non"
+  ]
+ ],
+ "CHE-05": [
+  [
+   "sont des causes possibles",
+   "non"
+  ]
+ ],
+ "CHE-06": [
+  [
+   "Ce changement a été étudié",
+   "non"
+  ]
+ ],
+ "CHE-10": [
+  [
+   "peut diminuer la douleur et la raideur",
+   "non"
+  ]
+ ],
+ "CHE-15": [
+  [
+   "peuvent le soulager",
+   "non"
+  ]
+ ],
+ "COU-01": [
+  [
+   "sont un traitement sûr",
+   "non"
+  ]
+ ],
+ "COU-07": [
+  [
+   "Environ 8 sportifs sur 10",
+   "non"
+  ]
+ ],
+ "HAN-04": [
+  [
+   "peuvent accélérer",
+   "non"
+  ]
+ ],
+ "HAN-06": [
+  [
+   "crème sur la région douloureuse",
+   "oui"
+  ]
+ ],
+ "HAN-07": [
+  [
+   "peut irriter",
+   "non"
+  ]
+ ],
+ "LOM-09": [
+  [
+   "ou qui arrondissent le dos, peuvent diminuer",
+   "non"
+  ]
+ ],
+ "MAI-05": [
+  [
+   "Leur effet sur la douleur est modeste",
+   "non"
+  ],
+  [
+   "peuvent aider à garder",
+   "non"
+  ],
+  [
+   "L'amélioration est souvent modeste",
+   "non"
+  ]
+ ],
+ "MAI-06": [
+  [
+   "semble donner de meilleurs résultats",
+   "non"
+  ]
+ ],
+ "MAI-11": [
+  [
+   "peuvent diminuer la douleur, après environ 3 mois",
+   "non"
+  ]
+ ],
+ "_retouches": {
+  "PIE-01": {
+   "exercices.3.phase": "Dès maintenant",
+   "soulager": [
+    "Massez la plante du pied en roulant une bouteille d'eau glacée, 10 minutes.",
+    "Acétaminophène ou anti-inflammatoire au besoin, pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié ; les exercices restent le traitement principal."
+   ],
+   "ce_qui_aide": [
+    "Étirer le dessous du pied avant même de poser le pied par terre le matin, et après être resté assis longtemps.",
+    "Renforcer lentement le mollet et le dessous du pied un jour sur deux.",
+    "Porter des souliers avec un bon amorti et un bon soutien d'arche ; une semelle de soutien du commerce peut aider, en plus des exercices.",
+    "Faire rouler doucement une bouteille d'eau glacée sous l'arche du pied pendant 10 minutes pour soulager la douleur.",
+    "Si les premiers pas du matin restent très douloureux, un bandage de soutien (taping) ou une attelle de nuit peuvent vous être proposés."
+   ]
+  },
+  "PIE-11": {
+   "urgence": [
+    "Douleur aiguë apparue après une entorse et qui ne passe pas, ou incapacité de faire 4 pas (radiographie à discuter ; une botte de marche peut être nécessaire).",
+    "Rougeur qui s'étend sur la bosse, plaie infectée ou fièvre."
+   ]
+  },
+  "HAN-11": {
+   "medecin": [
+    "Douleur qui ne diminue pas après 2 semaines de repos relatif et de béquilles.",
+    "Bosse dure qui grossit ou douleur aiguë persistante.",
+    "Boiterie qui dure plus de 3 à 4 semaines.",
+    "Engourdissements, picotements ou douleur électrique à l'arrière de la jambe.",
+    "Douleur qui revient dès la reprise de la marche rapide ou du sport."
+   ]
+  }
+ }
+}

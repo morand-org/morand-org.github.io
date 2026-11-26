@@ -1,0 +1,500 @@
+{
+ "canal_carpien": {
+  "en_bref": [
+   "Le nerf médian est comprimé dans un tunnel, à l'avant du poignet.",
+   "Une attelle de nuit qui garde le poignet droit peut soulager, surtout la nuit. Elle n'aide pas tout le monde.",
+   "Une infiltration ou une petite chirurgie sont possibles si cela ne suffit pas."
+  ],
+  "ce_que_vous_avez": "Le nerf médian, qui passe dans un tunnel étroit à l'avant du poignet (le canal carpien), est comprimé. Cela cause des engourdissements ou des picotements dans le pouce, l'index, le majeur et une partie de l'annulaire, souvent la nuit ou au réveil. Le premier traitement habituellement proposé est une attelle de nuit qui garde le poignet droit, avec une adaptation des gestes. L'utilité des exercices n'est pas certaine. Si cela ne suffit pas, une infiltration (qui soulage quelques mois) ou une chirurgie peuvent être proposées.",
+  "pourquoi": [
+   "Gestes répétés en force, ou poignet plié longtemps (lien possible). Le travail à l'ordinateur n'est pas une cause prouvée.",
+   "Grossesse, diabète, hypothyroïdie, polyarthrite rhumatoïde ou surpoids.",
+   "Outils qui vibrent (lien possible)."
+  ],
+  "soulager": [
+   "Évitez les positions et les gestes qui augmentent les engourdissements ou les picotements.",
+   "Les médicaments contre la douleur (acétaminophène, anti-inflammatoires) aident peu ce problème. Parlez à votre médecin si les symptômes vous empêchent de dormir."
+  ],
+  "ce_qui_aide": [
+   "Porter la nuit, pendant environ 6 semaines pour commencer, une attelle qui garde le poignet bien droit (position neutre, et non relevé vers l'arrière). Si elle vous aide, vous pouvez continuer.",
+   "Prendre de courtes pauses et varier les gestes lors des tâches répétitives au clavier ou avec des outils.",
+   "Garder les poignets droits au clavier et à la souris; alterner la main qui tient la souris ou utiliser les raccourcis clavier.",
+   "Faire les exercices doux ci-dessous sans jamais provoquer de picotements : leur utilité n'est pas certaine et ils ne remplacent pas l'attelle."
+  ],
+  "urgence": [
+   "À l'urgence, le jour même : engourdissement ou douleur de la main qui augmente en quelques heures après une blessure, une fracture ou la pose d'un plâtre au poignet."
+  ],
+  "medecin": [
+   "Dans les prochains jours (pas besoin d'aller à l'urgence) : faiblesse du pouce (échapper des tasses ou des clés, difficulté à boutonner).",
+   "Dans les prochains jours : fonte visible du muscle à la base du pouce.",
+   "Engourdissements constants, jour et nuit, qui ne partent plus (prenez rendez-vous sans tarder).",
+   "Aucune amélioration après 6 semaines d'attelle et d'adaptation des gestes."
+  ],
+  "references": [
+   {
+    "texte": "Erickson M et al., Hand Pain and Sensory Deficits: Carpal Tunnel Syndrome, J Orthop Sports Phys Ther, 2019",
+    "doi_ou_pmid": "PMID: 31039690"
+   },
+   {
+    "texte": "Erickson M et al., Hand Pain and Sensory Deficits: Carpal Tunnel Syndrome: Revision 2026, J Orthop Sports Phys Ther, 2026",
+    "doi_ou_pmid": "PMID: 31039690"
+   },
+   {
+    "texte": "Karjalainen TV et al., Splinting for carpal tunnel syndrome, Cochrane Database Syst Rev, 2023",
+    "doi_ou_pmid": "PMID: 36848651"
+   },
+   {
+    "texte": "Atroshi I et al., Wrist Splinting versus a Placebo Soft Bandage for Carpal Tunnel Syndrome, NEJM Evid, 2026",
+    "doi_ou_pmid": "PMID: 41874253"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-01)"
+ },
+ "kyste": {
+  "ce_que_vous_avez": "Vous avez une petite poche remplie d'un liquide épais et gélatineux, reliée à une articulation ou à la gaine d'un tendon : c'est un kyste synovial. Ce n'est pas cancéreux et ce n'est pas dangereux. Chez l'adulte, environ 4 à 5 kystes du poignet sur 10 disparaissent d'eux-mêmes en quelques années, et plus encore chez l'enfant (environ 6 à 8 sur 10). Les exercices ne font pas disparaître le kyste, mais ils gardent le poignet souple et fort sans l'irriter.",
+  "a_eviter": [
+   "Frapper ou écraser le kyste avec un livre ou un objet (risque de blessure, et le kyste revient très souvent).",
+   "Percer le kyste vous-même avec une aiguille (risque d'infection grave, surtout pour un kyste près d'un ongle : l'infection peut atteindre l'articulation).",
+   "Appuyer fort sur le poignet plié au maximum si cela déclenche une douleur vive."
+  ],
+  "duree_habituelle": "La gêne diminue souvent en quelques semaines. Le kyste peut disparaître de lui-même en plusieurs mois ou années, mais il peut aussi persister. S'il gêne, une ponction (le kyste revient environ 6 fois sur 10) ou une chirurgie (le kyste revient environ 1 à 2 fois sur 10, avec un peu plus de complications) peuvent être discutées.",
+  "urgence": [
+   "Le jour même : kyste qui devient rouge, chaud, très douloureux ou qui coule, avec ou sans fièvre (infection possible)."
+  ],
+  "medecin": [
+   "Bosse qui grossit vite ou qui devient très dure (prenez rendez-vous dans les prochains jours : un examen d'imagerie peut être utile).",
+   "Engourdissements ou faiblesse dans les doigts (compression possible d'un nerf).",
+   "Douleur importante qui empêche d'utiliser la main au travail ou dans vos activités.",
+   "Gêne esthétique ou mécanique qui persiste après plusieurs mois, pour discuter des options."
+  ],
+  "references": [
+   {
+    "texte": "Dias JJ et al., The Natural History of Untreated Dorsal Wrist Ganglia and Patient Reported Outcome 6 Years after Intervention, J Hand Surg Eur Vol, 2007",
+    "doi_ou_pmid": "PMID: 12631492"
+   },
+   {
+    "texte": "Head L et al., Wrist Ganglion Treatment: Systematic Review and Meta-Analysis, J Hand Surg Am, 2015",
+    "doi_ou_pmid": "PMID: 25708437"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-02)"
+ },
+ "dequervain": {
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
+   "Un anti-inflammatoire en crème peut soulager un peu, si votre pharmacien le juge approprié (peu étudié pour ce problème).",
+   "Les médicaments soulagent, mais ne guérissent pas le tendon : l'attelle, l'adaptation des gestes et, au besoin, l'infiltration restent le traitement."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte le lendemain matin, faites-en moins.",
+  "urgence": [
+   "Le jour même : rougeur, chaleur importante ou fièvre (infection possible)."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-03)"
+ },
+ "tenosynovite": {
+  "en_bref": [
+   "Un ou plusieurs tendons du poignet sont irrités par des gestes répétés.",
+   "Réduire ces gestes, et porter une attelle au besoin, les calment.",
+   "Le renforcement progressif aide à reprendre les activités."
+  ],
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
+   "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
+   "Les médicaments soulagent, mais ne guérissent pas le tendon : réduire les gestes en cause, puis renforcer peu à peu, reste le traitement."
+  ],
+  "ce_qui_aide": [
+   "Réduire nettement les gestes répétitifs qui déclenchent la douleur pendant 2 à 3 semaines.",
+   "Porter une attelle de poignet pendant cette période si le travail ou les gestes courants réveillent la douleur.",
+   "Mettre de la glace 10 à 15 minutes, dans un linge, après l'activité, au besoin, pour le confort.",
+   "Renforcer lentement les muscles du poignet et de l'avant-bras une fois la douleur calmée."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain matin. Si elle est plus forte le lendemain matin, faites-en moins.",
+  "duree_habituelle": "Amélioration habituelle en 2 à 6 semaines pour une tendinite simple. Si le tendon du côté du petit doigt est instable (il saute hors de sa gouttière), il faut une immobilisation de 6 à 8 semaines prescrite par un médecin, parfois une chirurgie, et le retour au sport prend plusieurs mois.",
+  "urgence": [
+   "Le jour même : rougeur, chaleur, gonflement important ou fièvre (infection possible)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : tendon qui s'est mis à sauter sur le bord du poignet (côté du petit doigt) après un coup ou un faux mouvement.",
+   "Tendon qui saute depuis longtemps, de façon visible ou douloureuse, sur le bord du poignet quand vous tournez l'avant-bras.",
+   "Engourdissements dans les doigts.",
+   "Aucune amélioration après 6 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-04)"
+ },
+ "arthrose_poignet": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois.",
+  "urgence": [
+   "Le jour même : poignet soudainement enflé, chaud, rouge ou très douloureux, avec ou sans fièvre (infection ou crise de goutte à vérifier)."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-05)"
+ },
+ "tfcc": {
+  "urgence": [
+   "Le jour même : nouvelle chute ou nouveau coup, suivi d'une déformation du poignet ou d'une impossibilité de tourner l'avant-bras."
+  ],
+  "medecin": [
+   "Dans les prochains jours : claquement douloureux ou sensation que l'os au bord du poignet se déplace quand vous tournez l'avant-bras (instabilité).",
+   "Aucune amélioration après 6 à 8 semaines d'attelle, ou douleur toujours gênante après 3 à 6 mois.",
+   "Blocage du poignet.",
+   "Engourdissements dans le petit doigt."
+  ],
+  "references": [
+   {
+    "texte": "Xiao JY et al., Predictors for Poor Outcome for Conservatively Treated Traumatic Triangular Fibrocartilage Complex Tears, Bone Joint J, 2021",
+    "doi_ou_pmid": "PMID: 34334041"
+   },
+   {
+    "texte": "Lee JK et al., What Is the Natural History of the Triangular Fibrocartilage Complex Tear Without Distal Radioulnar Joint Instability?, Clin Orthop Relat Res, 2019",
+    "doi_ou_pmid": "PMID: 30376460"
+   },
+   {
+    "texte": "Lim RQR et al., Current concepts and new trends in management of isolated triangular fibrocartilage complex injuries, J Hand Surg Eur Vol, 2024",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-06)"
+ },
+ "scapholunaire": {
+  "en_bref": [
+   "Un ligament au centre du poignet est étiré ou partiellement déchiré.",
+   "Une attelle, puis des exercices progressifs, aident à stabiliser le poignet.",
+   "Le suivi est important : une lésion complète se répare mieux si elle est opérée dans les 4 à 6 premières semaines."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "duree_habituelle": "Environ 3 mois au total pour une entorse partielle et stable : 4 à 6 semaines d'attelle, puis quelques semaines de réadaptation.",
+  "urgence": [
+   "Le jour même : nouvelle chute sur la main avec forte douleur, déformation, ou engourdissement des doigts."
+  ],
+  "medecin": [
+   "Dans les prochains jours : claquement ou ressaut douloureux net au milieu du poignet lors des mouvements.",
+   "Dans les prochains jours : perte importante de force dans la main.",
+   "Douleur persistante au dos du poignet après 4 à 6 semaines.",
+   "Gonflement qui ne diminue pas."
+  ],
+  "references": [
+   {
+    "texte": "Salva-Coll G et al., Scapholunate and Lunotriquetral Joint Dynamic Stabilizers and Their Role in Wrist Neuromuscular Control and Proprioception, J Hand Ther, 2023",
+    "doi_ou_pmid": "PMID: 37852909"
+   },
+   {
+    "texte": "Morrell NT et al., Scapholunate and perilunate injuries in the athlete, Curr Rev Musculoskelet Med, 2017",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Andrews J et al., Primary and secondary stabilizers of the scapholunate joint: a systematic review of cadaveric ligament sectioning studies, J Hand Surg Eur Vol, 2026",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-07)"
+ },
+ "gymnaste": {
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, au besoin.",
+   "Acétaminophène ou ibuprofène au besoin, à la dose prévue pour son poids (demandez au pharmacien). Ne donnez jamais un médicament pour permettre de s'entraîner malgré la douleur."
+  ],
+  "ce_qui_aide": [
+   "Arrêter tous les appuis sur les mains (sol, saut, barres, pompes) jusqu'à la disparition complète de la douleur.",
+   "Porter l'attelle prescrite si le médecin en recommande une (souvent 4 à 6 semaines).",
+   "Garder la forme avec des exercices de jambes, d'épaules et de gainage sur les avant-bras.",
+   "Reprendre les appuis par étapes, seulement avec l'accord du médecin et sans aucune douleur : commencer à environ le quart du volume habituel, augmenter un peu chaque semaine, et garder pour la fin les éléments qui faisaient le plus mal."
+  ],
+  "duree_habituelle": "Environ 4 à 6 semaines de repos des appuis lorsque la radiographie est normale; au moins 3 mois lorsque la zone de croissance montre des changements à la radiographie (le médecin peut alors répéter la radiographie). La reprise se fait ensuite par étapes, toujours sans douleur.",
+  "urgence": [
+   "Le jour même : déformation du poignet ou gonflement important, surtout après une chute."
+  ],
+  "medecin": [
+   "Dans les prochains jours : douleur au repos ou la nuit.",
+   "Douleur au toucher de l'os du poignet qui persiste après 4 semaines de repos.",
+   "Douleur nouvelle du côté du petit doigt.",
+   "Douleur qui revient dès la reprise des premiers appuis légers."
+  ],
+  "references": [
+   {
+    "texte": "DiFiori JP et al., Wrist Pain, Distal Radial Physeal Injury, and Ulnar Variance in the Young Gymnast, Am J Sports Med, 2006",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Caine D et al., Primary Periphyseal Stress Injuries in Young Athletes: A Systematic Review, Sports Med, 2022",
+    "doi_ou_pmid": "PMID: 4051086"
+   },
+   {
+    "texte": "Lintner LJ et al., Childhood and Adolescent Sports-Related Overuse Injuries, Am Fam Physician, 2023",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-08)"
+ },
+ "guyon": {
+  "en_bref": [
+   "Le nerf ulnaire est comprimé à la base de la paume, du côté du petit doigt.",
+   "Éviter l'appui sur cette zone le soulage le plus souvent.",
+   "Une faiblesse de la main doit être signalée rapidement, même si elle ne fait pas mal."
+  ],
+  "pourquoi": [
+   "Appui prolongé sur la paume (guidon de vélo, béquilles).",
+   "Outils qui vibrent, ou main utilisée comme marteau.",
+   "Parfois un petit kyste ou une ancienne fracture près du nerf."
+  ],
+  "ce_qui_aide": [
+   "Supprimer la pression sur le talon de la main : gants rembourrés et guidoline épaisse à vélo, changements fréquents de position des mains, tapis de souris souple.",
+   "À vélo, faire vérifier le réglage (selle, guidon) pour reporter moins de poids sur les mains.",
+   "Garder le poignet droit (neutre) au travail et à vélo; à vélo, éviter de rester longtemps les mains en bas du guidon.",
+   "Éviter les appuis directs sur la paume jusqu'à la disparition des symptômes."
+  ],
+  "urgence": [
+   "Le jour même : doigts qui deviennent blancs, bleus ou froids, ou petite plaie au bout d'un doigt qui ne guérit pas (problème de circulation)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : faiblesse pour écarter les doigts, maladresse ou perte de force dans la main, même sans engourdissement.",
+   "Dans les prochains jours : fonte musculaire visible entre le pouce et l'index ou sur le bord de la main, ou doigts qui se recroquevillent.",
+   "Petite bosse sentie à la base de la paume, du côté du petit doigt (kyste possible). Si cette bosse bat comme un pouls, consultez dans les prochains jours.",
+   "Aucune amélioration après 4 à 6 semaines sans appui sur la paume."
+  ],
+  "references": [
+   {
+    "texte": "Silver S et al., Peripheral Nerve Entrapment and Injury in the Upper Extremity, Am Fam Physician, 2021",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Slane J et al., The Influence of Glove and Hand Position on Pressure Over the Ulnar Nerve During Cycling, Clin Biomech (Bristol, Avon), 2011",
+    "doi_ou_pmid": "PMID: 21458120"
+   },
+   {
+    "texte": "Farag JI et al., Common sports-related nerve injuries seen by the electrodiagnostic medical consultant, Muscle Nerve, 2025",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-09)"
+ },
+ "arthrose_digitale": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois.",
+  "duree_habituelle": "Amélioration modeste de la raideur, de la douleur et du confort en 3 mois environ, à entretenir en poursuivant les exercices.",
+  "urgence": [
+   "Le jour même : articulation soudainement très rouge, chaude et enflée avec douleur vive, avec ou sans fièvre (infection ou crise de goutte à vérifier)."
+  ],
+  "references": [
+   {
+    "texte": "Østerås N et al., Exercise for Hand Osteoarthritis, Cochrane Database Syst Rev, 2017",
+    "doi_ou_pmid": "PMID: 28141914"
+   },
+   {
+    "texte": "Kloppenburg M et al., 2018 Update of the EULAR Recommendations for the Management of Hand Osteoarthritis, Ann Rheum Dis, 2019",
+    "doi_ou_pmid": "PMID: 30154087"
+   },
+   {
+    "texte": "Courties A et al., French Societies of Rheumatology and of Physical and Rehabilitation Medicine Recommendations for the Management of People Living With Hand Osteoarthritis, Joint Bone Spine, 2026",
+    "doi_ou_pmid": "PMID: 41183591"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-10)"
+ },
+ "rhizarthrose": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel au plus tard le lendemain (24 heures). Sinon, faites-en moins la prochaine fois.",
+  "urgence": [
+   "Le jour même : gonflement rouge, chaud et très douloureux à la base du pouce, avec ou sans fièvre."
+  ],
+  "references": [
+   {
+    "texte": "Kloppenburg M et al., 2018 Update of the EULAR Recommendations for the Management of Hand Osteoarthritis, Ann Rheum Dis, 2019",
+    "doi_ou_pmid": "PMID: 30154087"
+   },
+   {
+    "texte": "Buhler M et al., Effectiveness of Splinting for Pain and Function in People With Thumb Carpometacarpal Osteoarthritis: A Systematic Review With Meta-Analysis, Osteoarthritis Cartilage, 2019",
+    "doi_ou_pmid": "PMID: 30317000"
+   },
+   {
+    "texte": "Gangopadhyay S et al., Guideline on managing thumb base osteoarthritis: The British Society for Surgery of the Hand Evidence for Surgical Treatment (BEST) findings and recommendations, J Hand Surg Eur Vol, 2025",
+    "doi_ou_pmid": "à vérifier"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-11)"
+ },
+ "ressaut": {
+  "ce_que_vous_avez": "Un tendon qui plie votre doigt est épaissi et accroche à l'entrée d'un petit tunnel dans la paume, ce qui produit un « clic » ou bloque le doigt en position pliée. Une petite attelle qui empêche le doigt d'accrocher laisse au tendon le temps de se calmer. Si cela ne suffit pas, une infiltration de cortisone règle le problème chez plus d'une personne sur deux, mais le ressaut peut revenir dans les mois qui suivent. L'infiltration fonctionne moins bien chez les personnes diabétiques, et elle peut faire monter le sucre dans le sang pendant 1 à 2 jours.",
+  "urgence": [
+   "À l'urgence, le jour même : doigt enflé sur toute sa longueur, rouge ou chaud, gardé plié, très douloureux quand on essaie de le déplier, avec ou sans fièvre (infection possible de la gaine du tendon)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : doigt complètement bloqué qui ne peut plus être déplié, même avec l'aide de l'autre main.",
+   "Engourdissements dans le doigt.",
+   "Aucune amélioration après 6 semaines d'attelle."
+  ],
+  "references": [
+   {
+    "texte": "Currie KB et al., Common Hand Conditions: A Review, JAMA, 2022",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Atthakomol P et al., Are There Differences in Pain Reduction and Functional Improvement Among Splint Alone, Steroid Alone, and Combination for the Treatment of Adults With Trigger Finger?, Clin Orthop Relat Res, 2023",
+    "doi_ou_pmid": "PMID: 37083487"
+   },
+   {
+    "texte": "Donati D et al., From diagnosis to rehabilitation of trigger finger: a narrative review, BMC Musculoskelet Disord, 2024",
+    "doi_ou_pmid": "PMID: 39716186"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-12)"
+ },
+ "entorse_doigt": {
+  "en_bref": [
+   "Les ligaments autour d'une articulation du doigt sont étirés.",
+   "Une attache au doigt voisin protège le doigt tout en le laissant bouger.",
+   "L'enflure peut durer plusieurs mois, parfois plus d'un an ; c'est normal."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "ce_qui_aide": [
+   "Attacher le doigt blessé au doigt voisin avec un ruban (syndactylie) pendant 3 à 4 semaines, surtout lors du sport ou des tâches manuelles.",
+   "Bouger le doigt doucement plusieurs fois par jour dès que l'évaluation a écarté une fracture ou une lésion du tendon.",
+   "Mettre de la glace 10 à 15 minutes et surélever la main si le doigt est enflé.",
+   "Redresser complètement le doigt plusieurs fois par jour pour éviter qu'il ne reste plié, sans le forcer vers l'arrière."
+  ],
+  "urgence": [
+   "Le jour même : doigt qui part de travers, qui tourne sur lui-même, qui semble instable ou qui se bloque, ou plaie ouverte près de l'articulation (avis orthopédique requis)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : impossibilité de tendre l'articulation du milieu, surtout si le bout du doigt se relève vers l'arrière (déformation en boutonnière : attelle spéciale à mettre en place rapidement, pour environ 6 semaines).",
+   "Douleur vive qui ne diminue pas après 2 semaines.",
+   "Engourdissements dans le doigt."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-13)"
+ },
+ "dupuytren": {
+  "en_bref": [
+   "Le tissu sous la peau de la paume s'épaissit et forme des nodules ou des cordes.",
+   "Ce n'est pas un cancer. Il n'est pas prouvé que les exercices arrêtent la maladie.",
+   "Un traitement est proposé quand un doigt reste plié."
+  ],
+  "pourquoi": [
+   "Facteurs héréditaires, surtout chez les personnes d'origine nord-européenne.",
+   "Plus fréquent chez les hommes après 40 ans.",
+   "Diabète, tabac et alcool."
+  ],
+  "a_eviter": [
+   "Étirer les doigts avec force ou de façon brutale : rien ne prouve que cela allonge les cordes.",
+   "Serrer fort des objets durs qui écrasent des nodules douloureux dans la paume.",
+   "Essayer de couper ou de percer les nodules vous-même."
+  ],
+  "duree_habituelle": "Évolution lente et variable, sur des mois ou des années; chez certaines personnes, la maladie reste stable. Les exercices entretiennent la mobilité; il n'est pas prouvé qu'ils modifient l'évolution.",
+  "urgence": [
+   "Aucun signe de cette maladie ne demande une consultation urgente."
+  ],
+  "medecin": [
+   "Vous n'arrivez plus à poser la paume et les doigts à plat sur une table (test de la table positif).",
+   "Un doigt reste plié : environ 30 degrés ou plus à sa base, ou toute flexion permanente de l'articulation du milieu du doigt. Même chose si le pouce ne s'écarte plus bien.",
+   "Gêne dans les gestes courants (se laver le visage, enfiler des gants, mettre la main dans une poche).",
+   "Aggravation rapide ou nodules qui deviennent très douloureux."
+  ],
+  "references": [
+   {
+    "texte": "Rooth A et al., Dupuytren's disease: a state-of-the-art review, J Hand Surg Eur Vol, 2026",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Ball C et al., Systematic review of non-surgical treatments for early Dupuytren's disease, BMC Musculoskelet Disord, 2016",
+    "doi_ou_pmid": "à vérifier"
+   },
+   {
+    "texte": "Trojian TH, Chu SM, Dupuytren's Disease: Diagnosis and Treatment, Am Fam Physician, 2007",
+    "doi_ou_pmid": "PMID: 17668844"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-14)"
+ },
+ "lcu_pouce": {
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "ce_qui_aide": [
+   "Respecter la durée d'attelle du pouce prescrite par votre médecin (souvent 4 à 6 semaines).",
+   "Commencer les mouvements doux du pouce seulement quand le médecin autorise le retrait de l'attelle.",
+   "Mettre de la glace 10 à 15 minutes au besoin si la base du pouce est sensible.",
+   "Renforcer progressivement la pince entre le pouce et les doigts à partir de la 6e à la 8e semaine."
+  ],
+  "urgence": [],
+  "medecin": [
+   "Dans les prochains jours : sensation que le pouce part sur le côté ou qu'il est très instable (rupture complète possible; la décision de traitement se prend idéalement dans les 2 premières semaines).",
+   "Dans les prochains jours : petite bosse douloureuse à la base du pouce, du côté de l'index.",
+   "Douleur ou faiblesse qui empêche de pincer après 6 à 8 semaines.",
+   "Engourdissement du pouce."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-15)"
+ },
+ "poulie": {
+  "en_bref": [
+   "Un petit anneau qui tient le tendon contre l'os du doigt est étiré ou déchiré.",
+   "Une bague de protection et une reprise graduelle permettent la guérison.",
+   "Le retour complet à l'escalade prend souvent 2 à 3 mois."
+  ],
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "ce_qui_aide": [
+   "Arrêter la grimpe pendant environ 1 à 2 semaines, puis éviter les prises arquées pendant toute la guérison.",
+   "Protéger la poulie lors de la reprise avec la bague-orthèse rigide recommandée par votre thérapeute. Le strap (taping en H) est moins sûr : une étude en laboratoire n'a montré aucune protection.",
+   "Bouger le doigt doucement et sans charge dès le début pour éviter la raideur.",
+   "Reprendre progressivement, uniquement en prise tendue (ouverte), quand la douleur a disparu."
+  ],
+  "urgence": [],
+  "medecin": [
+   "Dans les prochains jours : le tendon forme une corde visible sous la peau à la base du doigt quand vous pliez (« effet corde d'arc »), ou nouveau claquement dans le doigt.",
+   "Gonflement important, rougeur ou douleur persistante au repos.",
+   "Impossibilité de tendre ou de plier complètement le doigt.",
+   "Douleur qui revient dès le retour sur de grosses prises.",
+   "Grimpeur de moins de 17 ans avec une douleur au doigt : une radiographie ou un autre examen peut être nécessaire pour vérifier la zone de croissance."
+  ],
+  "references": [
+   {
+    "texte": "Schöffl VR, Schöffl I, Injuries to the Finger Flexor Pulley System in Rock Climbers: Current Concepts, J Hand Surg Am, 2006",
+    "doi_ou_pmid": "PMID: 16632061"
+   },
+   {
+    "texte": "Schöffl I et al., Impact of Taping After Finger Flexor Tendon Pulley Ruptures in Rock Climbers, J Appl Biomech, 2007",
+    "doi_ou_pmid": "PMID: 16632061"
+   },
+   {
+    "texte": "Salas C et al., A Biomechanical Analysis of the H-Taping Method Used by Rock Climbers as Prophylactic or Stabilizing Fixation of Partial A2 Pulley Tears, J Hand Surg Am, 2023",
+    "doi_ou_pmid": "PMID: 35870957"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-16)"
+ },
+ "cervical": {
+  "en_bref": [
+   "Les picotements à la main viennent d'un nerf du cou, pas de la main elle-même.",
+   "Dans la grande majorité des cas, le nerf se calme avec le temps. Rester actif et faire des exercices aide pendant ce temps.",
+   "Signalez toute perte de force ou tout engourdissement qui augmente."
+  ],
+  "urgence": [
+   "Le jour même : maladresse des deux mains (boutons, écriture), perte d'équilibre en marchant ou faiblesse dans les jambes.",
+   "Le jour même : difficulté nouvelle à retenir ou à évacuer les urines ou les selles, ou sensations de décharge électrique dans le dos ou les membres quand vous penchez la tête.",
+   "Appelez le 911 : douleur au bras avec serrement dans la poitrine, essoufflement ou sueurs."
+  ],
+  "medecin": [
+   "Dans les prochains jours (le jour même si cela s'aggrave vite) : perte de force dans le bras, le poignet ou les doigts (échapper des objets), ou engourdissements qui s'aggravent.",
+   "Aucune amélioration après 4 à 6 semaines."
+  ],
+  "references": [
+   {
+    "texte": "Blanpied PR et al., Neck Pain: Revision 2017, J Orthop Sports Phys Ther, 2017",
+    "doi_ou_pmid": "PMID: 28666405"
+   },
+   {
+    "texte": "Childress MA, Becker BA, Nonoperative Management of Cervical Radiculopathy, Am Fam Physician, 2016",
+    "doi_ou_pmid": "PMID: 27175952"
+   },
+   {
+    "texte": "Sleijser-Koehorst MLS et al., Clinical course and prognostic models for the conservative management of cervical radiculopathy: a prospective cohort study, Eur Spine J, 2018",
+    "doi_ou_pmid": "PMID: 30327908"
+   }
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (MAI-17)"
+ }
+}

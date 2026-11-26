@@ -24,7 +24,8 @@ const REGIONS = [["cervical", "Rachis cervical", "CER"], ["epaule", "Épaule", "
   ["lombaire", "Rachis lombaire", "LOM"], ["hanche", "Hanche et bassin", "HAN"], ["genou", "Genou", "GEN"], ["cheville", "Cheville et jambe", "CHE"], ["pied", "Pied", "PIE"]];
 const COULEURS = { cervical: "#5b6f8f", epaule: "#8a5a83", coude: "#9a6b3c", poignet: "#4f7f78", lombaire: "#7d6536", hanche: "#a0524a", genou: "#2f6b4b", cheville: "#3f6f95", pied: "#6b7a3a" };
 const VERSION = "version 2", REVISION = "25 novembre 2026";
-const args = process.argv.slice(2), choisies = args.filter(a => !a.startsWith("--")), seulementHtml = args.includes("--html");
+const args = process.argv.slice(2), choisies = args.filter(a => !a.startsWith("--")), sansRevues = args.includes("--sans-revues"),
+  seulementHtml = args.includes("--html") || sansRevues;   // --sans-revues : texte de base (sans revues/), dans .cache/textes-base, pour integrer-revues.py
 const lireJSON = f => JSON.parse(fs.readFileSync(f, "utf8"));
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const TITRES = lireJSON(path.join(ICI, "titres.json"));
@@ -94,7 +95,7 @@ export function assembler(r, x, no) {
    regle_de_douleur, urgence, medecin, duree_habituelle, references, materiel) ; « exercices » : { "2": { champs } }
    (numéro de l'exercice, à partir de 1) ; « _journal » : décisions, hors fiche. */
 function reviser(r, id, f) {
-  const fic = path.join(ICI, "revues", `${r}.json`), rv = (fs.existsSync(fic) ? lireJSON(fic) : {})[id];
+  const fic = path.join(ICI, "revues", `${r}.json`), rv = sansRevues ? null : (fs.existsSync(fic) ? lireJSON(fic) : {})[id];
   if (!rv) return f;
   for (const [k, v] of Object.entries(rv)) {
     if (k.startsWith("_") || k === "materiel") continue;
@@ -160,7 +161,10 @@ const AJUSTER = () => [...document.querySelectorAll(".page")].map(p => {
   // Encore trop long à 9 points : les dessins rapetissent (de 0,95 à 0,55 po au plus).
   let img = 0.95;
   while (c.scrollHeight > c.clientHeight + 1 && img > 0.55) { img -= 0.05; c.style.setProperty("--img", img.toFixed(2) + "in"); }
-  return { t, img: +img.toFixed(2), deborde: c.scrollHeight > c.clientHeight + 1 };
+  // Toujours trop long : interligne et marges des cartes un peu plus serrés (deux crans), puis 8,75 points au plus bas.
+  for (const cran of ["serre", "serre2"]) if (c.scrollHeight > c.clientHeight + 1) c.classList.add(cran);
+  while (c.scrollHeight > c.clientHeight + 1 && t > 8.75) { t -= 0.25; c.style.setProperty("--t", t + "pt"); }
+  return { t, img: +img.toFixed(2), serre: c.classList.contains("serre2") ? 2 : c.classList.contains("serre") ? 1 : 0, deborde: c.scrollHeight > c.clientHeight + 1 };
 });
 
 async function main() {
@@ -171,8 +175,10 @@ async function main() {
     const v1 = lireJSON(path.join(ICI, "textes", `${r}.json`)).filter(x => x.applicable);
     const sever = lireJSON(path.join(ICI, "textes", "cheville.json")).find(x => x.id === "sever");
     const fiches = v1.map((x, k) => assembler(r, r === "pied" && x.id === "sever" ? { ...sever, id: "sever" } : x, k + 1));
-    fs.mkdirSync(path.join(ICI, "textes-v2"), { recursive: true });
-    fs.writeFileSync(path.join(ICI, "textes-v2", `${r}.json`), JSON.stringify(fiches, null, 1) + "\n");
+    const dossierTextes = path.join(ICI, sansRevues ? ".cache/textes-base" : "textes-v2");
+    fs.mkdirSync(dossierTextes, { recursive: true });
+    fs.writeFileSync(path.join(dossierTextes, `${r}.json`), JSON.stringify(fiches, null, 1) + "\n");
+    if (sansRevues) continue;
     const dossier = path.join(ICI, "v2", r); fs.mkdirSync(dossier, { recursive: true });
     for (const f of fiches) {
       const base = path.join(dossier, `${String(f.no).padStart(2, "0")}-${f.cle.split("/")[1]}`);
@@ -184,7 +190,7 @@ async function main() {
       await p.pdf({ path: base + ".pdf", format: "Letter", printBackground: true, margin: { top: 0, right: 0, bottom: 0, left: 0 }, preferCSSPageSize: true });
       await p.close();
       const pages = +execFileSync("pdfinfo", [base + ".pdf"]).toString().match(/Pages:\s+(\d+)/)[1];
-      bilan.push({ code: f.code, cle: f.cle, recto: t[0].t, verso: t[1].t, dessins: t[1].img, pages, deborde: t.some(x => x.deborde) });
+      bilan.push({ code: f.code, cle: f.cle, recto: t[0].t, verso: t[1].t, dessins: t[1].img, serre: Math.max(...t.map(x => x.serre)), pages, deborde: t.some(x => x.deborde) });
     }
     console.log(`${r} : ${fiches.length} fiches`);
   }
