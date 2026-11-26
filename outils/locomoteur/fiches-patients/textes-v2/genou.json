@@ -14,7 +14,7 @@
    "Renforcer les hanches et les cuisses est le cœur du traitement.",
    "Comptez au moins 6 à 12 semaines d'exercices réguliers."
   ],
-  "ce_que_vous_avez": "L'articulation entre la rotule et l'os de la cuisse est devenue sensible à la charge quand le genou plie (escaliers, squats, course, position assise prolongée). Le genou n'est ni usé ni abîmé. Le traitement le plus efficace est un programme d'exercices pour les cuisses et les hanches, avec de bonnes explications et un ajustement temporaire des activités qui réveillent la douleur.",
+  "ce_que_vous_avez": "L'articulation entre la rotule et l'os de la cuisse est devenue sensible à la charge quand le genou plie (escaliers, squats, course, position assise prolongée). Le genou n'est ni usé ni abîmé. Le meilleur traitement est un programme d'exercices pour les cuisses et les hanches. Il faut aussi bien comprendre le problème et diminuer un temps les activités qui réveillent la douleur.",
   "pourquoi": [
    "Hausse rapide des activités qui plient le genou (course, escaliers, squats).",
    "Muscles des hanches et des cuisses peu renforcés.",
@@ -23,8 +23,8 @@
   "ce_qui_aide": [
    "Renforcer les muscles des fesses (hanche) et de l'avant de la cuisse (quadriceps) : c'est le cœur du traitement.",
    "Allonger et dégourdir les jambes régulièrement si vous restez assis longtemps.",
-   "Réduire temporairement les descentes d'escaliers rapides et la course en pente ; si vous courez, diminuer un peu la distance et faire des pas légèrement plus courts.",
-   "Demander à votre physiothérapeute un bandage adhésif de la rotule (taping) : il peut soulager certaines personnes pendant les premières semaines, mais il n'ajoute pas toujours un bénéfice aux exercices.",
+   "Pour un temps, descendre les escaliers moins vite et éviter la course en pente. Si vous courez, diminuez un peu la distance et faites des pas un peu plus courts.",
+   "Demander à votre physiothérapeute un bandage adhésif de la rotule (taping). Il peut soulager pendant les premières semaines.",
    "Des semelles préfabriquées peuvent aussi soulager pendant les premières semaines (environ 6 semaines)."
   ],
   "a_eviter": [
@@ -37,7 +37,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.",
    "Anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou dure plus longtemps, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel le lendemain matin. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Genou qui enfle beaucoup, devient chaud ou rouge, avec ou sans fièvre.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement."
@@ -92,7 +92,7 @@
    {
     "nom": "Descente lente d'une marche (step-down)",
     "position_de_depart": "Debout sur une marche basse (10 à 15 cm), une main près d'une rampe, une jambe dans le vide devant.",
-    "mouvement": "Pliez lentement le genou d'appui pour descendre effleurer le sol avec l'autre talon, en gardant le genou aligné avec le 2e orteil et le bassin horizontal, puis remontez.",
+    "mouvement": "Pliez lentement le genou d'appui pour toucher le sol avec l'autre talon. Gardez le genou aligné avec le 2e orteil et le bassin droit, puis remontez.",
     "dosage": "3 séries de 10 répétitions par jambe, 3 fois par semaine (à commencer quand les trois premiers exercices sont bien tolérés).",
     "progression": "Utilisez une marche un peu plus haute quand le contrôle est parfait.",
     "erreur_frequente": "Laisser le genou rentrer vers l'intérieur ou se laisser tomber sur le talon.",
@@ -134,7 +134,7 @@
    "Marcher, faire du vélo stationnaire ou de l'aquaforme régulièrement.",
    "Renforcer les muscles des cuisses et des fesses 2 à 3 fois par semaine.",
    "Bouger doucement le genou le matin avant de vous lever.",
-   "Si vous avez un surplus de poids, perdre au moins 5 % de votre poids (environ 4 à 5 kg si vous pesez 90 kg) diminue la douleur ; plus la perte est importante, plus le bénéfice est grand (l'effet est plus net à partir de 10 %)."
+   "Si vous avez un surplus de poids, perdre du poids diminue la douleur : par exemple 5 kg si vous pesez 90 kg. Plus vous en perdez, plus ça aide."
   ],
   "a_eviter": [
    "Rester inactif par peur d'abîmer votre genou : l'inactivité augmente la raideur, la faiblesse et la douleur.",
@@ -145,7 +145,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème d'abord ; en comprimés seulement pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant les exercices, une douleur jusqu'à 5 sur 10 est acceptable et ne veut pas dire que vous abîmez votre genou, si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 5 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant les exercices, une douleur jusqu'à 5 sur 10 est acceptable : elle ne veut pas dire que vous abîmez votre genou. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Genou soudainement très enflé, rouge et chaud, avec ou sans fièvre.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement."
@@ -235,7 +235,7 @@
    "Sans blocage, les exercices donnent d'aussi bons résultats que la chirurgie.",
    "Comptez environ 3 mois d'exercices bien faits."
   ],
-  "ce_que_vous_avez": "Un des deux petits coussins amortisseurs de votre genou (le ménisque) présente une fissure. Quand la fissure est apparue progressivement, sans gros accident, et que le genou ne se bloque pas (situation la plus fréquente après 35 à 40 ans), les études montrent qu'un programme d'exercices d'environ 12 semaines donne d'aussi bons résultats que la chirurgie, sans les risques d'une opération. Chez l'adulte plus jeune dont le genou ne bloque pas, commencer par les exercices est aussi une option à discuter avec votre médecin. Une opération reste possible plus tard si les exercices ne suffisent pas : dans les études, de 2 à 4 personnes sur 10 ont été opérées plus tard.",
+  "ce_que_vous_avez": "Un des deux petits coussins amortisseurs de votre genou (le ménisque) présente une fissure. Souvent, la fissure est apparue peu à peu, sans gros accident, et le genou ne se bloque pas. C'est le plus fréquent après 35 à 40 ans. Dans ce cas, environ 12 semaines d'exercices donnent d'aussi bons résultats que la chirurgie, sans les risques d'une opération. Chez l'adulte plus jeune dont le genou ne bloque pas, commencer par les exercices est aussi une option à discuter avec votre médecin. Une opération reste possible plus tard si les exercices ne suffisent pas.",
   "pourquoi": [
    "Changements normaux du ménisque avec l'âge.",
    "Torsion du genou, souvent en se relevant d'une position accroupie.",
@@ -256,7 +256,7 @@
    "Glace 10 à 15 minutes, dans un linge, si le genou est enflé.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10, ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Le lendemain, le genou ne doit pas être plus enflé. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Genou bloqué (impossible de le tendre complètement) : avis orthopédique rapide.",
    "Genou très enflé, rouge et chaud, avec ou sans fièvre."
@@ -273,7 +273,7 @@
   ],
   "exercices": [
    {
-    "nom": "Contraction statique du quadriceps",
+    "nom": "Contraction de la cuisse, sans bouger",
     "position_de_depart": "Assis, jambes allongées devant vous, une petite serviette roulée sous le genou.",
     "mouvement": "Écrasez la serviette avec l'arrière du genou en serrant fort le dessus de la cuisse pendant 5 secondes (le talon peut décoller légèrement), puis relâchez.",
     "dosage": "3 séries de 10 répétitions, 2 fois par jour.",
@@ -335,7 +335,7 @@
    "Avec ou sans chirurgie plus tard, la première étape est la même : retrouver l'extension et réveiller la cuisse.",
    "Le retour aux sports avec pivots se décide avec votre médecin."
   ],
-  "ce_que_vous_avez": "Le ligament croisé antérieur, qui stabilise le genou lors des pivots, est déchiré. Que vous ayez une chirurgie plus tard ou non, la première étape est la même et elle est essentielle : faire dégonfler le genou, retrouver l'extension complète (jambe bien droite), réveiller les muscles de la cuisse et marcher sans boiter. Dans les études, environ la moitié des personnes qui ont commencé par la réadaptation n'ont pas eu besoin d'opération.",
+  "ce_que_vous_avez": "Le ligament croisé antérieur, qui stabilise le genou lors des pivots, est déchiré. Avec ou sans chirurgie plus tard, la première étape est la même et elle est très importante. Il faut faire dégonfler le genou, retrouver une jambe bien droite, réveiller les muscles de la cuisse et marcher sans boiter. Beaucoup de personnes qui commencent par la réadaptation n'ont jamais besoin d'opération.",
   "pourquoi": [
    "Pivot, changement de direction ou réception de saut, souvent sans contact.",
    "Sports comme le soccer, le ski, le basketball ou le hockey."
@@ -355,7 +355,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou enfle davantage, réduisez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit se calmer en quelques heures. Le lendemain, le genou ne doit être ni plus douloureux ni plus enflé. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Gonflement énorme et très douloureux, ou fièvre.",
    "Engourdissements, pied qui tombe, pied froid ou pâle, ou mollet douloureux, enflé et chaud.",
@@ -365,7 +365,7 @@
   "medecin": [
    "Épisodes répétés où le genou lâche dans les activités de tous les jours."
   ],
-  "duree_habituelle": "Phase initiale de 4 à 6 semaines environ : elle est terminée quand le genou est dégonflé, bien droit, et que la cuisse est réveillée, plutôt qu'après un nombre fixe de semaines. La réadaptation complète dure 9 à 12 mois ; après une reconstruction, le retour aux sports de pivot ne se fait pas avant 9 mois et seulement après avoir réussi des tests de force et de saut.",
+  "duree_habituelle": "Première étape : environ 4 à 6 semaines. Elle est finie quand le genou est dégonflé et bien droit, et que la cuisse est réveillée. La réadaptation complète dure 9 à 12 mois. Après une chirurgie, le retour aux sports avec pivots se fait au plus tôt après 9 mois, et seulement après avoir réussi des tests de force et de saut.",
   "materiel": [
    "serviette",
    "coussin"
@@ -384,12 +384,12 @@
     "plus_facile": "Tenez 2 minutes."
    },
    {
-    "nom": "Réveil du quadriceps et lever de jambe tendue",
+    "nom": "Réveil de la cuisse et lever de jambe tendue",
     "position_de_depart": "Couché sur le dos, l'autre genou plié, la jambe blessée bien tendue.",
     "mouvement": "Serrez fort la cuisse pour verrouiller le genou droit, puis levez la jambe tendue à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
     "dosage": "3 séries de 10 répétitions, 2 fois par jour.",
     "progression": "Enchaînez avec les mini-squats sur deux pieds dès que le genou est dégonflé.",
-    "erreur_frequente": "Laisser le genou plier légèrement en levant la jambe (signe que le quadriceps n'est pas encore assez réveillé).",
+    "erreur_frequente": "Laisser le genou plier légèrement en levant la jambe (signe que le muscle de la cuisse n'est pas encore assez réveillé).",
     "illustration": "Dessin au trait d'une personne couchée sur le dos levant une jambe parfaitement tendue.",
     "phase": "Dès maintenant",
     "but": "Pour réveiller la cuisse.",
@@ -446,19 +446,19 @@
    "La plupart de ces entorses guérissent sans chirurgie.",
    "Renforcer la cuisse est la clé du traitement."
   ],
-  "ce_que_vous_avez": "Le ligament situé à l'arrière du centre du genou (le LCP), qui empêche le tibia de glisser vers l'arrière, a été étiré ou partiellement déchiré, souvent après un choc sur l'avant du genou plié. Pour la majorité des entorses isolées, renforcer solidement le muscle du devant de la cuisse (quadriceps) permet de bien compenser sans chirurgie.",
+  "ce_que_vous_avez": "Un ligament au centre du genou, vers l'arrière, a été étiré ou un peu déchiré. Il empêche l'os de la jambe de glisser vers l'arrière. Cela arrive souvent après un choc sur l'avant du genou plié. Pour la majorité des entorses isolées, renforcer solidement le muscle du devant de la cuisse (quadriceps) permet de bien compenser sans chirurgie.",
   "pourquoi": [
    "Choc sur le devant du tibia, genou plié (tableau de bord, chute sur le genou)."
   ],
   "ce_qui_aide": [
    "Porter l'orthèse prescrite par votre médecin pendant toute la durée indiquée (souvent plusieurs semaines).",
-   "Renforcer en priorité le quadriceps (devant de la cuisse).",
+   "Renforcer d'abord le devant de la cuisse.",
    "Au repos, placer un petit coussin sous le mollet pour soutenir le tibia (pas sous le talon seul, ni derrière le genou).",
    "Reprendre la course et le sport par étapes avec votre physiothérapeute."
   ],
   "a_eviter": [
-   "Faire travailler seuls les muscles de l'arrière de la cuisse (ischio-jambiers) : au début, ne pliez pas le genou en forçant avec ces muscles, et ne faites pas de flexion contre résistance (machine, élastique) avant environ 12 semaines, sauf avis de votre physiothérapeute.",
-   "Plier le genou à plus de 90 degrés pendant les 2 premières semaines, ou descendre à plus de 70 degrés en squat pendant les premières semaines.",
+   "Forcer seulement avec les muscles de l'arrière de la cuisse. Au début, ne pliez pas le genou en forçant avec ces muscles. Pas d'exercice pour plier le genou contre une résistance (machine, élastique) avant environ 12 semaines, sauf avis de votre physiothérapeute.",
+   "Plier le genou plus qu'à angle droit pendant les 2 premières semaines. Ou descendre trop bas en squat pendant les premières semaines.",
    "S'agenouiller sur l'avant du tibia ou pousser le genou en hyperextension.",
    "Descendre des pentes raides au début."
   ],
@@ -466,7 +466,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit se calmer en quelques heures. Le lendemain, le genou ne doit être ni plus douloureux ni plus enflé. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Engourdissements, picotements dans le pied, pied froid ou pâle, ou pied qui tombe après le choc.",
    "Mollet douloureux, enflé et chaud."
@@ -484,7 +484,7 @@
   ],
   "exercices": [
    {
-    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "nom": "Contraction de la cuisse et lever de jambe tendue",
     "position_de_depart": "Couché sur le dos, jambe blessée tendue, l'autre genou plié.",
     "mouvement": "Serrez fort le dessus de la cuisse pour verrouiller le genou droit, puis levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
     "dosage": "3 séries de 10 répétitions, 2 fois par jour.",
@@ -546,7 +546,7 @@
    "Les entorses légères à modérées guérissent bien sans chirurgie.",
    "Comptez quelques semaines avant le retour au sport."
   ],
-  "ce_que_vous_avez": "Le ligament situé sur le côté intérieur (le plus souvent) ou extérieur de votre genou a été étiré ou partiellement déchiré après une torsion ou un choc sur le côté. Le ligament intérieur guérit presque toujours sans chirurgie, avec un peu de protection et un renforcement progressif. Les entorses légères à modérées du ligament extérieur guérissent aussi sans opération ; une déchirure complète du côté extérieur doit par contre être évaluée rapidement en orthopédie. Cette fiche s'adresse aux entorses légères à modérées.",
+  "ce_que_vous_avez": "Un ligament sur le côté de votre genou a été étiré ou un peu déchiré, le plus souvent du côté intérieur. Cela arrive après une torsion ou un choc sur le côté. Le ligament intérieur guérit presque toujours sans chirurgie, avec un peu de protection et un renforcement progressif. Les entorses légères ou moyennes du côté extérieur guérissent aussi sans opération. Mais si le ligament extérieur est complètement déchiré, il faut voir rapidement un orthopédiste. Cette fiche s'adresse aux entorses légères à modérées.",
   "pourquoi": [
    "Choc sur le côté du genou ou torsion (hockey, soccer, ski)."
   ],
@@ -565,7 +565,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit se calmer en quelques heures. Le lendemain, le genou ne doit être ni plus douloureux ni plus enflé. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Engourdissement sur le dessus du pied ou difficulté à relever le pied ou les orteils (surtout après une blessure du côté extérieur) : urgence.",
    "Pied froid ou pâle : urgence.",
@@ -595,7 +595,7 @@
     "plus_facile": "Faites un plus petit mouvement."
    },
    {
-    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "nom": "Contraction de la cuisse et lever de jambe tendue",
     "position_de_depart": "Couché sur le dos, jambe blessée tendue, l'autre genou plié.",
     "mouvement": "Serrez la cuisse, verrouillez le genou droit et levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
     "dosage": "3 séries de 10 répétitions, 1 à 2 fois par jour.",
@@ -645,7 +645,7 @@
    "Renforcer les fessiers et les cuisses la stabilise.",
    "Une chirurgie est discutée si les épisodes se répètent."
   ],
-  "ce_que_vous_avez": "Votre rotule est sortie de sa glissière (luxation) ou donne l'impression de vouloir partir sur le côté. Après la courte période d'attelle ou de repos conseillée par votre médecin, renforcer le devant de la cuisse et les muscles des hanches aide à stabiliser la rotule. Environ une personne sur trois refait une luxation dans les années qui suivent, et près d'une sur deux chez les moins de 18 ans : si cela se reproduit, reconsultez.",
+  "ce_que_vous_avez": "Votre rotule est sortie de sa glissière (luxation) ou donne l'impression de vouloir partir sur le côté. Après un court repos ou une attelle, selon votre médecin, renforcer le devant de la cuisse et les hanches aide à garder la rotule en place. La rotule peut se déboîter de nouveau, surtout chez les jeunes. Si cela se reproduit, reconsultez.",
   "pourquoi": [
    "Pivot, genou plié, sans contact.",
    "Forme particulière de la rotule ou de sa glissière.",
@@ -654,7 +654,7 @@
   "ce_qui_aide": [
    "Suivre les consignes d'attelle de votre médecin dans les premières semaines.",
    "Au besoin, mettre de la glace 15 minutes (avec un linge sur la peau) après les exercices si le genou est sensible.",
-   "Renforcer le quadriceps et les fessiers pour stabiliser le genou.",
+   "Renforcer le devant de la cuisse et les fesses pour garder le genou stable.",
    "Garder le genou bien aligné avec le pied dans les escaliers et les squats."
   ],
   "a_eviter": [
@@ -666,7 +666,7 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Arrêtez immédiatement tout mouvement qui donne l'impression que la rotule va glisser.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit se calmer en quelques heures. Le lendemain, le genou ne doit être ni plus douloureux ni plus enflé. Arrêtez tout de suite un mouvement qui donne l'impression que la rotule va glisser.",
   "urgence": [
    "Nouvelle luxation ou nouvel épisode où la rotule part sur le côté.",
    "Gonflement très important et rapide du genou.",
@@ -676,7 +676,7 @@
   "medecin": [
    "Sensation persistante que la rotule va se déboîter malgré 3 mois d'exercices."
   ],
-  "duree_habituelle": "Réadaptation de base en 6 à 12 semaines ; retour aux sports de pivot ou de contact habituellement pas avant environ 3 mois, une fois la force retrouvée.",
+  "duree_habituelle": "Réadaptation de base en 6 à 12 semaines. Retour aux sports avec pivots ou contacts, habituellement pas avant 3 mois, une fois la force revenue.",
   "materiel": [
    "élastique",
    "mur",
@@ -684,7 +684,7 @@
   ],
   "exercices": [
    {
-    "nom": "Contraction statique du quadriceps et lever de jambe tendue",
+    "nom": "Contraction de la cuisse et lever de jambe tendue",
     "position_de_depart": "Couché sur le dos, jambe atteinte tendue, l'autre genou plié.",
     "mouvement": "Serrez la cuisse pour verrouiller le genou droit et levez la jambe à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
     "dosage": "3 séries de 10 répétitions, 1 à 2 fois par jour.",
@@ -764,7 +764,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider pendant quelques jours, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Sinon, réduisez la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel le lendemain matin. Elle ne doit pas augmenter d'une semaine à l'autre. Sinon, prenez moins de poids.",
   "urgence": [
    "Claquement brutal avec impossibilité de tendre le genou ou de lever la jambe tendue (rupture du tendon : urgence).",
    "Rougeur et chaleur avec fièvre."
@@ -774,7 +774,7 @@
    "Douleur qui empire malgré la diminution des sauts.",
    "Aucun progrès après 12 semaines d'exercices réguliers."
   ],
-  "duree_habituelle": "Premiers progrès en 6 à 12 semaines de renforcement progressif ; la récupération complète et le retour aux sauts prennent souvent 3 à 6 mois, parfois plus. La plupart des sportifs finissent par reprendre leur sport, mais une légère douleur peut rester pendant le sport.",
+  "duree_habituelle": "Premiers progrès en 6 à 12 semaines de renforcement. La guérison complète et le retour aux sauts prennent souvent 3 à 6 mois, parfois plus. La plupart des sportifs finissent par reprendre leur sport, mais une légère douleur peut rester pendant le sport.",
   "materiel": [
    "chaise",
    "mur",
@@ -782,7 +782,7 @@
   ],
   "exercices": [
    {
-    "nom": "Chaise au mur statique (isométrique)",
+    "nom": "Chaise au mur statique",
     "position_de_depart": "Debout, dos appuyé contre un mur, pieds avancés d'environ 40 à 50 cm.",
     "mouvement": "Glissez le dos pour plier les genoux à environ 60 degrés et tenez la position immobile pendant 30 à 45 secondes.",
     "dosage": "4 à 5 répétitions avec 1 à 2 minutes de repos entre chacune, 1 fois par jour. Cet exercice peut soulager la douleur pendant un court moment chez certaines personnes ; s'il vous soulage, il peut être fait avant le sport.",
@@ -796,9 +796,9 @@
    {
     "nom": "Squat lent contrôlé",
     "position_de_depart": "Debout, pieds à la largeur des épaules.",
-    "mouvement": "Descendez lentement en 3 secondes jusqu'à plier les genoux à 60 à 75 degrés (puis, au fil des semaines, jusqu'à 90 degrés), et remontez lentement en 3 secondes.",
+    "mouvement": "Descendez lentement en 3 secondes, en pliant les genoux un peu moins qu'à angle droit. Avec les semaines, descendez jusqu'à angle droit. Remontez lentement en 3 secondes.",
     "dosage": "3 à 4 séries de 10 à 15 répétitions, 3 fois par semaine (un jour sur deux).",
-    "progression": "Quand 15 répétitions sont faciles, ajoutez de la charge (sac à dos lesté, haltère contre la poitrine, presse à cuisses en salle) et diminuez peu à peu jusqu'à 6 à 8 répétitions plus lourdes. C'est la charge lente et de plus en plus lourde qui renforce le tendon ; une charge modérée donne aussi de bons résultats.",
+    "progression": "Quand 15 répétitions sont faciles, ajoutez du poids (sac à dos, haltère contre la poitrine, appareil en salle). Faites alors moins de répétitions, jusqu'à 6 à 8 plus lourdes. C'est la charge lente et de plus en plus lourde qui renforce le tendon ; une charge modérée donne aussi de bons résultats.",
     "erreur_frequente": "Faire les répétitions trop vite ou rester toujours au poids du corps.",
     "illustration": "Dessin au trait d'un sportif réalisant un squat très lent, dos droit.",
     "phase": "Quand la douleur diminue",
@@ -844,7 +844,7 @@
    "Éviter de verrouiller le genou vers l'arrière le soulage.",
    "Le renforcement des hanches et des cuisses aide."
   ],
-  "ce_que_vous_avez": "Un petit coussin de graisse très sensible, situé juste derrière le tendon sous la rotule, est pincé quand vous verrouillez le genou tout droit ou vers l'arrière. Éviter de bloquer le genou en hyperextension et renforcer les cuisses et les hanches calment habituellement ce pincement.",
+  "ce_que_vous_avez": "Un petit coussin de graisse très sensible, juste derrière le tendon sous la rotule, est pincé. Cela arrive quand vous bloquez le genou tout droit ou vers l'arrière. Éviter de bloquer le genou en hyperextension et renforcer les cuisses et les hanches calment habituellement ce pincement.",
   "pourquoi": [
    "Genou verrouillé vers l'arrière en position debout.",
    "Coup sur le devant du genou."
@@ -865,7 +865,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Genou enflé, chaud et rouge, avec ou sans fièvre.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement."
@@ -948,7 +948,7 @@
   "ce_qui_aide": [
    "Réduire temporairement la distance de course et éviter les descentes de côtes.",
    "Renforcer les muscles des fesses (abducteurs de la hanche) et du tronc.",
-   "À la reprise, augmenter légèrement la cadence de course (5 à 10 % de pas en plus par minute, donc des pas un peu plus courts).",
+   "À la reprise, faire des pas un peu plus courts et un peu plus rapides en courant.",
    "À vélo, vérifier le réglage de la selle (une selle trop haute ou trop reculée irrite le côté du genou)."
   ],
   "a_eviter": [
@@ -961,7 +961,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne règlent pas la cause : ajuster l'entraînement et faire les exercices restent le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions, la charge ou la distance de course.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Sinon, faites-en moins : plus petit mouvement, moins de répétitions, moins de poids ou moins de distance de course.",
   "urgence": [
    "Engourdissements ou faiblesse du pied.",
    "Genou enflé, chaud et rouge, avec ou sans fièvre.",
@@ -1005,7 +1005,7 @@
    {
     "nom": "Descente lente d'une marche (contrôle sur une jambe)",
     "position_de_depart": "Debout sur une marche basse, une jambe dans le vide devant.",
-    "mouvement": "Pliez lentement le genou d'appui pour effleurer le sol avec l'autre talon, en gardant le bassin horizontal et le genou aligné avec le pied, puis remontez.",
+    "mouvement": "Pliez lentement le genou d'appui pour toucher le sol avec l'autre talon. Gardez le bassin droit et le genou aligné avec le pied, puis remontez.",
     "dosage": "3 séries de 10 répétitions par jambe, 3 fois par semaine.",
     "progression": "Passez au squat partiel sur une jambe.",
     "erreur_frequente": "Laisser le genou rentrer vers l'intérieur ou la hanche opposée tomber.",
@@ -1041,7 +1041,7 @@
    "Sans infection, elle diminue le plus souvent d'elle-même.",
    "Évitez de vous agenouiller ; portez des genouillères au travail."
   ],
-  "ce_que_vous_avez": "Une petite poche située entre la peau et la rotule (la bourse) s'est remplie de liquide après un choc ou un travail prolongé à genoux (plancher, jardinage). Quand il n'y a pas d'infection, protéger le genou de tout appui et le bouger doucement permettent au liquide de se résorber peu à peu.",
+  "ce_que_vous_avez": "Une petite poche entre la peau et la rotule s'est remplie de liquide. Cela arrive après un choc ou après avoir travaillé longtemps à genoux (plancher, jardinage). Quand il n'y a pas d'infection, protéger le genou de tout appui et le bouger doucement permettent au liquide de se résorber peu à peu.",
   "pourquoi": [
    "Travail prolongé à genoux (plancher, jardinage).",
    "Coup direct sur le devant du genou."
@@ -1061,7 +1061,7 @@
    "Glace 15 minutes, dans un linge, et un bandage compressif léger pour diminuer l'enflure.",
    "Un anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si l'enflure augmente, réduisez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si l'enflure augmente, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Le devant du genou devient rouge, très chaud ou très douloureux, même sans fièvre (infection possible : urgence).",
    "Fièvre ou frissons.",
@@ -1087,7 +1087,7 @@
     "plus_facile": "Pliez moins loin."
    },
    {
-    "nom": "Contraction douce du quadriceps",
+    "nom": "Contraction douce de la cuisse",
     "position_de_depart": "Assis, jambe tendue devant vous.",
     "mouvement": "Serrez doucement le dessus de la cuisse pendant 5 secondes pour tendre le genou, puis relâchez.",
     "dosage": "10 répétitions, 2 fois par jour.",
@@ -1137,7 +1137,7 @@
    "Renforcer les cuisses et les hanches les calme.",
    "La durée varie beaucoup : de quelques semaines à plusieurs mois."
   ],
-  "ce_que_vous_avez": "Trois tendons se rejoignent juste sous le côté intérieur du genou, sur une petite zone appelée la « patte d'oie ». Cette zone est irritée, souvent par la marche ou la course ; c'est plus fréquent en présence d'arthrose du genou, de diabète ou d'un surplus de poids. Renforcer les cuisses et les hanches et ajuster temporairement les activités soulagent souvent cette douleur.",
+  "ce_que_vous_avez": "Trois tendons se rejoignent juste sous le côté intérieur du genou, sur une petite zone appelée la « patte d'oie ». Cette zone est irritée, souvent par la marche ou la course. C'est plus fréquent avec de l'arthrose du genou, du diabète ou un surplus de poids. Renforcer les cuisses et les hanches et ajuster temporairement les activités soulagent souvent cette douleur.",
   "pourquoi": [
    "Arthrose du genou, souvent associée.",
    "Surpoids et diabète.",
@@ -1160,7 +1160,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain matin. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Rougeur, chaleur vive, gonflement important ou fièvre.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement."
@@ -1188,7 +1188,7 @@
     "plus_facile": "Montez moins haut."
    },
    {
-    "nom": "Lever de jambe tendue (quadriceps)",
+    "nom": "Lever de jambe tendue",
     "position_de_depart": "Couché sur le dos, l'autre genou plié, jambe atteinte tendue.",
     "mouvement": "Serrez la cuisse et levez la jambe tendue à 30 cm du sol. Tenez 3 secondes et redescendez lentement.",
     "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
@@ -1234,7 +1234,7 @@
    "Ce n'est pas dangereux pour le genou. La douleur se calme chez la plupart des jeunes, mais cela peut prendre des mois, parfois plus d'un an.",
    "On ajuste le sport selon la douleur, sans arrêter complètement."
   ],
-  "ce_que_vous_avez": "Pendant la poussée de croissance, le tendon de la rotule tire de façon répétée sur une zone de croissance encore tendre, juste sous le genou, ce qui forme parfois une petite bosse sensible. Ce n'est pas dangereux pour le genou. La douleur se calme chez la plupart des jeunes, mais cela peut prendre plusieurs mois, parfois plus d'un an, et elle peut revenir par périodes. Doser le sport selon la douleur et renforcer les cuisses et les hanches aident beaucoup.",
+  "ce_que_vous_avez": "Quand un jeune grandit vite, le tendon de la rotule tire souvent sur une zone de croissance encore tendre, juste sous le genou. Cela fait parfois une petite bosse sensible. Ce n'est pas dangereux pour le genou. La douleur se calme chez la plupart des jeunes, mais cela peut prendre plusieurs mois, parfois plus d'un an, et elle peut revenir par périodes. Doser le sport selon la douleur et renforcer les cuisses et les hanches aident beaucoup.",
   "pourquoi": [
    "Poussée de croissance.",
    "Sports avec sauts, sprints et frappes."
@@ -1255,16 +1255,16 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à la normale au plus tard le lendemain. Au-delà, ou si la douleur est plus forte le lendemain, diminuez l'intensité ou la durée de l'activité.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable. Elle doit être revenue à la normale au plus tard le lendemain. Sinon, faites l'activité moins fort ou moins longtemps.",
   "urgence": [
-   "Douleur soudaine et très forte pendant un saut ou un sprint, avec incapacité de tendre le genou ou de marcher, ou gonflement rapide (arrachement osseux à vérifier d'urgence).",
+   "Douleur soudaine et très forte pendant un saut ou un sprint, avec genou impossible à tendre, impossible de marcher, ou genou qui enfle vite. Un morceau d'os est peut-être arraché.",
    "Douleur au repos ou la nuit, ou fièvre."
   ],
   "medecin": [
    "Boiterie qui persiste malgré la diminution du sport.",
    "Absence d'amélioration après 3 mois."
   ],
-  "duree_habituelle": "La plupart des jeunes (environ 8 sur 10) se sentent nettement mieux après environ 12 semaines, mais le retour complet au sport prend souvent plusieurs mois : environ 7 jeunes sur 10 ont repris tout leur sport après un an. La petite bosse osseuse peut rester et demeurer sensible à l'appui.",
+  "duree_habituelle": "La plupart des jeunes vont nettement mieux après environ 12 semaines. Mais le retour complet au sport prend souvent plusieurs mois, parfois jusqu'à un an. La petite bosse osseuse peut rester et demeurer sensible à l'appui.",
   "materiel": [
    "chaise",
    "mur"
@@ -1283,7 +1283,7 @@
     "plus_facile": "Montez moins haut."
    },
    {
-    "nom": "Extension statique du genou, assis (quadriceps)",
+    "nom": "Tendre le genou sans bouger, assis",
     "position_de_depart": "Assis sur une chaise, genou atteint plié à environ 60 degrés, l'autre pied croisé devant la cheville pour résister.",
     "mouvement": "Poussez doucement la jambe atteinte vers l'avant contre l'autre pied, sans bouger. Tenez 30 secondes, puis relâchez.",
     "dosage": "10 maintiens de 30 secondes, 1 fois par jour (commencer par 10 à 15 secondes si la bosse est très sensible).",
@@ -1299,7 +1299,7 @@
     "position_de_depart": "Debout, pieds à la largeur des épaules.",
     "mouvement": "Pliez les genoux jusqu'à 60 degrés de façon lente et contrôlée (sans laisser les genoux rentrer vers l'intérieur), puis remontez.",
     "dosage": "3 séries de 10 répétitions, 3 fois par semaine (à partir de la 5e semaine si c'est bien toléré).",
-    "progression": "Passez aux fentes contrôlées, puis augmentez le sport par étapes : d'abord l'échauffement avec l'équipe, puis environ 15 minutes de plus chaque semaine si la douleur reste à 2 sur 10 ou moins.",
+    "progression": "Passez aux fentes contrôlées, puis augmentez le sport par étapes. D'abord l'échauffement avec l'équipe, puis environ 15 minutes de plus chaque semaine, si la douleur reste à 2 sur 10 ou moins.",
     "erreur_frequente": "Descendre trop bas ou aller trop vite.",
     "illustration": "Dessin au trait d'un adolescent réalisant un demi-squat contrôlé.",
     "phase": "Quand la douleur diminue",
@@ -1333,7 +1333,7 @@
    "Ce n'est pas dangereux, et ça guérit, le plus souvent en quelques mois.",
    "On ajuste les sauts selon la douleur."
   ],
-  "ce_que_vous_avez": "Chez un jeune en pleine croissance (souvent entre 10 et 15 ans), le tendon tire de façon répétée sur la pointe inférieure de la rotule, qui est encore en croissance. C'est bénin et cela guérit, habituellement en quelques mois, parfois seulement à la fin de la croissance. Doser les sauts et renforcer doucement les jambes permettent à la douleur de se calmer.",
+  "ce_que_vous_avez": "Chez un jeune qui grandit (souvent entre 10 et 15 ans), le tendon tire souvent sur le bas de la rotule, qui grandit encore. C'est bénin et cela guérit, habituellement en quelques mois, parfois seulement à la fin de la croissance. Doser les sauts et renforcer doucement les jambes permettent à la douleur de se calmer.",
   "pourquoi": [
    "Poussée de croissance.",
    "Sports avec sauts et sprints."
@@ -1353,9 +1353,9 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à la normale au plus tard le lendemain. Au-delà, ou si la douleur est plus forte le lendemain, diminuez l'intensité ou la durée de l'activité.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable. Elle doit être revenue à la normale au plus tard le lendemain. Sinon, faites l'activité moins fort ou moins longtemps.",
   "urgence": [
-   "Douleur brutale pendant un saut, avec genou enflé et incapacité de lever la jambe tendue (fracture à vérifier d'urgence ; une radiographie normale ne l'exclut pas toujours).",
+   "Douleur soudaine pendant un saut, avec genou enflé et jambe tendue impossible à lever. Une fracture est à vérifier d'urgence, même si la radiographie est normale.",
    "Genou enflé, rouge et chaud, ou fièvre.",
    "Douleur au repos ou la nuit."
   ],
@@ -1432,13 +1432,13 @@
    "Après 1 à 3 jours de protection, bouger aide à guérir.",
    "La plupart des personnes vont mieux en 1 à 3 semaines."
   ],
-  "ce_que_vous_avez": "Votre genou a subi un coup ou une petite torsion, mais l'examen montre que les os, les ligaments et les ménisques sont intacts. Après 1 à 3 jours de protection, bouger doucement puis reprendre progressivement vos activités est le meilleur moyen de retrouver toute votre mobilité et votre force.",
+  "ce_que_vous_avez": "Votre genou a subi un coup ou une petite torsion, mais l'examen montre que les os, les ligaments et les ménisques sont intacts. Après 1 à 3 jours de protection, bougez doucement, puis reprenez peu à peu vos activités. C'est le meilleur moyen de retrouver tout votre mouvement et votre force.",
   "pourquoi": [
    "Coup direct ou petite torsion du genou."
   ],
   "ce_qui_aide": [
    "Ménager le genou pendant 1 à 3 jours, le surélever au repos et porter un bandage élastique confortable s'il est enflé.",
-   "Au besoin, pour soulager la douleur, mettre de la glace 15 minutes (avec un linge sur la peau) 2 à 3 fois par jour pendant les 2 à 3 premiers jours.",
+   "Au besoin, mettre de la glace 15 minutes, avec un linge sur la peau, 2 à 3 fois par jour pendant les 2 à 3 premiers jours.",
    "Plier et tendre doucement le genou dès les premiers jours pour éviter qu'il se raidisse.",
    "Marcher normalement, sans boiter, dès que possible.",
    "Reprendre le sport progressivement quand le genou est fort et indolore."
@@ -1450,9 +1450,9 @@
   ],
   "soulager": [
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
-   "Un anti-inflammatoire en crème est le premier choix ; l'acétaminophène ou un anti-inflammatoire en comprimés peuvent aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+   "Un anti-inflammatoire en crème est le premier choix. L'acétaminophène ou un anti-inflammatoire en comprimés peuvent aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude ou le nombre de répétitions.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit se calmer en quelques heures. Le lendemain, le genou ne doit être ni plus douloureux ni plus enflé. Sinon, faites un plus petit mouvement ou moins de répétitions.",
   "urgence": [
    "Fièvre, ou genou rouge et chaud.",
    "Genou qui enfle beaucoup en quelques heures.",
@@ -1531,7 +1531,7 @@
    "Moins de flexions répétées et des exercices le calment.",
    "Une chirurgie est discutée si les symptômes durent après environ 3 mois d'exercices."
   ],
-  "ce_que_vous_avez": "Un petit repli normal de la membrane à l'intérieur du genou (appelé plica) est devenu épais et irrité à force de flexions répétées. Cela peut donner un petit clic ou une sensibilité sur le bord intérieur de la rotule. Calmer l'irritation et renforcer la cuisse et la hanche soulagent souvent ce problème ; si ce n'est pas le cas après environ 3 mois, d'autres traitements existent.",
+  "ce_que_vous_avez": "Un petit repli normal de la membrane à l'intérieur du genou (appelé plica) est devenu épais et irrité à force de flexions répétées. Cela peut donner un petit clic ou une sensibilité sur le bord intérieur de la rotule. Calmer l'irritation et renforcer la cuisse et la hanche soulagent souvent ce problème. Sinon, après environ 3 mois, d'autres traitements existent.",
   "pourquoi": [
    "Flexions répétées du genou (course, vélo, escaliers).",
    "Coup sur l'intérieur du genou."
@@ -1551,7 +1551,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement.",
    "Genou enflé, chaud et rouge, avec ou sans fièvre."
@@ -1567,7 +1567,7 @@
   ],
   "exercices": [
    {
-    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "nom": "Contraction de la cuisse et lever de jambe tendue",
     "position_de_depart": "Couché sur le dos, jambe atteinte tendue, l'autre genou plié.",
     "mouvement": "Serrez la cuisse 5 secondes, puis levez la jambe tendue à 30 cm du sol. Redescendez lentement.",
     "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
@@ -1625,7 +1625,7 @@
    "S'il ne cause ni blocage ni douleur, il n'a pas besoin de chirurgie.",
    "Les exercices gardent le genou fort."
   ],
-  "ce_que_vous_avez": "Un de vos ménisques (coussins du genou), le plus souvent celui du côté extérieur, est plus épais et plus large que la normale depuis la naissance. Quand il ne cause ni blocage, ni ressaut douloureux, ni gonflement, aucun traitement particulier n'est nécessaire : une simple surveillance suffit. Garder des cuisses et des hanches fortes aide le genou à bien fonctionner, sans toutefois changer la forme du ménisque. Ce ménisque peut se déchirer plus facilement, et l'autre genou a parfois la même forme. Si des blocages ou des ressauts douloureux apparaissent, un avis en orthopédie est nécessaire.",
+  "ce_que_vous_avez": "Un de vos ménisques (les coussins du genou) est plus épais et plus large que la normale depuis la naissance. C'est souvent celui du côté extérieur. Quand il ne cause ni blocage, ni ressaut douloureux, ni gonflement, aucun traitement particulier n'est nécessaire : une simple surveillance suffit. Garder des cuisses et des hanches fortes aide le genou à bien fonctionner, sans toutefois changer la forme du ménisque. Ce ménisque peut se déchirer plus facilement, et l'autre genou a parfois la même forme. Si des blocages ou des ressauts douloureux apparaissent, un avis en orthopédie est nécessaire.",
   "pourquoi": [
    "Forme du ménisque présente depuis la naissance."
   ],
@@ -1644,7 +1644,7 @@
    "Glace 10 à 15 minutes, dans un linge, si le genou est enflé après l'activité.",
    "Acétaminophène ou ibuprofène au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10, ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Le lendemain, le genou ne doit pas être plus enflé. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Genou qui se bloque (impossible de tendre complètement la jambe) : avis orthopédique rapide."
   ],
@@ -1653,14 +1653,14 @@
    "Gonflement important ou qui persiste.",
    "Gêne qui persiste après 6 à 8 semaines."
   ],
-  "duree_habituelle": "Si la gêne est légère, le confort s'améliore souvent en 4 à 8 semaines ; des blocages ou des ressauts douloureux qui persistent nécessitent un avis en orthopédie. Quand le ménisque cause des symptômes, environ 4 jeunes sur 10 traités d'abord sans chirurgie finissent par être opérés.",
+  "duree_habituelle": "Si la gêne est légère, le confort s'améliore souvent en 4 à 8 semaines. Si le genou bloque ou saute en faisant mal, il faut voir un orthopédiste. Quand ce ménisque cause des problèmes, une opération est parfois nécessaire plus tard.",
   "materiel": [
    "marche ou escalier",
    "poids léger, bouteille d'eau ou sac à dos"
   ],
   "exercices": [
    {
-    "nom": "Contraction du quadriceps et lever de jambe tendue",
+    "nom": "Contraction de la cuisse et lever de jambe tendue",
     "position_de_depart": "Couché sur le dos, jambe atteinte tendue, l'autre genou plié.",
     "mouvement": "Serrez la cuisse 5 secondes, puis levez la jambe tendue à 30 cm du sol. Redescendez lentement.",
     "dosage": "3 séries de 10 répétitions, 1 fois par jour.",
@@ -1718,7 +1718,7 @@
    "Il vient presque toujours d'un problème dans le genou, comme l'arthrose.",
    "Traiter le genou fait souvent diminuer le kyste."
   ],
-  "ce_que_vous_avez": "Vous avez une poche remplie de liquide articulaire à l'arrière du genou. Ce n'est pas dangereux. Chez l'adulte, le kyste apparaît presque toujours parce que le genou produit trop de liquide (arthrose ou lésion d'un ménisque) : calmer et renforcer le genou fait souvent diminuer la pression et la gêne. Le kyste peut persister ou revenir tant que le genou reste irrité.",
+  "ce_que_vous_avez": "Vous avez une poche remplie de liquide articulaire à l'arrière du genou. Ce n'est pas dangereux. Chez l'adulte, le kyste vient presque toujours d'un genou qui fait trop de liquide, à cause d'arthrose ou d'un ménisque abîmé. Calmer et renforcer le genou diminue souvent la pression et la gêne. Le kyste peut persister ou revenir tant que le genou reste irrité.",
   "pourquoi": [
    "Arthrose ou lésion du ménisque, qui produisent plus de liquide dans le genou."
   ],
@@ -1737,7 +1737,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à votre niveau habituel au plus tard le lendemain. Sinon, faites-en moins : plus petit mouvement, moins de répétitions ou moins de poids.",
   "urgence": [
    "Douleur soudaine et forte dans le mollet, avec gonflement, rougeur ou chaleur (rupture du kyste ou phlébite : à faire vérifier le jour même).",
    "Essoufflement soudain ou douleur dans la poitrine : appelez le 911.",
@@ -1753,9 +1753,9 @@
   ],
   "exercices": [
    {
-    "nom": "Contraction statique du quadriceps et mobilité douce",
+    "nom": "Contraction de la cuisse et mouvements doux",
     "position_de_depart": "Assis ou couché, jambe allongée.",
-    "mouvement": "Serrez le dessus de la cuisse 5 secondes pour tendre le genou, puis pliez doucement le genou dans la limite confortable (sans écraser l'arrière du genou).",
+    "mouvement": "Serrez le dessus de la cuisse 5 secondes pour tendre le genou. Puis pliez doucement le genou tant que c'est confortable, sans écraser l'arrière du genou.",
     "dosage": "10 répétitions, 2 fois par jour.",
     "progression": "Passez au lever de jambe tendue.",
     "erreur_frequente": "Forcer la flexion complète du genou.",

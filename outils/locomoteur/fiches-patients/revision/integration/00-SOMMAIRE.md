@@ -60,7 +60,8 @@ Ces descriptions sont maintenant ignorées quand la ligne porte déjà le texte 
 
 ## À venir
 
-- **Passe finale de simplification** de toutes les fiches, pour un niveau de scolarité faible (peu de statistiques, pas d'études dans le texte du patient) : voir `CORRECTIONS.md`.
+- ✅ **Passe de simplification** faite et fiches v2 **publiées sur le site** le 26 novembre (voir `CORRECTIONS.md`).
+- **Dessins :** repérer et corriger seulement les dessins qui comportent des erreurs.
 - **Cuisse et jambe :** réponses d'OpenEvidence à recevoir pour les nouveaux diagnostics.
 
 ## Où trouver tout cela

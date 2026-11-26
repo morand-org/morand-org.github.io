@@ -14,7 +14,7 @@
    "Des exercices réguliers sont le traitement de premier choix.",
    "L'amélioration demande habituellement plusieurs semaines d'exercices."
   ],
-  "ce_que_vous_avez": "Les tendons qui font bouger et stabilisent votre épaule, appelés la coiffe des rotateurs, sont devenus sensibles et tolèrent moins bien l'effort. C'est la cause la plus fréquente de douleur à l'épaule, surtout quand on lève le bras. Les exercices de renforcement progressifs sont le traitement de premier choix : faits régulièrement pendant plusieurs semaines, ils aident l'épaule à redevenir plus forte et moins douloureuse.",
+  "ce_que_vous_avez": "Les tendons qui font bouger et stabilisent votre épaule, appelés la coiffe des rotateurs, sont devenus sensibles et tolèrent moins bien l'effort. C'est la cause la plus fréquente de douleur à l'épaule, surtout quand on lève le bras. Les exercices de renforcement sont le traitement de premier choix. Faits souvent pendant plusieurs semaines, ils rendent l'épaule plus forte et moins douloureuse.",
   "pourquoi": [
    "Gestes répétés les bras au-dessus des épaules (travail, sport).",
    "Hausse soudaine des efforts, ou muscles de l'épaule peu renforcés.",
@@ -25,7 +25,7 @@
    "Garder le bras actif dans les mouvements confortables de tous les jours.",
    "Appliquer, selon ce qui vous soulage, de la glace ou de la chaleur enveloppée dans un linge, 10 à 15 minutes.",
    "Dormir sur le dos ou sur le côté non douloureux, avec un oreiller sous le bras.",
-   "Si la douleur vous empêche de faire les exercices, parler à votre médecin d'une infiltration de cortisone : elle peut soulager pendant quelques semaines, le temps de démarrer le renforcement."
+   "Si la douleur vous empêche de faire les exercices, parler à votre médecin d'une infiltration de cortisone. Elle peut soulager quelques semaines, le temps de commencer le renforcement."
   ],
   "a_eviter": [
    "Travailler longtemps avec les bras levés au-dessus de la tête.",
@@ -38,7 +38,7 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Elle ne doit pas augmenter d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est plus forte le lendemain matin, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
    "Perte soudaine de la capacité à lever le bras après une chute ou un faux mouvement.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
@@ -58,8 +58,8 @@
   ],
   "exercices": [
    {
-    "nom": "Rotation externe statique contre un mur",
-    "position_de_depart": "Debout de côté près d'un mur, le coude du bras douloureux plié à 90 degrés et collé contre vos côtes (placez une petite serviette roulée entre le coude et le corps).",
+    "nom": "Rotation vers l'extérieur statique contre un mur",
+    "position_de_depart": "Debout, de côté près d'un mur. Le coude du bras douloureux est plié à angle droit et collé contre le corps, avec une petite serviette roulée entre les deux.",
     "mouvement": "Poussez doucement le dos de votre main et de votre poignet vers l'extérieur contre le mur, sans que le bras bouge. Tenez 5 secondes et relâchez.",
     "dosage": "3 séries de 8 répétitions, 1 fois par jour.",
     "progression": "Augmentez graduellement la force de poussée, puis passez à l'exercice avec élastique.",
@@ -82,7 +82,7 @@
     "plus_facile": "Tenez 2 à 3 secondes."
    },
    {
-    "nom": "Rotation externe avec élastique",
+    "nom": "Rotation vers l'extérieur avec élastique",
     "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes (avec une serviette roulée sous le bras), tenant un élastique léger fixé du côté opposé.",
     "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant le coude collé au corps, puis revenez en 3 secondes.",
     "dosage": "3 séries de 10 à 15 répétitions, 3 à 4 fois par semaine.",
@@ -156,7 +156,7 @@
    "Chaleur 15 minutes sur les muscles tendus.",
    "Acétaminophène ou anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est plus forte le lendemain matin, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
    "Perte de force ou incapacité de lever le bras après une chute ou un faux mouvement.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
@@ -251,17 +251,17 @@
    "Elle s'améliore chez la grande majorité des personnes, mais lentement, souvent sur 1 à 3 ans. Une raideur ou une douleur légère peut rester.",
    "Des mouvements doux, sans forcer, gardent l'épaule mobile."
   ],
-  "ce_que_vous_avez": "L'enveloppe qui entoure l'articulation de votre épaule, appelée capsule, est devenue enflammée, puis épaisse et raide. Cela limite vos mouvements dans toutes les directions et fait souvent mal la nuit. La capsulite s'améliore chez la grande majorité des personnes, mais lentement : la douleur diminue d'abord, la mobilité revient ensuite, souvent sur 1 à 3 ans. Une légère raideur ou une légère douleur peut rester, le plus souvent sans gêne importante.",
+  "ce_que_vous_avez": "L'enveloppe qui entoure l'articulation de votre épaule, appelée capsule, est devenue enflammée, puis épaisse et raide. Cela limite vos mouvements dans toutes les directions et fait souvent mal la nuit. La capsulite s'améliore chez la plupart des gens, mais lentement. La douleur diminue d'abord, puis le mouvement revient, souvent sur 1 à 3 ans. Une légère raideur ou une légère douleur peut rester, le plus souvent sans gêne importante.",
   "pourquoi": [
    "Souvent sans cause précise.",
    "Plus fréquente avec le diabète, un problème de thyroïde ou après une période d'immobilisation."
   ],
   "ce_qui_aide": [
-   "Adapter les exercices à la phase : mouvements doux sans forcer tant que l'épaule est très douloureuse, puis étirements plus longs quand la douleur au repos diminue.",
+   "Adapter les exercices : mouvements doux, sans forcer, tant que l'épaule fait très mal. Étirements plus longs quand la douleur au repos diminue.",
    "Mettre de la chaleur enveloppée dans un linge 15 minutes avant les exercices pour assouplir l'épaule.",
-   "Suivre le traitement proposé par votre médecin pour calmer la douleur : dans la phase douloureuse du début, une infiltration de cortisone dans l'articulation soulage souvent pendant plusieurs semaines à quelques mois.",
+   "Suivre le traitement de votre médecin pour calmer la douleur. Au début, quand l'épaule fait très mal, une infiltration de cortisone dans l'articulation soulage souvent plusieurs semaines à quelques mois.",
    "Utiliser le bras dans vos gestes quotidiens tolérables.",
-   "Si vous êtes diabétique : la récupération peut être plus lente, et une infiltration de cortisone peut faire monter temporairement la glycémie; parlez-en à votre médecin et vérifiez votre glycémie plus souvent pendant environ 1 semaine après l'infiltration."
+   "Si vous êtes diabétique : la guérison peut être plus lente. Une infiltration de cortisone peut faire monter le sucre dans le sang pendant quelques jours. Parlez-en à votre médecin et mesurez votre sucre plus souvent pendant environ 1 semaine après l'infiltration."
   ],
   "a_eviter": [
    "Forcer l'épaule dans une douleur aiguë pour essayer de « casser » la raideur : cela augmente la douleur et donne de moins bons résultats.",
@@ -272,7 +272,7 @@
    "Chaleur 15 minutes avant les exercices pour assouplir l'épaule.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; une infiltration peut être discutée avec votre médecin."
   ],
-  "regle_de_douleur": "Tant que l'épaule fait mal au repos ou la nuit, restez dans des mouvements sans douleur ou presque. Quand la douleur au repos a diminué, un inconfort d'étirement jusqu'à 3 sur 10 est acceptable s'il est revenu à son niveau habituel le lendemain matin. Si l'épaule élance pendant des heures après la séance, vous avez trop forcé : réduisez l'amplitude.",
+  "regle_de_douleur": "Tant que l'épaule fait mal au repos ou la nuit, faites seulement des mouvements sans douleur ou presque. Quand la douleur au repos a diminué, un inconfort d'étirement jusqu'à 3 sur 10 est acceptable. Il doit être revenu à son niveau habituel le lendemain matin. Si l'épaule élance pendant des heures après la séance, vous avez trop forcé : faites un plus petit mouvement.",
   "urgence": [
    "Épaule rouge, chaude et enflée avec fièvre.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911."
@@ -314,7 +314,7 @@
     "plus_facile": "Montez moins haut, sans forcer."
    },
    {
-    "nom": "Rotation externe avec bâton",
+    "nom": "Rotation vers l'extérieur avec bâton",
     "position_de_depart": "Couché sur le dos, les coudes pliés à 90 degrés près du corps, tenant un bâton à deux mains.",
     "mouvement": "Gardez le coude du côté raide collé au corps et utilisez le bras sain pour pousser doucement l'autre main vers l'extérieur. Tant que l'épaule fait mal au repos ou la nuit, arrêtez-vous avant la douleur et tenez 1 à 5 secondes. Quand la douleur au repos a diminué, tenez 5 à 10 secondes. Revenez ensuite.",
     "dosage": "5 répétitions, 2 fois par jour.",
@@ -372,7 +372,7 @@
    "Pour une entorse légère à modérée, une courte période d'écharpe, puis des exercices, suffisent.",
    "Une petite bosse peut rester. L'épaule fonctionne habituellement bien, mais une sensibilité de temps en temps est fréquente."
   ],
-  "ce_que_vous_avez": "Une chute ou un choc sur le côté de l'épaule a étiré ou partiellement déchiré les ligaments qui relient la clavicule à l'omoplate, sur le dessus de l'épaule. Pour les entorses légères à modérées (grades I et II), une courte période d'écharpe puis des exercices progressifs permettent une bonne récupération sans chirurgie. Une petite bosse peut rester visible. Une sensibilité de temps en temps peut persister, parfois pendant des années, le plus souvent sans gêner la fonction.",
+  "ce_que_vous_avez": "Une chute ou un choc sur le côté de l'épaule a étiré ou un peu déchiré les ligaments sur le dessus de l'épaule. Ces ligaments relient la clavicule à l'omoplate. Pour les entorses légères à modérées (grades I et II), une courte période d'écharpe puis des exercices progressifs permettent une bonne récupération sans chirurgie. Une petite bosse peut rester visible. Une sensibilité de temps en temps peut persister, parfois pendant des années, le plus souvent sans gêner la fonction.",
   "pourquoi": [
    "Chute ou choc direct sur le côté de l'épaule (vélo, hockey, football)."
   ],
@@ -391,7 +391,7 @@
    "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou persiste le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle dure encore le lendemain, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
    "Bosse très importante et douloureuse sur le dessus de l'épaule, avec la peau tendue.",
    "Difficulté à respirer ou à avaler après le choc, ou douleur dans la poitrine avec essoufflement ou malaise : appelez le 911.",
@@ -401,7 +401,7 @@
    "Douleur qui ne diminue pas après 3 à 4 semaines.",
    "Douleur persistante lors de la reprise du sport."
   ],
-  "duree_habituelle": "Reprise des activités habituelles en 1 à 2 semaines environ pour une entorse légère (grade I) et en 3 à 6 semaines pour une entorse modérée (grade II). Le retour aux sports de contact ou de lancer peut être plus long.",
+  "duree_habituelle": "Retour aux activités habituelles en 1 à 2 semaines environ pour une entorse légère, et en 3 à 6 semaines pour une entorse moyenne. Le retour aux sports de contact ou de lancer peut être plus long.",
   "materiel": [
    "élastique",
    "mur",
@@ -445,7 +445,7 @@
     "plus_facile": "Levez moins haut, coude plié."
    },
    {
-    "nom": "Rotation externe avec élastique",
+    "nom": "Rotation vers l'extérieur avec élastique",
     "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.",
     "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate stable, puis revenez doucement.",
     "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
@@ -480,10 +480,10 @@
   "diagnostic": "Rupture transfixiante de la coiffe",
   "en_bref": [
    "Le tendon ne se recolle pas seul, mais l'épaule peut retrouver une bonne fonction.",
-   "Quand la déchirure est apparue peu à peu (sans accident), les exercices suffisent chez environ 3 personnes sur 4.",
+   "Quand la déchirure est apparue peu à peu, sans accident, les exercices suffisent le plus souvent.",
    "Une perte de force soudaine après une chute demande un avis rapide."
   ],
-  "ce_que_vous_avez": "Un des tendons de votre coiffe des rotateurs présente une déchirure qui traverse toute son épaisseur. Le tendon ne se recolle pas de lui-même, mais chez environ 3 personnes sur 4 dont la déchirure est apparue progressivement (sans accident), les autres muscles de l'épaule compensent bien grâce à un programme d'exercices réguliers, ce qui permet d'éviter la chirurgie. Comme la déchirure peut s'agrandir avec les années, un suivi est recommandé. Une réparation peut aussi vous être proposée : parlez-en avec votre médecin.",
+  "ce_que_vous_avez": "Un des tendons de votre coiffe des rotateurs présente une déchirure qui traverse toute son épaisseur. Le tendon ne se recolle pas seul. Mais quand la déchirure est apparue peu à peu, sans accident, les autres muscles de l'épaule compensent bien le plus souvent. Avec des exercices réguliers, la plupart des gens évitent la chirurgie. Comme la déchirure peut s'agrandir avec les années, un suivi est recommandé. Une réparation peut aussi vous être proposée : parlez-en avec votre médecin.",
   "pourquoi": [
    "Usure des tendons avec l'âge.",
    "Chute ou effort brusque.",
@@ -506,9 +506,9 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Elle ne doit pas augmenter d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est plus forte le lendemain matin, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
-   "Perte de force brutale ou impossibilité de lever le bras après une chute ou un effort; un avis orthopédique rapide est nécessaire, idéalement dans les jours qui suivent.",
+   "Perte de force soudaine, ou bras impossible à lever, après une chute ou un effort. Il faut voir un orthopédiste rapidement, idéalement dans les jours qui suivent.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
    "Épaule rouge, chaude et enflée avec fièvre."
   ],
@@ -549,9 +549,9 @@
     "plus_facile": "Tenez 2 à 3 secondes."
    },
    {
-    "nom": "Renforcement doux du deltoïde antérieur (couché puis incliné)",
+    "nom": "Renforcement doux de l'avant de l'épaule (couché puis incliné)",
     "position_de_depart": "Couché sur le dos, coude légèrement plié, sans poids au début.",
-    "mouvement": "Levez le bras à la verticale vers le plafond, puis faites de petits mouvements de va-et-vient d'avant en arrière sur environ 10 cm, de façon lente et contrôlée.",
+    "mouvement": "Levez le bras droit vers le plafond. Faites de petits mouvements lents d'avant en arrière, d'environ 10 cm.",
     "dosage": "3 séries de 10 répétitions, 3 à 4 fois par semaine.",
     "progression": "Ajoutez un petit poids (0,5 à 1 kg), puis redressez progressivement le buste (semi-assis, puis debout) sur plusieurs semaines.",
     "erreur_frequente": "Passer debout ou ajouter un poids lourd trop rapidement.",
@@ -561,7 +561,7 @@
     "plus_facile": "Faites de plus petits mouvements, sans poids."
    },
    {
-    "nom": "Rotation externe avec élastique léger",
+    "nom": "Rotation vers l'extérieur avec élastique léger",
     "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique très léger fixé du côté opposé.",
     "mouvement": "Tournez doucement l'avant-bras vers l'extérieur, sans douleur vive, puis revenez lentement.",
     "dosage": "3 séries de 10 répétitions, 3 fois par semaine.",
@@ -603,7 +603,7 @@
    "Renforcer les muscles qui la tiennent aide l'épaule.",
    "Les progrès se voient en quelques semaines d'exercices."
   ],
-  "ce_que_vous_avez": "Votre omoplate bouge de façon moins fluide ou moins symétrique quand vous levez le bras. C'est très fréquent, y compris chez des personnes qui n'ont aucune douleur, et ce n'est pas une lésion. Quand l'épaule est douloureuse, renforcer et mieux coordonner les muscles autour de l'omoplate aide à diminuer la douleur et à retrouver de la force, même si le mouvement ne devient pas parfaitement symétrique.",
+  "ce_que_vous_avez": "Votre omoplate bouge de façon moins fluide ou moins symétrique quand vous levez le bras. C'est très fréquent, y compris chez des personnes qui n'ont aucune douleur, et ce n'est pas une lésion. Quand l'épaule fait mal, renforcer les muscles autour de l'omoplate et mieux les faire travailler ensemble aide à diminuer la douleur et à retrouver de la force. Le mouvement n'a pas besoin de devenir parfaitement égal des deux côtés.",
   "pourquoi": [
    "Muscles du haut du dos faibles ou fatigués.",
    "Posture les épaules enroulées vers l'avant.",
@@ -624,13 +624,13 @@
    "Chaleur 15 minutes sur les muscles tendus, si elle vous soulage.",
    "Acétaminophène ou anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est plus forte le lendemain matin, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
    "Épaule rouge, chaude et enflée avec fièvre."
   ],
   "medecin": [
-   "Omoplate qui décolle de façon très marquée, surtout après un choc, une chirurgie (par exemple au cou) ou un épisode de douleur intense à l'épaule suivi d'une faiblesse, ou muscle qui fond visiblement (atteinte nerveuse possible) : consultez dans les prochains jours.",
+   "Omoplate qui décolle beaucoup, ou muscle qui fond à vue d'œil, surtout après un choc, une chirurgie (par exemple au cou) ou une douleur très forte suivie d'une faiblesse. Un nerf peut être touché : consultez dans les prochains jours.",
    "Douleur qui augmente dans l'épaule ou le cou malgré les exercices.",
    "Engourdissements ou faiblesse dans le bras.",
    "Aucun progrès après 6 à 8 semaines d'exercices."
@@ -654,9 +654,9 @@
     "plus_facile": "Faites un plus petit pas."
    },
    {
-    "nom": "Poussée des omoplates contre un mur (dentelé antérieur)",
+    "nom": "Poussée des omoplates contre un mur",
     "position_de_depart": "Debout face à un mur, bras tendus devant vous, mains posées à plat sur le mur à hauteur des épaules.",
-    "mouvement": "Sans plier les coudes, poussez dans le mur pour éloigner la poitrine du mur et arrondir légèrement le haut du dos : les omoplates glissent vers l'avant sur les côtes. Revenez lentement.",
+    "mouvement": "Sans plier les coudes, poussez dans le mur pour éloigner la poitrine du mur et arrondir un peu le haut du dos. Les omoplates glissent vers l'avant. Revenez lentement.",
     "dosage": "3 séries de 12 répétitions, 1 fois par jour.",
     "progression": "Faites le même mouvement à quatre pattes au sol, puis en position de planche.",
     "erreur_frequente": "Hausser les épaules vers les oreilles ou plier les coudes.",
@@ -716,7 +716,7 @@
    "Les exercices ne refont pas le cartilage, mais diminuent la douleur et la raideur.",
    "D'autres traitements existent si la douleur reste forte."
   ],
-  "ce_que_vous_avez": "Le cartilage qui recouvre l'articulation principale de votre épaule s'est aminci avec le temps. Cela cause une raideur, des craquements et une douleur sourde. Les exercices ne font pas repousser le cartilage, mais des mouvements doux et un renforcement adapté peuvent aider à garder l'épaule mobile et à mieux tolérer les activités du quotidien.",
+  "ce_que_vous_avez": "Le cartilage qui recouvre l'articulation principale de votre épaule s'est aminci avec le temps. Cela cause une raideur, des craquements et une douleur sourde. Les exercices ne font pas repousser le cartilage. Mais des mouvements doux et un renforcement adapté aident à garder l'épaule mobile et à mieux faire les activités de tous les jours.",
   "pourquoi": [
    "Âge : l'arthrose devient plus fréquente en vieillissant.",
    "Ancienne blessure ou luxation de l'épaule.",
@@ -737,7 +737,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain. Si elle dépasse 3 sur 10 ou si elle est plus forte le lendemain, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
    "Gonflement soudain avec rougeur, chaleur ou fièvre.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911."
@@ -780,9 +780,9 @@
     "plus_facile": "Montez moins haut."
    },
    {
-    "nom": "Contractions statiques douces (rotation externe et interne)",
+    "nom": "Contractions statiques douces (vers l'extérieur et vers l'intérieur)",
     "position_de_depart": "Debout près d'un mur ou d'un cadre de porte, coude plié à 90 degrés collé au corps.",
-    "mouvement": "Poussez doucement le dos de la main contre le mur (sans bouger le bras) pendant 5 secondes, puis faites l'autre sens avec la paume contre le cadre de porte.",
+    "mouvement": "Poussez doucement le dos de la main contre le mur, sans bouger le bras, pendant 5 secondes. Puis faites l'autre sens : la paume contre le cadre de porte.",
     "dosage": "2 séries de 8 répétitions dans chaque sens, 1 fois par jour.",
     "progression": "Passez à un élastique léger quand l'articulation le tolère bien.",
     "erreur_frequente": "Pousser trop fort et réveiller la douleur.",
@@ -826,7 +826,7 @@
    "La crise douloureuse dure le plus souvent 1 à 3 semaines.",
    "Entre les crises, les exercices aident l'épaule."
   ],
-  "ce_que_vous_avez": "Un petit dépôt de calcium s'est formé dans un tendon de votre épaule. Ces dépôts sont fréquents et ne causent parfois aucun symptôme. Quand le corps résorbe le dépôt, cela peut provoquer une crise très douloureuse qui dure le plus souvent 1 à 3 semaines. Le dépôt disparaît souvent de lui-même, mais pas toujours, et cela peut prendre des mois, parfois des années; des exercices progressifs aident à récupérer la mobilité et la force.",
+  "ce_que_vous_avez": "Un petit dépôt de calcium s'est formé dans un tendon de votre épaule. Ces dépôts sont fréquents et ne causent parfois aucun symptôme. Quand le corps résorbe le dépôt, cela peut provoquer une crise très douloureuse qui dure le plus souvent 1 à 3 semaines. Le dépôt disparaît souvent de lui-même, mais pas toujours. Cela peut prendre des mois, parfois des années. Des exercices progressifs aident à retrouver le mouvement et la force.",
   "pourquoi": [
    "Cause mal connue ; plus fréquent entre 30 et 60 ans.",
    "La crise survient quand le corps résorbe le dépôt."
@@ -847,7 +847,7 @@
    "Glace 10 à 15 minutes, dans un linge, pendant la crise.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; une infiltration peut soulager une crise forte pendant quelques semaines."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Pendant une crise aiguë, limitez-vous aux mouvements doux et confortables.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Pendant une crise, faites seulement des mouvements doux et confortables.",
   "urgence": [
    "Douleur soudaine et insupportable qui empêche tout sommeil : un traitement plus fort peut être nécessaire.",
    "Fièvre, frissons ou épaule rouge et chaude.",
@@ -890,7 +890,7 @@
     "plus_facile": "Montez moins haut."
    },
    {
-    "nom": "Contraction statique en rotation externe",
+    "nom": "Contraction statique en tournant vers l'extérieur",
     "position_de_depart": "Debout de côté près d'un mur, coude plié à 90 degrés collé aux côtes.",
     "mouvement": "Poussez doucement le dos de la main contre le mur sans bouger le bras. Tenez 5 secondes et relâchez.",
     "dosage": "3 séries de 8 répétitions, 1 fois par jour.",
@@ -902,7 +902,7 @@
     "plus_facile": "Poussez plus doucement, 3 secondes."
    },
    {
-    "nom": "Rotation externe avec élastique (hors crise)",
+    "nom": "Rotation vers l'extérieur avec élastique (hors crise)",
     "position_de_depart": "Debout, coude plié à 90 degrés collé au corps, tenant un élastique léger fixé du côté opposé.",
     "mouvement": "Tournez lentement l'avant-bras vers l'extérieur, tenez 1 seconde, puis revenez en 3 secondes.",
     "dosage": "3 séries de 10 à 12 répétitions, 3 fois par semaine.",
@@ -940,7 +940,7 @@
    "Renforcer les muscles qui stabilisent l'épaule diminue le risque de récidive.",
    "Chez les jeunes sportifs, une chirurgie est souvent discutée dès la première luxation."
   ],
-  "ce_que_vous_avez": "Après une luxation (épaule déboîtée) ou des épisodes où l'épaule se déboîte partiellement, les structures qui retiennent l'avant de votre épaule (ligaments et bourrelet) sont étirées ou abîmées. Après une courte période d'écharpe, renforcer les muscles profonds de l'épaule et de l'omoplate aide à retrouver une épaule forte et bien contrôlée. Le risque de nouvelle luxation dépend surtout de l'âge et du sport pratiqué : il est élevé chez les jeunes, surtout avant 30 ans, et plus faible après 40 ans. Votre médecin discutera avec vous des options, dont la chirurgie.",
+  "ce_que_vous_avez": "Après une luxation (épaule déboîtée), ou si l'épaule se déboîte à moitié, les tissus qui retiennent l'avant de l'épaule (ligaments et bourrelet) sont étirés ou abîmés. Après une courte période d'écharpe, renforcer les muscles profonds de l'épaule et de l'omoplate aide à retrouver une épaule forte et bien contrôlée. Le risque de nouvelle luxation dépend surtout de l'âge et du sport. Il est élevé chez les jeunes, surtout avant 30 ans, et plus faible après 40 ans. Votre médecin discutera avec vous des options, dont la chirurgie.",
   "pourquoi": [
    "Chute ou choc, le bras levé et tourné vers l'arrière.",
    "Sports de contact ou de lancer.",
@@ -961,10 +961,10 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui donne l'impression que l'épaule va se déboîter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui donne l'impression que l'épaule va se déboîter.",
   "urgence": [
    "Nouvelle luxation ou épaule bloquée : rendez-vous aux urgences, sans essayer de la replacer vous-même.",
-   "Engourdissement sur le côté de l'épaule, ou faiblesse marquée pour lever le bras après la luxation (surtout après 40 ans : un tendon peut être déchiré ou un nerf étiré) : faites-vous évaluer dans les prochains jours.",
+   "Engourdissement sur le côté de l'épaule, ou grande faiblesse pour lever le bras après la luxation, surtout après 40 ans. Un tendon peut être déchiré ou un nerf étiré : faites-vous évaluer dans les prochains jours.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
    "Épaule rouge, chaude et enflée avec fièvre."
   ],
@@ -982,7 +982,7 @@
    {
     "nom": "Contractions statiques dans plusieurs directions",
     "position_de_depart": "Debout près d'un mur, coude plié à 90 degrés collé aux côtes.",
-    "mouvement": "Sans bouger le bras, poussez doucement contre le mur vers l'avant (poing), vers l'extérieur (dos de la main) puis vers l'intérieur (paume, contre un cadre de porte). Tenez 5 secondes dans chaque direction.",
+    "mouvement": "Sans bouger le bras, poussez doucement contre le mur. Poussez vers l'avant (poing), vers l'extérieur (dos de la main), puis vers l'intérieur (paume, contre un cadre de porte). Tenez 5 secondes dans chaque direction.",
     "dosage": "2 séries de 8 répétitions par direction, 1 fois par jour.",
     "progression": "Passez aux exercices avec élastique quand ces contractions sont faciles et sans appréhension.",
     "erreur_frequente": "Tourner le bras loin vers l'extérieur pendant les premières semaines.",
@@ -1004,9 +1004,9 @@
     "plus_facile": "Tenez 2 à 3 secondes."
    },
    {
-    "nom": "Rotation interne et externe avec élastique (coude au corps)",
+    "nom": "Rotation vers l'intérieur et vers l'extérieur avec élastique (coude au corps)",
     "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé sur le côté.",
-    "mouvement": "Tirez lentement l'élastique vers le ventre (rotation interne). Retournez-vous ensuite pour tirer vers l'extérieur (rotation externe), en arrêtant quand l'avant-bras pointe droit devant ou est à peine ouvert.",
+    "mouvement": "Tirez lentement l'élastique vers le ventre. Retournez-vous ensuite pour tirer vers l'extérieur, en arrêtant quand l'avant-bras pointe droit devant ou est à peine ouvert.",
     "dosage": "3 séries de 12 répétitions dans chaque sens, 3 à 4 fois par semaine.",
     "progression": "Augmentez la résistance de l'élastique avant de travailler avec le bras plus haut.",
     "erreur_frequente": "Ouvrir l'avant-bras très loin vers l'arrière.",
@@ -1017,7 +1017,7 @@
    },
    {
     "nom": "Stabilisation contre un mur (avec ou sans ballon)",
-    "position_de_depart": "Debout face à un mur, bras tendu devant vous à hauteur de la poitrine, main posée sur le mur (ou sur un petit ballon contre le mur).",
+    "position_de_depart": "Debout face à un mur, bras tendu devant vous à la hauteur de la poitrine. La main est posée sur le mur ou sur un petit ballon.",
     "mouvement": "Appuyez légèrement et faites de tout petits cercles avec la main ou le ballon, en gardant l'épaule stable et centrée.",
     "dosage": "3 séries de 20 à 30 secondes, 3 fois par semaine.",
     "progression": "Faites l'exercice à quatre pattes au sol quand l'épaule est bien stable.",
@@ -1054,7 +1054,7 @@
    "Adapter les gestes et les charges est ce qui soulage le plus ; les exercices aident à garder l'épaule forte.",
    "Une infiltration peut aider si la douleur persiste."
   ],
-  "ce_que_vous_avez": "La petite articulation au bout de votre clavicule, sur le dessus de l'épaule, est irritée ou usée. Cela fait souvent mal quand vous croisez le bras devant vous, dormez sur ce côté ou faites du développé couché; chez les personnes qui s'entraînent avec des charges lourdes, le bout de la clavicule peut réagir à la surcharge. Adapter les gestes et les charges est le point le plus important; renforcer le haut du dos aide l'épaule à mieux travailler.",
+  "ce_que_vous_avez": "La petite articulation au bout de votre clavicule, sur le dessus de l'épaule, est irritée ou usée. Cela fait souvent mal quand vous croisez le bras devant vous, dormez sur ce côté ou faites du développé couché. Chez les personnes qui soulèvent des charges lourdes, le bout de la clavicule peut réagir à la surcharge. Adapter les gestes et les charges est le point le plus important; renforcer le haut du dos aide l'épaule à mieux travailler.",
   "pourquoi": [
    "Usure avec l'âge.",
    "Haltérophilie et développé-couché répétés.",
@@ -1062,7 +1062,7 @@
   ],
   "ce_qui_aide": [
    "Réduire temporairement la charge et la fréquence des exercices de poussée, surtout le développé couché lourd.",
-   "Modifier votre technique en musculation : prise moins large (mains à peine plus écartées que les épaules) et amplitude réduite (sans descendre la barre jusqu'à la poitrine).",
+   "Changer votre technique en musculation : mains à peine plus écartées que les épaules, et sans descendre la barre jusqu'à la poitrine.",
    "Renforcer les muscles de l'omoplate pour mieux soutenir l'épaule.",
    "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, après l'entraînement si le dessus de l'épaule élance.",
    "Dormir sur le dos ou sur l'autre côté."
@@ -1076,7 +1076,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème, ou en comprimés pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain. Si elle dépasse 3 sur 10 ou si elle est plus forte le lendemain, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
    "Épaule rouge, chaude et enflée avec fièvre."
@@ -1107,7 +1107,7 @@
     "plus_facile": "Tenez 2 à 3 secondes."
    },
    {
-    "nom": "Rotation externe avec élastique",
+    "nom": "Rotation vers l'extérieur avec élastique",
     "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.",
     "mouvement": "Tournez lentement l'avant-bras vers l'extérieur, puis revenez en 3 secondes.",
     "dosage": "3 séries de 12 répétitions, 3 à 4 fois par semaine.",
@@ -1165,11 +1165,11 @@
   "titre_v1": "Douleur à l'avant de l'épaule (tendon du biceps)",
   "diagnostic": "Tendinopathie ou rupture du long biceps",
   "en_bref": [
-   "Le tendon du haut du biceps est irrité ; après une rupture haute, le bras fonctionne le plus souvent bien, avec une certaine perte de force.",
+   "Le tendon du haut du biceps est irrité. S'il se rompt en haut, le bras fonctionne le plus souvent bien, mais avec moins de force.",
    "Le traitement ressemble à celui de la coiffe : exercices et ajustement des activités.",
    "Une douleur brutale au pli du coude demande un avis rapide."
   ],
-  "ce_que_vous_avez": "Le tendon du haut du biceps, qui passe à l'avant de l'épaule, est irrité (ou parfois rompu dans sa partie haute, ce qui forme une petite boule sur le bras). Ce problème accompagne souvent une irritation ou une déchirure des tendons de la coiffe, c'est pourquoi on renforce toute l'épaule. Même en cas de rupture haute, l'autre tendon du biceps reste attaché : la plupart des gens retrouvent une bonne fonction sans chirurgie, souvent avec une certaine perte de force (surtout pour tourner la paume vers le haut), une boule visible et quelques crampes. Si votre travail est très physique, parlez-en à votre médecin.",
+  "ce_que_vous_avez": "Le tendon du haut du biceps passe à l'avant de l'épaule. Il est irrité, ou parfois rompu en haut, ce qui fait une petite boule sur le bras. Ce problème accompagne souvent une irritation ou une déchirure des tendons de la coiffe, c'est pourquoi on renforce toute l'épaule. Même s'il se rompt en haut, l'autre tendon du biceps reste attaché. La plupart des gens retrouvent un bon usage du bras sans chirurgie. Il reste souvent une perte de force (surtout pour tourner la paume vers le haut), une boule visible et quelques crampes. Si votre travail est très physique, parlez-en à votre médecin.",
   "pourquoi": [
    "Gestes répétés les bras levés, ou en soulevant des charges.",
    "Irritation des tendons de la coiffe, souvent associée.",
@@ -1191,9 +1191,9 @@
    "Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.",
    "Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Elle ne doit pas augmenter d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est plus forte le lendemain matin, faites-en moins. Faites un plus petit mouvement, avec moins de résistance ou moins de répétitions, sans tout arrêter.",
   "urgence": [
-   "Douleur brutale ou claquement au pli du coude, avec perte de force pour plier le coude ou tourner la paume vers le haut. Une rupture du tendon au coude doit être évaluée dans les premiers jours, car la réparation se fait idéalement dans les 2 à 3 premières semaines.",
+   "Douleur brutale ou claquement au pli du coude, avec perte de force pour plier le coude ou tourner la paume vers le haut. Il faut être vu dans les premiers jours : la réparation se fait idéalement dans les 2 à 3 premières semaines.",
    "Faiblesse marquée pour lever le bras, surtout après une chute ou un effort : faites-vous évaluer dans les prochains jours.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
    "Épaule rouge, chaude et enflée avec fièvre."
@@ -1246,7 +1246,7 @@
     "plus_facile": "Faites-le sans poids."
    },
    {
-    "nom": "Rotation externe avec élastique",
+    "nom": "Rotation vers l'extérieur avec élastique",
     "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.",
     "mouvement": "Tournez lentement l'avant-bras vers l'extérieur en gardant l'épaule basse, puis revenez lentement.",
     "dosage": "3 séries de 12 répétitions, 3 fois par semaine.",
@@ -1284,7 +1284,7 @@
    "Les exercices du cou soulagent souvent l'épaule.",
    "Signalez toute perte de force ou tout engourdissement qui augmente."
   ],
-  "ce_que_vous_avez": "Votre douleur se fait sentir dans l'épaule ou le haut du bras, mais elle provient en réalité de votre cou (articulations, muscles ou racine nerveuse irritée). C'est fréquent, car les nerfs de l'épaule et du bras sortent du cou. En bougeant et en soulageant votre cou, la douleur à l'épaule diminue.",
+  "ce_que_vous_avez": "Vous avez mal à l'épaule ou au haut du bras, mais la douleur vient en fait du cou (articulations, muscles ou nerf irrité). C'est fréquent, car les nerfs de l'épaule et du bras sortent du cou. En bougeant et en soulageant votre cou, la douleur à l'épaule diminue.",
   "pourquoi": [
    "Arthrose ou disque du cou qui irrite un nerf.",
    "Tête penchée vers l'avant pendant de longues périodes."
@@ -1305,7 +1305,7 @@
    "Chaleur 15 à 20 minutes pour détendre les muscles.",
    "Un anti-inflammatoire en comprimés pendant quelques jours peut aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui envoie une douleur vive, des picotements ou un engourdissement plus loin dans le bras.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui envoie une douleur vive, des picotements ou un engourdissement plus loin dans le bras.",
   "urgence": [
    "Maladresse nouvelle des mains, difficulté à marcher, perte d'équilibre, ou difficulté nouvelle à uriner ou à retenir les selles.",
    "Perte de force nouvelle ou qui s'aggrave dans le bras ou la main.",
@@ -1320,7 +1320,7 @@
    "Perte de poids inexpliquée, antécédent de cancer ou douleur nocturne qui s'aggrave : consultez dans les prochains jours.",
    "Absence d'amélioration après 6 semaines."
   ],
-  "duree_habituelle": "Quand la douleur vient des articulations ou des muscles du cou, l'amélioration est souvent visible en 4 à 6 semaines, mais la douleur peut revenir. Quand un nerf est irrité (douleur ou picotements dans le bras), la récupération est plus lente : l'essentiel de l'amélioration se fait au cours des 4 à 6 premiers mois, et la grande majorité des personnes récupèrent sans chirurgie.",
+  "duree_habituelle": "Quand la douleur vient des articulations ou des muscles du cou, l'amélioration est souvent visible en 4 à 6 semaines, mais la douleur peut revenir. Quand un nerf est irrité (douleur ou picotements dans le bras), la guérison est plus lente. Le plus gros de l'amélioration se fait dans les 4 à 6 premiers mois. La plupart des gens guérissent sans chirurgie.",
   "materiel": [
    "élastique",
    "coussin"
@@ -1401,7 +1401,7 @@
    "Un programme d'exercices de 3 mois est le premier traitement.",
    "La chirurgie est réservée aux cas qui ne s'améliorent pas."
   ],
-  "ce_que_vous_avez": "L'anneau de cartilage souple qui borde l'emboîture de l'épaule (le labrum ou bourrelet) est irrité ou fissuré dans sa partie haute, là où s'attache le tendon du biceps. Cela arrive souvent avec les sports de lancer ou après une chute. Environ la moitié à deux tiers des personnes récupèrent bien avec des exercices, sans chirurgie; c'est nettement moins fréquent chez les lanceurs de haut niveau.",
+  "ce_que_vous_avez": "L'anneau de cartilage qui borde le creux de l'épaule (le bourrelet) est irrité ou fissuré en haut, là où s'attache le tendon du biceps. Cela arrive souvent avec les sports de lancer ou après une chute. Beaucoup de personnes récupèrent bien avec des exercices, sans chirurgie. C'est moins souvent le cas chez les lanceurs de haut niveau.",
   "pourquoi": [
    "Sports de lancer ou gestes répétés les bras levés.",
    "Chute sur le bras tendu."
@@ -1421,7 +1421,7 @@
    "Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.",
    "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui provoque un accrochage ou un pincement net dans l'épaule.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui accroche ou qui pince nettement dans l'épaule.",
   "urgence": [
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
    "Épaule rouge, chaude et enflée avec fièvre."
@@ -1451,8 +1451,8 @@
    },
    {
     "nom": "Étirement doux de l'arrière de l'épaule (bras croisé, couché sur le côté)",
-    "position_de_depart": "Couché sur le côté douloureux, le tronc légèrement tourné vers l'arrière (environ 30 degrés) pour que le poids du corps retienne l'omoplate, le bras du dessous levé devant vous à hauteur de l'épaule.",
-    "mouvement": "Avec l'autre main, prenez le coude du bras du dessous et tirez-le doucement en travers de la poitrine, vers l'épaule opposée, jusqu'à sentir un étirement léger à l'arrière de l'épaule. Tenez 20 à 30 secondes.",
+    "position_de_depart": "Couché sur le côté douloureux, le tronc un peu tourné vers l'arrière pour que le poids du corps bloque l'omoplate. Le bras du dessous est levé devant vous, à la hauteur de l'épaule.",
+    "mouvement": "Avec l'autre main, prenez le coude du bras du dessous. Tirez-le doucement en travers de la poitrine, jusqu'à sentir un léger étirement à l'arrière de l'épaule. Tenez 20 à 30 secondes.",
     "dosage": "3 à 5 répétitions, 1 fois par jour.",
     "progression": "Gagnez doucement en amplitude, sans jamais pincer l'avant ou le dessus de l'épaule.",
     "erreur_frequente": "Rester complètement à plat sur l'épaule ou forcer jusqu'à sentir un pincement à l'avant.",
@@ -1462,11 +1462,11 @@
     "plus_facile": "Tirez moins fort, 15 secondes."
    },
    {
-    "nom": "Rotation externe et interne avec élastique (coude au corps)",
+    "nom": "Rotation vers l'extérieur et vers l'intérieur avec élastique (coude au corps)",
     "position_de_depart": "Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé sur le côté.",
     "mouvement": "Tournez lentement l'avant-bras vers l'extérieur contre l'élastique, puis retournez-vous pour tirer vers le ventre, de façon contrôlée.",
     "dosage": "3 séries de 12 répétitions dans chaque sens, 3 à 4 fois par semaine.",
-    "progression": "Passez à une rotation externe avec le bras soutenu à 45 degrés, puis à 90 degrés, quand il n'y a plus de douleur.",
+    "progression": "Passez à une rotation vers l'extérieur avec le bras soutenu à 45 degrés, puis à 90 degrés, quand il n'y a plus de douleur.",
     "erreur_frequente": "Laisser le coude quitter les côtes.",
     "illustration": "Dessin au trait d'une personne debout effectuant une rotation externe avec un élastique, coude au corps.",
     "phase": "Quand la douleur diminue",
@@ -1512,7 +1512,7 @@
    "Le traitement principal est un renforcement patient et régulier.",
    "Les progrès demandent souvent plusieurs mois."
   ],
-  "ce_que_vous_avez": "Vos ligaments sont naturellement très souples ou ont été étirés, ce qui laisse la tête de l'os du bras bouger un peu trop dans l'articulation (vers l'arrière, vers le bas ou dans plusieurs directions). Le traitement principal est un renforcement ciblé et patient des muscles de l'omoplate et de la coiffe pour mieux centrer l'épaule. Les exercices réussissent le plus souvent quand le problème est apparu sans accident. Après un accident, les résultats sont moins bons et une chirurgie est plus souvent discutée.",
+  "ce_que_vous_avez": "Vos ligaments sont très souples de nature, ou ils ont été étirés. L'os du bras bouge donc un peu trop dans l'articulation : vers l'arrière, vers le bas ou dans plusieurs directions. Le traitement principal est un renforcement ciblé et patient des muscles de l'omoplate et de la coiffe pour mieux centrer l'épaule. Les exercices réussissent le plus souvent quand le problème est apparu sans accident. Après un accident, les résultats sont moins bons et une chirurgie est plus souvent discutée.",
   "pourquoi": [
    "Ligaments naturellement très souples.",
    "Gestes répétés (natation, haltères) ou choc vers l'arrière."
@@ -1532,7 +1532,7 @@
    "Glace 10 à 15 minutes, dans un linge, si l'épaule est douloureuse après l'activité.",
    "Acétaminophène au besoin, si votre pharmacien le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui fait glisser l'épaule ou qui déclenche un claquement douloureux.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable. Elle doit être revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui fait glisser l'épaule ou qui donne un claquement douloureux.",
   "urgence": [
    "Épaule qui se déboîte et ne se replace pas : rendez-vous aux urgences.",
    "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
@@ -1564,7 +1564,7 @@
     "plus_facile": "Faites-le devant un miroir, sans charge."
    },
    {
-    "nom": "Rotation externe et interne avec élastique (coude au corps)",
+    "nom": "Rotation vers l'extérieur et vers l'intérieur avec élastique (coude au corps)",
     "position_de_depart": "Debout, coude plié à 90 degrés collé au corps avec une petite serviette roulée sous le bras, tenant un élastique léger fixé sur le côté.",
     "mouvement": "Faites des rotations lentes vers l'extérieur, puis retournez-vous pour les faire vers l'intérieur, en gardant l'omoplate bien placée.",
     "dosage": "3 séries de 12 à 15 répétitions, 3 à 4 fois par semaine.",
@@ -1590,7 +1590,7 @@
    {
     "nom": "Appui léger contre un mur (contrôle de l'épaule)",
     "position_de_depart": "Debout face à un mur, mains posées sur le mur un peu plus bas que les épaules.",
-    "mouvement": "Appuyez légèrement les mains dans le mur en gardant les épaules stables et centrées, puis soulevez une main de 2 cm sans que l'autre épaule bouge. Alternez. Si votre épaule glisse surtout vers l'arrière, appuyez très peu et arrêtez à la moindre sensation de glissement.",
+    "mouvement": "Appuyez légèrement les mains dans le mur en gardant les épaules stables. Puis soulevez une main de 2 cm sans que l'autre épaule bouge. Alternez. Si votre épaule glisse surtout vers l'arrière, appuyez très peu et arrêtez à la moindre sensation de glissement.",
     "dosage": "3 séries de 10 répétitions par bras, 3 fois par semaine.",
     "progression": "Faites l'exercice à quatre pattes au sol seulement quand le contrôle est solide et sans glissement.",
     "erreur_frequente": "Laisser l'épaule s'affaisser ou l'omoplate décoller.",
