@@ -85,6 +85,7 @@ Règles : on garde ce qui rend la fiche plus juste ou plus sûre (signes d'alarm
 - **retenu** (urgence ; signes : classement retenu) : « Douleur qui réveille l'enfant la nuit ou qui est présente au repos » classé sous « Revoyez votre médecin si » → « classé sous « Consultez rapidement » : Douleur qui réveille l'enfant la nuit ou qui est constante, même au repos. » — une douleur constante ou nocturne n'est pas typique de la maladie de Sever et doit faire chercher une autre cause (infection, fracture de stress, tumeur) sans a
 - **retenu** (urgence ; signes : classement retenu) : « (rien) » → « Enfant qui refuse de mettre du poids sur le pied. » — signe d'alerte d'usage chez l'enfant ; À VÉRIFIER : non tiré directement des sources consultées
 - **retenu** (medecin ; signes : classement retenu) : « (rien) » → « Douleur d'un seul talon qui ne ressemble pas aux épisodes habituels. » — une radiographie est suggérée dans les cas atypiques ou qui durent plus de 8 semaines ; Lintner et coll., Am Fam Physician 2023
+- **retenu** (regle_de_douleur ; retouche manuelle) : «  » → « "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter." »
 
 ## CHE-09 · Dysfonction du tendon tibial postérieur
 

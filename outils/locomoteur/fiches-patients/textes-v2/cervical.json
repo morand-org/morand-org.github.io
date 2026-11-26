@@ -41,8 +41,8 @@
    "Mal de tête ou douleur au cou soudains, très intenses ou différents de tout ce que vous avez déjà ressenti, ou troubles de la vision, de la parole ou de l'équilibre, ou paupière qui tombe.",
    "Difficulté nouvelle à marcher, perte d'équilibre, maladresse dans les doigts ou troubles pour uriner.",
    "Douleur apparue après une chute, un accident ou un coup.",
-   "Fièvre avec douleur au cou. Consultez rapidement",
-   "Perte de force nouvelle ou qui augmente dans un bras ou une main. Consultez rapidement"
+   "Fièvre avec douleur au cou.",
+   "Perte de force nouvelle ou qui augmente dans un bras ou une main."
   ],
   "medecin": [
    "Douleur qui descend dans le bras avec engourdissements ou picotements.",
@@ -156,7 +156,7 @@
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans les 2 heures qui suivent l'exercice et si elle n'est pas plus forte le lendemain matin.",
   "urgence": [
    "Mal de tête ou douleur au cou soudains et très intenses, ou troubles de la vision, de la parole ou de l'équilibre.",
-   "Faiblesse nouvelle dans le bras ou la main. Consultez rapidement",
+   "Faiblesse nouvelle dans le bras ou la main.",
    "Difficulté nouvelle à marcher, maladresse des mains ou troubles pour uriner."
   ],
   "medecin": [
@@ -277,7 +277,7 @@
    "Étourdissements, troubles de la vision ou de la parole, ou mal de tête soudain et intense, surtout en bougeant le cou.",
    "Perte d'équilibre, maladresse des mains ou troubles pour uriner.",
    "Douleur apparue après une chute, un accident ou un coup.",
-   "Perte de force nouvelle ou qui augmente dans un bras. Consultez rapidement",
+   "Perte de force nouvelle ou qui augmente dans un bras.",
    "Fièvre avec douleur au cou."
   ],
   "medecin": [
@@ -394,8 +394,8 @@
    "Maladresse nouvelle (échapper des objets, difficulté à boutonner une chemise).",
    "Perte d'équilibre, raideur dans les jambes en marchant ou troubles pour uriner.",
    "Engourdissements dans les deux mains, ou décharge électrique dans le dos ou les jambes quand vous penchez la tête.",
-   "Perte de force nouvelle ou qui augmente dans un bras ou une main. Consultez rapidement",
-   "Fièvre avec douleur au cou. Consultez rapidement"
+   "Perte de force nouvelle ou qui augmente dans un bras ou une main.",
+   "Fièvre avec douleur au cou."
   ],
   "medecin": [
    "Engourdissements ou picotements dans un bras ou une main.",
@@ -507,8 +507,8 @@
   "urgence": [
    "Étourdissements persistants, vision double, difficulté à parler ou à avaler, ou mal de tête sévère qui empire.",
    "Faiblesse ou engourdissements dans les deux bras ou dans les jambes, difficulté à marcher ou troubles pour uriner.",
-   "Douleur vive au toucher au milieu des os du cou, ou incapacité de tourner la tête à mi-chemin vers chaque épaule. « Consultez rapidement », avec ajout de la rotation",
-   "Faiblesse nouvelle dans un bras ou une main. Consultez rapidement"
+   "Douleur vive au toucher au milieu des os du cou, ou incapacité de tourner la tête à mi-chemin vers chaque épaule.",
+   "Faiblesse nouvelle dans un bras ou une main."
   ],
   "medecin": [
    "Apparition d'engourdissements ou de picotements dans un bras ou une main.",
@@ -743,8 +743,8 @@
   "urgence": [
    "Choc à la tête avec étourdissements, nausées ou confusion (commotion possible) : arrêtez le sport tout de suite.",
    "Douleur, picotements ou faiblesse dans les deux bras ou dans les jambes, même brièvement.",
-   "Après un choc : douleur vive au toucher au milieu des os du cou, ou incapacité de tourner la tête à mi-chemin vers chaque épaule. Consultez rapidement",
-   "Faiblesse dans un bras. Consultez rapidement"
+   "Après un choc : douleur vive au toucher au milieu des os du cou, ou incapacité de tourner la tête à mi-chemin vers chaque épaule.",
+   "Faiblesse dans un bras."
   ],
   "medecin": [
    "Douleur électrique ou picotements dans un bras.",
@@ -855,7 +855,7 @@
   "urgence": [
    "Perte d'équilibre en marchant, faiblesse dans les jambes, maladresse des deux mains ou troubles pour uriner.",
    "Perte de force dans le bras ou la main qui apparaît ou s'aggrave (ex. : échapper des objets).",
-   "Fièvre avec douleur au cou. Consultez rapidement"
+   "Fièvre avec douleur au cou."
   ],
   "medecin": [
    "Engourdissements qui s'étendent ou deviennent permanents.",
@@ -1088,9 +1088,9 @@
   "urgence": [
    "Fièvre, frissons, mal de gorge sévère, difficulté à avaler, à ouvrir la bouche ou à respirer.",
    "Torticolis apparu dans les jours suivant la prise d'un nouveau médicament (contre les nausées ou de type antipsychotique), surtout avec des spasmes de la mâchoire, de la langue ou des yeux.",
-   "Torticolis apparu après une chute, un accident ou un coup. Consultez rapidement",
-   "Torticolis apparu après une infection ou une opération de la gorge, du nez ou des oreilles. Consultez rapidement",
-   "Perte de force dans un bras, ou mal de tête soudain avec troubles de la vision, de la parole ou de l'équilibre. « Consultez rapidement », avec ajout des signes de dissection"
+   "Torticolis apparu après une chute, un accident ou un coup.",
+   "Torticolis apparu après une infection ou une opération de la gorge, du nez ou des oreilles.",
+   "Perte de force dans un bras, ou mal de tête soudain avec troubles de la vision, de la parole ou de l'équilibre."
   ],
   "medecin": [
    "Douleur qui descend dans un bras ou engourdissements.",

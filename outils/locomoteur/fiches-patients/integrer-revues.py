@@ -21,10 +21,10 @@ CHAMPS = [("Phase", "phase"), ("But", "but"), ("Départ", "position_de_depart"),
           ("Plus facile", "plus_facile"), ("Erreur fréquente", "erreur_frequente"), ("Illustration demandée", "illustration")]
 
 def norm(s):
-    s = unicodedata.normalize("NFKC", s or "").replace("’", "'").replace(" ", " ").replace("\xa0", " ")
+    s = unicodedata.normalize("NFKC", (s or "").replace("ᵉ", "\x03")).replace("\x03", "ᵉ").replace("’", "'")   # garder « 5ᵉ ».replace(" ", " ").replace("\xa0", " ")
     return re.sub(r"\s+", " ", s).strip()
 def cle(s):  # comparaison souple
-    s = norm(s).lower(); s = re.sub(r"[«»\"“”().,;:!?…'’\-–—]", " ", s); return re.sub(r"\s+", " ", s).strip()
+    s = norm(s).lower().replace("ᵉ", "e"); s = re.sub(r"[«»\"“”().,;:!?…'’\-–—]", " ", s); return re.sub(r"\s+", " ", s).strip()
 def proche(a, b): return difflib.SequenceMatcher(None, cle(a), cle(b)).ratio()
 
 # ---------- Lecture et découpage des réponses ----------
@@ -124,8 +124,13 @@ def analyser(contenu):
         if m_meme and sans_guillemets(a) not in VIDE: n = sans_guillemets(a).rstrip() + " " + m_meme.group(1)
         elif re.match(r"^(Même texte|déplacé ici|déplacée ici)", n.strip(), re.I): n = "texte ci-dessus"
         n2 = sans_guillemets(n); a2 = sans_guillemets(a)
-        if re.match(r"^texte ci-(dessus|contre|dessous)\b", n2, re.I): n2 = SENT
+        if re.match(r"^(texte ci-(dessus|contre|dessous)|nouveau texte|nouvelle formulation|texte réécrit)\b", n2, re.I): n2 = SENT
+        elif re.search(r"\[…\]|\[\.\.\.\]", n2):   # « Le premier jour surtout […] 15 à 20 minutes » : morceaux du texte de la ligne
+            return {"type": "remplace", "ancien": a2, "nouveau": SENT, "raison": raison.strip(), "morceaux": [x.strip(" ,;") for x in re.split(r"\[…\]|\[\.\.\.\]", n2) if x.strip(" ,;")]}
         if re.match(r"^\(?(déplacé|déplacée)", a2, re.I): a2 = "(rien)"
+        # Changement de mise en forme décrit (« une seule puce » → « deux puces » ; → « puce séparée ») : le texte est la ligne elle-même.
+        if n2 != SENT and len(n2) < 90 and re.search(r"\bpuces?\b", n2, re.I) and (re.search(r"\bpuces?\b", a2, re.I) or re.match(r"^(une |deux |trois )?puces? (séparée|distincte|commune)", n2, re.I)):
+            return {"type": "remplace", "ancien": a2, "nouveau": SENT, "raison": raison.strip(), "structure": True}
         return {"type": "remplace", "ancien": a2, "nouveau": n2, "raison": raison.strip()}
     if re.search(r"ajout", corps, re.I):
         aj = []
@@ -165,6 +170,11 @@ def decider(code, section, ch, outside):
     if ch["type"] == "ajout" and HEDGE.search(raison): return "non", "nuance ajoutée par manque d'études"
     return "oui", "correction simple"
 
+def texte_reel(n):   # texte à insérer (phrase complète), et non une description du changement
+    n = n.strip()
+    if n.count("«") >= 2 or "..." in n or "…" in n: return False
+    return bool(re.match(r"^[«A-ZÀ-ÖØ-Ý0-9(]", n)) and bool(re.search(r"[.!?»)]$", n)) and len(n) >= 15
+
 def contient(hors, n):
     ch, cn = cle(hors), cle(n)
     return bool(cn) and (cn in ch or (len(cn) > 25 and difflib.SequenceMatcher(None, ch, cn).find_longest_match(0, len(ch), 0, len(cn)).size > 0.85 * len(cn)))
@@ -184,14 +194,16 @@ def resoudre(code, section, l, journal):
             if new == SENT:
                 ch["nouveau"] = hors
                 if d == "non":
+                    if ch.get("structure") or ch.get("morceaux"): revenir = True; continue
                     if old in VIDE: return None, False
                     if "…" in old or "..." in old: revenir = True
-                    else: tout = old
+                    else: tout = old; revenir = True   # puis le texte de base le plus proche, s'il existe
                 continue
             if d in ("oui", "revoir"):
                 if RETIRE.match(new): res += "\x01"   # ligne retirée
-                elif old in VIDE: res += " " + new + " "
                 elif contient(hors, new): pass
+                elif old not in VIDE and "…" not in old and "..." not in old and len(old) > 3 and old in res: res = res.replace(old, new)
+                elif len(cle(hors)) > 8 and not texte_reel(new) and re.search(r"[.!?»):]\s*$", res): pass   # « ajout », « texte nuancé », « deux lignes ci-dessus » : description du changement ; la ligne porte déjà le texte
                 else: res += " " + new + " "
             else:
                 if old in VIDE: pass
@@ -262,6 +274,8 @@ for code in sorted(v2):
             if "[MODIFI" not in l and "[AJOUT" not in l:   # ligne sans marqueur : on garde le texte actuel le plus proche
                 b, r = apparier(t, actuel)
                 if r >= 0.6: t = b
+                elif any(re.search(r"\[MODIFI[^\]]*\bpuces?\b", x) for x in brut):   # autre moitié d'une puce scindée
+                    journal.append((k, "oui", "puce séparée (mise en forme)", {"type": "silence", "nouveau": t}))
                 else: journal.append((k, "revoir", "ligne nouvelle sans marqueur", {"type": "silence", "nouveau": t}))
             elif revenir:
                 b, r = apparier(t, actuel)
@@ -282,7 +296,7 @@ for code in sorted(v2):
     if urg_s is not None or med_s is not None:
         urg, med, plus_tard = [], list(med_s if med_s is not None else f["medecin"]), []
         for s in (urg_s if urg_s is not None else f["urgence"]):
-            s = re.sub(r"^Urgence\s*(\([^)]*\))?\s*:\s*", "", s); s = re.sub(r"\s*\(urgence\)\s*\.?$", ".", s)
+            s = re.sub(r"^Urgence\s*(,\s*tout de suite\s*)?(\([^)]*\))?\s*:\s*", "", s); s = re.sub(r"\s*\(urgence\)\s*\.?$", ".", s)
             s = s[0].upper() + s[1:] if s else s
             if re.match(r"^(Dans les prochains jours|Rapidement \(dans les jours)", s, re.I):
                 s = re.sub(r"^(Dans les prochains jours\s*:\s*)(\w)", lambda m: m.group(1) + m.group(2).lower(), s); plus_tard.append(s)

@@ -1,6 +1,6 @@
 # Révision des fiches patients par OpenEvidence : ce qui a été retenu
 
-26 novembre 2026. Huit régions reçues : cervical, coude, poignet et main, lombaire, hanche, genou, cheville et pied. Épaule : pas encore reçue.
+26 novembre 2026. Les neuf régions sont reçues et intégrées, soit les 129 fiches, y compris les parties qui avaient été coupées (PIE-12 à PIE-14, HAN-11 à HAN-15).
 
 ## Les règles appliquées (consigne du Dr Morand)
 
@@ -17,24 +17,27 @@
 
 ## En chiffres
 
-| Région | Fiches révisées | Changements retenus | Écartés | Fiches sans réponse |
-|---|---|---|---|---|
-| Rachis cervical | 12 | 64 | 4 | — |
-| Coude | 12 | 82 | 5 | — |
-| Poignet et main | 17 | 105 | 13 | — |
-| Rachis lombaire | 12 | 89 | 7 | — |
-| Hanche et bassin | 11 | 61 | 4 | HAN-12, HAN-13, HAN-14, HAN-15 |
-| Genou | 18 | 90 | 8 | — |
-| Cheville et jambe | 15 | 91 | 9 | — |
-| Pied | 12 | 85 | 9 | PIE-13, PIE-14 |
-| **Total** | **109** | **667** | **59** | |
+| Région | Fiches révisées | Changements retenus | Écartés |
+|---|---|---|---|
+| Rachis cervical | 12 | 64 | 4 |
+| Épaule | 14 | 97 | 12 |
+| Coude | 12 | 82 | 5 |
+| Poignet et main | 17 | 106 | 13 |
+| Rachis lombaire | 12 | 89 | 7 |
+| Hanche et bassin | 15 | 98 | 6 |
+| Genou | 18 | 90 | 8 |
+| Cheville et jambe | 15 | 92 | 9 |
+| Pied | 14 | 107 | 12 |
+| **Total** | **129** | **825** | **76** |
 
-Parmi les changements écartés, 21 l'ont été à ma relecture, selon la même règle (nuances par manque d'études, statistiques). Ils sont notés « décision manuelle » dans les journaux.
+PIE-13 (Sever) renvoie à CHE-08 : rien à changer dans la fiche du pied. Comme OpenEvidence le propose, la règle de douleur de CHE-08 passe à 2 sur 10, comme pour l'Iselin, l'Osgood-Schlatter et le Sinding-Larsen-Johansson.
+
+Parmi les changements écartés, 32 l'ont été à ma relecture, selon la même règle (nuances par manque d'études, statistiques, mention d'études). Ils sont notés « décision manuelle » dans les journaux. Les passages réécrits à la main pour retirer une statistique ou garder une formulation plus simple sont notés « retouche manuelle ».
 
 ## Mise en page
 
 - Les 129 fiches tiennent toujours sur une feuille recto verso, avec un texte de 9 points ou plus.
-- 15 fiches, très remplies après la révision, ont un interligne un peu plus serré : CER-06, COU-01, COU-03, COU-12, MAI-01, LOM-01, LOM-05, LOM-06, LOM-10, LOM-12, HAN-01, CHE-01, CHE-03, CHE-06, PIE-01.
+- 18 fiches, très remplies après la révision, ont un interligne un peu plus serré : CER-06, EPA-03, EPA-11, EPA-12, COU-01, COU-03, COU-12, MAI-01, LOM-01, LOM-05, LOM-06, LOM-10, LOM-12, HAN-14, CHE-01, CHE-03, CHE-06, PIE-01.
 
 ## Corrections faites dans toutes les régions
 
@@ -45,11 +48,20 @@ Ces défauts, relevés par OpenEvidence dans quelques fiches, ont été corrigé
 - le texte « Soulager la douleur » des nerfs du rachis, qui était aussi dans les fiches de nerfs de la main, du coude et du pied ;
 - « à la dose prévue pour son poids » dans les fiches d'enfants, devenu « à la dose qui convient à l'âge et au poids ».
 
-## À renvoyer à OpenEvidence (réponses coupées)
+## Correction de l'outil d'intégration (26 novembre)
 
-- **Pied :** fin de PIE-12 (Iselin), PIE-13 (Sever, rangée aussi en cheville) et PIE-14 (contusion du pied).
-- **Hanche :** fin de HAN-11 (signes « Revoyez votre médecin si »), puis HAN-12 à HAN-15.
-- **Épaule** (EPA-01 à 14) : pas encore reçue.
+Quand OpenEvidence décrivait son changement au lieu de donner le texte (« ajout », « texte nuancé », « deux lignes ci-dessus », « nouveau texte », « Consultez rapidement »), l'outil collait cette description à la fin de la phrase du patient. 45 phrases étaient touchées, dans le cervical, le coude, l'épaule, le genou et la hanche ; c'était le cas dans les PDF déjà envoyés. Par exemple :
+
+- « Genou très enflé, rouge et chaud, avec ou sans fièvre. ajout » ;
+- les règles de douleur de GEN-02 à GEN-06 et de GEN-15, suivies de bouts de note ;
+- « Fièvre avec douleur au cou. Consultez rapidement ».
+
+Ces descriptions sont maintenant ignorées quand la ligne porte déjà le texte révisé. Une vérification de tout le texte des 129 fiches ne trouve plus aucun reste de note. Deux autres défauts sont corrigés : « 5ᵉ » devenait « 5e », et « Urgence, tout de suite : » restait au début d'un signe.
+
+## À venir
+
+- **Passe finale de simplification** de toutes les fiches, pour un niveau de scolarité faible (peu de statistiques, pas d'études dans le texte du patient) : voir `CORRECTIONS.md`.
+- **Cuisse et jambe :** réponses d'OpenEvidence à recevoir pour les nouveaux diagnostics.
 
 ## Où trouver tout cela
 

@@ -286,7 +286,52 @@
   "_source": "OpenEvidence, 26 novembre 2026 (PIE-11)"
  },
  "iselin": {
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 sur 10 est acceptable si elle n'est pas plus forte le lendemain et si elle ne fait pas boiter.",
+  "ce_que_vous_avez": "Chez un jeune en poussée de croissance (souvent entre 9 et 14 ans), le tendon d'un muscle du côté de la jambe tire sur la zone de croissance de l'os situé sur le bord extérieur du pied (la base du 5ᵉ métatarsien). Ce n'est pas une fracture. La douleur se calme avec un peu de repos sportif et des exercices doux, et elle disparaît habituellement lorsque cette zone de croissance se soude.",
+  "pourquoi": [
+   "Poussée de croissance (9 à 14 ans).",
+   "Course, sauts et changements de direction.",
+   "Parfois après une entorse (pied tordu vers l'intérieur)."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 sur 10 est acceptable si elle n'est pas plus forte le lendemain, si elle ne fait pas boiter et si elle n'augmente pas d'une semaine à l'autre.",
+  "duree_habituelle": "La douleur se calme habituellement en quelques semaines de repos sportif relatif, parfois plus ; elle peut revenir par périodes jusqu'à la fin de la croissance de cet os.",
+  "urgence": [
+   "Douleur apparue brutalement après une entorse ou incapacité de faire 4 pas (fracture de la base du 5ᵉ métatarsien à écarter).",
+   "Fièvre, rougeur et chaleur qui s'étendent, ou jeune qui refuse de marcher (infection de l'os à écarter)."
+  ],
+  "medecin": [
+   "Boiterie qui dure plus de 2 semaines malgré le repos sportif.",
+   "Aucune amélioration après 6 semaines.",
+   "Douleur la nuit ou au repos, douleur constante, ou bosse qui grossit."
+  ],
+  "exercices": {
+   "3": {
+    "progression": "Tenez 30 secondes. Quand la marche rapide et les exercices ne font plus mal, reprenez le sport peu à peu : d'abord l'échauffement, puis un peu plus de temps chaque semaine."
+   }
+  },
   "_source": "OpenEvidence, 26 novembre 2026 (PIE-12)"
+ },
+ "contusion": {
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Anti-inflammatoire en crème en premier (jamais sur une peau coupée ou éraflée). Sinon, acétaminophène, ou anti-inflammatoire en comprimés pour quelques jours, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "a_eviter": [
+   "Mettre des chaussures étroites qui compriment le bleu.",
+   "Rester debout immobile longtemps ou laisser le pied pendre vers le bas pendant des heures les premiers jours.",
+   "Courir ou sauter tant que le pied est enflé.",
+   "Serrer un bandage autour d'un pied enflé."
+  ],
+  "urgence": [
+   "Douleur extrême qui augmente malgré le repos et les antidouleurs, pied très tendu et dur, douleur vive quand on bouge les orteils ou engourdissement de la plante du pied (syndrome des loges du pied), même si les orteils restent roses et chauds. En attendant, enlevez tout bandage serré et gardez le pied à la hauteur du cœur, pas plus haut.",
+   "Orteil qui devient pâle, bleuâtre ou froid.",
+   "Signes d'infection si la peau a été coupée (rougeur qui s'étend, pus, fièvre)."
+  ],
+  "medecin": [
+   "Dans les prochains jours : incapacité de faire 4 pas, ou appui qui ne s'améliore pas après 5 à 7 jours (fracture ou lésion de Lisfranc à vérifier). Marchez le moins possible sur ce pied en attendant.",
+   "Dans les prochains jours : bleu qui apparaît sous la plante du pied, même après quelques jours (lésion de Lisfranc à vérifier).",
+   "Dans les prochains jours : ongle noir très douloureux (sang sous l'ongle, qui peut être soulagé par un petit geste et nécessiter une radiographie).",
+   "Douleur ou enflure encore présentes après 3 à 4 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (PIE-14)"
  }
 }

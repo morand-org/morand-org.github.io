@@ -90,6 +90,7 @@ Règles : on garde ce qui rend la fiche plus juste ou plus sûre (signes d'alarm
 - **retenu** (medecin ; signes : classement retenu) : « Gonflement visible, déformation du poignet ou douleur nouvelle du côté du petit doigt. » → « Douleur nouvelle du côté du petit doigt. » — le gonflement et la déformation sont déplacés plus haut
 - **retenu** (duree_habituelle ; correction simple) : « Environ 4 semaines de repos des appuis lorsque la radiographie est normale; au moins 3 mois lorsque la plaque de croissance montre des chang » → « Environ 4 à 6 semaines de repos des appuis lorsque la radiographie est normale; au moins 3 mois lorsque la zone de croissance montre des changements à la radiographie (le médecin peut alors répéter la radiographie). La r » — 4 semaines en moyenne sans changement radiologique et 3 mois ou plus avec changements (Roy 1985) ; 6 semaines sans appui puis réévaluation et radiographies de c
 - **retenu** (references ; PMID ou DOI complété) : 
+- **retenu** (soulager ; retouche manuelle) : «  » → « ["Glace 10 à 15 minutes, dans un linge, au besoin.", "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien). Ne donnez jamais un médicament pour permettre de s'entraî »
 
 ## MAI-09 · Neuropathie ulnaire au canal de Guyon
 
