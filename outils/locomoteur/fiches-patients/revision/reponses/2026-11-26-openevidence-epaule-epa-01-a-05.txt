@@ -1,0 +1,443 @@
+# Fiches ÉPAULE révisées — EPA-01 à EPA-05
+Légende : chaque changement est marqué [MODIFIÉ : ancien texte → nouveau texte — raison ; référence]. Les doutes sont marqués [À VÉRIFIER]. Le texte sans marque est inchangé.
+## === FICHE EPA-01 · [epaule/sous_acro] ===
+Titre : Tendinopathie de la coiffe des rotateurs (douleur sous-acromiale)
+Sous-titre : Douleur aux tendons de l'épaule
+Ancien titre : Douleur aux tendons de l'épaule (coiffe des rotateurs)
+Diagnostic correspondant dans MSK Morand : Douleur sous-acromiale (tendinopathie de la coiffe des rotateurs)
+EN BREF
+Les tendons de l'épaule sont irrités, pas déchirés.
+Des exercices réguliers sont le traitement de premier choix. [MODIFIÉ : « le traitement le plus efficace » → « le traitement de premier choix » — l'exercice est recommandé en première intention, mais sa supériorité n'est pas démontrée : effet faible contre placebo, et un programme supervisé n'a pas fait mieux qu'une séance de conseils avec exercices à la maison (essai GRASP) ; Pieters et coll., JOSPT, 2020 ; Lafrance et coll., JOSPT, 2022 ; Hopewell et coll., Lancet, 2021]
+L'amélioration demande habituellement plusieurs semaines d'exercices.
+CE QUE VOUS AVEZ
+Les tendons qui font bouger et stabilisent votre épaule, appelés la coiffe des rotateurs, sont devenus sensibles et tolèrent moins bien l'effort. C'est la cause la plus fréquente de douleur à l'épaule, surtout quand on lève le bras. Les exercices de renforcement progressifs sont le traitement de premier choix : faits régulièrement pendant plusieurs semaines, ils aident l'épaule à redevenir plus forte et moins douloureuse.
+POURQUOI ÇA ARRIVE
+Gestes répétés les bras au-dessus des épaules (travail, sport).
+Hausse soudaine des efforts, ou muscles de l'épaule peu renforcés.
+Changements des tendons avec l'âge.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.
+Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement.
+CE QUI AIDE
+Renforcer progressivement les muscles de l'épaule et du haut du dos.
+Garder le bras actif dans les mouvements confortables de tous les jours.
+Appliquer, selon ce qui vous soulage, de la glace ou de la chaleur enveloppée dans un linge, 10 à 15 minutes.
+Dormir sur le dos ou sur le côté non douloureux, avec un oreiller sous le bras.
+Si la douleur vous empêche de faire les exercices, parler à votre médecin d'une infiltration de cortisone : elle peut soulager pendant quelques semaines, le temps de démarrer le renforcement.
+À ÉVITER POUR L'INSTANT
+Travailler longtemps avec les bras levés au-dessus de la tête.
+Soulever des charges lourdes avec le bras écarté du corps.
+Dormir écrasé sur l'épaule douloureuse.
+Garder le bras immobile ou en écharpe pendant des jours.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter. [MODIFIÉ : « si elle revient à son niveau habituel dans l'heure qui suit l'exercice » et « dure plus d'une heure » → « revenue à son niveau habituel le lendemain matin », « n'augmente pas d'une semaine à l'autre » et « encore plus forte le lendemain matin » — aucun protocole publié n'utilise un délai d'une heure ; l'essai de Holmgren demandait un retour au niveau habituel avant la séance suivante, et le modèle de surveillance de la douleur demande un retour le lendemain matin ; d'autres protocoles d'épaule acceptent 12 à 24 heures. Ces seuils viennent de l'expérience clinique et n'ont pas été comparés entre eux. Le seuil de 3 sur 10 est prudent (les essais acceptent jusqu'à 5 sur 10) et peut être gardé ; Holmgren et coll., BMJ, 2012 ; Silbernagel et coll., Am J Sports Med, 2007 ; Raulline Ullern et coll., BMC Musculoskelet Disord, 2025]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Perte soudaine de la capacité à lever le bras après une chute ou un faux mouvement.
+Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : une seule puce (poitrine + épaule rouge et chaude) → deux puces, avec « appelez le 911 » — séparer l'appel au 911 de la visite à l'urgence ; choix de rédaction, sans référence]
+Épaule rouge, chaude et enflée avec fièvre.
+REVOYEZ VOTRE MÉDECIN SI
+Douleur nocturne intense qui empêche de dormir malgré les ajustements.
+Engourdissements, picotements ou perte de force qui descendent dans le bras ou la main.
+Aucune amélioration après 8 à 12 semaines d'exercices réguliers.
+DURÉE HABITUELLE
+L'amélioration apparaît souvent après 6 à 12 semaines d'exercices réguliers. La récupération complète peut prendre plusieurs mois, parfois plus d'un an : continuez le programme même si les progrès sont lents. [MODIFIÉ : « plusieurs mois » → « plusieurs mois, parfois plus d'un an » — dans l'essai GRASP, les symptômes n'étaient pas complètement disparus à 12 mois ; Hopewell et coll., Lancet, 2021]
+PROGRAMME D'EXERCICES
+Matériel : élastique, serviette, mur, poids léger ou bouteille d'eau
+Exercice 1 : Rotation externe statique contre un mur
+Phase : Dès maintenant
+But : Pour réveiller les tendons sans les irriter.
+Départ : Debout de côté près d'un mur, le coude du bras douloureux plié à 90 degrés et collé contre vos côtes (placez une petite serviette roulée entre le coude et le corps).
+Mouvement : Poussez doucement le dos de votre main et de votre poignet vers l'extérieur contre le mur, sans que le bras bouge. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 8 répétitions, 1 fois par jour.
+Progression : Augmentez graduellement la force de poussée, puis passez à l'exercice avec élastique.
+Plus facile : Poussez plus doucement, 3 secondes.
+Erreur fréquente : Décoller le coude du corps ou hausser l'épaule vers l'oreille.
+Illustration demandée : Dessin au trait d'une personne debout de profil contre un mur, coude plié à 90 degrés, poussant le dos de la main contre le mur.
+Exercice 2 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour mieux placer l'épaule.
+Départ : Assis ou debout, le dos droit, les bras détendus le long du corps.
+Mouvement : Tirez doucement les deux omoplates vers l'arrière et légèrement vers le bas. Tenez 5 secondes et relâchez lentement.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Faites le même mouvement en tirant un élastique léger fixé devant vous.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Cambrer le bas du dos ou monter les épaules.
+Illustration demandée : Dessin au trait d'un dos vu de trois quarts avec des flèches montrant les omoplates qui se rapprochent.
+Exercice 3 : Rotation externe avec élastique
+Phase : Quand la douleur diminue
+But : Pour renforcer la coiffe des rotateurs.
+Départ : Debout, coude plié à 90 degrés collé aux côtes (avec une serviette roulée sous le bras), tenant un élastique léger fixé du côté opposé.
+Mouvement : Tournez lentement l'avant-bras vers l'extérieur en gardant le coude collé au corps, puis revenez en 3 secondes.
+Dosage : 3 séries de 10 à 15 répétitions, 3 à 4 fois par semaine. [À VÉRIFIER : les essais utilisent des fréquences plus élevées (3 séries de 15, 1 à 2 fois par jour dans Holmgren 2012 ; 5 jours par semaine dans GRASP). Aucune étude ne montre qu'une fréquence est meilleure qu'une autre ; le dosage actuel est acceptable.]
+Progression : Passez à un élastique plus résistant quand les 3 séries de 15 sont faciles.
+Plus facile : Faites-le sans élastique, couché sur le côté.
+Erreur fréquente : Laisser le coude s'écarter du tronc ou tourner le buste.
+Illustration demandée : Dessin au trait d'une personne debout tirant un élastique vers l'extérieur en gardant l'avant-bras à l'horizontale et le coude collé.
+Exercice 4 : Élévation des bras glissée sur le mur
+Phase : Quand la douleur diminue
+But : Pour retrouver l'élévation du bras sans douleur.
+Départ : Debout face à un mur, les avant-bras posés sur le mur à hauteur de la poitrine, les pouces pointés vers vous.
+Mouvement : Glissez doucement les avant-bras vers le haut du mur en poussant légèrement contre le mur, puis redescendez lentement.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Décollez les bras du mur en haut du mouvement, puis faites l'élévation sans mur avec un poids de 0,5 à 1 kg.
+Plus facile : Montez moins haut sur le mur.
+Erreur fréquente : Hausser les épaules vers les oreilles en montant les bras.
+Illustration demandée : Dessin au trait d'une personne face à un mur glissant ses deux avant-bras vers le haut.
+RÉFÉRENCES
+Pieters L et al., J Orthop Sports Phys Ther, 2020 (PMID: 31726927)
+Page MJ et al., Cochrane Database Syst Rev, 2016 (PMID: 27283590) [À VÉRIFIER : titre « Manual therapy and exercise for rotator cuff disease » et date confirmés ; PMID non affiché dans les sources consultées]
+Holmgren T et al., BMJ, 2012 (PMID: 22349588)
+Desmeules F, Roy JS, Lafrance S et al., Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline, J Orthop Sports Phys Ther, 2025;55(4):235-274 (PMID: 40165544 ; DOI: 10.2519/jospt.2025.13182) [MODIFIÉ : ajout — guide de pratique plus récent, équipe québécoise ; seul le résumé a été consulté, les recommandations détaillées restent À VÉRIFIER]
+Lafrance S, Charron M, Roy JS et al., Diagnosing, Managing, and Supporting Return to Work of Adults With Rotator Cuff Disorders: A Clinical Practice Guideline, J Orthop Sports Phys Ther, 2022;52(10):647-664 (PMID: 35881707 ; DOI: 10.2519/jospt.2022.11306) [MODIFIÉ : ajout — guide québécois (IRSST)]
+Hopewell S et al. (essai GRASP), Lancet, 2021 [MODIFIÉ : ajout — appuie « premier choix » plutôt que « le plus efficace » et la durée de récupération ; PMID À VÉRIFIER]
+## === FICHE EPA-02 · [epaule/myalgie] ===
+Titre : Myalgie de l'épaule
+Sous-titre : Douleur musculaire de l'épaule
+Ancien titre : Douleur musculaire de l'épaule
+Diagnostic correspondant dans MSK Morand : Myalgie ou douleur non spécifique
+EN BREF
+Les muscles de l'épaule sont tendus ou fatigués, sans lésion grave.
+Bouger doucement et faire des pauses aide à les détendre.
+La douleur diminue souvent en quelques semaines, mais la récupération complète peut prendre plusieurs mois. [MODIFIÉ : « La douleur diminue habituellement en quelques semaines. » → texte ci-contre — chez les personnes vues en première ligne pour une nouvelle douleur à l'épaule, environ 1 sur 4 est rétablie après 1 mois, 1 sur 2 après 6 mois et 6 sur 10 après 1 an ; Kuijpers et coll., Pain, 2004 ; van der Windt et coll., Br J Gen Pract, 1996]
+CE QUE VOUS AVEZ
+Les muscles autour de votre épaule sont tendus, fatigués ou sensibles, souvent après un effort inhabituel, une période de stress ou une posture prolongée. Votre examen n'a pas montré de signe de déchirure importante, de fracture ni d'atteinte de l'articulation. Bouger doucement et renforcer le haut du dos aide les muscles à se relâcher et à mieux tolérer l'effort.
+POURQUOI ÇA ARRIVE
+Effort inhabituel ou travail répétitif.
+Stress et postures prolongées, les épaules montées.
+SOULAGER LA DOULEUR
+Chaleur 15 minutes sur les muscles tendus.
+Acétaminophène ou anti-inflammatoire en crème au besoin, si votre pharmacien le juge approprié.
+CE QUI AIDE
+Appliquer de la chaleur enveloppée dans un linge, 15 minutes, pour détendre les muscles.
+Faire de petits mouvements doux et fréquents de l'épaule.
+Changer de position et prendre des pauses régulières si vous travaillez à l'ordinateur ou à la chaîne.
+Rester actif, par exemple avec des marches quotidiennes.
+À ÉVITER POUR L'INSTANT
+Garder le bras collé au corps par peur de bouger.
+Soulever des charges lourdes à bout de bras.
+Rester longtemps les épaules crispées ou haussées quand vous êtes concentré.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter. [MODIFIÉ : « dans l'heure qui suit l'exercice » et « dure plus d'une heure » → « le lendemain matin » — dans la douleur musculosquelettique chronique, la douleur pendant l'exercice n'a pas besoin d'être évitée ; les protocoles publiés demandent un retour au niveau habituel en 12 à 24 heures ou le lendemain matin, jamais en une heure ; Smith et coll., Br J Sports Med, 2017 ; Tran et coll., JOSPT, 2025 ; Raulline Ullern et coll., BMC Musculoskelet Disord, 2025]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Perte de force ou incapacité de lever le bras après une chute ou un faux mouvement.
+Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : une seule puce → deux puces, avec « appelez le 911 » — séparer l'appel au 911 de la visite à l'urgence ; choix de rédaction, sans référence]
+Épaule rouge, chaude et enflée avec fièvre.
+Après 50 ans : douleur et raideur des deux épaules avec un mal de tête nouveau, une douleur à la mâchoire en mâchant ou un trouble de la vue. [MODIFIÉ : ajout — ces signes font penser à une artérite à cellules géantes, qui accompagne 16 à 21 % des polymyalgies rhumatismales et menace la vue : traitement le jour même ; Buttgereit et coll., JAMA, 2016]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui descend dans le bras avec engourdissements ou perte de force.
+Raideur qui s'installe et empêche de lever le bras.
+Douleur et raideur des deux épaules le matin (surtout après 50 ans), perte de poids inexpliquée ou douleur nocturne qui s'aggrave : consultez dans les prochains jours. [MODIFIÉ : ajout de « (surtout après 50 ans) » et de « consultez dans les prochains jours » — polymyalgie rhumatismale ou cancer possibles : évaluation en quelques jours, pas au prochain rendez-vous de routine ; Buttgereit et coll., JAMA, 2016 ; Côté et coll., Eur Spine J, 2016]
+Aucune amélioration après 4 à 6 semaines.
+DURÉE HABITUELLE
+La douleur diminue souvent au cours des premières semaines. Il est toutefois fréquent, et normal, que la récupération complète prenne plusieurs mois : environ 1 personne sur 2 a encore des symptômes après 6 mois. [MODIFIÉ : « quelques mois » → « plusieurs mois : environ 1 personne sur 2 a encore des symptômes après 6 mois » — voir « En bref » ; Kuijpers et coll., Pain, 2004 ; van der Windt et coll., Br J Gen Pract, 1996]
+PROGRAMME D'EXERCICES
+Matériel : élastique, bâton ou manche à balai, table
+Exercice 1 : Cercles d'épaules lents
+Phase : Dès maintenant
+But : Pour détendre les épaules.
+Départ : Assis ou debout, les bras pendants et détendus.
+Mouvement : Faites de grands cercles lents avec les épaules, vers l'arrière, en respirant calmement.
+Dosage : 2 séries de 10 cercles, 2 à 3 fois par jour.
+Progression : Augmentez doucement l'amplitude des cercles.
+Plus facile : Faites de plus petits cercles.
+Erreur fréquente : Faire des mouvements rapides et saccadés.
+Illustration demandée : Dessin au trait d'une personne de face faisant des cercles d'épaules vers l'arrière.
+Exercice 2 : Mouvement pendulaire doux
+Phase : Dès maintenant
+But : Pour bouger l'épaule sans effort.
+Départ : Debout, légèrement penché vers l'avant, une main appuyée sur une table, l'autre bras pendant dans le vide.
+Mouvement : Balancez doucement le corps pour que le bras pendant fasse de petits cercles sans effort musculaire.
+Dosage : 1 à 2 minutes, 2 fois par jour.
+Progression : Faites des cercles un peu plus grands si c'est confortable.
+Plus facile : Faites de plus petits cercles, plus lentement.
+Erreur fréquente : Forcer avec les muscles du bras au lieu de laisser le bras se balancer.
+Illustration demandée : Dessin au trait d'une personne penchée, une main sur une table, laissant l'autre bras se balancer en cercle.
+Exercice 3 : Élévation des bras assistée avec un bâton
+Phase : Dès maintenant
+But : Pour garder toute la mobilité de l'épaule.
+Départ : Couché sur le dos ou debout, tenant un manche à balai à deux mains.
+Mouvement : Montez les deux bras ensemble vers le haut (le bras sain aide le bras sensible), tenez 2 secondes, puis redescendez doucement.
+Dosage : 2 séries de 10 répétitions, 1 à 2 fois par jour.
+Progression : Faites le mouvement debout, puis sans l'aide du bâton.
+Plus facile : Montez moins haut, couché sur le dos.
+Erreur fréquente : Cambrer le dos pour monter plus haut.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos tenant un bâton à deux mains et le levant au-dessus de la poitrine.
+Exercice 4 : Tirage élastique pour le haut du dos
+Phase : Quand la douleur diminue
+But : Pour renforcer le haut du dos.
+Départ : Debout, tenant un élastique léger à deux mains devant le ventre, coudes pliés près du corps.
+Mouvement : Écartez les mains vers l'extérieur en rapprochant les omoplates, puis revenez lentement.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Utilisez un élastique un peu plus résistant quand l'exercice devient facile.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Hausser les épaules vers les oreilles.
+Illustration demandée : Dessin au trait d'une personne debout écartant un élastique devant le tronc.
+RÉFÉRENCES
+Kuijpers T et al., Pain, 2004 (PMID: 15157703)
+Smith BE et al., Br J Sports Med, 2017 (PMID: 28596288)
+van der Windt DA et al., Shoulder disorders in general practice: prognostic indicators of outcome, Br J Gen Pract, 1996 [MODIFIÉ : ajout — source des proportions de rétablissement à 1 et 12 mois ; PMID À VÉRIFIER]
+Tran I et al., J Orthop Sports Phys Ther, 2025 [MODIFIÉ : ajout — mise à jour de la revue de Smith 2017 (16 essais) : aucune différence entre exercice douloureux et non douloureux ; PMID À VÉRIFIER]
+## === FICHE EPA-03 · [epaule/capsulite] ===
+Titre : Capsulite adhésive
+Sous-titre : Épaule gelée
+Ancien titre : Épaule gelée (capsulite adhésive)
+Diagnostic correspondant dans MSK Morand : Capsulite adhésive
+EN BREF
+La capsule de l'épaule est enflammée puis raide ; ce n'est pas une déchirure.
+Elle s'améliore chez la grande majorité des personnes, mais lentement, souvent sur 1 à 3 ans. Une raideur ou une douleur légère peut rester. [MODIFIÉ : « Elle guérit presque toujours, mais lentement, souvent en 1 à 2 ans. » → texte ci-contre — « guérit presque toujours » est trop optimiste : 41 % des personnes ont encore des symptômes après 4,4 ans en moyenne (6 % sévères) et 50 % après 7 ans ; la durée est aussi harmonisée avec le reste de la fiche (1 à 3 ans) ; Hand et coll., J Shoulder Elbow Surg, 2008 ; Shaffer et coll., J Bone Joint Surg Am, 1992 ; Wong et coll., Physiotherapy, 2017]
+Des mouvements doux, sans forcer, gardent l'épaule mobile.
+CE QUE VOUS AVEZ
+L'enveloppe qui entoure l'articulation de votre épaule, appelée capsule, est devenue enflammée, puis épaisse et raide. Cela limite vos mouvements dans toutes les directions et fait souvent mal la nuit. La capsulite s'améliore chez la grande majorité des personnes, mais lentement : la douleur diminue d'abord, la mobilité revient ensuite, souvent sur 1 à 3 ans. Environ 4 personnes sur 10 gardent une légère raideur ou une légère douleur après plusieurs années, le plus souvent sans gêne importante. [MODIFIÉ : « Une légère raideur peut persister, le plus souvent sans gêne importante. » → texte ci-contre — donner la proportion réelle ; Hand et coll., J Shoulder Elbow Surg, 2008]
+POURQUOI ÇA ARRIVE
+Souvent sans cause précise.
+Plus fréquente avec le diabète, un problème de thyroïde ou après une période d'immobilisation.
+SOULAGER LA DOULEUR
+Chaleur 15 minutes avant les exercices pour assouplir l'épaule.
+Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; une infiltration peut être discutée avec votre médecin.
+CE QUI AIDE
+Adapter les exercices à la phase : mouvements doux sans forcer tant que l'épaule est très douloureuse, puis étirements plus longs quand la douleur au repos diminue.
+Mettre de la chaleur enveloppée dans un linge 15 minutes avant les exercices pour assouplir l'épaule.
+Suivre le traitement proposé par votre médecin pour calmer la douleur : dans la phase douloureuse du début, une infiltration de cortisone dans l'articulation soulage souvent pendant plusieurs semaines à quelques mois.
+Utiliser le bras dans vos gestes quotidiens tolérables.
+Si vous êtes diabétique : la récupération peut être plus lente, et une infiltration de cortisone peut faire monter temporairement la glycémie; parlez-en à votre médecin et vérifiez votre glycémie plus souvent pendant environ 1 semaine après l'infiltration. [MODIFIÉ : ajout de « et vérifiez votre glycémie plus souvent pendant environ 1 semaine après l'infiltration » — la glycémie monte surtout dans les 1 à 3 premiers jours et peut rester plus haute jusqu'à 2 semaines ; Choudhry et coll., JBJS Rev, 2016 ; Benzon et coll., Reg Anesth Pain Med, 2025]
+À ÉVITER POUR L'INSTANT
+Forcer l'épaule dans une douleur aiguë pour essayer de « casser » la raideur : cela augmente la douleur et donne de moins bons résultats. [MODIFIÉ : « cela entretient l'inflammation » → « cela augmente la douleur et donne de moins bons résultats » — le mécanisme n'est pas démontré ; ce qui est observé, c'est un moins bon résultat avec les étirements au-delà de la douleur (étude non randomisée) ; Diercks et Stevens, J Shoulder Elbow Surg, 2004 ; Millar et coll., Nat Rev Dis Primers, 2022]
+Laisser le bras complètement immobile toute la journée.
+Faire des mouvements brusques ou soulever des charges lourdes.
+RÈGLE DE DOULEUR (0 À 10)
+Tant que l'épaule fait mal au repos ou la nuit, restez dans des mouvements sans douleur ou presque. Quand la douleur au repos a diminué, un inconfort d'étirement jusqu'à 3 sur 10 est acceptable s'il est revenu à son niveau habituel dans l'heure qui suit l'exercice. Si l'épaule élance pendant des heures après la séance, vous avez trop forcé : réduisez l'amplitude. [À VÉRIFIER : délai d'une heure laissé tel quel. Aucune donnée propre à la capsulite n'appuie un délai précis (une heure ou le lendemain). Le principe de la fiche (ne pas augmenter la douleur quand l'épaule est très irritable, accepter un inconfort d'étirement quand elle l'est moins) suit le modèle d'irritabilité de Kelley et coll. et Millar et coll., Nat Rev Dis Primers, 2022. Le délai d'une heure est un choix prudent, d'opinion d'experts.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Épaule rouge, chaude et enflée avec fièvre.
+Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : une seule puce → deux puces, avec « appelez le 911 » — séparer l'appel au 911 de la visite à l'urgence ; choix de rédaction, sans référence]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur insupportable qui ne diminue pas malgré le traitement médical.
+Engourdissements, picotements ou perte de force dans le bras ou la main.
+Aucun progrès après 3 mois de traitement, ou raideur importante qui persiste après 12 à 18 mois : d'autres traitements peuvent être discutés.
+DURÉE HABITUELLE
+La récupération est longue : amélioration progressive sur plusieurs mois, souvent 1 à 3 ans au total. La douleur s'améliore en premier, la souplesse ensuite. Les progrès sont souvent plus rapides au début, puis plus lents. [MODIFIÉ : ajout de la dernière phrase — la plus grande partie de l'amélioration se fait tôt, pas tard ; le modèle classique en trois phases est peu appuyé ; Wong et coll., Physiotherapy, 2017]
+PROGRAMME D'EXERCICES
+Matériel : mur, bâton ou manche à balai, table
+Exercice 1 : Mouvement pendulaire doux
+Phase : Dès maintenant
+But : Pour détendre l'épaule et diminuer la douleur.
+Départ : Debout, penché vers l'avant, la main saine appuyée sur une table, le bras raide pendant vers le sol.
+Mouvement : Balancez doucement le tronc pour faire faire de petits cercles au bras détendu.
+Dosage : 1 à 2 minutes, 2 à 3 fois par jour.
+Progression : Ajoutez les étirements guidés dès que la douleur au repos diminue.
+Plus facile : Faites de plus petits cercles.
+Erreur fréquente : Contracter l'épaule au lieu de laisser la gravité détendre le bras.
+Illustration demandée : Dessin au trait d'une personne penchée en appui sur une table, laissant pendre l'autre bras qui fait de petits cercles.
+Exercice 2 : Élévation couchée avec un bâton
+Phase : Dès maintenant
+But : Pour garder l'élévation du bras.
+Départ : Couché sur le dos, genoux pliés, tenant un bâton (ou un manche à balai) à deux mains.
+Mouvement : Avec la force du bras sain, montez lentement le bâton vers le plafond puis au-dessus de la tête. Tant que l'épaule fait mal au repos ou la nuit, arrêtez-vous avant la douleur et tenez 1 à 5 secondes. Quand la douleur au repos a diminué, allez jusqu'à un étirement tolérable et tenez 5 à 10 secondes. Redescendez ensuite. [MODIFIÉ : « jusqu'à sentir un étirement tolérable. Tenez 5 à 10 secondes » → texte ci-contre — pour une épaule très irritable, le modèle de Kelley propose des étirements courts (1 à 5 secondes) et sans douleur ; les tenues plus longues viennent quand l'irritabilité baisse ; Kelley et coll., JOSPT, 2013 ; Millar et coll., Nat Rev Dis Primers, 2022. À VÉRIFIER : les durées exactes n'ont pas pu être relues dans le texte intégral de Kelley 2013.]
+Dosage : 5 à 8 répétitions, 2 fois par jour.
+Progression : Tenez l'étirement 20 à 30 secondes quand la douleur au repos et la nuit a diminué.
+Plus facile : Montez moins haut, sans forcer.
+Erreur fréquente : Forcer au point de creuser le dos ou de déclencher une douleur qui dure des heures.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos poussant un bâton vers le haut avec le bras sain.
+Exercice 3 : Rotation externe avec bâton
+Phase : Dès maintenant
+But : Pour garder la rotation vers l'extérieur.
+Départ : Couché sur le dos, les coudes pliés à 90 degrés près du corps, tenant un bâton à deux mains.
+Mouvement : Gardez le coude du côté raide collé au corps et utilisez le bras sain pour pousser doucement l'autre main vers l'extérieur. Tant que l'épaule fait mal au repos ou la nuit, arrêtez-vous avant la douleur et tenez 1 à 5 secondes. Quand la douleur au repos a diminué, tenez 5 à 10 secondes. Revenez ensuite. [MODIFIÉ : « Tenez 5 à 10 secondes, puis revenez. » → texte ci-contre — même raison et mêmes références que l'exercice 2 ; À VÉRIFIER dans le texte intégral de Kelley 2013]
+Dosage : 5 répétitions, 2 fois par jour.
+Progression : Tenez 20 à 30 secondes quand l'épaule est moins sensible, puis faites l'étirement debout, la main appuyée sur un cadre de porte.
+Plus facile : Faites un plus petit mouvement.
+Erreur fréquente : Laisser le coude s'écarter du corps pour tricher.
+Illustration demandée : Dessin au trait d'une personne couchée, coudes pliés aux côtes, poussant une main vers l'extérieur à l'aide d'un bâton.
+Exercice 4 : Marche des doigts sur le mur
+Phase : Quand la douleur diminue
+But : Pour gagner de la hauteur peu à peu.
+Départ : Debout face à un mur, à un demi-bras de distance.
+Mouvement : Faites grimper vos doigts sur le mur aussi haut que possible sans hausser l'épaule. Tenez 5 à 10 secondes en haut, puis redescendez de la même façon.
+Dosage : 5 répétitions, 2 fois par jour.
+Progression : Tenez 20 à 30 secondes, puis faites le même exercice de côté par rapport au mur quand l'épaule est moins sensible.
+Plus facile : Arrêtez plus bas sur le mur.
+Erreur fréquente : Hausser l'épaule vers l'oreille ou cambrer le dos.
+Illustration demandée : Dessin au trait d'une personne debout face à un mur grimpant doucement avec les doigts d'une main.
+RÉFÉRENCES
+Kelley MJ et al., J Orthop Sports Phys Ther, 2013 (PMID: 23636125) [À VÉRIFIER : référence non retrouvée dans les sources consultées ; titre et PMID à confirmer]
+Page MJ et al., Cochrane Database Syst Rev, 2014 (PMID: 25157702) [À VÉRIFIER : titre « Manual therapy and exercise for adhesive capsulitis (frozen shoulder) » et date confirmés ; PMID non affiché]
+Challoumas D et al., JAMA Netw Open, 2020 (PMID: 33326025)
+Hand C et al., J Shoulder Elbow Surg, 2008 (PMID: 17993282) [À VÉRIFIER : contenu confirmé par une source secondaire (269 épaules, suivi 4,4 ans, 41 % de symptômes persistants) ; PMID non confirmé directement]
+Wong CK, Levine WN, Deo K et al., Natural history of frozen shoulder: fact or fiction? A systematic review, Physiotherapy, 2017 (PMID: 27641499) [MODIFIÉ : ajout — revue plus récente sur l'évolution naturelle]
+Rangan A et al. (essai UK FROST), Lancet, 2020 [MODIFIÉ : ajout — essai sur les traitements proposés quand la raideur persiste (manipulation sous anesthésie, libération capsulaire, physiothérapie avec infiltration) ; PMID À VÉRIFIER]
+Millar NL et al., Frozen shoulder, Nat Rev Dis Primers, 2022 [MODIFIÉ : ajout — synthèse récente, dosage des étirements selon l'irritabilité ; PMID À VÉRIFIER]
+## === FICHE EPA-04 · [epaule/ac_entorse] ===
+Titre : Entorse ou luxation acromio-claviculaire
+Sous-titre : Entorse sur le dessus de l'épaule
+Ancien titre : Entorse sur le dessus de l'épaule (articulation acromio-claviculaire)
+Diagnostic correspondant dans MSK Morand : Entorse ou luxation acromio-claviculaire
+EN BREF
+Les ligaments sur le dessus de l'épaule sont étirés ou partiellement déchirés.
+Pour une entorse légère à modérée, une courte période d'écharpe, puis des exercices, suffisent.
+Une petite bosse peut rester. L'épaule fonctionne habituellement bien, mais une sensibilité de temps en temps est fréquente. [MODIFIÉ : « Une petite bosse peut rester, sans nuire à la force de l'épaule. » → texte ci-contre — énoncé incomplet : après une entorse de grade I ou II, environ la moitié des personnes ont encore des symptômes au moins occasionnels 10 ans plus tard, même si la fonction reste bonne ; Mikek, Am J Sports Med, 2008 ; Verstift et coll., Am J Sports Med, 2021]
+CE QUE VOUS AVEZ
+Une chute ou un choc sur le côté de l'épaule a étiré ou partiellement déchiré les ligaments qui relient la clavicule à l'omoplate, sur le dessus de l'épaule. Pour les entorses légères à modérées (grades I et II), une courte période d'écharpe puis des exercices progressifs permettent une bonne récupération sans chirurgie. Une petite bosse peut rester visible. Une sensibilité de temps en temps peut persister, parfois pendant des années (chez environ 1 personne sur 3 à 1 sur 2), le plus souvent sans gêner la fonction. [MODIFIÉ : « une sensibilité peut persister quelques mois, le plus souvent sans gêner la fonction » → texte ci-contre — les symptômes persistants sont plus fréquents et plus durables que « quelques mois » ; Mikek, Am J Sports Med, 2008 ; Verstift et coll., Am J Sports Med, 2021]
+POURQUOI ÇA ARRIVE
+Chute ou choc direct sur le côté de l'épaule (vélo, hockey, football).
+SOULAGER LA DOULEUR
+Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour. [MODIFIÉ : « 15 minutes » → « 10 à 15 minutes » — harmonisation avec « Ce qui aide » de la même fiche ; choix de rédaction, sans référence]
+Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, sur le dessus de l'épaule les premiers jours.
+Utiliser une écharpe de confort quelques jours seulement (2 semaines au maximum), puis bouger doucement.
+Renforcer les muscles autour de l'omoplate dès que la douleur baisse.
+Reprendre le sport progressivement quand l'épaule est indolore, mobile et forte.
+À ÉVITER POUR L'INSTANT
+Croiser le bras devant la poitrine (comme pour attacher la ceinture d'auto) si cela pince.
+Faire des pompes (push-ups), des dips ou du développé couché, et porter des charges lourdes, tant que ces gestes sont douloureux.
+Reprendre les sports de contact avant l'accord du médecin ou du physiothérapeute.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Si elle dépasse 3 sur 10 ou dure plus d'une heure, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter. [À VÉRIFIER : délai d'une heure laissé tel quel. Aucune donnée propre à l'entorse acromio-claviculaire n'appuie un délai précis. Le délai du lendemain matin vient des tendinopathies et des douleurs chroniques, pas des blessures ligamentaires récentes. Une heure est un choix prudent et défendable pour une blessure aiguë, mais c'est une opinion d'experts.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Bosse très importante et douloureuse sur le dessus de l'épaule, avec la peau tendue.
+Difficulté à respirer ou à avaler après le choc, ou douleur dans la poitrine avec essoufflement ou malaise : appelez le 911. [MODIFIÉ : ajout de « : appelez le 911 » — préciser le geste attendu ; choix de rédaction, sans référence]
+Bras ou main engourdi, froid, pâle ou sans force après le choc. [MODIFIÉ : puce déplacée de « Revoyez votre médecin si » (« Engourdissements, picotements ou faiblesse dans le bras ou la main ») et reformulée — après un traumatisme récent, un signe nerveux ou de mauvaise circulation doit être évalué sans attendre ; l'examen neurovasculaire est essentiel dans les luxations graves, qui s'opèrent idéalement dans les 2 à 3 semaines ; Berthold et coll., BMC Musculoskelet Disord, 2022]
+REVOYEZ VOTRE MÉDECIN SI
+Douleur qui ne diminue pas après 3 à 4 semaines.
+Douleur persistante lors de la reprise du sport.
+DURÉE HABITUELLE
+Reprise des activités habituelles en 1 à 2 semaines environ pour une entorse légère (grade I) et en 3 à 6 semaines pour une entorse modérée (grade II). Le retour aux sports de contact ou de lancer peut être plus long.
+PROGRAMME D'EXERCICES
+Matériel : élastique, mur, table
+Exercice 1 : Mouvement pendulaire doux
+Phase : Dès maintenant
+But : Pour bouger l'épaule sans la charger.
+Départ : Debout, légèrement penché vers l'avant, la main saine appuyée sur une table.
+Mouvement : Laissez le bras atteint pendre et faites de tout petits cercles doux, sans forcer.
+Dosage : 1 à 2 minutes, 2 fois par jour.
+Progression : Passez à l'élévation du bras devant vous dès que la douleur aiguë diminue.
+Plus facile : Faites de plus petits cercles.
+Erreur fréquente : Faire de grands cercles qui tirent sur le dessus de l'épaule.
+Illustration demandée : Dessin au trait d'une personne penchée en appui sur une table, faisant de petits cercles avec le bras pendant.
+[À VÉRIFIER : le pendulaire figure dans des protocoles d'essais, mais aucune étude ne le compare au fait de garder le bras soutenu les premiers jours. Si le bras pendant tire sur le dessus de l'épaule, il est raisonnable de retarder cet exercice de quelques jours (opinion d'experts).]
+Exercice 2 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour stabiliser l'épaule.
+Départ : Assis ou debout, bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et légèrement vers le bas pour stabiliser l'épaule. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 10 répétitions, 1 à 2 fois par jour.
+Progression : Faites l'exercice en tirant un élastique léger à hauteur de la taille.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules vers les oreilles.
+Illustration demandée : Dessin au trait d'un buste vu de dos montrant les deux omoplates qui se resserrent vers la colonne.
+Exercice 3 : Élévation du bras devant vous (jusqu'à 90 degrés)
+Phase : Quand la douleur diminue
+But : Pour retrouver l'élévation du bras.
+Départ : Debout ou couché sur le dos, le pouce pointé vers le haut.
+Mouvement : Levez doucement le bras devant vous jusqu'à la hauteur de l'épaule (pas plus haut au début), puis redescendez lentement.
+Dosage : 2 séries de 10 répétitions, 1 fois par jour.
+Progression : Montez graduellement au-dessus de la tête quand le dessus de l'épaule ne fait plus mal.
+Plus facile : Levez moins haut, coude plié.
+Erreur fréquente : Laisser le bras traverser vers l'autre épaule.
+Illustration demandée : Dessin au trait d'une personne debout levant un bras tendu devant elle jusqu'à l'horizontale.
+Exercice 4 : Rotation externe avec élastique
+Phase : Quand la douleur diminue
+But : Pour renforcer les muscles de l'épaule.
+Départ : Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.
+Mouvement : Tournez lentement l'avant-bras vers l'extérieur en gardant l'omoplate stable, puis revenez doucement.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Passez à un élastique plus résistant, puis ajoutez des pompes contre un mur quand lever le bras au-dessus de la tête est indolore.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Décoller le coude du corps.
+Illustration demandée : Dessin au trait d'une personne debout tirant un élastique vers l'extérieur, coude collé au flanc.
+RÉFÉRENCES
+Li X et al., J Bone Joint Surg Am, 2014 (PMID: 24382728)
+Beitzel K et al., Arthroscopy, 2014 (PMID: 24485119)
+Mikek M, Long-term shoulder function after type I and II acromioclavicular joint disruption, Am J Sports Med, 2008;36(11):2147-50 (PMID: 18583520) [MODIFIÉ : ajout — source des symptômes persistants à 10 ans]
+Verstift DE et al., Long-term outcome after nonoperative treatment for Rockwood I and II acromioclavicular joint injuries, Am J Sports Med, 2021 [MODIFIÉ : ajout — suivi à long terme plus récent ; PMID À VÉRIFIER]
+## === FICHE EPA-05 · [epaule/rupture] ===
+Titre : Rupture transfixiante de la coiffe des rotateurs
+Sous-titre : Déchirure d'un tendon de l'épaule
+Ancien titre : Déchirure d'un tendon de l'épaule (coiffe des rotateurs)
+Diagnostic correspondant dans MSK Morand : Rupture transfixiante de la coiffe
+EN BREF
+Le tendon ne se recolle pas seul, mais l'épaule peut retrouver une bonne fonction.
+Quand la déchirure est apparue peu à peu (sans accident), les exercices suffisent chez environ 3 personnes sur 4. [MODIFIÉ : « Chez environ 3 personnes sur 4, les exercices suffisent. » → texte ci-contre — le chiffre vient d'une cohorte de déchirures sans accident seulement (environ 75 % sans chirurgie à 2 ans, 73 % à 10 ans) ; il ne s'applique pas aux déchirures après un accident ; Kuhn et coll., J Shoulder Elbow Surg, 2013 ; Kuhn et coll., J Bone Joint Surg Am, 2024]
+Une perte de force soudaine après une chute demande un avis rapide.
+CE QUE VOUS AVEZ
+Un des tendons de votre coiffe des rotateurs présente une déchirure qui traverse toute son épaisseur. Le tendon ne se recolle pas de lui-même, mais chez environ 3 personnes sur 4 dont la déchirure est apparue progressivement (sans accident), les autres muscles de l'épaule compensent bien grâce à un programme d'exercices réguliers, ce qui permet d'éviter la chirurgie. La déchirure s'agrandit chez environ 1 personne sur 2 en 5 ans : un suivi est recommandé. Chez certaines personnes, une réparation donne un résultat un peu meilleur à long terme : parlez-en avec votre médecin. [MODIFIÉ : « Comme la déchirure peut s'agrandir avec les années, un suivi est recommandé. » → texte ci-contre — préciser le risque (environ 50 % d'agrandissement à 5 ans pour les déchirures complètes) et informer que, dans un essai randomisé, la réparation a donné de meilleurs résultats que la physiothérapie à 10 et 15 ans ; Keener et coll., J Bone Joint Surg Am, 2015 ; Moosmayer et coll., J Bone Joint Surg Am, 2024 ; guide AAOS, 2025]
+POURQUOI ÇA ARRIVE
+Usure des tendons avec l'âge.
+Chute ou effort brusque.
+Tabagisme et gestes répétés au-dessus de la tête.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.
+Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement.
+CE QUI AIDE
+Renforcer les autres muscles de l'épaule et de l'omoplate pour compenser le tendon déchiré.
+Réapprendre à lever le bras en position couchée avant de le faire debout.
+Appliquer de la chaleur enveloppée dans un linge 15 minutes avant les exercices si l'épaule est raide.
+Être patient et régulier : l'amélioration prend plusieurs semaines.
+Faire réévaluer votre épaule aux dates convenues, même si elle va mieux.
+À ÉVITER POUR L'INSTANT
+Soulever des objets lourds à bout de bras, loin du corps.
+Forcer pour lever le bras en haussant l'épaule vers l'oreille.
+Attendre sans bouger : l'épaule risque de devenir raide.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter. [MODIFIÉ : « dans l'heure qui suit l'exercice » et « dure plus d'une heure » → « le lendemain matin » et « n'augmente pas d'une semaine à l'autre » — aucun protocole publié n'utilise une heure ; les essais sur la douleur liée à la coiffe demandent un retour au niveau habituel avant la séance suivante, en 12 à 24 heures ou le lendemain matin ; Holmgren et coll., BMJ, 2012 ; Silbernagel et coll., Am J Sports Med, 2007 ; Raulline Ullern et coll., BMC Musculoskelet Disord, 2025. À VÉRIFIER : aucune étude ne porte seulement sur les déchirures complètes ; une cohorte de déchirures non réparables utilisait un retour au niveau habituel après 30 minutes de repos (Christensen et coll., BMC Musculoskelet Disord, 2016).]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Perte de force brutale ou impossibilité de lever le bras après une chute ou un effort; un avis orthopédique rapide est nécessaire, idéalement dans les jours qui suivent. [MODIFIÉ : ajout de « idéalement dans les jours qui suivent » — les déchirures après un accident ont de meilleurs résultats quand la réparation est faite tôt (meilleurs résultats dans les 3 premières semaines ; données d'observation) ; Gutman et coll., J Shoulder Elbow Surg, 2021]
+Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : une seule puce → deux puces, avec « appelez le 911 » — séparer l'appel au 911 de la visite à l'urgence ; choix de rédaction, sans référence]
+Épaule rouge, chaude et enflée avec fièvre.
+REVOYEZ VOTRE MÉDECIN SI
+Douleur nocturne sévère qui ne répond pas au traitement.
+Perte de force qui s'aggrave, ou aucune amélioration après 12 semaines d'exercices.
+Engourdissements ou fourmillements dans le bras.
+DURÉE HABITUELLE
+Amélioration souvent nette en 6 à 12 semaines d'exercices réguliers. C'est à ce moment que l'on fait le point avec le médecin sur la suite du traitement.
+PROGRAMME D'EXERCICES
+Matériel : élastique, poids léger ou bouteille d'eau, coussin
+Exercice 1 : Élévation du bras couché sur le dos (aidée)
+Phase : Dès maintenant
+But : Pour retrouver l'élévation du bras sans effort.
+Départ : Couché sur le dos, genoux pliés, tenez le poignet du bras douloureux avec votre main saine.
+Mouvement : Levez doucement les deux bras vers le plafond puis au-dessus de la tête, puis contrôlez la descente lentement.
+Dosage : 2 séries de 10 répétitions, 1 à 2 fois par jour.
+Progression : Faites le mouvement sans l'aide de l'autre main, puis le buste légèrement relevé (oreillers ou banc incliné).
+Plus facile : Montez moins haut, en vous aidant de l'autre main.
+Erreur fréquente : Laisser le bras retomber d'un coup ou cambrer le dos.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos guidant son bras douloureux vers le haut avec son autre main.
+Exercice 2 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour bien placer l'épaule.
+Départ : Assis ou debout, bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et légèrement vers le bas pour bien placer l'épaule. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Ajoutez un tirage avec un élastique léger à hauteur de la taille.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules.
+Illustration demandée : Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates.
+Exercice 3 : Renforcement doux du deltoïde antérieur (couché puis incliné)
+Phase : Quand la douleur diminue
+But : Pour renforcer le muscle qui aide à lever le bras.
+Départ : Couché sur le dos, coude légèrement plié, sans poids au début.
+Mouvement : Levez le bras à la verticale vers le plafond, puis faites de petits mouvements de va-et-vient d'avant en arrière sur environ 10 cm, de façon lente et contrôlée.
+Dosage : 3 séries de 10 répétitions, 3 à 4 fois par semaine.
+Progression : Ajoutez un petit poids (0,5 à 1 kg), puis redressez progressivement le buste (semi-assis, puis debout) sur plusieurs semaines.
+Plus facile : Faites de plus petits mouvements, sans poids.
+Erreur fréquente : Passer debout ou ajouter un poids lourd trop rapidement.
+Illustration demandée : Dessin au trait d'une personne couchée sur le dos, le bras tendu vers le plafond avec de petites flèches de va-et-vient.
+[À VÉRIFIER : cet exercice vient du programme de Levy et coll. (2008), étudié chez 17 personnes âgées en moyenne de 80 ans, avec une déchirure massive non réparable. Une étude plus récente n'a obtenu que 40 % de succès (Yian et coll., J Shoulder Elbow Surg, 2017). L'exercice est sécuritaire, mais son bénéfice est moins certain que la fiche ne le laisse croire. Le dosage original de Levy n'a pas pu être relu.]
+Exercice 4 : Rotation externe avec élastique léger
+Phase : Quand la douleur diminue
+But : Pour renforcer les tendons qui restent.
+Départ : Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique très léger fixé du côté opposé.
+Mouvement : Tournez doucement l'avant-bras vers l'extérieur, sans douleur vive, puis revenez lentement.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Augmentez la résistance de l'élastique très graduellement.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Décoller le coude du flanc.
+Illustration demandée : Dessin au trait d'une personne debout effectuant une rotation externe avec un élastique léger, coude collé au corps.
+RÉFÉRENCES
+Kuhn JE et al., J Shoulder Elbow Surg, 2013 (PMID: 23540577)
+Levy O et al., J Shoulder Elbow Surg, 2008 (PMID: 18718765)
+Brown GA, Weber S, Chahal J et al., Management of Rotator Cuff Injuries: Evidence-Based Clinical Practice Guideline, American Academy of Orthopaedic Surgeons, 2025 [MODIFIÉ : « Weber S, Chahal J, J Am Acad Orthop Surg, 2020 (PMID: 31599763) » → guide AAOS 2025 — la référence de 2020 est exacte, mais elle résume le guide de 2019, remplacé par la mise à jour du 18 août 2025]
+Kuhn JE et al. (cohorte MOON, suivi de 10 ans), J Bone Joint Surg Am, 2024 [MODIFIÉ : ajout — 27 % de chirurgie à 10 ans, résultats stables sans chirurgie ; PMID À VÉRIFIER]
+Keener JD et al., A prospective evaluation of survivorship of asymptomatic degenerative rotator cuff tears, J Bone Joint Surg Am, 2015 [MODIFIÉ : ajout — source du risque d'agrandissement ; PMID À VÉRIFIER]
+Moosmayer S et al. (réparation ou physiothérapie, suivi de 15 ans), J Bone Joint Surg Am, 2024 [MODIFIÉ : ajout — source de la comparaison à long terme ; PMID À VÉRIFIER]

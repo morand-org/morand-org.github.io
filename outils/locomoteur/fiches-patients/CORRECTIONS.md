@@ -13,6 +13,7 @@ remettre ensuite ces fichiers.
 - **Règle de douleur (décision du 26 novembre 2026) :** elle reste « le lendemain matin », comme dans la version 1.
   - Les fiches envoyées à OpenEvidence le 25 novembre (`revision/openevidence/`) disaient « dans l'heure qui suit l'exercice ». Une correction d'OpenEvidence sur ce délai ne s'applique pas.
   - Si OpenEvidence apporte une donnée qui contredit le lendemain matin pour un problème précis, la signaler au Dr Morand sans la reporter.
+- **Descriptions de changement (correction du 26 novembre 2026) :** quand OpenEvidence décrit son changement au lieu de donner le texte (« ajout », « texte nuancé », « nouveau texte », « deux lignes ci-dessus », « une seule puce → deux puces »), la ligne de la réponse porte déjà le texte révisé : la description n'est jamais recopiée. Après chaque intégration, vérifier tout le texte des fiches (restes de note, phrase sans point final, phrase répétée).
 - Les autres corrections se reportent fiche par fiche, grâce à l'identifiant `[région/id]`, dans `ajouts/` ou `textes/`, puis on relance `produire-fiches.mjs`.
 
 ## Version 2 : passe finale de simplification (demande du 26 novembre 2026)

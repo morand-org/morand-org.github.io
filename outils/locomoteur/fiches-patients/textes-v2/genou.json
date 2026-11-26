@@ -24,8 +24,8 @@
    "Renforcer les muscles des fesses (hanche) et de l'avant de la cuisse (quadriceps) : c'est le cœur du traitement.",
    "Allonger et dégourdir les jambes régulièrement si vous restez assis longtemps.",
    "Réduire temporairement les descentes d'escaliers rapides et la course en pente ; si vous courez, diminuer un peu la distance et faire des pas légèrement plus courts.",
-   "Demander à votre physiothérapeute un bandage adhésif de la rotule (taping) : il peut soulager certaines personnes pendant les premières semaines, mais il n'ajoute pas toujours un bénéfice aux exercices. texte nuancé",
-   "Des semelles préfabriquées peuvent aussi soulager pendant les premières semaines (environ 6 semaines). ajout"
+   "Demander à votre physiothérapeute un bandage adhésif de la rotule (taping) : il peut soulager certaines personnes pendant les premières semaines, mais il n'ajoute pas toujours un bénéfice aux exercices.",
+   "Des semelles préfabriquées peuvent aussi soulager pendant les premières semaines (environ 6 semaines)."
   ],
   "a_eviter": [
    "Faire des squats profonds ou des fentes très basses tant qu'ils déclenchent une douleur de plus de 3 sur 10.",
@@ -145,7 +145,7 @@
    "Chaleur 15 minutes pour la raideur ; glace 10 à 15 minutes, dans un linge, si l'articulation est enflée.",
    "Anti-inflammatoire en crème d'abord ; en comprimés seulement pour de courtes périodes, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant les exercices, une douleur jusqu'à 5 sur 10 est acceptable et ne veut pas dire que vous abîmez votre genou, si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 5 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. jusqu'à 5 sur 10 au plus tard le lendemain",
+  "regle_de_douleur": "Pendant les exercices, une douleur jusqu'à 5 sur 10 est acceptable et ne veut pas dire que vous abîmez votre genou, si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 5 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou soudainement très enflé, rouge et chaud, avec ou sans fièvre.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement."
@@ -256,10 +256,10 @@
    "Glace 10 à 15 minutes, dans un linge, si le genou est enflé.",
    "Acétaminophène ou anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10, ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. au plus tard le lendemain plus douloureux ou plus enflé le lendemain",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10, ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou bloqué (impossible de le tendre complètement) : avis orthopédique rapide.",
-   "Genou très enflé, rouge et chaud, avec ou sans fièvre. ajout"
+   "Genou très enflé, rouge et chaud, avec ou sans fièvre."
   ],
   "medecin": [
    "Gonflement important qui revient après chaque marche.",
@@ -335,7 +335,7 @@
    "Avec ou sans chirurgie plus tard, la première étape est la même : retrouver l'extension et réveiller la cuisse.",
    "Le retour aux sports avec pivots se décide avec votre médecin."
   ],
-  "ce_que_vous_avez": "Le ligament croisé antérieur, qui stabilise le genou lors des pivots, est déchiré. Que vous ayez une chirurgie plus tard ou non, la première étape est la même et elle est essentielle : faire dégonfler le genou, retrouver l'extension complète (jambe bien droite), réveiller les muscles de la cuisse et marcher sans boiter. Dans les études, environ la moitié des personnes qui ont commencé par la réadaptation n'ont pas eu besoin d'opération. ajout de la dernière phrase",
+  "ce_que_vous_avez": "Le ligament croisé antérieur, qui stabilise le genou lors des pivots, est déchiré. Que vous ayez une chirurgie plus tard ou non, la première étape est la même et elle est essentielle : faire dégonfler le genou, retrouver l'extension complète (jambe bien droite), réveiller les muscles de la cuisse et marcher sans boiter. Dans les études, environ la moitié des personnes qui ont commencé par la réadaptation n'ont pas eu besoin d'opération.",
   "pourquoi": [
    "Pivot, changement de direction ou réception de saut, souvent sans contact.",
    "Sports comme le soccer, le ski, le basketball ou le hockey."
@@ -359,7 +359,7 @@
   "urgence": [
    "Gonflement énorme et très douloureux, ou fièvre.",
    "Engourdissements, pied qui tombe, pied froid ou pâle, ou mollet douloureux, enflé et chaud.",
-   "Essoufflement soudain ou douleur dans la poitrine : appelez le 911. ajout",
+   "Essoufflement soudain ou douleur dans la poitrine : appelez le 911.",
    "Genou qui reste bloqué, impossible à tendre complètement : à faire évaluer rapidement."
   ],
   "medecin": [
@@ -466,10 +466,10 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. en quelques heures le lendemain",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Engourdissements, picotements dans le pied, pied froid ou pâle, ou pied qui tombe après le choc.",
-   "Mollet douloureux, enflé et chaud. ajout"
+   "Mollet douloureux, enflé et chaud."
   ],
   "medecin": [
    "Sensation que le genou est très instable ou part vers l'arrière ou sur le côté.",
@@ -565,12 +565,12 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge. en quelques heures le lendemain",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Engourdissement sur le dessus du pied ou difficulté à relever le pied ou les orteils (surtout après une blessure du côté extérieur) : urgence.",
-   "Pied froid ou pâle : urgence. ajout",
+   "Pied froid ou pâle : urgence.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement.",
-   "Mollet douloureux, enflé et chaud. ajout"
+   "Mollet douloureux, enflé et chaud."
   ],
   "medecin": [
    "Genou qui reste instable sur le côté, même jambe tendue.",
@@ -671,7 +671,7 @@
    "Nouvelle luxation ou nouvel épisode où la rotule part sur le côté.",
    "Gonflement très important et rapide du genou.",
    "Genou qui reste bloqué ou qui accroche (fragment de cartilage ou d'os possible) : à faire évaluer rapidement.",
-   "Mollet douloureux, enflé et chaud. ajout"
+   "Mollet douloureux, enflé et chaud."
   ],
   "medecin": [
    "Sensation persistante que la rotule va se déboîter malgré 3 mois d'exercices."
@@ -767,7 +767,7 @@
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Sinon, réduisez la charge.",
   "urgence": [
    "Claquement brutal avec impossibilité de tendre le genou ou de lever la jambe tendue (rupture du tendon : urgence).",
-   "Rougeur et chaleur avec fièvre. ajout"
+   "Rougeur et chaleur avec fièvre."
   ],
   "medecin": [
    "Gonflement important, rougeur ou chaleur sur le tendon.",
@@ -785,7 +785,7 @@
     "nom": "Chaise au mur statique (isométrique)",
     "position_de_depart": "Debout, dos appuyé contre un mur, pieds avancés d'environ 40 à 50 cm.",
     "mouvement": "Glissez le dos pour plier les genoux à environ 60 degrés et tenez la position immobile pendant 30 à 45 secondes.",
-    "dosage": "4 à 5 répétitions avec 1 à 2 minutes de repos entre chacune, 1 fois par jour. Cet exercice peut soulager la douleur pendant un court moment chez certaines personnes ; s'il vous soulage, il peut être fait avant le sport. texte nuancé",
+    "dosage": "4 à 5 répétitions avec 1 à 2 minutes de repos entre chacune, 1 fois par jour. Cet exercice peut soulager la douleur pendant un court moment chez certaines personnes ; s'il vous soulage, il peut être fait avant le sport.",
     "progression": "Passez à la chaise au mur sur une jambe.",
     "erreur_frequente": "Raccourcir les temps de repos ou laisser les genoux avancer au-delà des orteils.",
     "illustration": "Dessin au trait d'un sportif dos au mur maintenant la position de la chaise.",
@@ -964,7 +964,7 @@
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions, la charge ou la distance de course.",
   "urgence": [
    "Engourdissements ou faiblesse du pied.",
-   "Genou enflé, chaud et rouge, avec ou sans fièvre. ajout",
+   "Genou enflé, chaud et rouge, avec ou sans fièvre.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement."
   ],
   "medecin": [
@@ -1357,7 +1357,7 @@
   "urgence": [
    "Douleur brutale pendant un saut, avec genou enflé et incapacité de lever la jambe tendue (fracture à vérifier d'urgence ; une radiographie normale ne l'exclut pas toujours).",
    "Genou enflé, rouge et chaud, ou fièvre.",
-   "Douleur au repos ou la nuit. ajout"
+   "Douleur au repos ou la nuit."
   ],
   "medecin": [
    "Boiterie qui dure plus de 2 semaines malgré la réduction du sport.",
@@ -1452,13 +1452,13 @@
    "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
    "Un anti-inflammatoire en crème est le premier choix ; l'acétaminophène ou un anti-inflammatoire en comprimés peuvent aussi aider, si votre pharmacien ou votre médecin le juge approprié."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude ou le nombre de répétitions. en quelques heures le lendemain",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle se calme en quelques heures et si, le lendemain, le genou n'est ni plus douloureux ni plus enflé. Si elle dépasse 3 sur 10 ou si le genou est plus douloureux ou plus enflé le lendemain, réduisez l'amplitude ou le nombre de répétitions.",
   "urgence": [
    "Fièvre, ou genou rouge et chaud.",
-   "Genou qui enfle beaucoup en quelques heures. ajout",
-   "Impossible de mettre du poids sur la jambe pour faire 4 pas. ajout",
+   "Genou qui enfle beaucoup en quelques heures.",
+   "Impossible de mettre du poids sur la jambe pour faire 4 pas.",
    "Genou qui reste bloqué (impossible de le tendre complètement).",
-   "Mollet douloureux, enflé et chaud. ajout"
+   "Mollet douloureux, enflé et chaud."
   ],
   "medecin": [
    "Gonflement important qui ne diminue pas après 1 semaine.",
@@ -1554,7 +1554,7 @@
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement.",
-   "Genou enflé, chaud et rouge, avec ou sans fièvre. ajout"
+   "Genou enflé, chaud et rouge, avec ou sans fièvre."
   ],
   "medecin": [
    "Gonflement important qui persiste.",
@@ -1625,7 +1625,7 @@
    "S'il ne cause ni blocage ni douleur, il n'a pas besoin de chirurgie.",
    "Les exercices gardent le genou fort."
   ],
-  "ce_que_vous_avez": "Un de vos ménisques (coussins du genou), le plus souvent celui du côté extérieur, est plus épais et plus large que la normale depuis la naissance. Quand il ne cause ni blocage, ni ressaut douloureux, ni gonflement, aucun traitement particulier n'est nécessaire : une simple surveillance suffit. Garder des cuisses et des hanches fortes aide le genou à bien fonctionner, sans toutefois changer la forme du ménisque. Ce ménisque peut se déchirer plus facilement, et l'autre genou a parfois la même forme. Si des blocages ou des ressauts douloureux apparaissent, un avis en orthopédie est nécessaire. Ce ménisque peut se déchirer plus facilement, et l'autre genou a parfois la même forme",
+  "ce_que_vous_avez": "Un de vos ménisques (coussins du genou), le plus souvent celui du côté extérieur, est plus épais et plus large que la normale depuis la naissance. Quand il ne cause ni blocage, ni ressaut douloureux, ni gonflement, aucun traitement particulier n'est nécessaire : une simple surveillance suffit. Garder des cuisses et des hanches fortes aide le genou à bien fonctionner, sans toutefois changer la forme du ménisque. Ce ménisque peut se déchirer plus facilement, et l'autre genou a parfois la même forme. Si des blocages ou des ressauts douloureux apparaissent, un avis en orthopédie est nécessaire.",
   "pourquoi": [
    "Forme du ménisque présente depuis la naissance."
   ],
@@ -1653,7 +1653,7 @@
    "Gonflement important ou qui persiste.",
    "Gêne qui persiste après 6 à 8 semaines."
   ],
-  "duree_habituelle": "Si la gêne est légère, le confort s'améliore souvent en 4 à 8 semaines ; des blocages ou des ressauts douloureux qui persistent nécessitent un avis en orthopédie. Quand le ménisque cause des symptômes, environ 4 jeunes sur 10 traités d'abord sans chirurgie finissent par être opérés. ajout de la dernière phrase",
+  "duree_habituelle": "Si la gêne est légère, le confort s'améliore souvent en 4 à 8 semaines ; des blocages ou des ressauts douloureux qui persistent nécessitent un avis en orthopédie. Quand le ménisque cause des symptômes, environ 4 jeunes sur 10 traités d'abord sans chirurgie finissent par être opérés.",
   "materiel": [
    "marche ou escalier",
    "poids léger, bouteille d'eau ou sac à dos"
@@ -1740,7 +1740,7 @@
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à votre niveau habituel au plus tard le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, réduisez l'amplitude, le nombre de répétitions ou la charge.",
   "urgence": [
    "Douleur soudaine et forte dans le mollet, avec gonflement, rougeur ou chaleur (rupture du kyste ou phlébite : à faire vérifier le jour même).",
-   "Essoufflement soudain ou douleur dans la poitrine : appelez le 911. ajout",
+   "Essoufflement soudain ou douleur dans la poitrine : appelez le 911.",
    "Engourdissements, fourmillements ou faiblesse dans le pied, ou pied froid ou pâle.",
    "Genou qui reste bloqué (impossible de le tendre complètement) : à faire évaluer rapidement."
   ],

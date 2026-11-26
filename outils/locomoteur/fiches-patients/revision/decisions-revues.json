@@ -122,13 +122,89 @@
     "Rougeur qui s'étend sur la bosse, plaie infectée ou fièvre."
    ]
   },
-  "HAN-11": {
+  "EPA-03": {
+   "ce_que_vous_avez": "L'enveloppe qui entoure l'articulation de votre épaule, appelée capsule, est devenue enflammée, puis épaisse et raide. Cela limite vos mouvements dans toutes les directions et fait souvent mal la nuit. La capsulite s'améliore chez la grande majorité des personnes, mais lentement : la douleur diminue d'abord, la mobilité revient ensuite, souvent sur 1 à 3 ans. Une légère raideur ou une légère douleur peut rester, le plus souvent sans gêne importante."
+  },
+  "EPA-04": {
+   "ce_que_vous_avez": "Une chute ou un choc sur le côté de l'épaule a étiré ou partiellement déchiré les ligaments qui relient la clavicule à l'omoplate, sur le dessus de l'épaule. Pour les entorses légères à modérées (grades I et II), une courte période d'écharpe puis des exercices progressifs permettent une bonne récupération sans chirurgie. Une petite bosse peut rester visible. Une sensibilité de temps en temps peut persister, parfois pendant des années, le plus souvent sans gêner la fonction."
+  },
+  "EPA-05": {
+   "ce_que_vous_avez": "Un des tendons de votre coiffe des rotateurs présente une déchirure qui traverse toute son épaisseur. Le tendon ne se recolle pas de lui-même, mais chez environ 3 personnes sur 4 dont la déchirure est apparue progressivement (sans accident), les autres muscles de l'épaule compensent bien grâce à un programme d'exercices réguliers, ce qui permet d'éviter la chirurgie. Comme la déchirure peut s'agrandir avec les années, un suivi est recommandé. Une réparation peut aussi vous être proposée : parlez-en avec votre médecin."
+  },
+  "EPA-07": {
+   "pourquoi": [
+    "Âge : l'arthrose devient plus fréquente en vieillissant.",
+    "Ancienne blessure ou luxation de l'épaule.",
+    "Travail lourd pendant des années."
+   ]
+  },
+  "EPA-08": {
+   "ce_qui_aide": [
+    "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, pendant les crises aiguës.",
+    "Garder des mouvements très doux (pendulaire) quand la douleur est forte.",
+    "Renforcer progressivement la coiffe dès que la crise est passée.",
+    "Suivre les conseils de votre médecin pour soulager la phase aiguë (médicaments, parfois infiltration).",
+    "Si la douleur persiste plusieurs mois, d'autres traitements (par exemple les ondes de choc) peuvent être discutés avec votre médecin."
+   ]
+  },
+  "EPA-09": {
+   "ce_que_vous_avez": "Après une luxation (épaule déboîtée) ou des épisodes où l'épaule se déboîte partiellement, les structures qui retiennent l'avant de votre épaule (ligaments et bourrelet) sont étirées ou abîmées. Après une courte période d'écharpe, renforcer les muscles profonds de l'épaule et de l'omoplate aide à retrouver une épaule forte et bien contrôlée. Le risque de nouvelle luxation dépend surtout de l'âge et du sport pratiqué : il est élevé chez les jeunes, surtout avant 30 ans, et plus faible après 40 ans. Votre médecin discutera avec vous des options, dont la chirurgie."
+  },
+  "EPA-11": {
+   "ce_que_vous_avez": "Le tendon du haut du biceps, qui passe à l'avant de l'épaule, est irrité (ou parfois rompu dans sa partie haute, ce qui forme une petite boule sur le bras). Ce problème accompagne souvent une irritation ou une déchirure des tendons de la coiffe, c'est pourquoi on renforce toute l'épaule. Même en cas de rupture haute, l'autre tendon du biceps reste attaché : la plupart des gens retrouvent une bonne fonction sans chirurgie, souvent avec une certaine perte de force (surtout pour tourner la paume vers le haut), une boule visible et quelques crampes. Si votre travail est très physique, parlez-en à votre médecin."
+  },
+  "EPA-13": {
+   "ce_que_vous_avez": "L'anneau de cartilage souple qui borde l'emboîture de l'épaule (le labrum ou bourrelet) est irrité ou fissuré dans sa partie haute, là où s'attache le tendon du biceps. Cela arrive souvent avec les sports de lancer ou après une chute. Environ la moitié à deux tiers des personnes récupèrent bien avec des exercices, sans chirurgie; c'est nettement moins fréquent chez les lanceurs de haut niveau."
+  },
+  "PIE-14": {
+   "soulager": [
+    "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+    "Anti-inflammatoire en crème en premier (jamais sur une peau coupée ou éraflée). Sinon, acétaminophène, ou anti-inflammatoire en comprimés pour quelques jours, si votre pharmacien ou votre médecin le juge approprié."
+   ],
+   "urgence": [
+    "Douleur extrême qui augmente malgré le repos et les antidouleurs, pied très tendu et dur, douleur vive quand on bouge les orteils ou engourdissement de la plante du pied (syndrome des loges du pied), même si les orteils restent roses et chauds. En attendant, enlevez tout bandage serré et gardez le pied à la hauteur du cœur, pas plus haut.",
+    "Orteil qui devient pâle, bleuâtre ou froid.",
+    "Signes d'infection si la peau a été coupée (rougeur qui s'étend, pus, fièvre)."
+   ],
    "medecin": [
-    "Douleur qui ne diminue pas après 2 semaines de repos relatif et de béquilles.",
-    "Bosse dure qui grossit ou douleur aiguë persistante.",
-    "Boiterie qui dure plus de 3 à 4 semaines.",
-    "Engourdissements, picotements ou douleur électrique à l'arrière de la jambe.",
-    "Douleur qui revient dès la reprise de la marche rapide ou du sport."
+    "Dans les prochains jours : incapacité de faire 4 pas, ou appui qui ne s'améliore pas après 5 à 7 jours (fracture ou lésion de Lisfranc à vérifier). Marchez le moins possible sur ce pied en attendant.",
+    "Dans les prochains jours : bleu qui apparaît sous la plante du pied, même après quelques jours (lésion de Lisfranc à vérifier).",
+    "Dans les prochains jours : ongle noir très douloureux (sang sous l'ongle, qui peut être soulagé par un petit geste et nécessiter une radiographie).",
+    "Douleur ou enflure encore présentes après 3 à 4 semaines."
+   ]
+  },
+  "CHE-08": {
+   "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter."
+  },
+  "HAN-11": {
+   "soulager": [
+    "Glace 10 à 15 minutes, dans un linge, les premiers jours, au besoin.",
+    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
+   ]
+  },
+  "HAN-13": {
+   "soulager": [
+    "Glace 10 à 15 minutes, dans un linge, après l'activité, au besoin.",
+    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
+   ]
+  },
+  "HAN-14": {
+   "soulager": [
+    "Les premiers jours, appliquez de la glace 15 à 20 minutes, enveloppée dans un linge, quelques fois par jour.",
+    "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+   ],
+   "ce_qui_aide": [
+    "Coup sur la cuisse, premières 24 heures : garder le genou plié autant que possible sans douleur (idéalement talon près de la fesse), maintenu par un bandage élastique, si vous le tolérez.",
+    "Mettre de la glace 15 à 20 minutes à la fois, plusieurs fois par jour pendant les 48 premières heures, avec un bandage élastique confortable.",
+    "Plier doucement le genou sans douleur, plusieurs fois par jour, dès le lendemain.",
+    "Utiliser des béquilles tant que vous boitez ou que le genou ne plie pas à 90 degrés sans douleur.",
+    "Protéger la zone avec un coussinet lors du retour au sport de contact."
+   ]
+  },
+  "MAI-08": {
+   "soulager": [
+    "Glace 10 à 15 minutes, dans un linge, au besoin.",
+    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien). Ne donnez jamais un médicament pour permettre de s'entraîner malgré la douleur."
    ]
   }
  },
@@ -151,6 +227,64 @@
  "GEN-16": [
   [
    "le calment souvent",
+   "non"
+  ]
+ ],
+ "EPA-02": [
+  [
+   "la récupération complète peut prendre plusieurs mois",
+   "non"
+  ]
+ ],
+ "EPA-06": [
+  [
+   "souvent modeste",
+   "non"
+  ]
+ ],
+ "EPA-10": [
+  [
+   "peut aider certaines personnes",
+   "non"
+  ]
+ ],
+ "EPA-12": [
+  [
+   "peuvent soulager l'épaule",
+   "non"
+  ],
+  [
+   "diminue le plus souvent",
+   "non"
+  ],
+  [
+   "peut aider un peu",
+   "non"
+  ],
+  [
+   "83 % de récupération complète",
+   "non"
+  ]
+ ],
+ "PIE-12": [
+  [
+   "disparaît presque toujours",
+   "non"
+  ]
+ ],
+ "PIE-14": [
+  [
+   "la glace sert surtout à soulager la douleur",
+   "non"
+  ],
+  [
+   "3 fois par jour, surtout le premier jour",
+   "non"
+  ]
+ ],
+ "HAN-14": [
+  [
+   "la glace sert surtout à soulager",
    "non"
   ]
  ]

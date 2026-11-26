@@ -1,0 +1,273 @@
+{
+ "sous_acro": {
+  "en_bref": [
+   "Les tendons de l'épaule sont irrités, pas déchirés.",
+   "Des exercices réguliers sont le traitement de premier choix.",
+   "L'amélioration demande habituellement plusieurs semaines d'exercices."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "duree_habituelle": "L'amélioration apparaît souvent après 6 à 12 semaines d'exercices réguliers. La récupération complète peut prendre plusieurs mois, parfois plus d'un an : continuez le programme même si les progrès sont lents.",
+  "urgence": [
+   "Perte soudaine de la capacité à lever le bras après une chute ou un faux mouvement.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-01)"
+ },
+ "myalgie": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "urgence": [
+   "Perte de force ou incapacité de lever le bras après une chute ou un faux mouvement.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre.",
+   "Après 50 ans : douleur et raideur des deux épaules avec un mal de tête nouveau, une douleur à la mâchoire en mâchant ou un trouble de la vue."
+  ],
+  "medecin": [
+   "Douleur qui descend dans le bras avec engourdissements ou perte de force.",
+   "Raideur qui s'installe et empêche de lever le bras.",
+   "Douleur et raideur des deux épaules le matin (surtout après 50 ans), perte de poids inexpliquée ou douleur nocturne qui s'aggrave : consultez dans les prochains jours.",
+   "Aucune amélioration après 4 à 6 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-02)"
+ },
+ "capsulite": {
+  "en_bref": [
+   "La capsule de l'épaule est enflammée puis raide ; ce n'est pas une déchirure.",
+   "Elle s'améliore chez la grande majorité des personnes, mais lentement, souvent sur 1 à 3 ans. Une raideur ou une douleur légère peut rester.",
+   "Des mouvements doux, sans forcer, gardent l'épaule mobile."
+  ],
+  "ce_que_vous_avez": "L'enveloppe qui entoure l'articulation de votre épaule, appelée capsule, est devenue enflammée, puis épaisse et raide. Cela limite vos mouvements dans toutes les directions et fait souvent mal la nuit. La capsulite s'améliore chez la grande majorité des personnes, mais lentement : la douleur diminue d'abord, la mobilité revient ensuite, souvent sur 1 à 3 ans. Une légère raideur ou une légère douleur peut rester, le plus souvent sans gêne importante.",
+  "ce_qui_aide": [
+   "Adapter les exercices à la phase : mouvements doux sans forcer tant que l'épaule est très douloureuse, puis étirements plus longs quand la douleur au repos diminue.",
+   "Mettre de la chaleur enveloppée dans un linge 15 minutes avant les exercices pour assouplir l'épaule.",
+   "Suivre le traitement proposé par votre médecin pour calmer la douleur : dans la phase douloureuse du début, une infiltration de cortisone dans l'articulation soulage souvent pendant plusieurs semaines à quelques mois.",
+   "Utiliser le bras dans vos gestes quotidiens tolérables.",
+   "Si vous êtes diabétique : la récupération peut être plus lente, et une infiltration de cortisone peut faire monter temporairement la glycémie; parlez-en à votre médecin et vérifiez votre glycémie plus souvent pendant environ 1 semaine après l'infiltration."
+  ],
+  "a_eviter": [
+   "Forcer l'épaule dans une douleur aiguë pour essayer de « casser » la raideur : cela augmente la douleur et donne de moins bons résultats.",
+   "Laisser le bras complètement immobile toute la journée.",
+   "Faire des mouvements brusques ou soulever des charges lourdes."
+  ],
+  "duree_habituelle": "La récupération est longue : amélioration progressive sur plusieurs mois, souvent 1 à 3 ans au total. La douleur s'améliore en premier, la souplesse ensuite. Les progrès sont souvent plus rapides au début, puis plus lents.",
+  "urgence": [
+   "Épaule rouge, chaude et enflée avec fièvre.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911."
+  ],
+  "exercices": {
+   "2": {
+    "mouvement": "Avec la force du bras sain, montez lentement le bâton vers le plafond puis au-dessus de la tête. Tant que l'épaule fait mal au repos ou la nuit, arrêtez-vous avant la douleur et tenez 1 à 5 secondes. Quand la douleur au repos a diminué, allez jusqu'à un étirement tolérable et tenez 5 à 10 secondes. Redescendez ensuite."
+   },
+   "3": {
+    "mouvement": "Gardez le coude du côté raide collé au corps et utilisez le bras sain pour pousser doucement l'autre main vers l'extérieur. Tant que l'épaule fait mal au repos ou la nuit, arrêtez-vous avant la douleur et tenez 1 à 5 secondes. Quand la douleur au repos a diminué, tenez 5 à 10 secondes. Revenez ensuite."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-03)"
+ },
+ "ac_entorse": {
+  "en_bref": [
+   "Les ligaments sur le dessus de l'épaule sont étirés ou partiellement déchirés.",
+   "Pour une entorse légère à modérée, une courte période d'écharpe, puis des exercices, suffisent.",
+   "Une petite bosse peut rester. L'épaule fonctionne habituellement bien, mais une sensibilité de temps en temps est fréquente."
+  ],
+  "ce_que_vous_avez": "Une chute ou un choc sur le côté de l'épaule a étiré ou partiellement déchiré les ligaments qui relient la clavicule à l'omoplate, sur le dessus de l'épaule. Pour les entorses légères à modérées (grades I et II), une courte période d'écharpe puis des exercices progressifs permettent une bonne récupération sans chirurgie. Une petite bosse peut rester visible. Une sensibilité de temps en temps peut persister, parfois pendant des années, le plus souvent sans gêner la fonction.",
+  "soulager": [
+   "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+  ],
+  "urgence": [
+   "Bosse très importante et douloureuse sur le dessus de l'épaule, avec la peau tendue.",
+   "Difficulté à respirer ou à avaler après le choc, ou douleur dans la poitrine avec essoufflement ou malaise : appelez le 911.",
+   "Bras ou main engourdi, froid, pâle ou sans force après le choc."
+  ],
+  "medecin": [
+   "Douleur qui ne diminue pas après 3 à 4 semaines.",
+   "Douleur persistante lors de la reprise du sport."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-04)"
+ },
+ "rupture": {
+  "en_bref": [
+   "Le tendon ne se recolle pas seul, mais l'épaule peut retrouver une bonne fonction.",
+   "Quand la déchirure est apparue peu à peu (sans accident), les exercices suffisent chez environ 3 personnes sur 4.",
+   "Une perte de force soudaine après une chute demande un avis rapide."
+  ],
+  "ce_que_vous_avez": "Un des tendons de votre coiffe des rotateurs présente une déchirure qui traverse toute son épaisseur. Le tendon ne se recolle pas de lui-même, mais chez environ 3 personnes sur 4 dont la déchirure est apparue progressivement (sans accident), les autres muscles de l'épaule compensent bien grâce à un programme d'exercices réguliers, ce qui permet d'éviter la chirurgie. Comme la déchirure peut s'agrandir avec les années, un suivi est recommandé. Une réparation peut aussi vous être proposée : parlez-en avec votre médecin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "urgence": [
+   "Perte de force brutale ou impossibilité de lever le bras après une chute ou un effort; un avis orthopédique rapide est nécessaire, idéalement dans les jours qui suivent.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-05)"
+ },
+ "dyskinesie": {
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "urgence": [
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "medecin": [
+   "Omoplate qui décolle de façon très marquée, surtout après un choc, une chirurgie (par exemple au cou) ou un épisode de douleur intense à l'épaule suivi d'une faiblesse, ou muscle qui fond visiblement (atteinte nerveuse possible) : consultez dans les prochains jours.",
+   "Douleur qui augmente dans l'épaule ou le cou malgré les exercices.",
+   "Engourdissements ou faiblesse dans le bras.",
+   "Aucun progrès après 6 à 8 semaines d'exercices."
+  ],
+  "exercices": {
+   "2": {
+    "plus_facile": "Poussez moins fort, avec un plus petit mouvement."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-06)"
+ },
+ "omarthrose": {
+  "pourquoi": [
+   "Âge : l'arthrose devient plus fréquente en vieillissant.",
+   "Ancienne blessure ou luxation de l'épaule.",
+   "Travail lourd pendant des années."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "urgence": [
+   "Gonflement soudain avec rougeur, chaleur ou fièvre.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911."
+  ],
+  "medecin": [
+   "Douleur qui empêche de dormir toutes les nuits malgré les médicaments.",
+   "Blocage presque complet de l'épaule qui gêne pour se laver ou s'habiller.",
+   "Absence d'amélioration après 8 à 12 semaines : d'autres traitements, comme une infiltration de cortisone ou une chirurgie, peuvent être discutés."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-07)"
+ },
+ "calcifiante": {
+  "en_bref": [
+   "Un petit dépôt de calcium s'est formé dans un tendon ; c'est fréquent.",
+   "La crise douloureuse dure le plus souvent 1 à 3 semaines.",
+   "Entre les crises, les exercices aident l'épaule."
+  ],
+  "ce_que_vous_avez": "Un petit dépôt de calcium s'est formé dans un tendon de votre épaule. Ces dépôts sont fréquents et ne causent parfois aucun symptôme. Quand le corps résorbe le dépôt, cela peut provoquer une crise très douloureuse qui dure le plus souvent 1 à 3 semaines. Le dépôt disparaît souvent de lui-même, mais pas toujours, et cela peut prendre des mois, parfois des années; des exercices progressifs aident à récupérer la mobilité et la force.",
+  "soulager": [
+   "Glace 10 à 15 minutes, dans un linge, pendant la crise.",
+   "Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié ; une infiltration peut soulager une crise forte pendant quelques semaines."
+  ],
+  "ce_qui_aide": [
+   "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, pendant les crises aiguës.",
+   "Garder des mouvements très doux (pendulaire) quand la douleur est forte.",
+   "Renforcer progressivement la coiffe dès que la crise est passée.",
+   "Suivre les conseils de votre médecin pour soulager la phase aiguë (médicaments, parfois infiltration).",
+   "Si la douleur persiste plusieurs mois, d'autres traitements (par exemple les ondes de choc) peuvent être discutés avec votre médecin."
+  ],
+  "urgence": [
+   "Douleur soudaine et insupportable qui empêche tout sommeil : un traitement plus fort peut être nécessaire.",
+   "Fièvre, frissons ou épaule rouge et chaude.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-08)"
+ },
+ "instab_ant": {
+  "en_bref": [
+   "Les structures à l'avant de l'épaule sont étirées ou abîmées par la luxation.",
+   "Renforcer les muscles qui stabilisent l'épaule diminue le risque de récidive.",
+   "Chez les jeunes sportifs, une chirurgie est souvent discutée dès la première luxation."
+  ],
+  "ce_que_vous_avez": "Après une luxation (épaule déboîtée) ou des épisodes où l'épaule se déboîte partiellement, les structures qui retiennent l'avant de votre épaule (ligaments et bourrelet) sont étirées ou abîmées. Après une courte période d'écharpe, renforcer les muscles profonds de l'épaule et de l'omoplate aide à retrouver une épaule forte et bien contrôlée. Le risque de nouvelle luxation dépend surtout de l'âge et du sport pratiqué : il est élevé chez les jeunes, surtout avant 30 ans, et plus faible après 40 ans. Votre médecin discutera avec vous des options, dont la chirurgie.",
+  "urgence": [
+   "Nouvelle luxation ou épaule bloquée : rendez-vous aux urgences, sans essayer de la replacer vous-même.",
+   "Engourdissement sur le côté de l'épaule, ou faiblesse marquée pour lever le bras après la luxation (surtout après 40 ans : un tendon peut être déchiré ou un nerf étiré) : faites-vous évaluer dans les prochains jours.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "medecin": [
+   "Sensation fréquente que l'épaule « glisse » dans les gestes de tous les jours.",
+   "Impossibilité de reprendre vos activités après 3 mois d'exercices."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-09)"
+ },
+ "ac_arthrose": {
+  "en_bref": [
+   "La petite articulation au bout de la clavicule est irritée ou usée.",
+   "Adapter les gestes et les charges est ce qui soulage le plus ; les exercices aident à garder l'épaule forte.",
+   "Une infiltration peut aider si la douleur persiste."
+  ],
+  "ce_qui_aide": [
+   "Réduire temporairement la charge et la fréquence des exercices de poussée, surtout le développé couché lourd.",
+   "Modifier votre technique en musculation : prise moins large (mains à peine plus écartées que les épaules) et amplitude réduite (sans descendre la barre jusqu'à la poitrine).",
+   "Renforcer les muscles de l'omoplate pour mieux soutenir l'épaule.",
+   "Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, après l'entraînement si le dessus de l'épaule élance.",
+   "Dormir sur le dos ou sur l'autre côté."
+  ],
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "urgence": [
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "exercices": {
+   "4": {
+    "position_de_depart": "Debout face à un mur, mains à plat à la largeur des épaules."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-10)"
+ },
+ "biceps": {
+  "en_bref": [
+   "Le tendon du haut du biceps est irrité ; après une rupture haute, le bras fonctionne le plus souvent bien, avec une certaine perte de force.",
+   "Le traitement ressemble à celui de la coiffe : exercices et ajustement des activités.",
+   "Une douleur brutale au pli du coude demande un avis rapide."
+  ],
+  "ce_que_vous_avez": "Le tendon du haut du biceps, qui passe à l'avant de l'épaule, est irrité (ou parfois rompu dans sa partie haute, ce qui forme une petite boule sur le bras). Ce problème accompagne souvent une irritation ou une déchirure des tendons de la coiffe, c'est pourquoi on renforce toute l'épaule. Même en cas de rupture haute, l'autre tendon du biceps reste attaché : la plupart des gens retrouvent une bonne fonction sans chirurgie, souvent avec une certaine perte de force (surtout pour tourner la paume vers le haut), une boule visible et quelques crampes. Si votre travail est très physique, parlez-en à votre médecin.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter.",
+  "urgence": [
+   "Douleur brutale ou claquement au pli du coude, avec perte de force pour plier le coude ou tourner la paume vers le haut. Une rupture du tendon au coude doit être évaluée dans les premiers jours, car la réparation se fait idéalement dans les 2 à 3 premières semaines.",
+   "Faiblesse marquée pour lever le bras, surtout après une chute ou un effort : faites-vous évaluer dans les prochains jours.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "medecin": [
+   "Douleur nocturne sévère qui ne diminue pas.",
+   "Engourdissements ou fourmillements dans la main.",
+   "Absence de progrès après 6 à 8 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-11)"
+ },
+ "cervical": {
+  "duree_habituelle": "Quand la douleur vient des articulations ou des muscles du cou, l'amélioration est souvent visible en 4 à 6 semaines, mais la douleur peut revenir. Quand un nerf est irrité (douleur ou picotements dans le bras), la récupération est plus lente : l'essentiel de l'amélioration se fait au cours des 4 à 6 premiers mois, et la grande majorité des personnes récupèrent sans chirurgie.",
+  "urgence": [
+   "Maladresse nouvelle des mains, difficulté à marcher, perte d'équilibre, ou difficulté nouvelle à uriner ou à retenir les selles.",
+   "Perte de force nouvelle ou qui s'aggrave dans le bras ou la main.",
+   "Engourdissements ou fourmillements dans les deux bras ou dans les jambes.",
+   "Douleur au cou ou mal de tête nouveau, inhabituel ou très intense, surtout avec étourdissements, vision double, paupière tombante, ou difficulté à parler ou à avaler : appelez le 911.",
+   "Fièvre avec douleur au cou.",
+   "Douleur apparue après un accident ou une chute.",
+   "Douleur à l'épaule ou au bras accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911."
+  ],
+  "medecin": [
+   "Engourdissements ou fourmillements d'un bras qui s'aggravent.",
+   "Perte de poids inexpliquée, antécédent de cancer ou douleur nocturne qui s'aggrave : consultez dans les prochains jours.",
+   "Absence d'amélioration après 6 semaines."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-12)"
+ },
+ "slap": {
+  "ce_que_vous_avez": "L'anneau de cartilage souple qui borde l'emboîture de l'épaule (le labrum ou bourrelet) est irrité ou fissuré dans sa partie haute, là où s'attache le tendon du biceps. Cela arrive souvent avec les sports de lancer ou après une chute. Environ la moitié à deux tiers des personnes récupèrent bien avec des exercices, sans chirurgie; c'est nettement moins fréquent chez les lanceurs de haut niveau.",
+  "urgence": [
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "exercices": {
+   "2": {
+    "but": "Pour assouplir l'arrière de l'épaule, si elle est raide.",
+    "dosage": "3 à 5 répétitions, 1 fois par jour."
+   }
+  },
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-13)"
+ },
+ "instab_post": {
+  "ce_que_vous_avez": "Vos ligaments sont naturellement très souples ou ont été étirés, ce qui laisse la tête de l'os du bras bouger un peu trop dans l'articulation (vers l'arrière, vers le bas ou dans plusieurs directions). Le traitement principal est un renforcement ciblé et patient des muscles de l'omoplate et de la coiffe pour mieux centrer l'épaule. Les exercices réussissent le plus souvent quand le problème est apparu sans accident. Après un accident, les résultats sont moins bons et une chirurgie est plus souvent discutée.",
+  "duree_habituelle": "La stabilisation demande de la régularité : une amélioration nette est habituelle vers 3 mois et se poursuit jusqu'à environ 6 mois.",
+  "urgence": [
+   "Épaule qui se déboîte et ne se replace pas : rendez-vous aux urgences.",
+   "Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911.",
+   "Épaule rouge, chaude et enflée avec fièvre."
+  ],
+  "_source": "OpenEvidence, 26 novembre 2026 (EPA-14)"
+ }
+}

@@ -413,7 +413,7 @@
    },
    {
     "texte": "Lim PQX et al., Rheumatol Int, 2023",
-    "doi_ou_pmid": "à vérifier"
+    "doi_ou_pmid": "PMID: 37093273"
    }
   ]
  },
@@ -506,7 +506,7 @@
   "references": [
    {
     "texte": "Munteanu SE et al., Cochrane Database Syst Rev, 2024",
-    "doi_ou_pmid": "à vérifier"
+    "doi_ou_pmid": "PMID: 33588086"
    },
    {
     "texte": "Menz HB et al., Arthritis Care Res (Hoboken), 2016",
@@ -620,7 +620,7 @@
    },
    {
     "texte": "Kinter CW, Hodgkins CW, Sports Health, 2020",
-    "doi_ou_pmid": "à vérifier"
+    "doi_ou_pmid": "doi:10.1177/1941738120904944"
    }
   ]
  },
@@ -819,7 +819,7 @@
   "references": [
    {
     "texte": "McCormick JJ, Anderson RB, Sports Health, 2010",
-    "doi_ou_pmid": "à vérifier"
+    "doi_ou_pmid": "doi:10.1177/1941738110386681"
    },
    {
     "texte": "Gupta A et al., Curr Rev Musculoskelet Med, 2023",
@@ -918,7 +918,7 @@
   "references": [
    {
     "texte": "Rosenfield JS, Trepman E, Foot Ankle Int, 2000",
-    "doi_ou_pmid": "à vérifier"
+    "doi_ou_pmid": "doi:10.1177/107110070002101104"
    },
    {
     "texte": "Dedmond BT et al., J Am Acad Orthop Surg, 2006",
@@ -1130,7 +1130,7 @@
    },
    {
     "texte": "Stolarz K et al., Surg Radiol Anat, 2024",
-    "doi_ou_pmid": "à vérifier"
+    "doi_ou_pmid": "PMID: 39136746"
    },
    {
     "texte": "Gluck GS et al., Am J Sports Med, 2010",
@@ -1153,10 +1153,11 @@
    "Ce n'est pas grave, et ça disparaît avec la croissance.",
    "On ajuste le sport selon la douleur."
   ],
-  "ce_que_vous_avez": "Chez un jeune en poussée de croissance (souvent entre 9 et 14 ans), le tendon d'un muscle du côté de la jambe tire sur la zone de croissance de l'os situé sur le bord extérieur du pied (la base du 5ᵉ métatarsien). Ce n'est pas une fracture. La douleur se calme avec un peu de repos sportif et des exercices doux, et elle disparaît définitivement lorsque cette zone de croissance se soude.",
+  "ce_que_vous_avez": "Chez un jeune en poussée de croissance (souvent entre 9 et 14 ans), le tendon d'un muscle du côté de la jambe tire sur la zone de croissance de l'os situé sur le bord extérieur du pied (la base du 5ᵉ métatarsien). Ce n'est pas une fracture. La douleur se calme avec un peu de repos sportif et des exercices doux, et elle disparaît habituellement lorsque cette zone de croissance se soude.",
   "pourquoi": [
    "Poussée de croissance (9 à 14 ans).",
-   "Course, sauts et changements de direction."
+   "Course, sauts et changements de direction.",
+   "Parfois après une entorse (pied tordu vers l'intérieur)."
   ],
   "ce_qui_aide": [
    "Réduire les courses, les sauts et les changements de direction pendant 2 à 4 semaines, selon la douleur.",
@@ -1174,16 +1175,17 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 sur 10 est acceptable si elle n'est pas plus forte le lendemain et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 2 sur 10 est acceptable si elle n'est pas plus forte le lendemain, si elle ne fait pas boiter et si elle n'augmente pas d'une semaine à l'autre.",
   "urgence": [
-   "Douleur apparue brutalement après une entorse ou incapacité de marcher (fracture de la base du 5ᵉ métatarsien à écarter).",
-   "Rougeur, chaleur vive ou fièvre."
+   "Douleur apparue brutalement après une entorse ou incapacité de faire 4 pas (fracture de la base du 5ᵉ métatarsien à écarter).",
+   "Fièvre, rougeur et chaleur qui s'étendent, ou jeune qui refuse de marcher (infection de l'os à écarter)."
   ],
   "medecin": [
    "Boiterie qui dure plus de 2 semaines malgré le repos sportif.",
-   "Aucune amélioration après 6 semaines."
+   "Aucune amélioration après 6 semaines.",
+   "Douleur la nuit ou au repos, douleur constante, ou bosse qui grossit."
   ],
-  "duree_habituelle": "La douleur se calme habituellement en quelques semaines (souvent 3 à 6) de repos sportif relatif ; elle peut revenir par périodes jusqu'à la fin de la croissance de cet os.",
+  "duree_habituelle": "La douleur se calme habituellement en quelques semaines de repos sportif relatif, parfois plus ; elle peut revenir par périodes jusqu'à la fin de la croissance de cet os.",
   "materiel": [
    "élastique",
    "mur"
@@ -1218,7 +1220,7 @@
     "position_de_depart": "Debout près d'un mur, pied à plat.",
     "mouvement": "Tenez-vous en équilibre sur le pied atteint pendant 20 secondes (dès que l'appui au sol est indolore).",
     "dosage": "3 répétitions, 1 fois par jour.",
-    "progression": "Tenez 30 secondes, puis reprenez graduellement les petits sauts et la course après le feu vert.",
+    "progression": "Tenez 30 secondes. Quand la marche rapide et les exercices ne font plus mal, reprenez le sport peu à peu : d'abord l'échauffement, puis un peu plus de temps chaque semaine.",
     "erreur_frequente": "Appuyer uniquement sur le bord extérieur du pied.",
     "illustration": "Dessin au trait d'un adolescent en équilibre sur un pied près d'un mur.",
     "phase": "Quand la douleur diminue",
@@ -1277,7 +1279,7 @@
    "Glace 10 à 15 minutes, dans un linge, après le sport, si cela soulage.",
    "Acétaminophène ou ibuprofène au besoin, à la dose qui convient à l'âge et au poids (demandez au pharmacien)."
   ],
-  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 ou 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter.",
+  "regle_de_douleur": "Pendant et après les exercices ou le sport, une douleur jusqu'à 2 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain et si elle ne fait pas boiter.",
   "urgence": [
    "Rougeur, chaleur ou gonflement du talon, ou fièvre.",
    "Douleur apparue brusquement après une chute ou un saut.",
@@ -1372,22 +1374,24 @@
   "a_eviter": [
    "Mettre des chaussures étroites qui compriment le bleu.",
    "Rester debout immobile longtemps ou laisser le pied pendre vers le bas pendant des heures les premiers jours.",
-   "Courir ou sauter tant que le pied est enflé."
+   "Courir ou sauter tant que le pied est enflé.",
+   "Serrer un bandage autour d'un pied enflé."
   ],
   "soulager": [
-   "Les premiers jours, appliquez de la glace 15 minutes, enveloppée dans un linge, quelques fois par jour.",
-   "Acétaminophène au besoin ; un anti-inflammatoire en crème ou en comprimés peut aussi aider, si votre pharmacien ou votre médecin le juge approprié."
+   "Les premiers jours, appliquez de la glace 10 à 15 minutes, enveloppée dans un linge, quelques fois par jour.",
+   "Anti-inflammatoire en crème en premier (jamais sur une peau coupée ou éraflée). Sinon, acétaminophène, ou anti-inflammatoire en comprimés pour quelques jours, si votre pharmacien ou votre médecin le juge approprié."
   ],
   "regle_de_douleur": "Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à la normale le lendemain matin.",
   "urgence": [
-   "Douleur extrême qui augmente malgré le repos et les antidouleurs, pied très tendu et dur, douleur vive quand on bouge les orteils ou engourdissement de la plante du pied (syndrome des loges du pied).",
+   "Douleur extrême qui augmente malgré le repos et les antidouleurs, pied très tendu et dur, douleur vive quand on bouge les orteils ou engourdissement de la plante du pied (syndrome des loges du pied), même si les orteils restent roses et chauds. En attendant, enlevez tout bandage serré et gardez le pied à la hauteur du cœur, pas plus haut.",
    "Orteil qui devient pâle, bleuâtre ou froid.",
    "Signes d'infection si la peau a été coupée (rougeur qui s'étend, pus, fièvre)."
   ],
   "medecin": [
-   "Incapacité de faire quelques pas juste après le coup, ou encore après 4 à 5 jours (fracture passée inaperçue ou lésion de Lisfranc à vérifier).",
-   "Bleu qui apparaît sous la plante du pied, même après quelques jours (lésion de Lisfranc à vérifier).",
-   "Ongle noir très douloureux (sang sous l'ongle, qui peut être soulagé par un petit geste et nécessiter une radiographie)."
+   "Dans les prochains jours : incapacité de faire 4 pas, ou appui qui ne s'améliore pas après 5 à 7 jours (fracture ou lésion de Lisfranc à vérifier). Marchez le moins possible sur ce pied en attendant.",
+   "Dans les prochains jours : bleu qui apparaît sous la plante du pied, même après quelques jours (lésion de Lisfranc à vérifier).",
+   "Dans les prochains jours : ongle noir très douloureux (sang sous l'ongle, qui peut être soulagé par un petit geste et nécessiter une radiographie).",
+   "Douleur ou enflure encore présentes après 3 à 4 semaines."
   ],
   "duree_habituelle": "Guérison habituelle en 1 à 3 semaines (parfois 4 semaines si le bleu est important).",
   "materiel": [

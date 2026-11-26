@@ -1,0 +1,356 @@
+# Fiches ÉPAULE révisées — EPA-11 à EPA-14
+Légende : chaque changement est marqué [MODIFIÉ : ancien texte → nouveau texte — raison ; référence]. Les doutes sont marqués [À VÉRIFIER]. Le texte sans marque est inchangé.
+## === FICHE EPA-11 · [epaule/biceps] ===
+Titre : Tendinopathie du long biceps
+Sous-titre : Douleur à l'avant de l'épaule
+Ancien titre : Douleur à l'avant de l'épaule (tendon du biceps)
+Diagnostic correspondant dans MSK Morand : Tendinopathie ou rupture du long biceps
+EN BREF
+Le tendon du haut du biceps est irrité ; après une rupture haute, le bras fonctionne le plus souvent bien, avec une certaine perte de force. [MODIFIÉ : « une rupture haute laisse souvent peu de faiblesse » → « après une rupture haute, le bras fonctionne le plus souvent bien, avec une certaine perte de force » — « peu de faiblesse » sous-estime la perte : en moyenne 21 % pour tourner la paume vers le haut et 8 % pour plier le coude, et 20 personnes sur 30 traitées sans chirurgie disaient garder une faiblesse ; Mariani et coll., Clin Orthop Relat Res, 1988]
+Le traitement ressemble à celui de la coiffe : exercices et ajustement des activités.
+Une douleur brutale au pli du coude demande un avis rapide.
+CE QUE VOUS AVEZ
+Le tendon du haut du biceps, qui passe à l'avant de l'épaule, est irrité (ou parfois rompu dans sa partie haute, ce qui forme une petite boule sur le bras). Ce problème accompagne souvent une irritation ou une déchirure des tendons de la coiffe, c'est pourquoi on renforce toute l'épaule. [MODIFIÉ : « une irritation des tendons de la coiffe » → « une irritation ou une déchirure des tendons de la coiffe » — après une rupture haute récente, 93 % des personnes ont une atteinte de la coiffe à la résonance magnétique, dont environ la moitié une déchirure complète ; Vestermark et coll., J Shoulder Elbow Surg, 2018] Même en cas de rupture haute, l'autre tendon du biceps reste attaché : la plupart des gens retrouvent une bonne fonction sans chirurgie, souvent avec une perte de force (environ 20 % pour tourner la paume vers le haut, moins de 10 % pour plier le coude), une boule visible et quelques crampes. Si votre travail est très physique, parlez-en à votre médecin. [MODIFIÉ : « parfois avec une légère perte de force (surtout pour tourner la paume vers le haut), une boule visible et quelques crampes au début » → texte ci-contre — donner les chiffres réels ; dans la même étude, 11 personnes non opérées n'ont pas pu reprendre leur pleine capacité de travail, contre 2 opérées ; les crampes peuvent durer lors d'un usage intensif ; Mariani et coll., Clin Orthop Relat Res, 1988 ; Deutch et coll., Scand J Med Sci Sports, 2005]
+POURQUOI ÇA ARRIVE
+Gestes répétés les bras levés, ou en soulevant des charges.
+Irritation des tendons de la coiffe, souvent associée.
+Usure du tendon avec l'âge.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur, si elle vous soulage.
+Un anti-inflammatoire en crème sur la région douloureuse peut aider, si votre pharmacien le juge approprié.
+Les médicaments soulagent, mais ne guérissent pas le tendon : l'exercice reste le traitement.
+CE QUI AIDE
+Mettre de la glace enveloppée dans un linge, 10 à 15 minutes, à l'avant de l'épaule après un effort.
+Renforcer l'épaule et le haut du dos pour soulager l'avant de l'épaule.
+Reprendre progressivement le travail du biceps avec de petits poids.
+Garder les coudes près du corps pour porter des objets.
+À ÉVITER POUR L'INSTANT
+Porter des charges lourdes bras tendus loin devant vous.
+Faire des tractions à la barre, des dips ou du développé incliné lourd.
+Étirer le bras loin derrière le dos.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin et si elle n'augmente pas d'une semaine à l'autre. Si elle dépasse 3 sur 10 ou si elle est encore plus forte le lendemain matin, diminuez l'amplitude, la résistance ou le nombre de répétitions plutôt que de tout arrêter. [MODIFIÉ : « dans l'heure qui suit l'exercice » et « dure plus d'une heure » → « le lendemain matin » et « n'augmente pas d'une semaine à l'autre » — règle des tendinopathies : aucun protocole publié n'utilise une heure ; le modèle de surveillance de la douleur demande un retour au niveau habituel le lendemain matin ; Silbernagel et coll., Am J Sports Med, 2007 ; Holmgren et coll., BMJ, 2012 ; Raulline Ullern et coll., BMC Musculoskelet Disord, 2025. Aucune étude ne porte seulement sur le long biceps.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Douleur brutale ou claquement au pli du coude, avec perte de force pour plier le coude ou tourner la paume vers le haut. Une rupture du tendon au coude doit être évaluée dans les premiers jours, car la réparation se fait idéalement dans les 2 à 3 premières semaines. [MODIFIÉ : « doit être évaluée sans attendre, car la réparation se fait idéalement dans les premières semaines » → texte ci-contre — préciser le délai : chirurgie souvent nécessaire en 2 à 4 semaines ; après 4 semaines, la rupture est dite chronique et une greffe peut être nécessaire ; Zwerus et coll., Am J Sports Med, 2022 ; Snir et coll., Am J Sports Med, 2013]
+Faiblesse marquée pour lever le bras, surtout après une chute ou un effort : faites-vous évaluer dans les prochains jours. [MODIFIÉ : puce déplacée de « Revoyez votre médecin si », avec ajout de « faites-vous évaluer dans les prochains jours » — ce signe fait penser à une déchirure de la coiffe après un accident, à une fracture ou à une luxation ; la réparation donne de meilleurs résultats quand elle est faite tôt (données d'observation) ; même classement que dans les fiches EPA-01 et EPA-05 ; Gutman et coll., J Shoulder Elbow Surg, 2021 ; Vestermark et coll., J Shoulder Elbow Surg, 2018]
+Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : une seule puce → deux puces, avec « appelez le 911 » — séparer l'appel au 911 de la visite à l'urgence ; choix de rédaction, sans référence]
+Épaule rouge, chaude et enflée avec fièvre.
+REVOYEZ VOTRE MÉDECIN SI
+Douleur nocturne sévère qui ne diminue pas.
+Engourdissements ou fourmillements dans la main.
+Absence de progrès après 6 à 8 semaines.
+DURÉE HABITUELLE
+Amélioration habituelle en 6 à 12 semaines. Après une rupture haute du tendon, la douleur diminue souvent en quelques semaines.
+PROGRAMME D'EXERCICES
+Matériel : élastique, poids léger ou bouteille d'eau
+[À VÉRIFIER : la réadaptation de la tendinopathie du long biceps repose sur très peu d'études (4 articles dans une revue exploratoire) ; le programme est raisonnable, mais d'opinion d'experts. Après une rupture haute récente, le moment de commencer les exercices 2 et 3 (travail du biceps contre résistance) n'est appuyé par aucune donnée : à préciser par le médecin.]
+Exercice 1 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour ouvrir l'avant de l'épaule.
+Départ : Assis ou debout, bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et légèrement vers le bas pour ouvrir l'avant de l'épaule. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Ajoutez un tirage avec élastique.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules.
+Illustration demandée : Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates.
+Exercice 2 : Flexion statique douce du coude
+Phase : Dès maintenant
+But : Pour renforcer le biceps sans bouger.
+Départ : Debout, coude du bras atteint plié à 90 degrés contre votre flanc, paume vers le haut.
+Mouvement : Placez l'autre main sur votre poignet et poussez légèrement vers le haut avec le bras atteint pendant que l'autre main résiste, sans bouger. Tenez 5 secondes et relâchez.
+Dosage : 2 séries de 8 répétitions, 1 fois par jour.
+Progression : Passez à la flexion avec un petit poids.
+Plus facile : Poussez plus doucement.
+Erreur fréquente : Avancer l'épaule ou pousser trop fort.
+Illustration demandée : Dessin au trait d'une personne debout, coude plié à 90 degrés, résistant doucement avec l'autre main sur le poignet.
+Exercice 3 : Flexion lente du coude avec poids léger (biceps)
+Phase : Quand la douleur diminue
+But : Pour renforcer le biceps.
+Départ : Debout, un petit poids de 1 kg (ou une boîte de conserve) dans la main, coude collé au flanc.
+Mouvement : Pliez le coude pour monter le poids en 2 secondes, puis redescendez lentement en 3 à 4 secondes.
+Dosage : 3 séries de 10 répétitions, 3 fois par semaine.
+Progression : Augmentez le poids de 0,5 à 1 kg lorsque les 3 séries sont confortables.
+Plus facile : Faites-le sans poids.
+Erreur fréquente : Balancer le dos ou laisser le coude partir vers l'avant.
+Illustration demandée : Dessin au trait d'une personne debout pliant lentement le coude avec un petit haltère.
+Exercice 4 : Rotation externe avec élastique
+Phase : Quand la douleur diminue
+But : Pour renforcer la coiffe des rotateurs.
+Départ : Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé du côté opposé.
+Mouvement : Tournez lentement l'avant-bras vers l'extérieur en gardant l'épaule basse, puis revenez lentement.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Utilisez un élastique un peu plus résistant.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Décoller le coude du corps.
+Illustration demandée : Dessin au trait d'une personne debout tirant un élastique vers l'extérieur, coude collé au corps.
+RÉFÉRENCES
+Mariani EM et al., Clin Orthop Relat Res, 1988 (PMID: 3342572)
+Panico L et al., JBJS Rev, 2021 (PMID: 34695033) [À VÉRIFIER : référence exacte (« Long head of the biceps tendon ruptures: biomechanics, clinical ramifications, and management »), mais elle compare surtout ténotomie et ténodèse, pas le traitement sans chirurgie]
+Vestermark GL et al., The prevalence of rotator cuff pathology in the setting of acute proximal biceps tendon rupture, J Shoulder Elbow Surg, 2018 [MODIFIÉ : ajout — source du lien entre rupture haute et atteinte de la coiffe ; PMID À VÉRIFIER]
+Zwerus EL et al., Distal biceps tendon ruptures: diagnostic strategy through physical examination, Am J Sports Med, 2022 [MODIFIÉ : ajout — source du délai de réparation de la rupture au coude ; PMID À VÉRIFIER]
+## === FICHE EPA-12 · [epaule/cervical] ===
+Titre : Douleur projetée d'origine cervicale
+Sous-titre : Douleur à l'épaule venant du cou
+Ancien titre : Douleur à l'épaule venant du cou
+Diagnostic correspondant dans MSK Morand : Douleur projetée d'origine cervicale
+EN BREF
+La douleur se fait sentir à l'épaule, mais elle vient du cou.
+Les exercices du cou peuvent soulager l'épaule. [MODIFIÉ : « soulagent souvent l'épaule » → « peuvent soulager l'épaule » — les preuves pour les exercices du cou dans la douleur avec irritation d'un nerf sont de très faible qualité (effet à court terme sur la douleur, pas sur la fonction) ; Kjaer et coll., Eur Spine J, 2017 ; Blanpied et coll., JOSPT, 2017]
+Signalez toute perte de force ou tout engourdissement qui augmente.
+CE QUE VOUS AVEZ
+Votre douleur se fait sentir dans l'épaule ou le haut du bras, mais elle provient en réalité de votre cou (articulations, muscles ou racine nerveuse irritée). C'est fréquent, car les nerfs de l'épaule et du bras sortent du cou. En bougeant et en soulageant votre cou, la douleur à l'épaule diminue le plus souvent. [MODIFIÉ : « diminue » → « diminue le plus souvent » — ne pas promettre un résultat certain ; Wong et coll., Spine J, 2014]
+POURQUOI ÇA ARRIVE
+Arthrose ou disque du cou qui irrite un nerf.
+Tête penchée vers l'avant pendant de longues périodes.
+SOULAGER LA DOULEUR
+Chaleur 15 à 20 minutes pour détendre les muscles.
+Un anti-inflammatoire en comprimés pendant quelques jours peut aider un peu, si votre pharmacien ou votre médecin le juge approprié. [MODIFIÉ : « peut aider » → « peut aider un peu » — pour les douleurs de la colonne, les anti-inflammatoires font mieux que le placebo, mais l'écart n'est pas cliniquement important, avec 2,5 fois plus d'effets indésirables digestifs ; aucun essai contre placebo dans la radiculopathie cervicale ; Machado et coll., Ann Rheum Dis, 2017 ; Carette et Fehlings, N Engl J Med, 2005]
+CE QUI AIDE
+Faire les exercices doux du cou et de posture plutôt que de forcer sur l'épaule.
+Changer de position et prendre des pauses toutes les 30 à 45 minutes devant les écrans.
+Appliquer de la chaleur enveloppée dans un linge, 15 minutes, sur la nuque si cela vous soulage.
+Soutenir votre bras sur un accoudoir ou un oreiller quand vous êtes assis.
+Rester actif et poursuivre vos activités habituelles autant que possible.
+À ÉVITER POUR L'INSTANT
+Garder longtemps la tête penchée en avant sur le téléphone ou l'ordinateur.
+Regarder longtemps vers le plafond si cela déclenche la douleur à l'épaule ou au bras.
+Soulever des charges lourdes avec le bras douloureux.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur au cou jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez tout mouvement qui envoie une douleur vive, des picotements ou un engourdissement plus loin dans le bras. [À VÉRIFIER : délai d'une heure laissé tel quel. Les règles de douleur publiées (retour le lendemain matin) viennent des tendinopathies et ne sont pas validées pour la douleur d'un nerf. Aucune donnée n'appuie un délai précis pour le cou. Le critère utile ici est déjà dans le texte : ne pas faire descendre les symptômes plus loin dans le bras ; c'est une bonne pratique clinique, sans essai randomisé ; Kjaer et coll., Eur Spine J, 2017.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Maladresse nouvelle des mains, difficulté à marcher, perte d'équilibre, ou difficulté nouvelle à uriner ou à retenir les selles.
+Perte de force nouvelle ou qui s'aggrave dans le bras ou la main. [MODIFIÉ : puce déplacée de « Revoyez votre médecin si » — une faiblesse qui progresse est une indication reconnue de consultation chirurgicale urgente ; une faiblesse légère et stable peut être vue en quelques jours ; Carette et Fehlings, N Engl J Med, 2005 ; Côté et coll., Eur Spine J, 2016]
+Engourdissements ou fourmillements dans les deux bras ou dans les jambes. [MODIFIÉ : partie de puce déplacée de « Revoyez votre médecin si » (« ou qui touchent les deux bras ou les jambes ») — une atteinte des deux côtés ou des jambes fait penser à la moelle épinière plutôt qu'à un seul nerf ; Côté et coll., Eur Spine J, 2016 ; Theodore, N Engl J Med, 2020]
+Douleur au cou ou mal de tête nouveau, inhabituel ou très intense, surtout avec étourdissements, vision double, paupière tombante, ou difficulté à parler ou à avaler : appelez le 911. [MODIFIÉ : « Douleur au cou ou mal de tête soudain et très intense, » → texte ci-contre — dans la dissection d'une artère du cou, la douleur s'installe aussi souvent peu à peu que brutalement et précède l'AVC de quelques heures à quelques jours ; il faut nommer les signes associés ; Yaghi et coll., Stroke, 2024]
+Fièvre avec douleur au cou. [MODIFIÉ : « fièvre, » dans une puce commune → puce séparée — un signe par puce ; choix de rédaction, sans référence]
+Douleur apparue après un accident ou une chute. [MODIFIÉ : fin d'une puce commune → puce séparée — un signe par puce ; choix de rédaction, sans référence]
+Douleur à l'épaule ou au bras accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : ajout de « : appelez le 911 » — préciser le geste attendu ; choix de rédaction, sans référence]
+REVOYEZ VOTRE MÉDECIN SI
+Engourdissements ou fourmillements d'un bras qui s'aggravent. [MODIFIÉ : « Engourdissements ou fourmillements qui s'aggravent, ou qui touchent les deux bras ou les jambes. » → texte ci-contre — la partie « deux bras ou jambes » est passée dans « Consultez rapidement » ; Côté et coll., Eur Spine J, 2016]
+Perte de poids inexpliquée, antécédent de cancer ou douleur nocturne qui s'aggrave : consultez dans les prochains jours. [MODIFIÉ : ajout de « : consultez dans les prochains jours » — signes d'alerte de cancer : évaluation en quelques jours ; Côté et coll., Eur Spine J, 2016]
+Absence d'amélioration après 6 semaines.
+DURÉE HABITUELLE
+Quand la douleur vient des articulations ou des muscles du cou, l'amélioration est souvent visible en 4 à 6 semaines, mais la douleur peut revenir. [MODIFIÉ : ajout de « , mais la douleur peut revenir » — l'essentiel des gains se fait dans les 6 premières semaines, mais 50 à 85 % des personnes ont une récidive et moins de la moitié sont complètement rétablies après 1 an ; Blanpied et coll., JOSPT, 2017 ; Carroll et coll., Spine, 2008] Quand un nerf est irrité (douleur ou picotements dans le bras), la récupération est plus lente : l'essentiel de l'amélioration se fait au cours des 4 à 6 premiers mois, la récupération complète peut prendre 2 à 3 ans, et la plupart des personnes récupèrent sans chirurgie. [MODIFIÉ : « et la grande majorité des personnes récupèrent sans chirurgie » → « la récupération complète peut prendre 2 à 3 ans, et la plupart des personnes récupèrent sans chirurgie » — environ 83 % de récupération complète en 24 à 36 mois, mais seulement 50 % environ à 6 et 12 mois ; dans une cohorte suivie 5 ans, 26 % ont été opérés ; Wong et coll., Spine J, 2014 ; Sleijser-Koehorst et coll., Eur Spine J, 2018]
+PROGRAMME D'EXERCICES
+Matériel : élastique, coussin
+Exercice 1 : Rentré du menton assis
+Phase : Dès maintenant
+But : Pour aligner la tête et soulager le cou.
+Départ : Assis droit, regard à l'horizontale, épaules basses.
+Mouvement : Reculez doucement le menton vers l'arrière, comme pour faire un double menton, afin d'aligner la tête au-dessus des épaules. Tenez 5 secondes et relâchez.
+Dosage : 2 séries de 10 répétitions, 2 à 3 fois par jour.
+Progression : Maintenez la position 10 secondes.
+Plus facile : Faites-le couché sur le dos.
+Erreur fréquente : Pencher la tête vers le bas ou vers le plafond.
+Illustration demandée : Dessin au trait d'une personne assise de profil reculant horizontalement le menton.
+Exercice 2 : Rotations douces du cou
+Phase : Dès maintenant
+But : Pour garder le cou souple.
+Départ : Assis droit, épaules détendues.
+Mouvement : Tournez lentement la tête pour regarder par-dessus chaque épaule, en vous arrêtant avant le point où la douleur descend dans le bras.
+Dosage : 2 séries de 8 répétitions de chaque côté, 2 fois par jour.
+Progression : Augmentez doucement l'amplitude si l'épaule et le bras restent calmes.
+Plus facile : Tournez moins loin.
+Erreur fréquente : Tourner le buste en même temps que la tête, ou forcer dans la douleur du bras.
+Illustration demandée : Dessin au trait d'un buste vu de face avec des flèches courbes montrant la rotation douce de la tête.
+Exercice 3 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour améliorer la posture du haut du dos.
+Départ : Assis ou debout, bras détendus le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et légèrement vers le bas. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Ajoutez un tirage avec un élastique léger.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules vers les oreilles.
+Illustration demandée : Dessin au trait d'un dos avec des flèches rapprochant les omoplates.
+Exercice 4 : Position de repos du bras (main sur la tête)
+Phase : Dès maintenant
+But : Pour soulager le bras qui élance.
+Départ : Assis confortablement, dos appuyé.
+Mouvement : Si la douleur du bras élance au repos, posez doucement la main du côté atteint sur le sommet de votre tête pendant 1 à 2 minutes. Utilisez cette position seulement si elle soulage.
+Dosage : Au besoin, 2 à 4 fois par jour.
+Progression : Diminuez le recours à cette position à mesure que la douleur baisse.
+Plus facile : Appuyez l'avant-bras sur un coussin.
+Erreur fréquente : Garder cette position si elle augmente la douleur de l'épaule ou du bras.
+Illustration demandée : Dessin au trait d'une personne assise posant calmement sa main sur le sommet de sa tête.
+[À VÉRIFIER : cette position diminue la pression sur le nerf dans une étude sur cadavres et sert de test diagnostique, mais aucun essai ne l'a évaluée comme moyen de soulagement. Elle est plausible et sans risque, avec la réserve déjà écrite (« seulement si elle soulage »).]
+RÉFÉRENCES
+Blanpied PR et al., J Orthop Sports Phys Ther, 2017 (PMID: 28666405) [À VÉRIFIER : titre « Neck Pain: Revision 2017 » et revue confirmés ; PMID non affiché dans les sources consultées, mais cohérent avec les articles voisins du même numéro]
+Wong JJ et al., Spine J, 2014 (PMID: 24614255)
+Côté P, Wong JJ, Sutton D et al., Management of neck pain and associated disorders: a clinical practice guideline from the Ontario Protocol for Traffic Injury Management (OPTIMa) Collaboration, Eur Spine J, 2016 [MODIFIÉ : ajout — guide canadien, source du classement des signes d'alerte ; PMID À VÉRIFIER]
+Bussières AE, Stewart G, Al-Zoubi F et al., The treatment of neck pain-associated disorders and whiplash-associated disorders: a clinical practice guideline, J Manipulative Physiol Ther, 2016;39(8):523-564.e27 (PMID: 27836071) [MODIFIÉ : ajout — guide canadien]
+## === FICHE EPA-13 · [epaule/slap] ===
+Titre : Lésion SLAP (bourrelet supérieur de l'épaule)
+Sous-titre : Atteinte du bourrelet de l'épaule
+Ancien titre : Atteinte du bourrelet de l'épaule (lésion SLAP)
+Diagnostic correspondant dans MSK Morand : Lésion SLAP (labrum supérieur)
+EN BREF
+Le bourrelet du haut de l'épaule est irrité ou fissuré.
+Un programme d'exercices de 3 mois est le premier traitement.
+La chirurgie est réservée aux cas qui ne s'améliorent pas.
+CE QUE VOUS AVEZ
+L'anneau de cartilage souple qui borde l'emboîture de l'épaule (le labrum ou bourrelet) est irrité ou fissuré dans sa partie haute, là où s'attache le tendon du biceps. Cela arrive souvent avec les sports de lancer ou après une chute. Environ la moitié à deux tiers des personnes récupèrent bien avec des exercices, sans chirurgie; c'est nettement moins fréquent chez les lanceurs de haut niveau (environ 4 sur 10 reprennent la compétition). [MODIFIÉ : « c'est un peu moins fréquent chez les sportifs de lancer de haut niveau » → texte ci-contre — « un peu moins » sous-estime l'écart : succès sans chirurgie de 49 à 71 % en général, mais chez les lanceurs professionnels environ 40 % reprennent la compétition et 22 % retrouvent leur niveau ; Edwards et coll., Am J Sports Med, 2010 ; Jang et coll., J Shoulder Elbow Surg, 2016 ; Steinmetz et coll., J Shoulder Elbow Surg, 2022]
+POURQUOI ÇA ARRIVE
+Sports de lancer ou gestes répétés les bras levés.
+Chute sur le bras tendu.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, après une activité qui réveille la douleur.
+Anti-inflammatoire au besoin, si votre pharmacien ou votre médecin le juge approprié.
+CE QUI AIDE
+Renforcer les muscles de l'omoplate et de la coiffe pour stabiliser l'épaule.
+Assouplir doucement l'arrière de l'épaule si elle est raide (fréquent chez les lanceurs).
+Adapter les exercices de musculation pour éviter de tirer sur le haut du labrum.
+Reprendre les lancers progressivement, seulement quand l'épaule est indolore et forte.
+À ÉVITER POUR L'INSTANT
+Lancer fort ou faire des smashs avant d'avoir retrouvé contrôle et force.
+Faire des pompes lourdes ou des dips, ou se suspendre à une barre, au début.
+Mettre le bras loin en arrière en position d'armé forcé.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle est revenue à son niveau habituel le lendemain matin. Arrêtez tout mouvement qui provoque un accrochage ou un pincement net dans l'épaule. [MODIFIÉ : « dans l'heure qui suit l'exercice » → « le lendemain matin » — aucun protocole publié n'utilise une heure ; dans la douleur musculosquelettique chronique et la douleur d'épaule liée à la coiffe, les protocoles demandent un retour au niveau habituel en 12 à 24 heures ou le lendemain matin ; Smith et coll., Br J Sports Med, 2017 ; Raulline Ullern et coll., BMC Musculoskelet Disord, 2025. À VÉRIFIER : extrapolation, aucune étude propre aux lésions SLAP ; le critère d'accrochage, déjà dans le texte, reste le plus important.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : une seule puce → deux puces, avec « appelez le 911 » — séparer l'appel au 911 de la visite à l'urgence ; choix de rédaction, sans référence]
+Épaule rouge, chaude et enflée avec fièvre.
+REVOYEZ VOTRE MÉDECIN SI
+Accrochage douloureux ou blocage fréquent dans l'épaule.
+Douleur qui empêche le sommeil ou les activités quotidiennes.
+Perte de force importante dans le bras.
+Résultat insuffisant après 3 mois d'exercices bien suivis.
+DURÉE HABITUELLE
+Amélioration habituelle en 6 à 12 semaines de réadaptation. Si le résultat reste insuffisant après environ 3 mois, les autres options sont rediscutées avec le médecin.
+PROGRAMME D'EXERCICES
+Matériel : élastique, poids léger ou bouteille d'eau
+Exercice 1 : Rapprochement des omoplates
+Phase : Dès maintenant
+But : Pour bien placer l'épaule.
+Départ : Assis ou debout, bras le long du corps.
+Mouvement : Tirez doucement les omoplates vers l'arrière et légèrement vers le bas. Tenez 5 secondes et relâchez.
+Dosage : 3 séries de 10 répétitions, 1 fois par jour.
+Progression : Ajoutez un élastique léger tiré vers l'arrière.
+Plus facile : Tenez 2 à 3 secondes.
+Erreur fréquente : Hausser les épaules.
+Illustration demandée : Dessin au trait d'un buste vu de dos avec des flèches rapprochant les omoplates.
+Exercice 2 : Étirement doux de l'arrière de l'épaule (bras croisé, couché sur le côté)
+Phase : Dès maintenant
+But : Pour assouplir l'arrière de l'épaule, si elle est raide. [MODIFIÉ : ajout de « , si elle est raide » — l'étirement est utile surtout quand l'arrière de l'épaule manque de souplesse ; les preuves viennent de personnes sans douleur et de sportifs avec un manque de rotation interne, pas de lésions SLAP ; McClure et coll., JOSPT, 2007 ; Wilk et coll., JOSPT, 2013]
+Départ : Couché sur le côté douloureux, le tronc légèrement tourné vers l'arrière (environ 30 degrés) pour que le poids du corps retienne l'omoplate, le bras du dessous levé devant vous à hauteur de l'épaule.
+Mouvement : Avec l'autre main, prenez le coude du bras du dessous et tirez-le doucement en travers de la poitrine, vers l'épaule opposée, jusqu'à sentir un étirement léger à l'arrière de l'épaule. Tenez 20 à 30 secondes.
+Dosage : 3 à 5 répétitions, 1 fois par jour. [MODIFIÉ : « 3 répétitions » → « 3 à 5 répétitions » — l'essai cité utilisait 5 répétitions de 30 secondes, 1 fois par jour, pendant 4 semaines ; McClure et coll., JOSPT, 2007]
+Progression : Gagnez doucement en amplitude, sans jamais pincer l'avant ou le dessus de l'épaule.
+Plus facile : Tirez moins fort, 15 secondes.
+Erreur fréquente : Rester complètement à plat sur l'épaule ou forcer jusqu'à sentir un pincement à l'avant.
+Illustration demandée : Dessin au trait d'une personne couchée légèrement inclinée sur le côté, tirant doucement le coude du bras du dessous en travers de la poitrine avec l'autre main.
+Exercice 3 : Rotation externe et interne avec élastique (coude au corps)
+Phase : Quand la douleur diminue
+But : Pour renforcer la coiffe des rotateurs.
+Départ : Debout, coude plié à 90 degrés collé aux côtes, tenant un élastique léger fixé sur le côté.
+Mouvement : Tournez lentement l'avant-bras vers l'extérieur contre l'élastique, puis retournez-vous pour tirer vers le ventre, de façon contrôlée.
+Dosage : 3 séries de 12 répétitions dans chaque sens, 3 à 4 fois par semaine.
+Progression : Passez à une rotation externe avec le bras soutenu à 45 degrés, puis à 90 degrés, quand il n'y a plus de douleur.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Laisser le coude quitter les côtes.
+Illustration demandée : Dessin au trait d'une personne debout effectuant une rotation externe avec un élastique, coude au corps.
+Exercice 4 : Tirage horizontal avec élastique
+Phase : Quand la douleur diminue
+But : Pour renforcer le haut du dos.
+Départ : Debout, élastique fixé devant vous à hauteur de la poitrine, tenu à deux mains.
+Mouvement : Tirez les coudes vers l'arrière en rapprochant les omoplates, puis revenez lentement en 3 secondes.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Augmentez graduellement la résistance de l'élastique.
+Plus facile : Prenez un élastique plus léger.
+Erreur fréquente : Avancer la tête pendant le tirage.
+Illustration demandée : Dessin au trait d'une personne debout tirant un élastique à deux mains vers la poitrine.
+RÉFÉRENCES
+Edwards SL et al., Am J Sports Med, 2010 (PMID: 20522835) [À VÉRIFIER : titre et revue confirmés ; PMID non affiché dans les sources consultées]
+McClure P et al., J Orthop Sports Phys Ther, 2007 (PMID: 17416125)
+Steinmetz RG et al., Return to play following nonsurgical management of superior labrum anterior-posterior tears: a systematic review, J Shoulder Elbow Surg, 2022 [MODIFIÉ : ajout — revue plus récente sur le retour au jeu sans chirurgie ; PMID À VÉRIFIER]
+Jang SH et al., Predictive factors associated with failure of nonoperative treatment of superior labrum anterior-posterior tears, J Shoulder Elbow Surg, 2016 [MODIFIÉ : ajout — source du taux de succès de 71 % ; PMID À VÉRIFIER]
+Wilk KE, Hooks TR, Macrina LC, The modified sleeper stretch and modified cross-body stretch to increase shoulder internal rotation range of motion in the overhead throwing athlete, J Orthop Sports Phys Ther, 2013 [MODIFIÉ : ajout — source de l'étirement couché sur le côté décrit à l'exercice 2 (commentaire clinique) ; PMID À VÉRIFIER]
+## === FICHE EPA-14 · [epaule/instab_post] ===
+Titre : Instabilité postérieure ou multidirectionnelle de l'épaule
+Sous-titre : Épaule trop souple ou instable
+Ancien titre : Épaule trop souple ou instable (instabilité vers l'arrière ou dans plusieurs directions)
+Diagnostic correspondant dans MSK Morand : Instabilité postérieure ou multidirectionnelle
+EN BREF
+L'épaule bouge un peu trop dans son articulation, souvent à cause de ligaments souples.
+Le traitement principal est un renforcement patient et régulier.
+Les progrès demandent souvent plusieurs mois.
+CE QUE VOUS AVEZ
+Vos ligaments sont naturellement très souples ou ont été étirés, ce qui laisse la tête de l'os du bras bouger un peu trop dans l'articulation (vers l'arrière, vers le bas ou dans plusieurs directions). Le traitement principal est un renforcement ciblé et patient des muscles de l'omoplate et de la coiffe pour mieux centrer l'épaule. Les exercices réussissent le plus souvent quand le problème est apparu sans accident. Après un accident, les résultats sont moins bons et une chirurgie est plus souvent discutée. [MODIFIÉ : ajout des deux dernières phrases — pour l'instabilité vers l'arrière, la réadaptation réussit chez 70 à 89 % des personnes sans accident, mais chez 16 % seulement après un accident ; environ la moitié des personnes suivies 10 ans finissent par être opérées ; Provencher et coll., Am J Sports Med, 2011 ; Woodmass et coll., Arthroscopy, 2019]
+POURQUOI ÇA ARRIVE
+Ligaments naturellement très souples.
+Gestes répétés (natation, haltères) ou choc vers l'arrière.
+SOULAGER LA DOULEUR
+Glace 10 à 15 minutes, dans un linge, si l'épaule est douloureuse après l'activité.
+Acétaminophène au besoin, si votre pharmacien le juge approprié.
+CE QUI AIDE
+Renforcer l'omoplate et la coiffe des rotateurs de façon très régulière.
+Éviter de « faire craquer » ou de déboîter volontairement votre épaule.
+Garder les épaules ni tombantes ni tirées vers le bas.
+Maîtriser le contrôle du bras dans les gestes lents avant de travailler la vitesse.
+À ÉVITER POUR L'INSTANT
+Étirer votre épaule (elle est déjà trop souple). [À VÉRIFIER : conseil logique et courant, mais d'opinion d'experts ; il n'a pas été retrouvé dans les sources consultées. Même remarque pour « ni tirées vers le bas » dans « Ce qui aide ».]
+Porter des valises ou des sacs très lourds bras pendant, ce qui tire l'épaule vers le bas.
+Faire des pompes profondes ou du développé couché lourd tant que l'épaule glisse.
+RÈGLE DE DOULEUR (0 À 10)
+Pendant et après les exercices, une douleur jusqu'à 3 sur 10 est acceptable si elle revient à son niveau habituel dans l'heure qui suit l'exercice. Arrêtez tout mouvement qui fait glisser l'épaule ou qui déclenche un claquement douloureux. [À VÉRIFIER : délai d'une heure laissé tel quel. Aucune donnée propre à l'instabilité de l'épaule n'appuie un délai précis, et la règle de douleur du programme de Watson n'a pas pu être relue. Une heure est un choix prudent, d'opinion d'experts. Le critère le plus important ici est le glissement, déjà dans le texte.]
+CONSULTEZ RAPIDEMENT (sans attendre : urgence, 911 si c'est grave ; en cas de doute, Info-Santé 811)
+Épaule qui se déboîte et ne se replace pas : rendez-vous aux urgences.
+Douleur à l'épaule accompagnée de douleur dans la poitrine, d'essoufflement ou de malaise : appelez le 911. [MODIFIÉ : une seule puce → deux puces, avec « appelez le 911 » — séparer l'appel au 911 de la visite à l'urgence ; choix de rédaction, sans référence]
+Épaule rouge, chaude et enflée avec fièvre.
+REVOYEZ VOTRE MÉDECIN SI
+Luxations ou glissements répétés qui limitent les activités quotidiennes.
+Engourdissements ou fourmillements fréquents dans le bras ou la main.
+Douleur qui s'aggrave malgré les exercices.
+Aucun progrès après 3 à 6 mois d'exercices ciblés.
+DURÉE HABITUELLE
+La stabilisation demande de la régularité : une amélioration nette est habituelle vers 3 mois et se poursuit jusqu'à environ 6 mois. [MODIFIÉ : « les premiers progrès apparaissent souvent vers 12 semaines, et le programme se poursuit habituellement de 3 à 6 mois » → texte ci-contre — dans l'essai cité, il n'y avait pas de différence entre les programmes à 6 semaines ; l'avantage du programme de Watson apparaît à 12 semaines et grandit jusqu'à 24 semaines ; 12 semaines est le moment où l'écart entre deux programmes devient visible, pas celui des « premiers progrès » ; Warby et coll., Am J Sports Med, 2018]
+PROGRAMME D'EXERCICES
+Matériel : élastique, serviette, mur
+Exercice 1 : Placement actif de l'omoplate (léger haussement contrôlé)
+Phase : Dès maintenant
+But : Pour apprendre à centrer l'épaule.
+Départ : Assis ou debout, les avant-bras soutenus sur des accoudoirs si l'épaule tire vers le bas.
+Mouvement : Remontez doucement l'épaule de 1 à 2 cm (petit haussement contrôlé), sans la tirer vers le bas ni la laisser rouler vers l'avant. Tenez 10 secondes et relâchez.
+Dosage : 10 répétitions, 2 fois par jour.
+Progression : Maintenez ce placement de l'omoplate pendant les exercices de bras.
+Plus facile : Faites-le devant un miroir, sans charge.
+Erreur fréquente : Tirer l'épaule vers le bas, ce qui augmente l'instabilité vers le bas.
+Illustration demandée : Dessin au trait d'une personne assise, avant-bras sur des accoudoirs, remontant légèrement une épaule.
+Exercice 2 : Rotation externe et interne avec élastique (coude au corps)
+Phase : Quand la douleur diminue
+But : Pour renforcer la coiffe des rotateurs.
+Départ : Debout, coude plié à 90 degrés collé au corps avec une petite serviette roulée sous le bras, tenant un élastique léger fixé sur le côté.
+Mouvement : Faites des rotations lentes vers l'extérieur, puis retournez-vous pour les faire vers l'intérieur, en gardant l'omoplate bien placée.
+Dosage : 3 séries de 12 à 15 répétitions, 3 à 4 fois par semaine.
+Progression : Augmentez la résistance de l'élastique avant de travailler avec le bras levé.
+Plus facile : Faites-le sans élastique.
+Erreur fréquente : Laisser l'épaule rouler vers l'avant pendant le mouvement.
+Illustration demandée : Dessin au trait d'une personne debout avec une serviette roulée sous le coude, tirant un élastique en rotation.
+Exercice 3 : Extension courte du bras vers l'arrière avec élastique
+Phase : Quand la douleur diminue
+But : Pour renforcer l'arrière de l'épaule.
+Départ : Debout face à une porte où est fixé un élastique léger, bras tendu devant vous à 45 degrés.
+Mouvement : Tirez doucement le bras tendu vers l'arrière jusqu'à la hanche (pas plus loin), en gardant l'omoplate bien placée, puis revenez lentement.
+Dosage : 3 séries de 12 répétitions, 3 fois par semaine.
+Progression : Augmentez légèrement la résistance, ou faites l'exercice en position de fente.
+Plus facile : Prenez un élastique plus léger.
+Erreur fréquente : Amener le bras loin derrière le dos.
+Illustration demandée : Dessin au trait d'une personne debout tirant un élastique bras tendu jusqu'à côté de la cuisse.
+Exercice 4 : Appui léger contre un mur (contrôle de l'épaule)
+Phase : Pour progresser
+But : Pour contrôler l'épaule en appui.
+Départ : Debout face à un mur, mains posées sur le mur un peu plus bas que les épaules.
+Mouvement : Appuyez légèrement les mains dans le mur en gardant les épaules stables et centrées, puis soulevez une main de 2 cm sans que l'autre épaule bouge. Alternez. Si votre épaule glisse surtout vers l'arrière, appuyez très peu et arrêtez à la moindre sensation de glissement.
+Dosage : 3 séries de 10 répétitions par bras, 3 fois par semaine.
+Progression : Faites l'exercice à quatre pattes au sol seulement quand le contrôle est solide et sans glissement.
+Plus facile : Gardez les deux mains au mur.
+Erreur fréquente : Laisser l'épaule s'affaisser ou l'omoplate décoller.
+Illustration demandée : Dessin au trait d'une personne debout mains au mur, soulevant légèrement une main tout en gardant le dos et les épaules stables.
+RÉFÉRENCES
+Warby SA et al., Am J Sports Med, 2018 (PMID: 29048942) [À VÉRIFIER : titre et revue confirmés ; PMID non affiché dans les sources consultées]
+Watson L et al., Shoulder Elbow, 2016 (partie 1) (PMID: 27660660) [À VÉRIFIER : référence non retrouvée dans les sources consultées ; PMID non confirmé]
+Watson L et al., Shoulder Elbow, 2017 (partie 2) (PMID: 28572850) [À VÉRIFIER : référence non retrouvée dans les sources consultées ; PMID non confirmé]
+Warby SA, Watson L, Ford JJ, Hahne AJ, Pizzari T, Multidirectional instability of the glenohumeral joint: etiology, classification, assessment, and management, J Hand Ther, 2017 (PMID: 28576345) [MODIFIÉ : « Watson L et al., J Hand Ther, 2017 (PMID: 28641736) » → référence ci-contre — discordance : l'article retrouvé dans J Hand Ther 2017 a Warby comme premier auteur et un autre PMID ; À VÉRIFIER dans PubMed avant publication]
+Watson L, Balster S, Lenssen R, Hoy G, Pizzari T, The effects of a conservative rehabilitation program for multidirectional instability of the shoulder, J Shoulder Elbow Surg, 2018 [MODIFIÉ : ajout — résultats du programme de Watson sur 12 semaines (43 personnes, un seul groupe) ; PMID À VÉRIFIER]
+Karasuyama M et al., Exercise for multidirectional instability of the shoulder, Cochrane Database Syst Rev, 2026 [MODIFIÉ : ajout — revue la plus récente : aucun essai ne compare l'exercice à un placebo ou à l'absence de traitement ; PMID À VÉRIFIER]
