@@ -85,3 +85,31 @@ button.cp-mode:hover, button.cp-mode:focus-visible { background: var(--jaune-fon
   .cp-choix { grid-template-columns: 1fr; }
   .cp-passer { width: 100%; }
 }
+
+/* Punaise sur la carte (bêta) */
+.cp-mode-carte { margin: 10px 0 0; border-style: dashed; }
+.cp-mode-carte .cp-durees { grid-template-columns: 1fr 1fr; }
+.cp-mode-carte .lo-bouton { min-width: 0; white-space: normal; }
+.cp-beta { padding: 2px 8px; border: 1px solid var(--or); border-radius: 999px; font: 700 0.66rem/1.4 var(--sans); letter-spacing: 0.1em; color: var(--or-texte); }
+.cp-carte { position: relative; margin: 4px 0 0; border: 1px solid var(--filet); border-radius: 14px; overflow: hidden; background: var(--papier); }
+#cp-svg { display: block; width: 100%; height: clamp(280px, 58vh, 520px); touch-action: none; cursor: crosshair; user-select: none; -webkit-user-select: none; }
+.cp-mer { fill: var(--papier); }
+.cp-terre { fill: none; stroke: var(--or-texte); stroke-width: 0.8px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.cp-terre.cp-or { fill: color-mix(in srgb, var(--or) 55%, transparent); stroke: var(--or-texte); stroke-width: 1.4px; }
+.cp-anneau { fill: color-mix(in srgb, var(--or) 25%, transparent); stroke: var(--or-texte); stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
+.cp-punaise-tete { fill: var(--alerte); stroke: var(--carte); }
+.cp-punaise-point { fill: var(--carte); }
+.cp-capitale { fill: var(--ok); stroke: var(--carte); }
+.cp-capitale.cp-autre { fill: color-mix(in srgb, var(--ok) 55%, transparent); }
+.cp-trait { stroke: var(--encre-2); stroke-dasharray: 6 5; vector-effect: non-scaling-stroke; stroke-width: 1.5px; }
+.cp-zoom { position: absolute; right: 10px; top: 10px; display: grid; gap: 6px; margin: 0; }
+.cp-zoom button { width: 38px; height: 38px; border: 1px solid var(--filet); border-radius: 10px; background: var(--carte); color: var(--encre); font: 600 1.15rem/1 var(--sans); cursor: pointer; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+.cp-zoom button:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+.cp-carte-aide { margin: 0; padding: 8px 12px; border-top: 1px solid var(--filet); font: 500 0.76rem/1.4 var(--sans); color: var(--discret); text-align: center; }
+.cp-carte-actions { margin: 12px 0 0; text-align: center; }
+.cp-carte-actions .lo-bouton:disabled { opacity: 0.45; cursor: default; }
+@media (max-width: 560px) {
+  #cp-svg { height: auto; aspect-ratio: 1.35; }   /* téléphone : moins de vide au-dessus et au-dessous du monde */
+  .cp-zoom button { width: 34px; height: 34px; }
+  .cp-mode-carte .cp-durees { grid-template-columns: 1fr; }
+}
