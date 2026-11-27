@@ -64,6 +64,7 @@
     $("#cp-accueil").hidden = true; $("#cp-fin").hidden = true; $("#cp-partie").hidden = false;
     $("#cp-choix").hidden = r.reponse !== "choix"; $("#cp-form").hidden = r.reponse !== "tape";
     $("#cp-chrono").hidden = mode !== "chrono";
+    $("[data-indice=lettre]").hidden = r.reponse === "choix";   // en choix multiples, la première lettre donnerait la réponse
     if (mode === "chrono") { partie.fin = Date.now() + duree * 1000; tic(); chronoId = setInterval(tic, 250); }
     suivante();
   }
