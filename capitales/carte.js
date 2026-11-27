@@ -1,6 +1,7 @@
-/* Morand : capitales, jeu « Punaise sur la carte » (bêta). 10 pays ; on plante une punaise, puis le score dépend de la
-   distance à la capitale (5 000 × e^(−d / 1 492,7 km), comme le barème mondial de GeoGuessr). Facile : le pays est coloré
-   en or ; difficile : contours seulement. Carte : /capitales/carte.json (produit par outils/capitales/carte.py). */
+/* Morand : capitales, jeu « Punaise sur la carte » (bêta). 10 capitales ; on plante une punaise, puis le score dépend de
+   la distance à la capitale demandée (5 000 × e^(−d / 1 492,7 km), comme le barème mondial de GeoGuessr). Indices gratuits,
+   3 de chaque sorte par partie : le nom du pays, puis (ensuite seulement) le pays en or. Contours seulement sinon.
+   Carte : /capitales/carte.json (produit par outils/capitales/carte.py). */
 (function () {
   "use strict";
   const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
@@ -9,7 +10,7 @@
   const el = (n, a) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
   const melanger = l => { const a = l.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const nombre = n => Math.round(n).toLocaleString("fr-CA");
-  const MANCHES = 10, MAX = 5000;
+  const MANCHES = 10, MAX = 5000, INDICES = 3;
   const CLE = "morand-capitales-v1";
   const lire = () => { try { return JSON.parse(localStorage.getItem(CLE)) || { records: {} }; } catch (e) { return { records: {} }; } };
   const ecrire = m => { try { localStorage.setItem(CLE, JSON.stringify(m)); } catch (e) { /* navigation privée */ } };
@@ -42,9 +43,8 @@
     });
   }
   function recordTexte() {
-    const r = lire().records, f = r["carte|facile"], d = r["carte|difficile"];
-    const t = [f !== undefined ? `facile : ${nombre(f)}` : "", d !== undefined ? `difficile : ${nombre(d)}` : ""].filter(Boolean);
-    $("#cp-carte-record").textContent = t.length ? "Records · " + t.join(" · ") : "";
+    const r = lire().records.carte;
+    $("#cp-carte-record").textContent = r !== undefined ? `Record : ${nombre(r)} points` : "";
   }
   recordTexte();
 
@@ -111,12 +111,12 @@
   window.addEventListener("resize", () => { if (vb && !$("#cp-carte-jeu").hidden) appliquer(); });
 
   /* ---------- Partie ---------- */
-  $$("[data-carte]").forEach(b => b.addEventListener("click", () => demarrer(b.dataset.carte)));
-  function demarrer(niveau) {
+  $$("[data-carte]").forEach(b => b.addEventListener("click", demarrer));
+  function demarrer() {
     const cont = ($("#cp-continent") || {}).value || "";
     charger().then(() => {
       const liste = PAYS.filter(p => !cont || p.continent === cont);
-      partie = { niveau, continent: cont, paquet: melanger(liste).slice(0, Math.min(MANCHES, liste.length)), i: -1, total: 0, manches: [] };
+      partie = { continent: cont, indices: { pays: INDICES, or: INDICES }, paquet: melanger(liste).slice(0, Math.min(MANCHES, liste.length)), i: -1, total: 0, manches: [] };
       $("#cp-accueil").hidden = true; $("#cp-carte-fin").hidden = true; $("#cp-carte-jeu").hidden = false;
       requestAnimationFrame(() => { toutVoir(); suivant(); });
     }).catch(() => { $("#cp-carte-record").textContent = "La carte n'a pas pu être chargée. Rechargez la page."; });
@@ -124,19 +124,47 @@
   function suivant() {
     partie.i++;
     if (partie.i >= partie.paquet.length) return terminer();
-    const p = Object.assign({}, partie.paquet[partie.i], { capitales: CARTE.capitales[partie.paquet[partie.i].pays] }); partie.courant = p; partie.valide = false; punaise = null;
-    $("#cp-carte-pays").textContent = p.pays;
-    $("#cp-carte-etat").textContent = `Pays ${partie.i + 1} sur ${partie.paquet.length} · ${nombre(partie.total)} points`;
+    // On demande la capitale principale ; pour un pays à plusieurs capitales, c'est celle-là qui compte.
+    const q = partie.paquet[partie.i], c = CARTE.capitales[q.pays][0];
+    const p = Object.assign({}, q, { capitale: { nom: c[0], la: c[1], lo: c[2] } }); partie.courant = p; partie.valide = false; punaise = null;
+    p.vu = { pays: false, or: false };
+    $("#cp-carte-pays").textContent = `Où se trouve ${p.capitale.nom} ?`;
+    $("#cp-carte-indice").textContent = ""; $("#cp-carte-indice").hidden = true;
+    $("#cp-carte-etat").textContent = `Capitale ${partie.i + 1} sur ${partie.paquet.length} · ${nombre(partie.total)} points`;
     $("#cp-carte-retour").hidden = true; $("#cp-carte-valider").disabled = true; $("#cp-carte-valider").hidden = false;
     $("#cp-calque").innerHTML = "";
-    $$(".cp-terre.cp-or").forEach(e => e.classList.remove("cp-or"));
-    if (partie.niveau === "facile") {
-      const t = $(`.cp-terre[data-pays="${CSS.escape(p.pays)}"]`);
-      if (t) t.classList.add("cp-or");
-      else { const [x, y] = versXY(p.capitales[0][1], p.capitales[0][2]); $("#cp-calque").appendChild(el("circle", { class: "cp-anneau", cx: x, cy: y, "data-r": 28, r: 1, "data-trait": 2 })); }
-    }
+    $$(".cp-terre.cp-or, .cp-terre.cp-revele").forEach(e => e.classList.remove("cp-or", "cp-revele"));
+    boutonsIndices();
     toutVoir(); $("#cp-carte-pays").focus({ preventScroll: true });
   }
+  /* ---------- Indices : nom du pays, puis pays en or ---------- */
+  function boutonsIndices() {
+    const p = partie.courant, r = partie.indices, fini = partie.valide;
+    const bp = $("#cp-indice-pays"), bo = $("#cp-indice-or");
+    bp.disabled = fini || p.vu.pays || r.pays <= 0;
+    bo.disabled = fini || p.vu.or || !p.vu.pays || r.or <= 0;
+    $("[data-reste-carte=pays]").textContent = `(${r.pays})`; $("[data-reste-carte=or]").textContent = `(${r.or})`;
+    bo.title = !p.vu.pays && r.or > 0 ? "Prenez d'abord l'indice du nom du pays" : "";
+  }
+  $("#cp-indice-pays").addEventListener("click", () => {
+    const p = partie && partie.courant; if (!p || partie.valide || p.vu.pays || partie.indices.pays <= 0) return;
+    p.vu.pays = true; partie.indices.pays--;
+    const i = $("#cp-carte-indice"); i.textContent = `Pays : ${p.pays}`; i.hidden = false;
+    boutonsIndices();
+  });
+  $("#cp-indice-or").addEventListener("click", () => {
+    const p = partie && partie.courant; if (!p || partie.valide || !p.vu.pays || p.vu.or || partie.indices.or <= 0) return;
+    p.vu.or = true; partie.indices.or--;
+    const t = $(`.cp-terre[data-pays="${CSS.escape(p.pays)}"]`);
+    if (t) t.classList.add("cp-or");
+    else {   // Tuvalu, Vatican : trop petits pour un contour ; un anneau dont le centre est un peu décalé de la capitale
+      const [x, y] = versXY(p.capitale.la, p.capitale.lo), a = Math.random() * 2 * Math.PI;
+      $("#cp-calque").insertBefore(el("circle", { class: "cp-anneau", cx: x + Math.cos(a) * 4, cy: y + Math.sin(a) * 4, "data-r": 30, r: 1, "data-trait": 2 }), $("#cp-calque").firstChild);
+      appliquer();
+    }
+    boutonsIndices();
+  });
+
   function planter(x, y) {
     if (!partie || partie.valide) return;
     punaise = [x, y];
@@ -151,21 +179,24 @@
     if (!partie || partie.valide || !punaise) return;
     partie.valide = true;
     const p = partie.courant, ll = versLL(punaise[0], punaise[1]);
-    const cands = p.capitales.map(([nom, la, lo]) => ({ nom, la, lo, d: km(ll, [la, lo]) })).sort((a, b) => a.d - b.d);
-    const c = cands[0], pts = points(c.d); partie.total += pts;
-    partie.manches.push({ pays: p.pays, capitale: c.nom, d: c.d, pts });
+    const c = p.capitale; c.d = km(ll, [c.la, c.lo]);
+    const pts = points(c.d); partie.total += pts;
+    partie.manches.push({ pays: p.pays, capitale: c.nom, d: c.d, pts, indices: p.vu.pays + p.vu.or });
     const [cx, cy] = versXY(c.la, c.lo), calque = $("#cp-calque");
     calque.insertBefore(el("line", { class: "cp-trait", x1: punaise[0], y1: punaise[1], x2: cx, y2: cy, "data-trait": 2 }), calque.firstChild);
-    for (const k of cands.slice(1)) { const [x, y] = versXY(k.la, k.lo); calque.appendChild(el("circle", { class: "cp-capitale cp-autre", cx: x, cy: y, "data-r": 5, r: 1, "data-trait": 1.5 })); }
+    $(`.cp-terre[data-pays="${CSS.escape(p.pays)}"]`)?.classList.add("cp-revele");
     calque.appendChild(el("circle", { class: "cp-capitale", cx, cy, "data-r": 7, r: 1, "data-trait": 2 }));
     cadrer([punaise, [cx, cy]]);
     $("#cp-carte-verdict").textContent = `${nombre(pts)} points`;
     $("#cp-carte-verdict").className = "cp-verdict " + (pts >= 4000 ? "cp-ok" : pts < 1500 ? "cp-non" : "");
-    $("#cp-carte-bonne").innerHTML = `${esc(p.pays)} : <b>${esc(c.nom)}</b> · votre punaise est à ${nombre(c.d)} km`;
+    const autres = CARTE.capitales[p.pays].slice(1).map(k => k[0]);
+    $("#cp-carte-bonne").innerHTML = `<b>${esc(c.nom)}</b> (${esc(p.pays)}) · votre punaise est à ${nombre(c.d)} km`;
+    $("#cp-carte-note").textContent = autres.length ? `${p.pays} a aussi ${autres.length > 1 ? "d'autres capitales" : "une autre capitale"} : ${autres.join(", ")}.` : "";
+    $("#cp-carte-indice").hidden = true; boutonsIndices();
     $("#cp-carte-fait").textContent = p.fait;
     $("#cp-carte-valider").hidden = true; $("#cp-carte-retour").hidden = false;
-    $("#cp-carte-etat").textContent = `Pays ${partie.i + 1} sur ${partie.paquet.length} · ${nombre(partie.total)} points`;
-    $("#cp-carte-suivant").textContent = partie.i + 1 >= partie.paquet.length ? "Voir le résultat" : "Pays suivant";
+    $("#cp-carte-etat").textContent = `Capitale ${partie.i + 1} sur ${partie.paquet.length} · ${nombre(partie.total)} points`;
+    $("#cp-carte-suivant").textContent = partie.i + 1 >= partie.paquet.length ? "Voir le résultat" : "Capitale suivante";
     $("#cp-carte-suivant").focus({ preventScroll: true });
   });
   $("#cp-carte-suivant").addEventListener("click", suivant);
@@ -178,7 +209,7 @@
 
   function terminer() {
     if (!partie) return;
-    const m = lire(), cle = "carte|" + partie.niveau, complet = partie.manches.length === partie.paquet.length;
+    const m = lire(), cle = "carte", complet = partie.manches.length === partie.paquet.length;
     let record = "";
     if (complet && !partie.continent) {
       if (m.records[cle] === undefined || partie.total > m.records[cle]) { record = "Nouveau record !"; m.records[cle] = partie.total; ecrire(m); }
@@ -188,10 +219,10 @@
     $("#cp-carte-fin-titre").textContent = complet ? "Partie terminée" : "Partie interrompue";
     $("#cp-carte-fin-score").textContent = `${nombre(partie.total)} points sur ${nombre(MAX * partie.paquet.length)}`;
     $("#cp-carte-fin-record").textContent = record;
-    $("#cp-carte-manches").innerHTML = partie.manches.length ? `<h3>Vos punaises</h3><ul>${partie.manches.map(x => `<li><span>${esc(x.pays)} · ${esc(x.capitale)}</span><b>${nombre(x.d)} km · ${nombre(x.pts)}</b></li>`).join("")}</ul>` : "";
+    $("#cp-carte-manches").innerHTML = partie.manches.length ? `<h3>Vos punaises</h3><ul>${partie.manches.map(x => `<li><span>${esc(x.capitale)} (${esc(x.pays)})${x.indices ? ` · ${x.indices} indice${x.indices > 1 ? "s" : ""}` : ""}</span><b>${nombre(x.d)} km · ${nombre(x.pts)}</b></li>`).join("")}</ul>` : "";
     $("#cp-carte-fin-titre").focus(); recordTexte();
     partie.fini = true;
   }
-  $("#cp-carte-rejouer").addEventListener("click", () => partie && demarrer(partie.niveau));
+  $("#cp-carte-rejouer").addEventListener("click", () => partie && demarrer());
   $("#cp-carte-accueil").addEventListener("click", () => { $("#cp-carte-fin").hidden = true; $("#cp-carte-jeu").hidden = true; $("#cp-accueil").hidden = false; partie = null; recordTexte(); });
 })();
