@@ -102,7 +102,9 @@
     const bon = new Set(formes(p));
     const voisin = c => { const n = normaliser(c); return [...bon].some(f => f === n || f.includes(n) || n.includes(f)); };
     const prendre = l => melanger(l.filter(x => x !== p).map(x => x.capitales[0])).filter((c, k, a) => !voisin(c) && a.indexOf(c) === k);
-    let leurres = prendre(PAYS.filter(x => x.continent === p.continent));
+    // Plus difficile : 1 ou 2 grandes villes du pays qui ne sont pas la capitale (Toronto, Montréal pour le Canada), puis des capitales voisines.
+    const villes = melanger((p.villes || []).filter(c => !voisin(c))).slice(0, Math.random() < 0.5 ? 1 : 2);
+    let leurres = villes.concat(prendre(PAYS.filter(x => x.continent === p.continent)));
     if (leurres.length < 3) leurres = leurres.concat(prendre(PAYS).filter(c => !leurres.includes(c)));
     const options = melanger([p.capitales[0], ...leurres.slice(0, 3)]);
     $("#cp-choix").innerHTML = options.map((c, k) => `<button type="button" class="cp-option" data-c="${esc(c)}"><span class="cp-touche" aria-hidden="true">${k + 1}</span>${esc(c)}</button>`).join("");

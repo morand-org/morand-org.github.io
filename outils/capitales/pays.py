@@ -225,12 +225,67 @@ P = [
 ("Vanuatu", OC, ["Port-Vila"], ["Port Vila"], "", "Vanuatu : Port-Vila, le port des villas.", "Le pays a trois langues officielles : le bichelamar, l'anglais et le français."),
 ]
 
+# Grandes villes qui ne sont pas la capitale : leurres des choix multiples (1 ou 2 par question quand le pays en a).
+VILLES = {
+"Afrique du Sud": ["Johannesburg", "Durban"], "Algérie": ["Oran", "Constantine"], "Angola": ["Huambo", "Lobito"], "Bénin": ["Parakou", "Abomey"],
+"Botswana": ["Francistown", "Maun"], "Burkina Faso": ["Bobo-Dioulasso", "Koudougou"], "Burundi": ["Ngozi", "Rumonge"], "Cap-Vert": ["Mindelo", "Espargos"],
+"Cameroun": ["Douala", "Garoua"], "Centrafrique": ["Bimbo", "Berbérati"], "Comores": ["Mutsamudu", "Fomboni"], "Congo": ["Pointe-Noire", "Dolisie"],
+"République démocratique du Congo": ["Lubumbashi", "Goma"], "Côte d'Ivoire": ["Bouaké", "San-Pédro"], "Djibouti": ["Ali Sabieh", "Tadjourah"],
+"Égypte": ["Alexandrie", "Gizeh"], "Érythrée": ["Keren", "Massaoua"], "Eswatini": ["Manzini"], "Éthiopie": ["Dire Dawa", "Gondar"],
+"Gabon": ["Port-Gentil", "Franceville"], "Gambie": ["Serekunda", "Brikama"], "Ghana": ["Kumasi", "Tamale"], "Guinée": ["Kankan", "Nzérékoré"],
+"Guinée-Bissau": ["Bafatá", "Gabú"], "Guinée équatoriale": ["Bata", "Ebebiyin"], "Kenya": ["Mombasa", "Kisumu"], "Lesotho": ["Teyateyaneng", "Mafeteng"],
+"Liberia": ["Gbarnga", "Buchanan"], "Libye": ["Benghazi", "Misrata"], "Madagascar": ["Toamasina", "Mahajanga"], "Malawi": ["Blantyre", "Mzuzu"],
+"Mali": ["Sikasso", "Tombouctou"], "Maroc": ["Casablanca", "Marrakech"], "Maurice": ["Curepipe", "Vacoas"], "Mauritanie": ["Nouadhibou", "Kiffa"],
+"Mozambique": ["Beira", "Nampula"], "Namibie": ["Walvis Bay", "Swakopmund"], "Niger": ["Zinder", "Agadez"], "Nigeria": ["Lagos", "Kano"],
+"Ouganda": ["Gulu", "Entebbe"], "Rwanda": ["Butare", "Gisenyi"], "Sao Tomé-et-Principe": ["Santo António", "Neves"], "Sénégal": ["Touba", "Saint-Louis"],
+"Sierra Leone": ["Bo", "Kenema"], "Somalie": ["Hargeisa", "Kismaayo"], "Soudan": ["Omdurman", "Kassala"], "Soudan du Sud": ["Wau", "Malakal"],
+"Tanzanie": ["Dar es Salaam", "Arusha"], "Tchad": ["Moundou", "Abéché"], "Togo": ["Sokodé", "Kara"], "Tunisie": ["Sfax", "Sousse"],
+"Zambie": ["Ndola", "Kitwe"], "Zimbabwe": ["Bulawayo", "Mutare"],
+"Argentine": ["Córdoba", "Rosario"], "Bahamas": ["Freeport"], "Barbade": ["Speightstown"], "Belize": ["Belize City"], "Bolivie": ["Santa Cruz", "Cochabamba"],
+"Brésil": ["São Paulo", "Rio de Janeiro"], "Canada": ["Toronto", "Montréal"], "Chili": ["Valparaíso", "Concepción"], "Colombie": ["Medellín", "Cali"],
+"Costa Rica": ["Limón", "Alajuela"], "Cuba": ["Santiago de Cuba", "Camagüey"], "Dominique": ["Portsmouth"], "Équateur": ["Guayaquil", "Cuenca"],
+"États-Unis": ["New York", "Los Angeles"], "Guatemala": ["Quetzaltenango", "Antigua Guatemala"], "Guyana": ["Linden", "New Amsterdam"],
+"Haïti": ["Cap-Haïtien", "Gonaïves"], "Honduras": ["San Pedro Sula", "La Ceiba"], "Jamaïque": ["Montego Bay", "Spanish Town"], "Mexique": ["Guadalajara", "Monterrey"],
+"Nicaragua": ["León", "Granada"], "Panama": ["Colón", "David"], "Paraguay": ["Ciudad del Este", "Encarnación"], "Pérou": ["Arequipa", "Cuzco"],
+"République dominicaine": ["Santiago de los Caballeros", "Puerto Plata"], "Saint-Kitts-et-Nevis": ["Charlestown"], "Sainte-Lucie": ["Vieux-Fort", "Soufrière"],
+"Salvador": ["Santa Ana", "San Miguel"], "Suriname": ["Nieuw Nickerie"], "Trinité-et-Tobago": ["San Fernando", "Chaguanas"], "Uruguay": ["Salto", "Punta del Este"],
+"Venezuela": ["Maracaibo", "Valencia"],
+"Albanie": ["Durrës", "Shkodër"], "Allemagne": ["Munich", "Hambourg"], "Andorre": ["Escaldes-Engordany"], "Autriche": ["Salzbourg", "Graz"], "Belgique": ["Anvers", "Liège"],
+"Biélorussie": ["Gomel", "Brest"], "Bosnie-Herzégovine": ["Mostar", "Banja Luka"], "Bulgarie": ["Plovdiv", "Varna"], "Chypre": ["Limassol", "Larnaca"],
+"Croatie": ["Split", "Dubrovnik"], "Danemark": ["Aarhus", "Odense"], "Espagne": ["Barcelone", "Séville"], "Estonie": ["Tartu", "Pärnu"], "Finlande": ["Tampere", "Turku"],
+"France": ["Lyon", "Marseille"], "Grèce": ["Thessalonique", "Patras"], "Hongrie": ["Debrecen", "Szeged"], "Irlande": ["Cork", "Galway"], "Islande": ["Akureyri"],
+"Italie": ["Milan", "Naples"], "Lettonie": ["Daugavpils", "Liepāja"], "Liechtenstein": ["Schaan"], "Lituanie": ["Kaunas", "Klaipėda"], "Luxembourg": ["Esch-sur-Alzette"],
+"Macédoine du Nord": ["Bitola", "Ohrid"], "Malte": ["Birkirkara", "Mdina"], "Moldavie": ["Bălți", "Tiraspol"], "Monaco": ["Monte-Carlo"], "Monténégro": ["Nikšić", "Kotor"],
+"Norvège": ["Bergen", "Trondheim"], "Pays-Bas": ["Rotterdam", "Utrecht"], "Pologne": ["Cracovie", "Gdańsk"], "Portugal": ["Porto", "Coimbra"], "Tchéquie": ["Brno", "Ostrava"],
+"Roumanie": ["Cluj-Napoca", "Timișoara"], "Royaume-Uni": ["Manchester", "Birmingham"], "Russie": ["Saint-Pétersbourg", "Novossibirsk"], "Saint-Marin": ["Serravalle", "Borgo Maggiore"],
+"Serbie": ["Novi Sad", "Niš"], "Slovaquie": ["Košice", "Žilina"], "Slovénie": ["Maribor", "Celje"], "Suède": ["Göteborg", "Malmö"], "Suisse": ["Zurich", "Genève"],
+"Ukraine": ["Kharkiv", "Odessa"],
+"Afghanistan": ["Kandahar", "Hérat"], "Arabie saoudite": ["Djeddah", "La Mecque"], "Arménie": ["Gyumri", "Vanadzor"], "Azerbaïdjan": ["Gandja", "Soumgaït"],
+"Bahreïn": ["Muharraq", "Riffa"], "Bangladesh": ["Chittagong", "Khulna"], "Bhoutan": ["Paro", "Phuntsholing"], "Birmanie (Myanmar)": ["Rangoun", "Mandalay"],
+"Brunei": ["Kuala Belait", "Seria"], "Cambodge": ["Siem Reap", "Battambang"], "Chine": ["Shanghai", "Canton"], "Corée du Nord": ["Hamhung", "Chongjin"],
+"Corée du Sud": ["Busan", "Incheon"], "Émirats arabes unis": ["Dubaï", "Charjah"], "Géorgie": ["Batoumi", "Koutaïssi"], "Inde": ["Bombay", "Calcutta"],
+"Indonésie": ["Surabaya", "Bandung"], "Irak": ["Bassora", "Mossoul"], "Iran": ["Ispahan", "Mashhad"], "Israël": ["Haïfa", "Eilat"], "Japon": ["Osaka", "Kyoto"],
+"Jordanie": ["Zarqa", "Aqaba"], "Kazakhstan": ["Almaty", "Chymkent"], "Kirghizistan": ["Och", "Karakol"], "Koweït": ["Jahra", "Ahmadi"], "Laos": ["Luang Prabang", "Savannakhet"],
+"Liban": ["Saïda", "Byblos"], "Malaisie": ["George Town", "Johor Bahru"], "Maldives": ["Addu", "Fuvahmulah"], "Mongolie": ["Erdenet", "Darkhan"], "Népal": ["Pokhara", "Lalitpur"],
+"Oman": ["Salalah", "Sohar"], "Ouzbékistan": ["Samarcande", "Boukhara"], "Pakistan": ["Karachi", "Lahore"], "Palestine": ["Gaza", "Hébron"], "Philippines": ["Cebu", "Davao"],
+"Qatar": ["Al Rayyan", "Al Wakrah"], "Sri Lanka": ["Kandy", "Galle"], "Syrie": ["Alep", "Homs"], "Tadjikistan": ["Khodjent", "Koulob"], "Thaïlande": ["Chiang Mai", "Phuket"],
+"Timor oriental": ["Baucau"], "Turkménistan": ["Türkmenabat", "Mary"], "Turquie": ["Istanbul", "Izmir"], "Viêt Nam": ["Hô-Chi-Minh-Ville", "Da Nang"], "Yémen": ["Taëz", "Hodeïda"],
+"Australie": ["Sydney", "Melbourne"], "Fidji": ["Nadi", "Lautoka"], "Kiribati": ["Kiritimati"], "Îles Marshall": ["Ebeye"], "Micronésie": ["Kolonia", "Weno"],
+"Nouvelle-Zélande": ["Auckland", "Christchurch"], "Palaos": ["Koror", "Airai"], "Papouasie-Nouvelle-Guinée": ["Lae", "Mount Hagen"], "Îles Salomon": ["Gizo", "Auki"],
+"Tonga": ["Neiafu"], "Vanuatu": ["Luganville"],
+}
+
 if __name__ == "__main__":
     assert len(P) == 195, len(P)
     noms = [p[0] for p in P]; assert len(set(noms)) == 195, "doublon"
     from collections import Counter
     print(Counter(p[1] for p in P))
-    sortie = [{"pays": n, "continent": c, "capitales": r, "aussi": a, "note": note, "memo": m, "fait": f} for n, c, r, a, note, m, f in P]
+    inconnus = set(VILLES) - set(noms); assert not inconnus, inconnus
+    toutes = {x for p in P for x in p[2] + p[3]}
+    for n, l in VILLES.items():
+        for v in l: assert v not in toutes, (n, v, "est une capitale acceptée")
+    sans = [n for n in noms if not VILLES.get(n)]; print("pays sans grande ville autre que la capitale :", ", ".join(sans))
+    sortie = [{"pays": n, "continent": c, "capitales": r, "aussi": a, "villes": VILLES.get(n, []), "note": note, "memo": m, "fait": f} for n, c, r, a, note, m, f in P]
     racine = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../..")
     with open(os.path.join(racine, "capitales/pays.json"), "w", encoding="utf8") as fh:
         json.dump(sorted(sortie, key=lambda x: x["pays"]), fh, ensure_ascii=False, indent=0)
