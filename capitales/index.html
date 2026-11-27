@@ -78,8 +78,8 @@
     <div class="cp-mode cp-mode-large cp-mode-carte">
       <p class="cp-mode-tag">Carte · bêta</p>
       <h3 class="cp-mode-titre">Punaise sur la carte</h3>
-      <p class="cp-mode-desc">Plantez une punaise là où se trouve la capitale. 10 pays, jusqu'à 5 000 points chacun selon la distance.</p>
-      <p class="cp-durees" role="group" aria-label="Difficulté"><button type="button" class="lo-bouton" data-carte="facile">Facile : pays en or</button><button type="button" class="lo-bouton" data-carte="difficile">Difficile : contours seulement</button></p>
+      <p class="cp-mode-desc">On vous nomme une capitale : plantez la punaise là où elle se trouve. 10 capitales, jusqu'à 5 000 points chacune selon la distance. Trois indices de chaque sorte par partie : le nom du pays, puis le pays en or.</p>
+      <p class="cp-carte-go"><button type="button" class="lo-bouton" data-carte="jouer">Jouer</button></p>
       <p class="cp-record" id="cp-carte-record"></p>
     </div>
     <p class="cp-regle">Indices : un de chaque sorte par partie en contre-la-montre et en série sans faute ; à volonté en pratique libre. La première lettre n'est offerte qu'en réponse tapée.</p>
@@ -120,8 +120,12 @@
   <!-- Punaise sur la carte (bêta) -->
   <section class="ml-jeu cp-carte-jeu" id="cp-carte-jeu" hidden aria-labelledby="cp-carte-pays">
     <p class="ml-sur"><span id="cp-carte-etat"></span><span class="cp-beta">Bêta</span></p>
-    <p class="cp-question">Où se trouve la capitale de ce pays ?</p>
-    <h2 class="ml-titre cp-pays" id="cp-carte-pays" tabindex="-1"></h2>
+    <h2 class="ml-titre cp-pays cp-carte-question" id="cp-carte-pays" tabindex="-1"></h2>
+    <p class="cp-indices-btns" role="group" aria-label="Indices">
+      <button type="button" class="ml-btn-sec" id="cp-indice-pays">Nom du pays <span class="cp-reste" data-reste-carte="pays"></span></button>
+      <button type="button" class="ml-btn-sec" id="cp-indice-or">Pays en or <span class="cp-reste" data-reste-carte="or"></span></button>
+    </p>
+    <p class="cp-carte-indice" id="cp-carte-indice" aria-live="polite" hidden></p>
     <div class="cp-carte" id="cp-carte">
       <svg id="cp-svg" role="img" aria-label="Carte du monde : touchez pour planter la punaise" xmlns="http://www.w3.org/2000/svg"></svg>
       <p class="cp-zoom" role="group" aria-label="Zoom"><button type="button" id="cp-zoom-plus" aria-label="Zoomer">+</button><button type="button" id="cp-zoom-moins" aria-label="Dézoomer">−</button><button type="button" id="cp-zoom-tout" aria-label="Voir le monde entier">⤢</button></p>
@@ -131,8 +135,9 @@
     <div class="cp-retour" id="cp-carte-retour" hidden aria-live="polite">
       <p class="cp-verdict" id="cp-carte-verdict"></p>
       <p class="cp-bonne" id="cp-carte-bonne"></p>
+      <p class="cp-note" id="cp-carte-note"></p>
       <p class="cp-fait" id="cp-carte-fait"></p>
-      <p class="cp-suite"><button type="button" class="lo-bouton" id="cp-carte-suivant">Pays suivant</button></p>
+      <p class="cp-suite"><button type="button" class="lo-bouton" id="cp-carte-suivant">Capitale suivante</button></p>
     </div>
     <p class="cp-bas"><button type="button" class="ml-btn-sec" id="cp-carte-terminer">Terminer</button></p>
   </section>
@@ -157,7 +162,7 @@
   <details class="cr-sources">
     <summary><h2>À propos</h2></summary>
     <p class="cr-petit">Les 193 États membres de l'Organisation des Nations unies, plus le Vatican et la Palestine (États observateurs). Pour les pays qui ont plus d'une capitale (Afrique du Sud, Bolivie, Pays-Bas, etc.), toutes sont acceptées ; une note l'explique après la réponse. En réponse tapée, les accents, les majuscules et une petite faute de frappe sont tolérés.</p>
-    <p class="cr-petit">Carte : contours de Natural Earth (domaine public), projection équirectangulaire ; le score de la punaise baisse avec la distance à la capitale (5 000 points à moins de quelques kilomètres). Vos records restent dans ce navigateur ; rien n'est transmis.</p>
+    <p class="cr-petit">Carte : contours de Natural Earth (domaine public), projection équirectangulaire ; le score de la punaise baisse avec la distance à la capitale demandée (pour un pays à plusieurs capitales, la principale) (5 000 points à moins de quelques kilomètres). Vos records restent dans ce navigateur ; rien n'est transmis.</p>
   </details>
 </main>
 <footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
