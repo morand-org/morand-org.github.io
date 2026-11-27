@@ -27,7 +27,7 @@ function verifier(nom, condition, detail) {
   else { echecs++; console.error(`ÉCHEC : ${nom}${detail !== undefined ? ` (${typeof detail === "string" ? detail : JSON.stringify(detail)})` : ""}`); }
 }
 const lire = f => fs.readFileSync(path.join(RACINE, f), "utf8");
-const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/", "/entrainement/", "/locomoteur/donnees/", "/locomoteur/morandle/"];
+const PAGES = ["/", "/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/", "/confidentialite/", "/merci/", "/locomoteur/", "/locomoteur/genou/", "/entrainement/", "/locomoteur/donnees/", "/locomoteur/morandle/", "/capitales/"];
 const OUTILS = ["/guides/", "/guides/ressources-communautaires/", "/map/", "/crds/", "/codes/"];
 const TRONQUE = /<\s*\d+[a-zA-Z]{0,3}>/;
 
@@ -579,7 +579,7 @@ function fichiers() {
   }
   verifier("map/index.html : adresse canonique laissée à Trouve ta clinique", lire("map/index.html").includes('<link rel="canonical" href="https://trouvetaclinique.ca/monteregie/">'));
   // Pages écrites pour Morand : politique de sécurité stricte, donc ni style en ligne ni script en ligne.
-  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html", "merci/index.html", "locomoteur/index.html", "locomoteur/genou/index.html"]) {
+  for (const f of ["index.html", "crds/index.html", "codes/index.html", "confidentialite/index.html", "merci/index.html", "locomoteur/index.html", "locomoteur/genou/index.html", "capitales/index.html"]) {
     const h = lire(f);
     verifier(`${f} : politique de sécurité du contenu présente`, /Content-Security-Policy" content="default-src 'self'/.test(h));
     verifier(`${f} : aucun attribut style, aucun script en ligne`, !/\sstyle="/.test(h) && !/<script(?![^>]*\bsrc=)(?![^>]*ld\+json)[^>]*>/.test(h));
@@ -605,6 +605,10 @@ function fichiers() {
     ["entrainement/index.html", "locomoteur/morandle/index.html"].every(f => !lire(f).includes("noindex")) && plan.includes("/entrainement/") && plan.includes("/locomoteur/morandle/")
     && ["index.html", "locomoteur/index.html"].every(f => lire(f).includes('href="/entrainement/"') && lire(f).includes('href="/locomoteur/morandle/"'))
     && lire("entrainement/index.html").includes('href="/locomoteur/morandle/"') && lire("locomoteur/morandle/index.html").includes('href="/entrainement/"'));
+  const pays = JSON.parse(lire("capitales/pays.json"));
+  verifier("Capitales : page cachée (non indexée, absente du plan du site, liée de nulle part)", lire("capitales/index.html").includes('<meta name="robots" content="noindex, nofollow">') && !plan.includes("/capitales/")
+    && ["index.html", "locomoteur/index.html", "entrainement/index.html"].every(f => !lire(f).includes("/capitales/")));
+  verifier("Capitales : 195 pays uniques, chacun avec capitale, truc et fait", pays.length === 195 && new Set(pays.map(p => p.pays)).size === 195 && pays.every(p => p.capitales.length && p.memo && p.fait && p.continent));
   verifier("robots.txt : annonce le plan du site", lire("robots.txt").includes("Sitemap: https://www.morand.org/sitemap.xml"));
   const m = JSON.parse(lire("manifest.webmanifest"));
   verifier("manifeste : un raccourci par outil, icônes présentes", m.shortcuts.map(s => s.url).join() === "/wealth/,/guides/,/map/,/crds/,/codes/" && m.shortcuts.every(s => fs.existsSync(path.join(RACINE, s.icons[0].src))), m.shortcuts.map(s => s.url));

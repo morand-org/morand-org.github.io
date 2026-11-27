@@ -1,0 +1,78 @@
+/* Morand : quiz des capitales (page cachée). Chargé après crds.css, locomoteur.css et morandle.css : reprend le design du Morandle. */
+[hidden] { display: none !important; }
+
+/* Accueil : réglages et modes */
+.cp-reglages { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px 18px; margin: 0 0 18px; }
+.cp-segment { display: inline-flex; margin: 0; padding: 3px; border: 1px solid var(--filet); border-radius: 999px; background: var(--papier); }
+.cp-segment legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.cp-segment label { position: relative; }
+.cp-segment input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.cp-segment span { display: block; padding: 8px 14px; border-radius: 999px; font: 600 0.84rem var(--sans); color: var(--discret); }
+.cp-segment input:checked + span { background: var(--or); color: var(--carte); }
+.cp-segment input:focus-visible + span { outline: 2px solid var(--or); outline-offset: 2px; }
+.cp-continent { display: inline-flex; align-items: center; gap: 8px; font: 600 0.84rem var(--sans); color: var(--discret); }
+.cp-continent select { min-height: 40px; padding: 6px 10px; border: 1px solid var(--filet); border-radius: 10px; background: var(--papier); color: var(--encre); font: 500 0.9rem var(--sans); }
+
+.cp-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.cp-mode { display: grid; gap: 4px; align-content: start; padding: 14px 16px; border: 1px solid var(--or); border-radius: 14px; background: var(--papier); color: var(--encre); text-align: left; font: inherit; cursor: pointer; }
+button.cp-mode:hover, button.cp-mode:focus-visible { background: var(--jaune-fond, var(--beige)); outline: none; }
+.cp-mode-large { grid-column: 1 / -1; cursor: default; }
+.cp-mode-tag { margin: 0; font: 600 0.68rem/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--or-texte); }
+.cp-mode-titre { margin: 0; font: 400 1.25rem/1.2 var(--serif); }
+.cp-mode-desc { margin: 0; font: 400 0.86rem/1.4 var(--sans); color: var(--encre-2); }
+.cp-durees { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0 0; }
+.cp-durees .lo-bouton { width: 100%; }
+.cp-record { margin: 2px 0 0; min-height: 1em; font: 500 0.76rem/1.3 var(--sans); color: var(--discret); }
+.cp-regle { margin: 14px 0 0; text-align: center; font: 400 0.8rem/1.4 var(--sans); color: var(--discret); }
+
+/* Partie */
+.ml-sur { justify-content: space-between; align-items: center; }
+.cp-chrono { padding: 3px 10px; border: 1px solid var(--filet); border-radius: 999px; font: 700 0.9rem/1.2 var(--mono, var(--sans)); letter-spacing: 0.04em; color: var(--encre); }
+.cp-chrono.cp-urgent { border-color: var(--alerte); color: var(--alerte); }
+.cp-question { margin: 6px 0 2px; text-align: center; font: 500 0.86rem var(--sans); color: var(--discret); }
+.cp-pays { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+.cp-pays:focus { outline: none; }
+
+.cp-indices-btns { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 12px; }
+.cp-indices-btns .ml-btn-sec:disabled { opacity: 0.5; cursor: default; }
+.cp-reste { font-weight: 500; color: var(--discret); }
+.cp-indices { counter-reset: none; }
+.cp-indices .ml-indice { padding-left: 14px; }
+.cp-indices .ml-indice::before { display: none; }
+.cp-indices .ml-indice b { font: 600 0.72rem/1.4 var(--sans); letter-spacing: 0.06em; text-transform: uppercase; color: var(--or-texte); margin-right: 4px; }
+
+.cp-choix { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.cp-option { display: flex; align-items: center; gap: 10px; min-height: 54px; padding: 10px 14px; border: 1px solid var(--filet); border-radius: 12px; background: var(--papier); color: var(--encre);
+  font: 500 1.02rem/1.25 var(--serif); text-align: left; cursor: pointer; }
+.cp-option:hover:not(:disabled), .cp-option:focus-visible { border-color: var(--or); outline: none; }
+.cp-touche { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--filet); color: var(--discret); font: 700 0.72rem/22px var(--sans); text-align: center; }
+.cp-option.cp-bon { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 16%, transparent); }
+.cp-option.cp-faux { border-color: var(--alerte); background: var(--alerte-fond); }
+.cp-option:disabled { cursor: default; }
+.cp-passer { min-height: 46px; }
+
+.cp-retour { margin-top: 14px; padding: 14px 16px; border: 1px solid var(--filet); border-radius: 14px; background: var(--papier); text-align: center; }
+.cp-verdict { margin: 0; font: 400 1.3rem/1.2 var(--serif); }
+.cp-ok { color: var(--ok); }
+.cp-non { color: var(--alerte); }
+.cp-bonne { margin: 6px 0 0; font: 500 1rem/1.4 var(--sans); }
+.cp-bonne b { color: var(--or-texte); }
+.cp-note { margin: 6px 0 0; font: 400 0.86rem/1.45 var(--sans); color: var(--encre-2); }
+.cp-fait { margin: 8px auto 0; max-width: 520px; font: italic 400 0.95rem/1.5 var(--serif); color: var(--encre-2); }
+.cp-suite { margin: 12px 0 0; }
+.cp-bas { margin: 14px 0 0; text-align: center; }
+
+/* Fin */
+.cp-fin { text-align: center; }
+.cp-fin-record { margin: 6px 0 0; font: 600 0.9rem var(--sans); color: var(--ok); }
+.cp-erreurs { max-width: 460px; margin: 14px auto 0; text-align: left; }
+.cp-erreurs h3 { margin: 0 0 6px; font: 600 0.7rem/1.4 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--discret); }
+.cp-erreurs ul { margin: 0; padding: 0; list-style: none; }
+.cp-erreurs li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--filet); font: 400 0.9rem var(--sans); }
+.cp-erreurs b { color: var(--or-texte); font-weight: 600; text-align: right; }
+
+@media (max-width: 560px) {
+  .cp-modes { grid-template-columns: 1fr; }
+  .cp-choix { grid-template-columns: 1fr; }
+  .cp-passer { width: 100%; }
+}
