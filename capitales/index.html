@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/morand/plein-ecran.js"></script>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex, nofollow">
+<title>Capitales du monde | Morand</title>
+<meta name="description" content="Quiz des capitales des 195 pays du monde : pratique libre, contre-la-montre ou série sans faute.">
+<meta name="theme-color" content="#fdfcf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12110d" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/morand/icone.svg" type="image/svg+xml">
+<link rel="icon" href="/morand/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/morand/apple-touch-icon.png">
+<link rel="preload" href="/morand/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/crds/crds.css">
+<link rel="stylesheet" href="/locomoteur/locomoteur.css">
+<link rel="stylesheet" href="/locomoteur/morandle/morandle.css">
+<link rel="stylesheet" href="/capitales/capitales.css">
+<script src="/capitales/capitales.js" defer></script>
+</head>
+<body>
+<header class="cr-tete">
+  <a class="cr-marque" href="/">Morand</a>
+  <nav class="cr-onglets" aria-label="Outils Morand">
+    <a href="/wealth/">Wealth</a>
+    <a href="/guides/">Guide</a>
+    <a href="/map/">Map</a>
+    <a href="/crds/">CRDS</a>
+    <a href="/codes/">Codes</a>
+    <a href="/locomoteur/">MSK</a>
+  </nav>
+</header>
+<main class="ml-page">
+  <nav class="hy-fil ml-fil" aria-label="Fil d'Ariane"><a href="/">Morand</a><span aria-hidden="true">›</span><span>Capitales</span></nav>
+  <section class="cr-intro ml-intro">
+    <h1>Capitales du monde</h1>
+    <p class="cr-devise">195 pays · trois façons de jouer</p>
+    <p class="cr-lead">Trouvez la capitale de chaque pays. Besoin d'un coup de pouce ? Trois indices : la première lettre, un truc pour s'en souvenir, un fait connu.</p>
+  </section>
+
+  <!-- Accueil : réglages et modes -->
+  <section class="ml-jeu cp-accueil" id="cp-accueil" aria-labelledby="cp-accueil-titre">
+    <h2 class="ml-titre" id="cp-accueil-titre">Choisissez votre partie</h2>
+    <div class="cp-reglages">
+      <fieldset class="cp-segment">
+        <legend>Réponse</legend>
+        <label><input type="radio" name="cp-reponse" value="choix" checked><span>Choix multiples</span></label>
+        <label><input type="radio" name="cp-reponse" value="tape"><span>Réponse tapée</span></label>
+      </fieldset>
+      <label class="cp-continent">Pays <select id="cp-continent"><option value="">Tous les pays (195)</option></select></label>
+    </div>
+    <div class="cp-modes">
+      <div class="cp-mode cp-mode-large">
+        <p class="cp-mode-tag">Chrono</p>
+        <h3 class="cp-mode-titre">Contre-la-montre</h3>
+        <p class="cp-mode-desc">Le plus de bonnes réponses possible dans le temps donné.</p>
+        <p class="cp-durees" role="group" aria-label="Durée"><button type="button" class="lo-bouton" data-mode="chrono" data-duree="60">1 min</button><button type="button" class="lo-bouton" data-mode="chrono" data-duree="120">2 min</button><button type="button" class="lo-bouton" data-mode="chrono" data-duree="300">5 min</button></p>
+        <p class="cp-record" data-record="chrono"></p>
+      </div>
+      <button type="button" class="cp-mode" data-mode="serie">
+        <span class="cp-mode-tag">Mort subite</span>
+        <span class="cp-mode-titre">Série sans faute</span>
+        <span class="cp-mode-desc">Une erreur et la série s'arrête. Tous les pays, sans répétition.</span>
+        <span class="cp-record" data-record="serie"></span>
+      </button>
+      <button type="button" class="cp-mode" data-mode="libre">
+        <span class="cp-mode-tag">Sans chrono</span>
+        <span class="cp-mode-titre">Pratique libre</span>
+        <span class="cp-mode-desc">À votre rythme, avec des indices à volonté.</span>
+        <span class="cp-record" data-record="libre"></span>
+      </button>
+    </div>
+    <p class="cp-regle">Indices : un de chaque sorte par partie en contre-la-montre et en série sans faute ; à volonté en pratique libre.</p>
+    <p class="ml-message" id="cp-chargement" role="status"></p>
+  </section>
+
+  <!-- Partie -->
+  <section class="ml-jeu cp-partie" id="cp-partie" hidden aria-labelledby="cp-pays">
+    <p class="ml-sur"><span id="cp-etat"></span><span class="cp-chrono" id="cp-chrono" hidden></span></p>
+    <p class="cp-question">Quelle est la capitale de ce pays ?</p>
+    <h2 class="ml-titre cp-pays" id="cp-pays" tabindex="-1"></h2>
+
+    <p class="cp-indices-btns" role="group" aria-label="Indices">
+      <button type="button" class="ml-btn-sec" data-indice="lettre">Première lettre <span class="cp-reste" data-reste="lettre"></span></button>
+      <button type="button" class="ml-btn-sec" data-indice="memo">Truc mnémotechnique <span class="cp-reste" data-reste="memo"></span></button>
+      <button type="button" class="ml-btn-sec" data-indice="fait">Fait connu <span class="cp-reste" data-reste="fait"></span></button>
+    </p>
+    <ol class="ml-indices cp-indices" id="cp-indices" aria-live="polite"></ol>
+
+    <div class="cp-choix" id="cp-choix" role="group" aria-label="Choix de réponse"></div>
+    <form class="ml-form" id="cp-form" autocomplete="off" hidden>
+      <label class="cache" for="cp-q">Votre réponse</label>
+      <div class="ml-champ"><input id="cp-q" type="text" placeholder="Capitale…" spellcheck="false" autocapitalize="words" enterkeyhint="done"></div>
+      <button type="submit" class="lo-bouton ml-bouton" id="cp-valider">Valider</button>
+      <button type="button" class="ml-btn-sec cp-passer" id="cp-passer">Passer</button>
+    </form>
+
+    <div class="cp-retour" id="cp-retour" hidden aria-live="polite">
+      <p class="cp-verdict" id="cp-verdict"></p>
+      <p class="cp-bonne" id="cp-bonne"></p>
+      <p class="cp-note" id="cp-note"></p>
+      <p class="cp-fait" id="cp-fait"></p>
+      <p class="cp-suite"><button type="button" class="lo-bouton" id="cp-suivante">Question suivante</button></p>
+    </div>
+    <p class="cp-bas"><button type="button" class="ml-btn-sec" id="cp-terminer">Terminer</button></p>
+  </section>
+
+  <!-- Fin de partie -->
+  <section class="ml-jeu cp-fin" id="cp-fin" hidden aria-labelledby="cp-fin-titre">
+    <h2 class="ml-verdict" id="cp-fin-titre" tabindex="-1"></h2>
+    <p class="ml-reponse" id="cp-fin-score"></p>
+    <p class="cp-fin-record" id="cp-fin-record"></p>
+    <div class="cp-erreurs" id="cp-erreurs"></div>
+    <p class="ml-actions"><button type="button" class="lo-bouton" id="cp-rejouer">Rejouer</button><button type="button" class="ml-btn-sec" id="cp-accueil-btn">Changer de partie</button></p>
+  </section>
+
+  <details class="cr-sources">
+    <summary><h2>À propos</h2></summary>
+    <p class="cr-petit">Les 193 États membres de l'Organisation des Nations unies, plus le Vatican et la Palestine (États observateurs). Pour les pays qui ont plus d'une capitale (Afrique du Sud, Bolivie, Pays-Bas, etc.), toutes sont acceptées ; une note l'explique après la réponse. En réponse tapée, les accents, les majuscules et une petite faute de frappe sont tolérés.</p>
+    <p class="cr-petit">Vos records restent dans ce navigateur ; rien n'est transmis.</p>
+  </details>
+</main>
+<footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>
+</body>
+</html>

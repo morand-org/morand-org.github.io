@@ -1,0 +1,2459 @@
+[
+{
+"pays": "Afghanistan",
+"continent": "Asie",
+"capitales": [
+"Kaboul"
+],
+"aussi": [
+"Kabul"
+],
+"note": "",
+"memo": "Afghanistan : Kaboul, entre les montagnes de l'Hindou Kouch.",
+"fait": "La ville est à environ 1 800 m d'altitude."
+},
+{
+"pays": "Afrique du Sud",
+"continent": "Afrique",
+"capitales": [
+"Pretoria",
+"Le Cap",
+"Bloemfontein"
+],
+"aussi": [
+"Cape Town",
+"Tshwane"
+],
+"note": "Trois capitales : Pretoria (gouvernement), Le Cap (Parlement) et Bloemfontein (justice).",
+"memo": "Trois pouvoirs, trois villes : le gouvernement à Pretoria, le Parlement au Cap, la justice à Bloemfontein.",
+"fait": "Le Cap est dominée par la montagne de la Table, au sommet tout plat."
+},
+{
+"pays": "Albanie",
+"continent": "Europe",
+"capitales": [
+"Tirana"
+],
+"aussi": [
+"Tirane"
+],
+"note": "",
+"memo": "Albanie : Tirana, qui « tire » vers l'Adriatique.",
+"fait": "Le centre-ville est connu pour ses immeubles peints de couleurs vives."
+},
+{
+"pays": "Algérie",
+"continent": "Afrique",
+"capitales": [
+"Alger"
+],
+"aussi": [
+"Algiers"
+],
+"note": "",
+"memo": "Alger, c'est l'Algérie sans la fin : la capitale a donné son nom au pays.",
+"fait": "Sa vieille ville, la Casbah, est inscrite au patrimoine mondial de l'UNESCO."
+},
+{
+"pays": "Allemagne",
+"continent": "Europe",
+"capitales": [
+"Berlin"
+],
+"aussi": [],
+"note": "",
+"memo": "Allemagne : Berlin, la ville du mur.",
+"fait": "Le mur de Berlin est tombé en 1989."
+},
+{
+"pays": "Andorre",
+"continent": "Europe",
+"capitales": [
+"Andorre-la-Vieille"
+],
+"aussi": [
+"Andorra la Vella",
+"Andorre la Vieille"
+],
+"note": "",
+"memo": "Andorre : Andorre-la-Vieille, l'Andorre qui a de l'âge.",
+"fait": "C'est la capitale la plus haute d'Europe, à environ 1 000 m."
+},
+{
+"pays": "Angola",
+"continent": "Afrique",
+"capitales": [
+"Luanda"
+],
+"aussi": [],
+"note": "",
+"memo": "Angola et Luanda : deux noms qui finissent par « a », sur la côte de l'Atlantique.",
+"fait": "Fondée par les Portugais en 1576, c'est l'une des plus anciennes villes coloniales d'Afrique australe."
+},
+{
+"pays": "Antigua-et-Barbuda",
+"continent": "Amériques",
+"capitales": [
+"Saint John's"
+],
+"aussi": [
+"St John's",
+"St. John's",
+"Saint-Jean"
+],
+"note": "",
+"memo": "Saint John's, comme la capitale de Terre-Neuve.",
+"fait": "Antigua compterait 365 plages, « une pour chaque jour de l'année »."
+},
+{
+"pays": "Arabie saoudite",
+"continent": "Asie",
+"capitales": [
+"Riyad"
+],
+"aussi": [
+"Riyadh",
+"Ryad"
+],
+"note": "",
+"memo": "Arabie saoudite : Riyad, et non La Mecque.",
+"fait": "Riyad veut dire « les jardins » en arabe."
+},
+{
+"pays": "Argentine",
+"continent": "Amériques",
+"capitales": [
+"Buenos Aires"
+],
+"aussi": [],
+"note": "",
+"memo": "Buenos Aires, les « bons airs » du tango.",
+"fait": "Le tango est né à Buenos Aires et à Montevideo à la fin du XIXᵉ siècle."
+},
+{
+"pays": "Arménie",
+"continent": "Asie",
+"capitales": [
+"Erevan"
+],
+"aussi": [
+"Yerevan",
+"Érevan"
+],
+"note": "",
+"memo": "Arménie : Erevan, face au mont Ararat.",
+"fait": "Le mont Ararat se voit de la ville, de l'autre côté de la frontière turque."
+},
+{
+"pays": "Australie",
+"continent": "Océanie",
+"capitales": [
+"Canberra"
+],
+"aussi": [],
+"note": "",
+"memo": "Ni Sydney ni Melbourne : Canberra, le compromis.",
+"fait": "Canberra a été construite pour départager Sydney et Melbourne."
+},
+{
+"pays": "Autriche",
+"continent": "Europe",
+"capitales": [
+"Vienne"
+],
+"aussi": [
+"Wien",
+"Vienna"
+],
+"note": "",
+"memo": "Autriche : Vienne, la valse viennoise.",
+"fait": "Mozart, Beethoven et Strauss y ont vécu."
+},
+{
+"pays": "Azerbaïdjan",
+"continent": "Asie",
+"capitales": [
+"Bakou"
+],
+"aussi": [
+"Baku"
+],
+"note": "",
+"memo": "Azerbaïdjan : Bakou, la ville du pétrole et du vent.",
+"fait": "Bakou, au bord de la mer Caspienne, est sous le niveau de la mer."
+},
+{
+"pays": "Bahamas",
+"continent": "Amériques",
+"capitales": [
+"Nassau"
+],
+"aussi": [],
+"note": "",
+"memo": "Aux Bahamas, on nage à Nassau.",
+"fait": "Nassau est sur l'île de New Providence."
+},
+{
+"pays": "Bahreïn",
+"continent": "Asie",
+"capitales": [
+"Manama"
+],
+"aussi": [],
+"note": "",
+"memo": "Bahreïn : Manama, « le lieu du repos ».",
+"fait": "Bahreïn est un archipel relié à l'Arabie saoudite par un long pont."
+},
+{
+"pays": "Bangladesh",
+"continent": "Asie",
+"capitales": [
+"Dacca"
+],
+"aussi": [
+"Dhaka"
+],
+"note": "",
+"memo": "Bangladesh : Dacca (Dhaka), la ville des pousse-pousse.",
+"fait": "Dacca est surnommée la « capitale mondiale du rickshaw »."
+},
+{
+"pays": "Barbade",
+"continent": "Amériques",
+"capitales": [
+"Bridgetown"
+],
+"aussi": [],
+"note": "",
+"memo": "Barbade : la ville du pont, Bridge-town.",
+"fait": "Son centre historique et sa garnison sont au patrimoine mondial."
+},
+{
+"pays": "Belgique",
+"continent": "Europe",
+"capitales": [
+"Bruxelles"
+],
+"aussi": [
+"Brussels",
+"Brussel"
+],
+"note": "",
+"memo": "Belgique : Bruxelles, comme les choux de Bruxelles.",
+"fait": "Elle accueille le siège de l'Union européenne et celui de l'OTAN."
+},
+{
+"pays": "Belize",
+"continent": "Amériques",
+"capitales": [
+"Belmopan"
+],
+"aussi": [],
+"note": "La ville de Belize, la plus grande, n'est plus la capitale.",
+"memo": "Belize, Belmopan : même « Bel ».",
+"fait": "Belmopan a été construite après qu'un ouragan a dévasté la ville de Belize en 1961."
+},
+{
+"pays": "Bhoutan",
+"continent": "Asie",
+"capitales": [
+"Thimphou"
+],
+"aussi": [
+"Thimphu"
+],
+"note": "",
+"memo": "Bhoutan : Thimphou, la capitale sans feux de circulation.",
+"fait": "Il n'y a pas de feux de circulation : des policiers dirigent la circulation à la main."
+},
+{
+"pays": "Birmanie (Myanmar)",
+"continent": "Asie",
+"capitales": [
+"Naypyidaw"
+],
+"aussi": [
+"Naypyitaw",
+"Nay Pyi Taw",
+"Naypyitaw"
+],
+"note": "Naypyidaw a remplacé Rangoun comme capitale en 2005.",
+"memo": "Birmanie : Naypyidaw, la « demeure des rois », bâtie de toutes pièces.",
+"fait": "La ville est connue pour ses autoroutes immenses et presque vides."
+},
+{
+"pays": "Biélorussie",
+"continent": "Europe",
+"capitales": [
+"Minsk"
+],
+"aussi": [],
+"note": "",
+"memo": "Biélorussie : Minsk, court et net.",
+"fait": "La ville a été presque entièrement reconstruite après la Seconde Guerre mondiale."
+},
+{
+"pays": "Bolivie",
+"continent": "Amériques",
+"capitales": [
+"Sucre",
+"La Paz"
+],
+"aussi": [],
+"note": "Sucre est la capitale constitutionnelle ; La Paz est le siège du gouvernement.",
+"memo": "La Bolivie a du « sucre » et de la « paix » : Sucre et La Paz.",
+"fait": "La Paz est le siège de gouvernement le plus haut du monde, à environ 3 600 m."
+},
+{
+"pays": "Bosnie-Herzégovine",
+"continent": "Europe",
+"capitales": [
+"Sarajevo"
+],
+"aussi": [],
+"note": "",
+"memo": "Bosnie : Sarajevo, la ville des Jeux olympiques d'hiver de 1984.",
+"fait": "L'assassinat de l'archiduc François-Ferdinand, en 1914, y a déclenché la Première Guerre mondiale."
+},
+{
+"pays": "Botswana",
+"continent": "Afrique",
+"capitales": [
+"Gaborone"
+],
+"aussi": [],
+"note": "",
+"memo": "Gaborone porte le nom d'un chef, Gaborone : le chef garde la capitale.",
+"fait": "Gaborone est une capitale récente, bâtie au moment de l'indépendance, en 1966."
+},
+{
+"pays": "Brunei",
+"continent": "Asie",
+"capitales": [
+"Bandar Seri Begawan"
+],
+"aussi": [],
+"note": "",
+"memo": "Brunei : Bandar Seri Begawan, un long nom pour un petit pays.",
+"fait": "On y trouve un grand village sur pilotis, Kampong Ayer."
+},
+{
+"pays": "Brésil",
+"continent": "Amériques",
+"capitales": [
+"Brasilia"
+],
+"aussi": [
+"Brasília"
+],
+"note": "",
+"memo": "Pas Rio ! Brésil, Brasilia.",
+"fait": "Inaugurée en 1960, Brasilia a la forme d'un avion vue du ciel."
+},
+{
+"pays": "Bulgarie",
+"continent": "Europe",
+"capitales": [
+"Sofia"
+],
+"aussi": [],
+"note": "",
+"memo": "Bulgarie : Sofia, un prénom de femme.",
+"fait": "La ville est au pied du mont Vitocha."
+},
+{
+"pays": "Burkina Faso",
+"continent": "Afrique",
+"capitales": [
+"Ouagadougou"
+],
+"aussi": [
+"Ouaga"
+],
+"note": "",
+"memo": "« Ouaga » pour les intimes : le nom le plus chantant d'Afrique, avec ses quatre « ou ».",
+"fait": "Elle accueille le FESPACO, le plus grand festival de cinéma africain."
+},
+{
+"pays": "Burundi",
+"continent": "Afrique",
+"capitales": [
+"Gitega",
+"Bujumbura"
+],
+"aussi": [],
+"note": "Gitega est la capitale politique depuis 2019 ; Bujumbura reste la capitale économique.",
+"memo": "Le Burundi a changé de « gîte » : sa capitale politique est maintenant Gitega.",
+"fait": "Bujumbura, l'ancienne capitale, est au bord du lac Tanganyika."
+},
+{
+"pays": "Bénin",
+"continent": "Afrique",
+"capitales": [
+"Porto-Novo",
+"Cotonou"
+],
+"aussi": [
+"Porto Novo"
+],
+"note": "Porto-Novo est la capitale officielle ; le gouvernement siège à Cotonou.",
+"memo": "Porto-Novo, le « nouveau port » des Portugais ; Cotonou, la grande ville où travaille le gouvernement.",
+"fait": "Porto-Novo veut dire « nouveau port » en portugais."
+},
+{
+"pays": "Cambodge",
+"continent": "Asie",
+"capitales": [
+"Phnom Penh"
+],
+"aussi": [
+"Phnom-Penh"
+],
+"note": "",
+"memo": "Cambodge : Phnom Penh, la « colline de grand-mère Penh ».",
+"fait": "La ville est là où le Mékong rejoint le Tonlé Sap."
+},
+{
+"pays": "Cameroun",
+"continent": "Afrique",
+"capitales": [
+"Yaoundé"
+],
+"aussi": [
+"Yaounde"
+],
+"note": "",
+"memo": "Au Cameroun, « y a où donc ? »… Yaoundé !",
+"fait": "Yaoundé est surnommée la « ville aux sept collines »."
+},
+{
+"pays": "Canada",
+"continent": "Amériques",
+"capitales": [
+"Ottawa"
+],
+"aussi": [],
+"note": "",
+"memo": "Ni Toronto ni Montréal : Ottawa, sur la rivière des Outaouais.",
+"fait": "En hiver, le canal Rideau devient une immense patinoire."
+},
+{
+"pays": "Cap-Vert",
+"continent": "Afrique",
+"capitales": [
+"Praia"
+],
+"aussi": [],
+"note": "",
+"memo": "Praia veut dire « plage » en portugais : au Cap-Vert, la capitale a les pieds dans l'eau.",
+"fait": "Praia est sur l'île de Santiago, la plus grande de l'archipel."
+},
+{
+"pays": "Centrafrique",
+"continent": "Afrique",
+"capitales": [
+"Bangui"
+],
+"aussi": [],
+"note": "",
+"memo": "Bangui, au bord de l'Oubangui : la capitale porte presque le nom de sa rivière.",
+"fait": "La ville est sur la rive de l'Oubangui, juste en face de la RD Congo."
+},
+{
+"pays": "Chili",
+"continent": "Amériques",
+"capitales": [
+"Santiago"
+],
+"aussi": [
+"Santiago du Chili",
+"Santiago de Chile"
+],
+"note": "Le Congrès national siège à Valparaíso.",
+"memo": "Chili : Santiago, comme le saint des pèlerins.",
+"fait": "La cordillère des Andes se voit de presque partout dans la ville."
+},
+{
+"pays": "Chine",
+"continent": "Asie",
+"capitales": [
+"Pékin"
+],
+"aussi": [
+"Beijing",
+"Pekin"
+],
+"note": "",
+"memo": "Chine : Pékin (Beijing), la Cité interdite.",
+"fait": "Pékin a accueilli les Jeux olympiques d'été en 2008 et ceux d'hiver en 2022."
+},
+{
+"pays": "Chypre",
+"continent": "Europe",
+"capitales": [
+"Nicosie"
+],
+"aussi": [
+"Nicosia",
+"Lefkosia"
+],
+"note": "",
+"memo": "Chypre : Nicosie, la ville coupée en deux.",
+"fait": "C'est la dernière capitale divisée d'Europe."
+},
+{
+"pays": "Colombie",
+"continent": "Amériques",
+"capitales": [
+"Bogota"
+],
+"aussi": [
+"Bogotá"
+],
+"note": "",
+"memo": "Colombie : Bogota, perchée dans les Andes.",
+"fait": "Bogota est à environ 2 600 m d'altitude."
+},
+{
+"pays": "Comores",
+"continent": "Afrique",
+"capitales": [
+"Moroni"
+],
+"aussi": [],
+"note": "",
+"memo": "Moroni : « mor » comme la mer qui entoure les îles des Comores.",
+"fait": "Moroni est sur la Grande Comore, au pied du Karthala, l'un des volcans les plus actifs du monde."
+},
+{
+"pays": "Congo",
+"continent": "Afrique",
+"capitales": [
+"Brazzaville"
+],
+"aussi": [],
+"note": "Ne pas confondre avec la République démocratique du Congo (Kinshasa).",
+"memo": "Le « petit » Congo garde le nom d'un explorateur : Brazza-ville.",
+"fait": "Brazzaville et Kinshasa se font face sur le fleuve Congo : après Rome et le Vatican, ce sont les capitales les plus proches l'une de l'autre."
+},
+{
+"pays": "Corée du Nord",
+"continent": "Asie",
+"capitales": [
+"Pyongyang"
+],
+"aussi": [
+"Pyeongyang"
+],
+"note": "",
+"memo": "Pyongyang au nord, Séoul au sud.",
+"fait": "La ville est traversée par le fleuve Taedong."
+},
+{
+"pays": "Corée du Sud",
+"continent": "Asie",
+"capitales": [
+"Séoul"
+],
+"aussi": [
+"Seoul"
+],
+"note": "",
+"memo": "Corée du Sud : Séoul, la ville de la K-pop.",
+"fait": "Près de la moitié des Sud-Coréens vivent dans la région de Séoul."
+},
+{
+"pays": "Costa Rica",
+"continent": "Amériques",
+"capitales": [
+"San José"
+],
+"aussi": [
+"San Jose"
+],
+"note": "",
+"memo": "Costa Rica : San José, comme la ville de Californie.",
+"fait": "Le Costa Rica a aboli son armée en 1948."
+},
+{
+"pays": "Croatie",
+"continent": "Europe",
+"capitales": [
+"Zagreb"
+],
+"aussi": [],
+"note": "",
+"memo": "Croatie : Zagreb, de Z à B.",
+"fait": "Zagreb a un musée original : le musée des relations brisées."
+},
+{
+"pays": "Cuba",
+"continent": "Amériques",
+"capitales": [
+"La Havane"
+],
+"aussi": [
+"Havane",
+"La Habana",
+"Habana",
+"Havana"
+],
+"note": "",
+"memo": "Cuba, La Havane : les cigares « havanes ».",
+"fait": "Sa vieille ville est au patrimoine mondial de l'UNESCO."
+},
+{
+"pays": "Côte d'Ivoire",
+"continent": "Afrique",
+"capitales": [
+"Yamoussoukro",
+"Abidjan"
+],
+"aussi": [],
+"note": "Yamoussoukro est la capitale officielle depuis 1983 ; Abidjan reste la grande ville et le centre économique.",
+"memo": "Un long nom pour une capitale choisie par le président Houphouët-Boigny, né tout près : Yamoussoukro.",
+"fait": "On y trouve la basilique Notre-Dame-de-la-Paix, l'une des plus grandes églises du monde."
+},
+{
+"pays": "Danemark",
+"continent": "Europe",
+"capitales": [
+"Copenhague"
+],
+"aussi": [
+"Copenhagen",
+"København"
+],
+"note": "",
+"memo": "Danemark : Copenhague, la ville de la Petite Sirène.",
+"fait": "La statue de la Petite Sirène, d'après le conte d'Andersen, est dans son port."
+},
+{
+"pays": "Djibouti",
+"continent": "Afrique",
+"capitales": [
+"Djibouti"
+],
+"aussi": [],
+"note": "",
+"memo": "Facile : à Djibouti, la capitale s'appelle… Djibouti.",
+"fait": "Son port, à l'entrée de la mer Rouge, accueille plusieurs bases militaires étrangères."
+},
+{
+"pays": "Dominique",
+"continent": "Amériques",
+"capitales": [
+"Roseau"
+],
+"aussi": [],
+"note": "",
+"memo": "Dominique : Roseau, comme la plante au bord de la rivière.",
+"fait": "La Dominique est surnommée « l'île nature » des Caraïbes."
+},
+{
+"pays": "Espagne",
+"continent": "Europe",
+"capitales": [
+"Madrid"
+],
+"aussi": [],
+"note": "",
+"memo": "Espagne : Madrid, au milieu du pays.",
+"fait": "Madrid est presque au centre géographique de l'Espagne."
+},
+{
+"pays": "Estonie",
+"continent": "Europe",
+"capitales": [
+"Tallinn"
+],
+"aussi": [
+"Tallin"
+],
+"note": "",
+"memo": "Estonie : Tallinn, avec deux « l » et deux « n ».",
+"fait": "Sa vieille ville médiévale est l'une des mieux conservées d'Europe."
+},
+{
+"pays": "Eswatini",
+"continent": "Afrique",
+"capitales": [
+"Mbabane",
+"Lobamba"
+],
+"aussi": [],
+"note": "Mbabane est la capitale administrative ; Lobamba, la capitale royale et législative.",
+"memo": "L'Eswatini (ancien Swaziland) : Mbabane pour l'administration, Lobamba pour le roi.",
+"fait": "L'Eswatini est l'une des dernières monarchies absolues du monde."
+},
+{
+"pays": "Fidji",
+"continent": "Océanie",
+"capitales": [
+"Suva"
+],
+"aussi": [],
+"note": "",
+"memo": "Fidji : Suva, la grande ville du Pacifique Sud.",
+"fait": "L'archipel compte plus de 300 îles."
+},
+{
+"pays": "Finlande",
+"continent": "Europe",
+"capitales": [
+"Helsinki"
+],
+"aussi": [],
+"note": "",
+"memo": "Finlande : Helsinki, au bord de la mer Baltique.",
+"fait": "Elle a accueilli les Jeux olympiques d'été de 1952."
+},
+{
+"pays": "France",
+"continent": "Europe",
+"capitales": [
+"Paris"
+],
+"aussi": [],
+"note": "",
+"memo": "France : Paris, la tour Eiffel.",
+"fait": "La tour Eiffel a été construite pour l'Exposition universelle de 1889."
+},
+{
+"pays": "Gabon",
+"continent": "Afrique",
+"capitales": [
+"Libreville"
+],
+"aussi": [],
+"note": "",
+"memo": "Gabon, ville « libre » : Libreville.",
+"fait": "La ville a été fondée en 1849 par des esclaves libérés."
+},
+{
+"pays": "Gambie",
+"continent": "Afrique",
+"capitales": [
+"Banjul"
+],
+"aussi": [],
+"note": "",
+"memo": "Banjul, sur une île à l'embouchure du fleuve Gambie.",
+"fait": "La Gambie est le plus petit pays d'Afrique continentale."
+},
+{
+"pays": "Ghana",
+"continent": "Afrique",
+"capitales": [
+"Accra"
+],
+"aussi": [],
+"note": "",
+"memo": "Au Ghana, on s'« accroche » à Accra.",
+"fait": "Le Ghana a été en 1957 le premier pays d'Afrique subsaharienne à obtenir son indépendance."
+},
+{
+"pays": "Grenade",
+"continent": "Amériques",
+"capitales": [
+"Saint-Georges"
+],
+"aussi": [
+"Saint George's",
+"St George's",
+"St. George's",
+"Saint Georges"
+],
+"note": "",
+"memo": "Grenade : Saint-Georges, comme le chevalier au dragon.",
+"fait": "La Grenade est surnommée « l'île aux épices », célèbre pour sa muscade."
+},
+{
+"pays": "Grèce",
+"continent": "Europe",
+"capitales": [
+"Athènes"
+],
+"aussi": [
+"Athenes",
+"Athina",
+"Athens"
+],
+"note": "",
+"memo": "Grèce : Athènes, la ville de la déesse Athéna.",
+"fait": "L'Acropole et le Parthénon dominent la ville."
+},
+{
+"pays": "Guatemala",
+"continent": "Amériques",
+"capitales": [
+"Guatemala"
+],
+"aussi": [
+"Ciudad de Guatemala",
+"Guatemala City"
+],
+"note": "",
+"memo": "Facile : au Guatemala, la capitale est Guatemala (Ciudad de Guatemala).",
+"fait": "La ville est entourée de volcans."
+},
+{
+"pays": "Guinée",
+"continent": "Afrique",
+"capitales": [
+"Conakry"
+],
+"aussi": [],
+"note": "",
+"memo": "En Guinée, on crie « Conakry ! » depuis la presqu'île.",
+"fait": "Le centre de Conakry est sur la presqu'île de Kaloum, qui s'avance dans l'océan."
+},
+{
+"pays": "Guinée équatoriale",
+"continent": "Afrique",
+"capitales": [
+"Malabo"
+],
+"aussi": [],
+"note": "",
+"memo": "Malabo : la capitale « mal à bord » du continent, sur une île.",
+"fait": "Malabo est sur l'île de Bioko, et non sur le continent."
+},
+{
+"pays": "Guinée-Bissau",
+"continent": "Afrique",
+"capitales": [
+"Bissau"
+],
+"aussi": [],
+"note": "",
+"memo": "Guinée-Bissau : la capitale est déjà dans le nom.",
+"fait": "Le pays compte aussi l'archipel des Bijagos, une réserve de biosphère."
+},
+{
+"pays": "Guyana",
+"continent": "Amériques",
+"capitales": [
+"Georgetown"
+],
+"aussi": [],
+"note": "",
+"memo": "Guyana : Georgetown, la ville de George, le roi anglais.",
+"fait": "C'est le seul pays anglophone d'Amérique du Sud."
+},
+{
+"pays": "Géorgie",
+"continent": "Asie",
+"capitales": [
+"Tbilissi"
+],
+"aussi": [
+"Tbilisi"
+],
+"note": "",
+"memo": "Géorgie : Tbilissi, la ville des sources chaudes.",
+"fait": "Son nom vient d'un mot géorgien qui veut dire « chaud », à cause de ses sources."
+},
+{
+"pays": "Haïti",
+"continent": "Amériques",
+"capitales": [
+"Port-au-Prince"
+],
+"aussi": [
+"Port au Prince"
+],
+"note": "",
+"memo": "Haïti : Port-au-Prince, le port du prince.",
+"fait": "En 1804, Haïti est devenu la première république noire indépendante."
+},
+{
+"pays": "Honduras",
+"continent": "Amériques",
+"capitales": [
+"Tegucigalpa"
+],
+"aussi": [
+"Tegus"
+],
+"note": "",
+"memo": "Tegucigalpa, « Tegus » pour les intimes.",
+"fait": "La ville est bâtie dans une vallée entourée de montagnes."
+},
+{
+"pays": "Hongrie",
+"continent": "Europe",
+"capitales": [
+"Budapest"
+],
+"aussi": [],
+"note": "",
+"memo": "Hongrie : Buda + Pest, deux villes réunies par le Danube.",
+"fait": "Buda et Pest, sur les deux rives du Danube, ont fusionné en 1873."
+},
+{
+"pays": "Inde",
+"continent": "Asie",
+"capitales": [
+"New Delhi"
+],
+"aussi": [
+"Delhi",
+"Nouvelle-Delhi",
+"New-Delhi"
+],
+"note": "",
+"memo": "Inde : New Delhi, et non Bombay.",
+"fait": "New Delhi a été construite par les Britanniques et inaugurée en 1931."
+},
+{
+"pays": "Indonésie",
+"continent": "Asie",
+"capitales": [
+"Jakarta",
+"Nusantara"
+],
+"aussi": [
+"Djakarta"
+],
+"note": "Jakarta est la capitale ; le déménagement vers Nusantara, sur l'île de Bornéo, est en cours.",
+"memo": "Indonésie : Jakarta, sur l'île de Java.",
+"fait": "Jakarta s'enfonce de plusieurs centimètres par année : c'est une des raisons du projet de nouvelle capitale."
+},
+{
+"pays": "Irak",
+"continent": "Asie",
+"capitales": [
+"Bagdad"
+],
+"aussi": [
+"Baghdad"
+],
+"note": "",
+"memo": "Irak : Bagdad, la ville des Mille et Une Nuits.",
+"fait": "La ville est traversée par le Tigre."
+},
+{
+"pays": "Iran",
+"continent": "Asie",
+"capitales": [
+"Téhéran"
+],
+"aussi": [
+"Teheran",
+"Tehran"
+],
+"note": "",
+"memo": "Iran : Téhéran, au pied des montagnes de l'Elbourz.",
+"fait": "Par temps clair, on voit de la ville le mont Damavand, le plus haut sommet du pays."
+},
+{
+"pays": "Irlande",
+"continent": "Europe",
+"capitales": [
+"Dublin"
+],
+"aussi": [],
+"note": "",
+"memo": "Irlande : Dublin, la ville de la Guinness.",
+"fait": "La bière Guinness y est brassée depuis 1759."
+},
+{
+"pays": "Islande",
+"continent": "Europe",
+"capitales": [
+"Reykjavik"
+],
+"aussi": [
+"Reykjavík"
+],
+"note": "",
+"memo": "Islande : Reykjavik, la « baie des fumées ».",
+"fait": "C'est la capitale d'un pays souverain la plus au nord du monde."
+},
+{
+"pays": "Israël",
+"continent": "Asie",
+"capitales": [
+"Jérusalem",
+"Tel-Aviv"
+],
+"aussi": [
+"Jerusalem",
+"Tel Aviv"
+],
+"note": "Israël a proclamé Jérusalem capitale ; ce statut est contesté, et la plupart des ambassades sont à Tel-Aviv.",
+"memo": "Israël : Jérusalem, la ville sainte de trois religions.",
+"fait": "La vieille ville réunit le mur des Lamentations, le Saint-Sépulcre et le dôme du Rocher."
+},
+{
+"pays": "Italie",
+"continent": "Europe",
+"capitales": [
+"Rome"
+],
+"aussi": [
+"Roma"
+],
+"note": "",
+"memo": "Italie : tous les chemins mènent à Rome.",
+"fait": "Le Vatican, un pays à part entière, est enclavé dans Rome."
+},
+{
+"pays": "Jamaïque",
+"continent": "Amériques",
+"capitales": [
+"Kingston"
+],
+"aussi": [],
+"note": "",
+"memo": "Jamaïque : Kingston, la ville du roi (king).",
+"fait": "Bob Marley a vécu à Kingston ; sa maison est devenue un musée."
+},
+{
+"pays": "Japon",
+"continent": "Asie",
+"capitales": [
+"Tokyo"
+],
+"aussi": [
+"Tōkyō"
+],
+"note": "",
+"memo": "Japon : Tokyo, l'anagramme de Kyoto, l'ancienne capitale.",
+"fait": "Tokyo veut dire « capitale de l'Est »."
+},
+{
+"pays": "Jordanie",
+"continent": "Asie",
+"capitales": [
+"Amman"
+],
+"aussi": [],
+"note": "",
+"memo": "Jordanie : Amman, avec deux « m ».",
+"fait": "Dans l'Antiquité, la ville s'appelait Philadelphie."
+},
+{
+"pays": "Kazakhstan",
+"continent": "Asie",
+"capitales": [
+"Astana"
+],
+"aussi": [
+"Nour-Soultan",
+"Nur-Sultan"
+],
+"note": "",
+"memo": "Kazakhstan : Astana, un nom qui veut dire « capitale ».",
+"fait": "La ville s'est appelée Nour-Soultan de 2019 à 2022."
+},
+{
+"pays": "Kenya",
+"continent": "Afrique",
+"capitales": [
+"Nairobi"
+],
+"aussi": [],
+"note": "",
+"memo": "Nairobi, la « ville de l'eau fraîche » en langue maasaï.",
+"fait": "Le parc national de Nairobi, avec ses girafes et ses lions, touche la ville."
+},
+{
+"pays": "Kirghizistan",
+"continent": "Asie",
+"capitales": [
+"Bichkek"
+],
+"aussi": [
+"Bishkek"
+],
+"note": "",
+"memo": "Kirghizistan : Bichkek, au pied des montagnes.",
+"fait": "Son nom viendrait d'une baratte servant à faire le koumis, le lait de jument fermenté."
+},
+{
+"pays": "Kiribati",
+"continent": "Océanie",
+"capitales": [
+"Tarawa-Sud"
+],
+"aussi": [
+"Tarawa",
+"Tarawa Sud",
+"South Tarawa",
+"Bairiki"
+],
+"note": "",
+"memo": "Kiribati : Tarawa, un atoll en forme de triangle.",
+"fait": "Kiribati est le premier pays à fêter le Nouvel An chaque année."
+},
+{
+"pays": "Koweït",
+"continent": "Asie",
+"capitales": [
+"Koweït"
+],
+"aussi": [
+"Koweit",
+"Koweït City",
+"Kuwait",
+"Kuwait City"
+],
+"note": "",
+"memo": "Facile : au Koweït, la capitale s'appelle Koweït.",
+"fait": "Ses tours d'eau en forme de bulbes sont le symbole de la ville."
+},
+{
+"pays": "Laos",
+"continent": "Asie",
+"capitales": [
+"Vientiane"
+],
+"aussi": [
+"Vientiane"
+],
+"note": "",
+"memo": "Laos : Vientiane, la ville du bois de santal.",
+"fait": "La ville est au bord du Mékong, face à la Thaïlande."
+},
+{
+"pays": "Lesotho",
+"continent": "Afrique",
+"capitales": [
+"Maseru"
+],
+"aussi": [],
+"note": "",
+"memo": "Lesotho : Maseru, la ville des montagnes.",
+"fait": "Le Lesotho est entièrement entouré par l'Afrique du Sud."
+},
+{
+"pays": "Lettonie",
+"continent": "Europe",
+"capitales": [
+"Riga"
+],
+"aussi": [],
+"note": "",
+"memo": "Lettonie : Riga, la grande ville de la Baltique.",
+"fait": "Riga est la plus grande ville des pays baltes."
+},
+{
+"pays": "Liban",
+"continent": "Asie",
+"capitales": [
+"Beyrouth"
+],
+"aussi": [
+"Beirut"
+],
+"note": "",
+"memo": "Liban : Beyrouth, au bord de la Méditerranée.",
+"fait": "On l'a longtemps surnommée le « Paris du Moyen-Orient »."
+},
+{
+"pays": "Liberia",
+"continent": "Afrique",
+"capitales": [
+"Monrovia"
+],
+"aussi": [],
+"note": "",
+"memo": "Le Liberia, pays « libre », et sa capitale, la ville de Monroe.",
+"fait": "La ville porte le nom du président américain James Monroe."
+},
+{
+"pays": "Libye",
+"continent": "Afrique",
+"capitales": [
+"Tripoli"
+],
+"aussi": [],
+"note": "",
+"memo": "Tripoli : « tri-poli », les trois villes de la côte libyenne.",
+"fait": "Son nom vient du grec et veut dire « trois villes »."
+},
+{
+"pays": "Liechtenstein",
+"continent": "Europe",
+"capitales": [
+"Vaduz"
+],
+"aussi": [],
+"note": "",
+"memo": "Liechtenstein : Vaduz, une capitale sans aéroport ni armée.",
+"fait": "Le Liechtenstein n'a pas d'armée."
+},
+{
+"pays": "Lituanie",
+"continent": "Europe",
+"capitales": [
+"Vilnius"
+],
+"aussi": [],
+"note": "",
+"memo": "Lituanie : Vilnius, une « ville » en « nius ».",
+"fait": "Sa vieille ville baroque est au patrimoine mondial."
+},
+{
+"pays": "Luxembourg",
+"continent": "Europe",
+"capitales": [
+"Luxembourg"
+],
+"aussi": [],
+"note": "",
+"memo": "Facile : au Luxembourg, la capitale est Luxembourg.",
+"fait": "Elle accueille la Cour de justice de l'Union européenne."
+},
+{
+"pays": "Macédoine du Nord",
+"continent": "Europe",
+"capitales": [
+"Skopje"
+],
+"aussi": [
+"Skopie"
+],
+"note": "",
+"memo": "Macédoine du Nord : Skopje, la ville natale de Mère Teresa.",
+"fait": "Mère Teresa est née à Skopje en 1910."
+},
+{
+"pays": "Madagascar",
+"continent": "Afrique",
+"capitales": [
+"Antananarivo"
+],
+"aussi": [
+"Tananarive",
+"Tana"
+],
+"note": "",
+"memo": "Antananarivo, qu'on appelle simplement « Tana ».",
+"fait": "Son nom veut dire « la ville des mille », en souvenir de mille soldats."
+},
+{
+"pays": "Malaisie",
+"continent": "Asie",
+"capitales": [
+"Kuala Lumpur",
+"Putrajaya"
+],
+"aussi": [
+"KL",
+"Kuala-Lumpur"
+],
+"note": "Kuala Lumpur est la capitale officielle ; le gouvernement siège à Putrajaya.",
+"memo": "Malaisie : Kuala Lumpur, « KL », la ville des tours jumelles.",
+"fait": "Les tours Petronas ont été les plus hautes du monde de 1998 à 2004."
+},
+{
+"pays": "Malawi",
+"continent": "Afrique",
+"capitales": [
+"Lilongwe"
+],
+"aussi": [],
+"note": "",
+"memo": "Lilongwe et Malawi partagent le « l » et le « w ».",
+"fait": "Le lac Malawi occupe environ le cinquième du pays."
+},
+{
+"pays": "Maldives",
+"continent": "Asie",
+"capitales": [
+"Malé"
+],
+"aussi": [
+"Male"
+],
+"note": "",
+"memo": "Maldives : Malé, presque le même début.",
+"fait": "Les Maldives sont le pays le plus plat du monde."
+},
+{
+"pays": "Mali",
+"continent": "Afrique",
+"capitales": [
+"Bamako"
+],
+"aussi": [],
+"note": "",
+"memo": "Mali, Bamako : deux noms courts qui finissent bien.",
+"fait": "Bamako est traversée par le fleuve Niger."
+},
+{
+"pays": "Malte",
+"continent": "Europe",
+"capitales": [
+"La Valette"
+],
+"aussi": [
+"Valette",
+"Valletta"
+],
+"note": "",
+"memo": "Malte : La Valette, la ville des chevaliers.",
+"fait": "Elle a été construite par les chevaliers de l'ordre de Malte, au XVIᵉ siècle."
+},
+{
+"pays": "Maroc",
+"continent": "Afrique",
+"capitales": [
+"Rabat"
+],
+"aussi": [],
+"note": "",
+"memo": "Ni Casablanca ni Marrakech : au Maroc, on se « rabat » sur Rabat.",
+"fait": "Casablanca est la plus grande ville, mais le roi et le gouvernement siègent à Rabat."
+},
+{
+"pays": "Maurice",
+"continent": "Afrique",
+"capitales": [
+"Port-Louis"
+],
+"aussi": [
+"Port Louis"
+],
+"note": "",
+"memo": "Maurice et Louis : deux prénoms, un port.",
+"fait": "Port-Louis porte le nom du roi de France Louis XV."
+},
+{
+"pays": "Mauritanie",
+"continent": "Afrique",
+"capitales": [
+"Nouakchott"
+],
+"aussi": [],
+"note": "",
+"memo": "Mauritanie : Nouakchott, une ville neuve sortie du sable, au bord de l'océan.",
+"fait": "Nouakchott n'était qu'un village avant d'être choisie comme capitale, à la fin des années 1950."
+},
+{
+"pays": "Mexique",
+"continent": "Amériques",
+"capitales": [
+"Mexico"
+],
+"aussi": [
+"Ciudad de México",
+"Mexico City"
+],
+"note": "",
+"memo": "Mexique : Mexico, presque le même nom.",
+"fait": "La ville est bâtie sur Tenochtitlan, l'ancienne capitale aztèque."
+},
+{
+"pays": "Micronésie",
+"continent": "Océanie",
+"capitales": [
+"Palikir"
+],
+"aussi": [],
+"note": "",
+"memo": "Micronésie : Palikir, sur l'île de Pohnpei.",
+"fait": "Le pays compte plus de 600 îles, réparties en quatre États."
+},
+{
+"pays": "Moldavie",
+"continent": "Europe",
+"capitales": [
+"Chișinău"
+],
+"aussi": [
+"Chisinau",
+"Chişinău",
+"Kichinev",
+"Kishinev"
+],
+"note": "",
+"memo": "Moldavie : Chișinău se dit « Ki-chi-nau ».",
+"fait": "La Moldavie est connue pour ses immenses caves à vin souterraines."
+},
+{
+"pays": "Monaco",
+"continent": "Europe",
+"capitales": [
+"Monaco"
+],
+"aussi": [],
+"note": "",
+"memo": "Facile : à Monaco, la capitale est Monaco.",
+"fait": "Monaco est le deuxième plus petit pays du monde, après le Vatican."
+},
+{
+"pays": "Mongolie",
+"continent": "Asie",
+"capitales": [
+"Oulan-Bator"
+],
+"aussi": [
+"Oulan Bator",
+"Ulaanbaatar",
+"Ulan Bator"
+],
+"note": "",
+"memo": "Mongolie : Oulan-Bator, le « héros rouge ».",
+"fait": "C'est la capitale la plus froide du monde, en moyenne sur l'année."
+},
+{
+"pays": "Monténégro",
+"continent": "Europe",
+"capitales": [
+"Podgorica"
+],
+"aussi": [],
+"note": "Cetinje, l'ancienne capitale royale, garde le titre de « vieille capitale ».",
+"memo": "Monténégro : Podgorica, « sous la petite montagne ».",
+"fait": "Le pays doit son nom à ses montagnes sombres : « monte negro », la montagne noire."
+},
+{
+"pays": "Mozambique",
+"continent": "Afrique",
+"capitales": [
+"Maputo"
+],
+"aussi": [],
+"note": "",
+"memo": "Mozambique, Maputo : même « m », même océan Indien.",
+"fait": "La ville s'appelait Lourenço Marques à l'époque portugaise."
+},
+{
+"pays": "Namibie",
+"continent": "Afrique",
+"capitales": [
+"Windhoek"
+],
+"aussi": [],
+"note": "",
+"memo": "Windhoek : le « coin du vent » (wind) au milieu du désert.",
+"fait": "On y entend encore l'allemand, souvenir de la colonisation."
+},
+{
+"pays": "Nauru",
+"continent": "Océanie",
+"capitales": [
+"Yaren"
+],
+"aussi": [],
+"note": "Nauru n'a pas de capitale officielle ; le gouvernement siège à Yaren.",
+"memo": "Nauru : Yaren, « y a rien »… pas même de capitale officielle !",
+"fait": "Nauru est la plus petite république du monde."
+},
+{
+"pays": "Nicaragua",
+"continent": "Amériques",
+"capitales": [
+"Managua"
+],
+"aussi": [],
+"note": "",
+"memo": "Nicaragua, Managua : les deux finissent par « agua » (eau).",
+"fait": "Managua est au bord du lac Xolotlán."
+},
+{
+"pays": "Niger",
+"continent": "Afrique",
+"capitales": [
+"Niamey"
+],
+"aussi": [],
+"note": "",
+"memo": "Niger et Niamey commencent tous deux par « Ni ».",
+"fait": "Niamey est construite au bord du fleuve Niger."
+},
+{
+"pays": "Nigeria",
+"continent": "Afrique",
+"capitales": [
+"Abuja"
+],
+"aussi": [],
+"note": "",
+"memo": "Pas Lagos ! Au Nigeria, c'est Abuja, une capitale bâtie au centre du pays.",
+"fait": "Abuja a remplacé Lagos comme capitale en 1991."
+},
+{
+"pays": "Norvège",
+"continent": "Europe",
+"capitales": [
+"Oslo"
+],
+"aussi": [],
+"note": "",
+"memo": "Norvège : Oslo, court comme un fjord.",
+"fait": "Le prix Nobel de la paix y est remis chaque année."
+},
+{
+"pays": "Nouvelle-Zélande",
+"continent": "Océanie",
+"capitales": [
+"Wellington"
+],
+"aussi": [],
+"note": "",
+"memo": "Pas Auckland ! Wellington, comme le duc (et les bottes).",
+"fait": "C'est la capitale d'un pays souverain la plus au sud du monde."
+},
+{
+"pays": "Népal",
+"continent": "Asie",
+"capitales": [
+"Katmandou"
+],
+"aussi": [
+"Kathmandu",
+"Katmandu"
+],
+"note": "",
+"memo": "Népal : Katmandou, au pied de l'Himalaya.",
+"fait": "La vallée de Katmandou compte sept sites au patrimoine mondial."
+},
+{
+"pays": "Oman",
+"continent": "Asie",
+"capitales": [
+"Mascate"
+],
+"aussi": [
+"Muscat"
+],
+"note": "",
+"memo": "Oman : Mascate, comme le raisin muscat.",
+"fait": "La ville est entourée de montagnes rocheuses et de vieux forts portugais."
+},
+{
+"pays": "Ouganda",
+"continent": "Afrique",
+"capitales": [
+"Kampala"
+],
+"aussi": [],
+"note": "",
+"memo": "En Ouganda, on fait « camp » à Kampala, près du grand lac.",
+"fait": "Kampala est près du lac Victoria, d'où sort le Nil blanc."
+},
+{
+"pays": "Ouzbékistan",
+"continent": "Asie",
+"capitales": [
+"Tachkent"
+],
+"aussi": [
+"Tashkent",
+"Toshkent"
+],
+"note": "",
+"memo": "Ouzbékistan : Tachkent, une étape de la route de la soie.",
+"fait": "Son nom veut dire « ville de pierre »."
+},
+{
+"pays": "Pakistan",
+"continent": "Asie",
+"capitales": [
+"Islamabad"
+],
+"aussi": [],
+"note": "",
+"memo": "Pakistan : Islamabad, et non Karachi.",
+"fait": "Islamabad est une ville nouvelle, construite dans les années 1960."
+},
+{
+"pays": "Palaos",
+"continent": "Océanie",
+"capitales": [
+"Ngerulmud"
+],
+"aussi": [
+"Melekeok"
+],
+"note": "",
+"memo": "Palaos : Ngerulmud, l'une des plus petites capitales du monde.",
+"fait": "Ngerulmud a remplacé Koror comme capitale en 2006."
+},
+{
+"pays": "Palestine",
+"continent": "Asie",
+"capitales": [
+"Jérusalem-Est",
+"Ramallah"
+],
+"aussi": [
+"Jérusalem Est",
+"Jerusalem-Est",
+"Jérusalem"
+],
+"note": "La Palestine revendique Jérusalem-Est comme capitale ; l'Autorité palestinienne siège à Ramallah.",
+"memo": "Palestine : Ramallah pour l'administration, Jérusalem-Est revendiquée.",
+"fait": "La Palestine est un État observateur aux Nations unies depuis 2012."
+},
+{
+"pays": "Panama",
+"continent": "Amériques",
+"capitales": [
+"Panama"
+],
+"aussi": [
+"Panama City",
+"Ciudad de Panamá",
+"Ciudad de Panama"
+],
+"note": "",
+"memo": "Panama : la capitale s'appelle Panama, au bout du canal.",
+"fait": "La ville est à l'entrée du canal de Panama, côté Pacifique."
+},
+{
+"pays": "Papouasie-Nouvelle-Guinée",
+"continent": "Océanie",
+"capitales": [
+"Port Moresby"
+],
+"aussi": [
+"Port-Moresby"
+],
+"note": "",
+"memo": "Papouasie : Port Moresby, le port de l'explorateur Moresby.",
+"fait": "On parle plus de 800 langues dans le pays."
+},
+{
+"pays": "Paraguay",
+"continent": "Amériques",
+"capitales": [
+"Asuncion"
+],
+"aussi": [
+"Asunción",
+"Assomption"
+],
+"note": "",
+"memo": "Paraguay : Asunción, l'« Assomption ».",
+"fait": "Fondée en 1537, c'est l'une des plus anciennes villes d'Amérique du Sud."
+},
+{
+"pays": "Pays-Bas",
+"continent": "Europe",
+"capitales": [
+"Amsterdam",
+"La Haye"
+],
+"aussi": [
+"Den Haag",
+"The Hague"
+],
+"note": "Amsterdam est la capitale ; le gouvernement et le Parlement siègent à La Haye.",
+"memo": "Pays-Bas : Amsterdam, la ville des canaux (et La Haye pour le gouvernement).",
+"fait": "Amsterdam compte plus de 100 km de canaux."
+},
+{
+"pays": "Philippines",
+"continent": "Asie",
+"capitales": [
+"Manille"
+],
+"aussi": [
+"Manila"
+],
+"note": "",
+"memo": "Philippines : Manille, comme le papier et le chanvre de Manille.",
+"fait": "C'est l'une des villes les plus densément peuplées du monde."
+},
+{
+"pays": "Pologne",
+"continent": "Europe",
+"capitales": [
+"Varsovie"
+],
+"aussi": [
+"Warszawa",
+"Warsaw"
+],
+"note": "",
+"memo": "Pologne : Varsovie, la ville de Chopin.",
+"fait": "Chopin a grandi à Varsovie ; son cœur y est conservé dans une église."
+},
+{
+"pays": "Portugal",
+"continent": "Europe",
+"capitales": [
+"Lisbonne"
+],
+"aussi": [
+"Lisboa",
+"Lisbon"
+],
+"note": "",
+"memo": "Portugal : Lisbonne, la ville du fado.",
+"fait": "Un grand tremblement de terre l'a détruite en 1755."
+},
+{
+"pays": "Pérou",
+"continent": "Amériques",
+"capitales": [
+"Lima"
+],
+"aussi": [],
+"note": "",
+"memo": "Pérou : Lima, comme les haricots de Lima.",
+"fait": "Lima a été fondée par Francisco Pizarro en 1535."
+},
+{
+"pays": "Qatar",
+"continent": "Asie",
+"capitales": [
+"Doha"
+],
+"aussi": [],
+"note": "",
+"memo": "Qatar : Doha, quatre lettres pour un petit pays.",
+"fait": "Le Qatar a accueilli la Coupe du monde de soccer en 2022."
+},
+{
+"pays": "Roumanie",
+"continent": "Europe",
+"capitales": [
+"Bucarest"
+],
+"aussi": [
+"București",
+"Bucuresti",
+"Bucharest"
+],
+"note": "",
+"memo": "Roumanie : Bucarest, le « petit Paris » de l'Est.",
+"fait": "Son Palais du Parlement est l'un des plus grands bâtiments du monde."
+},
+{
+"pays": "Royaume-Uni",
+"continent": "Europe",
+"capitales": [
+"Londres"
+],
+"aussi": [
+"London"
+],
+"note": "",
+"memo": "Royaume-Uni : Londres, la ville de Big Ben.",
+"fait": "Big Ben est le nom de la grosse cloche de la tour de Westminster."
+},
+{
+"pays": "Russie",
+"continent": "Europe",
+"capitales": [
+"Moscou"
+],
+"aussi": [
+"Moskva",
+"Moscow"
+],
+"note": "",
+"memo": "Russie : Moscou, le Kremlin.",
+"fait": "La place Rouge et le Kremlin sont au cœur de Moscou."
+},
+{
+"pays": "Rwanda",
+"continent": "Afrique",
+"capitales": [
+"Kigali"
+],
+"aussi": [],
+"note": "",
+"memo": "Rwanda : Kigali, au cœur des collines.",
+"fait": "Le Rwanda est surnommé le « pays des mille collines »."
+},
+{
+"pays": "République dominicaine",
+"continent": "Amériques",
+"capitales": [
+"Saint-Domingue"
+],
+"aussi": [
+"Santo Domingo",
+"Saint Domingue"
+],
+"note": "",
+"memo": "République dominicaine, Saint-Domingue : même racine « domin ».",
+"fait": "C'est la plus ancienne ville d'origine européenne encore habitée des Amériques."
+},
+{
+"pays": "République démocratique du Congo",
+"continent": "Afrique",
+"capitales": [
+"Kinshasa"
+],
+"aussi": [],
+"note": "Ne pas confondre avec le Congo (Brazzaville).",
+"memo": "Le « grand » Congo et sa très grande ville : Kinshasa, l'ancienne Léopoldville.",
+"fait": "Kinshasa est la plus grande ville francophone du monde par sa population."
+},
+{
+"pays": "Saint-Kitts-et-Nevis",
+"continent": "Amériques",
+"capitales": [
+"Basseterre"
+],
+"aussi": [
+"Basse-Terre",
+"Basse Terre"
+],
+"note": "",
+"memo": "Saint-Kitts : Basseterre, la « terre basse ».",
+"fait": "C'est le plus petit pays des Amériques."
+},
+{
+"pays": "Saint-Marin",
+"continent": "Europe",
+"capitales": [
+"Saint-Marin"
+],
+"aussi": [
+"San Marino",
+"Saint Marin"
+],
+"note": "",
+"memo": "Facile : Saint-Marin a pour capitale Saint-Marin.",
+"fait": "C'est l'une des plus anciennes républiques du monde : fondée, selon la tradition, en 301."
+},
+{
+"pays": "Saint-Vincent-et-les-Grenadines",
+"continent": "Amériques",
+"capitales": [
+"Kingstown"
+],
+"aussi": [],
+"note": "",
+"memo": "Saint-Vincent : Kingstown (et non Kingston), avec un « w ».",
+"fait": "Des scènes de « Pirates des Caraïbes » y ont été tournées."
+},
+{
+"pays": "Sainte-Lucie",
+"continent": "Amériques",
+"capitales": [
+"Castries"
+],
+"aussi": [],
+"note": "",
+"memo": "Sainte-Lucie : Castries, comme le maréchal de Castries.",
+"fait": "Ses deux pics volcaniques, les Pitons, sont au patrimoine mondial."
+},
+{
+"pays": "Salvador",
+"continent": "Amériques",
+"capitales": [
+"San Salvador"
+],
+"aussi": [],
+"note": "",
+"memo": "Salvador : San Salvador, le même nom avec un saint devant.",
+"fait": "C'est le plus petit pays d'Amérique centrale."
+},
+{
+"pays": "Samoa",
+"continent": "Océanie",
+"capitales": [
+"Apia"
+],
+"aussi": [],
+"note": "",
+"memo": "Samoa : Apia, quatre lettres.",
+"fait": "Robert Louis Stevenson, l'auteur de « L'Île au trésor », y a vécu et y est enterré."
+},
+{
+"pays": "Sao Tomé-et-Principe",
+"continent": "Afrique",
+"capitales": [
+"São Tomé"
+],
+"aussi": [
+"Sao Tome",
+"Sao Tomé"
+],
+"note": "",
+"memo": "La capitale porte le même nom que l'île et le pays : São Tomé.",
+"fait": "L'équateur passe sur un petit îlot au sud de l'archipel."
+},
+{
+"pays": "Serbie",
+"continent": "Europe",
+"capitales": [
+"Belgrade"
+],
+"aussi": [
+"Beograd"
+],
+"note": "",
+"memo": "Serbie : Belgrade, la « ville blanche ».",
+"fait": "Elle est construite là où la Save se jette dans le Danube."
+},
+{
+"pays": "Seychelles",
+"continent": "Afrique",
+"capitales": [
+"Victoria"
+],
+"aussi": [],
+"note": "",
+"memo": "Victoria, comme la reine : l'une des plus petites capitales du monde.",
+"fait": "Victoria est sur l'île de Mahé."
+},
+{
+"pays": "Sierra Leone",
+"continent": "Afrique",
+"capitales": [
+"Freetown"
+],
+"aussi": [],
+"note": "",
+"memo": "Freetown, la « ville libre ».",
+"fait": "Elle a été fondée en 1792 pour accueillir des esclaves libérés."
+},
+{
+"pays": "Singapour",
+"continent": "Asie",
+"capitales": [
+"Singapour"
+],
+"aussi": [
+"Singapore"
+],
+"note": "",
+"memo": "Singapour, la « ville du lion » : le pays entier est une ville.",
+"fait": "Son symbole, le Merlion, est moitié lion, moitié poisson."
+},
+{
+"pays": "Slovaquie",
+"continent": "Europe",
+"capitales": [
+"Bratislava"
+],
+"aussi": [],
+"note": "",
+"memo": "Slovaquie : Bratislava, voisine de Vienne.",
+"fait": "C'est la seule capitale qui touche deux autres pays : l'Autriche et la Hongrie."
+},
+{
+"pays": "Slovénie",
+"continent": "Europe",
+"capitales": [
+"Ljubljana"
+],
+"aussi": [
+"Lubljana"
+],
+"note": "",
+"memo": "Slovénie : Ljubljana, la ville du dragon.",
+"fait": "Le dragon est le symbole de la ville."
+},
+{
+"pays": "Somalie",
+"continent": "Afrique",
+"capitales": [
+"Mogadiscio"
+],
+"aussi": [
+"Mogadishu",
+"Mogadicio"
+],
+"note": "",
+"memo": "Mogadiscio, sur la côte de l'océan Indien : « mo-ga-dis-cio ».",
+"fait": "C'est l'une des plus anciennes villes portuaires de la côte est de l'Afrique."
+},
+{
+"pays": "Soudan",
+"continent": "Afrique",
+"capitales": [
+"Khartoum",
+"Port-Soudan"
+],
+"aussi": [
+"Khartum",
+"Port Soudan",
+"Port Sudan"
+],
+"note": "Khartoum est la capitale ; pendant la guerre commencée en 2023, le gouvernement s'est replié à Port-Soudan.",
+"memo": "Khartoum, là où les deux Nils se rejoignent.",
+"fait": "Le Nil blanc et le Nil bleu s'y rejoignent."
+},
+{
+"pays": "Soudan du Sud",
+"continent": "Afrique",
+"capitales": [
+"Djouba"
+],
+"aussi": [
+"Juba",
+"Djuba"
+],
+"note": "",
+"memo": "Le Soudan du Sud, le plus jeune pays : Djouba.",
+"fait": "Indépendant depuis 2011, le Soudan du Sud est le plus jeune pays du monde."
+},
+{
+"pays": "Sri Lanka",
+"continent": "Asie",
+"capitales": [
+"Sri Jayawardenepura Kotte",
+"Colombo"
+],
+"aussi": [
+"Kotte",
+"Sri Jayawardenapura Kotte"
+],
+"note": "Sri Jayawardenepura Kotte est la capitale officielle (Parlement) ; Colombo, la plus grande ville, accueille beaucoup d'institutions.",
+"memo": "Sri Lanka : Colombo, comme l'inspecteur, et Kotte pour le Parlement.",
+"fait": "Le Sri Lanka, l'ancienne Ceylan, est célèbre pour son thé."
+},
+{
+"pays": "Suisse",
+"continent": "Europe",
+"capitales": [
+"Berne"
+],
+"aussi": [
+"Bern"
+],
+"note": "Berne est officiellement la « ville fédérale ».",
+"memo": "Ni Genève ni Zurich : Berne, la ville de l'ours.",
+"fait": "L'ours est l'emblème de Berne ; des ours y vivent dans un parc au bord de l'Aar."
+},
+{
+"pays": "Suriname",
+"continent": "Amériques",
+"capitales": [
+"Paramaribo"
+],
+"aussi": [],
+"note": "",
+"memo": "Suriname : Paramaribo, un nom qui sonne comme un oiseau tropical.",
+"fait": "On y parle néerlandais : c'est une ancienne colonie des Pays-Bas."
+},
+{
+"pays": "Suède",
+"continent": "Europe",
+"capitales": [
+"Stockholm"
+],
+"aussi": [],
+"note": "",
+"memo": "Suède : Stockholm, la ville des îles.",
+"fait": "La ville est construite sur 14 îles."
+},
+{
+"pays": "Syrie",
+"continent": "Asie",
+"capitales": [
+"Damas"
+],
+"aussi": [
+"Damascus"
+],
+"note": "",
+"memo": "Syrie : Damas, comme le tissu damassé.",
+"fait": "Damas est l'une des plus anciennes villes habitées sans interruption au monde."
+},
+{
+"pays": "Sénégal",
+"continent": "Afrique",
+"capitales": [
+"Dakar"
+],
+"aussi": [],
+"note": "",
+"memo": "Dakar, comme le rallye Paris-Dakar.",
+"fait": "Dakar est à la pointe la plus à l'ouest de l'Afrique continentale."
+},
+{
+"pays": "Tadjikistan",
+"continent": "Asie",
+"capitales": [
+"Douchanbé"
+],
+"aussi": [
+"Dushanbe",
+"Douchanbe"
+],
+"note": "",
+"memo": "Tadjikistan : Douchanbé, la ville du lundi.",
+"fait": "Son nom veut dire « lundi », le jour du marché du village d'origine."
+},
+{
+"pays": "Tanzanie",
+"continent": "Afrique",
+"capitales": [
+"Dodoma"
+],
+"aussi": [],
+"note": "Dodoma est la capitale officielle ; Dar es Salaam reste la plus grande ville et le centre économique.",
+"memo": "En Tanzanie, on fait « dodo » à Dodoma.",
+"fait": "Le Kilimandjaro, plus haut sommet d'Afrique, est en Tanzanie."
+},
+{
+"pays": "Tchad",
+"continent": "Afrique",
+"capitales": [
+"N'Djaména"
+],
+"aussi": [
+"Ndjamena",
+"N'Djamena",
+"Ndjaména"
+],
+"note": "",
+"memo": "Au Tchad, N'Djaména, au bord du fleuve Chari.",
+"fait": "La ville s'appelait Fort-Lamy jusqu'en 1973."
+},
+{
+"pays": "Tchéquie",
+"continent": "Europe",
+"capitales": [
+"Prague"
+],
+"aussi": [
+"Praha"
+],
+"note": "",
+"memo": "Tchéquie : Prague, la ville aux cent clochers.",
+"fait": "Le pont Charles enjambe la Vltava depuis le XIVᵉ siècle."
+},
+{
+"pays": "Thaïlande",
+"continent": "Asie",
+"capitales": [
+"Bangkok"
+],
+"aussi": [
+"Krung Thep"
+],
+"note": "",
+"memo": "Thaïlande : Bangkok, la ville des marchés flottants.",
+"fait": "Son nom officiel en thaï est l'un des plus longs noms de ville au monde."
+},
+{
+"pays": "Timor oriental",
+"continent": "Asie",
+"capitales": [
+"Dili"
+],
+"aussi": [
+"Díli"
+],
+"note": "",
+"memo": "Timor oriental : Dili, quatre lettres au bord de la mer.",
+"fait": "Le Timor oriental est devenu indépendant en 2002."
+},
+{
+"pays": "Togo",
+"continent": "Afrique",
+"capitales": [
+"Lomé"
+],
+"aussi": [
+"Lome"
+],
+"note": "",
+"memo": "Togo, Lomé : deux noms courts de deux syllabes.",
+"fait": "Lomé est collée à la frontière du Ghana."
+},
+{
+"pays": "Tonga",
+"continent": "Océanie",
+"capitales": [
+"Nukuʻalofa"
+],
+"aussi": [
+"Nuku'alofa",
+"Nukualofa",
+"Nuku alofa"
+],
+"note": "",
+"memo": "Tonga : Nukuʻalofa, le « séjour de l'amour ».",
+"fait": "Les Tonga sont le dernier royaume de Polynésie."
+},
+{
+"pays": "Trinité-et-Tobago",
+"continent": "Amériques",
+"capitales": [
+"Port-d'Espagne"
+],
+"aussi": [
+"Port of Spain",
+"Port-of-Spain",
+"Port d'Espagne"
+],
+"note": "",
+"memo": "Trinité : Port-d'Espagne, souvenir des Espagnols.",
+"fait": "Le pays est le berceau du steelpan, un instrument fait de barils de pétrole."
+},
+{
+"pays": "Tunisie",
+"continent": "Afrique",
+"capitales": [
+"Tunis"
+],
+"aussi": [],
+"note": "",
+"memo": "Tunisie sans la fin : Tunis.",
+"fait": "Les ruines de Carthage sont dans sa banlieue."
+},
+{
+"pays": "Turkménistan",
+"continent": "Asie",
+"capitales": [
+"Achgabat"
+],
+"aussi": [
+"Ashgabat",
+"Achkhabad",
+"Ashkhabad"
+],
+"note": "",
+"memo": "Turkménistan : Achgabat, la ville de marbre blanc.",
+"fait": "Elle détient un record mondial pour le nombre de bâtiments couverts de marbre blanc."
+},
+{
+"pays": "Turquie",
+"continent": "Asie",
+"capitales": [
+"Ankara"
+],
+"aussi": [],
+"note": "",
+"memo": "Pas Istanbul ! Ankara, au centre du pays.",
+"fait": "Atatürk en a fait la capitale en 1923, à la place d'Istanbul."
+},
+{
+"pays": "Tuvalu",
+"continent": "Océanie",
+"capitales": [
+"Funafuti"
+],
+"aussi": [],
+"note": "",
+"memo": "Tuvalu : Funafuti, du « fun » sur un atoll.",
+"fait": "Le pays tire des revenus de son nom de domaine Internet, « .tv »."
+},
+{
+"pays": "Ukraine",
+"continent": "Europe",
+"capitales": [
+"Kyiv"
+],
+"aussi": [
+"Kiev",
+"Kyïv",
+"Kiyv"
+],
+"note": "",
+"memo": "Ukraine : Kyiv (Kiev), sur le Dniepr.",
+"fait": "La ville est traversée par le Dniepr."
+},
+{
+"pays": "Uruguay",
+"continent": "Amériques",
+"capitales": [
+"Montevideo"
+],
+"aussi": [
+"Montévidéo"
+],
+"note": "",
+"memo": "Uruguay : Montevideo, « je vois une montagne ».",
+"fait": "Elle a accueilli la première Coupe du monde de soccer, en 1930."
+},
+{
+"pays": "Vanuatu",
+"continent": "Océanie",
+"capitales": [
+"Port-Vila"
+],
+"aussi": [
+"Port Vila"
+],
+"note": "",
+"memo": "Vanuatu : Port-Vila, le port des villas.",
+"fait": "Le pays a trois langues officielles : le bichelamar, l'anglais et le français."
+},
+{
+"pays": "Vatican",
+"continent": "Europe",
+"capitales": [
+"Cité du Vatican"
+],
+"aussi": [
+"Vatican",
+"Città del Vaticano"
+],
+"note": "",
+"memo": "Au Vatican, la capitale est… le Vatican lui-même.",
+"fait": "C'est le plus petit pays du monde : moins d'un demi-kilomètre carré."
+},
+{
+"pays": "Venezuela",
+"continent": "Amériques",
+"capitales": [
+"Caracas"
+],
+"aussi": [],
+"note": "",
+"memo": "Caracas : « Cara-cas », deux fois presque le même son.",
+"fait": "Simón Bolívar, le libérateur, est né à Caracas."
+},
+{
+"pays": "Viêt Nam",
+"continent": "Asie",
+"capitales": [
+"Hanoï"
+],
+"aussi": [
+"Hanoi",
+"Ha Noi",
+"Hà Nội"
+],
+"note": "",
+"memo": "Viêt Nam : Hanoï au nord, Hô-Chi-Minh-Ville au sud.",
+"fait": "Son nom veut dire « en deçà du fleuve », le fleuve Rouge."
+},
+{
+"pays": "Yémen",
+"continent": "Asie",
+"capitales": [
+"Sanaa",
+"Aden"
+],
+"aussi": [
+"Sana'a",
+"Sana"
+],
+"note": "Sanaa est la capitale ; le gouvernement reconnu siège provisoirement à Aden.",
+"memo": "Yémen : Sanaa, la ville aux maisons de pain d'épices.",
+"fait": "Sa vieille ville aux maisons-tours décorées est au patrimoine mondial."
+},
+{
+"pays": "Zambie",
+"continent": "Afrique",
+"capitales": [
+"Lusaka"
+],
+"aussi": [],
+"note": "",
+"memo": "Lusaka, au cœur de la Zambie, le pays des chutes Victoria.",
+"fait": "Les chutes Victoria sont à la frontière entre la Zambie et le Zimbabwe."
+},
+{
+"pays": "Zimbabwe",
+"continent": "Afrique",
+"capitales": [
+"Harare"
+],
+"aussi": [],
+"note": "",
+"memo": "Harare : « ha-ra-re », trois syllabes qui chantent.",
+"fait": "La ville s'appelait Salisbury avant 1982."
+},
+{
+"pays": "Égypte",
+"continent": "Afrique",
+"capitales": [
+"Le Caire"
+],
+"aussi": [
+"Caire",
+"Cairo"
+],
+"note": "",
+"memo": "Le Caire, la grande ville du Nil, aux portes des pyramides.",
+"fait": "Les pyramides de Gizeh sont aux portes du Caire."
+},
+{
+"pays": "Émirats arabes unis",
+"continent": "Asie",
+"capitales": [
+"Abou Dabi"
+],
+"aussi": [
+"Abu Dhabi",
+"Abou Dhabi",
+"Abu Dabi"
+],
+"note": "",
+"memo": "Émirats : pas Dubaï ! Abou Dabi.",
+"fait": "La grande mosquée Cheikh-Zayed est l'une des plus grandes du monde."
+},
+{
+"pays": "Équateur",
+"continent": "Amériques",
+"capitales": [
+"Quito"
+],
+"aussi": [],
+"note": "",
+"memo": "Quito, presque sur la ligne de l'équateur.",
+"fait": "Quito est l'une des capitales les plus proches de l'équateur, à environ 2 850 m d'altitude."
+},
+{
+"pays": "Érythrée",
+"continent": "Afrique",
+"capitales": [
+"Asmara"
+],
+"aussi": [],
+"note": "",
+"memo": "Érythrée vient du nom grec de la mer Rouge, qui n'est pas loin d'Asmara.",
+"fait": "Asmara est célèbre pour ses bâtiments modernistes italiens, inscrits au patrimoine mondial."
+},
+{
+"pays": "États-Unis",
+"continent": "Amériques",
+"capitales": [
+"Washington"
+],
+"aussi": [
+"Washington D.C.",
+"Washington DC",
+"Washington D. C."
+],
+"note": "",
+"memo": "Pas New York ! Washington, comme le premier président.",
+"fait": "La ville ne fait partie d'aucun État : c'est le district de Columbia."
+},
+{
+"pays": "Éthiopie",
+"continent": "Afrique",
+"capitales": [
+"Addis-Abeba"
+],
+"aussi": [
+"Addis Abeba",
+"Addis Ababa",
+"Addis-Ababa"
+],
+"note": "",
+"memo": "Addis-Abeba veut dire « nouvelle fleur » : une fleur sur les hauts plateaux.",
+"fait": "Elle accueille le siège de l'Union africaine."
+},
+{
+"pays": "Îles Marshall",
+"continent": "Océanie",
+"capitales": [
+"Majuro"
+],
+"aussi": [],
+"note": "",
+"memo": "Îles Marshall : Majuro, un atoll.",
+"fait": "Majuro est un atoll : un anneau de corail autour d'un lagon."
+},
+{
+"pays": "Îles Salomon",
+"continent": "Océanie",
+"capitales": [
+"Honiara"
+],
+"aussi": [],
+"note": "",
+"memo": "Îles Salomon : Honiara, sur l'île de Guadalcanal.",
+"fait": "Guadalcanal a été le théâtre d'une grande bataille de la Seconde Guerre mondiale."
+}
+]
