@@ -1,6 +1,9 @@
 /* Morand : quiz des capitales (page cachée). Chargé après crds.css, locomoteur.css et morandle.css : reprend le design du Morandle. */
 [hidden] { display: none !important; }
 
+/* Page large : mêmes marges que l'en-tête du site, le jeu prend toute la place. */
+main.ml-page.cp-page { width: calc(100% - 2 * max(16px, env(safe-area-inset-left))); max-width: var(--largeur); }
+
 /* En-tête : globe doré au-dessus du titre */
 /* En-tête : globe doré animé dans un encadré doré. */
 .cp-cadre { width: min(360px, 100%); box-sizing: border-box; margin: 0 auto 12px; padding: 7px; border: 2px solid transparent; border-radius: 22px;
@@ -88,14 +91,14 @@ button.cp-mode:hover, button.cp-mode:focus-visible { background: var(--jaune-fon
 
 /* Punaise sur la carte (bêta) */
 .cp-mode-carte { margin: 10px 0 0; border-style: dashed; }
-.cp-carte-go { margin: 8px 0 0; }
-.cp-carte-go .lo-bouton { width: 100%; }
+.cp-carte-go { margin: 8px 0 0; text-align: center; }
+.cp-carte-go .lo-bouton { width: min(100%, 360px); }
 .cp-carte-question { font-size: clamp(1.4rem, 5.4vw, 2rem); }
 .cp-carte-indice { margin: -4px 0 12px; text-align: center; font: 500 0.95rem/1.4 var(--sans); color: var(--encre-2); }
 .cp-terre.cp-revele:not(.cp-or) { stroke-width: 1.6px; }
 .cp-beta { padding: 2px 8px; border: 1px solid var(--or); border-radius: 999px; font: 700 0.66rem/1.4 var(--sans); letter-spacing: 0.1em; color: var(--or-texte); }
 .cp-carte { position: relative; margin: 4px 0 0; border: 1px solid var(--filet); border-radius: 14px; overflow: hidden; background: var(--papier); }
-#cp-svg { display: block; width: 100%; height: clamp(280px, 58vh, 520px); touch-action: none; cursor: crosshair; user-select: none; -webkit-user-select: none; }
+#cp-svg { display: block; width: 100%; height: clamp(300px, 72vh, 820px); touch-action: none; cursor: crosshair; user-select: none; -webkit-user-select: none; }
 .cp-mer { fill: var(--papier); }
 .cp-terre { fill: none; stroke: var(--or-texte); stroke-width: 0.8px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .cp-terre.cp-or { fill: color-mix(in srgb, var(--or) 55%, transparent); stroke: var(--or-texte); stroke-width: 1.4px; }
@@ -114,4 +117,12 @@ button.cp-mode:hover, button.cp-mode:focus-visible { background: var(--jaune-fon
 @media (max-width: 560px) {
   #cp-svg { height: auto; aspect-ratio: 1.35; }   /* téléphone : moins de vide au-dessus et au-dessous du monde */
   .cp-zoom button { width: 34px; height: 34px; }
+  .cp-page .ml-jeu { padding: 14px 10px 12px; border-radius: 14px; }
+  .cp-page .cp-carte { margin-left: -4px; margin-right: -4px; }
+}
+@media (min-width: 900px) {
+  .cp-modes { grid-template-columns: repeat(3, 1fr); }
+  .cp-mode-large:not(.cp-mode-carte) { grid-column: auto; }
+  .cp-choix { grid-template-columns: repeat(4, 1fr); }
+  .cp-pays { font-size: clamp(2rem, 3.4vw, 2.8rem); }
 }

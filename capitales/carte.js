@@ -1,6 +1,6 @@
 /* Morand : capitales, jeu « Punaise sur la carte » (bêta). 10 capitales ; on plante une punaise, puis le score dépend de
    la distance à la capitale demandée (5 000 × e^(−d / 1 492,7 km), comme le barème mondial de GeoGuessr). Indices gratuits,
-   3 de chaque sorte par partie : le nom du pays, puis (ensuite seulement) le pays en or. Contours seulement sinon.
+   3 de chaque sorte par partie, dans l'ordre voulu : le nom du pays, le pays en or. Contours seulement sinon.
    Carte : /capitales/carte.json (produit par outils/capitales/carte.py). */
 (function () {
   "use strict";
@@ -142,9 +142,8 @@
     const p = partie.courant, r = partie.indices, fini = partie.valide;
     const bp = $("#cp-indice-pays"), bo = $("#cp-indice-or");
     bp.disabled = fini || p.vu.pays || r.pays <= 0;
-    bo.disabled = fini || p.vu.or || !p.vu.pays || r.or <= 0;
+    bo.disabled = fini || p.vu.or || r.or <= 0;
     $("[data-reste-carte=pays]").textContent = `(${r.pays})`; $("[data-reste-carte=or]").textContent = `(${r.or})`;
-    bo.title = !p.vu.pays && r.or > 0 ? "Prenez d'abord l'indice du nom du pays" : "";
   }
   $("#cp-indice-pays").addEventListener("click", () => {
     const p = partie && partie.courant; if (!p || partie.valide || p.vu.pays || partie.indices.pays <= 0) return;
@@ -153,7 +152,7 @@
     boutonsIndices();
   });
   $("#cp-indice-or").addEventListener("click", () => {
-    const p = partie && partie.courant; if (!p || partie.valide || !p.vu.pays || p.vu.or || partie.indices.or <= 0) return;
+    const p = partie && partie.courant; if (!p || partie.valide || p.vu.or || partie.indices.or <= 0) return;
     p.vu.or = true; partie.indices.or--;
     const t = $(`.cp-terre[data-pays="${CSS.escape(p.pays)}"]`);
     if (t) t.classList.add("cp-or");
