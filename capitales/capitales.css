@@ -2,18 +2,13 @@
 [hidden] { display: none !important; }
 
 /* En-tête : globe doré au-dessus du titre */
-/* Cadre de tableau classique, dorure usée : bord extérieur en relief, large gorge patinée, ressaut intérieur, filet sombre. */
-.cp-cadre { width: min(380px, 100%); box-sizing: border-box; margin: 4px auto 16px; padding: 15px;
-  border: 7px solid; border-color: #d6bf86 #6a5126 #4f3b1a #b39a5e;   /* lumière en haut à gauche : coins en onglet */
-  background: url("/capitales/patine.svg") 0 0 / 240px,
-    linear-gradient(160deg, #c9ad6c 0%, #a88a4b 30%, #8d7038 55%, #b0945a 75%, #7a5e2c 100%);
-  box-shadow: 0 0 0 1px #3a2a10, 0 14px 30px rgba(30, 20, 5, 0.4), 0 2px 5px rgba(30, 20, 5, 0.3),
-    inset 0 0 0 1px rgba(240, 222, 170, 0.35), inset 0 0 14px 2px rgba(50, 34, 10, 0.55); }
-.cp-gorge { display: block; padding: 4px; border: 4px solid; border-color: #5c4520 #c9b077 #d8c48e #6f5528;   /* ressaut en creux */
-  background: url("/capitales/patine.svg") 60px 30px / 240px, linear-gradient(135deg, #b99b5e, #8f7339); }
-.cp-toile { display: block; border: 2px solid #2f220c; box-shadow: 0 0 0 1px rgba(226, 205, 150, 0.4); }
+/* En-tête : globe doré animé dans un encadré doré. */
+.cp-cadre { width: min(360px, 100%); box-sizing: border-box; margin: 0 auto 12px; padding: 7px; border: 2px solid transparent; border-radius: 22px;
+  background: linear-gradient(var(--carte), var(--carte)) padding-box,
+    linear-gradient(135deg, #f4e4b4 0%, #c9a24f 28%, #8a6b2a 50%, #d9be7c 72%, #f4e4b4 100%) border-box;
+  box-shadow: 0 10px 28px rgba(138, 107, 42, 0.18), 0 1px 0 rgba(255, 255, 255, 0.4) inset; }
 .cp-cadre picture { display: block; }
-.cp-entete { display: block; width: 100%; height: auto; }
+.cp-entete { display: block; width: 100%; height: auto; border-radius: 15px; outline: 1px solid color-mix(in srgb, var(--or) 70%, transparent); outline-offset: 3px; }
 
 /* Accueil : réglages et modes */
 .cp-reglages { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px 18px; margin: 0 0 18px; }
