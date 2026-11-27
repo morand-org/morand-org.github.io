@@ -2,11 +2,23 @@
 [hidden] { display: none !important; }
 
 /* En-tête : globe doré au-dessus du titre */
-.cp-cadre { width: min(360px, 100%); box-sizing: border-box; margin: 0 auto 12px; padding: 7px; border: 2px solid transparent; border-radius: 22px;
-  background: linear-gradient(var(--carte), var(--carte)) padding-box,
-    linear-gradient(135deg, #f4e4b4 0%, #c9a24f 28%, #8a6b2a 50%, #d9be7c 72%, #f4e4b4 100%) border-box;
-  box-shadow: 0 10px 28px rgba(138, 107, 42, 0.18), 0 1px 0 rgba(255, 255, 255, 0.4) inset; }
-.cp-entete { display: block; width: 100%; height: auto; border-radius: 15px; outline: 1px solid color-mix(in srgb, var(--or) 70%, transparent); outline-offset: 3px; }
+/* Cadre de tableau doré, style Renaissance : moulure en relief, perles, rosaces aux coins, baguette intérieure. */
+.cp-cadre { position: relative; width: min(380px, 100%); box-sizing: border-box; margin: 4px auto 16px; padding: 26px; border-radius: 3px;
+  background:
+    radial-gradient(circle, rgba(255, 246, 205, 0.8) 0 1.2px, rgba(80, 56, 14, 0.45) 1.6px, transparent 2.3px) 0 0 / 7px 7px,
+    linear-gradient(135deg, #6b4c16 0%, #d9b45c 14%, #fbedb8 24%, #b5862c 38%, #7c5a1a 50%, #e2c172 64%, #fff1bf 74%, #a97d27 88%, #5e4312 100%);
+  box-shadow:
+    0 0 0 1px #4a340d, 0 16px 34px rgba(40, 28, 6, 0.38), 0 3px 6px rgba(40, 28, 6, 0.25),
+    inset 0 0 0 2px rgba(255, 246, 210, 0.9), inset 0 0 0 4px #9b7326, inset 0 0 0 5px #4e370e,
+    inset 0 0 0 7px #f0d892, inset 0 0 0 8px #6e5018; }
+.cp-cadre::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: url("/capitales/rosace.svg") left 3px top 3px / 30px no-repeat, url("/capitales/rosace.svg") right 3px top 3px / 30px no-repeat,
+    url("/capitales/rosace.svg") left 3px bottom 3px / 30px no-repeat, url("/capitales/rosace.svg") right 3px bottom 3px / 30px no-repeat;
+  filter: drop-shadow(0 1px 1px rgba(40, 28, 6, 0.5)); }
+.cp-toile { display: block; padding: 5px; background: linear-gradient(135deg, #f8e7ad, #9c7226 45%, #f3dc9a 70%, #7d5c1c);
+  box-shadow: 0 0 0 1px #4a340d, 0 0 0 3px rgba(255, 240, 190, 0.55), 0 0 0 4px #5e4312, inset 0 0 0 1px rgba(255, 248, 220, 0.6); }
+.cp-cadre picture { display: block; }
+.cp-entete { display: block; width: 100%; height: auto; outline: 1px solid #3f2c0b; }
 
 /* Accueil : réglages et modes */
 .cp-reglages { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px 18px; margin: 0 0 18px; }
