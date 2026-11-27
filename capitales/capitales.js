@@ -1,13 +1,14 @@
 /* Morand : quiz des capitales du monde (page cachée). Trois modes : pratique libre, contre-la-montre, série sans faute.
-   Réponse en choix multiples ou tapée. Indices à la demande : première lettre, truc mnémotechnique, fait connu ; un de chaque
-   sorte par partie (illimités en pratique libre). Données : /capitales/pays.json (produit par outils/capitales/pays.py). */
+   Réponse en choix multiples ou tapée. Indices à la demande : deux mauvais choix retirés (choix multiples) ou première lettre
+   (réponse tapée), truc mnémotechnique, fait connu ; trois de chaque sorte par partie (illimités en pratique libre). Données : /capitales/pays.json (produit par outils/capitales/pays.py). */
 (function () {
   "use strict";
   const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
   const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   const melanger = l => { const a = l.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const MODES = { libre: "Pratique libre", chrono: "Contre-la-montre", serie: "Série sans faute" };
-  const SORTES = { lettre: "Première lettre", memo: "Truc mnémotechnique", fait: "Fait connu" };
+  const SORTES = { moitie: "Retirer 2 choix", lettre: "Première lettre", memo: "Truc mnémotechnique", fait: "Fait connu" };
+  const JETONS = 3;   // indices de chaque sorte par partie (contre-la-montre, série sans faute)
 
   /* ---------- Records (stockage local, facultatif) ---------- */
   const CLE = "morand-capitales-v1";
@@ -60,11 +61,12 @@
     if (!PAYS.length) return;
     const r = reglage(), liste = PAYS.filter(p => !r.continent || p.continent === r.continent);
     partie = { mode, duree, reglage: r, liste, paquet: melanger(liste), i: -1, bonnes: 0, repondues: 0, serie: 0, erreurs: [],
-      jetons: { lettre: 1, memo: 1, fait: 1 }, fin: 0, finie: false, courant: null, revele: {}, repondu: false };
+      jetons: { moitie: JETONS, lettre: JETONS, memo: JETONS, fait: JETONS }, fin: 0, finie: false, courant: null, revele: {}, repondu: false };
     $("#cp-accueil").hidden = true; $("#cp-fin").hidden = true; $("#cp-partie").hidden = false;
     $("#cp-choix").hidden = r.reponse !== "choix"; $("#cp-form").hidden = r.reponse !== "tape";
     $("#cp-chrono").hidden = mode !== "chrono";
     $("[data-indice=lettre]").hidden = r.reponse === "choix";   // en choix multiples, la première lettre donnerait la réponse
+    $("[data-indice=moitie]").hidden = r.reponse !== "choix";
     if (mode === "chrono") { partie.fin = Date.now() + duree * 1000; tic(); chronoId = setInterval(tic, 250); }
     suivante();
   }
@@ -117,7 +119,8 @@
     for (const s of Object.keys(SORTES)) {
       const b = $(`[data-indice=${s}]`), deja = !!partie.revele[s], plus = illimite() || partie.jetons[s] > 0;
       b.disabled = deja || !plus || partie.repondu;
-      $(`[data-reste=${s}]`).textContent = illimite() ? "" : partie.jetons[s] > 0 ? "· 1 restant" : "· utilisé";
+      const n = partie.jetons[s];
+      $(`[data-reste=${s}]`).textContent = illimite() ? "" : n > 1 ? `· ${n} restants` : n === 1 ? "· 1 restant" : "· épuisé";
     }
   }
   function texteIndice(p, s) {
@@ -136,6 +139,12 @@
     const s = b.dataset.indice; if (!partie || partie.repondu || partie.revele[s]) return;
     if (!illimite()) { if (partie.jetons[s] <= 0) return; partie.jetons[s]--; }
     partie.revele[s] = true;
+    if (s === "moitie") {   // retirer 2 des 3 mauvais choix, au hasard
+      const bon = new Set(formes(partie.courant));
+      melanger($$("#cp-choix .cp-option").filter(o => !bon.has(normaliser(o.dataset.c)))).slice(0, 2)
+        .forEach(o => { o.disabled = true; o.classList.add("cp-retire"); o.setAttribute("aria-label", `${o.dataset.c} (retiré)`); });
+      majIndices(); return;
+    }
     $("#cp-indices").insertAdjacentHTML("beforeend", `<li class="ml-indice"><b>${esc(SORTES[s])} :</b> ${esc(texteIndice(partie.courant, s))}</li>`);
     majIndices();
   }));

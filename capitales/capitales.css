@@ -61,6 +61,7 @@ button.cp-mode:hover, button.cp-mode:focus-visible { background: var(--jaune-fon
 .cp-option.cp-bon { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 16%, transparent); }
 .cp-option.cp-faux { border-color: var(--alerte); background: var(--alerte-fond); }
 .cp-option:disabled { cursor: default; }
+.cp-option.cp-retire { opacity: 0.35; text-decoration: line-through; text-decoration-color: var(--discret); }
 .cp-passer { min-height: 46px; }
 
 .cp-retour { margin-top: 14px; padding: 14px 16px; border: 1px solid var(--filet); border-radius: 14px; background: var(--papier); text-align: center; }

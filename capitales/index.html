@@ -40,7 +40,7 @@
     <figure class="cp-cadre"><picture><source srcset="/capitales/entete.webp" media="(prefers-reduced-motion: reduce)"><img class="cp-entete" src="/capitales/entete-anime.webp" alt="" width="640" height="360" decoding="async"></picture></figure>
     <h1>Capitales du monde</h1>
     <p class="cr-devise">195 pays · quatre façons de jouer</p>
-    <p class="cr-lead">Trouvez la capitale de chaque pays. Besoin d'un coup de pouce ? Trois indices : la première lettre, un truc pour s'en souvenir, un fait connu.</p>
+    <p class="cr-lead">Trouvez la capitale de chaque pays. Besoin d'un coup de pouce ? Trois indices : retirer deux mauvais choix, un truc pour s'en souvenir, un fait connu.</p>
   </section>
 
   <!-- Accueil : réglages et modes -->
@@ -82,7 +82,7 @@
       <p class="cp-carte-go"><button type="button" class="lo-bouton" data-carte="jouer">Jouer</button></p>
       <p class="cp-record" id="cp-carte-record"></p>
     </div>
-    <p class="cp-regle">Indices : un de chaque sorte par partie en contre-la-montre et en série sans faute ; à volonté en pratique libre. La première lettre n'est offerte qu'en réponse tapée.</p>
+    <p class="cp-regle">Indices : trois de chaque sorte par partie en contre-la-montre et en série sans faute ; à volonté en pratique libre. En réponse tapée, la première lettre remplace le retrait de deux choix.</p>
     <p class="ml-message" id="cp-chargement" role="status"></p>
   </section>
 
@@ -93,6 +93,7 @@
     <h2 class="ml-titre cp-pays" id="cp-pays" tabindex="-1"></h2>
 
     <p class="cp-indices-btns" role="group" aria-label="Indices">
+      <button type="button" class="ml-btn-sec" data-indice="moitie">Retirer 2 choix <span class="cp-reste" data-reste="moitie"></span></button>
       <button type="button" class="ml-btn-sec" data-indice="lettre">Première lettre <span class="cp-reste" data-reste="lettre"></span></button>
       <button type="button" class="ml-btn-sec" data-indice="memo">Truc mnémotechnique <span class="cp-reste" data-reste="memo"></span></button>
       <button type="button" class="ml-btn-sec" data-indice="fait">Fait connu <span class="cp-reste" data-reste="fait"></span></button>
