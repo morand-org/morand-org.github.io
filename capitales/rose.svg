@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 120 120" width="120" height="120">
+  <!-- Rose des vents de la carte des capitales (décor). -->
+  <g fill="none" stroke="#7a5532" stroke-width="0.8" opacity="0.75">
+    <circle r="40"/><circle r="36" stroke-dasharray="1.2 2.2"/>
+    <path d="M-48 0H48M0 -48V48M-34 -34L34 34M-34 34L34 -34" stroke-width="0.5"/>
+  </g>
+  <g stroke="#6b4423" stroke-width="0.6" stroke-linejoin="round">
+    <path d="M0 0L-5 -5L0 -30L5 -5Z M0 0L5 5L0 30L-5 5Z M0 0L-5 5L-30 0L-5 -5Z M0 0L5 -5L30 0L5 5Z" transform="rotate(45)" fill="#e9d6ae"/>
+    <path d="M0 0L0 -46L-7 -7Z M0 0L46 0L7 -7Z M0 0L0 46L7 7Z M0 0L-46 0L-7 7Z" fill="#a8432f"/>
+    <path d="M0 0L0 -46L7 -7Z M0 0L46 0L7 7Z M0 0L0 46L-7 7Z M0 0L-46 0L-7 -7Z" fill="#f2e3c2"/>
+    <circle r="3.2" fill="#f2e3c2"/><circle r="1.4" fill="#6b4423" stroke="none"/>
+  </g>
+  <g fill="#5a3a1e" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="11" text-anchor="middle">
+    <text y="-49">N</text><text y="57">S</text><text x="53" y="4">E</text><text x="-53" y="4">O</text>
+  </g>
+</svg>
