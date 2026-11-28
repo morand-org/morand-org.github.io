@@ -77,8 +77,8 @@
     </div>
     <div class="cp-mode cp-mode-large cp-mode-carte">
       <p class="cp-mode-tag">Carte · bêta</p>
-      <h3 class="cp-mode-titre">Punaise sur la carte</h3>
-      <p class="cp-mode-desc">On vous nomme une capitale : plantez la punaise là où elle se trouve. 10 capitales, jusqu'à 5 000 points chacune selon la distance. Trois indices de chaque sorte par partie, dans l'ordre voulu : le nom du pays ou le pays en or.</p>
+      <h3 class="cp-mode-titre">Épingle sur la carte</h3>
+      <p class="cp-mode-desc">On vous nomme une capitale : plantez l'épingle là où elle se trouve. 10 capitales, jusqu'à 5 000 points chacune selon la distance. Trois indices de chaque sorte par partie, dans l'ordre voulu : le nom du pays ou le pays en or.</p>
       <p class="cp-carte-go"><button type="button" class="lo-bouton" data-carte="jouer">Jouer</button></p>
       <p class="cp-record" id="cp-carte-record"></p>
     </div>
@@ -118,37 +118,45 @@
     <p class="cp-bas"><button type="button" class="ml-btn-sec" id="cp-terminer">Terminer</button></p>
   </section>
 
-  <!-- Punaise sur la carte (bêta) -->
-  <section class="ml-jeu cp-carte-jeu" id="cp-carte-jeu" hidden aria-labelledby="cp-carte-pays">
-    <p class="ml-sur"><span id="cp-carte-etat"></span><span class="cp-beta">Bêta</span></p>
-    <h2 class="ml-titre cp-pays cp-carte-question" id="cp-carte-pays" tabindex="-1"></h2>
-    <p class="cp-indices-btns" role="group" aria-label="Indices">
+  <!-- Punaise sur la carte (bêta) : style carte ancienne ; tout tient sur un écran pendant la partie -->
+  <section class="ml-jeu cp-carte-jeu cp-parchemin" id="cp-carte-jeu" hidden aria-labelledby="cp-carte-pays">
+    <div class="cp-carte-tete">
+      <p class="cp-carte-etat" id="cp-carte-etat"></p>
+      <h2 class="cp-carte-question" id="cp-carte-pays" tabindex="-1"></h2>
+      <span class="cp-beta">Bêta</span>
+    </div>
+    <img class="cp-fleuron" src="/capitales/fleuron.svg" alt="" width="160" height="18">
+    <div class="cp-carte-indices" role="group" aria-label="Indices">
       <button type="button" class="ml-btn-sec" id="cp-indice-pays">Nom du pays <span class="cp-reste" data-reste-carte="pays"></span></button>
       <button type="button" class="ml-btn-sec" id="cp-indice-or">Pays en or <span class="cp-reste" data-reste-carte="or"></span></button>
-    </p>
-    <p class="cp-carte-indice" id="cp-carte-indice" aria-live="polite" hidden></p>
+      <p class="cp-carte-indice" id="cp-carte-indice" aria-live="polite" hidden></p>
+    </div>
     <div class="cp-carte" id="cp-carte">
-      <svg id="cp-svg" role="img" aria-label="Carte du monde : touchez pour planter la punaise" xmlns="http://www.w3.org/2000/svg"></svg>
+      <svg id="cp-svg" role="img" aria-label="Carte du monde : touchez pour planter l’épingle" xmlns="http://www.w3.org/2000/svg"></svg>
+      <img class="cp-rose" src="/capitales/rose.svg" alt="" width="120" height="120">
       <p class="cp-zoom" role="group" aria-label="Zoom"><button type="button" id="cp-zoom-plus" aria-label="Zoomer">+</button><button type="button" id="cp-zoom-moins" aria-label="Dézoomer">−</button><button type="button" id="cp-zoom-tout" aria-label="Voir le monde entier">⤢</button></p>
-      <p class="cp-carte-aide" id="cp-carte-aide">Touchez la carte pour planter la punaise. Glissez pour vous déplacer, pincez ou utilisez + et − pour zoomer.</p>
+      <div class="cp-carte-retour" id="cp-carte-retour" hidden aria-live="polite">
+        <p class="cp-verdict" id="cp-carte-verdict"></p>
+        <p class="cp-bonne" id="cp-carte-bonne"></p>
+        <p class="cp-note" id="cp-carte-note"></p>
+        <p class="cp-fait" id="cp-carte-fait"></p>
+      </div>
     </div>
-    <p class="cp-carte-actions"><button type="button" class="lo-bouton" id="cp-carte-valider" disabled>Valider ma punaise</button></p>
-    <div class="cp-retour" id="cp-carte-retour" hidden aria-live="polite">
-      <p class="cp-verdict" id="cp-carte-verdict"></p>
-      <p class="cp-bonne" id="cp-carte-bonne"></p>
-      <p class="cp-note" id="cp-carte-note"></p>
-      <p class="cp-fait" id="cp-carte-fait"></p>
-      <p class="cp-suite"><button type="button" class="lo-bouton" id="cp-carte-suivant">Capitale suivante</button></p>
-    </div>
-    <p class="cp-bas"><button type="button" class="ml-btn-sec" id="cp-carte-terminer">Terminer</button></p>
+    <p class="cp-carte-aide" id="cp-carte-aide">Touchez la carte pour planter l'épingle. Glissez pour vous déplacer, pincez ou utilisez + et − pour zoomer.</p>
+    <p class="cp-carte-actions">
+      <button type="button" class="ml-btn-sec" id="cp-carte-terminer">Terminer</button>
+      <button type="button" class="lo-bouton cp-bouton-rouge" id="cp-carte-valider" disabled>Valider mon épingle</button>
+      <button type="button" class="lo-bouton cp-bouton-rouge" id="cp-carte-suivant" hidden>Capitale suivante</button>
+    </p>
   </section>
 
-  <section class="ml-jeu cp-fin" id="cp-carte-fin" hidden aria-labelledby="cp-carte-fin-titre">
+  <section class="ml-jeu cp-fin cp-parchemin" id="cp-carte-fin" hidden aria-labelledby="cp-carte-fin-titre">
     <h2 class="ml-verdict" id="cp-carte-fin-titre" tabindex="-1"></h2>
+    <img class="cp-fleuron" src="/capitales/fleuron.svg" alt="" width="160" height="18">
     <p class="ml-reponse" id="cp-carte-fin-score"></p>
     <p class="cp-fin-record" id="cp-carte-fin-record"></p>
     <div class="cp-erreurs" id="cp-carte-manches"></div>
-    <p class="ml-actions"><button type="button" class="lo-bouton" id="cp-carte-rejouer">Rejouer</button><button type="button" class="ml-btn-sec" id="cp-carte-accueil">Changer de partie</button></p>
+    <p class="ml-actions"><button type="button" class="lo-bouton cp-bouton-rouge" id="cp-carte-rejouer">Rejouer</button><button type="button" class="ml-btn-sec" id="cp-carte-accueil">Changer de partie</button></p>
   </section>
 
   <!-- Fin de partie -->
@@ -163,7 +171,7 @@
   <details class="cr-sources">
     <summary><h2>À propos</h2></summary>
     <p class="cr-petit">Les 193 États membres de l'Organisation des Nations unies, plus le Vatican et la Palestine (États observateurs). Pour les pays qui ont plus d'une capitale (Afrique du Sud, Bolivie, Pays-Bas, etc.), toutes sont acceptées ; une note l'explique après la réponse. En réponse tapée, les accents, les majuscules et une petite faute de frappe sont tolérés.</p>
-    <p class="cr-petit">Carte : contours de Natural Earth (domaine public), projection équirectangulaire ; le score de la punaise baisse avec la distance à la capitale demandée (pour un pays à plusieurs capitales, la principale) (5 000 points à moins de quelques kilomètres). Vos records restent dans ce navigateur ; rien n'est transmis.</p>
+    <p class="cr-petit">Carte : contours de Natural Earth (domaine public), projection équirectangulaire ; le score de l'épingle baisse avec la distance à la capitale demandée (pour un pays à plusieurs capitales, la principale) (5 000 points à moins de quelques kilomètres). Vos records restent dans ce navigateur ; rien n'est transmis.</p>
   </details>
 </main>
 <footer class="cr-pied"><a href="/confidentialite/">Confidentialité</a><span>MMXXVI</span></footer>

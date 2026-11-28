@@ -90,36 +90,95 @@ button.cp-mode:hover, button.cp-mode:focus-visible { background: var(--jaune-fon
   .cp-passer { width: 100%; }
 }
 
-/* Punaise sur la carte (bêta) */
+/* Punaise sur la carte (bêta) : carte d'antan sur parchemin. Le parchemin reste clair même en mode sombre
+   (comme une vraie carte posée sur une table) : les couleurs du site y sont redéfinies localement. */
 .cp-mode-carte { margin: 10px 0 0; border-style: dashed; }
 .cp-carte-go { margin: 8px 0 0; text-align: center; }
 .cp-carte-go .lo-bouton { width: min(100%, 360px); }
-.cp-carte-question { font-size: clamp(1.4rem, 5.4vw, 2rem); }
-.cp-carte-indice { margin: -4px 0 12px; text-align: center; font: 500 0.95rem/1.4 var(--sans); color: var(--encre-2); }
-.cp-terre.cp-revele:not(.cp-or) { stroke-width: 1.6px; }
+
+.cp-parchemin {
+  --encre: #3b2a1a; --encre-2: #5a4630; --discret: #7a6448; --filet: #c9b48a; --papier: #f6edd6; --carte: #f2e8d2;
+  --or: #c8963e; --or-texte: #7d521b; --ok: #2f6b3a; --alerte: #a8432f; --alerte-fond: #f3d9cf; --jaune-fond: #efe1bd;
+  color: var(--encre); border: 1px solid #b99c6b;
+  background: radial-gradient(ellipse at 50% 40%, rgba(255, 250, 235, 0.55), rgba(196, 160, 104, 0.22) 100%), url("/capitales/papier.webp") #f1e5c9;
+  box-shadow: 0 0 0 4px #efe2c3, 0 0 0 5px #b99c6b, 0 14px 34px rgba(60, 40, 15, 0.28), inset 0 0 60px rgba(150, 110, 50, 0.18);
+}
+.cp-parchemin .ml-btn-sec { border-color: #b39463; background: linear-gradient(#fbf4e1, #efe2c2); color: var(--encre); font: 500 0.92rem var(--serif);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset, 0 2px 4px rgba(80, 50, 20, 0.22); border-radius: 6px; }
+.cp-parchemin .ml-btn-sec:disabled { opacity: 0.5; cursor: default; box-shadow: none; }
+.cp-parchemin .cp-reste { color: var(--discret); }
+.cp-bouton-rouge { background: linear-gradient(#b5523c, #973a28); border-color: #7c2e1f; color: #fbefd8; font: 500 1.08rem var(--serif); letter-spacing: 0.01em;
+  padding-left: 26px; padding-right: 26px; box-shadow: 0 2px 6px rgba(90, 30, 15, 0.35); }
+.cp-bouton-rouge:hover:not(:disabled) { background: linear-gradient(#c05b44, #a2412e); }
+.cp-bouton-rouge:disabled { opacity: 0.5; cursor: default; }
+.cp-fleuron { display: block; width: 150px; height: auto; margin: 2px auto 8px; opacity: 0.85; }
 .cp-beta { padding: 2px 8px; border: 1px solid var(--or); border-radius: 999px; font: 700 0.66rem/1.4 var(--sans); letter-spacing: 0.1em; color: var(--or-texte); }
-.cp-carte { position: relative; margin: 4px 0 0; border: 1px solid var(--filet); border-radius: 14px; overflow: hidden; background: var(--papier); }
+.cp-parchemin .cp-beta { border-radius: 4px; border-color: #8a6a3e; font-family: var(--serif); font-weight: 600; letter-spacing: 0.14em; }
+
+/* En-tête de la partie : état à gauche, question au centre, bêta à droite */
+.cp-carte-jeu { display: flex; flex-direction: column; }
+.cp-carte-tete { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 4px 12px; }
+.cp-carte-etat { margin: 0; font: 600 0.7rem/1.3 var(--sans); letter-spacing: 0.1em; text-transform: uppercase; color: var(--discret); }
+.cp-carte-tete .cp-beta { justify-self: end; }
+.cp-carte-question { margin: 0; text-align: center; font: 400 clamp(1.5rem, 3.2vw, 2.4rem)/1.15 var(--serif); color: var(--encre); }
+.cp-carte-question:focus { outline: none; }
+.cp-carte-indices { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px; margin: 0 0 10px; }
+.cp-carte-indice { margin: 0 0 0 6px; font: italic 500 1rem/1.3 var(--serif); color: var(--or-texte); }
+
+/* La carte */
+.cp-carte { position: relative; flex: 1 1 auto; min-height: 240px; border: 2px solid #6b4a2b; border-radius: 3px; overflow: hidden; background: #c6dbd4;
+  box-shadow: 0 0 0 3px #f1e5c9, 0 0 0 4px #8a6a3e, inset 0 0 40px rgba(70, 90, 70, 0.25); }
 #cp-svg { display: block; width: 100%; height: clamp(300px, 72vh, 820px); touch-action: none; cursor: crosshair; user-select: none; -webkit-user-select: none; }
-.cp-mer { fill: var(--papier); }
-.cp-terre { fill: none; stroke: var(--or-texte); stroke-width: 0.8px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
-.cp-terre.cp-or { fill: color-mix(in srgb, var(--or) 55%, transparent); stroke: var(--or-texte); stroke-width: 1.4px; }
-.cp-anneau { fill: color-mix(in srgb, var(--or) 25%, transparent); stroke: var(--or-texte); stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
-.cp-punaise-tete { fill: var(--alerte); stroke: var(--carte); }
-.cp-punaise-point { fill: var(--carte); }
-.cp-capitale { fill: var(--ok); stroke: var(--carte); }
-.cp-capitale.cp-autre { fill: color-mix(in srgb, var(--ok) 55%, transparent); }
-.cp-trait { stroke: var(--encre-2); stroke-dasharray: 6 5; vector-effect: non-scaling-stroke; stroke-width: 1.5px; }
+.cp-en-jeu #cp-svg { height: 100%; }
+.cp-halo path { fill: none; stroke: #8fb1a8; stroke-width: 3px; stroke-linejoin: round; vector-effect: non-scaling-stroke; opacity: 0.7; }
+.cp-halo-large path { stroke: #a9c6bf; stroke-width: 9px; opacity: 0.55; }
+.cp-vagues path { fill: none; stroke: #6f948b; stroke-width: 1px; stroke-linecap: round; vector-effect: non-scaling-stroke; opacity: 0.55; }
+.cp-terre { fill: #f7efd9; stroke: #6b4a2b; stroke-width: 0.7px; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.cp-terre.cp-or { fill: #dcae5a; stroke: #6b4a2b; stroke-width: 1.3px; }
+.cp-terre.cp-revele:not(.cp-or) { stroke-width: 1.5px; fill: #f0dfb4; }
+.cp-anneau { fill: rgba(220, 174, 90, 0.35); stroke: #7d521b; stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
+.cp-punaise-point { fill: #3b2a1a; }
+.cp-epingle { pointer-events: none; filter: drop-shadow(0 2px 2px rgba(59, 42, 26, 0.5)); }
+.cp-capitale { fill: #2f6b3a; stroke: #f7efd9; }
+.cp-capitale.cp-autre { fill: rgba(47, 107, 58, 0.55); }
+.cp-trait { stroke: #5a3a1e; stroke-dasharray: 6 5; vector-effect: non-scaling-stroke; stroke-width: 1.5px; }
+.cp-rose { position: absolute; left: 10px; bottom: 8px; width: clamp(64px, 9vw, 118px); height: auto; pointer-events: none; opacity: 0.9; }
 .cp-zoom { position: absolute; right: 10px; top: 10px; display: grid; gap: 6px; margin: 0; }
-.cp-zoom button { width: 38px; height: 38px; border: 1px solid var(--filet); border-radius: 10px; background: var(--carte); color: var(--encre); font: 600 1.15rem/1 var(--sans); cursor: pointer; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); }
+.cp-zoom button { width: 38px; height: 38px; border: 1px solid #8a6a3e; border-radius: 6px; background: linear-gradient(#fbf4e1, #ecdcb8); color: #3b2a1a; font: 600 1.15rem/1 var(--sans); cursor: pointer; box-shadow: 0 2px 5px rgba(60, 40, 15, 0.25); }
 .cp-zoom button:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
-.cp-carte-aide { margin: 0; padding: 8px 12px; border-top: 1px solid var(--filet); font: 500 0.76rem/1.4 var(--sans); color: var(--discret); text-align: center; }
-.cp-carte-actions { margin: 12px 0 0; text-align: center; }
-.cp-carte-actions .lo-bouton:disabled { opacity: 0.45; cursor: default; }
+
+/* Résultat de la manche : un encart sur la carte (pas besoin de défiler) */
+.cp-carte-retour { position: absolute; left: 50%; bottom: 12px; transform: translateX(-50%); width: min(560px, calc(100% - 24px)); box-sizing: border-box;
+  padding: 10px 16px 12px; border: 1px solid #8a6a3e; border-radius: 4px; text-align: center;
+  background: url("/capitales/papier.webp") #f4ead2; box-shadow: 0 0 0 3px rgba(244, 234, 210, 0.9), 0 8px 22px rgba(50, 30, 10, 0.35); }
+.cp-carte-retour .cp-verdict { font-size: 1.35rem; }
+.cp-carte-retour .cp-bonne { margin-top: 2px; font-size: 0.95rem; }
+.cp-carte-retour .cp-note:empty, .cp-carte-retour .cp-fait:empty { display: none; }
+.cp-carte-retour .cp-fait { margin-top: 4px; font-size: 0.88rem; }
+
+.cp-carte-aide { margin: 8px 0 0; font: italic 400 0.86rem/1.35 var(--serif); color: var(--encre-2); text-align: center; }
+.cp-carte-actions { display: flex; justify-content: center; align-items: center; gap: 12px; margin: 8px 0 0; }
+.cp-carte-actions .lo-bouton { min-width: 220px; }
+
+/* Pendant la partie : en-tête du site réduit au strict minimum, jeu à la hauteur de l'écran */
+.cp-en-jeu .cr-intro, .cp-en-jeu .ml-fil, .cp-en-jeu .cr-sources { display: none; }
+.cp-en-jeu .cp-carte-jeu { height: var(--haut-jeu, calc(100svh - 120px)); box-sizing: border-box; margin-top: 12px; margin-bottom: 0; padding: 12px 16px 12px; }
+.cp-en-jeu .cp-fin { margin-top: 12px; }
+
 @media (max-width: 560px) {
-  #cp-svg { height: auto; aspect-ratio: 1.35; }   /* téléphone : moins de vide au-dessus et au-dessous du monde */
   .cp-zoom button { width: 34px; height: 34px; }
   .cp-page .ml-jeu { padding: 14px 10px 12px; border-radius: 14px; }
-  .cp-page .cp-carte { margin-left: -4px; margin-right: -4px; }
+  .cp-page .cp-parchemin { border-radius: 4px; }
+  .cp-carte-tete { grid-template-columns: 1fr auto; }
+  .cp-carte-question { grid-column: 1 / -1; grid-row: 2; }
+  .cp-en-jeu .cp-carte-jeu { height: auto; padding: 10px 8px 10px; }
+  .cp-carte { flex: none; }
+  #cp-svg, .cp-en-jeu #cp-svg { height: auto; aspect-ratio: 1.05; }
+  .cp-carte-retour { bottom: 8px; padding: 8px 10px 10px; width: calc(100% - 16px); }
+  .cp-carte-retour .cp-fait { display: none; }
+  .cp-carte-actions .lo-bouton { min-width: 0; flex: 1; }
+  .cp-rose { width: 58px; }
+  .cp-carte-aide { font-size: 0.8rem; }
 }
 @media (min-width: 900px) {
   .cp-modes { grid-template-columns: repeat(3, 1fr); }

@@ -1,4 +1,4 @@
-/* Morand : capitales, jeu « Punaise sur la carte » (bêta). 10 capitales ; on plante une punaise, puis le score dépend de
+/* Morand : capitales, jeu « Punaise sur la carte » (bêta). 10 capitales ; on plante une épingle (à la tête de Morand), puis le score dépend de
    la distance à la capitale demandée (5 000 × e^(−d / 1 492,7 km), comme le barème mondial de GeoGuessr). Indices gratuits,
    3 de chaque sorte par partie, dans l'ordre voulu : le nom du pays, le pays en or. Contours seulement sinon.
    Carte : /capitales/carte.json (produit par outils/capitales/carte.py). */
@@ -34,7 +34,24 @@
     if (CARTE) return Promise.resolve();
     return Promise.all([fetch("/capitales/carte.json").then(r => r.json()), fetch("/capitales/pays.json").then(r => r.json())]).then(([c, p]) => {
       CARTE = c; PAYS = p; cadre = { x: c.cadre[0], y: c.cadre[1], w: c.cadre[2], h: c.cadre[3] };
-      svg.appendChild(el("rect", { class: "cp-mer", x: -500, y: -500, width: c.largeur + 1000, height: c.hauteur + 1000 }));
+      // Style carte ancienne : mer dégradée, halo le long des côtes, quelques vagues.
+      const defs = el("defs", {});
+      const deg = el("radialGradient", { id: "cp-mer-degrade", cx: "50%", cy: "50%", r: "75%" });
+      deg.appendChild(el("stop", { offset: "0%", "stop-color": "#d6e6e0" })); deg.appendChild(el("stop", { offset: "100%", "stop-color": "#b7cfc7" }));
+      defs.appendChild(deg); svg.appendChild(defs);
+      svg.appendChild(el("rect", { class: "cp-mer", x: -500, y: -500, width: c.largeur + 1000, height: c.hauteur + 1000, fill: "url(#cp-mer-degrade)" }));
+      const tous = [c.autres, ...Object.values(c.pays)];
+      for (const classe of ["cp-halo cp-halo-large", "cp-halo"]) {
+        const h = el("g", { class: classe });
+        for (const d of tous) h.appendChild(el("path", { d }));
+        svg.appendChild(h);
+      }
+      const vagues = el("g", { class: "cp-vagues" });
+      for (const [lo, la] of [[-150, 30], [-128, -28], [-38, 26], [-25, -30], [70, -22], [88, -45], [160, 5], [-90, -15]]) {
+        const [x, y] = versXY(la, lo);
+        for (const dy of [0, 4]) vagues.appendChild(el("path", { d: `M${x - 12} ${y + dy}q3 -3 6 0t6 0t6 0t6 0` }));
+      }
+      svg.appendChild(vagues);
       const g = el("g", { class: "cp-terres" });
       g.appendChild(el("path", { class: "cp-terre", d: c.autres }));
       for (const [n, d] of Object.entries(c.pays)) g.appendChild(el("path", { class: "cp-terre", d, "data-pays": n }));
@@ -64,6 +81,18 @@
     svg.style.setProperty("--u", u);
     $$("#cp-calque [data-r]").forEach(c => c.setAttribute("r", Number(c.dataset.r) * u));
     $$("#cp-calque [data-trait]").forEach(c => c.setAttribute("stroke-width", Number(c.dataset.trait) * u));
+    // L'épingle garde la même taille à l'écran ; sa pointe touche l'endroit choisi.
+    $$("#cp-calque [data-l]").forEach(i => {
+      const l = Number(i.dataset.l) * u, h = Number(i.dataset.h) * u;
+      i.setAttribute("width", l); i.setAttribute("height", h);
+      i.setAttribute("x", Number(i.dataset.px) - l / 2); i.setAttribute("y", Number(i.dataset.py) - h);
+    });
+  }
+  // Pendant la partie, le jeu occupe exactement la hauteur de l'écran (sans défiler).
+  function hauteur() {
+    const sec = $("#cp-carte-jeu"); if (sec.hidden) return;
+    const haut = sec.getBoundingClientRect().top + window.scrollY;
+    sec.style.setProperty("--haut-jeu", Math.max(460, window.innerHeight - haut - 12) + "px");
   }
   function toutVoir() { vb = { x: cadre.x, y: cadre.y, w: Math.max(cadre.w, cadre.h * rapport()), h: 0 }; appliquer(); }
   function zoomer(f, px, py) {
@@ -75,8 +104,9 @@
   function cadrer(pts) {   // montrer tous ces points (en unités de carte), avec une marge
     const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
     const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys), a = rapport();
-    let w = Math.max(x1 - x0, (y1 - y0) * a) * 1.6 + 40;
-    vb = { x: (x0 + x1) / 2 - w / 2, y: (y0 + y1) / 2 - w / a / 2, w, h: w / a }; appliquer();
+    // Marge généreuse, et les points placés dans le haut de la vue : l'encart du résultat occupe le bas de la carte.
+    const w = Math.max(x1 - x0, (y1 - y0) * 1.9 * a) * 1.8 + 90, h = w / a;
+    vb = { x: (x0 + x1) / 2 - w / 2, y: (y0 + y1) / 2 - h * 0.36, w, h }; appliquer();
   }
 
   const pointeurs = new Map(); let geste = null;
@@ -108,7 +138,7 @@
   $("#cp-zoom-plus").addEventListener("click", () => zoomer(1.6));
   $("#cp-zoom-moins").addEventListener("click", () => zoomer(1 / 1.6));
   $("#cp-zoom-tout").addEventListener("click", toutVoir);
-  window.addEventListener("resize", () => { if (vb && !$("#cp-carte-jeu").hidden) appliquer(); });
+  window.addEventListener("resize", () => { if (vb && !$("#cp-carte-jeu").hidden) { hauteur(); appliquer(); } });
 
   /* ---------- Partie ---------- */
   $$("[data-carte]").forEach(b => b.addEventListener("click", demarrer));
@@ -118,6 +148,7 @@
       const liste = PAYS.filter(p => !cont || p.continent === cont);
       partie = { continent: cont, indices: { pays: INDICES, or: INDICES }, paquet: melanger(liste).slice(0, Math.min(MANCHES, liste.length)), i: -1, total: 0, manches: [] };
       $("#cp-accueil").hidden = true; $("#cp-carte-fin").hidden = true; $("#cp-carte-jeu").hidden = false;
+      document.body.classList.add("cp-en-jeu"); window.scrollTo(0, 0); hauteur();
       requestAnimationFrame(() => { toutVoir(); suivant(); });
     }).catch(() => { $("#cp-carte-record").textContent = "La carte n'a pas pu être chargée. Rechargez la page."; });
   }
@@ -131,7 +162,7 @@
     $("#cp-carte-pays").textContent = `Où se trouve ${p.capitale.nom} ?`;
     $("#cp-carte-indice").textContent = ""; $("#cp-carte-indice").hidden = true;
     $("#cp-carte-etat").textContent = `Capitale ${partie.i + 1} sur ${partie.paquet.length} · ${nombre(partie.total)} points`;
-    $("#cp-carte-retour").hidden = true; $("#cp-carte-valider").disabled = true; $("#cp-carte-valider").hidden = false;
+    $("#cp-carte-retour").hidden = true; $("#cp-carte-valider").disabled = true; $("#cp-carte-valider").hidden = false; $("#cp-carte-suivant").hidden = true;
     $("#cp-calque").innerHTML = "";
     $$(".cp-terre.cp-or, .cp-terre.cp-revele").forEach(e => e.classList.remove("cp-or", "cp-revele"));
     boutonsIndices();
@@ -170,8 +201,8 @@
     let g = $("#cp-punaise");
     if (!g) { g = el("g", { id: "cp-punaise" }); $("#cp-calque").appendChild(g); }
     g.innerHTML = "";
-    g.appendChild(el("circle", { class: "cp-punaise-tete", cx: x, cy: y, "data-r": 7, r: 1, "data-trait": 2 }));
-    g.appendChild(el("circle", { class: "cp-punaise-point", cx: x, cy: y, "data-r": 2, r: 1 }));
+    g.appendChild(el("circle", { class: "cp-punaise-point", cx: x, cy: y, "data-r": 2.2, r: 1 }));
+    g.appendChild(el("image", { class: "cp-epingle", href: "/capitales/epingle.webp", "data-px": x, "data-py": y, "data-l": 40, "data-h": 53 }));
     $("#cp-carte-valider").disabled = false; appliquer();
   }
   $("#cp-carte-valider").addEventListener("click", () => {
@@ -189,11 +220,12 @@
     $("#cp-carte-verdict").textContent = `${nombre(pts)} points`;
     $("#cp-carte-verdict").className = "cp-verdict " + (pts >= 4000 ? "cp-ok" : pts < 1500 ? "cp-non" : "");
     const autres = CARTE.capitales[p.pays].slice(1).map(k => k[0]);
-    $("#cp-carte-bonne").innerHTML = `<b>${esc(c.nom)}</b> (${esc(p.pays)}) · votre punaise est à ${nombre(c.d)} km`;
+    $("#cp-carte-bonne").innerHTML = `<b>${esc(c.nom)}</b> (${esc(p.pays)}) · votre épingle est à ${nombre(c.d)} km`;
     $("#cp-carte-note").textContent = autres.length ? `${p.pays} a aussi ${autres.length > 1 ? "d'autres capitales" : "une autre capitale"} : ${autres.join(", ")}.` : "";
     $("#cp-carte-indice").hidden = true; boutonsIndices();
     $("#cp-carte-fait").textContent = p.fait;
-    $("#cp-carte-valider").hidden = true; $("#cp-carte-retour").hidden = false;
+    $("#cp-carte-valider").hidden = true; $("#cp-carte-suivant").hidden = false; $("#cp-carte-retour").hidden = false;
+    const ep = $("#cp-punaise"); if (ep) ep.parentNode.appendChild(ep);   // l'épingle par-dessus le trait et la capitale
     $("#cp-carte-etat").textContent = `Capitale ${partie.i + 1} sur ${partie.paquet.length} · ${nombre(partie.total)} points`;
     $("#cp-carte-suivant").textContent = partie.i + 1 >= partie.paquet.length ? "Voir le résultat" : "Capitale suivante";
     $("#cp-carte-suivant").focus({ preventScroll: true });
@@ -203,6 +235,7 @@
   document.addEventListener("keydown", e => {
     if (!partie || $("#cp-carte-jeu").hidden || e.altKey || e.ctrlKey || e.metaKey) return;
     if (e.key === "Enter" && !partie.valide && punaise) { e.preventDefault(); $("#cp-carte-valider").click(); }
+    else if (e.key === "Enter" && partie.valide && !partie.fini && document.activeElement !== $("#cp-carte-suivant")) { e.preventDefault(); $("#cp-carte-suivant").click(); }
     else if (e.key === "+" || e.key === "=") zoomer(1.6); else if (e.key === "-") zoomer(1 / 1.6);
   });
 
@@ -214,14 +247,14 @@
       if (m.records[cle] === undefined || partie.total > m.records[cle]) { record = "Nouveau record !"; m.records[cle] = partie.total; ecrire(m); }
       else record = `Record : ${nombre(m.records[cle])}`;
     }
-    $("#cp-carte-jeu").hidden = true; $("#cp-carte-fin").hidden = false;
+    $("#cp-carte-jeu").hidden = true; $("#cp-carte-fin").hidden = false; window.scrollTo(0, 0);
     $("#cp-carte-fin-titre").textContent = complet ? "Partie terminée" : "Partie interrompue";
     $("#cp-carte-fin-score").textContent = `${nombre(partie.total)} points sur ${nombre(MAX * partie.paquet.length)}`;
     $("#cp-carte-fin-record").textContent = record;
-    $("#cp-carte-manches").innerHTML = partie.manches.length ? `<h3>Vos punaises</h3><ul>${partie.manches.map(x => `<li><span>${esc(x.capitale)} (${esc(x.pays)})${x.indices ? ` · ${x.indices} indice${x.indices > 1 ? "s" : ""}` : ""}</span><b>${nombre(x.d)} km · ${nombre(x.pts)}</b></li>`).join("")}</ul>` : "";
+    $("#cp-carte-manches").innerHTML = partie.manches.length ? `<h3>Vos épingles</h3><ul>${partie.manches.map(x => `<li><span>${esc(x.capitale)} (${esc(x.pays)})${x.indices ? ` · ${x.indices} indice${x.indices > 1 ? "s" : ""}` : ""}</span><b>${nombre(x.d)} km · ${nombre(x.pts)}</b></li>`).join("")}</ul>` : "";
     $("#cp-carte-fin-titre").focus(); recordTexte();
     partie.fini = true;
   }
   $("#cp-carte-rejouer").addEventListener("click", () => partie && demarrer());
-  $("#cp-carte-accueil").addEventListener("click", () => { $("#cp-carte-fin").hidden = true; $("#cp-carte-jeu").hidden = true; $("#cp-accueil").hidden = false; partie = null; recordTexte(); });
+  $("#cp-carte-accueil").addEventListener("click", () => { document.body.classList.remove("cp-en-jeu"); $("#cp-carte-fin").hidden = true; $("#cp-carte-jeu").hidden = true; $("#cp-accueil").hidden = false; partie = null; recordTexte(); });
 })();
